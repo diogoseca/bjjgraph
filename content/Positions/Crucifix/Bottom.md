@@ -169,6 +169,8 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crucifix (Bottom)?</p>
+
 - Bottom practitioner is on their side or back with opponent controlling their back, one arm trapped behind or under opponent's leg (typically the near-side arm), severely limiting its mobility and defensive capability through figure-four or triangle leg configuration
 - Opponent establishes dominant back control position with at least one hook secured, weight distributed across bottom player's upper body and hips, creating heavy pressure that restricts movement and breathing while maintaining chest connection to upper back
 - Bottom practitioner's second arm is either controlled by opponent's grip, trapped under their own body weight, or pinned against the mat, eliminating the ability to create frames or establish defensive barriers against neck attacks
@@ -182,6 +184,8 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Crucifix (Bottom)?</p>
+
 - Opponent has established back control with at least one hook
 - One arm has been isolated and trapped behind opponent's leg or body
 - Second arm is compromised through grips, positioning, or body weight
@@ -194,6 +198,8 @@ Survival from this position requires immediate recognition, calm systematic defe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crucifix?</p>
 
 - Immediately recognize crucifix entry and prevent full consolidation—early recognition dramatically increases escape success rates
 - Protect the neck as absolute priority using chin tuck, shoulder raise, and positioning of any available defensive structures
@@ -210,10 +216,12 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Crucifix (Bottom)?</p>
+
 **If opponent secures deep rear naked choke grip with choking arm under chin:**
 - Execute **[[Two-on-one hand defense/Attacker|Two-on-one hand defense]]** → [[Positions/Back Control]] (Probability: 40%)
 - Execute **[[Chin tuck and shoulder raise/Attacker|Chin tuck and shoulder raise]]** → [[Positions/Back Control]] (Probability: 50%)
-- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 10%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[game-over]] (Probability: 10%)
 
 
 **If trapped arm begins to free from leg trap with space creation:**
@@ -241,6 +249,8 @@ Survival from this position requires immediate recognition, calm systematic defe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crucifix?</p>
 
 ### 1. Explosive pulling on trapped arm directly against the leg trap
 
@@ -280,6 +290,8 @@ Survival from this position requires immediate recognition, calm systematic defe
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Crucifix defense?</p>
+
 ### Crucifix Recognition and Initial Defense Drill
 
 Partner establishes back control and slowly works toward crucifix isolation. Bottom player practices immediate recognition of arm trap attempt, early defensive hand fighting, and prevention of full crucifix consolidation. Focus on recognizing positional cues that indicate crucifix entry and responding before full control is established.
@@ -313,38 +325,6 @@ From established crucifix, bottom player works specific pathway to turtle positi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important priority when you recognize you're being put into crucifix?
-**A**: Protecting the neck is the absolute priority. Before any escape attempt, establish chin tuck, shoulder raise, and use any available hand to create barriers against choke attacks. The hierarchy of threats in crucifix puts neck attacks at the top—you can survive position and attempt escapes, but a locked choke ends the match. Only after securing neck defense should you begin working on arm extraction and position recovery.
-
-**Q2**: Your opponent has your near arm trapped in their leg triangle—what is the correct method to free it?
-**A**: Do not pull explosively against the leg trap, as this wastes energy and typically tightens the position. Instead, use subtle hip movement and angle changes to create space around the trapped arm. Shrimp your hips to change the angle of the leg trap, making extraction easier. Work incrementally—small movements that don't telegraph your intention are more effective than large explosive attempts that alert the opponent to counter.
-
-**Q3**: How do you maintain effective defensive positioning of your free arm in crucifix?
-**A**: The free arm must remain active and defensive at all times. Primary uses: defend the neck by keeping the hand at the collar or chin level, create frames against opponent's head or shoulder to prevent them from advancing, and work to push against opponent's leg triangle to create space for the trapped arm. Never allow the free arm to be captured—if both arms are controlled, the position becomes virtually inescapable and submission is inevitable.
-
-**Q4**: Why is energy management critical from crucifix bottom, and how do you conserve energy?
-**A**: Crucifix bottom has a short time sustainability—you cannot outlast the opponent by simply defending. However, explosive movements often tighten the position and exhaust you faster. Conserve energy by breathing calmly (avoiding panic hyperventilation), using micro-adjustments rather than large movements, and working incrementally. Accept that escape takes time and systematic effort. Explosive energy expenditure should be reserved for the final moment of escape execution, not wasted on preliminary movements.
-
-**Q5**: What escape pathway should you prioritize: freeing the trapped arm or recovering guard position?
-**A**: Address the hierarchy of threats in order: (1) defend immediate submission threats, especially chokes, (2) free the trapped arm, (3) recover position. Freeing the trapped arm is prerequisite to meaningful guard recovery because you cannot create effective frames or escape structures with only one arm. However, if a choke is being applied, defending the choke takes priority over arm extraction. The free arm's primary job shifts between neck defense and working to free the trapped arm based on opponent's attacks.
-
-**Q6**: Your opponent begins applying a rear naked choke while you're in crucifix—what is your immediate response?
-**A**: Immediately use your free hand to establish two-on-one defense against the choking arm, pulling it away from your neck. Simultaneously tuck your chin hard and raise your shoulder on the choking side to create barriers. If the choke is shallow, you may be able to strip the grip. If deep, fight the hands while beginning to turn toward the choking arm—this takes pressure off the neck and may create escape angles. Do not abandon choke defense to work escapes—survive first.
-
-**Q7**: When is the optimal window to attempt escape from crucifix bottom?
-**A**: The optimal escape windows occur when the opponent is in transition—either entering the crucifix (before full consolidation), adjusting their position for better control, or committing to a submission attempt. During adjustments and submissions, the opponent's weight and attention shift, creating momentary gaps in their control. Recognize these windows and execute escape movements with proper timing. The worst time to escape is when the opponent has settled into stable control with no movement.
-
-**Q8**: If you partially free your trapped arm but the opponent recaptures it, what adjustment should you make?
-**A**: If the arm was partially freed but recaptured, the opponent likely closed the gap you created. On the next attempt, combine arm extraction with immediate position recovery—don't just free the arm and wait. As the arm begins to clear, immediately shrimp your hips and work to insert your knee or turn to turtle. The arm extraction and position change must happen together, or the opponent will simply re-establish the trap. Also consider that their leg position may have weakened—look for better extraction angles.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -367,7 +347,7 @@ From established crucifix, bottom player works specific pathway to turtle positi
 
 - **[[Positions/Back Control]]** - Primary transition target—less disadvantaged position
 - **[[Positions/Turtle]]** - Common escape destination—defensive recovery position
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from this position
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat from this position
 - **[[Transitions/Armbar from Crucifix]]** - Secondary submission threat requiring specific defense
 - **[[Positions/Mount/Mounted Crucifix]]** - Worse variation if opponent transitions to mount
 - **[[Positions/Closed Guard]]** - Ideal escape destination—return to guard game

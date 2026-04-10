@@ -207,15 +207,15 @@ The hip bump sweep occupies a foundational position within the closed guard offe
 
 - [[Transitions/Pendulum Sweep]] - Follow-up sweep when opponent defends hip bump by driving weight backward
 
-- [[Submissions/Triangle from Closed Guard]] - Primary submission follow-up when opponent posts arm wide to defend sweep
+- [[Transitions/Closed Guard to Triangle]] - Primary submission follow-up when opponent posts arm wide to defend sweep
 
-- [[Submissions/Armbar from Guard]] - Secondary submission option when opponent posts arm during sweep defense
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Submission option when opponent posts arm during sweep defense, attacking the extended limb
 
-- [[Submissions/Kimura from Guard]] - Alternative attack when opponent pulls arm free during sweep attempt
+- [[Transitions/Kimura Sweep]] - Alternative attack when opponent pulls arm free during sweep attempt, transitioning to kimura grip
 
 - [[Transitions/Flower Sweep]] - Complementary sweep that works well in combination when opponent adjusts to hip bump
 
-- [[Submissions/Omoplata from Guard]] - Advanced follow-up when opponent defends by circling away from sweep direction
+- [[Transitions/Closed Guard to Omoplata]] - Advanced follow-up when opponent defends by circling away from sweep direction
 
 - [[Positions/Closed Guard]] - Starting position - hip bump is core technique from this position
 

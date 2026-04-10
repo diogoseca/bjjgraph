@@ -154,6 +154,8 @@ When your opponent begins straightening their leg against your kneebar control, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Straighten Leg Kneebar Defense?</p>
+
 - Opponent's quadriceps begins to engage and create resistance against your pulling pressure before visible leg movement
 - Opponent shifts hips to rotate toward you, changing the force angle and reducing your fulcrum effectiveness
 - Opponent's free foot begins searching for and planting on the mat to establish a base for extension force generation
@@ -165,6 +167,8 @@ When your opponent begins straightening their leg against your kneebar control, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Straighten Leg Kneebar Defense?</p>
 
 - Recognize the straighten leg defense early through tactile cues—quad engagement and hip rotation are the first indicators before visible leg movement begins
 - Maintain constant hip-to-knee connection with forward drive to preserve your finishing fulcrum against their extension pressure
@@ -179,6 +183,8 @@ When your opponent begins straightening their leg against your kneebar control, 
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Straighten Leg Kneebar Defense?</p>
+
 ### 1. Sharply re-break the leg bend by driving hips forward and pulling the leg back to bent position with a quick two-arm pull
 
 - **When to use**: Early in the defense when the opponent has begun extending but has not yet reached past 50% extension
@@ -189,7 +195,7 @@ When your opponent begins straightening their leg against your kneebar control, 
 ### 2. Transition to heel hook by rotating the opponent's foot during their extension attempt, exploiting the rotational angles created by their defensive movement
 
 - **When to use**: When the opponent's extension is succeeding and kneebar pressure is diminishing, but their foot is still within your control
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Submission via heel hook, converting a failing kneebar into an alternative finish
 - **Risk**: Requires releasing kneebar grip to transition, potentially allowing full extraction if heel hook grip is not established quickly
 
@@ -203,7 +209,7 @@ When your opponent begins straightening their leg against your kneebar control, 
 ### 4. Anticipate the extension and time a sharp pull to accelerate the kneebar finish during the opponent's commitment to straightening
 
 - **When to use**: When you read the extension attempt early and can capitalize on the opponent's quadriceps engagement against your finishing direction
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Half Guard]]
 - **If successful**: Kneebar finish by using the opponent's own extension commitment against them
 - **Risk**: Requires precise timing—mistiming allows the opponent to complete their defense with added momentum
 
@@ -215,11 +221,13 @@ When your opponent begins straightening their leg against your kneebar control, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Straighten Leg Kneebar Defense?</p>
+
 ### → [[Positions/Kneebar Control]]
 
 Re-break the opponent's leg extension early by driving hips forward and sharply pulling the leg back to bent position with elbows squeezed tight, then immediately tighten all control points to prevent repeated defense attempts
 
-### → [[game-over]]
+### → [[Positions/Half Guard]]
 
 Either finish the kneebar by timing a sharp extension against the opponent's defensive movement, or transition to heel hook or ankle lock when the kneebar becomes untenable but their foot remains accessible
 
@@ -230,6 +238,8 @@ Either finish the kneebar by timing a sharp extension against the opponent's def
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Straighten Leg Kneebar Defense?</p>
 
 ### 1. Releasing grip when the opponent begins straightening their leg instead of readjusting and re-breaking the bend
 
@@ -259,6 +269,8 @@ Either finish the kneebar by timing a sharp extension against the opponent's def
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Straighten Leg Kneebar Defense?</p>
+
 **Phase 1: Counter Recognition** - Reading defensive cues and developing tactile awareness
 Partner performs the straighten leg defense at various speeds while you focus solely on recognizing the early indicators: quad engagement, hip rotation, foot posting. Do not counter initially—just develop pattern recognition and learn to identify the defense before visible leg movement begins.
 
@@ -272,26 +284,6 @@ Full resistance positional sparring where the partner attempts the straighten le
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your opponent is about to attempt the straighten leg kneebar defense?
-**A**: The primary indicators are engagement of the opponent's quadriceps creating resistance to your pulling pressure, rotation of their hips toward you to change the force angle, and their free foot beginning to search for the mat to establish a base for extension force. You may also feel their ankle beginning to rotate within your grip as they attempt to break your alignment. These cues typically appear in sequence, giving you a brief window to counter before full extension begins.
-
-**Q2**: What is your best counter when the opponent successfully begins straightening their leg against your kneebar control?
-**A**: The most effective counter is to immediately drive your hips forward while sharply re-breaking the leg bend with a quick pull. If the leg is approaching full extension, transition to a straight ankle lock by adjusting your grip to the foot and ankle rather than fighting a losing battle for knee control. Alternatively, if their foot rotation creates an opening, switch to a toe hold or heel hook that capitalizes on the newly available rotational angle.
-
-**Q3**: When maintaining kneebar control, what adjustment prevents the opponent from easily straightening their leg?
-**A**: Prevent leg straightening by maintaining constant hip-to-knee connection with forward hip drive, keeping the leg pulled tight across your chest with elbows pinched together, and using your legs to control their hip rotation. If your hips separate from their knee joint, you lose the fulcrum needed for finishing pressure, and their quadriceps can overpower your arms. The key is using your entire body structure to maintain the bent-knee position rather than relying on arm strength alone.
-
-**Q4**: Your opponent has partially straightened their leg and is beginning to extract—what is your decision-making framework?
-**A**: Assess whether you can re-break the leg within two seconds. If yes, sharply drive hips forward and re-pull the leg to bent position. If the leg is past 80% extension, immediately transition to an alternative attack rather than fighting a losing position. Options include switching to straight ankle lock, transitioning to heel hook via saddle entry, or releasing and re-engaging with a fresh leg attack entry from open guard. Never burn energy fighting a fully straightened leg—transition immediately.
-
-
-
-</section>
 
 
 </main>

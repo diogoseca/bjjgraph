@@ -188,6 +188,8 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Counter Entangle from Cross Ashi?</p>
+
 - Wait for the opponent's positional adjustment before initiating—never force the entangle against tight cross ashi control
 - Thread your free leg using a smooth hooking motion rather than explosive kicking that telegraphs intent and creates defensive windows
 - Maintain heel defense on your trapped leg throughout the entire transition—your heel is most vulnerable during the threading moment
@@ -202,6 +204,8 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Counter Entangle from Cross Ashi?</p>
+
 - Opponent's outside leg cross has loosened during a grip adjustment, positional transition, or submission setup
 - Your free leg retains sufficient mobility and range of motion to thread between the opponent's legs
 - Hands are actively framing on opponent's hips or controlling their ankle grips to create threading space
@@ -214,6 +218,8 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Counter Entangle from Cross Ashi step by step?</p>
 
 1. **Identify the threading window**: Monitor your opponent's outside leg cross and grip adjustments continuously. The optimal window appears when they loosen their outside leg to adjust heel grips, transition toward Saddle or Honey Hole, or reposition their hips for a better finishing angle. Do not initiate until you feel a clear reduction in outside leg pressure against your trapped leg. Premature attempts against tight control will fail and may allow the opponent to advance.
 2. **Frame and create threading space**: Use both hands to push against your opponent's hips, knees, or ankles to create two to three inches of space between their legs. This framing action opens the gap needed to begin threading your free leg. Simultaneously maintain your trapped leg's defensive knee flex to prevent opportunistic heel hook attacks during the moment your attention shifts to the free leg insertion.
@@ -243,6 +249,8 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Counter Entangle from Cross Ashi?</p>
+
 - **Opponent immediately tightens cross and accelerates heel hook attack when they feel initial threading movement** (Effectiveness: High) - Your Response: Abandon the threading attempt immediately and return to full heel defense. Re-engage hand fighting to strip their grips before reattempting. The timing window has closed and forcing through invites submission. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
 - **Opponent capitalizes on threading motion to transition into Honey Hole by reconfiguring their leg position during the exchange** (Effectiveness: High) - Your Response: If you recognize the Honey Hole entry mid-thread, retract your free leg immediately and address the new entanglement. Focus on preventing their far-side leg from securing the saddle hook. You may need to accept 50-50 is no longer achievable and switch to pure escape tactics. → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent strips the threading leg by pushing it back out before the 50-50 triangle is completed** (Effectiveness: Medium) - Your Response: Maintain the inside hook aggressively while reattempting the triangle lock. If the hook itself is stripped, reset to framing position and wait for the next window. Often the opponent's stripping effort loosens their own cross, creating a secondary opportunity within seconds. → Leads to [[Positions/Ashi Garami/Cross Ashi-Garami]]
@@ -254,6 +262,8 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Counter Entangle from Cross Ashi?</p>
 
 ### 1. Attempting counter-entangle against tight cross ashi control without waiting for an adjustment window
 
@@ -288,6 +298,8 @@ As the person trapped in Cross Ashi-Garami bottom, the counter-entangle converts
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Counter Entangle from Cross Ashi (Attacker)?</p>
+
 **Phase 1: Mechanics** - Threading motion and triangle completion
 Partner establishes loose cross ashi with no resistance. Practice the full threading sequence: frame, thread, hook, triangle, grip, realign. Repeat 20 times per side focusing on smooth, controlled leg insertion and immediate triangle lock completion. No timing pressure—pure mechanical repetition.
 
@@ -305,42 +317,12 @@ Start in Cross Ashi-Garami bottom with partner at full resistance. Attempt the c
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing cue that signals the right moment to initiate the counter-entangle from Cross Ashi bottom?
-**A**: The primary timing cue is feeling the opponent's outside leg cross loosen during a grip adjustment, positional transition, or submission setup change. This loosening creates the physical gap needed to thread your free leg. Secondary cues include the opponent reaching with both hands toward your heel (momentarily reducing leg control focus) or shifting their hips to reposition for a different angle. Initiating against tight control wastes energy and invites the opponent to advance to Honey Hole.
-
-**Q2**: Your opponent begins transitioning from Cross Ashi toward Saddle while you are mid-thread—what should you do?
-**A**: If you detect the Saddle transition early enough (their far-side leg starting to hook over your hip), retract your threading leg immediately and address the Honey Hole/Saddle entry as the priority threat. Saddle is significantly worse than Cross Ashi for you. If your hook is already deep and close to completing the triangle, commit to finishing the 50-50 lock quickly, as the Saddle transition may actually facilitate your triangle completion by changing the opponent's leg configuration.
-
-**Q3**: What grip configuration should your hands maintain during the threading motion?
-**A**: During the initial threading, both hands should be framing on the opponent's hips, knees, or ankles to create space for leg insertion. Once the hook is secured and the triangle is completing, transition your hands immediately to controlling the opponent's heel and ankle to prevent them from attacking your heel in the new 50-50 position. The grip transition from framing to heel control should be seamless and happen in the same beat as the triangle lock.
-
-**Q4**: Why is maintaining heel defense on your trapped leg essential even while threading your free leg?
-**A**: The threading motion splits your attention and can create a moment of vulnerability on your trapped leg. If you fully commit your focus to the free leg insertion, the opponent may capitalize by attacking a suddenly undefended heel—finishing the submission during the transition itself. The trapped leg must maintain constant knee flexion and heel retraction throughout the sequence. This is the most dangerous moment of the technique because you are in transition between two defensive configurations.
-
-**Q5**: What is the mechanical purpose of the 50-50 triangle lock, and what happens if you skip it?
-**A**: The triangle lock (crossing your ankles in figure-four configuration around the opponent's leg) is what converts the position from a loose leg scramble into structured 50-50 Guard. Without the triangle, the opponent can simply push your threaded leg back out or extract their own leg, negating all threading progress. The triangle creates bidirectional entanglement that constrains both players equally, which is precisely the goal—converting asymmetrical disadvantage into symmetrical neutrality.
-
-**Q6**: Your opponent strips your inside hook before you complete the triangle—how do you respond?
-**A**: If the hook is stripped but you still have your foot in their leg structure, immediately reattempt the hook with aggressive knee flexion. If your foot is pushed completely out, reset to defensive framing position and wait for the next window rather than desperately forcing a second attempt. Often the opponent's effort to strip your hook loosens their own cross, creating a secondary window within seconds. Stay calm, maintain heel defense, and recognize that failed attempts are common—the technique frequently requires multiple attempts.
-
-**Q7**: How does the counter-entangle compare strategically to a clean leg extraction escape from Cross Ashi?
-**A**: Clean leg extraction requires breaking the opponent's entire control structure (inside hook, outside cross, and heel grip) simultaneously, which demands significant energy and timing against skilled leg lockers. The counter-entangle accepts continued entanglement but changes its character from asymmetrical (opponent has finishing advantage) to symmetrical (both players have comparable options). Against opponents with strong cross ashi retention, counter-entangling to 50-50 is often more achievable than clean extraction and preserves the option for your own leg attacks.
-
-**Q8**: What is the primary risk of a failed counter-entangle attempt, and how do you mitigate it?
-**A**: The primary risk is that your threading motion exposes your trapped leg's heel or provides the opponent with leverage to advance to Honey Hole/Saddle. Mitigation requires three things: maintaining heel defense on the trapped leg throughout the entire attempt, committing only when a genuine window exists rather than forcing against tight control, and having the discipline to abort cleanly if the attempt encounters significant resistance. A failed attempt that resets to cross ashi is acceptable; a failed attempt that leads to Honey Hole is catastrophic.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Counter Entangle from Cross Ashi?</p>
 
 The counter-entangle involves moving your leg through a zone of increased heel hook vulnerability. During the threading motion, your trapped leg's heel may become briefly more exposed as you shift focus to the free leg insertion. Never attempt this transition if the opponent has a secured heel grip with figure-four configuration—address grip fighting and heel defense first. If you feel rotational pressure on your knee at any point during the threading, immediately abandon the attempt and prioritize tapping if necessary. The technique should feel controlled and smooth; if it requires forcing your leg through tight resistance, the timing window has closed and continuing risks knee ligament injury. Always practice with cooperative partners at low intensity before applying under resistance.
 

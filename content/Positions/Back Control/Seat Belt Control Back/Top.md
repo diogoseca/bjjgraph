@@ -20,8 +20,8 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 35% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Seat Belt Control Back",
+      "text": "From this position, attempt Rear Naked Choke from Seat Belt Control Back. This technique is attempted in 37% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,8 +32,8 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Seat Belt Control Back",
+      "text": "From this position, attempt Bow and Arrow Choke from Seat Belt Control Back. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Master Seat Belt Control from top back position. Dominant 4-point 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Short Choke",
-      "text": "From this position, attempt Short Choke. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Short Choke from Seat Belt Control Back",
+      "text": "From this position, attempt Short Choke from Seat Belt Control Back. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Position Definition
 
+<p class="section-subtitle">What is Seat Belt Control Back (Top)?</p>
+
 - Diagonal seat belt grip maintained across opponent's torso with one arm over the shoulder and the other under the opposite armpit, hands connected at opponent's chest or lat muscle, creating unbreakable control structure that prevents rotation in either direction
 - Both legs hooked inside opponent's thighs with feet positioned on inner thigh muscles or crossed in body triangle configuration, controlling hip movement and preventing opponent from turning into you or away from you while maintaining deep hook penetration
 - Chest pressed firmly against opponent's back with head positioned to one side of their head, maintaining constant forward pressure that eliminates space and keeps opponent's shoulders pinned forward, creating suffocating sensation and limiting defensive mobility
@@ -182,6 +184,8 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Seat Belt Control Back (Top)?</p>
+
 - Successful transition to opponent's back from turtle position, side control, guard pass, or scramble situation with their back exposed
 - Opponent's back is exposed with their defensive focus preventing them from turning to face you or establishing guard
 - Ability to establish at least one hook inside opponent's thigh before securing upper body control and seat belt configuration
@@ -194,6 +198,8 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Seat Belt Control Back?</p>
 
 - Diagonal Grip Dominance: The over-under seat belt configuration creates superior control through diagonal force distribution across opponent's body that is biomechanically difficult to counter
 - Hook Security: Both legs must remain deep inside opponent's thighs or locked in body triangle to prevent hip movement and escape while maintaining offensive mobility
@@ -210,14 +216,16 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Seat Belt Control Back (Top)?</p>
+
 **If opponent's hands move high to defend neck or break seat belt grip at chest level:**
-- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 65%)
-- Execute **[[Transitions/Short Choke/Attacker|Short Choke]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/Short Choke/Attacker|Short Choke]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent tucks chin and defends neck with hands protecting throat area:**
 - Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[game-over]] (Probability: 50%)
 
 
 **If opponent turns toward you attempting to face guard and escape hooks:**
@@ -227,11 +235,11 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 **If opponent extends arms attempting to base or post for escape leverage:**
 - Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 60%)
-- Execute **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent turns away and attempts to remove bottom hook by hip movement:**
-- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 50%)
 
 
@@ -242,6 +250,8 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Seat Belt Control Back?</p>
 
 ### 1. Allowing space between chest and opponent's back during control maintenance
 
@@ -286,6 +296,8 @@ Seat belt control excels when opponent is attempting to escape or defend, as the
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Seat Belt Control Back attacks?</p>
+
 ### Seat Belt Maintenance Drill
 
 Partner starts with seat belt control established. Opponent attempts various escape sequences focusing on grip breaking, turning, and hook removal while top practitioner maintains position without attempting submissions. Focus purely on positional retention and adjustment.
@@ -300,7 +312,7 @@ From established seat belt control, practice flowing between RNC attempt, armbar
 **Duration**: 5 minute rounds
 
 
-### Grip Fighting From Back
+### Grips From Back
 
 Start with seat belt established. Opponent uses both hands to actively attack and break seat belt grip while defender maintains connection through grip adjustments, hand fighting, and pressure distribution. Develops grip endurance and defensive grip retention.
 
@@ -325,38 +337,6 @@ Start from turtle position. Practice taking back, establishing seat belt control
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins bridging explosively while hand fighting your seat belt grip - what immediate adjustment do you make?
-**A**: Drop your weight lower on their back by sliding your hips down toward their hips, tighten chest-to-back connection to eliminate any space created by the bridge, and drive your hooks deeper to prevent hip rotation. The bridge creates momentary space that you must immediately close by following their movement with your body weight while reinforcing your grip connection. Never allow the bridge to create cumulative space - match their movement with downward pressure.
-
-**Q2**: What are the essential grip configurations for maintaining seat belt control from the back?
-**A**: The primary seat belt configuration requires one arm over opponent's shoulder and the other under their opposite armpit, with hands connected across their chest or lat area. Connection options include gable grip (palm-to-palm with fingers interlocked), wrist-on-wrist grab, or palm cup grip. The over-arm should stay tight to prevent opponent from trapping it, while the under-arm provides the primary choking threat. Hand connection must be constantly reinforced as breaking this connection is opponent's primary escape objective.
-
-**Q3**: What is the optimal weight distribution for maintaining seat belt back control without exhausting yourself?
-**A**: Weight should be distributed primarily through chest compression against opponent's back and through your hooks/legs rather than through arm strength. Your core and hips provide the controlling pressure while arms maintain grip connection without generating force. Approximately 60% of control pressure should come from chest-to-back connection and hook tension, 30% from hip positioning, and only 10% from arm grip. This allows sustained control without grip fatigue that leads to position loss.
-
-**Q4**: How do you shut down the primary escape attempt where opponent tries to slide their hips to the mat and turn toward you?
-**A**: Immediately drop your bottom hook deeper while using your top hook to prevent their far hip from rotating. Increase chest pressure to pin their shoulders forward, preventing the rotation needed to turn. If they create any angle, immediately follow by adjusting your body position to maintain perpendicular alignment with their spine. The key is preventing the initial rotation rather than recovering after they've created angle - once momentum builds, escape probability increases exponentially.
-
-**Q5**: What grip priorities should you maintain when opponent actively attacks your seat belt with both hands?
-**A**: Prioritize maintaining hand connection above all else - if hands separate, immediately reconnect before opponent can exploit the opening. When opponent attacks your over-arm grip, use your under-arm to reinforce by grabbing your own wrist. When opponent attacks under-arm, sink it deeper toward their far hip making it harder to access. Switch between grip configurations (gable, wrist, palm cup) based on which provides best security against their specific attack. Never allow both grips to be compromised simultaneously.
-
-**Q6**: Your opponent is defending perfectly with chin tucked and hands controlling your choking arm - how do you apply pressure to force a reaction?
-**A**: Apply diagonal pressure across their body by pulling with your over-arm while pushing with your under-arm, creating rotational stress. Alternate between squeezing tightly and releasing slightly to disrupt their defensive rhythm. Use your hooks to rock their hips side-to-side, forcing them to constantly readjust. Attack the arm defending the neck - if they commit hands to neck defense, their arms become vulnerable to isolation for armbar or crucifix entries. The goal is creating dilemmas where defending one threat exposes another.
-
-**Q7**: How do you anticipate and counter the Granby roll escape attempt from back control?
-**A**: Recognize the setup - opponent creates space on one side and loads weight to initiate the roll. Counter by immediately following their hip movement with your hooks, preventing the inversion. Drop your weight low and toward the direction they're attempting to roll, using chest pressure to pin them flat. If they begin the roll, release your top hook and post your leg wide to prevent being rolled over, then immediately re-establish hooks once their movement stops. Stay heavy and connected rather than trying to hold them static.
-
-**Q8**: Opponent has cleared your bottom hook - how do you recover position before they complete the escape?
-**A**: Immediately transition to body triangle attempt with your top leg or swing the cleared leg over their body to establish reverse hooks. Simultaneously tighten seat belt grip and increase chest pressure to prevent further rotation. If body triangle isn't available, use your free leg to post and prevent them from completing the turn while working to re-insert the hook from a new angle. Consider transitioning to technical mount or gift wrap if hook recovery isn't immediately possible - maintaining some control is better than losing position entirely.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -387,7 +367,7 @@ Start from turtle position. Practice taking back, establishing seat belt control
 - **[[Positions/Turtle]]** - Common entry position - Frequently transition to seat belt from turtle via back take
 - **[[Positions/Mount/Technical Mount]]** - Alternative advancement - Position accessed when opponent partially escapes hooks
 - **[[Positions/Harness]]** - Related grip concept - Shares upper body control mechanics with seat belt configuration
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat - Highest percentage finish from seat belt back control
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat - Highest percentage finish from seat belt back control
 
 
 </section>

@@ -128,7 +128,7 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 - **[[Transitions/Sweep from Saddle/Attacker|Sweep from Saddle]]** (1% of attempts)
 
-- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -185,15 +185,13 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (40% of attempts)
-
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (5% of attempts)
+- **[[Outside Heel Hook from Saddle/Attacker|Outside Heel Hook from Saddle]]** (5% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (10% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (9% of attempts)
+- **[[Toe Hold from Saddle/Attacker|Toe Hold from Saddle]]** (9% of attempts)
 
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (3% of attempts)
+- **[[Kneebar from Saddle/Attacker|Kneebar from Saddle]]** (3% of attempts)
 
 - **[[Transitions/Back Take from Ashi/Attacker|Back Take from Ashi]]** (10% of attempts)
 
@@ -201,13 +199,13 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (5% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (3% of attempts)
+- **[[Calf Slicer from Saddle/Attacker|Calf Slicer from Saddle]]** (3% of attempts)
 
-- **[[Positions/Estima Lock/Attacker|Estima Lock]]** (2% of attempts)
+- **[[Estima Lock from Saddle/Attacker|Estima Lock from Saddle]]** (2% of attempts)
 
 - **[[Transitions/Fallback to Inside Ashi-Garami/Attacker|Fallback to Inside Ashi-Garami]]** (3% of attempts)
 
-- **[[Transitions/Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (0% of attempts)
+- **[[Heel Hook from Saddle/Attacker|Heel Hook from Saddle]]** (40% of attempts)
 
 - **[[Transitions/Saddle Fallback to Inside Ashi/Attacker|Saddle Fallback to Inside Ashi]]** (4% of attempts)
 

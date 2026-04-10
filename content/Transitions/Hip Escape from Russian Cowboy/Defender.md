@@ -146,6 +146,8 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape from Russian Cowboy?</p>
+
 - Bottom player establishes a forearm frame against your hip or lower ribcage, creating separation between your chest and their back
 - Bottom player's near-side hand moves from neck defense to grip your hooking ankle or foot, indicating hook extraction preparation
 - Bottom player angles their hips toward your free leg side rather than staying neutral, committing to the escape direction
@@ -158,6 +160,8 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape from Russian Cowboy?</p>
 
 - Maintain constant chest-to-back pressure to eliminate the space needed for frame creation and hip escape movement
 - Follow the bottom player's hip movement with your own hips rather than anchoring statically against their escape direction
@@ -172,6 +176,8 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape from Russian Cowboy?</p>
 
 ### 1. Drive chest weight forward and collapse frame by angling into bottom player's hip frame
 
@@ -209,6 +215,8 @@ Defending against the hip escape from Russian Cowboy top requires proactive cont
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape from Russian Cowboy?</p>
+
 ### → [[Positions/Russian Cowboy]]
 
 Maintain constant chest pressure, immediately collapse any frames before they become established, and threaten submissions when hands leave neck defense. The key is preventing escape attempts from reaching execution phase rather than countering them during movement.
@@ -224,6 +232,8 @@ When the bottom player commits to the hip escape and creates space, use that spa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape from Russian Cowboy?</p>
 
 ### 1. Remaining static and relying solely on grip strength to prevent escape rather than actively following hip movement
 
@@ -253,6 +263,8 @@ When the bottom player commits to the hip escape and creates space, use that spa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape from Russian Cowboy?</p>
+
 **Phase 1: Control Maintenance Drilling** - Maintaining chest-to-back pressure and following hip movement
 Partner performs repeated hip escapes from Russian Cowboy bottom while you focus exclusively on following their movement and maintaining chest contact and hook depth. No submissions or advancement attempts. Build the habit of mobile control that travels with the bottom player's escape movement. Five three-minute rounds.
 
@@ -269,23 +281,6 @@ Live positional sparring from Russian Cowboy with full resistance. Practice the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest warning signs that the bottom player is preparing a hip escape from Russian Cowboy?
-**A**: The earliest signs are the bottom player establishing a frame against your hip with their near-side forearm, their near-side hand moving from neck defense toward your hooking ankle, and their hips beginning to angle toward your free leg side. The frame establishment is typically the first preparatory action because it creates the space needed for all subsequent escape steps. Recognizing and addressing this initial frame before it becomes load-bearing is the most efficient way to shut down the entire escape sequence.
-
-**Q2**: Why is following the hip escape with your own hip movement more effective than anchoring in place?
-**A**: Static anchoring relies entirely on grip strength and hook tension to resist the escape, which is an energy-intensive approach that the bottom player can overcome through repeated shrimps creating cumulative distance. Following with your own hips maintains the same relative body position and chest contact without requiring excessive grip strength, using your body weight and structural alignment rather than muscular effort. This approach also keeps your hook depth constant regardless of how many shrimps the bottom player executes, making the escape mechanically impossible rather than merely difficult.
-
-**Q3**: When should you attempt to advance to truck rather than simply maintaining Russian Cowboy control?
-**A**: Advance to truck when the bottom player commits to a hip escape that separates their knees, creating the space needed to thread your second hook. The ideal moment is during the peak of their shrimping motion when their leg separation is greatest and their attention is focused on the escape movement rather than knee defense. However, only attempt this when you are confident in your truck entry timing, as a failed second hook insertion can result in losing your original hook depth and weakening your overall control position.
-
-
-
-</section>
 
 
 </main>

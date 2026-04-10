@@ -162,6 +162,8 @@ As the bottom player in Mission Control, defending against the top player's post
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Break from Mission Control?</p>
+
 - Top player's free hand moves to strip your head control grips rather than posting defensively on the mat
 - Top player shifts weight backward and widens their base significantly, indicating preparation for a posture drive
 - Top player begins posting their free hand on your hip, establishing the frame needed for structural separation
@@ -174,6 +176,8 @@ As the bottom player in Mission Control, defending against the top player's post
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Break from Mission Control?</p>
 
 - Head control must be maintained relentlessly - constantly re-grip and adjust as the top player fights your grips, using both hands to prevent any gap in pulling pressure
 - Hip elevation is active and continuous - drive hips upward against the top player's attempts to compress them, using core engagement to maintain structural height
@@ -189,6 +193,8 @@ As the bottom player in Mission Control, defending against the top player's post
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Break from Mission Control?</p>
 
 ### 1. Transition to New York by redirecting the trapped arm into deeper isolation as the top player strips your head control grips
 
@@ -226,6 +232,8 @@ As the bottom player in Mission Control, defending against the top player's post
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Break from Mission Control?</p>
+
 ### → [[Positions/Rubber Guard/New York]]
 
 When the top player commits to stripping grips and recovering posture, use the transitional window to flow into New York control. As they fight your head control, redirect the trapped arm into deeper isolation by bringing your leg over and across, establishing New York before they can extract the arm completely. The top player's focus on grip stripping creates the opening for this transition.
@@ -241,6 +249,8 @@ Neutralize the posture break by maintaining at least one head control grip throu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Break from Mission Control?</p>
 
 ### 1. Fighting the posture break purely with grip strength rather than transitioning to a better control position when Mission Control is compromised
 
@@ -270,6 +280,8 @@ Neutralize the posture break by maintaining at least one head control grip throu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Break from Mission Control?</p>
+
 **Phase 1: Grip Maintenance Under Pressure** - Developing grip endurance and re-gripping speed against active grip fighting
 Establish Mission Control with full head control and shoulder isolation. Partner (top player) focuses exclusively on stripping your head control grips for 3-minute rounds. Practice re-gripping with the opposite hand immediately after each strip, maintaining control continuity. Track how many successful grip strips the partner achieves per round and work to reduce the number across training sessions.
 
@@ -286,29 +298,6 @@ Partner attempts posture break while you actively hunt for submissions created b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive response when the top player strips your head control grip during Mission Control?
-**A**: Immediately re-grip with the opposite hand to maintain head control, or flow directly into a New York transition by redirecting the trapped arm into deeper isolation. Do not freeze or attempt to re-establish the exact same grip—the top player is already moving to the next phase of their escape. The speed of your response determines whether Mission Control is maintained, advanced to New York, or lost entirely. Pre-planning this response before the grip strip occurs is essential.
-
-**Q2**: How does maintaining hip elevation prevent the posture break from succeeding?
-**A**: Hip elevation is the structural foundation that gives the high guard leg its leverage and shoulder isolation effectiveness. When hips are elevated, the high guard leg creates a mechanical lever that amplifies your pulling control and makes shoulder extraction extremely difficult for the top player. If hips drop, the lever loses its fulcrum, shoulder isolation weakens immediately, and the top player can drive posture upward without meaningful resistance from the leg position. Active hip elevation is the single most important structural element to maintain.
-
-**Q3**: When the top player drives posture upward, how can you use their momentum against them for a submission attempt?
-**A**: The top player's upward posture drive creates the exact space and angle needed for a triangle entry—their upward extension helps get your leg across their face rather than hindering it. Time the leg crossover to coincide with the peak of their upward drive, when they have committed their weight backward and cannot quickly change direction to stack. Alternatively, if they drive backward aggressively, their trapped arm rotation creates the angle for an omoplata entry, converting their escape momentum into your submission opportunity.
-
-**Q4**: Why is transitioning to New York or another rubber guard control preferred over fighting to maintain static Mission Control when control is compromised?
-**A**: Static defense against a committed posture break is a losing strategy because grip endurance and hip elevation sustainability are finite resources. Transitioning to New York, Zombie, or submission entries uses the top player's escape energy against them, creating new threats from their own movements rather than trying to resist those movements directly. The transition also resets the control dynamic in your favor—the top player has rehearsed their posture break against Mission Control, but now must deal with a completely different control structure they may not have prepared for.
-
-**Q5**: What role does the trapped arm position play in your overall defensive strategy against the posture break?
-**A**: The trapped arm is the anchor of the entire defensive system. While head control enforces posture, the trapped arm's position inside the high guard leg is what creates shoulder isolation and enables submissions. If the arm is extracted, Mission Control functionally ends regardless of head control status. Monitoring and maintaining the arm's trapped position gives you constant counter-attack options—omoplata, New York transition, and triangle entries all depend on the arm remaining isolated. Losing the arm means losing the position entirely.
-
-
-
-</section>
 
 
 </main>

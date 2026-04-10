@@ -20,8 +20,8 @@ description: "Offensive guillotine variation from top position using body weight
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 31% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Hindulotine",
+      "text": "From this position, attempt Guillotine Choke from Hindulotine. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
@@ -171,6 +171,8 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Hindulotine (Top)?</p>
+
 - Your guillotine grip is secured around opponent's neck with your arm wrapped under their chin and hands locked, creating direct choking pressure while you maintain top position with their head controlled below your center of gravity, allowing gravity to assist your submission pressure
 - Your hips and legs are positioned to control opponent's ability to stand, roll, or achieve angles that would relieve neck pressure, typically with at least one leg base wide for stability while the other may be used for control or to create angling pressure
 - Opponent's head is trapped with their posture broken forward, unable to achieve vertical alignment or extract their head from the grip, with their body bent and your weight distributed to maximize choking pressure while preventing escape movements
@@ -184,6 +186,8 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Hindulotine (Top)?</p>
+
 - Successful control of opponent's head from front headlock, sprawl defense, or while attacking turtle position
 - Ability to establish guillotine grip before opponent can achieve defensive posture, stand up, or extract their head
 - Proper base and balance to maintain top position while applying submission pressure without being swept or rolled
@@ -196,6 +200,8 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Hindulotine?</p>
 
 - Use body weight and gravity as force multipliers for submission pressure rather than relying solely on arm strength
 - Maintain wide base with legs to prevent being rolled or swept while applying submission pressure
@@ -211,6 +217,8 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Hindulotine (Top)?</p>
 
 **If opponent attempts to stand up or achieve vertical posture to escape:**
 - Execute **[[Follow to Standing Guillotine/Attacker|Follow to Standing Guillotine]]** → [[Positions/Standing Position]] (Probability: 50%)
@@ -241,6 +249,8 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Hindulotine?</p>
 
 ### 1. Hanging on opponent with straight arms instead of using hip angle and body weight to create pressure
 
@@ -275,6 +285,8 @@ Success from top Hindulotine requires understanding weight distribution and hip 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Hindulotine attacks?</p>
+
 ### Sprawl to Hindulotine Entry
 
 Partner shoots for single or double leg takedown. Practice sprawling and immediately establishing guillotine grip before transitioning to top Hindulotine position. Focus on grip establishment timing and smooth transition from sprawl to control position. Drill both sides for 5 minutes per side.
@@ -282,7 +294,7 @@ Partner shoots for single or double leg takedown. Practice sprawling and immedia
 **Duration**: 10 minutes
 
 
-### Top Position Pressure and Weight Distribution
+### Top Position Pressure and Center of Gravity
 
 Start in established top Hindulotine with partner giving 50% resistance. Experiment with different weight distributions, hip angles, and leg positions to understand which configurations create maximum pressure while maintaining stability. Partner provides feedback on pressure and balance.
 
@@ -307,38 +319,6 @@ Partner starts in turtle position. Practice establishing front headlock control 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution maintains maximum choking pressure while preventing sweeps from top Hindulotine?
-**A**: Distribute weight through your hips and chest onto opponent's upper back while maintaining a wide base with at least one leg posted far from your body. Your weight should angle forward and downward through the grip rather than sitting back, using gravity to assist the choke while the wide base prevents roll attempts.
-
-**Q2**: Your opponent starts to stand up from bottom while you have top Hindulotine locked - what adjustment do you make?
-**A**: Follow their rise while maintaining the grip, transitioning to a standing guillotine position. As they stand, drop your hips and pull downward on the neck to break their posture back down. If they achieve full standing, either finish the standing guillotine or snap them back down to front headlock control.
-
-**Q3**: What are the essential grip mechanics for maintaining top Hindulotine control?
-**A**: Secure a gable grip or chin strap configuration with your choking arm blade positioned high under opponent's chin. Your wrist should create pressure on the carotid, not the trachea. Lock your hands tightly and use your entire body to maintain pressure rather than squeezing with arms alone.
-
-**Q4**: How do you shut down the primary escape where opponent tries to roll through your control?
-**A**: Maintain a wide tripod base with your legs, keeping one leg posted far to the side opponent wants to roll toward. When they initiate the roll, drive your hip into their shoulder on the rolling side and sprawl your weight backward while maintaining the grip. The wide base removes their mechanical advantage for the roll.
-
-**Q5**: What grip adjustment increases finishing pressure without releasing control when opponent tucks their chin?
-**A**: Walk your choking arm higher on their neck by making small incremental adjustments while maintaining constant pressure. Simultaneously angle your hips more perpendicular to their spine and pull your elbow toward your opposite hip. This creates rotational torque that works around the chin tuck defense.
-
-**Q6**: Your opponent creates a defensive frame with their near-side arm - how do you capitalize on this reaction?
-**A**: The frame creates space for a darce transition. Thread your choking arm deeper across their neck and under their near armpit, then lock a figure-four grip. Walk your hips toward their head while maintaining pressure. The frame they created becomes trapped against their own neck, tightening the choke.
-
-**Q7**: How do you manage energy expenditure during an extended top Hindulotine control sequence?
-**A**: Rely on skeletal structure and body positioning rather than muscular tension. Let your body weight create pressure through proper hip angle rather than squeezing with arms. Make micro-adjustments rather than large movements. Use your legs for base and control, saving grip strength for maintaining the lock rather than active squeezing.
-
-**Q8**: Your opponent partially extracts their head and begins recovering posture - how do you recover the position?
-**A**: Immediately snap their head back down before they achieve full posture by pulling with your grip while sprawling your hips back. If they get significant posture, release the guillotine attempt and transition to front headlock control to reset. Chasing a lost guillotine wastes energy - better to control and re-establish.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

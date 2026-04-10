@@ -162,6 +162,8 @@ Defending the knee slide from flattened half guard is one of the most challengin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slide from Flattened Half?</p>
+
 - Top player shifts their hips laterally toward one side while maintaining crossface pressure, creating the angle needed for the knee to travel across your thigh line
 - You feel increased downward pressure through the crossface arm as the top player loads their weight forward in preparation for the knee drive
 - The trapped knee begins rotating from a straight-down position to a diagonal angle pointing across your body toward your far hip
@@ -174,6 +176,8 @@ Defending the knee slide from flattened half guard is one of the most challengin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slide from Flattened Half?</p>
 
 - Recognize the knee slide attempt early through hip displacement cues and act before the knee begins its path across your thigh
 - Prioritize blocking the knee path over fighting the upper body control - if the knee is stopped, the pass cannot complete regardless of crossface pressure
@@ -188,6 +192,8 @@ Defending the knee slide from flattened half guard is one of the most challengin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slide from Flattened Half?</p>
 
 ### 1. Frame insertion on the sliding knee with near-side hand or forearm to block the path across your thigh line
 
@@ -225,6 +231,8 @@ Defending the knee slide from flattened half guard is one of the most challengin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slide from Flattened Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your strongest defensive response to coincide with the top player's weight transfer during the slide. Use a hip escape to create space, then immediately insert your knee shield between your bodies. Fight for the underhook on the far side to establish an active offensive half guard position with sweeping and back take options.
@@ -240,6 +248,8 @@ Block the knee path early by framing against the inside of the sliding knee with
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slide from Flattened Half?</p>
 
 ### 1. Reacting too late to the knee slide, waiting until the knee is already across the thigh line before attempting defense
 
@@ -269,6 +279,8 @@ Block the knee path early by framing against the inside of the sliding knee with
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slide from Flattened Half?</p>
+
 **Phase 1: Recognition Training** - Identifying knee slide setup cues from flattened position
 Partner establishes flattened half guard and cycles through different pass attempts including knee slides. Defender calls out which pass is being attempted based on the setup cues. No actual defense attempted - pure recognition development. Build the ability to distinguish knee slide setup from crossface pass and underhook pass setups.
 
@@ -285,29 +297,6 @@ Positional sparring from flattened half guard. Top player attempts any pass incl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee slide is about to be attempted from flattened half guard?
-**A**: The earliest cue is the top player shifting their hips laterally toward the passing side. This hip displacement creates the angular lane needed for the knee to travel across your thigh line. Before the knee moves, you will feel the weight distribution change as their hips shift. Recognizing this cue gives you the maximum defensive window to respond before the slide momentum begins.
-
-**Q2**: Why should you prioritize blocking the knee over fighting the crossface when defending the knee slide?
-**A**: The crossface is uncomfortable but does not directly complete the guard pass. The knee crossing your thigh line does. If you split your attention between both, neither defense gets enough commitment to succeed. By accepting the crossface temporarily and directing all defensive effort to the knee path, you address the immediate threat of position loss. Once the passing attempt is neutralized, you can then work on crossface removal and frame recovery.
-
-**Q3**: Your opponent has begun the knee slide and their knee is approaching your thigh line - what is your last effective defensive option?
-**A**: Your last effective option is a committed hip escape timed with their forward weight transfer, combined with immediate knee shield insertion. As their weight shifts to drive the knee through, their base is momentarily compromised. Use this instant to shrimp your hips away hard and jam your knee into the space between your bodies. This must be done as one explosive, committed movement because you will not get a second chance at this timing. If the knee has already crossed your thigh line, transition immediately to side control defensive frames.
-
-**Q4**: When is the optimal moment to attempt a deep half entry against a knee slide?
-**A**: The optimal moment is when the top player commits their weight forward for the slide, creating forward momentum that you can redirect. As they drive forward, you dive underneath their hips by turning your body and threading under their center of gravity. Their forward commitment means they cannot easily reverse direction to prevent your entry. However, this timing window is extremely narrow and the technique requires extensive practice to execute from a flattened position.
-
-**Q5**: How should your defensive approach change if the knee slide has already progressed past the point of no return?
-**A**: If the knee has crossed your thigh line and the leg is being extracted, do not waste energy fighting for half guard retention. Immediately transition your defensive effort to preparing for side control defense. Get your near-side elbow tight to your hip, establish a frame on their shoulder with your far arm, and begin turning your hips to face them rather than remaining flat. Early preparation for side control defense from the moment you recognize the pass is complete gives you the best chance of executing an immediate escape before they consolidate.
-
-
-
-</section>
 
 
 </main>

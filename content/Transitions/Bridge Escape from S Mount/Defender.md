@@ -154,6 +154,8 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from S Mount?</p>
+
 - Bottom player plants both feet flat on the mat with knees bent, creating a bridge platform
 - Bottom player's breathing pattern changes to a deep inhalation indicating preparation for explosive effort
 - Bottom player's free hand moves to control your near leg at the knee or shin area
@@ -166,6 +168,8 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from S Mount?</p>
 
 - Maintain tight hip-to-shoulder connection as the primary defensive anchor against all bridge directions
 - Read the bottom player's foot positioning and breathing patterns to anticipate bridge timing
@@ -181,6 +185,8 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from S Mount?</p>
 
 ### 1. Drop hips and sprawl weight into the shoulder connection to absorb bridge force
 
@@ -218,6 +224,8 @@ As the S Mount top player, defending against bridge escape attempts requires rea
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from S Mount?</p>
+
 ### → [[Positions/Mount/S Mount]]
 
 Anticipate the bridge by reading foot placement and breathing cues, then drop your hips and drive your weight into the shoulder connection before the bridge generates full power. A pre-emptive weight drop absorbs the bridge force and leaves the opponent trapped with less energy.
@@ -233,6 +241,8 @@ When the bridge creates any looseness in the opponent's collar grip or arm prote
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from S Mount?</p>
 
 ### 1. Sitting too upright in S Mount with center of gravity high above the opponent's torso
 
@@ -262,6 +272,8 @@ When the bridge creates any looseness in the opponent's collar grip or arm prote
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from S Mount?</p>
+
 **Phase 1: Bridge Absorption Mechanics** - Maintaining S Mount position against progressive bridge intensity
 Partner bridges from S Mount bottom at 30% intensity while you practice dropping hips and absorbing the force. Gradually increase to 70% intensity over multiple rounds. Focus on feeling the bridge direction and adjusting weight distribution to counter it.
 
@@ -278,26 +290,6 @@ Live positional sparring starting in S Mount with full resistance. Maintain cont
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What early indicators signal that the bottom player is preparing a bridge escape from your S Mount?
-**A**: Watch for the bottom player planting both feet flat on the mat close to their hips with knees bent, which creates the biomechanical platform for the bridge. Their free hand moving to control your near leg indicates they are establishing the frame needed for the escape. A shift in their breathing to deeper inhalation signals preparation for explosive effort. Their body tension will increase and they may stop actively defending the arm, redirecting focus to positioning.
-
-**Q2**: How should you adjust your weight distribution when you feel the bottom player plant their feet for a bridge?
-**A**: Immediately lower your center of gravity by driving your hips tighter into their shoulder and leaning your upper body slightly forward. Increase the downward pressure through your hip-to-shoulder connection point. Widen your posted leg for additional base if possible. The goal is to make your weight as heavy and low as possible over the connection point before the bridge generates maximum force, absorbing the upward drive before it can displace you.
-
-**Q3**: Your opponent bridges explosively and creates significant upward displacement - what is the highest-percentage transition to capitalize?
-**A**: If the bridge loosens their collar grip or exposes the trapped arm at all, immediately attack the armbar by pulling their wrist toward your chest and leaning back while squeezing your knees. The bridge momentum often extends their arm for you. If the arm stays protected but you are being displaced, transition laterally to re-establish S Mount from a different angle rather than fighting directly against the bridge force. Use their energy against them.
-
-**Q4**: What hip positioning prevents the bridge from disrupting your perpendicular S Mount control?
-**A**: Your hips must stay glued to the opponent's near shoulder with your hip bone driving into the anterior deltoid area. This creates a structural connection that transfers bridge force through your body into the mat via your posted legs rather than allowing the force to displace you. If your hips are even slightly elevated above the shoulder, the bridge can get underneath you and create the leverage needed for displacement.
-
-
-
-</section>
 
 
 </main>

@@ -20,14 +20,14 @@ description: "Master mounted triangle attacks from top position. High-percentage
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 22% of exchanges from this position.",
+      "name": "Execute Triangle Choke from Mounted Triangle",
+      "text": "From this position, attempt Triangle Choke from Mounted Triangle. This technique is attempted in 22% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
@@ -173,6 +173,8 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mounted Triangle (Top)?</p>
+
 - Top player maintains one leg threaded over opponent's shoulder and under neck creating triangle structure, with other leg posted or configured to prevent escape while maintaining superior positioning through partial mount control
 - One of opponent's arms is trapped inside the triangle between top player's legs, creating both triangle pressure and armbar vulnerability, while opponent's free arm attempts defensive framing
 - Top player's hips remain elevated and mobile to adjust triangle angle and pressure while distributing sufficient weight to prevent explosive bridge escapes or reversal attempts from bottom player
@@ -184,6 +186,8 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Mounted Triangle (Top)?</p>
+
 - Successfully achieved mount position or high mount control
 - Isolated opponent's arm through mount attacks or control breaking
 - Created opening to thread leg over shoulder into triangle configuration
@@ -194,6 +198,8 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Mounted Triangle?</p>
 
 - Balance between triangle pressure and mount retention determines position stability
 - Bottom leg positioning controls opponent's ability to escape and your submission finishing power
@@ -210,13 +216,15 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Mounted Triangle (Top)?</p>
+
 **If opponent keeps trapped arm bent and protects neck with chin tuck:**
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[game-over]] (Probability: 60%)
 - Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent extends trapped arm or loosens defensive posture:**
-- Execute **[[Transitions/Triangle Choke/Attacker|Triangle Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transitions/Switch to Triangle/Attacker|Switch to Triangle]]** → [[Positions/Triangle Control]] (Probability: 65%)
 
 
@@ -242,6 +250,8 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Mounted Triangle?</p>
 
 ### 1. Committing too early to triangle finish before establishing proper angle and lock
 
@@ -286,6 +296,8 @@ The mounted triangle exemplifies modern BJJ's evolution toward dynamic, submissi
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Mounted Triangle attacks?</p>
+
 ### Mounted Triangle Setup Flow Drill
 
 Start from high mount, practice threading leg over shoulder into mounted triangle configuration. Partner provides light resistance. Focus on smooth entry mechanics, maintaining base, and proper leg positioning. Repeat 10 times per side.
@@ -326,38 +338,6 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts bridging explosively - what immediate adjustment do you make to maintain position?
-**A**: Drop your base by posting your bottom leg wider and lower on their hip while maintaining the triangle lock. Shift your weight slightly backward to counter their upward momentum. If the bridge is particularly powerful, be ready to abandon the triangle temporarily and remount to high mount or S mount, then re-establish the triangle configuration once base is secured.
-
-**Q2**: What are the essential control points for maintaining mounted triangle position?
-**A**: The three critical control points are: (1) the triangle lock itself with proper figure-four configuration and angle on the neck, (2) head and posture control using your free hand to break their posture down and prevent framing, and (3) bottom leg positioning either hooked under their hip or posted wide to prevent bridge escapes. Losing any of these three points compromises position stability.
-
-**Q3**: How do you shut down the opponent's primary escape attempt of bridging and rolling?
-**A**: Anticipate the bridge direction by feeling their hip movement. Post your bottom leg wide on the side they're bridging toward to create a base that absorbs their momentum. Simultaneously, use your free hand to control their head and prevent them from turning into the bridge. If they generate significant power, be willing to release the triangle and flow to side control or back to mount rather than fighting a losing battle.
-
-**Q4**: What grip priorities should you establish when settling into mounted triangle?
-**A**: Primary grip is head control with your free hand behind their skull, pulling their head toward the trapped arm side to tighten the choke. Secondary priority is controlling their free arm - either trapping it with a gift wrap or monitoring it to prevent framing. The triangle lock configuration itself (ankle behind knee) must be secured before worrying about submission finishing grips like grabbing your shin to pull down.
-
-**Q5**: How do you apply effective pressure while maintaining enough base to prevent escapes?
-**A**: The key is distributing weight between triangle squeeze and mount pressure. Keep hips mobile and elevated enough to adjust angle, but not so high that you lose connection to their torso. Your bottom leg should carry 30-40% of your stabilizing weight while the triangle applies submission pressure. Avoid committing full weight to the finish until you've confirmed their escape options are neutralized.
-
-**Q6**: Your opponent turns their head toward your triangle leg and begins shrimping - how do you respond?
-**A**: This turning motion creates a back take opportunity. Immediately recognize this as them giving you their back rather than fighting the triangle. Release the triangle lock, establish a seat belt grip (over-under on their torso), and hook their bottom hip with your leg while they're mid-turn. Their escape attempt becomes your path to an even more dominant position.
-
-**Q7**: How do you manage energy expenditure while maintaining offensive pressure from mounted triangle?
-**A**: Use skeletal structure rather than muscular effort - let the triangle lock and body positioning do the work rather than actively squeezing constantly. Apply pressure in bursts when finishing rather than sustained maximum effort. Stay relaxed between finishing attempts. Recognize that if the position becomes a stalemate, it's better to transition to a fresh attack (armbar, back take, remount) than to exhaust yourself trying to finish a defended triangle.
-
-**Q8**: Your opponent partially extracts their trapped arm during your finishing attempt - how do you recover position?
-**A**: Immediately transition to armbar by controlling their partially freed arm at the wrist and elbow while pivoting your hips to create the armbar angle. Their arm extraction attempt often leaves their arm extended and vulnerable. If they pull the arm completely free before you can catch it, their defensive movement typically opens the back or creates space for you to remount to high mount and restart the sequence.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -387,7 +367,7 @@ Partner explosively bridges or creates space from mounted triangle. Practice imm
 - **[[Positions/Mount]]** - Fundamental mount principles applied to mounted triangle positioning
 - **[[Transitions/Triangle Setup]]** - Entry mechanics and setup sequences for establishing mounted triangle
 - **[[Transitions/Triangle to Armbar]]** - Primary offensive transition sequence from mounted triangle
-- **[[Submissions/Armbar from Mount]]** - Related submission attack from similar positioning
+- **[[Transitions/Mount to Armbar]]** - Related submission attack from similar positioning
 
 
 </section>

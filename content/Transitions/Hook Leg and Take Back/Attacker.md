@@ -186,6 +186,8 @@ Strategically, this technique represents the positional advancement pathway with
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hook Leg and Take Back?</p>
+
 - Maintain harness grip throughout the transition to anchor upper body control while legs adjust for hook insertion
 - Time the hook insertion precisely as opponent's near hip rises during the sit-up motion to catch the optimal entry window
 - Drive chest forward following opponent's sitting movement to prevent space creation and maintain pressure during transition
@@ -200,6 +202,8 @@ Strategically, this technique represents the positional advancement pathway with
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hook Leg and Take Back?</p>
+
 - Buggy choke control established with threading arm deep under opponent's armpit and second grip secured
 - Opponent initiating sit-up motion or showing intention to turn toward guard recovery
 - Harness grip must be secure enough to follow opponent's movement without losing upper body connection
@@ -212,6 +216,8 @@ Strategically, this technique represents the positional advancement pathway with
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hook Leg and Take Back step by step?</p>
 
 1. **Recognize trigger**: Identify the moment opponent begins sitting to guard by feeling hip elevation, weight shift toward their base, or intentional movement away from turtle position toward sitting posture
 2. **Maintain harness connection**: Tighten harness grip (seatbelt) by pulling elbows toward your centerline, ensuring upper body control remains intact as you transition from turtle top to following the sitting movement
@@ -240,6 +246,8 @@ Strategically, this technique represents the positional advancement pathway with
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hook Leg and Take Back?</p>
+
 - **Opponent immediately reclines backward to pin your back to mat and limit hook insertion angles** (Effectiveness: High) - Your Response: Anticipate backward pressure and swim your head to opposite shoulder side, using momentum to rotate toward crucifix or maintain top pressure through sprawl → Leads to [[Positions/Buggy Choke]]
 - **Opponent hand-fights aggressively on your harness grip to strip control before hooks can be inserted** (Effectiveness: Medium) - Your Response: Tighten harness by pulling elbows inward and use body weight to drive forward, making grip stripping ineffective against structural pressure → Leads to [[Positions/Buggy Choke]]
 - **Opponent turns into you quickly rather than sitting away, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Follow the turn with your chest, transitioning to gift wrap arm control if they turn, or switch to darce configuration if neck angle presents → Leads to [[Positions/Half Guard]]
@@ -251,6 +259,8 @@ Strategically, this technique represents the positional advancement pathway with
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hook Leg and Take Back?</p>
 
 ### 1. Releasing harness grip prematurely to reach for legs or hooks before opponent commits to sitting
 
@@ -285,6 +295,8 @@ Strategically, this technique represents the positional advancement pathway with
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hook Leg and Take Back (Attacker)?</p>
+
 **Week 1-2** - Mechanical recognition
 Partner performs slow-motion sitting attempts from buggy choke bottom. Focus on recognizing the hip elevation trigger and maintaining harness grip while following movement. No hook insertion yet, just movement pattern recognition and upper body control maintenance.
 
@@ -302,54 +314,12 @@ Full resistance positional sparring from buggy choke position. Partner attempts 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Hook Leg and Take Back?
-**A**: The primary goal is to capitalize on opponent's escape attempt from buggy choke by transitioning to back control when they sit to guard. This transforms their defensive action into a pathway to an even more dominant position, punishing the escape with positional advancement rather than allowing guard recovery.
-
-**Q2**: What is the optimal timing for inserting the first hook?
-**A**: The optimal timing is precisely as the opponent's near hip elevates during their sitting motion. This moment creates the hip space needed for hook insertion while the harness grip keeps upper body control intact. Attempting too early reveals intention and allows defense; too late allows guard recovery completion.
-
-**Q3**: Why must harness grip be maintained throughout the entire transition?
-**A**: The harness grip serves as the anchor that makes hook insertion possible without losing upper body connection. Releasing it prematurely allows opponent to feel control loss and either return to defensive turtle or explosively escape to guard before hooks establish. The harness provides the stability foundation for lower body adjustments.
-
-**Q4**: Your opponent begins sitting but immediately reclines backward to pin you - how do you adjust?
-**A**: Anticipate the backward pressure and swim your head to the opposite shoulder side. Use the momentum of their backward motion to rotate toward crucifix position, or maintain top pressure through a sprawling action. Do not fight the backward motion directly as this commits you to a disadvantageous angle.
-
-**Q5**: What determines whether to complete with second hook or transition to body triangle?
-**A**: If the second hook insertion is blocked by opponent's leg positioning or active hand fighting but the first hook is secure, transition to body triangle on the controlled side. Body triangle provides superior control from single-leg contact and eliminates the fight for second hook. Complete second hook only when space permits without losing first hook security.
-
-**Q6**: How does chest position affect transition success rate?
-**A**: Chest must stay glued to opponent's back throughout the transition with constant forward drive following their movement direction. Separation creates space for opponent to turn and face you, recover guard, or strip harness grip with improved leverage. The chest connection prevents positional gaps during the vulnerable transition phase.
-
-**Q7**: Why is recognizing the hip elevation trigger critical for this technique?
-**A**: Hip elevation during the sitting motion creates the only high-percentage window for hook insertion. Before elevation, the hip blocks entry; after completion, opponent has established guard position. Recognizing this trigger through proprioception allows precisely timed insertion that catches optimal entry without revealing intention prematurely.
-
-**Q8**: What common defensive tell indicates opponent is about to sit to guard?
-**A**: Weight shift toward their posting arm or base, intentional head movement looking toward guard recovery direction, relaxation of the neck defense focus, and hip positioning that prepares for rotation all indicate sitting intention. Reading these tells allows pre-positioning for the transition before opponent commits to the escape.
-
-**Q9**: Your opponent strips your choking grip during the sit-up but you still have the seatbelt - what is your best option?
-**A**: Abandon the choke attempt and commit fully to the back take. With the seatbelt intact you still have sufficient upper body control to follow their movement and insert hooks. The choking grip is not required for the back take; the seatbelt alone anchors the transition. Prioritize hook insertion over re-establishing the choke during the dynamic sitting phase.
-
-**Q10**: What is the direction of force you should apply with your chest during the transition?
-**A**: The force must follow the opponent's movement direction, driving forward and slightly downward as they sit. You are not pushing them back into turtle but rather flowing with their sitting momentum while maintaining zero space between your chest and their back. The forward drive prevents gap creation and keeps your weight loaded onto their spine throughout.
-
-**Q11**: If your first hook is in but opponent grabs your foot with both hands to strip it, what chain attack opens up?
-**A**: When opponent dedicates both hands to stripping your hook, their neck becomes completely undefended. Immediately re-engage the choking grip since their hand fighting on your foot means zero neck protection. Alternatively, use the distraction to switch to a gift wrap on whichever arm is reaching lowest, trapping it and completing the back take with arm control instead of hooks.
-
-**Q12**: What entry conditions must exist before you can attempt this transition?
-**A**: You must have established buggy choke control with a secure harness grip and chest-to-back connection. The opponent must be initiating a sit-up or guard recovery motion that creates hip elevation. Your hips must be close enough to the opponent's hips that hook insertion distance is minimal. Without these conditions, attempting the transition results in positional loss.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hook Leg and Take Back?</p>
 
 This technique carries relatively low injury risk when performed correctly as the transition involves positional movement rather than joint locks or chokes. Primary safety concerns include avoiding excessive pressure on opponent's lower back during the sitting transition phase, and ensuring smooth hook insertion that does not catch toes on opponent's clothing or create knee torque. Training partners should communicate if hook insertion causes discomfort in hip flexors. Practitioners with existing knee issues should focus on the body triangle variant rather than forcing deep hook insertion when resistance is high. Always control the descent when following opponent's sitting motion to prevent landing heavily on their back.
 

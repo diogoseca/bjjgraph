@@ -188,6 +188,8 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ashi Garami Maintenance?</p>
+
 - Connection Point Hierarchy: Prioritize inside leg hook maintenance above all other connections, as it controls the primary escape axis and must be re-established first when cleared
 - Active Hip Following: Track opponent movement by mirroring their directional changes with your own hip adjustments rather than relying on static hook tension that degrades under pressure
 - Redundant Grip Management: Maintain at least two upper body grips simultaneously so losing one does not immediately compromise overall control of the trapped limb
@@ -202,6 +204,8 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ashi Garami Maintenance?</p>
+
 - Inside leg hook established behind opponent's knee creating primary axis control over the trapped leg
 - Outside leg crossing over opponent's thigh forming the pinching clamp that prevents basic leg extraction
 - Hip proximity maintained with minimal space between your hip and opponent's hip to limit defensive angles
@@ -213,6 +217,8 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ashi Garami Maintenance step by step?</p>
 
 1. **Verify hook configuration**: Confirm that your inside leg hook is properly seated behind the opponent's knee creating the primary axis of control, and that your outside leg crosses over their thigh to establish the pinching clamp that prevents initial extraction attempts.
 2. **Establish hip proximity**: Close the distance between your hip and the opponent's hip by scooting your body toward them, eliminating the space they need to begin systematic leg clearing sequences or base recovery to standing position.
@@ -242,6 +248,8 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ashi Garami Maintenance?</p>
+
 - **Explosive standing base recovery to create elevation advantage and extract trapped leg through upward force** (Effectiveness: High) - Your Response: Follow their hip upward by scooting and tightening ankle grip. Consider transitioning to Single Leg X-Guard to capitalize on their standing position rather than fighting the elevation change directly. → Leads to [[Positions/Open Guard]]
 - **Systematic inside knee pummeling to establish inside space control and begin mechanical clearing of hooks** (Effectiveness: Medium) - Your Response: Drive your inside knee back toward their centerline while simultaneously pulling their trapped leg tighter with upper body grips to deny the pummeling angle and re-establish the blocking wedge. → Leads to [[Positions/Open Guard]]
 - **Establishing reciprocal leg entanglement on your leg to create bilateral threat and reverse positional advantage** (Effectiveness: Medium) - Your Response: Recognize the bilateral threat immediately and prioritize inside space control on both legs. Compete for superior positioning within the mutual entanglement rather than ignoring their counter-attack. → Leads to [[Positions/Ashi Garami]]
@@ -253,6 +261,8 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ashi Garami Maintenance?</p>
 
 ### 1. Lying completely flat on back without maintaining elevated upper body posture during entanglement retention
 
@@ -292,6 +302,8 @@ Maintaining Ashi Garami from the attacking perspective requires constant vigilan
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ashi Garami Maintenance (Attacker)?</p>
+
 **Phase 1: Connection Fundamentals** - Hook placement and hip positioning
 Drill proper inside hook, outside clamp, and hip proximity positioning against a stationary partner to build foundational muscle memory for all connection points and understand their individual functions
 
@@ -312,42 +324,12 @@ Positional sparring starting in Outside Ashi with opponent at full resistance at
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical connection point to maintain when your opponent begins their initial extraction attempt?
-**A**: The inside leg hook behind the opponent's knee is the most critical connection point because it controls the primary axis of rotation for the trapped leg. Losing this hook before others allows the opponent to straighten their leg and begin systematic clearing of remaining connections. Re-establishing the inside hook should always take priority over other connection points during maintenance.
-
-**Q2**: How should you respond when your opponent explosively stands up while you maintain Outside Ashi control?
-**A**: Follow their hip movement by scooting your hips toward them and maintaining the pinching pressure of your leg hooks. Grip the ankle or heel cord firmly to prevent the standing leg from stepping away. Use the elevation change to transition to Single Leg X-Guard or elevate into a more dominant entanglement rather than fighting the stand-up directly with pure pulling force.
-
-**Q3**: What grip configuration provides the strongest upper body connection for maintaining Ashi Garami control?
-**A**: A two-on-one grip controlling the opponent's ankle with one hand and heel cord with the other provides the strongest upper body connection. The bottom hand cups the heel to prevent rotation while the top hand controls the ankle to prevent extension. This double grip creates redundancy so losing one grip does not immediately compromise the entire control chain.
-
-**Q4**: When should you prioritize re-hooking versus advancing to a superior position during maintenance?
-**A**: Re-hooking takes priority whenever you have lost your inside leg hook or when the opponent has cleared more than one connection point simultaneously. Advancing should only occur when all primary connections are stable and you have inside space dominance. Attempting advancement with compromised connections typically results in losing the position entirely rather than improving it.
-
-**Q5**: What is the primary mechanical principle behind inside space control in Ashi Garami maintenance?
-**A**: Inside space control works by positioning your inside knee and hip to block the opponent's leg from pummeling inside your control configuration. This wedge denies the opponent the angle needed to rotate their knee inward, which would allow them to strip the outside hook and begin systematic extraction through the primary clearing vector.
-
-**Q6**: Your opponent begins pushing your bottom knee toward the mat to open inside space - how do you adjust?
-**A**: Counter the knee push by driving your inside knee back toward the opponent's centerline while simultaneously pulling their trapped leg tighter with your upper body grips. If the knee push succeeds partially, immediately re-pummel your inside knee back to the blocking position. Use hip rotation rather than pure knee strength to maintain the blocking angle against their push.
-
-**Q7**: What distinguishes passive maintenance from active maintenance in Ashi Garami positions?
-**A**: Passive maintenance relies on static hook placement and grip tension without adjusting to opponent movement, leading to gradual degradation of control as the opponent systematically clears connections. Active maintenance involves continuous micro-adjustments including hip following, grip transitions, and preventive re-hooking before connections fail, creating cumulative fatigue in the defender.
-
-**Q8**: How does upper body posture affect your ability to maintain Ashi Garami from bottom position?
-**A**: Maintaining an elevated posture on elbows or in a seated position provides significantly better control than lying flat. The elevated posture enables pulling the opponent's leg toward you, following their hip movement by scooting, and creating the angle needed for grip transitions. Flat positioning eliminates pulling leverage and makes hip following nearly impossible against a standing opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ashi Garami Maintenance?</p>
 
 Ashi Garami maintenance involves sustained pressure on the knee joint and surrounding ligaments. Always practice with controlled intensity and tap immediately if a training partner achieves heel exposure during maintenance drilling. Avoid explosive resistance when your heel is exposed, as rotational forces through the knee can cause ligament damage faster than pain signals register. Communicate clearly with training partners about resistance levels during positional sparring involving leg entanglements. During re-hooking drills, maintain awareness that rapid reconnection can inadvertently apply twisting force to the knee if angles change during the exchange.
 

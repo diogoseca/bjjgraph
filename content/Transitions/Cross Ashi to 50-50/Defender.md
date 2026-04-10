@@ -162,6 +162,8 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cross Ashi to 50-50?</p>
+
 - Sudden reduction in pressure from the attacker's outside leg crossing over your trapped shin, indicating they are beginning to uncross
 - Lateral hip movement from the attacker as they scoot their body to change alignment angle from cross ashi perpendicular to 50-50 mirror orientation
 - Brief loosening of the attacker's inside hook contact as they redistribute weight during the hip repositioning phase
@@ -174,6 +176,8 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Ashi to 50-50?</p>
 
 - Recognize the transition attempt at its earliest stage by feeling the reduction in outside cross pressure on your trapped leg before the attacker completes the repositioning
 - Exploit the vulnerability window during the uncrossing by immediately engaging your escape response rather than waiting to see what position the attacker is building
@@ -188,6 +192,8 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cross Ashi to 50-50?</p>
 
 ### 1. Retract knee and pull trapped leg toward your body during the uncrossing window
 
@@ -225,6 +231,8 @@ As the defender against the Cross Ashi to 50-50 transition, your primary objecti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cross Ashi to 50-50?</p>
+
 ### → [[Positions/Half Guard]]
 
 Extract your trapped leg during the uncrossing window by retracting your knee forcefully while simultaneously stripping the attacker's heel grip with two-on-one hand fighting. The moment you feel the outside cross release, drive your knee toward your opposite hip while your hands attack the attacker's thumb-side grip. Complete the extraction by establishing knee shield half guard or full guard recovery before the attacker can re-engage the entanglement.
@@ -236,6 +244,8 @@ Extract your trapped leg during the uncrossing window by retracting your knee fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Ashi to 50-50?</p>
 
 ### 1. Waiting until the 50-50 is fully established before attempting any defensive response
 
@@ -265,6 +275,8 @@ Extract your trapped leg during the uncrossing window by retracting your knee fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cross Ashi to 50-50?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition initiation cues
 Partner randomly alternates between maintaining cross ashi control and initiating the 50-50 transition. Defender focuses exclusively on recognizing the transition attempt through pressure changes in the outside cross and calling out the attempt verbally before the partner completes the movement. No physical escape attempts yet, purely recognition training. Track recognition accuracy across 30 repetitions.
 
@@ -281,29 +293,6 @@ Start in cross ashi-garami with attacker having full control. Attacker chooses w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is initiating the Cross Ashi to 50-50 transition?
-**A**: The earliest cue is a sudden reduction in pressure from the attacker's outside leg crossing over your trapped shin. Before any visible movement occurs, you will feel the outside cross lighten as the attacker begins lifting or sliding their leg off your shin to initiate the uncrossing. This pressure change precedes the hip scoot and mirror threading by one to two seconds, providing the maximum reaction window for your defensive response.
-
-**Q2**: You feel the attacker's outside cross release from your shin but their heel grip remains strong - what is your optimal defensive sequence?
-**A**: Immediately retract your knee toward your opposite hip while attacking the heel grip with two-on-one hand fighting. The knee retraction must begin simultaneously with the grip attack because the window is only one to three seconds. Target the attacker's thumb-side grip first as it is structurally weaker. If the heel grip does not break within two seconds, shift to framing on the attacker's hips to prevent the 50-50 completion rather than continuing to fight a strong grip while the window closes.
-
-**Q3**: The attacker successfully completes the transition to 50-50 with top position - what is your immediate defensive priority?
-**A**: Your immediate priority is fighting for inside position with your legs while simultaneously protecting your heel from submission attacks. Rotate your knee inward to hide the heel and use your hands to prevent the attacker from securing a finishing grip. Fight to match their inside leg control by pressing your shin inside their leg structure. If you achieve inside position parity within the first five seconds, the 50-50 becomes neutral rather than advantageous for the attacker.
-
-**Q4**: How do you distinguish between the attacker transitioning to 50-50 versus transitioning to saddle, and why does this distinction matter?
-**A**: The key distinction is the direction of the attacker's hip movement and leg threading. For 50-50, the attacker scoots laterally and threads their leg to the mirror side, creating a symmetric entanglement. For saddle, the attacker crosses deeper and triangles their legs on the same side, creating a tighter control structure. This matters because saddle transition requires a different defensive response, specifically preventing the deep cross rather than the mirror threading. If you mistake a saddle entry for a 50-50 transition, your defensive timing will be wrong.
-
-**Q5**: Your bridge during the transition displaces the attacker's balance but does not create full separation - what follow-up action completes the escape?
-**A**: Use the momentary displacement to immediately hip escape away from the attacker while simultaneously stripping their heel grip with your near-side hand. The bridge created temporary imbalance but the attacker will recover within one to two seconds. Your hip escape must create enough distance that your knee can fully retract past their inside hook. If full extraction is not possible, use the space to establish a knee shield frame that prevents the attacker from re-establishing either cross ashi or 50-50 configuration.
-
-
-
-</section>
 
 
 </main>

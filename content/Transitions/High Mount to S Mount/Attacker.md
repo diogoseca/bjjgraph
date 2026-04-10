@@ -188,6 +188,8 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing High Mount to S Mount?</p>
+
 - Secure wrist or bicep control on the target arm before initiating the leg swing — never transition without arm control
 - Maintain forward weight distribution throughout the transition to prevent bridge escapes during the vulnerable moment
 - Swing the leg over the head in a tight arc, keeping the foot close to the opponent's face rather than wide and arcing
@@ -202,6 +204,8 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting High Mount to S Mount?</p>
+
 - Established high mount position with knees near opponent's armpits and forward weight distribution
 - Control of the target arm through wrist grip, bicep control, or positional isolation against the mat
 - Opponent's defensive frames have been neutralized or their arm has been forced away from their body
@@ -214,6 +218,8 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute High Mount to S Mount step by step?</p>
 
 1. **Isolate target arm**: From high mount, identify which arm is most exposed. Secure a two-on-one grip on the target arm's wrist with your same-side hand while your opposite hand controls above the elbow. Pin the arm across the opponent's centerline or against the mat to prevent them from retracting it to their body.
 2. **Shift weight forward**: Drive your hips forward and chest over the opponent's face, loading your weight onto their upper chest and sternum. This forward weight shift serves dual purpose: it prevents bridge escapes during the transition and creates the momentum needed for the leg swing. Your base hand posts near the opponent's head on the side you will swing over.
@@ -243,6 +249,8 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter High Mount to S Mount?</p>
+
 - **Opponent bridges explosively during leg swing to disrupt balance** (Effectiveness: High) - Your Response: Post your free hand wide toward the mat and drive your hips down into their chest. If the bridge is strong enough to lift you, abort the S Mount entry and settle back into high mount with both knees down. Re-establish control before attempting again. → Leads to [[Positions/Mount/High Mount]]
 - **Opponent pulls trapped arm back to their body and grips their own collar** (Effectiveness: High) - Your Response: If the arm retracts before you complete the leg swing, do not force the S Mount entry. Return to high mount and work to re-isolate the arm through collar threats or wrist pinning. Alternatively, switch to attacking the opposite arm if it becomes exposed during the defensive reaction. → Leads to [[Positions/Mount/High Mount]]
 - **Opponent hip escapes toward the leg-over side creating space to insert knee** (Effectiveness: Medium) - Your Response: Follow the hip escape by scooting your hips with their movement to maintain the hip-to-shoulder connection. If they create enough space to insert a knee, abandon S Mount and immediately secure side control or re-establish mount before they recover full half guard. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing High Mount to S Mount?</p>
 
 ### 1. Initiating the leg swing before securing adequate arm control
 
@@ -299,6 +309,8 @@ From the attacker's perspective, the High Mount to S Mount transition is the dec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train High Mount to S Mount (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Leg swing mechanics and weight transfer
 Practice the S Mount entry movement on a grappling dummy or cooperative partner with zero resistance. Focus on the tight arc of the leg swing, maintaining forward weight through the chest, and landing with the hip driving into the shoulder. Perform 20 repetitions per side, emphasizing smooth, continuous motion without pausing mid-swing.
 
@@ -319,42 +331,12 @@ Start in high mount against a fully resisting partner. Goal is to transition to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the High Mount to S Mount transition?
-**A**: The optimal window opens when the opponent commits to a defensive action that exposes their arm — pushing on your hips with straight arms, reaching to frame on your chest, or attempting to bridge. These actions require them to extend an arm away from their protective shell, creating the isolation opportunity. The transition must be initiated during their defensive commitment, not after they have retracted to neutral posture.
-
-**Q2**: What grip must be established on the target arm before the leg swing begins?
-**A**: A minimum of wrist control with your same-side hand is required, with the ideal being a two-on-one grip where your same-side hand controls the wrist and your cross-hand controls above the elbow or bicep. The wrist grip is non-negotiable because it prevents the opponent from retracting the arm during the transitional window. Without this control, the leg swing creates vulnerability without reward.
-
-**Q3**: Your opponent bridges explosively as your leg is halfway over their head — what is your immediate response?
-**A**: Post your free hand wide on the mat toward their head for base and drive your hips downward into their chest to counter the upward bridge force. If the bridge is powerful enough to compromise your balance, abort the S Mount entry entirely by returning your leg to the high mount position. Re-establish stable high mount control with both knees down before attempting the transition again. Never try to complete the swing while off-balance.
-
-**Q4**: Why must the hip drive into the opponent's shoulder happen immediately upon landing in S Mount?
-**A**: The hip-to-shoulder connection is the primary control mechanism of S Mount. Any gap between your hip and their shoulder allows the opponent to retract their isolated arm back toward their body, eliminating the submission threat. The hip seal must happen simultaneously with the foot landing — even a one-second delay gives a skilled defender enough time to grip their collar and establish bent-arm defense that is extremely difficult to break.
-
-**Q5**: What is the critical difference between a wide leg arc and a tight leg arc during the transition?
-**A**: A tight arc keeps the foot close to the opponent's face and passes over quickly, minimizing the time spent on single-leg base where you are most vulnerable to bridge escapes. A wide arc swings the leg out and around in a larger circle, spending more time in the unstable transitional phase and telegraphing the movement. The tight arc is faster, more stable, and harder for the opponent to anticipate and counter.
-
-**Q6**: Your opponent retracts their arm and grips their own collar before you can complete the S Mount entry — what options do you have?
-**A**: Do not force the S Mount entry against a retracted arm. Return to high mount and use offensive threats to re-expose the arm: attack the collar for a cross collar choke to force them to defend with their hands, pin the opposite wrist and threaten americana to force a defensive shift, or use a gift wrap to trap one arm and isolate the other. Each offensive action forces a reaction that may re-expose the target arm for another S Mount attempt.
-
-**Q7**: How does your weight distribution change from High Mount to S Mount during the transition?
-**A**: In High Mount, weight is distributed broadly through both knees and hips across the opponent's upper chest, creating wide base stability. During the transition, weight shifts forward onto the posting hand and the remaining knee as one leg lifts. In S Mount, weight concentrates through the hip bone into the opponent's shoulder joint in a focused pressure point, with the two legs acting as structural posts rather than base platforms. The shift goes from broad surface pressure to focused point pressure.
-
-**Q8**: If the S Mount entry fails and the opponent recovers half guard, what should you prioritize?
-**A**: Immediately establish crossface control and heavy shoulder pressure to prevent the opponent from getting to their side and establishing offensive half guard. Secure your free leg's base and begin systematic half guard passing rather than trying to rush back to mount. The failed S Mount attempt often leaves you in a strong half guard top position with upper body control — use this advantage methodically rather than scrambling to re-establish mount.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for High Mount to S Mount?</p>
 
 The High Mount to S Mount transition itself carries low injury risk since it is a positional movement rather than a joint attack. However, practitioners should be aware that the transition leads directly to armbar position, where injury potential is significant. During training, complete the S Mount entry with control rather than explosive speed to avoid accidentally dropping weight onto your partner's face or shoulder. When drilling the full sequence into armbar, always allow time for your partner to tap and release immediately. Never slam or drop into S Mount position — the hip-to-shoulder drive should be firm but controlled.
 

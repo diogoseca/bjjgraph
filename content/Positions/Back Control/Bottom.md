@@ -171,6 +171,8 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Back Control (Bottom)?</p>
+
 - Opponent's chest pressed against your back with constant forward pressure limiting your movement and preventing you from turning to face them
 - Opponent's legs wrapped around your waist with hooks inside your thighs or body triangle locked, controlling your hip movement and preventing rotation
 - Opponent's arms controlling your upper body through harness grip, gift wrap, or crucifix configuration, limiting your arm movement and creating submission angles
@@ -182,6 +184,8 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Back Control (Bottom)?</p>
 
 - Position established after failed guard retention, mount escape, turtle defense, or takedown defense
 - Opponent has successfully established chest-to-back connection with at least one hook or body triangle control
@@ -195,6 +199,8 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Control?</p>
 
 - Immediate neck protection through chin tucking and hand fighting takes absolute priority over escape attempts to prevent submission
 - Systematic escape methodology addresses control points in sequence: protect neck, fight hands, address hooks, create space, turn or escape
@@ -210,6 +216,8 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Back Control (Bottom)?</p>
 
 **If opponent has both hooks in and harness grip with arm attacking your neck:**
 - Execute **[[Immediate chin tuck and two-on-one hand fighting on choking arm/Attacker|Immediate chin tuck and two-on-one hand fighting on choking arm]]** → [[Positions/Back Control]] (Probability: 70%)
@@ -243,6 +251,8 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Control?</p>
 
 ### 1. Attempting explosive escape movements before securing neck defense and hand fighting position
 
@@ -281,6 +291,8 @@ The escape hierarchy follows a strict sequence: neck defense first through chin 
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Back Control defense?</p>
 
 ### Progressive Resistance Hand Fighting Drill
 
@@ -339,7 +351,7 @@ Partner establishes back control with both hooks but does not attack submissions
 - **[[Transitions/Granby Roll to Guard]]** - Alternative inversion-based escape movement for creating space and recovering guard from back control
 - **[[Positions/Turtle]]** - Common intermediate escape target offering better defensive options than back control
 - **[[Positions/Half Guard]]** - Improved position often achieved through partial back escape and rotation
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat requiring constant defensive attention and hand fighting
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat requiring constant defensive attention and hand fighting
 - **[[Positions/Closed Guard]]** - Neutral guard position achievable through complete escape and rotation sequence
 - **[[Transitions/Hand Fighting from Back]]** - Critical defensive transition for neutralizing opponent's choking arm before escape
 

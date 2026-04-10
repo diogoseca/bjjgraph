@@ -186,6 +186,8 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mounted Crucifix to S Mount?</p>
+
 - Maintain constant pressure on trapped arm throughout the entire transition to prevent extraction
 - Lead with hip movement rather than leg extraction to preserve base and balance
 - Use opponent's defensive reactions as timing cues for leg reconfiguration
@@ -200,6 +202,8 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mounted Crucifix to S Mount?</p>
+
 - Stable mounted crucifix position with at least one arm securely trapped by your legs
 - Opponent's posture is broken with their back flat on the mat
 - Your weight is distributed forward preventing effective bridging
@@ -212,6 +216,8 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mounted Crucifix to S Mount step by step?</p>
 
 1. **Consolidate control**: Ensure your mounted crucifix is secure with maximum pressure on the trapped arm. Shift your weight slightly toward the arm you will maintain control over, preparing your opposite leg for extraction.
 2. **Hip rotation initiation**: Begin rotating your hips toward the side of the arm you're keeping trapped. This rotation naturally starts lifting your extracting leg while maintaining pressure through your controlling leg and upper body weight.
@@ -240,6 +246,8 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mounted Crucifix to S Mount?</p>
+
 - **Explosive bridge during leg extraction phase to create space and extract trapped arm** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping weight forward throughout. If bridge occurs, post with your hand and ride the movement rather than fighting it, then re-establish crucifix control → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Arm extraction attempt when crucifix pressure releases during transition** (Effectiveness: Medium) - Your Response: Maintain constant pressure with controlling leg throughout transition. If arm begins escaping, abandon S Mount attempt and return to secure crucifix position → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Hip escape toward the extracting leg side to create distance and recover half guard** (Effectiveness: Medium) - Your Response: Follow their hip movement with your body, keeping chest pressure on their torso. Complete leg threading quickly to establish S Mount before they can fully escape → Leads to [[Positions/Half Guard]]
@@ -251,6 +259,8 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mounted Crucifix to S Mount?</p>
 
 ### 1. Releasing crucifix arm pressure before threading leg across neck
 
@@ -290,6 +300,8 @@ Strategically, this transition excels when opponents defend mounted crucifix cho
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mounted Crucifix to S Mount (Attacker)?</p>
+
 **Week 1-2** - Mechanics isolation
 Practice the leg extraction and threading motion without resistance. Partner remains completely passive while you develop muscle memory for the hip rotation, leg placement, and weight distribution. Focus on maintaining arm control throughout 20+ repetitions per side.
 
@@ -307,51 +319,12 @@ Apply transition in live rolling against fully resisting partners. Identify your
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Mounted Crucifix to S Mount transition?
-**A**: The primary goal is to reconfigure your leg positioning to access different submission angles (particularly armbar and triangle) while maintaining the arm isolation control established in mounted crucifix. This transition changes your attack vectors without sacrificing dominant position or allowing opponent to recover defensive capabilities.
-
-**Q2**: Which leg should you extract first during the transition?
-**A**: Extract the leg on the opposite side from the arm you want to keep trapped. Your controlling leg maintains crucifix pressure on the trapped arm while your extracting leg threads across opponent's neck to establish S Mount. Never release the arm-controlling leg until S Mount is fully established.
-
-**Q3**: Your opponent explosively bridges as you begin extracting your leg - how should you respond?
-**A**: Post immediately with your hands to ride the bridge rather than fighting against it. Keep your controlling leg tight on their arm throughout. As their bridge peaks and they return to the mat, continue the transition or return to consolidate crucifix if the bridge significantly disrupted your position. Never abandon arm control during the bridge.
-
-**Q4**: What weight distribution should you maintain throughout this transition?
-**A**: Keep weight forward toward opponent's head and chest throughout the entire transition. Sitting back or upright creates space for bridging escapes. Your chest should maintain contact with opponent's upper body while your hips rotate to extract and rethread your leg. Forward pressure prevents escape and maintains control.
-
-**Q5**: When should you abandon the S Mount transition and return to mounted crucifix?
-**A**: Abandon if opponent successfully extracts their trapped arm or creates significant space through bridging or hip escape. Also abort if your balance becomes compromised mid-transition to the point where completing S Mount would risk position loss. A secure crucifix is superior to a failed S Mount attempt that results in guard recovery.
-
-**Q6**: How does the leg threading differ between standard S Mount entry and this crucifix-based transition?
-**A**: In the crucifix-based transition, one leg must maintain arm control throughout while the other threads across. In standard S Mount from mount, both legs are free to reposition simultaneously. This constraint requires more precise timing and hip mobility since you cannot use your controlling leg for balance during the threading phase.
-
-**Q7**: What grip should you establish before transitioning if you want maximum security?
-**A**: Establish a gift wrap grip by threading your hand under opponent's neck and grabbing their trapped wrist. This grip maintains arm control independent of your leg positioning, making the transition significantly safer. With the gift wrap secured, you can reconfigure your legs knowing the arm cannot escape even if crucifix pressure momentarily releases.
-
-**Q8**: What are the primary submission opportunities available after completing this transition to S Mount?
-**A**: The S Mount opens high-percentage armbar attacks on the trapped arm from a different angle than crucifix armbars. Triangle choke entries become available by threading the leg across their neck. Mounted triangle attacks and arm triangle setups are also accessible. The arm isolation from crucifix combined with S Mount leg positioning creates compound submission threats.
-
-**Q9**: Your opponent begins pulling their trapped arm free as you initiate hip rotation - what is the critical mechanical detail that prevents extraction?
-**A**: The controlling leg must maintain inward knee pressure against their upper arm or bicep throughout the hip rotation. Think of your shin and calf as a vise on their arm. As you rotate, actively drive your controlling knee down and inward rather than allowing it to lift. If their arm slides past your knee line, abort the transition immediately and relock the crucifix rather than continuing with compromised arm control.
-
-**Q10**: What entry conditions must exist before you should attempt this transition rather than attacking directly from crucifix?
-**A**: The transition is warranted when the opponent has successfully defended crucifix choke attempts by tucking their chin tightly, but their trapped arm remains fully isolated. If their arm is also partially escaping, stay in crucifix and re-secure first. The transition requires a stable crucifix with settled opponent - attempting during active escape sequences dramatically increases failure rate. You should also have forward weight established, not be in a recovery position from a recent bridge defense.
-
-**Q11**: You complete the transition but your opponent immediately starts hip escaping toward your back - how do you chain your next attack?
-**A**: Their hip escape toward your back actually feeds the armbar finish. Follow their movement by leaning back slightly while maintaining wrist control, allowing their escape momentum to extend their trapped arm. Pinch your knees tight, scoop their arm across your hip line, and fall back to complete the armbar. Their escape direction is the same direction needed for arm extension. If they reverse direction, settle heavy in S Mount and consolidate before attacking again.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mounted Crucifix to S Mount?</p>
 
 This transition involves dynamic leg repositioning while maintaining mount control, which carries relatively low injury risk compared to submission techniques. However, practitioners should be aware of potential knee strain during the leg threading motion, particularly if forcing the movement against resistance. Partners should communicate if leg pressure on the neck becomes uncomfortable. Avoid explosive transitions until the movement pattern is well-established to prevent losing balance and falling onto training partners. When drilling, allow controlled escapes rather than forcing the transition against maximum resistance to prevent positional scrambles that could result in collision injuries.
 

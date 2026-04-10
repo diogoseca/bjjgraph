@@ -179,13 +179,13 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (8% of attempts)
+- **[[Rear Naked Choke from Crucifix/Attacker|Rear Naked Choke from Crucifix]]** (8% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (6% of attempts)
+- **[[Kimura from Crucifix/Attacker|Kimura from Crucifix]]** (6% of attempts)
 
 - **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** (19% of attempts)
 
-- **[[Transitions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (39% of attempts)
+- **[[Submissions/Choke from Crucifix/Attacker|Choke from Crucifix]]** (39% of attempts)
 
 - **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (16% of attempts)
 

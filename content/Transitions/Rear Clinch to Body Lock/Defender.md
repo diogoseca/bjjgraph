@@ -162,6 +162,8 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rear Clinch to Body Lock?</p>
+
 - The attacker's underhook arm begins sliding downward from your armpit toward your waist, reducing upper body control pressure
 - Increased forward hip pressure from the attacker immediately before the grip change, designed to mask the arm transition
 - The choking arm (over-shoulder arm) tightens its grip as the other arm begins to release, indicating a sequential arm slide
@@ -174,6 +176,8 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rear Clinch to Body Lock?</p>
 
 - React to the first sign of grip movement rather than waiting for the lock to be established - prevention is exponentially easier than escape
 - Target the transitioning arm with two-on-one hand fighting the moment you feel the attacker's grip begin to slide from seatbelt position
@@ -188,6 +192,8 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rear Clinch to Body Lock?</p>
 
 ### 1. Two-on-one hand fight the sliding arm before it reaches your waist
 
@@ -225,6 +231,8 @@ As the defender facing the Rear Clinch to Body Lock conversion, your situation e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rear Clinch to Body Lock?</p>
+
 ### → [[Positions/Half Guard]]
 
 Execute a controlled guard pull or counter the takedown attempt during the transition window by sitting while maintaining frame contact, inserting a knee shield, and closing half guard to prevent full pass. Time the sit so you control the landing position rather than being thrown into side control.
@@ -240,6 +248,8 @@ Fight the grip transition aggressively with two-on-one hand control on the slidi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rear Clinch to Body Lock?</p>
 
 ### 1. Waiting until the body lock is fully established before initiating defensive response
 
@@ -274,6 +284,8 @@ Fight the grip transition aggressively with two-on-one hand control on the slidi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rear Clinch to Body Lock?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying the grip transition cues and developing automatic defensive triggers
 Partner slowly executes the seatbelt to body lock conversion while you practice recognizing the early cues (arm sliding, hip pressure increase, chest pressure change). Build automatic hand-fighting response to the first sign of grip movement. Start with zero resistance from the attacker and focus purely on recognition speed and reaction timing.
 
@@ -290,29 +302,6 @@ Full positional sparring starting from standing rear clinch. Attacker works to e
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to convert from seatbelt to body lock?
-**A**: The earliest cue is the underhook arm beginning to slide downward from your armpit toward your waist. You will feel reduced pressure in the armpit area and increased contact along your ribcage and flank as the arm travels down. This typically occurs simultaneously with increased forward hip pressure from the attacker, which serves to mask the grip change. Reacting to this first sign of arm movement gives you the maximum defensive window before the lock is established.
-
-**Q2**: Why is sitting to guard sometimes the correct defensive choice against the body lock transition?
-**A**: Sitting to guard is correct when standing defenses have failed and the body lock is about to be or has just been completed. A controlled, proactive guard pull where you choose the timing and position of your descent is significantly better than being thrown or mat-returned into a position the attacker has predetermined. By sitting before the takedown is executed, you maintain some positional initiative and can immediately establish defensive frames and guard structure. The key principle is controlling your own descent rather than allowing the attacker to dictate how you go to the ground.
-
-**Q3**: How should you defend if you feel both of the attacker's arms reaching your waist level simultaneously?
-**A**: If both arms are already at waist level, the lock is imminent and your priority shifts from preventing the lock to mitigating its consequences. Get at least one hand inside the developing lock to wedge between their arms and your body, which prevents them from tightening fully. Simultaneously lower your base aggressively by bending your knees and widening your stance. If you cannot prevent the lock, immediately begin grip-breaking from the most accessible point while preparing to sit to guard. Do not freeze or wait to see what they do next, as the attacker will attack within one second of establishing the lock.
-
-**Q4**: What is the highest-risk moment during the defender's response to the grip conversion?
-**A**: The highest-risk moment is when you commit both hands to fighting the attacker's sliding arm, leaving their remaining seatbelt arm (the over-shoulder choking arm) undefended. A skilled attacker may bait the body lock attempt to draw your defensive hand fighting, then tighten the choking arm for a standing rear naked choke attempt while you are focused on the waist-level threat. To mitigate this, fight the sliding arm primarily with your same-side hand while keeping your opposite-side hand available to address the choking arm or maintain a frame against the attacker's head and shoulder.
-
-**Q5**: Your opponent drives increased hip pressure and you feel their underhook arm sliding - what is your immediate three-step response?
-**A**: Step one: grab the sliding arm with your nearest hand using a two-on-one grip if possible, anchoring it before it reaches your waist. Step two: simultaneously drive your hips away from the attacker with an explosive hip escape to create space between your waist and their reaching arm. Step three: if the first two actions stall the transition, use the created space to begin turning toward the attacker to face them, or if the attacker is adjusting to chase, take the opportunity to pummel your arm inside to create a defensive frame. The three actions should flow together in under two seconds.
-
-
-
-</section>
 
 
 </main>

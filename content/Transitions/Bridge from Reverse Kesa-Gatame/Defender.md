@@ -148,6 +148,8 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge from Reverse Kesa-Gatame?</p>
+
 - Bottom player plants both feet flat on the mat with heels drawn close to their hips, creating a loaded position for explosive hip extension
 - Bottom player's free arm moves to establish a frame against your hip or shoulder, creating a push-off point for the directional bridge
 - Core tensioning and slight weight shift toward the trapped arm side as the bottom player loads their bridge before the explosive movement
@@ -159,6 +161,8 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge from Reverse Kesa-Gatame?</p>
 
 - Maintain low hip position with hips driven toward the mat to create maximum resistance against upward bridge force
 - Distribute weight through the chest and sternum onto the opponent's upper torso rather than sitting upright, which makes you vulnerable to displacement
@@ -173,6 +177,8 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge from Reverse Kesa-Gatame?</p>
 
 ### 1. Sprawl hips low and drive chest weight downward to absorb the bridge force
 
@@ -203,6 +209,8 @@ Defending against the bridge escape from Reverse Kesa-Gatame requires the top pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge from Reverse Kesa-Gatame?</p>
+
 ### → [[Positions/Mount]]
 
 When the bottom player bridges explosively, ride their hip elevation and immediately step your far leg over their body. Their elevated hips actually assist the mount transition by creating space for your leg. Time the step-over for the peak of the bridge before they can turn.
@@ -218,6 +226,8 @@ Sprawl your hips low and drive chest pressure downward through your sternum to c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge from Reverse Kesa-Gatame?</p>
 
 ### 1. Sitting too upright with weight off the opponent's chest when bridge indicators are present
 
@@ -247,6 +257,8 @@ Sprawl your hips low and drive chest pressure downward through your sternum to c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge from Reverse Kesa-Gatame?</p>
+
 **Phase 1: Pressure Maintenance Drill** - Maintaining low heavy pressure against bridge attempts
 Partner executes repeated bridges at 50% power while you focus exclusively on maintaining chest pressure and base width. Count how many consecutive bridges you can absorb without losing position. Build awareness of how weight distribution affects bridge resistance.
 
@@ -263,26 +275,6 @@ Full-resistance positional sparring from Reverse Kesa-Gatame. Bottom player uses
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that the bottom player is preparing a bridge escape?
-**A**: The earliest cues are the bottom player planting both feet flat on the mat with heels drawn close to their hips, creating explosive hip extension potential. You may also feel their core tensioning and a slight weight shift toward the trapped arm side. Their free arm will move to establish a frame against your hip or shoulder. Recognizing these preparatory movements gives you time to sprawl and widen your base before the bridge launches.
-
-**Q2**: How should you adjust your weight distribution when you sense a bridge attempt is coming?
-**A**: Immediately lower your hips and drive them toward the mat, sprawling your legs wider to create a more stable base. Your chest pressure should increase through your sternum onto their upper chest, creating maximum downward force that directly opposes the upward bridge vector. Avoid posting with your arms, which lifts your center of gravity. Let your skeletal structure and hip weight resist the bridge while keeping your arms available for arm control.
-
-**Q3**: When is it advantageous to ride the bridge to mount rather than simply resisting?
-**A**: Riding the bridge to mount is advantageous when the bottom player commits fully to a large bridge that significantly elevates their hips. Their elevated hips create a pathway for your leg to step over. This works best against opponents who bridge predictably in direction and with full commitment. However, the timing must be precise—step over at the bridge's peak, not before or after. If you are not confident in your mount transition timing, simply resisting is the safer option.
-
-**Q4**: What happens if you maintain arm control too aggressively during a bridge attempt?
-**A**: Overly aggressive arm control during a bridge compromises your base because both hands are committed to controlling their arm, leaving no ability to post when the bridge displaces your balance. Release one control point to post against the mat while maintaining the other. Specifically, release the far-side arm to post while keeping the near-side armpit clamp on their arm, preserving both base recovery and continued arm control.
-
-
-
-</section>
 
 
 </main>

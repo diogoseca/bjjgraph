@@ -20,8 +20,8 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 25% of exchanges from this position.",
+      "name": "Execute Kneebar from Kneebar Control",
+      "text": "From this position, attempt Kneebar from Kneebar Control. This technique is attempted in 25% of exchanges from this position.",
       "position": 1
     },
     {
@@ -44,8 +44,8 @@ description: "Master top kneebar control in BJJ. Complete technical guide coveri
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold from Kneebar Control",
+      "text": "From this position, attempt Toe Hold from Kneebar Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
@@ -173,6 +173,8 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kneebar Control (Top)?</p>
+
 - Top practitioner maintains superior vertical positioning over opponent, with weight distributed to prevent bottom practitioner from recovering guard or achieving neutral position, while controlling at least one of opponent's legs with arms positioned to attack knee joint
 - Opponent's leg is isolated and secured across top practitioner's torso or between their legs, with control grips preventing leg extraction, positioned to allow hip pressure against knee joint while maintaining enough base to resist reversal attempts
 - Top practitioner's hips are positioned to create downward or lateral pressure against opponent's knee, with body weight distribution allowing simultaneous submission threat and positional control, preventing opponent from establishing frames or creating distance
@@ -183,6 +185,8 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Kneebar Control (Top)?</p>
 
 - Top practitioner has established dominant position or guard passing control over opponent
 - Opponent's leg has been isolated through passing mechanics, scramble, or purposeful attack entry
@@ -196,6 +200,8 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Kneebar Control?</p>
 
 - Positional hierarchy is maintained throughout submission attempt - never sacrifice top position for low-percentage finish
 - Weight distribution must prevent opponent from recovering guard while enabling submission mechanics
@@ -211,6 +217,8 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Kneebar Control (Top)?</p>
 
 **If opponent's leg straightens and defensive posture collapses under top pressure:**
 - Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[game-over]] (Probability: 55%)
@@ -228,7 +236,7 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 
 **If opponent rotates foot or ankle defensively while maintaining knee protection:**
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 60%)
+- Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Toe Hold Control]] (Probability: 60%)
 - Execute **[[Submissions/Straight Ankle Lock/Attacker|Straight Ankle Lock]]** → [[Positions/Straight Ankle Lock Control]] (Probability: 65%)
 
 
@@ -244,6 +252,8 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Kneebar Control?</p>
 
 ### 1. Committing weight fully to kneebar finish without securing positional control first, allowing opponent to explode into escape
 
@@ -288,6 +298,8 @@ Defensively, the top practitioner must be aware that committing fully to a kneeb
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Kneebar Control attacks?</p>
+
 ### Positional Kneebar Entry from Passing
 
 Start in various passing positions (headquarters, knee cut position, half guard top) and practice transitioning to kneebar control while maintaining top pressure. Partner provides moderate resistance but focuses on defending position rather than countering. Emphasizes smooth integration of kneebar attacks into passing sequences.
@@ -320,38 +332,6 @@ Start with practitioner in top kneebar control against defending opponent. Attac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanism for maintaining top kneebar control against an opponent who tries to create distance?
-**A**: The primary mechanism is maintaining constant hip connection to the opponent's knee joint while using your body weight to drive pressure downward. Keep your hips tight against their knee, use your arms to pull the leg close to your torso, and distribute weight to prevent them from creating space. If they push, follow their movement while maintaining the grip connection.
-
-**Q2**: How should you adjust your base when an opponent starts bridging explosively during a top kneebar attempt?
-**A**: When opponent bridges, immediately widen your base by posting with your free hand and spreading your knees apart for stability. Do not fight the bridge directly - instead, ride it out while maintaining grip on the leg. Absorb the movement by lowering your center of gravity and keeping weight distributed forward. Once the bridge subsides, immediately re-consolidate position before continuing the finish.
-
-**Q3**: What are the essential grips for maintaining top kneebar control position?
-**A**: The essential grips involve a figure-four or gable grip configuration around the opponent's lower leg, with arms wrapped near the ankle and lower calf. One arm typically cups under the Achilles area while the other reinforces from above. The grip should be tight enough to prevent leg extraction but positioned to allow quick adjustment for finishing. Hands should be interlocked with elbows squeezed together.
-
-**Q4**: Your opponent is defending by keeping their knee bent and using frames - what adjustment should you make?
-**A**: When opponent defends with bent knee and frames, first address the frames by using shoulder pressure or switching to a crossface to eliminate them. Then work to break their posture by pulling the leg tight while driving your hips forward. If the finish remains defended after 5-10 seconds, abandon the kneebar and transition to positional advancement such as knee cut pass or mount rather than wasting energy on a defended submission.
-
-**Q5**: How do you apply pressure effectively from top kneebar control without losing positional hierarchy?
-**A**: Apply pressure through a combination of hip drive against the knee, chest weight on the opponent's body, and continuous pulling with the arms. Keep your center of gravity low and forward rather than sitting upright. The key is distributing weight across multiple contact points so no single point bears all the pressure. Never fully commit to the finish at the expense of base - maintain ability to recover dominant top position if the submission fails.
-
-**Q6**: When transitioning from guard passing to top kneebar, what movement should you anticipate from your opponent?
-**A**: Anticipate three primary reactions: first, hip escape attempts to recover guard; second, turning away to turtle position; third, explosive bridges to create space. Read their hip movement early - if hips turn toward you, prepare for guard recovery; if away, follow to turtle attacks. During transition, maintain continuous pressure and secure the leg before committing fully. Keep weight forward to minimize their ability to generate explosive movement.
-
-**Q7**: What is the most efficient energy management strategy when hunting for kneebars from top position?
-**A**: Efficient energy management means using positional pressure rather than muscular effort to maintain control. Rely on body weight and skeletal alignment rather than gripping strength. Set time limits for finish attempts - if no significant progress in 15-20 seconds, transition to positional advancement. Rest by consolidating dominant position before attacking again. Never continuously chase a defended submission as this depletes energy while opponent conserves theirs.
-
-**Q8**: Your opponent partially escapes and starts inserting a knee shield - how do you recover the kneebar control?
-**A**: When opponent inserts knee shield, immediately shift priority from kneebar finish to preventing full guard recovery. Use your free arm to pin their shield leg while maintaining grip on the original target leg. Either: 1) switch to passing the knee shield using knee cut mechanics while maintaining leg grip for potential re-entry, or 2) abandon the kneebar entirely and prioritize securing side control. Do not force the kneebar against an established shield as this creates a stalemate favoring the defender.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

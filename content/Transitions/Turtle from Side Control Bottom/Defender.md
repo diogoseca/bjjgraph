@@ -154,6 +154,8 @@ As the top player in side control, preventing the bottom player's turtle turn is
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle from Side Control Bottom?</p>
+
 - Bottom player establishes a forearm frame against your hip or shoulder, creating separation between your bodies that precedes every turn attempt
 - Bottom player's near-side hip begins rotating toward the mat, indicating the start of the turning motion
 - Bottom player bridges explosively upward, creating momentary space and disrupting your settled weight distribution
@@ -166,6 +168,8 @@ As the top player in side control, preventing the bottom player's turtle turn is
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle from Side Control Bottom?</p>
 
 - Maintain heavy crossface pressure driving opponent's head away to prevent the initial turning motion from developing
 - Keep hips low and connected to opponent's hips, eliminating the space needed for their rotation to begin
@@ -180,6 +184,8 @@ As the top player in side control, preventing the bottom player's turtle turn is
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle from Side Control Bottom?</p>
 
 ### 1. Drive heavy crossface and re-settle hip pressure to block the turn before it develops
 
@@ -217,6 +223,8 @@ As the top player in side control, preventing the bottom player's turtle turn is
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle from Side Control Bottom?</p>
+
 ### → [[Positions/Side Control]]
 
 Maintain heavy crossface with near-side hip blocking throughout. Keep chest pressure distributed across the opponent's torso and immediately re-settle weight after any escape attempt. Control the near-side arm to prevent frame establishment that precedes every turtle turn.
@@ -232,6 +240,8 @@ Allow the turn to develop past the blocking point, then follow the rotation with
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle from Side Control Bottom?</p>
 
 ### 1. Allowing space between your hips and the bottom player's hips during side control maintenance
 
@@ -261,6 +271,8 @@ Allow the turn to develop past the blocking point, then follow the rotation with
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle from Side Control Bottom?</p>
+
 **Phase 1: Recognition** - Identifying pre-turn signals from side control top position
 Maintain side control while partner attempts turtle turns at varying speeds and intensities. Focus solely on recognizing the frame establishment, bridge, and hip rotation signals without attempting to counter. Develop sensitivity to the early warning signs of the turn attempt.
 
@@ -277,26 +289,6 @@ Positional sparring from side control with partner using all available escapes i
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What early indicator signals that the bottom player is about to attempt a turtle turn from side control?
-**A**: The earliest indicator is the establishment of a forearm frame against your hip or shoulder. This frame is the prerequisite for every turn because it creates the separation needed to rotate. When you feel the bottom player's near-side arm pressing into your hip crease or driving against your shoulder, immediately increase your crossface pressure and hip connection to prevent the turn from developing. The explosive bridge that follows the frame is the second signal, but responding at that point gives you less time to counter effectively.
-
-**Q2**: Should you attempt to block the turtle turn or follow it to back control?
-**A**: The decision depends on timing and the stage of the turn's development. If you recognize the turn early during frame establishment, blocking by increasing crossface and hip pressure is preferred because it maintains your dominant side control position. If the turn has already progressed significantly past the point where their near-side hip has begun rotating toward the mat, following to back control is superior because fighting a turn in progress often creates scrambles with unpredictable results. The key threshold is whether the rotation has generated its own momentum.
-
-**Q3**: How do you maintain control continuity when transitioning from side control top to turtle top as the opponent turns?
-**A**: Maintain chest-to-back contact throughout the rotation by moving your upper body with the bottom player as they turn. As they rotate, your crossface hand transitions into a seatbelt position by sliding over their shoulder. Your near-side control hand slides from hip control to an underhook position around their waist. The critical principle is never having a moment of disconnection. Your weight should transfer seamlessly from side control chest pressure to turtle top chest pressure without any gap.
-
-**Q4**: What position advancement opportunities does a failed turtle turn create for the top player?
-**A**: A failed turtle turn often leaves the bottom player partially rotated with compromised framing structure and depleted energy. This creates excellent opportunities for mount advancement because their hip has turned away, making the step-over easier than from standard side control. If they return to their back after a failed turn, they are typically more exhausted and their frames are weaker, making submission attempts like americana or kimura more viable. The failed escape also provides psychological advantage as their confidence in escape options diminishes.
-
-
-
-</section>
 
 
 </main>

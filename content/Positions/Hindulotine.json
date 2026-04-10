@@ -185,7 +185,7 @@
         "duration": "10 minutes"
       },
       {
-        "name": "Top Position Pressure and Weight Distribution",
+        "name": "Top Position Pressure and Center of Gravity",
         "description": "Start in established top Hindulotine with partner giving 50% resistance. Experiment with different weight distributions, hip angles, and leg positions to understand which configurations create maximum pressure while maintaining stability. Partner provides feedback on pressure and balance.",
         "duration": "10 minutes"
       },
@@ -261,7 +261,7 @@
     ],
     "transitions": [
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Hindulotine",
         "attempt_probability": 31
       },
       {
@@ -289,7 +289,7 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Hindulotine Choke Finish",
+        "transition": "Hindulotine from Hindulotine",
         "attempt_probability": 4
       },
       {
@@ -532,7 +532,7 @@
     ],
     "transitions": [
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Hindulotine",
         "attempt_probability": 32
       },
       {

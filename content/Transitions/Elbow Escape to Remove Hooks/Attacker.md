@@ -192,6 +192,8 @@ This escape is particularly effective against the invisible collar because it do
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Elbow Escape to Remove Hooks?</p>
+
 - Attack hooks systematically one at a time rather than both simultaneously to prevent opponent from simply switching focus
 - Use elbow as a wedge against opponent's ankle or instep to create mechanical leverage for hook removal
 - Hip escape away from the hook you're removing to create space and prevent re-insertion
@@ -207,6 +209,8 @@ This escape is particularly effective against the invisible collar because it do
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Elbow Escape to Remove Hooks?</p>
+
 - Opponent has back control with at least one hook inserted
 - You have established minimal neck defense preventing immediate choke finish
 - You have identified which hook is more vulnerable to removal based on opponent's weight distribution
@@ -219,6 +223,8 @@ This escape is particularly effective against the invisible collar because it do
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Elbow Escape to Remove Hooks step by step?</p>
 
 1. **Secure neck defense**: Tuck your chin aggressively to your chest and bring both hands to your collar area to control opponent's choking grip. This defense must remain intact throughout the entire hook removal sequence—never sacrifice neck protection for faster escape.
 2. **Identify vulnerable hook**: Determine which hook is more exposed based on opponent's weight distribution and body angle. The hook on the side opponent is leaning away from typically has less pressure and is easier to clear first. Feel for which leg has lighter ankle pressure.
@@ -248,6 +254,8 @@ This escape is particularly effective against the invisible collar because it do
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Elbow Escape to Remove Hooks?</p>
+
 - **Opponent switches to body triangle when they feel hook being cleared** (Effectiveness: High) - Your Response: Recognize the switch early and address it before triangle is locked. If locked, the escape sequence changes entirely—you must address the body triangle before continuing hook escape → Leads to [[Positions/Back Control]]
 - **Opponent drives forward pressure when you hip escape, flattening you out** (Effectiveness: Medium) - Your Response: Use the forward pressure to help your rotation—swim your inside arm under as they drive forward and continue turning into them rather than away → Leads to [[Positions/Rubber Guard/Invisible Collar]]
 - **Opponent abandons hooks to take armbar or choke when you commit to hook removal** (Effectiveness: Medium) - Your Response: Maintain neck defense throughout and keep elbows tight to body. The elbow escape method allows one arm to remain protecting neck while other addresses hooks → Leads to [[Positions/Back Control]]
@@ -259,6 +267,8 @@ This escape is particularly effective against the invisible collar because it do
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Elbow Escape to Remove Hooks?</p>
 
 ### 1. Abandoning neck defense to use both hands on hook removal
 
@@ -298,6 +308,8 @@ This escape is particularly effective against the invisible collar because it do
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Elbow Escape to Remove Hooks (Attacker)?</p>
+
 **Week 1-2** - Elbow wedge mechanics
 Practice positioning your elbow as a frame against partner's hook without resistance. Focus on finding the correct contact point (elbow to ankle/instep) and maintaining the wedge while moving your hips. Drill hip escapes with the elbow frame until the coordination becomes natural.
 
@@ -315,54 +327,12 @@ Full resistance back escape rounds. Start in back control with collar grip estab
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Elbow Escape to Remove Hooks?
-**A**: The primary goal is to systematically remove the opponent's hooks from back control, which eliminates the foundation of their positional control and creates the rotational freedom necessary to turn and establish guard. By attacking the hooks rather than fighting the upper body control directly, you address the root of their dominance.
-
-**Q2**: Why must you remove hooks one at a time rather than both simultaneously?
-**A**: Attempting to clear both hooks simultaneously divides your attention and effort, making neither removal effective. The opponent can simply shift their weight to maintain whichever hook you're putting less pressure on. Sequential removal allows you to focus full effort on one hook, trap it completely, then address the second without risk of the first returning.
-
-**Q3**: Your opponent begins driving forward pressure as you hip escape—how do you adapt the technique?
-**A**: Use their forward pressure to assist your rotation rather than fighting it. As they drive forward, swim your inside arm under their body and continue turning into them. Their forward momentum actually helps you complete the turn to guard if you redirect it properly. Stop fighting to escape backward and instead flow with their pressure into the turn.
-
-**Q4**: What hip movement direction is required when clearing the bottom hook?
-**A**: You must hip escape away from the hook you're removing. This creates the space necessary for the hook to pass your leg and clear. Hip escaping toward the hook compresses space and may help them sink it deeper. The shrimping motion away creates a gap that your elbow wedge then exploits to push their ankle free.
-
-**Q5**: How do you prevent opponent from re-inserting the first hook while you work on the second?
-**A**: Immediately triangle your legs around their cleared limb after the first hook comes out. Your outside leg hooks over their cleared leg while your inside leg closes the triangle, trapping their leg between your thighs. This leg trap must be secured before you begin working on the second hook or you'll cycle endlessly.
-
-**Q6**: When should you abandon the systematic elbow escape and attempt a more explosive escape?
-**A**: Only abandon the systematic approach when the submission becomes immediately threatening and you have no time for the sequence. If opponent locks a tight choke and you cannot defend it while escaping, you may need explosive movement to create any chance of survival. However, frantic movement usually makes things worse—the systematic approach should be the default until the submission becomes critical.
-
-**Q7**: Your opponent switches to body triangle as you begin clearing the first hook—what adjustment is required?
-**A**: Stop the hook removal sequence immediately and address the body triangle first. Body triangle escape requires different mechanics—you need to push their top knee down while turning toward the triangle side. Continuing the hook escape sequence against a body triangle is ineffective because the control mechanism has fundamentally changed. Recognize the switch early and adjust your escape approach.
-
-**Q8**: What is the relationship between neck defense and hook removal in this technique?
-**A**: Neck defense must remain your primary concern throughout hook removal—it's not a trade-off but rather a simultaneous requirement. The elbow escape method allows you to address hooks while keeping at least one hand protecting your neck. Never abandon neck defense to speed up hook removal, as the opponent will simply finish the choke while you focus on their legs.
-
-**Q9**: How do you identify which hook to remove first?
-**A**: Target the hook with less weight behind it—typically the one on the side opponent is leaning away from. Feel for which ankle has lighter pressure against your body. The lighter hook requires less force to clear and gives you a higher-percentage first victory. Starting with the heavier hook often fails and wastes energy.
-
-**Q10**: What determines whether you should use the elbow wedge or heel drag variation?
-**A**: The choice depends on immediate threat level and hook depth. Use elbow wedge when you cannot safely remove a hand from neck defense or when hooks are deep and tight. Use heel drag when hooks are shallow, you have a brief window without choking pressure, and you need faster removal. The elbow wedge is safer but slower; heel drag is faster but requires temporarily sacrificing neck protection.
-
-**Q11**: What grip configuration on the cleared leg best prevents hook re-insertion during the trapping phase?
-**A**: The triangle configuration with your legs is superior to simply clamping your knees together. Your outside leg hooks over the opponent's cleared shin while your inside leg crosses underneath to close the triangle. This creates a mechanical lock that requires them to fight against your entire leg structure rather than just squeezing pressure. Knee clamping alone fails against strong hip movement because there is no locking mechanism.
-
-**Q12**: After both hooks are cleared, what is the critical detail during the final rotation to open guard?
-**A**: You must frame on their hips with both hands while inserting your knees between your bodies before completing the turn. Many practitioners turn to face the opponent but fail to establish guard structure, allowing immediate re-take of back control. The frame and knee insertion create the barrier that prevents them from following your rotation and re-establishing chest-to-back connection.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Elbow Escape to Remove Hooks?</p>
 
 This technique involves significant spinal rotation and movement while bearing opponent's weight on your back. Avoid explosive twisting movements that could strain your lower back or neck. When drilling, ensure your partner releases hook pressure gradually as you practice the removal mechanics rather than fighting to maintain position against proper technique. If you feel sharp pain in your back or neck during the escape, stop immediately rather than forcing through. Practitioners with existing spinal issues should modify the technique with smaller, more controlled hip movements. The neck defense portion requires sustained isometric contraction of neck flexors—build this strength gradually to avoid muscle strain. During live training, be aware that desperate escape attempts can lead to opponent cranking neck submissions harder. Tap early when caught in submissions rather than fighting through with compromised positioning.
 

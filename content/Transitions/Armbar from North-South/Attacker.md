@@ -76,10 +76,10 @@ description: "How to execute Armbar from North-South in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "What position do you start Armbar from North-South from?",
+      "name": "You are maintaining North-South and your opponent's near-side elbow drifts away from their ribs—what is your immediate sequence?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "This technique starts from North-South/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins."
+        "text": "This is your optimal attack window. Immediately secure a pistol grip on their wrist with your same-side hand before they retract the arm. Simultaneously thread your opposite arm under their elbow for the underhook. Once the two-on-one control is locked, you must commit to the explosive hip rotation without hesitation—the arm isolation window closes quickly as the opponent recognizes the threat."
       }
     },
     {
@@ -100,18 +100,18 @@ description: "How to execute Armbar from North-South in BJJ. Attacking perspecti
     },
     {
       "@type": "Question",
-      "name": "When is the best time to attempt Armbar from North-South?",
+      "name": "Your opponent stacks forward during the armbar finish—how do you adjust?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The optimal timing window opens when the opponent's near-side arm drifts away from their body—often during their attempts to create frames or push against your pressure. Also effective when they extend an arm to defend a kimura threat, as this arm extension creates the isolation needed for the armbar. Never attempt when the arm is tight to their body."
+        "text": "Angle your body away from the stack direction rather than fighting directly against their forward pressure. Keep your legs heavy on their shoulder to prevent them from completing the stack. Use the angled hip extension to maintain breaking pressure even as they drive forward. If stacking continues, consider transitioning to triangle if their arm configuration allows."
       }
     },
     {
       "@type": "Question",
-      "name": "What is the correct thumb orientation for the finishing position?",
+      "name": "What is the correct thumb orientation for the finishing position and why does it matter?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "The opponent's thumb should point toward the ceiling (supinated position). This orientation ensures the hyperextension force is applied directly against the elbow joint's natural bend direction. Thumb pointing down or to the side disperses the force and creates an uncomfortable but non-breaking angle that allows escape."
+        "text": "The opponent's thumb should point toward the ceiling (supinated position). This orientation ensures the hyperextension force is applied directly against the elbow joint's natural bend direction. Thumb pointing down or to the side disperses the force and creates an uncomfortable but non-breaking angle that allows escape. Always verify thumb orientation before committing to hip extension."
       }
     }
   ]
@@ -186,6 +186,8 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar from North-South?</p>
+
 - Isolate the near-side arm before initiating any rotational movement toward the armbar
 - Maintain wrist control as the primary anchor throughout the entire transition sequence
 - Hip rotation must be explosive and committed—half-measures allow escape
@@ -201,6 +203,8 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar from North-South?</p>
+
 - Established North-South control with chest pressure on opponent's torso
 - Near-side arm isolated with underhook or wrist control secured
 - Opponent's elbow separated from their body creating attack angle
@@ -213,6 +217,8 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar from North-South step by step?</p>
 
 1. **Secure wrist control**: From North-South, control the near-side wrist with your same-side hand using a pistol grip. Your thumb wraps around the radial side while fingers secure the ulnar side of their wrist.
 2. **Establish elbow control**: Use your opposite arm to underhook their elbow, pulling it tight against your ribs. This two-on-one control prevents them from bending their arm or pulling it back to their body.
@@ -241,6 +247,8 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Armbar from North-South?</p>
+
 - **Hitchhiker escape where opponent rotates toward the trapped arm and extracts elbow** (Effectiveness: High) - Your Response: Maintain heavy leg pressure on their face and follow their rotation, transitioning to mounted armbar or back take if they commit to the escape → Leads to [[Positions/North-South]]
 - **Stacking defense where opponent drives forward to relieve pressure on elbow** (Effectiveness: Medium) - Your Response: Angle your body away from the stack, keep legs heavy on their shoulder, and use hip extension angle to maintain breaking pressure despite the stack → Leads to [[Positions/North-South]]
 - **Grip fighting to clasp hands together and prevent arm extension** (Effectiveness: Medium) - Your Response: Attack the grip by wedging your forearm between their hands, or transition to triangle or omoplata if their arm configuration allows → Leads to [[Positions/Armbar Control]]
@@ -252,6 +260,8 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar from North-South?</p>
 
 ### 1. Releasing chest pressure before securing arm control
 
@@ -286,6 +296,8 @@ The mechanical foundation relies on pivoting your body perpendicular to the oppo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar from North-South (Attacker)?</p>
+
 **Week 1-2** - Positional mechanics
 Practice arm isolation from North-South against a non-resisting partner. Focus on the wrist grip, elbow underhook, and feeling the correct arm position before any rotation. Drill the hip rotation movement without the arm to build muscle memory for the pivot.
 
@@ -303,48 +315,12 @@ Apply technique in positional sparring starting from North-South. Work on creati
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Armbar from North-South?
-**A**: The primary goal is to transition from the pinning control of North-South into a submission control position (Armbar Control) by isolating the opponent's arm and rotating your body to create a hyperextension angle on their elbow joint. This converts positional dominance into a submission threat.
-
-**Q2**: What position do you start Armbar from North-South from?
-**A**: This technique starts from North-South/Top, where you have perpendicular chest pressure across the opponent's torso with your head near their hips and your hips near their head. The position must be established with stable base before the armbar transition begins.
-
-**Q3**: What are the key grips needed for Armbar from North-South?
-**A**: The essential grips are a pistol grip on the wrist (thumb wrapping the radial side, fingers on ulnar side) and an elbow underhook that pulls their arm tight to your ribs. This two-on-one control prevents arm extraction and maintains connection throughout the rotation. The wrist grip is the primary anchor that must never release.
-
-**Q4**: How should you respond if your opponent attempts the hitchhiker escape?
-**A**: Follow their rotation by adjusting your angle—don't fight directly against the escape direction. Keep heavy leg pressure on their face to slow the rotation. If they commit fully to hitchhiker, transition to mounted armbar by following them into mount, or take their back if their rotation exposes it. The key is staying connected rather than losing the arm entirely.
-
-**Q5**: When is the best time to attempt Armbar from North-South?
-**A**: The optimal timing window opens when the opponent's near-side arm drifts away from their body—often during their attempts to create frames or push against your pressure. Also effective when they extend an arm to defend a kimura threat, as this arm extension creates the isolation needed for the armbar. Never attempt when the arm is tight to their body.
-
-**Q6**: What is the correct thumb orientation for the finishing position?
-**A**: The opponent's thumb should point toward the ceiling (supinated position). This orientation ensures the hyperextension force is applied directly against the elbow joint's natural bend direction. Thumb pointing down or to the side disperses the force and creates an uncomfortable but non-breaking angle that allows escape.
-
-**Q7**: Your opponent stacks forward during the armbar finish—how do you adjust?
-**A**: Angle your body away from the stack direction rather than fighting directly against their forward pressure. Keep your legs heavy on their shoulder to prevent them from completing the stack. Use the angled hip extension to maintain breaking pressure even as they drive forward. If stacking continues, consider transitioning to triangle if their arm configuration allows.
-
-**Q8**: What determines whether this technique leads to a finish versus just positional control?
-**A**: The transition leads to Armbar Control (the submission control position), not directly to a finish. From Armbar Control, you can execute the Armbar Finish which leads to game-over. The key factors are: maintaining arm control throughout rotation, achieving proper leg positioning across the shoulder line, and having the correct thumb-up arm orientation before applying extension.
-
-**Q9**: Why must the hip rotation be explosive rather than gradual?
-**A**: A gradual rotation gives the opponent time to react—inserting a knee for guard recovery, extracting their elbow, or beginning defensive grips. The explosive rotation overwhelms their reaction time and establishes the armbar position before defensive reflexes engage. Half-committed rotations consistently fail because the transition phase is when you're most vulnerable.
-
-**Q10**: What chain attacks become available if the opponent defends by clasping their hands?
-**A**: When they clasp hands, the arm becomes temporarily immobilized but their defensive posture creates new openings. You can wedge your forearm between their hands to break the grip, transition to a triangle by threading your leg under their defending arm, or attack an omoplata if their arm angle permits. The grip defense often exposes other submission entries.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar from North-South?</p>
 
 The armbar applies hyperextension force to the elbow joint which can cause serious ligament damage or dislocation if applied too quickly or without allowing time for the tap. Always apply finishing pressure progressively, not explosively. In training, release immediately upon feeling the tap or verbal submission. Partners should tap early rather than testing joint flexibility limits. Practitioners with previous elbow injuries should communicate limitations before drilling. Avoid this technique entirely if partner has acute elbow inflammation or injury. The leg position should never compress the throat—adjust leg placement if partner indicates breathing difficulty.
 

@@ -206,7 +206,7 @@ Pass to Side Control represents the escape valve from 50-50 Guard when leg attac
 
 - [[Positions/Headquarters Position]] - Transitional control point during leg extraction
 
-- [[Submissions/Kneebar from 50-50]] - Chain attack option before committing to pass
+- [[Transitions/Kneebar entry]] - Chain attack option before committing to pass
 
 - [[Transitions/50-50 Guard to Inside Ashi]] - Alternative transition to different leg entanglement
 

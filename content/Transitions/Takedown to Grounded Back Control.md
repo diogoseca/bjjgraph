@@ -210,13 +210,13 @@ The Takedown to Grounded Back Control occupies a pivotal role in the back attack
 
 - [[Transitions/Mat Return to Back Mount]] - Alternative mat return variation that targets mount rather than standard back control
 
-- [[Transitions/Rear Naked Choke]] - Primary submission follow-up from the grounded back control achieved by this transition
+- [[Submissions/Rear Naked Choke]] - Primary submission follow-up from the grounded back control achieved by this transition
 
 - [[Transitions/Body Triangle Lock]] - Follow-up control option - body triangle can be established during or immediately after the mat return
 
 - [[Transitions/Back Control Maintenance]] - Continuation technique - maintaining grounded back control once established by the mat return
 
-- [[Transitions/Bow and Arrow Choke]] - Gi-specific submission follow-up available from the grounded back control position
+- [[Submissions/Bow and Arrow Choke]] - Gi-specific submission follow-up available from the grounded back control position
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Grip configuration maintained throughout this transition and essential for its success
 
@@ -224,7 +224,7 @@ The Takedown to Grounded Back Control occupies a pivotal role in the back attack
 
 - [[Transitions/Back Take]] - Prerequisite technique chain - back take leads to standing back control which leads to this mat return
 
-- [[Submissions/Armbar from Back]] - Alternative submission follow-up when opponent over-defends neck after grounded back control
+- [[Transitions/Armbar from Back Transition]] - Alternative submission follow-up when opponent over-defends neck after grounded back control
 
 - [[Transitions/Follow to Back Control]] - Related transition - following opponent to the ground when they voluntarily descend
 

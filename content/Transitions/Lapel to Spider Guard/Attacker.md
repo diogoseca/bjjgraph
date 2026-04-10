@@ -188,6 +188,8 @@ This transition is particularly valuable in competition where opponents train sp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lapel to Spider Guard?</p>
+
 - Recognize the moment lapel control fails rather than fighting a losing grip battle
 - Use opponent's lapel-clearing motion to time your bicep foot placement
 - Maintain sleeve grips throughout the transition for continuous control
@@ -202,6 +204,8 @@ This transition is particularly valuable in competition where opponents train sp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lapel to Spider Guard?</p>
+
 - Established lapel guard position with at least one sleeve grip maintained
 - Opponent actively stripping or clearing your lapel configuration
 - Sufficient hip mobility to redirect feet from lapel frame to bicep pockets
@@ -213,6 +217,8 @@ This transition is particularly valuable in competition where opponents train sp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lapel to Spider Guard step by step?</p>
 
 1. **Recognize lapel failure**: Identify the moment your lapel grip is being stripped or cleared by opponent's pressure, posture change, or active grip breaking—do not wait until control is completely lost before initiating the transition sequence
 2. **Secure sleeve grips**: Reinforce or establish strong pistol grips on both sleeves at the cuff, maintaining at least one sleeve grip throughout the transition to prevent opponent from posturing away and disengaging
@@ -241,6 +247,8 @@ This transition is particularly valuable in competition where opponents train sp
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lapel to Spider Guard?</p>
+
 - **Immediate pressure pass before spider guard establishes** (Effectiveness: High) - Your Response: If they drive forward before you establish spider guard, use the momentum for a balloon sweep or transition to lasso guard with the closer leg → Leads to [[Positions/Half Guard]]
 - **Stripping sleeve grips during transition** (Effectiveness: Medium) - Your Response: Maintain at least one sleeve grip at all costs; if both are stripped, immediately recover to seated guard and re-engage grips before they advance → Leads to [[Positions/Lapel Guard]]
 - **Standing tall and creating distance to disengage** (Effectiveness: Medium) - Your Response: Use your feet on biceps to maintain connection; if they successfully create distance, convert to collar-sleeve guard or return to seated guard for re-engagement → Leads to [[Positions/Lapel Guard]]
@@ -252,6 +260,8 @@ This transition is particularly valuable in competition where opponents train sp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lapel to Spider Guard?</p>
 
 ### 1. Waiting too long to abandon failing lapel grip
 
@@ -291,6 +301,8 @@ This transition is particularly valuable in competition where opponents train sp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lapel to Spider Guard (Attacker)?</p>
+
 **Week 1-2** - Grip transfer mechanics
 Practice the sleeve grip maintenance and foot placement sequence without resistance. Partner holds static position while you drill the lapel release to bicep placement motion repeatedly until the pathway feels automatic.
 
@@ -308,48 +320,12 @@ Full resistance sparring starting from lapel guard. Partner actively passes whil
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Lapel to Spider Transition?
-**A**: The primary goal is to convert a failing lapel guard into an effective spider guard position without losing offensive momentum. Rather than fighting to maintain a compromised lapel grip, you flow to spider guard's bicep controls to maintain guard retention and immediately threaten sweeps or submissions.
-
-**Q2**: What position do you start the Lapel to Spider Transition from?
-**A**: This technique starts from Lapel Guard/Bottom, specifically when your lapel configuration is being stripped or cleared by your opponent. The position requires that you still have at least one sleeve grip and your guard structure intact to execute the transition successfully.
-
-**Q3**: What are the key grips needed for the Lapel to Spider Transition?
-**A**: The critical grips are pistol grips on both sleeves at the cuff. You must maintain at least one sleeve grip throughout the entire transition—this serves as your anchor point and prevents opponent from posturing away. The sleeve grips transfer directly into spider guard control.
-
-**Q4**: Your opponent strips your lapel grip and begins a knee slice pass—how do you adjust the transition timing?
-**A**: When the knee slice initiates, you must immediately establish the spider hook on the passing-side arm to create a frame against the slice. Use the opposite foot on their hip to create distance. The key adjustment is prioritizing the passing-side bicep control first rather than establishing both simultaneously.
-
-**Q5**: What is the most critical hip movement during this transition?
-**A**: Angling your hips toward your dominant sleeve grip side is essential. Staying flat on your back during the transition compromises hip mobility and makes your spider guard weak. The angled hip position loads sweep mechanics and maintains your ability to follow opponent's movement.
-
-**Q6**: When is the optimal timing window to initiate the Lapel to Spider Transition?
-**A**: The optimal timing is when you recognize your lapel grip is failing but before it is completely lost—during the opponent's active clearing motion. Their arm extension during the strip creates the perfect moment for bicep foot placement. Waiting until the grip is fully stripped delays the transition and allows pass initiation.
-
-**Q7**: Your opponent posts their hand on your hip to prevent the sweep after you establish spider guard—what immediate adjustment capitalizes on this?
-**A**: The posted hand opens their elbow, allowing you to pull that sleeve grip across their body for an arm drag or triangle setup. Alternatively, push-pull their arms to off-balance them toward the posted side. Their defensive post commits their weight distribution, creating a predictable reaction to exploit.
-
-**Q8**: How do you chain attacks if your initial spider guard sweep is blocked?
-**A**: If the basic spider sweep is blocked, immediately transition to triangle by pulling one sleeve across while kicking the opposite leg through. If triangle is defended by posturing, convert to omoplata on the pulled arm. The chain follows: sweep threat to triangle to omoplata back to sweep using their defensive reactions.
-
-**Q9**: What direction of force should your feet apply once planted in the bicep pockets?
-**A**: Your feet should apply force in two directions simultaneously: outward extension to create distance and prevent the opponent from closing range, and a slight downward curl hooking into the bicep muscle belly to maintain connection. The push-pull between your extending legs and pulling sleeve grips creates the tension that controls their posture and base.
-
-**Q10**: Your opponent successfully strips one sleeve grip mid-transition—what is the immediate recovery protocol?
-**A**: Maintain the remaining sleeve grip and use that side's foot on bicep as your anchor. The free foot transitions to their hip on the gripless side to maintain distance and prevent them from advancing. From this asymmetric position, either re-grip the stripped sleeve, transition to collar-sleeve guard, or wrap the free leg into lasso on the controlled arm side.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lapel to Spider Guard?</p>
 
 The Lapel to Spider Transition is generally low-risk, but attention to joint safety is important. Avoid hyperextending your own knees when establishing spider guard extension. When drilling, communicate with your partner about pressure levels on biceps—excessive foot pressure can cause bicep cramping or bruising. If your opponent attempts to stack or pressure pass during the transition, protect your neck by maintaining chin position and using frames. Never sacrifice spine alignment for grip retention. Stop drilling immediately if you experience shoulder discomfort from the pulling tension on sleeve grips.
 

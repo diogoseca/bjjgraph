@@ -158,13 +158,15 @@ The primary defensive strategy centers on disrupting the grip transition before 
 
 From a positional perspective, your best defensive outcomes are either forcing the attacker back to the Aoki Lock position where you can resume your original escape plan, or exploiting the transition chaos to recover turtle position and work standard turtle escapes. Understanding which defensive actions create which outcomes allows you to make intelligent choices based on your preferred escape pathway and the attacker's specific grip progression during the switch.
 
-**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Kimura Switch?</p>
 
 - Attacker's near-side hand releases hip control and reaches toward your far wrist, indicating the initial grip capture phase of the Kimura Switch
 - You feel the attacker's leg entanglement loosening or their legs shifting position, signaling they are preparing to release leg control after securing grips
@@ -177,6 +179,8 @@ From a positional perspective, your best defensive outcomes are either forcing t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura Switch?</p>
 
 - Attack the transition window before figure-four grip is fully secured, as this is your highest-percentage escape moment
 - Keep your arm straight and extended to prevent the attacker from threading the figure-four configuration around your tricep
@@ -192,10 +196,12 @@ From a positional perspective, your best defensive outcomes are either forcing t
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Kimura Switch?</p>
+
 ### 1. Straighten your trapped arm explosively as soon as you feel the attacker reaching for your far wrist, denying the figure-four grip configuration
 
 - **When to use**: Early in the switch sequence when the attacker's near-side hand first releases hip control to reach for your wrist, before any Kimura grips are established
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Forces attacker to abandon the Kimura Switch and return to Aoki Lock leg entanglement, resetting you to your original defensive scenario where you can continue standard Aoki Lock escapes
 - **Risk**: If the arm extension is incomplete or slow, the attacker may capture your wrist anyway. The extended arm also temporarily increases Aoki Lock leverage if they re-engage legs quickly.
 
@@ -209,7 +215,7 @@ From a positional perspective, your best defensive outcomes are either forcing t
 ### 3. Use your free hand to strip the attacker's initial C-grip on your wrist by peeling their fingers and pulling your wrist toward your centerline while keeping your elbow tight
 
 - **When to use**: Immediately after you feel the attacker's hand close around your far wrist but before they thread the second arm for the figure-four configuration
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Prevents the Kimura grip from forming entirely, forcing the attacker to either re-attempt the wrist capture or abandon the switch and return to Aoki Lock control
 - **Risk**: Using your free hand for grip fighting temporarily removes your ability to frame or post, which the attacker can exploit to flatten you or advance position.
 
@@ -228,7 +234,9 @@ From a positional perspective, your best defensive outcomes are either forcing t
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Aoki Lock]]
+<p class="section-subtitle">What is the best outcome when defending Kimura Switch?</p>
+
+### → [[Positions/Aoki Lock Control]]
 
 Force the attacker back to Aoki Lock by straightening your arm when they reach for Kimura grips, or strip their initial wrist capture with your free hand. The key is preventing the figure-four configuration from being established, which leaves the attacker with only their original leg entanglement. This returns you to the Aoki Lock scenario where you can resume rolling escapes, base attacks, and arm extraction techniques.
 
@@ -243,6 +251,8 @@ Exploit the transition window during leg release to turn into the attacker and r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura Switch?</p>
 
 ### 1. Waiting passively for the Kimura grip to be fully established before attempting any defense
 
@@ -272,6 +282,8 @@ Exploit the transition window during leg release to turn into the attacker and r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura Switch?</p>
+
 **Week 1-2** - Recognition and Arm Defense
 Partner slowly executes the Kimura Switch from Aoki Lock at 30% speed. Practice identifying each recognition cue: hand release, wrist reach, leg loosening, body angle shift. Drill arm straightening and wrist stripping defenses in isolation. Focus on reaction speed to the first cue rather than complete escape sequences.
 
@@ -288,29 +300,6 @@ Apply defensive skills in live rolling with emphasis on recognizing Kimura Switc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your highest-percentage defensive window during the Kimura Switch?
-**A**: The highest-percentage window is during the grip transition itself, specifically between the attacker reaching for your far wrist and completing the figure-four configuration. During this phase, the attacker's control is split between maintaining leg entanglement and establishing new grips, creating a brief period where neither control system is fully engaged. Explosive defensive action during this window exploits the attacker's divided attention and control.
-
-**Q2**: You feel the attacker's hand close around your far wrist - what immediate action should you take?
-**A**: Immediately use your free hand to strip the C-grip by peeling their fingers off your wrist while simultaneously pulling your wrist toward your own centerline. This must happen before they thread their second arm under your tricep for the figure-four. If the grip strip fails within 1-2 seconds, transition to straightening your arm explosively to prevent figure-four threading. Speed of reaction determines success.
-
-**Q3**: Why is turning into the attacker more effective than turning away during the Kimura Switch defense?
-**A**: Turning into the attacker disrupts their chest pressure which is their primary positional control during the transition. It also shortens the distance they need to cover with their grip transition and creates face-to-face scramble scenarios where the Kimura grip is less effective. Turning away exposes more of your back, gives the attacker clear following angles, and allows them to complete the switch while simply trailing behind your movement.
-
-**Q4**: Your arm straightening defense forces the attacker back to Aoki Lock - what should you do next?
-**A**: Immediately begin your Aoki Lock escape sequence rather than resting in the returned position. The attacker will likely attempt the switch again or increase Aoki Lock pressure, so use the reset as an opportunity to execute rolling escapes, base attacks on their posted leg, or arm extraction techniques. The defensive success only buys you time; it does not improve your position, so you must capitalize on the attacker's momentary frustration and adjustment period.
-
-**Q5**: How do you distinguish between the attacker adjusting their Aoki Lock and initiating a Kimura Switch?
-**A**: Aoki Lock adjustments involve the attacker tightening leg entanglement, repositioning hip pressure, or changing their posted leg angle while maintaining leg-based control throughout. The Kimura Switch is distinguished by the attacker's hand releasing hip or far-side control to reach toward your wrist, combined with a shift in their body angle from parallel to perpendicular alignment. The key tell is their hand moving from positional control to grip hunting on your arm.
-
-
-
-</section>
 
 
 </main>

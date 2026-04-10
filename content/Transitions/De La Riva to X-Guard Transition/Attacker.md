@@ -188,6 +188,8 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing De La Riva to X-Guard Transition?</p>
+
 - Maintain continuous control throughout transition using complementary hook and grip configurations
 - Time elevation entry to coincide with opponent's weight commitment forward or backward
 - Coordinate De La Riva hook release with simultaneous X-Guard hook establishment to prevent control gap
@@ -203,6 +205,8 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting De La Riva to X-Guard Transition?</p>
+
 - Active De La Riva guard with hook behind opponent's near knee
 - Collar and sleeve grips or alternative upper body control established
 - Opponent's weight distributed over their standing leg with relatively wide base
@@ -216,6 +220,8 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute De La Riva to X-Guard Transition step by step?</p>
 
 1. **Assess opponent's base and weight distribution**: From established De La Riva guard, evaluate opponent's stance. If they have weight forward on their DLR-hooked leg with wide base, this signals optimal transition timing. If they're leaning back or have narrow base, maintain DLR for sweeping opportunities.
 2. **Create elevation angle with hip positioning**: Begin rotating your hips perpendicular to opponent's base line, moving from side-on DLR position to more underneath positioning. This rotation prepares the optimal angle for X-Guard elevation. Your shoulders should begin turning toward the mat as your hips elevate.
@@ -245,6 +251,8 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter De La Riva to X-Guard Transition?</p>
+
 - **Opponent widens base and lowers hips to prevent elevation** (Effectiveness: High) - Your Response: Switch to Single Leg X-Guard variation by focusing both hooks on near leg, or return to De La Riva and attack with alternative sweep. Don't force elevation against heavy base pressure. → Leads to [[Positions/De La Riva Guard]]
 - **Opponent backs away during hook transition, creating distance** (Effectiveness: Medium) - Your Response: Maintain connection with collar/sleeve grips or underhook, follow their movement by extending your hooks, or transition to Reverse De La Riva Guard if they circle away. Never let hooks completely disengage. → Leads to [[Positions/De La Riva Guard]]
 - **Opponent drops weight suddenly onto your bottom hook** (Effectiveness: Medium) - Your Response: Accept the pressure temporarily, use their weight commitment to attack with alternative sweeps like the Single Leg X Sweep, or transition to Deep Half Guard if weight becomes too heavy to elevate. → Leads to [[Positions/De La Riva Guard]]
@@ -256,6 +264,8 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing De La Riva to X-Guard Transition?</p>
 
 ### 1. Releasing DLR hook before bottom X-Guard hook is secured
 
@@ -295,6 +305,8 @@ The De La Riva to X-Guard Transition represents the systematic framework for con
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train De La Riva to X-Guard Transition (Attacker)?</p>
+
 **Week 1-2: Fundamental Hook Mechanics** - Understanding hook transitions without resistance
 Partner stands in DLR guard while you practice transitioning hooks from DLR to X-Guard configuration slowly. Focus on smooth coordination of releasing one hook while establishing another. No elevation or sweeping yet, just clean hook transitions.
 
@@ -315,42 +327,12 @@ Positional sparring starting from DLR guard with opponent trying to pass while y
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary timing trigger for initiating the De La Riva to X-Guard transition?
-**A**: The optimal timing is when opponent has committed their weight forward onto their DLR-hooked leg with a relatively wide base. This weight distribution allows for effective elevation once X-Guard is established. Conversely, if opponent has backward weight or narrow base, maintaining DLR for direct sweeps is typically more effective.
-
-**Q2**: Why is establishing upper body control (underhook or grips) critical before transitioning hooks?
-**A**: Upper body control prevents opponent from creating distance or backing away during the vulnerable moment when you're reconfiguring your hooks. Without this connection, opponent can simply step back as you release the DLR hook, causing complete loss of guard position. The underhook specifically pulls them into your elevation structure.
-
-**Q3**: How do the biomechanical functions of DLR and X-Guard hooks differ despite their similarities?
-**A**: DLR hooks create off-balancing primarily through horizontal disruption of opponent's base (pulling knee away from centerline), while X-Guard hooks create elevation through vertical lifting forces (one hook pulls down/in while the other pushes up/away). DLR is more effective for lateral sweeps while X-Guard excels at vertical elevation sweeps. Both use leg entanglement but with different force vectors.
-
-**Q4**: What is the correct sequence for hook transition from DLR to X-Guard?
-**A**: The bottom X-Guard hook (which will go behind opponent's knee) must be inserted simultaneously with or just before releasing the DLR hook. The DLR hook then converts to the top X-Guard hook across their hips. This coordination ensures no gap in control exists. Sequential transitions (releasing first, then establishing) create vulnerability windows.
-
-**Q5**: When should you abort the transition and return to DLR or switch to alternative guards?
-**A**: Abort when opponent successfully widens base and drops weight before you complete hook configuration, when they clear your bottom hook before top hook is established, or when they create significant distance during the transition. Alternative options include returning to De La Riva Guard, switching to Single Leg X Guard (both hooks on one leg), transitioning to Reverse De La Riva Guard if they're circling, or entering Deep Half Guard if they drop heavy weight.
-
-**Q6**: Why is hip positioning perpendicular to opponent's base line essential for effective X-Guard?
-**A**: Perpendicular hip alignment places your body's structure directly underneath opponent's center of mass, maximizing elevation leverage. Side-on positioning (like in DLR) doesn't provide the correct angle for vertical elevation sweeps. The perpendicular alignment allows your legs to extend straight up into their base while your hips create the fulcrum point.
-
-**Q7**: Your opponent posts their hand on the mat as you begin inserting the bottom X-Guard hook - how do you adjust?
-**A**: A hand post indicates they are feeling off-balanced and trying to stabilize. This is actually a positive signal because it means one hand is no longer available for grip fighting or blocking your hooks. Accelerate the hook insertion and use your underhook to pull them forward into the post, increasing their dependence on it. Once both hooks are configured, the hand post provides almost no defensive value against elevation sweeps.
-
-**Q8**: What grip adjustments are required when performing this transition in no-gi versus gi?
-**A**: In no-gi, replace collar grip with a collar tie or overhook, and replace sleeve grip with wrist control or two-on-one. The underhook becomes even more critical in no-gi because it's the most reliable upper body connection without lapel grips. In gi, the belt grip is a powerful alternative to the underhook for preventing opponent retreat. The fundamental hook mechanics remain identical regardless of attire; only the upper body control system changes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for De La Riva to X-Guard Transition?</p>
 
 This transition is generally safe when practiced progressively, but several precautions should be observed. When training hook transitions, move slowly initially to avoid catching toes or feet in partner's gi or legs, which can cause toe or ankle injuries. Partners should communicate clearly during early phases when bottom hook insertion might create uncomfortable pressure behind the knee. Avoid forcing elevation when opponent has dropped significant weight, as this can strain your hip flexors and lower back. In competition scenarios, be aware that rapid inverting movements during advanced variations can temporarily disorient, so maintain spatial awareness. When partner is elevated in X-Guard position, control descent speed if they're falling to prevent them landing awkwardly. Finally, in no-gi situations, ensure proper foot positioning to avoid toe injuries from entanglement during the transition phase.
 

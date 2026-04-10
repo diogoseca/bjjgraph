@@ -202,7 +202,7 @@ Squid guard entry serves as a critical node in the lapel guard system, providing
 
 - [[Positions/Worm Guard]] - Complementary lapel configuration using leg wrap instead of arm wrap
 
-- [[Transitions/Omoplata]] - Primary submission available from established squid guard
+- [[Submissions/Omoplata]] - Primary submission available from established squid guard
 
 - [[Positions/Spider Guard]] - Fallback guard when squid entry fails
 

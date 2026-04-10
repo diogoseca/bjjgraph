@@ -105,7 +105,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Transitions/Butterfly Guard to X-Guard/Attacker|Butterfly Guard to X-Guard]]** (7% of attempts)
 
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (5% of attempts)
+- **[[Guillotine Choke from Butterfly Guard/Attacker|Guillotine Choke from Butterfly Guard]]** (7% of attempts)
 
 - **[[Transitions/Sumi Gaeshi/Attacker|Sumi Gaeshi]]** (6% of attempts)
 
@@ -117,17 +117,15 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 - **[[Transitions/Underhook Sweep/Attacker|Underhook Sweep]]** (3% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (3% of attempts)
+- **[[Kimura from Butterfly Guard/Attacker|Kimura from Butterfly Guard]]** (3% of attempts)
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (1% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (1% of attempts)
+- **[[Omoplata from Butterfly Guard/Attacker|Omoplata from Butterfly Guard]]** (1% of attempts)
 
 - **[[Transitions/Hook Sweep/Attacker|Hook Sweep]]** (2% of attempts)
 
-- **[[Submissions/Guillotine from Butterfly Guard/Attacker|Guillotine from Butterfly Guard]]** (2% of attempts)
-
-- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes

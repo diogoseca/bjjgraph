@@ -68,7 +68,7 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 | **Energy Cost** | High | Medium |
 | **Time** | Short to Medium | Medium to Long |
 
-**Key Difference:** Arm isolation for superior submission access
+**Key Difference:** Trades head control for trapped arm submissions
 
 
 
@@ -175,21 +175,21 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 ### Available Transitions
 
 
-- **[[Transitions/Americana/Attacker|Americana]]** (11% of attempts)
+- **[[Americana from Kuzure Kesa-Gatame/Attacker|Americana from Kuzure Kesa-Gatame]]** (11% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (10% of attempts)
+- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (10% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (10% of attempts)
+- **[[Kimura from Kuzure Kesa-Gatame/Attacker|Kimura from Kuzure Kesa-Gatame]]** (10% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (11% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (12% of attempts)
 
-- **[[Transitions/Paper Cutter Choke/Attacker|Paper Cutter Choke]]** (9% of attempts)
+- **[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Paper Cutter Choke from Kuzure Kesa-Gatame]]** (9% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (10% of attempts)
+- **[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Arm Triangle from Kuzure Kesa-Gatame]]** (10% of attempts)
 
-- **[[Transitions/Breadcutter Choke/Attacker|Breadcutter Choke]]** (8% of attempts)
+- **[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Breadcutter Choke from Kuzure Kesa-Gatame]]** (8% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 

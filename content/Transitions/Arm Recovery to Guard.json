@@ -13,12 +13,12 @@
   "from_position": "Kuzure Kesa-Gatame/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 15,
       "result": "success"
     },
@@ -65,7 +65,7 @@
       "relationship": "Counter risk—opponent may transition to armbar during failed extraction"
     },
     {
-      "name": "Americana from Side Control",
+      "name": "Americana",
       "relationship": "Opponent's submission threat that creates the timing window for extraction"
     },
     {
@@ -157,7 +157,7 @@
         "counter": "Opponent follows your hip escape and re-establishes side control before guard recovery",
         "effectiveness": "Medium",
         "your_response": "Use the knee shield aggressively to maintain distance. If they begin passing, transition to Knee Shield Half Guard rather than fighting for Closed Guard. A partial guard recovery is still a significant positional improvement over Kuzure Kesa-Gatame bottom.",
-        "targets_outcome": "Half Guard/Top"
+        "targets_outcome": "Half Guard/Bottom"
       },
       {
         "counter": "Opponent switches to North-South as you bridge to prevent guard recovery angle",

@@ -44,8 +44,8 @@ description: "Master the bottom of Mission Control with complete control mechani
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Gogoplata",
+      "text": "From this position, attempt Gogoplata. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
@@ -173,6 +173,8 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mission Control (Bottom)?</p>
+
 - The bottom practitioner's inside leg must be threaded high across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade while the foot hooks around the opposite side of the opponent's torso, establishing the foundational high guard position that defines Mission Control
 - The bottom practitioner's outside leg must be positioned over and controlling the opponent's far shoulder, with the knee or shin applying continuous downward pressure that isolates the shoulder and prevents the opponent from generating upward posture, creating the characteristic shoulder trap of the position
 - The bottom practitioner must maintain aggressive downward pulling pressure on the opponent's head using either one or both hands, breaking the opponent's posture completely and loading their weight onto the trapped shoulder while exposing the neck for submission attacks
@@ -186,6 +188,8 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Mission Control (Bottom)?</p>
+
 - Active closed guard or high guard position with opponent's posture already partially broken
 - Sufficient hip flexibility to maintain high guard without straining or losing structural integrity
 - Strong grip control on opponent's head or neck to prevent posture recovery during setup
@@ -198,6 +202,8 @@ Success in Mission Control bottom requires specific physical attributes and tech
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mission Control?</p>
 
 - Mission Control is fundamentally about shoulder isolation - if you cannot trap the shoulder, you do not have the position
 - Hip elevation is active, not passive - constantly drive hips up and forward to maintain control tension
@@ -213,6 +219,8 @@ Success in Mission Control bottom requires specific physical attributes and tech
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Mission Control (Bottom)?</p>
 
 **Opponent maintains broken posture with head down and weight on trapped shoulder:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 75%)
@@ -246,6 +254,8 @@ Success in Mission Control bottom requires specific physical attributes and tech
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mission Control?</p>
 
 ### 1. Failing to maintain continuous hip elevation, allowing hips to settle to mat
 
@@ -290,6 +300,8 @@ Success in Mission Control bottom requires specific physical attributes and tech
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Mission Control defense?</p>
+
 ### High Guard Maintenance Drill
 
 Partner starts in closed guard. Establish high guard with inside leg threaded across back. Partner attempts to drive weight back and break position using only posture, no hands. Maintain high guard for 2 minutes using hip elevation and leg positioning. Focus on structural control rather than muscular effort.
@@ -329,38 +341,6 @@ Flow drill starting in Mission Control. Partner defends triangle, transition to 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the essential weight distribution for maintaining Mission Control and how does it create the 'cooking' effect on your opponent?
-**A**: Your hips must remain elevated off the mat, creating active upward pressure that forces your opponent's weight onto their trapped shoulder. This asymmetric loading creates rapid fatigue in their shoulder and neck while you can maintain control with relatively less effort. The structural mechanics mean their own defensive efforts work against them - the more they resist, the more their weight loads onto the compromised shoulder.
-
-**Q2**: Your opponent begins recovering posture by driving weight backward - what adjustment do you make to maintain control?
-**A**: Increase hip elevation and pull more aggressively on their head with both hands to counteract their backward movement. If they continue driving back, immediately transition to triangle by bringing your leg across their face - their upward posture movement actually assists the triangle entry. Use their defensive momentum against them rather than fighting it directly with strength.
-
-**Q3**: What are the primary grips required to maintain Mission Control and why is each essential?
-**A**: The primary grip is head control - either double overhooks behind the head or one hand on the back of the head with the other controlling the trapped arm. Head control is non-negotiable because any relaxation allows posture recovery which eliminates both control and submission opportunities. Secondary is the wrist or tricep control on the trapped arm to prevent extraction. Without aggressive head control, the entire position structure fails.
-
-**Q4**: How do you shut down the opponent's primary escape attempt of extracting their trapped arm?
-**A**: Keep the trapped arm isolated on the inside of your high guard leg by constantly monitoring its position and maintaining downward pressure with your outside leg over their shoulder. If they begin pulling the arm back, immediately follow it into omoplata - their extraction attempt is actually the setup for your next attack. If the arm slips toward the outside, transition to Invisible Collar or New York to reestablish shoulder isolation.
-
-**Q5**: Where should the high guard leg be positioned on the opponent's back and why does height matter?
-**A**: Thread your inside leg as high as possible across the opponent's back, with the shin or calf creating downward pressure on the shoulder blade. The higher the leg position, the greater the shoulder isolation and mechanical leverage. A leg positioned too low allows the opponent to maintain shoulder mobility and generate defensive frames, reducing submission threat and control effectiveness.
-
-**Q6**: Your opponent successfully stands up while you maintain Mission Control - how do you recover or capitalize?
-**A**: If they stand with you attached, you have two options based on their balance. If they're off-balance forward, continue pulling their head and elevate into a flying triangle or omoplata. If they achieve stable standing posture, release the high guard and transition to standing guard position, looking for immediate takedowns or guard pulls. Don't cling to a compromised Mission Control against a standing opponent.
-
-**Q7**: How do you manage energy expenditure to maintain Mission Control for extended periods?
-**A**: Rely on structural positioning rather than muscular effort - use hip elevation and leg positioning for control, letting structural mechanics do the work. Once the position is locked, relax into it while maintaining control tension through your frame, not through constant gripping and pulling. Let the opponent's own weight distribution create the fatigue while you conserve energy for attacks and adjustments.
-
-**Q8**: Your opponent drives forward with stacking pressure to collapse your high guard - what is your counter?
-**A**: Accept their forward pressure and use their momentum to transition. Options include transitioning to Zombie control which is specifically designed for stacking opponents, rolling into omoplata using their forward pressure as momentum, or using an overhead sweep to reverse position entirely. Forward stacking should be welcomed as it creates predictable momentum you can redirect into attacks.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

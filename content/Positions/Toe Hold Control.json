@@ -303,7 +303,7 @@
     ],
     "transitions": [
       {
-        "transition": "Toe Hold",
+        "transition": "Toe Hold from Toe Hold Control",
         "attempt_probability": 14
       },
       {

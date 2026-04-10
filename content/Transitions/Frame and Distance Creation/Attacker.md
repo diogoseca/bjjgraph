@@ -186,6 +186,8 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame and Distance Creation?</p>
+
 - Frames must be structural - use skeletal alignment rather than muscular effort to create and maintain distance
 - Target the attacker's upper body with frames rather than fighting their leg wrap directly
 - Distance compounds - small initial frames become larger as the attacker's grip loosens
@@ -201,6 +203,8 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame and Distance Creation?</p>
+
 - Trapped in straight ankle lock control with attacker's grip on your ankle established
 - Hip mobility still available - attacker has not completed full leg triangle control
 - Free arm available to establish frames on attacker's upper body
@@ -213,6 +217,8 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame and Distance Creation step by step?</p>
 
 1. **Secure knee position**: Pull your trapped knee toward your chest as much as possible, fighting against the attacker's extension attempts. Keep the knee bent at approximately 90 degrees or tighter to maintain structural integrity and reduce ankle lock leverage.
 2. **Establish primary frame**: Place your palm or forearm on the attacker's chest or shoulder on the same side as your trapped leg. Use skeletal alignment by keeping your elbow tight and directing force through your shoulder structure rather than arm muscles.
@@ -241,6 +247,8 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame and Distance Creation?</p>
+
 - **Attacker clears frames and closes distance** (Effectiveness: High) - Your Response: Reset frames immediately and combine with hip rotation to create new angle. If they consistently clear frames, transition to standing escape sequence instead. → Leads to [[Positions/Straight Ankle Lock Control]]
 - **Attacker commits to finish attempt during frame extension** (Effectiveness: Medium) - Your Response: Their commitment to finishing sacrifices positional control. Accelerate the distance creation and look for opportunity to pass to top position as they lose leg configuration. → Leads to [[Positions/Open Guard]]
 - **Attacker transitions to inside ashi-garami before distance is achieved** (Effectiveness: High) - Your Response: Abandon framing sequence and address the inside ashi position directly. The transition indicates they read your escape and chose positional advancement over finishing. → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
@@ -251,6 +259,8 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame and Distance Creation?</p>
 
 ### 1. Allowing the trapped leg to straighten while attempting to frame
 
@@ -285,6 +295,8 @@ Strategically, Frame and Distance Creation serves as both a standalone escape an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame and Distance Creation (Attacker)?</p>
+
 **Week 1-2** - Frame mechanics
 Practice establishing structural frames from various positions without resistance. Focus on skeletal alignment, proper hand placement on chest and shoulders, and coordinating arm extension with core engagement. Partner holds position statically.
 
@@ -302,48 +314,12 @@ Implement Frame and Distance Creation in live sparring from straight ankle lock 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Frame and Distance Creation?
-**A**: The primary goal is to create separation between you and the attacker by establishing structural frames on their upper body. This distance loosens their grip on your ankle and destabilizes their leg control, opening pathways for foot extraction and escape to open guard or standing position.
-
-**Q2**: What position do you start Frame and Distance Creation from?
-**A**: This technique starts from Straight Ankle Lock Control when you are the defender (top person being attacked). Your leg is trapped with the attacker controlling your ankle, but you still maintain hip mobility and your knee remains bent.
-
-**Q3**: Why is maintaining a bent knee critical during the framing sequence?
-**A**: A bent knee preserves structural integrity that limits submission pressure on the ankle joint. Full leg extension dramatically increases the attacker's leverage for the ankle lock while eliminating your ability to use hip rotation for escape. The bent knee also allows you to pull the leg toward your chest once distance is created.
-
-**Q4**: Your opponent clears your frames and closes distance - how do you respond?
-**A**: Reset frames immediately on different contact points and combine the re-establishment with hip rotation to create a new angle they must address. If they consistently clear frames before you can create meaningful distance, consider transitioning to a standing escape sequence which changes the dynamic entirely.
-
-**Q5**: What are the key grip points for establishing structural frames?
-**A**: Target the attacker's chest, shoulders, or head with your frames. Use palm or forearm placement with skeletal alignment through your elbow and shoulder. The primary frame goes on the same side as your trapped leg, secondary frame on the opposite shoulder or their head to create two contact points.
-
-**Q6**: The attacker begins transitioning to inside ashi-garami mid-escape - what does this tell you and how do you adjust?
-**A**: This signals the attacker read your framing attempt and chose positional advancement over finishing the ankle lock. Immediately abandon the framing sequence and address the inside ashi position with appropriate defense for that entanglement. Continuing to frame is counterproductive once the position changes fundamentally.
-
-**Q7**: When is the optimal timing window to initiate Frame and Distance Creation?
-**A**: The optimal time is immediately upon recognizing ankle lock control before the attacker completes their leg triangle and consolidates grips. The technique also works well when the attacker adjusts their grips, as this creates a brief window where their control is weakest. Avoid attempting after they have full leg triangle control.
-
-**Q8**: Why should frames target the upper body rather than the attacker's legs?
-**A**: Pushing on the attacker's legs does not create the distance needed to loosen their ankle grip and may actually drive your leg deeper into their control. Upper body distance affects their entire control structure - as their torso moves away, their leg wrap loosens, grip security diminishes, and breaking leverage decreases simultaneously.
-
-**Q9**: Your free leg is being controlled by the attacker's leg wrap - how do you generate pushing force for the escape?
-**A**: If the free leg is partially controlled, focus on arm frames first to create initial separation. Use hip rotation to free the leg incrementally. Even partial free leg movement against their inside knee can destabilize their wrap. If the free leg is fully trapped, rely entirely on arm frames combined with aggressive hip rotation to create enough space for leg extraction.
-
-**Q10**: How do you coordinate multi-directional pressure during Frame and Distance Creation?
-**A**: Push with both arm frames on the attacker's upper body while simultaneously driving your free leg into their hip or inside knee. The arm frames create horizontal separation while the leg push adds a perpendicular force vector. This multi-directional pressure is exponentially harder to resist than single-plane force because the attacker cannot brace against two different directions at once.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame and Distance Creation?</p>
 
 Frame and Distance Creation is a relatively safe defensive technique with low injury risk when performed correctly. The primary safety concern is maintaining your bent knee position throughout - attempting to frame while allowing your leg to straighten dramatically increases ankle lock leverage and injury potential. Never sacrifice knee position for frame establishment. Train this technique with partners who respect tap signals and understand the importance of progressive resistance. When drilling, ensure the attacker does not actively crank the ankle lock while you practice framing mechanics. Communication about pressure levels prevents unnecessary injury during learning phases.
 

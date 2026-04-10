@@ -164,6 +164,8 @@ The defender must understand that maintaining a sealed, static turtle positionâ€
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Jump to Side Control?</p>
+
 - One leg hook begins withdrawing from inside your thigh while crossface pressure simultaneously intensifies across your neck and jaw
 - The top player's chest pressure shifts from centered on your spine toward one shoulder, indicating the direction of lateral consolidation
 - You feel the top player's hips beginning to walk around your body in small steps rather than maintaining the stationary bilateral hook position behind you
@@ -176,6 +178,8 @@ The defender must understand that maintaining a sealed, static turtle positionâ€
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Jump to Side Control?</p>
 
 - Recognize hook extraction and lateral weight shift as the primary defensive window before side control consolidation closes all recovery options
 - Maintain active hip movement and base rebuilding throughout the transition to prevent the top player from collapsing your turtle structure
@@ -190,6 +194,8 @@ The defender must understand that maintaining a sealed, static turtle positionâ€
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Jump to Side Control?</p>
 
 ### 1. Execute sit-out reversal toward the opposite direction of the lateral transition by posting your far hand and rotating your hips away
 
@@ -227,6 +233,8 @@ The defender must understand that maintaining a sealed, static turtle positionâ€
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Jump to Side Control?</p>
+
 ### â†’ [[Positions/Half Guard]]
 
 Time a sit-out or granby roll during the hook extraction phase when the top player's bilateral hip control is compromised by sequential hook removal. The moment between first hook extraction and the lateral hip walk reaching forty-five degrees represents your optimal counter-window. Use the top player's lateral momentum commitment against them by moving in the opposite direction to create the scramble that leads to guard recovery on top.
@@ -242,6 +250,8 @@ Immediately rebuild active turtle base by driving up to hands and knees the mome
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Jump to Side Control?</p>
 
 ### 1. Remaining in static sealed turtle position as the top player walks hips laterally around your body
 
@@ -271,6 +281,8 @@ Immediately rebuild active turtle base by driving up to hands and knees the mome
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Jump to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying side control transition cues from turtle bottom
 Partner performs the Double Jump to Side Control transition at slow speed while you focus on identifying each recognition cue: hook extraction sensation, lateral weight shift, chest pressure direction change, hip walking movements. Call out each cue as you feel it to build tactile awareness before adding defensive responses.
 
@@ -287,29 +299,6 @@ Positional rounds starting from Double Jump Bottom with the attacker pursuing si
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the opponent is transitioning from Double Jump to side control rather than continuing back-take attempts?
-**A**: The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while crossface pressure simultaneously intensifies, the top player's chest pressure shifting from centered on your spine toward one shoulder indicating the lateral direction, and feeling their hips begin to walk around your body in small steps rather than maintaining the stationary position behind you. The combination of hook withdrawal with increased upper body pressure signals the side control transition.
-
-**Q2**: During which phase of the transition is defensive action most likely to succeed?
-**A**: The most effective defensive window occurs during the first hook extraction, when bilateral hip control is reduced to unilateral. This creates a brief period where the top player's lower body influence is halved while they are repositioning. Sit-outs, granby rolls, and base recovery attempts have the highest success probability during this extraction phase before the lateral hip walk establishes new pressure angles.
-
-**Q3**: Your opponent has extracted one hook and is walking their hips laterallyâ€”what is your immediate defensive response?
-**A**: Immediately initiate a sit-out in the opposite direction of their lateral movement, using the asymmetric weight distribution to your advantage. Post your far hand on the mat and rotate your hips away from the direction they are walking. Their commitment to the lateral path makes it difficult to follow your opposite-direction movement. If the sit-out timing has passed, turn to face the opponent and insert your knee frame between bodies before they reach perpendicular alignment.
-
-**Q4**: Why is static sealed turtle defense ineffective against the side control transition despite being effective against back takes?
-**A**: Static sealed turtle with tucked elbows and protected back prevents hook elevation to back control by closing the pathways the top player needs for traditional back-take entries. However, this same sealed posture leaves the lateral pathway completely open because the defender is not actively resisting the hip walk-around. The tight defensive shell that blocks back access creates a stable surface for the top player to maintain pressure while walking their hips to side control alignment.
-
-**Q5**: How can you exploit the top player's lateral weight commitment to create a reversal opportunity?
-**A**: When the top player commits weight laterally for the side control transition, their balance is temporarily biased toward one side with reduced ability to follow movement in the opposite direction. Execute a sit-out or turn toward the opposite side of their weight commitment, using their own directional commitment against them. The further they have progressed in the lateral walk, the more difficult it becomes for them to redirect and follow your opposite-direction movement, creating the scramble opportunity for guard recovery.
-
-
-
-</section>
 
 
 </main>

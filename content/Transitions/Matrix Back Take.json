@@ -11,7 +11,7 @@
     "no-gi",
     "dynamic-movement"
   ],
-  "from_position": "Turtle/Top",
+  "from_position": "Matrix/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",

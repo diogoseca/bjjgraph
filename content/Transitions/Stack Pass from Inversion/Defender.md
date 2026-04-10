@@ -160,6 +160,8 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Inversion?</p>
+
 - Opponent grips behind both knees or controls both ankles simultaneously, pinning your legs together
 - Opponent drops their level and begins driving chest and hips forward into your legs with sustained pressure
 - You feel your hips being pushed backward toward your face with increasing spinal compression
@@ -172,6 +174,8 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Inversion?</p>
 
 - Prevent leg control by keeping legs active and separated - this is the highest-priority defensive action
 - Recognize stack initiation early through pressure cues and immediately begin defensive movement
@@ -186,6 +190,8 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Inversion?</p>
 
 ### 1. Separate legs and thread for ashi garami entry before stack develops
 
@@ -216,6 +222,8 @@ Strategically, the best defense integrates into your overall grasshopper guard g
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Inversion?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Prevent the stack entirely by maintaining active, separated legs that deny the passer control. Use constant hip elevation and leg pummeling to keep at least one leg free for threading. Frame against their shoulders to interrupt forward pressure and buy time for leg recovery.
@@ -231,6 +239,8 @@ Execute a Granby roll during the mid-phase of the stack when your hips are being
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Inversion?</p>
 
 ### 1. Allowing both legs to be pinned together without fighting to separate them
 
@@ -260,6 +270,8 @@ Execute a Granby roll during the mid-phase of the stack when your hips are being
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Inversion?</p>
+
 **Week 1-2** - Recognition and leg pummeling
 Partner slowly initiates stack pass attempts while you practice recognizing the early cues and keeping legs active and separated. Focus on maintaining at least one free leg through constant pummeling against gradual resistance increases
 
@@ -276,29 +288,6 @@ Full resistance rounds starting in grasshopper guard against partner committed t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority against the Stack Pass from Inversion?
-**A**: Preventing the passer from controlling both of your legs simultaneously. The stack pass requires pinned legs to develop forward pressure - if even one leg remains free and active, you can thread for entanglements, redirect their pressure, or create angles that make stacking mechanically impossible. All defensive effort should prioritize leg freedom above all else.
-
-**Q2**: At what phase of the stack should you initiate a Granby roll for guard recovery?
-**A**: Initiate the Granby roll during the mid-phase when you feel your hips beginning to compress but still retain shoulder mobility and the ability to roll your body laterally. Waiting until you are fully stacked with weight on your neck eliminates the space needed to complete the roll. The cue is when hip elevation begins failing despite core engagement - that is the moment to roll rather than resist.
-
-**Q3**: Your opponent has secured control of both legs and begins driving forward - what is your defensive sequence?
-**A**: First, frame both hands against their shoulders to slow the forward drive and buy time. Second, attempt to pummel at least one leg free by circling your foot outside their grip. If leg recovery fails, immediately initiate a Granby roll in the direction of their dominant pressure before compression removes your mobility. Do not waste energy fighting the stack statically - either recover legs or roll. Decisive early action prevents being trapped in the worst phase of the stack.
-
-**Q4**: Why is prevention more effective than escape against the Stack Pass from Inversion?
-**A**: The stack pass creates a progressive compression that exponentially reduces your defensive options with each second. At full compression, your legs are dead weight, your core cannot generate hip elevation, and your shoulder mobility is restricted by your own body weight stacked above you. Prevention through active legs and early Granby rolls operates in the phase where you have maximum mobility and options, while escape attempts from a fully stacked position succeed at dramatically lower rates.
-
-**Q5**: How do you convert a failed stack defense into the best available position rather than being passed to side control?
-**A**: If the stack is nearly complete and you cannot prevent the pass, focus on controlling the direction of the pass by using your arms to steer their body to one side while initiating a hip escape in the opposite direction. As they clear your legs, immediately shoot your nearest knee across their hip line to recover half guard rather than conceding full side control. Even partial guard recovery from a failed stack defense gives you a fighting position with sweep and submission options.
-
-
-
-</section>
 
 
 </main>

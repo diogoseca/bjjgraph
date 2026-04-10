@@ -164,6 +164,8 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting De La Riva to X-Guard Transition?</p>
+
 - Bottom player begins rotating their hips from side-on DLR angle to underneath perpendicular positioning, indicating they are creating the elevation angle needed for X-Guard
 - Bottom player releases collar or sleeve grip and reaches for an underhook or deep pant grip on your near side, signaling the grip transition that precedes hook reconfiguration
 - Non-DLR leg (bottom player's free leg) begins swinging underneath your stance rather than framing on your hip or knee, indicating the bottom hook insertion is imminent
@@ -176,6 +178,8 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending De La Riva to X-Guard Transition?</p>
 
 - Deny perpendicular hip angle by circling and forcing the guard player to face you squarely, which removes their transition geometry
 - Strip or prevent the underhook establishment that anchors the bottom player's upper body connection during hook reconfiguration
@@ -190,6 +194,8 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against De La Riva to X-Guard Transition?</p>
 
 ### 1. Backstep and strip the DLR hook before transition initiates
 
@@ -227,6 +233,8 @@ The fundamental defensive strategy centers on denying the bottom player the cond
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending De La Riva to X-Guard Transition?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Execute a well-timed backstep to completely clear the DLR hook during the transition window when the bottom player has released tension to begin reconfiguring. Follow immediately with a guard pass attempt before they can re-establish DLR control. The backstep must be decisive and combined with ankle grip strip to prevent re-hooking.
@@ -242,6 +250,8 @@ Disrupt the transition by stripping the underhook and driving forward pressure t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending De La Riva to X-Guard Transition?</p>
 
 ### 1. Standing tall with upright posture while the bottom player rotates underneath
 
@@ -271,6 +281,8 @@ Disrupt the transition by stripping the underhook and driving forward pressure t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against De La Riva to X-Guard Transition?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying transition cues without defensive response
 Partner performs the DLR to X-Guard transition at slow speed while you observe and verbally call out each recognition cue as it occurs (grip transition, hip rotation, hook insertion, elevation). No defensive action yet - purely building pattern recognition so you can detect the transition before it develops.
 
@@ -287,29 +299,6 @@ Positional sparring starting in opponent's DLR guard. Opponent uses full attack 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the DLR to X-Guard transition?
-**A**: The earliest reliable cue is the grip transition: the bottom player releases their collar or sleeve grip and reaches for an underhook or deep pant grip on your near side. This grip change precedes the hook reconfiguration by several seconds and signals the beginning of the transition sequence. The hip rotation underneath follows shortly after, but the grip switch is detectable first.
-
-**Q2**: Why is the bottom X-Guard hook insertion the most critical moment to defend rather than the DLR hook release?
-**A**: The bottom X-Guard hook (behind your knee) is the load-bearing structure of the entire X-Guard position. It creates the elevation fulcrum that powers all sweeps. Without it, the top hook across the hips has no leverage. If you allow the bottom hook to seat deeply but prevent the top hook, the bottom player can still transition to Single Leg X. But if you prevent the bottom hook, the entire transition fails regardless of other factors.
-
-**Q3**: Your opponent has secured an underhook and their free leg is beginning to thread under your stance - what is your immediate response?
-**A**: Immediately strip the underhook by swimming your arm inside and peeling their grip while simultaneously dropping your hips low and driving your weight onto the threading leg to block its path. If you can only do one thing, block the leg insertion by narrowing your stance and driving your knee toward the mat on the threatened side. The underhook without hooks is recoverable; hooks without underhook still leads to X-Guard.
-
-**Q4**: Why is backing away without grip strips an ineffective defense against this transition?
-**A**: The bottom player's underhook and remaining hook connections act as tethers that allow them to follow your backward movement while maintaining their transition angle. Backing away actually helps them by creating more space for hook insertion and rotation. Effective defense requires addressing the control points (stripping underhook, blocking hook insertion, peeling DLR hook) before creating distance. Only after connections are broken does distance become a useful defensive tool.
-
-**Q5**: How does your defensive strategy change if the transition is already 80% complete with both hooks partially configured?
-**A**: At 80% completion, proactive prevention is no longer viable. Switch to damage control: immediately lower your center of gravity, widen your base as much as possible, and fight for crossface or collar tie control to prevent the final hip positioning adjustment. If they achieve full elevation, accept the sweep is likely and focus on landing in the best possible position (half guard top or scramble) rather than fighting a lost battle from X-Guard top where you'll expend energy and still get swept.
-
-
-
-</section>
 
 
 </main>

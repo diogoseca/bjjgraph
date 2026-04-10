@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "Back Control/Top",
+      "to": "Back Control/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -107,7 +107,7 @@
       "relationship": "Related explosive bridging escape from mount using similar hip mechanics"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Scramble to Guard",
       "relationship": "Alternative defensive strategy when upa and other primary escapes are unavailable"
     }
   ],
@@ -142,7 +142,7 @@
       {
         "step_number": 2,
         "action": "Trap the arm",
-        "description": "Cup your hand behind the tricep or elbow on the weak side, pulling their arm tight across your chest and pinning it with your forearm. Your grip should control the entire arm from elbow to shoulder by hugging it to your torso. The other hand can post on their hip or grab their belt/waistband to prevent them from basing out wide with their opposite arm."
+        "description": "Cup your hand behind the tricep or elbow crease on the weak side, pulling their arm tight across your chest and pinning it with your forearm. Your grip should control the entire arm from elbow to shoulder by hugging it to your torso. The other hand can post on their hip or grab their belt/waistband to prevent them from basing out wide with their opposite arm."
       },
       {
         "step_number": 3,
@@ -187,7 +187,7 @@
         "counter": "Opponent switches hips and takes back as you attempt to roll",
         "effectiveness": "Medium",
         "your_response": "Maintain extremely tight chest-to-chest connection during the roll — any gap allows hip switching. If you feel them beginning to take back, immediately abandon the upa and turn into them rather than completing the roll. Fight their hooks before they can establish back control with seatbelt grip. Prevention is key: the tighter your connection, the less room they have to switch.",
-        "targets_outcome": "Back Control/Top"
+        "targets_outcome": "Back Control/Bottom"
       },
       {
         "counter": "Opponent grapevines your legs preventing foot trap and bridge power",
@@ -298,6 +298,14 @@
       {
         "question": "What are the specific grip requirements for the arm trap and what happens if you grip the wrist instead of behind the tricep?",
         "answer": "The optimal grip cups behind the tricep or hooks the elbow crease, pulling the entire upper arm tight against your chest so your forearm pins their arm diagonally across your torso. This controls the shoulder joint and prevents them from rotating their arm free during the bridge. Gripping the wrist instead is a common beginner error — it only controls the distal end of the lever, allowing the opponent to bend their elbow, rotate their shoulder, and withdraw the arm from your control during the explosive bridge. The tricep grip ensures the shoulder remains pinned, which means even if they attempt to withdraw, the entire limb stays trapped across your chest throughout the roll."
+      },
+      {
+        "question": "Your opponent grapevines your legs while in mount — what must you address before attempting the upa?",
+        "answer": "Grapevined legs must be cleared before the upa is viable because they eliminate two critical components: foot trap ability and bridging power. With grapevines, you cannot hook the opponent's ankle to remove their posting base, and your hip extension range is dramatically limited by the leg entanglement. Address grapevines by extending your legs forcefully and straightening them to break the hooks, then shrimping your hips side-to-side to create enough space to withdraw your feet. Once legs are free, immediately walk your heels close to your buttocks and set the foot trap before the opponent can re-establish grapevines. Do not waste energy attempting to bridge with grapevines in place — it is mechanically impossible to generate sufficient force or proper 45-degree angle with restricted leg movement."
+      },
+      {
+        "question": "You execute the upa bridge and begin rolling your opponent, but you feel their chest separating from yours mid-roll — what do you do?",
+        "answer": "Any gap between your chest and your opponent's chest during the roll is a critical failure point that signals they are attempting to disengage and either post a hand to arrest the reversal or switch their hips to begin taking your back. You must immediately tighten the arm trap by squeezing your elbow against your ribcage and pulling their trapped arm deeper across your chest. Simultaneously accelerate the roll rather than slowing down — the rotational momentum is your primary weapon and losing speed allows them to establish defensive positioning. If the gap has already widened enough that you feel them beginning to rotate their hips independently, abandon the upa immediately and turn into them rather than completing a roll that will deliver you into their back control. Prevention is always preferable: maintain chest contact from the first moment of the bridge by keeping your arm trap extremely tight throughout."
       }
     ],
     "safety_considerations": "The upa escape is among the safest fundamental techniques in BJJ when practiced properly, but several precautions ensure injury-free training. Execute the bridge with explosive power but controlled direction — wild, uncontrolled bridging can cause both practitioners to land awkwardly, risking shoulder, neck, or wrist injuries from unexpected impact angles. Partners defending should avoid posting rigidly with locked elbows, as the rotational force of the bridge can hyperextend the elbow joint against a locked arm structure. Beginners should practice on padded mats and start with cooperative drilling at low intensity before adding resistance. When completing the roll, maintain tight body connection to prevent the training partner from free-falling onto their head or neck. For the person being rolled, learn to tuck the chin and roll with the movement rather than resisting rigidly, which reduces neck compression risk. Practitioners with lower back issues should engage core muscles throughout the bridge to protect the lumbar spine from hyperextension, and those with cervical spine issues should modify the head turn component to avoid aggravating existing conditions."
@@ -345,7 +353,7 @@
       {
         "action": "Switch hips and begin taking the back as opponent commits to the bridge and roll, threading your far hook in as they rotate",
         "when_to_use": "When the upa bridge has already begun and you are being rolled — instead of fighting the reversal, flow with it and convert to back control",
-        "targets_outcome": "Back Control/Top",
+        "targets_outcome": "Back Control/Bottom",
         "if_successful": "You convert a defensive situation into the most dominant position in BJJ by inserting hooks and establishing seatbelt control as they roll, ending up on their back",
         "risk": "Requires precise timing — if you switch hips too early, they may feel it and abort the upa; if too late, you complete the reversal and end up in their guard"
       }
@@ -356,7 +364,7 @@
         "how": "Maintain at least three base points at all times by posting your free hand wide at 45 degrees whenever you feel the bridge initiate. Proactively strip their arm trap by circling your elbow down before they can secure the grip. Clear foot traps by extending your leg and stepping wide. Keep your weight through your hips rather than forward on your hands to deny them the forward weight shift they need."
       },
       {
-        "outcome": "Back Control/Top",
+        "outcome": "Back Control/Bottom",
         "how": "When the upa bridge is committed and you cannot post in time to prevent the roll, flow with the rotational momentum and switch your hips by stepping your far leg over their body. Thread your far hook in as they rotate, then establish seatbelt grip with your arm reaching under their armpit and over their shoulder. Complete the back take before they can settle into top position after the roll, converting their escape attempt into a worse position for them."
       }
     ],

@@ -212,11 +212,11 @@ The Mount to Knee on Belly transition connects two of the most dominant top posi
 
 - [[Transitions/Frame and Shrimp from Knee on Belly]] - Primary defensive escape the bottom player uses after KOB is established
 
-- [[Submissions/Armbar from Knee on Belly]] - High-percentage submission available from the target KOB position
+- [[Transitions/Far Side Armbar from KOB]] - High-percentage submission available from the target KOB position
 
-- [[Submissions/Cross Collar Choke from KOB]] - Gi-based submission threat from the target KOB position
+- [[Submissions/Cross Collar Choke]] - Gi-based submission threat available from the target KOB position
 
-- [[Transitions/Consolidation to Knee on Belly]] - Alternative KOB entry from side control that shares similar mechanics
+- [[Transitions/Side Control to Knee on Belly]] - Alternative KOB entry from side control that shares similar mechanics
 
 
 </section>

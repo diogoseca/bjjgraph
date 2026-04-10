@@ -64,12 +64,12 @@
       "relationship": "Related entry technique sharing similar leg control mechanics"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Submission chain option when opponent posts hand to defend sweep"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Submission chain option when opponent posts hand to defend sweep, attacking the extended arm"
     },
     {
-      "name": "Kneebar from Guard",
-      "relationship": "Leg attack option accessible from X-Guard configuration"
+      "name": "Kneebar",
+      "relationship": "Leg attack option accessible from X-Guard configuration through leg entanglement transitions"
     },
     {
       "name": "Elevator Sweep",
@@ -401,7 +401,7 @@
         "description": "Partner enters X-Guard at controlled pace. Practice lowering hips, widening base, and identifying the three control points (X-hook, top hook, ankle grip). Work on maintaining balance while partner holds position without actively sweeping. Build muscle memory for the defensive posture."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Hook Extraction",
+        "phase": "Week 3-4: Grips and Hook Extraction",
         "focus": "Systematically removing X-Guard control points under light resistance",
         "description": "Partner establishes X-Guard and maintains hooks with 30-40% resistance. Practice stripping the ankle grip, extracting the far leg through circular stepping, and flattening opponent's hips with forward pressure. Drill each extraction method separately before combining them in sequence."
       },

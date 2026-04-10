@@ -212,7 +212,7 @@ The Triangle from Armbar sits at the heart of the classic armbar-triangle-omopla
 
 - [[Transitions/Triangle to Armbar]] - Reverse chain link completing the bidirectional armbar-triangle submission cycle
 
-- [[Transitions/Armbar Finish]] - Primary alternative when armbar remains viable without needing triangle transition
+- [[Armbar from Armbar Control]] - Primary submission finish from armbar control when armbar remains viable without needing triangle transition
 
 - [[Transitions/Back Take from Armbar]] - Alternative transition option from armbar control when triangle is unavailable
 

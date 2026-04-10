@@ -154,6 +154,8 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from Kesa Gatame?</p>
+
 - Bottom player plants both feet flat on the mat close to their hips with knees bent, loading their bridge
 - Bottom player's free hand reaches across your body targeting your far wrist, elbow, or sleeve
 - Bottom player's core tightens and hips load with visible tension before the explosive movement
@@ -166,6 +168,8 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from Kesa Gatame?</p>
 
 - Monitor the opponent's far arm activity—any attempt to grab your far wrist or sleeve signals an incoming bridge escape
 - Keep your far arm protected by pinning it to your own body or controlling the opponent's far hand preemptively
@@ -180,6 +184,8 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from Kesa Gatame?</p>
 
 ### 1. Drop hips and widen base to absorb bridge force
 
@@ -217,6 +223,8 @@ As the top player defending against the bridge escape from Kesa Gatame, your obj
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from Kesa Gatame?</p>
+
 ### → [[Positions/Side Control/Kesa Gatame]]
 
 Preemptively deny the escape by keeping hips low, far leg posted wide, and protecting your far arm from being controlled. When the bridge fires without your posting arm controlled, simply post your hand and absorb the force.
@@ -232,6 +240,8 @@ When the opponent bridges and turns toward you, use their rotation to step over 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from Kesa Gatame?</p>
 
 ### 1. Sitting too high with narrow base when opponent begins loading their bridge
 
@@ -261,6 +271,8 @@ When the opponent bridges and turns toward you, use their rotation to step over 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from Kesa Gatame?</p>
+
 **Recognition Training** - Identifying bridge escape setup cues
 Partner executes bridge escape setups at slow speed while you verbally identify each preparatory step: foot planting, far arm grip, core loading. Develop the ability to recognize the escape intent before the explosive phase begins. 5-minute rounds focusing purely on observation and callouts.
 
@@ -277,26 +289,6 @@ Start in Kesa Gatame with full resistance from both players. Top player maintain
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest signs that the bottom player is setting up a bridge escape?
-**A**: The earliest signs are the bottom player planting both feet flat on the mat close to their hips (loading the bridge), their free hand reaching across your body to target your far wrist or sleeve, and a visible tightening of their core muscles. Often the grip fight for your far arm is the first indicator—if the bottom player is actively seeking your far arm rather than trying to create frames, they are likely preparing a bridge escape rather than a shrimping escape.
-
-**Q2**: How should you adjust your base when you feel an explosive bridge beginning?
-**A**: Immediately widen your far leg posting and drive your hips low, sinking your weight into the opponent's chest through gravity rather than muscular effort. Your far hand should post on the mat if it is not already controlled by the opponent. Drive your shoulder pressure into the opponent's face to limit their rotational ability. The key is lowering your center of gravity and widening your support base before the bridge reaches its peak force.
-
-**Q3**: The bottom player bridges successfully and starts turning toward you—how do you capitalize on their movement?
-**A**: Use their rotation as an opportunity to advance to mount. As they bridge and turn their hips toward you, their movement creates a natural pathway for you to step your far leg over their body. Swing your leg over while maintaining head control, settling into mount as their rotation brings their hips underneath you. This converts their escape attempt into a positional advancement, and their own bridge momentum assists the transition rather than hindering it.
-
-**Q4**: What is the most common mistake top players make when a bridge escape is attempted from Kesa Gatame?
-**A**: The most common mistake is maintaining a high center of gravity with a narrow base. Many practitioners sit upright in Kesa Gatame with their legs close together, which provides minimal resistance to an explosive directional bridge. By the time they react to the bridge, their weight has already been displaced past the point of recovery. Proactive base maintenance—keeping hips low and the far leg posted wide before any escape attempt—is the fundamental defense that prevents the bridge from generating sufficient displacement.
-
-
-
-</section>
 
 
 </main>

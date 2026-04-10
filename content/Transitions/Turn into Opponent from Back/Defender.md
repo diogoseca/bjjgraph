@@ -156,6 +156,8 @@ Defending against the turn into opponent escape requires maintaining all three l
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turn into Opponent from Back?</p>
+
 - Opponent begins scooting their hips laterally toward your underhook side, creating a diagonal angle between their body and yours
 - Opponent establishes two-on-one grip on your choking arm with both hands controlling your wrist and forearm
 - Opponent uses their bottom-side foot or knee to push against your bottom hook, attempting to strip it from inside their thigh
@@ -167,6 +169,8 @@ Defending against the turn into opponent escape requires maintaining all three l
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turn into Opponent from Back?</p>
 
 - Maintain constant chest-to-back pressure to eliminate the space needed for rotational hip movement and angle creation
 - Tighten hooks immediately upon sensing any lateral hip scooting, driving feet deeper into the thighs to anchor the opponent's hips
@@ -180,6 +184,8 @@ Defending against the turn into opponent escape requires maintaining all three l
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turn into Opponent from Back?</p>
 
 ### 1. Tighten hooks and drive chest forward to re-establish full back control
 
@@ -210,6 +216,8 @@ Defending against the turn into opponent escape requires maintaining all three l
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turn into Opponent from Back?</p>
+
 ### → [[Positions/Back Control]]
 
 Maintain back control by tightening hooks immediately when you sense hip scooting, driving chest forward into opponent's back to eliminate rotation space, and actively hand fighting to prevent two-on-one grip establishment on your choking arm
@@ -225,6 +233,8 @@ When hooks are lost and the turn is progressing, release remaining hook control 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turn into Opponent from Back?</p>
 
 ### 1. Clinging to back control after hooks are stripped and rotation is well underway
 
@@ -254,6 +264,8 @@ When hooks are lost and the turn is progressing, release remaining hook control 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turn into Opponent from Back?</p>
+
 **Phase 1: Recognition** - Identifying escape initiation cues
 Partner performs the turn into opponent escape at slow speed while you focus on identifying each stage: hip scoot, grip stripping, hook clearing, rotation initiation. Practice calling out each stage as you recognize it. Develop the tactile sensitivity to feel escape attempts through body contact rather than relying on visual cues.
 
@@ -267,29 +279,6 @@ Partner completes the escape sequence against your back control while you practi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your opponent is about to attempt a turn into you from back control?
-**A**: Key recognition cues include the opponent scooting their hips toward your underhook side, beginning to strip your seatbelt grip with a two-on-one hand configuration, attempting to clear your bottom hook with their foot or knee, and initiating shoulder rotation toward you. The hip scoot is typically the earliest indicator and provides the most reaction time for defensive adjustment before the escape gains momentum.
-
-**Q2**: What is the most effective response when you feel your opponent beginning to rotate toward you?
-**A**: Immediately tighten your bottom hook by driving it deeper and clamping your knee against their hip. Simultaneously drive your chest forward into their back to eliminate the space needed for rotation. Re-establish your seatbelt grip if it has been partially stripped, prioritizing the choking arm control over the shoulder. The combination of tightened hooks and forward chest pressure makes the rotation mechanically impossible without first re-creating space.
-
-**Q3**: When the turn becomes inevitable and you cannot maintain back control, what is the optimal positional transition?
-**A**: Follow the turn and transition to mount rather than fighting to maintain back control once hooks are lost. As they rotate toward you, swing your top leg over their body and establish mount position before they can close their guard. This requires releasing your hooks proactively and climbing to mount during the rotation rather than clinging to a back control position that is already compromised. Mount is still a dominant 4-point position and preserves your advantage.
-
-**Q4**: How does your defensive approach change when you have body triangle locked versus standard hooks?
-**A**: With body triangle, the rotation escape is significantly harder for your opponent because the locked legs prevent the initial hip scoot and hook clearing that enables the turn. Focus on maintaining your body triangle lock and attacking the neck rather than worrying about hook defense. If they do begin to rotate despite the body triangle, the locked legs follow their rotation automatically, often maintaining back control through the turn attempt without requiring manual hook adjustment.
-
-**Q5**: What grip adjustments prevent the two-on-one strip that initiates this escape?
-**A**: Keep your choking arm's elbow tight against their body rather than reaching loosely around their neck, which gives them a lever to grip. Establish a deep collar grip or chin strap rather than a loose neck wrap that is easily controlled with two hands. Use your free hand to cross-grip their wrist or forearm, preventing them from establishing the second hand on your choking arm. Active hand fighting that disrupts their grip establishment is more effective than static grip holding.
-
-
-
-</section>
 
 
 </main>

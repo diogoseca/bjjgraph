@@ -166,6 +166,8 @@ The defender's primary advantage is that this transition requires the attacker t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Seat Belt Control Back?</p>
+
 - Attacker's arm begins threading over your shoulder across your chest while still maintaining crucifix leg position - this is the over-arm establishing phase
 - You feel attacker's weight shifting from mounted position toward one side, indicating preparation for the hip slide behind your back
 - Attacker's leg pressure on your trapped arm begins loosening as they prepare to release crucifix entanglement for the back take
@@ -177,6 +179,8 @@ The defender's primary advantage is that this transition requires the attacker t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Seat Belt Control Back?</p>
 
 - Deny the seat belt grip by keeping elbows tight to your body and hands positioned to intercept the over-arm threading across your chest
 - Exploit the moment when attacker releases crucifix leg control as the primary escape window before back control consolidates
@@ -191,6 +195,8 @@ The defender's primary advantage is that this transition requires the attacker t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Seat Belt Control Back?</p>
 
 ### 1. Tuck elbows tight and block over-arm threading by keeping your arm pressed against your neck and shoulder, denying the path across your chest
 
@@ -228,6 +234,8 @@ The defender's primary advantage is that this transition requires the attacker t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Seat Belt Control Back?</p>
+
 ### → [[Positions/Mount/Mounted Crucifix]]
 
 Block the seat belt grip establishment by keeping elbows tight and intercepting the over-arm. If the attacker cannot lock the seat belt, they remain in mounted crucifix where you have established defensive patterns. Time your arm defense with the moment their arm begins threading over your shoulder.
@@ -243,6 +251,8 @@ Exploit the moment when attacker releases crucifix leg control by bridging explo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Seat Belt Control Back?</p>
 
 ### 1. Turning away from the attacker during the transition, exposing more of your back
 
@@ -272,6 +282,8 @@ Exploit the moment when attacker releases crucifix leg control by bridging explo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Seat Belt Control Back?</p>
+
 **Week 1-2** - Recognition and arm defense
 Partner initiates the seat belt transition at 25% speed from mounted crucifix. Practice identifying the over-arm threading cue and responding with elbow tuck defense. Focus on recognizing the transition initiation before the grip locks rather than reacting after the fact.
 
@@ -288,29 +300,6 @@ Begin from mounted crucifix with partner at full resistance attempting the back 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can defend against the Seat Belt Control Back transition?
-**A**: The earliest defensive intervention is when you feel the attacker's arm begin threading over your shoulder to establish the over-arm component of the seat belt. At this point, tucking your elbow tight against your neck and shoulder denies the path across your chest and prevents grip completion. Defending at this stage keeps you in mounted crucifix rather than progressing to the more dangerous back control position.
-
-**Q2**: Why is the moment when the attacker releases crucifix leg control the critical escape window for the defender?
-**A**: When the attacker releases their crucifix leg entanglement to begin sliding behind you, there is a brief window where their lower body control is absent. During this moment, your arms may also be freed from the leg trap, and the attacker's base is compromised as they reposition. An explosive bridge and turn during this release can recover half guard or create a scramble before back control consolidates.
-
-**Q3**: Your attacker has locked the seat belt but has not yet inserted hooks - what is your immediate defensive priority?
-**A**: Prevent hook insertion by keeping your legs active and straightened, denying the attacker's feet entry inside your thighs. Simultaneously begin turning toward the attacker to disrupt their back angle. Back control without hooks is significantly easier to escape than with hooks established, so even a few seconds of hook denial creates meaningful escape opportunities. Frame against their hip to prevent further settling.
-
-**Q4**: Why is turning into the attacker generally preferable to turning away during this transition?
-**A**: Turning away exposes more of your back and accelerates the back take by giving the attacker the exact angle they seek. Turning into the attacker disrupts this angle and converts the exchange toward a front-facing position where you have access to frames, guard recovery, and defensive grips. Even if the seat belt remains locked, facing the attacker neutralizes back control mechanics and creates guard recovery pathways.
-
-**Q5**: How should you distribute your defensive effort between grip fighting the seat belt and preventing the hip slide?
-**A**: Both threats must be addressed simultaneously rather than sequentially. Use one arm to fight or disrupt the seat belt grip while using your other arm to frame against the attacker's hip to block their slide behind you. Focusing exclusively on grip fighting allows the hip slide to complete, while focusing only on the hip frame allows the seat belt to tighten and eventually collapse your frame through compression.
-
-
-
-</section>
 
 
 </main>

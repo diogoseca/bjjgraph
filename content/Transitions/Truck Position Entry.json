@@ -47,8 +47,8 @@
       "relationship": "Parent position system containing Truck"
     },
     {
-      "name": "Calf Slicer from Truck",
-      "relationship": "Primary submission follow-up from Truck"
+      "name": "Calf Slicer",
+      "relationship": "Primary submission follow-up from Truck position"
     },
     {
       "name": "Banana Split",
@@ -79,7 +79,7 @@
       "relationship": "Related Truck entry variant"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Related Twister system submission"
     }
   ],

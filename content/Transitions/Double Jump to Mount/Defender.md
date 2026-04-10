@@ -164,6 +164,8 @@ The defender must understand that passive resistance from a flattened belly-down
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Jump to Mount?</p>
+
 - One leg hook begins withdrawing from inside your thigh while upper body pressure increases through your back
 - Attacker's foot posts flat on the mat beside your hip after extracting the first hook, creating a stable base for the step-over
 - Weight shifts to one side of your body as the attacker prepares to swing their leg across during the step-over phase
@@ -176,6 +178,8 @@ The defender must understand that passive resistance from a flattened belly-down
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Jump to Mount?</p>
 
 - Recognize hook extraction as the primary defensive window when attacker's control is at its most vulnerable transitional point
 - Maintain active hip movement throughout the transition to prevent the attacker from settling mount pressure on a static target
@@ -190,6 +194,8 @@ The defender must understand that passive resistance from a flattened belly-down
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Jump to Mount?</p>
 
 ### 1. Turn into opponent and recover half guard during hook extraction
 
@@ -227,6 +233,8 @@ The defender must understand that passive resistance from a flattened belly-down
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Jump to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your hip escape during the hook extraction phase when the attacker's lower body control is at its weakest. Turn your body to face the opponent while inserting your knee across their hip line to prevent the step-over from completing. The most effective timing is the moment between first hook extraction and the step-over initiation.
@@ -238,6 +246,8 @@ Time your hip escape during the hook extraction phase when the attacker's lower 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Jump to Mount?</p>
 
 ### 1. Remaining flat and passive in belly-down position throughout the entire transition
 
@@ -267,6 +277,8 @@ Time your hip escape during the hook extraction phase when the attacker's lower 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Jump to Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues
 Partner performs the Double Jump to Mount transition at slow speed while you focus on identifying each recognition cue: hook extraction sensation, weight shift, foot posting, grip changes. Call out each cue as you feel it. Build sensory awareness before adding defensive responses.
 
@@ -283,29 +295,6 @@ Positional rounds starting from Double Jump Bottom with attacker pursuing mount.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the opponent is transitioning from Double Jump to mount?
-**A**: The earliest cues include feeling one leg hook begin to withdraw from inside your thigh while upper body pressure simultaneously increases through your back, the attacker's foot posting flat on the mat beside your hip after hook removal, and a change in grip configuration from hook-based hip control to tighter crossface or harness connection. These combined signals indicate the mount transition is imminent.
-
-**Q2**: During which phase of the mount transition is defensive action most likely to succeed?
-**A**: The most effective defensive window occurs during hook extraction, specifically the brief moment between when the first hook is removed and when the step-over begins. During this phase, the attacker's lower body control is at its weakest point with only one hook or no hooks maintaining leg influence. Hip escapes, turtle recovery, and guard recovery attempts have the highest success probability during this transitional vulnerability.
-
-**Q3**: Your opponent has extracted one hook and is stepping over - what is your immediate defensive response?
-**A**: Immediately initiate a hip escape toward the side of the extracted hook while turning your body to face the opponent and inserting your knee to establish a frame or half guard position. This hip movement creates a physical barrier that prevents the step-over from completing cleanly. Timing is critical because the hip escape must begin during the step-over motion before the attacker settles weight into mount.
-
-**Q4**: Why is remaining flat and passive the worst defensive strategy during this transition?
-**A**: Remaining flat allows the attacker to complete the entire step-over sequence unopposed and settle into an established mount with full gravitational pressure, from which escape requires significantly more energy and technical execution. The transition phase offers a brief window of reduced attacker control that completely disappears once mount is consolidated. Flat positioning also eliminates your hip mobility, which is the primary mechanical tool for disrupting the step-over.
-
-**Q5**: How can you exploit the attacker's weight shift during the step-over to create a reversal?
-**A**: During the step-over, the attacker's weight shifts asymmetrically to one side as they swing their leg across your body. This creates a brief moment of compromised lateral balance that can be exploited with a well-timed bridge in the direction of the step-over, using their own momentum against them. Combined with framing against the stepping-over side, this creates disruption that often results in half guard recovery rather than a clean mount establishment.
-
-
-
-</section>
 
 
 </main>

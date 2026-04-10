@@ -182,6 +182,8 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Consolidate Mount?</p>
+
 - Establish heavy hip pressure immediately upon achieving mount to prevent bridging
 - Control both hip and shoulder line before advancing position
 - Eliminate all frames systematically before climbing to high mount
@@ -196,6 +198,8 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Consolidate Mount?</p>
+
 - Mount position achieved with both knees on the mat beside opponent's hips
 - Base hand on mat for stability during initial consolidation phase
 - Weight distributed forward onto opponent's chest and hips
@@ -207,6 +211,8 @@ Consolidate Mount is the critical transition between achieving mount position an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Consolidate Mount step by step?</p>
 
 1. **Drop weight**: Immediately drop your hips and chest onto your opponent, creating heavy top pressure that pins their hips to the mat and restricts breathing
 2. **Insert grapevines**: Hook your feet inside your opponent's thighs, creating grapevine hooks that prevent hip escapes and bridging movements by controlling their lower body
@@ -235,6 +241,8 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Consolidate Mount?</p>
+
 - **Bridge and roll attempt using elbows as pivot points** (Effectiveness: Medium) - Your Response: Post hand wide on the side they bridge toward, sprawl hips, and ride out the bridge before re-establishing grapevines → Leads to [[Positions/Half Guard]]
 - **Elbow-knee escape (shrimping) to recover half guard** (Effectiveness: High) - Your Response: Block their hip with your knee and maintain heavy chest pressure; if they create space, immediately re-close it before they can insert knee shield → Leads to [[Positions/Half Guard]]
 - **Framing on hips to create space and turn** (Effectiveness: Medium) - Your Response: Swim inside the frames using elbow-elbow connection, then pin their arms with cross-face or by trapping wrist to mat → Leads to [[Positions/Mount]]
@@ -245,6 +253,8 @@ Consolidate Mount is the critical transition between achieving mount position an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Consolidate Mount?</p>
 
 ### 1. Sitting upright immediately after achieving mount
 
@@ -279,6 +289,8 @@ Consolidate Mount is the critical transition between achieving mount position an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Consolidate Mount (Attacker)?</p>
+
 **Week 1-2** - Weight distribution
 Practice the feeling of heavy hip pressure and chest-to-chest connection on a non-resisting partner; focus on making your weight feel oppressive
 
@@ -296,48 +308,12 @@ Live drilling from scramble to mount to high mount; partner uses all escapes whi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should you drop your weight immediately after achieving mount?
-**A**: Dropping weight immediately pins your opponent's hips to the mat, restricts their breathing, and prevents them from building momentum for bridges or hip escapes. This initial pressure is critical because the moment you achieve mount is when your opponent will make their most explosive escape attempt.
-
-**Q2**: What is the primary purpose of grapevine hooks during mount consolidation?
-**A**: Grapevine hooks neutralize your opponent's lower body by preventing hip escapes and reducing bridging power. By hooking your feet inside their thighs, you control their leg movement and make it nearly impossible for them to generate the hip motion needed for standard mount escapes.
-
-**Q3**: Your opponent creates a strong frame on your hips with both hands. How do you eliminate this?
-**A**: Swim your arms inside their frames using elbow-to-elbow connection, then drive your elbows to the mat to pin their arms. You can also use cross-face pressure to force one arm across their body, or trap their wrist to the mat with your hand while maintaining chest pressure.
-
-**Q4**: Why is it a mistake to attempt submissions immediately after achieving mount?
-**A**: Attacking too early creates openings for escape. When you posture up or shift weight for a submission, you relieve the pressure that keeps your opponent pinned. Failed attempts create scrambles where opponents often recover guard. Consolidating first ensures your attacking platform is stable and your opponent's defensive resources are depleted.
-
-**Q5**: What is the correct timing and method for walking your knees to high mount?
-**A**: Walk knees up incrementally only after frames are eliminated, maintaining heavy hip pressure throughout. Each knee advance should meet minimal resistance. If opponent creates space during your climb, stop and re-establish pressure before continuing. The climb should take 5-10 seconds of controlled advancement.
-
-**Q6**: Your opponent attempts an elbow-knee escape while you're consolidating. What is your response?
-**A**: Block their hip with your knee on the escape side and increase chest pressure to prevent them from turning. If they begin creating space, immediately re-close the gap before they can insert a knee shield. Anticipate the escape direction and position your blocking knee before they commit to the movement.
-
-**Q7**: When should you choose technical mount transition over high mount consolidation?
-**A**: Choose technical mount when your opponent defends high mount by keeping their elbows extremely tight to their body, making it impossible to walk your knees into their armpits. Technical mount provides a different attacking angle while maintaining dominant control and opens up back take opportunities.
-
-**Q8**: What are the key indicators that mount consolidation is complete and you can begin attacking?
-**A**: Mount is consolidated when: you've achieved high mount with knees in armpits, opponent's frames are eliminated, their arms are controlled or isolated, they've stopped making explosive escape attempts and are conserving energy, and you feel stable enough to shift weight for attacks without risk of being swept.
-
-**Q9**: Your opponent traps your foot with their legs during the grapevine phase. How do you free it without losing position?
-**A**: Maintain heavy chest pressure and avoid pulling your leg straight back, which creates space. Instead, use a circular motion to extract the foot by rotating your hip outward. If necessary, switch to a low hook on the opposite side while keeping weight forward, then re-establish the grapevine once you have freed the leg.
-
-**Q10**: What grip should you prioritize during the arm isolation phase of consolidation?
-**A**: Prioritize the cross-face grip, driving your forearm under their chin and controlling the far-side shoulder. This grip flattens your opponent, prevents them from turning into you, and exposes the near-side arm for isolation. The cross-face also creates psychological pressure that forces defensive reactions you can exploit for advancement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Consolidate Mount?</p>
 
 Mount consolidation is generally low-risk when performed correctly. Avoid crushing pressure on the sternum for extended periods during training, as this can cause discomfort or breathing difficulty for your partner. When using grapevines, be careful not to hyperextend your partner's knees by driving your hooks too aggressively. During drilling, establish clear tapping protocols so partners can indicate when pressure becomes excessive. Ensure your training partner can breathe adequately throughout the consolidation process.
 

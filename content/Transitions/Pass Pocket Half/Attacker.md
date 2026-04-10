@@ -188,6 +188,8 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass Pocket Half?</p>
+
 - Flatten before extracting—never attempt leg extraction until the bottom player's hip frame has been fully collapsed and their back is approaching flat on the mat
 - Coordinate crossface and underhook pressure as opposing forces that prevent the bottom player from creating angles or recovering defensive structures
 - Maintain heavy hip-to-hip contact throughout the pass to eliminate space the bottom player needs for sweep entries and guard transitions
@@ -202,6 +204,8 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Pocket Half?</p>
+
 - Deep underhook established with grip on opponent's far lat, shoulder blade, or belt creating control over their upper body rotation
 - Crossface pressure applied with forearm or shoulder driving opponent's head away from the underhook side
 - Chest-to-chest connection with heavy forward pressure flattening the bottom player's defensive posture
@@ -214,6 +218,8 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Pocket Half step by step?</p>
 
 1. **Consolidate Upper Body Control**: From pocket half guard top, deepen your underhook grip to reach the opponent's far lat or shoulder blade. Drive your chest heavy onto their torso and ensure your crossface is firmly established with your forearm across their jaw driving their head to the mat. This upper body dominance must be absolute before proceeding.
 2. **Collapse the Pocket Space**: Drive your hips forward and down into the opponent's hip area, systematically eliminating the pocket space created by their bottom leg frame. Use your underhook to pull their far shoulder toward you while your chest weight pins their upper body flat. The goal is removing the gap between your hip and their hip that gives them leverage.
@@ -243,6 +249,8 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Pocket Half?</p>
+
 - **Bottom player scoots hips underneath for deep half guard entry during extraction phase** (Effectiveness: High) - Your Response: Immediately stop extraction, drive hips low and heavy back into their body, re-flatten with crossface pressure before reattempting. If deep half is already entered, address that position before continuing. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 - **Bottom player recovers pocket frame by reinserting bottom foot against your hip during weight shift** (Effectiveness: Medium) - Your Response: Use your free hand to strip their foot from your hip while maintaining chest pressure. Re-collapse the pocket space before continuing extraction. Do not attempt to pass through an active pocket frame. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 - **Bottom player executes Old School sweep by pulling your far shoulder down during extraction when your base is compromised** (Effectiveness: High) - Your Response: Post your free hand wide in the direction of the sweep and drive your weight back down. If you feel the sweep beginning, abandon extraction and reset your base before the momentum carries you over. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Pocket Half?</p>
 
 ### 1. Attempting leg extraction before fully collapsing the pocket space and flattening the bottom player
 
@@ -293,6 +303,8 @@ The Pocket Half Guard pass from the attacker's perspective demands a methodical 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Pocket Half (Attacker)?</p>
+
 **Phase 1: Mechanics** - Fundamental movement pattern and weight distribution
 Practice the complete pass sequence with a cooperative partner focusing on correct pressure vectors, extraction angles, and side control establishment. Perform 20 repetitions per side emphasizing smooth transitions between each phase. Partner remains passive, allowing you to develop muscle memory for hip placement, crossface maintenance, and leg extraction mechanics.
 
@@ -310,39 +322,12 @@ Positional sparring starting in pocket half guard top. Chain the pocket half pas
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What conditions must be established before you begin leg extraction in the Pocket Half Guard pass?
-**A**: Before extraction, you must have deep underhook control reaching the opponent's far lat or shoulder blade, established crossface driving their head away, collapsed the pocket space by eliminating their hip frame, and achieved near-complete flattening with their shoulders approaching the mat. Attempting extraction without all four elements established leads to failed passes and counter opportunities.
-
-**Q2**: What is the most critical mechanical detail during the leg extraction phase?
-**A**: Keeping your hips low and in constant contact with the opponent throughout extraction is the most critical detail. Rising your hips to create pulling leverage is the primary mechanical error that opens space for deep half guard entry and sweep attempts. The extraction should use lateral knee sliding or hip rotation rather than upward hip lifting to free the trapped leg while maintaining pressure.
-
-**Q3**: Your opponent begins scooting their hips underneath you for a deep half entry mid-pass - how do you adjust?
-**A**: Immediately stop the extraction attempt and drive your hips back down heavy into their body. Re-flatten them by increasing crossface pressure while simultaneously pulling with your underhook to prevent them from getting underneath you. If they have already entered deep half, you must address that position with appropriate deep half counters before reattempting the pocket half pass.
-
-**Q4**: What is the optimal moment to begin the extraction when the bottom player is actively defending?
-**A**: The optimal moment is when you feel the bottom player's hip frame collapse and their body go flat, typically after sustained coordinated pressure through crossface and underhook. Specifically, when their bottom foot loses active pressure against your hip and their shoulders approach flat on the mat, the extraction window opens. This often occurs after they exhaust energy fighting your pressure or when they momentarily focus on a different defensive priority.
-
-**Q5**: What grip adjustments should you make if the bottom player actively fights your underhook during the pass?
-**A**: If they begin stripping your underhook, immediately deepen the grip by pulling your elbow tighter to your body and regripping further across their back. If they successfully reduce your underhook depth, consider switching to a whizzer or overhook on the same side to maintain upper body control while you work to recover the deep underhook. Never accept a shallow underhook—either fight to deepen it or switch to an alternative control mechanism.
-
-**Q6**: In which direction should you drive your weight during the crossface phase of this pass?
-**A**: Drive your weight diagonally across the opponent's body—toward the mat on the side opposite your underhook. Your crossface forearm drives their head toward the underhook side while your chest weight presses downward and slightly toward their legs. This diagonal pressure vector simultaneously prevents them from turning toward you and creates the flattening effect needed to collapse their pocket frame.
-
-**Q7**: If the bottom player successfully reestablishes their pocket frame during your pass attempt, what follow-up options are available?
-**A**: You have several chain options: reinitiate the flattening sequence with renewed crossface and underhook pressure before reattempting extraction, switch to a knee slice angle that bypasses the pocket frame entirely, transition to a smash pass variation that addresses the frame from a different angle, or consider a backstep to free the leg from behind where the pocket frame has less influence. The key is not forcing the same approach—change angles when the frame returns.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Pocket Half?</p>
 
 This pass involves sustained chest and crossface pressure that can be uncomfortable but generally carries low injury risk compared to submissions. Ensure crossface pressure is applied with the forearm flat across the jaw rather than driving into the throat or trachea. During training, communicate with your partner about pressure levels, particularly during the flattening phase. Be mindful of your partner's neck position when applying crossface—avoid cranking or twisting motions. During extraction, move smoothly to prevent knee torque on the trapped leg.
 

@@ -208,7 +208,7 @@ Truck Maintenance is the foundational skill that enables the entire 10th Planet 
 
 - [[Transitions/Escape from Truck]] - Opponent's primary escape method that maintenance directly counters
 
-- [[Submissions/Calf Slicer from Truck]] - Submission threat used as maintenance tool to prevent escape
+- [[Submissions/Calf Slicer]] - Submission threat used as maintenance tool to prevent escape from truck position
 
 - [[Positions/Twister Control]] - Submission target position accessible through successful truck maintenance
 

@@ -202,7 +202,7 @@ The Kimura from Half Guard serves as the critical gateway connecting standard ha
 
 - [[Positions/Side Control]] - Counter outcome position if top player successfully passes during Kimura attempt
 
-- [[Submissions/Kimura from Kimura Trap]] - Follow-up submission finish available once Kimura Trap is established
+- [[Submissions/Kimura]] - Follow-up submission finish available once Kimura Trap control is established
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative bottom half guard attack sharing similar underneath positioning
 

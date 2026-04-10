@@ -15,7 +15,7 @@
   "from_position": "Crucifix/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Armbar Control/Top",
       "probability": 65,
       "result": "success"
     },
@@ -71,7 +71,7 @@
       "relationship": "Position retention technique that sustains control while setting up the armbar"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Related armbar mechanics from back control sharing similar behind-opponent attack angle"
     },
     {
@@ -88,7 +88,7 @@
     },
     {
       "name": "Armbar Control",
-      "relationship": "Related arm isolation control concept used in standard armbar sequences"
+      "relationship": "Target control position reached on successful arm isolation and extension"
     }
   ],
   "attacker": {

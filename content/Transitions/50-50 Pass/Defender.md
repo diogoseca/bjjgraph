@@ -162,6 +162,8 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 50-50 Pass?</p>
+
 - Passer drives shoulder pressure forward and establishes crossface, indicating they are setting up the upper body control phase before extraction
 - Passer's free hand pushes against your hip or thigh, creating separation at the entanglement point to make space for bottom leg extraction
 - Passer begins circular knee-to-chest motion with their bottom leg, indicating active leg extraction has started
@@ -174,6 +176,8 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 50-50 Pass?</p>
 
 - Maintain hip-to-hip connection by following the passer's movement with your own hips to prevent space creation at the entanglement point
 - Keep active inside position control with your legs to prevent the passer from freeing their bottom leg from the entanglement
@@ -188,6 +192,8 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 50-50 Pass?</p>
 
 ### 1. Sit up and break passer's shoulder pressure by posting on your far hand and driving your near shoulder into their chest
 
@@ -225,6 +231,8 @@ Defending the 50-50 Pass requires maintaining the leg entanglement while prevent
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 50-50 Pass?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Sit up aggressively when passer's shoulder pressure weakens during extraction attempt. Use underhook on their near arm and drive forward with your chest to reverse the top-bottom dynamic. Establish your own crossface and hip pressure to claim the top position.
@@ -240,6 +248,8 @@ Threaten inside heel hook by securing two-handed control on passer's heel during
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Pass?</p>
 
 ### 1. Remaining flat on back without sitting up or engaging hips when passer establishes shoulder pressure
 
@@ -269,6 +279,8 @@ Threaten inside heel hook by securing two-handed control on passer's heel during
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 50-50 Pass?</p>
+
 **Week 1-2: Recognition and Awareness** - Identifying pass initiation cues and understanding the pass sequence
 Partner walks through the 50-50 pass at 25% speed while you observe and identify each phase: upper body control, hip space creation, bottom leg extraction, step-over. Practice recognizing each cue without resisting. Build mental map of the pass timeline.
 
@@ -285,29 +297,6 @@ Positional sparring from 50-50 with passer working at full intensity. Practice c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first recognition cue that your opponent is initiating a 50-50 pass rather than attacking a submission?
-**A**: The primary cue is shoulder pressure driving forward into your chest combined with a crossface. Submission attackers typically sit back or angle their hips for heel exposure, while passers drive their weight forward and up to establish control over your upper body. The crossface specifically indicates passing intent because it prevents you from sitting up, which is unnecessary for leg lock attacks.
-
-**Q2**: Your opponent has freed their bottom leg and is about to step over - what is the critical timing window for re-entanglement?
-**A**: The window exists between bottom leg extraction and the moment the top leg clears your hip line. This is typically a half-second to one-second gap. Thread your freed leg back between their legs during this window, targeting the space between their thighs. If the top leg has already crossed your hip, the window has closed and you must transition to half guard retention or framing instead.
-
-**Q3**: How does threatening submissions help you defend the pass even if you do not finish them?
-**A**: Submission threats force the passer to divide their attention between heel defense and leg extraction. Every moment they spend breaking your grips or protecting their heel is a moment they are not progressing the pass. This creates a resource competition where the passer cannot simultaneously defend submissions and extract legs, buying you time to re-establish entanglement or sit up to break their control.
-
-**Q4**: When should you transition from 50-50 retention to half guard recovery during a pass defense?
-**A**: Transition to half guard recovery when the passer has freed their bottom leg and is actively stepping over with their top leg. At this point, re-entanglement probability drops below useful levels. Instead, use your inside leg to hook their stepping leg and establish a half guard frame. This is a controlled concession that preserves a guard position rather than accepting full side control.
-
-**Q5**: Your opponent uses a pumping motion to progressively extract their leg - how do you counter this specific passing strategy?
-**A**: Match their rhythm by following each pump with your own hip scoot toward them, never allowing the gap to widen. Additionally, use their forward pressure phase (when they drive back into you) as your window to secure deeper entanglement and grip their heel. The pumping motion temporarily lightens their hip pressure on the return phase, which is your best moment to sit up and break their upper body control.
-
-
-
-</section>
 
 
 </main>

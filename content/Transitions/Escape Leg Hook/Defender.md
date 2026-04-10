@@ -148,6 +148,8 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Leg Hook?</p>
+
 - Bottom player begins establishing forearm frames against your neck, shoulder, or chest line with structural alignment rather than casual contact
 - Bottom player's hips begin incremental lateral movement away from you through controlled shrimping rather than explosive bridging
 - Bottom player's free leg activates to push against your hip, thigh, or hooking leg to create supplementary space
@@ -161,6 +163,8 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Escape Leg Hook?</p>
+
 - Maintain constant chest and shoulder pressure on the bottom player's upper body to limit frame effectiveness
 - Dynamically adjust hook depth and angle in response to every hip escape and leg movement from the bottom player
 - Control the bottom player's far hip to prevent the lateral shrimping movement that creates extraction space
@@ -173,6 +177,8 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Leg Hook?</p>
 
 ### 1. Increase forward pressure and re-deepen the hook when you feel the bottom player creating initial hip angle
 
@@ -203,6 +209,8 @@ As the defender against the Escape Leg Hook, you are the top player working to m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Leg Hook?</p>
+
 ### → [[Positions/Leg Hook]]
 
 Shut down the escape by maintaining constant chest pressure that limits frame effectiveness, tracking the bottom player's hip escapes with your own hip adjustments, and re-deepening the hook whenever they create angle. The key is proactive response at the earliest escape phases rather than reactive response after significant space exists.
@@ -218,6 +226,8 @@ Capitalize on the bottom player's extraction movement by releasing the hook and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Leg Hook?</p>
 
 ### 1. Maintaining a static hook position without adjusting depth and angle as the bottom player shrimps
 
@@ -247,6 +257,8 @@ Capitalize on the bottom player's extraction movement by releasing the hook and 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Leg Hook?</p>
+
 **Phase 1: Escape Recognition** - Identifying escape attempt phases
 Bottom player performs the Escape Leg Hook at slow speed, announcing each phase. Top player practices identifying frame establishment, hip escape initiation, hook reduction, and extraction attempts. No active defense yet - focus purely on tactile and visual recognition of the escape sequence.
 
@@ -263,26 +275,6 @@ Start from Leg Hook top with full resistance from both players. Top player combi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is initiating the Escape Leg Hook?
-**A**: The earliest cue is the bottom player establishing a structural forearm frame against your neck or shoulder with skeletal alignment rather than casual hand placement. This deliberate frame establishment indicates they are creating the prerequisite structure for the hip escape sequence. Recognizing this cue allows you to increase pressure and eliminate the frame before the escape develops, when disruption is easiest.
-
-**Q2**: How should you adjust your weight distribution when you feel the bottom player begin to shrimp?
-**A**: Drop your weight lower and drive your hips forward into their hip line while simultaneously following their lateral movement with your own hip adjustment. The goal is to maintain hip-to-hip contact that eliminates the space their shrimp creates. Avoid raising your weight or pulling your hips backward, as this creates exactly the separation they need. Your chest pressure should increase during their shrimp to prevent the frame from expanding.
-
-**Q3**: When should you abandon hook maintenance and advance directly to the pass instead?
-**A**: Advance to the pass when the bottom player has created significant lateral space and their focus is committed to leg extraction rather than guard establishment. The key indicator is when their far arm is reaching for their own leg rather than maintaining frames against your upper body. In this moment, releasing the hook and driving through to side control exploits their divided attention, converting their escape attempt into a worse positional outcome.
-
-**Q4**: Why is upper body pressure more important than hook depth when defending this escape?
-**A**: Upper body pressure prevents the frames that initiate the entire escape sequence. Without effective frames, the bottom player cannot create the hip escape that leads to hook reduction and extraction. A deep hook with light upper body pressure allows the bottom player to frame freely and systematically work through the escape. Conversely, heavy upper body pressure with a moderate hook prevents the escape from ever beginning, because the bottom player cannot establish the structural prerequisites.
-
-
-
-</section>
 
 
 </main>

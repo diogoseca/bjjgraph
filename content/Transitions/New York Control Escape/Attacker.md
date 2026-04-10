@@ -188,6 +188,8 @@ Executing the New York Control Escape requires the top player to override natura
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing New York Control Escape?</p>
+
 - Extract the overhook before attempting to remove leg control - reversed priority creates submission exposure
 - Use lateral movement and circular base rather than forward pressure that feeds submission chains
 - Maintain elbows tight to ribs with hands protecting neck throughout the entire escape sequence
@@ -203,6 +205,8 @@ Executing the New York Control Escape requires the top player to override natura
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting New York Control Escape?</p>
+
 - Establish wide, low base with knees spread and hips close to mat to prevent sweeps during escape
 - Tuck chin firmly to chest to defend against gogoplata shin placement across throat
 - Position elbows tight against ribs with hands protecting neck to prevent arm isolation for triangle
@@ -215,6 +219,8 @@ Executing the New York Control Escape requires the top player to override natura
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute New York Control Escape step by step?</p>
 
 1. **Establish defensive base**: Widen your knees and lower your hips toward the mat while tucking your chin to your chest. Position your elbows tight against your ribs with both hands protecting your neck. This defensive platform prevents immediate submission threats while creating the stability needed for the escape sequence.
 2. **Create lateral angle**: Shift your hips laterally toward the side of the trapped arm rather than driving forward or backward. This lateral movement reduces the overhook's mechanical advantage by changing the angle of the arm relative to the bottom player's controlling grip. Maintain your low base throughout this weight shift to prevent sweep attempts.
@@ -244,6 +250,8 @@ Executing the New York Control Escape requires the top player to override natura
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter New York Control Escape?</p>
+
 - **Bottom player deepens overhook and re-engages arm control during extraction attempt** (Effectiveness: High) - Your Response: Reset to defensive base position and wait for the next grip adjustment window. Attempting to force the extraction against a freshly deepened overhook wastes energy and increases submission exposure. Look for the bottom player to transition between attacks as this creates momentary looseness. → Leads to [[Positions/Rubber Guard/New York Control]]
 - **Bottom player initiates triangle setup by shooting leg around neck during arm extraction** (Effectiveness: High) - Your Response: Immediately retract your arm and tuck chin to chest while pinching elbows tight to ribs. If the leg has crossed your neck, drive your head into their hip and work to posture through the partially locked triangle before it tightens. Prevent the ankle from locking behind their knee. → Leads to [[Positions/Rubber Guard/New York Control]]
 - **Bottom player uses hip bump or overhook leverage to sweep during lateral angle creation** (Effectiveness: Medium) - Your Response: Post your free hand wide to the mat on the opposite side of the sweep direction while driving your hip weight downward. If the sweep begins to succeed, immediately abandon the escape attempt and focus on base recovery. Consider a controlled transition to half guard rather than being fully swept to mount. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ Executing the New York Control Escape requires the top player to override natura
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing New York Control Escape?</p>
 
 ### 1. Driving forward with pressure attempting to muscle through the position
 
@@ -294,6 +304,8 @@ Executing the New York Control Escape requires the top player to override natura
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train New York Control Escape (Attacker)?</p>
+
 **Phase 1: Mechanics** - Overhook extraction technique
 Practice the shoulder rotation and lateral angle creation for overhook extraction against a stationary partner. Focus on the mechanical sequence of widening base, shifting hips laterally, and driving the shoulder forward while pulling the elbow to the hip. No resistance. Repeat 20 times per side.
 
@@ -314,39 +326,12 @@ Full resistance from New York Control through escape and immediate passing seque
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must overhook extraction occur before leg removal when escaping New York Control?
-**A**: The overhook traps your arm against your body and prevents effective defensive hand fighting. If you attempt to remove the leg control while the overhook persists, you cannot use your trapped arm to push the leg away or protect against submissions. Meanwhile, the bottom player freely cycles between gogoplata, triangle, and omoplata threats because your arm remains immobilized. Extracting the overhook first restores your ability to use both hands defensively, after which the leg wrap alone provides substantially weaker control.
-
-**Q2**: What is the critical hip movement during the lateral angle creation phase of the escape?
-**A**: Shift your hips laterally toward the trapped arm side while keeping them low and heavy on the mat. This lateral shift changes the angle of your arm relative to the bottom player's overhook grip, reducing its mechanical advantage. The movement must be controlled and deliberate rather than explosive, maintaining your wide base throughout. Shifting toward the trapped side specifically creates the angle that allows shoulder rotation for extraction, whereas shifting away would actually deepen the overhook control.
-
-**Q3**: Your opponent adjusts their overhook grip mid-escape - how do you exploit this window?
-**A**: Grip adjustments create one to two seconds where the overhook depth temporarily decreases and pulling pressure relaxes. Immediately accelerate your shoulder rotation forward and pull your elbow toward your hip during this window. Time your maximum extraction effort to coincide with their grip transition rather than fighting against their full control. If the window closes before extraction completes, reset to defensive base and wait for the next adjustment rather than forcing through re-established control.
-
-**Q4**: What grip should you establish immediately after freeing your trapped arm?
-**A**: Post your freed hand on the bottom player's hip or bicep with a bent-arm frame. Do not extend your arm fully, as this creates triangle vulnerability. The hip frame prevents them from re-engaging the overhook by maintaining separation, while controlling their bicep prevents them from reaching for your head or establishing new grips. This defensive hand position must be established before you begin addressing the leg control, as even a brief moment without arm protection invites re-engagement of the overhook.
-
-**Q5**: The bottom player shoots their shin toward your neck for a gogoplata during your escape - what is your immediate response?
-**A**: Tuck your chin firmly to your chest to close the throat and prevent the shin from settling across your trachea. Drive your head toward the mat on the side away from the incoming shin to reduce the angle. If possible, stack their hips by driving forward momentarily to compress the shin arc. As a last resort, stand up explosively to create distance that eliminates the shin-to-throat angle. Prevention is superior to reaction - maintaining chin-to-chest posture throughout the escape eliminates most gogoplata opportunities before they develop.
-
-**Q6**: How do you prevent being swept during the lateral weight shift phase of the escape?
-**A**: Maintain a wide base with knees spread beyond shoulder width and hips heavy on the mat throughout the lateral shift. Your free hand should be prepared to post on the mat opposite to the shift direction if you feel sweep pressure. Move your weight laterally in small increments rather than committing large positional changes that compromise balance. If sweep momentum develops despite your base, immediately abandon the escape attempt and prioritize base recovery before the sweep completes, potentially accepting half guard rather than a full sweep to mount.
-
-**Q7**: What specific conditions indicate the escape is safe to begin versus situations where you should wait?
-**A**: Begin the escape when the bottom player's submissions are not actively being set up, your chin is securely tucked, both elbows are tight to your ribs, and you can establish a wide base without interference. Wait if the bottom player is mid-transition to a triangle or gogoplata, your arm is being actively pulled across your centerline, the overhook has just been freshly deepened after a failed attempt, or you feel your base is compromised by recent sweep pressure. Attempting escape during active submission setups dramatically increases the likelihood of getting caught.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for New York Control Escape?</p>
 
 The New York Control Escape involves shoulder rotation under load and lateral hip movement while managing an opponent's body weight. Be cautious of shoulder strain during overhook extraction, particularly if the bottom player resists aggressively. Communicate with training partners about pressure thresholds during drilling, and tap immediately if you feel joint stress in your trapped shoulder during live training. Neck safety requires maintaining chin-to-chest posture throughout to prevent gogoplata pressure on the trachea.
 

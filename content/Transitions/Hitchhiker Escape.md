@@ -199,11 +199,11 @@ The Hitchhiker Escape represents a critical last-line defensive option within th
 
 - [[Transitions/Armbar Defense]] - Primary defensive system - positional defenses should be attempted before Hitchhiker Escape
 
-- [[Submissions/Armbar from Guard]] - Understanding the offensive mechanics improves defensive timing and recognition
+- [[Armbar from Armbar Control]] - Understanding the offensive finishing mechanics improves defensive timing and recognition
 
-- [[Submissions/Armbar from Mount]] - Alternative armbar position where similar escape principles may apply
+- [[Submissions/Far Side Armbar]] - Alternative armbar variant where similar escape principles may apply
 
-- [[Principles/Guard Recovery]] - Follow-up technique after successful escape execution
+- [[Transitions/Half Guard Recovery]] - Follow-up technique after successful escape execution to re-establish guard structure
 
 - [[Positions/Armbar Control]] - Parent position from which this escape is executed
 
@@ -214,8 +214,6 @@ The Hitchhiker Escape represents a critical last-line defensive option within th
 - [[Positions/Turtle]] - Alternative recovery position when guard cannot be established
 
 - [[Positions/Closed Guard]] - Ideal recovery position after successful escape
-
-- [[Transitions/Armbar Finish]] - The finishing transition the escape is designed to prevent
 
 - [[Submissions/Belly Down Armbar]] - Attacker may transition to belly-down variant if rotation is partially completed
 

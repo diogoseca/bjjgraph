@@ -188,6 +188,8 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Up from Inside Ashi?</p>
+
 - Post with the free hand on the mat before initiating any upward movement to establish a stable structural base
 - Maintain hip connection to the opponent's trapped leg throughout the early phases to prevent premature disengagement
 - Time the standup when the opponent is focused on defending submissions rather than monitoring your posture or attacking your base
@@ -202,6 +204,8 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Up from Inside Ashi?</p>
+
 - Secure Inside Ashi-Garami position with at least basic outside leg hook and heel awareness established
 - Free hand available for posting on the mat—release one hand from heel control or create space for posting
 - Opponent not actively driving forward across your body or applying a counter leg entanglement on your legs
@@ -214,6 +218,8 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Up from Inside Ashi step by step?</p>
 
 1. **Release and Post**: From Inside Ashi-Garami bottom, release one hand from the heel grip and post it firmly on the mat behind your hip on the same side. Keep your outside leg hook active to maintain control of the opponent's leg. Your posting hand should be directly under your shoulder line for maximum structural support.
 2. **Hip Elevation**: Drive your hips upward using the posted hand and both legs as support. Bridge your hips high off the mat to create the clearance needed to bring your legs underneath you. Your inside leg begins transitioning from the hip frame position to prepare for the knee recovery. Maintain chest-forward orientation rather than collapsing sideways.
@@ -243,6 +249,8 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Up from Inside Ashi?</p>
+
 - **Opponent grabs your posting wrist or sleeve to collapse your base before you can elevate your hips** (Effectiveness: High) - Your Response: Switch to posting with the opposite hand on the other side of your body, or abandon the standup temporarily and threaten a submission to force them to release the wrist grip before reattempting → Leads to [[Positions/Ashi Garami/Inside Ashi-Garami]]
 - **Opponent hooks their free leg behind your far hip and scissors to sweep during the knee recovery phase** (Effectiveness: High) - Your Response: Drive your hips forward rather than upward to neutralize the scissor angle, and use your posted hand to push their hooking leg down before continuing the standup sequence → Leads to [[Positions/Open Guard]]
 - **Opponent sits up and follows your standup movement to establish open guard hooks before you achieve full standing** (Effectiveness: Medium) - Your Response: Accelerate the final standing phase and immediately step back to create distance, controlling their approaching feet with your hands to prevent hook establishment on your legs → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Up from Inside Ashi?</p>
 
 ### 1. Releasing all leg control before establishing a stable standing base
 
@@ -293,6 +303,8 @@ Executing the standup from Inside Ashi-Garami requires methodical base recovery 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Up from Inside Ashi (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Standup sequence muscle memory
 Practice the complete standup motion solo without a partner, focusing on the posting, hip elevation, knee recovery, and base establishment sequence. Perform 20 repetitions per side, emphasizing smooth transitions between phases and proper weight distribution at each stage. Build the movement pattern until it becomes automatic.
 
@@ -310,39 +322,12 @@ Incorporate the standup as an option during full positional sparring from Inside
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for initiating the standup from Inside Ashi-Garami?
-**A**: The optimal timing is when the opponent is actively defending their heel by pulling their leg back or rotating their knee. During this defensive reaction, their attention and physical effort are directed toward their trapped leg rather than monitoring your base or attacking your balance. This creates a one-to-two second window where your posting hand can establish base without being grabbed or redirected, significantly increasing standup success rate.
-
-**Q2**: Your opponent grabs your posting wrist as you reach back to base—how do you adjust?
-**A**: Immediately switch to posting with the opposite hand on the other side of your body. If both hands are compromised, use your elbow as a posting point and drive your hips upward from a lower angle. Alternatively, abandon the standup temporarily and threaten a heel hook or ankle lock to force the opponent to release your wrist and address the submission threat, then reattempt the post when their hands return to defending their leg.
-
-**Q3**: What grip configuration should you maintain on the opponent's leg during the standup?
-**A**: Maintain a C-grip on the heel with your remaining hand throughout the early phases of the standup, releasing or adjusting only once your feet are securely under you. If planning a standing ankle lock, transition the grip to a two-on-one figure-four configuration around the ankle once standing. If planning full disengagement, release the heel at the moment you achieve a stable standing base and immediately create distance by stepping backward at a 45-degree angle.
-
-**Q4**: What is the most common failure point during the standup and how do you prevent it?
-**A**: The most common failure occurs during the knee recovery phase when your inside leg swings underneath your body. At this moment, your base is narrow, your center of gravity is transitioning vertically, and you are most vulnerable to being pulled back down or swept. Prevent this by driving your hips high before attempting the knee recovery, keeping your chest up rather than folding forward, and ensuring your posted hand is directly under your shoulder for maximum structural support.
-
-**Q5**: How does your decision to maintain or release leg control affect the standup mechanics?
-**A**: Maintaining leg control requires keeping one hand on the heel throughout the standup, which limits you to a single posting hand and makes balance more challenging. This path leads to standing ankle lock opportunities but increases standup difficulty. Releasing leg control allows both hands for posting, making the standup faster and more stable, but sacrifices the attacking position entirely. The decision must be made before initiating the standup because switching plans mid-transition creates dangerous hesitation.
-
-**Q6**: Your opponent hooks their free leg around your thigh as you begin rising—what do you do?
-**A**: Immediately address the hook by pushing their hooking leg down with your near-side hand while continuing to drive upward with your legs. If you cannot clear the hook, angle your hips away from the hooking leg to reduce its mechanical effectiveness. If the hook is deep and preventing your standup entirely, consider abandoning the attempt and re-engaging from ashi garami with a submission threat, as forcing the standup against a secured hook often results in losing balance and falling into the opponent's open guard.
-
-**Q7**: What direction should your standup movement travel relative to the opponent's body?
-**A**: Rise at approximately 45 degrees away from the opponent rather than straight upward. Moving directly vertical leaves you within easy reach for them to grab your legs and pull you back down. Angling away creates increasing distance as you stand, making it progressively harder for them to counter as the standup advances. The 45-degree angle also positions you to immediately step back and establish safe distance once fully standing, preventing guard pull attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Up from Inside Ashi?</p>
 
 When standing up from Inside Ashi-Garami, exercise particular caution with the opponent's trapped leg. The transition from supine to standing changes the leverage angle on the knee and ankle joints, potentially creating unexpected torque. If maintaining heel control during the standup, apply pressure gradually rather than explosively. Always release immediately if your training partner signals discomfort through tapping or verbal communication. Avoid jerky movements during the intermediate phase that could wrench the trapped knee. Communicate your intent to stand with your training partner to allow them to prepare for the position change and reduce injury risk.
 

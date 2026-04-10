@@ -44,12 +44,12 @@
       "relationship": "Alternative escape variation when rolling is blocked"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Common attack scenario requiring positional defense"
+      "name": "Side Control",
+      "relationship": "Common position where kimura attacks originate, requiring positional awareness for early defense"
     },
     {
-      "name": "Kimura from Mount",
-      "relationship": "High-danger attack scenario with specific defensive adjustments"
+      "name": "Mount",
+      "relationship": "High-danger position for kimura attacks requiring specific defensive adjustments due to limited mobility"
     },
     {
       "name": "Hip Escape to Guard",

@@ -194,6 +194,8 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Up from Gogoplata?</p>
+
 - Address the foot-behind-head position before attempting to pull head free, as the foot is the structural anchor of the entire control system
 - Use hands to control opponent's hips rather than pulling directly at the choking leg, since hip control eliminates the elevation that maintains submission angle
 - Create breathing space through chin angle adjustment before committing to full escape, buying time for systematic rather than panicked execution
@@ -209,6 +211,8 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Up from Gogoplata?</p>
+
 - Sufficient breathing space to execute systematic escape without immediate need to tap from airway compression
 - At least one hand posted on mat or controlling opponent's hip for base and driving platform
 - Chin positioned to reduce direct trachea compression from the shin, creating enough clarity for technical execution
@@ -221,6 +225,8 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Up from Gogoplata step by step?</p>
 
 1. **Assess Choke Severity**: Evaluate how tight the gogoplata is locked by checking three indicators: the bottom player's hip elevation, the depth of their foot behind your head, and the alignment of their shin across your throat. If fully locked with severely restricted breathing and deep foot position, consider emergency tuck-and-roll escape or tapping for safety. If partially established with some breathing room, proceed with the systematic extraction sequence below.
 2. **Create Breathing Space via Chin Angle**: Turn your chin slightly toward the attacking shin to redirect compression away from the direct center of the trachea onto the more muscular lateral neck tissues. This subtle positional change creates enough breathing space to think clearly and execute the remaining escape steps without triggering the bottom player's immediate tightening response. Avoid large head movements that telegraph your escape intentions.
@@ -251,6 +257,8 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Up from Gogoplata?</p>
+
 - **Bottom player re-elevates hips and pulls foot deeper behind head to re-lock the choke before extraction completes** (Effectiveness: High) - Your Response: Immediately push both hands into their hips to suppress the elevation. Their hip height directly controls shin angle effectiveness. Without elevated hips, the choke loses perpendicular compression regardless of foot depth. → Leads to [[Positions/Gogoplata Control]]
 - **Bottom player transitions to triangle choke as the shin displaces from the throat during posture recovery** (Effectiveness: Medium) - Your Response: Keep elbows tight and posture driving upward as the shin moves. Do not allow the leg to swing over your shoulder into triangle configuration. Control the transitioning leg with your hands immediately when you feel the shin sliding off. → Leads to [[Positions/Mount]]
 - **Bottom player uses your backward posture momentum to sweep, elevating hips and redirecting your weight to achieve mount** (Effectiveness: Medium) - Your Response: Maintain wide base with knees spread during the backward drive. Post one hand on the mat if you feel your balance compromised. Control the tempo of your hip drive rather than committing maximum force that can be redirected. → Leads to [[Positions/Mount]]
@@ -262,6 +270,8 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Up from Gogoplata?</p>
 
 ### 1. Pulling head straight backward against the foot-behind-head lock
 
@@ -301,6 +311,8 @@ Executing the Posture Up from Gogoplata requires systematic dismantling of the b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Up from Gogoplata (Attacker)?</p>
+
 **Phase 1: Understanding Structure** - Gogoplata control mechanics and escape sequence
 Have a partner establish gogoplata control at zero resistance. Study the position's mechanics: where the shin contacts the throat, how the foot behind the head creates the anchor, and how hip elevation maintains the angle. Practice each escape step in isolation with no resistance to build muscle memory for hand placement, chin positioning, and hip drive direction.
 
@@ -321,45 +333,12 @@ Partner applies gogoplata at full competition intensity. Practice escaping under
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first adjustment you should make when caught in a partially established gogoplata to buy time for systematic escape?
-**A**: Turn your chin slightly toward the attacking shin to redirect compression away from the direct center of the trachea onto the more muscular lateral neck tissues. This subtle angle change creates breathing space without significantly alerting the bottom player to your escape intentions, buying critical seconds to begin the systematic extraction sequence.
-
-**Q2**: Why should you control the opponent's hips with your hands rather than grab the choking leg directly?
-**A**: The leg positioned across your throat is structurally stronger than your arms can overcome through direct pulling. Controlling the hips prevents the bottom player from elevating to maintain optimal perpendicular choke angle, addresses the root mechanical cause of the submission pressure, and provides a stable platform for generating posture recovery force through hip extension.
-
-**Q3**: What is the critical sequence for addressing the foot-behind-head configuration before head extraction?
-**A**: Locate the heel of the foot behind your head with one hand while maintaining hip control with the other. Push the heel laterally to create slack in the closed-loop system rather than pulling it directly backward. Only after loosening the foot position should you drive your hips back to create separation, as attempting head extraction with the foot still anchored will only tighten the choke.
-
-**Q4**: Your opponent re-elevates their hips as you begin driving backward - how do you respond?
-**A**: Pause the backward drive immediately and use both hands to push their hips back toward the mat. Their hip elevation is what maintains the perpendicular shin angle across your throat that creates effective compression. Without elevated hips, the shin shifts to a parallel angle with minimal choking effect. Once you suppress the hip elevation, resume your posture recovery drive before they can re-elevate.
-
-**Q5**: What direction of force should power the main posture recovery movement?
-**A**: The force should come from hip extension driving backward and upward through your legs and core, not from pulling with your arms or pushing off with your hands. Think of standing up from a deep squat while moving your hips away from the opponent. This generates sustainable power from the largest muscle groups and avoids exposing your arms to armbar attacks during the escape.
-
-**Q6**: You feel the shin sliding off your throat during posture recovery - what risk must you immediately manage?
-**A**: As the shin displaces, the bottom player will likely attempt to transition to triangle choke by switching to a leg-over-shoulder configuration, or to omoplata if you have turned toward the attacking leg. Keep your elbows tight to your body, maintain forward-facing posture, and immediately control both of the opponent's legs to prevent them from establishing either alternative submission attack.
-
-**Q7**: What physical indicator tells you the escape is succeeding and you should commit to full head extraction?
-**A**: When you can breathe freely through both nostrils and feel the shin pressure shift from your throat to your chin or jaw line, the choke is no longer threatening. This is the moment to accelerate the hip drive and extract your head laterally through the space created, transitioning immediately to upright posture and open guard top control before the bottom player can readjust.
-
-**Q8**: In what scenario should you abandon systematic posture recovery and use an emergency escape instead?
-**A**: When the gogoplata is fully locked with deep foot position, maximally elevated hips, and perpendicular shin alignment restricting breathing to the point where you cannot maintain clear thinking for technical escape execution. In this situation, execute an emergency tuck-and-roll toward turtle position accepting back exposure risk, or tap depending on severity. Attempting systematic escape without adequate breathing leads to unconsciousness.
-
-**Q9**: Your opponent has strong collar grips pulling your head down in addition to the gogoplata - how does this change your escape approach?
-**A**: The collar grips must be stripped before the posture recovery drive can succeed, as they add a secondary pulling force that reinforces the shin pressure. Use two-on-one grip breaks to strip the collar grips first, starting with the grip closest to the choking shin. Once the hands are freed, immediately transition to the hip control and posture recovery sequence before they can re-grip.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Up from Gogoplata?</p>
 
 Practice posture recovery at controlled intensity with clear communication between training partners. The gogoplata applies direct trachea compression that can cause airway injury if explosive movements are used against a fully locked position. Always tap early when the choke is fully secured and breathing is significantly restricted. Partners establishing gogoplata should increase pressure gradually during drilling, never snapping the position on at full force. Ensure both practitioners understand tap signals and release protocols before training this escape at higher resistance levels.
 

@@ -194,6 +194,8 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Modified Scarf to Kesa Gatame?</p>
+
 - Maintain at least two control points throughout the entire transition - never release one anchor before securing the next
 - Thread the arm around the opponent's head before committing to hip rotation to ensure upper body control persists
 - Hip rotation should be smooth and continuous, not jerky or segmented, to prevent the bottom player from inserting frames mid-transition
@@ -209,6 +211,8 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Modified Scarf to Kesa Gatame?</p>
+
 - Stable Modified Scarf Hold with consistent chest-to-chest pressure established
 - Control of opponent's near arm through underhook, armpit trap, or wrist control
 - Head position that allows arm threading around opponent's head without releasing pressure
@@ -222,6 +226,8 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Modified Scarf to Kesa Gatame step by step?</p>
 
 1. **Assess and Confirm Setup**: From established Modified Scarf Hold, confirm your chest pressure is heavy and your opponent is not mid-escape. Feel for their near arm position and ensure you have access to thread your arm around their head. Check that their far knee is not already threatening to insert between your bodies. This assessment should take only a moment but prevents committing to a transition during a vulnerable window.
 2. **Thread Arm Around Head**: While maintaining chest pressure, begin threading your arm (the one closest to their head) around the back of their neck and head. Slide your hand under their neck from the far side, cupping the back of their head or gripping your own thigh on the far side. This must be done while your chest remains heavy on their chest - do not lift to create the arm path. Use the space naturally available between their head and the mat to slide your arm through.
@@ -252,6 +258,8 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Modified Scarf to Kesa Gatame?</p>
+
 - **Bottom player inserts far knee between bodies during hip rotation** (Effectiveness: High) - Your Response: If you feel the knee entering mid-rotation, immediately drive your hips forward and down to flatten their knee. If the knee is already established, abort the kesa gatame transition and return to modified scarf hold or transition to knee on belly on the far side. → Leads to [[Positions/Half Guard]]
 - **Bottom player bridges explosively during the weight transfer phase** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your head wrap and arm trap tight while widening your posted leg for base. If the bridge is powerful enough to create separation, flow with the momentum into north-south rather than fighting back to kesa gatame. The bridge direction will dictate your best transitional option. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 - **Bottom player frames with free arm against your face or shoulder during rotation** (Effectiveness: Medium) - Your Response: Drive your shoulder into the frame to collapse it while continuing the rotation. If the frame is strong, pause the rotation and address the frame first by swimming your arm inside their frame or using your head to pressure their forearm down. Never force the rotation against a solid frame as it creates the space needed for guard recovery. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
@@ -263,6 +271,8 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Modified Scarf to Kesa Gatame?</p>
 
 ### 1. Releasing chest pressure before establishing head wrap
 
@@ -302,6 +312,8 @@ Executing the Modified Scarf to Kesa Gatame transition requires precise coordina
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Modified Scarf to Kesa Gatame (Attacker)?</p>
+
 **Phase 1: Solo Movement Pattern** - Hip rotation mechanics without resistance
 Practice the hip rotation from prone to seated position on a heavy bag or grappling dummy. Focus on smooth, continuous rotation without segmented stops. Thread the arm around the bag's head section while maintaining weight. Perform 20 repetitions per side, emphasizing the weight transfer from chest to seated hips.
 
@@ -322,42 +334,12 @@ Begin in modified scarf hold with full resistance. Attempt the kesa gatame trans
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the minimum control points you must maintain throughout the transition from Modified Scarf Hold to Kesa Gatame?
-**A**: You must maintain at least two control points at all times: the head wrap (arm threaded around their neck) and the near arm trap (their upper arm clamped against your ribs). These two anchors persist through the entire hip rotation and prevent the bottom player from exploiting the transitional movement. Releasing both simultaneously, even briefly, creates the space that allows guard recovery or escape.
-
-**Q2**: Your opponent has strong frames against your shoulder during Modified Scarf Hold - should you force the transition to Kesa Gatame?
-**A**: No, forcing the transition against established frames compounds the space creation problem. First address the frames by swimming your arm inside their frame, using shoulder pressure to collapse the frame, or threatening a submission to force them to abandon the frame defensively. Only initiate the hip rotation once you have broken or bypassed their frames and re-established clean chest pressure with arm control.
-
-**Q3**: What is the most critical moment of vulnerability during this transition, and how do you minimize risk?
-**A**: The most vulnerable moment is during the hip rotation phase when your weight transfers from chest pressure to seated position. During this window, there is a brief reduction in downward pressure that allows the bottom player to insert a knee or bridge. Minimize this by making the rotation smooth and continuous rather than stopping midway, sitting your weight down immediately upon completing the rotation, and maintaining tight head wrap and arm trap throughout as your constant anchors.
-
-**Q4**: You feel your opponent's far knee beginning to insert between your bodies during the hip rotation - what do you do?
-**A**: React immediately before the knee establishes a full shield. Drive your hips forward and down to flatten their knee back while squeezing your thighs together to block the insertion path. If the knee is already too established to push back, abort the kesa gatame transition and either return to modified scarf hold by reversing the rotation, or redirect the movement into knee on belly on the far side, converting the failed transition into a different positional advancement.
-
-**Q5**: Why is the arm-first threading approach preferred over rotating hips first and then securing the head?
-**A**: Threading the arm around the head before hip rotation ensures continuous upper body control throughout the transition. If you rotate hips first, there is a window where you have neither chest pressure (from modified scarf) nor head wrap (from kesa gatame), leaving only the arm trap as a single control point. A single control point is insufficient against a skilled opponent. By threading the arm first while chest pressure is still applied, you create overlapping control that persists through the rotation.
-
-**Q6**: How does this transition change the submission threats available to you compared to staying in Modified Scarf Hold?
-**A**: Modified Scarf Hold provides submissions primarily through direct chest pressure and arm isolation with the arms in front of your body. Kesa Gatame opens different submission pathways: the americana becomes higher percentage because the perpendicular angle provides superior leverage on the trapped arm, the armbar from kesa gatame uses the head wrap as a fulcrum, and the arm crush using your legs becomes available. The trade-off is that kesa gatame sacrifices the chest-pressure-based chokes available from modified scarf hold.
-
-**Q7**: Your opponent is defending Modified Scarf Hold by keeping elbows tight and breathing calmly - when is the ideal moment to initiate this transition?
-**A**: A patient, disciplined defender in modified scarf hold presents the ideal transition opportunity precisely because their defensive commitment to that specific position leaves them unprepared for a geometric change. Initiate the transition during a brief pause between their micro-adjustments, when they have settled into their defensive frames. The transition forces them to completely rebuild their defensive structure for the new kesa gatame geometry, and the brief disorientation of the positional change often creates submission openings.
-
-**Q8**: What is the proper base configuration immediately after completing the transition to Kesa Gatame?
-**A**: Your far leg should be posted wide at approximately 45 degrees with the foot flat on the mat, creating your primary base against bridge-and-roll attempts. Your near leg should be tucked against the opponent's far hip to prevent them from turning into you. Your hips should be seated heavy on the mat beside their torso with weight distributed through your sit bones and lower back. The head wrap pulls their head toward your near hip, and the trapped arm is clamped tight under your armpit. This tripod configuration of far leg, near leg, and seated hips provides stability from all bridge directions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Modified Scarf to Kesa Gatame?</p>
 
 This transition involves significant pressure changes on the bottom player's chest, neck, and head during the position shift. The head wrap must be applied around the back of the neck and head, never across the throat or trachea, as this could restrict the airway dangerously. During training, execute the transition at controlled speed to allow the bottom player to adjust their breathing and neck position. The arm trap must control the upper arm and shoulder, not hyperextend the elbow joint. Be aware that the combined head wrap and arm trap in the completed kesa gatame creates a configuration close to several submission holds, so maintain awareness of your training partner's comfort and tap signals throughout. In competition, the transition speed is appropriate at full pace, but in training, prioritize your partner's safety over transition speed.
 

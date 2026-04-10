@@ -161,7 +161,7 @@ The position's moderate risk level reflects its transitional nature - dominant e
 
 - Transitional Recognition: Understanding this position is temporary and should convert quickly to standard mount or back control
 
-- Weight Distribution: Proper weight through buttocks onto chest prevents bridging escapes despite backward orientation
+- Center of Gravity: Proper weight through buttocks onto chest prevents bridging escapes despite backward orientation
 
 - Balance Through Core: Core engagement maintains balance while facing away from opponent's center of mass
 

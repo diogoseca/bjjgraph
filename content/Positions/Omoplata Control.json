@@ -120,7 +120,7 @@
             "probability": 60
           },
           {
-            "technique": "Armbar from Guard",
+            "technique": "Armbar on Free Arm",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -262,7 +262,7 @@
     ],
     "transitions": [
       {
-        "transition": "Omoplata",
+        "transition": "Omoplata from Omoplata Control",
         "attempt_probability": 19
       },
       {
@@ -278,7 +278,7 @@
         "attempt_probability": 14
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Armbar on Free Arm",
         "attempt_probability": 17
       },
       {
@@ -392,7 +392,7 @@
             "probability": 60
           },
           {
-            "technique": "Closed Guard to Omoplata",
+            "technique": "Armbar Setup",
             "target": "Armbar Control",
             "probability": 50
           }
@@ -503,7 +503,7 @@
     ],
     "transitions": [
       {
-        "transition": "Omoplata",
+        "transition": "Omoplata from Omoplata Control",
         "attempt_probability": 13
       },
       {
@@ -523,7 +523,7 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Rolling Omoplata",
+        "transition": "Rolling Omoplata from Omoplata Control",
         "attempt_probability": 11
       },
       {

@@ -10,7 +10,7 @@
     "offensive",
     "guard"
   ],
-  "from_position": "Half Guard/Bottom",
+  "from_position": "Butterfly Hook Control/Bottom",
   "outcomes": [
     {
       "to": "Mount/Top",
@@ -60,8 +60,8 @@
       "relationship": "Chain technique - option when opponent defends by withdrawing hips"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Counter technique - submission attack on posted arm instead of pistol break"
+      "name": "Kimura Sweep",
+      "relationship": "Chain technique - kimura grip attack on posted arm as alternative when pistol break fails"
     },
     {
       "name": "Lockdown",
@@ -386,7 +386,7 @@
         "description": "Partner slowly works through the John Wayne Sweep setup phases while you practice recognizing each stage. Focus exclusively on stripping the two-on-one grip using elbow circles and wrist extraction. No passing or countering yet - just recognition and grip prevention at various stages of the setup."
       },
       {
-        "phase": "Phase 2: Base Maintenance Under Sweep Pressure",
+        "phase": "Phase 2: Base Under Sweep Pressure",
         "focus": "Maintaining posting structure during active sweep attempts",
         "description": "Partner establishes the full John Wayne Sweep setup including two-on-one grip and angle. Practice maintaining base through strong posting, hip positioning, and weight distribution as partner attempts the full sweep with increasing intensity. Focus on staying balanced through the rotation attempt rather than stripping grips."
       },

@@ -293,18 +293,18 @@
     "transitions": [
       {
         "transition": "Mount to Armbar",
-        "attempt_probability": 34
+        "attempt_probability": 35
       },
       {
         "transition": "Triangle from Mount",
         "attempt_probability": 15
       },
       {
-        "transition": "Americana",
+        "transition": "Americana from S Mount",
         "attempt_probability": 7
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from S Mount",
         "attempt_probability": 7
       },
       {
@@ -321,14 +321,10 @@
       },
       {
         "transition": "S Mount Armbar Setup",
-        "attempt_probability": 3
+        "attempt_probability": 4
       },
       {
         "transition": "S Mount to Mounted Triangle",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Armbar from S Mount",
         "attempt_probability": 2
       }
     ],

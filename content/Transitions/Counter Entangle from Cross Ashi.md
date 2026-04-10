@@ -210,7 +210,7 @@ Counter Entangle from Cross Ashi occupies a critical niche in the modern leg loc
 
 - [[Positions/Leg Entanglement]] - Fundamental concept - the entanglement mechanics that govern this transition
 
-- [[Transitions/Outside Heel Hook from Cross Ashi]] - Primary submission threat motivating the escape from Cross Ashi-Garami bottom
+- [[Outside Heel Hook from Cross Ashi-Garami]] - Primary submission threat motivating the escape from Cross Ashi-Garami bottom
 
 - [[Transitions/Backside 50-50 Entry from Ashi]] - Related transition - similar leg threading mechanics from a different starting entanglement
 

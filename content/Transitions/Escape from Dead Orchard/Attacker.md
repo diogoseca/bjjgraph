@@ -194,6 +194,8 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape from Dead Orchard?</p>
+
 - Commit fully to the explosive escape movement once initiated - half-measures allow the opponent to counter and tighten the position simultaneously
 - Use prior frame-and-shrimp work to loosen the grip before deploying this escape, treating it as phase two of the escape sequence rather than an opening move
 - Direct the rolling or multi-shrimp movement away from the trapped arm side to maximize angle disruption against the anaconda compression
@@ -208,6 +210,8 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape from Dead Orchard?</p>
+
 - Prior frame establishment at the choking arm elbow that has partially compromised the grip's compression angle
 - Some hip angle already created through initial shrimp attempts, providing a starting position for the explosive movement
 - Free arm positioned to control the opponent's choking arm during the rolling or explosive escape phase
@@ -220,6 +224,8 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape from Dead Orchard step by step?</p>
 
 1. **Assess readiness for aggressive escape**: After initial frame-and-shrimp work has partially loosened the dead orchard grip, assess whether conditions are right for the aggressive escape. Check that your frame at the choking arm elbow is solid, some hip angle exists, and the opponent's grip depth has been reduced from maximum. If the grip is still fully locked with no angular separation, return to incremental escape work before attempting this variation.
 2. **Load weight onto shoulders for rolling escape**: Shift weight onto your upper back and shoulders while maintaining the elbow frame. Draw your knees toward your chest to load your hips for the explosive movement. This preparation phase should take less than one second to avoid telegraphing the escape. Your free hand maintains frame contact with the choking arm to prevent re-tightening during the load phase.
@@ -250,6 +256,8 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape from Dead Orchard?</p>
+
 - **Opponent sprawls heavily and drives weight forward as they feel the explosive escape begin** (Effectiveness: High) - Your Response: If the granby roll is stuffed, immediately switch to multi-shrimp chain in the opposite direction. If already committed to the roll, use their forward pressure to accelerate the rotation rather than fighting against it. → Leads to [[Positions/Dead Orchard Control]]
 - **Opponent releases the dead orchard grip and immediately transitions to side control pressure pass** (Effectiveness: Medium) - Your Response: Recognize the grip release and immediately pivot from escape mode to guard retention mode. Get legs between bodies before they can establish crossface and hip control. Even partial guard recovery is better than conceding side control passively. → Leads to [[Positions/Side Control]]
 - **Opponent follows the rolling movement and re-establishes anaconda grip from the new angle** (Effectiveness: High) - Your Response: If the opponent follows your roll, the new angle should provide better hip escape opportunity than the original position. Immediately chain into the incremental frame-and-shrimp escape from the new angle rather than attempting another roll. → Leads to [[Positions/Dead Orchard Control]]
@@ -261,6 +269,8 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape from Dead Orchard?</p>
 
 ### 1. Attempting the aggressive escape as the first response without prior frame-and-shrimp work
 
@@ -300,6 +310,8 @@ As the bottom player executing the Escape from Dead Orchard to Open Guard, your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape from Dead Orchard (Attacker)?</p>
+
 **Phase 1: Rolling Mechanics** - Granby roll and inversion from compressed positions
 Practice granby rolls from turtle position without opponent resistance to build the movement pattern. Focus on smooth rotation, weight loading onto shoulders, and hip clearance. Progress to granby rolls with a partner applying light dead orchard pressure at 30% to build comfort with rolling under compression. Twenty repetitions per side per session.
 
@@ -320,42 +332,12 @@ Full resistance positional sparring starting from dead orchard control bottom. U
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When should you deploy the aggressive escape to open guard rather than continuing the incremental frame-and-shrimp approach?
-**A**: Deploy the aggressive escape when the incremental approach has created some angular separation and loosened the grip but stalled after two to three attempts, and the opponent is beginning to re-settle their weight. The prior work has compromised the grip enough for the explosive movement to succeed, but further incremental attempts face diminishing returns. Also deploy when you feel the opponent's weight shift or elevate momentarily, creating a window for the larger movement. Never deploy as the first escape attempt against a fully locked grip.
-
-**Q2**: What is the critical difference in rolling direction between the granby roll escape and the anaconda finishing rotation?
-**A**: The anaconda finish involves the top player rolling you toward your trapped arm side, which tightens the circular compression. The granby escape rolls you away from the trapped arm side, which opens the compression angle and disrupts the grip mechanics. Rolling in the wrong direction feeds your neck into the choke and can cause immediate submission. The correct direction always moves your body so that your neck separates from the choking arm rather than compressing further into it.
-
-**Q3**: Your granby roll is partially stuffed and you end up on your side with the grip still partially engaged - what is your immediate response?
-**A**: Do not attempt a second granby roll from this compromised position. Instead, immediately switch to the multi-shrimp chain taking advantage of the new angle the partial roll created. The partial roll has changed the compression angle even if it did not break the grip, and this new angle often provides better hip escape mechanics than the original flat position. Use whatever angular gain the partial roll achieved to fuel the shrimp chain, and focus on establishing leg frames from the side-lying position.
-
-**Q4**: What must happen within two seconds of the dead orchard grip breaking during the aggressive escape?
-**A**: Both feet must contact the opponent's hips or establish shin frames across their thighs to create the structural barrier that defines open guard. The opponent will immediately attempt to close distance and pass, so the window for establishing defensive leg structure is extremely brief. Training should focus on making the escape-to-leg-frame transition automatic and continuous rather than treating them as separate actions. Without immediate leg frames, the escaped distance collapses and the opponent achieves side control.
-
-**Q5**: How does the opponent's weight distribution determine which aggressive escape variant you should use?
-**A**: Elevated hips favor the granby roll because the space under your shoulders allows loading weight for the inversion and the opponent's high center of gravity makes it harder for them to stuff the roll. Settled heavy weight favors the multi-shrimp chain because there is insufficient space for the granby loading phase, but the shrimp chain can generate distance even under heavy pressure through cumulative small movements. If the opponent's weight is transitioning between states, that transition moment is the optimal window for either variant.
-
-**Q6**: Your opponent releases the dead orchard grip during your escape and starts driving toward side control - how do you adjust your objective?
-**A**: Immediately pivot from escape-focused movement to guard retention. The dead orchard grip releasing is actually a partial success, so your priority shifts from breaking a choke to preventing a pass. Get your legs between bodies before the opponent establishes crossface and hip control. Even getting to half guard represents a significant positional improvement from dead orchard. Do not continue the rolling or shrimping movement beyond what is needed to establish guard frames, as excessive movement without the opponent's grip provides nothing and may create passing angles.
-
-**Q7**: Why is the multi-shrimp chain performed without pausing between individual shrimps?
-**A**: Pausing between shrimps allows the opponent to follow each individual movement, re-settle their weight, and re-establish the compression angle. The chain works because the continuous movement overwhelms the opponent's ability to adjust, creating cumulative distance that exceeds what any single shrimp could achieve. Each pause gives the opponent a micro-window to tighten the grip, nullifying the previous shrimp's gains. The three to four rapid shrimps should feel like one continuous flowing movement rather than discrete individual escapes separated by assessment pauses.
-
-**Q8**: What specific upper body grip should you prioritize after establishing leg frames in open guard recovery?
-**A**: Prioritize controlling the arm that was performing the anaconda choke. In gi, grip their sleeve at the wrist of the choking arm. In no-gi, control the wrist or bicep of that arm. This grip serves dual purpose: it prevents the opponent from re-establishing any front headlock or anaconda configuration, and it creates an asymmetric control that you can use for sweeps and guard attacks. Controlling the formerly choking arm is psychologically effective as well, removing their primary offensive tool and forcing them to develop a new attacking strategy from open guard top.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape from Dead Orchard?</p>
 
 The aggressive escape from Dead Orchard involves explosive movements while your neck is under compression, creating risk of cervical strain if performed without proper technique. Always maintain chin-to-chest contact during rolling movements to protect the cervical spine. In training, tap immediately if you feel the choke tighten during a failed escape attempt rather than forcing through a locked submission. Partners should release pressure immediately during escape drilling and communicate clearly about resistance levels. Start all aggressive escape practice at low resistance and increase gradually as mechanics become automatic.
 

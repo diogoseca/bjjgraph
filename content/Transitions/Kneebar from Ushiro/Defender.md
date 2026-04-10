@@ -166,6 +166,8 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kneebar from Ushiro?</p>
+
 - Attacker releases heel hook grip configuration and transitions both hands to your ankle or lower shin area
 - Attacker's hips begin rotating from the standard ushiro position toward perpendicular alignment with your thigh
 - You feel your ankle being pulled tight against the attacker's chest while their legs shift around your knee line
@@ -178,6 +180,8 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar from Ushiro?</p>
 
 - Bend your knee immediately when you feel the attacker begin their hip pivot - a bent leg cannot be hyperextended
 - Rotate your hips toward the attacker to prevent them from achieving perpendicular alignment to your thigh
@@ -192,6 +196,8 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar from Ushiro?</p>
 
 ### 1. Bend the trapped knee forcefully and turn it inward toward the attacker
 
@@ -229,6 +235,8 @@ The fundamental defensive dilemma is that protecting your heel from heel hook ex
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar from Ushiro?</p>
+
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Bend knee and rotate it inward before attacker completes the hip pivot. Use your free leg to push their hips away and deny perpendicular alignment. Fight the ankle grip by stripping their hands with two-on-one control. This returns you to the standard ushiro engagement where you still face leg lock threats but the immediate kneebar danger is neutralized.
@@ -244,6 +252,8 @@ Drive hips forward while simultaneously grip fighting the attacker's ankle contr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar from Ushiro?</p>
 
 ### 1. Keeping the leg straight while only fighting the ankle grip
 
@@ -273,6 +283,8 @@ Drive hips forward while simultaneously grip fighting the attacker's ankle contr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar from Ushiro?</p>
+
 **Week 1-2** - Recognition and knee bend reflex
 Partner slowly transitions from heel hook position to kneebar from ushiro. Practice identifying the grip change and hip pivot cues, then immediately bending the knee. No resistance from partner on the defense. Build the automatic response of knee bend when you feel the transition beginning.
 
@@ -289,29 +301,6 @@ Specific sparring from ushiro ashi-garami where the attacker freely chooses betw
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar?
-**A**: The earliest cue is feeling the attacker's hands release from heel hook grip configuration and transition to your ankle or lower shin with both hands. This grip change precedes the hip pivot and signals the kneebar transition before the attacker has committed their hips. Reacting at this moment gives you maximum defensive window.
-
-**Q2**: Why is bending the knee more important than fighting the ankle grip as a first response?
-**A**: A bent knee physically cannot be hyperextended regardless of how strong the attacker's grip is. The kneebar requires a straight leg to function mechanically. Fighting the grip while keeping the leg straight leaves you vulnerable - even a loose grip on a straight leg can generate finishing pressure. Bending the knee first neutralizes the threat entirely, then you can address the grip from safety.
-
-**Q3**: Your opponent has your ankle locked tight and is bridging - what is your emergency response?
-**A**: When the attacker has a locked grip and is bridging, rotate your knee inward as hard as possible to convert hyperextension into rotational force the joint can withstand. Simultaneously push their top hip with your free leg to reduce bridging leverage. If pressure becomes dangerous, tap immediately rather than risking ligament damage. There is no shame in tapping to a well-executed kneebar.
-
-**Q4**: How does defending the kneebar create vulnerability to the heel hook and vice versa?
-**A**: Straightening your leg and flexing your foot protects the heel but creates kneebar opportunity. Bending your knee prevents the kneebar but relaxes foot tension and potentially exposes the heel. Skilled defense requires maintaining a slight knee bend with active foot flexion - enough bend to deny hyperextension while keeping the foot tight enough to protect the heel. This middle-ground positioning denies both attacks simultaneously.
-
-**Q5**: When should you consider tapping rather than continuing to defend the kneebar from ushiro?
-**A**: Tap when the attacker has achieved full perpendicular alignment with knees pinched and is bridging with your ankle locked tight against their chest, especially if your knee is pointing toward the ceiling and you cannot rotate it inward. Also tap immediately if you feel any sharp pain, popping sensation, or significant pressure on the knee joint. Kneebars can cause serious ligament damage and the risk of injury is never worth prolonged resistance against a fully established position.
-
-
-
-</section>
 
 
 </main>

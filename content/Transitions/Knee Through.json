@@ -10,7 +10,7 @@
     "top position",
     "side control entry"
   ],
-  "from_position": "Half Guard/Top",
+  "from_position": "Shin-to-Shin Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -60,8 +60,8 @@
       "relationship": "Alternative consolidation position after pass clears the legs"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Common submission follow-up after establishing side control"
+      "name": "Kimura",
+      "relationship": "Common submission follow-up after establishing side control from the pass"
     },
     {
       "name": "Darce Choke",

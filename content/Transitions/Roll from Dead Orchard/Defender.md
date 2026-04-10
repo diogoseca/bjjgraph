@@ -154,6 +154,8 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll from Dead Orchard?</p>
+
 - Bottom player's free hand shifts from general defensive framing to a specific wedge position at the elbow crook of the choking arm
 - Subtle hip shift toward the choking arm side as the bottom player loads the rotation direction
 - Free hand moves to post palm-down on the mat in the anticipated roll direction, away from defensive neck framing
@@ -166,6 +168,8 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll from Dead Orchard?</p>
 
 - Maintain heavy shoulder pressure driving downward into the trapped shoulder to deny the rotational space needed for the roll
 - Keep hips low and connected to the opponent's body to prevent the hip loading that precedes the roll initiation
@@ -180,6 +184,8 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll from Dead Orchard?</p>
 
 ### 1. Sprawl hips back and increase downward shoulder pressure to block the rotation
 
@@ -217,6 +223,8 @@ The Roll from Dead Orchard Defender is the top player maintaining dead orchard c
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll from Dead Orchard?</p>
+
 ### → [[Positions/Dead Orchard Control]]
 
 Prevent the roll entirely by sprawling hips back and increasing downward shoulder pressure when you detect the setup cues. Keep hips low and heavy to deny the hip loading needed for the rotation. Use controlled pressure rather than explosive forward drives that create the timing window the escape exploits.
@@ -232,6 +240,8 @@ If the roll initiates, follow it with chest-to-back contact rather than fighting
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll from Dead Orchard?</p>
 
 ### 1. Over-committing forward pressure in an attempt to finish the choke quickly
 
@@ -261,6 +271,8 @@ If the roll initiates, follow it with chest-to-back contact rather than fighting
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll from Dead Orchard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying roll setup cues
 Partner telegraphs the roll setup from dead orchard bottom with clear hip loading and hand posting movements. Defender calls out the recognition cue verbally each time without physically responding. Build pattern recognition speed until identification is automatic and occurs within one second of the initial setup movement.
 
@@ -277,26 +289,6 @@ Start in established dead orchard control with full resistance. Top player works
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What subtle body movements from the bottom player indicate they are setting up a roll escape?
-**A**: The key recognition cues are a hip shift toward the choking arm side as they load the rotation direction, the free hand transitioning from defensive neck framing to posting palm-down on the mat in the roll direction, and the near knee sliding slightly forward to establish the rotational axis. These setup movements typically occur 1-2 seconds before the explosive roll commitment, giving the alert defender time to adjust weight distribution and sprawl to deny the escape.
-
-**Q2**: When the roll has already been initiated, should you fight to maintain the anaconda grip or transition to back control?
-**A**: Once the roll is past the tipping point, transition to back control rather than fighting for the anaconda grip. The roll disrupts the circular compression angle that makes the choke viable, and continuing to grip fight wastes the opportunity to secure back control while the bottom player's back is maximally exposed during the rotation. Release the anaconda proactively, establish seatbelt or harness control, and focus on inserting hooks as they land in turtle. Back control with hooks is a superior position to a compromised dead orchard.
-
-**Q3**: How should you adjust your pressure pattern to deny the roll escape without creating other escape opportunities?
-**A**: Use controlled, incremental pressure increases rather than explosive forward drives. The roll escape exploits the specific timing window created by maximum forward weight commitment. Maintain balanced weight distribution with shoulder pressure driving downward at a 45-degree angle rather than horizontally forward. Keep hips low and connected to the opponent's body to deny hip loading. This balanced approach prevents the roll while also denying hip escape and arm extraction opportunities that might open if you sprawl too aggressively in one direction.
-
-**Q4**: Your opponent's roll stalls halfway through and they are caught in a compromised position - what is your optimal response?
-**A**: When the roll stalls, you have a brief window where the opponent is in their most vulnerable position, neither in dead orchard nor in turtle. Immediately drive your weight forward and down to flatten them while walking your hips around to re-establish the dead orchard angle. Alternatively, if their back is exposed during the stall, transition to back control grips since the mid-roll position often provides easier hook insertion than either the starting or ending positions. The key is acting decisively during the stall rather than waiting to see what they do next.
-
-
-
-</section>
 
 
 </main>

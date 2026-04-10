@@ -154,6 +154,8 @@ As the defender in combat base facing sweep attempts, your primary objective is 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Combat Base?</p>
+
 - Guard player inserts a butterfly hook under your posted-knee thigh, with their instep making contact against your inner thigh and their knee angling outward for lifting leverage
 - Guard player performs a small hip escape to create an angle relative to your centerline, positioning their hips off to one side rather than directly underneath you
 - Guard player pulls your upper body forward and laterally with collar or sleeve grips, attempting to shift your weight from centered distribution onto the posted knee and their hook
@@ -166,6 +168,8 @@ As the defender in combat base facing sweep attempts, your primary objective is 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Combat Base?</p>
 
 - Fight grips aggressively to prevent the guard player from establishing the upper body control needed to load your weight onto their hook
 - Keep weight distributed slightly back when sweep threats are present, denying the forward weight commitment the guard player needs for hook elevation
@@ -181,6 +185,8 @@ As the defender in combat base facing sweep attempts, your primary objective is 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Combat Base?</p>
 
 ### 1. Post far hand on the mat and widen base to block the sweep direction
 
@@ -218,6 +224,8 @@ As the defender in combat base facing sweep attempts, your primary objective is 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Combat Base?</p>
+
 ### → [[Positions/Combat Base]]
 
 Neutralize the sweep attempt early by fighting grips aggressively, preventing hook engagement, or posting immediately when you feel weight being loaded. Maintain your combat base integrity and resume passing from the same position with the guard player having expended energy on a failed sweep attempt.
@@ -233,6 +241,8 @@ Convert the guard player's sweep commitment into a passing opportunity by drivin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Combat Base?</p>
 
 ### 1. Sitting passively in combat base without fighting grips, allowing the guard player unlimited time to establish optimal sweep setup
 
@@ -262,10 +272,12 @@ Convert the guard player's sweep commitment into a passing opportunity by drivin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Combat Base?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues and hook insertion timing from combat base
 Partner works through the sweep setup sequence at slow speed while you observe and call out each stage: grip establishment, hook insertion, angle creation, weight loading, and elevation. Practice identifying the transition points between stages. No active defense yet, pure recognition training to build awareness of the sweep sequence timing.
 
-**Phase 2: Grip Fighting Defense** - Preventing sweep setup through proactive grip fighting from combat base
+**Phase 2: Grips Defense** - Preventing sweep setup through proactive grip fighting from combat base
 Partner attempts to establish sweep grips while you practice grip breaks, sleeve control, and leg control from combat base. Focus on denying the collar and sleeve grips needed for the sweep without abandoning your combat base structure. Work 2-minute rounds where success is measured by how long you deny productive grips.
 
 **Phase 3: Base Recovery and Posting** - Maintaining base when sweep is initiated through posting and base widening
@@ -278,26 +290,6 @@ After defending each sweep attempt, immediately transition to a passing techniqu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you should begin defending the sweep from combat base?
-**A**: Defense begins at the grip fighting stage, before the guard player establishes the collar and sleeve control needed to load your weight onto their hook. By fighting grips aggressively and preventing the guard player from consolidating upper body control, you deny them the ability to initiate the sweep sequence at all. Waiting until you feel the hook elevation starting means the sweep is already past the most effective defensive intervention point.
-
-**Q2**: Why is sitting back with weight on your heels an incomplete defensive strategy against combat base sweeps?
-**A**: While sitting back removes the forward weight that the hook sweep requires, it creates three new problems: it gives the guard player space to establish their preferred open guard, it eliminates your forward passing pressure that keeps them defensive, and it exposes your planted foot to ankle pick attacks that work specifically when weight is loaded backward. Complete defense requires dynamic weight management that adjusts to the specific sweep variant being attempted, not a static weight-back posture.
-
-**Q3**: How can you convert a defended sweep attempt into a guard passing opportunity?
-**A**: When the guard player commits to a sweep attempt, their grips and hips are oriented toward the sweep direction, leaving the opposite side exposed. After successfully posting or disengaging the hook, immediately attack the exposed side with a knee slice, toreando, or smash pass before the guard player can reorient their guard structure. Their committed hip angle from the sweep attempt actually creates a favorable passing lane if you act quickly enough during the transition between their failed sweep and guard re-establishment.
-
-**Q4**: Your opponent has a deep butterfly hook under your posted knee and is pulling your collar forward - what is your priority sequence?
-**A**: First, post your far hand wide to prevent the immediate sweep from succeeding. Second, strip the collar grip with your near hand using a circular wrist motion to remove the pulling force loading your weight. Third, address the hook by stepping your posted knee back or driving it forward to dislodge the instep from your thigh. Finally, re-establish combat base with proper distance and hand positioning before resuming your passing game. The order matters because posting stops the immediate threat, grip stripping removes the sustained loading force, and hook removal prevents the guard player from immediately re-attempting.
-
-
-
-</section>
 
 
 </main>

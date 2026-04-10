@@ -154,6 +154,8 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep Pass from Reverse X-Guard?</p>
+
 - Opponent establishes strong upper body grip (collar, sleeve, or wrist) while maintaining upright posture—this grip precedes the backstep
 - Weight shifts noticeably to one leg as the opponent loads their posting foot, reducing pressure through the trapped leg
 - Opponent's hips begin rotating away from your hooks, creating a twisting sensation in your hook connection
@@ -166,6 +168,8 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep Pass from Reverse X-Guard?</p>
 
 - Maintain active hook pressure throughout the opponent's backstep attempt, never allowing hooks to become passive or disconnected
 - Follow the passer's rotation with your hips rather than remaining static—hip rotation in the same direction as the backstep maintains connection
@@ -180,6 +184,8 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep Pass from Reverse X-Guard?</p>
 
 ### 1. Follow the backstep with inversion to take the back
 
@@ -217,6 +223,8 @@ Defending the Backstep Pass from Reverse X-Guard requires early recognition of t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep Pass from Reverse X-Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the backstep rotation with an inversion, maintaining hook connection as long as possible, then transition hooks from guard control to back hooks as the passer's back turns toward you. Secure seatbelt control immediately upon establishing back position.
@@ -232,6 +240,8 @@ Increase hook pressure and resist the rotation early by bending knees and pullin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep Pass from Reverse X-Guard?</p>
 
 ### 1. Remaining static with passive hooks as the opponent initiates the backstep rotation
 
@@ -261,6 +271,8 @@ Increase hook pressure and resist the rotation early by bending knees and pullin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep Pass from Reverse X-Guard?</p>
+
 **Recognition Training** - Identifying backstep initiation cues
 Partner alternates between establishing grips for backstep and grips for other passes from Reverse X-Guard Top. Practice identifying which setup leads to a backstep based on weight shift and grip patterns. Call out the recognition before the partner moves.
 
@@ -277,26 +289,6 @@ Start from Reverse X-Guard with full resistance. Defend backstep attempts while 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a backstep pass?
-**A**: The earliest cue is the opponent establishing a strong upper body grip (collar, sleeve, or wrist) combined with a noticeable weight shift to their free leg. This grip-and-shift combination precedes the rotation by one to two seconds. The grip anchors their upper body control, and the weight shift loads the posting leg as the rotation axis. Recognizing this setup phase gives you maximum time to prepare your defensive or counter-offensive response.
-
-**Q2**: Why is following the backstep with inversion more effective than simply resisting with hook pressure?
-**A**: The backstep rotation generates significant angular force that progressively degrades hook control. Fighting this force with static hook pressure expends energy against a mechanical disadvantage. Inversion converts the opponent's rotational energy into your own offensive transition—their turning back becomes your pathway to back control. The backstep inherently creates back exposure, making inversion a higher-percentage response than static resistance against committed rotations.
-
-**Q3**: When should you abandon hook retention and commit to a back-taking inversion?
-**A**: Commit to inversion when the opponent's rotation has passed the midpoint and your hook connection is degrading despite active resistance. At this point, hook retention becomes increasingly unlikely while the back exposure window is at its maximum. The critical decision point is when your primary hook behind the knee loses its bite—this signals that the extraction is imminent and you should redirect your energy from guard retention to back-taking before the window closes.
-
-**Q4**: What role does your sleeve grip play in defending the backstep pass?
-**A**: The sleeve or wrist grip serves as your primary tether to the opponent during the backstep rotation. It prevents the passer from completing a clean rotation by anchoring your connection to their upper body. This grip enables you to follow their movement, create off-balancing pulls during weight transfer, and maintain the connection needed for inversion to back control. Without this grip, the passer rotates freely and you cannot follow effectively.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing North-South Recovery from Jailbreak?</p>
+
 - Maintain continuous chest-to-chest pressure throughout the entire circular transition to eliminate escape windows
 - Walk circularly around the opponent's head rather than fighting through leg barriers that are configured for forward defense
 - Establish dominant crossface or head control before initiating the walk-around to prevent the bottom player from following
@@ -202,6 +204,8 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting North-South Recovery from Jailbreak?</p>
+
 - Established Jailbreak top position with chest-to-chest upper body connection maintained
 - Dominant crossface or collar tie control pinning the bottom player's head to the mat
 - Bottom player's legs extended in defensive jailbreak configuration blocking direct forward passing
@@ -214,6 +218,8 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute North-South Recovery from Jailbreak step by step?</p>
 
 1. **Secure upper body control**: Establish dominant crossface or collar tie with your near arm, driving your shoulder across the bottom player's jaw to pin their head to the mat and prevent them from following your circular movement during the transition.
 2. **Shift weight forward over chest**: Transfer your body weight from your hips forward onto your chest, driving heavy pressure across the bottom player's upper body. This forward weight shift loads your torso onto their shoulders and begins reducing the relevance of their extended leg barriers.
@@ -243,6 +249,8 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter North-South Recovery from Jailbreak?</p>
+
 - **Bottom player retracts extended legs and inserts knee shield during the transition** (Effectiveness: High) - Your Response: Accelerate the walk-around before the knee shield is fully established, or redirect to a knee slice pass since their leg retraction opens forward passing lanes that were previously blocked. → Leads to [[Positions/Half Guard]]
 - **Bottom player hip escapes to follow your circular movement and maintain frontal alignment** (Effectiveness: Medium) - Your Response: Increase crossface pressure to restrict their hip mobility and drive your weight down harder to pin their shoulders, preventing their hips from following your movement direction. → Leads to [[Positions/Jailbreak]]
 - **Bottom player creates structural forearm frames against your chest during the walk-around phase** (Effectiveness: Medium) - Your Response: Collapse frames by angling your shoulders to slip past their forearms, or isolate the extended arms for submission setups since frames create arm exposure. → Leads to [[Positions/Half Guard]]
@@ -253,6 +261,8 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing North-South Recovery from Jailbreak?</p>
 
 ### 1. Lifting chest pressure during the circular walk to speed up the transition
 
@@ -292,6 +302,8 @@ Executing the North-South Recovery from Jailbreak requires the top player to rec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train North-South Recovery from Jailbreak (Attacker)?</p>
+
 **Isolated Mechanics** - Circular walking footwork with pressure maintenance
 Partner lies flat with no resistance. Practice the circular walk-around from Jailbreak to North-South focusing on maintaining constant chest pressure. Use a tennis ball between your chest and partner's to ensure continuous contact. 10 repetitions each side, emphasizing small steps and weight distribution.
 
@@ -312,42 +324,12 @@ Begin from Jailbreak top position with full resistance. Top player attempts Nort
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What determines the optimal timing to initiate the North-South Recovery from Jailbreak?
-**A**: The optimal timing is when the bottom player has committed to extended leg defense and their upper body is relatively flat and controlled. If they are actively moving their hips or have strong upper body frames, the transition will likely fail. Wait for them to invest energy in their leg barriers, then exploit the fact that their attention and defensive structure are directed toward their legs rather than their upper body. Their commitment to leg defense creates the window for your circular movement.
-
-**Q2**: What is the most critical mechanical requirement during the circular walk from Jailbreak to North-South?
-**A**: The most critical requirement is maintaining continuous chest-to-chest pressure throughout the entire transition arc. Any gap in pressure creates an opportunity for the bottom player to retract their legs, create frames, or hip escape to recover guard. Your chest must remain heavy on their upper body as your feet walk around. Think of your chest as a fixed pivot point that stays pinned to their torso while your lower body rotates around it in small controlled increments.
-
-**Q3**: During the transition, the bottom player hip escapes to follow your movement - how do you respond?
-**A**: When the bottom player hip escapes to follow your circular movement, increase your crossface pressure to pin their head and restrict their ability to rotate. Drive your weight down harder on their shoulders to limit hip mobility. If they create significant angle, consider aborting the North-South recovery and instead capitalizing on their movement to complete a standard pass to side control, as their hip escape may have actually opened a passing lane in the opposite direction.
-
-**Q4**: What grip or control must be established before initiating the circular walk?
-**A**: A dominant crossface or collar tie must be established before initiating the walk-around. This control pins the bottom player's head to the mat and prevents them from turning to follow your movement. Without head control, the bottom player simply rotates their body in sync with your transition, negating the angle change entirely. The crossface arm drives across their jawline with shoulder pressure, creating a structural pin that requires minimal energy to maintain throughout the transition.
-
-**Q5**: Your first attempt stalls because the bottom player retracts their legs - what is your response?
-**A**: Recognize the leg retraction as a passing opportunity rather than a failure. Their retraction opens pathways for knee slice, smash pass, or leg weave passes that were previously blocked by extended leg barriers. Switch immediately to one of these direct passing options since the bottom player has voluntarily removed their primary defensive structure. The threat of the North-South Recovery forces them to choose between defending their legs and defending the pass, creating a strategic dilemma.
-
-**Q6**: How does the direction of force application change during this transition compared to standard pressure passing?
-**A**: During standard pressure passing from Jailbreak, force is applied forward through the bottom player's center line to drive past leg barriers. During the North-South Recovery, the force vector rotates from forward to downward as you transition from parallel to perpendicular alignment. The chest pressure shifts from driving into their chest horizontally to compressing their rib cage vertically. The bottom player's leg frames were configured to resist forward pressure and become irrelevant against the perpendicular downward force.
-
-**Q7**: Your opponent creates strong forearm frames during the walk-around - should you power through them or adjust?
-**A**: Never try to power through established frames as this wastes energy and stalls your momentum. Instead, angle your shoulders to slip past their forearms by shifting the direction of your pressure slightly. Alternatively, recognize that their extended arms create exposure for kimura or americana attacks. You can also abandon the North-South Recovery and use their committed framing posture against them by transitioning to mount since their arms are occupied with frames rather than available for blocking the leg step-over.
-
-**Q8**: After establishing North-South, what are your immediate consolidation priorities?
-**A**: The immediate priorities are arm control and base establishment, in that order. First, secure at least one of the bottom player's arms through underhook, overhook, or wrist control to prevent defensive frame creation. Second, widen your base and lower your hips to create stability against bridge and roll escapes. Third, distribute your chest weight to compress their rib cage for maximum pressure. Only after these three elements are established should you begin considering submission setups or further transitions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for North-South Recovery from Jailbreak?</p>
 
 This transition involves significant upper body pressure across the opponent's chest and rib cage throughout the movement. Maintain awareness of your training partner's breathing during drilling and release pressure immediately if they tap or signal distress. The circular walking motion requires controlled footwork to avoid accidentally striking your partner with knees during the walk-around. During initial learning phases, practice at reduced speed and pressure to allow both partners to develop the movement patterns safely before adding intensity. Communicate clearly when drilling to ensure the bottom player is prepared for the pressure transitions.
 

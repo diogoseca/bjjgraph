@@ -162,6 +162,8 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Sleeve to Spider Guard?</p>
+
 - Increased pulling tension on both sleeves as the bottom player loads up grip force to maintain control during the foot transition
 - Bottom player's hips elevate higher off the mat and angle slightly as they prepare to reposition feet from hips to biceps
 - One foot begins sliding upward from your hip toward your arm area or lifts off the hip entirely
@@ -174,6 +176,8 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Sleeve to Spider Guard?</p>
 
 - Recognize early signs of the transition and act before feet reach the biceps, as spider guard is exponentially harder to dismantle than double sleeve guard
 - Keep arms retracted with elbows tight to your ribs to deny bicep hook placement and minimize the exposed arm surface available for foot contact
@@ -188,6 +192,8 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Sleeve to Spider Guard?</p>
 
 ### 1. Strip sleeve grip using wrist rotation or two-on-one break during the foot transition window
 
@@ -225,6 +231,8 @@ Defending the Double Sleeve to Spider Guard transition requires the top player t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Sleeve to Spider Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip both sleeve grips during the transition window when the opponent's feet are between hips and biceps, exploiting the momentary reduction in frame control to break free. Immediately establish passing grips on their legs before they can re-grip your sleeves.
@@ -240,6 +248,8 @@ Retract arms tight to your body with bent elbows and deny bicep hook placement e
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Sleeve to Spider Guard?</p>
 
 ### 1. Allowing feet to reach both biceps without any resistance or intervention
 
@@ -269,6 +279,8 @@ Retract arms tight to your body with bent elbows and deny bicep hook placement e
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Sleeve to Spider Guard?</p>
+
 **Phase 1: Recognition** - Identifying pre-transition cues
 Partner slowly executes the transition from double sleeve to spider guard while you practice identifying the early cues including increased sleeve tension, hip elevation, and foot lift-off. No defensive actions initially. Purely observational awareness building to develop the recognition speed needed for timely intervention.
 
@@ -285,29 +297,6 @@ Full positional sparring where the bottom player works from double sleeve guard 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to transition from double sleeve to spider guard?
-**A**: The earliest cue is increased pulling tension on both sleeves combined with the bottom player's hips rising higher off the mat. Before the feet actually move, the opponent needs to load their grip tension to maintain control during the transition. This pre-loading phase gives you a one-to-two second warning window to act preemptively by stripping grips, retracting your arms, or initiating forward pressure before the feet begin their journey to your biceps.
-
-**Q2**: Why is it critical to prevent the spider guard transition rather than simply dealing with spider guard after it is established?
-**A**: Spider guard is substantially more dangerous than double sleeve guard because the bicep hooks create a favorable strength asymmetry where the bottom player's legs work against your arms. Spider guard enables immediate sweep threats through technical sweeps, triangle entries from arm isolation, and omoplata attacks that are not available from basic double sleeve control. The energy cost of passing spider guard is significantly higher than double sleeve guard, making prevention far more efficient than cure.
-
-**Q3**: Your opponent has placed one foot on your bicep but the second foot is still on your hip - what should you do in this critical moment?
-**A**: This is the most important intervention window. Address the foot that already reached your bicep by either stripping the same-side sleeve grip with a two-on-one break or stepping that arm back while keeping your elbow tight to your body to dislodge the foot. Simultaneously maintain forward pressure against the remaining hip frame. Do not allow the second foot to reach your other bicep, as once both hooks are established the defensive challenge increases dramatically and you will need to reset entirely.
-
-**Q4**: How should you position your arms to make the spider guard transition as difficult as possible?
-**A**: Keep your elbows tight to your ribs with arms bent at approximately 90 degrees, hands close to your chest or actively controlling your opponent's legs at the knees. This tucked arm position minimizes the exposed bicep surface area and reduces the lever arm available for the bottom player's foot placement. Avoid extending your arms forward or reaching toward the opponent, as any arm extension creates the exact target they need to place their feet on your biceps.
-
-**Q5**: After successfully preventing the spider guard transition, what should your immediate next action be?
-**A**: Immediately capitalize on the prevented transition by establishing your own passing grips. The bottom player expended energy and focus on the failed transition, creating a window where their grip tension may momentarily relax and their guard structure is not fully settled. Strip at least one sleeve grip and establish a controlling grip on their pants at the knee or ankle. Begin your passing sequence before they can regroup and attempt the transition again or redirect to an alternative guard evolution.
-
-
-
-</section>
 
 
 </main>

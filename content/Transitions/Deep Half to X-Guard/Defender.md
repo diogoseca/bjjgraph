@@ -154,6 +154,8 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Deep Half to X-Guard?</p>
+
 - Bottom player's deep underhook grip loosens or releases on your far leg, indicating they are preparing to reconfigure
 - Bottom player's hips begin rotating from the inverted deep half angle toward perpendicular positioning underneath you
 - Bottom player's inside leg begins searching or threading behind your near knee with deliberate hooking motion
@@ -166,6 +168,8 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deep Half to X-Guard?</p>
 
 - Recognize the transition at the earliest possible moment - the loosening of the deep underhook signals the switch is beginning
 - Maintain constant crossface pressure to limit the bottom player's ability to rotate their hips into perpendicular angle
@@ -180,6 +184,8 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Deep Half to X-Guard?</p>
 
 ### 1. Drive crossface and sprawl to flatten bottom player's upper body and hips
 
@@ -217,6 +223,8 @@ Defending the Deep Half to X-Guard transition requires recognizing the early sig
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Deep Half to X-Guard?</p>
+
 ### → [[Positions/Half Guard/Deep Half Guard]]
 
 Apply immediate forward crossface pressure when you detect the underhook loosening. Sprawl your hips while driving your shoulder into the bottom player's jaw to flatten their upper body. This prevents the hip rotation needed for X-Guard entry and forces them back into deep half where they must re-establish their underhook and positioning before attempting any further transition.
@@ -232,6 +240,8 @@ When you feel the underhook releasing, immediately extract your far leg using a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deep Half to X-Guard?</p>
 
 ### 1. Pulling leg straight back without crossface or pressure during extraction
 
@@ -261,6 +271,8 @@ When you feel the underhook releasing, immediately extract your far leg using a 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Deep Half to X-Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying transition cues early
 Partner alternates between maintaining deep half guard and initiating the X-Guard transition without warning. Practice identifying the underhook release, hip rotation onset, and hook threading cues. Call out the transition attempt verbally before the partner completes it to build pattern recognition speed and sensitivity.
 
@@ -277,26 +289,6 @@ After successfully defending the X-Guard transition, practice immediately transi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the bottom player is transitioning from deep half to X-Guard?
-**A**: The earliest cue is the loosening or release of the deep underhook on your far leg. In deep half guard, this underhook is the primary control mechanism, so any voluntary loosening indicates the bottom player is preparing to reconfigure their hooks. You may also feel their hips beginning to rotate from the inverted deep half angle toward a perpendicular position. Both cues precede the actual hook threading and provide the critical early warning window needed for effective defense.
-
-**Q2**: How should you adjust your weight distribution when you feel the bottom player's underhook loosening?
-**A**: Shift your weight slightly forward and drive crossface pressure into the bottom player's jaw and upper body. This forward weight commitment flattens their upper body to prevent the hip rotation needed for X-Guard entry, and drives your trapped knee forward past their hook entry zone. However, do not overcommit forward — maintain enough balance to adjust if they switch from the X-Guard attempt back to a deep half sweep that capitalizes on your forward pressure.
-
-**Q3**: Your opponent has threaded one hook behind your knee but has not established the outside leg - what is the optimal defensive response?
-**A**: With only the inside hook set, the X-Guard is not yet functional. Immediately drive your hooked knee downward and outward to make the hook shallow while driving crossface pressure to prevent the outside leg from reaching your hip. If you can push their inside hook below your knee joint, it loses control effectiveness. Simultaneously use your free hand to block their outside leg from crossing your hip line. Without the outside leg frame, the inside hook alone cannot generate sweep leverage.
-
-**Q4**: What grip or pressure point most effectively prevents the bottom player from completing the perpendicular angle needed for X-Guard?
-**A**: Crossface pressure on their jaw and upper body is the most effective control. The perpendicular angle requires hip rotation, which is powered by turning the head and shoulders first. By driving your shoulder or forearm across their face and pinning their head to the mat facing away from the rotation direction, you mechanically prevent the hip rotation from occurring. Secondary control through a hand on their far hip further restricts the rotational movement needed to complete the transition.
-
-
-
-</section>
 
 
 </main>

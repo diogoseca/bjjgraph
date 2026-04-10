@@ -294,10 +294,6 @@
         "attempt_probability": 35
       },
       {
-        "transition": "Darce from Turtle",
-        "attempt_probability": 13
-      },
-      {
         "transition": "Front Headlock to Back",
         "attempt_probability": 18
       },
@@ -306,19 +302,19 @@
         "attempt_probability": 18
       },
       {
+        "transition": "Darce from Turtle",
+        "attempt_probability": 13
+      },
+      {
         "transition": "Side Control to North-South",
         "attempt_probability": 8
       },
       {
-        "transition": "Dead Orchard to Anaconda Finish",
-        "attempt_probability": 4
+        "transition": "Anaconda Choke from Dead Orchard",
+        "attempt_probability": 6
       },
       {
         "transition": "Dead Orchard to Darce Switch",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Anaconda Finish from Dead Orchard",
         "attempt_probability": 2
       }
     ],
@@ -452,7 +448,7 @@
             "probability": 40
           },
           {
-            "technique": "Standing Escape",
+            "technique": "Sit Through to Guard",
             "target": "Clinch",
             "probability": 35
           },
@@ -603,31 +599,31 @@
     "transitions": [
       {
         "transition": "Shrimp Escape",
-        "attempt_probability": 33
-      },
-      {
-        "transition": "Rolling to Guard",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Granby Roll to Guard",
-        "attempt_probability": 11
+        "attempt_probability": 38
       },
       {
         "transition": "Arm Extraction",
-        "attempt_probability": 19
+        "attempt_probability": 18
+      },
+      {
+        "transition": "Rolling to Guard",
+        "attempt_probability": 17
       },
       {
         "transition": "Hip Escape to Guard",
         "attempt_probability": 11
       },
       {
+        "transition": "Granby Roll to Guard",
+        "attempt_probability": 10
+      },
+      {
         "transition": "Escape Dead Orchard Control",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Roll from Dead Orchard",
-        "attempt_probability": 2
+        "attempt_probability": 1
       },
       {
         "transition": "Escape from Dead Orchard",

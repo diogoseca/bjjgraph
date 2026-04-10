@@ -194,6 +194,8 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slice from DLR?</p>
+
 - Address the DLR hook and ankle grip before initiating any forward passing pressure—the hook must be neutralized or significantly weakened before the knee begins to cut
 - Establish dominant upper body control through crossface or collar grip to prevent the guard player from inverting, framing, or turning into you during the pass
 - Commit explosively to the knee slice once the hook is cleared, eliminating the dead zone between hook removal and pass initiation where the guard player can reset
@@ -208,6 +210,8 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slice from DLR?</p>
+
 - At least partially stripped or weakened the opponent's ankle or pants grip that powers the DLR hook's off-balancing leverage
 - DLR hook is shallow, compromised, or in the process of being cleared through grip fighting or leg positioning
 - Controlling upper body grip established on opponent's collar, lapel, or sleeve to anchor the forward drive and prevent inversions
@@ -220,6 +224,8 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slice from DLR step by step?</p>
 
 1. **Establish controlling grips**: Secure a strong collar or lapel grip with your lead hand while your trail hand controls the bottom player's pants at the ankle or knee. These grips create the upper body anchor needed to drive forward pressure and prevent the guard player from using their grips to generate sweeps or inversions.
 2. **Strip the DLR ankle grip**: Use your trail hand to peel the bottom player's hand off your ankle or pants cuff by pushing their wrist toward the mat or stripping it across your body. This removes the primary connection that powers the DLR hook's off-balancing leverage and weakens the entire guard structure significantly.
@@ -251,6 +257,8 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slice from DLR?</p>
+
 - **Bottom player re-establishes DLR hook during grip fighting phase before knee slice initiates** (Effectiveness: High) - Your Response: Restart the grip strip sequence or switch to a toreando or backstep pass if they continue re-hooking. Chain multiple passing threats so they cannot simply reset the same defense repeatedly. → Leads to [[Positions/De La Riva Guard]]
 - **Bottom player inverts for berimbolo as passer commits forward during the knee slice drive** (Effectiveness: High) - Your Response: Stop forward movement immediately and drive your hips into their hips to prevent the inversion from completing. Use your crossface grip to pin their shoulders to the mat. If they have already started rotating, backstep and circle away from the inversion direction. → Leads to [[Positions/Back Control]]
 - **Bottom player inserts knee shield as the knee begins cutting across their thigh line** (Effectiveness: Medium) - Your Response: Switch to a smash pass approach by driving your shoulder into their shield knee, collapsing it toward their chest. Alternatively, backstep over the knee shield and complete the pass from the opposite angle using a long step or leg drag. → Leads to [[Positions/Half Guard]]
@@ -262,6 +270,8 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slice from DLR?</p>
 
 ### 1. Initiating the knee slice before stripping the DLR hook and ankle grip
 
@@ -301,10 +311,12 @@ The Knee Slice from DLR demands precise sequencing from the passer: strip the an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slice from DLR (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook removal and knee slice motion
 Drill the DLR hook removal sequence and knee slice cutting motion with a compliant partner. Focus on the correct angle of the knee cut, proper weight distribution during the drive, and smooth transition from hook removal to forward pressure. No resistance from partner.
 
-**Phase 2: Grip Fighting** - Grip strips against active DLR grips
+**Phase 2: Grips** - Grip strips against active DLR grips
 Partner establishes full DLR grips and actively fights to maintain them. Practice stripping the ankle grip, clearing the hook against resistance, and establishing your controlling grips. Partner provides 50% resistance on grips but does not attempt sweeps or inversions.
 
 **Phase 3: Chain Passing** - Connecting knee slice to alternative passes when defended
@@ -321,42 +333,12 @@ Full resistance rounds starting from DLR guard. Top player's objective is to com
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What grip must you strip first before initiating the knee slice from DLR?
-**A**: The ankle or pants grip is the priority strip because it powers the DLR hook's off-balancing leverage. Without this grip, the DLR hook loses its ability to generate sweep threats and the guard structure becomes significantly weaker, creating the necessary window for the knee slice initiation.
-
-**Q2**: Your opponent re-establishes their DLR hook every time you strip it - how do you adjust your passing approach?
-**A**: Chain multiple passing threats rather than repeatedly attempting the same grip strip to knee slice sequence. Use the grip fight to set up a toreando or backstep pass, which forces them to choose between defending the alternative pass or maintaining the DLR hook. The passing chain creates dilemmas that a single repeated technique cannot.
-
-**Q3**: Where should your knee aim to cut across during the knee slice from DLR?
-**A**: Your knee should cut across the thigh line at hip level, with your shin pressing diagonally across their hip crease. Cutting too high across the abdomen allows them to trap your leg in strong half guard frames, while cutting too low gives them space to re-insert hooks and recover their guard structure.
-
-**Q4**: What is the critical timing window for transitioning from DLR hook removal to the knee slice drive?
-**A**: The optimal window is immediately after the hook is cleared, within one to two seconds maximum. Any delay allows the guard player to re-establish their hook or transition to a secondary guard. The transition from hook removal to knee slice should be a continuous motion rather than two separate actions with a pause between them.
-
-**Q5**: As you begin the knee slice, your opponent starts inverting for a berimbolo - what is your immediate response?
-**A**: Stop forward movement and drive your hips into their hips to prevent the inversion from developing. Use your crossface grip to pin their shoulders to the mat and kill the rotation. If they have already begun rotating underneath you, backstep away from the direction of their rotation and circle to the opposite side to nullify the berimbolo entry angle.
-
-**Q6**: What role does the crossface play during the knee slice from DLR?
-**A**: The crossface serves as the primary upper body control mechanism that prevents the guard player from turning into you, creating frames, or inverting for counter-attacks. By driving your shoulder into their chin or jaw line while pulling their collar toward you, you eliminate their ability to generate any offensive response during the pass completion phase.
-
-**Q7**: Your knee slice has stalled because the opponent caught half guard - what options do you have?
-**A**: From half guard top, you can continue the knee slice with added crossface pressure and hip drive to complete through their half guard. Alternatively, switch to an underhook pass, backstep pass, or smash pass from the half guard top position. The half guard top still represents meaningful progress from the DLR starting position and offers multiple high-percentage passing pathways.
-
-**Q8**: What are the essential entry conditions that must exist before you can attempt the knee slice from DLR?
-**A**: You must have at least partially stripped or weakened the opponent's ankle grip, the DLR hook must be shallow or in the process of being cleared, you need a controlling upper body grip on their collar or lapel, and their far knee shield must not be fully established. Attempting the knee slice without these conditions drops success rates dramatically and exposes you to sweeps.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slice from DLR?</p>
 
 The Knee Slice from DLR carries moderate risk for both practitioners. The passer should avoid forcing the knee through extreme resistance, as lateral torque on a trapped knee can strain the MCL or meniscus. The bottom player faces minimal injury risk but should tap or verbally indicate if their knee becomes caught at an awkward angle during pass completion. During training, both partners should prioritize controlled technique over explosive power, particularly when the bottom player's legs are entangled around the passer's knee during the cutting phase. Avoid cranking the knee slice through a fully locked half guard.
 

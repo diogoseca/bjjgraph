@@ -188,6 +188,8 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Advance to Chill Dog?</p>
+
 - Maintain deep overhook control throughout the transition - any loosening allows opponent escape
 - Thread the leg during opponent's forward pressure, using their drive as assistance
 - Hip angle must rotate toward the overhook side to create space for the leg to travel
@@ -203,6 +205,8 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Advance to Chill Dog?</p>
+
 - New York position established with deep overhook and shin across opponent's back
 - Opponent's posture is fully broken with head and shoulders pulled forward
 - Same-side hand maintains grip on shin near the ankle with secure purchase
@@ -216,6 +220,8 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Advance to Chill Dog step by step?</p>
 
 1. **Confirm New York control**: Verify deep overhook with shoulder tight to opponent's armpit, shin across their upper back, and same-side hand gripping your shin near the ankle. Opponent's posture must be fully broken forward.
 2. **Rotate hips toward overhook**: Turn your hips slightly toward the overhook side, creating the angle needed for your leg to travel deeper. This rotation loads your weight onto the hip opposite the attacking leg and opens the pathway for the shin to advance.
@@ -244,6 +250,8 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Advance to Chill Dog?</p>
+
 - **Explosive posture recovery before leg threads deep** (Effectiveness: High) - Your Response: Maintain constant overhook pressure and time the thread during their forward drive. If they begin posturing, switch to triangle or armbar attack using the space they create. → Leads to [[Positions/Closed Guard]]
 - **Pinning the threading leg with their free hand** (Effectiveness: Medium) - Your Response: Use your guiding hand to strip their grip while continuing the thread. Alternatively, attack their gripping arm with an armbar or kimura threat to force them to release. → Leads to [[Positions/Rubber Guard/New York]]
 - **Turning away and extracting head before lock is secured** (Effectiveness: Medium) - Your Response: Follow their turn with your overhook and convert to back control or Carni position. Their turning motion often exposes their back more than their neck. → Leads to [[Positions/Closed Guard]]
@@ -255,6 +263,8 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Advance to Chill Dog?</p>
 
 ### 1. Loosening overhook while focusing on leg threading
 
@@ -294,6 +304,8 @@ From a game theory perspective, Advance to Chill Dog forces the opponent into in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Advance to Chill Dog (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice the leg threading motion with no resistance. Partner holds static New York position while you slowly execute the thread multiple times, focusing on hip rotation and hand guidance. Build muscle memory for the pathway your leg must travel.
 
@@ -311,54 +323,12 @@ Implement in positional sparring starting from New York. Partner defends with fu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Advance to Chill Dog?
-**A**: The primary goal is to progress from New York's positional control into Chill Dog's attacking configuration, where the shin hooks across the opponent's neck to threaten the gogoplata. This converts control into immediate submission threat while maintaining the overhook that prevents escape.
-
-**Q2**: What position do you start Advance to Chill Dog from?
-**A**: This technique starts from New York Bottom in the Rubber Guard system. You must have established deep overhook control, your shin across opponent's upper back, same-side hand gripping your shin, and opponent's posture fully broken forward before initiating the transition.
-
-**Q3**: What are the key grips needed for Advance to Chill Dog?
-**A**: The deep overhook with shoulder-to-armpit contact is the critical anchor throughout. Initially, your same-side hand grips your own shin near the ankle. During the transition, this hand releases to guide your foot around the neck, then re-grips your shin or ankle to lock the Chill Dog configuration.
-
-**Q4**: When is the best time to attempt Advance to Chill Dog?
-**A**: The optimal timing is when the opponent drives forward with pressure, attempting to flatten you or recover posture. Their forward momentum assists the leg threading by creating the space and force needed for your shin to travel across their neck. Never attempt when opponent is postured up or leaning back.
-
-**Q5**: Your opponent posts their hand on your hip to prevent the leg from threading - how do you adjust?
-**A**: Use your guiding hand to strip their posting grip while continuing the thread in one motion. Alternatively, attack their posting arm with a kimura grip threat - this forces them to retract the arm to defend, removing the obstacle. You can also increase overhook pressure to break their posture further, which compromises their ability to maintain the post.
-
-**Q6**: What is the critical hip movement required during this transition?
-**A**: Your hips must rotate toward the overhook side, opening the angle for your leg to travel from across their back to around their neck. This rotation loads your weight onto the opposite hip and creates the pathway. Without this hip rotation, the leg cannot physically travel the required distance regardless of flexibility.
-
-**Q7**: If the Chill Dog is blocked, what are your best chain attack options?
-**A**: If blocked mid-transition: triangle setup using the elevated leg, armbar on the trapped arm by pivoting your hips, or omoplata by continuing the hip rotation past Chill Dog angle. If they escape completely: return to New York and threaten Invisible Collar or Zombie instead. The key is recognizing failure early and flowing to the alternative rather than forcing a failed Chill Dog.
-
-**Q8**: How does maintaining the overhook throughout the transition affect your opponent's defense options?
-**A**: The deep overhook eliminates their primary escape mechanism - arm extraction and posture recovery. With one arm trapped and posture broken, they cannot generate the explosive movement needed to prevent the leg threading. Any loosening of the overhook immediately gives them space to pull their arm back and stand up out of the entire Rubber Guard position.
-
-**Q9**: What body positioning indicates your opponent is vulnerable to this transition?
-**A**: Vulnerability indicators include: head pulled low toward your chest, weight driving forward rather than back, trapped arm unable to post or push, and hips close to yours rather than elevated. When you feel their weight committed forward and their arm deeply trapped, initiate immediately - these conditions are optimal and may not persist.
-
-**Q10**: Why is fluid continuous motion emphasized over segmented steps?
-**A**: Each pause in segmented execution gives the opponent time to identify your intention and implement defensive adjustments. Continuous fluid motion moves faster than their defensive recognition and reaction cycle. By the time they recognize the Chill Dog entry, the position should already be secured. Segmented attempts also telegraph the attack, allowing preemptive defense.
-
-**Q11**: What role does hip flexibility play in this technique, and how do you compensate for limited flexibility?
-**A**: Hip flexibility determines how easily your shin can travel from back position to neck position. With excellent flexibility, the leg threads naturally with minimal assistance. With limited flexibility, use the Assisted Thread variant where your hand physically lifts and guides the ankle. You can also work through Crackhead Control as an intermediate position that requires less range of motion.
-
-**Q12**: Your opponent begins extracting their trapped arm mid-thread - what is your immediate response?
-**A**: Immediately clamp down on the overhook by driving your shoulder deeper into their armpit and pulling your elbow tight to your ribs. If extraction has progressed past the point of recovery, abandon the Chill Dog attempt and transition to a triangle by shooting your threading leg over their newly freed shoulder. Their arm extraction creates the exact space needed for a triangle entry, turning their escape into your submission opportunity.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Advance to Chill Dog?</p>
 
 This transition involves significant pressure on both practitioners' bodies and requires careful training progression. For the bottom player, hip flexibility limitations can cause strain if the technique is forced - always warm up thoroughly and respect your body's range of motion. For the top player, the eventual Chill Dog position creates neck compression that can be dangerous if applied explosively. Train the transition with control, tap early during the learning phase, and communicate clearly with training partners about pressure levels. Avoid this technique if you have existing hip, knee, or neck injuries. In competition, be aware that some rulesets restrict certain Rubber Guard finishing techniques - verify legality before relying on this pathway.
 

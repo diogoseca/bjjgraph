@@ -21,37 +21,37 @@ description: "Defensive guide for Modified Scarf Hold bottom position. Learn sys
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Roll to Turtle",
-      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Roll to Turtle. This technique is attempted in 75% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
-      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ghost Escape",
-      "text": "From this position, attempt Ghost Escape. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Ghost Escape. This technique is attempted in 1% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -175,6 +175,8 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 ## Position Definition
 
+<p class="section-subtitle">What is Modified Scarf Hold (Bottom)?</p>
+
 - Opponent's chest maintains constant downward pressure on your chest, limiting breathing and creating claustrophobic sensation - their sternum presses into your ribcage with sustained force
 - Your near-side arm is controlled or trapped, typically with opponent's arm threaded under your armpit or wrapped around your head, preventing effective frame creation on that side
 - Your head position is compromised with opponent's shoulder or head pressing down on your face, limiting vision and adding to pressure sensation while restricting neck movement
@@ -185,6 +187,8 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Modified Scarf Hold (Bottom)?</p>
 
 - Opponent has achieved chest-to-chest contact with superior positioning
 - Your near arm has been compromised or controlled
@@ -197,6 +201,8 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Modified Scarf Hold?</p>
 
 - Remain calm despite pressure - panic accelerates energy drain and clouds decision-making
 - Protect your breathing by creating micro-space with chin tuck and chest expansion
@@ -212,6 +218,8 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Modified Scarf Hold (Bottom)?</p>
 
 **If opponent maintains heavy chest pressure but near arm is not fully controlled:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Half Guard]] (Probability: 45%)
@@ -235,6 +243,8 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Modified Scarf Hold?</p>
 
 ### 1. Attempting to bench press opponent off with free arm
 
@@ -269,6 +279,8 @@ The psychological component cannot be overlooked. Modified Scarf Hold creates in
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Modified Scarf Hold defense?</p>
+
 ### Pressure Acclimation Drill
 
 Partner maintains Modified Scarf Hold with moderate pressure while you practice breathing techniques and remaining calm for progressive time intervals
@@ -276,7 +288,7 @@ Partner maintains Modified Scarf Hold with moderate pressure while you practice 
 **Duration**: 3 minutes
 
 
-### Frame Creation Sequence
+### Frames Sequence
 
 From Modified Scarf Hold bottom, practice creating frames with free arm at specific points (hip, shoulder, head) while partner maintains position
 
@@ -294,38 +306,6 @@ Partner starts in Modified Scarf Hold, you attempt specific escape technique, pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent increases chest pressure and you feel your breathing becoming restricted - what immediate adjustment do you make?
-**A**: Turn your head to the side away from the pressure and tuck your chin toward your far shoulder to protect your airway. Create micro-space by pressing your free hand against their hip or shoulder - not pushing up, but creating a frame to prevent them from settling deeper. Take shallow breaths using your diaphragm rather than trying to expand your chest against their weight.
-
-**Q2**: What are the essential frames you need to establish before attempting any escape from Modified Scarf Hold bottom?
-**A**: The primary frame is your free (far) arm positioned with elbow against their hip and hand on their shoulder or bicep, creating a diagonal barrier. This prevents them from advancing to mount and creates the initial space for hip movement. Secondary frame is protecting your trapped arm by keeping elbow connected to your ribs. Never attempt escapes without frames - you need structure before movement.
-
-**Q3**: How do you prevent your opponent from isolating your near arm for americana or kimura submissions?
-**A**: Keep your near arm elbow glued to your ribs at all times - the arm only becomes vulnerable when it extends away from your body. If they begin prying your arm loose, grab your own lapel (gi) or grip your far bicep (no-gi) to anchor the arm. Fight to keep your elbow pointing down toward your hip, never allow it to point toward your head or away from your centerline.
-
-**Q4**: What is the proper timing for a bridge escape attempt from Modified Scarf Hold bottom?
-**A**: Bridge only when your opponent shifts their weight - typically when they reach for a submission, adjust their position, or begin transitioning. Never bridge against a fully settled opponent as they will simply ride it and potentially advance to mount. Feel for the moment their hips lift or their chest pressure lightens, then bridge immediately and directionally toward their trapped side.
-
-**Q5**: How should you apply your frames to create the initial space needed for hip escape?
-**A**: Use your free arm frame to push at their hip at a 45-degree angle away from you - not straight up. Simultaneously turn your hips away from them, even just a few inches. The goal is incremental space creation, not explosive movement. Once you have any hip angle, immediately insert your near knee between your bodies to establish a guard recovery pathway.
-
-**Q6**: Your opponent begins to transition toward mount while maintaining chest pressure - how do you anticipate and respond?
-**A**: The mount transition telegraph is when they shift their weight toward your far side and begin walking their knees up. The moment you feel this weight shift, turn aggressively toward them and shoot your near knee across their path to block the mount. If too late to block, immediately switch to a mount escape - do not try to recover side control bottom once mount is being established.
-
-**Q7**: How do you manage your energy when trapped in an extended Modified Scarf Hold situation?
-**A**: Avoid explosive movements that deplete energy without creating escape opportunities. Maintain steady breathing despite pressure. Make small, purposeful adjustments rather than large desperate movements. Accept that you may need to survive for extended periods - settle mentally into efficient defense mode. Save explosive movements for high-percentage escape moments only.
-
-**Q8**: You partially escape to turtle position but opponent still has hooks and chest contact - how do you complete the escape?
-**A**: From turtle with opponent still attached, immediately post on your hands and drive your hips backward to create separation. Turn to face them to recover guard, or continue circling away to create space for a sit-out or granby roll. Never remain static in turtle with opponent maintaining contact - either complete the escape to guard or standing, or be prepared to defend back takes.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

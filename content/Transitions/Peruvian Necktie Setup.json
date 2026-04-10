@@ -16,7 +16,7 @@
   "from_position": "Front Headlock/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Peruvian Necktie",
       "probability": 50,
       "result": "success"
     },

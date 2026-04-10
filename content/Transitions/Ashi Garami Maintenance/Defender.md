@@ -162,6 +162,8 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ashi Garami Maintenance?</p>
+
 - Inside leg hook pressure behind your knee creating rotational control and preventing straightening of the trapped leg
 - Outside leg crossing over your thigh forming a pinching clamp that restricts all lateral and vertical leg movement
 - Opponent's hips closing distance to yours with upper body grips establishing on your ankle, heel cord, or foot
@@ -175,6 +177,8 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Ashi Garami Maintenance?</p>
+
 - Heel Protection Priority: Maintain straight leg alignment or hidden heel positioning throughout all extraction sequences to prevent finishing opportunities
 - Base Recovery First: Establish standing or kneeling base before attempting systematic hook clearing, as elevation creates mechanical advantage for extraction
 - Inside Space Denial: Pummel inside knee past opponent's blocking wedge to reverse inside space control advantage and access primary clearing pathway
@@ -187,6 +191,8 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ashi Garami Maintenance?</p>
 
 ### 1. Establish standing base and systematically clear leg hooks while maintaining heel protection through straight leg alignment
 
@@ -224,6 +230,8 @@ Defending against Ashi Garami maintenance requires recognizing the quality of yo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ashi Garami Maintenance?</p>
+
 ### → [[Positions/Open Guard]]
 
 Execute systematic leg clearing sequence starting with base recovery to standing, then inside space pummeling, followed by outside hook clearing while maintaining heel protection throughout the entire extraction process
@@ -239,6 +247,8 @@ Enter counter-entanglement when opponent over-commits to advancement by threadin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ashi Garami Maintenance?</p>
 
 ### 1. Attempting explosive leg ripping to escape rather than systematic mechanical clearing of individual connection points
 
@@ -268,6 +278,8 @@ Enter counter-entanglement when opponent over-commits to advancement by threadin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ashi Garami Maintenance?</p>
+
 **Phase 1: Recognition** - Position identification and danger assessment
 Learn to identify Ashi Garami maintenance configurations and distinguish between Outside, Inside, Cross, and Saddle variations to calibrate appropriate defensive urgency and response selection
 
@@ -284,29 +296,6 @@ Positional sparring starting in various Ashi Garami configurations with full res
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent has secured Ashi Garami control on your leg?
-**A**: The earliest cue is feeling the inside leg hook seat behind your knee combined with the opponent's outside leg crossing over your thigh to create a pinching effect. You may also feel their hips closing distance to yours and their hands reaching for your ankle or foot. Recognizing this configuration immediately allows you to begin extraction before all connection points are fully established.
-
-**Q2**: Why is explosive ripping considered a poor defensive strategy against maintained Ashi Garami?
-**A**: Explosive ripping creates rotation through the knee joint that exposes the heel to hook grips, actually making the opponent's finishing position stronger. The violent movement also disrupts your own base, making it easier for the opponent to follow your momentum and re-establish any connections lost during the rip. Systematic mechanical clearing maintains heel protection throughout the entire extraction process.
-
-**Q3**: What is the correct sequence for clearing Ashi Garami connection points during extraction?
-**A**: The correct sequence begins with establishing base through standing or posting, then denying inside space by pummeling your knee inside the opponent's control configuration. Next, address the outside hook by pushing the crossing leg away while maintaining heel protection through straight leg alignment. Finally, step the freed leg away from the opponent's control range completely.
-
-**Q4**: When is the optimal timing window to attempt extraction from Ashi Garami?
-**A**: The optimal extraction window occurs during the opponent's grip transitions when they release one upper body grip to adjust or advance to a different control configuration. These transitional moments create brief gaps in the connection chain where one fewer control point is active. Recognizing and acting during these windows significantly increases extraction success compared to attempting escape against fully established control.
-
-**Q5**: How should you respond if your opponent successfully advances from Outside Ashi to Inside Ashi during your extraction attempt?
-**A**: Immediately increase defensive urgency by protecting the heel through straight leg alignment and hiding the heel behind the opponent's leg. Avoid continued extraction using the same Outside Ashi clearing sequence, as inside space dynamics have changed. Focus on re-establishing inside space control and working back to Outside Ashi positioning before attempting extraction, or transition to 50-50 to neutralize the position.
-
-
-
-</section>
 
 
 </main>

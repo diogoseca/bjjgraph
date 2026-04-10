@@ -166,6 +166,8 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Long Step Around Ringworm?</p>
+
 - Passer places a cupping grip on your far hip with their lead hand—this is the anchor grip that precedes every long step attempt and signals which direction they will step
 - Passer's outside leg begins lifting and arcing wide rather than stepping forward or laterally—the exaggerated stepping motion is visually distinct from normal passing footwork
 - Passer stops engaging with your lapel configuration and instead focuses on creating a wide arc—the shift from grip fighting to footwork indicates they've chosen to bypass rather than clear
@@ -177,6 +179,8 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Long Step Around Ringworm?</p>
 
 - Follow the passer's movement with your hips immediately—do not remain static when they change angle, as your ringworm configuration only works against specific passing lanes
 - Maintain at least one sleeve or collar grip that limits the passer's ability to drive forward pressure after landing the step
@@ -191,6 +195,8 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Long Step Around Ringworm?</p>
 
 ### 1. Hip chase—immediately rotate your hips to follow the passer's stepping direction, maintaining the angle that keeps your ringworm barriers in their passing lane
 
@@ -228,6 +234,8 @@ Successful defense integrates proactive hip movement with grip management. Rathe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Long Step Around Ringworm?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Chase the passer's hips immediately when you detect the long step initiation. Rotate your entire body to follow their movement, keeping your ringworm configuration aligned with their new passing lane. Maintain sleeve control to prevent their shoulder drive. The passer ends up stuck in your guard with energy wasted on a failed direction change.
@@ -243,6 +251,8 @@ Time the sit-up for the moment the passer's foot lifts off the mat for the arc. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Long Step Around Ringworm?</p>
 
 ### 1. Remaining static and relying entirely on the lapel configuration to block the pass without adjusting hip angle
 
@@ -272,6 +282,8 @@ Time the sit-up for the moment the passer's foot lifts off the mat for the arc. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Long Step Around Ringworm?</p>
+
 **Week 1-2** - Recognition and hip chase mechanics
 Partner initiates the long step at slow speed from ringworm guard. Practice identifying the hip grip and stepping cue, then executing the hip chase to maintain alignment. Focus on timing the hip rotation to begin before the passer's foot lands. No resistance on the hip chase initially.
 
@@ -288,29 +300,6 @@ Start in ringworm guard with partner free to choose any passing approach includi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a Long Step Around Ringworm?
-**A**: The cupping grip on your far hip is the earliest and most reliable cue. This anchor grip precedes every long step attempt because the passer needs it to prevent your hip chase. When you feel or see this grip establish, begin preparing your defensive response immediately rather than waiting for the step itself.
-
-**Q2**: Why is hip chasing the highest-percentage defensive response against the long step?
-**A**: Hip chasing maintains the alignment between your ringworm configuration and the passer's direction of travel. Your lapel barriers only block specific passing lanes—by rotating your hips to follow their movement, you keep those barriers in their path. This makes the passer's energy-expensive wide arc irrelevant because you've moved the obstacle to match their new angle.
-
-**Q3**: Your opponent has landed their long step foot and is beginning to drive shoulder pressure—what is your best remaining defensive option?
-**A**: At this late stage, abandon the lapel configuration entirely and establish standard defensive frames against their shoulder and hip. Insert your knee as a shield to prevent chest-to-chest contact and begin standard half guard or side control escape sequences. The ringworm game is over once they've completed the arc—clinging to useless lapel wraps delays the transition to effective defensive framing.
-
-**Q4**: What makes the back take window during the long step so effective but also so narrow?
-**A**: The window is effective because the passer's wide arc rotates their back toward you while their base is compromised on one leg. It's narrow because it only exists while the foot is in the air—once they land and drive shoulder pressure, the back exposure closes and you run into their incoming weight. You must initiate the sit-up during the step itself, reading the hip grip and foot lift as your trigger.
-
-**Q5**: When should you abandon your ringworm configuration during defense rather than trying to maintain it?
-**A**: Abandon the configuration when the passer has successfully stepped past your far hip and is driving forward pressure. At that point, the lapel wraps no longer control relevant passing lanes and keeping your hands in fabric delays establishing the defensive frames you need for guard recovery. The transition from lapel game to standard defense must be immediate and decisive.
-
-
-
-</section>
 
 
 </main>

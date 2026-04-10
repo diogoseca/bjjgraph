@@ -146,6 +146,8 @@ As the defender facing this transition, your primary objective is to prevent the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Collar Sleeve to De La Riva?</p>
+
 - The bottom player hip escapes to create an angle, turning their body 30-45 degrees relative to you rather than staying square
 - Their outside leg (sleeve-grip side) begins a circular sweeping motion around the outside of your lead leg rather than maintaining its frame position
 - The bottom player's sleeve grip loosens or releases as they prepare to convert it to an ankle or pants grip
@@ -158,6 +160,8 @@ As the defender facing this transition, your primary objective is to prevent the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Collar Sleeve to De La Riva?</p>
 
 - Recognize the transition initiation within the first second by watching for the hip escape angle and leg threading motion
 - Deny the hook by controlling the distance between your lead leg and their hooking leg through backsteps or knee positioning
@@ -172,6 +176,8 @@ As the defender facing this transition, your primary objective is to prevent the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Collar Sleeve to De La Riva?</p>
 
 ### 1. Backstep the lead leg before the hook threads behind your knee
 
@@ -209,6 +215,8 @@ As the defender facing this transition, your primary objective is to prevent the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Collar Sleeve to De La Riva?</p>
+
 ### → [[Positions/Collar Sleeve Guard]]
 
 Deny the hook insertion by backsteping your lead leg or dropping to your knees before the transition completes. The bottom player reverts to collar sleeve guard, which you were already working to pass. Maintain your existing grip fighting strategy and resume passing from the original guard configuration.
@@ -224,6 +232,8 @@ Exploit the grip conversion window when the bottom player releases their sleeve 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Collar Sleeve to De La Riva?</p>
 
 ### 1. Standing tall with upright posture without awareness that this creates the DLR entry trigger
 
@@ -253,6 +263,8 @@ Exploit the grip conversion window when the bottom player releases their sleeve 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Collar Sleeve to De La Riva?</p>
+
 **Phase 1: Recognition** - Identifying transition cues and trigger moments
 Partner plays collar sleeve guard and randomly initiates the DLR transition during rolling. Your only job is to verbally call out when you recognize the transition beginning. No defensive action required. Develops the pattern recognition needed to react in time.
 
@@ -269,23 +281,6 @@ Positional sparring starting in collar sleeve guard with the objective of preven
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is initiating this transition?
-**A**: The earliest cue is the hip escape creating a 30-45 degree angle. Before the leg even begins threading, the bottom player must angle their body to position the hooking leg on the correct trajectory. This hip escape is visible and tactile - you will feel their hips shift away from square alignment. Reacting at this stage gives you maximum time to backstep or apply pressure before the hook insertion begins.
-
-**Q2**: Why is the grip conversion window the best moment to counter this transition?
-**A**: During grip conversion, the bottom player releases their sleeve grip to reach for your ankle, creating a moment where they have only one controlling grip (the collar). This single-grip state means they cannot simultaneously prevent you from stepping back, stripping the hook, and initiating a pass. Before this window, they have two grips anchoring you in place. After this window, they have a fully functional DLR guard. The conversion moment is the only phase where their control is degraded.
-
-**Q3**: How should your passing strategy change if the transition succeeds and you find yourself in established DLR guard?
-**A**: Switch from collar sleeve passing strategies to DLR-specific counters. Priority becomes stripping the ankle grip first, then addressing the hook through backstep or smash pressure. Do not attempt lateral toreando passes without first clearing the hook, as the DLR hook converts your lateral passing momentum into sweeping momentum. Consider long step passes or backstep passes that specifically address the hook position. Maintain posture and hip distance to prevent berimbolo entries.
-
-
-
-</section>
 
 
 </main>

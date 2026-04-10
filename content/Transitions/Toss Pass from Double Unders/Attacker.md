@@ -188,6 +188,8 @@ The Toss Pass attacker operates from an already dominant double unders control p
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Toss Pass from Double Unders?</p>
+
 - Load vertical pressure before redirecting laterally to create misdirection that catches defensive frames in the wrong orientation
 - Generate toss power through hip rotation and core engagement rather than arm strength alone for sustainable and explosive redirection
 - Commit fully to the toss direction with no hesitation, as partial commitment allows the defender time to adjust their frames
@@ -202,6 +204,8 @@ The Toss Pass attacker operates from an already dominant double unders control p
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Toss Pass from Double Unders?</p>
+
 - Both arms fully threaded under opponent's legs with forearms deep and elbows tight to your ribs
 - Hands clasped (gable grip or S-grip) or gripping belt/pants behind opponent's lower back with no slack
 - Forward stacking pressure driving opponent's weight onto their shoulders for minimum 2-3 seconds before toss
@@ -214,6 +218,8 @@ The Toss Pass attacker operates from an already dominant double unders control p
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Toss Pass from Double Unders step by step?</p>
 
 1. **Confirm double unders control**: Verify both arms are fully threaded under opponent's legs with hands clasped deep behind their lower back. Elbows must be tight to your ribs with no gaps for the opponent to insert frames. Confirm the grip will hold through explosive lateral movement.
 2. **Establish vertical pressure**: Drive forward pressure through your chest into opponent's thighs, stacking their weight onto their shoulders. This loads their defensive frames in the vertical plane and disguises the incoming lateral redirection. Maintain this pressure for 2-3 seconds to commit their defensive structure.
@@ -244,6 +250,8 @@ The Toss Pass attacker operates from an already dominant double unders control p
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Toss Pass from Double Unders?</p>
+
 - **Opponent inserts butterfly hook on the toss side during redirection, preventing legs from clearing** (Effectiveness: High) - Your Response: If you feel the hook engaging mid-toss, immediately shift to a leg weave passing configuration on that side rather than fighting the hook. Use the momentum of your toss to drive past the hook into a half guard top position, then work to complete the pass from there. → Leads to [[Positions/Half Guard]]
 - **Opponent frames against your shoulder and hip escapes during the toss, creating distance to recover open guard** (Effectiveness: Medium) - Your Response: Accelerate your follow-through and chase their hip movement with your chest. If they create significant distance, abandon the toss pass and re-establish double unders control by driving forward into their retreating hips before they can fully recover their guard structure. → Leads to [[Positions/Open Guard]]
 - **Opponent grips your sleeve or wrist to prevent arm release during toss, stalling the redirection** (Effectiveness: Medium) - Your Response: Strip the grip by circling your wrist out of their grip direction while continuing the toss motion. If the grip holds, maintain pressure and revert to forward stacking, then attempt the toss again after re-establishing full pressure and breaking the grip with a sharp elbow retraction. → Leads to [[Positions/Double Unders]]
@@ -255,6 +263,8 @@ The Toss Pass attacker operates from an already dominant double unders control p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Toss Pass from Double Unders?</p>
 
 ### 1. Releasing the grip behind opponent's back before legs have fully cleared to the side
 
@@ -294,6 +304,8 @@ The Toss Pass attacker operates from an already dominant double unders control p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Toss Pass from Double Unders (Attacker)?</p>
+
 **Foundation** - Grip mechanics and pressure loading
 Practice establishing deep double unders control with proper grip behind opponent's back. Focus on forward stacking pressure mechanics and weight distribution. No toss motion yet - build the prerequisite pressure platform. Partner remains passive, allowing you to refine grip depth and chest contact angles.
 
@@ -311,42 +323,12 @@ Integrate the toss pass into live double unders passing sequences alongside stac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing for initiating the toss after establishing double unders control?
-**A**: The toss should be initiated after driving sustained forward pressure for 2-3 seconds, loading the opponent's defensive frames vertically. The ideal moment is when you feel the opponent committing their frames fully to resist your forward drive, as their defensive structure is then oriented in the wrong plane to resist lateral redirection. Initiating too early before establishing forward pressure telegraphs the toss and allows easy defensive adjustment.
-
-**Q2**: How does grip positioning differ between the standard stack pass and the toss pass from double unders?
-**A**: For the toss pass, the grip should be slightly asymmetric compared to the centered grip used for stacking. Shift your clasped hands subtly toward the side you intend to toss, pre-loading the lateral vector while still appearing to drive forward. The grip must remain deep behind the opponent's back to maintain control throughout the explosive redirection - shallow grips will separate during the toss motion, releasing the legs prematurely.
-
-**Q3**: Your opponent is successfully framing against your forward pressure with stiff arms on your shoulders - how do you transition to the toss pass?
-**A**: Their stiff arm frames are oriented to resist vertical stacking pressure, making this the ideal moment for the toss pass. Continue driving forward to maintain their frame commitment, then explosively redirect their legs laterally to the side where their frame is weaker. The stiff arms cannot redirect quickly enough to resist the lateral force, and by the time they attempt to adjust, your chest should already be dropping to the mat on the passing side.
-
-**Q4**: What body mechanics generate the most effective toss from the double unders position?
-**A**: The toss is generated primarily through hip rotation combined with a lateral sweeping motion of the arms, not through arm strength alone. Your hips should rotate toward the toss direction while your arms guide the legs, using your core as the primary force generator. Think of it as a lateral hip thrust combined with an arm sweep. Your feet must be positioned with toes engaged to allow the hip rotation - a wide flat-footed stance limits rotational power.
-
-**Q5**: What should your immediate priority be in the first two seconds after completing the toss?
-**A**: Immediate chest-to-mat contact on the passing side is the absolute priority. Your crossface arm must reach across and control the opponent's head before they can turn toward you, and your hips must drop heavy against their hips to prevent any guard recovery. The two-second window after the toss is critical because the opponent is momentarily disoriented by the directional change. Any delay allows them to establish defensive frames or insert a knee for half guard.
-
-**Q6**: When should you choose to toss to the left versus the right side?
-**A**: Toss toward the side where the opponent's defensive frames are weaker or absent. If they have a strong frame on your right shoulder, toss left. Also consider your own dominant side for establishing crossface, as most practitioners have a preferred side control side. Additionally, if the opponent has one leg slightly more extended than the other, toss toward the extended leg side as it provides less resistance to the lateral redirection.
-
-**Q7**: You attempt the toss pass but the opponent hooks your leg with a butterfly hook mid-toss - what is your immediate adjustment?
-**A**: Do not fight the butterfly hook directly or try to restart the toss. Instead, immediately transition to a leg weave or half guard passing configuration using the momentum you already generated. Continue driving forward past the hook rather than pulling back. Your weight should pin their hooking leg while you work to clear it from a half guard top position. The toss momentum actually assists this transition if you redirect rather than resist.
-
-**Q8**: How do you prevent the opponent from diving to deep half guard during the toss attempt?
-**A**: Maintain a low, compressed posture with your hips close to the opponent's body throughout the toss, eliminating the space they need to rotate underneath you. If you sense them attempting to dive under during the loading phase, immediately walk your knees forward to pin their hips before initiating the toss. The deep half entry requires space under your hips - by keeping your posture low and hips connected, you deny the prerequisite space for this escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Toss Pass from Double Unders?</p>
 
 The Toss Pass involves explosive lateral redirection of the opponent's lower body which can stress the lumbar spine and hip joints if performed with excessive force. Partners should communicate comfort levels during drilling, especially regarding the intensity of the toss. The technique works through precise redirection rather than raw power - avoid slamming legs to the mat. Be mindful of training partners with lower back, hip, or knee injuries. During the follow-through, control your chest drop to avoid landing with full force on the opponent's ribs. Always allow controlled landing and avoid explosive toss practice with significantly smaller partners where the force differential creates injury risk.
 

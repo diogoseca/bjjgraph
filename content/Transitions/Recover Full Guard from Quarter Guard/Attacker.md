@@ -188,6 +188,8 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Recover Full Guard from Quarter Guard?</p>
+
 - Frame before you move—establish solid contact against the passer's chest, shoulder, or neck before attempting any hip escape to ensure the frame creates actual space rather than just burning energy
 - Hip escape creates the space, knee insertion fills it—the shrimp movement must be immediately followed by knee reinsertion before the space collapses under returning pressure
 - Time the recovery to opponent's weight shifts—the optimal moment is when the passer adjusts grips, changes passing angle, or commits weight to one direction
@@ -202,6 +204,8 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Recover Full Guard from Quarter Guard?</p>
+
 - At least partial leg contact on opponent's trapped leg through ankle hook, knee contact, or quarter lockdown providing the anchor point for recovery
 - One functional frame established against opponent's upper body—either forearm across chest, hand on shoulder, or underhook preventing complete flattening
 - Hip mobility sufficient to execute at least a partial hip escape—being completely flattened with zero mobility makes recovery impossible and requires a different escape path
@@ -214,6 +218,8 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Recover Full Guard from Quarter Guard step by step?</p>
 
 1. **Establish frames against passer's upper body**: Place your forearm or hand against your opponent's chest, shoulder, or neck to create a structural barrier. If you have an underhook, use it to prevent their shoulder from driving into your face. The frame must be a solid skeletal structure—use bone-on-bone contact rather than muscular pushing to conserve energy while creating meaningful resistance against their advancing pressure.
 2. **Identify timing window for hip escape**: Wait for the moment when your opponent shifts weight, adjusts grips, or commits to a specific passing direction. Common timing windows include when they lift their hips to advance position, when they reach for a new grip with one hand reducing their base, or when they begin transitioning from crossface to underhook. This micro-adjustment creates a brief reduction in pressure that your frame can exploit.
@@ -243,6 +249,8 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Recover Full Guard from Quarter Guard?</p>
+
 - **Opponent drives heavy crossface to prevent hip escape and flatten you back down** (Effectiveness: High) - Your Response: Use your free hand to block the crossface before it establishes by framing against their bicep or shoulder. If crossface is already established, redirect your recovery to deep half guard entry by getting underneath their weight rather than trying to create distance against their pressure. → Leads to [[Positions/Side Control]]
 - **Opponent drops weight and sprawls hips back when feeling your frame and hip escape initiation** (Effectiveness: Medium) - Your Response: When opponent sprawls, their leg position often loosens momentarily. Use this window to hook their leg with your bottom foot and pull it back into half guard entanglement. The sprawl actually assists your recovery if you can capture the leg before they re-establish forward pressure. → Leads to [[Positions/Quarter Guard]]
 - **Opponent backsteps around your recovery attempt to take a different passing angle** (Effectiveness: Medium) - Your Response: Follow their movement with your hips and adjust your knee shield orientation to face the new passing angle. If they backstep far enough, you may have space to recover to open guard or establish butterfly hooks rather than half guard. Stay connected to their leg to prevent complete disengagement. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Recover Full Guard from Quarter Guard?</p>
 
 ### 1. Attempting guard recovery while completely flat on back with no frames established
 
@@ -293,6 +303,8 @@ As the attacker executing Recover Full Guard from Quarter Guard, you are the bot
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Recover Full Guard from Quarter Guard (Attacker)?</p>
+
 **Phase 1: Solo Hip Escape Mechanics** - Developing efficient hip escape movement patterns without resistance
 Practice solo shrimping drills emphasizing the coordination between pushing off the posted foot, bridging to create space, and immediately inserting the knee into the gap. Focus on performing the entire frame-shrimp-insert sequence as one fluid movement. Repeat fifty to one hundred repetitions per session until the movement pattern becomes automatic.
 
@@ -313,42 +325,12 @@ Flow between recovery attempts and offensive options—attempt old school sweep,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating guard recovery from quarter guard?
-**A**: The optimal timing window occurs when the top player shifts weight to adjust grips, changes passing angle, or commits to a specific passing direction. These micro-adjustments create brief reductions in forward pressure that allow your frames to create space. Common windows include when they reach for a new grip with one hand, when they lift their hips to advance position, or when they transition between crossface and underhook control. Initiating recovery during these transitions exploits the momentary instability in their pressure.
-
-**Q2**: What conditions must exist before you can attempt guard recovery from quarter guard?
-**A**: Four conditions must be present: at least partial leg contact on the opponent's trapped leg providing an anchor point, one functional frame established against their upper body preventing complete flattening, sufficient hip mobility to execute at least a partial hip escape, and the opponent must not have fully cleared your legs to consolidate side control. If any condition is missing, you should address it first before attempting recovery—for example, bridge to create space for a frame if you have none.
-
-**Q3**: What is the most critical mechanical detail in the hip escape during guard recovery?
-**A**: The most critical detail is coordinating the frame push and hip escape as simultaneous opposing forces. The frame pushes the opponent's upper body one direction while your hips escape in the opposite direction, creating double the space compared to hip escape alone. The hip escape must move at least six to eight inches away from the opponent's center line, and the inside knee must begin driving inward during the escape itself rather than after it completes, treating the entire sequence as one fluid movement.
-
-**Q4**: Your opponent drives a heavy crossface as you begin your hip escape—how do you adjust your recovery?
-**A**: When the crossface prevents effective hip escape toward distance, redirect the recovery toward deep half guard entry instead. Turn into the opponent rather than away, getting your head underneath their chest while your outside arm reaches for their far leg. The crossface pressure that blocks standard recovery actually assists deep half entry by keeping your bodies close together. Alternatively, use your free hand to block the crossface at the bicep before it establishes, then proceed with standard recovery.
-
-**Q5**: What grip should you prioritize immediately after recovering leg entanglement at half guard?
-**A**: The underhook on the trapped leg side should be the first priority grip after recovering leg position. The underhook provides the primary offensive pathway to sweeps and back takes while preventing the opponent from re-establishing the crushing shoulder pressure that led to quarter guard in the first place. If the underhook is unavailable due to opponent's positioning, establish a knee shield frame with your shin across their torso as the secondary option to create distance and prevent immediate re-advancement.
-
-**Q6**: How does the direction of your hip escape affect which guard variation you recover to?
-**A**: Hip escaping away from the opponent creates space for standard half guard recovery with knee shield options and distance management. Hip escaping toward and underneath the opponent leads to deep half guard position with sweeping advantages. Hip escaping while staying square can allow butterfly hook insertion for butterfly half guard. The direction should be chosen based on the opponent's pressure—escape away from heavy forward pressure, go underneath against committed crossface pressure, and stay square against opponents who maintain upright posture.
-
-**Q7**: Your opponent posts their far hand on the mat during your recovery attempt—what opportunity does this create?
-**A**: A posted far hand removes one of the opponent's control points and shifts their base away from you. This creates two opportunities: first, the reduced pressure on your upper body makes the standard frame-and-shrimp recovery more effective since there is less weight to move. Second, the posted hand exposes the opponent to being pulled off-balance with your underhook—you can potentially convert the recovery attempt into a sweep or back take by using the underhook to pull them toward the posted hand side while coming up to your knees.
-
-**Q8**: When should you abandon guard recovery in favor of offensive options from quarter guard?
-**A**: Abandon recovery in favor of offense when you have a deep underhook and your opponent posts their hand for base, creating sweep and back take opportunities. Also switch to offense when the opponent lifts their hips high during a passing attempt, creating space underneath for old school sweep or electric chair entries. Recovery should be the default when you lack the underhook, when you are being flattened, or when offensive attempts have already failed and position continues deteriorating. The decision point is underhook quality—deep underhook with angle means attack, compromised underhook or flat position means recover.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Recover Full Guard from Quarter Guard?</p>
 
 Guard recovery from quarter guard is generally low-risk for injury, but practitioners should be cautious about explosive hip escape movements that can strain the lower back or hip flexors if performed without proper warm-up. Avoid using excessive muscular effort to force recovery when the timing window has closed, as this can lead to neck strain from fighting against crossface pressure or knee injuries from forcing leg insertion through tight spaces. If the opponent has established deep crossface control, do not bridge explosively against their head pressure as this can compress cervical vertebrae. Practice the technique at moderate intensity before adding full resistance, and tap if any joint compression or neck pressure becomes uncomfortable during drilling.
 

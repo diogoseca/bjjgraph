@@ -148,6 +148,8 @@ As the defender in this scenario, you are the practitioner who has established T
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Rotation from Toe Hold?</p>
+
 - Opponent's hips begin rotating in the direction of your toe hold pressure rather than fighting against it, signaling they are moving with rather than resisting the force
 - Opponent posts on their near-side elbow or hand, creating a rotational pivot point that indicates imminent body rotation
 - Opponent's free leg becomes active and reaches toward your legs, attempting to establish the hook needed for 50-50 entanglement
@@ -160,6 +162,8 @@ As the defender in this scenario, you are the practitioner who has established T
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Rotation from Toe Hold?</p>
 
 - Recognize the rotational initiation immediately through hip movement cues and prepare to either follow the rotation or transition to an alternative attack
 - Maintain figure-four grip integrity throughout dynamic movement by keeping elbows tight and wrists locked rather than relying on static hand positioning
@@ -174,6 +178,8 @@ As the defender in this scenario, you are the practitioner who has established T
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Rotation from Toe Hold?</p>
 
 ### 1. Follow the rotation while maintaining toe hold grip, rotating your own body to match their movement and preserve angular torque on the ankle
 
@@ -204,6 +210,8 @@ As the defender in this scenario, you are the practitioner who has established T
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Rotation from Toe Hold?</p>
+
 ### → [[Positions/Toe Hold Control]]
 
 Follow the rotation with your own body while maintaining tight figure-four grip, or block the rotation early with your free hand to prevent it from developing. Re-apply toe hold pressure once the rotation is stopped or you have matched their new angle.
@@ -219,6 +227,8 @@ When the rotation is successfully neutralizing your toe hold, release the grip a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Rotation from Toe Hold?</p>
 
 ### 1. Maintaining static grip positioning while opponent rotates dynamically around you
 
@@ -248,6 +258,8 @@ When the rotation is successfully neutralizing your toe hold, release the grip a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Rotation from Toe Hold?</p>
+
 **Phase 1: Recognition Drilling** - Identifying counter rotation initiation cues
 Partner from toe hold bottom performs counter rotation at slow speed while you practice recognizing the hip rotation, arm posting, and free leg movement cues. Call out each cue verbally as you see it. No defensive action yet, focus purely on reading the movement pattern and understanding the timing window available for response.
 
@@ -261,26 +273,6 @@ Positional sparring starting from toe hold control top with partner at 80% resis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a counter rotation?
-**A**: The earliest cue is their hips beginning to rotate in the same direction as your toe hold pressure, combined with them posting on their near-side arm to create a pivot point. Before the full body rotation commits, you will feel a sudden decrease in resistance against your grip as they stop fighting the rotation and prepare to move with it. This window of recognition is typically one to two seconds before full commitment.
-
-**Q2**: Your opponent begins counter rotating and your toe hold grip is losing effectiveness - should you tighten the grip or transition?
-**A**: Transition rather than tighten. Once the counter rotation has neutralized the angular relationship between your grip and their ankle, increasing grip pressure creates dangerous and unpredictable force vectors without improving submission probability. Instead, use their rotation as a transition opportunity to thread your leg into saddle position, which converts their escape attempt into a worse entanglement for them.
-
-**Q3**: How do you prevent the opponent from establishing the 50-50 hook with their free leg during counter rotation?
-**A**: Use your hip positioning and free leg to block their free leg from hooking around your leg during the rotation. Position your hip close to their rotating body to limit the space available for their hook, and use your non-entangled leg to actively push their free leg away or pin it against the mat. Denying this hook prevents the 50-50 structure from forming and keeps you in a dominant entanglement position.
-
-**Q4**: Why is following the rotation with your own body sometimes the best defensive response?
-**A**: Following the rotation preserves the angular relationship between your figure-four grip and their ankle, which is what creates the submission torque. If you remain stationary while they rotate, the angle changes and your grip loses effectiveness. By rotating with them, you maintain the same relative positioning even though both bodies have moved, keeping your toe hold threat alive from a new absolute angle on the mat.
-
-
-
-</section>
 
 
 </main>

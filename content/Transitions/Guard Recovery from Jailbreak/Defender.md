@@ -156,6 +156,8 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Jailbreak?</p>
+
 - Bottom player begins turning their hips to face you after the failed Jailbreak, indicating they are attempting to realign for guard recovery
 - Bottom player establishes forearm frames on your shoulders or chest, creating the distance barrier needed for hip escape and leg reinsertion
 - Bottom player's near knee begins rising toward your midsection, signaling imminent knee shield insertion attempt
@@ -167,6 +169,8 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Jailbreak?</p>
 
 - Drive forward immediately after the Jailbreak fails to capitalize on the bottom player's disorientation and compromised body alignment
 - Establish crossface and underhook control to prevent the bottom player from turning to face you and squaring their hips for guard recovery
@@ -181,6 +185,8 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Jailbreak?</p>
 
 ### 1. Drive heavy crossface and chest pressure into the bottom player while their body is still misaligned from the failed Jailbreak, flattening them before frames can be established
 
@@ -211,6 +217,8 @@ As the top player after defending a Jailbreak attempt, you are in a strong posit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Jailbreak?</p>
+
 ### → [[Positions/Side Control]]
 
 Drive crossface pressure and establish underhook control within the first three seconds after the Jailbreak fails, capitalizing on the bottom player's disorientation and compromised body alignment to consolidate side control before they can reinsert legs and compose guard
@@ -222,6 +230,8 @@ Drive crossface pressure and establish underhook control within the first three 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Jailbreak?</p>
 
 ### 1. Hesitating after defending the Jailbreak instead of immediately driving forward to consolidate position
 
@@ -251,10 +261,12 @@ Drive crossface pressure and establish underhook control within the first three 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Jailbreak?</p>
+
 **Phase 1: Post-Jailbreak Pressure Response** - Immediate forward pressure after defending Jailbreak inversion
 Partner performs Jailbreak rolls that intentionally stop short. Practice driving forward with chest pressure and crossface the moment the roll stalls. Work at 40% resistance to develop the automatic response of forward drive upon recognizing failed inversion. Drill 20 repetitions to build the habit.
 
-**Phase 2: Side Control Consolidation from Scramble** - Establishing side control from the chaotic post-Jailbreak scramble position
+**Phase 2: Side Control Establishment from Scramble** - Establishing side control from the chaotic post-Jailbreak scramble position
 Starting from various post-failed-Jailbreak positions, practice establishing crossface, underhook, and hip control to consolidate side control. Partner provides 60% resistance while attempting guard recovery. Focus on the sequence of controls rather than trying to achieve everything simultaneously.
 
 **Phase 3: Denying Guard Recovery Under Resistance** - Preventing frame establishment, hip escape, and knee shield insertion during active recovery attempts
@@ -267,29 +279,6 @@ Begin each round with partner executing Jailbreak from half guard at full resist
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical time window for consolidating position after defending a Jailbreak attempt?
-**A**: The critical window is three to five seconds after the Jailbreak fails. During this period, the bottom player is most disoriented and their body is least aligned for effective guard recovery. Their hips may be facing the wrong direction, their arms may be displaced from framing positions, and they need time to assess their orientation before initiating systematic recovery. After this window closes, the bottom player has typically squared their hips, established frames, and begun the guard recovery sequence.
-
-**Q2**: Why should you follow the bottom player's turning direction rather than fighting their rotation during post-Jailbreak consolidation?
-**A**: Fighting the bottom player's rotation engages a strength battle that wastes energy and creates a stalemate where neither player advances. Instead, following their rotation allows you to use their movement to advance your own position—as they turn toward you, you can flow past them to establish side control on their far side, using their turning momentum to carry you into a dominant position. This approach converts their recovery movement into an advantage for you rather than resisting it directly.
-
-**Q3**: How does the Jailbreak's explosive nature create unique consolidation opportunities that differ from standard guard passing?
-**A**: The Jailbreak's explosive inversion often leaves the bottom player in non-standard positions—partially inverted, twisted, or with their back partially exposed. These positions are fundamentally different from standard guard configurations because the bottom player's legs are not organized between the two bodies and their frames are not pre-positioned. This means the top player can often bypass the normal frame-elimination and knee-advancement sequence required for standard guard passing, instead driving directly into side control through the gap created by the bottom player's disorganized body position.
-
-**Q4**: The bottom player has inserted a knee shield but has no grips established—what is your highest-percentage response?
-**A**: A knee shield without grips is a temporary barrier that can be defeated through systematic pressure. Drive your chest weight into the top of their knee shield shin while controlling their far hip with your near hand to prevent them from creating distance for grip establishment. Simultaneously work to swim your arm over or under the shield to establish an underhook. The key is denying them the time and space to convert the knee shield into a complete guard position with grips—apply constant advancing pressure rather than waiting for them to organize their defense.
-
-**Q5**: What specific body mechanics allow you to deny the hip escape that powers guard recovery from Jailbreak?
-**A**: The hip escape requires the bottom player to push off the mat with their feet and move their hips laterally away from you. To deny this, keep your hips heavy and low against their near hip, removing the space their hips need to travel. Place your near knee tight against their hip bone as a physical block. Additionally, drive diagonal chest pressure toward their far shoulder—this pins their upper body and prevents the spinal rotation that powers the hip escape. The combination of hip blocking and diagonal pressure eliminates both the space and the mechanical pathway the bottom player needs to execute the escape.
-
-
-
-</section>
 
 
 </main>

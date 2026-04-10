@@ -162,6 +162,8 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Piranha Guard?</p>
+
 - Passer begins grip fighting your lapel controls with both hands, releasing their grip on your pants or belt to focus on stripping
 - Passer widens their stance significantly and drops their hips lower than normal guard passing posture
 - Passer secures anchor grips on your pants at the knee or hip before attacking your lapel grips
@@ -174,6 +176,8 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Piranha Guard?</p>
 
 - Maintain constant lapel tension through active grip management and hip positioning, never allowing slack in the collar threading system
 - Use the threat of sweeps and submissions to disrupt the passer's grip-stripping sequence, forcing them to abandon strip attempts to defend
@@ -188,6 +192,8 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Piranha Guard?</p>
 
 ### 1. Re-feed the lapel through your legs immediately when you feel the grip being stripped
 
@@ -225,6 +231,8 @@ Defending against a Piranha Guard pass means you are the bottom player maintaini
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Piranha Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Execute a sweep during the passer's lateral commitment by timing a lapel pull with a hook extension as they step to create their passing angle. Their narrow base during lateral movement makes them vulnerable to directional sweeps perpendicular to their stepping direction.
@@ -240,6 +248,8 @@ Maintain guard by actively re-feeding the lapel and re-establishing grips every 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Piranha Guard?</p>
 
 ### 1. Remaining static while the passer systematically strips your lapel grips without active resistance or counter-attacks
 
@@ -269,6 +279,8 @@ Maintain guard by actively re-feeding the lapel and re-establishing grips every 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Piranha Guard?</p>
+
 **Phase 1: Grip Retention and Re-Feed Drills** - Maintaining lapel configuration under grip-stripping pressure
 Partner attempts to strip your Piranha Guard grips at 40-50% intensity while you practice re-feeding the lapel, maintaining tension, and recovering grip position. Focus on developing sensitivity to when grips are being attacked and automatic re-feeding responses.
 
@@ -285,29 +297,6 @@ Partner attempts full-speed Piranha Guard passes with all stripping, lateral, an
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the top player is about to attempt a systematic pass of your Piranha Guard?
-**A**: The earliest cues are the passer widening their stance significantly beyond normal guard engagement width, dropping their hips lower than standard passing posture, and releasing their pressure-focused grips to begin active grip fighting against your lapel controls. When they secure an anchor grip on your pants before touching your lapel grips, they are setting up a systematic stripping sequence rather than a reactive pass attempt.
-
-**Q2**: Your opponent successfully strips your primary lapel grip and begins extracting the collar—what is your immediate priority?
-**A**: Your immediate priority is to re-feed the lapel before they pull it fully above your leg line. Use your legs to clamp and trap the collar material while your hands work to re-grip the lapel below their stripping hand. If re-feeding is not possible because they have already extracted enough material, immediately transition your feet to hooks on their hips and begin establishing De La Riva or Collar Sleeve grips before they can capitalize on the cleared configuration.
-
-**Q3**: When is the optimal moment to attempt a sweep against someone passing your Piranha Guard?
-**A**: The optimal sweep timing is during the passer's lateral commitment to a passing lane, specifically when they step to one side to create a passing angle. At this moment, their base is narrowest in the perpendicular direction, and their weight is transitioning from centered to directional. A sweep perpendicular to their stepping direction has maximum effectiveness. The second-best timing is when they commit both hands to stripping your lapel, temporarily releasing their base-stabilizing pants grip.
-
-**Q4**: How should you adjust your hip positioning when the passer begins creating a lateral angle for their pass?
-**A**: When the passer creates a lateral angle, immediately rotate your hips to face them squarely rather than remaining flat. Angle your body toward the passer's new position and re-establish your hook placements relative to their changed angle. If they step to your right, rotate your hips clockwise and place your left foot on their leading hip as a frame while maintaining whatever lapel control remains. This prevents them from completing the angle and keeps your guard structure oriented toward the threat.
-
-**Q5**: How do you manage the transition between Piranha Guard and an alternative guard system without leaving a passing gap?
-**A**: Begin the guard transition while you still have partial lapel control rather than waiting until the configuration is fully stripped. Use your remaining lapel grip as a bridge while simultaneously establishing the primary grips of your alternative guard—for example, insert a De La Riva hook while you still have one hand on the lapel, or establish a collar sleeve grip before releasing the threaded collar entirely. The overlap period where you have grips in both guard systems is your safety margin against the passer exploiting the transition.
-
-
-
-</section>
 
 
 </main>

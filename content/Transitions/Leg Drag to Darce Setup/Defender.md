@@ -166,6 +166,8 @@ The biomechanics of this defense center on eliminating the space between your ar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Darce Setup?</p>
+
 - Opponent releases crossface or shoulder control from leg drag and redirects their hand toward your near armpit—this signals the shift from passing to Darce hunting
 - You feel the opponent's arm sliding under your armpit and across the back of your neck while you are mid-turn toward turtle
 - Opponent's chest pressure shifts from your hip toward your shoulder girdle as they adjust angle to thread the choking arm
@@ -177,6 +179,8 @@ The biomechanics of this defense center on eliminating the space between your ar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Darce Setup?</p>
 
 - Keep elbows glued to your ribs when turning away from leg drag—a wide posting arm feeds the Darce entry
 - Turn into the attacker rather than away once you feel the arm threading under your armpit
@@ -191,6 +195,8 @@ The biomechanics of this defense center on eliminating the space between your ar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Darce Setup?</p>
 
 ### 1. Clamp elbow tight and sit back into opponent to deny threading space
 
@@ -228,6 +234,8 @@ The biomechanics of this defense center on eliminating the space between your ar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Darce Setup?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Deny the arm threading early by keeping elbows tight and sitting back into the attacker. The attacker cannot progress the Darce and is forced back to standard leg drag control, giving you another chance to escape through conventional leg drag defense.
@@ -243,6 +251,8 @@ If the Darce grip is partially established, turn into the attacker aggressively 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Darce Setup?</p>
 
 ### 1. Posting with a wide, extended arm when turning to turtle from leg drag
 
@@ -272,6 +282,8 @@ If the Darce grip is partially established, turn into the attacker aggressively 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Darce Setup?</p>
+
 **Week 1-2** - Recognition and elbow discipline
 Partner establishes leg drag and slowly initiates the Darce arm threading. Defender practices keeping elbows tight during the turtle transition and identifying the moment the threading begins. No resistance from attacker—focus on recognition cues and muscle memory for tight arm positioning.
 
@@ -288,29 +300,6 @@ Start from leg drag bottom in live rolls. Defender must escape without getting c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action the instant you feel the opponent's arm threading under your armpit?
-**A**: Immediately clamp your elbow tight to your ribs to close the gap the attacker is threading through. This is more important than any positional escape because it addresses the root mechanic of the Darce—without the arm threading deep, no grip can be established. Combine the elbow clamp with turning your chest toward the attacker to collapse the choking angle.
-
-**Q2**: Why is posting on your forearm rather than your hand critical when turtling from leg drag?
-**A**: Posting on the forearm keeps your elbow close to your ribs, eliminating the space between your arm and torso that the Darce requires. When you post on an extended hand, the elbow lifts away from your body, creating a wide gap that the attacker can shoot their arm through easily. The forearm post provides adequate base for the turtle transition while denying the threading entry.
-
-**Q3**: Your opponent has threaded their arm deep but has not yet locked the figure-four—what is your best defensive strategy?
-**A**: Use both hands to fight the locking hand before the figure-four connects. Grab the attacker's wrist or forearm with both hands and peel it away from their bicep. Simultaneously turn your body toward the attacker to reduce the choking angle. Once you break the grip connection, immediately extract your trapped arm and tuck into a tight turtle. Speed is critical because the window between arm threading and grip lock is only one to two seconds.
-
-**Q4**: How do you recognize the difference between an opponent going for a back take versus a Darce from leg drag?
-**A**: The back take involves the opponent's hands reaching over your shoulders and around your waist for seatbelt control, with their body following behind you. The Darce attempt shows the opponent's arm diving under your near armpit toward your neck, with their head dropping low against your shoulder rather than coming up behind you. The force vector is different—back take pulls you backward, while Darce threads across and around your neck horizontally.
-
-**Q5**: Why is turning into the attacker counterintuitively safer than pulling away when the Darce arm is threading?
-**A**: Turning into the attacker collapses the angle that the Darce requires to compress the carotid arteries. The choke works by creating opposing pressure between the bicep on one side and the forearm on the other—turning in reduces this angle to near zero, neutralizing the compression. Pulling away extends the neck and opens the angle, actually helping the attacker achieve the geometry they need for the finish.
-
-
-
-</section>
 
 
 </main>

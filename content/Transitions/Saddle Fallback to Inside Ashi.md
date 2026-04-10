@@ -208,7 +208,7 @@ The Saddle Fallback to Inside Ashi occupies a critical role as the positional sa
 
 - [[Transitions/Straight Ankle Lock Entry]] - Primary follow-up attack from inside ashi immediately after completing fallback
 
-- [[Transitions/Heel Hook from Saddle]] - Saddle attack that may have been defended, triggering the need for fallback
+- [[Heel Hook from Saddle]] - Saddle attack that may have been defended, triggering the need for fallback
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Alternative lateral entanglement branch if inside ashi is also compromised
 

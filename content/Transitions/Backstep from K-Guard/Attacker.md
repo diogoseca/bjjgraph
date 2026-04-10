@@ -188,6 +188,8 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep from K-Guard?</p>
+
 - Control the bottom player's far hip before initiating the backstep to anchor their position and prevent them from following your movement with hip escapes
 - Time the backstep when the bottom player's inverted hook tension is at its lowest, typically after they commit to an offensive action or grip adjustment
 - Post firmly on your free leg with weight shifted toward the posting side to create the mechanical foundation for trapped leg extraction
@@ -202,6 +204,8 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep from K-Guard?</p>
+
 - Established upper body control through crossface, underhook, or collar grip that limits the bottom player's ability to follow your movement
 - Free leg posted on mat with stable base capable of supporting full body weight during the extraction movement
 - Bottom player's butterfly hook not fully loaded with upward pressure that would compromise base during the backstep weight transfer
@@ -214,6 +218,8 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep from K-Guard step by step?</p>
 
 1. **Establish upper body control**: Secure dominant upper body position through crossface grip, underhook, or collar control. Your grips must anchor the bottom player's upper body to prevent them from following your backstep movement. Position your head on the far side of their body to maintain pressure angle and prevent them from framing effectively against the coming directional change.
 2. **Control the far hip**: Place your hand or forearm on the bottom player's far hip to pin their pelvis to the mat. This is the critical anchor point that prevents them from hip escaping in the same direction as your backstep. Without this control, the bottom player follows your movement and maintains their guard structure despite the directional change, negating the entire technique.
@@ -244,6 +250,8 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep from K-Guard?</p>
+
 - **Bottom player re-hooks inverted leg during extraction by increasing hook tension and pulling trapped leg back across centerline** (Effectiveness: High) - Your Response: Reset and attempt backstep with more explosive timing, or feint the backstep and switch to a forward-pressure pass while they overcommit to the re-hook → Leads to [[Positions/K-Guard]]
 - **Bottom player releases K-Guard hooks and immediately transitions to Single Leg X-Guard by catching the backstepping leg at the hip** (Effectiveness: High) - Your Response: Post free hand on the mat immediately and drive hip forward to compress SLX hooks before they consolidate, then apply SLX-specific passing sequence or backstep from SLX → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 - **Bottom player frames with both arms and hip escapes in the direction of the backstep to maintain guard angle and re-establish hooks** (Effectiveness: Medium) - Your Response: Maintain crossface control throughout the backstep to prevent effective framing, and pin the far hip to block hip escape movement that follows your directional change → Leads to [[Positions/K-Guard]]
@@ -255,6 +263,8 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep from K-Guard?</p>
 
 ### 1. Telegraphing the backstep by visibly shifting weight and pausing before executing the extraction
 
@@ -294,6 +304,8 @@ The Backstep from K-Guard Attacker perspective focuses on the systematic extract
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep from K-Guard (Attacker)?</p>
+
 **Mechanics Isolation** - Solo movement pattern
 Practice the backstep arc motion without a partner, focusing on the circular extraction path, weight transfer to posting leg, and hip positioning. Use a resistance band around the knee to simulate hook tension. Develop the muscle memory for the semicircular withdrawal path.
 
@@ -314,39 +326,12 @@ Incorporate backstep attempts into complete K-Guard passing sequences, chaining 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the backstep from K-Guard?
-**A**: The optimal timing is when the bottom player's inverted hook tension drops momentarily, typically after they commit to an offensive action such as a sweep attempt or grip adjustment. You can also create this window by feinting a forward-pressure pass that draws their defensive hooks into a reactive position, then immediately reversing direction with the backstep before they can readjust hook tension.
-
-**Q2**: Why is a circular arc motion preferable to a straight-line extraction during the backstep?
-**A**: The inverted hook in K-Guard creates a catching geometry strongest against direct backward pulling. A circular arc naturally routes the trapped leg around the hook's strongest retention plane, reducing the force needed for extraction and minimizing telegraphing. The curved path also maintains better base throughout the motion compared to a straight pull that creates momentary instability at the point of maximum hook resistance.
-
-**Q3**: What grip must you maintain throughout the backstep to prevent the bottom player from following your movement?
-**A**: Upper body control through crossface, collar grip, or underhook is essential throughout the entire backstep. This grip anchors the bottom player's torso stationary while your lower body changes position. Without this anchor, the bottom player hip escapes in the direction of your backstep, maintaining their guard structure despite the directional change. The far hip control serves as a secondary anchor that blocks their primary escape route.
-
-**Q4**: Your opponent catches Single Leg X-Guard during your backstep attempt - what is the correct response?
-**A**: Immediately post your free hand on the mat and address the SLX hooks before they consolidate. Drive your hip forward to compress their hook structure and prevent elevation. You can attempt a backstep from SLX or transition to a standard SLX passing sequence such as a knee slide or hip switch. The key is not to panic and pull away, which gives them the distance needed to complete the sweep.
-
-**Q5**: What is the most critical setup element before attempting the backstep from K-Guard?
-**A**: Controlling the bottom player's far hip is the most critical setup element. Without far hip control, the bottom player follows your backstep by hip escaping in the same direction, maintaining their guard structure despite the directional change. The far hip pin anchors them in place so that your leg extraction creates actual positional separation rather than simply moving both players in the same direction.
-
-**Q6**: How does the backstep from K-Guard differ from a backstep from De La Riva Guard?
-**A**: The primary difference lies in the hook geometry being bypassed. K-Guard's inverted hook creates lateral pulling force across the centerline, while DLR's hook wraps around the outside of the leg creating a different retention vector. The K-Guard backstep requires addressing both the inverted hook and the butterfly hook in sequence, whereas the DLR backstep primarily deals with the single DLR hook and far-side foot placement. The circular extraction arc is wider in K-Guard due to the dual-hook system.
-
-**Q7**: What should you do immediately after clearing both hooks during the backstep?
-**A**: Drive your hips forward immediately to consolidate into half guard top or headquarters position without any pause. Secure crossface or underhook control and threaten an immediate follow-up pass such as knee slice or leg drag. The brief window between hook clearance and guard re-establishment is where you extract maximum value from the backstep - any delay allows the bottom player to reorganize their defensive structure and re-establish hooks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep from K-Guard?</p>
 
 The backstep movement involves rotational forces on both players' knees during the extraction arc. Execute the circular arc motion with controlled speed to avoid sudden torque on the bottom player's hooked knee. Both partners should communicate immediately if knee pressure becomes uncomfortable during drilling. Start at reduced speed and intensity to develop familiarity with the movement pattern before adding resistance. Never force the trapped leg extraction against fully locked hooks, as this creates dangerous shearing forces on both players' knee joints.
 

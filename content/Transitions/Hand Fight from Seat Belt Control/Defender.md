@@ -154,6 +154,8 @@ Defending against hand fighting from seat belt back control requires the top pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hand Fight from Seat Belt Control?</p>
+
 - Bottom player's hands moving from neck defense toward your wrists or forearms, indicating shift from passive survival to active grip fighting
 - Bottom player attempting two-on-one control on your over-shoulder arm, pulling it downward toward their hip line with both hands
 - Bottom player's hips beginning to move and create angles coordinated with grip attacks, suggesting integrated escape attempt rather than isolated hand fight
@@ -166,6 +168,8 @@ Defending against hand fighting from seat belt back control requires the top pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hand Fight from Seat Belt Control?</p>
 
 - Reinforce grip connection continuously - tighten and readjust seat belt whenever bottom player begins attacking your hands to stay ahead of their stripping efforts
 - Punish hand fighting with choke advances - when opponent's hands leave neck defense to fight grips, immediately progress your choking arm toward their throat
@@ -180,6 +184,8 @@ Defending against hand fighting from seat belt back control requires the top pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hand Fight from Seat Belt Control?</p>
 
 ### 1. Reinforce seat belt grip by switching to stronger connection type or repositioning clasp point
 
@@ -217,6 +223,8 @@ Defending against hand fighting from seat belt back control requires the top pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hand Fight from Seat Belt Control?</p>
+
 ### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Reinforce grip connections faster than bottom player can strip them by switching between gable grip, palm cup, and wrist-on-wrist configurations. Punish every hand fight attempt with immediate choke advancement that forces hands back to neck defense. Maintain constant chest pressure and deep hooks that deny the hip movement bottom player needs for effective grip breaking.
@@ -228,6 +236,8 @@ Reinforce grip connections faster than bottom player can strip them by switching
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hand Fight from Seat Belt Control?</p>
 
 ### 1. Voluntarily releasing seat belt grip to chase a submission when bottom player starts fighting hands
 
@@ -257,6 +267,8 @@ Reinforce grip connections faster than bottom player can strip them by switching
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hand Fight from Seat Belt Control?</p>
+
 **Grip Maintenance Drilling** - Sustaining seat belt connection against systematic hand fighting attempts
 Partner works hand fighting sequences at 50% effort while you practice maintaining and reinforcing seat belt grip. Focus on grip switching between gable, palm cup, and wrist configurations. Build grip endurance and develop sensitivity to when opponent is gaining leverage on your connection points.
 
@@ -273,26 +285,6 @@ When partner successfully breaks your seat belt, immediately transition to alter
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When your opponent begins two-on-one attacking your over-shoulder arm, what counter-attack should you immediately threaten?
-**A**: Immediately advance your free under-armpit arm toward their throat as a choke threat. Since they've committed both hands to stripping your over-arm, their neck is completely undefended. This creates a defensive dilemma where they must either release the grip fight to defend the choke or accept the choke risk while continuing to strip. Even if the choke does not finish, it forces them to abandon the two-on-one attack and return to neck defense, resetting their progress.
-
-**Q2**: How do you maintain seat belt control when opponent uses hip escapes coordinated with hand fighting?
-**A**: Follow their hip movement by adjusting your own hip position to maintain perpendicular alignment with their spine. Deepen your hooks in response to hip escapes, using your bottom hook to prevent the shrimp motion from completing. Increase chest pressure to close any space created by the hip escape before it can compound into rotational angle. The combination of hook adjustment, hip following, and chest pressure neutralizes the mechanical advantage that hip escapes provide to their grip fighting.
-
-**Q3**: Your opponent successfully strips your over-arm grip - what is your immediate positional adjustment?
-**A**: Immediately transition the stripped arm to an alternative control position: thread it under their armpit for double underhook control, swim it across their body for gift wrap position, or re-establish the seat belt from the opposite side. Do not chase the original grip configuration if it has been cleanly broken. Simultaneously increase chest pressure and hook depth to compensate for reduced upper body control during the transition. Maintaining back control through alternative means preserves your positional advantage.
-
-**Q4**: What grip reinforcement strategies are most effective against technically skilled hand fighters who use wrist rotation and finger isolation?
-**A**: Use alternating grip configurations to prevent opponent from developing a consistent stripping rhythm. Switch between gable grip, palm cup, and wrist-on-wrist connections every 15-20 seconds to force them to constantly readapt their stripping approach. Position your grip connection deeper on the far side of their body where access is more difficult. Keep elbows tight to reduce exposed forearm surface area. These micro-adjustments compound to make sustained technical hand fighting significantly more difficult for even skilled opponents.
-
-
-
-</section>
 
 
 </main>

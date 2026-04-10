@@ -63,8 +63,8 @@
       "relationship": "Alternative Position - transition when opponent removes weight"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Counter to Defense - attacks posted arm"
+      "name": "Kimura",
+      "relationship": "Counter to Defense - attacks posted arm when opponent bases out"
     },
     {
       "name": "Marcelo Garcia Butterfly Guard System",
@@ -395,7 +395,7 @@
         "description": "Partner in butterfly guard initiates sweeps at 30% speed. Defender focuses on recognizing the loading phase (forward pull, hook elevation, directional commitment) and practicing the hand post response. Partner announces sweep direction initially to build recognition. Progress to partner sweeping without announcement. Drill 15-20 reps per side focusing on post timing. Separately drill sprawl defense against forward-loading sweeps at controlled speed."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Posture Maintenance",
+        "phase": "Week 3-4: Grips and Posture Maintenance",
         "focus": "Preventing sweep prerequisites through active grip denial and positional awareness",
         "description": "Partner works from butterfly guard attempting to establish underhooks and collar grips while defender focuses purely on grip fighting and posture maintenance. No passing attempts, just grip denial and base management. Partner increases grip fighting intensity to 60%. Introduce rounds where defender must maintain base for 2 minutes against sweep attempts while actively fighting grips. Focus on keeping hips back and at least one hand free to post at all times."
       },

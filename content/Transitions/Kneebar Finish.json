@@ -15,7 +15,7 @@
   "from_position": "Carni/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Kneebar",
       "probability": 65,
       "result": "success"
     },
@@ -62,10 +62,6 @@
     {
       "name": "Saddle",
       "relationship": "Alternative control position accessible from Carni when heel hook is defended"
-    },
-    {
-      "name": "Game Over",
-      "relationship": "Terminal state reached upon successful kneebar tap"
     },
     {
       "name": "Half Guard",

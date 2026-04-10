@@ -203,11 +203,11 @@ The Triangle from Guard is the central submission threat that makes the entire M
 
 - [[Positions/Triangle Control]] - Primary destination - successful entry leads to Triangle Control position
 
-- [[Submissions/Triangle Choke Front]] - Follow-up finish - completes the submission from Triangle Control
+- [[Submissions/Triangle Choke]] - Follow-up finish - completes the submission from Triangle Control
 
 - [[Transitions/Closed Guard to Omoplata]] - Chain attack - primary alternative when triangle is defended by stacking
 
-- [[Submissions/Armbar from Guard]] - Chain attack - available when opponent extracts arm during triangle attempt
+- [[Transitions/Triangle to Armbar]] - Chain attack - available when opponent extracts arm during triangle attempt
 
 - [[Transitions/Triangle Setup]] - Alternative entry - standard closed guard triangle setup without rubber guard
 

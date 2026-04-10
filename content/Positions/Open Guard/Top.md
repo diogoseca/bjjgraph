@@ -165,6 +165,8 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Open Guard (Top)?</p>
+
 - Top player maintains upright posture with hips elevated above opponent's guard structure, preventing forward collapse while managing distance through strategic positioning and grip control with spine alignment and base distribution
 - Bottom player's legs remain open and active, creating frames and barriers between their body and the top player's advancement attempts, utilizing hooks, grips, and positioning to maintain guard integrity and offensive threats
 - No chest-to-chest connection established, with clear separation maintained through the bottom player's leg frames and the top player's posture, creating a dynamic space where passing attempts and guard retention occur with constant adjustments
@@ -176,6 +178,8 @@ Open Guard Top is the fundamental position where the top player engages with an 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Open Guard (Top)?</p>
 
 - Understanding of various guard types and their specific characteristics (Spider, De La Riva, Lasso, X-Guard, Butterfly, etc.)
 - Fundamental base and balance principles to maintain stability against sweeps and off-balancing attempts
@@ -191,6 +195,8 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Open Guard?</p>
+
 - Maintain proper posture with spine alignment and hips back to prevent forward pulls and maintain base against sweep attempts
 - Control opponent's legs through strategic grips and positioning to limit their mobility and offensive options
 - Create and exploit passing angles by moving laterally and circling to bypass defensive frames and leg barriers
@@ -205,6 +211,8 @@ Open Guard Top is the fundamental position where the top player engages with an 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Open Guard (Top)?</p>
 
 **If opponent establishes De La Riva or Reverse De La Riva hook with active grip control:**
 - Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -238,6 +246,8 @@ Open Guard Top is the fundamental position where the top player engages with an 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Open Guard?</p>
 
 ### 1. Poor posture with rounded back and hips too close to opponent
 
@@ -282,7 +292,9 @@ Open Guard Top is the fundamental position where the top player engages with an 
 
 ## Training Drills for Attacks
 
-### Grip Fighting Flow Drill
+<p class="section-subtitle">How do you train Open Guard attacks?</p>
+
+### Grips Flow Drill
 
 Partner drill where both players engage in continuous grip fighting exchanges without attempting full passes. Top player works to establish passing grips while bottom player fights to maintain guard grips. Focus on hand fighting speed, grip breaks, and re-gripping. Progress to timed rounds with specific grip objectives.
 
@@ -314,38 +326,6 @@ Bottom player cycles through different guard types (Spider, De La Riva, Butterfl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What base adjustment should you make when your opponent starts establishing sleeve grips from spider guard?
-**A**: Immediately address the grip by stripping it with a two-on-one break or circling your arm out before they can establish full bicep control. If they complete the grip, lower your elbow toward your hip to reduce their leverage, step back to create slack in your arm, and work to break the grip systematically rather than pulling straight back against their control.
-
-**Q2**: What are the essential grip priorities for maintaining passing pressure in open guard top?
-**A**: Control opponent's legs through pant grips at the knees or ankles as first priority, preventing them from establishing hooks or frames. Secondary priority is controlling their upper body through collar grip or head control to prevent them from sitting up. The combination of leg control and upper body pressure creates the foundation for all passing sequences.
-
-**Q3**: How do you shut down the primary sweep threat when opponent establishes butterfly hooks?
-**A**: Drive your hips back and down to flatten your center of gravity below their hooks, making elevation extremely difficult. Simultaneously control their near sleeve or wrist to prevent the underhook that powers butterfly sweeps. Apply forward shoulder pressure while keeping your hips heavy and low - this removes the space they need to elevate you.
-
-**Q4**: Your opponent begins recovering De La Riva hook after you cleared it - what immediate adjustment prevents this?
-**A**: Step your hooked leg backward immediately while maintaining control of their hooking leg with your hands. Push their knee across their centerline with your grip hand and shift your hips away from the recovering hook. Circling to the outside rather than driving forward prevents re-establishment and opens leg drag or toreando opportunities.
-
-**Q5**: What weight distribution fundamentals maintain your passing position against constant framing?
-**A**: Keep your hips low and center of gravity over your base while distributing weight through your toes for mobility. Avoid putting weight on your hands as this allows opponent to redirect you. Apply pressure diagonally downward through your shoulder or chest rather than straight down, which creates angles that are harder to frame against and facilitates lateral passing movement.
-
-**Q6**: How do you maintain control when your passing sequence is partially stopped and opponent begins recovering guard?
-**A**: Immediately establish a new connection point before they complete guard recovery - hip control, collar grip, or pant grip. Rather than resetting completely, transition to headquarters position or leg weave to maintain passing pressure. Keep your chest connected to their body and circle toward their back rather than retreating, which allows them to fully re-establish guard structure.
-
-**Q7**: What grip fighting sequence should you use when opponent has both sleeve grips established?
-**A**: Address one grip at a time using two-on-one breaks, starting with the grip that most threatens your posture. Circle your wrist out while pushing their grip hand toward their centerline. Once free, immediately re-establish your own grip before addressing the second. Never try to break both simultaneously as this compromises your base and allows them to off-balance you.
-
-**Q8**: How do you manage energy expenditure during extended guard passing sequences?
-**A**: Use strategic pressure and body positioning rather than explosive movements. Let gravity do work by positioning your weight on top of their frames rather than fighting against them. Commit to passes fully rather than half-attempts that waste energy. Recognize when to reset to a stable headquarters position rather than continuously forcing through strong defensive structures.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

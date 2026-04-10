@@ -166,6 +166,8 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Clear to Toreando Pass?</p>
+
 - Opponent begins working on the lapel fabric itself rather than attempting to pass around or through the configuration—their focus shifts to unwinding rather than advancing
 - Opponent pins or controls your gripping hand with one of their hands, indicating they are preparing to address the lapel wrap with their free hand
 - Opponent steps back or creates distance specifically to generate slack in the lapel configuration rather than driving forward to pass
@@ -177,6 +179,8 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Clear to Toreando Pass?</p>
 
 - Fight to maintain the lapel grip throughout the clearing attempt—every second they spend clearing is energy they cannot spend passing
 - Keep your gripping hand active and mobile, re-gripping the lapel fabric from different angles when your primary grip is stripped
@@ -191,6 +195,8 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Clear to Toreando Pass?</p>
 
 ### 1. Aggressively re-grip the lapel from alternative angles each time the opponent strips your primary grip, using your free hand to re-feed the fabric while they work to clear it
 
@@ -228,6 +234,8 @@ Successful defense also requires contingency planning. If the lapel is cleared a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Clear to Toreando Pass?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Maintain relentless re-gripping pressure on the lapel fabric throughout the clearing attempt, forcing the opponent to spend excessive energy and time on the clear. Use your free hand and feet to re-feed the lapel while they work. If they do clear, immediately re-extract and re-establish a fresh lapel configuration before they can secure toreando grips.
@@ -243,6 +251,8 @@ Time your sit-up to coincide with the exact moment the lapel clears—as the opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Clear to Toreando Pass?</p>
 
 ### 1. Passively allowing the lapel to be cleared without fighting the grip strip or attempting to re-establish the configuration
 
@@ -272,6 +282,8 @@ Time your sit-up to coincide with the exact moment the lapel clears—as the opp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Clear to Toreando Pass?</p>
+
 **Week 1-2** - Re-gripping and lapel retention
 Partner practices systematic lapel clearing while you focus exclusively on maintaining the lapel configuration through active re-gripping, angle adjustment, and hand fighting. No passing or guard recovery—isolate the grip retention skill. Track how long you can maintain the configuration against progressive clearing attempts.
 
@@ -288,29 +300,6 @@ Full resistance specific training where partner works the complete Lapel Clear t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most vulnerable moment for the passer during the Lapel Clear to Toreando sequence, and how should you exploit it?
-**A**: The transition gap between clearing completion and toreando grip establishment is the passer's most vulnerable moment. During this 1-2 second window, they have neither the old lapel entanglement nor their new pants grips secured. Exploit this by sitting up explosively to close guard, re-extracting the lapel for a fresh configuration, or transitioning to spider or lasso guard while their hands are in transition between tasks.
-
-**Q2**: Your opponent has successfully cleared the lapel and is reaching for your pants to begin the toreando—what are your immediate defensive priorities?
-**A**: First, turn to your side facing the opponent and draw your knees toward your chest to create a smaller target. Second, establish at least one grip on their sleeve or collar to prevent them from securing bilateral pants control. Third, insert a knee shield or foot on their hip to create a frame before they can initiate lateral movement. The goal is denying them the clean toreando starting position with both pants grips and your legs extended.
-
-**Q3**: How does your defensive approach change when the opponent uses the standing clear variant versus the in-place clearing method?
-**A**: Against the standing clear, your opponent creates more slack but also more distance, giving you additional time to transition to alternative guards. Use this distance to immediately establish feet-on-hips guard, collar-sleeve control, or begin sitting up for an arm drag or guard pull. Against in-place clearing, you have less time but more proximity, making aggressive re-gripping and closed guard recovery more viable since the opponent cannot create as much separation.
-
-**Q4**: What backup guard systems should you have prepared when your lapel configuration is stripped, and how do you choose between them?
-**A**: Spider guard (bicep control with feet in crooks of elbows) works best when the opponent's arms are extended from the clearing effort. Lasso guard (leg wrapping around their arm) is effective when one of their arms is forward from the grip strip. De La Riva guard (outside hook on their lead leg) activates when they step forward to initiate the toreando. Choose based on their body position at the moment the lapel is lost—their arm and leg positioning determines which guard is available.
-
-**Q5**: Your opponent drives heavy shoulder pressure during the toreando and you cannot insert a knee shield—what is your last-resort defensive sequence?
-**A**: When the toreando is nearly complete with heavy shoulder pressure, frame your forearm across their neck and far shoulder while hip escaping away from the passing direction. If the pass completes to side control, immediately establish inside frames with your forearms against their shoulder and hip to prevent settling. The priority shifts from preventing the pass to ensuring you have defensive structure in place for a side control escape sequence rather than being flattened without frames.
-
-
-
-</section>
 
 
 </main>

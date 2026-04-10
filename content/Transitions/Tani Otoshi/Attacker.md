@@ -182,6 +182,8 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Tani Otoshi?</p>
+
 - Create lateral movement and angle to disrupt opponent's base before committing
 - Commit fully to the sacrifice drop - hesitation results in failure and inferior position
 - Block opponent's leg at or below the knee for maximum mechanical leverage
@@ -197,6 +199,8 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Tani Otoshi?</p>
+
 - Standing engagement with opponent in neutral position or clinch
 - Strong collar and sleeve control (gi) or over-under position (no-gi)
 - Opponent's weight distributed evenly or slightly forward onto the target leg
@@ -210,6 +214,8 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Tani Otoshi step by step?</p>
 
 1. **Establish grips and posture**: In gi, secure a strong collar grip with your right hand and a sleeve grip with your left hand. In no-gi, establish an over-under clinch or collar tie with wrist control. Maintain upright posture while keeping your opponent close enough to control but not so close that you are stacked or unable to create the lateral angle needed for the throw.
 2. **Create angle with lateral step**: Take a lateral step to your left (assuming right-handed throw) while maintaining tight upper body control. This step should be approximately 45 degrees to your opponent's centerline, creating the angle necessary for the blocking leg to be effective. Pull your opponent slightly forward and to their right to encourage weight shift onto their right leg, loading the leg you intend to block.
@@ -238,6 +244,8 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Tani Otoshi?</p>
+
 - **Opponent sprawls their hips back and widens their base before you can complete the drop** (Effectiveness: High) - Your Response: Abandon the technique immediately and transition to a different attack such as single leg or ankle pick. If you have already dropped, convert to seated guard and work from butterfly guard rather than remaining in a compromised position on the mat. → Leads to [[Positions/Standing Position]]
 - **Opponent steps over your blocking leg with a wide step, maintaining balance and posture** (Effectiveness: Medium) - Your Response: Immediately transition to a single leg attack on the leg that stepped over, or convert to butterfly guard hooks. The key is not to remain static in the failed throwing position - transition instantly to maintain offensive initiative. → Leads to [[Positions/Standing Position]]
 - **Opponent posts their free hand on the mat to prevent rotation and arrest the fall** (Effectiveness: Medium) - Your Response: Increase the rotational pull with your upper body grips, focusing on collapsing their posting arm. Alternatively, target the posted arm for a kimura grip as they defend the throw, or circle to take their back as they base on the mat. → Leads to [[Positions/Standing Position]]
@@ -250,6 +258,8 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Tani Otoshi?</p>
 
 ### 1. Dropping too early before establishing proper angle and upper body control
 
@@ -289,6 +299,8 @@ Executing Tani Otoshi requires committing fully to a sacrifice motion that excha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Tani Otoshi (Attacker)?</p>
+
 **Week 1-2: Foundational Mechanics** - Solo drilling the drop motion and blocking leg placement
 Practice the dropping motion repeatedly without a partner, focusing on explosive hip drop while extending blocking leg at proper height. Work on falling safely and immediately turning to simulate top position. Drill lateral stepping and angle creation. Add partner exercises with a compliant partner who allows throw completion to develop muscle memory for the full motion sequence.
 
@@ -309,48 +321,12 @@ Use in competition or competition-level sparring. Develop deceptive setups and e
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes Tani Otoshi effective despite being a sacrifice throw?
-**A**: The primary principle is creating a rigid mechanical obstacle (your blocking leg) below the opponent's center of gravity while simultaneously pulling their upper body forward and across your body. This creates a lever system where their forward momentum and body weight work against them, making it nearly impossible to maintain balance once properly executed. The sacrifice of your own base is compensated by the overwhelming mechanical advantage created through the leg block combined with rotational pulling force from upper body grips.
-
-**Q2**: Why is the lateral angle step critical to Tani Otoshi's success, and what happens if you attempt the throw from directly in front of your opponent?
-**A**: The lateral angle step (typically 45 degrees) is critical because it positions your blocking leg across the opponent's leg line while simultaneously loading their weight onto the leg you intend to block. Attempting from directly in front means your blocking leg would need to wrap around further, giving opponent time to react and step over. The angle also creates rotational momentum that amplifies the throw. Without proper angle, the throw becomes a strength contest rather than a technical leverage advantage.
-
-**Q3**: Your opponent is aggressively driving forward with collar tie pressure - how does this create an opportunity for Tani Otoshi?
-**A**: Forward pressure loads the opponent's weight onto their front foot, which is exactly the weight distribution Tani Otoshi exploits. Instead of fighting the pressure, use it by taking a lateral step to create your angle while they continue driving forward. Their forward momentum adds to the rotational force of the throw when you drop and block. The key is redirecting their forward energy laterally rather than absorbing it. Time the drop for the moment their weight is most committed forward, typically during a strong push or step.
-
-**Q4**: What grip configuration provides the strongest mechanical advantage for Tani Otoshi in gi, and why?
-**A**: A high collar grip on the same side as your intended blocking direction combined with a sleeve grip on the opposite side provides optimal control. The collar grip allows you to pull the opponent's head and upper body down and across during the sacrifice, while the sleeve grip prevents them from posting their free hand to arrest the fall. This cross-body pulling configuration creates maximum rotational force. The collar grip should be deep behind the neck for maximum leverage rather than a shallow lapel grip.
-
-**Q5**: You attempt Tani Otoshi but your opponent steps over your blocking leg - what are your two best immediate tactical responses?
-**A**: First option: immediately transition to a single leg attack on the leg that stepped over your block, as it is now extended and isolated forward. Drive into the single leg as you come up from your dropped position. Second option: convert to butterfly guard by inserting hooks behind both of their knees from your seated position. This maintains offensive initiative and prevents opponent from capitalizing on your failed throw. Never remain static in the failed position waiting for them to pass.
-
-**Q6**: How should you adjust Tani Otoshi execution against an opponent who is significantly taller than you?
-**A**: Against taller opponents, close distance more aggressively in the setup phase to negate their reach advantage. Your blocking leg should target lower on their leg (upper shin area rather than knee) since their longer limbs create more leverage to step over higher blocks. Pull their upper body down more aggressively during the throw to overcome their height advantage. Consider using collar ties or head control to break their posture before attempting the throw. The lateral step may need to be slightly deeper to create proper angle given their longer stride length.
-
-**Q7**: What is the most critical difference between the drop phase of Tani Otoshi and simply sitting to guard?
-**A**: The critical difference is directional intent and body mechanics. In Tani Otoshi, the drop is explosive and directed laterally with one leg extending as a rigid block while upper body grips maintain active pulling tension throughout. A guard pull involves sitting straight down or backward with legs ready to engage hooks. In Tani Otoshi, your hips drop while your chest stays connected to the opponent's chest, and the blocking leg is locked straight rather than bent for hooks. The pulling action must be continuous through the entire drop - releasing pulling pressure converts the throw into a failed guard pull.
-
-**Q8**: Why is Tani Otoshi particularly effective in no-gi and MMA contexts compared to other traditional Judo throws?
-**A**: Tani Otoshi requires less grip dependency than throws like Seoi Nage or Uchi Mata which rely heavily on gi fabric control. The technique works effectively with body locks, over-under positions, or simple collar ties - all available in no-gi contexts. The lateral nature of the attack is less expected where most takedowns are linear (shots, body locks), creating surprise. The sacrifice nature also reduces guillotine counter risk since you control head position throughout. Finally, it requires less explosive lifting power than traditional throws, making it more energy efficient in extended competition.
-
-**Q9**: What role does Tani Otoshi play in a standing attack chain, and which throws complement it best?
-**A**: Tani Otoshi functions as a lateral sacrifice attack that punishes forward weight commitment. It complements linear attacks like Kouchi Gari and Ouchi Gari, which force the opponent forward and load their weight onto the target leg. If the opponent defends Tani Otoshi by stepping back, Osoto Gari becomes available attacking the retreating leg. If they circle away, Tai Otoshi on the opposite side intercepts their circular motion. This creates a three-directional threat system: forward attacks set up the lateral sacrifice, and the sacrifice defenses open rear and opposite-side attacks.
-
-**Q10**: At what point during Tani Otoshi execution should you release your grips, and what happens if you release too early?
-**A**: Grips should be maintained with full pulling pressure until your opponent is clearly past the point of no return in their fall - typically when their center of gravity has passed over your blocking leg and they are airborne or falling. Releasing too early allows them to post a hand on the mat to arrest rotation, step over the block to regain balance, or simply remain standing while you sit to the mat with no control. The transition from pulling grips to posting for top position should happen during the final phase of their fall, not during the throwing motion itself.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Tani Otoshi?</p>
 
 When practicing Tani Otoshi, the person being thrown must be taught proper breakfall technique before live drilling, particularly protecting the head and posting the far arm to control landing impact. The thrower must be careful not to drive their blocking leg directly into the opponent's knee joint, which could cause lateral knee ligament damage if executed with excessive force. Practice on appropriate mats with sufficient padding, especially during initial learning phases. When drilling with resistance, communicate clearly about intensity levels to prevent awkward landings. The blocking leg should contact the lower leg or upper shin area rather than directly into the knee. Partners should tap or verbally signal if they feel unstable or unable to safely complete the fall. Never practice this throw on hard surfaces or without proper supervision during the learning phase. Special caution is warranted with heavier training partners, as the combined body weight during the sacrifice can increase impact forces significantly.
 

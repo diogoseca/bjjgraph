@@ -204,7 +204,7 @@ The Roll to Truck transition connects the front headlock and turtle attack syste
 
 - [[Submissions/Twister]] - Primary submission from truck position
 
-- [[Submissions/Calf Slicer from Truck]] - Secondary submission attacking trapped leg
+- [[Submissions/Calf Slicer]] - Secondary submission attacking trapped leg from truck
 
 - [[Submissions/Banana Split]] - Alternative submission from truck
 

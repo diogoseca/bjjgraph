@@ -162,6 +162,8 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sit Through to Guard?</p>
+
 - Bottom player shifts weight onto one arm and plants it firmly forward of their shoulder, establishing the posting pivot point
 - Far-side arm begins pushing against your shoulder, hip, or arm instead of staying in defensive turtle posture
 - Bottom player's near-side knee lifts off the mat as they prepare to thread the leg through the gap
@@ -174,6 +176,8 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sit Through to Guard?</p>
 
 - Maintain balanced weight distribution rather than committing heavily forward, denying the trigger the bottom player needs
 - Control the far-side arm to prevent the framing action that creates separation for the leg thread
@@ -189,6 +193,8 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sit Through to Guard?</p>
 
 ### 1. Drive chest pressure forward and sprawl hips back to flatten the posting arm
 
@@ -226,6 +232,8 @@ Defending the Sit Through to Guard requires the turtle top player to recognize e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sit Through to Guard?</p>
+
 ### → [[Positions/Turtle]]
 
 Prevent the sit through entirely by maintaining balanced pressure, controlling the far-side arm with an underhook, and collapsing the posting arm when you detect the setup. Drive shoulder pressure into their back while keeping hips mobile to follow any lateral movement attempts.
@@ -241,6 +249,8 @@ If the sit through is initiated, follow their rotation by maintaining chest-to-b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sit Through to Guard?</p>
 
 ### 1. Committing weight too far forward onto the bottom player's upper back
 
@@ -275,6 +285,8 @@ If the sit through is initiated, follow their rotation by maintaining chest-to-b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sit Through to Guard?</p>
+
 **Week 1-2** - Recognition drilling
 Partner in turtle announces when they will attempt the sit through. Focus on recognizing the setup cues: posting arm, framing arm, knee lift. Practice collapsing the posting arm with chest pressure and securing the far-side underhook. No live resistance, focus on pattern recognition and correct defensive positioning.
 
@@ -291,29 +303,6 @@ Full-speed positional rounds starting from turtle top. Bottom player uses all tu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a sit through from turtle?
-**A**: The earliest cue is the bottom player shifting weight onto one arm and planting it firmly forward of their shoulder as a posting point. This weight shift is necessary before they can lift the near knee to thread the leg through. Simultaneously, watch for their far arm breaking the tight defensive shell and beginning to push against your shoulder or hip to create a frame. These setup actions precede the actual sit through by one to two seconds, giving you time to respond.
-
-**Q2**: Why is the far-side underhook the most effective preventive grip against the sit through?
-**A**: The far-side underhook directly neutralizes the framing arm that creates separation for the sit through. Without the frame, the bottom player cannot prevent you from following their rotation, making the escape mechanically impossible. The underhook also gives you superior control for your own offensive transitions including back takes and flatten sequences. It addresses the root cause of the escape rather than just reacting to symptoms.
-
-**Q3**: Your opponent has already begun threading their leg mid-sit-through - what is the highest percentage response?
-**A**: Follow their rotation by maintaining chest-to-back contact and circling with them rather than trying to stuff the leg back. As they rotate, you have a window to insert your near-side hook before they can fully face you and establish guard. Keep your hips glued to theirs throughout the movement and use the seatbelt grip to maintain upper body control. If executed correctly, their sit through actually assists your back take as their rotation creates hook entry opportunities.
-
-**Q4**: How should you adjust your weight distribution to deny the sit through without overcommitting forward?
-**A**: Direct your pressure downward at approximately 45 degrees through your chest into their upper back, rather than driving horizontally forward. Keep your hips relatively heavy and positioned over their hips rather than stacking onto their shoulders. Maintain a mobile base by keeping your knees slightly wider than shoulder width. This distribution prevents the lateral movement needed for the sit through while keeping you balanced enough to follow any direction change without being redirected by their escape attempt.
-
-**Q5**: Your opponent feints a sit through to one side then executes it to the opposite side - how do you defend the misdirection?
-**A**: The key is responding to the feint with body positioning rather than committing to a specific counter. When you feel the initial lateral shift, maintain center position and follow with your hips rather than lunging to block. Keep your chest centered on their spine and let your hips stay heavy and neutral. When the real sit through comes to the opposite side, you are still in position to follow. If you overcommit to the feint side by driving laterally, you create the exact space they need on the opposite side for the real escape.
-
-
-
-</section>
 
 
 </main>

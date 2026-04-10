@@ -208,7 +208,7 @@ Seat Belt to Full Back Control sits at the pivotal junction between back take en
 
 - [[Transitions/Seat Belt to Body Triangle]] - Alternative consolidation path upgrading to body triangle instead of hooks
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat unlocked by completing back control consolidation
+- [[Submissions/Rear Naked Choke]] - Primary submission threat unlocked by completing back control consolidation
 
 - [[Positions/Back Control/Body Triangle]] - Alternative leg control configuration achievable after or instead of hook insertion
 
@@ -218,7 +218,7 @@ Seat Belt to Full Back Control sits at the pivotal junction between back take en
 
 - [[Transitions/Escape Seat Belt Control]] - Defensive transition the attacker must prevent during hook insertion window
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission accessible once full back control is established
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi submission accessible once full back control is established
 
 
 </section>

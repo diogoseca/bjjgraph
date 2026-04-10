@@ -49,7 +49,7 @@
       "relationship": "Target position - shoulder lock control achieved on success"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Omoplata",
       "relationship": "Related submission - primary finishing technique from omoplata control"
     },
     {
@@ -77,7 +77,7 @@
       "relationship": "Related transition - omoplata entry from closed guard position"
     },
     {
-      "name": "Rolling Omoplata",
+      "name": "Rolling Omoplata from Omoplata Control",
       "relationship": "Related submission - rolling entry variation when opponent is heavy on top"
     },
     {
@@ -285,6 +285,18 @@
       {
         "question": "If the omoplata is blocked and you cannot establish triangle either, what position should you recover to and how?",
         "answer": "If both the omoplata and triangle are defended, recover to spider guard bottom by re-establishing your feet on the opponent's biceps and maintaining whatever sleeve grip you still have. Pull your hips back to recreate distance, place your feet back on their arms, and rebuild the spider guard control structure. The critical principle is to never remain in a compromised position between attacks. Either commit to the next attack in the chain or reset to your guard position. Attempting to force a failed technique leads to guard passes."
+      },
+      {
+        "question": "Your opponent begins stepping around your body to their right as you initiate the leg swing on their left arm - how do you adjust?",
+        "answer": "Their lateral movement creates an angular challenge but also an opportunity. Follow their movement by pivoting your hips in the same direction they are stepping, using your grounded foot to push and rotate your body to maintain the correct angle relative to their shoulder. If they step far enough around, their arm actually becomes more isolated because they are moving their body away from the trapped limb. Accelerate your leg swing to take advantage of the increased arm extension their step creates. If they complete the step before you can swing, convert to a different spider guard attack on the newly exposed side."
+      },
+      {
+        "question": "What role does the non-attacking foot play during each phase of the transition, and why is its placement critical?",
+        "answer": "The non-attacking foot serves three distinct functions across the phases. During setup, it controls the opponent's opposite bicep in spider guard, maintaining dual control. When you begin the attack, it plants on the mat or opponent's hip to serve as the rotational base for your leg swing, generating the explosive force needed to clear the shoulder. After establishing omoplata control, it hooks the opponent's far hip to prevent the forward roll escape. Missing any of these transitions leaves a gap in your control chain: without the base, the swing lacks power; without the hip hook, the opponent rolls free."
+      },
+      {
+        "question": "When should you abandon the omoplata attempt entirely and reset rather than chain to another attack?",
+        "answer": "Reset to spider guard when the opponent has successfully extracted their arm past your knee line and is already establishing passing grips, when you have lost both sleeve grips and have no remaining control points, or when the opponent has achieved a strong stacking position with their hips above yours and you cannot redirect to triangle. The key indicator is whether you still have meaningful control of at least one limb. If you have zero control points, any attack attempt will fail and leave you vulnerable to a pass. A fast reset to spider guard preserves your guard structure and lets you restart the attack cycle."
       }
     ],
     "safety_considerations": "When training the spider guard to omoplata transition, both partners must exercise control to prevent shoulder injuries. The omoplata attacks the shoulder joint through external rotation, which is vulnerable to rotator cuff tears, labral damage, and dislocation if excessive force is applied suddenly. The person executing the technique should apply finishing pressure gradually and incrementally, stopping immediately if the partner taps or shows discomfort. During drilling, focus on position control and the transition mechanics rather than finishing the submission until you have developed sensitivity to how much pressure the position creates. Partners defending should tap early when they feel rotational pressure on the shoulder and should never attempt to power through shoulder locks, as this dramatically increases injury risk. When practicing the leg swing, be mindful of your partner's neck and avoid dropping your full weight suddenly onto their cervical spine. Warm up shoulders thoroughly before omoplata drilling sessions."

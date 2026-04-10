@@ -257,7 +257,7 @@
         "duration": "10 minutes continuous switching"
       },
       {
-        "name": "Dynamic Pressure Application Under Movement",
+        "name": "Dynamic Pressure Under Movement",
         "description": "Top player maintains Shoulder of Justice Top position while bottom partner attempts progressive escape sequences from passive to active resistance. Top player must maintain shoulder pressure throughout all opponent movements, continuously adjusting shoulder angle, base positioning, and hip connection. Reset when control is lost. Progress resistance from 25% to 75% over the drill duration.",
         "duration": "3 rounds x 3 minutes with increasing resistance"
       },
@@ -320,11 +320,7 @@
     },
     "transitions": [
       {
-        "transition": "Kimura",
-        "attempt_probability": 18
-      },
-      {
-        "transition": "Americana",
+        "transition": "Americana from Shoulder of Justice",
         "attempt_probability": 12
       },
       {
@@ -336,11 +332,11 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Shoulder of Justice",
         "attempt_probability": 11
       },
       {
-        "transition": "North-South Choke",
+        "transition": "North-South Choke from Shoulder of Justice",
         "attempt_probability": 10
       },
       {
@@ -357,7 +353,7 @@
       },
       {
         "transition": "Kimura from Shoulder of Justice",
-        "attempt_probability": 2
+        "attempt_probability": 20
       }
     ]
   },

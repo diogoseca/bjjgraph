@@ -162,6 +162,8 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cartwheel Escape from Omoplata?</p>
+
 - Opponent shifts weight forward onto their hands and the trapped shoulder, loading momentum for the roll
 - Opponent plants their free hand firmly on the mat beside your hip on the far side, establishing a posting base
 - Opponent's head drops toward the mat as they tuck their chin in preparation for the forward roll
@@ -174,6 +176,8 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cartwheel Escape from Omoplata?</p>
 
 - Establish belt or hip control immediately after securing the omoplata to eliminate the forward rolling window
 - Sit up perpendicular to the opponent's body as quickly as possible to increase shoulder pressure and reduce escape space
@@ -188,6 +192,8 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cartwheel Escape from Omoplata?</p>
 
 ### 1. Secure belt or hip grip and anchor the opponent's body to prevent forward momentum
 
@@ -225,6 +231,8 @@ As the defender holding the omoplata, your primary objective is to prevent the c
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cartwheel Escape from Omoplata?</p>
+
 ### → [[Positions/Omoplata Control]]
 
 Prevent the escape entirely by establishing belt or hip control immediately after securing the omoplata. Sit up perpendicular to the opponent and increase shoulder pressure while using the free leg as a blocking frame. Early grip establishment is the key - do not wait for the opponent to begin their escape before securing control points.
@@ -240,6 +248,8 @@ When the opponent commits to the forward roll despite your control attempts, fol
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cartwheel Escape from Omoplata?</p>
 
 ### 1. Failing to establish belt or hip control before threatening the omoplata finish
 
@@ -269,6 +279,8 @@ When the opponent commits to the forward roll despite your control attempts, fol
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cartwheel Escape from Omoplata?</p>
+
 **Phase 1: Recognition Drilling** - Identifying escape cues and timing
 Partner in omoplata control signals cartwheel escape attempts at various stages. Defender practices identifying the posting hand, weight shift, and head drop cues. No actual escapes are completed - focus is purely on recognizing the intent to escape and calling it out verbally before the partner commits.
 
@@ -285,29 +297,6 @@ Begin from omoplata control with full resistance. Defender must decide in real-t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important control point for preventing the cartwheel escape from omoplata?
-**A**: The belt or hip grip is the most critical control point because it directly anchors the opponent's body and eliminates the forward space needed for the roll. Without this grip, even excellent leg positioning can be overcome by sufficient forward momentum. The grip should be established as the very first action after threading the leg over the shoulder, before any attempt at sitting up or applying finishing pressure.
-
-**Q2**: How should you respond when you recognize the opponent has already committed to the forward roll?
-**A**: Switch immediately from prevention to exploitation. Maintain hip connection by keeping your controlling leg and shin tight against their back, and follow their rolling momentum by riding over them. Use the energy of their roll to transition directly into mount or side control rather than fighting against the momentum. The key is maintaining physical contact throughout the roll rather than trying to re-engage after they complete it.
-
-**Q3**: What early recognition cues indicate the opponent is about to attempt a cartwheel escape?
-**A**: Watch for the opponent planting their free hand firmly on the mat on your far side, which establishes their posting base. Their weight will shift forward onto the hands and trapped shoulder, and their head will drop toward the mat as they tuck the chin. The hips will begin driving forward and upward to generate momentum. Recognizing the hand posting is the earliest and most reliable cue, as it typically occurs one to two seconds before the actual roll begins.
-
-**Q4**: Why is sitting up perpendicular to the opponent important for preventing the cartwheel escape?
-**A**: Sitting up perpendicular accomplishes two critical objectives simultaneously. First, it increases the rotational pressure on the trapped shoulder, making the forward roll more painful and mechanically difficult. Second, it reduces the space between your body and the opponent's, physically blocking the forward rolling path. The combination of increased pressure and reduced space makes the cartwheel escape nearly impossible when combined with a belt or hip grip.
-
-**Q5**: How do you use the free leg to complement your hip control in preventing the cartwheel escape?
-**A**: The free leg serves as an additional blocking frame by hooking the opponent's far hip or thigh. This hook removes the base they need to generate forward momentum for the roll. Position the free leg behind their far hip and pull toward you, which simultaneously blocks the roll and helps you sit up into the perpendicular control position. The free leg hook is especially important when you have not yet secured the belt grip, as it provides an alternative anchor point.
-
-
-
-</section>
 
 
 </main>

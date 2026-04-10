@@ -100,7 +100,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Available Transitions
 
 
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (31% of attempts)
+- **[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Outside Heel Hook from Outside Ashi-Garami]]** (31% of attempts)
 
 - **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (25% of attempts)
 
@@ -114,7 +114,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 
 - **[[Transitions/Counter Sweep from Outside Ashi/Attacker|Counter Sweep from Outside Ashi]]** (4% of attempts)
 
-- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -193,7 +193,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 
 - **[[Transitions/Saddle Entry from Outside Ashi/Attacker|Saddle Entry from Outside Ashi]]** (0% of attempts)
 
-- **[[Transitions/Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (1% of attempts)
+- **[[Toe Hold from Outside Ashi/Attacker|Toe Hold from Outside Ashi]]** (1% of attempts)
 
 
 ### Common Mistakes

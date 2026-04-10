@@ -166,6 +166,8 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag Escape to Closed Guard?</p>
+
 - Bottom player's near-side arm moves to establish a forearm frame against your shoulder or bicep—this is the first step of the escape sequence
 - Bottom player's far hand reaches for your hip or pants at hip level, establishing the secondary frame that precedes the hip escape
 - Bottom player bridges or begins a hip escape motion, moving their hips diagonally away from you—this is the critical movement that creates extraction angle
@@ -178,6 +180,8 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag Escape to Closed Guard?</p>
 
 - Maintain constant shoulder or head pressure to deny the primary frame establishment
 - Keep the trapped leg secured tightly against your body—never allow slack in your leg control grip
@@ -192,6 +196,8 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag Escape to Closed Guard?</p>
 
 ### 1. Drive shoulder pressure through their frame and re-secure crossface or head control
 
@@ -229,6 +235,8 @@ Advanced defenders learn to weaponize the bottom player's escape attempts. When 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag Escape to Closed Guard?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Maintain constant shoulder pressure and tight leg control grip throughout the escape attempt. Drive weight diagonally to deny the hip escape angle. When you feel frames establishing, immediately increase pressure at the shoulder rather than allowing separation. Follow any hip movement to prevent space creation. The goal is to make the escape energetically expensive and unsuccessful, forcing resets that drain the bottom player.
@@ -244,6 +252,8 @@ Use the bottom player's escape attempt as a trigger for your own advancement. Wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag Escape to Closed Guard?</p>
 
 ### 1. Allowing space to develop between your chest and their hip without following their movement
 
@@ -273,6 +283,8 @@ Use the bottom player's escape attempt as a trigger for your own advancement. Wh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag Escape to Closed Guard?</p>
+
 **Week 1-2** - Pressure maintenance and escape recognition
 Hold leg drag control while partner performs the escape sequence at 30% speed. Learn to feel each step of the escape—frame establishment, hip escape initiation, leg extraction attempt. Focus on maintaining pressure through each phase without worrying about counters yet. Develop sensitivity to the specific tactile cues that signal each escape step.
 
@@ -289,29 +301,6 @@ Full resistance positional sparring starting from leg drag top. Partner uses all
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you your opponent is about to attempt the closed guard recovery?
-**A**: The earliest cue is their near-side arm moving toward your shoulder to establish a forearm frame. This is always the first step in the escape sequence because the hip escape requires upper body separation to be mechanically possible. Recognizing and disrupting this frame attempt before it solidifies prevents the entire escape chain from developing.
-
-**Q2**: Your opponent successfully establishes a shoulder frame and begins hip escaping—what is your highest-percentage response?
-**A**: Follow their hip escape movement and transition to back take by reaching over their far shoulder as their rotation creates back exposure. The hip escape that enables guard recovery simultaneously turns their body away from you, which is the exact position you need for back control. This converts their escape attempt into a worse position rather than simply trying to prevent the escape through static resistance.
-
-**Q3**: How do you maintain leg drag control pressure without exhausting yourself against repeated escape attempts?
-**A**: Use skeletal alignment rather than muscular effort—keep your chest bone-on-bone with their hip and let gravity provide the pressure. Drive at 45-degree angles rather than straight down, which is more efficient and harder for frames to redirect. Stay on the balls of your feet for mobility rather than sitting heavy. Most importantly, advance your position rather than simply holding—settled side control or back control requires less energy to maintain than dynamic leg drag retention.
-
-**Q4**: Why is it strategically better to use the escape attempt as a transition trigger rather than purely preventing it?
-**A**: Every escape attempt creates movement, commitment, and exposure that can be exploited. When the bottom player frames and hip escapes, they necessarily shift weight, create angles, and often expose their back. Using this as a trigger for your advancement—back take, side control consolidation, mount transition—is higher percentage than static resistance because you are flowing with their movement rather than fighting it. Static resistance eventually fails against persistent escapes; advancement solves the problem permanently.
-
-**Q5**: Your opponent keeps resetting their frames after you collapse them—how do you break this cycle?
-**A**: Advance your position rather than continuing to fight the same battle. Each time you collapse their frame, immediately transition toward side control or back take rather than simply re-settling in leg drag. The frame-collapse moment creates a brief window where their arms are occupied and their defensive structure is compromised. Use that window to advance one step in your passing sequence. Two or three incremental advances during frame collapses will put you past the escape danger zone entirely.
-
-
-
-</section>
 
 
 </main>

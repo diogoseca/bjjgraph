@@ -148,6 +148,8 @@ As the top player defending against the Frame and Shrimp escape from Knee on Bel
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Shrimp from Knee on Belly?</p>
+
 - Bottom player places forearm against your knee and hand on your hip or belt, establishing the dual frame structure that precedes the escape
 - Bottom player begins rotating to their side, reducing surface area under your knee and creating the hip angle needed for shrimping
 - Bottom player plants both feet flat on the mat with knees bent, preparing for the bridge that will momentarily unweight your knee
@@ -159,6 +161,8 @@ As the top player defending against the Frame and Shrimp escape from Knee on Bel
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Shrimp from Knee on Belly?</p>
 
 - Maintain constant forward pressure through the knee to limit the bottom player's ability to create effective frames and generate hip escape movement
 - Control at least one upper body contact point — collar, belt, or wrist — to restrict the bottom player's framing ability and create submission threats that deter the escape
@@ -173,6 +177,8 @@ As the top player defending against the Frame and Shrimp escape from Knee on Bel
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Shrimp from Knee on Belly?</p>
 
 ### 1. Follow the hip escape by hopping your knee to the bottom player's new torso position, maintaining pressure contact throughout their lateral movement
 
@@ -203,6 +209,8 @@ As the top player defending against the Frame and Shrimp escape from Knee on Bel
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Shrimp from Knee on Belly?</p>
+
 ### → [[Positions/Knee on Belly]]
 
 Follow the bottom player's hip escape by adjusting your knee position to track their torso rather than anchoring to a mat position. Use your grips on collar and belt to limit their movement range and re-settle your weight after each escape attempt. Punish their framing arms with submission threats to discourage repeated attempts.
@@ -218,6 +226,8 @@ Capitalize on the space the bottom player creates during their shrimp by steppin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Shrimp from Knee on Belly?</p>
 
 ### 1. Remaining static with full weight committed through the knee instead of staying mobile and ready to follow escape movement
 
@@ -247,6 +257,8 @@ Capitalize on the space the bottom player creates during their shrimp by steppin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Shrimp from Knee on Belly?</p>
+
 **Recognition Drilling** - Identifying escape initiation cues
 Partner signals the Frame and Shrimp escape by establishing frames and turning to their side at varying speeds. Practice identifying the cues — frame placement, side rotation, foot positioning — and calling them out before the partner executes the full escape. Develops anticipatory awareness for early intervention.
 
@@ -263,26 +275,6 @@ Maintain KOB against a fully resisting partner who mixes Frame and Shrimp with o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to attempt the Frame and Shrimp escape?
-**A**: The earliest cues are the bottom player placing their forearm against your knee while their other hand reaches for your hip or belt — this dual frame structure is the prerequisite for the escape. Additionally, watch for them rotating to their side and planting both feet flat on the mat. These movements signal the bridge-and-shrimp sequence is imminent. Responding before the shrimp begins is significantly more effective than reacting after displacement has already occurred.
-
-**Q2**: Your opponent has partially escaped with their hips displaced but has not yet inserted their knee — what is your best response?
-**A**: This is the critical decision window for transitioning to mount. The space the bottom player created with their shrimp is the same space you can use to step your free leg across and establish mount. Act immediately by swinging your posted foot over their body and settling your hips before they can close the distance with their knee insertion. If mount is not available due to angle or timing, hop your knee to their new torso position to re-establish KOB.
-
-**Q3**: Why is following the hip escape more effective than increasing downward pressure on the same spot?
-**A**: The hip escape creates lateral displacement that moves the bottom player's torso out from under your knee contact point. Increasing downward pressure on the position they have already vacated applies force to empty space while they continue escaping. Following the movement by repositioning your knee keeps constant pressure on their torso, maintaining the control relationship. Your knee should track their solar plexus as a moving target rather than anchoring to a fixed position on the mat.
-
-**Q4**: How do you balance between maintaining KOB and attacking your opponent's framing arms?
-**A**: Attack the framing arm only from a stable, fully settled KOB position where your base is secure and the opponent's escape has not yet begun. If the escape is already in motion with active hip displacement, prioritize position over submission — maintaining KOB or advancing to mount provides sustained advantage, while a failed submission attempt from a compromised base often loses the position entirely. Use arm attacks primarily as deterrents that discourage framing rather than as primary objectives during active escape defense.
-
-
-
-</section>
 
 
 </main>

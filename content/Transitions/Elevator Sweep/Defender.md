@@ -166,6 +166,8 @@ From a strategic perspective, the defender should view elevator sweep defense no
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elevator Sweep?</p>
+
 - Opponent swims arm over yours to establish a deep overhook while seated in butterfly guard, gripping your lat or back of gi
 - Opponent drives their head tight into your chest on the overhook side, eliminating space and preventing you from extending that arm
 - Opponent shifts their hips to create an angle toward the overhook side, with the overhook-side shoulder dropping lower than the other
@@ -178,6 +180,8 @@ From a strategic perspective, the defender should view elevator sweep defense no
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elevator Sweep?</p>
 
 - Deny the overhook by maintaining strong elbow-to-hip connection and active hand fighting to prevent arm control
 - Keep posture upright with hips back to prevent being pulled into optimal sweeping range where hooks are most effective
@@ -193,6 +197,8 @@ From a strategic perspective, the defender should view elevator sweep defense no
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elevator Sweep?</p>
 
 ### 1. Post far hand to the mat on the sweep side and drive weight into the post to create a structural base that resists the rotation
 
@@ -230,6 +236,8 @@ From a strategic perspective, the defender should view elevator sweep defense no
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elevator Sweep?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Successfully post on the sweep side to stop the rotation, then re-establish combat base with proper posture. Work to strip the overhook and disengage the head position to return to a neutral butterfly guard top position where you can begin your passing game.
@@ -245,6 +253,8 @@ Sprawl back aggressively to flatten opponent's posture, strip the overhook, and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elevator Sweep?</p>
 
 ### 1. Leaning forward with weight committed over opponent's hooks while they have overhook and head position established
 
@@ -279,7 +289,9 @@ Sprawl back aggressively to flatten opponent's posture, strip the overhook, and 
 
 ## Training Progressions
 
-**Phase 1: Recognition and Grip Fighting (Weeks 1-3)** - Identifying elevator sweep setup and contesting grips early
+<p class="section-subtitle">How do you train defense against Elevator Sweep?</p>
+
+**Phase 1: Recognition and Grips (Weeks 1-3)** - Identifying elevator sweep setup and contesting grips early
 Partner establishes butterfly guard and slowly works through the elevator sweep setup sequence. Defender focuses on recognizing each stage - hook insertion, overhook attempt, head positioning, angle creation - and practices contesting the overhook through active grip fighting. No sweep attempts at this phase, purely focused on recognition and early-stage disruption. 15-20 repetitions per round with partner announcing each setup phase.
 
 **Phase 2: Defensive Response Drilling (Weeks 4-6)** - Practicing specific defensive responses against each sweep component
@@ -295,29 +307,6 @@ Partner attempts elevator sweep at 75% intensity. Defender practices not just st
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three interconnected elements that make the elevator sweep effective, and why must you deny at least one?
-**A**: The three elements are deep butterfly hooks providing vertical lift, an overhook or underhook controlling upper body rotation, and tight head position preventing the defender from posting. You must deny at least one because the sweep's power comes from the coordinated interaction of all three. Without hooks, there is no lift. Without the overhook, there is no rotational control. Without head position, the defender can post and base. Removing any single element dramatically reduces the sweep's effectiveness and creates openings for passing.
-
-**Q2**: When is the optimal moment to intervene defensively against the elevator sweep, and why is early intervention critical?
-**A**: The optimal moment is during the grip-fighting and setup phase, before opponent establishes the overhook and head position simultaneously. Early intervention is critical because the elevator sweep follows a sequential setup - hooks, then overhook, then head position, then angle, then lift. Each completed step makes defense exponentially harder. Contesting the overhook during initial grip fighting requires minimal energy, while resisting a fully loaded sweep with all elements established may be physically impossible regardless of strength differential.
-
-**Q3**: Your opponent has established the overhook and is driving their head into your chest - what is your immediate defensive priority?
-**A**: Your immediate priority is to create space between their head and your chest using frames while simultaneously working to strip the overhook. Frame with your forearm against their jaw or shoulder on the overhook side to push their head away, then circle your trapped arm free by pulling your elbow tight to your hip. Without the head connection, you can extend and post if the sweep is attempted. If the overhook is too deep to strip quickly, sprawl your hips back aggressively to flatten their posture before the lift begins, accepting the overhook but denying the elevation angle.
-
-**Q4**: How can you use the elevator sweep defense as a launching point for your own passing game?
-**A**: Each defensive reaction creates offensive opportunities. When you sprawl to deny the sweep, opponent's flattened posture opens butterfly smash passing and body lock passing. When you strip the overhook and establish crossface, you can immediately flow into knee slice or pressure pass. When you post to stop a sweep attempt, the opponent's commitment to pulling creates a brief window where one hook disengages, allowing you to establish half guard top and begin knee cut passing. The best defenders treat sweep defense as the first move in a passing sequence rather than an isolated survival technique.
-
-**Q5**: Why is maintaining a wide, staggered base critical when defending the elevator sweep, and how should your feet be positioned?
-**A**: A wide, staggered base creates structural resistance against the angular sweep direction because the elevator sweep attacks the corner of your base. With feet wide, the tipping point is further from your center of mass, requiring more force to sweep you. The stagger means one foot is slightly forward, providing the ability to post in the sweep direction and creating asymmetric resistance that is harder for the synchronized hook lift to overcome. Feet should be approximately shoulder-width apart with one foot 6-8 inches ahead, knees actively driving outward to resist hook elevation.
-
-
-
-</section>
 
 
 </main>

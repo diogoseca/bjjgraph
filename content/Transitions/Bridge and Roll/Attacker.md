@@ -188,6 +188,8 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge and Roll?</p>
+
 - Create frames to prevent submission attacks before attempting escape
 - Trap arm and same-side leg simultaneously for maximum control
 - Bridge at 45-degree angle toward trapped side, not straight up
@@ -203,6 +205,8 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge and Roll?</p>
+
 - Opponent mounted with knees spread for base and not grapevined
 - Clear space created with defensive frames to prevent immediate submissions
 - Both hands free to execute trapping motions without active submission threat
@@ -216,6 +220,8 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge and Roll step by step?</p>
 
 1. **Establish defensive frames**: Place both hands on opponent's hips or biceps to create space and prevent them from establishing high mount or attacking submissions. Keep elbows tight to body to protect against arm attacks. This framing creates the necessary space to begin the escape sequence.
 2. **Choose side and trap arm**: Select the side where opponent's base appears weaker (usually the side they're leaning toward or posting with). Reach across your body with your same-side hand to grab their wrist or sleeve, pulling their arm across your centerline and trapping it tight against your chest. The trapped arm must be controlled completely as this becomes their only potential post.
@@ -245,6 +251,8 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge and Roll?</p>
+
 - **Opponent establishes high mount and grapevines legs before escape attempt** (Effectiveness: High) - Your Response: Use hip escape to create space and walk hips back to regular mount position before attempting bridge and roll. Cannot execute effective bridge with legs grapevined. → Leads to [[Positions/Mount/High Mount]]
 - **Opponent posts with free arm to prevent roll** (Effectiveness: High) - Your Response: Immediately switch to opposite side bridge and roll, or transition to elbow escape using the space created by their post. Their committed post on one side creates vulnerability on the opposite side. → Leads to [[Positions/Mount]]
 - **Opponent widens base and keeps hips low to resist bridge** (Effectiveness: Medium) - Your Response: Use frames to push their hips backward first, forcing them to shift weight forward before bridging. Can also fake bridge to one side to get them to commit base, then attack opposite side. → Leads to [[Positions/Mount]]
@@ -257,6 +265,8 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge and Roll?</p>
 
 ### 1. Bridging straight up instead of at 45-degree angle toward trapped side
 
@@ -301,6 +311,8 @@ The Bridge and Roll is executed by the bottom player trapped under mount, using 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge and Roll (Attacker)?</p>
+
 **Week 1-2: Solo Fundamentals** - Bridging mechanics and hip mobility
 Practice bridging motion solo focusing on full hip extension and explosive power. Work on creating 45-degree angles by turning hips. Drill arm trapping and foot hooking motions separately to develop muscle memory for each component.
 
@@ -324,48 +336,12 @@ Develop nuanced understanding of when bridge and roll is highest percentage vers
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you trap the arm and same-side foot together rather than just the arm?
-**A**: The foot trap is essential because it prevents the opponent from posting with that leg to maintain base. Even with the arm trapped, if they can post with the same-side foot, they can resist the bridge and prevent the roll. The arm and foot on the same side work together as a complete base removal system—eliminating both prevents any posting possibility on that side, forcing them to roll over the trapped shoulder. Without the foot trap, the escape has almost zero success rate against any technical opponent.
-
-**Q2**: What is the optimal angle for bridging and why is bridging straight up ineffective?
-**A**: The optimal bridging angle is approximately 45 degrees toward the trapped side, rolling over the opponent's trapped shoulder. Bridging straight up is ineffective because the opponent can easily base out with their free arm and leg, creating a strong triangular base that resists vertical force. The angled bridge attacks their structural weakness—the trapped side where they cannot post—forcing their weight distribution to collapse toward that compromised side. This angular approach uses leverage and mechanics rather than trying to overpower their base with pure strength.
-
-**Q3**: How do you generate maximum bridging power and which muscle groups should be engaged?
-**A**: Maximum bridging power comes from full hip extension driven primarily by the glutes, hamstrings, and core muscles, not the lower back. The planted foot (opposite the trapped side) should be positioned close to the buttocks with the knee bent at approximately 90 degrees to create optimal leverage. The explosive drive comes from pressing through this planted foot while simultaneously extending the hips upward and toward the angled direction. The lower back should remain relatively stable while the power generates from the larger muscle groups of the posterior chain. Many beginners make the mistake of trying to lift with their back, which produces weak bridges and risks injury.
-
-**Q4**: Your opponent posts with their free arm mid-bridge to prevent the roll—how do you adjust?
-**A**: If the opponent successfully posts with their free arm during your bridge, you have two primary options: First, immediately abandon the bridge and roll and transition to an elbow escape (shrimp), using the space created by their committed post. Second, explosively switch to attacking the opposite side with a bridge and roll, as their committed post on one side creates a base weakness on the opposite side. Never continue forcing a failed bridge and roll against a successful post, as this wastes energy and keeps you in inferior position. Reading their counter and flowing to the appropriate response is critical for escape success.
-
-**Q5**: Why must defensive frames be established before attempting the bridge and roll escape?
-**A**: Defensive frames must be established first because attempting any escape while under immediate submission threat is tactically unsound and typically results in getting submitted. Frames create the necessary space to prevent attacks like the Americana, armbar, ezekiel choke, or collar chokes that opponents frequently threaten from mount. The frames also prevent the opponent from establishing high mount or grapevining the legs, both of which make the bridge and roll significantly less effective or impossible. The principle of survival before escape is fundamental—you must neutralize immediate threats before attempting to improve position. Only when frames are established and submission threats are managed can you safely commit to the escape sequence.
-
-**Q6**: How does timing affect the success rate of the bridge and roll, and when is the optimal moment to execute?
-**A**: Timing is critical because bridging against a well-based, stationary opponent is significantly more difficult than attacking during their movement. The optimal moments to execute are when the opponent shifts their weight forward (making their base narrow), reaches for a submission attack (committing one or both arms), or adjusts their position (creating momentary base instability). These moments create windows where their base is compromised and they cannot immediately counter your bridge. Attempting the escape when they are perfectly balanced and settled in mount has a much lower success rate, especially against experienced opponents. Advanced practitioners develop the sensitivity to feel these weight shifts and timing windows, allowing them to explode precisely when the opponent is most vulnerable to the reversal.
-
-**Q7**: What is the relationship between the planted foot position and bridging effectiveness?
-**A**: The planted foot position is biomechanically crucial for generating explosive bridging power. The foot should be positioned close to the buttocks (heel nearly touching) with the knee bent at approximately 90 degrees or slightly less. This position creates optimal leverage for driving through the foot and extending the hips powerfully. If the foot is too far from the body, the angle becomes mechanically disadvantaged and produces weak, ineffective bridges. The closer the foot, the better the leverage for hip extension, similar to how a sprinter positions their feet in starting blocks. This foot placement allows maximum force transfer from the powerful glute and hamstring muscles directly into the explosive bridging motion.
-
-**Q8**: Your opponent attempts an Americana while mounted—how do you use this to set up the bridge and roll?
-**A**: When the opponent reaches for the Americana, they commit at least one arm to the attack and shift their weight toward the attacking side, both of which create the ideal setup for bridge and roll. First, address the immediate submission threat by pulling your elbow tight to your body and denying the grip. As they reach and lean, their base becomes narrow on the attacking side. Use your free hand to trap their committed arm against your chest—they've essentially trapped their own arm for you by reaching. Simultaneously hook their same-side foot. Their weight is already shifted toward that side from the Americana attempt, so your bridge requires less force to complete the reversal. The key insight is that submission attempts from mount always create escape windows.
-
-**Q9**: What grip adjustments are necessary when performing bridge and roll in no-gi versus gi?
-**A**: In gi, you can grip the opponent's sleeve at the wrist for a secure arm trap that is very difficult to strip. The gi material provides friction that helps maintain the trap throughout the roll. In no-gi, wrist control is less reliable due to sweat and lack of friction, so you must overhook the arm deeply, pulling it tight across your chest with your arm wrapping over their tricep and your hand gripping your own chest or their lat. You can also use a two-on-one grip on their wrist with both hands before transitioning to the chest trap. The foot hook remains largely the same in both contexts, though in no-gi you may need a deeper hook behind the calf to prevent the leg from slipping free during the bridge.
-
-**Q10**: How do you chain the bridge and roll with the elbow escape when your first attempt fails?
-**A**: The bridge and roll and elbow escape form a complementary escape system because defending one creates vulnerability to the other. When your bridge and roll fails—typically because the opponent posts their free arm—immediately use the elevation and space created by the bridge to hip escape away from the posting side. As your hips drop back to the mat, angle them away from the opponent and begin inserting your bottom knee into the space between your hip and their knee. The bridge created momentary space and forced them to commit their weight to one side, which is exactly the condition the elbow escape exploits. Conversely, if the elbow escape fails because the opponent drives their hip back down to block your knee insertion, their forward weight commitment sets up the bridge and roll. Drilling this chain until the transition between the two escapes is automatic is the foundation of reliable mount defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge and Roll?</p>
 
 The Bridge and Roll is one of the safer mount escapes when practiced correctly, but several precautions are necessary. Both training partners must be aware of safe landing mechanics—the person being rolled should know how to breakfall and not post with an outstretched arm, which can cause shoulder or wrist injury. When drilling with beginners, start with slow, controlled repetitions before adding explosive power. The person on bottom must be careful not to trap the arm too aggressively in a way that could hyperextend the elbow during the roll. During live training, be mindful of training space boundaries as the roll can cover significant mat distance. For those with neck issues, emphasize using hip drive rather than neck pressure when bridging. Beginners should master the basic mechanics before attempting explosive variations to avoid straining the lower back.
 

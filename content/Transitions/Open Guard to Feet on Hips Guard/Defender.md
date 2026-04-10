@@ -162,6 +162,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Open Guard to Feet on Hips Guard?</p>
+
 - Bottom player's hips begin elevating off the mat with core engagement, indicating they are loading their legs for foot placement on your hips
 - Bottom player's feet disengage from their current position and shoot forward toward your hip line rather than maintaining their current guard configuration
 - Bottom player's hands shoot forward aggressively for sleeve or collar grips simultaneously with leg movement, signaling coordinated guard establishment
@@ -173,6 +175,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Open Guard to Feet on Hips Guard?</p>
 
 - Control the ankles and pants before the bottom player's feet reach your hips—preemptive grip control defeats the transition entirely
 - Recognize the transition initiation cues (hip elevation, feet shooting forward) and respond immediately rather than waiting for the position to establish
@@ -187,6 +191,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Open Guard to Feet on Hips Guard?</p>
 
 ### 1. Preemptive ankle grips to block foot placement
 
@@ -224,6 +230,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Open Guard to Feet on Hips Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Prevent the transition entirely through preemptive ankle control, lateral movement, or level change. When the bottom player fails to establish feet on hips, they remain in an unstructured open guard where you maintain your passing initiative and grip fighting advantage.
@@ -239,6 +247,8 @@ Drive through the partially established frames with explosive forward pressure b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Open Guard to Feet on Hips Guard?</p>
 
 ### 1. Waiting passively while the bottom player establishes feet on hips with full grip coordination
 
@@ -268,6 +278,8 @@ Drive through the partially established frames with explosive forward pressure b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Open Guard to Feet on Hips Guard?</p>
+
 **Phase 1: Recognition Drills** - Identifying transition initiation cues
 Bottom player alternates between initiating the transition to feet on hips and maintaining their current guard randomly. Top player calls out 'transition' the moment they recognize the hip elevation cue. Build pattern recognition speed until identification happens within the first quarter-second of the movement.
 
@@ -281,29 +293,6 @@ Full-speed positional sparring where the bottom player attempts the transition r
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is initiating the transition to feet on hips?
-**A**: The earliest cue is the bottom player's hip elevation—their lower back arches off the mat and their core engages to lift their hips upward. This hip elevation is the prerequisite mechanical movement that must occur before their feet can reach your hips with structural power. Recognizing this hip elevation gives you a half-second advantage to initiate your defensive response before their feet arrive at your hips, which is sufficient time to grab ankles, drive forward, or change levels.
-
-**Q2**: Why is preemptive ankle control the highest-percentage defensive option against this transition?
-**A**: Preemptive ankle control defeats the transition at its source by preventing foot placement entirely. When you control both ankles, the bottom player cannot place their feet on your hips regardless of their hip elevation or grip fighting. This gives you complete control over their leg positioning and immediately opens passing opportunities (toreando by redirecting legs to one side, stack pass by driving legs over their head). No other defensive option provides this level of complete neutralization because all other options allow feet to at least partially contact the hips.
-
-**Q3**: The bottom player has just placed their feet on your hips but has not yet established any grips—what is the optimal response window?
-**A**: This half-second window between foot placement and grip establishment is your best opportunity for an aggressive response. The frames are structurally incomplete because the bottom player cannot coordinate push-pull forces without grips—their feet push but nothing pulls. Drive forward explosively with your weight low and inside their feet to collapse the unsupported frames, or immediately grab both ankles and redirect their legs to one side for a toreando pass. This window closes the moment they secure a sleeve or collar grip, so immediate action is essential.
-
-**Q4**: How should you modify your defensive approach when the bottom player has already established one collar grip before initiating the transition?
-**A**: A pre-existing collar grip means the bottom player can immediately coordinate push-pull forces once feet land. Strip the collar grip first before addressing the foot placement—use a two-on-one grip break on their collar hand while stepping back to deny hip access. If the collar grip cannot be broken quickly, accept that aggressive forward pressure is too dangerous (the collar grip enables sweep setups) and instead focus on lateral movement and ankle control to prevent bilateral frame establishment. Address the grip problem before the feet problem because the grip is what makes the feet dangerous.
-
-**Q5**: What defensive adjustment prevents the bottom player from tracking your lateral movement with hip walking?
-**A**: Move faster than they can hip-walk by taking large lateral steps rather than small shuffles, and change direction unpredictably rather than circling in one direction continuously. Pair your lateral movement with downward pressure on their near-side knee or ankle to pin their hip mobility on one side. If you can control one ankle while circling, they can only track you with one foot, which creates the asymmetric frame you need for a passing angle. The key is combining lateral movement with grip control—movement alone is matched by their hip walking, but movement plus an anchor point on their legs creates genuine angle advantage.
-
-
-
-</section>
 
 
 </main>

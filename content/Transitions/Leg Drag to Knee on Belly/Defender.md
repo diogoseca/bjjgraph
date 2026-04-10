@@ -166,6 +166,8 @@ From a strategic standpoint, your defensive options scale with how early you rec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Knee on Belly?</p>
+
 - Opponent's leg-controlling hand releases your leg and moves toward your collar, belt, or hip—this grip switch signals the transition is beginning
 - You feel the opponent's weight shift forward from their hips toward their chest and shoulders as they load pressure onto your upper body to free their knee
 - The opponent's near-side knee lifts off the mat and begins moving laterally across your body toward your centerline
@@ -178,6 +180,8 @@ From a strategic standpoint, your defensive options scale with how early you rec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Knee on Belly?</p>
 
 - React during the grip switch window when opponent releases leg control but has not yet secured knee on belly grips
 - Frame on the opponent's hip and shoulder simultaneously to prevent their weight from settling through the knee
@@ -193,6 +197,8 @@ From a strategic standpoint, your defensive options scale with how early you rec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Knee on Belly?</p>
 
 ### 1. Frame on hip and recover knee to chest as opponent releases leg grip
 
@@ -230,6 +236,8 @@ From a strategic standpoint, your defensive options scale with how early you rec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Knee on Belly?</p>
+
 ### → [[Positions/Half Guard]]
 
 Recover your trapped leg by pulling your knee to your chest the instant you feel the opponent's leg grip release. Combine with a hip escape toward their posting foot and insert your knee between your bodies to establish knee shield half guard. The grip switch window is your best opportunity because your opponent has temporarily abandoned leg control.
@@ -245,6 +253,8 @@ Frame aggressively on the opponent's hip and shoulder during the transition to p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Knee on Belly?</p>
 
 ### 1. Pushing against the knee with extended arms as it descends
 
@@ -279,6 +289,8 @@ Frame aggressively on the opponent's hip and shoulder during the transition to p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Knee on Belly?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner establishes leg drag control and slowly initiates the knee on belly transition. Focus exclusively on recognizing the grip switch moment and pulling your knee to chest on that cue. No resistance from partner beyond the initial transition. Drill until the recognition-to-reaction pathway becomes reflexive.
 
@@ -295,29 +307,6 @@ Positional sparring starting from leg drag control. Partner attempts full-speed 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive window during the Leg Drag to Knee on Belly transition?
-**A**: The primary window is during the grip switch when the opponent releases their leg control but has not yet established knee on belly grips. This brief moment creates a gap in their control system where their leg grip is gone and their upper body grips are not yet secured, giving you the best opportunity to recover your legs or disrupt their base before the position is consolidated.
-
-**Q2**: Why should you hip escape toward the opponent's posting foot rather than away from them?
-**A**: Hip escaping toward their posting foot collapses the triangular base structure they need for stable knee on belly. Their posting foot is the third point of their tripod—if you move toward it, you undermine their balance and force them to reset. Moving away from them creates more space between your bodies, which is exactly what they need to place their knee and establish a wide, stable posting base.
-
-**Q3**: Your opponent releases your trapped leg and shifts weight forward—what is your immediate response?
-**A**: Pull your knee to your chest immediately to recover your leg position while simultaneously framing on their hip with your near-side elbow tight to your body. Combine this with a hip escape toward their posting foot side to create the angle needed to insert your knee between your bodies. This must happen as a single coordinated movement—the leg grip release is your trigger to execute the full defensive sequence.
-
-**Q4**: Why is pushing against the descending knee with extended arms a critical defensive error?
-**A**: Extended arms become immediately vulnerable to armbars and Americanas because the opponent already has dominant upper body position and your arm isolation does their setup work for them. The vertical pushing force also fails to create the lateral hip escape angles needed for actual escape. Structural frames on the hip with elbows tight create escape angles without exposing your limbs to submission attacks.
-
-**Q5**: How does protecting your collar change the threat level of the completed knee on belly position?
-**A**: Denying the collar grip eliminates the opponent's highest-percentage submissions from knee on belly, specifically the baseball bat choke and cross collar choke. Without collar access, they are limited to belt or hip control which provides less submission threat and gives you significantly more time to execute your escape. Stripping the collar grip during the transition should be a reflex that happens alongside your framing and hip escape.
-
-
-
-</section>
 
 
 </main>

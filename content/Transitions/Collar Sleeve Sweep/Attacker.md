@@ -194,6 +194,8 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Collar Sleeve Sweep?</p>
+
 - Load all three mechanical systems (grips, hip foot, hooking leg) before committing to the sweep
 - Pull the collar at a 45-degree angle toward your shoulder, not straight back, to maximize rotational force
 - Extend the sleeve grip fully to prevent the opponent from posting their hand to stop the sweep
@@ -209,6 +211,8 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Collar Sleeve Sweep?</p>
+
 - Deep cross-collar grip with four fingers inside the collar near the opponent's shoulder providing strong rotational leverage
 - Firm sleeve grip at the wrist or mid-forearm on the same side, fully controlling the opponent's posting arm with complete extension
 - Foot placed on the opponent's hip on the sleeve-grip side, creating a frame that generates kicking force and distance management
@@ -222,6 +226,8 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Collar Sleeve Sweep step by step?</p>
 
 1. **Establish deep cross-collar grip**: Secure four fingers deep inside the opponent's collar near the shoulder on the cross side. The grip should provide strong leverage for pulling and rotating their upper body. Keep your elbow tight to your ribs to prevent grip breaks while maintaining constant downward tension on their posture.
 2. **Secure same-side sleeve grip at wrist**: Grip the opponent's sleeve at the wrist or mid-forearm on the same side as your collar grip. Extend their arm fully away from their body to prevent them from posting when the sweep initiates. This grip is critical—without full sleeve control, the opponent can catch themselves during the sweep.
@@ -252,6 +258,8 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Collar Sleeve Sweep?</p>
+
 - **Opponent posts free hand on the mat to brace against sweep direction** (Effectiveness: High) - Your Response: Immediately shoot a triangle by bringing your hip-posted leg over their posted arm and around their neck. Their posting hand creates the arm isolation needed for the triangle entry. Alternatively, switch to an omoplata setup targeting the posted arm. → Leads to [[Positions/Collar Sleeve Guard]]
 - **Opponent drives forward with heavy pressure to flatten your hips against the mat** (Effectiveness: Medium) - Your Response: Use the hip-posted foot to push them away and re-create distance. If they commit fully forward, redirect their momentum overhead with a tomoe nage variation or switch to a hip bump sweep that exploits their forward weight commitment. → Leads to [[Positions/Open Guard]]
 - **Opponent strips the collar grip before the sweep loads using a two-on-one wrist peel** (Effectiveness: High) - Your Response: Immediately re-establish the collar grip from a different angle or transition to spider guard or lasso guard using the maintained sleeve control. Without the collar grip, the sweep lacks sufficient rotational force to succeed. → Leads to [[Positions/Collar Sleeve Guard]]
@@ -263,6 +271,8 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Collar Sleeve Sweep?</p>
 
 ### 1. Attempting the sweep without sufficient angle, staying square to the opponent
 
@@ -302,6 +312,8 @@ As the attacker executing the Collar Sleeve Sweep, your objective is to use your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Collar Sleeve Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Individual component isolation
 Practice each component separately: collar grip pull at 45-degree angles, sleeve extension with full arm control, hip-posted foot kicks, and hooking leg placement behind a kneeling partner. No resistance. Build muscle memory for each movement in isolation before combining.
 
@@ -322,42 +334,12 @@ Begin with positional sparring starting in collar sleeve guard against fully res
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Collar Sleeve Sweep?
-**A**: The optimal timing is when the opponent's weight shifts forward against your collar pull, or during the brief moment they relax after resisting your off-balancing attempts. When they lean into your collar grip, their weight moves toward the sweep direction, amplifying your force. Additionally, transitions between grip fighting exchanges create momentary instability. Avoid attempting the sweep when the opponent has settled into a stable base with even weight distribution.
-
-**Q2**: What conditions must exist before you can attempt the Collar Sleeve Sweep?
-**A**: You need a deep cross-collar grip with four fingers inside the collar near the shoulder, a firm sleeve grip at the wrist with full arm extension, a foot posted on the opponent's hip on the sleeve-grip side, sufficient hip angle of at least 30 degrees off-center, and your free leg positioned to hook behind the opponent's far knee. All five elements must be loaded before committing—missing any single component dramatically reduces success probability.
-
-**Q3**: What is the most critical mechanical detail that determines whether the sweep succeeds or fails?
-**A**: The direction of the collar pull is the single most critical detail. Pulling straight back toward your chest allows the opponent to resist by leaning forward into the pull. Pulling at a 45-degree angle toward your shoulder creates rotational torque that attacks their base diagonally, which is exponentially harder to resist. This angular pull combined with the sleeve extension creates opposing forces that generate a twisting motion the opponent cannot counter with simple base adjustments.
-
-**Q4**: Why does the sweep most commonly fail, and how do you diagnose the problem?
-**A**: The most common failure point is insufficient sleeve extension that allows the opponent to post their hand during the sweep. If your opponent consistently catches themselves mid-sweep, check that you are maintaining full wrist-level sleeve control with their arm extended completely away from their body. The second most common failure is poor hook depth—if the hook slips off their leg, the sweep loses its base-removal component and becomes just an off-balance they can recover from.
-
-**Q5**: What specific grip configuration is required for maximum sweep effectiveness?
-**A**: The cross-collar grip needs four fingers deep inside the collar near the opponent's shoulder, with the thumb outside for maximum purchase. This placement provides the longest lever arm for rotational pulling. The sleeve grip must control at the wrist or mid-forearm—never higher than the elbow—with the arm fully extended to prevent any posting ability. Both grips must maintain tension throughout the entire sweep arc because releasing either grip mid-sweep allows recovery.
-
-**Q6**: In what direction should force be applied during the sweep execution?
-**A**: The force vectors work in three coordinated directions: the collar pulls diagonally at 45 degrees toward your shoulder creating rotation, the sleeve pushes in the opposite direction amplifying the rotational torque, and the hip-posted foot kicks laterally through the opponent's centerline while the hooking leg pulls in the sweep direction. These three force vectors create a spiral motion that attacks the opponent's base from multiple angles simultaneously, making it extremely difficult to counter with a single adjustment.
-
-**Q7**: Your opponent posts their free hand on the mat every time you attempt the sweep—how do you adjust your strategy?
-**A**: An opponent who consistently posts is giving you a triangle entry. When they post, their arm crosses the plane between your legs and their neck, creating the arm isolation needed for a triangle. Immediately shoot your hip-posted leg over their posted shoulder and around their neck while pulling their head down with the collar grip. After one or two triangle entries, the opponent will stop posting, which reopens the sweep. This sweep-to-triangle chain is the fundamental dilemma of collar sleeve guard.
-
-**Q8**: What chain attacks should you develop if the Collar Sleeve Sweep is consistently defended?
-**A**: If the opponent defends by posting, attack the triangle. If they defend by driving forward to flatten you, switch to a hip bump sweep or redirect their momentum overhead with a tomoe nage variation. If they strip your collar grip, transition to spider or lasso guard maintaining the sleeve control. If they backstep to remove your hook, follow with a collar drag to take the back. Every defensive reaction should expose them to a different attack—never attempt the same sweep twice against a prepared defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Collar Sleeve Sweep?</p>
 
 The Collar Sleeve Sweep is a relatively low-risk technique compared to submissions, but practitioners should be mindful of several safety factors. The opponent being swept should practice proper falling mechanics to avoid injury when landing on the mat. The sweeper should avoid hyperextending the controlled arm by maintaining controlled sleeve tension rather than explosive yanking. Both partners should be aware of surrounding training space to avoid colliding with other pairs during the sweep arc. The hooking leg should apply force behind the knee joint, never directly on the knee itself, to prevent ligament stress.
 

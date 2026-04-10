@@ -85,6 +85,22 @@ description: "Learn to defend the Kimura from Crab Ride in BJJ. Recognition cues
         "@type": "Answer",
         "text": "Prioritize prevention over reaction by maintaining tight elbow position continuously rather than letting the arm drift and needing explosive retraction. When forced to actively defend, commit fully to one decisive action rather than multiple weak half-attempts. Between attacks, return to compact turtle base to recover. If repeated kimura attempts keep coming, recognize that the attacker is heavily committed to the arm attack, which may create escape opportunities as their ride control loosens during the reaching motions."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you prevent the initial arm exposure that enables the Kimura from Crab Ride?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Maintain a tight turtle shell with both elbows clamped firmly against your ribcage and hands positioned close to your chin or chest rather than posted on the mat. Avoid reaching across your body to strip the crab ride hook, as this is the most common movement that exposes the far arm. When you need to post for base, use short, controlled arm extensions and retract immediately rather than leaving the arm extended. The compact posture eliminates the primary entry opportunity the attacker needs to initiate the kimura sequence."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "The attacker has fully locked the figure-four grip and is beginning to transition to Kimura Trap - what are your remaining options?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "At this late stage, your best option is to turn aggressively toward the attacker while driving your trapped elbow toward your own hip, attempting to straighten the arm and break the figure-four structure during the transitional movement. If the grip holds through the turn, focus on preventing the attacker from consolidating Kimura Trap by keeping your hips mobile and fighting to recover half guard during their positional adjustment. As a last resort, grip your own lapel or shorts with the trapped hand to create an anchor point that resists the rotational finish while you work to improve position."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura from Crab Ride?</p>
+
 - Attacker releases far-side upper body grip and reaches across your back toward your far wrist or forearm
 - Sudden increase in chest pressure pinning your shoulder blade as the attacker anchors weight before hunting the arm
 - Attacker's hand wrapping around your wrist from the outside with a C-grip and pulling laterally away from your body
@@ -166,6 +184,8 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura from Crab Ride?</p>
 
 - Keep elbows glued tight to the body in turtle to deny the initial arm isolation opening
 - Recognize the wrist grab as the critical trigger requiring immediate arm retraction response
@@ -180,6 +200,8 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura from Crab Ride?</p>
 
 ### 1. Immediately retract the far arm tight to the body, driving the elbow into your ribcage
 
@@ -217,6 +239,8 @@ Defending the Kimura from Crab Ride requires immediate recognition and decisive 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura from Crab Ride?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a sit-through or aggressive shoulder turn during the attacker's grip transition window. When they release upper body control to pursue the wrist, exploit the momentary looseness in their ride to turn into them and establish half guard. The turn must be explosive and committed to succeed before they recover control.
@@ -232,6 +256,8 @@ Retract the arm immediately upon sensing wrist contact and maintain compact turt
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura from Crab Ride?</p>
 
 ### 1. Extending the arm outward to push the attacker away or create space
 
@@ -261,6 +287,8 @@ Retract the arm immediately upon sensing wrist contact and maintain compact turt
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura from Crab Ride?</p>
+
 **Phase 1: Recognition** - Identifying the attack timeline
 Partner slowly enters the kimura from crab ride at half speed while defender practices recognizing each stage: grip release, wrist grab, arm peel, figure-four threading. Call out each stage verbally as it happens. Build awareness of the attack timeline and identify the optimal defensive windows at each stage.
 
@@ -277,26 +305,6 @@ Positional sparring starting from crab ride where the attacker can use kimura, b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Kimura from Crab Ride is being attempted?
-**A**: The earliest cue is the attacker releasing their far-side upper body grip and reaching across your back toward your far arm. This grip change typically accompanies a noticeable increase in chest pressure as they pin your shoulder with bodyweight before hunting the arm. Feeling this grip release and weight shift should immediately trigger arm retraction to compact turtle posture before the wrist grip can be established.
-
-**Q2**: Why is turning into the attacker more effective than rolling away when defending the kimura?
-**A**: Turning toward the attacker disrupts their perpendicular angle, which is the mechanical foundation for kimura leverage from crab ride. The toward-rotation collapses the space needed for figure-four threading and opens pathways to half guard and closed guard recovery. Rolling away, by contrast, often helps the attacker follow with the grip intact and can expose your back further, potentially converting a kimura attempt into a completed back take.
-
-**Q3**: Your arm is already partially isolated with a wrist grip but the figure-four is not yet complete - what is your best defensive response?
-**A**: Immediately clasp your hands together with interlocking fingers or grip your own wrist to create a physical barrier preventing the figure-four from being threaded. Simultaneously begin turning your shoulders toward the attacker and driving your hips forward to create separation. The clasped-hands defense is a temporary measure buying 3-5 seconds maximum; use that time to execute a committed sit-through or scramble before the attacker systematically breaks the grip connection.
-
-**Q4**: How should you manage energy when defending repeated kimura attempts from Crab Ride?
-**A**: Prioritize prevention over reaction by maintaining tight elbow position continuously rather than letting the arm drift and needing explosive retraction. When forced to actively defend, commit fully to one decisive action rather than multiple weak half-attempts. Between attacks, return to compact turtle base to recover. If repeated kimura attempts keep coming, recognize that the attacker is heavily committed to the arm attack, which may create escape opportunities as their ride control loosens during the reaching motions.
-
-
-
-</section>
 
 
 </main>

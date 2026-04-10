@@ -146,6 +146,8 @@ As the defender (top player), you face a critical decision window when the botto
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inverted Lasso to Lasso Guard?</p>
+
 - Bottom player's hips begin lowering from elevated inverted position, shifting weight from shoulders toward their back
 - The free leg repositions to post on your hip, creating the frame needed for controlled rotation back to upright
 - Sleeve grip hand adjusts position or rotates, indicating preparation for the grip angle change required during body rotation
@@ -158,6 +160,8 @@ As the defender (top player), you face a critical decision window when the botto
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inverted Lasso to Lasso Guard?</p>
 
 - Attack the lasso structure during the rotation when grip angles are weakest - the transition creates momentary slack that does not exist in static positions
 - Drive forward pressure or lateral movement during the hip rotation to exploit the bottom player's compromised base
@@ -172,6 +176,8 @@ As the defender (top player), you face a critical decision window when the botto
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inverted Lasso to Lasso Guard?</p>
 
 ### 1. Explosive arm retraction during the hip rotation phase when lasso tension is momentarily reduced
 
@@ -209,6 +215,8 @@ As the defender (top player), you face a critical decision window when the botto
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inverted Lasso to Lasso Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract your trapped arm during the transition by timing your retraction to coincide with the moment of least lasso tension, typically when the bottom player's hips are halfway between inverted and upright. Use a controlled withdrawal rather than an explosive pull, addressing the ankle hook first then withdrawing the arm once slack is created.
@@ -220,6 +228,8 @@ Extract your trapped arm during the transition by timing your retraction to coin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inverted Lasso to Lasso Guard?</p>
 
 ### 1. Waiting passively while the bottom player completes the recovery to standard lasso guard
 
@@ -249,6 +259,8 @@ Extract your trapped arm during the transition by timing your retraction to coin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inverted Lasso to Lasso Guard?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues
 Partner practices inverted lasso to lasso guard recovery at slow speed. Top player focuses solely on recognizing the earliest cues: hip lowering, free leg repositioning, grip adjustment, decreased attack intensity. Call out the transition initiation before the partner completes it. Build reaction time to identify the window within 1 second.
 
@@ -265,23 +277,6 @@ Start from established inverted lasso guard with both players at full resistance
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for attempting arm extraction during the inverted lasso to lasso guard transition?
-**A**: The optimal window is during the middle phase of the hip rotation, when the bottom player's body is transitioning between inverted and upright orientation. At this point, the lasso hook tension is at its weakest because the shin angle against your tricep is changing and the bottom player's pulling direction is shifting. This window lasts approximately 1-2 seconds and is significantly more exploitable than attempting extraction when the bottom player is static in either position.
-
-**Q2**: Why is controlling the bottom player's free leg an effective preemptive defense against this transition?
-**A**: The free leg serves as the primary frame and pivot point for the rotation from inverted to upright position. The bottom player posts this foot on your hip to create distance control and guide the rotation. Without this frame, the transition becomes uncontrolled and risky, forcing the bottom player to either remain trapped in the exhausting inverted position or attempt the recovery without distance management, making them vulnerable to stacking and passing.
-
-**Q3**: Your opponent begins rotating from inverted lasso but you cannot extract your arm - what alternative action prevents them from establishing a strong lasso guard?
-**A**: If arm extraction is not achievable, focus on disrupting the quality of their arrival in standard lasso. Drive forward pressure during the rotation to prevent them from establishing a perpendicular hip angle. Control their non-lasso leg immediately as they complete the transition to prevent secondary frames. The goal shifts from preventing the transition entirely to ensuring they arrive in a compromised version of standard lasso guard without the angle, distance, or secondary controls needed for effective offense.
-
-
-
-</section>
 
 
 </main>

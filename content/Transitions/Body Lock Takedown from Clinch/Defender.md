@@ -154,6 +154,8 @@ Defending the body lock takedown requires a layered defensive approach that addr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Lock Takedown from Clinch?</p>
+
 - Opponent releases collar ties or head control to swim both arms around your torso, transitioning from standard clinch grips to body-wrapping positioning
 - Sudden increase in chest-to-chest pressure with the opponent stepping their feet closer and eliminating space between your bodies
 - Opponent pressing their forehead firmly into one side of your chest or shoulder while dropping their level slightly, indicating directional commitment for the drive
@@ -166,6 +168,8 @@ Defending the body lock takedown requires a layered defensive approach that addr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Lock Takedown from Clinch?</p>
 
 - Prevent the body lock from closing as your highest-priority defense by maintaining active hand fighting, underhook control, and frame positioning that blocks the attacker's arms from connecting behind your back
 - Lower your center of gravity immediately when you feel the grip tightening around your torso, bending your knees deeply to make lifting and driving significantly harder for the attacker
@@ -180,6 +184,8 @@ Defending the body lock takedown requires a layered defensive approach that addr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Lock Takedown from Clinch?</p>
 
 ### 1. Active hand fighting and underhook denial to prevent body lock closure
 
@@ -217,6 +223,8 @@ Defending the body lock takedown requires a layered defensive approach that addr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Lock Takedown from Clinch?</p>
+
 ### → [[Positions/Clinch]]
 
 Prevent the body lock from closing through aggressive hand fighting and underhook maintenance, or break the grip through frame pressure and sprawl defense before the drive develops. The earlier you intervene in the attack sequence, the higher the probability of returning to neutral clinch.
@@ -232,6 +240,8 @@ When the takedown cannot be stopped, hook the attacker's near leg with your insi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Lock Takedown from Clinch?</p>
 
 ### 1. Pushing the attacker's chest with extended arms rather than using compact frames against their hips
 
@@ -261,6 +271,8 @@ When the takedown cannot be stopped, hook the attacker's near leg with your insi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Lock Takedown from Clinch?</p>
+
 **Phase 1: Recognition** - Identifying body lock setup cues in real time
 Partner cycles through different clinch grip configurations, occasionally transitioning to body lock setup. Defender practices identifying the transition point where standard clinch grips shift to body-wrapping positioning. Focus on recognizing the cues before the grip closes rather than after, developing anticipatory awareness.
 
@@ -277,26 +289,6 @@ Positional sparring starting from clinch where the attacker seeks the body lock 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can recognize and defend a body lock takedown attempt?
-**A**: The earliest recognition point is during the grip-fighting phase when the opponent begins transitioning from standard clinch grips to body-wrapping arm positioning. Watch for them releasing collar ties or head control to swim both arms toward your back. At this stage, aggressive hand fighting and maintaining at least one underhook prevents the body lock from closing, which is significantly easier than defending after the grip is locked. The window between the opponent releasing their clinch grips and establishing the body lock is the highest-percentage defensive opportunity.
-
-**Q2**: Your opponent has secured the body lock and begins loading their hips for the drive - what is your highest-percentage defensive response?
-**A**: Immediately drop your hips by bending your knees deeply, lowering your center of gravity to make driving significantly harder. Simultaneously establish an overhook on one side and use your free hand to frame against the opponent's hip on the driving side. Sprawl your hips back if they begin the drive and circle toward the overhook side to break their driving angle. If the drive progresses despite your defense, transition to hooking their near leg with your inside leg to ensure you land in half guard rather than side control. The layered response of lower hips, frame, sprawl, and leg hook provides multiple defensive checkpoints.
-
-**Q3**: Why is it dangerous to lean forward and push the attacker's chest when defending the body lock?
-**A**: Leaning forward and pushing with extended arms creates exactly the body alignment the attacker exploits. Your forward lean brings your center of gravity ahead of your base, making it easier for the attacker to redirect your momentum downward. Extended arms provide no structural resistance to a lateral or angular drive because they lack skeletal alignment in those directions. Additionally, extended arms are vulnerable to kimura and americana transitions if the exchange goes to ground. Instead, keep elbows tight, lower your hips, and frame against the attacker's hips with compact forearm structures.
-
-**Q4**: If you cannot prevent the takedown from completing, what should your priority be during the descent to the mat?
-**A**: Your primary goal during an inevitable takedown is controlling the landing position to avoid ending in side control. As you feel yourself going down, immediately hook the attacker's near leg with your inside leg to establish half guard, which gives you a guard position rather than a passed position. Turn your body to face the attacker during the fall rather than landing flat on your back, and establish at least one underhook before you hit the mat. Arriving on your side with a half guard hook and an underhook gives you immediate offensive options from half guard bottom, which is dramatically better than surviving side control.
-
-
-
-</section>
 
 
 </main>

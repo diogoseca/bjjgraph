@@ -216,7 +216,7 @@ The Reversal from Triangle Escape sits at the intersection of submission defense
 
 - [[Positions/Armbar Control]] - Secondary submission threat the triangle holder may attempt during the arm extraction phase
 
-- [[Transitions/Triangle Choke]] - The submission attack that creates the defensive context requiring this reversal technique
+- [[Submissions/Triangle Choke]] - The submission attack that creates the defensive context requiring this reversal technique
 
 
 </section>

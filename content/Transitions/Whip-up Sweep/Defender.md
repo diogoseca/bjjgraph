@@ -164,6 +164,8 @@ The critical defensive window occurs during the opponent's transition from flat 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Whip-up Sweep?</p>
+
 - Bottom player secures a deep underhook on the trapped-leg side and pulls tight, eliminating space between your bodies and anchoring their upper-body drive
 - You feel a forceful lockdown extension pulling your trapped leg backward while your upper body is simultaneously pulled forward, creating a rotational off-balance
 - Bottom player begins turning onto their underhook-side hip and posting their free elbow on the mat, initiating the progressive elevation sequence
@@ -176,6 +178,8 @@ The critical defensive window occurs during the opponent's transition from flat 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Whip-up Sweep?</p>
 
 - Maintain disciplined weight distribution with center of gravity over your base, never committing excessive forward pressure that loads the whip-up
 - Establish and maintain crossface control to flatten the bottom player and deny them the ability to turn onto their underhook-side hip
@@ -190,6 +194,8 @@ The critical defensive window occurs during the opponent's transition from flat 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Whip-up Sweep?</p>
 
 ### 1. Establish heavy crossface and shoulder pressure to flatten the bottom player before they can initiate the whip-up, driving their head away and pinning their shoulders to the mat
 
@@ -227,6 +233,8 @@ The critical defensive window occurs during the opponent's transition from flat 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Whip-up Sweep?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 Flatten the bottom player with heavy crossface and shoulder pressure before they can secure the underhook and initiate the whip-up. Maintain weight distribution that denies forward loading while systematically working to extract your trapped leg from the lockdown configuration. Once flattened, the bottom player loses the hip angle needed to generate the sweep.
@@ -242,6 +250,8 @@ Successfully extract your trapped leg from the lockdown during the bottom player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Whip-up Sweep?</p>
 
 ### 1. Driving heavy forward pressure into the lockdown player without awareness of weight distribution, loading exactly the momentum the whip-up needs
 
@@ -276,6 +286,8 @@ Successfully extract your trapped leg from the lockdown during the bottom player
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Whip-up Sweep?</p>
+
 **Week 1-2** - Recognition and weight awareness
 From lockdown top, partner executes slow-motion whip-up attempts while you focus on identifying the recognition cues: underhook tightening, lockdown extension, hip turn, and elbow post. Practice maintaining awareness of your weight distribution and noticing when the extension shifts your center of gravity forward. No defensive techniques yet, pure recognition training.
 
@@ -292,29 +304,6 @@ Positional sparring from lockdown top against full-resistance lockdown offense. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt the whip-up sweep?
-**A**: The earliest cue is feeling the opponent tighten their underhook while simultaneously beginning to extend the lockdown. The underhook tightening signals they are anchoring their upper-body drive, and the extension begins disrupting your base. This combination precedes the actual elevation by 1-2 seconds, giving you a narrow window to respond with crossface pressure, weight adjustment, or underhook strip before the sweep becomes difficult to stop.
-
-**Q2**: Why is sitting back on your heels an effective defense against the whip-up but a dangerous position overall?
-**A**: Sitting back removes the forward weight that the whip-up needs to exploit, making the sweep mechanically impossible because there is no momentum to redirect upward. However, sitting back creates the exact conditions needed for the Old School sweep and Electric Chair submission, both of which require the opponent's weight to shift backward. The lockdown system is built on this dilemma, so sitting back only works if you are simultaneously prepared to defend the counter-attacks it opens.
-
-**Q3**: Your opponent has begun the whip-up and reached their elbow with the underhook secured - what is your best defensive option at this point?
-**A**: At this late stage, post your free hand far to the threatened side and sprawl your hips away to create a tripod base that prevents the sweep from completing to full reversal. Accept that you will likely end up in a dogfight scramble rather than preventing the elevation entirely. In dogfight, immediately fight for your own underhook and work to re-establish top control or circle to a dominant angle. Trying to flatten them back down at this point usually fails and wastes energy.
-
-**Q4**: How should you manage the underhook battle from lockdown top to prevent the whip-up setup?
-**A**: Proactively deny the underhook by driving heavy shoulder pressure into the bottom player's face and chest while keeping your near-side arm tight to your body. If they begin threading for the underhook, use an arm swim by circling your elbow inside their arm to re-establish inside position, or lock a whizzer overhook to control their underhook arm and prevent it from reaching deep enough to anchor the sweep. Never leave space between your armpit and hip where the underhook can be inserted freely.
-
-**Q5**: What weight distribution pattern best prevents the whip-up while still allowing you to work toward passing?
-**A**: Distribute weight forward through your chest and shoulder pressure onto their upper torso for control, but keep your hips relatively low and back with your center of gravity centered over your knees rather than loaded forward past them. Your free leg posts wide at approximately 45 degrees for lateral stability. This creates enough pressure to flatten the bottom player and restrict their hip mobility without committing the forward momentum that the whip-up exploits. Small adjustments allow you to shift between pressure and extraction work.
-
-
-
-</section>
 
 
 </main>

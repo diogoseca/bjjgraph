@@ -168,6 +168,8 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Toreando Pass?</p>
+
 - Passer establishes or is actively seeking bilateral grips on your knees, pant legs, or ankles while maintaining an upright standing posture
 - Passer begins compressing your knees toward your chest with both hands, breaking your open guard structure and collapsing your leg frames
 - Passer shifts weight to one foot and loads the opposite leg for an explosive lateral step while maintaining downward pressure on your legs
@@ -180,6 +182,8 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toreando Pass?</p>
 
 - Deny bilateral grip control through proactive grip fighting — strip or redirect any hand that reaches for your knees or pant legs before the passer can establish the second grip
 - Maintain at least one foot on the passer's hip or bicep at all times to preserve distance and prevent them from closing the gap needed for the lateral step
@@ -194,6 +198,8 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Toreando Pass?</p>
 
 ### 1. Strip passer's grip with two-on-one grip break and immediately re-establish foot-on-hip frame
 
@@ -238,6 +244,8 @@ Defending the Toreando Pass requires early recognition, disciplined grip fightin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Toreando Pass?</p>
+
 ### → [[Positions/Open Guard]]
 
 Deny the passer's grips through proactive grip fighting and maintain your foot-on-hip frames to prevent them from ever initiating the lateral step. When the grip break succeeds, immediately re-establish your preferred open guard configuration with active hooks and grips before the passer can re-engage.
@@ -253,6 +261,8 @@ Capitalize on the passer's lateral commitment by using a collar drag, arm drag, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toreando Pass?</p>
 
 ### 1. Allowing the passer to establish bilateral grips without any grip fighting resistance
 
@@ -287,7 +297,9 @@ Capitalize on the passer's lateral commitment by using a collar drag, arm drag, 
 
 ## Training Progressions
 
-**Week 1-2: Recognition and Grip Fighting** - Develop the ability to recognize Toreando attempts early and build automatic grip fighting responses
+<p class="section-subtitle">How do you train defense against Toreando Pass?</p>
+
+**Week 1-2: Recognition and Grips** - Develop the ability to recognize Toreando attempts early and build automatic grip fighting responses
 Partner announces when they will attempt the Toreando, then executes at 30-50% speed. Practice stripping grips with two-on-one breaks, maintaining foot-on-hip frames, and identifying the moment the lateral step begins. Focus on hand fighting speed and re-gripping after successful breaks. Perform 20-30 defensive repetitions per session with emphasis on the grip denial phase.
 
 **Week 3-4: Hip Tracking and Guard Retention** - Develop automatic hip rotation to follow the passer's lateral movement
@@ -303,29 +315,6 @@ Incorporate Toreando defense into regular sparring rounds. Start rolls from stan
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important early-stage defensive action against the Toreando Pass?
-**A**: The most important early-stage action is denying bilateral grip control through proactive grip fighting. If you prevent the passer from establishing strong grips on both of your knees or pant legs, the Toreando cannot be executed effectively. Use two-on-one grip breaks to strip any hand that reaches for your legs, and maintain at least one sleeve or wrist grip that occupies one of their hands. This forces the passer into a single-grip scenario where the pass is far less effective and gives you time to establish offensive guard positions.
-
-**Q2**: Your opponent has gripped both your knees and begins stepping left - what is the correct hip response?
-**A**: Immediately rotate your hips to face left, matching the direction of the passer's movement. Your belly button must track toward their chest at all times. Use a combination of hip escape toward the passing side and shoulder walk to maintain alignment. Simultaneously, fight to strip at least one grip — if you can free one knee while tracking their movement, the pass fails because they lose the bilateral control needed for effective leg redirection. If both grips remain, continue tracking with your hips while looking for an opportunity to insert a De La Riva or Reverse De La Riva hook on their lead leg.
-
-**Q3**: When is inversion the appropriate defensive choice against the Toreando, and when should it be avoided?
-**A**: Inversion via granby roll is appropriate when the passer has partially completed the pass — your legs have been redirected to one side and their hips are approaching your hip line, but they have not yet established chest-to-chest pressure. The granby creates distance and allows you to re-face the passer from a guard position. Inversion should be avoided when the passer has already established upper body connection or crossface, because inverting under pressure exposes your back and allows them to take back control. It should also be avoided if you lack the flexibility or timing to complete the roll cleanly, as a stalled inversion leaves you in the worst possible position.
-
-**Q4**: How does maintaining a collar grip change the defensive dynamics against the Toreando?
-**A**: A collar grip fundamentally changes the Toreando dynamic because it gives you a constant connection to the passer's upper body that their lateral step cannot break. As they step sideways, you can use the collar grip to pull them off-balance in the direction of their movement, amplifying their momentum beyond their control. This converts their passing energy into a sweep opportunity. The collar grip also prevents them from freely posturing up and establishing full extension on your legs, keeping the engagement closer where your feet-on-hips frames are most effective. The tradeoff is that one hand is committed to the collar rather than defending your legs, so this strategy works best when combined with active foot positioning.
-
-**Q5**: Your guard has been passed and the opponent is settling into side control after a Toreando — what is the last-resort recovery before they consolidate?
-**A**: In the brief window between the pass completion and full side control consolidation, your best recovery option is to insert your near-side knee between your bodies to establish a knee shield or half guard. Frame against their shoulder with your near-side forearm to create just enough space for the knee insertion. If the knee shield is blocked, immediately hip escape away and attempt to get your far foot on their hip as a secondary frame. The critical principle is to never accept the flat-on-back pinned position — any partial guard recovery (even quarter guard with just a foot hooked) gives you significantly better escape odds than allowing full side control consolidation with crossface and hip control established.
-
-
-
-</section>
 
 
 </main>

@@ -212,7 +212,7 @@ The Pressure Pass Through Squid fits into the broader lapel guard passing system
 
 - [[Transitions/Stack Pass Over Lapel Barrier]] - Variant using vertical pressure instead of horizontal
 
-- [[Submissions/Americana from Side Control]] - Primary submission threat from successful pass completion
+- [[Submissions/Americana]] - Primary submission threat from successful pass completion to side control
 
 - [[Transitions/Double Under Pass]] - Alternative pass if forward momentum is established but pressure pass fails
 

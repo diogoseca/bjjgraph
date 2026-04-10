@@ -16,7 +16,7 @@ description: "How to execute Single Leg Takedown in BJJ. Attacking perspective w
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Single Leg Takedown in BJJ",
-  "description": "Step-by-step guide for executing Single Leg Takedown from Standing Position/Top.",
+  "description": "Step-by-step guide for executing Single Leg Takedown from Clinch/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -174,13 +174,15 @@ description: "How to execute Single Leg Takedown in BJJ. Attacking perspective w
 
 The Single Leg Takedown is one of the most fundamental and high-percentage takedowns in Brazilian Jiu-Jitsu and grappling arts, borrowed from wrestling. This technique involves attacking one of the opponent's legs while maintaining control of their upper body, creating an imbalance that forces them to the mat. The single leg is particularly effective in no-gi competition and MMA contexts, where traditional judo-style throws may be more difficult to execute. Unlike double leg takedowns that require deeper penetration and expose the practitioner to guillotine chokes, the single leg offers a more upright finishing position with multiple mechanical advantages. The technique's versatility lies in its numerous finishing variations - from the classic run-the-pipe to trips, dumps, and elevation finishes - allowing practitioners to adapt based on opponent reactions and defensive responses. Mastery of the single leg takedown provides a reliable method for taking the fight to the ground while maintaining dominant positioning, making it an essential skill for competitors at all levels who seek to control where and how the match is contested.
 
-**From Position**: [[Positions/Standing Position]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Single Leg Takedown?</p>
 
 - Achieve deep penetration on the initial shot with level change and forward drive
 - Maintain constant upward pressure on the captured leg to break opponent's balance
@@ -197,6 +199,8 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Single Leg Takedown?</p>
+
 - Establish grip fighting advantage or create opening through feints and movement
 - Achieve proper distance management - close enough to penetrate but not so close as to be tied up
 - Lower level through proper stance and knee bend before initiating shot
@@ -210,6 +214,8 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Single Leg Takedown step by step?</p>
 
 1. **Set up and create opening**: Use grip fighting, head movement, or feints to create a reaction from your opponent. Common setups include collar ties, Russian ties, or hand fighting that draws their attention upward. Create an angle by circling or use a snap-down motion to get their weight shifting forward or their hands occupied.
 2. **Change levels explosively**: Drop your hips and bend your knees to lower your level while maintaining upright posture in your back. This level change should be sudden and explosive, not telegraphed. Keep your head up and eyes on your target - the opponent's near leg. Your back leg should be coiled and ready to drive forward.
@@ -238,6 +244,8 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Single Leg Takedown?</p>
+
 - **Sprawl and whizzer defense** (Effectiveness: High) - Your Response: If opponent sprawls, immediately switch to duck-under or go behind, or transition to double leg. If they establish whizzer, use it as leverage to come up on top or switch to inside trip finish. → Leads to [[Positions/Standing Position]]
 - **Guillotine choke attempt** (Effectiveness: Medium) - Your Response: Keep your head positioned on the outside of the captured leg (away from choking arm). If caught, release the leg and defend the choke by creating space and hand fighting, or complete the takedown quickly before choke is secured. → Leads to [[Positions/Closed Guard]]
 - **Limp leg defense (pulling leg out)** (Effectiveness: Medium) - Your Response: Immediately switch to alternative finish - if they pull leg back, follow with forward pressure and switch to double leg or transition to upper body control for different takedown. Never allow them to fully extract the leg without following their movement. → Leads to [[Positions/Standing Position]]
@@ -250,6 +258,8 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Single Leg Takedown?</p>
 
 ### 1. Shooting from too far away without proper penetration
 
@@ -289,6 +299,8 @@ The Single Leg Takedown is one of the most fundamental and high-percentage taked
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Single Leg Takedown (Attacker)?</p>
+
 **Week 1-2: Fundamental mechanics** - Proper level change, penetration step, and leg capture technique
 Practice motion with stationary partner offering no resistance. Focus on explosive level change, deep penetration step, and secure grip on leg. Drill 20-30 repetitions per session alternating legs. Emphasize head position and maintaining connection between leg and chest.
 
@@ -312,54 +324,12 @@ Continue drilling against fully resisting partners in live training. Identify wh
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage of the single leg takedown compared to the double leg?
-**A**: The single leg maintains a more upright posture which reduces exposure to guillotine chokes and allows for better control of opponent's hip and upper body. It also provides multiple finishing options that can be chained together based on opponent's defensive reactions, whereas double leg typically commits to one direction of force.
-
-**Q2**: Why should your head be positioned on the outside of the captured leg rather than between the opponent's legs?
-**A**: Outside head position protects your neck from guillotine chokes, provides better mechanical leverage for driving and controlling opponent's hip, and makes it more difficult for them to square their hips to you for defensive purposes. Inside head position exposes the neck and gives opponent better defensive options.
-
-**Q3**: What are three different finishing sequences for the single leg, and when would you use each?
-**A**: Run-the-pipe (driving forward while lifting leg) works when opponent's weight is centered and they're trying to maintain balance. Inside trip works when they're posting heavily on the standing leg. Elevation finish works when they're leaning back or trying to sprawl. The key is reading opponent's weight distribution and defensive posture to select appropriate finish.
-
-**Q4**: How do you defend against a guillotine choke attempt when executing a single leg takedown?
-**A**: Primary defense is prevention through proper head position on the outside. If caught, immediately create space by posturing up and hand fighting the choking grip. Either complete the takedown quickly before choke is secured, or release the leg and fully commit to defending the submission. Never stay static with choke partially locked.
-
-**Q5**: What is the purpose of the circular movement pattern when controlling the single leg?
-**A**: Circular movement corners the opponent and prevents them from establishing a stable base on their standing leg. It also makes it difficult for them to square their hips to you, which would allow them to defend more effectively or counter. The cornering action forces continuous hopping and balance adjustments that eventually lead to them falling.
-
-**Q6**: How should you modify your single leg approach against an opponent who consistently sprawls effectively?
-**A**: Against effective sprawlers, use better setups to create reactions before shooting, ensure deeper penetration on the initial entry, and be ready to immediately chain to alternative techniques like duck-under or go-behind when sprawl is initiated. You can also use low single variations that avoid the sprawl zone, or fake the single leg to set up upper body attacks.
-
-**Q7**: Your opponent establishes a strong whizzer as you capture their leg - what adjustments should you make?
-**A**: When opponent establishes a whizzer, use their over-commitment against them by switching to an inside trip finish that uses the whizzer pressure as leverage. Alternatively, limp your arm out of the whizzer while maintaining leg control, or transition to a high crotch position where the whizzer becomes less effective. The key is not fighting the whizzer directly but redirecting its force.
-
-**Q8**: What are the critical grip requirements for a successful single leg capture?
-**A**: The optimal grip configuration involves one hand securing behind the knee in the popliteal fossa to control the bend of the leg, while the other hand controls the ankle or lower calf for elevation control. Both hands must work together - the knee grip pulls the leg tight to your chest while the ankle grip provides leverage for lifting. Hands clasped together is acceptable but limits finishing options.
-
-**Q9**: What is the optimal timing window to shoot for a single leg?
-**A**: The optimal timing windows occur when opponent's weight shifts forward (from a snap-down or collar tie pressure), when they step forward aggressively, when they reach for grips with both hands simultaneously, or when they're recovering from defending a feint or level change threat. Avoid shooting when opponent is square with weight back and hands active in defensive position.
-
-**Q10**: If your run-the-pipe finish is blocked and opponent posts their far leg wide, what should you do?
-**A**: When the run-the-pipe is blocked with a wide post, immediately transition to the outside trip by hooking your outside leg behind their standing leg while continuing to drive forward pressure. Alternatively, switch to an elevation finish by lifting their captured leg extremely high to break their wide-base stability. The wide post actually creates vulnerability to lateral sweeping motions.
-
-**Q11**: What direction of force should you apply when lifting the captured leg?
-**A**: The leg should be lifted upward and toward your chest, not just upward. This creates a compound force that both removes their base and compresses their balance point. The upward-and-toward pull forces them onto one foot while the connection to your chest maintains control. Pure upward lifting without the pull toward you allows them to hop away and recover balance.
-
-**Q12**: What conditions must exist before initiating a single leg attack?
-**A**: Entry requirements include: proper distance (close enough for penetration but not tied up), opponent's hands occupied or cleared from defensive position, an angle or opening that allows unobstructed access to the lead leg, your own balanced stance allowing explosive level change, and ideally a reaction from the opponent that shifts their weight or attention. Missing any of these significantly reduces success probability.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Single Leg Takedown?</p>
 
 When practicing single leg takedowns, practitioners must be mindful of several safety considerations. Primary among these is knee safety during the penetration step - always control your drop to the mat rather than crashing down, which can cause patellar injuries. Partners should communicate clearly about resistance levels, especially during initial learning phases. Ensure adequate mat space exists for the takedown and follow-through, as practitioners will be moving dynamically across the training area. When defending single legs in training, avoid posting with stiff arms which can lead to wrist, elbow, or shoulder injuries when the takedown is completed. Instead, focus on technical defensive responses like sprawling and repositioning. Be particularly cautious when partner attempts guillotine counters - the person shooting should be prepared to abandon the takedown if the choke becomes dangerous, and both parties should understand safe submission protocols. When falling, tuck your chin to protect against mat contact, and use proper breakfall techniques if available. As with all takedown training, both partners must maintain situational awareness and respect each other's skill level and injury history. Stop immediately if either person feels unstable or at risk during the execution.
 

@@ -162,6 +162,8 @@ Defending against the Reverse X to Single Leg X Entry requires understanding the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse X to Single Leg X Entry?</p>
+
 - Attacker's far hook behind your knee loosens or releases while their ankle grip tightens - this is the earliest indicator of the transition beginning
 - Attacker's hips begin rotating from inverted (facing away) toward perpendicular (facing your leg), signaling the conversion from Reverse X to Single Leg X angle
 - Attacker reinforces ankle or heel grip with both hands, creating stronger anchor control that indicates preparation for hook reconfiguration
@@ -174,6 +176,8 @@ Defending against the Reverse X to Single Leg X Entry requires understanding the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse X to Single Leg X Entry?</p>
 
 - Recognize the transition cues early - the attacker's hip rotation and far hook release signal the entry before it completes
 - Attack the vulnerability window between hook release and hook re-establishment when the attacker lacks structural integrity
@@ -188,6 +192,8 @@ Defending against the Reverse X to Single Leg X Entry requires understanding the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse X to Single Leg X Entry?</p>
 
 ### 1. Drive weight forward and sprawl hips during hook reconfiguration window
 
@@ -225,6 +231,8 @@ Defending against the Reverse X to Single Leg X Entry requires understanding the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse X to Single Leg X Entry?</p>
+
 ### → [[Positions/Headquarters Position]]
 
 Exploit the hook reconfiguration window by driving forward aggressively when the far hook releases, flattening the attacker before they can establish Single Leg X structure. Strip ankle grip and drive knee through center to establish headquarters control with trapped leg and dominant passing position.
@@ -240,6 +248,8 @@ Prevent the transition from completing by maintaining heavy downward pressure on
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse X to Single Leg X Entry?</p>
 
 ### 1. Stepping backward when feeling the far hook release instead of driving forward
 
@@ -274,6 +284,8 @@ Prevent the transition from completing by maintaining heavy downward pressure on
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse X to Single Leg X Entry?</p>
+
 **Week 1-2** - Cue recognition
 Partner slowly executes the Reverse X to Single Leg X transition at quarter speed. Defender focuses on identifying each recognition cue - far hook release, ankle grip tightening, hip rotation initiation - and calling out what they feel. No defensive response yet, purely sensory training to build tactile awareness.
 
@@ -290,29 +302,6 @@ Full resistance positional rounds starting from Reverse X-Guard. Attacker works 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating Reverse X to Single Leg X Entry?
-**A**: The earliest cue is feeling your opponent's far hook behind your knee loosen or release while simultaneously their ankle or heel grip tightens. This combination indicates they are preparing to reconfigure hooks - abandoning the behind-knee position while reinforcing the anchor grip that holds the entire transition together. Reacting to this initial cue gives you the maximum defensive window before the new position establishes.
-
-**Q2**: Why is driving forward the correct defensive response rather than stepping backward during the transition?
-**A**: Stepping backward provides the attacker with exactly the space and momentum they need to complete the hip rotation and establish Single Leg X hooks. Forward pressure during the hook reconfiguration window collapses the attacker's structure at their weakest point, when they have released one set of hooks but not yet established another. The attacker's lack of structural integrity during this window means forward pressure can flatten them and lead directly to a passing position.
-
-**Q3**: What is the optimal defensive timing window for countering this transition, and how narrow is it?
-**A**: The optimal window opens when the attacker releases their far hook from behind your knee and closes when they place their cross-body hook on your far hip, completing Single Leg X structure. In a skilled practitioner, this window may be less than one second. This is why recognizing the pre-transition cues and having an automatic response trained is essential - deliberation during this window means the opportunity passes and you face the full Single Leg X position instead.
-
-**Q4**: If you successfully strip the attacker's ankle grip during the transition, what should your immediate follow-up be?
-**A**: Immediately step your freed leg back to create distance while maintaining control of their upper body. Do not simply stand in place - the attacker will attempt to re-grab your ankle or transition to butterfly hooks or seated guard to maintain some form of engagement. Step back to clear their range, then re-engage from a neutral standing position where you can choose your passing approach. Alternatively, if you can maintain forward pressure, drive immediately to headquarters or knee-on-belly to capitalize on their momentary lack of guard structure.
-
-**Q5**: Your opponent has completed the transition and established full Single Leg X - what defensive priorities should you now focus on?
-**A**: Once Single Leg X is established, shift to Single Leg X top defensive principles: widen your base with your free leg positioned diagonally away from sweep direction, bend your knees to lower center of gravity, align your trapped knee toward the opponent to reduce their leverage, and actively strip their sleeve and upper body grips that enhance sweeping power. Address the bottom hook first as it represents the primary sweeping threat, then work to clear the top hook. Do not attempt to explosively rip your leg free as this rarely works and exhausts you.
-
-
-
-</section>
 
 
 </main>

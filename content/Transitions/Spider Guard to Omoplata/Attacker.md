@@ -188,6 +188,8 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Spider Guard to Omoplata?</p>
+
 - Maintain deep sleeve control at or above the elbow throughout the entire transition to prevent arm extraction
 - Use foot pressure on biceps to create arm extension and posture breakdown before initiating the attack
 - Time the leg swing to the moment opponent commits weight forward, attempts to stand, or has arms maximally extended
@@ -203,6 +205,8 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Spider Guard to Omoplata?</p>
+
 - Spider guard established with at least one foot on attacking-side bicep and deep sleeve grip on that arm
 - Opponent's posture compromised forward or arms extended by persistent spider guard pressure
 - Non-attacking foot positioned on mat or opponent's hip to generate rotational leverage for the leg swing
@@ -215,6 +219,8 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Spider Guard to Omoplata step by step?</p>
 
 1. **Establish spider guard control**: From spider guard, secure both sleeves with deep four-finger grips at or above the elbows. Place both feet on opponent's biceps and apply constant outward pressure to extend their arms, break their posture forward, and prevent them from establishing passing grips.
 2. **Identify attacking side and strengthen control**: Select the side where the opponent's arm is more extended or their weight more committed forward. Reinforce your sleeve grip on that side by shortening the grip toward their wrist. Increase foot pressure on that bicep to prevent arm withdrawal while creating the angle needed for the leg swing.
@@ -244,6 +250,8 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Spider Guard to Omoplata?</p>
+
 - **Opponent stacks by driving weight forward and stepping around to pass** (Effectiveness: High) - Your Response: As they stack, immediately transition to triangle by bringing your bottom leg up and over their back while maintaining sleeve control. Alternatively, roll backward using their stacking momentum to sweep them over you into a reversal. Never force the omoplata against a committed stack. → Leads to [[Positions/Spider Guard]]
 - **Opponent pulls their trapped arm free during the leg swing phase** (Effectiveness: Medium) - Your Response: If the arm begins escaping during the swing, abort the omoplata and immediately transition to triangle setup since their head is already partially between your legs. Maintain your remaining sleeve grip and foot control to retain spider guard if the triangle is not available. → Leads to [[Positions/Spider Guard]]
 - **Opponent stands up explosively as you initiate the attack** (Effectiveness: Medium) - Your Response: Use your leg over their shoulder as a hook to pull them back down while simultaneously sweeping their far leg with your bottom leg. Their standing momentum combined with your downward pull creates a powerful sweep opportunity. If the sweep fails, transition to single leg X-guard using the hook you already have. → Leads to [[Positions/Spider Guard]]
@@ -255,6 +263,8 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Spider Guard to Omoplata?</p>
 
 ### 1. Releasing sleeve grip too early during the leg swing transition
 
@@ -294,6 +304,8 @@ The Spider Guard to Omoplata attack requires precise coordination between grip c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Spider Guard to Omoplata (Attacker)?</p>
+
 **Week 1-2: Fundamental Movement Pattern** - Master the leg swing and sit-up motion without resistance
 Partner holds still in kneeling position while you practice the leg swing over their shoulder and simultaneous sit-up from spider guard. Focus on smooth, explosive movement and maintaining sleeve control throughout. Perform 20-30 repetitions per side each training session, building the neural pathway for the combined motion.
 
@@ -314,45 +326,12 @@ Practice the entire sequence during full-resistance positional sparring starting
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip element to maintain during the entire transition from spider guard to omoplata?
-**A**: The attacking-side sleeve grip must be maintained from initial spider guard control through the leg swing and until the omoplata position is fully secured with leg pressure and body weight. Without this grip, the opponent can withdraw their arm at any point during the transition, collapsing the entire attack. The grip should be deep at or above the elbow using four fingers inside the sleeve for maximum retention strength.
-
-**Q2**: Your opponent reacts to your spider guard pressure by posting their hand on the mat and leaning forward - how do you capitalize on this?
-**A**: When the opponent posts forward, their weight commitment and arm extension create the ideal window for the omoplata entry. Their posted arm is extended and their base has shifted forward, making it difficult to withdraw the arm quickly. Immediately strengthen your sleeve grip on the posting arm, remove your non-attacking foot to the mat for leverage, and execute the explosive leg swing over their shoulder while they are committed forward. Their forward weight makes it harder for them to back away or widen their base in time.
-
-**Q3**: What is the critical hip movement during the transition, and why does it matter mechanically?
-**A**: The hips must pivot toward the attacking side before and during the leg swing, scooting close to the opponent's trapped shoulder. This hip pivot shortens the distance your leg must travel to clear their shoulder, increases the rotational force you can generate for the swing, and ensures that upon landing, your hips are already in optimal position to apply omoplata pressure. Hips that remain flat and centered on the mat make the leg swing longer, weaker, and easier to defend.
-
-**Q4**: What are the three primary conditions that must exist before you initiate the spider guard to omoplata attack?
-**A**: First, you must have a secure deep sleeve grip on the attacking-side arm that the opponent cannot easily strip. Second, the opponent's weight must be committed forward or their arm must be extended, creating vulnerability in the shoulder line. Third, their base must be narrow enough that they cannot immediately post wide to block your leg swing. Without all three conditions present, the attack has a very low probability of success and leaves you vulnerable to guard passes.
-
-**Q5**: Your opponent begins stacking you as you swing your leg over - what is the correct response?
-**A**: Do not fight the stack by trying to force the omoplata. Instead, immediately convert the attack to a triangle by bringing your bottom leg up and over their back while maintaining your sleeve grip. Their stacking motion actually assists the triangle entry because their head is already being driven forward into your guard. Alternatively, if the triangle angle is not available, use their forward momentum to roll backward into a sweep, coming up on top. The key principle is that every counter to the omoplata should feed directly into another attack.
-
-**Q6**: What grip requirements exist for the non-attacking hand once you establish omoplata control?
-**A**: The non-attacking hand must immediately secure a grip on the opponent's belt, pants waistband, or far hip once the leg crosses their shoulder. This grip serves two critical functions: it controls their hip movement to prevent the forward roll escape, and it allows you to pull their body weight toward you to break their posture flat. Without this hip-controlling grip, even a perfectly established leg position can be escaped through the standard forward roll counter.
-
-**Q7**: Your opponent pulls their arm partially free as you swing your leg - the arm is still inside your legs but loosening. What do you do?
-**A**: If the arm is still partially trapped, you have two immediate options. First, increase clamping pressure with your thighs while pulling their wrist toward your opposite hip with your sleeve grip to re-seat the arm. Second, if the arm continues extracting, immediately transition to a triangle choke by throwing your bottom leg over their neck since their head is already between your legs. The worst response is to chase the escaping arm with loose legs, which allows them to fully extract and pass your guard while you are off-balance.
-
-**Q8**: How does the direction of force change between the spider guard control phase and the omoplata control phase?
-**A**: In spider guard, the primary force direction is linear: your feet push outward on their biceps while your grips pull their sleeves toward you, creating opposing linear forces that extend their arms and break posture. During the omoplata transition, the force direction shifts to rotational: your leg drives across their back creating downward rotational pressure on the shoulder capsule while your hips pivot to increase the rotation angle. Understanding this shift from linear to rotational force is key because the techniques that work for spider guard retention (pushing away) are opposite to what works for omoplata control (pulling close and rotating).
-
-**Q9**: If the omoplata is blocked and you cannot establish triangle either, what position should you recover to and how?
-**A**: If both the omoplata and triangle are defended, recover to spider guard bottom by re-establishing your feet on the opponent's biceps and maintaining whatever sleeve grip you still have. Pull your hips back to recreate distance, place your feet back on their arms, and rebuild the spider guard control structure. The critical principle is to never remain in a compromised position between attacks. Either commit to the next attack in the chain or reset to your guard position. Attempting to force a failed technique leads to guard passes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Spider Guard to Omoplata?</p>
 
 When training the spider guard to omoplata transition, both partners must exercise control to prevent shoulder injuries. The omoplata attacks the shoulder joint through external rotation, which is vulnerable to rotator cuff tears, labral damage, and dislocation if excessive force is applied suddenly. The person executing the technique should apply finishing pressure gradually and incrementally, stopping immediately if the partner taps or shows discomfort. During drilling, focus on position control and the transition mechanics rather than finishing the submission until you have developed sensitivity to how much pressure the position creates. Partners defending should tap early when they feel rotational pressure on the shoulder and should never attempt to power through shoulder locks, as this dramatically increases injury risk. When practicing the leg swing, be mindful of your partner's neck and avoid dropping your full weight suddenly onto their cervical spine. Warm up shoulders thoroughly before omoplata drilling sessions.
 

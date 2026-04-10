@@ -162,6 +162,8 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ouchi Gari?</p>
+
 - Opponent tightens their collar grip and pulls downward while simultaneously stepping their lead foot forward and to the outside of your foot, closing distance rapidly
 - You feel a distinct backward and downward pull through the grips combined with opponent's chest pressing into yours, indicating they are attempting to break your posture to the rear corner
 - Opponent's leg begins moving between your legs from the inside, with their calf or shin making contact against the back of your lead leg in a sweeping arc motion
@@ -174,6 +176,8 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ouchi Gari?</p>
 
 - Maintain strong upright posture with knees slightly bent and weight on the balls of your feet to resist the backward off-balancing that precedes the reap
 - Deny the attacker's grip establishment through active hand fighting, particularly preventing the high collar grip that provides leverage for kuzushi
@@ -188,6 +192,8 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ouchi Gari?</p>
 
 ### 1. Step back and retract the attacked leg before the reap makes contact, pulling your lead foot behind your base foot while maintaining grip control and posture
 
@@ -225,6 +231,8 @@ Defending Ouchi Gari requires recognizing the attack early and responding with t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ouchi Gari?</p>
+
 ### → [[Positions/Standing Position]]
 
 Retract the attacked leg early by stepping it behind your base foot as soon as you feel the kuzushi and inside leg entry. Simultaneously break the opponent's collar grip with a two-on-one grip break or circular strip, then re-establish your own grips in a dominant configuration. Your goal is to return to neutral standing with your grips intact while the attacker has spent energy on a failed attempt.
@@ -240,6 +248,8 @@ Time a counter-throw such as Tani Otoshi or Ura Nage as the opponent commits ful
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ouchi Gari?</p>
 
 ### 1. Standing tall with locked knees and weight on the heels when feeling the initial pull
 
@@ -269,6 +279,8 @@ Time a counter-throw such as Tani Otoshi or Ura Nage as the opponent commits ful
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ouchi Gari?</p>
+
 **Phase 1: Recognition and Breakfall Training (Weeks 1-2)** - Learning to identify Ouchi Gari setups and practicing safe landing
 Partner performs slow-motion Ouchi Gari entries while you practice recognizing the grip changes, footwork patterns, and weight shifts that precede the throw. Simultaneously drill proper breakfall technique (side breakfall and back breakfall) so that if the throw does land during later training, you can absorb the impact safely. This phase builds the pattern recognition foundation that all other defensive skills depend on.
 
@@ -285,29 +297,6 @@ After successfully defending Ouchi Gari, immediately transition to a counter-att
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Ouchi Gari attack is being initiated?
-**A**: The earliest cue is a sudden tightening and downward-backward pull of the collar grip combined with the opponent stepping their lead foot forward to close distance. This kuzushi attempt precedes the leg reap by a fraction of a second and is the moment when defense is most effective. By the time you feel the opponent's leg sweeping against yours, you are already late in the defensive sequence. Training yourself to recognize grip-level changes and footwork patterns is more effective than reacting to the leg contact itself.
-
-**Q2**: Why is stepping back with the attacked leg a risky defensive option despite being the most instinctive response?
-**A**: Stepping back is risky because it plays directly into the attacker's combination game. The Ouchi Gari to Kouchi Gari combination specifically exploits this defensive movement—as you retract your lead leg, your weight shifts onto it during the step, making it the ideal target for the minor inner reap follow-up. Additionally, stepping backward shifts your weight onto your heels and compresses your stance, reducing your ability to resist the continued forward pressure. The step back only works if executed early enough that you can re-establish a wide, stable base before the attacker chains their next technique.
-
-**Q3**: Your opponent has secured a deep collar grip and begins pulling you backward while stepping in - you cannot break the grip in time. What is your best defensive option?
-**A**: With a deep collar grip already established and kuzushi in progress, your best option is to lower your center of gravity immediately by bending your knees and widening your stance while driving your hips forward into the opponent. This creates a strong base that resists the backward pull. Simultaneously, use your free hand to pummel for an underhook on the side opposite the collar grip, which gives you counter-attacking options and disrupts their throwing angle. If the reap begins, sprawl your hips back decisively rather than trying to retract the leg. As a last resort, pull guard to a strong position like closed guard or De La Riva before the throw reaches full force, converting their attack into your ground game entry on your terms.
-
-**Q4**: How does defending Ouchi Gari differ when the attacker uses a no-gi underhook setup versus a traditional gi collar grip?
-**A**: With a gi collar grip, the attacker has precise directional control for kuzushi, so the defender must prioritize grip breaking—strip the collar grip and the throw loses its primary control mechanism. With a no-gi underhook setup, the attacker controls through body-to-body pressure rather than a single grip point, making it impossible to simply strip a grip. Defense against the underhook version requires whizzer (overhook) control to prevent the attacker from pulling you off-balance, combined with hip positioning that blocks the reaping entry. The no-gi version typically happens at closer range, giving the defender less time to react but also more options for counter-wrestling including underhook recovery, hip switches, and body lock counter-throws.
-
-**Q5**: After successfully defending an Ouchi Gari attempt, what offensive opportunities does the defender gain?
-**A**: A failed Ouchi Gari leaves the attacker momentarily vulnerable because their weight is committed forward on a single base leg while their reaping leg is extended behind or between your legs. If you defended by stepping back, you can immediately counter-attack with Kouchi Gari or Osoto Gari while they are recovering their stance. If you sprawled, you can secure a front headlock and attack with snap downs, guillotines, or go-behind sequences. The attacker's forward momentum after a missed throw also makes them vulnerable to sacrifice throws like Sumi Gaeshi or Tomoe Nage. The key principle is that every failed attack creates a window of vulnerability—the defender who capitalizes on this window rather than simply resetting gains a significant competitive advantage.
-
-
-
-</section>
 
 
 </main>

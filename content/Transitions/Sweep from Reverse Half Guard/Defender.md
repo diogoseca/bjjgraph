@@ -154,6 +154,8 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Reverse Half Guard?</p>
+
 - Bottom player's hips begin to angle or rotate underneath you, creating the pathway for the sweep direction
 - Bottom player tightens their leg clamp on your trapped leg with increased squeezing pressure, securing the entanglement for the sweep
 - Bottom player tucks their chin and compacts their body, preparing for the rotational movement that powers the sweep
@@ -166,6 +168,8 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Reverse Half Guard?</p>
 
 - Monitor your own weight distribution to avoid overcommitting forward pressure that fuels the sweep
 - Maintain wide base with active posting to prevent being rolled through rotational force
@@ -180,6 +184,8 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Reverse Half Guard?</p>
 
 ### 1. Post hand wide on the sweep side to create a base that stops the rotation
 
@@ -217,6 +223,8 @@ Defending the Sweep from Reverse Half Guard requires the top player to recognize
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Reverse Half Guard?</p>
+
 ### → [[Positions/Half Guard/Reverse Half Guard]]
 
 Post a hand wide on the sweep side the moment you feel rotational force. Maintain a wide base with hips heavy and avoid overcommitting forward pressure. This stops the sweep while keeping you in top position to continue your passing sequence.
@@ -232,6 +240,8 @@ Counter the sweep attempt by sprawling aggressively and driving crossface pressu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Reverse Half Guard?</p>
 
 ### 1. Driving forward pressure aggressively without monitoring the bottom player's sweep setup
 
@@ -261,6 +271,8 @@ Counter the sweep attempt by sprawling aggressively and driving crossface pressu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Reverse Half Guard?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner establishes reverse half guard bottom and performs the sweep setup sequence without completing the sweep. Focus on feeling the tactile cues: leg tightening, hip angling, chin tuck, and body compaction. Identify each cue verbally as you feel it. Build the pattern recognition that triggers defensive response.
 
@@ -277,26 +289,6 @@ Start in reverse half guard top against full-resistance partners who are activel
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Sweep from Reverse Half Guard is being attempted?
-**A**: The earliest cue is feeling the bottom player tighten their leg clamp on your trapped leg while angling their hips for rotation. This preparatory tightening and hip alignment happens before the explosive sweep initiation. You may also feel them tuck their chin and compact their body. Recognizing these early setup signs gives you the maximum time window to establish defensive base before the sweep reaches full momentum.
-
-**Q2**: Why is your own forward pressure the primary factor enabling this sweep?
-**A**: The Sweep from Reverse Half Guard uses rotational mechanics to redirect the top player's forward pressure into the force that completes the reversal. Without forward pressure commitment, there is no momentum to redirect and the sweep lacks sufficient force. This means the top player's aggressive driving is literally the energy source for being swept. Understanding this creates a defensive dilemma: you need some forward pressure to pass, but too much feeds the sweep.
-
-**Q3**: Your opponent tightens their leg clamp and you feel their hips beginning to rotate—what is your immediate response?
-**A**: Immediately post your hand wide on the sweep-side and sit your hips back to remove forward pressure. This two-part response addresses both the rotational force with a structural base and the energy source by withdrawing the forward drive. Do not attempt to resist through upper body stiffness. Additionally, begin working to extract your trapped leg from the entanglement to permanently remove the sweep threat.
-
-**Q4**: How do you balance maintaining passing pressure with defending against the sweep threat?
-**A**: Keep your hips heavy on the opponent rather than driving chest-first forward pressure. Hip-based pressure maintains control and passing threat without providing the forward momentum the sweep needs. Maintain at least one hand ready to post for base defense. Advance your pass methodically through leg extraction and backstep mechanics rather than driving forward into the sweep trap. The pass should come from technical positioning, not from pressure that enables the sweep.
-
-
-
-</section>
 
 
 </main>

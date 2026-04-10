@@ -162,6 +162,8 @@ Defending the Crackhead Control Entry requires the top player to recognize the t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crackhead Control Entry?</p>
+
 - Bottom player's free hand moves toward your wrist or forearm on the trapped side, indicating preparation for the cross-body arm pull
 - Hip angle shift beneath you as the bottom player rotates toward your trapped arm side, creating the mechanical pathway for deeper isolation
 - Controlling leg begins sliding higher from across your back toward your shoulder area, signaling transition from Mission Control to Crackhead Control positioning
@@ -174,6 +176,8 @@ Defending the Crackhead Control Entry requires the top player to recognize the t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crackhead Control Entry?</p>
 
 - Recognize the entry attempt during the grip transfer phase—this is your primary and most effective defensive window
 - Fight to maintain posture before the entry begins rather than attempting to escape after arm isolation is established
@@ -189,6 +193,8 @@ Defending the Crackhead Control Entry requires the top player to recognize the t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crackhead Control Entry?</p>
 
 ### 1. Explosive posture recovery by driving upward with both arms while pushing hips back to break posture control
 
@@ -226,6 +232,8 @@ Defending the Crackhead Control Entry requires the top player to recognize the t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crackhead Control Entry?</p>
+
 ### → [[Positions/Open Guard]]
 
 Execute explosive posture recovery during the grip transfer phase, breaking the bottom player's leg control entirely. Drive hips back while lifting head to create maximum distance and disrupt the Rubber Guard configuration completely, forcing a reset to open guard.
@@ -241,6 +249,8 @@ Strip the wrist grip before cross-body arm isolation is completed, forcing the b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crackhead Control Entry?</p>
 
 ### 1. Waiting too long to defend—reacting only after the full arm isolation and leg repositioning is complete
 
@@ -270,6 +280,8 @@ Strip the wrist grip before cross-body arm isolation is completed, forcing the b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crackhead Control Entry?</p>
+
 **Phase 1: Recognition** - Identifying entry cues before they complete
 Partner executes Crackhead Control Entry at slow speed from Rubber Guard. Defender identifies and verbally calls out each recognition cue (wrist reach, hip shift, leg reposition) as they occur. No physical defense—purely visual and tactile recognition training to build pattern awareness.
 
@@ -286,29 +298,6 @@ Positional sparring starting from established Rubber Guard with the bottom playe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a Crackhead Control Entry is being attempted from Rubber Guard?
-**A**: The earliest cues are: the bottom player's free hand moving toward your trapped wrist or forearm rather than maintaining head control; a subtle hip angle shift beneath you as they rotate toward your trapped arm side to create the mechanical pathway; and a temporary reduction in head-pulling pressure as they redirect energy toward the grip transfer sequence. These cues precede the actual entry by one to two seconds, providing the critical defensive window.
-
-**Q2**: Why is circular arm extraction more effective than pulling the arm straight back against the cross-body pull?
-**A**: Pulling straight back fights directly against the cross-body pull's leverage, creating a tug-of-war where the bottom player has superior mechanical advantage through their leg pressure and body weight. Circular extraction—rotating the elbow outward and downward—changes the angle of force, bypassing the direct resistance line and exploiting the gap in the bottom player's grip configuration where their fingers are weakest. This requires substantially less strength and is mechanically sound.
-
-**Q3**: Your arm has been partially pulled across your centerline but the leg has not yet repositioned—what is your best remaining defensive option?
-**A**: Immediately commit to explosive posture recovery combined with driving your shoulder into the bottom player's chest before the leg repositions to lock the configuration. Use your free hand to post on the mat and push your body upward while simultaneously circling the trapped elbow back toward your body. If the arm cannot be fully extracted, transition to stacking defense to compress the bottom player and relieve the leg pressure before they complete the structural lock.
-
-**Q4**: How does the stacking defense counter this entry, and what submission risk does it create?
-**A**: Stacking drives your weight forward and down, compressing the bottom player and reducing the space their controlling leg needs to maintain its elevated position across your back. The increased pressure can force them to release the leg configuration to protect their spine and neck from compression. However, the forward momentum can be redirected by a skilled opponent into an omoplata entry, as the stacking motion provides exactly the rotational angle needed for omoplata control. Only stack when you can maintain your trapped arm tight to your body.
-
-**Q5**: What energy management considerations apply when defending against repeated Crackhead Control Entry attempts?
-**A**: The Crackhead Control Entry creates urgency that can cause the defender to waste energy on ineffective explosive movements. Prioritize one decisive defensive action per attempt rather than multiple half-committed responses. If the first defense fails to fully prevent the entry, immediately transition to defending the established Crackhead Control position rather than continuing to fight the completed entry. Accepting a partially advanced position and defending from there conserves more energy than exhausting yourself fighting a locked position.
-
-
-
-</section>
 
 
 </main>

@@ -190,6 +190,8 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape from Truck?</p>
+
 - Neck protection takes absolute priority over all other escape actions to prevent twister and spinal injury
 - Address the boot pressure before attempting leg extraction since the boot is the engine of all truck control
 - Use systematic sequential escape methodology rather than explosive random movements that waste energy
@@ -204,6 +206,8 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape from Truck?</p>
+
 - Establish immediate neck defense with chin tucked and at least one hand protecting the collar line
 - Identify which side the boot is positioned on and assess the strength of the leg entanglement
 - Create initial defensive posture with hips slightly elevated rather than completely flattened on the mat
@@ -216,6 +220,8 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape from Truck step by step?</p>
 
 1. **Protect Neck and Establish Defensive Posture**: Immediately tuck your chin tight to your chest and position both hands near your neck and collar line to prevent twister grips and choke attempts. This is your absolute first priority. Elevate your hips slightly off the mat to prevent complete flattening, and use your free leg to post for base and stability.
 2. **Identify and Target Boot Pressure**: Locate the opponent's boot foot pressing against your hip and determine which hand you can safely redirect to fight it. The boot is the engine of truck control, generating all the torque that prevents you from rotating your hips and straightening your body. You must neutralize it before meaningful escape is possible.
@@ -245,6 +251,8 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape from Truck?</p>
+
 - **Opponent increases boot pressure and flattens you with chest weight during escape attempt** (Effectiveness: High) - Your Response: Pause escape sequence, re-establish neck protection, and work to re-address the boot before continuing. Use hip elevation and free leg posting to resist flattening while fighting the boot with your hand. → Leads to [[Positions/Twister Control/Truck]]
 - **Opponent abandons truck and transitions to back control by inserting hooks during your escape movement** (Effectiveness: Medium) - Your Response: Immediately shift to back defense protocol with chin tuck and hand fighting on choking arm. Your escape created movement that the opponent exploited, so address the new position rather than continuing the truck escape. → Leads to [[Positions/Back Control]]
 - **Opponent attacks calf slicer on your trapped leg when you begin extraction** (Effectiveness: Medium) - Your Response: Sharply bend your knee to reduce compression on the joint while using the opponent's leg extension commitment to initiate a forward roll escape. Their weight shift for the calf slicer creates a window for rolling through. → Leads to [[Positions/Twister Control/Truck]]
@@ -256,6 +264,8 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape from Truck?</p>
 
 ### 1. Attempting explosive escape without addressing boot pressure first
 
@@ -290,6 +300,8 @@ Your escape sequence follows a strict priority hierarchy: protect the neck first
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape from Truck (Attacker)?</p>
+
 **Phase 1: Mechanics** - Boot clearing and neck protection fundamentals
 Practice individual escape components in isolation: boot clearing drills with partner providing static boot pressure, neck protection hand fighting against slow twister setups, and granby roll mechanics from flat position. No resistance initially, focusing on correct movement patterns and sequencing.
 
@@ -307,42 +319,12 @@ Full positional sparring starting from established truck bottom. Partner works f
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent increases boot pressure and begins setting up the twister grip on your far arm - what is your immediate response?
-**A**: Immediately prioritize neck defense by tucking your chin tight and using both hands to fight the twister grip on your far arm. Do not attempt explosive escape movements that would expose your cervical spine. Systematically fight the grip while maintaining chin tuck, then work to clear the boot pressure once the twister threat is neutralized, since the boot generates the torque enabling the twister finish.
-
-**Q2**: What is the most critical control element to neutralize first when escaping from truck position?
-**A**: The boot pressure on your hip is the most critical control element to neutralize after securing neck defense. The boot creates the torque that generates spinal rotation for the twister and maintains the perpendicular body alignment. Without boot pressure, the truck top player loses their primary control engine and all submissions become significantly harder to execute, making leg extraction and escape roll possible.
-
-**Q3**: You successfully clear the boot but your leg remains trapped in the figure-four entanglement - how do you proceed?
-**A**: With the boot cleared, shift focus to leg extraction by circling your trapped ankle inward and rotating your hip to create angular separation within the figure-four entanglement. Use small incremental shrimping movements rather than one explosive pull. If direct extraction fails within a few attempts, initiate the granby roll which uses rotational momentum to break through remaining leg control.
-
-**Q4**: What determines the optimal timing window for initiating the granby roll escape from truck?
-**A**: The optimal timing window occurs when the truck top player shifts weight to set up a submission such as the twister or calf slicer, transitions between attacks, or when you have successfully reduced one of their control points such as clearing the boot or stripping a grip. Attempting escape during fully consolidated control has much lower success rates and wastes energy that accelerates submission vulnerability.
-
-**Q5**: Your opponent transitions from twister setup to calf slicer attack during your escape attempt - how do you adjust?
-**A**: When the opponent switches from twister to calf slicer, your trapped leg is being extended and compressed at the knee. Immediately bend your knee sharply to reduce joint pressure and buy time. Then use the opponent's changed weight distribution and commitment to the leg attack to initiate your forward roll escape. The transition between attacks creates a brief window where their positional control is less stable than during either settled attack.
-
-**Q6**: What hip movement is essential for creating the space needed to extract the trapped leg from truck entanglement?
-**A**: Hip rotation away from the opponent combined with shrimping movement is essential for creating extraction space. By rotating your hips and driving them away from the truck top player, you create angular separation between your trapped leg and their entangling legs, making it possible to circle your ankle free. This movement must be coordinated with boot clearing since the boot prevents effective hip rotation.
-
-**Q7**: You begin the granby roll but the opponent follows your rotation maintaining back exposure - what should you do?
-**A**: If the opponent follows your granby roll rotation, use their forward momentum against them by continuing the roll without stopping and transitioning to a sit-out or scramble sequence. You can switch to a sit-out motion mid-roll, turning into the opponent to achieve a reversal. The key is never stopping mid-roll, as incomplete rolls leave you in worse positions with your back fully exposed and no defensive frames established.
-
-**Q8**: Why must neck protection be maintained throughout the entire escape sequence rather than only at the beginning?
-**A**: The twister targets the cervical spine and can cause serious injury with very little warning before damage occurs. Even during active escape sequences, momentary exposure of the neck can allow the truck top player to reestablish the twister grip and lock the rotation before you can defend. Maintaining chin tuck and hand fighting near the neck throughout ensures that escape movements do not inadvertently create submission openings for the opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape from Truck?</p>
 
 The truck position threatens the twister (spinal lock) and calf slicer (knee compression), both of which can cause serious injury with minimal warning. Tap immediately when you feel rotational pressure on your cervical spine or compression on your knee joint. During training, communicate clearly with your partner about pressure levels and never attempt explosive escapes that could injure either practitioner. The twister in particular can damage cervical vertebrae and spinal ligaments before pain signals fully register. Prioritize training longevity over ego-driven resistance to tapping.
 

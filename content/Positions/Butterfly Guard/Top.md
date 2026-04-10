@@ -171,6 +171,8 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ## Position Definition
 
+<p class="section-subtitle">What is Butterfly Guard (Top)?</p>
+
 - Opponent has both hooks inserted under your thighs with insteps or balls of feet making contact against your inner thighs, creating elevation threat
 - Opponent maintains seated upright position with active core, preventing you from applying effective downward pressure to flatten them
 - Opponent controls distance and your posture through grips on collar, sleeves, or underhooks, limiting your movement options
@@ -182,6 +184,8 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Butterfly Guard (Top)?</p>
 
 - Strong base and balance fundamentals to resist off-balancing attempts and maintain stability under elevation pressure
 - Understanding of grip fighting principles to prevent opponent from establishing dominant upper body control
@@ -195,6 +199,8 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Butterfly Guard?</p>
 
 - Maintain strong base with wide stance and low center of gravity to resist elevation attempts from hooks
 - Control grips strategically to prevent opponent from establishing dominant upper body control that enables sweeps
@@ -210,6 +216,8 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Butterfly Guard (Top)?</p>
 
 **If opponent maintains strong upright posture with deep hooks and dominant grips:**
 - Execute **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** → [[Positions/Side Control]] (Probability: 48%)
@@ -243,6 +251,8 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Butterfly Guard?</p>
 
 ### 1. Committing too much weight forward into opponent's hooks and upper body control
 
@@ -287,6 +297,8 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Butterfly Guard attacks?</p>
+
 ### Base and Balance Drill Against Elevation
 
 Partner maintains butterfly guard while you work in combat base, partner attempts to elevate with hooks while you focus purely on maintaining base and preventing being swept. Progressive resistance starting light and increasing. Develops balance and base awareness.
@@ -308,7 +320,7 @@ Start with opponent in established butterfly guard and work against live resista
 **Duration**: 5-minute rounds, 4-6 rounds
 
 
-### Grip Fighting from Butterfly Top
+### Grips from Butterfly Top
 
 Focus specifically on preventing opponent from establishing dominant grips while in their butterfly guard. Partner actively works for collar, sleeve, and underhook grips. Work on establishing your own controlling grips to limit their attacking options.
 

@@ -154,6 +154,8 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash Pocket Half?</p>
+
 - Top player lowers their chest weight dramatically, sinking heavy pressure onto your upper torso rather than maintaining a normal engagement distance
 - Top player drives their head into your jaw or face on the crossface side, attempting to turn your head away from the underhook
 - Top player's near hip drops toward the mat, targeting the pocket space created by your bottom leg frame against their hip
@@ -165,6 +167,8 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash Pocket Half?</p>
 
 - Recognize the smash initiation early through pressure changes and head positioning before the compression becomes overwhelming
 - Maintain active hip frame at all costs - the pocket space is the structural foundation of your offensive options and defensive integrity
@@ -179,6 +183,8 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash Pocket Half?</p>
 
 ### 1. Threaten the Old School sweep by pulling with underhook and coming up to elbow
 
@@ -216,6 +222,8 @@ Defending the Smash Pocket Half requires understanding the sequential nature of 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash Pocket Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your Old School sweep threat when the top player commits their weight forward for the smash. Use their forward momentum against them by pulling with the underhook while posting your free hand and coming up to your elbow. The top player's smash commitment makes them vulnerable to being swept because their weight is already moving in the direction you need for the sweep.
@@ -231,6 +239,8 @@ Defend the smash in its early stages by reinforcing your underhook depth and mai
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash Pocket Half?</p>
 
 ### 1. Passively accepting the smash pressure without actively countering or transitioning
 
@@ -260,6 +270,8 @@ Defend the smash in its early stages by reinforcing your underhook depth and mai
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash Pocket Half?</p>
+
 **Phase 1: Recognition Training** - Identifying smash initiation cues and developing defensive awareness
 Partner alternates between normal Pocket Half Guard top engagement and smash initiation at varying intensities. Bottom player calls out the moment they recognize the smash attempt, focusing on identifying the earliest possible cue. Practice until recognition becomes reflexive and consistent.
 
@@ -276,26 +288,6 @@ Start in Pocket Half Guard Bottom against a partner who may or may not attempt t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a smash attempt is beginning, and why is early detection critical?
-**A**: The earliest cue is the top player dramatically increasing their chest weight onto your torso while simultaneously driving their head toward your jaw on the crossface side. Early detection is critical because the smash is a progressive compression technique - each step makes the next step easier for the attacker and harder for you to counter. If you recognize and respond during the first step, you have multiple effective defensive options. By the third or fourth step, your options are severely limited and escape becomes significantly more difficult.
-
-**Q2**: When should you abandon your pocket position and transition to Deep Half Guard during a smash?
-**A**: Transition to Deep Half Guard when the top player commits significant forward pressure but before your hip frame has been fully collapsed. The ideal timing is when you feel heavy chest pressure driving you toward flat, but you still have enough hip mobility to scoot underneath. The top player's forward weight commitment actually aids your deep half entry because they are already driving their center of gravity over your body. If you wait until you are completely flat, the deep half entry becomes exponentially harder.
-
-**Q3**: Why is the Old School sweep threat particularly effective against the smash attempt?
-**A**: The Old School sweep exploits the exact weight distribution the top player uses during the smash. To generate smashing pressure, the top player must commit their weight forward and downward. The Old School sweep uses the underhook to redirect this committed weight over the bottom player's shoulder, converting the attacker's own pressure into sweeping momentum. The smash also typically requires the top player to narrow their base slightly to drive the hip into the pocket frame, which further compromises their resistance to the lateral sweep direction.
-
-**Q4**: What defensive option should you choose if your underhook has been partially stripped but you still have hip frame intact?
-**A**: With a partially stripped underhook but intact hip frame, your best option is to immediately transition to Knee Shield Half Guard. Use the remaining pocket space from your hip frame to insert your knee between your bodies and establish a shin frame across the opponent's chest or hip. This transitions you from a compromised pocket position to a defensive guard with strong distance management. Attempting to re-establish the deep underhook against a dominant crossface is typically a losing battle that wastes energy better spent on guard transitions.
-
-
-
-</section>
 
 
 </main>

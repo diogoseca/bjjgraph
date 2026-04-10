@@ -47,8 +47,8 @@
       "relationship": "Position that combines well with overhook for enhanced sweeping power"
     },
     {
-      "name": "Rubber Guard",
-      "relationship": "Advanced guard system that utilizes overhook principles with leg control"
+      "name": "Mission Control",
+      "relationship": "Advanced guard position that utilizes overhook principles with leg control"
     },
     {
       "name": "Overhook Control",
@@ -121,8 +121,8 @@
             "probability": 55
           },
           {
-            "technique": "Kimura from Guard",
-            "target": "Kimura Trap",
+            "technique": "Overhook Pass to Side Control",
+            "target": "Side Control",
             "probability": 50
           }
         ]
@@ -277,7 +277,7 @@
         "attempt_probability": 14
       },
       {
-        "transition": "Kimura from Guard",
+        "transition": "Overhook Pass to Side Control",
         "attempt_probability": 14
       },
       {
@@ -396,7 +396,7 @@
         "condition": "If opponent drives weight forward attempting to stack",
         "actions": [
           {
-            "technique": "Omoplata from Guard",
+            "technique": "Closed Guard to Omoplata",
             "target": "Omoplata Control",
             "probability": 50
           },
@@ -416,7 +416,7 @@
             "probability": 65
           },
           {
-            "technique": "Kimura from Guard",
+            "technique": "Kimura Sweep",
             "target": "Kimura Trap",
             "probability": 50
           }
@@ -431,8 +431,8 @@
             "probability": 55
           },
           {
-            "technique": "Armbar from Guard",
-            "target": "Armbar Control",
+            "technique": "Flower Sweep",
+            "target": "Mount",
             "probability": 50
           }
         ]
@@ -483,11 +483,11 @@
       },
       {
         "name": "Submission Attack Progression",
-        "description": "Starting from overhook guard, bottom player attacks triangle, kimura, omoplata, and armbar in sequence while top player provides progressive resistance. Start at 30% resistance and increase to 70% over the drill duration. Emphasize proper setup mechanics and control maintenance throughout transitions.",
+        "description": "Starting from overhook guard, bottom player attacks triangle, kimura, omoplata, and flower sweep in sequence while top player provides progressive resistance. Start at 30% resistance and increase to 70% over the drill duration. Emphasize proper setup mechanics and control maintenance throughout transitions.",
         "duration": "4 rounds of 2 minutes"
       },
       {
-        "name": "Angle Creation and Recovery",
+        "name": "Dominant Angles and Recovery",
         "description": "Bottom player maintains overhook guard while top player attempts to flatten them and establish centered base. Bottom player hip escapes to create angles, frames to prevent flattening, and constantly adjusts positioning. Top player works to maintain centered pressure and posture. Focus on mobility and position recovery.",
         "duration": "3 rounds of 3 minutes"
       }
@@ -548,7 +548,7 @@
         "attempt_probability": 21
       },
       {
-        "transition": "Omoplata from Guard",
+        "transition": "Closed Guard to Omoplata",
         "attempt_probability": 11
       },
       {
@@ -560,11 +560,11 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Kimura from Guard",
+        "transition": "Kimura Sweep",
         "attempt_probability": 11
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Flower Sweep",
         "attempt_probability": 13
       },
       {

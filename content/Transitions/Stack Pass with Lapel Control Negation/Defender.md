@@ -166,6 +166,8 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass with Lapel Control Negation?</p>
+
 - Opponent drops their shoulder into your thigh and begins driving their hips forward with aggressive posture, indicating the beginning of the stacking sequence
 - Opponent secures a pants grip at your far knee or hip with their near hand while their free hand hovers near the lapel wrap, signaling they are preparing for the grip strip
 - You feel the lapel tension decreasing as the opponent's forward pressure begins folding your hips toward your shoulders, indicating the compression is reaching the critical slack-creation phase
@@ -178,6 +180,8 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass with Lapel Control Negation?</p>
 
 - Hip escape early and aggressively the moment you feel forward driving pressure to prevent the stack from compressing fully and creating lapel slack
 - Maintain constant tension on the lapel wrap by adjusting your grip hand position and extending your hips away from the passer as they drive forward
@@ -192,6 +196,8 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass with Lapel Control Negation?</p>
 
 ### 1. Early hip escape to re-angle and restore lapel tension before the stack compresses fully
 
@@ -229,6 +235,8 @@ Strategically, the defender should view the opponent's stack attempt as a transi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass with Lapel Control Negation?</p>
+
 ### → [[Positions/Ringworm Guard]]
 
 Hip escape early and aggressively the instant you feel the stack beginning. Re-angle your body to restore full lapel tension and prevent the compression from reaching the critical slack point. Use your free leg to frame against the opponent's shoulder as a secondary barrier. Once the stack attempt fails, re-establish your secondary grips and continue working from Ringworm Guard.
@@ -244,6 +252,8 @@ Use the opponent's forward commitment during the stack as fuel for a sweep. As t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass with Lapel Control Negation?</p>
 
 ### 1. Remaining flat on your back and accepting the compression passively without hip escaping or framing
 
@@ -278,6 +288,8 @@ Use the opponent's forward commitment during the stack as fuel for a sweep. As t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass with Lapel Control Negation?</p>
+
 **Week 1-2** - Recognition and early hip escape timing
 Partner begins in Ringworm Guard top and initiates the stack pass at varying speeds. Focus exclusively on recognizing the stack entry cues - shoulder drop, forward hip drive, pants grip - and responding with an immediate hip escape before compression builds. Partner provides no resistance to the hip escape. Goal is developing automatic recognition-to-reaction speed. Drill 20-30 reps per side.
 
@@ -294,29 +306,6 @@ Partner applies the complete stack pass sequence with full resistance including 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the stack pass against your Ringworm Guard?
-**A**: The earliest cue is when the opponent drops their shoulder into your thigh on the trapped-leg side and begins driving their hips forward. This shoulder contact combined with forward hip drive is the hallmark setup for the stack. You may also notice them securing a pants grip at your far knee or hip, which signals they are establishing control for the stacking sequence. The moment you feel your hips beginning to lift off the mat involuntarily, the stack is already progressing and you need to respond immediately.
-
-**Q2**: Why does hip escaping early work as a defense but hip escaping late often accelerates the pass?
-**A**: Early hip escape changes the angle between your body and the passer before compression is established, which restores tension on the lapel wrap and prevents the slack that the passer needs. Late hip escape occurs after the compression has already created lapel slack, and the movement actually creates space between your legs and body that helps the passer clear your legs and complete the pass. The timing threshold is when your hips leave the mat - before that point, hip escape restores your guard; after it, hip escape often helps the passer.
-
-**Q3**: Your opponent has achieved significant compression and you can feel the lapel losing tension. What is your best defensive option at this point?
-**A**: At this stage, your best option shifts from retention to counter-offense or guard transition. Attempt an immediate sweep using the remaining lapel tension combined with the opponent's forward weight commitment. If a sweep is not available, transition to an inverted guard position or switch your lapel configuration to a different guard variant before the grip is stripped. Pure retention at this compression level is unlikely to succeed because the geometric advantage has shifted to the passer.
-
-**Q4**: How should you position your free leg to most effectively prevent full stack compression?
-**A**: Your free leg should frame against the opponent's driving shoulder or bicep with your shin or foot, creating a structural barrier at the exact point where their forward force is being transmitted. The foot placement should be at shoulder height, not against their head or upper chest, because the compression force originates from the shoulder drive. Keep the leg slightly bent to absorb pressure without collapsing, and be prepared to re-position it if the opponent tries to swim underneath the frame.
-
-**Q5**: Your opponent successfully strips your lapel grip during the stack. What is your immediate priority?
-**A**: Your immediate priority is preventing the pass to side control rather than attempting to re-grip the lapel. Insert your near knee across the opponent's body to recover half guard or a knee shield position before they can clear your legs. If you focus on re-gripping the lapel instead of guard recovery, the opponent will complete the pass while you reach for fabric. The lapel grip is gone - accept the positional change and transition to your next-best defensive guard rather than trying to restore Ringworm Guard mid-pass.
-
-
-
-</section>
 
 
 </main>

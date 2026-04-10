@@ -68,8 +68,8 @@
       "relationship": "Counter outcome when opponent abandons armbar and re-mounts"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "The submission threat being escaped from"
+      "name": "Armbar from Armbar Control",
+      "relationship": "The submission finish being escaped from"
     },
     {
       "name": "Armbar Defense",
@@ -261,6 +261,22 @@
       {
         "question": "What is your immediate priority after successfully extracting your arm?",
         "answer": "Immediately recover to a guard position by turning to face the opponent and inserting your legs between your bodies to establish open guard. If you end up in turtle from the belly-down variant, work to re-guard before the opponent establishes back control. The arm extraction alone is not the escape - you must reach a defensible position within two to three seconds or the opponent will re-establish dominance."
+      },
+      {
+        "question": "What is the primary direction of force your body must generate during the hitchhiker escape?",
+        "answer": "The primary force vector is rotational, perpendicular to the armbar's extension plane. Your hip bridge generates upward force that is immediately converted into lateral rotation toward the trapped arm side. This perpendicular rotation exploits the armbar's structural weakness: the opponent's legs and hips are configured to resist linear pulling but have minimal mechanical advantage against a spinning body. The bridge provides the initial momentum, and your core sustains the rotation through completion."
+      },
+      {
+        "question": "Your hitchhiker escape stalls mid-rotation and the opponent begins re-tightening control - what are your options?",
+        "answer": "If stalled mid-rotation, you face the worst-case angle where your arm is vulnerable from a new direction. You have two options: recommit with a second explosive bridge to complete the rotation before they re-establish control, or reverse direction and return to your original defensive position to reset. Never remain static at the mid-rotation angle. If returning to start, immediately re-clasp hands and rebuild your primary defense to attempt the escape again when a better window appears."
+      },
+      {
+        "question": "How does the hitchhiker escape chain with other armbar defenses in a layered defensive system?",
+        "answer": "The hitchhiker sits as the secondary escape after primary defenses are exhausted. The typical chain begins with hand clasping to prevent extension, followed by stacking to compromise the opponent's angle. When the opponent strips the hand clasp and defeats the stack, the hitchhiker provides a rotational escape on a completely different axis. Each defense forces the opponent to adjust, and the hitchhiker capitalizes on the grip and positional changes they made to defeat your earlier defenses. The transition between defenses should be fluid rather than waiting for complete failure."
+      },
+      {
+        "question": "Your opponent posts their far foot on the mat during the armbar - how does this affect your hitchhiker escape attempt?",
+        "answer": "A posted far foot gives the opponent a base to follow your rotation, making the belly-down armbar transition much easier for them. Recognize this by feeling reduced weight through their near leg. Adjust by accelerating your rotation to outpace their follow, or target the posted leg with your free hand to disrupt their base before rotating. If they are already tracking your movement effectively, consider switching to a stack escape instead, as their posted foot actually makes them more vulnerable to being driven backward."
       }
     ],
     "safety_considerations": "The hitchhiker escape involves rotating against an active armbar attempt, creating significant risk to the elbow joint if executed incorrectly. Never attempt this escape when the arm is fully extended - tap immediately to prevent hyperextension or ligament damage. During training, communicate clearly with your partner about resistance levels and always tap early when the escape stalls with the arm in a vulnerable position. Practice at slow speeds initially to develop proper rotation mechanics before adding speed or resistance. Partners applying the armbar should release pressure immediately upon feeling a tap or sensing the escape has stalled with the arm under load. The rotational forces involved can cause injury patterns different from standard armbar hyperextension, including torsional stress on the elbow and shoulder, so err on the side of caution."

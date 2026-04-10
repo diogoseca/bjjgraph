@@ -164,6 +164,8 @@ The key defensive principle is that the snap down becomes exponentially harder t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Snap Down to Front Headlock?</p>
+
 - Opponent establishes firm grip behind your head or neck with one hand while their other hand controls your tricep or secures an overhook
 - You feel a slight forward and downward pull on your head that gradually increases - this is the loading phase before the explosive snap
 - Opponent's posture shifts from neutral clinch engagement to a more forward-leaning position with weight moving onto their toes
@@ -176,6 +178,8 @@ The key defensive principle is that the snap down becomes exponentially harder t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Snap Down to Front Headlock?</p>
 
 - Maintain strong posture with chin level and head up - a bent-over posture invites the snap and makes recovery difficult
 - Fight grip establishment aggressively; once the attacker secures head control and secondary grip, the snap becomes high-percentage
@@ -191,6 +195,8 @@ The key defensive principle is that the snap down becomes exponentially harder t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Snap Down to Front Headlock?</p>
 
 ### 1. Posture recovery and grip strip - immediately straighten posture while stripping the hand from behind your head using two-on-one grip break
 
@@ -228,6 +234,8 @@ The key defensive principle is that the snap down becomes exponentially harder t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Snap Down to Front Headlock?</p>
+
 ### → [[Positions/Clinch]]
 
 Strip opponent's head grip early using two-on-one grip break and immediately re-establish your own collar tie with inside position. Alternatively, after being partially snapped, fight the choking arm at the wrist, maintain chin tuck, and use explosive hip drive to stand back to neutral clinch while circling away from their power side.
@@ -243,6 +251,8 @@ Use the attacker's forward commitment during the snap as a window for counter-wr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Snap Down to Front Headlock?</p>
 
 ### 1. Allowing opponent to establish deep grip behind head without fighting it immediately
 
@@ -277,6 +287,8 @@ Use the attacker's forward commitment during the snap as a window for counter-wr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Snap Down to Front Headlock?</p>
+
 **Weeks 1-3: Recognition and Posture Maintenance** - Identifying snap down setups and maintaining defensive posture
 Partner establishes clinch grips and applies light snap attempts. Practice recognizing the loading phase, maintaining strong posture under pressure, and executing grip strips before the snap can be initiated. Work at 30-40% resistance to build pattern recognition without overwhelming defensive reactions. Drill 10-15 reps per round focusing on early detection.
 
@@ -293,29 +305,6 @@ Full resistance clinch sparring where partner actively hunts for snap downs as t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most effective point to defend against a snap down attempt?
-**A**: The earliest and most effective defense point is during grip establishment, before the attacker secures their hand behind your head. Active hand fighting that denies the initial head control grip eliminates the snap down threat entirely. Once the attacker has both a head grip and secondary control point, defending becomes significantly harder. The principle is that preventing the setup is always easier than defending the execution.
-
-**Q2**: You feel your opponent loading your weight forward with a slight pull before the explosive snap - what should you do?
-**A**: The loading phase is your critical reaction window. Immediately recover posture by driving your hips underneath you and pulling your head back while simultaneously stripping their grip with a two-on-one break. Alternatively, use their forward pull as timing for a level change and shoot a takedown, since their weight commitment forward compromises their ability to sprawl. The worst response is to simply resist the pull with muscular tension, as this gives them the resistance they need to time the explosive snap.
-
-**Q3**: After being successfully snapped down, why is it dangerous to immediately try to stand up without controlling the attacker's choking arm?
-**A**: Standing up without controlling the choking arm is dangerous because the upward extension of your body tightens any neck control the attacker has, particularly guillotine-style grips. As you drive upward, your neck extends against their forearm, essentially finishing the choke for them. You must first secure the choking arm at the wrist or elbow, pulling it away from your neck to create space, before attempting to stand. Controlling the arm neutralizes the submission threat during your posture recovery.
-
-**Q4**: Which direction should you circle when escaping a partially successful snap down, and why?
-**A**: Circle away from the attacker's choking arm side. If their right arm is around your head, circle to your left. This direction creates the maximum angle displacement from their submission grips, makes it harder for them to maintain head control, and positions you to recover guard or re-establish the clinch. Circling toward the choking arm side compresses your neck into their grip and makes guillotine, anaconda, and darce submissions significantly easier to finish.
-
-**Q5**: How can you use the attacker's commitment to the snap down as a counter-wrestling opportunity?
-**A**: When the attacker commits to the snap, their weight shifts forward and their hips drive toward you. This forward commitment creates an opening for counter-takedowns because their base is temporarily compromised. As you feel the snap initiate, change levels and shoot for a single or double leg takedown. Their forward momentum makes it difficult for them to sprawl, and the level change removes your head from their grip trajectory. This transforms a defensive situation into an offensive one, but requires confident timing and willingness to shoot during the pressure of being attacked.
-
-
-
-</section>
 
 
 </main>

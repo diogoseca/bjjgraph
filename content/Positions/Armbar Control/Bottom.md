@@ -169,6 +169,8 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Position Definition
 
+<p class="section-subtitle">What is Armbar Control (Bottom)?</p>
+
 - Defender's arm is extended or being extended across opponent's hips with elbow joint exposed and vulnerable to hyperextension, requiring constant flexion effort to prevent full straightening
 - Opponent controls defender's arm with both hands, typically gripping near the wrist and triceps area, creating isolation of the attacked limb from the defender's torso
 - Opponent's hips positioned near defender's shoulder with legs controlling the head and torso, creating the classic armbar triangle structure that limits postural recovery
@@ -182,6 +184,8 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Armbar Control (Bottom)?</p>
+
 - Opponent has secured grip control on defender's arm (wrist and triceps)
 - Opponent has positioned hips near defender's shoulder joint
 - Opponent's legs are controlling defender's upper body (head/chest)
@@ -194,6 +198,8 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar Control?</p>
 
 - Keep attacked arm bent at all costs - prevent full extension of the elbow joint through constant flexion pressure
 - Thumb position toward ceiling - rotate arm so thumb points upward to strengthen elbow joint structure against hyperextension
@@ -209,6 +215,8 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Armbar Control (Bottom)?</p>
 
 **If opponent has not fully extended the arm and legs are not tight across face:**
 - Execute **[[Transitions/Hitchhiker Escape/Attacker|Hitchhiker Escape]]** → [[Positions/Half Guard]] (Probability: 60%)
@@ -237,6 +245,8 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar Control?</p>
 
 ### 1. Straightening the attacked arm in attempt to pull out
 
@@ -276,6 +286,8 @@ Mastery of armbar defense is essential for all practitioners, as the armbar is o
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Armbar Control defense?</p>
+
 ### Progressive Armbar Escape Drill
 
 Partner applies armbar with increasing pressure levels (25%, 50%, 75%, 90%) while defender practices escape sequence. Start with arm bent, thumb up, connect hands, then execute chosen escape. Reset and repeat 5 times per pressure level. Focus on maintaining calm breathing and systematic technique application.
@@ -309,38 +321,6 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive action you must take when caught in an armbar?
-**A**: Immediately bend your trapped elbow and rotate your forearm so your thumb points toward the ceiling. This creates the strongest anatomical position for your elbow joint and prevents the opponent from achieving the extension angle needed to finish. Simultaneously, use your free hand to grip your trapped wrist and pull it toward your chest to reinforce the bent position.
-
-**Q2**: Your opponent begins elevating their hips to finish - what immediate response should you execute?
-**A**: As their hips rise, explosively bridge your own hips upward and forward toward their body, creating a stacking effect that compromises their finishing angle. Simultaneously turn your body toward the trapped arm side while maintaining your defensive arm position. This combination disrupts their leverage and creates space to potentially extract your arm or transition to a more defensible position.
-
-**Q3**: Why is controlling the opponent's leg across your face essential for armbar defense?
-**A**: The leg across your face is the primary mechanism preventing you from sitting up or turning into the position. By gripping this leg with your free hand and pushing it toward their body, you remove their ability to drop back flat for maximum finishing leverage. This control also creates the space needed to turn your body and begin escape sequences.
-
-**Q4**: What is the hitchhiker escape and when should you attempt it?
-**A**: The hitchhiker escape involves rotating your trapped arm so the thumb points toward your head (like hitchhiking), then sliding your elbow across your body while simultaneously turning to turtle position. Attempt this escape when you have maintained a bent arm and the opponent's legs are not completely locked tight. The rotation makes it mechanically difficult for them to maintain wrist control.
-
-**Q5**: How do you prevent energy depletion while defending an armbar?
-**A**: Focus on skeletal alignment rather than muscular effort. Keep your arm bent using bone structure rather than bicep strength by positioning your hand against your chest or shoulder. Use your free hand to assist rather than relying solely on the trapped arm. Make deliberate, technical movements rather than explosive attempts to rip free. Controlled breathing prevents panic-induced energy waste.
-
-**Q6**: What escape should you prioritize when the opponent has very tight leg control?
-**A**: When leg control is tight, the stack defense becomes your best option. Drive your hips forward and upward while walking your feet toward their head. This creates immense pressure on their lower back, forcing them to either release leg control or accept a compromised finishing position. As their legs loosen, immediately transition to hip escape or standing pass.
-
-**Q7**: How do you recognize when it is too late to continue defending and you should tap?
-**A**: Tap when your arm reaches full extension against your resistance and you feel pressure on the elbow joint itself. If your arm is straightening despite your defensive efforts and their hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Tap before you feel a pop or sharp pain - the goal is to train another day. There is no shame in tapping to a well-executed submission.
-
-**Q8**: What body position should you avoid when defending the armbar?
-**A**: Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -362,7 +342,7 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 ## Related Positions and Techniques
 
 - **[[Positions/Armbar Control]]** - Parent hub page for this defensive position
-- **[[Transitions/Armbar Finish]]** - Primary threat - submission being defended against
+- **[[Armbar from Armbar Control]]** - Primary threat - submission being defended against
 - **[[Positions/Triangle Control]]** - Common transition - opponent switches to triangle when armbar is defended
 - **[[Transitions/Hip Escape to Guard]]** - Primary escape technique - most reliable armbar defense method
 - **[[Positions/Closed Guard]]** - Common escape target - safe position after successful defense

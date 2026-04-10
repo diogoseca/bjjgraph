@@ -190,6 +190,8 @@ The attacker's decision-making centers on two variables: which direction to spin
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Mount to Mount?</p>
+
 - Maintain constant hip-to-chest pressure throughout the entire rotation arc without any lift or gap
 - Commit fully to the rotation direction once initiated—hesitation mid-spin creates the worst possible weight distribution
 - Use the inside knee as a pivot point anchored to the opponent's ribs while the outside leg swings through the arc
@@ -205,6 +207,8 @@ The attacker's decision-making centers on two variables: which direction to spin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Mount to Mount?</p>
+
 - Secure reverse mount with hips heavy on opponent's sternum or upper abdomen, weight distributed through buttocks
 - Both knees wide on either side of opponent's torso creating stable base before initiating rotation
 - At least one hand posted on the mat on the side you intend to rotate toward for balance reference
@@ -218,6 +222,8 @@ The attacker's decision-making centers on two variables: which direction to spin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Mount to Mount step by step?</p>
 
 1. **Establish heavy base in reverse mount**: Sink your hips onto the opponent's sternum with maximum weight distribution through your buttocks and lower back. Widen your knees outside their ribcage and post both hands lightly on the mat near their hips for balance. Confirm you feel their chest compressed under your weight before initiating any movement.
 2. **Select rotation direction**: Read the opponent's body position to determine which shoulder to spin over. If their arms are framing on your left side, spin right and vice versa. The goal is to rotate away from their strongest defensive structures so you arrive in mount without immediately encountering resistance. Make this decision quickly—within 1-2 seconds of establishing reverse mount.
@@ -247,6 +253,8 @@ The attacker's decision-making centers on two variables: which direction to spin
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Mount to Mount?</p>
+
 - **Opponent bridges explosively during the rotation when weight is momentarily compromised** (Effectiveness: High) - Your Response: Pause mid-rotation and ride the bridge by driving your hips down and spreading your base wide. Complete the rotation only after they land from the bridge when they are momentarily flat and exhausted from the effort. → Leads to [[Positions/Half Guard]]
 - **Opponent inserts a knee shield during the rotation gap to recover half guard** (Effectiveness: High) - Your Response: If you feel the knee entering, abort the spin and immediately apply a knee slice pass through the newly created half guard. Alternatively, reverse direction and re-establish reverse mount before attempting the rotation from the other side. → Leads to [[Positions/Half Guard]]
 - **Opponent shrimps away and turns to their side during the rotation creating distance** (Effectiveness: Medium) - Your Response: Abandon the mount conversion and instead follow them toward back control by inserting hooks from the reverse position. Their turn actually improves your back take angle rather than helping their escape. → Leads to [[Positions/Reverse Mount]]
@@ -258,6 +266,8 @@ The attacker's decision-making centers on two variables: which direction to spin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Mount to Mount?</p>
 
 ### 1. Lifting hips off opponent's chest during the rotation to create clearance for the spinning leg
 
@@ -297,6 +307,8 @@ The attacker's decision-making centers on two variables: which direction to spin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Mount to Mount (Attacker)?</p>
+
 **Phase 1: Solo Movement Mechanics** - Rotation pattern and weight transfer fundamentals
 Practice the 180-degree rotation on a heavy bag or grappling dummy, focusing on keeping hips pressed down throughout the entire arc. Drill both near-shoulder and far-shoulder spins until the movement is smooth and automatic. Aim for 50 repetitions per direction per session, emphasizing the hip drag across the surface rather than any lifting motion.
 
@@ -317,45 +329,12 @@ Simulate competition rounds where reverse mount scenarios are created through li
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the rotation from reverse mount to standard mount?
-**A**: The rotation should be initiated within 3-5 seconds of achieving reverse mount. This window exists because reverse mount is inherently transitional—every second spent there allows the bottom player to develop frames, begin hip escapes, and prepare defensive counters timed to the rotation. Executing within this window catches the opponent before they organize their defense.
-
-**Q2**: Your opponent begins shrimping to their right side while you are in reverse mount—which direction should you spin and why?
-**A**: You have two viable options: spin to your left (away from their escape direction) to complete the mount conversion without encountering their frames, or abandon the mount rotation entirely and follow their hip escape toward back control by inserting hooks. If they have already created significant angle, the back take is often higher percentage than forcing the mount rotation against their movement direction.
-
-**Q3**: What is the critical mechanical detail that prevents the opponent from inserting a knee shield during the rotation?
-**A**: Maintaining constant hip-to-chest pressure throughout the entire rotational arc is the key mechanical detail. The hips must drag across the opponent's sternum without any lift or gap. The inside knee anchored against the ribs serves as the pivot point while the outside leg swings tight against the body. Any lift creates the space needed for knee insertion, so the weight must transfer as a continuous grind rather than a hop-and-land.
-
-**Q4**: What are the grip requirements before initiating the rotation from reverse mount?
-**A**: At minimum, one hand must be posted on the mat in the direction of the intended rotation to guide balance and prepare for the crossface. The other hand can control the opponent's hip to prevent bridging or post on the opposite side for additional base. No specific gi grips are required, but all opponent frames should be cleared before initiating. The posted hand position near the opponent's head is critical because it transitions directly into the crossface upon rotation completion.
-
-**Q5**: Why is hesitating mid-rotation considered worse than either completing or aborting the spin?
-**A**: The perpendicular position at the midpoint of rotation represents the narrowest base and weakest structural alignment. Your weight is distributed across the opponent's body at an angle that provides them maximum leverage for bumping or bridging. Pausing here gives the opponent a clear window to execute their counter. Committing to complete the spin quickly passes through this vulnerable angle, while aborting returns you to the stable reverse mount base.
-
-**Q6**: Your opponent explosively bridges just as you begin the rotation—how do you respond?
-**A**: Immediately pause the rotation, spread your base wide, and drive your hips down to ride the bridge. Do not continue spinning during the bridge as your compromised weight distribution will likely result in being thrown off. Wait for them to land from the bridge—this post-bridge moment is when they are flattest and most exhausted. Resume the rotation during this recovery window when their defensive capacity is temporarily diminished.
-
-**Q7**: What distinguishes the stepover conversion variant from the standard spinning rotation?
-**A**: The stepover conversion is a deliberate two-phase movement rather than a continuous spin. The attacker posts one foot on the mat and steps over the opponent's body, then pivots on that foot to bring the trailing leg across. This sacrifices speed for maximum weight control and is preferred against larger opponents or when the opponent is actively bridging. The trade-off is that the slower execution gives the opponent more time to react, but the control is more secure throughout.
-
-**Q8**: What is the most common failure point in this transition and what does it typically result in?
-**A**: The most common failure is lifting the hips during the rotation to create clearance for the swinging leg. This creates a momentary gap between the attacker's weight and the opponent's chest, which the bottom player exploits by inserting a knee shield or bridging into the space. The typical result is the opponent recovering half guard, converting the attacker's dominant position into a neutral guard battle. The correction is to drag the weight across rather than lifting over.
-
-**Q9**: If the mount rotation fails and you end up in the opponent's half guard, what is your immediate chain attack?
-**A**: From the resulting half guard top position, immediately establish crossface and underhook control to prevent the opponent from developing offensive half guard structures. Initiate a knee slice pass to re-advance to side control or mount. The positional regression from mount attempt to half guard is recoverable if you immediately apply top pressure rather than trying to re-establish reverse mount. The key is to accept the new position and work forward from there rather than attempting to return to the failed position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Mount to Mount?</p>
 
 This transition carries moderate injury risk primarily from the opponent's defensive reactions during the rotation. The bottom player may bridge explosively as weight shifts, risking collision between the rotating practitioner's head and the mat or the opponent's body. During training, both partners should communicate clearly about resistance levels and the top player should avoid dropping full weight abruptly after rotation completion. Knee injury risk exists for the pivot knee if it catches on the mat during the spin—ensure the training surface provides adequate slide. The bottom player should avoid bridging their neck to prevent cervical spine strain.
 

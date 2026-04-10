@@ -77,8 +77,8 @@
       "relationship": "Reverse chain link completing the bidirectional armbar-triangle submission cycle"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Primary alternative when armbar remains viable without needing triangle transition"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Primary submission finish from armbar control when armbar remains viable without needing triangle transition"
     },
     {
       "name": "Back Take from Armbar",

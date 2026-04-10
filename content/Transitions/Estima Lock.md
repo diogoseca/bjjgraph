@@ -28,7 +28,7 @@ The technique functions as a direct submission from the Estima Lock control posi
 
 Strategically, the Estima Lock serves as a high-percentage finishing option within leg entanglement systems. It integrates seamlessly with toe holds, straight ankle locks, and transitions to ashi garami positions, creating a comprehensive lower-body submission threat. The technique is particularly effective in no-gi grappling where opponents cannot use collar grips to defend, though it remains viable in gi competition when properly executed. Understanding both the offensive application and defensive vulnerabilities of this submission is essential for modern grapplers competing in rulesets that permit foot attacks.
 
-**From Position**: [[Positions/Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -39,8 +39,8 @@ Strategically, the Estima Lock serves as a high-percentage finishing option with
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Estima Lock]] | 27% |
+| Success | [[Transitions/Estima Lock]] | 58% |
+| Failure | [[Positions/Estima Lock Control]] | 27% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
 
@@ -198,9 +198,9 @@ The Estima Lock serves as a direct submission finish within the broader leg enta
 ## Related Techniques
 
 
-- [[Positions/Estima Lock]] - Starting control position from which this finish is executed
+- [[Positions/Estima Lock Control]] - Starting control position from which this finish is executed
 
-- [[Transitions/Toe Hold]] - Chain attack when opponent turns foot away from Estima Lock angle
+- [[Submissions/Toe Hold]] - Chain attack when opponent turns foot away from Estima Lock angle
 
 - [[Positions/Straight Ankle Lock Control]] - Alternative footlock control position with similar leg isolation configuration
 

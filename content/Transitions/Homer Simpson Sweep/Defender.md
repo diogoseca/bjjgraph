@@ -164,6 +164,8 @@ Successful defense requires understanding that the sweep's power comes from the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Homer Simpson Sweep?</p>
+
 - Bottom player's free hand reaches over your back toward your belt, waistband, or far hip, establishing the over-the-back grip that signals Homer Simpson Sweep setup
 - Increased upward pressure from the bottom player's head and shoulder against your inner thigh or hip, indicating they are loading for the come-up motion
 - Bottom player plants their feet flat on the mat rather than keeping them wrapped around your legs, creating the platform needed to generate forward driving force
@@ -176,6 +178,8 @@ Successful defense requires understanding that the sweep's power comes from the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Homer Simpson Sweep?</p>
 
 - Recognize the over-the-back grip establishment as the primary early warning of the Homer Simpson Sweep - defend the grip before the sweep initiates
 - Maintain heavy sprawling pressure with hips low and forward to prevent the bottom player from generating upward momentum for the come-up
@@ -190,6 +194,8 @@ Successful defense requires understanding that the sweep's power comes from the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Homer Simpson Sweep?</p>
 
 ### 1. Sprawl hips back and apply heavy crossface pressure to flatten the bottom player
 
@@ -227,6 +233,8 @@ Successful defense requires understanding that the sweep's power comes from the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Homer Simpson Sweep?</p>
+
 ### → [[Positions/Half Guard]]
 
 Counter the sweep by sprawling, applying crossface, and using the opponent's upward momentum against them to extract your trapped leg from the deep underhook. Circle your hips away while driving your shoulder into their chest to transition from deep half guard top to standard half guard top, where you have significantly better passing options and no sweep threats from the deep half system.
@@ -242,6 +250,8 @@ Prevent the sweep in its early phases by stripping the over-the-back grip and ap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Homer Simpson Sweep?</p>
 
 ### 1. Ignoring the over-the-back grip establishment and allowing the bottom player to complete their setup unchallenged
 
@@ -271,6 +281,8 @@ Prevent the sweep in its early phases by stripping the over-the-back grip and ap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Homer Simpson Sweep?</p>
+
 **Phase 1: Recognition** - Identifying Homer Simpson Sweep setup cues
 Partner performs slow-motion Homer Simpson Sweep setups while you practice identifying the over-the-back grip reach, foot plant, and body angle changes that signal the sweep. Call out each cue as you feel it. No defensive response yet - purely developing the ability to recognize the sweep in its early phases.
 
@@ -287,29 +299,6 @@ Positional sparring starting in deep half guard top. Partner works the complete 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a Homer Simpson Sweep is being initiated rather than a waiter sweep?
-**A**: The Homer Simpson Sweep is signaled by the bottom player reaching their free hand over your back to establish a belt or waistband grip, combined with their feet planting flat on the mat for forward driving power. The waiter sweep setup involves the bottom player's hips elevating laterally with their free hand gripping your far knee or pants rather than reaching over your back. The over-the-back grip and flat foot plant are the definitive indicators of Homer Simpson intent.
-
-**Q2**: What base adjustment provides the strongest defense against the Homer Simpson come-up?
-**A**: A wide base with hips sprawled low and forward, combined with heavy crossface pressure driving the bottom player's upper body to the mat. The free leg should post far to the side creating a wide triangular base. Weight should be distributed forward through the shoulder and crossface rather than sitting back on the heels. This combination removes the space needed for the come-up while providing structural resistance to the forward driving force.
-
-**Q3**: How do you capitalize on a failed Homer Simpson Sweep attempt to improve your position?
-**A**: When the bottom player commits to the Homer Simpson come-up and you successfully block it with sprawling crossface pressure, immediately work to extract your trapped leg while they are recovering from the failed attempt. Their failed drive forward momentarily disrupts their deep underhook tightness and body positioning. Use this recovery window to circle your hips, strip the underhook, and transition to half guard top or begin a backstep pass.
-
-**Q4**: What distinguishes the defensive approach to Homer Simpson from defending the waiter sweep?
-**A**: Homer Simpson defense requires forward sprawling pressure with heavy crossface to prevent the upward come-up motion, driving the bottom player back to the mat. Waiter sweep defense requires backward weight shift with low hips to prevent lateral hip elevation. These are opposite weight distribution responses, which is precisely why the two sweeps create a dilemma. The key is recognizing which sweep is being initiated through grip placement and foot positioning before committing to the appropriate defensive weight shift.
-
-**Q5**: Your opponent begins the Homer Simpson come-up but you feel their underhook loosening - how do you exploit this?
-**A**: A loosening underhook during the come-up is a critical defensive opportunity. Immediately drive your crossface pressure harder to flatten them while simultaneously circling your far knee upward and back to extract the trapped leg from the weakened underhook. The extraction should be a smooth circular motion - knee up, back, then down and out - rather than a straight pull. Complete the extraction to transition to half guard top or side control before the bottom player can re-secure the underhook.
-
-
-
-</section>
 
 
 </main>

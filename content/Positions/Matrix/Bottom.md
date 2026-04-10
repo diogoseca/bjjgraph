@@ -177,6 +177,8 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 ## Position Definition
 
+<p class="section-subtitle">What is Matrix (Bottom)?</p>
+
 - At least one shoulder maintains mat contact during the initial rotation phase, providing the pivot point around which the body rotates—losing this contact causes the rotation to stall and leaves the practitioner floating without mechanical advantage
 - Hip elevation above shoulder level creates the necessary gravitational momentum for the inverted rotation—insufficient hip height results in weak rotational force that opponents can easily defend by simply maintaining their base
 - Active connection to opponent's torso or hips through grips or leg contact persists throughout the rotation—losing this connection means rotating in space without affecting opponent position, arriving at back control setup without actual control established
@@ -187,6 +189,8 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Matrix (Bottom)?</p>
 
 - Opponent is in turtle, seated, or transitional position with relatively static base
 - Practitioner has established at least one grip or connection point to opponent's torso or hips
@@ -200,6 +204,8 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Matrix?</p>
 
 - Generate explosive rotational momentum through simultaneous hip elevation and shoulder posting
 - Maintain constant awareness of spatial orientation during inversion to enable precise hook placement
@@ -215,6 +221,8 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Matrix (Bottom)?</p>
 
 **Opponent maintains static turtle position with narrow base:**
 - Execute **[[Transitions/Matrix Back Take/Attacker|Matrix Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
@@ -243,6 +251,8 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Matrix?</p>
 
 ### 1. Insufficient hip elevation before initiating rotation
 
@@ -282,6 +292,8 @@ Risk management is essential when executing the Matrix. Incomplete rotations can
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Matrix defense?</p>
+
 ### Solo Matrix Rolls
 
 Practice the inverted rolling motion without a partner, focusing on maintaining spatial awareness and smooth rotation. Start from seated position, elevate hips, post shoulder, and complete the roll while tracking orientation. Perform 10 repetitions each direction.
@@ -314,38 +326,6 @@ Intentionally practice incomplete or defended Matrix attempts, focusing on immed
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grip connection points you must establish before initiating the Matrix rotation?
-**A**: You need at least one strong connection point to the opponent's torso or hips—typically a belt grip, pants grip at the hip, or leg hook around their thigh. Without this connection, your rotation happens independently of their position, meaning you arrive behind them without actual control. The grip pulls them into your rotation and ensures they move with you rather than simply watching you roll past.
-
-**Q2**: Your hips are elevated but your opponent starts shifting their base—do you continue or abort?
-**A**: Abort immediately and return to your defensive structure. The Matrix requires a static or weight-transitioning opponent—their active base adjustment means they've recognized the threat and are countering. Continuing against a moving, aware opponent almost always results in a stuffed rotation where you end up in a worse position. Reset, re-establish your grips, and wait for another timing window when they settle.
-
-**Q3**: At what point during the rotation must you begin inserting your first hook?
-**A**: Begin threading the first hook as soon as your hips pass the opponent's centerline during the rotation—while you're still inverted. Waiting until the rotation completes gives the opponent time to turn into you, sprawl away, or establish their own hooks. The hook insertion should be part of the continuous motion, not a separate action. Your leg is already traveling in that direction; guide it into position during transit.
-
-**Q4**: Why must shoulder contact with the mat be maintained during the initial rotation phase?
-**A**: The shoulder on the mat serves as your pivot point—the fulcrum around which your entire body rotates. Without this contact, you're rotating through open space with no mechanical advantage, creating a slow, floating movement that opponents easily stuff. The shoulder anchors your rotation to a fixed point, allowing your hips and legs to generate momentum around it. Only lift the shoulder after your hips have passed their apex.
-
-**Q5**: You're mid-rotation and feel your opponent beginning to follow and flatten you—what's your response?
-**A**: Accelerate the rotation and commit harder rather than slowing down. Hesitation mid-rotation is the worst possible outcome—you're inverted with your back exposed and no defensive structure. Either complete the rotation explosively and race them to hook establishment, or if that's impossible, immediately transition to a guard recovery using the rolling momentum to pull into closed guard. Never stop in the vulnerable inverted position.
-
-**Q6**: How do you recognize the optimal timing window for Matrix entry against a turtle opponent?
-**A**: Watch for moments of stillness or weight commitment. When they settle their weight, stop adjusting their base, or commit to a grip or movement that loads them onto one side, that's your window. Also effective: the moment after they complete their own movement (reaching for a grip, adjusting position) when they're momentarily static before starting their next action. Their weight transfer creates the stability you need to rotate against.
-
-**Q7**: What backup transitions should you have ready if the Matrix rotation is blocked mid-movement?
-**A**: Primary backup is the granby roll to guard recovery—continue the rolling momentum but redirect into closed guard establishment rather than back control. Secondary option is converting to an arm drag if their blocking arm is extended and vulnerable. Third option is completing a seated guard recovery if you can disengage cleanly. Never remain stuck mid-rotation; always have a continuous path to a safe position.
-
-**Q8**: How do you generate sufficient hip elevation for effective rotational momentum?
-**A**: Drive explosively upward using leg extension and core engagement simultaneously. Your posted foot pushes into the mat while your core contracts to lift your hips above shoulder level. Think of it as a hip thrust combined with a shoulder bridge but directed into rotation. The hips must clearly exceed shoulder height—insufficient elevation creates weak momentum that opponents defend simply by maintaining their base.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

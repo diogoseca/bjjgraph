@@ -68,8 +68,8 @@
       "relationship": "Counter outcome position if top player successfully passes during Kimura attempt"
     },
     {
-      "name": "Kimura from Kimura Trap",
-      "relationship": "Follow-up submission finish available once Kimura Trap is established"
+      "name": "Kimura",
+      "relationship": "Follow-up submission finish available once Kimura Trap control is established"
     },
     {
       "name": "Deep Half Guard",
@@ -264,6 +264,14 @@
       {
         "question": "What role does the half guard leg entanglement play during the Kimura grip establishment?",
         "answer": "The half guard leg entanglement serves as the critical anchor preventing the top player from disengaging and pulling away when you attack their arm. Without maintaining the leg entanglement, the top player can sprawl back, create distance, and extract their arm before the Kimura grip is consolidated. The trapped leg also limits their ability to change angle or circle to pass, keeping them in the plane where your arm attack is most effective."
+      },
+      {
+        "question": "Your initial Kimura entry fails and the opponent retracts their arm before you can lock the figure-four - what chain attacks are available?",
+        "answer": "When the Kimura entry fails, you have several immediate follow-up options that exploit the opponent's defensive reaction. Their arm retraction typically pulls their weight backward, which opens underhook access on the same side for a standard half guard sweep or back take. If they retract by pulling their elbow tight, you can switch to an overhook on that arm and threaten overhook sweeps. The failed Kimura attempt also creates a momentary disruption in their passing pressure, giving you a window to re-establish knee shield or transition to deep half guard."
+      },
+      {
+        "question": "How does combining the lockdown with the Kimura grip entry change the attack mechanics?",
+        "answer": "The lockdown anchors the opponent's trapped leg and forces their hips low, breaking their posture and preventing them from posturing up or disengaging when you attack the arm. This creates a more controlled entry environment where the opponent must post their hand to resist the lockdown's pulling force, directly exposing the arm you need for the Kimura. The lockdown also prevents the knee slice pass counter because their leg is immobilized, eliminating the highest-percentage defensive response to the Kimura entry from half guard."
       }
     ],
     "safety_considerations": "The Kimura grip applies significant rotational force to the shoulder joint. Apply pressure gradually and with control during training, never jerking or explosively rotating the shoulder. Release immediately when your partner taps. Be aware that the transition itself can create sudden shoulder pressure if the grip locks unexpectedly tight. Communicate with your training partner about intensity levels and ensure they understand the tap signal before drilling this technique."
@@ -364,6 +372,14 @@
       {
         "question": "What positional advancement opportunity exists when you successfully defend the Kimura attempt from half guard top?",
         "answer": "When the bottom player commits both hands to the Kimura attempt, they sacrifice their primary frames and underhook control. This creates an immediate passing window because they have no defensive structure remaining to prevent your weight from settling. Drive your chest forward and down while working to free your trapped leg, as their lack of frames allows you to complete the pass to side control. Their failed Kimura attempt often leaves them flat on their back without the hip angle needed for guard retention."
+      },
+      {
+        "question": "Why is driving weight forward more effective than retreating when defending the Kimura grip establishment?",
+        "answer": "Forward pressure flattens the bottom player's hip angle, which is the structural foundation they need for threading their arm and completing the figure-four. When you retreat or lean back, you create the exact space they need to deepen their grip and access sweeping leverage. Forward pressure also pins their shoulders and reduces their ability to turn to their side, which is essential for the Kimura entry mechanics. Additionally, your forward weight makes their cross-body arm pull ineffective because your mass resists the directional force of the Kimura system."
+      },
+      {
+        "question": "Your opponent has established a full Kimura grip and begins threatening a sweep - what is your defensive priority?",
+        "answer": "Your immediate priority is preventing the sweep rather than stripping the grip, because losing top position with the Kimura grip intact puts you in a far worse situation. Widen your base by posting your free hand far to the side and sprawling your hips to lower your center of gravity. Simultaneously drive your chest into their torso to flatten their hips and reduce their sweeping leverage. Once your base is stabilized against the sweep, begin working the grip break through controlled circular elbow movement combined with sustained forward pressure to degrade the figure-four structure."
       }
     ],
     "training_progressions": [

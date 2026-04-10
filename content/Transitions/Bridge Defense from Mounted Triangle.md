@@ -217,7 +217,7 @@ The bridge defense from mounted triangle occupies a critical niche within the de
 
 - [[Transitions/Bridge and Roll]] - Fundamental bridging technique sharing core hip drive mechanics
 
-- [[Submissions/Mounted Triangle Finish]] - Submission threat that drives the urgency for this escape technique
+- [[Submissions/Triangle Choke]] - Submission threat that drives the urgency for this escape technique
 
 - [[Positions/Mount/High Mount]] - Related mount variation from which mounted triangle is commonly entered
 

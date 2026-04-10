@@ -169,6 +169,8 @@ The strategic approach from top butterfly half guard involves several key consid
 
 ## Position Definition
 
+<p class="section-subtitle">What is Butterfly Half Guard (Top)?</p>
+
 - One of your legs is trapped between opponent's thighs in half guard configuration with their inside leg calf pressing against your thigh and their outside leg hooking over your hip, requiring constant awareness of their squeeze pressure and potential leg extraction attempts
 - Opponent has butterfly hook inserted under your free leg with their foot positioned beneath your thigh creating upward lifting pressure that must be constantly monitored and controlled through weight distribution and hip positioning
 - Upper body positioning requires defending against opponent's underhook attempts on butterfly side while potentially establishing crossface or overhook control to limit their ability to generate upright posture necessary for effective sweeps
@@ -182,6 +184,8 @@ The strategic approach from top butterfly half guard involves several key consid
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Butterfly Half Guard (Top)?</p>
+
 - Understanding of base management principles and ability to maintain stable platform despite asymmetric leg positioning
 - Knowledge of half guard top fundamentals including trapped leg extraction techniques and crossface control
 - Familiarity with butterfly guard defense including controlling hooks and preventing elevation
@@ -194,6 +198,8 @@ The strategic approach from top butterfly half guard involves several key consid
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Butterfly Half Guard?</p>
 
 - Control opponent's upper body through crossface or overhook to prevent them from establishing upright posture necessary for sweeps
 - Manage butterfly hook elevation by keeping hips low and weight distributed to prevent effective upward pressure from completing sweeps
@@ -209,6 +215,8 @@ The strategic approach from top butterfly half guard involves several key consid
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Butterfly Half Guard (Top)?</p>
 
 **If opponent establishes upright posture with active butterfly hook and strong upper body control:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -232,6 +240,8 @@ The strategic approach from top butterfly half guard involves several key consid
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Butterfly Half Guard?</p>
 
 ### 1. Driving forward with heavy pressure into active butterfly hook without controlling upper body
 
@@ -266,6 +276,8 @@ The strategic approach from top butterfly half guard involves several key consid
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Butterfly Half Guard attacks?</p>
+
 ### Butterfly Half Guard Passing Progression
 
 Practice passing sequences against progressively resistant butterfly half guard, starting with cooperative partner and building to competition-level resistance. Focus on passing without being swept.
@@ -291,38 +303,6 @@ Start in top butterfly half guard and reset after each pass or sweep. Focus on m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical weight distribution adjustment when your opponent starts to elevate with their butterfly hook?
-**A**: Immediately drop your hips lower and shift weight toward the butterfly hook side while driving your shoulder into their chest or face. This removes the space underneath your body that allows their hook to generate elevation power. Simultaneously widen your base with your free leg and post your hand on the mat to create a tripod-like structure that resists upward momentum.
-
-**Q2**: What are the essential grips and controls for maintaining top position against an active butterfly half guard player?
-**A**: The primary controls are crossface with your shoulder driving into their face/jaw to turn their head away, and either an overhook or underhook on the butterfly side to limit their upper body movement. Secondary controls include controlling their far hip with your hand to prevent them from creating angles, and keeping your trapped leg's knee pinned to the mat to prevent easy elevation.
-
-**Q3**: Your opponent attempts the old school sweep by securing an underhook and driving into you - what immediate adjustment prevents being swept?
-**A**: Post your far hand on the mat immediately to create a base point that prevents being rolled. Simultaneously whizzer their underhook arm by threading your arm over their bicep and clamping down while driving your weight onto their shoulder. This neutralizes their underhook power and forces them flat. Then work to strip their underhook before they can re-attack.
-
-**Q4**: What grip priorities should you establish before attempting to extract your trapped leg?
-**A**: Establish crossface control first to turn their head and limit their ability to follow your movement. Then secure control of their far hip or pants to prevent them from bridging or creating angles as you extract. Only attempt leg extraction when you have both upper body control (crossface) and hip control (far side grip) secured. Attempting extraction without these controls allows them to sweep using your movement.
-
-**Q5**: How should you apply pressure when the bottom player is fighting for an upright seated posture?
-**A**: Drive forward pressure through your shoulder directly into their chest and face, not down toward the mat. Your goal is to break their posture backward, not pin them flat initially. Keep your chest connected to their chest at all times. If they achieve seated posture, immediately change angles by circling toward the non-butterfly side while maintaining shoulder pressure to collapse their structure.
-
-**Q6**: Your opponent bridges hard and attempts to roll you over - what base adjustment do you make?
-**A**: Immediately post your far hand wide on the mat and extend your free leg out perpendicular to their body to create a wide tripod base. Drop your hips low and heavy while slightly sprawling your weight back to counteract their bridge momentum. If they commit strongly to one direction, be ready to flow with their movement and transition to a different passing angle rather than fighting directly against their bridge.
-
-**Q7**: How do you manage energy expenditure when maintaining top butterfly half guard?
-**A**: Use bone-on-bone pressure rather than muscular effort wherever possible - your shoulder bone into their face, your knee pinned to the mat. Keep movements minimal and precise rather than constantly shifting. Wait for the bottom player to expend energy attempting sweeps, then capitalize on their recovery moments to advance position. The top player should be making the bottom player work harder by maintaining uncomfortable pressure.
-
-**Q8**: Your opponent partially escapes and recovers a knee shield - what immediate recovery prevents full guard retention?
-**A**: Immediately control their knee shield knee with your hand and push it down toward the mat while driving your hip forward and low. Do not allow space for them to fully extend the knee shield. If they get the knee shield established, transition to a knee slice angle by stepping your outside leg wide and preparing to slice through. The critical moment is preventing the frame from locking into place - act within the first second of their recovery attempt.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

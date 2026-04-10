@@ -10,7 +10,7 @@
     "no-gi",
     "gi"
   ],
-  "from_position": "Open Guard/Top",
+  "from_position": "De La Riva Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -402,7 +402,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Recognition and Grip Fighting",
+        "phase": "Week 1-2: Recognition and Grips",
         "focus": "Identifying toreando setup cues and contesting leg grips",
         "description": "Partner establishes toreando grips at various intensities while you practice recognizing the bilateral grip pattern and executing two-on-one grip breaks. No passing attempted yet. Focus entirely on the grip fighting exchange: how quickly can you strip one grip and re-insert a foot on the hip? Drill both gi and no-gi grip fighting sequences."
       },

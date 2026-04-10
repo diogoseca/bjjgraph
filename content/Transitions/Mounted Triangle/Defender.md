@@ -170,6 +170,8 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mounted Triangle?</p>
+
 - Attacker shifts hips laterally in modified mount and grips your wrist on the posted leg side, pulling your arm across your centerline
 - Attacker's posted leg lifts off the mat and begins swinging over your head while their weight shifts forward onto your chest
 - You feel one arm being isolated with your elbow pulled away from your body while pressure increases on the opposite side of your neck
@@ -182,6 +184,8 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mounted Triangle?</p>
 
 - Prevent arm isolation before it happens by keeping elbows tight to your body and hands connected near your neck or collar
 - Recognize the setup early during the hip shift and leg swing phase when prevention is highest percentage
@@ -197,6 +201,8 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mounted Triangle?</p>
 
 ### 1. Retract the isolated arm by driving your elbow back to your hip and turning your body toward the attacker before the leg swings over
 
@@ -234,6 +240,8 @@ Defending the Mounted Triangle requires calm technical execution under extreme p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mounted Triangle?</p>
+
 ### → [[Positions/Mount/Modified Mount]]
 
 Prevent the triangle from locking by retracting your isolated arm early in the setup phase, keeping your elbow tight to your hip and turning your body to deny the head-and-arm configuration. Force the attacker to abandon the triangle attempt and re-establish modified mount, which resets to a standard mount defense scenario.
@@ -249,6 +257,8 @@ Time an explosive bridge during the attacker's leg swing when their base is comp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mounted Triangle?</p>
 
 ### 1. Panicking and thrashing wildly when the triangle begins to lock rather than executing systematic defense
 
@@ -283,6 +293,8 @@ Time an explosive bridge during the attacker's leg swing when their base is comp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mounted Triangle?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner slowly executes arm isolation from modified mount while you practice recognizing the setup cues and retracting your arm before the leg swing. Focus on elbow retraction timing, grip anchoring to your collar, and body turning mechanics. No resistance from attacker—build pattern recognition.
 
@@ -299,32 +311,6 @@ Start in mounted triangle with partner attempting to finish. Survive and escape 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your highest-percentage defensive window against the Mounted Triangle and what should you do during it?
-**A**: The highest-percentage window is during the arm isolation phase before the attacker's leg swings over your head. When you feel them gripping your wrist and pulling your arm across your centerline, immediately retract your elbow to your hip, turn your body toward the attacker, and grip your own collar or lapel to anchor the arm. Preventing the head-and-arm isolation entirely is far easier than escaping a locked triangle.
-
-**Q2**: The attacker has locked the triangle but you still have your free arm available - where do you place it and why?
-**A**: Place your free arm as a frame against the attacker's hip bone on the side you plan to hip escape toward. This creates a structural barrier that prevents them from settling their weight and generates the lateral space you need for hip escaping. Never push upward on their legs, as this fights their strongest leverage angle and wastes energy. The hip frame converts your arm strength into directional movement rather than a static battle against the triangle.
-
-**Q3**: Why is bridging straight upward ineffective against the Mounted Triangle and what direction should you bridge instead?
-**A**: Bridging straight up is ineffective because the attacker's triangle leg configuration still provides lateral base stability, and the figure-four lock around your neck absorbs upward force through the squeeze. Instead, bridge at a 45-degree angle toward the choking leg side where the attacker's base is weakest—that leg is committed to the triangle rather than posted for stability. This direction attacks their structural vulnerability and can displace their balance enough to create escape space.
-
-**Q4**: Your trapped arm is being pulled toward an armbar as the attacker transitions from triangle - how do you protect it?
-**A**: Immediately bend your trapped arm sharply and grip your own opposite bicep or wrist with your free hand to create a two-on-one defensive structure. Turn your body toward the attacker to prevent the hip rotation they need for the armbar angle. Their transition from triangle to armbar requires them to release some triangle pressure—use that moment to hip escape toward them and try to get your elbow back to your hip. The transition window is your escape opportunity.
-
-**Q5**: How should you manage your breathing and energy when trapped in a locked Mounted Triangle?
-**A**: Breathe deliberately through your nose with controlled exhales, avoiding the impulse to hold your breath or gasp. The triangle compresses blood flow, and panic breathing accelerates oxygen depletion. Between escape attempts, relax all muscles except those maintaining your defensive structure—chin tuck, arm protection, and hip frame. Save explosive efforts for genuine escape windows when you feel the attacker's weight shift. Accept discomfort as temporary and focus on technical execution rather than fighting panic.
-
-**Q6**: The attacker is cutting angle by walking their hips perpendicular to your body - what does this mean for your defense timing?
-**A**: The angle cut is the finishing mechanic that converts a locked triangle into a tight choke—once perpendicular, the choke becomes extremely difficult to survive. This means your defensive urgency increases dramatically. Before they achieve full angle, you still have options: frame on their hip to prevent the walk, bridge to disrupt their base during the movement, or turn into them to collapse the angle. Once the angle is fully cut with their hips perpendicular and head control established, your survival window narrows to seconds.
-
-
-
-</section>
 
 
 </main>

@@ -16,7 +16,7 @@ description: "How to execute the Rolling Guard Pull in BJJ. Complete attacking g
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Rolling Guard Pull in BJJ",
-  "description": "Step-by-step guide for executing Rolling Guard Pull from Standing Position/Top.",
+  "description": "Step-by-step guide for executing Rolling Guard Pull from Standing Guard/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -182,13 +182,15 @@ As the attacker executing the Rolling Guard Pull, your objective is to use rotat
 
 The rolling guard pull demands commitment and precise timing. Half-measures result in awkward scrambles that favor the standing opponent. When you initiate the roll, you must have a clear target guard position based on the opponent's stance and weight distribution. Your grips serve as the anchor that connects you to the opponent throughout the rotation, and your legs must engage immediately upon roll completion to prevent any passing opportunity. The entire sequence from grip establishment to guard retention should take under two seconds.
 
-**From Position**: [[Positions/Standing Position]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Rolling Guard Pull?</p>
 
 - Commit fully to the roll once initiated - hesitation results in stalling mid-rotation in vulnerable positions
 - Use forward momentum before the roll to create rotational energy that carries you through the full rotation
@@ -205,6 +207,8 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rolling Guard Pull?</p>
+
 - At least one strong grip established on opponent's sleeve, collar, or belt before initiating
 - Adequate mat space behind and to the side to execute the rolling motion safely
 - Opponent within arm's reach and engaged rather than fully disengaged at distance
@@ -218,6 +222,8 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rolling Guard Pull step by step?</p>
 
 1. **Establish primary grip**: Secure a strong grip on the opponent's sleeve, collar, or belt with your lead hand. This grip serves as your anchor throughout the rolling motion and will pull the opponent into your guard. Position your body at a slight angle to create the vector for your rolling motion. A cross-collar grip provides the strongest pulling force, while a sleeve grip offers more options for guard variation selection.
 2. **Create forward momentum**: Step forward with your lead foot while pulling the opponent slightly toward you with your grip. This forward step creates the momentum necessary for a smooth roll and closes the distance so your grip remains effective throughout the rotation. Your body should be moving decisively toward the opponent as you begin lowering your center of gravity. Avoid telegraphing by making this step look like normal grip fighting footwork.
@@ -248,6 +254,8 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rolling Guard Pull?</p>
+
 - **Opponent steps back and disengages as you initiate the roll** (Effectiveness: High) - Your Response: Maintain strong grip control throughout the movement and pull them forward as you roll. If they successfully disengage, immediately technical stand up or transition to seated guard and pursue with shin-to-shin or De La Riva entries from seated position. → Leads to [[Positions/Standing Position]]
 - **Opponent sprawls and applies heavy chest pressure during the roll** (Effectiveness: Medium) - Your Response: Use the opponent's forward pressure to complete your roll faster. Their weight actually assists the rotation. Come up with a deep De La Riva hook or transition to seated guard where their forward momentum works against their base. If they overcommit forward, immediately attack with a sweep. → Leads to [[Positions/Closed Guard]]
 - **Opponent releases grips and begins immediate guard pass as you complete the roll** (Effectiveness: High) - Your Response: Focus on leg positioning and frames immediately upon completing the roll. Establish feet on hips to create distance and prevent the pass. Be prepared to invert or reguard if they achieve initial passing position. Prioritize guard retention over attacking for the first cycle. → Leads to [[Positions/Standing Position]]
@@ -259,6 +267,8 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rolling Guard Pull?</p>
 
 ### 1. Rolling without establishing proper grip control first
 
@@ -298,6 +308,8 @@ The rolling guard pull demands commitment and precise timing. Half-measures resu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rolling Guard Pull (Attacker)?</p>
+
 **Week 1-2: Solo Rolling Mechanics** - Develop smooth backward rolling from standing
 Practice backward rolls from standing position, focusing on tucking the chin, rounding the spine, and completing smooth rotations. Start from kneeling, progress to crouching, then finally from standing. Work on rolling over both shoulders to develop ambidextrous capability. Aim for 30 smooth rolls per session.
 
@@ -321,42 +333,12 @@ Attempt the rolling guard pull during live rolling sessions and specific sparrin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the rolling guard pull during a standing exchange?
-**A**: The optimal window opens when the opponent is mid-reaction to a grip fight or has just committed weight forward in response to your pull. Initiating during their forward pressure means their momentum assists your rotation and prevents them from stepping back. Avoid initiating when they are stationary and balanced, as they have maximum ability to disengage. The best entries happen within the first 10-15 seconds of grip engagement when the opponent is still reading your intentions and has not yet settled into a defensive posture.
-
-**Q2**: What grip configurations are required before you can safely initiate the rolling guard pull?
-**A**: At minimum, you need one strong grip that will survive rotational stress: a deep cross-collar grip, a firm sleeve grip at the wrist, or a belt grip. Two grips are ideal, with the primary grip being the anchor that maintains connection and the secondary grip assisting the pull direction. Collar-and-sleeve is the highest percentage combination because the collar grip pulls them forward while the sleeve grip controls their posting ability. Without at least one grip, the roll results in complete disconnection and a vulnerable ground position.
-
-**Q3**: What is the most critical mechanical detail that determines whether the roll completes smoothly or stalls?
-**A**: The hip drop must be explosive and committed rather than gradual. A slow descent allows the opponent time to react, sprawl, or disengage. The hips must drop below the opponent's center of gravity rapidly while the forward momentum from the preceding step carries the body into rotation. The transition from forward step to hip drop to roll should be one continuous accelerating motion with no pause between phases. A common diagnostic: if you can feel yourself sitting before rolling, the hip drop was too slow.
-
-**Q4**: Your opponent posts their hand on your shoulder as you begin dropping your hips - how do you adjust?
-**A**: A shoulder post means they are trying to create distance and prevent you from completing the rotation. Respond by pulling harder with your primary grip to collapse the posting arm while accelerating your hip drop. If their post is strong enough to stall you, abort the roll and transition to a standard seated guard pull instead, using the grip you already have established. Do not fight the post from a half-dropped position, as this leaves you in a compromised crouch with no guard and no standing base. Commit to completing the roll or immediately recover to standing.
-
-**Q5**: What are the two most common failure points that result in a failed rolling guard pull?
-**A**: The first is grip failure during the rotation: the grip slips or breaks mid-roll and the opponent walks away while you are on your back with no guard established. This is addressed by grip strength training and selecting grips that resist rotational forces. The second is incomplete rotation where the practitioner stalls in a seated or partially inverted position without legs engaged on the opponent. This results from insufficient forward momentum before the roll or excessive hesitation during the hip drop. Both failures leave you in a worse position than where you started.
-
-**Q6**: How should the direction of force change throughout the three phases of the rolling guard pull?
-**A**: In the first phase (forward step), force is directed forward and slightly downward toward the opponent to close distance and begin loading the rotation. In the second phase (hip drop and roll), force redirects sharply downward and backward as you sit through the rotation, while your grip maintains a pulling force toward your body that drags the opponent with you. In the third phase (guard establishment), force shifts to lateral and upward vectors as your legs engage the opponent's hips and your grips work to break their posture forward. The grip force remains constant throughout all three phases while body force changes direction.
-
-**Q7**: Your opponent reads the rolling guard pull and begins stepping backward as you initiate - what is your chain attack?
-**A**: If they step back early enough that you have not committed to the roll, convert to an ankle pick or snap down since their backward momentum compromises their forward base. If you are already mid-roll when they retreat, complete the roll to seated guard position and immediately pursue with shin-to-shin contact or a seated guard pull using your retained grip to close the distance. A third option is to abort the roll, recover to standing via technical stand-up, and reset the grip fight. The key is never remaining in a half-completed roll position.
-
-**Q8**: What is the most critical hip movement during the rolling guard pull that determines guard quality upon completion?
-**A**: The hip rotation at the completion of the roll is the decisive movement. As you finish rotating and face the opponent, your hips must immediately angle toward their lower body and close the distance to their hips. If your hips end up flat on the mat pointing at the ceiling, you have no guard structure and are vulnerable to immediate passing. The hips should finish the roll already angled at 30-45 degrees, oriented toward the opponent's lead leg, with your legs already threading into position for your target guard. This hip orientation is what transforms a roll into a guard pull rather than simply falling to your back.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rolling Guard Pull?</p>
 
 The rolling guard pull requires strict cervical spine protection throughout the movement. Always tuck your chin tightly to your chest and roll over your shoulder blade rather than directly over the spine or the crown of the head. Practitioners with existing neck, shoulder, or back injuries should consult a medical professional before attempting this technique. When learning, practice on adequate matting with proper cushioning, and progress from kneeling to crouching to standing positions over several sessions. Never execute this technique near the edge of the mat or in areas with obstacles, posts, or walls. Training partners should not apply heavy downward pressure during the rolling phase, as this can compress the neck. If you feel any sharp pain in the neck, shoulders, or spine, stop immediately and reassess your mechanics. The rolling motion must be smooth and controlled through the entire rotation. Regular neck strengthening exercises reduce injury risk for practitioners who frequently use rolling entries. In competition warm-ups, always perform several solo rolls before attempting the technique live.
 

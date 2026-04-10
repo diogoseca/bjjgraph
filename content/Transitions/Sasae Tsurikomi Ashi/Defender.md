@@ -162,6 +162,8 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sasae Tsurikomi Ashi?</p>
+
 - Opponent establishes a high collar grip and begins pulling upward while simultaneously creating circular stepping movement to one side
 - You feel a distinct forward-and-upward pulling force through both grip points that shifts your weight toward the balls of your feet
 - Opponent's lead foot begins moving toward your ankle or lower shin while their hands lift and rotate your upper body
@@ -174,6 +176,8 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sasae Tsurikomi Ashi?</p>
 
 - Maintain low center of gravity with bent knees and hips slightly back to resist forward kuzushi
 - Fight grips aggressively to deny the collar-and-sleeve configuration needed for the lifting pull
@@ -189,6 +193,8 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sasae Tsurikomi Ashi?</p>
 
 ### 1. Retract the targeted foot and circle away from the blocking attempt while breaking the collar grip
 
@@ -226,6 +232,8 @@ Defending Sasae Tsurikomi Ashi requires early recognition and proactive posture 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sasae Tsurikomi Ashi?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the kuzushi by maintaining a strong base with low hips, actively breaking the high collar grip before the attacker can generate the upward pull, and circling away from the blocking foot while maintaining your own grip advantage. When the sweep fails, the attacker is momentarily out of position with committed weight, creating your window for counter-attacks.
@@ -241,6 +249,8 @@ If the sweep catches you partially off-balance, convert the falling momentum int
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sasae Tsurikomi Ashi?</p>
 
 ### 1. Standing tall with locked knees and weight on the balls of feet when opponent initiates circular movement
 
@@ -270,6 +280,8 @@ If the sweep catches you partially off-balance, convert the falling momentum int
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sasae Tsurikomi Ashi?</p>
+
 **Week 1-2: Recognition drilling** - Identifying the attack setup and grip patterns
 Partner slowly performs Sasae Tsurikomi Ashi setup sequence (grip establishment, circular movement, kuzushi attempt) while you practice identifying each phase. Call out the phase verbally as you recognize it. No defensive action yet, purely building pattern recognition at slow speeds progressing to normal speed.
 
@@ -286,29 +298,6 @@ Positional sparring from standing where partner attempts Sasae and follow-up com
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up Sasae Tsurikomi Ashi?
-**A**: The earliest cue is the establishment of a high collar grip combined with the initiation of circular stepping movement. Before any foot technique happens, you will feel an upward pull through the collar grip and a lateral pull through the sleeve grip creating rotational force. This circular movement pattern is the setup phase that precedes all foot sweep variants and gives you the longest window to defend.
-
-**Q2**: Why is breaking the collar grip more effective than simply avoiding the blocking foot?
-**A**: The collar grip provides the upward lifting force that is essential to the throw's mechanics. Without it, the attacker cannot elevate your center of gravity above your base of support. The foot block alone does nothing if your weight is not being driven forward and upward into it. By stripping the collar grip early, you remove the mechanical prerequisite for the throw rather than reacting to its final element.
-
-**Q3**: Your opponent attempts Sasae and you successfully retract your foot, but now they are shifting into a different attack - what follow-up attacks should you anticipate?
-**A**: After a defended Sasae, the most common follow-ups are Ouchi Gari or Kouchi Gari targeting the rear leg that now bears most of your weight from the retraction, Osoto Gari if you stepped backward loading the same side leg, or an upper body throw like Harai Goshi if you raised your leg high. You should also anticipate a snap down to front headlock if your posture broke during the defense. Immediately reset your base and grip position rather than staying in the defensive posture.
-
-**Q4**: When is pulling guard the correct defensive response to Sasae Tsurikomi Ashi?
-**A**: Pulling guard is appropriate when the kuzushi has already caught you partially off-balance and you cannot recover standing base in time. Rather than being thrown flat and conceding a clean takedown with your opponent landing in top position, you control the descent by gripping sleeves, sitting through, and establishing a guard like De La Riva before you hit the mat. This converts a potential three-point score into a contested guard engagement.
-
-**Q5**: How should you adjust your stance and weight distribution when you recognize your opponent favors foot sweep techniques?
-**A**: Lower your center of gravity by increasing knee bend and shifting weight slightly toward your heels rather than the balls of your feet. Narrow your stance slightly to reduce the target for blocking techniques. Move with shorter, quicker steps rather than long strides that create extended moments of single-leg balance. Prioritize breaking their collar grip repeatedly to deny the lifting mechanism. Consider initiating your own attacks or guard pull to prevent them from establishing the circular movement pattern they need.
-
-
-
-</section>
 
 
 </main>

@@ -154,6 +154,8 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll Escape from Cross Body Ride?</p>
+
 - Bottom player's hips shift and load to one side in preparation for rotational force generation rather than lateral displacement
 - You feel the bottom player's weight briefly increase against your chest as they coil their hips before the explosive roll
 - Bottom player tucks elbows tighter and pulls hands to neck area—the universal setup posture preceding a committed roll attempt
@@ -166,6 +168,8 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll Escape from Cross Body Ride?</p>
 
 - Maintain centered perpendicular pressure that does not over-commit to either side, removing the asymmetric weight distribution the roll exploits
 - Control the bottom player's near-side hip with your knee or hook to anchor them against rotational displacement
@@ -180,6 +184,8 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll Escape from Cross Body Ride?</p>
 
 ### 1. Drive chest weight down and sprawl hips to kill rotational momentum before the roll develops
 
@@ -217,6 +223,8 @@ Defending against the Roll Escape from Cross Body Ride requires the top player t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll Escape from Cross Body Ride?</p>
+
 ### → [[Positions/Cross Body Ride]]
 
 Maintain centered perpendicular pressure without committing weight asymmetrically to either side. Control the bottom player's near-side hip with your knee to anchor them against rotational force. When you detect roll loading through hip coiling or shoulder drop, immediately drive your weight down and sprawl to smother the rotation before it generates momentum.
@@ -232,6 +240,8 @@ When the roll has already generated momentum and stopping it would cost more ene
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll Escape from Cross Body Ride?</p>
 
 ### 1. Maintaining static pressure without adjusting to the bottom player's hip loading phase
 
@@ -261,6 +271,8 @@ When the roll has already generated momentum and stopping it would cost more ene
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll Escape from Cross Body Ride?</p>
+
 **Recognition Drilling** - Distinguishing roll attempts from hip escapes through tactile cues
 Partner alternates between roll escape attempts and hip escape attempts at 50% speed without announcing which one. Practice identifying the escape type through pressure sensitivity and calling out the correct escape before the partner completes the movement. Develop automatic recognition of the rotational loading pattern versus lateral displacement.
 
@@ -277,26 +289,6 @@ Full-resistance positional sparring from cross body ride. Partner uses all avail
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a roll rather than a hip escape?
-**A**: The direction of force loading is the primary differentiator. A hip escape loads laterally—you feel the bottom player's hips pressing sideways against your chest contact. A roll loads rotationally—you feel the hips coiling with the near shoulder dropping toward the mat. The rotational loading creates a brief moment of increased pressure as the bottom player coils before exploding, whereas the hip escape produces more gradual lateral displacement. Additionally, the bottom player's arms tucking tight to their body and hands going to the neck signals a committed roll setup rather than a frame-based hip escape.
-
-**Q2**: When should you follow the roll into back control versus fighting to maintain cross body ride?
-**A**: The decision depends on how much rotational momentum the roll has generated. If you detect the loading phase before the explosive rotation begins, stopping it through increased downward pressure and hip control is the higher-percentage option. Once the hips have driven and the shoulder has dropped into the rotation, fighting the momentum becomes energy-inefficient and often fails. At that point, maintaining your harness grip and flowing with the rotation to insert hooks converts the escape attempt into a back control advancement that is actually a better outcome than maintaining the ride.
-
-**Q3**: How do you prevent your weight distribution from becoming asymmetric, which is the condition the roll escape exploits?
-**A**: Center your chest pressure across the middle of the bottom player's upper back rather than shifting toward either shoulder. Keep your hips back and slightly to the side with your base leg posted wide for stability in all directions. Use a near-side hip hook or knee to anchor the bottom player rather than shifting your bodyweight to one side. When adjusting grips or preparing transitions, maintain core engagement to prevent inadvertent weight shifts that create the asymmetry the roll requires. Think of your weight as a blanket covering their entire back rather than a point pressing into one side.
-
-**Q4**: Your opponent successfully initiates a roll and you are following into back control—what is the critical grip you must maintain during the transition?
-**A**: The harness or seatbelt grip on the upper body is the critical connection that must be maintained throughout the transition. Without this upper body control, the bottom player can complete their guard recovery during the roll even if you successfully follow their movement. The harness grip ensures that you arrive at the bottom player's back with control already established, allowing you to focus on hook insertion rather than re-establishing upper body grips from scratch. Prioritize the over-shoulder arm especially, as it provides both control and immediate choke threat upon arriving in back control.
-
-
-
-</section>
 
 
 </main>

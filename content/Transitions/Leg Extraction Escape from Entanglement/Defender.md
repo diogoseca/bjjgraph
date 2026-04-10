@@ -154,6 +154,8 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction Escape from Entanglement?</p>
+
 - Opponent begins using both hands to address your grip on their foot or ankle rather than maintaining defensive frames
 - Opponent recovers to standing or seated base from flat position, indicating they are establishing leverage for extraction
 - Opponent's free leg repositions to place the foot on your hip or shoulder in preparation for a push-kick
@@ -166,6 +168,8 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction Escape from Entanglement?</p>
 
 - Maintain constant hip pressure against the trapped leg to prevent the space creation that enables extraction
 - Re-pummel hooks immediately when cleared rather than accepting even momentary loss of connection points
@@ -180,6 +184,8 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction Escape from Entanglement?</p>
 
 ### 1. Follow the opponent's hip retreat with your own hip advancement to maintain zero distance
 
@@ -217,6 +223,8 @@ As the defender (the person maintaining the leg entanglement while the opponent 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction Escape from Entanglement?</p>
+
 ### → [[Positions/Leg Entanglement]]
 
 Maintain persistent hip pressure and immediately re-pummel any cleared hooks. Follow the opponent's lateral hip movement to prevent gap creation. Control their free leg to eliminate the push-kick force. Patient retention of the existing entanglement exhausts the opponent's escape energy and preserves your attacking position.
@@ -232,6 +240,8 @@ Capitalize on the window created when the opponent uses both hands to strip grip
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction Escape from Entanglement?</p>
 
 ### 1. Remaining static while the opponent systematically clears connection points one at a time
 
@@ -261,6 +271,8 @@ Capitalize on the window created when the opponent uses both hands to strip grip
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction Escape from Entanglement?</p>
+
 **Phase 1: Recognition** - Identifying extraction attempts through body positioning cues
 Partner performs leg extraction escapes at slow speed while you observe and verbally call out each step: base recovery, grip strip, hook clear, hip shift, push-kick, extraction. Build pattern recognition without resistance. Identify the visual and tactile cues that signal each phase of the escape.
 
@@ -277,26 +289,6 @@ During live rolling, focus specifically on retaining leg entanglements when part
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective moment to advance your entanglement when the opponent attempts leg extraction?
-**A**: The optimal advancement window is when the opponent commits both hands to stripping your foot or ankle grip. At this moment, their legs and hips are undefended because their hands are occupied with grip fighting rather than managing your hooks or blocking your hip advancement. Step your outside leg over their hip or re-pummel your inside hook deeper while their attention is focused on their hands. This creates the paradox where their grip-stripping success on one connection point results in deeper entanglement on another, effectively punishing the escape attempt.
-
-**Q2**: How do you prevent the opponent's lateral hip shift from creating the extraction angle?
-**A**: Follow their hip movement immediately by advancing your own hips in the same direction, maintaining zero distance between your hips and the trapped leg. Use your inside hook to pull their leg toward you as they shift, counteracting the gap creation. If they shift right, follow right while pulling with the hook. The key is anticipating the lateral movement by watching their hip positioning and free leg placement, which telegraph the shift direction before it occurs. Proactive following is far more effective than reactive catching after the gap has already been created.
-
-**Q3**: Your opponent successfully strips your foot grip but you maintain the inside hook - what is your priority?
-**A**: Immediately re-establish the foot grip or advance to a deeper entanglement that does not rely on the foot grip for primary control. The inside hook alone provides temporary retention but will eventually be cleared if the opponent has free hands. Your options are: re-grip the foot from a different angle before they clear the hook, advance to saddle by stepping over with your outside leg while the hook holds them in place, or transition to a kneebar position that uses the inside hook as the primary control structure. The worst response is doing nothing because the inside hook has a limited retention window without the complementary foot grip.
-
-**Q4**: What distinguishes a genuine extraction attempt from a feint designed to create scramble opportunities?
-**A**: A genuine extraction attempt involves systematic connection point clearing with both hands committed to the entangled area, combined with base recovery and directional hip movement away from you. A feint typically involves only partial hand commitment with the opponent keeping one hand free for a collar drag, arm drag, or guard pull if you overreact. The telltale sign of a genuine attempt is the opponent recovering base before addressing the entanglement, because they need leverage for real extraction. A feint usually skips the base recovery step. Read the base position to differentiate: if they recover base first, it is likely genuine and you should counter accordingly.
-
-
-
-</section>
 
 
 </main>

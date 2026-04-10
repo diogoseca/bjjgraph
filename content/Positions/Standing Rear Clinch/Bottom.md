@@ -157,6 +157,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Standing Rear Clinch (Bottom)?</p>
+
 - Chest-to-back connection maintained with one practitioner's torso pressed against opponent's back, hips positioned close to their hips to prevent space creation while maintaining control through constant forward pressure
 - At least one arm controlling opponent's upper body through seatbelt grip (one arm over shoulder, one under armpit), bodylock (both arms around waist), or collar ties, with hands locked or gripping securely to prevent separation
 - Controlling practitioner's hips positioned slightly to one side rather than directly behind opponent, creating angle that prevents sitting straight back while maintaining offensive leverage for takedowns and transitions
@@ -169,6 +171,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Standing Rear Clinch (Bottom)?</p>
+
 - Successful establishment of rear control from standing position through sprawl, snap down, arm drag, or failed guard pull attempt
 - Opponent unable to face controlling practitioner or turn into them, typically due to superior grip control or positioning advantage
 - At least one controlling grip secured on opponent's upper body before they can establish defensive grips or hand fighting responses
@@ -180,6 +184,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Rear Clinch?</p>
 
 - Maintain constant chest-to-back pressure by driving hips forward into opponent's hips, never allowing space to develop between bodies
 - Keep hips slightly to the side rather than directly behind opponent to prevent them from sitting back or executing sacrifice throws
@@ -195,6 +201,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Standing Rear Clinch (Bottom)?</p>
 
 **If opponent sits to guard with back exposed maintaining poor defensive posture:**
 - Execute **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** → [[Positions/Side Control]] (Probability: 65%)
@@ -228,6 +236,8 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Rear Clinch?</p>
 
 ### 1. Standing with hips directly behind opponent rather than offset to the side at angle
 
@@ -267,7 +277,9 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 ## Training Drills for Defense
 
-### Grip Fighting from Rear Clinch
+<p class="section-subtitle">How do you train Standing Rear Clinch defense?</p>
+
+### Grips from Rear Clinch
 
 Partner starts in standing rear clinch position with light grips. Bottom person hand fights to break grips while top person maintains control and re-establishes grips when broken. Practice transitioning between bodylock, seatbelt, and collar ties as opponent defends. Emphasize grip hierarchy and timing.
 
@@ -299,38 +311,6 @@ Bottom person moves aggressively in all directions (forward, backward, spinning,
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins peeling your seatbelt grip by two-on-one fighting your choking arm - what adjustment do you make to maintain control?
-**A**: Switch to a bodylock configuration by sliding the threatened arm down to their waist and clasping hands around their midsection. This removes the arm from the vulnerable position while maintaining chest-to-back connection. Simultaneously drive your hips forward to prevent them from creating space during the grip transition, and look to re-establish the seatbelt once their hand fighting resets.
-
-**Q2**: What are the essential grip configurations for maintaining Standing Rear Clinch, and what is the hierarchy between them?
-**A**: The three primary grip configurations are seatbelt (one arm over shoulder, one under armpit), bodylock (both arms around waist with hands clasped), and collar ties (gi-specific collar and lapel control). The seatbelt is highest priority as it controls the upper body and creates submission threats. The bodylock is the most secure for takedowns and preventing separation. Collar ties offer distance management in gi. You must flow between all three as the opponent defends each.
-
-**Q3**: Your opponent suddenly drops their weight and sits to guard while you have a bodylock - how do you respond to maintain your advantage?
-**A**: Follow them to the ground immediately by stepping your hips to the side and executing a bodylock pass, driving your shoulder into their back as they descend. Do not release the bodylock grip. Use your chest-to-back pressure to prevent them from establishing guard hooks. If they manage to sit, transition to a bodylock pass to side control by walking your hips around their seated guard before they can recover and establish defensive frames.
-
-**Q4**: How should weight be distributed between your feet when maintaining Standing Rear Clinch?
-**A**: Weight should be on the balls of both feet with knees slightly bent, approximately 60% of your weight driving forward into the opponent through chest-to-back pressure and 40% maintaining your own base. Avoid going flat-footed or loading onto your heels, as this kills your ability to follow movement. Your feet should be staggered slightly with one foot forward to create a stable triangular base that allows you to follow the opponent in any direction while maintaining heavy forward pressure.
-
-**Q5**: Why must your hips be offset to one side rather than directly behind the opponent, and which side is preferable?
-**A**: Hips directly behind the opponent allow them to sit straight back onto you, creating a scramble or reversal. Offsetting to one side at roughly 45 degrees prevents this by forcing them to turn into your pressure before they can sit. The preferable side depends on your grip configuration: with a seatbelt, offset toward the underhook side (arm under their armpit) because this creates superior leverage for mat returns and makes it harder for them to peel your choking arm. This angle also loads your weight diagonally across their back.
-
-**Q6**: Your opponent begins spinning aggressively toward you to face you and escape to the Clinch position - what is your counter strategy?
-**A**: Circle in the same direction as their spin to maintain your position behind them, using your chest connection as the pivot point. Keep your hips tight and follow their rotation step-for-step. If they generate significant momentum, use that energy to execute a snap down to front headlock as they turn, converting their rotational force into a level change that puts them in a disadvantageous position. The key is never fighting their spin head-on but rather matching or redirecting it.
-
-**Q7**: How do you manage energy expenditure in Standing Rear Clinch during a long competition match?
-**A**: Use structural pressure rather than muscular effort by letting your body weight do the work through chest-to-back connection and hip positioning. Avoid squeezing grips with maximum force continuously; instead, maintain moderate grip tension and pulse tighter only when the opponent initiates escapes. Keep your breathing controlled and use the position to rest relative to your opponent, who is carrying your weight and fighting to escape. Transition to ground control within 30-90 seconds rather than stalling in the standing clinch indefinitely, as prolonged standing grappling drains both players.
-
-**Q8**: Your opponent partially escapes by creating 6 inches of space between your chest and their back but you still have one arm around their waist - how do you recover full control?
-**A**: Immediately close the gap by driving your hips forward and re-establishing chest-to-back contact before they can turn or create more space. Use the remaining waist grip as an anchor point and step your feet closer while pulling their hips back toward you. Once chest contact is re-established, secure a second grip (seatbelt or second arm around waist) and re-angle your hips to the side. If you cannot close the gap, use the single grip to transition to a different attack like a mat return or bodylock takedown rather than fighting to hold a deteriorating position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

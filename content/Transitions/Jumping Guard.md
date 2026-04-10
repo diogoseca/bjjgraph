@@ -221,7 +221,7 @@ Jumping Guard serves as a dynamic entry point to the closed guard system within 
 
 - [[Submissions/Flying Armbar]] - Related - Dynamic jumping entry technique with direct submission commitment
 
-- [[Submissions/Triangle from Closed Guard]] - Follow-up - Immediate submission attack option from closed guard established via jump
+- [[Transitions/Closed Guard to Triangle]] - Follow-up - Immediate submission setup option from closed guard established via jump
 
 - [[Transitions/Arm Drag]] - Setup - Alternative grip manipulation creating jumping guard timing
 

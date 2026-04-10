@@ -166,6 +166,8 @@ Your best strategic outcomes involve either completing your original inversion e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ankle Lock Finish?</p>
+
 - Attacker's forearm slides toward your Achilles tendon rather than reaching for your heel or toes, indicating they are setting up the standard ankle lock grip rather than a heel hook
 - Attacker's opposite hand moves to cup the back of your heel while their body begins angling perpendicular to your trapped leg, establishing the pocket for breaking mechanics
 - Attacker tightens their figure-four leg control and presses your knee line with their outside leg immediately before initiating the finish, preventing your hip rotation escape
@@ -178,6 +180,8 @@ Your best strategic outcomes involve either completing your original inversion e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ankle Lock Finish?</p>
 
 - Prioritize preventing grip establishment over resisting the finish - stopping the forearm from contacting your Achilles is far easier than breaking a secured grip
 - Maintain active dorsiflexion throughout defense - flexing your foot toward your shin reduces heel exposure and makes the finishing pocket harder to establish
@@ -192,6 +196,8 @@ Your best strategic outcomes involve either completing your original inversion e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ankle Lock Finish?</p>
 
 ### 1. Two-on-one grip fight on attacker's wrist to prevent Achilles contact and strip emerging grip
 
@@ -229,6 +235,8 @@ Your best strategic outcomes involve either completing your original inversion e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ankle Lock Finish?</p>
+
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Strip the attacker's grip through two-on-one hand fighting on their wrist before they establish the full finishing configuration. Once their grip is broken, immediately use your freed hands to control their inside knee and begin systematic leg clearing to complete your original inversion escape or reverse to top position in the entanglement.
@@ -244,6 +252,8 @@ Commit fully to completing the inversion rotation during the window when the att
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ankle Lock Finish?</p>
 
 ### 1. Extending the trapped leg away from the attacker in an attempt to pull the foot free from their grip
 
@@ -278,6 +288,8 @@ Commit fully to completing the inversion rotation during the window when the att
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ankle Lock Finish?</p>
+
 **Week 1-2** - Recognition and grip prevention
 Partner establishes Ushiro Ashi-Garami and slowly transitions to ankle lock finish grips. Practice recognizing the transition cues and executing two-on-one grip prevention before the forearm contacts the Achilles. No finishing pressure applied. Focus on timing and hand placement.
 
@@ -294,29 +306,6 @@ Begin from Ushiro Ashi-Garami with partner working full offensive sequences incl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you recognize the attacker is transitioning from positional control to an ankle lock finish attempt?
-**A**: Immediately use both hands to control the attacker's wrist that is moving toward your Achilles tendon, preventing them from establishing the forearm-to-Achilles contact that enables the finish. Stopping grip establishment is far more energy-efficient and effective than trying to strip a secured grip or resist breaking pressure once it has been applied.
-
-**Q2**: Your attacker has secured the grip and is beginning to arch - what is your best immediate response?
-**A**: Rotate your hip toward the attacker while bending your trapped knee and pulling it toward your chest. This collapses the space needed for their breaking mechanics by removing the perpendicular angle they need for leverage. Simultaneously maintain dorsiflexion to protect the ankle and use your hands to fight the grip, targeting the thumb side of their cupping hand for maximum stripping leverage.
-
-**Q3**: When should you abandon your defensive grip fighting and commit to completing the turtle rotation?
-**A**: Commit to turtle when the attacker's grip is too deep to strip within 2-3 seconds, when their breaking pressure is beginning to generate pain or discomfort, or when their figure-four leg control loosens during their grip adjustment giving you an extraction window. The key indicator is when continuing to fight the grip in place has become higher risk than accepting brief back exposure in turtle.
-
-**Q4**: Why is extending your trapped leg a critical error during ankle lock defense?
-**A**: Full leg extension eliminates your ability to use hip rotation as a defensive tool because the straight leg creates a rigid lever that the attacker can control entirely through their grip and leg wrap. It also maximizes the mechanical advantage of the attacker's breaking pressure by creating a direct line of force through the ankle joint. Keeping the knee bent preserves rotational options and structural integrity.
-
-**Q5**: What foot position must you maintain throughout the entire defensive sequence and why?
-**A**: Maintain dorsiflexion - foot flexed toward the shin with toes actively pulled up - throughout the entire defense. This position retracts the heel closer to the lower leg making it harder for the attacker to establish the cupping grip, reduces the available range of motion for the finish, and engages the calf muscles to resist extension pressure. Relaxing into pointed toes even momentarily creates the pocket needed for the finishing grip.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass Squid Guard?</p>
+
 - Establish and maintain vertical posture before addressing any grip or entanglement - forward collapse is the primary failure mode
 - Clear the lapel entanglement completely before attempting any directional passing movement
 - Control the guard player's free hand to prevent re-gripping and lapel reinforcement during the clearing phase
@@ -209,6 +211,8 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Squid Guard?</p>
+
 - Upright posture established with hips back and spine straight, not collapsed forward into guard player's attack range
 - At least one hand free and available for lapel stripping or grip fighting
 - Wide stable base capable of resisting lateral pulling from lapel tension
@@ -221,6 +225,8 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Squid Guard step by step?</p>
 
 1. **Establish posture and base**: Stand or kneel with upright posture, hips back, and weight distributed across a wide base. Resist the instinct to lean forward despite the lapel tension pulling you. Your spine should be straight with your chest up, creating the maximum distance between your upper body and the guard player's inverted attack range.
 2. **Identify lapel configuration**: Assess how the lapel is wrapped around your leg or body. Determine the wrapping direction, depth of entanglement, and which of your legs is primarily trapped. This assessment dictates whether you strip from the top, unwrap from below, or use a backstep to create slack. Incorrect identification leads to fighting the wrap in the wrong direction.
@@ -252,6 +258,8 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Squid Guard?</p>
+
 - **Guard player inverts during lapel strip and threatens back take** (Effectiveness: High) - Your Response: Immediately sprawl hips back and drive shoulder pressure into their inverted body. Abandon the strip temporarily and focus entirely on preventing the rotation. Once their inversion is stuffed, resume the lapel clearing sequence from the stabilized position. → Leads to [[Positions/Back Control]]
 - **Guard player regrips the lapel deeper as you attempt to strip it** (Effectiveness: Medium) - Your Response: Maintain control of their free hand more aggressively. If they use their legs to re-feed the lapel, pin their hips with your weight to limit their mobility. Consider switching to a backstep approach to create slack rather than fighting the grip directly. → Leads to [[Positions/Squid Guard]]
 - **Guard player transitions to De La Riva or standard open guard during lapel clearing** (Effectiveness: Medium) - Your Response: Recognize the guard transition immediately and switch to the appropriate passing strategy for the new guard. If they abandon the lapel, capitalize by advancing your pass since they have voluntarily given up their strongest control mechanism. → Leads to [[Positions/Squid Guard]]
@@ -263,6 +271,8 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Squid Guard?</p>
 
 ### 1. Attempting to pass without clearing the lapel entanglement first
 
@@ -302,6 +312,8 @@ As the passer facing Squid Guard, your primary challenge is the lapel entangleme
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Squid Guard (Attacker)?</p>
+
 **Phase 1: Posture and Base Development** - Maintaining stable posture against lapel tension
 Partner establishes Squid Guard and applies realistic lapel tension. Practice maintaining posture and wide base for 60-second intervals without attempting to pass or strip. Build tolerance to the pulling forces and develop automatic postural responses. No passing attempts in this phase.
 
@@ -322,42 +334,12 @@ Timed rounds starting in Squid Guard with partner at full competitive resistance
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you clear the lapel entanglement before attempting any directional pass?
-**A**: The lapel creates a mechanical tether between the guard player's hand and your leg that restricts your movement and provides constant off-balancing leverage. Any passing attempt with the lapel still attached allows the guard player to redirect your momentum into sweeps, arrest your forward progress, or use the tension to recover their guard structure. The entanglement must be fully removed to restore your freedom of movement for standard passing mechanics.
-
-**Q2**: Your opponent begins inverting while you strip their lapel grip - what is your immediate response?
-**A**: Immediately abandon the lapel strip and sprawl your hips backward while driving heavy shoulder pressure into their inverting body. The inversion threatens back exposure which is a far worse outcome than remaining in their guard. Once you have stuffed the inversion by flattening them back down, resume the lapel clearing from the stabilized position. Never sacrifice back safety for grip stripping progress.
-
-**Q3**: What is the critical role of controlling the guard player's free hand during the passing sequence?
-**A**: The free hand is the guard player's primary tool for deepening the lapel entanglement, adjusting grips, and re-establishing control after you begin stripping. Without controlling it via sleeve or wrist grip, every inch of lapel you successfully strip gets immediately replaced or the guard player establishes new control points. Controlling the free hand transforms the clearing sequence from an adversarial fight into a one-sided dismantling process.
-
-**Q4**: How should your base and weight distribution differ when facing Squid Guard compared to standard open guards?
-**A**: Against Squid Guard, you need a significantly wider stance with lower hips and bent knees to resist the constant directional pull of the lapel tension. Standard open guard passing often uses a more mobile, upright stance, but the lapel creates persistent off-balancing force that will topple a narrow base. Distribute weight across both legs rather than favoring the passing side, and be prepared to counterbalance by shifting weight opposite to the direction of lapel pull.
-
-**Q5**: What determines whether you should backstep clear or direct strip the lapel?
-**A**: The depth and direction of the lapel wrap determines the clearing method. If the lapel is wrapped shallowly around the outside of your knee or ankle, a direct strip by pulling the fabric in the reverse direction of the wrap is efficient. If the wrap is deep, passing between your legs, or wrapped multiple times, a backstep creates slack in the fabric by moving your leg away from the wrap direction, making the strip significantly easier. Deep wraps almost always require the backstep approach.
-
-**Q6**: Why is hesitation after clearing the lapel one of the most costly errors in this passing sequence?
-**A**: The moment the lapel is cleared represents a brief window where the guard player has lost their primary control mechanism and has not yet established a replacement. This window lasts only two to three seconds before they can re-grip the lapel, transition to a different guard, or establish new control points. Hesitation wastes this window entirely and forces you to restart the entire clearing process against a guard player who is now prepared for your approach.
-
-**Q7**: Your opponent transitions from Squid Guard to standard De La Riva during your pass attempt - how do you adapt?
-**A**: Recognize the transition immediately as an opportunity rather than a setback. The guard player has voluntarily abandoned their strongest control mechanism, the lapel entanglement. Switch to your standard De La Riva passing approach, which is a far simpler problem than Squid Guard passing. Common options include knee slice, backstep, or leg drag. The fact that they felt compelled to transition indicates your passing pressure was effective.
-
-**Q8**: What grip configuration gives you the best control during the lapel stripping phase?
-**A**: The optimal configuration is one hand controlling the guard player's free sleeve or wrist to prevent re-gripping, while the other hand performs the lapel strip by gripping the lapel fabric near the point where it contacts your leg. Grip the lapel close to your body rather than near their hand, as this gives you better leverage for stripping and prevents them from simply adjusting the wrap angle. Your sleeve-controlling hand should maintain constant pressure throughout.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Squid Guard?</p>
 
 Squid Guard passing involves significant tension on both practitioners' joints, particularly the passer's knee when entangled by the lapel wrap. Avoid explosive yanking motions to free the lapel, as sudden force can stress the knee joint in unexpected directions. If the lapel wrap creates uncomfortable torque on your knee, stop and communicate with your training partner to adjust rather than forcing through the position. During stacking variations, be mindful of the bottom player's neck and spine compression. In training, use controlled progressive resistance rather than explosive movements.
 

@@ -154,6 +154,8 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Scoot Hips to Guard from Back?</p>
+
 - Opponent begins small alternating shoulder movements walking their upper body toward your feet
 - Opponent's hips start shifting incrementally downward relative to your hook position
 - Opponent redirects one hand from neck defense toward your hooks or knees
@@ -166,6 +168,8 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scoot Hips to Guard from Back?</p>
 
 - Maintain constant chest-to-back pressure that follows all hip movement to prevent separation and space creation
 - Keep hooks deep inside the opponent's thighs with active tension to resist downward scooting attempts
@@ -180,6 +184,8 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Scoot Hips to Guard from Back?</p>
 
 ### 1. Follow hip movement with your own body, scooting your hips to match their downward movement and maintaining hook depth
 
@@ -217,6 +223,8 @@ As the back controller, your opponent's hip scoot escape represents one of the m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Scoot Hips to Guard from Back?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow all hip movement immediately by scooting your own body to match, maintaining hook depth and chest-to-back connection throughout the opponent's escape attempt
@@ -232,6 +240,8 @@ When opponent successfully clears hooks and begins to turn, follow their rotatio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scoot Hips to Guard from Back?</p>
 
 ### 1. Allowing incremental hip movement without matching it with your own body adjustment
 
@@ -261,6 +271,8 @@ When opponent successfully clears hooks and begins to turn, follow their rotatio
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Scoot Hips to Guard from Back?</p>
+
 **Phase 1: Recognition** - Identifying escape initiation cues
 Partner performs the hip scoot escape at slow speed while you focus on identifying the earliest cues including shoulder walking, hip shifting, and hand repositioning. Do not counter initially, just practice recognizing the escape phases. Build awareness through 20 repetitions on each side.
 
@@ -277,26 +289,6 @@ Back control positional sparring where bottom player uses all escape methods wit
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a hip scoot escape?
-**A**: The earliest cue is feeling small alternating shoulder movements against your chest as they begin walking their shoulders toward your feet. This shoulder walking motion precedes any visible hip movement and represents the initial phase of the escape before hooks are directly threatened. Responding at this stage with body adjustment is far easier than waiting for noticeable hip displacement.
-
-**Q2**: Your opponent clears your bottom hook during the scoot - what is your best immediate response?
-**A**: Immediately transition to mount by driving your hips forward over their hip and establishing mount position before they can insert their knee for half guard. The moment between hook clearance and guard establishment is a brief window where mount is highly achievable. If mount is not available, re-insert the hook immediately or lock a body triangle with the remaining hook.
-
-**Q3**: How does transitioning to body triangle prevent the hip scoot escape?
-**A**: Body triangle eliminates the scooting escape because the locked triangle configuration around the opponent's waist cannot be cleared through downward hip movement the way individual hooks can. The interlocking legs create a continuous ring of control that travels with any hip movement, making the fundamental scooting mechanism ineffective. The opponent must address the body triangle through entirely different escape methods.
-
-**Q4**: When should you prioritize attacking the neck versus maintaining hook position during a scoot attempt?
-**A**: Attack the neck when your hooks are still secure and the opponent shifts their hands away from neck defense to initiate the scooting motion. This forces them to choose between continuing the escape with an undefended neck or aborting to re-establish neck defense. Never sacrifice hook position to chase the neck, as losing hooks during a choke attempt typically results in complete position loss.
-
-
-
-</section>
 
 
 </main>

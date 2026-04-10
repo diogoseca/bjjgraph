@@ -212,7 +212,7 @@ The Reverse Kesa to North-South transition functions as a critical link in the p
 
 - [[Positions/Side Control/Kesa Gatame]] - Related scarf hold position in the same pinning family with different rotational options
 
-- [[Submissions/Americana from Reverse Kesa]] - Submission threat from starting position that can set up the transition when defended
+- [[Submissions/Americana]] - Submission threat from starting position that can set up the transition when defended
 
 - [[Transitions/North-South Choke]] - Primary submission opportunity available after successful transition to north-south
 

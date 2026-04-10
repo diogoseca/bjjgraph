@@ -85,6 +85,22 @@ description: "Learn to counter the stack defense from omoplata. Recognition cues
         "@type": "Answer",
         "text": "Distribute your weight broadly rather than channeling it into a narrow forward line. Post your free hand wide on the mat, keep your knees apart, and maintain a low center of gravity throughout the stack. When you feel the lateral pull, drive your hips in the opposite direction while keeping your chest over your opponent's body. Your free leg should be ready to post or step to whichever side the sweep is directed, providing an immediate base recovery option that prevents the sweep from completing."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you effectively strip the opponent's belt grip to neutralize their primary steering control during the stack?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use your free hand to perform a two-on-one grip break by peeling their fingers from the belt while simultaneously driving your hip away from their grip direction. Timing is critical—strip the grip in the first seconds of the stack before they establish their full defensive framework. Once the grip is broken, immediately re-commit to your forward drive before they can re-establish it. If a full grip break is not possible, push your hip into their gripping hand to reduce the mechanical leverage they can generate, converting their steering grip into a less effective contact point."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What escape chain should you prepare when your initial stack encounters a fully established stack defense?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Have three escape options queued in order of priority based on what the opponent gives you. First, if their leg control loosens during the hip angle adjustment, immediately attempt arm extraction by circling your trapped elbow toward your hip and pulling free. Second, if they maintain tight leg control but overcommit to the lateral redirection, transition to a forward roll by tucking your shoulder and rolling through their control. Third, if both of those windows are closed, use the momentum of their lateral pull to cartwheel over their body, landing in a neutral position. The key is reading which option is available within one to two seconds rather than stubbornly committing to the stack."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Defense from Omoplata?</p>
+
 - Bottom player's hips begin shifting laterally away from your stacking direction rather than remaining underneath your forward drive
 - Increased rotational pressure on your trapped shoulder as the opponent increases their angle and tightens the omoplata configuration
 - Bottom player's free leg plants firmly on the mat behind them, establishing a structural post for sweep redirection
@@ -165,6 +183,8 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Defense from Omoplata?</p>
 
 - Maintain forward drive while keeping your base wide enough to prevent being swept laterally during the omoplata player's redirection attempts
 - Keep elbows tight to your body to prevent the opponent from steering your momentum with their belt or hip grips
@@ -179,6 +199,8 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Defense from Omoplata?</p>
 
 ### 1. Widen base with free hand posting wide on the mat while driving hips forward with maximum pressure
 
@@ -216,6 +238,8 @@ The defender in this scenario is the practitioner whose shoulder is trapped in t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Defense from Omoplata?</p>
+
 ### → [[Positions/Open Guard]]
 
 Commit to the stack with proper base width and grip management, overwhelming the opponent's defensive angle adjustments before they can establish the counter-sweep framework. Keep your head positioned directly over your base while driving your hips forward and upward to relieve shoulder pressure. Attack their belt grip early to remove their steering control over your momentum.
@@ -227,6 +251,8 @@ Commit to the stack with proper base width and grip management, overwhelming the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Defense from Omoplata?</p>
 
 ### 1. Driving forward with narrow base and arms tucked close without posting for balance
 
@@ -256,6 +282,8 @@ Commit to the stack with proper base width and grip management, overwhelming the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Defense from Omoplata?</p>
+
 **Phase 1: Recognition** - Identifying stack defense cues in real time
 Practice identifying the stack defense cues in slow-motion drilling. Partner establishes omoplata and you initiate a stack. Partner deploys the defense slowly while you identify each element aloud: hip angle change, grip establishment, free leg post. Build pattern recognition before adding any resistance.
 
@@ -272,26 +300,6 @@ Positional sparring starting in omoplata control with you as the person being co
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest signs that the omoplata player is deploying the stack defense?
-**A**: The earliest signs include their hips beginning to shift laterally away from your stacking direction, increased rotational pressure on your trapped shoulder, and their free leg planting firmly on the mat as a structural post. You may also feel their grip on your belt or hip tighten and begin pulling you to one side rather than simply resisting your forward pressure. Recognizing these cues within the first one to two seconds of your stack gives you the best window to adjust your approach.
-
-**Q2**: When should you abandon the stack attempt and transition to an alternative escape from omoplata?
-**A**: Abandon the stack when you feel the opponent has established a strong lateral hip angle and has a secure grip on your belt or hip that they are actively using to redirect your momentum sideways. If your stacking force is being converted into rotational movement pulling you to one side, the counter-sweep is likely imminent. At this point, immediately transition to either a forward roll escape or arm extraction. Continuing to stack against an established defense wastes energy and increases your vulnerability to being swept.
-
-**Q3**: How do you maintain your balance when the omoplata player attempts to redirect your stacking momentum laterally?
-**A**: Keep your free hand posted on the mat with your arm creating a wide base perpendicular to the redirection direction. Lower your center of gravity by bending your knees rather than leaning forward at the waist. Keep your head positioned directly above your base rather than reaching toward the opponent. If you feel yourself being pulled to one side, immediately post your free hand on that side and drive your weight in the opposite direction to counter the sweep attempt.
-
-**Q4**: What body mechanics prevent the lateral counter-sweep during your stack attempt?
-**A**: Distribute your weight broadly rather than channeling it into a narrow forward line. Post your free hand wide on the mat, keep your knees apart, and maintain a low center of gravity throughout the stack. When you feel the lateral pull, drive your hips in the opposite direction while keeping your chest over your opponent's body. Your free leg should be ready to post or step to whichever side the sweep is directed, providing an immediate base recovery option that prevents the sweep from completing.
-
-
-
-</section>
 
 
 </main>

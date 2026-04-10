@@ -146,6 +146,8 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mount to 3-4 Mount?</p>
+
 - Sudden increase in pressure on one side of your chest and ribs—indicates weight loading before leg extraction on the opposite side
 - Opponent establishes a new grip (collar, crossface, or wrist pin) from settled mount without immediately attacking—grip establishment often precedes positional adjustment
 - Feeling the opponent's knee begin to slide outward along your hip rather than maintaining symmetrical pressure on both sides
@@ -158,6 +160,8 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount to 3-4 Mount?</p>
 
 - Recognize the pre-transition weight shift—when you feel pressure increase on one side, the opposite leg is about to extract
 - Attack during the extraction window, not after—once the foot is posted and the knee is consolidated, your defensive opportunity has passed
@@ -172,6 +176,8 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mount to 3-4 Mount?</p>
 
 ### 1. Frame and hip escape toward the extracting leg side during the transition window
 
@@ -209,6 +215,8 @@ Defending the Transition to 3-4 Mount requires recognizing the setup cues before
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mount to 3-4 Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Insert knee shield on the extraction side during the transition window when the opponent's base is temporarily reduced. Use the frame and hip escape combination timed to the leg extraction movement. Once the knee is inside, consolidate half guard grips immediately to prevent the opponent from re-passing.
@@ -224,6 +232,8 @@ Disrupt the transition before it completes by bridging explosively toward the mo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount to 3-4 Mount?</p>
 
 ### 1. Waiting until the 3-4 Mount is fully consolidated before attempting to escape
 
@@ -253,6 +263,8 @@ Disrupt the transition before it completes by bridging explosively toward the mo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mount to 3-4 Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition setup cues with eyes closed
 Partner establishes mount and alternates between attacking submissions and setting up 3-4 Mount transition. Bottom player focuses solely on identifying which action is being prepared based on tactile cues—weight shifts, grip changes, and knee movement. Call out 'transition' when you detect the 3-4 setup. No escape attempts in this phase, pure recognition development.
 
@@ -269,23 +281,6 @@ Start from standard mount with full resistance. Top player attempts to transitio
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you the opponent is preparing to transition to 3-4 Mount?
-**A**: The earliest cue is feeling a new grip being established without an immediate submission follow-up—when the opponent secures a collar grip, crossface, or wrist pin from settled mount without attacking, they are likely anchoring for a positional adjustment. The next cue is feeling pressure increase on one side of your torso as they load weight laterally in preparation for leg extraction on the opposite side. Recognizing this grip-then-shift pattern gives you the maximum window for defensive action.
-
-**Q2**: Why is the transition window your best opportunity for defense rather than waiting until 3-4 Mount is settled?
-**A**: During the leg extraction, the opponent temporarily reduces their contact points from four (two knees, two lower legs) to three (one knee, one leg, one posting foot), and their base narrows during the movement. This momentary reduction in control creates gaps in pressure that allow frame insertion and hip escape with significantly less effort than escaping the consolidated position. Once the foot is posted and the mounted knee is driven deep, the asymmetric base is actually more resistant to bridging than standard mount, making late defense much harder.
-
-**Q3**: Your opponent loads weight to your left side and begins extracting their right leg. Where do you direct your hip escape?
-**A**: Direct your hip escape toward the right side—toward the extracting leg. This is the side where pressure is momentarily reduced as the leg clears your body and before the foot is posted. Your hip escape into the lighter side meets minimal resistance and creates the best angle for knee insertion into half guard. Escaping toward the left (heavy) side would push directly into the opponent's concentrated weight and committed grip, making the escape far more difficult and energy-intensive.
-
-
-
-</section>
 
 
 </main>

@@ -166,6 +166,8 @@ The strategic calculus is straightforward: if you can prevent the extraction, yo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Extract legs and stand up?</p>
+
 - Opponent begins aggressive two-on-one grip fighting targeting your heel cup and ankle control, attempting to peel your fingers or strip your wrist position
 - Opponent loads their free leg against your hip or thigh and pre-loads hip escape by turning their shoulders away from you, signaling imminent shrimping motion
 - Opponent posts their hand behind their hips on the mat, establishing the base point needed for technical stand up after extraction
@@ -177,6 +179,8 @@ The strategic calculus is straightforward: if you can prevent the extraction, yo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Extract legs and stand up?</p>
 
 - Grip maintenance on the heel and ankle is your single most important retention tool - without grips, you cannot prevent extraction regardless of leg positioning
 - Recognize extraction intent early from grip fighting patterns and hip pre-loading, allowing you to preemptively tighten control before they create space
@@ -191,6 +195,8 @@ The strategic calculus is straightforward: if you can prevent the extraction, yo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Extract legs and stand up?</p>
 
 ### 1. Deepen heel grip and attack heel hook during their grip fighting phase
 
@@ -228,6 +234,8 @@ The strategic calculus is straightforward: if you can prevent the extraction, yo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Extract legs and stand up?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Maintain heel and ankle grips through aggressive re-gripping whenever opponent strips control. Follow their hip escape with your own hip drive to deny space. Keep constant submission pressure to force them into defensive mode rather than extraction mode. The longer they remain in bottom 50-50 against your superior control, the more their defensive energy depletes.
@@ -243,6 +251,8 @@ When 50-50 retention becomes difficult, use opponent's extraction movement to tr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Extract legs and stand up?</p>
 
 ### 1. Passively holding grips without actively attacking while opponent executes systematic grip breaks
 
@@ -272,6 +282,8 @@ When 50-50 retention becomes difficult, use opponent's extraction movement to tr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Extract legs and stand up?</p>
+
 **Week 1-2** - Grip retention under pressure
 Partner attempts systematic two-on-one grip breaks from bottom 50-50 while you practice maintaining and re-establishing heel and ankle grips. Start at 50% resistance, progressing to 80%. Focus on re-gripping speed and alternative grip positions when primary grips are stripped.
 
@@ -288,29 +300,6 @@ Full resistance positional rounds starting in top 50-50. Objective is to either 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important factor for preventing your opponent's leg extraction from 50-50?
-**A**: Maintaining grip control on the heel and ankle is the most critical factor. Without grips, your leg entanglement alone cannot prevent extraction because the opponent can retract their knee and pull free. The heel cup and ankle grip create the mechanical connection that keeps their leg trapped, so all defensive effort should prioritize grip maintenance and re-gripping over any other control point.
-
-**Q2**: Your opponent begins aggressive two-on-one grip breaks on your heel control - what is the optimal response?
-**A**: Immediately escalate your offensive threat by tightening your heel hook finishing position while they dedicate both hands to grip breaking. This creates a race condition: they must break your grip before you finish the submission. Their two-on-one commitment to grip fighting means they have zero hands defending the heel hook, making this your highest-percentage finishing window during the entire exchange.
-
-**Q3**: When should you transition from maintaining 50-50 to pursuing Inside Ashi-Garami during opponent's extraction?
-**A**: Transition when you recognize that 50-50 retention is failing despite your best grip fighting and hip following efforts. The key indicator is when opponent has broken your primary heel grip and achieved partial hip separation. Rather than fighting to re-establish a compromised 50-50, use their extraction momentum to reposition your hooks into Inside Ashi-Garami configuration, converting a losing retention battle into a positional advancement.
-
-**Q4**: What contingency should you prepare for when opponent successfully reaches standing position?
-**A**: Have an immediate re-engagement plan ready before the extraction even begins. The best options in order of priority are: single leg attack while they are still completing the stand up and before athletic stance is established, guard pull to immediately re-establish leg entanglement from open guard, or standing clinch to prevent them from creating distance and resetting completely. Accepting a neutral standing reset wastes all the positional advantage you built.
-
-**Q5**: How does maintaining offensive pressure throughout the extraction attempt benefit your retention strategy?
-**A**: Constant submission threats force opponent to split their attention between extraction mechanics and submission defense, significantly slowing or preventing the escape. An opponent who must simultaneously break grips, protect their heel, create space, and maintain defensive knee rotation cannot execute the extraction sequence with full efficiency. Each submission threat they must address costs them time, energy, and focus that would otherwise go toward escaping.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape from Russian Cowboy?</p>
+
 - Address the neck first—protect against chokes through chin tuck and two-on-one hand fighting before any positional escape movement
 - Strip the seatbelt grip systematically by working bottom hand against the underhook wrist, weakening overall control structure
 - Create structural frames using elbows and forearms rather than pushing with extended arms, which exposes you to submissions
@@ -202,6 +204,8 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape from Russian Cowboy?</p>
+
 - Chin tucked to chest with hands actively protecting neck from choke setups
 - At least one hand has established grip control on opponent's choking arm wrist
 - Near-side elbow posted on mat creating initial base point for frame structure
@@ -213,6 +217,8 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape from Russian Cowboy step by step?</p>
 
 1. **Secure Neck Defense**: Immediately tuck your chin tight to your chest and establish a two-on-one grip on the opponent's choking arm by clasping both hands around their wrist and pulling it below your chin line. This neutralizes the immediate rear naked choke threat and creates the defensive foundation for all subsequent escape steps.
 2. **Strip the Seatbelt Grip**: Using your bottom hand, peel the opponent's underhook grip from your torso by working your fingers under their wrist and pulling it toward your stomach. Pin their hand against your hip or the mat to prevent them from re-establishing the seatbelt, creating critical upper body separation that weakens their overall control architecture.
@@ -242,6 +248,8 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape from Russian Cowboy?</p>
+
 - **Opponent tightens seatbelt and drives chest forward to re-establish pressure** (Effectiveness: High) - Your Response: Return to step one and re-establish neck defense. Use the increased forward pressure as leverage by timing a hip escape when their weight commits forward, exploiting their overcommitment to chest pressure. → Leads to [[Positions/Russian Cowboy]]
 - **Opponent inserts second hook to transition to full back control during escape** (Effectiveness: High) - Your Response: Immediately address the new hook with your free leg by crossing your ankle over their foot and pushing it out. If full back control establishes, transition to standard back control escape protocols with hand fighting priority. → Leads to [[Positions/Back Control]]
 - **Opponent follows your hip movement and adjusts hook position to match** (Effectiveness: Medium) - Your Response: Chain multiple hip escape movements in quick succession rather than relying on a single shrimp. Each successive shrimp should change angle slightly, making it progressively harder for the opponent to track your movement with their hook. → Leads to [[Positions/Russian Cowboy]]
@@ -253,6 +261,8 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape from Russian Cowboy?</p>
 
 ### 1. Rolling away from the hook in panic without establishing frames first
 
@@ -292,6 +302,8 @@ As the bottom player executing the Escape from Russian Cowboy, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape from Russian Cowboy (Attacker)?</p>
+
 **Phase 1: Defensive Foundations** - Neck defense and hand fighting mechanics
 Practice chin tuck, two-on-one grip fighting, and seatbelt stripping against a cooperative partner in Russian Cowboy. Focus on the sequence of neck protection followed by grip stripping without any escape movement. Build automatic defensive responses to choke threats.
 
@@ -309,42 +321,12 @@ Specific positional sparring starting from Russian Cowboy with full resistance. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when trapped in Russian Cowboy bottom before attempting any escape movement?
-**A**: Protect your neck by immediately tucking your chin to your chest and establishing a two-on-one grip on the opponent's choking arm. Pull their wrist below your chin line to neutralize the rear naked choke threat. No positional escape should be attempted until neck defense is secured, as moving while exposed to a choke typically results in the opponent finishing the submission during your movement.
-
-**Q2**: Why should you direct your escape toward the opponent's free leg side rather than rolling away from the hook?
-**A**: Rolling away from the hook provides the rotational momentum the opponent needs to thread their second leg and advance to full truck position, which is a significantly worse position with twister and calf slicer threats. Escaping toward the free leg side does not assist their truck transition and creates angles that allow guard recovery. The free leg side lacks the mechanical control structure of the hooked side, making it the path of least resistance for your escape.
-
-**Q3**: Your opponent tightens their seatbelt grip and begins walking their hand toward your chin during the escape—how do you respond?
-**A**: Immediately abandon the positional escape and return to priority-one hand fighting on the choking arm. Use both hands to control their wrist through a two-on-one grip, pulling the arm below your chin and toward your sternum. Once the choke threat is neutralized, resume the escape sequence from the grip-stripping phase. Attempting to continue escaping while a choke is being set will result in the opponent finishing the submission during your movement.
-
-**Q4**: What grip should you establish on the hooking leg and in which direction should you apply force?
-**A**: Grip the opponent's hooking ankle with your near-side hand, wrapping your fingers around the front of their ankle or shin. Push their foot toward the mat and away from your body in a downward piston motion while simultaneously extending your hooked leg. The force direction should be perpendicular to your thigh—pushing their hook off rather than trying to slide your leg out. Your leg extension and hand push should work as coordinated opposing forces to create the space needed for extraction.
-
-**Q5**: How does the asymmetric hook structure of Russian Cowboy create different escape opportunities compared to traditional back control?
-**A**: Russian Cowboy's single-hook configuration means you only need to extract one leg rather than clearing two hooks, concentrating your escape effort more efficiently. The free leg side lacks the rotational control present in full back control, creating a natural weak side for your escape direction. However, the asymmetry also means the top player can transition quickly to truck if you move in the wrong direction, making directional awareness more critical than in symmetric back control escapes.
-
-**Q6**: When during the opponent's position maintenance should you time your explosive escape movement?
-**A**: The optimal timing windows occur when the opponent shifts their weight during grip adjustments, transitions between submission setups, or repositions their hook for better depth. Watch for moments when their chest pressure decreases, their seatbelt loosens during hand position changes, or their hips shift to adjust the hook angle. These micro-windows of reduced control represent your best opportunities because the opponent has temporarily compromised their base and cannot resist your escape movement while simultaneously completing their adjustment.
-
-**Q7**: What body movements from the opponent indicate they are attempting to advance from Russian Cowboy to full truck position?
-**A**: The primary indicator is the opponent threading their free leg under your far-side leg while simultaneously deepening their existing hook and pulling your near-side leg toward them. You will feel increased rotational pressure as they try to stretch your legs apart and their hips shift to create the triangle leg configuration. Their chest pressure may also decrease slightly as they redirect their lower body focus. Recognizing these cues early allows you to address the truck entry before it completes by immediately controlling their threading leg and preventing the rotation.
-
-**Q8**: Your initial frame-and-turn escape fails and the opponent re-establishes chest pressure—what adjustment do you make for the next attempt?
-**A**: After a failed attempt, reassess which control point the opponent re-established first, as this reveals their recovery priority and your best target for the next attempt. If they prioritized chest pressure, your frames were likely insufficient—use a deeper elbow post and angle your frame higher against their collarbone rather than their shoulder. If they prioritized the hook, chain multiple rapid hip escapes at changing angles rather than a single committed shrimp. Consider switching to the roll-under reversal variant if the frame-and-turn approach is consistently countered, as the change in escape direction forces the opponent to adapt their retention strategy.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape from Russian Cowboy?</p>
 
 When escaping Russian Cowboy, never attempt explosive neck movements or violent rolling that could compress the cervical spine under the opponent's weight. If a choke is secured during your escape attempt, tap immediately rather than continuing to fight the position—neck injuries from fighting locked chokes can be severe and career-ending. Be cautious when extracting the hooked leg to avoid knee or ankle strain from twisting against the hook under load. During drilling, communicate with your partner about hook pressure levels and transition speed to prevent accidental injury. Start all escape drilling at low intensity and build progressively.
 

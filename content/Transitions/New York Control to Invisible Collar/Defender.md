@@ -156,6 +156,8 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting New York Control to Invisible Collar?</p>
+
 - Bottom player's free hand reaches toward their own ankle or shin while maintaining rubber guard
 - Subtle hip rotation toward the overhook side creating an angle change under you
 - Overhook pressure decreases or changes character as the attacker prepares to release
@@ -168,6 +170,8 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York Control to Invisible Collar?</p>
 
 - Recognize the hip rotation and hand-to-ankle movement that signals an impending transition before it develops
 - Exploit the overhook release window by posturing immediately when control loosens rather than waiting for the new position to consolidate
@@ -182,6 +186,8 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against New York Control to Invisible Collar?</p>
 
 ### 1. Posture up aggressively during the overhook release window
 
@@ -212,6 +218,8 @@ Defending the New York Control to Invisible Collar transition requires recognizi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending New York Control to Invisible Collar?</p>
+
 ### → [[Positions/Open Guard]]
 
 Exploit the transition window to strip the controlling leg when it is between positions. Time the strip when the overhook releases and the shin has not yet settled behind the neck. Use both hands to push the leg toward the mat while posturing your upper body to create maximum distance from the rubber guard structure.
@@ -223,6 +231,8 @@ Exploit the transition window to strip the controlling leg when it is between po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York Control to Invisible Collar?</p>
 
 ### 1. Remaining passive during the transition and allowing the invisible collar to establish without resistance
 
@@ -252,6 +262,8 @@ Exploit the transition window to strip the controlling leg when it is between po
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against New York Control to Invisible Collar?</p>
+
 **Phase 1: Recognition Training** - Identifying transition cues and timing windows
 Partner performs the New York to Invisible Collar transition at slow speed while you practice identifying the recognition cues: hip rotation, hand movement to ankle, overhook loosening. Call out when you detect the transition beginning. Develop the pattern recognition that allows early intervention before the shin reaches the neck.
 
@@ -265,29 +277,6 @@ Begin in New York Control with partner attempting any rubber guard transition in
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary escape window during the New York to Invisible Collar transition?
-**A**: The primary window occurs when the attacker releases the overhook to complete the shin slide. During this moment, the primary posture control mechanism of New York Control is voluntarily abandoned, creating a gap where the top player can posture up and potentially strip the rubber guard entirely. This window typically lasts one to two seconds and must be exploited immediately upon recognition.
-
-**Q2**: How do you distinguish between a committed gogoplata attempt and a feint designed to set up the invisible collar transition?
-**A**: A committed gogoplata involves the shin driving directly toward the throat with hip extension, while the invisible collar feint directs the shin behind the neck with hip rotation toward the overhook side. Watch the direction of hip movement: gogoplata requires hips pushing forward and up, while the invisible collar setup requires lateral hip rotation. The hand positioning also differs, as the invisible collar feint involves the free hand reaching toward the own ankle rather than the opponent's head.
-
-**Q3**: If the invisible collar is successfully established, what immediate defensive posture should you adopt?
-**A**: Immediately tuck your chin aggressively toward your chest to limit the angle available for gogoplata extension. Bring both hands to the shin behind your neck and begin working to strip it by pushing the ankle away from your body. Keep your hips heavy and resist the urge to posture, as posturing drives your neck into the shin pressure. Begin systematic hip escape toward the side opposite the shin to create space for removal.
-
-**Q4**: Why is lateral movement more effective than backward movement when defending this transition?
-**A**: Lateral movement disrupts the hip rotation that powers the shin slide from shoulder to behind the neck. The attacker needs a specific angle created by rotating toward the overhook side, and lateral movement by the top player changes this angle, blocking the shin pathway. Backward movement actually stretches the rubber guard configuration without disrupting the angle, often assisting the shin's travel by creating space along the intended path.
-
-**Q5**: Your opponent has attempted this transition twice and returned to New York both times - how should you exploit their persistence?
-**A**: Bait the third attempt by appearing to settle passively in New York Control, then time an explosive posture recovery during the overhook release that you now anticipate. Each failed attempt teaches you the attacker's specific setup tells and timing. Alternatively, preemptively strip the controlling leg from the shoulder when you sense the hip rotation beginning, converting their transition attempt into a complete guard break before they can even begin the shin slide.
-
-
-
-</section>
 
 
 </main>

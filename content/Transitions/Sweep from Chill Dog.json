@@ -120,7 +120,7 @@
     "execution_steps": [
       {
         "step_number": 1,
-        "action": "Assess Weight Distribution",
+        "action": "Assess Center of Gravity",
         "description": "From the compact Chill Dog posture with elbows pressed to knees, use tactile awareness through your upper back and shoulders to map the opponent's weight distribution. Feel for forward chest pressure that indicates their center of gravity is over your back rather than behind you. The heavier their forward pressure, the more vulnerable they are to the reversal because their rearward base is compromised."
       },
       {
@@ -385,7 +385,7 @@
         "description": "Partner alternates between standard Chill Dog defensive grip fighting and actual sweep setups. You must identify and verbally call out when the sweep setup is happening versus normal defense. Do not counter - focus purely on recognition accuracy. Develop sensitivity to the far-side arm reach, loading weight shift, and breathing changes that distinguish sweep preparation from standard defense."
       },
       {
-        "phase": "Phase 2: Weight Distribution Management",
+        "phase": "Phase 2: Center of Gravity Management",
         "focus": "Maintaining safe pressure distribution while retaining attacking capability",
         "description": "Practice maintaining Chill Dog top pressure with deliberate focus on hip-heavy rather than chest-forward weight distribution. Partner provides feedback on whether your pressure feels exploitable for the sweep. Alternate between attacking grips and maintaining safe weight to build the habit of pressure awareness. Drill posting with the free hand while keeping one grip active."
       },

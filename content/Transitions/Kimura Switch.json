@@ -11,7 +11,7 @@
     "grip-transition",
     "positional-control"
   ],
-  "from_position": "Aoki Lock/Top",
+  "from_position": "Aoki Lock Control/Top",
   "outcomes": [
     {
       "to": "Kimura Trap/Top",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Aoki Lock/Top",
+      "to": "Aoki Lock Control/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -33,7 +33,7 @@
   "overview": "The Kimura Switch represents a critical transitional technique from Aoki Lock top position that converts leg-entangled shoulder control into traditional Kimura grip control. When opponents defend the Aoki Lock by rotating their shoulder inward or blocking hip pressure, the Kimura Switch provides an alternative attack vector that maintains offensive pressure while changing the mechanical angle of shoulder manipulation.\n\nThis transition exploits a fundamental defensive dilemma: defending the Aoki Lock's rotational pressure typically exposes the arm to Kimura grip capture. By releasing leg entanglement and immediately securing double wrist control in the figure-four configuration, you maintain continuous submission threat without allowing positional escape. The switch preserves your dominant top position while transitioning from leg-based control to grip-based control.\n\nStrategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.",
   "related_content": [
     {
-      "name": "Aoki Lock",
+      "name": "Aoki Lock Control",
       "relationship": "Starting position - leg entangled shoulder control"
     },
     {
@@ -130,7 +130,7 @@
         "counter": "Opponent straightens arm before you secure figure-four grip, preventing Kimura capture",
         "effectiveness": "High",
         "your_response": "Immediately return to Aoki Lock pressure by re-engaging leg entanglement before they can fully extend. Their straightened arm actually improves Aoki Lock mechanics.",
-        "targets_outcome": "Aoki Lock/Top"
+        "targets_outcome": "Aoki Lock Control/Top"
       },
       {
         "counter": "Opponent turns into you during leg release, recovering turtle position and escaping control",
@@ -266,7 +266,7 @@
       {
         "action": "Straighten your trapped arm explosively as soon as you feel the attacker reaching for your far wrist, denying the figure-four grip configuration",
         "when_to_use": "Early in the switch sequence when the attacker's near-side hand first releases hip control to reach for your wrist, before any Kimura grips are established",
-        "targets_outcome": "Aoki Lock/Top",
+        "targets_outcome": "Aoki Lock Control/Top",
         "if_successful": "Forces attacker to abandon the Kimura Switch and return to Aoki Lock leg entanglement, resetting you to your original defensive scenario where you can continue standard Aoki Lock escapes",
         "risk": "If the arm extension is incomplete or slow, the attacker may capture your wrist anyway. The extended arm also temporarily increases Aoki Lock leverage if they re-engage legs quickly."
       },
@@ -280,7 +280,7 @@
       {
         "action": "Use your free hand to strip the attacker's initial C-grip on your wrist by peeling their fingers and pulling your wrist toward your centerline while keeping your elbow tight",
         "when_to_use": "Immediately after you feel the attacker's hand close around your far wrist but before they thread the second arm for the figure-four configuration",
-        "targets_outcome": "Aoki Lock/Top",
+        "targets_outcome": "Aoki Lock Control/Top",
         "if_successful": "Prevents the Kimura grip from forming entirely, forcing the attacker to either re-attempt the wrist capture or abandon the switch and return to Aoki Lock control",
         "risk": "Using your free hand for grip fighting temporarily removes your ability to frame or post, which the attacker can exploit to flatten you or advance position."
       },
@@ -294,7 +294,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Aoki Lock/Top",
+        "outcome": "Aoki Lock Control/Top",
         "how": "Force the attacker back to Aoki Lock by straightening your arm when they reach for Kimura grips, or strip their initial wrist capture with your free hand. The key is preventing the figure-four configuration from being established, which leaves the attacker with only their original leg entanglement. This returns you to the Aoki Lock scenario where you can resume rolling escapes, base attacks, and arm extraction techniques."
       },
       {

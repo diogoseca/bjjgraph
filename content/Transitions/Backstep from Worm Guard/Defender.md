@@ -154,6 +154,8 @@ As the bottom player in worm guard defending against the backstep, your primary 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from Worm Guard?</p>
+
 - Passer shifts weight noticeably onto their non-trapped leg, unloading the trapped leg to prepare for the stepping motion
 - Passer's near hand moves to your far hip to establish a hip block, indicating they intend to pin your rotation
 - Passer secures a deep collar or far-shoulder grip with their free hand, establishing the rotational anchor needed for the backstep
@@ -166,6 +168,8 @@ As the bottom player in worm guard defending against the backstep, your primary 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from Worm Guard?</p>
 
 - Maintain lapel tension by adjusting your hip angle to match the passer's rotational movement, keeping the wrap engaged throughout their backstep attempt
 - Recognize backstep initiation early through the weight shift and grip changes that precede the stepping motion
@@ -180,6 +184,8 @@ As the bottom player in worm guard defending against the backstep, your primary 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from Worm Guard?</p>
 
 ### 1. Chase the passer's hip rotation with your own hip adjustment to maintain lapel tension throughout the backstep
 
@@ -217,6 +223,8 @@ As the bottom player in worm guard defending against the backstep, your primary 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from Worm Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 When the passer commits fully to the backstep rotation, release your lapel grip and immediately climb onto their back using the exposed angle. The rotational momentum of the backstep actually assists your back take because the passer is turning away from you. Establish seat belt control and insert hooks before they can face you. Time this transition at the peak of their rotation when their back exposure is maximum.
@@ -232,6 +240,8 @@ Chase the passer's hip rotation with your own hip adjustment the instant you fee
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from Worm Guard?</p>
 
 ### 1. Remaining static with hips flat when feeling the passer's weight shift and rotation begin
 
@@ -261,6 +271,8 @@ Chase the passer's hip rotation with your own hip adjustment the instant you fee
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from Worm Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying backstep setup cues
 Partner alternates between backstep setups and direct lapel strip setups from worm guard top. Bottom player calls out which approach is being initiated based on the weight shift, grip placement, and pressure direction. No physical defense—pure pattern recognition. Perform 20 random alternations to develop instant recognition.
 
@@ -277,26 +289,6 @@ Positional sparring from worm guard with full resistance. Top player attempts ba
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the passer is setting up a backstep rather than a direct lapel strip?
-**A**: The most reliable early indicator is the passer shifting their weight onto the non-trapped leg while simultaneously reaching for your far hip with their near hand to establish a hip block. A direct lapel strip typically involves the passer keeping weight centered and working hands toward the lapel wrap, while the backstep requires the weight transfer and hip block that precede the rotational stepping motion. The hip block reach is particularly telling because it serves no purpose in a direct stripping approach.
-
-**Q2**: When should you transition from guard retention to a back take attempt during the backstep defense?
-**A**: Transition to a back take when the passer has committed past the point of easy recovery—typically when their trapped leg has cleared the midpoint of the backstep arc and their back is fully exposed. Attempting the back take too early (before commitment) allows the passer to abort and face you. Attempting too late (after they have settled chest pressure) means the passing window has closed. The optimal moment is when the passer's back faces you and their momentum is carrying them away.
-
-**Q3**: Why is inserting a knee shield considered a positional concession even when successful against the backstep?
-**A**: While half guard with knee shield is a defensible position with sweep potential, it represents a significant downgrade from worm guard. In worm guard, you have an advanced lapel-based control system with multiple sweep and back take options, strong retention, and mechanical advantages that make passing very difficult. Half guard bottom, even with knee shield, gives the top player more passing options and does not offer the same level of control. The knee shield should be viewed as damage control rather than a successful defense.
-
-**Q4**: Your lapel wrap has been partially cleared during the backstep but the passer has not yet settled into side control—what is your priority?
-**A**: Your priority is establishing any form of guard structure before chest-to-chest contact. Insert your inside knee immediately to create a frame that prevents the passer from settling. From there, assess whether you can recover half guard with knee shield, re-establish butterfly hooks, or insert a De La Riva hook. Do not attempt to re-feed the lapel for worm guard recovery—that window has passed and the priority is preventing the completion of the pass with whatever guard recovery is available.
-
-
-
-</section>
 
 
 </main>

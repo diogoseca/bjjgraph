@@ -156,6 +156,8 @@ The defensive framework operates on three levels: prevention through active hook
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Guard to Butterfly Half Guard?</p>
+
 - Opponent drives knees together compressing your hook structure, reducing the lateral space your hooks need for effective elevation
 - Opponent establishes crossface and begins turning your head away from one side while shifting weight toward the opposite hook
 - Opponent's hip pressure increases on one side as they attempt to pin your knee toward the mat to collapse hook angle
@@ -168,6 +170,8 @@ The defensive framework operates on three levels: prevention through active hook
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Guard to Butterfly Half Guard?</p>
 
 - Maintain constant upward elevator pressure through both hooks, treating passive hooks as the primary vulnerability that enables clearing
 - Keep seated upright posture to maximize the structural connection between your upper body grips and lower body hooks
@@ -182,6 +186,8 @@ The defensive framework operates on three levels: prevention through active hook
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Guard to Butterfly Half Guard?</p>
 
 ### 1. Active hook retention through hip rotation and following movement
 
@@ -219,6 +225,8 @@ The defensive framework operates on three levels: prevention through active hook
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Guard to Butterfly Half Guard?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Maintain active hook pressure with constant upward drive through both hooks, fight for underhook control to prevent crossface, and follow the opponent's hip movement with your corresponding hook to prevent clearing. Stay seated with strong posture to keep the structural connection between your grips and hooks intact.
@@ -234,6 +242,8 @@ When the opponent commits weight to one side for hook clearing, immediately driv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Guard to Butterfly Half Guard?</p>
 
 ### 1. Maintaining passive hooks without active upward elevator pressure during opponent's clearing attempts
 
@@ -263,6 +273,8 @@ When the opponent commits weight to one side for hook clearing, immediately driv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Guard to Butterfly Half Guard?</p>
+
 **Phase 1: Hook Retention Awareness** - Recognizing clearing attempts and maintaining active hooks
 Partner performs slow-motion hook clearing sequences while you focus on feeling the compression, weight shifts, and positional changes. Practice maintaining active upward hook pressure and following hip movement. No sweeps or transitions, purely defensive retention.
 
@@ -279,26 +291,6 @@ Positional sparring starting in full butterfly guard against partner actively wo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to clear your butterfly hook?
-**A**: The earliest cue is feeling your opponent drive their knees together, compressing the space between your hooks. This knee pinch is the preparatory movement for most hook clearing sequences because it collapses the lateral angle your hooks need for effective elevation. When you feel this compression, immediately drive your hooks outward and upward to resist the squeeze, and prepare to counter-attack or adjust your position.
-
-**Q2**: Your opponent successfully clears one hook and is settling into butterfly half guard top - what is your immediate priority?
-**A**: Your immediate priority is to either re-insert the cleared hook within the first three to five seconds before they establish control, or transition proactively to a related guard system like deep half guard or lockdown. Do not remain passively in butterfly half guard hoping to re-insert later. If the opponent has established crossface and wide base, re-insertion becomes very difficult, so transitioning to deep half by diving under their hips or locking down the trapped leg is often the higher-percentage response.
-
-**Q3**: How does maintaining an underhook prevent hook clearing on that side?
-**A**: The underhook creates a direct structural connection between your shoulder and the opponent's armpit, preventing them from driving crossface on that side. Without the crossface, they cannot turn your head away to break the kinetic chain between your upper body and hook. The underhook also allows you to follow their hip movement by pulling yourself toward them as they shift weight, keeping your hook properly positioned underneath their thigh. This combination of crossface prevention and movement tracking makes the underhook side significantly more resistant to clearing.
-
-**Q4**: When should you attempt a counter-sweep versus focusing purely on hook retention?
-**A**: Attempt a counter-sweep when the opponent commits their weight asymmetrically to clear one hook, creating a clear directional imbalance that you can exploit. The trigger is feeling their center of mass shift decisively to one side. If their weight shift is moderate or exploratory, focus on retention. If they commit strongly and you can feel their base compromised in the opposite direction, execute a butterfly sweep immediately using their own weight commitment as the catalyst. The key distinction is whether their weight shift is tentative or fully committed.
-
-
-
-</section>
 
 
 </main>

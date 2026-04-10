@@ -188,6 +188,8 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Recovery from Spider Guard?</p>
+
 - Use the opponent's forward momentum from breaking spider grips to accelerate the closed guard closure rather than fighting against their direction
 - Retract legs in a coordinated sequence—release feet from biceps and immediately begin wrapping around the opponent's torso rather than withdrawing to neutral
 - Maintain at least one collar or sleeve grip throughout the transition to control the opponent's posture during guard closure
@@ -203,6 +205,8 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Recovery from Spider Guard?</p>
+
 - Recognition that spider guard grips are compromised or about to be broken by the opponent's grip fighting
 - At least one hand available for collar or sleeve control to manage the opponent's posture during the distance closure
 - Sufficient hip flexibility to rapidly retract legs from extended spider position to guard closure position
@@ -214,6 +218,8 @@ As the bottom player with a compromised spider guard, your primary objective is 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Recovery from Spider Guard step by step?</p>
 
 1. **Recognize Grip Compromise**: Identify that your spider guard grips are failing—the opponent has stripped one or both sleeve grips, is stacking your feet off their biceps, or is about to break through your foot placement with posture or grip fighting. Commit to the closed guard recovery immediately rather than fighting to maintain spider guard with weakened controls.
 2. **Secure Collar or Cross-Grip Before Releasing Feet**: Before retracting your feet from the biceps, transition at least one hand to a strong collar grip or cross-sleeve grip. This grip will be your primary tool for pulling the opponent into guard closure range and controlling their posture once guard is closed. In no-gi, secure a collar tie or wrist grip.
@@ -243,6 +249,8 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Recovery from Spider Guard?</p>
+
 - **Opponent creates maximum distance by standing up and extending arms during the spider grip break, preventing you from pulling them into guard closure range** (Effectiveness: High) - Your Response: If standing distance prevents closed guard, immediately transition to an alternative open guard—De La Riva hook on their lead leg, or feet-on-hips with collar grip for open guard distance management rather than fighting for closed guard at impossible range → Leads to [[Positions/Spider Guard]]
 - **Opponent drives a knee through your centerline as you retract your legs, establishing combat base before you can wrap guard around their torso** (Effectiveness: High) - Your Response: If the knee penetrates, redirect to half guard by wrapping one leg around their posted leg and establishing knee shield, then work toward full guard recovery from the stabilized half guard position → Leads to [[Positions/Combat Base]]
 - **Opponent strips your collar grip during the leg retraction, denying you the pulling handle needed to close distance for guard closure** (Effectiveness: Medium) - Your Response: Switch to a two-on-one sleeve grip or underhook their arm to create an alternative pulling mechanism, using the arm control to draw them toward you while your legs complete the guard wrap → Leads to [[Positions/Spider Guard]]
@@ -253,6 +261,8 @@ As the bottom player with a compromised spider guard, your primary objective is 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Recovery from Spider Guard?</p>
 
 ### 1. Retracting legs to a neutral position rather than directly wrapping behind the opponent's back during the retraction
 
@@ -287,6 +297,8 @@ As the bottom player with a compromised spider guard, your primary objective is 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Recovery from Spider Guard (Attacker)?</p>
+
 **Phase 1: Leg Retraction Arc Mechanics** - Direct leg path from spider position to guard wrap without neutral gap
 Partner holds static kneeling position while you practice retracting feet from their biceps in a semicircular arc directly behind their back. Focus on eliminating the neutral gap where legs pass through a non-controlling position. Twenty repetitions to develop the arc trajectory muscle memory.
 
@@ -307,42 +319,12 @@ Practice the full decision tree: if opponent stays close, recover closed guard; 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing to initiate closed guard recovery from spider guard?
-**A**: Initiate recovery at the moment of grip compromise—when the opponent strips one sleeve grip or begins successfully defeating your foot-on-bicep placement—rather than waiting until both grips are broken and the opponent has advanced. This early timing preserves your remaining grip as a pulling handle for guard closure and catches the opponent in the forward momentum they generated to break your grip, which you can redirect into closed guard range.
-
-**Q2**: Why should the leg retraction follow a semicircular arc rather than a straight pull-back during spider guard recovery?
-**A**: A straight pull-back creates a brief neutral position where your legs pass through a non-controlling zone, giving the opponent a window to advance a knee or establish combat base. A semicircular arc takes the feet directly from the bicep contact point around and behind the opponent's back, maintaining continuous leg engagement throughout the retraction and eliminating the gap that allows the opponent to advance past your legs.
-
-**Q3**: Your opponent stands up and creates maximum distance as you attempt to close guard from spider—what alternative recovery should you pursue?
-**A**: Abandon the closed guard attempt and immediately transition to an alternative open guard that works at standing distance. Establish a De La Riva hook on their lead leg with your bottom foot, or maintain feet on their hips with a collar grip for long-range open guard. Forcing closed guard at standing distance requires you to pull them down against gravity, which is extremely energy-intensive and low-percentage. The open guard alternative maintains your guard structure at the distance available.
-
-**Q4**: What makes spider guard to closed guard one of the higher-percentage guard recoveries compared to other guard recovery transitions?
-**A**: Spider guard to closed guard follows a natural distance-closing trajectory—the opponent is already within arm's reach due to the sleeve grip connection, and their forward momentum from breaking grips carries them toward guard closure range. Unlike recovery from positions where the bottom player must create distance first, spider guard recovery uses the existing close-to-medium range and the opponent's own forward energy to accelerate the transition. The bottom player also typically retains at least one grip throughout the transition, maintaining continuous control.
-
-**Q5**: How do you prevent the opponent from immediately breaking your newly closed guard after recovery?
-**A**: Break their posture within two seconds of guard closure by pulling their head and chest toward you using collar grip and heel pressure simultaneously. An opponent with broken posture cannot effectively work guard-opening sequences because their hands are occupied preventing face-plant rather than fighting your guard. Additionally, lock your ankles low at the small of their back rather than high near their shoulders, as the low lock creates maximum hip control and is structurally harder to break through posturing.
-
-**Q6**: What specific grip should you prioritize before releasing your spider guard feet, and why is the collar grip preferred over maintaining the remaining sleeve grip?
-**A**: Prioritize a strong collar grip because it serves as the primary pulling handle to draw the opponent into guard closure range. The remaining sleeve grip controls only the opponent's arm, but the collar grip controls their entire posture and forward-backward movement. As you release your feet from the biceps, the collar grip enables you to pull them forward, using their own forward recovery momentum to accelerate the distance closure needed for guard wrapping. In no-gi, a collar tie or head control serves the same pulling function.
-
-**Q7**: Your opponent drives a knee through your centerline during leg retraction—how do you salvage the guard recovery attempt?
-**A**: When the knee penetrates your centerline, abandon the closed guard target and immediately redirect to half guard by wrapping one leg around the penetrating leg while establishing a knee shield with the other leg. Secure an underhook on the side of the trapped leg to prevent them from flattening you. From this stabilized half guard position, you can work a secondary recovery sequence toward full guard, or use the half guard's own offensive options like an underhook sweep or knee shield recomposition to full guard.
-
-**Q8**: After successfully closing guard from spider guard recovery, what offensive sequence should you initiate to prevent the opponent from immediately working to reopen?
-**A**: Immediately chain into an offensive threat to occupy the opponent's defensive attention. The strongest sequence is: break posture with collar grip and heel pressure, then establish a cross-collar grip with your free hand to threaten a cross-collar choke. If they defend the choke by posting a hand, transition to a hip bump sweep. If they frame to re-posture, switch to an armbar or triangle setup from the broken posture. Any offensive threat prevents them from committing both hands to reopening your guard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Recovery from Spider Guard?</p>
 
 Guard recovery from spider guard is a low-injury-risk transition, but practitioners should be mindful of finger strain from aggressive sleeve gripping during the transition. If your spider guard grips are failing due to finger fatigue, commit to the recovery rather than fighting to maintain grips that stress your finger joints. During the leg retraction, avoid hyperextending your knees by pulling your feet off the biceps in a controlled arc rather than snapping them back explosively. The guard closure itself places minimal injury risk on both players when performed with controlled technique.
 

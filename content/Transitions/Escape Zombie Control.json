@@ -95,8 +95,8 @@
       "relationship": "Follow-up escape technique from turtle after completing the transition"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Related escape concept for recovering guard from compromised position"
+      "name": "Guard Recovery from Zombie",
+      "relationship": "Alternative guard recovery transition from the same Zombie Bottom position"
     },
     {
       "name": "Rolling to Guard",

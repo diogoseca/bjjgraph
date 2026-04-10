@@ -114,7 +114,7 @@
           },
           {
             "technique": "Rolling Kimura Escape",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 40
           }
         ]
@@ -591,7 +591,7 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Carni",
         "attempt_probability": 12
       },
       {
@@ -607,7 +607,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Calf Slicer",
+        "transition": "Calf Slicer from Carni",
         "attempt_probability": 11
       },
       {

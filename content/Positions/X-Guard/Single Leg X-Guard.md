@@ -193,7 +193,7 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 
 - **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (10% of attempts)
 
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (10% of attempts)
+- **[[Kneebar from Single Leg X-Guard/Attacker|Kneebar from Single Leg X-Guard]]** (10% of attempts)
 
 - **[[Transitions/Backstep from Single Leg X/Attacker|Backstep from Single Leg X]]** (8% of attempts)
 

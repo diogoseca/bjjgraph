@@ -158,13 +158,15 @@ The primary defensive strategy centers on preventing leg extension and maintaini
 
 Defensive success also depends on recognizing the transition early through tactile and visual cues. When the attacker releases their heel hook grip, begins rotating their body, or shifts their hand positioning from heel to ankle, these signals indicate an imminent kneebar attempt. Early recognition allows proactive defense—stepping over the entanglement, driving forward to break their body angle, or extracting the leg before the attacker consolidates control. Reactive defense after the kneebar is locked in requires more energy and carries greater injury risk.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Outside Ashi-Garami]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Kneebar Setup?</p>
 
 - Attacker releases their heel hook grip and begins shifting both hands toward your ankle and lower leg area
 - Attacker's body begins rotating from parallel to perpendicular relative to your trapped leg, with their hips moving under your knee
@@ -179,6 +181,8 @@ Defensive success also depends on recognizing the transition early through tacti
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Kneebar Setup?</p>
+
 - Maintain a bent knee at all times when trapped in outside ashi—a flexed knee cannot be hyperextended for kneebar finish
 - Recognize the kneebar setup early through grip changes and body rotation—intervene during transition, not after control is established
 - Control your hip rotation to prevent the attacker from achieving a perpendicular angle across your leg line
@@ -192,6 +196,8 @@ Defensive success also depends on recognizing the transition early through tacti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar Setup?</p>
 
 ### 1. Bend knee aggressively and rotate hip inward to prevent extension while keeping heel hidden
 
@@ -229,6 +235,8 @@ Defensive success also depends on recognizing the transition early through tacti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar Setup?</p>
+
 ### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Bend your knee and rotate hip inward to prevent extension, then fight the attacker's grips to return to the standard outside ashi exchange where you can work systematic escapes. Use your free leg to create frames on their hips preventing them from re-attempting the kneebar setup.
@@ -244,6 +252,8 @@ Extract your trapped leg during the attacker's grip transition by internally rot
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar Setup?</p>
 
 ### 1. Straightening the leg under pressure or when trying to stand up from outside ashi
 
@@ -278,6 +288,8 @@ Extract your trapped leg during the attacker's grip transition by internally rot
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar Setup?</p>
+
 **Week 1-2** - Recognition and knee flexion
 Partner slowly executes kneebar setup from outside ashi while you practice identifying the grip transition and body rotation cues. Focus on maintaining bent knee throughout. No resistance from attacker—build pattern recognition and defensive posture habits. 30+ repetitions per side.
 
@@ -294,29 +306,6 @@ Full positional sparring starting from outside ashi top. Attacker works complete
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from heel hook to kneebar setup?
-**A**: The earliest cue is the attacker releasing their heel hook grip and beginning to shift both hands toward your ankle and lower leg. This grip transition happens before the body rotation and signals that they are abandoning the rotational attack in favor of an extension attack. Recognizing this grip change gives you the maximum defensive window to intervene.
-
-**Q2**: Why is maintaining a bent knee the primary defensive principle against kneebar setup?
-**A**: A bent knee cannot be hyperextended because the joint is already in flexion, which is the opposite direction of the kneebar's finishing mechanic. The kneebar requires the knee to be relatively straight so that hip pressure against the back of the joint creates extension beyond its natural range. Maintaining flexion removes the mechanical possibility of the submission entirely.
-
-**Q3**: Your opponent has secured your ankle against their chest and is beginning to elevate their hips—what should your immediate defensive priority be?
-**A**: At this late stage, your immediate priority is to rotate your hip and turn your body toward the attacker to relieve extension pressure on the knee. Simultaneously, use your free hand to fight their grip on your ankle and your free leg to push against their hip to create separation. If you cannot break free within seconds, tap rather than risk ligament damage—the knee provides very little warning before injury.
-
-**Q4**: How does defending the kneebar create vulnerability to heel hook attacks?
-**A**: The primary kneebar defense is bending the knee, which pulls the foot closer to the attacker and rotates the heel into a more accessible position. A skilled attacker reads this bent-knee defense and immediately transitions back to heel hook, catching the now-exposed heel. This creates the fundamental dilemma of the position: you must protect extension and rotation simultaneously.
-
-**Q5**: When is stepping over the attacker's body a viable defensive option versus too risky?
-**A**: Stepping over is viable during the attacker's body rotation when their legs are briefly loosening to re-triangle higher on your thigh. The window is narrow—if their legs are already tight in the new triangle position, stepping over risks entangling yourself further or exposing your back. The step-over must be explosive and committed during the transition gap, not attempted against established control.
-
-
-
-</section>
 
 
 </main>

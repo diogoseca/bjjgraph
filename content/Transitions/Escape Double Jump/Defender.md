@@ -154,6 +154,8 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Double Jump?</p>
+
 - Bottom player stops advancing their hips underneath and begins retracting leg movement back toward their own body
 - Bottom player's hands shift from offensive grips to defensive frames reaching for your shoulder and hip
 - Bottom player's inside leg begins curling back toward their chest instead of driving deeper underneath your base
@@ -166,6 +168,8 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Double Jump?</p>
 
 - Capitalize on the failed entry immediately—the bottom player is most vulnerable in the first 2-3 seconds after recognizing their attack has stalled
 - Drive crossface pressure to prevent the bottom player from establishing the forearm frames needed to begin safe leg extraction
@@ -180,6 +184,8 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Double Jump?</p>
 
 ### 1. Drive heavy crossface and sprawl weight forward to flatten bottom player during extraction
 
@@ -217,6 +223,8 @@ The defender in Escape Double Jump is the top player who has successfully stoppe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Double Jump?</p>
+
 ### → [[Positions/Side Control]]
 
 Time your pass attempt during the leg extraction phase when the bottom player has reduced leg control. Drive knee slice or backstep pass while they are focused on retreating rather than defending the pass. The transition window between inside leg extraction and knee shield insertion is the optimal moment to attack.
@@ -232,6 +240,8 @@ Drive heavy crossface and hip pressure immediately when you recognize the escape
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Double Jump?</p>
 
 ### 1. Allowing the bottom player to establish forearm frames before attempting to counter the escape
 
@@ -261,6 +271,8 @@ Drive heavy crossface and hip pressure immediately when you recognize the escape
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Double Jump?</p>
+
 **Recognition training** - Identifying escape initiation cues
 Partner alternates between continuing double jump entry and initiating escape. Practice identifying the moment of transition by watching for leg retraction, frame shifts, and energy changes. Call out the escape the moment you detect it. Track accuracy over 20 repetitions to build pattern recognition.
 
@@ -277,26 +289,6 @@ After defending the double jump and recognizing the escape, chain 3-4 passing at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most vulnerable moment for the bottom player during the Escape Double Jump?
-**A**: The most vulnerable moment is when the bottom player has extracted their inside leg but has not yet inserted their knee shield. During this brief window, both legs are partially committed and the bottom player lacks the structural frame that the knee shield provides. This is the optimal timing for crossface pressure, backstep passes, or knee slice pass attempts that exploit the reorganizing guard.
-
-**Q2**: How do you prevent the bottom player from establishing the frames needed for their escape?
-**A**: Drive immediate crossface pressure and maintain chest-to-chest connection as soon as you recognize the entry has stalled. By keeping your weight driving forward through your shoulder into their face and chest, you eliminate the space their forearms need to create frames on your shoulder and hip. Without these frames, the leg extraction becomes impossible without being flattened.
-
-**Q3**: Your opponent successfully establishes frames and begins extracting their legs—what is your best response?
-**A**: If frames are established and extraction is underway, shift focus from preventing the escape to capitalizing on the transition. Target the moment between inside leg extraction and knee shield insertion with a knee slice or backstep pass. Their legs are reorganizing and briefly vulnerable. Chain your passing attempts against their retreating guard rather than trying to drive them back into the failed double jump position.
-
-**Q4**: Why is it advantageous when the bottom player switches from their double jump attack to the escape?
-**A**: When the bottom player switches from offense to defense, their mental framework shifts from attacking to retreating. This defensive mindset makes them reactive rather than proactive, creating opportunities for you to dictate the exchange. The physical mechanics of leg extraction also create brief windows of reduced control that do not exist when the bottom player is committed to the entry. Every moment of the escape is a potential passing opportunity.
-
-
-
-</section>
 
 
 </main>

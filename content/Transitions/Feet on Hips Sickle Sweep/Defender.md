@@ -154,6 +154,8 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Feet on Hips Sickle Sweep?</p>
+
 - Opponent establishes a deep collar grip while maintaining sleeve control—this specific grip configuration generates the pulling force essential for the sweep
 - One of the opponent's feet drops from your hip and travels laterally behind your far ankle or calf rather than resetting on your hip
 - Opponent's hips angle to one side as they set the sweep direction, breaking the symmetrical feet-on-hips frame you were facing
@@ -166,6 +168,8 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Feet on Hips Sickle Sweep?</p>
 
 - Deny the collar grip establishment by fighting hands aggressively and keeping your posture upright with chin tucked to prevent deep collar access
 - Maintain awareness of both feet on your hips—when one foot drops off, immediately suspect a sickle or tripod sweep setup and prepare your defense
@@ -180,6 +184,8 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Feet on Hips Sickle Sweep?</p>
 
 ### 1. Step the far foot back beyond hooking range when you feel the opponent's foot drop from your hip
 
@@ -217,6 +223,8 @@ Defending the Feet on Hips Sickle Sweep requires understanding the sweep's mecha
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Feet on Hips Sickle Sweep?</p>
+
 ### → [[Positions/Feet on Hips Guard]]
 
 Deny the collar grip or step the far foot back early to prevent the sweep entirely, forcing the opponent to reset and attempt a different technique from guard bottom while you maintain your top position
@@ -232,6 +240,8 @@ When you recognize the sweep attempt beginning, drive forward aggressively and u
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Feet on Hips Sickle Sweep?</p>
 
 ### 1. Standing with feet close together when facing feet on hips guard
 
@@ -261,6 +271,8 @@ When you recognize the sweep attempt beginning, drive forward aggressively and u
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Feet on Hips Sickle Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues in real time
 Partner sets up the sickle sweep in slow motion while you practice identifying each recognition cue including grip establishment, foot drop, angle change, and hook placement. Call out each cue as you see or feel it to build automatic pattern recognition.
 
@@ -277,26 +289,6 @@ Positional sparring starting in feet on hips guard with partner attacking with a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a sickle sweep is being set up from feet on hips guard?
-**A**: The earliest cue is the establishment of the collar grip combined with sleeve control, which is the specific grip configuration required for the sweep's pulling force. Before the feet even move, this grip pattern signals that a coordinated push-pull sweep is being prepared. Addressing the grips at this stage prevents the sweep at its weakest point, before any leg mechanics are engaged and before the opponent has committed to the attack.
-
-**Q2**: Your opponent threads their hooking foot behind your far ankle—what immediate action prevents the sweep?
-**A**: Immediately step the targeted foot straight back beyond their hooking range while simultaneously pressuring or stripping their collar grip. The backstep removes the hook target, and without the hook, the pushing foot alone cannot complete the lateral sweep. Be prepared for the follow-up tripod sweep attempt that often comes when you step back by maintaining your grips on their pants or ankles to begin your own passing sequence.
-
-**Q3**: How do you convert a defended sickle sweep attempt into a guard passing opportunity?
-**A**: When the opponent drops one foot from your hip to attempt the sickle, they temporarily weaken their guard structure by removing one of their two primary defensive frames. Capitalize by grabbing the dropped leg and driving forward past it while maintaining control of their remaining foot on your hip. This creates a leg drag or toreando passing opportunity because they now have only one foot defending while the other is committed to the failed sweep setup.
-
-**Q4**: You get caught in the sickle sweep mid-motion—what is the best recovery to minimize positional loss?
-**A**: If the sweep is in progress and cannot be stopped, post your hand on the mat in the direction you are falling to slow your descent and create a temporary base point. As you land, immediately turn toward the opponent rather than away, and work to insert your knee between your bodies to recover half guard rather than conceding full side control. The difference between recovering half guard and giving up side control determines whether you can quickly return to a competitive position or spend significant energy on a full escape sequence.
-
-
-
-</section>
 
 
 </main>

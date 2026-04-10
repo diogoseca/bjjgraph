@@ -28,7 +28,7 @@ This transition exploits a fundamental defensive dilemma: defending the Aoki Loc
 
 Strategically, the Kimura Switch serves as a pressure relief valve that prevents stalemates in the Aoki Lock position. Rather than forcing a defended submission, you flow to an equally dangerous attack that catches opponents during their defensive adjustment. The technique requires precise timing, rapid grip acquisition, and understanding of how the two shoulder lock systems complement each other within the broader positional hierarchy.
 
-**From Position**: [[Positions/Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -40,7 +40,7 @@ Strategically, the Kimura Switch serves as a pressure relief valve that prevents
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Kimura Trap]] | 65% |
-| Failure | [[Positions/Aoki Lock]] | 25% |
+| Failure | [[Positions/Aoki Lock Control]] | 25% |
 | Counter | [[Positions/Turtle]] | 10% |
 
 
@@ -196,7 +196,7 @@ The Kimura Switch functions as a pressure release valve within the Aoki Lock att
 ## Related Techniques
 
 
-- [[Positions/Aoki Lock]] - Starting position - leg entangled shoulder control
+- [[Positions/Aoki Lock Control]] - Starting position - leg entangled shoulder control
 
 - [[Positions/Kimura Trap]] - Target position - figure-four grip control system
 

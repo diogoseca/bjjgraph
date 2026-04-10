@@ -186,6 +186,8 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Gift Wrap Control?</p>
+
 - Control the wrist before attempting to wrap—premature wrapping allows arm recovery
 - Use your chest pressure to pin opponent's elbow while threading their arm across
 - The wrapped arm must cross opponent's throat line to maximize control effectiveness
@@ -201,6 +203,8 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Gift Wrap Control?</p>
+
 - Kuzure Kesa-Gatame established with consistent hip pressure into opponent's ribs
 - Opponent's near arm is already trapped or controlled across your body
 - Opponent's far arm is within reach and not actively framing your hip
@@ -214,6 +218,8 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Gift Wrap Control step by step?</p>
 
 1. **Control far wrist**: While maintaining hip pressure, reach across with your near-side hand to grip opponent's far wrist. This initial control prevents them from framing against your hip or posting to bridge.
 2. **Pin elbow with chest**: Shift your chest weight onto opponent's far-side elbow, pinning it to the mat. This creates the mechanical leverage needed to thread their arm across their body without resistance.
@@ -242,6 +248,8 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Gift Wrap Control?</p>
+
 - **Opponent straightens arm before wrap completes, preventing the fold** (Effectiveness: High) - Your Response: Abandon the wrap attempt and transition to armbar or americana on the extended arm—their defense creates a different submission opportunity → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **Opponent frames against your hip with far arm before you can secure wrist** (Effectiveness: High) - Your Response: Maintain Kuzure Kesa-Gatame pressure and wait for them to reach toward you or attempt escape before re-attempting the wrap → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **Opponent explosively bridges as you release wrist to secure wrap** (Effectiveness: Medium) - Your Response: Keep head position past their shoulder and widen base leg—their bridge without arm posting has minimal power and you can resettle → Leads to [[Positions/Half Guard]]
@@ -253,6 +261,8 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Gift Wrap Control?</p>
 
 ### 1. Releasing hip pressure to focus on arm manipulation
 
@@ -292,6 +302,8 @@ In competition and training contexts, the Gift Wrap serves as a transitional hub
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Gift Wrap Control (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice the wrist control to wrap sequence with compliant partner. Focus on threading the arm smoothly across the throat and securing your grip on your own bicep. No escape attempts—pure repetition of movement pattern.
 
@@ -309,48 +321,12 @@ Full positional sparring starting from Kuzure Kesa-Gatame. Partner escapes with 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Gift Wrap Control?
-**A**: The primary goal is to immobilize the opponent's far arm by wrapping it across their own throat, eliminating their ability to frame, post, or bridge effectively. This creates a control platform for advancing to mount, taking the back, or finishing with chokes and arm attacks.
-
-**Q2**: What grip do you secure after threading the opponent's arm across their throat?
-**A**: After threading their arm, you reach under their tricep and grab your own bicep (creating a figure-four lock) or grip their far shoulder for deeper control. This secures the wrapped arm and prevents them from straightening or recovering it.
-
-**Q3**: Your opponent posts their far hand on your hip as you attempt the wrap—what adjustment do you make?
-**A**: When they post on your hip, the wrap is not available. Maintain Kuzure Kesa-Gatame pressure and wait. Their posting arm will eventually tire or they will reach toward you to attempt an escape. That reaching motion creates the wrap opportunity. Alternatively, attack the posted arm with americana or kimura pressure.
-
-**Q4**: Why must the wrapped arm cross the opponent's throat rather than their chest?
-**A**: Crossing the throat maximizes control by restricting breathing and creating discomfort that limits defensive movement. Chest placement allows relatively free breathing and space to work frames. The throat position also sets up collar chokes and adds psychological pressure that makes opponents more likely to give up position.
-
-**Q5**: What is the critical hip movement during the wrapping sequence?
-**A**: There should be minimal hip movement—the hips stay heavy and pressed into opponent's ribs throughout. The common error is lifting hips to reach for the arm. Instead, use chest pressure on their elbow and arm mechanics to thread the wrap while hips maintain constant downward pressure.
-
-**Q6**: Your opponent straightens their far arm explosively as you begin the wrap—how do you respond?
-**A**: Convert immediately to armbar or americana. Their defensive straightening exposes the arm for submission. Do not chase the wrap against an extended arm—the straightening is actually a mistake that creates a better opportunity. Secure the extended wrist and transition to the submission appropriate for their arm angle.
-
-**Q7**: What head position prevents the opponent from turning into you during and after the wrap?
-**A**: Your head must be past their far shoulder with your ear on the mat on their far side. This position redirects any turning force across your body harmlessly. Head positioned above them or on their near side creates a pivot point they can use to roll you over.
-
-**Q8**: How do you chain from Gift Wrap to back take when the opponent turns away?
-**A**: As they turn away from you (exposing their back), maintain the wrap grip and follow their rotation. Your wrap arm becomes the seatbelt grip as you insert hooks. Their own turning motion combined with their trapped arm pulling across their body facilitates the back take—they essentially roll themselves into your back control.
-
-**Q9**: What creates the mechanical leverage to fold a resistant opponent's arm across their body?
-**A**: Pin their elbow to the mat using your chest weight before pulling on their wrist. This creates a lever where the pinned elbow is the fulcrum. Without elbow control, you're trying to muscle their entire arm—with elbow pinned, you only need to move their forearm, which requires far less force.
-
-**Q10**: When transitioning from Gift Wrap to mount, what maintains arm control during the transition?
-**A**: Keep the wrap grip secured on your bicep throughout the mount transition. Slide your knee across their belly while squeezing your elbows together to maintain arm immobilization. Only adjust your grip after mount is fully established and you've resettled your weight.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Gift Wrap Control?</p>
 
 Gift Wrap Control applies pressure across the opponent's throat through their own arm, creating potential breathing restriction and neck strain. Always allow training partners to tap immediately when discomfort occurs. The shoulder of the wrapped arm experiences rotational stress—release pressure if partner indicates shoulder pain. In training, establish the wrap with controlled pressure rather than explosive force to avoid inadvertent throat compression. Partners with neck injuries or cervical spine issues should communicate before drilling this position. When transitioning from Gift Wrap to submissions, maintain awareness that the wrap itself may cause tap-worthy discomfort before the actual submission is locked.
 

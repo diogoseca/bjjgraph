@@ -162,6 +162,8 @@ Defending the Scarf Hold to Mount transition requires recognition of the specifi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Scarf Hold to Mount?</p>
+
 - Attacker's near-side hand walks down toward your far hip or belt line, establishing the anchor grip needed before the step-over
 - Attacker loosens or releases their head control grip, freeing the arm for posting during the transition
 - Forward weight shift through the attacker's hips with their chest pressure increasing on your upper body as they prepare to slide across
@@ -174,6 +176,8 @@ Defending the Scarf Hold to Mount transition requires recognition of the specifi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scarf Hold to Mount?</p>
 
 - Recognize preparatory grip changes—far hip control and head control release—as the earliest signals of the mount transition
 - Prioritize knee insertion for half guard recovery over explosive bridge attempts that may expose your back
@@ -188,6 +192,8 @@ Defending the Scarf Hold to Mount transition requires recognition of the specifi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Scarf Hold to Mount?</p>
 
 ### 1. Explosive bridge toward the attacker's stepping side at the moment their leg lifts from the mat
 
@@ -225,6 +231,8 @@ Defending the Scarf Hold to Mount transition requires recognition of the specifi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Scarf Hold to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Insert your far-side knee across the attacker's path during the step-over to recover half guard before mount is established. Time the insertion to the moment the attacker's leg lifts, driving your knee toward your own chest and across their hip line. Even a partial insertion prevents full mount and creates immediate guard retention opportunities.
@@ -240,6 +248,8 @@ Use a combination of hip framing, well-timed bridge, and grip fighting to force 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scarf Hold to Mount?</p>
 
 ### 1. Waiting until the attacker's leg has already cleared your body before attempting any defensive action
 
@@ -274,6 +284,8 @@ Use a combination of hip framing, well-timed bridge, and grip fighting to force 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Scarf Hold to Mount?</p>
+
 **Phase 1: Recognition Drilling** - Identifying preparatory cues without countering
 Partner performs the scarf hold to mount transition at slow speed while you call out each preparatory cue as you detect it—grip change, weight shift, head control release, leg lift. No physical counter attempts. Develop the pattern recognition that enables timely defensive reactions through 20 repetitions with increasing transition speed.
 
@@ -290,29 +302,6 @@ Full resistance positional rounds starting from scarf hold bottom. The top playe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing to transition from scarf hold to mount?
-**A**: The primary cues include your opponent releasing or loosening their head control grip, their near-side hand walking down toward your hip or belt area, forward weight shift through their hips, and reduced arm pressure on your trapped arm. You may also feel their chest pressure redistribute as they begin rotating their body to align for the step-over. Any combination of these signals indicates an imminent mount transition attempt.
-
-**Q2**: Why is the bridge counter most effective at the exact moment your opponent lifts their leg for the step-over?
-**A**: During the step-over, your opponent has only one leg posted on the mat, dramatically reducing their base stability in the direction of the stepping leg. Their weight is momentarily committed to the transition and they have released head control. This creates a narrow but high-percentage window where a well-timed bridge toward their stepping side encounters minimal resistance because they cannot post with the airborne leg and their grips have been modified for the transition rather than base retention.
-
-**Q3**: How should you position your knee to prevent mount completion during the step-over?
-**A**: As soon as you detect the step-over initiation, drive your far-side knee upward toward your chest and angle it across your opponent's path. The goal is to insert your knee between their body and yours before their stepping leg clears your hip line. Even if you cannot prevent all forward progress, getting your knee inside their leg creates half guard, which is significantly more defensible than full mount and gives you immediate guard retention and sweep options.
-
-**Q4**: Your opponent pins your far hip while threatening an americana—how do you defend both threats simultaneously?
-**A**: Prioritize the americana defense first by straightening your trapped arm and anchoring your hand to your thigh or belt. Then use your free arm to frame against their shoulder rather than their hip grip, creating space to turn toward them. The hip pin prevents shrimping but does not prevent bridging, so use short explosive bridges to disrupt their balance while maintaining the americana defense. The goal is to force them to choose between completing the submission and completing the mount transition.
-
-**Q5**: What is the defensive priority hierarchy when caught mid-transition between scarf hold and mount?
-**A**: First, prevent the mount from fully consolidating by inserting your knee to create half guard—this is your most critical window and takes priority over everything else. Second, if the knee insertion fails, immediately establish elbow-knee frames to prevent the opponent from settling their weight in mount. Third, protect your neck and arms from submission threats that become available once mount is achieved. Never accept the mounted position passively, as the transition moment offers your best escape opportunities before the attacker consolidates control.
-
-
-
-</section>
 
 
 </main>

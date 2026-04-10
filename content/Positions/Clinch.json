@@ -128,11 +128,11 @@
       },
       {
         "transition": "Kouchi Gari",
-        "attempt_probability": 8
+        "attempt_probability": 9
       },
       {
         "transition": "Uchi Mata",
-        "attempt_probability": 8
+        "attempt_probability": 9
       },
       {
         "transition": "Arm Drag to Back",
@@ -160,10 +160,6 @@
       },
       {
         "transition": "Two-on-One to Back Take",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Standing Guillotine from Clinch",
         "attempt_probability": 2
       }
     ],
@@ -202,7 +198,7 @@
         "condition": "If opponent secures body lock or double underhooks with head control",
         "actions": [
           {
-            "technique": "Frame Creation",
+            "technique": "Frames",
             "target": "Standing Position",
             "probability": 45
           },
@@ -303,7 +299,7 @@
         "duration": "5-7 minutes per round"
       },
       {
-        "name": "Clinch Grip Fighting with Progressive Resistance",
+        "name": "Clinch Grips with Progressive Resistance",
         "description": "Drill clinch grip fighting starting at 50% resistance and progressively increasing intensity. Focus on establishing dominant grips like underhooks, collar ties, and body locks while denying opponent same advantages. Work on grip breaking, hand fighting sequences, and maintaining advantageous head position throughout exchanges. Partner provides realistic resistance appropriate to skill level.",
         "duration": "3-5 minute rounds"
       },
@@ -468,11 +464,7 @@
     "transitions": [
       {
         "transition": "Guard Pull from Clinch",
-        "attempt_probability": 22
-      },
-      {
-        "transition": "Guard Pull",
-        "attempt_probability": 18
+        "attempt_probability": 40
       },
       {
         "transition": "Underhook Pummeling from Clinch",
@@ -530,7 +522,7 @@
         "condition": "If opponent secures body lock or double underhooks with head control",
         "actions": [
           {
-            "technique": "Frame Creation",
+            "technique": "Frames",
             "target": "Standing Position",
             "probability": 45
           },
@@ -631,7 +623,7 @@
         "duration": "5-7 minutes per round"
       },
       {
-        "name": "Clinch Grip Fighting with Progressive Resistance",
+        "name": "Clinch Grips with Progressive Resistance",
         "description": "Drill clinch grip fighting starting at 50% resistance and progressively increasing intensity. Focus on establishing dominant grips like underhooks, collar ties, and body locks while denying opponent same advantages. Work on grip breaking, hand fighting sequences, and maintaining advantageous head position throughout exchanges. Partner provides realistic resistance appropriate to skill level.",
         "duration": "3-5 minute rounds"
       },
@@ -714,36 +706,36 @@
     },
     "knowledge_assessment": [
       {
-        "question": "What is the most important factor for maintaining a dominant clinch position against an equally skilled opponent?",
-        "answer": "Head position is the single most important factor. Whoever controls the head controls the clinch. Keep your forehead pressed firmly into your opponent's shoulder or the side of their neck, which structurally disrupts their posture, limits their offensive angles, and gives you the leverage advantage needed to dictate grip exchanges and takedown entries. Without dominant head position, even superior grips become difficult to exploit."
+        "question": "How should you position your weight when stuck in a disadvantaged clinch to minimize takedown vulnerability while preserving escape options?",
+        "answer": "Keep your weight centered over the balls of your feet with approximately 55% on your rear foot, creating a slight backward base that makes forward-driving takedowns harder to complete. Bend your knees to lower your center of gravity, which increases stability against off-balancing attempts. Avoid loading weight forward into the opponent, as this feeds their snap down setups and makes guard pull timing more difficult. Your hips should stay underneath you rather than extended behind—hip position under your shoulders gives you the structural base to absorb pressure while maintaining the ability to sprawl, pummel, or pull guard reactively."
       },
       {
-        "question": "Your opponent pummel-wins an underhook and starts driving into you with forward pressure - what adjustment do you make?",
-        "answer": "Immediately address the underhook by either re-pummeling to recover inside position or transitioning to an overhook (whizzer) on the same side to neutralize their leverage. Simultaneously lower your hips and widen your base to absorb the drive. If the pressure is too strong to re-pummel, use the overhook to redirect their momentum laterally rather than absorbing it head-on, which opens snap down opportunities or allows you to circle to a better angle. Avoid pulling backward, which accelerates their forward pressure advantage."
+        "question": "Your opponent has established a strong collar tie and underhook combination, and you feel your posture breaking—what immediate adjustments restore your defensive base?",
+        "answer": "Address the collar tie first by using a two-on-one grip break—grab their controlling wrist with both hands and strip it from behind your neck while simultaneously straightening your spine and driving your hips underneath you. Once the collar tie is broken, immediately fight the underhook by either pummeling to recover inside position or establishing a strong whizzer on that side. Widen your stance to rebuild base stability and re-engage with active hand fighting. The critical error is trying to fight the underhook while the collar tie remains—the collar tie breaks your posture, which makes every other defensive action significantly harder."
       },
       {
-        "question": "What are the three primary grip configurations in the clinch and when should each be prioritized?",
-        "answer": "The three primary configurations are: (1) Double underhooks - prioritized when you want to drive forward for body lock takedowns or lifts, giving maximum inside control but requiring strong head position to prevent snap downs; (2) Over-under (one overhook, one underhook) - the most common neutral exchange position, offering balanced offensive and defensive options while neither player has clear dominance; (3) Collar tie with underhook - prioritized when you want to control distance and set up snap downs, knee taps, or single leg entries, giving excellent head control combined with inside access."
+        "question": "What are the three most common attacks your opponent will attempt from a dominant clinch, and how do you prioritize defending them?",
+        "answer": "The three primary threats from dominant clinch are: (1) snap down to front headlock—defended by maintaining strong upright posture, active grip stripping, and keeping your chin level rather than allowing your head to be pulled down; (2) level change to takedown such as single or double leg—defended by keeping weight slightly back, maintaining active hand position at chest height ready to frame, and training automatic sprawl reaction to level changes; (3) body lock establishment—defended by keeping elbows tight to your body and pummeling aggressively to deny the grip lock. Prioritize posture maintenance above all else, because broken posture makes defending all three attacks exponentially harder."
       },
       {
-        "question": "Your opponent breaks your collar tie grip and creates a few inches of separation while you still have one underhook - what do you do?",
-        "answer": "Use the remaining underhook as your anchor point and immediately re-engage before the opponent can fully disengage. Step your underhook-side foot closer to close the gap, then re-establish head contact by swimming your free hand to either a new collar tie or a second underhook. The critical principle is that partial separation with one remaining connection point is a transition opportunity, not a reset. The underhook gives you inside access to shoot for a single leg or high crotch if they continue creating distance, so the opponent must respect your offensive threat while you work to re-establish full clinch control."
+        "question": "You're in a disadvantaged clinch with both arms trapped in overhooks—your opponent controls inside position completely. What is your step-by-step grip recovery plan?",
+        "answer": "First, lower your level slightly to change the angle and create new swimming lanes. Second, identify which side has weaker overhook pressure—this is usually the side where the opponent's weight is shifted away from. Third, create a momentary disruption through a sharp push-pull on their body or a quick level change feint. Fourth, pummel your arm on the weaker side by dropping your elbow tight to your ribs and threading underneath in a compact arc. Fifth, immediately consolidate with head position to the underhook side before they can re-pummel. If standard pummeling fails after two attempts, consider transitioning to a guard pull or breaking the clinch entirely to reset the exchange from neutral distance."
       },
       {
-        "question": "How should you distribute your weight in the clinch to maintain control without overcommitting?",
-        "answer": "Weight should be distributed approximately 55-60% on your lead foot with slight forward pressure, keeping your center of gravity over your base rather than leaning into your opponent. Knees stay bent with hips loaded underneath you, not extended behind. This forward bias creates pressure your opponent must manage while keeping your hips available for level changes and takedown entries. The key error to avoid is pushing weight into your opponent through your arms or chest, which telegraphs your pressure direction and makes you vulnerable to snap downs and lateral movement. Your weight control comes from hip and leg positioning, not upper body pushing."
+        "question": "How do you use frames to manage an opponent's forward pressure when they are driving you backward in the clinch?",
+        "answer": "Create structural frames using your forearms against their collarbones, biceps, or neck to redirect their forward energy rather than absorbing it with muscular resistance. The primary frame places your forearm across their chest at collarbone height, using bone-on-bone contact that requires minimal energy to maintain. Your elbows stay tight to your body so the frame connects to your skeletal structure rather than relying on arm strength. Combine framing with lateral movement—step to the side while your frame redirects their drive past your centerline, creating the angle needed for pummeling or clinch separation. Avoid the common error of pushing back against their pressure, which creates an arm-wrestling dynamic that drains energy rapidly."
       },
       {
-        "question": "Your opponent secures double underhooks and locks hands behind your back - how do you prevent the takedown and recover position?",
-        "answer": "Immediately lower your hips by bending your knees and widening your stance to create a strong base that resists lifting and driving. Simultaneously establish a strong overhook on one side by clamping your elbow tight to your ribs and begin working a cross-face or chin strap with your free hand to disrupt their head position. From here, pummel the overhook side back to an underhook by circling toward that side while using your cross-face pressure to create the space needed. If re-pummeling fails and they maintain the body lock, pulling guard to closed guard or butterfly guard is a legitimate tactical option rather than getting taken down on their terms."
+        "question": "Your opponent has dominant underhooks and suddenly drops their level—you suspect a takedown entry. How do you react in the first half-second?",
+        "answer": "React to the level change immediately by driving your hips backward and downward in a modified sprawl while your hands push down on the back of their head and shoulders. Do not wait to confirm whether it is a single leg, double leg, or body lock—the sprawl response is correct for all three. If their level change was a feint to set up a snap down, your sprawled hips are already low enough to resist the pull. Your secondary response depends on what develops: if they commit to a shot, maintain sprawl pressure and work to front headlock or whizzer defense; if they pull back from the feint, immediately re-engage the clinch with active hand fighting before they can execute their real attack."
       },
       {
-        "question": "What is the biggest energy management mistake practitioners make in the clinch and how should it be corrected?",
-        "answer": "The biggest mistake is treating the clinch as a strength contest by maintaining constant isometric tension in the arms, shoulders, and grip. This burns through energy rapidly and actually reduces technical effectiveness because stiff arms are slower to transition between grip configurations. The correction is to use intermittent bursts of controlled pressure rather than sustained tension. Maintain just enough grip pressure to stay connected, then apply sharp bursts of force when executing specific techniques or grip changes. Between exchanges, relax your arms and shoulders while maintaining structural control through head position and hip alignment, which are far less energy-intensive than muscular gripping."
+        "question": "What is the most energy-efficient strategy for surviving an extended disadvantaged clinch exchange?",
+        "answer": "Use burst-and-recover rhythm rather than sustained tension. Between pummel attempts or defensive actions, relax your arms and shoulders while maintaining structural position through skeletal alignment—hip position, head placement, and stance width require almost no muscular energy to maintain. When you identify an opening for pummeling or the opponent creates a threat you must address, engage with a sharp two-to-three-second burst of maximum effort, then immediately return to structural maintenance mode. Avoid the trap of constant muscular resistance against their grips, which depletes your arms within sixty to ninety seconds. If the exchange extends beyond thirty seconds without improvement, strongly consider pulling guard or breaking the clinch entirely—prolonged disadvantaged clinch fighting burns energy disproportionately for the controlled player."
       },
       {
-        "question": "Your opponent starts circling aggressively to your right while maintaining a collar tie - how do you recover and maintain clinch control?",
-        "answer": "Match their footwork by stepping your right foot first to re-square your hips, maintaining your base relative to their centerline. Do not cross your feet or chase with your left foot first, as this narrows your base and creates a single leg entry for them. Use their collar tie grip momentum against them by swimming your inside hand to an underhook on the side they're circling toward, which disrupts their angle creation. If they've already gained a significant angle, address it immediately with a hard re-square by stepping and turning your hips to face them directly, then re-engage grip fighting from the neutral position. Allowing the angle to persist invites snap downs, go-behinds, and back takes."
+        "question": "You successfully pummel to win one underhook, but before you can consolidate, your opponent immediately counter-pummels on the opposite side, reaching an over-under position. How do you prevent losing the underhook you just gained?",
+        "answer": "Immediately drive your forehead into your opponent's shoulder on the underhook side and push your hips forward to close the space on that side, making it structurally difficult for them to strip your underhook. With your free arm on the overhook side, establish a strong whizzer by clamping your elbow tight to your ribs and driving downward pressure to slow their pummeling on that side. From the over-under position, you are no longer at a disadvantage—this is a neutral exchange. Use this improved position to either pummel the overhook side back to an underhook for double underhooks, or immediately threaten a technique from the over-under like a duck under to the back using the whizzer side as your pivot point. The critical rule is consolidate first, advance second—never release your gained underhook to chase the second one."
       }
     ]
   }

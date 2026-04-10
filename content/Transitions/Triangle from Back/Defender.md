@@ -166,6 +166,8 @@ Successful defense against this technique demands a balance between defending th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle from Back?</p>
+
 - Attacker removes one hook from your thigh while maintaining the harness grip, indicating they are loading the leg for the over-shoulder thread
 - You feel the attacker's hips shift laterally away from one side, creating the clearance needed to swing the leg in an arc over your shoulder
 - The attacker's underhook arm releases from the harness and moves to control your far-side wrist or bicep, pinning your arm to prevent you from blocking the incoming leg
@@ -177,6 +179,8 @@ Successful defense against this technique demands a balance between defending th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle from Back?</p>
 
 - Keep shoulders tight and chin tucked to deny the gap above the shoulder that the attacker needs to thread the leg through
 - Avoid committing both hands fully to choke defense simultaneously, as this creates the exact opening the triangle entry requires
@@ -191,6 +195,8 @@ Successful defense against this technique demands a balance between defending th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle from Back?</p>
 
 ### 1. Shoulder shrug and chin tuck defense - raise the shoulder on the threading side while tucking your chin tight, closing the gap the leg needs to clear
 
@@ -228,6 +234,8 @@ Successful defense against this technique demands a balance between defending th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle from Back?</p>
+
 ### → [[Positions/Harness]]
 
 Block the triangle entry by keeping shoulders tight and denying the gap, or strip the leg before the figure-four locks. Maintain two-on-one control on the choking arm while using your far-side elbow to block leg threading attempts. The attacker returns to standard harness position where you resume normal back escape sequences.
@@ -243,6 +251,8 @@ Exploit the transition window when the attacker removes a hook to thread the leg
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle from Back?</p>
 
 ### 1. Committing both hands low on the choking arm in a static two-on-one grip without monitoring the attacker's leg and hip movement
 
@@ -272,6 +282,8 @@ Exploit the transition window when the attacker removes a hook to thread the leg
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle from Back?</p>
+
 **Week 1-2** - Recognition and early interception
 Partner initiates the triangle from back at 30% speed. Practice identifying the hook withdrawal and hip shift cues, then respond with shoulder shrug and leg blocking. Focus on developing the tactile sensitivity to feel when the triangle is being initiated without needing to see it. Drill 20 repetitions per side with compliant partner.
 
@@ -288,29 +300,6 @@ Start in harness bottom against fully resisting partners. Track how often you ge
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Triangle from Back is being attempted?
-**A**: The earliest cue is feeling the attacker withdraw one hook from your thigh while maintaining the harness grip. This hook removal is the first physical action required before the leg can be threaded over your shoulder. You may also feel their hips shift laterally as they create clearance for the leg arc. Recognizing this moment gives you the maximum defensive window to respond before the leg begins its arc over the shoulder.
-
-**Q2**: Why does committing both hands to a two-on-one grip on the choking arm create vulnerability to the triangle entry?
-**A**: When both hands grip the choking arm low near your chest, your shoulders naturally open and your far-side arm is occupied and unable to block anything above shoulder level. This creates the exact gap above the shoulder that the attacker needs to thread the triangle leg through. Additionally, with both hands committed low, you have no available hand to intercept or push away the incoming leg. The attacker reads this two-handed commitment as the trigger for the triangle entry specifically because it guarantees an unobstructed path for the leg.
-
-**Q3**: The attacker's leg has cleared your shoulder but the figure-four is not yet locked - what is your immediate response?
-**A**: Immediately grab the attacker's ankle or shin on the leg that just cleared your shoulder and push it back over before they can bring their other leg up to lock the figure-four. You have approximately 2-3 seconds in this window. Use your hand closest to the leg and drive it forcefully back over the shoulder while simultaneously shrugging that shoulder upward to create additional clearance. If you cannot push the leg off, immediately begin working to extract your arm from inside the developing triangle before the lock tightens.
-
-**Q4**: How should you distribute your defensive attention between the rear naked choke and the triangle entry threat?
-**A**: Rather than committing both hands entirely to choke defense, maintain a split-attention defensive posture. Keep one hand actively controlling the choking arm wrist with a strong C-grip while positioning the other hand near your shoulder line where it can monitor and block leg threading attempts. Alternate which hand fights the choke every few seconds to prevent the attacker from reading a static pattern. This split approach is more demanding than static two-on-one defense but eliminates the binary vulnerability the attacker is trying to exploit.
-
-**Q5**: Your opponent has locked the triangle from the back with your arm trapped - what is your escape priority sequence?
-**A**: First, protect your chin by tucking it tight to your chest and turning your face toward the non-choking leg side to buy time against the blood choke. Second, grip the attacker's choking leg at the ankle or behind the knee with your free hand to prevent them from tightening further. Third, work to extract your trapped arm by gripping your own wrist and pulling the elbow across your centerline while rotating your shoulder. Fourth, once the arm is free, immediately hip escape and turn toward the side where the triangle pressure is reduced. The sequence is: protect chin, control leg, extract arm, escape position. Skipping steps or reversing the order dramatically reduces escape probability.
-
-
-
-</section>
 
 
 </main>

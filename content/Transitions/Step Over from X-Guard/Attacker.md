@@ -188,6 +188,8 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Step Over from X-Guard?</p>
+
 - Break or neutralize the bottom player's grip on your trapped ankle before initiating the step over to prevent re-engagement during the pass
 - Commit fully to the weight transfer once the step over begins, as hesitation leaves you vulnerable on a single leg
 - Drive your hips forward and down during the step over to prevent the bottom player from re-inserting hooks
@@ -203,6 +205,8 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Step Over from X-Guard?</p>
+
 - Bottom player's inside hook behind your knee has become shallow or has been partially dislodged through prior pressure
 - You have broken or are controlling the bottom player's grip on your trapped ankle or pant leg
 - Your weight is centered and balanced over the trapped leg, providing a stable base for single-leg support
@@ -215,6 +219,8 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Step Over from X-Guard step by step?</p>
 
 1. **Strip ankle grip**: Use your free hand to break the bottom player's grip on your trapped ankle or pant leg. Strip downward toward their fingers while maintaining your standing base and posture. This removes their primary control point for re-engaging hooks.
 2. **Drive trapped knee forward**: Push your trapped knee forward and downward into the bottom player's X-Guard structure. This compresses their hooks and reduces the depth of the inside leg hook behind your knee, creating the space needed for extraction.
@@ -244,6 +250,8 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Step Over from X-Guard?</p>
+
 - **Bottom player re-establishes deep hooks by elevating hips and reinserting inside leg behind knee** (Effectiveness: High) - Your Response: Immediately re-compress by driving knee forward again and strip the re-inserted hook before it seats fully. If hooks reseat completely, reset to systematic passing rather than forcing the step over. → Leads to [[Positions/X-Guard]]
 - **Bottom player transitions to Single Leg X-Guard as hooks become shallow, maintaining leg control with a different configuration** (Effectiveness: Medium) - Your Response: Recognize the position change and address the SLX hooks before reattempting the step over. Use downward hip pressure to flatten the SLX structure or transition to a knee slice passing approach. → Leads to [[Positions/X-Guard]]
 - **Bottom player times a sweep during the single-leg balance phase, using the elevation to off-balance the top player** (Effectiveness: High) - Your Response: Post your free hand on the mat immediately if you feel your balance compromised. Abort the step over and reset your base rather than continuing the pass off-balance, which leads to being swept. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Step Over from X-Guard?</p>
 
 ### 1. Attempting the step over while bottom player's hooks are still deep and active
 
@@ -294,6 +304,8 @@ As the attacker executing the Step Over from X-Guard, your objective is to clear
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Step Over from X-Guard (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Balance and coordination during single-leg step over motion
 Practice the step over movement pattern without a partner, focusing on maintaining balance on one leg while swinging the other in a wide arc. Use a grappling dummy or rolled towel as a target to step over. Develop the hip drive and forward commitment that prevent backward falling.
 
@@ -314,42 +326,12 @@ Start in X-Guard top position and work to pass using all available techniques in
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Step Over from X-Guard?
-**A**: The optimal timing window occurs when the bottom player's inside hook behind your knee has become shallow, typically after sustained knee-forward pressure or following a failed sweep attempt that leaves their guard structure momentarily compromised. The step over should be a finishing move, not an opening technique.
-
-**Q2**: Why must you control the opponent's far hip before stepping over?
-**A**: Controlling the far hip prevents the bottom player from creating defensive angles, inverting, or generating the hip elevation needed to maintain guard structure or initiate sweeps during the step over. Without hip control, the bottom player can freely adjust their position and counter the pass.
-
-**Q3**: Your opponent re-establishes deep hooks just as you begin the step over - how do you respond?
-**A**: Immediately abort the step over and reset to your standing base. Drive your knee forward to re-compress the hooks and return to systematic passing pressure. Forcing the step over against deep hooks will result in a sweep. Re-create the shallow hook conditions before attempting again.
-
-**Q4**: What is the critical difference between the Step Over and a Knee Slice from X-Guard?
-**A**: The knee slice cuts through the guard by driving the knee across the bottom player's thigh line and requires sustained forward pressure throughout the pass. The step over clears the guard entirely by lifting the free leg over the opponent's body, requiring explosive timing but less grinding pressure. The step over is faster but has a narrower execution window.
-
-**Q5**: What grip must be broken before the step over can succeed?
-**A**: The bottom player's grip on your trapped ankle or pant leg must be broken or neutralized. This grip is the primary mechanism for re-engaging hooks and preventing leg extraction. Without breaking this grip, the bottom player can simply pull your leg back into the X-Guard configuration during or after the step over.
-
-**Q6**: Your opponent catches your stepping leg during the arc - what is the correct response?
-**A**: Drive the stepping leg through with aggressive hip power rather than pulling it free. The forward momentum should carry the leg past their grip. If they manage to secure it, transition to a knee slice finish using the forward pressure already generated, rather than retreating back to standing.
-
-**Q7**: Why is forward hip drive critical during the step over movement?
-**A**: Forward hip drive keeps your center of gravity moving toward the target position rather than shifting backward. Without forward drive, your weight sits behind your support leg, creating the perfect leverage angle for the bottom player to sweep you backward. The hips must lead the movement throughout the entire arc.
-
-**Q8**: How does the step over integrate into a broader X-Guard passing chain?
-**A**: The step over functions as a finishing technique within a passing chain that typically begins with pressure-based approaches like knee pin or smash pass. These initial attempts weaken the bottom player's hook depth and grip strength. When hooks become shallow from sustained pressure, the step over provides an explosive conclusion that capitalizes on the accumulated structural damage.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Step Over from X-Guard?</p>
 
 The Step Over from X-Guard is a relatively low-risk technique with no direct joint lock or choking mechanism. The primary safety concern involves the top player losing balance during the single-leg phase and falling onto the bottom player with uncontrolled weight. Both practitioners should be aware of knee and ankle stress on the bottom player's hooked legs during compression phases. In training, start with controlled speed and cooperative partners before progressing to resistance. Avoid slamming or dropping weight aggressively during the landing phase.
 

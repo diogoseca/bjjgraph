@@ -194,6 +194,8 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hip Escape from Russian Cowboy?</p>
+
 - Protect the neck as absolute priority before any escape attempt - submission defense precedes positional escape
 - Establish frames against opponent's hip and chest to create space for lateral hip movement
 - Direct all escape movement toward opponent's free leg side, never away from the hook
@@ -209,6 +211,8 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hip Escape from Russian Cowboy?</p>
+
 - Chin tucked and hands protecting the neck from choke attempts with at least one hand controlling opponent's choking arm
 - At least one frame established against opponent's hip or ribcage creating minimum space for hip movement
 - Awareness of hook depth and position to determine whether direct extraction or peel-first approach is appropriate
@@ -221,6 +225,8 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hip Escape from Russian Cowboy step by step?</p>
 
 1. **Secure neck defense and neutralize choke threat**: Tuck chin firmly to chest and use two-on-one grip to control opponent's choking arm. Pull their wrist below your chin line and toward your sternum. This must be completed before any positional escape work begins, as attempting to escape while a choke is being set guarantees finishing the submission.
 2. **Establish inside frame against opponent's hip**: With your near-side elbow, create a frame against opponent's hip bone or lower ribcage. Drive your forearm into their hip crease to create separation between your back and their chest. This frame serves as the foundation for generating hip escape distance and must be maintained throughout the escape sequence.
@@ -251,6 +257,8 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hip Escape from Russian Cowboy?</p>
+
 - **Opponent tightens seatbelt and drives chest forward to eliminate frame space** (Effectiveness: High) - Your Response: Abandon current escape timing and return to survival frames. Wait for next grip adjustment window before reattempting. Consider switching to gradual frame-and-escape variant that works incrementally rather than requiring a single large movement. → Leads to [[Positions/Russian Cowboy]]
 - **Opponent threads second hook during hip escape movement to advance to truck position** (Effectiveness: High) - Your Response: If you feel the second hook threading, immediately reverse your hip direction and close your knees together to block the second leg entry. Prioritize knee-together defense over completing the escape. If truck is established, switch to truck-specific escape protocols. → Leads to [[Positions/Twister Control/Truck]]
 - **Opponent follows hip escape by walking their hips to match your movement and re-establishing chest contact** (Effectiveness: Medium) - Your Response: Chain multiple hip escapes in sequence rather than relying on a single shrimp. Each hip escape should create incremental distance even if the opponent follows. Use the cumulative distance from two to three connected shrimps to eventually clear the hook. → Leads to [[Positions/Russian Cowboy]]
@@ -262,6 +270,8 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hip Escape from Russian Cowboy?</p>
 
 ### 1. Hip escaping away from the hook rather than toward opponent's free leg side
 
@@ -301,6 +311,8 @@ Executing the hip escape from Russian Cowboy requires a disciplined, sequential 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hip Escape from Russian Cowboy (Attacker)?</p>
+
 **Phase 1: Solo Movement Drilling** - Hip escape mechanics and directional commitment
 Practice hip escape movements in isolation, focusing on explosive lateral shrimping with proper direction. Drill the full escape sequence against an imaginary opponent: chin tuck, frame, hip escape, knee close. Build muscle memory for the directional commitment toward the free leg side. Perform 20 repetitions per side per session.
 
@@ -321,42 +333,12 @@ Integrate hip escape with other Russian Cowboy escapes in live sparring. Practic
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the hip escape be directed toward the opponent's free leg side rather than away from the hook?
-**A**: Hip escaping away from the hook gives the opponent rotational momentum to thread their second leg into truck position, which is a significant positional deterioration. Moving toward the free leg side prevents this advancement because it moves your body in the opposite direction from where the second hook would need to enter. Additionally, this direction creates the correct angle for half guard recovery by positioning your hips to trap the opponent's previously hooking leg between your knees.
-
-**Q2**: What is the correct priority sequence before initiating the hip escape movement?
-**A**: The priority sequence is neck defense first, frame establishment second, hook control third, and hip escape execution fourth. Neck defense must be absolute priority because attempting to escape while a choke is being set accelerates the finish. Frames must be in place before hip escaping because without them the opponent will simply follow your movement and maintain chest contact. Hook control ensures the escape creates actual separation rather than the hook riding with your movement.
-
-**Q3**: Your opponent begins tightening their seatbelt grip as you start to frame - how do you adjust your escape timing?
-**A**: Abandon the current escape timing and return to full survival defense. Maintain your frame passively without committing to the hip escape while the opponent is actively tightening control. Wait for their next grip adjustment or positional shift, which will create a momentary loosening of control. The escape window typically appears when the opponent transitions between grip configurations, adjusts their hook depth, or shifts weight to set up a submission attempt. Patience is essential as forcing the escape against a tightening grip wastes energy and risks worse position.
-
-**Q4**: What is the most critical mechanical detail that determines whether the hook extraction succeeds or fails?
-**A**: The ankle control grip on the hooking foot is the decisive mechanical detail. Without actively controlling and guiding the opponent's hooking foot during the hip escape, the hook will simply travel with your body during the shrimp, maintaining the same relative position and rendering the escape ineffective. The near-side hand must cup the opponent's heel and push it toward your far hip before and during the hip escape, creating a divergent force between your hips moving laterally and their foot being directed in the opposite direction.
-
-**Q5**: You feel the opponent threading their second hook during your hip escape attempt - what is your immediate response?
-**A**: Immediately reverse your hip direction and squeeze your knees together to create a physical barrier against the second hook insertion. Prioritize blocking the truck entry over completing the escape to half guard, because truck position is significantly worse than Russian Cowboy. If you can prevent the second hook, return to your frames and reset the escape attempt. If the truck is fully established, abandon the hip escape protocol entirely and switch to truck-specific defensive techniques such as the truck escape sequence.
-
-**Q6**: What grip configuration on the hooking leg provides the best mechanical advantage for extraction?
-**A**: Cup the heel of the hooking foot with your near-side hand, fingers wrapping around the Achilles tendon area. This grip provides a secure hold that allows you to push the foot toward your far hip while maintaining control even against resistance. Gripping the ankle or shin provides less control because the cylindrical shape allows the foot to rotate and escape your grip. The heel cup creates a mechanical pocket that prevents the foot from slipping free during the explosive hip escape movement.
-
-**Q7**: After successfully clearing the hook, what must happen immediately to prevent the opponent from re-establishing control?
-**A**: The moment the hook clears, close your knees together to trap the opponent's leg in half guard and insert your inside knee as a shield across their hip. This transition must be seamless with zero delay because the opponent will immediately attempt to re-insert the hook or transition to a different control position. Simultaneously begin turning to face the opponent and fight for the underhook to establish an offensive half guard rather than remaining on your side where they can easily re-take the back.
-
-**Q8**: How does energy management differ between the quick shrimp variant and the gradual frame-and-escape variant?
-**A**: The quick shrimp variant requires reserving energy for a single explosive burst during a brief window, making it high-energy per attempt but efficient if successful on the first try. The gradual frame-and-escape variant distributes energy across multiple micro-movements over a longer timeframe, each creating incremental distance. Choose the quick variant when you identify a clear window and have energy reserves. Choose the gradual variant when the opponent has tight control and you need to conserve energy while working systematically, as forcing explosive attempts against tight control wastes energy rapidly.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hip Escape from Russian Cowboy?</p>
 
 Hip escape movements from Russian Cowboy involve significant spinal rotation and hip mobility demands. Avoid explosive twisting when the opponent has deep hook engagement, as this can strain knee ligaments or lower back musculature. During training, communicate clearly with your partner if the hook creates uncomfortable pressure on your inner thigh or groin area. Tap immediately to any neck attack that materializes during the escape attempt rather than fighting through potential cervical spine compression. When drilling at high intensity, ensure adequate warm-up of hip flexors and lower back before practicing escape sequences.
 

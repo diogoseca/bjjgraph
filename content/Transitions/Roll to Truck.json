@@ -51,8 +51,8 @@
       "relationship": "Primary submission from truck position"
     },
     {
-      "name": "Calf Slicer from Truck",
-      "relationship": "Secondary submission attacking trapped leg"
+      "name": "Calf Slicer",
+      "relationship": "Secondary submission attacking trapped leg from truck"
     },
     {
       "name": "Banana Split",

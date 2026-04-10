@@ -162,6 +162,8 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting New York Entry from Rubber Guard?</p>
+
 - Bottom player's shin-gripping hand releases or loosens noticeably while their hip flexors engage to maintain shin pressure independently
 - Free arm begins a circular swimming motion under your trapped arm, moving from below your elbow toward your tricep
 - Increased hip flexor engagement from the bottom player creating a distinct tightening of the leg across your back without hand assistance
@@ -174,6 +176,8 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York Entry from Rubber Guard?</p>
 
 - Recognize the threading attempt early by feeling for changes in shin grip pressure and arm positioning beneath your trapped arm
 - Retract the trapped arm toward your hip the moment you sense the overhook swim beginning, closing the threading path
@@ -188,6 +192,8 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against New York Entry from Rubber Guard?</p>
 
 ### 1. Retract trapped arm to hip and initiate posture recovery
 
@@ -225,6 +231,8 @@ As the defender trapped in the opponent's Rubber Guard, your priority when they 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending New York Entry from Rubber Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the shin grip during the one-handed vulnerability window using your free hand while simultaneously driving forward to flatten the bottom player's hips. This breaks the entire Rubber Guard structure and returns the engagement to a neutral open guard position where standard passing applies.
@@ -240,6 +248,8 @@ Retract your trapped arm toward your hip before the overhook catches your tricep
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York Entry from Rubber Guard?</p>
 
 ### 1. Ignoring the threading attempt and hoping the overhook will not establish
 
@@ -269,6 +279,8 @@ Retract your trapped arm toward your hip before the overhook catches your tricep
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against New York Entry from Rubber Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the threading attempt through tactile cues
 Partner establishes Mission Control and repeatedly initiates the New York entry. Defender focuses exclusively on recognizing the cues: shin grip loosening, hip flexor engagement, and arm swimming motion. Call out the recognition verbally before attempting any defense. Build the pattern recognition to detect the attempt within the first second of initiation.
 
@@ -285,29 +297,6 @@ Start with the bottom player already in full New York control. Defender practice
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the bottom player's shin grip loosen and their hip flexors engage more firmly. What does this tell you and what should you do immediately?
-**A**: This combination of loosening grip and increased hip engagement is the primary recognition cue that a New York entry is about to be attempted. The bottom player is testing whether their hip flexors can maintain shin pressure independently before committing to the threading motion. You should immediately retract your trapped arm toward your hip and begin fighting for posture with your free hand. Acting during this testing phase, before the actual threading begins, provides your best window for preventing the transition entirely.
-
-**Q2**: The bottom player has caught a shallow overhook around your elbow but has not achieved shoulder-to-armpit depth. What is your recovery window and how do you exploit it?
-**A**: A shallow overhook is still extractable but the window closes rapidly. Immediately pull your elbow in a corkscrew motion toward your hip while driving your shoulder forward to create angular resistance against the overhook deepening. Simultaneously use your free hand to frame on their overhook shoulder, preventing them from swimming deeper. You have approximately 3-5 seconds before they can work the overhook to full depth. If extraction fails in this window, the overhook will lock and New York will be established.
-
-**Q3**: What is the primary danger of driving forward aggressively when the bottom player releases their shin grip to begin threading?
-**A**: While forward pressure can flatten the bottom player and break the guard structure when timed correctly, it also carries the risk of accelerating the overhook establishment. If the bottom player anticipates the forward drive, they can use your momentum to bring your arm deeper into threading range, making the overhook catch faster and deeper than it would have been from a static position. The forward drive must be timed precisely during the release phase, not during the actual swimming motion, to be effective as an escape.
-
-**Q4**: How should you distribute your weight and base when defending against the New York entry attempt?
-**A**: Widen your base by spreading your knees apart and shift weight toward your free hand side. This creates a stable triangular foundation that resists the asymmetric pulling forces of the Rubber Guard while maintaining a posting base for sweep defense. Your weight should press downward through your hips rather than forward through your chest, as forward lean assists the overhook catch. Keep your trapped arm elbow tight to your body and pointed down toward the mat.
-
-**Q5**: If the New York entry succeeds despite your defense, what is your immediate priority in the newly established position?
-**A**: Your immediate priority is preventing the overhook from deepening further and blocking the progression to more advanced positions like Invisible Collar or Zombie. Use your free hand to grip-fight the shin-gripping hand, widen your base, and begin the systematic escape sequence for New York Top: establish base, fight for posture, extract overhook. Do not panic or attempt explosive escapes, as the New York position punishes uncontrolled movement with submission entries. Accept you are now in a defensive position and commit to methodical escape.
-
-
-
-</section>
 
 
 </main>

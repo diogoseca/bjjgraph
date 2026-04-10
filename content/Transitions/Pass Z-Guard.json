@@ -10,7 +10,7 @@
     "pressure-passing",
     "top-game"
   ],
-  "from_position": "Z-Lock Half Guard/Top",
+  "from_position": "Z-Guard/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",

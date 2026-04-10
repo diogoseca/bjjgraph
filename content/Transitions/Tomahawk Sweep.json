@@ -63,8 +63,8 @@
       "relationship": "Primary finishing position after successful sweep"
     },
     {
-      "name": "Side Control Consolidation",
-      "relationship": "Alternative consolidation position when angle prevents direct mount"
+      "name": "Side Control",
+      "relationship": "Alternative control position when angle prevents direct mount"
     },
     {
       "name": "Butterfly Sweep",

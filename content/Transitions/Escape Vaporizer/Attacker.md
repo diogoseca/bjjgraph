@@ -194,6 +194,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Vaporizer?</p>
+
 - Time the lockdown release to coincide with a moment when the top player's weight is settled or committed to a specific defensive posture, never during active forward pressure
 - Establish foot frames on the opponent's hips before fully releasing the lockdown figure-four configuration to maintain a defensive barrier throughout the transition
 - Maintain at least one upper body connection—underhook, collar tie, or wrist control—throughout the transition as a control bridge between positions
@@ -208,6 +210,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Vaporizer?</p>
+
 - Lockdown attacks have been neutralized—whip-up motion is ineffective and sweep attempts are being consistently defended by the top player
 - At least one upper body connection is maintained, preferably a deep underhook or collar tie, to control the transition phase
 - Opponent's forward momentum is neutral—they are not actively driving pressure at the moment of release initiation
@@ -220,6 +224,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Vaporizer step by step?</p>
 
 1. **Assess position viability**: Evaluate whether your Vaporizer attacks are producing diminishing returns. If the opponent has established a strong whizzer, widened their base to neutralize the whip-up, and is beginning to methodically clear the lockdown, the position has become unproductive. Make the decision to transition before you are forced out—a proactive exit is far safer than a reactive one.
 2. **Secure transitional frame**: Before any leg movement, establish a forearm frame against the opponent's near shoulder or neck with your free arm. This frame serves as your primary defense during the vulnerable transition window, preventing the opponent from driving forward when they feel the lockdown loosening. The frame must be in place before the release begins.
@@ -250,6 +256,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Vaporizer?</p>
+
 - **Opponent drives forward immediately upon feeling the lockdown loosening, attempting to establish chest-to-chest pressure and flatten the bottom player before frames are established** (Effectiveness: High) - Your Response: Maintain forearm frame and insert foot on hip as rapidly as possible. If they establish pressure before you complete the transition, retain knee shield half guard rather than trying to complete the open guard transition under heavy forward pressure. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent grabs ankles or pants legs as you attempt to place feet on hips, preventing frame establishment and controlling your leg positioning** (Effectiveness: Medium) - Your Response: Use your underhook to control their posture while circling your feet to break their grips. If you cannot free your feet, re-establish the lockdown temporarily and wait for a better release window rather than fighting from a compromised position. → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent initiates an immediate knee slice pass through the opening created by the lockdown release, cutting through the transitional gap before guard can be established** (Effectiveness: High) - Your Response: Insert knee shield immediately with the near leg and accept half guard rather than trying to complete the full open guard transition. A controlled retreat to knee shield half guard is preferable to being passed entirely through the transition. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -261,6 +269,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Vaporizer?</p>
 
 ### 1. Releasing the lockdown while the opponent has active forward pressure or is driving into you
 
@@ -300,6 +310,8 @@ Executing the Escape Vaporizer requires the bottom player to recognize when thei
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Vaporizer (Attacker)?</p>
+
 **Phase 1: Release Mechanics** - Lockdown release coordination and sequencing
 Practice the lockdown release sequence with a compliant partner. Focus on controlled uncrossing of feet, immediate foot frame insertion on the hip, and smooth leg extraction. Perform 20 repetitions per side with no resistance to build muscle memory for the sequential release.
 
@@ -320,39 +332,12 @@ Positional sparring starting in Vaporizer where the bottom player must decide be
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What signals indicate that your Vaporizer position has become unproductive and a transition to open guard is warranted?
-**A**: Key indicators include the opponent consistently neutralizing your whip-up motion through base widening, their establishment of a strong whizzer that prevents your underhook from generating leverage, repeated failed sweep attempts, and the opponent beginning to systematically work on clearing your lockdown. Energy expenditure exceeding offensive output is the clearest signal—if you are working harder to maintain the position than the opponent is working to escape it, the position has become counterproductive and a tactical reset to open guard offers better returns.
-
-**Q2**: Why must the foot frame on the opponent's hip be established before the lockdown is fully released?
-**A**: The foot frame creates a defensive barrier that prevents the opponent from immediately driving forward into a pressure pass when the lockdown releases. Without this frame, a vulnerable window exists where no structural defense separates you from the opponent. The foot on hip serves as both a distance management tool and a platform for pushing the opponent away to create open guard range. Releasing the lockdown without this frame in place is the most common cause of being passed during the transition.
-
-**Q3**: Your opponent begins driving forward pressure just as you start loosening the lockdown—what is the correct response?
-**A**: Immediately abort the escape attempt and re-tighten the lockdown figure-four. Forward momentum from the opponent makes the transition extremely dangerous because they will drive through any incomplete frame before it can be established. Wait for their pressure to settle before attempting the release again. If you cannot re-establish the full lockdown, transition to knee shield half guard as a defensive fallback rather than trying to complete the open guard transition under heavy forward pressure.
-
-**Q4**: What role does the underhook play during the transition from Vaporizer to open guard?
-**A**: The underhook serves as the primary control bridge between the two positions. During the vulnerable transition window, it prevents the opponent from freely advancing their position or establishing crossface control. The underhook should be maintained throughout the entire release sequence and only exchanged for open guard grips once the foot frames are fully established and distance has been created. Releasing the underhook prematurely removes your ability to control the opponent's upper body during the most dangerous phase.
-
-**Q5**: How does the Escape Vaporizer differ mechanically from simply having your lockdown cleared by the opponent?
-**A**: When you initiate the escape, you control the timing and sequence of the lockdown release, allowing you to coordinate frames, grips, and distance creation proactively. When the opponent clears your lockdown, they dictate the timing and typically do so while simultaneously advancing their passing position. The key difference is initiative—a proactive release lets you establish defensive structures before the lockdown opens, while a forced clearing leaves you reacting to passing pressure without preparation.
-
-**Q6**: What is the optimal timing window for initiating the lockdown release relative to the opponent's movement cycle?
-**A**: Initiate the release when the opponent's weight is settled and they are between defensive adjustments—specifically when they have just completed a base widening or weight shift and are momentarily static. Avoid releasing during any of their active movements or when they are generating forward drive. The ideal window occurs during a pause in their defensive sequence when their muscular tension is slightly reduced and reaction time is marginally slower.
-
-**Q7**: Your opponent grabs your ankle as you attempt to place your foot on their hip during the transition—how do you recover?
-**A**: Use your underhook to pull their upper body toward you, which compromises their ability to maintain the ankle grip with full strength. Simultaneously circle your foot to break the grip using rotational force rather than pulling directly away from their hand. If the grip holds, re-establish the lockdown temporarily rather than fighting for foot placement in a compromised position. A failed transition attempt where you recover to lockdown is far better than being caught in a half-completed escape where neither position is secure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Vaporizer?</p>
 
 The primary safety concern during the Escape Vaporizer is the vulnerability window created when the lockdown figure-four unwinds. Uncontrolled release can cause knee strain on either player as the entangled legs separate under momentum. Practice the release mechanics slowly and with deliberate control before adding speed. Training partners should avoid explosive forward drives during the learning phase, as the bottom player's knee is exposed during mid-release. Communicate clearly with your partner throughout drilling and tap immediately if you feel any twisting pressure on the knee during the transition. Avoid attempting this technique with existing knee injuries until cleared by a medical professional.
 

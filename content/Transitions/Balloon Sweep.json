@@ -23,7 +23,7 @@
       "result": "failure"
     },
     {
-      "to": "Closed Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -75,11 +75,11 @@
       "relationship": "Related position sharing hook mechanics used in the lifting phase"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Rolling Armbar from Closed Guard",
       "relationship": "Submission chain option when opponent posts arm to defend sweep"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Setup relationship where failed triangle creates ideal Balloon Sweep loading"
     },
     {
@@ -169,7 +169,7 @@
         "counter": "Opponent posts their free arm wide on the mat to prevent rotation",
         "effectiveness": "Low",
         "your_response": "Attack the posted arm directly with armbar from guard since the arm is extended and isolated, or use the posting commitment to take their back as they become structurally exposed on the posting side",
-        "targets_outcome": "Closed Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       }
     ],
     "common_errors": [
@@ -319,7 +319,7 @@
       {
         "action": "Drive forward explosively and flatten opponent while blocking the hook with your hip",
         "when_to_use": "When you feel the hook insertion but before the compression phase, using forward pressure to pin the opponent flat",
-        "targets_outcome": "Closed Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Flattening the opponent removes the hip angle they need for the sweep and may allow you to initiate a passing sequence",
         "risk": "Driving forward loads more weight onto the hook, which the opponent can redirect into the sweep if your timing is wrong"
       }
@@ -330,7 +330,7 @@
         "how": "Maintain strong upright posture, fight collar grips immediately, deny hook insertion by squeezing knees tight, and post far leg wide if you feel any upward lifting pressure. Return to standard closed guard top defensive position and resume guard opening sequence."
       },
       {
-        "outcome": "Closed Guard/Top",
+        "outcome": "Open Guard/Bottom",
         "how": "When the opponent opens their guard to attempt the sweep, capitalize on the open guard by immediately initiating a guard pass. Drive forward to flatten them while controlling their legs, or stand up to break the guard position entirely and begin toreando or knee slice passing sequences."
       }
     ],
@@ -390,7 +390,7 @@
         "description": "Partner demonstrates the Balloon Sweep setup sequence at slow speed while you practice recognizing each stage: collar grip, posture break, guard opening, hook insertion, angle shift, and compression. Focus on maintaining posture against progressive pull pressure without worrying about counter-offense. Drill posture recovery 20 times per session."
       },
       {
-        "phase": "Week 3-4: Active Grip Fighting and Hook Denial",
+        "phase": "Week 3-4: Active Grips and Hook Denial",
         "focus": "Preventing the setup conditions from being established",
         "description": "Partner actively attempts to establish the sweep setup while you practice grip stripping, posture maintenance, and hook denial. Focus on the two-on-one collar grip break and keeping knees squeezed to prevent hook insertion. Drill at 50% resistance, increasing to 70% as recognition improves."
       },

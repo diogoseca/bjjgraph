@@ -154,6 +154,8 @@ As the triangle holder, your primary defensive objective against the posture-up 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Up from Triangle?</p>
+
 - Opponent connects both hands together behind your lower back or hips, establishing a Gable grip or S-grip frame
 - Opponent tucks their chin firmly to their chest and begins shifting weight forward through their knees
 - Opponent walks their knees forward to reposition their base underneath their shoulders for upward drive
@@ -166,6 +168,8 @@ As the triangle holder, your primary defensive objective against the posture-up 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Up from Triangle?</p>
 
 - Maintain constant downward pull on opponent's head using grips on the back of the head, neck, or gi collar to resist their hip-driven posture attempt
 - Extend hips actively and squeeze knees together when sensing upward drive to maximize choking pressure during their escape attempt
@@ -180,6 +184,8 @@ As the triangle holder, your primary defensive objective against the posture-up 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Up from Triangle?</p>
 
 ### 1. Pull head down aggressively while extending hips and squeezing knees to maximize choking pressure
 
@@ -217,6 +223,8 @@ As the triangle holder, your primary defensive objective against the posture-up 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Up from Triangle?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Prevent posture recovery by maintaining constant head pull, hip extension, and angle preservation working simultaneously. Attack the opponent's connected grip by breaking it with your hands or using your legs to restrict their arm movement. The combination of head control, sustained leg pressure, and angle management creates compounding resistance that makes each successive posture attempt more exhausting for the opponent.
@@ -232,6 +240,8 @@ Time a hip bump or scissor sweep when the opponent's weight shifts upward during
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Up from Triangle?</p>
 
 ### 1. Relying only on pulling head down without extending hips or maintaining angle simultaneously
 
@@ -261,6 +271,8 @@ Time a hip bump or scissor sweep when the opponent's weight shifts upward during
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Up from Triangle?</p>
+
 **Phase 1: Recognition** - Identifying posture-up attempts at earliest stage
 Partner attempts posture-up from triangle at 30% speed. Practice recognizing the earliest cues—grip establishment, chin tuck, knee walking—and initiating defensive response before they generate meaningful upward force. Build pattern recognition for the most common posture-up setup sequence.
 
@@ -277,26 +289,6 @@ Start with triangle locked at competition intensity. Opponent uses all available
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three interconnected defensive mechanisms for preventing the posture-up, and why must they work together?
-**A**: The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off centerline. They must work together because each individually is insufficient—head control alone is overpowered by posterior chain hip drive, hip extension without proper angle is mechanically weak, and angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts.
-
-**Q2**: You feel your opponent connecting their hands behind your hips—what is the earliest defensive response to prevent their posture-up?
-**A**: The earliest response is to attack their connected grip before they can generate upward force. Use one hand to grip their outside wrist and pull it toward you, disrupting the Gable grip connection. Simultaneously increase hip extension and pull their head down to increase pressure before they establish their posture recovery frame. Preventing the grip connection is far easier than fighting a fully connected posture-up drive that has already built momentum.
-
-**Q3**: Your opponent has gained partial posture despite your defensive efforts—what transitional options prevent the complete escape?
-**A**: With partial posture, transition your offensive focus from triangle finish to secondary attacks that exploit their escape position. The armbar becomes available as their posture creates space but their arm remains inside the triangle. The omoplata transition works if they stack forward with partial posture. If the triangle is clearly compromised, maintain hip control and transition to open guard bottom with active grips rather than fighting a losing position—defensive awareness prevents giving up more than necessary.
-
-**Q4**: How does understanding that the opponent's posture-up is hip-driven inform your defensive strategy?
-**A**: Understanding hip-driven mechanics means your defense must address their hip movement rather than just fighting the head position. If they were pulling back with neck muscles alone, simple head control would suffice. Against hip drive, you need to prevent their hips from moving forward and up—use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, and squeeze your knees together to compress their shoulder structure. The defensive focus shifts from head-versus-head to hip-versus-hip engagement.
-
-
-
-</section>
 
 
 </main>

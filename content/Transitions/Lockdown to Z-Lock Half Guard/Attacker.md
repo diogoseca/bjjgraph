@@ -194,6 +194,8 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lockdown to Z-Lock Half Guard?</p>
+
 - Establish upper body dominance before attempting any leg reconfiguration - crossface or shoulder pressure must suppress sweep threats first
 - Use circular knee motion rather than linear pulling to break the lockdown figure-four, working with biomechanics instead of against them
 - Maintain constant downward pressure through chest and shoulder during the transition to prevent the opponent from re-engaging lockdown grips
@@ -209,6 +211,8 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lockdown to Z-Lock Half Guard?</p>
+
 - Crossface or heavy shoulder pressure established to flatten opponent and suppress active lockdown attacks
 - Free leg posted wide with stable base to support weight transfer during knee reconfiguration
 - Opponent's underhook neutralized or controlled through overhook, whizzer, or arm pinning
@@ -221,6 +225,8 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lockdown to Z-Lock Half Guard step by step?</p>
 
 1. **Establish upper body dominance**: Drive heavy shoulder pressure into opponent's chest or jaw using crossface. Pin their near-side arm to prevent underhook recovery. Flatten them to the mat by driving your weight forward and down. This suppresses their ability to initiate whip-ups, Old School sweeps, or Electric Chair attacks from lockdown.
 2. **Post free leg wide for base**: Extend your free leg (the one not trapped in lockdown) out to the side with the knee pointed outward. This creates a stable tripod base that will support your weight during the knee transition. Without this base, any movement of the trapped leg risks getting swept during the reconfiguration window.
@@ -251,6 +257,8 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lockdown to Z-Lock Half Guard?</p>
+
 - **Opponent re-establishes lockdown during knee transition by quickly re-crossing ankles** (Effectiveness: High) - Your Response: Reset to heavy upper body pressure and wait for next timing window. Attempting to force through a re-established lockdown wastes energy and opens sweep vulnerabilities. Focus on creating a better opportunity through pressure and grip fighting. → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent hip escapes away during transition to recover knee shield or full guard** (Effectiveness: Medium) - Your Response: Follow their hip escape by driving forward with shoulder pressure and sliding your knee across their retreating hip. Their shrimping motion can actually assist your Z-Lock entry if you time the knee drive to follow their hip movement. Stay chest-to-chest to prevent space creation. → Leads to [[Positions/Half Guard/Lockdown]]
 - **Opponent times an underhook and comes up to dogfight during the transition window** (Effectiveness: High) - Your Response: If the opponent achieves underhook and starts coming up, abandon the Z-Lock attempt and address the immediate scramble threat. Establish a whizzer, drive crossface, or transition to front headlock if they overcommit to the underhook. The dogfight represents a counter outcome where you may end up in a disadvantageous half guard position. → Leads to [[Positions/Half Guard]]
@@ -262,6 +270,8 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lockdown to Z-Lock Half Guard?</p>
 
 ### 1. Attempting knee transition without first establishing upper body pressure and control
 
@@ -301,6 +311,8 @@ As the attacker executing the Transition to Z-Lock Half Guard, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lockdown to Z-Lock Half Guard (Attacker)?</p>
+
 **Phase 1: Static Lockdown Break Drill** - Circular knee motion mechanics
 Partner holds lockdown at 30% tension. Practice the circular knee motion to break the figure-four repeatedly. Focus on the rotational path of the knee and proper hip drop timing. No upper body fighting - isolate the leg mechanics. 20 repetitions each side.
 
@@ -321,42 +333,12 @@ Top player defends full lockdown sequences including whip-ups, Old School, and E
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is circular knee motion more effective than linear pulling when breaking the lockdown figure-four?
-**A**: The lockdown figure-four is structurally designed to resist linear backward force - pulling straight back actually tightens the ankle cross and strengthens the bottom player's grip. Circular inward motion exploits a biomechanical weakness: the figure-four triangle is vulnerable to rotational disruption at the ankle crossing point. By circling the knee inward toward the opponent's centerline, the trapped leg passes through the weakest axis of the lockdown triangle, requiring significantly less force to break free.
-
-**Q2**: What is the optimal timing window for initiating the Z-Lock transition, and how do you create one if the opponent maintains constant lockdown pressure?
-**A**: The optimal window occurs when lockdown tension momentarily decreases - after a failed sweep attempt, during grip adjustment, or when the opponent shifts from offense to defense. To create a window artificially, threaten an upper body submission or pass that forces them to address a problem above their waist, which reflexively loosens their leg grip. Heavy crossface pressure that makes breathing difficult also causes the opponent to prioritize escaping the pressure over maintaining maximum lockdown tension.
-
-**Q3**: Your opponent has extremely tight lockdown and you cannot break the figure-four despite good upper body pressure - what alternative approaches exist?
-**A**: If the lockdown cannot be broken directly, several alternatives exist: (1) continue heavy crossface pressure until the opponent fatigues and loosens grip, (2) attempt a back step pass that works with the lockdown rather than against it, (3) use the underhook-assisted variant by turning the opponent slightly away to change the angle of the figure-four, or (4) feint the Z-Lock transition repeatedly to tire their legs before committing to the actual attempt. Patience is essential - forcing through a tight lockdown leads to sweeps.
-
-**Q4**: Where exactly should the knee be positioned when establishing the Z-Lock, and what happens if it is placed too high or too low?
-**A**: The knee must be positioned directly across the opponent's hip crease, with the shin creating a diagonal line across the lower abdomen. Too high (on the ribs) creates discomfort but fails to control hip movement, allowing shrimping escapes and lockdown re-establishment below the knee. Too low (on the thigh) does not create sufficient lateral pressure and the opponent can elevate the knee with a butterfly hook motion. The hip crease is the precise location where the Z-Lock blocks all hip-based escape patterns.
-
-**Q5**: During the knee transition, your opponent secures an underhook and begins coming up to dogfight - what should your immediate response be?
-**A**: Abandon the Z-Lock attempt immediately and address the underhook threat. Drive a hard crossface to force them back down, or establish a whizzer on the underhook arm to prevent them from completing the rise to dogfight. If they achieve full dogfight, you may need to concede to the scramble and fight for your own underhook. The critical lesson is that the Z-Lock transition must never compromise upper body control - if the opponent gets underneath you during the transition, reset to heavy pressure and try again.
-
-**Q6**: What is the role of the free (non-trapped) leg throughout the entire Z-Lock transition sequence?
-**A**: The free leg serves as the primary base and balance point during the entire transition. It must be posted wide with the knee pointed outward, creating a stable tripod with your upper body contact points. During the knee circle and Z-Lock establishment, all weight shifts are supported by this posted leg. Without proper posting, the weight transfer required to circle the trapped knee creates a sweep vulnerability that skilled lockdown players will exploit immediately. The free leg never comes close to the body during the transition.
-
-**Q7**: How does this transition differ strategically from a standard lockdown leg extraction, and when would you choose one over the other?
-**A**: Standard leg extraction aims to completely free the trapped leg and return to a neutral half guard top or combat base. The Z-Lock transition instead converts the position into a more dominant control by keeping the leg in half guard but establishing the Z-shape across the hip. Choose the Z-Lock transition when facing a skilled lockdown player who can re-establish lockdown after standard extraction, as the Z-Lock prevents re-engagement entirely. Choose standard extraction when you want immediate guard passing mobility or when the opponent's lockdown is weak enough that a simple pull-free suffices.
-
-**Q8**: What grip should your hands prioritize during the transition, and why does losing inside arm control during the knee movement create problems?
-**A**: During the transition, one hand controls the opponent's inside arm (wrist or bicep) to prevent underhook recovery, while the other hand either drives crossface or posts for additional base. Losing inside arm control during the knee movement is dangerous because the opponent needs only a split second to thread an underhook during the weight shift. With an established underhook, they can initiate whip-up sweeps or come to dogfight position, which is especially effective during the transition when your base is temporarily compromised by the leg reconfiguration.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lockdown to Z-Lock Half Guard?</p>
 
 This transition involves significant pressure application through the knee and shin across the opponent's hip and lower abdomen. Practitioners should be careful not to drive the knee into the bladder area or apply excessive lateral force to the opponent's hip joint. During drilling, communicate about pressure levels and avoid explosive knee drives that could impact the opponent's midsection. The lockdown break itself can stress the knee and ankle joints if performed too aggressively - use smooth circular motion rather than violent jerking. Always ensure the training partner can tap if the Z-Lock pressure becomes uncomfortable across their hip or lower body.
 

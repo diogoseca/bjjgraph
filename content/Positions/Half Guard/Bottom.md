@@ -21,7 +21,7 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     {
       "@type": "HowToStep",
       "name": "Execute Underhook Sweep from Half",
-      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 18% of exchanges from this position.",
+      "text": "From this position, attempt Underhook Sweep from Half. This technique is attempted in 19% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,26 +32,26 @@ description: "Master Half Guard Bottom with comprehensive sweeps, submissions, a
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Deep Half Entry",
-      "text": "From this position, attempt Deep Half Entry. This technique is attempted in 10% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Old School Sweep",
       "text": "From this position, attempt Old School Sweep. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee Shield Retention",
       "text": "From this position, attempt Knee Shield Retention. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Lockdown Recovery",
       "text": "From this position, attempt Lockdown Recovery. This technique is attempted in 5% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Kimura Sweep",
+      "text": "From this position, attempt Kimura Sweep. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Half Guard (Bottom)?</p>
+
 - Bottom player's legs trap one of top player's legs at or below the knee, creating the fundamental half guard entanglement with the trapped leg serving as primary control point
 - Bottom player maintains connection to top player through frames, underhooks, or grips while positioned on their side or back with shoulders angled toward top player
 - Top player's weight distributed partially on trapped leg with free leg posted for base, attempting to consolidate position and advance toward full pass or mount
@@ -184,6 +186,8 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Half Guard (Bottom)?</p>
+
 - One of top player's legs successfully trapped between bottom player's legs at knee or thigh level
 - Bottom player on side or back with sufficient mobility to create angles and prevent complete flattening
 - Ability to maintain frames or underhook control to manage distance and prevent chest-to-chest connection
@@ -196,6 +200,8 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard?</p>
 
 - Maintain constant frames to prevent opponent's chest from connecting to your chest - create and preserve distance through knee shield, underhook, or forearm frames
 - Battle aggressively for the underhook on the trapped leg side as it provides primary offensive pathway to sweeps and back takes
@@ -211,6 +217,8 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Half Guard (Bottom)?</p>
 
 **If opponent has underhook and crossface attempting to flatten you with heavy shoulder pressure:**
 - Execute **[[Frame and Shrimp/Attacker|Frame and Shrimp]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 60%)
@@ -245,6 +253,8 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard?</p>
 
 ### 1. Remaining flat on back instead of maintaining side angle toward opponent
 
@@ -283,6 +293,8 @@ Rather than a passive defensive position, Half Guard Bottom in modern jiu-jitsu 
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Half Guard defense?</p>
 
 ### Underhook Battle Drill
 

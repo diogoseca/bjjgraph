@@ -188,6 +188,8 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Boot Defense from Toe Hold?</p>
+
 - Deploy the boot immediately upon recognizing toe hold grip establishment—every second of delay reduces defensive effectiveness as rotational pressure increases
 - Internal foot rotation and plantarflexion work together to create maximum ankle rigidity against the rotational pressure vector
 - The boot is a temporary shield lasting three to five seconds, not a permanent defense—you must progress to grip fighting immediately
@@ -203,6 +205,8 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Boot Defense from Toe Hold?</p>
+
 - Opponent has established toe hold grip configuration but has not yet applied maximum rotational pressure
 - Opponent's wrists and forearms remain accessible for two-on-one grip fighting sequences
 - Free leg is available and positioned to frame against opponent's hips for distance management
@@ -215,6 +219,8 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Boot Defense from Toe Hold step by step?</p>
 
 1. **Recognize toe hold threat**: Immediately upon feeling opponent's hands configure around your foot in the figure-four or gable grip pattern, recognize the toe hold threat and initiate defensive response before rotational pressure begins. Early recognition is the single most important factor in boot defense success.
 2. **Establish internal foot rotation**: Rotate your trapped foot inward by engaging hip internal rotation, turning your toes toward your opposite leg to hide the vulnerable lateral ankle structures from the opponent's rotational leverage point. This rotation reduces the mechanical advantage of the toe hold grip.
@@ -244,6 +250,8 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Boot Defense from Toe Hold?</p>
+
 - **Opponent repositions hips perpendicular to your leg to circumvent boot rigidity and expose your knee for kneebar transition** (Effectiveness: High) - Your Response: Immediately bend your knee and pull it toward your chest when you feel the angle change, preventing the leg extension required for kneebar application → Leads to [[Positions/Kneebar Control]]
 - **Opponent applies explosive rotational burst before boot structure fully solidifies during grip establishment** (Effectiveness: High) - Your Response: Prioritize speed of boot deployment—the moment you feel hands on your foot, begin internal rotation and plantarflexion simultaneously without waiting for full grip → Leads to [[Positions/Toe Hold Control]]
 - **Opponent uses knee wedge pressure against your rigid boot structure to progressively break through the foot rigidity** (Effectiveness: Medium) - Your Response: Combine boot maintenance with active grip fighting rather than relying on rigidity alone—attack their grip configuration while the boot provides protection → Leads to [[Positions/Toe Hold Control]]
@@ -255,6 +263,8 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Boot Defense from Toe Hold?</p>
 
 ### 1. Deploying the boot after opponent has already applied significant rotational pressure to the ankle
 
@@ -294,6 +304,8 @@ The Boot Defense from Toe Hold requires the defending practitioner to combine me
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Boot Defense from Toe Hold (Attacker)?</p>
+
 **Foundation** - Boot mechanics and foot positioning
 Practice plantarflexion and internal rotation against static toe hold grips at zero pressure. Develop muscle memory for immediate boot deployment upon grip recognition. Partner holds foot without rotation while you drill the rigid foot structure repeatedly until the response becomes automatic.
 
@@ -314,42 +326,12 @@ Practice recognizing when the boot has failed and tapping immediately rather tha
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What foot position creates maximum rigidity against toe hold rotational pressure?
-**A**: Maximum plantarflexion with firm toe pointing combined with internal rotation of the shin and foot. This engages the posterior chain muscles of the lower leg while hiding the lateral ankle structures that the toe hold exploits for rotational leverage. The key is engaging both plantarflexion and internal rotation simultaneously rather than either in isolation, creating a rigid boot-like structure.
-
-**Q2**: Your opponent's figure-four grip is locked—which hand should you target first with two-on-one control?
-**A**: Target the top hand of the figure-four configuration first, as removing the top hand collapses the entire grip structure. Push this hand toward the bottom hand to break the figure-four chain. The top hand provides the rotational force while the bottom hand serves as the anchor, so removing the force-generating hand immediately reduces submission threat and opens the path for leg extraction.
-
-**Q3**: Why is circular leg extraction superior to pulling straight back when escaping after the boot defense?
-**A**: Circular extraction uses hip rotation to guide the knee in a spiral path that exploits natural gaps in the opponent's grip configuration rather than fighting their grip strength at its strongest angle. Linear pulling creates additional stress on the ankle and simply reinforces the opponent's control line. The circular motion generates angular momentum that assists the escape while minimizing joint stress.
-
-**Q4**: You deploy the boot but feel your opponent shifting their hips to a perpendicular angle—what is happening and how do you respond?
-**A**: The opponent is transitioning from the toe hold to a kneebar attack, exploiting the straightened leg that the boot creates. Immediately bend your knee and pull it toward your chest to prevent the extension they need for kneebar completion. This requires abandoning the rigid boot structure in favor of the bent-knee defense, recognizing that the submission threat has fundamentally changed.
-
-**Q5**: At what point during the toe hold sequence should the boot defense be deployed for maximum effectiveness?
-**A**: Deploy the boot immediately upon recognizing the opponent's hands configuring around your foot in the toe hold grip pattern, before any rotational pressure begins. The boot is most effective as a preemptive defense during grip establishment rather than a reactive response to applied rotation. Every second of delay reduces effectiveness because rotational force progressively compromises ankle structural integrity.
-
-**Q6**: How do you maintain the boot while simultaneously grip fighting with your hands?
-**A**: The boot is maintained entirely through lower leg muscle engagement and hip internal rotation, requiring no hand assistance whatsoever. Your hands are completely free to execute two-on-one wrist control and grip breaking on the opponent's figure-four configuration. The boot and grip fighting operate through independent body systems—lower body maintains rigidity while upper body attacks the grip structure.
-
-**Q7**: Your boot defense is holding but your opponent maintains the toe hold grip—how long should you continue before considering a tap?
-**A**: The boot provides a limited defensive window of approximately three to five seconds of effective protection. If grip fighting is not progressing toward breaking the figure-four within this window and the opponent is maintaining or increasing pressure, tapping is the safe choice. Career longevity is more valuable than any single training round—ankle injuries from sustained toe hold pressure can be career-ending and require months of rehabilitation.
-
-**Q8**: What role does the free leg play during boot defense execution?
-**A**: The free leg serves as an active defensive frame that pushes against the opponent's hips to create space, hooks their far leg to limit their angle adjustments, or prepares counter-entanglement positions like butterfly hook. Without active free leg engagement, the opponent has unrestricted ability to tighten control, adjust angles to defeat the boot, and prevent the space creation needed for leg extraction and guard recovery.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Boot Defense from Toe Hold?</p>
 
 The boot defense has a limited effective window of three to five seconds. If the opponent breaks through the rigidity or the ankle experiences significant rotational stress despite the defense, tap immediately without hesitation. Ankle ligament injuries from toe holds can be severe and slow to heal, potentially requiring surgical intervention and months of rehabilitation. Never extend defense past the point where escape options are exhausted. In training, communicate openly with partners about pressure levels and maintain a tap-early culture for all rotational ankle submissions. Practice the boot initially at low resistance to develop proper mechanics before applying against realistic intensity. If you feel any sharp pain, popping, or sudden instability in the ankle, stop immediately regardless of the competitive situation.
 

@@ -102,7 +102,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (32% of attempts)
+- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (32% of attempts)
 
 - **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (8% of attempts)
 
@@ -175,7 +175,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 ### Available Transitions
 
 
-- **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** (31% of attempts)
+- **[[Guillotine Choke from Hindulotine/Attacker|Guillotine Choke from Hindulotine]]** (31% of attempts)
 
 - **[[Transitions/Hindulotine to Darce Choke/Attacker|Hindulotine to Darce Choke]]** (10% of attempts)
 
@@ -189,7 +189,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 - **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** (13% of attempts)
 
-- **[[Transitions/Hindulotine Choke Finish/Attacker|Hindulotine Choke Finish]]** (4% of attempts)
+- **[[Hindulotine from Hindulotine/Attacker|Hindulotine from Hindulotine]]** (4% of attempts)
 
 - **[[Transitions/Finish from Hindulotine/Attacker|Finish from Hindulotine]]** (2% of attempts)
 

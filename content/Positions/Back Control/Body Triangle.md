@@ -100,13 +100,13 @@ From this position, you maintain upper body control with your arms while your le
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (42% of attempts)
+- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (42% of attempts)
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (7% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (11% of attempts)
+- **[[Bow and Arrow Choke from Body Triangle/Attacker|Bow and Arrow Choke from Body Triangle]]** (11% of attempts)
 
-- **[[Transitions/Short Choke/Attacker|Short Choke]]** (8% of attempts)
+- **[[Short Choke from Body Triangle/Attacker|Short Choke from Body Triangle]]** (8% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (6% of attempts)
 
@@ -116,7 +116,7 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (3% of attempts)
 
-- **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** (4% of attempts)
+- **[[Cross Collar Choke from Body Triangle/Attacker|Cross Collar Choke from Body Triangle]]** (4% of attempts)
 
 - **[[Transitions/Body Triangle Escape to Half Guard/Attacker|Body Triangle Escape to Half Guard]]** (1% of attempts)
 
@@ -171,7 +171,7 @@ From this position, you maintain upper body control with your arms while your le
 
 - Triangle Mechanics Understanding: Identify how the triangle creates pressure to find weaknesses in the lock and attack the figure-four configuration
 
-- Space Creation: Generate space between your body and opponent's legs to reduce pressure and create opportunity for clearing attempts
+- Distance Control: Generate space between your body and opponent's legs to reduce pressure and create opportunity for clearing attempts
 
 - Hip Movement: Despite triangle's hip rotation prevention, use whatever limited hip mobility remains to create angles for escape
 
@@ -197,7 +197,7 @@ From this position, you maintain upper body control with your arms while your le
 
 - **[[Transitions/Body Triangle Squeeze/Attacker|Body Triangle Squeeze]]** (1% of attempts)
 
-- **[[Submissions/Body Triangle RNC/Attacker|Body Triangle RNC]]** (2% of attempts)
+- **[[Rear Naked Choke from Body Triangle/Attacker|Rear Naked Choke from Body Triangle]]** (2% of attempts)
 
 
 ### Common Mistakes

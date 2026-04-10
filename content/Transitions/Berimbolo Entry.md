@@ -211,7 +211,7 @@ The Berimbolo Entry is a cornerstone technique of modern sport jiu-jitsu guard s
 
 - [[Transitions/Crab Ride to Back]] - Alternative back-taking method with similar end position
 
-- [[Transitions/Rear Naked Choke]] - Primary submission after successful berimbolo to back control
+- [[Submissions/Rear Naked Choke]] - Primary submission after successful berimbolo to back control
 
 - [[Positions/Seated Guard]] - Starting position for guard pull entries into berimbolo system
 

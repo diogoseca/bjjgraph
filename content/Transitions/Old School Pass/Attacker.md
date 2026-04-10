@@ -188,6 +188,8 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Old School Pass?</p>
+
 - Establish deep whizzer immediately to neutralize the underhook's sweeping leverage before the bottom player can secure optimal angles
 - Drive heavy crossface pressure to force the bottom player's head away, breaking their postural alignment and reducing sweep power
 - Keep hips low and heavy on the bottom player's body to prevent space creation that enables lockdown pumping and sweep entries
@@ -203,6 +205,8 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Old School Pass?</p>
+
 - Deep whizzer threaded under bottom player's underhooking arm with hand gripping own thigh or opponent's hip for structural control
 - Crossface pressure established with shoulder driving into opponent's jaw, forcing head turn away from the underhook side
 - Free leg posted wide with knee angled outward at approximately 45 degrees for maximum base against sweep attempts
@@ -215,6 +219,8 @@ The Old School Pass from the attacker perspective requires establishing and main
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Old School Pass step by step?</p>
 
 1. **Establish whizzer and crossface control**: Thread whizzer deep under opponent's underhooking arm, gripping your own thigh or their hip. Simultaneously drive crossface pressure with your opposite shoulder into their jaw, forcing their head away from the underhook side. This dual control neutralizes the primary sweeping mechanics.
 2. **Flatten opponent through pressure application**: Drive your chest weight forward and downward into opponent's sternum while increasing crossface pressure. The goal is to force them from their side onto their back, eliminating the angular advantage they need for Old School Sweep execution. Keep your hips low throughout this phase.
@@ -244,6 +250,8 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Old School Pass?</p>
+
 - **Bottom player pumps lockdown aggressively to prevent flattening and create sweep momentum** (Effectiveness: High) - Your Response: Sprawl hips back slightly while maintaining chest connection and increase crossface pressure. Avoid raising hips as this feeds the sweep. Wait for the pumping rhythm to pause before resuming extraction pressure. → Leads to [[Positions/Half Guard/Old School]]
 - **Bottom player deepens underhook and pulls head control tighter to initiate Old School Sweep** (Effectiveness: High) - Your Response: Immediately increase whizzer depth and clamp elbow tight to body. Post free leg wider for base and drive crossface pressure to break their pulling angle. If sweep momentum begins, switch priority to base recovery before resuming pass. → Leads to [[Positions/Half Guard]]
 - **Bottom player transitions to deep half guard by diving under the hips when flattening pressure is applied** (Effectiveness: Medium) - Your Response: Recognize the head diving motion early and sprawl hips back to prevent them from getting underneath. If they achieve deep half entry, switch to deep half passing strategy rather than fighting back to Old School top. → Leads to [[Positions/Half Guard/Old School]]
@@ -256,6 +264,8 @@ The Old School Pass from the attacker perspective requires establishing and main
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Old School Pass?</p>
 
 ### 1. Pulling trapped leg forcefully out of lockdown with explosive hip extension
 
@@ -300,6 +310,8 @@ The Old School Pass from the attacker perspective requires establishing and main
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Old School Pass (Attacker)?</p>
+
 **Phase 1: Control Establishment** - Whizzer and crossface fundamentals
 Practice establishing deep whizzer and crossface pressure against a cooperative partner in Old School position. Focus on proper arm threading depth, shoulder driving mechanics, and weight distribution. Hold control position for 60-second intervals while partner provides zero to light resistance. Develop muscle memory for the defensive structure that must precede any passing attempt.
 
@@ -320,42 +332,12 @@ Practice flowing between Old School Pass, Crossface from Old School, and Lockdow
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins pumping the lockdown aggressively while pulling your head down - what is your immediate response before attempting the pass?
-**A**: Sprawl your hips slightly back while maintaining chest connection to remove the lockdown's sweeping leverage. Simultaneously increase crossface pressure to break their head control pulling angle. Post your free leg wider for base stability. Do not attempt to extract the leg during active pumping - wait for the rhythm to pause, then resume your angular extraction pressure. Fighting the pump directly feeds their sweep mechanics.
-
-**Q2**: What are the three control points you must address before committing to the Old School Pass extraction?
-**A**: The three control points are: 1) The lockdown figure-four on your trapped leg, managed through angular hip pressure and heel curling rather than pulling; 2) The deep underhook, neutralized with a deep whizzer threaded under their armpit; 3) The head control, broken through heavy crossface pressure that forces their head away. You must degrade at least one of these before committing to the pass - attempting extraction against all three engaged is extremely low percentage.
-
-**Q3**: Why is angular hip displacement more effective than linear pulling for breaking the lockdown?
-**A**: The lockdown figure-four is strongest against linear extension because the ankle hook and knee pressure create maximum resistance along the straight-back axis. Angular displacement changes the resistance axis by rotating your hip and knee outward, placing force against the weakest plane of the figure-four configuration. This also avoids creating the extension movement the bottom player needs to initiate sweeps, making it both mechanically superior and tactically safer.
-
-**Q4**: During leg extraction, your opponent's lockdown suddenly tightens and they begin the Old School Sweep rotation - how do you recover?
-**A**: Immediately abandon the extraction attempt and prioritize base recovery. Post your free leg extremely wide, drive crossface pressure hard to break the rotation angle, and sprawl your hips to remove sweep leverage. Clamp your whizzer tight to prevent their underhook from generating rotational power. Once the sweep momentum is neutralized and your base is re-established, resume the pass from the flattening phase rather than jumping directly to extraction.
-
-**Q5**: What grip configuration provides the strongest whizzer control for the Old School Pass?
-**A**: Thread the whizzer arm deep under the opponent's underhooking armpit with your hand gripping your own thigh on the same side or hooking their far hip. This creates a structural anchor that controls their upper body rotation without relying on muscular squeezing. The grip on your own thigh is more sustainable for extended battles, while the hip grip provides more direct control over their body rotation during active sweep attempts.
-
-**Q6**: Your opponent releases the lockdown and immediately starts inserting a knee shield - what is the optimal timing response?
-**A**: This is the highest-percentage passing window in the entire Old School sequence. The moment you feel the lockdown release, immediately drive your knee through on a slice angle before the knee shield can solidify. The brief transition between lockdown configuration and knee shield insertion leaves a 1-2 second window where neither defensive structure is fully established. Hesitating even slightly allows them to establish a new defensive framework that requires a completely different passing approach.
-
-**Q7**: How should you distribute your weight during the flattening phase before attempting lockdown extraction?
-**A**: Drive weight forward and downward through your chest into the opponent's sternum, not through your hands or knees. Your crossface shoulder should carry significant pressure into their jaw while your sternum presses directly into their chest. Keep hands light and used only for grip maintenance, not weight bearing. This weight distribution limits their hip mobility which is the foundation of all lockdown attacks, while your hips stay low and heavy to prevent space creation underneath.
-
-**Q8**: After successfully extracting your leg from the lockdown, what must you do immediately to prevent re-entanglement?
-**A**: Drive through to pass completion as one continuous motion without pausing. Swing the freed leg over their bottom leg into knee slide position while maintaining chest pressure and crossface contact. Any pause between extraction and pass completion gives the opponent time to re-insert hooks, establish knee shield, or transition to an alternative guard. The extraction and pass consolidation to side control should feel like a single flowing movement, not two separate actions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Old School Pass?</p>
 
 The Old School Pass is a pressure-based passing technique with moderate risk. Crossface pressure should be applied with body weight rather than cranking the neck, avoiding excessive cervical spine stress. When extracting the trapped leg from lockdown, use controlled angular movement rather than violent twisting that could injure the ankle or knee of either player. If the bottom player's lockdown creates knee pain in the trapped leg, communicate immediately and adjust rather than forcing through. Be mindful that explosive extraction attempts can cause knee hyperextension in the bottom player's lockdown configuration.
 

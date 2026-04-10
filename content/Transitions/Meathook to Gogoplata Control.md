@@ -216,7 +216,7 @@ The Meathook to Gogoplata Control transition exemplifies the dilemma-creation ph
 
 - [[Positions/Closed Guard]] - Fallback position if transition fails and Meathook cannot be re-established
 
-- [[Submissions/Armbar from Guard]] - Alternative attack when opponent prioritizes arm defense over head protection
+- [[Transitions/Armbar on Free Arm]] - Alternative attack from Meathook when opponent prioritizes arm defense over head protection
 
 
 </section>

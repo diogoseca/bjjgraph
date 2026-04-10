@@ -217,7 +217,7 @@ The Whizzer functions as a critical connecting technique within the broader BJJ 
 
 - [[Transitions/Guillotine Setup]] - Alternative attack when opponent counters Whizzer by ducking head
 
-- [[Transitions/Kimura]] - Direct submission transition from Whizzer when opponent retracts arm
+- [[Submissions/Kimura]] - Direct submission transition from Whizzer when opponent retracts arm
 
 - [[Transitions/Darce Choke]] - Submission option when opponent drops head forward under Whizzer pressure
 

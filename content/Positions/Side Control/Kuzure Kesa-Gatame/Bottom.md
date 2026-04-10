@@ -171,6 +171,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kuzure Kesa-Gatame (Bottom)?</p>
+
 - Bottom practitioner lies on their side with one arm trapped between top practitioner's armpit and chest, the trapped arm extending across top practitioner's torso while bottom practitioner's shoulder remains pinned to the mat, creating immediate armbar and shoulder lock vulnerability
 - Top practitioner's hip presses directly into bottom practitioner's lower ribs, their weight distributed through this contact point while their chest stays low over bottom practitioner's upper body, restricting breathing and preventing effective framing with the free arm
 - Bottom practitioner's free arm can reach across their body but cannot create effective frames due to top practitioner's low chest position, while bottom practitioner's legs remain relatively free but unable to create effective hooks or guards due to the angle of control and hip pressure
@@ -182,6 +184,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Kuzure Kesa-Gatame (Bottom)?</p>
+
 - One arm has been isolated and trapped across top practitioner's torso during side control transition
 - Top practitioner has established hip pressure into bottom practitioner's ribs while sitting beside them
 - Bottom practitioner has been flattened to their side with trapped shoulder pinned to mat
@@ -192,6 +196,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kuzure Kesa-Gatame?</p>
 
 - Trapped arm recovery is the highest priority—without it, escapes become exponentially more difficult
 - Hip escapes must be timed with opponent's weight shifts, not fought against peak pressure
@@ -207,6 +213,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Kuzure Kesa-Gatame (Bottom)?</p>
 
 **If opponent maintains constant hip pressure and low chest position preventing arm recovery:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Turtle]] (Probability: 45%)
@@ -230,6 +238,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kuzure Kesa-Gatame?</p>
 
 ### 1. Attempting to push opponent away with free arm using muscular strength
 
@@ -269,6 +279,8 @@ The position also demands exceptional conditioning and mental resilience. The co
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Kuzure Kesa-Gatame defense?</p>
+
 ### Trapped Arm Recovery Sequences
 
 Partner establishes Kuzure Kesa-Gatame with moderate pressure. Practice recovering trapped arm using shoulder shrugs, hip escapes, and arm threading without creating submission openings. Reset and repeat from both sides.
@@ -301,38 +313,6 @@ Start with partner at 50% resistance, increase by 10% each successful escape unt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent shifts their weight forward to attack your trapped arm with an americana - what escape opportunity does this create?
-**A**: Their forward weight shift removes pressure from your hips and creates space behind them. This is the ideal moment for a bridge and roll toward their posting leg, or to begin hip escaping away while their attention is on the submission. Their commitment to the attack opens defensive opportunities - time your explosive movement to coincide with their deepest commitment to the submission grip.
-
-**Q2**: What is the correct position for your trapped arm to prevent immediate submission while maintaining recovery potential?
-**A**: Keep the trapped arm bent at approximately 90 degrees with your elbow tight to your ribs. Never let the arm fully extend (armbar threat) or collapse completely against your body (americana threat). Maintain slight internal rotation at the shoulder to prevent the americana finish angle. This defensive arm position buys time and keeps recovery options open.
-
-**Q3**: How should you use your free arm during escape attempts rather than simply pushing against your opponent?
-**A**: Your free arm creates structural frames that maintain minimal space during hip movement - it's not for generating pushing force. Frame against their hip or shoulder to create a wedge that prevents them from closing distance as you shrimp. Pushing wastes energy because they can simply wait for your arm to fatigue. Framing maintains space efficiently using skeletal structure.
-
-**Q4**: Why is bridging directly upward ineffective from this position and what direction should you bridge instead?
-**A**: Bridging straight up allows your opponent to simply wait and settle their weight back down when you land - you've wasted explosive energy without creating meaningful change. Instead, bridge at a perpendicular angle targeting their posting leg. This attacks their base structure and can actually create a weight shift or roll opportunity. The angular bridge disrupts their balance rather than just lifting them temporarily.
-
-**Q5**: What are the signs that your opponent is about to transition to mount, and how do you prevent it?
-**A**: Watch for them lifting their near hip or beginning to slide their knee across your belly. Their head may also begin moving toward your far side. To prevent the mount, immediately turn toward them (paradoxically), getting your back more toward the mat. This denies the space they need to slide their knee across. You may also insert your knee as a shield between your bodies during their transition attempt.
-
-**Q6**: How do you manage breathing under the constant rib pressure of this position?
-**A**: Force controlled diaphragmatic breathing despite the pressure - your belly should expand, not your chest. Breathe in during moments of slightly reduced pressure (when opponent adjusts or attacks) and exhale slowly during peak pressure. Panic breathing with rapid shallow breaths accelerates fatigue and clouds tactical thinking. Accept the discomfort and maintain slow, controlled breathing patterns.
-
-**Q7**: When should you attempt to recover your trapped arm versus accepting its position and working other escapes?
-**A**: Prioritize arm recovery when your opponent shifts weight forward for submissions or makes adjustments - these moments reduce armpit pressure on your shoulder. If they maintain constant heavy pressure on your arm, attempting recovery wastes energy and may create submission openings. In high-pressure scenarios, work escapes like the Granby Roll that don't require arm recovery first, then recover the arm once you've changed the positional dynamic.
-
-**Q8**: Your escape attempt fails and your opponent recaptures heavy control - what should your immediate response be?
-**A**: Return immediately to defensive breathing and structural arm positioning. Do not chain another explosive attempt right away - this burns energy against peak pressure. Reset your frames, recover mentally, and wait for the next timing window (their adjustment, submission attempt, or fatigue-induced pressure reduction). Failed escapes are expected; the key is not compounding the energy loss with additional poorly-timed attempts.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

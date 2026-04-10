@@ -21,37 +21,37 @@ description: "Master Dead Orchard Control Bottom defense in BJJ. Systematic esca
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 33% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Rolling to Guard",
-      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Arm Extraction",
+      "text": "From this position, attempt Arm Extraction. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Granby Roll to Guard",
-      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Rolling to Guard",
+      "text": "From this position, attempt Rolling to Guard. This technique is attempted in 17% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Arm Extraction",
-      "text": "From this position, attempt Arm Extraction. This technique is attempted in 19% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
       "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 11% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Granby Roll to Guard",
+      "text": "From this position, attempt Granby Roll to Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Escape Dead Orchard Control",
-      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 5% of exchanges from this position.",
+      "text": "From this position, attempt Escape Dead Orchard Control. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Position Definition
 
+<p class="section-subtitle">What is Dead Orchard Control (Bottom)?</p>
+
 - Opponent controls your head with one arm wrapped around the neck, typically in a front headlock configuration with their chest pressing down on the back of your head and neck, restricting upward movement and creating a heavy, oppressive weight that limits breathing and vision while establishing the foundation for submission mechanics
 - Your trapped arm is secured by opponent's control, either caught inside their grip or pinned between your bodies, eliminating the ability to post or create frames on that side while the opponent's body weight reinforces this arm isolation and creates leverage for potential choke finishes
 - Your base is severely compromised with weight distributed awkwardly across knees and free hand, unable to establish proper turtle posture due to the opponent's angle of attack and pressure direction forcing you into a curled, defensive shell position that limits mobility and power generation
@@ -178,6 +180,8 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Dead Orchard Control (Bottom)?</p>
+
 - Failed turtle defense allowing opponent to secure front headlock control with deep grip
 - Unsuccessful takedown attempt resulting in opponent securing head and arm control during scramble
 - Transition from failed guard pull or guard recovery where opponent capitalizes on exposed posture
@@ -190,6 +194,8 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Dead Orchard Control?</p>
 
 - Maintain calm, controlled breathing despite restricted airway - panic and explosive movement accelerate fatigue and worsen position
 - Create space at the neck with your free hand using consistent, technical frames rather than desperate pushing that wastes energy
@@ -206,6 +212,8 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Dead Orchard Control (Bottom)?</p>
+
 **If opponent is actively working to lock anaconda or darce choke with arm trapped deep:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Front Headlock]] (Probability: 40%)
 - Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 35%)
@@ -220,7 +228,7 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 **If opponent's grip is loose or pressure is temporarily reduced:**
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 40%)
-- Execute **[[Transitions/Standing Escape/Attacker|Standing Escape]]** → [[Positions/Clinch]] (Probability: 35%)
+- Execute **[[Transitions/Sit Through to Guard/Attacker|Sit Through to Guard]]** → [[Positions/Clinch]] (Probability: 35%)
 - Execute **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** → [[Positions/Closed Guard]] (Probability: 25%)
 
 
@@ -237,6 +245,8 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Dead Orchard Control?</p>
 
 ### 1. Explosive bridging or rolling without first addressing the head and arm control
 
@@ -281,6 +291,8 @@ Dead Orchard Control Bottom represents one of the most disadvantageous positions
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Dead Orchard Control defense?</p>
+
 ### Dead Orchard Survival Drill
 
 Partner establishes dead orchard control with moderate pressure. Bottom player practices maintaining calm breathing, creating frames at neck, and working systematic hip escape without explosive movement. Focus on survival for 2-minute rounds before attempting escapes. Build mental toughness and technique under sustained pressure.
@@ -313,38 +325,6 @@ Start in established dead orchard control bottom position. Bottom player works t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your immediate priority when opponent locks the dead orchard grip around your neck?
-**A**: Immediate priority is getting your free hand to the choking arm at the crook of the elbow and creating a frame to prevent the grip from tightening further. Do not waste energy trying to peel their hands apart - focus on blocking the squeeze at the elbow joint where leverage is most effective. Simultaneously, tuck your chin and turn your face toward their body to protect your neck and reduce choke effectiveness.
-
-**Q2**: Your opponent increases shoulder pressure and you feel the choke tightening - what adjustment prevents the finish?
-**A**: Turn your body toward your trapped arm side while simultaneously hip escaping away from opponent. This changes the angle of the choke and reduces the circular compression on your neck. Use your free hand to create space at the elbow of the choking arm, not by pushing outward but by wedging your forearm between your neck and their grip. The combination of angle change and frame creates survival space.
-
-**Q3**: How do you maintain proper breathing when your airway is partially restricted?
-**A**: Focus on slow, controlled nasal breathing rather than gasping through your mouth. Accept that full breaths are impossible and work with shallow but consistent breathing rhythm. Exhale fully when creating frames or executing movements, then inhale during brief pauses. Mental calm is essential - panic breathing accelerates fatigue dramatically. Your body can function on restricted oxygen longer than most people realize if you remain calm.
-
-**Q4**: When should you attempt to extract your trapped arm versus focusing on other escape routes?
-**A**: Attempt arm extraction when opponent's grip is not fully locked and their weight is transitioning - such as when they're adjusting position or reaching for a secondary grip. If the arm is deeply trapped with full weight commitment, arm extraction wastes energy and often tightens the position. In that case, focus on hip escape and guard recovery first. Once you've created hip angle, arm extraction becomes more viable as opponent must adjust to follow you.
-
-**Q5**: Your opponent starts walking their hips toward your head for the anaconda finish - what is your defensive response?
-**A**: As opponent walks hips toward your head, you must follow their movement by walking your hips in the same direction to prevent them from achieving the finishing angle. Simultaneously, use your free arm to push on their far hip to slow their rotation. If you cannot match their speed, immediately execute a forward roll in the direction they're rotating to invert the position and potentially escape to guard. Staying static while they rotate guarantees the finish.
-
-**Q6**: What body position minimizes the effectiveness of the dead orchard choke while you work escapes?
-**A**: Keep your chin tucked tight to your chest with your face turned toward opponent's body. Your shoulders should be slightly curled forward creating a defensive shell shape. Keep your trapped arm elbow tight to your ribs rather than allowing it to extend across your neck. Your hips should be slightly turned toward the trapped arm side, not flat. This position reduces choke effectiveness by 30-40% compared to flat positioning with chin up.
-
-**Q7**: How do you recognize the optimal moment to execute your primary escape?
-**A**: The optimal escape moment occurs when opponent shifts their weight - either to adjust their grip, transition to a different position, or respond to your defensive movements. Feel for when pressure momentarily reduces on your trapped shoulder or when their hips lift slightly. Their movement creates windows where your hip escape can succeed. Never try to escape against settled, committed pressure - make small movements to force them to adjust, then escape during their adjustment.
-
-**Q8**: What indicates you should stop fighting and tap rather than continue escape attempts?
-**A**: Tap when you feel sharp pressure on the blood vessels in your neck combined with vision changes, ringing in ears, or a sensation of pressure building in your head. Also tap if you've been fighting the position for extended time and feel your movements becoming sluggish or uncoordinated. Never wait until you're about to lose consciousness. In training, tap early and learn - an early tap is far better than brain hypoxia or cervical injury. The position will be there tomorrow to practice again.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

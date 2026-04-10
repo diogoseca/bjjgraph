@@ -41,7 +41,7 @@ The technique is particularly effective against opponents who over-commit to hee
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami/Inside Ashi-Garami]] | 50% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
-| Counter | [[game-over]] | 20% |
+| Counter | [[Transitions/Heel Hook]] | 20% |
 
 
 </section>

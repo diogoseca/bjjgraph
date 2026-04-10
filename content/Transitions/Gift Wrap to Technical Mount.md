@@ -204,9 +204,9 @@ The Gift Wrap to Technical Mount transition represents a key node in the back at
 
 - [[Positions/Back Control]] - Parent system - Gift Wrap is a back control variation
 
-- [[Transitions/Rear Naked Choke]] - Alternative attack that creates rotation trigger for this transition
+- [[Submissions/Rear Naked Choke]] - Alternative attack that creates rotation trigger for this transition
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission from technical mount with trapped arm
+- [[Transitions/Mount to Armbar]] - Follow-up submission setup from technical mount with trapped arm
 
 - [[Positions/Mount/Mounted Triangle]] - High percentage follow-up with one arm already trapped
 

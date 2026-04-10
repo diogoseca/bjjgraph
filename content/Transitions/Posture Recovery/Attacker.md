@@ -188,6 +188,8 @@ As the top player executing Posture Recovery, your objective is to systematicall
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Recovery?</p>
+
 - Maintain wide base with knees spread for stability during recovery
 - Create initial space by posting hands on hips or biceps before driving back
 - Drive hips back and down to generate distance from opponent using leg strength
@@ -203,6 +205,8 @@ As the top player executing Posture Recovery, your objective is to systematicall
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Recovery?</p>
+
 - Broken posture position with opponent controlling upper body through grips or head control
 - At least one hand free or ability to create hand space through grip fighting
 - Knees positioned on mat with sufficient base to support backward hip drive
@@ -216,6 +220,8 @@ As the top player executing Posture Recovery, your objective is to systematicall
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Recovery step by step?</p>
 
 1. **Assess immediate threats**: Before initiating recovery, quickly identify immediate submission threats such as collar chokes, armbars, or triangle setups. Check hand positions, collar grips, and hip angle. This assessment determines your recovery path and urgency level. If a submission is actively being set up, address that threat first before committing to posture recovery.
 2. **Establish hand frames on opponent's body**: Place hands on opponent's hips, biceps, or chest to create initial frames. If they have collar grips, prioritize breaking or controlling the most dangerous grip first using a two-on-one strip. Your hands should be positioned to push while protecting your own neck and arms from isolation. Keep elbows bent and tight to your ribs.
@@ -245,6 +251,8 @@ As the top player executing Posture Recovery, your objective is to systematicall
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Recovery?</p>
+
 - **Opponent transitions to armbar as you push away with extended arms** (Effectiveness: High) - Your Response: Keep elbows tight to body during recovery. Never fully extend arms when framing. If they pivot for armbar, immediately posture to the opposite side and extract your arm while driving your weight forward over the attacking leg. → Leads to [[Positions/Closed Guard]]
 - **Opponent shoots legs up for triangle choke during recovery** (Effectiveness: High) - Your Response: Monitor their hip angle and leg positioning throughout recovery. If triangle is imminent, immediately tuck your chin to the inside, change your recovery angle to the opposite side, and drive forward to stack them while addressing the leg over your shoulder. → Leads to [[Positions/Closed Guard]]
 - **Opponent uses deep collar grips to pull you back down repeatedly** (Effectiveness: Medium) - Your Response: Break or control the dominant collar grip using a two-on-one strip before committing to major recovery. If grip is too deep, consider standing posture recovery variant where you can use your body weight to break the grip angle. → Leads to [[Positions/Closed Guard]]
@@ -257,6 +265,8 @@ As the top player executing Posture Recovery, your objective is to systematicall
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Recovery?</p>
 
 ### 1. Leading recovery with head and neck instead of initiating from hips
 
@@ -296,6 +306,8 @@ As the top player executing Posture Recovery, your objective is to systematicall
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Recovery (Attacker)?</p>
+
 **Week 1-2: Mechanics Introduction** - Basic movement patterns and body awareness
 Partner allows posture to be broken from closed guard with basic grips. Practice hip drive and progressive spinal straightening with no resistance. Focus on proper sequencing: frame, widen base, hip drive, straighten spine, establish combat base. Partner provides verbal feedback on technique.
 
@@ -319,48 +331,12 @@ Regularly drill posture recovery as part of warm-ups and specific training. Vide
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary movement that creates distance during posture recovery?
-**A**: Driving the hips backward and downward away from the opponent using the posterior chain is the primary movement. This hip drive creates the necessary distance to begin straightening the spine and recovering upright posture. The movement should be initiated from the legs and hips, not from pulling with the upper body or jerking the head back. The force vector is directly away from the opponent, not upward.
-
-**Q2**: Why should you avoid leading posture recovery with your head or neck?
-**A**: Leading with the head or neck creates significant injury risk to the cervical spine, particularly if the opponent is pulling down with collar grips that load the neck under extension. Additionally, it telegraphs your intention and makes it easier for the opponent to time counters such as triangles and armbars. Proper recovery initiates from the hips with progressive spinal straightening from lumbar through thoracic to cervical, ensuring force is distributed across the entire posterior chain.
-
-**Q3**: Your opponent pivots their hips for an armbar as you begin recovering posture - how do you adjust?
-**A**: Immediately tuck the targeted elbow tight to your ribs and posture explosively to the opposite side of the armbar attempt. Drive your weight forward over their attacking leg to kill the hip angle they need to finish. Avoid pulling the arm straight back, which plays into their leverage. Instead, stack forward while keeping the elbow bent and connected to your body. Once the immediate threat passes, resume posture recovery with awareness that the arm attack may be re-attempted.
-
-**Q4**: What grip must you address before committing to the major recovery movement?
-**A**: The cross collar grip is the most dangerous grip that must be addressed first, as it allows the opponent to both maintain broken posture and threaten cross collar chokes during your recovery. Use a two-on-one grip break by grabbing their gripping wrist with both hands and pushing toward their thumb while rotating your shoulders away. Sleeve grips can often be managed during recovery, but a deep collar grip will pull you back down or choke you if not neutralized before committing to the hip drive.
-
-**Q5**: What is the optimal timing window for initiating posture recovery against an active guard player?
-**A**: The optimal window occurs when the opponent is transitioning between attacks or adjusting their grips. During grip changes, their pulling power temporarily drops as they release one hand to reposition. Similarly, after a failed submission attempt, there is a brief reset period where their leg and arm control is looser. Timing your explosive hip drive to coincide with these moments of reduced control dramatically increases recovery success rate and reduces the likelihood of being countered mid-recovery.
-
-**Q6**: How does establishing a wide base contribute to successful posture recovery?
-**A**: A wide base with knees spread outward provides multi-directional stability and prevents sweeps during the recovery movement. It creates a strong triangular foundation that allows you to generate power from your legs to drive your hips backward without being toppled laterally. The wide base also makes it difficult for the opponent to execute scissor sweeps or hip bumps because your center of gravity is low and distributed across a broader area, requiring significantly more force to displace.
-
-**Q7**: Your opponent has a deep collar grip and begins pulling you into a cross collar choke as you try to recover - what is your response?
-**A**: Do not attempt to posture through the choke. Instead, immediately address the choking grip by tucking your chin to your chest to buy time, then using both hands in a two-on-one configuration to strip the deep collar grip by pushing their wrist toward their thumb direction. If the grip is too deep to strip, transition to the standing posture recovery variant where your body weight creates leverage to break the grip angle. Only resume the seated recovery after the collar grip is broken or controlled.
-
-**Q8**: What are the critical differences in recovery mechanics between closed guard and open guard?
-**A**: In closed guard, the locked ankles behind your back add significant pulling power to the opponent's posture break, requiring you to either open the guard first or generate enough hip drive to overcome the leg squeeze. Standing recovery may be necessary against strong closed guard players. In open guard, recovery is mechanically easier since there is no locked leg circuit, but you must manage the opponent's feet on your hips or biceps during recovery. Open guard recovery requires controlling their shin or ankle grips while driving back, while closed guard recovery prioritizes collar grip breaks and potentially standing up to break the ankle lock.
-
-**Q9**: After successfully recovering posture, what immediate actions prevent your opponent from re-breaking it?
-**A**: Immediately establish combat base with one knee posted and opposite foot planted flat to create a stable triangulated platform. Secure controlling grips on the opponent's pants at the knees or their collar to manage distance. Apply light downward pressure through your hips to prevent them from sitting up to re-engage. Break any remaining attacking grips they hold before they can re-establish pulling control. Begin your guard opening sequence promptly rather than pausing in recovered posture, as delay gives the opponent time to reset their attacking grips and re-break your posture.
-
-**Q10**: Your opponent shifts their hips to create an angle while you attempt to recover - how does this change your recovery approach?
-**A**: An angled opponent is setting up asymmetric attacks like triangle, omoplata, or armbar from an angle. You must address the angle before continuing recovery by squaring your hips back to center relative to their body. Drive your knee on the side they are angling toward into the space between their hip and the mat to close the angle. Keep the arm on the angled side tight to your body to prevent isolation. Once you have re-centered, resume the standard recovery sequence. Ignoring the angle and continuing straight-line recovery exposes you to the submission they are creating with the hip shift.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Recovery?</p>
 
 When practicing posture recovery, controlled application is essential to avoid neck and back strain. Never practice with jerky or violent movements that could strain the cervical spine or lower back. Both partners should communicate clearly, especially during early learning phases. The person on bottom should release grips immediately if the top person signals discomfort in their neck or back. Be aware of submission threats including armbar, triangle, and collar choke while recovering posture, and practice defensive awareness alongside the recovery technique. Do not push or drive into your partner's face during recovery, as this can cause injury. Build core and back strength gradually through supplementary training to support safe posture work. Always warm up properly before drilling posture recovery, particularly focusing on neck mobility and spinal flexibility.
 

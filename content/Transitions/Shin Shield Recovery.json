@@ -9,7 +9,7 @@
     "guard-retention",
     "framing"
   ],
-  "from_position": "Half Guard/Bottom",
+  "from_position": "Leg Hook/Bottom",
   "outcomes": [
     {
       "to": "Knee Shield Half Guard/Bottom",
@@ -63,8 +63,8 @@
       "relationship": "Parallel technique - Both focus on recovering guard structure from compromised positions"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Conceptual framework - Shin shield exemplifies core guard retention principles"
+      "name": "Half Guard Recovery",
+      "relationship": "Conceptual framework - Both techniques exemplify core guard retention principles from half guard"
     },
     {
       "name": "Knee Shield Retention",
@@ -385,7 +385,7 @@
         "description": "Partner starts in compromised half guard bottom and attempts shin shield insertion at slow to moderate speed. Top player practices recognizing the first knee movement and immediately driving shoulder pressure forward. Focus on maintaining chest contact and hip heaviness throughout. Partner signals when shin shield is successfully prevented versus when it establishes. 20 repetitions per side, gradually increasing bottom player's speed."
       },
       {
-        "phase": "Phase 2: Grip Fighting and Shield Leg Control (Weeks 3-4)",
+        "phase": "Phase 2: Grips and Shield Leg Control (Weeks 3-4)",
         "focus": "Controlling the shield leg while maintaining upper body dominance",
         "description": "Partner attempts shin shield recovery with moderate resistance. Top player practices ankle and pants grips to redirect the shield leg while maintaining crossface with the other arm. Drill the coordination of simultaneous upper body control and shield leg management. Include scenarios where bottom player fights for underhook during the exchange. 15 repetitions per side with increasing bottom player resistance."
       },

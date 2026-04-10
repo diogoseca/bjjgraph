@@ -202,7 +202,7 @@ The gogoplata to armbar transition fits within the broader rubber guard chain at
 
 - [[Positions/Armbar Control]] - Target position on successful execution of the transition
 
-- [[Submissions/Gogoplata Finish]] - Primary submission threat that creates the defensive reactions enabling the armbar transition
+- [[Transitions/Gogoplata]] - Primary submission threat that creates the defensive reactions enabling the armbar transition
 
 - [[Positions/Rubber Guard]] - Guard system that establishes the prerequisites for gogoplata control and chain attacks
 
@@ -212,7 +212,7 @@ The gogoplata to armbar transition fits within the broader rubber guard chain at
 
 - [[Positions/Omoplata Control]] - Alternative chain attack when opponent turns shoulder away to defend gogoplata
 
-- [[Transitions/Armbar Finish]] - Follow-up submission executed from armbar control after successful transition
+- [[Armbar from Armbar Control]] - Follow-up submission executed from armbar control after successful transition
 
 - [[Positions/Closed Guard]] - Base position from which rubber guard and gogoplata chains develop
 

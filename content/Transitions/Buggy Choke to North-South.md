@@ -208,7 +208,7 @@ The Buggy Choke to North-South transition serves as a critical branching point i
 
 - [[Positions/Side Control]] - Alternative control position accessible from north-south or during transition
 
-- [[Submissions/Buggy Choke Finish]] - Primary submission alternative if choke is progressing rather than stalling
+- [[Positions/Buggy Choke]] - Primary submission alternative if choke is progressing rather than stalling
 
 - [[Transitions/North-South Choke]] - High-percentage submission available immediately after establishing north-south from this transition
 

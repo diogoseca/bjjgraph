@@ -41,7 +41,7 @@
       "relationship": "Target position - successful transition establishes Electric Chair control"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Follow-up submission - primary finish from completed transition"
     },
     {
@@ -370,7 +370,7 @@
     "training_progressions": [
       {
         "phase": "Week 1-2",
-        "focus": "Recognition and Weight Distribution",
+        "focus": "Recognition and Center of Gravity",
         "description": "Partner slowly walks through the Electric Chair Transition sequence while you practice identifying each phase: underhook establishment, ankle grip, hip elevation, angle creation. Focus on maintaining forward pressure and proper weight distribution through chest and shoulder contact. No resistance from attacker yet."
       },
       {

@@ -188,6 +188,8 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kneebar from Grasshopper?</p>
+
 - Hip positioning beneath opponent's knee creates the fulcrum for hyperextension - your hip crease contacts the back of their knee
 - Control the heel and ankle first before attempting to extend - grip security determines finishing success
 - The inversion must be committed and explosive - half-measures allow opponent to step away or sprawl
@@ -203,6 +205,8 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kneebar from Grasshopper?</p>
+
 - Established grasshopper guard with hips elevated and shoulders on mat providing stable base
 - Opponent in standing position with at least one leg within range for leg threading
 - Clear targeting of lead leg - identify which leg bears their weight and will remain stationary
@@ -216,6 +220,8 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kneebar from Grasshopper step by step?</p>
 
 1. **Identify target leg**: From grasshopper guard with hips elevated, identify which of opponent's legs is weight-bearing and will remain stationary. This is typically their lead leg when they're preparing to pass or engage. Your attack will be directed at this leg specifically.
 2. **Thread outside leg**: Shoot your outside leg (the leg furthest from their target leg) behind their knee, hooking the back of their leg with your calf or ankle. This threading motion initiates your entry and prevents them from simply stepping away from your attack.
@@ -244,6 +250,8 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kneebar from Grasshopper?</p>
+
 - **Step back and disengage before entry completes** (Effectiveness: High) - Your Response: Follow with rolling motion to maintain leg contact, or convert to Single Leg X or X-Guard entry as they retreat → Leads to [[Positions/Grasshopper Guard]]
 - **Straighten leg and pull foot toward their hips to prevent heel control** (Effectiveness: Medium) - Your Response: Maintain hip pressure and transition to calf slicer if they straighten, or adjust angle to recapture heel control → Leads to [[Positions/Grasshopper Guard]]
 - **Sprawl heavily to flatten your grasshopper position** (Effectiveness: Medium) - Your Response: If you sense the sprawl coming, abort entry and Granby roll to guard recovery before being flattened → Leads to [[Positions/Side Control]]
@@ -255,6 +263,8 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kneebar from Grasshopper?</p>
 
 ### 1. Insufficient hip rotation during entry, leaving hips facing wrong direction
 
@@ -294,6 +304,8 @@ The inverted nature of this entry makes it particularly effective in no-gi compe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kneebar from Grasshopper (Attacker)?</p>
+
 **Week 1-2** - Entry mechanics
 Practice the hip rotation and leg threading motion with a cooperative partner standing stationary. Focus on achieving correct body positioning with hip crease behind knee. No resistance, no finishing - purely positional drilling.
 
@@ -311,48 +323,12 @@ Incorporate into live rolling from grasshopper guard. Work on recognizing entry 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the kneebar entry from grasshopper?
-**A**: The optimal window is when the opponent commits their weight forward onto their lead leg, either when preparing to engage or initiating a pass. This forward weight commitment prevents them from stepping back to escape and ensures the target leg remains stationary during your entry. Attempting the entry when their weight is neutral or rearward allows them to simply retract the leg.
-
-**Q2**: What conditions must exist before you can attempt this technique?
-**A**: You need established grasshopper guard with hips elevated and shoulders stable on the mat. The opponent must be standing with at least one weight-bearing leg in range. You need to identify which leg is committed, have your outside leg positioned for threading, and have sufficient core engagement for explosive hip rotation. Attempting without these conditions dramatically reduces success probability.
-
-**Q3**: What is the most critical mechanical detail during the hip rotation phase?
-**A**: The rotation must position your hip crease directly behind their knee joint with your belly facing toward their hip. This creates the fulcrum necessary for hyperextension. The rotation must be both explosive and complete - partial rotation leaves your hips at a wrong angle where extension pressure goes sideways rather than directly against the knee joint, making the finish impossible.
-
-**Q4**: What are the two most common reasons this technique fails at the entry phase?
-**A**: The two most common entry failures are: first, attempting the entry when the opponent's weight is on their back leg so the target leg simply retracts away from your threading attempt; second, insufficient hip rotation that leaves the fulcrum misaligned, making it impossible to generate proper extension pressure even if you secure the leg. Both stem from rushing rather than confirming conditions.
-
-**Q5**: What grip configuration should you use to control the heel and why?
-**A**: Use a figure-four grip or clasped hands wrapped around the heel and Achilles tendon, pulling their foot tight against your chest near the armpit on the same side as the attacked leg. This configuration prevents them from rotating their foot free and provides the anchor point that your hip extension works against. Without heel control secured to your chest, any bridge pressure simply pushes their leg away.
-
-**Q6**: Which direction should force be applied during the finishing extension?
-**A**: Force is applied perpendicular to the long axis of their femur, driving your hips upward and forward against the back of their knee while simultaneously pulling their heel and ankle toward your chest. The combined vector creates hyperextension at the knee joint. The force comes primarily from hip bridge and back arch - not from arm pulling alone - making it a full-body mechanical advantage.
-
-**Q7**: Your opponent straightens their leg and begins retracting their foot as you secure the entry - what is your best response?
-**A**: When they straighten their leg to deny the kneebar, immediately transition to a calf slicer by threading your near leg behind their calf while maintaining hip pressure against their knee. The straight leg that defends the kneebar actually facilitates the calf slicer because the rigid leg structure becomes the lever for the compression lock. Alternatively, adjust your angle and re-pursue heel control if their foot remains within grip range.
-
-**Q8**: Your opponent sprawls and drives forward as you begin the entry - how do you avoid being flattened?
-**A**: If you sense the sprawl before full commitment, abort the kneebar entry and execute a Granby roll to recover guard before being flattened. If the sprawl catches you mid-entry, use their forward momentum to redirect into an X-Guard elevation sweep by shooting your legs into their hips and lifting. The key is reading the sprawl early - once fully flattened under their weight, recovery options are severely limited and you risk being passed to side control.
-
-**Q9**: How does this technique create chain attack opportunities even when the kneebar itself is defended?
-**A**: The kneebar threat forces the opponent into predictable defensive reactions that each open different follow-up attacks. Stepping back exposes them to rolling entries and Single Leg X transitions. Straightening the leg opens calf slicer. Turning to kill the angle exposes inside ashi garami. This chain-attack structure means the initial kneebar entry functions as a forcing move that creates offensive opportunities regardless of the specific defensive response chosen.
-
-**Q10**: What is the role of knee pinching during the consolidation phase and what happens if you neglect it?
-**A**: Knee pinching traps the opponent's thigh between your legs, preventing the most common escape method: pulling the leg straight out from between spread knees. Without active knee squeeze, even a secured heel grip is insufficient because the opponent can angle their thigh sideways and slide free. The knee pinch also maintains proper alignment of their knee joint with your hip crease, ensuring extension pressure goes through the correct vector.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kneebar from Grasshopper?</p>
 
 The kneebar attacks the knee joint through hyperextension, which can cause serious ligament damage (ACL, PCL, MCL, LCL) if applied with excessive force or speed. Always apply extension pressure gradually, allowing training partners time to tap before significant pressure builds. Never crank or jerk the submission. In training, establish clear tap protocols and release immediately upon tap signal. Avoid this technique entirely if training partner has existing knee injuries. During drilling, practice positional elements without live extension pressure until both partners are comfortable with the mechanics. Competition application requires even greater control awareness due to adrenaline and resistance levels. Practitioners with hypermobile joints may not feel the submission until damage occurs - communicate clearly with flexible training partners about pressure levels.
 

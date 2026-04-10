@@ -163,6 +163,8 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Position Definition
 
+<p class="section-subtitle">What is Anaconda Control (Top)?</p>
+
 - Top player's arm threaded under opponent's near arm and around the neck, with hands clasped together on the far side creating the characteristic anaconda configuration
 - Top player's chest pressure directed downward onto opponent's trapped shoulder and upper back, preventing upward movement and escape
 - Opponent's near arm trapped inside the loop created by top player's grip, restricting defensive hand fighting and neck defense options
@@ -175,6 +177,8 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Anaconda Control (Top)?</p>
 
 - Successful front headlock control or turtle attack positioning established
 - Opponent's near arm exposed and accessible for arm-in grip configuration
@@ -190,6 +194,8 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Anaconda Control?</p>
+
 - Maintain continuous chest pressure on opponent's trapped shoulder to prevent escape and create submission pressure
 - Keep hands tightly clasped with proper grip configuration to prevent opponent from breaking the lock
 - Control opponent's trapped arm by keeping it pinned inside the loop, eliminating their primary defense
@@ -204,6 +210,8 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Anaconda Control (Top)?</p>
 
 **If opponent's base is strong and they resist rolling:**
 - Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 70%)
@@ -232,6 +240,8 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Anaconda Control?</p>
 
 ### 1. Releasing chest pressure to adjust grip or position
 
@@ -266,6 +276,8 @@ The effectiveness of this position lies in its multi-layered control mechanisms:
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Anaconda Control attacks?</p>
+
 ### Anaconda Grip Establishment Drill
 
 Partner starts in turtle position. Practice threading arm under their near arm and around neck, clasping hands on far side with proper configuration. Focus on speed and accuracy of grip while maintaining chest pressure. Repeat 10 times each side, emphasizing consistent grip structure.
@@ -291,38 +303,6 @@ Start with anaconda grip established, bottom player works to escape while top pl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal weight distribution for maintaining anaconda control from top?
-**A**: The optimal weight distribution concentrates chest pressure directly on the opponent's trapped shoulder while keeping hips slightly behind or beside their hips. This creates a see-saw effect where your upper body weight drives down through the shoulder while your hips remain mobile for adjustments. Approximately 70% of your weight should be forward through your chest, with the remaining 30% available for base and mobility. Avoid putting weight too far forward past their head, as this compromises your ability to follow their movement.
-
-**Q2**: How do you maintain control when your opponent starts bridging and creating space?
-**A**: When opponent bridges, immediately drive your chest deeper into their trapped shoulder rather than lifting up. Simultaneously, squeeze your elbows together to tighten the loop and walk your hips laterally to maintain perpendicular angle. The bridge actually creates opportunity - as they elevate, their neck becomes more exposed. Stay heavy, stay connected, and use their movement energy to tighten rather than fighting against the bridge with pure resistance.
-
-**Q3**: What grip configuration provides the strongest anaconda control?
-**A**: The gable grip (palm-to-palm) provides the strongest structural integrity for anaconda control. Lock your hands with palms pressed flat against each other, fingers pointing in opposite directions. Keep your wrists straight and forearms parallel, pulling elbows tight together. This configuration distributes force across both arms equally and is extremely difficult to break. The S-grip is an acceptable alternative when hand position doesn't allow gable grip, but provides slightly less strength.
-
-**Q4**: Your opponent pulls their trapped arm free during control - what immediate adjustment do you make?
-**A**: If the trapped arm escapes, immediately transition to darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the darce angle that wasn't available with the arm trapped. Alternatively, if they extract the arm by pulling it toward you, transition to guillotine by releasing one hand and securing their chin. Never try to re-trap the arm - flow to the submission that the defensive movement creates.
-
-**Q5**: How do you apply pressure correctly to attack the carotid arteries rather than the windpipe?
-**A**: Carotid pressure requires angling your choking forearm across the side of their neck at approximately 45 degrees, with your bicep on one side and their trapped arm/shoulder creating pressure on the other side. The choking action comes from squeezing elbows together while expanding your chest, not from pushing straight into the front of the throat. When positioned correctly, the opponent feels immediate blood choke symptoms (tunnel vision, lightheadedness) rather than windpipe discomfort.
-
-**Q6**: What is the correct timing and execution for initiating the roll-through finish?
-**A**: Initiate the roll only after three conditions are met: grip is locked tight with no gaps, chest pressure has broken opponent's posture, and their base is compromised (usually by walking your hips to one side). Roll toward your choking arm side by stepping over their back and pulling them with you in one explosive motion. Commit fully - hesitation allows them to base out. The roll should be fast enough that their hands cannot post to stop the rotation.
-
-**Q7**: How do you manage energy expenditure during extended anaconda control exchanges?
-**A**: Energy management in anaconda control relies on structure over strength. Use your skeleton and body weight rather than muscular squeezing to maintain pressure. Keep your grip locked but relaxed between submission attempts - constant maximum squeezing exhausts your forearms without benefit. Breathe steadily and stay patient. The position favors the attacker energetically because the defender must actively fight against both the choke and the positional control simultaneously.
-
-**Q8**: Your opponent partially escapes and you feel the control slipping - how do you recover?
-**A**: When control slips, immediately re-establish chest-to-shoulder connection before addressing the grip. Drive your chest back into their trapped shoulder while pulling your elbows tight. If the grip has loosened but not broken, squeeze to re-tighten while maintaining chest pressure. If they've created significant space, consider transitioning to front headlock position to reset rather than forcing a compromised anaconda. Sometimes the best recovery is accepting position reset rather than fighting a losing grip battle.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

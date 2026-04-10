@@ -186,6 +186,8 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ringworm Sweep to Back Control?</p>
+
 - Maintain constant tension on the lapel wrap throughout the entire sweep motion to prevent opponent posting
 - Create angular momentum by combining hip drive with pulling motion on the lapel
 - Time the sweep when opponent commits weight forward or attempts to stand
@@ -200,6 +202,8 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ringworm Sweep to Back Control?</p>
+
 - Secure Ringworm Guard configuration with lapel threaded around opponent's leg and tension maintained
 - Establish secondary grip on opponent's sleeve, collar, or pants to assist with off-balancing
 - Position hips at angle to create optimal sweeping leverage rather than remaining flat
@@ -212,6 +216,8 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ringworm Sweep to Back Control step by step?</p>
 
 1. **Confirm lapel tension**: Verify the lapel wrap is secure around opponent's leg with no slack in the grip. Pull the lapel tail firmly toward your hip to create maximum restriction on their wrapped leg, preventing any posting ability.
 2. **Establish secondary grip**: Secure a collar grip with your free hand on the same side as the wrapped leg, or alternatively grip the far sleeve. This grip prevents opponent from posturing and assists with the rotational pull during the sweep.
@@ -240,6 +246,8 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ringworm Sweep to Back Control?</p>
+
 - **Opponent posts free hand wide and bases out to prevent sweep completion** (Effectiveness: High) - Your Response: Transition to triangle attack by immediately threading your leg over their posting arm while maintaining lapel control, creating a triangle setup from the compromised position → Leads to [[Positions/Ringworm Guard]]
 - **Opponent strips the lapel grip before sweep can be executed** (Effectiveness: High) - Your Response: Immediately transition to Squid Guard or Worm Guard configuration to maintain some lapel-based control, or switch to De La Riva Guard if grip cannot be recovered → Leads to [[Positions/Ringworm Guard]]
 - **Opponent drops weight and smashes forward during sweep attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by switching to an omoplata entry, threading your leg over their driving shoulder while maintaining the lapel → Leads to [[Positions/Ringworm Guard]]
@@ -251,6 +259,8 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ringworm Sweep to Back Control?</p>
 
 ### 1. Allowing slack in the lapel wrap before initiating the sweep
 
@@ -285,6 +295,8 @@ Strategically, this sweep is most effective when the opponent attempts to stand 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ringworm Sweep to Back Control (Attacker)?</p>
+
 **Week 1-2** - Lapel mechanics and sweep timing
 Practice maintaining lapel tension while partner provides no resistance. Focus on the hip drive mechanics and understanding the rotational angle needed for the sweep. Drill the sweep motion in isolation without attempting the back take follow-through.
 
@@ -302,48 +314,12 @@ Integrate the technique into live rolling from Ringworm Guard. Practice setting 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage that makes the Ringworm Sweep to Back Control work?
-**A**: The lapel wrap physically prevents the opponent from posting their wrapped leg during the sweep, removing their primary base recovery option. This mechanical restriction means you only need to overcome the resistance of one leg and their upper body posting, rather than fighting against a fully mobile opponent. The wrap converts the opponent's leg into a fixed pivot point around which they rotate.
-
-**Q2**: Your opponent is in a low, heavy combat base with hips glued to the mat - should you attempt the sweep?
-**A**: No. The sweep requires the opponent to have an elevated center of gravity to generate sufficient rotational momentum. When the opponent maintains a low, heavy base, the leverage created by the hip drive and lapel pull is insufficient to topple them. Instead, use secondary attacks like triangle setups or collar drags to force them to elevate their base, then capitalize on the weight shift to execute the sweep.
-
-**Q3**: What is the most critical hip movement during the sweep execution?
-**A**: The explosive hip drive upward and toward the wrapped leg side is the primary force generator. This hip movement must be coordinated simultaneously with the downward pull on the secondary grip to create rotational torque. The hip drive should follow the angle established during the setup phase hip escape, directing force along the diagonal line that maximizes the mechanical disadvantage of the opponent's trapped leg.
-
-**Q4**: Your opponent posts their free hand wide to prevent the sweep - how do you adjust?
-**A**: Immediately transition to a triangle setup by threading your leg over their extended posting arm while maintaining lapel tension. Their wide post isolates the arm and creates the angle needed for triangle entry. This chain attack forces a dilemma: if they retract the posting arm to defend the triangle, the sweep reopens. If they keep posting, the triangle tightens. The lapel control remains your anchor throughout the transition.
-
-**Q5**: What grip configuration provides the highest success rate for this sweep?
-**A**: The optimal configuration is the lapel tail gripped near your hip with constant tension as the primary grip, combined with a cross-collar grip on the same side as the wrapped leg as the secondary grip. The cross-collar grip provides superior rotational pull compared to sleeve grips because it connects directly to the opponent's centerline, creating more efficient torque during the sweep motion. Sleeve grip is acceptable but produces less rotational force.
-
-**Q6**: What distinguishes the follow-through for back control from a standard sweep finishing in mount?
-**A**: In a standard sweep you settle your weight into top position as the opponent lands. For the back take, you continue rotating with the opponent's falling momentum rather than stopping. This means your hips stay mobile and travel behind the opponent during their descent. You must anticipate the back exposure and begin threading the near-side hook during the sweep motion itself, not after landing. The seatbelt grip replaces the mount stabilization posture.
-
-**Q7**: Your opponent strips the lapel grip mid-sweep - what is the correct recovery sequence?
-**A**: Abort the sweep immediately rather than continuing without the mechanical advantage of the wrap. Transition to an alternative guard position before the opponent can capitalize: Squid Guard or Worm Guard if you can re-establish partial lapel control, or De La Riva Guard using your existing leg positioning if no lapel control is recoverable. Continuing a compromised sweep without the lapel wastes energy and exposes you to passing.
-
-**Q8**: When the opponent smashes forward with heavy pressure during your sweep attempt, what force redirection should you apply?
-**A**: Redirect their forward momentum into an omoplata entry by threading your leg over their driving shoulder while keeping the lapel grip intact. Their forward commitment actually loads the omoplata rotation for you, converting their counter-pressure into your submission setup. The key is recognizing the forward drive early enough to abandon the lateral sweep angle and redirect into the shoulder attack before they flatten you completely.
-
-**Q9**: What is the correct hook insertion sequence after a successful sweep?
-**A**: Insert the near-side hook first as the opponent lands on their side, because this hook is closest and prevents them from completing a forward roll away from you. Simultaneously establish the seatbelt grip with your over-arm across their chest. Only after the near hook and seatbelt are secure do you insert the far-side hook and adjust your hips to center behind their spine. Attempting both hooks simultaneously typically results in neither being properly secured.
-
-**Q10**: How should you use chain attacks to force the opponent into the optimal position for this sweep?
-**A**: Threaten triangle setups and omoplata entries from Ringworm Guard to force the opponent to posture up and create distance, which elevates their center of gravity into the ideal sweeping position. A collar drag attempt forces them to post hands forward, loading their weight over the trapped leg. These preliminary threats create a predictable defensive pattern where the opponent repeatedly enters the optimal height and weight distribution for the sweep, allowing you to time the execution precisely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ringworm Sweep to Back Control?</p>
 
 Practice the sweep with controlled intensity, particularly during the back take follow-through where rapid positional changes can cause knee or ankle strain if hooks are inserted awkwardly. Partners should tap early if caught in compromised positions during drilling to avoid neck strain from resisting completed sweeps. Avoid explosive execution until the movement pattern is established, as the rotational mechanics can cause lower back stress if performed incorrectly. The lapel wrap should never be applied with excessive force that could restrict blood flow or breathing.
 

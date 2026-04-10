@@ -188,6 +188,8 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sit Out from Side Control?</p>
+
 - Create frames before attempting to build base - never initiate the sit-out without first establishing space at the hips through forearm pressure
 - Commit fully to the rotation once initiated - half-committed sit-outs expose the back without completing the escape and create the worst possible outcome
 - Post the hand firmly with fingers pointing away from opponent to create a stable pivot point that supports rotational force
@@ -202,6 +204,8 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sit Out from Side Control?</p>
+
 - Near-side forearm frame established against opponent's hip or shoulder creating measurable space between your hips and their control
 - Far-side hand positioned to push against opponent's head or crossface arm to assist initial space creation
 - Space at the hips sufficient to insert at least one knee underneath your body and begin building a base
@@ -214,6 +218,8 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sit Out from Side Control step by step?</p>
 
 1. **Establish Defensive Frames**: Create initial space by placing your near-side forearm against the opponent's hip or ribcage and your far-side hand against their head or crossface arm. Generate enough pushing pressure to prevent them from settling deeper and to create separation at your hips where you need room to build base.
 2. **Build Temporary Base**: Using the space created by your frames, insert your near-side knee underneath your body and begin transitioning from flat on your back to a turtle-like position on your hands and knees. Move explosively through this phase to minimize the window where your back is exposed to the opponent above you.
@@ -232,7 +238,7 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[Positions/Scramble Position]] | 50% |
+| Success | [[Positions/Turtle]] | 50% |
 | Failure | [[Positions/Side Control]] | 30% |
 | Counter | [[Positions/Back Control]] | 20% |
 
@@ -242,6 +248,8 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Sit Out from Side Control?</p>
 
 - **Opponent sprawls heavy and drives crossface back across your face before you complete base building** (Effectiveness: High) - Your Response: Time the sit-out when opponent shifts position or reaches for a submission. Use the peek-out variation to clear the crossface arm before initiating the rotation. → Leads to [[Positions/Side Control]]
 - **Opponent establishes seatbelt grip and begins inserting hooks during your turtle phase** (Effectiveness: High) - Your Response: Minimize time in turtle by executing the sit-out as one explosive motion without pausing. Keep elbows tight to your body to deny the over-arm portion of the seatbelt grip. → Leads to [[Positions/Back Control]]
@@ -254,6 +262,8 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sit Out from Side Control?</p>
 
 ### 1. Attempting the sit-out without creating sufficient initial space at the hips
 
@@ -293,6 +303,8 @@ The sit-out from side control is a wrestling-derived escape executed by the bott
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sit Out from Side Control (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Sit-out motion pattern in isolation
 Practice the sit-out from turtle position without a partner. Focus on hand posting position, explosive far foot drive, leg swing-through arc, and hip rotation. Perform 20-30 reps each side per session until the movement feels natural and fluid.
 
@@ -313,42 +325,12 @@ Full live rounds focusing on the complete chain from side control escape through
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage of the sit-out compared to standard shrimping escapes from side control?
-**A**: The sit-out generates rotational force around a posted hand pivot point, creating a completely different escape vector than lateral shrimping. While shrimping moves the hips laterally to create space for guard recovery, the sit-out rotates the entire body 180 degrees to face the opponent directly. This rotational movement is harder for the top player to follow because it requires them to change their entire control orientation, whereas they can easily chase lateral shrimps by following hip movement along the same plane.
-
-**Q2**: When your opponent maintains a crushing crossface that blocks direct base-building, how should you modify the sit-out entry?
-**A**: Use the peek-out variation by first clearing your head underneath the opponent's near arm. Create an initial frame with your far arm against their hip, bridge explosively to create momentary space, then slide your head under their crossface arm. Once your head is clear of the obstruction, you can build base without the crossface blocking your movement. The bridge timing is critical and must be sharp enough to create the space for head clearance before the opponent can re-settle their weight.
-
-**Q3**: What is the most critical timing window for initiating the sit-out from side control bottom?
-**A**: The optimal timing occurs when the opponent transitions between attacks or adjusts their control position. Specifically when they lift their hips to switch from crossface to north-south, when they reach for a submission grip with the far hand, or when they shift weight toward your head to set up a mount transition. These moments create brief hip-space opportunities and compromise their base, making it significantly harder for them to respond to the explosive sit-out. Attempting the sit-out against a settled and stabilized opponent is the most common timing error.
-
-**Q4**: Your posted hand collapses during the rotation phase of the sit-out - what went wrong and how do you correct it?
-**A**: The post likely failed because the hand was placed too close to the body, positioned too far underneath the shoulder, or the wrist was not locked firm. The correction is to plant the hand slightly forward and outside shoulder width with a straight locked wrist and fingers pointing away from the opponent. The arm should have a slight bend to absorb force without collapsing. Additionally, driving off the far foot too aggressively without sufficient post structural strength creates the collapse. Build post strength through specific drilling before attempting at full speed.
-
-**Q5**: What are the grip and frame requirements before initiating the sit-out motion from side control bottom?
-**A**: You do not need traditional grappling grips to execute the sit-out. Instead you need structural frames. Your near-side forearm should create space against the opponent's hip or ribcage, and your far hand should control their crossface arm or post against their head. The critical requirement is that your frames have created enough separation at the hips to insert a knee and begin building a turtle-like base. Once in the base position, your hands transition from defensive frames to the posting configuration needed for the sit-out pivot.
-
-**Q6**: During the sit-out rotation, the opponent circles toward your back and begins establishing hooks - what is your immediate response?
-**A**: Accelerate the rotation to complete the sit-out before hooks can be fully secured. If the near hook is partially inserted, immediately sit your hips to the mat on the opposite side and turn to face them while using your hands to fight the hook out. If both hooks begin entering, abandon the sit-out and address the back control threat by getting your shoulders to the mat and fighting the seatbelt grip. The worst outcome is a half-completed sit-out where you are in unstable turtle with hooks partially established. Commit fully in one direction.
-
-**Q7**: How does the direction of force differ between a standard elbow escape and a sit-out from side control?
-**A**: The elbow escape generates force laterally, pushing the opponent's hips away while shrimping your own hips in the opposite direction to create space for knee insertion and guard recovery. The force vectors are perpendicular to the opponent's body axis. The sit-out generates rotational force around a fixed pivot point, swinging the body in a circular arc to clear the opponent's control entirely. The force direction is circular rather than linear, which is why the sit-out succeeds against opponents who have effectively shut down lateral escape routes by controlling your hip movement.
-
-**Q8**: What is the optimal follow-up sequence after completing the sit-out and reaching a scramble position?
-**A**: Immediately seek an underhook on the near side while controlling the opponent's head or collar with the far hand. This positions you to wrestle up to a dominant angle. If the opponent is still recovering from your escape, drive into them to secure a front headlock or shoot for a single leg. Avoid sitting back passively after the sit-out because the scramble advantage is momentary and must be capitalized on within two to three seconds before the opponent stabilizes their own base and begins their own offensive scramble sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sit Out from Side Control?</p>
 
 The sit-out involves rapid rotational movement through positions where the neck and back are briefly vulnerable. Practitioners should ensure adequate neck strength and flexibility before drilling at full speed. The turtle-to-rotation phase exposes the cervical spine to potential compression if the opponent drives forward aggressively during the transition. Always warm up the neck thoroughly and begin drilling at low intensity, increasing speed only as the movement pattern becomes smooth and controlled. Tap immediately if the opponent establishes a choke during the rotation phase rather than fighting through it. Avoid forcing the sit-out when the opponent has secured hooks, as the rotational force combined with hook control can create dangerous knee torque.
 

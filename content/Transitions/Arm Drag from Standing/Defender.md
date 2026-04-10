@@ -162,6 +162,8 @@ Defending the standing arm drag requires early recognition of the opponent's gri
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag from Standing?</p>
+
 - Opponent secures your wrist with one hand and immediately reaches for your tricep or elbow with the other, establishing two-on-one control
 - You feel a sudden sharp pull of your arm diagonally across the opponent's body rather than the typical push-pull of grip fighting
 - Opponent begins stepping laterally while maintaining grip on your arm, moving toward your back rather than staying in front of you
@@ -173,6 +175,8 @@ Defending the standing arm drag requires early recognition of the opponent's gri
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag from Standing?</p>
 
 - Deny the two-on-one grip by maintaining active hand fighting and keeping elbows close to your body
 - Recognize the drag attempt during the grip acquisition phase, not after the pull has started
@@ -187,6 +191,8 @@ Defending the standing arm drag requires early recognition of the opponent's gri
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag from Standing?</p>
 
 ### 1. Circle toward the drag direction to re-face the opponent before they establish rear position
 
@@ -224,6 +230,8 @@ Defending the standing arm drag requires early recognition of the opponent's gri
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag from Standing?</p>
+
 ### → [[Positions/Standing Position]]
 
 Recognize the drag attempt during grip acquisition and immediately strip the wrist grip with a circular break or retract your arm sharply while stepping backward. If the pull has begun, circle aggressively toward the drag direction to re-face the opponent before they can establish chest-to-back contact. Frame with your free arm on their hip as a secondary defense to buy time for the rotation.
@@ -239,6 +247,8 @@ If the arm drag progresses past the recoverable phase and the opponent is commit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag from Standing?</p>
 
 ### 1. Keeping arms extended during standing grip fighting, providing easy wrist targets for the two-on-one setup
 
@@ -268,6 +278,8 @@ If the arm drag progresses past the recoverable phase and the opponent is commit
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag from Standing?</p>
+
 **Phase 1: Recognition** - Identifying arm drag setup cues and developing defensive reflexes
 Partner performs the arm drag setup at slow speed while you practice recognizing the grip acquisition and pull initiation. Focus on feeling the two-on-one grip formation and the directional pull. No defensive response yet, just recognition. Build the reflex to identify what is happening within the first half-second.
 
@@ -284,29 +296,6 @@ Standing-only sparring rounds where partner actively hunts arm drags while you d
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an arm drag attempt is beginning, and what should your immediate response be?
-**A**: The earliest cue is feeling your opponent secure your wrist with one hand while their other hand reaches toward your tricep or elbow. The immediate response should be to strip the wrist grip with a sharp circular motion, breaking the two-on-one before it is fully established. If you cannot strip the grip, immediately retract your arm by bending your elbow sharply to deny the pulling leverage they need for the diagonal drag across their body.
-
-**Q2**: Why is circling toward the drag direction more effective than circling away from it?
-**A**: Circling toward the drag direction re-faces you to the opponent by rotating your chest back into alignment with theirs. This closes the angle they are trying to create and forces them to either abort the drag or re-initiate from a new angle. Circling away from the drag direction adds your rotational momentum to the opponent's pull, accelerating their access to your back and making the step-behind easier. The biomechanical principle is that you want to create a collision between your rotation and their lateral movement, not move in the same direction they are traveling.
-
-**Q3**: Your opponent has completed the drag pull and is stepping behind you but has not yet established chest-to-back contact - what is your best remaining option?
-**A**: Your best remaining option is to post your free arm as a stiff frame against their near hip to physically block their step-behind from closing the distance. Simultaneously begin an aggressive circle toward them to re-face. If the frame holds for even half a second, your rotation can recover frontal facing. If the frame fails and they clear it, immediately sit to guard to prevent the standing rear clinch from being fully established, converting the position to an open guard engagement where you have more defensive options available.
-
-**Q4**: How should you adjust your standing posture and arm positioning to proactively prevent arm drag attempts?
-**A**: Keep your elbows bent and close to your ribs rather than extending arms during grip fighting. Maintain a slightly bladed stance rather than square to the opponent, presenting less frontal exposure. When reaching for grips, use quick jabbing motions that retract immediately rather than sustained extensions. Keep your wrists slightly internally rotated which makes pistol grip acquisition harder for the opponent. Fight with a slightly lower center of gravity so you can rotate quickly if a drag is initiated.
-
-**Q5**: When is sitting to guard the correct defensive choice rather than fighting to maintain standing position?
-**A**: Sitting to guard is correct when the opponent has progressed past the point where circling or framing can prevent the back take, specifically when they have already cleared your shoulder line and are establishing chest-to-back contact. At this stage, fighting to remain standing guarantees they consolidate the standing rear clinch. By sitting to guard before they lock their grips, you convert a losing position into a neutral ground engagement. This is particularly appropriate if you have a strong guard game and can immediately threaten sweeps or submissions from open guard.
-
-
-
-</section>
 
 
 </main>

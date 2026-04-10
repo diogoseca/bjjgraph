@@ -154,6 +154,8 @@ As the top player attempting to complete a stack pass against an opponent who is
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Defense?</p>
+
 - Opponent begins pushing against your hips or shoulders with straight arms, establishing defensive frames to create distance
 - Opponent's hips start turning to one side as they initiate a hip escape or shrimp away from your pressure direction
 - Opponent attempts to insert a knee between your bodies as a shield to prevent you from closing distance
@@ -166,6 +168,8 @@ As the top player attempting to complete a stack pass against an opponent who is
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Defense?</p>
 
 - Maintain constant forward driving pressure to prevent the guard player from establishing effective frames
 - Control the opponent's hips and legs to eliminate the hip escape that is central to their defense
@@ -180,6 +184,8 @@ As the top player attempting to complete a stack pass against an opponent who is
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Defense?</p>
 
 ### 1. Swim through frames by collapsing elbows inside opponent's arm frames and driving chest-to-chest
 
@@ -217,6 +223,8 @@ As the top player attempting to complete a stack pass against an opponent who is
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Defense?</p>
+
 ### → [[Positions/Side Control]]
 
 Complete the stack pass by maintaining forward pressure through their frames, controlling their hips to prevent escape, and consolidating side control once you clear their legs. Swim through their frames early and drive your shoulder into their chest as you walk around their guard.
@@ -232,6 +240,8 @@ If the opponent's stack defense creates significant spinal compression and they 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Defense?</p>
 
 ### 1. Releasing forward pressure when opponent establishes frames, allowing them to create space and recover
 
@@ -261,6 +271,8 @@ If the opponent's stack defense creates significant spinal compression and they 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Defense?</p>
+
 **Week 1-2: Frame Neutralization Drills** - Learning to swim through and collapse opponent's defensive frames during stack passes
 Partner establishes frames at various positions (hips, shoulders, biceps) while you practice swimming through, stripping, and collapsing each frame type. Start at 30% resistance and progress to 60%. Focus on maintaining forward pressure throughout the frame neutralization process. 15 reps per frame type per side.
 
@@ -277,26 +289,6 @@ Live situational rolling starting from closed guard where you must pass using st
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent establishes strong frames on your hips during your stack pass. What are your options to overcome these frames?
-**A**: You have several options: swim one arm inside their frame and collapse it by driving your elbow past their wrist, then chest-pressure through the gap; use a two-on-one grip to strip one of their framing hands and pin it to the mat or their body; or redirect your angle by stepping to one side to make their straight-ahead frames structurally ineffective. The swim-through is highest percentage when their frames are on your hips, while redirection works better when frames are on your shoulders. Avoid simply pushing harder into established frames as this wastes energy.
-
-**Q2**: Your opponent hip escapes to the right during your stack pass, creating a 45-degree angle. How do you convert this into a successful pass?
-**A**: Their rightward hip escape opens a passing lane to your left. Immediately redirect from the stack to a knee cut pass by sliding your left knee across their right thigh, using the angle they created as your passing path rather than fighting against it. Control their right hip with your left hand and their far collar or shoulder with your right hand to prevent them from following your movement. Alternatively, if their legs are accessible, transition to a leg drag by pinning both legs to your right side and passing to their left, using their own hip escape angle against them.
-
-**Q3**: When is the optimal moment to secure ankle or pant grips during a stack pass to prevent the opponent's stack defense?
-**A**: The optimal moment is after you have initially driven forward and broken their guard open but before they have established frames on your body. In this transitional window, their hands are typically still adjusting from guard grips to defensive frames, giving you a brief opportunity to control their ankles or pants without being framed away. If you wait until after frames are established, reaching for ankles means releasing pressure and allowing their defense to consolidate. Securing leg control early eliminates the hip escape foundation of their entire defensive sequence.
-
-**Q4**: How do you recognize whether an opponent will attempt a granby roll versus a standard hip escape during stack defense?
-**A**: A granby roll is signaled by the opponent tucking their chin to one side, posting one hand behind their own shoulder on the mat, and beginning to shift weight onto their upper back and shoulder rather than their hips. Their eyes will look toward the direction of the intended roll. In contrast, a standard hip escape shows the opponent pushing off with their feet, turning their hips laterally, and maintaining frames with both hands against your body. Recognizing the granby setup allows you to counter by driving your weight forward and down through their chest, pinning their shoulders to the mat and preventing the inversion.
-
-
-
-</section>
 
 
 </main>

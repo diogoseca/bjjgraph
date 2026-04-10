@@ -150,6 +150,8 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura Defense?</p>
+
 - Opponent begins pulling their elbow tight to their ribs and internally rotating their shoulder, indicating they are entering defensive posture before attempting an escape
 - Opponent's free hand starts pushing against your hip or shoulder while their hips load for a bridge, signaling an imminent rolling escape attempt
 - Opponent begins circling their trapped arm forward and down following the lock direction, indicating they are relieving pressure and setting up an arm extraction or roll
@@ -160,6 +162,8 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura Defense?</p>
 
 - Maintain deep figure-four grip near the elbow rather than the wrist to maximize control retention during escape attempts
 - Keep chest pressure heavy on the opponent's torso to limit their bridging power and rolling momentum
@@ -174,6 +178,8 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura Defense?</p>
 
 ### 1. Tighten grip and walk feet toward opponent's head to increase finishing angle
 
@@ -204,6 +210,8 @@ The key challenge is maintaining the figure-four grip structure while the oppone
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura Defense?</p>
+
 ### → [[Positions/Kimura Trap]]
 
 Maintain deep grip and heavy chest pressure throughout the escape attempt. When opponent circles their arm, tighten the figure-four and walk your feet to increase the finishing angle. Use your bodyweight to pin them flat and prevent rolling momentum from developing. Reset to stable control and re-threaten the submission.
@@ -219,6 +227,8 @@ When the opponent successfully breaks your kimura grip through persistent rollin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura Defense?</p>
 
 ### 1. Squeezing the grip tighter using arm strength alone when opponent begins escaping
 
@@ -243,6 +253,8 @@ When the opponent successfully breaks your kimura grip through persistent rollin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura Defense?</p>
+
 **Phase 1: Grip Retention Under Movement** - Maintaining figure-four structure while partner moves
 Partner performs progressive escape movements - arm circles, bridges, hip escapes - while you focus solely on keeping the kimura grip intact through body positioning rather than arm strength. Build awareness of which body adjustments reinforce grip structure. Start at 30% resistance and progress to 70%.
 
@@ -256,26 +268,6 @@ Practice following rolling escapes to mount and back control. Drill the decision
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important grip adjustment when your opponent begins circling their trapped arm with the lock direction?
-**A**: When the opponent circles their arm with the lock, you must immediately tighten the figure-four by pulling your elbows into your own body and closing any space between your chest and their tricep. Simultaneously walk your feet toward their head to increase the finishing angle, which counteracts the pressure relief they gain from the arm circle. The key is converting their defensive movement into a deeper finishing position rather than fighting the circle with static resistance.
-
-**Q2**: Your opponent bridges explosively and begins rolling forward over their trapped shoulder - what is your immediate response?
-**A**: Do not fight the roll statically. Maintain your grip connection and follow their rolling momentum by stepping over their body as they rotate. Your goal is to arrive in mount or back control on the other side of the roll with the kimura grip still intact. Plant your far foot wide for base during the transition and keep your chest connected to their back or shoulder throughout. Attempting to block the roll with dead weight usually results in grip failure and positional loss.
-
-**Q3**: How do you prevent the opponent from using their free hand to attack your base during kimura defense?
-**A**: Control their free arm through chest pressure that pins their far shoulder to the mat, limiting their reaching ability. Position your head low and tight against their ribcage on the opposite side, making it difficult for them to push your head or shoulder effectively. When you feel their free hand contacting your hip for a push, immediately sprawl your hips back to remove the leverage point they need for the bridge. Their free hand is only dangerous when combined with hip elevation, so denying the bridge neutralizes the pushing threat.
-
-**Q4**: When should you abandon the kimura grip and transition to positional control instead?
-**A**: Abandon the grip when the opponent has successfully broken the figure-four structure or when maintaining the grip forces you into a compromised base that risks a sweep or reversal. The critical decision point is when you feel your own balance deteriorating to chase the grip. At that moment, release immediately and consolidate side control or mount with crossface and hip control. A strong positional advantage without the grip is always preferable to losing position entirely while clinging to a degraded grip. Advanced practitioners recognize this transition point instinctively.
-
-
-
-</section>
 
 
 </main>

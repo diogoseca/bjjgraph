@@ -188,6 +188,8 @@ As the bottom player caught in crucifix, your role as the attacker of the Crucif
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crucifix Choke Defense?</p>
+
 - Chin tuck and shoulder raise create the first structural barrier against any choke—establish this before all other actions
 - Two-on-one grip control on the choking wrist provides the mechanical advantage needed to strip grips despite positional disadvantage
 - Never abandon neck defense to pursue escape—the choke will finish faster than any escape sequence
@@ -203,6 +205,8 @@ As the bottom player caught in crucifix, your role as the attacker of the Crucif
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crucifix Choke Defense?</p>
+
 - At least one hand must retain partial mobility for grip fighting and neck protection
 - Chin must be able to tuck toward the chest to create initial structural defense against the choke
 - Enough awareness to recognize the choke attempt before it is fully locked and tightened
@@ -214,6 +218,8 @@ As the bottom player caught in crucifix, your role as the attacker of the Crucif
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crucifix Choke Defense step by step?</p>
 
 1. **Recognize the Choke Threat**: Feel for the opponent's hand or forearm moving across your jaw or under your chin. Tactile recognition is critical because visual cues are limited from crucifix bottom. The moment you feel pressure moving toward your neck, shift all defensive priority to choke defense immediately.
 2. **Establish Structural Chin Defense**: Aggressively tuck your chin toward your chest and raise the shoulder on the side of the choking arm. This creates a skeletal barrier that the opponent must work around before securing the choke. Press your chin down hard—every millimeter of space between chin and chest is a vulnerability the opponent will exploit.
@@ -244,6 +250,8 @@ As the bottom player caught in crucifix, your role as the attacker of the Crucif
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crucifix Choke Defense?</p>
+
 - **Opponent switches to arm-in choke variation that bypasses chin defense by threading the choking arm inside the defending hand** (Effectiveness: Medium) - Your Response: Recognize the arm-in variation early and redirect your grip fighting to the new choking angle. Use your shoulder to wedge against the inside of their elbow, preventing them from closing the choke. Arm-in chokes require different mechanics—adjust your shoulder positioning rather than relying solely on grip fighting. → Leads to [[Positions/Crucifix]]
 - **Opponent abandons choke entirely and transitions to mounted crucifix by swinging their leg over to mount position while maintaining arm traps** (Effectiveness: High) - Your Response: When you feel the opponent's weight shifting to transition to mount, immediately bridge and shrimp before they complete the transition. The moment between crucifix and mounted crucifix is the most vulnerable for the top player. If you miss this window, you face an even worse position with mount pressure added to arm control. → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Opponent re-grips from a different choking angle after the initial grip is stripped, attacking from the opposite side or switching to a short choke configuration** (Effectiveness: Medium) - Your Response: Maintain your free hand in a defensive position near your neck even after successfully stripping the first grip. Anticipate the re-grip and meet it immediately with grip fighting rather than celebrating the initial success. Use the brief disruption between grip attempts to advance your hip escape. → Leads to [[Positions/Crucifix]]
@@ -255,6 +263,8 @@ As the bottom player caught in crucifix, your role as the attacker of the Crucif
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crucifix Choke Defense?</p>
 
 ### 1. Attempting to escape the crucifix position before addressing the active choke threat
 
@@ -294,10 +304,12 @@ As the bottom player caught in crucifix, your role as the attacker of the Crucif
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crucifix Choke Defense (Attacker)?</p>
+
 **Phase 1: Structural Defense Recognition** - Chin tuck, shoulder positioning, and recognizing choke threats by feel
 Partner applies slow, telegraphed choke attempts from crucifix. Bottom player practices immediate chin tuck and shoulder raise response. No grip fighting—focus exclusively on recognizing tactile cues and establishing structural barriers. 20% resistance, emphasizing correct defensive posture over speed.
 
-**Phase 2: Grip Fighting Mechanics** - Two-on-one wrist control, rotational grip stripping, and hand positioning
+**Phase 2: Grips Mechanics** - Two-on-one wrist control, rotational grip stripping, and hand positioning
 Partner holds choke position statically while bottom player practices locating the wrist, establishing C-grip, and executing rotational strips against the thumb line. Drill at 40% resistance with partner allowing successful strips while providing realistic grip tension. Build muscle memory for wrist location without visual cues.
 
 **Phase 3: Defense-to-Escape Integration** - Connecting successful choke defense directly into escape sequences
@@ -314,42 +326,12 @@ Begin specific training rounds from crucifix bottom with the top player actively
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct survival hierarchy when defending a choke from crucifix bottom?
-**A**: The hierarchy is: (1) defend the choke through chin tuck and shoulder raise, (2) fight grips by securing two-on-one wrist control and stripping the choking hand, (3) escape the position through hip movement to turtle or back control. This order is critical because a locked choke finishes faster than any escape sequence completes. Reversing the hierarchy by prioritizing escape over choke defense leads to submission during the escape attempt.
-
-**Q2**: Where should you grip when fighting the opponent's choking hand, and why?
-**A**: Grip the opponent's wrist using a C-grip or monkey grip, not their hand or fingers. The wrist provides a larger control surface and better leverage for rotational stripping mechanics. Stripping is executed by rotating the wrist against the thumb line—the weakest point of any grip—rather than attempting to outmuscle the grip through direct pulling. Hand and finger grips are too small to maintain reliable control under the pressure of an active choking attempt.
-
-**Q3**: Your opponent starts applying a rear naked choke from crucifix—what is your immediate physical response?
-**A**: Immediately tuck chin aggressively toward chest and raise the shoulder on the choking side to create structural barriers. With the free hand, reach for the opponent's choking wrist to establish grip control. Do not attempt any escape movement at this stage—all attention and energy go to preventing the choke from closing. Controlled breathing is essential to avoid panic-induced energy depletion that makes sustained defense impossible.
-
-**Q4**: Why are explosive movements counterproductive when defending from crucifix bottom?
-**A**: Explosive movements telegraph your intentions, allowing the opponent to anticipate and counter. They also tighten the opponent's leg triangle on the trapped arm by pulling against the mechanical advantage of the figure-four configuration. Additionally, explosive movements rapidly deplete energy reserves that are needed for sustained grip fighting and eventual escape. Calm, deliberate micro-adjustments are more effective because they create incremental positional improvements without alerting the opponent or wasting energy.
-
-**Q5**: What is the optimal timing window for transitioning from choke defense to position escape?
-**A**: The transition should begin immediately after successfully stripping or redirecting the choking grip—there should be no pause between defense and escape. The brief disruption in the opponent's control structure created by your grip fighting is the optimal window because their attention is on re-establishing the choke rather than preventing your escape. If you wait after stripping the grip, the opponent will re-grip from a better angle and you will need to defend again with diminished energy.
-
-**Q6**: How should your free hand be positioned throughout the defense, and why?
-**A**: The free hand must stay positioned between the opponent's hands and your neck at all times. Its primary function alternates between direct neck protection (blocking choking access) and active grip fighting (stripping the choking wrist). Never use the free hand for pushing against the opponent's body or attempting arm extraction from the leg trap—these actions leave the neck completely unprotected. If the free hand is captured or controlled, the position becomes virtually inescapable.
-
-**Q7**: Your opponent strips your grip on their choking wrist and re-applies pressure—how do you adjust?
-**A**: Immediately re-establish chin tuck and shoulder defense as the primary barrier while reaching again for the choking wrist. Use the brief moment of transition to advance your hip escape—even small incremental hip movement gained during each grip exchange compounds into meaningful positional change. Consider switching to the shoulder roll turn-in variant if direct grip fighting is consistently failing, as the structural turn-in defense does not rely on winning the grip battle.
-
-**Q8**: What role does hip movement play in choke defense from crucifix, and when should you initiate it?
-**A**: Hip movement serves dual purposes: it changes the angle between your neck and the opponent's choking arm, reducing choke effectiveness, and it creates the positional displacement needed for escape. Initiate hip movement concurrently with grip fighting, not sequentially—small shrimps during grip exchanges accumulate into meaningful angle changes. The hip movement should not be large or explosive, as this diverts energy and attention from the primary choke defense, but rather incremental shrimps timed with each successful grip disruption.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crucifix Choke Defense?</p>
 
 Crucifix choke defense training involves working against active neck attacks where injury risk is elevated. Partners must release choke pressure immediately when the bottom player taps or shows any signs of distress including slapping, verbal tapping, or going limp. Never hold a choke in training to test whether defense will work—the margin between effective choke and loss of consciousness is narrow and unpredictable. Train grip fighting progressively, starting at low intensity to prevent wrist, finger, and neck injuries. When drilling, establish clear verbal signals for stopping if the choke becomes too tight for productive training. The trapped arm in crucifix is vulnerable to shoulder strain—partners should avoid cranking the leg triangle aggressively during defense drills.
 

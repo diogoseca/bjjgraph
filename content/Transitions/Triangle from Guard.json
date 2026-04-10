@@ -46,7 +46,7 @@
       "relationship": "Primary destination - successful entry leads to Triangle Control position"
     },
     {
-      "name": "Triangle Choke Front",
+      "name": "Triangle Choke",
       "relationship": "Follow-up finish - completes the submission from Triangle Control"
     },
     {
@@ -54,7 +54,7 @@
       "relationship": "Chain attack - primary alternative when triangle is defended by stacking"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Triangle to Armbar",
       "relationship": "Chain attack - available when opponent extracts arm during triangle attempt"
     },
     {

@@ -190,6 +190,8 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar Defense?</p>
+
 - Recognize armbar attacks early before full extension occurs - defense difficulty increases exponentially with each second of delay
 - Maintain defensive hand positioning with thumbs up and elbows tight to create skeletal resistance rather than relying on muscular effort
 - Create rotational movement toward opponent's head to reduce the angle of attack on the elbow joint
@@ -205,6 +207,8 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar Defense?</p>
+
 - Opponent has established armbar control with legs positioned across your body and head
 - Your arm is being isolated and extended toward submission but has not reached full hyperextension
 - Recognition of the specific armbar variation being applied determines optimal escape path
@@ -218,6 +222,8 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar Defense step by step?</p>
 
 1. **Recognize the attack**: Identify armbar setup immediately as opponent begins to pivot their body perpendicular to yours, isolates your arm, or starts to swing their leg across your head or chest. Early recognition is critical as defenses become exponentially more difficult once full extension begins.
 2. **Lock hands together**: Immediately clasp both hands together in a gable grip (palm-to-palm with fingers interlocked) to prevent full arm extension. Keep thumbs pointed upward and elbows tight to your body. This creates a structural frame using bone alignment that makes it significantly harder for opponent to straighten your arm.
@@ -239,7 +245,7 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 | Success | [[Positions/Closed Guard]] | 45% |
 | Success | [[Positions/Half Guard]] | 15% |
 | Failure | [[Positions/Armbar Control]] | 30% |
-| Counter | [[game-over]] | 10% |
+| Counter | [[Positions/Triangle Control]] | 10% |
 
 
 </section>
@@ -248,10 +254,12 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 
 ## Opponent Counters
 
-- **Opponent switches to triangle choke as you turn toward them** (Effectiveness: High) - Your Response: Maintain posture by keeping head up and posting free hand on opponent's hip. Stack aggressively to prevent triangle lock and work to extract trapped arm while defending the choke. If necessary, stand up to eliminate both submission angles. → Leads to [[game-over]]
+<p class="section-subtitle">How might your opponent counter Armbar Defense?</p>
+
+- **Opponent switches to triangle choke as you turn toward them** (Effectiveness: High) - Your Response: Maintain posture by keeping head up and posting free hand on opponent's hip. Stack aggressively to prevent triangle lock and work to extract trapped arm while defending the choke. If necessary, stand up to eliminate both submission angles. → Leads to [[Positions/Triangle Control]]
 - **Opponent transitions to omoplata when you rotate shoulder forward** (Effectiveness: Medium) - Your Response: As opponent begins to thread your arm through for omoplata, roll forward over your trapped shoulder in a controlled somersault to alleviate shoulder pressure and come up in top position inside their guard. → Leads to [[Positions/Armbar Control]]
-- **Opponent applies wrist control and breaks your defensive grip** (Effectiveness: High) - Your Response: Focus on keeping elbow bent even if hands separate. Turn thumb upward into hitchhiker position while continuing rotation toward opponent's head to reduce joint angle and maintain defensive posture. → Leads to [[game-over]]
-- **Opponent elevates hips explosively to finish before you can stack** (Effectiveness: Medium) - Your Response: Accelerate your rotation and drive weight laterally across opponent's hips rather than straight forward. Use lateral pressure to compromise their hip elevation angle and buy time to re-establish defensive structure. → Leads to [[game-over]]
+- **Opponent applies wrist control and breaks your defensive grip** (Effectiveness: High) - Your Response: Focus on keeping elbow bent even if hands separate. Turn thumb upward into hitchhiker position while continuing rotation toward opponent's head to reduce joint angle and maintain defensive posture. → Leads to [[Positions/Closed Guard]]
+- **Opponent elevates hips explosively to finish before you can stack** (Effectiveness: Medium) - Your Response: Accelerate your rotation and drive weight laterally across opponent's hips rather than straight forward. Use lateral pressure to compromise their hip elevation angle and buy time to re-establish defensive structure. → Leads to [[Positions/Closed Guard]]
 
 
 </section>
@@ -259,6 +267,8 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar Defense?</p>
 
 ### 1. Attempting to pull arm straight back against opponent's legs
 
@@ -298,6 +308,8 @@ The urgency of execution cannot be overstated. Unlike many positional escapes wh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar Defense (Attacker)?</p>
+
 **Week 1-2: Recognition Drills** - Identifying armbar setups from various positions
 Partner slowly initiates armbar setups from mount, guard, and side control while you focus solely on recognizing the attack indicators (leg movement, arm isolation, body pivoting). Call out the attack type and freeze position for analysis.
 
@@ -321,54 +333,12 @@ Dedicate focused training time to defending specific armbar types: mount armbar,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you rotate your shoulder toward opponent's head during armbar defense rather than pulling straight back?
-**A**: Rotating the shoulder toward the opponent's head changes the angle of attack on the elbow joint, reducing the mechanical advantage they have for extension. Pulling straight back against their leg pressure actually assists the submission by creating direct resistance against their strongest leverage point. The rotation also facilitates stacking their hips, which further compromises their ability to generate extension force.
-
-**Q2**: What is the primary danger of separating your hands before successfully stacking opponent's hips?
-**A**: Separating hands prematurely allows the opponent to achieve full arm extension, which creates direct pressure on the elbow joint and makes escape nearly impossible. The clasped hands create a structural frame that prevents extension even under significant pressure. Once hands are separated without first removing the opponent's leverage through stacking, the submission becomes extremely difficult to defend and injury risk increases dramatically.
-
-**Q3**: How should you respond if opponent begins transitioning to triangle choke as you rotate toward them during armbar defense?
-**A**: Maintain upright posture by keeping your head elevated and posting your free hand on the opponent's hip to create a strong base. Continue the stacking pressure while being aware of the triangle threat. Keep your trapped arm's elbow tight to prevent them from locking the triangle, and work to extract the arm while defending the choke. If necessary, stand up to completely remove both submission threats by eliminating the angle.
-
-**Q4**: What is the hitchhiker position and when should it be used during armbar defense?
-**A**: The hitchhiker position involves keeping the thumb pointed upward (like hitchhiking gesture) with the elbow bent, even if your defensive grip has been broken. This position reduces the angle of attack on the elbow joint and prevents full extension. It should be used as a last-resort defensive measure when opponent has broken your hand clasp but you are still executing the rotational escape and stacking sequence. The position buys critical time to complete the escape mechanics.
-
-**Q5**: Why is early recognition of armbar setups more critical than in defenses for other submissions?
-**A**: Armbar defenses become exponentially more difficult once the opponent achieves full positioning with legs secured and arm extended. Unlike chokes where you may have several seconds before losing consciousness, the armbar can be completed in under one second once proper leverage is established, and continued resistance results in immediate elbow injury. The mechanical efficiency of the armbar means that defensive windows are extremely narrow, making early recognition and immediate defensive response absolutely critical for successful escape without injury.
-
-**Q6**: Your opponent breaks your gable grip and begins to extend your arm - what immediate adjustment saves the position?
-**A**: Immediately rotate your thumb toward the ceiling (hitchhiker position) while bending at the elbow and continuing to turn your body toward opponent's head. This thumb-up orientation creates the strongest anatomical position for resisting hyperextension. Simultaneously drive your hips forward to maintain stacking pressure. If space allows, reach your free hand to grip your trapped wrist and re-establish a defensive frame while continuing the rotational escape.
-
-**Q7**: What is the optimal direction of force when stacking your opponent during armbar defense?
-**A**: Drive your weight forward and slightly diagonal toward opponent's far shoulder, not straight down onto their hips. This diagonal pressure vector compromises their ability to maintain perpendicular hip alignment needed for the finish. Your chest and shoulders should move over their hip line while your own hips drive forward. This creates a folding pressure that makes it mechanically difficult for them to generate hip elevation for the submission.
-
-**Q8**: When defending an armbar from closed guard, what must you establish before attempting arm extraction?
-**A**: You must first recover strong upright posture with your weight distributed back toward your heels and your head elevated away from their chest. Without posture, any arm extraction attempt will be countered by them re-breaking your posture and re-isolating the arm. Once posture is established, maintain it by keeping your non-trapped hand posted on their hip or chest, then work the arm extraction by pulling toward your centerline while keeping the elbow bent.
-
-**Q9**: How does defending a belly-down armbar differ mechanically from a standard supine armbar defense?
-**A**: In the belly-down position, traditional stacking is unavailable because you cannot drive forward over opponent's hips. Instead, the escape requires a forward roll over the trapped shoulder in the direction your trapped arm points. Tuck your chin, push off your back foot, and somersault forward. This rotation removes the arm from the submission angle by changing the plane of movement entirely. You will typically land in turtle position and must immediately address the scramble that follows.
-
-**Q10**: What grip configuration provides the strongest defense when clasping hands during armbar defense?
-**A**: The gable grip (palm-to-palm with fingers interlocked) provides maximum structural integrity against attempts to separate your hands. Position your trapped arm's hand with thumb pointing up, then clasp your free hand over it with matching palm contact. Keep both elbows tight to your body and pull the clasped hands toward your chest. This configuration uses bone structure rather than grip strength alone and is significantly harder for opponent to break than an S-grip or figure-four grip.
-
-**Q11**: Your opponent controls your wrist with both hands and has tight leg control across your face - what escape sequence should you prioritize?
-**A**: With both their hands on your wrist and tight leg control, the stacking escape is your best option. Use your free arm to push against their top leg near the knee while simultaneously bridging your hips forward and turning toward your trapped arm. This creates lateral pressure that is harder to control than straight stacking. As their leg control loosens from the hip drive, continue turning until you can posture up and begin arm extraction. Do not attempt to pull the arm back until the stacking has compromised their hip position.
-
-**Q12**: What are the key indicators that an armbar attack is being initiated from mount position?
-**A**: From mount, armbar indicators include: opponent beginning to pivot their body perpendicular to yours, isolating one of your arms by controlling the wrist or sleeve, shifting their weight to one side to facilitate leg swing, and beginning to swing their leg across your face or chest. Additional signs include opponent securing a high mount position, trapping your arm across their body, or breaking your defensive frames. Recognition of these early movements allows defensive response before full armbar position is achieved.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar Defense?</p>
 
 Armbar defense training carries significant injury risk if not practiced with appropriate control and communication. Practitioners must understand that the elbow joint can be hyperextended very rapidly once full armbar leverage is achieved, and attempts to resist a completed armbar will result in serious injury requiring medical attention and extended recovery. During drilling, partners must apply controlled pressure and immediately release when the defending partner taps or signals verbally. Never attempt to tough out or resist a fully locked armbar, as elbow ligament damage can occur in less than one second of sustained pressure. Beginners should practice defenses only with experienced partners who understand appropriate pressure application. Progress gradually through resistance levels and ensure drilling partners can reliably control their submission attempts before advancing to higher-intensity training.
 

@@ -169,6 +169,8 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ## Position Definition
 
+<p class="section-subtitle">What is Butterfly Hook Control (Top)?</p>
+
 - Knees on mat with feet positioned to create wide, stable base that resists elevation from opponent's butterfly hooks while maintaining forward engagement
 - Posture maintained upright with head and chest elevated above opponent's shoulder line, preventing opponent from breaking posture forward and controlling upper body for sweeps
 - Hands positioned to control opponent's upper body through collar grips, crossface, or underhook control, preventing them from securing strong sweep grips while maintaining ability to post if needed
@@ -180,6 +182,8 @@ Effective top play requires understanding how to distribute weight to minimize s
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Butterfly Hook Control (Top)?</p>
 
 - Opponent has established butterfly hooks inside your thighs
 - You are on knees in combat base or similar position
@@ -194,6 +198,8 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Butterfly Hook Control?</p>
+
 - Maintain wide base with knees spread and feet positioned to resist lateral and forward elevation attempts
 - Control opponent's upper body to prevent them from establishing strong posture-breaking grips that enable sweeps
 - Apply measured forward pressure that prevents angle creation without overcommitting weight onto hooks
@@ -207,6 +213,8 @@ Effective top play requires understanding how to distribute weight to minimize s
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Butterfly Hook Control (Top)?</p>
 
 **If opponent maintains strong upright posture with deep hooks and good grips:**
 - Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Guard]] (Probability: 60%)
@@ -235,6 +243,8 @@ Effective top play requires understanding how to distribute weight to minimize s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Butterfly Hook Control?</p>
 
 ### 1. Keeping knees too close together with narrow base
 
@@ -274,7 +284,9 @@ Effective top play requires understanding how to distribute weight to minimize s
 
 ## Training Drills for Attacks
 
-### Base Maintenance Drill
+<p class="section-subtitle">How do you train Butterfly Hook Control attacks?</p>
+
+### Base Drill
 
 Partner uses butterfly hooks to attempt sweeps in all directions while you maintain base. Focus on weight distribution and reactive base adjustments. Partner increases intensity progressively.
 
@@ -306,38 +318,6 @@ Start with opponent in butterfly guard with hooks established. Work to pass usin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts elevating with their hooks while maintaining collar grip - what immediate base adjustment do you make?
-**A**: Widen your knee base immediately while driving your hips backward and down toward the mat. This lowers your center of gravity and removes the angle the hooks need for effective elevation. Simultaneously break the collar grip by stripping it with both hands or swimming your head through, as the grip is what allows them to direct your weight during the sweep. Without the collar control, their elevation becomes undirected force you can redirect.
-
-**Q2**: What are the essential grips for maintaining position against butterfly hooks?
-**A**: Priority grips include collar control on the same side you plan to pass (prevents them pulling you into sweep direction), sleeve or wrist control on their dominant grip hand (neutralizes their directional control), and underhook or crossface control to prevent them sitting up into strong posture. In no-gi, head position combined with wrist control serves similar function. The key is denying them the upper body connections they need to direct sweeping force.
-
-**Q3**: How do you shut down the primary arm drag back take threat from butterfly guard?
-**A**: Keep elbows tight to your ribs at all times - the arm drag requires them to isolate your arm away from your body. When you feel them grip your tricep or wrist for the drag, immediately circle your elbow down and in toward your hip while driving your shoulder forward into their chest. If the drag begins, you must circle away from the drag direction while maintaining base. Never reach or post with straight arms near their body, as extended arms are easy drag targets.
-
-**Q4**: What grip priorities should you establish before attempting to pass butterfly guard?
-**A**: First priority is controlling their dominant upper body grip to prevent sweep direction. Second is establishing collar grip or underhook on the side you intend to pass. Third is controlling their far hip or pants to prevent them creating angles. These three control points form a triangle that limits their offensive options. Only after establishing at least two of these should you begin active passing attempts.
-
-**Q5**: How do you apply forward pressure without getting swept?
-**A**: The key is distributing weight through your chest and shoulders into their upper body while keeping your hips back and base wide. Your weight should feel heavy on their chest but your center of gravity stays behind your knees, not over their hooks. Think of pressing down diagonally rather than straight forward. This pressure prevents them sitting up without loading your weight onto their hooks where they can elevate and sweep.
-
-**Q6**: Your opponent suddenly sits up explosively and pumps their hooks - what is your immediate response?
-**A**: Immediately drive your forehead or shoulder into their chest while sprawling your hips backward and widening your base. This stops their upward momentum and prevents them achieving the elevation angle needed for the sweep. Do not try to post your hands wide - keep elbows tight to prevent arm drag. If they achieve significant elevation, standing up in base is often safer than trying to recover kneeling position while elevated.
-
-**Q7**: How do you manage energy when passing butterfly guard against an active opponent?
-**A**: Avoid constant forward pressure battles which exhaust you faster than the guard player. Instead, use intermittent pressure bursts followed by grip fighting and position consolidation. Focus on systematically removing one hook at a time rather than trying to pass both simultaneously. Accept that passing butterfly often requires multiple attempts - conserve energy between attempts by controlling distance and grips rather than constantly engaging with the hooks.
-
-**Q8**: Your opponent partially sweeps you but you post your hand to stop the sweep - how do you recover to stable position?
-**A**: From the posted position, immediately drive your shoulder and head forward into their upper body while walking your base back underneath you. Do not try to lift your posted hand until your base is stable - instead use it as a pivot point while you bring your knees back to wide position. Once base is recovered, strip any grips they have before resuming your passing strategy. If they maintain strong control during your recovery, consider standing up rather than fighting to re-establish kneeling base.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

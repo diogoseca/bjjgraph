@@ -162,6 +162,8 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook Control Sweep?</p>
+
 - Bottom player tightens the overhook seal and pulls your arm tighter against their body, removing any slack in the grip
 - Bottom player performs a hip escape to angle their body toward the sweep direction rather than lying flat beneath you
 - Bottom player inserts a butterfly hook under your thigh or repositions their outside leg for pendulum swing or bridge
@@ -176,6 +178,8 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Overhook Control Sweep?</p>
+
 - Maintain base width - keep feet and knees wide enough that no single-direction sweep can topple your structure even with one arm controlled
 - Address the overhook before the sweep - strip or neutralize the overhook grip proactively rather than waiting to defend the sweep itself
 - Prevent hip angling - keep pressure on opponent's hips to prevent them from creating the diagonal body angle that enables the sweep
@@ -189,6 +193,8 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook Control Sweep?</p>
 
 ### 1. Post free hand firmly on the mat toward the sweep direction
 
@@ -226,6 +232,8 @@ Defending the Overhook Control Sweep requires recognizing the setup cues early a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook Control Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the overhook grip by rotating your shoulder, performing a limp-arm escape, or using your free hand to peel their grip. Once the overhook is broken, immediately establish passing grips and begin advancing past their guard before they can re-establish the overhook or transition to another guard system.
@@ -241,6 +249,8 @@ Stuff the sweep by posting firmly, widening your base, or driving your weight fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Control Sweep?</p>
 
 ### 1. Reaching across body with free hand to grab opponent's leg or hip during sweep
 
@@ -270,6 +280,8 @@ Stuff the sweep by posting firmly, widening your base, or driving your weight fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook Control Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues before execution begins
 Partner establishes overhook and cycles through different sweep setups: hook insertion, hip angling, posture breaking, and grip tightening. Defender calls out each cue as they recognize it without attempting to defend. Build pattern recognition for all sweep variants and their specific preparatory movements.
 
@@ -286,29 +298,6 @@ Full-resistance positional sparring starting in overhook control. Bottom player 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Overhook Control Sweep is being set up?
-**A**: The earliest cue is the bottom player tightening their armpit seal and simultaneously shifting their hips to angle toward the sweep direction. This combination of grip tightening and hip angling is the preparatory phase that precedes all variants of the sweep. Recognizing this early allows you to address the threat before hooks are set and posture is broken, when defensive options are most numerous.
-
-**Q2**: Your opponent has established a tight overhook and begins inserting a butterfly hook - what is your immediate response?
-**A**: Immediately address the hook by pushing their hooking leg down with your hand or knee, then drive your weight forward to flatten their hips and eliminate the space needed for hook elevation. Simultaneously work to strip the overhook by rotating your shoulder. The hook and the overhook together create the sweep; removing either one neutralizes the threat. Prioritize the hook if you cannot strip the overhook quickly.
-
-**Q3**: Why is posting your free hand more effective than widening your base as an initial sweep defense?
-**A**: Posting creates an immediate structural barrier that completely stops the sweep momentum in the specific direction it is being applied. Base widening distributes resistance across all directions but may not provide sufficient resistance in the sweep direction against a fully committed sweep attempt. However, posting exposes your arm to chain attacks like Kimura, so the ideal sequence is post to stop the immediate sweep, then widen base and strip the overhook before the bottom player can transition to arm attacks.
-
-**Q4**: How do you defend the bridge-based overhook sweep variant when the bottom player has no butterfly hook?
-**A**: Against the bridge variant, drive your weight forward and down onto the bottom player's hips to prevent them from generating the upward hip drive needed for the bridge. Spread your knees wide to create maximum base against the rotational force. Keep your head tight to their body rather than posturing up, as the bridge is most effective when your weight is high. If you feel the bridge initiate, immediately flatten your hips and sprawl your legs back to absorb the force.
-
-**Q5**: What defensive priorities should you follow when the sweep has already been partially initiated?
-**A**: Once the sweep is in motion, the priority hierarchy is: first, post your free hand immediately to stop the momentum; second, drive your weight into the direction opposite the sweep to counter the rotational force; third, if you are past the tipping point and the sweep will succeed, release the overhook-side arm and begin planning your guard recovery from mount bottom rather than fighting the inevitable sweep in a position that could result in being mounted with your arm still trapped.
-
-
-
-</section>
 
 
 </main>

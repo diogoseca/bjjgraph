@@ -164,6 +164,8 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Long Step Pass?</p>
+
 - Passer angles their body approximately 45 degrees to one side while pushing your knees down and away from center, indicating they are creating the passing angle
 - Passer's weight shifts heavily to their lead leg and their rear foot lifts or repositions for a deep lateral step toward your hip
 - Passer establishes dominant grips on your pants at the knees or belt and begins to drive forward pressure while angling laterally
@@ -176,6 +178,8 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Long Step Pass?</p>
 
 - Deny the initial angle by keeping your knees pointed at the passer and maintaining active foot-on-hip frames that prevent lateral movement
 - Fight grips relentlessly - the passer cannot execute the long step without first establishing control of your lower body
@@ -190,6 +194,8 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Long Step Pass?</p>
 
 ### 1. Insert knee shield and establish inside position with far hand framing on passer's shoulder
 
@@ -227,6 +233,8 @@ The defensive hierarchy against the Long Step Pass follows three stages: prevent
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Long Step Pass?</p>
+
 ### → [[Positions/Open Guard]]
 
 Deny the pass through early frame insertion (knee shield or foot-on-hip), grip fighting to prevent the passer from establishing control, and hip escaping away from the passing direction to re-establish full open guard with active leg positioning and grip control
@@ -242,6 +250,8 @@ Counter-attack when the passer overcommits weight forward by using underhooks, b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Long Step Pass?</p>
 
 ### 1. Lying flat and waiting for the pass to develop before reacting defensively
 
@@ -276,6 +286,8 @@ Counter-attack when the passer overcommits weight forward by using underhooks, b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Long Step Pass?</p>
+
 **Week 1-2: Recognition and Frame Development** - Identifying Long Step Pass cues and building defensive frame responses
 Partner initiates the Long Step Pass at slow speed while you practice recognizing the visual and tactile cues that signal the pass is coming. Drill inserting knee shield and forearm frames at the correct timing. No live resistance from either side - focus entirely on developing the pattern recognition and automatic frame insertion responses. Repeat each defensive response 20-30 times per side.
 
@@ -292,29 +304,6 @@ Positional sparring starting from open guard with passer attempting Long Step Pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Long Step Pass is being initiated?
-**A**: The earliest cue is the passer angling their body approximately 45 degrees to one side while pushing your knees down and away from center. This angle creation precedes the actual long step and provides the critical window for inserting defensive frames. Secondary cues include the passer's weight shifting to their lead leg and their rear foot repositioning for a deep lateral step.
-
-**Q2**: Why is the knee shield the most effective single defensive structure against the Long Step Pass?
-**A**: The knee shield creates a structural barrier between your body and the passer that cannot be easily compressed with pressure alone. It prevents the passer from achieving chest-to-chest contact, which is the foundation of the Long Step Pass's effectiveness. The knee shield also controls distance, creates angles for guard recovery, and provides a platform for follow-up sweeps if the passer tries to force through it.
-
-**Q3**: Your opponent has landed the long step and is beginning to establish crossface - what is your last-resort defensive sequence?
-**A**: When the crossface is being established, immediately get your near-side forearm across the passer's throat or under their chin to create a frame that prevents full crossface completion. Simultaneously begin hip escaping toward the passer's legs (not away from them) to create angle. Use your far hand to fight for an underhook or frame on their far shoulder. Your goal shifts from preventing the pass to recovering half guard by inserting your near knee between their legs before they can circle to full side control.
-
-**Q4**: How do you exploit the passer's forward weight commitment to set up a sweep counter?
-**A**: When the passer commits weight forward during the long step, their base becomes narrow in the lateral direction. Insert a butterfly hook with your near leg under their thigh and use their forward momentum combined with an underhook to elevate and off-balance them to the side. The timing must coincide with the stepping motion when both the passer's weight and momentum are directed forward and down. If you have collar access, a collar drag combined with the butterfly hook creates an even stronger sweeping vector.
-
-**Q5**: What grip fighting priorities should you maintain to prevent the Long Step Pass from being initiated?
-**A**: First priority is preventing the passer from controlling both of your knees or pants simultaneously, as this is the grip configuration that enables the angle creation. Use two-on-one grip breaks immediately when they grab your pants. Second priority is maintaining at least one foot on their hip to control distance and prevent them from closing the gap needed for the long step. Third priority is controlling one of their sleeves or wrists to limit their grip options and prevent them from establishing crossface or underhook control during the pass attempt.
-
-
-
-</section>
 
 
 </main>

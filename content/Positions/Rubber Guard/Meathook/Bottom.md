@@ -44,8 +44,8 @@ description: "Master Meathook from bottom. Complete control guide covering arm i
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Armbar on Free Arm",
+      "text": "From this position, attempt Armbar on Free Arm. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
@@ -177,6 +177,8 @@ Competition application requires understanding rule sets and opponent body types
 
 ## Position Definition
 
+<p class="section-subtitle">What is Meathook (Bottom)?</p>
+
 - Bottom practitioner's shin must maintain constant hooking pressure across opponent's tricep, with the ankle positioned beyond the shoulder line and the knee angle creating downward lever force that prevents arm extraction while simultaneously pulling the shoulder forward to break posture
 - The non-hooking leg must remain active in controlling opponent's opposite hip or wrapping their back, preventing them from circling away from the trapped arm while maintaining the closed guard connection that anchors the entire control system
 - Bottom practitioner's grip on opponent's head or collar must work in coordination with the shin hook, creating opposing forces that compress opponent's posture while isolating the trapped arm—typically achieved through overhook or deep collar control on the non-trapped side
@@ -187,6 +189,8 @@ Competition application requires understanding rule sets and opponent body types
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Meathook (Bottom)?</p>
 
 - Established Rubber Guard control (Mission Control or New York) with opponent's posture already broken
 - Sufficient hip flexibility to bring shin over opponent's shoulder while maintaining guard connection
@@ -200,6 +204,8 @@ Competition application requires understanding rule sets and opponent body types
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Meathook?</p>
 
 - The shin hook creates a mechanical lever against the tricep—maintain constant pressure to prevent arm extraction
 - Hip angle determines submission availability—rotate hips to align for triangle, gogoplata, or omoplata based on opponent's defensive response
@@ -215,6 +221,8 @@ Competition application requires understanding rule sets and opponent body types
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Meathook (Bottom)?</p>
 
 **If opponent drives forward with pressure attempting to stack or smash guard:**
 - Execute **[[Transitions/Meathook to Gogoplata Control/Attacker|Meathook to Gogoplata Control]]** → [[Positions/Gogoplata Control]] (Probability: 65%)
@@ -233,7 +241,7 @@ Competition application requires understanding rule sets and opponent body types
 
 **If opponent establishes strong base and pauses defensive movement:**
 - Execute **[[Transitions/Crackhead Control to Mission Control/Attacker|Crackhead Control to Mission Control]]** → [[Positions/Rubber Guard/Mission Control]] (Probability: 65%)
-- Execute **[[Submissions/Armbar from Guard/Attacker|Armbar from Guard]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent attempts to pressure pass by driving shoulder into chest:**
@@ -248,6 +256,8 @@ Competition application requires understanding rule sets and opponent body types
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Meathook?</p>
 
 ### 1. Attempting Meathook without adequate hip flexibility, forcing the shin hook position beyond natural range of motion
 
@@ -292,6 +302,8 @@ Competition application requires understanding rule sets and opponent body types
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Meathook defense?</p>
+
 ### Meathook Entry from Mission Control
 
 Start in Mission Control with partner offering moderate resistance. Practice threading shin over trapped arm while maintaining collar control. Focus on smooth weight transfer and hip angle adjustment. Reset and repeat 10 times per side.
@@ -324,38 +336,6 @@ Start in Meathook position with partner attempting escapes using full resistance
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What grip and leg coordination is essential for maintaining Meathook control?
-**A**: The shin hook pressing against the opponent's tricep must work in coordination with the grip on the non-trapped side (overhook or deep collar control). These create opposing forces—the hook pulls the shoulder forward while the grip pulls the head down—compressing posture and preventing escape. Losing either element collapses the control structure.
-
-**Q2**: How deep must the shin hook be placed to maintain proper Meathook control?
-**A**: The ankle must cross completely over the opponent's shoulder line, with the shin applying downward lever pressure against the tricep. A shallow hook where the ankle doesn't clear the shoulder allows the opponent to simply pull their arm backward and escape. Deep hook placement creates a mechanical trap that prevents extraction regardless of opponent's strength.
-
-**Q3**: Your opponent begins driving forward with pressure while in your Meathook—what submission becomes available?
-**A**: Forward pressure drives the opponent's head into gogoplata range. As they drive forward to escape, transition to Gogoplata Control by adjusting your shin position to their throat. Their forward momentum actually assists the submission setup—the harder they drive, the deeper they enter the choke. This is why experienced practitioners never pressure forward against Meathook.
-
-**Q4**: How should you manage the high energy cost of Meathook position?
-**A**: Meathook is unsustainable beyond 30-45 seconds due to hip flexor and core demand. You must either advance to submission or transition to a more sustainable position like Mission Control within this window. Never attempt to hold Meathook as a static control position—recognize it as a transitional attack position and maintain urgency in your offensive progression.
-
-**Q5**: Your opponent attempts to extract their trapped arm by pulling upward—what counter attack opens?
-**A**: Upward arm extraction attempts open the triangle angle. As they pull up, their head dips and their shoulder rises, creating the perfect alignment for Triangle Setup. Follow their upward movement by adjusting your hip angle and throwing your leg over their neck to establish Triangle Control. Their escape attempt becomes your submission entry.
-
-**Q6**: What happens when you try to hold Meathook without adequate hip flexibility?
-**A**: Forcing Meathook beyond your natural range causes hip flexor strain and hamstring tears, compromises hook pressure allowing easy escape, and creates pain that distracts from proper technique execution. Test flexibility by bringing your knee to your chest while supine—if it doesn't reach shoulder level comfortably, continue flexibility development before attempting live Meathook.
-
-**Q7**: Your opponent is spinning their trapped arm to escape the hook—what submission chain activates?
-**A**: Arm spinning opens the omoplata pathway. As they rotate, transition to Carni by adjusting your hip angle to follow their rotation, then continue into Omoplata Control. Their spinning motion actually assists your shoulder isolation. The rotation that frees them from the hook simultaneously threads them deeper into the omoplata attack chain.
-
-**Q8**: Why is static hip positioning a critical error in Meathook?
-**A**: Static hips make submissions unavailable as angles fail to align properly, and opponents find escape paths through your positional stagnation. Treat your hips as a dynamic steering mechanism—rotate toward triangle when they pull up, angle for gogoplata when they drive forward, shift for omoplata when they spin. Movement creates submission opportunities; stillness eliminates them.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

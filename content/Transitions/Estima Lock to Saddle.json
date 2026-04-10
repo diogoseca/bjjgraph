@@ -10,7 +10,7 @@
     "backstep",
     "advanced"
   ],
-  "from_position": "Estima Lock/Top",
+  "from_position": "Estima Lock Control/Top",
   "outcomes": [
     {
       "to": "Saddle/Top",
@@ -18,7 +18,7 @@
       "result": "success"
     },
     {
-      "to": "Estima Lock/Top",
+      "to": "Estima Lock Control/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -144,7 +144,7 @@
         "counter": "Opponent straightens their leg and bridges during the transition window",
         "effectiveness": "Medium",
         "your_response": "Maintain heavy hip pressure against their leg throughout the rotation and keep your weight low. If they create significant space, abandon the Saddle and pursue outside ashi-garami or leg drag instead.",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent counter-rotates toward you and attempts to come on top",
@@ -156,7 +156,7 @@
         "counter": "Opponent sits up aggressively and frames on your hips during backstep",
         "effectiveness": "Low",
         "your_response": "Continue the backstep while using your free hand to swim past their frames. The sitting position actually assists your triangle establishment by bringing their thigh closer to your locking legs.",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       }
     ],
     "common_errors": [
@@ -274,7 +274,7 @@
       {
         "action": "Post your free leg on the mat or against the attacker's hip to block their rotation pathway",
         "when_to_use": "As soon as you feel the attacker's grip shift from footlock configuration to calf or knee control—this must happen before the backstep rotation begins",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Attacker's backstep is blocked, forcing them to either reattempt the Estima Lock or disengage. You remain in the less dangerous footlock position with opportunity to work standard Estima Lock escapes.",
         "risk": "If the post is late, the attacker may use your posted leg as leverage to complete the backstep faster, and you may end up in Saddle with your free leg compromised"
       },
@@ -288,7 +288,7 @@
       {
         "action": "Aggressive sit-up with frames on the attacker's hips to prevent them from completing the rotation",
         "when_to_use": "During the early phase of the backstep before the attacker's inside leg has threaded past your far hip—sitting up reduces available rotation space",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Your frames on their hips stall the backstep mid-rotation, leaving the attacker in a compromised half-completed position where they cannot establish the Saddle triangle. Forces them to restart or abandon the transition.",
         "risk": "If your frames are weak or late, sitting up actually brings your thigh closer to their locking legs and can accelerate Saddle completion"
       },
@@ -302,7 +302,7 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Estima Lock/Top",
+        "outcome": "Estima Lock Control/Top",
         "how": "Block the backstep rotation by posting your free leg early, framing on the attacker's hips, and counter-rotating your hips toward them. This forces the attacker back into the Estima Lock position where you face only the single footlock threat rather than the multi-attack Saddle. From here, execute standard Estima Lock escape protocols."
       },
       {

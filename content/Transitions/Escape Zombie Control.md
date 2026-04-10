@@ -214,7 +214,7 @@ Escape Zombie Control occupies a critical defensive role within the 10th Planet 
 
 - [[Transitions/Granby Roll to Guard]] - Follow-up escape technique from turtle after completing the transition
 
-- [[Principles/Guard Recovery]] - Related escape concept for recovering guard from compromised position
+- [[Transitions/Guard Recovery from Zombie]] - Alternative guard recovery transition from the same Zombie Bottom position
 
 - [[Transitions/Rolling to Guard]] - Alternative turtle escape for guard recovery after reaching turtle
 

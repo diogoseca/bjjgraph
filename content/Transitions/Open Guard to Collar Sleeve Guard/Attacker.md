@@ -188,6 +188,8 @@ As the attacker executing this transition, your objective is to convert a generi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Open Guard to Collar Sleeve Guard?</p>
+
 - Collar grip first, sleeve grip second - this sequencing hierarchy is non-negotiable because collar control makes sleeve capture dramatically easier
 - Use feet on hips as transitional frames that maintain distance while your hands win the grip fight
 - Pull collar at angles rather than straight back to immediately generate rotational instability upon establishment
@@ -202,6 +204,8 @@ As the attacker executing this transition, your objective is to convert a generi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Open Guard to Collar Sleeve Guard?</p>
+
 - Open guard bottom position with legs active between you and opponent
 - At least one hand free from defensive framing to initiate the collar grip
 - Opponent within arm's reach, either kneeling, in combat base, or standing
@@ -214,6 +218,8 @@ As the attacker executing this transition, your objective is to convert a generi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Open Guard to Collar Sleeve Guard step by step?</p>
 
 1. **Establish distance frame with feet**: Place both feet on the opponent's hips or inner thighs to create a distance frame that prevents them from closing distance while you initiate grip fighting. Keep your hips elevated off the mat and your shoulders slightly angled. This foot positioning buys the time needed to reach for grips without exposing yourself to pressure passing.
 2. **Secure cross-collar grip**: Reach across with your dominant hand and insert four fingers deep inside the opponent's collar near the shoulder seam on the far side. The grip should be thumb-out with fingers curling around the collar fabric for maximum purchase. Time this reach during a moment when the opponent is adjusting their base or breaking your foot frames, as their hands are occupied and cannot immediately strip the grip.
@@ -243,6 +249,8 @@ As the attacker executing this transition, your objective is to convert a generi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Open Guard to Collar Sleeve Guard?</p>
+
 - **Opponent strips collar grip using two-on-one grip break before sleeve is captured** (Effectiveness: High) - Your Response: Re-establish collar grip immediately using opposite hand or transition to sleeve-only guards like spider guard or lasso guard rather than fighting to re-secure a contested collar → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward with heavy pressure to collapse distance before grips are complete** (Effectiveness: Medium) - Your Response: Use feet on hips to maintain distance and absorb the pressure drive. If distance collapses, transition to closed guard or butterfly guard hooks rather than forcing collar sleeve from too close range → Leads to [[Positions/Open Guard]]
 - **Opponent grabs your pants at the knees and initiates toreando pass before you establish grips** (Effectiveness: High) - Your Response: Prioritize addressing the pant grips with your feet by pushing their hands off your knees, or hip escape to create angle that defeats the lateral passing motion. Establish collar grip as counter-offensive during their pass attempt → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this transition, your objective is to convert a generi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Open Guard to Collar Sleeve Guard?</p>
 
 ### 1. Reaching for the sleeve grip before establishing the collar grip
 
@@ -293,10 +303,12 @@ As the attacker executing this transition, your objective is to convert a generi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Open Guard to Collar Sleeve Guard (Attacker)?</p>
+
 **Phase 1: Grip Sequencing Isolation** - Collar-first grip hierarchy
 Partner stands or kneels in neutral position without resisting. Practice the collar-first, sleeve-second grip sequencing 20 times per side. Focus on deep collar insertion, proper hand positioning, and immediate sleeve capture timing. No sweeps or attacks - purely grip establishment mechanics.
 
-**Phase 2: Grip Fighting Under Resistance** - Winning the grip exchange against active defense
+**Phase 2: Grips Under Resistance** - Winning the grip exchange against active defense
 Partner actively uses hand fighting to prevent grip establishment. Practice securing collar sleeve grips within 10 seconds against progressive resistance (30%, 50%, 75%). Develop timing for reaching during opponent's transitions and learn to chain grip attempts when initial reaches are blocked.
 
 **Phase 3: Transition Under Passing Pressure** - Establishing guard while defending passes
@@ -310,42 +322,12 @@ Start from standing or neutral open guard. Establish collar sleeve guard against
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the cross-collar grip be established before the sleeve grip in this transition?
-**A**: The collar grip anchors your control over the opponent's posture, which creates the off-balancing reaction that makes sleeve capture dramatically easier. When you pull the collar, the opponent must post or adjust their base, momentarily freeing the arm you need to grip. Without collar control, the opponent can freely strip an isolated sleeve grip using their other hand while maintaining upright posture. The collar-first sequence is a force multiplier that converts a difficult two-grip problem into two sequential single-grip tasks.
-
-**Q2**: What is the optimal timing window for reaching for the initial collar grip?
-**A**: The best window occurs during opponent transitions: when they shift from standing to kneeling, when they change their base, when they reset after a failed pass attempt, or when they reach down to grip your pants. During these moments, their hands are occupied and cannot immediately defend the collar reach. Reaching during static moments when the opponent is set and their hands are free makes the grip fight significantly harder and often results in your reach being blocked before contact.
-
-**Q3**: Your opponent strips your collar grip just as you reach for the sleeve - how do you adjust?
-**A**: Rather than fighting to re-establish the same collar grip, immediately evaluate whether you can transition to an alternative guard system using whatever grip connection you have. If your hand is already near their arm, capture a sleeve for spider guard or lasso guard entry. If you have foot positioning, use De La Riva or reverse De La Riva hooks. The key principle is to flow into an alternative guard rather than resetting to zero and re-attempting the exact same collar reach against an opponent who is now specifically defending it.
-
-**Q4**: What foot placement is most critical during the collar grip establishment phase?
-**A**: Feet on the opponent's hips are the most critical placement because they create the distance frame that buys time for grip establishment while preventing the opponent from closing distance into pressure passing range. The hip frames also give you the ability to push the opponent away if they drive forward aggressively, creating reset opportunities. Without feet on hips, you are vulnerable to being smashed or stacked before your hands can complete the grip fighting sequence.
-
-**Q5**: How deep should the cross-collar grip be inserted and why does depth matter?
-**A**: Insert four fingers inside the collar to the depth of at least the second knuckle, ideally reaching the shoulder seam area. Grip depth directly correlates with leverage and strip resistance. A shallow fingertip grip provides minimal rotational force and can be broken with a simple posture-up, while a deep grip near the shoulder creates maximum leverage over the opponent's upper body and requires a deliberate two-on-one grip break to remove. The deeper the grip, the more effective every subsequent pull and angle change becomes.
-
-**Q6**: Your opponent drives forward with heavy pressure as you reach for the collar - what is your response?
-**A**: Absorb the forward drive with your feet on their hips, using leg extension to maintain distance. If your feet are already positioned, you can use their forward momentum against them by pulling the collar during their drive, which amplifies the off-balancing force. If the pressure is too strong to maintain distance, abandon the collar sleeve attempt and transition to butterfly guard hooks (using their forward pressure for elevation sweeps) or close your legs for closed guard. Never fight for collar sleeve grips from a compromised, compressed position.
-
-**Q7**: What hip angle should you achieve after both grips are established, and why?
-**A**: Rotate your hips 30-45 degrees toward the sleeve-grip side once both grips are secured. This angle creates the asymmetric geometry that generates rotational off-balancing forces through the collar pull. A square hip position allows the opponent to distribute weight symmetrically against your grips, neutralizing the control. The angled position also pre-loads your body for sweeps (pendulum, flower, scissor) and creates the leg positioning necessary for triangle entries by bringing your hip closer to their neck line.
-
-**Q8**: What are the chain attack options if the opponent successfully defends your collar sleeve establishment by retreating to standing?
-**A**: When the opponent retreats to standing to avoid collar sleeve, you gain several offensive options. Sit up and pursue with a technical stand-up to re-engage in the grip fight from standing. Alternatively, use your existing foot positioning to enter De La Riva guard by hooking their far leg, which is highly effective against standing opponents. If they retreat far enough to break all connection, pull guard with a collar drag or arm drag to immediately re-establish close-range guard play. The retreat itself is a defensive concession that creates offensive opportunities.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Open Guard to Collar Sleeve Guard?</p>
 
 Transition to Collar Sleeve Guard is a low-risk positional transition with minimal injury potential. The primary safety concern involves finger and grip strain from aggressive collar gripping against resistance. Tape fingers before training sessions focused on grip-intensive guard work. Avoid death-gripping the collar with a single hand for extended periods, which can cause finger flexor tendon inflammation. Release grips periodically during drilling to allow blood flow recovery. Partners should communicate clearly during grip fighting exchanges to prevent accidental finger bending or joint hyperextension.
 

@@ -162,6 +162,8 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shoulder of Justice to Mount?</p>
+
 - Opponent begins walking their near-side knee closer to your hip line, narrowing their base in preparation for the step-over
 - Increased forward pressure through the shoulder as opponent loads weight onto their upper body to lighten their legs
 - Opponent adjusts their far knee position inward or their near foot slides closer to your hip, changing from a stable base to a transition-ready stance
@@ -174,6 +176,8 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shoulder of Justice to Mount?</p>
 
 - Maintain hip mobility despite shoulder pressure by making micro-adjustments to hip angle throughout the pin to stay ready for defensive movement
 - Protect your near-side arm from being trapped while keeping it positioned for frame insertion rather than extending it for push-based relief
@@ -188,6 +192,8 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shoulder of Justice to Mount?</p>
 
 ### 1. Insert near-side knee between your body and opponent's chest as their weight shifts during the step-over attempt
 
@@ -225,6 +231,8 @@ Defending the Shoulder of Justice to Mount transition requires recognizing the e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shoulder of Justice to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge during the critical moment when your opponent's far leg is in the air during the step-over. Direct the bridge toward the side they are stepping from to exploit their compromised base. If successful, catch them off-balance and establish top half guard position by controlling their trapped leg.
@@ -240,6 +248,8 @@ Insert your near-side knee early as the opponent begins walking their base towar
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shoulder of Justice to Mount?</p>
 
 ### 1. Waiting until the opponent's leg has already crossed your body before attempting any defensive action
 
@@ -274,6 +284,8 @@ Insert your near-side knee early as the opponent begins walking their base towar
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shoulder of Justice to Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition setup cues
 Partner establishes Shoulder of Justice and performs transition setup movements at slow speed. Identify and verbally call out each cue: base narrowing, weight shifting, arm control tightening, chest rotation. Build recognition speed through repetition until cue identification becomes automatic.
 
@@ -290,29 +302,6 @@ Full positional sparring starting from Shoulder of Justice. Partner attempts the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that indicate your opponent is about to attempt the mount transition from Shoulder of Justice?
-**A**: The earliest cues include: the opponent walking their near-side knee closer to your hip line which narrows their base, increased forward pressure through the shoulder as they load weight onto their upper body to lighten their legs, tightening of their control on your near-side arm to prevent frame insertion, and subtle rotation of their chest angle from perpendicular toward a mount-facing orientation. Recognizing these early signals allows you to begin positioning your defense before the step-over begins.
-
-**Q2**: Your opponent begins walking their knee up your hip — what is the highest-percentage defensive response at this moment?
-**A**: Insert your near-side knee between your body and the opponent's chest immediately as their base narrows. This knee creates a physical barrier that blocks the step-over path and gives you a wedge to begin recovering toward half guard. Time this insertion to the moment their weight shifts forward, as that is when their ability to drive your knee back down is most compromised. Combine the knee insertion with a small hip escape to create the angle needed for the knee to reach its blocking position.
-
-**Q3**: Why is timing your primary defensive action during the step-over more effective than attempting to defend before the transition begins?
-**A**: Defending before the transition begins means fighting against an opponent with full base stability and optimal weight distribution, which heavily favors the attacker. During the step-over itself, the attacker's base is at its narrowest, one leg is in the air, and their weight is distributed across your centerline rather than anchored to the mat. This creates the maximum vulnerability window where your defensive force has the greatest mechanical advantage. However, your positioning for defense should begin with the early cues.
-
-**Q4**: What happens if you bridge too early before your opponent has committed their weight to the step-over?
-**A**: Bridging too early wastes energy against a fully based opponent who can simply ride the bridge using their stable far knee post and shoulder pressure anchor. The bridge achieves no positional improvement because the opponent's base is still intact and can absorb the force. Additionally, premature bridging depletes your energy reserves, leaving you weaker for the critical defensive window when the actual step-over occurs. Save explosive movements for the moment of maximum opponent vulnerability.
-
-**Q5**: How does maintaining hip mobility throughout the Shoulder of Justice pin prepare you to defend the mount transition?
-**A**: Maintaining hip mobility through constant micro-adjustments to your hip angle prevents the opponent from achieving a completely static pin where your defensive options are minimized. Mobile hips allow you to immediately execute hip escapes or knee insertions when transition cues appear, without needing to first break free from a fully consolidated pinning position. If your hips become completely flat and immobile under pressure, you lose the ability to insert your knee or angle your body for defense when the step-over begins.
-
-
-
-</section>
 
 
 </main>

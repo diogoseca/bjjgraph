@@ -188,6 +188,8 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Counter Roll from Matrix?</p>
+
 - Read defensive resistance early and commit to the counter roll the moment your Matrix rotation meets significant opposition rather than forcing a failing path
 - Maintain continuous motion throughout the redirect to prevent the opponent from capitalizing on any pause or hesitation in your movement
 - Keep shoulder posted on the mat as a stable pivot point while changing hip and leg trajectory from back-seeking to leg-capturing arc
@@ -202,6 +204,8 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Counter Roll from Matrix?</p>
+
 - Active Matrix rotation that has encountered defensive resistance from the top player preventing back take completion
 - Remaining rotational momentum from the original Matrix attempt that can be redirected toward leg capture
 - Opponent's near leg accessible within the redirection arc for half guard entanglement threading
@@ -214,6 +218,8 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Counter Roll from Matrix step by step?</p>
 
 1. **Recognize Defensive Resistance**: Identify that your Matrix rotation has been stopped or significantly slowed by the opponent's defensive response. Key indicators include their base widening, weight driving down on your rotation, active sprawling that prevents your hips from continuing their original arc, or counter-rotation that reverses your momentum. This recognition must happen within a fraction of a second to preserve enough momentum for the redirect.
 2. **Commit to Redirect**: Make the immediate commitment to abandon the back take path and redirect to half guard. This decision must be instantaneous since hesitation mid-rotation creates the worst possible outcome where you are inverted with no defensive structure and no offensive progress. Once you feel resistance exceeding your available momentum, commit to the counter roll completely without second-guessing.
@@ -243,6 +249,8 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Counter Roll from Matrix?</p>
+
 - **Sprawl and drive weight down to flatten the rolling redirect attempt before leg capture completes** (Effectiveness: High) - Your Response: Accelerate the leg capture and immediately pull opponent's leg into entanglement before full sprawl pressure takes effect, using the last of your rolling momentum to close the entanglement → Leads to [[Positions/Turtle]]
 - **Hip switch past the capturing legs and establish crossface to pass directly to side control** (Effectiveness: High) - Your Response: Frame against the crossface attempt with outside arm while fighting to maintain any leg entanglement, then hip escape to re-engage half guard structure before the pass consolidates → Leads to [[Positions/Side Control]]
 - **Backstep to clear legs entirely and avoid the half guard entanglement zone** (Effectiveness: Medium) - Your Response: Follow the backstep with immediate hip escape to re-engage legs, or transition to butterfly guard hooks to maintain connection and prevent complete separation → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Counter Roll from Matrix?</p>
 
 ### 1. Hesitating between continuing the Matrix and redirecting to counter roll
 
@@ -293,6 +303,8 @@ The Counter Roll from Matrix attacker executes a mid-rotation redirect when thei
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Counter Roll from Matrix (Attacker)?</p>
+
 **Solo Redirect Drilling** - Movement pattern and spatial awareness
 Practice the rolling redirect without a partner, starting from a Matrix roll position and changing direction mid-roll to simulate the counter roll. Focus on maintaining shoulder contact and changing leg trajectory smoothly. Perform 15 repetitions each direction to develop muscle memory for the directional change.
 
@@ -313,39 +325,12 @@ Positional sparring starting from Matrix bottom with partner defending at full i
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary indicator that you should abandon the Matrix back take and redirect to the counter roll?
-**A**: The primary indicator is when your rotational momentum encounters defensive resistance that exceeds your ability to continue the arc toward the back. This includes the opponent's base widening significantly, weight driving down on your hips, active sprawling that flattens your rotation, or counter-rotation that reverses your momentum. The key is reading this resistance early rather than fighting through it, because forcing a failing Matrix wastes momentum you need for the redirect.
-
-**Q2**: Why must the leg trajectory change happen during continuous motion rather than as a separate action after stopping?
-**A**: Pausing the rolling motion to change direction creates a static moment where you are inverted or compromised with no defensive structure. Any pause gives the opponent time to capitalize on your vulnerable position with sprawl pressure, crossface, or pass attempts. The continuous motion of the redirect uses the remaining momentum to power the leg capture, making the entire sequence one fluid action rather than a stop-and-restart that the opponent can easily predict and counter.
-
-**Q3**: Which leg should you target for the half guard entanglement during the counter roll and why?
-**A**: Always target the opponent's near leg, the one closest to your rotation path. The near leg requires the least additional movement to capture, keeping the redirect efficient and fast. Targeting the far leg would require extending the roll past your optimal rotation arc, creating a longer and slower movement that gives the opponent more time to react and often results in overshooting the entanglement entirely, leaving you in a worse position than if you had simply accepted turtle.
-
-**Q4**: Your counter roll has succeeded and you have captured the opponent's leg in half guard—what must you establish immediately?
-**A**: Immediately establish an active half guard structure by fighting for the underhook on the trapped leg side while framing with your outside arm to prevent crossface and chest-to-chest pressure. You must also get onto your side rather than remaining flat on your back, as being on your side enables hip mobility, angle creation, and access to sweeps and back takes from the half guard position. Passive flat-on-back half guard will be passed quickly.
-
-**Q5**: How does having a reliable counter roll affect your overall Matrix back take success rate?
-**A**: Having a reliable counter roll increases your Matrix success rate because it allows you to commit more aggressively to Matrix entries. Without a bail-out option, practitioners hesitate mid-rotation, which is the primary cause of Matrix failure since the technique demands full commitment. Knowing you can safely redirect to half guard eliminates the fear of commitment, resulting in faster and more powerful initial rotations that are significantly harder for opponents to defend.
-
-**Q6**: What happens if you attempt the counter roll after your rotational momentum has been completely dissipated?
-**A**: Without remaining momentum, the counter roll becomes a static leg grab from a compromised position rather than a dynamic redirect. This gives the opponent time to sprawl, hip switch, or backstep away from your leg capture attempt. If momentum is fully gone, you should abandon the counter roll entirely and instead return to turtle defense, reset your position, and look for a fresh entry opportunity rather than forcing a dead technique that exposes you to passes.
-
-**Q7**: Your opponent anticipates the counter roll and backsteps to clear your legs—what is your immediate response?
-**A**: Follow the backstep with immediate hip escape to re-engage your legs with theirs before the distance becomes too great. If the backstep creates too much separation for direct leg reengagement, transition to butterfly hooks or open guard frames to maintain a guard position rather than being left on your back without any guard structure. The key is never accepting the separation passively—your legs must actively pursue connection even as the opponent tries to disengage from your entanglement attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Counter Roll from Matrix?</p>
 
 The Counter Roll from Matrix involves inverted movement and directional changes during rolling mechanics that carry moderate neck and shoulder risk. Practitioners should develop comfort with inversions through progressive solo drilling before attempting at full speed with partners. During training, communicate rolling direction with partners to prevent collision injuries. Avoid forcing the redirect if neck position is compromised—return to turtle rather than risk cervical compression. Partners should never drive weight down explosively on a practitioner who is mid-inversion, as this can cause spinal compression injuries.
 

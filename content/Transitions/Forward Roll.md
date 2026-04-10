@@ -28,7 +28,7 @@ Understanding the biomechanics of rolling forward while maintaining control of y
 
 The forward roll also builds body awareness and coordination that translates to other advanced movements in BJJ, including berimbolo entries, rolling back takes, and inverted guard play. At the highest levels, the forward roll becomes a tool for offensive guard transitions rather than purely defensive escape, allowing practitioners to flow between positions with minimal energy expenditure.
 
-**From Position**: [[Positions/Turtle]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -217,11 +217,11 @@ The Forward Roll is a fundamental component of the turtle escape system in BJJ, 
 
 - [[Transitions/Inversion to Turtle]] - Complementary movement pattern connecting inversion and turtle escapes
 
-- [[Principles/Guard Recovery]] - Primary objective when executing forward roll from bottom
+- [[Transitions/Rolling to Guard]] - Primary guard recovery transition sharing the same objective from turtle bottom
 
 - [[Transitions/Defensive Roll]] - Related defensive rolling movement from turtle position
 
-- [[Transitions/Forward Roll]] - Self-reference for the forward roll transition technique
+- [[Transitions/Technical Stand-up]] - Alternative turtle escape option that recovers to standing rather than guard
 
 
 </section>

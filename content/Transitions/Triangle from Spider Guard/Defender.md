@@ -162,6 +162,8 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle from Spider Guard?</p>
+
 - Opponent creates asymmetric pulling force on one sleeve while pushing the other arm away with their foot, generating the arm isolation needed for triangle entry
 - One foot lifts off your bicep and the opponent's hips begin elevating off the mat, signaling the leg is about to swing over your shoulder
 - Opponent's hip angle changes as they begin pivoting perpendicular to your centerline, creating the geometry required for the triangle lock
@@ -174,6 +176,8 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle from Spider Guard?</p>
 
 - Recognize the triangle entry at the earliest possible moment—the foot leaving your bicep is your primary alarm signal that demands immediate posture recovery
 - Maintain both elbows tight to your ribs to prevent arm isolation across the opponent's centerline, which is the fundamental prerequisite for the triangle
@@ -188,6 +192,8 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle from Spider Guard?</p>
 
 ### 1. Posture up immediately and retract the threatened elbow to your hip
 
@@ -225,6 +231,8 @@ Defending the Triangle from Spider Guard requires recognizing the setup before t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle from Spider Guard?</p>
+
 ### → [[Positions/Spider Guard]]
 
 Maintain strong posture and prevent arm isolation by keeping both elbows tight to your ribs throughout the spider guard engagement. When you feel asymmetric pulling on one sleeve, immediately counter-pull that elbow back toward your hip rather than letting it drift across the opponent's centerline. This denies the fundamental prerequisite for the triangle and keeps the position in neutral spider guard where you retain passing options.
@@ -240,6 +248,8 @@ Strip the sleeve grip early and immediately drive forward with stacking pressure
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle from Spider Guard?</p>
 
 ### 1. Allowing one arm to drift across the opponent's centerline without recognizing the triangle setup
 
@@ -269,6 +279,8 @@ Strip the sleeve grip early and immediately drive forward with stacking pressure
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle from Spider Guard?</p>
+
 **Phase 1: Recognition** - Identifying triangle entry signals from spider guard
 Partner drills triangle entries from spider guard at slow speed while you practice identifying the recognition cues: asymmetric pull, foot leaving bicep, hip elevation. Call out each cue as you recognize it. No defensive action yet—purely developing pattern recognition. 20 repetitions each side.
 
@@ -285,29 +297,6 @@ After successfully defending or escaping the triangle attempt, immediately trans
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual and tactile cues indicating a triangle attempt from spider guard?
-**A**: The first cue is feeling asymmetric force on your arms—one arm being pulled harder than the other toward the opponent's opposite hip. The second cue is one foot lifting off your bicep, which signals the leg is about to swing over your shoulder. The third cue is the opponent's hips elevating off the mat as they generate the angle for the triangle entry. Recognizing any of these early signals gives you the critical one-to-two second window needed to prevent the triangle before it is established.
-
-**Q2**: Why is stripping the sleeve grip before the entry more effective than defending after the triangle is partially locked?
-**A**: Once the triangle is partially locked, you are fighting against the strongest muscles in the opponent's body—their legs and hips—with your neck and one arm. Before the entry, you only need to break a sleeve grip, which is an arm-versus-arm contest where your two hands against their one grip gives you the advantage. The defensive difficulty increases exponentially once the leg crosses your shoulder. Proactive grip fighting prevents the majority of triangle attempts, while reactive defense from a locked position has a significantly lower success rate.
-
-**Q3**: Your opponent has already swung one leg over your shoulder—what is your immediate defensive priority?
-**A**: Immediately posture upward while driving the threatened-side elbow toward the mat beside the opponent's hip, keeping it tight to your body. Do not allow them to close the triangle by keeping your head elevated and your trapped arm's elbow connected to your torso. If you can prevent the ankle lock behind your neck for even two to three seconds, the triangle often fails as the attacker loses the necessary compression. Simultaneously walk your knees backward to create distance and prevent them from controlling your posture with their hands.
-
-**Q4**: How do you manage your posture to prevent the arm isolation that enables the triangle?
-**A**: Keep both elbows tight to your ribs and maintain vertical spine alignment with your head above your hips. When you feel pulling force on one sleeve, immediately counter by pulling that elbow back toward your hip rather than letting it drift across the opponent's centerline. Use your non-controlled hand to frame on their hip or bicep to maintain distance. The triangle requires one arm across the opponent's centerline—if you prevent that arm isolation through posture discipline and elbow control, the triangle entry conditions cannot be met.
-
-**Q5**: When caught in a locked triangle, what body positioning reduces the opponent's finishing effectiveness?
-**A**: Square your shoulders to the opponent's hips rather than allowing them to achieve the 30-45 degree angle they need for optimal arterial compression. Tuck your chin toward your chest on the trapped-arm side to create space between your neck and their leg. Keep the trapped arm's hand pressing against the opponent's hip to prevent them from pulling it across your neck. Use your free hand to control the opponent's choking leg at the knee, pushing it away from your neck. Every degree you reduce from their optimal angle significantly decreases the choke's effectiveness.
-
-
-
-</section>
 
 
 </main>

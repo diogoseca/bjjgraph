@@ -156,6 +156,8 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Lock Takedown?</p>
+
 - Sudden increase in forward hip pressure combined with the attacker's head driving firmly into your shoulder, creating rotational force on your upper body
 - Attacker steps their foot to the outside of your lead foot, establishing an attack angle that removes your ability to brace with both legs equally
 - Attacker's grip tightens significantly and their level drops slightly as they prepare to commit full driving force through the body lock
@@ -168,6 +170,8 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Lock Takedown?</p>
 
 - React immediately to the first recognition cue rather than waiting for the full takedown to develop, as defensive effectiveness degrades exponentially with each passing second
 - Widen stance and lower center of gravity as the primary defensive response, making your base resistant to both forward drives and lateral angle changes
@@ -182,6 +186,8 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Lock Takedown?</p>
 
 ### 1. Explosive sprawl with hip drop and base widening
 
@@ -212,6 +218,8 @@ Defending the Body Lock Takedown requires recognizing the attacker's setup cues 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Lock Takedown?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a hip switch reversal as the attacker commits their weight forward during the driving phase. Rotate your hips explosively in the opposite direction of their drive, using their extended forward position and narrow base against them. Drive them off-balance and follow to establish top position in half guard by immediately securing crossface and hip control as you complete the reversal.
@@ -227,6 +235,8 @@ Defend the takedown through aggressive sprawling and base widening the instant y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Lock Takedown?</p>
 
 ### 1. Standing rigid and upright with locked knees against the driving pressure
 
@@ -256,6 +266,8 @@ Defend the takedown through aggressive sprawling and base widening the instant y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Lock Takedown?</p>
+
 **Phase 1: Recognition** - Identifying takedown setup cues and timing windows
 Partner establishes body lock and initiates takedown attempts at varying speeds with verbal cues. Defender practices identifying the specific recognition cues including head pressure changes, foot positioning, and grip tightening. No defensive response required initially, focus purely on early recognition of the takedown initiation timing.
 
@@ -272,29 +284,6 @@ Defend body lock takedowns at full resistance in positional sparring starting fr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a body lock takedown is being initiated?
-**A**: The earliest cues are a sudden increase in forward hip pressure, the attacker's head pressing firmly into your shoulder creating rotational force, and the attacker stepping their foot to the outside of your lead foot to establish an attack angle. You may also feel the attacker's grip tighten and their level drop slightly as they prepare to commit driving force. These cues occur within a one to two second window before the full driving phase, making immediate recognition essential for mounting an effective defense.
-
-**Q2**: Your opponent drives their head into your shoulder and steps outside your lead foot - what defense do you prioritize?
-**A**: Immediately execute an explosive sprawl by dropping your hips backward and toward the mat while widening your stance to lower your center of gravity. The sprawl must be committed and powerful, driving your weight downward to remove the attacker's ability to drive through your base. Simultaneously post your inside hand on the attacker's hip to create a frame that generates distance between your bodies. If the sprawl stops the forward momentum, begin hand fighting to break the grip. If the drive overwhelms your sprawl, transition immediately to controlled guard pull.
-
-**Q3**: When is sitting to guard the correct defensive choice versus continuing to fight standing?
-**A**: Sit to guard when your sprawl defense has failed and the attacker's forward pressure is overwhelming your base, when you feel yourself being driven backward without ability to recover your stance, or when the takedown is clearly imminent and you have less than one second before impact with the mat. A controlled guard pull where you sit and immediately close your guard around the attacker is far superior to being taken down into side control with no defensive structure established. However, if your base is holding and the attacker's grip shows any sign of loosening, continue fighting for standing position.
-
-**Q4**: What base adjustments help you resist the body lock takedown driving phase?
-**A**: Widen your stance to at least shoulder width with knees bent at approximately 30 to 45 degrees to lower your center of gravity below the attacker's driving line. Shift your weight toward the balls of your feet with hips driven toward the mat to create a heavy, stable platform resistant to forward and lateral drives. If you feel the drive coming from one specific side, step your far foot further in that direction to create a wider base against the directional force. Keep your spine as upright as possible to prevent the attacker from curling you forward into a compromised posture.
-
-**Q5**: How do you convert a successful sprawl defense into an offensive counter?
-**A**: After a successful sprawl stops the attacker's forward momentum, immediately begin hand fighting to break their grip while maintaining your sprawled hip position. Target the weakest point of their grip, typically the thumb side of a gable grip, using two-on-one hand fighting. Once the grip breaks, rapidly transition to face the opponent and re-establish neutral clinch position. If the attacker maintains their grip despite the sprawl, attempt a hip switch reversal by rotating your hips explosively in the opposite direction of their original drive, using their extended position against them to take top position.
-
-
-
-</section>
 
 
 </main>

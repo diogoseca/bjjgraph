@@ -38,7 +38,7 @@ description: "Execute the Escape from Shoulder of Justice as the bottom player. 
     },
     {
       "@type": "HowToStep",
-      "name": "Monitor Weight Distribution",
+      "name": "Monitor Center of Gravity",
       "text": "Read the opponent's hip connection and shoulder pressure angle for any momentary weight shift. Key indicators include the opponent adjusting their shoulder angle, reaching for grips, transitioning toward submissions, or shifting their far knee—any movement that temporarily lightens their hip-to-hip pressure connection.",
       "position": 4
     },
@@ -194,6 +194,8 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Shoulder of Justice?</p>
+
 - Maintain composure through steady nasal breathing despite intense jaw pressure to prevent panic-driven reactive movements that expose submissions
 - Use forearm micro-frames that redirect shoulder pressure without extending arms beyond your centerline, avoiding kimura and americana exposure
 - Time all escape movements to coincide with the opponent's weight shifts rather than attempting escapes during maximum pressure application
@@ -208,6 +210,8 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Shoulder of Justice?</p>
+
 - Established steady nasal breathing rhythm despite jaw pressure to maintain mental composure and prevent panic reactions
 - Near arm tucked tight to ribcage with elbow protected and forearm positioned vertically against chest for micro-frame foundation
 - Far arm kept tight against far-side ribs with elbow connected, never crossing body centerline regardless of pressure intensity
@@ -221,10 +225,12 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Escape Shoulder of Justice step by step?</p>
+
 1. **Establish Breathing Control**: Force yourself to breathe steadily through your nose despite the jaw pressure. This activates the parasympathetic nervous system and prevents panic reactions that lead to arm extensions or desperate bridges. Accept the discomfort as temporary and focus on rhythmic breathing cycles to maintain composure.
 2. **Protect Near Arm Position**: Tuck your near-side elbow tight against your ribcage with your forearm positioned vertically against your chest. This prevents the top player from isolating your arm for a kimura while simultaneously creating the structural foundation for your micro-frame escape architecture.
 3. **Create Forearm Micro-Frame**: Without extending your arm beyond your chest, position your near-side forearm as a wedge between your torso and the opponent's chest. Use bone-on-bone alignment through your ulna rather than muscular pushing to create a small but critical pocket of space that begins redirecting the shoulder pressure vector.
-4. **Monitor Weight Distribution**: Read the opponent's hip connection and shoulder pressure angle for any momentary weight shift. Key indicators include the opponent adjusting their shoulder angle, reaching for grips, transitioning toward submissions, or shifting their far knee—any movement that temporarily lightens their hip-to-hip pressure connection.
+4. **Monitor Center of Gravity**: Read the opponent's hip connection and shoulder pressure angle for any momentary weight shift. Key indicators include the opponent adjusting their shoulder angle, reaching for grips, transitioning toward submissions, or shifting their far knee—any movement that temporarily lightens their hip-to-hip pressure connection.
 5. **Execute Timed Hip Escape**: When you identify a weight shift, explosively shrimp your hips away from the opponent toward your feet while maintaining your forearm frame. Drive off your far foot planted flat on the mat to generate hip escape momentum, moving your hips at least six inches away from the opponent's hip line in a single coordinated movement.
 6. **Insert Knee Shield**: As space opens between your torso and the opponent's chest, immediately insert your near-side knee across their hip line to create a structural barrier. Your shin should angle across their body at approximately 45 degrees, with your knee pointing toward their far shoulder, preventing them from collapsing back into chest-to-chest pressure.
 7. **Capture Half Guard Entanglement**: With your knee shield established, use your far leg to capture the opponent's near leg between both of your legs, creating the fundamental half guard entanglement. Simultaneously work your near-side arm to establish an underhook beneath the opponent's far armpit, securing the primary offensive grip for half guard play.
@@ -250,6 +256,8 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Shoulder of Justice?</p>
+
 - **Top player drives heavier pressure and reconnects hips to your hip line during escape attempt** (Effectiveness: High) - Your Response: Abandon the escape attempt, return to breathing control, and wait for the next weight shift window rather than forcing through maximum pressure → Leads to [[Positions/Shoulder of Justice]]
 - **Top player transitions to mount by stepping over during your hip escape when space is created** (Effectiveness: High) - Your Response: If you feel the leg stepping over, immediately redirect your knee shield to block the mount entry and recover half guard with the crossing leg trapped → Leads to [[Positions/Mount]]
 - **Top player attacks kimura on your near arm if it extends beyond your centerline during framing** (Effectiveness: High) - Your Response: Retract the arm immediately to your ribcage, clamp your elbow tight, and grip your own belt or shorts to prevent isolation. Reset your frame position before attempting escape again → Leads to [[Positions/Shoulder of Justice]]
@@ -261,6 +269,8 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Shoulder of Justice?</p>
 
 ### 1. Extending near arm fully to push opponent's shoulder away from jaw
 
@@ -300,6 +310,8 @@ As the bottom player executing the Escape from Shoulder of Justice, you face one
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Shoulder of Justice (Attacker)?</p>
+
 **Phase 1: Pressure Tolerance** - Breathing and composure under pressure
 Partner establishes full Shoulder of Justice with moderate to heavy pressure. Practice maintaining steady nasal breathing for 2-minute intervals with no escape attempts. Focus entirely on composure, accepting discomfort, and monitoring the opponent's weight distribution patterns without making reactive movements.
 
@@ -317,42 +329,12 @@ Attempt the complete escape against a partner who actively maintains Shoulder of
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical error to avoid when the opponent increases shoulder pressure on your jaw?
-**A**: The most critical error is extending your near arm to push the opponent's shoulder away from your face. This is the reaction the Shoulder of Justice position is specifically designed to provoke, and it immediately exposes your arm to a high-percentage kimura attack that is nearly impossible to defend from flat on your back. Instead, keep your near arm tucked tight to your ribcage and create space only through forearm micro-frames that never extend beyond your chest centerline.
-
-**Q2**: Why must you breathe through your nose rather than your mouth when trapped in Shoulder of Justice?
-**A**: Nasal breathing activates the parasympathetic nervous system, maintaining composure and preventing the panic response that mouth breathing triggers under jaw pressure. Mouth breathing accelerates heart rate, increases cortisol release, and leads to desperate reactive movements like arm extensions and wild bridges that play directly into the top player's submission dilemma system. Maintaining nasal breathing keeps you calm enough to identify genuine escape windows.
-
-**Q3**: What specific indicator tells you the opponent's weight has shifted enough to attempt the hip escape?
-**A**: Key indicators include the opponent adjusting their shoulder angle, reaching to establish new grips, shifting their far knee position, or beginning a transition toward a submission setup. Any movement that temporarily lightens their hip-to-hip pressure connection creates the escape window. The most reliable indicator is feeling their hips lift or shift even slightly off your near hip line, which means their weight has redistributed enough for your hip escape to generate meaningful distance.
-
-**Q4**: Your forearm micro-frame is in place but the opponent drives through it with heavier pressure. How do you respond?
-**A**: Do not fight the increased pressure by muscling your frame harder, as this leads to rapid forearm fatigue and eventual frame collapse. Instead, maintain your frame position through bone alignment while absorbing the pressure, and wait for the opponent to readjust. Driving heavier pressure requires the opponent to shift their weight forward, which temporarily lightens their hip connection and creates the weight shift window you need for the subsequent hip escape.
-
-**Q5**: What is the correct angle for inserting your knee shield during the escape?
-**A**: Your shin should angle across the opponent's body at approximately 45 degrees with your knee pointing toward their far shoulder. This angle creates a structural barrier that prevents the opponent from collapsing back into chest-to-chest pressure while giving you enough space to capture their leg for half guard. A flat horizontal shin provides less structural integrity, while a vertical shin can be collapsed inward. The 45-degree angle maximizes the load-bearing capacity of your skeletal structure.
-
-**Q6**: You successfully create space with a hip escape but the opponent begins stepping over for mount. What is your immediate response?
-**A**: Immediately redirect your knee shield to block the crossing leg before it clears your body. Your knee should intercept their leg at the thigh level, preventing the mount entry. If you can trap their crossing leg between your knees as it comes over, you recover directly into half guard with the opponent's leg already captured. Speed of knee shield insertion is critical because the mount transition window only lasts one to two seconds.
-
-**Q7**: Why is half guard the primary escape target rather than full closed guard or standing position?
-**A**: Half guard is the most achievable target because the escape mechanics naturally deposit you into half guard position. The hip escape creates lateral distance while the knee insertion captures one of the opponent's legs, forming the half guard entanglement organically. Full closed guard requires significantly more space and both legs free, while technical standup requires even more distance and an angle that the Shoulder of Justice position prevents. Half guard provides immediate offensive options through sweeps and back takes with minimal additional positional work required.
-
-**Q8**: What must you do immediately after consolidating half guard to prevent the opponent from reestablishing Shoulder of Justice?
-**A**: Immediately establish an underhook on the far side with your bottom arm and begin threatening sweeps. The underhook prevents the opponent from re-flattening you and driving shoulder pressure back into your jaw, while sweep threats force them to address your offensive potential rather than work to re-pass. If you simply hold half guard passively without threatening, the opponent can methodically break down your position and reestablish the Shoulder of Justice or pass to side control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Shoulder of Justice?</p>
 
 This escape involves intense jaw and temporomandibular joint pressure that can cause discomfort and potential injury if the top player applies excessive force. During training, communicate with your partner about pressure intensity levels and establish clear verbal or tap signals to reduce pressure when needed. Practitioners with pre-existing TMJ conditions, cervical spine issues, or jaw injuries should exercise caution and inform training partners before drilling this position. Never attempt explosive escapes without proper warmup of the neck and jaw muscles.
 

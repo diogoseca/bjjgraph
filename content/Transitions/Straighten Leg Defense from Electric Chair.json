@@ -9,7 +9,7 @@
     "10th-planet-counter",
     "positional-escape"
   ],
-  "from_position": "Electric Chair/Top",
+  "from_position": "Electric Chair/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Top",
@@ -80,7 +80,7 @@
       "relationship": "Position the bottom player may transition to if Electric Chair is neutralized"
     },
     {
-      "name": "Electric Chair Finish",
+      "name": "Electric Chair",
       "relationship": "Submission threat being defended against with this technique"
     },
     {

@@ -162,6 +162,8 @@ As the triangle holder defending against your opponent's escape attempt, your pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Complete Triangle Escape from Top?</p>
+
 - Opponent begins driving their head and spine upward, attempting to create vertical posture alignment that indicates posture recovery phase initiation
 - Opponent's free hand moves from mat posting to your hip or inner thigh, indicating they are transitioning from base survival to active angle control
 - Opponent begins stepping laterally in small increments rather than driving forward, signaling the start of the circular escape pattern
@@ -174,6 +176,8 @@ As the triangle holder defending against your opponent's escape attempt, your pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Complete Triangle Escape from Top?</p>
 
 - Maintain perpendicular hip angle to the opponent's torso by actively adjusting your position to match their movements throughout the escape attempt
 - Keep constant downward pulling pressure on opponent's head and posture through collar grips, head control, or wrist control to prevent the posture recovery that enables escape
@@ -188,6 +192,8 @@ As the triangle holder defending against your opponent's escape attempt, your pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Complete Triangle Escape from Top?</p>
 
 ### 1. Pull head down and re-break posture using collar grip, wrist control, or both hands behind the head
 
@@ -225,6 +231,8 @@ As the triangle holder defending against your opponent's escape attempt, your pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Complete Triangle Escape from Top?</p>
+
 ### → [[Positions/Triangle Escape Position]]
 
 Maintain active pulling pressure on opponent's head, continuously re-adjust angle to match their circling, and threaten armbar transitions whenever they focus on arm extraction. The longer you maintain the triangle position, the more energy the opponent expends on escape attempts, progressively increasing your finishing probability.
@@ -240,6 +248,8 @@ When the triangle is being successfully dismantled and the submission is no long
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Complete Triangle Escape from Top?</p>
 
 ### 1. Maintaining a static triangle hold without actively adjusting angle and tightness as opponent progresses through escape phases
 
@@ -269,6 +279,8 @@ When the triangle is being successfully dismantled and the submission is no long
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Complete Triangle Escape from Top?</p>
+
 **Phase 1: Escape Recognition** - Identifying each escape phase through tactile and visual cues
 Partner executes each escape phase slowly in isolation while you practice identifying the specific cues that signal posture recovery, hip control establishment, circling initiation, and arm extraction attempts. Call out each phase as you recognize it. Build pattern recognition at training speed before adding defensive responses.
 
@@ -285,29 +297,6 @@ Positional rounds starting from locked triangle with full resistance. Triangle h
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins driving their posture upward from their legs - what is the first defensive action you should take?
-**A**: Immediately pull their head and shoulders back down using both hands on the back of their head, collar, or wrist while simultaneously elevating your hips higher and squeezing your legs tighter. The counter-pull must come instantly, before they achieve even partial vertical alignment. Once posture is recovered, re-breaking it becomes significantly more difficult because they can use leg drive against your arm pulling strength.
-
-**Q2**: What makes angle adjustment the most critical defensive tool when your opponent begins the circling escape sequence?
-**A**: The triangle's choking effectiveness depends entirely on maintaining perpendicular alignment between your choking leg and the opponent's neck and trapped arm. When the opponent circles, they are specifically trying to rotate out of this perpendicular alignment. Your hip scooting to match their lateral movement preserves the choking geometry that makes the triangle structurally sound. Without angle maintenance, the triangle opens progressively with each step they take regardless of how tightly your legs squeeze.
-
-**Q3**: Your opponent has recovered posture and is circling steadily - should you chase the armbar or maintain the triangle?
-**A**: If they have full posture and are actively circling with hip control established, the triangle finish probability has dropped significantly. This is the optimal time to transition to armbar by pivoting your hips and isolating their trapped arm. The armbar transition catches opponents who are mentally focused on the triangle escape mechanics and not expecting a submission switch. However, only commit to the armbar if you can secure proper arm isolation - a half-committed transition opens space for the escape without generating a real armbar threat.
-
-**Q4**: What physical cue tells you the opponent is about to attempt a stacking escape variant?
-**A**: The primary cue is a dramatic increase in forward driving pressure through their chest and hips, combined with their knees walking forward underneath them to create a steeper stacking angle. Their weight shifts from being distributed across their base to being concentrated forward over your hips. You may also feel their head driving forward rather than upward, indicating they intend to fold your body rather than posture out of the triangle.
-
-**Q5**: Your opponent controls your hip firmly with their free hand, preventing your lateral angle adjustment - how do you counter this grip?
-**A**: Use your same-side hand to strip their grip by peeling their fingers or wrist off your hip, then immediately re-pull their head down before they can re-establish the hip control. Alternatively, abandon lateral angle adjustment and instead elevate your hips higher while increasing leg squeeze pressure, compensating for imperfect angle with increased compression. If their grip is too strong to strip, transition to armbar which eliminates the need for angle maintenance entirely.
-
-
-
-</section>
 
 
 </main>

@@ -13,7 +13,7 @@
   "from_position": "Ushiro Ashi-Garami/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Inside Heel Hook",
       "probability": 55,
       "result": "success"
     },

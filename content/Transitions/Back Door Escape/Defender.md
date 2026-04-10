@@ -164,6 +164,8 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Door Escape?</p>
+
 - Defender places their free hand firmly on your near hip as a frame, which is the setup for generating rotation momentum toward the back door
 - Defender turns their shoulders toward you rather than away, which is the counterintuitive first movement of the back door escape sequence
 - Defender stops actively trying to extract their trapped arm and shifts focus to creating rotational movement, indicating they have abandoned primary escapes
@@ -175,6 +177,8 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Door Escape?</p>
 
 - Keep hips low and tight to the defender's body to eliminate the gap behind your choking arm that the back door escape requires
 - Maintain perpendicular chest pressure driving into the side of the defender's head to prevent the shoulder turn that initiates the escape
@@ -189,6 +193,8 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Door Escape?</p>
 
 ### 1. Walk hips backward and close the gap behind your choking arm by bringing your elbow tighter to your own hip
 
@@ -226,6 +232,8 @@ The most critical defensive principle is hip positioning. Your hips must remain 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Door Escape?</p>
+
 ### → [[Positions/Darce Control]]
 
 Close the back door gap by walking your hips backward the moment you recognize the hip frame and shoulder rotation. Drive your elbow tight to your own hip to seal the exit path, then increase chest pressure to flatten the defender and re-establish the choking angle. With the back door sealed, the defender has exhausted their secondary escape option and the Darce becomes increasingly dangerous.
@@ -241,6 +249,8 @@ If the defender partially succeeds in threading through the back door, release t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Door Escape?</p>
 
 ### 1. Focusing solely on squeezing the choke harder instead of addressing the positional escape
 
@@ -270,6 +280,8 @@ If the defender partially succeeds in threading through the back door, release t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Door Escape?</p>
+
 **Week 1-2** - Recognition drilling
 Partner attempts back door escape from your Darce control at slow speed. Focus on identifying the hip frame placement and shoulder rotation that signal the escape. Practice the feel of these early indicators without attempting to counter yet, building pattern recognition.
 
@@ -286,29 +298,6 @@ Full Darce control sparring rounds where partner uses all escape options includi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the Back Door Escape rather than arm extraction?
-**A**: The earliest cue is the defender placing their free hand on your near hip as a frame while simultaneously turning their shoulders toward you rather than pulling their trapped arm laterally. This combination of hip frame plus inward shoulder rotation is unique to the back door setup and distinct from arm extraction, where the defender pulls their arm across their body and turns away from you.
-
-**Q2**: Your opponent begins rotating toward you with a strong hip frame—what is your immediate defensive priority?
-**A**: Your immediate priority is closing the gap behind your choking arm by walking your hips backward and driving your elbow tight to your own hip. This must happen before the defender's head can thread through the opening. Simultaneously, increase downward chest pressure to flatten them and eliminate the base they need for rotation. Do not focus on squeezing the choke—address the positional escape first.
-
-**Q3**: When should you abandon the Darce grip and transition to north-south instead of fighting to maintain the choke?
-**A**: Abandon the Darce and transition to north-south when the defender's head has already begun clearing your choking arm and you cannot close the gap. At this point, the choking structure is compromised and continuing to squeeze wastes energy while the defender completes the escape. By releasing proactively and sprawling to north-south, you convert a failed submission into dominant top control rather than losing all positional advantage.
-
-**Q4**: How does your hip positioning throughout Darce control prevent the Back Door Escape preemptively?
-**A**: Keeping your hips low and tight against the defender's body throughout Darce control eliminates the gap between your elbow and hip that the back door requires. Your hip should be close enough to your own choking elbow that there is no physical space for the defender to thread their head through. This preventive positioning is far more effective than reacting after the escape has started, because once the defender establishes the hip frame and begins rotating, closing the gap becomes a race you may lose.
-
-**Q5**: Your opponent's back door escape partially succeeds and they emerge into turtle—how do you capitalize?
-**A**: As the defender exits through the back door into turtle, immediately release the Darce grip and transition to turtle top attack. Establish a seatbelt or harness control on their upper body before they can complete their guard recovery. The defender's escape direction naturally brings them close to your body, which is actually advantageous for taking the back. Insert your near-side hook while driving chest pressure onto their upper back to prevent the standup or granby roll that would complete their escape to guard.
-
-
-
-</section>
 
 
 </main>

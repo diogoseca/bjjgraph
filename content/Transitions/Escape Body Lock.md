@@ -217,7 +217,7 @@ The Escape Body Lock occupies a critical defensive node in the standing grapplin
 
 - [[Transitions/Back Take]] - Opponent's highest-value transition that this escape aims to prevent
 
-- [[Positions/Scramble Position]] - Possible intermediate position during escape scramble
+- [[Positions/Standing Position]] - Possible intermediate position during escape
 
 - [[Positions/Half Guard]] - Alternative recovery position if escape transitions to ground engagement
 

@@ -188,6 +188,8 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Pass from Carni?</p>
+
 - Protect the heel throughout the entire forward drive by maintaining ankle flexion and toes pointed away from the bottom player
 - Generate stacking pressure from hip extension and chest weight rather than arm pushing to maintain structural integrity
 - Commit fully to the forward drive once initiated because hesitation creates the angular changes your opponent needs for saddle entry
@@ -202,6 +204,8 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Pass from Carni?</p>
+
 - Heel must be protected with ankle flexed and toes pointed away before initiating any forward pressure
 - At least partial posture recovery to generate the base needed for forward driving pressure
 - Bottom player's heel grip must be loosened or at least not locked in a finishing position
@@ -214,6 +218,8 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Pass from Carni step by step?</p>
 
 1. **Protect heel and establish base**: Before any forward movement, confirm your trapped leg's ankle is flexed with toes pointed away from the bottom player. Post your free leg wide to create a stable base for forward drive. Use your same-side hand to control your ankle if the heel grip is threatening immediate submission.
 2. **Secure upper body control**: Establish underhooks on the bottom player's thighs or drive your shoulder into their hip crease to create a locked connection point. This upper body control prevents the bottom player from adjusting their angle as you begin driving forward and gives you a fixed reference point for the stacking motion.
@@ -244,6 +250,8 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Pass from Carni?</p>
+
 - **Bottom player inverts under the stacking pressure and re-establishes Carni from opposite angle** (Effectiveness: High) - Your Response: Accelerate forward drive and pin their hips to the mat with heavy chest pressure to prevent the inversion from completing. If they begin rotating, drive your shoulder into their hip crease to block the rotation axis. → Leads to [[Positions/Rubber Guard/Carni]]
 - **Bottom player threads inside leg deeper during forward pressure to establish saddle entry hook** (Effectiveness: High) - Your Response: Immediately halt forward pressure and retract your hip away from their threading leg. Clear the hook with your free leg before resuming the stacking sequence. If the saddle is already established, abandon the pass and address the new position. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Bottom player attacks heel hook with maximum urgency as you drive forward to force you to stop and defend** (Effectiveness: Medium) - Your Response: If the heel hook is not deeply locked, accelerate through the stack rather than stopping. The stacking pressure changes the finishing angle and reduces submission efficacy. If the heel hook is deep and threatening, stop immediately and defend the submission rather than forcing the pass. → Leads to [[Positions/Rubber Guard/Carni]]
@@ -255,6 +263,8 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Pass from Carni?</p>
 
 ### 1. Driving forward without first confirming heel protection and ankle position
 
@@ -294,6 +304,8 @@ As the top player caught in Carni, the stack pass represents your most aggressiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Pass from Carni (Attacker)?</p>
+
 **Phase 1: Mechanics** - Forward pressure generation with heel protection
 Practice generating forward stacking pressure from Carni top with zero resistance. Focus on hip extension mechanics, maintaining ankle protection throughout forward drive, and smooth weight transfer from sitting back to driving forward. 40 repetitions each side with emphasis on keeping heel safe.
 
@@ -314,39 +326,12 @@ Positional sparring starting from Carni top with partner attacking freely. Work 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What conditions must be confirmed before initiating the stack pass from Carni?
-**A**: Three conditions must be verified: first, your ankle must be flexed with toes pointed away from the bottom player to prevent heel hook during forward pressure. Second, the bottom player's heel grip must not be locked in a finishing position. Third, their inside leg hook must not be deeply threaded toward saddle configuration, as forward pressure would accelerate their saddle transition. Only when all three conditions are met should you commit to the aggressive stack pass.
-
-**Q2**: Why is the stack pass considered higher risk but higher reward than posture recovery from Carni?
-**A**: Posture recovery aims to neutralize the Carni threat and reset to closed guard, which is safe but leaves you in a neutral position requiring further guard passing work. The stack pass commits to driving completely through the guard to achieve side control, which is a dominant position. The added risk comes from the sustained forward pressure while your leg remains partially entangled, creating a window where the bottom player can thread deeper for saddle entry if they recognize your intent early.
-
-**Q3**: Your opponent begins threading their inside leg deeper as you drive forward - what is your immediate response?
-**A**: Immediately halt forward pressure and retract your hip away from their threading leg to prevent the saddle hook from setting. Use your free leg to block or clear their threading hook before it crosses your hip line. Only resume the stack pass after neutralizing the saddle threat. If the saddle is already established, abandon the pass entirely and transition to saddle defense rather than forcing a pass from an increasingly dangerous position.
-
-**Q4**: What is the optimal timing for stripping the bottom player's heel grip during the stack pass?
-**A**: Strip the heel grip during peak stacking compression when the bottom player is maximally folded and their arm mechanics are weakest. As your chest drives into their torso and compresses them toward their shoulders, their forearm angle and grip leverage deteriorate significantly. Attack the weakest point of their grip, typically the gap between thumb and fingers, during these compression peaks rather than fighting the grip while they have full extension and leverage.
-
-**Q5**: How do you prevent the bottom player from reguarding after you clear the leg entanglement?
-**A**: Speed of consolidation is critical. Within one to two seconds of clearing the entanglement, establish crossface with your forearm across their jaw to prevent them from turning into you, drop your hips heavy against their hip to eliminate reguarding space, and block their far hip with your near hand to prevent knee insertion. Treat the consolidation as the final integrated step of the pass rather than a separate action that happens after the pass is complete.
-
-**Q6**: Your opponent inverts under your stacking pressure to re-establish Carni from the opposite angle - how do you counter this?
-**A**: Accelerate your forward drive and pin their hips to the mat with heavy chest-to-hip pressure to prevent the inversion from completing. The inversion requires space and rotational freedom, both of which are eliminated by maximum forward stacking weight. If you recognize the inversion attempt early, driving your shoulder into their hip crease blocks the rotation axis entirely. The key is increasing pressure immediately rather than pausing, which gives them the space to complete the rotation.
-
-**Q7**: When should you abandon the stack pass and choose a different escape from Carni?
-**A**: Abandon the stack pass if the bottom player's heel grip tightens during your forward pressure rather than loosening, if they successfully establish a saddle hook during your forward drive, or if their inversion counter successfully resets the Carni from a fresh angle. In these scenarios, continuing the stack pass compounds the danger. Default to posture recovery for closed guard, or technical stand-up to disengage entirely. The worst outcome is persisting with a failing stack pass and ending up in saddle with your leg deeply entangled.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Pass from Carni?</p>
 
 The Stack Pass from Carni involves driving forward into a leg entanglement where the bottom player may have active heel hook grip. Never attempt this technique if the heel hook is already deeply engaged, as forward momentum can accelerate knee ligament damage beyond the point of safe tapping. Always confirm ankle protection before initiating the pass. If you feel any rotational pressure on your knee during the forward drive, stop immediately and address the submission threat before continuing. This technique carries higher injury risk than conservative Carni escapes and should only be attempted after extensive drilling with cooperative partners. Communicate clearly with training partners about heel hook threat levels during positional drilling.
 

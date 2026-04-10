@@ -188,6 +188,8 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Scissor Sweep from Open Guard?</p>
+
 - Break opponent's posture with the collar grip before initiating the scissor - the sweep fails if they maintain upright alignment over their base
 - Generate opposing forces with your legs - top shin drives laterally across the midsection while bottom leg sweeps the near knee in the opposite direction
 - Commit hip rotation fully into the sweep direction - half-committed scissors dissipate force and allow the opponent time to recover their base
@@ -202,6 +204,8 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Scissor Sweep from Open Guard?</p>
+
 - Deep cross-collar grip established on opponent's far lapel at collar bone level for maximum posture-breaking leverage
 - Same-side sleeve or wrist grip controlling the arm on the side you intend to sweep toward, preventing any hand post
 - Shin positioned horizontally across opponent's midsection at or above belt line for optimal lateral pushing leverage
@@ -214,6 +218,8 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Scissor Sweep from Open Guard step by step?</p>
 
 1. **Establish Cross-Collar Grip**: Reach across with your strong-side hand and secure a deep cross-collar grip on the opponent's far lapel, feeding your fingers inside the collar at approximately collar bone level. This grip must be deep enough to generate strong pulling force for breaking their posture forward and down.
 2. **Secure Sleeve Control**: With your opposite hand, grip the opponent's same-side sleeve at the wrist or cuff area firmly. This grip prevents them from posting their hand on the mat when you initiate the sweep, removing their primary base-recovery tool and making the lateral topple mechanically unavoidable.
@@ -243,6 +249,8 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Scissor Sweep from Open Guard?</p>
+
 - **Opponent posts their far hand wide and bases out laterally to resist the toppling force of the scissor** (Effectiveness: High) - Your Response: Switch to a collar drag using the established collar grip to pull them forward in the opposite direction, or transition to an arm drag on the posted arm to expose their back → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward aggressively, stacking your hips and flattening your scissor angle before the sweep develops** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by transitioning to a butterfly hook elevation or pulling them into closed guard to set up a hip bump sweep from the committed forward pressure → Leads to [[Positions/Open Guard]]
 - **Opponent strips the sleeve grip and posts their hand, then uses the opening to backstep or pressure pass through the committed leg position** (Effectiveness: High) - Your Response: Immediately re-establish a control point on their posting arm or frame on their shoulder, then recover guard by inserting your knee shield before they complete the pass → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Scissor Sweep from Open Guard?</p>
 
 ### 1. Attempting the scissor before breaking the opponent's posture with the collar grip
 
@@ -293,6 +303,8 @@ Executing the Scissor Sweep from Open Guard requires precise coordination betwee
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Scissor Sweep from Open Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo drilling and basic movement patterns
 Practice the scissoring leg motion with a grappling dummy or compliant partner. Focus on the opposing force vectors of the top and bottom legs, hip rotation direction, and collar grip pulling mechanics. Drill the sweep slowly 20-30 times per side to build muscle memory for the coordinated motion.
 
@@ -313,42 +325,12 @@ Practice the complete sequence from grip fighting through mount consolidation un
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What grip must be established before the scissoring motion can generate sufficient force to complete the sweep?
-**A**: A deep cross-collar grip on the opponent's far lapel is essential because it provides the pulling force needed to break posture and create the forward weight commitment required for the sweep. Without this grip controlling the opponent's upper body alignment, the legs alone cannot generate sufficient rotational force to topple a properly based opponent, as their weight remains behind their knees where it naturally resists lateral displacement.
-
-**Q2**: Where should you position your shin across the opponent's body for maximum sweep leverage?
-**A**: The shin should be placed horizontally across the opponent's midsection at belt level or slightly above, targeting the solar plexus area. This positioning maximizes the horizontal force vector of the lateral push while keeping the contact point high enough to prevent the opponent from stepping over your leg. Placing the shin too low reduces your mechanical advantage and allows easy counter-movement; too high causes the shin to slide off during the sweep.
-
-**Q3**: What happens if you attempt the scissor sweep without controlling your opponent's sleeve or wrist?
-**A**: Without sleeve control, the opponent can post their free hand on the mat as soon as they feel the lateral force of the scissor, creating a tripod base that completely arrests the rotational momentum. Even a perfectly timed scissor with excellent mechanics will fail because the hand post provides a structural counterforce that negates the scissoring leverage. The sleeve grip is not optional - it is mechanically necessary for sweep completion.
-
-**Q4**: Your opponent widens their base when they feel your shin come across their stomach - how do you adjust your attack?
-**A**: When the opponent widens their base, they become more resistant to the lateral scissor but also more vulnerable to linear pulls. Transition to a collar drag by pulling them sharply forward with the established collar grip, or switch to an arm drag on the controlled sleeve arm to expose their back. Their wide base also opens the possibility of threading your bottom leg deeper for a butterfly hook sweep variation, using their widened stance against them.
-
-**Q5**: What is the optimal timing window for initiating the scissor sweep against a kneeling opponent?
-**A**: The ideal moment is when the opponent's weight shifts forward, either because they are reaching for grips, attempting to push your knees down, or driving into your guard with pressure. This forward weight commitment places their center of gravity ahead of their base, making the lateral scissor force dramatically more effective. A secondary window opens when they reach with their far hand for any reason, momentarily reducing their base width on the sweep side.
-
-**Q6**: How do you transition to mount after the opponent falls from the scissor sweep without losing position?
-**A**: Maintain collar grip tension and follow the opponent's falling momentum by swinging your hips over theirs in one continuous motion without pausing at the top of the sweep. Use the rotational energy generated by the scissoring action to carry you directly into mount. Release the sleeve grip only to post your hand for balance if needed, then immediately settle heavy hips on their solar plexus and establish grapevine or low mount control before they can bridge or frame.
-
-**Q7**: What chain attacks complement the scissor sweep when the initial attempt is blocked by the opponent basing out?
-**A**: The most effective chains include transitioning to a collar drag when the opponent bases wide, switching to a triangle entry when they post their arm forward to resist the sweep, or flowing to a pendulum sweep when they drive forward to counter. The cross-collar grip established for the scissor sweep serves as the foundation grip for all these alternatives, allowing seamless transitions without re-gripping, which is why grip retention during failed attempts is critical.
-
-**Q8**: How does hip rotation direction affect the scissor sweep's effectiveness and what common mistake do practitioners make?
-**A**: The hips must rotate fully in the sweep direction, turning the entire torso as a connected unit rather than isolating the movement to the legs. The most common mistake is half-committing to the rotation - practitioners scissor their legs but keep their torso relatively square to the ceiling. This dissipates the rotational force across disconnected body segments instead of channeling it into a single directional vector. Full hip commitment means your chest should face the direction you are sweeping toward at the completion of the motion.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Scissor Sweep from Open Guard?</p>
 
 The scissor sweep is generally a low-risk technique with minimal injury potential during controlled training. Ensure measured execution when the sweep succeeds to avoid slamming your partner onto the mat during drilling sessions. The bottom leg's cutting action against the opponent's knee should be firm but controlled - excessive force can strain your training partner's knee ligaments if their foot catches on the mat during the fall. Always allow your partner space to breakfall safely when the sweep completes, and communicate during high-intensity repetitions to maintain a safe training environment.
 

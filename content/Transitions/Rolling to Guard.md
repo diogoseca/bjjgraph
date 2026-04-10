@@ -208,7 +208,7 @@ Rolling to Guard serves as a critical link in the defensive hierarchy, connectin
 
 - [[Transitions/Granby Roll to Guard]] - Advanced variation using more dynamic shoulder roll mechanics
 
-- [[Principles/Guard Recovery]] - Broader defensive system this technique belongs to
+- [[Transitions/Sit Through to Guard]] - Complementary turtle escape using hip rotation to recover guard from the opposite direction
 
 - [[Transitions/Hip Escape to Guard]] - Complementary fundamental escape using shrimping mechanics
 

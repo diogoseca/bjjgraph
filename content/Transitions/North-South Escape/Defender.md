@@ -162,6 +162,8 @@ As the top player in north-south, your opponent's escape attempts represent a di
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting North-South Escape?</p>
+
 - Bottom player begins walking their feet closer to their hips, shortening the distance to create a stronger bridge - this signals imminent bridging attempt
 - Bottom player's forearms push against your hips or chest creating frame pressure, indicating they are building structural support for hip escape
 - Bottom player turns their head and shoulders to one side while elevating hips, signaling the bridge-and-turn sequence that precedes knee insertion
@@ -174,6 +176,8 @@ As the top player in north-south, your opponent's escape attempts represent a di
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending North-South Escape?</p>
 
 - Maintain heavy chest-to-chest pressure with weight distributed forward over opponent's upper body to deny breathing room and framing space
 - Control at least one of opponent's arms at all times to prevent frame creation, which is the foundation of every escape attempt
@@ -188,6 +192,8 @@ As the top player in north-south, your opponent's escape attempts represent a di
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against North-South Escape?</p>
 
 ### 1. Sprawl hips back and widen base to kill the bridge
 
@@ -225,6 +231,8 @@ As the top player in north-south, your opponent's escape attempts represent a di
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending North-South Escape?</p>
+
 ### → [[Positions/North-South]]
 
 Maintain heavy forward pressure with chest over opponent's sternum, control both arms to deny framing, and widen base immediately when you feel bridging attempts. Reset your weight distribution after each failed escape to prevent cumulative space creation.
@@ -244,6 +252,8 @@ Time your step-over to mount during the brief window after their bridge creates 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending North-South Escape?</p>
 
 ### 1. Keeping weight static and centered instead of adjusting dynamically to escape attempts
 
@@ -278,6 +288,8 @@ Time your step-over to mount during the brief window after their bridge creates 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against North-South Escape?</p>
+
 **Phase 1: Pressure Maintenance Fundamentals** - Develop sensitivity to escape initiation cues
 Partner works systematic north-south escapes at 50% speed while you focus exclusively on maintaining chest pressure and recognizing the early cues of bridge preparation, frame creation, and turning attempts. Do not counter or transition - simply maintain pressure and identify patterns. Build a mental catalog of what each escape phase feels like.
 
@@ -294,29 +306,6 @@ Incorporate kimura, armbar, and north-south choke threats into your retention ga
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing to escape north-south?
-**A**: The earliest cue is the bottom player walking their feet closer to their hips, shortening the distance between their feet and buttocks. This foot repositioning creates optimal bridge mechanics and signals that a bridging attempt is imminent within the next few seconds. Recognizing this early allows you to widen your base and increase forward pressure before they can generate upward force.
-
-**Q2**: Your opponent successfully turns to their side and is fighting to insert a knee shield - what is your best response?
-**A**: Rather than fighting to flatten them back into north-south, transition immediately to side control by hip-switching to face them. Their turning motion has already compromised north-south alignment, making side control the higher-percentage dominant position to secure. Drive your crossface shoulder into their jaw as you transition to prevent further turning, and immediately establish underhook control to begin your side control retention sequence.
-
-**Q3**: How do you use submission threats to shut down escape attempts without losing positional control?
-**A**: Use submissions as positional resets rather than full commitments. When the bottom player extends an arm to frame, grip the kimura briefly to force them to retract the arm and abandon their frame structure. Release the grip and immediately re-consolidate your chest pressure and arm control. This approach disrupts their escape sequence without the weight shift vulnerability that comes from fully pursuing the submission finish. The threat is more valuable than the attempt.
-
-**Q4**: Why is dynamic pressure adjustment more effective than static weight placement against a skilled bottom player?
-**A**: A skilled bottom player uses cumulative micro-movements - small shrimps, incremental frame adjustments, and progressive hip escapes - that each create millimeters of space. Static weight fails to address this because it cannot follow lateral movement. Dynamic adjustment means constantly shifting your pressure angle to close gaps as they appear, matching their movement with counter-movement. This proactive approach prevents space accumulation while static weight allows it to compound over multiple escape cycles.
-
-**Q5**: Your opponent bridges explosively while you are reaching for a kimura grip - how do you recover control?
-**A**: Immediately abandon the kimura attempt and post both hands on the mat to prevent being rolled. Sprawl your hips backward and widen your base to ride out the bridge momentum. As their bridge collapses from gravity and fatigue, immediately drive your chest back into their sternum and re-establish arm control. The lesson is clear: never fully commit to submissions when you sense escape energy building. Use the failed bridge as an opportunity to re-consolidate heavier pressure while they are momentarily exhausted from the explosive effort.
-
-
-
-</section>
 
 
 </main>

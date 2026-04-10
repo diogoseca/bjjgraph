@@ -166,6 +166,8 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting X-Guard Elevation Sweep?</p>
+
 - Opponent's legs begin threading underneath your hips from the inverted grasshopper position, with inside foot seeking your far hip and outside leg hooking behind your near knee
 - You feel upward pressure building under your hips as the opponent slides their body directly beneath your center of gravity and begins loading their hook platform
 - Opponent secures a controlling grip on your near-side ankle, wrist, or sleeve and begins pulling forward while simultaneously adjusting their hip position underneath you
@@ -177,6 +179,8 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending X-Guard Elevation Sweep?</p>
 
 - Maintain wide base with hips low and back - vertical posture with narrow stance is exactly what the sweeper needs to generate elevation
 - Deny hook insertion by keeping legs moving and circling rather than standing static in the attacker's optimal threading range
@@ -191,6 +195,8 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against X-Guard Elevation Sweep?</p>
 
 ### 1. Widen base and drop hips low immediately upon recognizing hook insertion attempt, removing vertical leverage by positioning your center of gravity below the attacker's hook platform
 
@@ -228,6 +234,8 @@ The most effective defensive approach treats grasshopper guard as a time-limited
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending X-Guard Elevation Sweep?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Deny the X-Guard hook insertion through base widening, leg extraction, or grip breaking before the attacker can load their hips underneath your center of gravity. Force the attacker to remain in unsustainable grasshopper guard without completing the transition to X-Guard, draining their energy while you maintain safe standing position. Patient circling and active leg movement prevent the attacker from threading hooks while their core fatigues.
@@ -243,6 +251,8 @@ When the sweep partially succeeds but you manage to insert a knee during the tra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending X-Guard Elevation Sweep?</p>
 
 ### 1. Standing tall with narrow base and weight centered directly over the inverted guard player
 
@@ -272,6 +282,8 @@ When the sweep partially succeeds but you manage to insert a knee during the tra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against X-Guard Elevation Sweep?</p>
+
 **Week 1-2** - Recognition and base management
 Partner establishes grasshopper guard and slowly threads X-Guard hooks at 25% speed. Focus exclusively on recognizing the hook insertion phase and immediately responding with base widening and hip lowering. No counter-attacks yet - the goal is developing automatic recognition of the sweep setup and reflexive base adjustment. Partner provides feedback on timing and positioning.
 
@@ -288,29 +300,6 @@ Live positional rounds starting with the attacker in grasshopper guard. Defender
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest moment you can recognize that an X-Guard Elevation Sweep is being initiated from grasshopper guard?
-**A**: The earliest recognition point is when the opponent's legs begin threading underneath your hips from the inverted position, with the inside foot seeking your far hip. Before they reach full X-Guard hook configuration, you should feel their body sliding directly underneath your base and their grip tightening on your near-side ankle or wrist. This hook-threading phase is the optimal defensive window because the attacker has not yet loaded their platform.
-
-**Q2**: Why is stepping backward the first defensive priority when you feel X-Guard hooks being inserted?
-**A**: Stepping backward extracts your legs from the hook configuration before the attacker can load their hips underneath your center of gravity. The X-Guard elevation requires both hooks to be set and the attacker's hips to be positioned directly beneath you. Backward movement removes your legs from their threading range and breaks the mechanical structure needed for the sweep. However, you must also break their grip on your ankle or wrist, because that grip prevents backward extraction and allows them to follow your retreat.
-
-**Q3**: Your opponent has fully loaded X-Guard hooks and is beginning the elevation - what is your best late-stage defensive option?
-**A**: Post your hand firmly on the mat behind you to create a structural brace against the backward toppling motion while simultaneously widening your base as much as possible. This is an emergency defense that arrests the sweep mid-execution. Once the fall is stopped, immediately work to step around the hooks and disengage or initiate a pass. Be aware that the attacker will try to increase their grip pull to break your post, so prepare to angle your body diagonally rather than absorbing force straight backward.
-
-**Q4**: Why should you avoid driving forward into a grasshopper guard player who already has partial X-Guard hooks set?
-**A**: Forward pressure after hooks are partially set loads your weight directly onto the attacker's hook platform, providing the energy they need to complete the elevation sweep. The X-Guard Elevation Sweep is fundamentally a counter-pressure technique that converts forward weight commitment into upward sweeping force. Your forward drive becomes the sweep's power source. Instead, move laterally through base widening or backward through leg extraction to deny the attacker the weight loading they require.
-
-**Q5**: How does the grasshopper guard's limited sustainability factor into your defensive strategy?
-**A**: Grasshopper guard requires extreme core engagement and cannot be maintained beyond 10-15 seconds effectively. This means patient, safe defense that denies attack opportunities will force the attacker to either commit to a compromised sweep attempt or abandon the position entirely due to fatigue. Your strategy should prioritize denying their quick attack windows through base management and active hook denial rather than rushing to counter-attack, because time itself degrades their offensive capacity from this position.
-
-
-
-</section>
 
 
 </main>

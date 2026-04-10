@@ -74,12 +74,12 @@
       "relationship": "Related transition — alternative S Mount entry from a different mount variation"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Primary follow-up submission — the finish this transition sets up"
+      "name": "S Mount Armbar Setup",
+      "relationship": "Primary follow-up technique — the armbar setup that this transition enables from S Mount"
     },
     {
-      "name": "Armbar from High Mount",
-      "relationship": "Alternative submission — direct armbar without transitioning to S Mount first"
+      "name": "Mount to Armbar",
+      "relationship": "Alternative submission path — direct armbar from mount without transitioning to S Mount first"
     },
     {
       "name": "Technical Mount",
@@ -290,6 +290,14 @@
       {
         "question": "If the S Mount entry fails and the opponent recovers half guard, what should you prioritize?",
         "answer": "Immediately establish crossface control and heavy shoulder pressure to prevent the opponent from getting to their side and establishing offensive half guard. Secure your free leg's base and begin systematic half guard passing rather than trying to rush back to mount. The failed S Mount attempt often leaves you in a strong half guard top position with upper body control — use this advantage methodically rather than scrambling to re-establish mount."
+      },
+      {
+        "question": "Your opponent posts their free hand on your hip during the leg swing — how do you adjust?",
+        "answer": "Their posted hand creates both an obstacle and an opportunity. First, swim your controlling hand under their elbow to strip the frame before completing the swing. If the frame is too strong to strip mid-transition, pause the leg swing and redirect your attack: their extended arm is now exposed and isolated away from their body, making it a viable target for armbar or americana directly from high mount. Convert their defensive frame into your offensive opportunity rather than fighting through it."
+      },
+      {
+        "question": "What role does the leg that stays across the opponent's torso play once S Mount is established?",
+        "answer": "The torso leg serves as the primary anti-escape mechanism in S Mount. Positioned across the opponent's chest at sternum level, it prevents hip escape by blocking lateral hip movement and anchors your weight distribution across their upper body. Without this leg tight and heavy across the chest, the opponent can shrimp their hips away and begin recovering guard. The torso leg must maintain constant downward pressure and stay connected to their chest — if it rides up or loosens, the position deteriorates rapidly."
       }
     ],
     "safety_considerations": "The High Mount to S Mount transition itself carries low injury risk since it is a positional movement rather than a joint attack. However, practitioners should be aware that the transition leads directly to armbar position, where injury potential is significant. During training, complete the S Mount entry with control rather than explosive speed to avoid accidentally dropping weight onto your partner's face or shoulder. When drilling the full sequence into armbar, always allow time for your partner to tap and release immediately. Never slam or drop into S Mount position — the hip-to-shoulder drive should be firm but controlled."

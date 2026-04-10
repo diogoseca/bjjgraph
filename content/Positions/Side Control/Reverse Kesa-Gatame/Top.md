@@ -32,20 +32,20 @@ description: "Master Reverse Kesa-Gatame Top in BJJ. Complete guide covering con
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 15% of exchanges from this position.",
+      "name": "Execute Kimura from Reverse Kesa-Gatame",
+      "text": "From this position, attempt Kimura from Reverse Kesa-Gatame. This technique is attempted in 15% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Americana from Reverse Kesa-Gatame",
+      "text": "From this position, attempt Americana from Reverse Kesa-Gatame. This technique is attempted in 15% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Reverse Kesa-Gatame",
+      "text": "From this position, attempt Arm Triangle from Reverse Kesa-Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
@@ -165,6 +165,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Kesa-Gatame (Top)?</p>
+
 - Top player's chest maintains heavy contact with opponent's upper torso, creating constant downward pressure through the sternum and pectoral muscles onto opponent's ribcage and shoulder complex
 - Top player's back and shoulders face toward opponent's head while hips remain low and heavy on opponent's near-side ribs, creating a reverse orientation that eliminates traditional framing options
 - Opponent's far arm is trapped either under top player's armpit with elbow clamped tight to ribs, or controlled with deep overhook grip that prevents arm extraction and defensive hand fighting
@@ -178,6 +180,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse Kesa-Gatame (Top)?</p>
+
 - Successful guard pass or transition from standard side control position
 - Control of opponent's far arm established before rotating into reverse position
 - Understanding of weight distribution and pressure application through chest and hips
@@ -190,6 +194,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Reverse Kesa-Gatame?</p>
 
 - Reverse orientation eliminates opponent's ability to use frames against your face and neck while creating unique submission angles
 - Trapping the far arm under your armpit or with overhook removes opponent's primary defensive tool and opens submission pathways
@@ -206,9 +212,11 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Reverse Kesa-Gatame (Top)?</p>
+
 **If opponent remains flat and defensive with minimal movement:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Side Control]] (Probability: 55%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Side Control]] (Probability: 55%)
 - Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
@@ -234,6 +242,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Reverse Kesa-Gatame?</p>
 
 ### 1. Sitting too upright with elevated chest and hips raised off opponent
 
@@ -273,6 +283,8 @@ Reverse Kesa-Gatame Top is a dominant pinning position where the top practitione
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Reverse Kesa-Gatame attacks?</p>
+
 ### Position Retention Against Progressive Resistance
 
 Partner starts flat and defensive, gradually increasing resistance from 25% to 75% over 2-minute rounds. Focus on maintaining chest pressure, arm control, and base while opponent attempts various escapes. Reset if opponent escapes, emphasizing quick recovery to reverse kesa.
@@ -305,38 +317,6 @@ Begin in standard side control, practice entering reverse kesa by securing far a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary grip configuration for controlling the opponent's far arm in Reverse Kesa-Gatame?
-**A**: The far arm should be clamped tightly under your armpit with your elbow squeezed against your ribs, or controlled with a deep overhook grip. The armpit clamp creates a complete seal around the arm, preventing extraction. You should feel constant resistance if the opponent attempts to pull their arm free. This control is the foundation of the position's effectiveness.
-
-**Q2**: How should your weight be distributed to maximize chest pressure while maintaining stability?
-**A**: Your weight should drive through your chest and sternum directly onto the opponent's upper torso, not supported by your arms. Shoulders should be lower than your hips, creating a forward lean. Your hips stay low and heavy against their near-side ribs. The far leg extends wide for base while the near leg bends for stability, forming a tripod with your hips.
-
-**Q3**: Your opponent begins a strong bridge attempt - what adjustment prevents them from creating space?
-**A**: Widen your base immediately by extending your far leg further and posting your near foot. Drop your hips even lower to increase the weight on their torso. Maintain your armpit clamp on their far arm - this prevents them from using that arm to aid the bridge. Ride the bridge by staying connected rather than tensing up, letting their energy dissipate as they return to the mat.
-
-**Q4**: What indicates your opponent is about to attempt an elbow escape, and how do you counter it?
-**A**: Signs include the opponent turning slightly onto their far side, bringing their near elbow toward their hip, and beginning to shrimp their hips away. Counter by driving your hips forward to follow their movement, maintaining chest pressure. If they create significant space, transition immediately to mount or knee-on-belly rather than chasing the reverse kesa position.
-
-**Q5**: How do you manage energy expenditure while maintaining dominant control in this position?
-**A**: Let your skeletal structure and gravity do the work rather than muscular effort. Your chest weight should rest naturally on their torso without active pushing. Arms remain light and ready for transitions, not supporting weight. Use your base from your legs rather than gripping intensely. Threatening submissions cyclically keeps the opponent defensive without requiring constant maximum pressure.
-
-**Q6**: Your opponent turns their body toward you attempting to face you - what is the optimal response?
-**A**: This exposes their back and creates an excellent back take opportunity. Maintain your chest connection and begin circling toward their back as they turn. Your armpit control on their far arm makes it easy to establish a seatbelt grip as you transition. Alternatively, if they expose their neck, you can attack with an arm triangle by sliding your head-side arm under their neck.
-
-**Q7**: What is the relationship between base width and submission threat in this position?
-**A**: Wider base provides stability against escapes but can limit submission mobility. When threatening submissions, you may temporarily narrow your base to create better angles for attacks like the kimura or americana. After the submission attempt concludes, immediately re-establish wide base. This creates a rhythm of base-narrow-attack, base-wide-control that keeps opponents guessing.
-
-**Q8**: How do you recover position if your opponent partially escapes and inserts a knee shield?
-**A**: Don't fight the knee shield directly. Instead, transition to a different position that negates their defense. Options include: sliding to north-south by walking around their head, transitioning to knee-on-belly by posting your knee on their abdomen, or switching to standard side control and working to remove the knee shield. The key is recognizing when reverse kesa is compromised and flowing to the next position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -85,6 +85,14 @@ description: "Defend against the Rodeo Ride to Turtle transition in BJJ. Recogni
         "@type": "Answer",
         "text": "Immediately return to a strong defensive turtle structure with elbows tight, chin tucked, and base wide. Do not continue scrambling from a compromised position, as this often makes things worse. Reset your defensive posture and begin monitoring for the next opportunity. The attacker may attempt another grip adjustment or begin attacking from their new position, both of which can create new escape windows. Preserve energy for the next calculated attempt rather than expending it on a continued scramble from a losing position."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "After successfully escaping to half guard during the transition, what should your immediate priorities be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediately establish a strong half guard structure with an active knee shield or underhook before the former attacker can establish a dominant passing position. The transition from turtle escape to half guard bottom creates a brief moment where neither player has consolidated their position. Use this window to secure the underhook on the trapped leg side, establish a knee shield frame, and get onto your side rather than remaining flat on your back. Your opponent is transitioning from a back attack mindset to a passing mindset, and this mental shift creates a gap you can exploit by immediately threatening sweeps or guard recovery to full guard."
+      }
     }
   ]
 }
@@ -154,6 +162,8 @@ As the defender caught in turtle while the top player transitions from Rodeo Rid
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rodeo Ride to Turtle?</p>
+
 - Feeling the top player's weight shift from a perpendicular angle toward directly behind your back, changing the direction of pressure from lateral to downward
 - Sensing grip releases or grip changes as the attacker transitions from Rodeo Ride-specific asymmetric grips toward seatbelt or harness configuration
 - Momentary lightening of hip pressure as the attacker walks their hips from the side angle to behind you during the repositioning phase
@@ -166,6 +176,8 @@ As the defender caught in turtle while the top player transitions from Rodeo Rid
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rodeo Ride to Turtle?</p>
 
 - Exploit grip transition windows when the attacker releases one control to establish another
 - Feel for changes in pressure angle that signal repositioning from perpendicular to behind
@@ -180,6 +192,8 @@ As the defender caught in turtle while the top player transitions from Rodeo Rid
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rodeo Ride to Turtle?</p>
 
 ### 1. Explosive sit-back to half guard during grip transition
 
@@ -217,6 +231,8 @@ As the defender caught in turtle while the top player transitions from Rodeo Rid
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rodeo Ride to Turtle?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive sit-back, granby roll, or hip rotation during the attacker's grip transition phase when their control is reduced to a single anchor point. Thread your legs through to establish half guard during the moment of weakened control, capitalizing on the attacker's divided attention between maintaining position and establishing new grips. The transition window is brief, so commit fully when you sense the grip change beginning.
@@ -228,6 +244,8 @@ Time an explosive sit-back, granby roll, or hip rotation during the attacker's g
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rodeo Ride to Turtle?</p>
 
 ### 1. Waiting until the attacker has fully established turtle top control before attempting escape
 
@@ -257,6 +275,8 @@ Time an explosive sit-back, granby roll, or hip rotation during the attacker's g
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rodeo Ride to Turtle?</p>
+
 **Phase 1: Recognition** - Identifying transition initiation cues
 Partner establishes Rodeo Ride and randomly initiates transitions to turtle top. Defender focuses solely on recognizing when the transition begins through tactile cues. Call out the moment you sense the transition starting. No escape attempts yet, purely sensory awareness development.
 
@@ -273,26 +293,6 @@ Full resistance rounds starting from Rodeo Ride. Attacker has full freedom to tr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to attempt an escape during the Rodeo Ride to Turtle transition?
-**A**: The optimal escape moment occurs during the attacker's grip transition phase when they are releasing one grip to establish another. This creates a brief window of reduced control where only one anchor point restrains your movement. Specifically, the moment between when they release their Rodeo Ride-specific grip and when they secure the seatbelt configuration represents the lowest control point in the entire transition. Your escape attempt should be already in motion as you sense the grip change beginning.
-
-**Q2**: What tactile cues indicate that the attacker is beginning the Rodeo Ride to Turtle transition?
-**A**: The primary tactile cues include a shift in pressure direction from lateral and perpendicular to more directly downward as the attacker moves behind you, a momentary lightening of hip pressure as they walk their hips from the side to behind your back, and the distinct feeling of grip releases and re-grips as they transition from asymmetric Rodeo Ride controls to seatbelt or harness configuration. You may also feel their posted leg moving from a lateral position to behind your hip.
-
-**Q3**: Why is sitting back toward the attacker more effective than pushing away during escape attempts?
-**A**: Sitting back toward the attacker disrupts their control structure by collapsing the space they need to maintain chest-to-back pressure. When you close distance by sitting into them, their arms cannot maintain the leverage needed for seatbelt control and their weight is displaced by your backward movement. Pushing away creates space that the attacker can immediately fill by following forward, maintaining or even improving their control. Additionally, sitting back is the first movement in establishing guard, which requires you to face the opponent rather than move away from them.
-
-**Q4**: Your escape attempt during the grip transition fails and the attacker reestablishes control. What should your next priority be?
-**A**: Immediately return to a strong defensive turtle structure with elbows tight, chin tucked, and base wide. Do not continue scrambling from a compromised position, as this often makes things worse. Reset your defensive posture and begin monitoring for the next opportunity. The attacker may attempt another grip adjustment or begin attacking from their new position, both of which can create new escape windows. Preserve energy for the next calculated attempt rather than expending it on a continued scramble from a losing position.
-
-
-
-</section>
 
 
 </main>

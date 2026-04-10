@@ -218,7 +218,7 @@ The Sweep from Ushiro Ashi-Garami occupies a critical role in the defensive leg 
 
 - [[Positions/Leg Entanglement]] - Fundamental positional category governing all ashi-garami sweep and escape mechanics
 
-- [[Transitions/Heel Hook from Saddle]] - Primary submission threat that motivates the sweep attempt as a defensive counter-strategy
+- [[Heel Hook from Saddle]] - Primary submission threat that motivates the sweep attempt as a defensive counter-strategy
 
 - [[Positions/Back Control]] - Alternative offensive target when sweep trajectory carries past mount into back exposure
 

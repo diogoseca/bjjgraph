@@ -11,7 +11,7 @@
     "rolling",
     "reversal"
   ],
-  "from_position": "Estima Lock/Bottom",
+  "from_position": "Estima Lock Control/Bottom",
   "outcomes": [
     {
       "to": "Half Guard/Top",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Estima Lock/Bottom",
+      "to": "Estima Lock Control/Bottom",
       "probability": 30,
       "result": "failure"
     },
@@ -78,7 +78,7 @@
       "relationship": "Alternative leg entanglement escape sharing similar defensive principles"
     },
     {
-      "name": "Estima Lock Finish",
+      "name": "Estima Lock",
       "relationship": "The submission this counter roll technique is designed to escape"
     },
     {
@@ -156,7 +156,7 @@
         "counter": "Opponent drives hips forward and increases rotational pressure to eliminate the space needed for body rotation",
         "effectiveness": "High",
         "your_response": "Abandon the counter roll attempt and return to conventional grip fighting and framing defense. If hip pressure intensifies beyond the rolling window, prioritize counter-rotating the ankle and establishing frames on their hips to relieve submission pressure through conventional escape methods.",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       },
       {
         "counter": "Opponent follows the rolling direction and backsteps into saddle position during the rotation",
@@ -168,13 +168,13 @@
         "counter": "Opponent bases out wide with far hand and drives shoulder into your turning shoulder to stuff the roll midway",
         "effectiveness": "Medium",
         "your_response": "If the roll stalls in the early phase, retreat to starting position and switch to conventional leg extraction using the space the roll attempt created. If stalled past halfway, drive through with maximum hip engagement to complete the rotation despite the shoulder pressure.",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       },
       {
         "counter": "Opponent transitions grip to toe hold configuration as you begin rotating, attacking the newly exposed angle",
         "effectiveness": "Medium",
         "your_response": "Halt the roll immediately if the toe hold threat materializes before significant rotation. Straighten your leg to reduce toe hold leverage and apply boot defense by pointing toes and flexing the foot. Address the new submission threat before reattempting any escape.",
-        "targets_outcome": "Estima Lock/Bottom"
+        "targets_outcome": "Estima Lock Control/Bottom"
       }
     ],
     "common_errors": [
@@ -304,7 +304,7 @@
       {
         "action": "Drive hips forward into the trapped leg and increase rotational finishing pressure to eliminate rolling space",
         "when_to_use": "When you recognize free leg posting and upper body angling before the roll has initiated—preventive response during the setup phase",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Bottom player cannot generate rolling momentum and remains trapped in the Estima Lock with increased submission pressure",
         "risk": "Over-committing forward pressure without maintaining wide base can be exploited if the bottom player switches to a different escape method"
       },
@@ -318,21 +318,21 @@
       {
         "action": "Base out wide with far hand and drive shoulder pressure into the bottom player's turning shoulder to stuff the roll",
         "when_to_use": "During the initial phase of the roll when rotational momentum is still building and can be stopped with structural resistance",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "Roll is stopped in its early phase and bottom player returns to trapped defensive position with Estima Lock still fully applied",
         "risk": "Removing one hand from the grip to base temporarily weakens the submission hold and may create a window for conventional grip escape"
       },
       {
         "action": "Transition grip to toe hold configuration as the rotation begins, attacking the newly exposed foot angle",
         "when_to_use": "When the roll creates a grip angle change that makes maintaining the Estima Lock configuration difficult but exposes the toes for alternative attack",
-        "targets_outcome": "Estima Lock/Bottom",
+        "targets_outcome": "Estima Lock Control/Bottom",
         "if_successful": "New submission threat halts the roll immediately as the bottom player must address the toe hold defense, resetting the escape to a new defensive crisis",
         "risk": "Grip transition during dynamic movement may result in losing all foot control if the toe hold grip is not established cleanly"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Estima Lock/Bottom",
+        "outcome": "Estima Lock Control/Bottom",
         "how": "Prevent the roll entirely by maintaining heavy hip pressure, widening your base when setup cues are detected, and controlling the bottom player's far shoulder to block the rotation. Drive forward finishing pressure when free leg posting is identified to close the escape window."
       },
       {

@@ -169,6 +169,8 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ## Position Definition
 
+<p class="section-subtitle">What is Anaconda Control (Bottom)?</p>
+
 - Opponent has secured gable grip or figure-four grip around your neck and near-side arm, with their forearm creating a constricting loop that threatens the anaconda choke while your head and shoulder are trapped together in the control
 - Top player's chest is driving downward pressure into your trapped shoulder with their body positioned perpendicular to yours, using their body weight to compress the choke and restrict your mobility while maintaining tight connection throughout
 - Your trapped arm is pinned between your own neck and the opponent's encircling arm, severely limiting your ability to create frames or defensive space while the choke mechanism tightens around both your neck and shoulder together
@@ -180,6 +182,8 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Anaconda Control (Bottom)?</p>
 
 - Opponent has established front headlock control from turtle, scramble, or failed takedown
 - Top player has successfully secured grip around neck and near-side arm
@@ -193,6 +197,8 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda Control?</p>
 
 - Immediate priority is preventing the choke from tightening by addressing neck pressure and grip before positional escape
 - Create space between your neck and opponent's choking arm using your free hand to pull on their wrist or elbow
@@ -208,6 +214,8 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Anaconda Control (Bottom)?</p>
 
 **If opponent has secured anaconda grip but hasn't stepped over or rolled yet:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Front Headlock]] (Probability: 40%)
@@ -240,6 +248,8 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda Control?</p>
 
 ### 1. Failing to immediately address the choking arm with free hand, allowing opponent time to lock the position
 
@@ -279,6 +289,8 @@ This position often occurs during scrambles from turtle, failed takedown attempt
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Anaconda Control defense?</p>
+
 ### Anaconda Defense Hand Fighting
 
 Partner establishes anaconda grip from turtle but doesn't finish. Bottom player practices hand fighting to prevent lock from tightening, focusing on pulling opponent's wrist away from neck and creating frames with free arm. Start at 50% resistance and gradually increase. 2-minute rounds.
@@ -311,38 +323,6 @@ Partner has anaconda grip with moderate tightness. Bottom player focuses solely 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when caught in anaconda control from bottom?
-**A**: The first priority is preventing the choke from tightening, not escaping the position. Use your free hand immediately to grip the opponent's choking wrist or forearm and pull it away from your neck to create space. This buys time and prevents the choke from reaching critical tightness. Only after establishing this defensive hand position should you work on positional escape. Many practitioners make the mistake of trying to escape first and get choked in the process.
-
-**Q2**: How should you position your chin and head to minimize choking pressure?
-**A**: Tuck your chin tightly toward your free-side shoulder (the shoulder that isn't trapped). This creates the smallest possible choking surface and protects your carotid arteries by positioning bony structures rather than soft tissue against the choking arm. Avoid turning your head away from opponent or lifting your chin, as both actions expose more neck surface to the choke. Think of creating a 'double chin' while turning toward your free shoulder.
-
-**Q3**: Your opponent begins stepping over your head to finish - what immediate action do you take?
-**A**: Use your free hand to post on their hip or thigh to prevent the step-over from completing. The step-over is the finishing sequence - once they complete it, the choke becomes extremely difficult to escape. Your free hand must leave the grip-fighting position and immediately post defensively on their hip. Simultaneously, try to flatten your body and scoot your hips away to reduce the angle they need. If the step is already mid-flight, roll in the same direction to deny them the dominant angle.
-
-**Q4**: What is the correct hip movement when defending anaconda control?
-**A**: Move your hips away from the opponent's chest pressure, not toward them. Hip movement away reduces their ability to drive weight into your trapped shoulder and creates the angle needed to potentially escape to guard. Coordinate hip movement with your upper body defense - as your free hand creates space at the neck, your hips should be moving in the opposite direction. This combined movement works to open the constricting loop rather than tightening it.
-
-**Q5**: How do you manage your trapped arm to reduce choking effectiveness?
-**A**: Keep your trapped arm bent with elbow close to your body rather than extended. An extended arm creates a larger loop for the opponent to constrict and provides more leverage for the choke. By keeping the arm bent and pulled close, you minimize the space they can control. Additionally, try to rotate your trapped arm so your elbow points toward the ground - this further reduces the mechanical advantage of the choke by changing the angle of compression.
-
-**Q6**: Your opponent initiates the roll-through finish - how do you counter?
-**A**: When they commit to the roll, you have two options depending on timing. If caught early, post your free hand on the mat and resist the roll by sprawling your legs back. If the roll is already happening, go with their momentum but continue fighting the grip and immediately work to create space on the landing. Sometimes rolling with them and scrambling on the landing is more effective than trying to stop a committed roll. Use the momentary chaos of the roll to attack their grip and escape.
-
-**Q7**: What breathing strategy helps survive anaconda control?
-**A**: Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and actually tighten the choke mechanism. Stay calm and breathe shallowly while you work your defense. Focus on relaxing muscles that aren't actively needed for escape - tension increases oxygen consumption. If you feel the choke getting tight, tap early rather than going unconscious. There's no shame in tapping to a properly locked anaconda.
-
-**Q8**: When should you prioritize escaping versus tapping to the anaconda?
-**A**: Tap when you feel tunnel vision starting, when you can no longer effectively fight the grip, or when you recognize that the position is fully locked with no escape opportunity. The anaconda can cause unconsciousness rapidly once the blood choke is established. If your defensive hand fighting isn't creating space after 5-10 seconds of effort, the position is likely too deep to escape. In training, err on the side of tapping early - you gain nothing from going unconscious and lose the opportunity to reset and drill the defense from earlier stages.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -76,7 +76,7 @@
       "relationship": "Related scarf hold variant with alternative arm positioning for mount entry"
     },
     {
-      "name": "Consolidation to Mount",
+      "name": "Side Control to Mount",
       "relationship": "Parallel mount entry transition from side control positions"
     },
     {
@@ -133,7 +133,7 @@
       },
       {
         "step_number": 4,
-        "action": "Shift Weight and Modify Head Control",
+        "action": "Shift Weight and Modify Head Position",
         "description": "Transfer your weight forward through your hips while keeping chest pressure on the opponent's upper body. Release or loosen your head control grip, transitioning that arm to a posting position beside the opponent's head or shoulder for balance during the step-over. Maintain arm contact to block any last-second frame attempts."
       },
       {

@@ -169,6 +169,8 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Position Definition
 
+<p class="section-subtitle">What is 3-4 Mount (Top)?</p>
+
 - Top player's hips positioned on opponent's torso/abdomen with one leg fully crossed over the body and one leg posted outside, creating asymmetric weight distribution through the mounted side while maintaining base through the posted leg
 - Mounted leg (inside leg) maintains tight connection to opponent's ribcage with knee driving into armpit or ribs, preventing space creation and establishing the primary control point for the three-quarter configuration
 - Posted leg (outside leg) positioned with knee on mat outside opponent's body, foot posting for base and mobility, creating a stable triangular base that resists bridging attempts while preserving transitional capacity
@@ -182,6 +184,8 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing 3-4 Mount (Top)?</p>
+
 - Successful transition from side control, standard mount, or knee on belly with opponent on their back
 - Control of opponent's upper body with at least one arm controlled or neutralized
 - Opponent flat or partially turned on their back with shoulders in contact with mat
@@ -194,6 +198,8 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from 3-4 Mount?</p>
 
 - Maintain constant forward pressure through hips and chest, sinking weight into opponent's diaphragm to restrict breathing and create submission urgency
 - Keep mounted-side knee tight to opponent's ribs/armpit, eliminating space and preventing the most common shrimp escape pattern
@@ -210,15 +216,17 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from 3-4 Mount (Top)?</p>
+
 **If opponent remains flat and passive, accepting bottom position without immediate escape attempts:**
 - Execute **[[Transitions/Consolidate Mount/Attacker|Consolidate Mount]]** → [[Positions/Mount]] (Probability: 75%)
 - Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 
 
 **Else if opponent attempts to bridge explosively or turn into the mounted side to escape:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 65%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Side Control]] (Probability: 70%)
 
 
@@ -241,6 +249,8 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from 3-4 Mount?</p>
 
 ### 1. Sitting too upright with weight distributed through the knees instead of hips and chest
 
@@ -285,6 +295,8 @@ Strategically, 3-4 Mount Top excels as both a finishing position and a transitio
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train 3-4 Mount attacks?</p>
+
 ### 3-4 Mount to Full Mount Transitions
 
 Partner starts in bottom mount position. Top player establishes 3-4 Mount, then transitions to full mount by bringing posted leg over. Bottom player offers 25% resistance. Drill both sides. Focus on maintaining pressure throughout transition and securing mount without allowing space creation.
@@ -317,38 +329,6 @@ Start in 3-4 Mount position. Bottom player attempts any escape at 75% intensity.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary advantage of maintaining 3-4 Mount over traditional mount with both legs crossed?
-**A**: The 3-4 Mount provides superior base stability against bridging attempts through the posted leg while maintaining offensive mobility for transitions and submission attacks. The asymmetric configuration allows rapid weight shifts to counter defensive movements while preserving the ability to flow between mount variations, S-mount, technical mount, and back control positions that would be slower to access from standard mount.
-
-**Q2**: Your opponent begins bridging toward your posted leg side. How do you adjust to maintain position?
-**A**: Immediately shift your weight toward the mounted side by driving your mounted-side knee deeper into their ribs while posting your hand on the mat near their far shoulder. This redistributes your weight away from the bridge direction. If the bridge is powerful, be ready to transition to side control or knee on belly rather than fighting the momentum—maintaining top position is more important than forcing the specific mount configuration.
-
-**Q3**: What are the essential grips and contact points for maintaining 3-4 Mount control?
-**A**: The critical contact points are: mounted knee tight against opponent's ribcage or armpit, posted leg's knee and foot creating triangular base outside opponent's body, chest-to-chest pressure driving forward and down, and at least one hand controlling opponent's arms (wrist, sleeve, or cross-grip). The hip-to-hip connection must remain constant, with your weight distributed primarily through your hips rather than sitting upright on your knees.
-
-**Q4**: How do you shut down the elbow escape (shrimp) when your opponent begins creating hip movement?
-**A**: Drive your mounted-side knee deeper into their armpit as a wedge, eliminating the space they need to insert their elbow. Simultaneously drop your chest weight forward to pin their shoulders, making hip movement more difficult. If they manage to get their elbow inside, immediately transition to side control or switch to the opposite side 3-4 configuration rather than allowing them to continue building the escape sequence.
-
-**Q5**: What weight distribution error most commonly allows opponents to escape from 3-4 Mount?
-**A**: Sitting too upright with weight distributed through the knees instead of forward through the hips and chest. This common error reduces chest pressure, allows the opponent breathing room to generate explosive movement, and shifts your center of gravity higher, making you vulnerable to bridge and roll escapes. The correction is maintaining constant forward lean with chest heavy on opponent's sternum while using your posted leg for balance, not primary weight support.
-
-**Q6**: Your opponent traps your posted arm and attempts to bridge toward that side. What is your response?
-**A**: Immediately withdraw the trapped arm while posting your opposite hand for base. Shift your weight sharply toward the mounted side and drive your mounted knee into their ribs. If the bridge is already in motion, transition with it rather than against it—flow to side control on the side they're bridging toward, maintaining top position throughout. Never fight directly against a committed bridge when your posting arm is compromised.
-
-**Q7**: How do you manage energy expenditure when maintaining 3-4 Mount against an actively resisting opponent?
-**A**: Use skeletal structure and gravity rather than muscular effort for pressure—let your body weight do the work by staying heavy through your hips and chest. Minimize unnecessary movement by making small, precise adjustments rather than large reactive movements. When the opponent pauses their escape attempts, use that time to consolidate grips and positioning. Recognize that 3-4 Mount is transitional—if maintaining it becomes energy-intensive, advance to full mount or attack a submission rather than grinding in an unstable position.
-
-**Q8**: Your opponent partially escapes and gets one knee inside, threatening half guard. How do you recover full mount control?
-**A**: Do not try to pull your leg back out against their hook—this wastes energy and rarely succeeds. Instead, accept top half guard temporarily and work to clear the knee using underhook pressure, crossface, and hip switching. Alternatively, if you feel their half guard is weak, immediately backstep to mount on the opposite side or transition to knee on belly to reset the position. The goal is maintaining dominant top position, not forcing a specific configuration.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

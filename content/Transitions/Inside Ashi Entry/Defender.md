@@ -162,6 +162,8 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inside Ashi Entry?</p>
+
 - Opponent grips your ankle or calf with both hands and begins pulling your leg toward them while seated or lying in open guard
 - You feel their inside leg threading between your thighs with shin pressure moving across your near hip toward your far hip
 - Opponent's outside leg swings upward and hooks behind your knee or thigh while their body angles away from you at 45-90 degrees
@@ -174,6 +176,8 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inside Ashi Entry?</p>
 
 - React to the initial grip on your ankle or knee immediately - early defense prevents the entanglement from forming
 - Control your own hip rotation to deny the inside leg wedge across your far hip
@@ -188,6 +192,8 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Ashi Entry?</p>
 
 ### 1. Sprawl and drive hips forward immediately when you feel the initial ankle or knee grip, pushing your weight over their guard before they can thread the inside leg
 
@@ -225,6 +231,8 @@ Defending the Inside Ashi Entry requires early recognition and immediate action 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Ashi Entry?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract your trapped leg by addressing grips early and either sprawling to prevent the entry or stepping back explosively before the inside leg wedge is established. Strip their ankle/knee grips using two-on-one hand control, then immediately re-establish distance with frames on their hips. The key is acting within the first 2-3 seconds of their entry attempt before consolidation.
@@ -240,6 +248,8 @@ Counter-entangle their free leg when inside ashi is partially established, creat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Ashi Entry?</p>
 
 ### 1. Ignoring the initial two-on-one leg grip and allowing opponent to begin threading without resistance
 
@@ -269,13 +279,15 @@ Counter-entangle their free leg when inside ashi is partially established, creat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Ashi Entry?</p>
+
 **Phase 1: Recognition and Early Prevention (Weeks 1-2)** - Learn to identify entry attempts and execute immediate grip stripping or sprawl defense
 Partner attempts inside ashi entries at 30% speed while you practice recognizing the two-on-one grip and threading motion. Focus on three primary responses: grip strip with two-on-one hands, explosive step back, and sprawl. Drill each response 15-20 times per side. Partner gradually increases speed to 50% as recognition improves.
 
 **Phase 2: Mid-Entry Defense (Weeks 3-4)** - Develop hip rotation and extraction techniques when inside leg has partially threaded
 Partner establishes partial inside ashi (inside leg across hip but no heel grip) and you practice hip rotation escapes, backstep extractions, and counter-entanglement entries. Work from the specific moment where early prevention has failed but full consolidation hasn't occurred. 10-15 repetitions per escape method per side with 50% resistance.
 
-**Phase 3: Grip Fighting from Established Position (Weeks 5-6)** - Strip heel grips and create extraction opportunities from consolidated inside ashi
+**Phase 3: Grips from Established Position (Weeks 5-6)** - Strip heel grips and create extraction opportunities from consolidated inside ashi
 Partner establishes full inside ashi with heel grip and you practice two-on-one grip stripping sequences, knee rotation to relieve heel hook pressure, and systematic leg extraction after clearing grips. Emphasize safety - tap immediately if rotational pressure is felt before grip is stripped. Work with experienced partners who can control their submissions.
 
 **Phase 4: Live Defensive Sparring and Integration (Weeks 7+)** - Apply defensive skills against progressive resistance and in live rolling
@@ -285,29 +297,6 @@ Positional sparring starting from open guard where partner actively hunts inside
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting an Inside Ashi Entry from open guard?
-**A**: The earliest cue is when your opponent establishes a two-on-one grip on your leg, typically one hand on your ankle and one behind your knee or calf. This grip configuration is the precursor to every inside ashi entry variation. The moment you feel both their hands controlling the same leg, you should immediately begin defensive action - strip grips, step back, or sprawl. Waiting for the leg threading phase means you've already missed the best defensive window.
-
-**Q2**: Why is sprawling forward dangerous if their inside leg has already partially threaded across your hip?
-**A**: When their inside leg is already across your hip, sprawling forward drives your weight onto their wedge, which actually helps them consolidate the position. Your forward pressure loads their inside leg frame and creates the downward angle they need for control. Instead, when the inside leg is partially threaded, you should focus on hip rotation to clear the wedge or step back to extract, never drive forward into an established frame.
-
-**Q3**: Your opponent has inside ashi established and secures your heel with a C-grip - what is your immediate priority?
-**A**: Your immediate priority is stripping the heel grip before they can transition to a figure-four finish grip. Use both hands in a two-on-one configuration to peel their fingers off your heel, working from the pinky side. Simultaneously rotate your knee toward the mat to relieve heel hook exposure. Do not attempt to extract your leg while the heel grip is active - this creates dangerous rotational force on your knee. Address the grip first, then work on leg extraction once your heel is free.
-
-**Q4**: When is counter-entanglement an appropriate defensive response versus when should you prioritize extraction?
-**A**: Counter-entanglement is appropriate when their inside leg has crossed your hip and extraction is difficult, but their outside leg hook is not yet fully secured - this narrow window allows you to establish a mirror position. Prioritize extraction when the entry is still developing (inside leg not yet across hip) or when you are significantly less skilled in leg locks than your opponent. Counter-entangling against a superior leg locker puts you in a mutual exchange where they have the advantage, so only accept this option when extraction has failed.
-
-**Q5**: How should you adjust your standing posture and base when you recognize an opponent is hunting for leg entries from open guard?
-**A**: Widen your base and keep your weight slightly back rather than leaning forward into their guard. Maintain an athletic stance with knees bent but avoid stepping too close with either leg, as forward steps are the primary trigger for entries. Control distance with your arms using collar or wrist grips rather than closing distance with your legs. When you must step forward, do so with your lead leg only while keeping your trailing leg back as a base, and immediately retract if you feel any two-on-one grip establishing on your lead leg.
-
-
-
-</section>
 
 
 </main>

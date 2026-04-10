@@ -156,6 +156,8 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Recovery?</p>
+
 - Opponent begins spreading their knees wider and shifting weight backward onto their heels, establishing the base needed for hip drive
 - Opponent's hands move to your hips, biceps, or chest to establish frames, shifting from defensive hand positioning to pushing frames
 - Opponent's core tenses and you feel an explosive push or drive backward through their hips, the primary recovery force
@@ -168,6 +170,8 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Recovery?</p>
 
 - Maintain constant pulling pressure through collar grips and heel drive into opponent's lower back to resist recovery
 - Recognize recovery attempts early through tactile cues and respond before the opponent generates momentum
@@ -182,6 +186,8 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Recovery?</p>
 
 ### 1. Reinforce collar grip and increase heel drive into lower back to resist recovery force
 
@@ -219,6 +225,8 @@ Your primary tools are grip retention, leg pressure, and attack timing. Deep col
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Recovery?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain layered grip control with at least two control points (collar plus sleeve, or collar plus head control) so that breaking one grip does not free them. Actively pull with heels into their lower back while using arms to keep their head and shoulders below their hip line. Re-grip immediately whenever a grip is broken rather than allowing any recovery momentum to build.
@@ -234,6 +242,8 @@ Use the opponent's recovery attempt as an offensive trigger. When they extend ar
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Recovery?</p>
 
 ### 1. Relying on a single collar grip to maintain broken posture without layered control
 
@@ -263,6 +273,8 @@ Use the opponent's recovery attempt as an offensive trigger. When they extend ar
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Recovery?</p>
+
 **Week 1-3: Grip Retention and Pulling Mechanics** - Maintaining broken posture through effective grip layering and active leg engagement
 Partner attempts posture recovery at 30-50% intensity while you focus on maintaining multiple grip control points and active heel pressure. Practice re-gripping immediately when a grip is broken. Develop the habit of using legs as active pulling tools rather than passive hooks. Build grip endurance through timed rounds of sustained pulling pressure.
 
@@ -279,26 +291,6 @@ Incorporate posture retention and counter-attacking into regular sparring rounds
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the primary tactile cues that indicate your opponent is about to attempt posture recovery?
-**A**: The earliest cue is feeling the opponent's knees spread wider against your thighs as they establish a wider base for stability. Next, you will feel their hands shift from neutral positions to pushing frames on your hips, biceps, or chest. The most decisive cue is feeling their core brace and an explosive backward drive through their hips. Secondary cues include grip fighting on your collar with a two-on-one configuration and one foot posting flat on the mat for a standing recovery variant.
-
-**Q2**: Why is attacking during posture recovery attempts more effective than purely defensive grip retention?
-**A**: Purely defensive grip retention is a battle of attrition that the top player eventually wins through repeated attempts and superior leverage from top position. Attacking during recovery is more effective because the recovery movement creates predictable body mechanics and momentary vulnerabilities. Extended arms create armbar opportunities, weight shifting backward creates hip bump sweep openings, and asymmetric arm positions create triangle entries. Offensive counters end the positional exchange decisively rather than prolonging a defensive struggle that depletes your grip endurance.
-
-**Q3**: How should you adjust your guard when the opponent initiates a standing posture recovery?
-**A**: When the opponent posts one foot to stand, immediately transition your feet from crossed ankles to active foot placement on their hips to control distance. Grab both sleeves or wrists to prevent them from establishing grip control during the stand-up. If they achieve full standing position, transition to open guard systems such as collar-sleeve, De La Riva, or lasso guard rather than desperately trying to maintain closed guard against a standing opponent. The standing recovery changes the guard dynamic fundamentally, requiring you to adapt rather than fight for a position that is no longer mechanically viable.
-
-**Q4**: What is the optimal hip angle to maintain when defending against posture recovery?
-**A**: An angled hip position of approximately 30 to 45 degrees off center is optimal because it prevents the opponent from driving straight back with maximum mechanical advantage. The angle creates asymmetric pressure that is harder to overcome and simultaneously opens submission pathways. The direction of your angle should be toward the side where you have the stronger grip or where you detect the opponent's arm is more exposed. Maintaining this angle requires active hip work and cannot be achieved from a flat, square-on-back position.
-
-
-
-</section>
 
 
 </main>

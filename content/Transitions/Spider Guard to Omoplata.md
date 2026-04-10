@@ -206,7 +206,7 @@ The Spider Guard to Omoplata serves as a cornerstone attack in modern gi guard s
 
 - [[Positions/Omoplata Control]] - Target position - shoulder lock control achieved on success
 
-- [[Submissions/Omoplata from Guard]] - Related submission - primary finishing technique from omoplata control
+- [[Submissions/Omoplata]] - Related submission - primary finishing technique from omoplata control
 
 - [[Transitions/Triangle Setup]] - Chain attack - primary alternative when omoplata entry is defended
 
@@ -220,7 +220,7 @@ The Spider Guard to Omoplata serves as a cornerstone attack in modern gi guard s
 
 - [[Transitions/Closed Guard to Omoplata]] - Related transition - omoplata entry from closed guard position
 
-- [[Submissions/Rolling Omoplata]] - Related submission - rolling entry variation when opponent is heavy on top
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control]] - Related submission - rolling entry variation when opponent is heavy on top
 
 - [[Transitions/Spider Guard Pass]] - Opposing technique - what top player attempts that creates omoplata openings
 

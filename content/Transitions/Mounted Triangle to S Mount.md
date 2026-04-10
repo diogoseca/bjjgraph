@@ -208,7 +208,7 @@ The mounted triangle to S mount transition sits within the broader mount attack 
 
 - [[Positions/Half Guard]] - Counter outcome position where defender escapes during the transition window
 
-- [[Submissions/Armbar from S Mount]] - Primary submission threat available immediately upon completing this transition
+- [[Transitions/S Mount Armbar Setup]] - Primary submission setup available immediately upon completing this transition to S mount
 
 - [[Transitions/Mounted Triangle Squeeze]] - Alternative finish attempt from the source position instead of transitioning
 

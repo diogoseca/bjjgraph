@@ -158,13 +158,15 @@ The critical defensive window occurs between the moment the attacker locks their
 
 Once the choke is fully locked with the attacker sprawled on the finishing side, escape becomes significantly more difficult but not impossible. The key late-stage defense involves turning into the attacker and walking your hips away to reduce the compression angle, combined with working your trapped hand toward your own face to create space between your bicep and neck. Understanding that the arm triangle is a blood choke with rapid onset means you must act immediately when you recognize the threat—hesitation of even a few seconds once the squeeze is applied can result in unconsciousness.
 
-**Opponent's Starting Position**: [[Positions/Side Control]] (Top)
+**Opponent's Starting Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Arm Triangle from Top?</p>
 
 - Attacker swims their head underneath your near-side arm during side control, threading to the opposite side of your forearm—this is the primary setup motion that precedes arm triangle configuration
 - Attacker uses their far hand to actively push your elbow across your own face or neck while maintaining crossface pressure with their other arm, steering your arm into the choke position
@@ -179,6 +181,8 @@ Once the choke is fully locked with the attacker sprawled on the finishing side,
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Arm Triangle from Top?</p>
+
 - Never allow your near arm to cross your own centerline when under side control—keep your elbow connected to your hip and frame against the attacker's shoulder rather than their head or neck
 - Recognize the arm triangle threat immediately when the attacker swims their head under your arm or pushes your elbow across your face, and retract your arm before the grip is locked
 - Fight the grip before it is set—once the gable grip is locked behind your head, escape difficulty increases dramatically, so invest maximum defensive energy in the pre-grip phase
@@ -192,6 +196,8 @@ Once the choke is fully locked with the attacker sprawled on the finishing side,
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Triangle from Top?</p>
 
 ### 1. Retract the near arm before the grip locks by pulling your elbow back to your hip and framing against the attacker's shoulder instead of their head. Use your far hand to push their head away while shrimping your hips to create distance.
 
@@ -229,6 +235,8 @@ Once the choke is fully locked with the attacker sprawled on the finishing side,
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Triangle from Top?</p>
+
 ### → [[Positions/Side Control]]
 
 Prevent the arm triangle entirely by keeping your near arm retracted with elbow at your hip, or extract the trapped arm before or during the walk-around by pulling your elbow back to your centerline while shrimping your hips away from the attacker. Early prevention through proper arm discipline in side control bottom is the most reliable path to this outcome.
@@ -244,6 +252,8 @@ Insert your knee across the attacker's hip during the walk-around transition whe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Triangle from Top?</p>
 
 ### 1. Pushing against the attacker's head or neck with your near arm from side control bottom, feeding the arm across your own centerline
 
@@ -278,6 +288,8 @@ Insert your knee across the attacker's hip during the walk-around transition whe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Triangle from Top?</p>
+
 **Recognition** - Identifying arm triangle setup cues and developing defensive reflexes
 Partner works side control top and periodically attempts the arm triangle setup by swimming their head under your arm or pushing your elbow across. Your sole focus is recognizing the setup motion and immediately retracting your arm to your hip. No escape attempts—just recognition and arm retraction. Partner provides feedback on whether you detected the setup before or after they locked the configuration. Build the reflex of retracting the arm at the first sign of head-swimming motion.
 
@@ -294,29 +306,6 @@ Positional sparring starting from side control bottom against a partner who spec
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical early-stage defense against the arm triangle setup from side control?
-**A**: Keep your near arm from crossing your own centerline. Frame against the attacker's shoulder or bicep rather than their head or neck, and maintain your elbow connected to your hip. This denies the attacker the arm-across-neck configuration entirely. If your elbow stays at your hip, the attacker cannot create the seal between your bicep and your neck regardless of how they position their head or shoulders.
-
-**Q2**: You feel the attacker swimming their head under your arm during side control—what is your immediate response?
-**A**: Immediately retract your arm by pulling your elbow back to your hip while turning your forearm inward toward your own body. Use your far hand to push the attacker's head away or post against their shoulder to create distance. Simultaneously shrimp your hips away to open space. The key is speed—once their head clears to the other side of your arm and they begin locking the grip, your defensive window shrinks dramatically. Act on the first recognition cue, not after the configuration is established.
-
-**Q3**: Why is inserting a knee during the walk-around an effective defensive strategy even though it does not fully escape the arm triangle?
-**A**: Recovering half guard prevents the attacker from achieving the full sprawl angle needed for maximum carotid compression. The arm triangle finish depends on the attacker sprawling at approximately 45 degrees with their hips past your centerline. Half guard entanglement restricts their hip mobility, reduces their available compression angle, and prevents the deep sprawl that generates finishing force. While the arm triangle can theoretically be finished from half guard top, it is significantly less effective, buying you time to continue working arm extraction or further guard recovery.
-
-**Q4**: The attacker has the grip locked and is walking around to the finishing side—why should you turn toward them rather than away?
-**A**: Turning toward the attacker reduces the angle of compression by aligning your neck more parallel to their squeezing shoulder rather than perpendicular to it. Turning away actually assists the choke by deepening the V-shape between your bicep and the attacker's shoulder. When you face toward the attacker, you also create the opportunity to walk your hips away from the choking side, which further disrupts their angle. Additionally, turning toward them may allow you to get to your knees or initiate a scramble, while turning away exposes your back.
-
-**Q5**: What are the phases of arm triangle defense in order of effectiveness, and why does each successive phase have a lower success rate?
-**A**: Phase 1: Prevent the arm from crossing centerline (highest success rate because the choke cannot be configured). Phase 2: Fight the grip before it locks behind your head (moderate success because the arm is across but the configuration is not sealed). Phase 3: Insert a knee during the walk-around to recover half guard (lower success because the grip is locked but the finishing angle is not established). Phase 4: Late-stage escape once the attacker is sprawled on the finishing side (lowest success because full compression may already be applied). Each phase is less effective because the choke becomes more structurally complete at each stage, requiring more energy and more precise technique to dismantle.
-
-
-
-</section>
 
 
 </main>

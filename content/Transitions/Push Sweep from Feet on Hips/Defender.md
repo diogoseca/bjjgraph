@@ -154,6 +154,8 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Push Sweep from Feet on Hips?</p>
+
 - Opponent suddenly pulls sharply with upper body grips, breaking your posture forward and loading weight onto their feet
 - Opponent's hips elevate noticeably higher than normal frame maintenance as they load for explosive leg extension
 - Opponent shifts grip configuration to maximize pulling power, such as transitioning to deep cross-collar or bilateral sleeve control
@@ -165,6 +167,8 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Push Sweep from Feet on Hips?</p>
 
 - Maintain low center of gravity with hips back to prevent the forward weight commitment that enables the push sweep
 - Keep at least one hand available to post behind you as a safety mechanism against unexpected backward push pressure
@@ -179,6 +183,8 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Push Sweep from Feet on Hips?</p>
 
 ### 1. Widen base and drop hips backward to absorb the push force
 
@@ -216,6 +222,8 @@ Defending the push sweep from feet on hips guard requires the top player to mana
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Push Sweep from Feet on Hips?</p>
+
 ### → [[Positions/Feet on Hips Guard]]
 
 Prevent the sweep by immediately widening your base and dropping your hips backward when you feel the initial grip pull. Maintain low center of gravity throughout and avoid committing weight forward. The failed sweep attempt temporarily weakens the opponent's guard structure, creating a brief window for advancing your pass.
@@ -231,6 +239,8 @@ Time your ankle grab to coincide with the opponent's leg extension, stripping bo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Push Sweep from Feet on Hips?</p>
 
 ### 1. Leaning forward into the guard frames with weight over the opponent's feet
 
@@ -260,6 +270,8 @@ Time your ankle grab to coincide with the opponent's leg extension, stripping bo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Push Sweep from Feet on Hips?</p>
+
 **Phase 1: Recognition Drilling** - Identifying pre-sweep cues and timing indicators
 Partner attempts push sweeps at slow speed while defender focuses on identifying the pull, hip elevation, and grip changes that precede the extension. Defender calls out the cue before the sweep lands. Progress to normal speed recognition without physical defense.
 
@@ -276,26 +288,6 @@ Positional sparring from feet-on-hips guard where bottom player uses push sweep,
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a push sweep attempt is imminent?
-**A**: The earliest cue is the opponent's sharp pull on your upper body grips, which breaks your posture forward and loads your weight onto their feet. This pulling action always precedes the leg extension because the sweep requires forward weight commitment to be effective. Secondary cues include visible hip elevation and grip reconfiguration, but the pull is the most reliable and earliest indicator.
-
-**Q2**: Your weight is already committed forward and you feel the legs beginning to extend—what is your emergency response?
-**A**: Immediately post one hand behind you to catch your fall while simultaneously attempting to strip one foot off your hip with your other hand. Turn your body slightly to the side rather than falling straight backward, which reduces the sweep's effectiveness and creates a scramble opportunity. If the post holds, drive your hips forward to re-center your weight and strip the remaining foot. This is a last-resort defense—the goal is to recognize and respond before reaching this point.
-
-**Q3**: How does defending the push sweep create vulnerability to other sweeps from feet-on-hips guard?
-**A**: Widening your base to resist the backward push creates lateral vulnerability to the tripod sweep and sickle sweep. Sitting your weight back to avoid forward commitment gives the opponent time and space to transition to other guards. Posting a hand removes it from grip fighting. This is the core dilemma of feet-on-hips guard defense—each defensive adjustment against one sweep opens vulnerability to another, requiring the top player to pass rather than simply defend.
-
-**Q4**: What base and weight distribution prevents the push sweep without creating other vulnerabilities?
-**A**: Maintain a medium-width stance with hips back and center of gravity low, distributing weight evenly through both feet on the balls rather than the heels. Keep at least one controlling grip on the opponent's ankles or pants to limit their pushing power while maintaining one hand free for posting or grip fighting. This balanced position resists the backward push without overcommitting laterally, though it requires constant micro-adjustments as the opponent probes for openings.
-
-
-
-</section>
 
 
 </main>

@@ -164,6 +164,8 @@ The defender's strategic framework centers on base management, hook neutralizati
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Single Leg X Sweep?</p>
+
 - Feeling increased upward pressure on your captured leg as opponent extends their hips and drives bottom hook upward, indicating elevation phase has begun
 - Opponent's upper body grip tightens and pulls downward or laterally, signaling the posture-breaking component of the sweep is being initiated
 - Sensing your weight shifting over your captured leg as opponent extends their top leg into your hip, creating the off-balancing angle that precedes the sweep
@@ -176,6 +178,8 @@ The defender's strategic framework centers on base management, hook neutralizati
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg X Sweep?</p>
 
 - Maintain low center of gravity with wide base on your free leg to resist off-balancing forces in any direction
 - Prioritize clearing the bottom hook behind your knee as it provides the primary elevation for all sweep variations
@@ -191,6 +195,8 @@ The defender's strategic framework centers on base management, hook neutralizati
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg X Sweep?</p>
 
 ### 1. Step captured leg back and circle away to disengage the X-frame
 
@@ -228,6 +234,8 @@ The defender's strategic framework centers on base management, hook neutralizati
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg X Sweep?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Step your captured leg back early while stripping opponent's upper body grips. Circle away from the sweep direction to break the X-frame angle. Follow by immediately re-engaging with a passing sequence before opponent can re-establish hooks.
@@ -243,6 +251,8 @@ Drive forward with crossface pressure to flatten opponent's guard while systemat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg X Sweep?</p>
 
 ### 1. Standing upright with narrow base and locked knees when caught in Single Leg X
 
@@ -277,13 +287,15 @@ Drive forward with crossface pressure to flatten opponent's guard while systemat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg X Sweep?</p>
+
 **Phase 1: Recognition and Base Fundamentals** - Identifying sweep initiation cues and establishing defensive posture
 Practice maintaining proper base with lowered center of gravity and wide free leg when placed in Single Leg X Guard. Partner performs the sweep slowly while you focus on recognizing each phase: grip establishment, posture breaking, elevation, and rotation. No active defense yet, just building awareness of the forces and timing involved.
 
 **Phase 2: Hook Clearing Mechanics** - Systematic removal of bottom and top hooks under controlled conditions
 Drill the specific mechanics of clearing the bottom hook through angle creation and downward knee pressure, then addressing the top hook through hip positioning. Partner maintains hooks with moderate tension while you work through the clearing sequence. Build muscle memory for the systematic approach rather than explosive ripping.
 
-**Phase 3: Grip Fighting and Counter-Timing** - Denying upper body controls and recognizing counter-attack windows
+**Phase 3: Grips and Counter-Timing** - Denying upper body controls and recognizing counter-attack windows
 Partner attempts to establish full sweep setup including upper body grips while you actively grip fight and work to strip their controls. Practice recognizing the moment when their sweep commitment creates vulnerability for passing or leg attacks. Chain defensive actions into immediate offensive responses.
 
 **Phase 4: Live Positional Defense** - Full resistance defense and transition to passing or counter-attacks
@@ -293,29 +305,6 @@ Positional sparring starting in Single Leg X Guard with partner working full-spe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Which hook should you prioritize clearing first when defending Single Leg X Sweep, and why?
-**A**: Clear the bottom hook behind your knee first because it provides the primary elevation that makes all sweep variations possible. The bottom hook is the foundation of the X-frame lever system. Without it, the sweeper cannot lift your captured leg or generate the off-balancing force needed to complete the sweep. Once the bottom hook is neutralized, the top leg alone cannot generate sufficient sweep power.
-
-**Q2**: Your opponent has established Single Leg X and begins pulling your upper body forward - what is your immediate priority?
-**A**: Your immediate priority is to strip or break their upper body grip before they can combine the pull with leg extension. Use your free hand to peel their sleeve grip or break the collar tie, then re-establish your posture by driving your hips back and lowering your base. If the grip cannot be broken quickly, post your far hand on the mat for stability while lowering your center of gravity to resist the combined pull-and-extend mechanics of the sweep.
-
-**Q3**: How can you convert a defensive position in Single Leg X into an offensive counter-attack?
-**A**: When the sweeper fully extends their legs to generate sweep power, their knee line becomes exposed and vulnerable to kneebar or leg entanglement attacks. As they commit to the sweep direction, their bottom leg is extended and their hips are committed, creating a window to attack their exposed knee by sitting back into a kneebar control position. Alternatively, when they overcommit to elevation, drive forward with crossface pressure to collapse their guard and transition immediately into a passing sequence before they can recover their hooks.
-
-**Q4**: What base adjustments should you make when you feel the sweep beginning to succeed despite your initial defense?
-**A**: When the sweep is gaining momentum, immediately widen your base by stepping your free leg as far as possible in the direction opposite the sweep, post your near hand firmly on the mat for structural support, and lower your hips as much as possible to reduce the leverage advantage. If these measures are insufficient, consider tactically sitting to guard rather than being swept completely, which allows you to recover guard position on your terms rather than conceding the full sweep and top position.
-
-**Q5**: What are the key visual and tactile cues that distinguish a Single Leg X Sweep from a transition to leg lock?
-**A**: A sweep attempt is characterized by strong upward elevation through the bottom hook, rotational force through the sweeper's shoulders, and their upper body pulling you forward and to the side. In contrast, a leg lock transition shows the opponent's hips rotating away from you rather than driving upward, their hands releasing upper body grips to control your ankle or heel, and their body dropping lower rather than elevating. Recognizing this distinction early allows you to choose the appropriate defense: base and posture for sweeps versus leg extraction and defensive boot for leg attacks.
-
-
-
-</section>
 
 
 </main>

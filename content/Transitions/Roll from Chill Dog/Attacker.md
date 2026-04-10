@@ -20,7 +20,7 @@ description: "Learn to execute the Roll from Chill Dog escape. Step-by-step guid
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Assess Opponent Weight Distribution",
+      "name": "Assess Opponent Center of Gravity",
       "text": "From the compact Chill Dog posture with elbows tight to knees, use tactile awareness to feel where the opponent's weight is concentrated. The roll requires the opponent's pressure to be committed backward, to one side, or momentarily lightened during a grip transition. Wait for the specific moment when their chest pressure lifts or they shift to adjust their attacking grips - this is your window of opportunity.",
       "position": 1
     },
@@ -188,6 +188,8 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll from Chill Dog?</p>
+
 - Timing is everything - only initiate the roll during genuine windows when opponent's control is compromised
 - Commit fully once the roll begins - half-measures result in getting stuck in worse positions than you started
 - Maintain the compact Chill Dog shape throughout the entire rotation to preserve momentum and deny grip handles
@@ -203,6 +205,8 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll from Chill Dog?</p>
+
 - Compact Chill Dog defensive posture maintained with elbows tight to knees and rounded back intact
 - Forward rolling space available - opponent's weight must not be blocking the forward path completely
 - Opponent's grip control momentarily loosened or transitioning between attack sequences
@@ -216,7 +220,9 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 ## Execution Steps
 
-1. **Assess Opponent Weight Distribution**: From the compact Chill Dog posture with elbows tight to knees, use tactile awareness to feel where the opponent's weight is concentrated. The roll requires the opponent's pressure to be committed backward, to one side, or momentarily lightened during a grip transition. Wait for the specific moment when their chest pressure lifts or they shift to adjust their attacking grips - this is your window of opportunity.
+<p class="section-subtitle">How do you execute Roll from Chill Dog step by step?</p>
+
+1. **Assess Opponent Center of Gravity**: From the compact Chill Dog posture with elbows tight to knees, use tactile awareness to feel where the opponent's weight is concentrated. The roll requires the opponent's pressure to be committed backward, to one side, or momentarily lightened during a grip transition. Wait for the specific moment when their chest pressure lifts or they shift to adjust their attacking grips - this is your window of opportunity.
 2. **Create Forward Space**: Subtly shift your weight slightly forward onto your hands to test for available rolling space ahead. Do not telegraph this movement by raising your hips or dramatically changing your defensive posture. A slight forward lean of one to two inches is sufficient to gauge whether the path ahead is clear enough to complete the full rotation without obstruction.
 3. **Set Rolling Angle and Tuck Chin**: Commit to the roll by tucking your chin firmly to your chest and angling your body diagonally toward the shoulder you intend to roll over. The diagonal angle is critical because it prevents the opponent from simply driving forward to flatten you during the roll. Choose the direction that moves away from the opponent's primary grip or heaviest weight concentration.
 4. **Drive Off Hands and Initiate Rotation**: Explosively push off your hands and tuck your lead shoulder under your body to begin the forward rotation. Your compact Chill Dog shape should carry through the roll like a ball - the rounded back that protected you defensively now provides the curvature needed for smooth rolling mechanics. Commit fully once initiated because half-speed attempts allow the opponent to catch you mid-roll in an exposed position.
@@ -244,6 +250,8 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll from Chill Dog?</p>
+
 - **Sprawl and flatten during roll initiation to pin bottom player to mat** (Effectiveness: High) - Your Response: If caught before the roll builds momentum, immediately redirect to a Granby roll to the side rather than continuing forward. The opponent's forward sprawl creates lateral space you can exploit with the directional change. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Follow the roll with chest-to-back contact and secure back control hooks upon landing** (Effectiveness: Medium) - Your Response: As you feel the opponent matching your roll and staying connected, immediately extend your legs toward their hips upon landing to create separation before they can set hooks. Post hands and scoot hips away explosively to establish distance for guard frames. → Leads to [[Positions/Back Control]]
 - **Cross-face and drive weight sideways to prevent the shoulder tuck needed for rotation** (Effectiveness: High) - Your Response: If the cross-face is applied before you initiate, abort the roll attempt and return to defensive Chill Dog posture. Wait for the opponent to release the cross-face or switch to a different escape like the technical stand-up or sit-through. → Leads to [[Positions/Rubber Guard/Chill Dog]]
@@ -255,6 +263,8 @@ The attacker in this context is the bottom player executing the forward roll esc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll from Chill Dog?</p>
 
 ### 1. Initiating the roll without checking opponent's weight distribution and grip status
 
@@ -294,6 +304,8 @@ The attacker in this context is the bottom player executing the forward roll esc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll from Chill Dog (Attacker)?</p>
+
 **Phase 1: Solo Rolling Mechanics** - Building smooth forward roll mechanics from Chill Dog posture without resistance
 Practice forward diagonal rolls from the Chill Dog position without a partner, focusing on maintaining compact shape, tucking the chin, and landing with hands posted and feet ready for guard. Develop smooth, fast rotational movement from the balled-up posture. Drill 20-30 repetitions each direction per session.
 
@@ -314,48 +326,12 @@ Begin each round in Chill Dog with partner attacking from top at full competitio
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Roll from Chill Dog?
-**A**: The optimal window occurs when the opponent shifts their weight backward, loosens their grips momentarily, or commits their pressure to one side while adjusting their attack. Specifically, the moment between the opponent abandoning one grip sequence and beginning another creates a brief period of reduced control where the roll can succeed. Initiating during a period of maximum opponent pressure is the most common cause of failure because the opponent can simply drive you flat.
-
-**Q2**: What body position must be maintained throughout the roll to ensure clean rotation?
-**A**: The compact Chill Dog shape must be preserved throughout the entire roll - chin tucked firmly to chest, elbows pressed against the body, knees tucked tight. This rounded ball shape provides the curvature needed for smooth rotation and prevents the opponent from grabbing extended limbs. Any deviation from this compact shape creates handles for the opponent and disrupts rolling momentum, making the roll slower and more vulnerable to being stopped or followed.
-
-**Q3**: Your opponent increases downward chest pressure as you prepare to roll - should you still attempt the technique?
-**A**: No. Increased downward pressure means the opponent is settling their weight, which makes forward rolling extremely difficult because you cannot generate the upward lift needed to initiate rotation. This is actually a better window for a Granby roll, which uses the opponent's forward weight commitment against them by rolling laterally. Wait for the forward pressure to shift or lighten before attempting the forward roll, or redirect to an alternative escape that exploits their forward commitment.
-
-**Q4**: What grip conditions must exist before initiating the roll?
-**A**: The opponent must not have secure grip control on both your hips and shoulders simultaneously. Ideally, you initiate during a grip transition when their primary control has loosened. At minimum, their hand position should allow your forward rotation without providing them an anchor to stop the movement. If they have an established harness or seatbelt grip, the roll becomes extremely difficult because they can follow your rotation while maintaining their upper body control connection throughout.
-
-**Q5**: In which direction should you angle the roll and why?
-**A**: Roll diagonally forward at approximately 45 degrees, angling away from the opponent's strongest grip or heaviest weight concentration. The diagonal angle creates lateral separation that a straight forward roll cannot achieve, making it significantly harder for the opponent to simply drive forward and maintain back contact through the rotation. If the opponent's weight is centered, roll over your lead shoulder toward whichever side gives more available space.
-
-**Q6**: What is the primary force direction that drives the rolling motion?
-**A**: The force originates from an explosive push off both hands driving your body forward and downward into the tucked roll position. Your hands push backward against the mat while your shoulder tucks under, creating rotational force that carries your compact body through the forward roll. The momentum must be sufficient to complete the full rotation in one continuous movement because partial force results in getting stuck inverted where the opponent can capitalize on your exposed position.
-
-**Q7**: The opponent follows your roll and is reaching for your hips as you land - what is your immediate response?
-**A**: Immediately extend both legs into their hips or chest to create distance while posting your hands behind you for base. This creates an instant open guard frame that prevents them from closing the distance. If their hands reach your hips before your feet get into position, scoot your hips away while using your hands to strip their grips. The critical action is establishing feet-on-hips contact before they can drive through to pass or re-establish back control.
-
-**Q8**: Your first roll attempt is stuffed by the opponent's sprawl - what escape should you chain to next?
-**A**: If the forward roll is stuffed by a sprawl, the opponent has committed their weight forward and downward. This creates the ideal setup for a Granby roll to the side, as their forward commitment means they cannot easily follow a lateral rolling movement. The chain from stuffed forward roll to Granby is the highest-percentage follow-up. Alternatively, if the sprawl drives you completely flat, immediately work to re-establish the Chill Dog defensive frame rather than forcing a second roll from a compromised position.
-
-**Q9**: How does the Roll from Chill Dog differ mechanically from the Granby Roll escape?
-**A**: The Roll from Chill Dog moves forward and diagonally through the space in front of the bottom player using a forward rotation over the shoulder. The Granby roll moves backward and to the side, inverting through a shoulder roll that moves away from the opponent. The forward roll requires clear space ahead and works when the opponent's weight is behind or to the side, while the Granby works best when the opponent drives forward with committed chest pressure. They are complementary escapes that exploit opposite weight distributions and should be trained as a paired system.
-
-**Q10**: What signals tell you that the roll has failed mid-execution and you need to abort?
-**A**: If you feel the opponent's grip tighten on your waist or shoulder as you begin to rotate, or if their weight drives you flat instead of allowing rotation, abort immediately. The clearest abort signal is feeling their body following your rotation while maintaining chest-to-back contact - this means they anticipated the roll and will establish back control. To abort, stop forward motion, pull elbows back to knees to re-establish Chill Dog posture, reset your rounded back structure, then switch to an alternative escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll from Chill Dog?</p>
 
 The Roll from Chill Dog requires cervical spine mobility and should be practiced on soft mats with gradual progression from solo drilling to resistance. Never force the roll if your neck feels compressed or strained during the rotation. Practitioners with existing neck injuries should avoid this technique until cleared by a medical professional. Always warm up your neck and shoulders thoroughly before drilling forward rolls. When training with a partner, communicate clearly about the intensity of top pressure to prevent unexpected cervical compression during the roll. Stop immediately if you feel any sharp pain in the neck, shoulders, or spine during execution.
 

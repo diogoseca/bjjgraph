@@ -162,6 +162,8 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Standing Guard?</p>
+
 - Opponent reaches down with one or both hands toward your ankles or pants cuffs while maintaining feet on your hips, indicating grip setup for tripod or sickle sweep
 - Pressure from opponent's feet on your hips shifts from neutral pushing to an angled directional force, indicating the sweep direction and imminent launch
 - Opponent's hips lift off the mat and angle to one side while their upper body remains low, creating the rotational body position needed to generate sweeping force
@@ -174,6 +176,8 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Standing Guard?</p>
 
 - Maintain a wide base with weight distributed through the balls of both feet, keeping the center of gravity low enough to resist off-balancing while high enough to maintain passing mobility
 - Strip ankle grips immediately upon feeling the opponent reach for your lower legs, as ankle control is the non-negotiable prerequisite for most standing guard sweeps
@@ -188,6 +192,8 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Standing Guard?</p>
 
 ### 1. Strip ankle grips immediately with a two-on-one grip break and backstep to create distance
 
@@ -225,6 +231,8 @@ Defending against sweeps from Standing Guard is essential for any practitioner w
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Standing Guard?</p>
+
 ### → [[Positions/Side Control]]
 
 When the opponent commits to a sweep attempt and removes one foot from your hip, immediately drive forward through their open guard structure with a stack or smash pass. Their commitment to the sweep removes the distance control that normally prevents your forward pressure, creating a direct passing lane to side control.
@@ -240,6 +248,8 @@ Strip the opponent's ankle grips early using two-on-one grip breaks before they 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Standing Guard?</p>
 
 ### 1. Standing with a narrow stance and weight on the heels while in the opponent's guard range
 
@@ -269,10 +279,12 @@ Strip the opponent's ankle grips early using two-on-one grip breaks before they 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Standing Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying sweep setups and early warning cues
 Stand in partner's open guard while they cycle through different sweep setups at 30% speed. Call out each sweep type as you recognize the setup cues: ankle grip reach, hip pressure shift, foot drop to ankle level. Focus purely on recognition without attempting defense or passing. Build the pattern recognition database before adding defensive responses.
 
-**Phase 2: Grip Fighting Defense** - Preventing sweep grips from establishing
+**Phase 2: Grips Defense** - Preventing sweep grips from establishing
 Partner attempts to establish ankle grips and hip foot placement from open guard at 50% speed. Practice two-on-one grip breaks on ankle grips, leg control to prevent feet on hips, and backstep distance creation. The goal is to shut down sweep setups before they reach execution phase. 5-minute rounds alternating roles.
 
 **Phase 3: Emergency Recovery** - Base recovery when sweep is already in motion
@@ -285,29 +297,6 @@ Full positional sparring from standing guard with emphasis on passing while main
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a sweep from standing guard is being set up?
-**A**: The earliest cue is the opponent reaching toward your ankles with their hands while maintaining feet on your hips. This grip attempt is the non-negotiable prerequisite for most standing guard sweeps, and recognizing it before the grip solidifies gives you the maximum window for prevention. Secondary early cues include a shift in the directional pressure from their feet on your hips and their hips lifting and angling on the mat. Addressing the sweep at the grip-seeking phase is far more energy-efficient than fighting a fully committed sweep attempt.
-
-**Q2**: Why is lateral movement more effective than backward stepping when defending sweep attempts?
-**A**: Lateral movement changes the force angle of the push-pull sweep mechanics, disrupting the attacker's planned force vectors. Most sweeps are designed to create rotational displacement along a specific axis, and lateral movement shifts you off that axis. Backward stepping, by contrast, often feeds into the sweep direction, particularly for tripod and sickle variants where the sweeping force is directed backward. Additionally, lateral movement keeps you in passing range while backward stepping surrenders distance and allows the opponent to reset their guard structure.
-
-**Q3**: Your opponent has already hooked behind both ankles and begun the sickle sweep motion. What is your emergency response?
-**A**: If the sweep is already in motion and your ankles are trapped, immediately post your hand on the mat on the side you are falling toward to prevent completing the fall. Use the posted hand to stabilize while extracting one foot from the hook with a circular stepping motion. If the post is successful, use the momentary stability to either pull your feet free and re-establish base or transition into a forward drive to stack the opponent and initiate a pass from the compromised position. The post buys critical time but is not a permanent solution, so you must act quickly to either recover standing base or convert to a passing opportunity.
-
-**Q4**: How should your grip strategy change when you recognize the opponent is primarily hunting for sweeps rather than playing retention guard?
-**A**: Against a sweep-hunting opponent, prioritize controlling their legs and hips with downward pressure rather than seeking upper body grips for passing. Grab their pants at the thighs or control their shins with cupping grips to prevent them from placing feet on your hips effectively. Keep your hands low rather than reaching for collar grips, as high hands leave your lower body unprotected. Additionally, increase your base width and slow your passing pace, forcing the sweep hunter to create their own opportunities rather than capitalizing on your aggressive passing movement.
-
-**Q5**: What is the relationship between your passing speed and vulnerability to standing guard sweeps?
-**A**: Higher passing speed increases sweep vulnerability because rapid lateral movement temporarily shifts weight to one foot and creates the weight commitment that sweep attacks exploit. Fast passes like toreando require explosive lateral steps that momentarily narrow your base and commit your center of gravity to one direction. However, standing still is also dangerous because it allows the opponent to set grips and choose their timing. The optimal approach is controlled, methodical passing with deliberate weight distribution at each step, maintaining base width throughout the movement rather than lunging into passing positions. Speed should come from efficient technique rather than explosive movement that compromises base.
-
-
-
-</section>
 
 
 </main>

@@ -175,6 +175,8 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Position Definition
 
+<p class="section-subtitle">What is Ushiro Ashi-Garami (Top)?</p>
+
 - Attacker's legs maintain figure-four configuration around opponent's trapped leg with outside leg crossing over knee line and inside leg underneath, adapted to opponent's inverted hip position
 - Attacker's hips are positioned to follow opponent's inversion while maintaining leg entanglement integrity, requiring constant adjustment to opponent's rotational movement and escape attempts
 - Attacker maintains at least one controlling grip on opponent's heel, ankle, or pants while managing the opponent's hand fighting efforts to prevent heel exposure and submission defense
@@ -186,6 +188,8 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Ushiro Ashi-Garami (Top)?</p>
+
 - Opponent attempted inversion escape from standard ashi-garami position, creating reversed leg entanglement geometry
 - Attacker successfully adapted leg configuration during opponent's rotation to maintain entanglement despite hip inversion
 - Sufficient understanding of reversed submission mechanics to attack effectively from inverted opponent orientation
@@ -196,6 +200,8 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Ushiro Ashi-Garami?</p>
 
 - Adapt leg pressure and configuration continuously as opponent inverts to prevent complete escape
 - Adjust grip strategies for heel hooks to account for reversed hip orientation and different leverage angles
@@ -212,14 +218,16 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Ushiro Ashi-Garami (Top)?</p>
+
 **If opponent's inversion is shallow and leg clearing has not progressed significantly:**
-- Execute **[[Immediate Heel Hook Attempt/Attacker|Immediate Heel Hook Attempt]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Immediate Heel Hook Attempt/Attacker|Immediate Heel Hook Attempt]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Transitions/Estima Lock to Saddle/Attacker|Estima Lock to Saddle]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
 
 
 **If opponent is actively rotating toward turtle with committed movement:**
 - Execute **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Ankle Lock During Transition/Attacker|Ankle Lock During Transition]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Ankle Lock During Transition/Attacker|Ankle Lock During Transition]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent has cleared outside leg and is working to clear inside leg:**
@@ -228,7 +236,7 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 
 **If opponent is attempting counter-attack on attacker's legs:**
-- Execute **[[Accelerate Heel Hook Finish/Attacker|Accelerate Heel Hook Finish]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Accelerate Heel Hook Finish/Attacker|Accelerate Heel Hook Finish]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Cross Ashi Defense/Attacker|Cross Ashi Defense]]** → [[Positions/Ashi Garami/Cross Ashi-Garami]] (Probability: 45%)
 
 
@@ -239,6 +247,8 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Ushiro Ashi-Garami?</p>
 
 ### 1. Maintaining standard ashi-garami grips without adjusting for opponent's inverted hip position
 
@@ -278,6 +288,8 @@ Control maintenance in ushiro ashi-garami requires constant adjustment to the op
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Ushiro Ashi-Garami attacks?</p>
+
 ### Inversion Following Drill
 
 Partner starts in standard outside ashi-garami and begins inversion escape sequence. Practice maintaining leg entanglement throughout their rotation, adjusting leg pressure and hip position to create ushiro configuration. Focus on smooth adaptation to opponent's movement rather than preventing inversion. Reset and repeat from various starting ashi-garami positions.
@@ -310,38 +322,6 @@ Begin in ushiro ashi-garami with both practitioners working at 60% intensity. De
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What leg configuration adjustment must you make when your opponent inverts from standard ashi-garami?
-**A**: As the opponent inverts, you must adapt your figure-four by keeping your outside leg crossing over their knee line while your inside leg stays underneath. Follow their hip rotation rather than fighting it, adjusting your leg pressure to maintain entanglement integrity throughout their movement. This creates the ushiro configuration where you can still attack despite their reversed hip orientation.
-
-**Q2**: Your opponent has begun inverting but their heel is momentarily exposed - what should you prioritize?
-**A**: When the heel becomes exposed during inversion, you face a timing decision. If the exposure is clear and your grip position is favorable, immediately attack the heel hook before they complete rotation. However, if their inversion is progressing rapidly and your grip isn't optimal, prioritize following to maintain entanglement and transition to saddle or back control rather than a low-percentage submission attempt.
-
-**Q3**: How does grip placement differ for heel hooks in ushiro versus standard outside ashi-garami?
-**A**: In ushiro, your opponent's inverted hip position changes the optimal heel hook grip angle. You typically need to adjust your hand placement closer to your own hip line rather than reaching across their body. The reversed configuration often requires a more compact finishing position with different shoulder and hip alignment relative to their trapped leg compared to standard outside ashi mechanics.
-
-**Q4**: What indicates that you should abandon the submission attempt and transition to saddle instead?
-**A**: Transition to saddle when your opponent has successfully cleared your outside leg but your inside leg remains deeply controlling their thigh. Also transition when their continued rotation makes heel hook leverage progressively worse, or when their hand fighting has successfully prevented heel exposure for more than 3-4 seconds. The inside leg control creates the entry point for saddle transition.
-
-**Q5**: Your opponent's free leg is working underneath your body during their inversion - how do you address this?
-**A**: Use your outside leg to actively control their free leg by pressing it away from your center line. If their free leg gets underneath you, they gain a rotational lever to complete escape or enter counter-entanglement. Maintain outside leg pressure on their free thigh while using your inside leg to control the entangled leg, preventing them from using the free leg as a posting or pushing mechanism.
-
-**Q6**: When is following to back control the superior option compared to maintaining ushiro ashi-garami?
-**A**: Follow to back control when your opponent commits fully to turtle rotation and turns their back to escape, when your leg entanglement has degraded to the point where submission attempts have low success probability, or when they've cleared both legs but their turtle position exposes back access. The back take becomes optimal when their rotation momentum is too strong to reverse for leg attacks.
-
-**Q7**: How do you maintain weight distribution to keep your opponent pinned while attacking from ushiro?
-**A**: Keep your hips heavy and connected to the opponent's trapped leg, distributing weight through your inside leg control on their thigh. Avoid lifting your hips to reach for grips, as this creates space for escape. Instead, angle your torso toward the trapped leg while maintaining constant downward pressure through your figure-four. Your weight should feel like it is driving through your inside leg into their thigh rather than floating above them.
-
-**Q8**: What are the key indicators that your opponent is about to attempt a counter-attack on your legs?
-**A**: Watch for their free hand reaching toward your legs rather than defending their heel, hip movement that creates angle toward your lower body rather than away, attempts to square their hips back toward you during the inversion, or deliberate slowing of their escape rotation. These indicate they're shifting from escape to counter-attack, requiring you to either accelerate your finish or address their leg entanglement attempt.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

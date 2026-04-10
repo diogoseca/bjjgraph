@@ -154,6 +154,8 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rubber Guard Sweep?</p>
+
 - Bottom player's hips begin loading and elevating slightly, creating visible and tactile space between their lower back and the mat in preparation for the explosive bridge
 - Free hand grip shifts from neutral head control to actively pulling on your shoulder or collar in a specific directional pattern toward the trapped-arm side
 - Rubber guard leg tension increases noticeably across your back with the bottom player's foot pulling tighter against their locking hand
@@ -166,6 +168,8 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rubber Guard Sweep?</p>
 
 - Maintain heavy forward pressure with hips low to deny the backward weight shift that triggers the sweep initiation
 - Keep free hand actively posted and ready to base immediately when sweep attempt cues are detected
@@ -180,6 +184,8 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rubber Guard Sweep?</p>
 
 ### 1. Drive hips forward and low to flatten the bottom player, removing the hip space needed for bridge initiation
 
@@ -217,6 +223,8 @@ Defending the Rubber Guard Sweep from top position requires understanding the sw
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rubber Guard Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Successfully extract the trapped arm and break the rubber guard leg configuration during or before the sweep attempt, converting the position to open guard where you can begin systematic guard passing without the rubber guard control threatening sweeps or submissions
@@ -232,6 +240,8 @@ Maintain heavy forward pressure with wide base and immediate posting response to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rubber Guard Sweep?</p>
 
 ### 1. Pulling straight upward in a sudden explosive movement to recover posture when trapped in rubber guard
 
@@ -261,10 +271,12 @@ Maintain heavy forward pressure with wide base and immediate posting response to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rubber Guard Sweep?</p>
+
 **Phase 1: Sweep Recognition** - Identifying pre-sweep cues from rubber guard top
 Partner establishes rubber guard and alternates between sweep attempts and submission setups at slow speed. Defender focuses exclusively on recognizing which attack is being prepared through hip loading, grip shifts, and angle change cues without attempting any escape. Build pattern recognition foundation before adding defensive responses.
 
-**Phase 2: Base Maintenance Under Pressure** - Developing automatic posting reactions and weight distribution
+**Phase 2: Base Under Pressure** - Developing automatic posting reactions and weight distribution
 Partner attempts repeated rubber guard sweeps at gradually increasing intensity. Defender practices automatic posting response with free hand while maintaining heavy forward pressure. Drill until the posting response becomes an unconscious reflex requiring no deliberate decision-making, performing 30-40 sweep defense reps per session.
 
 **Phase 3: Defensive Counter-Transitions** - Converting sweep defense into positional escape sequences
@@ -277,26 +289,6 @@ Positional sparring from rubber guard with full resistance. Defender must surviv
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Rubber Guard Sweep attempt is imminent from the top position?
-**A**: The earliest cue is the bottom player's hip loading, felt as their lower back lifting slightly off the mat creating space for the explosive bridge. This often accompanies a subtle body angle change where their torso shifts toward a 45-degree line aimed at your trapped-arm side. Recognizing this pre-sweep positioning gives you the maximum reaction window to post, drive hips forward, or begin arm extraction.
-
-**Q2**: Why is explosive upward posture recovery particularly dangerous when trapped in rubber guard?
-**A**: Explosive upward posture recovery provides the backward weight shift that the sweep relies on as its primary momentum source. The rubber guard bottom player times the sweep to coincide with this upward movement, redirecting your posture recovery energy into the rotational force that completes the reversal. Gradual posture recovery through incremental adjustments denies this momentum while still progressing toward escape.
-
-**Q3**: How do you maintain defensive awareness for both the sweep and submission threats simultaneously from rubber guard top?
-**A**: Maintain a compromise position with moderate forward pressure and one hand ready to post for sweep defense while keeping your trapped arm tight and chin tucked for submission defense. Avoid overcommitting to either threat since staying too heavy forward feeds omoplatas while pulling back feeds the sweep. Read which attack the bottom player is setting up through their grip changes and hip positioning, then adjust your defensive priority accordingly.
-
-**Q4**: Your free hand is posted to resist the sweep but the bottom player immediately switches to a triangle attempt - how do you respond?
-**A**: Immediately retract the posted hand and tuck it tight to your body while driving your hips forward with strong base. The triangle requires space between your shoulder and their leg to lock. Removing your posting hand and driving forward eliminates the triangle entry angle while your forward pressure simultaneously re-establishes sweep defense. This rapid oscillation between sweep and submission defense is the core defensive skill required in rubber guard top.
-
-
-
-</section>
 
 
 </main>

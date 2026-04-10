@@ -154,6 +154,8 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Push Knee and Reguard from Knee on Belly?</p>
+
 - Opponent's hands move toward your knee, gripping inside the kneecap or shin — this is the primary indicator the push escape is being initiated
 - Opponent turns their body to face toward your knee side rather than lying flat, creating the angle needed for the push-and-escape motion
 - Opponent's hips begin shifting away from you, pre-loading the hip escape direction that will follow the knee push
@@ -165,6 +167,8 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Push Knee and Reguard from Knee on Belly?</p>
 
 - Recognize push attempts early by feeling hand contact on your knee before the push develops full force
 - Maintain active grips on collar and belt or pants to limit opponent's hip escape range during the push
@@ -179,6 +183,8 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Push Knee and Reguard from Knee on Belly?</p>
 
 ### 1. Drive knee back down to torso with increased forward pressure
 
@@ -216,6 +222,8 @@ As the top player defending against the Push Knee and Reguard escape, your objec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Push Knee and Reguard from Knee on Belly?</p>
+
 ### → [[Positions/Mount]]
 
 As the opponent pushes your knee and creates space, use the momentum to slide your knee across their torso directly to mount. Their push actually assists your transition by creating the opening you need to clear their hip line. Time the mount transition to coincide with their hip escape — as their hips move away, your knee slides across the gap.
@@ -231,6 +239,8 @@ Immediately drive your knee back to their solar plexus before the hip escape com
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Push Knee and Reguard from Knee on Belly?</p>
 
 ### 1. Fighting the push with static downward pressure instead of transitioning to a better position
 
@@ -260,6 +270,8 @@ Immediately drive your knee back to their solar plexus before the hip escape com
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Push Knee and Reguard from Knee on Belly?</p>
+
 **Recognition Training** - Early detection of push escape attempts
 Partner attempts push escape at slow speed while you practice identifying the earliest cues — hand placement on knee, body turning, hip pre-loading. Focus on feeling the escape initiation through tactile feedback rather than relying on visual cues. 20 repetitions at slow speed with progressive speed increases.
 
@@ -276,26 +288,6 @@ Positional sparring starting from KOB with both players using full technique rep
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt the push knee reguard escape?
-**A**: The earliest cue is feeling their hands contact your knee, specifically fingers curling around the inside of your kneecap or gripping behind the knee joint. Before the push develops full force, you will also notice them turning their body to face your knee side. Recognizing these early signals gives you time to preemptively transition to mount or increase forward pressure before the escape sequence develops momentum.
-
-**Q2**: Why is transitioning to mount often better than fighting to maintain knee on belly when the opponent pushes?
-**A**: Fighting the push directly creates a strength contest where the outcome depends on physical attributes rather than technique. The push creates space between your knee and their torso — space that you can exploit by sliding your knee across to mount rather than trying to re-close the gap. Mount is a more stable dominant position that removes the push-escape option entirely, converting their escape attempt into a positional advancement that scores additional points.
-
-**Q3**: How should you adjust your knee on belly style to make the push escape less effective?
-**A**: Maintain dynamic, mobile knee on belly with light but directional pressure rather than heavy, static weight. A mobile KOB with constant transitions and submission threats forces the opponent to react defensively rather than executing a planned push escape. Heavy committed weight is paradoxically easier to push off because it provides a solid target to push against, while light, redirecting pressure is much harder to displace and predict.
-
-**Q4**: Your opponent successfully pushes your knee off their torso — what should your immediate priority be?
-**A**: Immediately transition to mount by sliding your knee across their torso before they can insert a knee shield between your bodies. If mount is not available due to their knee shield, drop to side control to maintain top pressure and consolidate. The worst response is trying to re-establish knee on belly from the same angle, as the opponent has already demonstrated they can escape from that configuration. Either advance to mount or consolidate to side control.
-
-
-
-</section>
 
 
 </main>

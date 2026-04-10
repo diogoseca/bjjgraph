@@ -162,6 +162,8 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pressure Pass?</p>
+
 - Opponent drives their chest forward and down from combat base, lowering their center of gravity and reducing the space between your bodies
 - Opponent reaches for crossface control with their forearm across your jaw or neck while simultaneously controlling your near hip with their other hand
 - Opponent pins one or both of your knees to the mat and begins walking their hips forward to close distance, eliminating your ability to use legs defensively
@@ -174,6 +176,8 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pressure Pass?</p>
 
 - Establish frames early before the passer settles weight - forearms against their shoulders and hips create the primary defensive structure
 - Never allow your hips to be pinned flat to the mat; constant hip movement through shrimping and bridging maintains escape potential
@@ -188,6 +192,8 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pressure Pass?</p>
 
 ### 1. Establish knee shield with bottom shin across opponent's hip line and top hand framing on their far shoulder
 
@@ -225,6 +231,8 @@ Defending against the Pressure Pass requires early recognition and proactive fra
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pressure Pass?</p>
+
 ### → [[Positions/Combat Base]]
 
 Establish strong frames early with forearms against the passer's shoulders and hips, then execute a well-timed hip escape during their weight shift to reinsert your legs into a guard position. The goal is to reset the engagement to a neutral guard vs. passer dynamic where you have full leg involvement.
@@ -240,6 +248,8 @@ When the passer overcommits their weight forward during the pressure pass, use a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pressure Pass?</p>
 
 ### 1. Lying flat on your back and accepting the pressure without creating any defensive frames
 
@@ -274,6 +284,8 @@ When the passer overcommits their weight forward during the pressure pass, use a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pressure Pass?</p>
+
 **Week 1-2: Frame Recognition and Establishment** - Building automatic framing responses to pressure
 Partner applies gradually increasing chest pressure from combat base. Practice establishing frames with forearms against shoulders and hips immediately upon feeling pressure. Focus on proper frame angles, elbow positioning, and maintaining structural integrity under weight. No escape attempts yet, purely framing mechanics.
 
@@ -290,29 +302,6 @@ Positional sparring starting from the passer in combat base with initiative. Pra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive action when you recognize a pressure pass is being initiated?
-**A**: The most critical action is establishing frames with your forearms against the passer's shoulders and hips before they settle their weight. Early frames prevent chest-to-chest contact, maintain distance for leg involvement, and create the structural foundation for all subsequent escape attempts. Once the passer settles heavy pressure without frames in place, every defensive action requires significantly more energy and has lower probability of success.
-
-**Q2**: Why is hip movement more important than arm strength when defending a pressure pass?
-**A**: Hip movement through shrimping and bridging creates actual space between your body and the passer's, which is necessary for reinserting your legs into a guard position. Arm strength alone cannot overcome the gravitational advantage of a pressure passer because their entire body weight exceeds what your arms can push. Hip escapes change the angle of engagement and create lateral space that the passer must chase, while your frames only need to maintain the space your hips create rather than generate it independently.
-
-**Q3**: Your opponent has established crossface and is clearing your near leg - what is your best option at this stage?
-**A**: At this late stage, your best option is to immediately get your hand inside the crossface to create a frame against their neck, then execute a strong hip escape away from the passing direction while simultaneously working to reinsert your near knee as a shield. If the leg is already cleared, you must bridge into the passer to disrupt their balance, then hip escape in the opposite direction to recover at least half guard. The priority is preventing full side control consolidation rather than returning to open guard.
-
-**Q4**: When during the pressure pass sequence is the passer most vulnerable to a sweep?
-**A**: The passer is most vulnerable to a sweep during weight transitions, specifically when they shift their weight to step over your leg or advance from one position to the next. At these moments, their base narrows and their center of gravity shifts, creating a brief window where a well-timed butterfly hook elevation, underhook-based reversal, or bridge can redirect their momentum. The moment between clearing a leg and consolidating side control is the final high-percentage sweep opportunity before the position stabilizes.
-
-**Q5**: What is the defensive hierarchy when trapped under heavy pressure with crossface established?
-**A**: The hierarchy is: first protect your neck and arms from immediate submission threats (tuck chin, keep elbows tight), second prevent position advancement to mount by blocking the knee line with your near arm and hip, third create incremental space through micro hip escapes timed to the opponent's movements or breathing, and fourth work to recover guard once sufficient space exists. Attempting to skip steps in this hierarchy, such as going straight for guard recovery without first creating space, results in wasted energy and potential submission exposure.
-
-
-
-</section>
 
 
 </main>

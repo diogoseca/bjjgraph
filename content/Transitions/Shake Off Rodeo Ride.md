@@ -84,7 +84,7 @@ This technique occupies a specific role in the turtle escape hierarchy as the lo
 ### Execution Steps
 
 
-- **Assess Rider Weight Distribution**: From defensive turtle under Rodeo Ride, use tactile feedback through your back and shoulders to map ...
+- **Assess Rider Center of Gravity**: From defensive turtle under Rodeo Ride, use tactile feedback through your back and shoulders to map ...
 
 - **Consolidate Turtle Base**: Before initiating the explosive movement, tighten your turtle structure by pulling your elbows tight...
 
@@ -209,7 +209,7 @@ The Shake Off Rodeo Ride functions as the entry-level disruption tool in the tur
 
 - [[Transitions/Roll from Rodeo Ride]] - Alternative rolling escape from Rodeo Ride that targets half guard recovery
 
-- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from Rodeo Ride that motivates attempting this escape
+- [[Submissions/Calf Slicer]] - Submission threat from Rodeo Ride that motivates attempting this escape
 
 - [[Transitions/Rodeo Ride to Back Control]] - Primary threat transition the top player attempts from Rodeo Ride
 

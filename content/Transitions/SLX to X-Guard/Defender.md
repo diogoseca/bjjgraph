@@ -154,6 +154,8 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting SLX to X-Guard?</p>
+
 - Bottom player's outside foot lifts off your hip and begins moving downward toward your free leg rather than maintaining the hip frame
 - Bottom player scoots their hips laterally, creating a more perpendicular angle to your stance and bringing their body closer to your free leg side
 - Bottom player increases elevation pressure through the inside hook, driving your trapped leg higher to create clearance underneath for the threading foot
@@ -166,6 +168,8 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending SLX to X-Guard?</p>
 
 - Keep free leg mobile and positioned away from the bottom player's outside foot threading range through constant micro-movement
 - Maintain forward pressure through the trapped leg to prevent the bottom player from creating the elevation needed for threading clearance
@@ -180,6 +184,8 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against SLX to X-Guard?</p>
 
 ### 1. Step free leg backward and away from threading range immediately upon recognizing the attempt
 
@@ -217,6 +223,8 @@ Defending the SLX to X-Guard transition requires the top player to recognize the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending SLX to X-Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Capitalize on the bottom player's divided attention during the threading attempt by explosively extracting the trapped leg or backstepping past their guard. The moment they remove their outside foot from your hip, their distance management is at its weakest. Drive forward through this window to collapse their structure entirely, or backstep to escape the entanglement before they can re-establish hooks.
@@ -232,6 +240,8 @@ Deny the transition by maintaining mobile free leg positioning and consistent fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending SLX to X-Guard?</p>
 
 ### 1. Standing stationary with both feet planted flat when the bottom player initiates the threading sequence
 
@@ -261,6 +271,8 @@ Deny the transition by maintaining mobile free leg positioning and consistent fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against SLX to X-Guard?</p>
+
 **Phase 1: Recognition** - Identifying threading attempts early
 Partner in SLX randomly alternates between SLX sweeps, ashi garami entries, and X-Guard threading attempts. Top player focuses solely on correctly identifying which attack is being initiated without attempting to escape. Build pattern recognition speed and accuracy over multiple rounds.
 
@@ -277,26 +289,6 @@ Full positional sparring starting from SLX with partner free to attempt any atta
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the SLX to X-Guard transition?
-**A**: The earliest cue is when the bottom player's outside foot lifts off your hip and begins traveling downward rather than maintaining the hip frame. This foot removal is the critical first step in the threading sequence and simultaneously removes their primary distance management tool. When you feel this pressure release from your hip, immediately step your free leg backward and consider driving forward before they can complete the thread.
-
-**Q2**: Why is containing the position in SLX preferable to scrambling for a complete escape during the transition attempt?
-**A**: Containing in SLX is strategically safer because SLX has fewer sweep angles and less overall sweeping power than full X-Guard. Your escape options from SLX remain consistent regardless of whether the bottom player is attempting a transition or not. Scrambling during the transition creates unpredictable movement where the bottom player can capitalize on your momentum shifts. Methodical containment followed by systematic SLX escape is the higher-percentage approach.
-
-**Q3**: How should your weight distribution change when you detect the threading attempt beginning?
-**A**: Shift more weight onto your free leg by stepping it backward and widening your base, while simultaneously driving your hips downward toward the trapped side to reduce the bottom player's elevation clearance. This weight shift makes your free leg harder to capture because it is both further away and more heavily loaded, while the downward hip pressure collapses the space the bottom player needs underneath your stance to complete the threading motion.
-
-**Q4**: What passing opportunity opens when you successfully prevent the X-Guard transition?
-**A**: When the bottom player's threading attempt fails and their outside foot is displaced from either your hip or their intended hook position behind your free knee, a momentary window opens for headquarters passing or knee slice entries. Their guard structure is temporarily compromised because their outside leg is between positions without providing defensive function. Attack immediately with forward pressure and passing grips before they recover their SLX configuration and re-establish the hip frame.
-
-
-
-</section>
 
 
 </main>

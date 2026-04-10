@@ -167,6 +167,8 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Position Definition
 
+<p class="section-subtitle">What is Pocket Half Guard (Top)?</p>
+
 - Top player maintains underhook control on the bottom player's far side, with arm threaded deep under the armpit and hand gripping behind the back or shoulder blade, creating a tight connection that prevents the bottom player from turning away
 - Top player's chest maintains heavy pressure directly on the bottom player's upper torso, with weight distributed through the sternum and pectoral muscles, keeping the bottom player flat on their back with shoulders pinned to the mat
 - Bottom player's half guard is significantly flattened with their outside leg trapped between the top player's legs, their inside knee driven toward the mat, and limited ability to create angles or establish frames due to the underhook control
@@ -179,6 +181,8 @@ From this position, the top player enjoys significant control advantages, includ
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Pocket Half Guard (Top)?</p>
 
 - Top player has achieved underhook control from half guard top position
 - Bottom player's half guard has been partially flattened, with their back approaching the mat
@@ -193,6 +197,8 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Pocket Half Guard?</p>
+
 - Maintain deep underhook position with constant pulling pressure toward your body, keeping the bottom player's shoulder elevated and preventing them from flattening to create defensive frames
 - Apply consistent forward pressure through the chest and hips, driving weight into the opponent's torso to flatten the half guard and limit their mobility
 - Control the crossface angle with your head or free arm, preventing the bottom player from turning into you or establishing frames that could create distance
@@ -206,6 +212,8 @@ From this position, the top player enjoys significant control advantages, includ
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Pocket Half Guard (Top)?</p>
 
 **If opponent is completely flattened with no frames established:**
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 75%)
@@ -235,6 +243,8 @@ From this position, the top player enjoys significant control advantages, includ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Pocket Half Guard?</p>
 
 ### 1. Allowing space between your chest and the opponent's torso
 
@@ -274,6 +284,8 @@ From this position, the top player enjoys significant control advantages, includ
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Pocket Half Guard attacks?</p>
+
 ### Pressure Maintenance Drill
 
 Partner starts in pocket half guard bottom and attempts to create frames and distance. Top player focuses on maintaining chest pressure, underhook control, and crossface position for 2-minute rounds, resetting when bottom player successfully creates significant space.
@@ -306,38 +318,6 @@ Bottom player attempts specific escapes (deep half entry, turning into underhook
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal weight distribution for maintaining Pocket Half Guard Top position?
-**A**: Weight should be distributed primarily through the chest and shoulder into the opponent's upper torso, with your hips staying low and connected to their body. Avoid putting weight on your knees as this reduces pressure effectiveness. Drive forward pressure through your sternum into their chest while keeping your base wide with one leg posted for stability.
-
-**Q2**: Your opponent starts creating frames with their free arm - what adjustment prevents this?
-**A**: Immediately use your free hand (non-underhook side) to pin their near arm to their body or control their wrist before they complete the frame. If the frame is partially established, drive your shoulder deeper into the crossface position while simultaneously pulling with your underhook to collapse their defensive structure. The key is addressing frames early before they become fully established.
-
-**Q3**: What are the essential grips for maintaining dominant control in this position?
-**A**: The primary grip is your deep underhook reaching across the opponent's back to their far lat or shoulder blade. Secondary grips include crossface control with your forearm across their jaw, wrist control on their near arm, or belt/pants grip on their far hip. The underhook depth is non-negotiable - shallow underhook compromises all control.
-
-**Q4**: How do you shut down the opponent's primary Deep Half Guard escape attempt?
-**A**: When you feel opponent scooting their hips under you for deep half entry, immediately switch your hips to sprawl position while maintaining underhook pressure. Drive your trapped knee toward the mat to prevent them from getting underneath you. If they're already entering, abandon the underhook pass and transition to addressing the deep half guard before it's fully established.
-
-**Q5**: Your opponent bridges explosively - what is the correct response to maintain position?
-**A**: Do not fight the bridge directly. Instead, base out wide with your free leg while maintaining chest connection and underhook control. Ride the bridge by staying connected rather than trying to pin them down. Wait for them to return to the mat (bridges fatigue within 1-2 seconds), then immediately re-establish flattening pressure and continue your pass progression.
-
-**Q6**: What base fundamentals prevent you from being swept from this position?
-**A**: Maintain a triangular base with one knee and your posted foot creating wide support. Never have both knees close together or directly under your hips. Keep your weight distributed forward through your chest, not back on your heels. If opponent threatens a sweep, immediately widen your base in the direction of the sweep rather than stiffening against it.
-
-**Q7**: How do you manage energy expenditure while maintaining crushing pressure for extended periods?
-**A**: Use skeletal alignment rather than muscular effort - let your body weight create pressure through proper positioning. Rest your chest on their body rather than holding yourself up. Breathe calmly and avoid unnecessary movements. Progress methodically toward the pass rather than rushing, which wastes energy. Your underhook should maintain passive tension from grip position, not active pulling force.
-
-**Q8**: The opponent partially recovers their knee shield - how do you prevent full guard recovery?
-**A**: Immediately drive your shoulder deeper into crossface while using your underhook to pull their far shoulder toward you. This creates opposing forces that collapse the knee shield. Use your free hand to push their knee down toward the mat while maintaining chest pressure. If the knee shield is solidly established, consider abandoning direct pressure and transitioning to a knee slice angle instead.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

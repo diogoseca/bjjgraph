@@ -16,7 +16,7 @@ description: "Master executing the ankle lock escape to standing. Complete guide
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Ankle Lock Escape to Standing in BJJ",
-  "description": "Step-by-step guide for executing Ankle Lock Escape to Standing from Straight Ankle Lock Control/Top.",
+  "description": "Step-by-step guide for executing Ankle Lock Escape to Standing from Straight Ankle Lock Control/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -186,13 +186,15 @@ description: "Master executing the ankle lock escape to standing. Complete guide
 
 Executing the ankle lock escape to standing requires systematic coordination of grip breaking, hip rotation, and standing mechanics under the pressure of an active submission threat. The person caught in ankle lock control must address the attacker's grip security, leg positioning, and transition readiness simultaneously rather than sequentially. Prioritizing one control element while ignoring others creates openings the attacker will exploit to deepen control or advance to more dangerous entanglements. The escape follows a clear hierarchy: establish frames, break grip, rotate hip, extract knee, stand. Each step creates the conditions necessary for the next, building momentum toward complete disengagement from the leg attack chain.
 
-**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Ankle Lock Escape to Standing?</p>
 
 - Address grip control and leg control simultaneously rather than sequentially to prevent the opponent from reinforcing one while you address the other
 - Hip rotation direction must be chosen to complicate the opponent's preferred transitions, never facilitating advancement to inside or outside ashi garami
@@ -208,6 +210,8 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ankle Lock Escape to Standing?</p>
+
 - Identify the opponent's specific grip configuration on your ankle to select the appropriate grip break technique
 - Assess whether the opponent's leg triangle is incomplete, providing the gap needed for hip rotation and extraction
 - Confirm that your free leg has sufficient posting surface available on the mat near your hip for the standing drive
@@ -220,6 +224,8 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ankle Lock Escape to Standing step by step?</p>
 
 1. **Assess control level and identify grip configuration**: Evaluate whether the opponent has grip-only control, grip with partial leg wrapping, or full consolidated control. Identify the specific hand placement on your ankle, noting whether the forearm is against the Achilles tendon and which hand cups the heel. This assessment determines whether standing escape is viable or alternative defenses should be prioritized.
 2. **Establish initial frames with free hand and leg**: Post your free hand firmly on the opponent's hip or chest to create separation between your bodies. Simultaneously use your free leg to push against their controlling legs, specifically targeting the leg that is wrapping around your trapped thigh. These frames create the foundational distance that enables all subsequent escape mechanics.
@@ -250,6 +256,8 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ankle Lock Escape to Standing?</p>
+
 - **Opponent deepens Achilles grip and increases submission pressure during your grip break attempt** (Effectiveness: High) - Your Response: If pressure becomes dangerous, tap immediately rather than forcing the escape under high submission threat. If pressure is manageable, accelerate your grip break by combining the two-on-one peel with aggressive hip rotation to reduce leverage before the pressure reaches injury threshold. → Leads to [[Positions/Straight Ankle Lock Control]]
 - **Opponent completes leg triangle wrap around your trapped leg preventing hip rotation and knee retraction** (Effectiveness: High) - Your Response: Switch from standing escape to hip rotation defense or counter-entanglement strategy. Once the leg triangle is complete, standing becomes extremely low percentage. Use your free leg to address their bottom leg while working alternative escape sequences rather than forcing the stand. → Leads to [[Positions/Straight Ankle Lock Control]]
 - **Opponent uses your upward standing momentum to sweep or off-balance you, driving you to your back** (Effectiveness: Medium) - Your Response: Maintain your frame on their body throughout the standing phase and keep your center of gravity low. If you feel your balance compromised, post your free hand on the mat behind you and sit back to controlled open guard rather than falling uncontrolled into a worse position. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ankle Lock Escape to Standing?</p>
 
 ### 1. Attempting explosive foot extraction without first loosening the grip through systematic two-on-one breaking
 
@@ -300,6 +310,8 @@ Executing the ankle lock escape to standing requires systematic coordination of 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ankle Lock Escape to Standing (Attacker)?</p>
+
 **Phase 1: Grip Breaking Mechanics** - Isolated two-on-one grip breaking technique against various ankle grip configurations
 Partner establishes straight ankle lock grips at varying levels of tightness. Practice the two-on-one peel targeting the thumb line combined with foot rotation. Work both gi and no-gi grip configurations. No standing or full escape attempted at this phase, focus purely on grip break efficiency and timing.
 
@@ -320,42 +332,12 @@ Partner actively counters standing escape attempts, forcing the defender to swit
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the ankle lock escape to standing?
-**A**: The optimal window is within the first five to ten seconds after ankle control is established, before the attacker completes leg triangle control and deepens their forearm position against the Achilles tendon. Once full consolidation occurs, escape probability drops dramatically and alternative defenses like hip rotation or counter-entanglement become higher percentage options. Reading control level rapidly is the foundational skill.
-
-**Q2**: How do you determine which direction to rotate your hip during the escape sequence?
-**A**: Rotate in the direction that complicates the attacker's preferred transitions rather than facilitating them. If rotating away would open inside ashi garami, rotate toward the attacker instead. If rotating toward opens outside ashi garami, rotate away. The correct rotation direction depends on the attacker's leg configuration and must be assessed in real time based on which of their legs is positioned inside versus outside your trapped leg.
-
-**Q3**: What grip breaking technique is most effective against a deep Achilles grip during this escape?
-**A**: The two-on-one grip break targeting the attacker's thumb line provides the highest percentage release. Use both hands to peel the controlling hand at its weakest structural point while simultaneously rotating your foot to reduce the pocket depth against your Achilles. Pure pulling strength against a locked grip rarely succeeds because the grip structure is strongest in the direction of a straight pull. The thumb line attack combined with rotational release defeats even deep grips.
-
-**Q4**: Your opponent begins wrapping their legs around your trapped leg as you initiate the escape - what adjustment is required?
-**A**: Immediately prioritize addressing the leg wrap over the ankle grip. Use your free leg to kick or push down on their bottom leg while rotating your hip to prevent the triangle from completing. Once the leg triangle is fully established, standing escape becomes exponentially harder and you should transition to alternative defenses. The leg control must be addressed within two to three seconds of initiation or the standing escape window closes.
-
-**Q5**: What is the critical mechanical detail when posting your free foot to begin standing?
-**A**: Plant your free foot flat on the mat close to your hip with the full sole in contact with the ground, not on the ball of your foot. This creates a stable base for the upward drive that generates the force needed to extract your trapped leg. Posting too far from your body eliminates leverage, and posting on your toes creates instability that makes you vulnerable to being swept during the weight transfer phase.
-
-**Q6**: What should you do if your initial grip break attempt fails but you have partially loosened the ankle control?
-**A**: Maintain the partial advantage by keeping pressure against the weakened grip while immediately re-establishing your frames. Use the momentary looseness to rotate your hip and pull your knee closer to your chest, reducing the extension that gives the attacker leverage. Do not reset completely or pause. Build on partial progress by transitioning to your second grip break attempt or combining the partial break with aggressive hip rotation for extraction.
-
-**Q7**: How do you protect against being swept during the standing phase of the escape?
-**A**: Keep your center of gravity low during the initial standing phase by bending at the hips rather than standing fully upright immediately. Maintain at least one frame on the attacker's body to prevent them from using your upward momentum to generate off-balancing forces. Drive your weight slightly forward as you stand to resist backward sweeping. Only release all contact and fully straighten once your foot is completely extracted and you have established independent balance.
-
-**Q8**: What chain defenses should you prepare if the standing escape is blocked at the knee extraction phase?
-**A**: If knee extraction stalls, immediately transition to hip rotation defense to reduce ankle pressure while maintaining the partially extracted position. From there, assess whether counter-entanglement to fifty-fifty guard offers a higher percentage path forward. The worst response is to repeatedly force the same standing escape that has already been blocked. Switching to complementary defenses creates new escape angles and divides the attacker's attention, potentially reopening the standing pathway.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ankle Lock Escape to Standing?</p>
 
 The ankle joint and Achilles tendon are vulnerable structures that can sustain serious injury from straight ankle lock pressure. During escape practice, both partners must communicate clearly about pressure levels and respect immediate tap signals. The escaping partner should never explosively yank their foot free when meaningful submission pressure exists, as this can cause ligament damage or Achilles tendon injury. Begin all escape drilling at low intensity with compliant partners and gradually increase resistance only after both practitioners demonstrate technical proficiency and reliable communication. If the ankle lock is fully secured with high submission pressure, tapping and resetting is always the safest choice over forcing an escape.
 

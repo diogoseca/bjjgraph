@@ -20,38 +20,38 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Outside Heel Hook from Backside 50-50",
+      "text": "From this position, attempt Outside Heel Hook from Backside 50-50. This technique is attempted in 5% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 5% of exchanges from this position.",
-      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
       "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 4% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
       "text": "From this position, attempt Standing up in Base. This technique is attempted in 6% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Ashi Garami Escape",
       "text": "From this position, attempt Ashi Garami Escape. This technique is attempted in 44% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Counter-entangle to 50-50 Guard",
       "text": "From this position, attempt Counter-entangle to 50-50 Guard. This technique is attempted in 11% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Hip Escape to Guard",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ## Position Definition
 
+<p class="section-subtitle">What is Backside 50-50 (Bottom)?</p>
+
 - Bottom player's back is oriented toward top player's chest, creating exposed back position while maintaining leg entanglement configuration with mirrored leg positioning characteristic of 50-50 variations
 - Both legs are entangled with opponent's legs in mirrored 50-50 configuration, with each player's right leg controlling opponent's left leg or vice versa, creating mutual control and attack opportunities despite positional asymmetry
 - Bottom player's hips are positioned at an angle to opponent, not completely flat on back, maintaining mobility and preventing complete flattening which would eliminate offensive options and escape pathways
@@ -181,6 +183,8 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Backside 50-50 (Bottom)?</p>
 
 - Both players must have legs entangled in mirrored configuration typical of 50-50 variations
 - Bottom player's back must be facing toward top player rather than face-to-face orientation
@@ -196,13 +200,15 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Backside 50-50?</p>
+
 - Leg Entanglement Mechanics: Maintain proper leg configuration to control opponent's movement while protecting your own legs from attacks
 - Hip Mobility Maintenance: Constant hip movement prevents opponent from settling into dominant control and creates offensive opportunities
 - Back Exposure Management: Actively defend against back control attempts while maintaining leg entanglement advantages
 - Sweeping Mechanics Application: Use leg entanglement and hip movement to off-balance opponent and reverse position
 - Leg Lock Awareness: Understand available leg attacks for both players and defend appropriately while seeking opportunistic finishes
 - Position Before Submission: Prioritize improving position over forcing submissions from inferior position
-- Space Creation Through Frames: Use frames and movement to prevent opponent from flattening you completely
+- Distance Control Through Frames: Use frames and movement to prevent opponent from flattening you completely
 
 
 </section>
@@ -211,6 +217,8 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Backside 50-50 (Bottom)?</p>
+
 **If opponent is flattening you with chest pressure and you cannot maintain hip mobility:**
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 45%)
 - Execute **[[Transitions/Standing up in Base/Attacker|Standing up in Base]]** → [[Positions/Standing Position]] (Probability: 35%)
@@ -218,12 +226,12 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 **If opponent overcommits to leg attack and releases upper body control:**
 - Execute **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent maintains tight leg entanglement but extends their attacking leg:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent is transitioning toward saddle position:**
@@ -243,6 +251,8 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backside 50-50?</p>
 
 ### 1. Allowing yourself to be completely flattened on your back with opponent's full chest pressure
 
@@ -282,6 +292,8 @@ Backside 50-50 Bottom is common in no-gi grappling and leg lock-focused competit
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Backside 50-50 defense?</p>
+
 ### Position Maintenance Under Pressure
 
 Start in backside 50-50 bottom with partner applying moderate chest pressure. Practice maintaining hip mobility, using frames, and preventing complete flattening for 2-minute rounds. Partner gradually increases pressure as you improve.
@@ -314,38 +326,6 @@ Both partners in backside 50-50 (alternating top/bottom) practice attacking and 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important thing to prevent when playing Backside 50-50 Bottom?
-**A**: Prevent being completely flattened with your back fully on the mat. Once flattened, hip mobility disappears, sweeps become impossible, and opponent can attack your legs or back freely. Always stay active on your side with your top arm posting, constantly adjusting hip angles to maintain movement capability.
-
-**Q2**: Your opponent is driving chest pressure and you feel yourself getting flattened. What immediate adjustment do you make?
-**A**: Bridge hard immediately to create space and turn to your side. Use your top arm to post on their shoulder or chest to create a frame. Simultaneously, angle your hips away from them to prevent the flattening pressure. If bridge fails, immediately threaten a reversal or leg attack to force them to defend rather than flatten.
-
-**Q3**: What are the essential frames for maintaining defensive structure in Backside 50-50 Bottom?
-**A**: Top arm frames against opponent's chest, shoulder, or hip to maintain separation and prevent flattening. Bottom arm can frame against their leg or hip for additional stability. These frames work together to create space for hip movement. Without active frames, opponent collapses all space and eliminates your mobility entirely.
-
-**Q4**: How do you defend against the primary back control threat from Backside 50-50 Bottom?
-**A**: Monitor opponent's hands constantly - if they reach toward your neck or release leg control, immediately work to face them by turning into the pressure. Keep your chin tucked and elbows tight. When they abandon leg entanglement for back control, this creates opportunity to extract your legs and either stand or recover guard. The moment you feel them walk their hips up your body, accelerate your escape.
-
-**Q5**: Your opponent grabs your heel and starts attacking an inside heel hook. What is your defensive priority sequence?
-**A**: First, hide your heel by turning your knee inward and pulling your toes toward your shin. Second, fight their grip - strip their hands from your foot if possible. Third, if grip is locked, create rotational movement with your hips to relieve pressure on the knee. Fourth, consider counter-attacking their leg if they've committed heavily to the heel hook, as their defense may be compromised.
-
-**Q6**: When is the appropriate time to attempt leg attacks from Backside 50-50 Bottom?
-**A**: Only attack legs opportunistically when opponent makes mistakes or overcommits. If they extend their leg while attacking or passing, attack it. If they release upper body pressure to work on your legs, use that opening for your own attack. Never force leg attacks from bottom - position improvement should be primary goal. Leg attacks from bottom are counters to opponent's actions, not proactive strategies.
-
-**Q7**: How do you manage energy when stuck in Backside 50-50 Bottom for extended periods?
-**A**: Move efficiently rather than constantly. Use frames to hold space rather than constantly fighting pressure. Make decisive movements when opportunities arise rather than constantly scrambling. Breathe steadily and stay calm - panic leads to exhaustion. Recognize that constant small movements drain you faster than waiting for right moment to make bigger escape attempts.
-
-**Q8**: Your opponent backs off the leg entanglement pressure to reposition. How do you capitalize on this opening?
-**A**: The moment pressure releases, immediately work to face them or extract your legs. Stand up in base if leg extraction is possible. Rotate your hips to face them and recover guard. If they've maintained leg entanglement but lightened pressure, use hip movement to create angles for sweeps. Any reduction in their pressure is your opportunity - don't wait for them to settle again.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -154,6 +154,8 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag from Clinch?</p>
+
 - Opponent establishes a cupping grip on your wrist combined with their second hand reaching for your tricep or upper arm, forming a two-on-one configuration
 - You feel a sharp lateral pull across your opponent's body combined with their hips rotating away from you as they begin the drag motion
 - Opponent's head level drops slightly as they step laterally, beginning to clear your shoulder line on the drag side
@@ -165,6 +167,8 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag from Clinch?</p>
 
 - Keep elbows tight to your body during clinch exchanges, minimizing the lever arm available for dragging
 - Maintain active pummeling to prevent the two-on-one grip configuration from forming on either arm
@@ -179,6 +183,8 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag from Clinch?</p>
 
 ### 1. Pummel underhook immediately when you feel the two-on-one forming on your arm
 
@@ -216,6 +222,8 @@ Defending the arm drag from clinch requires recognizing the setup before the dra
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag from Clinch?</p>
+
 ### → [[Positions/Clinch]]
 
 Maintain compact arm positioning with elbows tight, pummel immediately when you feel the two-on-one forming, and circle toward the drag direction to deny the angle change. Active hand fighting prevents the grip sequence from developing into a completed drag.
@@ -231,6 +239,8 @@ Time the snap down for the moment the opponent drops their head level during the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag from Clinch?</p>
 
 ### 1. Reaching behind you with your arm to prevent the opponent from getting to your back
 
@@ -260,6 +270,8 @@ Time the snap down for the moment the opponent drops their head level during the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag from Clinch?</p>
+
 **Phase 1: Recognition Training** - Identifying the arm drag setup
 Partner attempts arm drags at slow speed while you focus solely on recognizing the two-on-one grip formation and the initial pull direction. Do not attempt to counter yet. Develop the tactile sensitivity to feel the setup through grip pressure changes before the visual cues appear.
 
@@ -276,26 +288,6 @@ Begin all rounds from clinch with attacker specifically hunting arm drags while 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that an arm drag attempt is being set up from the clinch?
-**A**: The earliest cue is feeling both of your opponent's hands controlling one of your arms in a two-on-one configuration. This may begin subtly with a wrist grip followed by a reach for your tricep. Recognizing this grip pattern before the pull initiates gives you the maximum time window for defense. Secondary cues include the opponent's hips beginning to rotate away from you and their head level dropping slightly.
-
-**Q2**: Why is circling toward the drag direction more effective than pulling away from it?
-**A**: Circling toward the drag denies the angle change that makes the technique work. The arm drag succeeds by creating a lateral bypass past your shoulder line. When you circle toward the drag direction, you face the opponent directly and prevent them from clearing your shoulder. Pulling away creates distance that makes it easier for them to complete the circular path to your back. Moving toward the threat collapses the space they need.
-
-**Q3**: Your opponent executes a partial arm drag and has cleared one shoulder - what is your best recovery option?
-**A**: Immediately turn your body toward them by pivoting on your lead foot and driving your hip toward them aggressively. This re-squaring must happen before they establish chest-to-back connection. Use your free arm to frame on their shoulder or bicep as you turn. If they already have chest contact on your back, drop your hips and pull guard rather than fighting a standing scramble from a compromised position where they have dominant angles.
-
-**Q4**: How do you prevent the arm drag without becoming too defensive in your clinch game?
-**A**: Maintain offensive hand fighting that naturally denies the two-on-one setup. If you are constantly threatening grips, pummeling, and creating your own offensive sequences, the opponent has fewer windows to establish the drag configuration. The best defense is an active offense that keeps both of their hands occupied dealing with your threats rather than setting up their own. Integrate defensive awareness into your offensive clinch game rather than separating them into distinct phases.
-
-
-
-</section>
 
 
 </main>

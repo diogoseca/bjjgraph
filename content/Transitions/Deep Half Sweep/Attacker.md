@@ -188,6 +188,8 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Deep Half Sweep?</p>
+
 - Maintain constant tension on the deep underhook throughout the entire sweep sequence to prevent the opponent from extracting their leg
 - Use your feet to walk toward the opponent's head before attempting elevation to create the optimal sweeping angle
 - Time the hip elevation for when the opponent's weight shifts forward or when they commit to a crossface attempt
@@ -202,6 +204,8 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Deep Half Sweep?</p>
+
 - Deep underhook established with arm wrapped tightly around opponent's far thigh, pulling the leg close to your chest
 - Head and shoulder wedged underneath opponent's near hip, creating the primary fulcrum for sweep leverage
 - Feet positioned to walk toward opponent's head to create optimal angle before elevation begins
@@ -214,6 +218,8 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Deep Half Sweep step by step?</p>
 
 1. **Confirm deep underhook security**: Verify that your arm is wrapped tightly around the opponent's far thigh with your shoulder pressed firmly against their inner thigh. Pull their leg toward your chest to maintain tension. Your elbow should be behind their knee or higher on the thigh for maximum control.
 2. **Wedge head and shoulder into position**: Position your head underneath the opponent's near hip with your shoulder driving upward into their inner thigh. This creates the fulcrum point for the sweep. Your ear should be roughly at their hip line with your shoulder creating upward pressure that disrupts their base.
@@ -243,6 +249,8 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Deep Half Sweep?</p>
+
 - **Crossface pressure to flatten bottom player and prevent hip elevation** (Effectiveness: High) - Your Response: Use the crossface pressure as a timing cue. When opponent drives forward with crossface, their weight commits forward which actually loads the sweep. Maintain your underhook and use their forward pressure to fuel the elevation. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Sprawl hips back to remove weight from bottom player's leverage point** (Effectiveness: High) - Your Response: When opponent sprawls, immediately transition to the rolling variation by rolling underneath them toward the far side, or switch to X-Guard or Single Leg X by hooking their retreating legs with your feet. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Backstep around bottom player's legs to pass guard entirely** (Effectiveness: Medium) - Your Response: Follow the backstep with your hips and maintain the underhook. If they commit to the backstep, use their rotation to enter a rolling back take or transition to half butterfly guard on the other side. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Deep Half Sweep?</p>
 
 ### 1. Attempting the sweep without first walking feet toward opponent's head to create angle
 
@@ -293,6 +303,8 @@ As the attacker executing the Deep Half Sweep, your objective is to leverage you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Deep Half Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Body positioning and leverage fundamentals
 Practice entering deep half guard and establishing proper underhook, head position, and foot placement with a cooperative partner. Execute the sweep slowly focusing on the angle creation through foot walking and the hip elevation mechanics. Repeat 20 times per side with no resistance.
 
@@ -313,42 +325,12 @@ Practice entering deep half from various guard positions under match-intensity c
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins applying heavy crossface pressure as you establish deep half - how do you use this to your advantage for the sweep?
-**A**: Heavy crossface pressure means the opponent is committing their weight forward, which is exactly what loads the Deep Half Sweep. Rather than fighting the crossface, maintain your underhook and use their forward pressure as fuel for your hip elevation. Their weight commitment forward means they have less ability to sprawl back when you drive your hips up. Time your elevation for the moment their pressure peaks.
-
-**Q2**: What is the critical foot positioning adjustment that must happen before attempting the hip elevation?
-**A**: You must walk your feet in small steps toward the opponent's head to create an acute angle between your body and theirs. This angle redirects your hip elevation force from straight upward to forward-and-over, making the sweep dramatically more effective. Without this angle adjustment, the opponent can simply post their hands or sprawl to resist a straight upward elevation. Three to four small steps typically create sufficient angle.
-
-**Q3**: What grip modifications are required for executing this sweep in no-gi versus gi?
-**A**: In no-gi, the underhook must be deeper with the arm wrapped further around the thigh, often using a gable grip or butterfly grip behind the knee for maximum security since there is no friction from the gi. The free hand uses wrist control or a frame against the hip instead of lapel or belt grips. In gi, you can supplement with a belt grip on the free hand for additional pulling power and pant grip on the near leg for better control.
-
-**Q4**: Your opponent sprawls their hips back when they feel your elevation attempt - what is your immediate chain attack?
-**A**: When the opponent sprawls back, immediately transition to either the rolling variation by continuing underneath them toward the far side to take the back, or switch to X-Guard or Single Leg X-Guard by hooking their retreating legs with your feet. The sprawl removes their weight from your shoulders but creates space underneath that you can exploit by following their retreating legs with leg hooks rather than trying to force the original sweep path.
-
-**Q5**: What determines whether the Deep Half Sweep will finish in side control versus mount?
-**A**: The angle you create before elevation and the direction of your drive determine the finish position. A more perpendicular angle with a drive across the opponent's body typically finishes in side control. Driving more directly over the opponent's centerline while maintaining the underhook can finish in mount. Side control is the higher-percentage finish because it requires less precision during the scramble phase of the sweep completion.
-
-**Q6**: How does the direction of force differ between the Deep Half Sweep and the Waiter Sweep from the same position?
-**A**: The Deep Half Sweep generates force through hip elevation directed forward and over the opponent, using the shoulder wedge as a fulcrum. The force vector is primarily upward then forward. The Waiter Sweep generates force by elevating the opponent's far leg with the free hand while using hip movement to off-balance them laterally. The Waiter Sweep force is more rotational while the Deep Half Sweep is more linear and direct.
-
-**Q7**: What body positioning error most commonly causes the Deep Half Sweep to fail against skilled opponents?
-**A**: The most common error is attempting the elevation without creating sufficient angle by walking the feet toward the opponent's head. When the body alignment is too parallel to the opponent, the hip elevation drives them straight up rather than forward, allowing them to simply post their hands or sprawl their weight back to resist. The angle is what transforms raw upward force into sweeping momentum that bypasses their posting ability.
-
-**Q8**: Your opponent applies a whizzer to your underhook arm during the sweep attempt - what adjustment prevents the counter?
-**A**: When the opponent whizzers your underhook arm, do not try to fight the whizzer directly. Instead, redirect by driving your underhook elbow toward their far hip, making the whizzer less effective at stripping your control. Alternatively, use the whizzer pressure to set up an Electric Chair entry by feeding your hips deeper and establishing lockdown on their trapped leg. The whizzer commits their arm, which can be exploited for the position change.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Deep Half Sweep?</p>
 
 The Deep Half Sweep is generally a low-risk technique with no joint manipulation or choking mechanics involved. The primary safety concern is neck positioning during the sweep. Ensure your head remains tucked against the opponent's thigh rather than extended or twisted, as the weight loading during elevation can create cervical compression if the head is mispositioned. Avoid attempting the sweep if you feel any neck discomfort in the starting position. Partners should communicate immediately if they feel trapped in an awkward position during the sweep rotation. During drilling, control the speed of the sweep completion to prevent the top player from being dumped unexpectedly onto their head or shoulder.
 

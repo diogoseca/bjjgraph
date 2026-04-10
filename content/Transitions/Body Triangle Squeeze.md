@@ -202,11 +202,11 @@ The Body Triangle Squeeze integrates into the back attack system as a force mult
 
 - [[Positions/Back Control]] - Parent back control position before establishing triangle lock
 
-- [[Submissions/Body Triangle RNC]] - Complementary choke submission from same body triangle position
+- [[Transitions/Rear Naked Choke Setup]] - Complementary choke setup transition from body triangle position
 
-- [[Submissions/Bow and Arrow from Seat Belt]] - Alternative gi choke submission from back control
+- [[Submissions/Bow and Arrow Choke]] - Alternative gi choke submission from back control
 
-- [[Submissions/RNC from Seat Belt]] - Primary choke alternative from back position
+- [[Submissions/Rear Naked Choke]] - Primary choke alternative from back position
 
 - [[Positions/Crucifix]] - Transition target when defender reaches back to attack locked legs
 

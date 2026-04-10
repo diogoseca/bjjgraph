@@ -169,6 +169,8 @@ This position represents a defensive challenge where understanding leg lock mech
 
 ## Position Definition
 
+<p class="section-subtitle">What is Outside Ashi-Garami (Top)?</p>
+
 - Your right leg is trapped in opponent's figure-4 configuration with their left leg crossing over your thigh and right leg triangling under your knee, creating a locked clamp around your leg
 - Opponent positioned on their back or side below you at a perpendicular or diagonal angle (45-90 degrees), facing your trapped leg with their body aligned to threaten leg locks
 - You maintain elevated position on knees, hip, or standing with trapped leg while opponent remains lower, creating height differential that favors escape opportunities
@@ -180,6 +182,8 @@ This position represents a defensive challenge where understanding leg lock mech
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Outside Ashi-Garami (Top)?</p>
 
 - Understanding of leg entanglement risks and submission mechanics, particularly heel hook finishing mechanics
 - Knowledge of heel exposure and protection techniques, including hiding the heel and controlling hip rotation
@@ -195,6 +199,8 @@ This position represents a defensive challenge where understanding leg lock mech
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Outside Ashi-Garami?</p>
+
 - Protect your heel immediately by keeping it hidden from opponent's grip, preventing heel exposure that enables heel hook finish
 - Maintain standing or elevated posture with height advantage, as standing position creates best escape opportunities and limits opponent's leverage
 - Prevent hip external rotation by keeping knee pointing forward and not allowing knee to turn outward, which would expose heel to finishing position
@@ -209,6 +215,8 @@ This position represents a defensive challenge where understanding leg lock mech
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Outside Ashi-Garami (Top)?</p>
 
 **If opponent has strong heel grip and is threatening immediate heel hook finish:**
 - Execute **[[Saddle Defense/Attacker|Saddle Defense]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 50%)
@@ -237,6 +245,8 @@ This position represents a defensive challenge where understanding leg lock mech
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Outside Ashi-Garami?</p>
 
 ### 1. Pulling leg straight out against figure-4 triangle
 
@@ -275,6 +285,8 @@ This position represents a defensive challenge where understanding leg lock mech
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Outside Ashi-Garami attacks?</p>
 
 ### Posture Maintenance Under Pressure
 
@@ -315,38 +327,6 @@ Partner establishes outside ashi and slowly attempts to access your heel, practi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you find yourself trapped in Outside Ashi-Garami Top?
-**A**: Your first priority is protecting your heel by keeping it hidden from your opponent's grip. The heel must remain tucked inward with toes pointing toward your body. Heel exposure is the most immediate danger as it enables the opponent to secure a heel hook grip and finish the submission rapidly. All other defensive actions are secondary to heel protection.
-
-**Q2**: Why does maintaining an elevated or standing posture significantly improve your escape success rate?
-**A**: Standing or elevated posture creates a height differential that limits your opponent's leverage for submissions and control. When standing, you can use gravity and your bodyweight to assist leg extraction, your opponent cannot generate the hip extension needed for heel hook finishing mechanics, and you maintain options to step over or around their guard. Dropping to their level eliminates these advantages and gives them superior angles.
-
-**Q3**: Your opponent begins aggressively hunting for your heel - what immediate adjustment should you make?
-**A**: Immediately rotate your hip internally, turning your knee inward rather than allowing it to point outward. Simultaneously create frames on their hips or chest with your hands to establish distance. If they already have heel access, you must break their grip before continuing any escape attempt. Consider switching to a counter-entanglement strategy if their grip is too strong to break directly.
-
-**Q4**: Why is pulling your leg straight out against the figure-4 triangle counterproductive?
-**A**: Straight pulling actually strengthens the opponent's leg triangle by driving your leg deeper into their lock configuration. It also exposes your heel by rotating it toward their grip, and creates leverage that assists their submission mechanics. Instead, you must rotate your hip internally and collapse their triangle structure through circular movement before extracting.
-
-**Q5**: When is it appropriate to attempt a counter leg entanglement rather than pure escape?
-**A**: Counter-entanglement is appropriate when your opponent's legs become exposed during their transition or submission attempt. Specifically, when they release their leg triangle to readjust, when their inside leg becomes accessible during a position change, or when they commit heavily to a heel hook attempt and create openings. The mutual threat created forces them to defend, often facilitating your escape.
-
-**Q6**: What role do frames play in the escape sequence and where should they be positioned?
-**A**: Frames create and maintain the distance necessary for leg extraction and prevent your opponent from closing space to improve their finishing mechanics. Position frames on your opponent's hips or chest using both hands and potentially your free leg. Frames must be maintained throughout the escape sequence, not abandoned once established, as they prevent the opponent from re-advancing their position.
-
-**Q7**: Your opponent's leg triangle feels loose - what escape approach becomes available?
-**A**: A loose leg triangle indicates the opportunity for a direct technical stand-up or simple leg extraction. Maintain your frames, continue protecting your heel, and use internal hip rotation combined with the looseness to thread your leg out. Once partially extracted, immediately elevate to standing and create distance. The loose triangle also makes counter-entanglement entries easier if you prefer an offensive transition.
-
-**Q8**: How does panic affect your escape success rate and what mental approach should you maintain?
-**A**: Panic leads to rushed, uncontrolled movements that expose your heel, waste energy, and create opportunities for your opponent to improve their position. The correct mental approach is calm, methodical problem-solving through systematic escape sequences. Breathe deeply, assess your heel position, identify whether their triangle is tight or loose, then execute the appropriate technique. Trust your drilling and technique rather than explosive scrambling.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

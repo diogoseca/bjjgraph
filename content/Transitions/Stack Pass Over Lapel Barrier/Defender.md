@@ -166,6 +166,8 @@ Successful defense requires recognizing the stack attempt early through tactile 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass Over Lapel Barrier?</p>
+
 - Passer drops their level and drives shoulder contact into your thighs or hip area, shifting from upright posture to forward commitment
 - Passer begins walking their feet forward while maintaining chest contact on your legs, generating progressive compression toward your face
 - Passer secures a deep collar grip combined with far-side pants or belt grip, establishing the anchor points needed for the stack drive
@@ -177,6 +179,8 @@ Successful defense requires recognizing the stack attempt early through tactile 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass Over Lapel Barrier?</p>
 
 - Establish shoulder frames before the passer achieves full compression—frames under pressure are exponentially harder to create than proactive frames
 - Create hip angle immediately when you feel the forward drive begin, turning to 45 degrees to prevent the flat-on-back compression that kills your guard
@@ -191,6 +195,8 @@ Successful defense requires recognizing the stack attempt early through tactile 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass Over Lapel Barrier?</p>
 
 ### 1. Frame on shoulder and create hip angle before compression completes
 
@@ -228,6 +234,8 @@ Successful defense requires recognizing the stack attempt early through tactile 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass Over Lapel Barrier?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Establish strong shoulder frames the moment you feel the passer lower their level and begin driving. Use your frame hand on their lead shoulder to stall the forward drive while simultaneously rotating your hips to a 45-degree angle. From this angled position, use your lapel grip to pull them laterally off-balance, disrupting their straight-line compression. If successful, you restore the distance and hip mobility needed for your lapel guard to function, and the passer must restart their approach.
@@ -243,6 +251,8 @@ Time the guard lock during the transition between the passer's forward drive and
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass Over Lapel Barrier?</p>
 
 ### 1. Relying solely on the lapel grip to stop the stack without establishing upper body frames
 
@@ -277,6 +287,8 @@ Time the guard lock during the transition between the passer's forward drive and
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass Over Lapel Barrier?</p>
+
 **Week 1-2** - Frame establishment under controlled stack pressure
 Partner drives stack at 40-50% intensity while you focus solely on establishing bent-arm frames and maintaining hip angle. No sweep attempts—build the defensive muscle memory of proactive framing before compression arrives. Reset after each successful frame or after being fully compressed.
 
@@ -293,29 +305,6 @@ Integrate stack defense into full guard retention sequences during sparring. Rec
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window for stopping the stack pass before it succeeds?
-**A**: The critical window exists between the passer lowering their level (initial contact on your thighs) and achieving full spinal compression (your knees driven to your face). During this phase, your frames and hip angle determine the outcome. Once full compression is achieved, your hip mobility is eliminated and the passer can walk around your legs at will. Proactive defense during this window—frames, hip angle, and lateral off-balancing—is exponentially more effective than reactive defense under full weight.
-
-**Q2**: Your lapel grip is secure but you feel the passer's shoulder driving heavily into your thighs—what immediate actions prevent the pass?
-**A**: Establish a bent-arm frame on the passer's driving shoulder with your free hand while simultaneously rotating your hips to 45 degrees away from the pressure. Use the lapel grip to pull laterally rather than trying to push the passer backward—pulling them off their center line disrupts the straight-line compression that makes the stack effective. If the frame holds, use the created space to reposition your hips and re-establish lapel guard distance. If the frame is being overwhelmed, immediately transition to closed guard or spider guard before compression completes.
-
-**Q3**: When should you abandon your lapel configuration and transition to a different guard system during stack defense?
-**A**: Transition when your frames are barely holding and the compression is progressively building despite your resistance—specifically when your knees are past 90 degrees toward your chest and your hip angle is shrinking. At this point, the lapel configuration has lost its mechanical advantage because the distance and hip mobility it requires no longer exist. Releasing the lapel grip to establish bicep controls for spider guard, wrapping a leg for lasso guard, or locking closed guard all provide better defensive structures against committed stack pressure than a compromised lapel guard.
-
-**Q4**: How do you time the closed guard lock to counter the stack pass effectively?
-**A**: The optimal moment to lock closed guard is during the passer's transition from the forward drive phase to the hip-clearing phase—when their hips are close enough to lock ankles behind their back but before they begin walking around your legs. At this point, their weight is committed forward and their hips are within range. Uncross your legs from the lapel configuration and lock ankles behind their lower back, pulling with your heels. This converts the exchange from a losing lapel guard defense into a neutral closed guard position where you can work standard offense.
-
-**Q5**: What recognition cues tell you a stack pass attempt is beginning rather than a standard pressure pass?
-**A**: The stack is distinguished from standard pressure passing by the passer lowering their shoulder directly into your thighs or hip area rather than driving chest-to-chest. You feel progressive compression pushing your knees toward your face rather than lateral passing pressure. The passer walks their feet forward behind them rather than stepping around your guard. Their collar grip deepens and pulls your upper body toward them while their far-side pants grip anchors your hip. These combined cues indicate committed stack pressure rather than the lateral movement of toreando or the angular drive of knee slice.
-
-
-
-</section>
 
 
 </main>

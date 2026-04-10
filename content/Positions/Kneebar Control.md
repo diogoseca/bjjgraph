@@ -108,13 +108,13 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (41% of attempts)
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (11% of attempts)
+- **[[Heel Hook from Kneebar Control/Attacker|Heel Hook from Kneebar Control]]** (11% of attempts)
 
 - **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** (7% of attempts)
 
 - **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (7% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (6% of attempts)
+- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (6% of attempts)
 
 - **[[Transitions/Backside 50-50 Entry from Ashi/Attacker|Backside 50-50 Entry from Ashi]]** (6% of attempts)
 
@@ -197,7 +197,7 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (25% of attempts)
+- **[[Kneebar from Kneebar Control/Attacker|Kneebar from Kneebar Control]]** (25% of attempts)
 
 - **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (25% of attempts)
 
@@ -205,7 +205,7 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 - **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (10% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (10% of attempts)
+- **[[Toe Hold from Kneebar Control/Attacker|Toe Hold from Kneebar Control]]** (10% of attempts)
 
 - **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (10% of attempts)
 

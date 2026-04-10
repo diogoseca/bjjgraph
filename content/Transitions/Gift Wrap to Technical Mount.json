@@ -54,8 +54,8 @@
       "relationship": "Alternative attack that creates rotation trigger for this transition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission from technical mount with trapped arm"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission setup from technical mount with trapped arm"
     },
     {
       "name": "Mounted Triangle",

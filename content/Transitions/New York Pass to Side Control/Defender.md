@@ -170,6 +170,8 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting New York Pass to Side Control?</p>
+
 - Top player begins spreading their knees significantly wider, establishing a broad triangular base that signals preparation for posture recovery
 - Top player's free hand moves to attack your shin grip near the ankle, indicating they are targeting the primary control mechanism
 - Top player's spine begins straightening as they engage their posterior chain to fight for posture against your shin control
@@ -182,6 +184,8 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York Pass to Side Control?</p>
 
 - Maintain the shin grip as your primary control mechanism—without it, the top player can recover posture and the position collapses
 - Deepen the overhook whenever you feel the arm beginning to rotate or extract by driving your shoulder tighter against their armpit
@@ -197,6 +201,8 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against New York Pass to Side Control?</p>
 
 ### 1. Re-grip and pull shin control deeper while engaging hip flexors to increase downward pressure on their back
 
@@ -234,6 +240,8 @@ The defender in the New York Pass to Side Control is the bottom player maintaini
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending New York Pass to Side Control?</p>
+
 ### → [[Positions/Rubber Guard/New York]]
 
 Maintain active shin grip and overhook pressure throughout the escape attempt. Re-grip immediately when you feel the shin being stripped. Deepen the overhook by driving your shoulder into their armpit whenever they attempt arm extraction. Cycle through offensive transitions to force them back into pure defense.
@@ -249,6 +257,8 @@ Time a hip bump sweep during the posture recovery phase when the top player's we
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York Pass to Side Control?</p>
 
 ### 1. Gripping the shin passively without actively pulling to maintain downward pressure on the opponent's back
 
@@ -283,6 +293,8 @@ Time a hip bump sweep during the posture recovery phase when the top player's we
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against New York Pass to Side Control?</p>
+
 **Phase 1: Recognition and Grip Maintenance** - Identifying pass attempts early and maintaining critical control grips under attack
 Partner attempts the pass with moderate resistance while you focus exclusively on recognizing the initiation cues and maintaining shin grip and overhook integrity. No offensive counters yet—pure defensive grip retention. Track how long you can maintain full control under escalating grip fighting pressure.
 
@@ -299,32 +311,6 @@ Full resistance positional sparring starting from New York. Defender scores for 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is initiating this pass?
-**A**: The earliest cue is the top player significantly widening their base by spreading their knees apart. This base establishment precedes all other phases of the pass and signals their intent to build a stable platform for posture recovery. Recognizing this cue gives you the maximum time to proactively tighten your controls, deepen the overhook, and begin cycling offensive threats before they can progress to the grip fighting phase.
-
-**Q2**: What is the most important grip to maintain when defending against this pass?
-**A**: The shin grip is the most important control to maintain because it keeps the shin across the top player's back, which is the primary mechanism preventing posture recovery. Without the shin control, the overhook alone cannot prevent posture recovery since the top player can use their entire posterior chain to straighten their spine. If you feel the grip being attacked, prioritize re-gripping with maximum strength and consider using your opposite hand to temporarily reinforce the grip while transitioning to an offensive response.
-
-**Q3**: When does the best counter-sweep opportunity present itself during the opponent's pass attempt?
-**A**: The optimal sweep window occurs during the posture recovery phase when the top player's weight shifts backward and upward as they engage their posterior chain to straighten their spine. This backward weight shift temporarily compromises their forward base and creates the momentum needed for a successful hip bump sweep. The window is narrow—typically lasting only 1-2 seconds—so you must recognize the posture recovery attempt immediately and commit to the sweep with full hip drive and body extension.
-
-**Q4**: How can you threaten a triangle submission during the opponent's arm extraction attempt?
-**A**: As the top player begins the corkscrew arm extraction, their arm is positioned inside your guard at an angle that creates the triangle configuration. Shoot your leg over their shoulder on the extracting arm side while maintaining hip elevation and angle. The partially extracted arm cannot effectively defend the triangle because it is committed to the extraction motion. Timing is critical—the triangle must be initiated while the arm is mid-extraction, not after it is fully free.
-
-**Q5**: If the opponent partially recovers posture but their arm remains trapped, what is your immediate priority?
-**A**: Your immediate priority is to re-establish the shin across their back to collapse their recovered posture. Re-grip your shin with maximum depth near the ankle and pull aggressively with your hip flexors to drag their shoulders back down. Simultaneously, test whether the partial posture has created an opening for offensive transitions—sometimes partial posture recovery creates better angles for omoplata or Carni entries than fully broken posture does.
-
-**Q6**: What defensive adjustment should you make when you recognize the stack pass variation?
-**A**: When the top player drives forward to stack rather than recovering posture upward, create a frame with your free hand against their hip or belt line to prevent them from walking their knees forward to compress your hips. Simultaneously, use your hips to scoot away from their driving pressure, maintaining the space needed for your rubber guard to function. If the stacking pressure becomes too great, transition to a triangle or armbar attempt that uses their forward momentum against them rather than trying to maintain New York against overwhelming forward pressure.
-
-
-
-</section>
 
 
 </main>

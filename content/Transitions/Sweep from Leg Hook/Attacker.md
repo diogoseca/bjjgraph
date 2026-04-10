@@ -194,6 +194,8 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Leg Hook?</p>
+
 - Unify upper body control and leg hook into a single coordinated sweeping system rather than treating them as independent controls
 - Load the opponent's weight onto the sweep-side before initiating the sweep to ensure their base is already compromised when the roll begins
 - Time the sweep when the opponent commits weight forward or laterally, using their momentum against them rather than fighting their base directly
@@ -208,6 +210,8 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Leg Hook?</p>
+
 - Active leg hook with dynamic tension around opponent's near leg, preventing extraction while maintaining elevation capability
 - Near-side underhook, overhook, or two-on-one arm control establishing upper body connection to the opponent
 - Hip angle maintained on side position with bottom elbow posted, preserving mobility needed for sweep initiation
@@ -220,6 +224,8 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Leg Hook step by step?</p>
 
 1. **Secure deep leg hook**: Establish an active leg hook around the opponent's near leg by threading your inside leg deeply around their thigh. Maintain dynamic tension through your hook rather than passive wrapping, keeping your heel engaged against their inner thigh or hip crease. This hook serves as the primary lever and fulcrum for the entire sweep.
 2. **Establish upper body control**: Thread your near arm under the opponent's armpit to secure a deep underhook, driving your hand toward their far shoulder blade. If the underhook is denied, switch to an overhook or two-on-one arm control. The upper body grip must connect to the leg hook control to create a unified system that controls both halves of the opponent's body.
@@ -250,6 +256,8 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Leg Hook?</p>
+
 - **Opponent posts free hand wide on the mat to block the roll and maintain base** (Effectiveness: High) - Your Response: Switch to controlling their posting wrist with your free hand before re-attempting the sweep, or transition to an arm drag that removes the post and opens back take opportunities → Leads to [[Positions/Leg Hook]]
 - **Opponent sprawls hips back and drives heavy crossface to flatten you before the sweep loads** (Effectiveness: High) - Your Response: Use their forward pressure to transition to deep half guard by ducking underneath their weight, converting their defensive aggression into an entry for a different sweep pathway → Leads to [[Positions/Side Control]]
 - **Opponent switches hips and re-centers weight over your torso to neutralize the angle** (Effectiveness: Medium) - Your Response: Use the hip switch timing to re-angle your own hips and re-load the sweep from the new angle, or immediately transition to a different sweep direction that exploits their re-centering movement → Leads to [[Positions/Leg Hook]]
@@ -261,6 +269,8 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Leg Hook?</p>
 
 ### 1. Attempting the sweep without first loading the opponent's weight onto the sweep side
 
@@ -305,6 +315,8 @@ Executing the Sweep from Leg Hook requires coordinated upper and lower body mech
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Leg Hook (Attacker)?</p>
+
 **Phase 1: Isolated Mechanics** - Individual movement components
 Practice each component of the sweep in isolation: leg hook establishment and tension maintenance, underhook insertion depth and angle, hip angling and posting, and bridging direction. Use a compliant partner who holds still while you rehearse each element. Focus on body awareness and positioning rather than completing the sweep.
 
@@ -325,42 +337,12 @@ Integrate the sweep into live rolling with specific focus on identifying the opp
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Sweep from Leg Hook?
-**A**: The optimal window opens when the opponent commits their weight forward past their base centerline, typically while driving pressure to advance their pass or when reaching for grips. You can also create the window by pulling them forward with the underhook. The key indicator is feeling their weight settle heavily onto your chest and the hooked leg, meaning their base is already compromised before you initiate the roll.
-
-**Q2**: What entry requirements must exist before you can attempt this sweep?
-**A**: Four conditions must be met: an active leg hook with dynamic tension on the opponent's near leg, an underhook or equivalent upper body control connecting you to their torso, a side-angled hip position that preserves rotational range of motion, and the opponent's weight shifted away from their optimal base. Missing any single requirement dramatically reduces success probability and increases counter risk.
-
-**Q3**: What is the most critical hip movement during the sweep execution?
-**A**: The hip bridge combined with rotational elevation through the hooked leg is the primary power source. Your hips must drive upward and laterally simultaneously, creating a diagonal force vector that lifts the opponent off their base while rolling them over the fulcrum of the hook. Without this coordinated hip action, the upper body alone cannot generate sufficient force to complete the sweep against a competent opponent.
-
-**Q4**: Your opponent posts their far hand on the mat as you initiate the sweep - how do you adjust?
-**A**: The posting hand must be neutralized before re-attempting the sweep. Use your free hand to control their wrist and pin it to the mat or push their elbow past the centerline. Alternatively, switch your attack to an arm drag on the posting arm, which simultaneously removes their base and creates back take opportunities. Never force the sweep against a solid post, as it wastes energy and teaches the opponent your timing.
-
-**Q5**: What grip configuration provides the strongest sweeping mechanics?
-**A**: A deep underhook with your hand reaching the opponent's far shoulder blade combined with an active leg hook creates the strongest unified control. The underhook drives upward into the armpit while the hook elevates from below, creating converging force vectors. In no-gi, a two-on-one arm drag grip can substitute for the underhook when it is denied. The key is that upper and lower body grips must work as one connected system, not independent controls.
-
-**Q6**: In which direction should the sweeping force be applied relative to the opponent's base?
-**A**: The sweep force must travel perpendicular to the opponent's base alignment for maximum effectiveness. If they have a wide lateral base, sweep forward or backward. If their base is narrow front-to-back, sweep laterally. Reading their weight distribution determines the weakest base direction. Sweeping into their strongest base direction requires enormous force and almost always fails against skilled opponents.
-
-**Q7**: Your opponent sprawls their hips back and drives a crossface when they feel your sweep setup - what is your best response?
-**A**: Their sprawl and crossface actually aid a transition to deep half guard because their weight is driving forward and their hips are lowering. Duck underneath their pressure by pulling your head through to the far hip side while maintaining the leg hook. Convert their aggressive defensive response into an entry to deep half guard, where you have a different set of high-percentage sweeps available from an even more advantageous position.
-
-**Q8**: If your initial sweep attempt is stuffed, what chain attacks are available?
-**A**: The primary chains are: arm drag to back take if the opponent posts a hand, deep half entry if they sprawl forward, single leg X-guard transition if they stand to disengage, and dogfight position if the sweep stalls halfway. Each chain capitalizes on the specific defensive response the opponent used to stop the initial sweep, meaning their defense to one threat opens them to the next threat in the chain.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Leg Hook?</p>
 
 The Sweep from Leg Hook is generally low-risk but practitioners should be mindful of knee stress on the hooking leg during aggressive sweeping motions, particularly when the hook gets caught at an awkward angle during the roll. Ensure the leg hook maintains natural knee alignment throughout the sweep by keeping your heel engaged rather than locking your ankle rigidly. Communicate with training partners about knee sensitivity before drilling. During initial practice, use cooperative repetitions at slow speed to develop proper movement patterns before adding resistance or speed. The follow-through phase carries risk of landing heavily on the opponent, so control your descent into mount rather than dropping full weight suddenly.
 

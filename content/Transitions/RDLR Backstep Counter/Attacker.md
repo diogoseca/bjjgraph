@@ -188,6 +188,8 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing RDLR Backstep Counter?</p>
+
 - Break or control the ankle grip before initiating the backstep—the ankle grip is the steering mechanism that directs the hook's rotational force and enables sweeps
 - Maintain upper body control throughout the backstep motion to prevent the bottom player from following with inversions or guard transitions
 - Execute the backstep as a controlled, deliberate movement rather than an explosive retreat to maintain base and prevent overextension
@@ -202,6 +204,8 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting RDLR Backstep Counter?</p>
+
 - Establish at least one upper body grip (cross-face, collar tie, or lapel control) to limit the bottom player's rotation capacity before stepping
 - Identify the depth and angle of the RDLR hook to determine the backstep trajectory needed for complete clearance
 - Address or neutralize the bottom player's ankle grip on the hooked leg before committing to the backstep motion
@@ -214,6 +218,8 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute RDLR Backstep Counter step by step?</p>
 
 1. **Establish upper body control**: Secure a cross-face grip, collar tie, or lapel control with your lead hand to limit the bottom player's ability to rotate their shoulders toward the mat. This upper body connection prevents them from initiating berimbolo or kiss of the dragon entries during your backstep. Your control hand should be firmly connected before any leg movement begins.
 2. **Strip the ankle grip**: Use your free hand to break the bottom player's grip on your hooked ankle by controlling their wrist and peeling their fingers. The ankle grip is their primary steering mechanism—without it, the RDLR hook loses directional control and becomes significantly easier to clear. If you cannot fully strip the grip, at least neutralize its pulling vector by controlling their wrist position.
@@ -243,6 +249,8 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter RDLR Backstep Counter?</p>
+
 - **Bottom player follows the backstep with inversion, rotating shoulders toward the mat for berimbolo or crab ride entry** (Effectiveness: High) - Your Response: Drive chest forward and down toward their hips immediately upon sensing shoulder rotation. Use your cross-face grip to turn their head away from the rotation direction. If they have already committed to the inversion, transition to body lock around their torso to pin them flat and eliminate rotational capacity. → Leads to [[Positions/Half Guard]]
 - **Bottom player re-hooks the leg during the backstep by adjusting hook depth and angle before clearance completes** (Effectiveness: Medium) - Your Response: Increase the arc of your backstep by stepping further behind and wider to create more distance from their re-hooking range. Simultaneously push their hooking leg down at the knee with your free hand to prevent the instep from catching your calf or thigh during the step. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
 - **Bottom player transitions to Single Leg X or X-Guard by repositioning feet on hips as the backstep creates space** (Effectiveness: Medium) - Your Response: Immediately strip foot placement on hip by gripping their ankle and pushing it to the mat. Do not allow dual hip control to establish. If one foot is already positioned, step back further and address it with grip breaks before attempting to settle into Headquarters. → Leads to [[Positions/De La Riva Guard/Reverse De La Riva Guard]]
@@ -254,6 +262,8 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing RDLR Backstep Counter?</p>
 
 ### 1. Backstepping without first addressing the ankle grip on the hooked leg
 
@@ -293,6 +303,8 @@ The attacker in the RDLR Backstep Counter is the top player who uses a controlle
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train RDLR Backstep Counter (Attacker)?</p>
+
 **Phase 1: Mechanics** - Backstep motion and weight transfer
 Practice the backstep motion without resistance, focusing on the arc of the step, weight transfer to posting leg, and controlled landing into Headquarters. Perform 20 repetitions per side, emphasizing smooth circular movement rather than speed. Partner maintains static RDLR position without resisting.
 
@@ -313,39 +325,12 @@ After reaching Headquarters through backstep, immediately chain into follow-up p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the ankle grip be addressed before initiating the backstep?
-**A**: The ankle grip serves as the steering mechanism for the RDLR hook, controlling the direction and intensity of its rotational force. If you backstep without neutralizing this grip, the bottom player can redirect your stepping leg into their sweep trajectory, pull you off balance during the single-leg phase of the step, or feed your momentum into a kiss of the dragon entry. Breaking the grip first removes their ability to control your leg's path during the critical transition moment.
-
-**Q2**: Your opponent re-hooks your leg during the backstep—what adjustment is needed?
-**A**: Increase the arc of your backstep by stepping further behind and wider, creating more distance between your leg and their hooking range. Simultaneously use your free hand to push their hooking leg downward at the knee, preventing the instep from catching your calf. If they consistently re-hook, the issue is typically an insufficiently wide backstep arc or failure to actively control their hooking leg with your hands during the transition. Address both the step depth and add active hand control on their knee.
-
-**Q3**: What is the critical weight transfer sequence during the backstep?
-**A**: Weight must shift from dual-leg base to the posting leg before the backstep begins, creating a stable single-leg platform. During the step, your center of gravity stays over the posting foot—never drifting forward or backward. As the stepping leg lands and clears the hook, weight redistributes into Headquarters triangular base with pressure driving through both legs and the shin across the bottom player's thigh. The key error is allowing weight to drift forward during the step, which feeds directly into sweeps.
-
-**Q4**: How does the backstep differ when the RDLR hook is deep around the thigh versus shallow on the calf?
-**A**: A deep thigh hook requires a wider, more exaggerated backstep arc because the hook has greater mechanical purchase and is harder to clear with a small step. You may need to step almost 180 degrees behind the bottom player's leg. A shallow calf hook can be cleared with a tighter, quicker backstep since the hook has less purchase, but the bottom player can re-hook more easily—so speed and immediate Headquarters establishment become more important than step width for shallow hooks.
-
-**Q5**: The bottom player begins rotating their shoulders toward the mat as you backstep—what does this indicate and how do you respond?
-**A**: Shoulder rotation toward the mat indicates a berimbolo or crab ride entry attempt. The bottom player is using your backstep momentum to facilitate their inversion underneath you. Immediately drive your chest forward and down toward their hips to eliminate the space they need for the inversion. Use your cross-face grip to turn their head away from the rotation direction. If they are already partially inverted, switch to a body lock around their torso to pin them flat and eliminate rotational capacity entirely.
-
-**Q6**: What grip configuration provides the best upper body control during the backstep?
-**A**: A cross-face with your lead hand is the most effective single grip because it controls the bottom player's head direction and prevents the shoulder rotation needed for inversions. The cross-face should drive their chin away from you, limiting their ability to turn into berimbolo or kiss of the dragon entries. In gi, a collar grip on the same side adds additional rotational control. Your other hand should be free to manage the ankle grip strip and then control the freed leg during Headquarters establishment.
-
-**Q7**: After completing the backstep and reaching Headquarters, what determines your next passing direction?
-**A**: Read the bottom player's immediate defensive response: if they turn toward the trapped leg and attempt to recover half guard, drive through with a knee cut. If they extend their legs to create distance with foot-on-hip frames, redirect to leg drag or toreando. If they attempt deep half entry by diving under your base, backstep further or transition to body lock. If they are flat and passive, apply systematic Headquarters pressure through any preferred passing lane. Remain in Headquarters long enough to read their reaction before committing to a direction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for RDLR Backstep Counter?</p>
 
 The RDLR Backstep Counter carries moderate knee stress risk for both players. The top player should avoid explosive twisting motions during the backstep that could strain the knee of the hooked leg under rotational load. The bottom player's knee is vulnerable if the backstep compresses their RDLR hook against the mat at an awkward angle. Both practitioners should communicate if they feel knee pressure during drilling, and the top player should step around hook resistance rather than driving through it with force.
 

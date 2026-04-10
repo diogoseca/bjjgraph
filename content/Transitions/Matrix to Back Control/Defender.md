@@ -154,6 +154,8 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Matrix to Back Control?</p>
+
 - Feeling the opponent's chest staying connected to your back during the rotation rather than pulling away or resisting with sprawl pressure
 - Sensing the opponent's weight moving in the same rotational direction as your Matrix roll instead of opposing it
 - The opponent's hips following your hip path during the inversion rather than staying stationary or retreating
@@ -166,6 +168,8 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Matrix to Back Control?</p>
 
 - Recognize the follow-through counter early through feeling the opponent's weight matching your rotation rather than resisting it
 - Maintain the ability to abort the Matrix at any point before full commitment to avoid exposing your back to a following opponent
@@ -180,6 +184,8 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Matrix to Back Control?</p>
 
 ### 1. Abort Matrix and return to turtle before rotation gains momentum
 
@@ -217,6 +223,8 @@ As the defender in this scenario, you are the bottom player whose Matrix rolling
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Matrix to Back Control?</p>
+
 ### → [[Positions/Matrix]]
 
 Abort the Matrix early upon sensing the follow-through counter, return to starting position, and immediately transition to an alternative attack such as arm drag or conventional rolling back take that the opponent is not prepared for
@@ -232,6 +240,8 @@ Redirect rotational momentum into guard recovery by pulling knees to chest, esta
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Matrix to Back Control?</p>
 
 ### 1. Completing the Matrix rotation despite sensing the follow-through counter
 
@@ -261,6 +271,8 @@ Redirect rotational momentum into guard recovery by pulling knees to chest, esta
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Matrix to Back Control?</p>
+
 **Phase 1: Recognition Sensitivity** - Distinguishing follow-through from sprawl defense
 Partner randomly alternates between sprawl defense and follow-through counter during slow Matrix attempts. Practitioner identifies which response is occurring and calls it out during the first quarter of the rotation. Build tactile sensitivity to the difference between resistance and matching movement.
 
@@ -277,26 +289,6 @@ Live positional sparring where practitioner uses Matrix feints combined with rea
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary tactile cue that distinguishes a follow-through counter from a standard sprawl defense?
-**A**: In a sprawl defense, you feel the opponent's weight pushing downward and backward against your rotation, creating resistance that your momentum must overcome. In a follow-through counter, you feel the opponent's chest staying connected and their weight moving with your rotation in the same direction. The absence of resistance is the key indicator: the opponent feels light and connected rather than heavy and opposing. This distinction must be recognized within the first quarter of the rotation.
-
-**Q2**: Why is aborting the Matrix and accepting a reset position preferable to completing it against a following opponent?
-**A**: Completing the Matrix against a following opponent almost guarantees they arrive at your back with hooks and seatbelt because your own rotation delivers them there. Aborting returns you to a neutral starting position where you can reattempt with better timing or switch to alternative attacks. The risk-reward calculation heavily favors the abort: reset costs you nothing but time and energy, while completing against a follower costs you a four-point position and immediate submission danger.
-
-**Q3**: Your opponent follows your Matrix rotation and you feel them arriving at your back mid-roll - what is your immediate priority?
-**A**: Your immediate priority is preventing hook insertion by pinching your elbows tight to your body and drawing your knees toward your chest. This defensive posture creates barriers to both hook entry and seatbelt establishment. Simultaneously, redirect any remaining rotational momentum toward pulling your knees through to establish guard rather than continuing the back take path. Accepting half guard is far preferable to conceding full back control with hooks.
-
-**Q4**: How should you modify your Matrix game once you know your opponent has the follow-through counter?
-**A**: Vary your Matrix timing and entry angle to prevent the opponent from anticipating the rotation. Develop feints where you show Matrix indicators but transition to alternative attacks like arm drags or conventional rolling back takes. Mix Matrix attempts with techniques from the same starting position to make the entry unpredictable. The follow-through counter requires the opponent to commit to following, so false Matrix entries can create openings for other attacks when they commit to the follow.
-
-
-
-</section>
 
 
 </main>

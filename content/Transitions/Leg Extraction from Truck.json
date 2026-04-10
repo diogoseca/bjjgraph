@@ -77,7 +77,7 @@
       "relationship": "Alternative escape using shrimping to reach half guard"
     },
     {
-      "name": "Calf Slicer from Truck",
+      "name": "Calf Slicer",
       "relationship": "Submission threat that increases during leg extraction attempts"
     },
     {
@@ -275,6 +275,14 @@
       {
         "question": "Your extraction attempt partially loosens the entanglement but fails to fully free the leg—what should you do next?",
         "answer": "Do not reset to the starting position. The partial loosening has created improved angles for subsequent escape attempts. Immediately chain into a granby roll using the space created by the partial extraction, or execute a hip escape to compound the distance gained. Each failed but partially successful escape attempt improves the conditions for the next technique in the chain. Returning to static defense after partial progress wastes the positional gains achieved."
+      },
+      {
+        "question": "What grip configuration should you maintain with your hands during the extraction process?",
+        "answer": "Keep at least one hand near your neck at all times defending against twister grips and choke attempts. The free hand alternates between fighting the boot off your hip and assisting with leg extraction by pushing against the opponent's controlling leg. Never commit both hands to leg work simultaneously, as this leaves the neck completely undefended against the twister, which can cause catastrophic spinal injury with minimal setup time once the grip is secured."
+      },
+      {
+        "question": "How do you identify whether the opponent's entanglement controls primarily at the ankle or the knee?",
+        "answer": "Use proprioceptive feedback by testing small movements in different directions. If ankle rotation meets immediate resistance but the knee can shift slightly outward, the entanglement controls the ankle and lower calf, favoring the ankle rotation extraction variant. If the ankle has some freedom but the knee is locked in position by the figure-four, the control targets the knee, favoring the hip rotation variant. This assessment determines which extraction variant has the highest probability of success and should be performed before committing energy to extraction attempts."
       }
     ],
     "safety_considerations": "The truck position threatens the twister (cervical spine lock) and calf slicer (knee joint compression), both of which can cause serious injury with minimal warning before damage occurs. During extraction practice, always tap immediately if you feel rotational pressure on your cervical spine or significant compression on the knee joint. The calf slicer risk actually increases during extraction attempts as the changing leg angles can accelerate compression. Partners should apply submissions slowly during extraction drilling and communicate clearly about pressure levels. Begin all training with static drilling before progressing to resistance. Never sacrifice neck protection for leg work."

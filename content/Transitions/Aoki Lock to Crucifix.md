@@ -28,7 +28,7 @@ From a strategic perspective, this transition follows the principle of using sub
 
 The crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.
 
-**From Position**: [[Positions/Aoki Lock]] (Top)
+**From Position**: [[Positions/Aoki Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -40,7 +40,7 @@ The crucifix destination represents a significant positional upgrade from Aoki L
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Crucifix]] | 65% |
-| Failure | [[Positions/Aoki Lock]] | 25% |
+| Failure | [[Positions/Aoki Lock Control]] | 25% |
 | Counter | [[Positions/Turtle]] | 10% |
 
 
@@ -200,7 +200,7 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 ## Related Techniques
 
 
-- [[Positions/Aoki Lock]] - Starting position for this transition
+- [[Positions/Aoki Lock Control]] - Starting position for this transition
 
 - [[Positions/Crucifix]] - Target position achieved on success
 
@@ -210,7 +210,7 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 
 - [[Transitions/Back Control to Crucifix]] - Related crucifix entry from different starting position
 
-- [[Transitions/Choke from Crucifix]] - Primary follow-up submission from crucifix position
+- [[Submissions/Choke from Crucifix]] - Primary follow-up submission from crucifix position
 
 - [[Transitions/Armbar from Crucifix]] - Secondary follow-up submission from crucifix position
 
@@ -218,7 +218,7 @@ The Aoki Lock to Crucifix transition sits within the advanced turtle and back at
 
 - [[Positions/Kimura Trap]] - Related shoulder control system with transition options
 
-- [[Transitions/Aoki Lock Finish]] - Alternative outcome when choosing to finish rather than transition
+- [[Transitions/Aoki Lock]] - Alternative outcome when choosing to finish rather than transition
 
 
 </section>

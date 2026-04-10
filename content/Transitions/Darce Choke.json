@@ -15,7 +15,7 @@
   "from_position": "Darce Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Darce Choke",
       "probability": 65,
       "result": "success"
     },

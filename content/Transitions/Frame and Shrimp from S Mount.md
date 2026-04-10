@@ -208,7 +208,7 @@ The Frame and Shrimp from S Mount connects the mount escape system to the half g
 
 - [[Transitions/Trap and Roll from S Mount]] - Alternative escape technique - reversal-based approach using opponent's weight against them
 
-- [[Submissions/Armbar from S Mount]] - Primary submission threat - the attack that motivates this escape
+- [[Transitions/Mount to Armbar]] - Primary submission threat - the armbar attack that motivates this escape
 
 - [[Positions/Armbar Control]] - Counter outcome position - where opponent ends up if they capitalize on failed escape
 

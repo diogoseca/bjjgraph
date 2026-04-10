@@ -98,7 +98,7 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (40% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (15% of attempts)
+- **[[Omoplata from Rubber Guard/Attacker|Omoplata from Rubber Guard]]** (15% of attempts)
 
 - **[[Transitions/Mission Control Entry from Rubber Guard/Attacker|Mission Control Entry from Rubber Guard]]** (12% of attempts)
 

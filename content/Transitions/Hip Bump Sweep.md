@@ -199,7 +199,7 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 ## Related Techniques
 
 
-- [[Submissions/Kimura from Guard]] - Primary chain attack - used when opponent posts to defend Hip Bump
+- [[Transitions/Kimura Sweep]] - Primary chain attack - used when opponent posts to defend Hip Bump, transitioning to Kimura grip
 
 - [[Transitions/Guillotine Choke]] - Secondary chain attack - used when opponent pulls arm back to defend Kimura
 
@@ -207,11 +207,11 @@ The Hip Bump Sweep is part of the fundamental closed guard attack system and ser
 
 - [[Transitions/Pendulum Sweep]] - Alternative sweep - works when opponent's weight is distributed differently
 
-- [[Submissions/Triangle from Closed Guard]] - Alternative attack from broken posture sharing similar setup conditions
+- [[Transitions/Closed Guard to Triangle]] - Alternative attack from broken posture sharing similar setup conditions
 
-- [[Submissions/Omoplata from Guard]] - Alternative attack - can be chained when Hip Bump is defended
+- [[Transitions/Closed Guard to Omoplata]] - Alternative attack - can be chained when Hip Bump is defended
 
-- [[Submissions/Armbar from Guard]] - Alternative attack - works from similar posture-broken position
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Alternative attack from closed guard exploiting similar posture-broken position
 
 - [[Transitions/Flower Sweep]] - Related sweep sharing mechanical principles with the Hip Bump
 

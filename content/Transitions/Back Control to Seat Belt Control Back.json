@@ -95,12 +95,12 @@
       "relationship": "Complementary back attack that benefits from seat belt control structure"
     },
     {
-      "name": "RNC from Seat Belt",
-      "relationship": "Direct submission finish enabled once seat belt grip is fully established"
+      "name": "Rear Naked Choke Setup",
+      "relationship": "Setup transition connecting established seat belt grip to rear naked choke attack sequence"
     },
     {
-      "name": "Bow and Arrow from Seat Belt",
-      "relationship": "Gi-based submission option available from established seat belt position"
+      "name": "Bow and Arrow Choke",
+      "relationship": "Gi-based submission attack available from established seat belt position"
     },
     {
       "name": "Crucifix",

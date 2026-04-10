@@ -154,6 +154,8 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag from DLR?</p>
+
 - Passer strips your ankle or pants grip and immediately re-grips your pants at the knee or ankle with both hands, establishing the double-leg control needed for the drag
 - Passer begins circling their trapped leg backward to clear your DLR hook while maintaining strong control of your lower legs
 - Passer's hips start rotating toward the drag side as they pull your leg laterally across your body rather than engaging forward
@@ -166,6 +168,8 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag from DLR?</p>
 
 - Prevent the controlling ankle grip from being established—this is the single most important defensive action against the leg drag
 - Maintain constant DLR hook tension to make hook clearing difficult and create sweep threats that discourage the drag attempt
@@ -180,6 +184,8 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag from DLR?</p>
 
 ### 1. Re-establish DLR hook by immediately re-threading your leg before the drag is completed
 
@@ -217,6 +223,8 @@ Defending the leg drag from DLR requires early recognition and proactive prevent
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag from DLR?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Maintain active grip fighting to deny the passer's controlling ankle or pants grips. Keep constant hook tension and threaten sweeps to make the drag risky. If the hook is stripped, immediately re-thread your foot behind their knee before the leg is redirected across your body.
@@ -232,6 +240,8 @@ Time a sweep during the passer's weight transition as they step around for the d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag from DLR?</p>
 
 ### 1. Allowing the ankle grip to be stripped without immediately re-gripping or transitioning to another guard
 
@@ -261,6 +271,8 @@ Time a sweep during the passer's weight transition as they step around for the d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag from DLR?</p>
+
 **Phase 1: Recognition** - Identifying drag entries and grip changes early
 Partner initiates leg drag from DLR at half speed while you practice identifying the grip changes and positional cues that signal the drag attempt. Call out the recognition cue verbally before the drag begins. 20 repetitions focusing on perceptual speed.
 
@@ -277,26 +289,6 @@ Partner attempts full leg drags while you practice timing sweeps during their we
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a leg drag from DLR is being initiated?
-**A**: The earliest cue is the passer stripping your ankle or pants grip and immediately re-gripping both of your pant legs at the knee or ankle level. This double-leg grip is the prerequisite for the drag—without it, they cannot redirect your leg across your body. When you feel both grips being established simultaneously, begin your defensive response immediately rather than waiting for the hook to be cleared.
-
-**Q2**: Your DLR hook has been cleared and your leg is being pulled across—what is the highest-percentage defensive action at this point?
-**A**: At this stage, re-establishing the DLR hook is unlikely to succeed. Your highest-percentage option is to hip escape in the direction of the drag while inserting your far knee as a shield between you and the passer. This prevents them from establishing the hip-to-hip pressure that completes the control position. Even ending up in half guard rather than DLR is a successful defense—you have prevented full leg drag consolidation and maintained a guard with offensive options.
-
-**Q3**: How does your defensive approach change when the passer chains a toreando attempt into a leg drag?
-**A**: When the passer transitions from toreando to leg drag, they change the direction of their pass. Your defensive frames and hip angle from defending the toreando will be oriented in the wrong direction for the drag. The key adjustment is to immediately redirect your hip escape to match the new passing direction. Your hands should prioritize controlling the passer's sleeve on the drag side to prevent the step-around. Anticipating this chain by maintaining centerline hip positioning rather than fully committing to one defensive angle is the most effective preventive measure.
-
-**Q4**: What role does your free non-DLR leg play in preventing the leg drag completion?
-**A**: Your free leg is your primary physical barrier against the drag completion. It should be actively placed on the passer's hip on the drag side, acting as a frame that prevents them from stepping around. If they push through this frame, convert it into a butterfly hook or knee shield that creates a secondary defensive structure. A passive or dangling free leg offers zero resistance to the step-around and guarantees the drag completes unopposed.
-
-
-
-</section>
 
 
 </main>

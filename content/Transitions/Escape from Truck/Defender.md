@@ -164,6 +164,8 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape from Truck?</p>
+
 - Bottom player's free hand moves from neck protection toward your boot foot on their hip, indicating they are beginning boot clearing sequence
 - Bottom player elevates hips and posts their free leg, creating the base needed for granby roll or hip escape initiation
 - Bottom player tucks their head and loads weight onto their shoulder, the preparatory position for granby roll execution
@@ -175,6 +177,8 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape from Truck?</p>
 
 - Maintain constant boot pressure as the foundation of all truck control even during submission attempts
 - Recognize escape initiation cues early to counter before the escape sequence develops momentum
@@ -189,6 +193,8 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape from Truck?</p>
 
 ### 1. Increase boot pressure and flatten bottom player with chest weight
 
@@ -226,6 +232,8 @@ Your defensive strategy centers on maintaining the integrity of your control lay
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape from Truck?</p>
+
 ### → [[Positions/Twister Control/Truck]]
 
 Maintain boot pressure and leg entanglement by recognizing escape attempts early and increasing control before the escape develops momentum. Counter hand fighting on the boot by driving boot deeper and adding chest pressure to flatten the bottom player.
@@ -241,6 +249,8 @@ When truck maintenance becomes untenable due to successful boot clearing or leg 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape from Truck?</p>
 
 ### 1. Losing boot pressure while focused on upper body submissions like the twister
 
@@ -270,6 +280,8 @@ When truck maintenance becomes untenable due to successful boot clearing or leg 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape from Truck?</p>
+
 **Phase 1: Recognition** - Identifying escape attempt initiation cues
 Partner attempts escape sequences from truck bottom at slow speed (30-40% pace). Practice recognizing the four primary cues: hand moving to boot, hip elevation, head tuck for granby, and ankle circling for leg extraction. Call out each cue as you see it without countering yet.
 
@@ -283,29 +295,6 @@ Full positional sparring from truck with focus on maintaining dominant position 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What visual cue indicates the bottom player is about to attempt a granby roll escape from truck?
-**A**: The bottom player will post their free hand on the mat near their shoulder, tuck their head tight to their chest, and begin loading weight onto their upper back and shoulder in preparation for the roll. They may also rotate their hips upward to generate rotational momentum. Recognizing these preparatory movements allows you to increase boot pressure, flatten them with chest weight, or transition to back control before the roll initiates.
-
-**Q2**: How should you adjust your control when you feel the bottom player beginning to fight your boot on their hip?
-**A**: Increase boot pressure by driving your foot deeper into their hip and adding forward chest pressure to flatten them and restrict their hand fighting range. If they continue fighting the boot despite increased pressure, consider immediately transitioning to a submission attack like the calf slicer or twister to punish the hand fighting, or begin transitioning to back control to capitalize on their defensive focus.
-
-**Q3**: What is the primary risk when the bottom player successfully clears your boot from their hip?
-**A**: Without boot pressure, your ability to generate torque and maintain the perpendicular control angle is severely compromised. The bottom player can now rotate their hips freely, extract their trapped leg much more easily, and initiate escape rolls that you cannot resist through leg entanglement alone. You should immediately either re-establish boot pressure, transition to back control by inserting hooks, or commit to a submission before they complete the escape.
-
-**Q4**: Your opponent begins extracting their trapped leg from the entanglement - what should you prioritize?
-**A**: Prioritize maintaining the leg entanglement by squeezing your controlling leg tighter and adjusting your hook position to close the space they created. If extraction seems inevitable, immediately transition to a calf slicer attack using their partially extended leg as leverage, or abandon leg control entirely and transition to back control by establishing hooks and seatbelt grip before they achieve full guard recovery.
-
-**Q5**: When should you abandon truck maintenance and transition to back control instead?
-**A**: Transition to back control when you cannot maintain boot pressure despite adjustments, your leg entanglement is loosening and leg extraction appears imminent, or the bottom player has successfully cleared one major control point and is progressing through their escape sequence. Back control preserves your dominant position and scoring potential rather than risking a complete loss of control from a deteriorating truck position.
-
-
-
-</section>
 
 
 </main>

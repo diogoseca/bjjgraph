@@ -167,6 +167,8 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 ## Position Definition
 
+<p class="section-subtitle">What is Z-Lock Half Guard (Top)?</p>
+
 - Top player's knee positioned across opponent's hip, creating lateral pressure that prevents hip movement and knee shield recovery, with shin forming characteristic 'Z' shape across lower body
 - Bottom leg of opponent trapped between top player's legs in half guard configuration, but without lockdown control due to Z-lock preventing ankle connection
 - Top player's shoulder driving into opponent's chest or face, creating heavy forward pressure that flattens bottom player and restricts upper body mobility
@@ -179,6 +181,8 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Z-Lock Half Guard (Top)?</p>
 
 - Successful half guard entry from side control, mount, or passing sequence
 - Recognition of lockdown threat or knee shield attempt by bottom player
@@ -194,6 +198,8 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Z-Lock Half Guard?</p>
+
 - Maintain heavy shoulder pressure driving into opponent's upper body to prevent posture and frame creation
 - Keep knee tight across opponent's hip with shin creating lateral pressure that blocks hip escape patterns
 - Distribute weight through hips and shoulder rather than hands to maintain constant pressure while preserving mobility
@@ -208,6 +214,8 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Z-Lock Half Guard (Top)?</p>
 
 **If opponent attempts to recover knee shield or establish inside frames:**
 - Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 70%)
@@ -236,6 +244,8 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Z-Lock Half Guard?</p>
 
 ### 1. Posting weight on hands instead of driving through hips and shoulder
 
@@ -275,6 +285,8 @@ From a strategic perspective, Z-Lock Half Guard Top serves as a transitional con
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Z-Lock Half Guard attacks?</p>
+
 ### Z-Lock Entry and Maintenance Drill
 
 Start from standard half guard top with partner using lockdown or knee shield. Practice transitioning into Z-lock position by stepping knee across hip while maintaining shoulder pressure. Partner provides 50% resistance. Focus on smooth entry, proper weight distribution, and maintaining lock even as partner attempts to recover position. Work for 5-minute rounds.
@@ -296,7 +308,7 @@ Start in Z-lock with partner defending. As partner turns away from pressure (com
 **Duration**: 4 minutes per round, 4 rounds
 
 
-### Grip Fighting and Frame Denial from Z-Lock
+### Grips and Frame Denial from Z-Lock
 
 Establish Z-lock position. Partner attempts to create frames, recover underhooks, or establish defensive grips using their hands. Practice neutralizing these attempts through crossface control, grip stripping, and positional adjustments. Focus on maintaining constant pressure while staying mobile enough to address grip fighting.
 
@@ -307,38 +319,6 @@ Establish Z-lock position. Partner attempts to create frames, recover underhooks
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins bridging explosively while you're in Z-Lock Half Guard Top - what immediate adjustment maintains control?
-**A**: When opponent bridges, drive your weight forward and low rather than posting on hands. Increase shoulder pressure into their chest while keeping hips heavy on their trapped leg. Use your posted leg to widen base in direction of the bridge. The key is staying connected and heavy rather than lifting up to regain balance, which creates the space they need to escape.
-
-**Q2**: What are the three primary contact points you must maintain to retain Z-Lock Half Guard Top position?
-**A**: The three essential contact points are: (1) shoulder driving into opponent's chest or face creating upper body pressure, (2) knee positioned across opponent's hip with shin creating the characteristic Z-shape blocking hip movement, and (3) your hips driving weight into their trapped leg. Losing any of these three points significantly compromises the position and opens escape opportunities.
-
-**Q3**: How do you shut down an opponent's primary escape - the underhook recovery - from Z-Lock Half Guard Top?
-**A**: Prevent underhook recovery by controlling opponent's inside arm with your nearside hand, keeping their elbow pinned to their ribs or controlled at the wrist. If they begin threading their arm, immediately swim your arm over theirs to establish your own underhook, or drive crossface pressure that flattens their shoulder to the mat. The underhook battle is won through anticipation - address it before they fully establish rather than fighting an established underhook.
-
-**Q4**: Which grips take priority when maintaining Z-Lock Half Guard Top in no-gi versus gi scenarios?
-**A**: In no-gi, prioritize wrist control on their inside arm and head-arm control through crossface or underhook position. In gi, add collar grip options - a deep cross-collar grip provides excellent posture control while sleeve grips limit their framing ability. Regardless of attire, controlling the inside arm remains highest priority as this prevents both underhook recovery and effective frames.
-
-**Q5**: How should you apply pressure through your body weight in Z-Lock Half Guard Top without gassing yourself out?
-**A**: Effective pressure application comes from skeletal alignment rather than muscular tension. Drive weight through your shoulder bone into their chest and let your hips sink heavy onto their trapped leg. Keep hands light for grip adjustments rather than supporting weight. Your head should be low and heavy, letting gravity do the work. This structural pressure is sustainable for extended periods while constant muscular squeezing leads to rapid fatigue.
-
-**Q6**: Your opponent manages to create a knee shield frame despite your Z-Lock position - what sequence recovers dominant pressure?
-**A**: When opponent establishes knee shield, first control their shield knee by gripping behind it with your free hand. Drive the knee to the mat while maintaining shoulder pressure on their upper body. As the knee clears, immediately re-establish your Z-lock positioning with your knee across their hip before they can recreate the frame. The key is addressing the knee shield while never losing upper body pressure that prevents them from turning into you.
-
-**Q7**: How do you manage energy expenditure when opponent is actively hand-fighting and creating defensive frames from bottom?
-**A**: Rather than constantly fighting their hands, use positional pressure to make their frames ineffective. Heavy shoulder pressure limits how much their frames can create space. Strip grips methodically using short, efficient movements rather than extended arm wrestling. When they exhaust energy creating frames that don't move you, they'll slow down. Stay patient with steady pressure rather than bursts of explosive effort that drain your cardio equally.
-
-**Q8**: Your opponent nearly escapes by turning away from you - how do you recover the Z-Lock position rather than transitioning?
-**A**: If committed to recovering Z-Lock rather than taking the back, immediately drive your shoulder back into their chest while pulling with your underhook or overhook to turn them flat. Re-establish your knee across their hip by circling it back into position as you flatten them. The window for recovery is brief - if they complete the turn to turtle, you're better served transitioning to turtle attacks rather than forcing them flat again. Prevention through heavy pressure is easier than recovery.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

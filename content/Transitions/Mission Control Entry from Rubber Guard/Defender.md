@@ -154,6 +154,8 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mission Control Entry from Rubber Guard?</p>
+
 - Bottom player's same-side arm begins moving away from your head or wrist, reaching toward their own elevated leg
 - Pronounced upward hip pop creating temporary space between the elevated shin and your back
 - Increased pulling pressure on your head from the remaining hand just before the grip switch, signaling the setup
@@ -166,6 +168,8 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mission Control Entry from Rubber Guard?</p>
 
 - The grip transition is your escape window: the moment the bottom player releases one grip to reach for their shin is when you have maximum defensive opportunity
 - Posture maintenance is your primary weapon: keeping your head above your hips prevents the posture break that enables Mission Control
@@ -180,6 +184,8 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mission Control Entry from Rubber Guard?</p>
 
 ### 1. Posture recovery during grip transition
 
@@ -217,6 +223,8 @@ From the defender's (top player's) perspective, the Mission Control entry repres
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mission Control Entry from Rubber Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time your arm extraction to coincide with the grip transition vulnerability window. When the bottom player releases head control to reach for their shin, use a circular arm pull toward your hip while simultaneously posting your free hand on their opposite hip. Drive backward to create distance as the arm clears the leg. The combined arm extraction and posture recovery should break the rubber guard structure entirely.
@@ -232,6 +240,8 @@ Prevent the Mission Control lock by maintaining aggressive posture recovery pres
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mission Control Entry from Rubber Guard?</p>
 
 ### 1. Failing to recognize the grip transition and allowing Mission Control to lock in uncontested
 
@@ -266,6 +276,8 @@ Prevent the Mission Control lock by maintaining aggressive posture recovery pres
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mission Control Entry from Rubber Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying entry cues and timing windows
 Partner establishes rubber guard and repeatedly initiates Mission Control entries at varying speeds. Defender focuses solely on recognizing the grip transition moment without attempting any escape. Call out the moment you feel the transition begin. Build pattern recognition through repetition until you can consistently identify the entry within the first half-second of initiation.
 
@@ -282,26 +294,6 @@ Positional sparring starting in rubber guard with full resistance. Defender atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary recognition cue that the bottom player is initiating the Mission Control entry?
-**A**: The primary cue is feeling one grip release from your head or neck as the bottom player's arm begins moving toward their elevated leg. This is often preceded by an increased pulling force on your head from the remaining hand (the bottom player deepens the posture break before switching) and a pronounced upward hip pop that creates space under the elevated shin. Recognizing this sequence gives you approximately one to two seconds to execute your defensive response.
-
-**Q2**: Why is the grip transition moment the defender's best opportunity for escape?
-**A**: During the grip transition, the bottom player temporarily reduces their control from two points (both hands on your head and arm) to one point (single hand maintaining posture break). This halving of control creates the widest vulnerability window in the entire rubber guard system. Before this moment, both hands restrict your movement. After this moment, the locked Mission Control provides even stronger control than the original two-hand grip. The transition itself is the control minimum.
-
-**Q3**: Your opponent has begun threading their arm under their leg but the shin grip is not yet secured - what is your optimal defensive action?
-**A**: This is the ideal moment for arm extraction because the bottom player's threading arm is occupied and cannot assist in maintaining arm isolation. Execute a circular arm pull toward your hip while simultaneously driving your free hand frame against their opposite hip to create separation. The bottom player cannot adjust the elevated leg (their arm is partially under it) and cannot use the threading hand to prevent your extraction. This two-second window is the highest-percentage escape opportunity.
-
-**Q4**: How should you adjust your defense if the opponent successfully locks in Mission Control?
-**A**: Once Mission Control is established, shift to a systematic escape protocol rather than panicked reactions. First, protect your neck by keeping your chin tight and preventing deep head control with your free hand. Second, begin gradual posture recovery through small progressive weight shifts backward. Third, fight the head control grips constantly with your free hand. Fourth, work toward arm extraction only after achieving partial posture recovery. Accept that escape from locked Mission Control is a process requiring patience, not a single explosive movement.
-
-
-
-</section>
 
 
 </main>

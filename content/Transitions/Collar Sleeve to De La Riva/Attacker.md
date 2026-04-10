@@ -188,6 +188,8 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Collar Sleeve to De La Riva?</p>
+
 - Maintain at least one controlling grip throughout the entire transition to prevent the opponent from disengaging or passing during the switch
 - Time the hook insertion to coincide with the opponent's weight commitment to their lead leg, making extraction difficult
 - Convert grips in sequence rather than simultaneously to avoid a control gap where no grips are active
@@ -202,6 +204,8 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Collar Sleeve to De La Riva?</p>
+
 - Established cross-collar grip with four fingers deep inside the opponent's collar providing posture control
 - Same-side sleeve grip at the wrist or forearm controlling the opponent's ability to post
 - Opponent standing or transitioning from kneeling to standing, presenting their lead leg for hook insertion
@@ -214,6 +218,8 @@ As the attacker executing this transition, your objective is to smoothly convert
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Collar Sleeve to De La Riva step by step?</p>
 
 1. **Recognize the trigger**: Identify when the opponent stands or begins posturing up from kneeling. This is your transition cue. Their lead leg will be the one closest to your sleeve-grip side, bearing most of their weight as they rise. Do not attempt this transition while the opponent remains on both knees with low posture.
 2. **Create angle with hip escape**: Hip escape slightly toward the sleeve-grip side, angling your body approximately 30-45 degrees relative to the opponent. This angle is essential because it positions your outside leg (the leg that will become the DLR hook) on the correct trajectory to thread around their lead leg. Without this angle, the hook insertion requires excessive flexibility and is easily blocked.
@@ -243,6 +249,8 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Collar Sleeve to De La Riva?</p>
+
 - **Opponent backsteps to extract the leg before the hook fully sets** (Effectiveness: High) - Your Response: Follow their backstep with your hips, maintaining collar or ankle contact. If the hook is partially cleared, immediately re-insert it or transition to reverse De La Riva on their other leg. The key is keeping at least one grip connected so they cannot fully disengage. → Leads to [[Positions/Collar Sleeve Guard]]
 - **Opponent drops knee to the mat and drives forward with heavy pressure before you can thread the hook** (Effectiveness: High) - Your Response: Abandon the DLR transition and revert to collar sleeve guard structure. Use your existing grips to frame and manage the pressure. The collar pull becomes effective again when they drop to their knees, so you return to your starting position with full attacking capability. → Leads to [[Positions/Collar Sleeve Guard]]
 - **Opponent strips the ankle grip during conversion and initiates a toreando or leg drag pass** (Effectiveness: Medium) - Your Response: If your hook is set even without the ankle grip, maintain hook tension and re-grip the ankle or pants immediately. If both hook and ankle grip are compromised, use your collar grip to pull them off-balance while recovering your feet to their hips to rebuild guard structure. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this transition, your objective is to smoothly convert
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Collar Sleeve to De La Riva?</p>
 
 ### 1. Releasing both grips simultaneously during the transition
 
@@ -293,6 +303,8 @@ As the attacker executing this transition, your objective is to smoothly convert
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Collar Sleeve to De La Riva (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook insertion path and grip conversion sequence
 Partner stands still in your collar sleeve guard. Practice the hip escape angle, hook threading motion, and grip conversion from sleeve to ankle in isolation. Perform 20 repetitions per side focusing on smooth, sequential grip changes with no gap in control. No resistance.
 
@@ -313,42 +325,12 @@ Partner specifically trains to counter the transition using backsteps, knee drop
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals you should transition from collar sleeve guard to De La Riva guard?
-**A**: The primary trigger is the opponent standing up or committing weight to their lead leg from your collar sleeve guard. When the opponent stands, the collar pull loses effectiveness because the distance increases and their posture straightens. De La Riva guard exploits standing posture through the hook's leverage on the knee and hip, making it the superior guard choice against upright opponents. Without this standing trigger, staying in collar sleeve guard is usually more effective.
-
-**Q2**: Why must you hip escape before threading the De La Riva hook, and what angle should you create?
-**A**: The hip escape creates approximately 30-45 degrees of angle relative to the opponent, positioning your outside leg on the correct circular trajectory to thread around their lead leg. Without this angle, you must rely on excessive hip flexibility to wrap the hook, which results in a shallow, easily stripped hook with poor leverage. The angled position also puts your body in the optimal DLR configuration from the moment the hook sets, rather than needing to re-angle after insertion.
-
-**Q3**: Your opponent backsteps as you begin threading the DLR hook - how do you respond?
-**A**: Follow their backstep with your hips by scooting forward and maintaining at least your collar or ankle contact point. If the hook was partially inserted, re-thread it as they settle from the backstep. If they fully extract the leg, immediately evaluate whether their other leg is now the lead leg and consider inserting a reverse DLR hook instead. The critical principle is maintaining at least one grip connection throughout so they cannot fully disengage and reset to a passing position.
-
-**Q4**: What is the correct grip conversion sequence and why should you never release both grips simultaneously?
-**A**: Convert the sleeve grip to ankle control first while maintaining the collar grip throughout. Only after the ankle grip is secured and the hook is set with tension should you evaluate whether to maintain or convert the collar grip. Releasing both grips simultaneously creates a control vacuum where the opponent has complete freedom to pass, smash, or disengage. Even a half-second gap with no grips allows an experienced passer to initiate a sequence that is extremely difficult to recover from.
-
-**Q5**: What role does the non-hooking leg play during this transition?
-**A**: The non-hooking leg serves as the primary distance management tool throughout the transition. It frames on the opponent's far hip or bicep, preventing them from driving forward and smashing through the incomplete guard structure during the switch. Without this frame, the opponent can collapse the space needed for hook insertion. After the transition completes, this foot remains on the far hip as part of the standard DLR structure, controlling distance and providing a platform for off-balancing.
-
-**Q6**: How does this transition create immediate attacking options upon arriving in De La Riva guard?
-**A**: By arriving in DLR with active hook tension, an ankle grip pulling their base forward, and an upper body grip controlling their posture, you have immediate access to the full DLR attack tree. The retained collar grip opens sweeps and triangle entries. A belt grip opens berimbolo and waiter sweep pathways. The key is that proper execution means you arrive threatening rather than needing to rebuild control. The opponent faces immediate off-balancing pressure, preventing them from settling into a defensive passing posture.
-
-**Q7**: When should you abandon the transition and return to collar sleeve guard instead?
-**A**: Abandon the transition when the opponent drops back to their knees with low posture during your hook insertion attempt, when they strip both your collar and sleeve grips before you can establish replacement grips, or when they drive forward with heavy pressure that flattens your hips before the hook is set. In all these cases, the collar sleeve structure is more effective than a half-established DLR. Recognizing failure early and reverting cleanly is far better than forcing a compromised transition that results in guard pass.
-
-**Q8**: What distinguishes this transition from simply playing De La Riva guard from the start?
-**A**: This transition leverages the grip advantage already established in collar sleeve guard to arrive in DLR with superior control compared to establishing DLR from scratch. Starting in collar sleeve means you already control the opponent's posture and one arm, so the DLR you arrive in has pre-existing upper body control that a fresh DLR entry would need to fight for. This makes your initial DLR attacks higher percentage because the opponent is already partially off-balanced from your collar sleeve control rather than having had time to establish their preferred defensive posture.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Collar Sleeve to De La Riva?</p>
 
 This transition involves low injury risk as it is a positional guard switch rather than a submission or high-impact technique. However, care should be taken when threading the hooking leg to avoid catching the foot in the opponent's gi or belt, which could cause ankle or knee strain during dynamic movement. If the opponent aggressively backsteps while your hook is partially inserted, release the hook rather than holding on with a compromised angle, as the lateral force on a hooked knee with body weight can stress the medial collateral ligament. During drilling, both partners should communicate if the hook creates uncomfortable pressure behind the knee.
 

@@ -299,10 +299,6 @@
         "attempt_probability": 33
       },
       {
-        "transition": "Stack Pass",
-        "attempt_probability": 14
-      },
-      {
         "transition": "Leg Weave Pass",
         "attempt_probability": 10
       },
@@ -328,7 +324,7 @@
       },
       {
         "transition": "Stack Pass from Double Unders",
-        "attempt_probability": 3
+        "attempt_probability": 17
       },
       {
         "transition": "Toss Pass from Double Unders",

@@ -14,7 +14,7 @@
   "from_position": "Hindulotine/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Hindulotine",
       "probability": 55,
       "result": "success"
     },

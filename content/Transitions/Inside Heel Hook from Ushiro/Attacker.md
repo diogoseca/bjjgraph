@@ -186,6 +186,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inside Heel Hook from Ushiro?</p>
+
 - Adjust grip placement closer to your hip line rather than reaching across opponent's body due to reversed configuration
 - Generate rotational force by rotating your shoulders and torso away from the trapped heel rather than driving forward
 - Maintain constant inside leg control on opponent's thigh to prevent their escape or transition to turtle
@@ -200,6 +202,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inside Heel Hook from Ushiro?</p>
+
 - Established Ushiro Ashi-Garami position with opponent's leg trapped in reversed figure-four configuration
 - Inside leg controlling opponent's thigh deeply enough to prevent complete escape or saddle transition
 - Outside leg crossing over opponent's knee line to maintain entanglement integrity
@@ -212,6 +216,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inside Heel Hook from Ushiro step by step?</p>
 
 1. **Secure leg entanglement**: Confirm your inside leg is deeply controlling opponent's thigh while your outside leg crosses over their knee line. Your hips should be close to their trapped leg with no space for them to extract.
 2. **Control opponent's free leg**: Use your outside leg to actively press their free leg away from your center line. This prevents them from using it as a lever to complete rotation or enter counter-entanglement on your legs.
@@ -229,7 +235,7 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Inside Heel Hook]] | 55% |
 | Failure | [[Positions/Ashi Garami/Ushiro Ashi-Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -239,6 +245,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Inside Heel Hook from Ushiro?</p>
 
 - **Opponent continues rotation toward turtle to escape entanglement completely** (Effectiveness: High) - Your Response: Accelerate the finish before they complete rotation, or follow to back control if they escape the entanglement → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent boots out by straightening their leg to prevent heel exposure** (Effectiveness: Medium) - Your Response: Transition to ankle lock or kneebar on the straightened leg, or work to re-bend the knee by driving your hips forward → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
@@ -251,6 +259,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inside Heel Hook from Ushiro?</p>
 
 ### 1. Using standard heel hook grip positioning instead of adjusting for reversed configuration
 
@@ -285,6 +295,8 @@ Strategically, this submission capitalizes on opponents who have partially escap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inside Heel Hook from Ushiro (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice the adjusted grip positioning specific to ushiro configuration without partner resistance. Focus on understanding how the reversed position changes optimal hand placement and the direction of rotational force. Drill the heel trap against your torso repeatedly.
 
@@ -302,48 +314,12 @@ Full resistance positional sparring starting from ushiro ashi-garami. Partner at
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Inside Heel Hook from Ushiro?
-**A**: The primary goal is to finish the match by applying rotational force to the opponent's knee through the heel, causing them to submit before ligament damage occurs. The ushiro configuration requires specific grip and body positioning adjustments due to the reversed entanglement geometry.
-
-**Q2**: How does grip positioning differ between ushiro and standard inside ashi heel hooks?
-**A**: In ushiro, you position your grip closer to your own hip line rather than reaching across the opponent's body as in standard inside ashi. The reversed hip orientation changes the optimal angle for heel control, requiring more compact positioning with elbows squeezed together and the heel trapped against your chest or ribs.
-
-**Q3**: Your opponent starts rotating toward turtle as you establish your heel grip—what should you prioritize?
-**A**: You must make a split-second decision based on grip quality. If your heel grip is solid and the heel is properly trapped against your torso, accelerate the finish before they complete rotation. If your grip is weak or the heel isn't properly exposed, follow their rotation to back control rather than losing the position entirely for a low-percentage finish attempt.
-
-**Q4**: What direction should you rotate to finish the heel hook from ushiro?
-**A**: Rotate your shoulders and torso away from the opponent rather than driving forward into them as with standard ashi variations. The reversed configuration means the breaking force comes from rotating away while the heel stays trapped against your torso as a fixed fulcrum point.
-
-**Q5**: Why is inside leg control critical throughout the finishing sequence?
-**A**: Inside leg control on opponent's thigh prevents them from completing their escape to turtle or standing, and stops them from transitioning the position into something more favorable. Without maintained inside leg control, you may secure a grip but lose the positional control needed to actually finish the submission.
-
-**Q6**: What are the key indicators that you should transition to saddle instead of finishing from ushiro?
-**A**: Transition to saddle when opponent's defensive hand fighting repeatedly strips your heel grip, when their continued rotation makes finishing leverage progressively worse, when you've been working the finish for more than 4-5 seconds without progress, or when your outside leg control has degraded and they're close to escaping entirely.
-
-**Q7**: How do you prevent opponent counter-attacks on your legs during the finish?
-**A**: Use your outside leg to actively press their free leg away from your center line throughout the entire sequence. Monitor their free hand—if it reaches toward your legs rather than defending their heel, you must either accelerate your finish or address their developing leg entanglement. Never let their free leg get underneath your body.
-
-**Q8**: What creates the rotational breaking force in the ushiro heel hook?
-**A**: The breaking force comes from rotating your entire upper body as a unit—shoulders, torso, and hips moving together—while the opponent's heel remains trapped against your chest as a fixed fulcrum point. Arm strength alone is insufficient; the rotation must come from your core and involve your whole upper body turning away from the direction of the trapped heel.
-
-**Q9**: Your opponent straightens their trapped leg during your grip setup—how do you adjust?
-**A**: A straightened leg removes the heel hook angle but exposes the knee and ankle to alternative attacks. Drive your hips forward into their straightened leg to re-bend it at the knee, or immediately transition to a kneebar by controlling above the knee joint. If the straight ankle lock is available, attack the Achilles tendon instead. Do not waste time forcing the heel hook on a fully extended leg.
-
-**Q10**: What is the optimal timing window for initiating the heel hook finish from ushiro?
-**A**: The optimal window occurs during the opponent's transition between defensive priorities—specifically when they shift focus from heel protection to leg extraction or positional escape. Their hands momentarily leave heel defense to push on your legs or hips, exposing the heel for 1-2 seconds. A secondary window opens when they commit to rotation toward turtle, as their heel orientation temporarily favors your finishing grip before their hips clear your entanglement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inside Heel Hook from Ushiro?</p>
 
 The Inside Heel Hook from Ushiro is extremely dangerous and can cause severe, career-ending knee injuries including ACL, MCL, and meniscus tears. Damage occurs before pain is felt, making the 'tap early' principle critical. Never apply this technique explosively—use slow, controlled pressure and release IMMEDIATELY upon tap. In training, partners should tap at the first sensation of rotational pressure, not when they feel pain. Only practice with experienced training partners who understand leg lock safety protocols. Avoid this technique entirely on training partners with prior knee injuries. In competition, be prepared to release instantly even if the referee hasn't called the match. The reversed ushiro configuration can make tap signals harder to see—maintain visual or verbal contact with your partner throughout. Consider practicing with catch-and-release drilling before any resistance training.
 

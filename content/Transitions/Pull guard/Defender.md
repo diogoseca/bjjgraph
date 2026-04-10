@@ -154,13 +154,15 @@ description: "How to defend against Pull guard in BJJ. Recognition cues, defensi
 
 Defending against a guard pull requires the standing player to recognize the attempt early and exploit the inherent vulnerability of the transition. When your opponent initiates a guard pull, they are temporarily surrendering top position, breaking their own base, and committing their weight backward — all of which create windows for you to establish dominant top position or deny their guard entirely. The defender's primary objective is to prevent the puller from establishing their preferred guard configuration and instead impose immediate passing pressure or complete disengagement that forces a standing reset. Effective guard pull defense transforms what the opponent intends as a controlled transition into a scramble that favors the standing player. This requires a combination of grip denial, posture maintenance, forward pressure timing, and immediate passing mechanics that capitalize on the brief moment when the puller is most vulnerable — during the descent itself and the first two seconds after landing before their guard structure solidifies.
 
-**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Pull guard?</p>
 
 - Opponent secures strong collar-and-sleeve or double-sleeve grips and begins rounding their shoulders forward while shifting weight to their heels
 - Opponent steps one foot between your feet or to the outside while tightening their grip tension and lowering their level, preparing to sit
@@ -173,6 +175,8 @@ Defending against a guard pull requires the standing player to recognize the att
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pull guard?</p>
 
 - Deny opponent's grips proactively through active hand fighting — without controlling grips, their guard pull loses all structural integrity
 - Maintain upright posture and resist being pulled forward, keeping your hips under your shoulders to preserve base and mobility
@@ -187,6 +191,8 @@ Defending against a guard pull requires the standing player to recognize the att
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pull guard?</p>
 
 ### 1. Strip grips and disengage before opponent sits
 
@@ -224,6 +230,8 @@ Defending against a guard pull requires the standing player to recognize the att
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pull guard?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip opponent's grips using two-on-one grip breaks before they can commit to sitting. Step backward to create space while breaking grips, forcing them to re-engage standing. Maintain active hand fighting to deny re-establishment of pulling grips. This resets the exchange to neutral standing where you retain initiative.
@@ -239,6 +247,8 @@ When opponent pulls and you cannot prevent the descent, use their downward momen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pull guard?</p>
 
 ### 1. Following opponent down passively and settling into their closed guard without contesting
 
@@ -268,6 +278,8 @@ When opponent pulls and you cannot prevent the descent, use their downward momen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pull guard?</p>
+
 **Week 1-2: Recognition and Reaction** - Identifying guard pull cues and developing automatic responses
 Partner performs guard pulls at 50% speed while you practice recognizing the grip tightening, weight shift, and posture break that signal the pull. Focus on the decision point: disengage or drive forward. Drill both responses separately with no resistance to build pattern recognition.
 
@@ -284,29 +296,6 @@ Full speed exchanges starting from standing grip fighting. Partner uses their fu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending against a guard pull?
-**A**: The most critical window is the two-second gap between when the opponent begins their descent and when their guard structure solidifies with locked ankles or established hooks. During this window, the puller's legs are transitioning and not yet in a defensive configuration. Driving forward with immediate passing pressure during this moment bypasses their intended guard entirely. The secondary window is before the pull starts — during grip establishment — when stripping grips prevents the pull from initiating at all. Missing both windows means accepting the guard and working a systematic guard opening, which is significantly harder.
-
-**Q2**: Your opponent secures collar and sleeve grips and begins sitting — how do you decide between disengaging versus driving forward?
-**A**: The decision depends on grip depth and your distance. If their grips are shallow and you can strip them with a quick two-on-one break, disengage immediately by stepping back and breaking grips to reset standing. If their grips are deep and locked — particularly a deep collar grip pulling your posture — disengaging becomes dangerous because they will pull you off balance as you retreat. In this case, commit forward by driving your chest into them while keeping your hips low, using their pulling force to accelerate your passing entry. The wrong choice is hesitating between the two options, which gives them time to establish guard while you are neither passing nor disengaging.
-
-**Q3**: How should your weight distribution change when you recognize a guard pull attempt?
-**A**: Upon recognizing the pull, shift your weight forward onto the balls of your feet and lower your center of gravity by bending your knees. This forward-loaded stance serves two purposes: it makes you harder to pull off balance since your weight resists the backward pull of their grips, and it pre-loads your body for an immediate forward drive into passing pressure. Avoid shifting weight to your heels, which is the natural defensive reaction but actually makes you easier to pull forward because your base has no forward resistance. Keep your hips under your shoulders with slight forward lean, ready to either sprawl or drive.
-
-**Q4**: Your opponent pulls guard and you drive forward, but they manage to close their guard around your waist — what went wrong and what do you do now?
-**A**: The likely error was driving forward without controlling their legs first, or arriving too late after their guard had already organized. Once closed guard is established, you must shift to a systematic guard opening approach: establish upright posture by driving your hips forward and chest up, place both hands on their hips or biceps to create distance, and begin working a standing or kneeling guard break. Do not try to force a pass with ankles still locked. The key lesson is that the forward drive must include immediate leg control — gripping pants at the knees or cupping behind the knees — to prevent the ankles from locking during your approach.
-
-**Q5**: How do competition rulesets affect your defensive strategy against guard pulls?
-**A**: In IBJJF rules, the guard puller receives no penalty while you may receive an advantage for forcing a stand-up, so aggressive forward pressure and immediate passing attempts are rewarded. In ADCC, the guard puller receives a negative point after the initial period, meaning you can simply disengage and take the point lead without risking a pass attempt. In sub-only formats, there is no positional scoring, so your response should be based purely on your passing confidence versus the risk of being swept or submitted. Understanding the ruleset determines whether you should accept the guard and work patiently, or aggressively contest every pull with immediate passing pressure to maximize scoring opportunities.
-
-
-
-</section>
 
 
 </main>

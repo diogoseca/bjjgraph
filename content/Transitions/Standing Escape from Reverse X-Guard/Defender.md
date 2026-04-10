@@ -154,6 +154,8 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Escape from Reverse X-Guard?</p>
+
 - Top player begins stepping their free leg significantly wider than normal combat base positioning, creating a tripod-like structure
 - Top player breaks or actively strips your sleeve or wrist grip on the entangled-leg side before addressing hooks
 - Top player drives hips forward with increased pressure toward your chest, attempting to flatten your hip elevation and compress your structure
@@ -166,6 +168,8 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Escape from Reverse X-Guard?</p>
 
 - Maintain constant elevating pressure through both hooks to prevent the top player from establishing a stable platform for extraction
 - Control the top player's upper body through sleeve, collar, or wrist grips to enable off-balancing at critical moments during their escape
@@ -181,6 +185,8 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Escape from Reverse X-Guard?</p>
 
 ### 1. Increase hip elevation and execute immediate sweep toward the top player's free leg
 
@@ -218,6 +224,8 @@ When defending against the Standing Escape from Reverse X-Guard, the bottom play
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Escape from Reverse X-Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your sweep to the moment the top player shifts weight to their free leg during extraction. Pull strongly on your controlling grip toward their free leg while extending both hooks for maximum elevation. The single-leg base during extraction is the most vulnerable window and produces the highest-percentage sweep counter.
@@ -233,6 +241,8 @@ Maintain constant hook pressure and grip control to prevent the top player from 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Escape from Reverse X-Guard?</p>
 
 ### 1. Remaining passive with hooks in place without actively threatening sweeps or transitions
 
@@ -262,6 +272,8 @@ Maintain constant hook pressure and grip control to prevent the top player from 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Escape from Reverse X-Guard?</p>
+
 **Recognition Phase** - Identifying escape indicators early
 Partner begins standing escape sequences at slow speed while bottom player practices identifying key indicators: base widening, grip breaking attempts, forward hip pressure, and hook pushing. Focus on verbal callouts of each indicator as it occurs. Progress from static identification to recognizing patterns during flowing movement.
 
@@ -278,26 +290,6 @@ Positional sparring rounds starting from Reverse X-Guard. Bottom player attempts
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins driving hips forward and widening their base - what does this indicate and how should you respond?
-**A**: This indicates the beginning of a standing escape attempt. Immediately increase your hip elevation by extending both hooks simultaneously while pulling strongly on your controlling grip. The forward pressure is their counter to your elevation, so you must match or exceed their force. Simultaneously consider transitioning to a sweep attempt while they are mid-adjustment, as their weight shift creates directional vulnerability perpendicular to their driving direction.
-
-**Q2**: What is the most critical hook to maintain when the top player begins their escape attempt?
-**A**: The primary hook behind their knee is the most critical to maintain because it controls the main sweeping fulcrum and generates your elevation leverage. If this hook is lost, your ability to create sweeping force drops dramatically. Actively curl your heel into the back of their knee and maintain constant elevating pressure even as they attempt to push your foot down. If this hook begins slipping despite your efforts, immediately transition to Single Leg X or Ashi Garami rather than losing all control.
-
-**Q3**: The top player successfully strips one of your hooks - what is your best immediate response?
-**A**: Immediately transition to an alternative guard position rather than trying to re-establish the lost hook under pressure. Single Leg X-Guard requires only one hook and can be established quickly from a partial Reverse X position. Alternatively, use your remaining hook and grip control to execute an immediate sweep attempt, capitalizing on their commitment to hook removal which creates momentary base vulnerability. The worst response is remaining passive with a single degraded hook and hoping to re-establish.
-
-**Q4**: How do you time a sweep counter against someone attempting to stand up and escape your Reverse X-Guard?
-**A**: Time the sweep during the extraction phase when the top player shifts weight to their free leg to pull the entangled leg backward. This weight transfer creates a momentary single-leg base that is highly vulnerable to directional sweeps perpendicular to their standing leg. Pull on your controlling grip in the direction opposite their free leg while extending both hooks for maximum lifting pressure. The transition from two-leg to one-leg support is the most vulnerable moment and represents the optimal sweep timing window.
-
-
-
-</section>
 
 
 </main>

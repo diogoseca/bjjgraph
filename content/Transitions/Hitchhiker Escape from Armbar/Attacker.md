@@ -188,6 +188,8 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hitchhiker Escape from Armbar?</p>
+
 - Thumb rotation toward your own head initiates the escape by changing the elbow joint's orientation relative to the opponent's extension plane
 - Full-body commitment to rotation is essential - partial turns leave the arm in a more vulnerable transitional angle
 - The free hand must control the opponent's top leg before rotation begins, creating space and leverage for the turn
@@ -202,6 +204,8 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hitchhiker Escape from Armbar?</p>
+
 - Trapped arm must retain enough bend to initiate thumb rotation - if fully extended, tap immediately rather than risk injury
 - Free hand must be positioned to reach and grip the opponent's leg crossing your face
 - Hips must retain enough mobility to bridge despite opponent's weight - avoid being completely flattened before initiating
@@ -214,6 +218,8 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hitchhiker Escape from Armbar step by step?</p>
 
 1. **Rotate trapped arm to hitchhiker position**: While maintaining elbow bend, rotate your trapped forearm so your thumb points toward your own head. This changes the orientation of your elbow joint relative to the opponent's hip pressure, moving the vulnerable extension plane away from their finishing vector. Keep your bicep engaged to prevent any straightening during the rotation.
 2. **Grip opponent's top leg with free hand**: With your free hand, reach across and grip behind the knee or at the ankle of the opponent's leg that crosses your face. This grip serves as both a lever for your upcoming rotation and a barrier against the opponent tightening their leg control. Secure the grip firmly before initiating any body movement.
@@ -243,6 +249,8 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hitchhiker Escape from Armbar?</p>
+
 - **Opponent squeezes knees together tightly and raises hips to prevent rotation** (Effectiveness: High) - Your Response: Use your free hand to push the top knee away from your face while bridging higher to create additional rotational momentum. If the squeeze completely prevents rotation, revert to stacking defense or hand-clasping and wait for a better opening. → Leads to [[Positions/Armbar Control]]
 - **Opponent follows your rotation and transitions to belly-down armbar** (Effectiveness: High) - Your Response: Accelerate your rotation to outpace their adjustment. If they successfully follow to belly-down position, tuck your chin to your chest, keep your arm bent, and work to turn back into them or stand up. The belly-down armbar requires them to re-establish hip-to-shoulder contact, giving you a brief window. → Leads to [[Positions/Armbar Control]]
 - **Opponent releases the armbar and immediately transitions to mount** (Effectiveness: Medium) - Your Response: If you sense them releasing the arm, immediately recover guard by inserting your legs between your bodies before they can settle into mount. Frame on their hips with both hands and shrimp to create distance. The transition from armbar to mount creates a brief window where their weight is shifting that you can exploit. → Leads to [[Positions/Mount]]
@@ -254,6 +262,8 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hitchhiker Escape from Armbar?</p>
 
 ### 1. Straightening the arm during the rotation in an attempt to pull it free
 
@@ -298,6 +308,8 @@ As the attacker executing the Hitchhiker Escape, your objective is to exploit th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hitchhiker Escape from Armbar (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic rotation pattern and thumb positioning
 Practice the hitchhiker arm rotation in isolation against zero resistance. Partner holds light armbar control while you slowly rotate the thumb, bridge, and turn. Focus on maintaining elbow bend throughout, proper grip on the opponent's leg, and completing the full rotation to guard recovery. Perform 20 slow repetitions per side.
 
@@ -315,36 +327,12 @@ Positional sparring starting from armbar control bottom. Partner applies full re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the hitchhiker escape?
-**A**: The best moment is when the opponent begins elevating their hips to finish but has not achieved full arm extension. At this point, your arm retains enough bend to generate rotational force, and their commitment to the finish creates predictable upward pressure you can redirect laterally through rotation. Initiating earlier wastes surprise; initiating later risks injury from extension.
-
-**Q2**: What happens if you rotate your thumb away from your head instead of toward it?
-**A**: Rotating the thumb away from your head moves the elbow into the armbar's extension plane rather than perpendicular to it. This feeds directly into the opponent's finishing mechanics, making the submission easier to complete. The thumb must always point toward your own head to create the correct rotational escape vector that takes the elbow out of the finishing angle.
-
-**Q3**: Your opponent squeezes their knees tight as you begin rotating - how do you adjust?
-**A**: Use your free hand to push their top knee away from your face while simultaneously bridging higher to create more rotational momentum. If the squeeze completely prevents rotation, abandon the hitchhiker attempt and revert to hand-clasping defense or stacking. Forcing rotation against locked knees risks injury to the elbow joint under the combined torsional and extension forces.
-
-**Q4**: What grip should your free hand establish before initiating the rotation?
-**A**: Your free hand should grip the opponent's leg that crosses your face, specifically behind the knee or at the ankle. This grip serves two purposes: it creates a leverage point to assist your rotation, and it prevents the opponent from tightening leg control as you spin. Without this grip, the rotation lacks the mechanical advantage needed to overcome their leg pressure and the escape stalls.
-
-**Q5**: Why must you commit fully to the rotation rather than attempting partial turns?
-**A**: A partial rotation leaves your arm in a transitional angle that is actually more vulnerable than the starting position. Half-rotations expose the elbow to torque from a different direction while you lack the structural protection of either the initial defensive position or the completed escape. Full commitment carries you past the danger zone quickly, while hesitation creates a worse mechanical situation.
-
-**Q6**: What is your immediate priority after successfully extracting your arm?
-**A**: Immediately recover to a guard position by turning to face the opponent and inserting your legs between your bodies to establish open guard. If you end up in turtle from the belly-down variant, work to re-guard before the opponent establishes back control. The arm extraction alone is not the escape - you must reach a defensible position within two to three seconds or the opponent will re-establish dominance.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hitchhiker Escape from Armbar?</p>
 
 The hitchhiker escape involves rotating against an active armbar attempt, creating significant risk to the elbow joint if executed incorrectly. Never attempt this escape when the arm is fully extended - tap immediately to prevent hyperextension or ligament damage. During training, communicate clearly with your partner about resistance levels and always tap early when the escape stalls with the arm in a vulnerable position. Practice at slow speeds initially to develop proper rotation mechanics before adding speed or resistance. Partners applying the armbar should release pressure immediately upon feeling a tap or sensing the escape has stalled with the arm under load. The rotational forces involved can cause injury patterns different from standard armbar hyperextension, including torsional stress on the elbow and shoulder, so err on the side of caution.
 

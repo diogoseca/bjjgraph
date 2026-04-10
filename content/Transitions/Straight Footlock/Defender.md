@@ -166,6 +166,8 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Straight Footlock?</p>
+
 - Attacker's elbows squeeze tight to their body and forearms draw inward, eliminating slack between their forearm and your Achilles tendon - this tightening signals imminent extension
 - Attacker's knees pinch together aggressively around your thigh and their leg wrap tightens, indicating they are locking down rotational control before committing to the finish
 - Attacker's hips begin driving forward and their upper back starts arching away from you, initiating the hip extension that generates primary finishing force
@@ -177,6 +179,8 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Straight Footlock?</p>
 
 - Address the most time-critical threat first: if extension has begun, hip rotation to relieve dorsiflexion pressure takes absolute priority over grip fighting
 - The boot defense (curling toes and rotating knee inward) is the earliest preventive measure and should be established before the attacker initiates extension
@@ -191,6 +195,8 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Straight Footlock?</p>
 
 ### 1. External hip rotation escape - turn your hip outward aggressively to change the angle of dorsiflexion force, relieving Achilles pressure and creating space to begin extracting your foot from the compression pocket
 
@@ -228,6 +234,8 @@ Advanced defenders treat the Straight Footlock threat as an opportunity rather t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Straight Footlock?</p>
+
 ### → [[Positions/Straight Ankle Lock Control]]
 
 Use boot defense or explosive sit-up to neutralize the finishing attempt without fully escaping control. This resets the attacker to the control phase where you have more defensive options and time. Combine sit-up with frame establishment on their upper body to prevent immediate re-attempt of the finish.
@@ -243,6 +251,8 @@ Execute hip rotation escape combined with grip stripping to fully extract your f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Straight Footlock?</p>
 
 ### 1. Attempting to pull the foot straight out of the grip by extending the leg and pointing the toes without addressing the attacker's leg control or forearm position
 
@@ -272,6 +282,8 @@ Execute hip rotation escape combined with grip stripping to fully extract your f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Straight Footlock?</p>
+
 **Week 1-2** - Recognition and basic defensive responses
 Partner establishes Straight Ankle Lock Control and slowly initiates finishing sequence at 20-30% speed. Defender practices identifying each recognition cue (elbow tightening, knee pinch, hip extension initiation) and executing single defensive responses in isolation: hip rotation only, boot defense only, sit-up only, grip strip only. Build muscle memory for each defense independently before combining them. Tap early and often to calibrate danger threshold.
 
@@ -288,29 +300,6 @@ Full-speed positional sparring starting from established Straight Ankle Lock Con
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: The attacker has their forearm seated behind your Achilles and begins hip extension - what is your highest priority defensive action?
-**A**: External hip rotation is the highest priority because it immediately changes the angle of dorsiflexion force, relieving Achilles pressure regardless of how strong the attacker's grip is. Rotate your hip outward aggressively while keeping your knee bent. If rotation is blocked by their leg control, explosively sit up to collapse their extension angle. Do not waste time on grip fighting once extension has begun, as the finishing window compresses to seconds.
-
-**Q2**: Why should the boot defense be established before the attacker initiates extension rather than during the finish?
-**A**: The boot defense creates a structural barrier that prevents the forearm from seating behind the Achilles tendon. Once the forearm is already seated and extension begins, the boot becomes far less effective because the fulcrum is already established and dorsiflexion pressure is already being generated. Establishing the boot proactively forces the attacker to address it before they can initiate the finish, buying the defender time and creating opportunities for grip stripping or hip rotation escapes.
-
-**Q3**: You successfully rotate your hip during the finish attempt but only partially escape - what danger does this create?
-**A**: A partial hip rotation can transition the attacker directly into Outside Ashi-Garami or Inside Ashi-Garami depending on the rotation direction and their leg configuration. These advanced entanglements introduce heel hook threats that are far more dangerous than the original straight ankle lock. If your rotation stalls partway, you must either complete the full rotation to extract your foot or immediately reverse direction and try the sit-up counter instead. Staying in a half-rotated position is the worst outcome.
-
-**Q4**: When should you tap to a Straight Footlock rather than continue defending?
-**A**: Tap immediately when: the forearm is properly seated behind your Achilles, your hip rotation is fully blocked by their leg control, and you feel progressive dorsiflexion pressure increasing with no defensive sequence available to relieve it. The transition from uncomfortable pressure to Achilles tendon rupture occurs in fractions of a second, and no positional advantage in training is worth a 4-6 month surgical recovery. If you cannot identify a specific escape that will work within the next 1-2 seconds, tap.
-
-**Q5**: How do you determine which direction to rotate your hip when defending the Straight Footlock?
-**A**: Assess the attacker's leg configuration around your thigh. If their inside leg is the primary control leg (behind your knee), rotating away from that leg may open Inside Ashi-Garami for them, so rotate toward it instead. If their outside leg dominates the control, the opposite applies. The general principle is to rotate in the direction that complicates the attacker's next transition rather than facilitating it. When in doubt, the sit-up counter avoids the rotation direction problem entirely.
-
-
-
-</section>
 
 
 </main>

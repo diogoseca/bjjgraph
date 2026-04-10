@@ -171,6 +171,8 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crackhead Control (Bottom)?</p>
+
 - Practitioner on hands and knees with head protected between shoulders, elbows tight to body creating compact defensive frame that denies opponent easy access to neck and back while maintaining awareness through peripheral vision
 - Hips remain highly mobile and active, constantly shifting weight between knees in circular and rotational patterns to prevent opponent from establishing heavy pressure or securing hooks for back control
 - Hands actively fight for position against opponent's grip attempts, particularly defending collar ties and preventing seat belt control establishment with aggressive stripping motions and defensive hand positioning
@@ -184,6 +186,8 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Crackhead Control (Bottom)?</p>
+
 - Opponent has achieved top turtle position or is attacking from front headlock
 - Guard has been passed or practitioner is recovering from failed takedown attempt
 - Sufficient hip mobility and cardiovascular conditioning to maintain constant defensive movement
@@ -196,6 +200,8 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crackhead Control?</p>
 
 - Maintain constant hip movement to prevent opponent from establishing heavy pressure or securing controlling grips
 - Fight hands aggressively to prevent seat belt control, prioritizing defending the far side underhook and preventing cross-face control
@@ -211,6 +217,8 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Crackhead Control (Bottom)?</p>
 
 **If opponent attempts to secure seat belt control with both underhooks or cross-face:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
@@ -239,6 +247,8 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crackhead Control?</p>
 
 ### 1. Remaining static in turtle position instead of maintaining constant movement
 
@@ -278,6 +288,8 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Crackhead Control defense?</p>
+
 ### Constant Motion Turtle Drill
 
 Partner maintains light control from top turtle while practitioner works continuous hip movement for 2-minute rounds, focusing on weight shifts, circling, and preventing opponent from establishing heavy pressure. Partner gradually increases pressure intensity across rounds to build conditioning and movement quality under resistance.
@@ -285,7 +297,7 @@ Partner maintains light control from top turtle while practitioner works continu
 **Duration**: 5 rounds x 2 minutes
 
 
-### Grip Fighting from Turtle
+### Grips from Turtle
 
 Starting from turtle bottom, partner attempts to establish seat belt control while practitioner fights all grip attempts. Focus on stripping grips, preventing cross-face, and defending underhooks. Reset whenever opponent successfully establishes both grips. Track time to successful control as progress metric.
 
@@ -310,38 +322,6 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the fundamental defensive posture for crackhead control bottom, and why is each element important?
-**A**: The fundamental posture includes: head tucked with chin to chest creating a protective wedge between shoulders to deny chokes, elbows tight to ribs to prevent hook insertion, weight distributed evenly across hands and knees for explosive movement capability, and hips positioned to enable constant circular motion. Each element serves to deny the opponent the stable contact points they need for systematic back attacks.
-
-**Q2**: Your opponent successfully establishes an overhook on your near arm - what is your immediate defensive priority?
-**A**: Immediately intensify hip movement while stripping the grip with your free hand. Do not let them consolidate with a second grip. Circle your hips away from their pressure while keeping elbows tight to prevent hook insertion. If they maintain the overhook, use it as a pivot point for granby roll escape rather than fighting the grip statically. Movement is more important than grip fighting when they have initial control.
-
-**Q3**: How do you maintain defensive base while executing the constant hip movement that defines crackhead control?
-**A**: Distribute weight primarily through your knees with hands providing balance and direction changes rather than full weight support. The circular hip motion should feel like stirring a pot - continuous but controlled, with weight shifting smoothly between knees. Keep your center of gravity low and avoid posting too far forward on your hands, which compromises base. The movement disrupts opponent's control without sacrificing your own stability.
-
-**Q4**: What are the primary grip attacks you must defend against, and in what order of priority?
-**A**: In order of priority: first defend the seat belt configuration (far arm over shoulder, near arm under armpit) as this directly enables back control; second prevent the cross-face which controls your head and limits movement; third strip collar ties which set up chokes; fourth prevent underhooks which facilitate lifting and turning attacks. The seat belt is most dangerous because it provides both control and immediate choke threats.
-
-**Q5**: Your opponent has achieved heavy chest pressure and you feel your turtle flattening - what is your recovery sequence?
-**A**: First, create space through explosive hip movement - bump your hips upward while simultaneously circling away from their pressure side. Use your posted hands to push off and create an angle rather than trying to elevate directly against their weight. As you create any space, immediately insert your knee between you and them to begin guard recovery or execute a granby roll away from their pressure. Never fight weight with weight - use angles and timing.
-
-**Q6**: How do you recognize when opponent movement has created a genuine guard recovery opportunity versus simply maintaining turtle?
-**A**: Genuine opportunities occur when opponent's weight shifts forward past your centerline (granby roll timing), when they lift to transition positions (technical standup timing), when they release a grip to reach for another (sit-out timing), or when their base narrows attempting to chase your hip movement (half guard insertion timing). You should feel their weight lighten or shift off-center. Static pressure with no weight transfer means maintain turtle and continue movement.
-
-**Q7**: What energy management strategy allows you to maintain crackhead control bottom for the 30-90 second duration typically required?
-**A**: Use small, efficient hip circles rather than large explosive movements constantly. Save explosive bursts for genuine escape opportunities. Focus defensive energy on grip prevention rather than grip breaking - it takes less effort to stop a grip from being established than to strip one that's locked in. Breathing should be controlled and rhythmic despite the intensity. Recognize that opponent's attacking efforts cost them energy too; the position favors the bottom player's conditioning if executed correctly.
-
-**Q8**: Your opponent begins inserting a hook while you're in crackhead control bottom - what is the emergency defense protocol?
-**A**: Immediately trap their foot with your same-side hand while circling your hips aggressively away from the hook. If the hook is already deep, drop your hip to the mat on that side while simultaneously granby rolling toward the hook to face them and establish guard. Never let a hook consolidate - either prevent it with hip movement and hand defense, or immediately transition to guard recovery. A single hook is manageable; two hooks means back control is imminent.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

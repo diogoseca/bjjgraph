@@ -202,13 +202,13 @@ The Triangle from Back occupies a critical branch point in the back attack decis
 
 - [[Positions/Triangle Control/Rear Triangle]] - Target position - the control position established upon successful execution
 
-- [[Transitions/Rear Naked Choke]] - Primary chain partner - choke threat that forces the defensive reaction opening the triangle
+- [[Submissions/Rear Naked Choke]] - Primary chain partner - choke threat that forces the defensive reaction opening the triangle
 
 - [[Positions/Back Control]] - Parent positional category from which harness and triangle attacks operate
 
-- [[Submissions/Armbar from Back]] - Alternative submission path when triangle entry is blocked
+- [[Transitions/Armbar from Back Transition]] - Alternative submission path when triangle entry is blocked
 
-- [[Submissions/Triangle Choke Back]] - Related technique - alternative triangle entry from body triangle control
+- [[Submissions/Rear Triangle Choke]] - Related technique - alternative triangle entry from body triangle control
 
 - [[Positions/Back Control/Body Triangle]] - Related control - alternative leg configuration that can transition to triangle
 

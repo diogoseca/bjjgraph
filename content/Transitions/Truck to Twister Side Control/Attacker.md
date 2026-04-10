@@ -188,6 +188,8 @@ Executing the Transition to Twister Side Control requires converting your perpen
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Truck to Twister Side Control?</p>
+
 - Maintain leg entanglement throughout the entire rotation; losing the hook during transition collapses the control system
 - Walk your upper body around the opponent's head using small steps rather than one large rotation to preserve base
 - Establish shoulder-to-mat pressure immediately upon arriving in lateral position to prevent defensive turning
@@ -203,6 +205,8 @@ Executing the Transition to Twister Side Control requires converting your perpen
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Truck to Twister Side Control?</p>
+
 - Secure Truck position with active boot pressure against opponent's hip creating foundational torque
 - Leg entanglement is tight with opponent's near leg controlled through figure-four or hook configuration
 - Opponent is on their side with back exposed and upper body accessible for the walk-around path
@@ -215,6 +219,8 @@ Executing the Transition to Twister Side Control requires converting your perpen
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Truck to Twister Side Control step by step?</p>
 
 1. **Verify truck control and identify window**: Confirm that your boot pressure is active against the opponent's hip, your leg entanglement is secure, and the opponent's defensive posture creates an opening for lateral movement. Look for signs they are defending twister or calf slicer, as their arm positioning during defense opens the walk-around path.
 2. **Release upper body grips and post near hand**: Release any wrist or collar control you have on the opponent's upper body and post your near hand on the mat beside their head. This hand becomes your pivot point for the rotation. Maintain boot pressure and leg entanglement as your primary control during this brief grip transition period.
@@ -244,6 +250,8 @@ Executing the Transition to Twister Side Control requires converting your perpen
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Truck to Twister Side Control?</p>
+
 - **Opponent frames against your shoulder during walk-around to block rotation path** (Effectiveness: High) - Your Response: Use your posted hand to strip their frame before continuing the rotation, or switch to a roll-through entry that goes over their frame rather than through it. If the frame is too strong, return to truck attacks that punish their arm extension. → Leads to [[Positions/Twister Control/Truck]]
 - **Opponent executes granby roll during the transition to escape to turtle or guard** (Effectiveness: Medium) - Your Response: Follow the granby roll with your leg entanglement, converting their roll momentum into a back take or re-establishing truck position. The leg hook should prevent a clean granby escape if maintained throughout the rotation. → Leads to [[Positions/Half Guard]]
 - **Opponent straightens trapped leg and hip escapes to extract from leg entanglement** (Effectiveness: Medium) - Your Response: If you feel the leg hook loosening, immediately abort the walk-around and re-secure the entanglement from truck. Alternatively, if you are already partially rotated, commit fully to side control without the leg entanglement and consolidate from standard side control. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ Executing the Transition to Twister Side Control requires converting your perpen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Truck to Twister Side Control?</p>
 
 ### 1. Releasing leg entanglement before completing the rotation to lateral position
 
@@ -294,6 +304,8 @@ Executing the Transition to Twister Side Control requires converting your perpen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Truck to Twister Side Control (Attacker)?</p>
+
 **Phase 1: Static Walkthrough** - Movement pattern and leg hook adjustment
 Practice the full rotation from truck to twister side control with a completely cooperative partner. Focus on the path your upper body takes around their head, how the leg hook angle changes during rotation, and where your weight ends up. Repeat 20-30 times per side until the movement feels natural.
 
@@ -314,42 +326,12 @@ Drill the complete chain from crab ride or turtle attack through truck establish
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate the transition from Truck to Twister Side Control?
-**A**: The optimal window is when the opponent commits to defending truck submissions by protecting their neck and arms. Their defensive posture—hands guarding the chin, arms tucked tight—opens the walk-around path by removing their ability to frame against your rotation. Additionally, initiating immediately after a failed truck submission attempt capitalizes on their relief response before they reset their defensive awareness.
-
-**Q2**: What conditions must exist in the Truck position before you can safely attempt this transition?
-**A**: Boot pressure must be actively driving against the opponent's hip, the leg entanglement must be tight with their near leg fully controlled, and the opponent must be on their side with their back exposed. Your hands must be free from committed submission grips so they can support the rotation. If any of these elements are compromised, re-consolidate truck control before attempting the transition.
-
-**Q3**: What is the single most critical mechanical detail that determines whether this transition succeeds or fails?
-**A**: Maintaining the leg entanglement throughout the entire rotation is the critical mechanical detail. The leg hook is the only control element that bridges both positions—it anchors you in truck and becomes the foundation of twister side control. If the hook releases during the walk-around, you lose all control and the opponent escapes. The hook angle adjusts progressively during rotation but never releases contact.
-
-**Q4**: What are the most common ways this transition fails, and what does the failure look like?
-**A**: The most common failure is the leg entanglement slipping during the rotation, resulting in the opponent hip escaping to half guard or open guard. Second is the opponent framing against the walk-around to block the rotation path, stalling you in an awkward position between truck and side control. Third is rotating too fast and overshooting, losing base and allowing a bridge reversal. Each failure mode returns you to truck at best or puts you in bottom half guard at worst.
-
-**Q5**: What grip adjustments are necessary during the transition, and in what sequence?
-**A**: First, release any truck-specific upper body grips (wrist control, chin strap) to free your hands for the rotation. Second, post your near hand beside the opponent's head as a pivot point. During rotation, your hands walk along the mat to support the arc. Upon arrival in lateral position, establish twister side control grips: near arm across chest or underhooking far arm, far arm controlling near wrist or head. The leg hook maintains throughout as the constant grip.
-
-**Q6**: Your opponent posts their far hand against your shoulder to block the walk-around—how do you adjust?
-**A**: You have three options depending on the strength of their frame. First, strip the frame by controlling their wrist with your near hand and pushing it past your shoulder before continuing. Second, switch to the roll-through entry variant that goes over their frame rather than through it. Third, abandon the transition and attack the exposed arm from truck—their extended posting arm is vulnerable to kimura or armbar from the truck position, punishing the frame and reopening the transition path.
-
-**Q7**: How does the direction of force change between Truck control and Twister Side Control?
-**A**: In Truck, the primary force is perpendicular torque through the boot driving into the opponent's hip, rotating their spine along a vertical axis. In Twister Side Control, the primary force is lateral shoulder pressure driving the opponent's near shoulder into the mat, creating compression along a horizontal axis. During the transition, the force direction rotates approximately 90 degrees as your body moves from behind to beside the opponent. The leg entanglement provides continuous force throughout this rotation.
-
-**Q8**: If the opponent initiates a granby roll while you are mid-transition, what is your best response?
-**A**: Do not fight the granby—follow it. Your leg entanglement should prevent a clean escape, so ride the roll by maintaining your hook and allowing your body to follow their rotation. This typically results in re-establishing truck position or converting directly to back control as they roll. The worst response is to plant your hands and resist, which creates a tug-of-war that the granby momentum usually wins. Flow with the movement and re-attack from the resulting position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Truck to Twister Side Control?</p>
 
 This transition involves spinal rotation mechanics and should be practiced with controlled speed until both partners understand the movement pattern. The leg entanglement can trap the knee in vulnerable angles during the rotation, so communicate clearly with your training partner about any discomfort in the trapped leg. Never force the rotation if the opponent's leg is caught at an awkward angle. When drilling, start with slow walkthroughs and only increase speed as both partners gain confidence. Tap immediately if you feel unexpected pressure on the spine or knee during training.
 

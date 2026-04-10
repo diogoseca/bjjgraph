@@ -156,6 +156,8 @@ As the top player against the Zombie position, the moment the bottom player rele
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Zombie?</p>
+
 - Bottom player tightens their overhook or collar grip noticeably, indicating they are preparing to replace the lockdown control with upper body connection
 - Bottom player's lockdown legs begin to uncross or loosen, signaling the imminent release of the primary leg entanglement
 - Bottom player executes a hip escape during or immediately after the lockdown release, creating the lateral angle needed for standard guard closure
@@ -166,6 +168,8 @@ As the top player against the Zombie position, the moment the bottom player rele
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Zombie?</p>
 
 - Recognize the lockdown release as your primary passing trigger - the moment the legs disengage, drive forward aggressively to advance position
 - Strip the overhook grip before or during the lockdown release to eliminate the upper body anchor that enables the transition to closed guard
@@ -180,6 +184,8 @@ As the top player against the Zombie position, the moment the bottom player rele
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Zombie?</p>
 
 ### 1. Posture up explosively the moment the lockdown releases, creating vertical distance that prevents guard closure and forcing the bottom player into open guard
 
@@ -210,6 +216,8 @@ As the top player against the Zombie position, the moment the bottom player rele
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Zombie?</p>
+
 ### → [[Positions/Open Guard]]
 
 Posture up explosively during the lockdown release transition and strip the overhook grip to create distance that forces the bottom player into open guard rather than achieving closed guard closure - open guard without established grips gives you significant passing initiative
@@ -221,6 +229,8 @@ Posture up explosively during the lockdown release transition and strip the over
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Zombie?</p>
 
 ### 1. Failing to recognize the lockdown release as a passing opportunity and remaining passive during the transition
 
@@ -245,6 +255,8 @@ Posture up explosively during the lockdown release transition and strip the over
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Zombie?</p>
+
 **Phase 1: Lockdown Release Recognition** - Identifying the moment of lockdown release and responding with immediate action
 Partner holds Zombie position and releases lockdown at random intervals. Practice recognizing the release cue and immediately either posturing up or driving forward. Work at 30% resistance with the focus on speed of recognition and response rather than power of the response. Drill 20 repetitions to build the automatic trigger.
 
@@ -261,29 +273,6 @@ Positional sparring starting in Zombie with partner at full resistance working g
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is transitioning from Zombie to closed guard?
-**A**: The earliest cue is the bottom player tightening their overhook or collar grip noticeably. This grip tightening precedes the lockdown release and indicates the bottom player is preparing to transfer their primary control from the lower body entanglement to the upper body connection. Recognizing this preparatory grip adjustment gives the top player a head start in preparing their passing response before the lockdown actually releases.
-
-**Q2**: Why is stripping the overhook grip particularly effective at preventing Zombie-to-closed-guard recovery?
-**A**: The overhook is the bridge that enables continuous control during the transition from Zombie to closed guard. Without the overhook, the bottom player must release their lockdown entanglement without any upper body control maintaining connection to the opponent. This creates a moment of complete disconnection where the top player can freely posture up, create distance, or drive forward to pass. Stripping the overhook essentially breaks the bridge between the two guard systems, stranding the bottom player in the vulnerable gap between positions.
-
-**Q3**: Should you posture up or drive forward when the opponent releases their lockdown - how do you decide?
-**A**: The decision depends on the bottom player's upper body control. If they maintain a strong overhook that resists stripping, driving forward with pressure is more effective because their overhook prevents the distance creation needed for posturing. If you have successfully stripped or loosened the overhook, posturing up is more effective because without the upper body anchor, the bottom player cannot prevent distance creation. In general, strip the overhook first if possible, then posture; if the overhook is unbreakable, drive forward through the transition instead.
-
-**Q4**: You have successfully stripped the opponent's overhook but their lockdown is still engaged - what sequence maximizes your advantage?
-**A**: Stripping the overhook while the lockdown remains creates an asymmetric control state where the bottom player has lower body control but no upper body anchor. Immediately drive forward with heavy shoulder pressure to flatten them before they can re-establish the overhook or collar grip. Their lockdown is significantly less effective without the overhook because they cannot coordinate upper and lower body for the guard closure transition. Use this window to drive your crossface shoulder into their face and begin working your trapped leg out of the lockdown, because without the overhook they cannot use the lockdown release as a recovery mechanism.
-
-**Q5**: How should you position your knee during the opponent's leg repositioning phase to prevent the guard from closing at hip level?
-**A**: As you feel the opponent's legs transitioning from the high guard Zombie position downward toward standard guard height, drive your knee forward toward their hip on the overhook side. This knee insertion acts as a wedge that prevents their legs from completing the full wrap around your waist. If your knee gets past their thigh line before they can cross their ankles, you achieve a half guard or combat base position rather than being caught in full closed guard. Time the knee insertion to the exact moment when their legs are between the high guard and standard guard positions, as this is when the legs are most separated and easiest to split.
-
-
-
-</section>
 
 
 </main>

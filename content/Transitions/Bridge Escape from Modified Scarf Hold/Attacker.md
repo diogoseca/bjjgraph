@@ -188,6 +188,8 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from Modified Scarf Hold?</p>
+
 - Bridge directionally toward the opponent's weakest base angle rather than straight upward - force applied at 45 degrees toward their head side generates maximum disruption
 - Timing trumps power - a moderate bridge at the right moment outperforms an explosive bridge against settled weight every time
 - The bridge creates the opportunity but does not complete the escape - immediate hip rotation and knee insertion must follow without pause
@@ -202,6 +204,8 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from Modified Scarf Hold?</p>
+
 - Plant both feet flat on the mat with heels drawn close to your buttocks, creating a strong base for hip extension
 - Position your free arm as a frame against the opponent's hip or shoulder to prevent them from driving forward during the bridge
 - Protect your near arm from deeper entanglement by keeping the elbow connected to your ribs and wrist anchored
@@ -214,6 +218,8 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from Modified Scarf Hold step by step?</p>
 
 1. **Establish breathing and frame**: Turn your head to the side away from the opponent's chest pressure to secure an airway. Place your free arm with your forearm across the opponent's hip or against their shoulder, creating a structural frame that prevents them from sinking deeper. This frame is not meant to push them off but to maintain the minimal space needed to initiate the bridge.
 2. **Position feet for maximum drive**: Walk both feet close to your buttocks with soles flat on the mat, shoulder width apart. The closer your heels are to your hips, the more explosive the bridge will be. Ensure both feet have solid contact with the mat to prevent slipping during the explosive phase. Avoid telegraphing by making these adjustments gradually.
@@ -243,6 +249,8 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from Modified Scarf Hold?</p>
+
 - **Opponent sprawls hips and drives chest pressure forward during bridge** (Effectiveness: High) - Your Response: If you feel the opponent sprawling into the bridge, abandon the upward drive and immediately switch to a hip escape in the opposite direction, using the opponent's forward momentum to create lateral space instead → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 - **Opponent steps over to mount transition during the bridge** (Effectiveness: Medium) - Your Response: The moment you feel the opponent's knee lifting to step over, immediately turn your hips toward them aggressively and shoot your near knee across their path to block the mount. If the step-over is too advanced, switch immediately to mount escape protocols rather than trying to recover scarf hold defense → Leads to [[Positions/Mount]]
 - **Opponent deepens near-arm control and tightens grip during setup** (Effectiveness: High) - Your Response: If the opponent reads your bridge setup and tightens arm control, switch to a turtle escape by bridging and turning to all fours rather than attempting knee insertion, since the trapped arm makes guard recovery nearly impossible → Leads to [[Positions/Side Control/Modified Scarf Hold]]
@@ -254,6 +262,8 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from Modified Scarf Hold?</p>
 
 ### 1. Bridging straight upward instead of directionally toward opponent's weak angle
 
@@ -293,6 +303,8 @@ Executing the bridge escape from Modified Scarf Hold requires precise coordinati
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from Modified Scarf Hold (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Developing explosive directional hip extension
 Solo bridge drills focusing on driving hips at 45-degree angles rather than straight up. Practice bridging in multiple directions from flat on back position, building hip extension power and directional control. Include bridge-and-rotate combinations where the hips turn immediately after peak extension.
 
@@ -313,42 +325,12 @@ Begin rounds with partner in established Modified Scarf Hold. Bottom player work
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate the bridge escape from Modified Scarf Hold?
-**A**: The optimal moment is when the top player shifts their weight, which typically occurs during grip adjustments, submission setup attempts, head repositioning, or transition preparations. Bridging against fully settled weight has dramatically lower success rates. Feel for the moment their chest pressure lightens or their hips lift even slightly, then commit immediately to the directional bridge before they can resettle.
-
-**Q2**: Why should you bridge directionally rather than straight up from Modified Scarf Hold?
-**A**: Bridging straight up allows the opponent to simply spread their base and absorb the vertical force, settling right back into the same position. A directional bridge at 45 degrees toward the opponent's head side targets their weakest base angle where they have the least structural support. This directional force displaces their weight laterally rather than just lifting it, creating actual space for hip rotation and knee insertion.
-
-**Q3**: What should your free arm be doing before and during the bridge escape attempt?
-**A**: Before the bridge, the free arm establishes a forearm frame against the opponent's hip or shoulder, creating a structural barrier that prevents them from driving forward. During the bridge, this frame amplifies the directional force and prevents the opponent from simply driving their chest back down into you as the bridge peaks. Never use the free arm to push straight up, as this creates arm triangle and kimura vulnerabilities.
-
-**Q4**: Your bridge creates six inches of space but the opponent immediately drives forward to resettle - what went wrong?
-**A**: The most likely error is failing to rotate the hips immediately after the bridge peaked. Creating space without changing the angle allows the opponent to simply drive forward into the same chest-to-chest position. The hip rotation must begin before the bridge starts descending, changing the geometry so the opponent cannot simply reapply the same pressure vector. Additionally, the frame arm may not have been properly positioned to block the forward drive.
-
-**Q5**: How do you adjust the escape when the opponent steps over toward mount during your bridge?
-**A**: The moment you feel the opponent's knee lifting to step over, abandon the guard recovery and immediately shoot your near knee across their path to block the mount transition. If the step-over is already too advanced to block, switch immediately to mount escape protocols rather than trying to recover to the scarf hold position. Prevention is key - a properly directional bridge toward their head makes stepping over more difficult because it disrupts the balance needed for the transition.
-
-**Q6**: What is the critical difference between a bridge escape from Modified Scarf Hold versus a bridge escape from standard mount?
-**A**: From mount, the upa seeks a complete reversal by trapping the arm and leg on one side and rolling the opponent over. From Modified Scarf Hold, the bridge primarily creates space for half guard recovery rather than a full reversal. The scarf hold configuration makes complete reversal difficult because the opponent's body alignment is alongside you rather than directly on top. The bridge direction, hip rotation mechanics, and follow-up actions are all fundamentally different.
-
-**Q7**: Your first bridge attempt fails and the opponent tightens their control - what sequence do you follow next?
-**A**: Never repeat the same failed bridge pattern. After a failed bridge, immediately transition to an alternative escape: use the frame arm to hip escape laterally while the opponent is recovering their base, attempt a turtle transition by turning belly-down during any remaining space, or create a frame sequence to build incremental space for a shrimp escape. The bridge may have created micro-advantages in positioning even though it did not succeed fully, so capitalize on any angular change it produced rather than resetting to square one.
-
-**Q8**: How do you prevent telegraphing the bridge escape to an experienced opponent?
-**A**: Experienced opponents watch for heel positioning, core tensing, and breathing changes that signal an incoming bridge. Counter this by making foot adjustments gradually throughout the position rather than in a sudden burst. Maintain steady breathing rhythm until the moment of execution. Use small preliminary movements like minor hip shifts to disguise the setup. Consider using a frame adjustment or grip fight as a distraction that masks the foot positioning needed for the bridge.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from Modified Scarf Hold?</p>
 
 Bridge escapes involve explosive spinal extension that can strain the lower back if performed with poor mechanics or insufficient warm-up. Practitioners with cervical spine issues should exercise particular caution since the head bears partial weight during the bridge. Always warm up thoroughly with progressive bridging drills before training explosive escapes. Communicate with training partners about intensity levels to prevent neck strain or accidental collisions during the explosive movement phase. Avoid repeatedly drilling bridges at maximum intensity in a single session to prevent cumulative lower back fatigue.
 

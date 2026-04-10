@@ -204,11 +204,11 @@ Triangle from Mount occupies a central role in the mount attack system, function
 
 - [[Positions/Mount/Mounted Triangle]] - Target position—the control position reached on successful execution of this transition
 
-- [[Submissions/Armbar from Mount]] - Chain attack—primary alternative when opponent defends the triangle by extending an arm
+- [[Transitions/Mount to Armbar]] - Chain attack—primary alternative when opponent defends the triangle by extending an arm
 
-- [[Submissions/Americana from Mount]] - Setup attack—Americana threats force arm extension that creates the arm-in/arm-out configuration for triangle entry
+- [[Submissions/Americana]] - Setup attack—Americana threats force arm extension that creates the arm-in/arm-out configuration for triangle entry
 
-- [[Submissions/Ezekiel from Mount]] - Complementary attack—Ezekiel threat forces defensive arm movement that opens triangle entries
+- [[Submissions/Ezekiel Choke]] - Complementary attack—Ezekiel threat forces defensive arm movement that opens triangle entries
 
 - [[Transitions/High Mount Transition]] - Alternative entry—advancing to high mount provides a different triangle entry angle
 

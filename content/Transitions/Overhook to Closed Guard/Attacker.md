@@ -188,6 +188,8 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook to Closed Guard?</p>
+
 - Maintain deep overhook tension throughout the entire transition by keeping your elbow pinned to your ribs and hand gripping the opponent's lat
 - Break opponent's posture before initiating hip walk to bring their waist within ankle-crossing range
 - Control the opponent's free arm with your non-overhook hand to prevent posting and posture recovery during closure
@@ -203,6 +205,8 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook to Closed Guard?</p>
+
 - Deep overhook established with hand gripping opponent's lat or shoulder blade and elbow tight to ribs
 - Opponent's posture at least partially broken through sustained overhook pulling pressure
 - Free hand controlling opponent's opposite arm via collar grip, sleeve grip, or wrist control
@@ -216,6 +220,8 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Overhook to Closed Guard step by step?</p>
 
 1. **Verify and deepen overhook control**: Confirm your overhook is deep with your hand gripping the opponent's lat or shoulder blade, not just loosely wrapped around their tricep. Pull your elbow tight to your ribs to maximize leverage. If the grip is shallow, use your free hand to walk your overhook hand deeper before proceeding.
 2. **Break opponent's posture with combined pressure**: Pull the overhook down and toward your overhooked side while simultaneously driving your heels into the opponent's lower back or hips. The combined arm pull and leg pressure collapses their posture, bringing their chest toward yours and their waist closer to your hips.
@@ -245,6 +251,8 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook to Closed Guard?</p>
+
 - **Opponent explosively postures by driving hips back and straightening their spine against the overhook pull** (Effectiveness: High) - Your Response: Follow their posture by sitting up with them rather than staying flat. If they create distance, immediately attack with hip bump sweep using their upright posture against them, or transition to triangle setup since their arm is still controlled by the overhook. → Leads to [[Positions/Overhook Guard]]
 - **Opponent strips overhook by circling their trapped arm out and immediately creating distance with frames** (Effectiveness: High) - Your Response: As the overhook is being stripped, immediately transition your overhook hand to wrist control or collar grip on the same side. Switch to alternative guard retention using feet on hips or collar sleeve guard rather than fighting for a lost overhook grip. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward and stacks your hips attempting to flatten you and prevent hip walking** (Effectiveness: Medium) - Your Response: Use their forward pressure to your advantage by pivoting your hips toward the overhook side. Their drive actually brings their waist closer to your hips, potentially making the closure easier. If they stack hard, redirect momentum into an omoplata or triangle threat from the angle. → Leads to [[Positions/Overhook Guard]]
@@ -256,6 +264,8 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook to Closed Guard?</p>
 
 ### 1. Releasing overhook tension to adjust leg position before ankles are crossed
 
@@ -295,6 +305,8 @@ As the attacker executing the Overhook to Closed Guard transition, your objectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook to Closed Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hip walking and ankle crossing fundamentals
 Drill the basic movement pattern with a cooperative partner. Establish overhook, walk hips in using shoulder walking, wrap legs, and cross ankles. Perform 20 repetitions per side focusing on smooth mechanics and proper ankle crossing height. Partner provides zero resistance.
 
@@ -315,42 +327,12 @@ Perform the transition during the final minutes of hard sparring rounds when fat
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the guard closure from overhook guard?
-**A**: The optimal window is immediately after a successful posture break when the opponent's forehead is near your chest and their hips are driven forward by your heel pressure. At this moment, their waist is closest to your hips, their base is compromised, and their arm is restricted by the overhook, making it the lowest-resistance opportunity to wrap and lock your legs.
-
-**Q2**: What grip prerequisites must be established before attempting to close the guard?
-**A**: You need a deep overhook with your hand gripping the opponent's lat or shoulder blade and your elbow pinned to your ribs. Your free hand must control the opponent's opposite arm through collar grip, sleeve grip, or wrist control to prevent posting and posture recovery. Without both grips established, the opponent has too many escape options during the closure attempt.
-
-**Q3**: What is the most critical hip movement during the transition from overhook guard to closed guard?
-**A**: The shoulder walk is the most critical hip movement. By pressing your shoulders into the mat alternately and scooting your hips incrementally toward the opponent's waist, you close the distance needed for ankle crossing without releasing any upper body control. Each micro-adjustment should gain two to three inches while maintaining constant overhook tension and leg pressure.
-
-**Q4**: Your opponent posts their free hand on the mat while you hold the overhook - how do you capitalize on this?
-**A**: Their posted hand is committed to the mat and unavailable for defending the guard closure. Immediately attack the posted arm with a kimura grip or use the opening to accelerate your hip walk since they cannot frame against your hip. Alternatively, their forward weight shift from posting actually assists your closure by bringing their waist closer to your hips.
-
-**Q5**: What grip should your non-overhook hand maintain during the ankle crossing phase?
-**A**: Your non-overhook hand should maintain firm control of the opponent's free arm, ideally gripping their wrist or sleeve. This is the most critical moment to prevent their free arm from posting or framing, as any resistance during the one-second ankle crossing window can derail the entire transition. Do not release this grip until your ankles are fully locked behind their back.
-
-**Q6**: In which direction should you apply force with your legs during the final ankle lock?
-**A**: Pull your heels toward your own glutes while squeezing your knees together against the opponent's ribcage. This creates a closing force that pulls the opponent's hips into yours and prevents them from creating backward distance. The heel pull generates constant postural pressure that makes it extremely difficult for the opponent to sit upright once the guard is locked.
-
-**Q7**: Your opponent begins standing up while you attempt to close your guard - what is your immediate response?
-**A**: If they stand before your ankles are crossed, abandon the closure attempt and immediately transition to feet on hips guard or collar sleeve guard to manage the standing distance. If your ankles are already crossed when they begin standing, maintain the closed guard and hang your weight from their hips while pulling collar control to break their posture back down. A locked closed guard against a standing opponent is still a strong position.
-
-**Q8**: If the guard closure fails and the opponent begins to strip your overhook, what chain attack should you transition to?
-**A**: As they strip the overhook by pulling their arm out, their arm movement creates an opening for a triangle setup since the arm is extending away from their body. Alternatively, switch your overhook hand to a wrist grip on the escaping arm and immediately attack with a kimura or transition to an arm drag toward their back. The key is flowing with their extraction energy into an attack rather than fighting to maintain a lost grip.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook to Closed Guard?</p>
 
 This transition involves controlled positional movement with minimal joint stress. Maintain awareness of knee positioning during hip walking to avoid awkward angles on your own knees. When closing guard, ensure ankles cross cleanly behind the opponent's back rather than catching on their hip bones, which can cause ankle strain under load. The overhook pressure on the opponent's shoulder should be firm but controlled to avoid shoulder injury during training. Communicate with your training partner if the overhook creates excessive pressure on their shoulder joint.
 

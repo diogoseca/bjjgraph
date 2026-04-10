@@ -325,43 +325,47 @@
     },
     "transitions": [
       {
-        "transition": "Guillotine Choke",
-        "attempt_probability": 44
+        "transition": "Guillotine Choke from Guillotine Control",
+        "attempt_probability": 52
       },
       {
         "transition": "High Elbow Guillotine Variation",
-        "attempt_probability": 16
+        "attempt_probability": 15
       },
       {
         "transition": "Front Headlock to Anaconda",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Front Headlock to Darce",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Side Control to Mount",
-        "attempt_probability": 7
+        "attempt_probability": 6
       },
       {
         "transition": "Side Control to North-South",
-        "attempt_probability": 5
+        "attempt_probability": 4
       },
       {
         "transition": "Pass to Side Control",
-        "attempt_probability": 10
+        "attempt_probability": 9
       },
       {
         "transition": "Arm in Guillotine Variation",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Guillotine Counter",
         "attempt_probability": 1
       },
       {
+        "transition": "Guillotine Counter",
+        "attempt_probability": 0
+      },
+      {
         "transition": "Ten Finger Guillotine Variation",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Guillotine Choke",
         "attempt_probability": 1
       }
     ]
@@ -640,7 +644,7 @@
     },
     "transitions": [
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Guillotine Control",
         "attempt_probability": 50
       },
       {

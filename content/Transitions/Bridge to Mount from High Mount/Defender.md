@@ -156,6 +156,8 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge to Mount from High Mount?</p>
+
 - Opponent plants both feet flat on the mat close to their hips with knees sharply bent at approximately 90 degrees
 - Visible tightening of opponent's core and gluteal muscles as they load posterior chain for explosive movement
 - Opponent shifts weight onto shoulders and upper back, creating a subtle arch in preparation for upward drive
@@ -168,6 +170,8 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge to Mount from High Mount?</p>
 
 - Maintain forward weight distribution with chest positioned over opponent's chest to maximize bridge absorption capacity
 - Keep knees wedged tight against opponent's armpits creating constant compression that restricts hip mobility
@@ -182,6 +186,8 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge to Mount from High Mount?</p>
 
 ### 1. Post hands wide and drive hips downward into a tripod base position
 
@@ -219,6 +225,8 @@ Effective bridge defense combines proactive pressure maintenance with reactive b
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge to Mount from High Mount?</p>
+
 ### → [[Positions/Mount/High Mount]]
 
 Absorb bridge force by posting hands wide near opponent's head, driving hips downward into their sternum, and keeping knees wedged tight against armpits. Maintain forward weight distribution throughout the bridge and re-settle pressure immediately after bridge subsides.
@@ -234,6 +242,8 @@ Capitalize on bridge displacement by transitioning one knee across opponent's to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge to Mount from High Mount?</p>
 
 ### 1. Sitting upright with weight centered over opponent's hips rather than leaning forward
 
@@ -263,6 +273,8 @@ Capitalize on bridge displacement by transitioning one knee across opponent's to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge to Mount from High Mount?</p>
+
 **Phase 1: Pressure Maintenance** - Forward weight distribution and base structure
 Practice maintaining high mount against progressive bridge attempts at increasing intensity (25%, 50%, 75%, full). Focus on keeping chest over opponent's chest, driving hips downward, and developing automatic posting reactions when feeling upward pressure.
 
@@ -279,26 +291,6 @@ Start in high mount with partner attempting all available escapes including brid
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important weight distribution adjustment for absorbing a bridge from high mount?
-**A**: Drive weight forward so your chest is positioned directly over the opponent's upper chest, with hips pressing downward into their sternum. This forward distribution forces them to bridge against your weight at a mechanical disadvantage because the upward force must overcome both gravity and your structural positioning. If you sit upright, your center of gravity is higher and the bridge can displace you backward with significantly less force.
-
-**Q2**: Your opponent plants their feet and you sense a bridge is imminent - what preemptive adjustment do you make?
-**A**: Immediately post one hand wide near their head for tripod stability and squeeze knees tighter against their armpits to restrict hip range of motion. Drop hips slightly lower to increase the vertical distance they must bridge to displace you. If possible, reach for a collar grip or wrist control with your free hand to threaten a submission, which forces them to defend rather than commit to the bridge.
-
-**Q3**: The opponent's bridge partially succeeds and your knees begin sliding downward - how do you recover advantage?
-**A**: Rather than fighting to walk knees back up immediately, flow with the displacement momentum by transitioning to S Mount on whichever side the bridge created space. Step one knee across their torso while extending the other leg back for base. This converts their partially successful escape into a positional advancement for you that is more dangerous than the original high mount position.
-
-**Q4**: How do you distinguish between a bridge attempt and an elbow escape setup from high mount bottom?
-**A**: Bridge attempts involve both feet planting flat with bilateral upward hip drive, felt as direct upward pressure against your hips and lower torso. Elbow escape setups involve turning to one side, creating frames on your hip, and driving a knee toward the hip line laterally. The distinction matters because bridges require base widening through posting, while elbow escapes require closing the lateral space between your knee and their hip on the escape side. Misidentifying leads to incorrect defensive positioning.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ Maintaining the Truck from the top requires continuous management of three inter
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Truck Maintenance?</p>
+
 - Boot pressure is the foundation of all truck control and must be maintained as a non-negotiable constant through all movements and transitions
 - Leg entanglement must be actively managed by adjusting hook depth and figure-four tightness every few seconds to prevent gradual loosening
 - Upper body connection through chest pressure and arm control coordinates with lower body entanglement to create unified positional control
@@ -208,6 +210,8 @@ Maintaining the Truck from the top requires continuous management of three inter
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Truck Maintenance?</p>
+
 - Boot (foot) firmly pressed against opponent's hip crease creating constant lateral torque that prevents hip rotation
 - Figure-four or lockdown leg entanglement trapping opponent's lower leg with hooking leg deep behind their knee
 - Chest or shoulder pressure pinning opponent's upper back to prevent forward rolls and maintain perpendicular alignment
@@ -220,6 +224,8 @@ Maintaining the Truck from the top requires continuous management of three inter
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Truck Maintenance step by step?</p>
 
 1. **Confirm Boot Pressure Placement**: Press your foot firmly into opponent's hip crease, angling your toes slightly inward to maximize surface contact and lateral torque. The boot should create constant pressure that prevents the opponent from squaring their hips or rotating to face you. Adjust angle until you feel their hip pinned against your foot.
 2. **Secure Leg Entanglement Depth**: Check that your figure-four leg configuration is locked tight with your hooking leg positioned deep behind their knee joint. The entanglement should prevent their trapped leg from straightening or being extracted without significant effort. Squeeze your knees together to tighten the lock.
@@ -250,6 +256,8 @@ Maintaining the Truck from the top requires continuous management of three inter
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Truck Maintenance?</p>
+
 - **Opponent clears boot pressure through persistent hand fighting and hip rotation** (Effectiveness: High) - Your Response: Immediately re-angle boot deeper into hip crease before opponent capitalizes; if boot is fully cleared, transition to back control by inserting hooks before they can re-turtle → Leads to [[Positions/Turtle]]
 - **Opponent executes granby roll using forward momentum to break leg entanglement** (Effectiveness: Medium) - Your Response: Follow the direction of the roll and transition to back control by inserting hooks during their rotation, or catch the far arm for crucifix as they turn → Leads to [[Positions/Half Guard]]
 - **Opponent straightens trapped leg explosively to extract from entanglement** (Effectiveness: Medium) - Your Response: Attack the straightening leg immediately with calf slicer pressure using their extension against them, or deepen your hook behind the knee before full extension is achieved → Leads to [[Positions/Turtle]]
@@ -261,6 +269,8 @@ Maintaining the Truck from the top requires continuous management of three inter
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Truck Maintenance?</p>
 
 ### 1. Relaxing boot pressure while focusing on upper body submission setups
 
@@ -300,6 +310,8 @@ Maintaining the Truck from the top requires continuous management of three inter
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Truck Maintenance (Attacker)?</p>
+
 **Phase 1: Static Control Fundamentals** - Boot pressure and leg entanglement mechanics
 Partner remains passive while you practice establishing and holding all three control points. Focus on optimal boot angle, figure-four tightness, and chest pressure distribution. Hold for 2-minute rounds with emphasis on using body weight rather than muscular effort.
 
@@ -320,42 +332,12 @@ Full resistance rounds where you must attempt at least two different submissions
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical control point for truck maintenance and why?
-**A**: Boot pressure against the opponent's hip is the most critical control point. It creates the lateral torque that prevents hip rotation, enables leg entanglement to function effectively, and serves as the foundation for all upper body control. Without boot pressure, the entire truck position unravels regardless of how tight your leg entanglement or upper body grips are, because the opponent regains the hip mobility needed to initiate any escape.
-
-**Q2**: Your opponent begins hand-fighting your boot with both hands—how do you respond?
-**A**: When the opponent commits both hands to boot clearing, immediately threaten a twister grip or neck attack since their neck is now completely undefended. This forces at least one hand back to neck protection. Simultaneously, angle your foot deeper into their hip crease and increase lateral pressure. The opponent cannot effectively fight your boot with both hands while also defending submission threats, creating the core maintenance dilemma.
-
-**Q3**: How do you manage energy expenditure during extended truck maintenance?
-**A**: Use skeletal alignment and body weight rather than muscular effort for sustained control. Position your chest directly on their upper back so gravity creates pressing force. Lock your legs in a configuration where bone structure maintains the entanglement without constant squeezing. Rest in maintenance posture between attack attempts rather than constantly hunting submissions. Work in deliberate cycles of controlled pressure followed by brief attack sequences.
-
-**Q4**: What indicators tell you truck maintenance is failing and you should transition to back control?
-**A**: Key failure indicators include: boot pressure reduced below effective torque despite re-seating attempts, opponent's trapped leg more than halfway extracted from entanglement, opponent achieving significant hip rotation toward facing you, or opponent establishing a strong frame that prevents re-establishment of chest pressure. When two or more of these occur simultaneously, immediately transition to back control by inserting hooks rather than fighting a losing maintenance battle.
-
-**Q5**: Your opponent attempts a granby roll while you maintain truck—what is your response?
-**A**: Follow the direction of their roll rather than resisting it, using their momentum to transition to back control by inserting hooks as they rotate. Attempting to stop a committed granby by holding position typically fails and wastes energy. The granby actually exposes the back further during the rotation phase, creating an optimal window for back take. Alternatively, if you read the roll early, catch the far arm during rotation for a crucifix transition.
-
-**Q6**: How do submission threats function as maintenance tools in the truck position?
-**A**: Submission threats force the opponent into defensive mode rather than escape mode. When you threaten a twister grip, they must use at least one hand for neck defense instead of fighting your boot. When you pressure the calf slicer, they must address their trapped leg defensively. This constant defensive burden prevents them from committing fully to any multi-step escape sequence, effectively maintaining position through offensive pressure rather than purely defensive holding.
-
-**Q7**: What is the correct sequence for re-establishing control when your leg entanglement loosens?
-**A**: Immediately re-tighten by pulling your hooking leg deeper behind their knee and squeezing your knees together. If significant loosening has occurred, momentarily increase boot pressure to restrict their hip movement while you re-lock the figure-four configuration. Address loosening within one to two seconds because gradual loosening compounds rapidly—once the leg is half-extracted, full extraction follows within seconds and the position becomes unsalvageable.
-
-**Q8**: When should you choose tight boot maintenance versus dynamic re-entry maintenance?
-**A**: Choose tight boot maintenance against smaller, more flexible opponents who can exploit any space you create, or when you want to conserve energy through maximum grinding pressure. Choose dynamic re-entry maintenance against larger or stronger opponents whose explosive escape attempts are difficult to block directly. Dynamic style follows their movement and re-establishes control from new angles rather than fighting strength against strength, which is more sustainable against powerful opponents.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Truck Maintenance?</p>
 
 The truck position creates significant torque on the opponent's spine and knee joints. When practicing maintenance, avoid sudden explosive adjustments that could hyperextend the trapped leg or compress the knee. Partners should establish clear tap signals before drilling. Be especially cautious with boot pressure angles that drive the opponent's hip into extreme rotation. Never crank leg entanglement against a tapping opponent and release immediately upon any tap signal. Spinal submission threats from this position can cause permanent injury if not respected during training.
 

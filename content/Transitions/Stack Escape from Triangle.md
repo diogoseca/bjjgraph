@@ -214,7 +214,7 @@ The Stack Escape from Triangle occupies a critical role in the defensive guard e
 
 - [[Transitions/Posture in Triangle]] - Related defensive concept for managing posture inside triangle control before escaping
 
-- [[Transitions/Triangle Choke]] - The primary submission threat being escaped through the stacking mechanism
+- [[Submissions/Triangle Choke]] - The primary submission threat being escaped through the stacking mechanism
 
 - [[Positions/Closed Guard]] - Alternative escape destination if triangle is cleared without completing a full pass
 

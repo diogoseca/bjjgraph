@@ -162,6 +162,8 @@ As the top player defending against knee shield recovery, your objective is to m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Recover Knee Shield from Flattened Half?</p>
+
 - Bottom player begins fighting for an underhook on your far side with increased arm activity under your armpit
 - Bottom player's hips initiate small shrimping movements away from you toward their trapped leg side
 - Bottom player's breathing pattern shifts from shallow panic breaths to controlled rhythmic breathing, signaling mental preparation for systematic recovery
@@ -174,6 +176,8 @@ As the top player defending against knee shield recovery, your objective is to m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Recover Knee Shield from Flattened Half?</p>
 
 - Maintain dynamic forward pressure that follows the bottom player's hip movements rather than remaining statically heavy in one position
 - Deny the underhook at all costs - the underhook is the structural foundation of their entire recovery sequence
@@ -188,6 +192,8 @@ As the top player defending against knee shield recovery, your objective is to m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Recover Knee Shield from Flattened Half?</p>
 
 ### 1. Drive crossface deeper and increase forward chest pressure while following their hip escape with your own hip movement
 
@@ -225,6 +231,8 @@ As the top player defending against knee shield recovery, your objective is to m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Recover Knee Shield from Flattened Half?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Maintain constant underhook denial and dynamic crossface pressure that follows the bottom player's hip escape direction. Address every micro-movement immediately rather than allowing incremental gains to compound. Keep your hips heavy and connected to prevent space creation.
@@ -240,6 +248,8 @@ Exploit the space the bottom player creates during recovery attempts by timing y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Recover Knee Shield from Flattened Half?</p>
 
 ### 1. Maintaining purely static pressure without adjusting to the bottom player's incremental movements
 
@@ -269,6 +279,8 @@ Exploit the space the bottom player creates during recovery attempts by timing y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Recover Knee Shield from Flattened Half?</p>
+
 **Phase 1: Pressure Maintenance and Following** - Learning to maintain connected pressure while following the bottom player's hip movements
 Start in flattened half guard top while partner performs hip escapes at 30% speed. Focus on following their hip direction with your own hips to prevent space creation. No passing attempts, purely pressure maintenance and tracking. Gradually increase partner's speed and resistance.
 
@@ -285,29 +297,6 @@ Two-minute rounds starting in flattened half guard. Top player works to maintain
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that signals your opponent is about to attempt knee shield recovery?
-**A**: The first cue is typically the opponent fighting to establish or strengthen their underhook on your far side. You will feel increased hand activity and arm movement under your armpit as they try to swim their arm through. This underhook attempt precedes the hip escape sequence and is the clearest early warning that a systematic recovery is beginning rather than a random panic movement.
-
-**Q2**: How should you adjust your pressure distribution when you feel the bottom player beginning to hip escape?
-**A**: Immediately follow their hip movement with your own hips, driving forward to close any space they create. Shift your weight diagonally toward their trapped leg side, the direction they are escaping toward. Simultaneously increase crossface pressure to limit their head and shoulder mobility. The critical principle is being proactive rather than reactive: follow their hips in real-time rather than waiting for them to create space and then trying to reclaim it.
-
-**Q3**: When is the optimal moment to attempt a knee slice during your opponent's knee shield recovery?
-**A**: The best moment is when the opponent has created partial space for their knee shield but has not yet established the frame across your body. At this point, they have committed to the lateral hip escape movement and their leg hook is often slightly loosened in preparation for driving the knee across. Drive your knee slice through the newly created gap while they are in mid-transition between hip escape and shield insertion, when they cannot simultaneously complete the shield and defend the slice.
-
-**Q4**: Your opponent keeps recovering their knee shield despite your pressure - what systematic adjustment breaks the cycle?
-**A**: Address the root cause rather than fighting each individual recovery. If they keep recovering, you are likely allowing too much underhook control or creating space during your own grip adjustments. Establish a whizzer or arm control on their underhook side to eliminate the structural foundation of their recovery. Without the underhook, their hip escapes lack the support needed to generate meaningful space. Combine this with hip-to-hip pressure driving directly into their recovering knee to collapse the shield before it establishes.
-
-**Q5**: What is the risk of maintaining purely static pressure when your opponent is attempting recovery?
-**A**: Static pressure, while initially effective, becomes predictable and allows the opponent to time their micro-escapes with your breathing cycle and natural weight shifts. They systematically chip away at your control through incremental gains that compound over time. Dynamic pressure that includes small weight shifts, crossface angle changes, and proactive passing threats keeps the opponent guessing about the timing and direction of your pressure, disrupting their systematic recovery pattern and forcing reactive rather than planned movements.
-
-
-
-</section>
 
 
 </main>

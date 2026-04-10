@@ -188,6 +188,8 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle from Diamond Guard?</p>
+
 - Maintain overhook depth throughout the entire transition — the overhook is your anchor and losing it collapses the entire attack
 - Switch from head control to wrist control on the trapped arm before opening guard to ensure arm isolation persists through the transition
 - Create hip angle toward the overhook side before shooting the choking leg to shorten the distance your leg must travel over the neck
@@ -202,6 +204,8 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle from Diamond Guard?</p>
+
 - Deep overhook with elbow past the opponent's tricep and arm pulled tight to your ribs, confirmed by inability to slip free
 - Head control grip behind the neck pulling opponent's forehead to your sternum, posture fully broken
 - Closed guard legs locked with heels actively pulling into opponent's lower back for maximum posture break
@@ -214,6 +218,8 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle from Diamond Guard step by step?</p>
 
 1. **Confirm diamond frame integrity**: Before initiating the attack, verify that your overhook is deep with your elbow past the opponent's tricep and your head control is pulling their forehead below their shoulder line. Both controls must be solid — if either is compromised, re-establish the diamond before attacking. Check that your closed guard heels are actively pulling into their lower back to reinforce the posture break.
 2. **Switch head control to wrist control**: Release your head control grip and immediately grip the wrist or sleeve of the opponent's trapped arm (the arm inside the overhook). This grip switch must happen quickly because releasing head control creates a brief posture recovery window. The wrist grip ensures the arm stays isolated across their neck even after you release head control. In gi, grab the sleeve at the wrist; in no-gi, use a C-grip around the wrist.
@@ -243,6 +249,8 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle from Diamond Guard?</p>
+
 - **Opponent drives hips backward to recover posture before grip switch completes** (Effectiveness: High) - Your Response: Increase heel pressure into their lower back before initiating the grip switch. If they begin recovering posture, abort the triangle attempt and re-establish head control to restore the diamond frame before reattempting. → Leads to [[Positions/Closed Guard/Diamond Guard]]
 - **Opponent strips the wrist grip during the head control to wrist control switch** (Effectiveness: Medium) - Your Response: If the wrist grip fails, immediately re-establish head control to restore the diamond. Alternatively, if your leg is already moving toward the neck, commit to the quick shoot variation and rely on the overhook alone to keep the arm trapped during the leg shoot. → Leads to [[Positions/Closed Guard/Diamond Guard]]
 - **Opponent stacks forward and drives shoulder into your chest to compress your guard structure** (Effectiveness: Medium) - Your Response: Use the stacking momentum to pivot your hips further toward the overhook side, converting their forward drive into the angle you need. If stacking becomes severe, redirect to an omoplata entry which becomes easier when the opponent drives forward. → Leads to [[Positions/Closed Guard/Diamond Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle from Diamond Guard?</p>
 
 ### 1. Releasing head control before securing wrist control on the trapped arm
 
@@ -298,6 +308,8 @@ As the attacker executing the triangle from Diamond Guard, you are leveraging an
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle from Diamond Guard (Attacker)?</p>
+
 **Phase 1: Grip Switch Mechanics** - Head control to wrist control transition
 Practice the grip switch in isolation with a compliant partner. Establish diamond guard and perform 20 repetitions of switching from head control to wrist control without opening guard. Focus on overlap timing where both controls exist briefly. Build speed gradually while maintaining control continuity.
 
@@ -318,45 +330,12 @@ Incorporate the triangle from diamond guard into live rolling. Start rounds from
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the grip switch from head control to wrist control happen before opening the guard?
-**A**: Opening the guard removes the lower body anchor that prevents distance creation. If the guard is opened without wrist control established, the opponent can simultaneously push their hips back to recover posture and strip the overhook, collapsing the entire diamond frame. The wrist grip ensures the trapped arm stays isolated even after the legs open, maintaining the arm isolation prerequisite for the triangle while allowing hip angle creation.
-
-**Q2**: What is the optimal hip angle for the leg shoot, and why does this angle matter?
-**A**: The optimal angle is approximately 30-45 degrees toward the overhook side. This angle matters because it shortens the distance the choking leg must travel to reach over the opponent's neck, reducing the transition time window where the attack is vulnerable to defensive reactions. A square hip position requires the leg to travel a longer arc, giving the opponent time to tuck their chin, turn their shoulder, or begin posture recovery before the leg arrives.
-
-**Q3**: Your opponent begins recovering posture as you release head control for the grip switch — what do you do?
-**A**: If posture recovery begins during the grip switch, you have two options based on timing. If you have not yet secured wrist control, abort the triangle immediately and re-establish head control to restore the diamond frame before reattempting. If wrist control is already established, accelerate the leg shoot by committing to the quick shoot variation, using the overhook and wrist grip to maintain arm isolation while shooting the leg over the neck before posture is fully recovered.
-
-**Q4**: What role does the overhook play during each phase of the triangle setup?
-**A**: During the diamond phase, the overhook isolates one arm and eliminates posting ability. During the grip switch, the overhook maintains arm isolation while head control transitions to wrist control. During the guard opening and hip angle creation, the overhook continues holding the arm across the opponent's body. During the leg shoot, the overhook keeps the arm trapped while the leg travels over the neck. After the triangle is locked, the overhook can be released since the leg configuration now controls both the arm and neck.
-
-**Q5**: How do you adjust the triangle entry when the opponent stacks forward with heavy shoulder pressure?
-**A**: Use the opponent's forward momentum to pivot your hips further toward the overhook side. Their stacking drive creates the hip displacement you need for the angle. If the stack becomes severe and prevents the leg from reaching the neck, redirect to an omoplata entry by continuing the hip rotation past 45 degrees. The forward pressure that makes the triangle difficult actually facilitates the omoplata rotation, creating a natural chain between the two submissions.
-
-**Q6**: What is the most critical grip requirement for this technique, and what happens if it fails?
-**A**: The most critical grip is the overhook, which must remain deep with the elbow past the opponent's tricep throughout the entire transition. If the overhook fails at any point, the arm isolation that makes this triangle entry effective is lost. Without the overhook, the opponent can post with their freed arm, frame against the leg shoot, or drive into a passing position through the opened guard. The wrist control grip is secondary — it can be missed if the overhook is deep enough to maintain arm isolation through the leg shoot.
-
-**Q7**: Your opponent strips your wrist grip during the transition but your leg is already halfway over their neck — how do you complete the attack?
-**A**: Commit fully to the leg shoot by driving your choking leg all the way over the neck in one aggressive motion. The overhook still maintains arm isolation even without the wrist grip. As soon as the leg crosses the back of their neck, immediately lock the triangle by tucking your opposite ankle behind the knee. Then use your newly available hand to re-grip the trapped wrist and pull it across their neck. The brief moment without wrist control is acceptable if the leg shoot is completed quickly.
-
-**Q8**: Why is this triangle entry higher percentage than a standard closed guard triangle setup?
-**A**: Standard closed guard triangle setups must create arm isolation and posture break simultaneously or in sequence during the attack, giving the opponent windows to defend each element separately. The diamond guard triangle starts with both prerequisites already established — the overhook has isolated the arm and the head control has broken posture. This means the attacker only needs to execute the grip switch and leg shoot, reducing the number of defensive windows from three or four down to one primary vulnerability moment during the grip transition.
-
-**Q9**: What determines whether you should lock the triangle and finish, or transition to an alternative submission?
-**A**: If your choking leg successfully crosses the back of the opponent's neck and you can lock the ankle behind your knee at a high position, commit to the triangle and work the finish. If the leg lands but the lock is low on the back rather than behind the neck, consider transitioning to an armbar by pivoting your hips and extending the trapped arm. If the opponent's shoulder turns inward during the leg shoot, redirect to an omoplata rotation. The decision point is the quality of the triangle lock — a high, tight lock warrants finishing, while a compromised lock signals a transition opportunity.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle from Diamond Guard?</p>
 
 The triangle from Diamond Guard involves neck compression through the choking leg configuration and shoulder stress on the trapped arm from the overhook. During training, execute the grip switch and leg shoot at controlled speeds to avoid accidentally striking your partner's face with your shin during the leg shoot. When the triangle is locked, apply pressure progressively and respond immediately to tap signals. The overhook can create shoulder torque on the trapped arm during the transition — be aware that aggressive overhook pulling combined with the leg shoot can stress the shoulder joint beyond comfortable levels. Partners should communicate if shoulder discomfort occurs during the overhook phase before the triangle is attempted.
 

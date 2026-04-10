@@ -194,6 +194,8 @@ As the practitioner trapped in back control, your primary objective is to system
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hand Fight to Turtle from Back?</p>
+
 - Defend the neck first through chin tuck and two-on-one control on the choking arm before initiating any escape sequence
 - Address opponent's grips in strict sequence: choking arm first, then harness connection, then hooks - skipping steps invites submission
 - Use two-on-one grip fighting to create mechanical advantage when stripping opponent's controls rather than matching strength against strength
@@ -208,6 +210,8 @@ As the practitioner trapped in back control, your primary objective is to system
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hand Fight to Turtle from Back?</p>
+
 - Chin tucked tightly to chest with neck defended against immediate choking threats from the rear naked choke
 - At least one hand positioned to begin two-on-one grip fighting on opponent's choking arm (the over arm in seatbelt configuration)
 - Awareness of opponent's grip configuration including which arm is the choking arm and whether hooks or body triangle are being used
@@ -220,6 +224,8 @@ As the practitioner trapped in back control, your primary objective is to system
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hand Fight to Turtle from Back step by step?</p>
 
 1. **Establish neck defense**: Immediately tuck your chin tightly to your chest and use both hands to control the opponent's choking arm at the wrist. Secure a two-on-one grip with your hands clasped around their wrist, preventing the arm from sliding under your chin. This neutralizes the immediate rear naked choke threat and creates the foundation for the grip stripping sequence.
 2. **Strip the choking arm**: Using your two-on-one grip, peel the opponent's choking arm away from your neck by pulling their wrist toward your chest and away from your centerline. Drive their hand down toward your hip on the choking arm side, breaking the seatbelt connection. Maintain constant downward pressure on their wrist throughout the strip to prevent them from re-threading the arm around your neck.
@@ -250,6 +256,8 @@ As the practitioner trapped in back control, your primary objective is to system
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hand Fight to Turtle from Back?</p>
+
 - **Opponent immediately re-secures harness grip each time you strip it through persistent re-gripping** (Effectiveness: High) - Your Response: Maintain two-on-one control and repeat the grip strip. Each strip attempt weakens their grip endurance. After two to three failed strips, switch to peeling the under arm instead to change the problem and force them to adjust → Leads to [[Positions/Back Control]]
 - **Opponent follows your rotation and drives their hips over the top to transition to mount** (Effectiveness: High) - Your Response: If you feel the opponent riding over during your turn, immediately stop the rotation and return to back defense rather than conceding mount. Alternatively, accelerate the turn and establish turtle before they can complete the mount transition by getting your knees under you first → Leads to [[Positions/Mount]]
 - **Opponent re-inserts hooks before you can complete the rotation to turtle** (Effectiveness: Medium) - Your Response: Continue working the grip strip on the upper body while using your legs to fight the hooks simultaneously. Address the re-inserted hook with a hip escape to create angle, then resume the rotation sequence from the hook clearing step → Leads to [[Positions/Back Control]]
@@ -261,6 +269,8 @@ As the practitioner trapped in back control, your primary objective is to system
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hand Fight to Turtle from Back?</p>
 
 ### 1. Attempting to rotate before defending the neck and stripping the harness grip
 
@@ -300,6 +310,8 @@ As the practitioner trapped in back control, your primary objective is to system
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hand Fight to Turtle from Back (Attacker)?</p>
+
 **Phase 1: Grip Stripping Mechanics** - Two-on-one hand fighting and harness strip technique
 Practice the two-on-one grip strip in isolation with a cooperative partner who maintains harness control. Focus on proper hand placement, peeling mechanics, and arm pinning. Perform 20-30 repetitions per side with no resistance, emphasizing the correct sequence of identifying the choking arm, establishing two-on-one control, and stripping to the hip.
 
@@ -320,42 +332,12 @@ Practice switching between hand fight to turtle, back door escape, and shoulder 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the rotation to turtle during this escape?
-**A**: The optimal timing window is immediately after successfully stripping the opponent's harness grip and pinning their choking arm to your chest. At this moment, their upper body control is compromised and they are likely focused on re-establishing the grip rather than adjusting their hooks. This creates a brief window where their reaction is split between upper and lower body control, making the rotation most likely to succeed.
-
-**Q2**: What conditions must exist before you can attempt the hand fight to turtle escape?
-**A**: Three conditions must be met: first, your neck must be defended through chin tuck to prevent immediate submission during the escape; second, you must have at least one hand positioned to begin two-on-one control on the opponent's choking arm; and third, you must have sufficient composure to execute a systematic multi-step escape rather than explosive movements. Without neck defense, any movement risks submission. Without hand access, grip stripping is impossible. Without composure, the sequence breaks down.
-
-**Q3**: What is the most critical mechanical detail when stripping the opponent's choking arm from the seatbelt?
-**A**: The most critical detail is pulling the opponent's wrist downward toward your hip rather than outward away from your body. Pulling outward allows them to use arm strength to resist and re-thread. Pulling downward toward your hip uses gravity and your body weight as anchors, creating a mechanical advantage that is much harder for the opponent to resist. Your two-on-one grip should peel their hand off your neck and drive it down along your torso.
-
-**Q4**: What are the most common failure points where this escape breaks down?
-**A**: The three most common failure points are: attempting rotation before fully stripping the harness, which results in the choke tightening during the turn; failing to clear the bottom hook before rotating, which allows the opponent to maintain back control through the turn; and stopping mid-rotation in an in-between position, which gives the opponent time to readjust and either re-take the back or transition to mount. Each failure point corresponds to skipping a step in the sequence.
-
-**Q5**: What grip configuration do you need to establish before beginning the strip sequence?
-**A**: You need a two-on-one configuration on the opponent's choking arm. Both of your hands should control their wrist or forearm, with your fingers interlocked or layered around their wrist. Your chin must be tucked below their arm to prevent the choke from being set during the grip fight. The two-on-one gives you a decisive mechanical advantage since two arms against one can overcome the grip strength differential that makes single-hand fighting ineffective.
-
-**Q6**: In which direction should you apply force when clearing the bottom hook during the rotation?
-**A**: Force should be applied in an extending direction by straightening your leg to push the opponent's hooking foot toward the mat and away from your inner thigh. Simultaneously, your hips should escape laterally away from the hook side, creating an angle that reduces the opponent's hook leverage. The combination of leg extension and hip escape removes the hook more effectively than either motion alone, because the angle change makes the hook structurally weaker.
-
-**Q7**: Your opponent re-secures the harness grip after your first strip attempt and starts squeezing their hooks tighter. How do you adjust your approach?
-**A**: Rather than repeating the same strip, switch to addressing the under arm of the seatbelt to change the problem they must solve. Alternatively, target the harness connection point where their hands clasp together, breaking the clasp before peeling either arm. If grip fighting stalls completely, shift to a different escape methodology like the back door escape or shoulder walk, which attack different control points and force the opponent to adjust their defense.
-
-**Q8**: You successfully reach turtle but the opponent still has one hook partially inserted. What should you do immediately?
-**A**: Immediately establish a tight defensive turtle posture with elbows to knees and chin tucked, then kick back with the hooked leg to strip the remaining hook before the opponent can use it to flatten you or re-establish back control. Do not attempt guard recovery or standup until both hooks are fully cleared, because a single hook gives the opponent enough control to drag you back into full back control. Once the hook is cleared, immediately begin working toward your preferred turtle escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hand Fight to Turtle from Back?</p>
 
 Hand fighting from back control involves positions where the neck is vulnerable to choking techniques throughout the escape sequence. Always train with partners who respect tap signals and release immediately upon feeling the tap. Practice grip stripping at controlled intensity before increasing resistance to avoid finger and wrist injuries from aggressive grip fighting. Be aware that aggressive rotation attempts while the opponent maintains a deep choke grip can strain the cervical spine. If a choke becomes tight at any point during training, tap immediately rather than attempting to power through the escape. Communicate with your training partner about resistance levels during progressive drilling.
 

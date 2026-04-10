@@ -423,8 +423,8 @@
             "probability": 55
           },
           {
-            "technique": "Armbar from Guard",
-            "target": "Armbar Control",
+            "technique": "Hook Sweep",
+            "target": "Mount",
             "probability": 50
           },
           {
@@ -564,11 +564,11 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Omoplata",
+        "transition": "Omoplata from Crackhead Control",
         "attempt_probability": 13
       },
       {
-        "transition": "Triangle Choke",
+        "transition": "Triangle Choke from Crackhead Control",
         "attempt_probability": 12
       },
       {
@@ -576,11 +576,11 @@
         "attempt_probability": 15
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Hook Sweep",
         "attempt_probability": 12
       },
       {
-        "transition": "Baratoplata",
+        "transition": "Baratoplata from Crackhead Control",
         "attempt_probability": 7
       },
       {

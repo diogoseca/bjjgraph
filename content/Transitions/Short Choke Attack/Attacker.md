@@ -186,6 +186,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Short Choke Attack?</p>
+
 - Use opponent's trapped arm as integral part of choking structure rather than ignoring it
 - Chin-to-chest connection prevents choke entry - create angle to bypass chin
 - Figure-four grip configuration maximizes compression with minimal space requirement
@@ -201,6 +203,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Short Choke Attack?</p>
+
 - Gift Wrap control fully established with opponent's arm trapped high across their chest
 - Back control maintained with hooks in or body triangle secured
 - Opponent's chin is exposed or accessible through angle manipulation
@@ -213,6 +217,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Short Choke Attack step by step?</p>
 
 1. **Consolidate Gift Wrap**: Ensure the trapped arm is pulled high across opponent's chest toward their opposite shoulder. Verify your threading arm maintains wrist or forearm control with elbow tight to their body.
 2. **Flatten opponent**: Drive your hips forward into opponent's lower back while pulling their trapped arm tight. This flattens them toward the mat and compromises their ability to create defensive angles or use explosive bridging.
@@ -230,7 +236,7 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Short Choke]] | 55% |
 | Failure | [[Positions/Gift Wrap]] | 30% |
 | Counter | [[Positions/Back Control]] | 15% |
 
@@ -240,6 +246,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Short Choke Attack?</p>
 
 - **Chin tuck with shoulder shrug to prevent arm threading under chin** (Effectiveness: High) - Your Response: Use angle changes and forehead pressure to create access; alternatively, switch to armbar attack on the free arm while they focus on chin defense → Leads to [[Positions/Gift Wrap]]
 - **Free hand grip fighting to prevent figure-four connection** (Effectiveness: Medium) - Your Response: Maintain pressure and wait for their grip to fatigue; their free arm defending the choke opens pathways to armbar or transition to crucifix → Leads to [[Positions/Gift Wrap]]
@@ -252,6 +260,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Short Choke Attack?</p>
 
 ### 1. Attempting choke before Gift Wrap control is fully consolidated
 
@@ -291,6 +301,8 @@ Strategically, the Short Choke represents the most direct submission threat from
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Short Choke Attack (Attacker)?</p>
+
 **Week 1-2** - Choke mechanics isolation
 Practice the figure-four grip configuration and finishing squeeze on a cooperative partner from an already-established Gift Wrap position. Focus on arm threading path, grip connection points, and pressure direction without any resistance.
 
@@ -308,48 +320,12 @@ Start from back control without Gift Wrap and work the complete sequence: establ
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Short Choke Attack?
-**A**: The primary goal is to achieve a blood choke finish by threading your free arm under the opponent's chin and connecting to your Gift Wrap controlling arm in a figure-four configuration. The trapped arm becomes part of the choking structure, creating compression on both carotid arteries that produces unconsciousness if not released.
-
-**Q2**: What position do you start Short Choke Attack from?
-**A**: This technique starts from Gift Wrap Top position, where you have back control established and one of the opponent's arms is trapped across their body. The trapped arm is controlled by threading your arm under their armpit and gripping their wrist or forearm on the opposite side.
-
-**Q3**: What are the key grips needed for Short Choke Attack?
-**A**: The Short Choke requires maintaining your Gift Wrap control grip (threading arm controlling opponent's trapped wrist/forearm) while your free arm threads under the chin and connects in a figure-four configuration to your Gift Wrap arm's bicep or forearm. The combination creates a closed loop using the opponent's own arm as part of the structure.
-
-**Q4**: How do you counter an opponent who tucks their chin tightly to prevent the Short Choke entry?
-**A**: Create angle by rotating your body slightly to bypass the chin from the side rather than directly from behind. Apply forehead pressure with your free hand to tilt their head. Alternatively, accept the chin defense and switch to armbar attack on their free arm, which is now exposed because they're using it to supplement chin defense.
-
-**Q5**: When is the best time to attempt Short Choke Attack?
-**A**: Attempt the Short Choke when Gift Wrap control is fully consolidated with the trapped arm high across the chest, when the opponent is flattened by your hip pressure reducing their defensive mobility, and when their free arm is occupied with grip fighting or trapped in your hooks. The ideal window opens when they exhaust defensive options and momentarily relax.
-
-**Q6**: Your opponent starts using their free hand to block your choking arm from threading under their chin. How do you respond?
-**A**: Maintain pressure and let their arm fatigue from the constant defensive effort. Their free arm blocking the choke opens pathways to armbar attack since that arm is now isolated and extended. You can also threaten the armbar to force them to retract the hand, then immediately thread the choke. The key is recognizing this as opportunity rather than obstacle.
-
-**Q7**: What mechanical details make the Short Choke more efficient than a standard rear naked choke from Gift Wrap?
-**A**: The Short Choke uses the opponent's own trapped arm as part of the choking structure, eliminating the need to thread a second arm behind their head. This requires less space to establish and works with their compromised defensive position. The figure-four configuration creates compression from multiple angles with the forearm on the throat and the arm loop providing lateral pressure.
-
-**Q8**: If the Short Choke fails and the opponent defends successfully, what are your immediate chain attack options?
-**A**: Chain options include: armbar on the free arm (especially effective if they used it to defend the choke), transition to crucifix by controlling their free arm with your leg, advancement to technical mount while maintaining Gift Wrap, or reset to rear naked choke attempt if they've exhausted energy defending. The Gift Wrap position provides multiple branching attack paths.
-
-**Q9**: Your opponent explosively bridges and rolls while you are mid-choke attempt. What is the critical adjustment?
-**A**: Drive your hips forward into their lower back to absorb the bridge energy before it generates momentum. Keep your chest glued to their back and tighten your hooks or body triangle. If they complete the roll, follow the rotation and transition to mounted Gift Wrap, which actually improves your attacking position. Never abandon the arm trap during their bridge attempt.
-
-**Q10**: What is the correct direction of force when applying the finishing squeeze on the Short Choke?
-**A**: Squeeze your elbows together toward the centerline while simultaneously expanding your chest and arching slightly backward. The forearm compresses the front of the neck while the figure-four loop creates bilateral pressure on both carotid arteries. Force must compress inward from all sides rather than pulling backward, which would create a crank rather than a clean blood choke.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Short Choke Attack?</p>
 
 The Short Choke Attack is a blood choke that compresses the carotid arteries and can produce unconsciousness within seconds when properly applied. Training partners must tap immediately when they feel the choke tighten. Attackers must release pressure instantly upon feeling a tap or verbal submission. Never hold a choke after the tap, and never apply the choke explosively or with cranking neck pressure. In drilling, apply the choke slowly to allow partners time to recognize and tap to the submission. Be especially careful with newer training partners who may not recognize the sensation of a blood choke versus an air choke. If a training partner loses consciousness, release immediately and position them in recovery position. The Short Choke should only be practiced under qualified instruction with attentive training partners.
 

@@ -192,6 +192,8 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hip Escape to Guard?</p>
+
 - Maintain neck protection with free hand throughout the entire escape sequence
 - Create space through hip movement rather than arm strength
 - Time escape attempts when opponent shifts weight for attacks or adjustments
@@ -207,6 +209,8 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hip Escape to Guard?</p>
+
 - Free hand positioned to protect neck from rear naked choke attacks
 - Body positioned on side rather than flat on back to preserve hip mobility
 - Recognition of opponent's weight distribution and attack intentions
@@ -219,6 +223,8 @@ Strategically, this escape represents your primary pathway out of a position tha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hip Escape to Guard step by step?</p>
 
 1. **Secure neck defense**: Position your free hand on your neck and chin area to prevent rear naked choke entry. Tuck your chin hard toward your chest and commit to keeping this hand defending throughout the entire escape sequence regardless of other opportunities.
 2. **Establish side position**: Turn onto your side facing away from opponent if not already there. Keep your top shoulder off the mat to maintain hip mobility for the shrimping motion. This side position is critical because flat-on-back shrimping generates almost no useful distance.
@@ -248,6 +254,8 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hip Escape to Guard?</p>
+
 - **Opponent follows hip escape and maintains chest connection** (Effectiveness: High) - Your Response: Continue sequential hip escapes in same direction, creating more cumulative space. Eventually the gap becomes too large to follow while maintaining Gift Wrap control. Three to four consecutive escapes typically break their connection. → Leads to [[Positions/Gift Wrap]]
 - **Opponent tightens arm trap and flattens you when sensing escape attempt** (Effectiveness: High) - Your Response: Abort escape attempt and reset to defensive posture. Wait for next opportunity when they commit to submission attack, which requires loosening positional control. Patience is essential against disciplined opponents. → Leads to [[Positions/Gift Wrap]]
 - **Opponent transitions to mounted Gift Wrap during escape** (Effectiveness: Medium) - Your Response: Accept the mount transition but use the weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an arm extraction opportunity. → Leads to [[Positions/Mount]]
@@ -259,6 +267,8 @@ Strategically, this escape represents your primary pathway out of a position tha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hip Escape to Guard?</p>
 
 ### 1. Abandoning neck defense to work on arm recovery
 
@@ -298,6 +308,8 @@ Strategically, this escape represents your primary pathway out of a position tha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hip Escape to Guard (Attacker)?</p>
+
 **Week 1-2** - Hip escape mechanics
 Practice shrimping motion from Gift Wrap position without partner resistance. Focus on maintaining side position, protecting neck with free hand, and keeping trapped arm relaxed. Drill the basic movement pattern 50+ repetitions per session.
 
@@ -318,54 +330,12 @@ Positional sparring starting from Gift Wrap Bottom. Partner uses full resistance
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Hip Escape to Guard?
-**A**: The primary goal is to escape the Gift Wrap position and recover to open guard where you have restored full defensive capability. This involves creating space through sequential hip escapes, extracting the trapped arm, and establishing guard frames with feet on hips before opponent can re-engage.
-
-**Q2**: What position do you start Hip Escape to Guard from?
-**A**: This technique starts from Gift Wrap Bottom, where your opponent has back control with one of your arms trapped diagonally across your body. The trapped arm significantly limits your defensive options, making systematic escape essential before submission attacks succeed.
-
-**Q3**: Why must you maintain neck defense throughout the entire escape sequence?
-**A**: The rear naked choke becomes the highest percentage attack from Gift Wrap because your trapped arm cannot assist with neck defense. Removing your free hand from neck protection even momentarily creates an immediate finishing opportunity. Survival takes absolute priority over positional escape at every stage.
-
-**Q4**: What creates the space for arm extraction - arm strength or hip movement?
-**A**: Hip movement creates the space for arm extraction. Attempting to muscle the arm free wastes energy and often tightens the trap through feedback. By shrimping your hips away and rotating your trapped shoulder forward, you create an angular path that allows the arm to withdraw along the path of least resistance.
-
-**Q5**: Your opponent follows your first hip escape and maintains chest connection - what adjustment do you make?
-**A**: Continue with sequential hip escapes in the same direction rather than switching or stopping. Each escape creates incremental space, and the cumulative distance eventually becomes impossible to follow while maintaining Gift Wrap control. Three to four consecutive hip escapes typically create enough space for frame insertion and arm extraction.
-
-**Q6**: When is the optimal timing window to initiate the hip escape?
-**A**: The optimal timing is when your opponent shifts weight to initiate a submission attack or adjusts their position. These moments require them to loosen their positional control slightly, creating the gap your escape exploits. Attempting escape when they are settled in maximum control position is far less effective and wastes energy.
-
-**Q7**: What frame must you insert immediately after the hip escape before attempting arm extraction?
-**A**: Insert your bottom knee between yourself and opponent's torso with your shin across their hip line. This frame prevents them from immediately closing the space you created. Without this frame, they follow your movement and re-establish tight control, wasting your escape attempt entirely.
-
-**Q8**: Your opponent transitions to mounted Gift Wrap during your escape attempt - how do you respond?
-**A**: Accept the mount transition but use their weight shift to accelerate your hip escape. The mount attempt momentarily loosens the arm trap as they adjust position, creating an extraction window. The mount is worse positionally, but recovering the trapped arm restores your full defensive capability for subsequent mount escapes.
-
-**Q9**: Why should you keep your trapped arm relaxed rather than fighting against the control?
-**A**: Fighting the arm trap with strength exhausts your energy rapidly while providing your opponent feedback that helps them tighten their control. A relaxed arm creates less tension in the system, making it easier to withdraw when space is created through hip movement. Energy conservation is critical in this survival position.
-
-**Q10**: What indicates the escape is complete and you can stop the sequence?
-**A**: The escape is complete only when you have established open guard with both feet on opponent's hips and hands controlling their upper body through sleeve, wrist, or collar grips. Simply extracting the arm is not sufficient. You must establish distance and defensive frames before opponent can re-engage with passing pressure.
-
-**Q11**: Your opponent begins attacking the rear naked choke mid-escape - what is the correct priority?
-**A**: Immediately abandon the escape attempt and redirect all defensive resources to choke defense. Use your free hand to grip fight the choking arm while tucking your chin hard toward your chest. Positional escape is meaningless if you get choked unconscious. Only resume the hip escape sequence after the choke threat is fully neutralized.
-
-**Q12**: How does the direction of your hip escape relate to the direction of shoulder rotation for arm extraction?
-**A**: Your hips shrimp away from the opponent while your trapped shoulder rotates forward toward the space you created. This opposing angular movement creates a widening gap between the arm trap and your torso. The combination of hip withdrawal and shoulder rotation follows the arm's natural extraction path rather than fighting directly against the control line.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hip Escape to Guard?</p>
 
 The Hip Escape to Guard is a relatively low-risk defensive technique, but certain precautions apply. The primary danger comes from abandoning neck defense prematurely, which can result in being choked unconscious. Always maintain free hand on neck until guard is fully established. During drilling, partners should apply controlled pressure rather than cranking submissions when the defender makes defensive errors. Avoid explosive bridging movements that could cause neck strain if improperly executed. When training at higher resistance levels, establish clear tap protocols since the Gift Wrap position can transition to chokes quickly. Practitioners with shoulder injuries should be cautious as the trapped arm position places stress on the shoulder joint, particularly if resistance is applied incorrectly.
 

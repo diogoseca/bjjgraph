@@ -188,6 +188,8 @@ As the top player executing the Stack from Inverted, your objective is to collap
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack from Inverted?</p>
+
 - Control the opponent's hips before committing to the stack - grip their pants, belt, or directly control their hips to prevent rotation and berimbolo entries
 - Drive forward with your chest and hips rather than pushing with your arms, using full body weight to generate compression that collapses the inverted structure
 - Keep your base wide and center of gravity low throughout the stack to prevent being swept or off-balanced during the forward drive
@@ -202,6 +204,8 @@ As the top player executing the Stack from Inverted, your objective is to collap
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack from Inverted?</p>
+
 - Opponent has inverted with hips elevated above their shoulders and weight distributed on upper back
 - Establish controlling grips on opponent's pants at the waistband, hips, or belt before initiating forward pressure
 - Confirm your own base is stable with feet positioned shoulder-width or wider for sustained forward drive
@@ -214,6 +218,8 @@ As the top player executing the Stack from Inverted, your objective is to collap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack from Inverted step by step?</p>
 
 1. **Recognize the inversion**: Identify that the opponent has begun inverting by observing their hip elevation, shoulder contact with the mat, and grip intentions. Read whether the inversion is offensive (setting up berimbolo with far hip grip) or defensive (guard retention through rotation) to calibrate your response timing and urgency.
 2. **Secure hip control grips**: Grip the opponent's pants at the waistband or directly control their hips with both hands, preventing them from completing rotation or establishing optimal inversion angles. This grip is non-negotiable: without hip control, the opponent can freely rotate underneath you for berimbolo or back take entries that exploit your forward pressure.
@@ -243,6 +249,8 @@ As the top player executing the Stack from Inverted, your objective is to collap
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack from Inverted?</p>
+
 - **Opponent frames on hips with both feet to create distance and prevent the stack from engaging** (Effectiveness: High) - Your Response: Strip the foot frames by controlling their ankles and pushing their feet to one side, then immediately re-close distance with forward pressure before they can re-establish frames or transition to another guard → Leads to [[Positions/Inverted Guard]]
 - **Opponent executes granby roll away from the stacking direction to escape compression and recover guard** (Effectiveness: Medium) - Your Response: Follow the roll by circling in the same direction while maintaining hip control grips, immediately transitioning to a passing sequence on the new angle before they can re-establish inverted guard → Leads to [[Positions/Inverted Guard]]
 - **Opponent hooks your lead leg with their foot during the stack to initiate a sweep or leg entanglement entry** (Effectiveness: High) - Your Response: Immediately disengage the hooked leg by stepping back and resetting your base, then re-engage with improved leg positioning that keeps your feet outside their hip line and away from hook entries → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the top player executing the Stack from Inverted, your objective is to collap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack from Inverted?</p>
 
 ### 1. Initiating the stack without securing hip control grips first
 
@@ -293,6 +303,8 @@ As the top player executing the Stack from Inverted, your objective is to collap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack from Inverted (Attacker)?</p>
+
 **Phase 1: Stacking Mechanics** - Basic stacking motion and pressure application
 Practice the fundamental stacking motion against a cooperative partner in inverted guard. Focus on proper grip placement on hips, driving with chest rather than arms, and maintaining continuous forward pressure. Drill the folding action repeatedly until the body mechanics become automatic.
 
@@ -313,42 +325,12 @@ Positional sparring starting from inverted guard top with full resistance. Top p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate the stack against an inverting opponent?
-**A**: The optimal timing is during the initial inversion phase before the opponent establishes full hip elevation and offensive grips like belt or far hip control. Once they achieve complete inversion with strong grips, their berimbolo and sweep options become significantly more dangerous. Initiate the stack when you see their hips beginning to elevate and shoulders contacting the mat, before they can establish the grips that facilitate rotation underneath you.
-
-**Q2**: What grip must you establish before committing forward pressure into the stack?
-**A**: You must establish controlling grips on the opponent's hips, pants waistband, or belt before committing forward pressure. Without hip control, the opponent can freely rotate underneath you for berimbolo entries or redirect your forward momentum into sweeps. This grip prevents their primary offensive mechanism, which is hip rotation, and allows you to dictate the direction and intensity of the stacking pressure throughout the pass.
-
-**Q3**: Why should you drive with your chest and hips rather than pushing with your arms during the stack?
-**A**: Driving with your chest and hips engages your entire body weight and core strength, generating far more stacking pressure than arms alone can produce. Arms fatigue quickly under load and provide insufficient compression to collapse the inverted structure. Additionally, arm-based pushing creates space between your body and the opponent that they exploit for frames and escapes, while chest-driven pressure maintains close contact that severely limits their defensive options.
-
-**Q4**: Your opponent posts both feet on your hips as you attempt the stack. How do you adjust?
-**A**: When the opponent frames with feet on your hips, strip the frames before continuing the stack. Control their ankles or feet by gripping and pushing them to one side, or use your hip pressure to pin their feet against your body as you drive forward. An effective alternative is to grab both pant legs near the ankles and stack while controlling their leg trajectory, preventing them from reposting their feet on your hips after the initial strip.
-
-**Q5**: In which direction should you angle your stacking pressure, and why is straight-forward driving suboptimal?
-**A**: Angle your stacking pressure slightly to one side rather than driving straight forward. Straight-forward stacking allows the opponent to maintain a symmetrical defensive structure where they can recover guard in either direction when pressure releases. Angling to one side creates a clear passing lane, forces the opponent's legs to one side of your body, and facilitates the transition to half guard top rather than returning to a neutral confrontation where they can re-establish inverted guard.
-
-**Q6**: What happens if you pause during the stacking sequence to adjust your grips?
-**A**: Any pause in the stacking sequence allows the opponent to re-establish the hip mobility and rotational freedom that the stack is designed to eliminate. They will use this window to create frames, establish new offensive grips, initiate granby rolls to escape compression, or transition to counter-attacks like berimbolo entries. Grip adjustments should be made while maintaining continuous forward pressure rather than stopping movement entirely to make changes.
-
-**Q7**: Your opponent hooks your lead leg with their foot during the stack attempt. What is the correct response?
-**A**: Immediately disengage the hooked leg by stepping it back to clear the hook, then re-establish your base with feet positioned outside the opponent's hip line where hooks cannot reach. Do not continue driving forward with a hooked leg, as this allows the opponent to transition into single leg X-guard or ashi garami positions that expose you to leg attacks. Reset your stance and re-engage the stack with improved leg positioning that prevents hook entries.
-
-**Q8**: If the opponent successfully defends the stack and recovers inverted guard, what follow-up sequence should you pursue?
-**A**: After a defended stack, immediately transition to an alternative passing approach rather than re-attempting the same technique. Effective follow-ups include backstep passing to attack from a different angle, transitioning to headquarters position to control the bottom leg, or initiating a toreando pass while the opponent is still recovering from the stack defense. The stack attempt often disrupts the opponent's grip structure even when unsuccessful, creating windows for these alternative passes that were not available before.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack from Inverted?</p>
 
 The stack pass applies significant compression to the opponent's spine and neck region. Never drive the opponent's weight directly onto their cervical spine - control the stacking angle to distribute pressure across the upper back and shoulder blades. Release stacking pressure immediately if the opponent signals discomfort or if you observe their neck bearing excessive load. In training, communicate with your partner about pressure intensity and build stacking force gradually across sessions. Avoid sudden explosive drives that could cause cervical compression injuries. Be especially cautious with training partners who have limited flexibility or pre-existing neck conditions.
 

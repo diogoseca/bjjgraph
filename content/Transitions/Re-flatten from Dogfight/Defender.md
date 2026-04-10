@@ -154,6 +154,8 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Re-flatten from Dogfight?</p>
+
 - Opponent drives their shoulder or forearm aggressively across your jaw or neck, establishing crossface pressure that pushes your head away from their body
 - Opponent tightens their whizzer grip and begins rotating your underhook arm downward toward the mat with increasing torque and commitment
 - Opponent lowers their hips and shifts their weight forward into your upper body, creating heavy chest-to-shoulder pressure that challenges your upright kneeling posture
@@ -166,6 +168,8 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Re-flatten from Dogfight?</p>
 
 - Maintain underhook depth by constantly fighting to reach past the opponent's far shoulder, making their whizzer control less effective at redirecting your arm toward the mat
 - Keep your head up and pressed against the opponent's body to resist crossface pressure, using your forehead or temple as a posting point against their shoulder or chest
@@ -180,6 +184,8 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Re-flatten from Dogfight?</p>
 
 ### 1. Deepen underhook and drive forward explosively before the crossface locks in
 
@@ -217,6 +223,8 @@ Defending the re-flatten from the dogfight bottom position requires understandin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Re-flatten from Dogfight?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a counter-sweep when the top player overcommits their weight forward during the hip drive phase. Use their momentum against them by redirecting their driving force laterally while simultaneously elevating with your underhook and outside leg to complete the reversal to top position.
@@ -232,6 +240,8 @@ Prevent the re-flatten by maintaining deep underhook depth reaching past the opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Re-flatten from Dogfight?</p>
 
 ### 1. Remaining stationary and absorbing the re-flatten pressure passively without actively countering
 
@@ -261,6 +271,8 @@ Prevent the re-flatten by maintaining deep underhook depth reaching past the opp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Re-flatten from Dogfight?</p>
+
 **Phase 1: Recognition and Frame Development** - Identifying re-flatten attempts early
 Partner applies re-flatten pressure at 50% intensity while you focus on recognizing the initial tactile cues and maintaining underhook depth, head position, and wide base without attempting counter-attacks
 
@@ -277,26 +289,6 @@ Full resistance dogfight sparring where the top player actively attempts re-flat
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates the top player is initiating a re-flatten attempt?
-**A**: The earliest cue is the tightening of the whizzer grip combined with the opponent beginning to shift their shoulder toward your jaw for crossface placement. Before the hip drive phase begins, you can feel increased whizzer torque pulling your underhook arm downward and the opponent's chest beginning to lower as they prepare to drive forward. Recognizing these preparatory adjustments gives you the maximum response window to counter.
-
-**Q2**: Your opponent has established a strong crossface and is beginning to drive their hips forward - what is your best defensive option at this stage?
-**A**: At this stage, maintaining upright dogfight posture is becoming difficult, so the best option is to drop your level and enter deep half guard before the flattening pressure completes. Duck under the opponent's driving pressure by threading your body underneath them, using your underhook arm to control their far leg as you transition. This converts a deteriorating defensive position into an offensive deep half guard where you have strong sweeping options available.
-
-**Q3**: Why is maintaining a wide base with the outside posting leg critical for defending the re-flatten?
-**A**: The outside posting leg provides the lateral stability necessary to resist the top player's diagonal driving pressure. A wide base creates a broad triangle of support between your two knees and your posted foot, requiring the opponent to generate significantly more force to tip you past your balance point. Without this wide base, even moderate forward pressure can collapse your structure because your center of gravity has minimal lateral support against angled force vectors.
-
-**Q4**: How can you convert a failed re-flatten attempt into an offensive opportunity?
-**A**: When the top player fails to flatten you, they have typically committed significant weight forward and their whizzer grip may have loosened from the effort. This creates a window to deepen your underhook toward their far hip, circle your posting leg forward, and attack with a sweep or back take entry. The opponent's forward weight commitment and momentary grip relaxation provide the opening you need to transition from defense to offense immediately.
-
-
-
-</section>
 
 
 </main>

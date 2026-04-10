@@ -154,6 +154,8 @@ Defending against the standing guard pass requires early recognition of the pass
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pass from Standing Guard?</p>
+
 - Passer systematically breaks your grips without re-engaging in grip fighting, indicating they are clearing the path for a pass
 - Passer establishes bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles
 - Passer begins lateral stepping with a noticeable weight shift to one side, indicating directional commitment to a passing angle
@@ -166,6 +168,8 @@ Defending against the standing guard pass requires early recognition of the pass
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pass from Standing Guard?</p>
 
 - Maintain at least two points of connection to the passer at all times through grips, hooks, or frames to prevent free passing movement
 - Create defensive angles by turning your hips toward the passer rather than lying flat facing the ceiling
@@ -181,6 +185,8 @@ Defending against the standing guard pass requires early recognition of the pass
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pass from Standing Guard?</p>
 
 ### 1. Re-establish grips and frames before pass commitment
 
@@ -218,6 +224,8 @@ Defending against the standing guard pass requires early recognition of the pass
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pass from Standing Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a sweep attempt to coincide with the passer's forward commitment during the pass. Hook their lead leg with your butterfly hook or ankle grip while using their forward momentum to off-balance them laterally. Guide them to the mat while securing top position. This counter-sweep reverses the positional hierarchy, putting the former passer on bottom.
@@ -233,6 +241,8 @@ Prevent the pass from completing by maintaining active grip connections and inse
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pass from Standing Guard?</p>
 
 ### 1. Lying flat on back with legs extended and no active defensive structure
 
@@ -262,6 +272,8 @@ Prevent the pass from completing by maintaining active grip connections and inse
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pass from Standing Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying pre-pass cues from guard position
 Partner executes various guard pass attempts from standing at 50% speed while you focus solely on identifying recognition cues. Call out when you see grip breaks, bilateral leg control attempts, and directional commitment. No defensive techniques yet—purely build pattern recognition and visual reading ability.
 
@@ -278,26 +290,6 @@ Positional sparring from standing guard with full resistance. Guard player score
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three most reliable recognition cues that a standing guard pass is about to be initiated?
-**A**: The three primary cues are: first, the passer systematically strips your grips without re-engaging in grip fighting, clearing the path for passing. Second, they establish bilateral control of both your legs at the knees or pants simultaneously, removing your ability to create asymmetric defensive angles. Third, they begin lateral stepping with a weight shift to one side, signaling the directional commitment phase is imminent and the pass is about to begin.
-
-**Q2**: Your opponent has established control of both your pants at the knee and begins stepping laterally to your right—what is your immediate defensive response?
-**A**: Immediately turn your hips to face their passing direction and insert your left shin as a shield across their hip line. Use your left hand to grip their passing-side sleeve or wrist to break their lateral momentum. Simultaneously hip escape away from their passing direction to increase the distance they must travel. The shin shield combined with the hip escape creates a physical barrier and distance that forces them to either change direction or abandon the pass attempt entirely.
-
-**Q3**: When is the optimal moment to attempt a sweep against a standing guard passer?
-**A**: The optimal sweep timing is during the passer's directional commitment phase, specifically the moment they shift weight laterally and forward to execute the pass. At this point, their center of gravity has moved past their base of support in one direction, making them vulnerable to forces applied perpendicular to their movement. Their commitment means they cannot easily abort and rebalance, so use their momentum against them by applying sweep force in the direction they are already traveling.
-
-**Q4**: How do you prevent the passer from establishing bilateral leg control when you are playing open guard from bottom?
-**A**: Keep your feet active and between your body and the passer's hands at all times. Use your feet on their hips, biceps, or collar to create distance and prevent them from simultaneously controlling both legs. When they grip one leg, use the free leg to push on their hip or shoulder to create an angle that prevents them from reaching the second leg. Maintain at least one controlling grip on their sleeve or collar to restrict their ability to reach for bilateral control.
-
-
-
-</section>
 
 
 </main>

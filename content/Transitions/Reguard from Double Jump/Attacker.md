@@ -188,6 +188,8 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reguard from Double Jump?</p>
+
 - Establish defensive frames before initiating any leg movement to create the space necessary for guard closure
 - Hip escape timing is the critical mechanical element - execute when opponent shifts weight or adjusts position
 - Guard closure must be explosive and decisive once legs are extracted, leaving no gap for opponent to exploit
@@ -202,6 +204,8 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reguard from Double Jump?</p>
+
 - At least one defensive frame established against opponent's shoulder, chest, or hip to create space
 - Opponent's weight shifted forward or distributed unevenly, creating opportunity for hip escape
 - Sufficient hip mobility to execute full leg sweep around opponent's waist from underneath their base
@@ -214,6 +218,8 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reguard from Double Jump step by step?</p>
 
 1. **Establish defensive frames**: Place both hands against opponent's chest and shoulder line, creating a structural barrier that prevents them from driving their weight into you. Use forearm frames rather than extended arm posts to maintain stronger structural integrity. These frames create the space needed for all subsequent movement and must be maintained until guard closure is nearly complete.
 2. **Hip escape to create angle**: Execute a sharp hip escape by driving your bottom foot into the mat and shrimping your hips away from the opponent, creating a 30-45 degree angle relative to their centerline. This movement begins extracting your legs from underneath their base while generating the angular momentum needed for guard closure. The hip escape must be explosive and committed to create sufficient space before the opponent can react.
@@ -244,6 +250,8 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reguard from Double Jump?</p>
+
 - **Opponent drives heavy forward pressure to prevent hip escape and flatten bottom player** (Effectiveness: High) - Your Response: Use the forward pressure to redirect into guard closure by maintaining your frame and timing the hip escape for the moment their drive peaks. Their forward commitment actually assists guard closure if you can establish the hip angle first. → Leads to [[Positions/Double Jump]]
 - **Opponent widens base and posts hands to prevent legs from closing around their waist** (Effectiveness: Medium) - Your Response: Target half guard as an intermediate position by hooking one leg first, then work to upgrade from half guard to closed guard through knee shield adjustments. Accept the partial recovery rather than forcing an exposed guard closure. → Leads to [[Positions/Half Guard]]
 - **Opponent initiates guard pass during the vulnerable leg extraction and closure window** (Effectiveness: High) - Your Response: Maintain defensive frames at all costs and prioritize getting at least one hook in to prevent the complete guard pass. If closed guard cannot be achieved, settle for half guard to maintain some form of guard entanglement. → Leads to [[Positions/Side Control]]
@@ -255,6 +263,8 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reguard from Double Jump?</p>
 
 ### 1. Attempting reguard without establishing defensive frames first
 
@@ -294,6 +304,8 @@ As the attacker executing the reguard from Double Jump, your objective is to tra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reguard from Double Jump (Attacker)?</p>
+
 **Foundation** - Guard closure mechanics from side position
 Practice the guard closure motion without resistance, focusing on hip escape timing, leg extraction sequence, sweeping arc of the outside leg, and ankle lock positioning. Drill 20-30 repetitions per side to build muscle memory for the complete movement pattern.
 
@@ -314,39 +326,12 @@ Partner provides variable resistance from Double Jump top while you decide in re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What defensive frame must be established before initiating the reguard from Double Jump?
-**A**: At least one solid forearm frame against the opponent's chest or shoulder must be established before any leg movement. This frame creates the space necessary for hip escape and prevents the opponent from driving their weight forward during the transition. Without this frame, the opponent can flatten you during the leg extraction phase, making guard closure impossible and potentially advancing to a passing position.
-
-**Q2**: What is the most vulnerable moment during the reguard transition and how do you protect yourself?
-**A**: The most vulnerable moment is during leg extraction when your inside leg has withdrawn from underneath the opponent but your guard is not yet closed. During this window, you must maintain strong frame pressure with your arms and move quickly through the transition to minimize exposure. The frame prevents the opponent from advancing while your legs are in transit between the Double Jump configuration and closed guard.
-
-**Q3**: Your opponent drives heavy forward pressure as you attempt the reguard - how do you adjust?
-**A**: Use their forward pressure to your advantage by maintaining your defensive frame while redirecting their momentum. Their forward drive actually assists guard closure if you can establish the correct hip angle first through a sharp hip escape. Time the hip escape for when their forward drive peaks, then use their committed weight to pull them into your closing guard as your legs sweep around their waist.
-
-**Q4**: When should you choose to reguard to closed guard versus escaping to half guard from Double Jump bottom?
-**A**: Reguard to closed guard when your closed guard attack system is stronger than your half guard game and you have sufficient hip mobility for the full guard closure. Choose the half guard escape when the opponent's pressure makes full guard closure unrealistic, when you need the quickest possible recovery to any stable guard, or when your half guard offensive system is well-developed. The reguard is higher risk but higher reward.
-
-**Q5**: What grip should you establish before completing the guard closure?
-**A**: Before closing the guard, transition one hand from your defensive frame to a controlling grip on the opponent's collar, neck, or behind their head. This grip serves dual purposes: it prevents the opponent from posturing away during guard closure, and it enables immediate posture breaking once the guard is locked. Without this grip, opponents can posture up immediately upon guard closure and begin their guard opening sequence.
-
-**Q6**: How do you consolidate position immediately after successfully locking your ankles?
-**A**: Immediately break the opponent's posture by combining heel pressure pulling into their lower back with your established collar or head control grip pulling them forward. Squeeze your knees together to restrict their lateral movement and breathing, then establish your preferred attacking grips for sweeps or submissions. The goal is to transition from defensive reguard to offensive closed guard within two to three seconds of locking your ankles.
-
-**Q7**: What happens if you can only recover half guard instead of full closed guard during the reguard attempt?
-**A**: If only one leg gets through to hook the opponent's leg, accept half guard as an intermediate position rather than forcing an exposed guard closure attempt. From half guard bottom, you can work to upgrade to closed guard through knee shield adjustments, or transition to offensive half guard systems like deep half or lockdown. A solid half guard recovery is significantly better than an exposed position from a failed forced reguard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reguard from Double Jump?</p>
 
 The reguard from Double Jump involves explosive hip movement under load, creating potential strain on hip flexors and lower back. Ensure adequate warm-up before drilling, particularly focusing on hip mobility and groin flexibility. Avoid forcing the guard closure if hip range of motion is insufficient, as this can lead to groin strains or hip impingement. During drilling, communicate clearly with training partners about resistance levels to prevent injury during the vulnerable leg extraction phase. If you experience hip or lower back discomfort during the movement, stop and reassess your body positioning before continuing.
 

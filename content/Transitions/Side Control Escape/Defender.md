@@ -154,6 +154,8 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Side Control Escape?</p>
+
 - Bottom player begins repositioning their feet, planting them flat near their hips in preparation for a bridge - this signals an imminent bridge-and-shrimp sequence
 - Bottom player's forearms stiffen and press against your hip or shoulder with increased force, indicating frame establishment before an escape attempt
 - Bottom player's hips begin shifting away from you even slightly, or their torso starts rotating as they initiate a shrimp movement under your pressure
@@ -166,6 +168,8 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Side Control Escape?</p>
 
 - Maintain heavy crossface pressure to control the bottom player's head position and prevent hip rotation toward you
 - Keep hip-to-hip connection by driving your hips low against opponent's hips to eliminate space for shrimping
@@ -180,6 +184,8 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Side Control Escape?</p>
 
 ### 1. Drive heavy crossface and re-cement hip-to-hip pressure when detecting frame establishment
 
@@ -217,6 +223,8 @@ The Side Control Escape Defender is the top player working to maintain dominant 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Side Control Escape?</p>
+
 ### → [[Positions/Side Control]]
 
 Maintain heavy crossface and hip pressure throughout opponent's escape attempts, resettling position each time they create space by immediately driving forward and re-cementing chest contact. Keep near-side arm controlled and prevent any frame from becoming established long enough to support a full escape sequence.
@@ -232,6 +240,8 @@ Time your mount transition to coincide with the bottom player's hip rotation dur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Side Control Escape?</p>
 
 ### 1. Posting on hands instead of driving weight through hips and chest onto opponent's torso
 
@@ -261,6 +271,8 @@ Time your mount transition to coincide with the bottom player's hip rotation dur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Side Control Escape?</p>
+
 **Week 1-2: Pressure Fundamentals** - Weight distribution and crossface mechanics for side control retention
 Practice maintaining side control against a cooperative partner who signals before escape attempts. Focus on proper crossface placement, hip-to-hip connection, and weight distribution through chest rather than hands. Learn to feel when your pressure is light and immediately correct positioning. Partner provides feedback on where pressure feels weakest.
 
@@ -277,26 +289,6 @@ Full positional sparring where bottom player uses any escape method and top play
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical control point to maintain when the bottom player initiates a bridge-and-shrimp escape?
-**A**: The crossface is the most critical control point because it prevents the bottom player from turning their hips toward you, which is the essential step for guard recovery. Without hip rotation, even successful bridging and shrimping cannot lead to guard recovery because the bottom player cannot insert their knees between your bodies. By driving your forearm or bicep across their face and neck, you control their head position which dictates their spine and hip orientation. If you must choose between maintaining crossface or hip-to-hip pressure, prioritize the crossface because you can resettle your hips afterward, but losing head control allows immediate hip rotation that is very difficult to reverse.
-
-**Q2**: How should you respond when the bottom player successfully creates space and begins inserting a knee shield?
-**A**: Once the bottom player begins inserting a knee shield, attempting to drive back into tight side control is usually a losing battle because their shin creates a powerful structural frame. Instead, immediately transition your strategy: either step over for mount before the knee shield is fully established by bringing your far leg over their body, or accept the transitional position and begin working a half guard passing sequence using crossface pressure and knee slice mechanics. You can also retreat to knee on belly to maintain top control while resetting your passing approach. The critical mistake is fighting the knee shield directly, which wastes energy and allows the bottom player to consolidate their recovered guard.
-
-**Q3**: Why should you use the bottom player's escape attempts as triggers for position advancement rather than simply resettling?
-**A**: The bottom player's escape movements create predictable reactions and body positions that actually facilitate position advancement when recognized correctly. When they bridge, their hips elevate creating space for you to slide your knee across for mount. When they turn their hips, they expose their back for potential back take sequences. When they extend frames, their arms become vulnerable to submission attacks. Simply resettling after each escape attempt creates a war of attrition that the bottom player eventually wins through cumulative progress. By converting their escape movements into triggers for advancement, you transform a defensive exchange into an offensive one where their best defensive option still results in positional degradation for them.
-
-**Q4**: What weight distribution adjustments prevent the bottom player's bridge from being effective?
-**A**: Effective weight distribution against bridges requires keeping your center of gravity low and driving pressure through your hips rather than your chest. Sprawl your legs back with toes on the mat for maximum base width, and angle your body slightly so the bridge cannot lift you directly upward. When you feel a bridge initiating, immediately drive your crossface shoulder forward and down, countering the upward force with horizontal pressure that redirects the bridge energy. Keep your hips heavy against their hips so their bridge must lift your entire body weight rather than just your upper body. Never allow your weight to shift onto your hands during a bridge, as this creates the space the bottom player needs for their immediate shrimp follow-up.
-
-
-
-</section>
 
 
 </main>

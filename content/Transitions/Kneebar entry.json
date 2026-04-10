@@ -9,7 +9,7 @@
     "50-50",
     "submission-entry"
   ],
-  "from_position": "50-50 Guard/Bottom",
+  "from_position": "50-50 Guard/Top",
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
@@ -50,8 +50,8 @@
       "relationship": "Primary attack that this entry complements"
     },
     {
-      "name": "Calf Slicer from 50-50",
-      "relationship": "Chain attack when opponent bends knee to defend"
+      "name": "Calf Slicer",
+      "relationship": "Chain attack when opponent bends knee to defend kneebar"
     },
     {
       "name": "Back Take from 50-50",

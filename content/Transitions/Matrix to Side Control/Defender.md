@@ -156,6 +156,8 @@ From the defender's perspective, the Matrix to Side Control transition represent
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Matrix to Side Control?</p>
+
 - Top player begins shifting weight forward onto your torso rather than maintaining the wide defensive base used during Matrix blocking
 - Crossface pressure increases across your face and neck as the opponent drives your head away from them to eliminate rotational freedom
 - Opponent's hands begin actively stripping your grips on their belt, pants, or legs rather than simply maintaining defensive contact
@@ -167,6 +169,8 @@ From the defender's perspective, the Matrix to Side Control transition represent
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Matrix to Side Control?</p>
 
 - Recognize the transition from Matrix defense to active passing immediately—the moment the top player shifts from blocking your rotation to advancing their position marks the start of your defensive window
 - Re-establish at least one grip connection before the top player strips all contact points, as grips provide the leverage needed for guard recovery or secondary rotation attempts
@@ -181,6 +185,8 @@ From the defender's perspective, the Matrix to Side Control transition represent
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Matrix to Side Control?</p>
 
 ### 1. Re-initiate Matrix rotation before crossface is fully established
 
@@ -211,6 +217,8 @@ From the defender's perspective, the Matrix to Side Control transition represent
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Matrix to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the top player's forward weight commitment during the flattening phase by timing a hip bump or underhook reversal that uses their consolidation momentum against them. The transition from wide Matrix defense base to narrow passing posture creates a brief window of base vulnerability.
@@ -226,6 +234,8 @@ Prevent the consolidation by maintaining at least one strong grip and threatenin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Matrix to Side Control?</p>
 
 ### 1. Accepting the flattening passively without creating frames or maintaining hip mobility
 
@@ -255,6 +265,8 @@ Prevent the consolidation by maintaining at least one strong grip and threatenin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Matrix to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying the transition from Matrix defense to consolidation
 Partner alternates between maintaining Matrix defensive position and initiating side control consolidation. Defender practices calling out the transition moment verbally without attempting physical defense. Develop recognition speed through 30 repetitions focusing on weight shift, grip stripping, and crossface onset cues.
 
@@ -268,29 +280,6 @@ Positional sparring from Matrix bottom after a blocked rotation. Top player atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest cues that the top player is transitioning from Matrix defense to a side control pass attempt?
-**A**: The earliest cues are a shift in the top player's weight distribution—moving from wide defensive base to forward pressure onto your torso—and the beginning of active grip stripping on your belt or pants connections. You will also feel crossface pressure increasing across your face as they begin turning your head away. Recognizing these cues in the first one to two seconds provides the maximum defensive window.
-
-**Q2**: Your Matrix rotation has been blocked and the top player is driving you flat—what is your primary defensive action?
-**A**: Create forearm frames against the opponent's shoulders or hips immediately to resist the flattening pressure. Simultaneously fight to stay on your side by scooting your hips away from the opponent. Being on your side preserves your ability to create angles, insert knee shields, and recover guard. Once you are flat on your back with no frames, side control consolidation becomes extremely difficult to prevent regardless of your technical ability.
-
-**Q3**: Why is timing the knee shield insertion critical when defending against this transition?
-**A**: The knee shield insertion window exists only when the top player has committed to the consolidation but has not yet secured your far hip with their near hand. This window is brief—typically two to three seconds—and once hip control is established, the pathway for knee insertion is physically blocked. Threading your knee too early may be cleared by the opponent's leg extraction, while inserting too late meets an immovable hip block.
-
-**Q4**: The top player has established crossface control but has not yet secured your far hip—what opportunity does this create?
-**A**: This incomplete consolidation leaves your hips mobile while your upper body is controlled. You can use this window to insert a knee shield or butterfly hook between your bodies before hip control is established. Alternatively, the hip freedom allows you to shrimp away to create enough distance for a full guard recovery. The key is acting immediately on the hip freedom rather than focusing on fighting the crossface, which is already established.
-
-**Q5**: How does maintaining grip connection to the top player help your defense even after your rotation is blocked?
-**A**: Maintained grips provide three defensive benefits: first, they allow you to threaten a secondary Matrix rotation that forces the top player to maintain defensive width rather than narrowing for the pass. Second, grips give you leverage to resist flattening pressure and create movement through pulling and pushing against the opponent's structure. Third, grips enable sweep attempts during the transition when the opponent's base is compromised by the shift from defensive to offensive posture.
-
-
-
-</section>
 
 
 </main>

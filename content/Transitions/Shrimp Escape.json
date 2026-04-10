@@ -13,12 +13,12 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 50,
       "result": "success"
     },
     {
-      "to": "Knee Shield Half Guard/Top",
+      "to": "Knee Shield Half Guard/Bottom",
       "probability": 20,
       "result": "success"
     },
@@ -57,8 +57,8 @@
       "relationship": "Advanced variation using shrimp mechanics with direction reversal"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Target position and endpoint of successful shrimp escape"
+      "name": "Open Guard",
+      "relationship": "Intermediate guard recovery position when closed guard cannot be immediately established"
     },
     {
       "name": "Knee Shield Half Guard",

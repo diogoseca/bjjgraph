@@ -188,6 +188,8 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kimura from Half Guard?</p>
+
 - Time the grip entry when the top player's arm is committed to posting, reaching, or passing—never chase a retracted arm
 - Thread the inside arm deep under the opponent's tricep near the elbow for maximum mechanical leverage
 - Maintain your side angle with inside hip elevated throughout the grip establishment to enable effective arm threading
@@ -202,6 +204,8 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kimura from Half Guard?</p>
+
 - Established half guard with secure leg entanglement on one of the top player's legs
 - Side position maintained with inside hip elevated off the mat, not flat on back
 - Top player's arm exposed through posting, reaching, or extending during guard engagement
@@ -214,6 +218,8 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kimura from Half Guard step by step?</p>
 
 1. **Identify arm exposure from top player**: Monitor the top player's arm positioning while maintaining half guard. The primary window opens when they post their hand on the mat for base, reach across your body for crossface or underhook, or extend their arm during passing attempts. Stay on your side with your inside hip elevated to maintain the offensive angle required for arm threading.
 2. **Secure initial wrist control with outside hand**: Use your outside hand to grip the opponent's exposed wrist with a firm C-grip, thumb wrapped around the wrist. This initial contact must be quick and decisive before they retract their arm. Pull their wrist slightly toward your centerline to begin disrupting their base and creating the angle needed for the arm thread.
@@ -243,6 +249,8 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kimura from Half Guard?</p>
+
 - **Opponent pulls arm back forcefully before figure-four is completed** (Effectiveness: High) - Your Response: Maintain wrist control with your outside hand and follow the retracting arm by scooting your hips closer. If the arm is fully retracted, transition to underhook and continue half guard offense rather than chasing the grip. → Leads to [[Positions/Half Guard]]
 - **Opponent drives chest forward aggressively to flatten your hips and neutralize the angle** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate the arm thread and grip completion. Their forward drive brings their tricep closer to your inside hand. Once the grip locks, redirect their forward pressure into a rolling Kimura sweep. → Leads to [[Positions/Side Control]]
 - **Opponent executes a quick knee slice pass while your hands are committed to the Kimura grip** (Effectiveness: High) - Your Response: Maintain the Kimura grip as your anchor even if they begin passing. The grip prevents them from consolidating side control because their arm is compromised. Use the grip to pull yourself back to half guard or initiate Kimura attacks from the new position. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kimura from Half Guard?</p>
 
 ### 1. Reaching for the arm with extended arms while flat on back
 
@@ -293,6 +303,8 @@ As the attacker from half guard bottom, your objective is to identify arm exposu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kimura from Half Guard (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Figure-four configuration and arm threading depth
 Practice the Kimura grip establishment in isolation with a cooperative partner. Focus on wrist control timing, threading depth near the elbow, and completing the figure-four with tight elbows. Drill 50 repetitions per side until the grip sequence is automatic and consistently deep.
 
@@ -310,42 +322,12 @@ Positional sparring starting from half guard bottom. Score points for successful
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for establishing the Kimura grip from half guard bottom?
-**A**: The best timing occurs when the top player posts their hand on the mat for base, reaches across your body for crossface or underhook, or extends their arm during a passing attempt. These moments create arm exposure with the opponent's weight committed in a direction that makes retraction difficult. Attempting the grip when the opponent has their elbows tight and weight settled results in significantly lower success.
-
-**Q2**: Why must the inside arm thread deep near the opponent's elbow rather than their wrist?
-**A**: Threading deep near the elbow provides substantially greater mechanical leverage for both controlling the shoulder joint and finishing the Kimura submission. A shallow grip near the wrist allows the opponent to straighten their arm and power out of the figure-four configuration through simple extension. The deep thread creates a shorter lever arm that requires less strength to maintain and generates more rotational force on the shoulder girdle.
-
-**Q3**: Your opponent posts their far hand on the mat while you have half guard bottom - how do you initiate the Kimura entry?
-**A**: Secure their posted wrist with your outside hand using a quick C-grip before they retract. Immediately thread your inside arm deep under their tricep toward the elbow while pulling their wrist toward your centerline. Complete the figure-four by grabbing your own wrist. The posting hand is the most vulnerable target because their weight is committed forward through that arm, making retraction slow and giving you a larger entry window.
-
-**Q4**: What is the critical hip position required before attempting the Kimura grip from half guard?
-**A**: You must be on your side with your inside hip elevated off the mat, creating an angle toward the opponent rather than lying flat on your back. This side position enables you to thread your inside arm under their tricep effectively and provides the hip mobility needed to drive the arm across their centerline. Attempting the Kimura while flat results in insufficient arm reach, weak grip leverage, and vulnerability to being smashed and passed.
-
-**Q5**: How should you respond when the opponent begins pulling their arm back after you have secured the Kimura grip?
-**A**: Maintain the grip firmly with elbows tight to your body and immediately increase rotational pressure on their shoulder to make extraction uncomfortable. Simultaneously use your hips to bridge into them, driving their trapped arm further across their centerline. Their arm retraction attempt can be converted into a sweep opportunity by using their pulling momentum against their own base. Never chase their arm by extending your own arms, as this compromises your grip structure.
-
-**Q6**: What grip configuration is essential for maximum control in the Kimura from half guard?
-**A**: The figure-four configuration requires your inside hand to grip your own outside wrist after threading deep under the opponent's tricep near the elbow. Your outside hand maintains a C-grip on the opponent's wrist with your thumb wrapped around for maximum control. Both elbows should be pulled tight to your body to create structural integrity. The grip functions as a closed chain where your body weight reinforces the lock rather than relying on grip strength alone.
-
-**Q7**: Your opponent drives forward aggressively to flatten you after you secure initial wrist control - what do you do?
-**A**: Use their forward momentum to complete the Kimura grip faster by pulling their wrist toward your centerline as they drive. Their forward pressure actually assists the arm threading process by bringing their tricep closer to your inside hand. Once the figure-four is locked, their forward drive can be redirected into a rolling Kimura sweep where you use their committed weight to come on top. The key is to redirect their pressure through the Kimura system rather than fighting it.
-
-**Q8**: What role does the half guard leg entanglement play during the Kimura grip establishment?
-**A**: The half guard leg entanglement serves as the critical anchor preventing the top player from disengaging and pulling away when you attack their arm. Without maintaining the leg entanglement, the top player can sprawl back, create distance, and extract their arm before the Kimura grip is consolidated. The trapped leg also limits their ability to change angle or circle to pass, keeping them in the plane where your arm attack is most effective.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kimura from Half Guard?</p>
 
 The Kimura grip applies significant rotational force to the shoulder joint. Apply pressure gradually and with control during training, never jerking or explosively rotating the shoulder. Release immediately when your partner taps. Be aware that the transition itself can create sudden shoulder pressure if the grip locks unexpectedly tight. Communicate with your training partner about intensity levels and ensure they understand the tap signal before drilling this technique.
 

@@ -94,7 +94,7 @@
       "Armpit Seal Creates Control: Keep armpit sealed tightly over opponent's shoulder with zero gap - the armpit connection creates the control more than the hand grip",
       "Upward and Backward Pressure: Constantly drive their arm upward and backward to break their structure, limit their mobility, and create submission opportunities",
       "Hip Connection Prevents Escape: Maintain close hip position to prevent opponent from circling away or creating the distance needed to escape the control",
-      "Head Control Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup",
+      "Head Position Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup",
       "Attack Within Seconds: Treat overhook as transitional control leading to back takes or submissions within 3-5 seconds rather than static holding position",
       "Read Defensive Reactions: When opponent attempts to escape or adjust, immediately capitalize on their movement to enter appropriate submission or advancement",
       "Systematic Decision Tree: Follow clear if/else logic - pull back triggers Kimura, drive forward triggers front headlock chokes, turn away triggers back takes"
@@ -316,11 +316,11 @@
     },
     "transitions": [
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Overhook Control",
         "attempt_probability": 16
       },
       {
-        "transition": "Darce Choke",
+        "transition": "Darce Choke from Overhook Control",
         "attempt_probability": 10
       },
       {
@@ -399,7 +399,7 @@
       "Base Removal: Elevated arm removes one of opponent's posting bases, making them vulnerable to directional sweeps and off-balancing attacks",
       "Reaction-Based Attacks: When opponent attempts to free their arm by pulling back, immediately transition to arm drags, triangles, or omoplata controls",
       "Active Bottom Position: Never allow overhook to become static holding position - constantly threaten sweeps, submissions, or positional improvements",
-      "Angle Creation: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position"
+      "Dominant Angles: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position"
     ],
     "knowledge_assessment": [
       {

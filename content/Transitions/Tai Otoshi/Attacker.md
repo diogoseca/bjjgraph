@@ -188,6 +188,8 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Tai Otoshi?</p>
+
 - Off-balance opponent forward and to their weak corner before attempting the throw
 - Create circular pulling motion with arms while rotating hips perpendicular to opponent
 - Position blocking leg across opponent's shin at precisely the right moment
@@ -203,6 +205,8 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Tai Otoshi?</p>
+
 - Establish dominant grip configuration with sleeve and lapel control (gi) or collar tie and wrist control (no-gi)
 - Break opponent's upright posture and create forward pressure
 - Position yourself at appropriate distance with feet shoulder-width apart
@@ -216,6 +220,8 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Tai Otoshi step by step?</p>
 
 1. **Establish grip control**: In gi, secure traditional sleeve grip with your right hand on opponent's left sleeve near the elbow, and lapel grip with your left hand high on their right collar. In no-gi, establish collar tie with left hand behind opponent's neck and wrist control with right hand. Pull grips tightly to your centerline to begin breaking their posture.
 2. **Break opponent's balance forward**: Execute strong kuzushi (off-balancing) by pulling opponent forward and slightly to their right front corner using both grips simultaneously. Your left hand pulls high and forward while right hand pulls down and toward you. Opponent should feel themselves being pulled onto their toes with weight shifting forward.
@@ -245,6 +251,8 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Tai Otoshi?</p>
+
 - **Opponent pulls back and circles away when feeling the forward pull, maintaining upright base** (Effectiveness: High) - Your Response: Switch to opposite direction attack such as Kouchi Gari or Osoto Gari using their backward momentum, or chain into different forward throw like Seoi Nage if they reset their weight forward → Leads to [[Positions/Standing Position]]
 - **Opponent sprawls heavily and drops their hips backward when you step in, preventing the blocking leg from being effective** (Effectiveness: Medium) - Your Response: Immediately transition to single leg takedown by dropping to your right knee and securing the near leg they've weighted, or convert to front headlock position if they oversprawl → Leads to [[Positions/Standing Position]]
 - **Opponent hops forward over your blocking leg, maintaining their base and potentially reversing position** (Effectiveness: Medium) - Your Response: If they clear your leg, immediately sit to guard and establish collar tie and wrist control, or use their forward momentum to pull guard with hooks established → Leads to [[Positions/Standing Position]]
@@ -257,6 +265,8 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Tai Otoshi?</p>
 
 ### 1. Placing blocking leg too early before opponent's weight is fully committed forward
 
@@ -301,6 +311,8 @@ Tai Otoshi, meaning 'body drop' in Japanese, is a fundamental judo throw that ha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Tai Otoshi (Attacker)?</p>
+
 **Week 1-2: Static Drilling** - Fundamental mechanics and positioning
 Partner assumes forward-leaning posture with grips already established. Practice entry footwork, hip rotation, and blocking leg placement in slow motion. Focus on achieving proper perpendicular alignment and full extension of blocking leg. Repeat 20-30 repetitions per training session focusing purely on technical precision.
 
@@ -324,54 +336,12 @@ Utilize Tai Otoshi in competition-style rounds with points, time limits, and str
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of kuzushi in Tai Otoshi and when should it occur relative to your entry step?
-**A**: Kuzushi (off-balancing) in Tai Otoshi serves to break the opponent's upright posture and commit their weight forward onto their toes, making them vulnerable to being thrown over your blocking leg. The kuzushi must occur before you step in with your blocking leg - typically 0.5-1 seconds prior. You should feel their weight clearly committed forward before placing your leg across. If you attempt the blocking leg placement before proper kuzushi, the opponent will simply step over or around your leg and the throw will fail.
-
-**Q2**: Why must your hips achieve a full perpendicular position to your opponent during Tai Otoshi execution?
-**A**: The perpendicular hip position (90-degree rotation) is essential because it creates the proper mechanical advantage and throwing angle for Tai Otoshi. When your hips are perpendicular, your blocking leg extends across opponent's path at the optimal angle, your upper body rotation generates maximum circular pulling force, and the opponent's body naturally rotates over the blocking point. If you only achieve a 45-degree angle, the throw lacks power, the direction is incorrect, and the opponent often lands on their side rather than their back, or can step through your weak blocking position.
-
-**Q3**: Your opponent pulls back and circles away as soon as they feel your forward kuzushi - what should you do?
-**A**: When the opponent retreats from your forward pull, immediately chain to a backward-momentum technique such as Kouchi Gari, Osoto Gari, or a foot sweep that capitalizes on their retreat. Do not chase them forward with a second Tai Otoshi attempt, as this telegraphs your intentions and wastes energy. Advanced practitioners use the initial Tai Otoshi threat as a deliberate setup, with the real attack being the follow-up technique that exploits the predictable backward defensive reaction.
-
-**Q4**: How does the blocking leg function differ from a traditional trip, and what happens if the leg is bent versus straight?
-**A**: In Tai Otoshi, the blocking leg functions as a fixed fulcrum point that the opponent rotates over, not as a sweeping or tripping action that actively moves their leg. The leg should be relatively straight (slight bend acceptable) with the quadriceps engaged to create a rigid blocking point. If the leg is significantly bent, the opponent's forward momentum will collapse your knee and push through your position, nullifying the throw completely. The straight leg combined with your upper body rotation creates a wheel-and-axle mechanical advantage that projects them over the block.
-
-**Q5**: Why is grip maintenance throughout the throw and landing crucial in BJJ applications of Tai Otoshi?
-**A**: Maintaining grip control (especially sleeve or wrist control) throughout the throw and landing prevents opponent from executing a safe breakfall and immediately establishing guard or scrambling away. In BJJ, unlike judo, scoring the throw is only valuable if you can maintain top position. By keeping at least one grip, you control their arm during landing, prevent them from framing effectively, and smoothly transition into side control, mount, or other dominant position. Releasing grips allows them to create distance and negate your positional advantage.
-
-**Q6**: What role does timing with opponent's natural movement play in high-percentage Tai Otoshi execution?
-**A**: Timing Tai Otoshi to coincide with opponent's forward step or momentum dramatically increases success rate because you amplify their existing movement rather than forcing them from a static position. When opponent steps forward with their right foot, their weight naturally shifts forward onto that leg - this is the optimal moment to enter as their balance is already compromised. Attempting Tai Otoshi when opponent is stationary requires much more forceful kuzushi and they can more easily recognize and counter the attack. Advanced practitioners create these stepping opportunities through feints, level changes, and grip fighting sequences.
-
-**Q7**: How should your weight distribution and center of gravity position change during Tai Otoshi execution?
-**A**: Your center of gravity must lower and shift forward during Tai Otoshi execution to create proper mechanical advantage. Start with normal upright stance, then as you enter, drop your hips slightly and keep weight on the balls of your feet driving forward. Your center of gravity should be lower than opponent's throughout the throw. Many beginners stand too upright during execution, which gives opponent leverage to resist and risks being counter-thrown. The lower, forward weight position combined with your rotation creates the powerful lever action needed to project them over your blocking leg.
-
-**Q8**: You have a collar tie and wrist control in no-gi - what specific grip adjustments are needed for Tai Otoshi compared to gi grips?
-**A**: With no-gi collar tie and wrist control, the kuzushi direction remains the same but you must generate pull through body connection rather than fabric tension. The collar tie hand pulls the head and neck forward and downward while the wrist control hand redirects across their body. You need to be significantly closer than with gi grips because the connection is less secure and more prone to slipping. Squeeze your elbows toward your centerline to maintain tight control, and commit to the throw more explosively since you cannot maintain the sustained tension that gi grips allow. The entry window is narrower, so timing becomes even more critical.
-
-**Q9**: Your opponent sprawls when you begin your Tai Otoshi entry - how do you recover and what follow-up options exist?
-**A**: When the opponent sprawls against your entry, their hips drop back and their weight shifts to their hands and feet. Rather than forcing the throw, immediately redirect to a single leg takedown by dropping your right knee and securing the near leg they have weighted, or transition to a front headlock position if they oversprawl and their head drops below your chest level. The key is recognizing the failed entry within the first fraction of a second and converting rather than stubbornly continuing a compromised throw. A committed sprawl actually creates vulnerability in their lower body and neck position that your follow-up can exploit.
-
-**Q10**: What are the minimum grip requirements to safely attempt Tai Otoshi, and which grip is most critical to maintain?
-**A**: At minimum, you need control of one point on the upper body (collar, lapel, or neck) and one point on the arm (sleeve, wrist, or elbow). The most critical grip to maintain is the pulling grip on the arm/sleeve side, as this provides the primary directional control that steers the opponent over your blocking leg. Without this grip, the opponent can post their hand on the mat during the throw and stop themselves from rotating. The collar or lapel grip adds power and controls posture but can be compensated for with body positioning if lost. Never attempt the throw with only one grip established.
-
-**Q11**: In what direction should you apply force with each hand during the throwing phase of Tai Otoshi?
-**A**: During the throwing phase, your hands apply force in complementary but different directions to create a rotational wheel effect. Your left hand (collar/lapel/neck grip) pulls in an upward arc over your left shoulder, creating a lifting and rotating force on the opponent's upper body. Your right hand (sleeve/wrist grip) pulls down and across the opponent's body toward your right hip, directing their lower center of mass forward over the blocking leg. The combined effect is a circular force that spins the opponent over the fulcrum point of your extended leg. Neither hand pulls in the same direction - they work as opposing spokes of the same wheel.
-
-**Q12**: What conditions must exist before you commit to a Tai Otoshi entry, and how do you recognize them?
-**A**: Four conditions must be present before committing: (1) You have at least two secure grip points with dominant configuration, (2) the opponent's weight is forward or moving forward - you can feel this through your grips as tension pulling toward you, (3) their base is narrowed or one foot is lifted during a step, detectable by the momentary lightness in your grips, and (4) you have sufficient space to rotate without obstruction. The recognition is primarily tactile rather than visual. Through your grip connection you should feel their weight shift forward, a slight pulling sensation, and reduced resistance to your kuzushi attempt. Committing without these conditions present leads to failed entries and wasted energy.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Tai Otoshi?</p>
 
 When practicing Tai Otoshi, both the person executing the throw and the person being thrown must observe critical safety protocols. The individual being thrown should know proper breakfall technique (slapping the mat with their arm to dissipate impact force) before practicing this throw at full speed. Begin all training with crash pads or soft mats until proper falling mechanics are mastered. The thrower must maintain control throughout the technique and never release their partner suddenly or throw them with excessive force beyond their breakfalling ability. When first learning, execute the throw in slow motion with the partner stepping over your leg voluntarily to understand the mechanics. Progress gradually from static drilling to dynamic application over several weeks. Be particularly cautious about the blocking leg placement - if placed too far across opponent's body or with excessive force, it can cause knee injuries to either practitioner. Practice on appropriate training surfaces with adequate space, avoiding hard floors, walls, or obstacles. Partners should communicate throughout training, especially when fatigue sets in as this increases injury risk. Never practice throws on untrained individuals who do not know how to fall properly.
 

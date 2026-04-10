@@ -48,8 +48,8 @@
       "relationship": "Alternative attack targeting bent-arm defense of the armbar"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Completion transition from Armbar Control to game-over"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Submission finish executed from Armbar Control after completing this transition"
     },
     {
       "name": "Consolidate Mount",

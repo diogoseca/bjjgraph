@@ -64,8 +64,8 @@
       "relationship": "Fallback position if transition fails and Meathook cannot be re-established"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative attack when opponent prioritizes arm defense over head protection"
+      "name": "Armbar on Free Arm",
+      "relationship": "Alternative attack from Meathook when opponent prioritizes arm defense over head protection"
     }
   ],
   "attacker": {
@@ -142,7 +142,7 @@
       {
         "counter": "Arm pummel to create inside position and block shin path",
         "effectiveness": "Low",
-        "your_response": "Their arm pummel opens armbar angle—switch to Armbar from Guard if they prioritize arm positioning over head protection",
+        "your_response": "Their arm pummel opens armbar angle—switch to Armbar on Free Arm if they prioritize arm positioning over head protection",
         "targets_outcome": "Meathook/Bottom"
       }
     ],
@@ -230,7 +230,7 @@
       },
       {
         "question": "Your opponent blocks the shin path by pummeling their arm to inside position—what alternative attack opens?",
-        "answer": "Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar from Guard by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack."
+        "answer": "Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar on Free Arm by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack."
       },
       {
         "question": "What specific hip flexibility prerequisites must be met before attempting this transition in live rolling?",

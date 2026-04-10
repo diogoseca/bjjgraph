@@ -47,8 +47,8 @@
       "relationship": "Finishing submission reached through this setup transition"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative attack when opponent straightens arm to defend figure-four"
+      "name": "Armbar on Free Arm",
+      "relationship": "Alternative armbar attack from Meathook when opponent straightens arm to defend figure-four"
     },
     {
       "name": "Armbar Control",
@@ -137,7 +137,7 @@
       {
         "counter": "Straighten the trapped arm to prevent figure-four configuration",
         "effectiveness": "Medium",
-        "your_response": "A straightened arm opens the Armbar from Guard directly—flow to standard armbar mechanics using your shin hook as initial control",
+        "your_response": "A straightened arm opens the Armbar on Free Arm directly—flow to standard armbar mechanics using your shin hook as initial control",
         "targets_outcome": "Armbar Control/Top"
       },
       {
@@ -217,7 +217,7 @@
       },
       {
         "question": "Your opponent attempts to straighten their trapped arm when you start threading—what alternative attack opens?",
-        "answer": "A straightened arm opens the Armbar from Guard directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another."
+        "answer": "A straightened arm opens the Armbar on Free Arm directly. As they straighten to prevent the figure-four, their elbow becomes vulnerable to hyperextension. Use your shin hook as initial control, bring your leg over their face, and finish the standard armbar. Their defense to one attack creates the opening for another."
       },
       {
         "question": "Why is hip rotation critical before applying Baratoplata pressure?",
@@ -277,7 +277,7 @@
         "when_to_use": "As soon as you feel the attacker creating threading space or their arm beginning to slide under your elbow—this must happen before the figure-four grip connects",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Attacker cannot establish figure-four configuration and you recover to Closed Guard with posture restored, though arm may still be partially controlled",
-        "risk": "Straightened arm is vulnerable to standard Armbar from Guard if attacker transitions quickly—immediately bend arm again after disrupting the thread"
+        "risk": "Straightened arm is vulnerable to standard armbar if attacker transitions quickly—immediately bend arm again after disrupting the thread"
       },
       {
         "action": "Drive forward into a stacking position, collapsing the distance between your chest and the attacker's torso to eliminate threading space",
@@ -329,7 +329,7 @@
       },
       {
         "error": "Straightening the arm without immediately recovering posture afterward",
-        "consequence": "A straightened arm with broken posture creates an immediate Armbar from Guard opportunity for the attacker, who simply transitions from the failed Baratoplata to a standard armbar using the shin hook as initial leg control",
+        "consequence": "A straightened arm with broken posture creates an immediate armbar opportunity for the attacker, who simply transitions from the failed Baratoplata to a standard armbar using the shin hook as initial leg control",
         "correction": "Arm straightening and posture recovery must be simultaneous—straighten to disrupt the thread, but immediately drive your chest up and back to create distance. A straight arm with good posture is defensible; a straight arm with broken posture is an armbar invitation."
       }
     ],

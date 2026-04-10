@@ -148,6 +148,8 @@ Defending against the forward roll escape requires the saddle top player to reco
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Forward Roll from Saddle?</p>
+
 - Opponent shifts weight forward onto their hands and begins tucking their chin toward their chest rather than continuing grip fighting
 - Opponent's free hand moves to the mat to create a posting position instead of actively fighting your leg grips
 - Opponent's free leg pushes against your hip with a directional frame rather than scrambling randomly
@@ -160,6 +162,8 @@ Defending against the forward roll escape requires the saddle top player to reco
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Forward Roll from Saddle?</p>
 
 - Maintain constant hip pressure into the trapped leg to eliminate the space needed for roll initiation
 - Recognize the forward weight shift and chin tuck that signal an impending roll attempt before it gains momentum
@@ -174,6 +178,8 @@ Defending against the forward roll escape requires the saddle top player to reco
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Forward Roll from Saddle?</p>
 
 ### 1. Increase hip pressure and block the posting hand to prevent roll initiation
 
@@ -204,6 +210,8 @@ Defending against the forward roll escape requires the saddle top player to reco
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Forward Roll from Saddle?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 Increase hip pressure immediately when sensing the forward weight shift, use your free arm to control the opponent's posting wrist or forearm, and maintain perpendicular alignment throughout their attempt to generate rolling momentum. Blocking the post removes the pivot point that makes the roll possible.
@@ -219,6 +227,8 @@ When the roll cannot be prevented, release the leg entanglement and follow the r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Forward Roll from Saddle?</p>
 
 ### 1. Hesitating between tightening the entanglement and following to back control
 
@@ -248,6 +258,8 @@ When the roll cannot be prevented, release the leg entanglement and follow the r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Forward Roll from Saddle?</p>
+
 **Phase 1: Recognition Training** - Identifying roll attempt indicators early
 Partner signals forward roll attempts at various stages while you practice reading the cues—weight shift, posting hand placement, reduced grip fighting, free leg frame. Develop the pattern recognition needed to respond before the roll gains momentum. Start with obvious signals and progress to subtle indicators.
 
@@ -264,26 +276,6 @@ Specifically practice following the forward roll and establishing back control. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing a forward roll escape from saddle?
-**A**: The earliest cue is a change in their grip fighting behavior—they stop actively fighting your leg configuration grips and begin posting their free hand on the mat. This indicates a transition from incremental escape methodology to explosive escape. You may also feel a forward weight shift through your entanglement as they begin loading the roll. The combination of reduced grip fighting and forward weight commitment should trigger an immediate response to increase hip pressure and control the posting hand.
-
-**Q2**: When should you follow the roll to back control versus tighten the entanglement to maintain saddle?
-**A**: Follow the roll when your grips on the heel are loose or you have lost the figure-four finishing position—maintaining saddle is already compromised, so converting to back control offers the best outcome. Tighten the entanglement when you have secure heel control and can maintain structural integrity through the rotation. Critical safety note: if maintaining the grip generates rotational force on the knee during the roll, release immediately to prevent injuring your training partner.
-
-**Q3**: Your opponent successfully rolls to turtle—what is your immediate positional priority?
-**A**: Immediately follow them and establish upper body control before they can begin guard recovery. Priority is seatbelt grip with the choking arm over their far shoulder and the underhook arm under their near armpit. Insert the bottom hook first while maintaining chest-to-back pressure. Do not attempt to re-enter the leg entanglement—the positional opportunity has shifted to back control and chasing the legs wastes the conversion window.
-
-**Q4**: How do you prevent your opponent from establishing the posting position needed for the forward roll?
-**A**: Use your free arm to control their near-side wrist or forearm, preventing them from placing their hand on the mat as a pivot point. Alternatively, walk your hips closer to their upper body to limit the space available for forward rolling motion. You can also apply your top leg to press against their shoulder or upper back, creating a barrier that prevents the forward drive needed to initiate the roll while maintaining your entanglement structure.
-
-
-
-</section>
 
 
 </main>

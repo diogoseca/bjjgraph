@@ -9,7 +9,7 @@
     "underhook",
     "bottom-game"
   ],
-  "from_position": "Half Guard/Bottom",
+  "from_position": "Butterfly Guard/Bottom",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -79,7 +79,7 @@
       "relationship": "Intermediate position during sweep to back take chain"
     },
     {
-      "name": "Electric Chair Submission",
+      "name": "Electric Chair",
       "relationship": "Lockdown variation finish"
     }
   ],

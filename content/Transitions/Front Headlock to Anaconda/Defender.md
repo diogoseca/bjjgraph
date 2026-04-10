@@ -166,6 +166,8 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Front Headlock to Anaconda?</p>
+
 - Attacker releases standard headlock grip and begins sliding their arm deeper across your neck toward your far shoulder, indicating the threading phase has begun
 - You feel the attacker's chest pressure shift laterally as they reposition to scoop your near arm into the choking loop with their threading motion
 - Attacker's non-choking hand reaches underneath your body searching for a grip on their own wrist or hand, signaling the figure-four lock is imminent
@@ -178,6 +180,8 @@ Strategically, the defender should recognize that the attacker must accomplish m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Front Headlock to Anaconda?</p>
 
 - Protect your near arm by keeping it tight to your body, denying the arm trap that makes the anaconda possible
 - Hand fight the choking arm at the wrist or elbow to prevent deep threading across your neck before the grip locks
@@ -192,6 +196,8 @@ Strategically, the defender should recognize that the attacker must accomplish m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Front Headlock to Anaconda?</p>
 
 ### 1. Clamp near arm tight to body and fight choking arm wrist with free hand to prevent deep threading
 
@@ -229,6 +235,8 @@ Strategically, the defender should recognize that the attacker must accomplish m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Front Headlock to Anaconda?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Deny the arm trap by keeping near arm clamped tight to body, fight the choking arm wrist to prevent deep threading, then use explosive stand-up or lateral circling to break the attacker's grip configuration and force them back to standard front headlock position where their submission threat is neutralized.
@@ -244,6 +252,8 @@ If the grip is partially locked, use aggressive roll-through in the attacker's i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Front Headlock to Anaconda?</p>
 
 ### 1. Leaving near arm extended or posted on the mat away from the body during front headlock defense
 
@@ -278,6 +288,8 @@ If the grip is partially locked, use aggressive roll-through in the attacker's i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Front Headlock to Anaconda?</p>
+
 **Week 1-2: Recognition and Near-Arm Protection** - Identifying anaconda setup cues and building near-arm discipline
 Partner establishes front headlock and slowly begins anaconda threading at 30% speed. Defender focuses solely on recognizing the threading initiation and immediately clamping near arm to body. No escape attempts yet—build the habit of arm protection as an automatic response. Partner resets and repeats from different angles. 15-20 repetitions per round, emphasizing the feel of the threading arm crossing the neck as the recognition trigger.
 
@@ -294,29 +306,6 @@ Positional sparring starting from front headlock. Attacker uses full technique a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action to prevent the anaconda setup from front headlock?
-**A**: Keeping your near arm clamped tight to your body is the single most important defensive action. The anaconda choke requires trapping your near arm within the choking loop—without this trapped arm, the attacker cannot generate sufficient compression to finish the choke and cannot prevent you from defending your neck with both hands. By keeping your elbow pinched to your ribs and your arm glued to your side, you deny the fundamental structural element the anaconda needs. This is more important than fighting the choking arm or creating distance, because those defenses can fail and the choke still won't work if the arm isn't trapped.
-
-**Q2**: At what phase of the anaconda setup is defense most effective, and why does waiting reduce escape probability?
-**A**: Defense is most effective during the threading phase, when the attacker is sliding their arm across your neck but has not yet secured the figure-four grip. At this point, the attacker has only one arm engaged (the threading arm) while their other hand is releasing the headlock or searching for the grip. This creates a window where the attacker's control is weakest and their balance is most compromised. Waiting until the figure-four grip is locked reduces escape probability dramatically because the closed loop around your neck and arm creates structural compression that is extremely difficult to break. Waiting until the roll begins reduces it further because your body is now being moved by the attacker's momentum. Each successive phase exponentially decreases your escape options.
-
-**Q3**: Your opponent has locked the figure-four grip but has not yet stepped over to roll - what defensive options remain?
-**A**: With the grip locked but before the roll, you still have viable defensive options. First, use your free hand to attack the grip connection point—peel at their fingers, push on the wrist, or wedge your hand between their hands to break the grip. Second, flatten your body and sprawl your legs back to deny the rolling platform the attacker needs for the step-over. Third, circle aggressively away from the choking arm side to widen the loop and reduce compression. Fourth, if you can get your chin tucked deeply toward your free shoulder, the choke pressure is reduced enough to buy time. Do not attempt to stand at this point, as it may tighten the locked grip. Your best chance is grip breaking combined with directional movement.
-
-**Q4**: How should your escape direction differ depending on whether the attacker is setting up anaconda versus Darce from front headlock?
-**A**: For anaconda defense, circle away from your trapped arm (away from the choking arm side), because the anaconda loop tightens when your arm is compressed inward. Moving away widens the loop. For Darce defense, the threading angle is different—the attacker's arm goes under your far arm rather than your near arm, so you should circle toward the Darce side (toward the choking arm) to compress the loop and prevent the attacker from achieving finishing depth. Recognizing which choke is being set up determines your escape direction. The key identifier is which of your arms the attacker is targeting: near arm trapped means anaconda (circle away), far arm underhooked means Darce (circle toward).
-
-**Q5**: Why is the roll-through defense considered a last resort, and what makes it risky compared to earlier-phase defenses?
-**A**: The roll-through is a last resort because it accepts the attacker's locked grip and rolling momentum, gambling that the chaotic landing will create enough looseness to escape. The risk is substantial: if the attacker maintains a tight grip through the roll, you end up in anaconda control bottom with the choke already compressed from the rolling motion. Unlike earlier-phase defenses that prevent the position from forming, the roll-through fights from within a nearly completed submission. The success rate drops significantly compared to threading-phase defenses. It should only be attempted when the grip is locked, the step-over is happening, and you've failed to prevent the roll through other means.
-
-
-
-</section>
 
 
 </main>

@@ -214,7 +214,7 @@ The Ghost Escape from Side Control occupies the advanced tier of the side contro
 
 - [[Positions/North-South]] - Position opponent may transition to when recognizing the ghost escape setup
 
-- [[Positions/Scramble Position]] - Dynamic state that can result from partially completed ghost escape with contested knee insertion
+- [[Positions/Standing Position]] - Dynamic state that can result from partially completed ghost escape with contested knee insertion
 
 
 </section>

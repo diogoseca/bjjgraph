@@ -208,7 +208,7 @@ The Grip Strip from Buggy Choke serves as the primary escape valve in the turtle
 
 - [[Positions/Knee on Belly]] - Advanced positional target accessible through the progressive peel variant
 
-- [[Submissions/Buggy Choke Finish]] - Primary submission alternative when the choke is progressing rather than stalling
+- [[Positions/Buggy Choke]] - Primary submission alternative when the choke is progressing rather than stalling
 
 - [[Positions/Back Control]] - Alternative transition from buggy choke when the bottom player sits to guard
 

@@ -210,7 +210,7 @@ The stack defense from omoplata occupies a critical position within the omoplata
 
 - [[Transitions/Omoplata from Lasso]] - Entry transition that commonly leads to the omoplata control position
 
-- [[Submissions/Rolling Omoplata]] - Related omoplata submission within the same attack system
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control]] - Related omoplata submission within the same attack system
 
 - [[Positions/Spider Guard]] - Common guard position for initiating omoplata setups that lead to this scenario
 

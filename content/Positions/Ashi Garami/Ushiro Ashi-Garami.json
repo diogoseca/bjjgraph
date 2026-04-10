@@ -326,11 +326,11 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Toe Hold from Ushiro Ashi-Garami",
         "attempt_probability": 8
       },
       {
-        "transition": "Heel Hook from Ushiro Ashi",
+        "transition": "Ashi Garami Maintenance",
         "attempt_probability": 2
       }
     ]
@@ -518,7 +518,7 @@
         "duration": "6 minutes"
       },
       {
-        "name": "Grip Fighting from Inversion",
+        "name": "Grips from Inversion",
         "description": "Start in ushiro ashi-garami with partner attempting to secure heel hook grips. Practice defensive hand fighting to prevent heel exposure while simultaneously working to clear legs. Focus on controlling opponent's wrists and inside leg knee to prevent both submission and deeper entanglement.",
         "duration": "4 minutes"
       }

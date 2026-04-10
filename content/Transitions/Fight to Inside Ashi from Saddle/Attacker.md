@@ -188,6 +188,8 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Fight to Inside Ashi from Saddle?</p>
+
 - Protect the heel as the absolute first priority before initiating any movement or leg pummeling
 - Address opponent's controlling grips systematically before attempting large positional changes
 - Bridge toward the opponent rather than pulling the trapped leg away to reduce joint stress
@@ -203,6 +205,8 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Fight to Inside Ashi from Saddle?</p>
+
 - Heel is not yet fully exposed or opponent has not established their finishing grip on your heel
 - Free leg is available for framing on opponent's hips or body to create distance
 - Some hip mobility remains despite the entanglement pressure from the Saddle configuration
@@ -215,6 +219,8 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Fight to Inside Ashi from Saddle step by step?</p>
 
 1. **Establish heel protection**: Before initiating any movement, secure your own heel by rotating your knee inward toward your centerline and using both hands to control your foot and ankle area. This prevents the opponent from capitalizing on any movement by immediately attacking the exposed heel. Flex your foot to reduce heel accessibility and create a physical barrier.
 2. **Frame with free leg on opponent's hips**: Post your free leg firmly on the opponent's hip or thigh to create a structural barrier that prevents them from driving their hips deeper into your trapped leg. This frame serves dual purposes: it creates space for subsequent movements and reduces the opponent's ability to maintain the perpendicular alignment that maximizes their mechanical advantage over your trapped leg.
@@ -244,6 +250,8 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Fight to Inside Ashi from Saddle?</p>
+
 - **Opponent re-tightens figure-four during leg pummel by driving outside leg hook deeper behind your knee** (Effectiveness: High) - Your Response: Stop the pummel immediately and return to grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting before reattempting the leg pummel. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent attacks heel hook during transition movement when pummeling momentarily exposes the heel** (Effectiveness: High) - Your Response: Abandon the pummel immediately and return to heel protection using both hands to strip their heel grip. Reset the entire escape sequence from the beginning with improved heel security before resuming. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent switches to straight ankle lock threat when you successfully hide the heel during pummeling** (Effectiveness: Medium) - Your Response: Pull toes back to defend the ankle lock while continuing hip clearing movements. Ankle lock defense is less position-dependent than heel hook defense, so you can often maintain escape progress while managing this threat simultaneously. → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -255,6 +263,8 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Fight to Inside Ashi from Saddle?</p>
 
 ### 1. Pulling trapped leg explosively away from opponent during escape attempt
 
@@ -294,6 +304,8 @@ Executing the fight to Inside Ashi-Garami from Saddle bottom requires systematic
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Fight to Inside Ashi from Saddle (Attacker)?</p>
+
 **Phase 1: Mechanics** - Individual movement patterns without resistance
 Practice each step of the escape sequence in isolation: heel protection posture, free leg framing, grip fighting motions, hip bridging direction, and leg pummeling mechanics. Partner holds static Saddle position without resisting. Focus on smooth, controlled movements and understanding the correct direction for each action. 20 repetitions per side.
 
@@ -314,39 +326,12 @@ Begin in Saddle bottom and chain the fight to Inside Ashi with follow-up techniq
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the absolute first priority before initiating any leg pummeling movement from Saddle bottom?
-**A**: Protect the heel by rotating your knee inward toward your centerline and using both hands to control your own foot and ankle. No movement should begin until the heel is secured, because any escape attempt that exposes the heel risks immediate heel hook finishing mechanics. The opponent is specifically waiting for this type of error during your escape attempt to finish the submission.
-
-**Q2**: Your opponent re-tightens their figure-four as you begin pummeling your knee past their outside leg hook - how do you adjust?
-**A**: Stop the pummel immediately and return to the grip fighting phase. Address the re-established figure-four by breaking their foot connection with two-on-one grip fighting at the thumbs. Only resume the leg pummel after you have loosened their configuration again. Attempting to force through a re-tightened figure-four wastes energy and risks heel exposure during the struggle against superior structural control.
-
-**Q3**: Why should you bridge toward the opponent rather than pulling your trapped leg away during the hip clearing phase?
-**A**: Bridging toward the opponent collapses the perpendicular angle that gives the Saddle its mechanical advantage for heel hooks. Pulling the leg away creates rotational force that loads the heel hook mechanics and can cause immediate knee ligament damage. Moving toward the opponent reduces joint stress while eliminating the space they need for finishing. This counter-intuitive direction is the critical biomechanical insight of the technique.
-
-**Q4**: What role does the free leg play throughout the entire transition sequence from Saddle to Inside Ashi?
-**A**: The free leg serves as your primary defensive frame throughout the entire transition. It posts on the opponent's hip to prevent them from driving deeper into your trapped leg, controls distance to prevent re-tightening of the entanglement, and reduces the opponent's ability to maintain perpendicular alignment. Without effective free leg framing, the opponent can simply re-establish Saddle pressure whenever you attempt to pummel.
-
-**Q5**: You have successfully degraded to Inside Ashi-Garami but feel the opponent immediately attempting to re-enter Saddle - what prevents this?
-**A**: Immediately establish Inside Ashi defensive posture by controlling your own knee line and framing on the opponent's hips with both legs. The critical detail is preventing your knee from rotating outward, which would allow the opponent to thread their legs back into the figure-four configuration. Keep your knee pointed toward your centerline and maintain active hip position facing the opponent rather than turning away from them.
-
-**Q6**: During your escape attempt, the opponent begins extending your heel with rotational pressure - what is your immediate response?
-**A**: Tap immediately. Once heel hook rotational pressure is applied, the window for safe escape has closed. Continuing to fight the escape while the heel is being rotated risks severe medial collateral ligament and anterior cruciate ligament damage that can end your training career. There is no escape technique that justifies risking permanent knee injury. Reset and attempt the escape sequence again with better timing and heel protection.
-
-**Q7**: What grip must be addressed before the leg pummel can succeed, and where is this grip weakest?
-**A**: The opponent's figure-four leg configuration is the primary structural control that must be addressed, along with any hand grips on your ankle or heel. All grips are weakest at the thumb connection point. Break grips by peeling at the thumbs using two-on-one pressure rather than pulling against the fingers. The figure-four leg hook is weakest when hip pressure has been cleared, as the perpendicular angle sustaining the hook is already compromised.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Fight to Inside Ashi from Saddle?</p>
 
 This transition involves significant knee and ankle joint risk due to the Saddle position creating immediate danger to medial and lateral knee ligaments through heel hook mechanics. Never practice at full speed without proper warm-up and explicit partner communication about submission thresholds. If the opponent applies rotational pressure to the heel during your escape attempt, tap immediately rather than continuing the movement. Training partners must apply all submissions slowly and progressively, allowing adequate reaction time. Practitioners should master this technique in controlled drilling with cooperative partners before attempting it in live sparring. Always communicate clearly with your training partner about intensity levels and respect the tap instantly.
 

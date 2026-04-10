@@ -164,6 +164,8 @@ The defender's primary strategic framework centers on posture maintenance and ar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Closed Guard to Triangle?</p>
+
 - Opponent breaks your posture aggressively with collar grip while simultaneously controlling one of your sleeves or wrists—this combined grip pattern is the primary triangle setup indicator
 - Opponent's guard opens and one foot plants on your hip while the other leg stays hooked behind you—this asymmetric leg position signals imminent leg throw over your shoulder
 - You feel your arm being pulled across the opponent's body toward the far side while their hips begin shifting laterally away from you—the arm isolation and angle creation happening simultaneously means the triangle entry is in progress
@@ -176,6 +178,8 @@ The defender's primary strategic framework centers on posture maintenance and ar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Closed Guard to Triangle?</p>
 
 - Maintain strong upright posture with spine vertical and head over hips—posture is the primary barrier against triangle setup and must be defended continuously
 - Keep both elbows tight to your torso and never allow one arm to extend across the opponent's centerline without immediately recovering it
@@ -190,6 +194,8 @@ The defender's primary strategic framework centers on posture maintenance and ar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Closed Guard to Triangle?</p>
 
 ### 1. Posture recovery and grip stripping—drive hips back, straighten spine, and use two-on-one grip break to strip the controlling collar grip before the guard opens
 
@@ -227,6 +233,8 @@ The defender's primary strategic framework centers on posture maintenance and ar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Closed Guard to Triangle?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain posture throughout the opponent's setup attempt, strip their controlling grips using two-on-one breaks, and retract any arm that drifts across centerline. Successful early defense returns you to standard closed guard top position where you can resume your guard opening and passing progression.
@@ -242,6 +250,8 @@ When caught in a late-stage triangle, stand in base and use stacking pressure co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Closed Guard to Triangle?</p>
 
 ### 1. Attempting to yank the trapped arm free without first addressing posture and the opponent's angle
 
@@ -276,6 +286,8 @@ When caught in a late-stage triangle, stand in base and use stacking pressure co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Closed Guard to Triangle?</p>
+
 **Week 1-2: Recognition and Early Prevention** - Identifying triangle setup sequences and maintaining posture
 Partner attempts slow-motion triangle setups from closed guard while you practice recognizing each stage of the attack. Focus on maintaining posture under collar grip pressure and immediately recovering when one arm is pulled across centerline. Drill two-on-one grip breaks against collar grips and practice the elbow retraction reflex when sleeve grips are established.
 
@@ -292,29 +304,6 @@ Positional sparring from closed guard where partner actively hunts for triangles
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: At what stage of the triangle setup sequence is defense most effective, and what should your immediate response be?
-**A**: Defense is most effective during the posture break and grip establishment phase—before the guard ever opens. Your immediate response when you feel the collar grip pulling you down combined with a sleeve grip controlling your arm is to drive your hips backward, straighten your spine, and use a two-on-one grip break on the collar grip. Addressing the attack at this stage requires minimal energy and has the highest success rate because the attacker has not yet created any structural advantages.
-
-**Q2**: Why is extracting your trapped arm the wrong first priority when caught in a locked triangle?
-**A**: Extracting the trapped arm first is counterproductive because the pulling motion drives your shoulder deeper into the choke and tightens the triangle configuration around your neck. The opponent's legs compress more effectively when your arm movement creates internal pressure against the lock. The correct priority sequence is: first square your hips to eliminate the finishing angle, then address posture by straightening your spine, and only then begin arm extraction once the triangle's mechanical advantage has been neutralized through position rather than strength.
-
-**Q3**: Your opponent has just opened their guard and planted a foot on your hip—what are your defensive options in this critical two-second window?
-**A**: This is the highest-value defensive window. First option: immediately retract the arm they are trying to isolate by pulling your elbow to your own hip and clamping it to your torso. Second option: drive your shoulder into them aggressively to flatten their hip escape angle before it develops, smashing through the foot on hip. Third option: stand up explosively before they can throw the leg over your shoulder, using the moment their guard is open to create distance. The key is that any response must happen within two seconds—once the leg crosses your shoulder, defensive difficulty increases dramatically.
-
-**Q4**: How does squaring your hips reduce the effectiveness of a locked triangle, and what position should you move toward?
-**A**: Squaring your hips eliminates the perpendicular angle the attacker needs to compress your carotid arteries against their thigh and calf. When your shoulders are parallel to the opponent's hips rather than perpendicular, the triangle becomes a frontal compression that primarily affects the trachea (which you can resist longer) rather than the carotid arteries (which cause unconsciousness in seconds). Walk your knees toward the trapped arm side while pushing the opponent's choking knee away from your neck to square the position and dramatically reduce finishing pressure.
-
-**Q5**: What are the risks of standing up as a triangle defense, and how do you mitigate them?
-**A**: Standing up creates three primary risks: the opponent can transition to omoplata by releasing the triangle and swinging the top leg over your back as you rise, they can extend the trapped arm for an armbar as the standing position opens elbow space, and they can transition to a mounted triangle by following your upward movement. Mitigate these by keeping the trapped arm's elbow absolutely tight to your body during the stand, controlling the opponent's far hip with your free hand to prevent re-angling, and tucking your chin throughout. Standing should only be attempted when other defenses have failed and you need to create maximum space.
-
-
-
-</section>
 
 
 </main>

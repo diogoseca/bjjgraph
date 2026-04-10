@@ -38,8 +38,8 @@ description: "Master Double Sleeve Guard Bottom in BJJ. Control-focused open gua
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata",
-      "text": "From this position, attempt Omoplata. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Omoplata from Double Sleeve Guard",
+      "text": "From this position, attempt Omoplata from Double Sleeve Guard. This technique is attempted in 4% of exchanges from this position.",
       "position": 4
     },
     {
@@ -165,6 +165,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ## Position Definition
 
+<p class="section-subtitle">What is Double Sleeve Guard (Bottom)?</p>
+
 - Bottom practitioner controls both of opponent's sleeves with firm grips at or near the cuffs, maintaining constant tension to prevent opponent from breaking grips or establishing their own control
 - Bottom practitioner's hips are mobile and off the mat, with feet actively posted on opponent's hips, biceps, or shoulders to maintain distance and prevent opponent from closing the gap
 - Opponent is on their knees or standing, unable to establish controlling grips on bottom player's pants or belt due to sleeve control, with their upper body posture being constantly manipulated
@@ -178,6 +180,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Double Sleeve Guard (Bottom)?</p>
+
 - Opponent is in open guard top position on their knees or standing
 - Bottom practitioner has established grips on both of opponent's sleeves
 - Sufficient distance exists between bottom and top player to extend legs
@@ -190,6 +194,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Sleeve Guard?</p>
 
 - Maintain constant tension on both sleeve grips to prevent opponent from breaking grips and establishing their own control system
 - Use feet actively to push and pull opponent's body, creating off-balancing opportunities and preventing them from settling their weight
@@ -205,6 +211,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Double Sleeve Guard (Bottom)?</p>
 
 **If opponent maintains strong upright posture and attempts to break grips by pulling arms back:**
 - Execute **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** → [[Positions/Open Guard]] (Probability: 60%)
@@ -235,6 +243,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Sleeve Guard?</p>
 
 ### 1. Releasing tension on sleeve grips, allowing opponent to break grips easily
 
@@ -274,6 +284,8 @@ Double Sleeve Guard Bottom is a fundamental open guard position where the bottom
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Double Sleeve Guard defense?</p>
+
 ### Double Sleeve Grip Retention Drill
 
 Partner attempts to break both sleeve grips using various methods while bottom player maintains grips for 2-minute rounds. Focus on grip strength, frame integrity, and re-establishing grips quickly if broken. Partner should use realistic grip breaking strategies including posting, pulling back, and circling.
@@ -306,38 +318,6 @@ Start from double sleeve guard and transition to spider guard, lasso guard, or D
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins to rotate their wrists to break your sleeve grips - what adjustment maintains your control?
-**A**: Immediately pull your elbows tight to your ribs while curling your wrists inward, creating a structure where your grip strength is reinforced by your arm position rather than isolated finger strength. Simultaneously extend your legs to push them away, which makes their rotation less effective because they're being stretched. Re-grip deeper on the cuff if needed, as grip depth near the wrist opening provides maximum control with minimal effort.
-
-**Q2**: What are the essential grip configurations for maintaining double sleeve control?
-**A**: Grip at or near the cuffs with four fingers inside the sleeve opening and thumb outside, creating a pistol grip. Your grip should be deep enough that your knuckles touch the inside of the cuff. Maintain constant pulling tension toward your hips with both arms bent at approximately 90 degrees. Your elbows should stay close to your body rather than flaring outward, which both strengthens your grip and positions you for sweeps.
-
-**Q3**: How should you position your hips and legs to maintain optimal distance against a standing opponent?
-**A**: Keep your hips elevated slightly off the mat with feet actively pushing on opponent's hips or biceps. Your legs should be bent at approximately 45-90 degrees depending on their distance - more bent when they're closer, more extended when they're further. Never let your hips rest flat on the mat as this eliminates your mobility. Your feet should push with the balls of your feet, not your heels, for maximum control and quick repositioning.
-
-**Q4**: Your opponent successfully breaks one of your sleeve grips and begins to pass - how do you recover?
-**A**: Immediately use your remaining sleeve grip to pull them off-balance while creating an angle with your hips. Hip out toward the freed side to create distance and prevent them from achieving passing pressure. Your free hand should immediately seek to re-grip their sleeve, control their collar, or frame on their bicep. Transition to lasso guard, spider guard, or collar sleeve guard rather than fighting to re-establish double sleeve from a compromised position.
-
-**Q5**: What body mechanics create the most effective sweeping power from double sleeve guard?
-**A**: Combine push-pull mechanics with hip rotation for maximum sweeping power. Your feet push in one direction while your sleeve grips pull in another, creating rotational force. Your hips should come off the mat and rotate in the sweeping direction while your shoulders stay relatively fixed. The power comes from your core rotation and leg extension, not your arms pulling - your arms direct the force while your legs and hips generate it.
-
-**Q6**: Your opponent postures strongly and pulls their arms back to break your grips - what sweep opportunity does this create?
-**A**: Their backward posture creates an excellent opportunity for the push sweep or technical stand-up. When they pull back, follow their momentum by sitting up while maintaining one sleeve grip. Use their backward energy to come to seated position or standing. Alternatively, if they pull back while you have feet on their hips, extend your legs explosively while pulling their sleeves to create a double ankle sweep opportunity as their base lifts.
-
-**Q7**: How do you recognize the optimal moment to attempt a sweep versus maintaining guard retention?
-**A**: Sweep when opponent's weight shifts uncommitted in one direction, when they reach to break your grip (their posting hand is occupied), when they step laterally creating a vulnerable base, or when they lean forward attempting to pressure pass. Maintain retention when their base is solid and symmetrical, when they have a hand ready to post, or when they're patiently working grip breaks without committing weight. Read their hips and shoulders - movement there precedes balance vulnerability.
-
-**Q8**: Your grips feel fatigued after extended grip fighting - how do you manage energy while maintaining control?
-**A**: Transition one grip to a more sustainable position like lasso or spider guard where the gi wrapping provides mechanical advantage requiring less grip strength. Alternate which hand is doing primary pulling work. Use your legs to do more of the controlling work, posting feet firmly on hips to maintain distance without requiring constant sleeve tension. Consider closing guard briefly to recover grip strength if opponent gets close enough. Strategic guard transitions preserve grip endurance better than sustained double sleeve fighting.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -323,14 +323,14 @@
     "transitions": [
       {
         "transition": "Turtle to Back Control",
-        "attempt_probability": 51
+        "attempt_probability": 52
       },
       {
         "transition": "Crucifix from Turtle",
-        "attempt_probability": 17
+        "attempt_probability": 18
       },
       {
-        "transition": "Twister",
+        "transition": "Twister from Cross Body Ride",
         "attempt_probability": 3
       },
       {
@@ -360,10 +360,6 @@
       {
         "transition": "Twister Entry",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Short Choke from Cross Body",
-        "attempt_probability": 2
       }
     ]
   },
@@ -379,7 +375,7 @@
       "bottom",
       "escape"
     ],
-    "overview": "Cross Body Ride Bottom represents a highly disadvantageous defensive position where the practitioner is on their hands and knees (turtle position) with the opponent mounted across their back in a perpendicular or diagonal orientation. The top player controls from the side, using their bodyweight to flatten the bottom player while threatening back takes, crucifix entries, and various choke attacks. This position requires immediate defensive action as remaining static allows the opponent to systematically break down defenses and advance to more dominant positions.\n\nFrom the bottom perspective, Cross Body Ride represents a critical juncture where proper defensive framing, hip movement, and explosive timing can create escape opportunities, while poor technique leads to rapid position deterioration. The bottom player must balance survival priorities—protecting the neck, preventing the back take, maintaining base—while actively working toward re-guard or reversal opportunities. Understanding the relationship between upper body frames, hip positioning, and timing is essential for survival and eventual escape from this compromised position.\n\nThe fundamental challenge of Cross Body Ride Bottom is that passive defense guarantees position loss. The top player's perpendicular weight creates a collapsing force that steadily erodes the bottom player's structural integrity. Every second spent without active escape work allows the top player to advance grips, insert hooks, or transition to an even more dominant configuration. Successful defense requires continuous movement, intelligent framing, and the discipline to chain escape attempts rather than committing to single explosive efforts that waste energy when they fail.",
+    "overview": "Cross Body Ride Bottom represents a highly disadvantageous defensive position where the practitioner is on their hands and knees (turtle position) with the opponent mounted across their back in a perpendicular or diagonal orientation. The top player controls from the side, using their bodyweight to flatten the bottom player while threatening back takes, crucifix entries, and various choke attacks. This position requires immediate defensive action as remaining static allows the opponent to systematically break down defenses and advance to more dominant positions.\n\nFrom the bottom perspective, Cross Body Ride represents a critical juncture where proper defensive framing, hip movement, and explosive timing can create escape opportunities, while poor technique leads to rapid position deterioration. The bottom player must balance survival priorities\u2014protecting the neck, preventing the back take, maintaining base\u2014while actively working toward re-guard or reversal opportunities. Understanding the relationship between upper body frames, hip positioning, and timing is essential for survival and eventual escape from this compromised position.\n\nThe fundamental challenge of Cross Body Ride Bottom is that passive defense guarantees position loss. The top player's perpendicular weight creates a collapsing force that steadily erodes the bottom player's structural integrity. Every second spent without active escape work allows the top player to advance grips, insert hooks, or transition to an even more dominant configuration. Successful defense requires continuous movement, intelligent framing, and the discipline to chain escape attempts rather than committing to single explosive efforts that waste energy when they fail.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -403,7 +399,7 @@
       "Maintain defensive posture with chin tucked, elbows tight to ribs, and hands protecting neck to prevent chokes",
       "Keep hips mobile and ready to shift weight to create angles for escape or prevent flattening",
       "Establish strong frames with forearms to create space between your body and opponent's control points",
-      "Stay active and constantly working—static defense allows opponent to systematically break you down",
+      "Stay active and constantly working\u2014static defense allows opponent to systematically break you down",
       "Prioritize neck protection above all else, as choke threats are immediate and highly dangerous from this position",
       "Use explosive hip movement and directional changes to disrupt opponent's balance and timing when attempting escapes",
       "Recognize timing windows when opponent shifts weight or adjusts grips to initiate escape sequences"

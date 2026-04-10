@@ -162,6 +162,8 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash from Knee Shield?</p>
+
 - Opponent grips your knee shield ankle or pants at the ankle with their far hand while maintaining crossface with near arm
 - Opponent angles their body approximately 45 degrees relative to your shin instead of facing you directly
 - Opponent drives shoulder pressure downward into your upper chest or jawline rather than pushing into your knee shield shin
@@ -174,6 +176,8 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash from Knee Shield?</p>
 
 - Maintain active outward pressure with knee shield using hip flexor engagement rather than relying on passive shin placement against the opponent's chest
 - Protect your knee shield ankle from being gripped by keeping it mobile and tucked close to the opponent's far hip where it is difficult to reach
@@ -188,6 +192,8 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash from Knee Shield?</p>
 
 ### 1. Frame on opponent's shoulder and hip escape to recreate shield angle
 
@@ -225,6 +231,8 @@ Defending against the Smash from Knee Shield requires early recognition and proa
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash from Knee Shield?</p>
+
 ### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain active hip escape motion and frame on opponent's shoulder whenever they attempt to angle and apply pressure. Control their grip hand on your ankle by keeping your foot mobile and tucked. Constantly adjust knee shield angle to keep your shin perpendicular to their advancing pressure vector. Force them to restart the smash sequence repeatedly until they abandon the approach.
@@ -240,6 +248,8 @@ Time your underhook attempt to coincide with opponent's forward weight commitmen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash from Knee Shield?</p>
 
 ### 1. Passively holding the knee shield without actively adjusting angle or engaging hip flexors
 
@@ -269,6 +279,8 @@ Time your underhook attempt to coincide with opponent's forward weight commitmen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash from Knee Shield?</p>
+
 **Phase 1: Recognition** - Identifying smash initiation cues before shield is compromised
 Partner performs the smash sequence at slow speed while you focus exclusively on recognizing the three primary cues: ankle grip, body angle change, and shoulder pressure shift. Call out each cue as you recognize it. Build the pattern recognition speed until you can identify the smash initiation within the first grip attempt.
 
@@ -285,29 +297,6 @@ Full positional sparring from knee shield bottom against committed smash passers
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate your opponent is attempting to smash your knee shield?
-**A**: The three earliest cues are: their hand reaching for your knee shield ankle or pants grip, their body beginning to angle at 45 degrees rather than facing you squarely, and their shoulder pressure shifting from horizontal push into a downward compressive drive into your upper chest. Recognizing these cues before the smash sequence is fully initiated gives you the best window to defend or counter.
-
-**Q2**: Your opponent has gripped your ankle and started angling their body. What is your immediate defensive priority?
-**A**: Your immediate priority is stripping or neutralizing the ankle grip before they can begin redirecting your shin. Pull your foot back toward their far hip or circle it free from their grasp. Simultaneously, hip escape to re-angle your shield perpendicular to their new body position. If you cannot strip the grip, immediately transition to plan B—frame on their shoulder to buy time or begin your deep half guard entry before the shield fully collapses.
-
-**Q3**: When should you abandon knee shield retention and transition to an alternative guard?
-**A**: Abandon shield retention when your shin has been redirected past 45 degrees across your own body, when the opponent has established chest contact on your near shoulder, or when you have lost both ankle mobility and upper body framing capability simultaneously. At these points, fighting to re-establish the shield burns energy without realistic chance of success. Transition to deep half guard by diving under their hips or recover to butterfly half guard by inserting a hook.
-
-**Q4**: How does hip escape timing affect your ability to maintain the knee shield against a smash attempt?
-**A**: Hip escape timing is critical because it must occur before the opponent settles their weight and pins your hips. The hip escape re-creates the angle that makes your shield structurally effective—a flat shield perpendicular to a settled opponent is far weaker than an angled shield against a displaced opponent. Early hip escape forces them to readjust their position and restart their angle, while late hip escape is blocked by their weight already committed on top of your frame.
-
-**Q5**: What is the biggest risk of attempting an underhook sweep while your opponent drives into your shield?
-**A**: The primary risk is that the opponent whizzers your underhook and uses your own forward momentum combined with their downward pressure to flatten you completely without your knee shield in place. If the underhook sweep fails, you lose your primary defensive frame and end up in the worst-case scenario—flattened half guard under heavy crossface pressure with no shield to rebuild. Time the underhook attempt precisely during their maximum forward commitment when their base is weakest.
-
-
-
-</section>
 
 
 </main>

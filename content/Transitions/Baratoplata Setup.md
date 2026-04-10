@@ -196,9 +196,9 @@ The Baratoplata Setup represents the third layer of the Meathook attack system w
 
 - [[Positions/Rubber Guard/Meathook]] - Starting position providing arm isolation and broken posture required for entry
 
-- [[Transitions/Baratoplata]] - Finishing submission reached through this setup transition
+- [[Submissions/Baratoplata]] - Finishing submission reached through this setup transition
 
-- [[Submissions/Armbar from Guard]] - Alternative attack when opponent straightens arm to defend figure-four
+- [[Transitions/Armbar on Free Arm]] - Alternative armbar attack from Meathook when opponent straightens arm to defend figure-four
 
 - [[Positions/Armbar Control]] - Success outcome position where figure-four shoulder lock is secured
 

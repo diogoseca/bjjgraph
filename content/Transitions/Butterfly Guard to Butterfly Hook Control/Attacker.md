@@ -190,6 +190,8 @@ Success depends on recognizing when the opponent's weight distribution creates o
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Guard to Butterfly Hook Control?</p>
+
 - Coordinate hook deepening with upper body grip establishment so each reinforces the other
 - Use the opponent's weight shifts and grip changes as windows to consolidate rather than fighting static pressure
 - Prioritize seated posture recovery before attempting to deepen hooks—posture creates the leverage needed for hook insertion
@@ -204,6 +206,8 @@ Success depends on recognizing when the opponent's weight distribution creates o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Guard to Butterfly Hook Control?</p>
+
 - At least one butterfly hook partially inserted under the opponent's thigh with instep or ball of foot in contact
 - Ability to create upward hip movement through core engagement or posting on one hand behind you
 - At least one grip on the opponent's upper body—collar, sleeve, wrist, or underhook—to maintain connection
@@ -216,6 +220,8 @@ Success depends on recognizing when the opponent's weight distribution creates o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Guard to Butterfly Hook Control step by step?</p>
 
 1. **Establish anchor grip**: Secure your primary upper body connection to the opponent. In gi, grab the collar on the side where your hook is deepest. In no-gi, establish a collar tie or wrist control on the same side. This grip prevents the opponent from creating distance while you consolidate and serves as the directional control for subsequent sweep threats.
 2. **Recover seated posture**: Post your free hand behind your hip on the mat and use it as a lever to sit up into an upright position with your chest forward and head elevated above your hips. Engage your core throughout this motion. If the opponent is driving forward pressure, time this sit-up with a momentary grip pull that disrupts their balance and reduces their ability to keep you flat.
@@ -245,6 +251,8 @@ Success depends on recognizing when the opponent's weight distribution creates o
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Guard to Butterfly Hook Control?</p>
+
 - **Opponent drives heavy forward pressure to flatten you before hooks consolidate** (Effectiveness: High) - Your Response: Post hand behind hip immediately and time your sit-up with a grip pull that disrupts their forward drive. If pressure is overwhelming, transition to deep half guard rather than fighting to maintain butterfly. → Leads to [[Positions/Half Guard]]
 - **Opponent clears one hook by driving their knee to the mat through your hook** (Effectiveness: High) - Your Response: Immediately re-insert the cleared hook using a hip bump on the remaining hook, or transition to half butterfly and work from the asymmetric position. Do not chase the lost hook while neglecting the remaining one. → Leads to [[Positions/Half Guard]]
 - **Opponent stands up to disengage from hook insertion attempts** (Effectiveness: Medium) - Your Response: Follow their hips with your hooks and transition to X-Guard or single leg X-Guard, which are stronger positions against a standing opponent. Their standing creates the space you need for these transitions. → Leads to [[Positions/Butterfly Guard]]
@@ -256,6 +264,8 @@ Success depends on recognizing when the opponent's weight distribution creates o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Guard to Butterfly Hook Control?</p>
 
 ### 1. Attempting to deepen both hooks simultaneously without first establishing posture
 
@@ -295,6 +305,8 @@ Success depends on recognizing when the opponent's weight distribution creates o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Guard to Butterfly Hook Control (Attacker)?</p>
+
 **Solo Movement** - Posture recovery and hip mobility
 Practice the sit-up to seated position from flat on back, engaging core and posting behind hip. Add hip bump motions simulating hook elevation. Develop the muscle memory for the posture recovery sequence without a partner.
 
@@ -315,42 +327,12 @@ After establishing butterfly hook control, immediately chain into sweeps, back t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for deepening your butterfly hooks during a consolidation attempt?
-**A**: The optimal window occurs when the opponent shifts their weight to establish a new grip, begins a passing movement, or adjusts their base position. During these transitions, the pressure on your hooks momentarily decreases as the opponent redirects their attention and weight. This is when hook deepening requires the least effort and has the highest success rate. Attempting to deepen hooks against static, settled pressure is significantly harder and wastes energy.
-
-**Q2**: Why must seated posture be recovered before attempting to deepen hooks?
-**A**: Seated posture creates the biomechanical angle needed to drive hooks into the hip crease. When flat on your back, your legs cannot generate upward curling force effectively because the angle of force is wrong—you push the opponent forward rather than elevating them. The upright position also engages your core as a structural bridge between your upper body grips and lower body hooks, allowing unified force generation that is impossible when supine.
-
-**Q3**: Your opponent drives their right knee to the mat to clear your right hook—how do you respond?
-**A**: Immediately elevate with your left hook while pulling with your upper body grips to shift the opponent's weight onto the remaining hook. This creates either a sweep opportunity on the left side or enough space to re-insert the right hook as the opponent's weight shifts. If the hook cannot be recovered, transition to half butterfly with the remaining left hook and work from the asymmetric position rather than fighting a losing battle for the cleared hook.
-
-**Q4**: What grip configuration provides the strongest connection between upper and lower body for butterfly hook control?
-**A**: The strongest configuration is a collar grip on one side combined with an underhook on the opposite side. The collar grip provides pulling force that directs the opponent's weight onto the same-side hook for sweeps, while the underhook prevents posting on that side and creates an arm drag threat to the back. In no-gi, a collar tie replaces the collar grip and a wrist control or two-on-one replaces the underhook, maintaining similar directional control.
-
-**Q5**: Why should hooks be placed at the hip crease rather than mid-thigh?
-**A**: The hip crease provides maximum mechanical advantage because the hook acts as a fulcrum closer to the opponent's center of mass. A deeper hook requires less force to create the same elevation effect compared to a mid-thigh hook. Additionally, hooks at the hip crease are harder for the opponent to clear because their knee cannot drive past the hook without significantly changing their base, whereas mid-thigh hooks can be stepped over or squeezed out with knee pressure.
-
-**Q6**: How do you maintain connection to the opponent during the most vulnerable phase of consolidation when inserting the second hook?
-**A**: The first hook and your primary grip serve as anchors during second hook insertion. Use a brief elevation on the first hook to shift the opponent's weight and create space under the opposite thigh for the second hook. Your grip prevents the opponent from disengaging during this moment. Never release your existing controls to reach for the second hook—instead, use hip movement and the elevation from the first hook to create the insertion angle while maintaining all current connections.
-
-**Q7**: Your opponent breaks your collar grip while you are mid-consolidation with one hook deep—what is your immediate priority?
-**A**: Immediately re-establish a grip before the opponent capitalizes on the broken connection. Your priority order is: first, maintain your existing hook depth and posture (do not sacrifice these to chase the grip); second, establish any available grip on the opponent's upper body—sleeve, wrist, collar tie, or underhook; third, resume the consolidation sequence. If the opponent uses the grip break to initiate a pass, abandon the consolidation and focus on guard retention from your current position.
-
-**Q8**: What distinguishes a successful consolidation from simply having butterfly guard?
-**A**: Successful consolidation is confirmed when three elements are present simultaneously: deep hooks at the hip crease generating active upward pressure, fully upright seated posture with engaged core maintaining structural integrity, and controlling upper body grips that connect to the hook elevation system. A probing sweep attempt that forces the opponent into a defensive reaction validates the consolidation. General butterfly guard may have one or two of these elements but lacks the unified system that makes the position genuinely threatening.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Guard to Butterfly Hook Control?</p>
 
 Transition to Butterfly Hook Control is a low-risk positional transition with minimal injury potential. The primary safety concern is avoiding hyperextension of the ankle or knee when inserting hooks against a resisting opponent who is driving their knees together. Never force hook insertion against locked resistance—instead wait for a window or redirect to an alternative position. During training, communicate with your partner about hook depth to avoid inadvertent pressure on the knee joint from improperly angled hooks.
 

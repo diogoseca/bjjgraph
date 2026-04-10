@@ -337,7 +337,7 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Straight Ankle Lock",
+        "transition": "Straight Ankle Lock from Straight Ankle Lock Control",
         "attempt_probability": 2
       }
     ]

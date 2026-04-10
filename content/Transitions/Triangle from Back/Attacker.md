@@ -198,6 +198,8 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle from Back?</p>
+
 - Attack the triangle when the opponent commits both hands to defending the choking arm, creating the shoulder opening needed for leg insertion
 - Maintain chest-to-back connection throughout the transition to prevent the opponent from turning and escaping during the leg switch
 - Use the non-choking arm to control the opponent's far wrist or bicep, preventing them from blocking the incoming leg
@@ -212,6 +214,8 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle from Back?</p>
+
 - Harness (seat belt) grip established with chest-to-back connection from back control
 - Opponent is actively defending the rear naked choke with both hands, pulling the choking arm below their chin and creating a shoulder gap
 - At least one hook inserted to maintain lower body control during the leg threading transition
@@ -224,6 +228,8 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle from Back step by step?</p>
 
 1. **Threaten the choke**: From harness position with seat belt grip established, begin working the choking arm toward the neck to force the opponent to commit both hands to defending. Drive the choking forearm toward the neck while maintaining chest pressure on their back.
 2. **Read the defensive reaction**: Recognize when the opponent pulls your choking arm down with a strong two-on-one grip, tucking their chin and committing both hands low. This creates the opening above the defending shoulder that the triangle leg will thread through.
@@ -254,6 +260,8 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle from Back?</p>
+
 - **Opponent tucks chin and pulls their shoulder down to block the leg from threading over, closing the gap above the shoulder** (Effectiveness: High) - Your Response: Maintain choke pressure to keep them reacting with both hands low, then use your controlling arm to pry the shoulder open by pushing on their elbow or use a wrist-peel to create the gap → Leads to [[Positions/Harness]]
 - **Opponent strips the threading leg as it comes over the shoulder by grabbing the ankle or shin and pushing it away before the triangle locks** (Effectiveness: Medium) - Your Response: If the leg is intercepted, immediately re-attack the rear naked choke while the opponent has released their defensive grip to fight the leg. The choke-to-triangle-to-choke chain creates a constant dilemma → Leads to [[Positions/Harness]]
 - **Opponent turns into you during the transition when the hook is withdrawn, attempting to recover guard or escape to half guard** (Effectiveness: Medium) - Your Response: Use the remaining hook and your underhook control to prevent the turn. If they partially turn, adapt by transitioning to a front triangle or switch to an armbar setup using the exposed arm → Leads to [[Positions/Half Guard]]
@@ -265,6 +273,8 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle from Back?</p>
 
 ### 1. Releasing chest-to-back connection while threading the leg, creating space between bodies
 
@@ -304,6 +314,8 @@ The Triangle from Back serves as a critical branch in the back attack decision t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle from Back (Attacker)?</p>
+
 **Week 1-2** - Leg threading mechanics
 Practice the isolated motion of threading the leg over a compliant partner's shoulder from back control. Focus on hip dexterity, maintaining chest connection, and the arc of the leg. Drill the figure-four lock from various angles until the locking motion becomes automatic. No resistance from partner.
 
@@ -321,48 +333,12 @@ Incorporate triangle from back into live rolling from back control positions. St
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Triangle from Back?
-**A**: The primary goal is to transition from harness (seat belt) back control into the Rear Triangle control position by threading one leg over the opponent's shoulder and locking a figure-four around their head and one trapped arm. This establishes a dominant submission control position with multiple finishing options including the triangle choke squeeze and armbar on the trapped arm.
-
-**Q2**: What defensive reaction from your opponent creates the optimal window to initiate the triangle entry?
-**A**: The optimal window opens when the opponent commits both hands to a two-on-one grip on your choking arm, pulling it below their chin to defend the rear naked choke. This two-handed commitment creates an undefended gap above the shoulder on the choking side and removes their ability to block the incoming leg. Without this commitment, the opponent can use their free hand to intercept the leg thread.
-
-**Q3**: Your opponent posts their far hand on the mat as you begin threading the leg - how do you adjust?
-**A**: You should have controlled the far-side arm before initiating the leg thread. If they post despite your control, use your underhook arm to strip their posting hand by cupping their wrist and pulling it back to their body. If you cannot strip the post, abort the triangle attempt and re-attack the rear naked choke while their hand is occupied posting rather than defending the neck. Then re-attempt the triangle when they return both hands to choke defense.
-
-**Q4**: What is the most critical hip movement during the leg threading phase of this technique?
-**A**: The critical hip movement is a lateral hip shift away from the leg you are threading, combined with a slight upward hip elevation. This creates the clearance needed to swing the leg over the shoulder in a smooth arc. Without this hip adjustment, the leg gets caught on the opponent's shoulder or lacks the range of motion to clear. Think of it as shifting your hips to create space for the leg like opening a gate rather than trying to force the leg through a tight gap.
-
-**Q5**: Which grips must you maintain throughout the entire transition from harness to rear triangle?
-**A**: You must maintain at least one point of upper body control at all times. The choking arm stays in contact with the opponent's upper chest or neck area as a reference frame, while the underhook arm transitions from the harness to far-arm control. Additionally, the non-threading hook must stay deep in the opponent's thigh throughout. At no point should all contact points be released simultaneously, as this creates the gap the opponent needs to escape.
-
-**Q6**: What direction of force should the threading leg travel, and why is this specific arc important?
-**A**: The threading leg travels in an upward arc from behind the opponent, over the shoulder, and then downward in front of the neck. The arc must be tight to the opponent's head and shoulder rather than wide and looping. A wide arc gives the opponent time to intercept the leg and creates distance between your chest and their back. A tight arc keeps the knee close to their neck, minimizes transition time, and maintains chest-to-back pressure throughout the movement.
-
-**Q7**: Your opponent defends the triangle by tucking their shoulder and pulling their arm back tight to their body - what chain attack do you use?
-**A**: If the opponent pulls their shoulder tight to prevent the leg from clearing, immediately return to the rear naked choke attack. Their defensive posture of pulling the shoulder down typically opens the neck by creating slack in their chin tuck. This choke-to-triangle-to-choke cycle is the fundamental chain: defending one attack opens the other. After they re-commit to choke defense, the triangle window opens again. This constant oscillation between threats is what makes elite back attackers so dangerous.
-
-**Q8**: What are the common failure points that cause the triangle to fail even after the leg successfully clears the shoulder?
-**A**: The most common failure after clearing the shoulder is taking too long to lock the figure-four, giving the opponent time to push the loose leg off. Second is failing to trap the correct arm inside the triangle, which eliminates choking pressure. Third is not adjusting hip angle after locking, resulting in a loose triangle that the opponent can posture out of. Fourth is neglecting to pull the trapped arm across the body, which is necessary to tighten the strangle and prevent the opponent from creating defensive frames inside the triangle.
-
-**Q9**: How does the Triangle from Back differ from the Triangle Choke Back entry, and when would you choose one over the other?
-**A**: The Triangle from Back is initiated from standard harness control and involves threading a leg over the opponent's shoulder in response to choke defense. The Triangle Choke Back typically involves transitioning from body triangle control with a different mechanical entry. Choose Triangle from Back when you have harness grip and the opponent defends the rear naked choke with both hands. Choose the body triangle variant when you already have body triangle established and want to transition your leg control into a triangle without giving up the body lock first.
-
-**Q10**: What entry requirements must exist before you can safely attempt the Triangle from Back without risking loss of position?
-**A**: Five conditions must be met: (1) secure harness grip with chest-to-back connection, (2) at least one hook inserted for lower body control, (3) opponent committed to two-handed choke defense creating the shoulder opening, (4) control of the far-side arm to prevent blocking, and (5) sufficient space above the shoulder for the leg to thread through. Attempting without these conditions leads to failed entries where you lose hooks, give up back control, or get stuck mid-transition in a compromised position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle from Back?</p>
 
 The Triangle from Back involves significant neck compression and cervical spine stress on the bottom player once the rear triangle is locked. Training partners must tap early when the triangle tightens around the neck, as the choking pressure from a rear triangle can cause unconsciousness rapidly due to bilateral carotid compression. The threading motion can also strain the top player's hip flexors and groin if forced without adequate flexibility. During drilling, practice the leg thread at controlled speed and avoid cranking the triangle lock aggressively. Partners with neck injuries or cervical disc issues should avoid being placed in the bottom position. Always establish clear tap signals before drilling this technique, and release immediately upon any tap or verbal submission.
 

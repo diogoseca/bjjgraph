@@ -154,6 +154,8 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mounted Triangle Squeeze?</p>
+
 - Attacker begins pulling your head downward with both hands while maintaining triangle lock, indicating posture break before squeeze initiation
 - Feeling of progressive tightening around the neck and trapped shoulder as the attacker contracts their figure-four lock in incremental pulses
 - Attacker's hips begin walking to adjust angle, creating a perpendicular alignment to your spine that signals optimization of the choking vector
@@ -166,6 +168,8 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mounted Triangle Squeeze?</p>
 
 - Act immediately - the squeeze is a progressive process that becomes harder to defend with each passing second
 - Protect the neck first with chin tuck and head positioning before addressing positional escape
@@ -181,6 +185,8 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mounted Triangle Squeeze?</p>
 
 ### 1. Establish frame against attacker's hip with free arm to block angle adjustment
 
@@ -218,6 +224,8 @@ Defending the mounted triangle squeeze requires understanding that the attacker 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mounted Triangle Squeeze?</p>
+
 ### → [[Positions/Mount]]
 
 Disrupt the triangle lock through explosive bridging timed to the attacker's squeeze commitment or extract the trapped arm to eliminate the choking fulcrum. The bridge should target the side where the attacker's bottom leg is posted, attacking their weakest base point. Follow through immediately into guard recovery rather than settling for mount bottom.
@@ -233,6 +241,8 @@ Prevent the squeeze from tightening to finishing pressure through sustained fram
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mounted Triangle Squeeze?</p>
 
 ### 1. Waiting passively for the squeeze to develop before initiating defensive actions
 
@@ -262,6 +272,8 @@ Prevent the squeeze from tightening to finishing pressure through sustained fram
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mounted Triangle Squeeze?</p>
+
 **Phase 1: Squeeze Recognition and Frame Response** - Identifying squeeze initiation cues and immediate frame establishment
 Partner applies squeeze at 50% intensity. Defender practices recognizing the squeeze cues (head pull, angle walk, progressive tightening) and immediately establishing hip frame and chin tuck. Build the automatic response to squeeze recognition. 15 repetitions per side.
 
@@ -278,26 +290,6 @@ Start in mounted triangle with attacker working full squeeze-to-finish sequence.
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is framing against the attacker's hip more effective than pushing against their leg during squeeze defense?
-**A**: The hip frame prevents the attacker from achieving the perpendicular angle that gives the squeeze its mechanical advantage. Without the correct angle, even strong leg compression misses the carotid arteries and applies pressure to non-vital structures. Pushing against the leg fights the entire strength of the figure-four lock plus gravity, which is mechanically futile. The hip frame addresses the root cause of choking effectiveness, while leg pushing addresses only the symptom.
-
-**Q2**: What is the optimal timing window for an explosive bridge escape during the squeeze?
-**A**: The optimal window occurs when the attacker commits maximum squeeze effort, which naturally narrows their base by drawing their knees together and elevating their hips. During this commitment phase, the attacker's bottom posting leg carries less weight and their center of gravity shifts upward. Bridge explosively at this moment, directing the bridge at a 45-degree angle toward the attacker's weakened posting side. This brief window typically lasts 1-2 seconds during each squeeze pulse.
-
-**Q3**: How do you manage energy expenditure when defending a prolonged mounted triangle squeeze?
-**A**: Breathe deliberately through the nose in controlled cycles rather than holding your breath or gasping. Use skeletal frames rather than muscular pushing to maintain defensive structure. Alternate between active defense phases and brief recovery phases where you maintain minimum defensive posture while recovering energy. Accept that survival sometimes requires enduring discomfort while waiting for a genuine escape opportunity rather than burning energy on low-probability attempts. The attacker also fatigues from squeezing, so outlasting their effort creates late-stage escape opportunities.
-
-**Q4**: What recognition cues indicate the squeeze has reached a level where tapping is the safest option?
-**A**: Tap when you experience any of the following: tunnel vision or darkening of peripheral vision indicating carotid compression, inability to maintain any defensive frame structure, feeling of involuntary relaxation in your neck muscles suggesting approaching unconsciousness, or the realization that your defensive structure has been completely compromised with no remaining escape options. In training, tap at the first sign of genuine choking pressure taking effect. Pushing through an effective squeeze risks loss of consciousness. Tapping early and resetting to practice defense again is always the correct training decision.
-
-
-
-</section>
 
 
 </main>

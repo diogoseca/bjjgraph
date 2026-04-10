@@ -206,7 +206,7 @@ The Russian Tie to Back Take serves as a critical bridge between standing wrestl
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Target grip configuration established after successful back take
 
-- [[Transitions/Rear Naked Choke]] - Primary submission finish from back control after completing this technique
+- [[Submissions/Rear Naked Choke]] - Primary submission finish from back control after completing this technique
 
 - [[Transitions/Chair Sit to Back]] - Alternative back take method sharing angular movement principles
 

@@ -188,6 +188,8 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Morote Seoi Nage?</p>
+
 - Maintain bilateral sleeve or wrist control throughout the entire throwing motion
 - Break opponent's posture forward with strong pulling action before entry
 - Rotate hips deeply under opponent's center of gravity during entry
@@ -203,6 +205,8 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Morote Seoi Nage?</p>
+
 - Establish strong bilateral grips on opponent's sleeves or wrists
 - Create forward momentum or reaction through push-pull grip fighting
 - Opponent's weight shifted slightly forward or on their heels
@@ -217,6 +221,8 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Morote Seoi Nage step by step?</p>
 
 1. **Establish sleeve grips**: Secure firm grips on both of opponent's sleeves at the wrists or mid-forearm. Your grip should be strong enough to control their arms but flexible enough to allow pulling motion. Keep your elbows slightly bent and ready to pull.
 2. **Break opponent's balance forward**: Execute a strong forward pull with both hands while stepping your lead foot forward. This kuzushi action should break opponent's posture forward and shift their weight onto their toes. Feel for the moment when they resist by pulling back or pushing forward.
@@ -246,6 +252,8 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Morote Seoi Nage?</p>
+
 - **Sprawl and whizzer defense** (Effectiveness: Medium) - Your Response: If opponent sprawls early, immediately switch to single leg attack or snap down to front headlock. If they establish whizzer, continue rotation and use their resistance to complete throw in modified direction. → Leads to [[Positions/Standing Position]]
 - **Break grips and create distance** (Effectiveness: High) - Your Response: Prevent grip breaks by keeping elbows close to body and using circular motion rather than straight pulls. If grips are broken, immediately re-establish or transition to alternative takedown like arm drag or ankle pick. → Leads to [[Positions/Standing Position]]
 - **Post and spin to turtle** (Effectiveness: Medium) - Your Response: Maintain strong downward pull on arms throughout throw to prevent posting. If opponent manages to post, follow them to turtle position and immediately attack back control or front headlock position. → Leads to [[Positions/Side Control]]
@@ -257,6 +265,8 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Morote Seoi Nage?</p>
 
 ### 1. Releasing grips too early during the throw
 
@@ -296,6 +306,8 @@ Morote Seoi Nage, or the two-handed shoulder throw, is a fundamental judo techni
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Morote Seoi Nage (Attacker)?</p>
+
 **Week 1-2: Basic Entry Mechanics** - Footwork and hip rotation without partner resistance
 Practice solo drilling of stepping pattern and hip rotation. Work with cooperative partner to establish correct loading position and body contact. Focus on achieving proper 180-degree rotation and low hip positioning. No throws yet, just entry and load.
 
@@ -316,54 +328,12 @@ Attempt technique during live rolling and competition training. Analyze video fo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary difference between Morote Seoi Nage and Ippon Seoi Nage?
-**A**: Morote Seoi Nage maintains grips on both of the opponent's sleeves or wrists throughout the throw, while Ippon Seoi Nage uses only one arm with the throwing arm going under the opponent's armpit. This bilateral grip control in Morote Seoi Nage provides superior control during the throw and makes it more difficult for opponents to post out or counter.
-
-**Q2**: Why is kuzushi (off-balancing) critical before attempting Morote Seoi Nage?
-**A**: Proper kuzushi breaks the opponent's balanced stance and shifts their weight forward, making them lighter and easier to load onto your back. Without effective kuzushi, the opponent maintains a strong base and can defend the technique by sprawling, countering, or simply preventing you from completing the rotation and load. The forward pull also creates a reactive moment where the opponent is vulnerable to the rotational entry.
-
-**Q3**: What should you do if your opponent posts their hand during the throw to prevent the completion?
-**A**: Maintain strong downward pulling pressure on both sleeves throughout the throw to prevent posting. If the opponent manages to post despite this, follow them to the turtle position and immediately transition to attacking back control or establishing a front headlock position. Never release your grips until you have secured dominant position.
-
-**Q4**: How can you chain Morote Seoi Nage with other takedowns for higher success rates?
-**A**: Morote Seoi Nage works excellently in combination with forward-pressure takedowns and grip fighting sequences. Common chains include: arm drag to Morote Seoi Nage when opponent resists the drag, failed Morote Seoi Nage to single leg or ankle pick when opponent sprawls, and alternating between Morote Seoi Nage and other judo throws like Tai Otoshi or Harai Goshi to create uncertainty in the opponent's defensive reactions.
-
-**Q5**: What adjustments must be made when executing Morote Seoi Nage in no-gi contexts?
-**A**: In no-gi situations, you must replace sleeve grips with overhooks, wrist controls, or bicep grips, which are less secure than gi sleeve grips. This requires tighter body contact during entry, faster execution to prevent the opponent from breaking grips, and often requires setting up the technique with collar ties or front headlock positions first. The fundamental mechanics of hip rotation and loading remain the same, but grip maintenance becomes significantly more challenging.
-
-**Q6**: What is the optimal timing window for entering Morote Seoi Nage?
-**A**: The optimal timing occurs immediately after breaking the opponent's balance forward when they are either resisting by pulling back (creating reactive momentum) or pushing forward into your pull. The entry should be executed as a continuous explosive motion during this brief moment of compromised balance. Hesitation or telegraphing the entry allows the opponent to recover their base and defend effectively.
-
-**Q7**: Where should your hips be positioned relative to your opponent during the loading phase?
-**A**: Your hips must drop below your opponent's center of gravity during the loading phase. This creates the mechanical leverage necessary for the throw. If your hips remain at or above their hip level, you will be attempting to lift dead weight rather than using leverage. The deeper you can get your hips under them while maintaining back-to-chest contact, the more explosive and effortless the throw becomes.
-
-**Q8**: What is the critical direction of force when executing the throwing motion?
-**A**: The force application combines two simultaneous directions: an upward and forward thrust from the legs and hips that lifts and rotates the opponent, combined with a strong downward pull on both sleeves that accelerates their rotation over your shoulder. These opposing forces create a wheel-and-axle effect where your body acts as the fulcrum, multiplying the force applied to the opponent's body and generating maximum rotational momentum.
-
-**Q9**: Your opponent stiffens their arms and creates rigid resistance when you attempt to break their balance forward. How do you adjust?
-**A**: Use their rigid resistance against them by either pushing briefly to elicit a pushing counter-reaction, then pulling as they resist forward, or by executing a push-pull sequence that breaks their balance in the direction they are already resisting. Alternatively, maintain constant circular grip motion to prevent them from establishing a static defensive structure. The rigidity that helps them defend actually makes them more vulnerable once their balance is compromised, as they cannot adjust their posture quickly.
-
-**Q10**: What grip configuration provides the most secure control for Morote Seoi Nage in the gi?
-**A**: The strongest grip configuration involves gripping both sleeves at the wrist or just above the wrist, with your thumbs inside the sleeve material and fingers wrapped around the outside. This provides maximum rotational control and makes it extremely difficult for opponents to break the grip. Gripping too high on the forearm reduces control, while gripping the fabric itself rather than wrapping around the wrist joint allows easier escape.
-
-**Q11**: Your opponent sprawls defensively as you begin your entry rotation. What is the best immediate response?
-**A**: If they sprawl early in your entry, you have several options depending on their sprawl depth. A shallow sprawl allows you to continue the rotation with increased downward pulling pressure. A deeper sprawl should trigger an immediate transition to single leg attack on their forward leg, or a snap down to front headlock position using the grip control you already have. The key is recognizing the sprawl early and switching attacks before losing grip position or becoming stuck in a disadvantaged position.
-
-**Q12**: What are the entry requirements that must exist before committing to Morote Seoi Nage?
-**A**: Before committing, you need: secure bilateral sleeve or wrist grips that can withstand pulling force, the opponent's weight shifted forward or reactive forward movement created through grip fighting, appropriate distance (close enough for back-to-chest contact but not already clinched), and clear mat space for safe execution. Additionally, your own posture should be upright with knees slightly bent for explosive movement, and you need mental commitment to execute the technique fully without hesitation once initiated.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Morote Seoi Nage?</p>
 
 When practicing Morote Seoi Nage, safety is paramount due to the potential for impact injuries. Both practitioners must understand proper breakfall techniques before live drilling. The person executing the throw must maintain control of both sleeves throughout the technique to prevent the opponent from landing directly on their head or neck. Practice on appropriate mats with sufficient padding. Begin with slow, controlled repetitions and gradually increase speed only after both partners are comfortable. The throwing partner should guide the landing by maintaining grip pressure and not releasing too early. Training partners should communicate clearly about their comfort level with resistance and speed. Avoid attempting this technique against significantly larger opponents until technical proficiency is established, as improper execution can result in back or shoulder injuries for the thrower.
 

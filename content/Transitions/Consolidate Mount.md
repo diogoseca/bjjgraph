@@ -182,7 +182,7 @@ This methodical approach transforms a fleeting positional achievement into a suf
 
 ## Position Integration
 
-Consolidate Mount bridges the gap between achieving mount and launching effective attacks. In the broader BJJ game, this transition connects guard passing success to the submission hunting phase. Without proper consolidation, mount becomes a transitory position rather than a dominant one. This technique integrates with the mount attack system by creating the stable platform needed for Americana from Mount, Armbar from Mount, Cross Collar Choke, and Ezekiel Choke. It also connects to positional advancement sequences, leading to High Mount, S Mount, and Mounted Triangle positions for more sophisticated control and attack options.
+Consolidate Mount bridges the gap between achieving mount and launching effective attacks. In the broader BJJ game, this transition connects guard passing success to the submission hunting phase. Without proper consolidation, mount becomes a transitory position rather than a dominant one. This technique integrates with the mount attack system by creating the stable platform needed for Americana, Mount to Armbar, Cross Collar Choke, and Ezekiel Choke. It also connects to positional advancement sequences, leading to High Mount, S Mount, and Mounted Triangle positions for more sophisticated control and attack options.
 
 </section>
 
@@ -198,9 +198,9 @@ Consolidate Mount bridges the gap between achieving mount and launching effectiv
 
 - [[Positions/Mount/Technical Mount]] - Alternative consolidation path when opponent defends high mount advancement
 
-- [[Submissions/Americana from Mount]] - Follow-up submission available after consolidation
+- [[Submissions/Americana]] - Follow-up submission available after consolidation from mount
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission enabled by stable high mount platform
+- [[Transitions/Mount to Armbar]] - Follow-up submission transition enabled by stable high mount platform
 
 - [[Positions/Gift Wrap]] - Arm control variation used during consolidation to eliminate frames
 

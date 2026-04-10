@@ -177,6 +177,8 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 ## Position Definition
 
+<p class="section-subtitle">What is Lasso Guard (Top)?</p>
+
 - Your arm is threaded through the opponent's shin creating a lasso control that restricts your mobility and base on that side
 - The opponent maintains a tight sleeve grip on your trapped arm, creating a lever system against your shoulder
 - Your trapped arm cannot effectively post or establish controlling grips while the lasso remains engaged
@@ -188,6 +190,8 @@ Developing competency on top in lasso guard situations builds fundamental skills
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Lasso Guard (Top)?</p>
 
 - Solid understanding of guard passing fundamentals including pressure, base maintenance, and grip fighting principles
 - Experience with grip breaking techniques and strategies for dealing with extended guard controls
@@ -202,6 +206,8 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Lasso Guard?</p>
+
 - Address the lasso control systematically before attempting aggressive passing - clear or minimize the sleeve grip and leg positioning that create mechanical disadvantage
 - Maintain wide base with your legs to prevent being swept, particularly protecting against triangle and hook sweep variations
 - Control the opponent's non-lasso leg immediately to prevent them establishing secondary controls or transitioning to other guard systems
@@ -215,6 +221,8 @@ Developing competency on top in lasso guard situations builds fundamental skills
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Lasso Guard (Top)?</p>
 
 **If opponent maintains tight lasso with strong sleeve grip and extended leg creating maximum leverage:**
 - Execute **[[Transitions/Lasso Guard Pass/Attacker|Lasso Guard Pass]]** → [[Positions/Side Control]] (Probability: 50%)
@@ -237,7 +245,7 @@ Developing competency on top in lasso guard situations builds fundamental skills
 
 
 **If opponent over-commits to lasso and exposes their non-lasso arm or neck:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
@@ -248,6 +256,8 @@ Developing competency on top in lasso guard situations builds fundamental skills
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Lasso Guard?</p>
 
 ### 1. Attempting aggressive passing immediately without addressing the lasso control first
 
@@ -286,6 +296,8 @@ Developing competency on top in lasso guard situations builds fundamental skills
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Lasso Guard attacks?</p>
 
 ### Lasso Grip Breaking and Posture Control Drill
 

@@ -156,6 +156,8 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Rotation Escape from Electric Chair?</p>
+
 - Bottom player's lockdown tension decreases noticeably as they prepare to release the figure-four leg configuration
 - The underhook arm repositions deeper or shifts its grip angle, indicating it is being set up as a rotation pivot rather than a sweeping anchor
 - Bottom player releases ankle control with their free hand and begins posting on the mat, signaling the transition is imminent
@@ -167,6 +169,8 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Rotation Escape from Electric Chair?</p>
 
 - Recognize the escape attempt early by reading the setup cues - any loosening of lockdown tension combined with underhook repositioning signals the bail-out
 - Maintain forward pressure and crossface control throughout to limit the bottom player's rotation options
@@ -181,6 +185,8 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Rotation Escape from Electric Chair?</p>
 
 ### 1. Drive heavy forward pressure and crossface to flatten the bottom player before they can initiate the rotation
 
@@ -211,6 +217,8 @@ As the defender against the hip rotation escape, you are the Electric Chair top 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Rotation Escape from Electric Chair?</p>
+
 ### → [[Positions/Half Guard]]
 
 Maintain heavy forward pressure throughout the escape attempt, driving your chest into the bottom player and establishing a deep crossface as soon as the lockdown tension decreases. The key is preventing the rotation from starting by keeping the bottom player flat with no space to generate hip movement.
@@ -226,6 +234,8 @@ Time a backstep pass during the exact moment the bottom player releases their lo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Rotation Escape from Electric Chair?</p>
 
 ### 1. Relaxing pressure when feeling the lockdown release, assuming the threat has passed
 
@@ -255,6 +265,8 @@ Time a backstep pass during the exact moment the bottom player releases their lo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Rotation Escape from Electric Chair?</p>
+
 **Phase 1: Recognition Drilling** - Reading escape setup cues
 Partner alternates between continuing electric chair attacks and setting up the hip rotation escape. Practice identifying the cues that distinguish a genuine escape attempt from continued attack adjustments. Call out the escape verbally before it happens to develop pattern recognition speed.
 
@@ -268,29 +280,6 @@ Start in electric chair top position with partner having full grip establishment
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing to abandon the electric chair for a hip rotation escape?
-**A**: The earliest cue is a decrease in lockdown tension combined with repositioning of the underhook arm. When the bottom player shifts their underhook from a sweeping grip to a deeper pivot grip, and simultaneously reduces the pulling pressure on your trapped leg, they are transitioning from attacking to escaping. This typically happens before the ankle control is released and provides the maximum reaction window for defensive response.
-
-**Q2**: Why is the moment of lockdown release the critical vulnerability window for the bottom player?
-**A**: When the lockdown is released, the bottom player has abandoned their primary control mechanism but has not yet established the defensive turtle position. For a brief moment, their legs are free and uncommitted, their body is partially rotated with back exposed, and they have only the underhook as a control point. This window represents the optimal time for the top player to either flatten and pass or advance directly to side control, because none of the bottom player's normal defensive tools are available.
-
-**Q3**: Your opponent completes the rotation to turtle despite your defensive efforts - what should your immediate priorities be?
-**A**: Immediate priorities in order: first, establish chest-to-back pressure to prevent them from creating space. Second, secure seatbelt or harness control with your arms around their upper body. Third, prevent their first escape attempt by reading their weight distribution and blocking the most likely escape direction. Only after upper body control is secured should you work to insert hooks for full back control. Rushing to hooks without upper body control allows easy granby rolls and sit-throughs.
-
-**Q4**: How do you determine whether to attempt a backstep pass or drive forward to flatten during the escape attempt?
-**A**: The decision depends on the bottom player's leg position during the lockdown release. If their legs open wide during the release creating a clear passing lane on one side, the backstep pass is higher percentage because you can thread your leg through before they close the space. If their legs stay relatively close together and they are rotating quickly, the forward pressure to flatten is more effective because it addresses the rotation directly rather than trying to pass around it.
-
-**Q5**: What are the risks of overcommitting to preventing the escape versus allowing turtle and attacking from there?
-**A**: Overcommitting to prevention, particularly through excessive forward drive, can backfire if the bottom player uses your momentum to power their rotation. You may also end up off-balance and in a scramble if the prevention fails. Allowing turtle and attacking from top is lower risk but gives the opponent time to establish defensive posture. The optimal approach is moderate prevention pressure with readiness to transition to turtle attacks if the escape succeeds, rather than going all-in on either strategy.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Truck Maintenance?</p>
+
 - Opponent re-seats boot pressure deeper into your hip after you create any space, indicating active maintenance effort rather than attack setup
 - Opponent tightens leg entanglement by squeezing knees together and pulling hooking leg deeper behind your knee joint
 - Opponent increases chest pressure against your upper back while keeping all lower body controls locked, prioritizing position over submission
@@ -174,6 +176,8 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Truck Maintenance?</p>
 
 - Protect the neck immediately with chin tucked and hands ready to defend twister grips and choke attempts before addressing anything else
 - Address boot pressure before leg entanglement because the boot enables all other control and its removal weakens the entire system
@@ -188,6 +192,8 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Truck Maintenance?</p>
 
 ### 1. Clear boot pressure through persistent hand fighting and hip rotation to remove the primary torque control
 
@@ -225,6 +231,8 @@ Defending against truck maintenance requires a systematic approach to dismantlin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Truck Maintenance?</p>
+
 ### → [[Positions/Half Guard]]
 
 Clear boot pressure first through persistent hand fighting, then extract trapped leg using explosive hip rotation when attacker's entanglement loosens. Insert knee shield immediately after leg extraction to establish half guard and prevent attacker from re-entering truck.
@@ -240,6 +248,8 @@ Fight boot pressure until attacker's torque control weakens below effective thre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Truck Maintenance?</p>
 
 ### 1. Panicking and burning energy with explosive unfocused movements instead of systematic escape
 
@@ -269,6 +279,8 @@ Fight boot pressure until attacker's torque control weakens below effective thre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Truck Maintenance?</p>
+
 **Phase 1: Position Familiarization** - Comfort and threat awareness in truck bottom
 Partner establishes truck at 20% control while you identify all three control points and submission threats. Practice calm breathing and systematic threat assessment without attempting escape. Build comfort in the unfamiliar body configuration before adding defensive techniques.
 
@@ -285,29 +297,6 @@ Start in established truck against partner at full resistance in 30-second round
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first defensive priority when the opponent re-establishes boot pressure after you partially clear it?
-**A**: Immediately re-engage boot fighting with your near hand while keeping the far hand defending your neck. The boot is the torque engine of the truck position, and allowing it to re-seat without resistance means all subsequent escape attempts become exponentially harder. Fight the boot every time it is re-applied, because each successful re-seating resets your escape progress to zero.
-
-**Q2**: How do you time your major escape attempt against a skilled truck maintenance player?
-**A**: Time your escape for the moment the attacker shifts weight to attempt a submission. When they reach for a twister grip, their chest pressure momentarily decreases. When they adjust for a calf slicer, their upper body connection loosens. These transition moments between maintenance posture and attack posture create the brief gaps needed for successful escape attempts. Patience is essential because forcing escape against full maintenance rarely succeeds.
-
-**Q3**: Your trapped leg is being extended and you feel calf slicer pressure building—what do you do?
-**A**: Immediately bend your knee as sharply as possible to reduce compression on the joint while simultaneously rotating your hip toward the trapped leg to reduce the extension angle. If you can create enough slack, attempt extraction. If compression pressure becomes significant and escape is not viable, tap immediately. The calf slicer can cause serious knee ligament damage with very little warning before the injury threshold is crossed.
-
-**Q4**: What determines whether you should attempt a granby roll or a hip escape from truck bottom?
-**A**: Choose granby roll when the attacker's weight is committed forward over your upper body, as the roll uses their forward pressure as momentum to generate rotation. Choose hip escape when the attacker has loose upper body control but maintains strong boot and leg entanglement, because shrimping creates the angles needed to work the trapped leg free. Granby requires space and momentum to initiate effectively, while hip escape works in tighter configurations where rolling is not feasible.
-
-**Q5**: Why is it critical to address boot pressure before attempting leg extraction?
-**A**: Boot pressure creates lateral torque through your hips that prevents the rotation needed for leg extraction. Attempting to extract your trapped leg while the boot is firmly placed is like trying to open a door while someone is pushing it shut from the other side. Clearing or reducing the boot first removes the mechanical restriction on your hip rotation, making subsequent leg extraction dramatically more likely to succeed with less energy expenditure.
-
-
-
-</section>
 
 
 </main>

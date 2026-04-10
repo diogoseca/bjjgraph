@@ -156,6 +156,8 @@ Effective defense requires recognizing that the bottom player's counter throw be
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Throw from Standing Rear Clinch?</p>
+
 - Bottom player suddenly drops their level by bending their knees deeply while you maintain chest-to-back connection, loading your weight further forward
 - Bottom player's hands shift from defensive grip fighting to aggressively grabbing your wrists, clasped hands, or forearms in a controlling configuration
 - Bottom player's hips begin rotating or shifting laterally rather than fighting to create linear separation from your control
@@ -168,6 +170,8 @@ Effective defense requires recognizing that the bottom player's counter throw be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Throw from Standing Rear Clinch?</p>
 
 - Maintain hip offset angle to prevent the bottom player from loading your weight onto a single fulcrum point for the throw
 - Keep at least one hand available to post rather than committing both arms to locked grip configurations
@@ -182,6 +186,8 @@ Effective defense requires recognizing that the bottom player's counter throw be
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Throw from Standing Rear Clinch?</p>
 
 ### 1. Sit your hips back and sprawl weight downward when you feel the level change
 
@@ -219,6 +225,8 @@ Effective defense requires recognizing that the bottom player's counter throw be
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Throw from Standing Rear Clinch?</p>
+
 ### → [[Positions/Standing Rear Clinch]]
 
 Recognize the throw initiation early through level change and grip shift cues, then immediately sit your hips back and widen your base to remove the forward pressure the throw requires. Maintain your grip configuration and re-establish heavy forward pressure once the throw attempt is abandoned.
@@ -234,6 +242,8 @@ If the throw cannot be prevented, maintain chest-to-back connection and hook/sea
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Throw from Standing Rear Clinch?</p>
 
 ### 1. Loading all weight forward onto the opponent's back without maintaining your own independent base
 
@@ -263,6 +273,8 @@ If the throw cannot be prevented, maintain chest-to-back connection and hook/sea
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Throw from Standing Rear Clinch?</p>
+
 **Phase 1: Cue Recognition** - Identifying throw initiation patterns through tactile and visual cues
 Partner attempts counter throws at 30% speed while you focus solely on recognizing the level change, grip shift, and rotational cues. Do not attempt to defend yet. Call out what you feel: level change, grip grab, hip rotation, direction. Build the recognition vocabulary before adding defensive responses. Practice with eyes closed to develop tactile awareness independent of visual confirmation.
 
@@ -279,26 +291,6 @@ Positional sparring starting from standing rear clinch. Top player defends throw
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a counter throw is being initiated from standing rear clinch?
-**A**: The earliest cue is the bottom player dropping their level by bending their knees deeply. This level change is the mechanical prerequisite for every throw variant and occurs before any rotation or directional commitment. When you feel the opponent's hips dropping below your hip line while your weight is on their back, a throw is likely being set up. This is your window for prevention through sitting your own hips back.
-
-**Q2**: Why is maintaining hip offset angle the most effective preventive defense against counter throws?
-**A**: Hip offset angle (approximately 45 degrees to one side rather than directly behind) prevents the bottom player from creating a single clean fulcrum point for the throw. Most throw variants require loading the opponent's weight across a central axis, and the offset disrupts this alignment. The lateral drop requires weight directly behind for the sit-through, the hip throw requires the opponent centered for the rotation, and the sacrifice throw needs forward momentum. The offset compromises all three variant entries simultaneously.
-
-**Q3**: If you cannot prevent the throw and will be taken to the ground, what should your defensive priority be during the fall?
-**A**: Your priority during an unavoidable throw is maintaining chest-to-back connection with hooks and seatbelt intact throughout the fall. Accept the takedown but ensure you land in ground-based back control rather than losing all positional advantage. Keep your chin tucked and your hooks driving inward, and maintain your seatbelt grip through impact. Landing in back control on the ground is still a highly dominant position that preserves most of your advantage despite being thrown.
-
-**Q4**: Your opponent initiates what appears to be a counter throw but then immediately switches to a standing switch escape in the opposite direction - how do you respond?
-**A**: This is a common combination where the throw fake draws your weight backward and creates the opening for the switch. If you recognize the switch after committing to the throw defense, immediately reverse your hip direction and re-drive forward pressure to prevent the switch completion. The key is not over-committing to any single defense direction. Maintain your base wide enough that you can redirect your pressure in either direction without losing balance. Use your chest connection as the constant rather than your hip angle, which should remain adaptable.
-
-
-
-</section>
 
 
 </main>

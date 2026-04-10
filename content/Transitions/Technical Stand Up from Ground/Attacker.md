@@ -188,6 +188,8 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Technical Stand Up from Ground?</p>
+
 - Post the hand behind the hip close to the body for maximum structural support during elevation
 - Maintain a defensive frame with the non-posting hand throughout the entire transition to block opponent advances
 - Keep center of gravity low during the transition and rise gradually rather than explosively jumping to feet
@@ -203,6 +205,8 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Technical Stand Up from Ground?</p>
+
 - Create initial separation from opponent using frames on shoulders, chest, or hips to generate posting space
 - Clear any controlling grips the opponent has on your collar, sleeves, or pants before committing to the stand up
 - Assess opponent's position to determine if they are close enough to immediately counter your stand up attempt
@@ -215,6 +219,8 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Technical Stand Up from Ground step by step?</p>
 
 1. **Create Distance with Defensive Frames**: Push against the opponent's shoulders, chest, or hips using both hands to create the initial separation needed for the stand up. Your frames must generate enough distance that the opponent cannot immediately re-close the gap and re-establish pressure. Use your legs as secondary frames by placing feet on the opponent's hips if possible to maintain distance while freeing your hands for the next phase.
 2. **Establish Posting Hand Behind Hip**: Place your strong-side hand flat on the mat directly behind your hip with fingers pointed away from your body. The hand should be positioned close enough to your hip to provide structural support without overextending your arm. Your weight begins transferring partially to this posting hand as it becomes the foundation for your elevation throughout the stand up sequence.
@@ -244,6 +250,8 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Technical Stand Up from Ground?</p>
+
 - **Opponent drives forward with heavy pressure to collapse your frames before you can establish your post** (Effectiveness: High) - Your Response: Abort the stand up attempt and immediately recover guard position using hip escapes and leg frames. Re-establish distance before attempting again. → Leads to [[Positions/Standing Guard]]
 - **Opponent shoots a takedown as you rise through the mid-transition phase when your base is compromised** (Effectiveness: High) - Your Response: If high enough in the transition, sprawl and defend the takedown. If still low, abort and pull guard immediately rather than fighting the takedown from a compromised position. → Leads to [[Positions/Open Guard]]
 - **Opponent grabs your posting-side ankle or foot during the kick-through to prevent full elevation** (Effectiveness: Medium) - Your Response: Circle the trapped foot free using rotational movement or use your free leg to push the opponent's grip-controlling arm away. If the grip holds, switch to standing up on the opposite side. → Leads to [[Positions/Standing Guard]]
@@ -255,6 +263,8 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Technical Stand Up from Ground?</p>
 
 ### 1. Posting hand placed too far behind the body away from the hip
 
@@ -294,6 +304,8 @@ From the attacker's perspective, the Technical Stand Up from Ground requires pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Technical Stand Up from Ground (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Movement pattern and muscle memory
 Practice the complete technical stand up sequence solo, focusing on hand placement, kick-through timing, and smooth transitions between each phase. Perform 20-30 repetitions per side, emphasizing proper posting hand position close to hip, full kick-through extension, and maintaining an imaginary defensive frame throughout.
 
@@ -314,39 +326,12 @@ During regular rolling sessions, consciously look for opportunities to apply the
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is the posting hand position relative to the hip so critical for the technical stand up?
-**A**: The posting hand must be placed close to the hip because it serves as the primary structural support during the elevation phase. If the hand is too far behind, the arm becomes overextended and cannot bear weight efficiently, creating an unstable lever that an opponent can easily collapse. Close placement allows the arm to act as a strong post with the shoulder stacked over the wrist, providing maximum structural integrity and the ability to generate upward drive through the support foot.
-
-**Q2**: What determines the optimal timing window to attempt a technical stand up during a guard exchange?
-**A**: The optimal timing occurs when you have successfully created distance through framing and the opponent has momentarily lost their forward pressure or grip control. Key indicators include the opponent pulling back to re-establish grips, transitioning between passing strategies, or looking away to assess position. The worst timing is when the opponent is actively driving forward or has strong controlling grips, as attempting to stand during these moments invites immediate counters.
-
-**Q3**: Your opponent grabs your posting-side ankle as you begin the kick-through. How do you adjust?
-**A**: First attempt to circle the trapped ankle free using a rotational motion while maintaining your posting hand on the mat. If the grip holds, use your free leg to kick or push against their gripping arm to break the hold. If neither works, switch to standing up on the opposite side by re-posting with the other hand and using the free leg as your new support foot. Avoid continuing to force the original stand up direction, as fighting a secured ankle grip compromises your balance and timing.
-
-**Q4**: What is the most vulnerable phase of the technical stand up and why?
-**A**: The most vulnerable phase is during the hip lift and kick-through when your weight is transitioning between the posting hand and support foot, and your legs are reorganizing underneath you. At this moment, your base is narrowest, your center of gravity is shifting, and you have the least ability to quickly recover guard or defend against a rushing opponent. This is precisely why the defensive frame hand is so critical during this phase, as it is the only barrier between you and an advancing opponent.
-
-**Q5**: How does grip fighting impact your ability to initiate a technical stand up?
-**A**: Controlling grips by the opponent directly prevent the stand up by tethering you to the ground or pulling you off-balance during the transition. You must clear dominant grips, particularly on the collar and sleeves, before committing to the stand up. A strong collar grip allows the opponent to snap you back down mid-transition, while sleeve grips prevent you from establishing the posting hand or maintaining the defensive frame. Systematically breaking grips using two-on-one breaks before attempting the stand up dramatically increases success rate.
-
-**Q6**: Your opponent rushes forward as you begin your kick-through. What should you do?
-**A**: Immediately abort the stand up and transition to guard recovery rather than fighting to complete the movement from a compromised position. Use your defensive frame hand to redirect their forward momentum while pulling your legs back between you and the opponent to re-establish guard. Attempting to complete the stand up while an opponent is driving into you results in a compromised standing position where you are likely to be taken down immediately. Recover guard, re-create distance, and attempt the stand up again when the opening presents itself.
-
-**Q7**: What role does the non-posting hand play throughout the technical stand up sequence?
-**A**: The non-posting hand serves as a continuous defensive frame directed at the opponent throughout every phase of the movement. During the initial distance creation, it pushes against the opponent's body. During the posting and kick-through phases, it extends toward the opponent as a barrier against forward advancement. During the rise to standing, it transitions from a frame to a defensive guard position. Dropping this hand at any point creates a direct pathway for the opponent to close distance and either prevent the stand up or initiate a takedown during the transition.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Technical Stand Up from Ground?</p>
 
 The primary injury risk during the Technical Stand Up is wrist and hand strain from the posting hand, particularly when bearing full body weight during the transition on hard or uneven surfaces. Practitioners should develop gradual loading capacity in their wrists through progressive drilling before attempting the movement at full speed or under resistance. Additional considerations include the risk of being caught in a guillotine choke if the head drops forward during the transition, and potential ankle or knee strain if the opponent grabs and twists the lead leg during the kick-through phase. Always warm up wrists and shoulders before intensive drilling of this movement.
 

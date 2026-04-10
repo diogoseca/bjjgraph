@@ -188,6 +188,8 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Trap and Roll from High Mount?</p>
+
 - Wait for weight shifts rather than attempting cold bridges against settled high mount pressure
 - Trap the arm before the foot—securing the posting hand eliminates the top player's primary base recovery mechanism
 - Commit fully to the bridge direction with total hip extension, as partial bridges waste energy and telegraph the escape
@@ -203,6 +205,8 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Trap and Roll from High Mount?</p>
+
 - Identify which arm the top player is posting or reaching with during grip or submission setup
 - Secure two-on-one control of the posting arm by gripping the wrist and cupping the elbow, pulling it tight across your chest
 - Hook the same-side foot with your heel, trapping the ankle against your hip to eliminate their base on that side
@@ -215,6 +219,8 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Trap and Roll from High Mount step by step?</p>
 
 1. **Identify the target arm**: Wait for the top player to post a hand near your head or reach for a grip, identifying which arm is bearing weight forward and which side offers the best trapping opportunity. Patience here is critical—rushing the identification leads to failed traps against arms that retain posting ability.
 2. **Secure the arm trap**: Use both hands to control the posted arm: grip the wrist with one hand and cup the elbow with the other, pulling the arm tight across your chest toward the opposite hip. The arm must cross your centerline so the opponent cannot retract it to post when the bridge begins.
@@ -244,6 +250,8 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Trap and Roll from High Mount?</p>
+
 - **Top player posts free hand wide to create tripod base and stop the roll** (Effectiveness: High) - Your Response: Abandon the roll and immediately switch to elbow escape on the opposite side, using the space created by their wide posting hand as your escape corridor → Leads to [[Positions/Mount/High Mount]]
 - **Top player pulls trapped arm free before bridge is executed by stripping the grip** (Effectiveness: Medium) - Your Response: Chain into frame-and-shrimp escape using the space created during the grip fight, or re-attempt the trap if the weight shift window remains open → Leads to [[Positions/Mount/High Mount]]
 - **Top player drives weight forward into cross-face to flatten the bottom player and eliminate bridge angle** (Effectiveness: High) - Your Response: Use the forward weight shift as a new trigger—if their weight is on their hands, their hips are lighter, enabling a modified hip escape underneath their pressure → Leads to [[Positions/Mount/High Mount]]
@@ -255,6 +263,8 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Trap and Roll from High Mount?</p>
 
 ### 1. Attempting the bridge without first trapping both the arm and the foot on the same side
 
@@ -294,6 +304,8 @@ Executing the Trap and Roll from High Mount requires precise timing, specific gr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Trap and Roll from High Mount (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Hip power and directional bridging from compressed positions
 Practice explosive bridging drills with partner in high mount, focusing on generating maximum hip elevation and angular drive at 45 degrees. No arm or foot trapping at this stage—pure bridging mechanics repeated until the motion is automatic and directional force is instinctive.
 
@@ -314,45 +326,12 @@ Positional sparring starting from high mount bottom with all escapes available. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for attempting the Trap and Roll from High Mount?
-**A**: The optimal window occurs when the top player shifts weight forward during a submission attempt, grip adjustment, or positional change. At this moment, their weight transfers from hips to hands, reducing the downward force on the chest and making the bridge mechanically viable. Attempting the roll against settled, static high mount pressure is nearly impossible due to the elevated knee positioning that eliminates bridge leverage.
-
-**Q2**: Why must you trap the arm before hooking the foot in the execution sequence?
-**A**: The arm trap must come first because the top player's posting hand is their primary base recovery mechanism. If you hook the foot first, the top player can simply post their hands wide to maintain balance even without one foot. By trapping the arm first, you eliminate their ability to post on that side, and the subsequent foot hook removes their secondary base, creating the structural collapse needed for the escape.
-
-**Q3**: Your opponent posts their free hand wide when they feel you initiate the bridge—how do you adjust?
-**A**: When the opponent posts wide to stop the roll, immediately abandon the trap and roll and transition to an elbow escape on the opposite side. Their wide posting hand creates space on the other side of their body, and their weight shift toward that hand means less pressure on your opposite hip. Use this opening to shrimp away from the posted hand, insert your knee, and recover to half guard through the newly created gap.
-
-**Q4**: What is the critical direction of force during the bridge in this technique?
-**A**: The bridge must drive upward first to elevate the opponent's weight off the chest, then immediately angle at approximately 45 degrees toward the trapped arm side. A straight-up bridge without the angular component lacks the rotational force needed to displace the opponent. The diagonal drive exploits the structural weakness created by the arm and foot traps on one side, channeling force through the opponent's compromised base.
-
-**Q5**: What grip configuration provides the strongest arm trap against a resisting opponent?
-**A**: The strongest configuration uses a two-on-one grip where one hand controls the wrist and the other cups the elbow, pulling the trapped arm diagonally across the chest toward the opposite hip. This creates a lever that uses the torso as a fulcrum, making it extremely difficult for the top player to extract their arm. The arm should cross the centerline, fully eliminating posting ability on that side.
-
-**Q6**: How does the Trap and Roll from High Mount differ mechanically from the standard version from regular mount?
-**A**: From high mount, the top player's knees are positioned near the armpits rather than at hip level, which eliminates the bottom player's primary bridge leverage. In standard mount, substantial hip extension force is available because the weight sits on the hips. In high mount, weight sits on the upper chest, requiring the bottom player to wait for weight shifts rather than bridging from static positions. The timing window is narrower, the technique becomes reactive rather than proactive, and the realistic success outcome is half guard recovery rather than a full reversal.
-
-**Q7**: What should you do immediately after the bridge creates positional change to prevent re-passing?
-**A**: Immediately insert a knee shield by shrimping the hips away and getting the inside knee between you and the opponent. Establish frames on the near-side hip and underhook or cross-face to control distance. Do not pause or settle—the opponent knows they have been displaced and will immediately attempt to re-pass or re-establish mount. Transition directly into active half guard offense to capitalize on the momentum.
-
-**Q8**: Your opponent transitions to S Mount when they detect your arm trap—what is your immediate response?
-**A**: Immediately abandon the trap and roll and switch to S Mount defense. Pull the threatened arm tight to your body, clasping hands together or gripping your own lapel to prevent extension. Turn your body toward the trapped arm to prevent the armbar finish. Use your free arm to push on their knee and create space. The priority shifts from escape to arm defense, as S Mount presents an immediate armbar threat that must be addressed before attempting further positional escapes.
-
-**Q9**: When is it appropriate to bait a submission attempt to create the weight shift needed for this escape?
-**A**: Baiting is appropriate when the top player maintains disciplined static pressure without reaching for submissions, providing no natural weight shift opportunities. Slightly extend an arm or adjust head position to suggest vulnerability, but maintain the ability to defend the attack. The bait must be subtle enough that the opponent commits to reaching while you retain the structural ability to execute the trap before the submission develops past the point of defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Trap and Roll from High Mount?</p>
 
 The Trap and Roll from High Mount involves explosive bridging that can strain the lower back and cervical spine if performed with poor mechanics. Always warm up the spine, hip flexors, and neck before drilling this technique. When training, partners maintaining mount should allow the roll to progress rather than resisting at dangerous angles that could cause knee or shoulder injuries to either player. Tap immediately if you feel your trapped arm being twisted during a failed attempt. During live training, communicate with your partner about bridging intensity to prevent neck compression injuries, particularly when the top player's weight is on the upper chest.
 

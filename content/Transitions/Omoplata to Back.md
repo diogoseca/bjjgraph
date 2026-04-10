@@ -28,7 +28,7 @@ The technique demands precise timing and unbroken shoulder connection. The attac
 
 This transition integrates into broader guard attack systems where the omoplata itself is often set up from triangle attempts, failed armbars, or rubber guard sequences. The dilemma it creates is powerful: the opponent must choose between accepting the shoulder lock or rolling into back exposure. Both gi and no-gi contexts support this transition, though gi grips on the collar and belt provide additional control anchors during the rolling phase.
 
-**From Position**: [[Positions/Omoplata Control]] (Top)
+**From Position**: [[Positions/Omoplata Control]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -205,21 +205,21 @@ The omoplata to back transition occupies a critical node in modern bottom guard 
 ## Related Techniques
 
 
-- [[Transitions/Omoplata]] - Primary setup submission that creates the forward roll defensive reaction exploited by this transition
+- [[Submissions/Omoplata]] - Primary setup submission that creates the forward roll defensive reaction exploited by this transition
 
 - [[Transitions/Omoplata Sweep]] - Alternative follow-up when opponent resists by posturing rather than rolling forward
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat from the resulting back control position
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from the resulting back control position
 
 - [[Transitions/Back Take]] - Broader category of back-taking techniques this transition belongs to
 
-- [[Submissions/Armbar from Back]] - Follow-up arm attack available from the resulting back control position
+- [[Transitions/Armbar from Back Transition]] - Follow-up arm attack available from the resulting back control position
 
-- [[Transitions/Baratoplata]] - Advanced shoulder lock variation that shares rolling mechanics with this transition
+- [[Submissions/Baratoplata]] - Advanced shoulder lock variation that shares rolling mechanics with this transition
 
-- [[Transitions/Triangle Choke]] - Common guard attack that chains into omoplata setups leading to this back take
+- [[Submissions/Triangle Choke]] - Common guard attack that chains into omoplata setups leading to this back take
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission available after establishing back control from this transition
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi submission available after establishing back control from this transition
 
 - [[Transitions/Closed Guard to Omoplata]] - Primary entry path that sets up the omoplata position from which this transition originates
 

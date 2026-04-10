@@ -182,6 +182,8 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing to Single Leg X?</p>
+
 - Time entry when opponent steps forward or shifts weight onto lead leg
 - Maintain strong sleeve or wrist control throughout the entire transition
 - Drop hips explosively below opponent's knee line for proper positioning
@@ -197,6 +199,8 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing to Single Leg X?</p>
+
 - Standing engagement with opponent in upright posture
 - Strong grip on opponent's sleeve, wrist, or collar established
 - Opponent's weight distributed evenly or favoring one leg
@@ -210,6 +214,8 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing to Single Leg X step by step?</p>
 
 1. **Establish grip control**: Secure a strong grip on opponent's sleeve or wrist with your same-side hand. In gi, collar grips also work effectively. This grip prevents opponent from sprawling backward and maintains connection throughout the entry. The grip must be established before initiating the level change.
 2. **Drop level and step in**: Explosively drop your hips below the opponent's knee line while stepping your lead foot between their legs. Your chest should angle toward their thigh as you change levels, similar to a single leg takedown setup but with different finishing mechanics. Speed of the level change is critical.
@@ -238,6 +244,8 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing to Single Leg X?</p>
+
 - **Opponent sprawls backward and extracts leg** (Effectiveness: High) - Your Response: Maintain grip tension and follow their backward motion. If leg escapes, immediately transition to De La Riva Guard or Reverse De La Riva Guard by adjusting hook placement. Don't release grips during their defensive movement. → Leads to [[Positions/Standing Position]]
 - **Opponent drives forward pressure and smashes hook** (Effectiveness: Medium) - Your Response: Use outside foot to create frame and prevent chest-to-chest contact. If pressure continues, invert under their hips and transition to X-Guard or Reverse X-Guard by adding second hook. Never allow flat back position under pressure. → Leads to [[Positions/Standing Position]]
 - **Opponent grips your pants or ankle and blocks hook insertion** (Effectiveness: Medium) - Your Response: If hook is denied, immediately convert to Ankle Pick Sweep or Tripod Sweep using the same grips and positioning. Use outside foot to push hip and create space for hook re-entry. Multiple sweep threats prevent static defense. → Leads to [[Positions/Standing Position]]
@@ -249,6 +257,8 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing to Single Leg X?</p>
 
 ### 1. Releasing grip control during level change
 
@@ -288,6 +298,8 @@ The Standing to Single Leg X transition is a fundamental guard pull entry that c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing to Single Leg X (Attacker)?</p>
+
 **Week 1-2: Static Entry Drilling** - Fundamental positioning and body mechanics
 Partner stands stationary while you drill entry from standing. Focus on grip control, level change depth, hook insertion timing, and sitting to proper hip position. Repeat 20-30 repetitions per training session, emphasizing smooth movement flow and correct final position. Partner provides zero resistance.
 
@@ -311,48 +323,12 @@ Integrate Standing to Single Leg X with alternative entries like Ankle Pick Swee
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you drop your hips below the opponent's knee level during the entry to Single Leg X?
-**A**: Dropping hips below the knee level is biomechanically essential for three critical reasons: First, it creates the proper angle for your inside hook to control their leg effectively from underneath their knee joint. Second, it prevents the opponent from driving forward pressure into your chest, which would flatten you and eliminate the guard position. Third, it establishes the foundational hip positioning needed for generating sweep leverage - your hips must be lower than theirs to elevate their leg effectively. Insufficient depth results in easy smash passing or opponent disengagement.
-
-**Q2**: What is the primary purpose of the outside foot placement on the opponent's hip in Single Leg X?
-**A**: The outside foot on the hip serves as a dynamic distance regulator and essential frame that prevents forward collapse. It creates the proper spacing between you and your opponent needed for sweep mechanics to function - too close and they can drive pressure and smash you flat, too far and you lose control of their upper body. The foot actively pushes to extend the opponent backward while your inside hook pulls their leg forward, creating opposing forces that off-balance them. This push-pull mechanism is fundamental to all Single Leg X sweeps and transitions.
-
-**Q3**: Why should you immediately attempt a sweep after establishing Single Leg X position rather than holding the position statically?
-**A**: Immediate sweep attempts are critical because static Single Leg X positions allow opponents to stabilize their base, establish defensive grips on your pants or belt, and begin methodical passing sequences. The strongest offensive moment is the transition itself - when the opponent is still adjusting to the new position and their base is compromised from your entry. By elevating and attacking within 1-2 seconds of establishing the position, you capitalize on their instability and prevent defensive adjustments. Static positions in modern BJJ are fundamentally weaker than dynamic, constantly-threatening positions.
-
-**Q4**: If your opponent sprawls backward during your entry attempt, what is the most effective response?
-**A**: When the opponent sprawls backward, maintain absolute grip control and follow their backward motion rather than fighting against it. If your inside hook cannot secure the leg position, immediately convert to De La Riva Guard or Reverse De La Riva Guard by adjusting your hook to their opposite leg or inserting it on the outside of their leg. The key principle is never releasing your grips during their defensive movement - grips maintain connection and allow seamless transition between guard positions. Fighting against their sprawl creates space for disengagement and lost control.
-
-**Q5**: What timing cue should you recognize from a standing position to execute the most successful Single Leg X entry?
-**A**: The optimal timing window occurs when the opponent steps forward or shifts their weight onto their lead leg. During this weight transfer, their base is temporarily compromised and they cannot effectively sprawl backward. Additionally, their forward momentum works in your favor as you drop levels and pull them into the position. Advanced practitioners recognize subtle weight shifts before the actual step occurs, reading hip movement and postural changes. Attempting the entry when the opponent's weight is evenly distributed or favoring their back leg significantly reduces success rates, as they can easily sprawl or disengage.
-
-**Q6**: Where exactly should the inside hook be positioned on the opponent's leg for maximum control in Single Leg X?
-**A**: The inside hook must be positioned directly across the back of the opponent's knee joint, with your shin creating horizontal pressure behind their knee and your foot hooking around to their inner thigh area. This specific placement allows you to control the knee joint itself rather than just the thigh muscle. When you elevate with this hook position, you can bend their leg to approximately 90 degrees, compromising their base and creating sweep leverage. Hooks placed too high on the thigh provide insufficient control and allow leg extraction, while hooks too low at the ankle lack the leverage needed for effective sweeps.
-
-**Q7**: Your opponent blocks your inside hook by gripping your ankle as you attempt the entry - how do you adjust?
-**A**: When the opponent blocks your hook insertion by controlling your ankle, you have two immediate options. First, use your outside foot to push their hip and create enough space to free your ankle and re-insert the hook - the push-pull between your foot on their hip and their grip on your ankle often breaks their control. Second, abandon the Single Leg X entry entirely and convert to a Tripod Sweep or Ankle Pick Sweep using your existing grips and their lowered posture. The key is recognizing the block early and transitioning before they can consolidate a passing position. Never fight a static grip battle from the ground.
-
-**Q8**: What is the critical mechanical difference between sitting straight back and sitting to the outside hip during this entry?
-**A**: Sitting straight back places your spine directly in line with the opponent's forward pressure vector, meaning any forward drive goes straight through your center and flattens you. Sitting to the outside hip creates an angular relationship where their forward pressure passes to the side of your body rather than through it. This angle also properly positions your inside hook behind their knee and your outside foot on their hip, creating the two-point control system that defines Single Leg X. The outside hip angle is what transforms a vulnerable seated position into an offensive guard with sweep leverage.
-
-**Q9**: Your opponent drives heavy forward pressure after you establish Single Leg X - what chain of responses should you execute?
-**A**: First, extend your outside foot aggressively into their hip to create a frame and halt their forward drive. If the pressure continues despite the frame, angle your hips to the side to redirect their force vector. If they continue pressing through, follow their forward momentum by inverting slightly under their hips and transitioning to full X-Guard by inserting a second hook on their far leg. If X-Guard is not available, use the inversion to enter Ashi Garami positions where their forward commitment actually helps you establish leg entanglement control. The critical rule is never accepting flat-back position under pressure.
-
-**Q10**: What specific grip must be established before initiating the level change, and why is this non-negotiable?
-**A**: A strong sleeve or wrist grip on the same side as your intended inside hook must be established before any level change. This grip is non-negotiable because it serves three functions simultaneously: it prevents the opponent from sprawling backward during your descent, it maintains physical connection between you and the opponent throughout the transition ensuring you don't fall into empty space, and it provides the pulling force needed after position establishment to break their posture forward for sweeps. Without this grip, the opponent can simply step back as you sit, leaving you seated on the mat with no control and vulnerable to passing.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing to Single Leg X?</p>
 
 The Standing to Single Leg X transition is generally low-risk when executed properly, but several safety considerations must be observed. When dropping to the guard position, ensure adequate mat space and awareness of surroundings to prevent collision with walls, other training partners, or equipment. During initial learning phases, communicate with your partner about the entry timing to prevent unexpected drops that could cause awkward falls or knee impacts. For the partner being pulled into Single Leg X, maintain awareness of leg positioning to avoid twisting forces on the knee joint - if the bottom player's technique is incorrect or overly aggressive, verbally indicate discomfort immediately. When drilling sweep completions, both practitioners should control the descent to the mat rather than allowing hard slams. Partners with existing knee injuries should communicate limitations before drilling this position, as the leg control and elevation can stress knee ligaments if the injured leg is the trapped leg.
 

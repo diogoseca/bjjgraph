@@ -154,6 +154,8 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Buggy Choke to North-South?</p>
+
 - The choking pressure from the buggy choke suddenly releases or decreases significantly as the attacker abandons the submission attempt
 - The attacker's hands shift from collar or neck grips to shoulder control, indicating a transition from submission to positional advancement
 - You feel the attacker's hips begin moving laterally around your head rather than staying heavy on your near hip
@@ -166,6 +168,8 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Buggy Choke to North-South?</p>
 
 - Recognize the transition indicators immediately — grip release, shifting chest pressure, and hip movement signal the shift from choke to positional advancement
 - Exploit the grip change window aggressively as it represents your highest-percentage escape opportunity before north-south consolidation
@@ -180,6 +184,8 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Buggy Choke to North-South?</p>
 
 ### 1. Sit to half guard immediately during grip release
 
@@ -217,6 +223,8 @@ As the defender facing the Buggy Choke to North-South transition, you are in tur
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Buggy Choke to North-South?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the grip release moment by immediately sitting to guard or turning to face the attacker before they can establish perpendicular north-south alignment. Act within the first two seconds of recognizing the transition to maximize your chances of recovering guard.
@@ -228,6 +236,8 @@ Exploit the grip release moment by immediately sitting to guard or turning to fa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Buggy Choke to North-South?</p>
 
 ### 1. Failing to recognize the transition from buggy choke to north-south and remaining in passive turtle defense
 
@@ -257,6 +267,8 @@ Exploit the grip release moment by immediately sitting to guard or turning to fa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Buggy Choke to North-South?</p>
+
 **Phase 1: Recognition** - Identifying transition cues through proprioception
 Partner executes buggy choke to north-south transition at slow speed while you focus on identifying each recognition cue: grip release, pressure shift, hip movement initiation. Practice verbalizing what you feel at each stage without attempting to escape. Build proprioceptive sensitivity to the transition indicators across 15-20 repetitions.
 
@@ -273,26 +285,6 @@ Positional sparring starting from buggy choke position. Partner chooses between 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary recognition cue that your opponent is transitioning from buggy choke to north-south?
-**A**: The most reliable cue is the sudden release or significant decrease of choking pressure on your neck combined with the feeling of the attacker's hands shifting from collar or neck grips to shoulder control. This grip change signals that the attacker has abandoned the submission and is converting to positional advancement. You may also feel their hips begin moving laterally around your head rather than staying heavy on your near hip.
-
-**Q2**: Why is the grip release moment your best escape opportunity during this transition?
-**A**: The grip release creates a brief window where the attacker has neither their old choking control nor their new positional control fully established. During this gap, they have reduced ability to prevent your escape movements because their hands are in transition between control points. Once they establish shoulder control and begin the hip walk with chest pressure, your escape options diminish rapidly. Acting within the first one to two seconds of the grip release maximizes your defensive success rate.
-
-**Q3**: Your opponent has released the buggy choke grips and their hips are beginning to walk around your head — what is your highest-percentage defensive response?
-**A**: Your highest-percentage response is to immediately sit to half guard or turn to face the attacker before they complete the perpendicular alignment. Sitting to guard works because the grip release reduces the downward force preventing your hip movement, and your momentum toward sitting can be faster than their hip walk. If sitting is blocked, turn your body toward the attacker to prevent perpendicular alignment — they cannot establish north-south if you face them directly.
-
-**Q4**: How does staying in defensive turtle become increasingly dangerous as the transition progresses?
-**A**: As the attacker walks their hips around your head, their chest pressure progressively flattens you from turtle to prone position. Each second in passive turtle during the transition allows the attacker to advance their arc and increase flattening pressure. Once flattened prone with the attacker in perpendicular alignment, you lose access to sitting, standing, and rolling escapes because your hip mobility is eliminated. The position deteriorates from difficult-to-escape turtle to nearly-inescapable north-south if you do not act during the transition window.
-
-
-
-</section>
 
 
 </main>

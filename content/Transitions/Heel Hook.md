@@ -39,7 +39,7 @@ Strategically, the heel hook represents the finishing sequence of the modern leg
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Heel Hook]] | 55% |
 | Failure | [[Positions/Ashi Garami]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -215,7 +215,7 @@ The Heel Hook represents the apex finishing technique of the modern Ashi Garami 
 
 - [[Submissions/Straight Ankle Lock]] - Alternative finish when heel hook is defended via boot defense
 
-- [[Transitions/Calf Slicer]] - Chain attack when heel hook defense exposes the knee
+- [[Submissions/Calf Slicer]] - Chain attack when heel hook defense exposes the knee
 
 - [[Positions/Kneebar Control]] - Alternative leg attack from similar entanglement positions
 

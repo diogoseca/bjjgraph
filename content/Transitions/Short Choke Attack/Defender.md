@@ -174,6 +174,8 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Short Choke Attack?</p>
+
 - Attacker's free hand moves away from reinforcing the Gift Wrap and begins probing toward your chin or jawline
 - Increased forward hip pressure from attacker attempting to flatten you before threading the choke
 - Attacker adjusts their body angle by rotating slightly to access the space under your chin from the side
@@ -186,6 +188,8 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Short Choke Attack?</p>
 
 - Chin tuck is your first and most immediate defense - protect the throat before anything else
 - Free arm must prioritize neck protection over trapped arm recovery when choke threat is active
@@ -201,6 +205,8 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Short Choke Attack?</p>
 
 ### 1. Aggressive chin tuck with shoulder shrug to seal the space under your chin, combined with free hand gripping the attacker's threading arm at the wrist or forearm to prevent it from sliding under
 
@@ -238,6 +244,8 @@ Strategically, the defender should view Short Choke defense not as preventing a 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Short Choke Attack?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Successfully defend the choke through chin tuck and grip fighting, forcing the attacker to reset their submission attempt. While this keeps you in Gift Wrap Bottom, it buys time and forces the attacker to expend energy on repeated failed attempts, creating cumulative opportunities for escape.
@@ -253,6 +261,8 @@ Use the attacker's divided attention during choke setup to execute explosive bri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Short Choke Attack?</p>
 
 ### 1. Panicking and flailing both arms randomly when feeling the choking arm approach the chin
 
@@ -287,6 +297,8 @@ Use the attacker's divided attention during choke setup to execute explosive bri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Short Choke Attack?</p>
+
 **Week 1-2** - Recognition and chin defense mechanics
 Partner slowly demonstrates Short Choke entry from established Gift Wrap. Practice identifying recognition cues and drilling chin tuck plus shoulder shrug defense. Focus on building the muscle memory of immediate chin protection as a reflexive response to feeling the attacker's free arm move toward your throat.
 
@@ -303,32 +315,6 @@ Partner attacks at full resistance from Gift Wrap position. Practice complete de
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when you recognize the Short Choke Attack is being set up?
-**A**: The first priority is establishing and maintaining a tight chin tuck to seal the space under your chin. This is your most immediate and effective defense because once the attacker's arm threads under the chin, the choke becomes exponentially harder to stop. Chin protection must come before trapped arm recovery, positional escapes, or any other defensive action.
-
-**Q2**: Your attacker begins pushing your forehead to tilt your head and expose your throat - what is your defensive response?
-**A**: Resist the forehead pressure by driving your chin down hard toward your chest while simultaneously turning your face toward the side the attacker is trying to access. Use your free hand to grip fight their forehead hand away or redirect it. If you cannot prevent the tilt, use hip movement to change the angle and deny the threading path from the new head position.
-
-**Q3**: When is the optimal moment to attempt trapped arm recovery during a Short Choke Attack sequence?
-**A**: The optimal window is when the attacker begins transitioning their free arm from reinforcing the Gift Wrap to threading the choke. During this transition, their control on the Gift Wrap momentarily weakens as their attention divides between maintaining the arm trap and executing the choke. This divided focus creates the best opportunity for shoulder rotation and hip shrimping to extract the trapped arm.
-
-**Q4**: Why is staying on your side critical when defending the Short Choke from Gift Wrap Bottom?
-**A**: Staying on your side preserves the hip mobility essential for bridging, shrimping, and creating escape angles. When flattened onto your back, you lose mechanical advantage for all defensive hip movements, the attacker's weight pins you more effectively, and the chin-to-chest seal becomes harder to maintain. Side positioning also reduces the attacker's ability to generate optimal choking angles.
-
-**Q5**: Your attacker has threaded their arm under your chin but has not yet connected the figure-four grip - what should you do?
-**A**: Immediately use your free hand to grip their threading arm at the wrist and pull it down toward your chest, preventing the figure-four connection. Simultaneously turn your chin toward their threading arm to reduce the choking angle. This narrow window before grip completion is your last high-percentage defensive opportunity, so commit fully to stripping the arm rather than splitting focus between multiple defensive actions.
-
-**Q6**: How does defending the Short Choke differ from defending a standard rear naked choke from back control?
-**A**: The critical difference is that you have only one free arm instead of two for defensive grip fighting. Standard RNC defense relies on two-on-one grip control on the choking arm, but from Gift Wrap Bottom your trapped arm cannot participate. This means every defensive action with your free arm must be more precise and efficiently timed, and you must supplement hand defense with chin positioning, hip angles, and shoulder shrugs that do not require arm involvement.
-
-
-
-</section>
 
 
 </main>

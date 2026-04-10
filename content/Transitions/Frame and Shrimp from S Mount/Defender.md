@@ -154,6 +154,8 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Shrimp from S Mount?</p>
+
 - Opponent's free hand moves toward your hip or near hip bone area, indicating frame establishment
 - Opponent's feet adjust to flat posted position on the mat, generating leverage for imminent hip escape
 - Opponent executes a short bridge or slight hip lift, creating momentum for the shrimp that follows
@@ -166,6 +168,8 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Shrimp from S Mount?</p>
 
 - Maintain relentless hip-to-shoulder pressure as your primary defense against frame establishment and space creation
 - Follow your opponent's lateral hip movement by scooting your hips in the same direction to maintain perpendicular control angle
@@ -180,6 +184,8 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Shrimp from S Mount?</p>
 
 ### 1. Drive hip weight down into opponent's shoulder when you feel frame hand contact your hip
 
@@ -217,6 +223,8 @@ As the S Mount top practitioner, defending against the Frame and Shrimp escape m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Shrimp from S Mount?</p>
+
 ### → [[Positions/Mount/S Mount]]
 
 Maintain constant hip-to-shoulder pressure, follow opponent's hip movement by scooting laterally, and prevent knee insertion by keeping legs tight. Stay heavy through your hip connection and deny every inch of space the opponent tries to create through their frames and shrimps.
@@ -232,6 +240,8 @@ Capitalize when opponent commits their free hand to framing against your hip, wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Shrimp from S Mount?</p>
 
 ### 1. Allowing space between your hip and opponent's shoulder during escape attempt without immediately closing it
 
@@ -261,6 +271,8 @@ Capitalize when opponent commits their free hand to framing against your hip, wh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Shrimp from S Mount?</p>
+
 **Phase 1: Pressure Maintenance** - Maintaining hip-to-shoulder connection under escape pressure
 Hold S Mount while partner attempts frame and shrimp at 25% resistance. Focus entirely on maintaining hip-to-shoulder pressure and feeling the escape attempt develop through tactile feedback. Learn to absorb frame pressure through your hip weight rather than repositioning.
 
@@ -277,26 +289,6 @@ Full competition resistance positional sparring from S Mount top. Integrate defe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a Frame and Shrimp escape?
-**A**: The first sign is typically their free hand moving toward your near hip or their feet adjusting to a flat, posted position on the mat. These preparatory movements precede the actual escape by one to two seconds, giving you time to preemptively tighten control by driving your hip weight down and securing their trapped arm more firmly before the frame and shrimp begins.
-
-**Q2**: How should you adjust your weight distribution when you feel your opponent begin to shrimp laterally?
-**A**: Shift your weight forward and down through your hip into their shoulder while simultaneously scooting your hips in the same lateral direction they are escaping. Your weight should drive through the point where your hip contacts their shoulder, acting like a tracking point. Avoid sitting up or lifting your hips, as this creates the space they need to establish the frame and accelerate their escape.
-
-**Q3**: When is it appropriate to abandon S Mount and transition to another position during an escape attempt?
-**A**: Transition to standard mount if the opponent creates enough space that your perpendicular angle is significantly compromised but you still maintain top position. It is better to secure mount and re-attempt S Mount later than to fight from a deteriorating S Mount where hip-to-shoulder connection is lost. Never stay in a compromised S Mount because the opponent may complete their escape to half guard while you struggle to maintain an untenable position.
-
-**Q4**: What specific opening does the Frame and Shrimp escape create for your armbar attack?
-**A**: When the bottom person moves their free hand to frame against your hip, they reduce their arm defense by splitting their attention and physical resources between escape mechanics and arm protection. If their collar grip loosens even slightly during this commitment, you have a brief window to attack the armbar while their defensive structure is compromised. The key is recognizing whether their collar grip genuinely weakened or if they are baiting you into an armbar attempt to create escape distance.
-
-
-
-</section>
 
 
 </main>

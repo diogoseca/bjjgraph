@@ -166,6 +166,8 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Triangle Transition?</p>
+
 - Your opponent's non-choking hand shifts from reinforcing the guillotine grip to clamping down on your near-side forearm or wrist, pinning it against your own neck
 - You feel the guillotine grip loosen or change configuration as the attacker begins threading their arm deeper under your neck in a different angle than the original choke
 - Your opponent inserts butterfly hooks or adjusts their feet inside your thighs while maintaining head control—this signals they are preparing the sweep component of the transition
@@ -177,6 +179,8 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Triangle Transition?</p>
 
 - Avoid committing a near-side frame across your own centerline when caught in Hindulotine—this arm becomes the structural element of the arm triangle
 - Posture through your hips and spine rather than framing with your arms to relieve guillotine pressure without exposing the head-and-arm configuration
@@ -191,6 +195,8 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Triangle Transition?</p>
 
 ### 1. Retract the framing arm immediately by pulling your elbow tight to your ribs before it can be pinned against your neck
 
@@ -228,6 +234,8 @@ Advanced defenders learn to navigate the Hindulotine dilemma by using responses 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Triangle Transition?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Retract the framing arm before it is fully trapped and address the original Hindulotine through standard guillotine defenses such as tucking the chin, posturing through the hips, or circling your head to the outside. Alternatively, exploit the grip transition window to posture up and extract your head when control is momentarily reduced.
@@ -243,6 +251,8 @@ If the arm is already trapped, deny the sweep by basing wide with a posted hand 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Triangle Transition?</p>
 
 ### 1. Committing a deep near-side frame across your own centerline when caught in Hindulotine, placing your forearm directly against your own neck
 
@@ -272,6 +282,8 @@ If the arm is already trapped, deny the sweep by basing wide with a posted hand 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Triangle Transition?</p>
+
 **Week 1-2** - Recognition and early arm retraction
 Partner establishes bottom Hindulotine and begins the arm triangle transition at slow speed. Practice recognizing the cue of the attacker's hand shifting to clamp your framing arm and immediately retracting the arm before it is pinned. Build the reflex of pulling your elbow tight to your ribs the moment you feel the trap attempt. Work purely on the recognition-to-retraction timing with no resistance.
 
@@ -288,29 +300,6 @@ Positional sparring starting in bottom Hindulotine with partner attempting the f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does framing against the Hindulotine create vulnerability to the arm triangle transition?
-**A**: When you push a near-side frame against the attacker's chest to relieve guillotine pressure, your forearm crosses your own centerline and positions your bicep against the side of your neck. This is exactly the structural configuration the arm triangle requires—your own arm becomes one side of the bilateral compression. The attacker traps this frame, threads their arm under the opposite side of your neck, and now has both carotid arteries covered. The defense you chose for the guillotine directly enables the arm triangle.
-
-**Q2**: Your arm has been trapped against your neck and the attacker is reconfiguring to arm triangle grip—what is your defensive priority?
-**A**: Your priority shifts entirely to preventing the sweep. The arm triangle cannot generate sufficient finishing pressure from bottom position—the attacker absolutely must reach side control to complete the choke. Base wide with your free hand posted on the mat, sprawl your hips back to kill the butterfly hook angle, and drive your weight forward through your chest. Even with the arm triangle grip locked, you are safe as long as you maintain top position. Focus all energy on base and balance rather than arm extraction.
-
-**Q3**: What is the optimal defensive window during the grip transition and how do you exploit it?
-**A**: The optimal window occurs when the attacker releases their guillotine grip but has not yet fully secured the figure-four or gable grip for the arm triangle. During this brief transition, their head control is momentarily reduced since one grip has been abandoned and the other is not yet locked. Exploit this by posturing explosively through your hips, circling your head toward the open side, and driving your weight backward. The incomplete grip lacks the structural integrity to prevent your posture recovery if you time the escape to this transition moment.
-
-**Q4**: How do you relieve Hindulotine pressure without creating the frame that enables the arm triangle?
-**A**: Use hip-based posture recovery instead of arm framing. Drive your hips backward while keeping your spine straight and chest elevated, using your posterior chain to create the distance that relieves neck pressure. Tuck your chin tight and keep both elbows pinned to your ribs. You can also turn your head toward the choking arm side to reduce the bite of the guillotine while keeping your arms close to your body. These defensive actions address the guillotine without ever positioning your arm across your own neck.
-
-**Q5**: The attacker has the arm triangle locked and begins loading butterfly hooks for the sweep—describe your base defense in detail?
-**A**: Immediately widen your knees to at least shoulder-width apart and post your free hand on the mat at a 45-degree angle on the side the attacker will attempt to sweep you toward. Sprawl your hips back and down to flatten your center of gravity and remove the elevation angle the butterfly hooks need. Drive your weight forward through your chest into the attacker's grip to make yourself heavy on their hooks. If they attempt to elevate on one side, shift your weight toward that side and drive your posted hand deeper into the mat. The combination of wide base, low hips, and posted hand creates a tripod structure that resists the butterfly sweep from any angle.
-
-
-
-</section>
 
 
 </main>

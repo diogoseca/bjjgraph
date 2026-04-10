@@ -156,6 +156,8 @@ Successful defense requires reading the attacker's intention early and respondin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pressure Pass from Leg Knot?</p>
+
 - Opponent stops attacking your heel or ankle and begins reaching forward for your head, collar, or far shoulder, indicating a shift to upper body control
 - Opponent drives their chest weight forward and down onto your torso rather than maintaining the distance typical of leg lock attacks
 - Opponent's trapped leg begins sliding or angling rather than maintaining the static entanglement position, showing the start of extraction mechanics
@@ -168,6 +170,8 @@ Successful defense requires reading the attacker's intention early and respondin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pressure Pass from Leg Knot?</p>
 
 - Deny the crossface by framing against the opponent's shoulder or bicep before they can drive their shoulder into your jaw and flatten your posture
 - Maintain active legs throughout the pass attempt, constantly re-hooking and re-entangling to prevent clean extraction of the trapped leg
@@ -182,6 +186,8 @@ Successful defense requires reading the attacker's intention early and respondin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pressure Pass from Leg Knot?</p>
 
 ### 1. Frame against the shoulder and deny the crossface before it settles
 
@@ -219,6 +225,8 @@ Successful defense requires reading the attacker's intention early and respondin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pressure Pass from Leg Knot?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Deny the crossface early through strong frames on the opponent's shoulder and bicep. Maintain active legs that constantly re-hook and re-entangle whenever the opponent attempts extraction. Force the opponent back into the leg entanglement exchange where you retain offensive leg lock capability and they must restart their passing attempt from scratch.
@@ -234,6 +242,8 @@ Time a bridge-and-redirect sweep during the opponent's forward weight transfer w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pressure Pass from Leg Knot?</p>
 
 ### 1. Allowing the crossface to settle without any resistance or frame
 
@@ -263,6 +273,8 @@ Time a bridge-and-redirect sweep during the opponent's forward weight transfer w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pressure Pass from Leg Knot?</p>
+
 **Phase 1: Recognition and Frame Timing** - Identifying pressure pass initiation cues and establishing defensive frames before the crossface settles
 Partner begins in Leg Knot Top and randomly alternates between continuing leg lock attacks and initiating the pressure pass. Defender practices recognizing the shift and immediately establishing shoulder frames. Start at slow speed with verbal cues, then progress to full speed without warning. Success is measured by frame establishment before crossface contact.
 
@@ -279,26 +291,6 @@ Positional sparring starting from Leg Knot with top player's goal of completing 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from leg lock attacks to a pressure pass attempt?
-**A**: The earliest cue is the opponent reaching forward for your head, collar, or far shoulder while simultaneously driving their chest weight down onto your torso. This represents a fundamental shift from the typical leg lock attacking posture where the opponent maintains distance and focuses on your lower body. The forward weight transfer and upper body reaching are the clearest signals that a pressure pass is beginning and that your defensive priority should shift from heel protection to frame establishment.
-
-**Q2**: Your opponent has established the crossface and is beginning the knee slide extraction - what defensive sequence gives you the best chance of preventing the pass?
-**A**: With the crossface already established, your primary option is a hip escape to create enough space for a knee shield insertion. Shrimp your hips away from the crossface side while simultaneously inserting your top knee across the opponent's body as a frame. This transitions you to Half Guard Bottom with a knee shield, which provides distance management and prevents the opponent from completing the pass to side control. The secondary option is to bridge into the crossface to disrupt the opponent's pressure and create a momentary window for re-entanglement.
-
-**Q3**: Why should you prioritize re-entanglement over guard recovery when defending the pressure pass from Leg Knot?
-**A**: Re-entanglement preserves your offensive leg lock threats and returns the position to a state where you have active attacking capability. Guard recovery, while safe, surrenders the entire leg entanglement battle and places you in a reactive defensive guard position where the opponent retains the initiative. By re-entangling, you force the opponent back into the leg lock exchange where your defensive efforts transform into offensive opportunity, creating a much more favorable positional outcome than simply recovering to half guard or closed guard.
-
-**Q4**: How can you use the opponent's forward weight commitment during the pressure pass as a sweep opportunity?
-**A**: When the opponent drives heavy forward pressure for the crossface or during the extraction phase, their weight distribution becomes top-heavy and vulnerable to lateral redirection. By timing a bridge at a 45-degree angle into their committed weight, you can redirect their momentum over your shoulder for a sweep. The key is timing the bridge to coincide with their maximum forward commitment, when their base is narrowest and their ability to post is most compromised by the extraction mechanics occupying their attention and positioning.
-
-
-
-</section>
 
 
 </main>

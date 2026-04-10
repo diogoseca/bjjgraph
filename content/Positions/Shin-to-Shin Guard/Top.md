@@ -165,6 +165,8 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ## Position Definition
 
+<p class="section-subtitle">What is Shin-to-Shin Guard (Top)?</p>
+
 - Top player maintains standing or combat base posture with weight distributed to prevent being swept while working to clear or neutralize the bottom player's shin connection through systematic leg movements and pressure application
 - Bottom player's shin maintains contact across top player's same-side shin, creating perpendicular connection that must be addressed before safe forward pressure can be applied, requiring top player to choose between clearing, circling, or accepting transitional positions
 - Top player controls or contests upper body positioning through grips and frames to prevent bottom player from achieving dominant sleeve and collar grips that would enable effective distance management and sweep setups
@@ -177,6 +179,8 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Shin-to-Shin Guard (Top)?</p>
 
 - Understanding of fundamental open guard passing concepts and principles of pressure distribution
 - Recognition of shin-to-shin guard structure and its primary attack vectors (single leg X, X-guard, sweeps)
@@ -192,6 +196,8 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Shin-to-Shin Guard?</p>
+
 - Establish dominant upper body grips before attempting to clear shin connection to prevent distance management
 - Clear shin connection systematically through circling, stepping back, or controlled pressure rather than forcing through
 - Maintain proper base and weight distribution to resist off-balancing attempts during clearing sequences
@@ -206,6 +212,8 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Shin-to-Shin Guard (Top)?</p>
 
 **If opponent maintains strong shin connection with active pressure but has weak or contested upper body grips:**
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Headquarters Position]] (Probability: 60%)
@@ -239,6 +247,8 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Shin-to-Shin Guard?</p>
 
 ### 1. Attempting to drive forward with pressure directly through the shin connection without first clearing or neutralizing it
 
@@ -283,6 +293,8 @@ Facing Shin-to-Shin Guard from the top position presents a unique set of challen
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Shin-to-Shin Guard attacks?</p>
+
 ### Systematic Shin Connection Clearing Progression
 
 Partner maintains shin-to-shin guard while you practice various clearing methods (circling, stepping back, pressure-based clearing, grip-based clearing). Partner progressively increases resistance from passive to active shin pressure. Focus on maintaining base throughout clearing sequence and transitioning immediately to passing pressure once connection is cleared. Coach provides feedback on balance and timing.
@@ -297,14 +309,14 @@ Partner actively attempts to transition from shin-to-shin to single leg X, X-gua
 **Duration**: 5-minute rounds with role reversal
 
 
-### Grip Fighting to Passing Sequences
+### Grips to Passing Sequences
 
 Start in shin-to-shin with neutral grips. Compete for dominant upper body grips first, then winner must clear shin connection and complete passing sequence. Loser of grip battle must defend and attempt guard retention. Integrates grip fighting with passing progression. Reset when pass is completed or guard is fully retained.
 
 **Duration**: 3-minute rounds, multiple rounds with different partners
 
 
-### Pressure Timing and Base Maintenance
+### Pressure Timing and Base
 
 Partner maintains shin-to-shin with moderate resistance. Practice applying different types of pressure (forward, lateral, stacking) while maintaining perfect base and balance. Partner attempts to off-balance or sweep when they feel opportunities. Focus on recognizing safe pressure moments versus dangerous positions. Coach monitors posture and weight distribution.
 
@@ -315,38 +327,6 @@ Partner maintains shin-to-shin with moderate resistance. Practice applying diffe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary strategic objective when facing shin-to-shin guard from top position?
-**A**: The primary objective is to systematically neutralize the shin connection while preventing transitions to more dangerous positions like single leg X or X-guard. This requires establishing upper body control first to prevent distance management grips, then methodically clearing the shin using circling, backsteps, or controlled pressure rather than forcing directly through the connection.
-
-**Q2**: Your opponent begins elevating their hips and adjusting their angle toward your trapped leg—what are the early warning signs of a single leg X entry?
-**A**: Watch for hip elevation combined with angle adjustment toward your leg, their free leg beginning to thread underneath yours, increased pulling pressure on your ankle or lower leg, and their upper body starting to recline backward. These movements indicate they're building entry mechanics for single leg X. Immediately address by controlling their hip, widening your base, and circling away from the elevation angle.
-
-**Q3**: Why should you establish upper body grips before attempting to clear the shin connection?
-**A**: Upper body grips prevent the guard player from achieving effective distance management and posture control through sleeve and collar grips. Without this control, you cannot safely clear the shin because any clearing attempt leaves you vulnerable to being pulled off-balance into sweeps or transitions. Dominant upper body control also prevents them from sitting up into your base during clearing sequences.
-
-**Q4**: What base adjustments should you make when you feel the opponent increasing upward pressure through the shin connection?
-**A**: Widen your stance to lower your center of gravity, shift weight toward your heels to resist forward pulling, and consider dropping to combat base if standing. Keep your hips mobile and ready to circle rather than planting statically. Maintain grip control on their upper body to prevent them from using the increased pressure to generate sweeping momentum.
-
-**Q5**: How do you distinguish between safe moments to apply forward passing pressure versus dangerous moments that invite sweeps?
-**A**: Safe moments occur when you've successfully contested or broken their upper body grips, when you've cleared or significantly weakened the shin connection, or when their hips are flat rather than elevated. Dangerous moments are when they have strong sleeve/collar grips, when the shin connection is active with good angle, when their hips are elevated and mobile, or when they've begun transition mechanics to X-guard or single leg X.
-
-**Q6**: Your opponent switches from active shin pressure to a more passive connection—what does this indicate and how should you respond?
-**A**: A passive shin connection often indicates the guard player is either fatigued, has lost their ideal angle, or is setting up a different attack vector. This creates an immediate passing opportunity—capitalize by combining grip pressure with forward advancement before they can re-establish active pressure or transition to a different guard. Move directly into your passing sequence rather than giving them time to reset.
-
-**Q7**: What is the relationship between clearing speed and base maintenance when addressing the shin connection?
-**A**: There's an inverse relationship—faster clearing attempts typically compromise base stability, creating openings for sweeps or transitions. Systematic, controlled clearing maintains your balance and weight distribution while still making progress. The key is consistent pressure with proper timing rather than explosive movements. Rushed clearing plays into the guard player's off-balancing mechanics.
-
-**Q8**: How should you modify your passing approach if the opponent has particularly strong upper body grips despite your grip fighting?
-**A**: When they maintain strong grips, direct forward pressure becomes extremely dangerous. Instead, use movement-based clearing approaches like circling and long stepping that don't require driving into their grip structure. Break grips methodically as opportunities arise rather than forcing the pass. Consider whether backing away to reset the grip exchange is more efficient than continuing to fight compromised grips.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

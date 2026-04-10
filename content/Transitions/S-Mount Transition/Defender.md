@@ -170,6 +170,8 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting S-Mount Transition?</p>
+
 - Attacker shifts weight noticeably forward onto their hands and your chest while gripping your near-side wrist or sleeve, indicating they are loading pressure before moving their legs
 - Attacker's posted leg begins sliding inward underneath your far shoulder rather than maintaining its stability position out to the side, signaling the base leg is repositioning
 - You feel the attacker's across-body knee lifting slightly off your torso as they begin rotating their hips perpendicular to your body axis, creating a brief moment of reduced control pressure
@@ -182,6 +184,8 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending S-Mount Transition?</p>
 
 - Early recognition is paramount - defend during the transition, not after S-Mount is established, because defensive options decrease dramatically once the leg clears your head
 - Protect the near-side arm above all else - keep it bent and tucked tight to your body, never extending it away from your torso where it can be isolated
@@ -196,6 +200,8 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against S-Mount Transition?</p>
 
 ### 1. Frame on the attacker's swinging-leg hip with your free hand and bridge explosively toward the posted leg side to disrupt the transition before the leg clears your head
 
@@ -233,6 +239,8 @@ Defending the S-Mount Transition requires recognizing the technique during its e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending S-Mount Transition?</p>
+
 ### → [[Positions/Mount/Modified Mount]]
 
 Bridge explosively toward the posted leg side during the early transition phase when the attacker's weight is loaded forward and their base is compromised. Combine with framing on their hip to push them back to the standard Modified Mount configuration. This works best when you react to the first recognition cue before the legs begin moving.
@@ -248,6 +256,8 @@ Turn aggressively into the attacker and hip escape toward their legs during the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending S-Mount Transition?</p>
 
 ### 1. Extending the near-side arm to push the attacker away rather than keeping it bent and protected
 
@@ -282,6 +292,8 @@ Turn aggressively into the attacker and hip escape toward their legs during the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against S-Mount Transition?</p>
+
 **Week 1-2** - Recognition and arm protection
 Partner slowly executes S-Mount Transition from Modified Mount. Practice identifying each recognition cue in sequence: grip change, weight shift, posted leg movement, top leg swing. Focus entirely on keeping the near-side arm bent and protected throughout. No escape attempts yet - build the defensive habit of arm protection first.
 
@@ -298,32 +310,6 @@ Positional sparring starting from Modified Mount with the top player actively se
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive window during S-Mount Transition and why?
-**A**: The most critical window is between when the attacker shifts weight forward and when the top leg clears your head. During this phase, the attacker's base is temporarily compromised as they move from stable Modified Mount to the perpendicular S-Mount configuration. Once the leg clears the head and knees pinch together, defensive options decrease dramatically and the armbar becomes nearly inevitable.
-
-**Q2**: Your opponent grips your near-side wrist with both hands and begins loading weight forward - what do you do immediately?
-**A**: Immediately pull your near-side arm tight to your body, bending the elbow and gripping your own collar to prevent extension. Frame on their hip with your free hand and bridge explosively toward the posted leg side before their legs begin moving. This is the earliest and highest-percentage defensive window - acting now prevents the transition from starting rather than trying to stop it midway.
-
-**Q3**: Why should you turn into the attacker rather than away when defending S-Mount Transition?
-**A**: Turning away from the attacker creates the exact space they need to swing the leg over your head and actually accelerates the transition. It also exposes your back for potential back takes. Turning into the attacker collapses the perpendicular angle they are trying to establish, jams their hip rotation, and creates the possibility of recovering half guard by getting underneath them.
-
-**Q4**: The attacker's top leg is already swinging over your head - what is your last-resort defense?
-**A**: Hook the swinging leg behind the knee with your free arm to physically block it from clearing your head. Simultaneously keep your near-side arm bent and tight to your body. This is a last-resort option because extending your free arm to hook the leg temporarily reduces your framing ability, but preventing the leg from clearing your head is more important at this stage because once S-Mount is complete, the armbar is nearly guaranteed.
-
-**Q5**: How should you protect your near-side arm throughout the entire S-Mount Transition defense?
-**A**: Keep the near-side arm bent with your elbow glued to your hip and your hand gripping your own collar, opposite shoulder, or clasped to your other hand. Never straighten or extend this arm for any reason during the defense. All framing and pushing should be done with the far-side arm. The near-side arm is the primary target of S-Mount, and any extension gives the attacker the submission opportunity they are seeking.
-
-**Q6**: What is the correct bridging direction when defending S-Mount Transition and why?
-**A**: Bridge diagonally toward the attacker's posted leg side, not straight up. The posted leg side is the weakest point of their base during the transition because the leg is moving from its stability position inward under your shoulder. A vertical bridge is easily absorbed by their forward weight distribution, while a diagonal bridge toward the posted leg exploits the temporary instability in their base structure.
-
-
-
-</section>
 
 
 </main>

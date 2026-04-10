@@ -190,6 +190,8 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Restore Back Control?</p>
+
 - Maintain chest-to-back connection as the primary anchor—this is the last element you should lose
 - Re-insert hooks by following opponent's hip movement rather than fighting against it
 - Use grip switching (seat belt to collar, collar to body triangle) to create new control during transitions
@@ -205,6 +207,8 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Restore Back Control?</p>
+
 - Back control position where opponent has begun but not completed an escape sequence
 - At least partial chest-to-back connection remaining
 - One or more hooks still engaged or ability to quickly re-insert
@@ -216,6 +220,8 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Restore Back Control step by step?</p>
 
 1. **Identify escape direction**: Recognize which direction the opponent is escaping—are they turning toward the underhook side, sliding their hips to the mat, or scooting backward to clear hooks? The escape direction determines your recovery sequence.
 2. **Tighten chest connection**: Before attempting hook re-insertion, drive your chest firmly into their upper back. This anchor point prevents further escape progress and gives you a stable platform for lower body adjustments.
@@ -245,6 +251,8 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Restore Back Control?</p>
+
 - **Opponent accelerates escape by explosively turning to face you before hooks are re-inserted** (Effectiveness: High) - Your Response: If they fully turn, transition to front headlock or guillotine control rather than fighting to maintain back position. You can also transition to crucifix if their far arm is exposed during the turn. → Leads to [[Positions/Turtle]]
 - **Opponent grabs your re-inserting foot and prevents hook from engaging** (Effectiveness: Medium) - Your Response: Attack with rear naked choke or collar choke using the distraction of their hands being occupied with your foot. Their grip fighting on the hook exposes their neck. Alternatively, switch to body triangle which requires only one leg to lock. → Leads to [[Positions/Back Control]]
 - **Opponent bridges explosively and creates space between your chest and their back** (Effectiveness: Medium) - Your Response: Use the space they create to slide your hips lower and re-attach hooks from a lower angle. Follow their bridge by dropping your weight and maintaining connection through your arms until you can re-establish chest contact. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Restore Back Control?</p>
 
 ### 1. Focusing on hook re-insertion while allowing chest connection to break completely
 
@@ -289,6 +299,8 @@ The restoration process follows a hierarchy: chest connection is the anchor, hoo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Restore Back Control (Attacker)?</p>
+
 **Phase 1: Escape Recognition** - Identifying the four primary escape patterns from back control
 Partner slowly executes each escape type (hip slide, hook clear, turn-in, scoot-back) while you identify the escape direction and practice maintaining chest connection without attempting recovery. Develop pattern recognition before adding recovery mechanics.
 
@@ -309,48 +321,12 @@ Positional sparring starting from partially compromised back control. Partner us
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the recovery hierarchy when restoring back control, and why does this order matter?
-**A**: The hierarchy is: chest connection first, hooks second, grips third. Chest-to-back contact is the anchor that prevents the opponent from turning to face you—without it, hook position is irrelevant because they can complete the escape by rotating. Hooks prevent hip escape and maintain lower body control, providing the platform for upper body grip work. Grips create threats and fine control but cannot compensate for missing hooks or chest contact. Following this hierarchy ensures you address the most critical element first.
-
-**Q2**: Your opponent has cleared your bottom hook but your top hook and seat belt remain—what is your immediate priority?
-**A**: Immediately drive your chest deeper into their back to prevent them from sliding their hips to the mat. Then follow their hip movement with your own hips and work to re-insert the bottom hook by curling your leg under their thigh. The bottom hook is priority because it prevents the most common escape completion—the hip slide to mat that allows them to turn into you. Do not sacrifice chest connection to chase the hook.
-
-**Q3**: Why is following the opponent's escape momentum more effective than static resistance?
-**A**: Static resistance creates a force-on-force battle that the escaping player can win by changing direction or using explosive movements. Following the escape momentum allows you to maintain contact without exhausting yourself, and the opponent's movement actually creates angles and openings for hook re-insertion. When you ride their movement, you can redirect their energy back into control rather than fighting against it. This also prevents the common scenario where the opponent feints one direction and escapes the other.
-
-**Q4**: When should you abandon the restoration attempt and transition to an alternative position?
-**A**: Abandon restoration when: the opponent has fully turned to face you (transition to front headlock or turtle top), chest connection is completely broken and they have created significant distance (transition to turtle top and look for re-entry), or they have established a solid guard framework (accept the guard position and begin passing). The key indicator is whether you still have a realistic path to restoring chest contact—if not, transitioning to a strong secondary position preserves your advantage rather than fighting a lost battle.
-
-**Q5**: How does grip switching during restoration create offensive opportunities?
-**A**: When you switch from a compromised seat belt to a collar grip or gift wrap, the new grip creates a different submission threat that the opponent must address with a different defensive pattern. This forces them to stop their escape and redirect their hands to the new threat, creating a window for hook re-insertion. For example, switching to collar grip threatens a bow and arrow choke, which forces their hands to their neck, freeing your hooks from grip fighting. Each grip switch resets their defensive framework and interrupts escape momentum.
-
-**Q6**: What is the optimal timing window for beginning the restoration sequence after the opponent clears a hook?
-**A**: The optimal window is within the first one to two seconds after the hook is cleared, before the opponent can chain their hook clearance into a secondary escape action like turning or scooting hips away. During this brief window, the opponent is still committed to the clearing motion and has not yet redirected their energy toward the next phase of escape. Delaying beyond this window allows them to build momentum in a new escape direction, making restoration exponentially harder. Immediate recognition and response during the clearing motion itself produces the highest restoration success rate.
-
-**Q7**: Your opponent clears your bottom hook and immediately begins turning toward the underhook side—how do you adjust your force direction?
-**A**: Shift your weight and drive diagonally across their turning direction rather than pulling them back. Use your chest pressure to angle toward the side they are turning away from, cutting off the rotation arc. Simultaneously, your top hook becomes the critical anchor—drive it deeper to create a pivot point that limits their turning radius. Use your overhook arm to cross-face or frame against their jaw to redirect the turn. The goal is to intercept the rotation rather than reverse it, converting their turning energy into an angle that actually facilitates your bottom hook re-insertion from the new position.
-
-**Q8**: What grip configuration should you prioritize when the seat belt is fully stripped but both hooks remain?
-**A**: With both hooks intact but no upper body grip, immediately secure a collar grip (gi) or a chinstrap-style grip under the jaw (no-gi) with your choking-side hand. This grip creates an immediate submission threat that the opponent must address with their hands rather than continuing to work on hook clearance. Your non-choking hand should reach across their body to control the far hip or wrist, preventing them from turning. The combination of hooks plus a new upper body threat often produces a stronger control configuration than the original compromised seat belt because the opponent must now defend a fresh attack while already partially fatigued from their escape effort.
-
-**Q9**: How do you integrate body triangle as a restoration tool when standard hook re-insertion is being actively prevented?
-**A**: When the opponent is successfully stripping or blocking individual hooks, the body triangle offers a fundamentally different control mechanism that bypasses their hook defense. To transition, use your top leg to swing over and across their waist while the bottom leg comes underneath to lock the triangle at the ankle. This requires only one clean leg entry rather than two separate hook insertions, and the interlocked legs are far more difficult to strip than individual hooks. The trade-off is reduced mobility and slightly less ability to adjust angles, but the control stability is significantly higher. Initiate the body triangle transition when you recognize the opponent has developed a reliable pattern of stripping your re-inserted hooks within seconds.
-
-**Q10**: Your opponent posts their hand on the mat during the escape attempt—what opportunity does this create for restoration?
-**A**: A posted hand means the opponent has removed one arm from their defensive grip fighting, which opens two immediate opportunities. First, the exposed arm can be attacked with a gift wrap by threading your choking arm over their posting arm and securing their wrist against their own body, simultaneously creating a submission entry and restoring upper body control. Second, if the post is near-side, it opens a crucifix entry where you can trap their arm between your legs while maintaining chest contact. In either case, the posting hand represents a commitment of their defensive resource to base rather than escape, creating a window where your hook re-insertion faces less resistance because they have fewer hands available to fight your feet.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Restore Back Control?</p>
 
 Restore Back Control is a positional maintenance technique with minimal injury risk when practiced correctly. The primary safety concern is avoiding excessive squeezing with hooks that could hyperextend the opponent's knee or hip joints during the re-insertion process. Partners should communicate clearly about hook pressure and tap if any joint pressure becomes uncomfortable during drilling. During the chest connection phase, be mindful of not crushing the opponent's ribs with excessive forward pressure, particularly with smaller training partners.
 

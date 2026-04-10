@@ -164,6 +164,8 @@ Defending this counter requires balancing two competing priorities: maintaining 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Leg Attack?</p>
+
 - Opponent's hips begin rotating toward your free leg side rather than escaping away from the entanglement, indicating they are creating angle for counter-entry
 - Opponent's free leg becomes active and starts probing toward your legs rather than pushing against your hip for standard escape
 - Opponent stops defending the heel hook with their hands and redirects hand activity toward controlling your lower body or legs
@@ -176,6 +178,8 @@ Defending this counter requires balancing two competing priorities: maintaining 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Leg Attack?</p>
 
 - Keep your free leg retracted and close to your body rather than extended or posted where it becomes accessible for counter-entanglement
 - Maintain heavy hip pressure throughout to limit opponent's ability to create the angle needed for leg threading
@@ -190,6 +194,8 @@ Defending this counter requires balancing two competing priorities: maintaining 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Leg Attack?</p>
 
 ### 1. Retract free leg and drive knee toward your own chest to eliminate threading angle
 
@@ -227,6 +233,8 @@ Defending this counter requires balancing two competing priorities: maintaining 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Leg Attack?</p>
+
 ### → [[Positions/Inside Sankaku]]
 
 Recognize the counter-attack early through hip rotation and free leg activity cues. Retract your free leg immediately, drive hip pressure forward to flatten opponent, then resume systematic heel hook attack with your free leg tucked safely.
@@ -242,6 +250,8 @@ When opponent commits their free leg to the threading motion, capture it by tria
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Leg Attack?</p>
 
 ### 1. Leaving free leg extended or posted wide during heel hook grip fighting
 
@@ -271,6 +281,8 @@ When opponent commits their free leg to the threading motion, capture it by tria
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Leg Attack?</p>
+
 **Week 1-2** - Recognition drilling
 Partner attempts Counter Leg Attack at slow speed from Inside Sankaku bottom. Focus on identifying the early cues: hip rotation direction, free leg probing, and shift away from standard escape patterns. Practice calling out the counter-attempt verbally before it completes.
 
@@ -287,29 +299,6 @@ Full resistance positional sparring from Inside Sankaku top. Partner uses all av
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a Counter Leg Attack rather than a standard escape?
-**A**: The earliest cue is the direction of hip rotation. Standard escapes involve hips moving away from you to create extraction distance. Counter Leg Attack requires hips rotating toward your free leg to create threading angle. When you feel the opponent's hips shifting toward your non-entangled side rather than away from you, they are setting up the counter rather than escaping. This directional difference is the critical early warning sign.
-
-**Q2**: Your opponent has successfully hooked behind your free leg's knee - what is the optimal response at this stage?
-**A**: At this stage, stripping the hook is difficult and often counterproductive. The optimal response is to transition to Saddle by using your legs to capture both of their legs in a double entanglement. Use the fact that their free leg is now committed to hooking you to redirect it into your entanglement structure. If Saddle transition is not available, immediately begin defending your own heel and prepare for 50-50 grip fighting rather than wasting energy fighting the established hook.
-
-**Q3**: How should you position your free leg during Inside Sankaku to prevent the Counter Leg Attack from being attempted?
-**A**: Keep your free leg retracted with the knee bent toward your chest, shin angled across opponent's hip line. This creates a physical barrier against threading while maintaining your base. Only extend the leg briefly when posting for balance adjustments, then immediately retract. The leg should feel like a coiled spring - ready to push or block but never passively dangling where opponent can hook behind the knee. Active management of this leg is the primary prevention tool.
-
-**Q4**: You recognize the counter-attack beginning but already have strong two-handed heel grips - should you address the counter or finish the submission?
-**A**: If you have strong heel grips with your wrist blade properly positioned against the Achilles tendon, finish the submission immediately. The counter-attack requires several seconds to complete the full threading and figure-four configuration, while a properly set heel hook finishes in under two seconds. However, if your grips are preliminary and you are still working toward the finish, address the counter first by retracting your free leg, because a poorly positioned submission attempt will fail and the counter will succeed while you are distracted.
-
-**Q5**: What is the strategic advantage of transitioning to Saddle when opponent attempts Counter Leg Attack?
-**A**: Transitioning to Saddle captures both opponent's legs in your entanglement rather than just one, which eliminates their counter-attack entirely while dramatically increasing your control and submission percentage. The Saddle sits at the apex of the leg entanglement hierarchy - it offers the tightest control, best heel exposure, and highest submission rate. Opponent's counter-entry motion actually assists this transition because their free leg moves toward your entanglement structure rather than away from it.
-
-
-
-</section>
 
 
 </main>

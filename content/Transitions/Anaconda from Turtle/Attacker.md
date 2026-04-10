@@ -188,6 +188,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Anaconda from Turtle?</p>
+
 - Thread far arm deep under neck with palm-down orientation toward near shoulder for optimal bone alignment
 - Trap the near arm (not far arm) between your choking arm and their neck to create the anaconda-specific bilateral pressure
 - Secure tight figure-four grip before initiating roll - grip integrity determines finish quality
@@ -203,6 +205,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Anaconda from Turtle?</p>
+
 - Turtle top position established with chest pressure on opponent's back
 - Opponent's near-side arm accessible for trap, not fully retracted to knees
 - Control of opponent's near arm established with your hand before threading begins
@@ -217,6 +221,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Anaconda from Turtle step by step?</p>
 
 1. **Establish Turtle Top Control**: Secure turtle top position with chest pressure on opponent's back while controlling their near-side arm with your hand. Maintain tight top pressure to prevent them from standing or initiating a granby roll before you attack. Your weight should be distributed forward through your chest to keep them compressed and unable to create defensive space or retract their near arm.
 2. **Thread Choking Arm Under Neck**: Thread your far-side arm under opponent's neck toward their near shoulder, maintaining palm-down orientation throughout the threading motion. Drive your arm deep until your wrist clears past their near shoulder to ensure proper depth for the choking position. The deeper the threading, the tighter the eventual finish will be. Palm-down alignment positions the radius bone optimally against the carotid artery.
@@ -246,6 +252,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Anaconda from Turtle?</p>
+
 - **Pull Arm In - opponent retracts near arm before trap is secured** (Effectiveness: High) - Your Response: Recognize early and transition to different attack from turtle top such as Darce (trap far arm instead), or pursue the arm as they pull it in and follow to back take position while they are occupied defending their arm → Leads to [[Positions/Turtle]]
 - **Base Out - opponent posts with free arm wide to prevent roll completion** (Effectiveness: Medium) - Your Response: Maintain pressure and grip while walking your hips in a wide arc around their posted base to find a new rolling angle, or transition to side control while maintaining front headlock control and threatening guillotine from the modified angle → Leads to [[Positions/Turtle]]
 - **Counter Roll - opponent rolls in opposite direction to escape the choking angle** (Effectiveness: Medium) - Your Response: Maintain grip and use their momentum to adjust to the new angle by following their roll while keeping the figure-four locked, or release and scramble for dominant turtle top position if grip integrity is compromised during their rotation → Leads to [[Positions/Turtle]]
@@ -258,6 +266,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Anaconda from Turtle?</p>
 
 ### 1. Trapping far arm instead of near arm
 
@@ -297,6 +307,8 @@ The Anaconda from Turtle is a dynamic submission setup that transitions from tur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Anaconda from Turtle (Attacker)?</p>
+
 **Solo Practice (Week 1-2)** - Rolling motion and arm threading mechanics
 Practice rolling motion with grappling dummy to develop coordination and muscle memory for the grip-to-roll sequence. Work arm threading depth and palm-down positioning without resistance. Focus on smooth, controlled rolls that end in proper finishing position with grip intact. Develop comfort with the inverted positions created by rolling motion.
 
@@ -320,54 +332,12 @@ Work with advanced partners who defend with various reactions and counter-techni
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What creates the choking pressure in the anaconda from turtle?
-**A**: The choking pressure comes from bilateral vascular compression - your bicep squeezes one carotid artery while the opponent's own trapped near arm and shoulder compress the other carotid from the opposite side. This dual-sided pressure is what makes the anaconda a blood choke rather than an airway choke. The trapped arm essentially becomes part of the choking mechanism, which is why trapping the correct arm is absolutely critical to the technique's function.
-
-**Q2**: When should you initiate the roll in the anaconda setup?
-**A**: You should initiate the roll immediately after locking the figure-four grip - within approximately one second of securing maximum grip tightness. The grip lock and roll should be trained as a single explosive sequence rather than two separate decisions. Hesitation of even two seconds gives the opponent time to base out with their free arm, begin a counter-roll, or start standing up. The optimal timing window is the moment between your grip locking and their brain processing that the grip is locked.
-
-**Q3**: Which arm should be trapped for the anaconda from turtle?
-**A**: The near arm (closest to you) must be trapped for the anaconda. This is the defining distinction from the Darce choke, which traps the far arm. The near arm trap is essential because after the roll, the opponent's own near arm and shoulder are positioned to compress their carotid artery on one side while your bicep compresses the other side. Trapping the wrong arm changes the entire pressure geometry and makes the finish mechanically impossible with anaconda rolling direction.
-
-**Q4**: What must be accomplished before rolling in the anaconda setup?
-**A**: Before rolling you must achieve three critical elements in sequence: first, the near arm must be trapped between your choking arm and their neck with no gap; second, your threading arm must have cleared deep past their near shoulder with palm-down orientation; and third, the figure-four grip must be locked with elbows pulled maximally together. All three elements must be verified before committing to the roll. A roll with any element missing will fail and likely result in losing the position entirely.
-
-**Q5**: How do you adjust if opponent bases out with a posted hand during your roll attempt?
-**A**: If opponent bases out, maintain pressure and grip integrity while walking your hips in a wide arc around their posted base to find a new rolling angle where their post becomes structurally irrelevant. Alternatively, use their commitment to the post as an opportunity to transition attacks - the posted arm is vulnerable to kimura, and their focus on preventing the roll may open back take opportunities. The key is never forcing a roll against a strong post, as this wastes energy and loosens your grip.
-
-**Q6**: What is the main difference between anaconda and Darce chokes from turtle?
-**A**: The anaconda traps the near arm (closest to you) between your choking arm and opponent's neck, while the Darce traps the far arm. This fundamental difference changes the entire pressure geometry: anaconda finishes after rolling over the trapped arm side, while Darce can sometimes finish from top position or with a different rolling direction. Anaconda requires more decisive roll commitment because the choking angle only materializes after the roll is completed, whereas Darce can generate pressure from multiple angles.
-
-**Q7**: Why is the rolling motion essential rather than optional in the anaconda?
-**A**: The rolling motion is essential because it creates the specific body angle required for bilateral carotid compression. Without the roll, your bicep and their trapped arm are not aligned against opposite carotid arteries simultaneously. The roll positions your body perpendicular to theirs with their head and trapped arm pulled into the constricting loop at the correct angle. Attempting to finish an anaconda without rolling results in uncomfortable neck pressure but not the blood choke mechanism needed for a submission.
-
-**Q8**: Your opponent posts their hand wide to prevent the roll - how do you adjust your attack?
-**A**: When opponent posts wide, you have two primary strategic options: first, walk your hips in a wide arc around their posted hand to find a new rolling angle where their post becomes structurally ineffective due to the changed angle of force; second, recognize that their posting arm is now extended and vulnerable, creating opportunities for kimura on the posted arm, or abandon the anaconda to take the back while they remain committed to statically defending the choke rather than protecting their back exposure.
-
-**Q9**: What is the critical hip movement pattern during the anaconda roll?
-**A**: Your hips should drive in a circular arc that brings your body perpendicular to your opponent's spine as you complete the roll. Initiate by stepping your far leg over their back to generate rotational torque, then use hip rotation to pull them into the finishing position where you land on your side or back with them curled into the choke. The hip movement creates the torque that tightens the choke during the roll itself - without proper hip engagement, the roll becomes a disconnected tumble rather than a submission-finishing motion with continuous compression.
-
-**Q10**: What grip configuration provides the tightest anaconda control and why?
-**A**: The figure-four grip (grabbing your own bicep with your free hand while your choking hand grabs your free arm's wrist or forearm) provides the tightest control because it creates a closed mechanical triangle with no structural gaps. This triangular grip distributes force across both arms equally and is extremely difficult to break because force applied against any point of the triangle is redistributed rather than focused on a single weak link. It allows maximum compression by pulling elbows together, and the closed loop prevents any space from opening during the dynamic roll.
-
-**Q11**: Opponent begins standing up while you have the anaconda grip locked - what is your response?
-**A**: Follow them up while maintaining the locked grip and drive your chest into their shoulder to slow their rise. From standing, you have two options: commit to a standing anaconda finish by stepping behind them and using gravity-assisted downward pressure to complete the choke, or if they create too much space during the standup that loosens the grip, quickly transition to a standing guillotine by releasing the figure-four and securing a chin strap grip under their neck. The standing position actually favors you because their hands are occupied with standing rather than defending the choke.
-
-**Q12**: What palm orientation should your choking arm maintain during threading and why?
-**A**: Your choking arm should maintain palm-down orientation throughout the entire threading process. This orientation positions the radius bone of your forearm to align directly against the carotid artery on one side of the neck while your bicep is optimally positioned for pressure on the opposite side after completing the roll. Palm-up threading results in the ulna bone contacting the neck instead, which creates windpipe pressure rather than carotid compression, producing discomfort without effective blood choke mechanics.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Anaconda from Turtle?</p>
 
 When practicing the anaconda from turtle, execute the rolling motion smoothly and controlled to prevent partner from landing awkwardly on their neck or being thrown with excessive force. Apply choking pressure gradually in training, never explosively or with full force, as bilateral chokes can cause unconsciousness within seconds once properly locked. Monitor partner's response carefully and release immediately upon tap signal - never hold chokes after submission. Ensure partner is prepared for the rolling motion before initiating and communicate during initial drilling phases. Be particularly mindful of neck safety during the roll transition, supporting partner's head and neck during the movement. In drilling, use progressive resistance to build coordination before attempting at full speed. Partners should communicate clearly about comfort level with rolling techniques and inversion. Never practice this technique on untrained partners who do not understand tap protocols. Be aware that bilateral blood chokes produce rapid unconsciousness - maintain constant awareness of partner's consciousness state and look for signs of distress beyond verbal tapping such as body going limp.
 

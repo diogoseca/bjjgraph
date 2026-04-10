@@ -169,6 +169,8 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 ## Position Definition
 
+<p class="section-subtitle">What is Quarter Guard (Top)?</p>
+
 - Top player's hips are positioned forward past opponent's hip centerline by six to twelve inches, establishing dominant passing angle with chest oriented diagonally toward opponent's far shoulder creating crossface opportunity
 - Passing knee (typically the knee crossing opponent's center line) is actively advancing beyond opponent's hip by at least four inches, creating forward pressure that eliminates defensive space and prevents guard recovery
 - Top player's torso is angled thirty to forty-five degrees diagonally across opponent's body, creating optimal crossface angle and weight distribution that severely limits bottom player's mobility and framing capability
@@ -180,6 +182,8 @@ The key distinction from half guard top is that the bottom player's defensive ca
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Quarter Guard (Top)?</p>
 
 - Understanding of guard passing fundamentals and the hierarchy of passing positions from open guard to completed passes
 - Competency in pressure passing mechanics and effective weight distribution without sacrificing mobility
@@ -195,6 +199,8 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Quarter Guard?</p>
+
 - Maintain constant forward and downward pressure toward opponent's far shoulder to limit defensive mobility and create psychological pressure without excessive muscling
 - Keep your hips mobile and ready to slide across opponent's center line instantly to complete pass—static hips allow opponent to rebuild defensive frames
 - Systematically eliminate or control opponent's defensive frames (knee shield, near-side arm) before fully committing to final pass movement
@@ -209,6 +215,8 @@ The key distinction from half guard top is that the bottom player's defensive ca
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Quarter Guard (Top)?</p>
 
 **If opponent maintains weak knee shield but cannot generate frames or hip mobility for defense:**
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
@@ -231,7 +239,7 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 
 **If opponent exposes arm attempting to frame or recover guard structure:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
@@ -242,6 +250,8 @@ The key distinction from half guard top is that the bottom player's defensive ca
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Quarter Guard?</p>
 
 ### 1. Holding static pressure in quarter guard without actively working to complete pass within five to ten seconds
 
@@ -281,6 +291,8 @@ The key distinction from half guard top is that the bottom player's defensive ca
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Quarter Guard attacks?</p>
+
 ### Quarter Guard Pass Finishing Drill
 
 Start in established quarter guard top position with light resistance from partner maintaining weak knee shield without full defensive pressure. Practice completing various passes (knee slice, smash, crossface variations) with emphasis on immediate execution when defensive structure breaks down. Partner gradually increases resistance progressively as you improve timing recognition and technique execution over multiple rounds.
@@ -302,7 +314,7 @@ Partner in quarter guard bottom attempts specific escapes in sequence (knee shie
 **Duration**: 5 minutes per side, rotating through different defensive reactions
 
 
-### Pressure and Weight Distribution Exercise
+### Pressure and Center of Gravity Exercise
 
 Hold quarter guard top position statically while partner provides moderate resistance attempting to recover guard or create space for escape. Focus exclusively on pressure quality, weight distribution optimization, and maintaining control without excessive muscling or energy expenditure. Partner provides verbal feedback on pressure effectiveness.
 
@@ -320,38 +332,6 @@ Flow rolling from quarter guard top where partner randomly varies their defensiv
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts to hip escape and turn to their side during your quarter guard top—what adjustment do you make?
-**A**: Immediately increase crossface pressure by driving your shoulder into their jaw and far cheek to flatten them back down. Simultaneously walk your hips toward their head to cut off the angle they're creating. If they continue turning despite pressure, recognize this as a back take opportunity rather than forcing the pass—follow their rotation and transition to back control since their movement has exposed their back.
-
-**Q2**: What are the essential grips and control points for maintaining quarter guard top position?
-**A**: The primary control points are crossface pressure with your shoulder against their far cheek or jaw, far hip control with your hand preventing rotation, and chest-to-chest connection distributing weight through their upper body. Secondary controls include near-side arm pinning to prevent frames and knee positioning past their hip line to block guard recovery. The crossface is the most critical—without it, all other controls become less effective.
-
-**Q3**: How do you shut down the bottom player's primary escape of recovering knee shield half guard?
-**A**: Prevent knee shield recovery by maintaining forward hip pressure that closes the space needed for knee insertion, controlling their near-side knee with your hand or shin pressure to push it toward the mat, and keeping your chest heavy on their upper body so they cannot create the angle needed for knee shield. If you feel them attempting to insert the knee, immediately slide your passing knee across faster to cut off the space before the shield can establish.
-
-**Q4**: What is the correct weight distribution for maintaining quarter guard top while staying mobile for pass completion?
-**A**: Distribute approximately seventy percent of your weight forward through your chest and shoulder into opponent's upper body, with thirty percent remaining on your base leg and posting hand for sweep defense. The weight should feel like controlled directional pressure toward their far shoulder rather than simply heavy downward pressure. Your hips should remain light and mobile, ready to slide across instantly when defensive structure breaks.
-
-**Q5**: How do you apply crossface pressure effectively without gassing out during extended passing sequences?
-**A**: Use skeletal structure rather than muscular effort by positioning your shoulder blade as the pressure point against their face, letting your body weight create the pressure rather than actively pushing. Keep your elbow tight to your ribs and drive through your legs and hips rather than your arms. The pressure should feel effortless to maintain—if you're getting tired from crossface, you're muscling it rather than using proper positioning and weight distribution.
-
-**Q6**: Your opponent creates an underhook on your near side while you're in quarter guard top—what immediate adjustments are needed?
-**A**: When opponent establishes underhook, immediately increase downward pressure to prevent them from using it to come up to their side. You have two options: whizzer the underhook by overhooking their arm and driving your weight down while continuing the pass, or switch to underhook pass variation by accepting their underhook and using it as a control point while stepping around. Never ignore the underhook—it's their primary tool for sweeping or recovering guard.
-
-**Q7**: How do you manage energy while maintaining pressure in quarter guard top to prevent fatigue during competition?
-**A**: Energy management requires using your body weight and positioning rather than muscular effort. Let gravity do the work by positioning your chest at the correct angle where weight naturally transfers through opponent. Breathe steadily and avoid holding tension in muscles not actively engaged. Keep the position transitional—spending five to ten seconds maximum before completing pass. If you're fatiguing in quarter guard, you're either muscling or staying too long.
-
-**Q8**: Your opponent partially escapes your crossface and begins turning in—how do you recover control versus when do you follow to back take?
-**A**: If they're less than forty-five degrees turned and you can re-establish crossface by driving your shoulder back across their face, recover the crossface and continue the original pass. If they've turned past forty-five degrees and your crossface has slipped to their shoulder or back, follow their momentum immediately to back control rather than trying to flatten them again. The decision point is whether your shoulder can contact their face—if yes, recover; if no, take the back.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

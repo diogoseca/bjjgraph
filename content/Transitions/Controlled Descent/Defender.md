@@ -164,6 +164,8 @@ The primary challenge is that your opponent retains agency during their descent 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Controlled Descent?</p>
+
 - Opponent widens their stance significantly and begins bending their knees while you have standing back control established
 - Opponent's weight drops suddenly as they lower their center of gravity, often accompanied by a slight forward lean of their torso
 - Opponent stops fighting your grips and instead focuses on tucking chin and protecting neck - a shift from active escape to defensive preparation
@@ -175,6 +177,8 @@ The primary challenge is that your opponent retains agency during their descent 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Controlled Descent?</p>
 
 - Maintain chest-to-back connection throughout the descent - never allow separation during the transition to the ground
 - Follow your opponent's descent immediately rather than resisting it, converting standing control into grounded control seamlessly
@@ -188,6 +192,8 @@ The primary challenge is that your opponent retains agency during their descent 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Controlled Descent?</p>
 
 ### 1. Drive weight forward and sprawl heavy during opponent's descent to flatten them past turtle into prone position
 
@@ -225,6 +231,8 @@ The primary challenge is that your opponent retains agency during their descent 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Controlled Descent?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the descent tightly maintaining chest-to-back connection, immediately deepen hooks during transition, and drive your weight forward to prevent turtle establishment. The key is matching their descent speed while using the landing impact to consolidate grounded control with both hooks and harness secured.
@@ -240,6 +248,8 @@ When opponent's hip turn fails and they land flat or near-flat, immediately step
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Controlled Descent?</p>
 
 ### 1. Resisting the descent by pulling opponent back up rather than following them down
 
@@ -269,6 +279,8 @@ When opponent's hip turn fails and they land flat or near-flat, immediately step
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Controlled Descent?</p>
+
 **Week 1-2** - Recognition and following
 Partner initiates Controlled Descent at various speeds while you practice following the descent without losing chest connection or hook position. Focus on matching their speed and maintaining harness grip through the transition. 15-20 repetitions per side with no submission attempts.
 
@@ -285,29 +297,6 @@ Incorporate into full sparring rounds starting from standing back control. Devel
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to initiate Controlled Descent?
-**A**: The earliest cue is a significant widening of their stance combined with knee bending to lower their center of gravity. This is often preceded by a shift in their defensive behavior from actively fighting your grips to focusing on chin protection and neck defense. The postural change from fighting upright to preparing for a downward transition is the key early indicator.
-
-**Q2**: Your opponent begins their Controlled Descent with a strong hip turn to their left - what immediate adjustment should you make?
-**A**: Circle to your right (their left side, matching their hip turn direction) while driving your chest pressure forward and down. By following the same direction as their hip turn, you prevent them from creating the angle needed for clean turtle establishment. Simultaneously deepen your hooks on the turning side to maintain hip control through the rotation, and use your harness grip to pull their shoulders toward you rather than allowing them to post.
-
-**Q3**: Why is following the descent preferable to resisting it when your opponent commits to Controlled Descent?
-**A**: Resisting a committed descent creates a tug-of-war that wastes your energy and typically fails because gravity assists your opponent's downward motion. By following the descent, you convert your standing control into grounded control without interruption, often achieving deeper hooks and better harness position during the transition chaos. The ground provides you with more stable base for attacking, and your opponent's descent mechanics require their attention, creating windows to improve your control points.
-
-**Q4**: What is the optimal weight distribution during your opponent's descent to prevent them from achieving turtle?
-**A**: Drive approximately 70-80% of your weight forward through your chest into their upper back and shoulders during the descent. This forward pressure vector flattens their landing angle, making it much harder for them to post on their hands and establish turtle. Keep your hips close to theirs and your hooks active to prevent their hip turn from creating separation. The combination of forward chest pressure and active hook control during descent typically results in a flat or near-flat landing rather than clean turtle.
-
-**Q5**: Your opponent successfully reaches turtle after their Controlled Descent - what are your immediate priorities?
-**A**: Immediately secure your seatbelt grip tighter and work to insert or deepen hooks before they begin escape sequences. Your first priority is preventing them from creating motion - settle your weight on their upper back and drive chest pressure forward at a 45-degree angle to collapse their turtle structure. Address the underhook battle quickly to prevent them from building frames. You have a 3-5 second window before a skilled opponent begins their turtle escape chain, so consolidation speed is critical.
-
-
-
-</section>
 
 
 </main>

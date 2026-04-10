@@ -154,6 +154,8 @@ Defending the Sweep from New York requires the top player to address a fundament
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from New York?</p>
+
 - Bottom player releases shin grip while maintaining overhook—this is the primary pre-sweep indicator
 - Bottom player's hips shift subtly toward the overhook side, pre-loading the bridge direction
 - Bottom player plants both feet flat on the mat after releasing the shin control
@@ -166,6 +168,8 @@ Defending the Sweep from New York requires the top player to address a fundament
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from New York?</p>
 
 - Widen base laterally before attempting any posture recovery to remove the sweep angle
 - Recover posture incrementally rather than explosively—sudden upward movement is the primary sweep trigger
@@ -180,6 +184,8 @@ Defending the Sweep from New York requires the top player to address a fundament
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from New York?</p>
 
 ### 1. Widen base and drop hips before the bridge completes
 
@@ -217,6 +223,8 @@ Defending the Sweep from New York requires the top player to address a fundament
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from New York?</p>
+
 ### → [[Positions/Rubber Guard/New York]]
 
 Widen base immediately when you recognize the shin grip release. Drop your hips low and heavy while posting with your free hand on the mat toward the overhook side. Avoid sudden upward or backward movement that would trigger the sweep. Work incrementally to restore posture from this stable, widened base position.
@@ -232,6 +240,8 @@ Use the momentary reduction in control during the sweep attempt (when the bottom
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from New York?</p>
 
 ### 1. Attempting explosive posture recovery without first widening base
 
@@ -261,6 +271,8 @@ Use the momentary reduction in control during the sweep attempt (when the bottom
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from New York?</p>
+
 **Phase 1: Recognition Drilling** - Identifying sweep initiation cues
 Partner alternates between maintaining static New York control and initiating sweep setups (releasing shin grip, shifting hips, planting feet). Top player calls out when they recognize sweep preparation without attempting to defend. Builds pattern recognition for the critical pre-sweep indicators. Complete 20 recognition cycles per round.
 
@@ -277,26 +289,6 @@ Start in New York Top at full competition intensity. Partner works all New York 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important recognition cue that the sweep is about to be attempted?
-**A**: The bottom player releasing their shin grip while maintaining the overhook is the primary pre-sweep indicator. This release is mechanically necessary for the sweep because the bottom player needs to plant both feet on the mat to generate the hip bridge. When you feel the shin pressure across your back disappear but the overhook remains locked, the sweep attempt is imminent and you have a 1-2 second window to establish defensive positioning.
-
-**Q2**: Why is widening your base more effective than posting with your hand against this sweep?
-**A**: Widening the base creates structural resistance across your entire body that the bridge cannot overcome, while a hand post creates a single failure point that can be attacked or bypassed. A wide base with low hips removes the sweep angle entirely, making the technique mechanically impossible rather than merely difficult. Additionally, the hand post can be stripped by the bottom player's freed hand, but a wide base cannot be collapsed by a single action.
-
-**Q3**: Your opponent releases the shin grip and you feel them begin to bridge—what is your immediate sequence of defensive actions?
-**A**: Immediately spread your knees wide to widen your base, simultaneously drop your hips heavy toward the mat, and post your free hand firmly on the mat toward the overhook side. These three actions—widen, drop, post—must happen nearly simultaneously within the 1-2 second window before the bridge reaches full power. Do not attempt to pull away or rise up, as both movements assist the sweep mechanics.
-
-**Q4**: How should you recover posture from New York without triggering the sweep?
-**A**: Recover posture incrementally through small movements rather than a single explosive push. First widen your base and establish your free hand post. Then work on grip-fighting the overhook by circling your elbow downward and toward your hip. Only begin rising once the overhook is loosened or extracted. Each small positional improvement should be consolidated before attempting the next, preventing the sudden momentum shifts that the sweep exploits.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turn to Turtle from Knee on Belly?</p>
+
 - Create a disruption before turning — never turn against fully settled, balanced pressure
 - Commit fully to the rotation; a half-turn is the worst possible outcome, exposing the back without establishing defensive structure
 - Frame against the opponent's hip during the turn to create a physical barrier that slows their follow
@@ -202,6 +204,8 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turn to Turtle from Knee on Belly?</p>
+
 - Minimum space to initiate hip rotation, typically created through a frame on the opponent's hip or a short bridge
 - Near arm free enough to rotate the shoulder underneath as the primary pivot point for the turning motion
 - Awareness of the opponent's weight distribution and grip configuration to identify the optimal turning window
@@ -214,6 +218,8 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turn to Turtle from Knee on Belly step by step?</p>
 
 1. **Establish Hip Frame**: Place your near forearm firmly against the opponent's hip bone, creating a wedge that will block their ability to follow your rotation. Your far hand pushes against their knee or lower thigh to generate the initial space needed for hip rotation. These frames are the foundation that makes the turn viable.
 2. **Bridge to Generate Momentum**: Execute a short, sharp bridge directed diagonally away from the knee pressure — not straight up into it. This bridge creates the initial rotational momentum and lifts your near hip enough to begin threading it underneath your body. The bridge should be explosive but controlled.
@@ -243,6 +249,8 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turn to Turtle from Knee on Belly?</p>
+
 - **Opponent follows the turn with chest pressure and immediately establishes seatbelt grip for back control** (Effectiveness: High) - Your Response: Accelerate your guard recovery sequence — execute an immediate sit-out or granby roll before they can insert hooks. The seatbelt without hooks is still escapable if you act within the first two seconds. Strip the choking arm with both hands while keeping elbows tight. → Leads to [[Positions/Back Control]]
 - **Opponent drives knee pressure deeper and crossfaces to pin head, preventing rotation from starting** (Effectiveness: High) - Your Response: Abandon the turn attempt and switch to an alternative escape. Use their forward pressure commitment against them by threading an underhook for half guard recovery or bridging into them to create space for a frame-and-shrimp escape. → Leads to [[Positions/Knee on Belly]]
 - **Opponent sprawls weight onto your back mid-rotation, flattening you before turtle can be established** (Effectiveness: Medium) - Your Response: If flattened mid-turn, immediately work to get your knees back underneath you by driving your hips upward. Use your elbows and forearms to create space between your torso and the mat. Alternatively, continue the rotation further to reach a full turtle even under their sprawl pressure. → Leads to [[Positions/Knee on Belly]]
@@ -253,6 +261,8 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turn to Turtle from Knee on Belly?</p>
 
 ### 1. Turning without tucking the chin, exposing the neck during rotation
 
@@ -292,6 +302,8 @@ As the bottom player under Knee on Belly, executing the Turn to Turtle requires 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turn to Turtle from Knee on Belly (Attacker)?</p>
+
 **Mechanics Phase** - Rotation technique
 Practice the turning motion solo and with a passive partner holding KOB. Focus on the corkscrew rotation around the near shoulder, driving the far knee under the body, and establishing tight turtle immediately. No resistance — build muscle memory for the complete rotation sequence and proper chin tuck.
 
@@ -309,42 +321,12 @@ Positional sparring starting from Knee on Belly. Bottom player attempts turns al
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the turn to turtle from Knee on Belly?
-**A**: The optimal window opens when the top player shifts their weight forward to attempt a submission or adjusts their knee position for a transition to mount. During these moments, their base is momentarily compromised and their pressure on your diaphragm decreases slightly. Turning during a weight shift gives you the best chance of completing the rotation before they can react. Attempting the turn against fully settled, balanced pressure makes the rotation significantly harder and gives the opponent more time to follow into back control.
-
-**Q2**: What conditions must exist before you can successfully execute the turn to turtle?
-**A**: You need at least minimal space between your body and the opponent's knee to initiate rotation, typically created through a brief frame or bridge. Your near arm must be free enough to rotate your shoulder underneath you as the primary pivot point. Your far knee must have room to tuck underneath your body. If the opponent has deep crossface control pinning your head and both hips locked with grips, you must first fight one of these controls before the turn becomes viable.
-
-**Q3**: What is the most critical mechanical detail that separates a successful turn from a failed one?
-**A**: The speed and completeness of the hip rotation is the most critical factor. A half-committed turn that stalls midway leaves you in the worst possible position — partially exposing your back without establishing any defensive turtle structure. The rotation must be explosive and continuous from initiation to four-point base establishment. Your hips must fully commit, with your far knee driving underneath your body as your near shoulder anchors into the mat as the pivot point.
-
-**Q4**: Your initial turn attempt is stuffed by the opponent driving their knee deeper — what should you do?
-**A**: Do not attempt the same turn a second time immediately, as the opponent is now specifically defending it. Switch to an alternative escape — use their forward pressure commitment against them by threading an underhook for half guard recovery, or bridge into them and attempt a frame-and-shrimp escape. If they have fully committed forward to prevent the turn, their base behind them is compromised, creating opportunities for underhook escapes or deep half entries on the opposite side.
-
-**Q5**: What frame configuration gives you the best foundation for initiating the turn?
-**A**: Place your near forearm against the opponent's hip bone, creating a wedge that prevents them from following your rotation. Your far hand pushes against their knee or lower thigh, providing initial space for hip rotation. The hip frame is critical because it creates a physical barrier the opponent must overcome to follow your turn, buying you the fraction of a second needed to complete the rotation. Without the hip frame, the opponent simply follows your turn directly into back control with no obstruction.
-
-**Q6**: In which direction should you generate force to maximize effectiveness of the turn?
-**A**: The primary force should be rotational, directed away from the opponent and toward the mat on your far side. This is not a bridge straight up — the force should be diagonal, combining a slight upward push with strong rotational pull toward your far shoulder. Your near hip drives up and over while your far shoulder pulls toward the mat. Think of corkscrewing your body around your near shoulder as a fixed axis. The lateral-rotational force vector creates the momentum needed to complete the full turn before the opponent can react.
-
-**Q7**: The opponent follows your turn and establishes a seatbelt grip as you reach turtle — how do you respond?
-**A**: Immediately prioritize hand fighting to strip the choking arm of the seatbelt before they insert hooks. Use both hands on their choking wrist and strip it aggressively while keeping your chin tucked to your chest. Keep elbows glued to your inner knees to prevent hook insertion. Once you have disrupted their grip, execute an immediate sit-out toward the choking arm side or an explosive technical stand-up. The worst outcome is allowing them to settle with seatbelt control and begin methodically inserting hooks.
-
-**Q8**: After a successful turn to turtle, what is the priority sequence for your next actions?
-**A**: First, ensure your defensive structure is tight — chin tucked, elbows to knees, rounded back. Second, immediately assess whether the opponent has followed and what controls they have established. Third, begin your primary escape without pause — sit-out, granby roll, or technical stand-up should be initiated within one to two seconds of reaching turtle. Every second spent static in turtle allows the opponent to consolidate grips and establish hooks. The turn to turtle is only truly successful if it leads to guard recovery or standing within the next few seconds.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turn to Turtle from Knee on Belly?</p>
 
 This escape involves rapid spinal rotation under compressive pressure and carries risk of neck strain if the chin is not properly tucked during the turn. The back exposure during rotation creates vulnerability to chokes if the opponent follows with arm-in attacks. Ensure training partners understand the defensive nature of this transition and avoid applying excessive downward pressure during the turning phase. When drilling, the top player should follow at controlled speed initially. Tap immediately if a choke is applied during the rotation before you can establish defensive turtle posture.
 

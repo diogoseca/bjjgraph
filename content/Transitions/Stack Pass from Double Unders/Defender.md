@@ -162,6 +162,8 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Double Unders?</p>
+
 - Opponent begins walking knees forward toward your head while maintaining tight double underhook grip behind your back, signaling the stacking initiation
 - Progressive elevation of your hips off the mat as increasing chest pressure drives your legs toward your head and loads weight onto your shoulders
 - Increasing compression on your upper back and shoulders with restricted breathing as your spine curves under the opponent's forward drive
@@ -174,6 +176,8 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Double Unders?</p>
 
 - Prevent complete stacking by turning to one side immediately when you feel hips being elevated, preserving escape pathways on both sides
 - Create frames against opponent's hips or face before the stack develops rather than after compression is established
@@ -189,6 +193,8 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Double Unders?</p>
 
 ### 1. Establish hip frames and extend legs explosively to break the stacking pressure before full compression develops
 
@@ -226,6 +232,8 @@ Defending the Stack Pass from Double Unders requires immediate recognition and d
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Double Unders?</p>
+
 ### → [[Positions/Open Guard]]
 
 Execute a well-timed granby roll when the opponent commits weight far forward during the stacking attempt, converting their downward momentum into a rotational sweep that reverses position entirely
@@ -241,6 +249,8 @@ Establish hip frames early in the stacking progression and prevent complete comp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Double Unders?</p>
 
 ### 1. Accepting flat back position without immediately turning to one side when the stacking pressure begins
 
@@ -275,6 +285,8 @@ Establish hip frames early in the stacking progression and prevent complete comp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Double Unders?</p>
+
 **Phase 1: Recognition and Framing** - Identifying stack initiation and establishing defensive frames
 Partner establishes double unders and begins slow stacking progression. Practice recognizing the transition from static pressure to active stacking and immediately establishing hip frames. Focus on frame placement, elbow positioning, and maintaining side angle. No escape attempts, purely defensive frame development. Start at 30% resistance.
 
@@ -291,29 +303,6 @@ Positional sparring from double unders bottom against partner's full-resistance 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a stack pass from double unders?
-**A**: The earliest cue is feeling the opponent shift from maintaining static double unders pressure to actively walking their knees forward toward your head. You will feel their chest pressure angle changing from horizontal to diagonal as their hips begin to drive upward. This is the critical moment to act because once their knees have walked past your hip line, the stacking compression develops rapidly and your escape options narrow significantly with each additional step forward.
-
-**Q2**: What immediate frame should you establish when you recognize the stack pass is being initiated?
-**A**: Establish frames against the opponent's hips rather than their chest or shoulders. Place your forearms against their hip bones with elbows tight to your body, using skeletal alignment to create structural resistance. Hip frames are more effective than chest frames because they directly oppose the forward walking motion that drives the stack. A chest frame allows the opponent to simply walk through it as their weight overcomes your arm strength, while hip frames block the mechanical progression of their knee walking.
-
-**Q3**: When should you commit to the deep half guard entry versus attempting to maintain frames and prevent the stack?
-**A**: Commit to deep half entry when your hip frames are being overcome and you can feel your hips beginning to elevate off the mat despite your resistance. This is the transition point where continued framing becomes inefficient but the stack has not yet developed enough compression to prevent rotation. The deep half dive uses the opponent's forward pressure as entry momentum, so attempting it too early wastes the mechanical advantage of their committed weight. Attempting it too late fails because full compression prevents the necessary rotation underneath their body.
-
-**Q4**: How do you execute the granby roll escape against a committed stack pass without exposing your back?
-**A**: Time the granby when the opponent's weight is committed maximally forward during the deepest point of the stack. Roll over the shoulder on the side opposite to their head position, keeping your chin tucked and arms tight to prevent neck injury. The key to avoiding back exposure is completing the full rotation quickly rather than stalling midway. Drive through the roll with your legs to generate momentum and immediately post on your hands and knees or recover guard upon completion. A half-committed granby is what creates back exposure.
-
-**Q5**: How should you manage your energy when trapped under progressive stacking pressure?
-**A**: Avoid continuous muscular resistance against the stacking force, which exhausts you faster than the attacker. Instead, use skeletal frames that require minimal energy to maintain and focus on controlled breathing to prevent panic-driven energy waste. Save explosive effort for committed escape attempts timed with the attacker's pressure adjustments or grip readjustments. Accept that you may need to endure fifteen to thirty seconds of compression before a legitimate escape window opens, and preserve your capacity for that decisive moment rather than wasting it on half-efforts.
-
-
-
-</section>
 
 
 </main>

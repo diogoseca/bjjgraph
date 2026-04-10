@@ -154,6 +154,8 @@ The Lapel Strip from Worm Guard Defender represents the worm guard bottom player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Strip from Worm Guard?</p>
+
 - Top player begins addressing your gripping hand with both of theirs, indicating a deliberate two-on-one strip attempt rather than a passing sequence
 - Top player widens their stance and drops their hips back, establishing a defensive base specifically designed to resist sweeps during grip fighting
 - Top player's eyes and hand movement focus on the lapel routing path and your grip rather than on traditional passing angles or leg control
@@ -166,6 +168,8 @@ The Lapel Strip from Worm Guard Defender represents the worm guard bottom player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Strip from Worm Guard?</p>
 
 - Maintain constant tension on the lapel wrap to make grip stripping mechanically difficult for the top player
 - Threaten sweeps whenever the top player commits both hands to grip fighting to punish the stripping attempt and force them to choose between stripping and defending
@@ -180,6 +184,8 @@ The Lapel Strip from Worm Guard Defender represents the worm guard bottom player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Strip from Worm Guard?</p>
 
 ### 1. Reinforce lapel grip with second hand and increase tension to resist the strip
 
@@ -217,6 +223,8 @@ The Lapel Strip from Worm Guard Defender represents the worm guard bottom player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Strip from Worm Guard?</p>
+
 ### → [[Positions/Worm Guard]]
 
 Maintain constant tension on the lapel wrap and reinforce with your second hand when the strip is detected. Use your free leg to push the top player's hips back, making it harder for them to reach your grip. Monitor the lapel path and immediately tighten any slack that develops. Force the top player to abandon the strip by making sweep threats too dangerous to ignore.
@@ -232,6 +240,8 @@ Time your sweep attempt for the exact moment both of the top player's hands are 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Strip from Worm Guard?</p>
 
 ### 1. Waiting passively while the top player systematically strips grips without threatening any counter-attacks or sweeps
 
@@ -261,6 +271,8 @@ Time your sweep attempt for the exact moment both of the top player's hands are 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Strip from Worm Guard?</p>
+
 **Phase 1: Grip Reinforcement Awareness** - Recognizing strip attempts and reinforcing the lapel grip with structural body positioning
 Partner attempts lapel strips at low intensity while you focus on recognizing the cues and reinforcing your grip. Practice adding your second hand, curling the wrist, and using your shin to trap the material. No sweeps yet, purely defensive grip retention to build the foundational mechanics.
 
@@ -277,26 +289,6 @@ Full positional sparring starting from established worm guard. Partner attempts 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a lapel strip rather than a standard pass?
-**A**: The earliest cue is the top player establishing a wider-than-normal stance and dropping their hips back, which signals they are building a defensive base before committing hands to grip fighting rather than initiating a passing sequence. This postural adjustment occurs before they reach for your grip, giving you time to preemptively reinforce your lapel hold and prepare sweep threats.
-
-**Q2**: How do you maintain lapel tension when your opponent is actively stripping your grip with a two-on-one break?
-**A**: Reinforce with your second hand on the lapel tail to create a grip advantage. Simultaneously curl your wrist inward and pull the lapel deeper around your shin to increase the structural reinforcement. Use your leg to trap the lapel material against your body, making it mechanically harder to extract even if they break your hand grip through superior grip fighting.
-
-**Q3**: When should you abandon worm guard retention and transition to an alternative guard during a strip attempt?
-**A**: Transition when you feel significant slack in the lapel that you cannot recover by tightening, when the top player has already cleared the lapel from under their leg and is holding it away from you, or when your grip endurance is failing and continued resistance will leave you without any guard structure at all. The transition must happen while you still have at least one useful grip to build the next guard from.
-
-**Q4**: Your opponent breaks your lapel grip but has not yet cleared the material from under their leg - what is your best response?
-**A**: Immediately reach for the dangling lapel material and re-grip it before the top player can pull their leg free or tuck the material away. This re-feed window is typically less than two seconds. If you can re-grip and re-tension the lapel, the strip resets completely and the top player must restart the entire sequence, which is demoralizing and energy-consuming for them.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to Back Take?</p>
+
 - Underhook Control: Deep underhook acts as primary control point for rotation and prevents opponent's crossface
 - Hip Positioning: Block opponent's hip to prevent defensive movement and base recovery
 - Pressure Direction: Use forward pressure followed by lateral transition to create opening
@@ -209,6 +211,8 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to Back Take?</p>
+
 - Underhook established on opponent's far side with deep penetration
 - Opponent applying forward pressure or attempting to flatten
 - Hip mobility sufficient to create perpendicular angle
@@ -222,6 +226,8 @@ Half Guard to Back Take represents an advanced positional transition that transf
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to Back Take step by step?</p>
 
 1. **Establish underhook control**: From bottom half guard, secure deep underhook on opponent's far side, threading your arm under their armpit and connecting your hand to their far shoulder or lat muscle. Simultaneously prevent their crossface by keeping your other hand framing against their neck or shoulder.
 2. **Create perpendicular angle**: Use the underhook to pull yourself perpendicular to your opponent's body, rotating your torso so you're facing their side rather than directly facing them. Your hips should form approximately a 90-degree angle with their body, with your inside leg still maintaining the half guard lock.
@@ -252,6 +258,8 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to Back Take?</p>
+
 - **Opponent turns into guard** (Effectiveness: High) - Your Response: Maintain underhook control and follow their rotation, transitioning to butterfly guard or continuing to take the back as they expose it during the turn → Leads to [[Positions/Half Guard]]
 - **Crossface pressure to flatten** (Effectiveness: High) - Your Response: Use inside arm to frame against their neck while using underhook to create angle anyway, or transition to deep half guard if crossface becomes too dominant → Leads to [[Positions/Half Guard]]
 - **Opponent bases out wide with posted hands and sprawled legs** (Effectiveness: Medium) - Your Response: Use their wide base against them by attacking far side with underhook sweep variations, or transition to lockdown to break down their base structure before reattempting → Leads to [[Positions/Half Guard]]
@@ -264,6 +272,8 @@ Half Guard to Back Take represents an advanced positional transition that transf
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to Back Take?</p>
 
 ### 1. Releasing underhook too early during transition
 
@@ -303,6 +313,8 @@ Half Guard to Back Take represents an advanced positional transition that transf
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to Back Take (Attacker)?</p>
+
 **Week 1-2: Underhook mechanics foundation** - Establishing and maintaining underhook control
 Partner remains relatively stationary in top half guard while you practice securing deep underhook, preventing crossface, and maintaining connection. Focus on grip strength and positional awareness without attempting full technique.
 
@@ -326,54 +338,12 @@ Use technique seamlessly during regular rolling, chaining it with other half gua
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary control point that enables the half guard to back take transition?
-**A**: The underhook on opponent's far side is the primary control point, providing leverage for angle creation, preventing opponent's crossface pressure, and serving as the main anchor throughout the entire transition from half guard to full back control.
-
-**Q2**: When is the optimal timing to execute the climb to back control?
-**A**: You should climb to back control after creating a perpendicular angle with the underhook, specifically when opponent's weight commits forward and their bottom hip is blocked by your knee, preventing their defensive turn-in or base recovery.
-
-**Q3**: What is the most common technical error when attempting this transition and how is it corrected?
-**A**: The most common error is releasing the underhook too early during the transition, which results in loss of control and allows opponent to establish crossface and flatten you. The correction is to maintain underhook connection throughout the entire sequence until back control is fully established with both hooks inserted and secured.
-
-**Q4**: How do you effectively counter an opponent's crossface pressure when attempting the back take?
-**A**: Counter crossface pressure by using your inside arm to create a defensive frame against their neck or shoulder while simultaneously using the underhook to create the perpendicular angle anyway. If crossface becomes too dominant, transition to deep half guard or lockdown positions that nullify their crossface advantage.
-
-**Q5**: Why is blocking the opponent's bottom hip critical to the success of this technique?
-**A**: Blocking opponent's bottom hip with your top knee is critical because it prevents them from turning into you to recover guard and maintains your perpendicular angle during the climb. Without this hip block, opponents can easily rotate toward you and nullify the back take attempt, recovering to standard half guard or even passing to top position.
-
-**Q6**: How does the Kimura Grip variation differ from the standard underhook approach?
-**A**: The Kimura Grip variation uses a kimura grip on opponent's near arm instead of the traditional far side underhook, creating back exposure through submission threat rather than positional leverage. This forces opponent to defend by turning away from the kimura, which exposes their back for the take, making it effective when traditional underhook is well-defended.
-
-**Q7**: What grip configuration should your underhook hand achieve during setup?
-**A**: Your underhook hand should thread deep under opponent's armpit and connect to their far shoulder blade or lat muscle, not merely resting on their side. The deeper the underhook penetration, the more rotational leverage you generate for angle creation and the harder it becomes for opponent to strip or whizzer over it.
-
-**Q8**: In which direction should you drive force during the climb phase of the back take?
-**A**: During the climb phase, your force should drive diagonally upward and forward into your opponent's back, using the bottom hook and underhook as anchors. The chest drives into their upper back while your hips elevate, creating a loading effect where your weight transfers onto their back rather than remaining on the mat beside them.
-
-**Q9**: Your opponent defends by posting their far hand on the mat and widening their base - what do you do?
-**A**: When opponent posts wide and bases out, switch to an Old School sweep setup by controlling their far ankle with your free hand while maintaining the underhook. The posting hand removes their ability to block your hip, so threaten the sweep to force them to retract their post, which reopens the back take angle you originally sought.
-
-**Q10**: What chain attacks should you threaten if your initial back take attempt is blocked at the angle creation phase?
-**A**: If the back take stalls at the angle creation phase, chain into underhook sweep from half guard, Old School sweep, or kimura grip to back take. Each of these attacks uses the same underhook control point, so the opponent must solve multiple problems simultaneously. The sweep threat forces them to post, which exposes the back; the kimura threat forces rotation away, which also exposes the back.
-
-**Q11**: What conditions must exist before you release the half guard leg lock to begin hook insertion?
-**A**: Before releasing the half guard lock, three conditions must be met: your perpendicular angle must be fully established with your torso facing their side, your top knee must be blocking their bottom hip to prevent the turn-in defense, and your underhook must be deep and secure with chest beginning to make contact with their side. Releasing the lock prematurely without these conditions results in losing the entanglement anchor without having established sufficient alternative control.
-
-**Q12**: Your opponent applies a strong whizzer as you establish the underhook - how does this affect your back take strategy?
-**A**: A whizzer actually aids the back take when exploited correctly. The whizzer pins your shoulder tight to their body, which gives you a closer connection for the climb. Circle your hips underneath their whizzer pressure while keeping your underhook hand connected. Their overhook acts as an anchor point that prevents them from creating distance, and as you rotate perpendicular, the whizzer loses its leverage while your underhook gains it.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to Back Take?</p>
 
 Ensure controlled execution to avoid injury during the transition. Maintain awareness of opponent's spine and neck position, particularly when establishing back control and inserting hooks. Apply pressure gradually rather than explosively when first learning to prevent knee and hip injuries to your training partner. When inserting hooks, be careful not to drive knees forcefully into opponent's thighs, which can cause painful contusions. During drilling, communicate clearly if crossface pressure becomes excessive, as this can strain neck muscles. Partners should tap early if they feel trapped in poor positions during the transition to prevent panic responses that lead to injury.
 

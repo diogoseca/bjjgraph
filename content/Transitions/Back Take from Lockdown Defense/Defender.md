@@ -166,6 +166,8 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Take from Lockdown Defense?</p>
+
 - Top player's free leg begins stepping backward or widening base in preparation for the circular backstep arc rather than driving forward
 - Increased forward chest pressure combined with crossface intensification, indicating the top player is loading weight before initiating the backstep
 - Top player's hips begin rotating away from you rather than driving down, signaling the start of the circular clearing motion
@@ -178,6 +180,8 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Take from Lockdown Defense?</p>
 
 - Monitor the top player's free leg position throughout your Electric Chair attack - backward movement signals backstep initiation
 - Never fully commit to hip extension without maintaining the ability to quickly retract and recover guard position
@@ -192,6 +196,8 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Take from Lockdown Defense?</p>
 
 ### 1. Release lockdown and immediately recover closed guard or half guard by retracting legs and inserting knee shield
 
@@ -229,6 +235,8 @@ Advanced defenders develop the ability to bait the backstep attempt by offering 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Take from Lockdown Defense?</p>
+
 ### → [[Positions/Half Guard/Electric Chair]]
 
 Recognize the backstep early and tighten your lockdown grip before the opponent's leg clears. Pull your heel down aggressively while maintaining hip extension to stall their circular motion. Once their backstep stalls, resume your Electric Chair attack from the re-established position.
@@ -244,6 +252,8 @@ Release the lockdown at the first sign of backstep initiation and immediately in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Take from Lockdown Defense?</p>
 
 ### 1. Maintaining full Electric Chair extension without monitoring the top player's free leg and body angle
 
@@ -273,6 +283,8 @@ Release the lockdown at the first sign of backstep initiation and immediately in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Take from Lockdown Defense?</p>
+
 **Week 1-2** - Recognition drilling
 Partner performs the backstep from Electric Chair at 25% speed while you practice identifying the recognition cues: free leg movement, chest pressure change, hip rotation. Call out the cue verbally each time you identify it. No defensive response yet, just build pattern recognition. 15 repetitions per side each session.
 
@@ -289,29 +301,6 @@ Full resistance positional sparring from Electric Chair. Bottom player works Ele
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that indicates the top player is about to attempt the backstep back take?
-**A**: The earliest cue is the top player's free leg beginning to step backward or widen its base in preparation for the circular arc. This is often accompanied by increased forward chest pressure as they load weight before initiating the backstep. Recognizing this leg movement gives you the maximum response time.
-
-**Q2**: Why is turning toward the opponent rather than away from them the correct defensive response?
-**A**: Turning toward the opponent closes the angle they need for the back take by bringing your chest to face them, which prevents hook insertion and seatbelt establishment. Turning away accelerates their path to your back and makes it easier for them to slide behind you. Facing them forces a guard exchange rather than a back control situation.
-
-**Q3**: When should you release the lockdown versus tighten it during backstep defense?
-**A**: Tighten the lockdown if the backstep is in its early phase and your grip can stall the opponent's leg before it clears. Release the lockdown if the arc is more than halfway complete, because holding a compromised lockdown creates knee torque risk and wastes the time you need to recover guard. The decision point is whether the leg has cleared your knee line.
-
-**Q4**: How can you use the backstep attempt offensively as the bottom player?
-**A**: Advanced defenders can bait the backstep by offering partial extension, then quickly retracting to recover guard when the opponent commits to the circular motion. The opponent's failed backstep often leaves them off-balance with their weight committed laterally, creating sweep opportunities or allowing you to transition to deep half guard underneath them.
-
-**Q5**: Your opponent has cleared the lockdown and inserted one hook - what defensive options remain?
-**A**: Immediately address the hook by trapping it with your legs while fighting the seatbelt grip with your hands. Turn aggressively toward the hook side to begin the back escape sequence. If you can prevent the second hook and seatbelt, you can often scramble to turtle or half guard. Priority shifts from preventing back take to standard back escape methodology.
-
-
-
-</section>
 
 
 </main>

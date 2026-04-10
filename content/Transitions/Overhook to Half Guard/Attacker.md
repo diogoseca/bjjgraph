@@ -194,6 +194,8 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook to Half Guard?</p>
+
 - Maintain overhook control as a frame throughout the transition - release only after half guard hooks are fully secured to prevent the top player from capitalizing on the grip change
 - Create the hip angle first before attempting leg insertion - the diagonal hip escape generates the space needed for clean threading without forcing against the top player's weight
 - Thread the inside leg on a low path between the top player's legs rather than trying to lift over - the scooping motion follows the line of least resistance under pressure
@@ -208,6 +210,8 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook to Half Guard?</p>
+
 - Active overhook with armpit sealed tightly over the top player's shoulder, providing sufficient control to manage their posture during the transition
 - Inside hip positioned to execute a diagonal hip escape, with enough mobility to create the insertion angle between your body and the top player's legs
 - Free arm ready to transition from its current control point to a half guard grip such as underhook, collar grip, or knee shield frame
@@ -220,6 +224,8 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Overhook to Half Guard step by step?</p>
 
 1. **Assess transition timing**: Evaluate whether the overhook is losing effectiveness or whether half guard offers superior offensive potential for the current situation. Look for indicators such as the top player systematically loosening your armpit seal, your grip fatiguing, or the top player establishing a passing angle that overhook cannot address but half guard can neutralize.
 2. **Tighten overhook connection**: Before initiating the transition, briefly reinforce your armpit seal and pull the overhook tight. This ensures you maintain maximum control during the transition window and prevents the top player from exploiting any looseness during your hip movement. The tighter the overhook at transition start, the more time you have to complete the leg thread safely.
@@ -250,6 +256,8 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook to Half Guard?</p>
+
 - **Top player drives heavy forward pressure to collapse space and prevent hip escape** (Effectiveness: High) - Your Response: Use the forward pressure to accelerate a butterfly hook intermediate entry - post your inside foot on their hip to create distance, then convert to half guard hooks once their drive creates momentum you can redirect → Leads to [[Positions/Overhook Control]]
 - **Top player backsteps and circles to the overhook side to pass guard during the transition window** (Effectiveness: High) - Your Response: Abandon the half guard attempt and immediately use the overhook to pull them back while hip escaping in the opposite direction. If the pass is too far advanced, release the overhook entirely and establish defensive frames to recover guard rather than holding a grip that prevents effective defense → Leads to [[Positions/Side Control]]
 - **Top player posts their free leg wide to prevent inside leg from threading between their legs** (Effectiveness: Medium) - Your Response: Target the wider gap created by their posted leg using a more aggressive hip escape angle. Alternatively, use a butterfly hook intermediate step to disrupt their widened base before converting to half guard hooks. Their wide base actually creates more insertion space if you adjust the entry angle → Leads to [[Positions/Overhook Control]]
@@ -261,6 +269,8 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook to Half Guard?</p>
 
 ### 1. Releasing the overhook before half guard hooks are fully established
 
@@ -300,6 +310,8 @@ As the bottom player executing the Overhook to Half Guard transition, your objec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook to Half Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hip escape and leg threading fundamentals
 Practice the fundamental hip escape angle and inside leg insertion path without resistance. Focus on creating the diagonal angle, threading the knee cleanly between the training partner's legs on a low scooping path, and closing the half guard hooks. Repeat until the movement sequence is smooth and automatic with no wasted motion between the hip escape and leg thread.
 
@@ -320,42 +332,12 @@ Simulate match situations where overhook control is failing and you must decide 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your overhook grip is starting to weaken as the top player systematically strips your control - when is the optimal moment to initiate the transition to half guard?
-**A**: The optimal moment is when you still have sufficient overhook control to manage the top player's posture but recognize that the grip will fail within the next 3-5 seconds. Initiating the transition while you still have the overhook as a controlling frame gives you the best chance of threading your leg safely. Waiting until the overhook completely fails leaves you in an uncontrolled scramble where the top player can easily pass to side control. The overhook serves as your managing frame during the transition, so it must still be functional when you begin.
-
-**Q2**: What hip position must be established before attempting to thread your inside leg into the half guard entanglement?
-**A**: You must create a diagonal hip angle by executing a hip escape away from the top player's pressure direction. Your hips should be angled at approximately 30-45 degrees from flat rather than lying directly on your back. This angle creates the space between your bodies needed to thread the inside leg through, and positions your inside knee to enter the gap between the top player's legs. Without this hip angle, there is insufficient space for leg insertion and the top player's weight pins you flat, making the thread mechanically impossible.
-
-**Q3**: Which leg initiates the half guard hook and what is the correct insertion path?
-**A**: The inside leg, meaning the leg closest to the overhook side, initiates the half guard hook. The correct path threads between the top player's legs on a low scooping motion along the mat surface with your knee entering first. The foot follows the knee on a path that hooks behind the top player's far knee or lower thigh. Threading from a low angle rather than trying to lift over follows the line of least resistance under top pressure and is harder to block. The scooping motion maintains your hip connection to the mat throughout.
-
-**Q4**: You've begun threading your leg but the top player drives heavy chest-to-chest pressure forward - how do you complete the transition?
-**A**: Use their forward momentum to your advantage rather than fighting against it. Maintain the overhook grip firmly while accelerating your hip escape in the opposite direction of their drive. Their forward pressure actually assists the half guard entry by bringing their trapped leg deeper between yours. Simultaneously post your outside foot on their hip to create a frame that prevents complete smashing. Complete the leg thread and close the half guard lock before releasing the hip frame. Their forward commitment makes extraction harder once your hooks are set.
-
-**Q5**: What grip transition must occur as you move from overhook control to established half guard position?
-**A**: The primary grip transition moves from the overhook armpit seal to either an underhook on the trapped leg side for sweeping offense, a knee shield frame with your outside shin for distance management, or collar and wrist control for submission threats. The overhook grip must be maintained throughout the entire leg threading phase and released only after the half guard hooks are fully secured. The free arm transitions from its secondary control point to establishing the complementary grip for your chosen half guard variation. There must be no gap between releasing the overhook and establishing new half guard controls.
-
-**Q6**: In which direction should your primary hip movement travel during the leg threading phase to maximize space creation?
-**A**: Your hips should move diagonally away from the overhook side and slightly downward toward the mat. This diagonal hip escape creates maximum space on the insertion side while maintaining connection through the overhook on the opposite side. The movement should not be purely lateral, which would break the overhook prematurely, nor purely backward, which fails to create insertion space. The diagonal angle generates a pocket between your hip and the top player's leg where your inside knee can enter cleanly without requiring excessive force.
-
-**Q7**: The top player posts their free leg wide when they sense your transition attempt - how do you adjust your entry?
-**A**: When the top player widens their base, it actually creates a different entry opportunity with a larger gap between their legs. Instead of threading centrally, angle your hip escape more aggressively and target the wider gap now available on the posted leg side. Alternatively, use the overhook to pull them back toward you, collapsing their wide base before reattempting the leg thread. If neither works, post your inside foot on their inner thigh as a butterfly hook intermediate step to disrupt their widened base, then convert the butterfly hook into a half guard entanglement.
-
-**Q8**: After successfully establishing half guard from overhook, what are your immediate offensive priorities to prevent the top player from beginning their passing sequence?
-**A**: Immediately threaten the underhook sweep by driving into the top player and establishing a strong underhook on the trapped leg side. This forces them to dedicate resources to defending the sweep rather than initiating their pass. If they defend the sweep by driving you flat, transition to knee shield half guard to reestablish distance. If they posture back against your underhook threat, pursue the back take by following their hip with your inside hook. The key is never allowing a settling period where the top player can begin systematic passing work.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook to Half Guard?</p>
 
 This transition involves significant hip rotation and leg threading movements that can strain the knee if performed against heavy resistance. Practitioners should avoid forcing the leg insertion when the top player has heavy pressure directly on the knee line, as this creates lateral knee stress. During training, both partners should communicate when excessive pressure is applied to the transitioning leg. The hip escape must create sufficient space before the leg moves - forcing the thread into an inadequate gap risks hyperextension or twisting at the knee joint. Train the mechanics at slow speed before adding resistance.
 

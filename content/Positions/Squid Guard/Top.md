@@ -169,6 +169,8 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ## Position Definition
 
+<p class="section-subtitle">What is Squid Guard (Top)?</p>
+
 - Top player stands or kneels with one or both legs entangled by bottom player's lapel wrapped around knee or ankle, creating tension and control through fabric manipulation
 - Bottom player remains on their back or inverted with active lapel grips maintaining connection to top player's lower body, using lapel tension to control distance and create off-balancing threats
 - Top player maintains upright posture with hands positioned to prevent lapel deepening or back exposure while working to clear entanglements and establish passing grips
@@ -181,6 +183,8 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Squid Guard (Top)?</p>
+
 - Bottom player has successfully established Squid Guard configuration with lapel wrapped around top player's leg
 - Top player has entered bottom player's open guard range and triggered lapel entanglement
 - Bottom player maintains active lapel control and positioning on back or inverted
@@ -192,6 +196,8 @@ Success in this position correlates strongly with lapel grip management, base ma
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Squid Guard?</p>
 
 - Maintain vertical posture and prevent forward collapse into bottom player's inverted attack range
 - Control bottom player's free hand to prevent lapel grip reinforcement or additional entanglement establishment
@@ -207,6 +213,8 @@ Success in this position correlates strongly with lapel grip management, base ma
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Squid Guard (Top)?</p>
 
 **If bottom player maintains tight lapel control and begins inverting:**
 - Execute **[[Transitions/Back Step/Attacker|Back Step]]** → [[Positions/Headquarters Position]] (Probability: 65%)
@@ -235,6 +243,8 @@ Success in this position correlates strongly with lapel grip management, base ma
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Squid Guard?</p>
 
 ### 1. Allowing bottom player to achieve full inversion without postural response
 
@@ -274,6 +284,8 @@ Success in this position correlates strongly with lapel grip management, base ma
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Squid Guard attacks?</p>
+
 ### Lapel unwrapping drill
 
 Partner establishes Squid Guard configuration. Practice systematic lapel unwrapping sequences while maintaining posture and preventing inversion. Repeat with different lapel configurations and entanglement depths. Focus on grip stripping and postural control.
@@ -306,38 +318,6 @@ Isolated drill focusing on preventing bottom player from deepening lapel grips w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you find yourself in Squid Guard Top?
-**A**: The first priority is maintaining vertical posture and preventing forward collapse. Falling into the bottom player's attack range exposes you to inversions, back takes, and submission threats. Establish a wide base, keep your hips back, and focus on posture before attempting any passing sequences. Only after securing stable posture should you begin addressing the lapel entanglements.
-
-**Q2**: Your opponent begins inverting while maintaining tight lapel control - what immediate adjustment prevents back exposure?
-**A**: Execute a backstep motion by stepping your trapped leg backward while simultaneously establishing shoulder pressure or crossface on their upper body. This cuts off their inversion angle and prevents them from completing the rotation to your back. The backstep must be timed as they initiate the inversion, not after they achieve full rotation. Combine this with grip fighting to strip their lapel control.
-
-**Q3**: Why must you clear the lapel entanglement before attempting traditional passing mechanics?
-**A**: The lapel creates a mechanical tether that restricts your movement and provides constant off-balancing leverage to the bottom player. Attempting passes like knee slice or toreando while still entangled allows them to redirect your momentum into sweeps or use the tension to recover guard. Systematically unwrapping or stripping the lapel first removes their primary control point and allows you to pass with normal mechanics.
-
-**Q4**: How should you respond when the bottom player's lapel grip momentarily loosens?
-**A**: Immediately capitalize on the window by explosively advancing your pass. A loose lapel grip indicates either fatigue or transition, both opportunities to clear the entanglement entirely or pass before they can re-establish control. Time your knee slice or toreando entry to this moment, using their grip weakness against them. Don't allow them to reset and re-secure the lapel.
-
-**Q5**: What is the critical base adjustment to prevent being swept by lapel tension?
-**A**: Maintain a wide stance with weight distributed evenly between both legs, keeping your hips low and centered over your base. Avoid standing tall on straight legs, which makes you vulnerable to off-balancing. When you feel lapel tension pulling in one direction, counterbalance by shifting weight to the opposite leg and widening your base further in that direction. The goal is to make yourself heavy and immovable despite their pulling.
-
-**Q6**: Your opponent achieves full inversion and threatens to take your back - what recovery sequence should you execute?
-**A**: Immediately sprawl your hips backward while driving shoulder pressure into their inverted body to flatten them. Strip any lapel grips with your hands while maintaining this pressure. If they've already started circling to your back, spin in the same direction they're moving to face them, abandoning the pass in favor of preventing the back take. Re-establish neutral positioning before attempting to pass again.
-
-**Q7**: Why is controlling the bottom player's free hand essential when passing Squid Guard?
-**A**: The free hand is their primary tool for deepening lapel control, adjusting grips, and reinforcing their guard structure. Allowing them to freely manipulate the lapel means they can progressively tighten entanglements and create more complex passing problems. By controlling their free hand through wrist control or sleeve grips, you prevent them from improving their position while you work to clear the existing entanglement.
-
-**Q8**: How do you recognize when to abandon a specific passing direction and switch sides?
-**A**: Watch for defensive overcommitment - when the bottom player shifts their hips heavily to one side, loads their hook in a specific direction, or adjusts their lapel wrap to defend a particular pass. This defensive commitment creates vulnerability on the opposite side. Recognizing these patterns allows you to bait their defensive reactions and immediately attack the newly opened passing lane before they can readjust.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

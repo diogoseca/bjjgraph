@@ -166,6 +166,8 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Ashi Entry?</p>
+
 - Opponent shifts weight onto their trapped leg and begins lifting their free leg off the mat, indicating preparation for leg insertion between your thighs
 - Opponent reaches for your far-side lapel, outside bicep, or establishes underhook while their hips drive forward—this upper body connection precedes or accompanies the leg threading
 - Opponent's free-side knee begins angling inward toward the space between your thighs rather than posting wide for base, signaling imminent inside space invasion
@@ -177,6 +179,8 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Ashi Entry?</p>
 
 - Maintain tight hip-to-hip connection to deny inside space for opponent's free leg insertion
 - Keep constant offensive pressure to prevent opponent from having time to set up counter entry
@@ -191,6 +195,8 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Ashi Entry?</p>
 
 ### 1. Close inside space by squeezing knees together and hip escaping away to eliminate the corridor between your thighs
 
@@ -228,6 +234,8 @@ Understanding when the top player is likely to attempt Counter Ashi Entry allows
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Ashi Entry?</p>
+
 ### → [[Positions/Ashi Garami]]
 
 Close inside space preemptively by squeezing knees together and maintaining tight hip-to-hip distance. Frame on opponent's inserting knee to redirect it outside your hip line. Keep constant submission pressure to deny them the composure needed for counter entry. Re-tighten your leg triangle after each defensive adjustment.
@@ -243,6 +251,8 @@ Use the opponent's forward weight shift during counter entry attempt as an oppor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Ashi Entry?</p>
 
 ### 1. Relaxing offensive pressure and allowing opponent time to set up counter entry without urgency
 
@@ -272,6 +282,8 @@ Use the opponent's forward weight shift during counter entry attempt as an oppor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Ashi Entry?</p>
+
 **Week 1-2** - Recognition and space denial
 Partner slowly initiates Counter Ashi Entry from standing or kneeling base while you practice recognizing the cues—weight shift, free leg lift, upper body reaching. Focus on squeezing knees to close inside space and hip escaping to deny the entry corridor. No resistance from partner beyond the entry attempt itself.
 
@@ -288,29 +300,6 @@ Full resistance exchanges starting from Ashi Garami. Bottom player maintains pos
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Counter Ashi Entry?
-**A**: The earliest cue is the opponent shifting weight onto their trapped leg and lifting or angling their free leg inward toward the space between your thighs. This weight shift and leg repositioning precedes the actual insertion and gives you the maximum defensive window to close inside space or accelerate your own offense.
-
-**Q2**: Why is maintaining offensive pressure the most effective defense against Counter Ashi Entry?
-**A**: Constant offensive pressure forces the opponent to prioritize defending your submissions over initiating counter entry. Counter Ashi Entry requires composure, precise timing, and deliberate positioning—all of which are disrupted when the opponent must address immediate heel hook or ankle lock threats. An opponent defending a submission cannot simultaneously execute a coordinated counter entry.
-
-**Q3**: Your opponent has already inserted their free leg partway into your inside space but has not secured upper body connection. What is your best response?
-**A**: Frame on their inserting knee with your hand and push it outward while simultaneously hip escaping to close the remaining inside space. Because they lack upper body connection, they cannot prevent your hip escape or anchor their entry. This is the last reliable defensive window—once they secure both leg insertion and upper body grip, the exchange becomes bilateral and much harder to control.
-
-**Q4**: How can you use the opponent's counter entry attempt to advance your own position?
-**A**: When the opponent drives their hips forward to insert their free leg, their forward weight commitment creates opportunity for you to advance to Inside Ashi-Garami or Cross Ashi-Garami. Their forward pressure actually assists your positional advancement by bringing their hip closer to your inside leg. Thread your inside leg deeper across their hip during their forward drive to achieve hierarchically superior position.
-
-**Q5**: What is the primary risk of using a hand to frame against the opponent's inserting knee?
-**A**: Using a hand to frame on their knee temporarily removes one grip from controlling their trapped leg, which weakens your submission setup and may create a brief window where they can extract their heel or adjust their defensive positioning. The trade-off is worth it only if their leg insertion is imminent—otherwise maintain both grips on their trapped leg and use hip positioning alone to deny inside space.
-
-
-
-</section>
 
 
 </main>

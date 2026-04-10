@@ -197,17 +197,17 @@ Triangle Escape is a critical component of guard bottom defensive strategy, repr
 
 - [[Positions/Triangle Control]] - Starting position - the attack being defended
 
-- [[Principles/Guard Recovery]] - Follow-up transition to re-establish guard after escape
+- [[Transitions/Scramble to Guard]] - Follow-up transition to re-establish guard after escape
 
 - [[Positions/Closed Guard]] - Primary position where triangle threats originate and common escape destination
 
-- [[Submissions/Triangle Choke Front]] - Primary submission finish being escaped from triangle control
+- [[Submissions/Triangle Choke]] - Primary submission finish being escaped from triangle control
 
 - [[Transitions/Hip Escape to Guard]] - Alternative escape using similar hip movement principles
 
-- [[Submissions/Armbar from Guard]] - Common counter-submission when defender escapes triangle poorly
+- [[Transitions/Triangle to Armbar]] - Common counter-transition opponent uses when defender escapes triangle poorly
 
-- [[Submissions/Omoplata from Guard]] - Alternative attack opponent transitions to when defender circles predictably
+- [[Transitions/Triangle to Omoplata]] - Alternative attack opponent transitions to when defender circles predictably
 
 - [[Transitions/Triangle Clear to Side]] - Alternative escape technique that clears triangle directly to pass
 

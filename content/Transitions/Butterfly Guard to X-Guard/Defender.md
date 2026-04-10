@@ -164,6 +164,8 @@ The defender's primary strategic objective is to deny the bottom player the forw
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Guard to X-Guard?</p>
+
 - Opponent creates explosive butterfly elevation then immediately begins sliding their hips toward one of your legs rather than completing a direct sweep
 - You feel the opponent's upper body grips pulling you forward while one butterfly hook maintains deep contact on your inner thigh and the other hook releases
 - Opponent's body angle shifts from facing you directly to rotating perpendicular, with their shoulder turning toward your posted foot
@@ -176,6 +178,8 @@ The defender's primary strategic objective is to deny the bottom player the forw
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Guard to X-Guard?</p>
 
 - Maintain balanced weight distribution to avoid committing forward into optimal X-Guard entry range
 - Control distance and grip fighting to prevent the bottom player from establishing the pulling connection needed for elevation
@@ -191,6 +195,8 @@ The defender's primary strategic objective is to deny the bottom player the forw
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Guard to X-Guard?</p>
 
 ### 1. Retract the targeted leg immediately by stepping it back and pulling the knee out of hook range before X-Guard is established
 
@@ -228,6 +234,8 @@ The defender's primary strategic objective is to deny the bottom player the forw
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Guard to X-Guard?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Deny the X-Guard entry by retracting the targeted leg early, driving the knee to mat to smash the hook attempt, or framing on hips to prevent the hip slide. This resets the opponent to butterfly guard where you can restart your passing approach with better awareness of the transition threat.
@@ -243,6 +251,8 @@ Capitalize on the opponent's committed angle by backstepping around their X-Guar
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Guard to X-Guard?</p>
 
 ### 1. Overcommitting weight forward into butterfly guard, posting one leg deeply in front and loading it with your center of gravity
 
@@ -277,6 +287,8 @@ Capitalize on the opponent's committed angle by backstepping around their X-Guar
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Guard to X-Guard?</p>
+
 **Phase 1: Recognition Drilling (Weeks 1-2)** - Identifying X-Guard entry cues from butterfly guard top position
 Partner slowly performs the butterfly to X-Guard transition while you focus purely on recognizing the entry cues: the hip slide initiation, shoulder rotation, hook release pattern, and grip pulling direction. Call out each cue as you recognize it. No defensive action yet, purely building pattern recognition and the ability to distinguish X-Guard entry from standard butterfly sweeps.
 
@@ -293,29 +305,6 @@ Full positional sparring where you work butterfly guard passing while being prep
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending the butterfly to X-Guard transition?
-**A**: The most critical defensive window is during the opponent's hip slide phase, after they have created butterfly elevation but before they thread their inside leg deep behind your knee. Once the inside hook is secured past the knee joint, the X-Guard structure becomes extremely difficult to dismantle. Early intervention during the hip slide gives you maximum defensive options including leg retraction, knee drive, or hip framing, all of which become ineffective once full hooks are established.
-
-**Q2**: Why should you avoid explosively ripping your leg out of partially established X-Guard hooks?
-**A**: Explosive leg extraction against established hooks risks knee and ankle injury for both practitioners because the X-Guard configuration wraps around the knee joint. The opponent's two-leg structure is also mechanically stronger than your single-leg pulling force from that angle, so brute force often fails anyway. Instead, use technical extraction by pushing the inside hook toward the mat with your hands while controlled stepping the leg backward, systematically dismantling the position rather than fighting through it.
-
-**Q3**: How does your weight distribution affect your vulnerability to the butterfly to X-Guard transition?
-**A**: If your weight is committed heavily forward with one leg posted deeply, you create the exact condition the opponent needs for X-Guard entry. Your weight-bearing posted leg cannot be quickly retracted without losing balance, making it an easy capture target. Maintaining balanced distribution with hips back and center of gravity between both legs means you can retract either leg instantly when you detect the hip slide. The opponent needs your forward commitment to make this transition work, so denying that commitment is the most fundamental defense.
-
-**Q4**: Your opponent has begun sliding their hips toward your right leg but has not yet secured the deep knee hook - what are your best defensive options?
-**A**: At this mid-transition moment you have three primary options ranked by effectiveness: first, retract your right leg immediately by stepping it back before the inside hook threads behind the knee. Second, drive your right knee firmly to the mat to smash through the hook placement attempt and flatten their guard. Third, post both hands on their hips to frame and prevent the hip slide from progressing further underneath you. The choice depends on your balance and grip situation, but leg retraction is highest percentage if you have sufficient base to execute it without falling forward.
-
-**Q5**: What body positioning changes in the opponent should alert you that an X-Guard entry is being attempted rather than a standard butterfly sweep?
-**A**: The key distinguishing cue is the opponent's body angle rotation. In a standard butterfly sweep, the opponent elevates you directly overhead or to one side while maintaining a facing angle toward you. In an X-Guard entry, the opponent rotates their shoulders perpendicular to your posted leg, sliding their hips underneath rather than elevating overhead. You will also notice one butterfly hook release while the other maintains deep contact, and their upper body pulls laterally rather than upward. Recognizing this perpendicular rotation is the earliest reliable indicator of X-Guard entry versus sweep.
-
-
-
-</section>
 
 
 </main>

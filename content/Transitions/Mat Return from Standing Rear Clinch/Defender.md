@@ -164,6 +164,8 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mat Return from Standing Rear Clinch?</p>
+
 - Opponent's grip suddenly tightens significantly around your waist or upper body, transitioning from maintenance tension to active pulling preparation
 - Opponent shifts their hips to one side and lowers their center of gravity behind you, creating the angle needed for the sit-through descent
 - Increased forward and downward pressure on your back and shoulders as the opponent begins loading their full bodyweight onto you
@@ -176,6 +178,8 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mat Return from Standing Rear Clinch?</p>
 
 - Recognize mat return preparation cues before the descent begins for maximum defensive advantage and reaction time
 - Maintain a wide, stable base with hips driven forward to resist being pulled downward and backward
@@ -192,6 +196,8 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Mat Return from Standing Rear Clinch?</p>
+
 ### 1. Widen base and sprawl hips forward to create structural resistance against being pulled down
 
 - **When to use**: Immediately upon recognizing mat return preparation cues before the descent has begun, when you still have time to adjust your stance
@@ -202,7 +208,7 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 ### 2. Execute aggressive two-on-one grip fighting to break the opponent's bodylock or seatbelt before descent
 
 - **When to use**: When you feel the opponent's grip settling into a locked configuration and you have at least one hand free to attack their clasp
-- **Targets**: [[Positions/Scramble Position]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Breaking the grip creates separation that allows you to turn and face the opponent or create distance for a scramble reset
 - **Risk**: Committing both hands to grip fighting removes your ability to post during the descent if the grip break fails
 
@@ -228,9 +234,11 @@ The defensive hierarchy follows a strict sequence: first, recognize the mat retu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Scramble Position]]
+<p class="section-subtitle">What is the best outcome when defending Mat Return from Standing Rear Clinch?</p>
 
-Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and drive forward to create a neutral scramble where neither player has dominant control.
+### → [[Positions/Turtle]]
+
+Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and establish a defensive turtle position where escape options are more available.
 
 ### → [[Positions/Clinch]]
 
@@ -243,6 +251,8 @@ Time a hard turn toward the opponent as they initiate the descent, using the tra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mat Return from Standing Rear Clinch?</p>
 
 ### 1. Reaching down with both hands to fight the bodylock grip during the descent instead of posting
 
@@ -272,13 +282,15 @@ Time a hard turn toward the opponent as they initiate the descent, using the tra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mat Return from Standing Rear Clinch?</p>
+
 **Recognition and Base Defense** - Identifying mat return preparation cues and immediate base response
 Partner initiates slow-motion mat return attempts while you practice recognizing the cues (grip tightening, hip shift, level change) and responding with base widening and hip dropping. Focus on reaction speed and proper defensive posture. Partner provides verbal feedback on your reaction timing and base quality. Minimum 15 repetitions per side.
 
 **Active Resistance During Descent** - Controlling the landing and preventing hook insertion on the ground
 Partner executes mat returns at moderate speed and resistance while you practice turning during the descent, posting on landing, and immediately addressing hook attempts upon reaching the ground. Focus on maintaining composure during the fall and executing defensive priorities in the correct sequence. Alternate between successful and failed defense scenarios.
 
-**Grip Fighting and Pre-emptive Defense** - Breaking grips before the mat return can be initiated from standing
+**Grips and Pre-emptive Defense** - Breaking grips before the mat return can be initiated from standing
 Live standing rear clinch sparring where you focus on hand fighting to prevent the opponent from securing the stable grip configuration needed for the mat return. Practice two-on-one grip breaks, frame creation, and transitional escapes to facing position. Partner increases resistance and attempts variety progressively across rounds.
 
 **Full Resistance Integration** - Combining all defensive elements against committed mat return attempts
@@ -288,29 +300,6 @@ Positional sparring starting from standing rear clinch where partner attempts ma
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a mat return is about to be attempted from standing rear clinch?
-**A**: The primary cues are a sudden tightening of the opponent's grip around your waist or upper body, a shift of their hips to one side with a lowering of their center of gravity, and increased forward and downward pressure loading onto your back. You may also feel the opponent's feet adjusting position as they prepare to sit through. The grip tightening typically occurs one to two seconds before the descent begins and is the most reliable early warning that differentiates a mat return attempt from standard clinch maintenance.
-
-**Q2**: Why is widening your base the most effective immediate response when you recognize a mat return attempt?
-**A**: Widening your base dramatically increases the amount of force required to break your balance in any direction because it creates multiple posting points that prevent being pulled laterally or backward. Combined with dropping your hips and driving them forward, the widened base forces the opponent to either abandon their mat return attempt or significantly modify their angle. This defense is mechanically effective because the mat return relies on collapsing a narrow base through the sit-through, and widening removes that mechanical advantage entirely.
-
-**Q3**: Your opponent successfully initiates the mat return and you are descending to the ground - what is your best option at this point?
-**A**: Focus on preventing hook insertion rather than stopping the descent. Turn your body aggressively toward the opponent during the fall to prevent them from establishing back control on landing, and immediately begin working to face them upon impact with the mat. If you can achieve even a partial turn during the descent, you may land in turtle or half guard rather than flat back control. Post your inside hand on the mat to control the landing angle and immediately address the bottom hook attempt, as this hook anchors their ground back control.
-
-**Q4**: What is the most dangerous defensive error when someone attempts a mat return on you?
-**A**: The most dangerous error is reaching down with both hands to fight the opponent's bodylock grip while they are already descending, which removes your posting hand and eliminates your ability to control the landing. This leaves you falling uncontrolled into a position where the opponent can easily secure hooks before you can establish any defensive frame. Instead, accept the bodylock during descent and focus your hands on posting and turning to control the landing, addressing the grip only after you have safely reached the ground.
-
-**Q5**: How does pre-emptive grip fighting reduce the effectiveness of the mat return before it begins?
-**A**: Proactive two-on-one grip fighting on the opponent's clasped hands forces them to constantly re-establish their hold rather than settling into the preparation phase for the mat return. By preventing the opponent from achieving a locked grip configuration, you deny them the secure connection needed to execute a controlled descent. Even partial grip breaks create windows for turning to face the opponent or generating enough separation to establish a new defensive position, effectively resetting the standing engagement before the mat return can be attempted.
-
-
-
-</section>
 
 
 </main>

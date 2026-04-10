@@ -188,6 +188,8 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crucifix Maintenance?</p>
+
 - Active maintenance requires constant micro-adjustments rather than static holding—the crucifix is a dynamic control system that degrades without continuous attention
 - Three-point control architecture must remain engaged simultaneously: leg triangle on near arm, hand control on far arm, and chest-to-back pressure
 - Preemptive tightening defeats escapes at inception—read the opponent's intention through tactile sensitivity and counter before movements develop momentum
@@ -202,6 +204,8 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crucifix Maintenance?</p>
+
 - Established crucifix with figure-four leg triangle fully locked around opponent's near arm, one leg over the shoulder and one under the armpit with constant inward squeeze
 - Far arm under active hand control through wrist grip, overhook, or kimura grip configuration preventing the arm from reaching the neck or creating frames
 - Chest-to-back connection established with torso pressed firmly against opponent's upper back and shoulders, eliminating space for turning or rolling
@@ -214,6 +218,8 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crucifix Maintenance step by step?</p>
 
 1. **Audit Leg Triangle Integrity**: Check that the figure-four leg configuration around the opponent's near arm maintains constant inward pressure with one leg over the shoulder and the other under the armpit, leaving no slack for the opponent to create extraction angles. Squeeze knees together and verify the crossing point is tight against the arm.
 2. **Verify Far Arm Control**: Confirm that your hand control on the opponent's far arm is secure and prevents the arm from reaching the neck, creating frames, or assisting escape movements. If using wrist control, ensure your grip wraps fully around the wrist. If using kimura grip, verify the figure-four hand lock is tight with elbows pulled in.
@@ -243,6 +249,8 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crucifix Maintenance?</p>
+
 - **Explosive arm extraction where opponent pulls trapped arm forcefully while shrimping hips to change the leg triangle angle** (Effectiveness: High) - Your Response: Immediately squeeze the leg triangle tighter by pulling knees together and adjusting crossing angle. If the arm begins clearing, transition your weight forward and threaten the neck to force defensive priority shift. If extraction succeeds, flow to back control maintaining hooks. → Leads to [[Positions/Back Control]]
 - **Bridge and roll escape where opponent loads hips and explosively bridges to create rotational momentum and displace your weight** (Effectiveness: Medium) - Your Response: Stay tight to their back rather than posting your hands—posting creates space. Roll with the bridge if necessary, maintaining leg triangle and arm control throughout the rotation. As they settle from the bridge, re-establish perpendicular hip position and threaten a submission during their recovery moment. → Leads to [[Positions/Side Control]]
 - **Hip escape and shrimp where opponent incrementally creates new angle by shrimping away, changing the geometry of the leg trap to create extraction space** (Effectiveness: Medium) - Your Response: Follow their hip movement with a hip switch to maintain perpendicular alignment. Do not allow them to change angle without you adjusting—each unanswered angle change accumulates toward escape. Increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the new angle. → Leads to [[Positions/Back Control]]
@@ -254,6 +262,8 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crucifix Maintenance?</p>
 
 ### 1. Holding the crucifix statically without making adjustments as the opponent moves
 
@@ -293,6 +303,8 @@ Crucifix Maintenance from the attacker's perspective involves the continuous adj
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crucifix Maintenance (Attacker)?</p>
+
 **Phase 1: Static Control Mechanics** - Understanding and establishing each of the three control points independently
 Practice establishing and holding each control point—leg triangle, far arm control, chest pressure—in isolation with a cooperative partner. Focus on correct body positioning, weight distribution, and the mechanical details of each element. Partner provides no resistance, allowing the practitioner to develop proprioceptive awareness of proper crucifix alignment.
 
@@ -310,48 +322,12 @@ Start from established crucifix with partner at 100% resistance using any combin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three interconnected control points in crucifix maintenance and why must all three remain engaged simultaneously?
-**A**: The three control points are: (1) the leg triangle trapping the near arm through figure-four configuration, (2) hand control on the far arm via wrist grip, overhook, or kimura grip, and (3) chest-to-back pressure preventing turning and rolling. All three must remain engaged because they form an interdependent system—losing the leg triangle frees the near arm for defense, losing far arm control enables frames and neck defense, and losing chest pressure allows turning and angle creation that defeats both arm controls. Each point reinforces the others.
-
-**Q2**: Your opponent begins shrimping their hips away from you during crucifix maintenance—what is the correct response and why?
-**A**: Execute a hip switch to follow their movement and maintain perpendicular alignment to their new body axis. Do not remain stationary while they change angle, as each unanswered shrimp alters the geometry of the leg trap and creates extraction space. The hip switch should be a smooth, flowing adjustment that re-establishes your perpendicular position from their new angle. Simultaneously increase chest pressure to limit their shrimping range and re-squeeze the leg triangle at the adjusted angle.
-
-**Q3**: Why is preemptive tightening more effective than reactive defense when maintaining the crucifix?
-**A**: Preemptive tightening addresses escape attempts before they develop momentum, requiring minimal effort to shut down. Once an escape gains momentum—such as a forceful arm pull or explosive bridge—significantly more energy and strength are needed to counter it, and success becomes less certain. By reading early cues (tension building in trapped arm, hip loading for bridge, breathing changes before explosive movement), the practitioner can tighten the relevant control point with a small adjustment rather than fighting a fully committed escape attempt.
-
-**Q4**: How do submission threats function as maintenance tools in the crucifix, and what is the optimal balance between attacking and maintaining?
-**A**: Submission threats force the opponent to divert their attention and energy from escape to survival, making them reactive rather than proactive. When you threaten a choke, the opponent must use their free hand and mental focus to defend the neck rather than working to free their trapped arm. The optimal balance is maintaining at least one hand on the far arm at all times while using the other to create threats. The kimura grip is particularly valuable because it simultaneously controls the far arm and threatens a submission, achieving both objectives with one configuration.
-
-**Q5**: What tactile cues indicate an opponent is about to attempt an explosive arm extraction, and how should you respond?
-**A**: Key cues include: increasing tension in the trapped arm as the opponent builds force for a pull, subtle hip shifting to create a better extraction angle, grip changes on any contact points as they prepare to redirect energy, and a brief pause in breathing that precedes explosive effort. When you detect these cues, immediately squeeze the leg triangle tighter by pulling knees together and adjusting the crossing angle. Simultaneously shift your weight to resist the extraction direction and threaten the neck to create a competing defensive priority.
-
-**Q6**: What is the most critical grip requirement when controlling the far arm, and when should you transition between grip types?
-**A**: The most critical requirement is that the far arm never becomes completely free—any grip is better than no grip. The wrist grip provides maximum manipulation ability and is ideal for initial control. Transition to overhook when the opponent is actively pulling their arm to their body, as the overhook handles inward force better. Transition to kimura grip when the position is stable and you want to add a submission dimension while maintaining control. Transition between grips during moments when the opponent is focused on the leg trap rather than the far arm, minimizing the risk during the brief transition window.
-
-**Q7**: If you feel the leg triangle beginning to loosen despite your squeeze, what systematic adjustments should you make before the arm escapes?
-**A**: First, check the crossing angle—the legs may have shifted from the optimal position over the shoulder and under the armpit. Adjust the crossing point by using hip movement to reposition the legs rather than just squeezing harder. Second, verify that your perpendicular alignment has not drifted, as a parallel body position reduces leg triangle effectiveness. Third, drive your hips slightly forward to increase the bite of the triangle around the arm. If the arm is significantly loose, briefly redirect your far-arm control hand to assist in re-establishing the leg position before returning to far arm control.
-
-**Q8**: Your opponent explosively bridges while you have crucifix established—should you post your hand or stay tight, and why?
-**A**: Stay tight to their back rather than posting your hand. Posting creates space between your body and theirs, which is exactly what the bridge is designed to achieve. By staying connected chest-to-back, you ride the bridge as a unit, maintaining all three control points through the movement. If the bridge rolls you, maintain the leg triangle and arm control throughout the rotation—when you land, you often end up in the same relative control position. The moment the opponent returns from the bridge is actually a submission opportunity, as they briefly relax after the explosive effort.
-
-**Q9**: How do you maintain energy efficiency during extended crucifix maintenance, and what signals indicate your positioning is wrong?
-**A**: Energy efficiency comes from using gravity and skeletal alignment rather than muscular contraction. Your hips should bear weight through bone structure onto the opponent, not through active pressing. The leg triangle holds through the mechanical advantage of the figure-four configuration, not continuous squeezing. Signals of incorrect positioning include: burning fatigue in the legs from constant squeezing, forearm pump from gripping the far arm too tightly, heavy breathing from muscular exertion, and the feeling of fighting the opponent's movement rather than flowing with it. If any of these occur, reset your positioning to restore structural advantage.
-
-**Q10**: When the opponent partially frees their trapped arm but you recapture it, what adjustment prevents repeated near-escapes?
-**A**: After recapture, analyze why the extraction nearly succeeded. Usually the cause is either degraded crossing angle in the leg triangle, insufficient perpendicular alignment allowing favorable extraction geometry, or the opponent finding a timing window during your submission attempts. Adjust by re-establishing a deeper crossing point with the legs, ensuring perfect perpendicular hip alignment, and reducing the duration of any one-handed control moments. Consider switching to kimura grip on the far arm so both hands are occupied in a configuration that doesn't require releasing control for attacks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crucifix Maintenance?</p>
 
 Crucifix maintenance involves sustained pressure on the opponent's trapped shoulder through the leg triangle configuration. Monitor training partners for signs of shoulder discomfort, particularly when the figure-four creates torque on the glenohumeral joint during maintenance adjustments. Release immediately if the partner taps, verbalizes discomfort, or shows signs of distress. Avoid cranking the trapped arm beyond its natural range of motion when tightening the leg triangle. Be especially cautious with partners who have pre-existing shoulder injuries, as the trapped arm position under load can aggravate rotator cuff issues. During drilling, establish clear communication protocols for the bottom partner to signal discomfort before it becomes injury.
 

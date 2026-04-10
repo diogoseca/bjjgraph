@@ -188,6 +188,8 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Elbow Escape from Mount?</p>
+
 - Frame before you move - establish forearm or elbow frame on opponent's hip before initiating any hip escape movement
 - Small incremental shrimps outperform single explosive movements - chain two to three hip escapes together for cumulative space creation
 - Protect your neck and arms throughout the escape to avoid giving up submissions during transitional movement
@@ -203,6 +205,8 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Elbow Escape from Mount?</p>
+
 - Establish defensive frames with elbows tight to body, preventing submission entries while creating structural barriers
 - Achieve slight side angle by turning toward the escape direction, improving hip escape range of motion
 - Plant bottom foot on the mat with knee bent to generate lateral hip escape driving power
@@ -215,6 +219,8 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Elbow Escape from Mount step by step?</p>
 
 1. **Establish Defensive Frame**: From bottom mount, bring both elbows tight to your body and place your forearm across the opponent's hip on the side you intend to escape toward. Your bottom hand controls their knee or pants while your top hand frames on their hip or bicep. This frame prevents the opponent from settling their full weight onto your chest and creates the structural foundation for the entire escape sequence.
 2. **Create Escape Angle**: Turn your body slightly toward the escape direction, getting onto your side rather than remaining flat on your back. This angle dramatically improves hip mobility, makes it harder for the opponent to distribute weight evenly across your torso, and positions your frame more effectively against their body. Drive your bottom shoulder toward the mat to establish this angle.
@@ -244,6 +250,8 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Elbow Escape from Mount?</p>
+
 - **Top player follows hip escape and immediately re-centers weight over your torso** (Effectiveness: High) - Your Response: Chain a second immediate hip escape in the same direction before they fully settle, or switch escape direction if they overcommit to following one side → Leads to [[Positions/Mount]]
 - **Top player drives knee over your inserted knee to re-establish full mount** (Effectiveness: Medium) - Your Response: Maintain strong knee shield frame angle and use your underhook to prevent flattening, threaten underhook sweep if they drive their weight forward to pass → Leads to [[Positions/Mount]]
 - **Top player inserts far hook and transitions to back control as you turn to your side** (Effectiveness: High) - Your Response: Keep elbow tight to hip during the turn to block hook insertion, maintain frame connection with opponent's hip, and immediately turn back toward them if you feel a hook entering → Leads to [[Positions/Back Control]]
@@ -255,6 +263,8 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Elbow Escape from Mount?</p>
 
 ### 1. Pushing straight up on opponent's chest with extended arms instead of framing laterally on hip
 
@@ -299,6 +309,8 @@ Executing the Elbow Escape from Mount requires systematic coordination of framin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Elbow Escape from Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hip escape movement pattern and frame placement
 Drill the shrimp movement solo and with a stationary partner in mount. Focus on correct foot plant position, lateral hip drive, forearm frame placement on the hip, and knee insertion timing. Partner provides zero resistance to allow correct movement patterning.
 
@@ -319,42 +331,12 @@ Positional sparring starting from mount bottom against fully resisting opponents
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary frame placement for initiating the elbow escape and why is this position chosen over framing on the chest?
-**A**: The forearm or elbow frames against the opponent's hip or inner thigh on the escape side. This placement prevents the top player from following your lateral hip movement and creates a structural lever for generating horizontal space. Framing on the chest pushes the opponent upward but does not prevent them from sliding laterally to follow your hips, and extended arms on the chest create immediate armbar and Americana vulnerability.
-
-**Q2**: Why are chained hip escapes more effective than a single explosive movement for this escape?
-**A**: Each individual hip escape creates incremental space that is preserved by frame adjustment before the next movement. A single explosive hip escape rarely generates sufficient distance for reliable knee insertion and depletes energy rapidly. Chaining two to three smaller movements creates cumulative space while maintaining frame integrity, and each successive shrimp builds on the space preserved from the previous one rather than starting from zero.
-
-**Q3**: What is the optimal timing window for attempting the elbow escape from mount?
-**A**: The best timing is when the top player shifts weight forward to initiate submissions, reaches upward for collar grips, or adjusts their knee position. These moments temporarily reduce their base stability on the escape side. A preliminary small bridge forces a posting reaction from the top player, and the immediate hip escape during their recovery creates the optimal window when their weight is momentarily displaced.
-
-**Q4**: Your opponent blocks your knee insertion by driving their hip into your frame and re-centering - how do you adjust?
-**A**: Immediately chain a second hip escape in the same direction to create additional cumulative space, or switch to the opposite side if they have overcommitted their weight following the first direction. A small bridge before the second hip escape can disrupt their re-centering momentum. The frame must stay active throughout, and if neither direction works, combine with an upa attempt to force them to post their hands, then hip escape during their recovery.
-
-**Q5**: What grip or frame must be established before the hip escape movement begins?
-**A**: A forearm frame against the opponent's hip on the escape side with your elbow tight to your own body is the minimum prerequisite. Your other hand should control their opposite knee or pants to prevent them from posting during your escape. Without this frame established first, the hip escape creates space that the opponent immediately closes by sliding their hips to follow your movement, rendering the escape ineffective.
-
-**Q6**: How does the elbow escape create an unsolvable dilemma when combined with the upa escape?
-**A**: The upa requires the top player to post their hands wide to maintain base against the bridge, which shifts their weight upward and forward. This forward weight shift creates the exact conditions favorable for the elbow escape. Conversely, defending the elbow escape requires the top player to drive hips low and stay tight to follow hip movement, making them vulnerable to the upa when they lack posting ability. Alternating between the two forces the top player into a constant lose-lose defensive cycle.
-
-**Q7**: What body positioning prevents back exposure during the turning phase of the escape?
-**A**: Keep your top elbow connected to your top knee throughout the turning movement, creating a closed frame that physically blocks hook insertion behind your hip. Face the opponent rather than turning away, and maintain frame contact with their hip throughout the escape. Your chin stays tucked and your shoulders never rotate past 90 degrees away from the opponent until your knee is fully inserted and half guard is secured with leg triangle.
-
-**Q8**: If the top player advances to high mount with knees near your armpits during your escape attempt, what adjustment is required?
-**A**: From high mount, standard hip frames on the thigh become less effective because the opponent's knees have bypassed your framing range. Shift your frames higher to push on their chest or shoulders while working to inch your hips downward toward their knees through small scooting movements. Bridges combined with downward hip scooting create the distance needed to re-establish standard escape frames at their hip level. The priority becomes escaping high mount back to standard mount positioning before resuming the elbow escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Elbow Escape from Mount?</p>
 
 The elbow escape is one of the safest techniques in BJJ as it is a defensive positional escape rather than a joint lock or choke. Primary safety concern is neck strain from being flattened under heavy pressure for extended periods. Practitioners should tap immediately if a submission is locked in rather than attempting to escape through the submission. Avoid bridging directly onto the neck or cervical spine. Communicate with training partners about appropriate pressure levels during drilling, especially when working with significant weight differences. Be cautious of knee strain when inserting the knee shield against aggressive top player resistance.
 

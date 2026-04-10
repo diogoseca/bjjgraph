@@ -162,6 +162,8 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rolling to Guard?</p>
+
 - Bottom player creates frames on your hips, shoulders, or biceps and begins pushing to generate space between your bodies
 - Bottom player rotates onto one shoulder with their head dropping toward the mat at a 45-degree angle, loading the rolling surface
 - Bottom player's hips shift laterally as they position their body for diagonal rotation rather than staying square beneath you
@@ -174,6 +176,8 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling to Guard?</p>
 
 - Deny space by maintaining constant chest-to-back pressure and heavy hip connection
 - Control the near-side hip and shoulder to prevent the body rotation that initiates the roll
@@ -189,6 +193,8 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling to Guard?</p>
 
 ### 1. Drive hips forward and sprawl heavy onto their lower back to flatten their rolling angle
 
@@ -226,6 +232,8 @@ As the defender against Rolling to Guard, you are the top player in turtle who m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling to Guard?</p>
+
 ### → [[Positions/Turtle]]
 
 Deny space through heavy hip pressure and sprawl weight whenever you detect frame creation. Control the near-side shoulder and hip simultaneously to prevent the body rotation needed for the roll. Maintain constant chest-to-back connection and re-establish dominant grips immediately after any scramble.
@@ -241,6 +249,8 @@ When the roll is already in motion, follow their rotation by keeping your chest 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling to Guard?</p>
 
 ### 1. Allowing space between your chest and their back before the roll attempt
 
@@ -270,6 +280,8 @@ When the roll is already in motion, follow their rotation by keeping your chest 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling to Guard?</p>
+
 **Week 1-3: Roll Recognition and Following Drill** - Learning to recognize roll initiation cues and practice following mechanics
 Partner executes rolling to guard at slow speed while you practice maintaining chest-to-back connection throughout their rotation. Focus on identifying the frame creation, shoulder loading, and hip elevation sequence. Develop the habit of following the roll direction rather than resisting it. 15-20 repetitions per round, alternating sides.
 
@@ -286,29 +298,6 @@ Incorporate roll defense into your complete turtle top attack system. When you s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt Rolling to Guard?
-**A**: The earliest cue is frame creation - when the bottom player begins placing their hands on your hips, shoulders, or biceps and pushing to generate space. This precedes the shoulder loading and hip shifting that follow. Frame creation is the necessary first step because the roll cannot be executed without initial separation. Recognizing this moment allows you to counter-pressure immediately by driving your hips forward and chest down, denying the space before the roll sequence can develop further.
-
-**Q2**: Your opponent has already initiated the roll and is halfway through the rotation - what is your highest-percentage response?
-**A**: Follow the roll by keeping your chest attached to their back and circling in the same direction as their rotation. Do not resist or pull backward, as this creates separation that guarantees they complete the roll into guard. Instead, use their rolling momentum to advance your own position - insert the near-side hook during the rotation and secure seatbelt control. When they complete the roll, you should arrive in back control rather than being separated. The key is maintaining physical connection throughout the transition rather than fighting against the rotation's direction.
-
-**Q3**: How do you differentiate between a genuine roll attempt and a feint designed to open alternative escapes?
-**A**: A genuine roll attempt shows committed shoulder loading where the bottom player's weight transfers onto one shoulder with chin tucked and hips beginning to elevate. A feint typically shows the initial frame creation and shoulder movement but without the full weight commitment to the rolling shoulder. Watch for hip elevation - if their hips begin driving upward with real force, the roll is committed. If the hip movement is minimal or reverses direction, they are likely setting up a sit-through, technical standup, or directional change. Respond to feints by maintaining centered pressure rather than over-committing to one counter direction.
-
-**Q4**: What positional adjustments make you most resistant to Rolling to Guard attempts from turtle top?
-**A**: Three adjustments create maximum resistance: First, maintain constant chest-to-back pressure with your weight driving forward and down at approximately 45 degrees, eliminating the space needed for rotation. Second, control the near-side hip and far-side shoulder simultaneously, which prevents the diagonal body rotation that initiates the roll. Third, keep your hips close to theirs rather than leaving them elevated, as high hips create space underneath that the bottom player can exploit for hip drive. A compact, heavy, connected turtle top position with good hip-to-hip contact is extremely difficult to roll from.
-
-**Q5**: Your opponent chains a failed roll attempt directly into a sit-through - how should you adjust?
-**A**: When the roll fails and they immediately redirect into a sit-through, their hips will drop and rotate toward you rather than continuing overhead. Immediately shift your weight to the side they are sitting through toward, using a crossface or head control to drive them back to their knees. If they complete the sit-through partially, switch from back-pressure to front-headlock positioning by circling to the side their head is facing. The critical principle is recognizing the transition between escape types within the first half-second and adjusting your weight placement and grip targets accordingly rather than continuing to defend the roll that is no longer happening.
-
-
-
-</section>
 
 
 </main>

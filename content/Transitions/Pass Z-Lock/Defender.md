@@ -154,6 +154,8 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Z-Lock?</p>
+
 - Passer establishes heavy crossface and drives shoulder into your chest while their free leg posts wide for base
 - Passer begins extending their trapped knee forward and downward, stretching the lockdown tension in your legs
 - Passer's near hand presses against your far hip, blocking your ability to shrimp or create angles
@@ -166,6 +168,8 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Z-Lock?</p>
 
 - Maintain constant underhook fighting to prevent the passer from establishing dominant crossface that enables their passing sequence
 - Keep hips angled on your side rather than flat to preserve sweep threats and prevent the passer from driving you flat for the pass
@@ -180,6 +184,8 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Z-Lock?</p>
 
 ### 1. Recover underhook and come up to dogfight position while maintaining lockdown tension
 
@@ -217,6 +223,8 @@ As the defender in Z-Lock Half Guard, your primary objectives are retaining the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Z-Lock?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a butterfly hook sweep when the passer commits forward momentum during the lockdown stripping phase. Use their weight transfer against them by elevating with the hook while pulling with whatever remains of the lockdown to off-balance them laterally.
@@ -232,6 +240,8 @@ Aggressively re-establish the Z-Lock configuration every time the passer strips 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Z-Lock?</p>
 
 ### 1. Holding the lockdown passively without threatening sweeps or maintaining hip angle
 
@@ -261,6 +271,8 @@ Aggressively re-establish the Z-Lock configuration every time the passer strips 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Z-Lock?</p>
+
 **Phase 1: Recognition** - Identifying passing initiation cues and timing
 Partner initiates Z-Lock pass at 50% speed and intensity. Focus on recognizing the crossface establishment, knee extension, and hook stripping sequence. Call out each phase as it happens. No resistance needed - this is purely pattern recognition training to develop awareness of the passing sequence.
 
@@ -277,26 +289,6 @@ Positional sparring from Z-Lock Half Guard bottom with full resistance. Defender
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your highest priority defensive action when you feel the passer beginning to establish crossface pressure?
-**A**: Immediately fight for the underhook on the trapped leg side by threading your arm deep past their armpit toward their back or belt. The underhook prevents the passer from completing the crossface and gives you the primary offensive tool for sweeps and back takes. If the crossface is established before you can get the underhook, use your nearside arm to frame against their shoulder and create enough space to begin working the underhook back in.
-
-**Q2**: The passer has broken your lockdown hook but your butterfly element is still active. What is your best immediate response?
-**A**: Immediately attempt to re-hook the lockdown before the passer transitions to addressing the butterfly component. The brief moment between lockdown strip and butterfly neutralization is your best window. If re-hooking fails, use the butterfly hook aggressively to sweep or elevate before they can compress it flat. If neither works, transition to standard butterfly half guard or deep half guard rather than fighting from a half-Z-Lock position with reduced defensive options.
-
-**Q3**: How do you recognize the optimal moment to attempt a sweep counter during the Z-Lock passing sequence?
-**A**: The optimal sweep window occurs when the passer shifts their weight forward and down to drive their trapped knee extension for the lockdown break. This forward weight commitment temporarily compromises their lateral base, making them vulnerable to butterfly hook elevation and old school sweep entries. Watch for the passer lightening their free leg post or shifting their center of gravity past your hip line. These are the moments where their forward momentum can be redirected into a sweep.
-
-**Q4**: When should you abandon the Z-Lock and transition to an alternative guard position?
-**A**: Transition away when both Z-Lock components are compromised simultaneously, meaning the lockdown hook has been stripped and the butterfly hook is being compressed flat. If you cannot re-establish either component within one or two attempts, continuing to fight for the Z-Lock wastes energy and gives the passer time to consolidate. Deep half guard is the highest-percentage alternative because it directly converts the passer's forward pressure into your sweeping leverage, while knee shield half guard is safer if you need time to re-establish defensive frames.
-
-
-
-</section>
 
 
 </main>

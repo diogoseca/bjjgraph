@@ -96,7 +96,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 - Active Bottom Position: Never allow overhook to become static holding position - constantly threaten sweeps, submissions, or positional improvements
 
-- Angle Creation: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position
+- Dominant Angles: Combine overhook with hip movement and angle changes to create multiple attacking vectors from bottom position
 
 
 ### Available Transitions
@@ -165,7 +165,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 - Hip Connection Prevents Escape: Maintain close hip position to prevent opponent from circling away or creating the distance needed to escape the control
 
-- Head Control Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup
+- Head Position Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup
 
 - Attack Within Seconds: Treat overhook as transitional control leading to back takes or submissions within 3-5 seconds rather than static holding position
 
@@ -177,9 +177,9 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 ### Available Transitions
 
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (16% of attempts)
+- **[[Kimura from Overhook Control/Attacker|Kimura from Overhook Control]]** (16% of attempts)
 
-- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (10% of attempts)
+- **[[Darce Choke from Overhook Control/Attacker|Darce Choke from Overhook Control]]** (10% of attempts)
 
 - **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** (9% of attempts)
 

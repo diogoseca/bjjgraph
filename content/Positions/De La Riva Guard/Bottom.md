@@ -171,6 +171,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 
 ## Position Definition
 
+<p class="section-subtitle">What is De La Riva Guard (Bottom)?</p>
+
 - Bottom player's outside leg threaded around opponent's near leg with foot hooking behind their knee, creating the signature De La Riva hook that controls their base and prevents forward pressure
 - Bottom player controlling opponent's opposite sleeve or collar with a cross grip, creating a diagonal control system that disrupts their posture and enables angular attacks
 
@@ -180,6 +182,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing De La Riva Guard (Bottom)?</p>
 
 - Opponent in open guard passing position on their knees or in combat base
 - Bottom player has established the De La Riva hook around opponent's near leg
@@ -191,6 +195,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending De La Riva Guard?</p>
 
 - Maintain constant tension on the De La Riva hook by pulling your knee toward your chest and driving your hooking foot into the back of their knee
 - Create diagonal control by combining the hook with a strong cross grip to break down their posture and prevent them from squaring up to you
@@ -205,6 +211,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from De La Riva Guard (Bottom)?</p>
 
 **If opponent maintains upright posture and resists being pulled forward:**
 - Execute **[[Transitions/De La Riva to X-Guard Transition/Attacker|De La Riva to X-Guard Transition]]** → [[Positions/X-Guard]] (Probability: 70%)
@@ -233,6 +241,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending De La Riva Guard?</p>
 
 ### 1. Allowing the De La Riva hook to go slack or releasing tension on the opponent's trapped leg
 
@@ -271,6 +281,8 @@ The guard's strategic depth lies in the dilemma structure it creates. When the t
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train De La Riva Guard defense?</p>
 
 ### De La Riva Hook Retention Drill
 

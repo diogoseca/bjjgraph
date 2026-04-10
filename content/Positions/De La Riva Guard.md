@@ -112,11 +112,9 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - **[[Transitions/Tripod Sweep/Attacker|Tripod Sweep]]** (8% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (4% of attempts)
+- **[[Omoplata from De La Riva Guard/Attacker|Omoplata from De La Riva Guard]]** (4% of attempts)
 
-- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (2% of attempts)
-
-- **[[Submissions/Triangle from De La Riva/Attacker|Triangle from De La Riva]]** (2% of attempts)
+- **[[Transitions/Triangle Setup from De La Riva/Attacker|Triangle Setup from De La Riva]]** (4% of attempts)
 
 
 ### Common Mistakes
@@ -161,13 +159,13 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 - Posture Maintenance: Stay upright with chest elevated and hips back to prevent forward sweeps and maintain balance against the DLR hook's off-balancing attempts
 
-- Grip Fighting: Strip or control the ankle or pants grip that powers DLR control, as this grip combined with the hook creates the primary sweeping mechanism
+- Grips: Strip or control the ankle or pants grip that powers DLR control, as this grip combined with the hook creates the primary sweeping mechanism
 
 - Hook Removal: Neutralize the DLR hook through pressure, leg positioning, or strategic movement to remove the bottom player's primary control point
 
 - Hip Control: Don't allow bottom player to maintain optimal hip angle perpendicular to you, as this angle maximizes their sweeping power and berimbolo entries
 
-- Pressure Application: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery
+- Pressure: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery
 
 - Distance Management: Choose decisively between extending distance to weaken the guard structure or collapsing space to nullify the hook's leverage
 
@@ -175,33 +173,33 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 ### Available Transitions
 
 
-- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (74% of attempts)
+- **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** (22% of attempts)
 
-- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (7% of attempts)
+- **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (10% of attempts)
 
-- **[[Transitions/X Pass/Attacker|X Pass]]** (3% of attempts)
+- **[[Transitions/X Pass/Attacker|X Pass]]** (6% of attempts)
 
-- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (5% of attempts)
+- **[[Transitions/Leg Drag Pass/Attacker|Leg Drag Pass]]** (10% of attempts)
 
-- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (1% of attempts)
+- **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (4% of attempts)
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (0% of attempts)
+- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (3% of attempts)
 
-- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (5% of attempts)
+- **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** (10% of attempts)
 
-- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (3% of attempts)
+- **[[Transitions/Body Lock Pass/Attacker|Body Lock Pass]]** (7% of attempts)
 
-- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (0% of attempts)
+- **[[Transitions/Stack Pass/Attacker|Stack Pass]]** (2% of attempts)
 
-- **[[Transitions/Bullfighter Pass/Attacker|Bullfighter Pass]]** (1% of attempts)
+- **[[Transitions/Bullfighter Pass/Attacker|Bullfighter Pass]]** (3% of attempts)
 
-- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (0% of attempts)
+- **[[Transitions/Toreando Pass from De La Riva/Attacker|Toreando Pass from De La Riva]]** (8% of attempts)
 
-- **[[Transitions/Backstep from De La Riva/Attacker|Backstep from De La Riva]]** (0% of attempts)
+- **[[Transitions/Backstep from De La Riva/Attacker|Backstep from De La Riva]]** (7% of attempts)
 
-- **[[Transitions/Knee Slice from DLR/Attacker|Knee Slice from DLR]]** (0% of attempts)
+- **[[Transitions/Knee Slice from DLR/Attacker|Knee Slice from DLR]]** (5% of attempts)
 
-- **[[Transitions/Leg Drag from DLR/Attacker|Leg Drag from DLR]]** (1% of attempts)
+- **[[Transitions/Leg Drag from DLR/Attacker|Leg Drag from DLR]]** (3% of attempts)
 
 
 ### Common Mistakes

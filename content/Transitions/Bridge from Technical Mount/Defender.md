@@ -148,6 +148,8 @@ When your opponent bridges from technical mount, your primary objective is maint
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge from Technical Mount?</p>
+
 - Opponent plants feet flat on the mat with knees bent, loading the bridge position with visible muscular tension in the legs and hips
 - Opponent's free hand begins pushing against your hip or chest, establishing a frame that signals imminent explosive movement
 - Opponent turns their head and shoulders in the direction they intend to bridge, creating visible rotational intent before hip movement
@@ -160,6 +162,8 @@ When your opponent bridges from technical mount, your primary objective is maint
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge from Technical Mount?</p>
 
 - Maintain heavy hip pressure close to the opponent's shoulder to minimize the space available for effective bridging displacement
 - Keep the posted leg base wide with foot firmly planted to create the stabilizing tripod that absorbs lateral bridging force
@@ -174,6 +178,8 @@ When your opponent bridges from technical mount, your primary objective is maint
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge from Technical Mount?</p>
 
 ### 1. Sprawl hips and widen posted leg base to absorb bridge force
 
@@ -204,6 +210,8 @@ When your opponent bridges from technical mount, your primary objective is maint
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge from Technical Mount?</p>
+
 ### → [[Positions/Back Control]]
 
 When the opponent bridges and begins turning, release the armbar threat and immediately follow their rotation. As they expose their back, establish a seat belt grip by threading your arm under their armpit and across their chest. Convert your posted leg into your first hook and follow their motion to secure full back control with both hooks before they can recover guard.
@@ -219,6 +227,8 @@ Maintain heavy hip pressure close to the opponent's shoulder and keep your poste
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge from Technical Mount?</p>
 
 ### 1. Fighting the bridge with pure rigidity and muscular resistance instead of riding the motion
 
@@ -248,6 +258,8 @@ Maintain heavy hip pressure close to the opponent's shoulder and keep your poste
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge from Technical Mount?</p>
+
 **Phase 1: Bridge Recognition** - Identifying pre-bridge cues and timing
 Partner attempts bridges from technical mount bottom at 50% speed while you focus exclusively on recognizing the loading cues—foot placement, body tension, directional intent. Call out the bridge direction before the partner executes. Build pattern recognition without worrying about defensive response yet.
 
@@ -264,26 +276,6 @@ Full resistance rounds starting from technical mount. Top player must choose in 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to bridge from technical mount?
-**A**: The earliest cues are foot positioning and muscular tension. Watch for the opponent planting feet flat on the mat with knees bent—this is the loading position for the bridge. Secondary cues include their free hand pushing against your hip or chest to create a frame, a brief held breath or visible tension in their core, and head or shoulder rotation toward their intended bridge direction. Recognizing these cues allows pre-emptive base adjustment before the explosive movement begins.
-
-**Q2**: When your opponent bridges successfully and begins turning, should you fight to maintain technical mount or transition to another position?
-**A**: Transition to back control. Fighting to maintain technical mount against meaningful displacement wastes energy and often fails. The opponent's turning motion during the bridge directly exposes their back—follow the rotation, release the armbar grip, and establish seat belt control with hooks. Back control is a strictly superior position to technical mount, so the bridge actually creates an advancement opportunity rather than a genuine escape threat when you recognize it correctly.
-
-**Q3**: How do you maintain arm control during a bridge while also preserving your base?
-**A**: Prioritize wrist grip retention as the single most important grip during the bridge. Use a two-on-one configuration if possible—one hand on the wrist, one above the elbow. Keep your posted leg wide for base while your upper body maintains tight arm control through grip strength rather than body positioning. If you must choose between base and arm control, briefly sacrifice some base to retain the wrist grip, as losing the arm eliminates your primary submission threat.
-
-**Q4**: Your opponent executes a powerful bridge that shifts your weight significantly—what is the optimal response sequence?
-**A**: First, assess whether you can maintain arm control. If yes, ride the bridge by flowing with the motion and resettle once the bridge energy dissipates. If the displacement is too great to resettle comfortably, immediately follow their turning motion into back control—release the armbar threat, establish seat belt grip, and insert hooks. Never fight to return to technical mount against momentum when back control is available. The key principle is that bridge displacement should trigger an advancement decision, not a recovery struggle.
-
-
-
-</section>
 
 
 </main>

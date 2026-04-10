@@ -211,7 +211,7 @@ The Rodeo Ride to Turtle transition occupies a critical role in the turtle attac
 
 - [[Transitions/Rodeo Ride to Back Control]] - Higher-percentage alternative transition from same starting position
 
-- [[Submissions/Calf Slicer from Rodeo Ride]] - Submission threat from source position that may precede this transition
+- [[Submissions/Calf Slicer]] - Submission threat available from Rodeo Ride that may precede this transition when defended
 
 - [[Positions/Crucifix]] - Advanced attacking position accessible from both Rodeo Ride and turtle top
 

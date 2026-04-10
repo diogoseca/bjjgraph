@@ -399,7 +399,7 @@
             "probability": 60
           },
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar on Free Arm",
             "target": "Armbar Control",
             "probability": 50
           }
@@ -544,11 +544,11 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar on Free Arm",
         "attempt_probability": 6
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from New York Control",
         "attempt_probability": 6
       },
       {

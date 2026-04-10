@@ -11,7 +11,7 @@
     "arm-isolation",
     "advanced"
   ],
-  "from_position": "Mounted Crucifix/Top",
+  "from_position": "Armbar Control/Top",
   "outcomes": [
     {
       "to": "Armbar Control/Top",
@@ -41,8 +41,8 @@
       "relationship": "Success outcome position — where you finish or maintain submission threat"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Related submission — shares finishing mechanics from different starting position"
+      "name": "Armbar from Crucifix",
+      "relationship": "Related technique — armbar variation from traditional crucifix sharing arm isolation mechanics"
     },
     {
       "name": "Armbar from Crucifix",
@@ -57,8 +57,8 @@
       "relationship": "Alternative transition — when armbar is defended, S-mount offers different attack angles"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Related technique — shares finishing mechanics from standard mount position"
+      "name": "Mount to Armbar",
+      "relationship": "Related technique — armbar entry from standard mount sharing finishing mechanics"
     },
     {
       "name": "Gift Wrap Transition",

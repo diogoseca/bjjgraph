@@ -162,6 +162,8 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Carni to Gogoplata Setup?</p>
+
 - Top leg suddenly releases from the inside hip hook position rather than transitioning deeper into the entanglement
 - Opponent's freed leg moves upward toward your head and neck area rather than repositioning for saddle or back take
 - Opponent's hand shifts from controlling your heel or ankle to reaching toward your head or their own foot
@@ -173,6 +175,8 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Carni to Gogoplata Setup?</p>
 
 - Recognize the top leg release from your hip as the primary cue for gogoplata transition, not standard Carni repositioning
 - Maintain posture awareness during Carni defense rather than driving forward blindly with maximum stack pressure
@@ -187,6 +191,8 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Carni to Gogoplata Setup?</p>
 
 ### 1. Immediate posture recovery by extending arms and driving hips backward to create distance from threading leg
 
@@ -224,6 +230,8 @@ Defending the Carni to Gogoplata Setup requires early recognition and immediate 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Carni to Gogoplata Setup?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract yourself from both the leg entanglement remnants and the throat control by hand fighting the foot behind your head, creating posture, and disengaging your trapped leg simultaneously. Prioritize distance creation over maintaining top position.
@@ -239,6 +247,8 @@ Shut down the transition early by posturing immediately when feeling the inside 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Carni to Gogoplata Setup?</p>
 
 ### 1. Continuing to drive forward with maximum stack pressure without recognizing the transition to upper body attack
 
@@ -268,6 +278,8 @@ Shut down the transition early by posturing immediately when feeling the inside 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Carni to Gogoplata Setup?</p>
+
 **Phase 1: Recognition Training** - Identifying the transition cues from partner's movements
 Partner alternates between standard Carni attacks (heel hook, saddle entry, back take) and gogoplata transition attempts. Defender calls out which attack is being initiated as soon as they recognize it. Build pattern recognition for the specific leg release and upward movement that distinguishes the gogoplata setup from other Carni transitions.
 
@@ -284,29 +296,6 @@ Positional sparring starting from established Carni with partner free to attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that your opponent is transitioning from Carni to a gogoplata attempt?
-**A**: The earliest cue is feeling the release of the inside leg hook from over your hip. In standard Carni defense, this leg is your primary concern for saddle entries. When it suddenly releases and moves upward toward your neck rather than transitioning deeper into the entanglement, the gogoplata attempt is beginning. React immediately with posture recovery before the shin reaches your throat.
-
-**Q2**: Why does continued forward stack pressure make you specifically vulnerable to this transition?
-**A**: Forward stack pressure is the standard Carni escape strategy, but it brings your head and neck directly into range of the opponent's legs. The closer your upper body gets to theirs, the easier it becomes for them to thread a shin across your throat with minimal movement. When defending Carni, modulate your forward pressure and maintain awareness of upper body threats rather than driving blindly forward.
-
-**Q3**: What is the most effective defensive response in the window between leg release and shin contact?
-**A**: Immediately posture up by extending your arms and driving your hips back to create maximum distance between your neck and the opponent's legs. This window is brief, typically one to two seconds, so the response must be trained to automatic reaction speed. If you cannot posture in time, tuck your chin down and turn away to prevent the shin from establishing perpendicular throat contact.
-
-**Q4**: How do you prevent the foot from being secured behind your head once the shin contacts your throat?
-**A**: Use both hands to fight the foot position, preventing the opponent from pulling it deep behind your head. Without the foot secured behind your head, the gogoplata remains an open system that you can extract from by pulling backward or moving laterally. Hand fighting the foot is significantly more effective than trying to remove the shin from your throat directly because it addresses the structural foundation.
-
-**Q5**: If the gogoplata is partially established, what position should you prioritize reaching?
-**A**: Prioritize reaching Open Guard position for your opponent even if it means giving up any remaining entanglement control. The immediate priority is removing the shin from your throat and creating enough distance to prevent re-establishment. Even losing the Carni entanglement defense progress is far preferable to a locked gogoplata, as you can rebuild your defense from open guard but cannot recover from a completed choke.
-
-
-
-</section>
 
 
 </main>

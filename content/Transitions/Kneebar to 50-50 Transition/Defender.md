@@ -162,6 +162,8 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kneebar to 50-50 Transition?</p>
+
 - Attacker's finishing pressure on the kneebar decreases or stops entirely despite maintaining leg control
 - Attacker begins repositioning their legs around your trapped leg rather than driving hips for extension
 - Attacker's arm grips shift from pulling your leg tight against their chest to looser transitional holds
@@ -174,6 +176,8 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar to 50-50 Transition?</p>
 
 - Recognize transition cues immediately - any change from kneebar finishing pressure to leg repositioning signals the 50-50 entry attempt
 - Exploit the grip transition window when attacker releases kneebar finishing grips to thread legs, as this is your lowest-control moment
@@ -188,6 +192,8 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar to 50-50 Transition?</p>
 
 ### 1. Post hand on attacker's hip to block leg threading
 
@@ -225,6 +231,8 @@ From the defender's perspective, the kneebar to 50-50 transition presents both d
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar to 50-50 Transition?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your hip escape and leg extraction during the transition moment when the attacker releases kneebar finishing grips to begin threading legs for 50-50. This window lasts approximately 1-2 seconds and represents your best opportunity to extract your leg completely and recover to half guard top position before the attacker can re-establish any leg entanglement.
@@ -236,6 +244,8 @@ Time your hip escape and leg extraction during the transition moment when the at
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar to 50-50 Transition?</p>
 
 ### 1. Failing to recognize the transition until 50-50 is already established
 
@@ -265,6 +275,8 @@ Time your hip escape and leg extraction during the transition moment when the at
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar to 50-50 Transition?</p>
+
 **Phase 1: Recognition** - Identifying transition cues from kneebar to 50-50
 Partner performs the kneebar to 50-50 transition at slow speed while you practice identifying each recognition cue. Call out the transition as soon as you detect it. Develop sensitivity to pressure changes and leg repositioning that signal the shift from kneebar finish to 50-50 entry.
 
@@ -278,29 +290,6 @@ Start with partner completing the transition to 50-50. Practice inside position 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is transitioning from kneebar to 50-50?
-**A**: The earliest cues are a decrease in kneebar finishing pressure on your knee joint combined with a shift in the attacker's leg positioning around your trapped leg. You will feel their inside leg begin to move across your hip line rather than maintaining kneebar fulcrum position. Their arm grips may also loosen slightly as they prepare to transition from finishing configuration to threading control.
-
-**Q2**: Your opponent begins threading their legs for 50-50 entry - what immediate action gives you the best chance of preventing the transition?
-**A**: The highest-percentage prevention is posting your near hand firmly on their hip to block their inside leg from passing across your hip line. This physical barrier prevents the first threading step that establishes 50-50. Simultaneously hip escape away from their threading direction to increase the distance their legs must travel. If both actions execute within the first second of their threading attempt, prevention success rate is significantly higher than later interventions.
-
-**Q3**: Why is the grip transition moment the most critical window for escaping the kneebar to 50-50 transition?
-**A**: The grip transition moment is critical because the attacker must release their kneebar finishing grips to reposition arms for 50-50 control. During this 1-2 second window, the attacker has minimal arm control over your leg while their legs are only partially threaded into the new configuration. This represents the lowest total control point in the entire transition sequence, making leg extraction through hip escape most likely to succeed.
-
-**Q4**: You failed to prevent the 50-50 entry and your opponent is settling into top position - what is your first priority?
-**A**: Your absolute first priority is fighting for inside position with your inside leg before the attacker can settle hip pressure. Inside position control determines who has submission priority in 50-50. Simultaneously hide your heel by rotating your knee inward to prevent immediate heel hook attacks. Do not waste energy on escape attempts until you have addressed these two defensive priorities, as escaping without inside position control or heel protection dramatically increases submission risk.
-
-**Q5**: Your opponent releases their kneebar grips but you feel their legs beginning to wrap around yours - how do you create distance?
-**A**: Execute an immediate hip escape in the direction away from their wrapping legs while simultaneously using both hands to push against their hip or thigh. The hip escape must be explosive and directional, not just a general shrimp. Target creating enough distance that their threading legs cannot complete the 50-50 triangle. If you cannot fully escape, use the created distance to insert a knee shield between your bodies, which prevents them from settling top pressure even if the 50-50 entanglement forms.
-
-
-
-</section>
 
 
 </main>

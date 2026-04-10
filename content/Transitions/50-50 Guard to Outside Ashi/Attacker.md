@@ -186,6 +186,8 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing 50-50 Guard to Outside Ashi?</p>
+
 - Release your inside leg control before attempting extraction - fighting against the 50-50 structure wastes energy and strengthens opponent's grip
 - Use internal hip rotation to clear your leg through the entanglement rather than pulling straight out against the triangle
 - Maintain heel grip on opponent's leg throughout the transition to prevent them from establishing their own outside ashi or escaping entirely
@@ -200,6 +202,8 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting 50-50 Guard to Outside Ashi?</p>
+
 - Established 50-50 Guard top position with your legs entangled in symmetrical configuration
 - Secure grip on opponent's heel or ankle with at least one hand to maintain control throughout transition
 - Opponent's weight committed to defending heel hook or maintaining 50-50 structure rather than actively transitioning
@@ -212,6 +216,8 @@ This technique is strategically critical in modern leg lock systems because 50-5
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute 50-50 Guard to Outside Ashi step by step?</p>
 
 1. **Secure heel control**: Establish firm two-handed grip on opponent's heel with dominant hand cupping the Achilles and support hand controlling the ankle. This grip must be maintained throughout the entire transition sequence to prevent opponent from escaping or counter-transitioning.
 2. **Release inside control**: Deliberately release your inside leg's control position by relaxing the triangle configuration. This feels counterintuitive but is necessary - fighting against the 50-50 structure wastes energy and makes extraction impossible.
@@ -240,6 +246,8 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter 50-50 Guard to Outside Ashi?</p>
+
 - **Opponent releases their leg entanglement and races to their own outside ashi** (Effectiveness: High) - Your Response: Accelerate your transition and establish your figure-4 first, or abandon the transition and re-establish 50-50 if they beat you to the position → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent drives forward and stacks you during the transition moment** (Effectiveness: Medium) - Your Response: Use their forward momentum to complete the transition faster, or redirect into a kneebar setup as their knee extends from the stacking attempt → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Opponent strips your heel grip during the transition** (Effectiveness: Medium) - Your Response: Abandon the transition and immediately re-grip their heel before they can escape, or transition to single leg X if you maintain any leg control → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -251,6 +259,8 @@ This technique is strategically critical in modern leg lock systems because 50-5
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing 50-50 Guard to Outside Ashi?</p>
 
 ### 1. Releasing heel grip during the transition to focus on leg extraction
 
@@ -285,6 +295,8 @@ This technique is strategically critical in modern leg lock systems because 50-5
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train 50-50 Guard to Outside Ashi (Attacker)?</p>
+
 **Week 1-2** - Mechanics isolation
 Practice the hip rotation and leg threading motion with no resistance. Partner holds static 50-50 position while you execute 20-30 slow repetitions per side, focusing on the circular extraction path and continuous motion into outside ashi establishment.
 
@@ -302,48 +314,12 @@ Positional sparring from 50-50 with full resistance. Both partners work to estab
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the 50-50 Guard to Outside Ashi transition?
-**A**: The primary goal is to break the symmetrical stalemate of 50-50 by extracting your trapped leg and establishing an asymmetrical outside ashi-garami configuration. This creates an attacking angle that exposes your opponent's heel for outside heel hook while removing your own leg from danger, transforming a mutual-threat position into one where you have offensive advantage.
-
-**Q2**: What position do you start the 50-50 Guard to Outside Ashi transition from?
-**A**: This transition starts from 50-50 Guard top position, where both practitioners have their legs entangled in a symmetrical configuration. You have achieved the top position through superior hip pressure or inside control, giving you slightly better leverage to initiate the transition.
-
-**Q3**: What are the key grips needed for the 50-50 Guard to Outside Ashi transition?
-**A**: You need secure two-handed heel/ankle control on your opponent's trapped leg throughout the entire transition. The dominant hand cups the Achilles with fingers toward toes, while the support hand controls the ankle joint. This grip must be maintained without release during leg extraction to prevent opponent escape or counter-transition.
-
-**Q4**: When is the optimal timing window to attempt this transition?
-**A**: The optimal timing is when your opponent commits to defending their heel or maintaining static 50-50 structure rather than actively transitioning. Their defensive focus creates the moment where your extraction will meet minimal resistance. Also attempt when you have established superior heel grip and your inside leg has enough freedom to begin the rotation.
-
-**Q5**: Why is internal hip rotation essential for successful leg extraction?
-**A**: Internal hip rotation creates a circular extraction path that collapses the opponent's triangle structure rather than fighting against it. Straight backward pulling strengthens their grip and exposes your heel to counter heel hook. The rotation angles your leg to thread through the entanglement along the path of least resistance, making extraction possible even against tight control.
-
-**Q6**: Your opponent maintains extremely tight inside control - how do you adapt the transition?
-**A**: When opponent has tight inside control, do not force the standard extraction. First create space through hip movement, grip fighting on their controlling leg, or small hip escapes that loosen their triangle. If space creation fails, consider alternative transitions like back take when they overcommit to inside control, or inside ashi entry that works with their grip rather than against it.
-
-**Q7**: What body angle should you achieve upon completing the transition and why?
-**A**: You should achieve a 45-90 degree (perpendicular or diagonal) angle to your opponent's body, with your torso facing their trapped leg. This angle maximizes heel hook leverage, creates optimal control through the figure-4 configuration, and makes it difficult for opponent to escape or establish defensive frames. Parallel body position significantly reduces submission effectiveness.
-
-**Q8**: What is the biggest mistake practitioners make during the transition moment?
-**A**: The biggest mistake is releasing heel grip to focus on leg extraction. Without heel control, the opponent escapes entirely or establishes their own superior entanglement. The grip is more important than perfect leg positioning - maintain at least one hand on their heel throughout and adjust your extraction path to accommodate the grip rather than releasing it.
-
-**Q9**: Your opponent starts racing you to establish their own outside ashi during your extraction - what do you do?
-**A**: This is the highest-threat counter. You must immediately assess who is ahead in the race. If you have cleared your leg and are establishing the figure-4, accelerate by swinging your leg over their hip without pausing. If they are ahead, abandon the transition entirely and re-establish 50-50 rather than ending up in their outside ashi. The key is making this assessment within one second of recognizing the race.
-
-**Q10**: How does this transition fit into the broader leg lock system hierarchy?
-**A**: The 50-50 to outside ashi transition is a gateway movement that breaks positional stalemate and opens pathways to more dominant entanglements. Outside ashi itself is transitional, leading to saddle (highest control) or inside ashi (highest finish percentage). Understanding this transition is essential for practitioners who want to flow through the leg lock system rather than getting stuck in 50-50 exchanges.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for 50-50 Guard to Outside Ashi?</p>
 
 This transition involves leg entanglement positions where heel hooks become immediately available upon completion. Partners must understand that the outside ashi-garami configuration creates significant rotational force on the knee joint when heel hooks are applied. Always train with partners who understand leg lock tap protocols and respect immediate taps. The transition itself is relatively safe, but the resulting position demands caution. Avoid this transition entirely if either partner has existing knee injuries. During drilling, complete the transition without immediately attacking submissions - allow partner to recognize the position before adding submission threats. In competition, be aware that heel hooks are prohibited or restricted in many rulesets based on belt level.
 

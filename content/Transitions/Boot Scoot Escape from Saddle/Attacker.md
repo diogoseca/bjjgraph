@@ -194,6 +194,8 @@ From the attacker's perspective—you are the trapped player executing the escap
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Boot Scoot Escape from Saddle?</p>
+
 - Protect the heel before all other actions—heel protection is the foundation of every saddle escape
 - Create linear distance through hip scooting rather than attempting to pry or fight the entanglement in close range
 - Maintain free leg frame on opponent's hip as the primary force-generation mechanism for each scoot
@@ -209,6 +211,8 @@ From the attacker's perspective—you are the trapped player executing the escap
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Boot Scoot Escape from Saddle?</p>
+
 - Heel protection established with hands cupping your own foot and knee rotated inward toward centerline
 - Free leg positioned with foot on opponent's near hip to create a pushing frame
 - Core engaged and hips loaded to generate backward scooting force
@@ -221,6 +225,8 @@ From the attacker's perspective—you are the trapped player executing the escap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Boot Scoot Escape from Saddle step by step?</p>
 
 1. **Protect the heel immediately**: Rotate your knee inward toward your centerline and cup your own foot with both hands. Keep your foot flexed to make the heel as inaccessible as possible. This prevents the opponent from accessing your heel for a finishing grip while you prepare the rest of the escape sequence.
 2. **Establish free leg frame on opponent's hip**: Place the sole of your free foot directly on your opponent's near hip bone. Drive your heel into their hip to create a sturdy frame that prevents them from closing distance and provides the push-off surface for scooting. Keep your leg slightly bent for maximum pushing power.
@@ -251,6 +257,8 @@ From the attacker's perspective—you are the trapped player executing the escap
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Boot Scoot Escape from Saddle?</p>
+
 - **Opponent follows your hip retreat by driving their hips forward to maintain entanglement pressure** (Effectiveness: High) - Your Response: Increase scooting rhythm and switch to angular boot scoot, moving diagonally rather than straight back to create angles the opponent cannot easily follow → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent strips your free leg frame off their hip to eliminate your pushing mechanism** (Effectiveness: High) - Your Response: Immediately re-establish the frame on the opposite hip or transition to framing on their shoulder with your free leg; if frame cannot be maintained, switch to counter-entangling defense → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent secures a heel grip during the brief transitional moment between scoots when you are resetting your frame** (Effectiveness: High) - Your Response: Return both hands immediately to heel protection and strip the grip before resuming the escape; do not continue scooting with an exposed heel → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -262,6 +270,8 @@ From the attacker's perspective—you are the trapped player executing the escap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Boot Scoot Escape from Saddle?</p>
 
 ### 1. Explosively pulling the trapped leg without creating sufficient distance first
 
@@ -301,6 +311,8 @@ From the attacker's perspective—you are the trapped player executing the escap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Boot Scoot Escape from Saddle (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo movement and coordination
 Practice the bridge-push-scoot motion without a partner, focusing on coordinating hip bridge with free leg push-off. Develop the muscle memory for moving the entire body backward as one unit. Add heel protection hand positioning to build the full coordination pattern.
 
@@ -321,42 +333,12 @@ Incorporate boot scoot escape into live rolling from saddle starting positions. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical action before initiating the hip scoot movement?
-**A**: Protecting the heel by rotating your knee inward and cupping your foot with both hands is the absolute first priority. Without heel protection, the opponent can finish a heel hook during your escape attempt. The scooting movement creates slight positional changes that may momentarily expose the heel if it is not already secured, making pre-escape heel protection non-negotiable before any other escape mechanics begin.
-
-**Q2**: Your opponent follows your first hip scoot by driving their hips forward to close the distance—how do you adjust?
-**A**: Re-establish your free leg frame on their hip immediately and apply stronger push-off force on the next scoot. If they are consistently following your retreat, increase the rhythm and speed of your scoots to outpace their forward drive. You can also angle your scoots diagonally rather than straight back, which makes it harder for them to follow directly and creates lateral space that degrades the entanglement from a different angle.
-
-**Q3**: What direction of force does the free leg frame need to generate for maximum escape effectiveness?
-**A**: The free leg frame should generate force directly into the opponent's hip line, pushing them away while simultaneously providing a platform for your own backward hip movement. The force vector should be roughly horizontal, driving through their hip rather than upward. Pushing too high on their chest allows them to redirect around your frame. Pushing too low on their thigh lacks the structural leverage to prevent them from following.
-
-**Q4**: When is the boot scoot escape most likely to succeed, and when should you choose an alternative defense?
-**A**: The boot scoot works best when the opponent has established saddle position but has not yet consolidated optimal hip pressure and finishing grips—particularly before they secure the heel. If they are still settling into position or adjusting their angle, the window is open. If they have already achieved tight perpendicular alignment with heavy hip pressure and are gripping your heel, the boot scoot is unlikely to generate enough distance and counter-entangling to 50-50 or tapping may be more appropriate.
-
-**Q5**: What grip on your own leg should you maintain throughout the scooting sequence?
-**A**: Maintain a cup grip on your own foot and ankle with both hands whenever possible, keeping your toes pulled back toward your shin. This grip serves dual purpose: it protects the heel from the opponent accessing it for a heel hook finish, and it prevents your ankle from being isolated for straight ankle lock attacks. Only release this protective grip when you need one hand for grip fighting during the extraction phase after multiple scoots have loosened the entanglement.
-
-**Q6**: How do you prevent the opponent from transitioning to inside ashi garami during your escape?
-**A**: As you scoot backward and the saddle loosens, keep your knee pointed inward toward your centerline to prevent the opponent from re-threading their legs into inside ashi garami configuration. If you feel them attempting to switch entanglements, pause the scoot and address their leg positioning before continuing. Maintaining tension on their hooking leg by pressing your knee against it prevents the re-threading transition.
-
-**Q7**: What common failure point causes most boot scoot escape attempts to stall without making progress?
-**A**: The most common stalling point is insufficient free leg frame strength—if your pushing leg is too extended or placed too high on the opponent's body, you cannot generate enough force to move your hips backward against their resistance. The frame foot must be placed directly on their hip bone with your knee slightly bent to create maximum leverage. Additionally, failing to bridge the hips off the mat before scooting creates friction that prevents effective backward movement.
-
-**Q8**: If the boot scoot partially succeeds but you cannot fully extract your leg, what chain option prevents the opponent from re-establishing full saddle?
-**A**: If extraction stalls at a partial point, transition to a counter-entangle by threading your free leg through their legs to establish 50-50 guard. This converts the asymmetric saddle where they have all the advantage into a symmetric entanglement where both players have equal control. From 50-50, you can work more methodical escapes or threaten your own leg attacks. Alternatively, if enough space exists, attempt an inversion to fully clear the entanglement from a different angle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Boot Scoot Escape from Saddle?</p>
 
 The boot scoot escape involves movement against an active leg entanglement targeting the knee and ankle joints. Never explosively pull your trapped leg during any phase of the escape—this creates rotational force that magnifies joint damage and can cause severe ligament injuries. If at any point you feel heel hook rotation beginning or sharp pain in the knee, tap immediately rather than continuing the escape attempt. Train this escape with controlled partners who understand the danger of resisting heel hook defense. Always communicate with training partners about knee sensitivity and injury history before drilling saddle escapes. Start all training progressions at zero resistance and increase gradually.
 

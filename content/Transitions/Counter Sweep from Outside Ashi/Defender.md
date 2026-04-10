@@ -162,6 +162,8 @@ As the defender against the counter sweep, you are the top player in outside ash
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Sweep from Outside Ashi?</p>
+
 - Opponent begins generating forward hip drive from outside ashi bottom, shifting their weight toward you rather than remaining flat on the mat
 - Opponent frees one or both arms from defending their trapped leg and begins posting on the mat or reaching for your collar, wrist, or underhook
 - Opponent's hip angle changes from perpendicular submission-threatening position to a more forward-facing sweep-oriented alignment
@@ -173,6 +175,8 @@ As the defender against the counter sweep, you are the top player in outside ash
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Sweep from Outside Ashi?</p>
 
 - Maintain a wide, low base with active posting readiness throughout your escape sequence so you can respond instantly to forward hip drive from the bottom player
 - Keep your free hand available for posting rather than reaching for grips that compromise your balance during the escape
@@ -187,6 +191,8 @@ As the defender against the counter sweep, you are the top player in outside ash
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Sweep from Outside Ashi?</p>
 
 ### 1. Post free hand wide and sprawl hips back to re-establish base against the sweep force
 
@@ -224,6 +230,8 @@ As the defender against the counter sweep, you are the top player in outside ash
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Sweep from Outside Ashi?</p>
+
 ### → [[Positions/Open Guard]]
 
 Exploit the loosened figure-4 configuration that the opponent creates during their sweep initiation. As they adjust their legs for sweep leverage, the entanglement necessarily loosens—use this window to explosively rotate your hip internally, strip the triangle hook, and extract your leg completely. The opponent's commitment to the sweep means they cannot simultaneously tighten the entanglement and generate sweep force.
@@ -239,6 +247,8 @@ Shut down the sweep early by maintaining a low, wide base and posting your free 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Sweep from Outside Ashi?</p>
 
 ### 1. Freezing in place when feeling the sweep initiation rather than actively responding with base adjustments
 
@@ -268,10 +278,12 @@ Shut down the sweep early by maintaining a low, wide base and posting your free 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Sweep from Outside Ashi?</p>
+
 **Phase 1: Sweep Recognition** - Identifying counter sweep initiation cues from outside ashi top
 Practice maintaining outside ashi-garami top position while partner executes slow-motion counter sweeps. Focus on recognizing the timing triggers—arm repositioning, hip elevation, grip changes—that precede the sweep. Do not attempt to defend yet, purely develop recognition of when the sweep is being initiated.
 
-**Phase 2: Base Maintenance Under Sweep Pressure** - Posting and sprawling mechanics during escape attempts
+**Phase 2: Base Under Sweep Pressure** - Posting and sprawling mechanics during escape attempts
 Partner attempts counter sweeps at moderate intensity while you practice posting, sprawling, and base adjustments without abandoning your escape sequence. Develop the ability to maintain both escape progression and anti-sweep base simultaneously. Focus on automatic posting responses to forward pressure.
 
 **Phase 3: Extraction During Sweep Windows** - Exploiting loosened entanglement during opponent's sweep initiation
@@ -284,29 +296,6 @@ Full-resistance positional sparring from outside ashi-garami top where partner h
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from leg attacks to a sweep attempt?
-**A**: The earliest cue is a change in the opponent's arm activity—when they shift from controlling your heel or threatening submissions to freeing their arms and reaching toward the mat for a posting position or toward your upper body for a controlling grip. This arm repositioning precedes the hip drive by a critical window of time. Additionally, their hip angle may shift from a perpendicular submission-oriented position to a more forward-facing sweep-oriented alignment.
-
-**Q2**: Why does the opponent's figure-4 necessarily loosen during their sweep attempt, and how can you exploit this?
-**A**: The opponent must generate hip mobility to create sweeping force, which requires relaxing the tight figure-4 squeeze that characterizes effective outside ashi control. A maximally tight figure-4 prevents the hip rotation and forward drive needed for the sweep. This loosening creates a leg extraction window that does not exist during their tight entanglement. By accelerating your leg extraction during their sweep initiation, you can escape the entanglement precisely because their sweep mechanics require loosening the control that was preventing your escape.
-
-**Q3**: How should you adjust your base when you feel the sweep being initiated from outside ashi-garami?
-**A**: Immediately widen your base by posting your free hand on the mat on the side opposite to the sweep direction. Simultaneously sprawl your hips backward to lower your center of gravity and increase the distance the opponent must drive to complete the reversal. Keep your weight distributed over a wide base of support rather than stacked vertically. If the sweep direction is ambiguous, default to a wide post on the side away from the opponent's upper body grip, as that is the most likely sweep trajectory.
-
-**Q4**: What is the primary risk of committing too heavily to anti-sweep defense while still in the leg entanglement?
-**A**: Over-committing to anti-sweep defense can stall your escape progress entirely, leaving you trapped in outside ashi-garami indefinitely. The opponent can then cycle between sweep threats and submission threats, keeping you reactive and unable to advance your escape sequence. The optimal approach balances sweep defense with continued escape progression—your escape movements should incorporate anti-sweep base maintenance rather than treating them as separate sequential tasks.
-
-**Q5**: When is it strategically better to disengage entirely rather than defend the sweep in place?
-**A**: Strategic disengagement is appropriate when the sweep has already generated significant momentum and your base is irrecoverably compromised. If you feel your weight being loaded over the opponent's hips with no post available, attempting to hold position will result in a controlled sweep to side control. Explosive standing and disengagement sacrifices your escape positioning but prevents the worst outcome. The decision point is whether you can establish a post before the opponent completes the sweep—if not, immediate disengagement is the correct choice.
-
-
-
-</section>
 
 
 </main>

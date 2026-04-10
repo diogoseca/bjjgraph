@@ -188,6 +188,8 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Toreando from Headquarters?</p>
+
 - Coordinate the leg push and lateral step as a single unified movement rather than sequential actions, eliminating the timing gap that allows guard recovery
 - Grip at or below the knee line on both legs to maximize mechanical leverage for lateral redirection while preventing the opponent from retracting their legs
 - Maintain low hip position throughout the lateral movement, driving hips past the opponent's knee line before releasing leg grips to prevent guard recovery
@@ -202,6 +204,8 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Toreando from Headquarters?</p>
+
 - Stable Headquarters Position established with one opponent leg controlled between passer's legs via knee-line pressure and triangulated base
 - Opponent extends free leg or pushes on passer's hips creating bilateral grip opportunity on both legs simultaneously
 - Passer has cleared opponent's upper body grips on collar and sleeves to prevent the opponent from anchoring during lateral movement
@@ -214,6 +218,8 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Toreando from Headquarters step by step?</p>
 
 1. **Acquire bilateral leg grips**: From Headquarters with one leg controlled, grip the opponent's free leg at the knee line or shin with your control hand while your posting hand secures the controlled leg at the same level. Both grips should be at or below the knee to maximize leverage for lateral redirection. This transition from headquarters grip configuration to bilateral leg grips must be smooth and immediate.
 2. **Flatten opponent's hips**: Drive both legs toward the mat with downward pressure through your grips, flattening the opponent's hips and eliminating their ability to create angles or turn on their side. Keep your elbows close to your body and use your bodyweight through the grips rather than arm strength alone. The opponent's hips must be flattened before the lateral redirect begins.
@@ -243,6 +249,8 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Toreando from Headquarters?</p>
+
 - **Opponent grabs collar or sleeve during lateral movement, anchoring passer and preventing hip clearance** (Effectiveness: High) - Your Response: Strip the grip before committing to the lateral step, or change direction and chain into a knee cut pass on the opposite side where the grip becomes a liability for the bottom player → Leads to [[Positions/Headquarters Position]]
 - **Opponent retracts both legs quickly, pulling knees to chest and recovering closed or butterfly guard structure** (Effectiveness: High) - Your Response: If legs retract before you step, return to headquarters and re-establish leg control rather than chasing retracted legs. If retraction happens mid-pass, convert to a body lock pass or stack pass by driving forward into the retracted legs → Leads to [[Positions/Headquarters Position]]
 - **Opponent hip escapes toward passing direction during lateral movement, creating angle and inserting knee for half guard** (Effectiveness: Medium) - Your Response: Accelerate the lateral step to beat the hip escape, or if they catch your leg, immediately establish crossface and underhook in half guard top and work a knee slice pass before they consolidate the half guard position → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Toreando from Headquarters?</p>
 
 ### 1. Pushing legs laterally without simultaneously stepping in the opposite direction
 
@@ -293,6 +303,8 @@ The Toreando from Headquarters rewards the passer who can read distance-creation
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Toreando from Headquarters (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Lateral movement coordination and hip-clearing patterns
 Practice the coordinated push-and-step movement pattern without a partner. Use a heavy bag or foam roller as a substitute for the opponent's legs. Focus on training the simultaneous lateral step with the arm push until the timing becomes automatic. Drill the transition from leg grips to crossface position repeatedly.
 
@@ -310,42 +322,12 @@ Positional sparring starting from headquarters. Passer attempts toreando and rel
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Toreando from Headquarters?
-**A**: The optimal timing is when the bottom player extends their free leg or pushes on your hips to create distance. This leg extension provides the grip opportunity and indicates their hips are relatively flat, both essential preconditions. Attempting the toreando when the opponent has retracted legs with knees tight to chest eliminates the grip opportunity and makes the pass significantly harder to execute.
-
-**Q2**: What conditions must exist in Headquarters before you can attempt the Toreando?
-**A**: You need stable headquarters with one leg controlled, the opponent's free leg extended or pushing creating grip access, their upper body grips on your collar and sleeves cleared so they cannot anchor you during lateral movement, your weight centered over your hips with upright posture for explosive lateral stepping, and sufficient mat space in the intended passing direction for the lateral movement.
-
-**Q3**: What is the single most critical mechanical detail that determines whether the Toreando succeeds or fails?
-**A**: The coordination between the lateral leg push and the lateral step must happen simultaneously as a single movement, not sequentially. If you push the legs first and then step, the timing gap allows the opponent to recover leg position and re-establish guard. The push-and-step must be trained as one coordinated action where both happen at exactly the same instant, eliminating any window for defensive recovery.
-
-**Q4**: Your opponent posts their foot on your hip on the passing side as you initiate the Toreando - how do you adjust?
-**A**: Grip the blocking foot at the ankle and push it past your hip line while continuing the lateral step, converting the foot post into a leg drag opportunity. Alternatively, switch to the over-under toreando variation where you lift the blocking leg rather than fighting the hip frame directly. If neither option works, abort the toreando and return to headquarters rather than forcing the pass against a strong frame that compromises your base and timing.
-
-**Q5**: Where should you grip the opponent's legs for the Toreando and why is grip placement critical?
-**A**: Grip at or below the knee line on both legs, either at the knee crease, the shin, or the pants at knee level. This placement maximizes the mechanical lever arm for lateral redirection because it is the farthest point from the opponent's hip joint that still provides reliable control. Gripping higher on the thigh reduces leverage dramatically, requiring more force and giving the opponent greater ability to retract their legs and recover guard structure.
-
-**Q6**: In which direction should you push the opponent's legs relative to your lateral step during the Toreando?
-**A**: Push the legs to one side while stepping laterally in the opposite direction. The forces are oppositional, creating maximum separation between the opponent's legs and your hips. Push the legs across the opponent's body toward the mat on the far side while your lead foot steps in the opposite direction. This oppositional movement is what creates the passing lane and prevents the opponent from following your hip movement with their legs.
-
-**Q7**: Your opponent retracts both legs quickly to their chest as you transition from headquarters grips to bilateral leg grips - what do you do?
-**A**: Do not chase the retracted legs with the toreando. Instead, return to headquarters and re-establish leg control with knee-line pressure. Retracted legs with knees tight to chest eliminate the grip opportunity the toreando requires. From re-established headquarters, apply pressure to draw the legs out again, or transition to a body lock or stack pass that works against retracted legs rather than extended ones. Chasing retracted legs leads to poor grip positioning and failed pass attempts.
-
-**Q8**: If the Toreando attempt is partially blocked and you cannot clear to side control, what chain attacks are available?
-**A**: If the opponent partially defends but you have grip on the legs, switch to a leg drag by pulling one leg across your body instead of pushing both laterally. If they recover one leg but you have cleared past the other, convert to a knee cut through the gap. If the opponent catches your leg during the lateral movement, immediately establish crossface and underhook for a half guard top passing position and work a knee slice. If the opponent hip escapes away, pursue with a body lock pass. The key principle is maintaining contact and converting the failed speed pass into a pressure pass rather than disengaging.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Toreando from Headquarters?</p>
 
 The Toreando from Headquarters is a relatively low-risk technique for both practitioners. Primary safety concerns involve the passer's lateral movement potentially causing knee strain if the foot catches on the mat during the explosive step. Both practitioners should ensure adequate mat space exists in the passing direction. Avoid cranking the opponent's legs with excessive rotational force during the lateral redirect, as this can strain their knee ligaments. Control the speed of the leg push in training to prevent hyperextension of the opponent's hip joints.
 

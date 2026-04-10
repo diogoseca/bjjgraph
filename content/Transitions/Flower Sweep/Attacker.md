@@ -182,6 +182,8 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Flower Sweep?</p>
+
 - Control the opponent's sleeve and collar/back of the head to break their base
 - Create an angle with your hips before initiating the sweeping motion
 - Use your leg as a lever to off-balance the opponent diagonally
@@ -197,6 +199,8 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Flower Sweep?</p>
+
 - Closed guard established with ankles crossed behind opponent's back
 - Strong grip on opponent's same-side sleeve (typically right hand grips right sleeve)
 - Control of opponent's posture with opposite hand gripping collar or behind the head
@@ -210,6 +214,8 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Flower Sweep step by step?</p>
 
 1. **Establish grips**: From closed guard, grip the opponent's same-side sleeve with your same-side hand (right hand to their right sleeve). Your opposite hand controls their collar or wraps behind their head. Pull down to break their posture forward, bringing their chest close to yours.
 2. **Open guard and create angle**: Uncross your ankles and place your opposite foot (left foot if sweeping right) on the mat near their same-side hip. Simultaneously pivot your hips approximately 30-45 degrees away from the sweeping side, creating an angle with your body. Your other leg remains hooked around their back.
@@ -238,6 +244,8 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Flower Sweep?</p>
+
 - **Opponent posts their hand on the mat on the sweeping side** (Effectiveness: High) - Your Response: Switch to attacking the posted arm with a straight armbar or transition to triangle/omoplata. Alternatively, switch to sweeping the opposite direction if they overcommit to the post. → Leads to [[Positions/Closed Guard]]
 - **Opponent stands up to break your guard** (Effectiveness: Medium) - Your Response: Maintain your sleeve grip and transition to standing guard attacks, ankle picks, or sit-up sweeps. Their standing creates different sweep opportunities. → Leads to [[Positions/Closed Guard]]
 - **Opponent sprawls their hips back and away** (Effectiveness: Medium) - Your Response: If they sprawl early, you can often still complete the sweep by following them with your rotation. If they fully defend, transition to attacking their extended arms or attempt the Hip Bump Sweep in the opposite direction. → Leads to [[Positions/Closed Guard]]
@@ -249,6 +257,8 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Flower Sweep?</p>
 
 ### 1. Attempting the sweep without proper angle creation
 
@@ -288,6 +298,8 @@ The Flower Sweep is a fundamental closed guard sweep that exploits the opponent'
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Flower Sweep (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Basic movement pattern and grip control
 Practice the sweep with a completely cooperative partner. Focus on getting the grips, creating the angle, and understanding the circular motion. Partner should allow the sweep to happen so you can feel the correct body mechanics. Repeat 20-30 times per training session.
 
@@ -308,48 +320,12 @@ Work on entering the Flower Sweep from different guard positions and grips. Prac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of creating an angle with your hips before executing the Flower Sweep?
-**A**: Creating an angle (approximately 30-45 degrees) changes the sweeping direction from straight back to diagonal, which makes it much harder for the opponent to defend. When you sweep diagonally, the opponent must defend in multiple directions simultaneously - they can't simply post their knee or hand straight back. The angle also allows you to use your butterfly hook more effectively as a lever and generates the circular, rotating momentum that characterizes the sweep.
-
-**Q2**: How should you respond if your opponent posts their hand on the mat during your Flower Sweep attempt?
-**A**: The posted hand creates an excellent opportunity for attack rather than a problem. You should immediately switch to attacking the posted arm with a straight armbar (maintaining your sleeve grip and swinging your leg over), transition to a triangle choke, or set up an omoplata. Alternatively, if the opponent overcommits to the post, you can switch directions and sweep to the opposite side. The key is to view the posted hand not as a defense, but as the opponent giving you their arm.
-
-**Q3**: Why is the Flower Sweep considered part of a fundamental guard attack system rather than an isolated technique?
-**A**: The Flower Sweep is one component of an interconnected system that includes the Hip Bump Sweep, Kimura, Triangle, and Armbar. These techniques all use similar grips and body positioning, creating a web of attacks where defending one opens up another. For example, defending the Hip Bump by posting creates the Flower Sweep opportunity; defending the Flower Sweep by posting creates armbar opportunities. This systematic approach forces the opponent into a constant series of dilemmas, which is far more effective than relying on any single technique in isolation.
-
-**Q4**: What role does your posted foot play in the execution of the Flower Sweep?
-**A**: The posted foot (the foot that's not doing the butterfly hook) is absolutely critical for generating power and elevation. It drives hard into the mat to lift your hips completely off the ground and provides the base for your body rotation. Without strong posted foot drive, you cannot generate enough momentum to sweep the opponent over. Think of it as the launching pad - it should push forcefully throughout the entire sweeping motion, not just at the beginning.
-
-**Q5**: What grip configuration gives you the highest percentage Flower Sweep, and why does each grip matter?
-**A**: The highest percentage configuration is a same-side sleeve grip combined with a cross-collar grip or head control behind the neck. The sleeve grip prevents the opponent from posting their hand on the sweeping side, which is the primary defense against the sweep. The collar or head grip breaks their posture forward, shifting their center of gravity over your hips where the sweep is most effective. Both grips must apply constant pulling pressure throughout the motion - passive grips that simply hold fabric without directional force reduce sweep effectiveness dramatically.
-
-**Q6**: Your opponent maintains strong upright posture and resists your posture-breaking attempts - how do you create the conditions for the Flower Sweep?
-**A**: Against strong posture, you should first attack with a Hip Bump Sweep to force them to post a hand. When they post, their weight shifts forward and their base narrows, creating the exact conditions the Flower Sweep requires. Alternatively, use a collar drag to pull them off-center, or threaten a triangle to force them to bring their arms inside, which compromises their base. The key principle is that the Flower Sweep works best as a second or third attack in a chain, not as a cold opener against a postured opponent.
-
-**Q7**: How does the timing of opening your closed guard affect the Flower Sweep's effectiveness?
-**A**: Opening the guard too early telegraphs your intention and gives the opponent time to establish a defensive base, lower their center of gravity, and prepare for your attack. The guard should remain closed until the moment you're ready to execute, at which point the opening, angle creation, and hook insertion should happen as one smooth, quick motion. This element of surprise, combined with the opponent's lack of preparation time, significantly increases your success rate. Advanced practitioners can open the guard slightly earlier, but only when they've already broken the opponent's posture completely.
-
-**Q8**: During the sweep, your opponent begins to sprawl their hips backward - what adjustment keeps the sweep viable?
-**A**: When the opponent sprawls, their hips move away but their upper body weight remains forward due to your grip control. Accelerate your hip rotation and follow their retreating hips with your hooking leg, extending it further to maintain the lever. Pull harder with your collar grip to keep their upper body loaded over you while your posted foot drives aggressively. If the sprawl creates too much distance for the hook to be effective, immediately redirect to an armbar or triangle since their sprawl has extended their arms and created the angles those attacks require. The critical error is pausing when you feel the sprawl - you must either commit harder to the sweep or immediately transition.
-
-**Q9**: What specific direction of force should your butterfly hook apply, and why does the angle matter?
-**A**: The butterfly hook should apply force upward and diagonally toward the ceiling on the sweeping side, not straight up. A straight upward lift simply elevates the opponent without creating rotational momentum, allowing them to re-base when they come down. The diagonal force, combined with your grip pulls, creates a spiral that rotates their body over your shoulder. Your knee should point outward at roughly 45 degrees from your centerline. This diagonal vector, when combined with the pulling grips and posted foot drive, creates a three-point force system that is mechanically very difficult to resist even against larger opponents.
-
-**Q10**: If the sweep stalls at the halfway point and you end up in a scramble position, what are your best options?
-**A**: If the sweep stalls with both practitioners partially on their sides, your priority is maintaining your grips and continuing forward momentum rather than resetting to guard. Drive your chest into theirs while keeping the sleeve controlled. From this halfway position, you can often complete the sweep by posting your free hand and driving over. If completion is not possible, immediately transition to attacking the controlled arm for a kimura or transition to a front headlock position if you can get your head above theirs. The worst option is abandoning the sweep and pulling back to closed guard, because you've already expended the energy and opened your guard - capitalize on the scramble rather than conceding.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Flower Sweep?</p>
 
 The Flower Sweep is one of the safest techniques in BJJ when practiced properly, with minimal injury risk to either practitioner. The primary safety concern is ensuring controlled follow-through to mount - avoid driving your knee or bodyweight into the opponent's face or ribs as you come on top. When learning, both partners should be aware of the rotational nature of the sweep to avoid awkward landings. Practitioners with limited hip mobility should warm up thoroughly before drilling this technique to prevent hip flexor or groin strains. During live training, tap quickly if caught in a submission during the scramble to mount. As the person being swept, do not post your hand directly into the mat with a locked elbow, as this can result in shoulder or elbow injuries - instead, post with a bent arm or learn to roll through safely.
 

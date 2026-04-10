@@ -188,6 +188,8 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Recovery from Hindulotine?</p>
+
 - Prioritize hip realignment before attempting guard recomposition - the angled hip position from the Hindulotine leaves your back exposed to passing and back takes
 - Convert the Hindulotine grip to an overhook or collar control rather than fully releasing, maintaining at least partial upper body control throughout the transition
 - Use the rotational momentum from the Hindulotine position to assist your hip escape rather than fighting against it
@@ -203,6 +205,8 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Recovery from Hindulotine?</p>
+
 - Recognition that the Hindulotine choke is failing due to opponent defense, posture recovery, or loss of rotational choking angle
 - Awareness of which direction your hips are angled to plan the hip realignment and guard recovery path
 - At least one leg available to immediately create a barrier on the exposed side upon grip release
@@ -214,6 +218,8 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Recovery from Hindulotine step by step?</p>
 
 1. **Assess Hindulotine Viability and Identify Hip Angle**: Determine that the Hindulotine choke is no longer producing effective pressure and identify which direction your hips are rotated. Note which side is exposed to passing - this is the side where you must establish your first leg barrier to prevent the opponent from circling to your back.
 2. **Establish Leg Barrier on Exposed Side**: Before releasing the Hindulotine grip, insert your near-side knee as a shield on the exposed side - the direction your back is partially turned toward. This prevents the opponent from immediately circling around your rotated hips to take your back or advance to side control on your exposed flank.
@@ -243,6 +249,8 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Recovery from Hindulotine?</p>
+
 - **Opponent circles to the exposed back side during hip realignment, taking advantage of the angular position to advance behind your guard** (Effectiveness: High) - Your Response: Prioritize the near-side knee shield on the exposed side before beginning hip rotation, and use your overhook grip to prevent the opponent from circling past your shoulder line → Leads to [[Positions/Side Control]]
 - **Opponent drives heavy forward pressure to flatten you during the grip transition, collapsing your frames before hip realignment completes** (Effectiveness: High) - Your Response: Use the knee shield and frame together to absorb the pressure, and if flattened, immediately work to regain lateral position through small incremental hip escapes rather than attempting one large recovery movement → Leads to [[Positions/Hindulotine]]
 - **Opponent strips the overhook conversion and postures up aggressively to create maximum distance before you can recompose guard** (Effectiveness: Medium) - Your Response: Chase with feet on hips immediately upon losing upper body control, and secure sleeve or collar grip with your free hand to maintain connection at range → Leads to [[Positions/Hindulotine]]
@@ -253,6 +261,8 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Recovery from Hindulotine?</p>
 
 ### 1. Attempting to recover guard without first realigning hips from the angular Hindulotine position
 
@@ -287,6 +297,8 @@ As the bottom player abandoning Hindulotine control, your primary challenge is t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Recovery from Hindulotine (Attacker)?</p>
+
 **Phase 1: Hip Realignment Mechanics** - Rotating from Hindulotine hip angle to square guard position
 Start in the angular Hindulotine hip position with partner holding static posture. Practice the hip rotation sequence - near-side knee shield establishment, core-driven hip escape, squaring up to face the opponent - at zero resistance. Perform 20 repetitions per side to build muscle memory for the rotational recovery movement.
 
@@ -307,45 +319,12 @@ Before defaulting to guard recovery, practice recognizing whether the Hindulotin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What makes guard recovery from Hindulotine more complex than recovery from a standard guillotine control position?
-**A**: The Hindulotine's rotational choking mechanics leave your hips angled with your body partially turned away from the opponent, creating an exposed back side that does not exist in standard guillotine control. This angular displacement requires an additional hip realignment step before guard recomposition can begin, and the exposed side must be protected with a knee shield immediately upon grip release to prevent back takes or side control advancement.
-
-**Q2**: Why should you convert the Hindulotine grip to an overhook rather than fully releasing during guard recovery?
-**A**: Converting to an overhook maintains upper body connection and prevents the opponent from freely posturing or disengaging during the critical hip realignment phase. The overhook controls the opponent's near arm, preventing them from posting on that side to circle to your exposed back, while giving you a control handle to manage distance during the transition. Full release gives the opponent complete freedom to choose their response timing and angle.
-
-**Q3**: Which side should you establish your first knee shield on during Hindulotine guard recovery and why?
-**A**: Establish the first knee shield on your exposed side - the direction your back is partially turned toward due to the Hindulotine's angular hip position. This is the side where the opponent has the easiest path to circle behind your guard or advance to side control. The knee shield on the exposed side creates an immediate structural barrier against the most dangerous passing angle before you begin the hip realignment process.
-
-**Q4**: Your opponent begins circling to your back side as you release the Hindulotine - what is your emergency response?
-**A**: Immediately establish a knee shield on the exposed side while maintaining your overhook grip to prevent them from completing the circle past your shoulder line. If they have already begun passing, turtle defensively and work to recover guard from turtle rather than attempting to square up while they are behind your hip line. The overhook becomes critical here as it anchors their upper body to yours, preventing full separation and back take completion.
-
-**Q5**: When should you abandon Hindulotine guard recovery and instead transition to an offensive choke chain like Darce or Anaconda?
-**A**: Transition to Darce or Anaconda when the opponent's head and arm positioning during their extraction creates the necessary grip pathway, and your arms still have sufficient grip strength for an offensive submission. Specifically, if the opponent drives their head past your centerline during extraction and their near arm is trapped below your chest line, the Darce or Anaconda grip may be available. If your forearms are exhausted from the Hindulotine attempt, commit to guard recovery instead.
-
-**Q6**: What direction should your hip rotation move during the realignment phase, and what happens if you rotate the wrong way?
-**A**: Your hips should rotate toward the opponent to square up and face them directly, using the far foot to drive the hip escape motion. If you rotate the wrong way - away from the opponent - you expose your back further and create an even larger angular gap for them to circle through. The rotation must bring your belly button to face the opponent, which closes the exposed side and creates a symmetrical guard structure. The near-side knee shield acts as a pivot point for this rotation.
-
-**Q7**: Your opponent pins your near hip to prevent rotation during the recovery - how do you restart the realignment?
-**A**: When the opponent pins your near hip, you cannot complete the large rotation needed for full hip realignment. Instead, use micro hip escapes in small increments to gradually create the rotation angle rather than attempting one large movement. Frame on their shoulder with your free hand to create just enough space for each small hip adjustment. Alternatively, use your overhook to pull their upper body down and toward you, which disrupts their hip pin base and creates the window for your rotation to resume.
-
-**Q8**: What grip configuration gives you the best distance control after completing hip realignment and settling into open guard?
-**A**: Collar-sleeve grip provides the strongest distance control post-recovery because it controls both the opponent's posture through the collar and their primary posting arm through the sleeve. The collar grip prevents them from posturing up to restart a passing sequence, while the sleeve grip eliminates their ability to break through your guard frames on that side. Combined with feet on hips, this creates a three-point control system that is extremely difficult to dismantle from the opponent's perspective.
-
-**Q9**: The opponent drives heavy forward pressure and flattens you before you complete hip realignment - what is your recovery priority?
-**A**: When flattened, abandon the large hip rotation and shift to survival-based incremental recovery. First, maintain your knee shield even if compressed - it prevents full side control consolidation. Second, use small hip escapes to regain a lateral angle rather than attempting the full rotation under pressure. Third, keep your overhook or collar grip active to prevent the opponent from achieving full crossface control. Work in small movements to rebuild the space needed for hip realignment rather than fighting one large explosive escape against settled pressure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Recovery from Hindulotine?</p>
 
 Guard recovery from Hindulotine carries moderate risk due to the rotational forces involved. The angular hip position can place stress on the lumbar spine during the realignment phase, particularly if explosive rotation is used. Perform hip realignment with controlled core-driven movement rather than explosive twisting. The Hindulotine itself applies cervical pressure, so ensure the choke is fully released before initiating recovery movements to avoid compounding neck strain with rotational body movement. During training, communicate clearly about when the choke is released to prevent accidental cranking during the transition.
 

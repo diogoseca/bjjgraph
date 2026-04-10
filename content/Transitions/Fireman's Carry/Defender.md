@@ -162,6 +162,8 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Fireman's Carry?</p>
+
 - Opponent suddenly drops their level by bending knees and hips while maintaining arm contact - this sharp level change is the primary initiator of the Fireman's Carry
 - Opponent pulls your arm downward and across their body while simultaneously stepping forward between your legs with a deep penetration step
 - Opponent's head drives toward your far hip or under your armpit rather than maintaining chest-to-chest clinch contact
@@ -174,6 +176,8 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Fireman's Carry?</p>
 
 - Maintain low hip position and bent knees in the clinch to eliminate the height differential the attacker needs for penetration
 - Recognize the level change and arm pull as early warning signals and react immediately with hip sprawl or base widening
@@ -188,6 +192,8 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Fireman's Carry?</p>
 
 ### 1. Sprawl and drive hips back immediately upon recognizing the level change, dropping your weight onto the attacker's shoulders and back while pushing their head down
 
@@ -225,6 +231,8 @@ Defending the Fireman's Carry requires understanding the technique's sequential 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Fireman's Carry?</p>
+
 ### → [[Positions/Clinch]]
 
 Sprawl immediately on the level change to flatten the attacker, then recover to standing clinch with dominant grips. The sprawl must be explosive and committed, driving your hips back and down while pushing the attacker's head toward the mat. Once the attempt is stopped, re-establish collar tie or underhook control before they can reset for another attempt.
@@ -240,6 +248,8 @@ Counter the Fireman's Carry by hip switching behind the attacker as they commit 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Fireman's Carry?</p>
 
 ### 1. Standing tall with straight legs and upright posture in the clinch, providing the height differential the attacker needs
 
@@ -274,6 +284,8 @@ Counter the Fireman's Carry by hip switching behind the attacker as they commit 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Fireman's Carry?</p>
+
 **Week 1-2: Recognition Drilling** - Developing pattern recognition for Fireman's Carry setups
 Partner slowly executes the Fireman's Carry entry sequence (level change, arm pull, penetration step) at 25-50% speed. Focus exclusively on recognizing the tactile and visual cues that indicate the technique is being attempted. Practice naming each cue aloud as it occurs. No defensive responses yet - pure recognition training. Perform 30-40 repetitions per session with partner varying the timing and angle of entry.
 
@@ -290,29 +302,6 @@ Integrate Fireman's Carry defense into live standing sparring rounds. Partner at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can effectively defend the Fireman's Carry?
-**A**: The earliest and most effective defensive point is during the initial level change, before the attacker establishes the penetration step. When you feel the sudden downward drop and arm pull, an immediate hip sprawl or base-widening response stops the technique before it develops any momentum. Defending at this stage requires minimal effort compared to defending mid-lift, because the attacker has not yet established mechanical advantage. The key is recognition speed - training to identify the level change and arm pull pattern so your sprawl becomes reflexive rather than deliberate.
-
-**Q2**: Why does a late sprawl actually help the attacker complete the Fireman's Carry?
-**A**: When you sprawl after the attacker has already loaded you across their shoulders in the carry position, your sprawling motion drives your weight downward onto their back, which the attacker can redirect into rotational momentum to complete the throw. Essentially, you are adding force in the direction they want to take you. At this stage, the correct defense shifts from sprawling to base widening, whizzer control, or attacking their posture from above. The defensive window for an effective sprawl closes once your weight has been committed across the attacker's shoulders.
-
-**Q3**: Your opponent in the clinch suddenly drops level and pulls your right arm across their body - what is your immediate response?
-**A**: Your immediate response should be a simultaneous two-part action: First, explosively strip or circle your right arm out of their grip by rotating your arm outward and pulling back before they can secure full control. Second, drop your hips and widen your base by bending your knees and stepping your feet apart to eliminate the height differential they need. If the arm strip fails and they maintain control, immediately establish a whizzer with your left arm over their right shoulder while driving your hips backward and down. The critical principle is addressing both the arm control and the level change simultaneously rather than dealing with one at a time.
-
-**Q4**: How should your clinch posture differ when facing an opponent known for Fireman's Carry attacks?
-**A**: Against a known Fireman's Carry threat, adopt a lower, more defensive clinch posture with your knees significantly more bent, hips sitting lower, and weight distributed slightly backward over your base rather than pressing forward. Keep your elbows tighter to your body to deny the wrist and triceps access the attacker needs. Maintain active hand fighting to prevent them from establishing the arm control that initiates the sequence. Your collar tie should be higher on their neck to control their posture and make it harder for them to drop level. This defensive posture sacrifices some offensive clinch options but dramatically reduces your vulnerability to the carry.
-
-**Q5**: What defensive option becomes available if the attacker commits deeply to the penetration step and exposes their back?
-**A**: When the attacker commits deeply to the penetration step and their head drops below your hip level, a hip switch to take their back becomes available. As they drive forward and down, circle your hips toward the side their head is pointing, stepping around behind them. This movement exploits their deep forward commitment, which makes it difficult for them to recover their hips and square back up to you. The counter requires timing your hip switch to coincide with their deepest penetration moment, and you must immediately establish a seatbelt grip or body lock from behind to secure the position before they can stand and reset.
-
-
-
-</section>
 
 
 </main>

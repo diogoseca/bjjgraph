@@ -38,8 +38,8 @@ description: "Master Overhook Guard Top position in BJJ. Control opponent's arm 
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura from Guard",
-      "text": "From this position, attempt Kimura from Guard. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Overhook Pass to Side Control",
+      "text": "From this position, attempt Overhook Pass to Side Control. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
@@ -169,6 +169,8 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Position Definition
 
+<p class="section-subtitle">What is Overhook Guard (Top)?</p>
+
 - Top player has secured overhook control on one of bottom player's arms, with their arm threaded under opponent's arm and controlling near the shoulder or upper back, eliminating bottom player's ability to frame on that side
 - Top player maintains chest-to-chest or chest-to-shoulder pressure with hips positioned forward, preventing bottom player from creating distance or recovering full guard structure
 - Bottom player is on their back or side with one arm trapped, limited to single-arm defensive frames while top player works to advance position through the compromised guard
@@ -182,6 +184,8 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Overhook Guard (Top)?</p>
+
 - Successful overhook establishment from opponent's guard
 - Bottom player unable to immediately strip the overhook
 - Top player has established forward pressure and base
@@ -193,6 +197,8 @@ This position is particularly effective in both gi and no-gi grappling, though t
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Overhook Guard?</p>
 
 - Maintain constant shoulder pressure into the overhooked arm to prevent opponent from pulling it free
 - Keep hips heavy and forward to prevent bottom player from creating space or recovering guard
@@ -209,6 +215,8 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Overhook Guard (Top)?</p>
+
 **If opponent maintains flat posture and defends with free arm frames:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 65%)
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 60%)
@@ -216,7 +224,7 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 **If opponent turns to side attempting to strip overhook:**
 - Execute **[[Transitions/Arm Drag to Back/Attacker|Arm Drag to Back]]** → [[Positions/Back Control]] (Probability: 55%)
-- Execute **[[Submissions/Kimura from Guard/Attacker|Kimura from Guard]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Transitions/Overhook Pass to Side Control/Attacker|Overhook Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 50%)
 
 
 **If opponent attempts to create distance or recover full guard:**
@@ -236,6 +244,8 @@ This position is particularly effective in both gi and no-gi grappling, though t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Overhook Guard?</p>
 
 ### 1. Releasing overhook pressure too early in anticipation of pass
 
@@ -280,6 +290,8 @@ This position is particularly effective in both gi and no-gi grappling, though t
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Overhook Guard attacks?</p>
+
 ### Overhook Pressure Maintenance Drill
 
 Partner starts in closed guard. Establish overhook and maintain shoulder pressure for 30-second intervals while partner attempts to strip the overhook or create space. Focus on keeping hips heavy and shoulder driving into opponent's arm. Switch roles after 5 rounds.
@@ -312,38 +324,6 @@ Positional sparring starting from overhook guard top. Top player wins by passing
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary method for maintaining overhook control when your opponent attempts to posture and pull their arm free?
-**A**: Drive constant shoulder pressure into the overhooked arm while keeping your hips heavy and forward. The shoulder acts as a wedge that pins their arm to your body. Simultaneously maintain chest-to-chest contact to eliminate space they need to extract their arm, and use your free hand to control their opposite arm or collar to prevent them from generating leverage.
-
-**Q2**: Your opponent begins bridging to create space while you have overhook control - how should you adjust your weight distribution?
-**A**: Drop your hips lower and drive your weight forward through your chest into their torso, not backward. Widen your base with your knees to absorb the bridging motion. As they bridge, use their movement to advance your position by walking your feet forward and increasing the angle of pressure through your shoulder. Never lift your hips high during their bridge as this creates the space they need to escape.
-
-**Q3**: What are the essential grip priorities for maintaining overhook guard top position effectively?
-**A**: Primary grip is the overhook itself, with your arm threaded deep under their arm and your hand controlling their shoulder blade or lat. Secondary priority is controlling their free arm with your opposite hand - grip their wrist, sleeve, or collar to prevent frames. In gi, use collar grips to reinforce control; in no-gi, use wrist control or underhook their free arm.
-
-**Q4**: How do you shut down your opponent's primary escape of turning away to recover guard?
-**A**: When you feel them begin to turn, immediately drive your shoulder pressure forward and follow their rotation. Keep your chest glued to their back or side as they turn. If they commit to turning, capitalize by transitioning to back control rather than trying to flatten them again. Use your free hand to block their hip rotation by controlling their far hip or belt.
-
-**Q5**: What is the proper shoulder pressure application technique from overhook guard top?
-**A**: Position your shoulder at approximately 45 degrees across their chest, driving into the junction of their neck and shoulder on the trapped arm side. Your weight should flow through your shoulder like a blade cutting across their body. Keep your head low on the opposite side of the overhook, and maintain a driving angle that pins both their shoulder and arm simultaneously. The pressure should feel like you're trying to touch their opposite shoulder with yours.
-
-**Q6**: Your opponent partially escapes by recovering half guard while you maintain the overhook - what is your recovery strategy?
-**A**: Maintain the overhook control as your anchor point and immediately switch your passing strategy to half guard techniques. Use the overhook to flatten their upper body while addressing the half guard with knee slice or over-under mechanics. The overhook actually enhances your half guard passing by eliminating one of their primary frames. Focus on keeping shoulder pressure while your lower body works the pass.
-
-**Q7**: How do you manage energy expenditure to maintain this position for extended periods?
-**A**: Distribute your weight efficiently through your skeletal structure rather than relying on muscular tension. Keep your elbows tight to your body, use your chest and shoulder as the primary pressure tools, and maintain a low center of gravity. Breathe rhythmically and avoid death-gripping. Progress the pass systematically rather than fighting for static control - active passing is less tiring than holding a stalemate.
-
-**Q8**: Your opponent explosively frames with their free arm against your face - how do you recover control?
-**A**: Turn your head to the side and drive your chin down, making the frame slip off your face rather than stopping your forward pressure. Simultaneously use your free hand to swim inside their framing arm and redirect it to the mat or pin it to their body. Never back away from the frame as this surrenders your position. Increase your forward pressure through the frame and angle your approach to bypass it.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

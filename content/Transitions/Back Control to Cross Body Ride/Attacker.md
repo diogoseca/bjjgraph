@@ -182,6 +182,8 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Control to Cross Body Ride?</p>
+
 - Maintain unbroken harness or seatbelt grip throughout the entire transition, as upper body connection is the thread that preserves control during the positional shift
 - Rotate hips laterally rather than lifting chest, keeping weight loaded on the opponent's back at all times during the perpendicular shift
 - Time the transition to coincide with the opponent's defensive movement, using their energy to assist your lateral rotation rather than fighting against their direction
@@ -196,6 +198,8 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Control to Cross Body Ride?</p>
+
 - Harness or seatbelt grip established on the opponent's upper body with strong elbow-to-torso connection
 - Opponent has begun turtling, curling forward, or stripping hooks, creating a lateral angle opportunity
 - Your chest remains in contact with the opponent's back despite hook compromise
@@ -207,6 +211,8 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Control to Cross Body Ride step by step?</p>
 
 1. **Recognize the transition trigger**: Feel for the moment your hooks are being stripped, the opponent curls into turtle, or their hips begin turning away from your parallel alignment. This is your cue to initiate the cross body ride transition rather than fighting to maintain standard back control. The trigger is the sensation of losing lower body control while upper body connection remains strong.
 2. **Tighten the harness grip**: Before initiating any hip movement, clamp your seatbelt or harness grip tighter by drawing your elbows toward your own ribs. This locks your upper body to the opponent's torso and ensures that the connection survives the rotational shift. Your hands should feel cemented together with the overhook arm pulling and the underhook arm lifting slightly to maintain chest-to-back pressure.
@@ -235,6 +241,8 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Control to Cross Body Ride?</p>
+
 - **Opponent sits out explosively as you begin the lateral rotation, creating space to face you** (Effectiveness: High) - Your Response: Follow the sit-out direction with your chest, maintaining contact and driving them back to turtle. If they complete the sit-out, immediately re-engage with front headlock or guillotine control before they establish guard. → Leads to [[Positions/Turtle]]
 - **Opponent tucks arms tight and forward rolls during the transition to escape chest pressure** (Effectiveness: Medium) - Your Response: Maintain your harness grip and follow the roll, landing in cross body ride on the opposite side. Use their rolling momentum to accelerate your positional establishment rather than fighting against the direction. → Leads to [[Positions/Back Control]]
 - **Opponent frames against your near-side knee and hip escapes to recover half guard or butterfly guard** (Effectiveness: Medium) - Your Response: Drive heavy shoulder pressure to collapse their frames before they can fully extend. If they achieve a frame, switch to a leg weave or knee slice passing approach to maintain top pressure while addressing the guard recovery. → Leads to [[Positions/Turtle]]
@@ -246,6 +254,8 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Control to Cross Body Ride?</p>
 
 ### 1. Lifting chest off the opponent's back during the hip rotation
 
@@ -285,6 +295,8 @@ As the attacker executing the Transition to Cross Body Ride, your objective is t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Control to Cross Body Ride (Attacker)?</p>
+
 **Solo Movement** - Hip rotation mechanics
 Practice the lateral hip swing motion on a heavy bag or grappling dummy, focusing on keeping your chest pinned while rotating hips from behind to beside. Build the motor pattern of chest-as-pivot-point hip rotation until it feels natural and smooth.
 
@@ -305,42 +317,12 @@ After completing the transition to cross body ride, immediately chain into follo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals you should transition to cross body ride rather than fight to maintain standard back control?
-**A**: The trigger is when your lower body control through hooks is being successfully compromised but your upper body harness or seatbelt grip remains intact. Specifically, when the opponent strips one or both hooks and begins curling into turtle, this creates the lateral angle opportunity. Fighting to re-insert hooks against an opponent who is actively defending them wastes energy and risks losing the position entirely, while the cross body ride converts their defensive success into your lateral advancement.
-
-**Q2**: Why must the chest remain in contact with the opponent's back throughout the entire transition?
-**A**: The chest-to-back connection is the single non-negotiable element that preserves control during the transition. It serves as the pivot point around which your hips rotate, maintains weight pressure that prevents the opponent from standing or turning, and ensures there is no separation gap that the opponent could exploit for an escape. If the chest lifts even momentarily, the opponent gains the space needed to sit out, roll, or recover guard. The transition is fundamentally a hip rotation around a fixed chest contact point.
-
-**Q3**: Your opponent strips your near-side hook and begins turning their hips away from you. Which direction do you rotate and why?
-**A**: Rotate in the same direction the opponent is turning, following their movement rather than opposing it. This is because moving with their momentum allows you to maintain chest contact while your hips swing around to the perpendicular angle naturally. If you rotate against their direction, you create separation as both bodies move apart. Following their turn also positions your near-side knee perfectly to block their far hip once you arrive at the cross body ride angle.
-
-**Q4**: What is the critical difference between the halfway point of this transition and the completed cross body ride position?
-**A**: The halfway point is the most vulnerable moment because you have neither the hook control of back control nor the perpendicular pressure of cross body ride. At this halfway position, your hips are angled diagonally with insufficient base on either side, and the opponent has maximum escape options. The completed cross body ride has three established control points: perpendicular chest pressure, near-side knee in the hip, and far-side leg posted for base. This is why the transition must be committed and decisive rather than tentative.
-
-**Q5**: How does the near-side knee function differently in cross body ride compared to a hook in standard back control?
-**A**: In standard back control, the hook wraps inside the opponent's thigh from behind, controlling hip rotation through entanglement. In cross body ride, the near-side knee drives into the opponent's hip from the side, acting as a wedge or post that prevents sit-through escapes and guard recovery. The hook controls through wrapping and entangling while the knee controls through blocking and pressure. The knee position also anchors the top player's base, creating a stable tripod with the far-side posting foot.
-
-**Q6**: Your opponent forward rolls as you begin the transition. What is your response and why?
-**A**: Maintain your harness grip and follow the roll, using the opponent's momentum to accelerate into cross body ride on the opposite side. The harness grip ensures you stay connected through the roll, and your chest should stay in contact with their back throughout the rotation. This works because the roll actually assists your transition to perpendicular orientation. The key is not releasing the grip or panicking during the roll. After they complete the roll, immediately establish near-side knee control and consolidate the cross body position.
-
-**Q7**: What grip adjustments might be necessary after completing the transition from harness control to cross body ride control?
-**A**: The harness or seatbelt grip that works in standard back control may need adjustment in cross body ride. From the perpendicular angle, you may transition the near-side arm from a seatbelt underhook to a deeper underhook controlling the far arm, or switch to a collar tie controlling the opponent's head. The far-side overhook may shift to a cross-face or whizzer position. The specific adjustment depends on your planned follow-up attack, but the principle is that grip configuration should match the control angle rather than trying to maintain back control grips from a cross body position.
-
-**Q8**: When should you choose to fight for hook re-insertion instead of transitioning to cross body ride?
-**A**: Fight for hook re-insertion when you still have one hook in and reasonable access to re-insert the second, when the opponent has not fully committed to a turtle position and remains somewhat flat, or when you have body triangle available as an alternative to hooks. The cross body ride transition is the better choice when both hooks are being stripped, the opponent is actively curling into a tight turtle ball, or when you have been fighting for hooks for several seconds without success and your energy is being drained in a grip war you are losing.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Control to Cross Body Ride?</p>
 
 This transition involves lateral weight shifting across the opponent's spine and upper back. Avoid dropping weight suddenly or explosively onto the opponent's cervical spine area, as this can cause neck injury. When drilling, initiate the transition smoothly and progressively increase speed only as both partners become comfortable with the movement pattern. Communicate with your training partner about pressure levels, particularly regarding shoulder pressure across the upper back and neck region. In competition, be aware that excessive pressure on the back of the head or neck may constitute a foul depending on the ruleset.
 

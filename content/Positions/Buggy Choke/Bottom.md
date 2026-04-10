@@ -169,6 +169,8 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 ## Position Definition
 
+<p class="section-subtitle">What is Buggy Choke (Bottom)?</p>
+
 - Bottom player remains in turtle structure with hands and knees on mat, attempting to maintain base while opponent applies perpendicular pressure and collar/neck control from top position
 - Top player's arm threads under bottom player's near armpit reaching across toward far collar or neck, creating primary choking mechanism that bottom player must prevent from deepening
 - Bottom player's near arm is compromised by opponent's threading arm, limiting its defensive utility and creating structural weakness on that side of the defensive turtle frame
@@ -182,6 +184,8 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Buggy Choke (Bottom)?</p>
+
 - Bottom player has entered turtle position from guard passing sequence, scramble, or deliberate defensive choice
 - Top player has established dominant turtle top position with ability to attack neck and collar areas
 - Bottom player's posture has been compromised sufficiently to allow opponent's arm threading under armpit
@@ -194,6 +198,8 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Buggy Choke?</p>
 
 - Recognize threading attempt immediately through proprioception and implement grip prevention before second grip secures
 - Maintain aggressive posture recovery by driving head and shoulders up to prevent flattening and collar access
@@ -209,6 +215,8 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Buggy Choke (Bottom)?</p>
 
 **If opponent is threading arm but second grip not yet secured:**
 - Execute **[[Strip threading arm aggressively/Attacker|Strip threading arm aggressively]]** → [[Positions/Turtle]] (Probability: 45%)
@@ -241,6 +249,8 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Buggy Choke?</p>
 
 ### 1. Remaining static in turtle hoping opponent will transition away rather than finish the choke
 
@@ -275,6 +285,8 @@ Successful defense requires abandoning the mindset of maintaining turtle as a sa
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Buggy Choke defense?</p>
+
 ### Grip Prevention Sensitivity Drill
 
 Start in turtle bottom with partner in turtle top control. Partner attempts buggy choke entry in slow motion while bottom player practices recognizing threading attempt through feel and implements immediate defensive responses (elbow clamping, posture drive, grip stripping). Gradually increase speed as recognition improves. Focus on proprioceptive awareness of threading motion.
@@ -300,38 +312,6 @@ Partner attacks with buggy choke using graduated resistance levels: 25%, 50%, 75
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window for preventing the Buggy Choke?
-**A**: The critical window exists during the threading phase before the second grip is secured. Once both grips are established with proper depth and body pressure applied, escape percentages drop dramatically. You must recognize the threading attempt immediately through feel and implement grip prevention, posture adjustments, or proactive escape movements within 1-2 seconds.
-
-**Q2**: Your opponent begins threading their arm under your armpit - what is your immediate defensive priority?
-**A**: Clamp your near elbow tight to your ribs immediately to block the threading arm's depth and prevent palm-up collar grip establishment. Simultaneously drive your head and shoulders up aggressively to maintain high turtle posture. These two actions combined eliminate the primary choking pathway before it develops.
-
-**Q3**: Why is rolling away from the choking arm a common mistake in Buggy Choke defense?
-**A**: Rolling away actually tightens the collar grip and accelerates the choke because your rotation drives your neck deeper into the grip. Additionally, rolling away often transitions you directly into truck or back control positions. Instead, roll toward the choking arm to face the opponent and eliminate the choking angle, or sit to guard proactively.
-
-**Q4**: What grip should you prioritize stripping when defending an established Buggy Choke?
-**A**: Prioritize removing or blocking the primary threading arm's depth first, not the second grip. The threading arm is the primary choking mechanism that enables the entire position. Even if you strip the second grip, the threading arm maintains depth with palm-up collar access, making the second grip stripping irrelevant to stopping the choke.
-
-**Q5**: When should you accept transitioning to back control rather than continuing to defend the Buggy Choke?
-**A**: Accept back control when full buggy choke control is established with body pressure and you cannot effectively strip grips. Back control, while disadvantageous, allows continued defense with multiple escape options, whereas staying in the fully-locked buggy choke leads to submission. A controlled transition to a survivable position is better than being choked.
-
-**Q6**: Your opponent has both grips secured but hasn't applied significant body pressure yet - what escape options are available?
-**A**: This is your last high-percentage escape window. Execute an explosive granby roll away to create distance and recover guard, attempt a technical stand up urgently before pressure pins you, or proactively accept back control by sitting to guard and giving up the back take. All three options become much harder once body pressure is applied.
-
-**Q7**: How does maintaining high turtle posture help defend the Buggy Choke?
-**A**: High turtle posture with head and shoulders driven up creates distance from the collar area, making it harder for the opponent to achieve deep grip access. It also preserves the mobility needed for escape movements like sitting to guard or standing up. Lowering your head or flattening your posture actually facilitates the choking mechanics.
-
-**Q8**: What is the energy management strategy for defending against Buggy Choke attacks?
-**A**: Early intervention requires significantly less energy than late-stage defense. Use energy aggressively in the first 2-3 seconds to strip grips or escape before control consolidates. Once full control is established, conserve energy by accepting positional transitions rather than fighting a losing grip battle. Recognize that sustained turtle defense against a locked buggy choke is energetically unsustainable.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

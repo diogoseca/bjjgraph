@@ -202,13 +202,13 @@ This transition occupies a critical junction in the Kimura Trap system's decisio
 
 - [[Positions/Side Control/Reverse Scarf Hold]] - Target position achieved upon successful completion of this transition
 
-- [[Transitions/Kimura]] - Primary submission threat that forces defensive reactions opening this transition
+- [[Submissions/Kimura]] - Primary submission threat that forces defensive reactions opening this transition
 
 - [[Transitions/Kimura to Back Take]] - Alternative transition when opponent turns away rather than tucking elbow
 
 - [[Transitions/Side Control to Mount]] - Alternative positional advancement from similar starting configuration
 
-- [[Transitions/Americana]] - Follow-up submission available from Reverse Scarf Hold after transition
+- [[Submissions/Americana]] - Follow-up submission available from Reverse Scarf Hold after transition
 
 - [[Positions/North-South]] - Secondary transition target accessible from Reverse Scarf Hold
 

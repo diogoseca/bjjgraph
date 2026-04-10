@@ -154,6 +154,8 @@ As the defender against the reguard from Double Jump, your objective is to maint
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reguard from Double Jump?</p>
+
 - Bottom player begins establishing forearm frames against your chest or shoulders, pushing to create distance rather than attacking
 - Hip escape movement felt as the bottom player shrimps their hips to the side underneath your pressure
 - Inside leg begins withdrawing from underneath your base as the bottom player initiates leg extraction
@@ -166,6 +168,8 @@ As the defender against the reguard from Double Jump, your objective is to maint
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reguard from Double Jump?</p>
 
 - Maintain heavy chest-to-back pressure to eliminate the space needed for hip escape and guard closure
 - Control the opponent's hips with your body positioning to prevent the angular movement required for reguarding
@@ -180,6 +184,8 @@ As the defender against the reguard from Double Jump, your objective is to maint
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reguard from Double Jump?</p>
 
 ### 1. Drive heavy forward pressure through chest and hips to flatten the bottom player and collapse their frames
 
@@ -217,6 +223,8 @@ As the defender against the reguard from Double Jump, your objective is to maint
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reguard from Double Jump?</p>
+
 ### → [[Positions/Side Control]]
 
 Time your guard passing attempt during the vulnerable leg extraction phase when the bottom player's legs are reconfiguring. Drive your hips through the opening between their extracting legs and consolidate side control with crossface and underhook before guard closure completes.
@@ -232,6 +240,8 @@ Maintain relentless forward pressure and hip control to collapse the bottom play
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reguard from Double Jump?</p>
 
 ### 1. Allowing space to develop between your chest and the opponent's body during the reguard attempt
 
@@ -261,6 +271,8 @@ Maintain relentless forward pressure and hip control to collapse the bottom play
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reguard from Double Jump?</p>
+
 **Recognition training** - Identifying reguard cues versus offensive cues from Double Jump bottom
 Partner alternates between offensive Double Jump entries and reguard attempts. Practice distinguishing between offensive and defensive energy shifts by feeling for frame establishment, hip escape initiation, and leg withdrawal patterns. Call out the reguard attempt the moment you detect it.
 
@@ -277,26 +289,6 @@ Full positional sparring from Double Jump top where you must maintain position, 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to reguard from Double Jump bottom?
-**A**: The earliest cue is the establishment of forearm frames against your chest or shoulders combined with a shift from offensive to defensive energy. This defensive framing indicates the bottom player is transitioning from sweep and entry attempts to guard recovery mode. Responding immediately to frame establishment with increased forward pressure gives you the best chance of preventing the reguard before the hip escape that follows.
-
-**Q2**: How should you respond when you feel the bottom player beginning a hip escape underneath you?
-**A**: When you feel the hip escape, immediately drive your hips forward and down to eliminate the space being created. Use your chest pressure to pin the bottom player's shoulders while your hips deny the angular movement needed for guard closure. If the hip escape has already created significant angle, transition immediately to a passing attempt through the exposed legs rather than trying to reset them flat.
-
-**Q3**: Your opponent has extracted one leg and is sweeping the other around your waist - what is your best option?
-**A**: If one leg is already sweeping around, your best option is to address the half guard situation by driving your hip toward the mat on the hooking side to prevent the second leg from completing the closure. Initiate a knee slice or pressure pass through the partially closed legs before the ankle lock completes. Accepting a half guard passing opportunity is strategically superior to being caught in a fully locked closed guard.
-
-**Q4**: Why is maintaining heavy pressure more effective than explosive movement when defending the reguard?
-**A**: Explosive movement creates space and unpredictability that actually favors the bottom player's guard recovery. Heavy, consistent forward pressure eliminates the space needed for hip escapes and leg extraction while keeping you in a stable base from which to advance or pass. The bottom player needs space and time to complete the reguard - constant pressure denies both resources simultaneously while keeping you positioned to capitalize on any error in their recovery sequence.
-
-
-
-</section>
 
 
 </main>

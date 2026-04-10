@@ -188,6 +188,8 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Pass?</p>
+
 - Establish and maintain wide, stable base to resist sweep attempts
 - Control opponent's upper body posture through grips and weight distribution
 - Systematically remove butterfly hooks through pressure and positioning
@@ -203,6 +205,8 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Pass?</p>
+
 - Opponent is in butterfly guard with one or both hooks established
 - Wide base with knees spread to prevent sweep leverage
 - Strong grips on collar and sleeve or body control
@@ -216,6 +220,8 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Pass step by step?</p>
 
 1. **Establish wide base and grips**: From standing or combat base, widen your knee position significantly beyond shoulder width. Secure collar and sleeve grips (gi) or underhook and overhook controls (no-gi). Lower your hips while keeping chest pressure forward to prevent being pulled off balance. Your base width should make it geometrically impossible for opponent's hooks to generate sweeping leverage.
 2. **Control upper body posture**: Drive your chest forward and downward toward opponent's upper body while maintaining collar grip or head control. This forward pressure prevents opponent from creating the space needed for effective sweeps. Keep your elbows tight to your body to defend against arm drags. Your posture should make opponent feel heavy and compressed.
@@ -245,6 +251,8 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Pass?</p>
+
 - **Opponent sits up explosively to maintain butterfly hooks and attempt sweep** (Effectiveness: High) - Your Response: Immediately drive your chest down harder, using collar grip or head control to break their posture back down. Lower your hips further to remove sweep angles and maintain wide base. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent transitions to deep half guard as you clear hooks** (Effectiveness: High) - Your Response: Prevent the deep half entry by keeping your near leg heavy and driving crossface pressure. If they begin the transition, immediately switch to deep half guard passing strategies, focusing on hip isolation. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent attempts arm drag to take your back during pass** (Effectiveness: Medium) - Your Response: Keep your elbows extremely tight to your body and maintain forward pressure. If arm drag begins, circle away from the drag direction while maintaining base and establishing defensive grips. → Leads to [[Positions/Butterfly Guard]]
@@ -257,6 +265,8 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Pass?</p>
 
 ### 1. Standing too upright or losing forward chest pressure during pass
 
@@ -301,16 +311,18 @@ The Butterfly Pass is a fundamental guard passing technique designed to neutrali
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Pass (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Establishing proper base, posture, and hook removal mechanics
 Begin with stationary drills focusing on wide base positioning and proper posture from butterfly guard. Practice systematic hook removal on cooperative partners who maintain butterfly position without resistance. Emphasize feeling how hip pressure neutralizes hook leverage. Drill 20-30 repetitions per session focusing on mechanical precision rather than speed.
 
-**Week 3-4: Pressure Application** - Adding forward pressure and upper body control
+**Week 3-4: Pressure** - Adding forward pressure and upper body control
 Partner provides light resistance by attempting to maintain hooks and posture. Practice maintaining heavy chest pressure while systematically removing hooks. Begin incorporating collar grips and head control. Work on feeling the timing of when hooks lose mechanical advantage. Drill sequences of hook removal to side control completion with light resistance.
 
 **Week 5-8: Counter Defense** - Defending common sweeps and transitions during pass
 Partner actively attempts butterfly sweeps and transitions to deep half or alternative guards. Practice recognizing and countering these attempts while maintaining passing progression. Focus on base maintenance under sweep pressure and preventing common guard transitions. Begin working at moderate speed with realistic resistance levels.
 
-**Week 9-12: Grip Fighting Integration** - Dealing with opponent's grips and upper body defense
+**Week 9-12: Grips Integration** - Dealing with opponent's grips and upper body defense
 Partner uses full grip fighting and posture maintenance while attempting to prevent the pass. Practice breaking grips, establishing your own controls, and maintaining forward pressure against active resistance. Work on recognizing when opponent's defensive posture creates passing opportunities. Increase intensity to near-competition levels.
 
 **Month 4-6: Competition Application** - Full resistance with strategic decision-making
@@ -324,51 +336,12 @@ Practice against various opponents with different butterfly guard styles (aggres
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is maintaining a wide base crucial when passing butterfly guard?
-**A**: A wide base is essential because butterfly hooks generate sweeping leverage by creating angles between the passer's points of contact with the mat. When your knees are spread significantly wider than your opponent's hooks can reach, the geometric relationship makes it impossible for them to elevate your center of mass effectively. The butterfly sweep relies on getting under your hips with their feet while controlling your upper body - a wide base places your hips outside the range where their hooks can create the necessary leverage. Additionally, the wide base provides lateral stability against off-angle sweep attempts and allows you to shift weight strategically without compromising balance.
-
-**Q2**: What is the primary mechanical goal when removing butterfly hooks during the pass?
-**A**: The primary mechanical goal is to flatten the butterfly hooks by removing the vertical angle they need to generate upward force. Butterfly hooks only function as sweeping tools when they can elevate - once the hook is pressed flat to the mat through hip pressure and strategic weight distribution, it loses all mechanical advantage. You accomplish this by lowering your hip toward the mat on the side of the hook while maintaining forward pressure, creating a downward vector that overpowers the hook's intended upward trajectory. The flattened hook cannot elevate your body, making it safe to advance position while the opponent's sweep threat is neutralized.
-
-**Q3**: How does forward chest pressure contribute to successful butterfly guard passing?
-**A**: Forward chest pressure serves multiple critical functions in butterfly passing. First, it prevents opponent from achieving the upright posture they need for effective sweeps - butterfly sweeps require the guard player to sit up and establish grips while maintaining hook engagement. Heavy chest pressure makes sitting up extremely difficult. Second, forward pressure creates psychological and physical discomfort that forces defensive reactions rather than offensive attacks. Third, it limits the space opponent needs to transition to alternative guards like deep half or X-guard. Finally, constant forward pressure maintains your offensive momentum throughout the pass, preventing opponent from creating the separation needed to recover or reset their guard position.
-
-**Q4**: What is the correct sequence for addressing multiple butterfly hooks and why does order matter?
-**A**: The correct sequence is to identify and neutralize the primary threat hook first (typically the side where opponent has superior upper body control or grip dominance), then address the secondary hook from a position of greater control. Order matters because attempting to clear both hooks simultaneously divides your pressure and creates vulnerabilities on both sides. By fully neutralizing one hook first, you eliminate half of opponent's sweeping potential while establishing control frames (underhook or crossface) that make addressing the second hook significantly safer and easier. The primary hook is determined by assessing which side opponent has better grips, posture, or leverage - neutralizing this threat first prevents their highest percentage attacks while you're most vulnerable during the passing transition.
-
-**Q5**: Why must you secure underhook or crossface control before completing the pass to side control?
-**A**: Securing underhook or crossface control before completing the pass is essential because these control points prevent guard recovery and establish the dominant frames necessary for side control consolidation. Without these controls, even after removing butterfly hooks, opponent can easily insert knees for guard retention, create frames to generate space, or shrimp away to recover position. The underhook or crossface serves as an anchor point that pins opponent's upper body while you transition your hips and legs into final passing position. Attempting to complete the pass without this control leaves you vulnerable during the transition and makes side control establishment tentative rather than dominant. These controls transform a positional advantage into a secured dominant position.
-
-**Q6**: How should you respond if opponent attempts to transition to deep half guard during your butterfly pass?
-**A**: If opponent begins transitioning to deep half guard during your butterfly pass, immediately increase crossface pressure while keeping your near leg heavy and driving your hip down to prevent them from getting deep under your leg. Your weight should shift toward the side they're trying to attack, making it difficult for them to secure the deep half position. If they manage to get partial deep half positioning, switch your strategy from butterfly passing to deep half passing mechanics - focus on hip isolation, preventing their lockdown, and establishing controls specific to deep half escapes. The key is early recognition: once you see them beginning to scoop your leg or get their head to your far hip, adjust your weight distribution immediately to prevent them from establishing the position fully.
-
-**Q7**: Your opponent posts their far hand on the mat as you begin clearing the first hook - how do you exploit this?
-**A**: When opponent posts their far hand, they are sacrificing upper body grip control to maintain base, which creates an immediate opportunity. Their posted hand cannot simultaneously control your collar, sleeve, or establish an underhook, meaning their sweeping power on that side is significantly diminished. Accelerate your hook clearing on the opposite side from the post while driving forward pressure into their chest. The posted arm is also vulnerable to being isolated - you can swim your arm under their posted elbow to establish an underhook, or use the opening to secure a deep crossface. The post reveals they are playing defensively, so increase your offensive tempo and commit more decisively to the pass direction away from the posted hand.
-
-**Q8**: What grip configuration provides the strongest control for initiating the butterfly pass in the gi?
-**A**: The most effective grip configuration combines a cross-collar grip with a same-side sleeve grip. The cross-collar grip provides direct control over opponent's posture and prevents them from sitting up, which is the foundation of all butterfly guard offense. The sleeve grip on the same side you intend to pass toward prevents the arm drag and controls their ability to establish underhooks on that side. This configuration creates a diagonal line of control across opponent's body that naturally facilitates the passing angle. An alternative high-percentage option is a collar grip with an underhook on the passing side, which provides even more direct control but requires getting closer to the hooks. In no-gi, the equivalent is a collar tie with a wrist control or an underhook-overhook combination.
-
-**Q9**: When is the optimal timing window to initiate the butterfly pass against an active guard player?
-**A**: The optimal timing window occurs immediately after the opponent commits to an offensive action - particularly after a failed sweep attempt or during a grip transition. When opponent attempts a butterfly sweep and you successfully defend by widening your base, there is a brief window where their hooks are partially displaced and their upper body grips are compromised from the failed attempt. This 1-2 second window is when you should aggressively begin hook clearing. Similarly, when opponent releases one grip to fight for a different grip, the momentary loss of upper body control reduces their sweep threat and creates space for you to drive pressure and begin the pass. Avoid initiating the pass when opponent has full grip establishment and deep hooks with settled posture, as this is when their defense is strongest.
-
-**Q10**: If your butterfly pass is blocked and opponent begins inserting a knee shield, what are your chain attack options?
-**A**: When opponent inserts a knee shield during your butterfly pass attempt, you have several chain options depending on how far the knee shield has been established. If the shield is shallow with only the knee across, immediately switch to a knee slice pass by driving your weight into the knee shield side and sliding your knee across their thigh toward the mat. If opponent establishes a deeper knee shield with their shin fully across your torso, transition to a body lock pass by securing double underhooks around their legs and stacking them to neutralize the shield. You can also backstep to address the position from the other side, or use the over-under pass by threading one arm under their bottom leg while the other goes over the knee shield. The critical principle is recognizing the knee shield insertion early and immediately switching to a complementary passing system rather than continuing to force the butterfly pass mechanics against a fundamentally different guard configuration.
-
-**Q11**: What is the critical direction of force when flattening a butterfly hook with hip pressure?
-**A**: The direction of force must be diagonal - downward and toward the opponent's centerline simultaneously. A purely downward force allows the hook to redirect sideways and maintain partial elevation capability. A purely lateral force does not address the vertical lifting power of the hook. The diagonal vector accomplishes two things: the downward component overpowers the hook's upward trajectory, while the inward component drives opponent's knee toward the mat and toward their opposite leg, collapsing the hook's structural integrity entirely. Your hip acts as a wedge that slides down the inside of their thigh, forcing their knee flat while your chest drives forward to prevent them from adjusting. This diagonal pressure line is why simply sitting heavy is insufficient - you must actively drive your hip across the hook toward the mat on the far side.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Pass?</p>
 
 When practicing butterfly passing, both passer and guard player should be mindful of knee and hip stress. The passer should avoid dropping their full weight suddenly onto opponent's legs, which can cause knee hyperextension or strain. When removing hooks with hip pressure, apply force gradually rather than explosively to allow partner's joints to adjust. The guard player should tap if they feel excessive pressure on their knees or hips during hook removal, particularly if the passer's weight creates uncomfortable joint angles. During drilling, start with light resistance and gradually increase intensity as both partners develop familiarity with the mechanics. Partners with existing knee or hip injuries should communicate this clearly and may need to modify the technique or use alternative passing strategies. Always ensure adequate mat space around training partners to prevent accidental collisions during sweeping attempts or pass completions.
 

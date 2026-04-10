@@ -175,6 +175,8 @@ The position also provides important lessons about submission defense principles
 
 ## Position Definition
 
+<p class="section-subtitle">What is Gogoplata Control (Top)?</p>
+
 - Top player's head is trapped with bottom player's shin across throat creating direct pressure on trachea, while bottom player's foot is secured behind top player's head preventing conventional head extraction through backward movement
 - Top player maintains some base with hands posted on mat or controlling bottom player's hips, though posture is severely compromised by the shin-across-throat position and forward lean is unavoidable due to foot-behind-head configuration
 - Top player's breathing is restricted by shin compression requiring immediate defensive action, with the degree of restriction determining whether explosive emergency escape or systematic technical escape is appropriate response
@@ -185,6 +187,8 @@ The position also provides important lessons about submission defense principles
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Gogoplata Control (Top)?</p>
 
 - Bottom player has achieved high guard or rubber guard control with top player's posture broken
 - Bottom player possesses sufficient flexibility to thread leg across throat and secure foot behind head
@@ -198,6 +202,8 @@ The position also provides important lessons about submission defense principles
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Gogoplata Control?</p>
 
 - Remain calm and avoid panic-driven movements that tighten the choke or expose additional threats
 - Prioritize creating breathing space before attempting full escape from position
@@ -213,6 +219,8 @@ The position also provides important lessons about submission defense principles
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Gogoplata Control (Top)?</p>
 
 **If gogoplata is fully locked with deep foot position and strong shin compression making breathing difficult:**
 - Execute **[[Emergency Tuck and Roll/Attacker|Emergency Tuck and Roll]]** → [[Positions/Turtle]] (Probability: 40%)
@@ -241,6 +249,8 @@ The position also provides important lessons about submission defense principles
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Gogoplata Control?</p>
 
 ### 1. Pulling head straight backward away from bottom player to escape shin pressure
 
@@ -280,6 +290,8 @@ The position also provides important lessons about submission defense principles
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Gogoplata Control attacks?</p>
+
 ### Gogoplata Defense Progression Drill
 
 Partner establishes gogoplata control at 50% tightness. Practice systematic escape sequence: hand position to create frame, lateral head movement to reduce pressure, foot removal from behind head, shin extraction, return to closed guard. Partner gradually increases resistance as escape mechanics improve.
@@ -312,38 +324,6 @@ Partner locks gogoplata at 80% tightness requiring immediate explosive escape at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when caught in gogoplata control before attempting escape?
-**A**: Create breathing space by turning your chin slightly toward the attacking leg to reduce direct trachea compression. This buys time for a systematic escape rather than panicking with explosive movements that typically tighten the choke.
-
-**Q2**: Why does pulling straight backward fail as an escape from gogoplata control?
-**A**: The foot-behind-head configuration creates a closed loop system. Pulling backward actually tightens the choke because the shin is locked in place by the foot behind your head. You must address the foot position first or change angles laterally.
-
-**Q3**: Your opponent's hips suddenly drop to mat level while maintaining gogoplata - what opportunity does this create?
-**A**: Dropped hips reduce the perpendicular shin angle across your throat, decreasing compression effectiveness. This is your window to stack forward with pressure, driving your weight into them while working to extract your head as the submission loosens.
-
-**Q4**: What are the three alternative submissions you must defend against when escaping gogoplata?
-**A**: Triangle choke if your escape movement allows them to switch the leg configuration, omoplata if you turn toward the attacking leg exposing your shoulder, and back exposure if you attempt to roll forward through the position. Each escape direction has specific counter-threats.
-
-**Q5**: How should you use your hands when defending gogoplata control?
-**A**: Use hands to control the opponent's hips and create base rather than grabbing at the choking leg directly. The leg is stronger than your arms making direct pulling ineffective. Hand position on hips allows you to manage distance and prevent hip elevation that maintains the choke.
-
-**Q6**: If you feel the choke tightening and have limited time, what emergency escape option exists?
-**A**: Emergency tuck and roll toward turtle position, accepting the back exposure risk. This explosive movement breaks the shin angle and foot position simultaneously, though it requires immediate turtle defense skills. Only use when systematic escape time is unavailable.
-
-**Q7**: What mistake causes many defenders to give up an omoplata when escaping gogoplata?
-**A**: Turning toward the attacking leg to escape throat pressure exposes your shoulder for omoplata. If you must turn, always turn away from the choking leg. Better still, work on lateral head movement and systematic extraction rather than turning at all.
-
-**Q8**: How do you assess whether you have time for systematic escape versus needing emergency action?
-**A**: Evaluate hip elevation and foot depth. Fully locked gogoplata with deep foot position and elevated hips requires immediate action. Shallow foot position or hips on mat provides time for systematic escape. Breathing restriction level is your primary indicator.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

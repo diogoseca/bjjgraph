@@ -164,6 +164,8 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mount to Armbar?</p>
+
 - Attacker shifts weight to one side and hugs or grips one of your arms against their chest, indicating arm isolation has begun
 - Attacker's hand posts on the mat near your opposite shoulder or pins your free arm, signaling they are preparing to pivot
 - Attacker begins rotating their hips and swinging one leg toward your head, which is the pivot phase of the armbar entry
@@ -176,6 +178,8 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount to Armbar?</p>
 
 - Keep elbows tight to your body when framing from bottom mount to deny arm isolation opportunities
 - Recognize the attack early by feeling the weight shift and arm control that precede the pivot
@@ -191,6 +195,8 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mount to Armbar?</p>
 
 ### 1. Retract elbow and turn into attacker during pivot phase
 
@@ -228,6 +234,8 @@ The defender's strategy centers on three priorities in sequence: first, prevent 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mount to Armbar?</p>
+
 ### → [[Positions/Mount]]
 
 Prevent the armbar transition entirely by retracting your elbow early and turning into the attacker during their pivot phase. Keep elbows tight to your body, deny arm isolation, and bridge toward their head to disrupt the rotation. If successful, you remain in bottom mount where you can then work standard mount escapes.
@@ -243,6 +251,8 @@ Execute the hitchhiker escape during the transition by controlling the attacker'
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount to Armbar?</p>
 
 ### 1. Extending arms to push attacker away from mount, exposing the arm for isolation
 
@@ -277,6 +287,8 @@ Execute the hitchhiker escape during the transition by controlling the attacker'
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mount to Armbar?</p>
+
 **Week 1-2: Recognition and Early Defense** - Identify the attack and practice arm retraction timing
 Partner initiates the Mount to Armbar at 25% speed. Defender practices recognizing the setup cues (weight shift, arm grip, post) and immediately retracting the elbow before the pivot begins. Repeat 20 times per side, focusing on reaction speed and elbow discipline. No need to complete a full escape yet - just deny the isolation.
 
@@ -293,29 +305,6 @@ Positional sparring starting from mount. Attacker uses full technique and speed 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Mount to Armbar is being initiated?
-**A**: The earliest cue is feeling the attacker shift their weight to one side while simultaneously hugging or gripping one of your arms against their chest. This weight shift and arm isolation combination signals the setup phase before any pivot begins. You may also feel them post their free hand near your opposite shoulder. Recognizing this moment gives you the maximum defensive window to retract your elbow and deny the isolation.
-
-**Q2**: Why is controlling the attacker's leg across your face more important than pulling your arm free?
-**A**: The leg across your face is the primary mechanism that prevents you from sitting up, turning, or creating escape angles. Without that leg in place, the attacker cannot maintain armbar control regardless of their grip on your arm. By pushing this leg away or preventing it from crossing, you deny the structural foundation of the entire position. Pulling your arm against their full-body grip is a losing strength battle, while removing leg control changes the position fundamentally.
-
-**Q3**: When should you attempt the hitchhiker escape versus bridging to stack?
-**A**: The hitchhiker escape is best attempted when the attacker's legs are not yet fully locked tight and you still have some rotational freedom in your trapped arm. It requires the ability to rotate your forearm and begin turning your body. Bridging to stack is better when the attacker is still in the sit-back phase with their hips elevated and base uncommitted. If their hips are already on the mat with knees pinched tight, neither option is ideal and you should focus on clasping hands to survive while creating incremental escape opportunities.
-
-**Q4**: How do you prevent the attacker from isolating your arm in the first place?
-**A**: Keep your elbows tight against your ribs when framing from bottom mount. Use forearm frames against the attacker's hips rather than straight-arm pushes against their chest, which expose the elbow. When you feel them gripping one arm, immediately retract that elbow toward your hip and turn your body slightly toward that side, making it structurally difficult for them to pin the arm across their body. Grip-fighting the isolation is far more energy-efficient than escaping a completed armbar.
-
-**Q5**: Your arm is isolated and the attacker is mid-pivot - what is the optimal sequence of defensive actions?
-**A**: First, bend your trapped elbow aggressively and rotate your forearm so your thumb points toward the ceiling, creating the strongest anatomical position against extension. Second, use your free hand to grip the attacker's leg that is about to cross your face and push it toward their body. Third, bridge your hips upward and toward the attacker's head while simultaneously turning your body toward the trapped arm side. This three-action combination addresses the arm extension, leg control, and positional angle simultaneously.
-
-
-
-</section>
 
 
 </main>

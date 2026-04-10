@@ -187,7 +187,7 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 - **[[Transitions/Half Guard Pass/Attacker|Half Guard Pass]]** (9% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (5% of attempts)
+- **[[Kimura from Flattened Half Guard/Attacker|Kimura from Flattened Half Guard]]** (5% of attempts)
 
 - **[[Transitions/Complete Pass from Flattened Half/Attacker|Complete Pass from Flattened Half]]** (2% of attempts)
 

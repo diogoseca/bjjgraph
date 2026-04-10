@@ -154,6 +154,8 @@ From the defender's perspective, the opponent's decision to release body lock co
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Lock to Standing?</p>
+
 - Opponent's locked grip begins loosening or transitioning from gable grip to open-hand contact against your hips or lower torso
 - Chest pressure against your back decreases noticeably as opponent shifts weight backward in preparation for the separation movement
 - Opponent's head position changes from tight against your shoulder to pulling away or lifting upward off your body
@@ -166,6 +168,8 @@ From the defender's perspective, the opponent's decision to release body lock co
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Lock to Standing?</p>
 
 - Recognize the disengagement cues early to prepare counter-attacks before the opponent completes the separation and resets
 - Capitalize on the transition window when the opponent has neither locked grip control nor full separation distance for defense
@@ -180,6 +184,8 @@ From the defender's perspective, the opponent's decision to release body lock co
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Lock to Standing?</p>
 
 ### 1. Time double leg or single leg takedown during the grip release window
 
@@ -217,6 +223,8 @@ From the defender's perspective, the opponent's decision to release body lock co
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Lock to Standing?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a takedown attempt during the grip release window when the opponent has neither locked grip control nor sufficient distance for defensive sprawl. Attack the moment their hands transition from lock to frames, exploiting the control vacuum before they can establish hip frame contact and execute the push-off.
@@ -232,6 +240,8 @@ Accept the separation but immediately close distance with your own grip fighting
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Lock to Standing?</p>
 
 ### 1. Passively accepting the disengage without attempting to capitalize on the transition window
 
@@ -261,6 +271,8 @@ Accept the separation but immediately close distance with your own grip fighting
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Lock to Standing?</p>
+
 **Phase 1: Recognition** - Identifying disengagement cues through tactile feedback
 Partner repeatedly demonstrates the body lock disengagement at slow speed while you focus exclusively on identifying the grip loosening, chest pressure changes, and backward weight shift cues. No counter-attacks yet, building pattern recognition and tactile sensitivity.
 
@@ -277,26 +289,6 @@ During live rolling, specifically seek body lock bottom situations and practice 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to release their body lock?
-**A**: The earliest cues are subtle changes in grip tension and chest pressure. You will feel the locked grip behind your back begin to loosen or the fingers start to separate before the hands actually unlock. Simultaneously, the chest pressure against your back decreases slightly as the opponent shifts weight backward in preparation for push-off. The opponent's head may also lift away from your shoulder. These cues provide a half-second to full-second warning before the actual separation begins, which is the critical window for initiating counter-attacks.
-
-**Q2**: Why is the grip transition phase the most vulnerable moment for the person disengaging from body lock?
-**A**: During the grip transition, the person disengaging has abandoned their primary control mechanism (locked hands) but has not yet established their secondary control (hip frames and distance). This creates a control vacuum lasting approximately half a second where they have neither grip control, frame control, nor defensive distance. Their weight is also transitioning backward, making them vulnerable to forward-driven attacks. This is the only phase where they cannot effectively defend a well-timed shot, making it the optimal counter-attack window.
-
-**Q3**: When should you choose to shoot a takedown versus pull guard versus accept the reset during a body lock disengagement?
-**A**: Shoot a takedown when you can time the entry to the grip transition phase and your opponent's weight is shifting backward, giving you forward momentum advantage over their retreating base. Pull guard when you prefer ground engagement and can establish control grips before sitting, or when the opponent's push-off is too explosive to counter with a standing technique. Accept the reset when the separation happens too quickly to counter effectively, and immediately establish your own dominant grips before the opponent fully resets their stance and offensive posture.
-
-**Q4**: How do you train to develop automatic counter-attack responses to body lock disengagement attempts?
-**A**: Develop automatic responses through progressive drilling at increasing speeds. Begin with your partner slowly demonstrating the disengagement while you practice identifying the grip transition cues and executing your preferred counter at low speed. Progress to medium speed where timing becomes critical for success. Finally, practice at full speed with the partner randomly choosing between completing the disengage, faking the disengage and re-attacking, or switching to a different technique entirely. The randomization forces genuine pattern recognition development and prevents anticipated responses.
-
-
-
-</section>
 
 
 </main>

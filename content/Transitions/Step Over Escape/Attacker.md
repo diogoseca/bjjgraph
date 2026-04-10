@@ -198,6 +198,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Step Over Escape?</p>
+
 - Step the far leg (leg furthest from opponent) over their head to change the angle of your torso relative to the choking arm
 - Turn into the choke rather than away to reduce carotid compression before initiating the step over
 - Time the escape when opponent commits their weight low or walks their hips to finish, creating space above their head
@@ -213,6 +215,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Step Over Escape?</p>
+
 - Opponent has established Darce grip but has not fully locked the choke to unconsciousness level
 - Defender's far leg (leg furthest from opponent) is free to swing over opponent's head
 - Opponent's head position is low enough or accessible enough for the leg to clear over the top
@@ -226,6 +230,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Step Over Escape step by step?</p>
 
 1. **Tuck chin and turn in**: Immediately tuck your chin tight to your chest and rotate your body slightly toward the opponent, reducing the angle of carotid compression and buying critical seconds before the choke becomes fully effective.
 2. **Frame with free hand**: Post your free hand (the arm not trapped in the Darce configuration) against the opponent's far hip or ribcage, creating a frame that prevents them from flattening you completely and generates space for the upcoming leg swing.
@@ -256,6 +262,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Step Over Escape?</p>
+
 - **Opponent sprawls hips back and drives shoulder pressure forward to prevent the leg from clearing over their head** (Effectiveness: High) - Your Response: If the leg cannot clear, abort the step over and immediately transition to a Back Door Escape by retreating behind the opponent, using the momentum you already generated toward their body → Leads to [[Positions/Darce Control]]
 - **Opponent tightens the Darce grip and walks hips around to the opposite side, chasing the rotation** (Effectiveness: Medium) - Your Response: Accelerate your rotation speed and use your free hand frame on their hip to create separation. If they chase fully around, the choke loses its angle and you can extract the trapped arm during their positional adjustment → Leads to [[Positions/Darce Control]]
 - **Opponent releases the Darce grip and transitions to mount or side control as you rotate through** (Effectiveness: Medium) - Your Response: This is actually a partial success since the choke is broken. Immediately address the new positional threat by framing on their hips, inserting a knee shield, and recovering to half guard or closed guard before they consolidate the new position → Leads to [[Positions/Open Guard]]
@@ -267,6 +275,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Step Over Escape?</p>
 
 ### 1. Attempting to step over without first turning into the opponent and bridging the hips
 
@@ -306,6 +316,8 @@ Strategically, the Step Over Escape pairs with the Back Door Escape and Counter 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Step Over Escape (Attacker)?</p>
+
 **Week 1-2** - Solo and cooperative mechanics
 Practice the bridging and leg swing motion solo on the mat, then with a cooperative partner holding a loose Darce grip. Focus on identifying the far leg, coordinating the bridge with the swing, and completing the full rotation arc. Drill 20-30 repetitions per side each session to build the movement pattern.
 
@@ -326,51 +338,12 @@ Integrate into live rolling by starting rounds from turtle or front headlock pos
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Step Over Escape from Darce Control?
-**A**: The primary goal is to change the angle of your torso relative to the choking arm by stepping your far leg over the opponent's head, which relieves carotid compression and allows you to extract your trapped arm and recover to open guard. The step over exploits the geometric weakness of the Darce grip by rotating perpendicular to the line of choking force.
-
-**Q2**: Which leg do you step over with, and why is using the wrong leg a critical error?
-**A**: You step over with the far leg, the one furthest from the opponent's body. Using the near leg is a critical error because it cannot mechanically reach over the opponent's head from the correct angle, and the movement pulls your body deeper into the choke structure rather than rotating you away from it. The far leg creates the arc needed to clear the opponent's head and generates the rotation that relieves choking pressure.
-
-**Q3**: Your opponent sprawls their hips back when you attempt the step over, preventing your leg from clearing. How do you adjust?
-**A**: If the opponent sprawls back and blocks the step over, immediately abort and transition to a Back Door Escape by retreating behind the opponent. The momentum you already generated toward their body can be redirected into the back door movement. This is why training all three Darce escapes as a chain is essential: the opponent cannot simultaneously defend the step over, back door, and counter roll.
-
-**Q4**: What is the most critical timing window for initiating the Step Over Escape?
-**A**: The optimal timing is when the opponent commits their weight low and walks their hips around to finish the choke. At this moment, their head drops lower making it easier for the leg to clear, and their weight commitment makes it harder for them to sprawl back to counter the step over. Executing too early before they commit allows them to adjust, while waiting too long means the choke is too tight to escape.
-
-**Q5**: What role does the hip bridge play in the Step Over Escape?
-**A**: The hip bridge serves two critical functions. First, it creates the elevation needed for the far leg to arc over the opponent's head, without the bridge the leg lacks sufficient height to clear. Second, the bridge generates the initial momentum for the full body rotation that follows, connecting the leg swing to the hip turn that ultimately breaks the choke angle. The bridge must be explosive and coordinated with the leg swing as a single integrated motion.
-
-**Q6**: What grip and frame must you establish with your free hand before initiating the step over?
-**A**: Your free hand must frame firmly on the opponent's far hip or ribcage before initiating the step over. This frame serves as both a barrier and a pivot point: it prevents the opponent from following your rotation and chasing the choke angle, and it gives you a fixed point to push against during the rotation. Without this frame, the opponent can simply rotate with you and maintain the choke throughout the escape attempt.
-
-**Q7**: Your opponent begins tightening the Darce and walking their hips to the other side as you initiate the step over. What adjustment do you make?
-**A**: Accelerate your rotation speed and use your hip frame to create separation. If they chase the rotation fully around to the opposite side, the Darce loses its effective angle because they can no longer maintain perpendicular chest pressure to your neck. Use this window of reduced pressure during their positional adjustment to extract the trapped arm. Their commitment to chasing means they sacrifice the finishing angle.
-
-**Q8**: Why must you keep your chin tucked throughout the entire step over sequence?
-**A**: The chin tuck is the primary defense preventing the choke from reaching full depth during the escape. The step over requires several seconds of coordinated movement during which the Darce grip is still active. If you lift your chin to look where your leg is going or out of habit, you expose the front of your neck and allow the choking arm to slide deeper against the carotid arteries. This can result in unconsciousness during what should be an escape. Trust the movement pattern and feel the position rather than watching it.
-
-**Q9**: After successfully stepping over and breaking the choke, what should your immediate next action be?
-**A**: Immediately establish open guard by placing both feet on the opponent's hips and framing with hands on their shoulders or biceps. Do not pause in a neutral scramble position or celebrate the escape. The opponent will immediately attempt to advance to side control, mount, or re-establish a front headlock. The technique is not complete until you have established a defensible guard position with proper frames and distance control.
-
-**Q10**: How does the Step Over Escape complement the Back Door Escape and Counter Roll in a chained escape sequence?
-**A**: The three escapes attack different planes of movement, forcing the Darce attacker to defend in multiple directions simultaneously. The Step Over goes over the top when the opponent's head is low. The Back Door retreats behind when the opponent drives forward. The Counter Roll inverts through when the opponent is square. Threatening one opens the others: if the opponent sprawls to stop the step over, the back door becomes available; if they follow the counter roll, the step over clears easily. Elite practitioners flow between all three based on the attacker's reactions.
-
-**Q11**: What body type or flexibility considerations affect the Step Over Escape's effectiveness?
-**A**: Practitioners with longer legs have a mechanical advantage because their leg can arc over the opponent's head with less hip elevation required. Shorter or less flexible practitioners need a more explosive bridge and may need to create more angle before initiating the swing. Hip flexibility is more important than hamstring flexibility since the primary motion is a lateral rotation rather than a straight-leg lift. Regardless of body type, the technique remains viable when the bridge and turn-in mechanics are properly executed.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Step Over Escape?</p>
 
 The Step Over Escape involves movement while a choke is actively applied, creating a window where practitioners must maintain composure under genuine submission threat. Always tap immediately if the choke reaches full depth before the escape is complete. Never sacrifice neck safety to force the technique. During training, the partner applying the Darce should release immediately when the training partner taps and should not chase the choke at full intensity during the learning phases. Be cautious of neck strain from the bridging and rotation under the opponent's weight. Warm up the neck and cervical spine thoroughly before drilling this technique. Partners should communicate clearly about resistance levels and any discomfort during progressive training phases.
 

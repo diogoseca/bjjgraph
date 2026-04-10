@@ -206,7 +206,7 @@ The Kimura Counter via Roll integrates into the broader Kimura Trap system as a 
 
 - [[Transitions/Old School Sweep]] - Alternative sweep from Kimura Trap Bottom when opponent widens base
 
-- [[Transitions/Kimura]] - Foundational grip and submission that anchors the Kimura Trap system
+- [[Submissions/Kimura]] - Foundational grip and submission that anchors the Kimura Trap system
 
 - [[Transitions/Kimura to Back Take]] - Alternative transition when opponent turns into the Kimura grip defensively
 

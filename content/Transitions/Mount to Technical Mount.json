@@ -68,8 +68,8 @@
       "relationship": "Common follow-up position when opponent turns away from technical mount submissions"
     },
     {
-      "name": "Armbar from Technical Mount",
-      "relationship": "Primary submission threat available after successful transition to technical mount"
+      "name": "Mount to Armbar",
+      "relationship": "Primary submission transition available after successful advancement to technical mount"
     },
     {
       "name": "High Mount",
@@ -270,6 +270,14 @@
       {
         "question": "Why is technical mount considered a transitional position rather than a control position, and how does this affect your approach after completing the transition?",
         "answer": "Technical mount sacrifices the bilateral stability of standard mount for superior submission angles, meaning it is inherently less stable as a holding position. The asymmetric base with one hook and one posted leg provides less resistance to escapes than standard mount's two-knee base. This means you must attack immediately upon establishing technical mount—armbar, back take, or triangle within 3-5 seconds. Treating it as a resting or control position allows the opponent time to develop defensive frames. Every second without attacking is wasted positional advantage."
+      },
+      {
+        "question": "How does the direction of your hip pressure change during the weight shift from standard mount to technical mount, and why is this important?",
+        "answer": "In standard mount, hip pressure drives straight down through the opponent's centerline with bilateral weight distribution. During the transition, hip pressure must rotate to drive diagonally toward the opponent's far shoulder on the side you are posting toward. This diagonal pressure follows the opponent's turning motion and prevents them from completing the turn into turtle or recovering flat. If you maintain straight-down pressure during the shift, your weight lifts momentarily as you post the leg, creating an escape window. The diagonal drive keeps continuous load on the opponent throughout the entire transition sequence."
+      },
+      {
+        "question": "Your opponent catches your posted leg in half guard during the transition—what are your immediate chain attack options rather than simply retreating to mount?",
+        "answer": "If the posted leg is caught in half guard, you have several offensive options that capitalize on the position rather than abandoning it. First, use knee slice mechanics to cut through their guard and complete a pass to side control, converting a failed technical mount into a successful guard pass. Second, if you have upper body control through crossface, apply heavy shoulder pressure and work a Darce choke as they turn into you. Third, threaten a Kimura on their underhook arm if they reach for your hip, which forces them to release the leg. The key principle is treating half guard top as an offensive position with its own attack chains rather than viewing it solely as a failed transition."
       }
     ],
     "safety_considerations": "The Mount to Technical Mount transition is relatively low-risk in terms of acute injury potential, as it involves positional movement rather than joint manipulation or choking. However, practitioners should be aware of knee stress on the posted leg, particularly on hard or slippery surfaces where the foot may slide. Partners should communicate if they feel trapped in positions that compress the ribcage or restrict breathing. During drilling, the bottom player should tap if they feel excessive pressure on the neck from cross-face control. Always ensure adequate mat space and warm up hip flexors and knees before heavy positional drilling from mount."

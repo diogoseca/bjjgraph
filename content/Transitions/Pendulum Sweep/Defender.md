@@ -156,6 +156,8 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pendulum Sweep?</p>
+
 - Opponent opens their closed guard and places one foot on your hip while keeping the other leg hooked around your back, signaling the beginning of angle creation for the pendulum
 - Opponent shifts their hips laterally to create a perpendicular angle to your centerline while pulling with grips on your sleeve and collar, loading the sweep mechanics
 - Opponent extends one leg straight toward the ceiling close to your shoulder or head, chambering the pendulum leg in preparation for the downward sweeping arc
@@ -166,6 +168,8 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pendulum Sweep?</p>
 
 - Deny the angle by keeping your hips square and centered over the opponent, preventing them from shifting perpendicular to your body
 - Fight grips proactively by stripping sleeve and collar control before they can be consolidated into a sweep setup
@@ -179,6 +183,8 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pendulum Sweep?</p>
 
 ### 1. Strip the sleeve grip using a two-on-one break before opponent can establish full control, then immediately pin their hand to their chest or the mat
 
@@ -197,7 +203,7 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 ### 3. Post your far hand wide on the mat and drop your weight toward the sweeping direction while stepping your far knee out to create a tripod base
 
 - **When to use**: As a last-resort reactive defense when the pendulum leg is already swinging and sweep initiation is underway
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Your posted hand and wide base absorb the rotational force, preventing the sweep completion and potentially allowing you to pass if opponent's guard is open
 - **Risk**: The posted arm becomes vulnerable to Kimura, Omoplata, or Triangle attacks if the opponent transitions to follow-up submissions on your extended limb
 
@@ -209,11 +215,13 @@ Defending the Pendulum Sweep requires understanding its mechanical prerequisites
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pendulum Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Deny the sweep early by stripping grips and re-centering your base before the pendulum motion begins, forcing the opponent back to neutral closed guard position where they must rebuild their entire attack setup
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Open Guard]]
 
 If the sweep is partially defended but the opponent's guard has opened during the attempt, use the opening to initiate guard passing by controlling their legs and establishing passing grips before they can re-close their guard
 
@@ -224,6 +232,8 @@ If the sweep is partially defended but the opponent's guard has opened during th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pendulum Sweep?</p>
 
 ### 1. Posting the near-side hand on the mat instead of the far-side hand when reacting to the sweep
 
@@ -253,6 +263,8 @@ If the sweep is partially defended but the opponent's guard has opened during th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pendulum Sweep?</p>
+
 **Week 1-2: Recognition and Early Intervention** - Identifying pendulum sweep setup cues and practicing grip denial
 Partner executes the pendulum sweep setup at 30% speed while you practice identifying each phase: guard opening, hip angle creation, leg chambering. Focus on stripping the sleeve grip using two-on-one breaks and re-centering your hips before the pendulum motion starts. Drill 20 repetitions per side emphasizing the timing of grip intervention during the setup phase.
 
@@ -269,29 +281,6 @@ Incorporate pendulum sweep defense into regular positional sparring starting fro
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the Pendulum Sweep setup where defensive intervention is most effective?
-**A**: The earliest and most effective defensive intervention point is when the opponent first opens their guard and begins shifting their hips to create the perpendicular angle. At this stage, the sweep has no mechanical power because the pendulum leg has not been chambered and the grips have not been fully loaded. By immediately driving your hips forward, re-centering your weight, and stripping the sleeve grip, you collapse the entire sweep setup before it develops. Waiting until the pendulum leg is extended or swinging reduces your defensive options to reactive posting, which carries submission risk.
-
-**Q2**: Why does posting your hand on the mat to defend the Pendulum Sweep create vulnerability to follow-up submissions?
-**A**: When you post your hand on the mat, your arm becomes extended and isolated from your torso, creating immediate opportunities for the bottom player to transition to submissions. The posted arm is vulnerable to Kimura because the opponent can secure the figure-four grip on your wrist and elbow. It is also exposed to Omoplata if the opponent threads their pendulum leg over your shoulder. Additionally, the posting often creates the arm-across-centerline position that enables Triangle Choke entries. This is why grip stripping and base re-centering are preferred over reactive posting whenever possible.
-
-**Q3**: Your opponent has already created a 45-degree hip angle and is pulling your collar - what specific base adjustment prevents the sweep?
-**A**: When the angle is already established, immediately widen your far-side knee outward to create a broader base in the direction the sweep will travel. Simultaneously drive your hips forward toward the opponent's centerline rather than sitting back, which would assist their sweep. Use your free hand to strip or control their collar grip while pinching your elbows tight to your ribs. If you cannot strip the grip, post your far hand wide on the mat at a 45-degree angle behind you to create a tripod, but immediately look to recover your hand once the sweep threat passes to avoid submission follow-ups on the posted arm.
-
-**Q4**: How should your defensive strategy change when you feel the opponent's pendulum leg rising toward the ceiling?
-**A**: Once the pendulum leg is rising, you have entered the reactive defense phase where early prevention is no longer possible. Your priority shifts to absorbing the incoming rotational force rather than preventing the setup. Immediately widen your base as far as possible, post your far hand wide, and lower your center of gravity by sitting your hips back toward your heels. Critically, do not try to grab the rising leg, as this removes your posting hand and accelerates the sweep. Instead, accept the force redirection and focus on maintaining enough base to prevent a complete rotation, then immediately re-engage grip fighting once the sweep attempt stalls.
-
-**Q5**: What is the relationship between posture maintenance and Pendulum Sweep defense, and why does broken posture make the sweep harder to defend?
-**A**: Strong upright posture is the foundation of Pendulum Sweep defense because it keeps your center of gravity high and centered over the opponent, maximizing your base stability against rotational force. When your posture is broken forward, your weight shifts onto your hands and upper body, creating a top-heavy position that is extremely vulnerable to the pendulum's rotational mechanics. Broken posture also brings your head and shoulders closer to the mat, shortening the distance the opponent needs to rotate you, and it compromises your ability to widen your base or post effectively. Maintaining posture with head over hips and spine straight gives you the structural integrity to resist the sweep and the mobility to re-center when the angle is created.
-
-
-
-</section>
 
 
 </main>

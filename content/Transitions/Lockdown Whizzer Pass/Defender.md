@@ -162,6 +162,8 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lockdown Whizzer Pass?</p>
+
 - Top player wraps their arm over your underhook arm in an overhook configuration rather than fighting to strip the underhook
 - Increasing rotational pressure on your underhook shoulder driving it toward the mat, accompanied by heavy shoulder pressure across your chest
 - Top player's elbow drives downward against the back of your arm rather than pulling it free, indicating they are accepting the underhook to counter it
@@ -173,6 +175,8 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lockdown Whizzer Pass?</p>
 
 - Recognize whizzer establishment immediately and react before the top player can drive shoulder pressure to flatten you
 - Maintain your side angle at all costs because the whizzer pass requires you to be flat on your back to succeed
@@ -187,6 +191,8 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown Whizzer Pass?</p>
 
 ### 1. Deepen underhook and drive into top player to prevent flattening
 
@@ -224,6 +230,8 @@ As the defender against the Lockdown Whizzer Pass, your primary challenge is pre
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown Whizzer Pass?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 React immediately to the whizzer by deepening your underhook past the top player's far lat, making the overhook too shallow to generate effective rotational pressure. Maintain aggressive lockdown extension and side angle throughout. If the top player cannot flatten you within the first few seconds, their whizzer commitment weakens their base and you retain full lockdown offense.
@@ -239,6 +247,8 @@ Time your whip-up sweep for the moment the top player begins shifting weight to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown Whizzer Pass?</p>
 
 ### 1. Failing to recognize the whizzer establishment and continuing to play standard lockdown offense
 
@@ -268,6 +278,8 @@ Time your whip-up sweep for the moment the top player begins shifting weight to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown Whizzer Pass?</p>
+
 **Phase 1: Recognition and Response** - Identifying whizzer establishment and immediate underhook depth adjustment
 Partner establishes whizzer from lockdown top at slow speed. Practice recognizing the overhook feeling and immediately deepening underhook in response. Focus on timing and automatic reaction rather than strength. Reset and repeat for pattern development.
 
@@ -281,29 +293,6 @@ Practice deep half guard transitions, whip-up sweep timing, and overhook switche
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you feel the top player establishing a whizzer over your underhook?
-**A**: Immediately deepen your underhook by reaching past their far lat muscle or gripping their far hip. A deeper underhook shortens the whizzer's mechanical lever arm and makes it significantly harder for them to generate the rotational pressure needed to flatten you. Simultaneously, extend your lockdown and drive your shoulder into them to maintain your side angle before the flattening pressure can build.
-
-**Q2**: Why is maintaining your side angle the most critical defensive priority against the whizzer pass?
-**A**: All lockdown attacks including whip-up sweeps, Old School, and Electric Chair entries require the bottom player to be on their side with hip mobility. The whizzer pass works specifically by flattening you onto your back, which eliminates every offensive option from lockdown simultaneously. If you maintain your side angle, the top player cannot extract their leg because an active, angled lockdown generates too much resistance for extraction regardless of upper body control.
-
-**Q3**: When is the optimal moment to attempt a whip-up sweep against a whizzer pass?
-**A**: The optimal moment is when the top player begins the leg extraction phase and shifts their weight away from center. During extraction, they must redirect force from flattening you to freeing their knee, creating a brief window where their base is compromised and their whizzer arm is occupied controlling your underhook rather than posting. This weight shift makes them vulnerable to the upward drive of the whip-up if timed precisely.
-
-**Q4**: Your lockdown is losing effectiveness against sustained whizzer pressure and you are being progressively flattened. What should you do?
-**A**: Transition early to an alternative position rather than holding a compromised lockdown. The best option is releasing the lockdown and diving underneath the top player for deep half guard entry, which completely escapes the whizzer pressure. Alternatively, release the lockdown and recover a knee shield to re-establish distance and defensive frames from standard half guard. The key is making this decision before you are fully flat, while you still have the hip mobility to execute the transition.
-
-**Q5**: How can you use the top player's whizzer commitment against them offensively?
-**A**: The whizzer occupies one of the top player's arms and requires them to drive weight forward, which compromises their base in the opposite direction. By extending the lockdown aggressively while the whizzer arm is committed, you can create off-balancing force toward their trapped-leg side where they have no arm to post. Their whizzer commitment also means they cannot crossface or establish standard passing grips, leaving them one-dimensional in their control and vulnerable to transitions and sweeps that attack angles they cannot defend.
-
-
-
-</section>
 
 
 </main>

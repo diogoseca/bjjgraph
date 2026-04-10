@@ -154,6 +154,8 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kiss of the Dragon?</p>
+
 - Opponent shifts from directly behind you to a 45-degree angle on one side while maintaining hip grip, indicating entry angle setup
 - Opponent's head drops below your hip level and their weight shifts downward rather than pressing into your back from above
 - Opponent's grip on your belt or pants transitions from controlling pressure to pulling tension, indicating they are preparing to use the grip as a rolling anchor
@@ -165,6 +167,8 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kiss of the Dragon?</p>
 
 - Monitor opponent's positioning angle and head level relative to your hips as primary early warning indicators
 - Maintain balanced weight distribution in turtle rather than committing fully forward, keeping hips loaded toward heels
@@ -178,6 +182,8 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kiss of the Dragon?</p>
 
 ### 1. Sit hips back to heels and sprawl weight rearward to collapse entry space
 
@@ -215,6 +221,8 @@ Defending the Kiss of the Dragon requires understanding that this technique expl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kiss of the Dragon?</p>
+
 ### → [[Positions/Turtle]]
 
 Prevent the roll entirely by sitting weight back to collapse entry space or stripping the hip grip before the opponent can initiate the somersault. This maintains the original positional dynamic with you in defensive turtle and denies the attacker their technique.
@@ -230,6 +238,8 @@ If the roll has initiated but is not yet complete, follow the rotation direction
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kiss of the Dragon?</p>
 
 ### 1. Freezing in turtle when feeling the opponent's body pass underneath rather than reacting immediately
 
@@ -259,6 +269,8 @@ If the roll has initiated but is not yet complete, follow the rotation direction
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kiss of the Dragon?</p>
+
 **Phase 1: Recognition Drilling** - Identify setup cues without resistance
 Partner slowly demonstrates the Kiss of the Dragon setup sequence while you practice recognizing each warning cue: angle change, head drop, grip transition. Call out each cue as you feel it. Partner does not complete the technique. Build the pattern recognition that triggers defensive responses. 10-15 repetitions per session.
 
@@ -275,26 +287,6 @@ Start in turtle with partner attempting the Kiss of the Dragon at full speed and
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the Kiss of the Dragon rather than a traditional back take?
-**A**: The earliest cue is the opponent shifting from directly behind your turtle to a 45-degree angle on one side while their head begins to drop below your hip level. Traditional back takes involve pressure from above and behind, while the Kiss of the Dragon requires the attacker to position at an angle and lower their center of gravity. Additionally, their grip transitions from downward pressing control to lateral pulling tension, indicating they are preparing to use the grip as a rolling anchor rather than for standard back take mechanics.
-
-**Q2**: Why is sitting your weight back toward your heels the most effective preventive defense against the Kiss of the Dragon?
-**A**: The Kiss of the Dragon requires the attacker to get their head and shoulders underneath the defender's hips. When you sit your weight back toward your heels, you collapse the space between your hips and the mat, eliminating the entry path the attacker needs for their somersault. This is the most effective prevention because it denies the fundamental mechanical requirement of the technique. The trade-off is increased vulnerability to front headlock attacks, but this represents a less dangerous exchange than conceding full back control.
-
-**Q3**: Your opponent has already begun rolling underneath you. Is it better to try to stop their rotation or to follow it?
-**A**: Once the roll has initiated, attempting to stop it by posting or bracing is generally ineffective because the attacker's momentum and grip connection make the somersault difficult to halt mid-rotation. Instead, follow the rotation direction by turning your body to match their movement and sitting through to guard recovery. By matching their rotational direction, you prevent them from arriving behind you and convert the situation into a scramble where back control is denied. The critical timing distinction is that prevention works before the roll starts, but once rolling begins, flowing with the movement produces better outcomes than resisting it.
-
-**Q4**: How should you adjust your turtle defense when you know your opponent has the Kiss of the Dragon in their game?
-**A**: When facing a known Kiss of the Dragon practitioner, modify your turtle strategy in several ways. Keep your weight distributed more toward your heels rather than forward on your hands. Prioritize stripping any hip or belt grips immediately rather than focusing solely on defending seatbelt entries from above. Stay aware of the opponent's angle relative to your body and react to any shift from directly behind to a side angle. Consider transitioning from turtle more quickly to guard recovery or standing, reducing the time the opponent has to set up the technique. You can also keep one arm posted on the mat on the opponent's side, blocking their ability to lower their head past your hip line.
-
-
-
-</section>
 
 
 </main>

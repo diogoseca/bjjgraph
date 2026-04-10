@@ -154,6 +154,8 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Reverse Half Guard?</p>
+
 - Bottom player establishes frame against your hip on the trapped leg side, pushing to create space between your bodies
 - Bottom player begins hip escaping away from you, generating the clearance needed for rotation
 - Bottom player's torso starts rotating as their shoulders and chest begin turning to face you
@@ -166,6 +168,8 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Reverse Half Guard?</p>
 
 - Maintain constant chest and hip pressure from behind to eliminate the space the bottom player needs for rotation
 - Control the bottom player's upper body through crossface from the reverse angle to prevent torso rotation and freeze their movement
@@ -180,6 +184,8 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Reverse Half Guard?</p>
 
 ### 1. Drive crossface pressure from behind to block torso rotation
 
@@ -217,6 +223,8 @@ As the top player in Reverse Half Guard, your opponent's escape attempt represen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Reverse Half Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Time your hook insertion to coincide with the bottom player's rotation when their back is maximally exposed. As they turn, follow their movement and establish seat belt grip with hooks, converting their escape attempt into dominant back control.
@@ -232,6 +240,8 @@ When the bottom player loosens their leg control to create rotational space, imm
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Reverse Half Guard?</p>
 
 ### 1. Allowing space to develop between your hips and the bottom player's hips without addressing it
 
@@ -261,6 +271,8 @@ When the bottom player loosens their leg control to create rotational space, imm
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Reverse Half Guard?</p>
+
 **Recognition Training** - Identifying escape indicators early
 Partner attempts the escape at varying speeds and intensities while you focus exclusively on recognizing the preparatory movements including frame placement, hip escaping, and initial rotation. Call out each indicator verbally before countering to build pattern recognition.
 
@@ -277,26 +289,6 @@ Start in reverse half guard top with partner at full resistance attempting to es
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that the bottom player is about to attempt the reverse half guard escape?
-**A**: The earliest indicators are frame placement against your hips on the trapped leg side and initial hip escaping movements away from your body. These preparatory actions create the space needed for rotation and precede the actual escape by one to two seconds. Feeling increased pushing pressure against your hips should trigger an immediate defensive response before the rotation begins.
-
-**Q2**: When should you pursue the back take versus completing the guard pass during the escape attempt?
-**A**: Pursue the back take when the bottom player's torso begins rotating and their back becomes maximally exposed during the transition, creating the ideal window for hook insertion. Complete the guard pass instead when the bottom player loosens their leg control during rotation, creating an opportunity to extract your trapped leg and advance to side control.
-
-**Q3**: What is the primary risk of remaining passive in reverse half guard top without advancing?
-**A**: Remaining passive gives the bottom player unlimited attempts to find the correct timing for their escape. Even with strong control, the bottom player will eventually identify a weight shift or momentary pressure reduction to exploit. Reverse half guard top should be treated as a transitional position requiring immediate advancement to either back control or guard pass completion.
-
-**Q4**: How should you adjust your pressure if the bottom player begins to invert rather than rotate normally?
-**A**: If the bottom player begins inverting, shift your weight toward their hips and sprawl your legs back to eliminate the space they need for inversion. Drive your chest pressure downward toward the mat rather than forward. This prevents the inversion entry and forces them back to the standard rotation-based escape pattern, which is more predictable and easier to counter from your position.
-
-
-
-</section>
 
 
 </main>

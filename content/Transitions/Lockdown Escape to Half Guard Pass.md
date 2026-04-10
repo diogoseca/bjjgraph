@@ -28,7 +28,7 @@ The key insight is that the lockdown's power derives from the triangled leg conf
 
 Strategically, this technique transforms a defensive predicament into offensive momentum. By flowing directly from escape into a passing sequence, you capitalize on the momentary disruption caused by breaking the opponent's primary control structure. This prevents them from re-establishing the lockdown or transitioning to alternative guards, converting what could be an exhausting positional battle into efficient advancement to dominant position.
 
-**From Position**: [[Positions/Half Guard/Lockdown]] (Top)
+**From Position**: [[Positions/Vaporizer]] (Top)
 **Success Rate**: 58%
 
 </section>

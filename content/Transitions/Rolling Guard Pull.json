@@ -12,7 +12,7 @@
     "sport bjj",
     "standing to ground"
   ],
-  "from_position": "Standing Position/Top",
+  "from_position": "Standing Guard/Bottom",
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",

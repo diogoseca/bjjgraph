@@ -166,6 +166,8 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Truck Position Entry?</p>
+
 - Attacker shifts their leg position from standard hooks or hip contact to a lateral swinging motion aimed at threading under your body as you begin to lower your base
 - Attacker drives chest pressure at an angle rather than straight down during your descent, attempting to force you onto your side rather than into a symmetrical turtle position
 - Attacker's inside leg (the leg on their underhook side) begins moving forward and underneath your hip line during the transition from standing to ground
@@ -178,6 +180,8 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Truck Position Entry?</p>
 
 - Recognize the attacker's hook threading attempt early by feeling their leg movement against your hip during the descent from standing to ground
 - Control the direction and speed of your own descent rather than allowing the attacker to guide you down at an angle favorable for their hook
@@ -192,6 +196,8 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Truck Position Entry?</p>
 
 ### 1. Maintain standing position by widening base and fighting to stay upright, denying the descent trigger the attacker needs to initiate the Truck entry
 
@@ -229,6 +235,8 @@ Advanced defenders integrate awareness of the Truck entry threat into their over
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Truck Position Entry?</p>
+
 ### → [[Positions/Back Control/Standing Back Control]]
 
 Deny the descent entirely by maintaining strong standing posture, fighting the attacker's downward pressure, and keeping your base wide enough that they cannot generate the angle needed for the Truck entry. Strip any early hook attempts while maintaining neck defense. Continue working primary standing escapes to eventually remove back exposure completely.
@@ -244,6 +252,8 @@ Execute a controlled, deliberate drop to turtle with your hips squared and drive
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Truck Position Entry?</p>
 
 ### 1. Dropping to the ground in an uncontrolled manner without squaring your hips or tucking your elbows, allowing the attacker to guide your descent angle
 
@@ -273,6 +283,8 @@ Execute a controlled, deliberate drop to turtle with your hips squared and drive
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Truck Position Entry?</p>
+
 **Week 1-2** - Recognition and controlled descent drilling
 Partner takes standing back control and simulates the Truck entry at 25% speed. Practice recognizing the hook threading attempt by feeling the partner's leg movement. Drill controlled descents to turtle with hips squared and elbows tucked. Perform 20 repetitions per session, focusing on landing in a compact defensive shell that blocks hook access.
 
@@ -289,29 +301,6 @@ During sparring, allow partners to achieve standing back control and work the fu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three elements the attacker needs to complete the Truck Position Entry, and how can you disrupt each one?
-**A**: The attacker needs a controlled descent, a threaded leg hook, and a completed roll. Disrupt the descent by maintaining standing position or controlling your own drop to a squared, flat turtle. Disrupt the hook by keeping hips flat with elbows tucked or stripping the hook with your hands before it crosses your centerline. Disrupt the roll by sitting through to face the attacker or driving your hips flat to the mat to create friction that prevents the lateral rolling motion.
-
-**Q2**: You feel the attacker's shin beginning to slide under your hip as your knees hit the mat. What is your immediate response?
-**A**: Immediately use both hands to grab the attacker's hooking leg and push it away from your centerline before it can cross to the far side. Simultaneously drive your hips flat to the mat and squeeze your knees together to close the channel the hook is threading through. Accept that your neck is momentarily less defended and rely on chin tuck and shoulder positioning for neck protection during this critical moment. If the hook clears before you can strip it, switch to sit-through defense.
-
-**Q3**: Why is an uncontrolled descent from standing particularly dangerous against an attacker who knows the Truck entry?
-**A**: An uncontrolled descent allows the attacker to guide the angle and speed of your fall, directing you onto the side where their hook threading angle is optimal. During an uncontrolled drop, your defensive structure is not yet formed: elbows are not tucked, hips are not squared, and you have no conscious control over your landing position. This gives the attacker the maximum window to thread the hook before you can establish any defensive shell. A controlled descent on your own terms denies the attacker this angular advantage.
-
-**Q4**: When should you prioritize stripping the leg hook versus maintaining neck defense during the Truck entry attempt?
-**A**: Prioritize stripping the leg hook when you feel it actively threading under your hip during the descent. The Truck position is arguably more dangerous than standing back control because it opens multiple submission paths including the Twister spine lock. Use structural neck defense through chin tuck and shoulder shrugging rather than hand-based defense, which frees your hands to address the hook. Once the hook is stripped or prevented, you can return hand attention to neck defense from turtle.
-
-**Q5**: Your attacker is driving you down at an angle, clearly setting up the Truck entry. You cannot stay standing. What is the optimal defensive descent strategy?
-**A**: If you must go to ground, execute a deliberate drop in the opposite direction from where the attacker is angling you. If they are pushing you to the right for a right-side hook, drop your weight to the left and square your hips. Tuck your elbows immediately on landing and drive your hips flat. This forces the attacker to either abandon the Truck entry and follow to standard back control, or attempt the hook on the wrong angle where their leg position is not optimal. Controlling the direction of your descent is more important than the speed.
-
-
-
-</section>
 
 
 </main>

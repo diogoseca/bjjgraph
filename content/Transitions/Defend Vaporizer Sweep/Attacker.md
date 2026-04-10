@@ -188,6 +188,8 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Defend Vaporizer Sweep?</p>
+
 - Widen base immediately upon detecting whip-up motion by sprawling the free leg laterally to create a stable platform resistant to rolling forces
 - Apply heavy chest-to-chest shoulder pressure into the bottom player to limit their hip mobility and reduce whip-up effectiveness
 - Address the lockdown through controlled leg circulation and knee positioning rather than explosive extraction that tightens the entanglement
@@ -202,6 +204,8 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Defend Vaporizer Sweep?</p>
+
 - Top player is trapped in Vaporizer position with one leg caught in the bottom player's lockdown figure-four configuration
 - Bottom player has initiated or is actively threatening a sweep through whip-up motion, foot posting, or rolling mechanics
 - Top player retains sufficient base and posting ability to initiate a defensive response before the sweep is completed
@@ -214,6 +218,8 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Defend Vaporizer Sweep step by step?</p>
 
 1. **Recognize sweep direction and type**: Identify whether the bottom player is attempting an Old School sweep using a lateral roll with posted foot and underhook, a rolling back take rotating toward Truck position, or an Electric Chair entry splitting your legs while driving upward. The specific defense depends entirely on reading the correct threat in time to apply the appropriate counter.
 2. **Widen base and lower center of gravity**: Immediately sprawl your free leg out to the side opposite the sweep direction, posting your foot wide on the mat. Lower your hips toward the mat to drop your center of gravity, making it significantly harder for the bottom player to generate the rotational momentum needed to complete the sweep attempt.
@@ -243,6 +249,8 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Defend Vaporizer Sweep?</p>
+
 - **Bottom player transitions to Electric Chair by releasing lockdown and controlling far leg when top player widens base** (Effectiveness: High) - Your Response: Keep far knee tucked tight and legs together when widening base. If they begin splitting your legs, immediately squeeze knees together and drive hips forward to prevent the separation needed for Electric Chair entry → Leads to [[Positions/Half Guard]]
 - **Bottom player switches to rolling back take toward Truck position when top player commits shoulder pressure forward** (Effectiveness: Medium) - Your Response: Turn hips toward the bottom player rather than away when you feel rotational force. Establish a whizzer and drive weight into their chest to prevent the roll from gaining momentum. If they begin to secure the far leg hook, immediately address the back take threat → Leads to [[Positions/Half Guard]]
 - **Bottom player tightens lockdown and increases whip-up pressure from a different angle after initial defense** (Effectiveness: Medium) - Your Response: Maintain widened base and continue systematic lockdown clearing. The re-established whip-up is less effective once center of gravity is lowered. Continue patient leg circulation and avoid reverting to a narrow base that enables renewed sweep attempts → Leads to [[Positions/Vaporizer]]
@@ -254,6 +262,8 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Defend Vaporizer Sweep?</p>
 
 ### 1. Attempting to pull the trapped leg free with explosive force rather than controlled circulation
 
@@ -293,6 +303,8 @@ The Defend Vaporizer Sweep attacker is the top player caught in the Vaporizer po
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Defend Vaporizer Sweep (Attacker)?</p>
+
 **Phase 1: Foundation** - Base widening and weight distribution
 Practice widening base and lowering center of gravity from Vaporizer top against a compliant partner. Focus on the physical sensation of being stable against lateral pressure. Partner applies 25% whip-up resistance. Perform 20 repetitions each side.
 
@@ -310,36 +322,12 @@ Positional sparring starting from Vaporizer. Bottom player attempts sweeps at fu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent initiates a strong whip-up and you feel your weight shifting laterally - what is your immediate first response?
-**A**: Immediately widen your base by sprawling your free leg out to the side opposite the sweep direction and lower your hips toward the mat. This creates a wider platform that resists the rotational force of the whip-up. Simultaneously drive your shoulder into their chest to limit their hip driving ability. The instinct to post your hand should be overridden by the base widening response, as a hand post near their hip creates a lever point they can exploit for the Old School sweep.
-
-**Q2**: What conditions must exist before you should attempt to clear the lockdown?
-**A**: You should only begin active lockdown clearing once you have established a stable wide base and neutralized the bottom player's upper body control through a whizzer or crossface. Attempting to clear the lockdown while your base is narrow or while they have an active underhook creates space and opportunities for them to complete the sweep or advance to the Electric Chair. The lockdown clearing is the final phase of the defensive sequence, not the first response.
-
-**Q3**: What is the critical difference between defending an Old School sweep versus a rolling back take from the Vaporizer?
-**A**: The Old School sweep operates on a lateral rolling plane where the bottom player uses their posted foot and underhook to roll you sideways. Defense requires widening base in the opposite direction of the roll. The rolling back take operates on a rotational plane where they attempt to rotate your body to expose your back for Truck entry. Defense requires turning your hips toward them rather than allowing rotation away. Misidentifying the attack and applying the wrong defense can accelerate the technique rather than stopping it.
-
-**Q4**: Why should you avoid explosive movements when clearing the lockdown from the Vaporizer?
-**A**: Explosive extraction attempts trigger a reflexive tightening response in the bottom player's lockdown, making the entanglement harder to escape. The rapid movement also creates momentary space between your bodies that the bottom player uses to adjust grips, re-angle hips, or transition to a different attack. Controlled circulation movements work incrementally to loosen the configuration without creating these defensive openings. Energy expenditure from explosive attempts also accelerates fatigue while the lockdown requires minimal energy to maintain.
-
-**Q5**: Your opponent's lockdown is very tight and you cannot make progress clearing it - what alternative approach should you consider?
-**A**: If the lockdown cannot be cleared through circulation, shift focus to neutralizing their upper body control completely. By establishing dominant crossface pressure and eliminating their underhook, you remove their ability to generate meaningful sweep threats even with the lockdown intact. This buys time to work the lockdown from a safer position. Alternatively, consider pointing the knee to mat and walking your free foot to create a passing angle that works around the lockdown rather than through it.
-
-**Q6**: How should your grip strategy change when you feel the bottom player transitioning from an Old School sweep to an Electric Chair attempt?
-**A**: When the bottom player transitions to Electric Chair, they need to release the lockdown partially and control your far leg for the split. Your grip priority shifts from whizzer defense against the underhook to actively squeezing your knees together and blocking access to your far leg. Use your hands to control their wrist or forearm reaching for your far leg. Keep hips low and legs tight rather than maintaining the wide base for Old School defense, as the wide base actually facilitates the Electric Chair leg separation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Defend Vaporizer Sweep?</p>
 
 When defending Vaporizer sweeps, be mindful of medial collateral ligament stress on the trapped knee during lockdown clearing. Avoid explosive twisting motions that can strain knee ligaments. If you feel sharp pain in the trapped knee during extraction attempts, stop immediately and tap. During training, communicate with partners about lockdown tightness and agree on resistance levels before drilling. The lockdown can apply significant force to the knee joint, particularly when combined with rotation during sweep defense.
 

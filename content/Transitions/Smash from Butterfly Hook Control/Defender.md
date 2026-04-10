@@ -162,6 +162,8 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash from Butterfly Hook Control?</p>
+
 - Top player shifts weight distribution to one side while tightening crossface or head pressure on that same side, indicating preparation to drive the knee through
 - Top player strips your grips on one side while maintaining tight head position, clearing the path for an unobstructed smash drive
 - Top player's knee begins advancing forward and down toward the mat on one side with increasing pressure through that hip
@@ -174,6 +176,8 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash from Butterfly Hook Control?</p>
 
 - Maintain active hook elevation with constant upward pressure to prevent the top player from loading weight onto a single hook for the smash
 - Frame against the crossface or shoulder pressure early, because the upper body control is what enables the smash, not the knee drive alone
@@ -188,6 +192,8 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash from Butterfly Hook Control?</p>
 
 ### 1. Pump hooks explosively and execute butterfly sweep during the weight transfer phase
 
@@ -225,6 +231,8 @@ Defending the Butterfly Smash requires the bottom player to recognize early indi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash from Butterfly Hook Control?</p>
+
 ### → [[Positions/Mount]]
 
 Time your hook elevation and butterfly sweep to coincide with the moment the top player commits weight to one side for the smash. Their narrowed base during the weight transfer creates a vulnerability window for sweeping in the opposite direction. Pull with your collar or underhook grip to direct their weight off-balance while pumping the hook on their weakened base side.
@@ -240,6 +248,8 @@ Frame against the crossface immediately when you feel pressure increasing on one
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash from Butterfly Hook Control?</p>
 
 ### 1. Allowing hooks to become passive and flat on the mat without active upward pressure
 
@@ -269,6 +279,8 @@ Frame against the crossface immediately when you feel pressure increasing on one
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash from Butterfly Hook Control?</p>
+
 **Recognition Drill** - Identifying smash initiation cues through tactile sensitivity
 Partner slowly initiates the butterfly smash from top position. Bottom player calls out the recognition cue as soon as they detect the weight shift. Progress from verbal identification to immediate defensive response. Develops sensitivity to pressure changes that precede the smash.
 
@@ -285,29 +297,6 @@ Positional sparring starting in butterfly guard against a top player whose goal 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a butterfly smash is being initiated?
-**A**: The earliest cue is the top player shifting their weight distribution to one side while tightening their crossface or head pressure on that same side. This weight shift precedes the actual knee drive by a critical moment and indicates they are loading the side they intend to smash through. Secondary cues include grip stripping on that side and their knee beginning to advance forward. Recognizing the initial weight shift provides the maximum response window for preventive defense.
-
-**Q2**: Your opponent's smash is halfway complete with one hook partially collapsed - what is your best recovery option?
-**A**: If their weight is committed forward and you can get your shoulder underneath their hip, transition to deep half guard where you have strong sweeping mechanics and a positional advantage. If you cannot get underneath in time, immediately insert your top knee as a shield between your hip and their driving knee to establish knee shield half guard. The worst option is trying to forcibly re-insert the collapsed hook against committed smash pressure—this rarely succeeds and wastes energy better spent on positional transitions.
-
-**Q3**: How do you use the opponent's smash commitment to create a sweep opportunity?
-**A**: When the opponent commits weight to one side for the smash, their base on the opposite side becomes compromised and unable to resist lateral force. Pump your hook on the opposite side while pulling with your upper body grips to direct their weight off-balance in the direction of their weakened base. The sweep works because their weight transfer has already eliminated their ability to post and recover on that side. Timing is critical—initiate the sweep as they commit weight, not after the smash is complete.
-
-**Q4**: What defensive grips should you prioritize when you recognize a smash attempt beginning?
-**A**: Prioritize collar or lapel grip on the smash side to control their posture and resist the forward drive, combined with sleeve or wrist control on their crossface arm to prevent them establishing the upper body control that enables the smash. In no-gi, a collar tie on the smash side combined with wrist control on the crossface arm serves the same function. These grips must be established early because once the smash is in motion, grip fighting becomes far more difficult due to the pressure compressing your chest.
-
-**Q5**: When should you abandon hook recovery and commit to a secondary defensive position?
-**A**: Abandon hook recovery once the opponent's shin has pinned your foot to the mat and their weight is fully committed through that side. At this point, trying to pull your hook free requires fighting against their entire body weight and structural pin—an extremely energy-inefficient proposition. Instead, immediately assess whether deep half entry or knee shield insertion is available. Deep half is preferred when the opponent's weight is forward, while knee shield is preferred when you still have space between your hip and their advancing knee. The key is making this decision quickly rather than spending energy on a recovery that has less than a ten percent success rate.
-
-
-
-</section>
 
 
 </main>

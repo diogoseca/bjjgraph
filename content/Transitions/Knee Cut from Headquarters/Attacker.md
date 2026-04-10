@@ -188,6 +188,8 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Cut from Headquarters?</p>
+
 - Establish upper body control before initiating the cut—crossface or underhook must be secured to prevent the opponent from turning into the pass and countering
 - Drive the cutting knee diagonally at forty-five degrees across the opponent's thigh, not straight down, creating a wedge effect that mechanically separates their legs
 - Drop your hip weight through the cut rather than sliding over the top—the hip drop collapses defensive space and prevents half guard recovery
@@ -202,6 +204,8 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Cut from Headquarters?</p>
+
 - Headquarters position established with one opponent leg trapped and knee driven toward the mat with sustained downward pressure
 - Crossface or collar control secured to pin the opponent's head away from the passing direction and prevent them from turning into you
 - Posting leg positioned wide for stable triangulated base that will support the weight transfer during the cutting motion
@@ -214,6 +218,8 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Cut from Headquarters step by step?</p>
 
 1. **Establish Upper Body Control**: From headquarters with the opponent's leg trapped, secure crossface control by driving your near-side forearm across the opponent's jaw and neck, turning their head away from you. Your far-side hand maintains control of their near-side knee or pant grip at the knee line to manage leg position and prevent early defensive framing.
 2. **Read Opponent's Hip Angle**: Observe the direction of the opponent's hips and identify the optimal passing lane. The ideal moment to initiate the knee cut is when the opponent turns their hips toward the trapped leg side, which naturally opens a gap across their thigh line. Avoid committing when their hips face you squarely with active frames in place.
@@ -243,6 +249,8 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Cut from Headquarters?</p>
+
 - **Opponent establishes strong knee shield before the cut initiates, blocking the knee from crossing the thigh line** (Effectiveness: High) - Your Response: Switch to smash pass by collapsing your weight laterally onto the knee shield, turning their defensive structure into a passing lane, or disengage and attack with toreando or leg drag from the opposite angle → Leads to [[Positions/Headquarters Position]]
 - **Opponent secures deep underhook during the knee cut and begins sitting up to threaten sweep or back take** (Effectiveness: High) - Your Response: Immediately drive crossface pressure harder to flatten them back down, or apply a whizzer on the underhook arm and switch to a darce choke threat that punishes their attempt to come underneath → Leads to [[Positions/Half Guard]]
 - **Opponent frames on your hip with a stiff arm and hip escapes away, creating distance that prevents the knee from crossing** (Effectiveness: Medium) - Your Response: Strip the hip frame by swimming your elbow inside their wrist and pinning it to their body, then immediately re-engage the knee cut before they can re-establish the defensive frame or recover full guard → Leads to [[Positions/Headquarters Position]]
@@ -254,6 +262,8 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Cut from Headquarters?</p>
 
 ### 1. Initiating the knee cut without establishing crossface or upper body control first
 
@@ -293,6 +303,8 @@ As the attacker executing the Knee Cut from Headquarters, your objective is to c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Cut from Headquarters (Attacker)?</p>
+
 **Phase 1: Mechanics** - Cutting angle, hip drop, and shin extraction
 Drill the knee cut motion against a non-resisting partner, focusing on the diagonal knee angle, the hip drop timing, and the windshield-wiper shin extraction. Perform 20 repetitions per side, emphasizing smooth coordination between all three elements before adding any resistance.
 
@@ -313,45 +325,12 @@ Positional sparring starting from headquarters with full resistance. Top player 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What hip angle from the opponent signals the optimal timing to initiate the knee cut from headquarters?
-**A**: The optimal timing is when the opponent turns their hips toward the trapped leg side, which naturally opens a passing lane across their thigh line. This hip turn creates a gap between their legs that the cutting knee can exploit. Cutting when the opponent's hips face you squarely meets maximum resistance because both legs can defend the passing lane simultaneously.
-
-**Q2**: Your opponent establishes a strong frame on your shoulder as you begin the knee cut—what is your immediate adjustment?
-**A**: Strip the shoulder frame by swimming your elbow inside their wrist and pinning their arm to their body, or change levels by dropping your shoulder below their frame to slip underneath it. If the frame is too strong to strip directly, consider switching to a toreando or leg drag pass that attacks the angle their frame creates rather than fighting through it directly.
-
-**Q3**: What is the most critical biomechanical action that prevents the opponent from recovering half guard during the knee cut?
-**A**: The hip drop is the most critical action. As the cutting knee crosses the thigh line, actively dropping your hip toward the mat on the passing side collapses all remaining space between your bodies. This prevents the opponent from re-inserting their knee because there is no gap between your hip and their body through which their leg can travel. Without the hip drop, space remains even after the knee crosses.
-
-**Q4**: During the knee cut, your opponent secures a deep underhook and begins sitting up toward your back—how do you respond?
-**A**: Immediately increase crossface pressure to drive their head and shoulders back to the mat, countering their upward momentum. If the crossface alone cannot flatten them, apply a whizzer on their underhook arm by overhooking it and driving your shoulder into their armpit. From the whizzer position, you can threaten a darce choke that punishes the underhook attempt or use the whizzer to flatten them and resume the knee cut.
-
-**Q5**: What grip or control must be established before initiating the knee cut from headquarters?
-**A**: Crossface or collar control must be established on the upper body before committing to the knee cut. The crossface forearm drives across the opponent's jaw and neck, turning their head away from the passing direction. Without this upper body control, the opponent can freely turn into the pass, establish their own underhook, and counter the knee cut with a sweep or guard recovery.
-
-**Q6**: The opponent blocks your knee cut with a knee shield—what alternative passes chain naturally from this defensive reaction?
-**A**: The knee shield opens three natural chain passes: the smash pass by collapsing your weight laterally onto the knee shield and using it as a passing lane, the long step pass by stepping your free leg over their shield to the opposite side, or the toreando pass by disengaging the cutting knee and redirecting laterally around their legs. Each option exploits the defensive commitment the knee shield requires.
-
-**Q7**: In which direction should force be applied through the cutting knee relative to the opponent's body?
-**A**: The cutting knee should drive diagonally at approximately forty-five degrees across the opponent's inner thigh, angling toward the mat on their far side. This diagonal angle creates a wedge effect that mechanically separates the legs through bodyweight pressure. A straight vertical cut slides off the thigh without creating separation, and a purely lateral cut lacks the downward pressure needed to pin through the thigh line.
-
-**Q8**: Your cutting knee crosses the thigh line but the opponent locks their legs around your shin—what technique do you use to extract your leg?
-**A**: Use the windshield-wiper shin extraction by rotating your foot outward in an arc while maintaining constant downward hip pressure. The rotation creates a circular motion that peels your shin through their leg lock without lifting your leg and creating space. If the leg lock is too tight, increase crossface pressure to distract them while you work the extraction, or accept the half guard top position and transition to a standard knee slice pass sequence from there.
-
-**Q9**: Why is it critical to maintain downward pressure on the trapped leg throughout the entire knee cut sequence?
-**A**: Continuous downward pressure on the trapped leg restricts the opponent's hip mobility, which is the foundation of all their defensive options. If pressure is released even momentarily, the opponent can use that window to hip escape, re-angle their hips, insert a knee shield, or recover full guard structure. The trapped leg pressure also serves as the anchor point from which the cutting knee generates its diagonal wedge force.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Cut from Headquarters?</p>
 
 The knee cut pass applies significant lateral pressure across the opponent's knee and hip joints during the cutting phase. Controlled application is essential—sudden explosive entries can cause MCL strain or hip flexor injury in training partners. When drilling, reduce speed during the cutting phase and allow the bottom player time to adjust their leg position. Avoid driving the knee through a fully locked defensive structure with maximum force, as this can injure both the knee joint of the bottom player and the hip of the passer. Communicate with training partners about knee sensitivity and tap immediately if any joint pain is felt during the extraction phase.
 

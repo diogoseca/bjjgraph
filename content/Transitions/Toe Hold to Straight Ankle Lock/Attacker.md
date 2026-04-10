@@ -194,6 +194,8 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Toe Hold to Straight Ankle Lock?</p>
+
 - Legs control position while hands attack submission. Maintain leg entanglement independently of grip configuration throughout the entire transition sequence.
 - Read the defender's foot orientation. Internal rotation that defends the toe hold simultaneously exposes the Achilles tendon for straight ankle lock application.
 - Minimize the grip transition window. Every millisecond without hand contact on the ankle is an escape opportunity for the defender.
@@ -208,6 +210,8 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Toe Hold to Straight Ankle Lock?</p>
+
 - Established toe hold control position with secure leg entanglement wrapping the defender's trapped leg
 - Defender demonstrating effective boot defense or internal rotation that is neutralizing the toe hold rotational pressure
 - Attacker's legs maintaining independent positional control that does not rely on hand grips for stability
@@ -220,6 +224,8 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Toe Hold to Straight Ankle Lock step by step?</p>
 
 1. **Assess defender's foot orientation**: Before initiating the grip switch, evaluate the defender's current foot position. Confirm that their boot defense or internal rotation has exposed the Achilles tendon area. If the defender's foot remains in a position where the toe hold is still viable, continue attacking the toe hold rather than switching prematurely.
 2. **Tighten leg entanglement control**: Squeeze your legs tighter around the defender's trapped leg, ensuring your leg wrap can independently prevent leg extraction during the grip transition. Your inside leg should create a firm wedge behind their knee while your outside leg controls their thigh, forming a vice that holds the leg in place regardless of hand positioning.
@@ -250,6 +256,8 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Toe Hold to Straight Ankle Lock?</p>
+
 - **Leg extraction during grip release window** (Effectiveness: High) - Your Response: Maximize leg entanglement squeeze before initiating grip change. If extraction begins during the switch, immediately abandon the ankle lock attempt and re-establish toe hold grips on whatever foot control remains. Prevention through tight leg control is more effective than recovery after extraction begins. → Leads to [[Positions/Half Guard]]
 - **Defender sits up and posts during momentary grip looseness** (Effectiveness: Medium) - Your Response: Drive forward hip pressure aggressively before and during the grip switch to prevent sit-up. If the defender achieves partial posture, use the newly established ankle lock grip to pull them off-balance while your legs maintain entanglement control. Transition to saddle entry if sit-up becomes significant. → Leads to [[Positions/Toe Hold Control]]
 - **Defender uses free leg to kick away or frame on hips creating distance** (Effectiveness: Medium) - Your Response: Control the free leg with your outside leg or hip positioning before initiating the grip change. If the defender creates distance after the switch, use the straight ankle lock grip to pull them back into range while adjusting leg control to close the distance gap. → Leads to [[Positions/Toe Hold Control]]
@@ -262,6 +270,8 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Toe Hold to Straight Ankle Lock?</p>
 
 ### 1. Releasing both hands simultaneously during grip transition
 
@@ -306,6 +316,8 @@ From the attacker's perspective, the Toe Hold to Straight Ankle Lock transition 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Toe Hold to Straight Ankle Lock (Attacker)?</p>
+
 **Phase 1: Static Grip Mechanics** - Grip reconfiguration without resistance
 Practice the hand transition sequence on a compliant partner's leg. Start in toe hold grip, execute the staggered hand release and ankle lock reconfiguration, confirm proper forearm-to-Achilles placement. Perform 20 repetitions per side focusing purely on hand mechanics without any leg entanglement pressure.
 
@@ -326,42 +338,12 @@ Expand the drill to include all options from toe hold control: toe hold finish, 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What defensive response from the defender creates the optimal timing window to switch from toe hold to straight ankle lock?
-**A**: The optimal timing window opens when the defender commits to boot defense or internal foot rotation to neutralize the toe hold's rotational pressure. This defensive posture, while effective against the toe hold, simultaneously exposes the Achilles tendon by flattening the foot and presenting the posterior ankle. The defender's commitment to one defensive plane creates vulnerability on the perpendicular attack plane.
-
-**Q2**: Why must you tighten your leg entanglement before initiating the grip switch?
-**A**: Your legs must independently control the defender's trapped leg because your hands will temporarily release all attacking grips during the reconfiguration. If the leg entanglement is loose, the defender can extract their leg the moment your hands release the toe hold figure-four. Tightening the leg wrap creates a control checkpoint that functions regardless of hand position, maintaining the entanglement through the transition window.
-
-**Q3**: What is the correct hand sequence for the grip transition from toe hold to ankle lock?
-**A**: The correct sequence is staggered, not simultaneous. First, release the top hand from the figure-four and redirect it to wrap the ankle with the forearm blade across the Achilles tendon. Maintain bottom hand contact on the foot throughout this movement. Only after the forearm is positioned on the Achilles should the bottom hand release and clasp with the top hand to complete the straight ankle lock grip. This staggered approach ensures continuous partial contact throughout the transition.
-
-**Q4**: Your opponent begins extracting their leg during the grip change. How do you respond?
-**A**: Immediately abandon the ankle lock transition and revert to whatever grip control remains viable. If partial toe hold grip is still available, re-establish the figure-four. If the foot is slipping free, prioritize re-gripping the foot with both hands in any configuration rather than continuing toward the ankle lock. Prevention through initial leg tightening is far more effective than recovery, so if extraction attempts succeed frequently, focus on improving the preparatory leg squeeze.
-
-**Q5**: Where exactly should the forearm blade contact the defender's leg for the straight ankle lock?
-**A**: The wrist bone and forearm blade must be positioned directly across the Achilles tendon, just above the heel bone. Placement too high on the calf or shin distributes pressure across a wider area, dramatically reducing submission effectiveness. The narrow wrist bone against the narrow Achilles tendon creates concentrated pressure that generates meaningful submission threat with minimal force. The heel itself should be pulled tight against the attacker's sternum.
-
-**Q6**: When should you NOT attempt this grip switch and instead continue attacking the toe hold?
-**A**: Do not switch when the toe hold is still generating effective rotational pressure and the defender has not yet established boot defense. Switching away from a working submission wastes offensive momentum and introduces unnecessary transition risk. Only initiate the switch when the toe hold is genuinely neutralized by the defender's positioning and the Achilles tendon exposure makes the ankle lock a higher-percentage option than continuing to fight for rotational leverage.
-
-**Q7**: How does hip pressure function during the grip transition and why is it critical?
-**A**: Forward hip pressure against the defender's leg compensates for reduced hand control during the grip change. By driving the hips forward and pressing the chest into the defender's shin, the attacker creates positional pressure that prevents the defender from sitting up or hip escaping. This body pressure must actually increase during the transition to substitute for the temporary absence of grip control, maintaining the defensive suppression that prevents escape.
-
-**Q8**: Your opponent rotates their foot externally during your grip switch attempt. What opportunity does this create?
-**A**: External foot rotation during the grip switch re-exposes the defender to the original toe hold attack. Their rotation undoes the boot defense that motivated the switch in the first place. The correct response is to abort the ankle lock transition and immediately reattack the toe hold with the figure-four grip, capitalizing on the now-favorable foot position. This creates a catch-22 for the defender where defending one attack opens the other.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Toe Hold to Straight Ankle Lock?</p>
 
 Both toe holds and straight ankle locks carry significant injury risk to ankle ligaments and the Achilles tendon. During grip transitions, maintain controlled pressure and never apply explosive force during the switch. The reconfiguration window creates unpredictable force vectors that can cause unintended injury if rushed. Always practice at reduced intensity initially, communicate clearly with training partners about pressure levels, and enforce a tap-early culture during leg lock training. Progressive pressure application is essential, particularly when establishing the new ankle lock grip, as the defender may not immediately recognize the changed threat vector. Stop immediately when a partner taps or verbally signals discomfort.
 

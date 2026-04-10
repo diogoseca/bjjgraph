@@ -166,6 +166,8 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap to Back?</p>
+
 - Attacker's near hand controls your wrist and begins pushing your arm across your body toward your opposite shoulder
 - Attacker's far hand reaches under your neck from the opposite side, seeking to connect with your wrist being fed across
 - You feel your arm being pinned against your neck or chest by the attacker's chest pressure while their body begins shifting toward your head
@@ -177,6 +179,8 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap to Back?</p>
 
 - Keep your elbows tight to your body and resist letting your arm cross your centerline—this is the single most important preventive action
 - Face your attacker rather than turning away when you feel arm isolation pressure from S Mount
@@ -191,6 +195,8 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap to Back?</p>
 
 ### 1. Keep elbow tight and retract arm before it crosses centerline by gripping your own collar or clasping hands together
 
@@ -228,6 +234,8 @@ Defensive strategy centers on three priorities: preventing your arm from crossin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap to Back?</p>
+
 ### → [[Positions/Mount/S Mount]]
 
 Prevent the arm from crossing your centerline by keeping elbows tight and gripping your collar, or turn explosively toward the attacker before the gift wrap connects. Staying in S Mount bottom is a favorable outcome because it preserves your standard defensive options against arm attacks.
@@ -243,6 +251,8 @@ During the rotation phase when the attacker's hips momentarily lift off your bod
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap to Back?</p>
 
 ### 1. Turning away from the attacker when you feel arm isolation pressure, exposing your back as a defensive reaction
 
@@ -277,6 +287,8 @@ During the rotation phase when the attacker's hips momentarily lift off your bod
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap to Back?</p>
+
 **Week 1-2** - Recognition and early prevention
 Partner slowly attempts the gift wrap from S Mount. Focus on recognizing the arm feed immediately and practicing the elbow-tight defense by gripping your collar. No resistance from partner on the defense—build pattern recognition for the earliest cues of the technique.
 
@@ -293,29 +305,6 @@ Positional sparring starting from S Mount bottom. Partner uses full arsenal of a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Gift Wrap to Back is being attempted?
-**A**: The earliest cue is feeling the attacker's near hand control your wrist and begin pushing your arm across your body toward your opposite shoulder. This arm feed is the initiating movement of the entire technique. Recognizing this pressure immediately and reacting by keeping your elbow tight and retracting your arm is the highest-percentage defensive moment in the entire sequence.
-
-**Q2**: Why is turning away from the attacker the worst defensive reaction when you feel arm pressure from S Mount?
-**A**: Turning away is the exact reaction the gift wrap technique requires. It simultaneously feeds your arm across your centerline (completing half the gift wrap setup) and exposes your back (completing the positional requirement for the back take). The attacker is deliberately creating arm threat pressure specifically to provoke this turning response. Facing the attacker instead denies both conditions simultaneously.
-
-**Q3**: What defensive dilemma does the Gift Wrap create, and how should you prioritize your responses?
-**A**: The dilemma is that defending the arm tightly (keeping elbow clamped) creates armbar vulnerability, while allowing the arm to cross your body to avoid the armbar enables the gift wrap and back take. The priority should be keeping the elbow tight to prevent the gift wrap, because remaining in S Mount bottom with armbar threat is significantly better than conceding back control. You trade one bad position for a worse one by allowing the arm to cross.
-
-**Q4**: The attacker has already secured the gift wrap and begins rotating around your head — what is your best defensive option?
-**A**: Block their rotation by posting your far arm against the mat and driving your shoulder into their path to prevent them from clearing your shoulder. Simultaneously hip escape toward their legs to create distance. If you can stall the rotation long enough, the attacker may need to reset or switch attacks. Accepting that stripping the grip is unlikely at this point and focusing on positional defense gives you the best chance of recovery.
-
-**Q5**: How can you recover half guard during the Gift Wrap to Back transition?
-**A**: Time your bridge and hip escape to coincide with the attacker's rotation, when their hips momentarily lift off your body as they walk around your head. Bridge explosively while hip escaping toward their legs, then insert your top knee between your bodies to establish half guard entanglement. The key is directional escape toward their legs combined with the bridge, not just bridging upward.
-
-
-
-</section>
 
 
 </main>

@@ -212,7 +212,7 @@ This transition connects the Truck system to the Twister Side Control system, se
 
 - [[Submissions/Twister]] - Primary submission available after reaching twister side control
 
-- [[Transitions/Calf Slicer]] - Alternative submission from truck if transition is unnecessary
+- [[Submissions/Calf Slicer]] - Alternative submission from truck if transition is unnecessary
 
 - [[Transitions/Darce Choke]] - High-percentage submission available from twister side control
 

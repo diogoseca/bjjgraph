@@ -187,9 +187,9 @@ The mounted crucifix also serves as an excellent teaching position for understan
 ### Available Transitions
 
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (16% of attempts)
+- **[[Transitions/Armbar from Crucifix/Attacker|Armbar from Crucifix]]** (16% of attempts)
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (10% of attempts)
+- **[[Rear Naked Choke from Mounted Crucifix/Attacker|Rear Naked Choke from Mounted Crucifix]]** (10% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (9% of attempts)
 
@@ -197,7 +197,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 - **[[Transitions/Gift Wrap to Technical Mount/Attacker|Gift Wrap to Technical Mount]]** (10% of attempts)
 
-- **[[Transitions/Neck Crank/Attacker|Neck Crank]]** (5% of attempts)
+- **[[Neck Crank from Mounted Crucifix/Attacker|Neck Crank from Mounted Crucifix]]** (5% of attempts)
 
 - **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (9% of attempts)
 

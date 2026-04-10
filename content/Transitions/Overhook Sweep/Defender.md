@@ -162,6 +162,8 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook Sweep?</p>
+
 - Opponent threads their arm over your tricep and clamps it tight against their chest, eliminating space between your arm and their torso
 - Opponent begins shifting their hips laterally to create an angle while maintaining the overhook grip, with their head moving away from your trapped arm
 - Opponent's free hand grabs your collar near the neck, your opposite sleeve, or cups behind your head while maintaining the overhook
@@ -173,6 +175,8 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook Sweep?</p>
 
 - Maintain strong upright posture with elbows tight to prevent arm extension that creates overhook opportunities
 - Recognize the overhook grip early and immediately work to extract the trapped arm before the bottom player establishes the angle
@@ -187,6 +191,8 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook Sweep?</p>
 
 ### 1. Extract trapped arm by circling elbow down and pulling arm back toward your hip while driving posture up
 
@@ -205,7 +211,7 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 ### 3. Stand up in base to break closed guard, using the standing position to strip the overhook through posture and gravity
 
 - **When to use**: When the overhook is deep and arm extraction from kneeling has failed, or when opponent is actively completing the angle and sweep is imminent
-- **Targets**: [[Positions/Closed Guard]]
+- **Targets**: [[Positions/Open Guard]]
 - **If successful**: Standing breaks the guard open and removes the leg leverage needed for the sweep, transitioning to open guard passing where the overhook loses effectiveness
 - **Risk**: Opponent may follow you up with the overhook maintained or switch to a different sweep timing as you transition through the standing motion
 
@@ -224,11 +230,13 @@ Defending the overhook sweep requires understanding both the mechanical prerequi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Extract the trapped arm early by circling your elbow down and pulling it back to your hip while driving your posture upright. Re-establish both hands on hips or biceps to control distance. This resets the position to neutral closed guard top where you can resume your guard opening approach.
 
-### → [[Positions/Closed Guard]]
+### → [[Positions/Open Guard]]
 
 Stand up in base to break the guard open, using the standing position to strip the overhook through posture extension and gravity. Once standing with guard broken, transition to open guard passing where the overhook control becomes largely ineffective without the closed guard legs to anchor the position.
 
@@ -239,6 +247,8 @@ Stand up in base to break the guard open, using the standing position to strip t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Sweep?</p>
 
 ### 1. Allowing posture to remain broken while focusing only on extracting the trapped arm
 
@@ -273,6 +283,8 @@ Stand up in base to break the guard open, using the standing position to strip t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook Sweep?</p>
+
 **Week 1-2: Recognition Training** - Identifying overhook sweep setups in real time
 Partner works through overhook sweep setup at 30% speed while you practice identifying each phase: grip establishment, angle creation, guard opening, and sweep initiation. Call out each phase verbally as it occurs. Build the pattern recognition before adding any defensive responses.
 
@@ -289,29 +301,6 @@ Positional sparring starting in closed guard top where partner actively hunts th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the overhook sweep sequence where defensive intervention is most effective?
-**A**: The most effective intervention point is the moment the opponent threads their arm over your tricep, before they can consolidate the grip. At this stage, a quick elbow circle downward and posture extension strips the overhook before any other elements are in place. Once the overhook is locked tight with angle and opposite-side control established, defensive difficulty increases dramatically. Prevention of the grip is far easier than escaping a fully established sweep setup.
-
-**Q2**: Why is standing up in base an effective counter to an established overhook sweep setup?
-**A**: Standing removes the leg leverage the bottom player needs to execute the sweep. The overhook sweep requires the outside leg hooking over your back and the inside foot pushing off the mat - when you stand, these mechanical elements lose their effectiveness because the bottom player's hips drop away. Additionally, standing naturally extends your posture, making the overhook harder to maintain against gravity. The guard breaks open, transitioning to open guard passing where the overhook becomes a much weaker control tool.
-
-**Q3**: Your opponent has secured a deep overhook and is shifting their hips to create the angle - what is your immediate priority?
-**A**: Your immediate priority is preventing the angle from completing by driving your hips forward and centering your weight directly over their hips. The angle is the mechanical key to the entire sweep - without it, the bottom player cannot generate the perpendicular force needed to break your base. Push your trapped-arm-side hip forward and down while widening your base. If you can flatten them back to square alignment, the sweep becomes mechanically impossible even with the overhook maintained.
-
-**Q4**: What defensive mistake makes you most vulnerable to the overhook sweep being chained into a triangle attack?
-**A**: Reaching across your body with your free hand to try to peel off the overhook is the most dangerous mistake. When you cross your free arm over your centerline, it creates the arm-across positioning that a triangle requires. If the opponent feels this reach and releases the overhook, they can immediately shoot their hips up and lock a triangle on the arm that just crossed over. Instead, keep your free hand on the same side as it naturally falls, using it for base posting or hip control.
-
-**Q5**: How should you adjust your base specifically when you feel the opponent uncross their ankles and begin to open their guard for the sweep?
-**A**: The moment you feel ankles uncross, widen your knees significantly and drop your hips lower toward the mat. This creates a wider, more stable platform that resists the scissoring action the bottom player is about to generate. Simultaneously, drive your weight toward the side they are sweeping you away from - if their outside leg is going over your back on the right side, shift your weight left and post your left hand. This counterbalances the rotational force before it fully develops.
-
-
-
-</section>
 
 
 </main>

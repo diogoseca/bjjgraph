@@ -160,7 +160,7 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Half Guard",
         "attempt_probability": 3
       },
       {
@@ -435,15 +435,11 @@
     "transitions": [
       {
         "transition": "Underhook Sweep from Half",
-        "attempt_probability": 18
+        "attempt_probability": 19
       },
       {
         "transition": "Half Guard to Back Take",
         "attempt_probability": 12
-      },
-      {
-        "transition": "Deep Half Entry",
-        "attempt_probability": 10
       },
       {
         "transition": "Old School Sweep",
@@ -463,7 +459,7 @@
       },
       {
         "transition": "Deep Half Entry from Half Guard",
-        "attempt_probability": 5
+        "attempt_probability": 16
       },
       {
         "transition": "Knee Torque Sweep",
@@ -499,10 +495,6 @@
       },
       {
         "transition": "Buggy Choke",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Kneebar from Half Guard",
         "attempt_probability": 2
       }
     ],

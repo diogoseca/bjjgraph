@@ -204,7 +204,7 @@ This transition occupies a critical defensive junction in the BJJ positional hie
 
 - [[Positions/Triangle Control]] - Opponent's attacking position that this transition defends against
 
-- [[Transitions/Triangle Choke]] - Submission threat that motivates the urgent need for this defensive transition
+- [[Submissions/Triangle Choke]] - Submission threat that motivates the urgent need for this defensive transition
 
 - [[Transitions/Knee Slice Pass]] - Common half guard pass that exposes the passer to triangle entries when executed improperly
 

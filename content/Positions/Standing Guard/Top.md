@@ -169,6 +169,8 @@ The position is particularly valuable in competition settings where maintaining 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Standing Guard (Top)?</p>
+
 - Top player maintains upright standing posture with feet on the mat, hips elevated above opponent's guard with weight distributed through legs and feet for mobility and base stability
 - Bottom player on their back with at least one point of connection to top player through grips, hooks, or frames attempting to control distance and prevent passing sequences
 - Top player's hands engaged in grip fighting or controlling opponent's legs and hips to create passing opportunities while maintaining balance and defensive base against sweeps
@@ -181,6 +183,8 @@ The position is particularly valuable in competition settings where maintaining 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Standing Guard (Top)?</p>
+
 - Opponent has established open guard from bottom position
 - Top player has achieved standing posture with both feet on mat
 - Bottom player's closed guard has been opened or was never established
@@ -192,6 +196,8 @@ The position is particularly valuable in competition settings where maintaining 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Standing Guard?</p>
 
 - Maintain upright posture with chin up and shoulders back to prevent being pulled down into closed guard or submissions
 - Control opponent's legs and hips through grips to limit their ability to establish hooks and frames
@@ -207,6 +213,8 @@ The position is particularly valuable in competition settings where maintaining 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Standing Guard (Top)?</p>
 
 **If opponent establishes strong collar and sleeve grips with active foot placement:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Standing Guard]] (Probability: 70%)
@@ -240,6 +248,8 @@ The position is particularly valuable in competition settings where maintaining 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Standing Guard?</p>
 
 ### 1. Leaning forward with weight over opponent's guard
 
@@ -284,7 +294,9 @@ The position is particularly valuable in competition settings where maintaining 
 
 ## Training Drills for Attacks
 
-### Grip Fighting Flow
+<p class="section-subtitle">How do you train Standing Guard attacks?</p>
+
+### Grips Flow
 
 Partner starts in open guard with various grips while top player practices systematically breaking grips and establishing passing control points. Focus on hand fighting techniques and preventing opponent from resetting grips.
 
@@ -323,38 +335,6 @@ Bottom player establishes specific guard type (De La Riva, Spider, Lasso, etc.) 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical weight distribution adjustment when your opponent attempts a butterfly sweep from open guard?
-**A**: When opponent attempts a butterfly sweep, immediately shift your weight backward and lower your hips while widening your base. Drive your hips back rather than forward, as forward weight gives them the leverage they need. Your hands should maintain control of their legs or hips while your center of gravity moves away from their lifting vector. This neutralizes the sweep angle and allows you to either reset your passing position or capitalize on their extended hooks.
-
-**Q2**: How do you maintain your standing base when opponent establishes strong collar and sleeve grips that threaten to pull you down?
-**A**: Maintain posture by keeping your hips back and chest elevated rather than fighting with arm strength alone. Step back slightly to create tension in their grips while maintaining your own control points. Systematically strip their grips using two-on-one breaks or circular wrist movements before they can set up attacks. Never allow both grips to fully settle - address each grip attempt immediately and use footwork to create angles that reduce their pulling leverage.
-
-**Q3**: Your opponent is playing seated guard and keeps scooting toward you as you try to maintain distance. What is the correct strategic response?
-**A**: Control the engagement distance by using your hands to maintain frames on their shoulders or collar while using footwork to circle laterally rather than backing straight up. When they scoot, time your entry to coincide with their movement, attacking with passing grips as they commit weight forward. Alternatively, establish grips that prevent their forward movement and force them to address your control before continuing to advance. The key is to make them pay for each forward movement rather than allowing free advancement.
-
-**Q4**: What are the essential grips to establish before initiating a Toreando pass from Standing Guard Top?
-**A**: The primary grips are bilateral control of opponent's knees or pants at the thigh level. Secondary options include collar grip combined with single leg control, or ankle grips for low Toreando variations. Your grip configuration must allow you to redirect both legs simultaneously while maintaining your balance. Before initiating the pass, ensure your grips can control the direction of both legs and that you have a clear angle for lateral movement without obstruction from opponent's frames.
-
-**Q5**: How should you respond when your opponent successfully establishes a De La Riva hook on your lead leg?
-**A**: Address the hook immediately before it strengthens their position. Options include: backstep to remove your leg from the hook while maintaining upper body connection, push their hooking knee across their body to flatten their hips, or immediately switch to a passing angle that uses their hook against them such as the reverse De La Riva pass. Never allow them to establish both the hook and strong collar/sleeve grips - address whichever element is weaker first while preventing the second from solidifying.
-
-**Q6**: What is the proper stance width and weight distribution for maintaining stability in Standing Guard Top?
-**A**: Maintain shoulder-width or slightly wider stance with weight distributed through the balls of your feet, allowing quick direction changes. Your hips should be slightly back with knees bent in an athletic position. Avoid having weight too far forward which enables sweeps, or too far back which reduces your ability to generate passing pressure. The ideal distribution is approximately 60% through your base leg and 40% through your mobile leg when circling, with the ability to quickly redistribute based on opponent's attacks.
-
-**Q7**: Your passing attempt stalls and opponent recovers to a strong framing position with feet on your hips. How do you reset without losing positional advantage?
-**A**: Maintain grip control while stepping back just enough to remove their feet from your hips, but not so far that you lose all connection. Immediately re-engage with new angle or grip configuration rather than allowing them time to establish new guards. Strip their grips systematically before re-initiating your pass, and consider switching passing styles - if your pressure pass stalled, try speed passing, or vice versa. The key is maintaining engagement pressure while creating new angles that bypass their established frames.
-
-**Q8**: How do you anticipate and shut down an opponent's inversion attempts while maintaining your passing position?
-**A**: Watch for the hip elevation and shoulder rotation that precede inversion. When you see these precursors, immediately drive forward pressure onto their hips to flatten them, or control their collar to prevent the shoulder rotation needed for successful inversion. Alternatively, time your pass to coincide with their inversion attempt, as their commitment to inverting creates openings for quick directional passing. Never back away from an inverting opponent - either pressure forward to prevent the inversion or use their momentum against them.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

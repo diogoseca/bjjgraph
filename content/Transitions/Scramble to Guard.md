@@ -213,7 +213,7 @@ Scramble to Guard fits within the broader defensive framework for back exposure 
 
 - [[Transitions/Bridge and Turn to Turtle]] - Alternative escape - accepts turtle as intermediate step
 
-- [[Principles/Guard Recovery]] - Related concept - general principles that apply in final phase
+- [[Transitions/Rolling to Guard]] - Related technique - rolling guard recovery principles that apply in final phase
 
 - [[Transitions/Hip Escape to Guard]] - Component technique - used in final phase of guard recovery
 

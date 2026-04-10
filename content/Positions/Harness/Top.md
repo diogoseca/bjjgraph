@@ -20,8 +20,8 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 40% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Harness",
+      "text": "From this position, attempt Rear Naked Choke from Harness. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
@@ -44,14 +44,14 @@ description: "Master Harness Top Position in BJJ - dominant back control with se
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Harness",
+      "text": "From this position, attempt Bow and Arrow Choke from Harness. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Short Choke",
-      "text": "From this position, attempt Short Choke. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Short Choke from Harness",
+      "text": "From this position, attempt Short Choke from Harness. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Harness (Top)?</p>
+
 - Top player's chest is pressed against opponent's back with body weight distributed through core and hooks, maintaining constant forward pressure that prevents the bottom player from creating separation or turning to face
 - Seat belt grip (harness) is established with one arm over the opponent's shoulder and one arm under the opposite armpit, hands clasped together on the chest or sternum area, creating a locked control mechanism that resists grip breaks
 - At least one hook is inserted with the instep of the foot positioned inside the opponent's thigh, controlling hip movement and preventing the bottom player from turning or bridging effectively
@@ -181,6 +183,8 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Harness (Top)?</p>
 
 - Successful back take from turtle, failed guard pass defense, or transition from other controlling positions
 - Ability to establish at least one hook before opponent completes their escape or guard recovery
@@ -195,6 +199,8 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Harness?</p>
 
 - Maintain constant chest-to-back connection with forward pressure through the core, never allowing space to develop between bodies
 - Keep hands clasped together in the seat belt configuration, with proper hand position (palm-to-palm or gable grip) that resists opponent's grip breaking attempts
@@ -211,6 +217,8 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Harness (Top)?</p>
+
 **If opponent is defending choke with both hands high, protecting neck:**
 - Execute **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** → [[Positions/Armbar Control]] (Probability: 70%)
 - Execute **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** → [[Positions/Crucifix]] (Probability: 65%)
@@ -218,7 +226,7 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 **If opponent is working to remove hooks and turn into you:**
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 60%)
-- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent strips top arm and begins to turn to guard:**
@@ -227,13 +235,13 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 
 **If opponent turtles and hides arms defensively:**
-- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[Positions/Game Over]] (Probability: 80%)
+- Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Submissions/Rear Naked Choke/Attacker|Rear Naked Choke]]** → [[game-over]] (Probability: 80%)
 
 
 **If opponent is flat on stomach trying to prevent hooks:**
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control/Body Triangle]] (Probability: 65%)
-- Execute **[[Transitions/Short Choke/Attacker|Short Choke]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Submissions/Short Choke/Attacker|Short Choke]]** → [[game-over]] (Probability: 60%)
 
 
 
@@ -243,6 +251,8 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Harness?</p>
 
 ### 1. Crossing feet when both hooks are in
 
@@ -287,6 +297,8 @@ Strategically, Harness Top Position is considered a premium scoring position (4 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Harness attacks?</p>
+
 ### Back Mount Retention Drill
 
 Partner starts in bottom position with full harness control established. Bottom player attempts various escape sequences (hand fighting, turning, bridging, removing hooks) while top player focuses solely on maintaining position without attacking submissions. Practice for 2-minute rounds, switching roles. Focus on maintaining chest-to-back connection and proper hook usage.
@@ -327,38 +339,6 @@ Partner starts in turtle position. Practice back take entry establishing harness
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins to bridge and turn toward your underhook side - what adjustment do you make?
-**A**: Immediately drop your weight lower and switch your hips to follow their movement, keeping your chest glued to their back. Drive your top hook deeper while adjusting your bottom hook to prevent them from completing the turn. If they continue rotating, be prepared to transition to crucifix by trapping their near arm with your leg, or follow them with a rolling back take to maintain back control from the opposite side.
-
-**Q2**: What are the essential grips for maintaining harness position?
-**A**: The seat belt grip requires one arm over the opponent's shoulder and one under the opposite armpit, with hands clasped together on the chest or sternum. Use either a palm-to-palm grip or gable grip (wrist-to-wrist) for maximum strength. Keep grip high on the chest near the collarbone for better choke access and harder grip breaks. The over-arm (choking arm) should be the arm that goes across their neck when attacking.
-
-**Q3**: How do you shut down your opponent's primary escape of sliding down and turning to face you?
-**A**: Prevent this escape by maintaining constant forward chest pressure while keeping your hips close to theirs. Use your hooks actively - pull your heels toward your body while keeping insteps hooked inside their thighs. When they attempt to slide down, follow their movement by lowering your own hips and increasing downward pressure through your hooks. If they create space, immediately tighten the harness grip and close the distance.
-
-**Q4**: What is the grip priority hierarchy when your opponent is fighting your hands?
-**A**: The seat belt grip is more valuable than both hooks combined. If you must sacrifice something, give up one hook before releasing the harness. Within the harness, the choking arm (over the shoulder) takes priority over the underhook arm. If opponent strips your underhook, immediately swim it back or transition to a single collar tie while maintaining the over-arm. Never release both grip connection points simultaneously.
-
-**Q5**: How should you apply pressure to drain your opponent's energy while maintaining control?
-**A**: Apply forward pressure through your chest into their upper back, not by squeezing with your arms. Drive your hips forward to push their hips down while your chest pressure pins their shoulders. Keep hooks active with constant tension pulling their legs back. This pressure is exhausting to defend because your weight is distributed through your core and skeleton, not muscles. Every defensive movement they make should require effort while your pressure remains constant and relatively low-energy.
-
-**Q6**: Your opponent successfully strips your bottom hook - how do you recover?
-**A**: Immediately tighten your harness grip to prevent further escapes while you recover. Use your free leg to either re-insert the hook by threading it back inside their thigh, or transition to a body triangle by throwing your leg over their near hip. If body triangle isn't available, post your foot on the mat temporarily for base while working to re-establish the hook. Never chase the hook frantically - maintain grip control first, then methodically recover the hook.
-
-**Q7**: How do you manage your energy to maintain this position for extended periods?
-**A**: Rely on skeletal structure and body weight rather than muscular effort. Keep your chest heavy on their back through proper alignment, not by flexing muscles. Use gable grip rather than finger grips to reduce forearm fatigue. Breathe steadily and stay relaxed while maintaining structure. Only increase intensity when attacking or countering escape attempts. Between attacks, settle your weight and recover while opponent expends energy on unsuccessful escape attempts.
-
-**Q8**: Your opponent successfully creates an angle by hip escaping - how do you recover the flat back position?
-**A**: Follow their hip escape by switching your hooks and readjusting your body angle to stay behind them. If they've angled significantly, use your choking-side hook to prevent further rotation while your other leg works to flatten them. Pull with your harness grip while driving forward pressure to collapse their angle. If they've created substantial space, consider transitioning to a gift wrap or crucifix rather than forcing the flat back position - use their defensive movement to access different control or submission opportunities.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -389,8 +369,8 @@ Partner starts in turtle position. Practice back take entry establishing harness
 - **[[Positions/Turtle]]** - Common entry position before back take
 - **[[Positions/Back Control/Standing Back Control]]** - Standing application of same principles
 - **[[Positions/Armbar Control]]** - Control position for armbar finish from back
-- **[[Transitions/Rear Naked Choke]]** - Primary submission from this position
-- **[[Transitions/Bow and Arrow Choke]]** - High-percentage gi choke from back control
+- **[[Submissions/Rear Naked Choke]]** - Primary submission from this position
+- **[[Submissions/Bow and Arrow Choke]]** - High-percentage gi choke from back control
 
 
 </section>

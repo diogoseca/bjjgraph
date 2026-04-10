@@ -171,6 +171,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Position Definition
 
+<p class="section-subtitle">What is Half Guard (Top)?</p>
+
 - One leg trapped between opponent's legs at knee or thigh level, creating the fundamental half guard entanglement structure
 - One leg free and positioned outside the opponent's entanglement, typically with foot posted on the mat for base and mobility
 - Top player's torso positioned above opponent's torso with weight distributed through hips, chest, and shoulder pressure
@@ -184,6 +186,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Half Guard (Top)?</p>
+
 - Successful guard pass attempt that was partially defended, resulting in half guard retention by bottom player
 - Understanding of weight distribution and pressure mechanics in top positions including hip-to-chest pressure transfer
 - Recognition of specific half guard variations and their associated passing strategies for each defensive structure
@@ -196,6 +200,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Half Guard?</p>
 
 - Establish and maintain effective upper body control through crossface, underhook, or head control to limit opponent's mobility and offensive capabilities
 - Distribute weight strategically to control opponent's hips while maintaining base against sweep attempts and back take entries
@@ -211,6 +217,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Half Guard (Top)?</p>
 
 **If opponent establishes strong knee shield with frames preventing forward pressure:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 60%)
@@ -228,7 +236,7 @@ Advanced practitioners develop multiple passing pathways and chain them together
 
 
 **If opponent turns to side and battles for underhook, creating scramble potential:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 - Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Darce Control]] (Probability: 40%)
 
 
@@ -244,6 +252,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Half Guard?</p>
 
 ### 1. Poor weight distribution - keeping weight on hands or knees rather than hips and chest
 
@@ -282,6 +292,8 @@ Advanced practitioners develop multiple passing pathways and chain them together
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Half Guard attacks?</p>
 
 ### Progressive Resistance Half Guard Passing
 

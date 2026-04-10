@@ -169,6 +169,8 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 ## Position Definition
 
+<p class="section-subtitle">What is Cross Body Ride (Bottom)?</p>
+
 - Bottom player on hands and knees (turtle position) with weight distributed through knees and at least one hand/forearm while defending against top pressure
 - Top player positioned perpendicular or diagonal across the bottom player's back, with chest/torso making contact with the bottom player's upper back/shoulder area
 - Bottom player's spine curved defensively with chin tucked to chest, elbows tight to ribs to prevent arm isolation and protect neck from choke attacks
@@ -181,6 +183,8 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Cross Body Ride (Bottom)?</p>
+
 - Bottom player has been forced into turtle position from failed guard retention or scramble situation
 - Top player has established perpendicular or diagonal control across bottom player's back
 - Bottom player has at least one point of contact with the mat (knees and hands/forearms)
@@ -192,6 +196,8 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Body Ride?</p>
 
 - Maintain defensive posture with chin tucked, elbows tight to ribs, and hands protecting neck to prevent chokes
 - Keep hips mobile and ready to shift weight to create angles for escape or prevent flattening
@@ -207,6 +213,8 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Cross Body Ride (Bottom)?</p>
 
 **If opponent is high on back with hooks threatening but not yet established:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 45%)
@@ -235,6 +243,8 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Body Ride?</p>
 
 ### 1. Remaining static in turtle position without active defensive movement
 
@@ -274,6 +284,8 @@ The fundamental challenge of Cross Body Ride Bottom is that passive defense guar
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Cross Body Ride defense?</p>
+
 ### Granby Roll Escape Repetitions
 
 From turtle position with partner applying cross-body pressure, practice granby roll escapes to guard recovery. Focus on timing, explosive hip rotation, and protecting neck throughout the roll. Partner provides progressive resistance from 50% to 90% intensity.
@@ -306,38 +318,6 @@ Start in cross body ride bottom position. Bottom player scores points for succes
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first defensive priority when caught in cross body ride bottom?
-**A**: Immediately protect your neck by tucking your chin tightly to your chest and bringing your hands to your collar/neck area. Simultaneously keep your elbows pinned to your ribs to prevent arm isolation for crucifix or kimura attacks. This defensive shell buys time to assess the situation and plan your escape, preventing immediate submission threats while you work on position improvement.
-
-**Q2**: Your opponent begins driving heavy shoulder pressure to flatten you - how do you maintain your structure?
-**A**: Widen your base by spreading your knees slightly and driving your hips away from the pressure angle. Post on your forearm on the side receiving pressure rather than a flat hand, as this creates a stronger frame. Keep your core engaged and resist the urge to flatten - even maintaining a few inches of elevation preserves your escape options. If you feel yourself collapsing, immediately hip escape in the direction opposite the pressure.
-
-**Q3**: When is the optimal moment to attempt a granby roll escape?
-**A**: Execute the granby roll when your opponent commits their weight forward during a back take attempt or when they shift to adjust their grip. The key indicator is feeling their chest pressure lighten momentarily or shift to one side. Roll toward the side where their weight is committed - they'll struggle to follow if they're already moving that direction. Never attempt a granby when they have heavy settled pressure, as this wastes energy and often worsens position.
-
-**Q4**: How do you prevent arm isolation when the opponent is hunting for crucifix?
-**A**: Keep both elbows glued to your ribs at all times, with forearms creating frames close to your body. If they control one wrist, immediately pull that arm back toward your centerline while shifting your hips away. The key is never extending your arms to post or push - any extended arm becomes a lever for crucifix entry. Use your entire torso to rotate and retract any compromised arm rather than fighting their grip strength directly.
-
-**Q5**: What role does hip movement play in surviving and escaping cross body ride?
-**A**: Hip movement is your primary escape engine from this position. Mobile hips prevent flattening, create angles for escape, and disrupt opponent's weight distribution. Small constant hip adjustments keep your opponent reactive rather than offensive. For escapes, explosive hip movement in one direction while creating a frame in the opposite direction generates the space needed to insert guards or stand. Static hips equal certain position loss.
-
-**Q6**: Your opponent has nearly flattened you and is securing hooks - what is your emergency response?
-**A**: The moment you feel hooks entering, this becomes your highest priority to address before they're fully secured. Immediately bridge explosively to one side while reaching back to fight the near-side hook. Even if you can't prevent both hooks, preventing the second hook preserves escape options. If hooks are secured, immediately protect your neck and work to clear one hook at a time using your legs to trap and peel their feet. Time is critical - every second they consolidate makes escape exponentially harder.
-
-**Q7**: How do you chain escape attempts when individual techniques are being shut down?
-**A**: Never commit to a single escape attempt - always chain techniques based on opponent's reaction. If your granby roll is blocked, use that momentum to attempt a sit-out in the opposite direction. If they follow your hip escape, immediately stand to technical base. The goal is continuous movement that prevents the opponent from settling their weight. Create a decision tree: first attempt creates reaction, second attempt exploits that reaction, third attempt capitalizes if they over-correct.
-
-**Q8**: What grip fighting priorities should you maintain while defending?
-**A**: Focus on preventing the opponent from completing their seatbelt control first - this is their primary control configuration for back takes. Fight any hand reaching across your body by tucking your chin and using your hands near your neck defensively. Strip grips by adjusting your posture rather than hand fighting directly - your movement makes grips less effective. Don't sacrifice neck protection to fight grips, but do address any belt, collar, or wrist grips during your escape attempts.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -41,7 +41,7 @@
       "relationship": "Direct progression on successful setup"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Follow-up submission finish"
     },
     {
@@ -65,7 +65,7 @@
       "relationship": "Alternative submission from same arm isolation setup"
     },
     {
-      "name": "Armbar from Guard",
+      "name": "Rolling Armbar from Closed Guard",
       "relationship": "Alternative submission sharing posture-break prerequisites"
     },
     {
@@ -218,7 +218,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Posture Breaking (Week 1-2)",
+        "phase": "Phase 1: Posture (Week 1-2)",
         "focus": "Master posture control before introducing triangle elements",
         "description": "Partner starts in closed guard with neutral posture. Practice breaking posture using collar and guard pulls, maintaining broken posture for 30-second holds. Partner provides graduated resistance. Focus on pulling head below shoulder line and keeping it controlled with minimal effort."
       },
@@ -228,7 +228,7 @@
         "description": "From broken posture position, practice pulling one arm across centerline while pushing opposite shoulder. Partner allows arm movement but maintains some tension. Work both sides equally, focusing on getting trapped arm completely past your centerline before proceeding."
       },
       {
-        "phase": "Phase 3: Angle Creation (Week 3-4)",
+        "phase": "Phase 3: Dominant Angles (Week 3-4)",
         "focus": "Hip escape mechanics while maintaining controls",
         "description": "Combine posture breaking and arm isolation with hip escape to create proper angle. Partner remains static. Practice creating 45-degree angle without losing arm or posture control. Drill should feel like smooth flowing movement, not separate steps."
       },

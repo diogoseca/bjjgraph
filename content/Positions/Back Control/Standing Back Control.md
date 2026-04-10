@@ -179,7 +179,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (28% of attempts)
+- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (28% of attempts)
 
 - **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (18% of attempts)
 
@@ -201,7 +201,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 - **[[Transitions/Bow and Arrow Setup from Standing Back/Attacker|Bow and Arrow Setup from Standing Back]]** (2% of attempts)
 
-- **[[Submissions/Standing RNC/Attacker|Standing RNC]]** (2% of attempts)
+- **[[Rear Naked Choke from Standing Back Control/Attacker|Rear Naked Choke from Standing Back Control]]** (2% of attempts)
 
 
 ### Common Mistakes

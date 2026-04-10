@@ -186,6 +186,8 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll to Turtle?</p>
+
 - Turn explosively into the opponent's crossface pressure rather than fighting against it
 - Immediately establish tight turtle structure with elbows glued to knees upon completion
 - Keep chin tucked and back rounded to protect against chokes during the transition
@@ -201,6 +203,8 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll to Turtle?</p>
+
 - Opponent has established Side Control with heavy crossface pressure
 - Traditional hip escape blocked by tight hip control or underhooks
 - Defensive frames established against opponent's hips and shoulder
@@ -214,6 +218,8 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll to Turtle step by step?</p>
 
 1. **Establish frames**: Create frames with your forearms against the opponent's near hip and shoulder to prevent them from following your movement immediately during the transition
 2. **Tuck near elbow**: Bring your near-side elbow tight to your body and begin turning your shoulders toward the mat, initiating the roll away from the opponent
@@ -242,6 +248,8 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll to Turtle?</p>
+
 - **Opponent follows the roll and establishes seatbelt control before you complete turtle structure** (Effectiveness: High) - Your Response: Continue movement into granby roll or sit-out rather than settling into static turtle, using their forward momentum against them → Leads to [[Positions/Back Control]]
 - **Opponent sprawls and flattens you during the rotation, preventing completion of turtle** (Effectiveness: High) - Your Response: If flattened, immediately protect neck and work to re-establish frames; consider ghost escape variation → Leads to [[Positions/Side Control]]
 - **Opponent transitions to north-south during your roll attempt** (Effectiveness: Medium) - Your Response: Use the space created during their transition to complete the turtle or immediately sit through to guard recovery → Leads to [[Positions/Side Control]]
@@ -253,6 +261,8 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll to Turtle?</p>
 
 ### 1. Rolling too slowly allowing opponent to follow and establish back control
 
@@ -292,6 +302,8 @@ Timing is critical for this technique - the roll must be explosive enough to cre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll to Turtle (Attacker)?</p>
+
 **Week 1-2** - Solo drilling mechanics
 Practice the rolling motion and turtle establishment from lying flat on your back. Focus on the hip drive, shoulder rotation, and immediate defensive structure. Develop muscle memory for elbow-to-knee positioning.
 
@@ -309,48 +321,12 @@ Positional sparring from side control bottom. Partner attempts full resistance a
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Roll to Turtle?
-**A**: The primary goal is to escape Side Control Bottom by establishing Turtle position, which serves as a transitional platform for guard recovery or standing. Unlike staying flat under side control, turtle provides a stable four-point base with multiple escape options including granby rolls, sit-outs, and technical standups.
-
-**Q2**: Why must you establish frames before initiating the roll?
-**A**: Frames against the opponent's hip and shoulder create momentary separation that prevents them from following your movement with chest-to-back contact. Without frames, the opponent simply follows your rotation and establishes back control with seatbelt and hooks before you can complete the turtle defensive structure.
-
-**Q3**: Your opponent drives heavy crossface pressure during side control - how does this affect your roll timing?
-**A**: Heavy crossface pressure actually creates favorable timing for the roll because the opponent's weight is committed forward and high. Use their forward pressure against them by turning into it rather than fighting against it. The momentum of their crossface can be redirected to assist your rotation while their committed base makes following your movement more difficult.
-
-**Q4**: What immediate action must you take upon reaching turtle position?
-**A**: You must immediately establish the tight defensive turtle structure with elbows glued to the inside of your knees, chin tucked to chest, and back rounded. Then you must continue moving - never become static in turtle. Begin hand fighting, initiate a granby roll, sit-out, or technical standup to prevent opponent from settling their weight and establishing back control.
-
-**Q5**: How do you counter an opponent who consistently follows your roll and establishes seatbelt control?
-**A**: If the opponent consistently follows your roll, chain your movement into a granby roll in the opposite direction using their forward momentum against them. Alternatively, execute the roll more explosively with better frame establishment, or feint the roll and change direction when they commit to following. The key principle is continuous motion rather than settling into static turtle.
-
-**Q6**: What determines whether you should attempt roll to turtle versus hip escape from side control?
-**A**: Choose roll to turtle when opponent has heavy crossface pressure and tight hip control that blocks traditional hip escapes, or when their weight is committed forward. Choose hip escape when there is space to shrimp and create angles, when opponent's weight is relatively light, or when you can insert a knee for half guard recovery. Roll to turtle works best when fighting the crossface has already failed.
-
-**Q7**: Your opponent inserts one hook during your roll before you complete turtle - what is the correct response?
-**A**: Immediately strip the hook with an explosive leg kick extending away from their hooking foot before they can secure it. Do not allow the hook to settle. Simultaneously, continue your movement into a granby roll toward the hook side, using your rotation to dislodge their leg. A single hook is recoverable; allowing the second hook dramatically reduces escape probability.
-
-**Q8**: Why is it critical to keep your chin tucked throughout the entire rolling motion?
-**A**: Keeping your chin tucked protects your neck from front headlock attacks including guillotine, anaconda, and darce chokes that become available when your head is exposed during the rotation. The opponent may attempt to capitalize on your turn by threading an arm under your neck. A tucked chin and rounded back eliminate the space needed for these chokes and maintain defensive integrity throughout the escape.
-
-**Q9**: What follow-up technique should you prioritize after reaching turtle against an aggressive opponent?
-**A**: Against an aggressive opponent who immediately attacks for back control, prioritize the granby roll as your follow-up because it uses their forward pressure against them and can lead directly to guard recovery. If they commit weight high, the technical standup becomes viable. The key is recognizing their pressure direction and using it to fuel your next movement rather than fighting against it.
-
-**Q10**: How should you modify the roll to turtle when the opponent has an underhook on your far side?
-**A**: When the opponent has a far-side underhook, you must first fight to strip or neutralize the underhook before attempting the roll, or they will use it to follow you and flatten your turtle immediately. Create a frame with your near arm while using your far arm to strip their underhook grip. Alternatively, switch to ghost escape variation which threads your body through the space rather than turning into their control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll to Turtle?</p>
 
 Roll to Turtle is a relatively safe escape technique when executed with proper form. The primary safety concern is protecting your neck throughout the movement by maintaining a tucked chin and rounded back posture. Exposing the neck during rotation can lead to front headlock chokes. Additionally, be aware that failed attempts may result in the opponent establishing back control, which carries submission risk from rear naked chokes and back attacks. Train the technique progressively with increasing resistance levels, ensuring you develop the defensive structure habits before facing aggressive training partners. Communicate with training partners about their intended follow-up attacks so you can practice defensive reactions safely.
 

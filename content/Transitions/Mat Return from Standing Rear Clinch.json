@@ -31,7 +31,7 @@
       "result": "failure"
     },
     {
-      "to": "Scramble Position",
+      "to": "Turtle/Bottom",
       "probability": 10,
       "result": "counter"
     },
@@ -181,7 +181,7 @@
       {
         "counter": "Opponent executes aggressive two-on-one grip fighting to strip your bodylock during descent",
         "effectiveness": "Medium",
-        "targets_outcome": "Scramble Position",
+        "targets_outcome": "Turtle/Bottom",
         "your_response": "Pulse your grip tighter and accelerate the descent speed to complete the takedown before the grip fully breaks. If the grip does break, immediately transition to a single-arm drag or re-establish the clinch before separation occurs."
       },
       {
@@ -323,7 +323,7 @@
       {
         "action": "Execute aggressive two-on-one grip fighting to break the opponent's bodylock or seatbelt before descent",
         "when_to_use": "When you feel the opponent's grip settling into a locked configuration and you have at least one hand free to attack their clasp",
-        "targets_outcome": "Scramble Position",
+        "targets_outcome": "Turtle/Bottom",
         "if_successful": "Breaking the grip creates separation that allows you to turn and face the opponent or create distance for a scramble reset",
         "risk": "Committing both hands to grip fighting removes your ability to post during the descent if the grip break fails"
       },
@@ -344,8 +344,8 @@
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Scramble Position",
-        "how": "Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and drive forward to create a neutral scramble where neither player has dominant control."
+        "outcome": "Turtle/Bottom",
+        "how": "Execute explosive two-on-one grip break during the opponent's descent phase when their hands are under maximum tension from the pulling force. The moment the grip breaks, immediately turn to face them and establish a defensive turtle position where escape options are more available."
       },
       {
         "outcome": "Clinch",
@@ -408,7 +408,7 @@
         "description": "Partner executes mat returns at moderate speed and resistance while you practice turning during the descent, posting on landing, and immediately addressing hook attempts upon reaching the ground. Focus on maintaining composure during the fall and executing defensive priorities in the correct sequence. Alternate between successful and failed defense scenarios."
       },
       {
-        "phase": "Grip Fighting and Pre-emptive Defense",
+        "phase": "Grips and Pre-emptive Defense",
         "focus": "Breaking grips before the mat return can be initiated from standing",
         "description": "Live standing rear clinch sparring where you focus on hand fighting to prevent the opponent from securing the stable grip configuration needed for the mat return. Practice two-on-one grip breaks, frame creation, and transitional escapes to facing position. Partner increases resistance and attempts variety progressively across rounds."
       },

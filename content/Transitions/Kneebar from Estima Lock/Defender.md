@@ -154,13 +154,15 @@ description: "Defend the Kneebar from Estima Lock transition in BJJ. Recognition
 
 As the defender against the Kneebar from Estima Lock, you are already in a compromised leg entanglement position and must now address a threat vector change from your ankle to your knee. The critical defensive window occurs during the attacker's transition—the grip change and hip switch—when their control is momentarily less consolidated than in either the Estima Lock or the completed kneebar. Your primary objective is to prevent the attacker from establishing their hips across your knee joint by using your free leg, hip movement, and grip fighting to disrupt the transition before consolidation. If the attacker completes the kneebar entry, your defensive options narrow significantly and the focus shifts to preventing hyperextension through knee bending, rotation, and systematic escape. Understanding the transition mechanics from the attacker's perspective allows you to identify precise windows where defensive actions are most effective and where attempting to defend is futile—requiring immediate tap to preserve joint health.
 
-**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Kneebar from Estima Lock?</p>
 
 - Attacker releases their figure-four grip on your foot—this is the earliest and most reliable signal that a kneebar transition is beginning
 - Attacker's body weight shifts from your ankle/calf area upward toward your knee as they initiate the hip switch repositioning
@@ -174,6 +176,8 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar from Estima Lock?</p>
 
 - Recognize the transition initiation immediately—the moment the attacker releases your foot, they are switching to kneebar and your defensive response must begin instantly
 - Use your free leg as your primary defensive weapon during the transition by posting on the attacker's hip or hooking their leg to prevent the hip switch from completing
@@ -190,6 +194,8 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Kneebar from Estima Lock?</p>
+
 ### 1. Post free leg on attacker's hip during the grip change to prevent hip switch completion
 
 - **When to use**: Immediately upon recognizing the foot grip release—this is the highest-percentage defensive window before the attacker establishes thigh control
@@ -200,7 +206,7 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 ### 2. Bend knee aggressively and turn toward the attacker to eliminate hyperextension angle
 
 - **When to use**: When the attacker has already arrived at the knee but has not yet fully clamped their legs around your leg
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: The bent knee prevents submission completion and your rotation creates a scramble where the attacker may revert to Estima Lock control or lose leg control entirely
 - **Risk**: If you rotate into the attacker's leg clamp, you may tighten their kneebar control rather than escaping it
 
@@ -214,7 +220,7 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 ### 4. Sit up and establish grips on the attacker's body during the transition window
 
 - **When to use**: During the grip change when the attacker releases your foot and before they complete the hip switch
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Your grips on the attacker's gi or body slow the transition and allow you to pull your leg free or re-enter a less dangerous position
 - **Risk**: If the attacker completes the hip switch despite your grips, you may be in a seated position with a completed kneebar, making the tap more urgent
 
@@ -226,11 +232,13 @@ As the defender against the Kneebar from Estima Lock, you are already in a compr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar from Estima Lock?</p>
+
 ### → [[Positions/Open Guard]]
 
 Post your free leg on the attacker's hip immediately when you feel the foot grip release, push forcefully to create distance, and extract your trapped leg before the attacker can establish thigh control. Follow with guard recovery to open guard.
 
-### → [[Positions/Estima Lock]]
+### → [[Positions/Estima Lock Control]]
 
 Bend your knee aggressively and rotate toward the attacker during the hip switch to prevent hyperextension angle establishment. The attacker may revert to Estima Lock control, which is a less immediately dangerous position than completed kneebar control.
 
@@ -241,6 +249,8 @@ Bend your knee aggressively and rotate toward the attacker during the hip switch
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar from Estima Lock?</p>
 
 ### 1. Straightening the trapped leg when feeling the grip change, making the kneebar easier to complete
 
@@ -275,6 +285,8 @@ Bend your knee aggressively and rotate toward the attacker during the hip switch
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar from Estima Lock?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the transition initiation from the defender's perspective
 Partner slowly executes the kneebar transition from Estima Lock while you practice identifying the grip change, hip shift, and thigh wrap. No resistance or escape attempts yet—focus purely on recognizing each stage of the transition and naming what you feel. Build the pattern recognition that triggers automatic defensive response.
 
@@ -291,29 +303,6 @@ Start from Estima Lock bottom position. Attacker works the Estima Lock and trans
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from Estima Lock to kneebar?
-**A**: The earliest and most reliable cue is the release of the figure-four grip on your foot. When you feel the inverted footlock pressure diminish and their hands begin moving from your foot up toward your thigh, the kneebar transition has begun. This recognition must trigger immediate defensive response—activating your free leg and bending your knee—because the window between grip release and kneebar consolidation is the only reliable escape opportunity.
-
-**Q2**: Why is bending your knee the single most important defensive action when the attacker begins the kneebar transition?
-**A**: A bent knee cannot be hyperextended, which means the fundamental mechanism of the kneebar submission is neutralized as long as the knee remains bent. The attacker needs your leg straight to apply hyperextension pressure across the joint. Bending your knee immediately upon recognizing the transition buys critical time for other defensive actions—free leg posting, body rotation, grip fighting—and prevents the attacker from threatening submission even if they complete the hip switch and leg clamp.
-
-**Q3**: Your opponent releases your foot and you feel their arms wrapping your thigh—your free leg is flat on the mat—what is the correct sequence of defensive actions?
-**A**: First, bend the trapped knee immediately to prevent hyperextension. Second, activate your free leg by driving it up to post on the attacker's hip, shoulder, or face to create distance and disrupt their hip switch. Third, turn your body toward the attacker rather than away to reduce the hyperextension angle. Fourth, if they complete the position despite your defense, focus on breaking the leg clamp by prying their top leg over your hip while maintaining your knee bend. If you cannot break free and they begin bridging, tap immediately.
-
-**Q4**: Why is rotating toward the attacker safer than rotating away when caught in a kneebar?
-**A**: Rotating toward the attacker reduces the hyperextension angle at the knee joint because your body moves in the same direction the knee naturally bends, decreasing the stress on the ligaments. Rotating away from the attacker amplifies the hyperextension because your body movement adds to the force pushing the knee beyond its natural range—effectively you are extending the submission for the attacker. Rotating toward also creates opportunities for scrambles and guard recovery by closing the distance rather than stretching it under dangerous joint pressure.
-
-**Q5**: At what point should you abandon escape attempts and tap to the kneebar?
-**A**: Tap when the attacker has their hips directly across your knee crease, their legs clamped tightly around your isolated leg preventing knee bending, and they begin bridging or extending their hips. At this point, the mechanical advantage is overwhelmingly in their favor and continued resistance risks catastrophic knee ligament injury. Additional signals include sharp pain in the knee, inability to bend your knee despite maximum effort, and the sensation of your knee being pushed past its natural extension range. Tap early and decisively—no match or training round is worth a knee reconstruction.
-
-
-
-</section>
 
 
 </main>

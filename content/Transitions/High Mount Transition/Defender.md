@@ -166,6 +166,8 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting High Mount Transition?</p>
+
 - Attacker releases their hand grip on their own foot behind your head, indicating they are abandoning the gogoplata finish for positional advancement
 - Attacker's hips begin lateral movement (hip escape) while their shin pressure on your throat decreases, signaling the transition from submission to mount attempt
 - Attacker's non-attacking leg plants firmly on the mat to create a posting base, which precedes the attacking leg swinging over your body
@@ -177,6 +179,8 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending High Mount Transition?</p>
 
 - Recognize the transition attempt during the foot release phase, before the attacker completes their hip escape and leg swing
 - Frame immediately on the attacker's hips when you feel the shin pressure release from your throat to create distance and prevent mount
@@ -191,6 +195,8 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against High Mount Transition?</p>
 
 ### 1. Frame on attacker's hips with both hands during foot release phase to create distance and prevent leg swing completion
 
@@ -228,6 +234,8 @@ Understanding the attacker's mechanics is essential for timing defensive respons
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending High Mount Transition?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Frame explosively on the attacker's hips the instant you feel the shin release from your throat. Push their hips away to prevent the lateral hip escape that initiates the mount transition. If successful, the attacker falls back to bottom position without mount and must re-establish gogoplata control or transition to a different attack.
@@ -243,6 +251,8 @@ When the attacker's leg is mid-swing, close your knees together and trap their c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending High Mount Transition?</p>
 
 ### 1. Driving forward into the gogoplata attempting to use weight to escape shin pressure
 
@@ -272,6 +282,8 @@ When the attacker's leg is mid-swing, close your knees together and trap their c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against High Mount Transition?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner establishes gogoplata control and releases to transition at predetermined intervals. Defender practices recognizing the foot release cue and immediately framing on hips. No live resistance - focus entirely on building the automatic recognition-to-frame response pattern.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting from gogoplata control. Defender mu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important recognition cue that the attacker is transitioning from gogoplata to mount?
-**A**: The most reliable cue is the release of the foot from behind your head combined with decreasing shin pressure on the throat. When both of these occur simultaneously, the attacker has committed to the positional transition. Their hand releasing their own ankle is the earliest visual indicator, followed by the hip escape movement.
-
-**Q2**: Why is driving forward into the gogoplata counterproductive when the attacker knows this transition?
-**A**: Forward pressure is the exact defensive reaction the attacker exploits for the mount transition. Your forward momentum provides the upward energy they redirect into establishing mount. Instead of escaping the gogoplata, you are feeding the attacker's transition by providing directional force they can ride to the top position.
-
-**Q3**: Your opponent releases the gogoplata and you successfully frame on their hips - what should your next action be?
-**A**: Immediately posture up and create maximum distance while the attacker is still on bottom without established grips. Drive your weight back through your hips, straighten your spine, and work to disengage from the guard entirely. Do not stay in close range where they can re-establish rubber guard or transition to triangle. Create enough space to begin a guard pass or reset to a neutral standing position.
-
-**Q4**: When is trapping the leg for half guard recovery a better option than framing to prevent mount entirely?
-**A**: Trap the leg when the attacker has already cleared the hip escape and their leg is actively swinging over your body, making hip frames insufficient to stop the mount. At this stage, framing is too late to prevent mount but the leg is crossing your centerline where it can be caught. Half guard recovery becomes the realistic best-case outcome when the initial defensive window has passed.
-
-**Q5**: How does understanding the attacker's grip sequence help you time your defense?
-**A**: The attacker must transition grips from controlling their own foot (gogoplata maintenance) to controlling your head or collar (mount establishment). This grip transition creates a brief period where neither control system is fully engaged. Recognizing when they release the foot grip and before they secure the crossface or collar is the optimal defensive window with the highest success rate for prevention.
-
-
-
-</section>
 
 
 </main>

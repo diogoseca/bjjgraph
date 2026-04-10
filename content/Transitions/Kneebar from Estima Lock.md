@@ -28,7 +28,7 @@ This transition exploits a fundamental defensive dilemma: the actions the defend
 
 The technical execution requires precise hip placement perpendicular to the opponent's thigh, maintaining continuous leg isolation throughout the transition, and understanding the biomechanical relationship between ankle defense and knee vulnerability. This technique exemplifies the dilemma-based approach to submission grappling where each defensive action opens a new offensive pathway, forcing the defender to address multiple threats simultaneously rather than solving a single problem. Proficiency in this transition transforms the Estima Lock from a single-threat position into a multi-layered attack system.
 
-**From Position**: [[Positions/Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock Control]] (Top)
 **Success Rate**: 50%
 
 </section>
@@ -40,7 +40,7 @@ The technical execution requires precise hip placement perpendicular to the oppo
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Kneebar Control]] | 50% |
-| Failure | [[Positions/Estima Lock]] | 30% |
+| Failure | [[Positions/Estima Lock Control]] | 30% |
 | Counter | [[Positions/Open Guard]] | 20% |
 
 
@@ -202,13 +202,13 @@ The Kneebar from Estima Lock occupies a pivotal position within modern leg lock 
 ## Related Techniques
 
 
-- [[Positions/Estima Lock]] - Source position from which this kneebar transition initiates
+- [[Transitions/Estima Lock]] - Source position from which this kneebar transition initiates
 
 - [[Positions/Kneebar Control]] - Target position reached on successful transition completion
 
 - [[Transitions/Kneebar Control Maintenance]] - Follow-up technique for maintaining control after successful entry
 
-- [[Submissions/Estima Lock Finish]] - Primary submission from source position that this chain attack complements
+- [[Transitions/Estima Lock]] - Primary submission from source position that this chain attack complements
 
 - [[Transitions/Toe Hold from Estima Lock]] - Alternative chain attack from same position targeting the foot instead of knee
 

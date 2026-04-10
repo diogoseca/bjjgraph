@@ -162,6 +162,8 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Up from Gogoplata?</p>
+
 - Opponent's hands shift from defensive framing position to your hips, indicating they are establishing a platform for posture recovery drive
 - Opponent's spine begins straightening as they prepare to drive hips backward, visible as their chest lifts away from yours
 - Opponent turns their chin toward the attacking shin to reduce direct trachea pressure, a preparatory movement for systematic escape
@@ -174,6 +176,8 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Up from Gogoplata?</p>
 
 - Maintain hip elevation continuously to preserve the perpendicular shin angle across the throat that creates effective compression
 - Keep foot deep behind opponent's head using active hand control, re-pulling whenever slack is created by their escape attempts
@@ -188,6 +192,8 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Up from Gogoplata?</p>
 
 ### 1. Re-elevate hips and pull foot deeper behind opponent's head to re-lock the submission
 
@@ -225,6 +231,8 @@ As the defender in the Posture Up from Gogoplata scenario, you are the bottom pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Up from Gogoplata?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Re-elevate hips immediately when you sense the opponent beginning posture recovery. Pull your foot deeper behind their head with both hands and increase shin pressure by driving your hips forward and upward. Address their escape at the earliest recognition cue before momentum develops, making it progressively harder for them to initiate a second attempt.
@@ -240,6 +248,8 @@ When gogoplata maintenance becomes untenable because the opponent has created si
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Up from Gogoplata?</p>
 
 ### 1. Allowing hips to drop flat to the mat when opponent drives backward with posture recovery force
 
@@ -269,6 +279,8 @@ When gogoplata maintenance becomes untenable because the opponent has created si
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Up from Gogoplata?</p>
+
 **Phase 1: Recognition** - Identifying posture recovery attempts early
 Partner telegraphs posture recovery attempts at slow speed while you practice recognizing the physical indicators: hand repositioning to hips, spine straightening, chin angle change, and foot searching. Focus on identifying each cue and naming it verbally. No defensive response yet, purely pattern recognition training.
 
@@ -285,29 +297,6 @@ Positional sparring starting from established gogoplata control with partner app
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest physical indicator that your opponent is beginning a posture recovery attempt from your gogoplata?
-**A**: Their hands shift from defensive framing to your hips, and you feel their spine beginning to straighten rather than remaining collapsed forward. This hand repositioning and spinal alignment change precede the actual hip drive by one to two seconds, giving you a critical window to respond by deepening your foot position and re-elevating your hips before their backward momentum builds.
-
-**Q2**: Your opponent gets one hand on the foot behind their head and begins pushing - what is your immediate response?
-**A**: Use both hands immediately to re-secure the foot and pull it deeper behind their head, temporarily accepting reduced grip control elsewhere. The foot-behind-head configuration is the structural foundation of the entire gogoplata position. Without it, the shin has no anchor and can be displaced freely. Prioritize foot retention above all other control aspects during this critical moment.
-
-**Q3**: At what point should you abandon maintaining the gogoplata and transition to an alternative attack?
-**A**: When the opponent creates enough hip separation that your shin angle shifts from perpendicular to parallel relative to their throat, the gogoplata submission threat is effectively neutralized. Rather than fighting to re-establish a structurally compromised position, immediately transition to triangle by switching leg configuration, omoplata by using their turning movement, or armbar by attacking arms extended during their escape attempt.
-
-**Q4**: How does your hip elevation directly affect your ability to maintain gogoplata control against posture recovery?
-**A**: Hip elevation maintains the perpendicular angle of your shin across the opponent's throat, which is essential for airway and blood vessel compression. When your hips drop flat, the shin shifts to a parallel angle that applies minimal meaningful pressure. During posture recovery attempts, actively drive your hips higher and forward to counteract the opponent's backward drive and preserve the compression geometry.
-
-**Q5**: What training approach best develops the ability to maintain gogoplata control against progressively stronger posture recovery attempts?
-**A**: Progressive resistance drilling where training partners attempt posture recovery at increasing intensity levels. Start at thirty percent resistance focusing purely on recognizing escape patterns and their early indicators. Increase to fifty percent practicing real-time hip and foot adjustments. Then seventy percent developing transition timing for when maintenance fails. This structured progression builds both the physical endurance for sustained hip elevation and the tactical pattern recognition needed for competition-level defense.
-
-
-
-</section>
 
 
 </main>

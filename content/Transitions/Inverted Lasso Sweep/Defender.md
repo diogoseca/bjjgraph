@@ -154,6 +154,8 @@ Defending the Inverted Lasso Sweep requires early recognition of the inversion a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inverted Lasso Sweep?</p>
+
 - Bottom player rolls backward onto shoulders while maintaining the lasso hook, transitioning from upright to inverted posture with visible shoulder contact on the mat
 - Free leg posts on your hip or begins threading behind your back, indicating either overhead sweep or berimbolo setup respectively
 - Increased pulling tension on the sleeve grip combined with upward pressure from the lassoed leg, creating the lifting force couple that powers the sweep
@@ -166,6 +168,8 @@ Defending the Inverted Lasso Sweep requires early recognition of the inversion a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inverted Lasso Sweep?</p>
 
 - Recognize inversion initiation within one to two seconds and respond immediately before the sweep angle is fully established
 - Manage forward weight carefully, maintaining a neutral center of gravity that neither feeds the sweep nor opens berimbolo entries
@@ -181,6 +185,8 @@ Defending the Inverted Lasso Sweep requires early recognition of the inversion a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inverted Lasso Sweep?</p>
 
 ### 1. Drop weight backward and sprawl hips to remove forward momentum from the sweep mechanics
 
@@ -218,6 +224,8 @@ Defending the Inverted Lasso Sweep requires early recognition of the inversion a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inverted Lasso Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the sleeve grip connection and systematically extract the lassoed arm to break down the inverted lasso structure entirely, forcing the bottom player into basic open guard where standard pressure passing and movement passing sequences can be applied effectively
@@ -233,6 +241,8 @@ Neutralize the sweep attempt by managing weight distribution and controlling the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inverted Lasso Sweep?</p>
 
 ### 1. Driving forward pressure directly into the inverted opponent's elevated hips
 
@@ -262,6 +272,8 @@ Neutralize the sweep attempt by managing weight distribution and controlling the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inverted Lasso Sweep?</p>
+
 **Phase 1: Recognition Training** - Identifying inversion cues and developing reaction speed
 Partner drills inverted lasso entries at various speeds while the defender focuses solely on identifying the inversion initiation cue and calling it out within one second. No counter-techniques yet, purely developing the visual and tactile pattern recognition that enables effective defensive responses.
 
@@ -278,26 +290,6 @@ Positional sparring starting in established inverted lasso guard where the botto
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical cue that indicates an Inverted Lasso Sweep is being attempted?
-**A**: The first cue is the bottom player dropping their shoulders toward the mat while maintaining the lasso hook, initiating the backward roll into inverted position. This is accompanied by a sudden increase in sleeve grip tension as they prepare to generate rotational force. The shoulder drop typically occurs one to two seconds before the sweep mechanics fully develop, creating a critical reaction window. Recognizing this transitional movement rather than waiting for the completed inversion allows for preventive defense that is dramatically more effective than reactive countering.
-
-**Q2**: Why is it dangerous to drive forward when you feel the opponent inverting beneath you?
-**A**: Forward driving feeds directly into the sweep's mechanical design. The inverted lasso sweep exploits forward momentum by redirecting it upward through the lasso fulcrum. Your forward weight becomes their sweep energy, and the more aggressively you drive forward, the less effort the bottom player needs to generate the overhead rotation. Instead of driving forward, either maintain neutral weight with hips back or execute a controlled lateral movement that changes the sweep angle without adding forward momentum to their technique.
-
-**Q3**: What defensive strategy addresses both the sweep and berimbolo threats from inverted lasso guard simultaneously?
-**A**: The key strategy is controlling the opponent's free leg while maintaining neutral weight distribution. The free leg is the mechanism that differentiates sweep setup from berimbolo entry: posting on the hip for overhead sweep direction versus threading behind the back for berimbolo rotation. By controlling this leg with your hand or pinning it with your hip, you eliminate both offensive pathways simultaneously. Combined with systematic arm extraction work on the lasso, this addresses the fundamental attacking dilemma without exposing yourself to either attack vector.
-
-**Q4**: Your opponent has fully established inverted lasso and begins the sweep motion. What is your highest-percentage defensive response at this point?
-**A**: When the sweep motion has already started with established angle and momentum, direct resistance against the rotational force is low-percentage and energy-intensive. Your best response is to follow the sweep direction with a cartwheel or counter-rotation, converting their sweep momentum into your passing opportunity. By matching their rotational direction rather than fighting against it, you neutralize the angle advantage while potentially establishing a passing position. This requires committing fully to the counter-movement rather than half-resisting, which typically results in being swept anyway while wasting energy.
-
-
-
-</section>
 
 
 </main>

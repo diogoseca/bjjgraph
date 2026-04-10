@@ -70,8 +70,8 @@
       "relationship": "Counter outcome position where defender escapes during the transition window"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Primary submission threat available immediately upon completing this transition"
+      "name": "S Mount Armbar Setup",
+      "relationship": "Primary submission setup available immediately upon completing this transition to S mount"
     },
     {
       "name": "Mounted Triangle Squeeze",
@@ -276,6 +276,14 @@
       {
         "question": "What distinguishes the direct swing-over variant from the technical mount waypoint approach, and when would you choose each?",
         "answer": "The direct swing-over executes the full transition in one fluid motion without pausing at an intermediate position. Choose this when the opponent is momentarily stunned, passive, or when you have very secure arm control and high confidence. The technical mount waypoint breaks the transition into two phases with a brief stabilization in technical mount. Choose this against active, explosive opponents where the transition window risk is high. The waypoint gives you a stable position to reassess control before committing to S mount, at the cost of slightly more time and giving the opponent an extra moment to adjust their defense."
+      },
+      {
+        "question": "Your opponent is defending the mounted triangle by keeping their free arm across their body - how does this affect your decision to transition to S mount?",
+        "answer": "An opponent who brings their free arm across their body to defend the triangle is actually creating a more favorable scenario for the S mount transition. Their free arm crossing the centerline means it cannot effectively frame against your hip during the transition, and it may even become a secondary target for submission once you reach S mount. This defensive posture reduces their ability to bridge effectively because their arms are occupied defensively rather than posting. Recognize this as a green light to initiate the transition with higher confidence."
+      },
+      {
+        "question": "What is the correct grip configuration during step 1 and how does it differ from your triangle finishing grips?",
+        "answer": "For the transition, you need two-on-one wrist control: near hand on the opponent's wrist, far hand on their elbow or bicep. This differs from triangle finishing grips where you typically pull the head down with one hand and grab your own shin with the other to tighten the squeeze. The shift from triangle finishing grips to arm control grips is itself the first commitment to the transition. Make this grip change before unlocking the triangle, so you never have a moment where neither triangle pressure nor arm control is established."
       }
     ],
     "safety_considerations": "This transition involves repositioning while maintaining mount control and does not directly threaten joint locks during the transition itself. However, the transition leads directly to S mount armbar position, so practitioners should be mindful of arm isolation pressure during the repositioning phase. Avoid cranking or twisting the trapped arm during the transition. In training, execute the transition at controlled speed and communicate with your partner before applying submission pressure from S mount. If the partner signals discomfort during the arm isolation phase of the transition, immediately release pressure and reset."
@@ -382,6 +390,18 @@
       {
         "question": "How does defending this transition differ from defending a standard mount to S mount transition?",
         "answer": "The critical difference is that in a mounted triangle, one arm is already isolated and trapped between the attacker's legs before the S mount transition begins. In a standard mount to S mount transition, the arm isolation happens during the transition itself, giving you more opportunity to prevent it. Here, the arm is already compromised, so your defensive focus must be on positional escape (bridge, hip escape to half guard) rather than arm protection, since the arm isolation has already been achieved. The transition window is your escape opportunity, not your arm defense opportunity."
+      },
+      {
+        "question": "Your opponent pauses mid-transition with the triangle unlocked but legs not yet in S mount configuration - what is the optimal action in this limbo moment?",
+        "answer": "This limbo moment is your highest-percentage escape window. Fire an explosive bridge immediately combined with pulling your trapped arm back toward your body with the elbow driving toward your hip. The attacker has neither the triangle lock nor the S mount base established, meaning their control is at its absolute weakest. Simultaneously hip escape to create space for knee insertion. Even a partial disruption here can prevent the transition entirely and leave you in a significantly more escapable position than either the locked mounted triangle or consolidated S mount."
+      },
+      {
+        "question": "How should your grip priorities change as the transition progresses from mounted triangle through to completed S mount?",
+        "answer": "In mounted triangle, your trapped hand should grip your own collar to prevent arm extension while your free hand frames against the attacker's hip. As you feel the triangle unlock, shift your free hand to actively push against the attacker's repositioning legs or hip to block S mount settling. If S mount is established despite your defense, your trapped hand remains on your collar as the non-negotiable anchor, but your free hand transitions to hooking the attacker's near leg at the knee to prevent full armbar step-over. The collar grip never changes; the free hand adapts to the evolving positional threat."
+      },
+      {
+        "question": "What body positioning error do most defenders make when they feel the triangle pressure release, and how should you position instead?",
+        "answer": "Most defenders relax and flatten their back to the mat when triangle pressure releases, feeling momentary relief from the choke. This is exactly wrong - flattening gives the attacker a stable platform to reposition legs into S mount. Instead, when you feel the triangle unlock, immediately turn onto your side toward the trapped arm and drive your hips away through a shrimp motion. Being on your side makes it significantly harder for the attacker to establish the hip-to-shoulder connection required for S mount, and your hip escape creates the space needed to insert a knee for half guard recovery."
       }
     ],
     "training_progressions": [

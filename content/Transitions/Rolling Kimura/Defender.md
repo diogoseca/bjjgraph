@@ -156,13 +156,15 @@ Defending the Rolling Kimura from turtle bottom requires recognizing the attack 
 
 The most important defensive principle is prevention. Once the attacker has established a tight kimura grip and initiated the roll with proper mechanics, defensive options diminish rapidly. Early recognition of the grip attempt and immediate hand fighting to prevent arm isolation represent your highest-percentage defensive window. If the grip is already locked, your priorities shift to preventing the roll itself through base widening and posture, or if the roll has begun, using the momentum to counter-roll into a position where the kimura threat is neutralized. Understanding the attacker's mechanical requirements at each phase allows you to disrupt the technique at its most vulnerable points.
 
-**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Rolling Kimura?</p>
 
 - Attacker reaches over your back to grip your far wrist while their opposite hand threads under your arm to establish the figure-four kimura configuration
 - Attacker begins pulling your trapped arm away from your body at a perpendicular angle while shifting their weight to position their hips near your shoulder
@@ -176,6 +178,8 @@ The most important defensive principle is prevention. Once the attacker has esta
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling Kimura?</p>
 
 - Prevent arm isolation as the first line of defense by keeping elbows tight to your body and immediately fighting any grip on your wrist
 - Maintain a wide, heavy base in turtle to resist the pulling force that precedes the roll initiation
@@ -191,6 +195,8 @@ The most important defensive principle is prevention. Once the attacker has esta
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Kimura?</p>
 
 ### 1. Immediate grip fighting to strip the kimura before it locks
 
@@ -228,6 +234,8 @@ The most important defensive principle is prevention. Once the attacker has esta
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Kimura?</p>
+
 ### → [[Positions/Turtle]]
 
 Strip the kimura grip before it locks by fighting hands immediately upon recognition. Use two-on-one grip breaking on your own wrist to peel the attacker's fingers, then immediately retuck your elbow tight to your body and begin working a standard turtle escape to reset the position.
@@ -243,6 +251,8 @@ If the roll has already initiated, commit to a strong counter-roll by driving yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Kimura?</p>
 
 ### 1. Allowing the arm to be isolated without immediately fighting the grip
 
@@ -277,6 +287,8 @@ If the roll has already initiated, commit to a strong counter-roll by driving yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Kimura?</p>
+
 **Week 1-2: Recognition and Grip Defense** - Identifying the Rolling Kimura setup and practicing immediate grip fighting responses
 Partner slowly establishes the kimura grip from turtle top while you practice recognizing the early cues and immediately fighting the grip. Focus on stripping the wrist grip before the figure-four locks and retracting your elbow tight to your ribs. Partner provides zero resistance to your defense initially, building to light resistance as recognition speed improves.
 
@@ -293,29 +305,6 @@ Start in turtle bottom with partner working full turtle top attacks including th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending the Rolling Kimura?
-**A**: The most critical defensive window is during the initial grip establishment phase, before the attacker has locked the figure-four kimura configuration. Once you feel contact on your wrist or the threading of their arm under yours, you have approximately two seconds to strip the grip before it becomes structurally sound. After the figure-four is locked and the arm isolated, your defensive success rate drops significantly because the attacker now controls your shoulder joint and can initiate the roll at their chosen moment.
-
-**Q2**: Your opponent has locked the kimura grip but has not yet started the roll. What is your best defensive action?
-**A**: Immediately widen your base by dropping the hip on the trapped arm side to the mat while grabbing your own thigh or belt with the trapped hand to create a secondary connection point. Simultaneously use your free hand to attack the attacker's wrist grip in the figure-four. Drive your body weight away from the attacker's rolling direction. This combination of lowered base, secondary grip defense, and directional movement makes it extremely difficult for the attacker to generate the rotational angle and momentum needed to initiate the roll.
-
-**Q3**: Why should you avoid extending your arms during the roll phase of a Rolling Kimura defense?
-**A**: Extending your arms during the roll exposes them to being trapped between the attacker's legs, leading to the crucifix position where both arms are controlled. The crucifix is arguably worse than back control because the attacker has undefended access to your neck with no arm available to defend chokes. By keeping elbows tight to your body throughout the roll, you prevent the crucifix entry and maintain at least one free arm for defensive hand fighting once the roll completes.
-
-**Q4**: The roll has already been initiated and you cannot stop it. What is the best counter-strategy?
-**A**: Commit to a counter-roll by driving your weight forward and turning into the attacker rather than resisting the rolling direction. This changes the rotational dynamics and often results in a scramble where the kimura grip loses effectiveness due to the unexpected angle change. As you counter-roll, keep your elbows tight to prevent crucifix and look to turn and face the attacker as quickly as possible. Even if you end up on bottom, facing the attacker is far preferable to having your back taken with hooks in.
-
-**Q5**: How does constant motion in turtle position reduce the effectiveness of the Rolling Kimura setup?
-**A**: The Rolling Kimura requires the attacker to establish a precise perpendicular body angle relative to the defender, secure the figure-four grip, break the defender's base, and then initiate the roll in a specific diagonal direction. Each of these steps requires the defender to be relatively stationary. Constant motion through hip shifts, directional changes, and active escape attempts disrupts the attacker's positioning at every phase, forcing them to continuously readjust rather than progressing through the attack sequence. A moving target makes grip establishment harder and prevents the attacker from setting the precise body angle needed for an effective roll.
-
-
-
-</section>
 
 
 </main>

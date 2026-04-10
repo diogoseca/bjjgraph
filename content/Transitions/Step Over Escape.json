@@ -13,7 +13,7 @@
   "from_position": "Darce Control/Bottom",
   "outcomes": [
     {
-      "to": "Open Guard/Top",
+      "to": "Open Guard/Bottom",
       "probability": 65,
       "result": "success"
     },
@@ -72,8 +72,8 @@
       "relationship": "Alternative recovery position via step over to half guard variant"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Follow-up technique to consolidate position after escaping"
+      "name": "Scramble to Guard",
+      "relationship": "Related guard recovery technique used during post-escape scrambles"
     },
     {
       "name": "Anaconda Control",
@@ -160,7 +160,7 @@
         "counter": "Opponent releases the Darce grip and transitions to mount or side control as you rotate through",
         "effectiveness": "Medium",
         "your_response": "This is actually a partial success since the choke is broken. Immediately address the new positional threat by framing on their hips, inserting a knee shield, and recovering to half guard or closed guard before they consolidate the new position",
-        "targets_outcome": "Open Guard/Top"
+        "targets_outcome": "Open Guard/Bottom"
       },
       {
         "counter": "Opponent blocks the stepping leg with their free arm and traps it against their body",
@@ -312,7 +312,7 @@
       {
         "action": "Release the Darce grip and immediately transition to side control, mount, or front headlock before the bottom player can establish guard frames",
         "when_to_use": "When the step over has progressed past the point of recovery and continuing to hold the Darce will result in losing both the choke and positional control",
-        "targets_outcome": "Open Guard/Top",
+        "targets_outcome": "Open Guard/Bottom",
         "if_successful": "You lose the submission but maintain dominant top position, preventing the bottom player from recovering to a functional guard and retaining the ability to re-attack",
         "risk": "Releasing the Darce voluntarily gives up the submission threat entirely and the bottom player may establish guard before you consolidate the new position"
       },

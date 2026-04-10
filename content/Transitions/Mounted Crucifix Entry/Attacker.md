@@ -186,6 +186,8 @@ The technical requirements for this entry demand precise timing and weight distr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mounted Crucifix Entry?</p>
+
 - Maintain S Mount stability throughout the entire transition - never sacrifice base for the crucifix entry
 - Capitalize on opponent's defensive arm positioning rather than forcing arms into vulnerable positions
 - Use hip pressure and weight shifts to create space for leg threading without compromising control
@@ -201,6 +203,8 @@ The technical requirements for this entry demand precise timing and weight distr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mounted Crucifix Entry?</p>
+
 - Solid S Mount position established with hip pressure against opponent's shoulder
 - Opponent's near arm already isolated between your legs from the S Mount configuration
 - Opponent brings their far arm across body to defend submissions or create frames
@@ -213,6 +217,8 @@ The technical requirements for this entry demand precise timing and weight distr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mounted Crucifix Entry step by step?</p>
 
 1. **Secure S Mount control**: Establish tight S Mount with your hip bone pressed firmly into opponent's near shoulder. Your near leg should extend over their head with foot planted beyond their far shoulder, while your far leg crosses their torso. Maintain wrist control on the isolated arm.
 2. **Identify arm exposure**: Watch for opponent's far arm to cross their centerline - this commonly occurs when they attempt to push your leg off their head, frame against your hip, or grip their own collar for armbar defense. This exposed arm is your target for the second leg trap.
@@ -241,6 +247,8 @@ The technical requirements for this entry demand precise timing and weight distr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mounted Crucifix Entry?</p>
+
 - **Opponent keeps far arm tight to body and refuses to expose it for trapping** (Effectiveness: High) - Your Response: Return to standard S Mount armbar attacks on the already-isolated arm, or feint submission attempts to bait the defensive arm across → Leads to [[Positions/Mount/S Mount]]
 - **Explosive bridge during weight shift creating space and disrupting balance** (Effectiveness: Medium) - Your Response: Post immediately with your free hand, ride the bridge by moving with the direction of their hips, and reset S Mount control before reattempting → Leads to [[Positions/Mount/S Mount]]
 - **Hip escape toward your legs before crucifix is established** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintain shoulder pressure, and either complete the transition or settle back into standard mount → Leads to [[Positions/Half Guard]]
@@ -252,6 +260,8 @@ The technical requirements for this entry demand precise timing and weight distr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mounted Crucifix Entry?</p>
 
 ### 1. Attempting crucifix entry before establishing solid S Mount control
 
@@ -286,6 +296,8 @@ The technical requirements for this entry demand precise timing and weight distr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mounted Crucifix Entry (Attacker)?</p>
+
 **Week 1-2** - Mechanics and positioning
 Practice leg threading motion from established S Mount with compliant partner. Focus on weight shift mechanics, leg placement over arms, and knee squeeze timing. Partner offers arms in ideal positions to build muscle memory for the movement pattern.
 
@@ -303,54 +315,12 @@ Implement crucifix entries during positional sparring starting from mount. Work 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Mounted Crucifix Entry transition?
-**A**: The primary goal is to advance from S Mount to Mounted Crucifix by trapping both of the opponent's arms with your legs. This removes their primary defensive tools (frames and grips), creating an extremely dominant control position with multiple high-percentage submission opportunities including chokes and armbars.
-
-**Q2**: When should you abandon the crucifix entry attempt and return to standard S Mount attacks?
-**A**: Abandon the crucifix entry when opponent maintains strong arm positioning close to their body without exposing the far arm, when your weight shift creates excessive space allowing their hip escape, or after two failed threading attempts. Forcing the crucifix against solid defense wastes energy and may result in complete position loss. The armbar from S Mount remains high percentage even when crucifix is unavailable.
-
-**Q3**: Your opponent defends your armbar by bending their arm and gripping their collar - how does this create crucifix opportunity?
-**A**: When opponents bend their arm and grip their collar for armbar defense, they must bring their far arm across their body to reach their collar or the defending arm. This defensive arm crossing exposes it for leg threading. Additionally, their focus on preventing arm extension means they often neglect the incoming leg trap. Time your leg thread immediately when you see the grip establish.
-
-**Q4**: What weight distribution adjustments are required during the leg threading phase?
-**A**: Shift weight forward onto your chest and posting arm before lifting your far leg to thread over opponent's arm. This forward shift serves two purposes: it creates space for leg movement by reducing pressure on your seated position, and it prevents opponent from using the transition moment to bridge effectively. The posting arm provides stability during the single-leg balance phase.
-
-**Q5**: What immediate action must you take the instant your leg lands over the opponent's second arm?
-**A**: Squeeze both knees together immediately in a vice-like clamp pinching both of opponent's arms between your shins. This knee squeeze must be automatic and instantaneous - any delay allows opponent to extract one or both arms before control establishes. Think of the leg landing and knee squeeze as a single combined motion rather than two separate actions.
-
-**Q6**: How do you respond when opponent explosively bridges during your weight shift for the crucifix entry?
-**A**: Post immediately with your free hand in the direction of their bridge to prevent being displaced. Ride the bridge by moving your hips with their movement rather than fighting against it. Once the bridge settles, re-establish S Mount pressure before considering another crucifix attempt. Do not try to complete the leg thread mid-bridge as this typically results in losing mount entirely.
-
-**Q7**: What distinguishes a successful leg threading motion from one that creates escape opportunities?
-**A**: Successful threading uses hip rotation to slide the leg low and tight over the arm rather than lifting the leg high. High lifting creates space underneath your body that opponents exploit for hip escapes or arm extraction. Keep your chest down and connected to opponent while using rotational hip mechanics. The leg should travel in an arc close to opponent's body rather than up and over in a wide motion.
-
-**Q8**: Your opponent keeps their far arm tight to their body refusing to expose it - what setup can bait the arm out?
-**A**: Feint armbar attacks on the already-isolated near arm while watching for the far arm to reach across defensively. You can also threaten a mounted triangle by starting to swing your leg toward their head, which often prompts them to push against your leg with their far arm. Any time they reach to prevent a submission, the arm becomes exposed for crucifix entry.
-
-**Q9**: What common error causes practitioners to lose mount entirely during crucifix entry attempts?
-**A**: Attempting the crucifix entry before establishing solid S Mount control is the primary cause of complete position loss. Without proper hip-to-shoulder pressure and stable leg positioning in S Mount, the weight shift required for leg threading creates enough space for opponent to execute hip escapes or reversal attempts. Always consolidate S Mount fully before transitioning.
-
-**Q10**: How should you adjust if opponent successfully extracts one arm during your crucifix establishment?
-**A**: If one arm extracts while the other remains trapped, you have effectively returned to S Mount position with single arm isolation. Continue attacking with armbar on the trapped arm, or transition to mounted triangle if the free arm attempts to defend. Do not chase re-establishing crucifix immediately - the arm that escaped is now likely protected. Work with what remains rather than forcing a lost position.
-
-**Q11**: Your opponent posts their hand against your hip during the weight shift - how do you capitalize on this?
-**A**: A posted hand against your hip is an extended arm, which is exactly the exposure you need. Immediately attack the posting arm with an armbar threat, which will either result in a submission or force them to retract the arm quickly. As they pull back, that retraction motion often crosses the arm over their body, creating the crucifix threading opportunity. The stiff-arm defense defeats itself.
-
-**Q12**: What is the critical direction of force when threading your leg over the second arm?
-**A**: The primary force direction is rotational through your hips, not vertical with your leg. Your hip drives the leg laterally across the opponent's arm using a scooping arc that keeps contact with their body throughout. Vertical lifting separates you from the opponent and creates space. Think of the motion as rotating your pelvis to slide your shin across their bicep, maintaining constant downward chest pressure throughout the rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mounted Crucifix Entry?</p>
 
 The Mounted Crucifix Entry is generally safe when practiced with proper control and communication. Primary injury risks involve the trapped arms - avoid cranking or twisting arms during leg threading as this can strain shoulders or elbows. The bottom practitioner should tap immediately if shoulder pressure becomes excessive before crucifix is established. Partners should establish clear tap signals before drilling, as verbal taps may be muffled during position transitions. When drilling at higher intensities, ensure the receiving partner can absorb the weight transfer without cervical spine compression. Avoid explosive entries on partners with existing shoulder injuries. Always release control immediately upon tap.
 

@@ -124,9 +124,9 @@ Competition application demonstrates New York Control's effectiveness in both gi
 
 - **[[Transitions/New York Control to Zombie/Attacker|New York Control to Zombie]]** (8% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (6% of attempts)
+- **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (6% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (6% of attempts)
+- **[[Kimura from New York Control/Attacker|Kimura from New York Control]]** (6% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (7% of attempts)
 

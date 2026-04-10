@@ -164,6 +164,8 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Sweep?</p>
+
 - Opponent pulls you forward aggressively with grips while simultaneously sitting up taller, loading your weight onto their hooks and breaking your posture toward their centerline
 - You feel one butterfly hook driving upward with increasing pressure under your thigh while opponent's upper body grip tightens on the same side, indicating directional commitment to sweep
 - Opponent posts one hand behind them on the mat while maintaining grip with the other hand, establishing the fulcrum point needed for rotational sweep mechanics
@@ -176,6 +178,8 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Sweep?</p>
 
 - Maintain wide base with hips back to distribute weight away from opponent's hooks and prevent easy elevation
 - Deny dominant grips proactively through active grip fighting, preventing opponent from establishing the upper body control needed to initiate sweeps
@@ -190,6 +194,8 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Sweep?</p>
 
 ### 1. Post hand firmly on the mat on the sweep side, creating a tripod base that blocks the rotational path of the sweep
 
@@ -227,6 +233,8 @@ The defender's strategic framework centers on disrupting the sweep's prerequisit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Sweep?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Deny the sweep while maintaining top position by posting early on the sweep side, stripping opponent's dominant grips to prevent posture breaking, and keeping your hips back with weight distributed away from hooks. After stopping the sweep attempt, immediately initiate your own passing sequence before opponent can re-establish optimal guard structure.
@@ -242,6 +250,8 @@ Counter the sweep attempt aggressively by sprawling backward when you feel the l
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Sweep?</p>
 
 ### 1. Leaning forward with weight on hands and chest directly over opponent's hooks, feeding them the forward pressure they need for the sweep
 
@@ -271,10 +281,12 @@ Counter the sweep attempt aggressively by sprawling backward when you feel the l
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Sweep?</p>
+
 **Week 1-2: Recognition and Posting Fundamentals** - Identifying sweep initiation cues and developing automatic posting responses
 Partner in butterfly guard initiates sweeps at 30% speed. Defender focuses on recognizing the loading phase (forward pull, hook elevation, directional commitment) and practicing the hand post response. Partner announces sweep direction initially to build recognition. Progress to partner sweeping without announcement. Drill 15-20 reps per side focusing on post timing. Separately drill sprawl defense against forward-loading sweeps at controlled speed.
 
-**Week 3-4: Grip Fighting and Posture Maintenance** - Preventing sweep prerequisites through active grip denial and positional awareness
+**Week 3-4: Grips and Posture Maintenance** - Preventing sweep prerequisites through active grip denial and positional awareness
 Partner works from butterfly guard attempting to establish underhooks and collar grips while defender focuses purely on grip fighting and posture maintenance. No passing attempts, just grip denial and base management. Partner increases grip fighting intensity to 60%. Introduce rounds where defender must maintain base for 2 minutes against sweep attempts while actively fighting grips. Focus on keeping hips back and at least one hand free to post at all times.
 
 **Week 5-8: Defense-to-Offense Transitions** - Converting successful sweep defense into immediate passing attempts
@@ -287,29 +299,6 @@ Full resistance positional sparring from inside opponent's butterfly guard. Part
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important body position detail for preventing the butterfly sweep from being initiated?
-**A**: Keeping your hips back and low with weight distributed through your knees rather than leaning forward over opponent's hooks. When your hips are behind your shoulders, opponent cannot load your weight onto their hooks effectively, which is the prerequisite for any butterfly sweep variation. This hip position simultaneously limits how much elevation the hooks can generate and reduces the forward momentum available for the bottom player to redirect. Maintaining this posture requires active awareness because natural grappling instincts often lead to leaning forward to apply pressure, which is exactly what feeds the sweep.
-
-**Q2**: Your opponent has established a deep underhook and is starting to pull you forward while elevating one hook. What is your immediate defensive priority?
-**A**: Your immediate priority is posting your hand on the mat on the side the hook is elevating, while simultaneously driving your hip down on that same side to kill the elevation. The post must happen before full rotation begins. Simultaneously, use your other hand to attack the underhook by driving a whizzer or swimming your arm back inside. Do not try to pull away from the underhook by creating distance, as this gives the bottom player the angle they need. After stopping the immediate sweep threat, work to strip the underhook before the next attempt. If the post feels too late and rotation has begun, sprawl backward explosively to remove your weight from the hooks entirely.
-
-**Q3**: Why is sprawling backward sometimes more effective than posting the hand when defending the butterfly sweep?
-**A**: Sprawling backward removes your entire body weight from the hooks simultaneously, eliminating the elevation power that drives the sweep. A hand post only blocks the rotational direction and can be overcome if the bottom player generates sufficient momentum or if they redirect the sweep to the opposite side. Sprawling also has the advantage of being direction-neutral, meaning it works regardless of which side the sweep is aimed at, whereas a hand post only blocks one direction and leaves you vulnerable to the other. However, sprawling is most effective early in the sweep sequence before directional commitment. Once full rotation has begun, a hand post is faster and more practical than a full sprawl.
-
-**Q4**: How can you use grip fighting from the top position to prevent butterfly sweep attempts before they start?
-**A**: Proactive grip fighting prevents the bottom player from assembling sweep prerequisites. Prioritize denying the underhook by keeping your elbows tight and fighting for inside position with your own underhooks or collar ties. If in gi, strip collar grips immediately by two-on-one breaking before they can be used to break your posture. Control at least one of opponent's wrists to prevent them from establishing the bilateral control needed for high-percentage sweeps. When you control the grip exchange, the bottom player must spend energy fighting for grips rather than executing sweeps, which shifts the tactical initiative to you and creates windows for passing attempts.
-
-**Q5**: After successfully defending a butterfly sweep attempt, what should your immediate follow-up action be?
-**A**: Immediately initiate a passing sequence before the opponent can re-establish optimal guard structure. After a failed sweep, the bottom player's grips are disrupted, their posture may be compromised from the attempt, and their hooks may be partially displaced. This creates a brief window where their guard retention capability is degraded. The specific pass depends on the defense used: after a hand post, drive the posted hand side forward into a knee slice or pressure pass; after a sprawl, follow forward pressure into a smash pass or over-under configuration; after stripping grips, immediately establish your own dominant grips for a toreando or body lock pass.
-
-
-
-</section>
 
 
 </main>

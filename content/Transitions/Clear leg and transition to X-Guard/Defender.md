@@ -166,6 +166,8 @@ Strategically, the defender should view any escape attempt as an opportunity rat
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Clear leg and transition to X-Guard?</p>
+
 - Bottom player shifts from defensive posture to side-lying position with hips angled toward you, indicating preparation for rotational clearing motion
 - Bottom player establishes two-on-one grip on your ankle or Achilles tendon and begins pulling it toward their hip for distance control
 - Bottom player's free leg begins pushing against your hip rather than defending against submissions, redirecting frames from defense to escape
@@ -178,6 +180,8 @@ Strategically, the defender should view any escape attempt as an opportunity rat
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Clear leg and transition to X-Guard?</p>
 
 - Maintain tight leg entanglement pressure throughout to prevent the hip rotation that initiates the clearing motion
 - Control the bottom player's free leg to eliminate framing and pushing that creates rotational momentum
@@ -192,6 +196,8 @@ Strategically, the defender should view any escape attempt as an opportunity rat
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Clear leg and transition to X-Guard?</p>
 
 ### 1. Drive forward and flatten opponent's hips to the mat, eliminating the side position required for the clearing rotation
 
@@ -229,6 +235,8 @@ Strategically, the defender should view any escape attempt as an opportunity rat
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Clear leg and transition to X-Guard?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Maintain tight entanglement pressure by controlling the bottom player's free leg and driving forward to flatten their hips whenever you detect hip rotation. Strip the two-on-one ankle grip early and keep submission pressure active to discourage escape attempts.
@@ -244,6 +252,8 @@ When the bottom player commits to the clearing motion and temporarily relaxes he
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Clear leg and transition to X-Guard?</p>
 
 ### 1. Allowing the bottom player to establish a side-lying position without responding with forward pressure
 
@@ -278,6 +288,8 @@ When the bottom player commits to the clearing motion and temporarily relaxes he
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Clear leg and transition to X-Guard?</p>
+
 **Week 1-2** - Recognition and early response
 Partner initiates the Clear Leg to X-Guard transition from Leg Knot Bottom at 50% speed. Practice identifying the recognition cues—side-lying shift, ankle grip establishment, hip rotation—and responding with forward pressure to flatten hips. Focus on timing your response to the earliest cue rather than reacting after the clearing motion has started.
 
@@ -294,29 +306,6 @@ Full-resistance positional rounds starting from Leg Knot. Top player practices m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing the Clear Leg to X-Guard transition?
-**A**: The earliest cue is the bottom player shifting from a flat-back defensive posture to a side-lying position with their hips angled toward you. This side position is the prerequisite for the hip rotation that powers the entire clearing mechanic. If you detect this postural shift before they establish grips, you can prevent the transition by driving forward to flatten their hips.
-
-**Q2**: Your opponent has established a two-on-one grip on your ankle but has not yet started rotating—what is your best response?
-**A**: Strip the ankle grip immediately using your free hand to peel their fingers or by repositioning your foot. The two-on-one ankle grip is the distance control mechanism that enables the entire transition. Without it, the bottom player cannot control the space needed for hook insertion even if they clear the leg. Simultaneously increase entanglement pressure to discourage further escape attempts.
-
-**Q3**: The bottom player's leg has partially cleared but no X-Guard hooks are inserted yet—should you drive forward or backstep?
-**A**: Backstep to create distance. At this stage, driving forward is dangerous because a partially cleared leg means the bottom player is close to inserting hooks, and your forward pressure would load their X-Guard structure. Instead, backstep to break the engagement, preventing hook insertion and forcing them to chase you from a position where they have no structural control. Re-engage on your terms from standing or combat base.
-
-**Q4**: How does aggressively attacking submissions serve as a defense against this transition?
-**A**: When the bottom player commits to the leg clearing motion, they redirect their defensive frames away from submission protection and toward the extraction movement. This creates a brief window where heel hooks and toe holds become higher-percentage because the bottom player's hands are occupied with the ankle grip and their focus is on rotation rather than heel hiding. Attacking during this window forces them to choose between completing the escape and defending the submission.
-
-**Q5**: Your opponent has successfully inserted one butterfly hook behind your knee—what is the critical next action?
-**A**: Do not drive forward under any circumstances, as this loads their guard structure. Instead, immediately address the hook by extracting your leg backward while angling your knee outward to strip the hook. If extraction fails, backstep aggressively to prevent the second hook from being inserted. One hook alone does not create stable X-Guard—they need both the butterfly hook and the cross-body hook. Preventing the second hook collapses the entire transition attempt.
-
-
-
-</section>
 
 
 </main>

@@ -192,6 +192,8 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kimura from Back?</p>
+
 - Maintain chest-to-back connection throughout the kimura attack to prevent opponent rotation and escape
 - Use the triangle leg structure to pin the opponent's torso while freeing hands for grip work
 - Capture the wrist before establishing the figure-four grip to prevent defensive grip fighting
@@ -206,6 +208,8 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kimura from Back?</p>
+
 - Rear triangle position established with triangle legs locked around opponent's neck and trapped arm
 - Opponent defending the triangle choke by protecting neck, leaving trapped arm accessible
 - Free hand access to opponent's wrist on the trapped arm side
@@ -218,6 +222,8 @@ The technique exemplifies the principle of systematic attack chains from back co
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kimura from Back step by step?</p>
 
 1. **Secure wrist control**: Use your bottom hand to capture the opponent's trapped arm wrist with a C-grip, thumb on top. The triangle structure prevents them from pulling the arm free while you establish initial control.
 2. **Thread top arm**: Thread your top arm under the opponent's trapped arm, reaching over their tricep and under to connect with your wrist-controlling hand. Your forearm should cross behind their elbow joint.
@@ -247,6 +253,8 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kimura from Back?</p>
+
 - **Opponent grabs their own pants or belt to anchor the trapped arm** (Effectiveness: Medium) - Your Response: Drive their elbow toward their hip to break the grip, or transition to armbar by extending their arm while they grip → Leads to [[Positions/Triangle Control/Rear Triangle]]
 - **Opponent rotates their body to face you, reducing shoulder torque** (Effectiveness: High) - Your Response: Tighten triangle legs and use chest pressure to prevent rotation, or accept the rotation and transition to mounted triangle → Leads to [[Positions/Back Control]]
 - **Opponent straightens arm to prevent elbow pinning** (Effectiveness: Medium) - Your Response: Convert directly to armbar by controlling the wrist and extending hips against the straightened elbow → Leads to [[Positions/Triangle Control/Rear Triangle]]
@@ -258,6 +266,8 @@ The technique exemplifies the principle of systematic attack chains from back co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kimura from Back?</p>
 
 ### 1. Releasing triangle lock to focus on kimura grip
 
@@ -292,6 +302,8 @@ The technique exemplifies the principle of systematic attack chains from back co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kimura from Back (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice the grip sequence (wrist capture, thread, figure-four) against a compliant partner from rear triangle. Focus on smooth transitions without losing triangle structure. 20 repetitions per side daily.
 
@@ -309,48 +321,12 @@ Positional sparring from rear triangle with full resistance. Score points for su
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Kimura from Back?
-**A**: The primary goal is to submit the opponent via shoulder lock or establish kimura trap control that creates a submission dilemma. When the opponent defends the triangle choke by protecting their neck, the kimura attacks their exposed trapped arm. This forces them to choose between defending the shoulder or the choke, eventually opening one or the other.
-
-**Q2**: What position do you start Kimura from Back from?
-**A**: This technique starts from Rear Triangle Top position, where your legs are configured in a triangle around the opponent's neck and one trapped arm while maintaining back control. The triangle structure is essential as it pins the opponent's torso and prevents the defensive rotation that would normally defeat a kimura attempt.
-
-**Q3**: What are the key grips needed for Kimura from Back?
-**A**: The key grips are: first, a C-grip on the opponent's wrist with your thumb on top to secure initial control; second, thread your other arm under their arm and over their tricep; third, establish the figure-four by gripping your own wrist while maintaining the C-grip. The figure-four must be tight with elbows squeezed together to eliminate slack.
-
-**Q4**: Your opponent grabs their own belt to defend the kimura - what do you do?
-**A**: Drive their elbow toward their hip using the figure-four grip to break the anchor connection. If the grip remains, switch tactics: use their gripping commitment against them by transitioning to an armbar. Their grip on the belt means their arm is extended and committed, making it vulnerable to armbar attack if you extend your hips while controlling the wrist.
-
-**Q5**: What is the correct direction of force when finishing the kimura from back?
-**A**: Rotate the opponent's wrist toward their spine in a painting motion while keeping their elbow pinned to their ribcage. The elbow acts as a fixed pivot point. Do not pull the arm outward or away from their body—this reduces leverage significantly. The rotation should be slow and controlled, allowing the opponent time to tap before injury.
-
-**Q6**: How do you maintain the triangle structure while transitioning to kimura grip?
-**A**: Keep active squeeze with your triangle legs throughout the grip transition. Your legs do the primary positional control work while your hands work the submission. Never release knee squeeze or hip angle to reach for grips. If you must adjust, tighten the triangle first, then work grips. The triangle prevents the torso rotation that defeats kimura mechanics.
-
-**Q7**: When is the optimal moment to initiate the kimura attack from rear triangle?
-**A**: The optimal moment is when the opponent commits to defending the triangle choke by tucking their chin and protecting their neck. This defensive posture leaves their trapped arm accessible and their focus elsewhere. Attempting the kimura while they are still fighting the triangle setup is premature—wait for choke defense commitment before transitioning.
-
-**Q8**: Your opponent begins rotating to face you during the kimura attempt - how do you respond?
-**A**: First, tighten your triangle legs and drive your chest into their back to resist the rotation. If rotation continues, you have two options: use the kimura grip to control their movement and reset to traditional back control with seatbelt, or accept the rotation and transition to mounted triangle position where your submission options expand. Never release the grip during rotation—it is your control handle.
-
-**Q9**: How does the kimura from back integrate with the triangle-armbar attack chain?
-**A**: The three attacks form a continuous cycle. Triangle choke is the primary threat; defending it by protecting the neck exposes the arm to kimura. If the opponent straightens their arm to defend kimura, they become vulnerable to armbar. If they bend and grip to defend armbar, the triangle tightens. Each defense opens another attack, creating a systematic dilemma that eventually breaks through.
-
-**Q10**: What distinguishes kimura from back from kimura applied from guard or side control?
-**A**: The back position eliminates standard kimura defenses. From guard, opponents can grab their thigh; from side control, they can grip the belt or bridge away. From back, the triangle pins their torso preventing rotation, and their trapped arm position prevents grabbing their own body effectively. Additionally, chest-to-back pressure maintains control that other positions lack, making the finish percentage significantly higher.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kimura from Back?</p>
 
 The kimura creates extreme rotational stress on the shoulder joint, specifically the rotator cuff muscles and glenohumeral capsule. Apply pressure slowly and continuously—never jerk or crank the submission. Give your training partner time to tap; shoulder injuries can occur within 1-2 seconds of proper pressure application. In training, release immediately upon any tap, verbal submission, or expression of discomfort. Be especially cautious with training partners who have previous shoulder injuries, as their range of motion and pain thresholds may be reduced. When drilling, establish clear communication about pressure levels before beginning. The combination of back control (which is disorienting) and shoulder lock can cause panicked reactions—be prepared to release if your partner tenses unexpectedly.
 

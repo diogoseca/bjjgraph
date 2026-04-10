@@ -609,7 +609,7 @@
         "attempt_probability": 9
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Lockdown",
         "attempt_probability": 4
       },
       {

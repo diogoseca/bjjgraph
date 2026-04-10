@@ -16,7 +16,7 @@ description: "How to execute Hindulotine to Darce Choke in BJJ. Attacking perspe
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Hindulotine to Darce Choke in BJJ",
-  "description": "Step-by-step guide for executing Hindulotine to Darce Choke from Hindulotine/Bottom.",
+  "description": "Step-by-step guide for executing Hindulotine to Darce Choke from Hindulotine/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -184,13 +184,15 @@ From the bottom Hindulotine position, the attacker recognizes the defensive fram
 
 Strategically, this transition exemplifies the modern submission hunting approach where attackers flow between related chokes based on defensive reactions. The Hindulotine and Darce share similar positional requirements and head control mechanics, making the transition natural once the pattern recognition develops. Advanced practitioners often set up this transition deliberately by applying guillotine pressure that they know will generate the defensive frame they need for the Darce entry.
 
-**From Position**: [[Positions/Hindulotine]] (Bottom)
+**From Position**: [[Positions/Hindulotine]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Hindulotine to Darce Choke?</p>
 
 - Recognize the defensive frame early and initiate transition before opponent can fully stabilize their defense
 - Maintain constant head control throughout the transition to prevent opponent from extracting and escaping
@@ -207,6 +209,8 @@ Strategically, this transition exemplifies the modern submission hunting approac
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hindulotine to Darce Choke?</p>
+
 - Established Hindulotine grip with opponent's head controlled and posture broken
 - Opponent creates defensive frame with near-side arm between their body and yours
 - Sufficient space under opponent's armpit to thread your choking arm through
@@ -219,6 +223,8 @@ Strategically, this transition exemplifies the modern submission hunting approac
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hindulotine to Darce Choke step by step?</p>
 
 1. **Recognize the defensive frame**: Identify when opponent creates a defensive frame with their near-side arm, positioning their elbow or forearm between their body and yours to relieve guillotine pressure. This frame is your trigger to initiate the Darce transition.
 2. **Secure head control with non-choking arm**: Keep your non-choking arm wrapped tightly around opponent's head and neck, clamping their head against your chest. This arm becomes the anchor that prevents them from posturing up or extracting while you change grips.
@@ -248,6 +254,8 @@ Strategically, this transition exemplifies the modern submission hunting approac
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hindulotine to Darce Choke?</p>
+
 - **Opponent immediately retracts defensive frame when sensing grip change** (Effectiveness: High) - Your Response: Immediately return to Hindulotine finish since their frame removal reopens the guillotine attack → Leads to [[Positions/Hindulotine]]
 - **Opponent turns into you and drives forward to flatten and pass** (Effectiveness: Medium) - Your Response: Use butterfly hooks to sweep them over while maintaining head control, or complete the Darce as they turn into the arm threading path → Leads to [[Positions/Closed Guard]]
 - **Opponent posts their free hand and creates distance to extract head** (Effectiveness: Medium) - Your Response: Follow their movement by hip escaping toward them while maintaining the grip, or transition to back take if they turn away exposing their back → Leads to [[Positions/Hindulotine]]
@@ -259,6 +267,8 @@ Strategically, this transition exemplifies the modern submission hunting approac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hindulotine to Darce Choke?</p>
 
 ### 1. Releasing head control during grip transition
 
@@ -298,6 +308,8 @@ Strategically, this transition exemplifies the modern submission hunting approac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hindulotine to Darce Choke (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics isolation
 Practice the grip transition from Hindulotine to Darce configuration without resistance. Focus on maintaining head control while releasing and rethreading. Partner remains static while you develop muscle memory for the arm threading path and figure-four lock.
 
@@ -315,54 +327,12 @@ Apply transition in live rolling starting from established Hindulotine positions
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that indicates you should transition from Hindulotine to Darce?
-**A**: The primary trigger is when your opponent creates a defensive frame with their near-side arm, positioning their elbow or forearm between their body and yours to relieve guillotine pressure. This frame inadvertently creates the arm-in configuration necessary for Darce mechanics, making the transition both timely and mechanically sound.
-
-**Q2**: What position do you start the Hindulotine to Darce Choke from?
-**A**: This technique starts from the Hindulotine position on the bottom. The key requirement is an established guillotine control with opponent's posture broken and their head controlled below your center of gravity, with your legs providing hip control through closed guard or butterfly hooks.
-
-**Q3**: What grip configuration do you need to establish for the Darce finish?
-**A**: You need to establish a figure-four grip where your choking arm threads under opponent's armpit, across the back of their neck, and your hand grabs your own bicep. Your other hand cups the back of opponent's head or shoulder. Elbows must be pinched tight together to eliminate gaps that would allow escape.
-
-**Q4**: Your opponent retracts their defensive frame as soon as they feel you release the guillotine grip - what adjustment do you make?
-**A**: Immediately return to the guillotine finish since their frame removal reopens the original attack. The frame retraction means they chose to accept guillotine pressure rather than Darce pressure, making the original submission viable again. This creates a dilemma where either choice benefits you.
-
-**Q5**: How deep must your arm threading penetrate for an effective Darce finish?
-**A**: Your threading arm must penetrate deep enough that your hand reaches past opponent's far shoulder before locking the figure-four grip. Shallow penetration near the shoulder provides insufficient leverage to close the choke against chin tuck defense. The deeper the arm threading, the more mechanical advantage you have for the finish.
-
-**Q6**: When is the optimal timing window to attempt the Hindulotine to Darce transition?
-**A**: The optimal timing is immediately when you feel opponent create a defensive frame with their near-side arm. The window is small - initiate transition before they can stabilize their defensive posture but after they commit to the frame. Acting too early means no arm-in configuration exists; acting too late allows them to establish stronger defense.
-
-**Q7**: What hip position creates maximum finishing pressure after completing the Darce grip?
-**A**: Position your hips perpendicular to opponent's spine rather than parallel. This angle allows you to generate rotational torque on the neck rather than relying on straight compression. Walk your hips toward opponent's head while pulling with your arms to create opposing forces that tighten the choke mechanism.
-
-**Q8**: Your opponent turns into you and drives forward during the transition - how do you capitalize?
-**A**: Their forward drive gives you energy for a butterfly sweep while maintaining head control. Hook your feet inside their thighs, load their weight onto your hooks as they drive, and elevate them over you. You can finish the Darce as they land in the new position, or complete the sweep and finish from top with superior leverage.
-
-**Q9**: What common mistake allows opponents to escape during the grip transition phase?
-**A**: Releasing head control during the grip transition allows opponent to posture up and extract their head. Your non-choking arm must maintain constant connection around opponent's head throughout the entire transition - never release this control even momentarily while rethreading your choking arm.
-
-**Q10**: How do you prevent telegraphing the transition to your opponent?
-**A**: Execute the transition as one smooth, continuous motion without hesitation. The release of guillotine grip and rethreading of the Darce arm should occur in a single beat. Avoid any pause or excessive repositioning that would alert opponent to the grip change. Practice until the movement feels like one technique rather than a sequence of steps.
-
-**Q11**: Your opponent blocks arm threading by pinching their elbow tight against their ribs - what is your response?
-**A**: Use your threading arm to apply inward pressure against their elbow while simultaneously adjusting your hip angle to create a better penetration path. If the block is strong, reapply guillotine pressure to force them to re-establish the frame, then reattempt the threading when the frame reappears. The guillotine threat is the tool that opens the Darce entry.
-
-**Q12**: What direction of force should your choking arm apply once the Darce grip is locked?
-**A**: Your choking arm should pull upward and toward your own body, creating a lifting action on the back of opponent's neck while your shoulder drives downward and forward into the side of their head. These opposing force vectors compress the carotid arteries from both sides simultaneously, creating the blood choke mechanism that produces the tap.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hindulotine to Darce Choke?</p>
 
 The Hindulotine to Darce transition involves choke mechanics that can become dangerous quickly once the grip is secured. Practice with controlled pressure, especially during the learning phase when timing and mechanics are still developing. Both the guillotine and Darce can restrict blood flow to the brain, so partners should tap early and practitioners should release immediately upon feeling a tap. Never continue applying pressure after a tap, even if you believe the choke was not tight. During drilling, communicate clearly about pressure levels and tap before discomfort becomes dangerous. The neck is vulnerable during transitions, so avoid explosive or jerky movements that could cause cervical spine injury. When rolling live, be aware that the transition creates a moment where neck position may be compromised if executed incorrectly.
 

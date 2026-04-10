@@ -188,6 +188,8 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook Guard Sweep?</p>
+
 - Establish the overhook deep on the lat or shoulder blade before initiating any sweep mechanics, as a shallow grip on the tricep will be stripped under pressure
 - Eliminate both posting options by controlling the opponent's free arm before committing to the sweep direction
 - Create hip angle toward the overhook side before driving, as sweeping from a flat position dissipates force and allows the opponent to base
@@ -202,6 +204,8 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook Guard Sweep?</p>
+
 - Deep overhook secured from closed guard with hand gripping opponent's lat muscle or shoulder blade and elbow pinned tight to the ribs
 - Opponent's posture broken with their weight distributed forward over the bottom player's torso
 - Free hand controlling opponent's opposite wrist, sleeve, or collar to prevent secondary posting
@@ -214,6 +218,8 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Overhook Guard Sweep step by step?</p>
 
 1. **Secure Deep Overhook**: From closed guard, thread your arm over and around the opponent's arm so your hand grips deep on their lat muscle or shoulder blade. Your elbow must be pinned tight against your ribs, not flaring outward. The deeper the grip, the harder it is for the opponent to extract their arm. Pull their shoulder down toward your chest to begin compromising their posture.
 2. **Break Opponent's Posture**: Use the overhook combined with your leg pressure to pull the opponent's upper body down and forward. Squeeze your knees together and pull your heels toward your glutes to compress their hips toward you. Simultaneously pull the overhook arm downward. The opponent should be unable to maintain an upright position with their weight loaded forward over your torso.
@@ -243,6 +249,8 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook Guard Sweep?</p>
+
 - **Opponent posts free hand wide to establish base before sweep initiates** (Effectiveness: High) - Your Response: Transition to triangle by shooting your overhook-side leg over their posting shoulder, as their arm extension creates the opening for the triangle entry → Leads to [[Positions/Overhook Guard]]
 - **Opponent drives weight forward aggressively to flatten you and prevent angle creation** (Effectiveness: Medium) - Your Response: Use their forward pressure to set up omoplata by redirecting their momentum with hip movement and threading your leg over their shoulder on the overhook side → Leads to [[Positions/Overhook Guard]]
 - **Opponent strips overhook by explosively circling their arm out and posturing up** (Effectiveness: High) - Your Response: Immediately transition to triangle or armbar as their arm extracts, using the pulling motion to shoot your hips up and attack the now-free arm before they re-establish posture → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook Guard Sweep?</p>
 
 ### 1. Shallow overhook grip around the opponent's tricep instead of deep on the lat or shoulder blade
 
@@ -293,6 +303,8 @@ The Overhook Guard Sweep is executed from closed guard bottom by leveraging a de
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook Guard Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Fundamental sweep motion and sequencing
 Practice the complete sweep sequence against a compliant partner at zero resistance. Focus on proper overhook depth, free arm control, hip angle creation, and follow-through to mount. Perform 20 repetitions per side with emphasis on smooth coordination between upper and lower body. Partner provides no resistance but maintains realistic weight distribution.
 
@@ -310,39 +322,12 @@ Positional sparring starting from overhook guard with full resistance. Bottom pl
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Overhook Guard Sweep?
-**A**: The optimal window is when the opponent's weight shifts forward over your torso, either naturally while attempting to establish posture or in response to your pulling pressure. At this moment their center of gravity is already displaced toward the sweep direction, requiring minimal additional force to complete the reversal. Attempting the sweep when the opponent sits back with their weight over their heels dramatically reduces success probability because you must first overcome their backward momentum.
-
-**Q2**: What conditions must exist before you commit to the sweep motion?
-**A**: Three conditions must be satisfied simultaneously: a deep overhook with your hand on the opponent's lat or shoulder blade and your elbow tight to your ribs; control of the opponent's opposite arm through wrist, sleeve, or collar grip to eliminate their secondary posting option; and a hip angle of approximately 45 degrees toward the overhook side created through hip escape. Missing any single condition allows the opponent to defend effectively. The setup is sequential but the sweep only works when all three elements are in place.
-
-**Q3**: What is the most critical mechanical detail that separates successful and failed overhook sweeps?
-**A**: The coordination between hip drive and overhook pull must be simultaneous rather than sequential. Many practitioners bridge their hips first and then pull the overhook, which gives the opponent time to react between the two forces. The sweep works when the hip drive upward and the overhook pull downward create a single rotational force at the same instant. This unified force overwhelms the opponent's base because they cannot address two directional forces simultaneously.
-
-**Q4**: Your opponent posts their free hand wide when they feel the sweep initiating - how do you adjust?
-**A**: Immediately abandon the sweep and transition to a triangle by shooting your overhook-side leg over their posting shoulder. Their hand posting creates the arm extension needed for triangle entry. Alternatively, if their posture lifts during the post, switch to a hip bump sweep using their elevated center of gravity against them. The key is recognizing the post within the first half-second and redirecting to a complementary attack rather than fighting through a defended sweep.
-
-**Q5**: What grip requirements differ between gi and no-gi versions of this sweep?
-**A**: The overhook itself functions identically in both contexts since it controls the arm through body positioning rather than fabric. The critical difference is the free hand control. In gi, a sleeve grip at the wrist or a collar grip behind the neck provides reliable control of the opposite arm. In no-gi, you must use a two-on-one wrist grip, cup behind the opponent's elbow, or control their head by cupping behind the neck. No-gi control requires more active maintenance because there is no fabric to anchor the grip.
-
-**Q6**: What is the correct direction of force during the sweep execution?
-**A**: The force is diagonal, not purely lateral or vertical. Your planted foot drives your hips upward and toward the overhook side simultaneously while your overhook pulls downward and toward the mat on the same side. This creates a rotational vector that tips the opponent over the trapped arm. Driving purely upward lifts the opponent without rotating them, while pulling purely sideways lacks the elevation to clear their base. The diagonal combination produces the efficient tumbling motion that completes the sweep.
-
-**Q7**: The sweep is blocked but you maintain overhook control - what chain attacks are available?
-**A**: From the maintained overhook with the established angle, you can transition to triangle by shooting your overhook-side leg over their shoulder, omoplata by threading your leg further over their arm and rotating your hips, hip bump sweep by sitting up into them when they shift weight backward, or back take by following their defensive rotation. Each chain attack exploits a specific defensive reaction: posting opens triangle, flattening opens omoplata, sitting back opens hip bump, and turning opens back take. The overhook remains the anchor point for all transitions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook Guard Sweep?</p>
 
 The Overhook Guard Sweep is a low-risk positional technique with no joint locks or chokes involved. Ensure controlled landings when completing the sweep to avoid dropping weight onto training partners. During drilling, the person being swept should allow the motion to complete smoothly rather than resisting at the tipping point, which can cause shoulder or elbow strain on the overhooked arm. The overhook itself creates shoulder pressure that should be monitored during extended drilling sessions. Release immediately if your partner signals discomfort in their shoulder.
 

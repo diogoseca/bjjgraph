@@ -216,7 +216,7 @@ The turtle to guard recovery is a critical link in the defensive chain, sitting 
 
 - [[Transitions/Hip Escape to Guard]] - Fundamental movement component used during rotation phase
 
-- [[Principles/Guard Recovery]] - Broader defensive concept this technique belongs to
+- [[Transitions/Rolling to Guard]] - Related guard recovery transition from turtle sharing defensive context
 
 - [[Transitions/Back Take from Top]] - Counter-technique opponent attempts during failed recovery
 

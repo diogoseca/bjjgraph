@@ -182,6 +182,8 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Drag Pass?</p>
+
 - Control the opponent's near leg with both hands to prevent recovery
 - Create an angle by dragging the leg across their centerline
 - Maintain heavy chest pressure to prevent re-guard
@@ -197,6 +199,8 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Drag Pass?</p>
+
 - Opponent is in seated guard, open guard, or butterfly position
 - At least one of opponent's legs is accessible and not locked in closed guard
 - Passer has established grip control on opponent's pant leg or ankle
@@ -210,6 +214,8 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Drag Pass step by step?</p>
 
 1. **Establish primary grip control**: From standing or combat base position facing open guard, establish a strong grip on the opponent's near-side pant leg at the knee or just below. Your opposite hand should control their collar, sleeve, or establish a post on their hip to prevent them from sitting up or establishing strong grips on you.
 2. **Break guard structure**: Step your near-side leg forward and drive your knee to the mat near their hip, cutting the angle. Simultaneously pull their controlled leg across their body's centerline while using your collar/sleeve grip to break their posture and prevent them from framing against your chest or face. This creates the fundamental 'drag' motion that gives the pass its name.
@@ -239,6 +245,8 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Drag Pass?</p>
+
 - **Opponent frames on your head/face to prevent chest connection** (Effectiveness: High) - Your Response: Swim your head under their frame while maintaining the leg drag control, or transition to a knee slice variation by cutting your knee across their bottom leg instead of maintaining the drag position → Leads to [[Positions/Open Guard]]
 - **Opponent establishes butterfly hook on dragged side to prevent pass completion** (Effectiveness: Medium) - Your Response: Address the butterfly hook immediately by using your free hand to strip it while increasing pressure on the trapped leg, or transition to a smash pass by flattening the butterfly hook with your shin and pressure → Leads to [[Positions/Open Guard]]
 - **Opponent turns away to turtle or gives their back defensively** (Effectiveness: Low) - Your Response: Accept the back exposure and transition directly to back control by establishing seat belt grips and inserting hooks. This is often considered a successful outcome as back control is superior to side control → Leads to [[Positions/Back Control]]
@@ -251,6 +259,8 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Drag Pass?</p>
 
 ### 1. Dragging the leg but failing to maintain chest pressure on it
 
@@ -290,6 +300,8 @@ The Leg Drag Pass is one of the most fundamental and high-percentage guard passi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Drag Pass (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Basic leg drag motion and body positioning
 Start from static positions with cooperative partner in seated guard. Practice the fundamental drag motion slowly, focusing on proper grip placement, chest pressure on the trapped leg, and the circular hip movement. Partner offers zero resistance. Drill 20-30 repetitions per side each session, emphasizing the feeling of pinning the leg with body weight rather than just holding with arms.
 
@@ -310,54 +322,12 @@ Incorporate the leg drag into full-resistance rolling. Use position-specific spa
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes the leg drag pass effective?
-**A**: The leg drag creates a structural collapse by removing one of the opponent's legs from their centerline and pinning it across their body. This eliminates their ability to create frames, insert hooks, or generate the hip mobility necessary for guard retention. By dragging the leg across rather than simply pushing it aside, the passer creates an angle where the opponent's legs work against each other rather than coordinating defensive movements. This positional disruption is what allows the passer to safely circle to the back or side without facing offensive threats.
-
-**Q2**: Why is maintaining chest pressure on the trapped leg crucial throughout the entire leg drag sequence?
-**A**: Chest pressure on the trapped leg serves multiple critical functions: it prevents the opponent from pulling the leg back to their centerline to recover guard, it creates a pin that makes their leg feel 'dead' or immobile, it allows the passer to use body weight rather than arm strength for control (making the pass more efficient), and it keeps the passer's base low and stable making sweeps difficult. Without consistent chest pressure, the leg drag becomes merely a temporary leg grip that can be easily escaped.
-
-**Q3**: What should you do if your opponent establishes a strong frame on your face during the leg drag?
-**A**: There are two primary solutions: First, you can swim your head underneath their frame toward the mat while maintaining the leg drag control with your arm and chest, essentially ducking under their frame. Second, you can transition to a knee slice variation by releasing the drag position and cutting your knee across their bottom leg, using your shoulder to drive through their frame instead of your head. Both solutions maintain forward passing pressure while addressing the frame obstacle. The key is to never abandon the leg control or allow the frame to create enough space for guard recovery.
-
-**Q4**: How does the leg drag differ from other guard passes in terms of weight distribution and body positioning?
-**A**: Unlike stack passes or pressure passes where weight is directed straight down through the opponent's center mass, the leg drag requires an angular, circular weight distribution. The passer's chest pressure is diagonal across the trapped leg rather than directly vertical. The hips must remain mobile and capable of circling rather than being posted in a static position. This creates a dynamic pass where the passer is constantly moving around an axis (the trapped leg) rather than driving through a fixed point. The body positioning is lower and tighter to the opponent compared to long-step or toreando passes, but more mobile than smash or knee slice variations.
-
-**Q5**: When should you transition from attempting the leg drag to accepting a back take opportunity?
-**A**: You should immediately transition to back control when the opponent turns their shoulders away from you in an attempt to prevent the side control finish. This typically happens as you're circling toward their back and they recognize the pass is succeeding. Rather than forcing the completion to side control, recognize that their defensive turn has exposed their back, and immediately establish seat belt control (one arm over shoulder, one under armpit) and begin inserting hooks. This is often considered the ideal outcome of a leg drag as back control is a superior position. The key recognition point is seeing their chest turn away from you rather than staying square or turning into you.
-
-**Q6**: What are the most common grip configurations for initiating a leg drag, and when would you use each?
-**A**: The most common configurations are: (1) Same-side pant grip at the knee with opposite hand controlling collar or sleeve - most standard for gi, provides good control of upper and lower body; (2) Two-hands-on-one-leg grip - used when opponent is strongly defending and you need maximum leg control before initiating the pass; (3) Ankle/foot grip with opposite hand framing the hip - common in no-gi where pant grips aren't available, requires faster execution; (4) Knee grip with opposite hand underhooking their same-side arm - creates upper body control that prevents sit-ups and frames. The choice depends on gi vs no-gi, opponent's guard style, and your preferred passing strategy.
-
-**Q7**: Your opponent begins inserting a butterfly hook as you initiate the drag - what immediate adjustment prevents guard recovery?
-**A**: The moment you feel the butterfly hook beginning to insert, you must immediately increase downward pressure on the trapped leg while using your free hand to strip or flatten the hooking foot. Drive your shin across their thigh to pin the butterfly hook flat to the mat rather than allowing it to elevate under your hip. If the hook gets too deep, transition to a smash passing approach by driving your shoulder into their chest while using your shin to flatten both of their legs. The critical timing window is the first second of hook insertion - once established, the butterfly hook creates significant sweep and retention threats.
-
-**Q8**: What is the optimal direction of force when executing the initial drag motion?
-**A**: The force should be applied diagonally across the opponent's centerline toward their opposite shoulder, not simply laterally across their body. This diagonal vector creates maximum disruption to their guard structure because it simultaneously removes the leg from their centerline AND creates rotational momentum that turns their hips away from you. The pull should accelerate as it crosses their centerline, reaching maximum speed when the leg is fully across. Pulling straight laterally (parallel to their shoulders) allows them to rotate their hips toward you and recover, while the diagonal pull turns their hips away and opens the path to their back.
-
-**Q9**: What entry requirements must exist before you can successfully initiate a leg drag pass?
-**A**: Four conditions must be present: (1) You have won the initial grip battle, establishing control of at least one leg while preventing their dominant sleeve/collar grips; (2) Opponent's guard is open with legs not locked in closed guard position; (3) Your base is stable with hips positioned to drive forward without vulnerability to sweeps; (4) Opponent has committed weight or attention to one side, creating an opening on the drag side. Attempting the leg drag without these prerequisites results in failed attempts, wasted energy, or exposure to sweeps and guard retention sequences.
-
-**Q10**: If your leg drag attempt is blocked and you cannot complete the pass, what chain attacks maintain your passing pressure?
-**A**: The primary chains are: (1) Transition to knee slice pass by cutting your knee across their bottom leg when they successfully frame against the drag; (2) Switch to toreando pass by releasing the drag, gripping both pant legs, and throwing their legs to the opposite side; (3) Convert to a long step pass by stepping over their bottom leg while maintaining collar control; (4) Accept headquarters position by backing out slightly while maintaining leg control, resetting to threaten multiple passing options. The key principle is never returning to neutral - every blocked attempt should flow into another passing threat rather than disengaging completely.
-
-**Q11**: How do you recognize the optimal timing window to initiate a leg drag against an active guard player?
-**A**: The optimal windows occur when: (1) Opponent reaches for grips, momentarily removing their defensive frames; (2) They attempt to create distance by pushing with feet on hips, extending their legs into range for the drag; (3) They shift weight to one hip while attempting a sweep or guard transition; (4) They look away or become mentally focused on setting up their own attack. The common thread is opponent commitment to action that temporarily compromises their guard retention structure. Elite passers develop the ability to bait these reactions through feints and pressure changes, creating timing windows rather than waiting for them.
-
-**Q12**: What are the specific grip requirements on the controlled leg, and why does grip placement matter?
-**A**: The primary grip should be at the knee or just below on the pant leg, not at the ankle or foot. Knee-level grip provides maximum mechanical leverage for the drag motion while allowing your forearm to control the direction of the leg. Ankle grips offer less control over the leg's trajectory and allow the opponent more freedom to bend their knee and recover. The grip strength should be firm but not death-grip tight - excessive tension wastes energy and reduces your ability to transition the grip as needed. Your thumb should be on the inside of the pant leg for gi, or hooking behind the knee for no-gi, creating a secure connection that doesn't slip during the drag motion.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Drag Pass?</p>
 
 The leg drag pass is generally one of the safer guard passing techniques for both practitioners when executed properly. However, several safety considerations should be observed. Avoid driving your head or shoulder into your training partner's face with excessive force, as this can cause neck injuries or facial trauma. When establishing chest pressure on the trapped leg, be mindful of knee torque - the leg should be dragged across the body's centerline without twisting the knee joint in dangerous angles. During drilling, communicate with your partner about pressure levels, especially when learning to establish heavy chest pressure. Partners defending the leg drag should avoid posting with extended arms as this can lead to wrist, elbow, or shoulder injuries when the passer's weight collapses the frame. Beginners should start with slow, controlled repetitions before adding speed and dynamic movement. When the pass is completed and opponent is flattened, be conscious of rib and chest pressure - effective control doesn't require crushing pressure that prevents breathing.
 

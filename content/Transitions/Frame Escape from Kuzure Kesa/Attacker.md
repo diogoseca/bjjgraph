@@ -188,6 +188,8 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame Escape from Kuzure Kesa?</p>
+
 - Frame with skeletal structure, not muscular pushing—use forearm bones against opponent's hip and shoulder to create mechanical barriers
 - Time hip escapes to coincide with opponent's weight shifts or adjustment moments, not against peak pressure
 - Maintain trapped arm defense throughout the escape—never sacrifice arm position for space creation
@@ -203,6 +205,8 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame Escape from Kuzure Kesa?</p>
+
 - Free arm positioned with elbow close to body, ready to establish forearm frame against opponent's hip
 - Trapped arm bent at approximately 90 degrees with elbow tight to ribs to prevent armbar or americana
 - Hips angled slightly toward opponent rather than completely flat on mat to enable shrimping motion
@@ -215,6 +219,8 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame Escape from Kuzure Kesa step by step?</p>
 
 1. **Establish Defensive Frame**: Position your free forearm against the opponent's near hip bone, creating a structural wedge between their body and yours. Your elbow should be tight to your ribs with the frame angled to redirect their pressure rather than opposing it directly. Use the bone of your ulna as the contact surface.
 2. **Protect Trapped Arm**: Ensure your trapped arm is bent at 90 degrees with your elbow clamped tight to your ribs. Maintain slight internal rotation at the shoulder to prevent the americana finishing angle. This arm position must be maintained throughout the entire escape sequence without exception.
@@ -244,6 +250,8 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame Escape from Kuzure Kesa?</p>
+
 - **Opponent increases hip pressure and drops chest weight to collapse framing space** (Effectiveness: High) - Your Response: Switch to bridge-and-roll attempt when frames cannot be maintained, using their forward pressure commitment against their base stability → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
 - **Opponent slides knee across belly to transition to mount when hip escape creates space** (Effectiveness: High) - Your Response: Immediately turn hips toward opponent and drive inside knee between bodies to block their knee from crossing, prioritizing mount prevention over escape completion → Leads to [[Positions/Mount]]
 - **Opponent attacks trapped arm with americana or armbar when attention shifts to framing** (Effectiveness: Medium) - Your Response: Immediately abandon frame and return to two-arm trapped arm defense, resetting the escape sequence after the submission threat passes → Leads to [[Positions/Side Control/Kuzure Kesa-Gatame]]
@@ -255,6 +263,8 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame Escape from Kuzure Kesa?</p>
 
 ### 1. Pushing opponent away with extended straight arms instead of using structural forearm frames
 
@@ -299,6 +309,8 @@ Executing the frame escape from Kuzure Kesa-Gatame requires understanding the pr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame Escape from Kuzure Kesa (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Structural framing technique
 Practice establishing and maintaining forearm frames against opponent's hip from Kuzure Kesa position with no resistance. Focus on skeletal alignment, elbow positioning, and pressure angles. Partner provides static weight for frame testing.
 
@@ -319,39 +331,12 @@ Alternate between frame escape and bridge-and-roll attempts based on opponent's 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct angle for your bridge when initiating the frame escape sequence?
-**A**: Bridge at a 45-degree angle toward the opponent's posting leg rather than straight upward. This attacks their base structure and creates directional space for the subsequent hip escape. A vertical bridge merely lifts them temporarily without generating useful space, as they simply settle back down when you land.
-
-**Q2**: Your opponent increases hip pressure when you establish your frame - how should you adjust?
-**A**: Do not fight the increased pressure directly with your frame. Instead, wait for them to shift weight for a submission attempt or positional adjustment, then use that timing window to execute your hip escape. If they maintain constant heavy pressure without shifting, switch to a bridge-and-roll attempt to force them to address a different threat that disrupts their pressure pattern.
-
-**Q3**: What position must your trapped arm maintain throughout the escape and why?
-**A**: The trapped arm must stay bent at approximately 90 degrees with the elbow clamped tight to your ribs and slight internal shoulder rotation. This prevents both the armbar finish which requires arm extension and the americana finish which requires the arm to collapse against the body. Maintaining this position is non-negotiable even if it means pausing the escape.
-
-**Q4**: How many hip escape increments should you chain together and why not attempt one large movement?
-**A**: Chain two to three smaller hip escapes with frame readjustments between each increment. A single large explosive movement is easily followed by the opponent who simply closes the distance. Incremental escapes with frame preservation accumulate space that the opponent cannot recover, as each increment is protected by the frame before the next movement begins.
-
-**Q5**: When during the escape sequence should you insert your knee and what happens if you delay?
-**A**: Insert your knee immediately once approximately six inches of space exists between your body and the opponent. Any delay allows the opponent to re-close this distance, erasing all escape progress. The knee insertion is the commitment point of the escape because once established it creates a structural barrier far more difficult for the opponent to remove than the arm frame alone.
-
-**Q6**: Your opponent begins sliding their knee across your belly during your hip escape - what is the immediate priority?
-**A**: Abandon the escape and immediately address the mount transition. Turn your hips toward the opponent and drive your inside knee between your bodies to block their knee from crossing. Preventing mount takes absolute priority over completing the escape, as mount is a significantly worse position than Kuzure Kesa-Gatame. Restart the escape attempt once the mount threat is neutralized.
-
-**Q7**: What grip does your framing arm use against the opponent's hip?
-**A**: No grip is used. The frame is a forearm-to-hip contact using the bone of your ulna pressed against their hip bone or belt line. Gripping wastes energy through muscular contraction and reduces the structural efficiency of the frame. The forearm acts as a rigid strut maintained by skeletal alignment rather than grip strength, which is essential for sustainability under prolonged pressure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame Escape from Kuzure Kesa?</p>
 
 The primary safety concern during this escape involves the trapped arm. Never allow the trapped arm to extend during framing or hip escape attempts, as this creates immediate armbar risk. If the opponent aggressively attacks a submission during the escape, immediately abandon the escape and address the submission threat. Tap promptly if any shoulder lock reaches full extension before you can reset your defensive arm position. During training, communicate with your partner about pressure levels and trapped arm comfort to prevent unnecessary shoulder or elbow injuries.
 

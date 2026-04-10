@@ -188,6 +188,8 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Anaconda to Side Control?</p>
+
 - Break the opponent's base completely before initiating the roll — rushing the roll against a posted hand leads to failed transitions and potential reversals
 - Maintain maximum grip tightness throughout the entire rotation by squeezing elbows together and keeping chest connected to the opponent's shoulder
 - Commit fully to the rolling motion once initiated — hesitation mid-roll is the primary cause of failed transitions and position loss
@@ -202,6 +204,8 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Anaconda to Side Control?</p>
+
 - Anaconda grip locked with gable or S-grip, arm threaded under opponent's near arm and around neck with hands clasped on far side
 - Chest pressure driving into opponent's trapped shoulder with at least 70% of body weight forward through upper body connection
 - Opponent's posture broken with head pulled down and forward, preventing them from lifting their head to create space
@@ -214,6 +218,8 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Anaconda to Side Control step by step?</p>
 
 1. **Confirm Grip Integrity**: Before initiating any movement, verify that your anaconda grip is locked tight with a gable grip or S-grip configuration. Squeeze your elbows together and confirm that the opponent's near arm is trapped inside the loop. Your choking forearm should be positioned across the side of their neck with their shoulder creating the opposite pressure point. If the grip has any slack, tighten it before proceeding.
 2. **Walk Hips to Choking Arm Side**: Circle your hips laterally toward your choking arm side while maintaining heavy chest pressure on the opponent's trapped shoulder. Use small steps to walk your feet around, keeping your chest connected throughout the hip adjustment. This positioning creates the necessary angle for the forward roll by aligning your center of gravity with the intended rolling trajectory. Your hips should end up at approximately a 45-degree angle relative to the opponent's spine.
@@ -243,6 +249,8 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Anaconda to Side Control?</p>
+
 - **Opponent posts far hand firmly on the mat to block the roll** (Effectiveness: High) - Your Response: Strip the posting hand by reaching under with your free hand and pulling their wrist toward you, or redirect your pressure to collapse their posting arm before re-attempting the roll. Alternatively, switch to the walk-around variant if the post is too strong to break. → Leads to [[Positions/Anaconda Control]]
 - **Opponent sprawls legs back and drives hips away during the step-over** (Effectiveness: Medium) - Your Response: Follow their hip movement by walking your own hips further to maintain the rolling angle. Their sprawl actually compromises their base forward, so use the momentum shift to snap them down and re-attempt the roll from a flatter position. Maintain continuous chest pressure throughout. → Leads to [[Positions/Anaconda Control]]
 - **Opponent times the roll and scrambles to top position during the rotation** (Effectiveness: High) - Your Response: If you feel the opponent gaining top position during the roll, immediately release the anaconda grip and establish defensive frames to prevent being pinned. Work to insert a knee shield and recover half guard. Prevention is better — only initiate the roll when their base is fully compromised. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Anaconda to Side Control?</p>
 
 ### 1. Initiating the roll before walking hips to the correct angle
 
@@ -293,6 +303,8 @@ As the attacker executing the Anaconda to Side Control transition, your objectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Anaconda to Side Control (Attacker)?</p>
+
 **Phase 1: Solo Rolling Mechanics** - Forward roll trajectory and body coordination
 Practice forward shoulder rolls on the mat without a partner, focusing on the rolling trajectory from the choking arm side. Develop comfort with the rotational motion and landing position. Execute 20 rolls per side, emphasizing smooth controlled rotation and immediate chest-down landing position.
 
@@ -310,39 +322,12 @@ Start from established anaconda control with full resistance. Top player works t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip angle relative to the opponent's spine before initiating the gator roll?
-**A**: Your hips should be positioned at approximately 45 degrees relative to the opponent's spine on the choking arm side. This angle aligns your center of gravity with the intended rolling trajectory, ensuring that the forward roll carries both you and the opponent through the full rotation efficiently. Walking your hips too far past this angle makes the roll awkward and disconnected, while insufficient angle results in a lateral roll that stalls mid-rotation.
-
-**Q2**: What conditions must exist before you can safely commit to the gator roll?
-**A**: Three conditions must be confirmed before initiating the roll: the anaconda grip must be locked tight with no slack in the loop, the opponent's posture must be broken with their head pulled down preventing them from lifting and creating space, and the opponent's far hand must be unable to post effectively on the mat. If any of these conditions are not met, the roll has a high probability of failure. The grip tightness is especially critical because any looseness during rotation allows the opponent to extract their head or arm mid-roll.
-
-**Q3**: What is the most critical mechanical detail during the rolling phase of this transition?
-**A**: The most critical detail is maintaining maximum grip tightness by squeezing your elbows together throughout the entire rotation. The centrifugal force of the roll naturally wants to pull the grip apart, so you must actively counteract this by driving your elbows toward each other during the entire rotation. Your balance and directional control come from hip positioning and leg mechanics, not from releasing your grip to post hands on the mat. Any grip loosening during the roll compromises both the positional transition and the submission threat.
-
-**Q4**: Your opponent posts their far hand firmly on the mat as you begin the step-over — how do you adjust?
-**A**: Abort the roll immediately and address the posting hand before re-attempting. Reach under with your free hand to strip their wrist by pulling it toward you and across their body, eliminating their base. Alternatively, drive additional shoulder pressure laterally to collapse their posting arm. If the post is too strong to break, switch to the walk-around variant where you circle your hips around their head into side control without the rolling commitment. Never force the roll against an established post — it has a high failure rate and risks position loss.
-
-**Q5**: What grip configuration provides the best integrity during the rolling motion?
-**A**: The gable grip (palm-to-palm with fingers pointing in opposite directions) provides the strongest structural integrity during the roll because it distributes rotational force across both hands and wrists equally. The S-grip (fingers interlocked) is an acceptable alternative but provides slightly less resistance to the centrifugal forces of the roll. Avoid the figure-four grip for this specific transition because the rotational forces can cause the grip to pop open at the wrist connection point. Whichever grip you use, keep your forearms pressed together throughout to reinforce the lock.
-
-**Q6**: How do you decide whether to maintain the anaconda grip or release to standard side control upon landing?
-**A**: Assess grip tightness immediately upon landing. If the anaconda loop remains tight with your forearm pressing against the opponent's carotid and their trapped arm still creating counter-pressure, maintain the grip and threaten the choke from side control — this creates a dual threat of submission and positional dominance. If the grip has loosened during the roll or the opponent has partially extracted their head, release the anaconda grip smoothly and transition to standard side control controls with crossface and underhook. Attempting to re-tighten a compromised grip wastes time and delays consolidation.
-
-**Q7**: Your opponent begins to scramble during the roll and you feel them gaining top position — what is your immediate response?
-**A**: If you sense the opponent gaining top position during the rotation, immediately release the anaconda grip and use both hands to establish defensive frames against their chest and shoulders. Pull your elbows tight to your body and work to insert a knee between your bodies for half guard recovery. The priority shifts from offense to defense the moment you lose positional advantage during the roll. Do not continue holding the anaconda grip while being swept, as it compromises your ability to frame and recover. Accept the position loss and reset to half guard rather than fighting a losing battle mid-roll.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Anaconda to Side Control?</p>
 
 The gator roll involves significant rotational force on the neck, spine, and shoulder of the bottom player. Always practice at controlled speed before adding explosive intensity. Partners should establish clear verbal and tactile tap signals before drilling, as the rolling motion can temporarily disorient the bottom player. Avoid explosive rolls with training partners who are significantly lighter, as the momentum differential can cause uncontrolled landings and neck compression. Release the anaconda grip immediately if your partner signals distress at any point during the transition. Be particularly careful when maintaining the anaconda grip through the roll, as the tightening effect of the rotation can produce choking pressure that escalates faster than expected.
 

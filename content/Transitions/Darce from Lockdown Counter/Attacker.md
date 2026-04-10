@@ -186,6 +186,8 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Darce from Lockdown Counter?</p>
+
 - Recognize the Darce opportunity when opponent commits deeply to the underhook during Electric Chair attack
 - Thread your arm across opponent's neck before they can retract their underhooking arm
 - Use opponent's own pulling motion to assist your arm threading across the neck
@@ -201,6 +203,8 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Darce from Lockdown Counter?</p>
+
 - Opponent has established Electric Chair position from lockdown bottom with deep underhook
 - Your trapped leg is still in the lockdown but you maintain upper body mobility
 - Opponent's head is accessible on the underhook side without obstruction
@@ -214,6 +218,8 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Darce from Lockdown Counter step by step?</p>
 
 1. **Recognize the window**: As opponent extends for the Electric Chair, note when their underhook reaches deeply across your back and their head drops toward your hip, creating the neck exposure needed for Darce entry.
 2. **Thread the choking arm**: Bring your nearside arm across opponent's neck, threading it over their far shoulder and under their near armpit. Your bicep should press against one side of their neck while your forearm threatens the other side.
@@ -242,6 +248,8 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Darce from Lockdown Counter?</p>
+
 - **Opponent immediately releases underhook and frames on your bicep to create distance before you can connect the Darce grip** (Effectiveness: High) - Your Response: If they release early, immediately transition to passing the now-weakened lockdown guard since their primary control is gone. Use knee slice or smash pass. → Leads to [[Positions/Half Guard/Electric Chair]]
 - **Opponent tucks chin tightly and turns into you, preventing the arm from threading across their neck** (Effectiveness: Medium) - Your Response: Switch to anaconda grip by threading under their neck instead of over, or transition to arm triangle setup by driving their arm across their own face. → Leads to [[Positions/Half Guard/Electric Chair]]
 - **Opponent rolls toward you to relieve choke pressure and attempts to come on top** (Effectiveness: Medium) - Your Response: Follow the roll, maintaining the Darce grip. The roll often tightens the choke. If they complete the roll, you can finish from top position with better leverage. → Leads to [[Positions/Half Guard]]
@@ -252,6 +260,8 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Darce from Lockdown Counter?</p>
 
 ### 1. Attempting the Darce before opponent fully commits to the underhook
 
@@ -286,6 +296,8 @@ From a strategic perspective, having this counter in your arsenal changes the dy
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Darce from Lockdown Counter (Attacker)?</p>
+
 **Week 1-2** - Arm threading mechanics
 Practice Darce arm threading from neutral positions without lockdown. Focus on proper angle, grip connection, and shoulder pressure. Partner provides no resistance while you develop muscle memory for the arm configuration.
 
@@ -303,48 +315,12 @@ Positional sparring starting from Electric Chair position. Top player works Darc
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Darce from Lockdown Counter?
-**A**: The primary goal is to transform a defensive position (being trapped in Electric Chair) into an offensive submission threat. By attacking the Darce choke, you force the bottom player to abandon their lockdown controls to defend, either submitting them or creating an opportunity to escape and pass.
-
-**Q2**: What position do you start Darce from Lockdown Counter from?
-**A**: This technique starts from Electric Chair Top, specifically when your opponent has you in the lockdown from half guard bottom and is attacking with the Electric Chair position. Your leg is trapped in their lockdown and they have a deep underhook reaching across your back.
-
-**Q3**: What are the key grips needed for Darce from Lockdown Counter?
-**A**: The key grip is the Darce figure-four configuration: your choking arm threads across opponent's neck (over their far shoulder, under their near armpit) and connects to your opposite bicep. Your free hand then cups behind your choking arm's elbow or grabs your own wrist. Gable grip variation also works.
-
-**Q4**: How do you counter Darce from Lockdown Counter?
-**A**: Primary counters include: immediately releasing the underhook and framing to create distance before the grip connects, tucking the chin and turning into the opponent to prevent arm threading, or rolling toward the opponent to relieve pressure (though this can tighten the choke if done poorly).
-
-**Q5**: When is the best time to attempt Darce from Lockdown Counter?
-**A**: The optimal timing is when the opponent fully commits to their underhook during the Electric Chair extension. When their arm reaches deeply across your back and their head drops toward your hip, they cannot quickly retract their arm, creating the perfect window for Darce entry.
-
-**Q6**: Your opponent feels the Darce coming and starts to retract their underhook - what do you do?
-**A**: If they retract early, immediately abandon the Darce and transition to passing their now-weakened guard. Their primary lockdown control (the deep underhook) is compromised. Use knee slice pass or smash pass before they can re-establish grips. The Darce threat accomplished its goal of breaking their control.
-
-**Q7**: What is the critical hip and shoulder movement during the finishing sequence?
-**A**: During the finish, sprawl your hips back and down while driving your shoulder into the side of opponent's head. Walk your body perpendicular to theirs, ending at a 90-degree angle. Squeeze your elbows together and drive your sprawling hip toward the mat. This combination maximizes pressure on the carotid arteries.
-
-**Q8**: How should you position your legs during the Darce attempt while still in the lockdown?
-**A**: Use your free leg to hook opponent's hip or post on the mat for base. Even with one leg trapped in lockdown, hip control prevents opponent from rolling away or creating distance. Prioritize stopping their hip movement over immediately extracting your trapped leg - the choke can finish with your leg still locked.
-
-**Q9**: Your Darce grip is connected but opponent rolls toward you - how do you respond?
-**A**: Follow the roll while maintaining your Darce grip. Often the roll actually tightens the choke rather than relieving it. If they complete the roll and you end up on bottom, you can still finish the Darce from guard position. If you end up on top, you have superior finishing position with gravity assisting the choke.
-
-**Q10**: What distinguishes a properly placed Darce from a neck crank?
-**A**: A properly placed Darce has the crook of your elbow positioned at the front of opponent's throat, compressing the carotid arteries bilaterally. If your grip is too high (on the jaw), you're cranking the neck rather than choking. Always check that your arm threading goes across the neck at throat level, not jaw level.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Darce from Lockdown Counter?</p>
 
 The Darce choke creates significant pressure on the neck and can cause unconsciousness rapidly when applied correctly. Partners should tap early and often during training, and the person applying the choke must release immediately upon tap. When drilling, apply the choke slowly and give your partner time to tap before full pressure is achieved. The transition from Electric Chair involves potential torque on the trapped knee - be mindful not to explosively change position while your leg is in the lockdown. If practicing with newer training partners, communicate clearly about the choke's power and watch for signs of a blood choke taking effect (face color change, going limp) even before they tap.
 

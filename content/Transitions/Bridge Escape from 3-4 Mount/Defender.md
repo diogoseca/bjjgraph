@@ -154,6 +154,8 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from 3-4 Mount?</p>
+
 - Bottom player plants one or both feet flat on the mat close to their hips, shifting from a flat-back passive position to a loaded bridge stance
 - Bottom player grabs your wrist, sleeve, or tricep on the posted-leg side, attempting to trap your primary posting arm against their body
 - Bottom player turns their head toward the posted-leg side, indicating the intended direction of the bridge roll before initiating
@@ -166,6 +168,8 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from 3-4 Mount?</p>
 
 - Maintain heavy chest pressure with forward lean to reduce the bottom player's ability to generate explosive bridge power from their hips
 - Keep your posted-side hand free and ready to post on the mat immediately when you feel bridge initiation through rising hip pressure
@@ -180,6 +184,8 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from 3-4 Mount?</p>
 
 ### 1. Post free hand on the mat on the escape side as soon as you feel the bridge initiate
 
@@ -217,6 +223,8 @@ Defending the bridge escape from 3-4 mount top requires understanding the specif
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from 3-4 Mount?</p>
+
 ### → [[Positions/Mount/3-4 Mount]]
 
 Maintain forward chest pressure with weight distributed through hips, keep the posted-side arm free for posting, and drive the mounted-side knee into the opponent's armpit as a wedge. When you feel the bridge initiate, immediately post your free hand to create a tripod base that absorbs the rotational force. After stopping the bridge, re-consolidate your mount control and begin attacking to prevent another attempt.
@@ -232,6 +240,8 @@ If the bridge partially disrupts your 3-4 mount base, use the opponent's turning
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from 3-4 Mount?</p>
 
 ### 1. Sitting upright with weight distributed through knees instead of forward through chest and hips
 
@@ -261,6 +271,8 @@ If the bridge partially disrupts your 3-4 mount base, use the opponent's turning
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from 3-4 Mount?</p>
+
 **Phase 1: Recognition Drilling** - Identifying bridge setup cues before execution
 Partner in bottom mount slowly performs bridge setup steps (plant feet, grip arm, turn head) while you practice identifying each cue verbally and physically responding with increased pressure or arm withdrawal. Build pattern recognition without full-speed execution.
 
@@ -277,26 +289,6 @@ Three-minute rounds starting in 3-4 mount with the bottom player attempting any 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a bridge escape is being loaded from 3-4 mount bottom?
-**A**: The earliest cue is the opponent planting their feet flat on the mat close to their hips. This foot repositioning precedes all other bridge setup elements—arm trapping, head turning, and core loading all follow after the feet are positioned. Recognizing this cue gives you the maximum reaction window to preemptively increase forward pressure, control their arms, or adjust your weight distribution before the bridge develops.
-
-**Q2**: Your opponent successfully traps your posting arm against their chest. What is your immediate response to prevent the reversal?
-**A**: Immediately drive your chest weight forward and down to maximize pressure on their diaphragm, reducing their ability to generate upward bridge force. Simultaneously drive your mounted-side knee deeper into their armpit to create a wedge that resists the turning motion. If you cannot free the trapped arm, be prepared to transition to side control or knee on belly with the bridge rather than fighting the reversal from a compromised base. Flowing to a different top position is better than being fully reversed.
-
-**Q3**: How does your defensive strategy against bridge escapes differ in 3-4 mount versus traditional symmetric mount?
-**A**: In 3-4 mount, you must specifically protect the posted-leg side because it is structurally weaker—this is the predictable escape direction. In symmetric mount, bridges can come toward either side equally, requiring balanced defense. In 3-4 mount, concentrate your posting readiness and arm protection on the posted-leg side specifically. Additionally, the hip-switching counter that consolidates to full mount is uniquely available in 3-4 mount because you already have one leg in transition position.
-
-**Q4**: When should you abandon 3-4 mount defense and transition to a different top position during a bridge attempt?
-**A**: Transition when you feel your base breaking and your center of gravity shifting past the recovery point—typically when the bridge has lifted your hips above the opponent's centerline and you cannot post effectively. At this point, fighting the reversal wastes energy and risks a complete reversal. Instead, flow with the momentum to side control, north-south, or knee on belly. The decision point is whether you can still post and recover versus whether the bridge has already displaced you beyond your base of support.
-
-
-
-</section>
 
 
 </main>

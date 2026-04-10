@@ -192,6 +192,8 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Straight Ankle Lock Entry?</p>
+
 - Use hip elevation from grasshopper to generate the lateral movement needed to capture the ankle
 - The outside leg crosses the opponent's hip line first to block their retreat before the inside leg secures the hook
 - Maintain shoulder contact with the mat throughout the entry to preserve your base and rotation ability
@@ -207,6 +209,8 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Straight Ankle Lock Entry?</p>
+
 - Grasshopper guard established with shoulders on mat and hips elevated above torso level
 - At least one leg maintaining active contact with opponent's lower body via hook or shin pressure
 - Opponent standing or in low combat base with at least one foot within reach of your inverted legs
@@ -220,6 +224,8 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Straight Ankle Lock Entry step by step?</p>
 
 1. **Identify the target ankle**: From grasshopper guard with hips elevated, identify which of the opponent's feet is closest to your body and bearing the most weight. This lead foot becomes your primary target because it cannot easily retract without the opponent losing balance.
 2. **Shoot outside leg across hip line**: Drive your outside leg (the leg furthest from the target ankle) across the opponent's hip line, placing your foot on their far hip. This leg acts as a barrier preventing them from stepping backward or circling away from your entry attempt.
@@ -250,6 +256,8 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Straight Ankle Lock Entry?</p>
+
 - **Opponent immediately back steps and circles away before you can capture the ankle, using distance to deny your entry** (Effectiveness: High) - Your Response: Anticipate the back step and follow with a re-inversion roll in the same direction. As they circle, your rolling momentum carries your legs into Outside Ashi-Garami on their retreating leg, converting the failed ankle lock attempt into a different leg entanglement → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **Opponent drives forward with a stack pass, folding your inverted body and collapsing your hip elevation before you complete the entry** (Effectiveness: High) - Your Response: Use the forward pressure for a Granby roll to recover closed guard or seated guard. If the stack develops slowly, convert to an X-Guard entry by hooking both feet into their hips and using their forward drive as sweep momentum → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent strips your ankle grip by pushing your hands off and pulling their foot free while your legs are still establishing the figure-four** (Effectiveness: Medium) - Your Response: If the grip is broken before the figure-four is locked, immediately transition to a kneebar attack on the same leg. The opponent's hand-fighting to strip your grip commits their upper body forward, exposing their knee for a rolling kneebar entry → Leads to [[Positions/Grasshopper Guard]]
@@ -261,6 +269,8 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Straight Ankle Lock Entry?</p>
 
 ### 1. Attempting the entry without sufficient hip elevation, reaching for the ankle while flat on the mat
 
@@ -300,6 +310,8 @@ Strategically, the Straight Ankle Lock Entry serves as the primary submission-or
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Straight Ankle Lock Entry (Attacker)?</p>
+
 **Week 1-2** - Solo mechanics and partner positioning
 Practice the inverted hip elevation and leg framing motion against a standing partner who remains stationary. Focus on the sequence: outside leg across hip, inside leg thread behind knee, two-handed ankle grip, figure-four closure. Partner provides zero resistance and allows you to complete each repetition slowly. Drill 30 repetitions per side per session, emphasizing smooth transitions between each step.
 
@@ -320,48 +332,12 @@ Expand entry beyond grasshopper guard by starting from De La Riva, Single Leg X,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Straight Ankle Lock Entry from grasshopper guard?
-**A**: The optimal window is when the opponent shifts their weight onto their lead foot, either by stepping forward, reaching down toward your legs, or committing to a passing attempt. This weight commitment prevents them from quickly retracting the targeted foot and gives you the critical extra time needed to complete the entry sequence. Attacking a retreating or evenly balanced opponent dramatically reduces success rates.
-
-**Q2**: What conditions must exist in your grasshopper guard before you can attempt the ankle lock entry?
-**A**: You need three conditions: hips elevated to at least chest height with active core engagement, at least one leg maintaining contact with the opponent's lower body to prevent disengagement, and clear visual identification of which foot bears the most weight. Without hip elevation you lack the lateral reach for leg framing, without leg contact the opponent can simply walk away, and without target identification you risk attacking the wrong foot.
-
-**Q3**: Why must the outside leg cross the opponent's hip line before the inside leg threads behind the knee?
-**A**: The outside leg serves as a barrier that prevents the opponent from stepping backward or circling away from the entry. If you thread the inside leg first without blocking their retreat path, the opponent can simply step their lead foot back and your inside leg threads into empty space. The outside leg pins their base in place, creating the frame that allows the inside leg to complete the entanglement against a trapped opponent.
-
-**Q4**: Your opponent strips your ankle grip while your figure-four is only partially closed - how do you adjust?
-**A**: Immediately transition to a kneebar attack on the same leg. Since your legs are already partially entangled around their lower body, thread deeper by pushing your inside leg higher behind their knee while your outside leg crosses over their thigh. The opponent's hand-fighting to strip your ankle grip commits their upper body forward and away from their knee, creating the opening for the kneebar. Do not attempt to re-grip the ankle from a compromised position.
-
-**Q5**: What grip configuration provides the strongest control on the captured ankle?
-**A**: The near hand cups underneath the heel to prevent the foot from slipping downward, while the far hand wraps over the top of the foot near the toes to control dorsiflexion. Both hands pull the ankle tight against your chest with the forearm blade of your bottom arm aligned across the Achilles tendon. This two-on-one configuration controls all planes of foot movement and creates the proper lever for finishing pressure.
-
-**Q6**: Your opponent begins driving forward into a stack pass as you initiate the entry - what is your best response?
-**A**: Abort the ankle lock entry and use the forward pressure for a Granby roll to recover guard, or redirect their momentum into an X-Guard entry by hooking both feet into their hips. The stack pass negates your inverted base by folding your body, eliminating the hip elevation necessary for the entry. Trying to fight through a committed stack from grasshopper typically results in being flattened and passed.
-
-**Q7**: What is the critical hip adjustment after establishing the figure-four and ankle grip?
-**A**: You must hip escape away from the captured leg to angle your body perpendicular to their trapped limb. This angular adjustment aligns your forearm blade properly across the Achilles tendon for maximum submission pressure. Staying flat on your back with hips square provides no finishing angle and allows the opponent to rotate their knee inward to relieve pressure. Your belly button should point toward the opponent's trapped knee in the final control position.
-
-**Q8**: The opponent sits down to their knees when they feel your legs beginning to frame - how do you capitalize?
-**A**: Their level change directly opens the path to Inside Ashi-Garami. As they kneel, their legs become accessible at a lower height where your inverted legs can thread deeper around their thigh. Abandon the straight ankle lock entry and transition to a standard seated leg entanglement, using the grasshopper hip elevation to shoot your legs into an Inside Ashi-Garami configuration with superior hip control over their trapped leg.
-
-**Q9**: Why is targeting the lead foot more effective than the rear foot against a staggered stance?
-**A**: The lead foot bears significantly more weight in a staggered stance and cannot be retracted without the opponent losing balance and compromising their base. The rear foot carries less weight and can be pulled back quickly with minimal positional consequence. Attacking the weighted lead foot exploits biomechanical reality - the opponent must either abandon their stance entirely or accept the entanglement, giving you a decisive timing advantage in completing the entry.
-
-**Q10**: How do you chain the Straight Ankle Lock Entry with the Kneebar from Grasshopper when the ankle attack is defended?
-**A**: Both attacks use the same initial leg framing mechanics from grasshopper. When the opponent defends the ankle by curling their toes, flexing their foot, or stripping your grip, your legs are already positioned around their lower body. Continue threading your inside leg higher behind their knee while your outside leg crosses over the thigh rather than the shin. This upward migration converts the ankle attack frame into a kneebar frame, catching them mid-defense when their focus is on protecting the ankle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Straight Ankle Lock Entry?</p>
 
 The straight ankle lock targets the Achilles tendon and ankle joint, which are vulnerable to acute injury if excessive force is applied or if the technique is executed with poor alignment. Always apply finishing pressure gradually during training, allowing your partner time to tap before the joint reaches its end range. Avoid explosive cranking motions that can cause ligament damage faster than your partner can signal submission. Partners with pre-existing ankle, foot, or Achilles tendon injuries should communicate these before drilling. The inverted grasshopper position also carries neck and cervical spine risk if you are stacked while inverted - tap immediately if your neck is compressed during a failed entry rather than fighting through the stack. Release all pressure instantly when your partner taps and reset cleanly before the next repetition.
 

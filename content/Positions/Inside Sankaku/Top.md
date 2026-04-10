@@ -20,14 +20,14 @@ description: "Master Inside Sankaku top perspective. Complete control mechanics,
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 40% of exchanges from this position.",
+      "name": "Execute Heel Hook from Inside Sankaku",
+      "text": "From this position, attempt Heel Hook from Inside Sankaku. This technique is attempted in 40% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold from Inside Sankaku",
+      "text": "From this position, attempt Toe Hold from Inside Sankaku. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -165,6 +165,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Inside Sankaku (Top)?</p>
+
 - Opponent's leg is trapped in your figure-four configuration created by your legs, with your outside leg crossing over your inside leg to secure the entanglement at the knee joint
 - Your legs form a tight triangle around opponent's trapped leg, with your feet positioned to control the knee line and prevent rotational escape movements
 - Inside heel exposure is maintained with the opponent's heel facing toward your centerline, creating optimal mechanical advantage for inside heel hook attacks
@@ -178,6 +180,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Inside Sankaku (Top)?</p>
 
 - Understanding of basic leg entanglement theory and systematic progression
 - Knowledge of proper hip positioning and maintenance of connection in leg attacks
@@ -193,6 +197,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Inside Sankaku?</p>
+
 - Control opponent's hip mobility through proper leg positioning and maintaining tight hip-to-hip connection throughout the entanglement
 - Maintain the knee line control to prevent defensive rotation by keeping your legs configured to block opponent's ability to turn into you
 - Create and maintain proper angles for inside heel hook by positioning opponent's heel toward your centerline with optimal leverage
@@ -207,6 +213,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Inside Sankaku (Top)?</p>
 
 **If opponent maintains defensive posture and protects heel by keeping it hidden:**
 - Execute **[[Hip pressure application/Attacker|Hip pressure application]]** → [[Positions/Inside Sankaku]] (Probability: 70%)
@@ -244,6 +252,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Inside Sankaku?</p>
 
 ### 1. Poor hip connection - maintaining too much distance from opponent's hips
 
@@ -288,6 +298,8 @@ Inside Sankaku from the top perspective represents one of the most dominant and 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Inside Sankaku attacks?</p>
+
 ### Inside Sankaku Entry Drilling
 
 Practice entering Inside Sankaku from various positions including Outside Ashi-Garami, Single Leg X-Guard, and 50-50 Guard. Partner provides light resistance while you focus on proper leg configuration, hip connection, and knee line control. Emphasis on smooth transitions and maintaining control throughout entry.
@@ -328,38 +340,6 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts pumping their hips backward to create space - what adjustment do you make to maintain control?
-**A**: Follow their hip movement by driving your own hips forward while maintaining the figure-four leg configuration. Use your core to close the distance they create. Your outside leg should actively pull their knee toward you as you advance your hips, preventing them from extracting the trapped leg. The key is anticipating the movement and matching their hip escape with your own forward pressure.
-
-**Q2**: What are the three essential control points that must be established before attempting the inside heel hook?
-**A**: The three essential control points are: (1) Hip-to-hip connection - your hips must be tight against opponent's hips to prevent escape distance, (2) Knee line control - your legs must block their ability to rotate their knee past the barrier created by your leg configuration, and (3) Proper heel exposure - the heel must be facing toward your centerline with your grip positioning established. Only when all three are secured should you commit to the submission.
-
-**Q3**: How do you shut down the primary escape when your opponent attempts to clear the knee line by rotating away?
-**A**: When they rotate away attempting to clear the knee line, immediately adjust your outside leg to follow their movement and maintain the barrier. Drive your hips forward and angle slightly to cut off their rotation path. If they continue the rotation, be ready to transition to Outside Ashi-Garami where you can attack the outside heel hook instead. The rotation that clears one heel hook often exposes the other.
-
-**Q4**: What grip configuration provides the strongest control for the inside heel hook finish?
-**A**: The optimal grip uses a two-on-one configuration where both hands control the ankle and heel. Your blade hand (the hand closer to the heel) wraps around the Achilles tendon with the blade of your wrist positioned against the heel. Your secondary hand grabs your own wrist or forearm to reinforce the position. Keep elbows tight to your body and the foot tucked into your armpit for maximum breaking power.
-
-**Q5**: Your opponent hides their heel by pressing it against their own hip - what pressure application forces the exposure?
-**A**: Apply consistent hip pressure forward while using your inside leg to elevate their knee slightly. This creates tension on their hip flexor and makes maintaining the hidden heel position exhausting. Alternatively, transition to toe hold attack which targets the foot regardless of heel hiding. The pressure forces them to choose between exhaustion defending heel exposure or accepting a different submission threat.
-
-**Q6**: What movement indicates your opponent is about to attempt a rolling escape, and how do you counter it?
-**A**: The tell-tale signs are: shoulder dipping toward the mat, head turning toward their trapped leg, and hip loading to initiate the roll. Counter by immediately driving your weight down into the entanglement, pulling their trapped knee tighter to your body, and using your outside hand to post or grab their far hip to prevent the rotation. If they commit fully, follow the roll and transition to Saddle for even tighter control.
-
-**Q7**: How do you manage energy expenditure while maintaining Inside Sankaku against an opponent who is actively defending?
-**A**: Distribute weight through your hips rather than using arm strength for control. Maintain steady, consistent pressure rather than explosive movements that drain energy quickly. Let the position do the work - the mechanical advantage of the entanglement means small adjustments maintain control against larger escape efforts. Be patient and wait for them to tire from defensive efforts before committing to submission attempts.
-
-**Q8**: Your opponent has partially extracted their leg but hasn't fully escaped - how do you recover full control?
-**A**: Immediately re-engage your inside leg hook under their thigh while driving your hips forward to close the gap. Use your outside leg to recapture knee line control by pressing down on their leg above the knee. Grab their ankle with your hands to prevent further extraction while your legs reestablish the full figure-four configuration. The key is quick reaction - once they fully extract, recovery becomes exponentially harder.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -385,7 +365,7 @@ Start in established Inside Sankaku position. Top player works to maintain posit
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Alternative leg entanglement - can transition between positions based on opponent defense
 - **[[Positions/X-Guard/Single Leg X-Guard]]** - Entry position - common pathway to Inside Sankaku from standing or guard
 - **[[Submissions/Inside Heel Hook]]** - Primary submission - the main finishing technique from this position
-- **[[Transitions/Toe Hold]]** - Alternative submission - attacked when heel is hidden or defended
+- **[[Submissions/Toe Hold]]** - Alternative submission - attacked when heel is hidden or defended
 - **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Related position - similar leg configuration with different attacking opportunities
 - **[[Positions/Back Control]]** - Transition target - available when opponent gives back defending leg attack
 - **[[Positions/Ashi Garami/Honey Hole]]** - Alternative name for Inside Sankaku - same position with different terminology

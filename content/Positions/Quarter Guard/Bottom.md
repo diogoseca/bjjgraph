@@ -169,6 +169,8 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ## Position Definition
 
+<p class="section-subtitle">What is Quarter Guard (Bottom)?</p>
+
 - Bottom player's lower body has one leg maintaining minimal engagement with opponent's leg—typically a weakened knee shield touching opponent's hip, a partial butterfly hook without full insertion, or quarter lockdown with reduced squeeze pressure, while the other leg is free or being controlled by opponent's crossface-side pressure
 - Bottom player maintains underhook on one side with forearm deeply connected to opponent's lat or armpit, elbow pointing toward ceiling, creating offensive leverage for sweeps and preventing opponent's shoulder pressure from flattening the position completely
 - Top player has advanced hip position past bottom player's hip centerline by at least six inches, with weight distributed seventy percent toward the passed side, actively attempting to consolidate side control or mount while eliminating remaining defensive structures
@@ -181,6 +183,8 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Quarter Guard (Bottom)?</p>
+
 - Opponent has begun passing half guard, advancing their hips and one leg past your centerline
 - You have established underhook control on at least one side before position fully deteriorates
 - You maintain some leg engagement through lockdown, butterfly hook, or knee shield contact
@@ -192,6 +196,8 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Quarter Guard?</p>
 
 - Maintain underhook at all costs—this is your primary offensive tool and defensive anchor preventing opponent's crushing shoulder pressure
 - Keep hips mobile and angled away from the passing direction to create space and prevent flattening that eliminates all offensive options
@@ -206,6 +212,8 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Quarter Guard (Bottom)?</p>
 
 **If opponent drives weight forward and extends trapped leg attempting aggressive pass:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 65%)
@@ -234,6 +242,8 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Quarter Guard?</p>
 
 ### 1. Losing underhook control by allowing opponent to strip it with crossface or grip fighting
 
@@ -273,6 +283,8 @@ Success in quarter guard bottom depends on maintaining the underhook, creating a
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Quarter Guard defense?</p>
+
 ### Quarter Guard Retention Drill
 
 Start in quarter guard bottom with partner applying fifty percent passing pressure. Focus on maintaining underhook connection, creating angles through hip escape, and preventing flattening using frames. Partner progressively increases pressure to seventy-five percent over three-minute rounds. Reset immediately when passed or when sweep is successfully completed. Track number of successful retentions versus passes.
@@ -305,38 +317,6 @@ Begin in severely compromised quarter guard with partner seventy-five percent th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts applying heavy crossface pressure to flatten you—what adjustment do you make to maintain position?
-**A**: Immediately turn your head away from the crossface while driving your underhook elbow toward the ceiling to create space. Use your free leg to frame against their hip or post on the mat to prevent being flattened. Hip escape away from the pressure to create an angle that reduces the effectiveness of their crossface. If crossface becomes too dominant, transition immediately to deep half guard by getting underneath their weight rather than fighting the pressure directly.
-
-**Q2**: What are the essential grips and control points for surviving quarter guard bottom?
-**A**: The underhook is absolutely essential—your forearm must be deeply connected to opponent's lat or armpit with elbow pointing toward ceiling. Secondary controls include free leg positioning as a frame or hook against their hip, your non-underhook hand blocking crossface attempts or controlling their posting arm, and hip angle maintenance at thirty to forty-five degrees off the mat. Without the underhook, you have no offensive options and will be passed within seconds.
-
-**Q3**: How do you shut down the top player's primary attack of completing the pass to side control?
-**A**: Prevent pass completion by maintaining hip mobility through constant angle adjustments away from the passing direction. Use your free leg to create frames against their chest or hip that prevent their weight from settling. Keep your underhook active by pulling their weight toward you rather than letting them drive through. If they flatten you completely, the pass is inevitable—staying on your side with active underhook is the key defensive principle.
-
-**Q4**: What is the priority order for grips when your underhook is being stripped by crossface pressure?
-**A**: Priority order: First, fight to maintain underhook depth by turning into opponent and driving elbow toward ceiling. Second, if underhook is being stripped, immediately use that arm to frame against their neck to prevent crossface while hip escaping to recover angle. Third, use free leg to establish butterfly hook or knee shield as you fight for underhook recovery. Never go flat without either the underhook or a strong frame—being flat without controls means immediate pass completion.
-
-**Q5**: How do you apply offensive pressure from quarter guard bottom rather than just defending?
-**A**: Offensive pressure comes from the underhook combined with hip movement. Pull opponent's weight onto you using the underhook while simultaneously hip escaping to create angles for sweeps. Attack immediately when they post their hand to base—this is the moment for old school sweep or back take. Use your free leg to off-balance by pushing against their hip in the opposite direction of your underhook pull. The threat of sweeps is what prevents them from committing fully to the pass.
-
-**Q6**: Your opponent posts their near hand on the mat during passing pressure—what immediate opportunity does this create?
-**A**: A posted hand creates a back take opportunity because their weight is distributed away from you and their back is exposed. Immediately use your underhook to start climbing toward their back while your free leg kicks through for the first hook. Alternatively, the posted hand removes their ability to prevent the old school sweep—drive into them with your underhook while using your free leg to elevate, and they cannot base without removing the post. Recognize posted hand as green light for immediate offensive action.
-
-**Q7**: How do you manage energy while defending quarter guard bottom under sustained pressure?
-**A**: Energy management requires using frames and positioning rather than muscling against pressure. Let your skeletal structure absorb pressure through proper angles rather than fighting with strength. Time your explosive movements for when opponent commits weight or posts—don't fight continuously but rather create brief windows for sweeps. If you're getting exhausted, recognize that quarter guard is not sustainable and commit to either sweep, back take, or guard recovery within five seconds rather than extending the fight.
-
-**Q8**: Your opponent begins extracting their trapped leg—how do you determine whether to fight for retention or transition to a different position?
-**A**: If your underhook is deep and you still have hip angle, fight for retention by tightening your leg engagement and using underhook to prevent them from posturing away. If your underhook is compromised or you're flattened, don't waste energy on retention—immediately transition. Options include: deep half guard entry if their weight is forward, butterfly guard recovery using the free leg, or back take if they're turning away during extraction. The decision point is underhook quality—good underhook means fight, compromised underhook means transition immediately.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

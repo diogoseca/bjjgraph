@@ -210,7 +210,7 @@ The Frame Escape from High Mount occupies a critical position in the bottom moun
 
 - [[Transitions/Bridge Escape from S Mount]] - Escape technique needed if the top player counters with S Mount advancement
 
-- [[Submissions/Armbar from High Mount]] - Primary submission threat during frame escape when arms become exposed
+- [[Transitions/Mount to Armbar]] - Primary submission threat during frame escape when arms become exposed or extended
 
 - [[Positions/Mount/Technical Mount]] - Related advanced position the top player may transition to during escape attempts
 

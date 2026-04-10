@@ -170,6 +170,8 @@ Defending against leg extraction from lockdown bottom means maintaining the figu
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction to Combat Base?</p>
+
 - Opponent establishes heavy crossface or shoulder pressure and begins flattening you to the mat, which is the prerequisite setup for extraction
 - Opponent's trapped leg begins circling outward or their knee drives toward the mat rather than remaining straight, indicating the rotational extraction pattern
 - Opponent drives hips forward and downward rather than pulling backward, compressing space between your legs and changing the angle of their trapped leg
@@ -182,6 +184,8 @@ Defending against leg extraction from lockdown bottom means maintaining the figu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction to Combat Base?</p>
 
 - Maintain active lockdown tension by constantly pulling their heel toward your hip with flexed feet and squeezed knees
 - Use opponent's extraction attempts as triggers for offensive attacks rather than purely defensive retention
@@ -197,6 +201,8 @@ Defending against leg extraction from lockdown bottom means maintaining the figu
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction to Combat Base?</p>
 
 ### 1. Re-tighten lockdown and extend aggressively while fighting for underhook
 
@@ -234,6 +240,8 @@ Defending against leg extraction from lockdown bottom means maintaining the figu
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction to Combat Base?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 Maintain lockdown tension by keeping ankles tightly crossed and constantly pulling opponent's heel toward your hip. When you feel them begin extraction, immediately extend the lockdown while simultaneously fighting for the underhook. Attack with whip-up or Old School sweep when their base is compromised by the extraction attempt. The goal is either to retain lockdown or use their extraction attempt as a launching pad for a sweep.
@@ -249,6 +257,8 @@ When lockdown retention becomes impossible because opponent has created too much
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction to Combat Base?</p>
 
 ### 1. Holding lockdown passively without attacking or adjusting when opponent begins extraction
 
@@ -283,6 +293,8 @@ When lockdown retention becomes impossible because opponent has created too much
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction to Combat Base?</p>
+
 **Week 1-2** - Recognition and retention fundamentals
 Partner performs slow, telegraphed extraction attempts while you practice recognizing the cues (crossface establishment, hip drive forward, leg circling). Focus on re-tightening lockdown at the first sign of extraction. Build the habit of active lockdown tension rather than passive holding.
 
@@ -299,32 +311,6 @@ Positional sparring from lockdown bottom against partner working full extraction
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to attempt leg extraction?
-**A**: The earliest cues are opponent establishing heavy crossface with shoulder driving into your jaw, their free leg posting wide to the side for base, and their hips beginning to drive forward and down rather than remaining neutral. You may also feel their trapped knee begin to rotate outward or press toward the mat. Recognizing these pre-extraction setups gives you time to counter before the extraction proper begins.
-
-**Q2**: Your opponent has established crossface and begins driving their hips forward - what is your best offensive response?
-**A**: Their forward drive creates the ideal setup for the whip-up sweep. Extend the lockdown aggressively to load their weight forward, then use that momentum by explosively coming to your elbow on the underhook side and driving into them. Their forward commitment makes it extremely difficult to base back against the whip-up. If you have the underhook, this becomes a high-percentage sweep opportunity directly created by their extraction attempt.
-
-**Q3**: When should you abandon lockdown retention and transition to deep half guard?
-**A**: Transition to deep half when you feel the lockdown tension breaking despite your best retention efforts—specifically when their knee has already begun circling free and your ankle cross is losing purchase. The window for deep half entry exists while their leg is partially extracted but not yet posted in combat base. Waiting too long means they complete extraction with nothing, but transitioning too early abandons a still-viable lockdown.
-
-**Q4**: How do you execute the transition from failing lockdown to deep half guard?
-**A**: As the lockdown begins failing, release your ankle cross and immediately shrimp your hips away from the opponent while sliding your upper body underneath their hips. Your goal is to get your shoulder and head below their near-side hip while securing a deep underhook around their far thigh. Use the momentum of their extraction attempt to create the space needed to slide underneath. The underhook must be established before they can settle into combat base.
-
-**Q5**: What role does the underhook play in defending against leg extraction from lockdown bottom?
-**A**: The underhook on the trapped-leg side is the single most important upper body control for lockdown defense. It prevents the opponent from establishing crossface, enables the whip-up sweep, and creates the angle needed for Old School sweep. Without the underhook, the opponent can flatten you with shoulder pressure and methodically extract. Fighting for and maintaining the underhook should be a constant priority throughout the entire lockdown exchange.
-
-**Q6**: Your opponent's extraction attempt fails and they return to neutral lockdown position - how do you capitalize?
-**A**: A failed extraction attempt means they expended energy and likely loosened their upper body control momentarily. Immediately re-tighten your lockdown with maximum tension, aggressively fight for the underhook if you do not already have it, and begin setting up your next sweep attack. Their failed attempt creates a psychological window where they are reassessing their approach—this is the optimal time to launch an offensive sequence while their focus is on what went wrong.
-
-
-
-</section>
 
 
 </main>

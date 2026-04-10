@@ -148,6 +148,8 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge from Modified Scarf Hold?</p>
+
 - Opponent repositions both feet flat near their hips, loading their posterior chain for explosive hip extension
 - Free arm moves from passive position to an active frame against your hip, shoulder, or ribcage establishing directional intent
 - Opponent takes a deep preparatory breath or visibly tenses their core muscles gathering energy for the explosive movement
@@ -160,6 +162,8 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge from Modified Scarf Hold?</p>
 
 - Maintain low chest pressure with hips driven forward to minimize the space available for bridge generation beneath you
 - Stay on your toes for dynamic base adjustment, allowing rapid weight redistribution when bridge force is detected
@@ -174,6 +178,8 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge from Modified Scarf Hold?</p>
 
 ### 1. Sprawl and drive chest weight downward while widening base
 
@@ -204,6 +210,8 @@ As the defender against the Bridge from Modified Scarf Hold, you are the top pla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge from Modified Scarf Hold?</p>
+
 ### → [[Positions/Mount]]
 
 When you feel the bridge creating space between your chest and opponent's chest, immediately walk your knees over their hips while they are elevated. Use their upward momentum to slide into mount position rather than fighting to maintain Modified Scarf Hold from a compromised base.
@@ -219,6 +227,8 @@ Counter the bridge by dropping your chest weight and driving hips forward into t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge from Modified Scarf Hold?</p>
 
 ### 1. Remaining static with high hips and relaxed base when bridge is telegraphed
 
@@ -248,6 +258,8 @@ Counter the bridge by dropping your chest weight and driving hips forward into t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge from Modified Scarf Hold?</p>
+
 **Pressure Maintenance** - Sustaining Modified Scarf Hold against progressive bridge intensity
 Partner bridges at 30-50% intensity while you practice maintaining chest pressure, adjusting weight distribution, and keeping near arm control. Focus on feeling the bridge force direction and flowing with it rather than resisting rigidly. 3-minute rounds with progressive intensity increase.
 
@@ -264,26 +276,6 @@ Start in Modified Scarf Hold during live rolling with full resistance. Partner u
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing to bridge from Modified Scarf Hold bottom?
-**A**: Watch for foot repositioning as the primary cue. When your opponent plants both feet flat near their hips, they are loading their posterior chain for a bridge. Additional cues include their free arm moving to frame on your hip establishing directional intent, a deep preparatory breath indicating imminent exertion, and head turning to one side establishing the rotational angle. Recognizing these preparatory movements gives you time to adjust weight and posting before the bridge launches.
-
-**Q2**: How should you adjust your weight distribution when you feel your opponent beginning to bridge?
-**A**: Drop your chest pressure lower and drive your hips forward into your opponent rather than pushing straight down. Shift weight toward the direction they are bridging to load their effort with additional mass they must displace. Stay on your toes to maintain mobility so you can adjust quickly if they switch directions. The key principle is flowing with the bridge force while maintaining chest contact rather than attempting to resist upward force with static weight alone.
-
-**Q3**: Your opponent bridges explosively and you feel your base being compromised - what is your best response?
-**A**: If the bridge is strong enough to threaten reversal, immediately transition to mount by walking your knees over their hips as the bridge creates space. Use their upward momentum to slide into mount rather than fighting to maintain a broken Modified Scarf Hold position. This converts a potential escape into a positional advancement. If the bridge direction takes you forward rather than laterally, transition to north-south to maintain top control.
-
-**Q4**: When is it appropriate to use your opponent's bridge attempt to advance position rather than simply maintaining Modified Scarf Hold?
-**A**: Advance position when the bridge creates sufficient space between your bodies that re-settling Modified Scarf Hold would require a full positional reset. If their hips elevate significantly or they create rotation, the path to mount or north-south is often shorter than fighting back to the original pin. The general rule is: if you can slide your knee over their hip during the bridge, take mount; if they turn into you creating forward space, take north-south.
-
-
-
-</section>
 
 
 </main>

@@ -14,7 +14,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Kimura",
       "probability": 55,
       "result": "success"
     },
@@ -52,7 +52,7 @@
       "relationship": "Follow-up option - use Kimura grip to advance to crucifix"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Alternative attack - targets free arm when Kimura is defended"
     },
     {
@@ -144,7 +144,7 @@
         "counter": "Opponent turns into attacker and rolls belly-down to reduce shoulder rotation angle",
         "effectiveness": "Medium",
         "your_response": "Follow the roll and transition to mounted Kimura position or crucifix; belly-down actually improves finishing angle in many cases",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Kimura"
       },
       {
         "counter": "Opponent grabs their own belt, pants, or interlocks hands to prevent wrist movement",

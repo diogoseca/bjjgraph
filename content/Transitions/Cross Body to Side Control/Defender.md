@@ -154,6 +154,8 @@ As the defender against Cross Body to Side Control, your primary objective is to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Cross Body to Side Control?</p>
+
 - Opponent begins driving shoulder pressure downward through your near-side shoulder rather than across your back toward hooks
 - Opponent's hips start walking toward your body rather than staying perpendicular, indicating they are sliding into side control position
 - Opponent's near-side hand or knee reaches for your far hip to block guard recovery
@@ -166,6 +168,8 @@ As the defender against Cross Body to Side Control, your primary objective is to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Body to Side Control?</p>
 
 - Maintain strong turtle structure by keeping elbows tight, chin tucked, and posting with maximum skeletal support
 - Recognize the difference between back take pressure and flattening pressure to apply the correct defense
@@ -180,6 +184,8 @@ As the defender against Cross Body to Side Control, your primary objective is to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Cross Body to Side Control?</p>
 
 ### 1. Granby roll to guard recovery
 
@@ -217,6 +223,8 @@ As the defender against Cross Body to Side Control, your primary objective is to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Cross Body to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a granby roll or sit-through during the attacker's weight shift to recover half guard before side control is established. The key window is when the attacker transitions their chest from your back to your side—this brief repositioning creates the space needed for guard insertion.
@@ -232,6 +240,8 @@ Rebuild your turtle base by driving hips away from the pressure angle while keep
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Body to Side Control?</p>
 
 ### 1. Remaining static in turtle without actively resisting the flattening pressure
 
@@ -261,6 +271,8 @@ Rebuild your turtle base by driving hips away from the pressure angle while keep
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Cross Body to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying flatten versus back take pressure patterns
 Partner alternates between back take attempts and flattening attempts from cross body ride. Defender calls out which attack is being attempted based on pressure patterns, weight distribution, and grip changes. No physical defense—purely recognition training.
 
@@ -277,26 +289,6 @@ Start from cross body ride with defender facing immediate flattening threat. Ful
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you distinguish between a back take attempt and a flattening attempt from cross body ride?
-**A**: A back take attempt involves the attacker driving hooks toward your hips and securing seatbelt or collar tie grips oriented toward your back exposure. A flattening attempt involves the attacker driving shoulder pressure downward through your near-side shoulder and walking their hips toward your body rather than staying perpendicular. The key indicator is the direction of their weight—toward your back for back takes, downward through your shoulder for flattening.
-
-**Q2**: What is the optimal timing window for a granby roll defense against the flatten?
-**A**: The optimal window is during the initial flattening phase before the attacker has established far hip control. Once they block your far hip with their knee or hand, the granby roll's hip rotation is severely restricted. The moment you feel concentrated downward pressure on your near shoulder but your far hip is still free is the ideal trigger for the granby roll escape.
-
-**Q3**: Why is recovering half guard preferable to remaining in turtle when the flatten is partially successful?
-**A**: Once the flatten has partially succeeded and your turtle structure is compromised, remaining in a degraded turtle position means you have neither the defensive advantages of a strong turtle nor the offensive options of a guard position. Half guard, while not ideal, provides established defensive frames, sweep opportunities, and guard recovery pathways that a collapsed turtle does not. The transition from compromised turtle to half guard preserves your options.
-
-**Q4**: Your turtle base is collapsing under sustained pressure—what is your emergency defensive sequence?
-**A**: Execute this sequence: first, drive hips explosively away from the pressure to create momentary space. Second, immediately insert your near-side knee between your body and the attacker's hip to begin establishing half guard. Third, create a forearm frame against the attacker's shoulder to prevent them from settling crossface. Fourth, complete the guard recovery by securing half guard with leg entanglement. The key is transitioning to guard before you are fully flattened, not after.
-
-
-
-</section>
 
 
 </main>

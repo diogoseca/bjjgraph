@@ -184,7 +184,7 @@ This sweep integrates into the modern leg lock game as an essential defensive to
 
 ## Position Integration
 
-The position reversal sweep is a cornerstone defensive technique within the bottom 50-50 system. It provides the primary offensive escape pathway when you find yourself on bottom of this symmetrical leg entanglement. The sweep integrates with the complete 50-50 defensive hierarchy: first priority is heel defense, second is inside position recovery, and third is either this reversal sweep or leg extraction to standing. Once on top, you inherit the full offensive toolkit of top 50-50 including Inside Heel Hook, Outside Heel Hook, Kneebar from 50-50, Calf Slicer from 50-50, and Back Take from 50-50. The sweep also chains with counter heel hook attacks—if opponent overcommits defending the sweep, their heel often becomes exposed.
+The position reversal sweep is a cornerstone defensive technique within the bottom 50-50 system. It provides the primary offensive escape pathway when you find yourself on bottom of this symmetrical leg entanglement. The sweep integrates with the complete 50-50 defensive hierarchy: first priority is heel defense, second is inside position recovery, and third is either this reversal sweep or leg extraction to standing. Once on top, you inherit the full offensive toolkit of top 50-50 including Inside Heel Hook, Outside Heel Hook, Kneebar entry, Calf Slicer, and Back Take from 50-50. The sweep also chains with counter heel hook attacks—if opponent overcommits defending the sweep, their heel often becomes exposed.
 
 </section>
 
@@ -206,13 +206,13 @@ The position reversal sweep is a cornerstone defensive technique within the bott
 
 - [[Transitions/Extract legs and stand up]] - Alternative escape option when sweep unavailable
 
-- [[Submissions/Kneebar from 50-50]] - Follow-up submission option after achieving top position
+- [[Transitions/Kneebar entry]] - Follow-up submission option after achieving top position
 
 - [[Positions/X-Guard/Single Leg X-Guard]] - Transition target when opponent's low base prevents reversal
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Counter position opponent may achieve if they disengage during sweep and re-entangle
 
-- [[Submissions/Calf Slicer from 50-50]] - Alternative submission from top 50-50 after successful sweep
+- [[Submissions/Calf Slicer]] - Alternative submission from top 50-50 after successful sweep
 
 
 </section>

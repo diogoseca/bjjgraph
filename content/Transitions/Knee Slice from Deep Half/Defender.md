@@ -162,6 +162,8 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from Deep Half?</p>
+
 - Opponent establishes strong crossface pressure and begins turning your head away from them
 - Opponent's free leg posts wide to the outside creating a stable base for passing
 - You feel the opponent's trapped knee begin to angle outward and upward against your body
@@ -174,6 +176,8 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from Deep Half?</p>
 
 - Maintain the deep underhook on the far leg at all costs - this is your primary defensive and offensive tool
 - Recognize the crossface establishment as the precursor to a knee slice attempt
@@ -189,6 +193,8 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from Deep Half?</p>
 
 ### 1. Maintain tight underhook and block knee path with hip frame
 
@@ -226,6 +232,8 @@ As the deep half guard bottom player facing a knee slice pass attempt, your prim
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from Deep Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a sweep (Homer Simpson or waiter) during the knee slice's transitional moment when the opponent's base is compromised. Use your deep underhook leverage and hip elevation to reverse the position while their knee is off the mat.
@@ -241,6 +249,8 @@ Maintain tight underhook control and frame against the opponent's hip to prevent
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from Deep Half?</p>
 
 ### 1. Allowing the crossface to flatten your upper body before reacting
 
@@ -270,6 +280,8 @@ Maintain tight underhook control and frame against the opponent's hip to prevent
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from Deep Half?</p>
+
 **Phase 1: Recognition** - Identifying knee slice setup cues from deep half bottom
 Partner establishes deep half guard top and slowly begins knee slice setup. Bottom player calls out each recognition cue as they feel it: crossface pressure, wide post, knee angle change. No actual defense yet, purely building awareness of the signals that precede the pass attempt.
 
@@ -286,29 +298,6 @@ Full positional rounds starting with top player in deep half guard. Bottom playe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee slice attempt is imminent from deep half guard bottom?
-**A**: The earliest cue is the establishment of strong crossface pressure combined with the opponent's free leg posting wide to the outside. The crossface is the prerequisite for the knee slice, and the wide post creates the base needed for the passing motion. Recognizing these setup elements gives you maximum time to prepare defensive responses before the knee actually begins to move.
-
-**Q2**: Why is the deep underhook the most important grip to maintain when defending the knee slice?
-**A**: The deep underhook is your primary tool for both defense and offense in deep half guard. It provides the mechanical leverage for all sweep variations, controls the opponent's far leg to limit their passing options, and creates the body connection that makes your position underneath them viable. Without the underhook, you have no sweeps, no leverage, and no way to prevent the pass.
-
-**Q3**: Your opponent successfully drives their knee past your hip line during the slice - what is your best recovery option?
-**A**: Once the knee passes your hip line, abandon sweep attempts and immediately focus on guard recovery. Use your bottom leg to hook their slicing leg and work to establish knee shield half guard. Simultaneously frame against their crossface shoulder to create enough space for the knee insertion. The priority shifts from offense to defense once the knee has cleared your hip.
-
-**Q4**: How do you create the conditions for a successful Homer Simpson sweep during the knee slice?
-**A**: The Homer Simpson sweep requires the opponent's weight to be loaded forward and their base compromised. During the knee slice, both conditions exist briefly when the knee lifts off the mat. Maintain your deep underhook, wait for the exact moment of knee lift, then explosively elevate your hips while rolling toward the underhook side. The opponent's forward pressure becomes the energy source for the sweep.
-
-**Q5**: When should you transition from deep half guard to X-Guard during a knee slice defense?
-**A**: Transition to X-Guard when the knee slice is too advanced to block with your underhook but the opponent's posted leg is accessible for hooking. This typically occurs when your underhook has been partially compromised and the knee is moving but has not yet fully cleared. Use your legs to hook their posted leg while releasing the deep position, establishing X-Guard hooks before they can consolidate the pass.
-
-
-
-</section>
 
 
 </main>

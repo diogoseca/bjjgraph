@@ -188,6 +188,8 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge from Reverse Kesa-Gatame?</p>
+
 - Direct the bridge force diagonally toward the trapped arm side, exploiting the top player's weakest base direction where their arms are occupied with control rather than posting
 - Timing is everything—wait for the opponent's weight to shift high or forward before committing to the explosive bridge rather than bridging into a sprawled base
 - Plant feet close to hips with heels flat for maximum hip extension power, treating foot placement as the essential setup before any bridge attempt
@@ -202,6 +204,8 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge from Reverse Kesa-Gatame?</p>
+
 - Both feet planted flat on the mat with heels drawn close to the hips for maximum explosive hip extension
 - Free arm positioned as a frame against the opponent's hip or near-side shoulder to create initial space and directional leverage
 - Opponent's weight concentrated high on chest or committed forward rather than sprawled low with heavy hip pressure on ribs
@@ -213,6 +217,8 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge from Reverse Kesa-Gatame step by step?</p>
 
 1. **Assess weight distribution**: Before initiating the bridge, assess where the top player's weight is concentrated. The bridge is most effective when their weight is high on your chest or committed forward toward your head. If their hips are low and sprawled against your ribs, prioritize other escapes first or use feints to draw their weight upward before bridging.
 2. **Establish foot placement**: Plant both feet flat on the mat with heels close to your buttocks and approximately shoulder-width apart. Angle your toes slightly outward to maximize the leverage of your hip extension. The closer your heels are to your hips, the more explosive your bridge will be. This setup must be completed before committing to the bridge.
@@ -243,6 +249,8 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge from Reverse Kesa-Gatame?</p>
+
 - **Opponent sprawls hips low and drives weight onto ribs to collapse the bridge before it generates displacement** (Effectiveness: High) - Your Response: Abandon the bridge and immediately transition to a shrimp escape, using the slight space created by the attempted bridge to begin extracting the trapped shoulder through hip escape mechanics → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **Opponent rides the bridge momentum and steps over to establish mount as your hips are elevated** (Effectiveness: High) - Your Response: If you feel the opponent stepping over during your bridge, immediately flatten your hips back down and insert your near-side knee across their thigh to establish half guard before they can settle mount → Leads to [[Positions/Mount]]
 - **Opponent releases arm control to post with their far hand, maintaining base through the bridge** (Effectiveness: Medium) - Your Response: Capitalize on the released arm control by immediately extracting your trapped arm during the bridge, using the freed arm to establish frames for guard recovery even if the bridge itself does not fully displace them → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
@@ -254,6 +262,8 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge from Reverse Kesa-Gatame?</p>
 
 ### 1. Bridging straight upward instead of directing force toward the trapped arm side
 
@@ -293,6 +303,8 @@ Executing the bridge escape from Reverse Kesa-Gatame requires precise timing, pr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge from Reverse Kesa-Gatame (Attacker)?</p>
+
 **Phase 1: Solo Bridge Mechanics** - Hip extension power and directional bridge
 Practice solo bridging drills focusing on explosive hip extension with directional control. Bridge and turn to turtle from flat on your back, emphasizing heel-to-hips foot placement and diagonal force generation. Perform sets of 10 each direction, building speed and power over time.
 
@@ -313,39 +325,12 @@ Drill the bridge as part of a three-escape chain: bridge attempt, shrimp escape,
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution from the top player creates the optimal window for the bridge escape?
-**A**: The bridge is most effective when the top player's weight is concentrated high on your chest or forward toward your head. This elevated weight position compromises their base stability and makes them vulnerable to displacement by the upward and lateral force of the bridge. When their hips are low and sprawled with heavy pressure on your ribs, the bridge becomes significantly harder and alternative shrimp-based escapes should be prioritized instead.
-
-**Q2**: Why must the bridge be directed toward the trapped arm side rather than straight upward?
-**A**: Bridging toward the trapped arm side exploits the top player's weakest base direction in Reverse Kesa-Gatame. Because they face your legs with their arms committed to arm control, they have limited ability to post on the trapped arm side. A straight upward bridge gives them time to redistribute weight evenly, while a directional bridge toward their structural weakness creates maximum displacement with minimum energy expenditure.
-
-**Q3**: How should you adjust if the top player immediately sprawls to counter your bridge attempt?
-**A**: If the opponent sprawls in response to your bridge, immediately transition to a shrimp-based escape rather than attempting a second bridge. The sprawl creates a momentary gap between your bodies as they drive their hips low. Use this gap to execute a hip escape toward your free arm side, working to insert your knee for half guard recovery. Chain the failed bridge directly into the follow-up escape without pausing.
-
-**Q4**: What foot placement maximizes bridge power and how does it protect against the mount transition?
-**A**: Plant both feet flat with heels close to your buttocks and toes angled slightly outward for maximum explosive hip extension. To protect against the mount transition during the bridge, keep your elbows tight to your body and turn immediately at the peak rather than holding the elevated position. The faster you convert the bridge into a turn, the less opportunity the opponent has to step over into mount.
-
-**Q5**: Your bridge partially succeeds but the opponent maintains chest contact—what is your immediate follow-up?
-**A**: A partial bridge that does not fully displace the opponent still creates valuable space. Immediately convert to a hip escape on the same side you were bridging toward, using the space created to begin extracting your trapped shoulder. The partial bridge has disrupted their weight distribution even if it did not fully succeed, making the follow-up hip escape significantly more effective than it would be without the preceding bridge attempt.
-
-**Q6**: What role does the free arm play throughout the bridge escape sequence?
-**A**: The free arm serves multiple critical functions throughout the escape. Initially, it frames against the opponent's hip or shoulder to create initial space and prevent them from driving weight lower. During the bridge, it pushes against the opponent to direct them off your centerline. As you turn to turtle, the free arm becomes your first posting point for establishing a four-point base. Active use of the free arm throughout the sequence dramatically increases escape success rate.
-
-**Q7**: What is the critical timing difference between bridging from Reverse Kesa-Gatame versus traditional Kesa Gatame?
-**A**: In Reverse Kesa-Gatame, the top player faces your legs rather than your head, which means their posting ability and base recovery direction differ fundamentally. The bridge should be directed toward the trapped arm side because the opponent's arms are positioned for arm control rather than posting. In traditional Kesa Gatame, the bridge direction goes toward the opponent's back. This directional difference is the most common error practitioners make when applying bridge escapes across scarf hold variants.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge from Reverse Kesa-Gatame?</p>
 
 Bridge escapes involve explosive spinal extension and rotational forces on the lumbar spine. Warm up the lower back, hip flexors, and glutes thoroughly before drilling. During initial learning phases, the top player should allow controlled escape repetitions rather than resisting at maximum intensity. Tap immediately if neck or spinal discomfort occurs during the turning phase. Partners should communicate about intensity level and any pre-existing back or neck injuries before positional drilling. Avoid explosive bridging on hard surfaces without adequate mat padding.
 

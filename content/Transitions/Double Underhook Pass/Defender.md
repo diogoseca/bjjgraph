@@ -166,6 +166,8 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Underhook Pass?</p>
+
 - Attacker's hands shift from collar tie, seatbelt, or neck attacks to swimming under your armpits - you feel pressure moving from your upper back and neck area to your ribcage and armpit
 - Hip pressure from the chair-sit position intensifies and shifts forward slightly as the attacker adjusts their weight to create the threading angle for the second underhook
 - You feel one arm being controlled from underneath with upward lifting pressure against your shoulder, followed by the attacker's opposite hand beginning to probe under your far armpit
@@ -177,6 +179,8 @@ The defender's positional advantages include proximity to the mat for base, the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Underhook Pass?</p>
 
 - Defend the second underhook aggressively by keeping elbows pinched tight to your ribs and swimming your arm back inside whenever you feel the threading attempt
 - Maintain active hip movement to prevent the attacker from settling their weight and committing to the pass sequence
@@ -190,6 +194,8 @@ The defender's positional advantages include proximity to the mat for base, the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Underhook Pass?</p>
 
 ### 1. Sit back into the attacker during the single-to-double underhook transition by dropping your hips toward them and collapsing your turtle base toward their lap
 
@@ -227,6 +233,8 @@ The defender's positional advantages include proximity to the mat for base, the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Underhook Pass?</p>
+
 ### → [[Positions/Crackhead Control]]
 
 Disrupt the pass early by sitting back into the attacker during the underhook threading phase or by stripping the Gable grip before the drive. This resets to neutral Crackhead Control where the attacker must restart their sequence. Maintain active hip movement and tight elbows after the reset to prevent immediate re-entry.
@@ -242,6 +250,8 @@ If the pass progresses past the grip establishment phase, immediately insert you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Underhook Pass?</p>
 
 ### 1. Committing both arms to defending the neck while leaving armpits completely unprotected
 
@@ -271,6 +281,8 @@ If the pass progresses past the grip establishment phase, immediately insert you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Underhook Pass?</p>
+
 **Week 1-2** - Recognition and underhook prevention
 Partner drills single underhook threading from Crackhead Control at 30% speed. Defender focuses on recognizing the tactile cues of underhook entry and practicing elbow pinch defense. Track how often the attacker successfully threads the first underhook. Goal is recognition within one second of the attempt beginning.
 
@@ -287,29 +299,6 @@ Full resistance rounds starting from Crackhead Control. Defender scores points f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive window during the Double Underhook Pass sequence?
-**A**: The most critical window is during the transition from single to double underhook, when the attacker must shift their hip pressure to create the threading angle. At this moment, the attacker has only one underhook established and their weight distribution is temporarily compromised. Defensive actions like sitting back or stripping the first underhook are most effective here because the attacker cannot simultaneously maintain hip pressure, control the first underhook, and thread the second.
-
-**Q2**: You feel the attacker's Gable grip lock at your sternum with both underhooks deep - what is your immediate priority?
-**A**: Immediately attempt to swim one arm free using a circular motion toward the mat to break the Gable grip before the forward drive loads it. If the grip strip fails, instantly transition to granby roll preparation by shifting your hips to the side and preparing to rotate with their drive. Do not waste time trying to stand or push the attacker off - the locked grip makes both of those options ineffective and dangerous. Your window before the drive begins is approximately one to two seconds.
-
-**Q3**: How do you differentiate between the attacker preparing a back take versus setting up the Double Underhook Pass?
-**A**: Back take setups involve the attacker's hands working toward your collar, neck, or seatbelt position on your upper chest and shoulder area. The Double Underhook Pass setup is signaled by the attacker's hands diving under your armpits with upward lifting pressure against your shoulder from below. The tactile difference is unmistakable: back takes attack from above and around your shoulders, while the pass attacks from underneath through your armpit space. Additionally, back take setups typically involve the attacker trying to insert hooks, while the pass setup keeps their legs behind you in the chair-sit.
-
-**Q4**: Your opponent drives forward with the locked Gable grip and your shoulders begin approaching the mat - what is your last-resort defensive option?
-**A**: Insert your near-side knee between yourself and the attacker as your hip contacts the mat. Thread your shin across their centerline and immediately lock your legs around their near leg to establish Half Guard. This must happen during the flattening transition before your shoulders are fully pinned. Once in Half Guard, immediately establish a knee shield or underhook to prevent them from simply completing the pass through the half guard position. This is the final checkpoint before Side Control.
-
-**Q5**: Why is elbow position more important than grip fighting when defending the underhook entries?
-**A**: Your elbow pinched tight to your ribs creates a physical barrier that blocks the underhook pathway entirely. No amount of grip fighting can thread an underhook through a closed armpit. Grip fighting with your hands means your arms are extended and active, which paradoxically opens the armpit space the attacker needs. The elbow-to-rib connection is a structural defense that requires minimal energy to maintain, while grip fighting is a dynamic battle that fatigues your arms and creates timing windows for the attacker to exploit between your grip breaks.
-
-
-
-</section>
 
 
 </main>

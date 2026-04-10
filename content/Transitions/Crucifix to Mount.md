@@ -206,7 +206,7 @@ The Crucifix to Mount transition serves as a critical pathway in the positional 
 
 - [[Transitions/Crucifix Maintenance]] - Alternative to transitioning when crucifix control remains strong
 
-- [[Transitions/Choke from Crucifix]] - Primary submission that creates the dilemma prompting mount transition
+- [[Submissions/Choke from Crucifix]] - Primary submission that creates the dilemma prompting mount transition
 
 - [[Transitions/Armbar from Crucifix]] - Secondary submission option from starting position
 
@@ -216,7 +216,7 @@ The Crucifix to Mount transition serves as a critical pathway in the positional 
 
 - [[Positions/Back Control]] - Alternative transition target from crucifix when back exposure occurs
 
-- [[Submissions/Armbar from Mount]] - High-percentage submission available after successful mount establishment
+- [[Transitions/Mount to Armbar]] - High-percentage submission available after successful mount establishment
 
 
 </section>

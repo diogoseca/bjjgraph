@@ -188,6 +188,8 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Body Lock to Standing?</p>
+
 - Maintain chest connection until the exact moment of explosive separation to prevent premature counter-attacks during the transition
 - Transition from locked grip to hip frames before releasing to ensure structural control exists throughout the entire disengagement
 - Execute the separation as a single explosive movement rather than gradual withdrawal that allows the opponent to follow your retreat
@@ -202,6 +204,8 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Body Lock to Standing?</p>
+
 - Established body lock with secure grip from behind or side of opponent with chest-to-back connection
 - Recognition that current body lock attacks including mat returns, throws, and back takes are being effectively defended
 - Sufficient grip strength and leg energy remaining to execute an explosive push-off separation
@@ -214,6 +218,8 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Body Lock to Standing step by step?</p>
 
 1. **Assess Tactical Situation**: Evaluate whether continued body lock pressure is producing offensive results or if the defensive stalemate, accumulating grip fatigue, or stalling risk makes disengagement the superior tactical choice for advancing the match forward.
 2. **Shift Grip to Transitional Configuration**: Transition from locked gable grip or butterfly grip to an open-hand palm position against the opponent's hips or lower torso, preparing the structural frames needed for the explosive push-off phase while maintaining chest pressure.
@@ -243,6 +249,8 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Body Lock to Standing?</p>
+
 - **Opponent shoots double leg takedown during grip release window** (Effectiveness: High) - Your Response: Maintain chest connection longer than expected, then use a short sharp push-kick to the hip creating distance before the shot can develop fully. If the shot lands, immediately sprawl and work to front headlock control. → Leads to [[Positions/Half Guard]]
 - **Opponent wraps their own clinch grip to maintain connection and prevent clean separation** (Effectiveness: Medium) - Your Response: Use short explosive hip bump to break their connection angle, then immediately post both hands on their hips and drive backward with full leg extension before they can re-establish their grip or lock hands. → Leads to [[Positions/Body Lock]]
 - **Opponent pulls guard during the disengagement transition to establish ground control** (Effectiveness: Medium) - Your Response: Anticipate the guard pull by keeping hips back and backstep immediately when you feel their weight dropping. If they successfully pull guard, begin immediate guard passing sequence rather than attempting to re-stand. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Body Lock to Standing?</p>
 
 ### 1. Releasing locked grip before establishing any transitional frames or structural control
 
@@ -293,6 +303,8 @@ From the attacker's perspective, the Body Lock to Standing transition is a calcu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Body Lock to Standing (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip transition and push-off technique
 Practice the mechanical sequence of transitioning from locked body lock grip to hip frames to explosive push-off with a cooperative partner. Focus on hand placement on hip bones, elbow lock mechanics, and driving angle. No resistance, emphasis on smooth technical execution.
 
@@ -313,36 +325,12 @@ Simulate competition conditions with time limits and scoring awareness. Practice
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Body Lock to Standing transition?
-**A**: The optimal timing window occurs when your opponent's weight is shifted forward into your chest pressure or when they are committed to defending a specific threat like a mat return. This forward commitment makes it harder for them to follow your backward separation. Additionally, initiating when your opponent has just defended your last attack creates a recovery gap where they are least prepared to counter. Avoid initiating when they are actively loading for their own counter-attack or when their weight is settled in a strong defensive base.
-
-**Q2**: What conditions must exist before you should attempt to disengage from body lock to standing?
-**A**: Four conditions should be present: first, your body lock attacks including mat returns, throws, and back take attempts have been effectively defended for multiple exchanges. Second, you have sufficient energy remaining for the explosive separation since a weak push-off will be easily followed. Third, adequate mat space exists behind you for creating distance safely. Fourth, there is no immediately available high-percentage attack from body lock. If any condition is not met, continuing to attack from body lock is likely the superior tactical choice.
-
-**Q3**: What is the most critical mechanical detail during the grip-to-frame transition?
-**A**: The most critical detail is maintaining chest-to-back connection throughout the grip transition phase. Your chest must stay pressed against the opponent until your palms are firmly established on their hips with elbows locked. If you create any gap between your chest and their back before your hip frames are set, you create a control vacuum where you have neither grip control nor frame control. This momentary lack of structural connection is the most dangerous point in the transition and the window where most counter-attacks succeed.
-
-**Q4**: Your opponent maintains a strong base and your body lock takedown attempts have failed three times - how do you decide between continuing to attack versus disengaging?
-**A**: Assess three factors: grip fatigue level, scoring context, and remaining attack variety. If your grip strength is declining and continued holding risks losing the body lock entirely to a grip break, disengage proactively while you still have energy for an explosive separation. If competition scoring penalizes stalling, the reset prevents a penalty. If you have exhausted your primary attack chains without success, the reset allows re-entry from a different angle. However, if untried attack options remain and your grip is strong, continuing to attack is likely superior.
-
-**Q5**: What grip configuration provides the best structural frame for the push-off separation phase?
-**A**: Open palms placed directly on the opponent's hip bones with fingers pointing downward or outward provide the most effective push-off frame. The hip bones offer hard skeletal contact points that prevent your hands from sliding off under force. Lock your elbows to create rigid structural beams from your shoulders through your arms to their hips. This configuration transfers force from your legs through your locked arms directly into their center of mass for maximum separation. Avoid pushing on soft tissue areas like the stomach as your hands will compress rather than generating clean separation force.
-
-**Q6**: Your opponent shoots a double leg the moment you begin releasing your body lock grip - what went wrong and how do you correct it?
-**A**: The error was telegraphing the disengage through preliminary grip loosening or weight shifting before your frames were established. Your opponent read the intention and timed their shot to exploit the transition gap. The correction involves maintaining full chest pressure and grip tension until the exact moment of explosive separation. Do not gradually loosen your grip. Instead, transition from locked grip directly to hip frames in a single swift motion and execute the push-off immediately, giving no readable cues. If the shot does land, sprawl immediately and transition to front headlock control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Body Lock to Standing?</p>
 
 This transition occurs in standing position where falls and collisions are possible during the explosive separation phase. Ensure adequate mat space behind you before executing the push-off to prevent stepping off the mat or colliding with walls and other practitioners. Practice the explosive separation at controlled speeds initially to develop proper mechanics before adding full power. Be aware that your opponent may shoot a takedown during the transition window, so maintain defensive readiness throughout the entire sequence. In training, communicate with your partner before attempting explosive separations to prevent unexpected impacts.
 

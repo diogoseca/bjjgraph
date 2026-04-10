@@ -169,6 +169,8 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 ## Position Definition
 
+<p class="section-subtitle">What is Invisible Collar (Bottom)?</p>
+
 - Defender's back exposed to opponent with attacker's chest connected to defender's upper back, maintaining back control position that defender must escape from immediately
 - At least one opponent hook inserted under defender's leg creating lower body control that limits hip mobility and escape angles available to defender
 - Opponent's hand deeply inserted into defender's collar creating immediate submission threat that defender must address through aggressive hand fighting and neck protection
@@ -182,6 +184,8 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Invisible Collar (Bottom)?</p>
+
 - Opponent has established back control with at least one hook
 - Defender wearing gi with collar material available for opponent's grip
 - Opponent has established or is establishing deep collar penetration
@@ -194,6 +198,8 @@ Successful escape from invisible collar bottom involves systematic approach to n
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Invisible Collar?</p>
 
 - Recognize invisible collar setup early through proactive grip checking
 - Protect neck immediately when collar grip depth increases
@@ -209,6 +215,8 @@ Successful escape from invisible collar bottom involves systematic approach to n
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Invisible Collar (Bottom)?</p>
 
 **If collar grip is shallow and not yet dangerous:**
 - Execute **[[Aggressive Hand Fighting to Remove Grip/Attacker|Aggressive Hand Fighting to Remove Grip]]** → [[Positions/Back Control]] (Probability: 40%)
@@ -232,6 +240,8 @@ Successful escape from invisible collar bottom involves systematic approach to n
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Invisible Collar?</p>
 
 ### 1. Failing to recognize invisible collar setup until choke is already tight
 
@@ -266,6 +276,8 @@ Successful escape from invisible collar bottom involves systematic approach to n
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Invisible Collar defense?</p>
+
 ### Collar Grip Recognition Drill
 
 Partner establishes back control and randomly either establishes invisible collar or maintains standard seatbelt. Defender must identify within 3 seconds whether invisible collar is being set up and respond appropriately. Builds recognition speed and defensive awareness.
@@ -292,38 +304,6 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your opponent is establishing invisible collar rather than standard seatbelt control?
-**A**: Pay attention to their over-hook hand movement. If it begins migrating toward your collar rather than staying on your shoulder or chest, they are likely setting up invisible collar. The key indicator is finger contact with your collar material—any penetration of fingers into the gi near your neck should trigger immediate defensive response. Constantly check their grip position rather than waiting for choking pressure.
-
-**Q2**: What is the essential defensive posture when you recognize invisible collar being established?
-**A**: Immediately tuck your chin aggressively toward your chest and bring both hands to the collar grip area. Your chin should be pressed so tightly that your opponent cannot fit the gi material between your chin and chest. Simultaneously, begin working your hips away to create distance while maintaining the chin tuck. This posture limits choking angles while creating opportunities for grip removal.
-
-**Q3**: Your opponent has established deep invisible collar and begins applying pressure—what emergency response gives you the best chance of survival?
-**A**: Commit both hands to two-on-one grip fighting on their choking hand—grab their wrist with both hands and pull it away from your neck while simultaneously tucking your chin as tight as possible. Accept that this leaves you vulnerable to other attacks but prioritize survival over position. Bridge hard toward the collar grip side to create space and potentially loosen their grip through the movement.
-
-**Q4**: What are the grip priorities when defending invisible collar?
-**A**: Primary priority is controlling their choking wrist with both hands using two-on-one grip. Secondary priority is creating space between your neck and the collar material by pulling the grip away. Third priority is removing hooks to enable turning and escape. Never try to remove hooks first while a deep collar grip exists—the choke will finish faster than the escape.
-
-**Q5**: How do you prevent your opponent from deepening the invisible collar grip during defense?
-**A**: Keep constant hand contact with their choking arm and monitor any attempt to walk fingers deeper into the collar. When you feel them trying to penetrate further, immediately grip their wrist and pull it away from your neck. The key is vigilance—check their grip position every few seconds even when working other defensive actions.
-
-**Q6**: Your opponent transitions to rear naked choke after you successfully defend the collar—how do you manage this chain?
-**A**: When they release the collar to switch to RNC, you have a brief window where their choking arm is uncommitted. Use this moment to trap their switching arm with your hands or tuck it under your armpit. Simultaneously work your hip escape since their attention shifted to the arm transition. The collar-to-RNC transition creates vulnerability if you time your defense correctly.
-
-**Q7**: What hip movement creates the best escape opportunity from invisible collar bottom?
-**A**: Hip escape toward the non-collar side—the opposite direction from their choking hand. This creates space between your neck and their grip while positioning you to turn into them. Avoid hip escaping toward the collar side as this can actually help them finish the choke by rotating your neck into the pressure. The escape direction matters as much as the escape itself.
-
-**Q8**: How do you manage energy when defending a sustained invisible collar attack?
-**A**: Focus on efficient defensive posture rather than explosive escapes. The chin tuck and hand fighting should be sustained, controlled efforts rather than panicked bursts. Time your explosive movements for moments when they commit to finishing—their finishing attempt creates opportunities but only if you have energy remaining. Breathe through your nose despite the pressure and avoid tensing your entire body unnecessarily.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -347,7 +327,7 @@ Start with invisible collar fully established and tight. Defender has 90 seconds
 - **[[Positions/Back Control]]** - Position being defended against
 - **[[Positions/Half Guard]]** - Common escape target position
 - **[[Positions/Turtle]]** - Transitional escape position
-- **[[Transitions/Rear Naked Choke]]** - Alternative submission opponent may use
+- **[[Submissions/Rear Naked Choke]]** - Alternative submission opponent may use
 - **[[Positions/Open Guard]]** - Recovery position after successful escape
 
 

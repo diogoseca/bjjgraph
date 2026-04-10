@@ -102,27 +102,27 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 ### Available Transitions
 
 
-- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (42% of attempts)
+- **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (66% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (14% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (11% of attempts)
 
-- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (14% of attempts)
+- **[[Transitions/Leg Extraction to Guard/Attacker|Leg Extraction to Guard]]** (10% of attempts)
 
-- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (8% of attempts)
+- **[[Transitions/Rolling Back Take Reversal/Attacker|Rolling Back Take Reversal]]** (4% of attempts)
 
-- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (10% of attempts)
+- **[[Transitions/Forward Roll/Attacker|Forward Roll]]** (6% of attempts)
 
-- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (6% of attempts)
+- **[[Transitions/Back Door Escape/Attacker|Back Door Escape]]** (2% of attempts)
 
-- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (4% of attempts)
+- **[[Transitions/Defensive Roll/Attacker|Defensive Roll]]** (0% of attempts)
 
-- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (1% of attempts)
+- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (0% of attempts)
+
+- **[[Transitions/Hip Escape from Truck/Attacker|Hip Escape from Truck]]** (0% of attempts)
 
 - **[[Transitions/Leg Extraction from Truck/Attacker|Leg Extraction from Truck]]** (0% of attempts)
 
-- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (0% of attempts)
-
-- **[[Transitions/Escape from Truck/Attacker|Escape from Truck]]** (1% of attempts)
+- **[[Transitions/Roll to Guard from Truck/Attacker|Roll to Guard from Truck]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -175,7 +175,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - Slow Methodical Attacks: Position rewards patience and systematic progression over rushing
 
-- Dilemma Creation: Force opponent to choose which attack to defend, opening other opportunities
+- Fork Attacks: Force opponent to choose which attack to defend, opening other opportunities
 
 - Back Control Option: Always maintain ability to transition to traditional back control as fallback
 
@@ -185,13 +185,11 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (14% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (12% of attempts)
-
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 
 - **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** (21% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (8% of attempts)
+- **[[Bow and Arrow Choke from Truck/Attacker|Bow and Arrow Choke from Truck]]** (8% of attempts)
 
 - **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** (8% of attempts)
 
@@ -207,7 +205,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Submissions/Banana Split/Attacker|Banana Split]]** (2% of attempts)
 
-- **[[Submissions/Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (2% of attempts)
+- **[[Calf Slicer from Truck/Attacker|Calf Slicer from Truck]]** (14% of attempts)
 
 - **[[Submissions/Spine Lock/Attacker|Spine Lock]]** (1% of attempts)
 
@@ -268,7 +266,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 - **[[Positions/Dogfight Position]]** - Scramble position related to truck escapes
 
-- **[[Positions/Scramble Position]]** - Transition state during truck entries and escapes
+- **[[Positions/Standing Position]]** - Transition state during truck entries and escapes
 
 
 </section>

@@ -181,7 +181,7 @@
           {
             "technique": "Pressure Pass",
             "target": "Side Control",
-            "probability": 55
+            "probability": 30
           }
         ]
       }
@@ -450,7 +450,7 @@
             "probability": 60
           },
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar from New York",
             "target": "Armbar Control",
             "probability": 55
           }
@@ -595,7 +595,7 @@
         "attempt_probability": 6
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar from New York",
         "attempt_probability": 10
       },
       {

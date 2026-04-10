@@ -194,6 +194,8 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame and Escape Mounted Triangle?</p>
+
 - Use skeletal frames against bony structures rather than muscular pushing to create space efficiently and sustainably
 - Protect the trapped arm at all times by keeping it bent and gripped to prevent armbar transition during escape
 - Maintain chin tuck throughout the entire escape to reduce triangle choking pressure and buy time
@@ -208,6 +210,8 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame and Escape Mounted Triangle?</p>
+
 - Free arm positioned against opponent's hip bone for primary structural frame with forearm making bone-to-bone contact
 - Chin tucked and head turned toward trapped arm side to minimize triangle choking angle
 - Trapped arm bent tight to body with grip secured on own collar, opponent's leg, or own opposite bicep
@@ -220,6 +224,8 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame and Escape Mounted Triangle step by step?</p>
 
 1. **Establish Defensive Posture**: Immediately tuck chin toward chest and turn head toward the trapped arm side to reduce the triangle choking angle. Bend the trapped arm tight to your body and secure a grip on your own collar, the opponent's pants, or their leg to prevent arm isolation. These two actions address both the triangle choke and armbar threats simultaneously before beginning any escape movement.
 2. **Create Primary Hip Frame**: Place your free forearm firmly against the opponent's hip on the side opposite your trapped arm, creating a structural wedge using bone-on-bone contact against the bony ridge of their hip. The frame should use the hard edge of your forearm rather than pushing with your palm. Keep your elbow tight to your body for maximum structural integrity and energy efficiency.
@@ -251,6 +257,8 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame and Escape Mounted Triangle?</p>
+
 - **Opponent tightens triangle squeeze and pulls head down when feeling initial frame placement** (Effectiveness: High) - Your Response: Maintain frames in position without abandoning the sequence. The sustained squeeze is metabolically expensive for their legs. Hold frames and breathe deliberately, then reinitiate hip escape when squeeze pressure momentarily decreases as their legs fatigue. → Leads to [[Positions/Mount/Mounted Triangle]]
 - **Opponent transitions to armbar by targeting the extended framing arm during escape attempt** (Effectiveness: Medium) - Your Response: Keep framing arm bent at all times with elbow close to body—never fully extend. If arm begins to be isolated, immediately retract and grip your own wrist with your trapped hand to create a two-on-one defense. Turn toward the opponent to prevent hip pivot needed for armbar completion. → Leads to [[Positions/Armbar Control]]
 - **Opponent posts wide and drives weight down to absorb hip escape momentum and prevent lateral movement** (Effectiveness: High) - Your Response: Chain multiple smaller hip escapes rather than relying on one large movement. Use the frame to block them from re-settling weight between escapes. If they post very wide, their triangle angle loosens—use that moment to accelerate the extraction sequence. → Leads to [[Positions/Mount/Mounted Triangle]]
@@ -262,6 +270,8 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame and Escape Mounted Triangle?</p>
 
 ### 1. Pushing against opponent's legs with fully extended arms instead of creating structural forearm frames
 
@@ -306,6 +316,8 @@ Executing the frame and escape from mounted triangle requires the bottom player 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame and Escape Mounted Triangle (Attacker)?</p>
+
 **Phase 1: Frame Mechanics Isolation** - Building structural frames without resistance
 Practice frame placement against partner's hip from mounted triangle position without resistance. Focus on forearm angle, elbow positioning, and achieving bone-to-bone contact. Drill chin tuck and trapped arm protection simultaneously. 10 repetitions per side, emphasizing correct placement before adding any movement.
 
@@ -326,42 +338,12 @@ Positional sparring from mounted triangle with full resistance. Bottom player wo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when caught in mounted triangle before beginning any escape movement?
-**A**: Immediately establish chin tuck by driving chin toward chest and turning head toward the trapped arm side to reduce the triangle choking angle. Simultaneously bend the trapped arm tight to your body and secure a grip on your own collar or the opponent's leg to prevent arm isolation for armbar. These two actions address both primary submission threats—triangle choke and armbar—simultaneously before any escape movement begins.
-
-**Q2**: Why is it critical to hip escape toward the side of your trapped arm rather than away from it?
-**A**: Hip escaping toward the trapped arm side opens the angle of the triangle structure, reducing choking pressure and creating space for arm extraction. Escaping in the opposite direction actually tightens the triangle angle and increases choke pressure, as the movement drives your neck deeper into the compression created by the opponent's legs. The directional choice is the single most important mechanical detail in this escape.
-
-**Q3**: Your opponent squeezes the triangle harder when they feel your frames being established—how do you respond?
-**A**: Maintain your frames in position without abandoning the escape sequence. The opponent's sustained maximum squeeze is metabolically expensive and will fatigue their legs over time. Continue holding structural frames while breathing deliberately through your nose, then reinitiate the hip escape sequence when you feel the squeeze pressure momentarily decrease. Patience and frame maintenance outlast muscular effort.
-
-**Q4**: What grip should you maintain on your trapped arm throughout the escape and why?
-**A**: Keep the trapped arm bent at approximately 90 degrees and grip either your own lapel in gi training, your own opposite bicep in no-gi, or the opponent's pant leg near their hip. This prevents the arm from extending into armbar vulnerability during the escape. The grip must be maintained throughout the entire sequence because any momentary arm extension creates an immediate submission opening for the mounted opponent.
-
-**Q5**: At what moment during the opponent's attack is the optimal window to initiate your hip escape?
-**A**: The optimal window opens when the opponent commits weight forward to finish the triangle or reaches with their hands to adjust finishing grips like grabbing their shin to pull down. These actions shift their base forward and momentarily reduce the weight pinning your hips to the mat. Time your first explosive hip escape to coincide with this weight shift for maximum distance with minimum energy expenditure.
-
-**Q6**: You have created space with frames but cannot insert your knee shield because the opponent blocks it—what alternative do you pursue?
-**A**: If knee shield insertion is blocked, continue hip escaping to create additional distance while maintaining frame pressure. Thread a butterfly hook with your inside foot against their inner thigh as an alternative structural barrier. If neither knee shield nor butterfly hook is available, continue chaining hip escapes to create enough total space to recover closed guard by inserting both legs inside their hips before they can re-collapse the distance.
-
-**Q7**: What is the most common reason this escape fails at the hip escape stage?
-**A**: The most common failure is performing only a single hip escape and stopping when the opponent adjusts, rather than chaining multiple consecutive hip escapes. One hip escape alone rarely creates sufficient space for knee insertion or arm extraction. Chain three to four consecutive shrimps while maintaining frame pressure throughout, with each movement incrementally increasing the gap until knee shield or half guard recovery becomes achievable.
-
-**Q8**: During your escape attempt, you feel the opponent releasing the triangle and pivoting their hips—what does this indicate and how do you respond?
-**A**: This indicates the opponent is transitioning to an armbar attack, using the hip pivot to isolate your arm. Immediately retract both arms tight to your body and turn toward the opponent rather than away. If possible, grip your own wrist with your free hand to create a two-on-one defense on the targeted arm. Their pivot and triangle release actually creates space—use it to accelerate your hip escape toward guard recovery rather than defending the armbar statically from your back.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame and Escape Mounted Triangle?</p>
 
 When drilling this escape, communicate clearly with your training partner about triangle pressure levels. Begin with light pressure and gradually increase intensity as the technique improves. If you feel lightheaded, experience tingling, or see visual changes from the triangle choke during drilling, tap immediately—never attempt to tough out a locked triangle to practice the escape. Partners applying the mounted triangle should release pressure immediately upon tap and should avoid cranking neck-torquing angles during training. The escape should be drilled with enough realism to develop timing but never at the risk of consciousness loss during the learning process.
 

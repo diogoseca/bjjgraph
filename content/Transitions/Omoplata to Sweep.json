@@ -43,8 +43,8 @@
       "relationship": "Primary submission threat that creates sweep opportunity through defensive reactions"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Initial setup technique for establishing omoplata control before sweep"
+      "name": "Closed Guard to Omoplata",
+      "relationship": "Common entry technique establishing omoplata control from closed guard before sweep"
     },
     {
       "name": "Omoplata to Back",
@@ -59,12 +59,12 @@
       "relationship": "Alternative sweep option from similar guard positions"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative submission from omoplata control if sweep fails"
+      "name": "Baratoplata Setup",
+      "relationship": "Alternative shoulder submission setup from omoplata control if sweep is denied"
     },
     {
-      "name": "Triangle from Closed Guard",
-      "relationship": "Complementary attack creating guard offensive system"
+      "name": "Triangle Setup",
+      "relationship": "Complementary attack from guard creating offensive dilemma system"
     },
     {
       "name": "Mount",
@@ -83,7 +83,7 @@
       "relationship": "Starting control position from which sweep is initiated"
     },
     {
-      "name": "Rolling Omoplata",
+      "name": "Rolling Omoplata from Omoplata Control",
       "relationship": "Dynamic entry variation that combines entry with immediate sweep momentum"
     }
   ],

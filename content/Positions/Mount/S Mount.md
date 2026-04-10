@@ -171,13 +171,13 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (34% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (35% of attempts)
 
 - **[[Transitions/Triangle from Mount/Attacker|Triangle from Mount]]** (15% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (7% of attempts)
+- **[[Americana from S Mount/Attacker|Americana from S Mount]]** (7% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (7% of attempts)
+- **[[Kimura from S Mount/Attacker|Kimura from S Mount]]** (7% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (11% of attempts)
 
@@ -185,11 +185,9 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 - **[[Transitions/Gift Wrap to Back/Attacker|Gift Wrap to Back]]** (12% of attempts)
 
-- **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (3% of attempts)
+- **[[Transitions/S Mount Armbar Setup/Attacker|S Mount Armbar Setup]]** (4% of attempts)
 
 - **[[Transitions/S Mount to Mounted Triangle/Attacker|S Mount to Mounted Triangle]]** (2% of attempts)
-
-- **[[Submissions/Armbar from S Mount/Attacker|Armbar from S Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

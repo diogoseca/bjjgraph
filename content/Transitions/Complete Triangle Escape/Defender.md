@@ -154,6 +154,8 @@ As the person defending against the Complete Triangle Escape, you are the practi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Complete Triangle Escape?</p>
+
 - Opponent intensifies forward stacking pressure, driving weight more aggressively onto your hips and shoulders
 - Opponent begins lateral stepping in circular pattern toward their trapped arm side rather than staying square
 - Trapped arm begins subtle rotational movements within the triangle space, testing for extraction opportunity
@@ -167,6 +169,8 @@ As the person defending against the Complete Triangle Escape, you are the practi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Complete Triangle Escape?</p>
 
 - Maintain hip elevation and perpendicular angle to preserve maximum choking effectiveness against postural recovery
 - Re-lock and readjust figure-four immediately whenever looseness is detected rather than accepting degraded triangle position
@@ -182,6 +186,8 @@ As the person defending against the Complete Triangle Escape, you are the practi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Complete Triangle Escape?</p>
 
 ### 1. Re-lock and tighten triangle by pulling head down forcefully while squeezing legs and readjusting figure-four position
 
@@ -219,6 +225,8 @@ As the person defending against the Complete Triangle Escape, you are the practi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Complete Triangle Escape?</p>
+
 ### → [[Positions/Triangle Escape Position]]
 
 Maintain active triangle pressure by constantly re-locking when looseness develops, matching opponent's circular stepping with hip angle adjustments, and pulling their head down to counter postural recovery. Force repeated escape attempt resets until opponent fatigues or makes an exploitable error.
@@ -234,6 +242,8 @@ When opponent's trapped arm elbow separates from their ribs during extraction at
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Complete Triangle Escape?</p>
 
 ### 1. Maintaining a flat-hipped triangle without elevation or angle when opponent begins stacking
 
@@ -268,6 +278,8 @@ When opponent's trapped arm elbow separates from their ribs during extraction at
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Complete Triangle Escape?</p>
+
 **Phase 1: Counter Recognition** - Identifying each phase of the opponent's escape sequence
 Partner executes the Complete Triangle Escape at slow speed while you practice identifying each phase: posture consolidation, stack intensification, circular stepping initiation, extraction attempt, and guard engagement. Learn to recognize each phase by feel without visual confirmation. Develop automatic counter selection for each recognized phase.
 
@@ -284,26 +296,6 @@ Full resistance positional sparring from locked triangle position. Opponent atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you counter the opponent's circular stepping pattern that is progressively opening your triangle lock?
-**A**: Match their circular stepping by scooting your hips laterally in the same direction, maintaining the perpendicular angle between your legs and their neck that provides maximum choking effectiveness. If stacking pressure prevents hip scooting, use your hands behind their head to create counter-rotational pulling force that resists their circular movement. When both methods fail, recognize the triangle is compromised and transition to armbar on the trapped arm.
-
-**Q2**: What is the optimal timing for transitioning from triangle to armbar during the opponent's escape attempt?
-**A**: The optimal armbar transition window opens when the opponent begins their rotational arm extraction, as this mechanic temporarily separates their trapped arm elbow from their ribs and positions the arm in the plane needed for armbar isolation. This moment typically occurs during Steps 4-5 of their escape sequence. Transitioning too early means releasing a still-effective triangle unnecessarily. Transitioning too late means the arm has already extracted and the opportunity has passed.
-
-**Q3**: Your triangle is being stacked and you cannot maintain hip elevation - what defensive options remain?
-**A**: When stacking has fully compromised your hip elevation and triangle effectiveness, immediately evaluate secondary attack options in priority order: armbar on the trapped arm if elbow has separated from ribs, omoplata transition if your choking leg can swing over their shoulder, or at minimum re-guard to closed guard by releasing the triangle and establishing full guard closure before they can pass. Continuing to hold a structurally compromised triangle wastes energy and misses higher-percentage transition opportunities.
-
-**Q4**: How do you recognize when your triangle is definitively compromised versus temporarily challenged?
-**A**: A temporarily challenged triangle still maintains hip elevation capability, intact figure-four lock, and reduced but active choking pressure producing defensive reactions. A definitively compromised triangle has lost two or more of these elements: flat hips with no elevation, significant slack in the figure-four despite readjustment, and the opponent demonstrates free movement within the triangle space without distress. When two or more elements are lost, immediate transition to secondary attacks is required.
-
-
-
-</section>
 
 
 </main>

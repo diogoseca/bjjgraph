@@ -162,6 +162,8 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inside Ashi-Garami to Ushiro Ashi?</p>
+
 - Attacker's body begins following your hip rotation rather than resisting it, indicating they intend to maintain entanglement
 - Attacker's inside leg releases from your hip frame and begins sliding underneath your trapped leg to reposition
 - Attacker tightens heel grip significantly just before or during the initial phase of your rotation
@@ -173,6 +175,8 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inside Ashi-Garami to Ushiro Ashi?</p>
 
 - Commit fully to the rotation: halfway inversions are the worst outcome, creating maximum vulnerability with minimum escape progress
 - Protect the heel throughout by maintaining dorsiflexion and controlling the attacker's inside knee with your hands
@@ -187,6 +191,8 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Ashi-Garami to Ushiro Ashi?</p>
 
 ### 1. Accelerate rotation speed to complete escape before ushiro is established
 
@@ -224,6 +230,8 @@ The defender in the Inside Ashi-Garami to Ushiro Ashi transition faces a critica
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Ashi-Garami to Ushiro Ashi?</p>
+
 ### → [[Positions/Half Guard]]
 
 Complete the rotation to turtle or standing before the attacker establishes ushiro ashi. Commit fully to the inversion with maximum speed, maintaining heel protection through dorsiflexion. Use the free leg to post and drive away from the attacker's control. Once legs are cleared, immediately establish guard or scramble to top position.
@@ -239,6 +247,8 @@ Reverse rotation direction when you recognize the attacker is following, collaps
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Ashi-Garami to Ushiro Ashi?</p>
 
 ### 1. Stopping the inversion halfway when feeling the attacker follow, creating the worst possible position
 
@@ -268,6 +278,8 @@ Reverse rotation direction when you recognize the attacker is following, collaps
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Ashi-Garami to Ushiro Ashi?</p>
+
 **Phase 1: Recognition Drilling** - Identifying when the attacker initiates the follow
 Partner alternates between resisting your rotation (allowing normal escape) and following your rotation (attempting ushiro). Practice recognizing the difference through feel and visual cues. Develop the sensitivity to detect within the first quarter-turn whether the attacker is following. 20 repetitions per session at slow speed.
 
@@ -284,29 +296,6 @@ Begin in inside ashi-garami with partner at full resistance attacking and follow
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You are rotating to escape inside ashi and feel the attacker following your movement - what is your most important immediate physical action?
-**A**: Maintain strong dorsiflexion on the trapped foot while using your hands to control the attacker's inside knee. These two actions protect against the heel hook finish and prevent the attacker from deepening the entanglement to saddle. The foot position protects the heel from finishing grips, while the hand on their knee prevents their inside leg from transitioning to the underneath position that completes the ushiro configuration.
-
-**Q2**: What distinguishes a successful escape from a failed escape when the attacker attempts to follow your rotation to ushiro?
-**A**: Success is determined by whether your rotation speed outpaces the attacker's leg repositioning. If you complete the rotation to turtle or standing before their outside leg crosses over your knee line and their inside leg threads underneath, you have escaped. If their legs establish the reversed figure-four before you clear the entanglement, you are in ushiro ashi and must shift to ushiro-specific defensive strategies rather than continuing the same escape pattern.
-
-**Q3**: When should you abandon the rotation escape and reverse direction instead of trying to outpace the attacker's follow?
-**A**: Reverse direction when you recognize the attacker has already repositioned their outside leg over your knee line, indicating ushiro is being established faster than your escape is progressing. Also reverse when the attacker's heel grip tightens significantly during your rotation, suggesting they are preparing a mid-transition heel hook attack. The reversal catches them in an intermediate leg position that is weaker than either established inside ashi or consolidated ushiro.
-
-**Q4**: How do you prevent the attacker from transitioning to saddle if they successfully establish ushiro ashi despite your defense?
-**A**: Control their inside knee with both hands to prevent it from sliding deeper along your thigh. The saddle transition requires the attacker's inside leg to achieve deep thigh control past your knee line. By blocking this with active hand fighting on their knee, you limit them to ushiro attacks only and prevent advancement to the higher-control saddle position. Simultaneously continue working to clear their outside leg to create escape opportunities from ushiro.
-
-**Q5**: Your training partner has completed the follow to ushiro and their outside leg is firmly crossed over your knee - what escape hierarchy should you follow?
-**A**: First, protect your heel through dorsiflexion and grip fighting to prevent immediate submission. Second, attempt to clear their outside leg by pulling your trapped leg away while pushing their hip with your free leg. Third, if clearing fails, continue rotating toward turtle to deny heel hook finishing angles. Fourth, if turtle is achieved, immediately begin turtle escapes before they transition to back control. Accept each level of retreat as necessary rather than forcing extraction from deep ushiro entanglement.
-
-
-
-</section>
 
 
 </main>

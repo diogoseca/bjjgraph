@@ -188,6 +188,8 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Guard Pull?</p>
+
 - Establish dominant grips before committing to the descent—never pull guard without at least one strong controlling grip that provides both pulling force and posture control
 - Break the opponent's posture forward before sitting so their weight shifts onto their toes and they cannot sprawl or retreat effectively during your descent
 - Commit fully once you initiate the pull—half-hearted attempts create scrambles where you have neither standing base nor guard structure
@@ -202,6 +204,8 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Guard Pull?</p>
+
 - At least one dominant grip established—ideally collar and sleeve in gi, or collar tie and wrist control in no-gi—providing pulling axis and posture control
 - Opponent within arm's reach distance where grip tension can be maintained throughout the entire descent without losing connection
 - Lead foot positioned between or just inside the opponent's feet, ready to transition to a hook or frame upon landing
@@ -214,6 +218,8 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Guard Pull step by step?</p>
 
 1. **Establish controlling grips**: Secure a dominant collar grip with your power hand, pulling it deep behind the opponent's neck or at the collar seam for maximum leverage. Simultaneously establish a sleeve grip on the opposite side with your secondary hand. These two grips form the foundation of your pull—the collar grip creates your pulling axis while the sleeve grip prevents your opponent from posting or disengaging. Without both grips established, the pull becomes a disorganized fall that invites immediate passing pressure.
 2. **Break opponent's posture forward**: Using your established grips, pull your opponent's upper body forward and down toward you with a sharp, decisive action. The collar grip drives their head and shoulders forward while the sleeve grip prevents them from posting their free hand to resist. This postural disruption shifts their weight onto their toes and eliminates their ability to sprawl effectively during your descent. The posture break should be an explosive jerk rather than a gradual pull, catching the opponent off-balance before they can brace.
@@ -243,6 +249,8 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Guard Pull?</p>
+
 - **Opponent sprawls and drives hips down during descent, denying guard establishment** (Effectiveness: High) - Your Response: Maintain grip tension throughout the sprawl and use their forward drive to load a butterfly hook sweep or collar drag. If they sprawl hard, their weight commits forward, which can be redirected into a technical stand-up or converted to a seated guard position where you can re-engage on your terms. → Leads to [[Positions/Standing Position]]
 - **Opponent strips controlling grips before or during the pull attempt** (Effectiveness: High) - Your Response: If grips are stripped before commitment, abort the pull and re-engage in grip fighting from standing. If grips break mid-descent, immediately transition to a seated guard pull by scooting forward to re-establish contact rather than lying on your back without connection. → Leads to [[Positions/Standing Position]]
 - **Opponent drives forward aggressively during descent to pass immediately** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by loading a butterfly hook sweep as they drive in. Their aggressive forward pressure actually aids sweeps if you have hooks inserted. Frame with your knee shield and redirect their pressure laterally to create an angle for guard recovery. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Guard Pull?</p>
 
 ### 1. Pulling guard without established grips
 
@@ -293,6 +303,8 @@ As the attacker executing the Standing Guard Pull, your objective is to transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Guard Pull (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Descent pattern and landing position
 Practice the sitting motion without a partner. From standing, establish an imaginary grip position, step your lead foot forward, and sit to your hip at an angle. Focus on landing on your hip rather than flat on your back, and immediately inserting an imaginary hook upon landing. Repeat 20-30 times per side until the angular descent is automatic.
 
@@ -310,48 +322,12 @@ Begin standing rounds with the specific objective of executing the guard pull wi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the guard pull relative to your opponent's posture and weight distribution?
-**A**: The optimal timing is immediately after you have broken the opponent's posture forward, when their weight has shifted onto their toes and their hips are above their feet. This is the window where they cannot effectively sprawl or retreat because their center of gravity is already compromised forward. Pulling before the posture break invites a sprawl counter; pulling too late after they recover posture gives them time to brace and strip grips. The ideal pull happens within one second of a successful posture break.
-
-**Q2**: Which grip configuration provides the strongest pulling mechanics for the descent phase?
-**A**: A cross collar grip with the power hand and a same-side sleeve grip with the secondary hand provides the strongest pulling axis. The collar grip pulls the opponent's head and shoulders forward along the centerline, while the sleeve grip controls their posting hand and creates rotational control. This configuration generates pulling force along two perpendicular lines, making it extremely difficult for the opponent to resist in both directions simultaneously. The collar grip should be deep behind the neck for maximum leverage rather than shallow on the lapel.
-
-**Q3**: Why is sitting to the hip rather than falling straight backward critical during the guard pull?
-**A**: Sitting to the hip preserves hip mobility and creates the angular body position needed for effective guard play. Falling straight backward pins both shoulder blades to the mat, eliminates your ability to angle your hips, and places you directly under the opponent's passing pressure with no lateral movement options. The angular landing on the hip keeps one shoulder elevated, maintains the ability to shrimp and adjust angles, and pre-loads the rotation needed to face your opponent's lead side. This hip-first landing is the mechanical foundation for every subsequent guard action.
-
-**Q4**: Your opponent sprawls and drives their hips down as you begin sitting—how do you adjust mid-pull?
-**A**: Maintain grip tension and use their forward drive to your advantage. As they sprawl and commit their weight forward, load a butterfly hook under their thigh and use their momentum to initiate an elevator sweep or redirect them laterally with a collar drag motion. If the sprawl is too heavy to sweep, use frames to create space and transition to a seated guard position where you can re-engage grip fighting. Never abandon your grips during the sprawl—the connection is your lifeline for converting their counter-pressure into your offensive opportunity.
-
-**Q5**: What conditions must exist before you commit to the guard pull from standing?
-**A**: Four conditions must be met: First, at least one dominant grip must be established with enough strength to maintain connection through the entire descent. Second, the opponent must be within effective pulling range where your arm has a slight bend, not fully extended. Third, your lead foot must be positioned between or inside the opponent's stance with a clear path to transition to a hook. Fourth, you must have made a mental commitment to a specific guard variation so your hook insertion is pre-planned rather than improvised. Missing any of these conditions dramatically reduces success rate.
-
-**Q6**: In which direction should your pulling force be applied during the descent to maximize guard establishment success?
-**A**: Your pulling force should be directed diagonally downward and toward you, not straight down. The collar grip pulls the opponent's head and shoulders forward and slightly to the side of your collar grip, creating a rotational off-balancing that prevents them from driving straight forward over you. The sleeve grip pulls laterally to prevent their posting hand from reaching the mat. This combined diagonal force vector tilts the opponent over the axis of your developing guard structure, loading their weight onto your hooks rather than allowing them to remain balanced over their own feet.
-
-**Q7**: Your initial guard pull lands you in open guard but your opponent immediately stands tall and begins stripping your grips—what is your follow-up sequence?
-**A**: Immediately transition to a distance-management guard by placing both feet on their hips to maintain separation while you work to re-establish grips. From feet-on-hips, you have options to transition to De La Riva by hooking their lead leg, collar-sleeve by fighting for upper body grips, or shin-to-shin guard if they step forward. The critical priority is maintaining at least one foot on their hip as a frame while you fight for grips with your hands. Never allow them to stand tall with no leg contact—this is the passing configuration that defeats open guard.
-
-**Q8**: Your opponent strips your collar grip mid-pull while you are already descending—how do you salvage the transition?
-**A**: With the collar grip lost, redirect your free hand to their opposite sleeve or wrist for a two-on-one sleeve configuration, or frame on their shoulder to prevent them from driving forward. Complete the sit but immediately transition to a seated guard posture rather than lying back—scoot your hips forward to close the distance gap created by losing the pulling grip. From seated guard, you can re-establish grips at close range or use your feet on their hips to create controlled distance. The key is not aborting entirely but adapting the landing to a viable guard position despite the compromised grip.
-
-**Q9**: What is the maximum acceptable time between your hip landing on the mat and your first hook insertion?
-**A**: One second is the maximum acceptable window. Beyond one second without a hook or frame, the opponent has time to advance past your legs and begin a passing sequence with positional advantage. Elite guard pullers insert their primary hook during the descent itself, making the landing and hook insertion essentially simultaneous. Training should focus on reducing this gap to zero through pre-planned hook patterns that activate as part of the sitting motion rather than as a separate action after landing.
-
-**Q10**: How should your guard pull strategy change when your opponent has a significant size or strength advantage?
-**A**: Against larger opponents, prioritize distance-creating guard variations like De La Riva or feet-on-hips rather than close-range butterfly guard, because their weight advantage makes close-range control more difficult to maintain. Use a deeper collar grip for greater leverage during the posture break, and sit further away during the descent to create more space for your legs to work. Focus on angular guard play rather than direct hook sweeps, as your leverage advantage increases with distance and angle. Consider the seated guard pull variant to avoid the risk of being crushed during a contested descent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Guard Pull?</p>
 
 Guard pulls carry inherent risk of knee and ankle injuries if the pulling foot gets caught between or under the opponent's legs during descent. Always ensure your lead foot is positioned on the ball with toes pointing outward before sitting, and never initiate the pull with your foot trapped flat under the opponent's base. Jumping guard pulls pose additional risk of slamming injuries for both practitioners and are restricted or banned in many competition rulesets for lower belt divisions. During training, communicate with partners about injury history and increase resistance gradually. Avoid pulling guard on uneven or hard surfaces, and ensure sufficient mat space behind you before committing. If you feel your foot catching during descent, abort the pull immediately by posting your hand and standing back up rather than forcing through the compromised position.
 

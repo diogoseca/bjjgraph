@@ -154,6 +154,8 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Seat Belt to Full Back Control?</p>
+
 - Attacker's leg movement shifts from static base maintenance to angled positioning near your hip crease, indicating preparation for hook threading
 - Increased chest-to-back pressure surge as the attacker drives forward to compensate for the base loss they anticipate during leg movement
 - Attacker's hips shift or angle subtly as they reposition their bottom leg from base position to hook threading alignment
@@ -166,6 +168,8 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Seat Belt to Full Back Control?</p>
 
 - Keep knees pressed together as the primary physical barrier against hook insertion between your thighs
 - Maintain constant micro-movement with your hips to prevent the attacker from settling into a stable insertion position
@@ -180,6 +184,8 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Seat Belt to Full Back Control?</p>
 
 ### 1. Knee clamp defense—press both knees tightly together while tucking feet toward your glutes to create an impenetrable barrier against hook insertion
 
@@ -217,6 +223,8 @@ As the defender against Seat Belt to Full Back Control, your objective is preven
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Seat Belt to Full Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the hook insertion window by timing an explosive hip escape to the insertion side the moment the attacker commits to threading their first hook. Their base is temporarily compromised as they shift leg position, and your hip movement creates enough separation to begin turning your hips toward them. As you turn, trap the insertion leg between your legs to establish half guard, converting their offensive transition into a defensive position reset for them.
@@ -228,6 +236,8 @@ Exploit the hook insertion window by timing an explosive hip escape to the inser
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Seat Belt to Full Back Control?</p>
 
 ### 1. Focusing entirely on fighting the seat belt grip while leaving legs relaxed and open for easy hook insertion
 
@@ -257,6 +267,8 @@ Exploit the hook insertion window by timing an explosive hip escape to the inser
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Seat Belt to Full Back Control?</p>
+
 **Phase 1: Recognition** - Identifying hook insertion attempts
 Partner establishes seat belt control and slowly demonstrates hook insertion sequences. Practice recognizing the physical cues—leg movement, pressure changes, hip shifts—that precede insertion attempts. No active defense yet; focus purely on reading the attacker's body mechanics and timing.
 
@@ -273,26 +285,6 @@ Full resistance positional sparring starting from seat belt control. Defender us
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective passive defense against hook insertion from seat belt back control?
-**A**: Pressing both knees tightly together while tucking your feet toward your glutes creates the most effective physical barrier against hook insertion. This knee clamp prevents the attacker from threading their feet between your thighs regardless of their angle of approach. The defense must be maintained as a constant baseline—relaxing the clamp even momentarily during grip fighting or escape attempts creates the insertion window the attacker is seeking. Supplement the knee clamp with adductor engagement to resist prying attempts.
-
-**Q2**: Why is the hook insertion moment the best time to attempt an escape from seat belt back control?
-**A**: During hook insertion, the attacker must move one leg from its base position into a threading position between your thighs. This movement temporarily removes their lower body stability—they are balanced on one leg with the other in transit. Their attention is split between maintaining seat belt grip and executing the precise leg threading motion. This divided focus and compromised base creates a window where an explosive hip escape or bridge has the highest probability of success because the attacker cannot simultaneously complete the insertion and resist your escape movement.
-
-**Q3**: The attacker has successfully inserted one hook—what is your immediate defensive priority?
-**A**: Immediately re-clamp your knees together to block the second hook insertion. One hook provides significantly less hip control than two—the attacker still lacks the bilateral control needed to prevent your rotation. With one hook blocked and one inserted, you have a viable escape window: use a calculated hip escape toward the hooked side, turning your hips to face the attacker while the single hook transitions into a half guard leg entanglement. Do not panic—the one-hook position is materially more escapable than full back control.
-
-**Q4**: How do you balance defending hooks with defending the choke when the attacker uses neck threats to distract from insertion?
-**A**: Maintain knee clamp as an automatic, passive defense that requires no hand involvement. Your hands should prioritize neck defense—chin tucked, hands protecting the collar line, and controlling the choking wrist. This dual-layer approach defends both threats simultaneously: legs handle hook defense passively while hands handle choke defense actively. When the attacker threatens the choke to open your legs, do not release the knee clamp to use your hands more aggressively on the grip. Instead, increase knee pressure while relying on chin tuck and minimal hand defense for the neck.
-
-
-
-</section>
 
 
 </main>

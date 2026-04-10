@@ -65,8 +65,8 @@
       "relationship": "Related movement - shares inversion mechanics with jailbreak"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Follow-up option - common chain from turtle after jailbreak escape"
+      "name": "Rolling to Guard",
+      "relationship": "Follow-up option - common guard recovery chain from turtle after jailbreak escape"
     }
   ],
   "conditions": [

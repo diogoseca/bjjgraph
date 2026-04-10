@@ -35,7 +35,7 @@
       "relationship": "Common transition target from reverse scarf hold"
     },
     {
-      "name": "Side Control Consolidation",
+      "name": "Side Control",
       "relationship": "Entry position for reverse scarf hold transitions"
     },
     {
@@ -101,7 +101,7 @@
       "Arm Trapping Mechanics: Securing opponent's near arm across their body eliminates their primary defensive tool and creates submission opportunities",
       "Base Width Configuration: Wide leg base with strategic knee placement resists bridging while allowing quick transitions when necessary",
       "Transitional Flexibility: Recognizing when to maintain reverse scarf versus transitioning to more stable positions based on opponent's reactions",
-      "Weight Distribution Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability"
+      "Center of Gravity Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability"
     ],
     "decision_tree": [
       {
@@ -154,7 +154,7 @@
         "actions": [
           {
             "technique": "Knee Slice Pass",
-            "target": "Side Control Consolidation",
+            "target": "Side Control",
             "probability": 60
           },
           {
@@ -233,7 +233,7 @@
         "relationship": "Primary transition target - common advancement when opponent creates space or bridges"
       },
       {
-        "name": "Side Control Consolidation",
+        "name": "Side Control",
         "relationship": "Entry position - reverse scarf hold typically entered from side control when opponent turns in"
       },
       {
@@ -283,11 +283,11 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Americana",
+        "transition": "Americana from Reverse Scarf Hold",
         "attempt_probability": 11
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Reverse Scarf Hold",
         "attempt_probability": 12
       },
       {
@@ -299,7 +299,7 @@
         "attempt_probability": 15
       },
       {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Reverse Scarf Hold",
         "attempt_probability": 9
       },
       {
@@ -523,7 +523,7 @@
         "relationship": "Similar defensive position with traditional scarf hold orientation"
       },
       {
-        "name": "Side Control Consolidation",
+        "name": "Side Control",
         "relationship": "Related defensive position with similar escape principles"
       },
       {

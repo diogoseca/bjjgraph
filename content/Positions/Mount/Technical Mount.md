@@ -100,21 +100,21 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (45% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (50% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (17% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (15% of attempts)
+- **[[Transitions/Upa Escape/Attacker|Upa Escape]]** (14% of attempts)
 
-- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (15% of attempts)
+- **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** (14% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (6% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (5% of attempts)
 
-- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (1% of attempts)
+- **[[Transitions/Back Turn from Technical Mount/Attacker|Back Turn from Technical Mount]]** (0% of attempts)
 
-- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (0% of attempts)
+- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (0% of attempts)
 
-- **[[Transitions/Escape Technical Mount to Half Guard/Attacker|Escape Technical Mount to Half Guard]]** (1% of attempts)
+- **[[Transitions/Bridge from Technical Mount/Attacker|Bridge from Technical Mount]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -159,7 +159,7 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 - Hip Position: Elevated hips facilitate quick transitions to armbar or back take while maintaining enough pressure to prevent escapes
 
-- Weight Distribution: Balance weight across posted leg and inside knee to maintain control during dynamic transitions
+- Center of Gravity: Balance weight across posted leg and inside knee to maintain control during dynamic transitions
 
 - Transitional Mindset: Position entered with specific finishing intent—armbar or back take must follow within seconds
 
@@ -171,7 +171,7 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 ### Available Transitions
 
 
-- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (50% of attempts)
+- **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** (52% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (20% of attempts)
 
@@ -189,9 +189,7 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 - **[[Transitions/Technical Mount to S Mount/Attacker|Technical Mount to S Mount]]** (1% of attempts)
 
-- **[[Submissions/Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (2% of attempts)
-
-- **[[Submissions/Armbar from Technical Mount/Attacker|Armbar from Technical Mount]]** (2% of attempts)
+- **[[Americana from Technical Mount/Attacker|Americana from Technical Mount]]** (2% of attempts)
 
 
 ### Common Mistakes

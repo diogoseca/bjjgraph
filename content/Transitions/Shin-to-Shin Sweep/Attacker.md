@@ -188,6 +188,8 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Shin-to-Shin Sweep?</p>
+
 - Generate three simultaneous forces: shin elevation, upper body pull, and hip extension working together
 - Time the explosive phase to coincide with opponent's forward weight commitment for maximum leverage
 - Establish dominant upper body grips before initiating sweep to prevent posting and base recovery
@@ -203,6 +205,8 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Shin-to-Shin Sweep?</p>
+
 - Active perpendicular shin connection across opponent's lower tibia with constant upward pressure
 - Dominant upper body grip — collar and sleeve in gi, or wrist and collar tie in no-gi
 - Seated posture with hips loaded and ready for explosive extension, not flat on back
@@ -216,6 +220,8 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Shin-to-Shin Sweep step by step?</p>
 
 1. **Confirm shin connection and establish dominant grips**: Verify that your shin maintains strong perpendicular contact across the opponent's lower tibia. Establish your primary upper body grip — same-side collar grip and opposite sleeve grip in gi, or wrist control and collar tie in no-gi. Your shin should be actively pressuring upward into their base, not passively resting against their leg.
 2. **Load hips and create sweep angle**: Sit up slightly to load your hips with potential energy for the explosive extension. Turn your hips approximately 30 degrees toward the intended sweep direction to create the biomechanical angle needed for the off-balance. Your free foot posts on the mat for base or hooks behind their far leg to prevent them from stepping out of the sweep.
@@ -245,6 +251,8 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Shin-to-Shin Sweep?</p>
+
 - **Opponent posts far hand on mat to prevent being swept backward** (Effectiveness: High) - Your Response: Switch to arm drag on the posting hand, pulling it across their body to remove the post and reattempt the sweep or transition to back take → Leads to [[Positions/Shin-to-Shin Guard]]
 - **Opponent widens base and sits hips back to reduce forward weight commitment** (Effectiveness: High) - Your Response: Transition to single leg X-guard entry by threading your free leg under their base, using their withdrawn hips to create the space needed for the entry → Leads to [[Positions/Shin-to-Shin Guard]]
 - **Opponent steps over the shin connection laterally to disengage and circle away** (Effectiveness: Medium) - Your Response: Follow their stepping leg with an outside ashi-garami entry or use the momentum to come to a technical stand and pursue with a single leg takedown → Leads to [[Positions/Open Guard]]
@@ -257,6 +265,8 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Shin-to-Shin Sweep?</p>
 
 ### 1. Initiating the sweep without establishing upper body grips first
 
@@ -301,6 +311,8 @@ Executing the Shin-to-Shin Sweep requires precise coordination of three biomecha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Shin-to-Shin Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated hip extension and shin elevation coordination
 Practice the sweep motion without resistance, focusing on the coordination between shin elevation, hip extension, and upper body pulling. Use a cooperative partner to develop the muscle memory for the three simultaneous forces. Drill 20 repetitions per side, emphasizing the timing between loading the hips and driving through the shin.
 
@@ -321,42 +333,12 @@ Practice the complete sequence from guard pull to shin-to-shin establishment to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What three simultaneous forces must coordinate for the Shin-to-Shin Sweep to succeed?
-**A**: The three forces are: shin-driven upward elevation through the perpendicular connection acting as a fulcrum against the opponent's base, upper body pulling through grips (collar/sleeve or wrist/collar tie) to break their posture and prevent posting, and explosive hip extension providing the primary power to drive the opponent over the tipping point. All three must fire simultaneously — any single force alone is insufficient to complete the sweep against a resisting opponent.
-
-**Q2**: When is the optimal timing window to initiate the explosive phase of the sweep?
-**A**: The optimal window occurs when the opponent commits their weight forward, either to pressure the guard or to attempt clearing the shin connection. This forward commitment loads the shin fulcrum with their body weight, meaning your hip extension drives against a heavier lever — their own weight works against them. Attempting the sweep when the opponent's weight is withdrawn or neutral requires significantly more force and has a lower completion rate.
-
-**Q3**: Your opponent posts their far hand when you attempt the sweep — how do you adjust?
-**A**: The posted hand presents an arm drag opportunity. Release your sleeve grip and redirect to a two-on-one on their posting arm, pulling it across their body to eliminate the post. This simultaneously removes their base and creates an angle for either completing the sweep on the second attempt or transitioning to a back take as they rotate to recover the posted arm. The key is recognizing the post immediately and adjusting rather than continuing to force the blocked sweep.
-
-**Q4**: What grip configuration provides maximum sweeping leverage in gi versus no-gi?
-**A**: In gi, the same-side collar grip combined with opposite sleeve grip provides maximum leverage — the collar grip creates a deep pulling angle that breaks posture while the sleeve grip eliminates the posting hand. In no-gi, a collar tie (same side as shin connection) combined with opposite wrist control replicates the same mechanical advantages. The collar tie replaces the collar grip's posture-breaking function while wrist control replaces the sleeve grip's anti-posting function.
-
-**Q5**: Why must you sit up and load your hips before initiating the sweep?
-**A**: Sitting up creates the loaded hip position necessary for generating explosive extension force. When flat on your back, your hips are already extended and have no range of motion to drive through — the sweep becomes a weak, arm-dependent pull. The seated position stores potential energy in your hip flexors and core, which converts to kinetic energy during the explosive phase. Think of it like coiling a spring — you must compress before you can release power.
-
-**Q6**: Your opponent sits their hips back and widens their base when they feel the sweep threat — what does this open up?
-**A**: A withdrawn, widened base creates the ideal spacing and angle for single leg X-guard entry. Their retreating hips open the space beneath their base for your free leg to thread through, and their widened stance isolates the connected leg for single leg X control. The sweep threat forces them into a position that directly feeds your secondary attack. This is the fundamental dilemma of shin-to-shin offense — defend the sweep and give up single leg X, or maintain narrow base and risk being swept.
-
-**Q7**: What is the most critical detail for consolidating mount immediately after the sweep lands?
-**A**: Maintaining grip connection through the transition is the most critical detail. Releasing grips during the sweep-to-mount transition creates a window where the opponent can frame, bridge, or insert a knee to recover guard. Keep pulling grips active as you advance your hips over their torso, only releasing once your mount is established with heavy hip pressure and wide base. The first three seconds in mount determine whether you consolidate or lose the position.
-
-**Q8**: How does the direction of the sweep change based on the opponent's weight distribution?
-**A**: When the opponent's weight is centered or forward, sweep directly backward by combining shin elevation with a rearward pull through your grips. When their weight shifts laterally (common when they begin circling to clear the shin), redirect the sweep diagonally toward their light side, using the direction they are already unbalanced. Reading weight distribution through the shin connection provides real-time feedback about which direction requires the least force to complete the sweep.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Shin-to-Shin Sweep?</p>
 
 The Shin-to-Shin Sweep is generally low-risk for both practitioners. The primary safety concern involves controlling the landing as the swept partner falls — avoid driving them onto their head or neck by directing the sweep to land them flat on their back. The guard player should be mindful of knee stress on their connected leg during explosive extension, particularly if the shin connection is positioned too high on the opponent's leg near the knee joint. Partners should communicate about knee sensitivity and avoid explosive drilling before warming up the hip and knee joints thoroughly. During training, allow the swept partner to tap or signal if they feel unsafe during the falling phase.
 

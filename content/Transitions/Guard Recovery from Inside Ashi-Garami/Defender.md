@@ -146,6 +146,8 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Inside Ashi-Garami?</p>
+
 - Bottom player releases their heel hook or ankle lock grip and begins transitioning their hands from attacking to framing positions
 - Bottom player's inside hooking leg begins withdrawing from behind your leg, indicating the start of sequential disengagement
 - Bottom player's hips begin rotating away from the leg-entanglement angle toward facing your torso, signaling guard recomposition
@@ -156,6 +158,8 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Inside Ashi-Garami?</p>
 
 - React immediately to the leg release—the transition window is your highest-percentage moment to advance from the entanglement to top position
 - Consider counter-entanglement as your first option when the bottom player's legs are exposed during the disengagement
@@ -170,6 +174,8 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Inside Ashi-Garami?</p>
 
 ### 1. Counter-entangle by stepping over the bottom player's disengaging leg and securing your own Inside Ashi-Garami or cross ashi position on their exposed leg
 
@@ -207,6 +213,8 @@ As the top player whose leg is being released from Inside Ashi-Garami, the botto
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Inside Ashi-Garami?</p>
+
 ### → [[Positions/Ashi Garami]]
 
 Counter-entangle during the disengagement by stepping over the bottom player's exposed leg when they release their inside hook, securing your own ashi garami control with their leg trapped and your legs in dominant position
@@ -222,6 +230,8 @@ Stand up during the leg release and immediately establish combat base with passi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Inside Ashi-Garami?</p>
 
 ### 1. Passively allowing the bottom player to complete their full leg disengagement and hip rotation without any interference
 
@@ -246,6 +256,8 @@ Stand up during the leg release and immediately establish combat base with passi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Inside Ashi-Garami?</p>
+
 **Phase 1: Counter-Entanglement Timing** - Recognizing and executing counter-entanglement during leg disengagement
 Partner releases Inside Ashi-Garami controls at various speeds while you practice stepping over their exposed leg to secure your own ashi garami. Work at 30% resistance to develop timing recognition and automatic counter-entanglement response. Drill 15 repetitions per side.
 
@@ -262,23 +274,6 @@ Start each round in Inside Ashi-Garami with the bottom player working recovery a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the highest-percentage advancement option when you recognize the bottom player is disengaging from Inside Ashi-Garami?
-**A**: Counter-entanglement is the highest-percentage option because the bottom player's legs are most vulnerable during the disengagement phase. As they release their inside hooking leg, it becomes exposed for your counter-step, and their attention is divided between disengaging and composing guard. Securing your own ashi garami during this window reverses the positional dynamic from defensive to offensive with minimal effort, as you are capitalizing on the movement the bottom player is already creating.
-
-**Q2**: When should you choose to stand rather than counter-entangle during Inside Ashi-Garami guard recovery?
-**A**: Stand when the bottom player's leg disengagement is rapid and their legs are already transitioning toward guard barriers rather than remaining exposed for counter-entanglement. Also choose standing when you are fatigued from defending the leg attack and need to reset to a neutral position, or when your own leg lock defense skills make counter-entanglement risky. Standing creates vertical distance that denies close-range guard and allows you to establish combat base with fresh passing angles.
-
-**Q3**: The bottom player has established one foot on your hip during their recovery—how do you prevent full guard recomposition?
-**A**: Grip their ankle controlling the foot on your hip and redirect it either across your body for a leg drag or downward to remove the barrier. Simultaneously advance with your free hand on their other knee or hip to prevent the second leg from establishing a matching barrier. The single foot-on-hip is their intermediate barrier—address it immediately before the second leg arrives to complete the guard structure, as two legs in guard position is significantly harder to pass than one.
-
-
-
-</section>
 
 
 </main>

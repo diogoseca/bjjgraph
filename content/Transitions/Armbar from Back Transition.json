@@ -48,8 +48,8 @@
       "relationship": "Target position on successful execution"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Completion technique from armbar control position"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Completion submission from armbar control position"
     },
     {
       "name": "Rear Naked Choke",
@@ -60,8 +60,8 @@
       "relationship": "Grounded version of starting position with similar armbar options"
     },
     {
-      "name": "Armbar from Back",
-      "relationship": "Similar submission from grounded back control"
+      "name": "Armbar from Crucifix",
+      "relationship": "Alternative armbar setup from crucifix, another position accessible from back control"
     },
     {
       "name": "Bow and Arrow Choke",

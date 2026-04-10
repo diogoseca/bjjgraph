@@ -166,6 +166,8 @@ Successful defense often means accepting a less-than-ideal position rather than 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Sweep with Guillotine?</p>
+
 - Opponent secures guillotine grip from bottom and begins inserting butterfly hooks inside your thighs while maintaining neck control
 - You feel opponent's hips rotating to an angle beneath you rather than staying flat, indicating they are loading the sweep trajectory
 - Opponent pulls your head down while simultaneously hooking your inner thighs with their feet, combining choke pressure with sweep setup
@@ -177,6 +179,8 @@ Successful defense often means accepting a less-than-ideal position rather than 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Sweep with Guillotine?</p>
 
 - Address the guillotine grip and butterfly hooks simultaneously rather than focusing on only one threat
 - Keep your chin tucked and posture as upright as possible to reduce choking pressure on the neck
@@ -191,6 +195,8 @@ Successful defense often means accepting a less-than-ideal position rather than 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Sweep with Guillotine?</p>
 
 ### 1. Posture recovery with chin tuck and hand fighting to strip guillotine grip
 
@@ -228,6 +234,8 @@ Successful defense often means accepting a less-than-ideal position rather than 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Sweep with Guillotine?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Strip the guillotine grip through systematic hand fighting: wedge your inside hand between your chin and their wrist, peel their grip open using both hands while maintaining posture, then re-establish top pressure with head free
@@ -243,6 +251,8 @@ Stand up to break the butterfly hook leverage, then work to strip the guillotine
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Sweep with Guillotine?</p>
 
 ### 1. Driving forward aggressively to flatten opponent without addressing butterfly hooks
 
@@ -277,6 +287,8 @@ Stand up to break the butterfly hook leverage, then work to strip the guillotine
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Sweep with Guillotine?</p>
+
 **Week 1-2** - Recognition and posture fundamentals
 Partner establishes Hindulotine with butterfly hooks at 30% resistance. Practice identifying the combination threat, maintaining chin tuck, and establishing hand position for grip fighting. Focus on not driving forward instinctively. Reset and repeat until recognition becomes automatic.
 
@@ -293,29 +305,6 @@ Full resistance sparring starting in the Hindulotine with butterfly hooks positi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is driving forward the worst possible response when caught in this combination attack?
-**A**: Driving forward loads your weight directly onto the opponent's butterfly hooks, which is precisely the energy source they need to execute the sweep. Your forward pressure becomes their sweep power. The heavier you drive forward, the easier the elevation and the more decisively you get swept into bottom mount with a locked guillotine.
-
-**Q2**: What is the first defensive priority when you recognize the Butterfly Sweep with Guillotine setup?
-**A**: The first priority is preventing your weight from loading onto the butterfly hooks while simultaneously beginning to address the guillotine grip. This means controlling your hip position by keeping hips low and base wide rather than driving forward. You must address both threats at once because focusing on only one feeds directly into the other.
-
-**Q3**: When is standing up the correct defensive choice despite giving up top pressure?
-**A**: Standing is correct when you cannot strip the guillotine grip from the current position and the butterfly hooks are fully engaged. Standing removes the hook leverage entirely and puts you in a position where the guillotine finish is mechanically weaker. Accepting closed guard top with a weakened guillotine is far better than being swept to mount with a locked choke.
-
-**Q4**: How do you execute the Von Flue counter opportunity that this position creates?
-**A**: When you drive your shoulder across their centerline to kill the sweep angle, your shoulder can apply pressure directly into their neck on the near side while they maintain the guillotine. If their grip is loose enough, driving shoulder pressure into the near-side carotid while their own guillotine grip traps their arm creates the Von Flue choke. This requires you to have already neutralized the sweep angle.
-
-**Q5**: Your opponent begins rotating their hips to load the sweep angle - what immediate action prevents the sweep?
-**A**: Step your foot on their choking arm side wide and drop your hip on that side toward the mat. This removes your center of gravity from their sweep trajectory and makes it mechanically impossible to elevate you in the intended direction. Simultaneously begin hand fighting the guillotine grip to reduce choking pressure while your wide base neutralizes the sweep.
-
-
-
-</section>
 
 
 </main>

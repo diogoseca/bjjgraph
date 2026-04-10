@@ -156,6 +156,8 @@ The most critical defensive concept is that your response to the arm drag direct
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag Sweep?</p>
+
 - Opponent secures same-side wrist or sleeve grip while their opposite hand reaches toward your tricep, lat, or shoulder
 - You feel a lateral hip shift from the bottom player creating an angle rather than staying square beneath you
 - Opponent breaks your posture slightly forward with leg pressure while simultaneously controlling one of your arms
@@ -168,6 +170,8 @@ The most critical defensive concept is that your response to the arm drag direct
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag Sweep?</p>
 
 - Maintain elbow connection to your ribs to prevent the arm from being dragged across your centerline
 - Prioritize posture and hip alignment over arm recovery when both are compromised simultaneously
@@ -182,6 +186,8 @@ The most critical defensive concept is that your response to the arm drag direct
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag Sweep?</p>
 
 ### 1. Immediately retract the controlled arm by pulling your elbow sharply back to your ribs while driving your hips forward and down to re-center your base
 
@@ -219,6 +225,8 @@ The most critical defensive concept is that your response to the arm drag direct
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Retract the controlled arm early by pulling your elbow back to your ribs while re-centering your base. Circle your hips toward the drag direction to re-face the opponent squarely. Re-establish both hands on their hips or biceps and drive your posture upright. The key is speed of recognition—the earlier you detect the arm drag, the simpler the recovery.
@@ -234,6 +242,8 @@ When you feel the drag setup, immediately initiate a standing guard break by pos
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag Sweep?</p>
 
 ### 1. Posting the free arm wide on the mat to prevent being swept without addressing back exposure
 
@@ -263,6 +273,8 @@ When you feel the drag setup, immediately initiate a standing guard break by pos
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag Sweep?</p>
+
 **Week 1-2: Recognition and Early Intervention** - Develop ability to identify arm drag setup grips and practice immediate arm retraction
 Partner establishes guard and slowly sets up arm drag grips at 25% speed. Your goal is to identify the grip pattern (same-side wrist plus opposite tricep) and retract your arm before the drag begins. Partner signals when grips are set and gives you 2-3 seconds to respond. Perform 20 repetitions per side, progressively reducing the reaction window. Focus on the elbow-to-ribs retraction motion and simultaneous posture recovery.
 
@@ -279,26 +291,6 @@ After successfully defending the arm drag, immediately transition to a guard pas
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is posting your free arm to prevent the sweep often counterproductive against the arm drag sweep specifically?
-**A**: The arm drag sweep is a dual-threat technique where the attacker wants either the sweep or back control. When you post your free arm, you prevent the sweep but simultaneously create space on your back-exposed side and commit your remaining posting arm to a fixed position on the mat. The attacker reads the post as a signal to abandon the sweep and transition to back control, swimming around the posted arm to establish hooks. A single defensive action that solves the sweep but gifts the back is a net negative exchange since back control is a more dominant position than the side control or mount the sweep would have achieved.
-
-**Q2**: What is the earliest recognition cue that an arm drag sweep is being initiated, and what immediate defensive action should follow?
-**A**: The earliest cue is the combination of same-side wrist grip tightening with the opponent's opposite hand reaching toward your tricep or lat area. This dual-grip setup is distinctive because standard guard attacks typically use cross-body or collar-based grips rather than same-side wrist plus opposite upper arm. The moment you feel this specific grip configuration forming, immediately retract your elbow sharply back to your ribs while driving your posture upright and centering your weight. Early intervention at the grip-establishment phase prevents the drag from ever gaining the momentum needed for execution.
-
-**Q3**: Your opponent has already dragged your arm across and you feel your balance starting to shift. What is the correct emergency response?
-**A**: When the drag is already deep and your balance is compromised, your priority shifts from arm recovery to back protection. Circle your hips aggressively toward the drag direction, driving your chest into the opponent rather than away from them. This forward circling motion closes the back-exposure angle and can re-square your hips to theirs. Simultaneously, use your free arm to frame on their hip or shoulder (not post on the mat) to create the space needed for your hip circle. Accept that you may end up in a scramble or temporarily worse guard position, but preventing back control is worth that trade.
-
-**Q4**: How should your defensive approach differ when the arm drag is attempted from butterfly guard versus closed guard?
-**A**: From butterfly guard, the sweep threat is amplified by the butterfly hook's elevation power, so your primary concern is preventing the hook elevation. Drive your weight down and forward into the opponent while pulling your arm back, using your bodyweight to pin their hook and deny the lift. From closed guard, the sweep relies more on scissoring leg action and hip rotation, so your defense focuses on maintaining upright posture and centered base to resist the rotational force. In both cases, arm retraction is important, but the butterfly guard variant requires more emphasis on weight distribution to counter the hook, while the closed guard variant requires more emphasis on hip alignment to counter the rotation.
-
-
-
-</section>
 
 
 </main>

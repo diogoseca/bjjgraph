@@ -188,6 +188,8 @@ The timing window for this transition typically opens when the opponent shifts t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Single Leg X Transition?</p>
+
 - Use opponent's forward pressure to assist the entry rather than fighting against it
 - Maintain continuous leg contact throughout the transition to prevent disengagement
 - Hip positioning determines success - keep hips tight against opponent's trapped leg
@@ -203,6 +205,8 @@ The timing window for this transition typically opens when the opponent shifts t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Single Leg X Transition?</p>
+
 - Established Grasshopper Guard position with elevated hips and shoulder-based stability
 - At least one leg maintaining active engagement with opponent's lower body
 - Opponent standing or in combat base with at least one leg within threading range
@@ -216,6 +220,8 @@ The timing window for this transition typically opens when the opponent shifts t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Single Leg X Transition step by step?</p>
 
 1. **Secure ankle control**: From Grasshopper Guard, establish a firm grip on the opponent's near-side ankle or heel using your same-side hand. This grip prevents them from stepping away and creates the anchor for threading your legs around their limb.
 2. **Thread outside leg**: Shoot your outside leg (the one furthest from their controlled leg) around and behind their trapped leg, aiming to hook behind their knee. Your calf should make contact with their hamstring as you spiral your leg around.
@@ -244,6 +250,8 @@ The timing window for this transition typically opens when the opponent shifts t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Single Leg X Transition?</p>
+
 - **Opponent sprawls and drives hips back immediately upon recognizing the entry attempt** (Effectiveness: High) - Your Response: Anticipate the sprawl and use their backward momentum to come up into a technical standup or follow with Reverse De La Riva recovery → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent posts hands on your hips and creates distance before the leg can thread completely** (Effectiveness: Medium) - Your Response: Switch to X-Guard entry by shooting both legs to their hips, or disengage to Butterfly Guard to reset the attack → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent steps their targeted leg backward and circles away from the entanglement** (Effectiveness: Medium) - Your Response: Follow with continuous inversion and roll toward them, transitioning to Outside Ashi-Garami on their retreating leg → Leads to [[Positions/Grasshopper Guard]]
@@ -255,6 +263,8 @@ The timing window for this transition typically opens when the opponent shifts t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Single Leg X Transition?</p>
 
 ### 1. Releasing ankle grip before the X configuration is fully established
 
@@ -289,6 +299,8 @@ The timing window for this transition typically opens when the opponent shifts t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Single Leg X Transition (Attacker)?</p>
+
 **Week 1-2** - Entry mechanics
 Drill the basic motion from static Grasshopper Guard position. Partner remains stationary while you practice ankle grip establishment, leg threading sequence, and X configuration. Focus on smoothness and proper hip positioning without resistance.
 
@@ -306,48 +318,12 @@ Apply transition in live rolling situations with full resistance. Focus on creat
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary strategic goal of Single Leg X Transition from Grasshopper Guard?
-**A**: The primary goal is to convert the high-energy, low-sustainability Grasshopper Guard into the stable Single Leg X-Guard position. This transition preserves offensive momentum while establishing a platform that offers sweeping opportunities, submission entries to Inside Ashi-Garami or Outside Ashi-Garami, and clear pathways to back takes - all from a position you can maintain for extended periods without the core fatigue of inversion.
-
-**Q2**: What position do you start Single Leg X Transition from, and what makes it viable?
-**A**: This technique starts from Grasshopper Guard Bottom, an inverted guard position where your shoulders and upper back contact the mat while your hips remain elevated. The elevated hip positioning and existing leg contact with the opponent's lower body provide the mechanical prerequisites for threading into Single Leg X. The inversion gives you angles that would be impossible from seated guard positions.
-
-**Q3**: What are the key grips needed for Single Leg X Transition?
-**A**: The essential grip is ankle or heel control on the opponent's near-side leg using your same-side hand. This grip serves as the anchor that prevents disengagement and enables the leg threading motion. Secondary grips include collar grip in gi or wrist control in no-gi on the same side to prevent posturing. Once established in SLX, transfer to heel control and add sleeve or hip grips for sweep setup.
-
-**Q4**: When is the optimal timing window to attempt this transition?
-**A**: The optimal window opens when the opponent shifts their weight forward toward your trapped leg, narrows their base attempting to engage, or steps toward you to initiate a pass. Their forward pressure loads weight onto the leg you are attacking, which actually assists the entry. Also effective when they attempt to step over your guard, as this commits their leg into your threading range and momentarily compromises their base.
-
-**Q5**: What is the most critical hip position during this transition and why?
-**A**: Your hip must remain tight against the back of opponent's trapped thigh throughout the entire transition. Zero space between your hip bone and their leg is the standard. This tight connection prevents leg extraction by eliminating the slack they need to pull free, and it creates the mechanical leverage needed for both control and subsequent sweeping or submission attacks. Loose hip positioning is the single most common cause of failed entries.
-
-**Q6**: Your opponent posts their hands on your hips to create distance - how do you adjust your entry?
-**A**: When the opponent posts on your hips, they sacrifice their base stability by removing their hands from potential posting positions. Switch to an X-Guard entry by shooting both feet to their hips for double elevation, or immediately sweep by extending your legs while their balance is compromised. Alternatively, use their extended arms to pull yourself toward them by gripping their wrists, completing the original entry before they can reset their base.
-
-**Q7**: Your opponent sprawls backward hard as you begin threading - what is your immediate response?
-**A**: Do not chase the sprawl by overextending in inversion. Instead, use their backward momentum to either come up into a technical standup for a wrestling exchange, or smoothly transition to Reverse De La Riva Guard on their retreating leg. If you still have ankle control, follow them by scooting your hips forward rather than reaching with your legs. The key is converting their defensive reaction into a new attacking angle rather than forcing the original entry against their momentum.
-
-**Q8**: What common failure point should you avoid when threading your outside leg?
-**A**: The most common failure is releasing the ankle grip before the X configuration is complete. Without this anchor, the opponent simply steps away from your threading attempt. Maintain ankle or heel control throughout the entire transition sequence. Only release the grip once your legs are securely crossed behind their thigh and your hip foot is established on their far hip. The ankle grip is your insurance policy during the most vulnerable phase of the transition.
-
-**Q9**: How does the foot on opponent's hip function in the completed Single Leg X position?
-**A**: The hip foot serves three critical functions: it controls distance by preventing the opponent from stepping over your guard or driving forward into a smash pass, it manages their posture by pushing them away from passing angles and keeping their weight elevated, and it provides the extension point for sweep mechanics when you drive your hips and extend your legs. Without the hip foot, Single Leg X loses its offensive capability and becomes easy to pass.
-
-**Q10**: What chain attacks should you threaten if your initial Single Leg X entry is blocked?
-**A**: Flow immediately to alternatives based on how they blocked: Reverse De La Riva recovery if they sprawl back, X-Guard entry if they post hands on your hips, Outside Ashi-Garami if they circle their leg away, Kneebar from Grasshopper if they drop their knee to the mat, or technical standup to wrestling if they fully disengage and create distance. The key is maintaining offensive initiative by reading their defensive reaction and selecting the appropriate chain attack rather than resetting to neutral.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Single Leg X Transition?</p>
 
 The Single Leg X Transition involves inverted positioning which requires adequate neck and spine flexibility. Never force the transition if you feel strain in your cervical spine or lower back. Ensure proper warm-up of hip flexors, hamstrings, and core before drilling. When training with partners, communicate clearly during the transition as the leg threading motion can create unexpected pressure on the trapped leg. Beginners should develop core strength and inversion comfort separately before combining them in this technique. Avoid attempting this transition on fatigued muscles, as loss of hip elevation during entry can result in being stacked uncomfortably.
 

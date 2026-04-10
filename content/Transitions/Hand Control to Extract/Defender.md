@@ -166,6 +166,8 @@ Successful defense requires proactive grip management rather than reactive grip 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hand Control to Extract?</p>
+
 - Opponent's hands shift from posting on the mat to engaging your wrists or forearms, indicating they are transitioning from stabilization to active grip fighting
 - Opponent establishes a two-on-one grip on your primary gripping hand with one hand on your wrist and the other on your forearm or elbow
 - Opponent turns chin toward your shin rather than away, creating breathing space that signals they are preparing for a methodical escape rather than panicking
@@ -177,6 +179,8 @@ Successful defense requires proactive grip management rather than reactive grip 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hand Control to Extract?</p>
 
 - Maintain constant hip elevation to keep shin pressure on the throat regardless of opponent's hand fighting activity
 - Deepen foot position behind the head proactively before opponent can establish two-on-one grip control
@@ -191,6 +195,8 @@ Successful defense requires proactive grip management rather than reactive grip 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hand Control to Extract?</p>
 
 ### 1. Deepen foot position and elevate hips aggressively when you feel opponent's hands engage your wrists
 
@@ -228,6 +234,8 @@ Successful defense requires proactive grip management rather than reactive grip 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hand Control to Extract?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Deepen foot position behind opponent's head before they can establish two-on-one control. Use interlocked finger grip on your own shin rather than cupping the foot, making the grip significantly harder to strip. Elevate hips aggressively at the first sign of hand engagement to tighten the submission beyond the threshold where methodical escape is viable.
@@ -243,6 +251,8 @@ When the grip is partially stripped and re-establishment is unlikely, immediatel
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hand Control to Extract?</p>
 
 ### 1. Passively holding foot grip without deepening position when feeling opponent's hands engage
 
@@ -272,6 +282,8 @@ When the grip is partially stripped and re-establishment is unlikely, immediatel
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hand Control to Extract?</p>
+
 **Week 1-2** - Grip architecture and retention basics
 Practice establishing the most resistant grip configurations on your own foot/shin from gogoplata control. Partner applies light two-on-one pressure while you work on interlocked grip positioning, foot depth, and hip elevation maintenance. No transitions yet - focus purely on retention mechanics.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting from gogoplata control. Work readin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What grip architecture on your own foot is most resistant to two-on-one stripping attempts?
-**A**: Interlocked fingers around your own shin rather than cupping the foot or ankle. The interlocked grip distributes force across all fingers simultaneously, meaning the opponent cannot strip individual fingers. This grip also positions your hands closer to your body where you have more strength.
-
-**Q2**: Your opponent has established a two-on-one on your primary gripping hand and is peeling your fingers - what is your best immediate response?
-**A**: Elevate your hips explosively to tighten the submission while simultaneously using your free hand to push their head deeper into the choke. If the grip is about to be fully broken, transition to triangle by swinging your choking leg over their far shoulder before they can posture. Do not fight the two-on-one with grip strength alone.
-
-**Q3**: When should you abandon the gogoplata and transition to triangle rather than fighting to maintain your grip?
-**A**: Transition when your primary grip hand has been stripped and the opponent has begun lateral head movement. At this point, re-gripping requires pulling your foot back through defended space, which is low percentage. The triangle is immediately available because their posture is broken and their arms are committed to the hand fight, making the leg-over-shoulder entry high percentage.
-
-**Q4**: How does your hip elevation affect the opponent's ability to execute hand control extraction?
-**A**: Elevated hips create perpendicular shin angle against the throat, maximizing compression. This limits the time available for hand fighting because the opponent must breathe against active pressure. When hips drop, the shin angle becomes parallel and compression decreases, giving the opponent unlimited time for methodical grip stripping. Maintaining elevation is your primary retention tool.
-
-**Q5**: Your opponent turns their chin toward your shin during the escape - what does this signal and how should you respond?
-**A**: Chin rotation toward the shin creates breathing space by moving the trachea slightly off the direct compression line. This signals a calm, technically aware opponent preparing for methodical escape rather than panicking. Respond by pulling your foot deeper and using your free hand to turn their chin back away from the shin, restoring the direct compression angle before they can establish hand fighting position.
-
-
-
-</section>
 
 
 </main>

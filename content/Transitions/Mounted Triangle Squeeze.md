@@ -192,7 +192,7 @@ Strategically, the mounted triangle squeeze creates a compounding pressure scena
 
 ## Position Integration
 
-The Mounted Triangle Squeeze occupies a critical intermediate role in the mounted triangle attacking sequence. It bridges the gap between initial triangle establishment and the terminal finish, serving as the pressure-building phase that makes the Mounted Triangle Finish achievable. Within the broader mount attacking system, the squeeze connects to S Mount transitions, armbar setups, and back takes by forcing defensive reactions that expose these secondary attacks. The technique also integrates with the gift wrap control system, as arm control facilitates tighter squeeze mechanics. Understanding the squeeze as a distinct phase rather than just part of the finish allows practitioners to develop a systematic mounted triangle game with clear progression checkpoints.
+The Mounted Triangle Squeeze occupies a critical intermediate role in the mounted triangle attacking sequence. It bridges the gap between initial triangle establishment and the terminal finish, serving as the pressure-building phase that makes the Triangle Choke achievable. Within the broader mount attacking system, the squeeze connects to S Mount transitions, armbar setups, and back takes by forcing defensive reactions that expose these secondary attacks. The technique also integrates with the gift wrap control system, as arm control facilitates tighter squeeze mechanics. Understanding the squeeze as a distinct phase rather than just part of the finish allows practitioners to develop a systematic mounted triangle game with clear progression checkpoints.
 
 </section>
 
@@ -204,7 +204,7 @@ The Mounted Triangle Squeeze occupies a critical intermediate role in the mounte
 
 - [[Positions/Mount/Mounted Triangle]] - Source position where the squeeze is applied
 
-- [[Submissions/Mounted Triangle Finish]] - Terminal submission that follows successful squeeze consolidation
+- [[Submissions/Triangle Choke]] - Terminal submission that follows successful squeeze consolidation
 
 - [[Transitions/Bridge Defense from Mounted Triangle]] - Primary defensive response the attacker must manage during squeeze
 

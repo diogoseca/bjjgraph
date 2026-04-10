@@ -158,6 +158,8 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura on Trapped Arm?</p>
+
 - Attacker releases their free arm from neck control or seatbelt and reaches over your trapped arm toward their own wrist, signaling the figure-four grip transition
 - You feel the attacker's second hand gripping near your elbow or passing over your upper arm as they establish the closed Kimura loop around your trapped limb
 - Attacker shifts their hips laterally toward the side of your trapped arm and begins driving forward, creating the angle needed for shoulder rotation pressure
@@ -168,6 +170,8 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura on Trapped Arm?</p>
 
 - Prevention is the primary defense - fight the Gift Wrap arm trap before the Kimura grip is established, as post-grip defense is extremely difficult
 - Straighten the trapped arm during the grip transition window to remove the bent-elbow fulcrum that makes the Kimura possible
@@ -181,6 +185,8 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura on Trapped Arm?</p>
 
 ### 1. Straighten the trapped arm explosively during the grip transition, driving your hand toward your own hip to remove the bent-elbow fulcrum before the figure-four locks
 
@@ -211,6 +217,8 @@ The critical defensive window occurs during the transition from Gift Wrap to Kim
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura on Trapped Arm?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Straighten the trapped arm during the grip transition window or establish a strong defensive grip on your own clothing to prevent wrist isolation. Either approach forces the attacker to abandon the Kimura attempt and return to standard Gift Wrap attacks, buying you time and resetting the submission threat.
@@ -226,6 +234,8 @@ Time an explosive bridge and full-body rotation to coincide with the attacker's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura on Trapped Arm?</p>
 
 ### 1. Attempting to fight the Kimura grip directly with arm strength once the figure-four is fully locked
 
@@ -255,6 +265,8 @@ Time an explosive bridge and full-body rotation to coincide with the attacker's 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura on Trapped Arm?</p>
+
 **Week 1-2** - Recognition and timing awareness
 Partner slowly transitions from Gift Wrap to Kimura grip while defender identifies each recognition cue. Practice feeling the moment the free arm reaches over the trapped arm without resisting. Build awareness of the grip transition window timing and learn to distinguish Kimura setup from choke setups.
 
@@ -271,29 +283,6 @@ Full resistance positional rounds starting from Gift Wrap Bottom. Defender works
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the highest-percentage defensive window against the Kimura on Trapped Arm?
-**A**: The highest-percentage window is during the grip transition from Gift Wrap to Kimura figure-four. When the attacker releases their free arm from seatbelt or neck control to reach over your trapped arm, their overall control momentarily weakens. This one-to-two-second window allows you to straighten the trapped arm, explosively bridge to rotate, or begin grip defense before the closed loop is fully established.
-
-**Q2**: Your attacker has the Kimura grip locked and begins shifting hips - what is your immediate priority?
-**A**: Immediately anchor your trapped hand by gripping your own belt, pants, or opposite lapel. This prevents wrist isolation and stalls the rotational finish. Simultaneously begin explosive hip escape toward the attacker's hip-shift side to exploit their off-center weight distribution. Do not waste energy trying to muscle out of the figure-four grip directly, as this is futile against properly applied two-arm control.
-
-**Q3**: Why is bridging away from the attacker a defensive mistake during the Kimura attack?
-**A**: Bridging away creates separation space that the attacker fills with deeper hip penetration, improving their finishing angle for the shoulder rotation. It also does nothing to address the Gift Wrap arm trap or the Kimura grip. The correct bridge direction is toward the attacker, rotating your body to face them, which disrupts back control alignment and can break the arm trap through the rotation.
-
-**Q4**: How should you balance defending the Kimura against the risk of choke attacks?
-**A**: Keep your chin tucked throughout the Kimura defense as a passive choke deterrent. If you anchor your trapped hand to your belt for Kimura defense, your free arm must remain ready to redirect to neck defense instantly. Monitor whether the attacker abandons Kimura grip - the moment they release the figure-four, expect an immediate choke transition and get your free hand back to the neck. Never commit both arms fully to Kimura defense.
-
-**Q5**: What body mechanics should you use to straighten the trapped arm during the grip transition window?
-**A**: Drive your trapped arm's hand toward your own opposite hip using a combination of shoulder extension and elbow straightening. The key is to initiate the movement from your shoulder rather than fighting the elbow bend directly. Simultaneously shrimp your hips away from the trapped arm side to create space for the arm to extend. The movement must be explosive and committed - a slow or partial attempt will be absorbed by the attacker without breaking the arm position.
-
-
-
-</section>
 
 
 </main>

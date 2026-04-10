@@ -67,11 +67,11 @@
       "relationship": "Related position - connected guard system with similar off-balancing mechanics"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Alternative submission - attack available when opponent posts arm to defend sweep"
+      "name": "Omoplata",
+      "relationship": "Alternative attack - submission setup available when opponent posts arm to defend sweep"
     },
     {
-      "name": "Triangle from De La Riva",
+      "name": "Triangle Setup from De La Riva",
       "relationship": "Submission option - complementary attack from same guard when opponent postures"
     },
     {
@@ -205,7 +205,7 @@
         "description": "Practice establishing the De La Riva hook position from various open guard scenarios. Drill grip fighting sequences to secure sleeve and collar controls. Work on maintaining the guard against light pressure without attempting sweeps yet."
       },
       {
-        "phase": "Week 3-4: Isolated Sweep Mechanics",
+        "phase": "Week 3-4: Isolated Kuzushi",
         "focus": "Learning the mechanical components of the sweep",
         "description": "Partner remains stationary on knees while you practice the sweeping motion slowly. Focus on hook extension, grip coordination, and hip rotation. Perform 20-30 repetitions per training session to develop muscle memory."
       },
@@ -374,12 +374,12 @@
     ],
     "training_progressions": [
       {
-        "phase": "Week 1-2: Recognition and Base Maintenance",
+        "phase": "Week 1-2: Recognition and Base",
         "focus": "Learning to feel sweep initiation and maintain proper base in DLR guard",
         "description": "Partner establishes DLR guard and slowly initiates sweep attempts at 30% speed. Focus on recognizing the tactile cues of sweep initiation: sleeve pull, hook extension, and hip rotation. Practice maintaining centered weight distribution and wide base without attempting any counter-actions yet. Build awareness of when your weight shifts dangerously forward."
       },
       {
-        "phase": "Week 3-5: Grip Fighting and Hook Removal",
+        "phase": "Week 3-5: Grips and Hook Removal",
         "focus": "Developing systematic grip stripping and DLR hook extraction techniques",
         "description": "Partner plays active DLR guard with full grip fighting. Practice stripping the sleeve grip using various methods: two-on-one break, circular motion break, and same-hand strip. Drill three hook removal techniques: backstep, step back extraction, and knee-to-mat flattening. Partner provides 50% resistance. 20 repetitions per technique per session."
       },

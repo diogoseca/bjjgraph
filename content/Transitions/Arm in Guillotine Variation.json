@@ -14,7 +14,7 @@
   "from_position": "Guillotine Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Arm in Guillotine",
       "probability": 55,
       "result": "success"
     },

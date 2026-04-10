@@ -164,6 +164,8 @@ The defensive strategy centers on preventing the opponent from completing all th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle to Back?</p>
+
 - Opponent's hips begin rotating perpendicular to your spine rather than maintaining the standard triangle choking angle
 - Opponent releases their grip on the back of your head and reaches for your far shoulder with an overhook or collar grip
 - The choking pressure from the triangle decreases noticeably as opponent redirects their leg position from choking to steering
@@ -176,6 +178,8 @@ The defensive strategy centers on preventing the opponent from completing all th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle to Back?</p>
 
 - Recognize the transition initiation early by monitoring opponent's hip angle changes and grip adjustments on your shoulder
 - Turn back into the opponent immediately when you feel them begin rotating perpendicular to your body
@@ -190,6 +194,8 @@ The defensive strategy centers on preventing the opponent from completing all th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle to Back?</p>
 
 ### 1. Turn back into opponent and re-square your shoulders to face them
 
@@ -227,6 +233,8 @@ The defensive strategy centers on preventing the opponent from completing all th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle to Back?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Turn back into opponent the moment you feel their hips rotating perpendicular to your spine. Drive your shoulder into their chest and re-square your body to face them, forcing them to either re-engage the triangle or lose position entirely. The key is speed of recognition and immediate directional change before the first hook is established.
@@ -242,6 +250,8 @@ Exploit the transition window by standing explosively when the opponent releases
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle to Back?</p>
 
 ### 1. Continuing to defend the triangle choke without recognizing the transition to back take
 
@@ -276,6 +286,8 @@ Exploit the transition window by standing explosively when the opponent releases
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle to Back?</p>
+
 **Phase 1: Recognition drilling** - Learning to identify when opponent shifts from triangle finish to back take attempt
 Partner alternates between tightening the triangle choke and initiating the back take transition. Defender calls out which attack is happening as soon as they recognize it. No physical defense yet, purely recognition training. This develops the pattern recognition needed to select the correct defensive response before it is too late.
 
@@ -292,29 +304,6 @@ Start in triangle control with partner attempting the back take at full speed an
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from triangle to back take rather than continuing the choke?
-**A**: The earliest cue is feeling the opponent's hips begin rotating perpendicular to your spine rather than maintaining the standard triangle choking angle. Simultaneously, you will feel the choking pressure decrease as they redirect their leg from squeezing your neck to steering your rotation. The grip change from your head to your far shoulder confirms the transition. Recognizing the hip rotation is critical because it occurs before the grip change and gives you maximum time to initiate defensive action.
-
-**Q2**: Why is turning back into the opponent the most effective initial defensive response?
-**A**: Turning into the opponent directly opposes their rotational goal and forces them to fight through your resistance rather than following your movement. The back take requires them to rotate around your body, and turning into them collapses the rotational arc they need. This either forces them to return to the triangle position where you can resume established escape sequences, or creates a scramble where their control is compromised. Turning away from the opponent, conversely, provides the exact rotational energy they need to complete the back take.
-
-**Q3**: Your opponent has released the triangle and has one hook in but no seat belt grip yet. What is your defensive priority?
-**A**: Your immediate priority is preventing the seat belt grip from being established while simultaneously working to clear the single hook. With only one hook and no upper body control, the opponent's back position is unstable. Clamp your elbows to your ribs to block the underhook entry, then use hip movement to face toward the hook side and begin extracting the hook using standard back escape hip movements. The single hook without seat belt is the weakest phase of their back control and offers the highest probability escape window.
-
-**Q4**: When during the triangle to back transition is the defender's best window for escape?
-**A**: The best escape window occurs during the opponent's grip change phase, when they release their head control grip to reach for the far shoulder overhook or collar grip. During this brief moment, the opponent's upper body control is at its weakest because neither the triangle's head pull nor the back take's overhook is fully established. Explosive posture recovery or a turn-in during this window catches the opponent between two control systems, neither of which is active. This is typically a one-to-two second window that requires pre-planned defensive response.
-
-**Q5**: How should your defensive approach differ when caught in a triangle to back versus a standard back take from turtle?
-**A**: Against the triangle to back, your primary advantage is that you can disrupt the transition before back control is established by turning back into the opponent and re-engaging the triangle defense position. In a standard turtle back take, the opponent already has back exposure and is working to insert hooks. The triangle to back defender should focus on preventing the transition from completing rather than accepting back control and working escapes. Specifically, the turn-in defense is available during triangle to back because the opponent must release their triangle to complete the take, creating a control gap that does not exist in a standard back take from turtle.
-
-
-
-</section>
 
 
 </main>

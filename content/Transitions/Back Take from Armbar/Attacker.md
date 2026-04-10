@@ -190,6 +190,8 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from Armbar?</p>
+
 - Recognize defensive turning as opportunity for positional advancement rather than a frustrating obstacle to the armbar finish
 - Maintain continuous physical contact throughout the transition by never fully releasing all control points simultaneously
 - Thread hooks proactively as the opponent rotates rather than waiting until their back is fully exposed
@@ -204,6 +206,8 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from Armbar?</p>
+
 - Established armbar control from top with both legs positioned across the opponent's torso and head
 - Opponent actively defending by turning toward you, clasping hands, or initiating hitchhiker escape movement
 - Recognition that the armbar finish is currently low-percentage due to the opponent's defensive posture
@@ -216,6 +220,8 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from Armbar step by step?</p>
 
 1. **Recognize defensive rotation**: Monitor the opponent for signs they are committing to armbar defense by turning toward you. Key indicators include hand clasping, body rotation toward the trapped arm side, and attempts to stack or sit up. This turning motion is precisely what exposes their back and creates the transition opportunity.
 2. **Shift grip control**: Release your two-handed wrist grip and transition to controlling the opponent's far shoulder with your top hand while your bottom hand maintains contact on their hip or belt line. This grip change prepares for the back take while preserving enough connection to prevent the opponent from escaping entirely during the transition.
@@ -245,6 +251,8 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from Armbar?</p>
+
 - **Opponent stops rotating and re-extends arm to return to standard armbar defense** (Effectiveness: High) - Your Response: If the opponent stops turning before you can thread the first hook, immediately re-secure your armbar wrist grips and return to standard armbar control. You retain your original dominant position and can threaten the armbar again to provoke renewed defensive turning. → Leads to [[Positions/Armbar Control]]
 - **Opponent explosively hip escapes away during the grip transition window** (Effectiveness: Medium) - Your Response: When the opponent uses the momentary grip looseness to shrimp and create distance, immediately follow with your hips and attempt to re-establish any form of top control. Chase their hips and try to secure at least one hook or transition to a top position before they fully recover guard. → Leads to [[Positions/Half Guard]]
 - **Opponent posts on far hand and drives into you to prevent the back take** (Effectiveness: Medium) - Your Response: If the opponent posts and resists by driving pressure toward you, use their extended posting arm as a potential new armbar target. Alternatively, use the posting arm to set up a triangle or return to your original armbar position with adjusted grips on the newly exposed limb. → Leads to [[Positions/Armbar Control]]
@@ -256,6 +264,8 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from Armbar?</p>
 
 ### 1. Releasing all control points simultaneously during the grip transition
 
@@ -295,6 +305,8 @@ Success depends on reading the opponent's defensive commitment accurately. The a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from Armbar (Attacker)?</p>
+
 **Phase 1: Movement Pattern** - Solo mechanics and partner walkthrough
 Drill the hip switch and hook threading motion without resistance. Partner lies still in armbar defense position while you practice the full transition 20 times per side, focusing on smooth grip changes, leg extraction, and hook insertion sequence.
 
@@ -315,39 +327,12 @@ Positional sparring starting from armbar control. Attacker must decide between f
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary indicator that you should abandon the armbar and transition to the back take?
-**A**: The primary indicator is the opponent committing to turning their body toward you as a defensive response. This rotation, often accompanied by hand clasping and hip movement toward the trapped arm side, is the biomechanical precondition that exposes their back. You should initiate the transition when the opponent has committed enough rotation that they cannot easily reverse direction, but before they complete their escape to a stable position.
-
-**Q2**: Which grip do you establish first when transitioning from armbar control to back control?
-**A**: Shift your top hand from the wrist to the opponent's far shoulder or collar before releasing your bottom hand. This maintains upper body connection during the critical transition moment. The seatbelt grip is then established as the primary back control grip once you have threaded the first hook, with one arm over the shoulder and one under the armpit with hands clasped at chest level.
-
-**Q3**: Your opponent clasps their hands and begins turning toward you during your armbar attempt - what is your immediate response?
-**A**: Immediately begin the back take transition by shifting your top hand to their far shoulder while maintaining bottom hand contact on their hip. Lift your face-side leg to allow their rotation to continue, and thread your bottom leg as the first hook around their far hip as their back opens. The opponent's clasped hands and turning tell you the armbar is well-defended, making the back take the higher-percentage option.
-
-**Q4**: What happens if you release the leg across the face before establishing upper body control?
-**A**: You create a dangerous control gap where the opponent can complete their rotation to face you, sit up, or explode out of the position entirely. Without the leg across the face acting as a control point, and without a new upper body grip to replace it, the opponent has momentary freedom of movement that they can exploit to escape. Always establish shoulder or collar control before releasing the leg to ensure continuous connection throughout the transition.
-
-**Q5**: How do you prevent the opponent from completing their escape during the transition window?
-**A**: Maintain continuous physical contact by overlapping your old and new control points. Your bottom hand stays on their hip as an anchor while your top hand transitions to their shoulder. Thread the first hook immediately as the face-side leg lifts, replacing lower body control before it is lost. The key is eliminating dead time between releasing armbar grips and establishing back control grips so the opponent never has a moment of complete freedom.
-
-**Q6**: What is the correct hook insertion order when taking the back from armbar control?
-**A**: Insert the bottom leg hook first because it is already positioned closest to the opponent's hip from the armbar position. As the opponent turns and their far hip becomes accessible, this leg naturally threads behind them. The second hook comes from the leg that was across their face, which swings over the opponent's body after the seatbelt grip is established. This sequence maintains constant lower body contact throughout the transition.
-
-**Q7**: If the opponent stops turning midway through your back take attempt, what should you do?
-**A**: If the opponent stops rotating before you have threaded the first hook, immediately return to armbar control by re-securing your wrist grips and replacing the leg across their face. You have lost nothing because the armbar position is still available. If you have already threaded one hook but the opponent stops, maintain your seatbelt grip and the single hook while working to insert the second hook from turtle control rather than forcing the transition.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from Armbar?</p>
 
 During training, release all armbar pressure completely before initiating the back take transition. The grip change from arm isolation to shoulder control must not involve any twisting or leveraging of the opponent's elbow joint during the transition. Communicate clearly with your partner when shifting from joint lock to positional control. The transition involves rapid position changes that can torque the trapped arm unexpectedly if control is not released cleanly. Always ensure the arm is free before committing to the rotation, and tap immediately if you feel joint pressure during the transition when drilling as the defender.
 

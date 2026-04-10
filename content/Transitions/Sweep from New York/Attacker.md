@@ -188,6 +188,8 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from New York?</p>
+
 - Wait for the opponent to initiate posture recovery before executing—their upward momentum is your greatest ally
 - The overhook arm pulls while the bridge pushes, creating rotational force the opponent cannot resist without a free posting arm
 - Bridge direction must angle toward the trapped-arm side at approximately 45 degrees, not straight upward
@@ -202,6 +204,8 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from New York?</p>
+
 - Deep overhook secured with shoulder-to-armpit pressure preventing any arm extraction
 - Shin positioned across opponent's upper back with strong grip near the ankle maintaining posture break
 - Opponent's weight loaded forward and onto their trapped-arm side from the broken posture
@@ -214,6 +218,8 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from New York step by step?</p>
 
 1. **Confirm control points**: Verify that your overhook is deep with shoulder tight against the opponent's armpit and your shin grip is solid near the ankle. Both control points must be fully secured before initiating the sweep. If either is compromised, re-establish control first rather than attempting a sweep from a weak position.
 2. **Load weight toward overhook side**: Subtly shift your hips toward the overhook side to pre-load the bridge direction. This small adjustment angles your body so the bridge will travel at approximately 45 degrees toward the trapped arm rather than straight up. The opponent should not feel this weight shift as a distinct movement—integrate it into your normal positional adjustments.
@@ -243,6 +249,8 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from New York?</p>
+
 - **Opponent widens base and drops hips to resist the bridge direction** (Effectiveness: High) - Your Response: Switch to the angle change sweep variant—shift hips laterally first to attack from an angle their widened base cannot defend, or abandon the sweep and advance to Invisible Collar while their posture remains broken. → Leads to [[Positions/Rubber Guard/New York]]
 - **Opponent posts with their free hand on the mat as they feel the bridge initiate** (Effectiveness: Medium) - Your Response: Use your freed shin-grip hand to attack their posting wrist or push it across their body. Their free hand is the only post available, so controlling it removes their last defensive option. If you capture the wrist, re-attempt the bridge immediately. → Leads to [[Positions/Rubber Guard/New York]]
 - **Opponent explosively extracts overhook arm before the bridge completes** (Effectiveness: High) - Your Response: If the overhook is lost during the sweep attempt, immediately transition to triangle control by shooting your leg over their shoulder as the extracted arm creates space. Their extraction movement naturally positions their arm inside your guard for the triangle entry. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from New York?</p>
 
 ### 1. Attempting the sweep while the opponent is settled with a stable base
 
@@ -298,6 +308,8 @@ As the attacker executing the Sweep from New York, your primary advantage is the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from New York (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics Isolation** - Hip bridge direction and power
 Practice the angled hip bridge from supine position without a partner. Focus on driving hips at 45 degrees with maximum explosiveness while maintaining a pulling motion with the overhook arm. Drill 20 repetitions per side, emphasizing the coordination between hip drive and arm pull. Add resistance bands simulating the overhook for tactile feedback.
 
@@ -318,42 +330,12 @@ Positional sparring from Mission Control entry. Bottom player must threaten both
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Sweep from New York?
-**A**: The optimal timing window is the moment the opponent begins driving upward to recover posture or shifting their weight backward to create distance. Their upward or backward momentum combines with your bridge direction, requiring significantly less force to complete the reversal. Executing against a settled, stable opponent with no movement is the lowest-percentage timing and should be avoided in favor of patience.
-
-**Q2**: Why must the bridge angle toward the trapped-arm side rather than straight up?
-**A**: Bridging toward the trapped-arm side at approximately 45 degrees directs the rotational force toward the opponent's structural weakness—the side where their arm is trapped in the overhook and cannot post. A straight upward bridge allows them to post with their free hand on the opposite side, stopping the sweep. The angled bridge attacks the one direction where they have no defensive posting capability.
-
-**Q3**: Your opponent widens their base significantly when they feel you loading the sweep—how do you adjust?
-**A**: Switch to the angle change sweep variant. Shift your hips laterally first to create a sharper attack angle that bypasses their widened base, then bridge from the new angle. Alternatively, abandon the sweep attempt entirely and use their commitment to base-widening as an opportunity to advance to Invisible Collar or Carni, since their defensive focus on the sweep leaves them vulnerable to positional advancement.
-
-**Q4**: What is the critical mechanical detail regarding the shin grip release?
-**A**: The shin grip must be released at the exact moment of bridge initiation—not before and not after. Releasing too early loses posture control before the bridge is ready, allowing the opponent to posture up and escape New York. Releasing too late means the leg is still wrapped around the opponent's back during the bridge, reducing hip power and preventing proper foot planting. The release, foot plant, and bridge must occur as one coordinated movement.
-
-**Q5**: What grip must be maintained throughout the entire sweep and why?
-**A**: The overhook must be maintained from initiation through sweep completion until mount is fully consolidated. The overhook serves three functions during the sweep: it blocks the opponent's posting arm, provides pulling leverage to generate rotational force, and prevents the opponent from framing or recovering guard during the transition to mount. Releasing it prematurely is the most common reason sweeps succeed mechanically but fail to achieve consolidated mount.
-
-**Q6**: How does the sweep threat create a dilemma that improves your submission options from New York?
-**A**: The sweep forces the opponent into a lose-lose scenario. If they remain passive to avoid triggering the sweep timing window, they stay trapped in New York where the bottom player can advance to Invisible Collar, Zombie, or Chill Dog for submissions. If they actively attempt to escape by posturing, they create the exact momentum the sweep exploits. This binary means the opponent must choose between accepting submission danger or sweep danger, making both threats more effective than either would be alone.
-
-**Q7**: Your opponent successfully extracts their arm from the overhook mid-sweep—what is your immediate response?
-**A**: Immediately transition to triangle control by shooting your leg over their shoulder as the extracted arm creates space between your bodies. The extraction movement naturally positions their arm inside your guard, which is the exact configuration needed for a triangle entry. Do not attempt to re-establish the overhook or continue the sweep without it—the overhook is essential for the sweep but the arm extraction creates a better opportunity through the triangle.
-
-**Q8**: What distinguishes the whip-up variant from the standard sweep execution?
-**A**: The whip-up variant uses the rubber guard leg as an active lever during the bridge rather than simply unwrapping it. As you bridge, whip the leg from across the opponent's back to hook behind their far armpit, adding rotational force and providing a posting point to prevent them from rolling through. This variant generates significantly more sweeping power and is used when the opponent has a very strong base that the standard hip bump alone cannot overcome.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from New York?</p>
 
 The Sweep from New York is a positional reversal rather than a joint lock or choke, making it relatively low-risk compared to submission techniques. However, practitioners should be aware of several safety concerns: the explosive bridge can strain the lower back if performed with poor mechanics—drive through the hips rather than arching the lumbar spine. The overhook can create shoulder strain on the trapped opponent if maintained too aggressively during the reversal, so release pressure once mount is established. During training, communicate with your partner about the intensity of the bridge to prevent unexpected impacts when landing in mount. Partners with shoulder injuries should be cautious about the overhook pressure during the sweep rotation.
 

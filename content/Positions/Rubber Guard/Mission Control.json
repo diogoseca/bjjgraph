@@ -251,7 +251,7 @@
         "duration": "5 minutes per round, 3 rounds"
       },
       {
-        "name": "Grip Fighting from Mission Control Top",
+        "name": "Grips from Mission Control Top",
         "description": "Partner establishes Mission Control with focus on head control. Top person's only goal is to prevent deep head control for 3 minutes using free hand to strip grips, maintain distance, and prevent collar ties. Partner uses full effort to establish and maintain head control. Develops grip fighting stamina and defensive hand positioning specific to Mission Control.",
         "duration": "3 minutes per round, 4 rounds"
       },
@@ -316,10 +316,6 @@
     },
     "transitions": [
       {
-        "transition": "Posture Recovery",
-        "attempt_probability": 15
-      },
-      {
         "transition": "Arm Extraction and Pass",
         "attempt_probability": 13
       },
@@ -349,7 +345,7 @@
       },
       {
         "transition": "Posture Recovery from Mission Control",
-        "attempt_probability": 1
+        "attempt_probability": 16
       }
     ]
   },
@@ -646,7 +642,7 @@
         "attempt_probability": 14
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Gogoplata",
         "attempt_probability": 10
       },
       {

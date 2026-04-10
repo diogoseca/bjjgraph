@@ -164,6 +164,8 @@ The critical defensive skill is reading which direction your opponent will rotat
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Rotation Defense?</p>
+
 - Opponent begins bending their trapped knee and pulling it toward their chest, shortening the lever arm - this is the preparatory movement before rotation
 - Opponent's free leg starts posting on your hip or thigh, establishing a frame to create separation and blocking force for their rotation
 - Opponent's torso begins twisting as their hips shift off-center from your perpendicular alignment, indicating committed rotation is imminent
@@ -176,6 +178,8 @@ The critical defensive skill is reading which direction your opponent will rotat
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Rotation Defense?</p>
 
 - Maintain perpendicular alignment to the opponent's body throughout - this preserves ankle lock mechanics and limits their rotation effectiveness
 - Consolidate leg triangle control early to restrict hip mobility before they can initiate rotation
@@ -190,6 +194,8 @@ The critical defensive skill is reading which direction your opponent will rotat
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Rotation Defense?</p>
 
 ### 1. Follow rotation toward inside ashi garami by threading your inside leg through as they rotate away from you
 
@@ -227,6 +233,8 @@ The critical defensive skill is reading which direction your opponent will rotat
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Rotation Defense?</p>
+
 ### → [[Positions/Straight Ankle Lock Control]]
 
 Consolidate leg triangle control before they initiate rotation by crossing your ankles around their thigh and deepening your forearm against their Achilles tendon. When you feel preparatory knee bending, immediately tighten your entire control structure - squeeze legs, deepen grip, and pull their heel tighter to your chest. Early consolidation prevents rotation from being mechanically possible.
@@ -242,6 +250,8 @@ When you recognize them rotating away from you, immediately follow their rotatio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Rotation Defense?</p>
 
 ### 1. Holding static position and fighting rotation with pure strength rather than following their movement
 
@@ -271,6 +281,8 @@ When you recognize them rotating away from you, immediately follow their rotatio
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Rotation Defense?</p>
+
 **Week 1-2** - Rotation direction reading
 From established ankle lock control, partner executes hip rotation in both directions at slow speed. Practice identifying rotation direction and verbally calling out the appropriate transition (inside ashi for rotation away, outside ashi for rotation toward). Build pattern recognition before adding physical responses.
 
@@ -287,29 +299,6 @@ Positional sparring from straight ankle lock control where the bottom player use
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your primary objective when you feel your opponent beginning to rotate their hip during ankle lock control?
-**A**: Your primary objective is to determine their rotation direction and immediately choose between maintaining control by tightening your leg triangle or following their rotation to transition to a more dominant leg entanglement. Rotation away from you opens inside ashi garami, and rotation toward you opens outside ashi garami. Treating their escape as a transition trigger rather than purely a threat to resist converts defensive situations into offensive advancement.
-
-**Q2**: Your opponent starts bending their trapped knee and posting their free foot on your hip - what does this sequence indicate?
-**A**: This is the preparatory sequence for hip rotation defense. The bent knee shortens the lever arm to reduce your ankle lock pressure, while the foot on your hip creates the blocking frame they need to prevent you from following their rotation. You must address both simultaneously: tighten your leg wrap to prevent knee bending and use your free hand or leg adjustment to clear their posted foot before they can execute the rotation.
-
-**Q3**: Why is following the opponent's rotation more effective than resisting it statically?
-**A**: Static resistance against dynamic hip rotation is energy-inefficient and eventually fails against technically proficient escapers. Following their rotation maintains your connection to their leg while converting their movement into transition opportunities. When you follow rotation, their escape energy becomes your advancement energy. Following opens inside or outside ashi garami pathways that would not exist if they remained stationary in your original control.
-
-**Q4**: How do you prevent the opponent's two-on-one grip fighting from breaking your ankle control during their rotation?
-**A**: Deepen your forearm position against their Achilles tendon and pull their heel tighter to your chest so that your grip uses skeletal structure rather than grip strength alone. Pin their heel against your sternum using your entire upper body as the anchor point. When they target your thumb line with two-on-one, rotate your wrist to present a stronger grip angle. Simultaneously tighten your leg control to compound the number of problems they must solve simultaneously.
-
-**Q5**: What timing window do you have to consolidate leg control before hip rotation defense becomes highly effective?
-**A**: You have approximately 3-5 seconds after establishing initial ankle control to consolidate your leg triangle or figure-four leg configuration. Once completed, hip rotation becomes mechanically restricted and the opponent must address your leg control before rotation is possible. If you spend this window focusing solely on the submission finish without consolidating leg control, you create the exact conditions where hip rotation defense succeeds at high percentage.
-
-
-
-</section>
 
 
 </main>

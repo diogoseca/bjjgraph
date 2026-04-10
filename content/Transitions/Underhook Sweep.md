@@ -28,7 +28,7 @@ This technique is particularly effective against opponents who commit their weig
 
 The underhook sweep functions as the central hub of half guard offense. Every defensive reaction your opponent makes to stop this sweep opens a different attack: wide base enables the old school sweep, whizzer defense opens back takes, backward weight shift allows butterfly transitions. This chain-reaction dynamic makes the underhook sweep indispensable for any serious half guard player.
 
-**From Position**: [[Positions/Half Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard]] (Bottom)
 **Success Rate**: 55%
 
 </section>
@@ -225,7 +225,7 @@ The underhook sweep is a cornerstone technique of modern half guard bottom game,
 
 - [[Positions/Dogfight Position]] - Intermediate position during sweep to back take chain
 
-- [[Submissions/Electric Chair Submission]] - Lockdown variation finish
+- [[Positions/Half Guard/Electric Chair]] - Lockdown variation finish
 
 
 </section>

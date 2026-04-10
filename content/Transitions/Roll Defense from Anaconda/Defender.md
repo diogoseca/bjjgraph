@@ -140,6 +140,8 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll Defense from Anaconda?</p>
+
 - Opponent's free hand moves toward the mat to establish a posting position on the roll side
 - Opponent widens their base by spreading knees apart and sprawling legs back in anticipation
 - Opponent's hips begin driving in the opposite direction of your intended roll, creating counter-pressure
@@ -152,6 +154,8 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll Defense from Anaconda?</p>
 
 - Control the opponent's free hand before initiating the roll to eliminate their primary posting defense
 - Commit fully and explosively to the roll once initiated - hesitation gives the defense time to establish
@@ -166,6 +170,8 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll Defense from Anaconda?</p>
 
 ### 1. Control the posting wrist before initiating the roll by trapping it with your free hand or pinning it against their body
 
@@ -196,6 +202,8 @@ As the person holding the anaconda grip and attempting the roll-through finish, 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll Defense from Anaconda?</p>
+
 ### → [[Positions/Side Control]]
 
 Complete the roll-through by either eliminating the post beforehand through wrist control, or using explosive commitment to overwhelm the base defense. Land in side control with the anaconda grip maintained for the finishing squeeze.
@@ -211,6 +219,8 @@ When the roll is successfully defended, maintain the anaconda grip and chest pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll Defense from Anaconda?</p>
 
 ### 1. Initiating a slow, telegraphed roll that gives the opponent ample time to establish posting defense
 
@@ -240,6 +250,8 @@ When the roll is successfully defended, maintain the anaconda grip and chest pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll Defense from Anaconda?</p>
+
 **Phase 1: Defense Recognition** - Identifying roll defense signals from the attacker position
 Partner practices roll defense while you observe and call out the defensive signals: posting hand movement, base widening, hip direction changes. Develop the ability to read the defense before committing to the roll. 20 repetitions focusing purely on observation.
 
@@ -256,23 +268,6 @@ Positional sparring from anaconda control where partner uses full defense includ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you identify that your opponent is preparing a roll defense before you initiate your roll-through?
-**A**: Key indicators include the opponent's free hand moving toward the mat or toward your hip for posting, their base widening as they spread their knees and sprawl their legs, and their hips beginning to drive in the anticipated counter-direction. You may also feel their body becoming heavier and more anchored to the ground. Recognizing these signals allows you to either control the posting hand first or adjust your approach to overwhelm the prepared defense.
-
-**Q2**: Why is controlling the opponent's free hand considered the highest-percentage counter to the roll defense?
-**A**: The posting hand is the cornerstone of the roll defense. Without it, the opponent must rely entirely on hip direction and base width to resist the roll, which are significantly less effective without the structural anchor the hand provides. By trapping the wrist or pinning the free hand, you eliminate approximately 60-70% of the defense's effectiveness. This makes the roll-through nearly unstoppable even against opponents who have strong hip defense, because the hand post provides the critical structural resistance.
-
-**Q3**: Your opponent defends the roll successfully and you remain in anaconda control - what should your immediate follow-up strategy be?
-**A**: Do not immediately attempt a second roll in the same direction, as the opponent's defense is now primed for it. Instead, maintain tight anaconda control and choose from three options: first, transition to dead orchard control for an alternative finishing angle; second, attempt the roll in the opposite direction after a brief feint; third, apply stationary squeeze pressure to force the opponent to address the choke, potentially opening up their posting defense for a subsequent roll attempt. The key is maintaining offensive pressure without becoming predictable.
-
-
-
-</section>
 
 
 </main>

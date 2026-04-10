@@ -188,6 +188,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Fireman's Carry?</p>
+
 - Deep penetration step to get underneath opponent's center of gravity
 - Simultaneous arm control and level change to break opponent's base
 - Hip placement directly under opponent's hips for maximum lifting efficiency
@@ -203,6 +205,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Fireman's Carry?</p>
+
 - Standing position with some form of clinch engagement established
 - Access to opponent's arm on one side (wrist or triceps control)
 - Opponent maintaining relatively upright posture rather than hunched defensive stance
@@ -217,6 +221,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Fireman's Carry step by step?</p>
 
 1. **Establish grip control**: Begin from a standing clinch position, typically with collar ties or underhooks. Secure a firm grip on your opponent's lead arm, controlling either the wrist or the triceps area. Your opposite hand should be positioned on the opponent's shoulder, neck, or opposite arm to maintain connection and prevent them from creating distance.
 2. **Execute level change**: Drop your level rapidly by bending at the knees and hips, lowering your center of gravity significantly below your opponent's. As you drop, pull the controlled arm downward and across your body. Your head should drive toward the opponent's far hip while your shoulders remain square. This sudden level change disrupts their balance and creates the opening for penetration.
@@ -246,6 +252,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Fireman's Carry?</p>
+
 - **Opponent sprawls and drives weight backward** (Effectiveness: High) - Your Response: If they sprawl early before you establish the carry position, immediately switch to a single leg or double leg finish, or transition to front headlock control. The key is recognizing the sprawl quickly and adapting rather than fighting through it. → Leads to [[Positions/Clinch]]
 - **Opponent whizzers the lifting arm** (Effectiveness: Medium) - Your Response: If they establish a strong whizzer (overhook) on your lifting arm, you can continue the technique by adjusting your grip lower on their leg and driving harder with your hips forward. Alternatively, use the whizzer position to transition to a duck under or back take. → Leads to [[Positions/Clinch]]
 - **Opponent posts their free hand on the ground** (Effectiveness: Medium) - Your Response: If they post during the descent phase, maintain control of their other arm and leg, then circle away from the posted hand while driving your shoulder into them. You can also attack the posted arm with a kimura grip as they try to base. → Leads to [[Positions/Clinch]]
@@ -259,6 +267,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Fireman's Carry?</p>
 
 ### 1. Shallow penetration step that doesn't get hips under opponent
 
@@ -303,6 +313,8 @@ The Fireman's Carry is a classical wrestling takedown that has found valuable ap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Fireman's Carry (Attacker)?</p>
+
 **Week 1-2: Technical Foundation** - Drilling the mechanical sequence without resistance
 Practice the individual components separately: level change mechanics, penetration step depth, carry position setup, and lifting technique with proper leg drive. Partner remains upright and cooperative. Focus on achieving deep penetration and maintaining straight back during lift. Perform 20-30 repetitions per session emphasizing technical precision over speed.
 
@@ -326,54 +338,12 @@ Regularly drill technique to maintain muscle memory and explosive power. Study h
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical component of the Fireman's Carry that determines whether the lift will be successful?
-**A**: The depth of the penetration step is the most critical component. Your lead foot must step deep between the opponent's legs, positioning your hips directly underneath theirs and lower than their center of gravity. Without proper penetration, you cannot generate sufficient lifting leverage, and the technique will fail regardless of how strong you are. The penetration step must place your shoulder in contact with their midsection and your hip below theirs.
-
-**Q2**: Why is it important to lift with your legs rather than your back when executing the Fireman's Carry?
-**A**: Lifting with your legs rather than your back is essential for both safety and effectiveness. Using leg drive by straightening your knees and hips generates much more power than trying to lift with back muscles, making the technique work against larger opponents. More importantly, lifting with your back puts enormous stress on the spine and can cause serious injury, particularly when lifting and rotating simultaneously. Proper technique requires keeping the back straight and rigid while the legs provide all the lifting force.
-
-**Q3**: How should you respond if your opponent sprawls hard as you attempt the initial level change?
-**A**: If the opponent sprawls successfully before you can establish the carry position, you should immediately abandon the Fireman's Carry and transition to alternative techniques rather than fighting through the sprawl. Effective options include: switching to a single leg or double leg finish, transitioning to front headlock control, executing a duck under to their back, or pulling guard. The key is recognizing the sprawl quickly and adapting smoothly to a technique that works better against the lowered defensive posture.
-
-**Q4**: What is the purpose of the rotational component during the descent phase of the Fireman's Carry?
-**A**: The rotational component serves multiple purposes: First, it uses angular momentum to help swing the opponent completely off your shoulders and onto their back rather than just dropping them to their side. Second, the rotation helps you maintain control throughout the descent and positions you to land in a dominant top position (side control or mount) rather than in a scramble. Third, the rotation makes it much harder for the opponent to post or catch themselves during the fall, ensuring they land flat on their back with you in control.
-
-**Q5**: Why is controlling the opponent's arm throughout the entire technique so important?
-**A**: Controlling the opponent's arm from setup through landing serves several critical functions: During the setup and lift phases, it prevents them from establishing defensive frames or grips that could stop your penetration and lifting motion. It also helps break their posture and pull their weight onto your shoulders. During the descent and landing phases, arm control prevents them from posting to catch their fall or to create space. Without continuous arm control, the opponent can use their free arm to defend at multiple points during the technique, significantly reducing your success rate and potentially allowing them to counter or escape.
-
-**Q6**: What are the key differences between executing a Fireman's Carry against an upright opponent versus one who has lowered their level?
-**A**: Against an upright opponent, the Fireman's Carry is highly effective because the height differential allows for deep penetration and efficient leverage for the lift. However, against an opponent who has lowered their level and dropped their hips, the technique becomes much less effective and should generally be abandoned in favor of other options. When the opponent lowers their level, you cannot achieve the necessary depth of penetration, the height differential disappears making the lift mechanically inefficient, and they have a stronger base that resists the lifting motion. The Fireman's Carry specifically exploits an upright posture and high center of gravity, so technique selection should adapt to the opponent's positioning.
-
-**Q7**: Your opponent establishes a strong whizzer as you attempt the lift - what adjustment do you make?
-**A**: When the opponent establishes a whizzer (overhook) on your lifting arm, you have two primary options. First, you can continue with the Fireman's Carry by adjusting your leg grip lower toward the knee and driving harder with your hips forward to complete the lift despite the whizzer resistance. Second, you can use the whizzer as an opportunity to transition to a duck under or back take, since the whizzer commitment leaves their opposite side vulnerable. The key is recognizing the whizzer early and making a decisive choice rather than fighting through heavy resistance inefficiently.
-
-**Q8**: What is the optimal direction of force during the lifting phase of the Fireman's Carry?
-**A**: The direction of force during the lift should be primarily vertical and slightly forward, driving upward through your legs while your shoulders rise together to maintain the opponent's weight balanced across your upper back. The force comes from straightening your knees and hips explosively while pulling down on the controlled arm and behind the opponent's knee. The vertical component lifts them off the ground, while the slight forward angle keeps their weight committed over your base rather than falling backward. Avoid pulling backward or sideways, which compromises your base and reduces lifting efficiency.
-
-**Q9**: What entry conditions must exist before you can successfully attempt a Fireman's Carry?
-**A**: Several conditions must exist for a successful Fireman's Carry attempt: the opponent must have relatively upright posture with their center of gravity high rather than lowered defensively; you must have secure control of one of their arms (wrist or triceps); there must be a clear pathway between their legs for your penetration step; your own base must be stable with feet positioned for explosive movement; and the opponent's weight should be centered or slightly forward rather than back on their heels. If any of these conditions are missing, alternative techniques should be selected instead.
-
-**Q10**: If the Fireman's Carry is blocked but you maintain arm control, what chain attacks become available?
-**A**: When the Fireman's Carry is blocked but you maintain arm control, several chain attacks become available depending on the opponent's defensive reaction. If they sprawl and lower their hips, you can transition to a single leg attack on the near leg or switch to an ankle pick. If they whizzer hard, the duck under to back take becomes available. If they drive forward to resist, a snap down to front headlock creates guillotine and choke opportunities. If they post with their free hand, the kimura grip on the controlled arm becomes an option. The key is maintaining the arm control as your anchor point while reading their defensive reaction to select the appropriate follow-up.
-
-**Q11**: What is the optimal timing window to initiate the Fireman's Carry during clinch exchanges?
-**A**: The optimal timing window for the Fireman's Carry occurs when the opponent momentarily shifts their weight forward or rises to a more upright posture during grip fighting exchanges. Specific windows include: immediately after they establish a grip and before they can settle their base; when they pull back upward after resisting a snap down; when they step forward to close distance; or when they transition between grip configurations. The worst timing is against a settled, low-hipped opponent with established defensive posture. Disguise your level change within normal hand fighting movements to exploit these windows before the opponent can recognize and defend.
-
-**Q12**: You attempt the Fireman's Carry but your opponent posts their free hand during the descent - how do you complete the takedown?
-**A**: When the opponent posts their free hand during the descent phase, you must address the post while maintaining your existing controls. Circle your body away from the posted hand so their arm has to support increasing bodyweight at a worsening angle. Simultaneously drive your shoulder hard into their midsection to collapse the post. If the post is too strong to overcome, transition your grip from their leg to the posted arm and attack a kimura grip, which converts the defensive post into a submission vulnerability. Never release your original arm control during this adjustment - it remains your primary anchor throughout the recovery.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Fireman's Carry?</p>
 
 When practicing the Fireman's Carry, controlled execution is paramount to prevent injury to both yourself and your training partner. The most critical safety concern is the descent phase - you must guide your partner to the mat in a controlled manner rather than slamming or dropping them, particularly being mindful of their head and neck positioning. Never release control during the throw; maintain grips throughout the descent to control the landing. For your own safety, always maintain a straight back during the lifting phase and generate power from your legs, not your back, to prevent spinal injury. Start practice with cooperative drilling where your partner is lifted and gently placed down, gradually progressing to more dynamic execution only after mastering the mechanics. Ensure you're practicing on appropriate matting that provides cushioning for takedowns. Communication with your partner is essential - agree on the level of resistance and speed beforehand, and use verbal or tap signals if anything feels unsafe during execution. Be particularly cautious about your partner's shoulder and arm positioning during the carry phase to avoid joint stress. When learning, practice the level change and penetration components separately before adding the lift, and only add rotation and dynamic landing after mastering controlled static versions.
 

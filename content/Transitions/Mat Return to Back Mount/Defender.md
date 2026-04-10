@@ -164,6 +164,8 @@ The most common defensive error is passivity. Practitioners who accept the stand
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mat Return to Back Mount?</p>
+
 - Opponent tightens their harness grip suddenly, pulling elbows tight and eliminating slack in the seatbelt configuration
 - You feel opponent's leg begin to hook or kick at your near-side leg, attempting to sweep it out from under you to break your base
 - Opponent shifts their weight heavily into your back and begins driving you in a specific direction, committing their hips forward
@@ -176,6 +178,8 @@ The most common defensive error is passivity. Practitioners who accept the stand
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mat Return to Back Mount?</p>
 
 - Maintain a wide, active stance with knees bent to make base breaking extremely difficult for the attacker
 - Never stop moving - constant weight shifts and directional changes prevent the attacker from reading your balance and committing to a takedown direction
@@ -190,6 +194,8 @@ The most common defensive error is passivity. Practitioners who accept the stand
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mat Return to Back Mount?</p>
 
 ### 1. Widen stance and sprawl hips back to deny base break
 
@@ -227,6 +233,8 @@ The most common defensive error is passivity. Practitioners who accept the stand
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mat Return to Back Mount?</p>
+
 ### → [[Positions/Back Control/Standing Back Control]]
 
 Maintain wide active base with constant movement, aggressively strip harness grips using two-on-one technique, deny opponent's ability to break your stance by sprawling hips back when you feel the leg attack, and keep shifting direction so they cannot read your weight distribution for the takedown timing
@@ -242,6 +250,8 @@ When the mat return becomes inevitable, preemptively drop to your knees with elb
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mat Return to Back Mount?</p>
 
 ### 1. Standing passively with a narrow stance while opponent controls standing back position
 
@@ -276,6 +286,8 @@ When the mat return becomes inevitable, preemptively drop to your knees with elb
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mat Return to Back Mount?</p>
+
 **Week 1-2** - Recognition and base maintenance
 Partner establishes standing back control and slowly initiates mat return attempts at 25% speed. Practice recognizing the takedown initiation cues - harness tightening, leg attacks, weight shift - and responding with base widening, hip sprawl, and stance adjustments. Focus purely on staying standing for as long as possible.
 
@@ -292,29 +304,6 @@ Live positional sparring starting from standing back control bottom. Partner att
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you recognize your opponent is initiating a mat return from standing back control?
-**A**: Immediately widen your base and sprawl your hips back while maintaining grip fighting on the harness. The wider stance makes your base significantly harder to break, and the hip sprawl removes the leverage the attacker needs to kick out your legs or trip you. You must address the base-breaking attempt before it gains momentum, as once your stance is compromised the takedown becomes very difficult to stop.
-
-**Q2**: Why is preemptively dropping to turtle sometimes the best defensive option against the mat return?
-**A**: Dropping to turtle on your own terms allows you to land in a defensively sound position with elbows tight to knees, chin tucked, and back rounded before the opponent can control the descent direction and landing angle. A controlled turtle gives you immediate access to granby rolls, sit-throughs, and guard recovery options, whereas being driven down by the mat return often results in flat back mount with hooks already established.
-
-**Q3**: Your opponent has initiated the mat return and you are being driven to the mat - what should your arms do during the descent?
-**A**: Keep your arms tucked tight to your body with elbows close to your ribs and hands protecting your neck. Do not post a straight arm into the mat, which risks shoulder or wrist injury and fails to stop the descent. Instead, use a breakfall technique with flat palm contact on the mat upon landing and immediately transition your hands to fight any hook insertion attempts by the attacker.
-
-**Q4**: How does the defender's base position influence which direction the attacker will attempt the mat return?
-**A**: The attacker reads your weight distribution through their chest connection and attacks the direction where your base is weakest. If your weight is forward, they take you backward. If you lean to one side, they attack the opposite side. Understanding this allows you to deliberately shift your weight to bait the attacker into a direction where you have prepared a counter, or to keep your weight centered so no single direction presents an easy takedown.
-
-**Q5**: What is the critical window for preventing hook establishment after landing from a mat return?
-**A**: The first one to two seconds after contacting the mat represent the critical window. During this brief period, the attacker is transitioning from takedown mechanics to ground control mechanics and their hooks are not yet fully set. You must immediately bring your knees together, begin kicking to prevent foot insertion inside your thighs, and begin turning toward turtle or initiating hip escape. Once hooks are established and the attacker settles their weight, you are in full grounded back control and escape difficulty increases dramatically.
-
-
-
-</section>
 
 
 </main>

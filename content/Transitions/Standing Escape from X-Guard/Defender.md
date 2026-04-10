@@ -85,6 +85,22 @@ description: "Complete guide to defending against the Standing Escape from X-Gua
         "@type": "Answer",
         "text": "Transition to butterfly guard when both the outside frame and inside hook have been significantly compromised — specifically when the outside leg has been pushed below your hip line and the inside hook is above the knee crease. At this point, X-Guard structure is too degraded to generate effective sweeps or retain the position. Retracting both legs into butterfly hooks gives you a functional guard with immediate sweep threats that prevent the top player from standing up freely. The key is recognizing the transition point early enough to establish butterfly hooks before the top player creates full separation."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "The top player is collapsing your outside frame and your X-Guard is deteriorating — can you convert this into a leg entanglement entry?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when the top player drives your outside leg downward to collapse your frame, you can redirect that leg between their legs to initiate an ashi garami or honey hole entry. As they commit weight forward during the frame collapse, retract your outside leg and thread it inside their stance while your inside hook redirects from behind the knee into a heel hook configuration on the far leg. The critical timing is during their forward weight commitment, which prevents them from retracting their leg out of your entanglement. This works because the top player expects you to resist the frame collapse rather than redirect the energy into a leg attack. Only attempt this when you have sufficient leg dexterity to establish the entanglement before they fully clear your hooks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Your opponent has stripped your ankle grip and is now reaching to push down your outside leg — what is your best immediate response?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your best response depends on whether the top player's base is still relatively high or already lowered. If they are still upright, execute an immediate elevation sweep by bridging explosively through the inside hook while they are committed to reaching down with their hand — this is the highest-percentage sweep window because one hand is occupied and their weight is shifting. If they have already established a low base, immediately re-grip the ankle with your other hand or switch to a pants grip on the same leg to restore the extraction prevention anchor. The worst response is passivity — every second without the ankle grip makes the remaining control points easier for the top player to address sequentially."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ As the bottom player in X-Guard, your objective when the top player attempts the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Escape from X-Guard?</p>
+
 - Top player begins lowering their center of gravity significantly by bending both knees and widening their base — this is the preparatory stance for systematic extraction
 - Top player reaches down toward their trapped ankle with their hand to strip your controlling grip — this is typically the first action in the escape sequence
 - Top player pushes downward on your outside leg frame rather than trying to step over it — they are attempting to collapse your distance management before addressing the inside hook
@@ -166,6 +184,8 @@ As the bottom player in X-Guard, your objective when the top player attempts the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Escape from X-Guard?</p>
 
 - Maintain constant tension through the X-Guard configuration — active hip elevation and leg pressure prevent the top player from collapsing your structure passively
 - When one control point is stripped, immediately re-establish it or transition to an alternative guard rather than waiting for further deterioration
@@ -180,6 +200,8 @@ As the bottom player in X-Guard, your objective when the top player attempts the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Escape from X-Guard?</p>
 
 ### 1. Explosive elevation sweep before extraction begins
 
@@ -217,6 +239,8 @@ As the bottom player in X-Guard, your objective when the top player attempts the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Escape from X-Guard?</p>
+
 ### → [[Positions/X-Guard]]
 
 Aggressively re-hook and re-grip each time the top player strips a control point. Use sleeve grips on their arms to limit their ability to reach your hooks. Maintain constant hip elevation to prevent them from collapsing your frame. The goal is to make their escape attempts fruitless until they abandon the escape and return to passing attempts from within X-Guard.
@@ -232,6 +256,8 @@ Time your elevation sweep to coincide with the top player's extraction attempt. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Escape from X-Guard?</p>
 
 ### 1. Passively holding hooks without maintaining active hip elevation and leg tension during the escape attempt
 
@@ -261,6 +287,8 @@ Time your elevation sweep to coincide with the top player's extraction attempt. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Escape from X-Guard?</p>
+
 **Phase 1: Recognition** - Identifying escape initiation cues
 Partner announces each step of the escape before performing it. Practice recognizing the visual and tactile cues that indicate each phase: base lowering, grip reaching, frame pushing, and knee rotation. Build awareness of the escape sequence so you can anticipate the next action before it happens.
 
@@ -277,26 +305,6 @@ Positional sparring starting in X-Guard with full resistance from both players. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for attempting a sweep against the Standing Escape?
-**A**: The optimal sweep window is the moment the top player commits one hand to stripping your ankle grip or outside leg frame. At this instant, their base is temporarily compromised because they have reduced their posting and balance options. The sweep should target the direction of their committed hand — if they reach down with their right hand, sweep them to their right where they have no post available. Waiting until they have already stripped multiple control points and achieved a low base dramatically reduces sweep probability.
-
-**Q2**: Your inside hook begins slipping from behind the opponent's knee — what should you do?
-**A**: Immediately transition to Single Leg X-Guard rather than fighting to re-seat the deep hook. When the inside hook slides from behind the knee toward the hip crease, the X-Guard mechanical advantage is already lost. However, this intermediate position is exactly where Single Leg X-Guard operates — your leg is on the hip rather than behind the knee. By proactively transitioning to SLX, you convert a degrading position into a fresh, fully functional guard with its own sweep and submission threats. This is preferable to fighting for a re-hook that the top player is actively preventing.
-
-**Q3**: How do upper body grips contribute to defending against the Standing Escape from X-Guard?
-**A**: Upper body grips serve two critical functions: they limit the top player's ability to use their hands for hook extraction, and they provide additional sweep vectors when combined with leg elevation. A strong sleeve grip on the arm reaching for your hooks forces the top player to break that grip before they can proceed with extraction, buying you time and creating sweep windows. Collar grips allow you to pull the top player's posture forward, preventing them from achieving the low defensive base that neutralizes your elevation. Each hand the top player must dedicate to grip fighting is a hand unavailable for systematic hook removal.
-
-**Q4**: When is it better to transition to butterfly guard rather than continue defending X-Guard?
-**A**: Transition to butterfly guard when both the outside frame and inside hook have been significantly compromised — specifically when the outside leg has been pushed below your hip line and the inside hook is above the knee crease. At this point, X-Guard structure is too degraded to generate effective sweeps or retain the position. Retracting both legs into butterfly hooks gives you a functional guard with immediate sweep threats that prevent the top player from standing up freely. The key is recognizing the transition point early enough to establish butterfly hooks before the top player creates full separation.
-
-
-
-</section>
 
 
 </main>

@@ -190,6 +190,8 @@ Successful execution depends on three sequential priorities: establishing upper 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Technical Mount to Mount?</p>
+
 - Control before movement: Establish dominant upper body grips and crossface pressure before initiating any leg retraction to prevent the defender from capitalizing on the transition
 - Forward pressure commitment: Drive weight through hips into opponent's torso before and during leg retraction to deny space for hip escapes and knee insertion
 - Mat contact maintenance: Keep the retracting foot in contact with the mat surface throughout the slide rather than lifting through the air, preserving base stability
@@ -204,6 +206,8 @@ Successful execution depends on three sequential priorities: establishing upper 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Technical Mount to Mount?</p>
+
 - Established Technical Mount position with posted leg providing stable base and inside hook maintaining connection
 - Recognition that the armbar or submission opportunity has passed—arm retracted, defensive frames established, or grips broken
 - Dominant upper body control available through crossface, collar grip, or chest-to-chest pressure to maintain during leg movement
@@ -216,6 +220,8 @@ Successful execution depends on three sequential priorities: establishing upper 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Technical Mount to Mount step by step?</p>
 
 1. **Assess submission viability**: Evaluate whether the armbar or back take opportunity has passed. If the opponent has successfully retracted their arm, broken your wrist grip, or established defensive frames that prevent the swing-over, recognize that consolidation to mount is the optimal strategic choice rather than forcing a low-percentage finish from compromised technical mount position.
 2. **Establish upper body control**: Release the arm isolation grips and immediately transition to mount-appropriate controls. Secure a crossface with the arm closest to the opponent's head, driving your shoulder into their jaw to prevent them from turning toward the posted leg side. Alternatively, establish collar grips or underhook control to pin their upper body before moving your legs.
@@ -245,6 +251,8 @@ Successful execution depends on three sequential priorities: establishing upper 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Technical Mount to Mount?</p>
+
 - **Hip escape during leg retraction—defender times a shrimp to the weight shift moment, inserting knee before mount settles** (Effectiveness: High) - Your Response: Commit heavier forward pressure before initiating retraction. If you feel their hips moving during the slide, immediately follow their hip direction with your inside knee and re-center your weight. Consider aborting the consolidation and returning to technical mount if the escape is well-timed. → Leads to [[Positions/Half Guard]]
 - **Bridge during weight transition—defender explosively bridges as weight shifts from posted leg to inside knee, disrupting balance** (Effectiveness: Medium) - Your Response: Ride the bridge by spreading your base wider and lowering your center of gravity. Use the bridge momentum to accelerate your leg retraction rather than fighting it. Post your hands briefly if needed to maintain top position, then immediately re-settle heavy hips. → Leads to [[Positions/Mount/Technical Mount]]
 - **Knee shield insertion—defender quickly inserts their knee between your bodies during the brief gap created by leg movement** (Effectiveness: High) - Your Response: Drive your hips low and pinch your knees together as the posted leg arrives at mount position. If the knee begins entering, use your inside elbow to pin their thigh down and complete the pass over their knee shield before it fully establishes. → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ Successful execution depends on three sequential priorities: establishing upper 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Technical Mount to Mount?</p>
 
 ### 1. Lifting hips during leg retraction instead of maintaining forward pressure throughout the transition
 
@@ -290,6 +300,8 @@ Successful execution depends on three sequential priorities: establishing upper 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Technical Mount to Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo and cooperative leg retraction movement pattern
 Practice the posted leg retraction movement with a cooperative partner. Focus on maintaining mat contact with the sliding foot, smooth weight transfer to the inside knee, and immediate mount base establishment. Perform 10 repetitions per side with no resistance, emphasizing the feeling of continuous hip pressure throughout the movement.
 
@@ -307,42 +319,12 @@ Positional sparring starting from mount with the goal of cycling through mount v
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When should you choose to consolidate to mount rather than continue attacking from technical mount?
-**A**: Consolidate when the opponent has successfully defended the arm isolation—their arm is retracted, your wrist grip is broken, or their defensive frames prevent the armbar swing-over. Also consolidate when you feel your base becoming unstable in technical mount or when the opponent's defensive posture suggests a back take isn't available. The key indicator is that continuing to force attacks from technical mount has lower expected value than resetting from a fresh, stable mount position.
-
-**Q2**: What is the most critical body part to control during the leg retraction phase of this transition?
-**A**: The opponent's upper body through crossface or collar control is the most critical element. The crossface prevents them from turning toward your retracting leg, which would create the angle needed for hip escapes and guard recovery. Without upper body control, the leg retraction creates a cascade of defensive opportunities—the opponent can frame, turn, bridge, or shrimp freely during the moment of reduced stability. Establish dominant upper body control before any leg movement begins.
-
-**Q3**: How do you prevent your opponent from inserting their knee during the consolidation transition?
-**A**: Forward hip pressure is the primary prevention mechanism. Before retracting the posted leg, drive your weight forward through your hips into the opponent's torso, pinning their hips flat to the mat. This removes the space needed for knee insertion. During the retraction, maintain this forward commitment by shifting weight to the inside knee. As the leg arrives at mount position, immediately pinch your knees together and drive hips down to close any remaining gap before the opponent can insert a knee shield.
-
-**Q4**: What happens if you lift your posted leg through the air rather than sliding it along the mat during retraction?
-**A**: Lifting the leg eliminates your tripod base entirely for a brief moment, creating a period where your weight is supported only by the inside knee and your upper body. During this airborne phase, your balance is severely compromised and the opponent can bridge you off with minimal effort, or hip escape freely since your downward pressure is reduced to a single contact point. Sliding maintains ground contact throughout, preserving your ability to post and adjust if the opponent reacts during the transition.
-
-**Q5**: Your opponent begins a hip escape as you retract your posted leg—how do you adjust mid-transition?
-**A**: You have two options depending on timing. If the escape begins early and you haven't committed far into the retraction, abort the consolidation and return to technical mount—slide the posted leg back out to its original position and re-establish the tripod base. If you're past the point of return with the leg nearly in mount position, accelerate the completion by driving the leg down quickly, follow their hip direction with your inside knee, and immediately re-center your weight over their torso. Never freeze mid-transition—commit to either completing or aborting.
-
-**Q6**: What grip adjustments should you make when transitioning from arm isolation grips to mount control grips?
-**A**: Release the wrist and elbow grips used for armbar setup and immediately transition to mount-appropriate controls. The priority grip is the crossface—thread your arm under their head and drive your shoulder into their jaw. The secondary grip depends on context: collar grip for gi choke threats, underhook on the far side for control, or posting hand for base. The grip transition should happen before the leg moves, not simultaneously, so that you never have a moment without dominant upper body control during the consolidation.
-
-**Q7**: How does maintaining mat contact with the retracting foot affect the overall success of this transition?
-**A**: Mat contact with the sliding foot preserves a three-point base structure throughout the entire retraction, meaning you always have at least the inside knee, upper body pressure, and the retracting foot in contact with the ground. This continuous base allows you to stop mid-retraction if the opponent initiates a counter, post for balance if they bridge, or accelerate the completion if you sense urgency. Without mat contact, you transition through a two-point phase where any disruption from below can topple your position entirely.
-
-**Q8**: If you sense the consolidation is being countered mid-transition, what is your best recovery option?
-**A**: The best recovery depends on how far into the transition you are. If the posted leg has barely begun moving, slide it back to technical mount position and re-establish the tripod base—you lose nothing. If the leg is halfway retracted and the opponent is inserting a knee, you can choose to pass over the knee shield by driving your hip down and completing to mount, or accept half guard top position and begin passing from there. The worst option is to freeze in the half-retracted position, which combines the instability of transition with no positional advantage.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Technical Mount to Mount?</p>
 
 This transition carries minimal direct injury risk as it involves positional consolidation rather than joint locks or chokes. However, practitioners should be aware that rapid weight shifts during the transition can compress the bottom player's ribs or sternum if excessive forward pressure is applied abruptly during leg retraction. The retracting knee can inadvertently contact the bottom player's face or head if the movement is performed carelessly or explosively. Training partners should communicate discomfort during drilling, particularly regarding rib pressure. Practice at moderate speed before increasing tempo, and always prioritize controlled leg placement over explosive retraction to avoid accidental knee-to-face contact.
 

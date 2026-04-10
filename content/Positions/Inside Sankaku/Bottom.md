@@ -165,6 +165,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ## Position Definition
 
+<p class="section-subtitle">What is Inside Sankaku (Bottom)?</p>
+
 - Your leg is trapped in opponent's figure-four configuration with their outside leg crossed over their inside leg at your knee joint, severely limiting your leg mobility
 - Opponent maintains hip-to-hip connection with their hips positioned close to yours, preventing you from creating the distance needed for leg extraction
 - Your heel is exposed toward opponent's centerline in the inside heel hook position, creating immediate submission danger that must be defended
@@ -178,6 +180,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Inside Sankaku (Bottom)?</p>
 
 - Understanding of leg entanglement escape theory and systematic defense protocols
 - Knowledge of inside heel hook mechanics to understand the submission threat being defended
@@ -193,6 +197,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Inside Sankaku?</p>
+
 - Protect your heel immediately by hiding it against your own hip to prevent optimal submission angle
 - Never turn into opponent attempting to pass knee line as this leads directly to Saddle position
 - Create hip mobility and space before attempting leg extraction - distance is the key to escape
@@ -207,6 +213,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Inside Sankaku (Bottom)?</p>
 
 **If opponent has not yet established full control and submission grips:**
 - Execute **[[Immediate hip escape and leg extraction/Attacker|Immediate hip escape and leg extraction]]** → [[Positions/Open Guard]] (Probability: 45%)
@@ -238,6 +246,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Sankaku?</p>
 
 ### 1. Turning into opponent trying to pass knee line
 
@@ -277,6 +287,8 @@ From the bottom perspective of Inside Sankaku, the practitioner finds themselves
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Inside Sankaku defense?</p>
+
 ### Inside Sankaku Escape Drilling
 
 Partner establishes Inside Sankaku position without submission grip. Practice systematic escape sequences focusing on heel protection, creating distance, and leg extraction. Partner provides progressive resistance from cooperative to moderate.
@@ -309,38 +321,6 @@ When opponent establishes Inside Sankaku, practice entering your own leg attacks
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has established Inside Sankaku and is reaching for your heel - what is your immediate defensive priority?
-**A**: Immediately hide your heel by pressing it tightly against your own hip, turning your toes inward and your knee outward to create maximum protection. Your hand closest to the trapped leg should reach down to grab your own foot or ankle to assist in keeping the heel hidden. This buys time to address the positional aspects of the escape and prevents the submission from being locked before you can create space.
-
-**Q2**: What body positioning mistake most commonly leads to transitioning from Inside Sankaku into an even worse position like Saddle?
-**A**: The most common mistake is turning into the opponent attempting to pass the knee line. When you rotate toward them, you actually assist their entry into the Saddle by bringing your second leg into the entanglement. The correct escape direction is always away from the opponent - create distance by moving your hips backward and away, not through them. This fundamental directional error accounts for most Saddle transitions from Inside Sankaku.
-
-**Q3**: How do you know when to tap versus when escape is still possible in Inside Sankaku?
-**A**: Tap immediately when: (1) opponent has secured a firm two-on-one grip on your heel with their wrist blade positioned against the Achilles, (2) you feel rotational pressure beginning on your heel, or (3) you cannot freely move your foot within their grip. If your heel is still hidden, they don't have grip control, or you can still rotate your foot, escape is possible. The inside heel hook can cause career-ending injury in milliseconds once locked - there is no time to assess mid-submission.
-
-**Q4**: Your opponent momentarily loses hip connection while adjusting their grip - what escape opportunity does this create?
-**A**: The loss of hip connection is your primary escape window. Immediately pump your hips backward to extend the distance, using your free leg to push off their hip or the mat. As you create space, begin extracting your trapped leg by pulling your knee toward your chest while your hips move away. Your goal is to create enough distance that their leg configuration can no longer maintain the figure-four around your leg. Speed is critical - this window closes quickly.
-
-**Q5**: What are the essential grips or frames you need to establish for a successful hip escape from Inside Sankaku?
-**A**: Establish frames using: (1) your near-side hand controlling their knee or leg to prevent them from following your hip movement, (2) your far-side hand either posting on the mat for hip mobility or reaching down to assist heel protection, and (3) your free leg positioned to push off their hip, the mat, or to hook their leg for counter-leverage. The frames create the structural support needed to generate hip escape power while maintaining heel protection.
-
-**Q6**: If a Granby roll escape attempt fails and you end up in Turtle, what position are you likely transitioning to?
-**A**: A failed Granby roll from Inside Sankaku typically transitions you to Turtle position with your opponent in a seated or kneeling position behind you, still potentially controlling your trapped leg. From here, you've escaped the immediate heel hook danger but face back exposure threats. The opponent may pursue back control or attempt to re-enter leg entanglements. Protect your neck and establish defensive grips to prevent seatbelt control while you work to recompose to guard.
-
-**Q7**: When is attempting a counter leg attack a viable strategy from Inside Sankaku bottom?
-**A**: Counter leg attacks are viable when: (1) the opponent is focused on submission grips rather than positional control, creating upper body openings, (2) you can reach their free leg or expose their heel without worsening your heel exposure, or (3) you can transition to 50-50 guard where the entanglement becomes symmetrical. This is generally a last-resort strategy for experienced practitioners - prioritize escape over counter-attack unless escape has failed repeatedly and you have clear access to their leg.
-
-**Q8**: How do you manage defensive energy expenditure when trapped in Inside Sankaku against a patient opponent?
-**A**: Avoid constant explosive escape attempts that drain energy quickly. Instead, protect your heel using positional defense (hiding heel against hip) which requires minimal energy. Wait for the opponent to create escape windows through their own movements rather than forcing opportunities. When they adjust grips or position, use that moment for controlled technical escapes. Frantic struggling accelerates exhaustion and increases injury risk - systematic defense with patient timing is more sustainable.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

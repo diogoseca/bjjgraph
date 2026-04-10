@@ -164,6 +164,8 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to Inside Ashi?</p>
+
 - Attacker's chest pressure lifts off your shoulder or hip and their weight shifts backward toward your legs
 - Attacker begins threading their inside leg between your legs rather than driving forward to consolidate the pass
 - Attacker reinforces their grip on your dragged leg with both hands and drops their hip level significantly
@@ -176,6 +178,8 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to Inside Ashi?</p>
 
 - Recognize the transition early by monitoring changes in your opponent's pressure direction and hip level
 - Straighten your trapped leg immediately when you feel the attacker sitting back—a bent knee is what enables the entanglement
@@ -190,6 +194,8 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to Inside Ashi?</p>
 
 ### 1. Immediately straighten your trapped leg and kick through before the attacker establishes hooks
 
@@ -227,6 +233,8 @@ The defender's primary advantage is timing. The transition from leg drag to ashi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to Inside Ashi?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Straighten your trapped leg explosively the moment you feel the attacker's upper body pressure release and their hips drop. Kick your heel to the mat and retract your knee before they can establish the outside hook over your knee line. This returns you to the leg drag bottom position where the attacker must restart their passing or leg attack sequence.
@@ -242,6 +250,8 @@ Turn into the attacker by sitting up and facing them while stripping their leg h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to Inside Ashi?</p>
 
 ### 1. Turning away from the attacker to protect your heel rather than facing them directly
 
@@ -271,6 +281,8 @@ Turn into the attacker by sitting up and facing them while stripping their leg h
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to Inside Ashi?</p>
+
 **Week 1-2** - Recognition drilling
 Partner slowly executes the leg drag to inside ashi transition at 25% speed. Practice identifying each recognition cue (pressure release, hip drop, leg threading) and calling it out verbally before reacting. Build pattern recognition before adding defensive responses.
 
@@ -287,29 +299,6 @@ Start from leg drag bottom position with partner choosing between passing and tr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from leg drag pass to inside ashi entry?
-**A**: The earliest cue is when the attacker's chest pressure lifts off your shoulder or hip and their weight shifts backward toward your legs. This release of forward passing pressure, combined with a reinforced grip on your dragged leg and a dropping of their hip level, signals the shift from passing to leg attack. Recognizing this moment is critical because it represents the widest defensive window.
-
-**Q2**: Why is straightening your trapped leg the highest-percentage early defense against this transition?
-**A**: A straight leg prevents the attacker from establishing the hooks and knee line control that make inside ashi-garami structurally sound. The entanglement requires your knee to be bent so their legs can clamp around it. Straightening your leg also creates distance between your heel and their chest, making heel hook setups significantly harder. The earlier you straighten, the less control they have to prevent it.
-
-**Q3**: Your opponent has established inside ashi-garami with knee line control but has not yet gripped your heel—what is your priority?
-**A**: Your immediate priority is to strip the outside leg hook that controls your knee line. Use both hands to push their shin off the top of your knee while simultaneously straightening your trapped leg. Without knee line control, the attacker cannot maintain tight ashi-garami and cannot effectively finish heel hooks. Only after clearing the knee line should you attempt full leg extraction, as trying to pull your leg free against the knee hook is ineffective.
-
-**Q4**: Why should you turn into the attacker rather than away when defending this transition?
-**A**: Turning into the attacker prevents heel exposure, which is the mechanical prerequisite for heel hook attacks. When you face the attacker, your knee naturally rotates inward, hiding the heel behind your leg. Turning away does the opposite—it rotates your knee outward and presents the heel directly to the attacker's gripping hands. Additionally, facing the attacker allows you to use your hands to address their leg hooks directly.
-
-**Q5**: If you are fully caught in inside ashi-garami with the attacker gripping your heel, what is the safe escape sequence?
-**A**: First, address the heel grip by fighting their hands with both of yours—strip fingers, break the figure-four configuration, or rotate your foot to free the heel. Second, remove the knee line control by pushing their outside leg off your knee. Third, straighten your leg and create hip separation. Never attempt to explosively yank your leg free while they grip your heel, as this can cause the heel hook to engage and damage your knee ligaments. The sequence is always: clear grip, clear hooks, extract leg.
-
-
-
-</section>
 
 
 </main>

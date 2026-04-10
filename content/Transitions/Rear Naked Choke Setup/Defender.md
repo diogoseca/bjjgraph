@@ -166,6 +166,8 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rear Naked Choke Setup?</p>
+
 - Attacker releases their clasped seatbelt grip and begins isolating your defending hand with their non-choking arm, indicating they are transitioning from control to active choke setup
 - You feel the attacker's hips shift to one side while their chest pressure increases on the opposite shoulder, signaling an angle change designed to expose your neck on the choking side
 - The attacker's choking-side forearm begins sliding along your collarbone or jaw line rather than maintaining the static over-shoulder harness position, indicating imminent arm insertion attempt
@@ -178,6 +180,8 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rear Naked Choke Setup?</p>
 
 - Two-on-one control of the choking arm is your primary defense—never voluntarily release this grip to address secondary threats like hooks
 - Tuck your chin tightly to your chest and raise your shoulder on the choking side to create a physical barrier against arm insertion
@@ -192,6 +196,8 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rear Naked Choke Setup?</p>
 
 ### 1. Establish and maintain two-on-one grip control on the choking arm, gripping the wrist with one hand and the forearm or tricep with the other, pulling the arm down toward your chest while tucking your chin
 
@@ -229,6 +235,8 @@ Strategically, your defensive priorities follow a strict hierarchy: protect the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rear Naked Choke Setup?</p>
+
 ### → [[Positions/Back Control]]
 
 Maintain relentless two-on-one grip fighting on the choking arm, preventing the attacker from ever inserting it beneath your chin. Combined with chin tuck and shoulder elevation, this stalls the setup indefinitely and forces the attacker to either abandon the RNC attempt or continue burning energy in grip fights. The attacker remains in back control but without submission threat, giving you time to work systematic escape sequences.
@@ -244,6 +252,8 @@ Time your hip escape for the moment the attacker commits both hands to the choke
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rear Naked Choke Setup?</p>
 
 ### 1. Abandoning two-on-one grip control on the choking arm to fight hooks or attempt an escape before the neck is secured
 
@@ -278,6 +288,8 @@ Time your hip escape for the moment the attacker commits both hands to the choke
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rear Naked Choke Setup?</p>
+
 **Week 1-2: Grip Defense Fundamentals** - Two-on-one grip control and chin tuck mechanics
 Practice establishing and maintaining two-on-one grip control on your partner's choking arm while they attempt to strip your grips at 30-50% intensity. Focus on proper hand placement (wrist and forearm), chin tuck depth, and shoulder elevation. Drill re-gripping speed when one hand is stripped. 50+ reps per session building automatic defensive grip patterns.
 
@@ -294,29 +306,6 @@ Positional sparring starting from back control with the attacker working full-sp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive grip when your opponent initiates the RNC setup sequence?
-**A**: Two-on-one control on the choking arm is the most important defensive grip. One hand grips the attacker's wrist while the other controls their forearm or tricep, pulling the entire arm down toward your chest. This grip prevents the choking arm from reaching your neck at all, stalling the entire setup sequence at its earliest and most defensible phase. A single grip on the wrist alone is insufficient because the attacker can strip it with their free hand.
-
-**Q2**: Your opponent strips your top grip on their choking arm and begins sliding it toward your chin—what is your immediate response?
-**A**: Immediately increase your chin tuck by driving your chin hard into your chest while simultaneously raising your shoulder on the choking side to create a physical wall. Use your remaining grip on their wrist to pull the arm down and away from your neck. With your freed hand, re-establish the two-on-one by gripping their forearm above your existing wrist grip. Do not attempt an escape at this moment—focus entirely on re-establishing hand control before the arm gets beneath your chin.
-
-**Q3**: Why should you turn toward the underhook side rather than the overhook side when attempting to escape during the RNC setup?
-**A**: Turning toward the underhook side disrupts the attacker's structural alignment because it compresses the space on the choking side where they need room for arm insertion. It also positions your shoulder as a barrier against the choking arm and creates the optimal angle for hip escape to turtle. Turning toward the overhook side opens the neck on the choking side, plays into the attacker's angle change, and makes arm insertion significantly easier.
-
-**Q4**: The attacker has their arm beneath your chin but has not locked the figure-four—what can you still do?
-**A**: This is your last high-percentage defensive window. Target the non-choking hand before it reaches behind your head to complete the figure-four. Grab their wrist and pull it forward over your shoulder, preventing the lock. Simultaneously work to pull the choking arm wrist down and forward to reduce the depth of their forearm across your neck. You can also attempt an explosive bridge and rotation toward the choking arm side to dislodge the partially set arm during the transition. Without the figure-four completed, the choke lacks full mechanical advantage.
-
-**Q5**: When is the optimal moment to attempt a positional escape during your opponent's RNC setup sequence?
-**A**: The optimal escape window opens when the attacker commits both hands to the choke insertion sequence, which momentarily reduces their hook or body control pressure. Watch for the moment they release their clasped seatbelt grip to begin stripping your defenses—this is when their positional control is weakest because their hands are occupied with your arms rather than controlling your body. Time your hip escape for this transition point, maintaining your grip on the choking arm throughout the escape movement.
-
-
-
-</section>
 
 
 </main>

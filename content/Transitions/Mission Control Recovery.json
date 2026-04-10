@@ -47,16 +47,16 @@
       "relationship": "Alternative attack chain from recovered Mission Control"
     },
     {
-      "name": "Triangle Choke",
-      "relationship": "Alternative submission threat from recovered Mission Control"
+      "name": "Closed Guard to Triangle",
+      "relationship": "Alternative submission entry available from recovered Mission Control position"
     },
     {
       "name": "Gogoplata",
       "relationship": "Submission that can be re-attempted after recovery"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative attack available from Mission Control"
+      "name": "Armbar Control",
+      "relationship": "Submission control position reachable through arm attacks from recovered Mission Control"
     },
     {
       "name": "Back Take from Bottom",

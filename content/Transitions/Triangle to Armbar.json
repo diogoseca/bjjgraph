@@ -44,12 +44,12 @@
       "relationship": "Target control position reached on successful transition"
     },
     {
-      "name": "Triangle Choke Front",
+      "name": "Triangle Choke",
       "relationship": "Primary attack that forces defensive reaction opening the armbar"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Related finishing technique sharing similar mechanics"
+      "name": "Armbar Setup from Double Sleeve",
+      "relationship": "Related guard-based armbar entry sharing similar arm isolation mechanics"
     },
     {
       "name": "Closed Guard to Triangle",
@@ -72,8 +72,8 @@
       "relationship": "Positional transition when opponent extracts trapped arm"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Finishing technique applied from armbar control position"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Finishing submission applied from armbar control position after successful transition"
     },
     {
       "name": "Closed Guard",

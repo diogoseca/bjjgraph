@@ -56,8 +56,8 @@
       "relationship": "Ending position after successful guillotine counter execution"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Alternative defensive goal if full counter to side control is not achieved"
+      "name": "Half Guard",
+      "relationship": "Alternative guard recovery target if full counter to side control is not achieved"
     },
     {
       "name": "High Elbow Guillotine",
@@ -266,6 +266,14 @@
       {
         "question": "After successfully extracting your head from the guillotine, your opponent immediately hip-escapes to recover guard — how do you chain into the next position?",
         "answer": "As you extract your head, you must immediately drive your crossface shoulder into their neck and secure the underhook on the far side before they can complete the hip escape. Your hips must drop heavy on their near hip to block the knee from re-inserting. If they have already begun the hip escape, follow their movement with your hips and use knee-on-belly as a transitional pin to cut off the guard recovery. The key principle is that head extraction and positional consolidation must be a single continuous movement, not two separate actions."
+      },
+      {
+        "question": "How do you assess whether a guillotine is too deep and locked to escape versus still defensible?",
+        "answer": "A guillotine becomes likely inescapable when three factors converge: opponent has fully closed guard high on your back with ankles locked, their choking arm is deep with the blade of the forearm directly across your trachea or both carotid arteries, and your posture is completely broken with your head pulled below their chest level. If any one of these three elements is missing, the counter remains viable. If you can still maintain some posture, their guard is open, or their grip is shallow across your jaw rather than deep on the neck, proceed with the systematic counter. When all three elements are locked in, tap early in training to preserve your training longevity."
+      },
+      {
+        "question": "If you successfully pass to side control but your opponent refuses to release the guillotine grip, what submission opportunity does this create?",
+        "answer": "When an opponent maintains a guillotine grip after you have passed to side control, they create the conditions for a Von Flue choke. By driving your shoulder into their choking arm while their own grip traps their arm against their neck, you compress the carotid artery using their own arm as the choking mechanism. Establish heavy crossface pressure with your shoulder driving into their forearm against their neck, sprawl your legs back for maximum weight, and wait for the tap. The opponent's refusal to release becomes a liability that assists your counter-submission from side control."
       }
     ],
     "safety_considerations": "When practicing guillotine counters, both partners must exercise caution to prevent injury. The person applying the guillotine should release pressure immediately upon tap or if they sense their partner's defense is failing. Prolonged exposure to choking pressure can cause injury even in training. The defending practitioner should tap early and often during learning phases rather than risk injury by fighting through a fully locked submission. Training partners should communicate clearly about pressure levels, starting with light resistance and gradually increasing as technical proficiency improves. Be aware of mat boundaries during the forward drive portion of the defense, as aggressive movement can result in collision with walls or other training partners. Never practice this technique with full resistance until both partners demonstrate technical competency in controlled drilling. Remember that the goal in training is skill development, not proving toughness by refusing to tap."
@@ -367,6 +375,14 @@
       {
         "question": "Your opponent successfully extracts their head — what are your options in the next two seconds?",
         "answer": "In the immediate moment of head extraction, you have a narrow window before the opponent consolidates side control. Your highest-percentage option is to immediately hip-escape away and insert your knee to recover half guard or closed guard. If their weight is still transitioning, you can attempt to re-pummel an underhook and recover to a seated guard or dogfight position. If you still have any grip on their head or neck, use it to redirect their base and create space for the hip escape. The critical error is freezing — any movement toward guard recovery is better than remaining flat."
+      },
+      {
+        "question": "Your opponent's head begins circling away from the choking arm — should you transition to an anaconda or darce, and what determines which one?",
+        "answer": "The direction of your opponent's rotation and their arm position determine the optimal transition. If they circle their body away while keeping their near arm posted on the mat and exposed between your bodies, thread your choking arm deeper and secure a darce grip by connecting your hands around their neck and far arm. If they tuck their near arm tight and drive their shoulder into you while circling, the anaconda is more accessible — release the guillotine, shoot your choking arm under their neck and through the far armpit, and lock your grip. The key distinction is near arm position: darce when exposed, anaconda when you can thread under the neck. Both transitions must happen before the opponent completes the circular escape."
+      },
+      {
+        "question": "How does adjusting your guard height on the opponent's back affect your ability to maintain the guillotine during a counter attempt?",
+        "answer": "Guard height directly controls the opponent's posture and your choking leverage. Closed guard locked high on the opponent's upper back near the shoulder blades maximizes your ability to break their posture downward and prevents them from driving forward effectively, as their hips cannot generate power when their upper body is pulled down. Conversely, guard locked low around the opponent's waist provides minimal posture control and allows them to posture up and drive forward easily. When you feel the counter initiate, immediately climb your guard higher by unlocking your ankles, repositioning your legs, and re-locking as high as possible. This single adjustment can nullify the forward pressure that makes the guillotine counter effective."
       }
     ],
     "training_progressions": [
@@ -414,5 +430,5 @@
       "when_to_use": "Common in sport BJJ when opponent attempts flying guillotine or guard pull with guillotine grip"
     }
   ],
-  "position_integration": "The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control, which is a cornerstone offensive position offering numerous submission and control options. This counter also integrates with broader defensive strategies including Guard Recovery when defense is partially successful, and connects to submission defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common, such as Front Headlock, Turtle, and various guard-pulling situations. The technique is equally valuable in gi and no-gi contexts, making it a fundamental skill for well-rounded grapplers."
+  "position_integration": "The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control, which is a cornerstone offensive position offering numerous submission and control options. This counter also integrates with broader defensive strategies including guard recovery when defense is partially successful, and connects to submission defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common, such as Front Headlock, Turtle, and various guard-pulling situations. The technique is equally valuable in gi and no-gi contexts, making it a fundamental skill for well-rounded grapplers."
 }

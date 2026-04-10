@@ -139,7 +139,7 @@
       },
       {
         "step_number": 4,
-        "action": "Read Weight Distribution",
+        "action": "Read Center of Gravity",
         "description": "Wait for the opponent to commit their weight forward, typically by driving crossface or attempting to flatten you with shoulder pressure. You should feel their weight settling onto your chest and their base becoming lighter on their knees. This forward commitment is your timing trigger - the sweep will fail if attempted against a seated-back opponent."
       },
       {

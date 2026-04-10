@@ -169,6 +169,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Darce Control (Bottom)?</p>
+
 - Opponent has threaded their arm under defender's near-side arm and over the far shoulder with hands clasped together in Darce grip configuration near defender's neck creating immediate submission threat
 - Defender's near-side arm is trapped against their own body typically pinned across their torso or neck by opponent's encircling arm creating the arm-in choke structure that enables effective strangulation
 - Defender's head and neck are under significant pressure with opponent's chest or shoulder driving into the back and side of head restricting movement and creating direct choking pressure on carotid arteries
@@ -182,6 +184,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Darce Control (Bottom)?</p>
+
 - Opponent has successfully secured Darce grip configuration with arm threaded under near arm
 - Defender's near-side arm is trapped in the choke structure
 - Opponent has established control from turtle, front headlock, or scramble position
@@ -193,6 +197,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce Control?</p>
 
 - Immediate recognition and defensive response - every second counts before choke tightens
 - Protect the neck by keeping chin tucked and creating space between opponent's forearm and carotid arteries
@@ -206,6 +212,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Darce Control (Bottom)?</p>
 
 **If opponent has shallow grip and choke is not yet tight:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Turtle]] (Probability: 55%)
@@ -234,6 +242,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce Control?</p>
 
 ### 1. Pulling away from the choke or trying to create distance by extending the neck
 
@@ -268,6 +278,8 @@ While extremely dangerous, Darce Control Bottom is not an inescapable position. 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Darce Control defense?</p>
+
 ### Darce Defense Progression Drill
 
 Partner establishes Darce grip with varying degrees of tightness (25%, 50%, 75%, full). Practice arm extraction, space creation, and escape sequences from each pressure level. Focus on systematic defense rather than explosive escape attempts. Start with shallow grips and progress to fully locked positions.
@@ -293,38 +305,6 @@ Partner holds Darce Control position with moderate resistance. Practice each esc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts driving their shoulder deeper into your neck - what immediate adjustment do you make?
-**A**: When opponent increases shoulder pressure, immediately turn your body toward them rather than away. Tuck your chin tighter to your chest to block deeper penetration of the choke. Use your free hand to frame on their hip or shoulder to prevent them from fully flattening you. The counter-intuitive movement toward the choke reduces the angle needed for carotid compression and creates space for arm extraction.
-
-**Q2**: What are the essential defensive frames for surviving Darce control bottom?
-**A**: The primary frame is your free hand (the arm not trapped in the choke) placed against opponent's hip, shoulder, or head to prevent them from advancing or flattening you. Secondary frames include keeping your chin tucked tight as a structural defense against the choke, and maintaining some base on your knees or hip rather than being completely flat. These frames create the time and space needed to execute escape sequences.
-
-**Q3**: Your opponent begins walking their hips around to finish the choke - how do you respond?
-**A**: When opponent starts walking their hips around to improve their finishing angle, you must move with them to maintain the defensive angle. Turn your body in the same direction they're moving, keeping your chin tucked and trying to get your chest facing theirs. As they walk around, look for opportunities to extract your trapped arm through the space created by their movement. If they fully commit to the hip walk, consider a granby roll in the direction of their movement to create an escape scramble.
-
-**Q4**: How should you manage your breathing when caught in Darce control bottom?
-**A**: Breathe slowly and deliberately through your nose to conserve oxygen and maintain composure. Avoid mouth breathing which accelerates panic response. Take controlled breaths during moments when pressure lessens slightly. Never hold your breath as this depletes oxygen faster and increases panic. The calm breathing pattern helps you think clearly and execute systematic escape sequences rather than explosive, energy-wasting movements that often make the choke tighter.
-
-**Q5**: What is the primary escape you should attempt and what makes it effective?
-**A**: Arm extraction is the primary escape because it eliminates the arm-in choke structure that makes the Darce effective. Use your free hand to grip your trapped arm's wrist or forearm and pull it toward your body while simultaneously turning into your opponent. The extraction works because the Darce requires your arm trapped against your neck to create the compression - once the arm is free, the choke mechanics fail and you can recover to turtle or guard positions.
-
-**Q6**: How do you apply outward pressure correctly as the defender to prevent the choke from tightening?
-**A**: Apply outward pressure with your trapped shoulder by rotating it away from your neck, creating space between your neck and opponent's choking arm. Push into opponent's body with your free hand frame to prevent them from settling their weight and closing the space. Drive your hips away from opponent while keeping your shoulders turned into them. This combination of outward shoulder rotation and frame pressure prevents the compression needed to finish the choke.
-
-**Q7**: Your opponent attempts to flatten you completely - what adjustment should you make?
-**A**: When opponent tries to flatten you, immediately post your free hand on the mat or against their hip to create a base that prevents going fully flat. Hip escape away while maintaining your chin tuck, working to get on your side rather than your back. If partially flattened, immediately work to get your knees under you or create a butterfly hook with your bottom leg. Being flat eliminates your ability to create frames and makes the choke finish much easier for your opponent.
-
-**Q8**: How do you recognize early that a Darce attempt is coming and what preventive action should you take?
-**A**: Early recognition signs include opponent threading their arm under your armpit while controlling your head, reaching across the back of your neck toward your far shoulder, and walking their hips to your side from front headlock or turtle positions. Preventive action requires immediately tucking your chin, bringing your elbows tight to your body to prevent the arm from threading through, and either standing up explosively or sitting back to guard before the grip is locked. Once the figure-four grip is secured, escape becomes significantly harder.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

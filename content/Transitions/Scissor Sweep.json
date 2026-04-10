@@ -52,11 +52,11 @@
       "relationship": "Ending position - direct result of successful sweep execution"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Follow-up submission when opponent posts to defend sweep"
+      "name": "Kimura Sweep",
+      "relationship": "Follow-up attack when opponent posts to defend sweep, targeting the posted arm"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Alternative attack when opponent's posture is broken but sweep timing is unavailable"
     },
     {
@@ -64,8 +64,8 @@
       "relationship": "Related sweep from closed guard using butterfly hook mechanics as alternative angle"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "High-percentage submission attack available from same broken posture setup"
+      "name": "Guillotine Setup",
+      "relationship": "High-percentage submission setup available from same broken posture position in closed guard"
     },
     {
       "name": "Pass to Side Control",
@@ -381,7 +381,7 @@
         "description": "Partner works through the Scissor Sweep setup at 30% speed while you practice recognizing each stage: grip establishment, guard opening, angle creation, and leg positioning. Focus on maintaining posture and identifying the optimal moment to strip grips. No live sweeping - the goal is pattern recognition and posture maintenance under progressive grip pressure."
       },
       {
-        "phase": "Week 3-4: Grip Fighting and Base Maintenance",
+        "phase": "Week 3-4: Grips and Base",
         "focus": "Proactive grip stripping and base adjustments against sweep setups",
         "description": "Partner attempts full Scissor Sweep setups at 50% resistance. Practice stripping both collar and sleeve grips using two-on-one breaks while maintaining your base. Work on widening your knees and lowering your center of gravity the moment you feel the sweep developing. Drill 15-20 defensive sequences per round, resetting after each successful defense or completed sweep."
       },

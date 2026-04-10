@@ -11,7 +11,7 @@
     "Position is transitional not terminal - view as gateway to more dominant entanglements rather than primary finish position",
     "Height differential creates escape opportunities when on top - standing position dramatically increases escape success rate",
     "Submission threats from bottom prevent escapes - constant offensive pressure keeps opponent defensive",
-    "Systematic progression through leg lock hierarchy - outside ashi → inside ashi → saddle represents optimal advancement path"
+    "Systematic progression through leg lock hierarchy - outside ashi \u2192 inside ashi \u2192 saddle represents optimal advancement path"
   ],
   "related_positions": [
     {
@@ -558,7 +558,7 @@
     },
     "transitions": [
       {
-        "transition": "Outside Heel Hook",
+        "transition": "Outside Heel Hook from Outside Ashi-Garami",
         "attempt_probability": 31
       },
       {

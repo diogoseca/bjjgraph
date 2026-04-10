@@ -210,7 +210,7 @@ Back Take from Lockdown Defense fits into the broader half guard top game as a c
 
 - [[Positions/Half Guard]] - Recovery position if transition fails or opponent counters
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission from back control
 
 - [[Transitions/Back Step Pass]] - Related technique - shares similar backstep mechanics
 

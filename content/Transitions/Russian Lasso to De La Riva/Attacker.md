@@ -188,6 +188,8 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Russian Lasso to De La Riva?</p>
+
 - Maintain collar grip throughout the entire transition as the anchor that prevents opponent advancement during the vulnerable repositioning phase
 - Extract the lasso leg with controlled smooth movement rather than explosive kicking that telegraphs intent and creates defensive reactions
 - Redirect the extracted leg immediately toward the DLR hook position without allowing it to settle in a neutral position between you and the opponent
@@ -202,6 +204,8 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Russian Lasso to De La Riva?</p>
+
 - Strong collar grip established on the opposite side of the lasso leg providing posture control throughout the transition
 - Lasso leg threaded through opponent's arm with awareness of the extraction path and clearance needed
 - Opponent standing or in combat base with staggered stance presenting a lead leg available for DLR hook
@@ -214,6 +218,8 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Russian Lasso to De La Riva step by step?</p>
 
 1. **Assess opponent stance and timing window**: Evaluate whether the opponent's lead leg is positioned where a De La Riva hook can be established. Read their weight distribution and grip configuration to determine the optimal timing. The transition works best when the opponent is standing with one leg forward in a staggered stance and their weight is committed to a passing direction or grip break.
 2. **Secure and verify collar grip retention**: Confirm that your collar grip on the opposite side of the lasso is firmly established and deeply locked on the fabric. This grip must be maintained throughout the entire transition as it prevents the opponent from creating distance or initiating a pass during the vulnerable repositioning phase. If the collar grip is weak or shallow, re-establish it before proceeding with the guard switch.
@@ -243,6 +249,8 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Russian Lasso to De La Riva?</p>
+
 - **Opponent backsteps during the lasso leg extraction to create distance and prevent DLR hook establishment** (Effectiveness: High) - Your Response: Anticipate the backstep by maintaining strong collar grip pull throughout. If they create distance, use the collar grip to follow their movement and thread your hook as they settle into their new stance. Alternatively, transition to feet-on-hips guard to manage the increased distance before reattempting the DLR entry. → Leads to [[Positions/Open Guard]]
 - **Opponent strips the collar grip during the transition phase when both hands are occupied with leg repositioning** (Effectiveness: High) - Your Response: Sequence your grip transitions so that the collar grip is never undefended during the switch. If the collar grip is stripped, immediately abort the DLR entry and recover to Russian Leg Lasso or establish a new controlling grip before reattempting. Never proceed with the transition without upper body control. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward with heavy pressure during the extraction to flatten the guard player and prevent hip rotation** (Effectiveness: Medium) - Your Response: Use the forward pressure against them by converting to an overhead or elevator sweep using the momentum of their drive. If the lasso is still partially engaged, the forward pressure can actually create a stronger sweeping position. Frame with the non-lasso leg on their hip to prevent being completely flattened. → Leads to [[Positions/Lasso Guard/Russian Leg Lasso]]
@@ -254,6 +262,8 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Russian Lasso to De La Riva?</p>
 
 ### 1. Releasing all grips simultaneously before the DLR hook is established
 
@@ -293,6 +303,8 @@ Executing the Russian Lasso to De La Riva transition requires precise coordinati
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Russian Lasso to De La Riva (Attacker)?</p>
+
 **Phase 1: Mechanical Isolation** - Leg path and hook placement
 Practice the lasso extraction to DLR hook movement pattern with a stationary partner. Focus on the circular leg path, proper hook depth behind the knee, and smooth continuous motion without pausing. Perform 20 repetitions per side, gradually increasing speed while maintaining precision.
 
@@ -313,42 +325,12 @@ Full sparring rounds starting from Russian Leg Lasso with the specific goal of c
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical grip that must be maintained throughout the Russian Lasso to De La Riva transition?
-**A**: The collar grip on the opposite side of the lasso leg must be maintained throughout the entire transition. This grip serves as the constant anchor that prevents the opponent from creating distance or initiating a pass during the vulnerable leg repositioning phase. Without it, the opponent can freely advance when the lasso leg is extracted and before the DLR hook is established, creating a complete breakdown in guard structure.
-
-**Q2**: When is the optimal timing window to initiate this guard transition?
-**A**: The optimal timing is when the opponent commits to a specific passing strategy or grip break from the Russian Leg Lasso, particularly when they have a staggered stance with a clear lead leg available for the DLR hook. Initiating during their committed movement means they cannot easily change direction to counter the guard switch. Avoid transitioning during neutral engagement when the opponent has full mobility to react.
-
-**Q3**: Why must the lasso leg extraction and DLR hook placement be performed as one continuous motion?
-**A**: Pausing with the extracted leg in a neutral position between you and the opponent creates a window where you have no leg-based control whatsoever. This gap in defensive structure allows the opponent to advance past your legs, initiate pressure passes, or establish dominant grips without resistance. The continuous circular motion from extraction to hook ensures that defensive control transitions directly from one system to the other without interruption.
-
-**Q4**: Your opponent begins backsteping as you extract the lasso leg - how do you adjust the transition?
-**A**: Maintain a strong collar grip pull to follow their backward movement and prevent them from fully disengaging. Use the collar grip tension to close the distance their backstep creates, then thread your DLR hook as they settle into their new stance. If the distance becomes too great for the DLR hook, place your feet on their hips to manage distance and reattempt the hook entry from a controlled feet-on-hips guard position.
-
-**Q5**: What distinguishes a properly established DLR hook from a shallow ineffective hook after this transition?
-**A**: A proper DLR hook has the instep cupping behind the opponent's knee joint with the shin pressing into the back of their thigh, driven deep by pulling the knee toward your chest. A shallow hook wraps loosely around the calf without engaging the knee joint and provides minimal control. The depth of the hook determines your ability to off-balance the opponent and generate sweep leverage, making it the difference between a functional guard and a position easily cleared.
-
-**Q6**: What role does the non-hooking leg play during and immediately after the transition?
-**A**: The non-hooking leg provides critical distance management and secondary control throughout the transition. During the switch, it frames against the opponent's hip or thigh to prevent them from closing distance and smashing the guard. After the DLR hook is established, it positions on the opponent's far hip or creates a shin frame to prevent them from circling away from the hook. Without active non-hooking leg engagement, the DLR guard structure is incomplete and easily passed.
-
-**Q7**: If the opponent prevents DLR hook establishment by pulling their lead leg back, what alternative guard should you enter?
-**A**: If the DLR hook cannot be established, immediately transition to feet-on-hips guard or Reverse De La Riva Guard on the opponent's near leg. From feet-on-hips, you can manage the increased distance and look for a second DLR entry opportunity or switch to collar sleeve guard. The critical principle is never remaining in a no-guard neutral position. Having a predetermined backup guard system ensures continuous control even when the primary transition fails.
-
-**Q8**: How can you disguise the transition to prevent your opponent from anticipating the guard switch?
-**A**: Initiate the lasso extraction within the context of an offensive movement such as a sweep attempt, grip fight, or angle change so the leg repositioning appears to be part of an attack rather than a guard switch. Avoid telegraphing cues like looking at the opponent's lead leg or making preparatory hip adjustments. The best disguise is combining the transition with a legitimate sweep threat from Russian Lasso, so the opponent must decide between defending the sweep and preventing the guard change.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Russian Lasso to De La Riva?</p>
 
 This guard transition carries low injury risk as it involves leg repositioning rather than joint manipulation or impact. The primary safety concern is knee stress during rapid leg repositioning, particularly if the lasso leg becomes temporarily trapped during extraction. Practice the transition at slow speeds before adding tempo. Ensure the lasso leg has a clear extraction path before committing to avoid awkward knee angles under load. Partners should communicate immediately if the leg feels stuck during extraction to prevent forced movement that could strain the knee or ankle ligaments. Avoid explosive extraction movements when the lasso is tightly configured.
 

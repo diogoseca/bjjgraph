@@ -175,6 +175,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Position Definition
 
+<p class="section-subtitle">What is Twister Side Control (Bottom)?</p>
+
 - Bottom player is on their side with top player controlling from lateral position, with top player's legs entangling bottom player's lower body while maintaining shoulder pressure to restrict upper body mobility and create rotational torque on the spine
 - Top player maintains leg hook around bottom player's near leg (the leg closest to top player) while positioning their body perpendicular or at an angle to create leverage for spinal attacks, with bottom player's mobility severely restricted by the combination of leg entanglement and shoulder pressure
 - Bottom player's near shoulder is controlled and driven toward the mat while their hips are partially elevated by the leg entanglement, creating the mechanical structure necessary for twister-style submissions and preventing flat defensive positioning that would enable traditional side control escapes
@@ -186,6 +188,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Twister Side Control (Bottom)?</p>
+
 - Top player has achieved leg entanglement around bottom player's near leg from truck, failed back take, or direct side control entry
 - Top player has established shoulder control sufficient to prevent bottom player from turning toward them or achieving defensive frames
 - Bottom player's hips are partially elevated and rotated due to leg hook positioning, preventing flat defensive posture
@@ -196,6 +200,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Twister Side Control?</p>
 
 - Primary defensive priority is protecting spinal integrity by preventing full rotational torque
 - Frame creation at the shoulder and hip prevents top player from consolidating full twister mechanics
@@ -211,6 +217,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Twister Side Control (Bottom)?</p>
 
 **If top player is actively attacking twister submission with full spinal torque:**
 - Execute **[[Spine Protection/Attacker|Spine Protection]]** → [[Twister Side Control Bottom]] (Probability: 80%)
@@ -239,6 +247,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Twister Side Control?</p>
 
 ### 1. Attempting explosive full escape before systematically dismantling leg entanglement and shoulder control
 
@@ -278,6 +288,8 @@ The learning curve for defending Twister Side Control is steep, with beginners o
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Twister Side Control defense?</p>
+
 ### Progressive Twister Defense
 
 Partner starts in full twister side control with 50% resistance. Defender practices systematic defense sequence: spine protection, frame creation, leg extraction, re-guard. Reset and repeat with increasing resistance as competence improves.
@@ -310,38 +322,6 @@ Multiple rounds starting from twister side control bottom. Defender attempts ful
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct hierarchy of defensive priorities when trapped in twister side control bottom?
-**A**: The defensive hierarchy is: first protect the spine and prevent full rotational torque, second create upper body frames to reduce shoulder pressure, third systematically extract the legs from entanglement, and fourth create sufficient space to re-guard or achieve a neutral position. Attempting to skip steps typically results in submission or transition to worse positions. Each layer must be addressed before the next becomes viable.
-
-**Q2**: Your opponent begins applying rotational torque to your spine - what is your immediate response?
-**A**: Immediately use both hands to block spinal rotation by grabbing your own knee or thigh on the side being rotated, preventing the twister mechanics from completing. This takes priority over all other defensive concerns. Only after neutralizing the immediate spinal threat should you address other positional problems. Do not attempt leg extraction or escape while under active spinal attack.
-
-**Q3**: What type of frames should you build and where should they be positioned?
-**A**: Build structural frames with elbows bent and connected to your hip, creating barriers rather than muscular pushing. The primary frame goes against the opponent's shoulder or hip to prevent them from consolidating weight. Never extend arms straight as this creates vulnerability to arm attacks and fails to create meaningful separation. Frames should redirect force rather than try to push the opponent away.
-
-**Q4**: Why is turning away from the top player a critical error even when it relieves shoulder pressure?
-**A**: Turning away gifts back exposure and actually deepens the twister setup by increasing spinal rotation - exactly what the submission requires. The momentary relief from shoulder pressure is replaced by worse positional vulnerability and accelerated submission mechanics. Always maintain facing toward the top player's hips while using frames to create separation rather than turning your back.
-
-**Q5**: How should you manage energy expenditure when defending twister side control?
-**A**: Use small adjustments and strategic timing rather than constant muscular effort or explosive escape attempts. Failed explosive escapes leave you exhausted and more vulnerable. The goal is gradual improvement through incremental gains while conserving energy for the final escape sequence when opportunity presents. Move efficiently, time your efforts with the opponent's movements, and accept that escape may require extended defensive sequences.
-
-**Q6**: When does technical stand-up become a viable escape option from twister side control bottom?
-**A**: Technical stand-up becomes viable only after creating sufficient upper body separation through effective framing and achieving partial leg extraction to restore some hip mobility. Attempting technical stand-up while the opponent maintains full control will fail and potentially worsen your position. The escape requires sequential success: frames first, then leg extraction, then the technical stand-up becomes possible.
-
-**Q7**: What timing window should you look for when attempting the granby roll escape?
-**A**: The optimal timing for granby roll is when the top player attempts to deepen their control by moving toward back exposure or when they shift weight to pursue a submission. This movement creates momentary gaps in their control structure. The granby uses their forward momentum against them, rolling away from the pressure rather than into it. Never granby when the opponent has fully consolidated control.
-
-**Q8**: How do you sequence the leg extraction process without creating worse positions?
-**A**: Leg extraction must be coordinated with upper body frames - never attempt to extract legs while the opponent has full shoulder control, as this often deepens the entanglement. First establish frames to limit their ability to follow your hip movement, then systematically work to unhook one leg at a time using hip extension and small circular movements. Maintain defensive posture throughout extraction rather than rushing to complete escape.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -154,6 +154,8 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Toe Hold to Straight Ankle Lock?</p>
+
 - Attacker squeezes their leg entanglement noticeably tighter, signaling they are preparing to release hand grips and rely on leg control alone during the transition
 - The figure-four toe hold grip loosens or the top hand begins sliding away from the foot toward the ankle area, indicating the grip reconfiguration has started
 - Attacker drives increased hip and chest pressure forward against your shin, compensating in advance for the reduced hand control during the switch
@@ -166,6 +168,8 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toe Hold to Straight Ankle Lock?</p>
 
 - The grip transition window is your best escape opportunity. React immediately when you feel the attacker's figure-four grip release rather than waiting for the new grip to consolidate.
 - Your boot defense against the toe hold may expose your Achilles to the ankle lock. Adjust foot positioning when you detect the grip change to protect the posterior ankle.
@@ -180,6 +184,8 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Toe Hold to Straight Ankle Lock?</p>
 
 ### 1. Explosive leg extraction during grip release window
 
@@ -217,6 +223,8 @@ From the defender's perspective, the attacker's grip switch from toe hold to str
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Toe Hold to Straight Ankle Lock?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the grip release window by pulling your knee to your chest with maximum hip flexion while simultaneously pushing the attacker's hips away with your free leg. The staggered hand release during the grip change creates a 1-2 second window where leg extraction is most viable. Time your escape attempt to the moment you feel the figure-four grip loosen rather than waiting for the new grip to consolidate.
@@ -232,6 +240,8 @@ Prevent the successful grip transition by counter-rotating your foot externally 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toe Hold to Straight Ankle Lock?</p>
 
 ### 1. Maintaining static boot defense position after detecting the grip switch has begun
 
@@ -261,6 +271,8 @@ Prevent the successful grip transition by counter-rotating your foot externally 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Toe Hold to Straight Ankle Lock?</p>
+
 **Phase 1: Recognition Training** - Identifying grip change signals
 Partner alternates between maintaining toe hold grip and initiating the switch to ankle lock. Defender calls out the moment they detect the transition beginning based on tactile cues. Develop sensitivity to the specific sensations that precede the grip change: leg tightening, grip loosening, hip pressure increase.
 
@@ -277,26 +289,6 @@ Full resistance positional sparring starting from toe hold control. Attacker wor
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is about to switch from toe hold to straight ankle lock?
-**A**: The earliest cue is typically increased leg entanglement squeeze, as the attacker tightens their legs to maintain independent control before releasing their hand grips. This preparatory tightening precedes the actual grip change by 1-2 seconds and should trigger your escape preparation. Secondary cues include loosening of the figure-four grip and increased forward hip pressure.
-
-**Q2**: Why might your successful toe hold defense actually make you more vulnerable to the straight ankle lock?
-**A**: Boot defense against the toe hold involves internally rotating your foot to hide the heel and resist rotational pressure. However, this internal rotation can simultaneously flatten and expose the posterior ankle area where the Achilles tendon sits. The attacker exploits this by redirecting from rotational attack to extension-based Achilles compression, essentially attacking the mechanical opening your own defense created.
-
-**Q3**: When during the grip transition is your escape probability highest, and why?
-**A**: Escape probability is highest during the 1-2 second window when the attacker has released the toe hold figure-four but has not yet completed the straight ankle lock grip configuration. During this window, the attacker has minimal hand control over your foot and ankle, relying entirely on leg entanglement for positional control. Leg entanglement alone is significantly easier to defeat than leg entanglement combined with secure hand grips, making this your optimal escape window.
-
-**Q4**: Your attacker begins the grip switch but you feel their leg entanglement is loose. What is your best response?
-**A**: If the leg entanglement is loose during the grip transition, execute immediate aggressive leg extraction by pulling your knee toward your chest with maximum hip flexion while pushing the attacker's hips away with your free leg. A loose leg wrap combined with released hand grips represents the weakest possible control configuration and your highest-percentage escape opportunity. Do not hesitate or wait for better timing, as the attacker may tighten their legs if given additional time.
-
-
-
-</section>
 
 
 </main>

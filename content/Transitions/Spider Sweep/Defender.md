@@ -162,6 +162,8 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Spider Sweep?</p>
+
 - Bottom player hip escapes to create a 30-45 degree angle off center while maintaining sleeve grips and feet on biceps
 - One sleeve being pulled more strongly across the bottom player's body toward their opposite hip while the other foot extends deeper into your bicep
 - Bottom player's hips elevate off the mat with increased core tension indicating they are loading rotational energy for the sweep
@@ -174,6 +176,8 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Spider Sweep?</p>
 
 - Recognize the hip angle shift early: when the bottom player hip escapes to create angle, the sweep is being set up and you must respond immediately
 - Address the grips systematically: strip sleeve grips using two-on-one breaks before the sweep can be loaded rather than fighting the foot pressure
@@ -189,6 +193,8 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Spider Sweep?</p>
 
 ### 1. Post the same-side hand on the mat toward the sweep direction to block the rotation
 
@@ -226,6 +232,8 @@ Defending the Spider Sweep requires the top player to recognize the setup early,
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Spider Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip both sleeve grips using systematic two-on-one breaks, then immediately control the opponent's pants at the knees and drive forward pressure to flatten their guard before they can re-establish spider guard control. The moment grips break, transition to passing rather than allowing regripping.
@@ -241,6 +249,8 @@ Maintain centered base with wide stance and prevent the hip angle creation by ap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Spider Sweep?</p>
 
 ### 1. Leaning forward with weight committed to one side while both sleeve grips are still intact
 
@@ -270,6 +280,8 @@ Maintain centered base with wide stance and prevent the hip angle creation by ap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Spider Sweep?</p>
+
 **Phase 1: Recognition Training** - Identifying spider sweep setups through visual and tactile cues
 Partner establishes spider guard and slowly sets up the sweep while you practice identifying each recognition cue: the hip angle, the asymmetric grip pull, the foot pressure change, and the hip elevation. Call out each cue as you recognize it. Build pattern recognition at slow speed before adding resistance.
 
@@ -286,29 +298,6 @@ Positional sparring where partner starts in spider guard with full offensive int
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel your weight being loaded to one side as the bottom player initiates the Spider Sweep - what immediate action prevents the sweep completion?
-**A**: Post your same-side hand firmly on the mat toward the sweep direction to create a structural block against the rotation. Simultaneously widen your base by stepping your far foot outward to redistribute your weight. This combination of posting and base widening removes the weight imbalance that the sweep needs to complete. However, be aware that posting exposes your arm to triangle and omoplata transitions, so you must follow the post with an immediate grip break and base reset.
-
-**Q2**: What are the earliest recognition cues that a Spider Sweep is being set up?
-**A**: The earliest cue is the bottom player hip escaping to create a diagonal angle off centerline while maintaining both sleeve grips. This angle creation is the prerequisite for the sweep and must happen before the scissoring force can work. Other early cues include asymmetric foot pressure where one foot pushes harder while the other adjusts position, the bottom player's hips elevating off the mat with increased tension, and one sleeve being pulled more strongly across their body toward the opposite hip.
-
-**Q3**: The bottom player has established the angle and is pulling your sleeve strongly - how do you counter at this stage?
-**A**: At this stage, the sweep is partially loaded and reactive defense becomes critical. Use a two-on-one grip break on the pulling sleeve by grabbing their gripping hand with both of your hands and stripping it while simultaneously stepping back with the foot on the sweep side to shift your weight away from the sweep direction. If the grip break fails, post immediately with your same-side hand and circle toward the sweep direction to neutralize the angle rather than fighting against the rotational force directly.
-
-**Q4**: What base fundamentals specifically prevent Spider Sweeps from being effective?
-**A**: Keep feet wider than shoulder width with weight evenly distributed between both legs and your center of gravity low through bent knees. Never allow your weight to drift past the center point between your feet. Keep your elbows connected to your torso to prevent the diagonal pulling force from isolating and extending your arm. Maintain upright posture so gravity works straight down through your base rather than at an angle that aids the sweep. These fundamentals make it structurally impossible for the scissoring force to generate sufficient rotation.
-
-**Q5**: You successfully resist the initial sweep attempt but the bottom player maintains both grips - what should you do next?
-**A**: Immediately begin systematic grip breaking before they can re-angle and attempt again. Target one grip at a time using a two-on-one break: grab their gripping hand with both hands and strip it while stepping back. The moment one grip breaks, immediately transition to a passing action, controlling their now-free leg with your hand and initiating a toreando or knee slice pass before they can re-grip. Staying in spider guard with both grips intact after defending one sweep just gives them a second opportunity.
-
-
-
-</section>
 
 
 </main>

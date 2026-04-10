@@ -280,15 +280,11 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Americana",
+        "transition": "Cross Collar Choke from Modified Mount",
         "attempt_probability": 9
       },
       {
-        "transition": "Cross Collar Choke",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Kimura",
+        "transition": "Kimura from Modified Mount",
         "attempt_probability": 7
       },
       {
@@ -301,7 +297,7 @@
       },
       {
         "transition": "Americana from Modified Mount",
-        "attempt_probability": 4
+        "attempt_probability": 13
       }
     ],
     "knowledge_assessment": [

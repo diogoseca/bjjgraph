@@ -197,13 +197,13 @@ Kimura defense represents a universal defensive skill that applies across virtua
 
 - [[Positions/Kimura Trap]] - Offensive position being defended against
 
-- [[Transitions/Kimura]] - Primary submission threat requiring this defense
+- [[Submissions/Kimura]] - Primary submission threat requiring this defense
 
 - [[Transitions/Hitchhiker Escape]] - Alternative escape variation when rolling is blocked
 
-- [[Submissions/Kimura from Side Control]] - Common attack scenario requiring positional defense
+- [[Positions/Side Control]] - Common position where kimura attacks originate, requiring positional awareness for early defense
 
-- [[Submissions/Kimura from Mount]] - High-danger attack scenario with specific defensive adjustments
+- [[Positions/Mount]] - High-danger position for kimura attacks requiring specific defensive adjustments due to limited mobility
 
 - [[Transitions/Hip Escape to Guard]] - Core defensive mechanic for creating escape space
 
@@ -211,7 +211,7 @@ Kimura defense represents a universal defensive skill that applies across virtua
 
 - [[Positions/Half Guard]] - Target position after successful defense
 
-- [[Transitions/Americana]] - Related shoulder lock requiring similar defensive principles
+- [[Submissions/Americana]] - Related shoulder lock requiring similar defensive principles
 
 - [[Positions/Omoplata Control]] - Counter-attack option from certain defensive positions
 

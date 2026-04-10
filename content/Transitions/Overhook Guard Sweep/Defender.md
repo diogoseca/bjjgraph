@@ -85,6 +85,14 @@ description: "Learn to defend and counter the Overhook Guard Sweep in BJJ. Recog
         "@type": "Answer",
         "text": "When the bottom player opens their guard to plant their sweeping foot, their guard structure is momentarily compromised. This creates a window for backstep passing, leg extraction, or knee slice entry. Additionally, if the sweep fails and the bottom player has committed their hips to the angle, they may be out of position to recover guard effectively. The defender can immediately capitalize by driving into the created space and initiating a passing sequence while the bottom player works to reset their guard."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you recognize the difference between a committed sweep attempt and a feint designed to set up a submission?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A committed sweep attempt involves the bottom player opening their guard and planting a foot on the mat for driving force, combined with a strong lateral pull on the overhook. A feint typically maintains closed guard or only partially opens it, and the overhook pull direction changes quickly. Watch the bottom player's hips and feet rather than their upper body: if their foot plants firmly near your hip and their hips commit to the angle, the sweep is real. If their guard stays closed or their hips remain centered, they are likely baiting you to post so they can transition to triangle or armbar off your extended arm."
+      }
     }
   ]
 }
@@ -154,6 +162,8 @@ Defending the Overhook Guard Sweep requires immediate recognition of the setup s
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook Guard Sweep?</p>
+
 - Bottom player secures a deep overhook with their hand reaching your lat or shoulder blade and their elbow pinching tight against their ribs
 - Bottom player's hips shift toward the overhook side, creating an angle that loads your weight over the trapped arm
 - Bottom player's free hand aggressively seeks control of your opposite wrist, sleeve, or collar to eliminate your posting ability
@@ -165,6 +175,8 @@ Defending the Overhook Guard Sweep requires immediate recognition of the setup s
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook Guard Sweep?</p>
 
 - Address the overhook immediately upon establishment rather than allowing the bottom player time to consolidate grips and create angle
 - Maintain wide base with weight distributed low through hips to resist the rotational force of the sweep
@@ -179,6 +191,8 @@ Defending the Overhook Guard Sweep requires immediate recognition of the setup s
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook Guard Sweep?</p>
 
 ### 1. Post free hand wide immediately when you feel the hip angle change
 
@@ -216,6 +230,8 @@ Defending the Overhook Guard Sweep requires immediate recognition of the setup s
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook Guard Sweep?</p>
+
 ### → [[Positions/Overhook Guard]]
 
 Prevent the sweep by posting your free hand wide, driving forward with shoulder pressure, or stripping the overhook before the bottom player establishes all three setup elements. Maintain a wide base with hips low and centered over the bottom player to resist rotational force.
@@ -231,6 +247,8 @@ Use the bottom player's guard opening during the sweep setup as an opportunity t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Guard Sweep?</p>
 
 ### 1. Allowing the deep overhook to consolidate without immediately addressing it
 
@@ -260,6 +278,8 @@ Use the bottom player's guard opening during the sweep setup as an opportunity t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook Guard Sweep?</p>
+
 **Phase 1: Recognition** - Identifying the sweep setup sequence and its individual elements
 Partner establishes overhook guard and slowly works through the sweep setup while you identify each element verbally: overhook establishment, arm control, angle creation, foot plant. Practice at zero speed to develop pattern recognition. After identifying each element, practice the appropriate defensive response in isolation.
 
@@ -276,26 +296,6 @@ Positional sparring starting with the bottom player in established overhook guar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the sweep setup where defensive intervention is most effective?
-**A**: The earliest and most effective intervention point is immediately when the overhook is established, before the bottom player secures opposite arm control or creates hip angle. At this stage, the sweep system has only one of its three required elements, and stripping the overhook or recovering posture eliminates the threat entirely. Each subsequent element the bottom player establishes makes defense progressively more difficult and energy-intensive.
-
-**Q2**: How should you adjust your base when you recognize the bottom player is creating an angle toward the overhook side?
-**A**: Widen your base by posting your free-side knee outward and dropping your hips lower toward the mat. Shift your weight slightly away from the overhook side to counterbalance the angle the bottom player is creating. Drive your shoulder pressure forward into the overhook to flatten the bottom player and eliminate the space they need for the angle. The combination of wide base, low hips, and forward pressure makes the sweep direction mechanically very difficult.
-
-**Q3**: Your posting hand is controlled and the sweep is already in motion - what is your best recovery option?
-**A**: If the sweep has passed the tipping point and both arms are controlled, tuck your chin, round your back, and work to establish half guard by inserting your bottom knee shield as you roll. Do not fight the sweep at this stage as it wastes energy and often results in a worse position than mount. Instead, accept the reversal but focus on recovering half guard during the transition, which gives you a much better defensive position than flat mount bottom.
-
-**Q4**: What defensive opportunity does the bottom player's sweep attempt create for guard passing?
-**A**: When the bottom player opens their guard to plant their sweeping foot, their guard structure is momentarily compromised. This creates a window for backstep passing, leg extraction, or knee slice entry. Additionally, if the sweep fails and the bottom player has committed their hips to the angle, they may be out of position to recover guard effectively. The defender can immediately capitalize by driving into the created space and initiating a passing sequence while the bottom player works to reset their guard.
-
-
-
-</section>
 
 
 </main>

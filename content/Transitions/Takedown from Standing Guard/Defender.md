@@ -162,6 +162,8 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Takedown from Standing Guard?</p>
+
 - Opponent's knees bend and hips drop noticeably lower than their normal standing posture during grip fighting exchanges
 - Sudden grip changes—opponent releases established grips or quickly secures new control points such as collar tie or wrist control before shooting
 - Forward weight shift with head dropping below your shoulder line, indicating the beginning of a level change entry
@@ -174,6 +176,8 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Takedown from Standing Guard?</p>
 
 - Maintain distance through active grip fighting to prevent the opponent from reaching effective takedown range where their penetration step can make contact
 - Keep hips back and center of gravity low when the opponent threatens level changes—a pre-loaded sprawl position is faster than reacting from an upright stance
@@ -188,6 +192,8 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Takedown from Standing Guard?</p>
 
 ### 1. Sprawl defense—drop hips explosively to the mat while extending legs backward and driving shoulder pressure into opponent's upper back and head
 
@@ -225,6 +231,8 @@ Defending the Takedown from Standing Guard requires anticipating the opponent's 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Takedown from Standing Guard?</p>
+
 ### → [[Positions/Standing Guard]]
 
 Defend the takedown with a decisive sprawl, driving your hips explosively to the mat and controlling the opponent's head and shoulders with crossface pressure to prevent them from recovering their shot. Use your hip weight to flatten them, then push off their shoulders to return to standing or advance to front headlock control position.
@@ -240,6 +248,8 @@ Counter the takedown during the opponent's level change by securing a guillotine
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Takedown from Standing Guard?</p>
 
 ### 1. Reacting too late—waiting until the opponent has already secured deep leg contact before attempting defensive response
 
@@ -269,6 +279,8 @@ Counter the takedown during the opponent's level change by securing a guillotine
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Takedown from Standing Guard?</p>
+
 **Phase 1: Recognition** - Identifying takedown entry cues and timing
 Partner performs level changes, grip transitions, and stance adjustments at varying speeds while you call out each pre-shot indicator as it occurs. No actual takedown attempts yet—focus purely on reading the opponent's body language and developing the pattern recognition needed for early defensive responses.
 
@@ -285,29 +297,6 @@ Positional sparring rounds starting from standing guard with full resistance fro
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest pre-shot indicators that tell you a takedown attempt is imminent?
-**A**: The earliest indicators include sudden grip changes where the opponent releases established grips to clear a path for their entry, a lowering of their overall stance with increased knee bend, a shift of their weight onto the balls of their feet with heels slightly elevated, and their eyes tracking downward toward your legs instead of maintaining normal engagement level. These indicators typically appear 0.5 to 1 second before the actual penetration step, giving you time to pre-load your defensive response.
-
-**Q2**: Your opponent shoots a deep double leg and you fail to sprawl in time—what is your best defensive option?
-**A**: When the sprawl window has passed and the opponent has deep chest-to-thigh contact, your best option is to immediately establish a guillotine or front headlock grip on their exposed head and neck. Use your hips to create a frame against their driving force while securing the head control, then work to establish a dominant choke position during the transition to ground. If no head control is available, accept the takedown but immediately pull half guard with an underhook rather than allowing them to land in side control with freedom to consolidate.
-
-**Q3**: How do you position your hips during a sprawl defense to maximize the effectiveness of your hip pressure?
-**A**: Drive your hips directly toward the mat in a downward trajectory, landing your hip bones on the opponent's shoulders and upper back rather than on the mat beside them. Your legs should extend backward at approximately 45 degrees with toes pointed and pushing against the mat for additional pressure. The critical detail is keeping your chest up and weight driving forward into the opponent rather than lying flat—this creates maximum pressure on their head and shoulders while preventing them from circling or adjusting their penetration angle underneath your sprawl.
-
-**Q4**: When is it appropriate to pull guard defensively rather than attempting to sprawl against a takedown?
-**A**: Guard pulling is appropriate when you have established controlling grips before the takedown attempt initiates and you recognize that the opponent's shot timing and depth will likely beat your sprawl. It is also appropriate when the opponent has significant wrestling advantages and repeated sprawl attempts have failed in previous exchanges. The critical requirement is that you have grips established before sitting—a collar and sleeve grip, two-on-one control, or double sleeve grips that allow you to dictate the landing position and immediately establish your guard structure during the transition.
-
-**Q5**: Your sprawl successfully stops the initial shot but your opponent maintains a single leg grip—how do you finish the defense?
-**A**: With the initial shot stopped, use your hip pressure and crossface to drive the opponent's head toward the mat on the outside of your body. Simultaneously work to peel their grip off your leg by using your free hand to strip their wrist control or by circling your captured leg in a large arc to break their grip mechanically. If the grip remains, wizzer their arm deeply and use the overhook to rotate them underneath you while hopping your free leg backward to extract the captured leg. Never allow them to recover their level with the leg still controlled.
-
-
-
-</section>
 
 
 </main>

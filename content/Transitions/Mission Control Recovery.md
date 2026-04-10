@@ -204,11 +204,11 @@ Mission Control Recovery is the essential link that makes the rubber guard syste
 
 - [[Transitions/Closed Guard to Omoplata]] - Alternative attack chain from recovered Mission Control
 
-- [[Transitions/Triangle Choke]] - Alternative submission threat from recovered Mission Control
+- [[Transitions/Closed Guard to Triangle]] - Alternative submission entry available from recovered Mission Control position
 
 - [[Transitions/Gogoplata]] - Submission that can be re-attempted after recovery
 
-- [[Submissions/Armbar from Guard]] - Alternative attack available from Mission Control
+- [[Positions/Armbar Control]] - Submission control position reachable through arm attacks from recovered Mission Control
 
 - [[Transitions/Back Take from Bottom]] - Transition option if opponent turtles during recovery
 

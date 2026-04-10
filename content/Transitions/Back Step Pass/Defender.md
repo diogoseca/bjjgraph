@@ -174,6 +174,8 @@ Successful defense requires reading the passer's weight shifts and stance change
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Step Pass?</p>
+
 - Passer shifts weight noticeably onto one leg while the other becomes lighter in your hooks, indicating preparation to extract the light leg backward
 - Passer's upper body rises slightly or their hips lower into a squat as they prepare the stepping motion, changing their center of gravity before the arc begins
 - Passer's hands begin actively pushing or stripping your leg contact rather than posting for base, signaling imminent extraction effort
@@ -185,6 +187,8 @@ Successful defense requires reading the passer's weight shifts and stance change
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Step Pass?</p>
 
 - Follow the retreating leg with your hips and hooks rather than letting the connection break passively
 - Reinvert or roll toward the stepping direction to maintain leg contact during the extraction arc
@@ -199,6 +203,8 @@ Successful defense requires reading the passer's weight shifts and stance change
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Step Pass?</p>
 
 ### 1. Chase with reinversion - roll your shoulders and reinvert toward the direction of the retreating leg, threading your hooks to reestablish grasshopper guard contact
 
@@ -236,6 +242,8 @@ Successful defense requires reading the passer's weight shifts and stance change
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Step Pass?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Follow the retreating leg with a reinversion, threading your hooks back into their knee space before the extraction completes. Time your reinversion to begin as you feel the weight shift, not after the leg has already cleared. Alternatively, recover any open guard position by framing and creating distance before the forward drive consolidates.
@@ -251,6 +259,8 @@ Attack the stationary base leg as the passer shifts weight onto it for the back 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Step Pass?</p>
 
 ### 1. Remaining static when the back step initiates instead of immediately following or transitioning
 
@@ -285,6 +295,8 @@ Attack the stationary base leg as the passer shifts weight onto it for the back 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Step Pass?</p>
+
 **Week 1-2** - Recognition drilling
 Partner executes the back step at 30% speed from grasshopper guard. Focus entirely on recognizing the weight shift and stepping telegraph. Call out the initiation moment verbally before attempting any defensive response. Build pattern recognition without physical response.
 
@@ -301,32 +313,6 @@ Positional sparring starting in grasshopper guard where the passer is instructed
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Back Step Pass is about to be initiated?
-**A**: The earliest cue is the passer shifting their weight noticeably onto one leg while the other becomes lighter in your hooks. This weight transfer is a mechanical prerequisite for the back step and precedes the actual stepping motion by a fraction of a second, giving you the maximum reaction window.
-
-**Q2**: Why should you target the passer's base leg rather than chasing the retreating leg?
-**A**: The base leg bears the passer's full body weight during the back step and cannot move until the stepping leg touches down. This makes it a stationary target ideal for ashi garami entries. The retreating leg, by contrast, is actively moving away with mechanical advantage, making it extremely difficult to control or recapture.
-
-**Q3**: Your reinversion fails and the passer's leg clears your hooks - what is your immediate priority?
-**A**: Your immediate priority is preventing the crossface from establishing before the forward drive consolidates side control. Frame with your forearms against the passer's shoulders, turn to your side to avoid being flattened, and insert a knee or butterfly hook between your bodies. Preventing the crossface preserves your ability to recover guard.
-
-**Q4**: What makes the Back Step Pass particularly dangerous compared to other passing techniques against grasshopper guard?
-**A**: The back step specifically targets grasshopper guard's primary weakness: the reliance on maintaining continuous leg contact with the passer. By extracting backward at an angle rather than driving through the guard, the passer avoids feeding into your sweeping and entanglement mechanics while simultaneously opening a direct path to side control.
-
-**Q5**: How should you adjust your grasshopper guard structure if you know your opponent frequently uses the back step?
-**A**: Maintain deeper hooks with your legs wrapped further behind the passer's knees rather than shallow shin-on-shin contact. Keep your secondary leg ready to immediately redirect to the base leg if the primary hook is stripped. Accelerate your attack timeline from grasshopper—commit to sweeps or leg entries faster to force the passer to defend rather than initiate their back step.
-
-**Q6**: At what point during the Back Step Pass is the passer most vulnerable to a counter-attack?
-**A**: The passer is most vulnerable during the weight transfer phase immediately before the stepping leg begins its arc. At this moment, their weight is concentrated on a single leg, their balance is transitional, and they cannot defend the base leg without aborting the pass. This is the optimal window for shooting into ashi garami on the weighted leg.
-
-
-
-</section>
 
 
 </main>

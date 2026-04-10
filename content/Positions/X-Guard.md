@@ -93,11 +93,11 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (36% of attempts)
+- **[[Transitions/X-Guard Sweep/Attacker|X-Guard Sweep]]** (37% of attempts)
 
 - **[[Transitions/Single Leg X Entry/Attacker|Single Leg X Entry]]** (16% of attempts)
 
-- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (13% of attempts)
+- **[[Transitions/X-Guard to Ashi Garami/Attacker|X-Guard to Ashi Garami]]** (14% of attempts)
 
 - **[[Transitions/Technical Stand Up to Single Leg/Attacker|Technical Stand Up to Single Leg]]** (7% of attempts)
 
@@ -110,8 +110,6 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 - **[[Transitions/X-Guard Technical Stand Up/Attacker|X-Guard Technical Stand Up]]** (2% of attempts)
 
 - **[[Transitions/X-Guard to Single Leg X/Attacker|X-Guard to Single Leg X]]** (1% of attempts)
-
-- **[[Submissions/Ankle Lock from X-Guard/Attacker|Ankle Lock from X-Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -172,8 +170,6 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 ### Available Transitions
 
 
-- **[[Transitions/Smash Pass/Attacker|Smash Pass]]** (12% of attempts)
-
 - **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (61% of attempts)
 
 - **[[Transitions/Long Step Pass/Attacker|Long Step Pass]]** (6% of attempts)
@@ -192,7 +188,7 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 - **[[Transitions/Step Over from X-Guard/Attacker|Step Over from X-Guard]]** (0% of attempts)
 
-- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (0% of attempts)
+- **[[Transitions/Smash Pass from X-Guard/Attacker|Smash Pass from X-Guard]]** (12% of attempts)
 
 - **[[Transitions/Standing Escape from X-Guard/Attacker|Standing Escape from X-Guard]]** (1% of attempts)
 

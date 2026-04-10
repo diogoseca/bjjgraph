@@ -164,6 +164,8 @@ Successful defense requires understanding that the overhook and shin control fun
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Overhook Extraction?</p>
+
 - Opponent's trapped elbow begins rotating downward toward their hip rather than remaining pointed at the floor - this is the setup for corkscrew extraction
 - Opponent widens their base significantly by spreading knees apart, indicating they are preparing a stable platform for extraction attempts
 - Opponent's free hand shifts from framing on your hip to grip-fighting your shin-controlling hand, signaling they are targeting the structural foundation of your control
@@ -175,6 +177,8 @@ Successful defense requires understanding that the overhook and shin control fun
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Overhook Extraction?</p>
 
 - Maintain shoulder-to-armpit pressure on the overhook continuously - any slack enables the corkscrew extraction angle
 - Active shin grip adjustment prevents the top player from stripping your controlling hand
@@ -189,6 +193,8 @@ Successful defense requires understanding that the overhook and shin control fun
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Overhook Extraction?</p>
 
 ### 1. Deepen the overhook by swimming your shoulder tighter against their armpit and pulling their elbow across your centerline
 
@@ -226,6 +232,8 @@ Successful defense requires understanding that the overhook and shin control fun
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Overhook Extraction?</p>
+
 ### → [[Positions/Rubber Guard/New York]]
 
 Maintain constant shoulder-to-armpit overhook pressure while actively reinforcing your shin grip. When you feel the elbow angle change, immediately deepen the overhook by pulling their tricep tighter across your chest. Keep cycling through minor attack threats to prevent them from dedicating full attention to extraction mechanics.
@@ -241,6 +249,8 @@ Time your triangle entry to the moment their arm is partially extracted and thei
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Overhook Extraction?</p>
 
 ### 1. Relying solely on grip strength to maintain the overhook without adjusting shoulder position
 
@@ -270,6 +280,8 @@ Time your triangle entry to the moment their arm is partially extracted and thei
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Overhook Extraction?</p>
+
 **Week 1-2** - Overhook retention mechanics
 Partner attempts slow, cooperative corkscrew extractions while you practice deepening the overhook and maintaining shin grip. Focus on feeling the elbow angle change and responding with shoulder adjustment. 40-50 repetitions per session with zero to light resistance.
 
@@ -286,29 +298,6 @@ Start in New York with partner working full resistance extraction. Integrate all
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a corkscrew extraction?
-**A**: The earliest cue is their trapped elbow beginning to rotate downward toward their own hip. This angle change precedes the actual spiral motion and signals that they are positioning for the corkscrew. You may also notice them widening their base and grip-fighting your shin-controlling hand, but the elbow rotation is the most reliable indicator because it represents the mechanical setup without which the extraction cannot succeed.
-
-**Q2**: How do the overhook and shin control work together as a defensive system, and what happens when one fails?
-**A**: The overhook traps the arm while the shin control breaks posture and provides leverage that keeps the overhook effective. They form a closed kinetic chain where each element reinforces the other. When shin control fails, the opponent can recover posture, which removes the downward leverage that keeps the arm trapped in the overhook. When the overhook fails, the opponent's arm is free to post and frame, making shin control alone insufficient to maintain New York.
-
-**Q3**: When should you transition to triangle rather than continue fighting to maintain the overhook?
-**A**: Transition to triangle when the arm is partially extracted but the opponent's posture has momentarily dipped during their corkscrew motion. This is the precise window where the space created by extraction allows your leg to shoot over their shoulder while their compromised posture prevents them from defending. If you wait until full extraction with recovered posture, the triangle percentage drops dramatically. The key is recognizing when maintaining the overhook is a losing battle and converting to a higher-value position.
-
-**Q4**: Your opponent begins grip-fighting your shin-controlling hand - what is the correct defensive priority?
-**A**: Reinforce the shin grip immediately by adjusting your hand position and pulling your shin tighter across their back. Simultaneously deepen the overhook to compensate for any momentary looseness. If they strip the shin grip despite your defense, use the freed leg to immediately transition to triangle or closed guard rather than trying to re-establish New York from a compromised position. The shin grip is the structural foundation - once it is fully compromised, New York cannot be maintained.
-
-**Q5**: How do you use offensive cycling to prevent your opponent from executing their extraction plan?
-**A**: Alternate between attack threats every 5-10 seconds: hip bump feints that force them to post and widen base, triangle set-ups that force them to protect their neck, and transitions toward Invisible Collar or Zombie that force them to address new positional threats. Each threat requires a different defensive response from the top player, preventing them from settling into the systematic base-posture-extraction sequence. The goal is not necessarily to finish any single attack but to keep them perpetually reacting.
-
-
-
-</section>
 
 
 </main>

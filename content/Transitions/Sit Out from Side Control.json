@@ -14,7 +14,7 @@
   "from_position": "Side Control/Bottom",
   "outcomes": [
     {
-      "to": "Scramble Position",
+      "to": "Turtle/Top",
       "probability": 50,
       "result": "success"
     },
@@ -62,7 +62,7 @@
       "relationship": "Starting position where the technique is initiated from the bottom"
     },
     {
-      "name": "Scramble Position",
+      "name": "Turtle",
       "relationship": "Primary target position reached upon successful sit-out completion"
     },
     {
@@ -78,16 +78,16 @@
       "relationship": "Alternative side control escape using similar initial space creation but different exit direction"
     },
     {
-      "name": "Escape Side Control Consolidation",
+      "name": "Side Control Escape",
       "relationship": "Standard escape framework that the sit-out supplements as an alternative pathway"
     },
     {
-      "name": "Hip Escape from Side Control Consolidation",
+      "name": "Hip Escape from Side Control",
       "relationship": "Complementary lateral escape technique contrasting the sit-out rotational approach"
     },
     {
-      "name": "Scramble to Top Position",
-      "relationship": "Follow-up transition available after reaching the scramble from a successful sit-out"
+      "name": "Technical Stand Up from Open Guard",
+      "relationship": "Follow-up transition available after reaching turtle from a successful sit-out"
     }
   ],
   "attacker": {

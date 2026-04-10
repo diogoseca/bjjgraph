@@ -182,6 +182,8 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Russian Cowboy to Back Control?</p>
+
 - Maintain constant seatbelt pressure and chest-to-back connection throughout the entire transition to prevent opponent from creating distance or turning
 - Use the existing deep hook as a stable anchor controlling the opponent's hip rotation while the free leg threads across their body
 - Create a legitimate submission threat or positional squeeze that forces the opponent to choose between defending the choke and blocking the hook
@@ -196,6 +198,8 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Russian Cowboy to Back Control?</p>
+
 - Deep single hook engaged inside the opponent's near thigh with heel pulled toward your buttock for maximum rotational control
 - Seatbelt grip locked with choking arm over the shoulder and underhook arm beneath the armpit, hands clasped on the sternum
 - Chest firmly pressed into opponent's upper back with forward pressure preventing any space creation or turning attempts
@@ -208,6 +212,8 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Russian Cowboy to Back Control step by step?</p>
 
 1. **Verify existing control points**: Confirm your seatbelt grip is locked tight with the choking arm over the shoulder and underhook beneath the armpit. Verify your existing hook is deep inside the opponent's near thigh with your heel pulled toward your buttock. Drive your chest firmly into their upper back and ensure there is no space between your torso and their spine.
 2. **Position the free leg for threading**: Draw your free leg in close to the opponent's body rather than leaving it posted far on the mat. Position your knee so it aims toward their far hip, reducing the arc distance required for the threading motion. Keep your foot light and mobile, ready to move quickly when the window opens.
@@ -236,6 +242,8 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Russian Cowboy to Back Control?</p>
+
 - **Opponent blocks the threading leg with their far hand, physically preventing hook insertion by gripping the ankle or pushing the knee away** (Effectiveness: High) - Your Response: Increase seatbelt squeeze or reinitiate the choke threat to force their blocking hand back to neck defense. Alternatively, use a pummeling motion with your free leg to swim past their hand grip, or switch to the roll-through variant to change the angle of approach. → Leads to [[Positions/Russian Cowboy]]
 - **Opponent explosively turns into the attacker during the hook threading, exploiting the momentary instability to reverse position** (Effectiveness: High) - Your Response: If you feel the turn initiating, abort the hook insertion and immediately drive your chest forward while pulling with the seatbelt to stop rotation. Use your existing hook to anchor their hip and prevent the full turn. If the turn succeeds partially, follow into a scramble maintaining chest contact. → Leads to [[Positions/Half Guard]]
 - **Opponent shrimps their hips away explosively to create distance, making the threading arc too long to complete** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips, maintaining chest contact and using the existing hook to pull them back. The shrimp often creates space that actually assists a roll-through hook insertion if you chase their hips immediately rather than letting them fully separate. → Leads to [[Positions/Russian Cowboy]]
@@ -247,6 +255,8 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Russian Cowboy to Back Control?</p>
 
 ### 1. Releasing or loosening the seatbelt grip to reach down and assist the hook insertion with the hands
 
@@ -281,6 +291,8 @@ From the attacker's perspective, the Russian Cowboy to Back Control transition i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Russian Cowboy to Back Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook threading motion and body positioning
 Practice the hook threading motion with a compliant partner from Russian Cowboy. Focus on maintaining seatbelt grip while smoothly arcing the free leg over the opponent's hip. Perform 20 repetitions per side with zero resistance, emphasizing the tight arc and proper foot placement inside the thigh.
 
@@ -298,42 +310,12 @@ Start from Russian Cowboy with full resistance. Attacker's goal is to achieve fu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for inserting the second hook during this transition?
-**A**: The optimal timing occurs when the opponent is actively defending a submission threat such as a choke attempt, or immediately after they exhaust energy from a failed escape. During these moments their hands are occupied with neck defense and their attention is divided between threats, making it difficult to block the incoming free leg. Attempting insertion against a fully set and alert opponent with both hands free significantly reduces the success rate.
-
-**Q2**: What control points must be verified before attempting the second hook insertion?
-**A**: Before attempting insertion, verify three control points: first, the seatbelt grip must be locked tight with hands clasped on the opponent's sternum; second, the existing hook must be deep inside the opponent's near thigh with the heel pulled toward your buttock, not shallow at the ankle; third, chest-to-back connection must be firm with forward pressure. If any of these three points is compromised, re-establish that control before proceeding with the hook attempt.
-
-**Q3**: Your free leg is posted far from the opponent's body on the mat - how does this affect the hook threading and what adjustment should you make?
-**A**: A distant free leg creates a long arc that telegraphs the threading motion, giving the opponent ample time to recognize and block the insertion with their hands or shrimp away. The extended movement also tends to pull your upper body away from the opponent's back, loosening chest pressure and seatbelt control. Draw the free leg close to the opponent's body with your knee oriented toward their far hip before initiating the thread. The shorter the arc, the faster and less interceptable the insertion becomes.
-
-**Q4**: What is the most common reason the second hook insertion attempt fails?
-**A**: The most common failure occurs when the attacker attempts the hook insertion without creating any distraction or submission threat first. With both hands free and full defensive attention available, the opponent simply blocks the incoming leg with their far hand or clamps their thighs together to prevent the foot from entering. The solution is to always pair hook insertion with a concurrent upper body threat that forces the opponent to choose between defending the choke and blocking the leg.
-
-**Q5**: Your seatbelt grip loosens during the hook threading attempt - what is the immediate priority?
-**A**: Immediately abort the hook insertion and re-establish the seatbelt grip before anything else. The seatbelt controls the entire upper body and prevents the opponent from turning to face you. Without it, even a successful hook insertion will be immediately countered by the opponent rotating away or establishing defensive frames. Re-lock the grip, verify chest pressure, and only then reattempt the hook insertion once full upper body control is restored.
-
-**Q6**: In which direction should you drive the free leg during the threading motion and why?
-**A**: Drive the knee over the opponent's far hip in a tight forward arc, keeping the leg close to their torso throughout the motion. The direction is over-and-across rather than around-and-behind. This forward arc is critical because it keeps your weight driving into the opponent through your chest, whereas a backward arc pulls your hips away and creates separation. The foot should enter the far thigh from the top, curling inward to set the hook deep inside the thigh.
-
-**Q7**: Your opponent grabs your threading ankle with their far hand as you attempt insertion - how do you respond?
-**A**: First, increase the seatbelt squeeze or reinitiate the choke threat to force their grabbing hand back to neck defense. If they maintain the ankle grip despite the upper body threat, use a pummeling motion to swim your foot past their grip by circling your ankle inward. Alternatively, switch to the roll-through variant to change the angle of approach entirely. If the grip remains locked, consider transitioning to truck entry instead, using their ankle focus as an opening for the alternative leg entanglement.
-
-**Q8**: The opponent successfully blocks your second hook attempt and you remain in Russian Cowboy - what follow-up techniques should you chain?
-**A**: After a failed hook insertion, avoid immediately reattempting the same approach. Instead, chain into a truck entry by threading your existing hook leg deeper and pursuing the opponent's far leg for the lockdown-style entanglement. Alternatively, attack the rear naked choke legitimately since the opponent just demonstrated they prioritize hook defense over neck defense. A third option is transitioning to crucifix by trapping their blocking arm, which both removes their primary defensive tool and opens a different attacking pathway.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Russian Cowboy to Back Control?</p>
 
 While this transition does not involve joint locks or chokes directly, maintain awareness of your partner's neck position during weight transfers and avoid cranking or twisting the opponent's spine as you thread the second hook. During drilling, communicate with your partner about pressure levels and ensure controlled positional adjustments rather than explosive movements that could cause knee or hip injuries from the hooking leg. The seatbelt grip can compress the ribcage significantly, so monitor your partner for breathing difficulty. Always release control immediately if your partner signals discomfort or taps.
 

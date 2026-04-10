@@ -218,7 +218,7 @@ The Trap and Roll from Mount is the cornerstone of the mount escape hierarchy, f
 
 - [[Transitions/Bridge Escape from 3-4 Mount]] - Related bridge-based escape from a mount variant position
 
-- [[Submissions/Americana from Mount]] - Common submission that creates arm commitment exploitable for trap and roll setup
+- [[Submissions/Americana]] - Common submission that creates arm commitment exploitable for trap and roll setup
 
 
 </section>

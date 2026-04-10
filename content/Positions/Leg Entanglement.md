@@ -171,9 +171,9 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 ### Available Transitions
 
 
-- **[[Transitions/Kneebar/Attacker|Kneebar]]** (13% of attempts)
+- **[[Kneebar from Leg Entanglement/Attacker|Kneebar from Leg Entanglement]]** (13% of attempts)
 
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (12% of attempts)
+- **[[Outside Heel Hook from Leg Entanglement/Attacker|Outside Heel Hook from Leg Entanglement]]** (12% of attempts)
 
 - **[[Transitions/Ankle Lock Finish/Attacker|Ankle Lock Finish]]** (12% of attempts)
 
@@ -181,7 +181,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 - **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** (10% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (8% of attempts)
+- **[[Toe Hold from Leg Entanglement/Attacker|Toe Hold from Leg Entanglement]]** (8% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (7% of attempts)
 

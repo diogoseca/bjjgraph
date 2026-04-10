@@ -28,7 +28,7 @@ The technique requires coordinated action across multiple control points simulta
 
 Strategic deployment of this escape depends on recognizing when the attacker's control remains incomplete. The optimal window exists when the attacker has established initial grip contact but has not yet consolidated their leg positioning or deepened their forearm against the Achilles tendon. Attempting this escape against fully consolidated control dramatically reduces success probability and risks being swept during the standing attempt. Reading the attacker's control level accurately determines whether standing escape, hip rotation defense, or counter-entanglement represents the highest-percentage response.
 
-**From Position**: [[Positions/Straight Ankle Lock Control]] (Top)
+**From Position**: [[Positions/Straight Ankle Lock Control]] (Bottom)
 **Success Rate**: 55%
 
 </section>

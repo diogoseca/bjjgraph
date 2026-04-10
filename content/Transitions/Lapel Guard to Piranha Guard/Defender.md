@@ -162,6 +162,8 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Guard to Piranha Guard?</p>
+
 - Bottom player opens their knees to create a gap between their legs — this is the threading channel being prepared
 - Sudden release or loosening of the primary lapel tension you've been fighting against, indicating the grip transfer has begun
 - Bottom player's non-anchor hand moves toward the gap between their legs with collar material, the actual threading motion
@@ -173,6 +175,8 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Guard to Piranha Guard?</p>
 
 - Recognize the grip transfer — the moment the bottom player releases their primary lapel grip is your window to act
 - Posture up immediately when you feel lapel tension change, creating distance that makes threading mechanically difficult
@@ -186,6 +190,8 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Guard to Piranha Guard?</p>
 
 ### 1. Posture up and strip collar grip during the transfer phase
 
@@ -223,6 +229,8 @@ Defending the Transition to Piranha Guard requires recognizing the brief window 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Guard to Piranha Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the collar during the grip transfer window or create enough distance to extract the lapel entirely. Both approaches deny the bottom player their primary control mechanism and force them to re-extract the collar before re-establishing any lapel guard variation.
@@ -238,6 +246,8 @@ Shut down the threading by closing the leg gap with pressure or controlling the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Guard to Piranha Guard?</p>
 
 ### 1. Failing to recognize the threading attempt and allowing the Piranha Guard to establish unchallenged
 
@@ -267,6 +277,8 @@ Shut down the threading by closing the leg gap with pressure or controlling the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Guard to Piranha Guard?</p>
+
 **Recognition Drilling** - Identifying threading cues and reaction timing
 Partner attempts the Transition to Piranha Guard at slow speed (50%) while you practice recognizing each cue — knee separation, grip release, threading motion. Call out each cue as you see it. Do not attempt to counter yet; focus purely on developing visual and tactile pattern recognition for the transition's phases.
 
@@ -280,29 +292,6 @@ Start in standard Lapel Guard with partner playing bottom. Partner mixes threadi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt the Transition to Piranha Guard?
-**A**: The earliest cue is the bottom player opening their knees to create the threading channel between their legs. This happens before the grip transfer begins and signals that the bottom player is preparing the path for the collar feed. Recognizing this knee separation gives you an additional 1-2 seconds of reaction time compared to waiting until you feel the grip transfer on the collar.
-
-**Q2**: Why is pulling backward without stripping the collar a counterproductive defensive response?
-**A**: Pulling backward draws the collar material through the bottom player's legs using your own retreating force, effectively completing the threading for them. The fabric follows your body as you retreat, and their legs act as a guide channel that routes the material exactly where they want it. The correct response is to either posture up while stripping the collar or drive forward to close the threading gap — both address the fabric directly rather than inadvertently assisting the reconfiguration.
-
-**Q3**: If the Piranha Guard is already fully established, what is your best immediate response?
-**A**: Once bilateral tension is established through the threaded collar, your priority shifts to base maintenance and systematic grip clearing rather than attempting to extract the collar by force. Widen your stance, drop your hips, and begin clearing the most dangerous grip first (typically the rear grip that pulls you forward). Avoid the temptation to rip the collar free, as this wastes energy and rarely works against properly threaded material with leg compression holding it in place.
-
-**Q4**: How should you position your body to close the threading gap and prevent the collar feed?
-**A**: Drive your hips forward and low while keeping your weight centered over the bottom player's torso. This closes the space between their legs by compressing their guard structure and eliminating the channel needed for the collar to pass through. Simultaneously control their knees or legs with your hands to prevent them from creating the gap artificially. The key is forward pressure that pins their legs together rather than allowing them to open for the feed.
-
-**Q5**: What is the relationship between the DLR hook and the threading attempt that you must account for defensively?
-**A**: The De La Riva hook serves as the bottom player's secondary anchor that maintains distance control and prevents you from advancing while they execute the grip transfer and threading. If you focus only on the collar without addressing the DLR hook, the bottom player retains enough control to retry the thread or transition to alternative attacks. Effective defense requires contesting both the threading attempt and the secondary anchor — clearing one without addressing the other leaves you vulnerable to the remaining control point.
-
-
-
-</section>
 
 
 </main>

@@ -216,7 +216,7 @@ The butterfly sweep serves as a cornerstone technique in modern Brazilian Jiu-Ji
 
 - [[Positions/Half Guard/Deep Half Guard]] - Alternative Position - transition when opponent removes weight
 
-- [[Submissions/Kimura from Guard]] - Counter to Defense - attacks posted arm
+- [[Submissions/Kimura]] - Counter to Defense - attacks posted arm when opponent bases out
 
 - [[Systems/Marcelo Garcia Butterfly Guard System]] - System Integration - part of comprehensive butterfly guard framework
 

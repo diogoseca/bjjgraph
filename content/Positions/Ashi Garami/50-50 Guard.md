@@ -43,7 +43,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - Hip Mobility: Mobile hips allow you to create angles for submissions and prevent opponent's attacks by maintaining perpendicular alignment to their centerline
 
-- Grip Fighting Dominance: Superior grips on opponent's foot and ankle enable submission entries and prevent their offense, making hand fighting paramount
+- Grips Dominance: Superior grips on opponent's foot and ankle enable submission entries and prevent their offense, making hand fighting paramount
 
 - Transition Sensitivity: Recognize when direct submissions aren't available and seamlessly flow to superior positions like Honey Hole, Backside 50-50, or X-Guard
 
@@ -108,13 +108,11 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (5% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (5% of attempts)
+- **[[Toe Hold from 50-50 Guard/Attacker|Toe Hold from 50-50 Guard]]** (7% of attempts)
 
 - **[[Transitions/Counter-entangle to 50-50 Guard/Attacker|Counter-entangle to 50-50 Guard]]** (5% of attempts)
 
-- **[[Submissions/Toe Hold from 50-50/Attacker|Toe Hold from 50-50]]** (2% of attempts)
-
-- **[[Positions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
+- **[[Transitions/Aoki Lock/Attacker|Aoki Lock]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -155,7 +153,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - Inside Position Dominance: Maintaining inside control with your left leg is critical for all offensive opportunities and prevents opponent from attacking your legs effectively
 
-- Hip Pressure Application: Constant downward hip pressure keeps opponent flat and prevents them from sitting up to equalize position or escape
+- Hip Pressure: Constant downward hip pressure keeps opponent flat and prevents them from sitting up to equalize position or escape
 
 - Heel Control Priority: Controlling opponent's heel with strong grips enables heel hook finish and prevents them from extracting their leg
 
@@ -169,13 +167,13 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 ### Available Transitions
 
 
-- **[[Transitions/Heel Hook/Attacker|Heel Hook]]** (31% of attempts)
+- **[[Heel Hook from 50-50 Guard/Attacker|Heel Hook from 50-50 Guard]]** (31% of attempts)
 
-- **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (7% of attempts)
+- **[[Transitions/Kneebar entry/Attacker|Kneebar entry]]** (9% of attempts)
 
 - **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** (2% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (2% of attempts)
+- **[[Calf Slicer from 50-50 Guard/Attacker|Calf Slicer from 50-50 Guard]]** (4% of attempts)
 
 - **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** (12% of attempts)
 
@@ -183,19 +181,15 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 - **[[Transitions/50-50 Guard to Inside Ashi/Attacker|50-50 Guard to Inside Ashi]]** (7% of attempts)
 
-- **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** (4% of attempts)
+- **[[Outside Heel Hook from 50-50 Guard/Attacker|Outside Heel Hook from 50-50 Guard]]** (4% of attempts)
 
 - **[[Transitions/50-50 Pass/Attacker|50-50 Pass]]** (8% of attempts)
 
-- **[[Transitions/Toe Hold/Attacker|Toe Hold]]** (3% of attempts)
+- **[[Toe Hold from 50-50 Guard/Attacker|Toe Hold from 50-50 Guard]]** (3% of attempts)
 
 - **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** (9% of attempts)
 
 - **[[Transitions/50-50 Guard to Backside 50-50/Attacker|50-50 Guard to Backside 50-50]]** (5% of attempts)
-
-- **[[Submissions/Calf Slicer from 50-50/Attacker|Calf Slicer from 50-50]]** (2% of attempts)
-
-- **[[Submissions/Kneebar from 50-50/Attacker|Kneebar from 50-50]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -192,6 +192,8 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Switch to Darce Configuration?</p>
+
 - Read the opponent's rotation toward the choking arm as the trigger to initiate the darce switch rather than forcing the original buggy choke angle
 - Withdraw the threading arm from the collar and redirect it through the gap between the opponent's neck and far arm in one continuous motion
 - Thread the choking arm under the opponent's far armpit first, then wrap around the back of the neck to establish the darce arm path
@@ -207,6 +209,8 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Switch to Darce Configuration?</p>
+
 - Buggy Choke top control is established with threading arm under opponent's near armpit and at least partial collar or neck access
 - Opponent has begun rotating or turning toward the choking arm, exposing the far armpit and neck channel for darce arm threading
 - Top player maintains chest-to-back pressure and hip weight sufficient to prevent opponent from standing or pulling guard during grip transition
@@ -219,6 +223,8 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Switch to Darce Configuration step by step?</p>
 
 1. **Recognize rotation trigger**: Feel the opponent begin rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, creating the head-and-arm channel. Simultaneously assess whether the far armpit is accessible for darce threading—if the far arm is posted or elevated, the darce angle is mechanically favored over the anaconda.
 2. **Release collar and redirect arm path**: Release the far-side collar grip with your threading arm and begin redirecting it from the near-armpit channel toward the gap between the opponent's neck and far arm. The hand withdraws from the collar and travels across the opponent's upper back toward the far side, maintaining contact with their body throughout to prevent space creation.
@@ -248,6 +254,8 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Switch to Darce Configuration?</p>
+
 - **Opponent tucks chin hard and clamps far elbow tight to ribs, denying the armpit threading path during the redirect phase** (Effectiveness: High) - Your Response: If the far armpit is blocked, abandon the darce switch and either return to the original buggy choke collar grip or switch to the anaconda configuration which threads around the neck first and does not require far armpit access → Leads to [[Positions/Buggy Choke]]
 - **Opponent extracts their near arm from the trapped position before the figure-four grip is secured, eliminating the compression fulcrum** (Effectiveness: High) - Your Response: Without the trapped arm, switch to a guillotine configuration since you already have neck access, or disengage the neck and transition to back control by hooking the near leg as they posture to escape → Leads to [[Positions/Buggy Choke]]
 - **Opponent sits to guard explosively during the grip transition window when control is momentarily loosened** (Effectiveness: Medium) - Your Response: Follow the sitting motion and use the partial neck wrap to establish a front headlock or arm-in guillotine from the new angle. Maintain head control throughout the transition to prevent full guard recovery → Leads to [[Positions/Half Guard]]
@@ -259,6 +267,8 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Switch to Darce Configuration?</p>
 
 ### 1. Releasing chest-to-back pressure during the grip transition to focus entirely on hand positioning and arm threading
 
@@ -298,6 +308,8 @@ This transition is a critical branch in the buggy choke attack tree. Opponents w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Switch to Darce Configuration (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics isolation
 Practice the arm redirect from buggy choke collar grip to darce threading on a stationary partner in turtle. Focus on the hand path from collar release through the neck-armpit channel, achieving proper figure-four depth, and maintaining chest contact throughout. Drill 15-20 repetitions per side emphasizing the continuous motion and correct threading direction under the far armpit.
 
@@ -315,48 +327,12 @@ Full resistance positional sparring starting from buggy choke top. Top player mu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals the correct timing to switch from buggy choke to darce configuration?
-**A**: The primary trigger is the opponent rotating their torso toward your choking arm to relieve collar pressure. Their near shoulder rises and far shoulder drops, exposing the armpit-to-neck channel. Simultaneously, the far arm must be posted or elevated enough to allow arm threading under the far armpit. This rotation creates the mechanical angle that makes the darce viable while weakening the original buggy choke.
-
-**Q2**: What is the critical mechanical difference between when to choose the darce switch versus the anaconda switch from buggy choke top?
-**A**: The darce threads under the opponent's far armpit first and then wraps around the neck, while the anaconda wraps the neck first and connects under the armpit. Choose the darce when the opponent's far arm is elevated or posted wide, creating space under the armpit. Choose the anaconda when the near arm is tightly trapped between the opponent's head and your body and the far armpit is closed. The threading direction determines which choke is mechanically available.
-
-**Q3**: Your opponent clamps their far elbow tight to their ribs as you attempt to thread under the far armpit—how do you adjust?
-**A**: Abandon the darce angle because the threading path is blocked. Immediately switch to the anaconda configuration, which wraps the neck first and does not require far armpit access. Alternatively, return to the original buggy choke collar grip and wait for the opponent to react again, then read whether the next defensive motion opens the darce or anaconda path.
-
-**Q4**: Why must the choking arm thread under the far armpit with sufficient depth before locking the figure-four?
-**A**: Insufficient threading depth means the forearm blade does not seat fully across the throat against the near-side carotid artery. A shallow darce creates a loose grip where the opponent can posture up, create space between your forearm and their neck, or strip the grip entirely. Deep threading ensures the wrist bone and forearm blade create a tight seal across the carotid that cannot be relieved by head movement or posture changes.
-
-**Q5**: What role does the opponent's trapped near arm play in the darce choke mechanics?
-**A**: The trapped near arm acts as a compression fulcrum. The choking arm compresses one carotid from the front, while the opponent's own trapped shoulder drives into the opposite carotid as the figure-four tightens. Without this trapped arm, the darce becomes a one-sided neck pressure that is far easier to defend and significantly less likely to produce a tap from bilateral blood restriction.
-
-**Q6**: How do you generate finishing pressure in the darce without relying on arm strength alone?
-**A**: Walk your hips toward the opponent's head while sprawling your legs back to create a perpendicular angle between your body and theirs. This uses body weight and gravity to drive the figure-four compression downward through the grip structure. The elbows squeeze together to eliminate slack, but the actual finishing force comes from the sprawl pressure and hip angle, not from bicep squeezing. This makes the choke sustainable and mechanically efficient.
-
-**Q7**: Your opponent begins sitting to guard explosively as you release the buggy choke collar to initiate the darce switch—what is your response?
-**A**: Follow the sitting motion and use whatever neck contact you have to establish a front headlock or arm-in guillotine from the new angle. The opponent's explosive sit creates forward momentum you can redirect into a snapdown. If they achieve full closed guard before you can secure head control, consolidate top position inside their guard and reset. Do not chase the darce from inside closed guard.
-
-**Q8**: What are the entry requirements that must exist before attempting the darce switch from buggy choke top?
-**A**: Four conditions must be present: buggy choke top control with at least partial collar or neck access, opponent rotation toward the choking arm exposing the far side, far arm posted or elevated enough to allow threading under the armpit, and sufficient chest-to-back pressure maintained to prevent the opponent from escaping during the grip transition window. Missing any one of these conditions significantly reduces success probability.
-
-**Q9**: Why should the collar release and darce arm redirect be executed as one continuous motion rather than in separate steps?
-**A**: Any pause between releasing the collar and threading under the far armpit creates a defensive window where the opponent can re-turtle tightly, clamp the far elbow to their ribs, strip remaining grips, or sit to guard. The continuous motion ensures the opponent's reaction to losing collar pressure flows directly into the new threading path before they can process the grip change and implement specific darce defense.
-
-**Q10**: If your darce grip is locked but the opponent rolls to their back to defend the top sprawl finish, what adjustment do you make?
-**A**: Follow the roll and maintain the darce grip throughout. The darce finishes effectively from the chest-to-chest position with the opponent on their back, and in some cases the finishing angle improves because gravity assists the compression. Walk your hips to maintain perpendicular pressure and continue squeezing. Do not release the grip to chase a top position—the darce is viable from multiple angles once the figure-four is fully locked.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Switch to Darce Configuration?</p>
 
 The darce choke is a blood choke that compresses both carotid arteries simultaneously, producing unconsciousness within seconds when properly applied. Always apply the grip progressively during training and allow adequate time for your partner to recognize the pressure and tap before the choke fully engages. The arm threading under the far armpit can strain the opponent's shoulder if forced aggressively, so thread smoothly rather than yanking. Partners should tap early when bilateral pressure is felt rather than waiting for vision changes. Practitioners with cervical spine issues should communicate this before drilling, as the head pressure component can aggravate existing neck conditions. Never apply cranking or twisting force—the darce is a squeeze, not a crank. Release immediately upon tap and monitor your partner for delayed symptoms after successful applications.
 

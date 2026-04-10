@@ -169,6 +169,8 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Position Definition
 
+<p class="section-subtitle">What is Cross Ashi-Garami (Bottom)?</p>
+
 - Bottom player is on their back with one leg trapped between opponent's legs in a crossed configuration, with the opponent's legs positioned on the opposite side of the trapped leg creating cross-body entanglement
 - Top player's hips are perpendicular or angled to bottom player's hips with feet positioned to control the trapped leg's movement and create heel hook or toe hold finishing mechanics
 - Bottom player's free leg remains mobile and positioned to create frames, push on opponent's hips or shoulders, and prevent the opponent from achieving optimal finishing position
@@ -181,6 +183,8 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Cross Ashi-Garami (Bottom)?</p>
+
 - Opponent has established leg entanglement from standing, guard passing, or transition from another leg lock position
 - Bottom player's leg is secured between opponent's legs in cross configuration
 - Top player has achieved perpendicular hip positioning relative to bottom player
@@ -192,6 +196,8 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Cross Ashi-Garami?</p>
 
 - Keep your trapped leg's knee flexed and heel pulled toward your hip to prevent full leg extension and heel hook finishing mechanics
 - Use your free leg to create frames on opponent's hips, shoulders, or head to manage distance and prevent them from settling into optimal finishing position
@@ -208,8 +214,10 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Cross Ashi-Garami (Bottom)?</p>
+
 **If opponent secures deep heel hook grip with figure-four configuration locked and begins external rotation:**
-- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[game-over]] (Probability: 95%)
 
 
 **If opponent has cross ashi control but hands are not yet secured in heel hook grip:**
@@ -234,6 +242,8 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Cross Ashi-Garami?</p>
 
 ### 1. Lying flat on back without posting on elbows or sitting up to create defensive frames
 
@@ -273,6 +283,8 @@ Cross Ashi-Garami Bottom is considered a medium-risk position because while heel
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Cross Ashi-Garami defense?</p>
+
 ### Cross Ashi Defensive Positioning Drill
 
 Partner establishes cross ashi control without finishing grips. Bottom player practices maintaining defensive leg configuration (knee flexed, heel to hip), sitting up to create frames, and controlling partner's hands. Hold each defensive position for 30 seconds, focusing on maintaining proper structure without attempting escapes.
@@ -305,38 +317,6 @@ From established cross ashi bottom position, partner deliberately creates openin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive leg configuration when caught in Cross Ashi-Garami Bottom?
-**A**: Keep your trapped leg's knee flexed with your heel pulled toward your hip rather than allowing full leg extension. This bent knee position reduces the opponent's leverage for heel hook finishes by limiting the rotational force they can generate. Additionally, point your toes away from the opponent and maintain foot flexion to make it harder for them to expose and grip your heel.
-
-**Q2**: Your opponent has established cross ashi control but hasn't secured their heel grip yet - what is your immediate priority?
-**A**: Immediately engage in aggressive hand fighting to prevent them from locking their grip on your heel. Use both hands to control their wrists and break any developing grips by pulling their hands apart at the thumbs. Simultaneously, sit up to create frames and establish upper body posture, as these defensive structures buy time and create escape opportunities before the submission threat becomes critical.
-
-**Q3**: What are the essential frames and body positioning for defending from Cross Ashi-Garami Bottom?
-**A**: Sit up or post on your elbows rather than lying flat on your back - this creates active defensive frames and improves your ability to manage distance. Use your free leg to push on opponent's hips, shoulders, or head to prevent them from settling into optimal finishing position. Your hands should actively control opponent's grips or push on their body. This elevated posture limits their submission leverage and creates escape opportunities.
-
-**Q4**: Your opponent begins applying rotational pressure on your heel with a secure grip - what should you do?
-**A**: If the heel hook is locked in with figure-four configuration and rotation has begun, you must tap immediately to prevent serious knee injury. Heel hooks damage the knee ligaments (MCL, LCL, ACL) and can cause permanent injury within seconds of rotation. There is no shame in tapping early - recognizing tap-worthy positions is a fundamental safety skill in leg lock grappling. Never try to muscle out of a secured heel hook.
-
-**Q5**: When is the optimal timing to attempt your escape from Cross Ashi-Garami Bottom?
-**A**: The best escape windows occur when your opponent loosens their leg control to adjust grips, reposition their body, or transition to another position like Saddle. Watch for moments when their inside hook loses depth or their outside cross becomes less tight. These transitional moments create space for leg extraction or counter-entanglement entries. Attempting escape against tight control wastes energy and risks injury.
-
-**Q6**: Your opponent's inside leg becomes exposed as they adjust their position - what counter-attack opportunity does this create?
-**A**: When their inside leg becomes available, you can enter your own Inside Ashi-Garami by threading your legs around their exposed leg. This counter-entanglement entry changes the dynamic from purely defensive to exchanging leg attacks. If successful, you may achieve a dominant position or at minimum create a neutral leg entanglement exchange where both players have submission threats.
-
-**Q7**: What is the danger of attempting to spin or roll out of Cross Ashi-Garami without proper timing?
-**A**: Rotational escape attempts without proper timing feed directly into the heel hook finish by creating rotation that the opponent can follow and amplify. Your spinning motion actually helps them apply the finishing mechanics of the submission. Only attempt rotational escapes when the opponent's leg control is clearly compromised and the escape path is open. Premature rotation dramatically increases injury risk.
-
-**Q8**: How should you manage your energy expenditure while defending Cross Ashi-Garami Bottom?
-**A**: Stay calm and move systematically rather than making explosive, panicked movements. Conserve energy by focusing on efficient hand fighting and frame maintenance rather than constant struggling. Attack escape opportunities decisively when they appear, but avoid wasting energy against tight control. Panicked movements can lead to self-inflicted injury and accelerate fatigue without improving your position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

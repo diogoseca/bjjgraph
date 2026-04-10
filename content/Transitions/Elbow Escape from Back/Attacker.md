@@ -194,6 +194,8 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Elbow Escape from Back?</p>
+
 - Neck defense through chin tuck and two-on-one grip is the absolute first priority before any escape movement begins
 - Elbow frames must be placed directly against the hook at the knee or shin for maximum mechanical leverage against the opponent's leg
 - Hip escape direction travels downward toward your own feet to slide below the opponent's hook control rather than laterally
@@ -208,6 +210,8 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Elbow Escape from Back?</p>
+
 - Chin tucked with jaw pressed to chest to create a defensive barrier against rear naked choke and collar chokes
 - Two-on-one grip established on the opponent's choking arm with both hands controlling their wrist and forearm
 - Mental composure and controlled breathing established to prevent panic reactions that waste energy and create openings
@@ -219,6 +223,8 @@ Executing the elbow escape from back control requires systematic dismantling of 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Elbow Escape from Back step by step?</p>
 
 1. **Establish neck defense**: Immediately tuck your chin tightly to your chest and establish a two-on-one grip on the opponent's choking arm, controlling their wrist with one hand and their forearm or elbow with the other. This prevents the rear naked choke and creates a controlled starting position for the escape sequence.
 2. **Strip the seatbelt underhook**: Use your bottom hand to peel the opponent's underhook-side arm away from your body while maintaining chin tuck. Break their seatbelt configuration by pushing their bottom arm toward the mat, reducing their upper body control and creating space for your torso to begin moving independently of their grip.
@@ -249,6 +255,8 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Elbow Escape from Back?</p>
+
 - **Opponent tightens seatbelt and drives hips forward to collapse space and prevent downward hip escape** (Effectiveness: High) - Your Response: Maintain frame pressure patiently and work the hip escape in small increments during micro-adjustments rather than attempting one large movement against heavy pressure → Leads to [[Positions/Back Control]]
 - **Opponent transitions to body triangle during hook clearing attempt to eliminate hook-based escape** (Effectiveness: High) - Your Response: Switch to body triangle escape by turning toward the locked ankle side and working to push the top foot past the bottom knee before resuming the standard elbow escape → Leads to [[Positions/Back Control]]
 - **Opponent follows the turn and transitions to mount position before half guard can be established** (Effectiveness: Medium) - Your Response: Keep one leg actively hooked around the opponent's leg throughout the entire turning phase to ensure half guard is established before the rotation completes → Leads to [[Positions/Mount]]
@@ -260,6 +268,8 @@ Executing the elbow escape from back control requires systematic dismantling of 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Elbow Escape from Back?</p>
 
 ### 1. Attempting hip escape before securing neck defense and establishing two-on-one grip control
 
@@ -299,6 +309,8 @@ Executing the elbow escape from back control requires systematic dismantling of 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Elbow Escape from Back (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip escape movement and elbow frame positioning
 Practice solo hip escape drills focusing on the specific downward direction used in the elbow escape. Work on elbow frame positioning against a wall or training dummy to develop the correct angle and pressure. Build the muscle memory for chin tuck and arm positioning through shadow drilling of the full sequence.
 
@@ -316,42 +328,12 @@ Positional sparring starting from back control with both hooks and seatbelt esta
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the absolute first priority before initiating any hip movement in the elbow escape?
-**A**: Neck defense must be fully established through a deep chin tuck and two-on-one grip control on the opponent's choking arm before any other movement begins. Attempting to escape without securing the neck first exposes you to rear naked choke during the vulnerable hip escape and turning phases when your defensive structure is in transition.
-
-**Q2**: Where exactly should your elbow frame be positioned for maximum leverage against the opponent's top hook?
-**A**: The elbow should be placed directly against the back of the opponent's knee or shin where the hook crosses your hip line. This positioning creates the shortest lever arm and maximum mechanical advantage for pushing the hook away during the hip escape. Placing the frame higher on the thigh reduces leverage and allows the opponent to easily readjust hook depth.
-
-**Q3**: Which direction should you turn during the escape and why is the opposite direction dangerous?
-**A**: You must turn toward the opponent to face them directly. Turning away from the opponent is dangerous because it allows them to follow your rotation and re-establish both hooks from behind, often with tighter control than before. Turning into them blocks their ability to follow because your body creates a barrier, and the rotation naturally positions you for half guard with the trapped leg.
-
-**Q4**: Your opponent locks a body triangle instead of standard hooks - how does this change your escape approach?
-**A**: With a body triangle, the standard hook-clearing elbow escape cannot proceed until the triangle lock is broken. You must first turn toward the side of the locking ankle, then work to push the top foot past the bottom knee to separate the triangle configuration. Only after breaking the body triangle can you proceed with the standard elbow escape sequence against the now-free legs.
-
-**Q5**: What grip configuration should you maintain on the opponent's choking arm throughout the hip escape phase?
-**A**: Maintain a two-on-one grip with one hand controlling the opponent's wrist and the other controlling their forearm or elbow crease. This configuration prevents them from advancing the choking arm past your chin while allowing you to redirect their arm downward and away from your neck. The grip should remain intact until your body rotation eliminates the mechanical possibility of the choke.
-
-**Q6**: What critical action must you complete immediately as you finish turning to face the opponent?
-**A**: You must immediately trap the opponent's remaining leg between your legs by pinching your knees together to establish half guard. This is the most time-sensitive moment in the escape because any delay allows the opponent to withdraw their leg and either re-take back control or advance to side control. The leg trap must happen before establishing frames or grips.
-
-**Q7**: Your opponent re-tightens their hooks each time you begin framing - what approach overcomes this reactive defense?
-**A**: Work the hip escape in small incremental movements rather than attempting one large clearing motion. Each micro hip escape creates slightly more space even when the opponent tightens their hooks in response. The cumulative effect of multiple small escapes eventually moves your hips far enough below their hooks to clear them. Patience and persistent frame pressure overcome reactive hook tightening.
-
-**Q8**: If the elbow escape stalls during the hook-clearing phase, what alternative escape can you chain into?
-**A**: The back door escape to turtle is the primary alternative when the elbow escape stalls. When the opponent tightens hooks to prevent your downward hip escape, their upper body control often loosens slightly, creating an opportunity to address the seatbelt and work toward sliding your back to the mat and escaping out the back door to turtle position. The opponent cannot simultaneously maximize hook defense and upper body control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Elbow Escape from Back?</p>
 
 The elbow escape is a low-risk technique for both practitioners when performed correctly. The primary safety concern involves the neck defense phase where improper hand fighting during drilling can lead to accidental finger injuries or neck strain from sustained choking pressure. Partners should apply submissions with controlled pressure during training, allowing adequate time for the escaper to work through the sequence before fully committing to chokes. Avoid explosive bridging movements that can strain the lower back, and communicate clearly if experiencing breathing difficulty or choking discomfort. The turning phase requires controlled rotation to avoid knee strain on the trapped leg.
 

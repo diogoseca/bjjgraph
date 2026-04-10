@@ -182,6 +182,8 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mount Control?</p>
+
 - Maintain heavy hips as the foundation of all control, driving weight through your pelvis into your opponent's centerline
 - Adjust base width dynamically - narrow for forward pressure, wide to counter lateral escapes
 - Stay connected chest-to-chest to feel opponent's movements before they fully develop
@@ -196,6 +198,8 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mount Control?</p>
+
 - Mount position already established with both knees on the mat
 - Initial consolidation phase completed with weight settled on opponent
 - Awareness of opponent's primary escape tendency (bridge, hip escape, or frames)
@@ -207,6 +211,8 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mount Control step by step?</p>
 
 1. **Read escape direction**: Feel through your hips and chest which direction your opponent is loading weight - toward bridge, hip escape, or creating upward frames. This early recognition allows proactive rather than reactive responses.
 2. **Counter bridge attempts**: When opponent bridges, immediately post your hand wide on the side they're driving toward while sprawling your hips back and down. Ride the bridge rather than fighting it, letting their energy dissipate before re-establishing heavy pressure.
@@ -235,6 +241,8 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mount Control?</p>
+
 - **Explosive upa (bridge and roll) with arm and leg trapped on one side** (Effectiveness: Medium) - Your Response: Post hand wide on the trapped side and sprawl hips; if roll begins, swim free arm under their neck for cross-face and ride to quarter mount before re-establishing full mount → Leads to [[Positions/Closed Guard]]
 - **Elbow-knee escape with hip movement toward half guard** (Effectiveness: High) - Your Response: Block their hip with your knee before the escape gains momentum; if they insert knee shield, immediately address it by either passing to side control or working to re-clear the leg → Leads to [[Positions/Half Guard]]
 - **Strong two-handed frame on hips creating space** (Effectiveness: Medium) - Your Response: Swim both elbows inside simultaneously, driving them to the mat while increasing chest pressure; alternatively, isolate one arm for Americana threat which forces them to abandon the frame → Leads to [[Positions/Mount]]
@@ -245,6 +253,8 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mount Control?</p>
 
 ### 1. Remaining statically in one position without adjusting to escape attempts
 
@@ -279,6 +289,8 @@ Mount Control represents the ongoing process of maintaining dominant position ag
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mount Control (Attacker)?</p>
+
 **Week 1-2** - Base adjustment recognition
 Partner attempts slow bridges and hip escapes while you practice reading direction and posting appropriately without resistance
 
@@ -296,42 +308,12 @@ Full resistance drilling where partner uses all escapes with competition intensi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary difference between Mount Control and Consolidate Mount?
-**A**: Consolidate Mount is the initial process of securing mount after achieving it - settling weight, inserting grapevines, and eliminating initial frames. Mount Control is the ongoing maintenance against active escape attempts throughout the position. Consolidation happens once; control is continuous. You consolidate first, then control.
-
-**Q2**: Your opponent begins loading weight to their right side for a bridge. What do you do before they explode?
-**A**: Post your right hand wide on the mat to their right side and shift your hips slightly right to load that base. As they bridge, sprawl your hips back while keeping the post firm. This preemptive positioning means their bridge pushes into your strongest base rather than catching you off-balance.
-
-**Q3**: Why is frame elimination considered non-negotiable in Mount Control?
-**A**: Small frames accumulate into larger frames, and larger frames create space. Once space exists, hip escapes become possible. Every frame your opponent maintains is borrowed time toward their escape. Eliminating frames immediately denies them the incremental gains that lead to successful escapes. A frame left unaddressed for 5 seconds becomes twice as hard to eliminate.
-
-**Q4**: How do grapevine hooks contribute to Mount Control beyond preventing bridges?
-**A**: Grapevines control your opponent's entire lower body, not just bridges. They prevent hip escapes by limiting hip rotation, reduce the power of any upper body movements by eliminating leg drive, and create a psychological sense of trapped helplessness that accelerates defensive fatigue. They also allow you to stretch your opponent's spine slightly, reducing their core stability.
-
-**Q5**: Your opponent is chaining escapes - bridge, then immediately hip escape when you counter. How do you break this chain?
-**A**: After countering the bridge, don't fully re-settle your weight before the hip escape comes. Instead, keep your blocking knee on their hip and maintain sprawled hips until they commit to abandoning the hip escape. Only then re-establish full mount pressure. The key is recognizing that re-centering too quickly invites the chain; stay in counter-position longer than feels necessary.
-
-**Q6**: When is it appropriate to transition from Mount Control to attacking submissions?
-**A**: Attack when: your opponent's escape attempts have lost power and coordination (indicating fatigue), they've stopped attempting escapes (resigned defense), you've achieved high mount with their arms controlled, or their defensive movement has created an obvious opening like an extended arm. Never attack while actively countering an escape attempt - finish the counter first, then attack.
-
-**Q7**: How does energy management differ between the top and bottom mount players during extended control?
-**A**: The top player should expend minimal energy - heavy hips use gravity not muscle, adjustments should be efficient and small. The bottom player must continuously work against gravity and pressure, depleting their resources. Your goal is to make this asymmetry extreme: rest while they exhaust themselves. If you're breathing hard on top, you're using too much strength.
-
-**Q8**: Your opponent creates a frame on your hip with their forearm. They're not escaping yet, just maintaining the frame. What's the urgency?
-**A**: Maximum urgency. That frame will become their escape path the moment you shift weight to attack or they find additional leverage. Eliminate it immediately by swimming your elbow inside and pinning their arm. The frame's current ineffectiveness is irrelevant - its potential is what matters. Treat every frame as if escape is imminent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mount Control?</p>
 
 Mount Control is a low-risk technique when performed with awareness of your training partner's comfort. Avoid excessive chest pressure that prevents breathing - your partner should be uncomfortable, not unable to breathe. When using grapevines, control the extension to avoid hyperextending your partner's knees. During drilling, establish clear communication so partners can tap if pressure becomes excessive. Be especially careful with grapevine pressure against smaller or less flexible training partners.
 

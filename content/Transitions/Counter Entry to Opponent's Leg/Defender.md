@@ -160,6 +160,8 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Entry to Opponent's Leg?</p>
+
 - Opponent's free leg begins actively pushing down on your bottom leg rather than remaining passive or attempting extraction
 - Opponent's hips rotate toward you instead of away, bringing their free leg across your centerline
 - You feel decreased pulling pressure on your trapped leg as opponent redirects energy from escape to counter-entry
@@ -172,6 +174,8 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Entry to Opponent's Leg?</p>
 
 - Maintain tight leg triangle control throughout your ankle lock attack to deny the threading pathway entirely
 - Recognize counter-entry attempts early through tactile cues rather than visual ones - feel the hip rotation and leg clearing
@@ -186,6 +190,8 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Entry to Opponent's Leg?</p>
 
 ### 1. Finish the ankle lock before entry completes
 
@@ -216,6 +222,8 @@ When you do recognize the counter-entry beginning, you face a tactical decision 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Entry to Opponent's Leg?</p>
+
 ### → [[Positions/Straight Ankle Lock Control]]
 
 Maintain tight leg triangle throughout your ankle lock attack, denying the threading pathway. If counter-entry begins, immediately withdraw your far leg by pulling your knee to your chest and tucking your foot behind your body. Retighten your leg control and either finish the ankle lock or transition to a more dominant entanglement.
@@ -231,6 +239,8 @@ When opponent rotates their hips toward you during counter-entry, follow their r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Entry to Opponent's Leg?</p>
 
 ### 1. Ignoring counter-entry cues while exclusively focusing on finishing the ankle lock
 
@@ -260,6 +270,8 @@ When opponent rotates their hips toward you during counter-entry, follow their r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Entry to Opponent's Leg?</p>
+
 **Week 1-2** - Recognition drilling
 Partner performs counter-entry at slow speed from your established ankle lock control. Focus purely on recognizing the tactile cues - hip rotation direction, free leg pressure on your bottom leg, and decreased escape tension. Call out the counter-entry verbally as soon as you feel it. No defensive response yet, just recognition accuracy.
 
@@ -276,29 +288,6 @@ Integrate into live leg lock rounds starting from straight ankle lock control. P
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Counter Entry rather than a standard escape?
-**A**: The earliest cue is their hip rotation direction. Standard escapes involve rotating hips away from you to create extraction distance, while the counter-entry requires rotating hips toward you to bring their free leg across your centerline. When you feel their hips turning into you rather than away, combined with their free leg pushing down on your bottom leg, you can identify the counter-entry before the threading begins.
-
-**Q2**: Why is maintaining a tight leg triangle the single most important preventive measure against this counter?
-**A**: The counter-entry requires the opponent to thread their free leg between your legs to reach your far leg. A tight leg triangle eliminates the space needed for threading entirely, making the counter-entry physically impossible regardless of their hip rotation or grip fighting. When your legs are locked around their trapped leg with no gaps, there is simply no pathway for their leg to pass through. Prevention through positional integrity is far more reliable than reactive defense.
-
-**Q3**: Your opponent has cleared your inside leg and begun threading - is it too late to prevent 50-50 entry?
-**A**: Once the inside leg is cleared and threading has begun, preventing 50-50 becomes very difficult but redirecting to inside ashi-garami remains viable. Their hip rotation toward you and the threading motion actually facilitates your advancement if you follow their rotation and deepen your inside leg position across their hip. Commit to the redirect rather than trying to reverse a threading that is already in progress. Attempting to stop the thread at this point typically results in a scramble where neither practitioner achieves clean position.
-
-**Q4**: How should you adjust your ankle lock strategy when facing an opponent known for this counter-entry?
-**A**: Against opponents who favor counter-entry, prioritize leg triangle tightness over breaking pressure and finish quickly or transition early. Keep your far leg tucked throughout the attack rather than extending it for base. Consider bypassing straight ankle lock control entirely in favor of advancing directly to inside ashi-garami or saddle where the counter-entry pathway does not exist. If you do attack the ankle lock, set a strict internal time limit of five to eight seconds before transitioning to prevent the counter-entry window from opening.
-
-**Q5**: When is racing to finish the ankle lock a tactically sound response to a detected counter-entry?
-**A**: Racing to finish is only sound when you have already secured deep finishing grips with your forearm tight against the Achilles and your back-arching breaking mechanics are ready to execute. The opponent must be in the very early stages of counter-entry, specifically before they have cleared your inside leg. If they have already begun threading, racing to finish becomes high-risk because your breaking pressure will be partially absorbed by their positional adjustment, and failure leaves you in a compromised position. The decision must be made within one second of recognizing the counter-entry.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Modified Scarf to Mount?</p>
+
 - Maintain crossface and head control throughout the entire transition as your primary anchor preventing guard recovery
 - Control the near arm to prevent framing during the leg clearance phase when your base is temporarily compromised
 - Time the transition when the opponent's defensive resources are committed to chest pressure defense rather than hip defense
@@ -208,6 +210,8 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Modified Scarf to Mount?</p>
+
 - Established Modified Scarf Hold with consistent chest-to-chest pressure and stable base
 - Crossface or head control preventing the opponent from turning toward you during the leg swing
 - Near arm controlled through underhook, armpit trap, or wrist control preventing defensive frames
@@ -220,6 +224,8 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Modified Scarf to Mount step by step?</p>
 
 1. **Confirm control position**: From established Modified Scarf Hold, verify your chest pressure is heavy and your opponent is not mid-escape. Confirm your crossface or head control is secure and the near arm is trapped. Check that their far knee is not threatening to insert between your bodies. This rapid assessment prevents committing to a transition during a vulnerable window.
 2. **Increase forward pressure**: Drive additional weight through your chest into the opponent's torso by shifting your hips forward and dropping your sternum heavier. This increased pressure forces the opponent to commit their arms and attention to defending the pin, occupying their resources and preventing them from preemptively blocking the incoming leg swing with frames at your hip.
@@ -250,6 +256,8 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Modified Scarf to Mount?</p>
+
 - **Bottom player inserts far knee between bodies during the leg swing creating a knee shield** (Effectiveness: High) - Your Response: Use your swinging leg to hook behind their inserting knee and push it flat. If the knee is already established, abort the mount entry and return to Modified Scarf Hold to re-establish control. Attack their extended arms to force frame retraction before reattempting. → Leads to [[Positions/Half Guard]]
 - **Bottom player frames on hip with far arm to create distance and block leg clearance** (Effectiveness: Medium) - Your Response: Address the frame before initiating the swing by swimming your arm inside the frame or driving your shoulder into it to collapse the structure. Alternatively, threaten an americana on the framing arm to force them to retract it, then immediately initiate the leg swing. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
 - **Bottom player times an explosive bridge during the weight transfer to disrupt base and balance** (Effectiveness: Medium) - Your Response: Post your free hand on the mat to absorb the bridge force and maintain your base. Keep your crossface pressure and wait for the bridge to collapse before completing the mount entry. If the bridge is strong enough to threaten your balance, settle back to Modified Scarf Hold rather than landing in compromised mount. → Leads to [[Positions/Side Control/Modified Scarf Hold]]
@@ -261,6 +269,8 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Modified Scarf to Mount?</p>
 
 ### 1. Lifting chest pressure before initiating the leg swing to create space for movement
 
@@ -300,6 +310,8 @@ Executing the Modified Scarf to Mount transition requires coordinating leg clear
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Modified Scarf to Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Weight transfer and leg clearance fundamentals
 Practice the step-over motion from Modified Scarf Hold against a compliant partner. Focus on maintaining chest pressure during the leg swing, keeping hips low, and settling heavy into mount. Perform 20 repetitions per side with no resistance, concentrating on smooth weight transfer and crossface maintenance throughout the movement.
 
@@ -317,45 +329,12 @@ Start from established Modified Scarf Hold in positional sparring rounds. Top pl
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Modified Scarf to Mount transition?
-**A**: The optimal window opens when the bottom player's arms are committed to defending Modified Scarf Hold's chest pressure rather than establishing positional frames at your hip. Specifically, when they retract their arms after a submission threat, turn away from pressure, or flatten out under sustained weight. These moments leave the hip line unprotected and their knee insertion mechanics compromised by their current defensive commitment.
-
-**Q2**: Why is blocking the opponent's far knee the most critical preparatory step before initiating the leg swing?
-**A**: The far knee is the opponent's primary defensive weapon against mount entry. The moment they feel your weight shift during the leg swing, their instinct is to insert the far knee between your bodies as a shield. By using your near hip or thigh to preemptively block this insertion path before initiating the swing, you remove their highest-percentage counter before the vulnerability window even opens. Skipping this step is the single most common reason this transition fails.
-
-**Q3**: Your opponent pushes hard against your chest as you prepare to transition—how do you capitalize on this reaction?
-**A**: Their extended arms pushing against your chest are committed to vertical force rather than positional hip defense. This creates two opportunities: immediately initiate the leg swing while their arms are occupied and cannot block the incoming leg at hip level, or attack the extended arms with an americana to punish the push and force retraction, creating an even cleaner transition window on the next attempt.
-
-**Q4**: What grip configuration provides the most control during the step-over from Modified Scarf Hold?
-**A**: Crossface control with your near arm combined with near arm entrapment is optimal. The crossface prevents the opponent from turning toward you during the swing, which would enable knee insertion or guard recovery. The near arm entrapment eliminates their primary framing tool. At least one anchor must be maintained throughout the entire step-over—releasing both simultaneously creates the space that allows escape.
-
-**Q5**: How does the direction of force application change during each phase of the transition?
-**A**: In Modified Scarf Hold, force is applied laterally through chest-to-chest pressure at an angle. During the leg swing, force must shift from lateral pressure to forward-and-downward drive through the hips to maintain control during the weight transfer. Upon landing in mount, force becomes bilateral and vertical through settled hips onto the opponent's solar plexus. Failing to progress through these directional changes—particularly sitting upright instead of driving forward during landing—creates the bridge vulnerability that allows escape.
-
-**Q6**: Your opponent bridges explosively as your leg swings over their body—what is your immediate response?
-**A**: Post your free hand on the mat on the far side to absorb the bridge force while keeping your crossface anchor. Wait for the bridge to collapse rather than fighting through it. If the bridge is strong enough to truly threaten your balance, settle back to Modified Scarf Hold rather than landing in a compromised mount that can be immediately reversed. A controlled abort preserves your dominant position better than a scrambled mount entry.
-
-**Q7**: What is the most common mechanical failure that allows the bottom player to recover half guard during this transition?
-**A**: The most common failure is swinging the leg too slowly or in too wide an arc, giving the bottom player sufficient time to insert a knee shield between your bodies. The extended swing creates a window where the opponent can thread their knee across your hip line before mount is established. The correction is committing fully to the step-over with speed in a tight arc close to the opponent's body, and clearing any knee insertion with your swinging leg.
-
-**Q8**: How do you chain submission threats with the mount transition to create an unsolvable dilemma?
-**A**: Threaten americana or kimura from Modified Scarf Hold to force the opponent to commit arms to submission defense. When they retract arms to defend, their hip line is left unprotected for the mount entry. Conversely, when they frame at your hip to block the mount transition, their near arm extends and becomes vulnerable to the submission. This creates a binary dilemma: defend the submission and lose mount defense, or defend mount entry and lose the arm. Chain these threats in rapid succession until one succeeds.
-
-**Q9**: What adjustments should you make if the opponent is significantly larger or stronger than you?
-**A**: Against larger opponents, the reaction-based slide entry variant is preferred over the direct step-over. Rather than forcing a step-over against superior resistance, increase chest pressure until the larger opponent turns away from the discomfort, then follow their turning movement directly into mount. The opponent's own escape attempt provides the momentum. Also prioritize the knee-across slide variant which maintains constant pressure and avoids the airborne moment where size advantage could enable a powerful bridge escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Modified Scarf to Mount?</p>
 
 This transition involves significant pressure changes on the bottom player's chest, ribs, and diaphragm during the positional shift. In training, control the speed of the leg swing to avoid accidentally driving a knee into the training partner's face, ribs, or groin during the arc. The bottom player should communicate immediately if breathing becomes severely compromised under sustained chest pressure before the transition. Be aware that the swinging leg's trajectory must clear the partner's head safely. When drilling at higher intensity, ensure the landing into mount is controlled rather than dropping full weight abruptly onto the partner's midsection.
 

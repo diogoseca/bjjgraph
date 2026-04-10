@@ -188,6 +188,8 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing Up from Combat Base?</p>
+
 - Establish grips on opponent's legs before initiating the stand to maintain control throughout the transition and prevent hook entries
 - Drive through the planted foot explosively to minimize the vulnerable transition window between kneeling and standing
 - Maintain upright posture throughout the movement—never bend at the waist, which invites collar pulls and forward collapse
@@ -202,6 +204,8 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing Up from Combat Base?</p>
+
 - Combat base position established with one knee posted and opposite foot planted flat on the mat
 - Opponent's collar and sleeve grips broken or controlled to prevent pull-down during elevation
 - At least one controlling grip on opponent's pants, knee, or ankle to manage their leg positioning during stand-up
@@ -214,6 +218,8 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing Up from Combat Base step by step?</p>
 
 1. **Secure controlling grips on opponent's legs**: From combat base, grip both of the opponent's pants at the knee line or control their ankles. If no-gi, cup behind the knees or control the shins. These grips serve as your primary control mechanism throughout the entire stand-up sequence and must be established before initiating any upward movement.
 2. **Break opponent's upper body grips**: Strip any collar grips by circling your wrist outward and peeling fingers. Break sleeve grips by pulling your arm sharply downward and inward. Opponent's pulling grips are the primary threat to a successful stand-up, so clearing them before committing to the elevation prevents being yanked back down mid-transition.
@@ -243,6 +249,8 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing Up from Combat Base?</p>
+
 - **Opponent grabs collar and sleeve grips to pull you back down during the stand** (Effectiveness: High) - Your Response: Strip grips before committing to the stand. If grips are established mid-stand, complete the stand explosively and then break grips from standing where you have superior leverage. Use circular wrist movements and posture to break collar grips from the elevated position. → Leads to [[Positions/Combat Base]]
 - **Opponent threads a De La Riva hook around your lead leg as you begin standing** (Effectiveness: High) - Your Response: Drive the hooked knee forward and inward to strip the hook before it sets. If the hook establishes, immediately backstep or switch your lead leg to remove the entanglement. Pushing the opponent's hooking knee to the mat with your free hand denies the hook angle. → Leads to [[Positions/Half Guard]]
 - **Opponent sits up and grabs a single leg during the transition window** (Effectiveness: Medium) - Your Response: Use your established pants grips to push the opponent's hips back to the mat before they can fully sit up. If they get the single leg, immediately whizzer the trapped leg arm and circle away from their head while pushing their head down to break the grip. Avoid backing straight up which loads their driving angle. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing Up from Combat Base?</p>
 
 ### 1. Standing up without establishing grips on opponent's legs first
 
@@ -293,6 +303,8 @@ As the attacker executing the stand-up from combat base, your objective is to tr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing Up from Combat Base (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Stand-up movement pattern without opponent
 Practice the combat base to standing transition solo, focusing on driving vertically through the hips, maintaining upright posture, and achieving a balanced standing position. Perform 20 repetitions per side, alternating which knee is posted. Emphasize explosive transition speed while maintaining structural integrity throughout the movement.
 
@@ -313,42 +325,12 @@ Start in combat base with partner playing open guard at full resistance. Top pla
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the stand-up from combat base?
-**A**: The optimal window is when the opponent's pulling grips are broken or weakened and their feet are not actively hooked on your hips or legs. This typically occurs after a successful grip strip, when the opponent is resetting their guard structure, or when they push your hips away with feet on hips creating distance that makes kneeling passes ineffective. Standing during grip transitions exploits the brief period where the opponent lacks the pulling control needed to prevent elevation.
-
-**Q2**: What grips must be established before initiating the stand-up from combat base?
-**A**: At minimum, one controlling grip on the opponent's pants at the knee line or ankle is required to prevent free hook insertion during the stand. Ideally, both hands grip the opponent's pants at the knees, providing bilateral control of their leg positioning throughout the transition. In no-gi, cup behind both knees or control the shins. These grips serve the dual purpose of preventing the opponent from following your upward movement with hooks and providing immediate passing control upon reaching standing.
-
-**Q3**: Your opponent has feet on your hips pushing you away from combat base - should you fight to close distance or stand up?
-**A**: Standing up is the superior tactical choice in this scenario. The opponent's feet-on-hips configuration creates distance that neutralizes kneeling passes but also means their hooks are extended rather than close-range entanglements. By standing, you convert their pushing distance into your passing distance. Grip their pants at the ankles, stand explosively, and redirect their legs laterally for a toreando pass. Fighting to close distance against feet on hips burns energy against a mechanically advantaged frame.
-
-**Q4**: What is the most critical mechanical detail that determines whether the stand-up succeeds or fails?
-**A**: The vertical drive through the hips rather than forward lean at the waist is the single most critical mechanical detail. A vertical drive maintains your center of gravity above your base, keeps your head above your hips preventing collar pull vulnerability, and creates upward momentum that separates you from the opponent's hook range. Forward lean at the waist shifts your center of gravity over the opponent, invites collar pulls and guillotine entries, and creates the exact proximity that distance guards exploit.
-
-**Q5**: What is the primary danger if you stand up without first breaking the opponent's collar grip?
-**A**: An unbroken collar grip gives the opponent a direct mechanical connection to your posture and balance center. As you stand, they can pull the collar grip downward, collapsing your posture forward and either pulling you back into their guard or using the forward momentum to set up a sweep or guard pull. From standing, a strong collar grip also enables snap-downs, armdrag entries, and lasso guard establishments that immediately negate the advantage of the standing position.
-
-**Q6**: Your opponent threads a De La Riva hook around your lead leg as you begin to stand - how do you respond?
-**A**: Immediately drive the hooked knee forward and inward while pushing the opponent's hooking foot off your hip with your same-side hand. Do not step backward, which deepens the hook. If the hook is too deep to strip in motion, switch your lead leg by stepping over to the opposite stance, effectively removing the hook by changing which leg is forward. Alternatively, complete the stand explosively and use the standing position's elevation advantage to backstep around the DLR hook before it develops into a sweep threat.
-
-**Q7**: Why is stepping back immediately after reaching standing position critical to the transition's success?
-**A**: Stepping back creates the optimal passing distance where your pants grips are effective but the opponent's feet and hooks cannot reach your legs for entanglement. If you remain close to the opponent after standing, they immediately insert butterfly hooks, shin-to-shin contact, or lasso grips that pull you back into close-range engagement where the standing advantage is neutralized. The small backstep establishes the distance sweet spot where standing passes like toreando and leg drag operate with maximum effectiveness.
-
-**Q8**: What chain of attacks should you prepare if your initial standing pass attempt is blocked after the stand-up?
-**A**: Prepare a three-deep passing chain: if the toreando is blocked by the opponent recovering hip position, immediately switch to a leg drag by pulling one leg across their body. If the leg drag is defended by the opponent turning into you, transition to an x-pass by stepping around the far side. If all standing passes are defended and the opponent establishes a strong distance guard, you can return to combat base with the knowledge gained about their defensive patterns. The ability to chain standing passes prevents the opponent from committing fully to any single defensive response.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing Up from Combat Base?</p>
 
 Standing up from combat base carries relatively low injury risk compared to submission techniques but requires attention to knee mechanics during the kneeling-to-standing transition. Ensure the posted knee rises smoothly without lateral torque, particularly if the opponent has any hooks or entanglements that resist the movement. Avoid explosively extending the knees if the opponent has established a deep hook that could cause knee hyperextension. In training, communicate with your partner if they maintain grips that create awkward joint angles during the elevation. On slippery mats, plant the foot firmly before committing weight to avoid slipping during the transition.
 

@@ -148,13 +148,15 @@ description: "How to defend against Counter Sweep in BJJ. Recognition cues, defe
 
 The Counter Sweep Defender is the bottom guard player whose sweep attempt has been read and countered by the top player. When your sweep is stuffed, you enter a critical defensive window where the top player holds a significant tactical advantage: your grips are committed, your hips are displaced, and your guard structure is temporarily compromised from the failed sweep attempt. The defender must immediately recognize that their sweep has failed and transition from offensive sweep mechanics to defensive guard recovery or secondary attack chains. The worst response is to continue forcing a sweep that has already been neutralized, as this compounds the positional disadvantage and expends energy against a mechanically unfavorable configuration. Instead, the defender must rapidly re-establish guard frames, recover grips, and either reguard to a neutral open guard or redirect into a secondary technique that exploits the top player's counter-sweep commitment.
 
-**Opponent's Starting Position**: [[Positions/Open Guard]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Counter Sweep?</p>
 
 - Top player widens base and lowers hips in direct opposition to your sweep direction, creating a heavy counter-pressure you cannot overcome with your current grip and angle configuration
 - Your primary sweeping grip is broken or the top player strips the controlling grip that was powering the sweep attempt, removing the mechanical connection needed to complete the technique
@@ -167,6 +169,8 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Sweep?</p>
 
 - Recognize sweep failure early and abandon the committed sweep mechanics before the top player can capitalize
 - Immediately re-establish defensive frames with forearms on the opponent's biceps or shoulders to prevent guard pass
@@ -182,6 +186,8 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Sweep?</p>
 
 ### 1. Abandon sweep and immediately reguard to neutral open guard with feet on hips and active grips
 
@@ -200,7 +206,7 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 ### 3. Create scramble by inverting, granby rolling, or explosively disengaging to prevent the top player from establishing a controlled pass
 
 - **When to use**: When the top player has already begun passing and a clean reguard is not possible, making a scramble the best available option
-- **Targets**: [[Positions/Scramble Position]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Prevent the clean guard pass and create a chaotic exchange where you can compete for position on more equal terms
 - **Risk**: Scrambles favor the more athletic and explosive practitioner, and energy expenditure is high with uncertain positional outcome
 
@@ -212,13 +218,15 @@ The Counter Sweep Defender is the bottom guard player whose sweep attempt has be
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Abandon the failed sweep early, retract your legs to reinsert feet on hips or establish shin frames, re-grip their sleeves or collar, and reset to a neutral open guard before they can initiate a passing sequence. The key is speed of recognition - the earlier you identify sweep failure, the more time you have to rebuild guard structure.
 
-### → [[Positions/Scramble Position]]
+### → [[Positions/Turtle]]
 
-When clean reguard is impossible because the top player is already advancing, use explosive hip movement (granby roll, inversion, or technical stand-up) to disrupt their passing trajectory and create a dynamic exchange. Focus on preventing them from establishing chest-to-chest contact or crossface control during the scramble.
+When clean reguard is impossible because the top player is already advancing, use explosive hip movement (granby roll, inversion, or technical stand-up) to disrupt their passing trajectory and create a dynamic exchange. Focus on preventing them from establishing chest-to-chest contact or crossface control during the transition.
 
 
 
@@ -227,6 +235,8 @@ When clean reguard is impossible because the top player is already advancing, us
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Sweep?</p>
 
 ### 1. Continuing to force a sweep that has already been countered rather than abandoning and recovering guard
 
@@ -256,6 +266,8 @@ When clean reguard is impossible because the top player is already advancing, us
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Sweep?</p>
+
 **Phase 1: Sweep Failure Recognition (Weeks 1-2)** - Identifying when your sweep has been neutralized
 Partner defends your sweep attempts with increasing skill. Practice identifying the exact moment when the sweep can no longer succeed: their base is adjusted, your grip is broken, or their pressure nullifies your mechanics. Pause at the recognition moment and verbalize what told you the sweep failed.
 
@@ -272,29 +284,6 @@ Positional sparring starting from open guard where you must attempt sweeps again
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your butterfly sweep is stuffed because the top player sprawled and drove their chest into you - what is your immediate recovery sequence?
-**A**: Immediately retract your butterfly hooks and replace them with feet on their hips to create distance. Simultaneously recover your grips to collar and sleeve rather than the underhook you used for the sweep. Shrimp your hips back to create space and establish a neutral open guard or transition to a different guard system like De La Riva or collar-sleeve guard. The critical error would be to keep trying to re-elevate with the hooks against their sprawled weight.
-
-**Q2**: How do you determine whether to chain to a secondary sweep or abandon to guard recovery after your first sweep is countered?
-**A**: The decision hinges on the top player's weight commitment. If they have overcommitted their base in one direction to defend your first sweep, chain to the opposite direction sweep because their weight distribution creates the vulnerability. If they maintained centered base and simply neutralized your sweep without overcommitting, abandon to guard recovery because a secondary sweep against a balanced opponent has low probability of success and further compromises your guard. Read their hip position: shifted hips mean chain, centered hips mean recover.
-
-**Q3**: What is the biggest danger in the moment immediately after your sweep attempt fails?
-**A**: The biggest danger is the guard pass, not a submission. After a failed sweep, your hips are displaced, your grips are disrupted, and your legs are out of their optimal guard configuration. The top player's highest-percentage response is to immediately pass your compromised guard, typically with a leg drag or pressure pass that exploits the angle your body created during the sweep attempt. This is why guard frame recovery must be your first priority, not attempting another offensive technique.
-
-**Q4**: Your scissor sweep fails because the top player posts their leg back - your top leg is still across their body. What should you do?
-**A**: Use the leg that is across their body as a frame rather than a sweep tool. Convert it into a knee shield by pulling your knee to your chest and positioning your shin across their torso to create distance. Simultaneously recover your collar grip with your free hand and establish a knee shield half guard or reguard to open guard. The leg across their body is an asset for framing even though it failed as a sweep tool. Never leave it passively draped across them where they can pin it and pass.
-
-**Q5**: When should you choose to create a scramble rather than attempt a clean reguard after a failed sweep?
-**A**: Choose scramble when the top player has already advanced past your leg frames and is beginning to establish a passing position where clean reguard is no longer mechanically possible. If their shoulder is past your hip line or they have cleared your legs to one side, a clean reguard requires them to retreat, which they will not do voluntarily. In this case, explosive movement like a granby roll, inversion, or sit-through creates chaos that prevents them from consolidating the pass. The scramble is the emergency option when systematic guard recovery has been preempted.
-
-
-
-</section>
 
 
 </main>

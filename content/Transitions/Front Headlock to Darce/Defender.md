@@ -166,6 +166,8 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Front Headlock to Darce?</p>
+
 - Opponent's free arm begins threading under your far armpit while they maintain front headlock head control, indicating they are initiating the underhook for Darce configuration
 - You feel your opponent's chest shift weight toward one side and their hips begin walking laterally, signaling the beginning of the circling phase toward the choking side
 - Your near arm becomes pinned between your own body and the opponent's choking arm, with increasing pressure compressing your shoulder against your neck
@@ -178,6 +180,8 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Front Headlock to Darce?</p>
 
 - Protect the underhook at all costs - keep elbows tight to your ribs to deny the arm threading that initiates the Darce configuration
 - Control the opponent's choking arm at the wrist or elbow with your near hand to prevent deepening of the grip around your neck
@@ -193,6 +197,8 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Front Headlock to Darce?</p>
 
 ### 1. Drive forward and grab opponent's leg to prevent circling
 
@@ -230,6 +236,8 @@ Successful defense requires understanding the biomechanics of the Darce. The cho
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Front Headlock to Darce?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Prevent the Darce configuration from being completed by keeping elbows tight, hand fighting the choking arm, and driving forward to jam the circling path. If the figure-four never locks, you remain in standard front headlock bottom with better escape options. Execute a granby roll or arm extraction to reset the position before the opponent can reattempt.
@@ -245,6 +253,8 @@ If caught deep in the Darce attempt, explosively shoot a single leg or drive for
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Front Headlock to Darce?</p>
 
 ### 1. Allowing the underhook to establish by keeping elbows flared away from the body
 
@@ -279,6 +289,8 @@ If caught deep in the Darce attempt, explosively shoot a single leg or drive for
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Front Headlock to Darce?</p>
+
 **Week 1-2: Recognition and Defensive Positioning** - Learning to identify the Darce setup and establishing proper defensive posture
 Partner slowly initiates the Front Headlock to Darce transition. Defender focuses on recognizing each stage: underhook insertion, figure-four lock, hip control, circling. Practice maintaining elbows tight, chin tucked, and near hand controlling the choking arm. No escapes yet, just defensive positioning and recognition drilling at 25% speed.
 
@@ -295,29 +307,6 @@ Live rounds starting from front headlock where the attacker can attempt any subm
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from standard front headlock to a Darce attempt?
-**A**: The earliest cue is feeling your opponent's free arm begin to thread under your far armpit while they maintain head control. This underhook insertion is the initiating movement of the Darce configuration. You may also feel their weight shift to one side as they begin positioning for the circle. Recognizing this immediately is critical because defensive options become progressively limited as the transition advances through each subsequent stage.
-
-**Q2**: Why should you drive forward into the opponent rather than pulling away when you detect the Darce setup?
-**A**: Driving forward jams the opponent's ability to circle to the perpendicular position they need to finish the choke. Pulling away creates space that allows them to deepen the underhook, lock the figure-four more easily, and accelerate through the circling phase. Forward pressure also collapses their base and may force them to abandon the Darce to defend their own position. The Darce requires the attacker to circle around your body, and forward pressure directly prevents that circular movement.
-
-**Q3**: Your opponent has locked the figure-four but has not yet established hip control or begun circling - what is your best defensive option?
-**A**: Execute a granby roll away from the choking arm side immediately. This is your last high-percentage escape window before the opponent controls your hip and begins circling. The rolling motion disrupts the figure-four angle, can pull your trapped arm free during the momentum change, and at minimum returns you to a turtle or guard position. The key timing element is that this roll must happen before hip control is established, because once they grip your near hip, the roll becomes significantly harder to execute.
-
-**Q4**: How does the trapped arm relate to the effectiveness of the Darce, and what does this mean for your defensive priorities?
-**A**: The Darce choke requires your arm to be trapped against your own neck to create the compression that restricts blood flow through the carotid arteries. Without the arm-in configuration, the choke mechanics fail entirely because there is insufficient material between the choking arm and the neck to create bilateral compression. This means your top defensive priority after chin protection is extracting the trapped arm. Even if you cannot escape the position entirely, freeing that arm converts a dangerous Darce into a much less threatening standard headlock that you can escape through conventional methods.
-
-**Q5**: What defensive adjustment should you make if your opponent switches from a Darce attempt to an anaconda during your escape?
-**A**: The anaconda uses the opposite arm threading compared to the Darce, so your escape direction must reverse. If you were circling away from the Darce side, you now need to circle the opposite direction to escape the anaconda. The key recognition is feeling the opponent's arm withdraw from under your far armpit and rethreading over your neck from the other side. Keeping your elbows tight remains critical against both attacks. If you can recognize the switch early, the transition moment itself creates a brief opening where neither choke is fully locked and a forward drive or standup attempt has high success probability.
-
-
-
-</section>
 
 
 </main>

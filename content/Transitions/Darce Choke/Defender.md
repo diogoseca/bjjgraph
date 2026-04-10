@@ -166,6 +166,8 @@ Successful Darce defense demands composure under threat. Panicked, explosive mov
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Darce Choke?</p>
+
 - Attacker threads their arm under your near armpit and you feel their forearm sliding across the back of your neck toward your far shoulder
 - Increasing pressure on the side of your neck as attacker locks their hands together in figure-four, gable, or S-grip configuration
 - Attacker begins walking their hips around to achieve a perpendicular angle to your spine while driving shoulder pressure into your head
@@ -177,6 +179,8 @@ Successful Darce defense demands composure under threat. Panicked, explosive mov
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce Choke?</p>
 
 - Address the trapped arm immediately - extracting it eliminates the arm-in structure that makes the Darce functional
 - Move toward the attacker rather than pulling away, which counterintuitively reduces choking pressure by changing the compression angle
@@ -191,6 +195,8 @@ Successful Darce defense demands composure under threat. Panicked, explosive mov
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Darce Choke?</p>
 
 ### 1. Extract trapped arm by gripping your own wrist with your free hand and pulling the trapped arm toward your hip while turning into the attacker
 
@@ -228,6 +234,8 @@ Successful Darce defense demands composure under threat. Panicked, explosive mov
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Darce Choke?</p>
+
 ### → [[Positions/Darce Control]]
 
 Extract the trapped arm by gripping your own wrist with your free hand and pulling it toward your hip while turning your body into the attacker. Once the arm is free, the darce structure collapses and you can work to turtle or recover guard from what becomes a loose head-and-arm control.
@@ -243,6 +251,8 @@ Roll through toward the choking arm side when attacker commits to the sprawl, us
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce Choke?</p>
 
 ### 1. Pulling away from the choke by extending the neck and creating distance from the attacker
 
@@ -272,6 +282,8 @@ Roll through toward the choking arm side when attacker commits to the sprawl, us
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Darce Choke?</p>
+
 **Week 1-2** - Recognition and arm extraction mechanics
 Partner slowly establishes darce grip at 25% resistance. Practice recognizing the setup cues and immediately executing arm extraction. Focus on the mechanics of gripping your own wrist, turning into the attacker, and pulling the trapped arm free. Drill 30 repetitions per side emphasizing early recognition timing.
 
@@ -288,29 +300,6 @@ Start in fully locked darce control at full resistance. Defender must escape or 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is extracting the trapped arm the highest-priority defensive action against the Darce Choke?
-**A**: The Darce Choke requires the defender's trapped arm pressed against their own neck to create the compression needed for the blood choke. Without this arm-in configuration, the attacker's grip becomes a loose headlock without effective choking mechanics. Extracting the arm eliminates the fulcrum that makes the technique work, converting a life-threatening choke into a manageable control position that can be escaped through standard techniques.
-
-**Q2**: Your opponent has locked the darce grip and is walking their hips perpendicular - what is your immediate response?
-**A**: Frame immediately on their hip with your free hand to block the sprawl that generates finishing pressure. Simultaneously tuck your chin tight to your chest to block deeper penetration against your carotid arteries. Turn your body toward the attacker to reduce the choking angle while working your trapped arm free. If they continue the hip walk, follow their direction by turning with them to maintain the defensive angle rather than allowing them to achieve the perpendicular position unopposed.
-
-**Q3**: Why should you move toward the attacker rather than away when caught in a Darce?
-**A**: Moving toward the attacker reduces the angle of compression on the carotid arteries by changing the geometry of the choke. Pulling away stretches your neck into the choking arm and gives the attacker more space to deepen their grip. Turning into the attacker collapses the distance they need for the perpendicular finish and creates space on the far side of your neck where the compression was occurring, buying time for arm extraction and escape.
-
-**Q4**: What early recognition cues indicate a Darce Choke is being set up before the grip is fully locked?
-**A**: Key early cues include: the attacker threading their arm under your near armpit from front headlock or turtle, feeling their forearm slide across the back of your neck, their free hand reaching toward their own bicep to complete the figure-four, and the attacker beginning to walk their hips to the side while driving shoulder pressure down. Recognizing these cues before the grip locks gives you the best window for prevention by keeping your elbows tight to your body and immediately addressing the threading arm.
-
-**Q5**: You attempt to roll through the darce but the attacker follows and maintains grip - what do you do next?
-**A**: If the roll fails to break the grip, immediately transition to your secondary defense upon landing. Establish half guard by trapping the attacker's near leg between yours to prevent them from re-establishing the optimal finishing angle. From this position, frame on their hip with your free hand and resume arm extraction as your primary escape. The half guard entanglement limits their ability to sprawl and walk their hips, reducing the finishing pressure even with the grip maintained.
-
-
-
-</section>
 
 
 </main>

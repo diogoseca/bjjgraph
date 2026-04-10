@@ -28,7 +28,7 @@ From Backside 50-50 Bottom, the attacker controls the opponent's leg with their 
 
 Strategically, the Outside Heel Hook serves as the primary submission threat from Backside 50-50, forcing opponents to choose between defending the heel and preventing positional advancement. When opponents hide their heel or boot-defend effectively, this opens pathways for Inside Heel Hook attacks, toe holds, or positional escapes. The technique epitomizes modern leg lock philosophy: systematic entanglement control combined with precise breaking mechanics.
 
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 **Success Rate**: 55%
 
 </section>
@@ -39,7 +39,7 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Outside Heel Hook]] | 55% |
 | Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -202,7 +202,7 @@ The Outside Heel Hook represents the primary submission threat from Backside 50-
 
 - [[Submissions/Inside Heel Hook]] - Primary chain attack when outside heel is defended; attacks opposite rotational direction
 
-- [[Transitions/Toe Hold]] - Alternative submission attacking the same leg when heel grip is unavailable
+- [[Submissions/Toe Hold]] - Alternative submission attacking the same leg when heel grip is unavailable
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related entanglement position and counter outcome; different heel hook angles than Backside
 

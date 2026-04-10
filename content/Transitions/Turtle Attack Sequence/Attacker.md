@@ -188,6 +188,8 @@ As the top player attacking turtle, your objective is converting positional adva
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle Attack Sequence?</p>
+
 - Establish seat belt or harness grip before attempting hook insertion to prevent defender from spinning out during back take
 - Maintain constant chest-to-back pressure to limit defender's hip mobility and prevent granby rolls or sit-throughs
 - Control the near-side hip with your knee or thigh to block the defender's primary escape direction
@@ -203,6 +205,8 @@ As the top player attacking turtle, your objective is converting positional adva
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle Attack Sequence?</p>
+
 - Opponent in defensive turtle posture with hands and knees on mat and back exposed
 - Top position established behind or to the side of the turtled opponent with chest contact
 - At least one control point established: cross-face, near-side underhook, or waist control
@@ -217,6 +221,8 @@ As the top player attacking turtle, your objective is converting positional adva
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle Attack Sequence step by step?</p>
 
 1. **Establish chest-to-back connection**: Close distance and place your chest firmly against the defender's upper back with forward and downward pressure at approximately 45 degrees. Your sternum should drive into their shoulder blades, collapsing their turtle structure and limiting their ability to create movement. Keep hips mobile while upper body pressure remains constant.
 2. **Secure seat belt grip**: Thread your choking-side arm over the defender's shoulder and your underhook arm beneath their far armpit, clasping hands in a seat belt configuration. The over-arm controls the neck line for future choke entries while the underhook prevents the defender from turning away. Fight any hand-fighting resistance by using your chest pressure to limit their arm mobility.
@@ -246,6 +252,8 @@ As the top player attacking turtle, your objective is converting positional adva
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle Attack Sequence?</p>
+
 - **Defender fights seat belt aggressively with two-on-one grip, stripping the overhook before hooks are inserted** (Effectiveness: High) - Your Response: Switch to double underhook control or transition to front headlock if their hand fighting creates space above their shoulders. If they strip the overhook, immediately re-establish with the other arm or circle to front headlock position where their hand fighting exposes the neck. → Leads to [[Positions/Turtle]]
 - **Defender executes granby roll away from your hook side, inverting to recover guard** (Effectiveness: High) - Your Response: Follow the roll by maintaining chest contact and circling with their rotation. Keep your harness grip tight throughout the roll and use their momentum to continue into back control on the other side. If you lose chest contact, immediately transition to front headlock or sprawl to prevent guard recovery. → Leads to [[Positions/Back Control]]
 - **Defender sits through explosively to butterfly guard or half guard** (Effectiveness: Medium) - Your Response: Anticipate the sit-through by monitoring hip movement. When defender begins hip rotation, drive your near knee across their hip line to block the sit-through, or switch to front headlock as their upper body turns. If the sit-through succeeds partially, immediately work to pass the resulting guard before they consolidate. → Leads to [[Positions/Turtle]]
@@ -258,6 +266,8 @@ As the top player attacking turtle, your objective is converting positional adva
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle Attack Sequence?</p>
 
 ### 1. Attempting hook insertion before establishing upper body control through seat belt or harness
 
@@ -297,6 +307,8 @@ As the top player attacking turtle, your objective is converting positional adva
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle Attack Sequence (Attacker)?</p>
+
 **Phase 1: Grip Establishment (Weeks 1-2)** - Developing seat belt and harness control from turtle top
 Partner assumes turtle position with light defensive resistance. Top player practices closing distance, establishing chest-to-back connection, and securing seat belt grip from various angles. Drill 10-15 repetitions per side, focusing on grip placement accuracy and chest pressure maintenance. Partner gradually increases hand fighting intensity as top player's grip establishment improves.
 
@@ -320,48 +332,12 @@ During full sparring rounds, consciously drive opponents to turtle during guard 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical grip that must be established before attempting hook insertion from turtle top?
-**A**: The seat belt grip (over-under harness) must be established before hook insertion. The overhook arm crosses over the defender's shoulder controlling the neck line, while the underhook arm threads beneath the far armpit. This grip controls the defender's upper body rotation and prevents them from spinning out during hook insertion. Without this upper body control, hook attempts are easily defended through granby rolls and sit-throughs because the defender's torso is free to create rotational escape movement.
-
-**Q2**: Why should the near-side hook be inserted before the far-side hook?
-**A**: The near-side hook should be inserted first because your knee is already positioned at the defender's hip, creating the shortest threading distance and maintaining your base throughout insertion. Reaching for the far hook first compromises your weight distribution, creating excessive space on the near side that the defender can exploit for sit-throughs or granby rolls. The near hook also serves as an anchor point that limits the defender's hip mobility, making the subsequent far hook insertion significantly easier.
-
-**Q3**: Your opponent aggressively strips your seat belt overhook with two-on-one grip fighting - how do you adapt?
-**A**: When the defender strips your overhook through two-on-one grip fighting, immediately assess whether to re-establish the seat belt from the opposite side or transition to front headlock position. The hand fighting required to strip the overhook often lifts the defender's head and creates space above their shoulders, exposing the neck for front headlock entries. Circle toward their head while maintaining chest pressure and underhook control, sliding into front headlock or snap-down position where their hand fighting now works against them by leaving the neck exposed.
-
-**Q4**: What determines whether you should follow a granby roll or disengage and re-engage from turtle top?
-**A**: You should follow the granby roll if you maintain at least seat belt grip contact, because their rotation creates momentum you can use to end up in a superior back control position on the other side. Keep your chest glued to their back throughout the roll and use their rotational energy rather than fighting it. Disengage only if you have completely lost all upper body control during the roll, as following without grips simply places you in their guard. The key indicator is grip retention: maintained seat belt means follow, lost grips means sprawl and re-engage.
-
-**Q5**: What is the optimal chest pressure angle for preventing both standup and granby roll escapes simultaneously?
-**A**: The optimal pressure angle is forward and downward at approximately 45 degrees, driving your sternum into the defender's upper back between the shoulder blades. This angle collapses the turtle structure by pushing their chest toward the mat, making standup impossible because they cannot extend their hips against the downward component. The forward component prevents granby rolls because the defender needs space above their shoulders to initiate the inversion. Pressure that is purely downward allows standup, while pressure that is purely forward allows granby rolls underneath.
-
-**Q6**: Your opponent tucks into an extremely tight defensive turtle with elbows glued to knees - what is your attack strategy?
-**A**: Against a tight defensive shell, use progressive flattening or angle change rather than forcing grips through the shell. Apply cross-face with one hand while controlling the far hip with the other, then drive the defender's face to the mat to break the four-point base into a flattened position. Once flat, the shell loses structural integrity and you can work underhooks from the side. Alternatively, circle to the head position to attack front headlock, as the tight elbow position that protects against back takes simultaneously prevents the defender from defending head and neck attacks.
-
-**Q7**: How should your weight distribution change between the grip establishment phase and the hook insertion phase?
-**A**: During grip establishment, weight should be approximately 70% through your chest onto the defender's upper back with hips relatively light and mobile, allowing you to adjust to their movements and fight for grips. During hook insertion, weight shifts more laterally toward the seat belt overhook side while maintaining chest contact, creating the angle needed to thread hooks through. The key transition is the slight lateral lean that opens the hook path while keeping forward pressure to prevent the defender from using the weight shift to escape. Never fully commit weight backward during hook insertion as this creates space for the defender to sit through.
-
-**Q8**: When is circling to front headlock a better option than continuing the back take from turtle top?
-**A**: Front headlock becomes the superior option when the defender successfully prevents seat belt establishment through strong hand fighting, when they keep their elbows extremely tight making hook threading impossible, or when they lift their head to look for escape routes exposing the neck. The front headlock is also preferred when the defender is actively attempting to stand because circling to the head allows you to use their upward drive against them with snap-down pressure. If you have been fighting for seat belt for more than 5-7 seconds without success, transitioning to front headlock prevents the exchange from becoming a stalemate that favors the defender.
-
-**Q9**: What is the hand-over-hand principle and why is it critical during turtle attack transitions?
-**A**: The hand-over-hand principle requires maintaining at least one dominant grip or control point at all times before releasing another, similar to climbing a ladder where one hand is always gripping. During turtle attacks, this means never creating a moment where the defender is completely uncontrolled. When transitioning from seat belt to front headlock, maintain the underhook until the headlock grip is established. When switching from back take to crucifix, keep chest pressure until arm control is secured. This principle is critical because experienced defenders are trained to explode into escapes the instant all controls are released, and even a half-second gap in control is sufficient for a well-timed granby roll or sit-through.
-
-**Q10**: Your opponent begins a sit-through toward butterfly guard while you have one hook inserted - what is the correct response?
-**A**: When the defender initiates a sit-through with one hook already inserted, immediately drive your free knee across their hip line on the side they are sitting toward, blocking the sit-through completion. Simultaneously tighten your seat belt grip and pull them back into turtle using your inserted hook as a lever. If the block fails and they achieve partial butterfly position, follow their body by maintaining harness control and work to re-insert hooks from the new angle. Do not release the inserted hook to address the sit-through, as losing that hook while they are in motion virtually guarantees complete guard recovery.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle Attack Sequence?</p>
 
 Turtle transitions involve dynamic movements and scrambles where both practitioners are moving explosively with compromised base and balance. Primary injury risks include neck strain from aggressive front headlock attacks, shoulder injuries from posted arms being driven into during flattening sequences, and knee stress from sudden weight changes during hook insertion. When drilling turtle attacks, start at reduced speed to develop proper mechanics before adding explosive power. Top players should avoid driving excessive weight directly onto the bottom player's neck during front headlock transitions and should release pressure immediately if the bottom player's base collapses unexpectedly into a dangerous neck position. During hook insertion drills, communicate with training partners to avoid driving hooks in with excessive force against the inner thigh. Granby roll follow-throughs require adequate mat space to complete safely. When practicing crucifix entries, respect shoulder joint limits on the trapped arm and release immediately if the training partner signals discomfort. Stop all turtle attack drills immediately if either person experiences neck pain, joint entrapment, or loss of positional awareness.
 

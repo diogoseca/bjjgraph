@@ -162,6 +162,8 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Leg Hook?</p>
+
 - Top player establishes heavy crossface and begins shifting weight forward onto your upper body, pinning your shoulders while their hips become lighter on your legs
 - Top player's trapped leg begins circular foot movement or hip rotation rather than the direct extraction pulls you feel during standard passing attempts
 - Top player's far hand moves to control your far hip instead of their usual passing grips, indicating they are preparing to tether your hips during the leg repositioning
@@ -174,6 +176,8 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Leg Hook?</p>
 
 - Maintain tight knee connection between your legs to prevent the top player from threading their leg through for the hook insertion
 - Establish active frames against the top player's upper body to prevent the chest pressure that enables the hook insertion sequence
@@ -189,6 +193,8 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Leg Hook?</p>
 
 ### 1. Re-establish knee shield before hook insertion completes
 
@@ -226,6 +232,8 @@ As the defender against the Transition to Leg Hook, you are in Half Guard Bottom
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Leg Hook?</p>
+
 ### → [[Positions/Half Guard/Deep Half Guard]]
 
 Time your deep half entry during the moment the top player shifts weight upward for hook insertion. Use their forward momentum to duck your head underneath their body, establishing deep half control with your near-side arm wrapping their far leg. The key timing window is when their hips lift even slightly during the threading motion.
@@ -241,6 +249,8 @@ Execute a bridge-based sweep during the weight transfer phase when the top playe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Leg Hook?</p>
 
 ### 1. Remaining passive and allowing the hook insertion to complete without resistance
 
@@ -270,6 +280,8 @@ Execute a bridge-based sweep during the weight transfer phase when the top playe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Leg Hook?</p>
+
 **Phase 1: Recognition Drill** - Identifying hook insertion cues
 Partner alternates between standard half guard top pressure and hook insertion attempts without announcement. Bottom player calls out 'hook' when they detect the transition attempt. Build sensitivity to the weight shift and rotational pressure changes that precede insertion.
 
@@ -286,29 +298,6 @@ Full resistance positional rounds starting from half guard. Top player attempts 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the Transition to Leg Hook?
-**A**: The earliest cue is a change in the quality of pressure on your entangling legs from downward pulling (standard extraction attempt) to a rotational or circular motion as the top player begins threading their foot underneath your knee. This is often preceded by them establishing heavier upper body pressure and moving their far hand to your hip. Recognizing this early shift gives you maximum time to implement defensive responses before the hook clears your knee line.
-
-**Q2**: Why is the deep half entry the most effective counter to the hook insertion?
-**A**: Deep half entry exploits the exact vulnerability the hook insertion creates: the top player must shift their weight and lift their hips slightly to thread the hook, which creates space underneath their body. This space is precisely what deep half guard requires for entry. By timing your duck underneath their body during their weight shift, you convert their offensive action into your counter-offensive position. The deep half position also completely negates the hook because it changes the leg configuration entirely.
-
-**Q3**: When should you prioritize knee shield recovery versus attempting a sweep?
-**A**: Prioritize knee shield recovery when you detect the transition early and your upper body frames are compromised, as the shield provides immediate structural defense that buys time. Attempt a sweep when the transition is already in progress and the top player's weight is distributed unevenly during the insertion, creating a vulnerability window that a properly timed bridge can exploit. If you cannot determine which option to pursue, default to knee shield recovery as it is lower risk and resets the position.
-
-**Q4**: What role does your free leg play in preventing the hook insertion?
-**A**: The free leg serves as a dynamic defensive tool that can push against the top player's hip to create distance preventing the close-range contact needed for hook threading, establish a butterfly hook underneath to disrupt their base during the insertion, or push off the mat to power bridge and sweep attempts. A passive free leg wastes your most mobile defensive resource. Keep it active throughout the defense, adjusting its role based on which defensive strategy you are implementing.
-
-**Q5**: Your opponent has partially inserted the hook but has not yet consolidated the position. What is your best option?
-**A**: Your best option is an immediate deep half entry, as the partial hook means their weight is already shifted and space exists underneath their body. The partial hook actually helps your deep half entry because it means their leg is already partially committed in a position you can control from deep half. Alternatively, attempt a strong bridge toward the hook side before they consolidate their three-point base. Do not try to close your knees now, as the hook is already past the point where knee pinching is effective.
-
-
-
-</section>
 
 
 </main>

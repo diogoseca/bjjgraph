@@ -39,7 +39,7 @@ The finishing mechanics rely on structural compression rather than muscular stre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Ten Finger Guillotine]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 

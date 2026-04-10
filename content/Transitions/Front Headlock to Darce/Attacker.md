@@ -192,6 +192,8 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Front Headlock to Darce?</p>
+
 - Maintain constant downward pressure on opponent's head throughout the transition to prevent posture recovery
 - Use opponent's defensive circling motion to facilitate the underhook insertion rather than fighting against their movement
 - Secure the figure-four arm configuration before attempting to circle to finish position
@@ -207,6 +209,8 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Front Headlock to Darce?</p>
+
 - Established front headlock control with arm wrapped around opponent's neck and head pulled tight to your chest or hip
 - Opponent in turtle, scramble, or compromised standing position with posture broken down
 - Your choking-side arm positioned deep around opponent's neck with bicep and forearm on opposite sides
@@ -220,6 +224,8 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Front Headlock to Darce step by step?</p>
 
 1. **Secure front headlock control**: Establish a tight front headlock position with your arm wrapped deep around the opponent's neck. Your bicep should be against one side of their neck while your forearm compresses the other side. Pull their head tight to your chest or hip while driving downward pressure with your body weight. Maintain a low stance with your hips back and chest over their shoulders.
 2. **Insert underhook on choking side**: As the opponent circles or attempts to escape, thread your free arm under their far armpit on the same side as your choking arm. The underhook should be deep, with your shoulder driving into their armpit. Keep your elbow tight and forearm pressed against their ribs. This creates the foundation for the Darce configuration by controlling both the head and the far side of their body simultaneously.
@@ -249,6 +255,8 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Front Headlock to Darce?</p>
+
 - **Opponent grabs your leg and drives forward to prevent the circle** (Effectiveness: High) - Your Response: Switch to anaconda choke by adjusting arm position, or transition to guillotine if they drive their head up. Maintain downward head pressure and sprawl your hips back to counter their forward drive. → Leads to [[Positions/Front Headlock]]
 - **Opponent performs granby roll before you establish hip control** (Effectiveness: High) - Your Response: Follow their roll and maintain the front headlock, resetting to either continue the Darce attempt or transition to back control as they roll through. Keep your choking arm connection tight throughout the roll. → Leads to [[Positions/Front Headlock]]
 - **Opponent gets their trapped arm free before you complete the circle** (Effectiveness: Medium) - Your Response: Abandon the Darce and transition to guillotine or anaconda choke, or return to front headlock control to reset. Do not force a compromised Darce position as it becomes ineffective without proper arm trapping. → Leads to [[Positions/Front Headlock]]
@@ -262,6 +270,8 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Front Headlock to Darce?</p>
 
 ### 1. Releasing the front headlock control before securing the underhook
 
@@ -306,6 +316,8 @@ This transition is fundamental to modern no-gi grappling and represents a corner
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Front Headlock to Darce (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Understanding the arm configuration and basic positioning
 Practice establishing front headlock control and inserting the underhook from static positions. Partner remains still in turtle while you drill the steps slowly: front headlock, underhook, figure-four lock, circle, finish position. Focus on proper hand placement and arm angles. Repeat 20-30 reps per training session.
 
@@ -329,48 +341,12 @@ Incorporate the Darce into your complete front headlock system. Practice entries
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical control point to establish before attempting to circle to the Darce finishing position?
-**A**: The near hip control is the most critical point to establish before circling. Without controlling the opponent's near hip, they can execute a granby roll or other defensive roll to escape before you establish the finishing position. The hip control should be established immediately after locking the figure-four arm configuration. Think of it as the checkpoint that gates the entire circling phase.
-
-**Q2**: Your opponent begins to circle away from your choking arm while you have the front headlock - how do you capitalize on this movement?
-**A**: Their circling away from your choking arm is the ideal trigger for the Darce entry. As they circle, their far arm naturally opens up, creating the gap you need to thread your underhook. Follow their movement and insert your free arm under their far armpit while they are in motion. Their own defensive movement actually facilitates your submission setup. The key is timing the underhook insertion to coincide with their circular motion rather than fighting against a static position.
-
-**Q3**: Which direction should you circle when transitioning from front headlock to Darce finishing position?
-**A**: You should always circle toward the choking side - the same side as your arm that is around the opponent's neck. This brings your body perpendicular to theirs and tightens the choke structure naturally. Circling away from the choking side creates an incorrect angle where the choke cannot be effectively finished. Visualize walking your chest toward their far hip.
-
-**Q4**: What is the proper response if your opponent successfully grabs your leg and drives forward as you attempt to circle?
-**A**: If the opponent successfully prevents your circle by grabbing your leg and driving forward, you should switch to an anaconda choke by adjusting your arm position, or transition to a guillotine if they drive their head up. You can also sprawl your hips back while maintaining downward head pressure to counter their forward drive. The key is to maintain control and flow to alternative attacks rather than forcing a compromised Darce.
-
-**Q5**: What grip configuration should you use when speed of application is critical during a scramble?
-**A**: In scrambles where speed is critical, use a gable grip (palm-to-palm). The gable grip is the fastest to secure because it requires no wrist or bicep threading, just slapping your hands together. While it provides slightly less finishing tightness than the figure-four bicep grip, the speed advantage in a scramble outweighs the pressure difference. Once you establish control and slow the pace, you can always upgrade to a figure-four or wrist grip for the finish.
-
-**Q6**: Why is chest pressure on the opponent's shoulder important during the Darce transition?
-**A**: Chest pressure on the opponent's trapped shoulder serves multiple purposes: it prevents them from creating frames and escaping, it keeps their body flat or turned into the choke rather than facing away, and it helps collapse their defensive structure. Heavy chest pressure also makes the final choke more effective by adding additional compression to the neck and restricting their ability to breathe or move defensively. Without it, the opponent retains enough mobility to extract their trapped arm.
-
-**Q7**: Your opponent defends the Darce by pulling their trapped arm free just as you begin circling - what is your immediate chain attack?
-**A**: When the opponent frees their trapped arm, the Darce structure is compromised and you should not force it. Your best chain attacks are: transition to a guillotine since you still have head control and their arm extraction often lifts their chin, or switch to an anaconda by rethreading your arm from the opposite angle. If neither choke is available, return to front headlock control and threaten the back take. The critical principle is never chasing a broken Darce grip - flow immediately to the next available attack.
-
-**Q8**: What are the three main hand grip options for locking the figure-four in the Darce, and when would you use each?
-**A**: The three main grip options are: 1) Bicep grip (hand grabs opposite bicep) - standard and most common, provides good balance of tightness and security, 2) Wrist grip (hand grabs own wrist) - provides deeper, tighter lock, useful against larger opponents or when maximum pressure is needed, and 3) Gable grip (palm-to-palm) - quickest to apply, useful when speed is critical or in scrambles, though slightly less tight than other options. Choice depends on situation, opponent size, and personal preference.
-
-**Q9**: What specific entry conditions must exist before you should attempt the Front Headlock to Darce transition?
-**A**: Three conditions must be present simultaneously: first, you need an established front headlock with your choking arm deep around the opponent's neck and their head controlled against your body. Second, the opponent must be in a compromised posture (turtle, scramble, or bent standing) where their near arm is accessible for the underhook. Third, you need enough space and base to begin circling toward the choking side. If the opponent's arms are tightly tucked against their body or they have strong upright posture, the underhook insertion will fail and you should use a different attack.
-
-**Q10**: How does the direction of force differ between the underhook insertion phase and the finishing phase of this transition?
-**A**: During the underhook insertion phase, your primary force vector is downward and inward: you drive weight down through your chest into the opponent's shoulders while threading your arm under and across their body. During the finishing phase after circling, the force vector shifts to a lateral compression: your choking arm pulls inward toward your chest while your shoulder drives perpendicular to their spine, creating a pinching action on both carotid arteries. Understanding this shift is crucial because applying finishing-direction force during the setup phase, or setup-direction force during the finish, reduces effectiveness at both stages.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Front Headlock to Darce?</p>
 
 When practicing the Front Headlock to Darce transition, controlled application is paramount as blood chokes can cause unconsciousness rapidly if the training partner does not tap. Always apply choking pressure gradually over 3-5 seconds minimum to allow your partner adequate time to recognize the choke and tap. Monitor your partner's breathing and color during drilling - any signs of distress should result in immediate release. Be especially mindful during the circling phase as this is when maximum pressure is often applied unintentionally. Ensure adequate mat space for the circling movement to avoid rolling your opponent into walls or other obstacles. During competition-level drilling with full resistance, establish clear tap protocols including verbal taps for situations where hand movement is restricted. Never apply sudden or explosive pressure to the neck. Build proficiency through slow, controlled drilling before attempting full-speed application. Both practitioners should understand proper release protocol before training this technique.
 

@@ -168,6 +168,8 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook Pass?</p>
+
 - Top player's arm threading under your far armpit, reaching deep across your back toward your far lat or belt line
 - Increasing shoulder pressure driving into your near pectoral as their head drops to your chest with ear-to-sternum contact
 - Free hand controlling your near hip or pants, blocking your ability to hip escape or create defensive angles
@@ -180,6 +182,8 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook Pass?</p>
 
 - Fight for your own underhook before the top player secures theirs - the underhook battle determines the entire exchange
 - Maintain side-facing posture at all costs, as being flattened eliminates most defensive options and dramatically reduces escape probability
@@ -194,6 +198,8 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Pass?</p>
 
 ### 1. Pummel for your own underhook by swimming your arm inside theirs and reaching deep across their back before they consolidate the grip
 
@@ -238,6 +244,8 @@ Defending the Underhook Pass from half guard bottom requires understanding the p
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Win the underhook battle by pummeling aggressively before the top player can secure grip depth. Once you have the underhook, immediately come to your side and begin threatening sweeps, which forces the top player to abandon the pass and defend. Maintain constant offensive pressure from the underhook position to prevent them from re-initiating the pass sequence.
@@ -257,6 +265,8 @@ When the top player commits to the underhook and drives forward, use their momen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Pass?</p>
 
 ### 1. Staying flat on your back without fighting to maintain side-facing posture when you feel the underhook being established
 
@@ -291,6 +301,8 @@ When the top player commits to the underhook and drives forward, use their momen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Pass?</p>
+
 **Phase 1: Recognition and Early Response (Weeks 1-2)** - Identifying underhook pass initiation and developing immediate defensive reflexes
 Partner establishes half guard top and slowly begins threading the underhook. Practice recognizing the initial contact of the underhook arm and immediately responding by turning to your side and fighting for your own underhook. Start at 30% speed and progressively increase. Goal is developing an automatic response to underhook initiation within one second of recognition.
 
@@ -307,29 +319,6 @@ Positional sparring starting in half guard bottom against partner actively attem
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you feel the opponent beginning to thread their underhook from half guard top?
-**A**: The most important action is immediately fighting to maintain or re-establish your side-facing posture by turning aggressively toward the top player. Use your bottom elbow as a structural post and drive your top knee into their hip as a frame. The underhook pass depends entirely on flattening you; if you can maintain your side-facing angle, the pass cannot progress regardless of how deep their underhook reaches. Every second you delay this response makes the eventual flattening significantly harder to prevent.
-
-**Q2**: Why is attempting a bridge-and-roll escape against an established underhook and crossface position usually counterproductive?
-**A**: The bridge-and-roll requires your opponent to be relatively square on top of you with their weight distributed centrally. When the top player has a deep underhook, their weight is distributed diagonally across your body with their base posted wide. The bridge lifts your hips off the mat, which actually helps the top player extract their trapped leg since you are creating the space they need for leg clearance. Additionally, the rolling motion turns you away from them, potentially exposing your back. Hip escape movements that create lateral distance are far more effective because they address the actual problem of the crossface and underhook pressure angle.
-
-**Q3**: At what specific point during the underhook pass sequence does your window for successful defense narrow most dramatically?
-**A**: The critical threshold is the moment both your shoulder blades contact the mat simultaneously while the top player maintains their crossface and hip control. Before this point, you retain hip mobility, framing capability, and the ability to create angles that disrupt the pass. After being fully flattened, your defensive options reduce to high-energy explosive escapes with significantly lower success rates. The practical implication is that all high-percentage defensive actions (pummeling for underhook, inserting knee shield, hip escaping to angle) must happen before the flattening is complete. Training should emphasize recognizing the approach to this threshold and reacting immediately.
-
-**Q4**: How do you use a knee shield defensively when you have already lost the underhook battle against the top player?
-**A**: When the underhook battle is lost, immediately insert your top knee across the top player's hip line, placing your shin diagonally across their torso with your foot hooking their opposite hip. This knee shield creates a structural frame that prevents the chest-to-chest connection the top player needs to flatten you. Position the shield at mid-torso height - too high allows them to smash it down, too low allows them to step over. Use your hands to reinforce the shield by controlling their collar or bicep. The knee shield buys time to either re-enter the underhook battle from a safer position or transition to other half guard variations like deep half or butterfly half.
-
-**Q5**: Your opponent has the underhook and crossface but has not yet controlled your near hip - what defensive opportunity does this create?
-**A**: Without near hip control, you retain the ability to hip escape, which is the foundation of all guard recovery sequences from this position. Immediately execute an aggressive hip escape away from the top player, simultaneously framing on their shoulder with your near hand to prevent them from following your movement. This lateral distance creation opens the possibility of inserting your far leg across their body to recover closed guard, or at minimum re-establishing a knee shield that negates their underhook advantage. The hip control grip is the second anchor point of the pass after the underhook - if they only have one anchor, your defensive probability increases dramatically.
-
-
-
-</section>
 
 
 </main>

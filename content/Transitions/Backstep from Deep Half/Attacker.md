@@ -194,6 +194,8 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep from Deep Half?</p>
+
 - Establish crossface or head control before initiating the backstep to prevent the bottom player from following the rotation and reguarding
 - Post the free hand firmly on the mat to create a stable pivot point for the stepping motion, maintaining base throughout the entire transition
 - Commit fully to the backstep rotation once initiated because half-committed attempts leave you exposed to sweeps in an unstable intermediate position
@@ -208,6 +210,8 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep from Deep Half?</p>
+
 - Crossface or head control established on the bottom player to limit their ability to follow the rotation
 - Free leg posted with solid base on the mat, positioned to generate stepping power backwards over the bottom player
 - Bottom player's sweep attempt momentarily neutralized or not yet fully loaded, creating a safe window for the backstep
@@ -220,6 +224,8 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep from Deep Half step by step?</p>
 
 1. **Establish Crossface Control**: From deep half guard top, drive your shoulder and forearm across the bottom player's jaw to establish crossface pressure. This prevents them from looking up and initiating sweep mechanics while also limiting their ability to follow your movement during the backstep. Secure your crossface arm tight against their face to create an anchor point for the rotation.
 2. **Post Free Hand for Base**: Plant your free hand firmly on the mat on the far side of the bottom player's body, creating a tripod base with your free leg and posted hand. This posting hand serves as the pivot point for your entire backstep rotation and must remain anchored throughout the stepping phase to prevent you from being swept during the weight transfer.
@@ -250,6 +256,8 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep from Deep Half?</p>
+
 - **Bottom player follows the rotation with their hips, turning to face the passer and reguarding into deep half or half guard** (Effectiveness: High) - Your Response: Accelerate the rotation and intensify crossface pressure to pin them flat before they can follow. If they begin tracking your movement, switch direction to a smash pass or crossface pass instead of completing the backstep. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Bottom player hooks the stepping leg with their free leg during the backstep arc, preventing the step from completing** (Effectiveness: Medium) - Your Response: Keep the stepping leg tight to their body during the arc rather than swinging wide. If hooked, use your posted hand to strip their hooking leg while continuing the rotation, or abort and settle into a leg entanglement position. → Leads to [[Positions/Half Guard]]
 - **Bottom player bridges explosively into the weight shift moment, sweeping the top player before the backstep can complete** (Effectiveness: High) - Your Response: Maintain strong posting hand base throughout the weight transfer. If you feel a bridge loading, pause the backstep and drive your weight back down to neutralize the sweep before re-attempting when the bridge energy is spent. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep from Deep Half?</p>
 
 ### 1. Initiating the backstep without establishing crossface or head control first
 
@@ -300,6 +310,8 @@ As the top player caught in deep half guard, the backstep offers a direct pathwa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep from Deep Half (Attacker)?</p>
+
 **Phase 1: Movement Mechanics** - Solo backstep motion and balance
 Practice the backstep rotation on a grappling dummy or solo with shadow movement. Focus on the posting hand placement, free leg arc, hip rotation, and landing position. Develop comfort with the rotational movement and balance throughout the stepping phase. Perform 20 repetitions per side.
 
@@ -320,42 +332,12 @@ Positional sparring starting from deep half guard with full resistance. Top play
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the backstep from deep half guard?
-**A**: The optimal window is when the bottom player is between sweep attempts, adjusting their grips, or resetting their position after a failed sweep. During these moments, their weight is not loaded for a sweep and their defensive awareness is focused on re-establishing control rather than tracking your movement. Initiating during a loaded sweep invites disaster because your weight shift provides the momentum they need to complete the sweep.
-
-**Q2**: What conditions must exist before you can safely attempt the backstep from deep half?
-**A**: You must have crossface or head control established to prevent the bottom player from following the rotation. Your free leg must have solid base on the mat for stepping power. The bottom player's sweep must not be fully loaded. You need a clear posting hand position on the far side of their body. Without crossface control specifically, the backstep should not be attempted as the bottom player will simply rotate with you.
-
-**Q3**: What is the most critical body positioning detail during the stepping phase of the backstep?
-**A**: The posting hand placement on the far side of the bottom player is the most critical detail. This hand serves as both your pivot point and your primary base during the entire weight transfer. If it is positioned too close to your body or too far from the bottom player, you lack the structural support needed to complete the rotation safely. It must be planted firmly with fingers spread for maximum surface area and grip.
-
-**Q4**: What is the most common reason the backstep from deep half fails?
-**A**: The most common failure is half-committing to the stepping motion. When the top player hesitates midway through the arc, they end up in an intermediate position with compromised base and no control in either direction. The bottom player can then sweep or reguard easily. The backstep demands full commitment once initiated. The second most common failure is attempting the backstep without crossface control, allowing the bottom player to follow the rotation.
-
-**Q5**: What grip must be maintained throughout the backstep to prevent the bottom player from following your rotation?
-**A**: The crossface grip is the essential control that must be maintained throughout the backstep. Your shoulder or forearm driven across the bottom player's jaw pins their head to the mat and prevents them from turning to track your movement. Without this anchor, the bottom player can hip-escape in the same direction as your rotation and reguard before you can establish back control. The crossface is your primary tool for controlling their ability to react.
-
-**Q6**: In which direction should your free leg travel during the backstep, and why is this path important?
-**A**: The free leg should travel in a wide backward arc over the bottom player's torso, landing behind their back on the far side. This arc path is important because it generates the hip rotation needed to bring your chest onto their back, it clears their body without getting caught in their legs, and it positions your landing foot behind them where you can immediately begin establishing hooks. A tight or upward path risks getting your leg caught.
-
-**Q7**: Your opponent begins hip-escaping to follow your backstep rotation - how do you adjust mid-technique?
-**A**: If the bottom player begins following your rotation, you have two primary adjustments. First, accelerate the backstep and drive increased crossface pressure downward to pin them before they can complete their hip escape. Second, if they are already matching your speed, abort the backstep entirely by returning your foot to the mat and immediately switch to a forward passing direction such as a smash pass or crossface pass, exploiting the fact that their hips are now angled away from the forward pass defense.
-
-**Q8**: If your initial backstep is blocked because the bottom player hooks your stepping leg, what should you do next?
-**A**: If your stepping leg is hooked, do not try to forcefully pull it free as this creates instability. Instead, use your posted hand to strip their hooking leg while maintaining your crossface anchor. If the hook cannot be stripped, settle your weight down and transition to a leg entanglement or half guard top position using the leg contact. Alternatively, reverse the stepping direction and extract your original trapped leg forward for a conventional pass, since their focus on hooking your step created a defensive gap on the forward side.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep from Deep Half?</p>
 
 The backstep involves significant rotational forces on both players' knees during the stepping phase. The top player must control their descent to avoid landing with full weight on the bottom player's head or neck during the rotation. Both players should be aware of knee torque during the trapped leg extraction, particularly if the trapped leg does not release cleanly as the hips rotate. Practice at controlled speeds before adding intensity, and communicate with your training partner if any knee discomfort occurs during drilling. The posting hand must be positioned carefully to avoid landing on the bottom player's face during the weight transfer.
 

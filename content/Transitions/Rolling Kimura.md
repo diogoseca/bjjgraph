@@ -28,7 +28,7 @@ Developed through innovation in no-gi grappling, the Rolling Kimura represents m
 
 The Rolling Kimura works in both gi and no-gi contexts, though the mechanics differ slightly. In gi, additional grip options using the opponent's clothing supplement the kimura grip, while in no-gi, the technique relies more heavily on wrist and arm control with tighter body connection. The rolling motion itself generates leverage that arm strength alone cannot produce, making this technique effective regardless of size differential when executed with proper timing and mechanics.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -206,7 +206,7 @@ The Rolling Kimura is an essential component of a comprehensive turtle top attac
 ## Related Techniques
 
 
-- [[Transitions/Kimura]] - Core submission that the rolling kimura sets up as a direct finish
+- [[Submissions/Kimura]] - Core submission that the rolling kimura sets up as a direct finish
 
 - [[Transitions/Kimura to Back Take]] - Follow-up technique when opponent defends the roll but not the positional transition
 
@@ -224,7 +224,7 @@ The Rolling Kimura is an essential component of a comprehensive turtle top attac
 
 - [[Submissions/Reverse Kimura]] - Related shoulder lock with similar mechanics from different angle
 
-- [[Submissions/Armbar from Back]] - Submission option from back control achieved via rolling kimura
+- [[Transitions/Armbar from Back Transition]] - Submission option from back control achieved via rolling kimura
 
 - [[Transitions/Rolling Kimura Escape]] - Defensive counter technique from bottom perspective
 

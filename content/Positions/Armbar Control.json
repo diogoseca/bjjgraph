@@ -98,7 +98,7 @@
         "condition": "If opponent keeps arm straight and does not attempt to stack or create defensive posture",
         "actions": [
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar from Armbar Control",
             "target": "game-over",
             "probability": 75
           }
@@ -226,7 +226,7 @@
     ],
     "related_content": [
       {
-        "name": "Armbar Finish",
+        "name": "Armbar from Armbar Control",
         "relationship": "Primary submission finish from this control position"
       },
       {
@@ -283,7 +283,7 @@
     },
     "transitions": [
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar from Armbar Control",
         "attempt_probability": 51
       },
       {
@@ -291,11 +291,11 @@
         "attempt_probability": 21
       },
       {
-        "transition": "Omoplata",
+        "transition": "Omoplata from Armbar Control",
         "attempt_probability": 7
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Armbar Control",
         "attempt_probability": 7
       },
       {
@@ -315,7 +315,7 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Belly Down Armbar Finish",
+        "transition": "Belly Down Armbar from Armbar Control",
         "attempt_probability": 2
       }
     ],
@@ -519,7 +519,7 @@
         "relationship": "Parent hub page for this defensive position"
       },
       {
-        "name": "Armbar Finish",
+        "name": "Armbar from Armbar Control",
         "relationship": "Primary threat - submission being defended against"
       },
       {

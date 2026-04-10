@@ -188,6 +188,8 @@ As the bottom player releasing or losing guillotine control, your primary object
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Recovery from Guillotine Control?</p>
+
 - Release the guillotine grip proactively when the choke is clearly failing rather than waiting until the opponent fully extracts, preserving your ability to control the transition timing
 - Immediately convert choking hand position into defensive frames on the opponent's shoulders or biceps as you release head control
 - Use your legs actively during the grip transition—feet on hips or butterfly hooks maintain distance when your hands are switching from choke to guard grips
@@ -203,6 +205,8 @@ As the bottom player releasing or losing guillotine control, your primary object
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Recovery from Guillotine Control?</p>
+
 - Recognition that the guillotine choke is no longer viable due to opponent posture, grip position, or defensive adjustments
 - At least one leg positioned to immediately create a barrier between you and the opponent upon grip release
 - Sufficient hip mobility to execute a lateral hip escape during the transition from guillotine to guard
@@ -214,6 +218,8 @@ As the bottom player releasing or losing guillotine control, your primary object
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Recovery from Guillotine Control step by step?</p>
 
 1. **Assess Guillotine Viability**: Evaluate whether the guillotine remains effective by checking your grip depth, the opponent's posture level, and their defensive positioning. If the opponent has successfully postured, begun extracting their head, or neutralized the choke angle, commit to the recovery rather than burning energy on a failing submission.
 2. **Establish Leg Barriers Before Releasing Grip**: Before releasing the guillotine, position your legs to maintain distance. Place one or both feet on the opponent's hips or insert butterfly hooks under their thighs. This ensures that when your arms transition from choke to frames, your legs prevent the opponent from immediately collapsing into passing pressure.
@@ -243,6 +249,8 @@ As the bottom player releasing or losing guillotine control, your primary object
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Recovery from Guillotine Control?</p>
+
 - **Opponent postures explosively the moment they feel the guillotine release, creating maximum distance and establishing passing grips on your legs** (Effectiveness: High) - Your Response: Chase with your feet on hips and maintain at least one collar or sleeve grip during the posture break to prevent free disengagement, immediately transitioning to long-range open guard → Leads to [[Positions/Guillotine Control]]
 - **Opponent drives forward with heavy shoulder pressure to pass directly to side control during the grip transition window** (Effectiveness: High) - Your Response: Use your feet-on-hips barrier to absorb the drive and redirect laterally with hip escape, converting the forward pressure into passing energy you can deflect past your centerline → Leads to [[Positions/Side Control]]
 - **Opponent strips your initial frames by swimming their arms under and establishing double underhooks for a stack pass** (Effectiveness: Medium) - Your Response: Immediately switch to butterfly hooks and overhook control, using the double underhook entry to set up butterfly sweep or transition to half guard with whizzer → Leads to [[Positions/Guillotine Control]]
@@ -254,6 +262,8 @@ As the bottom player releasing or losing guillotine control, your primary object
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Recovery from Guillotine Control?</p>
 
 ### 1. Holding the guillotine grip too long after the choke has clearly failed, burning grip strength and missing the recovery window
 
@@ -288,6 +298,8 @@ As the bottom player releasing or losing guillotine control, your primary object
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Recovery from Guillotine Control (Attacker)?</p>
+
 **Phase 1: Grip Transition Mechanics** - Smooth conversion from guillotine grip to guard frames
 Partner holds static posture while you practice releasing the guillotine and immediately transitioning to frames and guard grips. Focus on eliminating any pause between choke release and frame establishment. Drill 20 repetitions per side with no resistance to build muscle memory for the hand transition sequence.
 
@@ -308,48 +320,12 @@ After successful guard recovery, immediately launch offensive sequences from ope
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical first action before releasing a failing guillotine grip to ensure safe guard recovery?
-**A**: Position your legs as distance barriers before releasing the guillotine—place feet on the opponent's hips or insert butterfly hooks under their thighs. This ensures continuous distance management throughout the grip transition, preventing the opponent from collapsing into passing pressure during the brief window when your arms are switching from choke to frames.
-
-**Q2**: Why is it important to release the guillotine proactively rather than waiting for the opponent to fully extract their head?
-**A**: Proactive release preserves your grip strength for framing and allows you to control the transition timing. When you wait for full extraction, the opponent dictates when and how the position changes, they have already planned their next passing action, and your forearms are exhausted from maintaining a failing choke, making your subsequent frames weak and easily collapsed.
-
-**Q3**: Your opponent postures explosively as you release the guillotine and begins establishing passing grips—what is your recovery priority?
-**A**: Immediately chase with feet on hips to maintain connection and extend your legs to push them away while securing at least one collar or sleeve grip. The feet-on-hips position converts their explosive posture into a long-range open guard engagement where your legs control distance. Without this immediate chase, the opponent creates free space to choose their passing angle and grip setup.
-
-**Q4**: What open guard variation should you prioritize after recovering from guillotine control and why?
-**A**: Prioritize whatever guard variation matches the grips and distance available rather than forcing a specific guard. If you retained collar and sleeve control, spider or collar-sleeve guard is natural. If the opponent stays close with forward pressure, butterfly guard with underhook control is more appropriate. Forcing a specific guard wastes the recovery window and creates openings for the passer.
-
-**Q5**: How does the hip escape timing differ in guard recovery from guillotine control compared to guard recovery from a standard passing position?
-**A**: In guillotine recovery, the hip escape must coincide with the grip release rather than being a reaction to passing pressure. You are creating the angle proactively during a planned transition, not escaping from an established passing position. This means the hip escape happens simultaneously with the hand transition, requiring more coordination but allowing better timing since you control when the movement sequence begins.
-
-**Q6**: What specific grip should your choking hand transition to during the release, and in which direction should the force be applied?
-**A**: The choking hand should transition to a collar grip or cross-face frame on the opponent's far shoulder, applying force diagonally downward and away from your body. This direction prevents the opponent from driving forward through your centerline while maintaining head control that was partially established by the guillotine position. The diagonal force vector creates a structural frame that uses skeletal alignment rather than muscular strength.
-
-**Q7**: Your opponent drives a knee slice through your centerline during the recovery—how do you adjust the recovery sequence?
-**A**: Abandon the open guard recovery and transition to knee shield half guard by catching the slicing leg with your near-side knee frame while securing an underhook with the arm closest to the opponent. The key adjustment is accepting the half guard fallback immediately rather than fighting for open guard distance that is no longer available. From knee shield half guard you maintain a strong defensive platform with sweep options through the underhook.
-
-**Q8**: How does the shin frame function differently in this guard recovery compared to standard guard retention?
-**A**: In guillotine recovery, the shin frame serves as a temporary structural bridge between the release of head control and the establishment of full open guard grips. Unlike standard guard retention where the shin frame is a reactive barrier against passing, here it is inserted proactively into the space created by the hip escape to buy time for grip establishment. The shin must be angled across the opponent's midsection rather than vertically, preventing them from simply driving over or around it.
-
-**Q9**: What offensive sequences should you immediately threaten within three seconds of successfully recovering open guard?
-**A**: Immediately threaten a sweep or submission that matches your recovered guard type—collar-sleeve guard leads to scissor sweep or triangle setup, butterfly guard to hook sweep or arm drag, De La Riva to off-balance and back take. The immediate offensive threat prevents the opponent from settling into a passing stance and punishes their failed attempt to advance during the transition. Opponents who just escaped a guillotine are often mentally relieved and briefly drop their passing urgency, creating an exploitable window.
-
-**Q10**: What are the grip strength management considerations unique to this recovery that do not apply to other guard recovery scenarios?
-**A**: The guillotine grip fatigues the forearm flexors intensely, and this fatigue directly compromises your ability to establish the collar and sleeve grips needed for open guard. You must account for degraded grip endurance when planning the recovery—this is why proactive release before total grip failure is essential. If your forearms are severely fatigued, prioritize feet-on-hips distance management and shin frames that rely on leg strength rather than grip-dependent guards like spider or lasso that would collapse under compromised grip endurance.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Recovery from Guillotine Control?</p>
 
 Guard recovery from guillotine control carries moderate risk primarily from neck strain. The guillotine position itself places stress on the cervical spine, and transitioning out of it while the opponent may still have partial head control requires careful neck management. Avoid explosive head movements to extract from residual guillotine pressure—instead, use posture and framing to gradually relieve neck compression. Communicate with training partners about choke intensity during guillotine-to-guard-recovery drilling to prevent carotid compression injuries during the transition window.
 

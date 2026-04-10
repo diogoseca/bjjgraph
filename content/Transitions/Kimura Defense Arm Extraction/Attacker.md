@@ -194,6 +194,8 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kimura Defense Arm Extraction?</p>
+
 - Drive the trapped arm straight and toward the mat to exploit the Kimura grip's weakest angle where the figure-four has minimal mechanical advantage
 - Maintain heavy chest and hip pressure to prevent the bottom player from creating the movement needed for sweeps and back takes
 - Address the grip immediately upon recognition because delay allows secondary controls like lockdown to compound the threat exponentially
@@ -209,6 +211,8 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kimura Defense Arm Extraction?</p>
+
 - Recognition that opponent has established or is actively establishing Kimura figure-four grip on your arm
 - Sufficient posture to begin driving weight forward and the trapped arm downward toward the mat
 - Free arm available for posting and base maintenance during the extraction sequence
@@ -220,6 +224,8 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kimura Defense Arm Extraction step by step?</p>
 
 1. **Recognize the Kimura Grip**: Identify that the opponent has threaded their arm under your tricep and established the figure-four wrist grip. Early recognition is critical because the grip becomes exponentially harder to break once the holder consolidates secondary controls like lockdown or underhook positioning. Feel for the distinctive pressure of the figure-four structure pulling your arm across your body.
 2. **Establish Heavy Chest Pressure**: Drive your chest and shoulder weight into the opponent's upper body, flattening them as much as possible against the mat. This forward pressure reduces their hip mobility and prevents them from creating the dynamic movement needed for sweeps and back takes from the Kimura position. Your shoulder should pin their chest while your hips stay low and heavy.
@@ -250,6 +256,8 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kimura Defense Arm Extraction?</p>
+
 - **Opponent deepens grip and locks elbows tight to body during extraction attempt** (Effectiveness: High) - Your Response: Switch to hip switch extraction variant by changing your hip angle to create a new pressure vector that the tight grip cannot resist. If the grip is too deep, focus on flattening the opponent with chest pressure to neutralize their offensive capability while looking for grip loosening opportunities. → Leads to [[Positions/Kimura Trap]]
 - **Opponent initiates Old School Sweep during extraction by hooking far ankle and bridging** (Effectiveness: Medium) - Your Response: Immediately widen base by posting your free arm wide and sprawling your free leg backward. The sweep requires hip elevation and angle creation. Deny both by driving weight into the opponent and keeping hips heavy and low. Temporarily pause arm extraction to address the sweep threat. → Leads to [[Positions/Open Guard]]
 - **Opponent transitions to back take as you drive arm forward and create space underneath** (Effectiveness: High) - Your Response: When you feel the opponent beginning to turn underneath you, stop the arm drive and immediately drive your shoulder into their chest. Turn your hips to face them directly and re-establish heavy top pressure. The back take requires angle creation so deny the angle by staying square and heavy on their torso. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kimura Defense Arm Extraction?</p>
 
 ### 1. Trying to muscle the arm free with pure bicep strength against the figure-four structure
 
@@ -300,6 +310,8 @@ As the person executing the Kimura Defense Arm Extraction, your primary objectiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kimura Defense Arm Extraction (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip Breaking Fundamentals
 Practice the arm straightening and mat drive against a partner holding static Kimura grip at 30% resistance. Focus on weight distribution, arm angle, and feeling the grip weaken under positional pressure. Repeat 20 times per side, emphasizing body weight usage over arm strength.
 
@@ -317,39 +329,12 @@ Start in Kimura Trap with partner holding grip from bottom. Top player must extr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary direction you should drive the trapped arm during Kimura extraction?
-**A**: Drive the trapped arm straight down toward the mat while extending the elbow. The Kimura figure-four grip is weakest against straight arm extension directed toward the ground because this angle forces the holder's gripping hands apart. Pulling the arm back toward your own body plays into the grip's strongest direction and will fail against any competent Kimura holder.
-
-**Q2**: Your opponent has a deep Kimura grip with their elbows locked tight to their body - what extraction variant should you use?
-**A**: Switch to the hip switch extraction. By changing your hip angle relative to the Kimura grip, you create a new pressure vector that the tight elbow position cannot resist. Turn your hips away from the trapped arm side while maintaining chest pressure. This angular change compromises the grip structure at a different plane than the standard straight arm drive, forcing the holder to adjust or lose the grip.
-
-**Q3**: What secondary control must you prevent the bottom player from establishing during your extraction attempt?
-**A**: The lockdown is the most dangerous secondary control. When the bottom player adds lockdown to the Kimura grip, they create a compound trap that dramatically reduces extraction success rates. The lockdown eliminates your hip mobility, which is essential for the weight transfer and angle creation needed during extraction. Always prioritize preventing lockdown establishment before committing to arm extraction mechanics.
-
-**Q4**: You successfully extract your arm but the opponent immediately starts building guard structure - what is your immediate response?
-**A**: Drive immediately into crossface with the recovered arm and establish heavy top pressure in half guard. Do not rest or pause after the extraction. The opponent's guard structure is weakest in the two to three seconds immediately following Kimura grip loss because they have been focused on maintaining the grip rather than establishing guard frames. Exploit this window aggressively by initiating your preferred passing sequence.
-
-**Q5**: Your opponent initiates the Old School Sweep as you begin arm extraction - how do you defend?
-**A**: Immediately widen your base by posting your free hand wide and sprawling your free leg backward. The Old School Sweep requires hip elevation and angle creation from the bottom player. Deny both by driving your weight into their upper body and keeping your hips heavy and low. Pause the arm extraction temporarily and focus on base recovery first, then resume extraction from the stabilized wider base position.
-
-**Q6**: What grip depth makes the Kimura hardest to extract from, and how does this inform your timing?
-**A**: The Kimura grip is hardest to escape when locked deep near your elbow with the holder's arm threaded fully under your tricep and their wrist grip secured tightly. This deep configuration maximizes their leverage and control. You should initiate extraction attempts before the grip reaches full depth. When you feel the opponent threading their arm under yours, immediately straighten your arm and begin the downward drive. Every second of delay allows the grip to deepen.
-
-**Q7**: How do you maintain base while driving the trapped arm downward during extraction?
-**A**: Create a tripod base with your free hand posted on the mat, your forehead driving into the opponent's chest or shoulder, and your knees spread for lateral stability. This three-point base structure allows you to commit force to the arm extraction without compromising your balance. The free hand post should be slightly forward and to the side of the opponent's body, creating a wide base that resists the lateral forces generated during sweep attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kimura Defense Arm Extraction?</p>
 
 The Kimura Defense Arm Extraction carries moderate risk to the shoulder joint of the person being extracted. During training, the person holding the Kimura should release immediately if the partner signals discomfort, as forced extractions against locked grips can strain the rotator cuff and shoulder capsule. The person extracting should never use explosive jerking motions that could injure their own shoulder if the grip suddenly releases. Both partners should communicate clearly during drilling, with the Kimura holder applying controlled resistance that allows the extractor to practice proper mechanics without risking joint injury. Tap early and often when practicing at higher intensities.
 

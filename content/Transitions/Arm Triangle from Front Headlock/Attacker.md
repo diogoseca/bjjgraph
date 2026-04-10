@@ -186,6 +186,8 @@ The transition works best when chained with other front headlock threats. If you
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Triangle from Front Headlock?</p>
+
 - The opponent's near arm must be trapped between your chest and their own neck before transitioning to the arm triangle grip
 - Shift from downward chest pressure to lateral squeezing force as you reconfigure your grip from front headlock to head-and-arm
 - Use your opponent's defensive reactions to other front headlock threats (guillotine, darce) as the trigger for this transition
@@ -200,6 +202,8 @@ The transition works best when chained with other front headlock threats. If you
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Triangle from Front Headlock?</p>
+
 - Established front headlock control with chest pressure driving into opponent's upper back and head wrapped by your arm
 - Opponent's near arm is positioned close to their neck, either from defensive hand-fighting or natural positioning in the bent-forward posture
 - You have identified that the opponent's chin is tucked or turned away from your primary guillotine threat, exposing the head-and-arm line
@@ -212,6 +216,8 @@ The transition works best when chained with other front headlock threats. If you
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Triangle from Front Headlock step by step?</p>
 
 1. **Identify the head-and-arm alignment**: From front headlock, recognize when the opponent's near arm is positioned close to their neck. This often occurs when they are hand-fighting to defend against guillotine or darce threats, pushing their own forearm toward their face or clasping hands near their chin.
 2. **Trap the near arm**: Use your non-choking hand to push or guide the opponent's near arm tight against the side of their neck. Drive their elbow toward their ear using your chest and shoulder pressure, ensuring their bicep presses firmly into their carotid artery on one side.
@@ -240,6 +246,8 @@ The transition works best when chained with other front headlock threats. If you
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Triangle from Front Headlock?</p>
+
 - **Opponent frames on your hip and circles away before you can lock the grip, creating enough space to extract their trapped arm and recover to turtle or half guard** (Effectiveness: High) - Your Response: Anticipate the hip frame by keeping your weight low and chest glued to their back. If they start circling, switch to a back take by following their movement and inserting hooks rather than forcing the arm triangle. → Leads to [[Positions/Half Guard]]
 - **Opponent clasps hands together in a gable grip to prevent you from isolating their near arm against their neck, creating a strong defensive structure** (Effectiveness: Medium) - Your Response: Use your chest pressure to drive their clasped hands toward their own face while pummeling your arm deeper behind their neck. Alternatively, attack the guillotine or darce since their hand position leaves those lines open. → Leads to [[Positions/Front Headlock]]
 - **Opponent stands up explosively while you are reconfiguring your grip, using the transition moment to improve their posture and break free from the compromised bent-forward position** (Effectiveness: Medium) - Your Response: If they begin to stand, snap their head back down immediately. If they achieve height, switch to a standing guillotine by pulling guard, or release the head and transition to a body lock takedown. → Leads to [[Positions/Front Headlock]]
@@ -251,6 +259,8 @@ The transition works best when chained with other front headlock threats. If you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Triangle from Front Headlock?</p>
 
 ### 1. Releasing head control pressure while reconfiguring from front headlock grip to arm triangle grip
 
@@ -290,6 +300,8 @@ The transition works best when chained with other front headlock threats. If you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Triangle from Front Headlock (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics and arm isolation
 Drill the grip change from front headlock to arm triangle configuration on a stationary partner. Focus on trapping the near arm against the neck using chest pressure, threading the choking arm, and locking the gable grip. Repeat the grip transition dozens of times until the arm slide feels natural and smooth without releasing head control. Partner provides no resistance.
 
@@ -307,48 +319,12 @@ Implement the arm triangle from front headlock in positional sparring rounds sta
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical goal when transitioning from front headlock to arm triangle?
-**A**: The primary goal is to reconfigure from the front headlock's downward head control into bilateral carotid compression. You must trap the opponent's near arm against one side of their neck (their own bicep compresses one carotid) while positioning your bicep against the other side of their neck. This changes the force vector from vertical control to lateral squeezing, creating a blood choke through the triangular pressure of your arm, their arm, and their shoulder.
-
-**Q2**: Your opponent defends your guillotine attempt by tucking their chin and turning their head away - how does this create the arm triangle opportunity?
-**A**: When the opponent tucks their chin and turns their head to defend the guillotine, they rotate their body slightly and bring their near arm closer to their own neck as part of the defensive posture. This chin tuck and head turn actually positions their arm in the exact alignment needed for the arm triangle. Their defensive rotation also partially exposes the head-and-arm line that was unavailable during the guillotine attempt. You capitalize by immediately guiding their near arm tight against their neck and threading into the arm triangle configuration.
-
-**Q3**: What grip configuration is required to complete the arm triangle from front headlock?
-**A**: You need a gable grip (palm-to-palm) or clasped hands positioned behind the opponent's far shoulder or upper back. Your choking arm wraps behind their neck and over their trapped shoulder, with your bicep pressing against the carotid on the side opposite the trapped arm. The opponent's own shoulder and bicep compress the other carotid. Your elbows squeeze together to tighten the configuration. The grip must lock before transitioning to side control to prevent the opponent from extracting their trapped arm.
-
-**Q4**: Why is transitioning to side control critical for finishing the arm triangle from front headlock?
-**A**: Side control provides the optimal angle for the arm triangle's bilateral compression. From the front headlock angle, your squeeze is fighting against the natural alignment of the opponent's spine and shoulders. By walking laterally to side control, you rotate the choking angle to compress perpendicular to the opponent's neck, which is mechanically far more efficient. Side control also allows you to use chest-to-chest pressure and shoulder drive as finishing tools rather than relying purely on arm strength. Without the lateral transition, most arm triangle attempts from front headlock stall.
-
-**Q5**: You have locked the arm triangle grip but the opponent posts their far hand on the mat to prevent you from walking to side control - what adjustment do you make?
-**A**: Use your free hand to collapse their posting arm by pushing it toward their body or blocking at the elbow. Alternatively, swim your free arm under their posting arm to remove the base. If the post is too strong to collapse, switch your lateral walk direction momentarily to off-balance them before resuming. You can also drive your chest weight forward to flatten them face-down, which removes the post entirely. The key is addressing the post immediately rather than trying to force the walk against a strong frame.
-
-**Q6**: What is the most critical error that causes the arm triangle to fail during the grip transition from front headlock?
-**A**: Releasing chest pressure on the opponent's upper back while reconfiguring from front headlock grip to arm triangle grip. This momentary pressure release allows the opponent to posture up, extract their head, or create distance. The grip change must happen while maintaining constant body weight on their upper back. Your chest should never leave their body during the transition. Practice the arm slide as a smooth reconfiguration rather than a lift-and-regrip motion to eliminate this gap.
-
-**Q7**: How does the direction of force change between the front headlock hold and the arm triangle finish?
-**A**: In front headlock, the primary force is downward - your chest weight drives into the opponent's upper back to collapse their posture and prevent them from standing. For the arm triangle finish, the primary force shifts to lateral compression - your arms squeeze inward from both sides of the neck while your shoulder drives forward into the trapped arm. The transition requires deliberately redirecting your pressure from a vertical plane to a horizontal squeeze. During the walk to side control, you are literally rotating your body to change this force angle.
-
-**Q8**: Your opponent begins to stand while you are midway through setting up the arm triangle from front headlock - what is your response?
-**A**: If the arm triangle grip is not yet locked, abandon the arm triangle and immediately snap their head back down to re-establish front headlock control, or switch to a standing guillotine by clasping your hands under their chin and jumping to guard. If the grip is already locked but they are standing, maintain the squeeze and either pull guard while keeping the arm triangle configuration intact or use a trip to bring them to the ground in side control. Never try to force the arm triangle against a standing opponent without adapting your position.
-
-**Q9**: What conditions indicate the arm triangle from front headlock is available versus when you should pursue other attacks?
-**A**: The arm triangle is available when the opponent's near arm is close to their neck, typically seen when they clasp their hands defensively, tuck their chin to defend guillotine, or push their forearm against their own face. If the opponent's arms are extended away from their body framing on your hips, the arm triangle is not immediately available and you should pursue darce (if their arm is extended under you), back take (if they circle away), or guillotine (if they lift their head). The near arm proximity to the neck is the deciding factor.
-
-**Q10**: If the opponent defends the arm triangle by extending their trapped arm straight to create space, what chain attack becomes available?
-**A**: The darce choke becomes available when the opponent straightens their trapped arm to defeat the arm triangle. Their arm extension creates space under their armpit that you can thread your choking arm through, switching from the arm triangle's over-the-shoulder path to the darce's under-the-armpit path. This is a natural chain because the opponent's successful arm triangle defense directly opens the darce angle. The key is recognizing the arm extension immediately and redirecting your choking arm before they can retract.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Triangle from Front Headlock?</p>
 
 The arm triangle from front headlock produces a blood choke through bilateral carotid compression, which can cause unconsciousness within seconds when properly applied. During training, always tap early when you feel the squeeze tighten around your neck, and release immediately when your partner taps or goes limp. The transition phase involves significant neck manipulation as you reconfigure from front headlock to arm triangle, so avoid explosive jerking movements on your partner's head and neck. Partners with prior neck injuries should communicate clearly and consider limiting resistance during the grip change phase. When drilling, apply the choke gradually and give your partner time to tap. Never crank the neck laterally during the transition - the force should be a clean squeeze, not a twist. Stop immediately if your partner shows signs of disorientation after release.
 

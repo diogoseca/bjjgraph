@@ -186,6 +186,8 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard Pass?</p>
+
 - Control the upper body through crossface, underhook, or head control before addressing the leg entanglement
 - Maintain forward pressure and chest-to-chest connection to prevent bottom player from creating space
 - Win the underhook battle or neutralize the bottom player's underhook with proper shoulder positioning
@@ -201,6 +203,8 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard Pass?</p>
+
 - Established position in top half guard with opponent's leg controlling one of your legs
 - Stable base with posting hand or forearm preventing being swept or rolled
 - Upper body control through crossface, underhook, or head control preventing opponent's mobility
@@ -215,6 +219,8 @@ Successful half guard passing requires a combination of technical precision, pre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard Pass step by step?</p>
 
 1. **Establish upper body control**: From half guard top, immediately work to establish a strong crossface by driving your shoulder across opponent's face toward the far side of the mat. Alternatively, secure an underhook on the far side by swimming your arm underneath their arm and connecting your hands in a gable grip or seat belt configuration. Your chest should be heavy on their chest, limiting their ability to create frames or recover guard.
 2. **Win the underhook battle**: If opponent has an underhook on your near side, address this immediately by either whizzering over their arm (overhooking) and driving your weight onto their shoulder, or by stripping their underhook using your crossface-side hand to peel their grip from your body. The underhook battle is critical - if opponent maintains the underhook, they can execute sweeps and back takes. Your goal is either to remove their underhook or neutralize its effectiveness through superior shoulder pressure.
@@ -243,6 +249,8 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard Pass?</p>
+
 - **Bottom player establishes lockdown (legs crossed) and prevents leg extraction** (Effectiveness: High) - Your Response: Address lockdown by whipping your trapped leg violently to break the hold, or systematically attack the lockdown by controlling their top leg's foot and prying it away from your trapped leg while maintaining upper body pressure. Do not try to forcefully rip your leg out - this often fails and wastes energy. → Leads to [[Positions/Half Guard]]
 - **Bottom player achieves underhook and uses it to come up on their side for sweep or back take** (Effectiveness: High) - Your Response: Immediately whizzer their underhook arm and drive your weight onto their shoulder, forcing them flat to the mat. Alternatively, if they've already started to come up, you may need to transition to a front headlock position or back step to defend the sweep. Prevention is key - never allow them to establish and maintain the underhook without addressing it. → Leads to [[Positions/Half Guard]]
 - **Bottom player creates strong knee shield and uses it to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Either step over the knee shield to knee slice position, or pressure through by controlling the knee with your hand while driving your hips forward and low. Another option is to transition to a different passing angle such as headquarters position or long step pass. Do not remain static against an established knee shield. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ Successful half guard passing requires a combination of technical precision, pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard Pass?</p>
 
 ### 1. Focusing exclusively on freeing the trapped leg while neglecting upper body control
 
@@ -294,6 +304,8 @@ Successful half guard passing requires a combination of technical precision, pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard Pass (Attacker)?</p>
+
 **Week 1-2: Fundamental mechanics** - Learning basic crossface and underhook control from half guard top
 Begin with compliant partner allowing you to establish position. Practice achieving crossface and controlling opponent's head, then work on securing underhook on far side. Drill the feeling of proper chest pressure and hip positioning. Partner should remain relatively static, allowing you to develop muscle memory for correct body positioning. Focus on one detail at a time rather than trying to complete full passes.
 
@@ -317,42 +329,12 @@ Regularly practice specific sparring starting from half guard top with various p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to establish upper body control before attempting to free your trapped leg in half guard?
-**A**: Upper body control prevents the bottom player from creating frames, recovering full guard, or using hip mobility to execute sweeps. Without controlling their upper body first, any attempt to free your leg will likely fail because they can simply follow your movement with their hips and legs. The pass is won with chest pressure and head control, not by forcefully yanking your leg free. Proper upper body dominance limits their mobility and creates the foundation for successful leg extraction.
-
-**Q2**: What are the primary dangers of allowing your opponent to maintain an underhook during the half guard pass?
-**A**: The underhook gives the bottom player the ability to come to their side, which is the foundation for sweeps, back takes, and even submission opportunities from half guard. With an underhook, they can drive into you, take your back by coming up behind you, or execute various half guard sweeps including the old school sweep and Homer Simpson sweep. The underhook also prevents you from flattening them with shoulder pressure, allowing them to maintain better defensive structure. This is why experienced passers treat opponent's underhook as a critical threat that must be addressed immediately.
-
-**Q3**: How should you adapt your passing strategy when facing lockdown half guard versus traditional half guard?
-**A**: Lockdown half guard requires specific counter-techniques because opponent has their legs crossed, creating a mechanical lock that prevents simple leg extraction. Against lockdown, you should focus on either breaking the lockdown by controlling their top foot and prying it away from your trapped leg, or transitioning to positions that nullify the lockdown's effectiveness such as getting the underhook and driving them to their back. You may also whip your trapped leg sharply to break the hold, or step over to headquarters position to bypass the lockdown entirely. Traditional half guard without lockdown allows more direct pressure passing, whereas lockdown demands addressing the leg configuration specifically.
-
-**Q4**: What mechanical principle allows successful leg extraction while maintaining forward pressure during the half guard pass?
-**A**: The key mechanical principle is creating space through hip angle and pressure direction rather than pulling your leg backward. By driving your chest and shoulders forward and downward onto opponent's upper body while simultaneously keeping your hips low, you create compression that limits their ability to follow your leg movement. Your trapped leg then extracts by sliding the knee up and back (pulling heel to buttocks) while your hips continue pressing forward. This creates opposing forces - your upper body going forward, your trapped leg coming backward - that split their defensive structure. The forward pressure pins their upper body while the leg extraction happens below.
-
-**Q5**: Why is preventing deep half guard entry considered critical during the half guard passing sequence?
-**A**: Deep half guard represents one of the most dangerous positions for the passer because the bottom player gets underneath your center of gravity, controls your legs from below, and has access to numerous high-percentage sweeps including the Homer Simpson, waiter sweep, and various wrestling-style dump sweeps. Once deep half is established, your passing attempt has essentially failed and you're now defending against being swept or submitted. Prevention requires keeping your hips low and forward, never allowing space underneath your torso. If opponent begins entering deep half, immediate counters are necessary such as hopping over to the other side (limp leg), establishing front headlock control, or sprawling backward.
-
-**Q6**: How should you sequence your passing attempts when your initial half guard pass is defended?
-**A**: Rather than remaining static and attempting to force a single passing technique against active defense, experienced passers chain multiple passing sequences together based on opponent's reactions. If traditional pressure passing is defended with strong frames, transition to knee slice or headquarters. If they defend knee slice, flow to leg drag or long step. The key is maintaining forward pressure and control while fluidly transitioning between passing angles. Each defensive response creates new opportunities - if they defend your crossface, they often weaken their leg defense; if they focus entirely on leg retention, their upper body becomes vulnerable.
-
-**Q7**: Your opponent posts their far hand on the mat as you begin extracting your trapped leg - how do you adjust your passing approach?
-**A**: When the opponent posts their far hand, they are likely preparing to hip escape or create an angle to recover guard. You should immediately control that posted hand or arm with your crossface-side hand, pinning it to their body or the mat. This removes their ability to frame and create distance. Alternatively, if the arm is extended far enough, you can attack it with a kimura grip while continuing your pass - this forces them to choose between defending the submission and retaining their guard structure. The posted hand is an opportunity, not just an obstacle, because it means their arm is no longer defending against your upper body control.
-
-**Q8**: What grip configuration should you prioritize when passing half guard in no-gi versus gi, and why does this change your approach?
-**A**: In gi, you have access to collar and pants grips that provide reliable anchor points - a cross-collar grip combined with a pants grip at the knee gives you excellent control for both upper body management and leg manipulation during extraction. In no-gi, without these friction-based grips, you must rely more heavily on body positioning and pressure rather than grips. Underhooks, overhooks, and head control become your primary connection points. The crossface becomes even more critical in no-gi because you cannot rely on collar grips to control head position. This shifts the passing strategy toward tighter chest-to-chest pressure and more wrestling-based upper body control rather than grip-dependent sequences.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard Pass?</p>
 
 Half guard passing is generally safe when practiced with proper control and progressive resistance. The primary safety concerns involve knee and hip injuries to the passing player if they attempt to violently rip their trapped leg free without proper technique - this can stress knee ligaments and hip flexors. Always extract your leg using proper hip positioning and pressure rather than forceful yanking. For the bottom player, ensure your partner doesn't drive crossface pressure excessively hard onto your neck or face, especially when learning. Bottom players should be aware of potential shoulder and rib pressure and communicate if pressure becomes uncomfortable. When practicing lockdown defenses, the top player should use controlled movements when whipping their leg to break the hold rather than violent kicking that could injure their partner's legs. Both partners should build pressure gradually during training rather than applying maximum force immediately. Advanced practitioners should be particularly careful when practicing against deep half guard attempts, as mistimed movements can result in awkward falls or knee torque.
 

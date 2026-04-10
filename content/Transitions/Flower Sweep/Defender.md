@@ -166,6 +166,8 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Flower Sweep?</p>
+
 - Opponent grips your same-side sleeve while their other hand controls your collar or wraps behind your head - this specific grip combination is the primary Flower Sweep setup
 - Opponent opens their guard and places one foot on the mat near your hip while pivoting their hips to create an angle - the angle creation is the clearest telegraph that the sweep is imminent
 - You feel a butterfly hook being inserted against the inside of your thigh combined with strong pulling pressure from both grips - this means the sweep is already loaded and you must react immediately
@@ -177,6 +179,8 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Flower Sweep?</p>
 
 - Maintain strong upright posture with head over hips to resist the pulling forces that power the sweep
 - Keep hands on opponent's hips or biceps rather than on the mat, preventing them from isolating your arms while maintaining mobile base
@@ -191,6 +195,8 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Flower Sweep?</p>
 
 ### 1. Post your free hand on the mat on the sweeping side while driving your opposite hip down
 
@@ -228,6 +234,8 @@ Advanced defenders recognize that the Flower Sweep rarely comes in isolation. It
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Flower Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Strip the sleeve grip early during setup, drive hips forward to flatten opponent's angle, and re-establish posture with hands on hips. This resets the position to neutral closed guard top where you can resume working toward guard opening.
@@ -243,6 +251,8 @@ When the opponent persistently creates sweep angles, stand up in base while cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Flower Sweep?</p>
 
 ### 1. Posting the hand with a straight, locked elbow when being swept
 
@@ -277,10 +287,12 @@ When the opponent persistently creates sweep angles, stand up in base while cont
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Flower Sweep?</p>
+
 **Week 1-2: Recognition Drilling** - Identifying Flower Sweep setup cues and grip configurations
 Partner executes the Flower Sweep at slow speed while you practice identifying each setup phase: grip establishment, guard opening, angle creation, hook insertion. Call out each phase verbally as it happens. No active defense yet - the goal is building pattern recognition so you can detect the sweep before it develops.
 
-**Week 3-4: Proactive Grip Fighting** - Preventing the grip establishment that enables the sweep
+**Week 3-4: Proactive Grips** - Preventing the grip establishment that enables the sweep
 Partner attempts to establish Flower Sweep grips while you practice stripping the sleeve grip using two-on-one breaks, elbow retraction, and wrist circles. Work at 40% speed. Track how many times per round the partner successfully establishes both grips versus how many times you strip them. Target is preventing complete grip establishment in 70%+ of attempts.
 
 **Week 5-8: Live Defensive Sparring from Closed Guard** - Integrating sweep defense with guard passing attempts
@@ -293,29 +305,6 @@ Bottom player uses their full closed guard offense including sweeps, submissions
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point in the Flower Sweep sequence where you can intervene defensively, and what action should you take?
-**A**: The earliest intervention point is during grip establishment, specifically when the opponent reaches for your same-side sleeve. Actively fight this grip by circling your wrist, pulling your elbow back, or using your free hand to strip their grip before it solidifies. Without the sleeve grip, the opponent cannot prevent you from posting, which eliminates the sweep's primary finishing mechanism. This is far more effective than any defense attempted after grips, angles, and hooks are established.
-
-**Q2**: Your opponent has already inserted their butterfly hook and you feel the sweep beginning - what is your best emergency response?
-**A**: Post your hand on the mat on the sweeping side with a bent elbow (never locked straight) while simultaneously driving your opposite hip downward and widening your base. This tripod position absorbs the rotational force. However, immediately begin planning your next action because the posted arm is now vulnerable - either strip their sleeve grip with your posted hand to free it, or transition to standing. Do not remain in the posted position longer than necessary, as experienced guard players will immediately redirect to attacking the posted arm.
-
-**Q3**: Why is standing up often the safest long-term defensive strategy against persistent Flower Sweep attempts?
-**A**: Standing removes you entirely from the sweeping plane that the Flower Sweep operates in. The sweep requires your knees on the mat and your hips within hooking range to generate the rotational leverage. When you stand, the bottom player's hook loses its mechanical advantage, their angle becomes irrelevant, and their grips must change entirely. Standing also opens guard breaking and passing opportunities that put the bottom player on defense. The key is standing with proper technique - hands controlling their legs, straight posture, and stepping back to break the ankle lock rather than standing straight up inside their guard.
-
-**Q4**: How do you distinguish between a Flower Sweep setup and a Pendulum Sweep setup from the defender's perspective?
-**A**: The key distinction is the leg positioning and direction of force. In the Flower Sweep, the opponent inserts a butterfly hook against the inside of your thigh and sweeps you diagonally over their shoulder using a circular motion. In the Pendulum Sweep, the opponent swings their outside leg wide in a large pendulum arc and sweeps you laterally, often combined with an underhook. The grip configurations differ as well - Flower Sweep prioritizes same-side sleeve control, while Pendulum Sweep often uses collar and underhook. Recognizing which leg is being activated and the direction of the initial off-balancing tells you which defense to employ.
-
-**Q5**: Your opponent chains a Hip Bump Sweep attempt directly into a Flower Sweep - how should you adjust your defense?
-**A**: The Hip Bump to Flower Sweep chain exploits the fact that your defensive reaction to the Hip Bump (posting your hand back) creates the exact conditions the Flower Sweep needs. When you recognize the Hip Bump, resist it by driving forward with your chest rather than posting your hand behind you. If you must post, immediately retract your hand once the Hip Bump threat passes. The critical awareness is that the Hip Bump may be a feint designed to draw your hand post - if you can defend the Hip Bump without posting (by maintaining forward hip pressure), the Flower Sweep follow-up loses its primary advantage.
-
-
-
-</section>
 
 
 </main>

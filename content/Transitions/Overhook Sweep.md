@@ -41,7 +41,7 @@ This sweep serves as an anchor technique within the closed guard attacking syste
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 55% |
 | Failure | [[Positions/Closed Guard]] | 30% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -207,11 +207,11 @@ The overhook sweep is a cornerstone technique within the closed guard bottom att
 
 - [[Transitions/Flower Sweep]] - Follow-up sweep when opponent posts free hand wide
 
-- [[Submissions/Kimura from Guard]] - Submission attack from the same overhook control
+- [[Submissions/Kimura]] - Submission attack from the same overhook control
 
-- [[Submissions/Triangle from Closed Guard]] - Alternative attack when opponent pulls arm free from overhook
+- [[Transitions/Closed Guard to Triangle]] - Alternative attack when opponent pulls arm free from overhook
 
-- [[Submissions/Omoplata from Guard]] - Transition option from overhook control when sweep is stuffed
+- [[Transitions/Closed Guard to Omoplata]] - Transition option from overhook control when sweep is stuffed
 
 - [[Transitions/Butterfly Sweep]] - Related sweeping mechanics using leg leverage and angle
 

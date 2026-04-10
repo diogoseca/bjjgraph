@@ -166,6 +166,8 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction from Lapel Wrap?</p>
+
 - Opponent's free hand moves toward the lapel material near your grip or near their trapped leg, indicating they are beginning the stripping sequence
 - Opponent steps their trapped leg inward toward you, creating slack in the wrap system that signals the extraction is imminent
 - Opponent pins or controls your non-lapel hand, attempting to neutralize your secondary grips before committing to the lapel strip
@@ -177,6 +179,8 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction from Lapel Wrap?</p>
 
 - Maintain constant tension on the lapel wrap by pulling the tail toward your hip whenever you feel slack developing in the system
 - Use secondary grips on collar, sleeve, or pants to create multiple control points that force the opponent to solve several problems simultaneously
@@ -191,6 +195,8 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction from Lapel Wrap?</p>
 
 ### 1. Retighten the wrap and re-establish secondary grips immediately when you feel slack developing
 
@@ -228,6 +234,8 @@ Your most powerful tool is forcing the top player into a dilemma: if they commit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction from Lapel Wrap?</p>
+
 ### → [[Positions/Ringworm Guard]]
 
 Retighten the wrap immediately when you detect slack by pulling the lapel tail toward your hip while simultaneously hip escaping laterally to change the angle. Establish a secondary collar or sleeve grip to create redundant control that persists even if they partially loosen the wrap.
@@ -243,6 +251,8 @@ When the opponent turns their shoulders during extraction, immediately hip escap
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction from Lapel Wrap?</p>
 
 ### 1. Relying solely on grip strength to maintain the wrap without using secondary controls or angle creation
 
@@ -272,6 +282,8 @@ When the opponent turns their shoulders during extraction, immediately hip escap
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction from Lapel Wrap?</p>
+
 **Week 1-2** - Recognition and retightening
 Partner slowly attempts extraction while you practice detecting the earliest cues and immediately retightening the wrap. Focus on maintaining tension through the lapel tail and using hip escape to change the angle. No sweeps or back takes yet - pure retention.
 
@@ -288,29 +300,6 @@ Live rolling starting from Ringworm Guard with partner actively attempting extra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the opponent is beginning a leg extraction attempt?
-**A**: The earliest cue is their free hand moving toward the lapel material near your grip or near their trapped leg, often preceded by their trapped leg stepping slightly inward toward you. This inward step creates slack in the system and signals that the stripping sequence is about to begin. Recognizing this early allows you to retighten and counter before they build momentum.
-
-**Q2**: Your opponent has created significant slack in the wrap and is about to strip the grip - what is your best option?
-**A**: When the wrap is nearly lost, transition to Worm Guard or Squid Guard by re-threading the lapel into an alternative configuration rather than fighting a losing grip battle. Release the current grip and quickly re-thread before they can clear the material entirely. Maintaining some form of lapel control is far better than losing all guard control and being passed immediately.
-
-**Q3**: Why is threatening attacks during the extraction more effective than simply holding the grip tighter?
-**A**: Grip strength alone is a finite resource that the opponent can overcome through systematic peeling and slack creation. Threatening sweeps and back takes forces the opponent into a dilemma where committing to extraction leaves them vulnerable to position loss. This defensive aggression disrupts their extraction timing and forces them to abort attempts to defend, which is far more sustainable than a pure grip-strength battle.
-
-**Q4**: When the opponent turns their shoulders during extraction, why is this the ideal moment to attack the back?
-**A**: The shoulder turn exposes the back angle that is normally protected when they face you squarely. During extraction, their hands are committed to the lapel material rather than defending underhooks or seatbelt grips, and their weight is shifted to the free leg making them vulnerable to being pulled off-balance. This combination of exposed angle, committed hands, and compromised base creates the highest-percentage back take opportunity from the position.
-
-**Q5**: What secondary grip provides the most defensive value when the opponent begins their extraction sequence?
-**A**: A far-side collar grip provides the most defensive value because it allows you to break their posture, assist with sweeping mechanics, and create the angular off-balancing needed for back take attempts. The collar grip also survives independently if the lapel wrap is broken, giving you continued control to transition to another guard system rather than being immediately passed.
-
-
-
-</section>
 
 
 </main>

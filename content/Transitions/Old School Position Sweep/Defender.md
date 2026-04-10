@@ -154,6 +154,8 @@ As the defender against the Old School Position Sweep, you are the top player ca
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Old School Position Sweep?</p>
+
 - Opponent secures deep underhook under your far armpit with elbow tight to their ribs, indicating sweep setup
 - Opponent wraps their arm around your head and begins pulling your posture down and across toward the underhook side
 - Aggressive lockdown pumping with repeated leg extensions stretching your trapped leg backward and destabilizing your base
@@ -166,6 +168,8 @@ As the defender against the Old School Position Sweep, you are the top player ca
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Old School Position Sweep?</p>
 
 - Establish whizzer control immediately upon recognizing the underhook to deny sweeping leverage before it develops
 - Drive heavy crossface pressure to flatten the opponent onto their back, destroying the side angle essential for the sweep
@@ -181,6 +185,8 @@ As the defender against the Old School Position Sweep, you are the top player ca
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Old School Position Sweep?</p>
 
 ### 1. Establish deep whizzer and drive crossface pressure to flatten opponent onto their back
 
@@ -218,6 +224,8 @@ As the defender against the Old School Position Sweep, you are the top player ca
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Old School Position Sweep?</p>
+
 ### → [[Positions/Half Guard/Old School]]
 
 Establish immediate whizzer control and heavy crossface pressure to flatten the opponent onto their back, destroying their side angle. Maintain wide base with free leg posted and keep hips low and heavy. Work patiently to extract the trapped leg from the lockdown through hip pressure and ankle manipulation.
@@ -233,6 +241,8 @@ Exploit the opponent's sweep commitment by extracting the trapped leg during the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Old School Position Sweep?</p>
 
 ### 1. Failing to establish whizzer control immediately upon recognizing the opponent's underhook
 
@@ -267,6 +277,8 @@ Exploit the opponent's sweep commitment by extracting the trapped leg during the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Old School Position Sweep?</p>
+
 **Phase 1: Recognition** - Identifying Old School setup cues and sweep timing
 Partner establishes Old School position at slow speed while you focus on recognizing each control point as it develops: lockdown engagement, underhook penetration, head control establishment, and lockdown pump timing. Verbally call out each cue as you feel it. Build pattern recognition before adding defensive responses.
 
@@ -283,26 +295,6 @@ Start in Old School position with full resistance. Bottom player attacks with sw
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three control points you must neutralize to prevent the Old School Position Sweep?
-**A**: The three control points are the lockdown figure-four on your trapped leg, the deep underhook under your far armpit, and the head control wrapping around your head pulling posture down. All three must be active for the sweep to work, so disrupting any single point significantly reduces sweep effectiveness. Priority should be the underhook, as it provides the primary rotational leverage.
-
-**Q2**: You feel the opponent beginning aggressive lockdown pumps - what does this signal and how should you respond?
-**A**: Aggressive lockdown pumping signals imminent sweep initiation, as the opponent is breaking your base before committing to the rotation. Immediately respond by posting your free leg wider at 45 degrees, driving your whizzer deeper, and increasing crossface pressure. You can also pre-empt by sprawling your hips slightly back while maintaining chest pressure, which removes the leverage the lockdown pump is trying to create.
-
-**Q3**: How do you exploit the opponent's commitment to the sweep for a counter-attack to side control?
-**A**: When the opponent fully commits to the sweep by driving their hips forward and pulling with underhook and head control, their defensive guard structure is abandoned. If you successfully defend the sweep through whizzer and base, the opponent is often stuck in an overextended position with limited guard retention ability. Drive your whizzer deep, circle toward their back or push their underhook to the mat, and immediately advance to side control while they lack the frames to prevent the pass.
-
-**Q4**: What is the most dangerous timing window for you as the defender during this sweep?
-**A**: The most dangerous moment is during the lockdown pump when your trapped leg is being forcefully extended backward while the opponent simultaneously pulls your weight forward with their underhook and head control. At this instant, your base is compromised on both the trapped side and the forward direction simultaneously. Recognizing this timing and pre-adjusting your base before the pump reaches full extension is critical to maintaining defensive position.
-
-
-
-</section>
 
 
 </main>

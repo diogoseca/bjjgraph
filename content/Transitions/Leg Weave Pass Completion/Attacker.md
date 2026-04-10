@@ -194,6 +194,8 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Weave Pass Completion?</p>
+
 - Maintain continuous chest-to-chest connection throughout the entire completion sequence to deny space for guard recovery
 - Establish crossface control before or simultaneously with the hip slide, never after clearing the legs
 - Drive hips forward and low through the passing lane rather than lifting or creating space during transition
@@ -208,6 +210,8 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Weave Pass Completion?</p>
+
 - Leg weave position established with lead leg threaded deep between opponent's legs past the hip line
 - Dominant crossface or upper body control securing head position and preventing the bottom player from sitting up
 - Bottom player's knee shield cleared or collapsed with no frame blocking the passing lane
@@ -220,6 +224,8 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Weave Pass Completion step by step?</p>
 
 1. **Secure crossface and upper body control**: Drive your crossface-side forearm or bicep firmly across the bottom player's face, turning their head away from you. Simultaneously establish control of their far arm or hip with your other hand. This head control prevents them from turning into you and creates the foundation for the entire pass completion.
 2. **Drop weight and seal chest connection**: Lower your hips and drive your chest firmly onto the opponent's torso, eliminating any remaining space between your bodies. Your ribcage should be heavy on their chest with your shoulder driving into their jaw line. This pressure makes framing extremely difficult and sets up the hip transition.
@@ -250,6 +256,8 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Weave Pass Completion?</p>
+
 - **Bottom player frames against crossface and shrimps to create distance for knee shield recovery** (Effectiveness: High) - Your Response: Anticipate the frame by driving your shoulder lower into their chest and increasing forward hip pressure. If they begin shrimping, follow their hips immediately and accelerate the completion rather than trying to reset. Speed through the gap before the knee shield can be fully inserted. → Leads to [[Positions/Leg Weave]]
 - **Bottom player dives underneath for deep half guard entry during the weight transition** (Effectiveness: Medium) - Your Response: As soon as you feel them threading underneath, sprawl your hips back and widen your base. Post your far hand on the mat and drive your weight down onto their upper body to flatten them. If they get partial entry, backstep immediately rather than fighting the deep half position. → Leads to [[Positions/Half Guard]]
 - **Bottom player times an explosive bridge during the hip transition moment** (Effectiveness: Medium) - Your Response: Lower your center of gravity immediately by dropping your hips and widening your base. Post your free hand on the mat for stability and ride the bridge by moving with it rather than resisting. Once the bridge subsides, continue the completion before they can chain another defensive movement. → Leads to [[Positions/Leg Weave]]
@@ -261,6 +269,8 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Weave Pass Completion?</p>
 
 ### 1. Lifting hips during the extraction phase to clear the weaved leg
 
@@ -300,6 +310,8 @@ The Leg Weave Pass Completion from the attacker's perspective demands seamless i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Weave Pass Completion (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hip slide and weight transfer fundamentals
 Practice the completion motion from established leg weave against a non-resisting partner. Focus on maintaining chest connection throughout the hip slide, extracting the weaved leg without lifting hips, and achieving perpendicular alignment. Repeat 20 times per side until the motion is smooth and continuous.
 
@@ -320,39 +332,12 @@ Start from established leg weave position with full resistance. Passer works to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical upper body control to establish before beginning the hip slide in the Leg Weave Pass Completion?
-**A**: The crossface is the most critical control to establish before the hip slide. It turns the bottom player's head away from you, preventing them from following your movement with defensive adjustments. Without the crossface, the bottom player can turn into you during the transition, recover frames, and reinsert knee shields. The crossface must be established as a prerequisite, not added after the hips begin moving.
-
-**Q2**: Your opponent starts inserting their knee shield as you begin the hip slide - how do you adjust your completion path?
-**A**: If the knee shield is only partially inserted, increase forward pressure through your chest and drive your shoulder into the knee to collapse it before continuing the completion. If the shield is more established, transition to a knee slice angle that uses the partially inserted knee against them by redirecting your passing momentum to cut through the shield. Do not force a direct completion through an established knee shield as this creates distance and allows full guard recovery.
-
-**Q3**: Why is lifting the hips to extract the weaved leg the most common mechanical error in this technique?
-**A**: Lifting the hips creates vertical space between your body and the opponent's body, which is exactly what the bottom player needs to insert frames, recover knee shields, or dive underneath for deep half guard. The extraction should come from forward momentum and angular change, not vertical lift. Your hips should slide forward through the passing lane at the same height, using the directional change to free the leg rather than creating any upward space.
-
-**Q4**: What grip or control must you maintain on the far side throughout the entire completion sequence and why?
-**A**: You must maintain far hip control with your near-side hand throughout the entire completion. This prevents the bottom player from inserting their knee between your bodies, which is their primary defensive mechanism. The moment the far hip becomes unblocked, the bottom player will attempt to insert a knee for half guard or knee shield recovery. Only release this control after your hips have passed the knee insertion point and you are settling into side control alignment.
-
-**Q5**: Your opponent bridges explosively during the exact moment you are sliding your hips through - what is the correct response?
-**A**: Drop your center of gravity immediately by lowering your hips and widening your base. Post your free hand on the mat opposite the bridge direction for stability. Ride the bridge by moving with the opponent's momentum rather than fighting against it, which wastes energy. Once the bridge subsides, immediately accelerate the completion sequence before they can chain another defensive movement, as the post-bridge moment is often a window of reduced defensive structure.
-
-**Q6**: How should you handle the transition from leg clearance to side control consolidation to prevent escape opportunities?
-**A**: The leg clearance and side control consolidation must be treated as one continuous motion with no pause between them. The moment your legs clear the opponent's guard structure, your hips should already be dropping into side control position with your shoulder driving into their jaw. Any pause between clearing legs and establishing side control creates a dead zone where the bottom player can frame and begin escape sequences. Practice this as a single flowing movement, not two separate steps.
-
-**Q7**: What are the key indicators that tell you the completion attempt is failing and you should transition to an alternative pass?
-**A**: The primary indicators are: the bottom player has successfully inserted a frame that is creating increasing distance, their knee is entering the space between your bodies, or they have secured a deep underhook and are beginning to sit up. When you feel the momentum of the completion stalling against defensive structure rather than flowing through it, abandon the direct completion within two seconds and transition to a backstep, knee slice, or leg drag rather than grinding against an established defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Weave Pass Completion?</p>
 
 The Leg Weave Pass Completion involves significant pressure on the bottom player's chest, ribs, and neck during the crossface and hip drive phases. Practitioners should apply pressure progressively during drilling rather than sudden explosive weight drops. Be mindful of crossface pressure on the jaw and neck, reducing intensity when drilling with lighter or less experienced partners. During live training, release pressure immediately if a partner taps or signals discomfort, particularly during the consolidation phase where chest compression can restrict breathing.
 

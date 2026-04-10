@@ -154,6 +154,8 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge from Reverse Mount?</p>
+
 - Bottom player shifts hips to one side, creating an angle that signals directional bridge preparation
 - Bottom player plants both feet flat on the mat close to their hips with knees bent—bridging stance
 - Increased tension in bottom player's core and glutes detectable through your seated contact on their torso
@@ -166,6 +168,8 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge from Reverse Mount?</p>
 
 - Maintain heavy hips with weight sunk through buttocks onto opponent's sternum to make bridging difficult
 - Keep knees wide and feet positioned near opponent's shoulders for maximum base stability
@@ -181,6 +185,8 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge from Reverse Mount?</p>
 
 ### 1. Sink weight and widen base to absorb the bridge
 
@@ -218,6 +224,8 @@ As the defender against the Bridge from Reverse Mount, you are the top player in
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge from Reverse Mount?</p>
+
 ### → [[Positions/Back Control]]
 
 When the bottom player bridges and begins turning, follow their rotation while inserting your near-side hook. Establish seatbelt control by threading one arm over their shoulder and the other under their armpit. Complete the back take by inserting the second hook as they reach turtle position. Their own bridge momentum assists your transition to back control.
@@ -233,6 +241,8 @@ Maintain position by sinking your weight through your hips onto their sternum th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge from Reverse Mount?</p>
 
 ### 1. Sitting too high on opponent's chest with narrow knee base
 
@@ -262,6 +272,8 @@ Maintain position by sinking your weight through your hips onto their sternum th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge from Reverse Mount?</p>
+
 **Recognition and Base Drill** - Identifying bridge preparation cues and adjusting base
 Partner in reverse mount bottom telegraphs bridge preparation with hip shifts and foot plants. Top player practices recognizing cues and making preemptive base adjustments—widening knees, sinking weight, posting hands. Partner does not execute bridges initially, just prepares. Build tactile sensitivity to the subtle weight changes that precede a bridge.
 
@@ -278,26 +290,6 @@ Start in reverse mount with full resistance. Top player must either maintain pos
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What tactile cues indicate the bottom player is preparing to bridge from reverse mount?
-**A**: Key tactile cues include the bottom player shifting their hips to one side beneath your weight, planting both feet flat on the mat with knees bent, increased core and glute tension detectable through your seated contact on their torso, and small test bumps or micro-bridges before the full explosive attempt. Any change in their foot positioning from extended to planted is a strong indicator of imminent bridge.
-
-**Q2**: Why should you treat a successful bridge displacement as an advancement opportunity rather than a position loss?
-**A**: When the bottom player bridges successfully and begins turning to turtle, their movement actually assists your transition to back control. By following their rotation and maintaining chest-to-back contact, you can insert hooks and establish seatbelt control during their turn. The bridge displaces you from reverse mount—an inherently transitional position—directly into a back take sequence, which leads to the superior 4-point back control position. Treating it as an opportunity rather than a loss keeps you offensive.
-
-**Q3**: How should you adjust your base when you detect the bottom player shifting their hips to one side?
-**A**: Immediately widen your base on the side they are shifting toward by extending your knee further out. Post your hand on the mat on that same side to create a tripod base structure. Sink your weight heavier through your hips onto their torso to increase the force they must overcome. This preemptive base adjustment makes their directional bridge significantly less effective because you have already reinforced the angle they intend to exploit.
-
-**Q4**: What is the primary risk of holding reverse mount too long instead of transitioning when bridge attempts begin?
-**A**: Reverse mount is inherently transitional with limited sustainability. Each bridge attempt the bottom player makes degrades your positional control even if none fully succeed—your energy expenditure increases, your base gets tested repeatedly, and the bottom player identifies your weakest angles. Staying in reverse mount past the first bridge attempt means you are fighting against the position's natural instability rather than converting it. Transitioning to standard mount or back control within the first few seconds eliminates the bridge threat entirely.
-
-
-
-</section>
 
 
 </main>

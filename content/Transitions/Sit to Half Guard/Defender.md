@@ -166,6 +166,8 @@ Successful defense requires reading the bottom player's body language and immedi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sit to Half Guard?</p>
+
 - Opponent plants their near hand firmly on the mat beside their hip with fingers pointing toward their feet, establishing the posting hand for the sitting pivot
 - Opponent's hips shift laterally as they begin loading weight onto the posting hand and preparing to drop their near hip to the mat
 - Opponent stops grip fighting defensively and begins moving their body as a single unit rather than just fighting with arms, indicating commitment to a positional escape
@@ -178,6 +180,8 @@ Successful defense requires reading the bottom player's body language and immedi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sit to Half Guard?</p>
 
 - Maintain constant perpendicular chest pressure on opponent's back to restrict the hip mobility needed for the sitting motion
 - Keep collar grips deep with palm-up orientation so the sitting motion tightens rather than loosens your choking structure
@@ -192,6 +196,8 @@ Successful defense requires reading the bottom player's body language and immedi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sit to Half Guard?</p>
 
 ### 1. Heavy sprawl with perpendicular chest pressure to pin opponent's hips and prevent the sitting motion from initiating
 
@@ -229,6 +235,8 @@ Successful defense requires reading the bottom player's body language and immedi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sit to Half Guard?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Prevent the sit entirely through heavy perpendicular sprawl pressure when you recognize the posting hand or hip shift. Drive your chest down and hips heavy to pin opponent's hips to the mat, eliminating the mobility they need for the sitting motion. Alternatively, if the sit is partially completed, use immediate crossface pressure and hip drive to flatten opponent before they can establish knee shield or leg entanglement.
@@ -244,6 +252,8 @@ When the sit is already in motion and cannot be prevented, immediately follow op
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sit to Half Guard?</p>
 
 ### 1. Remaining static in buggy choke position when opponent initiates the sit instead of immediately adjusting
 
@@ -278,6 +288,8 @@ When the sit is already in motion and cannot be prevented, immediately follow op
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sit to Half Guard?</p>
+
 **Week 1-2** - Recognition drilling
 Partner executes the Sit to Half Guard at various speeds from buggy choke bottom. Top player focuses exclusively on recognizing the posting hand and hip shift cues without attempting counters. Build proprioceptive sensitivity to the movement initiation. Partner announces their sit for first session, then removes verbal cues in subsequent sessions.
 
@@ -294,29 +306,6 @@ Positional sparring from buggy choke position with full resistance. Top player w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt the Sit to Half Guard escape?
-**A**: The earliest cue is opponent planting their near hand firmly on the mat beside their hip with fingers pointing toward their feet. This posting hand establishes the pivot point for the entire sitting motion. When you detect this hand placement combined with a lateral hip shift, the sit is imminent and you must respond within one to two seconds.
-
-**Q2**: Your opponent has begun the sitting motion and their hip is already dropping - should you try to prevent the sit or follow to take the back?
-**A**: Follow to take the back. Once the hip drop has begun with momentum, attempting to prevent the sit requires excessive force and often results in losing both the choke and positional control. Instead, maintain your seatbelt grip, follow their hip movement, and immediately insert hooks while their back is exposed during the transition. The sitting motion guarantees back exposure—capitalize on it.
-
-**Q3**: Why is maintaining the collar grip critical even when the buggy choke is no longer finishable during the sit?
-**A**: The collar grip serves dual purpose beyond the choke: it controls opponent's upper body rotation and provides the foundation for converting to seatbelt or crossface control during transition. Releasing the collar grip gives opponent complete freedom to rotate, insert knee shield, and establish underhook—all of which make your position dramatically worse. Grip retention maintains connection even as the attack evolves.
-
-**Q4**: Your opponent completes the sit and begins inserting their knee shield - what is your immediate priority?
-**A**: Drive your hips forward aggressively to eliminate the space needed for the knee shield. Pin their inside knee with your hip pressure before the shin can cross your torso. Simultaneously, establish crossface control with your free hand to prevent them from creating the angle needed for effective Half Guard. If the knee shield is fully established, you must accept Half Guard top and begin your passing sequence.
-
-**Q5**: How does the sprawl counter to the sit create vulnerability to the granby roll escape?
-**A**: Heavy forward sprawl commits your weight onto opponent's upper back, which pins their hips but simultaneously creates space behind them and loads their body in the direction needed for a granby roll. An astute bottom player recognizes this weight commitment and redirects to a rolling escape. Balance your sprawl pressure—heavy enough to restrict hip movement but not so committed forward that you cannot retract if they change escape direction.
-
-
-
-</section>
 
 
 </main>

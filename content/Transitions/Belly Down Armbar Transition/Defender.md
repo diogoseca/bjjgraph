@@ -162,6 +162,8 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Belly Down Armbar Transition?</p>
+
 - Attacker's grip tightens significantly on your wrist just before you attempt to roll, indicating they intend to follow rather than resist
 - Attacker's legs loosen or release from across your face and chest, freeing them to reposition for the belly-down follow
 - You feel the attacker's weight shifting to track your shoulder as you begin your escape roll, rather than resisting your movement
@@ -174,6 +176,8 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Belly Down Armbar Transition?</p>
 
 - Act during the transition, not after - the brief moment when the attacker repositions is your best opportunity for defense
 - Keep your elbow bent at all costs - a straight arm in belly-down position is nearly impossible to save
@@ -188,6 +192,8 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Belly Down Armbar Transition?</p>
 
 ### 1. Clasp hands together and bend the trapped arm to maximum flexion during the roll
 
@@ -225,6 +231,8 @@ Defending the belly down armbar transition requires recognizing the attacker's i
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Belly Down Armbar Transition?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the transition window by posting your free hand, hip escaping laterally, and extracting your arm while the attacker's leg control is temporarily loosened during their supine-to-prone repositioning. Insert your knee as a frame and recover to half guard.
@@ -240,6 +248,8 @@ Clasp your hands together immediately and bend your trapped arm to maximum flexi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Belly Down Armbar Transition?</p>
 
 ### 1. Allowing the arm to straighten during the transition
 
@@ -269,6 +279,8 @@ Clasp your hands together immediately and bend your trapped arm to maximum flexi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Belly Down Armbar Transition?</p>
+
 **Phase 1: Recognition** - Identifying the transition cues
 Partner alternates between releasing the armbar when you roll and following to belly-down. Your goal is simply to identify which response is happening within the first second of your roll. Call out 'follow' or 'release' as soon as you recognize the pattern. Build recognition accuracy to 90% before advancing.
 
@@ -285,29 +297,6 @@ Begin rounds in standard armbar control bottom. Defend everything the top player
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the attacker is following your roll to belly-down?
-**A**: The earliest cues are the attacker's grip tightening on your wrist just as you initiate your roll and their legs loosening from across your face and chest. If you feel their hips tracking your shoulder instead of separating as you turn, they have committed to following. These cues occur within the first half-second of the roll and represent your best defensive window.
-
-**Q2**: When is the best defensive window during the belly-down armbar transition?
-**A**: The best window is during the mid-transition moment when the attacker is shifting from supine to prone. During this phase, their leg control is temporarily reduced because they must reposition their legs from the standard armbar configuration to the belly-down clamp. This window lasts approximately one to two seconds and represents the point where the attacker has the least structural control over your body.
-
-**Q3**: What is the most critical hand position to prevent the belly-down finish?
-**A**: Clasped hands with fingers interlocked or one hand gripping the opposite wrist, with the trapped elbow bent to maximum flexion. This two-handed defensive structure prevents the attacker from straightening your arm, which is the prerequisite for the belly-down finish. The clasp must be tight against your chest or shoulder, not extended away from your body where the attacker can more easily break it.
-
-**Q4**: Why is turning into the attacker sometimes better than continuing the belly-down roll?
-**A**: Turning into the attacker reverses the transition and returns you to the standard supine armbar position where you have access to established defensive techniques like the hitchhiker escape, stack defense, and hip escape to guard. The belly-down position has fewer proven escape routes and the attacker has gravity working in their favor. Returning to supine gives you more options and better-understood defensive mechanics.
-
-**Q5**: How should you signal a tap when caught belly-down and unable to use your trapped hand?
-**A**: Use your free hand to tap the attacker's body, leg, or the mat repeatedly and clearly. Verbal taps by saying 'tap' loudly are essential when your free hand is also compromised. You can also stomp your feet on the mat. In training, always have multiple tap signals ready and communicate them to your training partner before beginning. Never rely solely on the trapped hand for signaling.
-
-
-
-</section>
 
 
 </main>

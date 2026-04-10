@@ -28,7 +28,7 @@ This technique capitalizes on the leg control already established in the Estima 
 
 Strategically, this transition embodies the chain-attack philosophy central to effective leg lock systems. The Estima Lock threatens the ankle joint; when that fails, the ashi garami threatens the heel and knee. Opponents cannot defend both simultaneously, creating the positional dilemmas that lead to submission opportunities. Understanding when to abandon the Estima Lock finish in favor of transitional advancement separates effective leg lockers from those who stall in compromised positions.
 
-**From Position**: [[Positions/Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock Control]] (Top)
 **Success Rate**: 58%
 
 </section>
@@ -40,7 +40,7 @@ Strategically, this transition embodies the chain-attack philosophy central to e
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami]] | 65% |
-| Failure | [[Positions/Estima Lock]] | 25% |
+| Failure | [[Positions/Estima Lock Control]] | 25% |
 | Counter | [[Positions/Open Guard]] | 10% |
 
 
@@ -192,7 +192,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 ## Related Techniques
 
 
-- [[Positions/Estima Lock]] - Starting position and initial submission threat
+- [[Transitions/Estima Lock]] - Starting position and initial submission threat
 
 - [[Positions/Ashi Garami]] - Target position providing heel hook access
 
@@ -204,7 +204,7 @@ The Estima Lock to Ashi Garami transition represents a critical link in modern l
 
 - [[Transitions/Heel Hook]] - Primary submission from ashi garami after successful transition
 
-- [[Transitions/Toe Hold]] - Alternative submission available during transition phase
+- [[Submissions/Toe Hold]] - Alternative submission available during transition phase
 
 - [[Positions/Ashi Garami/Cross Ashi-Garami]] - Variant entry option changing attack angle
 

@@ -192,6 +192,8 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Sweep with Guillotine?</p>
+
 - Use opponent's forward pressure as the primary energy source for the sweep rather than muscular effort
 - Maintain constant guillotine grip pressure throughout the entire sweep sequence without loosening
 - Time the butterfly hook elevation precisely as opponent commits weight forward
@@ -207,6 +209,8 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Sweep with Guillotine?</p>
+
 - Established guillotine grip from Hindulotine bottom with blade of forearm under opponent's chin
 - Both butterfly hooks inserted inside opponent's thighs with feet hooked, not just resting
 - Hips positioned at angle to opponent's body creating rotational leverage potential
@@ -220,6 +224,8 @@ The strategic brilliance of this combination lies in its offensive layering. The
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Sweep with Guillotine step by step?</p>
 
 1. **Establish grip and hooks**: From Hindulotine bottom, ensure your guillotine grip is locked tight with forearm blade positioned high under opponent's chin. Insert both butterfly hooks inside their thighs with your feet actively hooked around their legs, not passively resting against them.
 2. **Angle your hips**: Rotate your hips approximately 45 degrees toward your choking arm side, creating the angle necessary for sweep trajectory. This positioning loads your hooks to catch their weight when they drive forward and aligns the sweep path with your grip angle.
@@ -249,6 +255,8 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Sweep with Guillotine?</p>
+
 - **Posting wide with hands to prevent forward momentum and sweep trajectory** (Effectiveness: High) - Your Response: When opponent posts wide, their posture breaks and weight distribution shifts. Immediately tighten guillotine grip and angle hips further to finish the choke rather than sweep, as their posting creates the space needed for the finish. → Leads to [[Positions/Hindulotine]]
 - **Driving hips back and sprawling to remove butterfly hook leverage** (Effectiveness: Medium) - Your Response: Follow their hip retreat with your hooks by extending your legs and pulling their head down. If they create too much distance, transition to closed guard while maintaining guillotine and reset the sweep threat from a stable position. → Leads to [[Positions/Hindulotine]]
 - **Turning head toward your body to relieve choking pressure during sweep** (Effectiveness: Medium) - Your Response: Their turn exposes their back. Complete the sweep but transition to back take rather than mount as they land, using the guillotine grip to help establish seat belt control for superior positional control. → Leads to [[Positions/Mount]]
@@ -260,6 +268,8 @@ The strategic brilliance of this combination lies in its offensive layering. The
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Sweep with Guillotine?</p>
 
 ### 1. Releasing or loosening guillotine grip pressure during the sweep transition
 
@@ -299,6 +309,8 @@ The strategic brilliance of this combination lies in its offensive layering. The
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Sweep with Guillotine (Attacker)?</p>
+
 **Week 1-2** - Grip and hook coordination
 Practice maintaining guillotine grip while inserting and positioning butterfly hooks. Partner provides no resistance. Focus on keeping constant grip pressure while manipulating leg position. Drill the hip angle positioning that creates optimal sweep trajectory.
 
@@ -319,48 +331,12 @@ Full resistance sparring with specific goal of achieving this sweep. Partner act
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary energy source for executing the Butterfly Sweep with Guillotine?
-**A**: The primary energy source is the opponent's own forward pressure. When they drive forward to flatten you and relieve guillotine pressure, their weight loads onto your butterfly hooks. You redirect this forward momentum into a sweeping arc rather than generating force from your own muscles. This is why timing the sweep to match their forward commitment is critical.
-
-**Q2**: What defensive dilemma does this technique create for the opponent?
-**A**: The opponent faces a no-win scenario: if they post wide to prevent the sweep, they create the space and broken posture needed for the guillotine finish. If they drive forward to flatten you and escape the choke, they provide the exact energy needed for the butterfly sweep. Retreating gives you closed guard recovery with the choke still active. Every defensive choice benefits the attacker.
-
-**Q3**: Why must the sweep trajectory be angled at 45 degrees toward the choking arm side?
-**A**: The 45-degree angle toward your choking arm side maintains optimal guillotine grip mechanics throughout the sweep and ensures you land directly in mount rather than beside your opponent. This trajectory keeps your forearm blade properly positioned under their chin and prevents grip slippage during the rotational movement. Sweeping straight sideways loses the grip angle.
-
-**Q4**: Your opponent posts their hand wide to stop the sweep - how do you capitalize?
-**A**: When they post wide, their posture breaks and they create space between your bodies. Immediately stop the sweep attempt, adjust your hip angle to optimize choking pressure, and finish the guillotine. Their wide post eliminates their ability to defend the choke effectively while removing the weight that was pressuring you. The post that saves the sweep opens the choke.
-
-**Q5**: What is the critical timing window for initiating this sweep?
-**A**: The sweep must be initiated at the peak of opponent's forward commitment, when their weight is fully loaded onto your butterfly hooks. Initiating too early means insufficient weight to elevate. Initiating too late means they have already flattened you and removed your hook leverage. The ideal moment is when you feel maximum pressure on your hooks and their hips are committed over your centerline.
-
-**Q6**: How do you adjust if only one butterfly hook is engaged when the sweep opportunity appears?
-**A**: Use the single hook variant with the hook on your choking arm side. The sweep becomes more of an elevating hip bump that rolls opponent over your shoulder rather than a traditional butterfly elevation. Execute immediately before they clear the remaining hook, using the guillotine pull to guide their trajectory. The timing window is shorter so commit decisively.
-
-**Q7**: What grip configuration is required to maintain choke pressure through the entire sweep rotation?
-**A**: A locked gable grip or chin strap configuration with the blade of your forearm positioned high under opponent's chin is essential. The grip must be tight enough that rotational movement does not create slack. Your elbows stay pinched tight to your body, and the grip locks function independently from the leg mechanics executing the sweep.
-
-**Q8**: Your opponent turns their head away during the sweep to escape the choke - what transition opens up?
-**A**: Their turn exposes their back for a back take. Instead of fighting to maintain the guillotine angle, use the momentum to complete the sweep but flow to back control rather than mount. The guillotine grip transitions to a seat belt as you establish hooks, trading the choke for a superior control position that offers rear naked choke opportunities.
-
-**Q9**: What must you do with your hips immediately after landing in mount to maximize finish rate?
-**A**: Upon landing in mount, immediately drive your hips toward your choking arm side while pulling your elbow toward your opposite hip. This creates rotational torque on the neck that finishes the submission. Your mount position allows you to use body weight and hip angle rather than arm strength to complete the choke. Widen your knees for base while maintaining this hip-driven pressure.
-
-**Q10**: Your opponent sprawls their hips back as you attempt the sweep - what is your chain attack?
-**A**: Follow their retreating hips by extending your hooks and maintaining downward pull on their head. If they create too much distance for the sweep, transition to closed guard while keeping the guillotine locked, then reset the dilemma. From closed guard with guillotine, you threaten the finish directly or re-insert butterfly hooks to reload the sweep threat.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Sweep with Guillotine?</p>
 
 This technique involves significant rotational force on the cervical spine during the sweep transition. Practice with controlled speed initially, ensuring your partner can tap at any point during the movement. The guillotine component requires immediate release upon tap, which can be challenging during the sweep motion, so develop the habit of releasing grip instantly regardless of sweep progress. Avoid jerking or explosive neck cranking during the finishing phase. Partners should tap early when caught in the sweep-to-mount guillotine sequence rather than defending through uncomfortable positions. Practitioners with prior neck injuries should approach this technique with extra caution and possibly modify the grip pressure during training.
 

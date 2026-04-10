@@ -162,6 +162,8 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pass from Williams Guard?</p>
+
 - Top player begins small circular elbow rotations rather than pulling arm straight back, indicating technical extraction attempt
 - Top player shifts hip angle away from your controlled arm side, creating the angular change needed for extraction
 - Top player drives shoulder forward and downward toward the mat, signaling the grip-collapse phase of extraction
@@ -176,6 +178,8 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Guard Pass from Williams Guard?</p>
+
 - Maintain constant figure-four grip tension on the shoulder lock to prevent gradual circular extraction from succeeding
 - Use hip angle adjustments to track the passer's circling movements and maintain optimal shoulder lock mechanics
 - Keep active leg frames that prevent the passer from establishing chest-to-chest pressure even if they begin to extract
@@ -189,6 +193,8 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pass from Williams Guard?</p>
 
 ### 1. Tighten figure-four grip and re-angle hips to restore shoulder lock mechanics when feeling extraction rotation
 
@@ -226,6 +232,8 @@ Defending the guard pass from Williams Guard means you are the bottom player wor
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pass from Williams Guard?</p>
+
 ### → [[Positions/Williams Guard]]
 
 Maintain figure-four grip tension throughout all extraction attempts by constantly adjusting hip angle to track the passer's circling movements. When you feel circular rotation on your grip, re-angle your hips to restore optimal shoulder lock mechanics before the extraction reaches critical threshold.
@@ -245,6 +253,8 @@ If arm extraction succeeds, immediately close your guard by locking ankles behin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pass from Williams Guard?</p>
 
 ### 1. Maintaining a static grip without adjusting hip angle to track the passer's circling movements
 
@@ -274,6 +284,8 @@ If arm extraction succeeds, immediately close your guard by locking ankles behin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pass from Williams Guard?</p>
+
 **Phase 1: Grip Retention Under Pressure** - Maintaining figure-four grip against progressive extraction attempts
 Partner attempts arm extraction using circular mechanics at progressive resistance from 30% to 70%. Focus on hip angle adjustments that maintain shoulder lock mechanical advantage as partner circles and changes angles. No transitions or counters—pure retention work. 3-minute rounds per side.
 
@@ -287,29 +299,6 @@ Positional sparring starting in Williams Guard. Partner works extraction and pas
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is attempting a technical circular extraction rather than a linear pull?
-**A**: Small circular rotations of the elbow rather than straight backward pulling. The circular motion pattern is distinct—you feel a rotational twisting against your figure-four grip rather than a direct pulling force. Linear pulls are easy to resist by tightening the grip, but circular rotation requires you to adjust hip angle to counter the changing force direction. Recognizing this pattern early allows you to begin counter-adjustments before the extraction builds momentum.
-
-**Q2**: When the passer's arm begins to clear your grip, what should be your immediate priority?
-**A**: Guard re-establishment takes immediate priority over attempting to re-capture the arm. Once the arm has clearing momentum, attempting to re-grip is low-percentage and wastes critical time. Instead, close your guard by locking ankles behind their waist to establish closed guard, or insert butterfly hooks to create sweep opportunities during the pass transition. Preventing the pass to side control is more important than maintaining Williams Guard—you can re-establish Williams Guard later from closed guard if desired.
-
-**Q3**: How do you convert the passer's forward shoulder drive into an omoplata opportunity?
-**A**: The forward shoulder drive creates rotational momentum you can redirect into omoplata. As they drive forward, use your hip on the trapped arm side to begin rotating your body perpendicular to theirs. Swing your leg over their driving shoulder while maintaining wrist control on the trapped arm. Their forward commitment prevents them from posturing back quickly enough to prevent the leg position. The key is timing—the transition must begin as they drive, not after they have settled their weight forward.
-
-**Q4**: What hip adjustment counters the passer's circling movement during extraction?
-**A**: Your hips must track their circling direction by adjusting angle to maintain the shoulder lock's optimal rotational force on their joint. If they circle right, your hips angle right to preserve the lock angle. If they shift to standing, elevate your hips to maintain upward pressure on the lock. The principle is that your body position must continuously support the shoulder lock's mechanical advantage regardless of the passer's angle changes—treat your hips as a tracking platform that follows their movement to keep the grip structure loaded.
-
-**Q5**: Why is closing guard (transitioning to closed guard) an acceptable defensive outcome even though it means losing Williams Guard?
-**A**: Closed Guard Top for the passer is a significantly worse outcome than Side Control Top. In closed guard, the passer has no immediate passing pressure, faces sweep and submission threats from your closed guard bottom, and must restart the entire passing sequence from a disadvantaged position. Meanwhile, you retain offensive options from closed guard bottom including all standard sweeps and submissions. The positional hierarchy makes this a net positive trade—you lose the shoulder lock control but deny the pass to side control while maintaining an offensively advantageous guard position.
-
-
-
-</section>
 
 
 </main>

@@ -11,7 +11,7 @@
     "no-gi",
     "submission-chain"
   ],
-  "from_position": "Hindulotine/Bottom",
+  "from_position": "Hindulotine/Top",
   "outcomes": [
     {
       "to": "Anaconda Control/Top",

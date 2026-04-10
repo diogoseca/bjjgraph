@@ -188,6 +188,8 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Scarf Hold Position?</p>
+
 - Establish defensive frames against opponent's head and shoulder before attempting any escape to create breathing space and prevent smothering
 - Use bridge-and-turn mechanics directed at 45-degree angle toward opponent's trapped arm side rather than lateral shrimping
 - Attack opponent's posted limbs and base stability before committing to explosive escape attempts
@@ -202,6 +204,8 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Scarf Hold Position?</p>
+
 - Establish frame with free arm against opponent's head or shoulder to create minimal breathing space
 - Protect neck with chin-to-chest posture preventing deep crossface and potential choke setups
 - Hook opponent's near leg with bottom leg to prevent mount transition and create base disruption leverage
@@ -214,6 +218,8 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Scarf Hold Position step by step?</p>
 
 1. **Establish Defensive Frames**: Place your free arm against opponent's head, neck, or shoulder with forearm creating a structural barrier. Drive your frame toward their face to create space between their chest and yours. Focus on establishing enough room to breathe through your diaphragm rather than chest expansion.
 2. **Protect Trapped Arm**: Straighten your trapped arm and grip your own thigh, belt, or gi pants to anchor it against americana and kimura attacks. Turn your thumb toward the ceiling to prevent figure-four grip completion. This defensive grip must be maintained throughout the escape sequence until your arm is naturally freed.
@@ -244,6 +250,8 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Scarf Hold Position?</p>
+
 - **Top player widens base and drives hip pressure deeper into ribs when sensing bridge setup** (Effectiveness: High) - Your Response: Switch to ghost escape by turning into opponent's back as their lowered hips create space behind them, or use frame-and-shrimp variation to create incremental space for guard recovery → Leads to [[Positions/Side Control/Scarf Hold Position]]
 - **Top player transitions toward mount when bottom player turns or bridges, stepping over head or legs** (Effectiveness: Medium) - Your Response: Use bottom leg hook to block mount transition, keeping knee between opponent's legs. If mount is partially established, immediately transition to mount escape rather than continuing scarf hold escape → Leads to [[Positions/Mount]]
 - **Top player attacks americana or kimura on exposed arm during frame creation phase** (Effectiveness: Medium) - Your Response: Maintain straight arm defensive grip on own thigh or belt. Use the submission attack as escape window since opponent must release some positional control to pursue the finish → Leads to [[Positions/Side Control/Scarf Hold Position]]
@@ -255,6 +263,8 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Scarf Hold Position?</p>
 
 ### 1. Attempting lateral shrimping mechanics instead of bridge-and-turn against perpendicular pin
 
@@ -294,6 +304,8 @@ As the attacker executing the Escape from Scarf Hold Position, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Scarf Hold Position (Attacker)?</p>
+
 **Foundation Phase** - Frame establishment and breathing under pressure
 Partner establishes controlled scarf hold. Practice creating frames, protecting neck, anchoring trapped arm, and maintaining diaphragmatic breathing under pressure. No escape attempts yet. Focus solely on defensive positioning and energy management for 2-minute rounds.
 
@@ -314,42 +326,12 @@ Positional sparring starting in scarf hold with full resistance. Bottom player w
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why are standard side control shrimping escapes ineffective against scarf hold and what movement pattern replaces them?
-**A**: The perpendicular angle of scarf hold means lateral hip movement slides along the opponent's body rather than creating distance perpendicular to their pressure. Bridge-and-turn mechanics replace shrimping because they exploit the perpendicular angle by rotating toward or away from the opponent, loading their weight onto their shoulder line where base is weakest.
-
-**Q2**: What must you accomplish before committing to an explosive bridge attempt from scarf hold bottom?
-**A**: You must compromise the opponent's base by trapping their far arm or removing their posting ability. Without this setup, the opponent simply rides the bridge using their posted arm for stability. Additionally, you need a bottom leg hook on their near leg to prevent mount transition and your defensive frame must be established to prevent smothering during the bridge.
-
-**Q3**: Your opponent attacks americana on your trapped arm during your escape attempt - how do you respond?
-**A**: Straighten the threatened arm immediately and grip your own thigh or belt to anchor it, turning your thumb toward the ceiling to prevent figure-four completion. Then recognize that the americana attack creates an escape window because the opponent must release some head control or positional connection to pursue the submission. Use this window to execute your escape rather than purely defending the submission.
-
-**Q4**: What is the correct angle for the bridge when executing the bridge-and-roll escape from scarf hold?
-**A**: The bridge should be directed at a 45-degree angle toward the opponent's trapped arm side, not straight upward. This angle loads the opponent's weight onto their shoulder line where they have minimal base, making it possible to roll them over their shoulder. Bridging straight up allows the opponent to settle back into position when you return to the mat.
-
-**Q5**: Why is the bottom leg hook on the opponent's near leg critical before attempting any escape from scarf hold?
-**A**: The leg hook serves dual purpose. First, it prevents the opponent from transitioning to mount during escape attempts, which would result in a significantly worse position. Second, it provides a control point to disrupt their base during the bridge phase by controlling their nearest support structure. Without this hook, escape attempts frequently result in mount rather than freedom.
-
-**Q6**: Your bridge-and-roll attempt is defended because the opponent widens their base - what do you do next?
-**A**: Immediately transition to the ghost escape variant. When the opponent widens base and drops hips to counter the bridge, they create space behind their body. Turn into the opponent and come to your knees behind them, using the backdoor escape pathway. The key is flowing immediately from the failed bridge into the next technique rather than resetting and losing the positional disruption you created.
-
-**Q7**: How should you manage energy expenditure during an extended period trapped in scarf hold bottom?
-**A**: Prioritize controlled diaphragmatic breathing despite chest compression, using belly breathing rather than chest expansion. Work escapes in tactical bursts timed to opponent's weight shifts rather than constant struggling. Chain escape attempts efficiently so each failed technique flows directly into the next rather than resetting. Accept turtle as a valid intermediate escape position rather than fighting exhaustingly for guard from disadvantaged angles.
-
-**Q8**: What are the primary recognition cues that indicate a timing window for escape from scarf hold bottom?
-**A**: The primary cues are tactile rather than visual: feeling the opponent's weight shift forward when attacking submissions or transitioning positions, sensing loosened head control when they adjust grips, detecting base narrowing when they reach for attacks. The most reliable window occurs when the opponent releases head control to attack your far arm, as this momentarily frees your head mobility for escape mechanics.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Scarf Hold Position?</p>
 
 Escaping scarf hold involves explosive bridging movements that stress the cervical spine and lower back. Practice bridge mechanics gradually with progressive resistance to build tolerance. Tap immediately if opponent secures deep submission grips during escape attempts rather than fighting through joint locks. Avoid violent bridging without proper warm-up. When drilling, partners should communicate about pressure levels to prevent rib injuries from sustained hip compression. Stop immediately if experiencing sharp neck pain during bridge-and-turn execution.
 

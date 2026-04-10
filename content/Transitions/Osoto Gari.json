@@ -65,20 +65,20 @@
       "relationship": "Counter Response - Position to establish if opponent turns into the throw"
     },
     {
-      "name": "Kimura from Standing",
-      "relationship": "Follow-up Attack - Submission option when opponent posts defensively"
+      "name": "Kimura",
+      "relationship": "Follow-up Attack - Submission option when opponent posts defensively during standing exchange"
     },
     {
       "name": "Standing Position",
       "relationship": "Starting Position - Neutral standing state from which Osoto Gari is initiated"
     },
     {
-      "name": "Grip Fighting",
+      "name": "Grips",
       "relationship": "Setup Requirement - Essential skill for establishing advantageous grips for the throw"
     },
     {
-      "name": "Takedown Entry",
-      "relationship": "Strategic Context - Osoto Gari as primary entry in complete takedown system"
+      "name": "Double Leg Entry",
+      "relationship": "Strategic Context - Primary wrestling-based takedown that complements Osoto Gari in a complete standing attack system"
     }
   ],
   "attacker": {

@@ -164,6 +164,8 @@ Successful defense depends on recognizing the transition in its earliest stages,
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle to Armbar?</p>
+
 - Opponent secures an overhook on your trapped arm, pulling it across their chest and away from your body
 - Opponent's hips begin shifting laterally, rotating their body away from parallel to create a perpendicular angle to your torso
 - Pressure on your neck from the triangle legs decreases as the opponent creates mobility for the pivot
@@ -176,6 +178,8 @@ Successful defense depends on recognizing the transition in its earliest stages,
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle to Armbar?</p>
 
 - Recognize the transition early by monitoring the opponent's hip movement and overhook attempts on your trapped arm
 - Keep your trapped arm's elbow tight to your body to prevent isolation and overhook control
@@ -191,6 +195,8 @@ Successful defense depends on recognizing the transition in its earliest stages,
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle to Armbar?</p>
 
 ### 1. Retract the trapped arm and re-establish posture before the pivot completes
 
@@ -228,6 +234,8 @@ Successful defense depends on recognizing the transition in its earliest stages,
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle to Armbar?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Retract the trapped arm early when you feel the overhook attempt, re-establish your defensive posture inside the triangle, and resume systematic triangle escape. Focus on preventing the arm from being isolated again by keeping elbow pinned to your ribs.
@@ -243,6 +251,8 @@ When the opponent loosens their leg configuration during the pivot, explosively 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle to Armbar?</p>
 
 ### 1. Extending the trapped arm straight while trying to push away from the opponent
 
@@ -277,6 +287,8 @@ When the opponent loosens their leg configuration during the pivot, explosively 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle to Armbar?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues from inside the triangle
 Partner establishes triangle and slowly initiates the armbar transition while you focus purely on recognizing each stage: overhook attempt, hip shift, leg repositioning, and grip transition. Call out each cue verbally as you feel it. No escape attempts yet, just building pattern recognition. Perform 15-20 slow repetitions per session.
 
@@ -293,29 +305,6 @@ Positional sparring starting in triangle control with full resistance. Partner a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from triangle to armbar?
-**A**: The earliest cue is feeling the opponent secure an overhook on your trapped arm, pulling it across their chest and away from your body. This overhook is the prerequisite for the entire transition. If you can prevent or strip the overhook before the hip pivot begins, the transition cannot proceed. The secondary cue is feeling the opponent's hip pressure shift laterally as they begin rotating their body away from center.
-
-**Q2**: Why is stacking forward effective as a defense against this transition?
-**A**: Stacking forward compresses the opponent's hips and spine against the mat, eliminating the space they need to create a perpendicular angle and generate hip extension for the armbar finish. It also shifts your weight over their center of gravity, making it difficult for them to pivot or fall back. However, stacking must be done with awareness that it opens the omoplata counter if the opponent redirects the forward momentum by swinging their far leg over your back.
-
-**Q3**: Your opponent has completed the pivot and has both hands on your wrist. What is your defensive priority?
-**A**: At this late stage, your immediate priority is preventing full arm extension by bending the elbow aggressively, rotating your thumb toward the ceiling, and clasping your hands together if possible. Simultaneously, use your hips and legs to drive forward into a stacking position to compress their finishing space. This buys time to work a hitchhiker escape by rotating the elbow across your body while turning to turtle, or to strip one of their hands from your wrist to begin systematic arm extraction.
-
-**Q4**: How does defending the triangle choke create vulnerability to the armbar transition?
-**A**: When defending the triangle, you naturally use your trapped arm to push against the opponent's thigh or hip to create space and relieve choking pressure. This pushing action extends your arm away from your body and exposes it for the opponent's overhook. The very movement that defends the choke isolates the arm for the armbar. Understanding this dilemma allows you to defend the triangle through posture and hip positioning rather than relying on arm-based defenses that open the secondary threat.
-
-**Q5**: What body position should you maintain to make the transition as difficult as possible for your opponent?
-**A**: Keep your weight driving forward with your head pressing into the opponent's chest or solar plexus. Your trapped arm's elbow should be pinned tightly to your ribs with your hand gripping your own collar or lapel. Your free hand should control the opponent's far hip or bicep to prevent their pivot. Your hips should stay heavy and square to the opponent rather than allowing them to angle off. This compressed forward position eliminates the space needed for the pivot and prevents the opponent from falling back into armbar position.
-
-
-
-</section>
 
 
 </main>

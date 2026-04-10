@@ -164,6 +164,8 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction Escape?</p>
+
 - Opponent places both hands on your hips rather than grabbing at the choking leg, indicating systematic extraction attempt rather than panic response
 - Opponent turns chin toward the attacking leg to create breathing space, signaling they are preparing for a methodical escape sequence
 - Opponent begins driving your pelvis toward the mat with steady downward pressure on your hips, attempting to reduce shin compression angle
@@ -175,6 +177,8 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction Escape?</p>
 
 - Maintain constant hip elevation to preserve perpendicular shin angle across the throat - any hip drop reduces submission effectiveness and creates extraction windows
 - Actively pull your own foot deeper behind the opponent's head using both hands whenever you feel their extraction attempts beginning
@@ -188,6 +192,8 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction Escape?</p>
 
 ### 1. Re-elevate hips and pull foot deeper behind opponent's head using both hands to reinforce the closed-loop configuration
 
@@ -225,6 +231,8 @@ The fundamental defensive strategy centers on maintaining hip elevation and foot
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction Escape?</p>
+
 ### → [[Positions/Gogoplata Control]]
 
 Maintain hip elevation and foot depth throughout the opponent's extraction attempt by actively pulling the foot deeper and fighting their hip control with core engagement. Each failed escape attempt increases their fatigue and panic, making the submission finish more likely on subsequent attempts.
@@ -240,6 +248,8 @@ When the escape partially succeeds and the shin slides off the throat, immediate
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction Escape?</p>
 
 ### 1. Maintaining a static position without actively reinforcing the foot-behind-head anchor when opponent begins extraction
 
@@ -269,6 +279,8 @@ When the escape partially succeeds and the shin slides off the throat, immediate
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction Escape?</p>
+
 **Week 1-2** - Gogoplata retention under pressure
 Partner applies progressive hip pressure from gogoplata top position while you focus on maintaining hip elevation and foot depth. Start at 30% resistance and increase to 70%. Develop the core endurance and hand positioning needed to maintain the configuration under sustained downward pressure without attempting to finish the submission.
 
@@ -285,29 +297,6 @@ Full resistance positional rounds starting in gogoplata control. Top player atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical element to maintain when your opponent begins the Leg Extraction Escape?
-**A**: Hip elevation is the most critical element because it determines the shin angle across the throat. When hips drop, the shin becomes parallel to the throat and compression is lost. Active core engagement and bridging against the opponent's downward hip pressure must be the immediate priority before any other defensive adjustment.
-
-**Q2**: Your opponent places both hands on your hips and begins pressing downward - what does this indicate and how should you respond?
-**A**: Both hands on hips indicates a systematic leg extraction attempt rather than panicked struggling. Respond by immediately engaging your core to resist the downward pressure, pulling your foot deeper behind their head with both hands, and using your non-choking leg to post on the mat for additional hip elevation support. Their committed hand position means they cannot address the foot behind their head simultaneously.
-
-**Q3**: When should you abandon gogoplata retention and transition to an alternative attack?
-**A**: Transition when the foot position behind the opponent's head is compromised beyond recovery, specifically when the foot has been pushed past the crown of their head or their head has moved laterally enough that the shin is no longer across the throat. At this point, maintaining the failing configuration wastes energy and position. Redirect to triangle if their head is still low, or omoplata if they are turning away.
-
-**Q4**: How does the triangle transition work when the opponent partially escapes your gogoplata control?
-**A**: As the opponent moves their head laterally and the shin slides off the throat, immediately bring your opposite leg over their shoulder and lock your ankles in a figure-four triangle configuration. The foot that was behind their head assists in securing the triangle lock. Their broken posture from the gogoplata attempt means they enter the triangle already compromised, making this a high-percentage counter-transition.
-
-**Q5**: Your opponent successfully pushes your foot over their head with one hand - what is your immediate response?
-**A**: Once the foot clears their head, the gogoplata is structurally broken and cannot be recovered from this position. Immediately switch to plan B: if their head is still between your legs with posture broken, lock up a triangle. If they are posturing away, recover closed guard by bringing both legs inside and locking your ankles. Do not waste time trying to re-establish the foot behind their head as the momentum has shifted.
-
-
-
-</section>
 
 
 </main>

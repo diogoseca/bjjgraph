@@ -210,7 +210,7 @@ The Jailbreak to Back Take fits within the 10th Planet half guard system as the 
 
 - [[Positions/Half Guard/Old School]] - Alternative attack - uses similar underhook mechanics from half guard
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up - main submission after establishing back control
+- [[Submissions/Rear Naked Choke]] - Primary follow-up - main submission after establishing back control
 
 - [[Positions/Half Guard/Electric Chair]] - Related system - part of 10th Planet half guard attack tree
 

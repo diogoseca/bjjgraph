@@ -3,7 +3,7 @@
   "slug": "rodeo-ride",
   "description": "Master Rodeo Ride position in BJJ. Advanced turtle attack with asymmetric control mechanics. Complete guide covering both offensive attacks and defensive escapes with strategic analysis.",
   "variant_uniqueness": "Dynamic pressure replaces static control",
-  "overview": "Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.\n\nThis position represents a critical transition state in the turtle attack game, bridging the gap between initial turtle control and full back control or submission positions. The top practitioner typically maintains control through a combination of hip pressure, strategic gripping (often involving the near arm and far lapel or collar), and active weight distribution that prevents the bottom practitioner from recovering guard or standing up. Success in Rodeo Ride requires excellent balance, timing, and the ability to read opponent movement patterns to capitalize on escape attempts.\n\nRodeo Ride is particularly effective in both gi and no-gi contexts, though the specific control mechanisms differ. In gi, lapel and collar grips provide powerful control points, while no-gi variants rely more heavily on body positioning, underhooks, and seat belt control. The position has gained prominence in modern competition BJJ as a high-percentage path to back control and offers multiple submission opportunities including chokes from turtle and various arm attacks. The position's effectiveness lies in its transitional nature—practitioners who excel from Rodeo Ride understand it as a launching pad for attacks rather than a static holding position.",
+  "overview": "Rodeo Ride is an advanced turtle attack position where the top practitioner maintains control over a turtled opponent using asymmetric grips and dynamic positioning. Unlike traditional turtle top control, Rodeo Ride emphasizes mobility and constant pressure adjustment, allowing the attacker to flow between various back attack entries, submission attempts, and control positions. The position gets its name from the rider-like posture and movement pattern required to maintain control while the opponent attempts to escape.\n\nThis position represents a critical transition state in the turtle attack game, bridging the gap between initial turtle control and full back control or submission positions. The top practitioner typically maintains control through a combination of hip pressure, strategic gripping (often involving the near arm and far lapel or collar), and active weight distribution that prevents the bottom practitioner from recovering guard or standing up. Success in Rodeo Ride requires excellent balance, timing, and the ability to read opponent movement patterns to capitalize on escape attempts.\n\nRodeo Ride is particularly effective in both gi and no-gi contexts, though the specific control mechanisms differ. In gi, lapel and collar grips provide powerful control points, while no-gi variants rely more heavily on body positioning, underhooks, and seat belt control. The position has gained prominence in modern competition BJJ as a high-percentage path to back control and offers multiple submission opportunities including chokes from turtle and various arm attacks. The position's effectiveness lies in its transitional nature\u2014practitioners who excel from Rodeo Ride understand it as a launching pad for attacks rather than a static holding position.",
   "key_principles": [
     "Maintain constant hip pressure on opponent's torso while staying mobile and ready to adjust position",
     "Control the near arm to prevent opponent from posting and creating defensive frames",
@@ -54,7 +54,7 @@
       "advanced",
       "control"
     ],
-    "overview": "Rodeo Ride from the top represents an advanced turtle attack position where you maintain dynamic control over a turtled opponent through asymmetric grips and constant pressure adjustment. Unlike static turtle control positions, Rodeo Ride emphasizes mobility and the ability to flow between multiple attack vectors—back takes, submissions, and positional advancements—while preventing opponent escapes. The position's effectiveness stems from its transitional nature: you're never holding a static position but rather creating a dilemma-based scenario where every defensive choice the opponent makes opens different offensive opportunities.\n\nThe fundamental mechanics of top Rodeo Ride involve establishing perpendicular or angular positioning relative to the opponent's spine, loading your hips onto their torso, and maintaining strategic control of the near arm while threatening the far side or collar. This asymmetric control pattern prevents the opponent from effectively posting, standing, or rolling to guard while simultaneously setting up your primary attacks. Success in this position requires excellent balance and the ability to ride your opponent's movement—staying heavy enough to control them but mobile enough to capitalize on their escape attempts.\n\nRodeo Ride is particularly valuable in modern competition BJJ because it provides a systematic pathway from initial turtle control to back control or submission. The position has become essential in both gi and no-gi grappling, with variations that emphasize different control mechanisms based on the ruleset and available grips. Advanced practitioners use Rodeo Ride as a testing position: they threaten multiple attacks to read the opponent's defensive priorities, then exploit the openings created by those defensive choices. The position requires significant mat time to develop the sensitivity needed to feel opponent weight shifts and anticipate escape attempts.",
+    "overview": "Rodeo Ride from the top represents an advanced turtle attack position where you maintain dynamic control over a turtled opponent through asymmetric grips and constant pressure adjustment. Unlike static turtle control positions, Rodeo Ride emphasizes mobility and the ability to flow between multiple attack vectors\u2014back takes, submissions, and positional advancements\u2014while preventing opponent escapes. The position's effectiveness stems from its transitional nature: you're never holding a static position but rather creating a dilemma-based scenario where every defensive choice the opponent makes opens different offensive opportunities.\n\nThe fundamental mechanics of top Rodeo Ride involve establishing perpendicular or angular positioning relative to the opponent's spine, loading your hips onto their torso, and maintaining strategic control of the near arm while threatening the far side or collar. This asymmetric control pattern prevents the opponent from effectively posting, standing, or rolling to guard while simultaneously setting up your primary attacks. Success in this position requires excellent balance and the ability to ride your opponent's movement\u2014staying heavy enough to control them but mobile enough to capitalize on their escape attempts.\n\nRodeo Ride is particularly valuable in modern competition BJJ because it provides a systematic pathway from initial turtle control to back control or submission. The position has become essential in both gi and no-gi grappling, with variations that emphasize different control mechanisms based on the ruleset and available grips. Advanced practitioners use Rodeo Ride as a testing position: they threaten multiple attacks to read the opponent's defensive priorities, then exploit the openings created by those defensive choices. The position requires significant mat time to develop the sensitivity needed to feel opponent weight shifts and anticipate escape attempts.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Offensive/Controlling",
@@ -293,11 +293,11 @@
     "transitions": [
       {
         "transition": "Turtle to Back Take",
-        "attempt_probability": 28
+        "attempt_probability": 30
       },
       {
         "transition": "Crab Ride to Back",
-        "attempt_probability": 12
+        "attempt_probability": 14
       },
       {
         "transition": "Turtle to Truck",
@@ -308,11 +308,11 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Clock Choke",
+        "transition": "Clock Choke from Rodeo Ride",
         "attempt_probability": 8
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Rodeo Ride",
         "attempt_probability": 6
       },
       {
@@ -334,14 +334,6 @@
       {
         "transition": "Rodeo Ride to Turtle",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Calf Slicer from Rodeo Ride",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Rear Naked Choke from Rodeo",
-        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -351,27 +343,27 @@
       },
       {
         "question": "Why is near-arm control considered essential for maintaining Rodeo Ride position?",
-        "answer": "Near-arm control prevents the opponent from posting and creating defensive frames that would allow them to create space, stand up, or turn into you. When the near arm is controlled—whether through wrist grip, elbow control, or shoulder pressure—the opponent loses their primary tool for generating base and movement on that side. This control also sets up many attacking options including back takes and crucifix entries, as the controlled arm cannot defend against subsequent attacks."
+        "answer": "Near-arm control prevents the opponent from posting and creating defensive frames that would allow them to create space, stand up, or turn into you. When the near arm is controlled\u2014whether through wrist grip, elbow control, or shoulder pressure\u2014the opponent loses their primary tool for generating base and movement on that side. This control also sets up many attacking options including back takes and crucifix entries, as the controlled arm cannot defend against subsequent attacks."
       },
       {
-        "question": "Your opponent starts posting with their far hand and attempts to create space—what adjustment should you make?",
-        "answer": "When the opponent posts with their far hand, immediately threaten the crucifix position by controlling that extended arm while maintaining your existing near-arm control. Alternatively, use their posting as an opportunity to collapse their structure by driving your hip pressure forward while pulling their near arm away from their body. Their extended arm actually creates vulnerability—they cannot defend both the back take and the crucifix simultaneously, so use this dilemma to advance position."
+        "question": "Your opponent starts posting with their far hand and attempts to create space\u2014what adjustment should you make?",
+        "answer": "When the opponent posts with their far hand, immediately threaten the crucifix position by controlling that extended arm while maintaining your existing near-arm control. Alternatively, use their posting as an opportunity to collapse their structure by driving your hip pressure forward while pulling their near arm away from their body. Their extended arm actually creates vulnerability\u2014they cannot defend both the back take and the crucifix simultaneously, so use this dilemma to advance position."
       },
       {
         "question": "How should you adjust your base when the opponent begins rocking side to side trying to unbalance you?",
-        "answer": "When the opponent rocks laterally, widen your posted leg stance and lower your center of gravity by sinking your hips closer to their body. Match their rhythm initially to avoid being thrown off, then counter their momentum by loading pressure toward the direction they're rocking away from. The key is keeping your chest glued to their back throughout the rocking motion. Use their lateral movement as a timing cue—when they rock toward your posted side, that's your window to advance to crab ride or insert hooks on the light side."
+        "answer": "When the opponent rocks laterally, widen your posted leg stance and lower your center of gravity by sinking your hips closer to their body. Match their rhythm initially to avoid being thrown off, then counter their momentum by loading pressure toward the direction they're rocking away from. The key is keeping your chest glued to their back throughout the rocking motion. Use their lateral movement as a timing cue\u2014when they rock toward your posted side, that's your window to advance to crab ride or insert hooks on the light side."
       },
       {
         "question": "What grip priorities should you establish first when initially arriving to Rodeo Ride from a scramble?",
-        "answer": "The first priority is near-arm control—either wrist, elbow, or underhook on the arm closest to you. This prevents their most immediate escape tool. Second priority is collar or neck control on the far side, which prevents them from turning into you and sets up choke threats. Third priority is establishing your posted leg in a stable position for base. Do not reach for submissions or far-side attacks until these three control priorities are secured. Rushing to attack without foundational grips is the most common reason practitioners lose Rodeo Ride."
+        "answer": "The first priority is near-arm control\u2014either wrist, elbow, or underhook on the arm closest to you. This prevents their most immediate escape tool. Second priority is collar or neck control on the far side, which prevents them from turning into you and sets up choke threats. Third priority is establishing your posted leg in a stable position for base. Do not reach for submissions or far-side attacks until these three control priorities are secured. Rushing to attack without foundational grips is the most common reason practitioners lose Rodeo Ride."
       },
       {
         "question": "How do you maintain effective pressure when your opponent begins to flatten toward the mat?",
-        "answer": "As the opponent flattens, follow their descent by walking your hips forward and lowering your chest pressure onto their upper back. Keep your near-arm control and begin transitioning your weight toward a mounted crucifix or technical mount position. Flattening actually helps your control because it eliminates their knee-based mobility. However, do not simply sit on a flat opponent—actively work to advance position because a flat turtle with your weight on top is a scoring opportunity for mount. Drive your hips toward their head to create the angle needed to slide your knee over their hip into mount."
+        "answer": "As the opponent flattens, follow their descent by walking your hips forward and lowering your chest pressure onto their upper back. Keep your near-arm control and begin transitioning your weight toward a mounted crucifix or technical mount position. Flattening actually helps your control because it eliminates their knee-based mobility. However, do not simply sit on a flat opponent\u2014actively work to advance position because a flat turtle with your weight on top is a scoring opportunity for mount. Drive your hips toward their head to create the angle needed to slide your knee over their hip into mount."
       },
       {
-        "question": "Your opponent explosively attempts to stand while you have Rodeo Ride—what is your immediate response?",
-        "answer": "Maintain your chest-to-back connection and follow them upward while keeping your near-arm control. As they rise, shift your weight to hang from their upper body rather than pushing down from above. If you have a collar grip, use it to snap them back down by pulling their head and shoulders toward the mat while driving your hip pressure forward into their lower back. If they achieve full standing, immediately work to establish a standing back clinch with seat belt control. Never release your chest connection during their stand attempt—staying attached gives you control over whether they complete the stand-up or get pulled back down."
+        "question": "Your opponent explosively attempts to stand while you have Rodeo Ride\u2014what is your immediate response?",
+        "answer": "Maintain your chest-to-back connection and follow them upward while keeping your near-arm control. As they rise, shift your weight to hang from their upper body rather than pushing down from above. If you have a collar grip, use it to snap them back down by pulling their head and shoulders toward the mat while driving your hip pressure forward into their lower back. If they achieve full standing, immediately work to establish a standing back clinch with seat belt control. Never release your chest connection during their stand attempt\u2014staying attached gives you control over whether they complete the stand-up or get pulled back down."
       },
       {
         "question": "How do you manage energy expenditure when your opponent maintains a strong defensive turtle for an extended period?",
@@ -390,7 +382,7 @@
       "guard-recovery",
       "defensive"
     ],
-    "overview": "From the bottom perspective, being caught in Rodeo Ride represents a challenging defensive scenario where the opponent has established dynamic control over your turtle position. Unlike more stable top positions where you can wait for specific openings, Rodeo Ride's transitional nature means the top practitioner is constantly threatening multiple attacks and positional advancements. Your primary defensive objectives are to prevent back exposure, avoid submissions, and work systematically toward guard recovery or standing escape.\n\nThe fundamental challenge of defending Rodeo Ride is that traditional turtle defensive principles—keeping elbows tight, head protected, and base wide—are necessary but insufficient. The top practitioner's perpendicular positioning and constant pressure adjustments mean you must be equally dynamic in your defensive responses. Every movement you make to defend one attack potentially opens you to another, creating the dilemma-based scenario that makes this position so effective for the attacker. Understanding this dynamic is crucial: you cannot simply defend passively and wait for the position to resolve itself.\n\nSuccessful escape from Rodeo Ride requires a systematic approach that prioritizes maintaining defensive structure while creating opportunities for movement. The key is to recognize which defensive priority is most urgent at any given moment—sometimes you need to protect your neck from choke attacks, other times you need to prevent the seat belt grip that leads to back control, and still other times you must address the near-arm control that's limiting your mobility. Advanced practitioners develop the ability to read the top player's weight distribution and grip configuration to anticipate their next attack and position themselves to counter it preemptively rather than reactively.",
+    "overview": "From the bottom perspective, being caught in Rodeo Ride represents a challenging defensive scenario where the opponent has established dynamic control over your turtle position. Unlike more stable top positions where you can wait for specific openings, Rodeo Ride's transitional nature means the top practitioner is constantly threatening multiple attacks and positional advancements. Your primary defensive objectives are to prevent back exposure, avoid submissions, and work systematically toward guard recovery or standing escape.\n\nThe fundamental challenge of defending Rodeo Ride is that traditional turtle defensive principles\u2014keeping elbows tight, head protected, and base wide\u2014are necessary but insufficient. The top practitioner's perpendicular positioning and constant pressure adjustments mean you must be equally dynamic in your defensive responses. Every movement you make to defend one attack potentially opens you to another, creating the dilemma-based scenario that makes this position so effective for the attacker. Understanding this dynamic is crucial: you cannot simply defend passively and wait for the position to resolve itself.\n\nSuccessful escape from Rodeo Ride requires a systematic approach that prioritizes maintaining defensive structure while creating opportunities for movement. The key is to recognize which defensive priority is most urgent at any given moment\u2014sometimes you need to protect your neck from choke attacks, other times you need to prevent the seat belt grip that leads to back control, and still other times you must address the near-arm control that's limiting your mobility. Advanced practitioners develop the ability to read the top player's weight distribution and grip configuration to anticipate their next attack and position themselves to counter it preemptively rather than reactively.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -413,7 +405,7 @@
     ],
     "key_principles": [
       "Maintain defensive turtle structure with elbows tight and head protected even while attempting escapes",
-      "Never allow both arms to be controlled simultaneously—always keep one arm free for posting and framing",
+      "Never allow both arms to be controlled simultaneously\u2014always keep one arm free for posting and framing",
       "Create movement toward guard recovery rather than attempting to stand against established control",
       "Protect neck and prevent deep collar grips that enable choking attacks",
       "Use explosive timing when top practitioner shifts weight or adjusts grips to create escape windows",
@@ -589,65 +581,65 @@
     "transitions": [
       {
         "transition": "Turtle to Guard",
-        "attempt_probability": 34
+        "attempt_probability": 52
       },
       {
         "transition": "Technical Stand-up",
-        "attempt_probability": 15
+        "attempt_probability": 13
       },
       {
         "transition": "Granby Roll to Guard",
-        "attempt_probability": 12
+        "attempt_probability": 11
       },
       {
         "transition": "Rolling to Guard",
-        "attempt_probability": 14
+        "attempt_probability": 12
       },
       {
         "transition": "Elbow Escape to Guard",
-        "attempt_probability": 9
-      },
-      {
-        "transition": "Sit Through Escape",
         "attempt_probability": 7
       },
       {
-        "transition": "Standing up in Base",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Roll from Rodeo Ride",
+        "transition": "Sit Through Escape",
         "attempt_probability": 2
       },
       {
-        "transition": "Shake Off Rodeo Ride",
-        "attempt_probability": 1
+        "transition": "Standing up in Base",
+        "attempt_probability": 2
       },
       {
         "transition": "Escape from Rodeo Ride",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Roll from Rodeo Ride",
+        "attempt_probability": 0
+      },
+      {
+        "transition": "Shake Off Rodeo Ride",
         "attempt_probability": 1
       }
     ],
     "knowledge_assessment": [
       {
         "question": "What is the most critical defensive priority when caught in Rodeo Ride bottom?",
-        "answer": "The most critical priority is preventing back exposure and the establishment of hooks and seat belt control. While neck protection and arm control are important, giving up back control with hooks leads to the highest-percentage finishing position in BJJ. All defensive decisions should be filtered through this priority—if you must choose between defending a choke attempt and preventing hook insertion, prevent the hooks first, as back control without the choke is more dangerous long-term than a defended choke attempt without full back control."
+        "answer": "The most critical priority is preventing back exposure and the establishment of hooks and seat belt control. While neck protection and arm control are important, giving up back control with hooks leads to the highest-percentage finishing position in BJJ. All defensive decisions should be filtered through this priority\u2014if you must choose between defending a choke attempt and preventing hook insertion, prevent the hooks first, as back control without the choke is more dangerous long-term than a defended choke attempt without full back control."
       },
       {
         "question": "Why is maintaining at least one free arm essential for defensive success?",
         "answer": "Having at least one free arm allows you to post, frame, and create the mechanical leverage needed for escape attempts. Without a free arm, you cannot generate the base needed to stand, cannot create frames to prevent flattening, and cannot address the grip fighting needed to prevent back control. When both arms are controlled, your defensive options collapse to essentially zero, making submission or back control nearly inevitable. Sacrifice position elsewhere if necessary to keep one arm free."
       },
       {
-        "question": "Your opponent shifts their weight forward to insert hooks—what escape opportunity does this create?",
+        "question": "Your opponent shifts their weight forward to insert hooks\u2014what escape opportunity does this create?",
         "answer": "When the opponent shifts weight forward for hook insertion, they momentarily reduce hip pressure and create space between your hips and the mat. This is your window for guard recovery: quickly sit back into them while threading your legs between you and them to establish guard. Their forward commitment means they cannot easily retract to prevent your hip movement. Time the sit-back as they commit forward, using their momentum against them to create the space needed for guard establishment."
       },
       {
         "question": "How should you respond when you feel a clock choke or collar grip being established?",
-        "answer": "Immediately tuck your chin aggressively and turn your head toward the choking side to close the space needed for the choke to finish. Simultaneously, use your near-side hand to fight the grip—either stripping it or preventing it from sinking deeper. If the grip is already deep, your best option may be explosive movement: either stand up forcefully or granby roll away from the choke direction. Passive defense against collar attacks allows them to progressively tighten; you must actively fight the grip or create major positional change."
+        "answer": "Immediately tuck your chin aggressively and turn your head toward the choking side to close the space needed for the choke to finish. Simultaneously, use your near-side hand to fight the grip\u2014either stripping it or preventing it from sinking deeper. If the grip is already deep, your best option may be explosive movement: either stand up forcefully or granby roll away from the choke direction. Passive defense against collar attacks allows them to progressively tighten; you must actively fight the grip or create major positional change."
       },
       {
         "question": "What timing indicators should you look for to maximize escape success?",
-        "answer": "Key timing indicators include: weight shifts as opponent adjusts position or reaches for grips, momentary grip releases during transitions between attacks, commitment of pressure to one side creating space on the opposite side, and the moment between attacks when opponent resets. Feel for changes in hip pressure—lighter pressure indicates opportunity. Watch for when opponent's posted leg moves or adjusts, as this temporarily compromises their base. The best escapes happen during opponent's transitions, not during their stable control phases."
+        "answer": "Key timing indicators include: weight shifts as opponent adjusts position or reaches for grips, momentary grip releases during transitions between attacks, commitment of pressure to one side creating space on the opposite side, and the moment between attacks when opponent resets. Feel for changes in hip pressure\u2014lighter pressure indicates opportunity. Watch for when opponent's posted leg moves or adjusts, as this temporarily compromises their base. The best escapes happen during opponent's transitions, not during their stable control phases."
       },
       {
         "question": "Why is the granby roll particularly effective when opponent's weight is high on your shoulders?",
@@ -659,7 +651,7 @@
       },
       {
         "question": "How do you prevent yourself from panicking and making mistakes when under heavy pressure?",
-        "answer": "Establish a systematic defensive checklist: first assess which arm is controlled, then evaluate neck threat level, then feel hip pressure and hook threats. Having a mental framework prevents panic-driven reactions. Focus on breathing—holding your breath increases panic and drains energy. Accept that escaping from Rodeo Ride is a process, not a single explosive movement. Make small positional improvements rather than gambling on low-percentage explosive escapes. Each defensive success (preventing a grip, maintaining arm freedom, protecting neck) is progress toward eventual escape."
+        "answer": "Establish a systematic defensive checklist: first assess which arm is controlled, then evaluate neck threat level, then feel hip pressure and hook threats. Having a mental framework prevents panic-driven reactions. Focus on breathing\u2014holding your breath increases panic and drains energy. Accept that escaping from Rodeo Ride is a process, not a single explosive movement. Make small positional improvements rather than gambling on low-percentage explosive escapes. Each defensive success (preventing a grip, maintaining arm freedom, protecting neck) is progress toward eventual escape."
       }
     ]
   }

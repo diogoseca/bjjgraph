@@ -169,6 +169,8 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Kesa-Gatame (Bottom)?</p>
+
 - Bottom player is on their back or side with shoulders pinned or near the mat, facing significant upper body compression from top player's weight distributed through hips and torso positioned across chest and shoulder area
 - Top player sits perpendicular or reverse-perpendicular to bottom player's torso with hips facing toward bottom player's legs, maintaining chest-to-chest pressure while controlling near-side arm through various grips including wrist control, underhook, or arm wrap
 - Bottom player's mobility is severely restricted in upper body with one arm typically trapped or controlled, while far-side arm and lower body retain some freedom of movement for defensive frames and hip escapes
@@ -181,6 +183,8 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse Kesa-Gatame (Bottom)?</p>
+
 - Opponent has achieved side control or transitional position
 - Opponent has established reverse scarf hold grips and positioning
 - Bottom player's upper body is pinned with limited mobility
@@ -192,6 +196,8 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Kesa-Gatame?</p>
 
 - Immediately establish defensive frames with free arm to prevent opponent from fully settling weight and consolidating control
 - Protect neck and head from submission attempts by keeping chin tucked and maintaining space between shoulder and neck
@@ -208,8 +214,10 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Reverse Kesa-Gatame (Bottom)?</p>
+
 **If opponent sits high on chest with weight too far forward:**
-- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 50%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Standing Position]] (Probability: 50%)
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
 
 
@@ -224,7 +232,7 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 
 **If opponent attacks trapped arm for submission:**
-- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Scramble Position]] (Probability: 45%)
+- Execute **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** → [[Positions/Standing Position]] (Probability: 45%)
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
@@ -235,6 +243,8 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Kesa-Gatame?</p>
 
 ### 1. Flat on back with no frames established
 
@@ -274,6 +284,8 @@ From a strategic perspective, Reverse Kesa-Gatame Bottom requires immediate defe
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Reverse Kesa-Gatame defense?</p>
+
 ### Progressive Resistance Escape Drill
 
 Partner applies Reverse Kesa-Gatame with increasing levels of resistance (30%, 50%, 70%, 100%) while bottom player works through systematic escape sequence: frame establishment, hip escape, arm extraction, guard recovery. Each resistance level practiced for 2-minute rounds.
@@ -306,38 +318,6 @@ Partner sits in varying heights and weight distributions in Reverse Kesa-Gatame 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when your opponent establishes Reverse Kesa-Gatame?
-**A**: Immediately establish a frame with your free arm against your opponent's hip or shoulder to prevent them from fully settling their weight. Simultaneously, turn slightly onto your side away from the opponent to create an angle for hip escape. This prevents position consolidation and protects your neck from choke attempts. Never remain flat on your back.
-
-**Q2**: How do you protect your trapped arm from Americana and Kimura attacks in this position?
-**A**: Keep your trapped arm bent at approximately 90 degrees with your elbow tight to your body. Avoid extending the arm or allowing it to be pulled away from your torso. If the opponent begins isolating your arm, use your free hand to grab your own wrist or gi and defend the grip. Simultaneously work hip escapes to create space that relieves pressure on the trapped arm.
-
-**Q3**: Your opponent's weight is high on your chest - what escape opportunity does this create?
-**A**: When the opponent sits too high, their base is compromised and their weight is not properly distributed over your hips. This creates an excellent bridging opportunity. Execute an explosive bridge toward your trapped side while simultaneously turning - this can roll them over or create enough space for immediate guard recovery. The key is recognizing this window quickly before they adjust.
-
-**Q4**: How should you sequence your escape attempts against a skilled opponent who maintains proper pressure?
-**A**: Use a systematic approach: first establish frames to create breathing room and prevent position advancement. Then execute small hip escapes to incrementally create space - don't rely on one explosive movement. As space accumulates, work to extract your trapped arm by shrimping your shoulder free. Finally, insert your knee between your bodies to establish half guard or continue shrimping to recover full guard.
-
-**Q5**: What indicates your opponent is about to transition to Mount, and how do you prevent it?
-**A**: Signs include the opponent shifting their weight toward your far hip, lifting their near knee, or releasing arm control to post for the transition. Counter by immediately framing against their far hip with your free arm, keeping your near knee high to block their leg, and shrimping your hips away. If they begin stepping over, pursue them with your hips to insert a knee shield before they can settle.
-
-**Q6**: When is transitioning to Turtle a better option than fighting for guard recovery?
-**A**: Turtle becomes preferable when: the opponent is transitioning to North-South and you can't stop them with frames; when your trapped arm is deeply controlled and you need to change the dynamic; or when repeated shrimping has created distance but not enough for guard recovery. Turning to turtle can relieve chest pressure and reset the positional battle, though you must immediately work to stand or recover guard from turtle.
-
-**Q7**: How do you manage breathing and energy conservation when trapped in this position?
-**A**: Take short, controlled breaths using your diaphragm rather than chest breathing, which is restricted by the pressure. Don't waste energy on wild escape attempts - work methodically. Use frames to create micro-spaces for breathing rather than constantly pushing. Time your explosive escape attempts for when the opponent shifts weight or attacks submissions, conserving energy between windows.
-
-**Q8**: What role does your far leg play in successful escapes from Reverse Kesa-Gatame?
-**A**: Your far leg provides the base and driving power for hip escapes. Keep it bent with the foot flat on the mat, ready to push. This leg drives your shrimping motion and prevents you from being flattened. Critically, do not bring this knee toward your opponent - this feeds them a path to mount. Instead, use it to push your hips away while keeping your near leg mobile for knee shield insertion.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

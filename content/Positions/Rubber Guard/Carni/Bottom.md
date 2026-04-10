@@ -20,8 +20,8 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Heel Hook from Carni",
+      "text": "From this position, attempt Heel Hook from Carni. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
     },
     {
@@ -44,8 +44,8 @@ description: "Master attacking from Carni position in BJJ. Advanced leg entangle
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Calf Slicer",
-      "text": "From this position, attempt Calf Slicer. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Calf Slicer from Carni",
+      "text": "From this position, attempt Calf Slicer from Carni. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
@@ -171,6 +171,8 @@ The technical requirements for effective Carni play from bottom include precise 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Carni (Bottom)?</p>
+
 - Bottom player controls one of top player's legs with both of their legs creating an entanglement, with the controlled leg trapped between bottom player's legs in a figure-four or ashi garami configuration where the ankle is isolated and the heel is exposed
 - Bottom player maintains inside positioning with their top leg hooking over opponent's hip or threading inside toward the far hip to create saddle entry angles and prevent the opponent from simply stepping over to escape
 - Top player's trapped leg is extended and isolated with heel exposed to bottom player's grip, while top player's upper body is typically forced forward or sideways to defend the leg attack, creating potential back exposure opportunities
@@ -183,6 +185,8 @@ The technical requirements for effective Carni play from bottom include precise 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Carni (Bottom)?</p>
 
 - Successful entry from Single Leg X-Guard, Reverse De La Riva Guard, or Ashi Garami position
 - Control of at least one of opponent's legs with proper foot positioning inside their hip line
@@ -197,6 +201,8 @@ The technical requirements for effective Carni play from bottom include precise 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Carni?</p>
 
 - Maintain inside positioning with top leg over opponent's hip to prevent escape and create saddle entry angles
 - Control opponent's heel and ankle with both hands to establish immediate submission threat and prevent leg extraction
@@ -213,6 +219,8 @@ The technical requirements for effective Carni play from bottom include precise 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Carni (Bottom)?</p>
+
 **If opponent pulls knee toward chest and creates defensive ball to protect heel:**
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 - Execute **[[Transitions/Outside Ashi Entry/Attacker|Outside Ashi Entry]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 55%)
@@ -225,7 +233,7 @@ The technical requirements for effective Carni play from bottom include precise 
 
 **If opponent turns belly down to defend heel exposure:**
 - Execute **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 75%)
-- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
+- Execute **[[Submissions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Twister Control/Truck]] (Probability: 55%)
 
 
 **If opponent extends leg and attempts to create distance:**
@@ -245,6 +253,8 @@ The technical requirements for effective Carni play from bottom include precise 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Carni?</p>
 
 ### 1. Failing to maintain inside positioning with top leg, allowing opponent to step over and escape
 
@@ -289,6 +299,8 @@ The technical requirements for effective Carni play from bottom include precise 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Carni defense?</p>
+
 ### Carni Entry Flow Drill
 
 Start from Single Leg X-Guard or Reverse De La Riva Guard and practice smooth entries to Carni position, focusing on establishing inside positioning and heel control. Partner provides light resistance. Alternate roles every 2 minutes.
@@ -329,38 +341,6 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution for maintaining Carni control?
-**A**: Weight should be distributed through your leg entanglement and hip connection rather than your upper body. Your legs create the primary control by trapping the opponent's leg in a figure-four configuration while your hips stay angled to their hip line. Keep your upper body relaxed and mobile so you can react to their defensive movements. The tension comes from your leg triangle, not from gripping or squeezing with arms.
-
-**Q2**: Your opponent starts to pull their knee toward their chest - what adjustment do you make?
-**A**: When the opponent pulls their knee toward their chest creating a defensive ball, immediately transition toward the saddle position. Their knee retraction actually creates the perfect angle for saddle entry as their leg crosses your body. Follow their movement by threading deeper and transitioning your leg position to secure the saddle configuration. This is a high-percentage transition because their defensive action facilitates your advancement.
-
-**Q3**: What are the essential grips for maintaining Carni position?
-**A**: The essential grips are on the opponent's heel and ankle with both hands, creating immediate submission threat. Control the heel with your inside hand (pulling toward your chest) while your outside hand controls the ankle area for directional control. Avoid gripping too high on the leg above the knee as this loses immediate finish threat. These grips must be maintained throughout transitions while your legs do the primary controlling work.
-
-**Q4**: How do you shut down the primary escape where opponent tries to step over with their free leg?
-**A**: To shut down the step-over escape, maintain active inside positioning with your top leg hooking over the opponent's hip or threading toward their far hip. This leg acts as a barrier preventing them from stepping over. If they attempt the step-over, immediately adjust your hook to block their movement while tightening your leg triangle. You can also use your outside arm to control their far leg if needed.
-
-**Q5**: What grip priorities should you maintain as the opponent increases their defensive pressure?
-**A**: As defensive pressure increases, prioritize in this order: first maintain your inside leg position over their hip, second keep heel and ankle control with both hands, and third use your leg triangle tension to prevent leg extraction. If they stack, be ready to invert to maintain these controls. Never sacrifice inside leg positioning for better heel grip as this allows them to step over and escape entirely.
-
-**Q6**: Your opponent attempts to roll away from the heel hook threat - how do you apply pressure to follow?
-**A**: When the opponent rolls away, immediately follow their movement to take the back or transition to truck position. As they roll, maintain your leg entanglement while rotating your body to stay connected. Follow their hip rotation with your own hips rather than trying to hold them static. The rolling motion they use to escape the heel hook actually exposes their back, making this a higher percentage finish than forcing the leg lock.
-
-**Q7**: How should you manage energy during extended Carni control sequences?
-**A**: Energy management requires keeping your upper body relaxed while your legs maintain active tension. Avoid death-gripping the heel as this fatigues your forearms quickly. Let your leg configuration do the primary control work while your hands guide and threaten. Stay patient and let the opponent expend energy escaping while you wait for optimal finishing opportunities. The position should feel sustainable for 30-45 seconds of active control.
-
-**Q8**: After your opponent partially extracts their leg, what's your recovery procedure to re-establish control?
-**A**: If they partially extract, immediately re-engage your inside leg hook over their hip to prevent complete escape. Follow their movement and re-establish your leg triangle around whatever portion of their leg remains trapped. If needed, transition to a different ashi garami variation like outside ashi that may be available from the new angle. Never let them fully extract - maintain constant connection even if the specific position changes.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -390,7 +370,7 @@ Start from Carni position with clear rules: if heel is defended, transition to s
 - **[[Positions/De La Riva Guard/Reverse De La Riva Guard]]** - Entry position - common guard to initiate Carni entries
 - **[[Positions/Ashi Garami/Inside Ashi-Garami]]** - Related control position - shares similar leg entanglement principles
 - **[[Transitions/Heel Hook]]** - Primary submission - most common finish from Carni position
-- **[[Submissions/Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
+- **[[Calf Slicer from Truck]]** - Secondary submission - accessed via truck transition from Carni
 - **[[Transitions/Kneebar]]** - Alternative submission - opportunistic finish when opponent extends leg
 - **[[Positions/Ashi Garami/Honey Hole]]** - Related finishing position - alternative leg entanglement for submissions
 

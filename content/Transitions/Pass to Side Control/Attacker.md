@@ -192,6 +192,8 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass to Side Control?</p>
+
 - Control opponent's hip line throughout the extraction to prevent guard recovery or sweep attempts during transition
 - Maintain constant pressure with chest and shoulder weight while legs disengage from the entanglement
 - Use grip fighting to strip opponent's control of your ankle before attempting leg extraction
@@ -206,6 +208,8 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass to Side Control?</p>
+
 - 50-50 Guard top position with hip pressure advantage established
 - Opponent's heel effectively hidden or protected, making direct leg attacks low percentage
 - Your inside leg position maintained or neutral, not at disadvantage
@@ -218,6 +222,8 @@ This transition exemplifies the principle that positional dominance sometimes ou
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass to Side Control step by step?</p>
 
 1. **Strip ankle control**: Use both hands to break opponent's grip on your ankle or foot. Two-on-one grip fighting targeting their controlling hand first eliminates their ability to prevent your leg extraction.
 2. **Drive chest forward**: Immediately after breaking grips, drive your chest weight forward onto opponent's torso while keeping hips low. This pressure prevents them from sitting up or following your movement during extraction.
@@ -247,6 +253,8 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass to Side Control?</p>
+
 - **Re-capturing legs by hooking your extracting leg before it clears** (Effectiveness: High) - Your Response: If opponent begins to re-hook, immediately return to chest pressure and restart grip fighting sequence. Do not force extraction against active leg defense. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
 - **Hip escape and knee insertion during transition to recover half guard** (Effectiveness: Medium) - Your Response: Keep constant forward pressure and use your knee on their hip to block insertion. If they start hip escaping, accelerate your pass to beat their recovery timing. → Leads to [[Positions/Side Control]]
 - **Sitting up during extraction to reach for leg attacks on your partially cleared leg** (Effectiveness: Medium) - Your Response: Drive crossface aggressively to flatten them. Your chest weight should prevent sit-up; if they manage to rise, abort pass and re-establish 50-50 top pressure. → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -258,6 +266,8 @@ This transition exemplifies the principle that positional dominance sometimes ou
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass to Side Control?</p>
 
 ### 1. Attempting to extract legs without first breaking opponent's grip control
 
@@ -292,6 +302,8 @@ This transition exemplifies the principle that positional dominance sometimes ou
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass to Side Control (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice grip breaking and chest pressure maintenance from 50-50 top. Partner provides no resistance. Focus on the sequential leg extraction mechanics - inside leg first, plant knee, then outside leg. Drill each step in isolation before combining.
 
@@ -309,48 +321,12 @@ Implement in positional sparring starting from 50-50. Partner provides full resi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Pass to Side Control from 50-50?
-**A**: The primary goal is to abandon the leg entanglement exchange in favor of establishing a dominant pinning position. This is strategic when leg attacks are defended well (opponent hiding heel), when ruleset restricts heel hooks, or when positional points outweigh continued leg lock hunting. Success yields 3 points for passing.
-
-**Q2**: What must you accomplish before attempting to extract your legs from 50-50?
-**A**: You must break opponent's grip control on your ankle or foot using two-on-one grip fighting. Attempting extraction while they control your leg allows immediate re-capture. After breaking grips, immediately drive chest pressure forward to prevent re-gripping.
-
-**Q3**: Your opponent begins hip escaping as soon as you start extracting your inside leg - what adjustment prevents guard recovery?
-**A**: Drive forward pressure more aggressively with your chest and immediately plant your freed knee on their hip or in their hip crease. This blocks their knee insertion path. If their hip escape is faster than your knee plant, accelerate the entire sequence rather than slowing down - speed beats their recovery timing.
-
-**Q4**: Why is sequential leg extraction (inside first, then outside) critical rather than extracting both simultaneously?
-**A**: Extracting both legs simultaneously removes all control points from opponent's hip line, creating space for them to bump, roll, or recover guard. Sequential extraction maintains constant pressure - inside leg extracts and knee immediately plants on hip, then outside leg clears while that knee blocks. Always maintain at least one control point.
-
-**Q5**: What signals indicate that passing to side control is a better option than continuing leg attacks?
-**A**: Key signals include: opponent consistently hiding heel successfully making heel hook low percentage, opponent matching your inside position control creating stalemate, time running low in competition and needing points, opponent's leg lock defense superior to yours, or opponent becoming predictable in heel defense creating passing windows. Recognize when leg lock hunting yields diminishing returns.
-
-**Q6**: Your opponent inverts and granby rolls as you begin extracting legs - how do you capitalize?
-**A**: Their inversion exposes their back. Instead of completing the side control pass, follow their rotation with your pressure and circle toward their back as they roll. Their defensive movement becomes your entry to back control, which is superior to side control. Stay heavy on their upper body throughout their rotation.
-
-**Q7**: What is the correct direction of force when establishing crossface after legs clear?
-**A**: Drive shoulder pressure diagonally across opponent's face toward the mat on the far side. The force direction should prevent them from turning their head toward you. Your shoulder blade or deltoid creates pressure on their jaw/cheek. Simultaneously slide your arm under their head to lock the crossface position.
-
-**Q8**: When should you abort the pass attempt and return to 50-50 leg attacks?
-**A**: Abort if: opponent successfully re-hooks your leg before it clears (restart grip fighting), opponent sits up and threatens your partially extracted leg, or you lose chest pressure and they create significant space. Forcing a failed pass often results in worse position than controlled return to 50-50. Recognize when pass timing is wrong early.
-
-**Q9**: What specific grip must you break first during the initial grip fighting phase?
-**A**: Target the opponent's controlling grip on your ankle or foot first, as this is the primary mechanism they use to prevent leg extraction. Use two-on-one grip fighting where both your hands attack their single controlling hand. Peel their fingers from your ankle rather than pulling your leg away, as peeling requires less force and is more reliable against strong grips.
-
-**Q10**: Your opponent maintains a strong grip on your ankle despite two-on-one grip fighting - what alternative approach breaks the stalemate?
-**A**: Redirect to a submission threat rather than continuing to fight the grip directly. Threaten a kneebar or ankle lock on their exposed leg, which forces them to release your ankle to defend their own leg. This creates the window you need for extraction. The principle is that offensive threats break defensive grips more efficiently than pure grip fighting.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass to Side Control?</p>
 
 Pass to Side Control from 50-50 is generally low-risk for both practitioners when executed properly. The primary injury concern is knee torque if your extracting leg gets caught at an awkward angle while you drive forward pressure. If you feel your knee binding during extraction, release pressure and restart rather than forcing through resistance. When drilling, partners should allow clean extraction initially before adding resistance to prevent knee tweaks. Avoid this pass if you have existing knee injuries as the rotational extraction motion can aggravate medial collateral ligament issues. Communication during training prevents accidental injury when partner's grip on your ankle remains tight during extraction.
 

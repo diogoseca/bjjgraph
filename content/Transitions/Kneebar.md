@@ -204,7 +204,7 @@ The kneebar from Backside 50-50 functions as a critical component of modern leg 
 
 - [[Transitions/Outside Heel Hook]] - Alternative leg attack from same position
 
-- [[Transitions/Toe Hold]] - Complementary attack - third option in leg lock dilemma
+- [[Submissions/Toe Hold]] - Complementary attack - third option in leg lock dilemma
 
 - [[Positions/Ashi Garami/50-50 Guard]] - Related position - opponent may recover to neutral 50-50
 
@@ -212,7 +212,7 @@ The kneebar from Backside 50-50 functions as a critical component of modern leg 
 
 - [[Positions/Ashi Garami/Inside Ashi-Garami]] - Related entanglement with similar kneebar mechanics
 
-- [[Submissions/Kneebar from 50-50]] - Related technique from standard 50-50 position
+- [[Submissions/Flying Kneebar]] - Acrobatic kneebar variation requiring aerial entry timing
 
 - [[Submissions/Straight Ankle Lock]] - Alternative lower-risk leg attack from similar positions
 

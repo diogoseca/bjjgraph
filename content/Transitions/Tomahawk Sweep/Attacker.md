@@ -188,6 +188,8 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Tomahawk Sweep?</p>
+
 - Establish strong X-Guard structure with proper hook placement and weight distribution before initiating any sweep attempt
 - Control opponent's posture through strategic grip fighting and angle management to prevent effective posting
 - Create sweeping angle by rotating hips 30-45 degrees off center-line before initiating the chopping motion
@@ -203,6 +205,8 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Tomahawk Sweep?</p>
+
 - Established X-Guard position with both hooks properly placed on opponent's legs in classic X-configuration
 - Bottom hook positioned deep behind opponent's near knee past the joint line, controlling their primary base
 - Top hook secured across opponent's hip or thigh providing elevation control and rotational leverage
@@ -217,6 +221,8 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Tomahawk Sweep step by step?</p>
 
 1. **Secure X-Guard structure**: Establish classic X-Guard configuration with bottom hook positioned deep behind opponent's near knee and top hook crossing their hip line. Ensure both hooks create maximum control over opponent's lower body while maintaining your own base through shoulder and elbow support on the mat. Hips should be actively elevated, not resting flat.
 2. **Establish grip control**: Secure a strong sleeve grip on the same-side arm as your top hook, or alternatively control the collar on the opposite side. This grip prevents opponent from posting their hand during the sweep and controls their upper body rotation. Your grip hand should be positioned to pull opponent's weight forward and off their base during the sweep initiation.
@@ -246,6 +252,8 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Tomahawk Sweep?</p>
+
 - **Opponent bases out with free hand while maintaining wide stance to resist rotational force** (Effectiveness: High) - Your Response: Switch to alternative X-Guard sweep targeting the posted arm, or transition to single leg X-guard to attack the weighted leg. Can also use their posted hand as leverage point to increase sweep angle and overcome their base with adjusted mechanics. → Leads to [[Positions/X-Guard]]
 - **Opponent drops weight low and sprawls hips backward to lower center of gravity** (Effectiveness: Medium) - Your Response: Immediately transition to ankle lock or heel hook entries as their defensive posture creates leg entanglement opportunities. The sprawl backward exposes their legs. Alternatively, switch to technical standup and enter wrestling positions rather than forcing the sweep against heavy backward pressure. → Leads to [[Positions/X-Guard]]
 - **Opponent strips top hook before sweep can be initiated by pushing knee outward** (Effectiveness: High) - Your Response: Convert to single leg X-guard position and execute alternative sweeps from that structure. Can also use the hook stripping motion to time an entry into Ashi Garami positions for leg attack sequences, as their focus on the hook leaves their base vulnerable. → Leads to [[Positions/X-Guard]]
@@ -257,6 +265,8 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Tomahawk Sweep?</p>
 
 ### 1. Attempting sweep without proper angular setup, sweeping directly underneath opponent
 
@@ -296,6 +306,8 @@ The Tomahawk Sweep is a dynamic and powerful technique executed from X-Guard tha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Tomahawk Sweep (Attacker)?</p>
+
 **Week 1-2: Fundamental mechanics** - Hook placement and basic structure
 Practice establishing X-Guard position from various entries and maintaining structure against standing partner. Focus on proper hook depth, angle creation with hips, and grip options for upper body control. Drill static positioning to develop muscle memory for correct hook placement and weight distribution. No live resistance initially.
 
@@ -316,48 +328,12 @@ Refine sweep through live rolling with emphasis on creating setup opportunities 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical difference between a Tomahawk Sweep and a traditional X-Guard elevation sweep?
-**A**: The Tomahawk Sweep utilizes a diagonal chopping motion with the top hook creating rotational force, whereas traditional X-Guard sweeps typically use more vertical lifting mechanics. The Tomahawk's angular approach compromises opponent's base through rotation rather than pure elevation, making it more effective against opponents with strong vertical posture and wide stance. The scissoring action of both hooks working at opposing angles creates a force that cannot be resisted by a single post.
-
-**Q2**: Why is creating a 30-45 degree angle with your hips essential before initiating the Tomahawk Sweep?
-**A**: The angular hip position converts the sweep vector from vertical to diagonal, creating rotational momentum that destabilizes opponent's base more effectively than straight lifting. This angle positions your hooks to generate a scissoring action that attacks both upper and lower parts of opponent's stance simultaneously, making defensive posting much more difficult. Without this angle, the force travels straight up into the opponent's base rather than around it.
-
-**Q3**: Your opponent successfully posts their hand out wide during your Tomahawk Sweep attempt. What adjustments should you make?
-**A**: Rather than forcing the failed sweep, immediately transition to alternative attacks. Switch to single leg X-guard to attack their now-weighted posted-side leg, or use the posted hand as a new leverage point to increase your sweep angle. You can also abandon the sweep entirely and transition to technical standup for a single leg takedown or enter Ashi Garami positions for leg attacks. The key is recognizing the failed attempt early and flowing to the next option rather than burning energy on a blocked sweep.
-
-**Q4**: What is the most critical hip movement in the Tomahawk Sweep execution sequence?
-**A**: The explosive hip rotation during the chopping phase is the most critical movement. The hips must rotate forcefully in the sweep direction while simultaneously extending through both hooks. This hip rotation is the primary power generator for the entire sweep, converting your leg strength into rotational force against opponent's base. Without proper hip rotation, the sweep becomes an arm-pulling exercise that lacks the power to overcome a planted opponent's base and will fail against any competent defender.
-
-**Q5**: What grip configuration provides the highest success rate for the Tomahawk Sweep, and why?
-**A**: A same-side sleeve grip on the arm corresponding to your top hook provides the highest success rate because it accomplishes three objectives simultaneously: it prevents the opponent from posting on the sweep side, it allows you to pull their weight forward to break their vertical posture, and it directs their rotation during the sweep to ensure they fall in the optimal trajectory for mount consolidation. In no-gi, a wrist control or underhook on that same side serves the equivalent function.
-
-**Q6**: When is the optimal moment to release your hooks during the Tomahawk Sweep?
-**A**: Hooks should be released only when opponent's backward momentum toward the mat becomes irreversible, typically when their shoulders pass the point where posting could recover their base. Releasing too early allows opponent to regain stability mid-sweep, while maintaining hooks too long prevents smooth transition to top position and may cause you to roll past the optimal consolidation point. The key indicator is observing opponent's commitment to the fall when their upper body passes perpendicular to the mat.
-
-**Q7**: Your opponent drops their weight low and sprawls backward when they feel you setting up the Tomahawk Sweep. How do you adapt?
-**A**: The sprawl defense lowers opponent's center of gravity and creates backward pressure that directly opposes the sweep's angular momentum. Rather than forcing the sweep, recognize this as a transition opportunity: their backward hip position exposes their legs to ankle lock and heel hook entries through Ashi Garami transitions. You can also use their low posture to enter technical standup since their defensive sprawl compromises their ability to pressure forward. The backward weight shift often makes their far leg light enough for single leg X entries.
-
-**Q8**: How does the Tomahawk Sweep chain with leg entanglement attacks when the primary sweep is defended?
-**A**: When an opponent defends the Tomahawk Sweep by sitting back, rolling through, or scrambling laterally, their defensive movement often exposes their legs to entanglement entries. Maintaining bottom hook control behind the knee during the failed sweep attempt preserves the connection needed to transition to inside Ashi Garami or saddle positions. The opponent's defensive rotation can actually assist the entry to these positions. This dual-threat nature makes the sweep more effective because the opponent must choose between defending the sweep and protecting their legs.
-
-**Q9**: What conditions must exist before you should attempt the Tomahawk Sweep rather than an alternative X-Guard attack?
-**A**: The Tomahawk Sweep requires several specific conditions: the opponent must be maintaining upright or forward-leaning posture rather than already pressuring down, both hooks must be deeply established in the X-configuration with the bottom hook past the knee joint, a reliable upper body grip must be secured to prevent posting, and your hips must have enough freedom of movement to create the 30-45 degree angle. If any of these conditions are missing, alternative attacks like technical standup, elevation sweeps, or direct Ashi Garami entries offer higher percentage options.
-
-**Q10**: What is the primary direction of force during the chopping motion of the top hook?
-**A**: The top hook drives diagonally across the opponent's hip line in a lateral-to-medial direction relative to the sweep side, creating a sweeping arc rather than a straight push. This diagonal force vector is critical because it generates rotational momentum around the opponent's center of gravity rather than simply pushing them backward. The force should travel approximately 45 degrees from the sagittal plane, combining lateral displacement with forward pulling through the grip to create a spiral destabilization pattern that overwhelms single-point base defenses.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Tomahawk Sweep?</p>
 
 The Tomahawk Sweep is generally a low-risk technique for both practitioner and opponent when executed with proper control and awareness. Primary safety considerations include maintaining awareness of opponent's knee and ankle integrity during hook extension, as excessive force without proper angle can stress these joints unnaturally. When following opponent's rotation to consolidate position, avoid driving your weight directly onto their knee or ankle if their leg becomes trapped awkwardly during the sweep. Allow them to adjust leg position if necessary before establishing full mount pressure. For the practitioner, ensure proper mat awareness to prevent rolling into walls or other training partners during the dynamic sweeping motion. When drilling with newer practitioners, emphasize controlled execution rather than explosive power to prevent unexpected falls or impact injuries. In competition scenarios, be mindful of mat boundaries when executing this sweep as the rotational momentum can carry both athletes significant distance from starting position.
 

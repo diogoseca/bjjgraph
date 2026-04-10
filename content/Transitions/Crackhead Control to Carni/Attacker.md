@@ -190,6 +190,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crackhead Control to Carni?</p>
+
 - Maintain constant hip movement in crackhead control to create unpredictability and openings for the transition
 - Wait for top player to commit weight forward before initiating the inversion to carni entry
 - Thread inside leg first to establish the critical inside positioning before committing to full transition
@@ -205,6 +207,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crackhead Control to Carni?</p>
+
 - Established in crackhead control bottom position with functional hip mobility
 - Top player has committed weight forward onto your lower back in chair-sit position
 - Your inside arm is free or can be freed through grip fighting to assist leg insertion
@@ -218,6 +222,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crackhead Control to Carni step by step?</p>
 
 1. **Establish defensive rhythm**: Maintain constant hip movement and active hand fighting characteristic of crackhead control defense. Create unpredictability in your movement patterns to make the top player reactive rather than proactive. This phase disguises your transition intent.
 2. **Recognize weight commitment**: Feel for the moment when the top player commits their weight forward over your lower back in their chair-sit position. This forward commitment creates space underneath their body and compromises their ability to react to your movement. The pressure increase on your lumbar spine signals the timing window.
@@ -247,6 +253,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crackhead Control to Carni?</p>
+
 - **Top player immediately steps over with free leg to pass guard during transition attempt** (Effectiveness: High) - Your Response: Maintain active inside leg hook over hip to block step-over. If they begin stepping, immediately transition to half guard or butterfly guard recovery rather than forcing carni entry → Leads to [[Positions/Crackhead Control]]
 - **Top player sprawls back and retracts hips when feeling the inversion begin** (Effectiveness: Medium) - Your Response: Their hip retraction creates space for technical standup or granby roll to guard. The sprawl defense trades their crackhead control for your guard recovery opportunity → Leads to [[Positions/Crackhead Control]]
 - **Top player drives forward aggressively with chest pressure to flatten you during transition** (Effectiveness: Medium) - Your Response: Use their forward drive momentum to assist your inversion. Their chest pressure actually facilitates the roll-under motion when timed correctly, converting their aggression into your transition energy → Leads to [[Positions/Rubber Guard/Carni]]
@@ -258,6 +266,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crackhead Control to Carni?</p>
 
 ### 1. Attempting transition when top player has not committed weight forward
 
@@ -297,6 +307,8 @@ Success depends on reading your opponent's pressure patterns from crackhead cont
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crackhead Control to Carni (Attacker)?</p>
+
 **Week 1-2** - Inversion mechanics
 Practice solo inversion drills focusing on hip mobility and the threading motion required for carni entry. Work the mechanical movement without partner first, then add stationary partner in crackhead control position. Focus on proper leg sequence: inside leg first, then outside leg to complete entanglement.
 
@@ -314,48 +326,12 @@ Implement in positional sparring from crackhead control bottom. Partner uses ful
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What weight distribution must you feel from the top player before initiating this transition?
-**A**: You must feel the top player commit their weight forward over your lower back in their chair-sit position. This forward commitment compromises their base and creates space underneath their body for your inversion. Attempting the transition when they have neutral or rearward weight distribution allows easy counter-attacks because they can post wide or drive you flat.
-
-**Q2**: Why is inside leg positioning critical during the transition?
-**A**: Inside leg positioning creates the barrier preventing the opponent from stepping over to escape or pass. The inside leg must hook over the opponent's hip before the outside leg completes the entanglement. Without inside positioning, the opponent can easily extract their leg and advance to dominant position, making the entire transition attempt counterproductive.
-
-**Q3**: Your opponent begins sprawling back as you initiate the inversion - how do you adapt?
-**A**: Their sprawl creates space for alternative escapes. Use their hip retraction to recover to guard position (butterfly, half guard, or closed guard) rather than forcing the carni entry. Their defensive sprawl trades their crackhead control for your guard recovery, which is a favorable exchange from your defensive position. Accept the guard recovery as a win.
-
-**Q4**: What is the immediate hand priority upon completing the leg entanglement?
-**A**: Immediately establish heel and ankle control with both hands. The inside hand controls the heel pulling toward your chest while the outside hand controls ankle position for directional control. This establishes immediate submission threat and prevents leg extraction. Positional adjustment comes after heel control is secured, never before.
-
-**Q5**: How do you protect against guillotine or darce attacks during the inversion?
-**A**: Keep your chin tucked tightly to your chest throughout the entire inversion movement. Your head stays protected between your shoulders until the carni position is fully established. Never raise your head during the transition as this exposes your neck to front headlock attacks from the top player who already has upper body proximity.
-
-**Q6**: Your opponent drives heavy chest pressure forward as you begin the inversion - is this good or bad for your transition?
-**A**: This is actually favorable for your transition when timed correctly. Their forward drive creates the momentum you need for the roll-under motion and simultaneously compromises their base further. Use their chest pressure to assist the inversion rather than fighting against it. The key is timing: initiate your thread as their weight shifts forward, converting their pressure into your transition energy.
-
-**Q7**: What grip fighting action must precede the inversion and why?
-**A**: Your inside arm must be freed through grip stripping before inverting. This arm is essential for assisting leg insertion, maintaining balance during inversion, and establishing heel control upon completion. A trapped inside arm prevents full rotation and leaves you stuck in a compromised transitional position where the top player can counter-attack freely.
-
-**Q8**: What alternative positions should you accept if the full carni entry is blocked?
-**A**: Accept half guard, butterfly guard, single leg X-guard, or any partial leg entanglement that results from the blocked transition. These represent significant improvement over crackhead control bottom. Never force a failed transition. Take whatever guard recovery the partial movement provides and restart your offensive game from the improved position.
-
-**Q9**: Why must you commit fully once the transition is initiated rather than testing the waters?
-**A**: A half-committed transition position is worse than either crackhead defense or completed carni. Stopping midway leaves you vulnerable to back take, pass, or submission from the top player who can capitalize on your exposed position. The explosive nature of the movement requires full commitment because the timing window closes rapidly once the top player recognizes the threat.
-
-**Q10**: How do you adjust your hip angle after establishing the carni entanglement for maximum offensive threat?
-**A**: Your hips should angle across the opponent's trapped leg rather than parallel to it. This creates optimal heel hook leverage by maximizing rotational force on their knee joint. The hip angle adjustment is the final positional refinement after securing inside leg position and heel control. Without this angle, your heel hook threat lacks the mechanical advantage needed to finish.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crackhead Control to Carni?</p>
 
 This transition involves rapid inversion and leg entanglement mechanics that require progressive skill development to execute safely. Beginners should focus on the mechanical movement with cooperative partners before adding resistance. The receiving partner should be familiar with carni defense and heel hook tap protocols before practicing at intensity. Never force the transition against rigid resistance as this can strain your own back during the inversion movement. The heel control established at the end of this transition creates immediate injury risk if applied explosively - establish control gradually and give your partner opportunity to tap. In training, prioritize positional completion over submission speed. Avoid drilling this transition when fatigued as the complex movement pattern degrades under exhaustion, increasing injury risk to both partners.
 

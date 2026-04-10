@@ -195,7 +195,7 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 - **[[Transitions/Grip Strip from Buggy Choke/Attacker|Grip Strip from Buggy Choke]]** (1% of attempts)
 
-- **[[Submissions/Buggy Choke Finish/Attacker|Buggy Choke Finish]]** (2% of attempts)
+- **[[Buggy Choke from Buggy Choke/Attacker|Buggy Choke from Buggy Choke]]** (2% of attempts)
 
 
 ### Common Mistakes

@@ -85,7 +85,7 @@
       "relationship": "Entry transition that commonly leads to the omoplata control position"
     },
     {
-      "name": "Rolling Omoplata",
+      "name": "Rolling Omoplata from Omoplata Control",
       "relationship": "Related omoplata submission within the same attack system"
     },
     {
@@ -357,6 +357,14 @@
       {
         "question": "What body mechanics prevent the lateral counter-sweep during your stack attempt?",
         "answer": "Distribute your weight broadly rather than channeling it into a narrow forward line. Post your free hand wide on the mat, keep your knees apart, and maintain a low center of gravity throughout the stack. When you feel the lateral pull, drive your hips in the opposite direction while keeping your chest over your opponent's body. Your free leg should be ready to post or step to whichever side the sweep is directed, providing an immediate base recovery option that prevents the sweep from completing."
+      },
+      {
+        "question": "How do you effectively strip the opponent's belt grip to neutralize their primary steering control during the stack?",
+        "answer": "Use your free hand to perform a two-on-one grip break by peeling their fingers from the belt while simultaneously driving your hip away from their grip direction. Timing is critical—strip the grip in the first seconds of the stack before they establish their full defensive framework. Once the grip is broken, immediately re-commit to your forward drive before they can re-establish it. If a full grip break is not possible, push your hip into their gripping hand to reduce the mechanical leverage they can generate, converting their steering grip into a less effective contact point."
+      },
+      {
+        "question": "What escape chain should you prepare when your initial stack encounters a fully established stack defense?",
+        "answer": "Have three escape options queued in order of priority based on what the opponent gives you. First, if their leg control loosens during the hip angle adjustment, immediately attempt arm extraction by circling your trapped elbow toward your hip and pulling free. Second, if they maintain tight leg control but overcommit to the lateral redirection, transition to a forward roll by tucking your shoulder and rolling through their control. Third, if both of those windows are closed, use the momentum of their lateral pull to cartwheel over their body, landing in a neutral position. The key is reading which option is available within one to two seconds rather than stubbornly committing to the stack."
       }
     ],
     "training_progressions": [

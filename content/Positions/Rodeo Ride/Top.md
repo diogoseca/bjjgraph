@@ -21,13 +21,13 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
     {
       "@type": "HowToStep",
       "name": "Execute Turtle to Back Take",
-      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 28% of exchanges from this position.",
+      "text": "From this position, attempt Turtle to Back Take. This technique is attempted in 30% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Crab Ride to Back",
-      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 12% of exchanges from this position.",
+      "text": "From this position, attempt Crab Ride to Back. This technique is attempted in 14% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,14 +44,14 @@ description: "Master Rodeo Ride attacks in BJJ. Advanced turtle control position
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Clock Choke",
-      "text": "From this position, attempt Clock Choke. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Clock Choke from Rodeo Ride",
+      "text": "From this position, attempt Clock Choke from Rodeo Ride. This technique is attempted in 8% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Rodeo Ride",
+      "text": "From this position, attempt Bow and Arrow Choke from Rodeo Ride. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Position Definition
 
+<p class="section-subtitle">What is Rodeo Ride (Top)?</p>
+
 - Top practitioner positioned on opponent's side or back with hips loaded on opponent's torso between their shoulder and hip, maintaining dynamic weight distribution that shifts responsively with opponent movement while preventing them from flattening completely or achieving standing position
 - Control established through asymmetric gripping pattern where top practitioner controls near-side arm (wrist, elbow, or shoulder control) while maintaining collar, neck control, or far-side grip to prevent opponent rotation and create attack opportunities
 - Opponent in defensive turtle position with hands and knees on mat, head tucked protectively, attempting to maintain base against top practitioner's pressure while defending back exposure and submission threats
@@ -182,6 +184,8 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Rodeo Ride (Top)?</p>
+
 - Opponent must be in defensive turtle position with hands and knees on mat
 - Top practitioner must establish initial control over opponent's upper body, near arm, or collar
 - Sufficient balance and mobility to maintain control while opponent attempts movement and escapes
@@ -193,6 +197,8 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Rodeo Ride?</p>
 
 - Maintain constant hip pressure on opponent's torso while staying mobile and ready to adjust position
 - Control the near arm to prevent opponent from posting and creating defensive frames
@@ -209,6 +215,8 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Rodeo Ride (Top)?</p>
+
 **If opponent maintains tight turtle with good base and head protection:**
 - Execute **[[Transitions/Crab Ride to Back/Attacker|Crab Ride to Back]]** → [[Positions/Crab Ride]] (Probability: 55%)
 - Execute **[[Transitions/Clock Choke/Attacker|Clock Choke]]** → [[game-over]] (Probability: 35%)
@@ -222,7 +230,7 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 **If opponent turns away to protect neck or attempts to stand:**
 - Execute **[[Transitions/Turtle to Truck/Attacker|Turtle to Truck]]** → [[Positions/Twister Control/Truck]] (Probability: 65%)
-- Execute **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
+- Execute **[[Submissions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent flattens out on stomach or extends arms for base:**
@@ -242,6 +250,8 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Rodeo Ride?</p>
 
 ### 1. Staying too static and allowing opponent to establish strong defensive base
 
@@ -286,6 +296,8 @@ Rodeo Ride is particularly valuable in modern competition BJJ because it provide
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Rodeo Ride attacks?</p>
+
 ### Rodeo Ride Flow Drill
 
 Partner starts in turtle, top practitioner establishes Rodeo Ride and flows between crab ride, truck position, and back control entries for 2-minute rounds. Bottom partner maintains active defensive turtle without fully escaping. Focus on smooth transitions and maintaining constant pressure throughout position changes.
@@ -319,38 +331,6 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution pattern that distinguishes Rodeo Ride from static turtle control?
-**A**: Rodeo Ride uses dynamic, asymmetric weight distribution where the hips are loaded onto the opponent's torso while one leg remains posted for base. Unlike static control where you try to pin the opponent with consistent pressure, Rodeo Ride requires constant micro-adjustments that shift responsively with opponent movement. Your chest maintains contact with their back while your posted leg serves as a stabilizing tripod point, allowing you to ride their escape attempts rather than fighting against them with static pressure.
-
-**Q2**: Why is near-arm control considered essential for maintaining Rodeo Ride position?
-**A**: Near-arm control prevents the opponent from posting and creating defensive frames that would allow them to create space, stand up, or turn into you. When the near arm is controlled—whether through wrist grip, elbow control, or shoulder pressure—the opponent loses their primary tool for generating base and movement on that side. This control also sets up many attacking options including back takes and crucifix entries, as the controlled arm cannot defend against subsequent attacks.
-
-**Q3**: Your opponent starts posting with their far hand and attempts to create space—what adjustment should you make?
-**A**: When the opponent posts with their far hand, immediately threaten the crucifix position by controlling that extended arm while maintaining your existing near-arm control. Alternatively, use their posting as an opportunity to collapse their structure by driving your hip pressure forward while pulling their near arm away from their body. Their extended arm actually creates vulnerability—they cannot defend both the back take and the crucifix simultaneously, so use this dilemma to advance position.
-
-**Q4**: How should you adjust your base when the opponent begins rocking side to side trying to unbalance you?
-**A**: When the opponent rocks laterally, widen your posted leg stance and lower your center of gravity by sinking your hips closer to their body. Match their rhythm initially to avoid being thrown off, then counter their momentum by loading pressure toward the direction they're rocking away from. The key is keeping your chest glued to their back throughout the rocking motion. Use their lateral movement as a timing cue—when they rock toward your posted side, that's your window to advance to crab ride or insert hooks on the light side.
-
-**Q5**: What grip priorities should you establish first when initially arriving to Rodeo Ride from a scramble?
-**A**: The first priority is near-arm control—either wrist, elbow, or underhook on the arm closest to you. This prevents their most immediate escape tool. Second priority is collar or neck control on the far side, which prevents them from turning into you and sets up choke threats. Third priority is establishing your posted leg in a stable position for base. Do not reach for submissions or far-side attacks until these three control priorities are secured. Rushing to attack without foundational grips is the most common reason practitioners lose Rodeo Ride.
-
-**Q6**: How do you maintain effective pressure when your opponent begins to flatten toward the mat?
-**A**: As the opponent flattens, follow their descent by walking your hips forward and lowering your chest pressure onto their upper back. Keep your near-arm control and begin transitioning your weight toward a mounted crucifix or technical mount position. Flattening actually helps your control because it eliminates their knee-based mobility. However, do not simply sit on a flat opponent—actively work to advance position because a flat turtle with your weight on top is a scoring opportunity for mount. Drive your hips toward their head to create the angle needed to slide your knee over their hip into mount.
-
-**Q7**: Your opponent explosively attempts to stand while you have Rodeo Ride—what is your immediate response?
-**A**: Maintain your chest-to-back connection and follow them upward while keeping your near-arm control. As they rise, shift your weight to hang from their upper body rather than pushing down from above. If you have a collar grip, use it to snap them back down by pulling their head and shoulders toward the mat while driving your hip pressure forward into their lower back. If they achieve full standing, immediately work to establish a standing back clinch with seat belt control. Never release your chest connection during their stand attempt—staying attached gives you control over whether they complete the stand-up or get pulled back down.
-
-**Q8**: How do you manage energy expenditure when your opponent maintains a strong defensive turtle for an extended period?
-**A**: Against a well-defended turtle, avoid trying to force submissions or positions through strength. Instead, use systematic pressure cycling: threaten one attack to force a defensive reaction, then immediately transition to attack the opening created by that reaction. This creates a dilemma-based scenario where the opponent expends energy defending while you flow between attacks efficiently. Maintain constant hip pressure but use your legs and body positioning rather than arm strength for control. Cycle between three or four attacks in sequence rather than committing fully to any single option.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -377,7 +357,7 @@ Partner in turtle, practitioner establishes Rodeo Ride and flows through submiss
 - **[[Positions/Turtle]]** - Parent position from which Rodeo Ride develops
 - **[[Transitions/Turtle to Back Take]]** - Key transition technique from this position
 - **[[Transitions/Clock Choke]]** - Primary submission available from Rodeo Ride
-- **[[Transitions/Bow and Arrow Choke]]** - Gi-specific submission opportunity from this position
+- **[[Submissions/Bow and Arrow Choke]]** - Gi-specific submission opportunity from this position
 - **[[Positions/Harness]]** - Related back attack control position
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Control mechanism used in transitions from Rodeo Ride
 - **[[Positions/Front Headlock]]** - Alternative attack position from turtle scenarios

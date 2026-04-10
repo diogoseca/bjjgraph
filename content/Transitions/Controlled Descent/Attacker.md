@@ -186,6 +186,8 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Controlled Descent?</p>
+
 - Accept the ground transition rather than fighting an unwinnable standing battle - strategic retreat preserves energy and creates escape opportunities
 - Maintain chin protection throughout the descent - the neck remains the primary target even during transition
 - Control the angle of descent to land in turtle rather than flat on your back where mount becomes possible
@@ -200,6 +202,8 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Controlled Descent?</p>
+
 - Opponent has established standing back control with harness or seat belt grip
 - Neck protection is secure with chin tucked and hands defending choking attempts
 - You have determined that standing escape attempts are unlikely to succeed given opponent's control level
@@ -211,6 +215,8 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Controlled Descent step by step?</p>
 
 1. **Secure neck defense**: Before initiating descent, ensure chin is tucked tightly to chest with your leading hand controlling opponent's choking arm wrist. This protection must be maintained throughout the entire transition.
 2. **Widen base and lower center**: Spread your feet wider than shoulder width and begin bending at the knees to lower your center of gravity. This makes you harder to throw and prepares for controlled drop.
@@ -240,6 +246,8 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Controlled Descent?</p>
+
 - **Opponent follows descent and immediately locks body triangle or deep hooks** (Effectiveness: High) - Your Response: Accept the grounded back control but continue systematic escape - you still eliminated standing threats and have more defensive options on the mat → Leads to [[Positions/Back Control]]
 - **Opponent sprawls weight onto your back during descent to flatten you** (Effectiveness: Medium) - Your Response: Exaggerate the hip turn during descent to land on your side rather than flat, then immediately work to establish turtle or create scramble → Leads to [[Positions/Back Control]]
 - **Opponent rides the descent and drives you past turtle into mount** (Effectiveness: Medium) - Your Response: Tighten elbows to ribs and maintain rounded back posture to prevent being driven flat; if mount is established, immediately begin elbow-knee escape sequence → Leads to [[Positions/Mount]]
@@ -251,6 +259,8 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Controlled Descent?</p>
 
 ### 1. Abandoning neck protection during the descent
 
@@ -285,6 +295,8 @@ This technique represents a paradigm shift in defensive thinking - accepting a t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Controlled Descent (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice solo descent mechanics: widening base, dropping to knees, hip turn, and turtle establishment. Partner holds standing back control with no resistance while you drill the motion sequence 20-30 repetitions per side.
 
@@ -302,54 +314,12 @@ Incorporate Controlled Descent into live sparring. Start rounds from standing ba
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Controlled Descent?
-**A**: The primary goal is to transition from standing back control to a grounded defensive position (typically turtle) on your own terms, eliminating the threats of standing submissions and forceful takedowns while gaining access to ground-based escape sequences that are unavailable while standing.
-
-**Q2**: What position do you start Controlled Descent from?
-**A**: This technique starts from Standing Back Control/Bottom, where your opponent has achieved back exposure with their chest to your back while both practitioners are standing, typically with harness or seat belt grip established.
-
-**Q3**: Why is the hip turn during descent critical to success?
-**A**: The hip turn prevents you from landing flat on your stomach where opponent can achieve mounted back control or completely flatten you out. By turning toward the underhook side, you create the angle necessary to land in turtle position, which offers significantly more defensive options and escape pathways.
-
-**Q4**: Your opponent has tight harness control and is attempting rear naked choke - how do you time the Controlled Descent?
-**A**: Execute the descent when opponent is reaching for the choke (transitioning their grip from harness to choking position) rather than when they have consolidated the choke grip. This timing exploits the moment when their control is loosest - one hand is moving from control to attack, creating a window where the descent disrupts their submission attempt.
-
-**Q5**: What are the key grips needed for Controlled Descent?
-**A**: Unlike offensive techniques, Controlled Descent is primarily about defensive hand positioning rather than specific grips. Your leading hand should be controlling opponent's choking arm wrist, your chin should be tucked to chest, and your elbows pinched to ribs. You are not gripping opponent but rather defending and framing throughout the descent.
-
-**Q6**: How does descending toward the underhook side improve your outcome?
-**A**: Descending toward opponent's underhook arm makes it mechanically more difficult for them to maintain the full harness grip and follow you down in an advantageous position. The underhook arm gets trapped underneath during the descent, often loosening their control and making your turtle establishment easier.
-
-**Q7**: When should you avoid attempting Controlled Descent?
-**A**: Avoid Controlled Descent when opponent has not yet consolidated harness control (you still have escape opportunities standing), when your posture is already completely broken forward (you cannot control the descent angle), or when opponent has body triangle locked (the ground transition will not improve your situation).
-
-**Q8**: What immediate follow-up action is required upon landing?
-**A**: Upon landing, immediately establish proper turtle position by posting on hands and tucking knees under hips, then begin addressing opponent's hooks by pushing their heels away from your thighs. The first 2-3 seconds on the ground determine whether you can execute ground escapes or become trapped in grounded back control.
-
-**Q9**: Your opponent begins driving you forward aggressively from standing back control - should you resist or initiate Controlled Descent?
-**A**: Initiate Controlled Descent immediately rather than resisting a forward drive you cannot win. When your opponent commits their weight forward, you can redirect that momentum into your descent and use it to create separation during the transition. Resisting a committed forward drive while in standing back exposure typically results in being thrown or slammed, which is far worse than a controlled transition to turtle.
-
-**Q10**: What is the critical difference between Controlled Descent and simply being taken down?
-**A**: The critical difference is agency - you choose the timing, angle, and landing position of Controlled Descent. When taken down by your opponent, they dictate where you land and how your body is oriented, typically placing you in the worst possible defensive configuration. In Controlled Descent, you incorporate the hip turn, choose the descent side, and actively work toward turtle or guard during the transition rather than arriving in a position your opponent selected.
-
-**Q11**: Your opponent has one hook in and harness control but their second hook is not yet established - is this the right time for Controlled Descent?
-**A**: This is actually a strong moment to consider standing escapes rather than Controlled Descent. With only one hook and harness, you still have meaningful standing escape options like turning into your opponent or executing an explosive hip turn. Controlled Descent should be reserved for when both hooks and harness are consolidated, or when the opponent's control is tight enough that standing escapes have low probability. Descending prematurely wastes the opportunity to escape back exposure entirely.
-
-**Q12**: How does the direction of force change during each phase of the descent?
-**A**: Initially, the force is directed downward and laterally as you widen your base and lower your center of gravity. During the knee drop, the force shifts to a rotational vector as the hip turn redirects your body toward the chosen side. Upon landing, the force transitions to a forward posting direction as you drive into turtle position with hands and knees under your body. This three-phase force direction prevents the straight-down collapse that leads to being flattened.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Controlled Descent?</p>
 
 Controlled Descent involves intentionally going to the ground and carries inherent risks that require attention. Ensure the training area is properly matted with no gaps or hard surfaces at the edges. When drilling, communicate with your partner before initiating descent so they can adjust their weight and avoid inadvertently driving you into the mat with full force. The neck remains vulnerable throughout the transition, so never rush the technique in a way that compromises your protective chin tuck. In competition or intense sparring, be aware that opponents may attempt to drive through the descent aggressively - maintain defensive posture even when descending rapidly. Knee injuries can occur from improper landing mechanics, so practice the knee-down portion slowly before adding speed. If you have existing neck, shoulder, or knee injuries, consult with your instructor about modified versions of this technique.
 

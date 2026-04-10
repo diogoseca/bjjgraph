@@ -162,6 +162,8 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guillotine Setup?</p>
+
 - Attacker releases far shoulder control and begins repositioning their arm under your chin rather than across the back of your neck—this is the transition from front headlock to guillotine
 - You feel the attacker's wrist bone or forearm blade moving across the front of your throat rather than pressure on the back of your neck—indicating they are threading the choking arm
 - Attacker begins stepping laterally to create an angle on your choking arm side, often accompanied by a shift in their hip pressure from directly above you to the side
@@ -174,6 +176,8 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine Setup?</p>
 
 - Chin tucked to chest at all times—preventing neck extension is the single most important defensive action
 - Fight the choking arm at the wrist or elbow before the grip is locked, not after
@@ -189,6 +193,8 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine Setup?</p>
 
 ### 1. Tuck chin and strip the choking arm at the wrist before the grip is locked
 
@@ -226,6 +232,8 @@ Defending the guillotine setup from the front headlock requires immediate, disci
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine Setup?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Strip the choking arm at the wrist before the grip locks, or circle away from the choking angle to neutralize the guillotine threat. Use two-on-one grip fighting on the choking arm combined with chin tucking to return to standard front headlock defense, then work normal front headlock escape sequences.
@@ -241,6 +249,8 @@ Drive aggressively forward into the attacker during their transitional moment wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Setup?</p>
 
 ### 1. Extending the neck or lifting the chin when feeling the arm thread under
 
@@ -275,6 +285,8 @@ Drive aggressively forward into the attacker during their transitional moment wh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine Setup?</p>
+
 **Week 1-2: Recognition and Chin Tuck Reflex** - Developing automatic defensive responses to guillotine setup recognition cues
 Partner establishes front headlock and alternates between maintaining standard control and initiating guillotine setup. Defender practices recognizing the transition cue (arm moving from back of neck to front) and immediately tucking chin while beginning hand fighting on the choking arm. No escape attempts yet—focus purely on recognition speed and automatic chin tuck response. 20-30 repetitions per training session.
 
@@ -291,29 +303,6 @@ Positional rounds starting from front headlock. Attacker works to establish guil
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from front headlock control to a guillotine setup?
-**A**: The earliest cue is feeling the pressure on your neck shift from the back to the front—specifically, when the attacker releases their standard front headlock grip on the back of your neck and begins repositioning their arm under your chin. You will also feel their far-shoulder control hand release as they prepare to clasp both hands together. This transitional moment is your best defensive window because the attacker has temporarily loosened their overall control to reconfigure for the guillotine.
-
-**Q2**: Why is driving forward into the attacker sometimes the correct defensive choice, even though it feels counterintuitive?
-**A**: Driving forward disrupts the attacker's base and angle during their most vulnerable transitional moment—when they are stepping laterally to create the 45-degree angle necessary for the guillotine. Forward pressure collapses their structure, prevents them from completing the angle change, and can reverse the positional dynamic entirely. The counterintuitive nature of this defense is precisely why it works: most practitioners pull away, which extends the neck and tightens the choke. Driving forward compresses the space and makes it difficult for the attacker to generate the upward lifting force required for the choke.
-
-**Q3**: Your opponent has locked a gable grip and stepped to an angle but has not yet pulled guard—what is your best defensive option at this stage?
-**A**: At this stage, your best option is two-on-one grip fighting on the choking arm combined with aggressive circling away from the choking side. Use both hands to control the attacker's choking wrist and peel it away from your throat while simultaneously circling your body away from their angle. Your chin must remain tucked throughout. If you cannot break the grip, your secondary option is to posture up explosively while hand fighting, using the moment before they pull guard as your last opportunity to create enough space to extract your head.
-
-**Q4**: How does your defensive strategy change if the attacker attempts a standing guillotine finish versus pulling guard?
-**A**: Against a standing finish, the attacker relies on dropping their weight and arching backward for choking pressure, so your defense involves driving forward to prevent them from creating downward leverage while hand fighting the grip. Staying connected hip-to-hip neutralizes the standing finish. Against a guard pull, the attacker will use their legs to control your posture and create a second compression point. Your defense shifts to preventing the guard closure—sprawl your hips back and keep your posture tall to deny them the leg control that makes the bottom guillotine dangerous. The key distinction is forward pressure for standing and postural extension for guard pull.
-
-**Q5**: What defensive adjustments should you make if you recognize the attacker is threading an arm-in guillotine rather than a standard guillotine?
-**A**: The arm-in guillotine traps your near arm inside the choking loop along with your neck, which changes the choking mechanics and makes certain standard defenses less effective. Your key adjustment is to pull your trapped arm out before the grip consolidates—swim your elbow down and back to extract it from the loop. If extraction fails, turn your body toward the trapped arm side (the opposite direction from standard guillotine defense) because the arm-in variation finishes best when you are squared up or turned away. Additionally, the trapped arm actually provides a small buffer against the choke, so you have slightly more time to work your defense compared to a standard guillotine.
-
-
-
-</section>
 
 
 </main>

@@ -15,7 +15,7 @@
   "from_position": "Triangle Control/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Inverted Triangle",
       "probability": 55,
       "result": "success"
     },
@@ -62,7 +62,7 @@
       "relationship": "Starting position from which the inverted triangle is initiated"
     },
     {
-      "name": "Triangle Choke Front",
+      "name": "Triangle Choke",
       "relationship": "Primary alternative submission from same control position"
     },
     {

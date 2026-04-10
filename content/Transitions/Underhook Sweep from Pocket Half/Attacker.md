@@ -194,6 +194,8 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Underhook Sweep from Pocket Half?</p>
+
 - Underhook depth determines sweep power - the deeper the grip across their back, the more control you have over their upper body rotation during the come-up
 - The come-up must be explosive and committed - hesitation allows the opponent to re-establish base and sprawl their hips back to kill the sweep
 - Use opponent's forward pressure as fuel - time the sweep when they drive into you rather than fighting against their weight
@@ -208,6 +210,8 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Underhook Sweep from Pocket Half?</p>
+
 - Deep underhook secured on opponent's far side with hand gripping their far lat, armpit, or belt line - shallow underhook on the near shoulder is insufficient
 - Bottom leg actively framing against opponent's near hip with enough pocket space to generate the come-up angle
 - Half guard leg lock retained with opponent's leg trapped, preventing them from stepping over or posting wide
@@ -220,6 +224,8 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Underhook Sweep from Pocket Half step by step?</p>
 
 1. **Verify underhook depth and grip**: Before initiating the sweep, confirm your underhook reaches deep across the opponent's back with your hand gripping their far lat or belt. If the grip is shallow, re-swim the underhook deeper before proceeding. A shallow underhook will collapse under pressure during the come-up and result in a failed sweep or worse position.
 2. **Create the come-up angle with a slight hip escape**: Shrimp your hips slightly away from the opponent to create the angle needed for the come-up. This small hip escape generates the space to rise to your elbow without being blocked by the opponent's chest weight. The angle should be roughly 30-45 degrees relative to the opponent's body line.
@@ -250,6 +256,8 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Underhook Sweep from Pocket Half?</p>
+
 - **Opponent sprawls hips back and drops weight to kill the come-up** (Effectiveness: High) - Your Response: If you feel the sprawl early, immediately switch to a deep half guard entry by scooting your hips underneath them. Their sprawl creates the space needed for the deep half transition. Alternatively, if already partially up, convert to dogfight position and attack from there. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 - **Opponent establishes a whizzer (overhook) on the underhook arm to neutralize leverage** (Effectiveness: High) - Your Response: If the whizzer is shallow, continue the sweep with additional hip drive as the whizzer alone cannot stop committed forward pressure. If the whizzer is deep, abandon the direct sweep and transition to a limp arm escape to recover the underhook, or use the whizzer pressure to set up a back take by circling behind them. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
 - **Opponent posts with their far arm and widens base to resist the topple** (Effectiveness: Medium) - Your Response: Target the posting arm with a grip break or redirect. You can use your free hand to chop their posting arm while driving through with the underhook. Alternatively, change the angle of your drive to attack the side where they cannot post, or convert to a roll-through variation that takes them over your body instead of directly backward. → Leads to [[Positions/Half Guard/Pocket Half Guard]]
@@ -261,6 +269,8 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Underhook Sweep from Pocket Half?</p>
 
 ### 1. Attempting the come-up with a shallow underhook that only reaches the near shoulder
 
@@ -300,6 +310,8 @@ As the attacker executing the Underhook Sweep from Pocket Half Guard, your objec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Underhook Sweep from Pocket Half (Attacker)?</p>
+
 **Phase 1: Come-Up Mechanics** - Basic movement pattern from pocket half to standing base
 Drill the come-up sequence against a stationary partner: hip escape, elbow post, hand post, hip thrust to knees, drive through. No resistance. Focus purely on the mechanical chain until the movement is smooth and automatic. Perform 30 repetitions per side.
 
@@ -320,42 +332,12 @@ Targeted live sparring where you specifically seek pocket half guard and attempt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the underhook sweep from pocket half guard?
-**A**: The optimal timing is when the opponent commits their weight forward, either driving pressure to flatten you or attempting to strip your underhook. Their forward weight commitment shifts their center of gravity over their trapped leg, making them vulnerable to the come-up drive. Attempting the sweep when they are based back or have wide posture requires significantly more energy and has a much lower success rate.
-
-**Q2**: What grip depth on the underhook is required before attempting the sweep?
-**A**: The underhook must reach completely across the opponent's back with your hand gripping their far lat, far armpit, or belt line. A grip that only reaches their near shoulder or mid-back provides insufficient leverage to control their upper body rotation during the come-up. If you cannot achieve this depth, you should re-swim the underhook deeper or transition to an alternative attack rather than attempting the sweep with a compromised grip.
-
-**Q3**: Why is the hip escape angle critical before building to the posting elbow?
-**A**: The hip escape creates a 30-45 degree angle between your body and the opponent's line of pressure. Without this angle, their chest weight pins you flat and prevents you from rising to the elbow. The shrimp movement creates space to insert your elbow underneath you and provides the initial rotational angle needed to build upward. Skipping this step is the most common reason the come-up stalls immediately.
-
-**Q4**: Your opponent posts their far hand wide to prevent being swept - how do you adjust?
-**A**: You have three options: first, use your free hand to chop or block their posting arm while continuing the drive through; second, change the angle of your drive to attack the side opposite their post, forcing them to reposition; third, switch to the roll-through variation which takes them over your body instead of pushing them directly backward over the post. The key is recognizing the post early and adapting before your momentum is spent.
-
-**Q5**: What is the most critical mechanical detail during the explosive hip thrust phase?
-**A**: The hip thrust must drive your hips forward underneath you while simultaneously pulling with the underhook and driving your shoulder into the opponent's chest. All three forces must work in coordination: hips moving forward for power generation, underhook pulling their upper body toward your trapped leg side, and shoulder contact maintaining structural connection. If any of these three elements is missing, the sweep loses significant power and stalls.
-
-**Q6**: What should you do if the sweep stalls and you arrive in dogfight position?
-**A**: If the sweep stalls in dogfight, do not try to force the original sweep direction. Instead, recognize that dogfight is a strong intermediate position and attack from there. Your underhook advantage in dogfight gives you access to the dogfight sweep, the back take by circling behind the opponent, and the option to re-pull to deep half guard. The worst response is retreating back to flat pocket half guard, as you surrender all the positional gains from the come-up.
-
-**Q7**: How does the opponent's whizzer counter affect your sweep mechanics and what is the correct response?
-**A**: A whizzer (overhook) on your underhook arm attempts to neutralize your pulling leverage by pinning your arm against your body and driving you back down. If the whizzer is shallow, you can power through it with committed hip drive since a shallow whizzer cannot overcome full-body momentum. If the whizzer is deep and established before your come-up, you should limp-arm to extract the underhook, or use the whizzer pressure to set up a back take by circling to the opposite side.
-
-**Q8**: What chain attacks are available if the opponent successfully defends the underhook sweep?
-**A**: The primary chain attacks include: transitioning to the Old School Sweep by reaching behind their far leg when they base back to prevent your come-up; entering deep half guard by scooting your hips underneath when they sprawl; taking the back by circling behind them when they whizzer; and transitioning to dogfight sweep options when the come-up stalls midway. The pocket half guard system ensures that each defensive reaction to the underhook sweep exposes a different vulnerability.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Underhook Sweep from Pocket Half?</p>
 
 This sweep involves explosive hip and shoulder rotation under load, creating potential strain on the lower back and shoulders. Ensure controlled execution during drilling phases, gradually increasing speed and resistance. The come-up phase places significant stress on the posting wrist and elbow, so practitioners with wrist or elbow injuries should modify to use a forearm post. The half guard leg lock can create knee torque on the trapped leg during the drive-through, so communicate with training partners about pressure levels. Always warm up the hips, lower back, and shoulders before drilling this technique at intensity.
 

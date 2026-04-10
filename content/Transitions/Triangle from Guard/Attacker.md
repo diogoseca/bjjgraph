@@ -192,6 +192,8 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle from Guard?</p>
+
 - Use the opponent's postural recovery attempt as the trigger for the triangle entry rather than forcing the leg across against resistance
 - Maintain continuous head control with at least one hand throughout the entire transition to prevent posture recovery that kills the angle
 - Cut a sharp perpendicular angle with hip movement before locking the triangle to ensure proper choking mechanics on the carotid arteries
@@ -207,6 +209,8 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle from Guard?</p>
+
 - Mission Control must be fully established with inside leg threaded high across opponent's back and outside leg controlling the far shoulder
 - Opponent's posture must be broken with head pulled down and weight loaded onto the trapped shoulder
 - The trapped arm must be isolated on the inside of the high guard leg with wrist or tricep control maintained
@@ -220,6 +224,8 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle from Guard step by step?</p>
 
 1. **Confirm Mission Control**: Verify full Mission Control is established: inside leg high across opponent's back with shin on shoulder blade, outside leg over far shoulder creating isolation, both hands pulling opponent's head down aggressively. Opponent's weight should be loaded onto their trapped shoulder with posture fully broken.
 2. **Bait postural recovery**: Slightly reduce pulling pressure on the opponent's head to create a subtle opening that invites them to attempt posture recovery. Do not release head control entirely; reduce just enough that the opponent senses an opportunity and begins driving backward or lifting their head. This movement is the trigger for the triangle entry.
@@ -250,6 +256,8 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle from Guard?</p>
+
 - **Opponent postures explosively with stacking pressure before the leg fully crosses, driving weight forward to collapse the triangle angle and prevent the lock from closing** (Effectiveness: High) - Your Response: If the leg is partially across, accept the stack and transition to omoplata by uncrossing the legs and rotating underneath. If the leg hasn't crossed yet, pull head down aggressively and re-establish Mission Control for another attempt → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **Opponent tucks the chin and turns the head toward the trapped arm side to create space inside the triangle and reduce choking pressure on the carotid arteries** (Effectiveness: Medium) - Your Response: Pull the head back to center using both hands on the back of the skull. Adjust the angle by pivoting hips further perpendicular. If they continue turning, transition to armbar on the trapped arm which becomes exposed when they turn → Leads to [[Positions/Triangle Control]]
 - **Opponent grabs their own hands in a Gable grip or clasps hands together to prevent the trapped arm from being pulled across the centerline, maintaining a frame inside the triangle** (Effectiveness: Medium) - Your Response: Attack the grip directly by prying hands apart with a two-on-one wrist break. Alternatively, switch to a cutting angle that generates choking pressure even with the arm in place, or transition to a mounted triangle by sweeping from the triangle position → Leads to [[Positions/Triangle Control]]
@@ -262,6 +270,8 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle from Guard?</p>
 
 ### 1. Attempting to swing the leg across the opponent's face without first baiting or waiting for a postural recovery attempt
 
@@ -306,6 +316,8 @@ Strategically, the Triangle from Guard serves as the cornerstone threat that mak
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle from Guard (Attacker)?</p>
+
 **Week 1-2** - Leg transition mechanics
 Practice the leg swing across the opponent's face from Mission Control with a completely cooperative partner. Focus on the hip pivot, maintaining head control with one hand while transitioning, and the immediate figure-four lock. Repeat 20 times per side per session until the motion is fluid and automatic without any resistance.
 
@@ -326,48 +338,12 @@ Full sparring integration starting from closed guard. Practice the full sequence
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Triangle from Guard and how does it differ from a standard closed guard triangle setup?
-**A**: The primary goal is to transition from Mission Control into a locked Triangle Control position. Unlike a standard closed guard triangle that requires creating angle and isolating head and arm from scratch, the Mission Control triangle leverages pre-existing shoulder isolation, broken posture, and arm isolation. The opponent is already structurally compromised, making the entry significantly higher-percentage because half the work is already done by the Mission Control position.
-
-**Q2**: What specific movement from the opponent serves as the optimal trigger for initiating the leg swing across their face?
-**A**: The opponent's postural recovery attempt, specifically when they drive weight backward and lift their head to escape Mission Control. This upward movement creates the space needed for the leg to cross the face and actually assists the transition because the opponent's defensive momentum carries their head into the closing triangle. Attempting the entry while the opponent's posture is fully broken down is significantly harder because there is no space for the leg to travel.
-
-**Q3**: Your opponent posts their free hand on the mat during your triangle entry attempt. How do you adjust your execution?
-**A**: The posted hand creates base that can prevent the angle cut and assist their stacking defense. Immediately attack the posting arm by pushing it across your body, which both eliminates their base and can isolate a second arm for an armbar threat. Alternatively, use the posting arm as leverage to complete a more aggressive hip pivot for the angle, sweeping them over the posted arm. A posted hand actually creates a vulnerability if recognized and attacked rather than ignored.
-
-**Q4**: Why is it critical to maintain at least one hand on head control throughout the entire leg transition?
-**A**: Head control prevents the opponent from recovering posture during the vulnerable transition window when the outside leg is moving from shoulder control to the neck. Without head control, the opponent can lift their head and create enough space to prevent the leg from crossing or to begin a stacking defense before the triangle locks. Even a momentary release of all head control can provide enough time for posture recovery that kills the attack entirely. One hand stays on the head while the other can assist leg placement if needed.
-
-**Q5**: What is the mechanical difference between squeezing the triangle without an angle versus cutting a perpendicular angle first?
-**A**: Without an angle, leg pressure compresses the front and back of the neck, which is uncomfortable but does not restrict blood flow to the brain. Cutting a perpendicular angle repositions the legs so that one thigh compresses one carotid artery while the opponent's own trapped shoulder compresses the other carotid artery. This bilateral arterial compression is what causes the blood choke that leads to unconsciousness. The angle is the difference between a squeeze and an actual choke.
-
-**Q6**: Your opponent begins stacking you after you lock the figure-four but before you cut the angle. What are your options?
-**A**: Three primary options exist. First, accept the stack and use their forward pressure to roll into an omoplata by uncrossing the legs and rotating underneath, converting their defensive stack into an offensive sweep or submission. Second, use the stack momentum to elevate into a higher triangle position, scooting your hips backward to create a sharper angle despite their forward pressure. Third, if the stack is severe, release to a scramble and re-enter Mission Control using your remaining hooks and head control rather than fighting a losing battle from a stacked position.
-
-**Q7**: What grip on the trapped arm is most effective for completing the choking mechanics of the triangle?
-**A**: Grab the opponent's trapped wrist with both hands and pull it diagonally across your centerline toward your opposite hip. This two-on-one wrist control forces their shoulder to rotate inward, pressing the deltoid and shoulder mass into the carotid artery on one side of the neck. Combined with thigh pressure on the opposite carotid, this creates the bilateral compression necessary for an effective blood choke. Simply squeezing without arm positioning relies on leg strength alone and is far less effective.
-
-**Q8**: If the opponent successfully extracts their arm to the outside during your triangle attempt, what is your best immediate follow-up?
-**A**: The extracted arm is now extended and vulnerable. The highest-percentage follow-up is an immediate armbar on the extended arm by controlling the wrist, pinching knees together, and elevating hips to hyperextend the elbow. The arm extraction movement naturally extends the arm into the perfect armbar position. Alternatively, if armbar angle is poor, retain your leg position on their neck and re-pummel the arm back inside using an underhook motion, or transition back to Mission Control using remaining leg and head control to reset the attack.
-
-**Q9**: How does hip elevation change throughout the Triangle from Guard sequence, and why does each phase require different hip height?
-**A**: In Mission Control, hips are elevated to maintain the high guard and shoulder isolation. During the leg transition, hips must elevate further to create space for the leg to swing across the face. After locking the figure-four, hips drive upward to tighten the triangle and prevent the opponent from creating space. During the angle cut, hips maintain elevation while pivoting laterally. For the finish, maximum hip elevation drives the thigh deeper into the neck. At no point should hips drop to the mat, as every phase of the technique requires elevation for structural integrity.
-
-**Q10**: What chain of attacks should you threaten from Mission Control to set up the Triangle from Guard?
-**A**: The optimal chain creates a dilemma: threaten the omoplata by beginning to rotate hips underneath, which forces the opponent to pull their arm back and posture up to defend. This postural recovery is exactly the trigger needed for the triangle entry. Alternatively, threaten a direct armbar by beginning to isolate the arm overhead, which forces the opponent to tuck the elbow tight, which pre-sets the arm isolation needed for the triangle. The triangle from Guard works best as the second or third attack in a chain rather than the first, because the opponent's defensive reactions to earlier threats create the openings for the triangle entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle from Guard?</p>
 
 The Triangle from Guard involves significant pressure on the cervical spine and carotid arteries. During training, always apply the choke gradually and release immediately upon tap. Partners should tap early when they feel arterial compression beginning rather than waiting for full consciousness restriction. The neck crank component from poor angle alignment can cause cervical strain, so prioritize proper perpendicular angle to ensure a clean blood choke rather than a crank. Practitioners with neck injuries or cervical disc issues should approach this technique cautiously from both the attacking and defending sides. When drilling, avoid explosive leg transitions that could strike the partner's face or jaw with the shin. The stacking defense can compress the attacker's spine, so practitioners with lower back issues should avoid holding stacked triangle positions for extended periods and transition to omoplata instead.
 

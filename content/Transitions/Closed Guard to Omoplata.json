@@ -64,8 +64,8 @@
       "relationship": "Follow-up when opponent rolls forward to escape"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative submission - similar arm isolation mechanics"
+      "name": "Rolling Armbar from Closed Guard",
+      "relationship": "Alternative submission from guard - similar arm isolation mechanics"
     },
     {
       "name": "Back Control",
@@ -76,8 +76,8 @@
       "relationship": "Alternative attack from same starting position"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Alternative shoulder attack from guard"
+      "name": "Kimura Sweep",
+      "relationship": "Alternative shoulder attack and sweep from guard"
     }
   ],
   "attacker": {

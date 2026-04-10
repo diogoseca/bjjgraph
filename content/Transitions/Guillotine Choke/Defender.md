@@ -158,13 +158,15 @@ The defender's strategic framework operates on three time horizons: immediate su
 
 Successful guillotine defense at the purple and brown belt level demands the ability to remain calm under choking pressure, systematically address each component of the attacker's control (grip depth, hip angle, guard connection), and exploit the inherent instability of the bottom guillotine position where the attacker must balance offensive finishing with guard retention.
 
-**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Guillotine Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Guillotine Choke?</p>
 
 - Opponent's arm wraps around the front of your neck with their wrist blade contacting your throat, and their other hand reaches to clasp creating a closed loop
 - Opponent pulls your head downward toward their chest while their legs actively close guard or climb high on your back to control posture
@@ -179,6 +181,8 @@ Successful guillotine defense at the purple and brown belt level demands the abi
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Guillotine Choke?</p>
+
 - Posture immediately by driving your head upward and straightening your spine to create space between the choking forearm and your throat structures
 - Protect the trachea by tucking your chin firmly toward your chest and turning your head toward the choking arm to reduce compression on the carotid arteries
 - Fight the grip with your hands before attempting positional escape—peeling the clasp or stripping wrist contact reduces choking pressure and buys time
@@ -192,6 +196,8 @@ Successful guillotine defense at the purple and brown belt level demands the abi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guillotine Choke?</p>
 
 ### 1. Posture up aggressively by straightening spine, walking hands toward opponent's hips, and peeling the grip with your inside hand while stacking weight forward
 
@@ -229,6 +235,8 @@ Successful guillotine defense at the purple and brown belt level demands the abi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guillotine Choke?</p>
+
 ### → [[Positions/Guillotine Control]]
 
 Posture aggressively by straightening your spine and walking your hands toward the opponent's hips. Use your inside hand to peel their grip clasp apart while maintaining strong base. Once the grip is broken, immediately begin guard passing sequences before they can re-establish the choke.
@@ -244,6 +252,8 @@ Drive your weight forward while turning your head toward the choking arm. Walk y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Choke?</p>
 
 ### 1. Pulling straight backward to escape instead of posturing up or driving forward
 
@@ -278,6 +288,8 @@ Drive your weight forward while turning your head toward the choking arm. Walk y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guillotine Choke?</p>
+
 **Week 1-2** - Recognition and immediate response
 Partner establishes guillotine control at various depths. Practice the immediate defensive sequence: chin tuck, posture attempt, near-hand grip fight. Focus on developing automatic responses to choking pressure without panicking. Partner applies light pressure and allows time for defensive positioning.
 
@@ -294,29 +306,6 @@ Positional sparring starting from locked guillotine position. Defender wins by e
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you feel a guillotine choke being locked from bottom?
-**A**: The immediate first priority is protecting your airway by tucking your chin toward your chest and turning your head slightly toward the choking arm. This reduces compression on the trachea and carotid arteries, buying critical seconds. Simultaneously, begin straightening your spine to recover posture—do not allow your head to be pulled down to the attacker's chest. Address the grip with your near-side hand while maintaining base with your far arm.
-
-**Q2**: Your opponent has a deep guillotine locked with high closed guard and is beginning to angle their hips—what is your escape strategy?
-**A**: With deep grip and high guard established, posture recovery alone is unlikely to succeed. Drive your trapped-side shoulder into their chest to reduce compression space, swim your near arm inside the choking loop to convert to arm-in position (which disrupts finishing mechanics), then immediately begin walking your knees up and passing toward the non-choking side. The arm insertion plus forward drive combination addresses both the choke and the positional control simultaneously.
-
-**Q3**: Why is pulling straight backward a dangerous escape attempt against the guillotine?
-**A**: Pulling backward is dangerous because it extends the choking arm's leverage, actually increasing compression on the neck structures. The attacker's guard connection (legs locked around your waist) prevents true separation, so the backward motion just loads more pressure onto the choke. Additionally, pulling back breaks your base and posture, making you vulnerable to being swept. The correct escape direction is upward (posture recovery) or forward (driving weight and passing guard).
-
-**Q4**: How do you decide between posturing up and driving forward when caught in a guillotine?
-**A**: The decision depends on the attacker's guard position and grip depth. If their guard is low and the grip is shallow, posture up aggressively to break the grip—your spine extension creates enough leverage to peel their hands apart. If their guard is locked high on your back and the grip is deep, posture recovery alone will not work because their legs control your torso. In that case, drive forward to compress them while working to pass guard, using your body weight to limit their hip angle and finishing mechanics.
-
-**Q5**: What defensive adjustment do you make when the attacker transitions from standard guillotine to high elbow variation?
-**A**: The high elbow guillotine attacks behind the chin rather than against it, so chin tucking alone will not protect you. When you feel the attacker's elbow driving toward the ceiling and the forearm sliding behind your jaw, immediately swim your near arm deeper inside the loop and drive your forehead into their sternum to flatten their hip angle. Use your posted arm to create base and begin circling your body toward the choking side, which reduces the diagonal finishing angle that makes the high elbow effective. Speed is critical—the high elbow finishes faster than the standard guillotine.
-
-
-
-</section>
 
 
 </main>

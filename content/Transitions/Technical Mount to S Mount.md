@@ -206,15 +206,13 @@ The Technical Mount to S Mount transition occupies a pivotal role in the mount s
 
 - [[Positions/Mount]] - Parent position from which Technical Mount is entered before this transition
 
-- [[Submissions/Armbar from S Mount]] - Primary submission available after successfully reaching S Mount
+- [[Transitions/S Mount Armbar Setup]] - Primary submission setup available after successfully reaching S Mount
 
-- [[Submissions/Armbar from Technical Mount]] - Alternative submission from the starting position if S Mount entry is unnecessary
+- [[Transitions/Mount to Armbar]] - Alternative submission pathway from the starting position if S Mount entry is unnecessary
 
 - [[Transitions/3-4 Mount to S Mount]] - Alternative pathway to reach S Mount from a different mount variation
 
 - [[Transitions/High Mount to S Mount]] - Another pathway to S Mount sharing similar rotation mechanics
-
-- [[Transitions/S Mount Armbar Setup]] - Follow-up technique commonly executed after completing this transition
 
 - [[Transitions/Back Turn from Technical Mount]] - Alternative transition from Technical Mount when opponent turns away
 

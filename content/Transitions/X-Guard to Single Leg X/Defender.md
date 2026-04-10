@@ -154,6 +154,8 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting X-Guard to Single Leg X?</p>
+
 - Bottom player's inside hook behind your knee begins to slide lower toward your calf or ankle, indicating the beginning of the wrap transition
 - Opponent adjusts their hand grip on your trapped ankle, tightening it or shifting to a deeper control as preparation for maintaining control during reconfiguration
 - The outside leg crossing your hip starts to withdraw or lighten pressure, signaling the beginning of the repositioning phase
@@ -166,6 +168,8 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending X-Guard to Single Leg X?</p>
 
 - Recognize transition cues early to counter during the vulnerable reconfiguration phase rather than after SLX is established
 - Maintain forward pressure and low base to deny the opponent the backward weight shift they need to initiate the transition
@@ -180,6 +184,8 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against X-Guard to Single Leg X?</p>
 
 ### 1. Drive forward pressure and flatten opponent during transition gap
 
@@ -217,6 +223,8 @@ As the defender facing an X-Guard to Single Leg X transition, your primary objec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending X-Guard to Single Leg X?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time your leg extraction or forward pressure drive precisely during the reconfiguration gap when the opponent releases their X-Guard hooks but has not yet completed the SLX ankle wrap. The window is brief—typically less than one second—so preemptive recognition of the transition cues is essential. Driving forward the moment you feel the inside hook loosen is the highest-percentage counter, as it exploits the structural weakness before the new control system is established.
@@ -232,6 +240,8 @@ Deny the transition entirely by maintaining constant forward pressure and low ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending X-Guard to Single Leg X?</p>
 
 ### 1. Pulling trapped leg straight backward when feeling the hooks loosen
 
@@ -261,6 +271,8 @@ Deny the transition entirely by maintaining constant forward pressure and low ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against X-Guard to Single Leg X?</p>
+
 **Phase 1: Recognition** - Identifying transition cues from X-Guard top
 Partner slowly performs the X-Guard to SLX transition multiple times while you focus solely on recognizing the early indicators: inside hook sliding lower, outside leg lightening, grip adjustments. Call out each cue as you feel it. No counter-attacking—pure recognition development.
 
@@ -277,26 +289,6 @@ Incorporate X-Guard to SLX defense into regular sparring. When caught in X-Guard
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for countering the X-Guard to SLX transition?
-**A**: The most critical window occurs during the approximately one-second gap when the opponent releases their X-Guard inside knee hook to begin threading the ankle wrap. At this moment, their leg entanglement is at its weakest because neither the X-Guard hooks nor the SLX wrap are fully engaged. Driving forward pressure or extracting your leg during this gap has the highest success rate because you are exploiting a structural vulnerability in their guard rather than fighting against an established control system.
-
-**Q2**: Why is pulling your trapped leg straight backward a counterproductive defensive response?
-**A**: Pulling straight backward feeds your leg into the opponent's SLX wrap because their inside foot is threading around the back of your ankle. Your backward pull actually provides the momentum and angle they need to complete the wrap. Instead, you should angle your knee laterally outward and step to the side, which defeats the threading path of their wrap by changing the extraction angle to one that their foot cannot follow.
-
-**Q3**: What should your base position look like when you recognize the transition is being initiated?
-**A**: Your base should immediately widen with your free leg stepping diagonally away from the opponent to create stability against sweep threats. Lower your hips by bending both knees to bring your center of gravity closer to the ground. Keep your trapped knee angled forward and outward rather than allowing it to be pulled backward. Your upper body should maintain forward lean with hands ready to post for balance or strip grips. This low, wide base makes it extremely difficult for the opponent to sweep you during the transition.
-
-**Q4**: If you fail to prevent the SLX establishment, what is your immediate defensive priority?
-**A**: Once SLX is established, your immediate priority shifts to preventing the opponent from elevating your trapped leg and creating off-balancing pressure. Drive your trapped knee downward and toward the opponent to reduce their elevation leverage. Establish upper body grips to prevent them from creating sweep angles. Begin the systematic hook clearing process: address the bottom hook (ankle wrap) first through knee extraction, then clear the hip hook. Do not attempt to rip your leg free explosively, as this wastes energy and often makes the position worse.
-
-
-
-</section>
 
 
 </main>

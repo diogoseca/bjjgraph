@@ -168,6 +168,8 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Flattened Half Guard?</p>
+
 - Opponent secures crossface and begins turning your head away while increasing shoulder pressure on your jaw and cheek
 - Opponent's hips start walking forward in small increments with increasing weight driving through their chest into your frames
 - Your knee shield begins folding inward under sustained body pressure rather than holding distance between your chest and theirs
@@ -180,6 +182,8 @@ As the bottom player in half guard, preventing your opponent from flattening you
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Flattened Half Guard?</p>
 
 - Maintain your knee shield or primary frame as the first line of defense against forward pressure, as it is easier to maintain frames than to rebuild them
 - Fight for the underhook on the trapped leg side with relentless urgency, as it is your primary structural support for maintaining side angle
@@ -194,6 +198,8 @@ As the bottom player in half guard, preventing your opponent from flattening you
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Flattened Half Guard?</p>
 
 ### 1. Maintain knee shield with active frame fighting to prevent crossface establishment
 
@@ -238,6 +244,8 @@ As the bottom player in half guard, preventing your opponent from flattening you
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Flattened Half Guard?</p>
+
 ### → [[Positions/Half Guard/Knee Shield Half Guard]]
 
 Maintain active knee shield by keeping your shin angled across their hip line with your foot hooked behind their far hip. Reinforce the shield with your near-side forearm framing on their bicep or shoulder. If the shield begins to fold, hip escape to re-establish distance before reinserting the knee across their body.
@@ -253,6 +261,8 @@ Win the underhook on the trapped leg side and use it to turn aggressively to you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Flattened Half Guard?</p>
 
 ### 1. Allowing both the crossface and underhook denial simultaneously without contesting either control
 
@@ -287,6 +297,8 @@ Win the underhook on the trapped leg side and use it to turn aggressively to you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Flattened Half Guard?</p>
+
 **Phase 1: Frame Awareness and Maintenance** - Recognizing and maintaining critical defensive frames under progressive pressure
 Partner applies gradually increasing forward pressure from half guard top while you focus exclusively on maintaining knee shield and forearm frames. No escape attempts - just frame maintenance. Partner provides verbal feedback on when frames weaken. Build sensitivity to pressure changes and automatic frame reinforcement.
 
@@ -303,29 +315,6 @@ Full resistance positional sparring starting in half guard bottom. Top player's 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first recognition cue that your opponent is beginning the flattening sequence from half guard top?
-**A**: The primary early cue is the crossface establishment, where you feel their arm threading across your jaw and their shoulder pressure increasing on your face, turning your head away. This is the foundational control point for the entire flattening sequence. Other early signs include their hips beginning to walk forward and your knee shield starting to fold inward under increasing pressure.
-
-**Q2**: Your opponent has secured a crossface but you still have your knee shield intact. What is your defensive priority?
-**A**: Fight for the underhook on the trapped leg side while maintaining the knee shield. Accept the crossface as the lower-priority battle and invest your energy in establishing the underhook, which provides the structural support to maintain your side angle. With both the underhook and knee shield, you can initiate offensive sequences even with the crossface in place. Without the underhook, even a strong knee shield will eventually fold under sustained pressure.
-
-**Q3**: Why is it more effective to maintain frames than to try to rebuild them once lost?
-**A**: Once frames collapse and your opponent achieves chest-to-chest contact, the energy required to re-create space is exponentially higher than the energy needed to maintain existing frames. The opponent's full body weight is compressing your structure, and every micro-movement against this weight is taxing. Maintaining frames means working against progressive pressure with structural support, while rebuilding means pushing the opponent's settled weight away with compromised positioning and reduced leverage.
-
-**Q4**: Your knee shield begins folding inward under your opponent's hip pressure. What is your layered defensive response?
-**A**: Immediately execute a hip escape to re-establish distance and reinsert the knee shield from the new angle. If the knee shield cannot be recovered, transition to a forearm frame on their shoulder or bicep to maintain some distance. If all frames fail, dive underneath for deep half guard entry before chest-to-chest contact is fully established. This layered sequence provides multiple fallback options rather than relying on a single defensive technique.
-
-**Q5**: How do you use the opponent's forward pressure waves to create defensive movement?
-**A**: Time your hip escapes to coincide with the opponent's forward pressure surges. When they drive forward, their weight commits in one direction, making it difficult for them to follow lateral movement. Use the moment of their heaviest forward drive to shrimp your hips away laterally, creating space that they cannot immediately close because their momentum is directed forward. This converts their offensive pressure into the energy source for your defensive escape.
-
-
-
-</section>
 
 
 </main>

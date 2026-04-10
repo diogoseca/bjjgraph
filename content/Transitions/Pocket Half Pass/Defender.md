@@ -162,6 +162,8 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pocket Half Pass?</p>
+
 - Passer increases forward chest pressure significantly while simultaneously pulling harder with the underhook, indicating preparation for the flattening phase
 - Passer's trapped knee begins driving toward the mat with rotational hip movement rather than static pressure, signaling the extraction phase has begun
 - Passer's free hand moves from controlling your arm to blocking your hip, indicating they are preparing to prevent knee insertion during the pass
@@ -174,6 +176,8 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pocket Half Pass?</p>
 
 - Prevent complete flattening at all costs - maintaining hip angle and mobility is the primary defensive priority before the pass attempt begins
 - Recognize the pass initiation immediately through weight shift and knee movement cues, then execute defensive response within the first 1-2 seconds
@@ -189,6 +193,8 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pocket Half Pass?</p>
 
 ### 1. Bridge explosively during the extraction phase when the passer's weight shifts to their trapped knee side
 
@@ -226,6 +232,8 @@ Defending the Pocket Half Pass requires recognizing the specific moment when the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pocket Half Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge to coincide with the passer's extraction weight shift, using their momentary instability to sweep them into bottom half guard. The bridge must be powerful enough to compromise their base while their weight is committed to the extraction side.
@@ -241,6 +249,8 @@ Prevent the pass from completing by recovering knee shield or deep half position
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pocket Half Pass?</p>
 
 ### 1. Accepting the flattened position passively without fighting to maintain hip angle and mobility
 
@@ -275,6 +285,8 @@ Prevent the pass from completing by recovering knee shield or deep half position
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pocket Half Pass?</p>
+
 **Phase 1: Recognition Training** - Identifying pass initiation cues from pocket half guard bottom
 Partner executes the Pocket Half Pass at 30% speed with verbal announcement of each phase. Focus on feeling the weight shifts, knee drives, and crossface changes that signal each stage. Practice calling out the phase before the partner announces it to build unconscious pattern recognition.
 
@@ -291,29 +303,6 @@ Positional sparring rounds starting in pocket half guard with the passer given f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive priority when you recognize the Pocket Half Pass is being initiated?
-**A**: The primary priority is preventing complete flattening before the extraction begins, not stopping the extraction itself. If you maintain hip mobility and angle, you preserve access to defensive transitions like deep half entry, knee shield recovery, and sweep attempts. Once fully flattened with crossface and underhook control established, defensive options are severely limited regardless of technique knowledge.
-
-**Q2**: When is the optimal timing window to attempt a bridge-based sweep defense against the Pocket Half Pass?
-**A**: The optimal window is during the passer's extraction weight shift, when they commit their weight to the trapped knee side to begin driving it toward the mat. At this moment, their base is asymmetrically loaded and most vulnerable to a bridge in the opposite direction. Bridging before this moment fights against their full balanced base, and bridging after it is too late because their leg is already clearing.
-
-**Q3**: Why is maintaining the half guard leg entanglement critical even when other defensive options are being attempted?
-**A**: The leg entanglement is your final control point that forces the passer to complete the extraction sequence before achieving side control. Without it, the passer can simply step through to side control without any resistance. All defensive responses work around maintaining this grip. Releasing it prematurely concedes the pass entirely and eliminates all remaining defensive leverage.
-
-**Q4**: Your underhook has been stripped and the passer has established deep crossface - what should your immediate defensive strategy be?
-**A**: Do not attempt to recover the underhook against an established crossface. Instead, immediately transition to an alternative defensive guard. Your best option is to hip escape and insert a knee shield to create distance, then work to recover either full guard or establish a different half guard variation. Alternatively, use the passer's forward pressure momentum to scoot underneath for deep half guard entry. When your primary control point is lost, transition to a new defensive system rather than fighting to recover the original one.
-
-**Q5**: What recognition cues indicate the passer is about to commit to the final leg extraction rather than continuing positional pressure?
-**A**: Three primary cues signal extraction commitment: the passer's trapped knee begins driving toward the mat with rotational hip movement rather than static downward pressure, their free hand shifts from arm control to hip blocking position to prevent your knee insertion during the pass, and their crossface intensifies significantly as they try to prevent your rotation during the vulnerable extraction phase. Recognizing these cues gives you a 1-2 second window to execute your chosen defensive response.
-
-
-
-</section>
 
 
 </main>

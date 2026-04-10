@@ -162,6 +162,8 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Hindulotine?</p>
+
 - Bottom player's Hindulotine grip loosens and their choking arm begins transitioning to an overhook or collar grip position
 - Bottom player's near-side knee begins rising toward your midsection, indicating knee shield insertion on the exposed side
 - Bottom player's hips begin rotating from the angular Hindulotine position toward squaring up, signaling the start of hip realignment
@@ -173,6 +175,8 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Hindulotine?</p>
 
 - Exploit the angular hip position by circling toward the exposed back side rather than engaging the bottom player's strong-side guard
 - Prevent hip realignment by maintaining pressure on the turned hip, denying the rotation needed for guard recomposition
@@ -187,6 +191,8 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Hindulotine?</p>
 
 ### 1. Circle rapidly toward the bottom player's exposed back side before hip realignment completes, advancing past their guard structure to side control or back control
 
@@ -224,6 +230,8 @@ As the top player escaping from Hindulotine control, the bottom player's angular
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Hindulotine?</p>
+
 ### → [[Positions/Side Control]]
 
 Circle to the exposed back side during the grip transition window before the bottom player completes hip realignment, driving crossface pressure to flatten their structure and consolidating side control with underhook and crossface
@@ -239,6 +247,8 @@ Pin the bottom player's hip to prevent rotation and strip their transitional gri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Hindulotine?</p>
 
 ### 1. Engaging the bottom player's strong side rather than circling to the exposed back angle created by the Hindulotine position
 
@@ -268,6 +278,8 @@ Pin the bottom player's hip to prevent rotation and strip their transitional gri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Hindulotine?</p>
+
 **Phase 1: Angle Recognition** - Identifying the exposed side and circling path during Hindulotine release
 Partner releases the Hindulotine at various angles while you practice identifying the exposed flank and beginning your circling movement. Work at 20% resistance to develop recognition of the angular weakness and automatic circling response toward the exposed side.
 
@@ -284,29 +296,6 @@ Start each round in Hindulotine with the bottom player working recovery and you 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What specific structural advantage does the Hindulotine position give you as the top player during guard recovery?
-**A**: The Hindulotine's rotational mechanics leave the bottom player's hips angled with one side of their back partially exposed rather than square to you. This angular displacement creates a structural weakness in their guard on the exposed side that does not exist in standard guillotine recovery. You can exploit this by circling toward the exposed flank where their guard has no structural integrity, advancing to side control or back take before they can rotate their hips to face you.
-
-**Q2**: Why is preventing hip realignment your primary defensive objective during Hindulotine guard recovery?
-**A**: The bottom player's guard cannot become structurally sound until their hips rotate to face you squarely. While their hips remain at the Hindulotine angle, there is a persistent weakness on the exposed side that allows passing advancement. Preventing hip realignment - by pinning their hip, driving pressure on the turned angle, or advancing past the exposed side - maintains this structural advantage indefinitely and makes their guard recovery attempts ineffective regardless of their grip work or leg positioning.
-
-**Q3**: The bottom player successfully establishes a knee shield on the exposed side before you can circle past - what is your adjusted strategy?
-**A**: If the knee shield establishes on the exposed side, switch to pressure passing by driving crossface into the knee shield to flatten their angle and prevent the far leg from completing guard recomposition. You can also redirect the near knee across their body with your hand while driving your hip past it. If the shield is fully established and stable, consider resetting to a passing stance and engaging the guard from a standard passing position rather than continuing to fight the angular advantage.
-
-**Q4**: What is the optimal timing for your advancement attempt relative to the bottom player's grip transition?
-**A**: The optimal window is the moment the bottom player begins releasing the Hindulotine choking grip but before they complete the conversion to overhook or collar control. During this grip transition, their arms are neither choking nor effectively framing, creating a brief period where they have minimal upper body control. This window typically lasts one to two seconds and represents your highest-percentage moment for advancement because the bottom player cannot resist your circling movement with their arms in transition.
-
-**Q5**: Your circling attempt is blocked by a knee shield but the bottom player's hips are still angled - how do you maintain your advantage?
-**A**: Even with the knee shield blocking your primary circling path, the angular hip position still provides an advantage because the bottom player's far leg cannot yet complete the guard structure. Drive your chest pressure into the knee shield while using your near hand to control their far knee or hip, preventing the second leg from establishing guard. Work to push the knee shield across their body using your hip pressure, which collapses their barrier without requiring you to circle around it. The angular hips mean they cannot generate full rotational power to resist your crossface pressure.
-
-
-
-</section>
 
 
 </main>

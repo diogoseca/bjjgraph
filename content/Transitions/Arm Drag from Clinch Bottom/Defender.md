@@ -154,6 +154,8 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag from Clinch Bottom?</p>
+
 - Opponent's second hand moves to join their first hand on the same arm, establishing or attempting a two-on-one wrist and tricep grip configuration
 - Opponent begins shifting their weight laterally, loading one foot in preparation for the step that accompanies the arm pull
 - Sudden change in opponent's grip fighting pattern from general hand fighting to focused control on a single arm, indicating targeted arm isolation
@@ -166,6 +168,8 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag from Clinch Bottom?</p>
 
 - Arm discipline: never extend your arms past your opponent's centerline without purpose, and immediately retract any arm that gets controlled by two of their hands
 - Hip awareness: your hips must always face your opponent's centerline, and any lateral movement by the attacker must be matched with immediate hip re-squaring
@@ -180,6 +184,8 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag from Clinch Bottom?</p>
 
 ### 1. Immediate arm retraction and grip strip
 
@@ -217,6 +223,8 @@ As the defender against the arm drag from clinch bottom, your primary objective 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag from Clinch Bottom?</p>
+
 ### → [[Positions/Clinch]]
 
 Prevent the drag from developing by maintaining arm discipline with elbows tight, stripping two-on-one grips immediately upon recognition, and re-squaring your hips through reactive footwork whenever the opponent moves laterally. Return to neutral clinch grip fighting with the advantage of knowing the opponent's preferred attack.
@@ -232,6 +240,8 @@ While this outcome is listed as a counter from the attacker's perspective, it re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag from Clinch Bottom?</p>
 
 ### 1. Reaching with extended arms during clinch grip fighting, offering easy targets for the two-on-one grip
 
@@ -261,6 +271,8 @@ While this outcome is listed as a counter from the attacker's perspective, it re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag from Clinch Bottom?</p>
+
 **Phase 1: Recognition Drills** - Identifying the two-on-one grip and lateral movement cues
 Partner alternates between normal clinch grip fighting and arm drag attempts at slow speed. Your sole task is to verbally call out when you recognize the arm drag attempt and identify which arm is being targeted. No defensive actions yet, purely building pattern recognition. Work for 5-minute rounds with partner attempting 10-15 drags per round.
 
@@ -277,26 +289,6 @@ Positional sparring from clinch where partner's primary objective is the arm dra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can recognize and defend the arm drag, and what specific action should you take?
-**A**: The earliest recognition point is when you feel the opponent's second hand join their first on the same arm, establishing a two-on-one grip. The immediate action is to circle the controlled arm in the direction of your thumb to break the grip before any pulling force is applied. This is the cheapest and most effective defense because it addresses the arm drag at its initiation before any momentum develops. If you wait until the pull begins, defensive options become progressively more difficult and energy-intensive.
-
-**Q2**: Your opponent has already cleared your centerline with the arm drag but has not yet established chest-to-back contact. What is your best defensive option?
-**A**: Immediately execute a hard hip re-square by pivoting your entire body to face the opponent. Step your far foot backward and rotate your hips aggressively toward them while simultaneously reaching back with your near arm to frame against their shoulder or head. This re-squaring must be explosive and complete, not a gradual turn, because you have only a fraction of a second before they close the chest-to-back gap. If the re-square fails and they contact your back, immediately sit to the ground and begin back defense rather than fighting standing back control where their takedown options multiply.
-
-**Q3**: How does maintaining forward pressure in the clinch help prevent the arm drag?
-**A**: Forward pressure compresses the space between you and the opponent, making it physically more difficult for them to execute the lateral step that accompanies the drag. When you press forward with your chest and hips, the opponent must first create separation before they can move offline, which adds an extra step to their technique and gives you more time to recognize and react. Additionally, forward pressure keeps your arms in a shortened position naturally, reducing the arm extension the opponent needs to initiate the two-on-one grip. However, forward pressure must be balanced and controlled, as overcommitting forward makes you vulnerable to snap downs and trips.
-
-**Q4**: Why is turning toward the opponent the correct defensive response rather than turning away when the drag is initiated?
-**A**: Turning toward the opponent re-squares your hips relative to their position, which is the fundamental requirement for preventing the back take. Turning away feels instinctive because you want to pull your arm free, but it actually accelerates the back exposure by rotating your spine toward the opponent's chest. When you turn toward them, you face them directly and can re-engage grip fighting from a squared position. When you turn away, you present your entire back and the opponent simply follows your rotation with chest-to-back pressure. The directional rule is absolute: always rotate toward the threat, not away from it.
-
-
-
-</section>
 
 
 </main>

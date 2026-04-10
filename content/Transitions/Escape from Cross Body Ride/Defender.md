@@ -148,6 +148,8 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape from Cross Body Ride?</p>
+
 - Bottom player begins shifting hips laterally or creating visible space between their knees and their elbows
 - Bottom player posts a forearm against your hip or thigh, establishing a structural frame to block your pressure
 - Bottom player's weight loads onto one side as they prepare for an explosive hip switch in the opposite direction
@@ -160,6 +162,8 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape from Cross Body Ride?</p>
 
 - Maintain heavy perpendicular chest pressure to limit the bottom player's ability to create escape space beneath you
 - Keep your hips mobile and ready to follow the bottom player's hip switches, adjusting your angle continuously
@@ -174,6 +178,8 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape from Cross Body Ride?</p>
 
 ### 1. Drop chest pressure and sprawl hips back to collapse the hip escape space
 
@@ -204,6 +210,8 @@ Defending against the Escape from Cross Body Ride means maintaining your dominan
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape from Cross Body Ride?</p>
+
 ### → [[Positions/Cross Body Ride]]
 
 Maintain heavy perpendicular pressure and control the near-side arm to prevent frame establishment. When the bottom player attempts to hip escape, follow their movement with your weight and re-establish chest-to-back contact before they can complete the reversal or establish an underhook.
@@ -219,6 +227,8 @@ When the bottom player creates space with their hip escape, use that space to in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape from Cross Body Ride?</p>
 
 ### 1. Maintaining completely static pressure without adjusting to bottom player's movement
 
@@ -248,6 +258,8 @@ When the bottom player creates space with their hip escape, use that space to in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape from Cross Body Ride?</p>
+
 **Phase 1: Recognition** - Identifying escape attempts early through pressure sensitivity
 Partner telegraphs various escape attempts from cross body ride bottom with clear movement. Practice recognizing the cues and calling out the escape direction before the partner completes the movement. Develop sensitivity to weight shifts, frame placement, and muscle tension changes.
 
@@ -264,26 +276,6 @@ Full resistance positional sparring starting from cross body ride. Top player sc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an escape attempt is imminent from cross body ride?
-**A**: The earliest cue is feeling the bottom player's hips begin to shift laterally or sensing their weight load onto one side through your chest-to-back contact. Before any visible movement occurs, you can detect subtle weight transfers and muscle tension changes through pressure sensitivity. This pre-movement signal gives you a fraction of a second to preemptively adjust your weight and angle to neutralize the escape before it fully develops.
-
-**Q2**: Your opponent creates space with a hip escape and you cannot re-establish cross body pressure - what is the optimal response?
-**A**: Rather than fighting to recover cross body ride from a losing position, capitalize on the space by inserting hooks and transitioning to full back control. The bottom player's hip escape has already created the leg access you need for hook insertion. Maintain harness grip on the upper body while threading your hooks inside their thighs. This converts their escape attempt into a worse position for them, rewarding your ability to adapt rather than rigidly maintain one configuration.
-
-**Q3**: How do you prevent the bottom player from establishing the underhook that enables the reversal?
-**A**: Control their near-side arm by maintaining your near arm clamped against their elbow and bicep area, preventing them from threading underneath your armpit. If they begin to work the arm through, immediately drive your weight onto that shoulder to flatten the arm back against their body. You can also preemptively switch to a whizzer over their arm if the underhook begins to develop, using the overhook to block the reversal turn while keeping upper body control.
-
-**Q4**: When is it better to let the escape partially succeed and transition to back control rather than fighting to maintain cross body ride?
-**A**: When the bottom player has already created significant hip space and established a frame that you cannot easily strip, attempting to fight back to cross body ride wastes energy and often fails anyway. The better option is to immediately begin inserting hooks while the bottom player is focused on completing their reversal. Back control is a superior position to cross body ride, scoring four points versus zero, so using the escape attempt as a transition opportunity actually improves your position rather than merely defending a deteriorating one.
-
-
-
-</section>
 
 
 </main>

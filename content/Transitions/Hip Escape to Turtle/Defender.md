@@ -164,6 +164,8 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape to Turtle?</p>
+
 - Opponent begins turning their shoulders and hips toward the side where your triangle leg crosses over their body, indicating they are trying to reduce squeeze surface area
 - Opponent's hand moves from neck defense toward your ankle or foot behind your knee, signaling they are about to attack the figure-four lock mechanism
 - Opponent executes a hip escape or shrimp movement pushing their hips away from your body, attempting to create space between their torso and your locked legs
@@ -176,6 +178,8 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape to Turtle?</p>
 
 - Maintain constant chest-to-back connection and follow opponent's hip movement to prevent angle creation that reduces squeeze effectiveness
 - Modulate squeeze pressure strategically - increase when opponent turns toward triangle leg to discourage the escape direction
@@ -190,6 +194,8 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape to Turtle?</p>
 
 ### 1. Increase squeeze pressure and pull opponent back to center alignment when they begin turning toward the triangle leg
 
@@ -227,6 +233,8 @@ Your primary tools are squeeze pressure modulation, upper body attack timing, an
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape to Turtle?</p>
+
 ### → [[Positions/Back Control/Body Triangle]]
 
 Shut down the escape at the earliest phase by maintaining tight chest-to-back connection, following hip movement, and attacking the neck whenever opponent redirects their hands to work on the lock. Periodically re-set your figure-four lock depth to prevent gradual loosening.
@@ -242,6 +250,8 @@ When the body triangle lock is compromised beyond recovery, immediately transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape to Turtle?</p>
 
 ### 1. Maintaining a static position without adjusting to opponent's hip movement and turning attempts
 
@@ -271,6 +281,8 @@ When the body triangle lock is compromised beyond recovery, immediately transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape to Turtle?</p>
+
 **Week 1-2** - Recognition and retention fundamentals
 Establish body triangle on partner who performs escape at slow speed. Focus on recognizing the turning movement, hip escape, and lock clearing attempts. Practice following hip movement and maintaining chest-to-back connection without countering aggressively. Develop awareness of when the lock is being threatened.
 
@@ -287,29 +299,6 @@ Positional sparring starting in body triangle with full resistance from both sid
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating Hip Escape to Turtle?
-**A**: The earliest cue is the opponent beginning to rotate their shoulders toward your triangle leg side. This turning motion precedes the hip escape and lock clearing attempts. Recognizing this rotation early allows you to counter by increasing squeeze pressure and pulling them back to center before they establish an escape angle. By the time they are posting their elbow or reaching for your ankle, the escape is already in its middle phases.
-
-**Q2**: Why should you attack the neck when your opponent moves their hands to work on the triangle lock?
-**A**: Attacking the neck creates a defensive dilemma: the opponent cannot simultaneously defend their neck and clear the triangle with the same hands. Every time they redirect a hand from neck defense to triangle work, you have a window to advance your choking grip. This forces them to constantly interrupt their escape to re-defend the neck, preventing them from building the sustained momentum needed to complete the multi-step escape sequence.
-
-**Q3**: Your opponent has partially broken your figure-four lock and inserted their elbow as a frame - what should you do?
-**A**: If re-establishing the body triangle is not immediately possible due to the elbow frame, transition to standard hooks by threading your feet inside their thighs before they can rotate to turtle. Maintain your seatbelt grip throughout this transition. Fighting to re-lock the triangle against a well-placed elbow frame wastes time and energy while the opponent continues progressing toward turtle. Accept the downgrade to hooks rather than losing back control entirely.
-
-**Q4**: How do you prevent your body triangle from becoming shallow over repeated escape attempts?
-**A**: Periodically check your lock depth during moments when the opponent is focused on neck defense rather than triangle clearing. Pull your locking foot deeper behind your knee and squeeze your legs together to re-set the configuration. Use your free hand to physically adjust the foot position if needed. A deep lock requires significantly more force to clear than a shallow one, so proactive maintenance is far more energy-efficient than trying to hold a deteriorating lock.
-
-**Q5**: What is the risk of following your opponent's hip escape too aggressively with your own hip adjustment?
-**A**: Over-committing your hip movement to follow their escape can compromise your own base and stability. If they suddenly reverse direction or execute a granby roll, your forward momentum makes it difficult to adjust and you may lose chest-to-back connection entirely. Follow their movement with controlled adjustments rather than lunging, and maintain enough base on the mat to absorb directional changes without losing your position.
-
-
-
-</section>
 
 
 </main>

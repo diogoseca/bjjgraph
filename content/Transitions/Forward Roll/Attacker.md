@@ -16,7 +16,7 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Forward Roll in BJJ",
-  "description": "Step-by-step guide for executing Forward Roll from Turtle/Bottom.",
+  "description": "Step-by-step guide for executing Forward Roll from Truck/Bottom.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,13 +180,15 @@ description: "How to execute the Forward Roll escape from turtle in BJJ. Step-by
 
 The Forward Roll from the attacker (executor) perspective is a dynamic escape technique initiated from turtle bottom position. Your goal is to use rolling momentum to transition past your opponent's control and recover to seated guard. The technique exploits windows where the opponent has not fully consolidated back control, using the diagonal rolling path across your shoulder and back to move through their control zone faster than they can follow. Timing is critical: the roll must be initiated when opponent's weight is committed forward or during a grip transition, as rolling against a fully settled opponent with hooks and harness will fail. The forward roll demands precise body mechanics including chin tuck, tight ball position, and explosive leg drive to generate sufficient momentum for a complete rotation. Upon completion, immediate guard establishment with active feet and defensive frames determines whether the escape succeeds or the opponent simply follows through to re-establish control.
 
-**From Position**: [[Positions/Turtle]] (Bottom)
+**From Position**: [[Positions/Twister Control/Truck]] (Bottom)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Forward Roll?</p>
 
 - Tuck chin to chest to protect the neck and create a smooth rolling surface along the diagonal shoulder-to-hip path
 - Maintain rounded spine throughout the roll to distribute pressure evenly across muscular tissue, never the vertebrae
@@ -203,6 +205,8 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Forward Roll?</p>
+
 - You are in turtle position with opponent applying pressure from behind or beside you
 - Opponent has not fully consolidated seatbelt control with both hooks inserted
 - Sufficient mat space exists in the direction you intend to roll
@@ -216,6 +220,8 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Forward Roll step by step?</p>
 
 1. **Assess opponent's control and identify rolling window**: From turtle position, evaluate opponent's grip configuration and weight distribution. The ideal moment to initiate the roll is when opponent is transitioning grips, has weight committed forward over your shoulders, or has not yet inserted hooks. Feel for looseness in their harness control or a gap between their chest and your back that indicates incomplete consolidation.
 2. **Tuck chin firmly to chest**: Bring your chin down firmly to your chest, creating a rounded cervical spine. This critical safety step protects your neck from hyperextension and creates the proper curved surface for rolling. Your gaze should be directed at your belt knot or navel throughout the entire movement. This must be the first action before any forward momentum begins.
@@ -245,6 +251,8 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Forward Roll?</p>
+
 - **Opponent follows the roll maintaining chest-to-back pressure throughout** (Effectiveness: High) - Your Response: As you complete the roll, immediately establish feet on hips in seated guard and use your legs to frame and push opponent away. If they maintain heavy pressure through the roll, continue momentum into a second roll or transition to technical stand-up rather than accepting bottom position under pressure. → Leads to [[Positions/Turtle]]
 - **Opponent grabs your legs or hips during mid-roll to stall rotation** (Effectiveness: Medium) - Your Response: Accelerate the roll using momentum already generated and use your hands to strip opponent's grips on your legs. If caught mid-roll, immediately transition to defensive guard position using whatever angle you achieved rather than trying to complete the full roll. Establish frames and work guard recovery from the partial escape position. → Leads to [[Positions/Side Control]]
 - **Opponent reads the roll early and steps around to the side** (Effectiveness: Medium) - Your Response: If you detect opponent beginning to circle before you commit to the roll, abort and switch to a different escape such as granby roll in the opposite direction or sit-through to half guard. If already mid-roll when they move laterally, use the forward momentum to angle your roll toward the direction they vacated rather than completing the original path. → Leads to [[Positions/Side Control]]
@@ -256,6 +264,8 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Forward Roll?</p>
 
 ### 1. Rolling straight down the spine instead of diagonally across the shoulder
 
@@ -295,6 +305,8 @@ The Forward Roll from the attacker (executor) perspective is a dynamic escape te
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Forward Roll (Attacker)?</p>
+
 **Week 1-2: Solo Rolling Mechanics** - Develop proper rolling path, chin tuck, and ball position
 Practice forward rolls without a partner on soft mats, focusing on diagonal shoulder-to-hip path, chin tuck, and maintaining tight ball position. Start slowly and gradually increase speed. Perform 20-30 repetitions per session, alternating lead shoulder. Video yourself to verify rolling path stays diagonal.
 
@@ -318,48 +330,12 @@ Integrate forward roll seamlessly into your complete turtle defense during free 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you tuck your chin to your chest before initiating a forward roll?
-**A**: Tucking the chin to the chest protects the cervical spine from hyperextension injury and creates the rounded surface necessary for a smooth diagonal rolling path. Without the chin tuck, the head can contact the mat under your full body weight during the rotation, risking serious neck injury. The chin tuck also ensures you roll across your shoulder blade and back muscles rather than the head or neck vertebrae, and maintains the proper curved spine position throughout the entire rolling motion.
-
-**Q2**: What is the correct rolling path across your back during a forward roll?
-**A**: The correct path is diagonal, moving from the lead shoulder blade across the upper back to the opposite hip. You should never roll straight down the centerline of your spine, as this causes painful vertebral impact, disrupts momentum, and risks spinal injury. The diagonal path distributes force across the thick muscle groups of the upper and mid back, maintains rotational momentum throughout the movement, and allows you to emerge from the roll facing your opponent.
-
-**Q3**: How do you generate the initial momentum for an effective forward roll from turtle?
-**A**: Momentum is generated by explosively extending both legs to push off the mat while simultaneously transferring weight forward onto your posted hands and then your lead shoulder. The primary driving force is the leg extension, not arm pushing. Your hands guide direction and support the initial weight transfer, but insufficient leg drive is the most common reason for incomplete rolls. The push must be committed and powerful enough to carry your entire body through the full rotation in one continuous motion.
-
-**Q4**: What should you do immediately after completing a forward roll to prevent your opponent from re-establishing control?
-**A**: Immediately establish seated guard by shooting your feet toward the opponent's hips and bringing your hands up in defensive frames against their shoulders or chest. There must be zero pause between completing the roll and establishing guard. Creating distance with your feet prevents the opponent from closing the gap and re-establishing turtle top or passing to side control. If the opponent is close, use your feet on their hips to push and create space before they can settle their weight.
-
-**Q5**: When is it more effective to use an angled forward roll versus rolling straight forward?
-**A**: An angled forward roll at 30-45 degrees is more effective when your opponent is following your movements in a straight line, as the angle change breaks their pursuit path and creates a directional mismatch. Angled rolls are also preferable near mat boundaries to redirect toward the center. Rolling straight forward is only appropriate when you have clear space and opponent is not closely following. Generally, angled rolls are higher percentage because they add directional unpredictability that makes it harder for opponents to maintain contact through the rotation.
-
-**Q6**: Your opponent has seatbelt control but no hooks from turtle top. Is this the right moment to attempt a forward roll?
-**A**: This is a viable window but requires reading the specific details. Seatbelt without hooks means opponent has upper body control but cannot follow your hip movement with their legs. The key factor is whether their weight is committed forward over your shoulders or sitting back on their heels. If forward-heavy, the roll can use their momentum. If sitting back, their seatbelt grip may stall your roll. The optimal approach is to initiate hand fighting to loosen the choking arm grip first, then roll explosively when you feel their grip weaken or they transition grips. If both hooks were in, the forward roll becomes much lower percentage.
-
-**Q7**: How can forward rolling be integrated with other turtle escapes to create a comprehensive defensive system?
-**A**: Forward rolling should be combined with granby rolls, sit-throughs, technical stand-ups, and Peterson rolls to create unpredictable movement patterns from turtle. The key is reading opponent's weight distribution and control to select the appropriate escape. Forward rolls work best against forward-committed pressure. Granby rolls counter lateral pressure. Sit-throughs exploit forward weight commitment from a different angle. By mixing these movements and chaining failed attempts into alternative escapes, you prevent opponents from timing and countering any single escape pattern.
-
-**Q8**: You initiate a forward roll but your opponent catches your hips mid-rotation. What is the correct recovery?
-**A**: Do not try to force the completion of the stalled roll, as fighting against a caught position wastes energy and leaves you exposed. Instead, immediately transition to an alternative escape based on your current angle. If you are partially inverted, use the position to enter a granby roll in the opposite direction. If you are on your side, work to establish half guard or deep half guard using your legs. The principle is continuous motion into chain escapes rather than resetting to static turtle, where the opponent will have even stronger control than before your attempt.
-
-**Q9**: What are the critical grip requirements for initiating a forward roll from turtle?
-**A**: The forward roll does not require you to have specific grips on your opponent. Rather, the critical grip requirement is freeing yourself from opponent's grips enough to roll. You need your arms free enough to post on the mat for directional control during the roll. Before initiating, use two-on-one grip fighting to strip the opponent's choking hand from any seatbelt grip, then immediately transition into the roll before they re-establish control. Your hands post on the mat shoulder-width apart with fingers forward, not gripping the opponent.
-
-**Q10**: What determines whether you should recover to seated guard versus technical stand-up after completing the forward roll?
-**A**: The decision depends on opponent's pursuit speed and the distance created by the roll. If the roll creates significant distance and opponent is slow to follow, a technical stand-up is optimal because it returns you to neutral standing where you have maximum options. If opponent follows closely through the roll and is immediately pressuring, seated guard with feet on their hips is safer because it establishes defensive frames faster than standing. Also consider mat position: near boundaries, standing gives you mobility to reset to center, while seated guard keeps you stationary.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Forward Roll?</p>
 
 Forward rolling must be practiced with careful attention to neck safety. Always ensure proper chin tuck before initiating any rolling motion, as failure to protect the neck can result in serious cervical spine injuries including disc herniation and nerve compression. Begin practicing on soft surfaces and progress gradually to competition-grade mats as technique improves. Students with existing neck, shoulder, or back injuries should consult medical professionals before practicing forward rolls. When practicing with partners, ensure adequate space around you to complete the roll without colliding with other practitioners or obstacles. Start with slow, controlled repetitions and gradually increase speed only after mastering proper diagonal rolling mechanics. Never attempt forward rolls on surfaces that are too hard, slippery, or uneven, and always warm up the neck and shoulders thoroughly before drilling.
 

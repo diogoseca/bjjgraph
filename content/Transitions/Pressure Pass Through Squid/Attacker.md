@@ -186,6 +186,8 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pressure Pass Through Squid?</p>
+
 - Accept the arm entanglement temporarily rather than fighting to clear it immediately
 - Drive heavy chest pressure forward to collapse the space squid guard needs to function
 - Keep hips low and heavy throughout the pass to prevent guard recovery attempts
@@ -201,6 +203,8 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pressure Pass Through Squid?</p>
+
 - Opponent has established squid guard with your lapel wrapped around your posting arm
 - Your free arm has secured collar grip or underhook on the non-lapel side
 - Base established with hips low and weight forward ready to drive pressure
@@ -213,6 +217,8 @@ Strategically, this technique should be deployed when you recognize squid guard 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pressure Pass Through Squid step by step?</p>
 
 1. **Secure collar control**: With your free hand (not wrapped in lapel), establish a deep cross-collar grip on the same side as your trapped arm. This grip prevents opponent from sitting up and provides anchor point for pressure.
 2. **Lower level and drive forward**: Drop your hips low and begin driving your chest forward into opponent's chest. Your trapped arm will pull tight against the lapel wrap—accept this and continue forward pressure. Head drives into opponent's far shoulder.
@@ -241,6 +247,8 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pressure Pass Through Squid?</p>
+
 - **Opponent sits up aggressively to take your back as you pressure forward** (Effectiveness: High) - Your Response: Maintain strong collar grip and keep your elbow tight. If they sit up, use your pressure to drive them back down or transition to front headlock control → Leads to [[Positions/Back Control]]
 - **Opponent transitions to worm guard by redirecting lapel around your leg** (Effectiveness: Medium) - Your Response: Continue forward pressure and backstep before worm configuration completes. Your momentum should prevent them from completing the reconfiguration → Leads to [[Positions/Lapel Guard]]
 - **Opponent frames with free arm to create space and recover guard** (Effectiveness: Medium) - Your Response: Control their framing arm with your collar grip or underhook it. Without the frame, your pressure collapses their guard structure → Leads to [[Positions/Lapel Guard]]
@@ -252,6 +260,8 @@ Strategically, this technique should be deployed when you recognize squid guard 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pressure Pass Through Squid?</p>
 
 ### 1. Attempting to clear the lapel wrap before committing to pressure
 
@@ -291,6 +301,8 @@ Strategically, this technique should be deployed when you recognize squid guard 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pressure Pass Through Squid (Attacker)?</p>
+
 **Week 1-2** - Pressure mechanics
 Practice driving heavy forward pressure from squid guard position without attempting to complete the pass. Partner holds squid guard configuration while you focus on proper weight distribution, hip position, and maintaining chest contact despite the arm wrap.
 
@@ -308,51 +320,12 @@ Apply pressure pass in live rolling starting from squid guard position. Partner 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Pressure Pass Through Squid?
-**A**: The primary goal is to defeat the squid guard configuration by using heavy forward pressure to collapse the space the guard needs to function, rather than spending energy attempting to technically clear the lapel wrap from your arm. You accept the arm entanglement temporarily and use your bodyweight to compress the bottom player, advancing through to side control.
-
-**Q2**: How do you distinguish squid guard from worm guard and why does it matter?
-**A**: Squid guard wraps the lapel around your arm (usually the posting arm), while worm guard wraps it around your leg (typically behind the knee). This distinction is critical because pressure passing works against squid guard since the arm wrap doesn't restrict your leg movement, but fails against worm guard where the leg entanglement prevents forward pressure. Worm guard requires backstep mechanics instead.
-
-**Q3**: Your opponent starts sitting up aggressively as you drive pressure forward—how do you adjust?
-**A**: Maintain your deep collar grip and keep your elbow tight to your body. Use the collar grip to push them back down as they sit up, converting their upward momentum into your downward pressure. If they continue sitting up despite this, transition to front headlock control using your collar grip as the base, which gives you dominant position from their sit-up attempt.
-
-**Q4**: What are the key grips needed for Pressure Pass Through Squid?
-**A**: Your primary grip is a deep cross-collar grip with your free hand (the arm not wrapped in lapel) on the same side as your trapped arm. This grip prevents opponent from sitting up, provides an anchor point for your pressure, and gives you control to redirect their movement. Secondary control comes from keeping your trapped arm elbow tight despite the wrap.
-
-**Q5**: When is the optimal timing window to attempt this pass?
-**A**: The optimal timing is immediately upon recognizing squid guard before the opponent establishes secondary grips or leg entanglements. The pass works best when the squid guard is their only control mechanism. If they have already added spider grips, lasso hooks, or begun transitioning to worm guard, address those controls first or consider technical clearing instead.
-
-**Q6**: What hip position must you maintain throughout the pass and why?
-**A**: Your hips must stay low and heavy throughout, pressing directly against opponent's hips with no space between. High hips create space under your chest that the opponent can exploit for guard recovery or sweep attempts. The low hip position transfers your weight through your chest into their torso, which is the crushing pressure that makes squid guard ineffective.
-
-**Q7**: Your opponent attempts to redirect the lapel around your leg to transition to worm guard—what is your response?
-**A**: Continue your forward pressure and immediately backstep before the worm configuration completes. Your forward momentum should prevent them from completing the wrap around your leg. If you recognize the transition early, you can extract your leg before they secure the new position. If worm guard establishes despite this, abandon pressure passing and switch to backstep mechanics.
-
-**Q8**: Why is continuous momentum emphasized rather than pausing to adjust?
-**A**: Pausing mid-pass allows the opponent to reconfigure their guard, establish new grips, or transition to a different lapel variation that might require different passing mechanics. The squid guard practitioner is constantly looking for opportunities to adjust—your continuous pressure denies them the time and space needed for these adjustments. The pass should be one seamless pressure movement.
-
-**Q9**: What happens to your trapped arm as you walk your legs around during the pass?
-**A**: As you change angles by walking your legs toward opponent's head while maintaining chest pressure, your trapped arm naturally begins to extract from the lapel wrap. The angle change reduces the tension on the wrap without you having to fight it directly. Once the arm clears, immediately switch it to crossface control to complete the pass.
-
-**Q10**: Your opponent frames hard with their free arm and creates distance—what is the critical direction of force to maintain your pass?
-**A**: The critical force direction is diagonal-forward into the opponent's far shoulder, not straight down. Driving diagonally collapses their framing arm by compressing it at an angle it cannot structurally support. Simultaneously underhook or control the framing arm with your collar-grip hand to strip the frame entirely, then immediately re-close the distance with renewed chest pressure.
-
-**Q11**: If the pressure pass stalls and you cannot complete the angle change, what chain attacks are available?
-**A**: If the pressure pass stalls, your established forward momentum creates immediate options. You can transition to a double under pass by shooting both arms under their legs while maintaining the pressure. Alternatively, convert to a stack pass by driving their legs toward their head vertically. If they open their guard structure to address your pressure, a knee slice or leg drag becomes available through the gap they create.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pressure Pass Through Squid?</p>
 
 The pressure pass through squid guard is generally low-risk when executed with controlled pressure. However, practitioners should be mindful of neck strain on the bottom player when driving heavy crossface pressure—communicate with training partners about pressure intensity. The arm trapped in the lapel wrap can experience discomfort if the pass is executed explosively; use smooth continuous pressure rather than jerky movements. Bottom players should tap if shoulder or neck pressure becomes excessive rather than fighting through pain. When drilling, start with moderate pressure and increase gradually as partners acclimate to the sensation.
 

@@ -194,6 +194,8 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Mount to Side Control?</p>
+
 - Maintain constant chest-to-torso pressure throughout the entire rotation arc to prevent any space creation that enables defensive reactions
 - Lead the rotation with your hips while your upper body follows naturally, keeping your center of gravity low and connected to the opponent
 - Block the opponent's far hip with your near-side hand before initiating rotation to prevent knee insertion during the transition
@@ -208,6 +210,8 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Mount to Side Control?</p>
+
 - Established reverse mount position with hips heavy on the opponent's sternum or upper abdomen and wide knee base
 - At least one hand posted on the mat for balance with the other controlling opponent's lower body or hip
 - Opponent's hips relatively controlled and flat, without active bridge attempts that would destabilize rotation
@@ -220,6 +224,8 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Mount to Side Control step by step?</p>
 
 1. **Assess rotational direction**: Determine which direction to rotate based on the opponent's arm positioning and your dominant side. The rotation should go toward the side where you can most easily establish crossface control. Post the hand on your rotation side firmly on the mat for base stability.
 2. **Block opponent's far hip**: Place your near-side hand firmly on the opponent's far hip to prevent them from inserting a knee or creating an angle during your rotation. This is the critical pre-rotation control point that determines whether the opponent can recover half guard.
@@ -250,6 +256,8 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Mount to Side Control?</p>
+
 - **Opponent times an explosive bridge during mid-rotation when attacker's base is compromised** (Effectiveness: High) - Your Response: Ride the bridge by staying heavy through your hips and widening your knees. If the bridge is strong enough to disrupt rotation, abandon the side control attempt and settle back into reverse mount to reset. Do not fight the bridge mid-rotation as this creates scramble opportunities. → Leads to [[Positions/Half Guard]]
 - **Opponent inserts near-side knee between bodies during rotation to recover half guard** (Effectiveness: High) - Your Response: Reinforce far hip blocking pressure before and during rotation. If knee insertion begins, drive your hip down aggressively to flatten their leg back to the mat. If half guard is established, immediately transition to half guard passing rather than forcing back to reverse mount. → Leads to [[Positions/Half Guard]]
 - **Opponent frames against your rotating shoulder or chest to create space during transition** (Effectiveness: Medium) - Your Response: Collapse the frame by driving your weight through it rather than around it. Maintain heavy chest pressure that makes the frame structurally insufficient. If the frame creates significant space, accelerate the rotation to reach side control before they can exploit the gap. → Leads to [[Positions/Reverse Mount]]
@@ -261,6 +269,8 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Mount to Side Control?</p>
 
 ### 1. Lifting hips off opponent's torso during the rotation
 
@@ -300,6 +310,8 @@ From reverse mount top, transitioning to side control requires a deliberate hip 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Mount to Side Control (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip rotation pattern and balance
 Practice the 90-degree hip rotation on a grappling dummy or heavy bag, focusing on maintaining downward pressure throughout the arc. Drill both clockwise and counterclockwise rotations. Develop the muscle memory for leading with hips while chest stays connected.
 
@@ -320,45 +332,12 @@ Start from scramble situations that naturally produce reverse mount. Practice re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important preparatory action before initiating the hip rotation toward side control?
-**A**: Blocking the opponent's far hip with your near-side hand is the most critical preparatory action. This prevents the opponent from inserting their near-side knee between your bodies during the rotation, which is the highest-percentage counter to this transition. Without the hip block, the rotation creates a natural gap that the opponent's knee can exploit to recover half guard.
-
-**Q2**: Your opponent bridges explosively just as you begin rotating from reverse mount - how do you adjust?
-**A**: Ride the bridge by widening your knees, sinking your hips heavy, and absorbing the upward force through your core. Do not fight the bridge mid-rotation because your base is compromised during the transition. If the bridge is powerful enough to significantly disrupt your rotation, abandon the side control conversion, settle back into reverse mount, and wait for the opponent to land before reattempting. Their post-bridge fatigue creates an ideal window for a second attempt.
-
-**Q3**: Why should the rotation be led by the hips rather than the upper body?
-**A**: Leading with the hips keeps your center of gravity low and maintains continuous pressure on the opponent's torso throughout the rotation arc. If you lead with your upper body, your chest lifts off the opponent momentarily, creating space for frame insertion or hip escape. The hips function as the axis point that stays connected while everything else rotates around it, ensuring unbroken pressure transmission.
-
-**Q4**: What determines whether side control is a better conversion target than standard mount from reverse mount?
-**A**: Side control is preferred when the opponent's arm positioning creates strong frames against your chest that would block mount rotation, when you want immediate access to submission chains like americana and kimura that are more accessible from side control, or when the opponent's defensive posture makes hook insertion for back control impractical. Side control is also the safer choice against opponents who are skilled at timing bridges during the longer mount rotation arc.
-
-**Q5**: How fast should the rotation from reverse mount to side control be executed?
-**A**: The rotation should be completed in approximately one to two seconds as a single continuous movement. It must be fast enough that the opponent cannot insert frames or initiate counters during the transition gap, but controlled enough to maintain constant pressure and arrive at correct perpendicular alignment. Rushing causes over-rotation or weight lifting, while hesitating creates exploitable windows. The tempo is smooth and deliberate rather than explosive or cautious.
-
-**Q6**: Your opponent starts inserting their knee between your bodies during mid-rotation - what is your immediate response?
-**A**: Drive your rotating hip down aggressively to flatten their inserting knee back to the mat. If their knee has progressed past the point of flattening, accelerate through the remaining rotation to establish crossface in side control before they can fully recover half guard. If half guard is established despite your efforts, immediately transition to half guard passing sequences rather than attempting to retreat back to reverse mount, which wastes the positional progress already made.
-
-**Q7**: What role does the crossface play in this transition, and when exactly should it be established?
-**A**: The crossface serves as both a rotational stop point and the primary upper body control mechanism that consolidates side control. It should be established as an integrated part of the final rotation phase, not as a separate action afterward. As your chest reaches perpendicular alignment, your shoulder or bicep drives across the opponent's face in the same motion. Delaying the crossface by even one to two seconds after rotation completion allows the opponent to turn into you and begin guard recovery.
-
-**Q8**: Why is this transition considered the most conservative conversion option from reverse mount?
-**A**: Side control conversion requires only a 90-degree rotation compared to the 180-degree rotation needed for standard mount, reducing the time window where the top player's base is compromised. Side control also requires no hook insertion like back control, eliminating a failure mode. The resulting position is one of the most sustainable in BJJ with low energy cost and long time sustainability, compared to reverse mount's inherent instability. The trade-off is giving up the higher point value and submission density of mount or back control.
-
-**Q9**: If you successfully reach side control but the opponent has already begun framing against your chest, what should you prioritize?
-**A**: Prioritize collapsing the frames through heavy shoulder pressure and crossface before attempting to settle or attack. Drive your weight through the frames rather than around them, using your chest and shoulder as a wedge. Simultaneously block their far hip with your near hand to prevent them from using the frames to create hip escape space. Only once the frames are neutralized should you consolidate your preferred side control grip configuration and begin considering submission or advancement sequences.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Mount to Side Control?</p>
 
 This transition involves controlled positional movement without direct joint manipulation or choking mechanics, making it relatively low risk. The primary safety concern is rib compression on the bottom player during the weight transfer phase of the rotation, particularly if the top player drops weight suddenly rather than maintaining smooth continuous pressure. Both practitioners should communicate if experiencing breathing difficulty under chest pressure. During training, rotate smoothly rather than explosively to prevent accidental knee or elbow strikes to the partner's face or ribs. Partners with rib injuries should communicate before drilling, and the top player should moderate pressure accordingly.
 

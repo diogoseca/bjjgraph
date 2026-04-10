@@ -20,38 +20,38 @@ description: "Survive and escape High Mount Bottom in BJJ. Emergency defensive s
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 12% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
       "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 32% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
-      "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
       "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 15% of exchanges from this position.",
-      "position": 5
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Frame and Shrimp to Guard",
       "text": "From this position, attempt Frame and Shrimp to Guard. This technique is attempted in 13% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Upa Escape",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 12% of exchanges from this position.",
+      "position": 4
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Shrimp Escape",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 12% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Bridge and Roll",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Position Definition
 
+<p class="section-subtitle">What is High Mount (Bottom)?</p>
+
 - Bottom player flat on back with opponent's knees positioned high near armpits or shoulders, creating extreme compression on upper torso. The elevated knee placement eliminates space between players and prevents the bottom player from generating meaningful hip elevation or rotational force through traditional bridging mechanics.
 - Opponent's weight centered on upper chest and sternum area with forward pressure through hips and torso, restricting breathing and preventing upward movement. The bottom player experiences constant downward pressure that eliminates the angle required for explosive bridge escapes while maintaining vulnerability to multiple submission attacks.
 - Arms tucked defensively to protect neck and prevent isolation, with elbows maintaining connection to torso when possible. The bottom player must balance arm protection with the need to create frames during escape attempts, knowing that extended arms become immediate armbar targets while tucked arms limit defensive mobility.
@@ -183,6 +185,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing High Mount (Bottom)?</p>
 
 - Understanding of mount escape fundamentals including bridge and elbow escape mechanics
 - Experience with defensive framing principles and creating space under pressure
@@ -198,6 +202,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending High Mount?</p>
+
 - Protect neck and arms as absolute priority, never allowing full extension or isolation of limbs
 - Create frames during opponent's submission attempts when weight shifts provide momentary opportunity
 - Use explosive bridge timing when opponent posts hands or shifts weight for submission attacks
@@ -212,6 +218,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from High Mount (Bottom)?</p>
 
 **If opponent posts hand high near head to establish grip for submission attempt:**
 - Execute **[[Transitions/Upa Escape/Attacker|Upa Escape]]** → [[Positions/Closed Guard]] (Probability: 30%)
@@ -240,6 +248,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending High Mount?</p>
 
 ### 1. Extending arms straight to push on opponent's chest or face
 
@@ -284,6 +294,8 @@ From a training perspective, High Mount Bottom teaches practitioners to remain c
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train High Mount defense?</p>
+
 ### High Mount Survival Drill
 
 Partner maintains high mount while you practice defensive posture, neck protection, and arm positioning for extended periods (starting 1 minute, building to 3 minutes). Partner provides increasing submission threats without finishing, developing defensive awareness and mental toughness under pressure.
@@ -323,38 +335,6 @@ Drill all escape options (upa, elbow escape, frame and shrimp) against progressi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal defensive arm position when trapped in High Mount Bottom?
-**A**: Keep elbows tight to your ribs with hands positioned near your chin and neck, creating a protective shell. Arms should never be fully extended as this creates immediate armbar opportunities. Maintain bent arms with elbows connected to your torso - this protects against arm isolation while keeping hands available to defend chokes. When forced to frame, use short, bent-arm frames rather than extended pushing.
-
-**Q2**: Your opponent reaches for a collar grip to set up a choke - what adjustment do you make?
-**A**: The moment they reach for the collar, their weight shifts forward onto their posting hand. This is your escape window. Trap their posting arm by pulling it across your chest, trap their foot on the same side with your heel, and execute an explosive bridge toward that side. If the bridge isn't available, use their forward weight shift to create frames and begin shrimping to recover guard. Their offensive action creates the opening for your defensive action.
-
-**Q3**: What is the timing window for attempting an elbow escape from High Mount Bottom?
-**A**: The elbow escape window opens when the opponent's knee slides away from your armpit - typically when they transition, reach for grips, or adjust their position. You cannot elbow escape when their knee is wedged tight against your armpit. Wait for them to create the gap, then immediately turn to your side and insert your knee before they can reestablish the wedge. The window is brief (1-2 seconds), so you must be prepared to move instantly.
-
-**Q4**: How do you defend the armbar setup from High Mount Bottom?
-**A**: When you feel them isolating your arm, immediately grip your own clothing (gi) or clasp your hands together to create a connection point. Turn your body toward the trapped arm to prevent them from rotating to finish. Pull your elbow tight to your hip, making it difficult to extend. If they commit to the armbar rotation, follow them with your body and use their transition as an opportunity to escape mount, even if you end up defending armbar from a better position.
-
-**Q5**: What should you prioritize defending: your neck or your arms?
-**A**: Neck defense takes priority because chokes can finish faster and with less setup than armbars. However, completely abandoning arm defense creates easy armbar opportunities. The balance is maintaining elbows tight to your ribs (protecting arms) while keeping hands near your chin and neck (protecting chokes). When forced to choose, defend the immediate threat - if they have collar grips, focus on the neck; if they're isolating an arm, defend the arm. Recognize that defending one often exposes the other, which is why High Mount is so dangerous.
-
-**Q6**: How do you create escape opportunities when the opponent maintains static pressure without attacking?
-**A**: When the opponent holds position without attacking, you must create opportunities rather than wait for them. Use micro-movements to test their base - small hip bumps and shoulder adjustments that force reactions. Threaten to turn to one side, which often causes them to shift weight, then escape to the opposite direction. You can also bait attacks by slightly extending an arm or exposing your neck, then capitalize on their weight shift as they commit to the submission attempt. The key is forcing them to move so you can time your escape.
-
-**Q7**: Your opponent transitions to S-Mount while you attempt an escape - what is your immediate response?
-**A**: S-Mount is worse than High Mount because it isolates one arm for armbar while maintaining control. Immediately defend the trapped arm by gripping your own lapel, clasping hands, or grabbing your opposite shoulder. Turn your body toward the trapped arm to prevent extension. If possible, use your free arm to push on their knee and create enough space to extract your trapped arm. Don't panic - focus on arm defense first, then work to collapse their S-Mount back to regular mount where you have more escape options.
-
-**Q8**: How should you breathe and manage energy when trapped in High Mount Bottom for extended periods?
-**A**: Controlled breathing is essential for survival and escape timing. Breathe steadily through your nose when possible, taking shallow breaths if chest compression is severe. Avoid holding your breath during escape attempts as this accelerates fatigue. Stay mentally calm and physically relaxed between escape attempts - tension wastes energy. Conserve your explosive power for precisely timed escapes rather than constant struggling. Accept that you may be trapped for 30-60 seconds and pace yourself accordingly, waiting for high-percentage escape windows.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -162,6 +162,8 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Dead Orchard to Darce Switch?</p>
+
 - Sudden release or reduction of the circular anaconda compression pressure around your head and neck, indicating your opponent is withdrawing from the over-head grip
 - Feeling your opponent's choking arm begin to move from over your head toward the space under your armpit, changing the angle and direction of contact
 - Shift in your opponent's shoulder pressure direction from driving down on the back of your head to driving into the side of your head, indicating repositioning for darce angle
@@ -173,6 +175,8 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Dead Orchard to Darce Switch?</p>
 
 - Recognize the switch attempt immediately when you feel anaconda pressure change direction or release, treating the pressure change as an escape trigger rather than a relief moment
 - Clamp your nearside elbow tight to your ribs to close the gap between your arm and body, blocking the darce arm from threading under your armpit
@@ -187,6 +191,8 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Dead Orchard to Darce Switch?</p>
 
 ### 1. Clamp elbow and close the threading gap by pulling your nearside elbow tight to your ribs and turning your shoulder inward to prevent the darce arm from passing under your armpit
 
@@ -224,6 +230,8 @@ When your opponent attempts the Dead Orchard to Darce Switch, you face a critica
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Dead Orchard to Darce Switch?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the grip transition window by framing against your opponent's shoulder and executing a hip escape during the moment when neither the anaconda nor darce grip is fully secured. The momentary control gap allows you to create the distance needed to recover to half guard, forcing your opponent off their front headlock position entirely.
@@ -239,6 +247,8 @@ Prevent the darce threading by clamping your elbow tight to your ribs and turnin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Dead Orchard to Darce Switch?</p>
 
 ### 1. Relaxing when the anaconda pressure releases, interpreting the grip change as your opponent losing control
 
@@ -268,6 +278,8 @@ Prevent the darce threading by clamping your elbow tight to your ribs and turnin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Dead Orchard to Darce Switch?</p>
+
 **Phase 1: Recognition** - Identifying switch attempts through pressure sensitivity
 Partner alternates between maintaining dead orchard control and initiating the darce switch at random intervals. Defender must verbally identify the switch attempt within one second of the pressure change. No escape attempts yet, focus exclusively on developing tactile recognition of the transition trigger. Build the defensive reflex of increased alertness when pressure changes.
 
@@ -281,29 +293,6 @@ Positional sparring starting from dead orchard control. Top player works to fini
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to switch from dead orchard to darce?
-**A**: The earliest cue is a shift in pressure direction on your neck and trapped shoulder. When the opponent begins releasing the anaconda grip to re-thread for darce, you feel the circular compression around your head momentarily decrease and the angle of their arm changes. Their choking arm begins pulling away from over your head and moving toward your armpit area. This brief pressure release is your critical escape window and should trigger immediate defensive action.
-
-**Q2**: Why is the grip switch moment the best time to attempt escape rather than when either choke is fully established?
-**A**: During the grip switch, neither the anaconda nor the darce is fully locked, creating a structural weakness in your opponent's control. They have temporarily released one grip configuration without fully establishing the other, meaning their control is at its weakest point. Your opponent's attention is focused on re-threading their arm rather than maintaining pressure, and their body position is transitioning between two different angles. This window typically lasts only one to two seconds, making immediate action essential.
-
-**Q3**: Your opponent releases the anaconda pressure and moves their arm toward your armpit - what specific action prevents the darce from being established?
-**A**: Immediately clamp your nearside elbow tight to your ribs and turn your shoulder inward to close the gap between your arm and your body. This blocks the darce arm from threading under your armpit. Simultaneously, use your free hand to push on their shoulder or bicep to create distance. If you prevent their arm from passing under your armpit, the darce cannot be established and you have neutralized the switch attempt entirely.
-
-**Q4**: How should you position your body during the switch attempt to maximize your escape probability?
-**A**: Turn your body toward your opponent rather than away, keeping your chest facing downward or toward their hips. Drive your hips away to create distance while maintaining your defensive shoulder position. Avoid turning your back, as this exposes you to back take opportunities during the scramble. If you can get to your knees during the transition window and square your hips, you significantly reduce the effectiveness of both the darce threading and any return to the anaconda configuration.
-
-**Q5**: What is the most dangerous mistake when your opponent attempts the Dead Orchard to Darce switch?
-**A**: The most dangerous mistake is relaxing when you feel the anaconda pressure release, interpreting it as your opponent losing control. This momentary relaxation allows them to complete the darce threading without resistance. Many practitioners feel relief when the anaconda loosens and pause their defensive efforts for a critical second. Instead, treat any change in your opponent's grip as an opportunity for immediate escape or at minimum an indicator to increase defensive vigilance and tighten your arm position against your body.
-
-
-
-</section>
 
 
 </main>

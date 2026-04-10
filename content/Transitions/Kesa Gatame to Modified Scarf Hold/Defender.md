@@ -162,6 +162,8 @@ As the defender against this transition, you face a critical decision window. Th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kesa Gatame to Modified Scarf Hold?</p>
+
 - Top player begins walking their posted far leg forward in small steps while maintaining head control
 - You feel the top player's weight shifting from their seated hips onto their chest against your torso
 - The head wrap around your neck begins loosening as the top player's body angle changes from perpendicular to more diagonal
@@ -173,6 +175,8 @@ As the defender against this transition, you face a critical decision window. Th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kesa Gatame to Modified Scarf Hold?</p>
 
 - Act immediately when you detect the transition beginning - delay favors the top player
 - The transition creates a brief window of reduced base that makes bridging more effective
@@ -187,6 +191,8 @@ As the defender against this transition, you face a critical decision window. Th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kesa Gatame to Modified Scarf Hold?</p>
 
 ### 1. Bridge and turn into opponent during hip walk phase
 
@@ -224,6 +230,8 @@ As the defender against this transition, you face a critical decision window. Th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kesa Gatame to Modified Scarf Hold?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your bridge or arm extraction to the exact moment the top player's weight shifts between positions. Insert your knee across their hip during the brief instability window to recover half guard before Modified Scarf Hold consolidates.
@@ -239,6 +247,8 @@ Force the top player to abort the transition by bridging explosively during the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kesa Gatame to Modified Scarf Hold?</p>
 
 ### 1. Waiting passively while the top player completes the transition
 
@@ -268,6 +278,8 @@ Force the top player to abort the transition by bridging explosively during the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kesa Gatame to Modified Scarf Hold?</p>
+
 **Phase 1: Recognition Training** - Identifying transition cues with eyes closed
 Partner slowly executes the transition while you keep your eyes closed, focusing on feeling the pressure changes, hip movement, and grip loosening that signal the transition. Call out when you detect it beginning. Builds the tactile awareness needed for real-time detection.
 
@@ -284,29 +296,6 @@ Three-minute rounds starting from Kesa Gatame. Top player attempts the transitio
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to transition from Kesa Gatame to Modified Scarf Hold?
-**A**: The earliest cue is feeling their posted far leg begin walking forward in small steps while their seated hip weight starts shifting onto their chest against your torso. You will also feel the head wrap around your neck begin to loosen slightly as their body angle changes from perpendicular to diagonal. These subtle pressure changes occur before any visible positional shift and provide the maximum time window for defensive action.
-
-**Q2**: Why is the transition moment more favorable for escape than either the starting Kesa Gatame or the ending Modified Scarf Hold?
-**A**: During the transition, the top player is between two stable positions, meaning their base is temporarily compromised. Their weight is shifting from the seated hip-based stability of Kesa Gatame to the chest-based compression of Modified Scarf Hold, and at the midpoint they have neither the seated base nor the settled chest weight. This instability makes bridging more effective and creates brief moments where arm control loosens as the top player adjusts grips.
-
-**Q3**: If the transition completes successfully and you are now under Modified Scarf Hold, what is your immediate defensive priority?
-**A**: Immediately protect your breathing by turning your head to the side and tucking your chin to create an airway pocket. Then establish a frame with your free arm against their hip and shoulder to prevent them from settling deeper. Do not waste energy attempting Kesa Gatame escapes. Switch to Modified Scarf Hold escape protocols: focus on frame creation, hip escape sequences, and turtle transitions rather than bridge-and-turn back attacks.
-
-**Q4**: Your opponent's armpit squeeze on your trapped arm momentarily loosens during the weight shift - how do you exploit this?
-**A**: The instant you feel the armpit pressure decrease, bend your trapped arm sharply and rotate your elbow toward your own hip to extract it from under their armpit. Do not push straight out as this re-engages their squeeze. Pull the arm in a circular motion toward your centerline. Once the arm is free, immediately insert your elbow as a frame against their hip and begin shrimping to create space for guard recovery before they can re-trap the arm under Modified Scarf Hold chest pressure.
-
-**Q5**: How should your defensive strategy differ based on which transition variant the top player uses?
-**A**: Against the quick switch variant, you must react explosively with an immediate bridge because the window closes fast. Against the gradual pressure walk, you have more time but must act before accumulating pressure becomes overwhelming. Use the slow approach to methodically extract your arm and establish frames rather than explosive bridging. Against the submission-driven variant, defend the americana first by keeping your elbow tight to your ribs, which also prevents the positional transition from completing cleanly.
-
-
-
-</section>
 
 
 </main>

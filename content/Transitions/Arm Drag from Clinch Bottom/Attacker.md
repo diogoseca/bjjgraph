@@ -188,6 +188,8 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Drag from Clinch Bottom?</p>
+
 - Two-on-one grip control: your drag hand grips their wrist while your guide hand controls at the tricep, creating a lever system that redirects their entire upper body
 - Simultaneous pull and step: the arm drag and your lateral step must happen at the same time to create the angular displacement needed to access the back
 - Pull to your hip, not across your body: drag their wrist to your near hip rather than pulling it across to the far side, which keeps you tight and prevents them from circling
@@ -202,6 +204,8 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Drag from Clinch Bottom?</p>
+
 - Establish visual or tactile read on opponent's arm position to identify when an arm is extended or committed to a grip within dragging range
 - Achieve stable base with feet approximately shoulder-width apart and weight balanced, allowing explosive lateral movement without telegraphing
 - Position your hands near the opponent's wrist and tricep area of the target arm, either from existing grip fighting or through a deliberate hand fighting sequence
@@ -213,6 +217,8 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Drag from Clinch Bottom step by step?</p>
 
 1. **Identify and isolate the target arm**: Read your opponent's grip configuration and identify which arm is most exposed or extended. The ideal target is an arm reaching for a collar tie, posting against your shoulder, or extended during grip fighting. Your drag hand (the hand on the same side as the target arm) establishes contact on their wrist while your opposite hand moves to control their tricep just above the elbow.
 2. **Establish the two-on-one grip**: Secure a firm C-grip on the opponent's wrist with your drag hand, thumb on top wrapping around the wrist joint. Your guide hand grips the back of their tricep with fingers wrapped around the muscle belly. Both grips must be tight and coordinated. This two-point control creates the mechanical advantage needed to redirect their arm and upper body. In no-gi, grip the wrist crease and the tricep; in gi, you can use sleeve grips for additional purchase.
@@ -242,6 +248,8 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Drag from Clinch Bottom?</p>
+
 - **Opponent retracts arm immediately upon feeling the initial grip** (Effectiveness: High) - Your Response: If they retract before you can establish the two-on-one, follow their retreating arm with a snap down or convert to a collar tie on the near side. Their retraction often creates a momentary opening for a single leg entry as their weight shifts backward. → Leads to [[Positions/Clinch]]
 - **Opponent squares hips and sprawls backward during the drag attempt** (Effectiveness: Medium) - Your Response: If they sprawl, you lose the angle but maintain grip contact. Convert the failed drag into a front headlock by snapping their head down, or switch to a duck under on the opposite side since their sprawl has lowered their center of gravity and created space under their arm. → Leads to [[Positions/Clinch]]
 - **Opponent counters with a takedown as you step laterally, shooting into your exposed hip** (Effectiveness: High) - Your Response: Maintain your grip on their arm and use it as a lever to sprawl and redirect their shot. If they secure a body lock during your lateral movement, immediately pull guard to closed guard or butterfly guard rather than fighting the takedown from a compromised base. → Leads to [[Positions/Side Control]]
@@ -253,6 +261,8 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Drag from Clinch Bottom?</p>
 
 ### 1. Pulling the arm across your body horizontally instead of diagonally toward your hip
 
@@ -292,6 +302,8 @@ As the attacker executing the arm drag from clinch bottom, your objective is to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Drag from Clinch Bottom (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Two-on-one grip establishment and pull direction
 Partner offers a static extended arm. Practice establishing the wrist and tricep grip and pulling to your hip with correct diagonal angle. No footwork yet, purely developing the grip sensitivity and pull mechanics. 50 repetitions each side per session.
 
@@ -312,42 +324,12 @@ Positional sparring starting from clinch with partner at full resistance. Work t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct direction of pull for the arm drag, and why does this direction matter mechanically?
-**A**: Pull the opponent's wrist diagonally toward your near hip, not horizontally across your body. This diagonal pull direction matters because it creates rotational force on the opponent's torso, turning their shoulders away from you and exposing the back. A horizontal pull leaves you squared up to them with no angular advantage, requiring additional steps to reach the back. The diagonal angle also keeps your elbows tight to your body, maximizing mechanical efficiency.
-
-**Q2**: Your opponent has a strong collar tie and is pressuring you forward in the clinch. How do you create the arm extension needed to initiate the arm drag?
-**A**: Use a sharp push-pull sequence to disrupt their collar tie control. First, push their elbow upward to momentarily break the collar tie pressure, forcing them to re-extend their arm to re-establish the grip. In that moment of re-extension, capture their wrist with your drag hand and their tricep with your guide hand. Alternatively, execute a snap down attempt that they resist by posting their hands forward, which creates the arm extension you need. The key principle is creating a reaction that forces their arm to extend rather than reaching for a retracted arm.
-
-**Q3**: Why must the lateral step and the arm pull happen simultaneously rather than sequentially?
-**A**: If the pull precedes the step, you have the opponent's arm but your body is still directly in front of them, giving them a full beat to retract and re-square. If the step precedes the pull, you move offline without controlling their arm, allowing them to turn with you. Only the simultaneous pull-and-step creates the angular displacement needed to access the back in one tempo. The opponent cannot defend a single-tempo attack that redirects their arm while removing your body from their centerline at the same time.
-
-**Q4**: What grip configuration should you use for the two-on-one control, and how does it differ between gi and no-gi?
-**A**: In both contexts, the fundamental configuration is the same: drag hand on the wrist and guide hand on the tricep. In no-gi, use a C-grip on the wrist crease where the hand meets the forearm, and a full grip on the tricep muscle belly. In gi, you can grip the sleeve at the wrist with your drag hand for superior control and use a pistol grip on the sleeve near the elbow with your guide hand. The gi grips allow for more sustained control if the initial drag attempt is defended, while no-gi requires faster execution because grips can be stripped more easily.
-
-**Q5**: You execute the arm drag and clear the opponent's centerline, but they begin turning to face you before you can establish the seatbelt. What is your immediate response?
-**A**: Accelerate your chest-to-back connection by driving your forehead into the back of their shoulder on the outside while wrapping your guide arm around their waist. If they are already partially turned, transition to a body lock on the near side and use your body weight to drag them to the mat before they complete the turn. If they fully re-square, you should immediately re-engage in the clinch with inside position since you are now on their outside angle, which gives you the advantage for a second drag attempt, a duck under, or a single leg entry.
-
-**Q6**: What are the critical mechanical details of the initial wrist grip that determine whether the drag will succeed or fail?
-**A**: The wrist grip must be a firm C-grip placed precisely on the wrist joint with your thumb on top of the forearm and fingers wrapped underneath. Gripping too far up the forearm gives the opponent leverage to rotate their arm free. Gripping the hand allows them to strip by opening their fingers. The grip pressure must be maintained through the entire drag motion without slipping. Your wrist should stay neutral, not flexed, to maintain maximum grip strength throughout the pull. The grip is a connection point, not the power source - your body weight and hip rotation generate the force.
-
-**Q7**: How do you adjust the arm drag when facing a significantly larger and stronger opponent in the clinch?
-**A**: Against larger opponents, timing and setup become more important than raw mechanics. Use multiple feints and grip fighting exchanges to create the extension window rather than trying to drag a retracted arm. Lower your level slightly before the drag to get underneath their center of gravity, making the rotational force more effective. Execute the step as a deep penetration step rather than a short lateral move to clear their wider frame. Most critically, commit fully to the drag with maximum explosiveness - against bigger opponents, a half-committed drag will be easily shrugged off, but a fully committed drag that leverages your entire body weight creates sufficient force regardless of size difference.
-
-**Q8**: If the arm drag fails and the opponent immediately shoots for a double leg, what is your defensive protocol?
-**A**: If your drag attempt fails and the opponent shoots, you are in a compromised position because your weight has shifted laterally. Immediately sprawl by kicking your legs back and driving your hips to the mat while maintaining whatever grip contact you still have on their arm. Use the remaining wrist grip to redirect their shooting direction, turning their double leg into a single leg angle where you have better defensive options. If the sprawl fails and they secure the takedown, accept the position change and focus on immediately establishing guard frames rather than fighting the takedown from a losing position. The key error to avoid is trying to re-drag during their shot, which exposes your hips completely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Drag from Clinch Bottom?</p>
 
 The arm drag from clinch bottom is generally a low-risk technique but requires awareness of several safety factors. Shoulder strain can occur if the two-on-one grip is applied with excessive rotational force on a planted opponent, particularly if their arm is locked straight. Execute the drag as a redirection of existing momentum rather than forcing rotation against a completely static base. During training, both partners should communicate about intensity levels and the attacker should release grip immediately if the defender signals discomfort. The transition to the mat after securing back control carries fall risk for both practitioners, so practice the sit-down back take on mats with adequate padding and avoid slamming or throwing during the descent phase.
 

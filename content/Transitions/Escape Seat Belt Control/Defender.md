@@ -154,6 +154,8 @@ The defender in the Escape Seat Belt Control context is the back controller work
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Seat Belt Control?</p>
+
 - Bottom player establishes two-on-one grip on your over-shoulder arm, pulling it toward their far hip
 - Hip movement or shrimping to create angular separation between their back and your chest
 - Bottom player's shoulders begin rotating toward the mat indicating a face-down turning attempt
@@ -166,6 +168,8 @@ The defender in the Escape Seat Belt Control context is the back controller work
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Seat Belt Control?</p>
 
 - Recognize escape initiation cues immediately and respond before momentum builds in the escape direction
 - Reinforce the seat belt grip connection by switching between grip configurations when the current one is attacked
@@ -181,6 +185,8 @@ The defender in the Escape Seat Belt Control context is the back controller work
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Seat Belt Control?</p>
 
 ### 1. Tighten seat belt grip and increase chest-to-back pressure while driving hooks deeper
 
@@ -218,6 +224,8 @@ The defender in the Escape Seat Belt Control context is the back controller work
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Seat Belt Control?</p>
+
 ### → [[Positions/Back Control/Seat Belt Control Back]]
 
 Maintain constant grip reinforcement and chest pressure while punishing every grip fighting attempt with choke threats. Switch between gable grip, wrist control, and palm cup configurations to prevent any single grip attack from succeeding. Drive hooks deeper whenever the bottom player creates hip movement.
@@ -233,6 +241,8 @@ When the bottom player begins turning face-down despite your grip retention, pro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Seat Belt Control?</p>
 
 ### 1. Remaining passive and relying solely on grip strength to prevent escape without adjusting position
 
@@ -262,10 +272,12 @@ When the bottom player begins turning face-down despite your grip retention, pro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Seat Belt Control?</p>
+
 **Phase 1: Grip Reinforcement Under Attack** - Maintaining seat belt structure against grip fighting
 Partner attacks your seat belt grip with two-on-one control while you practice switching between grip configurations, reinforcing with body pressure, and maintaining hand connection. Focus on energy-efficient grip retention rather than muscling through. 3-minute rounds.
 
-**Phase 2: Dilemma Creation** - Punishing grip fighting with submission threats
+**Phase 2: Fork Attacks** - Punishing grip fighting with submission threats
 When partner begins grip fighting, practice transitioning to choke attacks that force them back to neck defense. Develop the timing for recognizing when the neck is exposed and the speed for capitalizing on that window before it closes. Partner provides graduated escape resistance.
 
 **Phase 3: Mount Transition Recognition** - Identifying when to abandon back control for mount
@@ -278,26 +290,6 @@ Live positional rounds where partner uses all available escapes. Practice the fu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your immediate response when you feel the bottom player establish a two-on-one grip on your over-shoulder arm?
-**A**: Immediately tighten your under-arm grip and pull it deeper across the opponent's body while increasing chest pressure. Simultaneously, use the threatened over-arm to attempt a choke by driving your forearm toward their neck. This forces the bottom player to choose between continuing the grip break or defending the neck. If they maintain the grip break, switch to an alternative grip configuration such as wrist-on-wrist or transfer to grabbing their far shoulder.
-
-**Q2**: How should you respond when the bottom player begins shrimping to create hip angle?
-**A**: Follow their hip movement immediately by sliding your hips to match theirs, maintaining zero space between your chest and their back. Drive your hooks deeper to prevent further hip displacement. If the angle becomes significant, consider proactively transitioning to body triangle to eliminate hip escape entirely, or begin setting up a submission to punish the hand positioning required for hip escapes. Never allow cumulative angle creation across multiple shrimps.
-
-**Q3**: When should you proactively transition to mount rather than fighting to maintain back control?
-**A**: Transition to mount when the bottom player has successfully broken your over-shoulder grip and begun turning face-down. At this point, fighting to maintain back control has diminishing returns as the grip structure is compromised. By following their rotation and posting your knee over their hip, you convert a partial escape into a mount transition that maintains your dominant position. The key indicator is when you feel the turning momentum becoming impossible to stop with grip and hook pressure alone.
-
-**Q4**: What dilemma should you create for the bottom player to reduce their escape success rate?
-**A**: Force the bottom player to choose between defending the neck and fighting grips. When they remove hands from neck defense to grip fight, immediately threaten the rear naked choke. When they prioritize neck defense, settle your weight and reinforce all control points. This creates an impossible choice where addressing either problem exposes them to the other. Advanced practitioners layer this with hook threats and positional shifts to create three or four simultaneous problems the bottom player cannot all solve.
-
-
-
-</section>
 
 
 </main>

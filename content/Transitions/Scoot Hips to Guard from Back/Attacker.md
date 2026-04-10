@@ -194,6 +194,8 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Scoot Hips to Guard from Back?</p>
+
 - Protect your neck with chin tuck and two-on-one hand fighting before initiating any hip movement
 - Scoot hips incrementally downward using shoulder walking rather than one explosive movement
 - Maintain constant hand fighting on the seatbelt arm throughout the entire escape sequence
@@ -208,6 +210,8 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Scoot Hips to Guard from Back?</p>
+
 - Neck defense established through chin tuck and two-on-one grip on opponent's choking arm
 - Upper body hand fighting position secured preventing immediate submission threat
 - Opponent using standard hooks rather than locked body triangle configuration
@@ -220,6 +224,8 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Scoot Hips to Guard from Back step by step?</p>
 
 1. **Secure Neck Defense**: Immediately tuck your chin tight to your chest and establish a two-on-one grip on the opponent's choking arm, pulling it below your chin line. This prevents the rear naked choke and creates the defensive foundation for all subsequent escape movements. Without this step, any hip movement exposes you to immediate submission.
 2. **Strip Seatbelt Grip**: Use your bottom hand to grip the opponent's top seatbelt arm at the wrist while your top hand controls their choking arm. Begin working to strip or weaken the harness connection by pushing their wrist toward your hip, reducing their upper body control and creating freedom for your torso to move independently.
@@ -250,6 +256,8 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Scoot Hips to Guard from Back?</p>
+
 - **Opponent tightens hooks and follows hip movement downward to maintain hook position on inner thighs** (Effectiveness: High) - Your Response: Switch to alternating the scooting direction with small lateral hip movements, or chain into a different escape direction such as turning to turtle → Leads to [[Positions/Back Control]]
 - **Opponent attacks neck immediately when hands shift from neck defense to initiate scooting motion** (Effectiveness: High) - Your Response: Abort the scoot attempt and return to two-on-one neck defense before reattempting when hand fighting position is more secure → Leads to [[Positions/Back Control]]
 - **Opponent transitions to body triangle when sensing downward hip movement to eliminate scooting possibility** (Effectiveness: Medium) - Your Response: If body triangle locks before escape completes, address body triangle first by turning toward the triangle lock side before reattempting hip movement → Leads to [[Positions/Back Control]]
@@ -261,6 +269,8 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Scoot Hips to Guard from Back?</p>
 
 ### 1. Attempting hip movement before securing neck defense with chin tuck and two-on-one grip
 
@@ -300,6 +310,8 @@ As the bottom player in back control, executing the hip scoot escape requires sy
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Scoot Hips to Guard from Back (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip scooting motion pattern
 Practice the shoulder walking and hip scooting motion without a partner. Lie on your back and use alternating shoulder movements to travel downward on the mat. Focus on smooth incremental movement rather than explosive hip bumps. Build the motor pattern for 3-5 minutes per session.
 
@@ -320,42 +332,12 @@ Practice chaining the hip scoot with other escape methods. When opponent counter
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must be secured before initiating any hip scooting movement from back control?
-**A**: Neck defense through chin tuck and two-on-one hand fighting on the opponent's choking arm must be completely established before any hip movement begins. Attempting to scoot without neck defense leaves you vulnerable to immediate rear naked choke submission during the escape attempt.
-
-**Q2**: Why is incremental shoulder walking preferred over one explosive hip escape movement?
-**A**: Incremental shoulder walking creates a ratcheting effect that is difficult for the opponent to track and counter, as each small movement is below the threshold that triggers a strong defensive reaction. One large explosive movement is easily followed by the opponent who adjusts their hooks and body position to maintain control, wasting energy without positional improvement.
-
-**Q3**: Which hook should you target first when clearing hooks during the hip scoot escape?
-**A**: Target the bottom hook first because it provides the foundational control for the opponent's lower body position. Clearing the bottom hook destabilizes their entire hook structure and creates the space necessary for the turning motion into guard. The top hook becomes much less effective once the bottom hook is removed.
-
-**Q4**: Your opponent begins tightening their hooks as you start scooting downward - what adjustment do you make?
-**A**: Switch to alternating the scooting direction with small lateral hip movements to create angles the opponent cannot track with simple hook tightening. Combine the scoot with hand fighting on their seatbelt to create multiple problems simultaneously, forcing them to choose between maintaining hooks and defending grip strips.
-
-**Q5**: What is the critical direction you must turn when completing the escape to recover guard?
-**A**: You must turn into your opponent by rotating your inside shoulder toward their chest, never away from them. Turning into them maintains physical connection and allows immediate guard establishment with knee insertion. Turning away creates space for them to follow your rotation, re-take back control, or transition to mount.
-
-**Q6**: How does the presence of a body triangle change your approach to this escape?
-**A**: A body triangle fundamentally changes the mechanics because the locked legs cannot be cleared through simple hook removal or downward scooting. You must first address the body triangle by turning toward the triangle lock side to reduce the squeeze and create space, then work to unlock the triangle before attempting the hip scoot. The standard scooting motion is significantly less effective against body triangle control.
-
-**Q7**: What immediate actions must you take after completing the turn to prevent being passed to side control?
-**A**: Insert your inside knee between the opponent's legs to establish half guard within the first one to two seconds of completing the turn. Simultaneously establish a forearm frame on their shoulder and position your body on your side rather than flat on your back. Failure to immediately establish defensive structure allows the opponent to pass directly to side control or mount.
-
-**Q8**: When is the optimal timing window to initiate the hip scoot during back control defense?
-**A**: The optimal window is immediately after successfully defending a submission attempt when the opponent's grip loosens slightly, or after establishing solid two-on-one hand fighting control that prevents the opponent from attacking the neck. The opponent's momentary focus on re-establishing their choking grip creates the window for hip movement that is hardest to counter.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Scoot Hips to Guard from Back?</p>
 
 This escape involves significant spinal movement and neck pressure throughout its execution. Ensure your chin remains tucked at all times to protect cervical vertebrae from choke pressure during the transition. Never force the scooting motion if you feel sharp pain in your neck or spine. During training, communicate with your partner about the intensity of their hooks and choke attempts. Tap immediately if a choke is secured during practice rather than continuing the escape attempt. Build the scooting motion gradually through repetition before applying it under full resistance to prevent injury.
 

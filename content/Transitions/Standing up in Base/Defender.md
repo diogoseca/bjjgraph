@@ -162,6 +162,8 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing up in Base?</p>
+
 - Bottom player shifts weight to one side and begins positioning a hand flat on the mat with fingers spread, indicating posting hand establishment for standup sequence
 - Bottom player's hips begin rising or shifting laterally as they position their lead foot underneath their body, signaling imminent hip elevation phase
 - Bottom player creates a forearm frame against your chest or shoulder to push you away, establishing the distance needed to complete the standup
@@ -174,6 +176,8 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing up in Base?</p>
 
 - Maintain heavy chest-to-back pressure to prevent hip elevation and base establishment
 - Control at least one hip throughout the standup attempt to anchor their base to the mat
@@ -189,6 +193,8 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing up in Base?</p>
 
 ### 1. Drive heavy chest pressure forward and down onto opponent's upper back while controlling their near hip with your hand, collapsing their posting base before they can elevate
 
@@ -226,6 +232,8 @@ As the top player in turtle, your primary objective when opponent attempts a tec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing up in Base?</p>
+
 ### → [[Positions/Turtle]]
 
 Maintain heavy chest pressure and control at least one hip throughout the standup attempt. When opponent posts their hand, drive your weight forward to collapse the posting arm before hip elevation can begin. Keep your hips low and connected to their hips so they cannot create the space needed for the standup sequence. Address their framing arm by swimming inside it or redirecting it. The goal is to shut down the standup at the earliest possible phase.
@@ -241,6 +249,8 @@ If opponent successfully begins the standup, use their movement as an opportunit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing up in Base?</p>
 
 ### 1. Allowing bottom player to establish posting hand and frame without immediate intervention
 
@@ -270,6 +280,8 @@ If opponent successfully begins the standup, use their movement as an opportunit
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing up in Base?</p>
+
 **Week 1-3: Recognition and Timing Development** - Learning to identify standup initiation cues from turtle top
 Partner performs technical standup at 50% speed while you focus on recognizing the posting hand, frame creation, and hip elevation cues without actively countering. Call out each phase as you see it. Progress to identifying the cues at full speed by week 3. Perform 15-20 observation repetitions per session, developing the pattern recognition that enables rapid counter-attacks.
 
@@ -286,29 +298,6 @@ Full resistance positional rounds starting from turtle top. Bottom player uses a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective timing window to counter the technical standup, and why is early intervention critical?
-**A**: The most effective counter window is during the posting hand phase, before the opponent establishes their frame and lead foot position. Early intervention is critical because once the bottom player has a stable tripod base (posting hand, lead foot, and trailing knee), they have structural support that is difficult to collapse with pressure alone. During the posting phase, the opponent has only one new base point and has not yet created distance with their frame, making it possible to collapse their structure with relatively low effort. Each subsequent phase of the standup creates additional stability, making your counter exponentially harder. The posting hand phase lasts roughly one second, so recognition speed is paramount.
-
-**Q2**: Your opponent successfully elevates their hips and begins the step-through phase - what is your highest-percentage response?
-**A**: At this stage, preventing the standup is less likely than capitalizing on it for back control. As they step through, their hips are elevated and exposed, creating ideal conditions for hook insertion. Immediately secure a seatbelt grip if not already established and insert your near-side hook into the space between their thigh and the mat. Follow their upward movement by climbing onto their back rather than pulling them down. Their step-through motion actually assists your transition to back control because they are creating the exact body position you need for hook placement. Attempting to drag them back down at this phase often fails and wastes energy.
-
-**Q3**: How do you maintain pressure while circling to counter an opponent's standup without creating space they can exploit?
-**A**: Maintain constant chest-to-back contact during all lateral movement by using short, shuffling steps rather than large repositioning movements. Keep one hand controlling their near hip at all times as your anchor point, and move your feet in small increments while your upper body pressure never lifts. Think of your chest as glued to their back with your feet circling underneath you. The common error is stepping wide and briefly lifting your chest to reposition, which creates exactly the space the bottom player needs. If you must take a larger step, compensate by driving your shoulder into their back during the transition to maintain weight.
-
-**Q4**: What distinguishes an effective turtle top pressure that prevents standup from one that merely slows it down?
-**A**: Effective prevention requires three simultaneous elements: chest weight driving at a 45-degree angle into opponent's upper back and shoulders, at least one hand controlling their near hip to prevent elevation, and your own hips staying low and connected rather than floating above their body. Pressure that merely slows the standup typically has only one or two of these elements. Most commonly, top players apply chest pressure but neglect hip control, allowing the bottom player to elevate despite the weight. Or they control hips with hands but keep their own body weight too high to create meaningful compression. All three elements must be present simultaneously to truly prevent the standup rather than just delaying it.
-
-**Q5**: When is it strategically better to allow the standup and convert to back control rather than fighting to prevent it?
-**A**: It is better to allow the standup and convert to back control when you already have a seatbelt grip established but cannot insert hooks from the mat-level position, when the opponent's standup is technically strong and prevention would require excessive energy expenditure, or when you are in a competition scenario where back control points are more valuable than maintaining a zero-point turtle top position. The key indicator is whether you have upper body control: if your harness grip is secure, the standup actually helps you by creating space for hooks. If you have no upper body control, allowing the standup simply loses the position. Make this decision before the standup begins based on your grip quality, not reactively during the attempt.
-
-
-
-</section>
 
 
 </main>

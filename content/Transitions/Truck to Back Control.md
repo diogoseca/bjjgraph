@@ -97,7 +97,7 @@ This transition functions as a strategic safety valve within the truck attack sy
 
 - **Consolidate Seatbelt and Hook Position**: Tighten your seatbelt grip and adjust both hooks to optimal depth and angle. Your heels should be pr...
 
-- **Establish Weight Distribution for Back Control**: Settle your weight through your hips and chest into the opponent's back, establishing the cooking pr...
+- **Establish Center of Gravity for Back Control**: Settle your weight through your hips and chest into the opponent's back, establishing the cooking pr...
 
 
 ### Common Mistakes
@@ -218,7 +218,7 @@ The Truck to Back Control transition bridges the 10th Planet leg entanglement sy
 
 - [[Transitions/Escape from Truck]] - Opponent's primary defensive response that the transition must account for
 
-- [[Submissions/Calf Slicer from Truck]] - Alternative truck submission that creates the dilemma enabling this back take transition
+- [[Submissions/Calf Slicer]] - Alternative truck submission that creates the dilemma enabling this back take transition
 
 - [[Positions/Twister Control]] - Alternative truck attack pathway that threatens spine when opponent defends back take
 

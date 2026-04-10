@@ -183,11 +183,11 @@ The strategic significance of the rear triangle lies in its ability to create su
 
 - **[[Transitions/Armbar from Back Transition/Attacker|Armbar from Back Transition]]** (14% of attempts)
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (16% of attempts)
+- **[[Rear Naked Choke from Rear Triangle/Attacker|Rear Naked Choke from Rear Triangle]]** (16% of attempts)
 
 - **[[Transitions/Aoki Lock to Crucifix/Attacker|Aoki Lock to Crucifix]]** (13% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (12% of attempts)
+- **[[Bow and Arrow Choke from Rear Triangle/Attacker|Bow and Arrow Choke from Rear Triangle]]** (12% of attempts)
 
 - **[[Transitions/Kimura from Back/Attacker|Kimura from Back]]** (12% of attempts)
 
@@ -195,7 +195,7 @@ The strategic significance of the rear triangle lies in its ability to create su
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (3% of attempts)
 
-- **[[Submissions/Rear Triangle Choke/Attacker|Rear Triangle Choke]]** (2% of attempts)
+- **[[Rear Triangle Choke from Rear Triangle/Attacker|Rear Triangle Choke from Rear Triangle]]** (2% of attempts)
 
 
 ### Common Mistakes

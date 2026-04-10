@@ -157,6 +157,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Electric Chair (Top)?</p>
+
 - One leg (usually the inside leg) is trapped between opponent's legs in the lockdown configuration, with opponent's shin across your shin/ankle and their foot triangled behind their own knee
 - Top player's hips are typically elevated and pulled toward the opponent's outside hip due to the lockdown's stretching mechanism, creating uncomfortable torque on the trapped knee
 - Opponent is on their side or back in half guard bottom position with the lockdown engaged, often with an underhook or whizzer controlling your upper body
@@ -170,6 +172,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Electric Chair (Top)?</p>
+
 - Opponent has secured lockdown control from half guard bottom
 - One of your legs is trapped in the lockdown configuration
 - Opponent has achieved sufficient hip extension to create the Electric Chair stretch
@@ -182,6 +186,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Electric Chair?</p>
 
 - Immediately recognize the lockdown and Electric Chair setup to prevent the submission from being finished
 - Keep your weight forward and chest pressure down on opponent to prevent them from creating the optimal angle for the submission
@@ -197,6 +203,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Electric Chair (Top)?</p>
 
 **If opponent has strong lockdown with underhook and is attempting Electric Chair submission:**
 - Execute **[[Limp Leg Defense/Attacker|Limp Leg Defense]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 70%)
@@ -225,6 +233,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Electric Chair?</p>
 
 ### 1. Pulling leg out forcefully without breaking the lockdown first
 
@@ -264,6 +274,8 @@ The Electric Chair Top position is particularly common in 10th Planet Jiu-Jitsu 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Electric Chair attacks?</p>
+
 ### Lockdown Escape Repetitions
 
 Partner holds lockdown with varying degrees of pressure. Practice systematic lockdown break sequence focusing on foot triangle opening, knee pressure, and leg extraction. Start with light resistance and gradually increase intensity.
@@ -296,38 +308,6 @@ Partner attempts Old School sweep from lockdown while you defend with proper bas
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts extending their hips to increase the Electric Chair pressure - what immediate adjustment do you make?
-**A**: Drive your chest weight forward onto opponent while simultaneously relaxing your trapped leg (limp leg). This prevents them from achieving the perpendicular angle needed for maximum submission pressure. Use your free leg to push their hips flat to the mat, reducing their extension leverage.
-
-**Q2**: What are the essential grips and controls for maintaining defensive posture in Electric Chair Top?
-**A**: Prioritize crossface control with your nearside arm to prevent opponent from achieving optimal angle. Use your farside arm to control their underhook or establish a whizzer. Your free leg must post wide for base while your head drives into their shoulder on the crossface side.
-
-**Q3**: How do you shut down the Old School sweep attempt from this position?
-**A**: When opponent begins rolling backward for the Old School, immediately establish a deep whizzer on their underhooking arm and sprawl your hips away. Drive your chest into them while maintaining wide base with your free leg. The whizzer prevents them from completing the roll and can be used to counter to side control.
-
-**Q4**: What is the correct sequence for breaking the lockdown?
-**A**: First, establish forward pressure to limit opponent's angle. Second, address the foot triangle by using your free hand to separate their feet or knee pressure to open the triangle. Third, relax your trapped leg (limp leg) to reduce the grip. Finally, extract your leg by driving your knee toward opponent's hip while maintaining upper body control.
-
-**Q5**: How should you distribute your weight to minimize sweep and submission threats?
-**A**: Keep approximately 70% of your weight forward on your chest and shoulder pressure against opponent. Never lean back or post hands behind you. Your free leg should be posted wide at a 45-degree angle for maximum base. Hips should stay as low as possible while driving forward.
-
-**Q6**: Your opponent suddenly releases lockdown pressure to transition - what do you do?
-**A**: Immediately extract your trapped leg by driving your knee toward their hip. Transition directly to passing by establishing knee slice position or smash pass posture before they can re-engage the lockdown. Do not hesitate - any delay allows them to reestablish control or transition to another guard.
-
-**Q7**: How do you manage energy when stuck in the Electric Chair position?
-**A**: Avoid explosive escape attempts that drain energy quickly. Work methodically through the lockdown break sequence, making small adjustments rather than large movements. Use breathing control to stay relaxed. Let opponent expend energy attacking while you maintain defensive posture and wait for the right moment to escape.
-
-**Q8**: After partially escaping the lockdown but before fully passing, your opponent regrips - how do you recover?
-**A**: Immediately re-establish crossface pressure and wide base. If they've secured a new lockdown, restart the break sequence from the beginning. If they're transitioning to another guard, use the moment of transition to advance your position before their new guard is established. Never allow them to settle into a new controlling position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

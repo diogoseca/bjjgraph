@@ -20,38 +20,38 @@ description: "Master Triangle Control Bottom in BJJ. Dominant submission control
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke Front",
-      "text": "From this position, attempt Triangle Choke Front. This technique is attempted in 29% of exchanges from this position.",
+      "name": "Execute Triangle Choke",
+      "text": "From this position, attempt Triangle Choke. This technique is attempted in 32% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Armbar",
-      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 22% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Armbar. This technique is attempted in 21% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Omoplata",
-      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 13% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Omoplata. This technique is attempted in 12% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Triangle to Back",
-      "text": "From this position, attempt Triangle to Back. This technique is attempted in 9% of exchanges from this position.",
+      "text": "From this position, attempt Triangle to Back. This technique is attempted in 8% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Mounted Triangle",
-      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 7% of exchanges from this position.",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 6% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Closed Guard to Omoplata",
-      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Closed Guard to Omoplata. This technique is attempted in 5% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ The submission chain available from triangle control represents one of the most 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Triangle Control (Bottom)?</p>
+
 - Both legs wrapped around opponent's neck and shoulder, with one leg crossed over the other behind opponent's neck, creating a closed triangle configuration that controls head position and restricts movement
 - One of opponent's arms trapped inside the triangle across their own neck, while the other arm remains outside, creating asymmetric pressure that amplifies the choking mechanism
 - Practitioner's hips angled 30-45 degrees off centerline relative to opponent's torso, with the choking leg's knee pointing toward opponent's trapped shoulder to maximize arterial compression
@@ -184,6 +186,8 @@ The submission chain available from triangle control represents one of the most 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Triangle Control (Bottom)?</p>
+
 - Successful isolation of one of opponent's arms inside guard position using arm drag, overhook, or collar sleeve control
 - Breaking of opponent's posture to bring their head and shoulders forward, eliminating vertical base
 - Initial triangle lock with legs secured around neck and shoulder, with ankle crossed behind opponent's neck
@@ -196,6 +200,8 @@ The submission chain available from triangle control represents one of the most 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle Control?</p>
 
 - Maintain tight triangle lock with ankles crossed behind opponent's neck, squeezing knees together to compress carotid arteries using full leg engagement
 - Keep hips angled 30-45 degrees off centerline with choking leg's knee directed toward trapped shoulder for optimal compression geometry
@@ -212,13 +218,15 @@ The submission chain available from triangle control represents one of the most 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Triangle Control (Bottom)?</p>
+
 **If opponent attempts to stack by driving forward and lifting hips:**
 - Execute **[[Transitions/Triangle to Omoplata/Attacker|Triangle to Omoplata]]** → [[Positions/Omoplata Control]] (Probability: 65%)
 - Execute **[[Transitions/Triangle to Back/Attacker|Triangle to Back]]** → [[Positions/Back Control]] (Probability: 55%)
 
 
 **If opponent attempts to posture up vertically or pull head back:**
-- Execute **[[Submissions/Triangle Choke Front/Attacker|Triangle Choke Front]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Submissions/Triangle Choke/Attacker|Triangle Choke]]** → [[game-over]] (Probability: 75%)
 - Execute **[[Transitions/Triangle to Armbar/Attacker|Triangle to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
 
 
@@ -239,6 +247,8 @@ The submission chain available from triangle control represents one of the most 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Control?</p>
 
 ### 1. Crossing legs too low on opponent's back instead of high behind the neck
 
@@ -277,6 +287,8 @@ The submission chain available from triangle control represents one of the most 
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Triangle Control defense?</p>
 
 ### Triangle Lock Repetitions
 
@@ -331,7 +343,7 @@ Flow drill starting from triangle control: if partner defends choke transition t
 
 ## Related Positions and Techniques
 
-- **[[Submissions/Triangle Choke Front]]** - Primary submission finish executed from this control position
+- **[[Submissions/Triangle Choke]]** - Primary submission finish executed from this control position
 - **[[Positions/Closed Guard]]** - Most common entry position for establishing triangle control
 - **[[Positions/Armbar Control]]** - Primary transition target when opponent defends triangle choke
 - **[[Positions/Omoplata Control]]** - Alternative submission when opponent turns shoulder into triangle

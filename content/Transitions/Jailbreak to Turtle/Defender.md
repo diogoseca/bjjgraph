@@ -162,6 +162,8 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Jailbreak to Turtle?</p>
+
 - Bottom player secures deep underhook on their trapped leg side with elbow driving tight to their own hip, establishing the structural connection needed for the roll
 - Bottom player's hips begin rotating toward their trapped leg side with shoulders angling toward the mat, creating the angular momentum vector for inversion
 - Bottom player's free leg actively posts against the mat or your hip rather than fighting for half guard retention, indicating they are loading propulsion for explosive movement
@@ -174,6 +176,8 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Jailbreak to Turtle?</p>
 
 - Monitor the depth and tightness of opponent's underhook—this is the mechanical fulcrum enabling the entire escape
 - Maintain base width sufficient to prevent being rolled while still applying passing pressure
@@ -188,6 +192,8 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Jailbreak to Turtle?</p>
 
 ### 1. Sprawl hips back and widen base laterally to remove forward weight commitment that powers the roll
 
@@ -225,6 +231,8 @@ Defending the Jailbreak to Turtle requires the top player to recognize early war
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Jailbreak to Turtle?</p>
+
 ### → [[Positions/Jailbreak]]
 
 Sprawl hips back and widen your base the moment you feel the bottom player's hips turning and underhook deepening. Remove your forward weight commitment that powers the roll while maintaining crossface control. This stalls the escape and forces them to re-engage from a neutral jailbreak position where you can resume passing.
@@ -240,6 +248,8 @@ Strip the underhook by driving a deep whizzer and circling your elbow inside to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Jailbreak to Turtle?</p>
 
 ### 1. Continuing to drive forward pressure after recognizing the jailbreak setup, feeding energy into the escape
 
@@ -269,6 +279,8 @@ Strip the underhook by driving a deep whizzer and circling your elbow inside to 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Jailbreak to Turtle?</p>
+
 **Week 1-2** - Recognition drilling
 Partner slowly sets up jailbreak from half guard bottom while you identify each recognition cue: underhook depth, hip angle, chin tuck, free leg posting. Practice calling out each cue verbally before partner executes. Build pattern recognition without attempting to counter yet.
 
@@ -285,29 +297,6 @@ Positional sparring from half guard top where partner can attempt jailbreak, dee
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is setting up the jailbreak escape?
-**A**: The earliest cue is the bottom player establishing a deep underhook on their trapped leg side with their elbow driving tight to their own hip. This structural connection is the mechanical requirement for the entire escape. Before the hip turn, chin tuck, or free leg post, the underhook establishment signals jailbreak intent and should trigger immediate defensive adjustments to strip or neutralize it.
-
-**Q2**: Your bottom opponent has a deep underhook and their hips start turning - what is your immediate response?
-**A**: Immediately sprawl your hips back and widen your base laterally. This removes the forward weight commitment that powers the inversion and makes your center of gravity too far back to be rolled. Simultaneously work to strip the underhook with a deep whizzer or overhook. Do not continue driving forward—your forward pressure is the energy source the bottom player needs to execute the roll.
-
-**Q3**: Why is simply driving harder into the bottom player a flawed defensive response to the jailbreak?
-**A**: The jailbreak specifically uses the top player's forward weight commitment as rotational energy for the escape. Driving harder loads more weight forward of your hips, narrowing your base and increasing the momentum available for the inversion. The correct response is the opposite—shift weight behind your hips and widen base to remove the very energy source the technique exploits. Fighting force with force plays directly into the escape's mechanics.
-
-**Q4**: The jailbreak roll has already initiated and you cannot stop it - what is the best response?
-**A**: If the roll is already in motion, commit to following it with chest pressure maintained rather than fighting the momentum. As the bottom player completes to turtle, immediately establish front headlock control or begin inserting hooks for back control. Convert their escape into your offensive position at turtle top. The worst response is partially resisting mid-roll, which creates a scramble where neither player has control.
-
-**Q5**: How do you maintain effective passing pressure while preventing the jailbreak escape?
-**A**: The key is controlling your center of gravity relative to your base. Keep your hips behind your shoulders rather than loading chest-first onto the bottom player. Apply pressure through a wide base with shoulder pressure angled downward rather than forward. This maintains uncomfortable control while keeping your weight distribution safe from being rolled. Additionally, prioritize underhook prevention through whizzer and overhook control, as without the underhook the jailbreak is mechanically impossible regardless of your weight distribution.
-
-
-
-</section>
 
 
 </main>

@@ -129,7 +129,7 @@
       },
       {
         "step_number": 3,
-        "action": "Read Weight Distribution",
+        "action": "Read Center of Gravity",
         "description": "Before committing to the sweep, assess whether the opponent's weight is forward, neutral, or backward. Forward weight is ideal as it feeds directly into the overhead mechanics. Neutral weight can be drawn forward with a subtle sleeve pull. Backward weight signals you should switch to berimbolo entry instead. This read takes less than one second but determines your attack selection entirely."
       },
       {

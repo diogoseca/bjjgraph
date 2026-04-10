@@ -198,7 +198,7 @@ Hook Leg and Take Back represents the positional advancement pathway within the 
 
 - [[Positions/Back Control]] - Primary target position achieved through successful execution
 
-- [[Transitions/Rear Naked Choke]] - High-percentage submission available after completing back take
+- [[Submissions/Rear Naked Choke]] - High-percentage submission available after completing back take
 
 - [[Transitions/Body Triangle Lock]] - Alternative leg control when second hook is defended
 

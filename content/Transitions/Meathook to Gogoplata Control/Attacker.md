@@ -188,6 +188,8 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Meathook to Gogoplata Control?</p>
+
 - Opponent's forward pressure is the trigger—never force the transition against backward movement
 - The shin must travel directly from tricep to throat without pausing at intermediate positions
 - Hip rotation creates the angle necessary for proper shin placement across the neck
@@ -203,6 +205,8 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Meathook to Gogoplata Control?</p>
+
 - Established Meathook position with shin hook firmly controlling opponent's tricep
 - Opponent demonstrating forward driving pressure or preparing to stack
 - Strong grip on opponent's head or collar on the non-trapped side
@@ -215,6 +219,8 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Meathook to Gogoplata Control step by step?</p>
 
 1. **Recognize trigger**: Identify opponent's forward pressure commitment—their head drops and shoulders drive toward your chest, weight shifting forward off their knees into their hands and your body
 2. **Release arm hook**: Withdraw shin from opponent's tricep by pulling your knee toward your chest, freeing the leg to travel across their body while maintaining collar or head grip with opposite hand
@@ -243,10 +249,12 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Meathook to Gogoplata Control?</p>
+
 - **Explosive posture recovery before shin reaches throat** (Effectiveness: High) - Your Response: If opponent postures early, abort transition and re-establish Meathook—never chase a failed gogoplata attempt with compromised control → Leads to [[Positions/Rubber Guard/Meathook]]
 - **Stack defense by driving forward through the transition** (Effectiveness: Medium) - Your Response: Use their stack momentum to roll backward into omoplata position, converting failed gogoplata into shoulder lock opportunity → Leads to [[Positions/Closed Guard]]
 - **Head extraction by pulling back and down while turning chin away** (Effectiveness: Medium) - Your Response: Follow their head movement with hip adjustment—if they extract, transition to triangle setup using the now-available neck angle → Leads to [[Positions/Rubber Guard/Meathook]]
-- **Arm pummel to create inside position and block shin path** (Effectiveness: Low) - Your Response: Their arm pummel opens armbar angle—switch to Armbar from Guard if they prioritize arm positioning over head protection → Leads to [[Positions/Rubber Guard/Meathook]]
+- **Arm pummel to create inside position and block shin path** (Effectiveness: Low) - Your Response: Their arm pummel opens armbar angle—switch to Armbar on Free Arm if they prioritize arm positioning over head protection → Leads to [[Positions/Rubber Guard/Meathook]]
 
 
 </section>
@@ -254,6 +262,8 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Meathook to Gogoplata Control?</p>
 
 ### 1. Releasing arm hook before opponent commits to forward pressure
 
@@ -288,6 +298,8 @@ Strategically, this transition exemplifies the dilemma-creation philosophy centr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Meathook to Gogoplata Control (Attacker)?</p>
+
 **Week 1-2** - Mechanics isolation
 Practice shin path from tricep to throat position against stationary partner. Focus on hip rotation timing and hand position transition. Partner provides no resistance, simply maintaining forward-leaning posture. 50 repetitions per session.
 
@@ -305,48 +317,12 @@ Full resistance positional sparring starting from Meathook. Partner attempts all
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals you should attempt the Meathook to Gogoplata Control transition?
-**A**: The trigger is opponent's committed forward pressure—when they drive their head and shoulders toward your chest with their weight shifting forward off their knees. This forward commitment places their throat directly into the path of your transitioning shin and prevents them from posturing out during the movement.
-
-**Q2**: Why is hip rotation critical during the shin transition from arm to throat?
-**A**: Hip rotation creates the diagonal angle necessary for the shin to cross the throat rather than the face or shoulder. Without rotation, the shin travels in a straight line and contacts ineffective targets. The rotation also generates the hip drive needed to apply choking pressure once the shin reaches the throat position.
-
-**Q3**: Your opponent postures up explosively as you begin releasing the arm hook—what should you do?
-**A**: Abort the transition immediately and work to re-establish Meathook control rather than chasing the gogoplata. A failed transition attempt with compromised arm control leaves you in weak closed guard position. Patience and trigger recognition prevent this—only attempt transition when forward pressure is committed, not tentative.
-
-**Q4**: What grip transition must occur simultaneously with the shin repositioning?
-**A**: Both hands must transition to head control at the same moment the shin releases from the tricep. One hand typically grips behind the head pulling down while the other controls the crown. Single-handed head control is insufficient to prevent posture recovery—this dual grip is non-negotiable for successful Gogoplata Control establishment.
-
-**Q5**: Your opponent attempts a stack defense by driving forward through your transition—how do you adapt?
-**A**: Use their forward momentum to roll backward into omoplata position. Their committed stack provides the energy for the roll while exposing their shoulder. This converts a failed gogoplata attempt into a shoulder lock opportunity, demonstrating the interconnected attack chains that make Rubber Guard effective.
-
-**Q6**: Why should you never attempt this transition when opponent is retreating or moving backward?
-**A**: Backward movement means your shin reaches empty space as opponent creates distance. This exposes you to guard pass attempts while in a compromised position with one leg extended and no arm control. The transition specifically requires forward pressure to function—retreat mandates different attack selections like re-establishing Meathook or pursuing triangle.
-
-**Q7**: What role does the non-hooking leg play during the Meathook to Gogoplata transition?
-**A**: The non-hooking leg must maintain constant hip control throughout the transition, typically by wrapping opponent's back or controlling their far hip. This closed guard connection prevents them from slipping their hips to the side during the transition and initiating a guard pass while you focus on the upper body position change.
-
-**Q8**: How does the shin angle differ between Meathook arm control and Gogoplata throat control?
-**A**: In Meathook, the shin hooks horizontally across the tricep with downward lever pressure. In Gogoplata Control, the shin crosses the throat at a diagonal angle with the instep contacting the side of the neck and the shin bone pressing the front of the trachea. This diagonal angle creates maximum compression for the choke.
-
-**Q9**: Your opponent blocks the shin path by pummeling their arm to inside position—what alternative attack opens?
-**A**: Their arm pummel to block the shin path removes their arm from a defended position and exposes the elbow joint. Switch immediately to Armbar from Guard by controlling the extended arm and pivoting your hips for the armbar angle. Their defensive arm movement against the gogoplata actually creates the isolation needed for the arm attack.
-
-**Q10**: What specific hip flexibility prerequisites must be met before attempting this transition in live rolling?
-**A**: You must be able to comfortably maintain Meathook with the shin over the opponent's shoulder and then redirect that leg across the throat line without straining. Test by achieving Mission Control and Meathook positions statically first. If you cannot bring your shin from tricep level to throat level with smooth hip rotation while lying supine, continue flexibility development before live attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Meathook to Gogoplata Control?</p>
 
 The Meathook to Gogoplata transition involves throat compression, requiring careful training protocols to prevent injury. Partners must tap immediately when choke pressure registers—there is no safe way to resist through a locked gogoplata. Practitioners should release instantly upon tap and never hold position to prove a point. The transition also requires significant hip flexibility; forcing the movement beyond natural range risks hip flexor strain or hamstring injury. Build flexibility gradually before attempting live application. Avoid drilling at full speed until mechanics are automatic—rushed transitions can cause accidental knee or shin contact to training partner's face. During competition, be aware that some rulesets restrict certain choke mechanics, and referee positioning may not allow immediate tap recognition in this unusual position.
 

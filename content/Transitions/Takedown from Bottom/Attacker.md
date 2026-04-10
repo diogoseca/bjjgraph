@@ -188,6 +188,8 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Takedown from Bottom?</p>
+
 - Timing over speed - attack when opponent's weight shifts or grips are transitioning, not against a settled defensive structure
 - Commit fully to the level change - half-hearted shots telegraph your intention and allow easy sprawl defense
 - Head position determines the finish - keep your head inside on the hip line to prevent guillotine counters and maintain driving angle
@@ -202,6 +204,8 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Takedown from Bottom?</p>
+
 - At least one controlling grip established on opponent's collar, sleeve, or body to create a connection point for reading their weight distribution
 - Opponent within penetration step range, approximately one to two arm-lengths of distance for effective level change entry
 - Clear lane for the lead knee to penetrate without obstruction from opponent's posted legs or defensive knee frames
@@ -214,6 +218,8 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Takedown from Bottom step by step?</p>
 
 1. **Establish Initial Contact**: Secure at least one controlling grip on the opponent's collar, sleeve, or wrist to create a connection point that allows you to read their weight distribution and react to their movements while maintaining the ability to push and pull for setup sequences.
 2. **Create Setup Through Off-Balancing**: Use push-pull dynamics, feints, or grip changes to disrupt the opponent's balance and create a momentary opening in their defensive posture where their weight shifts forward or they widen their stance to recover equilibrium, creating the timing window for the shot.
@@ -244,6 +250,8 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Takedown from Bottom?</p>
+
 - **Opponent sprawls immediately, dropping hips back and driving chest weight onto your upper back to stuff the shot** (Effectiveness: High) - Your Response: Switch to a single leg by grabbing the near leg and driving your head to the outside while circling to create a new angle for the finish → Leads to [[Positions/Front Headlock]]
 - **Opponent pulls guard during the shot, sitting down and wrapping legs to establish closed guard before the takedown completes** (Effectiveness: Medium) - Your Response: Maintain posture and base as they sit, immediately address their grips and begin working to pass or stand back up to disengage from the guard → Leads to [[Positions/Closed Guard]]
 - **Opponent executes a crossface and whizzer combination, blocking your inside arm and driving your head sideways to kill the angle** (Effectiveness: High) - Your Response: Switch hips and re-shoot on the opposite side, or transition to a body lock by connecting your hands around their waist below the whizzer to negate its leverage → Leads to [[Positions/Standing Position]]
@@ -255,6 +263,8 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Takedown from Bottom?</p>
 
 ### 1. Telegraphing the shot with an obvious level change or forward lean before committing to the penetration step
 
@@ -294,6 +304,8 @@ Executing a takedown from a disadvantaged standing position requires superior ti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Takedown from Bottom (Attacker)?</p>
+
 **Phase 1: Fundamental Mechanics** - Level change and penetration step isolation
 Practice solo level changes with penetration steps against a wall or pad, focusing on dropping hips below target height while maintaining straight back and forward drive. Progress to partner drills with no resistance, emphasizing form and smooth transitions between each phase of the shot.
 
@@ -314,42 +326,12 @@ Full rounds starting from standing with score-keeping to simulate competition co
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the level change against a standing opponent?
-**A**: The optimal timing window occurs when the opponent is mid-step during lateral movement, when they are adjusting or breaking a grip, or immediately after a push-pull sequence disrupts their weight distribution. These moments create brief windows of roughly half a second where their base is compromised and defensive reaction time is delayed, making the level change far more effective than shooting against a settled, balanced opponent.
-
-**Q2**: What grip configuration provides the best setup for a double leg entry from a disadvantaged standing position?
-**A**: A collar tie with the lead hand combined with wrist control on the opposite side provides the ideal setup configuration. The collar tie allows you to snap the opponent's head down or pull them forward to shift their weight to their toes, while the wrist control prevents them from posting on your head during the shot. Releasing both grips simultaneously during the level change ensures your hands are free to secure the legs on entry.
-
-**Q3**: How should you position your head during the penetration step to prevent guillotine counters?
-**A**: Your head must be positioned on the inside of the opponent's hip line with your ear pressed tightly against their ribcage or hip. Never allow your head to drop below the opponent's arm line or hang in the center between their legs. The forehead drives into their hip crease while your chin stays tucked to protect the neck. This inside head position makes guillotine attempts mechanically impossible because your head is past their centerline and their arm cannot close the angle.
-
-**Q4**: Your opponent successfully sprawls on your initial shot - what immediate chain attack prevents returning to neutral?
-**A**: Immediately transition to a single leg by securing the near-side leg with both arms while shifting your head to the outside position. Drive your body perpendicular to the opponent's sprawled position, using their extended hips as leverage. If the single leg is also defended, circle toward their back while maintaining leg contact to expose the ankle for a pick or transition to a body lock by climbing your grip up to their waist below the whizzer.
-
-**Q5**: What physical cue tells you the opponent is most vulnerable to a takedown attempt?
-**A**: Watch for the opponent's weight shifting to their heels, indicated by their torso leaning backward or their toes lifting slightly. This heel-heavy distribution means they cannot sprawl effectively because sprawling requires driving hips backward, which is impossible when weight is already committed rearward. Other vulnerability cues include feet planted parallel and square rather than staggered, crossed feet during lateral movement, and arms extended forward reaching for grips with elevated elbows.
-
-**Q6**: What direction should force be applied during the finishing drive of a double leg takedown?
-**A**: Force should be applied diagonally and laterally rather than straight forward. After making contact with the opponent's legs, turn the corner by driving your chest through their near hip while angling approximately 45 degrees to one side. This lateral pressure displaces their base to the side where they have no supporting foot, making it mechanically impossible to maintain balance regardless of their upper body defense. Straight-ahead driving allows them to post, brace, and build a defensive frame.
-
-**Q7**: Your opponent catches a whizzer during your single leg attempt - how do you complete the takedown?
-**A**: When the opponent secures a whizzer, immediately lower your level further and drive your head across to the opposite hip, switching from outside to inside head position. Simultaneously, elevate their trapped leg higher to reduce the power of the whizzer by loading their weight onto the posting leg. Execute a trip or sweep of the posting leg with your inside foot while maintaining the single leg grip. The combination of elevation and the posting leg trip nullifies the whizzer's defensive value entirely.
-
-**Q8**: How do you adjust your takedown entry when the opponent maintains a staggered stance with one leg positioned far back?
-**A**: Target the lead leg with a low single leg attack rather than attempting a double leg, which requires reaching the far leg across a wide stance. Snap down on their head to shift weight to the front foot, then change levels and attack the exposed lead leg by dropping to your near knee and cupping behind their ankle. Alternatively, use an inside trip on the lead leg by hooking your foot behind their ankle while driving chest pressure forward through their shoulder to topple them over the hooked point.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Takedown from Bottom?</p>
 
 Takedown drilling requires controlled environments with properly padded mats and attentive training partners. The level change and penetration step place significant stress on the knees, particularly the lead knee that contacts the mat during the shot. Always warm up thoroughly with dynamic hip, knee, and ankle mobility exercises before takedown practice. Never drive an opponent directly onto their head or neck during the finish - lateral pressure finishes are both more effective and safer. In training, release immediately if your partner signals discomfort or lands awkwardly, and communicate speed and intensity expectations before live rounds begin.
 

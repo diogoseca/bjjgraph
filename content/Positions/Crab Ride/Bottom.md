@@ -169,6 +169,8 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ## Position Definition
 
+<p class="section-subtitle">What is Crab Ride (Bottom)?</p>
+
 - Bottom player on hands and knees in turtle/quadruped position with weight distributed through both arms and legs, maintaining defensive ball-up posture with chin tucked and elbows tight to prevent space for attacks
 - Top player has one hook (typically inside hook) inserted on one side with foot crossed over bottom player's thigh or wrapped around leg, while maintaining chest-to-back pressure and upper body control through collar ties, overhooks, or seatbelt grip
 - Top player's body positioned asymmetrically on one side of bottom player, creating the characteristic 'crab' shape with one leg hooking while the other leg posts for base and leverage to complete back take or maintain control
@@ -179,6 +181,8 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Crab Ride (Bottom)?</p>
 
 - Bottom player has entered turtle position from guard pass defense, takedown defense, or failed guard pull
 - Top player has established initial hook insertion from turtle top position
@@ -191,6 +195,8 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crab Ride?</p>
 
 - Keep weight distributed on all four points (hands and knees) to maintain base and prevent being flattened to mat
 - Immediately address the inserted hook by clearing it or preventing second hook insertion
@@ -206,6 +212,8 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Crab Ride (Bottom)?</p>
 
 **If opponent has only one hook and is trying to insert second hook:**
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 45%)
@@ -234,6 +242,8 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crab Ride?</p>
 
 ### 1. Staying static in turtle position without addressing the hook
 
@@ -273,6 +283,8 @@ Strategically, Crab Ride Bottom is often a transitional state rather than a sust
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Crab Ride defense?</p>
+
 ### Hook Strip Repetitions
 
 Partner establishes crab ride with one hook, bottom player practices stripping the hook using various grips and movements. Reset after each successful strip. Focus on maintaining defensive posture while addressing the hook.
@@ -305,38 +317,6 @@ Bottom player flows through all escape options (hip escape, granby, stand up, si
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive priority immediately upon recognizing you're in Crab Ride Bottom?
-**A**: The first priority is preventing the second hook from being inserted while protecting your neck. If opponent only has one hook, you still have significant escape potential. Once both hooks are established, escape difficulty increases dramatically. Keep the leg on your exposed side active and ready to block hook attempts, while tucking your chin to prevent rear naked choke setups. Do not sacrifice neck safety to strip the first hook.
-
-**Q2**: Your opponent has one hook and is reaching for the second - how do you defend?
-**A**: Use your far leg actively to kick and block their incoming leg from establishing the second hook. Simultaneously, begin explosive hip movement away from the hooked side to create separation. If you can prevent the second hook for 2-3 seconds while moving, you create an escape window. Your hands should be controlling their grip on your upper body rather than reaching for their legs - let your legs defend hooks while hands manage upper body control.
-
-**Q3**: How do you maintain base and prevent being flattened while in Crab Ride Bottom?
-**A**: Keep weight distributed through all four points with particular emphasis on the arm opposite the hooked side. That arm is your primary post preventing the flattening. Keep your knees wide enough for stability but not so wide that you lose mobility. If you feel chest pressure increasing, drive that posting arm into the mat harder while simultaneously shifting your hips slightly toward the hooked side to counterbalance their weight. Never let both your hands leave the mat simultaneously.
-
-**Q4**: When is the optimal time to attempt a Granby Roll escape from Crab Ride Bottom?
-**A**: The best timing is when opponent shifts their weight forward to establish grips or attempt the second hook. Their forward weight commitment creates the momentum you need to roll while reducing their ability to follow. Feel for when their chest lifts slightly off your back or when they reach with their hands. Attempting the Granby when they're heavy and settled is much harder. Also watch for when they reposition their base leg - this transitional moment creates escape opportunity.
-
-**Q5**: How do you properly strip an established hook while in Crab Ride Bottom?
-**A**: First, ensure your neck is protected and opponent's upper body control is being managed with frames. Then, use your same-side hand to cup their ankle or heel from the inside, pushing it toward the mat and away from your hip. Combine this with explosive hip movement away from the hook. The key is not to over-commit to the strip - if it doesn't come free immediately, return to protecting your neck and base, then attempt again when they adjust.
-
-**Q6**: What counter-attack opportunities exist from Crab Ride Bottom?
-**A**: When opponent over-commits to the back take and their weight shifts forward, you can attempt a rolling back take reversal by collapsing your base in a controlled direction and inverting. If they lean too heavily to one side for the second hook, their far leg becomes vulnerable to single leg attacks when you explode out. From wrestlers' perspective, the sit-out when timed with their grip change can lead directly to a reversal. These counters require recognition of specific weight commits.
-
-**Q7**: Your opponent flattens you to your stomach - what's the recovery protocol?
-**A**: Once flattened, immediately turn to your side toward the hooked leg rather than trying to return to turtle. Frame strongly with both arms to create space between your upper body and the mat. Work to get your bottom knee underneath you while preventing them from establishing a body triangle. If you can get to your side with hip facing them, you've created defensive options. The worst response is trying to muscle back up to turtle while they have full weight on you - turn first, frame, then rebuild position incrementally.
-
-**Q8**: How do you manage energy expenditure while defending Crab Ride Bottom?
-**A**: Every explosive escape attempt costs significant energy, so you must be strategic. Don't attempt continuous movement - instead, defend actively while waiting for specific triggers (grip changes, weight shifts, hook attempts). When you commit to an escape, make it fully explosive rather than tentative. If the escape fails, return immediately to strong defensive posture rather than chaining multiple weak attempts. It's better to make three fully committed attempts with recovery between than ten half-efforts.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

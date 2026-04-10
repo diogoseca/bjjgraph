@@ -212,7 +212,7 @@ Gift Wrap Arm Recovery is the critical first step in escaping from one of the mo
 
 - [[Positions/Turtle]] - Alternative escape - roll-through variant leads here
 
-- [[Transitions/Rear Naked Choke]] - Submission threat - must defend throughout recovery
+- [[Submissions/Rear Naked Choke]] - Submission threat - must defend throughout recovery
 
 - [[Transitions/Elbow Escape to Guard]] - Related technique - uses similar hip escape mechanics
 

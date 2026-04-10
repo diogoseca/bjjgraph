@@ -173,6 +173,8 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Position Definition
 
+<p class="section-subtitle">What is Flattened Half Guard (Top)?</p>
+
 - Top player maintains chest-to-chest contact with forward pressure driving through opponent's sternum and ribcage, creating sustained compression that restricts breathing and limits defensive movement while controlling the pressure angle and distribution
 - One leg remains trapped in opponent's half guard hook, preventing completion of the pass to side control while creating the central technical challenge of leg extraction that must be solved to advance position
 - Top player establishes crossface control across opponent's face or neck, turning their head away from the action while creating a pressure point that multiplies the effective weight and prevents near-side arm framing attempts
@@ -184,6 +186,8 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Flattened Half Guard (Top)?</p>
+
 - Understanding of forward pressure mechanics and the ability to drive weight through chest and hips rather than relying on arm strength
 - Crossface control experience including proper hand positioning, pressure angles, and maintaining control while transitioning positions
 - Base and balance fundamentals to maintain stable pressure while opponent attempts hip escapes and frame recovery movements
@@ -194,6 +198,8 @@ Understanding the position's relationship to the broader passing game is essenti
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Flattened Half Guard?</p>
 
 - Pressure must be dynamic and flowing - static weight allows systematic frame recovery over time
 - Crossface control is the highest priority - losing the crossface opens multiple defensive pathways
@@ -208,6 +214,8 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Flattened Half Guard (Top)?</p>
+
 **If opponent maintains leg hook but loses all upper body frames and structure:**
 - Execute **[[Transitions/Knee Slice from Half/Attacker|Knee Slice from Half]]** → [[Positions/Side Control]] (Probability: 65%)
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -219,7 +227,7 @@ Understanding the position's relationship to the broader passing game is essenti
 
 
 **If opponent extends arm to establish underhook or create frame against crossface:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 - Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 45%)
 
 
@@ -230,6 +238,8 @@ Understanding the position's relationship to the broader passing game is essenti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Flattened Half Guard?</p>
 
 ### 1. Remaining static with heavy chest pressure without advancing position or creating passing angles
 
@@ -264,6 +274,8 @@ Understanding the position's relationship to the broader passing game is essenti
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Flattened Half Guard attacks?</p>
+
 ### Pressure Maintenance During Movement
 
 Start in flattened half guard with partner offering 50% resistance. Practice transitioning between different grips and positions while maintaining constant chest pressure. Partner calls out when pressure drops. Build ability to move while keeping pressure.
@@ -289,38 +301,6 @@ Begin in flattened half guard and flow through your passing sequences - knee sli
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important control point to maintain when playing flattened half guard top?
-**A**: The crossface is the highest priority control point. It turns your opponent's head away from the action, creates a pressure point that multiplies your body weight's effect, and prevents them from using their near-side arm for framing. Losing the crossface opens multiple defensive pathways and allows frame recovery.
-
-**Q2**: Your opponent begins a small hip escape while you have flattened half guard top - what adjustment do you make?
-**A**: Immediately increase your forward pressure through your chest and hips to follow their movement, then use their hip escape motion as the trigger to initiate your knee slice pass. The hip escape creates the angle you need - drive your knee across as they shrimp rather than fighting their movement.
-
-**Q3**: Why is static pressure ineffective from flattened half guard top even when your opponent is clearly uncomfortable?
-**A**: Static pressure allows your opponent to systematically work through incremental frame recovery sequences. While uncomfortable, a skilled bottom player will eventually create space through micro-adjustments if you remain stationary. Effective pressure must be dynamic - flowing between control and advancement to prevent them from executing their recovery plan.
-
-**Q4**: How do you manage energy expenditure while maintaining sustained pressure from flattened half guard top?
-**A**: Use skeletal structure and gravity rather than muscular effort for pressure maintenance. Your chest and hips should create compression through body weight distribution and positioning, not by tensing or squeezing. Keep your crossface arm connected to your skeleton with minimal grip force - firm but relaxed control sustainable over minutes, not seconds. Save explosive energy for initiating passing sequences or capitalizing on opponent mistakes. Between passing attempts, settle your weight and breathe calmly while maintaining heavy but effortless pressure through proper body alignment.
-
-**Q5**: Your opponent reaches their far arm to push against your crossface - how do you capitalize on this?
-**A**: When they extend their arm to push your crossface, immediately secure their wrist and lock a Kimura grip on the exposed arm. This creates a submission threat and a positional advancement opportunity. They must now defend the Kimura while you maintain passing pressure, creating a dilemma where defending one threat opens the other.
-
-**Q6**: How should weight distribution differ between chest pressure and hip pressure in this position?
-**A**: Chest and hip pressure must work together as a unified system. Using only chest pressure allows hip escape opportunities as your weight is too high. Drive pressure through both your chest and hips simultaneously, with your hips staying low and heavy. This creates a broad pressure base that limits their mobility in all directions.
-
-**Q7**: What is the correct response when your opponent turns away to prevent the crossface pass?
-**A**: When your opponent turns away, immediately follow their rotation while maintaining your crossface control, transitioning to back control. Their turning motion is an attempt to escape but it exposes their back. Use your underhook and crossface to climb onto their back as they rotate, securing hooks and seatbelt control.
-
-**Q8**: Your opponent manages to insert their bottom elbow as a wedge and creates two inches of space - how do you recover full control?
-**A**: Immediately drive your hips forward and chest down to close the space before they can build on the gain. Redirect your crossface angle to drive their head further away, which flattens their shoulder and weakens the elbow wedge. Use your free hand to control their elbow and strip it past your hip line, collapsing their frame. Then re-establish chest-to-chest pressure by sliding forward over the space they created. The critical principle is addressing the frame immediately rather than allowing them to stack micro-gains that compound into full recovery.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

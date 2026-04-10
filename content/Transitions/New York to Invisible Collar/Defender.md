@@ -166,6 +166,8 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting New York to Invisible Collar?</p>
+
 - Bottom player's shin-gripping hand releases contact with their ankle or lower leg while their leg remains across your back through muscular effort alone
 - You feel the bottom player's free hand begin threading between your shoulder and their thigh, moving in a circular path toward the back of your head
 - Bottom player's overhook pressure noticeably increases as they compensate for releasing the shin grip, signaling the transition is imminent
@@ -177,6 +179,8 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York to Invisible Collar?</p>
 
 - Recognize the shin grip release as the critical defensive trigger - this is your window to act
 - Protect the back of your head with your free hand to deny the swimming hand its target
@@ -191,6 +195,8 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against New York to Invisible Collar?</p>
 
 ### 1. Block the hand swim by posting your free hand against the bottom player's wrist or forearm before it reaches behind your head
 
@@ -228,6 +234,8 @@ From a tactical standpoint, the defender must understand that allowing Invisible
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending New York to Invisible Collar?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time your posture recovery to the exact moment the shin grip releases. Drive hips backward and chest upward explosively, using the brief gap in control to break the rubber guard structure. As you recover posture, the bottom player's leg slides down your back and you return to standard closed guard where your systematic guard opening skills become effective.
@@ -243,6 +251,8 @@ Block the hand swim with your free hand or drive forward to compress the transit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York to Invisible Collar?</p>
 
 ### 1. Failing to recognize the shin grip release as a transition signal and continuing passive defense
 
@@ -277,6 +287,8 @@ Block the hand swim with your free hand or drive forward to compress the transit
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against New York to Invisible Collar?</p>
+
 **Week 1-2** - Recognition drilling
 Partner establishes New York control and randomly chooses between holding static position and initiating the Invisible Collar transition. Your only task is to verbally call out the moment you recognize the transition beginning. No physical defense yet - build pattern recognition first. Track recognition speed across sessions, targeting sub-1-second identification.
 
@@ -293,29 +305,6 @@ Begin rolls from closed guard and allow partner to work through rubber guard pro
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important moment to begin your defense against the New York to Invisible Collar transition?
-**A**: The critical moment is when you feel the bottom player release their shin grip. This release creates a brief 1-2 second window where they have abandoned one control point but have not yet established the replacement. Your defensive response must begin at the instant of this release - any delay allows the hand swim to complete and the collar grip to lock in, dramatically reducing your escape probability.
-
-**Q2**: Why is blocking the hand swim with your free hand risky despite being effective at stopping the collar grip?
-**A**: Blocking the hand swim commits your only free hand to a static defensive position inside the guard. An experienced attacker will recognize this and immediately redirect to a triangle setup by shooting their leg over your blocking arm, which is now extended and inside their guard. The defensive block solves the immediate collar threat but creates a different and potentially more dangerous submission threat if the attacker chains techniques effectively.
-
-**Q3**: Your posture recovery attempt fails and the attacker gets a shallow collar grip - what should your defensive priority be?
-**A**: With a shallow collar grip, your priority shifts to preventing the grip from deepening rather than trying to strip it immediately. Tuck your chin aggressively to limit choking angles and use your free hand to control their gripping wrist, preventing them from walking their fingers deeper. Simultaneously begin working your trapped elbow free from the overhook. A shallow collar grip is manageable and sustainable to defend against - your goal is to create enough disruption to force the attacker to reset rather than allowing incremental grip improvement.
-
-**Q4**: How does driving forward into the bottom player differ from pulling backward as a defensive response?
-**A**: Driving forward compresses the space needed for the hand swim arc and keeps your weight on the bottom player, limiting their hip mobility and transition options. Pulling backward, by contrast, creates space the attacker can exploit and the overhook acts as a tether that drags the bottom player with you, potentially resulting in a sweep. Forward pressure is generally safer because it addresses the spatial requirements of the transition, though it carries the risk of feeding into gogoplata or Chill Dog setups if the attacker redirects.
-
-**Q5**: What tactile and visual cues distinguish a New York to Invisible Collar attempt from a New York to Zombie transition?
-**A**: For Invisible Collar, you feel the shin grip release followed by a hand threading behind your head between your shoulder and their thigh. For Zombie, the bottom player typically maintains the shin grip while adjusting their leg position higher and deeper around your shoulder, and their free hand works to establish a different control rather than swimming to your skull. The shin grip release is the key differentiator - Invisible Collar requires it while Zombie generally does not.
-
-
-
-</section>
 
 
 </main>

@@ -204,7 +204,7 @@ The Turtle to Truck Entry serves as the critical gateway between conventional tu
 
 - [[Positions/Turtle]] - Starting position - where the entry begins
 
-- [[Submissions/Calf Slicer from Truck]] - Follow-up submission available after successful entry
+- [[Submissions/Calf Slicer]] - Follow-up submission available after successful entry
 
 - [[Submissions/Banana Split]] - Follow-up submission accessible from consolidated Truck
 

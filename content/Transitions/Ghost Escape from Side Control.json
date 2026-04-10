@@ -94,7 +94,7 @@
       "relationship": "Position opponent may transition to when recognizing the ghost escape setup"
     },
     {
-      "name": "Scramble Position",
+      "name": "Standing Position",
       "relationship": "Dynamic state that can result from partially completed ghost escape with contested knee insertion"
     }
   ],

@@ -40,15 +40,15 @@
       "relationship": "Target position—the control position reached on successful execution of this transition"
     },
     {
-      "name": "Armbar from Mount",
+      "name": "Mount to Armbar",
       "relationship": "Chain attack—primary alternative when opponent defends the triangle by extending an arm"
     },
     {
-      "name": "Americana from Mount",
+      "name": "Americana",
       "relationship": "Setup attack—Americana threats force arm extension that creates the arm-in/arm-out configuration for triangle entry"
     },
     {
-      "name": "Ezekiel from Mount",
+      "name": "Ezekiel Choke",
       "relationship": "Complementary attack—Ezekiel threat forces defensive arm movement that opens triangle entries"
     },
     {

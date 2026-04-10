@@ -162,6 +162,8 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sprawl Defense?</p>
+
 - Sudden explosive backward hip movement from opponent as your penetration step lands, indicating they have read your shot
 - Opponent's chest and shoulder weight driving down onto your upper back, collapsing your posture and flattening your spine
 - Cross-face pressure appearing across your face or neck as opponent works to control your head position
@@ -174,6 +176,8 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sprawl Defense?</p>
 
 - Protect your neck immediately - tuck chin to chest and fight any arm that wraps around your head to prevent guillotine and front headlock control
 - Maintain active hips and knees underneath you rather than allowing yourself to be flattened to the mat
@@ -188,6 +192,8 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sprawl Defense?</p>
 
 ### 1. Switch to single leg by securing one leg tight to your chest and driving laterally
 
@@ -225,6 +231,8 @@ As the person shooting the takedown, having your attack met with a sprawl is one
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sprawl Defense?</p>
+
 ### → [[Positions/Standing Position]]
 
 Release the failed takedown, fight the cross-face and head control grips, post on opponent's hips to create space, then explosively stand up while keeping chin tucked. Circle away from their pressure side as you rise to break their grip entirely and return to neutral standing.
@@ -240,6 +248,8 @@ If unable to return to standing cleanly, sit through to a guard position by pull
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sprawl Defense?</p>
 
 ### 1. Stopping forward drive and accepting the flattened position passively
 
@@ -274,6 +284,8 @@ If unable to return to standing cleanly, sit through to a guard position by pull
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sprawl Defense?</p>
+
 **Week 1-2: Recognition and Survival** - Learning to maintain base and protect neck when sprawled on
 Partner sprawls at 50% intensity on your double leg attempts. Focus entirely on keeping knees under hips, chin tucked, and one hand always fighting the head control arm. Do not attempt to finish the takedown or escape - just survive in good position for 10 seconds. Build the defensive reflexes before adding offensive responses.
 
@@ -290,29 +302,6 @@ Begin from standing with you shooting takedowns and partner defending with full-
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your immediate priority when you feel your opponent's hips driving back during your takedown attempt?
-**A**: Your immediate priority is to maintain your own hip position by keeping your knees underneath you and preventing your body from being driven flat to the mat. Simultaneously, tuck your chin to your chest to protect your neck from front headlock and guillotine attempts. These two actions - hip preservation and neck protection - must happen reflexively before you consider any offensive continuation or escape. If you lose both hip position and neck safety, recovery becomes exponentially harder.
-
-**Q2**: Why is switching to a single leg often the best response when your double leg is sprawled on?
-**A**: When an opponent sprawls on your double leg, their hip retreat creates distance that makes securing both legs extremely difficult. However, the sprawl typically leaves one leg more accessible than the other because the defender's weight distribution shifts during the hip drive. By abandoning the double leg grip and immediately securing the closer leg tight to your chest, you change the angle of attack and force the opponent to address a new threat. The single leg requires less forward penetration depth than the double leg, making it viable even when your initial shot has been partially stuffed.
-
-**Q3**: Your opponent has sprawled and is beginning to wrap their arm around your head - how do you prevent the front headlock from being established?
-**A**: Immediately use your near-side hand to fight their wrapping arm at the wrist or inside the elbow, creating a frame that prevents them from closing the loop around your head. Keep your chin buried in your chest so they cannot get under your chin for a guillotine. Simultaneously, use your other hand to post on their hip or shoulder to create space and prevent their chest from settling onto your back. If you can prevent them from locking their hands together and keep your chin tucked, the front headlock cannot be fully consolidated and you maintain escape options.
-
-**Q4**: When should you abandon the takedown attempt entirely and focus on returning to standing?
-**A**: Abandon the takedown when the opponent has achieved full sprawl with heavy hips on your back, you have lost all grip on their legs, and they are beginning to establish head control or cross-face. At this point, continuing the takedown attempt only burns energy and drives you deeper into danger. The transition to standing should begin by posting both hands, getting knees under hips, fighting any head control grips, and explosively standing while circling away from their pressure. A clean reset to standing is far better than stubbornly chasing a dead takedown and getting submitted.
-
-**Q5**: How can you use the sprawler's forward weight commitment against them?
-**A**: When an opponent sprawls aggressively, they commit significant weight forward and downward. This commitment can be exploited by suddenly changing direction - for example, if they sprawl and drive their weight onto your back, you can sit through and pull them forward over you into a guard position. Alternatively, a sharp lateral angle change while they are committed forward can unbalance them and create a window to circle behind them. The key insight is that a heavy sprawl sacrifices the opponent's mobility and balance in exchange for pressure, and any sudden directional change exploits that trade-off.
-
-
-
-</section>
 
 
 </main>

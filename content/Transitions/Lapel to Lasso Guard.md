@@ -212,7 +212,7 @@ The Lapel to Lasso Transition represents critical guard retention infrastructure
 
 - [[Positions/Collar Sleeve Guard]] - Related system - shares sleeve control principles with both lapel and lasso
 
-- [[Principles/Guard Recovery]] - Strategic concept - this transition exemplifies maintaining control through position changes
+- [[Positions/Open Guard]] - Parent guard category - this transition exemplifies maintaining open guard control through position changes
 
 
 </section>

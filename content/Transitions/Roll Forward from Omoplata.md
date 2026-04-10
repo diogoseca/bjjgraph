@@ -208,11 +208,11 @@ The Roll Forward from Omoplata sits at the intersection of the omoplata attack s
 
 - [[Transitions/Omoplata Sweep]] - Alternative sweep option from the same omoplata control position using lateral momentum
 
-- [[Submissions/Rolling Omoplata]] - Related rolling technique from omoplata that uses similar forward momentum principles
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control]] - Related rolling technique from omoplata that uses similar forward momentum principles
 
 - [[Transitions/Cartwheel Escape from Omoplata]] - Opponent escape technique that the roll forward can preempt or follow
 
-- [[Submissions/Omoplata from Spider Guard]] - Common entry path through spider guard that establishes the omoplata control for this transition
+- [[Positions/Spider Guard]] - Entry guard with sleeve and foot control that provides strong setups for omoplata attacks leading to this transition
 
 - [[Positions/Back Control]] - Alternative advancement target from omoplata when opponent turns away instead of basing
 

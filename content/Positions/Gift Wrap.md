@@ -177,7 +177,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 ### Available Transitions
 
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (33% of attempts)
+- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (33% of attempts)
 
 - **[[Transitions/Armbar on Free Arm/Attacker|Armbar on Free Arm]]** (9% of attempts)
 
@@ -197,7 +197,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 - **[[Submissions/Gift Wrap Armbar/Attacker|Gift Wrap Armbar]]** (2% of attempts)
 
-- **[[Submissions/Gift Wrap RNC/Attacker|Gift Wrap RNC]]** (2% of attempts)
+- **[[Rear Naked Choke from Gift Wrap/Attacker|Rear Naked Choke from Gift Wrap]]** (2% of attempts)
 
 
 ### Common Mistakes

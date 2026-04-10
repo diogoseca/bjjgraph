@@ -192,6 +192,8 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Long Step Pass?</p>
+
 - Maintain constant forward pressure while controlling opponent's lower body to prevent re-guarding
 - Step deep to the side with your knee past the opponent's hip line while keeping hips low and weight committed forward
 - Control opponent's near leg throughout the pass to prevent knee shield insertion and guard recovery
@@ -207,6 +209,8 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Long Step Pass?</p>
+
 - Standing or combat base position with ability to control distance and step freely
 - At least one controlling grip established on opponent's pants, belt, collar, or legs
 - Opponent in seated guard, butterfly guard, or open guard variation with legs not locked
@@ -221,6 +225,8 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Long Step Pass step by step?</p>
 
 1. **Establish Control Grips**: From standing or combat base position, establish strong grips on the opponent's pants at the knees or belt. In gi, you can also control the collar with one hand while controlling the near leg with the other. Your posture should be upright with hips pushed forward to create pressure and prevent the opponent from off-balancing you backward. Your weight distribution should favor your lead leg, allowing the back leg to step freely.
 2. **Create Passing Angle**: Begin to angle your body approximately 45 degrees to the side you intend to pass. Push the opponent's knees down and away while maintaining your upright posture. This creates the initial angle and begins to flatten the opponent's guard structure. Your head should stay over your hips to maintain balance and prevent being pulled forward into closed guard or triangles.
@@ -250,6 +256,8 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Long Step Pass?</p>
+
 - **Opponent creates knee shield or frames before long step completes** (Effectiveness: High) - Your Response: Switch to Knee Slice Pass or use underhook to flatten opponent and continue passing sequence with modified angle → Leads to [[Positions/Open Guard]]
 - **Opponent sits up aggressively and attempts to take your back during the pass** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately while maintaining upper body control, then circle to dominant position or front headlock → Leads to [[Positions/Open Guard]]
 - **Opponent uses butterfly hooks to elevate and sweep as you commit to the pass** (Effectiveness: Medium) - Your Response: Keep hips low and base wide, drive weight forward to prevent elevation, and clear hooks with leg control before continuing pass → Leads to [[Positions/Open Guard]]
@@ -262,6 +270,8 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Long Step Pass?</p>
 
 ### 1. Stepping too shallow or not committing weight forward during the long step
 
@@ -306,6 +316,8 @@ What makes the Long Step Pass particularly effective is its ability to shut down
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Long Step Pass (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Long step movement pattern and basic pressure application
 Practice the long step motion in isolation without resistance. Partner remains in seated guard while you drill the stepping pattern, ensuring deep placement past the hip line. Focus on maintaining low hips, forward weight distribution, and proper angle creation. Drill should be slow and deliberate with emphasis on correct form over speed. Include grip fighting and basic pressure application.
 
@@ -329,48 +341,12 @@ Continue drilling the fundamental movement pattern regularly to maintain muscle 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of the long step in this passing technique?
-**A**: The long step serves to bypass the opponent's guard structure by placing your knee past their hip line, creating an angle that makes it extremely difficult for them to insert defensive frames or recover guard position. It commits your weight forward and establishes the passing angle that will be maintained throughout the technique.
-
-**Q2**: Why is crossface pressure critical to the success of the Long Step Pass?
-**A**: Crossface pressure serves multiple essential functions: it controls the opponent's head and prevents them from turning into you, it creates significant discomfort that encourages defensive reactions rather than offensive guard retention, and it helps maintain your chest pressure on their chest which is crucial for preventing space creation and re-guarding attempts.
-
-**Q3**: How should you adjust the Long Step Pass when your opponent creates a knee shield?
-**A**: When the opponent establishes a knee shield, you should immediately transition to a Knee Slice Pass variation by using your underhook to flatten the opponent while driving your knee through the shield. Alternatively, you can step back and switch to a different passing approach like the Toreando Pass. The key is recognizing the knee shield early and adapting rather than forcing the original passing angle.
-
-**Q4**: What are the key differences between executing the Long Step Pass in gi versus no-gi?
-**A**: In no-gi, the grip configurations shift from pants and belt grips to controlling the head, hips, and wrists. The mechanical principles remain identical but pressure application becomes even more critical without gi friction to assist control. Underhooks and overhooks replace collar grips, and you must be more conscious of maintaining constant contact since grips are less reliable. The pass often happens faster in no-gi due to reduced friction.
-
-**Q5**: How does the Long Step Pass connect to the broader pressure passing system?
-**A**: The Long Step Pass is foundational to pressure passing systems because it establishes the key principles of controlling distance, maintaining forward pressure, and using strategic stepping to create passing angles. It connects seamlessly with the Knee Slice Pass, Over-Under Pass, and Smash Pass, allowing the passer to flow between techniques based on the opponent's defensive reactions. The skills developed in the Long Step Pass - particularly crossface pressure and leg control - transfer directly to all other pressure-based passing approaches.
-
-**Q6**: What should your weight distribution be during the long step execution?
-**A**: During the long step, your weight should be distributed primarily forward over your lead leg, with your chest driving down toward the opponent's chest. Your hips should remain low but mobile, and your base should be wide enough to prevent being rolled or swept. The weight commitment should be full and forward while maintaining enough base to prevent being off-balanced by guard retention attempts.
-
-**Q7**: Why is it important to maintain continuous motion from the long step through to side control consolidation?
-**A**: Any pause or hesitation during the passing sequence allows the opponent to insert frames, create space, or recover guard position. The pass should be one flowing movement because the opponent's best defensive opportunities occur during transitions between positions. Continuous pressure and movement prevent the opponent from establishing defensive structures and force them into increasingly compromised positions until the pass is complete.
-
-**Q8**: Your opponent posts their far foot on the mat and bridges into you during the long step - how do you adjust?
-**A**: When the opponent bridges into you during the long step, use their momentum against them by maintaining your crossface pressure and driving your weight forward through the bridge. As they return to the mat after the bridge, immediately circle your hips further around to complete the pass. The bridge actually creates a momentary opening because their legs extend and cannot maintain active guard frames. Widen your base momentarily to absorb the bridge force without being displaced.
-
-**Q9**: What grip configuration gives you the highest success rate when initiating the Long Step Pass against butterfly guard?
-**A**: Against butterfly guard, the optimal grip configuration is controlling both of the opponent's knees or pants at knee level, pushing them down and to one side to flatten the butterfly hooks before stepping. If the opponent has strong hooks, control the near sleeve or wrist with one hand to prevent the underhook while your other hand controls the far knee. This prevents the elevation that powers butterfly sweeps while creating the angle needed to initiate the long step safely.
-
-**Q10**: Your initial long step is blocked and the opponent begins threading for De La Riva hook - what is your immediate chain attack?
-**A**: When the opponent begins threading a De La Riva hook after your long step is blocked, immediately backstep your hooked leg free while maintaining your upper body grips. As you clear the hook, transition to a leg drag by controlling the opponent's hooking leg and driving it across their body. This leg drag creates an even more dominant passing angle than the original long step. If the leg drag is also defended, you can circle back to a toreando or re-enter the long step from the new angle. The key is never allowing the opponent to fully establish the De La Riva hook with sleeve control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Long Step Pass?</p>
 
 The Long Step Pass is generally a safe technique when executed with proper control and awareness. The primary safety concern is avoiding excessive pressure on the opponent's neck and face during the crossface application - while the crossface should be firm and controlling, it should not create dangerous cranking pressure on the cervical spine. When practicing, partners should communicate about pressure levels and reduce intensity if the crossface becomes uncomfortable. Additionally, be aware of your weight distribution to avoid dropping all your weight onto the opponent's ribcage, which can restrict breathing or cause discomfort. During training progressions, increase resistance gradually to prevent injuries from explosive movements when practitioners are still learning proper mechanics. Pay particular attention to knee and hip positioning to avoid hyperextension injuries during the stepping motion.
 

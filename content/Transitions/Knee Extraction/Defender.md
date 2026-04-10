@@ -162,6 +162,8 @@ From the defender's perspective (the person maintaining ankle lock control), the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Extraction?</p>
+
 - Opponent begins pulling their trapped knee toward their chest with sharp hip flexion, signaling the start of the extraction sequence
 - Opponent establishes two-on-one grip on your controlling hand, specifically targeting the heel grip with both hands working to peel fingers
 - Opponent's free leg begins pushing against your bottom leg or hip, attempting to prevent leg triangle completion and create extraction space
@@ -174,6 +176,8 @@ From the defender's perspective (the person maintaining ankle lock control), the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Extraction?</p>
 
 - Complete leg triangle early - securing your legs around their thigh before they can extract the knee is your highest priority
 - Maintain heel grip depth by keeping your forearm against the Achilles and cupping the heel tightly through their grip fighting attempts
@@ -188,6 +192,8 @@ From the defender's perspective (the person maintaining ankle lock control), the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Extraction?</p>
 
 ### 1. Consolidate leg triangle by crossing ankles around their thigh and squeezing knees together to lock their leg in place
 
@@ -225,6 +231,8 @@ From the defender's perspective (the person maintaining ankle lock control), the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Extraction?</p>
+
 ### → [[Positions/Straight Ankle Lock Control]]
 
 Complete your leg triangle before extraction begins, maintain deep heel grip through their two-on-one attack by keeping forearm tight against Achilles, and use your legs to prevent their knee from bending by applying extension pressure through hip positioning
@@ -240,6 +248,8 @@ When opponent rotates their hip away during extraction, follow the rotation by t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Extraction?</p>
 
 ### 1. Failing to complete leg triangle early, leaving legs loosely positioned around opponent's thigh
 
@@ -269,6 +279,8 @@ When opponent rotates their hip away during extraction, follow the rotation by t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Extraction?</p>
+
 **Week 1-2** - Leg triangle consolidation speed
 Practice establishing straight ankle lock control and immediately completing the leg triangle within 2-3 seconds. Partner provides no resistance initially, then gradually begins extraction attempts earlier in the sequence. Focus on developing the reflexive habit of securing legs before pursuing the finish.
 
@@ -285,29 +297,6 @@ Start from established straight ankle lock control with full resistance from bot
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your highest priority action when you first establish straight ankle lock control?
-**A**: Your highest priority is completing the leg triangle by crossing your ankles and squeezing your knees around the opponent's trapped thigh within the first 2-3 seconds. This must happen before the opponent begins their extraction sequence, because once the leg triangle is consolidated, knee extraction becomes exponentially more difficult and your position stability increases dramatically.
-
-**Q2**: Your opponent begins a two-on-one grip break on your heel hand - how do you maintain control?
-**A**: Deepen your grip by driving your forearm tighter against the Achilles tendon and re-cupping the heel with maximum grip depth. Simultaneously tighten your leg triangle to maintain positional control independent of the grip fight. If the grip is being stripped despite your efforts, immediately transition to inside or outside ashi-garami using their grip-fighting movement as your entry, rather than losing position entirely.
-
-**Q3**: Your opponent rotates their hip away from you during extraction - what opportunity does this create?
-**A**: Hip rotation away opens a direct pathway to inside ashi-garami. Follow their rotation by threading your inside leg behind their knee to establish the inside position with your shin across their far hip. Their defensive extraction movement actually facilitates your advancement to a more dominant entanglement where heel hook threats become available and escape options narrow substantially for the opponent.
-
-**Q4**: How do you prevent the opponent from bending their trapped knee?
-**A**: Drive your hips forward while pulling their ankle toward you, creating extension force that resists their knee bend. Push your top leg against their thigh to add additional extension pressure. Your leg positioning should create a wedge that makes knee flexion mechanically difficult. This must be established proactively before they attempt extraction, as reactive extension against an already-bending knee is significantly harder.
-
-**Q5**: When should you abandon straight ankle lock control and transition to a different entanglement?
-**A**: Transition when you recognize that the opponent's knee is clearing your leg control despite your retention efforts, or when their hip rotation creates a clear entry to inside or outside ashi-garami. The decision point is when maintaining current control requires more energy than transitioning, or when the extraction is more than halfway complete. Never allow a full escape when transitional opportunities exist during the extraction movement.
-
-
-
-</section>
 
 
 </main>

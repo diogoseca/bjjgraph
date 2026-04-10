@@ -188,6 +188,8 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Recovery from Carni?</p>
+
 - Protect the heel first before initiating any forward pressure to prevent submission during transition
 - Generate forward drive through hip extension rather than pushing with arms to maintain structural integrity
 - Collapse the space between your chest and opponent's torso to eliminate heel hook angles
@@ -202,6 +204,8 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Recovery from Carni?</p>
+
 - Heel must be protected with ankle flexed and toes pointed away from attacker before initiating forward pressure
 - At least one hand must be free to establish frames against opponent's hips or torso
 - Sufficient base through free leg to generate forward driving pressure without losing balance
@@ -214,6 +218,8 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Recovery from Carni step by step?</p>
 
 1. **Secure ankle position**: Before any movement, confirm your trapped leg's ankle is flexed with toes pointed away from the attacker. Use your same-side hand to control your own ankle if necessary, creating a physical barrier against heel hook attempts during the recovery sequence.
 2. **Establish hip frame**: Place your free hand against the opponent's far hip or ribcage, creating a frame that will serve as the anchor point for your forward driving pressure. This frame prevents the opponent from pulling you into their guard while giving you a stable structure to push against during the stacking motion.
@@ -243,6 +249,8 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Recovery from Carni?</p>
+
 - **Opponent inverts and re-establishes leg entanglement during forward pressure** (Effectiveness: High) - Your Response: Maintain heavy chest-to-chest pressure and pin opponent's hips to prevent inversion. If they begin inverting, accelerate your forward drive to compress them before they can re-establish hooks. → Leads to [[Positions/Rubber Guard/Carni]]
 - **Opponent transitions to saddle as you drive forward by threading their inside leg deeper** (Effectiveness: High) - Your Response: Immediately stop forward pressure and retract hip away from opponent's inside leg. Establish crossface pressure and use your free leg to block their saddle entry hook before resuming extraction. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent releases entanglement but immediately pulls you into tight closed guard with collar control** (Effectiveness: Medium) - Your Response: Accept the closed guard position as a significant improvement over Carni. Immediately establish strong posture and begin standard closed guard opening sequences. → Leads to [[Positions/Closed Guard]]
@@ -254,6 +262,8 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Recovery from Carni?</p>
 
 ### 1. Initiating forward pressure before securing ankle position and protecting the heel
 
@@ -293,6 +303,8 @@ As the top player caught in Carni, executing posture recovery requires a discipl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Recovery from Carni (Attacker)?</p>
+
 **Phase 1: Mechanics** - Forward pressure generation and heel protection
 Practice generating forward stacking pressure from Carni position with zero resistance. Focus on hip extension mechanics, frame placement, and maintaining ankle protection throughout the movement. 50 repetitions each side.
 
@@ -310,42 +322,12 @@ Positional sparring starting from Carni top. Partner attacks freely while you wo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first action you must take before initiating forward pressure in posture recovery from Carni?
-**A**: You must first secure your ankle position by flexing the ankle with toes pointed away from the attacker and ensuring the opponent's heel grip is at least partially disrupted. Initiating forward pressure before protecting the heel creates a perfect finishing angle for the heel hook as the forward movement extends the trapped leg, dramatically increasing submission risk during what should be an escape sequence.
-
-**Q2**: Why should forward pressure come from hip extension rather than arm pushing?
-**A**: Hip extension generates structural pressure that is difficult to redirect, whereas arm-based pushing extends the arms into vulnerable positions where they can be isolated for attacks. Additionally, hip-driven pressure maintains your chest close to the opponent's body which eliminates heel hook angles, while pushing with arms creates space between torsos that the opponent can exploit for re-establishing offensive positioning.
-
-**Q3**: Your opponent begins inverting as you drive forward with stacking pressure - how do you respond?
-**A**: Accelerate your forward drive and pin the opponent's hips to the mat with heavy chest-to-chest pressure to prevent the inversion from completing. If you can keep their hips pinned, they cannot rotate underneath to re-establish their leg entanglement. The key is recognizing the inversion attempt early and immediately increasing downward pressure rather than pausing, which gives them the space to complete the rotation.
-
-**Q4**: When is the optimal timing window to initiate posture recovery from Carni?
-**A**: The optimal window is during the brief transition moments when the bottom player is switching between attack sequences, for example when they release heel grip pressure to reposition for a saddle entry or when they are adjusting their inside leg hook. These transitions create momentary looseness in the entanglement that makes forward pressure significantly more effective. Attempting posture recovery when the opponent has fully established tight control with active heel grip is much lower percentage.
-
-**Q5**: What is the critical difference between posture recovery and explosive leg extraction from Carni?
-**A**: Posture recovery uses controlled, steady forward pressure to systematically collapse the entanglement structure before extracting the leg, while explosive extraction attempts to rip the leg free through speed and power. Explosive extraction creates angular changes that the bottom player can exploit for saddle transitions and back takes, and risks self-injury if the knee torques against remaining hooks. Posture recovery is slower but significantly safer and more reliable.
-
-**Q6**: Your opponent threads their inside leg deeper as you drive forward, threatening saddle entry - what adjustment do you make?
-**A**: Immediately halt forward pressure and retract your hip away from the opponent's inside leg to prevent them from completing the saddle hook. Establish crossface pressure with your upper body to control their head and shoulders, then use your free leg to block or clear their threading hook. Only resume forward pressure once the saddle entry has been successfully defended and the original Carni configuration is restored.
-
-**Q7**: Why should you accept closed guard top as the endpoint rather than attempting to pass immediately?
-**A**: Closed guard top, while not a dominant position, represents a massive improvement over being trapped in Carni where immediate heel hook and saddle threats exist. Attempting to bypass closed guard and go directly to a pass during the recovery creates over-extension and angular vulnerability that the opponent can exploit to re-establish leg entanglement. Accept closed guard, establish proper posture and base, then work standard guard opening sequences from a position of relative safety.
-
-**Q8**: How do you time the grip strip on the opponent's heel control during the stacking motion?
-**A**: Time the grip strip with moments of maximum forward pressure when the opponent is most compressed and their grip strength is mechanically reduced. As your chest drives into their torso and folds them onto their shoulders, their arm positioning weakens and grip angles become suboptimal. Attack the weakest point of their grip, typically the gap between thumb and fingers, during these compression peaks rather than attempting to strip when they have full extension and grip leverage.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Recovery from Carni?</p>
 
 Posture recovery from Carni carries significant knee and ankle injury risk if executed improperly. Never initiate forward pressure before confirming your ankle is protected with toes pointed away from the attacker. Avoid explosive movements that can torque the knee against remaining hooks in the entanglement. If you feel any sharp pain or clicking in the knee during recovery, stop immediately and tap rather than continuing through potential ligament damage. Train this technique progressively with cooperative partners before attempting under full resistance, and always communicate with training partners about heel hook threat levels during positional drilling.
 

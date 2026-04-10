@@ -188,6 +188,8 @@ The reversal from kneebar control requires the bottom player to redirect their l
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reversal from Kneebar Control?</p>
+
 - Maintain leg grip control throughout the reversal - the kneebar grip becomes your sweep handle
 - Read opponent's weight distribution to identify the optimal direction for the sweep
 - Generate momentum through hip movement rather than upper body strength alone
@@ -202,6 +204,8 @@ The reversal from kneebar control requires the bottom player to redirect their l
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reversal from Kneebar Control?</p>
+
 - Secure arm control around opponent's leg with figure-four or gable grip at the lower calf and ankle
 - At least one leg hooked behind opponent's knee or thigh to maintain entanglement
 - Hip position close to opponent's knee joint providing connection point for leverage
@@ -214,6 +218,8 @@ The reversal from kneebar control requires the bottom player to redirect their l
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reversal from Kneebar Control step by step?</p>
 
 1. **Threaten the kneebar finish**: Pull the opponent's leg tight to your chest and drive your hips forward as if committing to the kneebar finish. This forces the opponent to react defensively by bending their knee, posting their hands, or shifting their weight backward, creating the initial defensive reaction you need for the reversal.
 2. **Read the defensive reaction**: Observe how the opponent defends the kneebar threat. If they post hands behind them and lean back, the sit-up drive is available. If they flatten out to resist extension, the roll-through works. If they base wide with their free leg, the hook sweep becomes the primary option. This read determines your reversal path.
@@ -243,6 +249,8 @@ The reversal from kneebar control requires the bottom player to redirect their l
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reversal from Kneebar Control?</p>
+
 - **Opponent posts hand behind them and scoots hips away to create distance** (Effectiveness: High) - Your Response: Chase their hips immediately to maintain connection. If they create significant space, redirect back to the kneebar attack rather than forcing the sweep against distance, as their posting arm may have compromised their knee defense. → Leads to [[Positions/Kneebar Control]]
 - **Opponent uses free leg to kick out your hook and base wide to resist elevation** (Effectiveness: Medium) - Your Response: Immediately re-insert the hook or switch to the roll-through or sit-up drive variant. If their base becomes too wide for any sweep, return to the kneebar attack since their wide base may have opened their knee defense. → Leads to [[Positions/Kneebar Control]]
 - **Opponent sprawls weight forward during the sit-up drive, flattening you back down** (Effectiveness: High) - Your Response: Use their forward pressure against them by switching to the roll-through variant, redirecting their momentum into the roll. Their forward weight commitment makes them vulnerable to the direction change. → Leads to [[Positions/Kneebar Control]]
@@ -254,6 +262,8 @@ The reversal from kneebar control requires the bottom player to redirect their l
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reversal from Kneebar Control?</p>
 
 ### 1. Releasing arm grips on the leg too early before establishing forward momentum
 
@@ -293,6 +303,8 @@ The reversal from kneebar control requires the bottom player to redirect their l
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reversal from Kneebar Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic reversal movement patterns
 Practice the three reversal variations (roll-through, sit-up drive, hook sweep) against a non-resisting partner. Focus on proper hip movement, grip transitions, and body positioning. Drill each variation 20-30 repetitions per session to build muscle memory for the core mechanics.
 
@@ -310,39 +322,12 @@ Start from kneebar control bottom against a fully resisting partner. Attacker wi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary setup for the reversal from kneebar control?
-**A**: The primary setup involves threatening the kneebar finish first to force the opponent into a defensive posture. By pulling the leg tight and driving hips forward as if committing to the submission, the opponent must react by bending their knee, posting hands, or shifting weight. Each reaction creates specific openings for different reversal variants. Without this initial submission threat, the opponent maintains an active offensive base that makes sweeping significantly harder.
-
-**Q2**: How do you determine which reversal variant to use based on the opponent's defensive reaction?
-**A**: Read the opponent's defensive reaction to your kneebar threat. If they flatten out on their back resisting extension, the roll-through reversal works because they lack base to resist rotational force. If they sit up and post hands behind them, the sit-up drive is available because their weight is behind their hips. If they base wide with their free leg, the hook sweep targets their elevated center of gravity. The opponent's defense dictates your attack path.
-
-**Q3**: What is the most critical grip transition during the reversal?
-**A**: The transition from kneebar submission grips to side control consolidation grips is the most critical moment. You must maintain control of the leg long enough to generate sweep momentum but release early enough to establish crossface and hip control upon reaching top. Releasing too early loses the sweep leverage. Releasing too late means the opponent reguards before you consolidate. The optimal release point is when your body crosses over the opponent's centerline.
-
-**Q4**: Your opponent posts their hand behind them and begins scooting away during the reversal - how do you adjust?
-**A**: When the opponent posts and scoots, immediately chase with your hips to maintain connection. If you close the distance quickly, the sit-up drive becomes available since their posted hand means their weight is shifted backward. If they create too much distance to sweep, redirect back to the kneebar attack since their posting arm is now occupied and their knee defense may be weakened. Never stall between sweep and submission attempts.
-
-**Q5**: What role does hip movement play in generating sweep momentum for the reversal?
-**A**: Hip movement is the primary force generator for all reversal variants. For the roll-through, hip rotation drives the rolling momentum over the shoulder. For the sit-up drive, hip extension pushes the body forward and upward. For the hook sweep, hip elevation creates the lifting force under the opponent. Arms serve as connectors and steering mechanisms, but attempting to sweep with arm strength alone produces insufficient force against any competent defender's base.
-
-**Q6**: When should you abandon the reversal attempt and return to the kneebar attack?
-**A**: Abandon the reversal when the opponent successfully re-establishes a strong defensive base after your initial sweep attempt, when your grip on their leg is compromised before generating sufficient momentum, or when the opponent creates enough distance that the sweep angle is no longer viable. The decision point is approximately two seconds into the sweep attempt. If you have not generated clear forward momentum by then, the window has closed and continuing wastes energy while exposing you to counters.
-
-**Q7**: How do you prevent the opponent from extracting their leg during the reversal transition?
-**A**: Maintain constant pulling pressure on the leg with your arms throughout the sweep, and keep at least one leg hook engaged behind their knee until you are committed to the top position. The most vulnerable moment for leg extraction is during the grip transition from kneebar to side control. Minimize this window by overlapping your grip release with your body arriving in top position. If you feel the leg slipping, immediately tighten your arm grip and recommit to either the sweep or the kneebar rather than losing both.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reversal from Kneebar Control?</p>
 
 Practice kneebar reversals with controlled intensity, particularly during the grip transition phase where sudden releases can cause training partners to fall unexpectedly. Always communicate with your partner about the submission-to-sweep transition to prevent accidental hyperextension during the movement. Tap early if the opponent locks in a counter-kneebar during the scramble, and avoid explosive bridging motions that could damage the knee joint of either practitioner. When drilling at higher resistance, ensure both partners understand the sweep direction to prevent awkward landings.
 

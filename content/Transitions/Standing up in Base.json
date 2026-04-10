@@ -59,8 +59,8 @@
       "relationship": "Common follow-up action after achieving standing position"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Related defensive movement for regaining guard from bottom"
+      "name": "Scramble to Guard",
+      "relationship": "Related defensive transition for regaining guard from bottom during scrambles"
     },
     {
       "name": "Peterson Roll",
@@ -71,7 +71,7 @@
       "relationship": "Opponent's target position if standup is countered"
     },
     {
-      "name": "Frame Creation",
+      "name": "Frames",
       "relationship": "Essential principle for creating space during standup"
     },
     {

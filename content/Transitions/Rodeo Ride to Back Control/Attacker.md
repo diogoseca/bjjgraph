@@ -194,6 +194,8 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rodeo Ride to Back Control?</p>
+
 - Maintain unbroken chest-to-back connection throughout the entire transition to prevent escape space creation
 - Control the near arm first to eliminate the opponent's primary posting and framing tool before attempting hook insertion
 - Insert hooks sequentially rather than simultaneously, using the first hook as an anchor while working for the second
@@ -208,6 +210,8 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rodeo Ride to Back Control?</p>
+
 - Established Rodeo Ride control with hip pressure loaded on opponent's torso from perpendicular or diagonal angle
 - Near-arm control secured through wrist grip, elbow cup, or deep underhook preventing opponent from posting
 - Chest-to-back connection maintained with at least one leg posted for base stability during weight shifts
@@ -220,6 +224,8 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rodeo Ride to Back Control step by step?</p>
 
 1. **Secure near arm control**: From established Rodeo Ride position with your hips loaded on the opponent's back, secure control of their near arm through wrist grip, elbow cup, or deep underhook. This eliminates their primary tool for posting, framing, and creating defensive distance that would prevent your advance to back control.
 2. **Establish dominant angle**: Shift your positioning from perpendicular to slightly diagonal relative to the opponent's spine while maintaining hip pressure. This angle change aligns your body for hook insertion while keeping enough lateral pressure to prevent the opponent from rolling or sitting through to guard recovery.
@@ -250,6 +256,8 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rodeo Ride to Back Control?</p>
+
 - **Opponent explosively sits back toward guard as soon as hip pressure shifts during hook insertion** (Effectiveness: High) - Your Response: Follow their sit-back movement by maintaining chest connection and accelerating hook insertion—their backward motion actually helps you slide behind them if you stay attached and ride the movement rather than fighting against it → Leads to [[Positions/Half Guard]]
 - **Opponent strips near-arm grip using explosive arm pull or posting, then retightens turtle posture to reset defensive structure** (Effectiveness: Medium) - Your Response: Immediately re-establish near-arm control or switch to collar grip in gi; if arm is free, threaten clock choke to force a defensive reaction that re-opens the hook insertion pathway → Leads to [[Positions/Rodeo Ride]]
 - **Opponent executes granby roll during the weight shift phase of hook insertion, inverting to face you and recover guard** (Effectiveness: High) - Your Response: Follow the roll direction and maintain upper body control through the inversion—if you lose back position, immediately transition to front headlock or side control before they complete guard recovery → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rodeo Ride to Back Control?</p>
 
 ### 1. Attempting to insert both hooks simultaneously instead of sequentially
 
@@ -300,6 +310,8 @@ Executing the Rodeo Ride to Back Control transition requires converting your dyn
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rodeo Ride to Back Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Individual hook insertion and seat belt establishment
 Practice hook insertion mechanics on a non-resisting partner from established Rodeo Ride. Work through each step slowly, focusing on maintaining chest connection during each hook insertion and seat belt transition. Perform 20 repetitions per side per session until the sequence feels natural.
 
@@ -320,45 +332,12 @@ Practice the transition during hard sparring rounds when fatigued. Simulate comp
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for inserting the first hook during the Rodeo Ride to Back Control transition?
-**A**: The optimal timing window is immediately after threatening an upper body attack such as a clock choke or collar grip that forces the opponent to defend with their hands. When the opponent commits their arms to defending the choke, their hips become momentarily unprotected and their base weakens as attention shifts upward. Redirect from the choke threat to hook insertion, exploiting the gap in their defensive coverage created by the dilemma between protecting their neck and maintaining their base.
-
-**Q2**: What conditions must exist before you can safely begin the transition from Rodeo Ride to Back Control?
-**A**: Three prerequisites must be established: near-arm control that prevents the opponent from posting or creating defensive frames, sustained chest-to-back connection with hips loaded on their torso, and a posted base leg in a position allowing weight shifts without losing balance. Without near-arm control, the opponent can post and stand. Without chest connection, they have space to granby roll. Without a posted base leg, you lack stability to manage the weight shift required for hook insertion.
-
-**Q3**: What is the critical mechanical detail that determines whether the first hook stays in or gets immediately stripped?
-**A**: The hook must be inserted with the instep seated against the opponent's inner thigh with toes pointed outward, creating a curved hooking shape that resists clearance. The foot should enter deep enough that the heel contacts the inner thigh near the groin area. Shallow hooks placed near the knee are easily stripped because the opponent can straighten their leg. Additionally, active downward heel pressure must be maintained immediately after insertion—a passive hook will be cleared by the opponent squeezing their knees together.
-
-**Q4**: Why do most practitioners fail at the transition point between the first and second hook insertion?
-**A**: The primary failure occurs because inserting the second hook requires a significant weight shift that temporarily reduces chest-to-back pressure, creating space on the side opposite the first hook. This space allows the opponent to rotate toward the second hook side and begin guard recovery. The correction is establishing the seat belt grip before attempting the second hook, so that even during the weight shift, upper body control prevents the opponent from exploiting the temporary pressure reduction.
-
-**Q5**: What grip configuration should you prioritize during the transition and why?
-**A**: The seat belt grip with one arm over the shoulder and one under the armpit, hands clasped on the opponent's centerline, is the priority. This controls rotation and prevents turning to face you, which is the fundamental escape mechanism from back control. The over-arm controls the far shoulder preventing turning away, while the under-arm prevents sitting up and creating posture. Establish this grip between first and second hook insertion as the transitional control replacing near-arm control.
-
-**Q6**: In which direction should you apply force with your chest pressure during the hook insertion phase?
-**A**: Apply chest pressure in a forward and downward direction, driving the opponent's weight onto their hands and compressing their turtle toward the mat. This serves dual purposes: it loads the opponent's upper body so their hands are weight-bearing and cannot fight your hooks, and it creates clearance space behind their hips where your hooks need to enter. Backward pressure—pulling them toward you—makes hook insertion harder because it closes the space between their thighs and the mat.
-
-**Q7**: Your opponent grabs your inserting foot with both hands to prevent hook insertion—how do you capitalize on this defensive reaction?
-**A**: When the opponent commits both hands to grabbing your foot, they have completely abandoned neck defense and upper body framing. Immediately establish deep collar control or begin rear naked choke entry, as their neck is now completely undefended. If they release your foot to defend the choke, continue with hook insertion. If they maintain foot grip and accept the choke, finish the submission. This is the fundamental dilemma principle—defending hooks opens submissions, and defending submissions opens hooks.
-
-**Q8**: If the opponent successfully prevents hook insertion and begins standing up, what is the correct chain attack sequence?
-**A**: If the opponent begins standing while you maintain upper body connection, immediately switch to a body lock by wrapping both legs around their waist without hooks. From the standing body lock, use your weight to pull them backward while threatening a standing rear naked choke. If they defend the choke, use their defensive posture to drag them back to the mat and re-establish Rodeo Ride. If they commit to standing fully, transition to a standing back clinch and work for a mat return takedown. Never disengage—maintain connection throughout.
-
-**Q9**: What distinguishes a mechanically sound hook insertion from a flawed one during training?
-**A**: A sound hook insertion maintains unbroken chest-to-back contact throughout the entire insertion motion, results in the foot being placed deep inside the thigh with active heel engagement, and does not require releasing near-arm control or seat belt grip. A flawed insertion typically involves reaching with the foot while the chest separates, placing the foot shallowly near the knee where it is easily cleared, or sacrificing upper body control to focus on leg mechanics. The diagnostic test: if your chest lifts off the opponent's back at any point during insertion, the mechanics are flawed.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rodeo Ride to Back Control?</p>
 
 This transition carries moderate injury risk from dynamic weight shifts during hook insertion. Practitioners should avoid explosive hook insertion near the groin or knee joints, as forced foot placement can cause knee ligament stress or groin compression. Sustained weight loading on a turtled opponent can compress the cervical and thoracic spine if applied aggressively, particularly when driving forward pressure. Communication between training partners is essential—the bottom player should signal discomfort from spinal pressure or hook placement. In gi training, collar grips during the transition can apply dangerous neck pressure. Always drill at controlled speed before introducing resistance, and ensure the bottom player can tap or verbally signal at any point during the transition sequence.
 

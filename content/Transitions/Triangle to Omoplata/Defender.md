@@ -162,6 +162,8 @@ Defending the triangle to omoplata transition requires understanding that you ar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle to Omoplata?</p>
+
 - Attacker tightens wrist or sleeve grip on your trapped arm while simultaneously loosening their triangle ankle lock—this dual action signals the transition is imminent
 - Attacker's hips begin rotating laterally toward the side of your trapped arm rather than maintaining the straight-on triangle angle—this hip shift precedes the leg swing
 - The choking pressure from the triangle suddenly decreases as the attacker redirects their legs from neck compression to shoulder control positioning
@@ -174,6 +176,8 @@ Defending the triangle to omoplata transition requires understanding that you ar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle to Omoplata?</p>
 
 - Recognize the transition cues early—the attacker's hip rotation and leg unlock are your primary warning signals
 - Exploit the transition window when neither triangle nor omoplata is fully locked for maximum escape opportunity
@@ -189,6 +193,8 @@ Defending the triangle to omoplata transition requires understanding that you ar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle to Omoplata?</p>
 
 ### 1. Arm extraction during transition window—immediately retract trapped arm by driving elbow toward your own hip while the triangle legs are unlocking
 
@@ -226,6 +232,8 @@ Defending the triangle to omoplata transition requires understanding that you ar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle to Omoplata?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract the trapped arm during the transition window when the triangle is released but the omoplata is not yet established. Drive the elbow toward your own hip while simultaneously posturing up. The arm extraction eliminates both submission threats and returns you to a neutral guard passing position.
@@ -241,6 +249,8 @@ Drive weight backward and square your hips when you recognize the transition beg
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle to Omoplata?</p>
 
 ### 1. Continuing to drive forward with stacking pressure after the attacker initiates the omoplata transition
 
@@ -270,6 +280,8 @@ Drive weight backward and square your hips when you recognize the transition beg
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle to Omoplata?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues and building automatic recognition responses
 Partner starts in triangle control and slowly initiates the omoplata transition while you practice identifying each recognition cue: the ankle unlock, hip rotation, leg lift, and wrist pull redirection. Call out each cue verbally as you feel it. No escape attempts yet—pure recognition at 25% speed for 20 repetitions per side.
 
@@ -286,29 +298,6 @@ Positional sparring starting from triangle control. Attacker works to finish the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical transition window for escape and how do you recognize it?
-**A**: The critical window occurs between the moment the attacker unlocks their triangle ankle lock and the moment their leg completes the swing over your back to establish omoplata control. This window typically lasts 1-2 seconds. You recognize it by feeling the triangle pressure release on your neck, the attacker's hip rotation beginning, and increased pulling pressure on your trapped wrist. This is your highest-percentage escape opportunity because neither submission is fully secured during this phase.
-
-**Q2**: Why must you reverse your pressure direction from forward to backward when the transition begins?
-**A**: During triangle defense, driving forward (stacking) relieves choking pressure on the neck and is a correct defensive response. However, during the omoplata transition, forward pressure feeds directly into the shoulder lock by extending the trapped arm and creating the angle the attacker needs. The omoplata requires the defender's weight to be forward—driving backward removes the positional advantage the attacker needs to establish perpendicular hip alignment and shoulder rotation. Understanding this directional shift is the most critical defensive concept for this specific transition.
-
-**Q3**: Your opponent has completed the leg swing and established their shin across your back—what are your remaining defensive priorities?
-**A**: Once the omoplata is established, your priorities in order are: First, prevent the attacker from establishing belt or hip control with their free hand—this grip prevents your forward roll escape. Second, keep your trapped elbow as close to your body as possible to minimize shoulder rotation. Third, prepare for the forward roll escape by posting your free hand and tucking your chin. Fourth, if the roll is blocked, work to square your hips toward the attacker and walk your body backward to reduce the shoulder angle. At this stage you are defending a consolidated omoplata rather than exploiting the transition window.
-
-**Q4**: How should you respond if your forward roll escape is anticipated and the attacker follows you to back control?
-**A**: If the attacker follows your roll and establishes back control, immediately address the back control position by tucking your chin to prevent the rear naked choke, fighting the seatbelt grip by controlling the choking hand, and working to get your back to the mat. The transition from omoplata roll to back control is predictable, so when initiating the roll, be prepared to defend the back take by keeping your elbows tight and rolling to the side of the attacker's underhook rather than flat on your stomach. If you anticipate they will follow the roll, consider abandoning the roll and instead focusing on backward hip movement to reduce the omoplata angle.
-
-**Q5**: When defending the triangle to omoplata transition, what defensive grip should your free hand establish?
-**A**: Your free hand should immediately post on the mat to maintain base and prevent being swept, or grab your own trapped wrist or forearm to prevent arm isolation. If the attacker's belt grip is not yet established, use your free hand to control their hip to prevent them from achieving perpendicular alignment. The worst use of the free hand is reaching toward the attacker's body or pushing on their legs, as this extends your base and makes you vulnerable to being swept forward. Maintain the free hand close to your own body to preserve defensive structure.
-
-
-
-</section>
 
 
 </main>

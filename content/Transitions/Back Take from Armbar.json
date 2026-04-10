@@ -68,7 +68,7 @@
       "relationship": "Counter outcome position when opponent escapes during the transition window"
     },
     {
-      "name": "Armbar Finish",
+      "name": "Armbar from Armbar Control",
       "relationship": "Alternative high-percentage finish from armbar control when opponent stops defending"
     },
     {
@@ -265,6 +265,18 @@
       {
         "question": "If the opponent stops turning midway through your back take attempt, what should you do?",
         "answer": "If the opponent stops rotating before you have threaded the first hook, immediately return to armbar control by re-securing your wrist grips and replacing the leg across their face. You have lost nothing because the armbar position is still available. If you have already threaded one hook but the opponent stops, maintain your seatbelt grip and the single hook while working to insert the second hook from turtle control rather than forcing the transition."
+      },
+      {
+        "question": "What direction should your chest track relative to the opponent's spine during the transition?",
+        "answer": "Your chest should track perpendicular to the opponent's spine throughout the entire transition, matching their rotation speed precisely. The force direction shifts from the lateral armbar extension vector to a rotational following force that keeps you glued to their back as they turn. Overshooting past their centerline creates space they can exploit to face you, while falling behind their rotation means you lose access to their back before hooks are established."
+      },
+      {
+        "question": "What submissions become available immediately after successfully completing the back take from armbar?",
+        "answer": "Once back control is established with seatbelt and double hooks, the rear naked choke becomes the primary threat as the opponent's neck is now accessible. The bow and arrow choke is available in gi, and armbar from back can be attempted if the opponent over-defends the neck. If a gift wrap was established during the transition, immediate armbar or choke opportunities exist through the trapped arm. Completing this transition gives access to the entire back attack system rather than a single isolated submission."
+      },
+      {
+        "question": "Your opponent turtles tightly with elbows pinched to their hips during the back take - how do you insert hooks?",
+        "answer": "Against a tight turtle, use your knee as a wedge between their hip and the mat on the near side, prying space for the first hook. Maintain heavy chest pressure on their back to prevent them from sitting up or rolling away. For the second hook, walk your hips around toward their far side while keeping the seatbelt tight, then thread the leg around their far hip. If hooks remain blocked, establish single-hook back control with seatbelt and work patiently rather than forcing both hooks simultaneously and risking total loss of control."
       }
     ],
     "safety_considerations": "During training, release all armbar pressure completely before initiating the back take transition. The grip change from arm isolation to shoulder control must not involve any twisting or leveraging of the opponent's elbow joint during the transition. Communicate clearly with your partner when shifting from joint lock to positional control. The transition involves rapid position changes that can torque the trapped arm unexpectedly if control is not released cleanly. Always ensure the arm is free before committing to the rotation, and tap immediately if you feel joint pressure during the transition when drilling as the defender."
@@ -298,7 +310,7 @@
         "action": "Explosive hip escape away from attacker during grip transition",
         "when_to_use": "During the brief window when the attacker has released armbar grips but has not yet established seatbelt control, typically as they shift from wrist to shoulder grip",
         "targets_outcome": "Half Guard/Bottom",
-        "if_successful": "You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on bottom",
+        "if_successful": "You create enough distance to disengage from both the armbar and the back take attempt, recovering to half guard with the attacker on top",
         "risk": "If mistimed or too slow, the attacker follows your hip escape and secures back control during your movement"
       },
       {
@@ -319,7 +331,7 @@
     "favorable_outcomes": [
       {
         "outcome": "Half Guard/Bottom",
-        "how": "Time a powerful hip escape during the attacker's grip transition window when they have released armbar grips but have not yet established seatbelt control. Use the momentary gap in control to shrimp away forcefully, create distance, and recover to half guard top position where you have significantly better defensive and offensive options."
+        "how": "Time a powerful hip escape during the attacker's grip transition window when they have released armbar grips but have not yet established seatbelt control. Use the momentary gap in control to shrimp away forcefully, create distance, and recover to half guard where you have significantly better defensive and offensive options."
       },
       {
         "outcome": "Armbar Control/Top",
@@ -368,6 +380,14 @@
       {
         "question": "What body position best prevents successful hook insertion during the back take?",
         "answer": "The most effective position is a tight turtle with elbows pinched firmly to your hips, knees drawn close to your chest, and chin tucked. This creates a compact defensive shell that eliminates the space between your torso and thighs where the attacker needs to thread hooks. Combined with active hand fighting on any leg that attempts to enter, this position makes full back control establishment significantly more difficult for the attacker."
+      },
+      {
+        "question": "Your opponent has secured one hook but not the seatbelt - what is your best defensive response?",
+        "answer": "Focus on preventing the seatbelt establishment since that is the control point that will lock you into back control. Use both hands to fight the attacker's arms and prevent them from clasping hands at your chest. Simultaneously, address the single hook by trapping it with your legs or using one hand to strip it while the other maintains upper body defense. A single hook alone provides limited control, so denying the seatbelt keeps the position recoverable and prevents the attacker from consolidating full back control."
+      },
+      {
+        "question": "How should you adjust your armbar defense strategy once you recognize the back take threat?",
+        "answer": "Shift from aggressive turning to controlled, minimal rotation that protects both threats simultaneously. Stop clasping your hands tightly and instead use one hand to protect your neck and collar while the other addresses hooks and leg threading. Your hip positioning should favor flattening back to the mat rather than continuing to turn, since flattening denies back access while still maintaining enough arm bend to prevent the armbar finish. The key is recognizing that the threat has changed and your defensive posture must adapt accordingly."
       }
     ],
     "training_progressions": [

@@ -20,38 +20,38 @@ description: "Master Kesa Gatame Top position in BJJ. Dominant scarf hold with 7
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura from Kesa Gatame",
+      "text": "From this position, attempt Kimura from Kesa Gatame. This technique is attempted in 10% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute North-South Choke from Kesa Gatame",
+      "text": "From this position, attempt North-South Choke from Kesa Gatame. This technique is attempted in 8% of exchanges from this position.",
       "position": 3
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
       "text": "From this position, attempt Side Control to Mount. This technique is attempted in 14% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
       "text": "From this position, attempt Side Control to North-South. This technique is attempted in 32% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Triangle from Kesa Gatame",
+      "text": "From this position, attempt Arm Triangle from Kesa Gatame. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kesa Gatame (Top)?</p>
+
 - Top player sits perpendicular to opponent's body with hips low and weight distributed through the torso, creating downward pressure on opponent's chest and diaphragm
 - Near arm of opponent is trapped and controlled under top player's armpit, with top player's arm wrapped around opponent's head creating a tight scarf-like grip
 - Top player's far leg is posted wide for base while near leg hooks or controls opponent's far hip to prevent rotation and escape attempts
@@ -184,6 +186,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Kesa Gatame (Top)?</p>
+
 - Successful transition from side control, mount, or passing sequence
 - Opponent flat on their back with upper body accessible for control
 - Ability to secure head control and near arm trap
@@ -196,6 +200,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Kesa Gatame?</p>
 
 - Maintain perpendicular body angle to opponent with hips low and heavy
 - Control opponent's head and near arm as primary control points
@@ -212,9 +218,11 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Kesa Gatame (Top)?</p>
+
 **If opponent attempts to turn into you and recover guard:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 70%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 60%)
 
 
 **If opponent creates space and attempts to shrimp away toward their feet:**
@@ -223,8 +231,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 
 **If opponent extends trapped arm attempting to push or frame:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 65%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 55%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 65%)
+- Execute **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
 
 
 **If opponent remains flat and defensive without creating movement:**
@@ -239,6 +247,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Kesa Gatame?</p>
 
 ### 1. Sitting too high on opponent's chest rather than keeping hips low
 
@@ -278,6 +288,8 @@ From a competitive standpoint, Kesa Gatame scores as a guard pass (3 points in I
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Kesa Gatame attacks?</p>
+
 ### Positional Maintenance Drill
 
 Partner starts in Kesa Gatame Top and must maintain position for 2-minute rounds while bottom player attempts escapes at 50% intensity. Focus on weight distribution, base maintenance, and preventing hip escapes. Top player should not attempt submissions, only control.
@@ -294,7 +306,7 @@ From Kesa Gatame Top, practice flowing between variations: standard Kesa Gatame,
 
 ### Submission Chain Drill
 
-Start in Kesa Gatame Top and flow through the submission chain: Americana attempt, opponent defends, switch to Kimura, opponent defends, transition to Armbar, opponent defends, secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.
+Start in Kesa Gatame Top and flow through the submission chain: Americana attempt, opponent defends, switch to Kimura, opponent defends, transition to Far Side Armbar, opponent defends, secure North-South Choke. Partner provides realistic defensive reactions. Reset and repeat with different entry points.
 
 **Duration**: 4 rounds of 3 minutes
 
@@ -310,38 +322,6 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts bridging explosively toward your posted leg - what adjustment do you make to maintain position?
-**A**: Immediately widen your posted leg and shift your hips lower, driving your weight down through your chest into their torso. If the bridge is strong, be ready to transition to mount by stepping over as they turn into you, converting their escape attempt into positional advancement. The key is staying heavy on their upper body while maintaining wide base with your posted leg.
-
-**Q2**: What are the essential control points for maintaining Kesa Gatame?
-**A**: The three essential control points are: head control with your arm wrapped around their neck pulling it toward your hip, near arm trap secured tightly under your armpit squeezing against your ribs, and chest-to-chest pressure with your weight distributed through your torso onto their upper body. Without all three points engaged, the position becomes unstable and escape-prone.
-
-**Q3**: How do you shut down the bridge-and-roll escape before it develops momentum?
-**A**: Keep your hips extremely low and sink your weight into their chest, making bridging difficult. Your posted leg must stay wide at a 45-degree angle for base. When you feel them start to load their hips, immediately drive your shoulder into their face and sprawl your hips back slightly. You can also preemptively control their far arm to eliminate the grip they need to complete the roll.
-
-**Q4**: What grip priorities should you maintain when someone is actively trying to escape?
-**A**: During active escape attempts, prioritize in this order: head control first (arm wrapped around their head pulling toward your hip), near arm trap second (squeezed tight under your armpit), and base leg position third (posted wide for stability). If you must release one grip to address an escape, never release head control first as this is the primary anchor preventing them from creating angles.
-
-**Q5**: How do you apply pressure effectively without exhausting yourself?
-**A**: Use skeletal alignment and gravity rather than muscular effort. Sit your hips low and let your bodyweight sink through your chest onto their torso. Keep your arm around their head relaxed but connected, using the bone structure of your shoulder and chest to apply pressure. The pressure should feel effortless to you while being crushing to them. Avoid squeezing with your arms or holding tension in your shoulders.
-
-**Q6**: Your opponent starts turning their hips toward you to create an angle - how do you react?
-**A**: When they turn their hips toward you, this is actually an opportunity. Drive your near leg over their far hip to begin transitioning to mount, using their rotation to help you clear the leg. Alternatively, shift your weight forward and sprawl your hips to flatten them back down before they can complete the angle change. The worst response is remaining static - you must move with their movement.
-
-**Q7**: How do you manage your energy during extended control periods in Kesa Gatame?
-**A**: Relax between their escape attempts while maintaining structural connection through your frames. Use your bodyweight passively rather than actively squeezing. Focus on breathing calmly and staying mentally patient. When they explode with escape attempts, match their energy briefly then return to relaxed control. This creates a brutal energy differential where they exhaust themselves while you conserve energy.
-
-**Q8**: Your opponent partially escapes and gets their near arm free - how do you recover control?
-**A**: Immediately transition to a safer variation before they can capitalize. Options include: shifting to North-South by circling toward their head, moving to standard side control by sliding your hips perpendicular, or if they turn in, flowing to mount. Do not fight to re-trap the arm in Kesa Gatame as this creates scramble opportunities. Accept the partial escape and secure a dominant position rather than losing everything trying to maintain the original hold.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -368,8 +348,8 @@ Bottom player attempts one specific escape type (hip escape, bridge and roll, or
 - **[[Positions/Side Control]]** - Parent category, closely related pinning position
 - **[[Positions/North-South]]** - Common transition target for control maintenance
 - **[[Positions/Mount]]** - Common advancement target when opponent turns in
-- **[[Transitions/Americana]]** - Primary submission transition from this position
-- **[[Transitions/Kimura]]** - High-percentage submission transition
+- **[[Submissions/Americana]]** - Primary submission transition from this position
+- **[[Submissions/Kimura]]** - High-percentage submission transition
 - **[[Transitions/Arm Triangle]]** - Submission chain option from heavy pressure
 
 

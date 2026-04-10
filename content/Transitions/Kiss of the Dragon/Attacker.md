@@ -188,6 +188,8 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kiss of the Dragon?</p>
+
 - Maintain constant connection to opponent's hips throughout the roll using active pulling tension on your grip
 - Forward roll must be tight and controlled, tracing an arc around the opponent's body rather than rolling through empty space
 - Time the entry when opponent commits weight forward into their turtle defensive structure
@@ -203,6 +205,8 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kiss of the Dragon?</p>
+
 - Opponent in turtle position with weight distributed forward into their defensive shell
 - Strong grip on opponent's belt, back of pants, or hip control firmly established
 - Top position with ability to lower head below opponent's hip level from a side angle
@@ -216,6 +220,8 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kiss of the Dragon step by step?</p>
 
 1. **Establish hip control from top turtle at an angle**: From top turtle position, secure a firm grip on opponent's belt or the back of their pants at the hip level. Position yourself at approximately 45 degrees to one side of the turtle position rather than directly behind. This angle is critical because it creates the proper arc trajectory for your roll to travel around their body. The grip must be strong enough to maintain connection throughout dynamic movement.
 2. **Threaten traditional back take to load opponent's weight forward**: Before committing to the roll, briefly threaten a standard seatbelt back take or attempt to insert hooks in the conventional manner. This forces the opponent to commit their weight forward and tighten their defensive turtle structure, which creates the space underneath their hips that you need for your entry. Without this setup, alert opponents may sit their weight back and collapse the entry space.
@@ -245,6 +251,8 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kiss of the Dragon?</p>
+
 - **Opponent follows your roll by turning with you** (Effectiveness: Medium) - Your Response: If you recognize their turn early, accelerate your roll and rapidly transition grips to complete the technique before they fully track your movement. If they are successfully matching your rotation, abort the complete somersault and transition to a leg entanglement or scramble position rather than forcing a compromised back take. → Leads to [[Positions/Turtle]]
 - **Opponent sprawls weight back to prevent you from getting underneath** (Effectiveness: High) - Your Response: Abandon the technique and transition to traditional back take methods like the crab ride, seatbelt entry, or cross body ride. The Kiss of the Dragon requires forward weight commitment from the opponent, so when they shift backward, switch to attacks that exploit that rearward weight distribution instead. → Leads to [[Positions/Turtle]]
 - **Opponent sits to guard as you initiate the roll** (Effectiveness: Medium) - Your Response: Continue your roll and use your momentum to establish a leg entanglement position such as ashi garami or single leg X, converting your rolling motion into a sweep or leg attack entry. Your body positioning naturally favors lower body attacks when the back take is denied by guard recovery. → Leads to [[Positions/Turtle]]
@@ -256,6 +264,8 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kiss of the Dragon?</p>
 
 ### 1. Rolling too far away from opponent without maintaining connection
 
@@ -295,6 +305,8 @@ The Kiss of the Dragon is an advanced rolling back take that allows the top play
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kiss of the Dragon (Attacker)?</p>
+
 **Phase 1: Rolling Mechanics** - Master the forward roll motion without an opponent
 Practice forward rolls in isolation, focusing on tucked chin, rounded spine, and smooth rotation. Start from kneeling position and gradually add speed. Perform 20-30 repetitions per session to build muscle memory and comfort with inversion. Include rolls over both shoulders to develop bilateral competence.
 
@@ -318,48 +330,12 @@ Use Kiss of the Dragon during normal training rolls when opponent assumes turtle
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary purpose of the hip grip during the Kiss of the Dragon?
-**A**: The hip grip serves as the anchor point that maintains connection to the opponent throughout the forward roll. It prevents separation during the inversion phase and ensures you emerge in the correct position relative to their back. Without this constant pulling tension, you would roll into empty space rather than tracing a tight arc around their body. The grip must be maintained with active tension throughout the entire technique, pulling you into the opponent rather than simply holding on passively.
-
-**Q2**: Your opponent is in turtle with their weight sitting back on their heels rather than forward on their hands. Should you attempt the Kiss of the Dragon?
-**A**: No. When the opponent's weight is back on their heels, the space underneath their hips that you need for entry collapses, making it impossible to get your head and shoulders below their hip line. Instead, threaten traditional back take attempts like seatbelt entry or crab ride first, which forces the opponent to commit weight forward into their defensive shell to resist. Once they shift forward, the space opens and the Kiss of the Dragon becomes viable. Reading and manipulating weight distribution is essential for consistent success with this technique.
-
-**Q3**: Why must you position at a 45-degree angle to one side rather than directly behind the turtle?
-**A**: Starting at a 45-degree angle creates the proper trajectory for your rolling arc to travel around the opponent's body rather than straight past them. When positioned directly behind, the forward roll tends to carry you beyond the opponent because the geometric path does not account for their body as an obstacle to roll around. The angled approach allows your roll to follow the curvature of their torso, keeping you connected throughout and depositing you in the optimal position behind their back for seatbelt and hook establishment.
-
-**Q4**: You initiate the roll but feel your hip grip breaking mid-rotation. What should you do?
-**A**: Your response depends on the timing. If the grip breaks early in the roll before you have passed underneath the opponent, abort the technique immediately and return to top turtle control to re-establish your attacking position. If the grip breaks late when you have already emerged behind them, complete the rotation and immediately reach for seatbelt or any available upper body connection rather than attempting to re-grip the hips. Never try to hold a failing grip during mid-roll, as this can cause you to land awkwardly and risk injury.
-
-**Q5**: What is the critical timing window between completing the roll and establishing seatbelt control?
-**A**: You have approximately one to two seconds after completing the roll before the opponent processes your position change and begins defensive reactions. This window exists because the rolling motion disorients the opponent, who cannot see behind them and must rely on tactile feedback to understand what happened. Your hip grips must transition to seatbelt within this window. If you spend time adjusting your base or positioning before reaching for seatbelt, the opponent will turn to face you, establish frames, or sit to guard, negating the advantage the technique provides.
-
-**Q6**: Your opponent begins to follow your roll by turning their body to match your rotation. How do you adjust?
-**A**: If you recognize the tracking early, accelerate your roll speed and rapidly transition your grips to complete the back take before they can fully match your rotation. If they are successfully keeping pace with your movement, abort the complete somersault and transition to alternative positions such as leg entanglements or a scramble position. Forcing a back take against an opponent who is rotating with you typically results in a neutral scramble where you have lost your positional advantage from top turtle.
-
-**Q7**: What grip options are available for the Kiss of the Dragon in no-gi situations?
-**A**: Without belt or gi pants available, the primary grip options are cupping underneath the opponent's hips with both hands or gripping the back of their thighs near the crease of the hip. Some practitioners use a front headlock position to initiate before transitioning to hip control for the roll. The rolling motion remains the same but requires stronger arm engagement and tighter body connection to compensate for the absence of fabric grips. Wrist control of the opponent's near arm can also serve as a secondary anchor point during the rotation.
-
-**Q8**: How does the Kiss of the Dragon to Truck variant differ in grip requirements and finishing position?
-**A**: The Truck variant requires controlling one of the opponent's ankles in addition to the hip grip before initiating the roll. You grip one ankle and the opposite hip, then execute the somersault while maintaining leg control throughout the rotation. Instead of emerging to standard back control with seatbelt and hooks, you finish in the truck position with your legs controlling one of the opponent's legs in a figure-four configuration. This opens leg lock opportunities including calf slicers and banana splits in addition to traditional back attacks, making it particularly effective in submission-only rule sets.
-
-**Q9**: What is the most important mechanical detail for maintaining a safe, smooth roll during the inversion?
-**A**: The most critical mechanical detail is maintaining a tucked chin with a fully rounded spine throughout the entire rotation. This creates a wheel-like shape that allows smooth rolling over your shoulder and upper back. A flat back causes jarring impact, slower rotation, and risks serious neck or spine injury. The rounded shape also facilitates maintaining grip connection because your body follows a smooth arc rather than bouncing or catching during the somersault. Practitioners should master comfortable forward rolls in isolation before ever attempting this technique with a partner.
-
-**Q10**: If the back take is defended and you end up in a scramble, what positions should you look to establish?
-**A**: When the clean back take is denied, your rolling momentum naturally positions you for several alternative attacks. Leg entanglements such as single leg X or inside ashi garami are accessible because your body is already below your opponent's hips. If the opponent has sat to guard, your forward momentum can carry you into a top passing position. If you end up chest-to-chest, immediately work to re-establish top turtle control or transition to front headlock. The key principle is never accepting a neutral scramble when your initial rolling momentum gives you an advantage in reaching one of these secondary positions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kiss of the Dragon?</p>
 
 The Kiss of the Dragon involves spinal inversion and rolling while attached to an opponent, creating specific safety concerns. Practitioners must have competent forward rolling ability before attempting this technique with a partner to prevent neck and spine injuries. Always tuck the chin tightly to the chest and maintain a rounded spine throughout the roll. Rolling with a flat back can cause serious injury to cervical and thoracic vertebrae. Start training at slow speed with lightweight partners and progress gradually to full resistance over multiple sessions. Be aware of mat space and obstacles before initiating the roll. If you feel your grip breaking during the rotation, release completely rather than attempting to hold on, as this can cause you to land awkwardly or spike onto your head. Partners should not drive forward into someone executing this technique, as it can cause the rolling practitioner to spike onto their head or neck. Individuals with existing neck, spine, or shoulder injuries should consult medical professionals before training this technique.
 

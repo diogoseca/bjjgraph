@@ -164,6 +164,8 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Back Take?</p>
+
 - Opponent's chest weight settling heavily onto your upper back with increasing downward pressure, indicating they are establishing the first control layer
 - Feeling an arm threading under your armpit and across your chest as a seatbelt attempt, signaling the attacker is progressing past initial control to upper body dominance
 - Opponent's leg hooking over your near hip to block your sit-back escape, indicating they are preparing to insert hooks and you must act immediately
@@ -176,6 +178,8 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Back Take?</p>
 
 - Never remain static in turtle - constant movement disrupts the attacker's control progression and creates escape windows
 - Protect against seatbelt establishment first by keeping elbows tight to your body and chin tucked to chest
@@ -191,6 +195,8 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Back Take?</p>
 
 ### 1. Sit through to guard recovery by turning toward the attacker's underhook side and threading your near leg through to establish guard
 
@@ -228,6 +234,8 @@ The defender's priority hierarchy is clear: first prevent seatbelt grip establis
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Back Take?</p>
+
 ### → [[Positions/Turtle]]
 
 Execute a sit-through or granby roll to recover guard, which reverses the positional dynamic by placing you in guard where you can attack while the opponent must now work to pass. Time the escape when the attacker is transitioning between control phases and their weight is momentarily uncommitted.
@@ -243,6 +251,8 @@ Perform an explosive technical standup to reach standing position, breaking the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Back Take?</p>
 
 ### 1. Remaining static in turtle hoping the attacker will make a mistake rather than actively escaping
 
@@ -277,6 +287,8 @@ Perform an explosive technical standup to reach standing position, breaking the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Back Take?</p>
+
 **Phase 1: Recognition and Defensive Structure (Weeks 1-2)** - Building the tight defensive shell and recognizing attack cues
 Partner establishes turtle top position and slowly progresses through the back take sequence while you focus on maintaining tight elbows, tucked chin, and identifying each recognition cue as it occurs. No escape attempts yet - purely building awareness of the attack progression and maintaining structural integrity under increasing pressure.
 
@@ -293,29 +305,6 @@ Positional sparring starting from turtle bottom with partner attacking at full i
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct priority sequence for defending the back take from turtle?
-**A**: The priority sequence is: first, prevent seatbelt grip establishment by keeping elbows tight and fighting any arm that threads under your armpit; second, deny hook insertion by maintaining tight hip-to-elbow connection and actively kicking back against hook attempts; third, execute an explosive escape toward guard recovery or standing before the attacker can build additional control layers. This sequence addresses threats in order of severity, as the seatbelt enables everything else the attacker wants to do.
-
-**Q2**: Your opponent has established chest pressure but no grips yet - what is the optimal moment to escape?
-**A**: This is the highest-percentage escape window because the attacker has only one control layer established. You should explode immediately into either a sit-through, standup, or granby roll before they can secure seatbelt grip. Once the seatbelt is locked, your escape probability drops by approximately half. The transition from chest pressure to seatbelt grip takes only one to two seconds, so this window is extremely brief and must be exploited with immediate decisive action rather than waiting to see what the attacker does next.
-
-**Q3**: How should you determine whether to attempt a sit-through versus a standup escape from turtle?
-**A**: The decision depends on the attacker's weight distribution and control depth. Choose sit-through when the attacker's weight is forward on your shoulders and they have seatbelt or partial control, because their forward commitment makes it difficult to follow lateral rotation. Choose standup when the attacker's weight is light or high with minimal grip control, because you can drive through the standup before they can establish hooks. If the attacker has deep hooks and seatbelt already established, neither is ideal and you should focus on hand fighting the seatbelt first before committing to an escape direction.
-
-**Q4**: Why is it critical to escape toward the attacker's choking arm side rather than away from it?
-**A**: Escaping toward the choking arm side accomplishes two things simultaneously: it neutralizes the most dangerous submission threat by moving your neck away from the choking arm's reach, and it forces the attacker's underhook arm to bear the load of maintaining control at an awkward angle. Moving away from the choking arm exposes your neck further and allows the attacker to deepen their seatbelt as you rotate into the choke. The directional choice is the difference between escaping into a neutral guard position and escaping into a worse submission predicament.
-
-**Q5**: Your opponent has one hook inserted and is working for the second - what is your best defensive action?
-**A**: With one hook already set, your window for easy escape has narrowed significantly. Focus on preventing the second hook by pressing your elbow tight against your hip on the threatened side, trapping the attacker's leg between your elbow and hip. Simultaneously, begin working to clear the established hook by extending your trapped leg and using your same-side hand to push their heel out. If you can clear the first hook before the second is set, immediately explode into a sit-through toward the cleared side. The critical principle is that one hook is recoverable but two hooks plus seatbelt is extremely difficult to escape.
-
-
-
-</section>
 
 
 </main>

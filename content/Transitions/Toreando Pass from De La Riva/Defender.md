@@ -162,6 +162,8 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Toreando Pass from De La Riva?</p>
+
 - Passer strips or begins fighting your ankle or pants grip with their free hand while maintaining upright posture with hips back
 - Passer drives their knee forward into your DLR hook or takes a backstep to collapse the hook's leverage angle
 - Passer establishes bilateral grips on both of your pants legs at the knees or ankles simultaneously
@@ -174,6 +176,8 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toreando Pass from De La Riva?</p>
 
 - Prioritize grip retention above all else, as the ankle grip combined with the DLR hook is your primary defensive structure and the toreando cannot be executed while both are intact
 - Maintain constant hook tension by pulling your knee toward your chest and driving your foot actively into the back of the passer's knee, making hook removal require significant effort
@@ -188,6 +192,8 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Toreando Pass from De La Riva?</p>
 
 ### 1. Aggressive grip fighting to retain ankle grip and re-establish DLR hook before pass can be initiated
 
@@ -225,6 +231,8 @@ Defending the Toreando Pass from De La Riva Guard requires understanding the att
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Toreando Pass from De La Riva?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Retain or re-establish the DLR hook and ankle grip through aggressive grip fighting before the passer can initiate the lateral passing phase. Fight every grip strip immediately and maintain constant hook tension to make the toreando structurally impossible.
@@ -240,6 +248,8 @@ If the pass is already in progress, time a hip escape and knee insertion during 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toreando Pass from De La Riva?</p>
 
 ### 1. Lying flat on your back with hips stationary while the passer strips grips and clears the hook
 
@@ -269,6 +279,8 @@ If the pass is already in progress, time a hip escape and knee insertion during 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Toreando Pass from De La Riva?</p>
+
 **Phase 1: Grip Retention Under Pressure** - Maintaining DLR hook and ankle grip against systematic strip attempts
 Partner attempts to strip your ankle grip and clear your DLR hook using realistic passing pressure. Focus on re-gripping speed, hook tension maintenance, and recognizing the passer's grip-breaking patterns. Three-minute rounds with full reset after each successful grip strip. Track how many strip attempts you can defend per round.
 
@@ -285,29 +297,6 @@ Full positional sparring rounds from DLR guard where the passer focuses on torea
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective first line of defense against the toreando from DLR?
-**A**: The most effective first line of defense is aggressive grip retention. Maintaining the ankle grip and DLR hook tension makes the toreando structurally impossible because the passer cannot establish bilateral grips or execute lateral movement while tethered by the hook. Fighting to preserve these controls should take priority over all other defensive actions.
-
-**Q2**: When should you abandon DLR recovery and transition to an alternative guard position?
-**A**: Abandon DLR recovery when the passer has successfully cleared both the ankle grip and the DLR hook and is establishing bilateral grips on your legs. At this point, attempting to re-establish the hook is mechanically impossible against a competent passer. Instead, immediately transition to X-Guard, Single Leg X, butterfly guard, or begin the hip escape sequence for half guard recovery.
-
-**Q3**: Your opponent strips your ankle grip but you still have the DLR hook active. What is your immediate priority?
-**A**: Your immediate priority is re-establishing the ankle grip before the passer can address the now-unsupported hook. The DLR hook without the ankle grip loses most of its sweeping power and becomes easy to strip. Simultaneously increase hook tension by pulling your knee toward your chest aggressively to buy time for grip recovery. If re-gripping is not possible within one to two seconds, transition proactively to X-Guard by threading your bottom foot.
-
-**Q4**: How does the passer's lateral momentum during the toreando create a counter-attack opportunity for the defender?
-**A**: When the passer commits fully to one lateral direction, their base becomes compromised along the perpendicular axis. This directional commitment creates an opportunity for the defender to time an inversion, sweep, or guard recovery that exploits the passer's inability to change direction mid-sprint. The passer's momentum can be redirected by tracking their movement with hip rotation and timing a knee insertion or berimbolo entry during their directional commitment.
-
-**Q5**: What role does the free leg play in defending the toreando from DLR?
-**A**: The free leg serves as the critical secondary defense mechanism that prevents the passer from establishing bilateral grips even after the DLR hook is cleared. By actively framing on the passer's hip, bicep, or shoulder, the free leg maintains distance and creates a physical barrier that the passer must overcome before they can secure both legs for redirection. Without active free leg framing, the passer transitions directly from hook removal to bilateral grip establishment without interruption.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Seat Belt Control?</p>
+
 - Sequential problem-solving: address neck protection, grip breaking, hip movement, and turning in strict order without skipping steps
 - Isolate grip components independently rather than fighting the entire seat belt structure simultaneously
 - Prioritize the over-shoulder arm first as it provides the primary choking threat and structural keystone of control
@@ -203,6 +205,8 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Seat Belt Control?</p>
+
 - Opponent has established seat belt grip with over-under harness across your torso and hands connected
 - At least one hand is free or can be freed from immediate defensive duties to begin grip fighting
 - Chin is tucked and neck is protected from immediate choke threat before initiating grip break sequence
@@ -215,6 +219,8 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Seat Belt Control step by step?</p>
 
 1. **Establish neck defense**: Tuck chin tightly to chest and bring both hands to the collar line, controlling the opponent's choking wrist with your near-side hand while your far-side hand protects the space under your jaw. This defensive posture is the non-negotiable foundation for all subsequent escape movements and must be maintained throughout the sequence.
 2. **Identify and isolate the over-shoulder arm**: Determine which of the opponent's arms is threaded over your shoulder, as this arm provides both the primary choking leverage and the structural keystone of the seat belt configuration. Establish a two-on-one grip on this arm's wrist or forearm using both hands, temporarily accepting the risk of releasing partial neck defense.
@@ -245,6 +251,8 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Seat Belt Control?</p>
+
 - **Opponent tightens seat belt grip and increases chest pressure when they feel grip fighting begin** (Effectiveness: High) - Your Response: Persist with two-on-one grip control and add hip movement to weaken the grip structure from multiple angles. Wait for a moment when opponent adjusts or commits to a submission attempt before renewing the grip break. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 - **Opponent transitions to body triangle to lock hips and prevent the shrimping movement needed for escape** (Effectiveness: High) - Your Response: Shift to body triangle-specific escape protocols focusing on straightening the locked leg and creating hip space before returning to seat belt grip break. The body triangle changes the escape priority order. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 - **Opponent releases seat belt to attack rear naked choke when hands leave collar defense during grip fighting** (Effectiveness: Medium) - Your Response: Immediately abandon grip break and return to full neck defense with chin tucked and hands protecting collar line. The opponent's choke attempt creates a window after the attack fails where their grip is compromised and a fresh escape attempt has higher probability. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
@@ -257,6 +265,8 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Seat Belt Control?</p>
 
 ### 1. Fighting the entire seat belt grip simultaneously by pulling on both arms at once
 
@@ -301,6 +311,8 @@ Executing the Escape Seat Belt Control requires the bottom player to systematica
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Seat Belt Control (Attacker)?</p>
+
 **Phase 1: Isolated Grip Breaking** - Two-on-one grip mechanics
 Partner establishes seat belt grip without hooks. Practice isolating the over-shoulder arm with two-on-one control and pulling it across your body. No escape attempts yet - focus purely on grip identification, grip establishment, and pulling mechanics. 3-minute rounds with partner re-gripping after each successful break.
 
@@ -321,42 +333,12 @@ Live positional rounds starting from established seat belt control. Bottom playe
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you address the over-shoulder arm before the under-arm when breaking the seat belt grip?
-**A**: The over-shoulder arm provides the primary choking threat and serves as the structural keystone of the seat belt configuration. It creates the downward diagonal force vector that, combined with the under-arm's upward vector, locks the grip in place. Breaking the over-arm first eliminates the immediate choke danger and collapses the diagonal force structure, making the under-arm significantly easier to address. Attacking the under-arm first leaves the choking threat active and the diagonal structure intact.
-
-**Q2**: Your opponent feels your grip fighting and immediately tightens their seat belt while driving chest pressure harder - how do you adjust?
-**A**: Add hip movement to complement the grip fighting rather than relying on hand strength alone. Execute small hip escapes while maintaining the two-on-one grip to weaken the seat belt from multiple angles simultaneously. The combination of grip pulling and hip angle creation is far more effective than either in isolation. If the opponent tightens dramatically, wait for their next weight shift or submission attempt, which will temporarily weaken their grip structure and create a higher-percentage escape window.
-
-**Q3**: What is the critical hip movement required before attempting to turn face-down?
-**A**: A hip escape or shrimp that creates angular separation between your back and the opponent's chest. Without this hip angle, your shoulders remain flat against the mat and the opponent's chest pressure pins them in place, making rotation mechanically impossible against any resistance. The hip escape slides your hips away from the opponent while your shoulders stay relatively stationary, creating the angular leverage needed to power the face-down turn against the remaining hooks and grip pressure.
-
-**Q4**: When is the optimal timing window to initiate this escape sequence?
-**A**: The highest-percentage windows occur when the back controller commits to a submission attempt, particularly the rear naked choke. When they release the seat belt to slide the choking arm toward the neck, the grip structure is temporarily compromised. Similarly, when they adjust hooks or shift weight to set up attacks, their control is momentarily weakened. Initiating the escape during these transitional moments can increase success rates by 20-30% compared to attempting against a fully settled, non-attacking opponent.
-
-**Q5**: Your grip break succeeds but you cannot clear the bottom hook - what alternative path should you take?
-**A**: With the seat belt broken but the bottom hook still engaged, shift to a lateral escape by sliding your hips down toward the hook side and working to face the opponent from a side-lying position. Alternatively, execute a back door escape by sliding your shoulder blades down past the opponent's hips while their upper body control is compromised. The broken seat belt provides a limited window before the opponent re-establishes grips, so committing to an alternative rather than continuing to fight the hook is essential.
-
-**Q6**: How do you distinguish between this escape and the back door escape in terms of when each is optimal?
-**A**: The seat belt escape is optimal when the opponent's grip is the primary control mechanism and their hooks are manageable or partially cleared. It works best against opponents who rely heavily on the harness structure. The back door escape is optimal when the opponent's hooks are deep but their grip is loose, allowing lateral sliding movement. Choose the seat belt escape when you can effectively grip fight but cannot move your hips freely, and the back door escape when your hips have mobility but the opponent's grip is too strong for direct breaking.
-
-**Q7**: Your opponent follows your turn and transitions to mount - what went wrong in the escape execution?
-**A**: The most common cause is turning toward the opponent rather than face-down toward turtle. Turning toward them with hooks still partially engaged gives the top player a natural path to mount by following your rotation. The correction is ensuring the turn goes face-down with chest toward the mat. A secondary cause is failing to clear hooks before turning, as engaged hooks guide the opponent's legs into mount position as you rotate. Always clear at least the bottom hook before initiating the face-down turn.
-
-**Q8**: What grip configurations work best for the two-on-one control on the over-shoulder arm?
-**A**: The most effective configuration uses your near-side hand gripping the opponent's wrist with a C-grip while your far-side hand reinforces by gripping their forearm near the elbow. This dual-point control provides maximum leverage for pulling the arm across your body. In gi, gripping the sleeve at the wrist and elbow provides even stronger control. Avoid interlocking your fingers around their arm, as this limits your pulling direction and makes it harder to transition to other grips if the initial break fails.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Seat Belt Control?</p>
 
 Practice the grip-breaking sequence with progressive resistance to avoid cervical spine strain from aggressive head positioning. Communicate clearly with training partners about choking pressure levels during escape drilling, as the transition between neck defense and grip fighting creates moments of vulnerability. Avoid explosive neck movements during the turning phase. Tap immediately if a choke locks in during escape practice rather than continuing to fight through a secured submission.
 

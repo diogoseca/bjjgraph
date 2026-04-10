@@ -162,6 +162,8 @@ As the guard player facing an opponent standing up from combat base, your primar
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stand Up from Combat Base?</p>
+
 - Top player shifts grips from upper body or hip control to pant grips at your knees or ankles, signaling preparation for the stand up
 - Increased downward pressure through the top player's hands on your legs as they load weight forward before lifting
 - Top player's posted knee lightens on the mat and their hips begin rising as they initiate the elevation phase
@@ -174,6 +176,8 @@ As the guard player facing an opponent standing up from combat base, your primar
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stand Up from Combat Base?</p>
 
 - Recognize the stand-up initiation through grip changes and weight shifts before the opponent commits to the transition
 - Attack during the transition window when the opponent's base is most compromised between kneeling and standing
@@ -188,6 +192,8 @@ As the guard player facing an opponent standing up from combat base, your primar
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stand Up from Combat Base?</p>
 
 ### 1. Close guard by locking ankles behind opponent's back during their weight transition
 
@@ -225,6 +231,8 @@ As the guard player facing an opponent standing up from combat base, your primar
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stand Up from Combat Base?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time guard closure to the moment the opponent's hips shift forward during the stand up initiation. Lock your ankles behind their back before they achieve enough height to be out of range. The forward weight loading that precedes the stand up actually brings their hips closer to your legs, creating the ideal moment to close guard.
@@ -240,6 +248,8 @@ Disrupt the stand up by attacking the posted leg with a hook, single leg attempt
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stand Up from Combat Base?</p>
 
 ### 1. Allowing the opponent to stand up freely without any grip engagement or counter-attempt
 
@@ -269,6 +279,8 @@ Disrupt the stand up by attacking the posted leg with a hook, single leg attempt
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stand Up from Combat Base?</p>
+
 **Phase 1: Recognition** - Early cue detection for stand up initiation
 Partner slowly performs the stand up from combat base while the defender identifies grip changes, weight shifts, and hip elevation cues. Focus on developing both visual and tactile awareness of the transition signals. Partner provides verbal confirmation of each phase so the defender can calibrate their recognition timing.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting from combat base. Top player attemp
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a stand up from combat base?
-**A**: The earliest cue is a change in grip configuration—the opponent shifts from upper body or hip grips to pant grips at your knees or ankles. This grip change precedes the physical stand up by 1-2 seconds and signals their intention to control your legs for the transition. Secondary early cues include a forward weight shift through their hands, felt as increased downward pressure on your legs, and a subtle straightening of their posted foot as they prepare to step up.
-
-**Q2**: Your opponent begins standing and you have a collar grip—how do you use it to prevent the stand up?
-**A**: Pull strongly with the collar grip to break their posture forward and down as their hips begin to rise. The key timing is during their transition phase when their base is most compromised—pulling them forward when they are between kneeling and standing forces them to post their hands for balance, abandoning their pant grips. Combine the collar pull with a foot on their hip to create opposing forces that make it biomechanically impossible to continue rising.
-
-**Q3**: What should your immediate response be if the stand up completes successfully?
-**A**: Immediately establish a distance-management guard appropriate for a standing opponent. Place both feet on their hips to create a frame that controls distance, then fight for sleeve or pant grips. From feet-on-hips, transition to De La Riva guard by hooking one leg around their lead leg, or to collar-sleeve guard by establishing upper body grips. The critical error is remaining flat without engagement—you must establish active guard hooks and grips within 2-3 seconds or face immediate passing pressure with no structure.
-
-**Q4**: Why is closing your guard during the stand up attempt considered a favorable defensive outcome?
-**A**: Closing guard transitions from open guard—where the top player has multiple passing options and initiative—to closed guard, where the bottom player controls distance, limits passing options, and has strong submission and sweep threats. The stand up attempt creates the exact conditions needed to close guard: the opponent's weight shifts forward and their hips are momentarily accessible as they move through the transition. Capitalizing on this window eliminates the opponent's standing passing arsenal entirely.
-
-**Q5**: Your opponent has double pant grips and is pinning your knees down as they stand—how do you create defensive opportunities?
-**A**: When both knees are pinned by pant grips, you cannot insert hooks or close guard through conventional means. Instead, use your hands to break one grip using a two-on-one peel, prioritizing the grip controlling your dominant attacking leg. Once one leg is free, immediately insert a hook—either a De La Riva hook around their standing leg or a foot on their hip for distance management. If grips cannot be broken, hip escape to create an angle that makes their bilateral grip control less effective.
-
-
-
-</section>
 
 
 </main>

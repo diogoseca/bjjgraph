@@ -168,6 +168,8 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Harai Goshi?</p>
+
 - Attacker establishes a deep collar grip and begins pulling your head and upper body forward and downward with increasing urgency - this kuzushi phase precedes every Harai Goshi attempt
 - Attacker's lead foot steps across your centerline and plants outside your foot, indicating the initial hip entry step that creates the throwing angle
 - You feel the attacker's back and hips rotating into contact with your front torso as they begin the 180-degree hip rotation characteristic of the throw
@@ -180,6 +182,8 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Harai Goshi?</p>
 
 - Deny the dominant collar grip - without deep collar control, the attacker cannot generate sufficient kuzushi for a clean entry
 - Maintain low athletic stance with hips below the attacker's potential entry line to prevent them from achieving the necessary hip depth
@@ -194,6 +198,8 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Harai Goshi?</p>
 
 ### 1. Drop hips and widen stance while breaking the collar grip with a two-on-one strip
 
@@ -238,6 +244,8 @@ Defending Harai Goshi requires understanding the throw's sequential mechanics so
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Harai Goshi?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the throw at its setup phase by breaking the dominant collar grip through two-on-one grip stripping, maintaining low stance to prevent the attacker from getting their hips below yours, and actively circling away from the throwing direction. When the attacker steps in for the hip entry, immediately post your near hand on their hip to prevent rotation while stepping your threatened leg backward. Successful early defense returns the exchange to neutral standing where you retain equal offensive opportunity.
@@ -253,6 +261,8 @@ Counter the committed throw with Tani Otoshi or Ura Nage by timing your counter-
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Harai Goshi?</p>
 
 ### 1. Pulling straight backward away from the throw instead of circling or driving hips forward
 
@@ -287,6 +297,8 @@ Counter the committed throw with Tani Otoshi or Ura Nage by timing your counter-
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Harai Goshi?</p>
+
 **Phase 1: Recognition Drilling (Weeks 1-2)** - Identifying Harai Goshi setup cues in real time
 Partner performs the Harai Goshi setup sequence at 25% speed and stops at each phase: grip establishment, kuzushi pull, lead foot placement, and hip rotation. You verbally call out each phase as you recognize it. Progress to 50% speed where you must tap your partner's hip the moment you recognize the entry step. This builds the pattern recognition necessary for all subsequent defensive responses. 15-20 recognition reps per session.
 
@@ -306,29 +318,6 @@ Full standup sparring where partner specifically includes Harai Goshi in their a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to deny when defending against Harai Goshi, and why?
-**A**: The deep collar grip on the throwing side is the most critical grip to deny. This grip provides the attacker with the ability to break your posture forward (kuzushi), control the rotational direction of your upper body during the throw, and maintain connection through the descent for follow-up positioning. Without this grip, the attacker cannot generate the forward off-balancing needed to commit your weight onto your toes, making the hip entry ineffective. Strip this grip immediately using a two-on-one peel whenever it is established, and maintain active hand fighting to prevent its re-establishment.
-
-**Q2**: Your opponent has achieved full hip contact and begun the sweeping action - what are your remaining defensive options at this late stage?
-**A**: At this late stage, your options are limited but not zero. First, you can attempt to hop over the sweeping leg by lifting your threatened leg and stepping over their sweep - this requires excellent timing and balance but can completely nullify the throw. Second, you can commit to a sacrifice counter-throw like Tani Otoshi by sitting backward into the attacker while controlling their upper body, using their committed rotation against them. Third, you can pull guard by wrapping your legs around their waist before they complete the rotation, denying takedown points and transitioning to your ground game. The worst option is to fight the throw with upper body strength alone, as the biomechanical advantage is entirely with the attacker at this point.
-
-**Q3**: How should your stance differ when you anticipate a Harai Goshi attempt compared to your normal standing fighting posture?
-**A**: When anticipating Harai Goshi, you should lower your center of gravity by increasing knee bend approximately 10-15 degrees beyond your normal stance, making it harder for the attacker to get their hips below yours. Widen your base slightly to increase lateral stability against the rotational force. Shift your weight slightly more to your rear foot to resist forward pulling, but not so much that you become vulnerable to foot sweeps. Your lead hand should be more active in blocking the collar grip path rather than seeking offensive grips. Keep your elbows closer to your body to prevent the attacker from using arm levers to amplify their pull. The key difference is a more defensive, lower posture that prioritizes base maintenance over offensive grip acquisition.
-
-**Q4**: Your training partner attempts Harai Goshi and you successfully step your leg backward to avoid the sweep, but they maintain their grips - what should you do next?
-**A**: You are in a momentary advantage because the attacker is off-balance from the failed throw with their weight committed forward and their sweeping leg out of position. Immediately capitalize by establishing your own dominant grip configuration before they can recover their stance. Attack with Osoto Gari or Kouchi Gari targeting their posted leg while they are still retracting their sweeping leg and re-establishing base. Alternatively, use a snap-down to collapse their already-compromised forward posture into a front headlock position. The critical principle is to attack immediately during their recovery window rather than simply resetting to neutral, as the failed throw creates a 1-2 second vulnerability that diminishes rapidly as they regain their stance.
-
-**Q5**: Why is circling laterally more effective than pulling straight backward when defending Harai Goshi?
-**A**: Harai Goshi generates force in a forward-rotational direction - the attacker pulls you forward while simultaneously sweeping your leg and rotating you over their hip. Pulling straight backward feeds directly into this force vector because the attacker is already pulling you forward, and your backward resistance becomes part of the push-pull dynamic they are exploiting. Circling laterally, by contrast, moves you perpendicular to the throwing direction, which removes your body from the rotational path without contributing to the off-balancing force. Specifically, circling away from the sweeping leg side means the attacker must abandon their hip position and re-angle, giving you time to break grips and reset. Lateral movement also makes it significantly harder for the sweeping leg to make contact with your leg, as the target is moving sideways rather than staying in the sweep path.
-
-
-
-</section>
 
 
 </main>

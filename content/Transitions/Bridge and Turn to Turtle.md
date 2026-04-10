@@ -210,7 +210,7 @@ The Bridge and Turn to Turtle occupies a critical role in the North-South escape
 
 - [[Transitions/Hip Escape to Guard]] - Alternative escape option from North-South using hip movement to recover guard
 
-- [[Transitions/Kimura]] - Submission threat from top that creates timing windows for the escape
+- [[Submissions/Kimura]] - Submission threat from top that creates timing windows for the escape
 
 - [[Transitions/North-South Choke]] - Submission threat to recognize during escape timing decisions
 

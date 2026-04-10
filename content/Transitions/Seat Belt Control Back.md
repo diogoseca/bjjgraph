@@ -200,13 +200,13 @@ Seat Belt Control Back serves as the critical link between mounted crucifix domi
 
 - [[Positions/Back Control]] - Target position - full back control with hooks or body triangle is the destination
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission once back control is established
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission once back control is established
 
 - [[Transitions/Body Triangle Lock]] - Alternative lower body control option upon completing the transition
 
 - [[Transitions/Armbar from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
-- [[Transitions/Choke from Crucifix]] - Alternative attack from the starting position instead of transitioning
+- [[Submissions/Choke from Crucifix]] - Alternative attack from the starting position instead of transitioning
 
 - [[Positions/Mount/High Mount]] - Common entry path leading to mounted crucifix before this transition
 

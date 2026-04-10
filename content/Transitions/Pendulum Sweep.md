@@ -37,7 +37,7 @@ The Pendulum Sweep is a fundamental and highly effective attack from closed guar
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 75% |
 | Failure | [[Positions/Closed Guard]] | 15% |
-| Counter | [[Positions/Closed Guard]] | 10% |
+| Counter | [[Positions/Open Guard]] | 10% |
 
 
 </section>
@@ -201,11 +201,11 @@ The Pendulum Sweep is a cornerstone technique in the closed guard bottom attacki
 
 - [[Transitions/Flower Sweep]] - Follow-up option when opponent defends by basing out
 
-- [[Submissions/Triangle from Closed Guard]] - Setup technique that creates posting reaction for sweep
+- [[Transitions/Triangle Setup]] - Setup technique that creates posting reaction for sweep
 
-- [[Submissions/Kimura from Guard]] - Alternative attack when opponent posts arm during sweep
+- [[Transitions/Kimura Sweep]] - Alternative attack when opponent posts arm during sweep
 
-- [[Submissions/Omoplata from Guard]] - Follow-up submission when pendulum leg is over posted arm
+- [[Transitions/Omoplata Sweep]] - Follow-up submission when pendulum leg is over posted arm
 
 - [[Transitions/Elevator Sweep]] - Similar sweeping mechanics using leg leverage
 

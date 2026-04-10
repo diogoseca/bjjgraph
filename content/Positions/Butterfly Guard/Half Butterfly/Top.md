@@ -169,6 +169,8 @@ The top player must establish upper body control first through crossface or unde
 
 ## Position Definition
 
+<p class="section-subtitle">What is Half Butterfly (Top)?</p>
+
 - Top player has passed to one side with upper body control while bottom player maintains one butterfly hook on the opposite side
 - Top player's weight is distributed forward with chest pressure on bottom player's upper body, hips driving toward the mat to reduce hook effectiveness
 - Bottom player is on their back or side with one leg creating butterfly hook insertion under top player's thigh while other leg is controlled or passed
@@ -181,6 +183,8 @@ The top player must establish upper body control first through crossface or unde
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Half Butterfly (Top)?</p>
+
 - Partial pass of butterfly guard with one side cleared
 - Control of bottom player's upper body through crossface, underhook, or collar grips
 - Bottom player retains one functional butterfly hook
@@ -192,6 +196,8 @@ The top player must establish upper body control first through crossface or unde
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Half Butterfly?</p>
 
 - Keep weight distributed forward onto bottom player's chest to reduce butterfly hook's lifting effectiveness
 - Control the near-side arm with underhook or overhook to prevent bottom player from creating frames
@@ -207,6 +213,8 @@ The top player must establish upper body control first through crossface or unde
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Half Butterfly (Top)?</p>
 
 **If bottom player extends butterfly hook for sweep attempt:**
 - Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 65%)
@@ -235,6 +243,8 @@ The top player must establish upper body control first through crossface or unde
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Half Butterfly?</p>
 
 ### 1. Standing too upright with weight off bottom player's chest
 
@@ -274,6 +284,8 @@ The top player must establish upper body control first through crossface or unde
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Half Butterfly attacks?</p>
+
 ### Pressure Maintenance Drill
 
 Bottom player maintains one butterfly hook while top player practices maintaining forward pressure and preventing hook effectiveness. Focus on weight distribution, chest pressure, and hip positioning. Bottom player provides progressive resistance, attempting to sweep when top player's pressure weakens.
@@ -306,38 +318,6 @@ Top player maintains half butterfly top while bottom player randomly chooses bet
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical weight distribution adjustment to neutralize the butterfly hook's lifting power?
-**A**: Drive your chest forward and down onto the bottom player's upper body while keeping your hips low and heavy. This shifts the load away from the hook's optimal leverage point near the thigh and distributes your weight where the bottom player's structural support is weakest. Avoid sitting upright, which allows the hook to engage fully and generate maximum elevation.
-
-**Q2**: Your opponent begins to elevate with their butterfly hook - what immediate adjustment prevents the sweep?
-**A**: Immediately widen your base by spreading your knees outward while driving your hips forward toward the mat. Simultaneously apply heavier chest pressure and drive your shoulder across their face with a crossface. This combination removes space for the hook to generate lift and pins their upper body, killing the sweep before momentum builds.
-
-**Q3**: What are the essential grips and control points for maintaining half butterfly top position?
-**A**: The primary controls are crossface pressure controlling their head position, underhook or overhook on the near-side arm to prevent framing, and control of the far hip or leg to prevent guard recovery. The crossface is paramount as it limits their ability to turn into you and generate sweeping angles. Secondary control includes using your chest as a connection point to feel their movements.
-
-**Q4**: How do you shut down the bottom player's primary escape route to deep half guard?
-**A**: Keep your hips heavy and your inside knee positioned to block their head from diving underneath you. When you feel them attempting to turn away and shoot their outside arm under your hips, immediately sprawl your hips back and drive weight forward to flatten them. Maintaining constant chest pressure prevents them from creating the angle needed to enter deep half.
-
-**Q5**: What base errors most commonly lead to being swept from half butterfly top?
-**A**: The three most common base errors are: keeping knees too close together which creates a narrow platform easily tipped by hook elevation, allowing hips to rise above shoulder level which shifts your center of gravity above the hook's fulcrum point, and posting weight on your hands instead of distributing through your chest and hips. Each error gives the hook maximum mechanical advantage for sweeps.
-
-**Q6**: The bottom player gets an underhook and starts coming up - what technique chain prevents the sweep?
-**A**: When they establish the underhook and begin to elevate, immediately circle toward their back while maintaining head position. If they continue rising, transition to the Underhook Pass by driving your overhook deep, sprawling your hips away, and using your head to drive them back down. If they collapse back, immediately return to heavy pressure and restart your passing sequence.
-
-**Q7**: How do you manage energy expenditure while maintaining pressure in this position?
-**A**: Use skeletal structure rather than muscular effort to maintain pressure - let your bodyweight work through proper alignment rather than actively pushing. Keep your hips low so you're driving weight downward naturally. Avoid constant movement; instead, settle into pressure and wait for their reactions to guide your passing. Move in response to their attempts rather than initiating constantly.
-
-**Q8**: Your opponent partially recovers butterfly guard by inserting their second hook - how do you recover control?
-**A**: Immediately address the new hook by driving your hips toward the mat on that side and using your knee or shin to block the hook's elevation. Reestablish crossface pressure and work to clear one hook at a time by swimming your leg over or backstopping around it. Do not try to pass through double hooks - retreat slightly if needed to reset with only one hook engaged.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

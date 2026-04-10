@@ -173,6 +173,8 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Grasshopper Guard (Bottom)?</p>
+
 - Bottom player's shoulders and upper back remain in contact with the mat, creating a stable inverted base despite the unorthodox positioning. The shoulder blades provide the primary support structure, allowing the hips to elevate freely above torso level.
 - Hips maintain significant elevation above the mat throughout the position, typically positioned at chest height or higher relative to the opponent. This elevation is actively sustained through core engagement rather than passive positioning, enabling rapid adjustment and explosive movement.
 - At least one leg maintains active engagement with opponent's lower body - either hooking behind the knee, controlling the ankle, or threading between the legs. This leg contact serves as both control mechanism and attacking pathway, preventing disengagement while threatening entanglements.
@@ -184,6 +186,8 @@ The position requires significant flexibility and conditioning. Your ability to 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Grasshopper Guard (Bottom)?</p>
 
 - Comfortable with inverted positioning and able to maintain shoulder-based balance
 - Sufficient core strength to elevate and hold hips above torso level for multiple seconds
@@ -199,6 +203,8 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Grasshopper Guard?</p>
+
 - Inversion is a weapon, not a resting position - constant movement toward submission or sweep
 - Hip elevation creates the leverage necessary for both offensive techniques
 - Leg configurations must flow dynamically based on opponent's base and reactions
@@ -213,6 +219,8 @@ The position requires significant flexibility and conditioning. Your ability to 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Grasshopper Guard (Bottom)?</p>
 
 **Opponent stands tall with wide base, attempting to disengage:**
 - Execute **[[Transitions/Technical Standup from Inversion/Attacker|Technical Standup from Inversion]]** → [[Positions/Standing Position]] (Probability: 65%)
@@ -241,6 +249,8 @@ The position requires significant flexibility and conditioning. Your ability to 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Grasshopper Guard?</p>
 
 ### 1. Remaining static in inverted position without threatening attacks
 
@@ -280,6 +290,8 @@ The position requires significant flexibility and conditioning. Your ability to 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Grasshopper Guard defense?</p>
+
 ### Inverted Hip Elevation Hold
 
 Partner stands in front while you establish grasshopper position. Hold inverted posture with hips elevated for 20-second intervals, maintaining shoulder base and leg engagement. Partner provides light pressure to test stability. Focus on core endurance and proper positioning.
@@ -312,38 +324,6 @@ Partner initiates various pass attempts from standing. Your job is to recognize 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins back stepping to escape your leg control - what adjustment do you make?
-**A**: Follow their movement by re-inverting and rolling toward the direction they're stepping. As they back step, their trailing leg becomes vulnerable - shoot your legs to follow and reestablish contact on this leg. The key is anticipating the back step and initiating your roll slightly before they complete their motion, maintaining leg connection throughout the transition.
-
-**Q2**: What are the essential body mechanics for maintaining hip elevation in grasshopper guard?
-**A**: Engage your core continuously with emphasis on lower abdominals and hip flexors. Distribute your weight across both shoulder blades for a stable platform. Think of driving your hips toward the ceiling rather than just lifting them. Your legs should remain active and dynamic rather than static, as the movement helps maintain elevation through momentum.
-
-**Q3**: How do you recover when your hips start dropping due to fatigue?
-**A**: Transition immediately rather than fighting to maintain the failing position. Convert to a more sustainable guard like closed guard via Granby roll, or come up to seated guard or standing guard. Attempting to force grasshopper when core is fatigued leads to being flattened and passed. Use the last of your hip elevation to initiate a sweep or submission attempt before transitioning.
-
-**Q4**: What leg configuration should you prioritize when first inverting into grasshopper?
-**A**: Establish at least one hook behind the opponent's knee or control on their ankle before completing your inversion. This ensures you maintain connection and prevents them from simply walking away. The primary leg creates the anchor while the secondary leg is free to thread for entanglements or provide additional sweep leverage.
-
-**Q5**: Your opponent is standing tall with a wide base - how do you attack from this position?
-**A**: Their tall posture with wide base is defensive and hard to sweep directly. Options include using a technical standup from inversion to reach standing position, following with rolling ankle lock entries as they attempt to disengage, or waiting for them to narrow their base or step forward before attacking. Patience is key - their defensive posture cannot threaten you.
-
-**Q6**: How do you manage energy expenditure to avoid position collapse from exhaustion?
-**A**: Use grasshopper in 10-15 second bursts maximum. Enter with a specific attack path in mind and commit fully to that path. If the attack fails or is defended, immediately transition to a sustainable position like seated guard or De La Riva rather than trying to reset in grasshopper. Think of grasshopper as a transitional hunting position, not a place to hold and wait.
-
-**Q7**: Your opponent drives forward with a stack pass - what counter do you employ?
-**A**: Execute a Granby roll to guard recovery by rolling your shoulders and allowing their forward pressure to carry them over you. As you roll, your legs naturally retract and can reset to closed guard or other defensive guard. Alternatively, if you detect the stack early, convert their forward momentum into an X-guard elevation sweep by shooting your legs into their hips.
-
-**Q8**: What visual cues should you track while in the inverted grasshopper position?
-**A**: Keep your chin tucked but eyes up, tracking opponent's hips and upper body simultaneously. Watch for hip shifts indicating they're about to step or circle, weight transfers suggesting sweep opportunities, and their foot positioning relative to your leg hooks. Your peripheral vision should also monitor your own leg positioning to ensure you maintain contact.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

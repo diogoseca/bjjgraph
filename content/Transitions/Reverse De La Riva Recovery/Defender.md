@@ -156,6 +156,8 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse De La Riva Recovery?</p>
+
 - Bottom player begins hip escape (shrimping) movement away from you, creating angle between their hips and yours
 - Bottom player establishes or strengthens frames against your hip, knee, or shoulder to create distance
 - Bottom player's inside leg begins threading motion underneath your near leg, seeking to re-establish the RDLR hook
@@ -168,6 +170,8 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse De La Riva Recovery?</p>
 
 - Maintain constant forward pressure to deny the hip escape space needed for hook reinsertion
 - Control the bottom player's near-side hip to restrict their shrimping motion and rotational angle creation
@@ -183,6 +187,8 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse De La Riva Recovery?</p>
 
 ### 1. Drive shoulder pressure forward and establish crossface to flatten the bottom player
 
@@ -220,6 +226,8 @@ The defender's strategic framework centers on three pillars: pressure consolidat
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse De La Riva Recovery?</p>
+
 ### → [[Positions/Side Control]]
 
 Maintain relentless forward pressure while denying the hip escape angle. Use crossface to flatten their upper body, control their near-side knee to block hook reinsertion, and complete your original passing sequence before they can rebuild guard structure. The key is acceleration—do not pause when you feel them beginning recovery movements.
@@ -235,6 +243,8 @@ Even if you cannot complete the pass immediately, deny the RDLR hook reinsertion
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse De La Riva Recovery?</p>
 
 ### 1. Pausing or relaxing pressure after partially clearing the RDLR guard
 
@@ -264,6 +274,8 @@ Even if you cannot complete the pass immediately, deny the RDLR hook reinsertion
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse De La Riva Recovery?</p>
+
 **Week 1-2: Recognition and Timing Development** - Learning to feel recovery initiation from top position
 Partner starts in compromised RDLR and begins recovery sequences at slow speed. Top player practices identifying the hip escape initiation, frame establishment, and hook threading motion. Focus on developing tactile sensitivity for when recovery begins rather than visual recognition alone.
 
@@ -280,26 +292,6 @@ Extended rolling rounds where passing RDLR is the primary focus. Develop the abi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical window for preventing RDLR recovery as the top player?
-**A**: The critical window is the moment immediately after you clear the RDLR hook or strip a primary grip. This is when the bottom player's guard structure is at its weakest, but they will immediately begin recovery movements (frames, hip escape, hook threading). You must accelerate your passing progression during this window rather than pausing to consolidate. Every second of delay increases their recovery probability significantly because the hip escape only needs a few inches of space to begin the hook reinsertion sequence.
-
-**Q2**: Why is controlling the bottom player's near-side knee essential for preventing recovery?
-**A**: The near-side knee is the gateway through which the RDLR hook reinserts. When their inside leg threads underneath your near leg, it passes through the space at knee level. Controlling their knee with your hand or pinning it with your leg physically blocks this threading lane, making hook recovery mechanically impossible regardless of how well they hip escape. Without addressing this control point, even excellent shoulder pressure cannot prevent a skilled guard player from sneaking the hook back into position.
-
-**Q3**: Your opponent begins a strong hip escape during your pass attempt—should you follow their movement or cut the angle?
-**A**: Cut the angle rather than following their movement. Chasing their hip escape means you are always behind their movement, circling without consolidating position. Instead, drive your shoulder pressure diagonally across their centerline toward the direction they are escaping. This collapses the space they are trying to create and prevents the angle formation needed for hook reinsertion. Think of it as driving through them rather than around them—your pressure should meet them where they are going, not where they were.
-
-**Q4**: How do you identify whether the bottom player is attempting RDLR recovery versus transitioning to a completely different guard?
-**A**: RDLR recovery is characterized by the inside leg threading motion underneath your near leg, hip escape away from you to create hook reinsertion angle, and their outside hand reaching for your near-side pants. If instead you see them sitting up with both legs pulling in (butterfly transition), posting on a far hip (seated guard), or extending both legs to push you away (open guard reset), they are transitioning to a different guard. The distinction matters because each requires different counter-passing responses—RDLR recovery demands near-leg control while guard transitions may require different pressure angles.
-
-
-
-</section>
 
 
 </main>

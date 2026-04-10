@@ -16,7 +16,7 @@
   "from_position": "North-South/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "North-South Choke",
       "probability": 55,
       "result": "success"
     },

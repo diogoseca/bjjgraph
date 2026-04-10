@@ -188,6 +188,8 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Seat Belt to Full Back Control?</p>
+
 - Maintain seat belt grip integrity throughout the entire hook insertion sequence—never sacrifice upper body control for leg positioning
 - Insert the bottom hook first as the default sequence since it anchors hip control and prevents the defender's primary escape direction
 - Use chest-to-back pressure to compensate for momentary leg adjustment by increasing forward drive during hook threading
@@ -202,6 +204,8 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Seat Belt to Full Back Control?</p>
+
 - Seat belt grip firmly established with hands connected (gable grip, wrist grab, or palm cup) across defender's chest or lat area
 - Chest pressed tightly against defender's back with constant forward pressure eliminating space between torsos
 - Hips positioned close to defender's hips with at least one leg aligned for hook threading between their thighs
@@ -214,6 +218,8 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Seat Belt to Full Back Control step by step?</p>
 
 1. **Stabilize seat belt control**: Before attempting any hook insertion, verify that your seat belt grip is secure with hands firmly connected, chest is pressed tight against the defender's back with zero space, and your hips are aligned close to the defender's hips. Increase forward pressure slightly to pin the defender's shoulders forward and limit their defensive mobility. This stabilization phase establishes the control foundation that must persist throughout the entire hook insertion sequence.
 2. **Position bottom leg for first hook**: Angle your bottom leg (the leg closest to the mat) so that your knee points toward the space between the defender's thighs from underneath. Your foot should be positioned near the defender's near-side hip crease, ready to thread between their legs. Keep your top leg posted for base and stability while you position the bottom leg. This preparatory positioning should be subtle—large leg movements telegraph the intention and trigger defensive leg clamping.
@@ -243,6 +249,8 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Seat Belt to Full Back Control?</p>
+
 - **Defender clamps knees together to block hook insertion between thighs** (Effectiveness: High) - Your Response: Use your top leg as a lever by placing your knee on top of the defender's thigh and prying their legs apart with downward pressure. Alternatively, use a pulsing pressure technique—squeeze the seat belt grip tight to distract their upper body attention, then thread the hook during the defensive distraction. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
 - **Defender explosively turns hips during hook insertion attempt to create space for escape** (Effectiveness: High) - Your Response: Immediately abandon the hook attempt and reinforce seat belt grip by tightening chest-to-back pressure and following their hip movement with your body. Re-stabilize the seat belt control position before attempting hook insertion again. Chasing the hook during explosive movement risks losing the entire position. → Leads to [[Positions/Half Guard]]
 - **Defender reaches back to grab your legs or feet to prevent hook insertion** (Effectiveness: Medium) - Your Response: When the defender's hands leave neck defense to fight your legs, immediately threaten the rear naked choke by sliding your choking arm toward their exposed neck. This forces them to choose between blocking hooks and defending the choke—they cannot do both simultaneously. Insert hooks when hands return to neck defense. → Leads to [[Positions/Back Control/Seat Belt Control Back]]
@@ -254,6 +262,8 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Seat Belt to Full Back Control?</p>
 
 ### 1. Releasing seat belt grip pressure to focus on leg positioning during hook insertion
 
@@ -293,6 +303,8 @@ As the attacker executing Seat Belt to Full Back Control, your objective is conv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Seat Belt to Full Back Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hook insertion sequence without resistance
 Practice the bottom-hook-first insertion sequence with a cooperative partner. Focus on maintaining seat belt pressure throughout, threading each hook to full depth, and completing the consolidation check after both hooks are in. Perform 20 repetitions per side with zero resistance to build the motor pattern.
 
@@ -313,42 +325,12 @@ Begin from turtle and practice the full sequence: back take entry to seat belt e
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should you insert the bottom hook first rather than the top hook when consolidating back control from seat belt?
-**A**: The bottom hook should be inserted first because it has a natural entry angle from the mat-side position and immediately anchors hip control that prevents the defender's primary escape—sliding their hips to the mat and turning away. The bottom hook also provides a stable base from which to insert the top hook, whereas inserting the top hook first leaves the bottom side uncontrolled where the defender can most easily create separation by dropping their hips to the mat.
-
-**Q2**: Your defender clamps their knees together tightly when you attempt to thread your first hook—what is your response?
-**A**: Do not force the hook against the clamp. Instead, use your top knee as a prying lever by placing it on top of the defender's upper thigh and driving downward pressure to separate their legs. Alternatively, threaten the rear naked choke by sliding your choking arm toward their neck—when their hands move to defend the choke, their legs typically loosen, creating the hook insertion window. The key is making them solve a problem with their hands that forces their legs to relax.
-
-**Q3**: What is the most critical mechanical detail for ensuring an inserted hook is not immediately cleared?
-**A**: Hook depth is the most critical detail. The heel must pass the midline of the defender's thigh with the instep pressing firmly against the inner thigh muscle. A deep hook requires the defender to create significant space and use both hands to clear, which compromises their neck defense. Shallow hooks near the knee can be cleared with simple knee-together motion and minimal effort. After insertion, apply constant inward calf pressure to maintain depth and resist clearing attempts.
-
-**Q4**: During hook insertion, your defender explosively bridges and turns their hips—how do you prevent losing the position entirely?
-**A**: Immediately abandon the hook attempt and prioritize seat belt grip maintenance. Drive your chest forward following their movement, drop your weight low toward their hips, and tighten the seat belt grip to prevent any further rotation. Do not chase the hook during explosive movement—this creates space that accelerates the escape. Re-stabilize the seat belt control position completely, wait for the defender to settle, then reattempt hook insertion during the post-escape stillness window.
-
-**Q5**: What grip configuration provides the best seat belt security during the hook insertion transition?
-**A**: The gable grip (palm-to-palm with fingers interlocked) provides the strongest seat belt connection during hook insertion because it resists separation from multiple angles without requiring grip strength maintenance. The wrist-on-wrist grab is the second option, offering slightly less strength but better ability to quickly release one hand for choke threats. The key is that whichever grip you use must be maintained without conscious attention during the insertion—your hands maintain position automatically while your focus shifts to leg threading.
-
-**Q6**: How does the defender's body position change the hook insertion strategy—what do you do differently against a turtled versus a flat defender?
-**A**: Against a turtled defender (knees under them, weight on hands and knees), use the top-hook-first variation by swinging your leg over their hip since the bottom hook entry is blocked by the mat and their tucked legs. Against a flat defender (lying on their side or stomach), use the standard bottom-hook-first approach since the bottom leg has natural access between their thighs from the mat-side angle. Against a defender on their side, adjust by inserting the hook on the exposed side first.
-
-**Q7**: What is the optimal timing window for attempting hook insertion during back control?
-**A**: The optimal window is the 1-2 second stillness period immediately after the defender completes an unsuccessful escape attempt and resets their defensive position. During this reset, the defender's muscular tension decreases as they transition from explosive effort back to static defense, their mental attention shifts from executing an escape to planning the next attempt, and their leg positioning may be slightly opened from the failed escape. Secondary windows occur when the defender's hands are occupied with grip fighting on the seat belt rather than clamping their legs.
-
-**Q8**: You have successfully inserted your bottom hook but the defender immediately begins fighting it—should you continue with the top hook insertion or re-secure the bottom hook first?
-**A**: Re-secure the bottom hook first by applying strong inward calf pressure and driving the hook deeper while using seat belt pressure to limit the defender's ability to generate force against it. A poorly anchored first hook that gets cleared during second hook insertion leaves you with nothing and a compromised position. Only proceed to the top hook once the bottom hook is deep, stable, and the defender has stopped actively fighting it. The sequential approach demands that each step is completed before advancing.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Seat Belt to Full Back Control?</p>
 
 Seat Belt to Full Back Control is a positional transition with low injury risk compared to submissions, but practitioners should be aware of several safety factors. The seat belt grip can create rib compression discomfort when combined with aggressive chest-to-back pressure—adjust intensity during drilling to prevent rib bruising. Hook insertion should be performed with controlled foot placement rather than aggressive stamping that could strike the defender's groin or inner thigh. During live training, the defender should tap if rib compression or breathing restriction from combined seat belt and hook pressure becomes excessive rather than enduring dangerous levels of pressure. Partners should communicate clearly about intensity levels during positional sparring from this configuration.
 

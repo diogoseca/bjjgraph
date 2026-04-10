@@ -166,6 +166,8 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Smash Pass?</p>
+
 - Top player drives near-side shoulder across your face and threads forearm under your chin, indicating crossface establishment
 - Top player begins pushing your knee shield down with their free hand while driving hips forward, signaling knee shield clearing phase
 - Top player walks their hips toward your head while increasing shoulder pressure, indicating flattening progression
@@ -178,6 +180,8 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Smash Pass?</p>
 
 - Maintain side angle at all costs - being flattened onto your back is the single most critical failure point against the smash pass
 - Establish and maintain knee shield or butterfly hook frames to prevent chest-to-chest connection before crossface is established
@@ -192,6 +196,8 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Smash Pass?</p>
 
 ### 1. Establish and maintain strong knee shield with forearm frame against opponent's neck
 
@@ -229,6 +235,8 @@ Advanced defenders use the smash pass attempt as an opportunity rather than simp
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Smash Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Maintain persistent frames and knee shield to stall the pass completely, then use the attacker's frustration or weight commitment to execute a sweep reversal. Time your hip escapes during their leg extraction attempts to recover stronger guard positioning.
@@ -244,6 +252,8 @@ Win the underhook battle early and use it to prevent flattening, then threaten b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Smash Pass?</p>
 
 ### 1. Remaining flat on your back without fighting to maintain side angle
 
@@ -278,6 +288,8 @@ Win the underhook battle early and use it to prevent flattening, then threaten b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Smash Pass?</p>
+
 **Week 1-2: Frame Recognition and Maintenance** - Building automatic framing responses to crossface and pressure
 Partner applies smash pass pressure at 30-40% intensity. Focus exclusively on creating and maintaining defensive frames - knee shield, forearm on neck, hip frame. Do not attempt escapes yet. Build the muscle memory for frame placement and the sensitivity to recognize when pressure is coming. Hold defensive structure for 30-second intervals before resetting.
 
@@ -294,29 +306,6 @@ Partner applies full smash pass at 80% intensity. Practice incorporating offensi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive priority when your opponent initiates a smash pass from half guard top?
-**A**: The single most important priority is maintaining your side angle and preventing being flattened onto your back. Once your shoulders are pinned flat to the mat, the top player's crossface pressure becomes maximally effective and your hip mobility is severely compromised. All subsequent defensive options depend on maintaining enough side angle to create frames, generate hip escape movement, and threaten offensive counters. Fighting to stay on your side should take priority over every other defensive action.
-
-**Q2**: Why is passive guard retention ineffective against a well-executed smash pass?
-**A**: Passive guard retention fails because the smash pass is specifically designed to systematically dismantle static defensive structures through incremental pressure. A passive defender allows the top player to address one frame at a time without urgency - clearing the knee shield, then establishing crossface, then flattening, then controlling the inside leg. Without offensive threats forcing the top player to react defensively, they can dedicate full attention to each passing stage. Active offense through sweep attempts and back take entries creates dilemmas that disrupt the passer's methodical progression.
-
-**Q3**: Your opponent has established a deep crossface and is beginning to flatten you - what is your highest-percentage defensive response?
-**A**: With a deep crossface already established, your highest-percentage response is to frame against their far hip with your near-side arm while hip escaping away from them to create enough space to re-insert your knee shield. Simultaneously, use your far-side hand to fight the crossface at their wrist or forearm. If you cannot strip the crossface, transitioning to deep half guard by ducking under their chest and securing their far leg gives you a new defensive platform with strong sweep options. The key is acting immediately rather than accepting the flattened position.
-
-**Q4**: When during the smash pass sequence is the top player most vulnerable to being swept?
-**A**: The top player is most vulnerable during two specific moments: first, when they commit their free hand to push down your knee shield, because this removes one of their posting points and narrows their base. Second, during the leg extraction phase when they shift weight backward to walk their trapped leg free, which compromises their forward pressure and creates a gap in their control. Both moments involve the top player transitioning between control positions, temporarily reducing their base stability and creating windows for sweep entries.
-
-**Q5**: How does the defensive approach differ when facing a smash pass versus a dynamic knee slice pass from half guard?
-**A**: Against the smash pass, defense centers on preventing the crossface, maintaining side angle, and using frames to manage the slow progressive pressure. The defender has more time to react but must be proactive to avoid being incrementally crushed. Against the knee slice, defense requires faster reactions because the pass uses speed and angle changes rather than pressure. Knee slice defense focuses on blocking the knee cut with frames at the hip and maintaining inside leg hooks to prevent the knee from crossing. The smash pass defender needs endurance and frame management; the knee slice defender needs timing and hip mobility.
-
-
-
-</section>
 
 
 </main>

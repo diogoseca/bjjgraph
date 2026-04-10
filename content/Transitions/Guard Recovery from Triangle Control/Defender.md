@@ -156,6 +156,8 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Recovery from Triangle Control?</p>
+
 - Top player begins driving their hips forward and straightening their spine to establish upright posture against your triangle
 - Top player's free hand reaches for your locking ankle, indicating they are attempting to control the tightness of the triangle configuration
 - Top player begins walking their knees toward the trapped arm side, indicating the critical rotation that opens the choking angle
@@ -167,6 +169,8 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Recovery from Triangle Control?</p>
 
 - Maintain constant head control using your hands to pull the opponent's head toward your hip, denying the posture that relieves choking pressure
 - Re-angle your hips continuously to maintain optimal choking position as the opponent rotates toward their trapped arm side
@@ -181,6 +185,8 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Recovery from Triangle Control?</p>
 
 ### 1. Pull the opponent's head down with both hands while squeezing knees together and curling your hips upward to re-tighten the triangle angle
 
@@ -211,6 +217,8 @@ As the bottom player maintaining triangle control, your opponent's escape attemp
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Recovery from Triangle Control?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Maintain constant head control and hip angle adjustments to prevent the posture establishment and arm extraction that enable the escape, keeping the top player trapped in the submission-threatening triangle configuration
@@ -230,6 +238,8 @@ When the opponent rotates significantly toward the trapped arm side, use their r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Recovery from Triangle Control?</p>
 
 ### 1. Relying solely on squeeze strength rather than angle management to maintain the triangle
 
@@ -254,6 +264,8 @@ When the opponent rotates significantly toward the trapped arm side, use their r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Recovery from Triangle Control?</p>
+
 **Phase 1: Triangle Angle Maintenance** - Maintaining optimal choking angle against posture and rotation attempts
 Lock triangle at 30% squeeze. Partner attempts to posture up and rotate while you practice hip angle adjustments and head control to maintain the triangle configuration. Focus on using minimal energy to maintain position through proper angle rather than muscular squeeze.
 
@@ -267,29 +279,6 @@ Partner works triangle escape at 80% resistance while you practice maintaining t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanism that makes the triangle choke effective, and how does the escape attack this mechanism?
-**A**: The triangle choke works by compressing the trapped shoulder into one carotid artery while the thigh compresses the other carotid artery, creating bilateral blood flow restriction to the brain. The escape attacks this mechanism by moving the trapped arm across the centerline, removing the shoulder from its position against the carotid artery. Once the shoulder crosses the midline, the compression is unilateral only and the choke cannot be finished, regardless of squeeze pressure.
-
-**Q2**: When should you transition from maintaining the triangle to attacking the armbar instead?
-**A**: Transition to the armbar when the opponent's trapped arm has crossed your centerline and the choking angle is compromised beyond recovery through re-adjustment. At this point, continuing to fight for the triangle wastes energy on a position that can no longer produce the bilateral compression needed for the choke. The armbar transition uses the opponent's partially extracted arm as the target, catching them during the moment when they believe they are escaping successfully.
-
-**Q3**: How should you adjust your hip angle when the top player rotates toward their trapped arm side?
-**A**: When the top player rotates toward the trapped arm side, pivot your hips in the same direction to maintain the choking angle relative to their neck. If they turn right, your hips should re-angle right to keep the triangle perpendicular to their neck. If you fail to follow their rotation, the triangle transitions from a choking configuration to a loose leg entanglement that has no submission threat. Alternatively, if the rotation is significant, use it as the entry angle for an omoplata transition.
-
-**Q4**: What physical sensation indicates that you should immediately transition from triangle to armbar rather than continuing to fight for the choke?
-**A**: When you feel the opponent's trapped arm sliding past your centerline—the point where their forearm crosses your belly button line—the triangle choke becomes structurally compromised regardless of your squeeze strength. At this point, the trapped shoulder no longer compresses the far carotid artery effectively. The feeling is a distinct loss of the locked sensation where their arm was pinned against your thigh. This centerline crossing is your transition trigger: immediately uncross your ankles and attack the armbar on the arm that is already partially extended from their extraction attempt.
-
-**Q5**: How does hip elevation change the urgency of the attacker's escape, and what should you focus on to maximize hip extension pressure?
-**A**: Hip elevation directly controls the intensity of the carotid compression. When you elevate your hips off the mat using your shoulders as a base and extend your legs, the triangle transforms from a holding position to an active finishing mechanism. Focus on three elements to maximize pressure: first, curl your upper body toward the opponent to reduce the distance your hips need to travel; second, squeeze your knees together rather than just extending the legs; third, maintain head control to prevent the opponent from creating the postural angle that relieves the compression. Maximum hip extension with proper angle creates a finish window of five to ten seconds.
-
-
-
-</section>
 
 
 </main>

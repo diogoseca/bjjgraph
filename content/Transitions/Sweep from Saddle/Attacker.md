@@ -188,6 +188,8 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Saddle?</p>
+
 - Time sweep attempts to coincide with opponent's weight shifts during submission setups or grip transitions
 - Use the leg entanglement as structural leverage rather than attempting to fight free before sweeping
 - Establish frames against opponent's hips and shoulders before initiating the sweeping motion
@@ -202,6 +204,8 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Saddle?</p>
+
 - At least one frame established against opponent's hip or shoulder to guide sweep direction
 - Opponent's weight committed forward or laterally, creating exploitable imbalance
 - Free leg positioned with foot flat on mat near hip to generate bridging force
@@ -214,6 +218,8 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Saddle step by step?</p>
 
 1. **Protect the heel**: Before attempting any sweep, ensure your heel is hidden by rotating your knee inward and controlling your own foot with your hands if necessary. This prevents the opponent from exploiting your movement to accelerate a submission finish during the sweep attempt.
 2. **Establish directional frames**: Place your inside arm frame against the opponent's near hip and your outside arm against their shoulder or chest. These frames serve dual purposes: preventing the opponent from driving weight forward and creating directional guides for the sweeping motion that follows.
@@ -243,6 +249,8 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Saddle?</p>
+
 - **Opponent posts hand or elbow on the mat to block the sweep direction** (Effectiveness: High) - Your Response: Redirect the sweep angle to the opposite direction, or use their extended posting arm as a target for an arm drag that pulls their weight into the sweep. If the post is too strong, abandon the sweep and use the positional disruption to advance grip fighting. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent drops weight and drives forward to flatten you before bridge generates momentum** (Effectiveness: Medium) - Your Response: Convert to a forward roll variation, pulling them over you rather than bridging them to the side. Use their forward pressure against them by framing on their shoulders and channeling the momentum overhead rather than laterally. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent immediately tightens entanglement and attacks heel hook during the sweep motion** (Effectiveness: High) - Your Response: Abandon sweep attempt immediately and return to heel protection protocol. The opponent is using your movement to accelerate their submission mechanics. Never continue a sweep when heel is exposed to finishing grips—prioritize joint safety over positional gain. → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -254,6 +262,8 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Saddle?</p>
 
 ### 1. Attempting sweep while heel is exposed to finishing grip
 
@@ -293,6 +303,8 @@ Executing the Sweep from Saddle requires the bottom player to transform a defens
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Saddle (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Developing explosive bridge with directional rotation
 Practice bridging drills from supine position with emphasis on combining hip extension with directional rotation. Partner sits on hips at varying weights. Focus on generating maximum force with minimum telegraph and integrating rotational angles.
 
@@ -313,42 +325,12 @@ Full sparring starting from various leg entanglement positions. Develop ability 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical safety check before attempting a sweep from saddle?
-**A**: Verify that your heel is not exposed to a finishing grip. If the opponent has established heel control with rotational pressure, attempting a sweep will amplify the joint destruction through the movement. Always address heel protection through grip fighting and knee rotation before initiating any sweeping motion from this position.
-
-**Q2**: When is the optimal timing window to initiate the sweep?
-**A**: The best timing is when the opponent shifts their weight forward or laterally during a submission setup, grip transition, or positional adjustment. These moments temporarily compromise their base and posting ability, creating a window where coordinated bridge and rotation can generate sufficient force to complete the sweep before they can recover.
-
-**Q3**: Your opponent posts their hand when you attempt the sweep—how do you adjust?
-**A**: Redirect the sweep angle to the opposite direction where they cannot post, or use their extended posting arm as a handle for an arm drag that pulls their weight back into the sweep direction. If the post is too structurally sound to overcome, abandon the sweep and use the positional disruption to advance grip fighting or begin an alternative escape sequence.
-
-**Q4**: What role does the free leg play in the sweep execution?
-**A**: The free leg provides the posting platform for generating bridge force. Plant it flat on the mat close to your hip with the foot angled in the intended sweep direction. The quality of the bridge, and therefore the sweep, is directly determined by foot placement, angle, and explosive extension through the hip. Without proper free leg positioning, insufficient force is generated.
-
-**Q5**: Why is it critical to maintain frames throughout the sweep rather than grabbing the opponent?
-**A**: Frames create structural leverage that guides the sweep direction and prevents the opponent from collapsing their weight into your space. Releasing frames to grab the opponent removes this structural advantage and allows them to flatten you, eliminating the sweeping angle entirely. Convert frames to grips only after rotational momentum is firmly established.
-
-**Q6**: How does the direction of the bridge relate to the opponent's weight distribution?
-**A**: Always bridge in the direction the opponent's weight is already shifting. Working against their weight requires exponentially more force and telegraphs your intention. Their submission setups create predictable weight patterns—a heel hook attempt shifts weight toward your trapped leg while a grip transition creates lateral movement. Read these patterns and sweep with them.
-
-**Q7**: What should you do immediately after successfully completing the sweep?
-**A**: Establish side control immediately by driving your crossface across the opponent's neck, settling your hips against their hips, and distributing weight across their torso. Release the leg entanglement only after top control is secure. Pausing without consolidating position allows the opponent to scramble to guard or re-establish a leg entanglement from bottom.
-
-**Q8**: Your opponent begins applying rotational pressure to your heel during your sweep setup—what is your response?
-**A**: Abandon the sweep attempt immediately and prioritize heel protection. Return to the defensive hierarchy: hide the heel by rotating your knee inward, address the opponent's grips with systematic grip fighting, and re-establish frames. Never continue a sweep when submission mechanics are actively engaged, as the sweeping motion will accelerate joint damage significantly.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Saddle?</p>
 
 This technique carries significant knee and ankle injury risk for both participants. The bottom player must never attempt explosive sweeps when the opponent has an active heel hook grip, as rotational forces generated during the sweep can catastrophically amplify joint damage. Both training partners should establish clear tap protocols before drilling. Practice at controlled speeds initially, and never attempt this sweep in competition without extensive drilling. If you feel any knee rotation pressure during the sweep attempt, abandon the sweep immediately and tap if necessary.
 

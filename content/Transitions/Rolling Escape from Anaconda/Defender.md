@@ -154,6 +154,8 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rolling Escape from Anaconda?</p>
+
 - Opponent's hips begin walking laterally away from your body, creating an angle for the rolling motion
 - Free hand moves from grip fighting at your choking wrist to posting position on the mat beside their shoulder
 - Sudden increase in opponent's body tension and muscular engagement signaling preparation for explosive movement
@@ -166,6 +168,8 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling Escape from Anaconda?</p>
 
 - Anticipate the roll by reading lateral hip movement and free hand posting that signal escape initiation
 - Maintain tight grip configuration with elbows squeezed together throughout any rolling motion from your opponent
@@ -180,6 +184,8 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Escape from Anaconda?</p>
 
 ### 1. Drive chest pressure and sprawl hips back to flatten opponent and eliminate rolling space
 
@@ -217,6 +223,8 @@ As the practitioner maintaining anaconda control, defending against the rolling 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Escape from Anaconda?</p>
+
 ### → [[Positions/Anaconda Control]]
 
 Prevent the roll from initiating by maintaining heavy chest pressure on the trapped shoulder, sprawling hips back to eliminate rolling angle, and progressively tightening the grip to close the escape window entirely
@@ -232,6 +240,8 @@ Follow the opponent's rolling momentum while maintaining grip integrity, steppin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Escape from Anaconda?</p>
 
 ### 1. Fighting against the roll with pure resistance rather than following the momentum to a better position
 
@@ -261,6 +271,8 @@ Follow the opponent's rolling momentum while maintaining grip integrity, steppin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Escape from Anaconda?</p>
+
 **Phase 1: Recognition** - Identifying pre-roll positioning cues
 Partner signals rolling escape setup at various speeds while you practice identifying the cues - lateral hip walk, hand posting, shoulder drop. Call out the cue verbally before the partner commits to the roll. Develops pattern recognition without physical response initially.
 
@@ -277,26 +289,6 @@ Positional sparring from anaconda control where bottom player uses all available
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest warning signs that your opponent is preparing a rolling escape from anaconda control?
-**A**: The earliest indicators are lateral hip walking where the opponent shifts their hips away from your body to create a rolling angle, and repositioning of their free hand from grip fighting at your wrist to posting on the mat beside their trapped shoulder. You may also notice a sudden increase in body tension, a shift in breathing pattern, or the trapped shoulder beginning to drop toward the mat as they load weight for the roll.
-
-**Q2**: Should you try to stop the roll or follow it when your opponent commits to the rolling escape?
-**A**: Once the opponent has fully committed to the roll with explosive momentum, following the roll while maintaining your grip is generally superior to trying to stop it with pure resistance. Fighting against committed rotational force risks breaking your grip entirely. Following the roll and transitioning to dead orchard control often puts you in a stronger finishing position than you had before the escape attempt. The key is maintaining grip integrity throughout the transition.
-
-**Q3**: How do you prevent the opponent from extracting their trapped arm during the rolling motion?
-**A**: Keep your elbows squeezed tightly together throughout the entire roll to maintain the smallest possible loop around their neck and arm. The extraction window occurs when the rolling angle creates slack in the grip - counteract this by pulling your choking elbow toward your own hip as they roll, maintaining the constriction angle. If following the roll to dead orchard, the transition itself re-tightens the loop from the new angle, closing the extraction window.
-
-**Q4**: What is the optimal response if you successfully follow the roll but your grip has loosened slightly?
-**A**: Immediately re-establish chest-to-shoulder pressure in the new dead orchard position while squeezing your elbows back together. The dead orchard finishing position allows you to use your body weight to re-tighten the grip through positioning rather than muscular effort. Walk your hips slightly to adjust the finishing angle while maintaining continuous shoulder pressure. If the grip has loosened beyond recovery, transition immediately to side control or front headlock rather than attempting to salvage a compromised anaconda.
-
-
-
-</section>
 
 
 </main>

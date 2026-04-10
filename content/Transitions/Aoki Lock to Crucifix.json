@@ -11,7 +11,7 @@
     "positional-upgrade",
     "turtle-attack"
   ],
-  "from_position": "Aoki Lock/Top",
+  "from_position": "Aoki Lock Control/Top",
   "outcomes": [
     {
       "to": "Crucifix/Top",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Aoki Lock/Top",
+      "to": "Aoki Lock Control/Top",
       "probability": 25,
       "result": "failure"
     },
@@ -33,7 +33,7 @@
   "overview": "The Aoki Lock to Crucifix transition represents a high-level positional advancement that converts unilateral shoulder lock control into the devastatingly dominant bilateral arm trap of the crucifix. This transition capitalizes on the opponent's defensive responses to the Aoki Lock—when they focus on protecting their trapped shoulder and preventing the finish, they often expose their far arm, creating the opportunity to capture both limbs and achieve complete weapons denial.\n\nFrom a strategic perspective, this transition follows the principle of using submission threats as positional leverage. The Aoki Lock's shoulder pressure forces the opponent to commit defensive resources, frequently requiring them to post or frame with their free arm. This defensive commitment creates the entry window for crucifix capture. The transition requires precise timing, reading the opponent's weight distribution, and the technical ability to maintain control of the initially trapped arm while securing the second.\n\nThe crucifix destination represents a significant positional upgrade from Aoki Lock. While Aoki Lock offers a single submission threat with moderate escape routes, the crucifix eliminates virtually all defensive options and opens multiple high-percentage finishing paths including rear naked choke, arm-in chokes, and armbars. Practitioners who master this transition develop the ability to convert stalled submission attempts into dominant control positions, embodying the position-before-submission principle at an advanced level.",
   "related_content": [
     {
-      "name": "Aoki Lock",
+      "name": "Aoki Lock Control",
       "relationship": "Starting position for this transition"
     },
     {
@@ -69,7 +69,7 @@
       "relationship": "Related shoulder control system with transition options"
     },
     {
-      "name": "Aoki Lock Finish",
+      "name": "Aoki Lock",
       "relationship": "Alternative outcome when choosing to finish rather than transition"
     }
   ],
@@ -130,13 +130,13 @@
         "counter": "Opponent explosively extracts near arm during transition when leg entanglement loosens",
         "effectiveness": "High",
         "your_response": "Maintain constant leg squeeze throughout transition; if arm begins to free, abandon crucifix attempt and revert to Aoki Lock or transition to back control",
-        "targets_outcome": "Aoki Lock/Top"
+        "targets_outcome": "Aoki Lock Control/Top"
       },
       {
         "counter": "Opponent tucks far arm tight to body preventing capture",
         "effectiveness": "Medium",
         "your_response": "Continue Aoki Lock pressure to force arm movement; alternatively transition to back control or truck if arm remains protected after two pressure cycles",
-        "targets_outcome": "Aoki Lock/Top"
+        "targets_outcome": "Aoki Lock Control/Top"
       },
       {
         "counter": "Opponent rolls forward through the transition creating scramble",
@@ -273,7 +273,7 @@
       {
         "action": "Tuck far arm tight to body and turn toward the attacker, denying the arm capture while creating escape angle",
         "when_to_use": "As soon as you feel the attacker release one hand from hip control or reach toward your far arm",
-        "targets_outcome": "Aoki Lock/Top",
+        "targets_outcome": "Aoki Lock Control/Top",
         "if_successful": "Attacker cannot complete crucifix transition and must revert to Aoki Lock or abandon the attempt",
         "risk": "Turning toward attacker may increase shoulder pressure temporarily; manage by keeping shoulder internally rotated"
       },
@@ -294,14 +294,14 @@
       {
         "action": "Post and create base to prevent the attacker's hip transition while maintaining far arm protection",
         "when_to_use": "When attacker begins hip rotation but has not yet captured the far arm",
-        "targets_outcome": "Aoki Lock/Top",
+        "targets_outcome": "Aoki Lock Control/Top",
         "if_successful": "Strong base prevents hip transition and forces attacker to remain in Aoki Lock configuration",
         "risk": "Posting arm may become the target for crucifix capture; must be ready to withdraw instantly if attacker redirects"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Aoki Lock/Top",
+        "outcome": "Aoki Lock Control/Top",
         "how": "Deny the far arm capture by keeping it tucked tight to your body and turning toward the attacker. This forces them to revert to the original Aoki Lock position, which has known escape routes. From here you can work standard Aoki Lock escapes including rolling toward the trapped arm and attacking their posted leg base."
       },
       {

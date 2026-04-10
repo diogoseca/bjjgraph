@@ -188,6 +188,8 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rear Clinch to Body Lock?</p>
+
 - Maintain unbroken chest-to-back pressure throughout the entire grip transition to prevent the opponent from exploiting any separation
 - Time the grip conversion when the opponent is reactively defending your current control rather than proactively creating space
 - Slide arms sequentially rather than releasing both grips simultaneously to maintain continuous control during the transition
@@ -203,6 +205,8 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rear Clinch to Body Lock?</p>
+
 - Established standing rear clinch with chest-to-back connection and at least one controlling grip on the opponent's upper body
 - Opponent's posture compromised with weight loaded forward or off-balance, reducing their ability to counter during grip change
 - Opponent's hands occupied with defending your current grip configuration rather than proactively hand fighting for separation
@@ -215,6 +219,8 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rear Clinch to Body Lock step by step?</p>
 
 1. **Increase forward hip pressure**: Before initiating the grip change, drive your hips forward with increased pressure against the opponent's hips to break their posture and occupy their defensive attention. This forward drive masks the upcoming grip transition by making the opponent focus on base maintenance rather than hand fighting.
 2. **Slide underhook arm to waist**: While maintaining the choking arm (over-shoulder arm) in seatbelt position for upper body control, slide your underhook arm down from the opponent's armpit to their waist level. Keep your forearm tight against their body throughout the slide to prevent creating space that the opponent could exploit.
@@ -244,6 +250,8 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rear Clinch to Body Lock?</p>
+
 - **Opponent two-on-one fights the sliding arm during transition** (Effectiveness: High) - Your Response: Immediately return to seatbelt and re-establish upper body control before reattempting. Use increased hip pressure and angle change to create a new opening for the conversion. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent explosively hip escapes during the grip release moment** (Effectiveness: Medium) - Your Response: Follow their hip escape with your own hips, maintaining chest contact as the priority. If they create significant separation, transition to a single leg or double leg entry rather than chasing the body lock. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent sits to guard during the transition window** (Effectiveness: High) - Your Response: If your hands are already at waist level, follow them down and complete the body lock around their seated position. If the lock is not yet established, maintain whatever grip you have and work to pass their guard immediately. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rear Clinch to Body Lock?</p>
 
 ### 1. Releasing both arms simultaneously from seatbelt before either reaches waist level
 
@@ -294,6 +304,8 @@ As the attacker executing the Rear Clinch to Body Lock, your objective is to con
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rear Clinch to Body Lock (Attacker)?</p>
+
 **Phase 1: Static Grip Mechanics** - Hand positioning, lock configuration, and arm sliding path
 Practice the grip conversion slowly against a stationary, cooperative partner. Focus on the sequential arm slide technique, proper lock height at the waist, and maintaining chest contact throughout. Repeat 50 times per training session until the arm path becomes automatic.
 
@@ -314,42 +326,12 @@ Positional sparring starting from standing rear clinch with full resistance. Top
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you slide arms sequentially rather than releasing both grips simultaneously during the transition?
-**A**: Releasing both arms simultaneously creates a complete control void where the opponent has maximum freedom to escape or counter. By maintaining the choking arm (over-shoulder arm) in seatbelt position while the underhook arm slides down first, you preserve upper body control throughout the transition. The remaining seatbelt arm prevents the opponent from turning, creating distance, or executing reversals during the most vulnerable phase. Only after the lead arm is secured at waist level should the second arm follow to complete the lock.
-
-**Q2**: What is the optimal timing window for initiating the grip conversion from seatbelt to body lock?
-**A**: The optimal window is when the opponent is reactively defending your current seatbelt control rather than proactively creating space. Specifically, immediately after they fail a hand fighting attempt, when they are resetting their defensive posture, or when you have just increased hip pressure and they are focused on maintaining their base. Avoid initiating during moments when the opponent is actively driving away from you, aggressively hand fighting, or loading up for a counter throw, as these scenarios provide them maximum ability to exploit the grip change.
-
-**Q3**: Your opponent successfully two-on-one fights your sliding arm mid-transition - what is the correct response?
-**A**: Immediately abort the body lock attempt and return to your seatbelt configuration with the arm they are fighting. Do not try to force the grip through against a strong two-on-one defense. Re-establish full seatbelt control, increase forward hip pressure to break their posture, and wait for a better window. You can create a new opening by threatening a standing choke from the seatbelt, which will force them to redirect their hand fighting away from your converting arm, then reattempt the transition.
-
-**Q4**: Where should the locked hands be positioned on the opponent's body and why?
-**A**: Lock your hands at or below the opponent's navel, ideally at belt line height. This position places your grip at or below the opponent's center of mass, which is essential for generating lifting power and controlling their weight distribution for takedowns. A lock positioned too high on the chest or ribcage does not control the center of gravity effectively, allowing the opponent to drop their hips below your grip and establish a strong defensive base. The waist-level lock also provides better leverage for mat returns and prevents the opponent from simply stepping over a high grip.
-
-**Q5**: How do you maintain control if the opponent begins sitting to guard during the grip transition?
-**A**: If your hands are already at waist level or partially around their waist, follow their descent immediately and complete the body lock around their seated position as they go down. Drive your chest forward and stay tight to their back throughout the sit. Once on the ground with the body lock established, transition to a body lock pass to side control by walking your hips around their guard. If the lock is not yet established when they sit, maintain whatever grip you currently have, follow them to the ground, and work to establish a passing position rather than chasing the body lock from a seated configuration.
-
-**Q6**: What is the critical role of hip pressure during the grip conversion?
-**A**: Hip pressure serves a dual purpose during the grip conversion. First, it masks the transition by forcing the opponent to focus on maintaining their base rather than monitoring your grip changes. Increasing hip pressure just before initiating the slide overwhelms their defensive awareness with a more immediate threat. Second, hip pressure physically compresses the space between your bodies, keeping your chest welded to their back even as your arms move. Without forward hip drive, any arm movement tends to create separation, which the opponent can exploit. The hip pressure essentially substitutes for arm control during the brief vulnerability window.
-
-**Q7**: Which grip configuration is most effective for the body lock and when would you choose each option?
-**A**: The gable grip (palm-to-palm with overlapping fingers) provides the strongest raw connection and is ideal when you plan to execute an immediate high-power mat return or lift that requires maximum grip strength. The S-grip (interlocking fingers in a hook configuration) offers a balance of strength and wrist comfort for sustained control when you need to hold the position briefly while setting up your takedown angle. The butterfly grip (thumbs-up clasp) allows the quickest transition to alternative attacks like back control hooks. Choose based on your intended immediate follow-up attack rather than defaulting to one configuration.
-
-**Q8**: Your opponent turns their head away and drops their level during your grip transition - how do you adapt?
-**A**: An opponent dropping level during the transition is actually loading themselves for either a counter throw or an escape attempt. Respond by lowering your own level proportionally, keeping your hips below or level with theirs to prevent being thrown over. If your arms are mid-transition, accelerate the conversion and complete the body lock at the lower level rather than trying to pull them back upright. A low body lock is still highly functional for mat returns. If they are turning, use the remaining seatbelt arm to control their rotation and circle with them to maintain rear position before completing the grip change.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rear Clinch to Body Lock?</p>
 
 This transition involves standing grip work where the primary safety concern is maintaining balance for both practitioners during the grip change. Avoid explosive jerking motions that could cause whiplash or cervical strain. When training the immediate takedown follow-up, ensure the receiving partner knows how to breakfall properly. Never attempt suplex-style lifts in training without explicit partner consent and appropriate mat surface. Be mindful of finger and wrist injuries from aggressive grip fighting during the transition window. Always release control immediately if your partner signals discomfort or taps.
 

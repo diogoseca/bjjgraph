@@ -162,6 +162,8 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Heel Grab Sweep?</p>
+
 - Opponent's both hands reach for and grip your heel bone rather than controlling your ankle, pant leg, or shin, indicating they are setting up the specific heel manipulation needed for this sweep
 - Opponent shifts their hips to one side creating a diagonal angle underneath you rather than staying centered, which signals they are setting the sweeping trajectory
 - You feel increased X-hook pressure behind your trapped knee combined with the outside leg pressing against your shin, indicating the scissoring mechanism is being loaded
@@ -173,6 +175,8 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Heel Grab Sweep?</p>
 
 - Break or prevent heel grips before the opponent can secure dual-hand control on your heel bone
 - Maintain a wide base with your free leg positioned diagonally behind you to resist multi-directional sweeping forces
@@ -188,6 +192,8 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Heel Grab Sweep?</p>
 
 ### 1. Strip heel grips immediately by pushing opponent's hands off your heel using your free hand, peeling their fingers or redirecting their grip to your ankle where they have less rotational control
 
@@ -225,6 +231,8 @@ Defending the Heel Grab Sweep requires the top player to recognize the threat ea
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Heel Grab Sweep?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 Strip the opponent's heel grips early and maintain your base while systematically working to remove their X-hook. Address the bottom hook first through knee alignment and pressure, then clear the top hook and extract your leg to begin passing. This keeps you in top position within the guard while progressively weakening their control.
@@ -240,6 +248,8 @@ Successfully extract your trapped leg by circling your knee outward when the opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Heel Grab Sweep?</p>
 
 ### 1. Standing tall with a narrow base and locked knees while the opponent has heel control established
 
@@ -274,10 +284,12 @@ Successfully extract your trapped leg by circling your knee outward when the opp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Heel Grab Sweep?</p>
+
 **Week 1-2: Recognition and Base Fundamentals** - Identifying sweep setup cues and establishing proper defensive base
 Partner establishes Single Leg X Guard and slowly sets up the Heel Grab Sweep without executing. Practice recognizing the heel grip, hip angle shift, and leg tension cues. Work on establishing wide base with free leg and proper knee alignment. No live sweep attempts yet, focus purely on defensive posture and recognition speed.
 
-**Week 3-4: Grip Fighting and Base Recovery** - Stripping heel grips and recovering base after partial disruption
+**Week 3-4: Grips and Base Recovery** - Stripping heel grips and recovering base after partial disruption
 Partner secures heel grips and you practice breaking them systematically. Partner executes slow-speed sweeps while you practice grip stripping, base widening, and hip-down defense. Build automatic response patterns for each recognition cue. Practice recovering base when partially off-balanced.
 
 **Week 5-8: Full Speed Defense with Counter-Passing** - Defending against full-speed sweeps and transitioning to guard passing
@@ -290,29 +302,6 @@ Positional sparring starting in Single Leg X Guard where partner uses all availa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when you recognize the opponent is setting up a Heel Grab Sweep?
-**A**: The first priority is breaking their heel grips before they can coordinate the sweep. Both hands on your heel bone is the critical control point that enables the rotational pull component of the sweep. Strip their grips by pushing their hands off with your free hand or peeling their fingers, then immediately address your base positioning. Without heel control, the opponent can only push with their legs, which is far less effective as a sweeping mechanism.
-
-**Q2**: Why is sitting your hips down effective against this sweep but also potentially dangerous?
-**A**: Sitting your hips down and back is effective because it lowers your center of gravity below the elevation point where the opponent's leg extension generates sweeping force, essentially nullifying the mechanics of the sweep. However, it is dangerous because sitting brings your leg deeper into the opponent's entanglement and exposes you to transitions to Ashi Garami, Outside Ashi-Garami, or direct heel hook attacks. You must be prepared to immediately address leg lock threats if you choose this defensive option.
-
-**Q3**: How should you position your free leg to resist the diagonal sweeping forces of this technique?
-**A**: Position your free leg wide and diagonally behind you, creating a triangular base with your feet spread apart. The leg should be placed opposite the direction the opponent is trying to sweep you, which you can determine by observing which side they have shifted their hips toward. Keep your knee bent and maintain the ability to quickly reposition if the opponent changes their sweeping angle. A wide diagonal base resists forces from multiple directions, which is essential against the two-force sweep mechanics.
-
-**Q4**: Your opponent has both hands on your heel and begins the explosive extension - what emergency defense do you use?
-**A**: If the sweep has already been initiated with the explosive extension, your emergency response is to immediately post your hand on the mat behind you in the direction you are falling to prevent a full sweep completion. Simultaneously try to turn your body toward the opponent rather than falling flat backward, which can allow you to establish a scramble position rather than conceding full top control. This is a last-resort option, as effective defense should prevent reaching this stage through earlier grip fighting and base management.
-
-**Q5**: What is the relationship between this sweep's counter-defense and leg lock vulnerability?
-**A**: Many effective defenses against the Heel Grab Sweep, particularly sitting down and lowering your base, bring your trapped leg deeper into the opponent's control and closer to leg entanglement configurations. The opponent can smoothly transition from a failed sweep attempt into Ashi Garami, Outside Ashi-Garami, or heel hook entries. Effective defenders must balance their anti-sweep positioning with leg lock awareness, being prepared to immediately address leg entanglement threats when they shut down the sweep. This creates the fundamental dilemma of the Single Leg X position.
-
-
-
-</section>
 
 
 </main>

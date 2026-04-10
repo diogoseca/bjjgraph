@@ -162,6 +162,8 @@ As the anaconda control top player, defending against the Frame and Posture esca
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Posture from Anaconda?</p>
+
 - Bottom player's free forearm moves deliberately toward your shoulder or far hip, indicating structural frame establishment rather than random hand fighting
 - Bottom player begins lifting their torso and head upward from the bent-over posture, signaling that posture recovery has started and the frame is generating space
 - Bottom player's hips shift away from your body while their frame maintains firm contact against your shoulder, indicating coordinated frame-and-hip-escape movement
@@ -174,6 +176,8 @@ As the anaconda control top player, defending against the Frame and Posture esca
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Posture from Anaconda?</p>
 
 - Maintain continuous chest-to-shoulder compression—this is the specific mechanism the frame escape seeks to disrupt, and its preservation defeats the technique at its core
 - Drive pressure diagonally through the trapped shoulder rather than straight down, making frame placement more difficult because the bottom player cannot align a frame against a diagonal vector
@@ -188,6 +192,8 @@ As the anaconda control top player, defending against the Frame and Posture esca
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Posture from Anaconda?</p>
 
 ### 1. Drive chest deeper and increase compression at a diagonal angle to collapse the frame before it becomes fully structural
 
@@ -225,6 +231,8 @@ As the anaconda control top player, defending against the Frame and Posture esca
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Posture from Anaconda?</p>
+
 ### → [[Positions/Anaconda Control]]
 
 React to the initial frame placement by immediately increasing chest pressure diagonally through the trapped shoulder and snapping the opponent's posture back down before the frame achieves structural alignment. Walk your hips laterally to change the pressure angle if the frame takes root, preventing any sustained space creation that would enable posture recovery.
@@ -244,6 +252,8 @@ When posture recovery has progressed past the point where the anaconda choke is 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Posture from Anaconda?</p>
 
 ### 1. Relaxing chest pressure while focused on maintaining the anaconda grip with hand strength alone
 
@@ -273,6 +283,8 @@ When posture recovery has progressed past the point where the anaconda choke is 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Posture from Anaconda?</p>
+
 **Phase 1: Recognition** - Identifying frame escape attempts versus grip break attempts in their earliest stages
 Partner attempts Frame and Posture escape with clear telegraphed movements at low speed. Practice distinguishing frame placement from grip-fighting by feel alone, and implement the correct counter-response for each escape type. Develop automatic pattern recognition for frame establishment cues.
 
@@ -289,29 +301,6 @@ Positional sparring from anaconda control top with opponent working both Frame a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a Frame and Posture escape rather than a grip break?
-**A**: The Frame and Posture escape is identified by feeling the opponent's free forearm make deliberate perpendicular contact against your shoulder or hip in a structural placement. This differs from the grip break where their free hand reaches toward your grip junction on the far side of their neck. The distinction matters because frame escapes are countered through body pressure adjustment and angle changes, while grip breaks are countered by squeezing elbows together and reinforcing the grip junction.
-
-**Q2**: Your opponent has established a strong frame against your shoulder and is beginning to lift their posture—should you maintain the anaconda or transition?
-**A**: If posture recovery has reached the point where your chest is separating from their shoulder and the choking pressure is noticeably diminished despite your counter-pressure attempts, transition immediately. Your best options are darce configuration, which attacks from a different angle than the frame was designed to counter, or side control, which maintains dominant positioning. Continuing to fight a failing anaconda wastes energy and risks the opponent completing the escape to front headlock with momentum.
-
-**Q3**: How do you defeat a well-established forearm frame placed against your far shoulder?
-**A**: Drive your shoulder and chest pressure diagonally rather than directly into the frame's strongest axis. A frame resists force from the perpendicular direction it was aligned against, so changing your pressure angle to approximately 45 degrees bypasses the frame's structural resistance. Simultaneously, walk your hips laterally to approach from a different angle entirely. If the angle change alone is insufficient, increase compression by squeezing elbows together to tighten the loop independent of chest pressure.
-
-**Q4**: When the Frame and Posture escape is partially successful and your opponent has created significant space, what is your optimal transition?
-**A**: Your optimal transition is to the darce configuration. Thread your choking arm deeper across their neck while the frame-created space exists—the partial space actually assists the darce threading by providing room for your arm to travel across the back of their neck. The opponent's frame was positioned for the anaconda's compression angle, not the darce's diagonal compression, making this transition highly effective against the frame escape specifically. Time the transition before posture recovery completes or you lose the head control needed for the darce.
-
-**Q5**: How do you prevent the opponent from recovering posture after their frame is established?
-**A**: Counter posture recovery with immediate snap-down pressure—drive your chest weight forward and downward through their head and upper back to re-collapse their posture before upward momentum builds. Simultaneously squeeze your elbows tighter together to maintain the constricting loop's effectiveness. If the snap-down alone is insufficient because the frame prevents forward pressure, walk your hips to the opposite side of the frame to attack from a vector the frame cannot resist, then apply the snap-down from the new angle.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ As the defender in the sprawl scenario, you are the person whose takedown attemp
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sprawl Defense from Standing?</p>
+
 - Opponent's hips suddenly drop backward and downward as they extend their legs behind them, creating a noticeable shift in their center of gravity away from your shot
 - Heavy downward pressure appears on your head, neck, and upper back from opponent's hands posting on your shoulders and driving your face toward the mat
 - Your forward momentum stops or reverses as opponent's bodyweight loads onto your upper back, making continued driving feel like pushing against a wall
@@ -173,6 +175,8 @@ As the defender in the sprawl scenario, you are the person whose takedown attemp
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sprawl Defense from Standing?</p>
 
 - Protect your neck immediately by tucking your chin to your chest — front headlock submissions require neck extension to finish
 - Maintain your base by keeping knees under your hips to prevent complete flattening, which eliminates all recovery options
@@ -187,6 +191,8 @@ As the defender in the sprawl scenario, you are the person whose takedown attemp
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sprawl Defense from Standing?</p>
 
 ### 1. Drive legs hard and power through the sprawl pressure to maintain forward penetration and recover standing position
 
@@ -224,6 +230,8 @@ As the defender in the sprawl scenario, you are the person whose takedown attemp
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sprawl Defense from Standing?</p>
+
 ### → [[Positions/Standing Position]]
 
 Fight through the sprawl pressure by maintaining leg drive and posting arms to prevent flattening. Circle to create angle and recover upright posture before opponent can establish front headlock grips. The key is acting immediately — every second under sprawl pressure makes recovery harder.
@@ -239,6 +247,8 @@ When the shot is definitively stuffed and standing recovery is unavailable, proa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sprawl Defense from Standing?</p>
 
 ### 1. Continuing to drive forward after the sprawl has fully stuffed the shot and forward momentum is gone
 
@@ -268,6 +278,8 @@ When the shot is definitively stuffed and standing recovery is unavailable, proa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sprawl Defense from Standing?</p>
+
 **Phase 1: Recognition** - Identifying sprawl responses to your shots
 Partner telegraphs sprawl responses to your takedown attempts at reduced speed. Learn to recognize the hip drop, hand posting, and weight shift that signals the sprawl is coming. Develop sensitivity to the defensive response timing so you can adjust your shot before the sprawl fully commits.
 
@@ -284,29 +296,6 @@ Live standing exchanges where you shoot and partner sprawls at full competition 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to sprawl on your takedown attempt?
-**A**: The earliest cues are a sudden backward shift of their hips, their hands moving toward your head and shoulders, and their weight transferring from the balls of their feet toward their toes as they prepare to drive hips back. If you feel their hands make contact with the back of your head before you have secured deep grips on their legs, the sprawl is imminent and you should either accelerate your penetration dramatically or abort the shot and recover standing position before the weight settles.
-
-**Q2**: Your opponent has sprawled and is driving heavy weight onto your upper back — what is your immediate priority?
-**A**: Your immediate priority is maintaining your base by keeping your knees under your hips and preventing your chest from being driven flat to the mat. If you get completely flattened, escape becomes exponentially harder because you lose all leverage and mobility. Secondary priority is controlling their choking arm at the wrist or elbow to prevent them from establishing the front headlock grip that enables submissions. Keep your chin tucked to protect against guillotine attempts throughout.
-
-**Q3**: When should you abandon your takedown attempt and sit to guard instead of fighting through the sprawl?
-**A**: Sit to guard when your opponent has fully committed their weight onto your upper back, you have lost all forward penetration depth, and your head is below their chest level with their hands controlling your head. At this point, continuing the shot is a low-percentage gamble that exposes you to front headlock submissions. By sitting to guard proactively, you establish a known defensive position with structured offensive options rather than remaining in a deteriorating situation where the opponent controls all the action and submission threats.
-
-**Q4**: How do you prevent your opponent from transitioning to a guillotine choke after they sprawl on your shot?
-**A**: Keep your head on the inside of their body, pressing your ear against their ribs rather than letting your head pop to the outside where the guillotine becomes available. Maintain chin-to-chest contact to prevent them from extending your neck, which is required for guillotine finishing mechanics. Use your near hand to control their wrist or forearm on the side where they are attempting to thread their arm under your chin. If they begin to lock their hands for the guillotine grip, immediately circle toward the choking arm side to relieve the pressure angle.
-
-**Q5**: What is the primary directional escape when trapped under a fully established sprawl and you cannot drive through?
-**A**: The primary escape direction is perpendicular to the opponent's pressure, circling to either side rather than trying to drive forward or pull straight backward. Circling creates angle that makes the opponent's weight distribution work against them because they must reposition to maintain effective pressure. Moving perpendicular to their force disrupts their control alignment and creates windows to recover standing or establish guard. Avoid pulling straight backward as this plays directly into their forward driving pressure and keeps you in the worst possible alignment for any escape attempt.
-
-
-
-</section>
 
 
 </main>

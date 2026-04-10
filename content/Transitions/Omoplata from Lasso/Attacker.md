@@ -188,6 +188,8 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Omoplata from Lasso?</p>
+
 - Maintain unbroken sleeve control throughout the entire transition from lasso to omoplata configuration
 - Time the hip rotation to coincide with opponent's forward weight commitment or posture break for maximum efficiency
 - Use the non-lasso foot as an active frame on the opponent's hip to create rotation space and control distance
@@ -203,6 +205,8 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Omoplata from Lasso?</p>
+
 - Deep lasso control with shin threaded fully across the opponent's tricep, not just draped over the forearm
 - Strong sleeve grip on the lassoed arm maintained with a pistol grip or C-grip near the wrist
 - Hips angled at minimum 45 degrees perpendicular to the opponent to enable sufficient rotation arc
@@ -215,6 +219,8 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Omoplata from Lasso step by step?</p>
 
 1. **Confirm lasso depth and sleeve grip**: Verify your shin is threaded deeply across the opponent's tricep area, not superficially draped over the forearm. Tighten your sleeve grip by pulling it toward your chest while extending your lasso leg to create maximum tension. The opponent's elbow should be trapped inside the angle of your knee.
 2. **Post non-lasso foot on opponent's hip**: Place your non-lasso foot firmly on the opponent's same-side or cross-side hip. This foot serves three purposes: it prevents them from driving forward to stack you, it creates a pushing frame for generating rotation, and it controls the distance needed for your leg to clear their shoulder.
@@ -244,6 +250,8 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Omoplata from Lasso?</p>
+
 - **Opponent postures up explosively and retracts trapped arm before rotation completes** (Effectiveness: High) - Your Response: If you feel the arm slipping during rotation, immediately switch to a triangle entry by throwing your non-lasso leg over their head while maintaining sleeve control, or return to lasso guard and reset with a tighter entry next attempt → Leads to [[Positions/Lasso Guard]]
 - **Opponent steps over the rotating leg during the swing phase to prevent the omoplata from establishing** (Effectiveness: High) - Your Response: If they step over, immediately hook their stepping leg with your non-lasso leg and convert to a sweep by driving them laterally, or transition to De La Riva guard using the hooking leg as a DLR hook → Leads to [[Positions/Open Guard]]
 - **Opponent stacks forward and drives weight onto you during the hip rotation to prevent completion** (Effectiveness: Medium) - Your Response: Use the stacking momentum against them by completing the rotation underneath their pressure and establishing omoplata control, or redirect their forward drive into a pendulum sweep motion by angling your hips → Leads to [[Positions/Lasso Guard]]
@@ -255,6 +263,8 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Omoplata from Lasso?</p>
 
 ### 1. Releasing the sleeve grip during the hip rotation to use both hands for posting
 
@@ -299,6 +309,8 @@ As the attacker executing the Omoplata from Lasso, your primary advantage is tha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Omoplata from Lasso (Attacker)?</p>
+
 **Phase 1: Mechanics** - Hip rotation and leg placement
 Practice the hip rotation and leg swing in isolation with a compliant partner. Focus on maintaining sleeve control throughout the rotation, landing the leg correctly across the upper back, and establishing tight hip-to-shoulder contact. No resistance. 50 repetitions per side.
 
@@ -319,42 +331,12 @@ Partner specifically trains the common counters to the omoplata from lasso. Prac
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the omoplata entry from lasso guard?
-**A**: The optimal timing is when the opponent's posture breaks forward, either from your lasso pressure pulling them down or from their own forward drive attempting to pass or pressure the guard. Their forward weight commitment assists your hip rotation and makes it much harder for them to retract their arm. Attempting the entry against a fully postured opponent dramatically reduces success rate because they can easily pull their arm free.
-
-**Q2**: What conditions must exist in your lasso control before you should attempt the omoplata entry?
-**A**: The lasso must be deep with your shin across the opponent's tricep area rather than superficially over the forearm. Your sleeve grip must be tight and secure, ideally a pistol grip near the wrist. Your hips should be angled at least 45 degrees perpendicular to the opponent to provide the rotation arc. If any of these conditions are missing, improve your lasso control first before attempting the transition.
-
-**Q3**: What is the most critical mechanical detail during the leg swing phase of the transition?
-**A**: The most critical detail is maintaining the sleeve grip throughout the entire rotation. Your sleeve hand must never release to post or assist the rotation. The leg swing itself must be committed and explosive, clearing the opponent's shoulder and head in one motion. A tentative or slow swing allows the opponent time to retract their arm or step over the leg. The calf should land across the upper back and neck area.
-
-**Q4**: What is the most common reason this technique fails at the intermediate level?
-**A**: The most common failure point is attempting the entry with a shallow lasso where the shin is only across the forearm rather than deep across the tricep. This shallow control provides insufficient arm isolation during the critical rotation phase, allowing the opponent to pull their arm free before the omoplata establishes. The secondary failure point is releasing the sleeve grip during the rotation, which immediately frees the opponent's arm.
-
-**Q5**: What specific grip is required on the lassoed arm and why is it critical to the entry?
-**A**: A strong pistol grip or C-grip on the sleeve near the opponent's wrist is essential. This grip must be maintained continuously from lasso guard through the completed omoplata position. It serves as the only connection preventing the opponent from retracting their arm during the rotation. Without it, the opponent has a clear window to pull their arm back to their body when you release the lasso threading to swing your leg over.
-
-**Q6**: Which direction should you apply force with your lasso leg and sleeve grip during the entry setup?
-**A**: The lasso leg should extend and push against the opponent's tricep toward their far side while the sleeve grip pulls the wrist toward the mat and toward your chest. This creates opposing forces that off-balance the opponent forward and isolate their arm away from their body. The push-pull creates the rotational space needed for the leg swing. Both forces should be diagonal rather than linear to maximize the off-balancing effect.
-
-**Q7**: Your opponent postures up strongly as you begin the hip rotation - how do you adapt?
-**A**: If they posture explosively during your rotation, you have two primary options based on how far the rotation has progressed. If early in the rotation, abort and return to lasso guard, then use their upright posture to attack with a sickle sweep instead. If your leg has already partially cleared their shoulder, convert immediately to a triangle entry by swinging your non-lasso leg over their head while pulling their posture back down with the sleeve grip.
-
-**Q8**: What chain attacks become available if the opponent successfully blocks the omoplata entry?
-**A**: If they posture up to prevent the entry, attack with the sickle sweep or pendulum sweep using the lasso leverage. If they drive forward to stack, redirect into a triangle by throwing the non-lasso leg over their neck. If they step over the rotating leg, hook their leg and sweep laterally. If they retract the arm completely and break the lasso, transition to spider guard or De La Riva using whatever grip remains. Each defensive response opens a specific chain attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Omoplata from Lasso?</p>
 
 The omoplata entry from lasso involves significant rotational force on the opponent's shoulder joint. During drilling, execute the hip rotation at controlled speed and pause before applying finishing pressure to allow your partner to tap or verbally signal discomfort. The transition from lasso to omoplata can happen quickly, and the shoulder can be compromised before either partner fully recognizes the danger. In competition, maintain control throughout the transition to prevent your own knee or ankle from being trapped during the rotation. Always tap early when caught in the omoplata position during training.
 

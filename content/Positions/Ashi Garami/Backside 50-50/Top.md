@@ -20,38 +20,38 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Heel Hook from Backside 50-50",
+      "text": "From this position, attempt Heel Hook from Backside 50-50. This technique is attempted in 36% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Toe Hold from Backside 50-50",
+      "text": "From this position, attempt Toe Hold from Backside 50-50. This technique is attempted in 8% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Straight Ankle Lock Entry",
+      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 3% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Straight Ankle Lock Entry",
-      "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Saddle Entry from Top",
+      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Saddle Entry from Top",
-      "text": "From this position, attempt Saddle Entry from Top. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kneebar from Backside 50-50",
+      "text": "From this position, attempt Kneebar from Backside 50-50. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute 50-50 Pass",
+      "text": "From this position, attempt 50-50 Pass. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 ## Position Definition
 
+<p class="section-subtitle">What is Backside 50-50 (Top)?</p>
+
 - Top player's chest remains in contact with bottom player's back, applying constant forward pressure to restrict hip mobility and offensive options while maintaining superior position
 - Both practitioners' legs are entangled in mirrored configuration with inside legs controlling outside legs, creating the characteristic 50-50 leg positioning while top player faces opponent's back
 - Top player maintains clear visual access to opponent's lower body and leg configuration, enabling precise technical adjustments and attack recognition that bottom player lacks
@@ -181,6 +183,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Backside 50-50 (Top)?</p>
 
 - Understanding of fundamental leg entanglement mechanics and 50-50 guard structure
 - Ability to recognize and capitalize on back exposure during leg lock exchanges
@@ -195,6 +199,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Backside 50-50?</p>
 
 - Pressure Maintenance: Constant chest pressure on opponent's back limits their mobility and offensive options while establishing positional dominance
 - Dual Threat System: Simultaneous threat of leg locks and back control creates difficult defensive decisions forcing opponent errors
@@ -211,10 +217,12 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Backside 50-50 (Top)?</p>
+
 **If opponent is primarily defending their back and creating frames to prevent you from walking up their body:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 45%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent is primarily defending leg attacks with good positioning and control of your legs:**
@@ -226,17 +234,17 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 **If opponent attempts to sweep by inverting or creating angles with their hips:**
 - Execute **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 60%)
 - Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 55%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent exposes their near leg by straightening or extending it during escape attempts:**
-- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Kneebar/Attacker|Kneebar]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent commits to turtle position to defend both back and legs simultaneously:**
 - Execute **[[Transitions/Back Take from 50-50/Attacker|Back Take from 50-50]]** → [[Positions/Back Control]] (Probability: 70%)
-- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Submissions/Calf Slicer/Attacker|Calf Slicer]]** → [[game-over]] (Probability: 50%)
 
 
 
@@ -246,6 +254,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Backside 50-50?</p>
 
 ### 1. Failing to maintain constant chest-to-back pressure while attacking legs
 
@@ -284,6 +294,8 @@ Backside 50-50 Top is commonly seen in no-gi competition and leg lock-focused tr
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Backside 50-50 attacks?</p>
 
 ### Backside 50-50 Entry Drill
 
@@ -325,38 +337,6 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanism for maintaining dominant pressure in Backside 50-50 Top?
-**A**: Chest-to-back pressure is the primary control mechanism. Your chest should be heavy on opponent's upper back, driving their hips into the mat. This limits their hip mobility and prevents them from creating angles or frames. Weight distribution should favor forward pressure rather than sitting back on your heels. Let skeletal structure and gravity do the work rather than muscular effort.
-
-**Q2**: Your opponent starts bridging and creating hip movement while you have Backside 50-50 Top. What adjustment do you make?
-**A**: Drive your chest pressure forward and down immediately when you feel them bridge. Lower your hips closer to the mat to increase base stability. Use your forearm on their hip to post and prevent the turn. If they continue creating movement, walk your hips higher up their body toward back control rather than fighting to stay in the leg entanglement. Their bridging often aids your advancement.
-
-**Q3**: What are the essential grips for maintaining Backside 50-50 Top position?
-**A**: Primary control comes from body positioning, not grips. Your chest pressure and leg entanglement provide base control. Hands should be free for attacking - one hand controlling opponent's heel or ankle for submissions, the other posting or framing against their hip. Avoid using arm strength to hold position as this fatigues quickly and reduces attacking options. Grips are for attacking, structure is for controlling.
-
-**Q4**: How do you shut down the bottom player's primary escape attempts from Backside 50-50 Top?
-**A**: Their main escapes involve hip movement and turning to face you. Counter by maintaining heavy forward pressure that pins their hips. When they try to turn, walk your hips toward back control - their turn actually helps your advancement. Keep your legs active in the entanglement to prevent them from extracting. If they frame with their arms, use their frames against them by driving through them toward back control.
-
-**Q5**: What determines whether you should attack legs or advance to back control from Backside 50-50 Top?
-**A**: Read opponent's defensive focus. If they're creating frames to prevent back control advancement, their leg defense is compromised - attack the heel. If they're hiding their heel and defending leg attacks well, abandon legs and take the back. The position's power comes from this dilemma - they cannot defend both optimally. Take what they give you rather than forcing your preferred attack.
-
-**Q6**: Your opponent grabs your foot and starts working to clear your leg entanglement. How do you respond?
-**A**: This defense exposes them to back control. As they focus on leg clearing, walk your hips up their body and establish seat belt grip. Alternatively, if their heel becomes exposed during the clearing attempt, immediately attack the heel hook. Their focus on one threat opens the other. Maintain pressure throughout - if you lighten up, they'll successfully clear and create distance.
-
-**Q7**: How do you manage energy expenditure to maintain Backside 50-50 Top for extended periods?
-**A**: Let your body structure do the work rather than muscular effort. Chest pressure comes from positioning and weight distribution, not active pressing. Legs stay entangled through proper positioning, not squeezing. Arms remain relaxed until attacking. Keep breathing steady. The position should feel sustainable - if you're working hard just to maintain it, your body position is wrong. Recalibrate weight distribution.
-
-**Q8**: You've partially lost control and your opponent creates a frame against your shoulder. How do you recover full control?
-**A**: Don't fight the frame directly - redirect around it. Circle your pressure to the side away from their frame while maintaining leg entanglement. Alternatively, swim your arm under their frame while driving forward to collapse it. If the frame is too strong, use it as an opportunity to transition - either advance to back control by going around the frame, or drop to a leg attack while they're committed to the upper body frame.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -384,7 +364,7 @@ Starting from backside 50-50 top, practice finishing sequence for heel hook, out
 - **[[Positions/Ashi Garami/Honey Hole]]** - Alternative leg entanglement configuration from top
 - **[[Transitions/Heel Hook]]** - Primary submission finish from this position
 - **[[Transitions/Outside Heel Hook]]** - Alternative heel attack option from this position
-- **[[Transitions/Toe Hold]]** - Complementary leg attack when heel is defended
+- **[[Submissions/Toe Hold]]** - Complementary leg attack when heel is defended
 
 
 </section>

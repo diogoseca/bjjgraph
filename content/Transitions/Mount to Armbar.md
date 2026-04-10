@@ -204,13 +204,13 @@ The Mount to Armbar serves as the cornerstone of the mount attack system, functi
 
 - [[Positions/Mount/Mounted Triangle]] - Alternative submission when armbar is defended by elbow withdrawal
 
-- [[Transitions/Americana]] - Alternative attack targeting bent-arm defense of the armbar
+- [[Submissions/Americana]] - Alternative attack targeting bent-arm defense of the armbar
 
-- [[Transitions/Armbar Finish]] - Completion transition from Armbar Control to game-over
+- [[Armbar from Armbar Control]] - Submission finish executed from Armbar Control after completing this transition
 
 - [[Transitions/Consolidate Mount]] - Mount maintenance transition used before committing to armbar attack
 
-- [[Transitions/Kimura]] - Alternative submission creating attacking dilemma with armbar
+- [[Submissions/Kimura]] - Alternative submission creating attacking dilemma with armbar
 
 - [[Transitions/Gift Wrap to Technical Mount]] - Alternative control path when opponent defends arm isolation
 

@@ -186,6 +186,8 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Anaconda Choke?</p>
+
 - Thread your choking arm under their near arm and around their neck before connecting hands - the arm-in configuration is essential for proper anaconda mechanics
 - Use gable grip (palm-to-palm) for maximum structural integrity and choking pressure
 - Drive chest pressure into their trapped shoulder throughout the entire technique to prevent escape
@@ -200,6 +202,8 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Anaconda Choke?</p>
+
 - Front headlock or turtle position established with access to opponent's neck and near-side arm
 - Opponent's near arm exposed and accessible for arm-in grip threading
 - Successful arm threading under opponent's arm and around their neck completed
@@ -212,6 +216,8 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Anaconda Choke step by step?</p>
 
 1. **Establish front headlock**: From front headlock or turtle control, ensure you have head and arm control with your chest driving pressure down onto their upper back and shoulder. Your hips should be beside or slightly behind theirs.
 2. **Thread the arm**: Thread your choking arm under their near-side arm, reaching around and across their neck toward their far shoulder. Your bicep should press against one side of their neck while their trapped arm/shoulder creates pressure on the other side.
@@ -240,6 +246,8 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Anaconda Choke?</p>
+
 - **Opponent pulls trapped arm free before grip is secured** (Effectiveness: High) - Your Response: Immediately transition to Darce choke by threading your arm deeper across their neck. The arm escape actually opens the Darce angle that wasn't available before. → Leads to [[Positions/Front Headlock]]
 - **Opponent posts hand to block the gator roll** (Effectiveness: Medium) - Your Response: Maintain the grip and chest pressure, then walk your hips further to the opposite side to change the roll angle. Alternatively, finish the choke standing by pulling up on the grip while driving your chest down. → Leads to [[Positions/Front Headlock]]
 - **Opponent creates space by bridging before you can roll** (Effectiveness: Medium) - Your Response: Drive chest deeper into their trapped shoulder as they bridge - their elevation actually exposes their neck more. Walk hips laterally to maintain perpendicular angle and use their bridge momentum to time your roll. → Leads to [[Positions/Front Headlock]]
@@ -251,6 +259,8 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Anaconda Choke?</p>
 
 ### 1. Threading the arm over instead of under opponent's arm
 
@@ -285,6 +295,8 @@ Strategically, the anaconda excels when opponents shoot takedowns or turn into y
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Anaconda Choke (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics
 Practice the arm threading and grip connection from static front headlock position. Partner offers no resistance. Focus on proper gable grip configuration, arm threading path, and chest pressure establishment. 50 repetitions daily.
 
@@ -302,48 +314,12 @@ Positional sparring starting from front headlock or turtle with opponent working
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What distinguishes the anaconda choke from the Darce choke in terms of arm threading?
-**A**: The anaconda threads from the front, going under the opponent's near arm and then around their neck with hands connecting on the far side. The Darce threads from behind/under the armpit, going across the neck and connecting hands on the near side. Both are arm-in head-and-arm chokes but with opposite threading directions that require different finishing mechanics.
-
-**Q2**: What is the optimal grip configuration for the anaconda choke and why?
-**A**: The gable grip (palm-to-palm) provides optimal structural integrity because it distributes force across both arms equally and is extremely difficult for opponents to break through hand fighting. Keep wrists straight and forearms parallel while pulling elbows tight together. The S-grip is acceptable when hand position doesn't allow gable grip but provides slightly less strength.
-
-**Q3**: Your opponent posts their hand to block your gator roll - how do you adjust?
-**A**: You have two options: First, maintain grip and chest pressure while walking your hips further to the opposite side to change the roll angle and work around their post. Second, abandon the roll and finish standing by pulling up on the grip while driving your chest down and sprawling your hips back. The standing finish is higher percentage against strong posters.
-
-**Q4**: What is the correct direction of force application when finishing the anaconda choke?
-**A**: Pull your choking elbow toward your own hip while simultaneously expanding your chest outward. This creates a scissoring action that compresses the carotid arteries. The forearm should angle approximately 45 degrees across the side of their neck - attacking blood flow rather than the windpipe. Avoid straight pushing into the throat.
-
-**Q5**: Your opponent pulls their trapped arm free during your anaconda setup - what immediate adjustment do you make?
-**A**: Immediately transition to Darce choke by sliding your choking arm deeper across their neck and threading to the far shoulder. The arm escape actually opens the Darce angle that wasn't available with the arm trapped inside. Never try to re-trap the arm - flow to the submission that their defensive movement creates.
-
-**Q6**: What three conditions must be met before initiating the gator roll?
-**A**: First, grip must be locked tight with no gaps between your forearms and their neck/shoulder. Second, chest pressure must have broken opponent's posture so their head is pulled down. Third, their base must be compromised (usually by walking your hips to one side). Committing to the roll without all three conditions allows posting, grip breaks, or position escapes.
-
-**Q7**: Why does the arm-in configuration make the anaconda particularly difficult to defend once locked?
-**A**: The trapped arm actually reinforces the choking mechanism rather than creating defensive space. When the opponent tries to pull their arm out, they often tighten the choke on themselves. Their trapped shoulder becomes part of the choking structure, pressing against one side of their neck while your bicep presses the other side. This leaves only one free hand to fight the grip versus two in a standard guillotine.
-
-**Q8**: How do you manage energy expenditure during extended anaconda control exchanges?
-**A**: Rely on skeletal structure and body weight rather than muscular squeezing. Keep grip locked but relatively relaxed between submission attempts - constant maximum squeezing exhausts forearms without benefit. Use chest pressure from body positioning rather than pushing with arms. The position energetically favors the attacker because the defender must actively fight both the choke and positional control simultaneously.
-
-**Q9**: When should you transition from anaconda to back take instead of continuing the choke attempt?
-**A**: Transition to back take when the opponent turns into your grip exposing their back. This defensive reaction gives you access to hooks and seat belt control for a higher-percentage position than fighting a contested choke. Also consider the transition if opponent has successfully created enough space that the choke is no longer tight, or if you're in competition and position points become valuable.
-
-**Q10**: What role does the gator roll play in the anaconda finishing mechanics beyond simply changing position?
-**A**: The gator roll serves multiple critical functions: it prevents the defender from posturing up to relieve pressure, creates optimal finishing angle with bodies perpendicular, uses momentum to tighten the choke during rotation, and lands you in a position where your body weight reinforces the squeeze. The roll also disorients the defender and eliminates their ability to post or base during the crucial tightening phase.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Anaconda Choke?</p>
 
 The anaconda choke is a blood choke that can cause unconsciousness rapidly once fully locked. Always tap early in training when you feel the choke getting tight - there is no benefit to going unconscious. Partners should release immediately upon feeling a tap and remain attentive for verbal or physical tap signals throughout. When applying the choke, release pressure gradually and be prepared to catch your partner if they go unconscious. Never crank or twist the neck during the choke - all pressure should be applied to the sides of the neck through squeezing mechanics. Beginners should practice with experienced partners who understand proper tap timing. Avoid this technique if you have neck injuries, cervical spine issues, or are training with partners who don't respect tap signals.
 

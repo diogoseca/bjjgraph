@@ -154,6 +154,8 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape from Mounted Crucifix?</p>
+
 - Bottom player plants feet firmly on the mat and loads their hips in preparation for an explosive bridge
 - Bottom player's breathing pattern changes to rapid inhalation followed by breath-holding, signaling imminent explosive effort
 - Bottom player begins subtle hip rocking or weight testing, probing for the optimal escape direction
@@ -166,6 +168,8 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape from Mounted Crucifix?</p>
 
 - Maintain heavy hip pressure and tight knee squeeze to prevent the angular displacement that enables arm extraction
 - Anticipate the bridge direction and adjust weight distribution to ride rather than resist the movement
@@ -181,6 +185,8 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape from Mounted Crucifix?</p>
 
 ### 1. Drop weight and squeeze knees tight when bridge is initiated
 
@@ -218,6 +224,8 @@ Defending against the hip escape from mounted crucifix means maintaining one of 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape from Mounted Crucifix?</p>
+
 ### → [[Positions/Mount/Mounted Crucifix]]
 
 Maintain tight knee pressure and heavy hips throughout the escape attempt. Drop weight immediately when the bridge begins, ride the movement rather than resisting it, and re-center as soon as the bridge subsides. Keep legs deeply threaded to maintain arm control through the dynamic movement.
@@ -233,6 +241,8 @@ When the opponent's hip escape creates significant lateral movement, flow with t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape from Mounted Crucifix?</p>
 
 ### 1. Sitting upright with weight high when the opponent begins bridging
 
@@ -262,6 +272,8 @@ When the opponent's hip escape creates significant lateral movement, flow with t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape from Mounted Crucifix?</p>
+
 **Phase 1: Control Maintenance** - Maintaining crucifix control against progressive resistance escape attempts
 Partner attempts hip escapes at increasing intensity (30%, 50%, 75%, 100%). Focus on keeping knees tight, hips heavy, and riding the bridge movement without losing arm entanglement. Develop the feeling of when control is secure versus when it is beginning to slip.
 
@@ -278,26 +290,6 @@ Full positional sparring from mounted crucifix with unrestricted escape attempts
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt the hip escape from mounted crucifix?
-**A**: The earliest cue is the opponent firmly planting both feet on the mat and loading their hips by pressing their lower back into the ground. This preparatory position is necessary to generate bridging force and typically occurs one to two seconds before the explosive movement. Secondary cues include changes in breathing pattern, subtle hip rocking, and core tensing. Recognizing these preparatory movements allows you to preemptively tighten control before the escape begins.
-
-**Q2**: How should you adjust your weight distribution when you feel the opponent begin to bridge?
-**A**: Immediately drive your weight forward and down, lowering your center of gravity toward their chest while squeezing knees tight. Avoid posting hands on the mat if possible, as this lifts weight off the opponent. Instead, use your chest pressure and hip heaviness to absorb the bridge. If the bridge has a directional component, shift your weight slightly toward the opposite side to counter the lateral force while maintaining leg entanglement on the trapped arms.
-
-**Q3**: When should you abandon maintaining mounted crucifix and transition to back control instead?
-**A**: Transition to back control when the opponent's hip escape has created more than approximately thirty degrees of angular displacement and their arm is beginning to slide free from your leg entanglement. At this point, maintaining crucifix requires fighting against their momentum, while following the direction of their escape naturally positions you for back hooks. The opponent's own escape movement provides the momentum for your transition. Recognizing this tipping point and committing to back control preserves dominant position rather than losing control entirely.
-
-**Q4**: Your opponent keeps timing their escape attempts to your submission setups - how do you break this pattern?
-**A**: Vary your attack rhythm by feinting submissions without fully committing, forcing the opponent to react defensively without receiving the weight shift they rely on for escape timing. Alternate between genuine submission threats and pressure maintenance phases so the opponent cannot predict when the weight shift will occur. You can also bait the escape by simulating a weight shift and then immediately tightening control when they initiate the bridge, catching them in a compromised position with depleted energy.
-
-
-
-</section>
 
 
 </main>

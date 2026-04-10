@@ -165,6 +165,8 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 ## Position Definition
 
+<p class="section-subtitle">What is Inverted Guard (Top)?</p>
+
 - Top player maintains standing or combat base position with weight distributed to prevent being pulled into berimbolo or back take sequences by the inverted opponent
 - Top player controls distance through strategic grips on opponent's pants, legs, or belt to prevent optimal inversion angles and regulate engagement distance
 - Top player maintains awareness of opponent's rotation and hip movement to anticipate and counter berimbolo entries, back takes, and leg entanglement attempts
@@ -176,6 +178,8 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Inverted Guard (Top)?</p>
 
 - Understanding of berimbolo mechanics and common back take sequences from inverted guard to recognize threats early
 - Developed pressure passing skills with ability to apply controlled weight without overcommitting forward
@@ -189,6 +193,8 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Inverted Guard?</p>
 
 - Recognize inversion attempts early and immediately attack with appropriate passing pressure to prevent optimal positioning
 - Control opponent's rotation and hip movement through strategic grips and weight distribution
@@ -204,6 +210,8 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Inverted Guard (Top)?</p>
 
 **If opponent inverts with hips elevated and begins rotating for berimbolo entry:**
 - Execute **[[Transitions/Stack Pass/Attacker|Stack Pass]]** → [[Positions/Side Control]] (Probability: 65%)
@@ -237,6 +245,8 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Inverted Guard?</p>
 
 ### 1. Overcommitting weight forward into berimbolo sequence without proper base
 
@@ -281,6 +291,8 @@ From the top perspective, facing an opponent in Inverted Guard requires strategi
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Inverted Guard attacks?</p>
+
 ### Stack pass drilling against inverted guard with progressive resistance
 
 Partner establishes inverted guard while you practice stack passing mechanics with graduated resistance. Focus on proper pressure angles, controlling opponent's rotation, and maintaining position throughout the pass. Start with cooperative drilling and increase resistance as mechanics improve.
@@ -320,38 +332,6 @@ Partner actively attempts single leg X, X-guard, and ashi garami entries from in
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary danger when engaging an opponent in inverted guard, and how should you position your base to mitigate it?
-**A**: The primary danger is the berimbolo or rolling back take sequence where the inverted player uses your forward momentum to spin underneath and take your back. To mitigate this, maintain a wide base with weight distributed evenly, keep your hips back rather than driving forward, and control the opponent's far hip or pants to prevent them from initiating rotation. Never lean your weight forward without first controlling their hips.
-
-**Q2**: When an opponent starts inverting, what is the optimal timing window to apply pressure and shut down their position?
-**A**: The optimal timing window is during the initial inversion phase before they establish full shoulder contact and hip elevation. Once they achieve optimal inversion with elevated hips and rotational capability, passing becomes significantly harder. Attack immediately when you see them begin to turn their hips and shoulders toward the mat, before they can establish grips and foot placement on your body.
-
-**Q3**: Your opponent has established inverted guard with good grips. What specific grips should you prioritize breaking first, and why?
-**A**: Prioritize breaking the grip on your far hip or belt first, as this is the grip that enables berimbolo rotation and controls your center of gravity. Without this grip, the opponent cannot effectively pull themselves underneath you. Secondary priority is the sleeve grip that controls your posting hand, as this prevents you from establishing base when they attempt sweeps or back takes.
-
-**Q4**: How do you recognize the difference between a defensive inversion for guard retention versus an offensive inversion setting up a berimbolo?
-**A**: A defensive inversion typically shows the opponent inverting away from you with focus on creating distance and recovering guard, often with less aggressive gripping. An offensive berimbolo setup shows the opponent inverting toward you with aggressive far hip or belt grip, foot placement on your hip line, and rotational intent pulling your weight forward. The offensive version maintains close distance while the defensive version creates separation.
-
-**Q5**: When should you choose a stack pass versus a smash pass against inverted guard, and what body positioning cues indicate each?
-**A**: Choose a stack pass when the opponent's hips are elevated with legs extended upward, creating vertical space to drive their knees toward their face. Choose a smash pass when the opponent's hips are more laterally oriented with legs to one side, allowing you to flatten them with shoulder pressure. If they maintain active hip rotation, stack pass is generally more effective; if their hips are relatively static, smash pass applies better.
-
-**Q6**: Your opponent keeps using granby rolls to escape your passing pressure. What adjustment should you make to shut down this escape?
-**A**: To shut down granby rolls, control the opponent's rotation by establishing a grip on their far shoulder or collar that prevents them from completing the roll. Additionally, follow their rotation with your pressure rather than maintaining a static angle - as they begin to roll, circle your pressure in the same direction while keeping your weight heavy on their hips. Headquarters position is particularly effective as it controls their bottom leg and limits rolling options.
-
-**Q7**: What are the warning signs that you're about to be caught in a leg entanglement entry from inverted guard?
-**A**: Warning signs include: the opponent's inside foot hooking behind your knee or on your hip line, their outside leg threading between your legs, aggressive gripping of your pants at the knee or ankle, and hip rotation bringing their legs across your center line. If you feel their foot approaching your hip crease while they control your sleeve or pants, immediately step back and break grips before they can establish X-guard or single leg X entries.
-
-**Q8**: How should you adjust your passing strategy when facing an opponent who is extremely flexible and can maintain inverted guard for extended periods?
-**A**: Against highly flexible opponents, avoid extended engagement that allows them to use their mobility advantage. Use rapid grip changes to prevent them from establishing optimal controls, and apply intermittent heavy pressure rather than sustained grinding. Consider using more dynamic passing like leg drags or toreando movements that test their ability to track you, rather than purely pressure-based approaches that play into their strength of maintaining unusual positions.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

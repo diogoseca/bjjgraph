@@ -184,6 +184,8 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee on Belly?</p>
+
 - Drive weight through the knee into the solar plexus or lower rib area for maximum pressure effect
 - Maintain hip elevation above the opponent to preserve mobility and prevent guard recovery
 - The non-posting foot stays light and mobile, ready to adjust for balance or transition
@@ -198,6 +200,8 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee on Belly?</p>
+
 - Established Side Control with crossface or underhook control preventing opponent's head movement
 - Opponent's near arm controlled or pinned to prevent framing against the knee
 - Clear hip space on opponent - no active knee shield or half guard recovery attempts in progress
@@ -209,6 +213,8 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee on Belly step by step?</p>
 
 1. **Secure grips**: From Side Control, establish your primary control grip - far lapel grip with your nearside hand or collar tie behind the head. Your far hand posts on the mat or controls the near hip to prevent bridging and turning motions.
 2. **Hip elevation**: Begin shifting your hips upward while maintaining chest connection. Your weight transfers from distributed chest pressure toward your posting hand and the knee that will establish position. This is the vulnerable moment - move decisively.
@@ -237,6 +243,8 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee on Belly?</p>
+
 - **Bottom player shrimps away and attempts to insert knee shield or recover guard** (Effectiveness: High) - Your Response: Follow the hip movement, maintaining knee pressure while transitioning back to Side Control or pursuing mount as they create space → Leads to [[Positions/Half Guard]]
 - **Bottom player pushes against the knee with both hands to create space** (Effectiveness: Medium) - Your Response: Immediately attack the near arm with armbar or Kimura as their hands are occupied and extended - this is your primary submission entry → Leads to [[Positions/Side Control]]
 - **Bottom player explosively bridges to destabilize your base** (Effectiveness: Medium) - Your Response: Post with your far foot and ride the bridge, maintaining knee connection. As they return to mat, increase pressure or transition to mount during their recovery → Leads to [[Positions/Side Control]]
@@ -248,6 +256,8 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee on Belly?</p>
 
 ### 1. Leaning forward over the opponent rather than sitting hip weight down through the knee
 
@@ -282,6 +292,8 @@ The transition's value extends beyond the points scored. Knee on Belly serves as
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee on Belly (Attacker)?</p>
+
 **Week 1-2** - Position mechanics
 Practice the transition from Side Control with a compliant partner, focusing on proper knee placement, foot positioning, and weight distribution. Drill entering and holding the position for 10-second intervals before returning to Side Control.
 
@@ -299,54 +311,12 @@ Implement Knee on Belly in positional sparring starting from Side Control. Focus
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of establishing Knee on Belly from Side Control?
-**A**: The primary goal is to create concentrated pressure through the knee that forces defensive reactions from the opponent. This accomplishes two objectives: scoring points in competition (2-3 points depending on ruleset) and creating submission opportunities when the opponent reacts predictably to escape the discomfort. The position transforms static control into dynamic attacking.
-
-**Q2**: Where exactly should you place your knee for maximum effectiveness?
-**A**: The knee should be placed in the solar plexus or lower rib area, just below where the ribs meet at the sternum. This location creates maximum breathing restriction and pain compliance. Placing the knee on the stomach or hip dramatically reduces effectiveness because these areas lack the bone structure that amplifies pressure.
-
-**Q3**: Your opponent pushes against your knee with both hands - what submission opportunity does this create?
-**A**: When the opponent pushes your knee with both hands, their arms extend and become vulnerable. This creates an immediate armbar opportunity on the near arm. You can also attack with a Kimura by circling to the exposed arm. The key recognition is that hands occupied pushing the knee cannot defend submissions, making this defense self-defeating.
-
-**Q4**: How should your weight distribution differ between leaning forward and sitting down through the knee?
-**A**: Weight should be distributed vertically downward through the knee, not horizontally forward by leaning. Keep shoulders stacked directly above hips and drive pressure down like drilling into the mat. Leaning forward feels heavy but creates an unstable position easily disrupted by bridges and actually reduces effective pressure on the opponent's torso.
-
-**Q5**: Your opponent explosively bridges while you're in Knee on Belly - what is the correct response?
-**A**: Post firmly with your far foot while maintaining knee connection to ride the bridge. Do not fight the upward momentum directly. As the opponent returns to the mat, immediately increase pressure or transition to mount while they're recovering from the exertion. Their bridge creates space that facilitates your mount transition.
-
-**Q6**: Why is it critical to clear frames before transitioning from Side Control to Knee on Belly?
-**A**: The transition requires lifting your chest off the opponent, creating a momentary reduction in pressure. If frames exist, the opponent will immediately use this window to insert a knee shield or recover guard. Clearing frames while in Side Control ensures the opponent cannot capitalize on the brief pressure reduction during your transition.
-
-**Q7**: What angle should your posting foot be positioned at, and why does this matter?
-**A**: The posting foot should be planted wide with toes pointing outward at approximately 45 degrees from the opponent's body. This creates a triangular base that provides stability against bridges, shrimps, and turning motions from multiple directions. A narrow base or straight foot alignment makes you vulnerable to being swept when the opponent moves laterally.
-
-**Q8**: When is the optimal timing window to transition from Side Control to Knee on Belly?
-**A**: The optimal timing is immediately after neutralizing the opponent's last escape attempt when they are recovering energy and mentally resetting. Also effective is during their exhale when breathing is compromised by your chest pressure. Avoid transitioning when they are actively framing, have just gained an underhook, or are gathering energy for an escape attempt.
-
-**Q9**: Your opponent turns away from you in Knee on Belly - what chain attacks become available?
-**A**: When the opponent turns away, their back becomes exposed for back takes by following their rotation. Additionally, baseball bat choke becomes available as their collar is exposed, and far-side armbar opportunities open as they extend to turn. The turning motion also creates space to transition to mount by stepping over their hip as they rotate.
-
-**Q10**: How does the Floating Knee on Belly variant differ in application from the standard position?
-**A**: Floating Knee on Belly uses lighter knee pressure with greater mobility, treating the position as a transition platform rather than a holding position. The knee hovers rather than driving, allowing rapid transitions to mount, back takes, or submissions. This variant is effective against opponents who time escapes well because the mobility allows you to follow their movement continuously.
-
-**Q11**: What grip combination provides the best control for initiating the Knee on Belly transition?
-**A**: The far lapel grip with the nearside hand provides head control and prevents the opponent from sitting up or turning toward you. The far hand either posts on the mat for base during the transition or controls the near hip to prevent bridging. This combination maintains at least one control point throughout the transition while providing options for both stabilization and follow-up attacks.
-
-**Q12**: Your opponent stays completely still under your Knee on Belly - how do you escalate the position?
-**A**: A static opponent is absorbing pressure but not creating escape opportunities you can exploit. Escalate by increasing knee pressure to force a reaction, adjusting grips to threaten a collar choke, or switching to cross collar grip to set up a baseball bat choke. You can also transition to mount since their passivity means no active defense against positional advancement. The goal is always to force a reaction that opens an attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee on Belly?</p>
 
 Knee on Belly creates significant pressure on the rib cage and solar plexus that can cause injury if applied recklessly. When training, build pressure gradually rather than dropping full weight immediately, especially with newer training partners who may not know how to tap or signal discomfort appropriately. Be aware that direct pressure to the solar plexus can cause temporary breathing difficulty and nausea. Partners with rib injuries, recent abdominal surgery, or respiratory conditions should communicate these issues before drilling. During competition, the position is legal and expected, but training should emphasize controlled application to prevent rib fractures or cartilage damage that can occur from sudden, full-force knee placement.
 

@@ -28,7 +28,7 @@ The sweep operates on a three-phase mechanical sequence: first, two-on-one sleev
 
 This sweep is particularly effective in gi grappling where grip control provides leverage advantages, though no-gi variations exist using wrist and tricep controls. The technique integrates naturally into a broader half guard attack system, chaining with underhook sweeps, back takes, deep half entries, and kimura attacks depending on the opponent's defensive reaction. Competition practitioners value the sweep for its direct path to a 4-point mount position.
 
-**From Position**: [[Positions/Half Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Butterfly Hook Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -219,7 +219,7 @@ The John Wayne Sweep is a cornerstone technique within the offensive half guard 
 
 - [[Transitions/Arm Drag to Back]] - Chain technique - option when opponent defends by withdrawing hips
 
-- [[Submissions/Kimura from Guard]] - Counter technique - submission attack on posted arm instead of pistol break
+- [[Transitions/Kimura Sweep]] - Chain technique - kimura grip attack on posted arm as alternative when pistol break fails
 
 - [[Positions/Half Guard/Lockdown]] - Alternative half guard control - can be used to control opponent before sweep setup
 

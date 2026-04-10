@@ -164,6 +164,8 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Re-Guard from Headquarters?</p>
+
 - Bottom player's hands move to your hips, shoulders, or biceps establishing stiff-arm frames rather than gripping for sweeps
 - Bottom player turns onto their side and begins driving hips away from you with a shrimping motion
 - Near-side knee begins pulling toward their chest through the gap between your bodies
@@ -176,6 +178,8 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Re-Guard from Headquarters?</p>
 
 - Maintain constant hip-to-hip pressure to eliminate the space needed for leg recovery and shrimping mechanics
 - Secure crossface and underhook as fast as possible to shut down hip mobility before frames are established
@@ -190,6 +194,8 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Re-Guard from Headquarters?</p>
 
 ### 1. Drive crossface and drop chest weight to flatten opponent before they establish frames
 
@@ -227,6 +233,8 @@ The fundamental defensive strategy against re-guard is maintaining heavy hip-to-
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Re-Guard from Headquarters?</p>
+
 ### → [[Positions/Side Control]]
 
 Secure crossface and underhook combination early, flatten the bottom player onto their back, and drive chest pressure while walking your hips around to perpendicular alignment. Complete the consolidation before they can establish frames by prioritizing upper body control over leg management.
@@ -242,6 +250,8 @@ Follow each hip escape attempt by adjusting your angle and re-establishing hip-t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Re-Guard from Headquarters?</p>
 
 ### 1. Chasing opponent's legs instead of prioritizing upper body control during their re-guard attempt
 
@@ -271,6 +281,8 @@ Follow each hip escape attempt by adjusting your angle and re-establishing hip-t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Re-Guard from Headquarters?</p>
+
 **Week 1-2: Consolidation Fundamentals** - Learning the sequence from Headquarters to side control without resistance
 Partner lies in bottom Headquarters position without attempting recovery. Practice the consolidation sequence: secure crossface, establish underhook, drop chest weight, walk hips to perpendicular alignment. Focus on smooth weight transitions and proper body positioning. Repeat 15-20 times per session to develop the motor pattern of immediate consolidation from Headquarters. Emphasis on speed of upper body control establishment.
 
@@ -287,29 +299,6 @@ Partner uses full-resistance re-guard attempts with their best techniques and va
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should the passer prioritize upper body control over leg control when preventing a re-guard from Headquarters?
-**A**: Upper body control (crossface, underhook, chest pressure) eliminates the hip mobility that powers all leg recovery mechanics. The bottom player's legs can only recover if their hips can generate shrimping movement, and hip movement requires the ability to turn onto their side with shoulder freedom. By controlling the head and shoulders first, you neutralize the engine that drives leg recovery rather than fighting the symptoms. Chasing legs is reactive and disadvantageous because the bottom player has superior leg dexterity from their position.
-
-**Q2**: Your opponent executes a strong hip escape and begins pulling their near-side knee through - what is your highest-percentage response?
-**A**: Rather than trying to push their knee back out, transition immediately into a knee slice pass using their partially recovered knee as the passing lane. Drive your near-side knee through the gap alongside their recovering knee, using their own movement to create the angle for your pass. This converts their defensive action into your offensive opportunity. If you try to simply block the knee, you're fighting their leg strength with your arm strength in a disadvantageous exchange, and they can simply chain into another shrimp angle.
-
-**Q3**: What is the critical timing window for the passer to consolidate from Headquarters before re-guard becomes likely?
-**A**: The passer has approximately 1-3 seconds after clearing the legs to establish upper body control before the bottom player initiates effective recovery. This window begins when your legs clear their guard structure and ends when they establish their first structural frame on your hip or shoulder. Use this window to immediately drive crossface, secure underhook, and drop chest weight. If you spend this window adjusting grips, repositioning your base, or hesitating on which pass to attempt, the bottom player will establish frames that make consolidation significantly harder.
-
-**Q4**: How do you distinguish between a bottom player committing to a shrimp recovery versus setting up a granby roll?
-**A**: A shrimp recovery shows the bottom player driving their hips linearly away from you while maintaining frames, with their back largely facing the ceiling and feet planting on the mat for push-off power. A granby roll setup shows the bottom player tucking their chin, loading weight onto their shoulder, and curling their hips upward rather than away - the motion is rotational rather than linear. When you detect the rotational setup, immediately sprawl your hips back and downward to remove the space underneath you that the granby needs. Against the linear shrimp, follow forward with your hips to close the distance.
-
-**Q5**: Your opponent has established a knee shield after partially recovering from Headquarters - what systematic options remain for completing the pass?
-**A**: With a knee shield established, you have three primary options: first, smash pass by collapsing your weight laterally across their knee shield to pin it and walk around to side control; second, backstep over the knee shield to establish reverse headquarters on the opposite side; third, address the knee shield with a knee slice by stapling their bottom leg and sliding your knee through above their shield while maintaining crossface. The worst response is trying to simply push through the knee shield with forward pressure, which reinforces their guard structure. Accept that full open guard recovery was prevented and work the half guard passing game methodically.
-
-
-
-</section>
 
 
 </main>

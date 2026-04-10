@@ -148,6 +148,8 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll Escape from Russian Cowboy?</p>
+
 - Bottom player reaches down to grip your hooking ankle or foot, indicating they are preparing to manage the hook during rotation
 - Hip weight shifts toward your free leg side with increasing rotational tension visible through their core engagement
 - Bottom player tucks chin more aggressively and rounds shoulders tightly, compacting their body for the rolling motion
@@ -160,6 +162,8 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll Escape from Russian Cowboy?</p>
 
 - Maintain constant heavy chest-to-back pressure to prevent the bottom player from generating rotational momentum
 - Monitor the bottom player's hip alignment for loading patterns that signal an imminent roll attempt
@@ -175,6 +179,8 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll Escape from Russian Cowboy?</p>
 
 ### 1. Sprawl hips back and drive chest weight down onto opponent's upper back to kill rotational momentum
 
@@ -205,6 +211,8 @@ Defending against the Roll Escape from Russian Cowboy requires the top player to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll Escape from Russian Cowboy?</p>
+
 ### → [[Positions/Twister Control/Truck]]
 
 Follow the roll by maintaining chest contact and threading your free leg to establish full truck position. Use the opponent's rotational momentum to your advantage by matching their direction and deepening control as they move through the rotation.
@@ -220,6 +228,8 @@ Kill the roll before it develops by recognizing loading cues early, sprawling yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll Escape from Russian Cowboy?</p>
 
 ### 1. Failing to recognize pre-roll loading patterns until the roll is already committed
 
@@ -249,6 +259,8 @@ Kill the roll before it develops by recognizing loading cues early, sprawling yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll Escape from Russian Cowboy?</p>
+
 **Recognition Drill** - Pre-roll cue identification and pattern recognition
 Partner loads for the roll escape slowly and with verbal cues, allowing the top player to identify loading patterns including hip shifting, ankle grip, and chin tuck. Build pattern recognition before adding speed or resistance.
 
@@ -265,26 +277,6 @@ Positional sparring from Russian Cowboy where the bottom player can use any esca
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate a roll escape attempt from Russian Cowboy bottom?
-**A**: The earliest cues include the bottom player reaching for your hooking ankle or foot, shifting their hip weight toward your free leg side, and tucking their chin more aggressively while rounding their shoulders preparing to roll. You may also feel them create rotational tension through their core before the explosive movement. These loading patterns typically occur one to two seconds before the actual roll, providing a window for preemptive counter-pressure.
-
-**Q2**: Should you follow the roll or attempt to kill the rotation, and what factors determine this decision?
-**A**: The decision depends on your hook depth and upper body control quality. If your hook is deep and seatbelt is tight, kill the rotation by sprawling your hips and driving chest weight forward because you have sufficient control to prevent the escape entirely. If your hook is shallow or your grips have been partially stripped, follow the roll and thread your second leg to transition into truck position, converting their escape attempt into your positional advancement to an even more dominant position.
-
-**Q3**: How do you maintain control if the bottom player begins a roll escape while you are mid-submission setup?
-**A**: Abandon the submission attempt immediately and prioritize positional control. Drive your chest weight down onto their upper back while sprawling your hips to kill rotational momentum. Re-establish your primary control points including seatbelt and hook depth before resuming any submission attempts. Continuing a submission setup while the opponent is mid-escape is the most common way to lose the Russian Cowboy position entirely, as your attention and grips are divided.
-
-**Q4**: What is the correct response if you fail to prevent the roll and the bottom player reaches turtle?
-**A**: Immediately transition to turtle top attacking position by maintaining whatever upper body connection you still have from the Russian Cowboy control. Drive your chest onto their back, establish harness or seatbelt control, and begin working for back control with hooks. The key is not allowing any separation during the transition. If you maintain chest contact throughout their roll, you arrive in turtle top with significant control advantages over a standard turtle approach.
-
-
-
-</section>
 
 
 </main>

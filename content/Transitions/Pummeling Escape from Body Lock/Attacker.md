@@ -194,6 +194,8 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pummeling Escape from Body Lock?</p>
+
 - Fight for inside position with your elbows before your hands - the elbow wedge is the primary mechanism that disrupts the lock
 - Coordinate hip movement with arm pummeling - rotate hips to create space on the side where you are threading your arm
 - Chain multiple pummel attempts without pausing - single isolated pummels are easily re-locked by experienced opponents
@@ -208,6 +210,8 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pummeling Escape from Body Lock?</p>
+
 - At least one arm retains enough mobility to initiate rotational pummeling motion against the opponent's forearm
 - Knees bent with wide base to maintain stability during the dynamic pummeling exchange
 - Recognition of opponent's grip configuration to identify the weaker side for initial pummel entry
@@ -220,6 +224,8 @@ As the attacker executing the pummeling escape, your objective is to systematica
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pummeling Escape from Body Lock step by step?</p>
 
 1. **Establish Strong Defensive Base**: Bend your knees deeply and widen your stance to create a stable platform that resists the opponent's forward pressure and throwing attempts. Lower your center of gravity while keeping your back relatively straight. This base must be maintained throughout the entire pummeling sequence to prevent being taken down during the escape.
 2. **Identify Weak Side of Grip**: Assess the opponent's grip configuration to determine which side offers the best entry for your initial pummel. The weaker side is typically where their bottom arm crosses under their top arm in the lock. Feel for the gap between their forearm and your ribcage where your elbow can begin to wedge inside their grip structure.
@@ -250,6 +256,8 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pummeling Escape from Body Lock?</p>
+
 - **Opponent re-locks grip immediately after your initial pummel by squeezing tighter and re-connecting hands** (Effectiveness: High) - Your Response: Do not pause after the first pummel entry. Chain directly into the second pummel or combine with hip rotation to maintain the space you created. A single pummel that stalls gives the opponent time to adjust. → Leads to [[Positions/Body Lock]]
 - **Opponent transitions to back control by hooking your far hip and inserting hooks as you create space with the pummel** (Effectiveness: Medium) - Your Response: Keep your hips square and low throughout the pummeling sequence. If you feel them reaching for hooks, immediately sit your hips to the mat for a controlled guard pull rather than allowing the back take. → Leads to [[Positions/Back Control]]
 - **Opponent drives forward aggressively with hip pressure to flatten you before you can complete the pummel sequence** (Effectiveness: Medium) - Your Response: Use the forward pressure to your advantage by combining the pummel with a level change. Drop your level sharply and use their forward momentum to create space underneath their arms for a deeper pummel entry. → Leads to [[Positions/Body Lock]]
@@ -261,6 +269,8 @@ As the attacker executing the pummeling escape, your objective is to systematica
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pummeling Escape from Body Lock?</p>
 
 ### 1. Attempting to pummel with straight arms using a pushing motion instead of circular elbow-first threading
 
@@ -300,6 +310,8 @@ As the attacker executing the pummeling escape, your objective is to systematica
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pummeling Escape from Body Lock (Attacker)?</p>
+
 **Phase 1: Solo Pummeling Mechanics** - Arm threading motion and hip coordination
 Practice the circular elbow-first pummeling motion against a wall or with resistance bands to develop correct muscle memory. Focus on coordinating hip rotation with arm threading, performing 50 repetitions per side per session until the motion becomes automatic and fluid.
 
@@ -320,39 +332,12 @@ During full standing sparring rounds, practice recognizing when you have been ca
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical advantage of the pummeling escape compared to direct grip-breaking methods?
-**A**: Pummeling inserts structural wedges (your elbows and forearms) between the opponent's arms and your torso, using skeletal frames to mechanically disrupt the lock from the inside. This creates bone-on-bone leverage that is far more sustainable than the muscular effort required to pull apart locked hands from the outside. The wedge effect expands the space between their arms and your body progressively, making the lock increasingly difficult to maintain regardless of the opponent's grip strength.
-
-**Q2**: Why is hip rotation essential during the pummeling entry and what angle should you target?
-**A**: Hip rotation of approximately 30-45 degrees creates space between the opponent's forearm and your ribcage by partially breaking the chest-to-back seal that makes the body lock effective. Without this rotation, the opponent's tight chest connection compresses your torso against their arms, leaving no gap for your elbow to thread through. The rotation must be sharp and committed to open sufficient space before the opponent can adjust their position to follow your hip movement.
-
-**Q3**: Your opponent re-locks their grip immediately after your first pummel entry - how do you adjust your approach?
-**A**: Never pause between pummel entries. The first pummel must flow directly into the second as a continuous two-beat motion. If the opponent is consistently re-locking after your first entry, you are likely pausing too long between pummels. Increase the speed of your second arm's entry by pre-loading the opposite hip rotation during your first pummel. Alternatively, switch to the single-arm-pummel-to-whizzer variant, using one underhook plus one overhook to disrupt the lock without requiring a second pummel.
-
-**Q4**: What base fundamentals must be maintained throughout the pummeling sequence and why?
-**A**: Knees must remain bent at least 30 degrees with feet shoulder-width apart or wider throughout the entire escape sequence. Weight stays on the balls of the feet with hips low. This base serves dual purposes: it resists the opponent's throwing and lifting attempts that become more likely during the dynamic movement of pummeling, and it provides the hip mobility needed to generate rotational space for arm threading. Losing your base during a pummel converts a controlled escape into an uncontrolled scramble where the opponent has significant advantages.
-
-**Q5**: When is the optimal timing window to initiate the pummeling escape?
-**A**: The best timing windows are when the opponent shifts their weight for an attack (loading for a throw, adjusting for a mat return), when they transition their grip configuration (switching from gable grip to another lock type), or in the moment immediately after defending one of their attacks when their body lock has temporarily loosened. Initiating the pummel during these transitions exploits the opponent's divided attention and the micro-gaps that appear in their grip during positional adjustments.
-
-**Q6**: What should you do immediately after successfully breaking the body lock?
-**A**: Immediately grip the opponent's wrists or biceps to prevent them from re-shooting for the body lock. Establish clinch control through collar ties or two-on-one grips while creating lateral distance by circling away. The critical error most practitioners make is celebrating the grip break without controlling the transition, which allows the opponent to dive right back into a body lock. Treat the grip break as a transition point, not an endpoint, and establish your preferred standing engagement position before releasing defensive grips.
-
-**Q7**: How do you modify the pummeling escape when the opponent has an extremely tight chest-to-back seal?
-**A**: Use the drop level variant. Lower your level significantly by deepening your knee bend, which changes the angle of the opponent's arms relative to your torso and creates space at your waist where the lock is less tight. The level change forces their arms higher on your body where they have less mechanical advantage. From the lowered position, initiate the hip rotation and pummel entry through the space created at your midsection before they can readjust their grip height.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pummeling Escape from Body Lock?</p>
 
 The pummeling escape involves dynamic rotational movements under pressure that can stress shoulder joints if arms are forced through tight spaces without proper technique. Always warm up shoulder joints thoroughly before drilling. During training, partners should release the body lock if the escaping player signals pain or discomfort in their shoulders. Avoid using explosive jerking motions to force pummels through extremely tight grips, as this can cause shoulder impingement or rotator cuff strain. Progress resistance gradually during drilling phases.
 

@@ -154,6 +154,8 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Pummeling from Saddle?</p>
+
 - Opponent's free leg becomes active and moves toward the space between your controlling hooks rather than framing on your hips
 - Opponent initiates subtle hip escape movement toward you rather than away, creating angle changes that loosen your figure-four
 - Opponent shifts hand placement from heel protection to framing on your knees or shins, indicating they are preparing to create space for leg insertion
@@ -166,6 +168,8 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Pummeling from Saddle?</p>
 
 - Maintain constant hip pressure into the trapped leg to deny the space needed for pummeling insertion
 - Monitor the opponent's free leg position continuously—any movement toward your controlling hooks signals a pummeling attempt
@@ -180,6 +184,8 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Pummeling from Saddle?</p>
 
 ### 1. Increase hip pressure and re-lock controlling configuration immediately upon recognizing pummeling attempt
 
@@ -217,6 +223,8 @@ As the defender against leg pummeling from saddle, you are the practitioner who 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Pummeling from Saddle?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 Maintain heavy hip pressure and immediately re-lock your figure-four or triangle configuration at the first sign of pummeling. Drive your inside controlling leg deeper across the opponent's hip and squeeze your legs together to eliminate the gap needed for insertion. Address their framing hands by stripping grips or pinning their arms before they can wedge your legs apart.
@@ -232,6 +240,8 @@ When saddle control is irretrievably compromised, proactively disengage by extra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Pummeling from Saddle?</p>
 
 ### 1. Failing to recognize pummeling attempts until the opponent's free leg is already deeply inserted between your controlling hooks
 
@@ -261,6 +271,8 @@ When saddle control is irretrievably compromised, proactively disengage by extra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Pummeling from Saddle?</p>
+
 **Phase 1: Recognition Drilling** - Identifying pummeling cues versus other escape attempts
 Partner alternates between pummeling attempts, boot scoot escapes, and forward rolls from saddle. Practice identifying which escape is being attempted within the first 1-2 seconds based on the direction and nature of the initial movement. Call out the escape type before responding defensively. Build pattern recognition at training pace before increasing speed.
 
@@ -277,26 +289,6 @@ Start in established saddle against fully resisting opponents who use all availa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates your opponent is about to attempt leg pummeling rather than another escape method?
-**A**: The earliest cue is a change in the opponent's free leg behavior—instead of framing on your hips to push you away (which signals boot scoot or standard escape), the free leg moves toward the space between your controlling hooks with an insertion angle. This is often preceded by a subtle hip escape toward you rather than away, which creates the angle change needed for the pummel. Recognizing this directional difference—toward your hooks versus toward your hips—gives you the maximum reaction window.
-
-**Q2**: When should you choose to attack a submission during the pummeling attempt versus re-locking your controlling configuration?
-**A**: Attack the submission when the opponent has clearly committed both hands to framing and their free leg to insertion, leaving their heel unprotected during the transition. Re-lock your configuration when the opponent is still in the early stages of pummeling with their hands split between heel protection and framing. The decision point is the opponent's hand positioning—if both hands are on your legs creating frames, their heel is exposed; if one hand guards the heel, re-locking control is the higher-percentage response.
-
-**Q3**: How do you prevent the opponent from using the hip switch pummel variant against your saddle control?
-**A**: The hip switch pummel relies on the opponent rotating their hips dramatically to create space. Counter this by maintaining heavy hip pressure directly into their trapped thigh and using your top controlling leg to block their hip rotation. When you feel the hip switch beginning, drive your weight forward and slightly toward the direction of their rotation to shut down the angle change before it creates the gap needed for insertion. Your hip pressure should feel like a wedge that gets tighter when they attempt to rotate.
-
-**Q4**: What is the correct response if the opponent successfully inserts their knee between your controlling legs but has not yet completed the full pummel?
-**A**: This is a critical decision point with a narrow window. Squeeze your controlling legs together on their inserted knee to trap it in place—this prevents further insertion while maintaining partial control. Simultaneously assess whether you can re-lock your triangle or figure-four around both their trapped leg and their inserted knee. If the insertion is too deep for re-locking, transition immediately to either a submission attempt on the now-exposed heel or a strategic disengage to guard passing position. Do not remain in a half-compromised saddle hoping the situation improves.
-
-
-
-</section>
 
 
 </main>

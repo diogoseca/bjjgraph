@@ -186,6 +186,8 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Squid Guard Entry?</p>
+
 - Redirect lapel fabric to the posting arm when opponent drives forward with pressure
 - Maintain hip angle toward the lapel grip side throughout the entry sequence
 - Use opponent's forward commitment against them by timing the arm wrap with their pressure
@@ -200,6 +202,8 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Squid Guard Entry?</p>
+
 - Established lapel grip with fabric already extracted from opponent's gi
 - Opponent driving forward with pressure passing approach using posting arm
 - Secondary grip controlling collar or far sleeve to limit opponent's options
@@ -212,6 +216,8 @@ From a systems perspective, squid guard serves as both an offensive platform and
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Squid Guard Entry step by step?</p>
 
 1. **Recognize trigger**: Identify when opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder—this forward commitment is the essential trigger for squid guard entry.
 2. **Feed lapel under arm**: Thread the lapel fabric under opponent's posting arm from inside to outside, passing the fabric beneath their tricep while maintaining your grip on the lapel end—use your elbow to create space for the feed.
@@ -240,6 +246,8 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Squid Guard Entry?</p>
+
 - **Opponent retracts arm before wrap completes and creates distance to reset** (Effectiveness: High) - Your Response: Maintain collar grip and immediately transition to spider or lasso guard using the same lapel fabric, preventing complete disengagement → Leads to [[Positions/Lapel Guard]]
 - **Opponent circles arm to strip lapel wrap before configuration sets** (Effectiveness: Medium) - Your Response: Follow their circular motion with your hips, maintaining tension on the lapel while transitioning to worm guard around their lead leg → Leads to [[Positions/Lapel Guard]]
 - **Opponent backsteps to change angle and avoid arm wrap completion** (Effectiveness: Medium) - Your Response: Sit up aggressively and pursue back take as their backstep opens the path behind them, using lapel grip to maintain connection → Leads to [[Positions/Lapel Guard]]
@@ -252,6 +260,8 @@ From a systems perspective, squid guard serves as both an offensive platform and
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Squid Guard Entry?</p>
 
 ### 1. Attempting squid guard entry against opponent with retracted arms and good posture
 
@@ -291,6 +301,8 @@ From a systems perspective, squid guard serves as both an offensive platform and
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Squid Guard Entry (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice lapel feeding mechanics with compliant partner. Focus on threading lapel under arm from inside to outside, securing deep grip, and establishing basic hip angle. No resistance—emphasize smooth, efficient motion.
 
@@ -308,54 +320,12 @@ Integrate squid guard entry into full sparring. Start from open guard and work t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that indicates the optimal moment for squid guard entry?
-**A**: The primary trigger is when the opponent commits to pressure passing by driving forward with their posting arm extended toward your hip or shoulder. This forward commitment traps them in the path of the lapel wrap and prevents quick retraction. Attempting entry against a postured opponent with retracted arms will fail because the lapel cannot reach around the arm.
-
-**Q2**: How does squid guard entry differ mechanically from worm guard entry?
-**A**: Worm guard wraps the lapel around opponent's leg, typically threading behind the knee to control their base. Squid guard redirects the lapel around the opponent's posting arm, threading under the tricep. Worm guard neutralizes leg-based passing while squid guard neutralizes pressure passing. The choice depends on whether opponent is attacking with their legs or driving forward with upper body pressure.
-
-**Q3**: Your opponent begins to retract their posting arm as you initiate the lapel feed—what adjustment maintains guard?
-**A**: Maintain your collar grip to prevent them from creating distance, then immediately transition to spider guard or lasso guard using the same lapel fabric. Feed the lapel into a bicep wrap instead of completing the squid configuration. This converts their defensive retraction into a different guard configuration rather than losing all control.
-
-**Q4**: Why is hip angle critical during squid guard entry and what is the optimal position?
-**A**: Hip angle of approximately 45 degrees toward the trapped arm side is essential because it loads sweeping mechanics and creates structural resistance to pressure passing. A flat hip position allows the opponent to smash through the guard despite the arm wrap. The angled hips use skeletal structure rather than muscular effort to maintain the configuration.
-
-**Q5**: What secondary grip must be maintained throughout squid guard entry and why?
-**A**: Collar grip (cross collar or same-side) must be maintained throughout the entry because it anchors the opponent in position while your lapel hand works. Without this grip, opponents can create distance and retract their arm before the wrap completes. The collar grip also prevents posture recovery after the arm wrap is established.
-
-**Q6**: How do you prevent the opponent from completing a knee cut pass while establishing squid guard?
-**A**: Establish active leg frames concurrent with the arm wrap. Your outside leg frames against their hip to block forward advancement, while your inside leg hooks behind their knee or establishes lasso-style control around their arm. These redundant leg defenses prevent leg-based passing while you complete the upper body configuration.
-
-**Q7**: When should you transition from worm guard to squid guard during a guard exchange?
-**A**: Transition when the opponent shifts from standing or leg-based passing to pressure passing with forward drive. If they begin smashing forward with upper body weight rather than working around your worm guard, redirect the lapel to their posting arm. Also transition when they successfully clear the leg wrap but leave their posting arm exposed.
-
-**Q8**: What submission becomes immediately available once squid guard is fully established?
-**A**: Omoplata becomes immediately available because the opponent's arm is already wrapped and their posture is compromised. Rotate your hips under their trapped arm while maintaining the lapel wrap, threading your leg over their shoulder. Their arm is pre-positioned for the shoulder lock and the lapel grip prevents them from posturing out of the attack.
-
-**Q9**: Your opponent drives a knee cut while you are mid-feed on the lapel—what is the correct response?
-**A**: Abandon the squid guard entry and immediately address the passing threat. Use your inside leg to establish a knee shield blocking the knee cut, while maintaining your collar grip to prevent them from flattening you. Transition to knee shield half guard as a defensive fallback, then re-extract the lapel once you have stabilized the position.
-
-**Q10**: What direction of force should the lapel feed travel relative to the opponent's arm?
-**A**: The lapel must travel from inside to outside, threading under the opponent's arm from between your bodies outward past their tricep. This direction ensures the wrap catches behind the shoulder and locks around the arm mechanically. Feeding from outside to inside creates a loose wrap that the opponent can shrug off by simply flaring their elbow.
-
-**Q11**: How do you chain squid guard entry with a back take when the opponent backsteps to avoid the wrap?
-**A**: When the opponent backsteps, their rotation opens the path behind them. Maintain your lapel grip as an anchor and sit up aggressively, following their rotation. Use the lapel tension to prevent them from fully disengaging while your free hand reaches for their far hip or belt. Their backstep momentum combined with your pursuit creates the back take angle.
-
-**Q12**: What grip endurance strategy prevents forearm fatigue during extended squid guard exchanges?
-**A**: Hook fingers through the lapel fabric rather than squeezing it in a fist grip. Use your hip angle and leg frames to maintain structural tension on the lapel rather than relying on muscular forearm contraction. This allows the skeletal system and body positioning to do the work, preserving grip endurance for the duration of a competitive match.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Squid Guard Entry?</p>
 
 Squid guard entry is a relatively low-risk technique focused on control rather than joint manipulation. The primary safety concern is maintaining proper finger alignment when gripping the lapel fabric to prevent finger injuries during grip fighting. Avoid death-gripping the lapel with excessive force, which can strain the forearm and lead to repetitive stress injuries. When drilling, ensure partners communicate about shoulder discomfort as the arm wrap can place stress on the shoulder joint when combined with aggressive sweeping attempts. During live training, be prepared to release the configuration if your partner taps or indicates discomfort. The arm wrap itself does not create submission danger, but follow-up attacks like omoplata require standard joint lock protocols.
 

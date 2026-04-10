@@ -206,7 +206,7 @@ The Triangle from Spider Guard occupies a central role in the spider guard offen
 
 - [[Positions/Open Guard]] - Fallback position when triangle attempt is countered and guard structure is lost
 
-- [[Submissions/Omoplata from Spider Guard]] - Chain attack available when triangle entry is blocked but sleeve control is maintained
+- [[Transitions/Spider Guard to Omoplata]] - Chain attack available when triangle entry is blocked but sleeve control is maintained
 
 - [[Transitions/Spider Sweep]] - Complementary sweep from spider guard that forces reactions opening triangle entries
 
@@ -218,7 +218,7 @@ The Triangle from Spider Guard occupies a central role in the spider guard offen
 
 - [[Transitions/Armbar Setup from Double Sleeve]] - Related attack using similar bilateral sleeve control for submission entry
 
-- [[Submissions/Triangle from Open Guard]] - Similar triangle entry from less structured open guard position
+- [[Transitions/Triangle Setup]] - Similar triangle entry technique used from various guard positions including open guard
 
 - [[Positions/Closed Guard]] - Defensive fallback position and alternative platform for triangle attacks
 

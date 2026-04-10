@@ -51,12 +51,11 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 |---------|-------------|----------|---------------|------------|----------------|
 | [[Side Control]] | High | Low | High | Low | Perpendicular alignment maximizes control |
 | [[Kesa Gatame]] | High | Medium | Medium | Medium | Perpendicular angle trades back exposure for arm |
-| [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Arm isolation for superior submission access |
+| [[Kuzure Kesa-Gatame]] | High | Low to Medium | High | Medium | Trades head control for trapped arm submissions |
 | [[Modified Scarf Hold]] | High | Low to Medium | High | Medium | Chest pressure trades mobility for control |
 | [[Reverse Kesa-Gatame]] | High | Medium | High | Medium | Reverse orientation eliminates defensive frames |
 | [[Reverse Scarf Hold]] | High | Medium | High | Medium | Reverse facing trades vision for chest pressure |
 | [[Scarf Hold Position]] | High | Low to Medium | Medium | Low | Perpendicular angle creates unique escapes |
-| [[Side Control Consolidation]] | High | Low | High | Medium | Transitional phase trading speed for quality |
 
 
 
@@ -90,23 +89,25 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (28% of attempts)
+- **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** (41% of attempts)
 
-- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (22% of attempts)
+- **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** (20% of attempts)
 
-- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (18% of attempts)
+- **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** (16% of attempts)
 
-- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (10% of attempts)
+- **[[Transitions/Bridge and Roll/Attacker|Bridge and Roll]]** (8% of attempts)
 
-- **[[Transitions/Ghost Escape/Attacker|Ghost Escape]]** (8% of attempts)
+- **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** (3% of attempts)
 
-- **[[Transitions/Side Control Escape/Attacker|Side Control Escape]]** (5% of attempts)
+- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (10% of attempts)
 
-- **[[Transitions/Ghost Escape from Side Control/Attacker|Ghost Escape from Side Control]]** (4% of attempts)
+- **[[Transitions/Sit Out from Side Control/Attacker|Sit Out from Side Control]]** (1% of attempts)
 
-- **[[Transitions/Sit Out from Side Control/Attacker|Sit Out from Side Control]]** (3% of attempts)
+- **[[Transitions/Turtle from Side Control Bottom/Attacker|Turtle from Side Control Bottom]]** (0% of attempts)
 
-- **[[Transitions/Turtle from Side Control Bottom/Attacker|Turtle from Side Control Bottom]]** (2% of attempts)
+- **[[Transitions/Frame from Side Control/Attacker|Frame from Side Control]]** (0% of attempts)
+
+- **[[Transitions/Hip Escape from Side Control/Attacker|Hip Escape from Side Control]]** (1% of attempts)
 
 
 ### Common Mistakes
@@ -153,7 +154,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 - Hip Pressure: Keep hips low and heavy on opponent's hips to eliminate space and prevent guard recovery
 
-- Weight Distribution: Strategic placement of weight across torso limits opponent's movement while preserving your mobility for transitions
+- Center of Gravity: Strategic placement of weight across torso limits opponent's movement while preserving your mobility for transitions
 
 - Head Position: Your head positioned opposite the crossface creates additional pressure and prevents opponent from sitting up
 
@@ -167,51 +168,47 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 ### Available Transitions
 
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (20% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (38% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (11% of attempts)
+- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (9% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (10% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (6% of attempts)
 
-- **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** (10% of attempts)
+- **[[Arm Triangle from Side Control/Attacker|Arm Triangle from Side Control]]** (6% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (7% of attempts)
+- **[[Ezekiel Choke from Side Control/Attacker|Ezekiel Choke from Side Control]]** (2% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (7% of attempts)
+- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (2% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (3% of attempts)
+- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (3% of attempts)
 
-- **[[Transitions/Side Control to Kesa Gatame/Attacker|Side Control to Kesa Gatame]]** (3% of attempts)
+- **[[North-South Choke from Side Control/Attacker|North-South Choke from Side Control]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Side Control Consolidation/Attacker|Side Control to Side Control Consolidation]]** (2% of attempts)
+- **[[Breadcutter Choke from Side Control/Attacker|Breadcutter Choke from Side Control]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Shoulder of Justice/Attacker|Side Control to Shoulder of Justice]]** (2% of attempts)
+- **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (1% of attempts)
 
-- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (2% of attempts)
+- **[[Americana from Side Control/Attacker|Americana from Side Control]]** (12% of attempts)
 
-- **[[Transitions/Breadcutter Choke/Attacker|Breadcutter Choke]]** (2% of attempts)
+- **[[Submissions/Arm Crush/Attacker|Arm Crush]]** (1% of attempts)
 
-- **[[Transitions/Side Control to Scarf Hold Position/Attacker|Side Control to Scarf Hold Position]]** (2% of attempts)
+- **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** (1% of attempts)
 
-- **[[Submissions/Americana from Side Control/Attacker|Americana from Side Control]]** (2% of attempts)
+- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (1% of attempts)
 
-- **[[Submissions/Arm Crush/Attacker|Arm Crush]]** (2% of attempts)
+- **[[Kimura from Side Control/Attacker|Kimura from Side Control]]** (11% of attempts)
 
-- **[[Submissions/Armbar from Side Control/Attacker|Armbar from Side Control]]** (2% of attempts)
+- **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** (1% of attempts)
 
-- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (2% of attempts)
+- **[[Submissions/Marce Choke/Attacker|Marce Choke]]** (1% of attempts)
 
-- **[[Submissions/Kimura from Side Control/Attacker|Kimura from Side Control]]** (2% of attempts)
+- **[[Submissions/Mir Lock/Attacker|Mir Lock]]** (1% of attempts)
 
-- **[[Submissions/Kneebar from Top/Attacker|Kneebar from Top]]** (2% of attempts)
+- **[[Submissions/Triangle Choke Side/Attacker|Triangle Choke Side]]** (1% of attempts)
 
-- **[[Submissions/Marce Choke/Attacker|Marce Choke]]** (2% of attempts)
+- **[[Submissions/Von Flue Choke/Attacker|Von Flue Choke]]** (0% of attempts)
 
-- **[[Submissions/Mir Lock/Attacker|Mir Lock]]** (2% of attempts)
-
-- **[[Submissions/Triangle Choke Side/Attacker|Triangle Choke Side]]** (2% of attempts)
-
-- **[[Submissions/Von Flue Choke/Attacker|Von Flue Choke]]** (1% of attempts)
+- **[[Transitions/Side Control to Knee on Belly/Attacker|Side Control to Knee on Belly]]** (1% of attempts)
 
 
 ### Common Mistakes

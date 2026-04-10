@@ -162,6 +162,8 @@ As the triangle holder, your primary defensive objective against the posture rec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture in Triangle Escape?</p>
+
 - Opponent tucks their chin firmly to chest and pins their trapped arm elbow against their ribs, indicating preparation for systematic posture recovery
 - Opponent posts their free hand on your hip or thigh on the choking leg side, establishing the hip control that prevents your angle adjustment
 - Opponent begins walking their knees forward to reposition their base underneath their center of gravity for upward drive
@@ -174,6 +176,8 @@ As the triangle holder, your primary defensive objective against the posture rec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture in Triangle Escape?</p>
 
 - Maintain constant downward pull on opponent's head using grips behind their neck or on their collar to resist the hip-driven upward force of their posture attempt
 - Extend hips actively and squeeze knees together when sensing upward drive to maximize choking pressure during their escape initiation
@@ -188,6 +192,8 @@ As the triangle holder, your primary defensive objective against the posture rec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture in Triangle Escape?</p>
 
 ### 1. Pull head down aggressively with both hands behind the neck while extending hips and squeezing knees to maximize choking pressure
 
@@ -225,6 +231,8 @@ As the triangle holder, your primary defensive objective against the posture rec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture in Triangle Escape?</p>
+
 ### → [[Positions/Triangle Escape Position]]
 
 Prevent posture recovery by maintaining constant head pull, hip extension, and angle preservation working together as an integrated system. Attack the opponent's base positioning by disrupting their knee-walking with hip bumps, and control their free hand placement on your hip by stripping or redirecting it. Force repeated posture recovery resets until opponent fatigues from the sustained effort of fighting against your combined defensive mechanisms.
@@ -240,6 +248,8 @@ When opponent achieves partial posture that compromises triangle finishing proba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture in Triangle Escape?</p>
 
 ### 1. Relying exclusively on pulling the head down without extending hips or maintaining perpendicular angle simultaneously
 
@@ -269,6 +279,8 @@ When opponent achieves partial posture that compromises triangle finishing proba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture in Triangle Escape?</p>
+
 **Phase 1: Recognition Development** - Identifying posture recovery attempts at the earliest possible stage
 Partner executes posture recovery at 30% speed and force. Practice recognizing the earliest preparatory cues: chin tuck, trapped arm pinning, free hand hip posting, knee walking. Initiate defensive response before they generate any meaningful upward force. Build pattern recognition for the standard posture recovery setup sequence.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring from locked triangle with partner using all 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three interconnected defensive mechanisms for preventing posture recovery, and why must they work together?
-**A**: The three mechanisms are: active head control pulling the head down, hip extension maintaining choking pressure, and angle preservation at 30-45 degrees off the opponent's centerline. They must work together because each individually is insufficient against a technically correct posture-up. Head control alone is overpowered by posterior chain hip drive. Hip extension without proper angle is geometrically weak. Angle without head control allows posture space. Together they create compounding resistance that exceeds the sum of individual parts.
-
-**Q2**: You feel your opponent posting their free hand firmly on your hip and beginning to walk their knees forward - what is the earliest defensive response?
-**A**: The earliest response is to pull down aggressively on their head with both hands while simultaneously extending your hips and squeezing your knees together. This pre-emptive defensive engagement addresses the posture attempt before meaningful upward force is generated. Additionally, use your free leg or hip movement to disrupt their knee-walking by shifting your angle, making it harder for them to establish stable base underneath their center of gravity.
-
-**Q3**: Your opponent has gained partial posture despite your defensive efforts - should you continue fighting for triangle or transition to armbar?
-**A**: Evaluate whether your triangle structure retains two or more of these elements: hip elevation capability, intact figure-four lock with active pressure, and perpendicular angle producing visible distress in the opponent. If two or more elements are lost, the triangle is definitively compromised and you should transition to armbar on the trapped arm before the extraction window closes. The armbar transition is most effective when the opponent's elbow has separated from their ribs during posture recovery, creating the isolation angle you need.
-
-**Q4**: How does understanding that the opponent's posture recovery is hip-driven inform your defensive strategy?
-**A**: Knowing the posture is hip-driven means your defense must address their hip movement and base positioning rather than just fighting the head position. If they used neck muscles alone, simple head pulling would suffice. Against hip drive, you must prevent their hips from moving forward and upward. Use your triangle lock to restrict their hip mobility, extend your own hips to create opposing force, squeeze your knees to compress their shoulder structure, and disrupt their base by not allowing stable knee positioning underneath their center of gravity.
-
-**Q5**: Your opponent is incrementally gaining posture through repeated controlled extensions rather than explosive attempts - how do you disrupt this systematic approach?
-**A**: Counter their incremental approach by varying your defensive timing and intensity to prevent them from finding a sustainable rhythm. Alternate between pulling their head down forcefully and releasing slightly to bait an overcommitment to upward drive that opens sweep or armbar opportunities. Adjust your angle unpredictably to force them to constantly recalibrate their squaring effort. The goal is converting their systematic sequence into a reactive scramble where they cannot execute the controlled incremental approach that makes hip-driven posture recovery effective.
-
-
-
-</section>
 
 
 </main>

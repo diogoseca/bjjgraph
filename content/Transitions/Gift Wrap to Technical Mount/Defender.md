@@ -166,6 +166,8 @@ The most favorable defensive outcomes involve either preventing the mount transi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap to Technical Mount?</p>
+
 - Far side hook disengages while near side hook pressure increases - this is the strongest indicator the transition is beginning
 - Chest pressure shifts from directly behind to angling toward one side as the attacker prepares to guide rotation into mount
 - Gift Wrap control tightens and the trapped arm is pulled higher across the chest as the attacker reinforces the arm trap before committing
@@ -177,6 +179,8 @@ The most favorable defensive outcomes involve either preventing the mount transi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap to Technical Mount?</p>
 
 - Recognize the transition attempt through hook removal and rotation redirection before committing to defense
 - Use free arm and legs for framing against the transitioning knee rather than trying to recover the trapped arm during the transition
@@ -192,6 +196,8 @@ The most favorable defensive outcomes involve either preventing the mount transi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap to Technical Mount?</p>
 
 ### 1. Frame with free arm and knee against the transitioning knee to block hip clearance
 
@@ -229,6 +235,8 @@ The most favorable defensive outcomes involve either preventing the mount transi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap to Technical Mount?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Prevent the mount transition by framing against the transitioning knee with your free arm and leg, forcing the attacker to reset to back control. Time your defensive frame to coincide with hook removal when their control is weakest. From Gift Wrap back control, standard back escape sequences remain available.
@@ -244,6 +252,8 @@ Insert your bottom knee across the attacker's hip line as a shield during the ro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap to Technical Mount?</p>
 
 ### 1. Attempting to recover the trapped arm during the transition instead of defending the mount advancement
 
@@ -278,6 +288,8 @@ Insert your bottom knee across the attacker's hip line as a shield during the ro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap to Technical Mount?</p>
+
 **Week 1-2** - Recognition and framing
 Partner performs the transition at half speed. Focus on identifying the hook removal cue and immediately establishing the knee frame and free arm block. Practice the defensive frame position statically first, then with slow movement. Goal is automatic recognition response without thinking.
 
@@ -294,29 +306,6 @@ Begin rounds from Gift Wrap back control position. Defend against all back attac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Gift Wrap to Technical Mount transition is being attempted?
-**A**: The earliest cue is the far side hook disengaging while the near side hook pressure increases or shifts to actively direct your hip rotation. This hook removal is necessary for the attacker to clear their knee across your body and is the most reliable early warning signal. Defensive action should begin the instant this is felt.
-
-**Q2**: Why is preventing hip flattening the most important defensive priority during the rotation?
-**A**: When your hips are flat on the mat, you lose all ability to shrimp, bridge, or create angles with your lower body. The attacker's knee can slide across your flat hips without resistance, making mount establishment trivially easy. Maintaining at least one hip off the mat preserves hip mobility for shrimping away, inserting knee shields, and creating the angles needed to block knee clearance.
-
-**Q3**: Your attacker has removed their far hook and you feel the rotation beginning - what is your immediate two-step defensive sequence?
-**A**: First, post your free foot on the mat and bridge your hips to prevent flattening while simultaneously shrimping your hips away from the attacker. Second, use your free arm to create a structural frame against the attacker's transitioning knee with your elbow bent, blocking it from crossing your hip line. These two actions work together - the hip movement creates distance while the frame blocks advancement.
-
-**Q4**: When is recovering half guard a better defensive goal than preventing the mount entirely?
-**A**: Half guard recovery becomes the better goal when the transition is already in progress and the attacker's knee is approaching your hip line. At this point, completely preventing mount requires more defensive resources than may be available with one arm trapped. Inserting your knee as a shield to catch their leg in half guard is a realistic objective that still provides sweep and escape options, whereas attempting full prevention may fail and result in undefended mount.
-
-**Q5**: Why should you avoid trying to recover your trapped arm during this specific transition?
-**A**: The transition creates a narrow defensive window of approximately two to three seconds between hook removal and mount consolidation. Splitting your focus between arm recovery and mount prevention means neither gets sufficient defensive energy. The arm recovery requires shoulder rotation and hip movement that conflicts with the hip positioning needed to block the knee. Prioritize mount prevention - the arm can be addressed from whatever position results, but technical mount with Gift Wrap is the worst possible outcome.
-
-
-
-</section>
 
 
 </main>

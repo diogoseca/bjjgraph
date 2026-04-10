@@ -24,7 +24,7 @@ description: "Master the guard pull in BJJ. Complete guide to executing from sta
 
 Pulling guard is a strategic defensive maneuver that transitions from standing to a guard position, prioritizing ground control over takedown exchanges. This technique allows practitioners to bypass the standing phase and immediately establish their preferred guard system, particularly valuable when facing opponents with superior wrestling or judo backgrounds. The guard pull represents a fundamental shift in engagement strategy, transforming a potentially disadvantageous standing exchange into a controlled ground scenario where technical guard players can implement their systematic attacks. Proper execution requires precise timing, grip control, and body mechanics to ensure safe descent while maintaining offensive positioning. The technique has become increasingly sophisticated in modern competition, with variations designed to establish specific guard types like De La Riva, Spider Guard, or Butterfly Guard directly from the standing position.
 
-**From Position**: [[Positions/Standing Position]] (Top)
+**From Position**: [[Positions/Standing Guard]] (Bottom)
 **Success Rate**: 60%
 
 </section>
@@ -218,7 +218,7 @@ Guard pulling serves as a critical tactical transition that allows practitioners
 
 - [[Transitions/Pendulum Sweep]] - Alternative offensive sequence from closed guard pull
 
-- [[Submissions/Triangle from Closed Guard]] - Submission attack initiated immediately after guard pull
+- [[Transitions/Closed Guard to Triangle]] - Submission attack initiated immediately after guard pull
 
 - [[Positions/Lasso Guard]] - Advanced guard variation with specific pull entry requirements
 

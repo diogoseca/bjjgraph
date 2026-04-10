@@ -195,7 +195,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (8% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (6% of attempts)
+- **[[Kimura from Quarter Guard/Attacker|Kimura from Quarter Guard]]** (6% of attempts)
 
 - **[[Transitions/Darce Setup/Attacker|Darce Setup]]** (5% of attempts)
 

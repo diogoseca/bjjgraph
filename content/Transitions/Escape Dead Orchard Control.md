@@ -43,7 +43,7 @@ Strategically, this escape represents the critical survival skill for anyone tra
 | Success | [[Positions/Half Guard]] | 10% |
 | Failure | [[Positions/Dead Orchard Control]] | 35% |
 | Counter | [[Positions/Back Control]] | 15% |
-| Counter | [[Positions/Game Over]] | 10% |
+| Counter | [[Positions/Anaconda Control]] | 10% |
 
 
 </section>
@@ -213,7 +213,7 @@ The Escape Dead Orchard Control occupies a critical defensive node in the front 
 
 - [[Transitions/Anaconda Grip Break to Front Headlock]] - Related escape - similar grip-breaking mechanics from standard anaconda
 
-- [[Transitions/Dead Orchard to Anaconda Finish]] - Primary threat - submission the escape must prevent
+- [[Anaconda Choke from Dead Orchard]] - Primary threat - submission the escape must prevent
 
 - [[Transitions/Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
 

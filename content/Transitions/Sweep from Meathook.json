@@ -126,7 +126,7 @@
       },
       {
         "step_number": 2,
-        "action": "Read Opponent's Weight Distribution",
+        "action": "Read Opponent's Center of Gravity",
         "description": "Assess where the opponent's center of gravity sits relative to their base. The sweep is highest percentage when their weight shifts backward or toward the trapped arm side. Use submission feints to manipulate their distribution if needed, threatening gogoplata to force a rearward weight shift."
       },
       {

@@ -12,15 +12,15 @@
     "inverted-footlock",
     "leg-entanglement"
   ],
-  "from_position": "Estima Lock/Top",
+  "from_position": "Estima Lock Control/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Estima Lock",
       "probability": 58,
       "result": "success"
     },
     {
-      "to": "Estima Lock/Top",
+      "to": "Estima Lock Control/Top",
       "probability": 27,
       "result": "failure"
     },
@@ -58,7 +58,7 @@
   "position_integration": "The Estima Lock serves as a direct submission finish within the broader leg entanglement system, representing the terminal threat from Estima Lock control position. It integrates naturally with other foot attacks including toe holds and straight ankle locks, creating attack chains where defending one submission exposes vulnerability to another. The technique connects to 50-50 guard, outside ashi, and inside ashi positions as primary entry points. When opponents successfully defend, natural transitions flow to ashi garami for continued control or saddle position through backstep mechanics. Understanding the Estima Lock is essential for both offensive application and defensive awareness, as modern leg lock systems frequently incorporate this technique. The submission's effectiveness in no-gi competition has made it a standard tool for competitors at all levels who engage with leg attacks.",
   "related_content": [
     {
-      "name": "Estima Lock",
+      "name": "Estima Lock Control",
       "relationship": "Starting control position from which this finish is executed"
     },
     {
@@ -161,13 +161,13 @@
         "counter": "Opponent counter-rotates ankle and turns foot away from lock angle to reduce rotational pressure",
         "effectiveness": "High",
         "your_response": "When they turn the foot away, immediately transition to toe hold attack since their toes are now exposed and accessible for the alternative submission grip",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent sits up and establishes frames on your hips to create space and reduce hip pressure fulcrum",
         "effectiveness": "Medium",
         "your_response": "Drive forward to flatten them back down or transition to saddle position through backstep if they create significant space and you cannot maintain hip pressure",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent uses free leg to push your hips away and create distance for leg extraction",
@@ -179,7 +179,7 @@
         "counter": "Opponent grabs your hands or forearm attempting to strip the figure-four grip configuration",
         "effectiveness": "Low",
         "your_response": "Maintain hip pressure and continue submission pressure since grip fighting rarely succeeds when positional control is established—their energy expenditure favors you",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       }
     ],
     "common_errors": [
@@ -307,7 +307,7 @@
       {
         "action": "Counter-rotate ankle and establish hip frames to disrupt the fulcrum",
         "when_to_use": "Immediately upon feeling the inverted grip consolidate and before the attacker begins applying finishing pressure—this is the highest-percentage defense window",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Neutralizes the rotational mechanics and forces the attacker to re-establish the submission angle, returning you to the control position without immediate finish threat",
         "risk": "If counter-rotation is incomplete, the attacker may adjust grip angle and finish from the new position before you can fully escape"
       },
@@ -328,14 +328,14 @@
       {
         "action": "Tap immediately when rotational pressure reaches the ankle joint",
         "when_to_use": "When the submission has reached mechanical completion—heel fully controlled, forearm lever engaged, hip pressure locked, and rotational pressure transmitting through the ankle",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Estima Lock",
         "if_successful": "Preserves ankle joint health, ligament integrity, and Achilles tendon for continued training rather than risking weeks or months of recovery",
         "risk": "No risk—tapping preserves your body and allows you to address the defensive failure in future training sessions"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "Estima Lock/Top",
+        "outcome": "Estima Lock Control/Top",
         "how": "Counter-rotate the ankle immediately to neutralize rotational pressure, then establish frames on the attacker's hips to disrupt their fulcrum. Strip the figure-four grip using two-on-one hand fighting while maintaining counter-rotation. This returns you to the control position where the immediate finish threat is eliminated and you can begin systematic leg extraction."
       },
       {

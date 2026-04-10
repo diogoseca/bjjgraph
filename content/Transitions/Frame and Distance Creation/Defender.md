@@ -158,6 +158,8 @@ The critical window for countering Frame and Distance Creation occurs during the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame and Distance Creation?</p>
+
 - Opponent's free hand reaches toward your chest or shoulder rather than fighting your ankle grip directly
 - Opponent pulls their trapped knee toward their chest aggressively while maintaining hip mobility
 - Opponent's free leg disengages from neutral position and begins pushing against your hip or inside knee
@@ -169,6 +171,8 @@ The critical window for countering Frame and Distance Creation occurs during the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame and Distance Creation?</p>
 
 - Maintain tight chest-to-leg connection throughout to prevent frames from generating meaningful separation
 - Clear frames early before full arm extension establishes structural leverage against you
@@ -183,6 +187,8 @@ The critical window for countering Frame and Distance Creation occurs during the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame and Distance Creation?</p>
 
 ### 1. Swim inside frames and close distance
 
@@ -213,6 +219,8 @@ The critical window for countering Frame and Distance Creation occurs during the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame and Distance Creation?</p>
+
 ### → [[Positions/Straight Ankle Lock Control]]
 
 Clear frames early by swimming inside before full arm extension, then immediately retighten ankle grip and leg wrap. Pull opponent's leg back into your control zone while preventing re-establishment of frames.
@@ -228,6 +236,8 @@ When opponent commits both arms to framing and cannot address your leg positioni
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame and Distance Creation?</p>
 
 ### 1. Allowing frames to establish without immediate response
 
@@ -257,6 +267,8 @@ When opponent commits both arms to framing and cannot address your leg positioni
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame and Distance Creation?</p>
+
 **Week 1-2** - Frame recognition and clearing
 Partner establishes frames at various stages of completion while you practice swimming inside to clear them. Focus on recognizing frame attempts within the first second and developing the swimming motion to collapse structural alignment. No ankle lock pressure during this phase.
 
@@ -273,29 +285,6 @@ Full resistance sparring from straight ankle lock control where partner uses Fra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical time window for countering Frame and Distance Creation before it becomes effective?
-**A**: The critical window is the first 2-3 seconds after the opponent begins establishing frames on your upper body. Before they achieve full arm extension with skeletal alignment, their frames can be cleared relatively easily by swimming inside. Once structural alignment is established with two contact points, the distance becomes exponentially harder to close.
-
-**Q2**: Your opponent establishes strong frames and creates significant distance - should you continue fighting for the ankle lock or transition?
-**A**: Transition immediately to inside ashi-garami or another superior leg entanglement. Once frames create significant distance, the ankle lock becomes mechanically compromised because your breaking leverage depends on proximity. Stubbornly holding a weakened ankle lock wastes energy and allows the opponent to complete their escape. Use their framing commitment as an opportunity to advance position.
-
-**Q3**: How do you swim inside an opponent's frame to neutralize it?
-**A**: Thread your arm between their forearm frame and your own body, driving your elbow inside their frame structure. This collapses their skeletal alignment because the force can no longer transfer through a straight bone line. From inside position, use your body to crowd their arm back while closing the distance they created. This is significantly more effective than pushing back against the frame from outside.
-
-**Q4**: What visual cue distinguishes a framing escape from a grip-fighting escape?
-**A**: A framing escape targets your upper body with palm or forearm contact on your chest, shoulders, or head to create distance. A grip-fighting escape targets your hands and wrists directly, attempting to strip your ankle grip through two-on-one breaks. Recognizing which escape type the opponent is pursuing determines whether you need to address upper body frames or protect your grip configuration.
-
-**Q5**: Your opponent pushes frames with both arms while their free leg drives into your hip - how do you address this multi-directional pressure?
-**A**: Prioritize addressing the leg push first by tightening your leg wrap and blocking their free leg from gaining leverage on your hip. The leg push amplifies the arm frames, so neutralizing it reduces overall pressure significantly. Once the leg push is controlled, swim inside the arm frames to close distance. Attempting to address only the arm frames while the leg continues pushing leads to accumulated distance and eventual escape.
-
-
-
-</section>
 
 
 </main>

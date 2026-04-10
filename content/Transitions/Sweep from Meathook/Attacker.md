@@ -26,7 +26,7 @@ description: "Learn to execute the Sweep from Meathook in BJJ. Step-by-step guid
     },
     {
       "@type": "HowToStep",
-      "name": "Read Opponent's Weight Distribution",
+      "name": "Read Opponent's Center of Gravity",
       "text": "Assess where the opponent's center of gravity sits relative to their base. The sweep is highest percentage when their weight shifts backward or toward the trapped arm side. Use submission feints to manipulate their distribution if needed, threatening gogoplata to force a rearward weight shift.",
       "position": 2
     },
@@ -188,6 +188,8 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Meathook?</p>
+
 - Direct all sweeping force toward the trapped arm side where the opponent cannot post for base recovery
 - Hip elevation must precede directional drive to lift the opponent's center of gravity above their base before tilting
 - Maintain both the shin hook and collar grip throughout the entire sweep to prevent the opponent from catching themselves
@@ -203,6 +205,8 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Meathook?</p>
+
 - Deep shin hook with ankle clearing the opponent's shoulder line, creating mechanical arm isolation that prevents posting
 - Active collar or overhook grip on the non-trapped side pulling the opponent's head down and toward the sweep direction
 - Opponent's posture fully broken with their weight distributed forward and toward the trapped arm side
@@ -216,8 +220,10 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 ## Execution Steps
 
+<p class="section-subtitle">How do you execute Sweep from Meathook step by step?</p>
+
 1. **Verify Meathook Control Integrity**: Before initiating the sweep, confirm that the shin hook is deep with the ankle past the opponent's shoulder line and the grip on the non-trapped side is actively pulling their head down. Both control elements must be functioning as coordinated opposing forces. If either is compromised, re-establish control before proceeding.
-2. **Read Opponent's Weight Distribution**: Assess where the opponent's center of gravity sits relative to their base. The sweep is highest percentage when their weight shifts backward or toward the trapped arm side. Use submission feints to manipulate their distribution if needed, threatening gogoplata to force a rearward weight shift.
+2. **Read Opponent's Center of Gravity**: Assess where the opponent's center of gravity sits relative to their base. The sweep is highest percentage when their weight shifts backward or toward the trapped arm side. Use submission feints to manipulate their distribution if needed, threatening gogoplata to force a rearward weight shift.
 3. **Create Angular Advantage with Hip Escape**: Shrimp your hips slightly toward the trapped arm side to establish an angular advantage for the sweep. This preliminary hip escape positions your body to generate rotational force rather than requiring pure vertical elevation, making the sweep mechanically efficient even against larger opponents.
 4. **Load the Sweep with Hip Elevation**: Bridge your hips powerfully upward while maintaining the shin hook pressure and collar grip. This hip elevation lifts the opponent's base off the mat and transfers their weight over the trapped arm side where they cannot post. Drive through your feet and shoulders to maximize bridge height.
 5. **Apply Directional Force Through Trapped Arm**: As your hips reach peak elevation, redirect force toward the opponent's trapped arm side. The shin hook acts as a fulcrum that prevents arm posting while your collar grip pulls their head in the sweep direction. These coordinated forces create a unified rotational moment that topples them.
@@ -244,6 +250,8 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Meathook?</p>
+
 - **Opponent posts wide with free arm to create a tripod base structure that resists directional sweep force** (Effectiveness: High) - Your Response: Abandon the sweep and immediately transition to gogoplata or triangle attack, as the wide arm post opens their neck and creates submission angles that are unavailable when they keep their arm tucked → Leads to [[Positions/Rubber Guard/Meathook]]
 - **Opponent generates explosive upward posture recovery to break the shin hook before the sweep initiates** (Effectiveness: Medium) - Your Response: If posture breaks before you can load the sweep, immediately transition to closed guard retention by locking your legs or reguard to open guard. Chase the triangle angle as their upward drive often creates the head-below-shoulder alignment needed for triangle entry → Leads to [[Positions/Open Guard]]
 - **Opponent drives weight forward and stacks to prevent the hip elevation needed for the sweep** (Effectiveness: Medium) - Your Response: Convert their forward pressure directly into a gogoplata setup. Their driving motion feeds their neck into the shin hook's choking angle. The harder they drive forward to prevent the sweep, the deeper they enter the choke → Leads to [[Positions/Rubber Guard/Meathook]]
@@ -255,6 +263,8 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Meathook?</p>
 
 ### 1. Releasing collar or overhook grip during sweep initiation to reach for the mat or opponent's body
 
@@ -294,6 +304,8 @@ Executing the Sweep from Meathook requires the bottom player to convert their ex
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Meathook (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo and cooperative drilling of hip bridge direction and force application
 Practice the hip bridge mechanics with a compliant partner in Meathook. Focus on the two-phase action: vertical hip elevation followed by directional tilt toward the trapped arm side. Drill 20 repetitions per side with zero resistance, emphasizing smooth weight transfer and maintaining hook control throughout the rotation.
 
@@ -314,42 +326,12 @@ Simulate competition scenarios where points matter. Practice converting Meathook
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What structural weakness in the opponent's base makes the Meathook sweep mechanically viable?
-**A**: The shin hook isolates the opponent's arm, removing it from defensive and base-building functions. This means they can only post with one arm, creating a unilateral base weakness on the trapped arm side. The sweep targets this exact side because the opponent literally cannot post to prevent being toppled in that direction, regardless of their strength or technical awareness.
-
-**Q2**: Which direction must the sweeping force be applied relative to the opponent's trapped arm?
-**A**: All sweeping force must be directed toward the trapped arm side. This is the fundamental mechanical principle of the technique. The arm isolation removes posting ability specifically on that side, so directing force there exploits the structural gap. Sweeping in any other direction allows the opponent to post with their free arm and resist the sweep easily.
-
-**Q3**: Your opponent widens their base by posting their free arm far to the side as you begin loading the sweep. What should you do?
-**A**: Immediately abandon the sweep attempt and transition to a submission attack. The wide arm post that prevents the sweep simultaneously opens their neck for gogoplata and creates space for triangle entry. Their defensive choice against the sweep has made them vulnerable to submissions. Flow to the attack that their defense opens rather than forcing a sweep against improved base.
-
-**Q4**: Why must hip elevation precede the directional drive in the sweep sequence?
-**A**: Without vertical hip elevation first, the opponent's weight remains settled on their base and directional force merely slides them laterally without toppling. The bridge lifts their center of gravity above their base, creating instability. Only after this unweighting can directional force effectively tilt them over the trapped arm side. Skipping elevation turns the sweep into an ineffective push.
-
-**Q5**: How does the collar or overhook grip on the non-trapped side contribute to the sweep mechanics?
-**A**: The grip serves as a directional steering mechanism that pulls the opponent's head and upper body toward the trapped arm side during the sweep. It creates an opposing force with the shin hook: the hook controls the arm from below while the grip pulls from above. Together they generate the rotational moment that topples the opponent. Without this grip, the sweep lacks the upper body control needed for directional force application.
-
-**Q6**: Your opponent drives forward aggressively to prevent your hip elevation. How do you convert this defensive reaction?
-**A**: Forward driving pressure from the opponent feeds directly into gogoplata. Their forward momentum carries their neck deeper into the shin hook's choking angle. Rather than fighting against their pressure to execute the sweep, redirect the shin from tricep to throat and establish gogoplata control. The harder they drive forward to prevent the sweep, the deeper they enter the choke. This is the core dilemma of the Meathook attack system.
-
-**Q7**: What is the critical error practitioners make when transitioning from Meathook to mount during the sweep?
-**A**: Releasing the shin hook control too early during the rotation to mount. When the hook is released before mount is fully established, the opponent's previously trapped arm becomes available for posting, allowing them to catch themselves mid-sweep or insert a knee for half guard recovery. The hook must be maintained throughout the entire rotation until hips are settled heavy in mount position.
-
-**Q8**: How should the sweep attempt integrate with the broader Meathook submission attack tree?
-**A**: The sweep should be layered with gogoplata, triangle, and omoplata threats as a unified system. Submission feints manipulate the opponent's weight distribution into patterns favorable for sweeping. When they defend chokes by pulling their head back, their weight shifts rearward, creating the optimal sweep window. When they defend the sweep by driving forward, submissions open. This creates an unsolvable dilemma where every defense opens the complementary attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Meathook?</p>
 
 The Meathook sweep involves significant rotational force through the opponent's shoulder via the trapped arm. Practitioners must ensure the shin hook does not apply excessive downward or twisting pressure to the shoulder joint during the sweep rotation, as the combination of arm isolation and rotational momentum can strain the glenohumeral joint. Release the hook immediately if your partner signals discomfort or taps. Both practitioners should develop the sweep gradually with cooperative drilling before applying full resistance. Avoid explosive sweep attempts without first confirming proper hook depth and partner readiness.
 

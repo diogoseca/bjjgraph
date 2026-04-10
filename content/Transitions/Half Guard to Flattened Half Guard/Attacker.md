@@ -188,6 +188,8 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to Flattened Half Guard?</p>
+
 - Win the crossface first - turning the opponent's head away eliminates their ability to see the action and prevents near-side arm framing
 - Deny the underhook at all costs - the bottom player's underhook is their primary offensive tool for sweeps and back takes
 - Walk hips forward progressively rather than lunging - incremental pressure is harder to defend than explosive movements
@@ -202,6 +204,8 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to Flattened Half Guard?</p>
+
 - Established in half guard top with at least one control point (crossface, head position, or partial underhook denial)
 - Bottom player's knee shield is contested or only partially established rather than deeply set with strong frames
 - Base is stable enough to absorb hip bump or sweep attempts during the forward pressure progression
@@ -214,6 +218,8 @@ As the top player in half guard, your ability to systematically flatten your opp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to Flattened Half Guard step by step?</p>
 
 1. **Secure the crossface**: Drive your near-side arm across your opponent's jaw and neck, threading under their head to grip the far-side shoulder or mat. Turn their head away from you by applying shoulder pressure through the crossface arm. This eliminates their vision of the action and prevents their near-side arm from framing effectively against your chest or shoulder.
 2. **Deny the underhook**: Use your far-side arm to control the opponent's near-side arm, preventing them from establishing an underhook on your far side. Options include a whizzer (overhook), wrist control, or driving your elbow tight to their hip. If they already have an underhook, use your whizzer to peel it away while increasing crossface pressure to limit their leverage.
@@ -243,6 +249,8 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to Flattened Half Guard?</p>
+
 - **Bottom player establishes strong knee shield before crossface is secured** (Effectiveness: High) - Your Response: Switch to smash pass mechanics by driving into the knee shield with your hips while establishing crossface over the top of their shin, or disengage to combat base and re-engage with a different angle → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Bottom player wins the underhook and begins turning to their side for a sweep or back take** (Effectiveness: High) - Your Response: Immediately apply whizzer control on the underhook arm and drive your crossface harder to prevent their hip turn. If they complete the underhook, switch to Kimura grip on their exposed arm or transition to Darce Choke threat as they turn in → Leads to [[Positions/Half Guard]]
 - **Bottom player dives underneath for deep half guard entry as you advance hips** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately and drive crossface pressure down to pin their head. If they achieve deep half, focus on hip pressure and wizzer to prevent the sweep rather than continuing the flattening sequence → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the top player in half guard, your ability to systematically flatten your opp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to Flattened Half Guard?</p>
 
 ### 1. Attempting to flatten by pushing the knee shield down with hands instead of using body weight and hip pressure
 
@@ -294,6 +304,8 @@ As the top player in half guard, your ability to systematically flatten your opp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to Flattened Half Guard (Attacker)?</p>
+
 **Phase 1: Pressure Mechanics Isolation** - Forward pressure and weight distribution fundamentals
 Practice driving forward pressure through chest and hips from half guard top against a non-resisting partner. Focus on walking hips forward in controlled steps while maintaining crossface. Partner provides feedback on pressure intensity and distribution. Build the muscle memory for sustained, even pressure application.
 
@@ -314,42 +326,12 @@ Start in half guard top against full resistance. Objective is to achieve and mai
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct order of control points to establish when flattening your opponent from half guard top?
-**A**: Secure the crossface first to turn their head away and prevent near-side arm framing, then deny the underhook by controlling their near arm with your far-side hand or whizzer, then walk your hips forward to collapse frames. The crossface comes first because it provides the most immediate structural advantage and enables everything else in the sequence.
-
-**Q2**: Your opponent has a strong knee shield preventing you from establishing chest-to-chest contact. How do you collapse it without using your hands?
-**A**: Drive your hips and body weight directly into the knee shield's shin, using forward pressure to fold the shin flat against their body. Simultaneously pin their bottom knee to the mat with your near-side knee to remove the shield's structural foundation. The knee shield collapses under sustained body weight pressure, not from being pushed by hands, which would create space between your chest and theirs.
-
-**Q3**: Why should you walk your hips forward in small increments rather than driving forward explosively?
-**A**: Incremental advancement maintains stable pressure throughout the transition and prevents the bottom player from redirecting your momentum into sweeps or creating space from sudden weight shifts. Explosive lunges are telegraphed and create the exact type of momentum that skilled bottom players use to generate sweeps. Small steps compound into full flattening without creating exploitable moments.
-
-**Q4**: Your opponent is fighting hard for the underhook as you attempt to flatten them. What are your two primary responses?
-**A**: First option is to apply a strong whizzer (overhook) on their underhook arm while driving the crossface harder to limit their leverage and prevent them from turning to their side. Second option is to switch to a Kimura grip on their exposed arm if they overcommit to the underhook, creating a submission threat that forces them to retract the arm and abandon the underhook battle.
-
-**Q5**: You have successfully flattened your opponent but they begin small hip escapes to create space. What is the optimal response?
-**A**: Follow their hip escape with your pressure by adjusting your angle to close the gap they create. Use their shrimping motion as a trigger to initiate your passing sequence rather than fighting to reset the flat position. Their hip escape creates the angle needed for a knee slice pass, so time your knee advancement to coincide with their movement rather than resisting it.
-
-**Q6**: What is the primary grip or control position that must be maintained throughout the entire flattening sequence?
-**A**: The crossface must be maintained throughout the entire transition without interruption. Losing the crossface immediately allows the bottom player to turn to face you, re-establish frames, recover their knee shield, and return to active half guard. All other grip changes and position adjustments should happen sequentially while the crossface remains the constant anchor point.
-
-**Q7**: Your opponent dives underneath you for deep half guard as you begin walking your hips forward. How do you address this counter?
-**A**: Immediately sprawl your hips back and away to prevent them from getting underneath your center of gravity, while driving your crossface pressure downward to pin their head. If they achieve deep half, shift your focus to a whizzer and hip pressure to prevent the sweep rather than continuing the flattening sequence. Prevention is better than recovery, so recognize the early signs of the dive and stop hip advancement before they get under you.
-
-**Q8**: How should your weight distribution differ between chest pressure and hip pressure during the flattening process?
-**A**: Chest and hip pressure must work as a unified system distributed across a broad base. Using only chest pressure allows hip escape opportunities because your hips are too high. Using only hip pressure leaves their upper body free to frame and create angles. Drive pressure through both simultaneously, with your hips staying low and heavy while your chest drives forward through the crossface connection. This broad pressure base limits their mobility in all directions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to Flattened Half Guard?</p>
 
 This technique involves sustained chest pressure that restricts your training partner's breathing. Always monitor your partner's comfort level and be responsive to tapping, which may indicate breathing distress rather than a submission. Avoid driving excessive pressure directly onto the throat or trachea through the crossface. In drilling, use moderate pressure that allows your partner to breathe shallowly rather than full competition-intensity pressure. Communicate with your training partner about pressure levels and allow breaks when needed. The crossface should pressure the jaw and cheek, not the neck or windpipe.
 

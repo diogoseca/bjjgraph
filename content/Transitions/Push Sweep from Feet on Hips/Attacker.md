@@ -194,6 +194,8 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Push Sweep from Feet on Hips?</p>
+
 - Time the push to coincide with the opponent's forward weight shift rather than pushing against a braced, settled base
 - Coordinate upper body pulling grips with lower body pushing extension to maximize the combined off-balancing force vector
 - Extend legs explosively through the hips, driving force through the ball of each foot directly into the opponent's hip bones for maximum structural transmission
@@ -208,6 +210,8 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Push Sweep from Feet on Hips?</p>
+
 - Both feet firmly placed on opponent's hip bones with ball-of-foot contact providing stable pushing platform
 - At least one controlling grip on opponent's upper body (sleeve, collar, or wrist) to coordinate the push-pull dynamic
 - Opponent's weight shifted forward or actively leaning into the guard frames creating exploitable momentum
@@ -220,6 +224,8 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Push Sweep from Feet on Hips step by step?</p>
 
 1. **Establish foot placement on hip bones**: Place both feet on the opponent's anterior hip bones (ASIS landmarks) with ball-of-foot contact. Maintain active pressure through the frames while reading the opponent's weight distribution and posture. Feet should be positioned to push straight through the hips rather than angled upward or to the sides.
 2. **Secure upper body controlling grips**: Establish at least one controlling grip on the opponent's sleeve, collar, or wrist. Ideally secure bilateral grips—one sleeve and one collar, or both sleeves—to maximize the pulling force available to coordinate with the leg push. Fight for these grips without compromising your foot placement or hip elevation.
@@ -250,6 +256,8 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Push Sweep from Feet on Hips?</p>
+
 - **Opponent widens base and drops hips backward to resist the push direction** (Effectiveness: High) - Your Response: Switch to asymmetric push directing force to one side to collapse half their base, or transition to tripod sweep which specifically targets wide stances by attacking the lateral base → Leads to [[Positions/Feet on Hips Guard]]
 - **Opponent grabs both ankles during leg extension to strip feet off hips** (Effectiveness: Medium) - Your Response: Retract legs immediately before full ankle control is established by bending knees sharply, then reset feet on hips or transition to butterfly guard with hooks inside their thighs → Leads to [[Positions/Open Guard]]
 - **Opponent posts one hand behind them to catch backward fall and prevent full sweep completion** (Effectiveness: High) - Your Response: Redirect additional force toward the posting side to collapse the post, or immediately switch push angle to the opposite side where they have no support structure → Leads to [[Positions/Feet on Hips Guard]]
@@ -261,6 +269,8 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Push Sweep from Feet on Hips?</p>
 
 ### 1. Pushing when the opponent's weight is settled back with strong base
 
@@ -300,6 +310,8 @@ The push sweep from feet on hips guard requires the attacking guard player to co
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Push Sweep from Feet on Hips (Attacker)?</p>
+
 **Phase 1: Extension Mechanics** - Hip drive and bilateral leg extension power
 Solo drills focusing on explosive hip bridge and leg extension from feet-on-hips position using a heavy bag or wall. Develop the motor pattern of driving through the balls of the feet while maintaining hip elevation. Practice 20-30 repetitions per set focusing on speed and full range of motion.
 
@@ -320,36 +332,12 @@ Positional sparring from feet-on-hips guard with full resistance. Practice chain
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical timing window for initiating the push sweep?
-**A**: The push sweep must be initiated when the opponent's weight is committed forward—either leaning into your frames, reaching for grips, or driving forward to close distance. Pushing against a settled opponent with weight back produces minimal effect because their base can absorb the force. The optimal window is the moment when forward momentum makes it difficult for them to reverse direction or post behind them.
-
-**Q2**: Your opponent has a strong symmetrical base and resists your straight backward push—how do you adjust?
-**A**: Direct the push slightly off-center by applying more pressure through one foot than the other, aiming to collapse one side of their base. Alternatively, transition to an asymmetric push sweep where one foot pushes while the other hooks behind their knee to prevent recovery. A third option is abandoning the push sweep and transitioning to a tripod sweep or sickle sweep that attacks their wide lateral base instead.
-
-**Q3**: Why must the upper body pull precede the leg extension rather than occurring simultaneously?
-**A**: The pull breaks the opponent's posture and loads their weight forward onto your feet before the extension. If you push and pull simultaneously, the opponent may step backward as the push begins since their weight is still centered over their base. The fraction-of-a-second delay between pulling them forward and extending your legs ensures maximum weight is loaded onto your pushing platform, making the sweep significantly more powerful and harder to defend.
-
-**Q4**: What grip configuration provides the strongest pulling force for this sweep?
-**A**: A cross-collar grip combined with a same-side sleeve grip provides the strongest combined pulling vector because the collar grip breaks posture while the sleeve grip prevents the opponent from posting with that hand. Bilateral sleeve grips are a strong alternative that controls both posting options. The key is having at least one grip that prevents the opponent from using their hands to catch themselves as they fall backward.
-
-**Q5**: The sweep succeeds and your opponent falls backward—what is the immediate follow-up sequence?
-**A**: Begin retracting your legs and sitting up during the opponent's fall, not after they land. Pull yourself upright using your grips on their upper body, bring your legs underneath you, and come to your feet through a technical stand-up motion. Maintain at least one controlling grip throughout the transition and advance immediately into a passing position before the opponent can recover guard or sit up. Delayed follow-up negates the sweep's positional advantage.
-
-**Q6**: Your opponent consistently posts one hand behind them when you attempt the push—what systematic approach defeats this defense?
-**A**: Control the posting hand preemptively through sleeve grips before initiating the sweep—if you grip their same-side sleeve with your pulling hand, they cannot use that hand to post. Alternatively, direct the push toward the side of the posting hand to collapse the post under their body weight, or redirect the push to the opposite side where no post exists. The most effective long-term solution is the sleeve control approach since it eliminates the defense at its source.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Push Sweep from Feet on Hips?</p>
 
 The push sweep is a low-risk technique with minimal injury potential for both practitioners. Primary safety concern involves the opponent falling backward unexpectedly—ensure adequate mat space behind the training partner and avoid performing this technique near walls or other practitioners. Avoid hyperextending your own knees during explosive leg extension by maintaining a slight bend at full extension. When drilling, communicate intensity levels clearly and progress gradually from cooperative to full resistance.
 

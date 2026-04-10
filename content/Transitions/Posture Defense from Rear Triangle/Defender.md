@@ -162,6 +162,8 @@ As the rear triangle top player, your opponent's posture defense represents the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Posture Defense from Rear Triangle?</p>
+
 - Opponent reaches behind their head with free hand to grip your locking ankle or foot
 - Opponent drives shoulders backward and attempts to straighten their spine against the triangle compression
 - Opponent turns chin upward or toward the non-choking side, indicating they are creating space for posture recovery
@@ -174,6 +176,8 @@ As the rear triangle top player, your opponent's posture defense represents the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Posture Defense from Rear Triangle?</p>
 
 - Maintain active knee compression throughout opponent's posture attempts to prevent space creation in the triangle
 - Use free hands to control opponent's head and pull it forward, countering their posture recovery efforts
@@ -188,6 +192,8 @@ As the rear triangle top player, your opponent's posture defense represents the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Posture Defense from Rear Triangle?</p>
 
 ### 1. Squeeze knees together and re-tighten the triangle lock while pulling opponent's head forward with both hands
 
@@ -225,6 +231,8 @@ As the rear triangle top player, your opponent's posture defense represents the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Posture Defense from Rear Triangle?</p>
+
 ### → [[Positions/Triangle Control/Rear Triangle]]
 
 Maintain the triangle lock by actively squeezing knees, pulling opponent's head forward with free hands, and fighting to keep the locking ankle behind your knee. Counter every posture attempt with increased compression and hip angling toward the trapped arm side.
@@ -240,6 +248,8 @@ When opponent reaches across their centerline with their free arm to grip your a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Posture Defense from Rear Triangle?</p>
 
 ### 1. Relaxing knee compression when opponent appears to stop their posture defense attempt
 
@@ -269,6 +279,8 @@ When opponent reaches across their centerline with their free arm to grip your a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Posture Defense from Rear Triangle?</p>
+
 **Phase 1: Recognition Drilling** - Identifying posture defense initiation cues
 Partner performs posture defense movements at slow speed while you practice identifying the specific cues: ankle grip, shoulder drive, chin lift, hip shift. Call out each cue as you recognize it without attempting counters yet. Builds the pattern recognition needed for timely defensive responses.
 
@@ -285,29 +297,6 @@ Start in rear triangle with partner attempting escape. Apply all counter-techniq
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your immediate response when you feel the opponent gripping your locking ankle from inside the rear triangle?
-**A**: Immediately squeeze your knees together to increase triangle compression and use your free hand to pull the opponent's head forward, re-breaking their posture. Simultaneously, fight to keep your locking ankle deep behind your knee by curling your toes and pressing the ankle into the knee crook. The ankle grip is the single most dangerous threat to the triangle's integrity and must be addressed before the opponent generates any leverage on it.
-
-**Q2**: When should you consider abandoning the rear triangle and transitioning to standard back control?
-**A**: Transition to standard back control when the opponent has recovered significant posture, your locking ankle has been partially stripped, and the triangle compression is no longer threatening a finish. Recognizing this tipping point and transitioning proactively preserves your dominant back position. Clinging to a deteriorating triangle risks losing all control if the opponent completes their posture defense and immediately chains into back control escapes.
-
-**Q3**: How do you create a crucifix opportunity from the opponent's posture defense attempt?
-**A**: Watch for the opponent reaching their free arm across their centerline to grip your locking ankle. When this arm extends away from their body, capture it with your hands and secure it with an overhook or by threading it between your legs. The key timing window is when the opponent commits their free arm to the ankle grip, as retraction becomes difficult once they are pulling on the ankle. Maintain triangle compression during the arm capture to prevent escape.
-
-**Q4**: What hip adjustment maximizes your triangle's resistance to the opponent's posture recovery?
-**A**: Angle your hips aggressively toward the trapped arm side, creating a diagonal compression vector across the opponent's neck rather than a horizontal one. This hip angle forces the opponent to fight not just upward against the compression but also laterally against the angled force, approximately doubling the structural resistance they must overcome. Combined with pulling the opponent's head toward the non-choking side, this creates a spiraling pressure that posture recovery alone cannot address.
-
-**Q5**: Your opponent begins driving their shoulders back with sustained pressure—how do you differentiate between a posture defense you can counter and one requiring positional transition?
-**A**: Assess three indicators: first, whether your locking ankle is still secured behind your knee (if stripped, transition immediately); second, whether your knees can still compress around the opponent's neck and trapped arm (if space has opened, the triangle is compromised); third, whether you can still pull the opponent's head forward with your hands (if your pulling force is insufficient, they have recovered too much posture). If two or more indicators are negative, transition to back control rather than fighting a lost triangle.
-
-
-
-</section>
 
 
 </main>

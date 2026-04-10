@@ -196,17 +196,17 @@ The closed guard to triangle transition represents a cornerstone attack in the g
 ## Related Techniques
 
 
-- [[Transitions/Triangle Choke]] - Direct submission finish from this transition's control position
+- [[Submissions/Triangle Choke]] - Direct submission finish from this transition's control position
 
 - [[Positions/Triangle Control]] - Target control position reached upon successful execution
 
-- [[Submissions/Armbar from Guard]] - Primary follow-up when triangle is defended by arm extraction
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Alternative submission attack from closed guard sharing similar hip movement and arm isolation mechanics
 
 - [[Transitions/Triangle to Armbar]] - Natural chain when opponent defends triangle by posturing
 
 - [[Transitions/Triangle to Omoplata]] - Alternative transition when opponent turns away or stacks
 
-- [[Submissions/Omoplata from Guard]] - Backup attack when triangle angle is lost during entry
+- [[Transitions/Omoplata Sweep]] - Sweep option using omoplata mechanics when triangle angle is lost during entry
 
 - [[Transitions/Triangle to Back]] - Back take opportunity from opponent's stacking defense
 
@@ -214,7 +214,7 @@ The closed guard to triangle transition represents a cornerstone attack in the g
 
 - [[Transitions/Pendulum Sweep]] - Sweep option from similar angle creation position
 
-- [[Submissions/Kimura from Guard]] - Alternative submission when arm isolation is achieved but triangle blocked
+- [[Transitions/Kimura Sweep]] - Alternative attack when arm isolation is achieved but triangle entry is blocked
 
 - [[Transitions/Closed Guard to Omoplata]] - Parallel attack sharing identical arm isolation and angle creation mechanics
 

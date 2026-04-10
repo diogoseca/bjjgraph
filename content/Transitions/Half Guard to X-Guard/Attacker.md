@@ -188,6 +188,8 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to X-Guard?</p>
+
 - Create angle through hip escaping before attempting hook insertion - never insert the butterfly hook while flat on your back
 - Use the half guard leg trap as an anchor throughout the transition, releasing it only after X-Guard hooks are fully established
 - Time the entry to moments when opponent's weight shifts forward or they create space by posturing up or standing
@@ -202,6 +204,8 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to X-Guard?</p>
+
 - Half guard bottom position with at least minimal framing space preventing complete flattening by top player
 - Ability to hip escape and create angle toward the opponent's trapped leg side for hook threading
 - Opponent's near knee accessible for butterfly hook insertion without heavy crossface completely blocking movement
@@ -214,6 +218,8 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to X-Guard step by step?</p>
 
 1. **Establish angle from half guard**: From half guard bottom, hip escape toward the trapped leg side to create an angle that positions your hips underneath the opponent. Use your inside knee shield or forearm frame to prevent the top player from following your movement and re-establishing chest-to-chest pressure. This angle is the foundation for the entire transition.
 2. **Insert butterfly hook behind near knee**: Thread your inside leg underneath the opponent and hook your instep behind their near knee joint. The hook must be deep enough that your foot clears the back of their knee completely, creating a secure anchor point for elevation that resists simple backward extraction attempts.
@@ -243,6 +249,8 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to X-Guard?</p>
+
 - **Opponent drives heavy crossface pressure to flatten and prevent the hip escape needed to start the transition** (Effectiveness: High) - Your Response: Frame against the crossface with your forearm to create enough space for a quick hip escape. Alternatively, redirect into deep half guard where the opponent's forward pressure actually assists your entry by driving you underneath their base → Leads to [[Positions/Half Guard]]
 - **Opponent sprawls hips back and circles away when feeling the butterfly hook threading behind their knee** (Effectiveness: Medium) - Your Response: Follow their hip movement by maintaining your half guard leg trap and re-angling toward them. If they create significant distance, use the space to transition to technical stand up or single leg X-guard using whatever hook depth you have achieved → Leads to [[Positions/Half Guard]]
 - **Opponent steps over the outside leg and drives knee across to initiate smash pass before X-Guard completes** (Effectiveness: High) - Your Response: Immediately retract the outside leg and re-establish knee shield or transition to closed guard recovery before they complete the pass sequence. If the inside hook is still deep, switch to single leg X as a fallback → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to X-Guard?</p>
 
 ### 1. Attempting to insert butterfly hook while flat on back without first creating angle through hip escape
 
@@ -293,6 +303,8 @@ As the attacker executing the Half Guard to X-Guard transition, your objective i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to X-Guard (Attacker)?</p>
+
 **Phase 1: Hook Mechanics** - Butterfly hook insertion and X-pattern leg formation
 Practice the isolated mechanics of threading the butterfly hook behind the knee and crossing the outside leg across the hip from half guard bottom. Partner provides no resistance while you develop muscle memory for the leg positioning sequence and ankle grip timing. Perform 20 repetitions per side focusing on smooth, connected movement.
 
@@ -313,42 +325,12 @@ Full resistance positional sparring starting from half guard bottom. Bottom play
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical body position adjustment before attempting to insert the butterfly hook from half guard?
-**A**: You must hip escape to create an angle that positions your hips underneath the opponent before inserting the butterfly hook. Attempting hook insertion while flat on your back allows the top player to drive crossface pressure and flatten you, making the transition impossible. The hip escape creates the space and angle needed to thread your leg behind their knee joint.
-
-**Q2**: Your opponent drives heavy crossface pressure when you begin hip escaping - how do you adjust your entry strategy?
-**A**: When heavy crossface prevents standard hip escape, redirect into a deep half guard entry instead, using the opponent's forward pressure to assist getting underneath them. From deep half, you can then thread into X-Guard from an even deeper angle. Alternatively, frame against the crossface with your forearm to create enough space for a quick hip escape, then immediately insert the hook before they can re-establish flattening pressure.
-
-**Q3**: What grip must you establish on the opponent's leg during the transition and why is it critical?
-**A**: You must grip the opponent's trapped ankle with your near hand as soon as the butterfly hook is inserted. This ankle grip prevents the opponent from stepping back to extract their leg from the X-Guard configuration. Without this grip, even a deep butterfly hook can be defeated by the opponent simply backstopping and pulling their knee free of your hook through hip extension.
-
-**Q4**: When should you release the half guard leg trap during the transition to X-Guard?
-**A**: Release the half guard leg trap only after both X-Guard hooks are securely established - the inside butterfly hook behind the knee and the outside leg crossing the hip line. Premature release of the leg trap before hooks are set gives the opponent a free leg to step out and pass. The half guard trap serves as insurance throughout the transition until the X-Guard control structure is complete.
-
-**Q5**: Your opponent begins standing up when they feel your butterfly hook insertion - what opportunity does this create?
-**A**: An opponent standing up actually improves your X-Guard entry by creating space underneath for you to slide into position. Follow their upward movement by deepening your hooks and elevating your hips. Their standing posture makes them more vulnerable to X-Guard sweeps because they have a higher center of gravity and reduced ability to use chest pressure to collapse your guard structure.
-
-**Q6**: What is the correct upper body alignment once X-Guard hooks are fully established?
-**A**: Your upper body should be positioned perpendicular to the opponent's trapped leg, forming a T-shape. This perpendicular alignment maximizes sweeping leverage and creates multiple directional threats. If your body remains parallel to their trapped leg, your sweeping angles are limited and the opponent can more easily predict and defend your single available sweep direction.
-
-**Q7**: The opponent grabs your outside leg to prevent the X-pattern formation - what alternative position can you transition to?
-**A**: If the opponent prevents your outside leg from crossing their hip, transition to Single Leg X-Guard using only the inside butterfly hook as your primary control point. Single Leg X requires just the deep hook behind the knee plus ankle control, making it an effective fallback when the full X-Guard pattern is denied. From Single Leg X you retain strong sweep and leg entanglement options.
-
-**Q8**: How does the knee slice pass create an X-Guard entry opportunity for the half guard bottom player?
-**A**: When the opponent attempts a knee slice pass, their knee drives across your thigh line with forward momentum. Instead of defending the slice directly, redirect their slicing knee by inserting your butterfly hook behind it as it crosses. Their passing energy becomes your entry mechanics, threading them into the X-Guard configuration as their knee slides naturally into your hook placement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to X-Guard?</p>
 
 The Half Guard to X-Guard transition involves significant hip and knee loading on both players. Ensure adequate warm-up of hip flexors, groin, and knee ligaments before drilling. When the bottom player elevates with X-Guard hooks, the top player's knee can experience lateral stress if they resist rotation. Communicate clearly with training partners about knee comfort during hook insertion and elevation. Avoid explosive cranking motions when establishing hooks, as this can strain the top player's medial collateral ligament. Progress resistance gradually during drilling phases and tap immediately if knee discomfort occurs.
 

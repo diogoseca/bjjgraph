@@ -208,9 +208,9 @@ The Transition to Shoulder of Justice sits at a critical juncture in the top-sid
 
 - [[Positions/Side Control/Kesa Gatame]] - Alternative side control variation with related pressure concepts
 
-- [[Transitions/Kimura]] - Primary submission available once Shoulder of Justice is established
+- [[Submissions/Kimura]] - Primary submission available once Shoulder of Justice is established
 
-- [[Transitions/Americana]] - High-percentage submission when opponent extends near arm under pressure
+- [[Submissions/Americana]] - High-percentage submission when opponent extends near arm under pressure
 
 - [[Transitions/Arm Triangle]] - Submission opportunity when opponent brings far arm across face
 
@@ -222,7 +222,7 @@ The Transition to Shoulder of Justice sits at a critical juncture in the top-sid
 
 - [[Transitions/Side Control to North-South]] - Related transition sharing the same starting position
 
-- [[Transitions/Breadcutter Choke]] - Gi-specific submission accessible from nearby pressure angles
+- [[Submissions/Breadcutter Choke]] - Gi-specific submission accessible from nearby pressure angles
 
 
 </section>

@@ -164,6 +164,8 @@ The most critical defensive window occurs during the bottom player's hip drop an
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Jailbreak to Deep Half Entry?</p>
+
 - Opponent's hips suddenly drop toward the mat and rotate to face your far hip instead of rolling away as in standard jailbreak
 - Opponent's underhook tightens and pulls downward toward your far leg rather than driving across for the jailbreak roll
 - Opponent's head changes direction from turning away (jailbreak roll) to diving toward the inside of your far hip
@@ -175,6 +177,8 @@ The most critical defensive window occurs during the bottom player's hip drop an
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Jailbreak to Deep Half Entry?</p>
 
 - Maintain neutral weight distribution to avoid creating the trigger that invites deep half entry - neither too far forward nor based too wide
 - Attack the underhook aggressively with crossface and whizzer control to remove the steering mechanism for their dive
@@ -188,6 +192,8 @@ The most critical defensive window occurs during the bottom player's hip drop an
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Jailbreak to Deep Half Entry?</p>
 
 ### 1. Drive hips forward and sprawl to close the space underneath before opponent threads through
 
@@ -225,6 +231,8 @@ The most critical defensive window occurs during the bottom player's hip drop an
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Jailbreak to Deep Half Entry?</p>
+
 ### → [[Positions/Half Guard]]
 
 Shut down the dive early by sprawling forward to close space and driving crossface to prevent head positioning. Strip the underhook with whizzer pressure to remove their steering control. This returns opponent to standard bottom half guard where you retain passing initiative.
@@ -240,6 +248,8 @@ Strip the underhook aggressively and flatten the bottom player before they can t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Jailbreak to Deep Half Entry?</p>
 
 ### 1. Basing too wide with hips back when defending jailbreak, inadvertently creating the space needed for deep half entry
 
@@ -269,6 +279,8 @@ Strip the underhook aggressively and flatten the bottom player before they can t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Jailbreak to Deep Half Entry?</p>
+
 **Week 1-2** - Recognition drilling
 Partner alternates between standard jailbreak roll and deep half entry attempts at low speed. Practice identifying the directional cues that distinguish each attack. Call out which technique is being attempted before it completes. Build pattern recognition at gradually increasing speed.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring from top half guard against opponents who ac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that opponent is switching from jailbreak roll to deep half entry?
-**A**: The earliest cue is the direction change in their hip movement - instead of rotating away from you as in the standard jailbreak roll, their hips drop toward the mat and rotate to face your far hip. Their underhook will simultaneously tighten and pull downward rather than across. Recognizing this directional shift before their head passes your hip line is critical for successful defense.
-
-**Q2**: Why is stripping the underhook the most reliable defensive strategy against this transition?
-**A**: The underhook is the steering mechanism that guides the bottom player underneath your hips during the dive. Without it, they cannot control the direction or depth of their penetration and the entry falls apart mechanically. Stripping the underhook addresses the root cause of the technique rather than just the symptoms, making it effective regardless of which direction they try to move.
-
-**Q3**: How do you balance defending the deep half dive without opening yourself to the standard jailbreak roll?
-**A**: Maintain neutral weight distribution rather than committing heavily in either direction. Instead of basing wide to defend the roll or driving forward to prevent the dive, focus on attacking the underhook with whizzer and crossface control. This neutral approach removes the bottom player's primary tool without creating the directional weight commitment they need for either technique to succeed.
-
-**Q4**: Your opponent has already gotten their head past your hip line and is wrapping your far leg - what is your best response?
-**A**: At this point, you are in deep half guard and must transition to deep half top defense. Immediately establish crossface pressure to flatten them, widen your base with your free leg, and begin working to extract your trapped leg. The defensive window for preventing the entry has passed, so accepting the position and applying deep half top principles is more productive than trying to reverse a completed entry.
-
-**Q5**: What defensive posture minimizes the risk of both jailbreak roll and deep half entry simultaneously?
-**A**: Keep your hips low and connected to the opponent's body with balanced weight distribution, neither based too far back nor driving too far forward. Maintain active crossface pressure to control their head direction, and fight aggressively to strip the underhook using whizzer and elbow pressure. This posture eliminates the space needed for deep half entry while keeping your base stable against the roll.
-
-
-
-</section>
 
 
 </main>

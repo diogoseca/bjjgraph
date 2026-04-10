@@ -194,6 +194,8 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Underhook Recovery from Flattened?</p>
+
 - Create space before reaching for the underhook - the frame and hip escape must precede the arm insertion to prevent the top player from crushing the attempt
 - Use incremental hip escapes rather than explosive bridges to generate space without telegraphing your intentions to the top player
 - Thread the underhook deep with your hand reaching the opponent's far shoulder blade - a shallow underhook is easily neutralized by whizzer control
@@ -209,6 +211,8 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Underhook Recovery from Flattened?</p>
+
 - At least one leg hooked around the top player's leg maintaining the half guard configuration and preventing pass completion
 - Near-side arm free enough to create a preliminary frame on opponent's hip, shoulder, or bicep to generate initial space
 - Sufficient awareness of opponent's weight distribution to identify timing windows for hip escape execution
@@ -220,6 +224,8 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Underhook Recovery from Flattened step by step?</p>
 
 1. **Assess control points and protect position**: Before initiating any movement, verify your half guard hook is secure on the opponent's leg and identify where their weight is concentrated. Check whether they have crossface, underhook, or both. Protect your near-side elbow close to your body and avoid giving up any additional control points. This assessment takes one to two seconds but prevents wasted effort on poorly timed attempts.
 2. **Establish preliminary frame on opponent's hip or shoulder**: Drive your near-side forearm or palm into the opponent's hip crease or shoulder to create a structural barrier between your bodies. This frame does not need to create large space initially, just enough to prevent the opponent from settling deeper into chest-to-chest pressure. Use your skeletal structure rather than muscular effort to maintain this frame, keeping your elbow tight to your body to prevent the opponent from swimming through.
@@ -250,6 +256,8 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Underhook Recovery from Flattened?</p>
+
 - **Top player drives crossface harder and increases forward chest pressure to re-flatten bottom player** (Effectiveness: High) - Your Response: Accept the increased crossface rather than fighting it. Use the pressure wave to time your next hip escape, creating space as they commit weight forward. Redirect their pressure into your frame rather than absorbing it directly. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Top player applies whizzer or overhook on the underhook arm to neutralize its leverage** (Effectiveness: High) - Your Response: Drive the underhook deeper before the whizzer locks. If the whizzer is established, use the connection to initiate a dogfight by coming up to your knees, or transition to an old school sweep by ducking under and using their whizzer commitment against them. → Leads to [[Positions/Half Guard]]
 - **Top player clamps their elbow tight to block the underhook insertion path before the arm threads through** (Effectiveness: Medium) - Your Response: Use your frame hand to push their elbow upward while simultaneously driving your underhook arm through the opened gap. Alternatively, switch to a deep half entry by diving your head and shoulders under their hips rather than fighting the blocked underhook path. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -261,6 +269,8 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Underhook Recovery from Flattened?</p>
 
 ### 1. Reaching for the underhook without first creating space through frame and hip escape
 
@@ -305,6 +315,8 @@ As the bottom player in flattened half guard, recovering the underhook is your h
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Underhook Recovery from Flattened (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Frame creation and hip escape sequence
 Practice the frame-to-hip-escape-to-underhook sequence with a cooperative partner who provides light pressure. Focus on correct movement order, hip escape direction, and frame placement. No resistance. Build muscle memory for the sequential pipeline. 20 repetitions each side per session.
 
@@ -325,48 +337,12 @@ Begin rounds with two minutes of hard sparring to create fatigue before being pl
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must you establish before attempting to thread the underhook from flattened half guard?
-**A**: You must first create a preliminary frame on the opponent's hip or shoulder and execute a measured hip escape to generate space. The frame maintains separation while the hip escape creates the clearance needed for the arm to thread through. Attempting to reach for the underhook without this space creation results in the arm being trapped between the bodies with no path to thread through, wasting energy and potentially exposing you to kimura attacks.
-
-**Q2**: Your opponent drives heavy crossface pressure as you begin your hip escape - how do you adjust your timing?
-**A**: Accept the crossface rather than fighting it directly, and use the opponent's forward pressure commitment as a timing cue. When they drive forward, their weight shifts create a brief moment where your hips can escape more easily because their pressure is committed in one direction. Time your hip escape to coincide with their forward drive, using their momentum against them. The crossface becomes less effective once you secure the underhook and rotate to your side.
-
-**Q3**: What is the most common reason underhook recovery attempts fail from flattened half guard?
-**A**: The most common failure is reaching for the underhook without first creating space through the frame and hip escape sequence. When practitioners skip the space creation steps, their arm has no path to thread under the opponent's armpit. The arm gets stuck between the bodies, the opponent feels the attempt and increases pressure, and the bottom player burns energy without making progress. The sequential pipeline of frame, hip escape, then underhook must be followed in order.
-
-**Q4**: How deep should the underhook penetrate to be tactically effective against whizzer defense?
-**A**: The underhook hand should reach at minimum to the opponent's far shoulder blade, with the elbow tight against their ribcage. This depth prevents effective whizzer neutralization because the opponent cannot generate sufficient overhook leverage against a deep underhook. A shallow underhook reaching only to the armpit area is easily controlled and redirected by whizzer pressure, leaving you on your side but without meaningful offensive leverage.
-
-**Q5**: Your opponent immediately whizzers your arm after you insert the underhook - what is your best response?
-**A**: If the underhook has adequate depth, maintain your grip and use the whizzer connection to initiate a dogfight by driving up to your knees. The whizzer actually assists your rise because the opponent's arm is committed to controlling yours. Alternatively, duck your head under their armpit and use the whizzer commitment to enter an old school sweep position, converting their defensive reaction into your offensive opportunity. Never allow the whizzer to push your underhook shallow.
-
-**Q6**: What direction should your hip escape move relative to your opponent, and why is this critical?
-**A**: Shrimp toward your trapped leg side, creating space away from the opponent while keeping your chest oriented toward them. This direction is critical because shrimping toward the free leg side or turning away from the opponent exposes your back. Skilled top players anticipate back exposure during escape attempts and will transition to back control. The trapped-leg-side direction maintains your defensive orientation while still generating the space required for underhook insertion.
-
-**Q7**: Why must the leg hook be maintained as the absolute highest priority during the underhook recovery?
-**A**: The leg hook is the final barrier preventing the complete guard pass to side control. If you release or lose the hook during the underhook recovery attempt, the opponent can immediately extract their leg and complete the pass regardless of your underhook position. Even a perfectly secured underhook provides no defensive value against a completed pass. The hook must be maintained consciously throughout the entire sequence, and if it begins to slip, re-securing it takes priority over the underhook.
-
-**Q8**: What grip should your free hand establish to support the underhook recovery, and how does it coordinate with the underhook arm?
-**A**: Your free hand should establish a frame on the opponent's hip crease, bicep, or shoulder to create and maintain separation between your bodies. This frame works in coordination with the underhook arm: the frame hand creates and holds space open while the underhook arm threads through that space. After the underhook is secured, the free hand transitions to collar grip, wrist control, or knee shield positioning to consolidate the recovered active half guard position.
-
-**Q9**: Your opponent clamps their elbow to block the underhook path - what alternative approach can you take?
-**A**: Use your frame hand to push their elbow upward while threading the underhook through the created gap. If the elbow block is too strong, switch to an alternative recovery path such as diving under their hips for a deep half guard entry, which bypasses the blocked underhook path entirely. The ability to read when the underhook path is blocked and transition to an alternative technique prevents stalling in a losing positional battle and maintains escape momentum.
-
-**Q10**: How do you prevent the opponent from re-flattening you immediately after securing the underhook?
-**A**: Consolidation must be immediate and aggressive. The instant the underhook reaches adequate depth, rotate from flat to your side by driving your underhook elbow toward the mat and hip escaping simultaneously. Then immediately insert your top knee as a shield across the opponent's body. This knee shield creates a structural barrier preventing the opponent from driving their chest back onto yours. Any delay between securing the underhook and establishing the knee shield gives the opponent a window to re-flatten you.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Underhook Recovery from Flattened?</p>
 
 The underhook recovery from flattened half guard is a relatively low-risk technique from an injury perspective, but awareness of several factors is important. Shoulder strain can occur if the underhook arm is forced into an awkward angle while threading under heavy pressure. If you feel sharp pain in the shoulder during insertion, reset rather than forcing the movement. The top player should be aware that their crossface pressure affects the bottom player's breathing, and both partners should respect tap signals during training even from chest pressure alone. Neck strain can develop from prolonged crossface pressure turning the head, so training partners should moderate pressure during drilling phases. In competition, the bottom player should monitor their breathing rate and avoid panic-driven movements that increase injury risk.
 

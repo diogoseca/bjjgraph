@@ -196,7 +196,7 @@ Lockdown Recovery occupies a critical position in the BJJ escape hierarchy, spec
 
 - [[Positions/Half Guard/Lockdown]] - Target position - the half guard control position established upon success
 
-- [[Submissions/Electric Chair Submission]] - Primary follow-up - immediate attack chain available after Lockdown recovery
+- [[Positions/Half Guard/Electric Chair]] - Primary follow-up - immediate attack chain available after Lockdown recovery
 
 - [[Transitions/Hip Escape to Guard]] - Chain option - backup escape when Lockdown capture fails
 

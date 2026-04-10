@@ -169,6 +169,8 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 ## Position Definition
 
+<p class="section-subtitle">What is Triangle Escape Position (Bottom)?</p>
+
 - Practitioner's head and one arm are trapped inside opponent's closed triangle configuration with shin bone crossing behind neck, creating direct pressure on carotid arteries
 - Opponent's legs are locked in triangle position with one leg across shoulder and back of neck, other leg hooking behind knee to maintain structural integrity
 - Trapped arm is compressed against practitioner's own neck by opponent's leg pressure, contributing to choking mechanism while limiting extraction options
@@ -182,6 +184,8 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Triangle Escape Position (Bottom)?</p>
+
 - Practitioner's head and arm caught inside opponent's triangle lock from above position
 - Opponent has achieved triangle leg configuration with locked position and active pressure
 - Choking pressure is actively being applied or imminent threat exists
@@ -194,6 +198,8 @@ Success from the bottom perspective typically leads directly to guard passing po
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle Escape Position?</p>
 
 - Maintain calm breathing despite choking pressure - panic accelerates physical exhaustion and compromises technical execution
 - Create immediate defensive frames to prevent opponent from perfecting angle and depth through hip adjustment
@@ -209,6 +215,8 @@ Success from the bottom perspective typically leads directly to guard passing po
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Triangle Escape Position (Bottom)?</p>
 
 **If opponent has shallow triangle with weak angle and no arm isolation:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Combat Base]] (Probability: 60%)
@@ -237,6 +245,8 @@ Success from the bottom perspective typically leads directly to guard passing po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Escape Position?</p>
 
 ### 1. Pulling trapped arm straight out with force instead of using circular extraction
 
@@ -276,6 +286,8 @@ Success from the bottom perspective typically leads directly to guard passing po
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Triangle Escape Position defense?</p>
+
 ### Triangle Escape Positional Sparring
 
 Partner applies triangle at 50% pressure. Practice systematic escape sequence: establish posture, create frames, stack weight, clear legs, pass guard. Reset and repeat from various triangle depths and angles.
@@ -309,38 +321,6 @@ Partner locks triangle at moderate pressure while defender practices stepping in
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent scoots their hips to improve their choking angle - what adjustment maintains your defensive position?
-**A**: Immediately use your free hand to press down on their hip to stop the lateral movement while simultaneously stepping in the same direction to match their angle change. Maintain your stacking pressure throughout this adjustment. The goal is to prevent them from achieving the perpendicular angle that maximizes triangle effectiveness.
-
-**Q2**: What are the essential hand and arm positions for surviving the initial triangle lock?
-**A**: The trapped arm must have its elbow pinned tightly against your ribs with your hand near your own chest - never extended. The free arm should be posted firmly on the mat beside their hip or pressing directly on their hip to control elevation. Both arms must remain tight to your centerline to prevent secondary attacks.
-
-**Q3**: How do you shut down the opponent's ability to finish the triangle through hip elevation?
-**A**: Drive your weight forward aggressively to stack their hips over their shoulders, forcing their back flat on the mat. Use your free hand to pin their hip or thigh, preventing elevation. The stacking pressure removes their ability to create extension through their legs, which is essential for finishing the choke.
-
-**Q4**: What grip and posture priorities should guide your defensive sequence?
-**A**: First priority is creating space at your neck through posture - drive head up and spine straight. Second priority is securing your trapped arm position with elbow tight. Third is establishing your free hand post for base. Fourth is controlling opponent's hips. Never sacrifice postural integrity for better grips.
-
-**Q5**: How should you distribute weight and pressure during the stacking escape?
-**A**: Drive forward from your legs with your weight centered over a wide base. Your pressure vector should go forward and down through opponent's hips toward their shoulders, not just forward which tips you off balance. Keep your hips low and knees spread for maximum stability during the stack.
-
-**Q6**: The opponent begins switching to an armbar attack - what movement pattern counters this transition?
-**A**: Immediately turn toward your trapped arm side while keeping that elbow pinned tight. Stack your weight even more aggressively onto their shoulders to limit their hip mobility. If they've committed to the armbar, follow their rotation by stepping around toward your trapped arm side and driving forward rather than pulling back.
-
-**Q7**: How do you maintain efficient energy expenditure when escape attempts are initially unsuccessful?
-**A**: Reset to fundamental defensive posture between attempts rather than continuously fighting. Use structural frames through bone alignment rather than muscular tension. Focus on controlled, purposeful movements that accomplish specific objectives. Accept that the first attempt may fail and build systematic pressure through repeated correct technique rather than explosive desperation.
-
-**Q8**: After partially escaping - the triangle loosens but opponent maintains leg control - how do you complete the escape?
-**A**: Continue driving forward pressure while circling toward your previously-trapped arm side. Extract your arm using a circular motion as you move, not by pulling straight back. Immediately transition to a guard passing sequence - don't pause to celebrate the escape. The momentum from your escape should flow directly into passing pressure to prevent opponent from recovering their attack.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -365,8 +345,8 @@ Partner locks triangle at moderate pressure while defender practices stepping in
 - **[[Transitions/Stack Pass]]** - Primary offensive escape transition utilizing forward pressure
 - **[[Positions/Combat Base]]** - Critical posture position for triangle escape execution
 - **[[Positions/Armbar Control]]** - Common transition threat from triangle position
-- **[[Principles/Frame Creation]]** - Fundamental defensive skill required for all triangle escapes
-- **[[Principles/Escape Hierarchy]]** - Conceptual framework for prioritizing escape objectives
+- **[[Principles/Frames]]** - Fundamental defensive skill required for all triangle escapes
+- **[[Escape Hierarchy]]** - Conceptual framework for prioritizing escape objectives
 - **[[Transitions/Posture Recovery]]** - Essential transition technique for triangle escape success
 - **[[Transitions/Armbar Defense]]** - Required defensive skill when opponent transitions from triangle to armbar
 

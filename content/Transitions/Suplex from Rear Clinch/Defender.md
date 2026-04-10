@@ -154,6 +154,8 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Suplex from Rear Clinch?</p>
+
 - Opponent tightens body lock grip and squeezes around your midsection with increased intensity, compressing your ribcage noticeably
 - Opponent drops their hips below yours by bending their knees while maintaining chest-to-back pressure, loading their legs for explosive extension
 - Opponent steps one or both feet between or behind your feet, positioning themselves for the optimal lifting angle
@@ -166,6 +168,8 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Suplex from Rear Clinch?</p>
 
 - Drop your center of gravity immediately when you feel the body lock tighten and the opponent's hips load beneath you—a low base prevents the lift from initiating
 - Widen your stance and splay your feet to create a stable triangular base that resists vertical lifting force through increased ground contact
@@ -180,6 +184,8 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Suplex from Rear Clinch?</p>
 
 ### 1. Drop base and sprawl hips backward
 
@@ -217,6 +223,8 @@ As the defender against a Suplex from Rear Clinch, your immediate priority is pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Suplex from Rear Clinch?</p>
+
 ### → [[Positions/Half Guard]]
 
 Counter the suplex by hooking the opponent's leg during the lift and rotating your hips to land on top. As the opponent's momentum carries them into the throw, use the leg hook to direct them underneath you, establishing half guard top control as they land on their back with their leg trapped between yours
@@ -232,6 +240,8 @@ Prevent the suplex entirely through early recognition and immediate base defense
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Suplex from Rear Clinch?</p>
 
 ### 1. Remaining upright with a narrow stance when feeling the body lock tighten
 
@@ -261,6 +271,8 @@ Prevent the suplex entirely through early recognition and immediate base defense
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Suplex from Rear Clinch?</p>
+
 **Phase 1: Recognition Drilling** - Identifying suplex setup cues through tactile awareness
 Partner applies rear clinch and cycles through suplex setups (grip tightening, hip drop, foot positioning) without completing the throw. Defender calls out each cue verbally as they recognize it. Develop automatic recognition of the loading sequence through repeated exposure to the tactile patterns that precede the lift.
 
@@ -277,26 +289,6 @@ Positional sparring starting from standing rear clinch where the attacker can at
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a suplex attempt is imminent from the rear clinch?
-**A**: The earliest cues include the opponent tightening their body lock grip with increased compression around your midsection, dropping their hips below yours by bending their knees while maintaining chest contact, positioning their feet between or behind your feet, and a brief moment of stillness before the explosive movement. The hip drop below your center of gravity is the most reliable indicator because the opponent cannot generate lifting force without first positioning their hips below yours.
-
-**Q2**: Why is dropping your base the single most important defensive response to a suplex setup?
-**A**: Dropping your base lowers your center of gravity closer to the ground, dramatically increasing the force required to lift you. The suplex relies on the attacker positioning their hips below yours to create an upward lifting vector—by dropping your hips in response, you negate this positioning advantage and force them to lift significantly more of your weight against gravity. A low wide base also creates lateral stability that resists the rotational forces of lateral suplex variations.
-
-**Q3**: If you are already being lifted and cannot prevent the throw, what actions minimize positional damage?
-**A**: Tuck your chin to protect your cervical spine from impact, round your spine to distribute landing force across a larger surface area, and actively direct your body toward a lateral landing angle if possible. Try to hook the opponent's leg during the arc to entangle them and potentially reverse the landing position. Stay active and mobile rather than going stiff, as a controlled body absorbs impact more safely and creates more opportunities to scramble during the landing phase.
-
-**Q4**: How does the leg hook defense work against the suplex, and when should you deploy it?
-**A**: The leg hook defense involves wrapping your foot behind the opponent's knee or ankle as they position for the lift. This prevents them from fully extending their hips, which is the primary power source for the suplex. Deploy it when you feel the opponent step their feet between yours during the setup phase, before the lift initiates. The hook must be deep enough to genuinely block hip extension—a shallow hook can be powered through. If the hook holds during a lift attempt, the resulting tangle often creates a scramble where you can fight for top position.
-
-
-
-</section>
 
 
 </main>

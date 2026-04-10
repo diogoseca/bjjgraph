@@ -188,6 +188,8 @@ As the bottom player in technical mount, you execute the back turn when the armb
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Turn from Technical Mount?</p>
+
 - Time the turn to the opponent's forward weight shift during armbar setup—their commitment to the submission creates the window for rotation
 - Protect the threatened arm throughout rotation by keeping elbow pinned to ribs with hand gripping own collar—arm extension during turning guarantees armbar finish
 - Commit fully once rotation begins—half-turns create the worst possible scenario with both back exposure and arm vulnerability simultaneously
@@ -202,6 +204,8 @@ As the bottom player in technical mount, you execute the back turn when the armb
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Turn from Technical Mount?</p>
+
 - Opponent has established technical mount with arm isolation threatening imminent armbar
 - Primary escape options (hip escape, bridge, guard recovery) are blocked or have been attempted and failed
 - Mental commitment to accepting back exposure as preferable to immediate submission
@@ -214,6 +218,8 @@ As the bottom player in technical mount, you execute the back turn when the armb
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Turn from Technical Mount step by step?</p>
 
 1. **Recognize the Trigger**: Identify that the opponent has secured arm control and begun the weight shift or leg positioning for armbar finish. This recognition must happen before the armbar mechanics are fully engaged—once the leg swings over your face, the turn becomes significantly more difficult and dangerous to execute.
 2. **Secure Arm Protection**: Tuck the threatened elbow tight against your ribs and grip your own collar, lapel, or opposite shoulder with that hand. The arm must be completely protected before any rotation begins—this is the non-negotiable prerequisite that determines whether you survive the turn or get armbarred mid-rotation.
@@ -243,6 +249,8 @@ As the bottom player in technical mount, you execute the back turn when the armb
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Turn from Technical Mount?</p>
+
 - **Opponent follows rotation and immediately inserts hooks for full back control** (Effectiveness: High) - Your Response: Accept the back control position and immediately engage back escape protocols—chin tuck, hand fighting, systematic hook removal sequence → Leads to [[Positions/Back Control]]
 - **Opponent maintains wrist control during rotation and finishes armbar as you turn** (Effectiveness: Medium) - Your Response: If arm is caught mid-turn, immediately stack by driving into opponent and attempting to pull arm free using rotation momentum before they can fully extend → Leads to [[Positions/Armbar Control]]
 - **Opponent drives weight forward and pins shoulders flat, preventing any rotation from developing** (Effectiveness: Medium) - Your Response: If rotation is blocked, switch to hip escape in the opposite direction to create space, or attempt to re-establish frames for a different escape route → Leads to [[Positions/Mount/Technical Mount]]
@@ -254,6 +262,8 @@ As the bottom player in technical mount, you execute the back turn when the armb
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Turn from Technical Mount?</p>
 
 ### 1. Extending the threatened arm during rotation instead of keeping it tucked against the body
 
@@ -293,6 +303,8 @@ As the bottom player in technical mount, you execute the back turn when the armb
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Turn from Technical Mount (Attacker)?</p>
+
 **Solo Movement** - Rotation mechanics and arm protection
 Practice the turning motion solo on the mat, focusing on shoulder rotation, arm protection position with elbow tucked, and chin tuck timing. Drill 20 repetitions per side emphasizing smooth, committed rotation with elbow pinned throughout.
 
@@ -313,39 +325,12 @@ Start from technical mount bottom in live sparring. Practice recognizing when th
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to initiate the back turn from technical mount bottom?
-**A**: The optimal moment is when the opponent commits their weight forward during the armbar setup and begins the leg swing-over. Their forward commitment temporarily compromises their ability to follow your rotation immediately, and their weight shift reduces the lateral pressure that would otherwise block your turning motion. Initiating before the armbar grip is fully secured but after the opponent has committed to the attack creates the widest window for successful rotation.
-
-**Q2**: What is the single most critical arm position during the back turn rotation?
-**A**: The threatened arm must be tucked with the elbow pinned tightly against the ribs and the hand gripping your own collar, lapel, or opposite shoulder throughout the entire rotation. This position prevents the arm from extending during the turn, which would allow the opponent to finish the armbar mid-rotation. The arm must never straighten or separate from the body at any point during the turning sequence—even brief extension creates a finishing opportunity for the opponent.
-
-**Q3**: Why is a half-committed turn more dangerous than either staying in technical mount or completing the full turn?
-**A**: A half-turn creates simultaneous vulnerability to both armbar and back attacks without the defensive benefits of either position. In technical mount, your arms are threatened but you can still frame and escape. With a completed back turn, your back is exposed but your arms are protected and tucked. A half-turn exposes your back while keeping your arm extended and available for armbar—the opponent can choose the higher-percentage attack from two options rather than being limited to one.
-
-**Q4**: Your opponent blocks your initial rotation attempt by driving their weight onto your far shoulder—how do you adjust?
-**A**: If the rotation is blocked, do not force the turn repeatedly as this wastes energy and telegraphs your intent. Instead, switch to a hip escape in the opposite direction to create space, or use the momentum change to attempt a bridge and roll to the blocked side where the opponent's weight is now committed. The blocked turn may actually create an opening for a different escape because the opponent has shifted their weight to prevent your rotation, compromising their balance on the other side.
-
-**Q5**: What defensive actions must happen within the first two seconds after completing the back turn?
-**A**: Within the first two seconds: chin must be tucked to chest to prevent rear naked choke insertion, both hands must move to collar and neck area for defensive hand fighting, and hips should begin driving away from the opponent to create distance that delays hook insertion. The chin tuck is the absolute first priority as the choking arm is the most immediate threat. Hand positioning on the collar creates the framework for two-on-one grip control that forms the foundation of all back control escape sequences.
-
-**Q6**: How does the back turn from technical mount connect to the broader back control escape system?
-**A**: The back turn is the entry point into the back control defense system from mount offense. Upon completing the turn, you immediately transition into the standard back control escape hierarchy: neck defense through chin tuck and hand fighting, seatbelt grip stripping to free the upper body, hook removal through hip escape and leg manipulation, and finally rotation to face the opponent and recover guard. The quality of the back turn execution determines your starting position within this escape hierarchy—a clean turn with good arm protection puts you in the strongest defensive starting position.
-
-**Q7**: Under what circumstances should you choose the back turn over other technical mount escapes?
-**A**: The back turn should be chosen only when the opponent has secured arm isolation making armbar imminent, hip escape pathways are blocked by the opponent's leg positioning, bridge attempts have failed to create sufficient space, and guard recovery is not available. It is specifically a last-resort technique when submission is imminent and other defensive options have been exhausted. Choosing it prematurely when conventional escapes remain viable unnecessarily worsens your position from technical mount bottom to back control bottom without tactical justification.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Turn from Technical Mount?</p>
 
 Practice at controlled speed initially as the rotation under an armbar threat carries real injury risk to the elbow and shoulder joints. Partners should release armbar pressure immediately if the arm begins to extend during the turn. Never force the rotation against a fully locked armbar—tap and restart rather than risking joint damage. Communication with training partners about resistance levels is essential during progressive drilling phases. Build speed incrementally only after the arm protection mechanics are fully ingrained.
 

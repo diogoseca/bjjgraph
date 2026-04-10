@@ -162,6 +162,8 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Transition to Diamond Guard?</p>
+
 - Bottom player's arm begins swimming over your bicep in a circular scooping motion rather than gripping your collar or sleeve conventionally
 - Increased downward pressure on your head or collar combined with intensifying heel pressure against your lower back signaling posture-break setup for diamond entry
 - Bottom player shifts their hips 20-30 degrees toward one side creating the body angle needed for deep overhook establishment
@@ -173,6 +175,8 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Transition to Diamond Guard?</p>
 
 - Posture maintenance is your primary defense — an upright spine with head over hips prevents both the overhook from deepening and the head control from being established
 - Keep your arms outside or retracted when not actively working guard passes to deny the overhook entry that requires your arm to be positioned inside the guard
@@ -187,6 +191,8 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Transition to Diamond Guard?</p>
 
 ### 1. Pull your arm straight back before the overhook deepens past your tricep
 
@@ -224,6 +230,8 @@ As the defender against the Transition to Diamond Guard, your objective is to pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Transition to Diamond Guard?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Strip the overhook early before head control is added by pulling your arm straight back and immediately establishing upright posture with both hands on the opponent's hips. The key is speed — react within the first two seconds of feeling the swimming motion over your bicep before the elbow clears your tricep and the overhook locks.
@@ -239,6 +247,8 @@ Stand up during the grip transition window when the opponent is adjusting from s
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Transition to Diamond Guard?</p>
 
 ### 1. Ignoring the early overhook attempt and continuing to work guard passes while the diamond develops
 
@@ -268,6 +278,8 @@ Stand up during the grip transition window when the opponent is adjusting from s
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Transition to Diamond Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying overhook entry attempts in real time
 Partner attempts diamond guard transitions at 30% speed while you practice identifying the earliest possible recognition cue — grip release, arm swimming, hip angle change. Call out the cue verbally each time you detect it. 20 repetitions focusing purely on recognition speed without defensive action.
 
@@ -284,29 +296,6 @@ During live closed guard sparring, maintain specific awareness of diamond guard 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that indicate a bottom player is beginning the transition to diamond guard?
-**A**: The earliest cues are the bottom player releasing their standard collar or sleeve grips and beginning a circular swimming motion with one arm over your bicep. You may also feel their hips shift 20-30 degrees toward one side, creating the body angle needed for a deep overhook. Increased heel pressure into your lower back often precedes the overhook attempt as the bottom player pre-breaks your posture. Any combination of these signals — grip release, arm swimming, hip angle change, or increased heel pull — should trigger immediate defensive action.
-
-**Q2**: You feel the bottom player swimming their arm over your bicep for an overhook — what is your immediate response?
-**A**: Pull your arm straight back immediately before the overhook deepens past your tricep. The critical window is the first two seconds before the opponent's elbow clears your arm and the hook locks against their ribs. Simultaneously drive your hips back to create distance and begin posture recovery. If the arm strip succeeds, immediately establish both hands on the opponent's hips and sit tall to prevent a re-attempt. Speed of recognition and reaction determines success — a two-second delay typically means the overhook is already too deep to strip without a more complex escape.
-
-**Q3**: Why is it critical to address head control before attempting to strip the overhook when caught in a partial diamond?
-**A**: Head control maintains broken posture by pulling your head and spine into a compressed, rounded position. In this posture-broken state, your arm has almost no leverage for stripping the overhook because the pulling angle is compromised and your muscular force is fighting both the overhook grip and the postural compression simultaneously. Breaking head control first allows partial posture recovery, which restores your arm leverage and pulling angle, making the subsequent overhook strip significantly more effective. Additionally, pulling your arm backward against head control can inadvertently deepen the overhook by driving your arm further into the hook.
-
-**Q4**: The bottom player has fully established the diamond with deep overhook and head control — what escape sequence do you prioritize?
-**A**: First, circle your head to the outside of the head-controlling hand to break the diamond geometry and begin relieving postural compression. Second, use your free hand to peel or fight the head control grip while your head circles. Third, once head control is weakened and you begin recovering posture, drive your hips back and strip the overhook by pulling your arm toward your body rather than straight backward. If grip stripping is unsuccessful, stand up to change the force dynamics entirely — standing breaks the closed guard simultaneously and transitions to open guard where the diamond grips are significantly less effective.
-
-**Q5**: How does standing up change the defensive dynamics when the opponent is establishing diamond guard?
-**A**: Standing changes the force geometry from a ground-based horizontal pull against vertical posture into a fully vertical alignment where gravity assists your posture recovery. From standing, your full body weight works to straighten your spine rather than fighting the diamond pull from a kneeling position. Standing also begins breaking the closed guard by stretching the opponent's legs, which weakens their heel pressure and reduces the reinforcing effect the legs provide to the diamond frame. The combination of postural recovery through standing and guard opening through leg stretch addresses both components of the diamond system simultaneously.
-
-
-
-</section>
 
 
 </main>

@@ -89,7 +89,7 @@
         "condition": "If opponent keeps trapped arm bent and protects neck with chin tuck",
         "actions": [
           {
-            "technique": "Armbar Finish",
+            "technique": "Armbar on Free Arm",
             "target": "game-over",
             "probability": 60
           },
@@ -263,7 +263,7 @@
         "relationship": "Primary offensive transition sequence from mounted triangle"
       },
       {
-        "name": "Armbar from Mount",
+        "name": "Mount to Armbar",
         "relationship": "Related submission attack from similar positioning"
       }
     ],
@@ -284,11 +284,11 @@
     },
     "transitions": [
       {
-        "transition": "Triangle Choke",
+        "transition": "Triangle Choke from Mounted Triangle",
         "attempt_probability": 22
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar on Free Arm",
         "attempt_probability": 9
       },
       {
@@ -332,7 +332,7 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Mounted Triangle Finish",
+        "transition": "Triangle Choke",
         "attempt_probability": 2
       }
     ],

@@ -20,8 +20,8 @@ description: "Master Outside Ashi-Garami Bottom in BJJ. Complete guide covering 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 31% of exchanges from this position.",
+      "name": "Execute Outside Heel Hook from Outside Ashi-Garami",
+      "text": "From this position, attempt Outside Heel Hook from Outside Ashi-Garami. This technique is attempted in 31% of exchanges from this position.",
       "position": 1
     },
     {
@@ -169,6 +169,8 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Outside Ashi-Garami (Bottom)?</p>
+
 - Your legs form figure-4 around opponent's right leg with left leg crossing over their thigh and right leg hooking underneath their knee, creating a tight triangular lock that isolates the limb
 - Hip angle maintained perpendicular or diagonal to opponent (45-90 degrees), positioning your torso facing toward their trapped leg to maximize leverage for submissions and control
 - Opponent's trapped leg controlled and isolated with both upper body grips preventing hip rotation - typically one hand controlling heel/foot and other controlling knee/thigh to lock their leg in place
@@ -180,6 +182,8 @@ From this position, the practitioner has access to outside heel hooks, straight 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Outside Ashi-Garami (Bottom)?</p>
 
 - Understanding of leg entanglement mechanics and risks, including knowledge of when positions become dangerous and proper tapping protocols
 - Knowledge of heel hook anatomy and safety protocols, specifically understanding the rotational nature of heel hooks and their potential for rapid injury
@@ -193,6 +197,8 @@ From this position, the practitioner has access to outside heel hooks, straight 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Outside Ashi-Garami?</p>
 
 - Leg triangle must be tight with no space between your legs and opponent's leg - squeeze constantly and adjust configuration to eliminate gaps
 - Hip angle is critical - maintain perpendicular or diagonal angle (45-90 degrees) to opponent to create optimal leverage for submissions and prevent them from stacking
@@ -208,6 +214,8 @@ From this position, the practitioner has access to outside heel hooks, straight 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Outside Ashi-Garami (Bottom)?</p>
 
 **If opponent attempts to rotate hip externally (turning knee outward) to escape:**
 - Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 60%)
@@ -236,6 +244,8 @@ From this position, the practitioner has access to outside heel hooks, straight 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Outside Ashi-Garami?</p>
 
 ### 1. Loose leg triangle with space between legs and opponent's leg
 
@@ -275,6 +285,8 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Outside Ashi-Garami defense?</p>
+
 ### Leg Configuration Isolation Drill
 
 Partner's leg is stationary, practice establishing tight figure-4 from various starting positions (seated, lying, on side), focus on eliminating space and achieving proper perpendicular angle, 10 repetitions each side
@@ -307,38 +319,6 @@ Start in established outside ashi garami, bottom player works to maintain positi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution and body angle for maintaining control in Outside Ashi-Garami Bottom?
-**A**: Your body should maintain a perpendicular or diagonal angle (45-90 degrees) to your opponent's leg line, with your torso facing toward their trapped leg. Weight distribution centers on your hips, which should be slightly elevated off the mat to create tension. The figure-4 leg configuration bears most of the positional load, with constant squeezing pressure through both legs to eliminate space.
-
-**Q2**: What are the essential grips for maintaining this position and what does each control?
-**A**: The two essential grips are heel/foot control and knee/thigh control. The heel grip (typically near-side hand cupping the Achilles with fingers toward toes) enables heel hook and ankle lock attacks. The knee/thigh grip (typically far-side hand on their knee or upper thigh) prevents hip external rotation and escape. Both grips must be maintained simultaneously for effective control.
-
-**Q3**: Your opponent begins rotating their knee outward to escape - what adjustment do you make?
-**A**: Immediately increase pressure with your knee/thigh grip to block the external rotation. Simultaneously tighten your leg triangle by pulling your inside foot closer to your buttocks. This external rotation attempt is also an opportunity - if you cannot stop it, flow with their rotation into an inside ashi entry or use the rotational momentum to finish an outside heel hook before they complete the escape.
-
-**Q4**: Why is maintaining constant submission pressure important for position retention?
-**A**: Constant submission pressure keeps your opponent in a defensive mindset, limiting their ability to execute systematic escapes. When you remain static without threats, the opponent has time to work their escape sequence methodically. Flowing between heel hook and ankle lock setups forces them to continually address immediate danger rather than focusing on positional escape.
-
-**Q5**: How do you prevent an opponent from using their free leg to establish base and stand?
-**A**: Monitor their free leg positioning constantly and adjust your body angle to prevent strong posting. When they attempt to post with their free leg, angle your hips away from that side to reduce their leverage. You can also use your leg configuration to crowd their free leg or transition toward saddle to control both legs. Their free leg positioning often telegraphs escape attempts.
-
-**Q6**: Your opponent is driving forward aggressively to stack or smash - what options do you have?
-**A**: Forward pressure actually creates opportunities. Their forward drive exposes their far leg for inside ashi entry (higher percentage than outside ashi). Alternatively, their driving momentum can be redirected into a kneebar setup as their knee extends. Do not fight their pressure directly - use it to facilitate transitions. The worst response is lying flat and absorbing the stack.
-
-**Q7**: What determines whether you should finish from outside ashi or transition to a more dominant entanglement?
-**A**: Outside ashi is primarily a transitional position rather than a primary finishing position. Finish from outside ashi when the opponent is static and presents their heel cleanly, or when you have perfect hip angle and leg configuration. Transition to inside ashi or saddle when the opponent is actively escaping, when their heel is protected, or when they create angles that make outside ashi less effective. Advanced practitioners treat outside ashi as a gateway position.
-
-**Q8**: How do you manage energy expenditure to maintain the position over extended periods?
-**A**: Energy management centers on using skeletal structure rather than muscular effort. The figure-4 leg configuration should lock in place without requiring constant squeeze - position your legs so the triangle holds naturally. Maintain grips efficiently using finger hooks rather than death grips. Flow between submission threats rather than holding any single position. Let your opponent's escape attempts create your offensive opportunities rather than constantly attacking.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

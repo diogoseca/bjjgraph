@@ -13,7 +13,7 @@
   "from_position": "Turtle/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Arm Triangle",
       "probability": 55,
       "result": "success"
     },

@@ -169,6 +169,8 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 ## Position Definition
 
+<p class="section-subtitle">What is Deep Half Guard (Top)?</p>
+
 - Opponent is positioned deep underneath your hips with their body inverted or perpendicular to yours, their shoulders and head creating a wedge under your near-side hip while they control your far leg with their arms wrapped around the thigh or knee
 - Your trapped leg is controlled by opponent's arms with their shoulder pressure preventing easy extraction, while your free leg maintains base contact with the mat to prevent being swept
 - Weight distribution is balanced between both legs to prevent opponent from utilizing leverage to execute sweeps, with your torso maintaining upright or slightly forward posture to avoid being flattened
@@ -180,6 +182,8 @@ Success from top position requires understanding the sweep mechanics your oppone
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Deep Half Guard (Top)?</p>
 
 - Opponent has successfully entered deep half guard from half guard bottom, lockdown, or open guard recovery
 - Opponent has established deep positioning with their shoulders underneath your hips and secured control of your far leg
@@ -193,12 +197,14 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 ## Key Offensive Principles
 
-- Weight Distribution Management: Maintain balanced weight to prevent both waiter and old school sweeps
+<p class="section-subtitle">What are the key principles for attacking from Deep Half Guard?</p>
+
+- Center of Gravity Management: Maintain balanced weight to prevent both waiter and old school sweeps
 - Trapped Leg Extraction Priority: Systematically work to free your trapped leg as it's the key to escaping
 - Crossface Control: Establish crossface or head control to limit opponent's ability to execute sweep mechanics
 - Posture Maintenance: Keep good posture and avoid being flattened or broken down
 - Base Widening: Use free leg to establish wide base that makes you difficult to off-balance
-- Grip Fighting: Prevent opponent from establishing sweep grips on belt or pants
+- Grips: Prevent opponent from establishing sweep grips on belt or pants
 - Patience Under Pressure: Recognize this is dangerous position requiring methodical escape
 
 
@@ -207,6 +213,8 @@ Success from top position requires understanding the sweep mechanics your oppone
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Deep Half Guard (Top)?</p>
 
 **If opponent establishes waiter sweep grip on belt or pants with weight shifted forward:**
 - Execute **[[Transitions/Crossface Pass/Attacker|Crossface Pass]]** → [[Positions/Side Control]] (Probability: 60%)
@@ -234,6 +242,8 @@ Success from top position requires understanding the sweep mechanics your oppone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Deep Half Guard?</p>
 
 ### 1. Explosive or forceful movements to free trapped leg
 
@@ -268,6 +278,8 @@ Success from top position requires understanding the sweep mechanics your oppone
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Deep Half Guard attacks?</p>
+
 ### Deep Half Escape Flow Drill
 
 Partner enters deep half guard while you practice systematic escape sequence: establish crossface, widen base with free leg, shift weight forward slightly, extract trapped leg, and pass to side control. Start slow and focus on proper mechanics. Partner provides moderate resistance. Reset and repeat 10 times per side.
@@ -275,7 +287,7 @@ Partner enters deep half guard while you practice systematic escape sequence: es
 **Duration**: 5 minutes per side
 
 
-### Weight Distribution Sensitivity Drill
+### Center of Gravity Sensitivity Drill
 
 Partner is in deep half guard and signals which sweep they're setting up (waiter or old school) by tapping your leg. You must adjust weight distribution to counter that specific sweep before they execute it. Develops sensitivity to sweep mechanics and proper defensive weight placement. 20 repetitions per side.
 
@@ -293,38 +305,6 @@ Positional sparring starting in deep half guard top. You work to pass while part
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins to elevate their hips while maintaining deep underhook - what immediate adjustment do you make?
-**A**: Immediately shift your weight forward and drive your hips down toward the mat to counter their elevation attempt. Simultaneously widen your base with your free leg by posting it far to the side. This removes the space they need to complete the sweep and grounds your center of gravity below theirs. If possible, establish crossface pressure to flatten their upper body and disrupt their ability to generate lift.
-
-**Q2**: What are the essential grips and contact points for maintaining position from deep half guard top?
-**A**: The essential contact points are: crossface control with your shoulder or forearm driving into opponent's face/jaw to limit their mobility, hip control with your free hand to monitor their elevation attempts, and a wide base with your free leg posted far to the side. Your trapped leg should maintain some downward pressure while you work extraction. The crossface is priority one as it shuts down most sweep mechanics.
-
-**Q3**: How do you shut down the waiter sweep specifically when you feel your opponent loading it?
-**A**: When you feel the waiter sweep loading (opponent grabbing your belt or pants and beginning to sit up), immediately shift your weight backward and lower your hips toward the mat. Drive your crossface pressure downward to flatten them. Widen your base dramatically with your free leg and consider grabbing their far hip or pants to anchor yourself. The key is removing the elevation space they need while applying counter-pressure to their upper body.
-
-**Q4**: What grip should be your highest priority when defending from deep half guard top?
-**A**: Crossface control should be your highest priority grip. Whether using your forearm across their jaw or shoulder driving into their face, this control limits their ability to look up and generate the rotation needed for sweeps. Without controlling their head and upper body, all other defenses become significantly harder as they can freely adjust angles and time their sweeps.
-
-**Q5**: How do you apply pressure correctly from deep half guard top without getting swept?
-**A**: Apply pressure through your shoulder and chest into their upper body, not through your hips into their hips. Keep your hips light and mobile, ready to adjust, while your upper body does the controlling work. Maintain roughly 50/50 weight distribution between your legs with slight forward bias. Never drive all your weight forward as this enables the waiter sweep, and never sit back as this enables the old school sweep.
-
-**Q6**: Your opponent momentarily releases their underhook grip - what is your immediate response?
-**A**: The moment they release their underhook, immediately begin extracting your trapped leg while maintaining crossface pressure. Use a circular motion with your knee (up, back, then down and out) rather than pulling straight back. This window is brief so move with urgency but not reckless speed. As your leg clears, transition immediately to side control or knee slide position to complete the pass.
-
-**Q7**: How do you manage energy expenditure when stuck in deep half guard top for extended periods?
-**A**: Avoid explosive movements which drain energy and often facilitate sweeps. Instead, apply steady methodical pressure through your crossface while making small incremental adjustments to your base and positioning. Focus on disrupting their grips and controls through sustained pressure rather than burst movements. Remember that time actually favors the bottom player, so work systematically toward extraction rather than waiting indefinitely.
-
-**Q8**: Your opponent begins turning toward you underneath as if to take your back - how do you recover?
-**A**: If they're turning to take your back, immediately drive your weight into them and establish a strong whizzer (overhook) on their far arm to prevent the roll. Drop your hips and sprawl slightly to remove their leverage. You may need to accept giving up your leg from their grip to prevent the back take - extract and circle away from their rotation while maintaining the whizzer. Consider switching your hips to face them directly.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

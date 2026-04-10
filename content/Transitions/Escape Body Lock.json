@@ -96,8 +96,8 @@
       "relationship": "Opponent's highest-value transition that this escape aims to prevent"
     },
     {
-      "name": "Scramble Position",
-      "relationship": "Possible intermediate position during escape scramble"
+      "name": "Standing Position",
+      "relationship": "Possible intermediate position during escape"
     },
     {
       "name": "Half Guard",

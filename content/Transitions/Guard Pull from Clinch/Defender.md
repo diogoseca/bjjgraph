@@ -162,6 +162,8 @@ As the defender against a guard pull from clinch, your primary objective is to e
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Pull from Clinch?</p>
+
 - Opponent suddenly changes grip configuration from wrestling ties to collar and sleeve grips typical of guard pulling setups
 - Opponent's hips begin dropping backward and downward while their upper body maintains forward connection through grips
 - Opponent steps one foot forward outside your stance, creating the angular path used for the controlled sit descent
@@ -174,6 +176,8 @@ As the defender against a guard pull from clinch, your primary objective is to e
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Pull from Clinch?</p>
 
 - Recognize guard pull cues early — grip changes, hip drops, and weight shifts telegraph the pull before it begins
 - React within the first half-second of recognizing the pull to maximize your defensive options before guard closure
@@ -188,6 +192,8 @@ As the defender against a guard pull from clinch, your primary objective is to e
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Pull from Clinch?</p>
 
 ### 1. Sprawl hips back and drive weight away immediately upon recognizing the pull attempt
 
@@ -225,6 +231,8 @@ As the defender against a guard pull from clinch, your primary objective is to e
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Pull from Clinch?</p>
+
 ### → [[Positions/Clinch]]
 
 Deny the guard pull entirely through early sprawl reaction, aggressive grip stripping, or maintaining strong upright posture that resists the pulling force. React within the first half-second of recognizing pull cues to prevent your opponent from committing to the descent.
@@ -240,6 +248,8 @@ Capitalize on the transition gap by driving a knee through the centerline or cir
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Pull from Clinch?</p>
 
 ### 1. Bending at the waist and following opponent down with your upper body as they sit to guard
 
@@ -269,6 +279,8 @@ Capitalize on the transition gap by driving a knee through the centerline or cir
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Pull from Clinch?</p>
+
 **Phase 1: Recognition Drilling** - Identifying guard pull cues from clinch engagement
 Partner alternates between guard pull attempts and genuine wrestling attacks from clinch. Defender must call out 'pull' when they recognize guard pull cues before the partner sits. Develops the visual and tactile pattern recognition needed for early reaction without committing to wrong counter.
 
@@ -285,29 +297,6 @@ Full sparring flow where successful guard pull counter immediately transitions i
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to pull guard from the clinch?
-**A**: The earliest cues are a sudden change in grip configuration — opponent shifts from wrestling ties to collar and sleeve grips — combined with their hips beginning to drop backward while upper body connection is maintained through pulling grips. You may also notice their lead foot stepping outside your stance to create the angular path for sitting. Recognizing these cues within the first half-second provides enough time to sprawl, strip grips, or drive forward to counter effectively.
-
-**Q2**: Your opponent begins sitting for a guard pull and you have an underhook — what is your highest-percentage counter?
-**A**: Drive forward immediately with your underhook side, pushing your chest into their shoulder while circling to the underhook side. This forward pressure combined with lateral angle prevents them from achieving a square guard closure. Your goal is to arrive at their hip before they can lock their ankles, allowing you to establish a passing position from knee slide or headquarters. The underhook gives you inside position that makes their guard pull significantly harder to complete cleanly.
-
-**Q3**: How should you adjust your stance when you recognize a guard pull attempt to avoid ending up in closed guard?
-**A**: Immediately lower your hips and widen your base while driving your hands to their hips or biceps to create distance and prevent being pulled forward. Do not follow them down by bending at the waist, as this feeds directly into closed guard with broken posture. If they complete the sit, immediately establish combat base with one knee up and one knee down rather than dropping both knees between their legs, preserving your mobility options for standing guard break.
-
-**Q4**: What is the critical window where the guard puller is most vulnerable and how do you exploit it?
-**A**: The critical window is the 1-2 seconds between when their hips contact the mat and when they lock their ankles behind your back. During this transition, their legs are in motion and cannot generate the squeezing pressure needed for full closed guard control. Exploit this window by immediately driving a knee through the centerline of their guard, wedging it between their thighs before closure. This knee wedge prevents guard closure and gives an immediate passing advantage from inside their open guard.
-
-**Q5**: Your opponent successfully closes guard after pulling — what is your immediate priority in the first five seconds?
-**A**: Your immediate priority is establishing strong defensive posture before they can break you down and begin attacking. Place both hands on their hips, straighten your spine, and drive your chest up while keeping your head elevated above your hips. Do not reach for grips or attempt to pass yet — first establish the structural posture that prevents triangles, armbars, and cross collar chokes. Once posture is secured, begin systematic grip fighting to work toward guard opening sequences.
-
-
-
-</section>
 
 
 </main>

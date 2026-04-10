@@ -169,6 +169,8 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Position Definition
 
+<p class="section-subtitle">What is 50-50 Guard (Bottom)?</p>
+
 - Both practitioners' legs are entangled in mirror configuration with right leg inside opponent's legs and left leg outside (or vice versa), creating symmetrical leg positioning that defines the 50-50 structure
 - You are positioned on your back or side with hips lower than opponent's hips, giving opponent gravitational advantage and superior pressure application through their upper body weight
 - Opponent on top has achieved inside position control with their knee creating pressure across your hip line while their outside leg controls your outside leg, establishing dominant control hierarchy
@@ -182,6 +184,8 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing 50-50 Guard (Bottom)?</p>
+
 - Entry from standing guard pull or failed takedown where legs become entangled in 50-50 configuration
 - Failed guard pass attempt where opponent's legs wrap around yours in mirror position
 - Transition from other leg entanglement positions (X-Guard, Single Leg X-Guard) where opponent secures top position
@@ -194,6 +198,8 @@ From this position, you face multiple submission threats, primarily heel hook, a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 50-50 Guard?</p>
 
 - Heel Protection Priority: Defending your heel from heel hook is absolute first priority; hide heel through knee rotation inward and aggressive grip fighting
 - Inside Position Recovery: Working to match opponent's inside control neutralizes their advantage and enables position reversal opportunities
@@ -209,9 +215,11 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from 50-50 Guard (Bottom)?</p>
+
 **If opponent has clear inside position control and is setting up heel hook attack:**
-- Execute **[[Hide heel and defend immediately/Attacker|Hide heel and defend immediately]]** → [[50-50 Guard Bottom]] (Probability: 90%)
-- Execute **[[Extract legs to standing if heel defense becomes compromised/Attacker|Extract legs to standing if heel defense becomes compromised]]** → [[Positions/Standing Guard]] (Probability: 70%)
+- Execute **[[Hide heel and defend immediately/Attacker|Hide heel and defend immediately]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 90%)
+- Execute **[[Extract legs to standing if heel defense becomes compromised/Attacker|Extract legs to standing if heel defense becomes compromised]]** → [[Positions/Standing Position]] (Probability: 70%)
 
 
 **If you successfully match opponent's inside position or gain inside position advantage:**
@@ -231,6 +239,8 @@ From this position, you face multiple submission threats, primarily heel hook, a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Guard?</p>
 
 ### 1. Attempting to reverse position or execute escapes while opponent has access to your heel
 
@@ -265,6 +275,8 @@ From this position, you face multiple submission threats, primarily heel hook, a
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train 50-50 Guard defense?</p>
+
 ### Heel Defense Drill
 
 Partner attempts to grip and attack your heel from top 50-50 while you practice hide heel mechanics, grip breaks, and defensive hand fighting. Start slow, gradually increase speed as defense improves.
@@ -290,38 +302,6 @@ Partner gives 50% resistance from top 50-50. Practice sweeping to top position u
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the absolute first priority when you find yourself in 50-50 Guard Bottom?
-**A**: Heel protection is the absolute first priority. Before attempting any escape, reversal, or counter-attack, you must hide your heel by rotating your knee inward and establishing defensive grips on opponent's hands. A heel hook can finish in under two seconds once opponent establishes proper control, making heel defense non-negotiable.
-
-**Q2**: Your opponent secures a two-handed grip on your heel - what immediate defensive action prevents the finish?
-**A**: Immediately rotate your knee inward toward your opposite hip while simultaneously attacking their grip with both hands. The knee rotation takes tension off the heel hook mechanism. Use your hands to strip their grip on your heel - prioritize breaking the cupping hand first. If grip breaks fail, consider tapping early rather than risking knee damage.
-
-**Q3**: How do you assess whether to fight for reversal versus extract and escape to standing?
-**A**: Assess inside position within the first 3-5 seconds. If you have inside position parity or advantage, fight for reversal using sweeping mechanics. If opponent has clear inside control that you cannot quickly match, immediately shift strategy to leg extraction and escape to standing. Fighting for reversal without inside position wastes energy and increases submission risk.
-
-**Q4**: What hip movements prevent opponent from fully settling their weight and establishing dominant control?
-**A**: Maintain constant hip mobility through shrimping away to create angle, bridging to disrupt their balance, and directional hip changes that prevent them from aligning their pressure. Never remain static - even small hip adjustments of a few inches prevent opponent from fully settling and create micro-opportunities for escape or reversal.
-
-**Q5**: Your opponent overextends reaching for your heel - what counter-attack opportunity does this create?
-**A**: When opponent overextends for heel hooks, they often sacrifice their own heel defense and inside position control. This creates opportunity for counter heel hook by attacking their exposed heel, or sweep to top position by exploiting their compromised base. Wait for their weight to shift forward during the attack attempt before executing the counter.
-
-**Q6**: What are the key grip fighting priorities to prevent opponent from attacking your legs?
-**A**: Fight grips aggressively before opponent establishes control - breaking grips early is far easier than after they've secured position. Prioritize controlling their hands to prevent heel access. Establish your own controlling grips on their ankle or heel when possible, as this enables counter-attacks while defending. Two-on-one grip fighting to strip their control is highly effective.
-
-**Q7**: How should you manage energy when stuck in 50-50 Guard Bottom for extended periods?
-**A**: Work in bursts of intelligent movement rather than continuous struggling. Defend in relaxed but ready state between attack attempts, only explosively engaging when escaping or countering. Rest briefly between escape attempts. Conserve energy for high-percentage opportunities rather than wasting it on low-probability escapes. Strategic extraction to standing may be more energy-efficient than prolonged reversal attempts.
-
-**Q8**: After partially escaping a heel hook by stripping one of opponent's grips, how do you complete the defense and recover to a safe position?
-**A**: After stripping the first grip, immediately strip the second grip using two-on-one hand fighting before opponent can re-establish control. Simultaneously rotate your knee inward to remove remaining rotational tension on the joint. Once both grips are broken, create immediate distance through hip escape and either re-establish your heel defense position with knee rotated inward, initiate a planned escape sequence to standing, or counter-attack opponent's now-exposed heel. The window between breaking the first and second grip is your highest vulnerability moment.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

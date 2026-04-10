@@ -162,6 +162,8 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Mount to Back Control?</p>
+
 - Opponent releases their armbar wrist and elbow grips and begins sliding their body laterally toward your back as you turn or shift weight
 - The posted leg moves from its perpendicular base position and begins dropping behind your thigh, converting into a hook insertion
 - Opponent's arm transitions from controlling your wrist or elbow to threading over your shoulder or under your armpit for seatbelt configuration
@@ -174,6 +176,8 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Mount to Back Control?</p>
 
 - Recognize that turning away from the armbar in Technical Mount is the primary trigger for the back take—resist the instinct to turn blindly and instead make calculated defensive choices
 - If you must turn, keep your elbows tight to your body and immediately fight for underhook position to prevent the seatbelt from being established across your chest
@@ -188,6 +192,8 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Mount to Back Control?</p>
 
 ### 1. Stop the turn and re-square shoulders to the mat immediately upon feeling the opponent begin to follow
 
@@ -225,6 +231,8 @@ From the defender's perspective, preventing the Technical Mount to Back Control 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Mount to Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a hip escape or bridge during the opponent's rotation. As they commit to following your turn and lift their base to transition, the momentary instability creates an opening. Shrimp your hips hard away from them, insert your bottom knee between your bodies as a frame, and fight to recover half guard top position while they fall to half guard bottom. The key window is after they have abandoned Technical Mount base but before they have secured seatbelt and both hooks.
@@ -240,6 +248,8 @@ Deny the back take by refusing to complete the turn that exposes your back. The 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Mount to Back Control?</p>
 
 ### 1. Turning away from the armbar instinctively and blindly without checking whether the opponent is following to take the back
 
@@ -269,6 +279,8 @@ Deny the back take by refusing to complete the turn that exposes your back. The 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Mount to Back Control?</p>
+
 **Phase 1: Recognition** - Identifying back take initiation cues from Technical Mount bottom
 Partner establishes Technical Mount and alternates between genuine armbar attacks and back take transitions. You practice identifying which attack is coming based on physical cues: grip changes, leg movement, weight shift direction. Call out the attack before it develops. No escape attempts—focus purely on recognition speed and accuracy.
 
@@ -285,29 +297,6 @@ Positional sparring starting from Technical Mount bottom. Opponent works the ful
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that your opponent is transitioning from an armbar attempt to a back take from Technical Mount?
-**A**: The earliest cues are the opponent's posted leg beginning to shift from its perpendicular base position, their arm control changing from wrist-and-elbow armbar grip to a reaching motion over your shoulder, and their weight shifting from downward pressure on your chest to lateral following pressure. You may also feel their chest angle change as they begin to align with your back rather than pressing into your front. Recognizing these cues in the first one to two seconds of the transition is critical for effective defense.
-
-**Q2**: You are in Technical Mount bottom and feel the opponent's chest starting to shift toward your back as you turn. What is your immediate defensive response?
-**A**: Immediately stop your turn and re-square your shoulders to the mat. Pull both elbows tight to your ribs and tuck your chin to your far shoulder. Use your free arm to create a frame against their hip or chest to prevent them from following your rotation further. If you can feel their posted leg shifting, use your bottom leg to hook or block it before it converts to a back control hook. The priority is denying the chest-to-back connection that defines back control.
-
-**Q3**: Why is fighting the seatbelt grip more important than fighting the hooks when defending the back take from Technical Mount?
-**A**: The seatbelt controls your upper body and prevents you from turning to face the opponent, which is your primary escape mechanism from back control. Hooks without seatbelt control are inherently unstable because you can strip them with hip escapes and your opponent cannot prevent you from turning. However, a secured seatbelt with even one hook creates a stable back control position where the opponent can systematically work the second hook into place. Neutralizing the seatbelt preserves your ability to turn and face, which is the foundation of every back escape.
-
-**Q4**: The opponent has one hook in and is reaching for the seatbelt with their arm. What is your best window for escape and how do you exploit it?
-**A**: This is the critical transition moment when the opponent's position is most vulnerable because they have abandoned Technical Mount base but have not yet completed back control. Use two-on-one grip fighting to prevent their arm from completing the seatbelt. Simultaneously, execute a hip escape toward the side of the inserted hook, using the momentum to strip the single hook while their upper body control is incomplete. If you can prevent the seatbelt and strip the hook in this window, the opponent falls back to a neutral scramble or you recover half guard.
-
-**Q5**: Why does turning away aggressively to escape the armbar actually make the back take easier for your opponent?
-**A**: Turning away from the armbar rotates your shoulders away from the opponent and exposes your back, which is the exact positional change they need to transition from Technical Mount to back control. Your turning momentum makes it easier for them to follow because they can ride your rotation rather than creating it. The faster and more committed your turn, the more back exposure you create and the less time you have to establish defensive frames before they arrive at your back with seatbelt and hooks. Controlled, calculated defensive choices outperform reactive turning.
-
-
-
-</section>
 
 
 </main>

@@ -16,7 +16,7 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Knee Through in BJJ",
-  "description": "Step-by-step guide for executing Knee Through from Half Guard/Top.",
+  "description": "Step-by-step guide for executing Knee Through from Shin-to-Shin Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -174,13 +174,15 @@ description: "How to execute the Knee Through pass in BJJ. Complete attacking gu
 
 The Knee Through pass attacks from half guard top by driving the trapped knee forward in a straight line through the opponent's guard structure while maintaining crushing upper body pressure. This pass rewards patience and systematic control establishment over explosive movement. The key mechanical principle is that forward knee drive combined with aligned shoulder pressure creates a unified force vector that the bottom player cannot redirect with frames or hip escapes. Unlike passes that require you to create angles or change levels, the Knee Through succeeds through direct, relentless forward pressure that compresses the opponent's defensive structure until it collapses. Mastery requires understanding the precise sequence of upper body control, hip alignment, knee insertion, leg clearing, and immediate consolidation that transforms half guard top into dominant side control.
 
-**From Position**: [[Positions/Half Guard]] (Top)
+**From Position**: [[Positions/Shin-to-Shin Guard]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Knee Through?</p>
 
 - Establish dominant shoulder pressure before initiating any knee movement to compress defensive frames
 - Control the opponent's near side arm to prevent their primary defensive weapon, the underhook
@@ -196,6 +198,8 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Through?</p>
+
 - Top position in half guard with one leg trapped between opponent's legs at knee or thigh level
 - Dominant crossface or shoulder pressure established across opponent's face driving their head to the mat
 - Control of opponent's near arm through wrist control, sleeve grip, or complete underhook denial
@@ -208,6 +212,8 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Through step by step?</p>
 
 1. **Establish crossface control**: Secure a strong crossface across the opponent's face using your near shoulder, driving their head away from you and pinning it to the mat. Your crossfacing arm can either underhook their far arm or post on the mat for base. This crossface is the anchor point for all subsequent movements and must remain heavy throughout the entire passing sequence.
 2. **Control near side arm**: With your free hand, control the opponent's near wrist or sleeve to prevent them from establishing an underhook. Alternatively, secure your own underhook first, completely denying their primary defensive frame. This arm control is critical because the underhook is the half guard player's most powerful defensive and offensive weapon, enabling sweeps and back takes.
@@ -236,6 +242,8 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Through?</p>
+
 - **Opponent establishes underhook on near side and drives into you, creating space and threatening to come to knees** (Effectiveness: High) - Your Response: Switch to Knee Slice Pass variation that accommodates their underhook, or fight to regain underhook control with a whizzer before continuing. If their underhook creates upward space, consider stepping over into mount. → Leads to [[Positions/Half Guard]]
 - **Bottom player extends knee shield frame to create distance and prevent shoulder pressure from landing** (Effectiveness: High) - Your Response: Address the knee shield first by driving it to the mat with your free hand or hip weight. Alternatively, transition to Long Step Pass to bypass the frame entirely by stepping around it. → Leads to [[Positions/Half Guard]]
 - **Opponent hip escapes away from the pass direction, creating space for guard recovery or re-composition** (Effectiveness: Medium) - Your Response: Follow their hip movement with your body, maintaining shoulder pressure throughout. Use their escape motion to accelerate your knee through as their hip escape actually opens the path for your knee. → Leads to [[Positions/Half Guard]]
@@ -248,6 +256,8 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Through?</p>
 
 ### 1. Attempting to drive knee through before establishing sufficient shoulder pressure
 
@@ -287,6 +297,8 @@ The Knee Through pass attacks from half guard top by driving the trapped knee fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Through (Attacker)?</p>
+
 **Phase 1: Static Position Work (Weeks 1-2)** - Crossface and arm control mechanics
 Start in established half guard top position with partner holding light frames. Practice achieving dominant crossface and near arm control without attempting the pass. Focus on pressure distribution, maintaining connection, and denying the underhook.
 
@@ -310,48 +322,12 @@ Apply Knee Through pass during regular training rolls when opportunities arise. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must shoulder pressure be established before attempting to extract the trapped leg in the Knee Through pass?
-**A**: Shoulder pressure compresses the opponent's defensive frames and limits their ability to create space for guard recovery. Without proper upper body control, the opponent can easily use their hands and knee shield to prevent the pass or execute sweeps. The pressure also prevents them from sitting up or establishing an effective underhook. Attempting to pass with just leg movement allows the opponent to maintain active frames and control the distance, making the pass almost impossible against a competent bottom player.
-
-**Q2**: What is the primary mechanical difference between the Knee Through pass and the Knee Slice pass?
-**A**: The Knee Through drives the trapped knee forward in a straight line through the opponent's guard structure, punching directly toward the far side of the mat with linear force. The Knee Slice cuts the knee across the opponent's body at an angle, slicing through their guard laterally with hip rotation. The Knee Through is more pressure-based and direct, relying on aligned body weight, while the Knee Slice incorporates lateral movement and is often combined with leg weave or hip switching mechanics.
-
-**Q3**: Your opponent establishes a strong underhook on your near side while you are setting up the Knee Through. How do you respond?
-**A**: The underhook must be addressed immediately because it is the half guard player's most dangerous offensive tool. You can apply a strong whizzer to neutralize the underhook and fight to re-establish your own, switch to a Knee Slice Pass variation that works with their underhook rather than against it, or exploit the space their underhook creates by stepping over into mount. Continuing to force the Knee Through against a strong underhook typically results in being driven to your back or swept because the underhook gives them the leverage to off-balance your passing structure.
-
-**Q4**: Why is it critical to drive the knee in a straight line rather than cutting across the body during the Knee Through?
-**A**: Driving straight through penetrates directly into the opponent's guard structure along the same vector as your shoulder pressure, creating a unified force that is extremely difficult to redirect. Cutting across at an angle separates your knee movement from your pressure line, exposing your leg to recapture and putting you off-balance for sweeps. The straight-line drive also allows you to maintain better shoulder connection throughout the movement, while an angled cut often requires you to rise up and sacrifice the pressure that makes the pass work.
-
-**Q5**: What conditions must exist before you should attempt the Knee Through pass rather than an alternative half guard pass?
-**A**: The Knee Through requires dominant upper body control with crossface established, the opponent's underhook denied or controlled, and the opponent playing a relatively static defensive half guard. It excels when you can negate their frames with sustained pressure. Choose alternative passes when the opponent has an established underhook, is using dynamic leg configurations like Deep Half Guard or Lockdown, has an active knee shield creating significant distance, or is actively threatening sweeps that require immediate defensive attention before you can commit to passing.
-
-**Q6**: How does proper hip-to-shoulder alignment contribute to the success of the Knee Through pass?
-**A**: Hip-shoulder alignment creates a unified line of pressure that prevents the opponent from creating angles of escape. When hips lag behind shoulders, a gap opens between your upper and lower body that the opponent can exploit with frames, hip escapes, or knee shield re-insertion. Proper alignment positions the trapped leg optimally for extraction because the hip angle determines the knee's forward path. Aligned hips also allow you to drive pressure efficiently through your core structure rather than relying on arm strength or compromised leverage angles.
-
-**Q7**: You are midway through the Knee Through and your opponent begins diving underneath you for deep half guard. What do you do?
-**A**: You must immediately stop the forward knee drive because continuing feeds directly into their deep half sweep mechanics. Apply a strong whizzer or overhook on their underhook side to prevent them from completing the entry underneath you. Backstep your free leg to create a wider base that makes their deep half entry more difficult. If they have already secured deep half position, abandon the Knee Through entirely and address the deep half guard with appropriate counters such as backstep pass or cross-face pressure to flatten them before they can initiate their sweeping sequence.
-
-**Q8**: What is the optimal grip configuration for the near side arm control during the Knee Through, and why?
-**A**: The strongest configuration is securing your own underhook on the near side while maintaining crossface with the opposite arm, completely denying the opponent's primary defensive tool. If you cannot secure the underhook, wrist control on their near hand is the next best option because it prevents them from initiating the underhook fight. Sleeve control works in gi but provides less positional dominance. The near arm control is critical because every half guard offensive system begins with the underhook, so denying it removes their ability to sweep, take the back, or create the frames needed to prevent the pass.
-
-**Q9**: During leg extraction, you feel your opponent beginning to recompose butterfly guard with their far leg. How do you adjust?
-**A**: Immediately address the far leg threat by driving your hip weight into their far thigh to pin it to the mat, or use your free hand to control their far knee and push it away from your body. If the butterfly hook is already partially inserted, flatten your hips down heavily to smother the hook before it becomes active. You can also accelerate your knee extraction and immediately consolidate side control before the butterfly hook becomes effective. The key is recognizing the threat early and addressing it before the opponent can elevate you with the hook, which would completely reverse your passing momentum.
-
-**Q10**: What are the key directional forces at play during the Knee Through pass and how do they interact?
-**A**: Three primary force vectors work together in the Knee Through. First, downward shoulder pressure through the crossface pins the opponent's upper body and prevents them from sitting up or turning. Second, forward hip drive pushes your knee through the guard in a straight line toward the far side mat. Third, lateral crossface pressure drives the opponent's head away from the passing direction, making it difficult for them to face you and establish defensive frames. These three vectors converge to create a compound pressure that the bottom player cannot address simultaneously, as defending one vector exposes them to the other two.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Through?</p>
 
 The Knee Through pass is a relatively safe technique for both practitioners when performed correctly. The primary safety concern is excessive crossface pressure on the opponent's neck and jaw, which should be firm but controlled to avoid cervical strain. Avoid driving the crossface upward into the throat, keeping pressure lateral across the face instead. When extracting your leg, be mindful not to drag your shin forcefully across the opponent's thigh or knee, which can cause bruising or ligament stress. If the pass is not working after two or three attempts, reset rather than forcing movement, as forcing can lead to awkward leg positions where knee injuries occur. Practitioners with existing knee injuries should communicate with their partner about controlling the extraction phase.
 

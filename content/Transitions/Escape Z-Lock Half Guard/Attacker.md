@@ -188,6 +188,8 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Z-Lock Half Guard?</p>
+
 - Maintain defensive frames throughout the entire leg reconfiguration to prevent the top player from capitalizing on the transition
 - Release legs in the correct sequence based on top player pressure—typically butterfly hook first if being smashed, lockdown first if being knee sliced
 - Use hip escape motion during the transition to create space and immediately establish offensive angles in standard half guard
@@ -202,6 +204,8 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Z-Lock Half Guard?</p>
+
 - Recognition that the Z-Lock configuration is being effectively neutralized—offensive options are limited and the position is deteriorating
 - At least one functional frame (forearm on shoulder or hip) to manage distance during leg reconfiguration
 - Sufficient hip mobility to execute a shrimp or bridge during the transition despite top player weight
@@ -214,6 +218,8 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Z-Lock Half Guard step by step?</p>
 
 1. **Assess and commit**: Recognize that the Z-Lock is failing—the top player has neutralized your butterfly hook threat, established dominant crossface, or is systematically dismantling your leg configuration. Make the decision to escape rather than continuing to fight a losing position. Hesitation here is the biggest enemy.
 2. **Establish defensive frames**: Before releasing any leg control, create strong forearm frames on the top player's shoulder and hip. Your inside forearm drives into their crossface shoulder to prevent them from driving forward, while your outside hand controls their hip or sleeve. These frames are your insurance policy during the vulnerable reconfiguration phase.
@@ -243,6 +249,8 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Z-Lock Half Guard?</p>
+
 - **Top player drives heavy crossface and increases shoulder pressure during leg reconfiguration** (Effectiveness: High) - Your Response: Prioritize the inside forearm frame on their shoulder before releasing any leg control. If pressure is overwhelming, consider the deep half bail variant instead of recovering standard half guard at the same level. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 - **Top player initiates knee slice pass the moment butterfly hook is released** (Effectiveness: Medium) - Your Response: Use your newly freed outside leg to immediately establish a knee shield blocking their slicing knee. If you maintained lockdown during the hook release, the lockdown prevents them from completing the slice until you can reposition. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Top player sprawls hips back and applies downward pressure to maintain Z-Lock control** (Effectiveness: Medium) - Your Response: Use their sprawl against them—as they drive hips back, the lockdown stretch increases your leverage for electric chair or old school sweep threats. Force them to choose between maintaining Z-Lock pressure and defending the sweep, then escape during their defensive adjustment. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Z-Lock Half Guard?</p>
 
 ### 1. Releasing both butterfly hook and lockdown simultaneously
 
@@ -293,6 +303,8 @@ As the attacker executing this escape, you are the bottom player recognizing tha
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Z-Lock Half Guard (Attacker)?</p>
+
 **Phase 1: Cooperative Drilling** - Leg reconfiguration mechanics
 Partner holds Z-Lock Half Guard Top position statically while you practice the leg release sequence: frame establishment, butterfly hook release, hip escape, lockdown release, standard half guard recovery. Focus on smooth coordination without any resistance. 20 repetitions each side.
 
@@ -313,42 +325,12 @@ Practice the escape followed immediately by standard half guard offensive chains
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When should you decide to abandon the Z-Lock and escape to standard Half Guard rather than continuing to fight from the deteriorating position?
-**A**: Abandon Z-Lock when two or more sweep attempts have failed against the top player's defense, when the top player has established an unbreakable crossface that eliminates your offensive angles, when your butterfly hook is being systematically neutralized and cannot threaten elevation, or when you feel your energy expenditure exceeding your offensive output. The key indicator is that maintaining the Z-Lock has become purely defensive with no realistic offensive pathway remaining.
-
-**Q2**: Which leg do you release first during the escape and why is the sequence critical?
-**A**: In most scenarios, release the butterfly hook (outside leg) first while maintaining the lockdown on the trapped leg. The lockdown provides the primary mechanical connection preventing the top player from immediately advancing. Releasing both simultaneously creates a window with zero leg control where the top player can pass freely. The lockdown holds them in place while you reposition your outside leg, then you release the lockdown only after your legs are ready to close into standard half guard entanglement.
-
-**Q3**: Your opponent drives heavy crossface pressure the moment you begin releasing your butterfly hook—how do you adjust?
-**A**: If crossface pressure intensifies during the escape, your inside forearm frame on their shoulder becomes critical. Drive the frame into their shoulder to create space while keeping your chin tucked to prevent the crossface from flattening you. If the pressure is overwhelming at the current level, abandon the standard half guard recovery and instead duck underneath them into deep half guard, using their forward driving pressure against them. The deep half bail variant converts their aggressive pressure into your advantage.
-
-**Q4**: What is the most critical mechanical detail during the hip escape portion of the transition?
-**A**: The hip escape must move your hips at least six inches away from the top player's hips while maintaining your lockdown connection on their trapped leg. The direction should be toward your underhook side, creating an angle that positions you on your side rather than flat on your back. The common mistake is performing a small, ineffective hip escape that fails to create meaningful space or angle. Drive off your free foot and use explosive hip movement to generate the distance needed for proper standard half guard architecture.
-
-**Q5**: What grips must you establish immediately upon reaching standard Half Guard to prevent the top player from capitalizing on the transition?
-**A**: Priority one is the underhook on the trapped leg side, reaching deep toward their far hip or belt line. This single grip transforms passive half guard into an offensive platform for sweeps and back takes. If the underhook is unavailable due to the top player's crossface, establish a strong knee shield with your outside shin across their hip and shoulder, creating distance and frame that prevents them from re-establishing chest-to-chest pressure. Either grip must be secured within one second of completing the leg reconfiguration.
-
-**Q6**: Your opponent initiates a knee slice pass as you release your butterfly hook—what immediate response prevents the pass?
-**A**: Use your newly freed outside leg to establish an immediate knee shield blocking their slicing knee before it crosses your hip line. Your maintained lockdown on their trapped leg prevents them from completing the slice quickly, buying you time to position the knee shield. Frame with your inside arm on their crossface shoulder to prevent forward drive. If the knee shield catches their knee in time, you can redirect their slice and recover to standard half guard with the knee shield already in place as your primary defensive structure.
-
-**Q7**: How does the direction of force differ between maintaining Z-Lock and escaping to standard Half Guard?
-**A**: In Z-Lock, your force vectors are primarily rotational—the lockdown pulls their leg while the butterfly hook elevates to create sweep torque. During the escape, your force vectors shift to linear—you are shrimping away from the top player to create space while your frames push them forward and away. After reaching standard half guard, force vectors become diagonal as you angle your body for underhook sweeps or back takes. Understanding this shift helps you avoid the common error of trying to sweep during the escape rather than committing fully to the positional recovery.
-
-**Q8**: If your escape to standard Half Guard is blocked and you cannot disengage the Z-Lock, what alternative chain should you pursue?
-**A**: If the standard escape is blocked, reassess whether the Z-Lock truly needs to be abandoned or if the top player's counter has actually created a new offensive opportunity. Their effort to prevent your escape may have shifted their weight or opened grips. If Z-Lock remains unproductive, attempt the deep half bail variant by ducking underneath rather than recovering at the same level. If deep half is also blocked, consider explosive bridge to create a scramble situation—sometimes a positional reset through movement is more effective than a controlled technical transition.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Z-Lock Half Guard?</p>
 
 This escape involves controlled leg reconfiguration under an opponent's weight and pressure. Avoid jerking or explosive leg movements that could strain the knee or hip of either player during the transition. The lockdown component places stress on the opponent's trapped knee and ankle—release it smoothly rather than snapping it free. If you feel knee pain during the escape attempt due to the top player's pressure on your Z-Lock configuration, tap and reset rather than forcing through the transition. Communication with training partners during drilling is essential since the rapid leg repositioning can catch training partners off guard.
 

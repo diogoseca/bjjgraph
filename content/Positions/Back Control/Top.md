@@ -20,20 +20,20 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Rear Naked Choke",
-      "text": "From this position, attempt Rear Naked Choke. This technique is attempted in 49% of exchanges from this position.",
+      "name": "Execute Rear Naked Choke from Back Control",
+      "text": "From this position, attempt Rear Naked Choke from Back Control. This technique is attempted in 49% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Control Maintenance",
-      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Back Control Maintenance. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Bow and Arrow Choke",
-      "text": "From this position, attempt Bow and Arrow Choke. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Bow and Arrow Choke from Back Control",
+      "text": "From this position, attempt Bow and Arrow Choke from Back Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
@@ -45,7 +45,7 @@ description: "Master attacking from back control in BJJ. Learn hook control, har
     {
       "@type": "HowToStep",
       "name": "Execute Armbar from Back Transition",
-      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 3% of exchanges from this position.",
+      "text": "From this position, attempt Armbar from Back Transition. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
@@ -171,6 +171,8 @@ The attacking methodology from back control follows a layered approach. First, e
 
 ## Position Definition
 
+<p class="section-subtitle">What is Back Control (Top)?</p>
+
 - Your chest pressed tightly against opponent's back with constant forward pressure ensuring they cannot create distance or turn to face you
 - Your legs wrapped around opponent's waist with feet hooked inside their thighs or locked in body triangle configuration, controlling hip movement and preventing rotation
 - Your arms controlling upper body through harness grip (seatbelt) with one arm over shoulder and other under armpit, hands clasped together, or alternative grips like double underhooks or gift wrap
@@ -182,6 +184,8 @@ The attacking methodology from back control follows a layered approach. First, e
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Back Control (Top)?</p>
 
 - Successful transition from mount, side control, turtle, guard, or standing position establishing back connection
 - Control of opponent's upper body preventing them from turning to face you during entry sequence
@@ -195,6 +199,8 @@ The attacking methodology from back control follows a layered approach. First, e
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Back Control?</p>
 
 - Maintain constant chest-to-back connection with forward pressure preventing opponent from creating space or turning toward you
 - Control opponent's hip movement through deep hooks with feet inside thighs or body triangle preventing rotational escapes
@@ -211,6 +217,8 @@ The attacking methodology from back control follows a layered approach. First, e
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Back Control (Top)?</p>
+
 **If opponent defends neck with both hands and maintains chin tucked with good hand fighting:**
 - Execute **[[Transition to crucifix to trap arms/Attacker|Transition to crucifix to trap arms]]** → [[Positions/Crucifix]] (Probability: 60%)
 - Execute **[[Attack armbar from back using legs/Attacker|Attack armbar from back using legs]]** → [[Positions/Armbar Control]] (Probability: 50%)
@@ -218,16 +226,16 @@ The attacking methodology from back control follows a layered approach. First, e
 
 **If opponent attempts to remove hooks by attacking your feet with their hands:**
 - Execute **[[Switch to body triangle for superior leg control/Attacker|Switch to body triangle for superior leg control]]** → [[Positions/Back Control/Body Triangle]] (Probability: 70%)
-- Execute **[[Capitalize on exposed neck during hook defense/Attacker|Capitalize on exposed neck during hook defense]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Capitalize on exposed neck during hook defense/Attacker|Capitalize on exposed neck during hook defense]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent turns into you creating positional change opportunity:**
 - Execute **[[Follow turn to gift wrap position/Attacker|Follow turn to gift wrap position]]** → [[Positions/Gift Wrap]] (Probability: 75%)
-- Execute **[[Maintain back control and attack choke during turn/Attacker|Maintain back control and attack choke during turn]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Maintain back control and attack choke during turn/Attacker|Maintain back control and attack choke during turn]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent drives forward and tucks chin to mat defensively:**
-- Execute **[[Bow and arrow choke using collar access/Attacker|Bow and arrow choke using collar access]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Bow and arrow choke using collar access/Attacker|Bow and arrow choke using collar access]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Transition to truck position via leg threading/Attacker|Transition to truck position via leg threading]]** → [[Positions/Twister Control]] (Probability: 50%)
 
 
@@ -243,6 +251,8 @@ The attacking methodology from back control follows a layered approach. First, e
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Back Control?</p>
 
 ### 1. Losing chest-to-back connection by leaning back or sitting up too high above opponent
 
@@ -281,6 +291,8 @@ The attacking methodology from back control follows a layered approach. First, e
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Back Control attacks?</p>
 
 ### Back Control Maintenance Against Progressive Resistance
 
@@ -342,9 +354,9 @@ Partner works specific escape sequences while you practice countering escapes an
 - **[[Positions/Crucifix]]** - Advanced variation where both opponent's arms are controlled for undefended attacks
 - **[[Positions/Turtle]]** - Common entry position for establishing back control via hook insertion
 - **[[Positions/Mount]]** - Alternative dominant position and common transition when back control is lost
-- **[[Transitions/Rear Naked Choke]]** - Primary submission attack from back control with highest finishing rate
-- **[[Transitions/Bow and Arrow Choke]]** - High-percentage gi choke from back control using collar and leg leverage
-- **[[Submissions/Armbar from Back]]** - Arm attack transition when opponent over-commits to neck defense
+- **[[Submissions/Rear Naked Choke]]** - Primary submission attack from back control with highest finishing rate
+- **[[Submissions/Bow and Arrow Choke]]** - High-percentage gi choke from back control using collar and leg leverage
+- **[[Transitions/Armbar from Back Transition]]** - Arm attack transition when opponent over-commits to neck defense
 
 
 </section>

@@ -20,38 +20,38 @@ description: "Learn defensive strategies and escape mechanics from the top of Mi
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 15% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Arm Extraction and Pass",
       "text": "From this position, attempt Arm Extraction and Pass. This technique is attempted in 13% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Defense",
       "text": "From this position, attempt Stack Defense. This technique is attempted in 13% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Standing up in Base",
       "text": "From this position, attempt Standing up in Base. This technique is attempted in 30% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Extraction",
       "text": "From this position, attempt Arm Extraction. This technique is attempted in 12% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
       "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Posture Break from Mission Control",
+      "text": "From this position, attempt Posture Break from Mission Control. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -173,6 +173,8 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mission Control (Top)?</p>
+
 - The top practitioner's weight must be managed carefully to avoid loading excessively onto the trapped shoulder, as this weight distribution creates the mechanical advantage that makes Mission Control effective and sustainable for the bottom practitioner
 - The top practitioner's trapped arm must remain in a position that prevents immediate triangle or omoplata entry, typically keeping the elbow tight to the body and the hand preventing the bottom practitioner from achieving full head control or completing the triangle lock
 - The top practitioner's free hand must actively work to prevent the bottom practitioner from establishing complete head control, using frames against the bottom practitioner's pulling grips or maintaining distance to prevent deep collar ties or head locks
@@ -186,6 +188,8 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Mission Control (Top)?</p>
+
 - Recognition that Mission Control has been established - the high guard leg is threaded across the back, shoulder is isolated, and posture is compromised
 - Immediate submission threat assessment - identify whether bottom practitioner is threatening triangle, omoplata, or other specific submission
 - Arm positioning awareness - understand whether trapped arm is on the inside or outside of the high guard leg and what defensive options are available
@@ -198,6 +202,8 @@ Energy management from Mission Control top is critical for successful escape. Wh
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Mission Control?</p>
 
 - Do not panic or use explosive movements - Mission Control defense requires patience and systematic escape execution
 - Protect the neck first, extract the arm second - rushing arm extraction while ignoring triangle defense leads to submissions
@@ -213,6 +219,8 @@ Energy management from Mission Control top is critical for successful escape. Wh
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Mission Control (Top)?</p>
 
 **Bottom practitioner has full Mission Control with shoulder isolated, posture broken, and high guard locked:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Closed Guard]] (Probability: 35%)
@@ -241,6 +249,8 @@ Energy management from Mission Control top is critical for successful escape. Wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Mission Control?</p>
 
 ### 1. Panicking and using explosive movements to attempt immediate escape from Mission Control
 
@@ -285,6 +295,8 @@ Energy management from Mission Control top is critical for successful escape. Wh
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Mission Control attacks?</p>
+
 ### Mission Control Posture Recovery Drill
 
 Partner establishes Mission Control with 70% control - good shoulder isolation but not maximum tightness. Top person practices gradual posture recovery using small progressive movements - driving weight slightly back, creating small space under chin, preventing deep grips. Goal is to recover 50% of normal posture within 2 minutes without triggering submission. Partner provides increasing resistance as top person's posture improves.
@@ -306,7 +318,7 @@ Full resistance drill starting with partner in full Mission Control. Top person 
 **Duration**: 5 minutes per round, 3 rounds
 
 
-### Grip Fighting from Mission Control Top
+### Grips from Mission Control Top
 
 Partner establishes Mission Control with focus on head control. Top person's only goal is to prevent deep head control for 3 minutes using free hand to strip grips, maintain distance, and prevent collar ties. Partner uses full effort to establish and maintain head control. Develops grip fighting stamina and defensive hand positioning specific to Mission Control.
 
@@ -324,38 +336,6 @@ Partner establishes Mission Control. Top person practices standing to break cont
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the proper weight distribution to maintain when trapped in Mission Control to avoid strengthening the bottom player's control?
-**A**: Distribute weight evenly between both arms rather than loading onto the trapped shoulder. Maintain some backward weight distribution to reduce the mechanical advantage the bottom practitioner gains from shoulder loading, but don't pull so far back that you lose all forward pressure needed for eventual escape. The goal is to minimize the 'cooking' effect while maintaining enough connection to work systematic escapes.
-
-**Q2**: Your opponent begins bringing their leg across your face to complete a triangle - what is your immediate defensive response?
-**A**: Immediately drive weight forward with stacking pressure to prevent the leg from crossing your face completely. Simultaneously turn your head toward the trapped arm side to create space and make it harder for them to lock the triangle. If the leg is already partially across, tuck your chin and begin working to create an angle by circling toward the trapped arm side while maintaining your base.
-
-**Q3**: What are the essential grips you must fight to prevent the bottom player from maintaining Mission Control?
-**A**: The primary grip to fight is head control - use your free hand constantly to strip grips, create distance, and prevent deep collar ties or head locks on your neck. Secondary is the grip controlling your trapped arm's wrist or sleeve. If they achieve deep two-handed head control, submission entries become nearly indefensible and escape becomes almost impossible.
-
-**Q4**: Why is explosive posturing up a critical error when defending Mission Control?
-**A**: Sudden explosive posturing creates the exact movement pattern that allows the bottom practitioner to complete the triangle lock - your upward movement actually helps them get their leg across your face. The explosive motion also telegraphs your intention, allowing them to time their attack. Additionally, failed explosive attempts waste energy and often create worse angles for the bottom player's submissions.
-
-**Q5**: How should you approach energy management when trapped in Mission Control for an extended period?
-**A**: Accept the temporary discomfort and work systematically through escape phases using technical precision rather than athleticism. Panicking and explosive escape attempts accelerate energy expenditure without improving the situation. The position naturally deteriorates as the bottom player's hip flexibility and grip endurance fade - extend the battle past their sustainable timeframe while conserving your energy for the decisive escape moment.
-
-**Q6**: Your opponent's hip elevation momentarily drops - what opportunity does this create and how do you capitalize?
-**A**: Dropping hip elevation weakens the entire Mission Control structure. Immediately drive weight slightly back while lifting your head to begin posture recovery. Use this window to fight their head control grips and create small progressive improvements in your posture angle. Alternatively, if their grip control also relaxes, this is the optimal moment to stand up explosively and break the high guard leg position entirely.
-
-**Q7**: What base adjustments should you maintain throughout the entire defensive sequence to prevent sweeps?
-**A**: Widen your knees and distribute weight evenly to create a stable triangular base. The bottom practitioner will attempt hip bump sweeps and other reversals when their submission attacks are defended, so you must defend both threats simultaneously. Avoid bringing your knees together or shifting weight too far in any single direction, as this creates the instability they need to execute sweeps.
-
-**Q8**: After successfully extracting your trapped arm, what should be your immediate next action?
-**A**: Immediately drive passing pressure before the bottom practitioner can reestablish guard or transition to another rubber guard control. The moment of arm extraction is when they are most vulnerable - their control structure is broken and they need time to reset. Drive toward side control or immediately stand to combat base, maintaining forward pressure to prevent guard recovery.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -221,7 +221,7 @@ Sumi Gaeshi occupies a unique position in BJJ's tactical hierarchy, serving as b
 
 - [[Positions/Mount]] - Primary ending position when technique is executed successfully
 
-- [[Submissions/Kimura from Guard]] - Attack option if opponent posts during the throw
+- [[Submissions/Kimura]] - Attack option if opponent posts during the throw
 
 - [[Positions/De La Riva Guard]] - Alternative sweeping system using leg hooks and angles
 

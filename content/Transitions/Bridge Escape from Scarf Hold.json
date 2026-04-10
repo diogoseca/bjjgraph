@@ -89,11 +89,11 @@
       "relationship": "Traditional judo variant of the scarf hold position with similar escape principles"
     },
     {
-      "name": "Americana from Kesa Gatame",
+      "name": "Americana",
       "relationship": "Submission threat from scarf hold that creates escape windows when opponent attacks"
     },
     {
-      "name": "Arm Triangle from Scarf Hold",
+      "name": "Arm Triangle",
       "relationship": "Submission threat motivating urgency to escape scarf hold control"
     }
   ],
@@ -265,6 +265,14 @@
       {
         "question": "How does foot placement affect bridge power and what is the optimal position?",
         "answer": "Feet should be planted flat on the mat as close to the hips as possible with knees bent at approximately 90 degrees. This position maximizes the mechanical advantage of the hip extensors (glutes and hamstrings) during the explosive bridge. Feet placed too far from the hips reduce bridge height because the hip extension arc is flattened, generating primarily forward push rather than upward and rotational force. The close foot position also allows you to drive through the balls of your feet at the peak of the bridge for additional rotational momentum."
+      },
+      {
+        "question": "How does the arm trapping grip differ between gi and no-gi when setting up this bridge escape?",
+        "answer": "In gi, grip the sleeve material at the wrist or forearm of the opponent's head-wrapping arm, which provides a secure friction-based grip that is difficult to strip even under explosive movement. In no-gi, you cannot rely on fabric friction, so grip above the elbow at the bicep or secure a wrist-to-wrist Gable grip by clasping your own wrist behind their arm. The no-gi grip requires tighter body connection since the arm can slip free more easily under sweat and pressure, making the timing between securing the grip and executing the bridge more compressed."
+      },
+      {
+        "question": "Your opponent is posted wide with their weight distributed across extended limbs rather than committed through their hips - should you attempt the bridge escape?",
+        "answer": "No, the conditions are not ideal for the bridge escape when the opponent's weight is distributed across wide-posted limbs rather than committed through their hips. The bridge escape works by converting the opponent's committed hip pressure into rotational momentum. When they are posted wide, their structural base is too strong for the roll, and the lack of committed weight on your torso means there is insufficient momentum to transfer. Instead, exploit their wide posting by using frame-based hip escapes or guard recovery, since their distributed weight creates gaps and space that favor shrimping over bridging."
       }
     ],
     "safety_considerations": "Bridge escapes from scarf hold involve explosive rotational force through the neck and spine. Practice with controlled intensity, particularly when learning the timing and commitment required for the full roll. Partners should avoid stacking excessive weight directly on the neck during drilling. The escaping player should turn their head to the side during the bridge to protect cervical vertebrae from compression. Both partners should communicate throughout the drill to prevent injury from unexpected explosive movements. Gradually increase resistance across training sessions rather than jumping to full resistance before the mechanics are refined."

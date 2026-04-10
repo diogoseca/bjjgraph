@@ -79,68 +79,68 @@
     ],
     "key_principles": [
       "Posture Maintenance: Stay upright with chest elevated and hips back to prevent forward sweeps and maintain balance against the DLR hook's off-balancing attempts",
-      "Grip Fighting: Strip or control the ankle or pants grip that powers DLR control, as this grip combined with the hook creates the primary sweeping mechanism",
+      "Grips: Strip or control the ankle or pants grip that powers DLR control, as this grip combined with the hook creates the primary sweeping mechanism",
       "Hook Removal: Neutralize the DLR hook through pressure, leg positioning, or strategic movement to remove the bottom player's primary control point",
       "Hip Control: Don't allow bottom player to maintain optimal hip angle perpendicular to you, as this angle maximizes their sweeping power and berimbolo entries",
-      "Pressure Application: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery",
+      "Pressure: Once hooks are neutralized, apply passing pressure immediately to prevent guard recovery",
       "Distance Management: Choose decisively between extending distance to weaken the guard structure or collapsing space to nullify the hook's leverage"
     ],
     "transitions": [
       {
         "transition": "Toreando Pass",
-        "attempt_probability": 74
+        "attempt_probability": 22
       },
       {
         "transition": "Knee Slice Pass",
-        "attempt_probability": 7
+        "attempt_probability": 10
       },
       {
         "transition": "X Pass",
-        "attempt_probability": 3
+        "attempt_probability": 6
       },
       {
         "transition": "Leg Drag Pass",
-        "attempt_probability": 5
+        "attempt_probability": 10
       },
       {
         "transition": "Long Step Pass",
-        "attempt_probability": 1
+        "attempt_probability": 4
       },
       {
         "transition": "Smash Pass",
-        "attempt_probability": 0
-      },
-      {
-        "transition": "Back Step Pass",
-        "attempt_probability": 5
-      },
-      {
-        "transition": "Body Lock Pass",
         "attempt_probability": 3
       },
       {
+        "transition": "Back Step Pass",
+        "attempt_probability": 10
+      },
+      {
+        "transition": "Body Lock Pass",
+        "attempt_probability": 7
+      },
+      {
         "transition": "Stack Pass",
-        "attempt_probability": 0
+        "attempt_probability": 2
       },
       {
         "transition": "Bullfighter Pass",
-        "attempt_probability": 1
+        "attempt_probability": 3
       },
       {
         "transition": "Toreando Pass from De La Riva",
-        "attempt_probability": 0
+        "attempt_probability": 8
       },
       {
         "transition": "Backstep from De La Riva",
-        "attempt_probability": 0
+        "attempt_probability": 7
       },
       {
         "transition": "Knee Slice from DLR",
-        "attempt_probability": 0
+        "attempt_probability": 5
       },
       {
         "transition": "Leg Drag from DLR",
-        "attempt_probability": 1
+        "attempt_probability": 3
       }
     ],
     "decision_tree": [
@@ -244,7 +244,7 @@
         "duration": "5 minutes per method"
       },
       {
-        "name": "Grip Fighting Flow Drill",
+        "name": "Grips Flow Drill",
         "description": "Bottom player establishes DLR with various grips (ankle, pants, belt, collar). Top player drills grip strips, counter-grips, and grip-fighting sequences while maintaining good posture and base. Bottom player actively fights to maintain grips. Practice transitions from successful grip breaks into passing entries.",
         "duration": "6 minutes"
       },
@@ -384,16 +384,12 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Omoplata",
+        "transition": "Omoplata from De La Riva Guard",
         "attempt_probability": 4
       },
       {
         "transition": "Triangle Setup from De La Riva",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Triangle from De La Riva",
-        "attempt_probability": 2
+        "attempt_probability": 4
       }
     ],
     "decision_tree": [

@@ -162,6 +162,8 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Strip Russian Leg Lasso?</p>
+
 - Opponent begins two-on-one grip fighting on your collar grip, using both hands to address a single control point
 - Opponent steps back or adjusts hip distance to create slack in the lasso configuration
 - Opponent pins or controls your non-lasso leg to isolate the lasso before addressing it directly
@@ -174,6 +176,8 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Strip Russian Leg Lasso?</p>
 
 - Maintain grip tension actively throughout - a passive grip is easily broken while an engaged grip with constant micro-adjustments resists strip attempts
 - Re-grip immediately when any control point is broken rather than accepting the loss and defending from a weakened position
@@ -188,6 +192,8 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Strip Russian Leg Lasso?</p>
 
 ### 1. Immediately re-grip collar when opponent breaks it using two-on-one
 
@@ -225,6 +231,8 @@ As the defender against Strip Russian Leg Lasso, your objective is to maintain y
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Strip Russian Leg Lasso?</p>
+
 ### → [[Positions/Lasso Guard/Russian Leg Lasso]]
 
 Maintain active grips with constant re-gripping when controls are broken. Elevate hips to keep lasso tight when opponent creates distance. Force the opponent to restart their stripping sequence repeatedly until they abandon the approach or make a mistake you can exploit.
@@ -240,6 +248,8 @@ Time a sweep during the opponent's grip break transitions when their base is com
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Strip Russian Leg Lasso?</p>
 
 ### 1. Holding grips passively without active resistance or adjustment
 
@@ -269,6 +279,8 @@ Time a sweep during the opponent's grip break transitions when their base is com
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Strip Russian Leg Lasso?</p>
+
 **Grip Retention Drills** - Maintaining Russian Leg Lasso grips against systematic strip attempts
 Partner performs the full strip sequence while you focus solely on maintaining grips through active resistance and re-gripping. No sweeps or transitions - pure grip retention. Builds the hand fighting endurance and sensitivity needed to defend strip attempts in live rolling.
 
@@ -285,29 +297,6 @@ Live positional rounds starting from Russian Leg Lasso. Top player attempts to s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to attempt a sweep during the opponent's strip sequence?
-**A**: The optimal sweep window occurs during the grip break transitions, specifically when the opponent has committed both hands to a two-on-one grip break on your collar or sleeve. At this moment, their base is most compromised because both hands are occupied with grip fighting rather than maintaining balance. The transition between breaking the collar grip and addressing the sleeve grip is particularly vulnerable because they must release their grip break to change targets.
-
-**Q2**: Your opponent breaks your collar grip - what is your immediate priority response?
-**A**: Immediately reach for a new collar grip before the opponent can progress to stripping the sleeve grip. The collar grip is the most important reinforcing control because it enables your sweep mechanics and controls their posture. Without it, the sleeve grip and lasso lose approximately sixty percent of their effectiveness. If you cannot re-grip the collar, immediately initiate an attack using the remaining lasso and sleeve control before those are also addressed.
-
-**Q3**: How do you maintain lasso tension when the opponent steps back to create slack?
-**A**: Elevate your hips by bridging upward and driving your lasso foot deeper past their shoulder. Follow their backward movement with your hip elevation to maintain the distance ratio that keeps the lasso tight. If they step far enough back that hip elevation alone cannot maintain tension, consider transitioning to an alternative guard rather than holding a compromised Russian Leg Lasso position where the lasso has lost its binding effectiveness.
-
-**Q4**: What should you do when the strip is partially successful and your sleeve grip has been broken?
-**A**: Immediately use your non-lasso leg to establish an alternative control point before the opponent addresses the lasso itself. Insert a De La Riva hook, butterfly hook, or shin-to-shin contact to create a secondary defensive layer. Simultaneously attempt to re-grip the sleeve or transition to an alternative guard system. A partially stripped Russian Leg Lasso with no sleeve grip is unsustainable, so either restore the grip or transition rather than holding a weakened position.
-
-**Q5**: Why is keeping the non-lasso leg active critical during strip defense?
-**A**: The active non-lasso leg forces the opponent to divide their attention between the strip sequence and managing the secondary threat. If the non-lasso leg is threatening sweeps through butterfly hooks or De La Riva positioning, the opponent cannot fully commit both hands to grip breaks without risking being swept. This divided attention slows the strip sequence and creates more counter opportunities. A passive non-lasso leg allows the opponent to ignore it entirely and focus all resources on dismantling the lasso system.
-
-
-
-</section>
 
 
 </main>

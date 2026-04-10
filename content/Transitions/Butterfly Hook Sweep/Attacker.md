@@ -190,6 +190,8 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Hook Sweep?</p>
+
 - Angle creation before elevation—scoot hips laterally to convert vertical hook lift into diagonal sweeping vector
 - Grip pull and hook lift must fire simultaneously to create unified off-balancing force that cannot be resisted in isolation
 - Load opponent's weight onto the sweeping hook before initiating elevation so the technique works with gravity rather than against it
@@ -204,6 +206,8 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Hook Sweep?</p>
+
 - Butterfly hook established deep inside opponent's thigh with instep firmly engaged against inner thigh crease
 - Upper body grips secured—collar and sleeve in gi, or overhook and wrist control in no-gi—providing directional pull
 - Upright seated posture with head above hips to maintain leverage and prevent being driven flat
@@ -216,6 +220,8 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Hook Sweep step by step?</p>
 
 1. **Establish deep butterfly hook**: Seat your instep firmly against the opponent's inner thigh crease with your knee pointing outward, ensuring the hook is deep enough to control their hip and create lifting leverage when you initiate elevation. A shallow hook on the knee lacks the mechanical advantage needed for effective elevation.
 2. **Secure controlling upper body grips**: In gi, grip the collar on the sweep-side with your near hand and control the far sleeve with your other hand. In no-gi, establish an overhook on the sweep-side arm while controlling the far wrist. These grips create the directional control that determines where your opponent falls when elevated.
@@ -245,6 +251,8 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Hook Sweep?</p>
+
 - **Posting the near hand wide to create a tripod base against the sweep direction** (Effectiveness: High) - Your Response: Switch sweep direction immediately to the far side where they cannot post, or attack the extended posting arm with a kimura grip since it is now isolated from their body → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **Standing up explosively to remove hooks and disengage from butterfly guard entirely** (Effectiveness: High) - Your Response: Maintain hook connection and follow their hips as they rise, transitioning to X-Guard or Single Leg X-Guard by extending underneath their base before they fully disengage → Leads to [[Positions/Butterfly Guard/Butterfly Hook Control]]
 - **Driving crossface pressure and shoulder weight to flatten your upright posture backward** (Effectiveness: Medium) - Your Response: Frame against the crossface with your near forearm while maintaining hook tension, then either re-establish posture through grip adjustment or transition to deep half guard underneath their forward pressure → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Hook Sweep?</p>
 
 ### 1. Attempting the sweep without creating lateral angle first
 
@@ -295,6 +305,8 @@ The fundamental execution principle is that timing beats strength. A well-timed 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Hook Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Individual movement components
 Practice each element separately: hook elevation without grips, grip pulls without hooks, hip scooting for angle creation. Partner stands still allowing you to feel correct mechanics in isolation before combining them.
 
@@ -315,48 +327,12 @@ Positional sparring starting in butterfly hook control with full resistance. Att
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the butterfly hook sweep?
-**A**: The optimal window opens when your opponent shifts weight forward over your hooks, typically as they reach for grips or attempt to establish an underhook. At this moment their center of gravity sits forward of their base, and hook elevation combined with grip pull creates maximum off-balancing force with minimal effort. Initiating before they load forward means you fight against backward-seated weight, dramatically reducing success probability.
-
-**Q2**: What conditions must exist before you can successfully execute the sweep?
-**A**: You need an established butterfly hook deep inside the opponent's thigh, controlling grips on their upper body for directional pulling, and your hips must be angled laterally rather than square to the opponent. Additionally, their weight must be loaded forward onto your hooks. Missing any single condition reduces the sweep percentage substantially because each element serves a specific mechanical function that cannot be compensated by the others.
-
-**Q3**: What is the most critical hip movement during sweep execution and why?
-**A**: The lateral hip scoot creating the sweeping angle is the most critical movement. Without angular displacement, your hook can only lift vertically, which the opponent resists by widening their base. The hip scoot creates approximately 30-45 degrees of offset, converting the vertical hook lift into a diagonal sweeping vector that tips the opponent laterally over their near-side base point rather than straight up where they can post with both hands.
-
-**Q4**: What are the two most common reasons the butterfly hook sweep fails at advanced levels?
-**A**: First, attempting the sweep without sufficient angle—sweeping straight ahead rather than off-center allows the opponent to post both hands and resist the lift. Second, desynchronizing the grip pull from the hook elevation, where the upper body pull happens before or after the leg lift rather than simultaneously. Both errors allow the opponent to isolate and address each force independently rather than facing an overwhelming combined force.
-
-**Q5**: What grips provide the strongest mechanical advantage for the sweep in gi versus no-gi?
-**A**: In gi, a deep collar grip on the sweep-side combined with far sleeve control creates the strongest configuration. The collar grip pulls weight onto the hook while sleeve control prevents posting. In no-gi, an overhook on the sweep-side arm with far wrist control serves the same function. The overhook is slightly superior to the underhook for sweeping because it traps the opponent's posting arm against your body, removing their primary defensive tool.
-
-**Q6**: In what direction should the primary sweeping force be applied relative to your body?
-**A**: The force should be directed at approximately 45 degrees across your body toward the sweep side, not straight up or straight sideways. The hook drives upward and across while your grips pull diagonally downward in the sweep direction. This creates rotational force around the opponent's near-side base point. Pure vertical force allows posting, and pure lateral force lacks elevation. The diagonal vector combines both to create displacement the opponent cannot resist through base alone.
-
-**Q7**: Your opponent posts their far hand wide to stop the sweep—how do you adjust mid-technique?
-**A**: When they post far, their weight shifts away from the sweep direction but their near side is now unprotected. Immediately redirect the sweep by switching hook elevation to the opposite side, sweeping them over their posted arm. Alternatively, release the far grip and attack the near arm with a kimura grip or arm drag, since posting has created structural isolation on that side. The post is not a successful defense—it is a reaction that opens different attacking options you should exploit.
-
-**Q8**: The sweep is blocked and your opponent begins driving forward to pass—what chain attacks are available?
-**A**: From a blocked sweep you retain hook position and can immediately threaten a guillotine if their head drops during the pass attempt, transition to X-Guard or Single Leg X if they stand to create pressure, or execute an arm drag to back take if they commit weight forward. You can also reattempt the sweep in the opposite direction since their defensive reaction often shifts their weight to become vulnerable on the other side.
-
-**Q9**: How does the kickstand leg contribute to sweep mechanics and what happens if you neglect it?
-**A**: The non-hooking leg plants on the mat and drives your hips underneath and across the opponent, amplifying the rotational force generated by the hook elevation. Without the kickstand drive, you must generate all sweeping force from the hooking leg and upper body grips alone, which reduces power by roughly thirty to forty percent. The kickstand also creates a push point that prevents backward sliding during elevation, ensuring your force transfers into the opponent rather than moving you away.
-
-**Q10**: Your opponent sprawls their hips backward as you initiate the elevation—what immediate adjustment prevents sweep failure?
-**A**: When they sprawl back they remove weight from your hooks, making the sweep ineffective in that direction. Immediately pull them back into range using your grips while scooting your hips forward to close the distance. If they continue retreating, release one hook and transition to a single hook configuration with deep sleeve or collar control, setting up either a collar drag or a transition to X-Guard by following their hips. Never chase a sprawling opponent with both hooks—maintain at least one connection while repositioning.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Hook Sweep?</p>
 
 The butterfly hook sweep is generally low-risk but requires controlled execution to prevent training injuries. Maintain grip contact throughout the sweep to guide your partner's descent and prevent them from landing on their head or shoulder. Avoid explosive jerking motions that could strain your partner's neck during off-balancing. Be mindful of knee pressure on your own hooking leg—ensure proper hook placement on the inner thigh crease rather than directly on the knee joint to prevent MCL strain during elevation.
 

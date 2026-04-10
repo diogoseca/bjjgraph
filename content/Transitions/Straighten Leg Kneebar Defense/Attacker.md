@@ -188,6 +188,8 @@ The straighten leg kneebar defense is your primary response when an opponent est
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Straighten Leg Kneebar Defense?</p>
+
 - Never allow your knee to fully bend under the attacker's control—maintain constant muscular tension in your quadriceps as your first line of defense
 - Hip rotation is as important as raw leg strength; changing the angle of force reduces the attacker's leverage exponentially
 - Time your maximum extension effort when the attacker adjusts their grip or repositions, not when they are at peak control
@@ -202,6 +204,8 @@ The straighten leg kneebar defense is your primary response when an opponent est
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Straighten Leg Kneebar Defense?</p>
+
 - Opponent has kneebar control but has not yet achieved full hyperextension of the knee joint
 - Sufficient muscular engagement remains to resist the initial pulling and bridging pressure from the attacker
 - At least one leg is free from entanglement and can be planted on the mat for base and driving force
@@ -213,6 +217,8 @@ The straighten leg kneebar defense is your primary response when an opponent est
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Straighten Leg Kneebar Defense step by step?</p>
 
 1. **Recognize Kneebar Threat**: Feel the opponent's hips positioning against your knee joint and their arms wrapping around your lower leg. Identify whether they are in bottom ashi garami or top kneebar position to determine the direction of their finishing force and plan your defensive angle accordingly.
 2. **Maintain Initial Knee Bend Resistance**: Immediately engage your quadriceps to resist the initial pull toward hyperextension. Keep your knee bent as much as possible while you assess the situation. This buys critical time but is not sustainable as a permanent defense against a committed attacker with proper grip mechanics.
@@ -233,7 +239,7 @@ The straighten leg kneebar defense is your primary response when an opponent est
 |--------|----------|-------------|
 | Success | [[Positions/Half Guard]] | 45% |
 | Failure | [[Positions/Kneebar Control]] | 40% |
-| Counter | [[game-over]] | 15% |
+| Counter | [[Transitions/Kneebar]] | 15% |
 
 
 </section>
@@ -242,9 +248,11 @@ The straighten leg kneebar defense is your primary response when an opponent est
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Straighten Leg Kneebar Defense?</p>
+
 - **Attacker sharply re-breaks the leg bend with a quick hip drive and arm pull before full extension is achieved** (Effectiveness: High) - Your Response: Immediately re-engage quadriceps and repeat the extension attempt from the re-broken position, or use the momentary grip shift during re-break to create a hip escape angle → Leads to [[Positions/Kneebar Control]]
-- **Attacker transitions to heel hook by rotating your foot during the extension attempt, exploiting exposed rotational angles** (Effectiveness: Medium) - Your Response: Immediately switch defensive priorities from leg extension to foot and ankle control—bring heel to buttock and hide the heel by turning toes toward their chest → Leads to [[game-over]]
-- **Attacker drops to straight ankle lock by adjusting grip to your foot when the knee straightens and ankle becomes exposed** (Effectiveness: Medium) - Your Response: Point your toes and flex your ankle to reduce ankle lock leverage while continuing to extract the leg from their entanglement structure → Leads to [[game-over]]
+- **Attacker transitions to heel hook by rotating your foot during the extension attempt, exploiting exposed rotational angles** (Effectiveness: Medium) - Your Response: Immediately switch defensive priorities from leg extension to foot and ankle control—bring heel to buttock and hide the heel by turning toes toward their chest → Leads to [[Positions/Half Guard]]
+- **Attacker drops to straight ankle lock by adjusting grip to your foot when the knee straightens and ankle becomes exposed** (Effectiveness: Medium) - Your Response: Point your toes and flex your ankle to reduce ankle lock leverage while continuing to extract the leg from their entanglement structure → Leads to [[Positions/Half Guard]]
 - **Attacker drives hips forward aggressively to maintain fulcrum pressure against the knee despite your extension effort** (Effectiveness: High) - Your Response: Combine hip rotation with the extension to change the force angle rather than fighting their forward drive head-on with pure strength → Leads to [[Positions/Kneebar Control]]
 
 
@@ -253,6 +261,8 @@ The straighten leg kneebar defense is your primary response when an opponent est
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Straighten Leg Kneebar Defense?</p>
 
 ### 1. Attempting to straighten the leg without first creating a proper hip angle through rotation
 
@@ -287,6 +297,8 @@ The straighten leg kneebar defense is your primary response when an opponent est
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Straighten Leg Kneebar Defense (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Extension pattern and body coordination
 Practice the leg straightening motion against a partner's light pressure at 20-30% resistance. Focus on engaging the quadriceps, rotating the hip, and posting the free foot in proper sequence without time pressure. Emphasize the coordination of hip rotation with leg extension.
 
@@ -304,39 +316,12 @@ Full resistance positional sparring starting from kneebar control. Attacker work
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for initiating the straighten leg defense against a kneebar?
-**A**: The optimal timing window is after the attacker has established control but before they achieve full extension commitment. Look for the moment when they adjust their grip or reposition their hips—this brief window of reduced control is when your extension attempt has the highest probability of success. Initiating too early wastes energy against maximum grip strength, while too late means the knee is already compromised.
-
-**Q2**: Your opponent has bottom ashi garami kneebar control and begins pulling your leg toward extension—what is your immediate defensive priority?
-**A**: Your immediate priority is engaging your quadriceps to maintain knee bend while simultaneously rotating your hips toward the attacker. Do not try to pull your leg out first—focus on denying the hyperextension angle by changing the direction of force. Plant your free foot and begin creating forward pressure to reduce their ability to bridge their hips into the finish.
-
-**Q3**: What role does the free leg play during the straighten leg kneebar defense?
-**A**: The free leg serves as the primary base and power source for the defense. By posting the free foot firmly on the mat, you create a stable platform that allows you to generate whole-body extension force rather than relying solely on quadriceps strength. The posted leg also enables forward hip drive that takes away the attacker's finishing space and creates pressure that disrupts their grip mechanics.
-
-**Q4**: How should you adjust your defense if the opponent switches from kneebar to a heel hook during your leg extension attempt?
-**A**: If the opponent transitions to a heel hook, immediately change your defensive priorities from leg extension to foot and ankle control. Bring your heel toward your buttock and turn your toes toward the attacker's chest to hide the heel. The straighten leg defense specifically counters knee hyperextension—it does not protect against rotational forces on the knee and ankle that heel hooks create. Recognize the switch quickly and apply the appropriate heel hook defense.
-
-**Q5**: What is the most common mistake practitioners make when attempting the straighten leg defense, and how does it leave them vulnerable?
-**A**: The most common mistake is attempting to straighten the leg using only quad strength without creating a proper hip angle first. This results in a brute-force contest where the attacker's two-arm pull plus hip bridge typically overpowers the defender's single-leg push. Without hip rotation to change the force angle, the defender burns energy rapidly while the attacker maintains optimal leverage, eventually leading to exhaustion and submission.
-
-**Q6**: After successfully straightening your leg and breaking free from kneebar control, what position should you immediately pursue?
-**A**: After extraction, immediately advance to half guard top by stepping over the prone attacker and establishing chest-to-chest pressure. Do not remain standing or create distance, as this allows the attacker to re-engage with another leg entry or recover guard. Consolidate half guard top by driving crossface pressure, controlling the nearside arm, and beginning your passing sequence while the attacker is still recovering from the failed submission attempt.
-
-**Q7**: What grip configuration on your leg is most dangerous for the kneebar attacker, and how does it affect your defense strategy?
-**A**: A tight figure-four grip with elbows pinched and the leg pulled across the attacker's chest creates the most dangerous configuration. This grip distributes holding force across both arms and creates a mechanical advantage that is very difficult to overcome with leg extension alone. Against this grip, you must combine hip rotation with leg extension and specifically target the grip break by rotating your foot to create angular pressure on their interlocked hands before attempting full extraction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Straighten Leg Kneebar Defense?</p>
 
 Kneebar attacks create significant hyperextension risk to the knee joint. During training, the defender should tap immediately if extension pressure becomes uncomfortable rather than testing the limits of the defense. Both practitioners must communicate clearly about intensity level before beginning. The attacker should apply finishing pressure gradually in drilling, never explosively. Training partners should establish a clear tap signal before positional sparring. Never attempt explosive straightening defenses against a fully locked kneebar as this can cause the knee to hyperextend during the escape attempt itself.
 

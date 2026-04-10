@@ -192,6 +192,8 @@ Strategically, this transition is most valuable against opponents who have learn
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lapel to De La Riva?</p>
+
 - Maintain lapel grip throughout the transition as insurance against DLR hook being cleared
 - Insert DLR hook on the same side as your primary lapel configuration for structural coherence
 - Use the lapel tension to off-balance opponent while threading the DLR hook behind their knee
@@ -206,6 +208,8 @@ Strategically, this transition is most valuable against opponents who have learn
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lapel to De La Riva?</p>
+
 - Established lapel guard with lapel wrapped around opponent's leg (worm guard) or arm (squid guard)
 - Opponent standing or in combat base position with weight forward
 - Free hand available to establish secondary grip on sleeve or collar
@@ -218,6 +222,8 @@ Strategically, this transition is most valuable against opponents who have learn
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lapel to De La Riva step by step?</p>
 
 1. **Verify lapel configuration**: Confirm your lapel grip is secure and creating meaningful control. The lapel should be actively restricting opponent's movement or posture, not just loosely held.
 2. **Identify target leg**: Determine which of opponent's legs will receive the DLR hook—typically the leg closest to your lapel configuration for structural coherence and easier threading.
@@ -247,6 +253,8 @@ Strategically, this transition is most valuable against opponents who have learn
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lapel to De La Riva?</p>
+
 - **Opponent steps back to prevent DLR hook insertion while the lapel configuration is momentarily loosened** (Effectiveness: High) - Your Response: Maintain strong lapel tension throughout—never release the lapel to thread the hook. Use the lapel pull to prevent backward stepping. → Leads to [[Positions/Lapel Guard]]
 - **Opponent drives heavy forward pressure to smash through the transition attempt and flatten your guard** (Effectiveness: Medium) - Your Response: Convert their forward momentum into berimbolo entry or kiss of the dragon—their pressure actually enables these inversions. → Leads to [[Positions/Half Guard]]
 - **Opponent circles away from the DLR hook side to avoid the hook insertion angle** (Effectiveness: Medium) - Your Response: Follow with hip movement to maintain angle, or transition to reverse De La Riva on the opposite side using the same lapel anchor. → Leads to [[Positions/Lapel Guard]]
@@ -258,6 +266,8 @@ Strategically, this transition is most valuable against opponents who have learn
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lapel to De La Riva?</p>
 
 ### 1. Releasing lapel grip prematurely to use both hands for DLR establishment
 
@@ -297,6 +307,8 @@ Strategically, this transition is most valuable against opponents who have learn
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lapel to De La Riva (Attacker)?</p>
+
 **Week 1-2** - Hook threading mechanics
 Practice the physical motion of transitioning from lapel guard to DLR with a completely cooperative partner. Focus on maintaining lapel grip while threading the hook, proper hip angle, and identifying the correct leg to hook. Perform 30-50 repetitions per session.
 
@@ -314,54 +326,12 @@ Full resistance sparring rounds starting from lapel guard. Focus on reading oppo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary advantage of maintaining the lapel grip throughout this transition?
-**A**: The lapel grip serves as insurance throughout the transition—if your DLR hook is defended or cleared, you retain meaningful guard control rather than ending up in a compromised open guard. It also prevents the opponent from stepping back during hook insertion and provides continuous off-balancing pressure.
-
-**Q2**: Your opponent begins stepping back as you thread your DLR hook—what adjustment maintains the transition?
-**A**: Increase tension on the lapel grip to prevent their backward step while simultaneously accelerating your hook insertion. The lapel pull keeps them in range while you complete the threading motion. If they overcome the lapel tension, abort the DLR attempt and return to pure lapel guard rather than chasing a compromised position.
-
-**Q3**: When should you abandon the transition and maintain pure lapel guard instead?
-**A**: Abandon the transition when opponent has established strong passing grips that will allow them to advance during the vulnerable threading phase, when your lapel configuration becomes compromised and you need to re-establish it, or when opponent achieves low smashing posture that prevents hip movement needed for hook insertion.
-
-**Q4**: What secondary grip must be established immediately after completing the DLR hook insertion?
-**A**: Secure control of opponent's far sleeve at the wrist or their collar on the opposite side. This creates the diagonal control system essential for De La Riva effectiveness—the hook controls their base while the cross grip disrupts their posture. Without this secondary grip, opponent can posture and methodically clear the hook.
-
-**Q5**: Your opponent drives heavy forward pressure during the transition—how do you convert this into an attack?
-**A**: Convert their forward momentum into a berimbolo entry or kiss of the dragon. Their forward pressure actually enables these inversion-based attacks by providing the momentum needed to rotate underneath them. Maintain the DLR hook throughout the inversion while using the lapel grip to prevent them from backing away.
-
-**Q6**: Which leg should receive the DLR hook when transitioning from worm guard?
-**A**: Thread the DLR hook on the same leg where the lapel is already wrapped. This creates structural coherence where both control mechanisms work on the same leg, and the lapel wrap provides additional control during hook insertion that prevents the opponent from simply stepping that leg back.
-
-**Q7**: How does hip positioning affect the success of this transition?
-**A**: Your hips must be angled approximately 45 degrees toward the target leg side to create the path for hook insertion. Flat hips on the mat prevent proper threading and eliminate the angular attacks that make DLR effective. Maintain elevated shoulders and mobile hips throughout to enable immediate DLR sweeps upon completion.
-
-**Q8**: What differentiates this transition from entering DLR directly from open guard?
-**A**: The existing lapel control provides superior grip security during the vulnerable hook insertion phase that pure open guard cannot offer. The lapel acts as a backup control point—if your DLR hook is threatened, you can retreat to lapel guard before re-attempting. This safety net allows more aggressive hook insertion attempts.
-
-**Q9**: Your opponent circles away from your DLR hook attempt—what alternative transition becomes available?
-**A**: Transition to reverse De La Riva on the opposite side while maintaining the lapel anchor. Their circling motion actually facilitates RDLR entry on their far leg. Use the lapel grip to prevent them from fully disengaging while establishing the reverse hook.
-
-**Q10**: What indicates the optimal timing window for initiating this transition?
-**A**: The optimal window occurs when opponent commits weight forward to address your lapel configuration, when they momentarily release grips to adjust their position, or when they attempt to circle or backstep to clear the lapel. These moments create opportunities where their attention and balance are compromised.
-
-**Q11**: Your opponent posts their hand on the mat to base during your hook threading attempt—what does this open up?
-**A**: A posted hand removes one grip-fighting hand from the equation, making your hook insertion easier to complete. It also exposes their posting arm to potential omoplata or arm drag attacks once you complete the DLR transition. Complete the hook first, then immediately threaten the posted arm to create a secondary dilemma.
-
-**Q12**: What is the critical direction of force with the lapel grip during the hook insertion phase?
-**A**: The lapel pull should create a diagonal downward-and-toward-you force vector that prevents the opponent from stepping the target leg backward. This force keeps their leg loaded and within threading range. Pulling straight toward you is less effective because it allows lateral escape. The diagonal angle pins their base while you complete the hook rotation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lapel to De La Riva?</p>
 
 This transition is generally low-risk as it involves guard flow between two established positions rather than joint manipulation or choking threats. The primary safety concern is avoiding knee strain during the hook threading motion—ensure your hip rotates with your leg rather than forcing the knee into an awkward angle. If you feel knee discomfort during hook insertion, adjust your hip angle rather than forcing the position. During drilling, partners should allow the hook insertion rather than aggressively defending with knee torque. Practitioners with existing knee injuries should approach this technique cautiously and may need to modify the hip angle to reduce stress on the joint.
 

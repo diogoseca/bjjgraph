@@ -169,6 +169,8 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 ## Position Definition
 
+<p class="section-subtitle">What is Z-Lock Half Guard (Bottom)?</p>
+
 - Bottom practitioner's inside leg creates a lockdown configuration on opponent's trapped leg, with the foot hooking behind opponent's ankle and pulling it toward their own hip, securing the leg in place
 - Bottom practitioner's outside leg creates a butterfly hook or similar elevation mechanism, positioned under opponent's opposite thigh or creating a Z-shaped configuration when combined with the lockdown leg
 - Bottom practitioner maintains an active underhook on one side or controls opponent's posture through collar grips, cross-collar grips, or overhook controls to prevent opponent from establishing heavy pressure
@@ -182,6 +184,8 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Z-Lock Half Guard (Bottom)?</p>
+
 - Opponent has established half guard top position or is attempting to pass half guard
 - Bottom practitioner has secured lockdown control on opponent's trapped leg
 - Bottom practitioner has space to configure the outside leg into butterfly hook position
@@ -194,6 +198,8 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Z-Lock Half Guard?</p>
 
 - Maintain constant tension through both legs - lockdown pulls opponent's ankle while butterfly hook creates elevation threat on opposite side
 - Keep hips mobile and angled rather than flat, creating difficult angles for opponent to consolidate pressure or advance position
@@ -209,6 +215,8 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Z-Lock Half Guard (Bottom)?</p>
 
 **If opponent bases out wide with their free leg to counter butterfly hook attacks:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 55%)
@@ -237,6 +245,8 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Z-Lock Half Guard?</p>
 
 ### 1. Remaining flat on back instead of maintaining active hip angle
 
@@ -276,6 +286,8 @@ Developed primarily within the 10th Planet Jiu-Jitsu system and refined by lockd
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Z-Lock Half Guard defense?</p>
+
 ### Z-Lock Configuration Practice
 
 Partner starts in half guard top with good posture. Bottom player practices establishing the Z-Lock by first creating butterfly hook with outside leg, then securing lockdown with inside leg. Focus on smooth leg coordination and maintaining hip angle throughout configuration. 5 minutes each side.
@@ -297,7 +309,7 @@ Partner in half guard top applies 50% pressure attempting to flatten bottom play
 **Duration**: 4 rounds of 2 minutes
 
 
-### Dilemma Creation Sparring
+### Fork Attacks Sparring
 
 Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can only score by completing sweeps or submissions. Top player scores by passing to side control or mount. Emphasize creating genuine dilemmas where defending one attack opens another. 5 minute rounds with 1 minute rest.
 
@@ -308,38 +320,6 @@ Positional sparring starting from Z-Lock Half Guard Bottom. Bottom player can on
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Opponent drives heavy shoulder pressure into your chest while attempting to flatten you - what immediate adjustment preserves Z-Lock control?
-**A**: Hip out to your underhook side while simultaneously pulling with the lockdown to off-balance them. Use your butterfly hook leg to create space by pushing against their thigh. Frame on their shoulder with your free arm while turning your body to face them rather than laying flat. The angle change makes their pressure less effective and opens sweep opportunities as they adjust.
-
-**Q2**: What are the essential grips for maintaining Z-Lock Half Guard Bottom and preventing guard passes?
-**A**: The three critical grips are: (1) underhook on the far side reaching toward their back or belt, (2) collar grip, overhook, or wrist control on the near side to prevent crossface, and (3) your lockdown leg configuration securing their trapped leg. The underhook is highest priority as it prevents flattening and enables offensive threats. Without it, focus on collar or overhook control to prevent them establishing crossface before working to recover the underhook.
-
-**Q3**: How do you shut down the knee slice pass - the primary threat to your Z-Lock position?
-**A**: When opponent initiates knee slice, immediately hip out away from the slicing knee while maintaining lockdown tension. Use your butterfly hook to block their knee from advancing by lifting and redirecting it. Frame on their shoulder to prevent them driving through. If possible, transition to deep half by ducking under their pressure. The key is early recognition and immediate hip movement - once the knee clears your hip line, recovery is difficult.
-
-**Q4**: Your opponent establishes crossface control and begins flattening you - what sequence restores the position?
-**A**: First, frame on their crossface arm or shoulder to create space for your head. Bridge and hip escape toward your underhook side to create the angle needed to relieve pressure. As space opens, reinforce your lockdown grip and activate your butterfly hook to threaten elevation. Work to recover your underhook or at minimum establish an overhook to control their attacking arm. Prevention is easier than recovery - prioritize denying crossface initially.
-
-**Q5**: What is the correct weight distribution through your Z-Lock leg configuration to maintain control?
-**A**: Your lockdown leg should maintain constant pulling tension toward your body, keeping their trapped leg stretched and unable to post. Your butterfly hook should be active but not overcommitted - positioned under their thigh with enough pressure to threaten elevation but able to adjust quickly. Avoid death-gripping with both legs simultaneously as this limits your mobility. Think 70% lockdown tension, 30% butterfly activity, adjusting ratio based on opponent's reactions.
-
-**Q6**: Opponent attempts to strip your lockdown by straightening their trapped leg forcefully - what counter maintains position?
-**A**: When they straighten, immediately attack the electric chair by transitioning to a shoulder-walk position while maintaining lockdown. Their straightening actually helps your electric chair attack by creating the stretch. If electric chair isn't available, use their straightening momentum to come up toward dogfight by driving off your butterfly hook while maintaining underhook. Converting their escape attempt into your offensive transition neutralizes the defense.
-
-**Q7**: How do you manage energy conservation when playing extended Z-Lock sequences against a heavy pressure passer?
-**A**: Focus on structural frames rather than muscular resistance. Keep your skeleton aligned so their pressure transfers through your frame to the mat. Use hip movement to redirect pressure rather than absorbing it directly. Attack in short bursts when they commit weight forward, then return to defensive framing. Avoid constant grip tension - grip firmly during attacks, maintain lighter control during defensive phases. Let them work harder than you while you control distance and timing.
-
-**Q8**: Your opponent nearly passes and you lose your butterfly hook but maintain lockdown - how do you recover full Z-Lock configuration?
-**A**: Immediately create space by bridging and hip escaping toward your underhook side while pulling with lockdown. As opponent adjusts to your movement, use the opening to re-insert your butterfly hook under their free leg. You may need to temporarily abandon the full Z-Lock to recover closed guard or traditional half guard, then re-establish the butterfly hook once you've stabilized. Recovery requires space - create it through movement before attempting to reconfigure.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

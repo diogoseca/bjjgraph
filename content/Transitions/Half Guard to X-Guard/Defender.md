@@ -154,6 +154,8 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to X-Guard?</p>
+
 - Bottom player begins aggressive hip escaping toward your trapped leg side, creating angle underneath your base
 - You feel a butterfly hook or instep threading behind your near knee from the inside of your legs
 - Bottom player's hand moves to grip your trapped ankle or heel, indicating preparation for X-Guard ankle control
@@ -166,6 +168,8 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to X-Guard?</p>
 
 - Maintain heavy crossface pressure and chest-to-chest connection to prevent the hip escape that initiates the X-Guard entry sequence
 - Keep your hips low and driving forward to deny the space underneath you that the bottom player needs to thread their hooks
@@ -180,6 +184,8 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to X-Guard?</p>
 
 ### 1. Drive heavy crossface and flatten bottom player before any hook insertion begins
 
@@ -217,6 +223,8 @@ As the defender against the Half Guard to X-Guard transition, you are the top pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to X-Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Prevent the transition entirely by maintaining heavy crossface pressure and driving your hips forward to deny space for hook insertion. Address any hip escape immediately by following the bottom player's movement and re-establishing chest-to-chest connection before they create angle.
@@ -232,6 +240,8 @@ When you feel hooks beginning to establish, sprawl your hips back forcefully whi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to X-Guard?</p>
 
 ### 1. Remaining passive when feeling the initial hip escape and angle creation from the bottom player
 
@@ -261,6 +271,8 @@ When you feel hooks beginning to establish, sprawl your hips back forcefully whi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to X-Guard?</p>
+
 **Phase 1: Recognition** - Identifying X-Guard entry attempts at their earliest stages
 Partner attempts the Half Guard to X-Guard transition at 25% speed while you practice recognizing the hip escape, hook insertion, and ankle grip cues. Call out each cue as you feel it without attempting to defend yet. Build tactile pattern recognition before layering defensive responses.
 
@@ -277,26 +289,6 @@ Full speed positional sparring where bottom player actively pursues the X-Guard 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the Half Guard to X-Guard transition?
-**A**: The earliest cue is aggressive hip escaping toward your trapped leg side combined with angle creation underneath your base. This hip escape precedes any hook insertion and represents the moment when defensive action is easiest and most effective. Responding at this stage with forward pressure and crossface prevents the entire transition sequence from developing.
-
-**Q2**: Your opponent has inserted a shallow butterfly hook behind your knee - what is the highest percentage defensive response?
-**A**: Drive your trapped knee firmly to the mat while simultaneously sprawling your hips backward. This removes the space underneath you that powers the X-Guard elevation and makes it impossible for the bottom player to deepen the hook further. Combine this with crossface pressure to flatten them and prevent the outside leg from crossing your hip to complete the X-pattern.
-
-**Q3**: Why is standing up dangerous when your opponent already has a butterfly hook behind your knee?
-**A**: Standing up with a hook behind your knee creates the exact X-Guard entry conditions your opponent wants. Your standing posture elevates their hook, creates space underneath for their hips to slide into position, and raises your center of gravity, making you highly susceptible to powerful elevation sweeps. You must address the hook through knee driving and sprawling before considering standing.
-
-**Q4**: What passing strategy should you employ after successfully defending the X-Guard entry attempt?
-**A**: After preventing the X-Guard entry, immediately capitalize on the bottom player's compromised position by driving a knee slice pass through their half guard. Their hip escape to attempt the X-Guard entry has already created the angle your knee slice needs for completion. Follow with heavy crossface pressure and consolidate to side control before they can reset their guard structure and attempt another transition.
-
-
-
-</section>
 
 
 </main>

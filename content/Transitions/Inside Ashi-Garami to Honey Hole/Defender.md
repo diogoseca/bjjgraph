@@ -158,13 +158,15 @@ The critical defensive window exists between the moment the attacker withdraws t
 
 Defensive success depends heavily on maintaining awareness of the attacker's leg positioning even while defending other threats. The attacker will typically precede the threading attempt with an ankle lock or heel hook threat designed to absorb your defensive attention. Recognizing this pattern allows you to allocate defensive resources appropriately: enough attention to the submission threat to survive it, while preserving awareness and physical positioning to deny the threading attempt that follows.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Top)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Inside Ashi-Garami]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Inside Ashi-Garami to Honey Hole?</p>
 
 - Attacker's outside leg unhooks from behind your knee and begins withdrawing toward their body - this is the earliest and most reliable signal
 - Attacker bridges their hips upward while maintaining heel control, creating space beneath their body for the threading motion
@@ -179,6 +181,8 @@ Defensive success depends heavily on maintaining awareness of the attacker's leg
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Inside Ashi-Garami to Honey Hole?</p>
+
 - Prevent the thread before it starts - blocking the outside leg's withdrawal is far easier than stopping it mid-thread
 - Maintain free leg activity at all times, using it to block threading paths and create defensive barriers
 - Recognize submission threats as setups for the transition and defend both simultaneously rather than focusing on one
@@ -192,6 +196,8 @@ Defensive success depends heavily on maintaining awareness of the attacker's leg
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Ashi-Garami to Honey Hole?</p>
 
 ### 1. Block threading path with free leg by kicking it over the attacker's withdrawing outside leg
 
@@ -229,6 +235,8 @@ Defensive success depends heavily on maintaining awareness of the attacker's leg
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Ashi-Garami to Honey Hole?</p>
+
 ### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Block the threading attempt early by kicking your free leg over the attacker's withdrawing leg, or execute explosive hip rotation to deny space before the thread begins. Stripping their heel grip preemptively also forces them to re-establish control before attempting the transition again.
@@ -244,6 +252,8 @@ When the threading motion is already in progress and cannot be blocked, immediat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Ashi-Garami to Honey Hole?</p>
 
 ### 1. Focusing entirely on defending the ankle lock threat while ignoring the attacker's leg repositioning
 
@@ -278,6 +288,8 @@ When the threading motion is already in progress and cannot be blocked, immediat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Ashi-Garami to Honey Hole?</p>
+
 **Week 1-2** - Recognition cue identification
 Partner slowly performs each phase of the transition while you verbally identify each recognition cue as it occurs (leg unhooking, hip bridge, threading motion). No physical defense yet - build pattern recognition first. 20 repetitions per session with partner varying timing and setup threats.
 
@@ -294,29 +306,6 @@ Full resistance positional sparring starting from Inside Ashi-Garami bottom. Par
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the Inside Ashi-Garami to Honey Hole transition?
-**A**: The earliest and most reliable cue is feeling the attacker's outside leg unhook from behind your knee and begin withdrawing toward their body. This precedes the actual threading motion and gives you the maximum defensive window. Secondary cues include their hip bridge upward and any brief loosening of inside leg pressure across your hip. Reacting at this early stage gives you the best chance of successful defense.
-
-**Q2**: Why is blocking with your free leg the highest-percentage defensive option against this transition?
-**A**: Your free leg can physically obstruct the threading path before the attacker's leg enters the gap between your legs. By kicking your free leg over their withdrawing outside leg, you create a mechanical barrier that prevents threading entirely. This defense addresses the root cause of the transition (leg threading) rather than its symptoms, and requires only timing and awareness rather than explosiveness or strength.
-
-**Q3**: Your opponent threatens a straight ankle lock and then immediately begins withdrawing their outside leg - how do you split your defensive attention?
-**A**: Defend the ankle lock with your arms and upper body by controlling their grip and rotating your foot, but keep your lower body awareness focused on their leg movement. The submission threat is often a deliberate setup for the transition rather than a genuine finishing attempt. When you feel their outside leg unhook, immediately shift priority to blocking the threading path with your free leg, even if it means accepting slightly more pressure on the ankle lock temporarily.
-
-**Q4**: When is counter-threading to 50-50 the correct defensive choice rather than attempting to block the transition entirely?
-**A**: Counter-threading is correct when the attacker's outside leg has already entered the gap between your legs and blocking is no longer possible. At this stage, preventing the thread is too late, but you can still race to establish symmetrical entanglement before they complete their triangle. 50-50 bottom is a significantly better position than Honey Hole bottom because it provides equal attacking and defensive options rather than the extreme asymmetry of Honey Hole.
-
-**Q5**: What should you do if the attacker successfully establishes Honey Hole despite your defensive efforts?
-**A**: Immediately shift to Honey Hole bottom defense protocols: protect your heel by rotating your knee inward, fight their heel grip with both hands, and attempt explosive rotation toward their legs to counter-entangle into 50-50 before they secure breaking mechanics. Do not continue trying to undo the threading - the triangle is locked. Every second in Honey Hole increases submission danger exponentially, so escape attempts must be immediate and fully committed.
-
-
-
-</section>
 
 
 </main>

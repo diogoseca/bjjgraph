@@ -194,6 +194,8 @@ As the person executing the inversion escape, your objective is to use rotationa
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inversion Escape from Leg Entanglement?</p>
+
 - Protect the heel throughout the entire inversion - never allow heel exposure during the rolling motion, as rotational force during the roll amplifies joint stress
 - Time the inversion to coincide with opponent's grip transitions or positional adjustments when their structural control is momentarily weakened
 - Commit fully to the inversion once initiated - half-committed inversions leave you in worse positions with your back exposed and entanglement intact
@@ -208,6 +210,8 @@ As the person executing the inversion escape, your objective is to use rotationa
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inversion Escape from Leg Entanglement?</p>
+
 - Opponent has not secured a deep heel grip with figure-four finishing configuration - if the heel is already controlled with rotation applied, the escape window has closed
 - At least one hand is free to post on the mat to initiate and guide the inversion roll, providing directional control
 - Your free leg can establish a frame on the opponent's hip to create the minimum space needed for rotation to begin
@@ -220,6 +224,8 @@ As the person executing the inversion escape, your objective is to use rotationa
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inversion Escape from Leg Entanglement step by step?</p>
 
 1. **Assess entanglement and protect the heel**: Before initiating any movement, assess which leg is trapped, what configuration the opponent has established, and whether the heel is currently protected. Flex your foot and rotate your knee inward to hide the heel. Confirm that the opponent does not have a deep heel grip with finishing mechanics applied. If they do, address grips first or consider alternative escapes.
 2. **Establish free leg frame on opponent's hip**: Place your free foot on the opponent's hip on the same side as their body, pushing firmly to create separation between your hips and their control structure. This frame serves dual purposes: it creates the initial space needed for rotation and it prevents the opponent from driving forward to tighten the entanglement as you begin to move.
@@ -250,6 +256,8 @@ As the person executing the inversion escape, your objective is to use rotationa
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Inversion Escape from Leg Entanglement?</p>
+
 - **Opponent follows the inversion by maintaining hip pressure and rotating with the roll to stay attached** (Effectiveness: High) - Your Response: If the opponent follows your roll, abort the full inversion and use the partial rotation to create a scramble. Post on your hands, kick your legs free in the chaos, and immediately work to establish any guard position. The scramble is still preferable to a static entanglement. → Leads to [[Positions/Leg Entanglement]]
 - **Opponent preemptively tightens grips and pinches knees together to prevent the initial rotation from developing** (Effectiveness: High) - Your Response: Switch to an alternative escape such as boot scooting or systematic grip fighting. Use the inversion attempt as a feint to force the opponent to commit their grips to retention, then attack those grips while they are occupied preventing the roll. → Leads to [[Positions/Leg Entanglement]]
 - **Opponent releases the original entanglement during the inversion and backsteps to capture the saddle position as your legs become exposed mid-roll** (Effectiveness: Medium) - Your Response: If you recognize the backstep happening, immediately tuck both knees to your chest and curl into a defensive ball to prevent the saddle entry. If the saddle is partially established, address it as a new positional problem using saddle-specific escapes rather than continuing the original inversion. → Leads to [[Positions/Ashi Garami/Saddle]]
@@ -261,6 +269,8 @@ As the person executing the inversion escape, your objective is to use rotationa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inversion Escape from Leg Entanglement?</p>
 
 ### 1. Attempting the inversion after the opponent has already secured a deep heel grip with figure-four configuration
 
@@ -300,6 +310,8 @@ As the person executing the inversion escape, your objective is to use rotationa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inversion Escape from Leg Entanglement (Attacker)?</p>
+
 **Phase 1: Solo Inversion Mechanics** - Rolling mechanics and body awareness
 Practice granby rolls and shoulder rolls solo on the mat to develop comfort with the inversion motion. Focus on tucking the chin, rolling over the correct shoulder, and completing the roll to a seated position. Work on rolling in both directions. Build up to 20 smooth repetitions per side per session.
 
@@ -320,42 +332,12 @@ Begin rounds starting in leg entanglement with full resistance from both partner
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical safety check before initiating the inversion escape from a leg entanglement?
-**A**: Before initiating the inversion, you must verify that the opponent has not secured a deep heel grip with figure-four finishing configuration. If the heel is already controlled with rotational pressure being applied, the inversion will amplify the mechanical stress on the knee ligaments and can cause catastrophic injury. The heel must be hidden with your foot flexed and knee rotated inward before any rolling motion begins. If the heel is compromised, switch to grip fighting or an alternative non-rotational escape.
-
-**Q2**: Your opponent is adjusting their grip from ankle control to heel control - is this a good moment to attempt the inversion?
-**A**: Yes, this is one of the optimal timing windows for the inversion escape. During grip transitions, the opponent's structural control is momentarily weakened because they have released one control point before fully establishing the next. The brief moment between releasing the ankle grip and securing the heel grip creates a gap in their control structure where the rotational force of the inversion can overcome their retention. You must be ready to exploit this window instantly, as it lasts less than a second against experienced leg lockers.
-
-**Q3**: Which shoulder should you roll over when executing the inversion, and why does direction matter?
-**A**: You should roll over the shoulder on the same side as your trapped leg. Rolling over this shoulder creates a diagonal path that carries your trapped knee across and out of the opponent's leg configuration, loosening the entanglement as you rotate. Rolling over the opposite shoulder would pull the trapped knee deeper into the opponent's control, tightening the entanglement and potentially creating dangerous additional stress on the joint. The direction of the roll determines whether the rotation works for or against the entanglement structure.
-
-**Q4**: What role does the free leg play in setting up the inversion escape?
-**A**: The free leg serves as the primary space-creation tool before the inversion begins. You place the free foot on the opponent's hip and push firmly to create separation between your hips and their control structure. This frame provides the minimum space needed for the rotational movement to begin. Without this initial frame, there is insufficient room to initiate the roll, and the attempt stalls before it develops. The free leg also provides the push-off force that helps launch the inversion when combined with the posting hand.
-
-**Q5**: Your inversion attempt is halfway through but the opponent has followed your roll and maintained grip on your ankle - what should you do?
-**A**: If the opponent follows the roll and maintains ankle control, abort the full inversion and convert the momentum into a scramble. Post on both hands, use the rotational energy to kick your legs free, and immediately work to establish any guard position rather than trying to complete the original escape path. The partial inversion has disrupted the opponent's original entanglement structure even if they maintained grip, so the scramble is still preferable to a static entanglement. Do not attempt to re-roll or force the extraction against active resistance.
-
-**Q6**: Why is it dangerous to stop in inverted guard after clearing the leg entanglement?
-**A**: Stopping in inverted guard gives the opponent time to re-engage your legs from a position where you are upside down with limited defensive options. The opponent can easily enter a new entanglement by grabbing your now-exposed legs, or they can pass around your inverted guard to achieve a dominant position. The inverted guard only works as a momentary checkpoint, not a resting point. Completing the roll to seated butterfly guard provides hooks for defense, upper body grips for offense, and a stable base that prevents immediate re-engagement.
-
-**Q7**: What grip configuration should your hands maintain during the inversion roll itself?
-**A**: During the roll, one hand posts on the mat to guide the direction and provide push-off force, while the other hand protects your trapped foot and ankle by gripping your own shin or blocking the opponent's access to your heel. As the roll progresses and the leg clears, the protecting hand transitions to assisting extraction by pushing against the opponent's legs or stripping remaining grips. After extraction, both hands immediately transition to establishing butterfly guard grips on the opponent's upper body. The grip sequence is: post and protect, then extract and strip, then establish guard control.
-
-**Q8**: How does the inversion escape integrate with other leg entanglement defense options in a comprehensive defense strategy?
-**A**: The inversion escape sits within a hierarchy of leg entanglement defenses as a secondary or tertiary option. Primary defenses include grip fighting to prevent heel exposure and boot scooting to create distance. The inversion is deployed when these conventional methods are insufficient or when a specific timing opportunity presents itself during the opponent's transitions. It chains naturally with other defenses - a failed inversion creates scramble opportunities, and a feinted inversion can force the opponent to tighten grips, making those grips easier to identify and strip. The key is treating inversion as one tool in a system rather than a standalone solution.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inversion Escape from Leg Entanglement?</p>
 
 Inversion escapes carry significant injury risk when performed against deep heel hook control. Never attempt the inversion if the opponent has already secured the heel with rotational pressure applied, as the rolling motion can catastrophically accelerate ligament damage to the knee. The ACL, MCL, and meniscus are all vulnerable during rotational movements under load. In training, communicate clearly with partners before drilling inversions from leg entanglements. Establish tap protocols and begin all drilling at slow speed with zero resistance. Partners should release all grips immediately if the inverting player taps or verbally signals discomfort. Practitioners with existing knee injuries or limited flexibility should consult with their instructor about whether this technique is appropriate for their body. Never drill this escape with partners who do not have controlled heel hook finishing mechanics.
 

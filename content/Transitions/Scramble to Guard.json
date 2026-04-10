@@ -12,12 +12,12 @@
   "from_position": "Twister Control/Bottom",
   "outcomes": [
     {
-      "to": "Closed Guard/Top",
+      "to": "Closed Guard/Bottom",
       "probability": 45,
       "result": "success"
     },
     {
-      "to": "Half Guard/Top",
+      "to": "Half Guard/Bottom",
       "probability": 20,
       "result": "success"
     },
@@ -64,8 +64,8 @@
       "relationship": "Alternative escape - accepts turtle as intermediate step"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Related concept - general principles that apply in final phase"
+      "name": "Rolling to Guard",
+      "relationship": "Related technique - rolling guard recovery principles that apply in final phase"
     },
     {
       "name": "Hip Escape to Guard",

@@ -194,6 +194,8 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Pin from X-Guard?</p>
+
 - Anchor your upper body with a collar grip, head control, or far shoulder grip before committing your hand to the knee pin
 - Use bodyweight transfer rather than arm strength to drive the knee to the mat, keeping your elbow tight to block re-pummel attempts
 - Lower your center of gravity progressively as the pin deepens to maximize downward pressure and maintain balance against sweep attempts
@@ -208,6 +210,8 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Pin from X-Guard?</p>
+
 - Established upper body anchor through collar grip, head control, or far shoulder control to prevent opponent rotation during pin
 - Near-side hand free and positioned to reach the opponent's inside hooking knee without overextending balance
 - Weight distributed with forward lean and wide base to resist sweep attempts during the commitment phase
@@ -220,6 +224,8 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Pin from X-Guard step by step?</p>
 
 1. **Identify the inside hook**: Identify which of the bottom player's legs is hooking behind your near knee, creating the primary X-Guard elevation mechanism. This inside hook is the structural load-bearing element that must be targeted. Assess hook depth and the opponent's grip engagement to determine your timing window.
 2. **Establish upper body anchor**: Before committing your hand to the knee pin, establish a controlling grip on the opponent's collar, head, or far shoulder to anchor your upper body. Without this anchor, the opponent can rotate away from the pin or create sweeping angles that compromise your base during the pinning action.
@@ -250,6 +256,8 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Pin from X-Guard?</p>
+
 - **Bottom player re-pummels inside hook before the pin is fully completed by driving their knee back behind yours** (Effectiveness: High) - Your Response: Increase commitment speed and use elbow pressure to block the re-pummel path. If the hook recovers, immediately chain to a knee slice or long step pass while the opponent is momentarily focused on hook recovery rather than sweeping. → Leads to [[Positions/X-Guard]]
 - **Bottom player executes hip bump sweep by elevating hips explosively when you commit weight forward to the pin** (Effectiveness: Medium) - Your Response: Maintain a wide base and avoid overcommitting your center of gravity past the midline. Keep your free leg posted far back for base and use the upper body anchor to resist the elevation force. → Leads to [[Positions/Half Guard]]
 - **Bottom player transitions to Single Leg X or Butterfly Guard by withdrawing the compromised hook and reconfiguring legs** (Effectiveness: Medium) - Your Response: Follow the opponent's hips with continuous forward pressure during the transition. The moment they release the inside hook to reconfigure, accelerate your leg extraction and advance past the weakened guard structure before they can establish the new position. → Leads to [[Positions/X-Guard]]
@@ -261,6 +269,8 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Pin from X-Guard?</p>
 
 ### 1. Pinning with arm strength alone instead of committing bodyweight into the downward pressure
 
@@ -300,6 +310,8 @@ As the attacker executing the Knee Pin from X-Guard, you are the top player faci
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Pin from X-Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated knee pin motion and body weight transfer
 Partner establishes X-Guard with cooperative resistance. Practice the hand placement on the inside hook knee, bodyweight transfer into the pin, and the controlled leg extraction sequence. Focus on smooth coordination between upper body anchor, knee pin, and hip swimming extraction. 20 repetitions per side.
 
@@ -320,42 +332,12 @@ Incorporate the knee pin into extended rolling sessions starting from standing o
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the knee pin from X-Guard top?
-**A**: The optimal timing window is when the bottom player's inside hook begins to lose depth or when they shift focus to establishing upper body grips, creating a moment where the hook is less actively maintained and more vulnerable to downward pressure. Initiating during active elevation attempts is significantly harder due to the opposing upward force.
-
-**Q2**: Why must you establish an upper body anchor before committing your hand to the knee pin?
-**A**: Without an upper body anchor such as a collar grip, head control, or far shoulder grip, the opponent can freely rotate away from the pin or create sweeping angles. The anchor prevents the opponent from using the moment of your hand commitment to change angles and initiate sweeps while your near-side hand is occupied with the pin.
-
-**Q3**: Your opponent re-pummels their inside hook as you attempt the knee pin - what is your immediate adjustment?
-**A**: If the hook recovers before the pin is established, immediately chain to an alternative pass such as a knee slice or long step rather than repeatedly forcing the pin. The opponent's focus on re-pummeling the hook creates a brief window where their attention is on hook recovery rather than sweep execution, making movement-based passes temporarily more effective.
-
-**Q4**: What is the critical mechanical difference between using bodyweight versus arm strength for the pin?
-**A**: Bodyweight generates sustained, structural pressure that is energy-efficient and difficult for the opponent to overcome through muscular effort. Arm strength alone is fatiguing, generates less total force, and is vulnerable to the opponent's stronger leg muscles re-pummeling the hook. Shifting your center of gravity into the pin creates a mechanical advantage that arm strength cannot match.
-
-**Q5**: If your knee pin stalls with the hook partially collapsed, what follow-up technique offers the highest percentage?
-**A**: A knee slice pass through the weakened hook structure offers the highest percentage follow-up because the partially collapsed inside hook can no longer generate full elevation, making the knee slice cut significantly easier. The opponent's compromised structure creates less resistance to the slice than a fully intact X-Guard would present.
-
-**Q6**: What grip should your free hand maintain during the knee pin execution?
-**A**: The free hand should maintain a controlling anchor grip, either on the opponent's collar in gi, the back of their head in no-gi, or their far shoulder. This grip serves the dual purpose of preventing the opponent from rotating away from the pin and providing a stabilization point that helps maintain your balance during the weight transfer into the pinning action.
-
-**Q7**: The bottom player transitions to Single Leg X-Guard during your pin attempt - how do you adapt?
-**A**: When the opponent abandons the inside hook to reconfigure into Single Leg X, immediately accelerate your leg extraction since the hook is no longer actively blocking you. Follow their hips with forward pressure and look to advance past the weakened guard structure before they can establish the Single Leg X hooks and frames that would create a new defensive barrier.
-
-**Q8**: Why is lowering your center of gravity critical during the pinning phase rather than remaining upright?
-**A**: Lowering your center of gravity maximizes the downward pressure transmitted through the pin and dramatically reduces your vulnerability to sweeps. A high stance with narrow base creates maximum leverage for the opponent's remaining outside leg and upper body connections to generate sweeping forces. A low, wide stance distributes your weight in a way that resists off-balancing in all directions.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Pin from X-Guard?</p>
 
 The Knee Pin from X-Guard carries moderate risk to both practitioners. The top player must control the rate and force of downward pressure on the pinned knee to avoid hyperextension of the bottom player's knee joint, particularly when the hook is deep and the knee is loaded. The bottom player should avoid explosively re-pummeling hooks when significant pinning pressure is already applied, as this can create shearing forces on the knee ligaments. Both practitioners should communicate immediately if knee discomfort occurs. Training partners should begin with cooperative resistance and gradually increase intensity to build familiarity with safe pressure thresholds.
 

@@ -152,13 +152,15 @@ The key defensive insight is that the transition creates a brief vulnerability i
 
 Defenders who wait passively through the transition typically find themselves in a worse position than the original Estima Lock, because ashi garami offers the attacker heel hook access that the footlock did not. Early recognition and immediate action during the grip change phase offer the highest probability of successful defense and potential guard recovery.
 
-**Opponent's Starting Position**: [[Positions/Estima Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Estima Lock to Ashi Garami?</p>
 
 - Attacker's hips shift laterally toward your trapped leg while they maintain the Estima Lock grip, indicating they are repositioning for leg threading rather than continuing the footlock finish
 - Attacker's inside leg begins moving between your legs, threading behind your trapped knee—this is the clearest signal that the Estima Lock is being abandoned in favor of ashi garami entry
@@ -170,6 +172,8 @@ Defenders who wait passively through the transition typically find themselves in
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Estima Lock to Ashi Garami?</p>
 
 - Recognize the transition initiation immediately—the attacker's hip shift toward your trapped leg and their inside leg beginning to thread signals the switch from Estima Lock to ashi garami
 - Attack the transitional gap when the attacker releases Estima Lock grips but has not yet secured the leg triangle, as this is the moment of weakest control
@@ -184,6 +188,8 @@ Defenders who wait passively through the transition typically find themselves in
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Estima Lock to Ashi Garami?</p>
 
 ### 1. Knee retraction—immediately pull your trapped knee to your chest while posting on your free hand to sit up, preventing the attacker from threading their inside leg deep enough to complete the ashi garami triangle
 
@@ -202,7 +208,7 @@ Defenders who wait passively through the transition typically find themselves in
 ### 3. Sit-up frame defense—sit up aggressively and post both hands on the attacker's shoulders or chest, driving them backward to prevent the forward weight commitment required for ashi garami consolidation while keeping your trapped leg bent
 
 - **When to use**: During the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami, exploiting the moment of reduced hand control on your foot
-- **Targets**: [[Positions/Estima Lock]]
+- **Targets**: [[Positions/Estima Lock Control]]
 - **If successful**: Your frames prevent the attacker from consolidating ashi garami, stalling the transition and potentially allowing you to re-address the original Estima Lock position from a stronger defensive posture with frames established
 - **Risk**: Sitting up exposes your upper body to potential guillotine or front headlock attacks if the attacker abandons the leg transition and changes to upper body control
 
@@ -214,11 +220,13 @@ Defenders who wait passively through the transition typically find themselves in
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Estima Lock to Ashi Garami?</p>
+
 ### → [[Positions/Open Guard]]
 
 Extract your trapped leg during the transitional gap by pulling your knee to your chest while the attacker's grips are in flux between Estima Lock and ashi garami configurations. Combine knee retraction with free leg hip push and immediate guard recovery to establish open guard with both legs free and defensive frames in place.
 
-### → [[Positions/Estima Lock]]
+### → [[Positions/Estima Lock Control]]
 
 Disrupt the transition early by sitting up with strong frames on the attacker's shoulders before they can complete the leg thread. This stalls the transition and returns the exchange to the original Estima Lock dynamic where your established defenses (counter-rotation, heel hiding) remain effective and the attacker must restart their offensive sequence.
 
@@ -229,6 +237,8 @@ Disrupt the transition early by sitting up with strong frames on the attacker's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Estima Lock to Ashi Garami?</p>
 
 ### 1. Remaining flat on your back and passively waiting through the transition without attempting to extract your leg or disrupt the attacker's repositioning
 
@@ -258,6 +268,8 @@ Disrupt the transition early by sitting up with strong frames on the attacker's 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Estima Lock to Ashi Garami?</p>
+
 **Week 1-2** - Recognition and basic extraction
 Partner performs the Estima Lock to Ashi Garami transition at 20% speed with clear pauses at each step. Practice identifying each recognition cue and executing basic knee retraction defense. Focus on developing the reflex to pull your knee to your chest the moment you feel the attacker's hips shift. Drill 15-20 defensive repetitions per session with partner narrating their actions.
 
@@ -274,29 +286,6 @@ Full resistance positional sparring starting from Estima Lock position. Defender
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive window during the Estima Lock to Ashi Garami transition and why does it exist?
-**A**: The primary defensive window occurs during the grip change phase when the attacker releases Estima Lock grips to re-grip for ashi garami. This window exists because the attacker must transition between two distinct control systems—the inverted foot grip and the leg triangle entanglement—and there is a brief period where neither system is fully secured. During this gap, the defender's leg is held only by partial control, making extraction significantly more achievable than from either consolidated position.
-
-**Q2**: Your opponent's inside leg begins threading between your legs—what is the most effective immediate response?
-**A**: Immediately pull your trapped knee aggressively toward your chest while simultaneously using your free leg to push against the attacker's far hip. The knee retraction prevents the inside leg from hooking deep behind your knee, which is the critical connection point for the ashi garami triangle. If you can deny this deep hook, the entire entanglement collapses and you can extract your leg to recover guard. Timing is critical—every second of delay allows the thread to deepen.
-
-**Q3**: Why is sitting up during the transition both a defensive opportunity and a potential risk?
-**A**: Sitting up disrupts the attacker's forward weight commitment needed for ashi garami consolidation and creates frames that can stall or reverse the transition. However, sitting up also elevates your upper body into range for guillotine or front headlock attacks if the attacker reads your posture change and switches from leg attacks to upper body control. The defensive benefit outweighs the risk when timed during the grip change phase, but you must maintain hand frames on the attacker's shoulders to address any head control attempts.
-
-**Q4**: What heel protection positioning should you maintain if the attacker successfully establishes ashi garami despite your defense?
-**A**: If ashi garami is established, immediately turn your foot inward with toes pointed toward your own body to hide the heel from exposure. Keep your knee bent rather than extended to limit the attacker's rotational leverage. Use your free leg to push on the attacker's controlling legs and begin systematic leg extraction by addressing their inside hook first. Hiding the heel buys critical time to work escape sequences without facing immediate submission threat.
-
-**Q5**: How should you use your free leg defensively throughout the transition?
-**A**: Your free leg serves as your primary defensive tool throughout the entire transition. Initially, use it to push against the attacker's hips to create distance and disrupt their lateral hip shift. As their inside leg begins threading, reposition your free leg to block or kick their threading leg away from your trapped knee. If they complete the thread, use your free leg to push on their outside leg to prevent the triangle from closing. The free leg should never be passive—it is your most powerful lever for creating the space and disruption needed to escape.
-
-
-
-</section>
 
 
 </main>

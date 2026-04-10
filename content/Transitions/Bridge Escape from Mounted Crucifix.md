@@ -216,7 +216,7 @@ The bridge escape from mounted crucifix occupies a critical emergency position w
 
 - [[Transitions/Armbar from Crucifix]] - Primary submission threat the top player may attack during escape attempts
 
-- [[Transitions/Choke from Crucifix]] - Neck submission threat requiring defensive priority before bridge attempt
+- [[Submissions/Choke from Crucifix]] - Neck submission threat requiring defensive priority before bridge attempt
 
 - [[Submissions/Mounted Crucifix Armbar]] - Specific armbar variation threatening from mounted crucifix during escape
 

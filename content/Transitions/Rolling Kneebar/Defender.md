@@ -164,6 +164,8 @@ The defender's strategic framework operates on a timeline: before the roll begin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rolling Kneebar?</p>
+
 - Opponent's hips shift laterally toward your trapped leg while in grasshopper guard, loading weight onto one shoulder for the roll
 - You feel increased pulling pressure on your hooked leg combined with the opponent's hands pushing off the mat
 - Opponent's outside leg begins threading or crossing over your thigh while their body rotates underneath you
@@ -176,6 +178,8 @@ The defender's strategic framework operates on a timeline: before the roll begin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling Kneebar?</p>
 
 - React before the roll completes - every moment of delay reduces your defensive options exponentially
 - Maintain a bent knee and active hip rotation to deny the extension angle required for the finish
@@ -191,6 +195,8 @@ The defender's strategic framework operates on a timeline: before the roll begin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Kneebar?</p>
 
 ### 1. Post hand and sprawl immediately upon detecting lateral hip shift
 
@@ -228,6 +234,8 @@ The defender's strategic framework operates on a timeline: before the roll begin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Kneebar?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Stop the roll before it develops by sprawling with your hips back and posting your hand on the mat when you detect the lateral hip shift. Alternatively, step over the rolling body with your free leg while pulling the trapped leg backward to extract it from the entanglement.
@@ -243,6 +251,8 @@ Drive forward aggressively before the roll initiates to collapse the opponent's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Kneebar?</p>
 
 ### 1. Freezing or pausing when the roll begins instead of reacting immediately
 
@@ -277,6 +287,8 @@ Drive forward aggressively before the roll initiates to collapse the opponent's 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Kneebar?</p>
+
 **Week 1-2** - Recognition and reaction timing
 Partner establishes grasshopper guard and slowly initiates rolling kneebar entries at 25% speed. Focus entirely on recognizing the hip shift cue and triggering the sprawl response. No resistance from partner during your defense. Build automatic recognition of the attack initiation.
 
@@ -293,29 +305,6 @@ Full resistance sparring starting with partner in grasshopper guard. Integrate r
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important timing element when defending the Rolling Kneebar?
-**A**: Reacting before the roll completes is the most critical timing element. Once the attacker achieves belly-down position with your leg trapped in figure-four, defensive options narrow to surviving the finish rather than preventing the position. The sprawl or step-over must happen during or before the rotation, not after the attacker settles.
-
-**Q2**: Your opponent in grasshopper guard shifts their hips laterally toward your leg and loads onto one shoulder - what should you do immediately?
-**A**: This is the primary recognition cue for the Rolling Kneebar initiation. Immediately post your hand on the mat on the side they are rolling toward and sprawl your hips backward and away. This removes the space they need for the roll and denies their rotational momentum. Do not wait to confirm the attack - the hip shift is sufficient to trigger your defensive response.
-
-**Q3**: Why is pulling your trapped leg straight backward a mistake when defending the Rolling Kneebar?
-**A**: Pulling straight backward actually assists the kneebar by straightening the knee joint into the exact extension angle the attacker needs for the finish. The linear pull also creates tension that the attacker can use as leverage. Instead, bend the knee and rotate your hip toward the attacker to collapse the extension angle, then work the leg free through circular extraction.
-
-**Q4**: The attacker has completed the roll and achieved belly-down position with your leg trapped - what defensive dilemma do you face?
-**A**: You face a kneebar-versus-calf-slicer dilemma. Keeping your leg straight allows the kneebar finish through hip bridge hyperextension. Bending your knee maximally defends the kneebar but exposes you to calf slicer attacks if the attacker threads their leg through. You must balance knee bend with active hip rotation toward the attacker while working to extract your foot from their grip.
-
-**Q5**: When is driving forward the correct defensive response, and when does it become dangerous?
-**A**: Forward pressure is correct only before the roll initiates, when the grasshopper player is still setting up. Your drive collapses their inversion and flattens their hips to the mat. However, once the roll has begun, forward pressure feeds directly into their rotational momentum and accelerates the kneebar entry. Read the timing carefully - if you see rotation starting, sprawl backward instead.
-
-
-
-</section>
 
 
 </main>

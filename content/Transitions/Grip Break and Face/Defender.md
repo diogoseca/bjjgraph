@@ -158,6 +158,8 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Grip Break and Face?</p>
+
 - Opponent brings both hands to your choking arm wrist, establishing two-on-one control that signals the beginning of the grip strip sequence
 - Opponent widens their stance and drops their weight slightly, loading their base for the upcoming explosive hip rotation
 - Opponent's shoulders begin rotating or they shift weight to one foot, indicating imminent directional commitment for the turn
@@ -169,6 +171,8 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Grip Break and Face?</p>
 
 - Maintain harness grip integrity through proper locking mechanics - hands clasped, elbows tight, chest pressure constant against their back
 - Insert hooks or body triangle preemptively when you sense grip fighting beginning, as leg control prevents the hip rotation that defines this escape
@@ -183,6 +187,8 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Grip Break and Face?</p>
 
 ### 1. Drop hooks immediately upon sensing two-on-one grip fighting on your choking arm
 
@@ -220,6 +226,8 @@ Advanced defenders treat the Grip Break and Face attempt as a predictable sequen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Grip Break and Face?</p>
+
 ### → [[Positions/Back Control/Standing Back Control]]
 
 Insert hooks early when you recognize the two-on-one grip fighting, preventing hip rotation. Alternatively, switch to body lock when seatbelt is being stripped, or circle with their rotation to maintain chest-to-back connection and re-establish harness from the new angle.
@@ -235,6 +243,8 @@ When the opponent has broken your harness and committed to rotation, do not desp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Grip Break and Face?</p>
 
 ### 1. Fighting the grip strip with pure arm strength rather than adjusting body position or switching grip configuration
 
@@ -264,6 +274,8 @@ When the opponent has broken your harness and committed to rotation, do not desp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Grip Break and Face?</p>
+
 **Week 1-2** - Recognition and hook insertion
 Partner performs slow-motion grip fighting from standing back control. Practice recognizing two-on-one control establishment and immediately responding with hook insertion. Focus on timing the hook drop to arrive before the grip strip completes. Drill 40 repetitions per session at progressively increasing speed.
 
@@ -280,26 +292,6 @@ Full-speed positional sparring starting from standing back control. Partner atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt Grip Break and Face?
-**A**: The earliest cue is when both of their hands move to your choking arm wrist, establishing two-on-one control. This signals the grip strip sequence has begun and your window to insert hooks or switch grips is narrowing. Before they even begin pulling your arm, the hand positioning tells you their intention. React immediately by inserting hooks or switching to body lock control.
-
-**Q2**: Why is inserting hooks the highest-priority defensive response against this escape?
-**A**: Hooks control the opponent's hips, and this escape requires explosive hip rotation to succeed. Without free hip movement, the opponent cannot complete the turn regardless of whether they break your harness grip. Hooks fundamentally change the escape equation from a grip-fighting problem into a leg-entanglement problem, forcing them to abandon the rotation entirely and switch to a different escape pathway like turtle descent or hook clearance.
-
-**Q3**: Your opponent has stripped your choking arm and begun rotating - is it better to chase back control or transition to front headlock?
-**A**: Once they have broken the harness and begun committed rotation past approximately 90 degrees, chasing back control by circling becomes increasingly difficult and energy-expensive. Transitioning to front headlock is the higher-percentage option because their rotation brings their head toward you, making head control accessible. The front headlock maintains your offensive advantage with multiple submission options, whereas desperately circling for back control often results in losing all control entirely.
-
-**Q4**: How should you adjust your body position when you feel persistent two-on-one pressure on your choking arm?
-**A**: Rather than fighting the arm battle in isolation, drive your chest harder into their back to increase overall control pressure, then immediately switch your grip configuration. Either transition to a body lock by releasing the seatbelt and locking hands around their torso, or drop your hooks in to prevent the rotation that follows the grip strip. The body position adjustment supplements the grip change - chest pressure buys you time, and the grip switch changes the defensive problem they must solve.
-
-
-
-</section>
 
 
 </main>

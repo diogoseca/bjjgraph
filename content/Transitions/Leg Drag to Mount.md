@@ -208,9 +208,9 @@ The Leg Drag to Mount transition occupies a critical junction in the guard passi
 
 - [[Positions/Mount/Technical Mount]] - Variant target position when opponent is partially turned
 
-- [[Submissions/Armbar from Mount]] - Primary submission follow-up from achieved mount
+- [[Transitions/Mount to Armbar]] - Primary submission follow-up from achieved mount
 
-- [[Transitions/Americana]] - High-percentage submission chain from mount position
+- [[Submissions/Americana]] - High-percentage submission chain from mount position
 
 - [[Positions/Half Guard]] - Common counter position if opponent recovers leg
 

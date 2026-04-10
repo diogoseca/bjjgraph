@@ -83,8 +83,8 @@
       "relationship": "Higher-percentage alternative transition from same starting position"
     },
     {
-      "name": "Calf Slicer from Rodeo Ride",
-      "relationship": "Submission threat from source position that may precede this transition"
+      "name": "Calf Slicer",
+      "relationship": "Submission threat available from Rodeo Ride that may precede this transition when defended"
     },
     {
       "name": "Crucifix",
@@ -252,6 +252,14 @@
       {
         "question": "The opponent begins a granby roll halfway through your transition. Should you disengage and reset, or follow the roll?",
         "answer": "Follow the roll while maintaining your anchor grip and chest contact. The granby roll during your transition actually assists your repositioning because the opponent's rotation moves them further under your body. Stay connected and use their momentum to accelerate your own movement behind them. Disengaging would waste your transitional progress and allow them to recover guard. The key is keeping your grip tight through the rotation and immediately establishing seatbelt control when the roll completes."
+      },
+      {
+        "question": "What is the optimal direction and application of force during the hip walk repositioning phase?",
+        "answer": "The primary force vector should be oriented forward and downward at approximately a 45-degree angle into the opponent's spine and lower back. This angled pressure serves dual purposes: it prevents the opponent from standing or creating upward movement, and it keeps their base loaded so they cannot sit back or rotate laterally. The direction should not be purely downward, which would allow lateral escape, nor purely forward, which would push them flat and eliminate the turtle structure you need. Maintaining this 45-degree vector throughout the entire arc of repositioning ensures the opponent cannot exploit directional gaps during your movement."
+      },
+      {
+        "question": "Your opponent successfully defends the transition and you remain in a compromised Rodeo Ride position. What attack chains should you pursue?",
+        "answer": "Immediately return to Rodeo Ride offensive options rather than forcing a compromised transition. Re-establish your asymmetric Rodeo Ride grips and threaten crab ride entries, rolling back take attempts, or clock choke setups. You can also reattempt the transition after a different attack forces the opponent to react and creates a new vulnerability window. The key is treating the failed transition as information: the opponent's specific defense reveals their priorities. If they explosively resisted upward, they are vulnerable to attacks that go with their energy. If they turned to face you, crab ride or crucifix entries become higher percentage. Chain attacks based on their specific defensive reaction rather than repeating the same transition."
       }
     ],
     "safety_considerations": "The Rodeo Ride to Turtle transition involves controlled repositioning that generally poses minimal acute injury risk compared to submission techniques. However, practitioners should be mindful of knee or shin pressure on the bottom player's ribs and spine during weight shifts. Avoid dropping full body weight suddenly when completing the repositioning behind the opponent. The primary safety concern during training is accidental elbow strikes to the bottom player's head or face during grip transitions, as hands move rapidly around the opponent's torso. Communicate with training partners during grip changes and maintain controlled movements rather than explosive hand fighting that could cause inadvertent contact with eyes or jaw."
@@ -349,6 +357,10 @@
       {
         "question": "Your escape attempt during the grip transition fails and the attacker reestablishes control. What should your next priority be?",
         "answer": "Immediately return to a strong defensive turtle structure with elbows tight, chin tucked, and base wide. Do not continue scrambling from a compromised position, as this often makes things worse. Reset your defensive posture and begin monitoring for the next opportunity. The attacker may attempt another grip adjustment or begin attacking from their new position, both of which can create new escape windows. Preserve energy for the next calculated attempt rather than expending it on a continued scramble from a losing position."
+      },
+      {
+        "question": "After successfully escaping to half guard during the transition, what should your immediate priorities be?",
+        "answer": "Immediately establish a strong half guard structure with an active knee shield or underhook before the former attacker can establish a dominant passing position. The transition from turtle escape to half guard bottom creates a brief moment where neither player has consolidated their position. Use this window to secure the underhook on the trapped leg side, establish a knee shield frame, and get onto your side rather than remaining flat on your back. Your opponent is transitioning from a back attack mindset to a passing mindset, and this mental shift creates a gap you can exploit by immediately threatening sweeps or guard recovery to full guard."
       }
     ],
     "training_progressions": [

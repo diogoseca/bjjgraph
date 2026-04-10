@@ -165,6 +165,8 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Position Definition
 
+<p class="section-subtitle">What is Single Leg X-Guard (Bottom)?</p>
+
 - One of opponent's legs is trapped between your legs with your inside leg wrapped around their ankle or lower calf, creating the primary control point that prevents their leg from escaping the entanglement through rotation or extraction
 - Your outside foot actively hooks on opponent's hip, inner thigh, or belt line, creating constant off-balancing pressure and maintaining elevation of their trapped leg to prevent them from establishing downward pressure
 - Your hips are positioned underneath opponent's center of gravity with active elevation, preventing them from establishing stable base while maintaining sweep readiness and creating angles for both upper and lower body attacks
@@ -176,6 +178,8 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Single Leg X-Guard (Bottom)?</p>
 
 - Adequate hip mobility and hamstring flexibility to maintain leg configurations without losing position
 - Understanding of off-balancing mechanics and weight manipulation principles
@@ -189,6 +193,8 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg X-Guard?</p>
 
 - Maintain constant elevation of opponent's trapped leg to prevent them from establishing heavy pressure or stable base
 - Use active foot positioning with hooks that constantly adjust to opponent's weight shifts and balance changes
@@ -204,6 +210,8 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Single Leg X-Guard (Bottom)?</p>
 
 **If opponent maintains upright posture with elevated hips and attempts to disengage leg:**
 - Execute **[[Transitions/Single Leg X Sweep/Attacker|Single Leg X Sweep]]** → [[Positions/Standing Position]] (Probability: 65%)
@@ -237,6 +245,8 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg X-Guard?</p>
 
 ### 1. Passive foot positioning with static hooks that don't adjust to opponent's movement
 
@@ -281,6 +291,8 @@ Single Leg X-Guard Bottom represents one of the most versatile and effective pos
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Single Leg X-Guard defense?</p>
+
 ### SLX Entry from Various Guards
 
 Practice entering Single Leg X from multiple guard positions including butterfly guard, De La Riva, seated guard, and reverse De La Riva. Focus on smooth transitions and maintaining control throughout entry sequence. Partner provides progressive resistance as skill develops.
@@ -321,38 +333,6 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts lowering their base and driving forward - what adjustment do you make to maintain control?
-**A**: When the opponent drives forward, immediately angle your hips to the side rather than accepting direct pressure. Extend your top hook aggressively into their hip to create distance while maintaining the bottom hook wrapped around their ankle. If pressure continues, this is your cue to transition to Ashi Garami by following their forward momentum - their weight commitment forward makes their leg more vulnerable to entanglement attacks.
-
-**Q2**: What are the essential hooks and grips for maintaining Single Leg X-Guard?
-**A**: The essential controls are: the inside leg wrapped tightly around the opponent's ankle or lower calf to prevent extraction, the outside foot actively hooking on their hip or inner thigh to create elevation and off-balancing pressure, and upper body control through sleeve grips, collar ties, or overhooks to prevent them from posturing up and controlling distance. Both legs must work in coordination - the bottom hook controls, the top hook elevates.
-
-**Q3**: How do you shut down the opponent's primary escape of simply pulling their leg free?
-**A**: Prevent leg extraction by maintaining constant tension in your inside leg wrap around their ankle and calf - never let this grip loosen. Keep their leg elevated by extending your hips upward, which stretches their leg out and makes extraction mechanically difficult. Position your hips directly underneath their center of gravity so they cannot generate the power needed to pull free. If they begin pulling, follow their movement by scooting your hips forward to maintain connection.
-
-**Q4**: What grip priorities allow you to maximize sweeping power from SLX?
-**A**: For maximum sweep power, prioritize controlling their same-side sleeve or wrist to prevent posting, which is their primary sweep defense. Secondary grip should control their collar, far shoulder, or establish an overhook to break their posture forward. These upper body grips work synergistically with your leg hooks - when you extend your hooks to sweep, the upper body grips prevent them from stepping out or posting their hands to recover balance.
-
-**Q5**: How should you apply elevation pressure through your hooks without over-extending?
-**A**: Apply elevation through hip extension rather than straightening your legs completely. Keep your knees bent slightly while driving your hips upward - this maintains hook tension while creating lift. Your top hook pushes into their hip with the ball of your foot, creating upward and outward pressure. Avoid fully extending your legs, which actually reduces control and makes it easier for them to step over or clear your hooks. Think of elevating their weight onto your hooks rather than pushing them away.
-
-**Q6**: Your opponent partially clears your top hook but you still have the ankle wrap - how do you recover position?
-**A**: Immediately use your retained ankle control as an anchor point and re-insert your top hook before they can fully pass. Hip escape slightly to create the angle needed for hook reinsertion. If they continue advancing, transition to a backup position - you can go to seated guard, butterfly guard, or even use the ankle control to stand up for a single leg attempt. Never release the ankle wrap until you have transitioned to another controlling position.
-
-**Q7**: How do you manage energy expenditure when an opponent is methodically working to pass your SLX?
-**A**: Conserve energy by letting your structural positioning do the work rather than constantly muscling for control. Keep your hips underneath their center of gravity and maintain frame through your hooks - this requires less energy than constantly readjusting. Attack when opportunities present rather than forcing sweeps against a well-based opponent. Use their movements against them - when they shift weight or adjust position, that's when you attack with minimal energy expenditure.
-
-**Q8**: After your opponent nearly passes but you recover to SLX - what steps do you take to prevent them from immediately trying the same pass?
-**A**: Immediately re-establish tight ankle control and aggressive elevation to remind them of the sweeping threat. Change your angle slightly from your previous position so they cannot simply repeat the same passing sequence. Consider attacking immediately with a sweep or leg lock entry while they are still adjusting - their near-success often means they over-committed in a way that creates vulnerability. Re-grip their sleeve or establish different upper body control to disrupt their grip pattern and prevent them from re-initiating the same passing chain.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -384,7 +364,7 @@ Maintain SLX hooks while partner attempts various passing strategies including k
 - **[[Positions/Ashi Garami/Saddle]]** - Advanced leg entanglement accessible through SLX transitions
 - **[[Positions/Ashi Garami/50-50 Guard]]** - Related leg entanglement position with different control dynamics
 - **[[Submissions/Straight Ankle Lock]]** - Primary submission available directly from SLX position
-- **[[Submissions/Kneebar from Guard]]** - High-percentage submission accessible through SLX leg control
+- **[[Kneebar from Guard]]** - High-percentage submission accessible through SLX leg control
 
 
 </section>

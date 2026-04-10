@@ -188,6 +188,8 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Grip Fight Escape from Rear Triangle?</p>
+
 - Target the ankle-knee connection first as the structural weak point of the triangle lock
 - Use your free hand with maximum efficiency since it is your only offensive tool while the other arm is trapped
 - Work incrementally rather than explosively, compounding small positional gains into escape space
@@ -203,6 +205,8 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Grip Fight Escape from Rear Triangle?</p>
+
 - At least one free hand available to initiate grip fighting against the triangle structure
 - Chin tucked to chest with face turned toward non-choking leg to reduce choke pressure and buy working time
 - Awareness of which specific ankle-knee connection maintains the figure-four lock
@@ -215,6 +219,8 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Grip Fight Escape from Rear Triangle step by step?</p>
 
 1. **Assess triangle configuration**: Identify which arm is trapped inside the triangle, locate where the opponent's ankle locks behind their knee to form the figure-four, and assess which side the choking pressure is coming from. Determine if the choke is primarily blood (carotid compression) or air (tracheal pressure) to gauge your available time window for the escape.
 2. **Establish defensive posture**: Tuck your chin tightly to your chest and turn your face toward the non-choking leg side to reduce the effectiveness of the choke and buy critical working time. Pull your shoulders up toward your ears to create additional space around your neck. This defensive posture is your lifeline while you work the grip fight and must be maintained throughout the entire escape sequence.
@@ -244,6 +250,8 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Grip Fight Escape from Rear Triangle?</p>
+
 - **Opponent squeezes triangle tighter and angles hips to accelerate the choke** (Effectiveness: High) - Your Response: Immediately reinforce chin tuck and shoulder shrug to buy time. Switch from sustained pulling to quick burst grip breaks timed with the opponent's breathing cycle. If choke becomes critical, abandon grip fight and attempt explosive posture recovery instead. → Leads to [[Positions/Triangle Control/Rear Triangle]]
 - **Opponent strips your grip on their ankle and controls your free hand wrist** (Effectiveness: High) - Your Response: Use wrist circles and grip breaks to free your controlled hand. If opponent commits both hands to controlling your free arm, their triangle relies entirely on leg pressure, which may create looseness you can exploit with shoulder rotation and hip movement alone. → Leads to [[Positions/Triangle Control/Rear Triangle]]
 - **Opponent transitions to armbar by extending hips and pulling on your trapped arm** (Effectiveness: Medium) - Your Response: Immediately clasp both hands together to prevent arm extension. Turn your body toward the trapped arm side and bring your elbow tight to your body. The armbar transition creates looseness in the triangle, so if you successfully defend the armbar, use that space to extract your arm and escape. → Leads to [[Positions/Back Control]]
@@ -255,6 +263,8 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Grip Fight Escape from Rear Triangle?</p>
 
 ### 1. Targeting the opponent's hands or arms instead of the ankle-knee connection first
 
@@ -294,6 +304,8 @@ As the person executing the grip fight escape, you are caught in rear triangle b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Grip Fight Escape from Rear Triangle (Attacker)?</p>
+
 **Phase 1: Grip Identification** - Learning to locate the ankle-knee connection by feel
 Partner locks a rear triangle at minimal pressure. Practice reaching your free hand to the ankle-knee connection without looking, using only tactile feedback. Repeat 20 times per side until you can find the lock point within two seconds consistently. Partner varies the tightness and angle to build adaptability.
 
@@ -314,42 +326,12 @@ Partner actively counters each phase of the grip fight: stripping your ankle gri
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the ideal moment to initiate the grip fight escape from a locked rear triangle?
-**A**: The ideal moment is when the triangle is locked but the opponent is still working to tighten the choke or adjust their angle, meaning they have not yet achieved full carotid compression. You should initiate immediately after establishing defensive chin tuck and shoulder shrug posture. Waiting too long allows the opponent to optimize their finishing angle, while starting too early before protecting your neck means the grip fight accelerates the choke. The window opens when you feel the lock but can still breathe and think clearly.
-
-**Q2**: What conditions must exist before you can effectively begin the grip fight escape?
-**A**: You need at least one free hand with functional grip strength available to fight the triangle lock. Your chin must be tucked to chest with face turned toward the non-choking leg to prevent the choke from finishing while you work. You must be able to identify the ankle-knee connection point by feel. If both hands are trapped or the choke is already producing tunnel vision, the grip fight is not viable and you should either tap or attempt an explosive positional escape instead.
-
-**Q3**: Which specific structural point of the triangle should your free hand target first and why?
-**A**: Target the ankle-knee connection where the opponent's choking leg ankle locks behind their opposite knee to form the figure-four. This is the single structural foundation of the entire triangle. Breaking this one connection point loosens the entire lock more effectively than stripping any hand grip or fighting any other control point. The ankle-knee joint is also mechanically vulnerable to lateral force because the figure-four relies on the ankle staying precisely in the knee crook.
-
-**Q4**: What is the most common reason the grip fight escape fails and how do you prevent it?
-**A**: The most common failure is losing grip strength through sustained pulling rather than burst efforts, resulting in forearm fatigue before the lock breaks. This is prevented by using short explosive bursts of one to two seconds timed with your exhale, rather than sustained pulling against the lock. Between bursts, maintain your grip position but relax the muscles. Each burst should be maximum effort. Additionally, targeting the correct direction of force, perpendicular to the lock rather than straight out, dramatically reduces the force required.
-
-**Q5**: How should you configure your gripping hand when targeting the ankle-knee connection?
-**A**: Use a C-grip with fingers wrapped around the opponent's ankle bone and thumb pressing against the opposite side. The grip should be positioned directly at the point where the ankle crosses behind the knee, not higher on the shin or lower on the foot. Your wrist should be aligned with your forearm to maximize grip endurance and force transmission. Avoid a monkey grip with thumb on the same side as fingers, as this provides less control over the peeling direction.
-
-**Q6**: In which direction should you push the opponent's ankle to most effectively break the figure-four lock?
-**A**: Push the ankle toward the opponent's far hip, perpendicular to the direction the ankle enters the knee crook. Most practitioners make the mistake of pulling the ankle straight out along its entry path, which fights the tightest part of the lock. By pushing perpendicular, you slide the ankle out of the groove with significantly less force required. Think of it as peeling the ankle sideways rather than pulling it backward through the lock.
-
-**Q7**: Your opponent squeezes their triangle tighter as you begin fighting the ankle grip. How do you adjust?
-**A**: Reinforce your chin tuck and shoulder shrug immediately to buy time against the increased pressure. Switch your grip fight timing to match the opponent's breathing: attack the ankle during their exhale when their squeezing power is reduced. If the tightening makes the ankle unreachable, temporarily switch to fighting their hand controls instead, which forces them to choose between maintaining the choke angle and defending their grips. Once their hands engage defensively, return to attacking the ankle.
-
-**Q8**: If the opponent successfully defends your ankle grip break by re-locking the triangle, what is your immediate follow-up?
-**A**: Do not repeat the identical grip break attempt. Instead, chain into a different escape vector: attempt a hip escape to create angle, switch to the wrist peel variation targeting their hand grips, or use the disruption from your grip fight to attempt a posture recovery escape. Each failed grip break still loosens the triangle incrementally, so cycling between different attack points compounds these gains. If you have attempted three grip breaks without success, the triangle may be too tight for methodical escape and you should consider explosive alternatives or tapping.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Grip Fight Escape from Rear Triangle?</p>
 
 This escape involves fighting against a choking mechanism that can cause unconsciousness within seconds if the rear triangle is fully locked on the carotid arteries. Always practice with a cooperative partner initially and tap immediately if you experience lightheadedness, tunnel vision, or any neurological symptoms. The partner maintaining the rear triangle should apply controlled pressure and release immediately upon tap or verbal signal. Never attempt to fight through a fully sunk choke in training. When drilling grip breaks, be mindful of your partner's knee and ankle joints as forceful peeling can strain ligaments. Progress resistance gradually across training sessions.
 

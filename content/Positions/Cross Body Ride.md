@@ -179,11 +179,11 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 ### Available Transitions
 
 
-- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (51% of attempts)
+- **[[Transitions/Turtle to Back Control/Attacker|Turtle to Back Control]]** (52% of attempts)
 
-- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (17% of attempts)
+- **[[Transitions/Crucifix from Turtle/Attacker|Crucifix from Turtle]]** (18% of attempts)
 
-- **[[Submissions/Twister/Attacker|Twister]]** (3% of attempts)
+- **[[Twister from Cross Body Ride/Attacker|Twister from Cross Body Ride]]** (3% of attempts)
 
 - **[[Transitions/Turtle Flatten to Side Control/Attacker|Turtle Flatten to Side Control]]** (9% of attempts)
 
@@ -198,8 +198,6 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 - **[[Transitions/Cross Body to Side Control/Attacker|Cross Body to Side Control]]** (1% of attempts)
 
 - **[[Transitions/Twister Entry/Attacker|Twister Entry]]** (1% of attempts)
-
-- **[[Submissions/Short Choke from Cross Body/Attacker|Short Choke from Cross Body]]** (2% of attempts)
 
 
 ### Common Mistakes

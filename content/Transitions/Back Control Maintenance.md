@@ -200,15 +200,15 @@ Back Control Maintenance serves as the foundational skill that transforms back c
 
 - [[Positions/Back Control]] - Primary position being maintained
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat used during maintenance
+- [[Submissions/Rear Naked Choke]] - Primary submission threat used during maintenance
 
 - [[Transitions/Body Triangle Lock]] - Enhanced control variation
 
-- [[Submissions/Armbar from Back]] - Alternative submission when choke is defended
+- [[Transitions/Armbar from Back Transition]] - Alternative submission when choke is defended
 
 - [[Positions/Crucifix]] - Transition option when opponent turns
 
-- [[Transitions/Bow and Arrow Choke]] - Gi-specific submission from back control
+- [[Submissions/Bow and Arrow Choke]] - Gi-specific submission from back control
 
 - [[Positions/Gift Wrap]] - Control variation for maintenance
 

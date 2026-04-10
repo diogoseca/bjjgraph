@@ -162,6 +162,8 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle Attack Sequence?</p>
+
 - Attacker's chest pressure increases on your upper back as they close distance and establish forward-downward pressure angle indicating imminent seat belt attempt
 - Attacker's arm threads over your shoulder toward your neck line, signaling the beginning of seat belt overhook establishment and back take sequence
 - Attacker's knee drives into your near-side hip, blocking your primary sit-through escape and indicating systematic hook insertion is imminent
@@ -173,6 +175,8 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle Attack Sequence?</p>
 
 - Maintain tight defensive shell with elbows inside knees and chin tucked to prevent grip penetration and neck attacks
 - Fight every grip immediately upon contact, prioritizing the choking-side overhook and far-side underhook to prevent seat belt completion
@@ -188,6 +192,8 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle Attack Sequence?</p>
 
 ### 1. Aggressive two-on-one grip fighting to strip seat belt overhook before hooks are inserted
 
@@ -225,6 +231,8 @@ As the defender in bottom turtle, you are in a time-critical position where the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle Attack Sequence?</p>
+
 ### → [[Positions/Turtle]]
 
 Strip the attacker's seat belt grip through aggressive two-on-one hand fighting and create enough space to turn and face them, reversing the positional dynamic so they must re-establish attacking position from scratch. Time the grip strip during their weight shift or hook insertion attempt when their hands are committed.
@@ -240,6 +248,8 @@ Execute a successful reversal through Peterson roll, scramble, or sit-through th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle Attack Sequence?</p>
 
 ### 1. Remaining static in turtle without creating movement or initiating escape within the first 3-5 seconds
 
@@ -269,7 +279,9 @@ Execute a successful reversal through Peterson roll, scramble, or sit-through th
 
 ## Training Progressions
 
-**Phase 1: Defensive Structure and Grip Fighting (Weeks 1-3)** - Building automatic defensive posture and grip stripping reflexes
+<p class="section-subtitle">How do you train defense against Turtle Attack Sequence?</p>
+
+**Phase 1: Defensive Structure and Grips (Weeks 1-3)** - Building automatic defensive posture and grip stripping reflexes
 Partner applies increasing pressure from turtle top, attempting to establish seat belt and harness controls. Bottom player focuses on maintaining tight defensive shell with elbows inside knees, chin tucked, and fighting every grip attempt within 1-2 seconds of contact. Drill specific grip strip patterns: two-on-one overhook strip, shoulder shrug for underhook defense, and elbow retraction after posting. Start at 30% resistance, increase to 70% over three weeks.
 
 **Phase 2: Individual Escape Technique Isolation (Weeks 3-5)** - Developing mechanics for granby roll, sit-through, and technical standup
@@ -285,29 +297,6 @@ Full-speed turtle escape rounds at competition intensity. Bottom player must cha
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first defensive priority when you feel your opponent establish chest contact on your back from turtle position?
-**A**: The immediate priority is preventing seat belt establishment by tucking your chin, tightening your elbows inside your knees, and preparing to fight any arm that threads over your shoulder or under your armpit. Do not wait for the grip to be clasped before reacting. Address the overhook arm the instant you feel it cross your shoulder with two hands on one grip to strip it explosively. Simultaneously, begin planning your escape direction by assessing which side the attacker's weight favors.
-
-**Q2**: Why is the granby roll most effective when the attacker's weight is committed forward rather than when they are sitting back?
-**A**: The granby roll uses rotational inversion to escape, requiring space above your shoulders to initiate the backward shoulder roll. When the attacker's weight is forward and down on your upper back, their commitment in that direction means they cannot effectively follow your backward rotation, and their forward momentum works against them as you reverse direction. When the attacker sits back with their weight behind you, they can easily follow the granby roll by simply driving their weight forward into the rotation, maintaining control throughout and often ending in a superior back control position.
-
-**Q3**: Your attacker has established one hook but does not have a consolidated seat belt grip - what escape should you prioritize?
-**A**: With one hook in but no tight upper body control, the Peterson roll becomes the highest percentage escape. Grab the attacker's far ankle on the hook side, explosively roll over your shoulder toward that ankle, and use the momentum to end in top position. The single hook actually assists your roll by providing a pivot point, and the lack of upper body control means the attacker cannot prevent the rotation. If the Peterson roll is not available, kick the hook out explosively while simultaneously turning to face the attacker before they can re-insert the hook or establish the seat belt.
-
-**Q4**: How should you chain escape attempts from turtle rather than resetting to a static position after a failed attempt?
-**A**: After a failed escape attempt, immediately flow into a different escape direction rather than returning to static turtle. If a granby roll fails because the attacker follows your rotation, chain into a sit-through on the opposite side using the attacker's forward commitment against them. If a sit-through is blocked by the attacker's knee, immediately attempt a technical standup using the posting arm. The key principle is continuous motion: a failed escape that flows into another attempt is far more effective than resetting because each movement disrupts the attacker's control and creates micro-windows for the next attempt.
-
-**Q5**: What grip should you prioritize fighting first when the attacker begins establishing seat belt control?
-**A**: Prioritize fighting the choking-side overhook arm first because this arm crosses over your shoulder and controls the neck line, creating the foundation for rear naked choke and other finishing attacks. Stripping the overhook eliminates the immediate submission threat and significantly weakens the seat belt's ability to control your upper body rotation. Use two hands on one grip to strip the overhook arm explosively. The underhook arm is secondary because while it prevents you from turning away, it alone does not create immediate submission danger. Fighting the correct arm first buys maximum escape time with minimum defensive effort.
-
-
-
-</section>
 
 
 </main>

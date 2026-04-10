@@ -188,6 +188,8 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Leg Weave?</p>
+
 - Secure the underhook before committing to the sweep. The underhook is the primary lever without which the sweep cannot generate sufficient rotational force.
 - Time the sweep when the passer drives forward or shifts weight to advance. Their committed momentum becomes the energy source for your reversal.
 - Use the leg weave itself as a trap. The passer's threaded leg prevents them from posting effectively when you generate lateral force.
@@ -202,6 +204,8 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Leg Weave?</p>
+
 - Near-side underhook established or accessible by swimming the arm under the passer's armpit during a weight shift
 - At least partial hook or leg connection maintained on the passer's weaved leg to prevent them from simply stepping out
 - Far-side hand controlling the passer's arm, hip, or gi to prevent posting during the reversal
@@ -214,6 +218,8 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Leg Weave step by step?</p>
 
 1. **Fight for the near-side underhook**: Frame against the passer's neck or shoulder with your far hand to create space on the near side, then swim your near arm deep under their armpit. Drive your underhook hand to their far shoulder blade or lat for maximum depth. The underhook must be deep enough that your shoulder is tight against their chest, creating a lever arm that can generate rotational force when you bridge.
 2. **Control the far side to prevent posting**: With your far hand, grip the passer's far-side sleeve, wrist, or elbow to prevent them from posting their hand on the mat when you initiate the sweep. In no-gi, overhook the far arm or cup the tricep. This grip is essential because even a perfect bridge and underhook combination will fail if the passer can post their free hand wide to stop the roll.
@@ -243,6 +249,8 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Leg Weave?</p>
+
 - **Passer sprawls hips back and drops weight to kill the bridge momentum before the sweep develops** (Effectiveness: High) - Your Response: When the passer sprawls back, they create space in front of their hips. Abandon the sweep and immediately transition to deep half guard entry by diving your head underneath their base, using their backward retreat as the opening for the entry. → Leads to [[Positions/Leg Weave]]
 - **Passer posts their free hand wide on the mat to stop the roll before it completes** (Effectiveness: Medium) - Your Response: If you failed to control their posting arm, use the partial momentum to come up to dogfight position rather than completing the roll. From dogfight, finish the sweep with a forward drive or single leg-style takedown. → Leads to [[Positions/Leg Weave]]
 - **Passer strips the underhook by driving their shoulder into your chest and swimming their arm free** (Effectiveness: High) - Your Response: Without the underhook, the sweep is not viable. Immediately transition to defensive frames and work for knee shield recovery or a secondary underhook attempt. Do not attempt the sweep without the primary lever established. → Leads to [[Positions/Leg Weave]]
@@ -254,6 +262,8 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Leg Weave?</p>
 
 ### 1. Attempting the sweep without first securing a deep underhook
 
@@ -293,6 +303,8 @@ As the bottom player caught in the leg weave, you are in a high-pressure defensi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Leg Weave (Attacker)?</p>
+
 **Phase 1: Mechanics** - Underhook entry and bridge direction from leg weave bottom
 Partner establishes leg weave at 30% pressure. Practice swimming the underhook under their armpit and turning onto your side. Then drill the bridge direction and rolling motion with no resistance. Focus on the feel of generating rotational force from the side position. 5 repetitions each side, reset after each rep.
 
@@ -313,42 +325,12 @@ Extended positional rounds at competition intensity starting from leg weave. Bot
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip you must establish before committing to the sweep?
-**A**: The near-side underhook is the most critical grip. It serves as the primary rotational lever for the entire sweep. Without a deep underhook with your shoulder tight against the passer's chest, the sweep cannot generate sufficient rotational force to overcome the passer's weight and base. The underhook should be deep enough that your hand reaches their far shoulder blade or lat, creating maximum lever arm length for the rolling motion.
-
-**Q2**: Why is the passer's leg weave paradoxically an advantage for the sweeper during this technique?
-**A**: The passer's threaded leg, which gives them control in the passing position, simultaneously prevents them from posting or stepping out to recover base when the sweep generates lateral force. Their leg is trapped between your legs, which means they cannot widen their base on that side to resist the roll. The very mechanism that gives them passing control becomes the trap that prevents them from defending the reversal, making the sweep fundamentally viable against a stronger position.
-
-**Q3**: Your opponent is defending by keeping their weight back rather than driving forward. How do you adjust your approach?
-**A**: When the passer keeps their weight back, the sweep timing window is not available because their center of gravity is behind your body rather than over it. Instead of forcing the sweep, use this defensive posture against them by transitioning to knee shield recovery or deep half guard entry, both of which become easier when the passer is not driving forward pressure. Alternatively, use your underhook to pull them forward and create the weight commitment you need, essentially baiting the forward drive that opens the sweep window.
-
-**Q4**: What is the optimal direction for the bridge during the sweep execution?
-**A**: The bridge should be directed diagonally toward the passer's far shoulder, not straight up. A vertical bridge lifts the passer but does not create the rotational force needed for the reversal. By bridging diagonally toward the far shoulder while simultaneously lifting with the underhook, you create a rotational force vector that rolls the passer over the axis of their own trapped leg. The combination of diagonal bridge plus underhook lift creates the spiral motion that makes the sweep effective.
-
-**Q5**: The passer posts their far hand wide to stop your sweep attempt mid-roll. What went wrong and how do you prevent this?
-**A**: You failed to control the passer's far arm before initiating the sweep. The far-side arm control is the second critical grip after the underhook. Before committing to the bridge, secure their far sleeve, wrist, or tricep with your far hand to eliminate their posting option. In no-gi, overhook the far arm or cup the tricep. With both the underhook and far arm controlled, the passer has no effective mechanism to stop the rotational force of the sweep.
-
-**Q6**: Your sweep attempt stalls at the midpoint with the passer balanced on their side. How do you finish?
-**A**: Continue driving through the midpoint without pausing. Use your planted foot to generate additional forward push while keeping your underhook locked tight. If the stall persists, drive your head into their chest as an additional point of forward pressure. The most common reason for midpoint stalls is releasing the bridge effort when you feel the opponent tipping. Maintain explosive drive continuously through the full arc of the roll until your chest lands on top of theirs.
-
-**Q7**: How does the sweep from leg weave create a defensive dilemma when combined with the leg weave escape to half guard?
-**A**: When the passer knows you can both sweep and escape to half guard, they face a strategic dilemma. Driving forward aggressively to prevent guard recovery exposes them to the sweep because their committed weight becomes the energy for your reversal. But if they keep their weight back to defend the sweep, they create the space needed for knee shield insertion and half guard recovery. This forces the passer to choose between two sub-optimal options, significantly reducing the overall effectiveness of the leg weave pass.
-
-**Q8**: You have completed the sweep and are now on top. What are the first three actions to consolidate side control?
-**A**: First, immediately drive your chest perpendicular to their torso and settle heavy weight through your shoulder and chest contact. Second, establish crossface control with your far arm driving your forearm across their neck to prevent them from turning into you. Third, block their far hip with your near hand to prevent knee insertion and guard recovery. These three actions in the first three seconds after landing on top prevent the common scramble that occurs when the sweep is completed but not consolidated, and establish dominant side control before the opponent can react.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Leg Weave?</p>
 
 The sweep from leg weave involves significant rotational forces on both players during the bridging and rolling phase. The passer's knee can be vulnerable to twisting pressure when their leg is weaved and the bottom player bridges laterally, so execute the sweep with controlled force in training and check with your partner about their knee comfort. The bottom player should tap immediately if their own knee becomes trapped or twisted during a failed attempt. Be mindful of your training partner's shoulder when securing the underhook under pressure, and control the landing when completing the sweep rather than dropping full weight suddenly. In competition, maintain awareness of mat boundaries as the sweeping motion can carry both players laterally across the training surface.
 

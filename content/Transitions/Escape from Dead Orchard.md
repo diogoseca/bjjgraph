@@ -212,7 +212,7 @@ The Escape from Dead Orchard to Open Guard functions as the aggressive second op
 
 - [[Transitions/Anaconda Grip Break to Front Headlock]] - Related escape technique - similar grip-breaking principles from standard anaconda
 
-- [[Transitions/Dead Orchard to Anaconda Finish]] - Primary threat - submission this escape must prevent
+- [[Anaconda Choke from Dead Orchard]] - Primary threat - submission this escape must prevent
 
 - [[Transitions/Dead Orchard to Darce Switch]] - Secondary threat - alternative submission during escape attempts
 

@@ -173,6 +173,8 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 
 ## Position Definition
 
+<p class="section-subtitle">What is Chill Dog (Top)?</p>
+
 - Top practitioner positioned behind or beside bottom player who is on hands and knees in compact defensive shell with elbows tight to knees
 - Top player maintains chest pressure on bottom player's back or shoulder, using weight distribution to prevent easy escape while fighting for dominant grips
 - Top player's hands actively fighting for control of bottom player's hips, arms, or neck while bottom player defends with closed elbow-knee frame
@@ -185,6 +187,8 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Chill Dog (Top)?</p>
 
 - Top player has passed guard or secured top position from standing
 - Bottom player has turned to turtle and adopted Chill Dog defensive posture
@@ -200,6 +204,8 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Chill Dog?</p>
+
 - Use strategic pressure at specific points to prevent escape while conserving energy
 - Create dilemmas where defending one attack opens opportunities for another
 - Fight for dominant grips systematically - hips first, then shoulders or arms
@@ -214,6 +220,8 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Chill Dog (Top)?</p>
 
 **If bottom player maintains tight defensive frame with elbows to knees:**
 - Execute **[[Establish chest pressure and fight for hip control/Attacker|Establish chest pressure and fight for hip control]]** → [[Positions/Back Control]] (Probability: 45%)
@@ -247,6 +255,8 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Chill Dog?</p>
 
 ### 1. Using excessive force to try to flatten opponent immediately
 
@@ -291,6 +301,8 @@ In no-gi competition especially, Chill Dog Top tests your ability to maintain po
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Chill Dog attacks?</p>
+
 ### Turtle Attack Progression
 
 Partner maintains Chill Dog defensive posture while you work through systematic attack progression: hip control, shoulder control, hook insertion, back control. Partner provides progressive resistance from passive to competitive. Focus on maintaining pressure while advancing position.
@@ -298,7 +310,7 @@ Partner maintains Chill Dog defensive posture while you work through systematic 
 **Duration**: 5 rounds x 3 minutes
 
 
-### Grip Fighting from Turtle Top
+### Grips from Turtle Top
 
 Start with partner in Chill Dog and you behind them. Engage in pure grip fighting for control of hips, arms, and neck while partner defends with compact frame. No position advancement - only grip establishment and maintenance. Emphasizes feel and strategic grip work.
 
@@ -331,38 +343,6 @@ Start every round with partner in Chill Dog and you attacking from top. You scor
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip priority when attacking Chill Dog from top?
-**A**: Hip control must be established first before attacking the upper body. Controlling the near-side hip with your knee or underhook prevents the bottom player from executing hip-based escapes like Granby rolls or sit-throughs. Without hip control, even if you secure upper body controls like a front headlock, the opponent can use hip movement to escape. The sequence should always be: hip control, then shoulder/arm control, then back hooks or submission attacks.
-
-**Q2**: Your opponent's right elbow lifts away from their knee momentarily as they adjust - what do you do?
-**A**: Immediately attack that gap with explosive hook insertion on the exposed side. Thread your foot inside their thigh on the side where the elbow separated from the knee, then simultaneously work your arm under their armpit on that same side to begin establishing the seatbelt. The elbow-knee separation is the highest-value trigger in this position because it breaks the fundamental defensive structure. You must act within one to two seconds before they re-close the frame. If you hesitate, they will re-establish the connection and you lose the opportunity.
-
-**Q3**: How do you maintain position when the bottom player makes small defensive movements?
-**A**: Maintain consistent pressure throughout their movements rather than releasing and re-establishing control. Adjust your position dynamically to follow their movement while keeping chest pressure on their back or shoulder. Think of your weight as a heavy blanket that stays with them - when they shift, you shift. Releasing pressure even momentarily creates the space they need to initiate an escape sequence. Use small hip adjustments and grip changes rather than large positional resets.
-
-**Q4**: The bottom player starts to shift their weight forward onto their hands - what does this signal and how should you respond?
-**A**: Forward weight shift typically signals preparation for a technical stand-up or a Granby roll. If they drive forward, be ready to either snap them back down with heavy chest pressure to prevent the stand-up, or follow their forward momentum with a front headlock if they begin to rise. Drop your hips lower and increase downward pressure through your chest immediately. If you feel them loading onto their hands explosively, transition your grip to their near hip and far shoulder simultaneously to prevent both escape directions.
-
-**Q5**: Why is creating dilemmas more effective than attacking with a single technique?
-**A**: Single-technique attacks allow the opponent to focus all defensive effort on stopping that one threat. Once they successfully defend, they can then escape while you reset. Dilemmas force them to choose which threat to address - defending the back take may expose an arm for crucifix, defending the arm isolation may allow hook insertion. This continuous pressure exhausts their defensive capacity and eventually creates openings as they cannot defend everything simultaneously.
-
-**Q6**: What is the proper weight distribution for maintaining turtle top control against Chill Dog?
-**A**: Weight should be distributed forward through your chest onto their upper back, between the shoulder blades. Your hips should be low and close to their body, with your knees controlling their near hip. Avoid sitting back on their hips or staying too high on their back - this allows them to stand up or sit back to guard easily. The forward chest pressure combined with hip control creates a compression that prevents both standing escapes and rolling escapes.
-
-**Q7**: How should you respond when the opponent attempts a Granby roll escape?
-**A**: Follow their roll while maintaining your upper body connection and grip. As they roll, stay tight to their back and use their momentum to help establish back control - they often expose their back during the rotation. Alternatively, if you sense the roll early, drive your chest pressure forward to flatten them before the roll can generate momentum. The worst response is to disengage and try to re-establish position, as this gives them the space to complete the escape.
-
-**Q8**: When should you transition to front headlock instead of continuing to pursue back control?
-**A**: Transition to front headlock when the opponent lifts their head to look or attempts to stand, when they turn their shoulders toward you making back access difficult, or when your angle shifts from behind them to beside them. The front headlock position offers guillotine, darce, and anaconda choke options while maintaining control. It's also appropriate when the opponent successfully defends your back take attempts but exposes their neck in the process. The key is recognizing when frontal access becomes easier than posterior access.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -391,7 +371,7 @@ Start every round with partner in Chill Dog and you attacking from top. You scor
 - **[[Transitions/Crucifix from Turtle]]** - Arm isolation technique when defensive frame breaks
 - **[[Transitions/Darce Setup]]** - Front headlock choke option when opponent turns into you
 - **[[Transitions/Anaconda Setup]]** - Alternative front headlock choke when arm is trapped
-- **[[Transitions/Rear Naked Choke]]** - Primary submission after establishing back control
+- **[[Submissions/Rear Naked Choke]]** - Primary submission after establishing back control
 - **[[Transitions/Truck Entry]]** - 10th Planet-specific attack when opponent's hips turn
 
 

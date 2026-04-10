@@ -218,7 +218,7 @@ The Seat Belt Peel Escape integrates into the broader back escape system as a gr
 
 - [[Positions/Turtle]] - Alternative escape target position when half guard recovery is not available
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat that must be defended before attempting grip peel
+- [[Submissions/Rear Naked Choke]] - Primary submission threat that must be defended before attempting grip peel
 
 - [[Positions/Back Control/Body Triangle]] - Back control variation where peel escape becomes more difficult due to enhanced lower body control
 

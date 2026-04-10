@@ -168,6 +168,8 @@ Defending the leg drag pass requires early recognition and immediate action beca
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag Pass?</p>
+
 - Passer grabs your pant leg at the knee or below with a committed grip while their opposite hand controls your collar, sleeve, or posts on your hip
 - Passer begins pulling your leg laterally across your centerline while stepping their near knee toward the mat beside your hip
 - You feel your hips being turned away from the passer as your controlled leg crosses your body's midline, accompanied by increasing chest pressure on the trapped leg
@@ -179,6 +181,8 @@ Defending the leg drag pass requires early recognition and immediate action beca
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag Pass?</p>
 
 - Address the grip on your leg immediately - every second of uncontested pant grip brings you closer to a completed pass
 - Keep your legs coordinated and between you and the passer; once one leg crosses your centerline the guard structure collapses
@@ -193,6 +197,8 @@ Defending the leg drag pass requires early recognition and immediate action beca
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag Pass?</p>
 
 ### 1. Strip the initial pant grip with a two-on-one break before the drag motion begins
 
@@ -237,6 +243,8 @@ Defending the leg drag pass requires early recognition and immediate action beca
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag Pass?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the passer's pant grip early using a two-on-one break, then immediately re-establish feet on hips or shin frames to create distance. Follow with collar or sleeve grips to prevent them from re-initiating the leg drag. The key is addressing the grip within the first two seconds before any lateral pulling begins.
@@ -252,6 +260,8 @@ If the drag has progressed past the point of full guard recovery, immediately fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag Pass?</p>
 
 ### 1. Ignoring the initial pant grip and allowing the passer to establish the drag position unopposed
 
@@ -286,6 +296,8 @@ If the drag has progressed past the point of full guard recovery, immediately fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag Pass?</p>
+
 **Week 1-2: Recognition and Grip Defense** - Identifying leg drag initiation and early grip stripping
 Partner initiates leg drag from standing or combat base against your open guard at slow speed. Focus exclusively on recognizing the pant grip and practicing two-on-one grip breaks before the drag begins. Partner pauses after gripping to give you time to react, then gradually reduces the pause window. Drill 20-30 reps per side, aiming to strip the grip within 2 seconds of establishment. No full passes attempted at this stage.
 
@@ -302,29 +314,6 @@ Full-resistance rolling with emphasis on guard retention against passing sequenc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest moment you can defend a leg drag, and what specific action should you take?
-**A**: The earliest and most effective defense occurs the moment the passer establishes a committed pant grip on your knee. You should immediately address this grip using a two-on-one break (both hands stripping their grip hand), redirecting the grip by pushing their hand off your pants toward the mat. This must happen before they initiate the lateral pulling motion. Once the pull begins and your leg starts crossing your centerline, the difficulty of defense increases dramatically. Training yourself to react to the pant grip as the primary threat rather than waiting for the drag motion is the single biggest improvement most guard players can make against the leg drag.
-
-**Q2**: Your opponent has dragged your leg across your centerline and is beginning to settle chest pressure - what is your priority sequence?
-**A**: The priority sequence is: (1) Establish a forearm frame on their near shoulder to prevent them from fully settling their chest weight on your trapped leg; (2) Hip escape away from them to create space between your body and their chest; (3) Use the space created to bend your trapped knee and drive it back toward your own chest, pulling the leg back toward centerline; (4) If full leg recovery fails, immediately insert your free knee as a shield between your body and their chest to recover half guard. The critical principle is that you must create space through framing and hip movement before attempting leg recovery - trying to pull the leg back without first disrupting their pressure will fail against any competent passer.
-
-**Q3**: Why is inserting a knee shield a strong defensive recovery against a deep leg drag, and how do you execute it?
-**A**: Knee shield recovery works because it creates a structural barrier between the passer's chest and your torso that they cannot simply pressure through. Even though you have conceded the drag position, the knee shield prevents side control consolidation and gives you a strong defensive platform from half guard. To execute it, hip escape slightly to create a gap between your body and the passer's advancing chest, then drive your inside knee upward into the space, positioning your shin across their chest or abdomen. Immediately clamp your legs on their near leg to establish half guard. From this position, you have legitimate sweep threats and can systematically work to re-guard.
-
-**Q4**: What framing structure is most effective against the leg drag passer, and why do head pushes fail?
-**A**: The most effective frame places your forearm across the passer's near-side shoulder, with your elbow tight to your own body and your other hand reinforcing the frame or controlling their far arm. This creates a bone-on-bone structure that redirects the passer's forward momentum without requiring muscular effort to maintain. Head pushes fail because extended arms have poor mechanical leverage against the passer's body weight driving forward. The passer can easily swim under or around a head push, and extended arms are vulnerable to submission attacks. Shoulder frames work because they address the passer's weight at the point of delivery rather than trying to redirect their entire body from a distant contact point.
-
-**Q5**: How should you adjust your defense when you recognize the passer is transitioning from leg drag to back take?
-**A**: When the passer begins transitioning to back take (you feel them reaching for your far shoulder to establish seat belt rather than settling into side control), you must immediately stop any defensive turning that exposes your back and instead turn toward them aggressively. Use your inside elbow to block their underhook attempt while simultaneously hip escaping to create space for guard re-insertion. If they have partially established the seat belt, prioritize getting your back to the mat rather than trying to face them, as a flat-back position prevents hook insertion. The worst response is continuing to turn away, which gives them exactly the back exposure they are seeking.
-
-
-
-</section>
 
 
 </main>

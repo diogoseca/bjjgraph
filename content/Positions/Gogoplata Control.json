@@ -422,7 +422,7 @@
         "condition": "If opponent maintains static posture and attempts to hand-fight the foot behind their head",
         "actions": [
           {
-            "technique": "Gogoplata Finish",
+            "technique": "Gogoplata",
             "target": "game-over",
             "probability": 50
           },
@@ -604,7 +604,7 @@
         "attempt_probability": 18
       },
       {
-        "transition": "Gogoplata Finish",
+        "transition": "Gogoplata",
         "attempt_probability": 2
       }
     ]

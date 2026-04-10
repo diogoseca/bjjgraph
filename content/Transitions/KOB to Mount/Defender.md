@@ -162,6 +162,8 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting KOB to Mount?</p>
+
 - Top player secures a far-hip or pants grip in addition to their collar control, indicating preparation for the step-over that requires bilateral control
 - Top player's base foot lifts off the mat or repositions closer to your body, reducing their posted base in preparation for the swing
 - Increased forward pressure through the driving knee as the top player loads weight before initiating the transition movement
@@ -174,6 +176,8 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending KOB to Mount?</p>
 
 - Recognize the transition intent early by monitoring grip changes and base foot positioning before the step-over begins
 - Frame against the hip rather than the knee—hip frames prevent the weight transfer while knee frames are easily bypassed during the swing
@@ -188,6 +192,8 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against KOB to Mount?</p>
 
 ### 1. Frame on hip and execute aggressive hip escape to create distance for guard recovery
 
@@ -225,6 +231,8 @@ Defending the KOB to Mount transition requires recognizing the top player's inte
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending KOB to Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your knee shield insertion during the step-over when driving knee pressure momentarily decreases. Thread your inside knee across the top player's hip line before they can clear it with the swinging leg. Half guard recovery denies the 4-point mount and gives you a guard position with legitimate sweep and back take threats.
@@ -236,6 +244,8 @@ Time your knee shield insertion during the step-over when driving knee pressure 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending KOB to Mount?</p>
 
 ### 1. Waiting until the top player has completed the step-over before attempting defensive action
 
@@ -270,6 +280,8 @@ Time your knee shield insertion during the step-over when driving knee pressure 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against KOB to Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition cues
 Partner establishes KOB and telegraphs the mount transition through grip changes and base foot movement at slow speed. Bottom player practices verbally calling out each recognition cue as it occurs without attempting defense. Build pattern recognition for the preparation phase before physical response training.
 
@@ -286,29 +298,6 @@ Start from KOB with full resistance. Top player attempts mount transition using 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that signals a KOB to Mount transition attempt?
-**A**: The earliest cue is the top player securing a far-hip grip in addition to their collar control. This bilateral grip setup is unnecessary for maintaining KOB but essential for controlling the step-over. A secondary early cue is the base foot repositioning closer to your body, which shortens the arc the swinging leg needs to travel and indicates imminent transition commitment.
-
-**Q2**: When is the optimal moment to execute your defensive frame during this transition?
-**A**: The optimal moment is during the preparation phase before the step-over begins—when you detect grip changes or base foot movement. Framing on the hip at this stage can prevent the transition entirely by creating space that makes the step-over impossible. Once the leg is already swinging, your defense shifts from prevention to damage control through knee shield insertion.
-
-**Q3**: Your opponent begins swinging their leg over your body—what is your highest-percentage defensive response?
-**A**: Insert a knee shield immediately by driving your inside knee across the top player's hip line during the swing. The step-over momentarily reduces driving knee pressure, creating a gap for your knee to enter. Even a partial knee shield that prevents full mount consolidation puts you in half guard, which is dramatically more defensible than mount. Time the insertion to coincide with the weight transfer, not after it completes.
-
-**Q4**: Why is attempting to push the knee off before the transition starts more effective than defending mid-transition?
-**A**: Preemptive KOB defense disrupts the entire transition sequence at its source. If you successfully dislodge the knee through framing and shrimping before the step-over begins, the top player must re-establish KOB entirely before attempting the mount transition again. Mid-transition defense, while still viable, operates within a much smaller time window and against a committed movement that has momentum. Early defense also preserves more energy than reactive scrambling.
-
-**Q5**: How do you transition from successful KOB defense directly into a guard recovery sequence?
-**A**: After disrupting the step-over with a knee shield, immediately establish an active half guard position by securing an underhook on the trapped-leg side and positioning your hips on your side facing the opponent. From this established half guard, you have access to sweeps, back takes, and further guard recovery sequences. Do not simply block the mount and remain passive—convert the defensive success into an offensive guard position immediately.
-
-
-
-</section>
 
 
 </main>

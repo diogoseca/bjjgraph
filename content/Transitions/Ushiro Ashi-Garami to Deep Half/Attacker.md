@@ -186,6 +186,8 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ushiro Ashi-Garami to Deep Half?</p>
+
 - Redirect inversion momentum downward toward opponent's hips rather than continuing rotation away
 - Maintain heel protection through dorsiflexion throughout the entire transition sequence to prevent finishing heel hooks
 - Use the inverted hip orientation as an advantage to thread underneath the opponent's base rather than fighting against it
@@ -201,6 +203,8 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ushiro Ashi-Garami to Deep Half?</p>
+
 - Trapped in ushiro ashi-garami bottom position with hips already partially inverted from escape attempt
 - Opponent's inside leg control is moderate rather than fully locked, allowing space to thread underneath
 - Free arm available to establish underhook on opponent's far thigh as threading begins
@@ -214,6 +218,8 @@ Strategically, this transition is most valuable when standard escape routes to t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ushiro Ashi-Garami to Deep Half step by step?</p>
 
 1. **Control inside knee**: Use both hands to grip the opponent's inside knee, pushing it away from your centerline to create initial separation space. This prevents them from transitioning to saddle while you prepare the deep half entry. Maintain dorsiflexion on your trapped foot throughout.
 2. **Redirect hip movement**: Instead of continuing lateral rotation toward turtle, redirect your hip movement downward and inward toward the opponent's far hip. Drop your outside hip toward the mat while angling your torso underneath their center of gravity. This is the critical directional change that differentiates deep half entry from standard turtle escape.
@@ -242,6 +248,8 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ushiro Ashi-Garami to Deep Half?</p>
+
 - **Opponent deepens leg entanglement to saddle or honey hole during your threading attempt, preventing the directional change needed for deep half entry** (Effectiveness: High) - Your Response: Abandon the deep half entry and switch to standard turtle escape or Granby roll if opponent commits to saddle. The saddle transition requires their inside leg to deepen, which creates a brief window for counter-entanglement on their free leg → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent posts their hands wide and sprawls their hips backward to prevent you from threading underneath their center of gravity** (Effectiveness: Medium) - Your Response: Use their sprawl weight commitment against them by redirecting to a single leg X-guard entry instead. Their sprawl shifts weight forward, making their posted leg vulnerable to elevation and off-balancing → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent releases leg entanglement to establish top position and prevent deep half guard consolidation before hooks are set** (Effectiveness: Medium) - Your Response: If they disengage the entanglement, you have successfully escaped the dangerous position. Immediately establish any available guard including half guard, butterfly guard, or open guard. The release itself represents a defensive success → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
@@ -253,6 +261,8 @@ Strategically, this transition is most valuable when standard escape routes to t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ushiro Ashi-Garami to Deep Half?</p>
 
 ### 1. Relaxing dorsiflexion during the threading phase when focus shifts to establishing the underhook
 
@@ -292,6 +302,8 @@ Strategically, this transition is most valuable when standard escape routes to t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ushiro Ashi-Garami to Deep Half (Attacker)?</p>
+
 **Week 1-2** - Threading mechanics
 Practice the directional change from lateral rotation to downward threading without resistance. Partner holds static ushiro ashi-garami position while you drill the hip redirect, body threading, and underhook establishment. Focus on maintaining dorsiflexion throughout and reaching proper head position on inside hip line. Repeat 20-30 times per session from both sides.
 
@@ -309,48 +321,12 @@ Incorporate the deep half entry into live rolling from ushiro ashi-garami bottom
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical directional change that differentiates the deep half entry from a standard turtle escape?
-**A**: The critical directional change is redirecting hip movement from lateral rotation (toward turtle) to downward and inward threading toward the opponent's far hip. Instead of continuing to rotate away from the opponent, you drive your head and shoulders underneath their center of gravity, using the inverted hip orientation as an advantage to access the deep half guard pathway.
-
-**Q2**: Your opponent has moderate inside leg control in ushiro ashi-garami - what must you do before attempting the threading motion?
-**A**: You must use both hands to control and push the opponent's inside knee away from your centerline. This creates the separation space needed to thread underneath without their inside leg deepening to saddle configuration. The inside knee control is the gatekeeper movement that makes the entire deep half entry viable. Without it, threading drives your leg deeper into their control.
-
-**Q3**: What foot position must be maintained throughout the entire transition and why?
-**A**: Dorsiflexion (foot flexed toward shin with toes pulled up) must be maintained throughout the entire transition. This protects the heel by pulling it tight against the lower leg, making it extremely difficult for the opponent to establish the finishing grip needed for heel hooks. The threading phase is particularly dangerous because mental focus shifts to the underhook and positioning, making unconscious toe pointing a common and dangerous error.
-
-**Q4**: Your opponent sprawls their hips backward when you begin threading - how do you adapt?
-**A**: When the opponent sprawls backward, redirect to a single leg X-guard entry instead. Their sprawl commits weight forward over their posting legs, making those legs vulnerable to elevation and off-balancing. The sprawl also releases some leg entanglement pressure, so even if single leg X fails, you may have enough clearance to establish standard open guard or half guard recovery.
-
-**Q5**: What is the most critical grip to establish during the threading phase and why?
-**A**: The far leg underhook is the most critical grip. It creates an anchor point that prevents the opponent from disengaging during your entry, guides your body along the correct threading path underneath their hips, and immediately establishes the control structure needed for deep half guard. Without this underhook, you arrive underneath the opponent with no control and they can simply step over or disengage.
-
-**Q6**: How do you determine whether deep half entry is viable versus needing to escape to turtle instead?
-**A**: Evaluate the opponent's inside leg control depth. If their inside leg has moderate control at or above your knee line, deep half entry is viable because you can push the knee away and thread underneath. If their inside leg has deep control on your thigh approaching saddle configuration, abandon deep half and escape to turtle. Also assess whether your heel is protected - any active heel hook grip means addressing the submission takes absolute priority over positional transition.
-
-**Q7**: What happens if you attempt the deep half entry when the opponent's inside leg control is too deep?
-**A**: Threading into deep half with deep inside leg control drives your trapped leg further into the opponent's entanglement. This can convert a recoverable ushiro position into a saddle or honey hole where the opponent has significantly higher submission probability. The deeper entanglement also removes your ability to switch to alternative escapes, creating a worst-case scenario where you are both deeply entangled and underneath the opponent.
-
-**Q8**: Where should your head be positioned in the finished deep half guard and why?
-**A**: Your head should be positioned on the inside hip line with your ear against the opponent's inner thigh. This deep head position ensures you are truly underneath their center of gravity rather than in a shallow half guard. The inside hip line placement prevents crossface pressure, controls their hip rotation, and loads your shoulder for immediate sweep threats. If your head is outside this line, you have a weak half guard vulnerable to passing.
-
-**Q9**: Your opponent begins attacking a heel hook during your threading phase - what is the correct response?
-**A**: Immediately abandon the deep half entry and address the heel hook threat with standard submission defense. Strip their grips on your heel, re-establish dorsiflexion if compromised, and use your hands to fight their wrists away from finishing position. Only resume positional escape attempts after the submission threat is fully neutralized. No positional transition is worth risking a heel hook finish.
-
-**Q10**: Once deep half guard is established after the transition, what should be your immediate offensive priority?
-**A**: Immediately begin loading weight onto your shoulder and establishing sweep mechanics. The opponent is often poorly based following the transition from ushiro because they were configured for leg entanglement rather than top half guard defense. Attack with waiter sweep, Homer Simpson sweep, or electric chair before they can establish proper crossface and hip positioning. The first 3-5 seconds after consolidation offer the highest sweep success probability.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ushiro Ashi-Garami to Deep Half?</p>
 
 This transition involves movement through active leg entanglement positions where heel hook and ankle lock submissions are live threats throughout. Never relax dorsiflexion during any phase of the entry - heel hook injuries occur most frequently during transitions when defensive attention is divided between positional movement and submission defense. If any heel hook grip is established during the threading phase, immediately stop all positional movement and address the submission. Practice at low intensity initially, with partners understanding the tap-early protocol for any rotational pressure on the knee. Avoid training this transition when fatigued, as the precise foot positioning and timing requirements degrade significantly with exhaustion, increasing injury risk. Partners should apply submission attempts slowly and release immediately upon tap during drilling phases.
 

@@ -162,6 +162,8 @@ The defender against the armbar setup from double sleeve guard is the top player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Armbar Setup from Double Sleeve?</p>
+
 - Opponent places one foot on your bicep while maintaining the other foot on your hip, creating an asymmetric frame indicating arm isolation is being established
 - One of your sleeves is being pulled diagonally across the opponent's body toward their opposite hip rather than straight down
 - Opponent's hips begin elevating off the mat and rotating, with their body angling perpendicular to your torso
@@ -174,6 +176,8 @@ The defender against the armbar setup from double sleeve guard is the top player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Armbar Setup from Double Sleeve?</p>
 
 - Posture maintenance is the primary defense - strong upright posture prevents the postural breakdown that enables the armbar setup
 - Address sleeve grips early and continuously - bilateral sleeve control is the prerequisite for all armbar entries from this guard
@@ -189,6 +193,8 @@ The defender against the armbar setup from double sleeve guard is the top player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Armbar Setup from Double Sleeve?</p>
 
 ### 1. Posture up and retract the targeted arm to your chest by driving your elbow back and down
 
@@ -226,6 +232,8 @@ The defender against the armbar setup from double sleeve guard is the top player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Armbar Setup from Double Sleeve?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip both sleeve grips using systematic grip breaking while maintaining strong posture, then step back to disengage from the guard and reset to a more favorable passing position. Use the momentum of your grip breaks to initiate a passing sequence before the opponent can re-establish controls.
@@ -241,6 +249,8 @@ Maintain strong posture and retract the targeted arm at the first sign of arm is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Armbar Setup from Double Sleeve?</p>
 
 ### 1. Reaching forward with both arms extended while the opponent has sleeve control
 
@@ -275,6 +285,8 @@ Maintain strong posture and retract the targeted arm at the first sign of arm is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Armbar Setup from Double Sleeve?</p>
+
 **Phase 1: Recognition** - Identifying armbar setup cues from double sleeve
 Partner performs the armbar setup at 50% speed while you call out each recognition cue as it appears: foot-on-bicep placement, diagonal sleeve pull, hip elevation, and leg swing. No defensive action required - focus entirely on developing visual and tactile pattern recognition for each stage of the attack.
 
@@ -291,29 +303,6 @@ Positional sparring starting from double sleeve guard with the bottom player act
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel your right sleeve being pulled diagonally across the opponent's body - what is your first defensive action?
-**A**: Immediately retract your right elbow sharply toward your right hip while rotating your wrist toward the opponent's thumb to weaken their grip. Simultaneously step your right foot back to create distance that makes the diagonal pull less effective. Do not pull straight back - use a circular motion combining elbow retraction with wrist rotation. If possible, simultaneously push down on the opponent's knee or hip with your left hand to compromise their guard structure.
-
-**Q2**: What are the earliest recognition cues that an armbar setup is being attempted from double sleeve guard?
-**A**: The earliest cue is foot placement change: the opponent moves one foot from your hip to your bicep on the arm they intend to attack. This asymmetric foot positioning is the essential prerequisite for the armbar rotation and should trigger an immediate defensive response. Secondary cues include increased diagonal pulling tension on one sleeve, the opponent's hips beginning to elevate or shift laterally, and their body angling away from square alignment toward perpendicular positioning.
-
-**Q3**: Your opponent has pivoted their hips and their leg is swinging toward your head - what is your best response at this late stage?
-**A**: At this late stage, immediately drive forward with your hips to stack the opponent, walking your feet toward their head. Simultaneously tuck the targeted elbow tight to your ribs and clasp your hands together if possible to prevent arm extension. Use your free hand to push against the incoming leg to prevent it from sealing over your head. If the leg does cross, immediately posture your head up and to the side while continuing the stacking pressure to prevent the finish.
-
-**Q4**: Why is maintaining upright posture the primary defense against all armbar setups from double sleeve guard?
-**A**: Strong upright posture prevents the postural breakdown that is an absolute prerequisite for the armbar setup. When your spine is aligned and your head is above your hips, the opponent cannot generate the push-pull forces needed to isolate your arm and create the rotational angle for the pivot. Additionally, upright posture keeps your elbows naturally closer to your body, making arm isolation significantly more difficult. Breaking posture is the first step in every armbar setup chain from this guard.
-
-**Q5**: You are being pulled forward while the opponent's foot pushes your bicep outward - how do you reset to a safe position?
-**A**: First, widen your base by stepping your feet apart to resist the forward pull. Post your free hand on the mat behind the opponent's hip to create a structural frame that prevents further postural collapse. Then address the foot on your bicep by swimming your elbow under it or pushing it off with your free hand while simultaneously stepping back with the foot on the same side as the attacked arm. This combination of base widening, hand posting, and foot removal disrupts all three elements of the opponent's setup simultaneously.
-
-
-
-</section>
 
 
 </main>

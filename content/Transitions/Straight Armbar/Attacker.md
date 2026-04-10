@@ -16,7 +16,7 @@ description: "How to execute Straight Armbar in BJJ. Attacking perspective with 
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Straight Armbar in BJJ",
-  "description": "Step-by-step guide for executing Straight Armbar from Mounted Crucifix/Top.",
+  "description": "Step-by-step guide for executing Straight Armbar from Armbar Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -190,13 +190,15 @@ Strategically, the Straight Armbar functions as the primary limb attack within t
 
 The execution demands precise hip positioning and controlled transition from crucifix control to armbar finishing position. The critical challenge is maintaining arm isolation throughout the transition. Rushing the finish before securing proper hip alignment across the elbow is the most common failure point. A systematic approach — isolate, control, align, then extend — produces the highest completion rates and prevents the opponent from extracting the arm during the transition phase.
 
-**From Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
+**From Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Straight Armbar?</p>
 
 - Maintain leg-based arm isolation throughout the entire transition from crucifix to armbar finishing position
 - Hip alignment across the elbow joint determines finishing leverage — position your hips directly over their elbow before applying extension force
@@ -212,6 +214,8 @@ The execution demands precise hip positioning and controlled transition from cru
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Straight Armbar?</p>
+
 - Mounted crucifix position established with at least one of opponent's arms trapped by your legs
 - Stable weight distribution with hips low preventing opponent from bridging free during transition
 - Target arm fully isolated with opponent unable to clasp hands or create defensive grip connections
@@ -224,6 +228,8 @@ The execution demands precise hip positioning and controlled transition from cru
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Straight Armbar step by step?</p>
 
 1. **Identify target arm**: From established mounted crucifix, identify which trapped arm offers the best angle for straight armbar. Select the arm that is most extended or most isolated by your leg positioning, typically the arm trapped deeper under your shin or thigh.
 2. **Secure wrist control**: Grip the target arm's wrist firmly with both hands using a thumbless monkey grip. Pull the wrist toward your chest to prevent the opponent from bending their elbow or rotating the arm. Your grip must control both the wrist position and the forearm rotation angle.
@@ -254,6 +260,8 @@ The execution demands precise hip positioning and controlled transition from cru
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Straight Armbar?</p>
+
 - **Opponent clasps hands together in a defensive grip (Gable grip or S-grip) to prevent arm extension** (Effectiveness: High) - Your Response: Attack the grip directly by wedging your forearm between their wrists, or switch to two-on-one grip breaking by peeling fingers. Alternatively, maintain position and apply gradual hip pressure — fatigue will eventually break the grip connection. → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Opponent stacks forward driving weight into you to compress the armbar space and relieve elbow pressure** (Effectiveness: Medium) - Your Response: Angle your hips away from the stacking direction to maintain extension leverage. Use your legs to control their posture and prevent full stack. If stack is deep, transition to belly-down armbar by rolling to the side with their arm secured. → Leads to [[Positions/Mount/Mounted Crucifix]]
 - **Opponent explosively bridges and rolls toward the trapped arm to escape the mounted position entirely** (Effectiveness: Medium) - Your Response: Maintain tight wrist control and follow the roll, ending in standard armbar from guard position. The arm remains trapped regardless of positional change. If you lose the arm, you typically end in top position or can re-establish mount. → Leads to [[Positions/Closed Guard]]
@@ -265,6 +273,8 @@ The execution demands precise hip positioning and controlled transition from cru
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Straight Armbar?</p>
 
 ### 1. Rushing to extend the arm before properly aligning hips over the elbow joint
 
@@ -304,6 +314,8 @@ The execution demands precise hip positioning and controlled transition from cru
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Straight Armbar (Attacker)?</p>
+
 **Week 1-2** - Positional mechanics
 Drill the transition from mounted crucifix to armbar finishing position with a cooperative partner. Focus on hip alignment over the elbow, proper wrist grip placement, knee squeeze mechanics, and leg positioning across the face. Perform 20 slow repetitions per side, resetting to crucifix each time. No resistance — build the motor pattern first.
 
@@ -321,51 +333,12 @@ Apply the straight armbar from mounted crucifix in positional sparring rounds. S
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Straight Armbar from Mounted Crucifix?
-**A**: The primary goal is to transition from the mounted crucifix control position into a secured armbar control position where you can apply hyperextension pressure to the opponent's elbow joint. The crucifix's arm isolation removes the opponent's ability to defend with clasped hands or frames, making this armbar entry significantly higher percentage than armbar attempts from standard mount or guard. The technique exploits the positional advantage already established by the crucifix to systematically attack the isolated limb.
-
-**Q2**: What position do you start the Straight Armbar from?
-**A**: This technique starts from Mounted Crucifix/Top, where you have mount established with at least one of the opponent's arms trapped by your legs. The crucifix configuration means your legs have threaded over or around the opponent's arms near the shoulder or bicep, controlling them mechanically. This arm isolation is the fundamental prerequisite that makes the straight armbar viable, as it prevents the defensive grip connections that normally defeat armbar attempts.
-
-**Q3**: Your opponent tucks their chin aggressively to defend your choke attempt from mounted crucifix — how does this create the armbar opportunity?
-**A**: When the opponent commits to chin tucking and neck defense, they necessarily divert their defensive attention and any remaining arm mobility toward protecting the neck. This means the trapped arm becomes even more exposed and the opponent cannot simultaneously defend both threats. The chin tuck also tends to cause the opponent to extend their arms slightly as they frame against your choking hand, further exposing the elbow line. Recognize this defensive commitment as your timing cue to immediately transition from choke threat to armbar entry.
-
-**Q4**: What is the most critical hip position for finishing the straight armbar, and why do practitioners commonly fail here?
-**A**: Your hip bone must sit directly over the opponent's elbow joint, creating the fulcrum for hyperextension. The most common failure is rushing past this alignment step — practitioners often begin lifting their hips to extend the arm before their pelvis is properly centered over the elbow. When the fulcrum is misaligned (too high on the bicep or too low on the forearm), the extension pressure disperses rather than concentrating on the joint, allowing the opponent to curl or rotate free. Treat hip-over-elbow alignment as its own distinct step that must be confirmed before applying any finishing pressure.
-
-**Q5**: What grip configuration provides the best wrist control during the straight armbar finish?
-**A**: A two-handed grip at the wrist is optimal: both hands wrap around the wrist joint with thumbless monkey grips (all four fingers on one side), pulling the wrist into your chest. This controls both the position of the arm (preventing retraction) and the rotation of the forearm (preventing thumb-line escape). The wrist must be hugged tightly to your sternum so that when you bridge your hips, the fulcrum and lever arm work together. Gripping the forearm or upper arm instead of the wrist reduces your mechanical advantage and allows elbow bend that defeats the submission.
-
-**Q6**: Your opponent clasps their hands in a tight Gable grip to defend the armbar extension — what are your options?
-**A**: Three primary options: First, wedge your forearm between their wrists and lever the grip apart using your body weight rather than hand strength. Second, attack individual fingers with a two-on-one peel, stripping their weakest grip point. Third, maintain your position with gradual hip pressure and wait — the sustained isometric effort of holding a Gable grip under armbar pressure fatigues grip muscles rapidly, typically within 15-30 seconds at competition intensity. A fourth option is to keep the armbar threat active while switching to a wrist lock on the gripping hand, creating a secondary submission threat that forces them to release.
-
-**Q7**: How should you direct force when applying the finishing extension, and what direction should the opponent's thumb face?
-**A**: The opponent's thumb must point toward the ceiling (supinated position) so that your hip elevation drives directly against the natural hyperextension plane of the elbow. Force is applied by bridging your hips upward into their elbow while simultaneously pulling their wrist downward toward your chest — this creates opposing forces that concentrate pressure on the joint. If their thumb rotates to the side, the elbow bends laterally instead of hyperextending, neutralizing the submission. Your knees pinching together prevent this rotation by locking the forearm in the correct alignment.
-
-**Q8**: Your opponent begins stacking into you during the armbar attempt — how do you adjust?
-**A**: When the opponent stacks forward, angle your hips away from the stacking direction to maintain extension leverage. If the stack progresses significantly, transition to a belly-down armbar by rolling to your stomach while maintaining firm wrist control. The belly-down position makes stacking physically impossible because you drive their arm toward the mat rather than away from it. Throughout the transition, keep knees squeezed tight and wrist pulled to your chest — losing either of these during the scramble will release the arm. If you cannot maintain the armbar through either variation, accept the positional reset to mounted crucifix rather than losing position entirely.
-
-**Q9**: If the straight armbar attempt fails and the opponent begins extracting their arm, what chain attacks remain available?
-**A**: If the target arm escapes, immediately assess what opened during their escape. Most commonly, arm extraction requires the opponent to turn or bridge, which exposes the neck for choke attacks — transition back to crucifix choke or rear naked choke if their back is exposed. If their opposite arm is still trapped, switch your armbar attack to that limb. If both arms are free but you maintain mount, transition to gift wrap control or reset to high mount to re-establish crucifix. The key principle is that every defensive movement creates a new offensive opportunity — never chase the lost arm, attack what their defense exposes.
-
-**Q10**: What are the critical entry timing windows for initiating the straight armbar from mounted crucifix?
-**A**: Three primary timing windows exist: First, immediately after the opponent defends a choke attempt, when their defensive attention is focused on the neck and arm mobility is committed to neck protection. Second, when the opponent attempts to extract their trapped arm — the extraction movement often extends the arm further into armbar range. Third, during or immediately after a failed bridge attempt, when the opponent's energy is depleted from the explosive effort and their arm positioning is disrupted by the bridging motion. Avoid initiating the armbar when the opponent is settled and calm, as they have maximum defensive awareness and grip strength in that state.
-
-**Q11**: Why is the straight armbar from mounted crucifix considered higher percentage than armbar from standard mount?
-**A**: The mounted crucifix pre-solves the two biggest problems in standard mount armbars: arm isolation and grip prevention. From standard mount, the attacker must fight to isolate one arm and prevent the defender from clasping hands — both of which consume time and energy while telegraphing intention. The crucifix configuration has already trapped the arm with leg mechanics, meaning the defender cannot establish defensive grips, cannot frame against the transition, and cannot use their second arm to assist the trapped arm. This eliminates roughly 60% of the defensive responses that normally defeat mount armbars, dramatically increasing completion rates at all skill levels.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Straight Armbar?</p>
 
 The straight armbar applies hyperextension force directly to the elbow joint, which can cause serious ligament damage (UCL/LCL tears), joint dislocation, or fracture if applied too quickly or with excessive force. Always apply finishing pressure gradually and progressively — never jerk or slam the hips into the extension. The mounted crucifix configuration makes this technique particularly dangerous because the opponent's defensive options are limited and the trapped arm cannot easily escape, meaning the submission can be fully locked before the defender recognizes the danger. In training, communicate clearly with your partner, apply pressure slowly enough for them to tap, and release immediately upon any tap signal (hand tap, verbal tap, or foot tap). Avoid this technique on partners with pre-existing elbow injuries. Beginners should drill the transition mechanics extensively before adding any finishing pressure.
 

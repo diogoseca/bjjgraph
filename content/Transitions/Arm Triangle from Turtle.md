@@ -37,7 +37,7 @@ The arm triangle from turtle has become increasingly popular in modern no-gi com
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Arm Triangle]] | 55% |
 | Failure | [[Positions/Front Headlock]] | 25% |
 | Failure | [[Positions/Half Guard]] | 10% |
 | Counter | [[Positions/Closed Guard]] | 10% |

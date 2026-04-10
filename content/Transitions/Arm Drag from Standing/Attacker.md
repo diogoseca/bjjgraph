@@ -188,6 +188,8 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Drag from Standing?</p>
+
 - Establish two-on-one grip control on the target arm before committing to the directional pull
 - Pull the opponent's arm across your centerline toward your far hip, not laterally to your side
 - Step behind the opponent on the drag side immediately as their arm clears your body
@@ -203,6 +205,8 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Drag from Standing?</p>
+
 - Both practitioners standing with active engagement and within grip fighting range
 - At least one of opponent's arms accessible at the wrist or tricep for initial grip
 - Sufficient proximity to reach opponent's arm without overextending your base or posture
@@ -215,6 +219,8 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Drag from Standing step by step?</p>
 
 1. **Establish Initial Wrist Control**: Secure a firm grip on the opponent's wrist with your lead hand using a pistol grip or C-clamp configuration. Target the wrist joint where you have maximum leverage for redirection. This initial grip should feel natural within the flow of standing grip fighting rather than telegraphed as an obvious setup.
 2. **Secure Two-on-One Control**: Bring your second hand to grip the opponent's tricep or just above their elbow on the same arm. You now have two-on-one control with your wrist grip providing directional steering and your tricep grip providing pulling power. Keep your elbows close to your body to maximize pulling efficiency and prevent the opponent from stripping grips.
@@ -244,6 +250,8 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Drag from Standing?</p>
+
 - **Opponent circles away from drag direction to re-face you before you establish chest contact** (Effectiveness: High) - Your Response: Anticipate the circle and accelerate your step-behind. If they complete the turn, convert immediately to a collar tie or underhook rather than chasing the back. Use their rotational momentum to snap them down or enter a single leg. → Leads to [[Positions/Standing Position]]
 - **Opponent posts their free arm as a frame against your hip or shoulder to create distance and prevent step-behind** (Effectiveness: High) - Your Response: Swim your near arm under their posting frame to establish an underhook, removing the post. Alternatively, redirect the drag angle more sharply across their body to collapse their posting arm by pulling it past your hip rather than alongside it. → Leads to [[Positions/Standing Position]]
 - **Opponent sits to guard as you commit to stepping behind, pulling you into their open guard** (Effectiveness: Medium) - Your Response: If they sit before you establish chest contact, immediately advance your hips forward and begin a passing sequence rather than trying to re-establish the back take. Drive your chest into them as they descend to prevent guard consolidation. Use bodylock passing mechanics. → Leads to [[Positions/Open Guard]]
@@ -255,6 +263,8 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Drag from Standing?</p>
 
 ### 1. Pulling opponent's arm laterally to your side instead of across your centerline toward your far hip
 
@@ -294,6 +304,8 @@ The attacker's objective in the standing arm drag is to redirect the opponent's 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Drag from Standing (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Two-on-one grip acquisition and directional pull
 Practice the wrist-and-tricep grip configuration with a stationary partner. Focus on correct hand placement, pulling direction across the centerline, and developing the muscle memory for the diagonal pull toward the far hip. Perform 50 repetitions per side with zero resistance.
 
@@ -314,42 +326,12 @@ Standing-only sparring rounds where the attacker hunts for arm drag opportunitie
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent extends their arm to grip your collar during standing engagement - what is the optimal timing window to initiate the arm drag?
-**A**: The optimal timing window is the instant the opponent's arm reaches full extension toward your collar, before they secure the grip and retract. At full extension, their arm is most vulnerable because they cannot flex to resist the drag and their weight is slightly committed forward. Initiate your wrist grip during their reach, then immediately add the tricep grip and execute the drag before they can retract. This window lasts approximately half a second.
-
-**Q2**: What grip configuration provides the best mechanical advantage for the standing arm drag pull?
-**A**: The optimal configuration is a pistol grip or C-clamp on the opponent's wrist with your lead hand combined with a cupped grip on their tricep just above the elbow with your rear hand. The wrist grip provides directional steering to redirect the arm, while the tricep grip supplies the primary pulling power. This two-on-one configuration creates maximum leverage because you are pulling at two widely spaced points on their arm, preventing them from using bicep strength to resist the drag.
-
-**Q3**: In which exact direction should you pull the opponent's arm during the drag, and why does this direction matter?
-**A**: Pull the arm diagonally across your centerline toward your far hip, not laterally to the side or straight backward. This diagonal trajectory matters because it creates rotational displacement through the opponent's center of gravity, turning their torso away from you and exposing their back. A lateral pull only moves their arm sideways without rotating their body, allowing them to maintain frontal facing. The diagonal pull toward your far hip forces their shoulder to rotate past your midline, which is the biomechanical tipping point where they can no longer easily re-face you.
-
-**Q4**: Your opponent posts their free arm against your hip to stop you from stepping behind - how do you overcome this frame?
-**A**: Swim your near-side arm under their posting arm to establish an underhook, which collapses the frame by taking away their post. As your underhook displaces their frame, continue your lateral step behind them using the underhook to maintain connection. Alternatively, sharpen the drag angle by pulling their controlled arm more aggressively past your far hip, which rotates their posting shoulder backward and collapses the post from the opposite direction. Both solutions address the frame while maintaining forward momentum toward the back.
-
-**Q5**: What is the most critical body position element during the step-behind phase of the arm drag?
-**A**: The most critical element is maintaining a low center of gravity with bent knees and hips below the opponent's hip level throughout the step-behind. A low base prevents the opponent from sprawling on you or using a hip switch to reverse the position. It also enables explosive lateral movement that covers the distance behind the opponent quickly. If you stand upright during the step-behind, you become tall and narrow, easily redirected by the opponent's defensive movement. Keep your head positioned on the near side of their neck to prevent headlock or guillotine counters.
-
-**Q6**: Your arm drag attempt fails because the opponent retracts their arm quickly - what chain attack should you immediately transition to?
-**A**: The fastest chain attack from a failed arm drag is a snap down to front headlock. When the opponent retracts their arm, they typically pull their weight backward, which you can exploit by switching your grip to a collar tie on the back of their neck and snapping them downward. Alternatively, their arm retraction often creates a momentary opening for a single leg entry because their defensive reaction has their weight shifting backward, making their lead leg lighter. The key is to attack immediately during their recovery motion rather than resetting to neutral.
-
-**Q7**: How should you adjust your arm drag setup against an opponent who keeps their elbows tight and arms retracted?
-**A**: Against an opponent with retracted arms, you must first create an extension reaction before the drag becomes available. Use a collar tie or forehead post to push them away, prompting them to post their arms forward to resist the pressure. The moment they extend an arm to frame or push back, that arm becomes the drag target. Alternatively, use a feinted level change or single leg entry to force them to post their hands downward, then redirect to the arm drag. You cannot arm drag an arm that is not extended, so your setup must manufacture the extension.
-
-**Q8**: What distinguishes a successful arm drag completion from a partial drag that the opponent escapes?
-**A**: The distinguishing factor is whether chest-to-back contact is established before the opponent rotates to re-face you. A successful drag results in your sternum pressed between their shoulder blades with your hips driving forward before they can turn. A partial drag moves you to their side but without chest-to-back pressure, allowing them to continue rotating until they face you again. The fix is ensuring the step-behind and chest drive happen simultaneously with the pull, not sequentially. If the pull finishes and you are still at their side rather than behind them, the drag has failed and you should transition to a different attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Drag from Standing?</p>
 
 The arm drag from standing presents minimal injury risk compared to takedowns and submissions. The primary safety concern is maintaining controlled movement during the directional change to avoid knee strain from sudden pivoting on a planted foot. Partners should avoid explosive resistance during drilling to prevent shoulder strain from the two-on-one pulling force. When drilling at speed, ensure adequate mat space to prevent collisions with other training partners during the lateral step-behind movement. Practitioners with existing shoulder injuries should modify grip placement and reduce pulling intensity until movement patterns are established.
 

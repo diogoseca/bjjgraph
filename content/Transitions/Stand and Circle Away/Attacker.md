@@ -192,6 +192,8 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stand and Circle Away?</p>
+
 - Chin remains tucked to chest throughout the entire standing sequence to deny neck extension for chokes
 - Drive upward through the legs using quad and glute strength, not by pulling your head out with neck muscles
 - Circle away from the opponent's choking arm side to weaken their grip geometry and prevent guillotine tightening
@@ -207,6 +209,8 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stand and Circle Away?</p>
+
 - Opponent has front headlock control but grip is not yet fully locked or consolidated around your neck
 - Your chin is tucked tightly to your chest preventing immediate choke completion
 - At least one hand is controlling the opponent's choking arm at the wrist or elbow
@@ -219,6 +223,8 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stand and Circle Away step by step?</p>
 
 1. **Secure chin tuck and hand fight**: Tuck your chin firmly against your sternum to deny any neck extension. With your near hand, grip the opponent's choking wrist or forearm at the elbow crease, pulling it slightly away from your neck to create breathing room.
 2. **Establish posting base**: Plant your far hand on the mat slightly forward and to the outside, or post directly on the opponent's far hip. Bring both feet underneath your hips in a crouched, wrestler's stance position with your weight centered over your legs.
@@ -248,6 +254,8 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stand and Circle Away?</p>
+
 - **Opponent sprawls heavy and re-snaps your head down as you attempt to stand, driving their hips back and chest weight forward to collapse your posture back to the mat** (Effectiveness: High) - Your Response: If re-snapped, immediately transition to a Granby Roll or guard pull rather than attempting to stand again into their prepared defense. Alternatively, use the forward momentum of their snap to shoot a single leg on their posted leg. → Leads to [[Positions/Front Headlock]]
 - **Opponent transitions to guillotine grip during your standing motion, exploiting the moment your neck extends as you drive upward to lock a standing guillotine** (Effectiveness: High) - Your Response: Keep chin aggressively tucked and choking arm controlled throughout the stand. If guillotine locks, immediately circle to the choking arm side and drop your weight to pull guard into half guard on the guillotine side, where the choke is weakest. → Leads to [[Positions/Front Headlock]]
 - **Opponent releases headlock and takes your back as you circle, capitalizing on the angle you create to secure a rear body lock or seat belt grip** (Effectiveness: Medium) - Your Response: Maintain awareness of opponent's hand position during the circle. If you feel them releasing the headlock and reaching for your waist, immediately turn to face them and establish collar tie or double underhooks. Never circle with your back exposed — keep squaring up as you move. → Leads to [[Positions/Back Control]]
@@ -259,6 +267,8 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stand and Circle Away?</p>
 
 ### 1. Lifting the head first instead of driving upward through the legs as a unit
 
@@ -298,6 +308,8 @@ The mechanical foundation relies on posting, driving upward through the legs whi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stand and Circle Away (Attacker)?</p>
+
 **Week 1-2** - Defensive posture and hand fighting mechanics
 Partner holds front headlock at 30% resistance. Practice only the chin tuck, choking arm control, and base positioning. No standing yet — focus entirely on the defensive foundation. Drill 20 repetitions per side, resetting each time partner confirms your chin and hand position are correct.
 
@@ -315,54 +327,12 @@ Start in front headlock bottom, partner uses full resistance and all counters in
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Stand and Circle Away escape?
-**A**: The primary goal is to return to a neutral standing position with distance from your opponent, completely separating from their front headlock control. Unlike guard recovery escapes that keep you on the ground in potential danger, the Stand and Circle Away achieves maximum separation by rebuilding your posture to standing and then using lateral movement to break free of the grip. The end state should be both practitioners standing with you at safe distance in a neutral wrestling position.
-
-**Q2**: Why must you circle away from the opponent's choking arm side rather than toward it?
-**A**: Circling away from the choking arm progressively opens the angle of the grip around your neck, making it geometrically weaker with each step. The opponent's arm wraps in a specific direction, and moving away from that wrap creates slack and leverage disadvantage for their grip. Circling toward the choking arm does the opposite — it tightens the wrap, feeds your neck deeper into the crook of their elbow, and directly assists guillotine or anaconda finishing mechanics. The direction of your circle is the single most important variable in whether the grip weakens or strengthens.
-
-**Q3**: Your opponent re-snaps your head down as you attempt to stand — what should you do?
-**A**: Do not attempt the same standup a second time into their prepared defense. If re-snapped, immediately redirect to a ground-based escape such as a Granby Roll to recover guard, or use the forward momentum of their snap to shoot on their posted leg for a single leg takedown. Repeatedly attempting the same failed escape burns energy and becomes predictable. The re-snap indicates their weight is committed forward, which makes rolling escapes and takedown entries more viable than standing escapes.
-
-**Q4**: What grip must you establish before initiating the upward drive to stand?
-**A**: You must control the opponent's choking arm at the wrist or elbow crease with at least one hand before driving upward. This grip serves two critical functions: it prevents the opponent from deepening or locking their choking grip as you provide upward pressure, and it gives you a lever to manipulate their arm during the subsequent circling phase. Standing without this control is dangerous because the upward drive can actually assist choke completion by pushing your neck into their grip. The choking arm control hand maintains contact throughout the entire escape — it is never released until the escape is complete.
-
-**Q5**: How do you recognize when the Stand and Circle Away is not viable and you should choose an alternative escape?
-**A**: The Stand and Circle Away becomes high-risk when the opponent has a deep, fully consolidated grip with hands locked (gable grip or S-grip), heavy sprawled hips with settled weight distribution, or has already begun tightening a specific submission. Standing into a locked grip adds your own upward force to their choke pressure. In these situations, ground-based escapes like the Granby Roll, guard recovery through circling on the knees, or a roll-through reversal offer higher success probability. The ideal window for standing escape is during grip transitions, when opponent is adjusting attacks, or before they consolidate control.
-
-**Q6**: Your opponent feels you starting to stand and transitions to a guillotine grip — how do you adjust mid-escape?
-**A**: Keep your chin tucked aggressively and maintain control of the choking arm. If the guillotine locks before you can strip it, do not continue standing upward as this feeds the choke. Instead, immediately circle to the choking arm side and sit through to pull half guard, positioning yourself on the guillotine arm's side where the choke is weakest. From half guard with your head on the correct side, the guillotine becomes very difficult to finish and you can work standard guillotine defense. The key is recognizing the grip change early and adapting your escape vector rather than continuing the original plan.
-
-**Q7**: What is the biomechanical reason for driving upward through the legs rather than lifting your head first?
-**A**: Driving through the legs keeps your spine in a neutral, protected position where the chin tuck is maintained. Lifting the head first requires cervical extension, which opens the throat and creates exactly the neck angle that guillotines, anacondas, and darces require to finish. Leg drive produces upward force through your center of mass without compromising neck position. The opponent cannot convert your upward drive into choke pressure if your neck remains neutral. Additionally, leg drive generates far more force than neck muscles, making the standup more explosive and harder to re-snap down.
-
-**Q8**: How does the hip post function during the circling phase, and what happens if you skip it?
-**A**: The hip post creates a structural frame between you and the opponent that maintains distance as you circle. It converts your straight arm and shoulder into a rigid barrier that prevents the opponent from closing distance, re-snapping your head, or collapsing you back down. Without the hip post, there is nothing preventing the opponent from following your standing motion with renewed forward pressure, re-establishing the front headlock from standing — which is actually more dangerous than the ground version because a standing guillotine has gravity assisting the finish. The hip post is the mechanism that converts your vertical escape into safe lateral movement.
-
-**Q9**: During live rolling, your opponent frequently re-establishes control when you change circling direction — how do you refine the direction change?
-**A**: The direction change must be abrupt and paired with an aggressive grip strip rather than a gradual shift. When you reverse direction, simultaneously push their choking elbow over the top of your head while ducking under. The direction change breaks their circular tracking momentum, and the grip strip exploits the brief moment of grip weakness created by the directional shift. If the direction change alone is not working, combine it with a level change — drop your level as you reverse direction to create a different escape angle that disrupts both their grip and their ability to follow.
-
-**Q10**: What is the relationship between this escape and the Technical Standup from front headlock?
-**A**: Both escapes share the same fundamental goal of returning to standing position, but they differ in mechanics and optimal timing. The Technical Standup uses a posting hand on the mat behind you with a specific hip-sit movement to create distance as you rise, while the Stand and Circle Away drives upward from a crouched position and uses lateral movement for separation. The Stand and Circle is generally faster and works better when the opponent's grip is loose, while the Technical Standup is more methodical and works better when you need to create initial distance before standing. Both should be trained as complementary tools — if one fails, transition to the other or to a ground-based alternative.
-
-**Q11**: What is the optimal foot positioning before initiating the upward drive?
-**A**: Both feet must be positioned directly under your hips in a crouched wrestler's base before driving upward. The feet should be roughly shoulder-width apart with toes pointed forward or slightly outward for stability. If your feet are behind your hips, you lack the mechanical leverage to generate explosive upward force and your drive will push you forward into the opponent rather than upward. If your feet are too far forward, you risk falling backward during the stand. The key is spending an extra half-second getting your feet properly positioned under your center of mass before committing to the explosive drive, even though this delay feels counterintuitive under pressure.
-
-**Q12**: Your opponent has a shallow front headlock and you begin the standup, but they switch to a snap-down mid-escape — how do you chain to a secondary attack?
-**A**: The snap-down commits their weight forward and downward, which paradoxically opens up two excellent chain attacks. First, you can redirect into a single leg by catching their near leg as their weight drives forward — their snap-down momentum makes it difficult for them to sprawl away. Second, you can duck under their arm during the snap motion and circle behind them for a back take, since the snap exposes their far side as they overcommit downward. The principle is that their counter-force creates predictable weight distribution you can exploit rather than simply absorbing the snap and resetting to bottom position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stand and Circle Away?</p>
 
 The Stand and Circle Away is generally a low-risk escape when executed with proper chin protection, but improper technique can expose you to dangerous chokes. Never extend your neck during the standing drive — this is the primary injury vector, as guillotine pressure combined with forced neck extension can cause cervical spine strain. If you feel a choke tightening during the escape, immediately tap or abort the escape to protect your neck and airway. During training, partners should incrementally increase resistance and release any choke that begins to tighten before the escape is complete. In competition, recognize when the grip is too deep and abandon the standing escape for a safer ground option rather than fighting through a locked choke. Knee and ankle injuries can occur if you drive upward with poor foot positioning, so ensure your feet are properly under your hips before initiating the stand.
 

@@ -26,32 +26,32 @@ description: "Defend and escape Meathook from top. Complete defensive guide cove
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Posture Recovery",
-      "text": "From this position, attempt Posture Recovery. This technique is attempted in 17% of exchanges from this position.",
-      "position": 2
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Stack Defense",
       "text": "From this position, attempt Stack Defense. This technique is attempted in 17% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Sprawl",
       "text": "From this position, attempt Sprawl. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Guard Opening Sequence",
       "text": "From this position, attempt Guard Opening Sequence. This technique is attempted in 17% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Posture Recovery from Meathook",
-      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Posture Recovery from Meathook. This technique is attempted in 23% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Stack Pass from Meathook",
+      "text": "From this position, attempt Stack Pass from Meathook. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -177,6 +177,8 @@ Energy management in escape attempts requires strategic consideration. Explosive
 
 ## Position Definition
 
+<p class="section-subtitle">What is Meathook (Top)?</p>
+
 - Top player's arm remains trapped under opponent's shin hook with the tricep compressed against the shin and shoulder pulled forward, preventing both arm extraction and posture recovery through conventional means while the hook maintains downward lever pressure
 - Top player's posture remains broken with head pulled down and forward by opponent's grip, spine curved rather than straight, preventing the vertical alignment needed to generate upward drive force or establish effective base with the free arm
 - Top player's free arm struggles to create effective base or defensive frames due to asymmetric loading—posting with one arm while the other is trapped creates unstable triangular base that opponent can manipulate through hip angle adjustments and grip pressure variations
@@ -187,6 +189,8 @@ Energy management in escape attempts requires strategic consideration. Explosive
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Meathook (Top)?</p>
 
 - Bottom player has established shin hook over top player's shoulder with ankle clearing shoulder line
 - Bottom player controls top player's head or opposite collar with active grip preventing posture recovery
@@ -200,6 +204,8 @@ Energy management in escape attempts requires strategic consideration. Explosive
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Meathook?</p>
 
 - Immediate recognition and defensive response are critical—every second in Meathook increases submission danger
 - Arm extraction is the only viable path to escape—all defensive energy must prioritize freeing the trapped limb
@@ -215,6 +221,8 @@ Energy management in escape attempts requires strategic consideration. Explosive
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Meathook (Top)?</p>
 
 **If trapped in Meathook with tight shin hook and active grip control:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Closed Guard]] (Probability: 45%)
@@ -243,6 +251,8 @@ Energy management in escape attempts requires strategic consideration. Explosive
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Meathook?</p>
 
 ### 1. Attempting to maintain top position and passing mindset while trapped in Meathook
 
@@ -287,6 +297,8 @@ Energy management in escape attempts requires strategic consideration. Explosive
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Meathook attacks?</p>
+
 ### Arm Extraction Mechanics
 
 Partner establishes Meathook with moderate resistance. Practice arm extraction using base widening, rotational mechanics, and explosive timing. Focus on mechanical efficiency over strength. Reset and repeat 10 times per side.
@@ -319,38 +331,6 @@ Start with arm already extracted but posture still broken in closed guard. Pract
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent has established Meathook and you feel their shin hook tightening—what is your immediate priority?
-**A**: Immediate recognition and defensive mode shift is critical. Stop any passing attempts and prioritize arm extraction above all else. Widen your base with your free arm to create leverage, and prepare for an explosive rotational extraction attempt. Every second of delay increases submission danger as your opponent consolidates control and sets up attacks.
-
-**Q2**: What are the essential grips and frames needed to survive and escape Meathook Top?
-**A**: Your free arm must post wide to create a triangular base structure that generates leverage for extraction. Avoid placing it close to your body. While arm extraction is primary, your free hand should also work to address the opponent's controlling grip on your head or collar when possible. After extracting, both hands establish base for immediate posture recovery.
-
-**Q3**: Why does attempting to pass guard while trapped in Meathook accelerate submissions?
-**A**: Forward pressure from passing attempts drives your head deeper into gogoplata range and increases the mechanical advantage of the shin hook. Your weight moving forward amplifies the compression on your trapped arm and feeds directly into the opponent's attack chain. The correct response is accepting temporary disadvantage and executing escape sequences rather than forcing the pass.
-
-**Q4**: Your opponent begins shifting their hips toward gogoplata setup—what defensive adjustment should you make?
-**A**: When you recognize the hip shift toward gogoplata, immediately consider a stack defense by driving forward into them to disrupt their shin angle before it reaches your throat. Alternatively, time an explosive arm extraction to their transitional moment when the hook temporarily loosens during hip adjustment. The sprawl option puts you at Turtle but escapes the submission threat.
-
-**Q5**: How should you manage energy during escape attempts from Meathook Top?
-**A**: Explosive movements offer the best arm extraction chance but consume significant energy. Wait for optimal timing—when opponent shifts attention to submission setup or adjusts grips, hook pressure briefly loosens. This is your window for explosive rotational extraction. Continuous moderate effort wastes energy without results; measured explosive timing beats sustained pulling.
-
-**Q6**: After successfully extracting your trapped arm, what must happen immediately?
-**A**: Posture recovery must follow arm extraction without pause. Use the newly freed arm to establish base alongside your other arm, create space, and drive upward through proper spinal alignment to achieve neutral posture. The opponent will immediately attempt to re-establish Rubber Guard control or transition to traditional closed guard attacks—rapid posture recovery prevents this.
-
-**Q7**: What common error leads to shoulder injuries when escaping Meathook?
-**A**: Continuous straight-line pulling on the trapped arm without rotational component creates sustained tension against the shin hook's strongest resistance angle, risking shoulder strain. The correct mechanic combines pulling force with rotational movement—spiral the arm as you extract rather than pulling straight back. This rotation changes leverage angles and exploits weaknesses in the hook.
-
-**Q8**: Why is accepting Closed Guard or even a sweep often the strategically correct choice when escaping Meathook?
-**A**: Extracting the arm while maintaining top position is often mechanically impossible against a properly established Meathook. Remaining trapped guarantees submission completion. Accepting Closed Guard after arm extraction or conceding a sweep during escape creates neutral or recoverable positions, whereas staying in Meathook leads to certain submission. Strategic retreat enables survival.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

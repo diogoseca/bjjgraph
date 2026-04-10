@@ -158,13 +158,15 @@ Defensive success hinges on maintaining a tight turtle structure where elbows st
 
 The matrix defense also integrates with your broader turtle escape system. If the attacker commits heavily to the matrix entry and you successfully disrupt it, their weight distribution often opens opportunities for guard recovery, technical standup, or even position reversal. Understanding this defensive-to-offensive transition is essential for making your turtle position genuinely dangerous for the top player to attack.
 
-**Opponent's Starting Position**: [[Positions/Turtle]] (Top)
+**Opponent's Starting Position**: [[Positions/Matrix]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Matrix Back Take?</p>
 
 - Attacker begins circling toward your far side while maintaining chest pressure, shifting from directly behind you to an angled position
 - You feel an arm threading deeply under your near-side armpit, reaching toward your far shoulder with the attacker's shoulder pressing into your ribs
@@ -179,6 +181,8 @@ The matrix defense also integrates with your broader turtle escape system. If th
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Matrix Back Take?</p>
+
 - Maintain tight elbow-to-knee structure at all times to deny the space needed for arm and leg insertion
 - Sit back toward your heels when you feel the attacker beginning to circle or create angle on your near side
 - Turn aggressively toward the attacker when you feel their arm threading under your armpit, before the hip slide begins
@@ -192,6 +196,8 @@ The matrix defense also integrates with your broader turtle escape system. If th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Matrix Back Take?</p>
 
 ### 1. Sit back heavily onto your heels and clamp elbows tight to knees to close the entry gap
 
@@ -229,6 +235,8 @@ The matrix defense also integrates with your broader turtle escape system. If th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Matrix Back Take?</p>
+
 ### → [[Positions/Turtle]]
 
 Sit back onto your heels and clamp elbows tight to knees at the first sign of the attacker circling to create angle. This denies the entry space entirely and forces the attacker to abandon the matrix attempt, returning you to the standard turtle defensive situation where you retain all your normal escape options.
@@ -244,6 +252,8 @@ Execute an explosive granby roll away from the entry direction when you feel the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Matrix Back Take?</p>
 
 ### 1. Allowing the elbow-to-knee gap to open by flaring the elbows or posting with the hands too wide
 
@@ -278,6 +288,8 @@ Execute an explosive granby roll away from the entry direction when you feel the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Matrix Back Take?</p>
+
 **Week 1-2: Recognition and Awareness** - Learn to identify matrix entry cues from turtle bottom
 Partner performs the matrix back take at slow speed while you focus entirely on recognizing each phase of the entry: the circling, arm threading, leg stepping, and hip slide. Call out each phase as it happens. No active defense yet, just building awareness of what the technique feels like from the defender's perspective so you can react appropriately in live situations.
 
@@ -294,29 +306,6 @@ Partner attacks from turtle top using the matrix back take along with traditiona
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a matrix back take is being attempted rather than a standard back take?
-**A**: The earliest cue is the attacker circling toward your far side while threading an arm deep under your near-side armpit, rather than working to establish a direct seatbelt grip from behind. A standard back take involves the attacker staying centered behind you and working hooks in from a direct angle, while the matrix involves angular movement where the attacker shifts perpendicular to your torso. Feeling the arm thread deeply with the attacker's shoulder pressing into your ribs is the definitive signal.
-
-**Q2**: Why is sitting back onto your heels one of the most effective defenses against the matrix entry?
-**A**: Sitting back onto your heels eliminates the space between your elbow and knee that the attacker needs to thread their leg through, which is the critical entry point for the matrix. Without the ability to step their leg through this gap, the attacker cannot position their body to begin the hip slide underneath you. It also lowers your center of gravity, making it much harder for the attacker to slide their hips underneath. This single adjustment shuts down the primary mechanical requirement of the technique.
-
-**Q3**: The attacker has already threaded their arm and stepped their leg through, but has not begun the hip slide yet. What is your best defensive option?
-**A**: Your best option is an aggressive turn into the attacker before the hip slide begins. Rotate your torso forcefully toward the attacker's body, which eliminates the back-take angle and forces a front-facing exchange. The attacker's threaded arm and stepped leg become liabilities in a face-to-face position rather than assets for a back take. You must commit to this turn fully and quickly, as any hesitation gives the attacker time to initiate the slide.
-
-**Q4**: How does defending the matrix back take differ from defending a traditional seat belt back take from turtle?
-**A**: Traditional back take defense focuses on grip fighting to prevent the seatbelt from being established and hook prevention through hip positioning. Matrix defense focuses on denying physical space for arm and leg insertion and reacting to angular movement patterns. Against a traditional back take you fight grips; against the matrix you close gaps in your structure and respond with whole-body movement like sitting back, turning in, or granby rolling. The timing window is also different, as the matrix has a clear point of no return during the hip slide that does not exist in standard entries.
-
-**Q5**: Your granby roll defense against the matrix entry was followed by the attacker, and they now have partial truck position. What should you do?
-**A**: Immediately address the leg entanglement by working to extract your trapped leg before the attacker can fully consolidate truck position. Use your free leg to push against their hip and create separation while using your arms to fight for upper body freedom. If full truck is established, shift to truck-specific escapes: keep your hips mobile, prevent them from securing the lock, and work toward rolling to a position where you can disentangle your legs. The priority shifts from matrix defense to leg entanglement defense.
-
-
-
-</section>
 
 
 </main>

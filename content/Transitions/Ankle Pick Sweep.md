@@ -222,7 +222,7 @@ In the broader context of guard systems, the ankle pick sweep represents the bri
 
 - [[Transitions/Sickle Sweep]] - Related sweep that hooks ankle with leg instead of hand
 
-- [[Submissions/Kimura from Guard]] - Counter-attack when opponent posts hand defending the sweep
+- [[Submissions/Kimura]] - Counter-attack when opponent posts hand defending the sweep
 
 - [[Transitions/X-Guard Sweep]] - Follow-up when opponent partially defends ankle pick and you enter X-Guard
 

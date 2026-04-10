@@ -66,8 +66,8 @@
       "relationship": "Target control position on successful arm isolation and pivot"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Follow-up transition from armbar control to complete the submission"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Follow-up submission finish from armbar control to complete the submission"
     },
     {
       "name": "Back Take",
@@ -82,8 +82,8 @@
       "relationship": "Related dominant position and primary alternative conversion from reverse mount"
     },
     {
-      "name": "Armbar from S Mount",
-      "relationship": "Similar armbar setup from nearby mount variant with comparable pivot mechanics"
+      "name": "Armbar from North-South",
+      "relationship": "Alternative positional armbar setup from different dominant position with distinct entry and pivot mechanics"
     },
     {
       "name": "Belly Down Armbar Transition",
@@ -94,8 +94,8 @@
       "relationship": "Related mount position commonly used for armbar setups with similar arm access"
     },
     {
-      "name": "Armbar from Technical Mount",
-      "relationship": "Similar armbar from mount family with different entry angle and arm access pattern"
+      "name": "Technical Mount",
+      "relationship": "Related mount variant frequently used for armbar setups with different entry angle and arm access pattern"
     }
   ],
   "attacker": {

@@ -165,6 +165,8 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 ## Position Definition
 
+<p class="section-subtitle">What is Williams Guard (Top)?</p>
+
 - Top practitioner's arm is controlled in shoulder lock configuration by bottom player, with figure-four grip or similar shoulder manipulation creating constant submission threat that must be actively defended through proper joint alignment and positioning
 - Top practitioner maintains posture and base with free arm and legs while working to prevent bottom player from completing shoulder lock submission or transitioning to more dominant attacking positions such as omoplata or back control
 - Bottom player uses legs to maintain distance and create frames that prevent top player from establishing chest-to-chest pressure or completing immediate guard passes, forcing top player to address submission threat before advancing
@@ -177,6 +179,8 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Williams Guard (Top)?</p>
+
 - Bottom player has established shoulder lock grip configuration on your arm
 - You are positioned in combat base, standing, or transitional passing position within guard range
 - Bottom player has created sufficient space with legs to maintain guard structure
@@ -188,6 +192,8 @@ Williams Guard Top represents the challenging defensive and passing position fac
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Williams Guard?</p>
 
 - Protect shoulder joint by maintaining proper alignment and preventing full extension or rotation into submission
 - Keep weight distributed on free arm and legs to maintain base while defending shoulder lock
@@ -203,6 +209,8 @@ Williams Guard Top represents the challenging defensive and passing position fac
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Williams Guard (Top)?</p>
 
 **If opponent applies increasing shoulder lock pressure for submission finish:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Combat Base]] (Probability: 60%)
@@ -231,6 +239,8 @@ Williams Guard Top represents the challenging defensive and passing position fac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Williams Guard?</p>
 
 ### 1. Yanking trapped arm back aggressively to force extraction
 
@@ -275,6 +285,8 @@ Williams Guard Top represents the challenging defensive and passing position fac
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Williams Guard attacks?</p>
+
 ### Williams Guard Arm Extraction Drill
 
 Partner establishes Williams Guard Bottom with shoulder lock control. Practice systematic arm extraction using circular movements and shoulder protection mechanics. Focus on extracting without triggering submission or sweep. 2 minutes per side.
@@ -308,38 +320,6 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when trapped in Williams Guard Top with shoulder lock control on your arm?
-**A**: Submission defense must take absolute precedence over passing advancement. Protect your shoulder joint by maintaining proper alignment, keeping your elbow bent and close to your body, and preventing full extension or rotation into the submission. Attempting to pass while your arm remains compromised virtually guarantees either submission or sweep, so systematic arm extraction must be completed before any passing attempts.
-
-**Q2**: Your opponent begins rotating their hips to transition from Williams Guard to omoplata—what immediate adjustment do you make?
-**A**: The moment you recognize the hip rotation signaling omoplata transition, immediately posture up and create space in the opposite direction of their rotation. Drive your weight forward over their hips while simultaneously working to clear your arm using a pressure pass or stack pass motion. The space they create during rotation is your opportunity to advance—if you stay static, the omoplata completes.
-
-**Q3**: What are the essential weight distribution principles for maintaining base while defending the shoulder lock?
-**A**: Distribute weight primarily on your free arm (kept near centerline, not posted vulnerably) and your legs with a wide base. Your trapped arm should not bear weight as this increases submission pressure. Keep hips low and angled rather than squared to opponent's body. The goal is three-point base stability that prevents sweeps while allowing controlled movements for arm extraction.
-
-**Q4**: Why is using circular movements rather than linear pulling essential for arm extraction?
-**A**: Linear pulling (yanking arm straight back) increases shoulder lock pressure because it works against the mechanical structure of the figure-four grip. Circular movements—rotating the elbow while maintaining shoulder alignment—gradually disengage the grip mechanics by changing the angle of force application. This technique addresses the shoulder lock mechanically rather than fighting its strength directly.
-
-**Q5**: How do you recognize when opponent is setting up a triangle from Williams Guard and how do you counter?
-**A**: Triangle setup is signaled by the opponent opening their guard wider, often while controlling your head or posture to create the necessary angle for leg positioning. Counter by immediately driving forward with a guard pass before they can close the triangle, or by keeping your posture tall and preventing head control. The open guard moment is your window—once legs start closing, options diminish rapidly.
-
-**Q6**: What grip or control should you prioritize with your free hand and why is posting dangerous?
-**A**: Your free hand should prioritize head control (collar grip or jaw/chin control) or stay defensively positioned near your centerline. Posting the free hand on the mat near opponent's hip is dangerous because they immediately attack it with triangle setup or use it as a leverage point for sweep execution. Head control neutralizes their guard retention while keeping you safe from arm attacks.
-
-**Q7**: After successfully extracting your arm, what is the immediate next action and why?
-**A**: Transition immediately to a secure passing position before opponent can re-establish Williams Guard or switch to another guard variation. The extraction moment is critical—if you pause to reset, they recover control. Common options include knee slice pass, stack pass, or pressure pass depending on their reaction. The arm extraction is not the goal; it's the gateway to passing advancement.
-
-**Q8**: How does hip angle affect your vulnerability to omoplata, triangle, and back take transitions?
-**A**: When hips square directly with opponent's body, you optimize their shoulder lock angle and create easier pathways for all three transitions. Maintaining an angled hip position (turned slightly away from controlled arm side) reduces shoulder lock effectiveness by changing the mechanical advantage and limits their transition options by taking away the angles they need. Movement through different hip angles disrupts their timing for transition attempts.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -366,7 +346,7 @@ Start in Williams Guard Top with arm controlled. Partner works for submissions a
 - **[[Positions/Side Control]]** - Primary passing target from this position
 - **[[Positions/Omoplata Control]]** - Common defensive threat to defend against
 - **[[Positions/Triangle Control]]** - Common defensive threat to defend against
-- **[[Transitions/Williams Shoulder Lock]]** - Primary submission threat to defend
+- **[[Submissions/Williams Shoulder Lock]]** - Primary submission threat to defend
 - **[[Transitions/Arm Extraction]]** - Key defensive technique
 - **[[Transitions/Stack Pass]]** - Primary counter-passing technique
 - **[[Transitions/Pressure Pass]]** - Alternative counter-passing technique

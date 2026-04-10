@@ -165,6 +165,8 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Position Definition
 
+<p class="section-subtitle">What is Toe Hold Control (Bottom)?</p>
+
 - Opponent controls bottom player's foot and ankle with both hands in figure-four or cross-grip configuration, applying rotational pressure to the ankle joint with potential for immediate submission
 - Bottom player's endangered leg is extended or semi-extended with opponent's torso and chest applying pressure across the leg while maintaining toe hold grip structure
 - Bottom player's free leg maintains active defensive positioning, either framing against opponent's hips, controlling opponent's far leg, or preparing counter-entanglement to prevent complete submission lock
@@ -178,6 +180,8 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Toe Hold Control (Bottom)?</p>
+
 - Opponent has successfully secured foot and ankle control with toe hold grip configuration
 - Bottom player's leg is trapped in some form of ashi garami or leg entanglement position
 - Opponent has established sufficient control to begin applying rotational pressure to ankle
@@ -190,6 +194,8 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Toe Hold Control?</p>
 
 - Immediate priority is protecting the ankle by controlling opponent's wrists and preventing full extension and rotation of the toe hold
 - Maintain active defensive posture with upper body, never allowing yourself to be flattened completely as this removes escape options
@@ -206,8 +212,10 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Toe Hold Control (Bottom)?</p>
+
 **If opponent has completed full toe hold grip with figure-four and begins rotating ankle with significant pressure:**
-- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 95%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[game-over]] (Probability: 95%)
 - Execute **[[Explosive wrist control and internal rotation escape/Attacker|Explosive wrist control and internal rotation escape]]** → [[Positions/Ashi Garami]] (Probability: 5%)
 
 
@@ -235,6 +243,8 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Toe Hold Control?</p>
 
 ### 1. Allowing knee to rotate externally while opponent controls the foot
 
@@ -279,6 +289,8 @@ Toe Hold Control Bottom represents a defensive position within the leg entanglem
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Toe Hold Control defense?</p>
+
 ### Toe Hold Grip Break Repetitions
 
 Partner establishes toe hold grip at 30% pressure while bottom player practices systematic wrist control and grip breaking sequences. Focus on two-on-one wrist control, pushing opponent's top hand toward their bottom hand to break figure-four structure. Progress from static holds to dynamic resistance. Perform 10 repetitions per side, emphasizing technical precision over speed.
@@ -312,38 +324,6 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your immediate priority the moment you recognize you are caught in toe hold control?
-**A**: The immediate priority is protecting the ankle by internally rotating your trapped foot (pointing toes toward your opposite leg) to hide the heel and limit rotational leverage. Simultaneously, use both hands to control opponent's wrists and prevent them from completing the figure-four grip or applying additional rotational pressure. This buys time for systematic escape rather than allowing immediate submission threat.
-
-**Q2**: Your opponent begins applying rotational pressure to your ankle - what are the warning signs you should tap?
-**A**: Tap immediately when you feel significant rotational stress on the ankle joint with no escape available, when the knee begins to torque in an unnatural direction, or when grip breaking attempts are failing against locked submission mechanics. With toe holds, the injury timeline is extremely short - ligament damage can occur within fractions of a second once the breaking mechanics are applied. Career longevity is more valuable than any single training round.
-
-**Q3**: How should you use your free leg defensively from toe hold control bottom?
-**A**: Keep your free leg actively engaged by framing on opponent's hips to create distance, hooking their far leg to limit their mobility, or preparing counter-entanglement positions. Never leave it passive or straight. The free leg creates space for grip breaks, prevents opponent from tightening control, and sets up escape pathways to single leg X or 50-50 positions when grips are cleared.
-
-**Q4**: What is the correct sequence for escaping - grip break first or leg extraction first?
-**A**: Always prioritize grip breaking before leg extraction. Attempting to extract your leg while opponent maintains the toe hold grip is ineffective and dangerous - they simply re-establish control after failed escape attempts. Use two-on-one wrist control to break the figure-four configuration first, eliminating the submission threat, then systematically extract your leg through angular movement rather than straight pulling.
-
-**Q5**: Your opponent loosens their grip momentarily to transition to heel hook - what opportunity does this create?
-**A**: This grip transition creates a critical window for escape. Use this moment to establish inside position on their leg through inside ashi entry, or immediately work guard replacement to open guard. The grip loosening during transitions is often the best escape opportunity you'll get - recognize and exploit it immediately rather than waiting for them to settle into a new control position.
-
-**Q6**: Why is maintaining upper body posture so important from toe hold control bottom?
-**A**: Upper body posture on elbows or sitting provides the ability to create angles, generate leverage for grip breaks, and use your upper body weight to assist escapes. When flattened completely on your back, you lose all these mechanical advantages - you cannot effectively fight grips, create hip movement, or transition to counter positions. Active upper body posture maintains your defensive options throughout the escape sequence.
-
-**Q7**: What knee orientation should you maintain with your trapped leg and why?
-**A**: Keep your endangered knee pointed toward your opponent throughout the defensive sequence. External knee rotation dramatically increases rotational leverage on your ankle joint, accelerating submission danger exponentially. Use hip internal rotation to protect ankle alignment - this reduces the mechanical advantage your opponent has for the toe hold finish while you work systematic grip breaks and escape.
-
-**Q8**: After successfully breaking opponent's grip control, how do you safely complete the escape?
-**A**: Extract your leg through controlled angular movement rather than straight pulling - circle your knee toward your chest while maintaining internal rotation of the foot. Immediately establish distance by recovering to open guard, single leg X-guard, or 50-50 guard with your free leg creating hooks for control. Never remain in range after grip clearance as this allows immediate re-entry to the leg entanglement.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -368,7 +348,7 @@ From toe hold control bottom, practice using free leg to create multiple defensi
 - **[[Positions/Ashi Garami]]** - Common transition target representing safer leg entanglement position after escape
 - **[[Positions/Ashi Garami/Saddle]]** - Worse position representing common progression if toe hold defense fails
 - **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Related leg entanglement where similar defensive principles apply
-- **[[Transitions/Toe Hold]]** - Primary submission threat from this position
+- **[[Submissions/Toe Hold]]** - Primary submission threat from this position
 - **[[Submissions/Inside Heel Hook]]** - Common follow-up attack if opponent transitions from toe hold
 - **[[Transitions/Angle Change Escape]]** - Primary defensive transition technique for escaping toe hold control through angle adjustment
 - **[[Transitions/Ashi Garami Escape]]** - Key escape pathway to safer positions

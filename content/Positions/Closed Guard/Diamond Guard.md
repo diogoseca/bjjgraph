@@ -171,11 +171,9 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (22% of attempts)
-
 - **[[Transitions/Guard Pass from Diamond Guard/Attacker|Guard Pass from Diamond Guard]]** (22% of attempts)
 
-- **[[Transitions/Posture Recovery from Diamond Guard/Attacker|Posture Recovery from Diamond Guard]]** (20% of attempts)
+- **[[Transitions/Posture Recovery from Diamond Guard/Attacker|Posture Recovery from Diamond Guard]]** (42% of attempts)
 
 - **[[Transitions/Guard Opening Sequence/Attacker|Guard Opening Sequence]]** (18% of attempts)
 

@@ -50,12 +50,12 @@
       "relationship": "Target position reached on successful entry"
     },
     {
-      "name": "Twister Finish",
-      "relationship": "Primary submission follow-up from established Twister Control"
+      "name": "Twister",
+      "relationship": "Primary spinal lock submission available from established Twister Control"
     },
     {
-      "name": "Calf Slicer from Truck",
-      "relationship": "Alternative submission from the same figure-four entanglement"
+      "name": "Calf Slicer",
+      "relationship": "Alternative submission available from the same figure-four leg entanglement"
     },
     {
       "name": "Banana Split",
@@ -139,12 +139,12 @@
       {
         "step_number": 6,
         "action": "Secure figure-four and verify Twister Control",
-        "description": "Pinch the figure-four tight by driving your top leg down while pulling your bottom hook up, creating opposed forces that immobilize the opponent's hips. Test the lock by attempting to rotate their hips — they should be fully anchored. Adjust your chest pressure and seatbelt grip to establish complete Twister Control with both hip immobilization via legs and upper body control via harness. You are now in position to attack with Twister Finish, Calf Slicer, or Banana Split."
+        "description": "Pinch the figure-four tight by driving your top leg down while pulling your bottom hook up, creating opposed forces that immobilize the opponent's hips. Test the lock by attempting to rotate their hips — they should be fully anchored. Adjust your chest pressure and seatbelt grip to establish complete Twister Control with both hip immobilization via legs and upper body control via harness. You are now in position to attack with Twister, Calf Slicer, or Banana Split."
       },
       {
         "step_number": 7,
         "action": "Transition to preferred attack angle",
-        "description": "From established Twister Control, adjust your body angle relative to the opponent based on your intended attack. For Twister Finish, begin working your bottom arm under their head while pulling the far shoulder across their body. For Calf Slicer, reposition your figure-four to isolate the calf. For back take, use the figure-four as a platform to insert hooks. The figure-four provides a stable base for any of these offensive transitions."
+        "description": "From established Twister Control, adjust your body angle relative to the opponent based on your intended attack. For the Twister submission, begin working your bottom arm under their head while pulling the far shoulder across their body. For Calf Slicer, reposition your figure-four to isolate the calf. For back take, use the figure-four as a platform to insert hooks. The figure-four provides a stable base for any of these offensive transitions."
       }
     ],
     "common_counters": [
@@ -230,7 +230,7 @@
     "knowledge_assessment": [
       {
         "question": "What is the primary goal of the Twister entry from Cross Body Ride?",
-        "answer": "The primary goal is to convert the perpendicular turtle-top control of cross body ride into Twister Control by establishing a figure-four leg entanglement around the opponent's hips and near-side thigh. This creates the platform for high-percentage submissions including the Twister Finish, Calf Slicer, and Banana Split. The entry transitions from a positional control with multiple options to a specialized leg entanglement system with focused submission threats."
+        "answer": "The primary goal is to convert the perpendicular turtle-top control of cross body ride into Twister Control by establishing a figure-four leg entanglement around the opponent's hips and near-side thigh. This creates the platform for high-percentage submissions including the Twister, Calf Slicer, and Banana Split. The entry transitions from a positional control with multiple options to a specialized leg entanglement system with focused submission threats."
       },
       {
         "question": "Your opponent clamps their knees together as you attempt to thread the initial hook — how do you create the opening?",
@@ -412,5 +412,5 @@
       "when_to_use": "When direct hook threading from cross body ride is consistently being defended. The intermediate crab ride position provides a different angle of attack and additional control before committing to the Twister entry."
     }
   ],
-  "position_integration": "The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu-Jitsu back attack system, connecting the turtle-top control phase to the specialized leg entanglement submissions. Cross body ride serves as a decision point where the attacker chooses between conventional back control pathways (standard back take, crucifix) and the Twister system (figure-four entanglement leading to Twister Finish, Calf Slicer, Banana Split). This entry is one of several pathways into Twister Control — others include Roll to Truck from back control, Truck Position Entry from standing, and Electric Chair Transition from lockdown. Understanding the Twister entry from cross body ride specifically is important because cross body ride is one of the most common turtle-top positions encountered in live rolling, making this entry the most frequently available pathway into the Twister system for practitioners who play a turtle-attacking game."
+  "position_integration": "The Twister entry from Cross Body Ride is a critical link in the 10th Planet Jiu-Jitsu back attack system, connecting the turtle-top control phase to the specialized leg entanglement submissions. Cross body ride serves as a decision point where the attacker chooses between conventional back control pathways (standard back take, crucifix) and the Twister system (figure-four entanglement leading to Twister, Calf Slicer, Banana Split). This entry is one of several pathways into Twister Control — others include Roll to Truck from back control, Truck Position Entry from standing, and Electric Chair Transition from lockdown. Understanding the Twister entry from cross body ride specifically is important because cross body ride is one of the most common turtle-top positions encountered in live rolling, making this entry the most frequently available pathway into the Twister system for practitioners who play a turtle-attacking game."
 }

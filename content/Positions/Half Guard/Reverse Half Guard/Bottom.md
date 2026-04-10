@@ -169,6 +169,8 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Half Guard (Bottom)?</p>
+
 - Bottom player's back oriented toward opponent's chest in inverted configuration, with spine alignment running parallel to opponent's centerline while maintaining defensive hand positioning to protect neck and prevent hooks
 - One opponent leg trapped in half guard configuration between bottom player's legs, with strong inside control using both legs to clamp and control despite unconventional body orientation
 - Hip connection maintained with opponent's trapped leg, using active clamping pressure and constant tension through both legs to prevent leg extraction and maintain positional integrity
@@ -180,6 +182,8 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Reverse Half Guard (Bottom)?</p>
 
 - Strong half guard fundamentals and understanding of standard half guard mechanics
 - Good body awareness and spatial orientation during inverted positioning
@@ -195,6 +199,8 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Reverse Half Guard?</p>
+
 - Leg Control Priority: Maintain secure leg control to prevent immediate pass while setting up offense, using constant tension and active clamping
 - Dynamic Movement: Stay mobile and active to prevent opponent from settling into controlling position or establishing hooks on your back
 - Back Protection: Protect neck and prevent hooks while moving through vulnerable positions, keeping chin tucked and hands defending
@@ -208,6 +214,8 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse Half Guard (Bottom)?</p>
 
 **If opponent drives forward with heavy chest pressure attempting to flatten and control:**
 - Execute **[[Transitions/Rolling Back Take/Attacker|Rolling Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
@@ -236,6 +244,8 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Half Guard?</p>
 
 ### 1. Weak leg control allowing opponent's leg to slip free
 
@@ -275,6 +285,8 @@ This position is more common in advanced BJJ and no-gi grappling where mobility 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Reverse Half Guard defense?</p>
+
 ### Entry and Recognition Drill
 
 Partner drives into your standard half guard with forward pressure, forcing you into reverse half position. Practice recognizing position immediately and establishing secure leg control. Focus on smooth transition and immediate control establishment. Build awareness of when and how reverse half occurs naturally during rolling.
@@ -308,38 +320,6 @@ Start in reverse half with partner attempting to pass. Practice recovering to st
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical element for maintaining the reverse half guard position?
-**A**: Secure leg control is the most critical element. You must maintain tight clamping on the opponent's trapped leg using both of your legs with constant active tension. Without strong leg control, the opponent extracts their leg and passes immediately. Use hip pressure and continuous squeezing to prevent any space for leg removal.
-
-**Q2**: How do you protect your back while in the inverted reverse half guard configuration?
-**A**: Keep your chin tucked to your chest and maintain defensive hand positioning to protect your neck. Monitor the opponent's arm movements and immediately address any attempt to establish seat belt grips or hooks. One hand should always be ready to defend against neck attacks while the other controls the opponent's posture.
-
-**Q3**: Your opponent drives heavy forward pressure into you - what sweep opportunity does this create?
-**A**: Heavy forward pressure creates the ideal timing for the rolling back take or momentum-based sweeps. Use their committed weight against them by timing your rotation or sweep to coincide with their forward drive. The more they commit forward, the easier it is to redirect their momentum into a sweep or back exposure.
-
-**Q4**: When should you abandon your sweep attempt and recover to standard half guard?
-**A**: Recover to standard half guard when the opponent backs away, reduces forward pressure, or when you cannot find good timing for your sweep. If their weight is neutral or backward rather than forward, sweep attempts will fail. Also recover if they establish strong crossface control that prevents your rotation - address the control first.
-
-**Q5**: What happens if you remain static in reverse half guard bottom without attacking?
-**A**: The opponent settles their weight, establishes controlling grips, and methodically passes or takes your back. Reverse half guard bottom is a transitional position requiring immediate offensive action. You must attack within 2-3 seconds of establishing the position. Static defense allows the opponent time to stabilize and advance.
-
-**Q6**: How do you time your sweep attempt for maximum effectiveness?
-**A**: Wait for the opponent to commit their weight forward before initiating. Feel for the moment when their base is compromised by forward pressure - this is when their weight is over their knees rather than their hips. Execute the sweep explosively when this timing window opens. If their weight is neutral, wait or reposition rather than forcing a low-percentage attempt.
-
-**Q7**: Your opponent posts their hand to prevent your rotation - how do you capitalize on this?
-**A**: Their posting hand creates the perfect setup for the old school sweep. When they post to establish base, their weight shifts and they become vulnerable to being swept in the opposite direction. Use your underhook to lift and off-balance them over their posted hand while controlling their trapped leg.
-
-**Q8**: What are the key differences between attacking from reverse half guard versus standard half guard?
-**A**: Reverse half guard emphasizes momentum-based attacks using opponent's forward pressure, while standard half guard allows more methodical underhook-based sweeps. The inverted orientation creates unique rolling back take opportunities but increases back exposure risk. Attacks must be more explosive and timed with opponent's weight commitment rather than built through sustained control.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -368,7 +348,7 @@ Start in reverse half with partner attempting to pass. Practice recovering to st
 - **[[Positions/Half Guard/Old School]]** - Sweep setup position from reverse half
 - **[[Positions/Combat Base]]** - Opponent's typical defensive posture
 - **[[Positions/Half Guard/Lockdown]]** - Related half guard variation with inverted elements
-- **[[Positions/Scramble Position]]** - Transitional state where reverse half commonly occurs
+- **[[Positions/Standing Position]]** - Transitional state where reverse half commonly occurs
 
 
 </section>

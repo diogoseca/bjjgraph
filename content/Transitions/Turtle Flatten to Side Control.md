@@ -204,7 +204,7 @@ Turtle Flatten to Side Control occupies a critical decision point in the turtle 
 
 - [[Transitions/Crucifix from Turtle]] - Alternative attack when opponent posts arm during flatten
 
-- [[Submissions/Kimura from Turtle]] - Submission option on posted arm during flatten defense
+- [[Submissions/Kimura]] - Submission option on posted arm during flatten defense
 
 - [[Transitions/Anaconda from Turtle]] - Front headlock submission if opponent sits through flatten
 

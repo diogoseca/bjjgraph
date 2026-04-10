@@ -28,7 +28,7 @@ The grip control established in the Kimura position provides exceptional leverag
 
 Understanding this transition fundamentally changes how practitioners approach the Kimura, transforming it from merely a submission attempt into a positional control system that offers multiple attacking pathways. The transition creates a classic dilemma: defend the shoulder lock and expose the back, or protect the back and risk the submission finish. This forced choice is what makes the Kimura to Back Take one of the most reliable positional advancement tools in the modern grappling arsenal.
 
-**From Position**: [[Positions/Kimura Trap]] (Top)
+**From Position**: [[Positions/Kimura Trap]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -205,17 +205,17 @@ The Kimura to Back Take is a cornerstone transition in modern Brazilian Jiu-Jits
 
 - [[Positions/Back Control]] - Ending position - destination of successful transition
 
-- [[Transitions/Kimura]] - Submission threat that creates defensive reaction enabling transition
+- [[Submissions/Kimura]] - Submission threat that creates defensive reaction enabling transition
 
-- [[Submissions/Kimura from Side Control]] - Common entry point - primary context for initiating transition
+- [[Positions/North-South]] - Alternative position context where Kimura grip can be established before transitioning to back take
 
-- [[Submissions/Kimura from Turtle]] - Alternative entry - variation from top turtle position
+- [[Positions/Turtle]] - Alternative entry position - Kimura grip established against turtled opponent enables direct back take
 
-- [[Transitions/Rear Naked Choke]] - Follow-up attack - primary submission after establishing back control
+- [[Submissions/Rear Naked Choke]] - Follow-up attack - primary submission after establishing back control
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Follow-up position - control system established after transition
 
-- [[Submissions/Armbar from Back]] - Alternative finish - submission option from achieved back position
+- [[Transitions/Armbar from Back Transition]] - Alternative finish - submission option from achieved back control position
 
 - [[Transitions/Back Take]] - Related technique - alternative back take method from various positions
 

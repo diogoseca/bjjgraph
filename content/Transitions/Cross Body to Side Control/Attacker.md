@@ -194,6 +194,8 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Cross Body to Side Control?</p>
+
 - Maintain continuous chest-to-back pressure throughout the entire transition without creating space
 - Drive shoulder pressure downward through opponent's near shoulder to collapse their posting arm
 - Control opponent's far hip with your near-side knee or hand to prevent guard recovery during transition
@@ -208,6 +210,8 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Cross Body to Side Control?</p>
+
 - Established cross body ride with perpendicular chest-to-back contact on turtled opponent
 - Upper body control secured through harness grip, seatbelt, or overhook preventing opponent from standing
 - Opponent's back take defense is effective, making flattening to side control the superior option
@@ -220,6 +224,8 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Cross Body to Side Control step by step?</p>
 
 1. **Secure perpendicular chest pressure**: From cross body ride, ensure your chest is firmly planted across the opponent's upper back with your sternum contacting the area between their shoulder blades. Drive your weight downward through your shoulder into their near-side shoulder blade. Your hips should be positioned to the side with your base leg posted wide for stability.
 2. **Establish far hip control**: Reach your near-side arm across the opponent's back to control their far hip or hook under their far armpit. This prevents them from rolling away or creating the angle needed for guard recovery. This control point is critical for blocking the most common defensive reaction during the transition.
@@ -250,6 +256,8 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Cross Body to Side Control?</p>
+
 - **Opponent executes granby roll during the flattening phase** (Effectiveness: High) - Your Response: Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. If they complete the roll, immediately re-establish top control in the resulting position. → Leads to [[Positions/Half Guard]]
 - **Opponent posts far arm and turns into you to recover guard** (Effectiveness: Medium) - Your Response: Capitalize on the extended arm by threatening armbar or shifting to crucifix entry. The posting arm creates a lever you can exploit rather than fighting to flatten against their frame. → Leads to [[Positions/Cross Body Ride]]
 - **Opponent sits through attempting guard recovery** (Effectiveness: High) - Your Response: Follow their hip movement and maintain chest connection. If they successfully insert a knee, accept half guard top and immediately work to pass rather than trying to force them back to turtle. → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Cross Body to Side Control?</p>
 
 ### 1. Lifting chest off opponent's back to reposition during transition
 
@@ -300,6 +310,8 @@ As the attacker executing Cross Body to Side Control, your primary objective is 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Cross Body to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic flattening sequence
 Practice the full transition sequence with a cooperative partner from cross body ride to side control. Focus on maintaining chest contact throughout, proper weight transfer from back to chest, and establishing all control points. Partner offers no resistance. 20 repetitions per side.
 
@@ -320,39 +332,12 @@ Practice flowing between back take attempts, cross body to side control, and cru
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical mechanical principle when transitioning from cross body ride to side control?
-**A**: Pressure must precede movement. You must first collapse the opponent's turtle structure through sustained shoulder pressure before attempting to slide into the side control position. Trying to transition while the opponent still has a strong turtle base creates space and scramble opportunities that defeat the purpose of the technique.
-
-**Q2**: When should you choose to flatten to side control rather than pursue a back take from cross body ride?
-**A**: Choose the side control transition when the opponent demonstrates strong turtle defense that prevents back exposure—tight elbows, hidden neck, solid posting structure, or effective hook defense. If multiple back take attempts have been defended and the opponent is successfully maintaining their defensive shell, flattening to side control provides reliable positional advancement rather than stalling in a control position.
-
-**Q3**: Your opponent begins executing a granby roll as you initiate the flatten—how do you respond?
-**A**: Follow the roll direction by maintaining chest contact and letting your weight travel with their rotation rather than trying to stop the roll. Keep your chest glued to their back throughout the movement. If they complete the roll, immediately establish top control in the resulting position. Resisting the roll creates separation that often results in a worse outcome than flowing with it.
-
-**Q4**: What role does far hip control play during this transition?
-**A**: Far hip control is the primary structural element preventing guard recovery. Without it, the opponent can freely rotate their hips, insert a knee between your bodies, and recover half guard or full guard. Establishing far hip control with your near-side hand or knee before initiating the flatten ensures the most common counter—guard recovery through hip rotation—is blocked.
-
-**Q5**: Why is it an error to lift your chest during the transition from back contact to chest contact?
-**A**: Lifting your chest creates a gap between your body and the opponent's body. Even a momentary gap allows the opponent to insert frames, re-establish their turtle posting structure, execute a sit-through to guard recovery, or initiate a scramble. The transition must be executed as a continuous slide where your chest maintains unbroken contact, transferring from their back to their chest without separation.
-
-**Q6**: What distinguishes the knee block from other hip control methods during this transition?
-**A**: The near-side knee block creates a physical barrier at the opponent's far hip that passively prevents knee insertion for guard recovery. Unlike hand-based hip control which requires grip strength and can be stripped, the knee block uses skeletal structure to maintain the barrier. This frees your hands to establish crossface and underhook control while the knee handles hip management automatically.
-
-**Q7**: How do you adjust your approach when the opponent repeatedly rebuilds their turtle base during flattening attempts?
-**A**: When the opponent successfully rebuilds turtle after pressure, it indicates either insufficient pressure angle or that they have developed effective re-posting timing. Adjust by changing your pressure angle—walk feet closer to their head to increase the downward component—or by threatening a back take first to force them to commit defensive resources away from base maintenance. Creating a genuine back take threat often opens the flatten as a secondary option.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Cross Body to Side Control?</p>
 
 This transition involves sustained pressure on the opponent's spine and shoulders during the flattening phase. Apply pressure progressively rather than explosively to allow training partners to adjust and defend. Be aware of the opponent's neck position during crossface establishment—aggressive crossface application can strain the cervical spine. During the transition, avoid driving weight directly onto the opponent's lower back or kidneys. In training, communicate with partners about pressure levels and release immediately if they signal discomfort.
 

@@ -175,15 +175,15 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 - **[[Transitions/Truck Entry/Attacker|Truck Entry]]** (13% of attempts)
 
-- **[[Transitions/Twister Finish/Attacker|Twister Finish]]** (10% of attempts)
+- **[[Twister from Russian Cowboy/Attacker|Twister from Russian Cowboy]]** (10% of attempts)
 
 - **[[Transitions/Back Control to Crucifix/Attacker|Back Control to Crucifix]]** (12% of attempts)
 
-- **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (11% of attempts)
+- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (11% of attempts)
 
-- **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** (10% of attempts)
+- **[[Calf Slicer from Russian Cowboy/Attacker|Calf Slicer from Russian Cowboy]]** (10% of attempts)
 
-- **[[Transitions/Bow and Arrow Choke/Attacker|Bow and Arrow Choke]]** (10% of attempts)
+- **[[Bow and Arrow Choke from Russian Cowboy/Attacker|Bow and Arrow Choke from Russian Cowboy]]** (10% of attempts)
 
 - **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (16% of attempts)
 
@@ -191,7 +191,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 - **[[Transitions/Russian Cowboy to Back Control/Attacker|Russian Cowboy to Back Control]]** (5% of attempts)
 
-- **[[Submissions/Russian Cowboy RNC/Attacker|Russian Cowboy RNC]]** (2% of attempts)
+- **[[Rear Naked Choke from Russian Cowboy/Attacker|Rear Naked Choke from Russian Cowboy]]** (2% of attempts)
 
 
 ### Common Mistakes

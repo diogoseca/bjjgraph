@@ -188,6 +188,8 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Omoplata to Sweep?</p>
+
 - Maintain tight hip connection throughout the entire sweep to control opponent's posture and prevent arm extraction
 - Use opponent's forward roll or posting reaction as the primary sweeping mechanism rather than fighting against their movement
 - Keep constant pressure on the trapped shoulder to prevent escape during transition
@@ -203,6 +205,8 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Omoplata to Sweep?</p>
+
 - Omoplata control established with opponent's arm trapped between your legs and shoulder under rotational pressure
 - Hip positioned tight to opponent's shoulder with legs configured in omoplata position
 - Opponent beginning defensive reaction such as rolling forward, posting free hand, or attempting to stack
@@ -216,6 +220,8 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Omoplata to Sweep step by step?</p>
 
 1. **Recognize defensive reaction**: As you secure the omoplata position, observe your opponent's defensive reaction. They will typically either attempt to roll forward over their trapped shoulder, post their free hand on the mat to create a base, or try to stack you by driving their weight onto your guard. Each defensive option creates specific sweeping opportunities. Maintain constant pressure on the trapped shoulder while monitoring their weight distribution and movement patterns.
 2. **Secure free arm control**: Before initiating the sweep, establish control of your opponent's free arm to eliminate their primary posting opportunity. Reach across their body and grip their free wrist, sleeve, or triceps. This control prevents them from creating a stable base and forces their weight to shift forward onto the trapped shoulder. Pull the free arm slightly toward their trapped shoulder to further compromise their base and create rotational momentum.
@@ -245,6 +251,8 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Omoplata to Sweep?</p>
+
 - **Opponent rolls through the sweep and recovers guard** (Effectiveness: Medium) - Your Response: Maintain hip pressure throughout the roll and immediately establish mount or side control. Follow their rotation closely without allowing space to develop. If they attempt to continue rolling, use their momentum to transition to back control by securing the seat belt grip as they turn. → Leads to [[Positions/Omoplata Control]]
 - **Opponent posts free hand strongly and prevents the sweep** (Effectiveness: Medium) - Your Response: Attack the posted arm with a kimura or armbar since the posting action extends their arm away from their body, creating ideal submission angles. Alternatively, switch to attacking the original omoplata submission more aggressively to force them to remove the post and resume the sweep attempt. → Leads to [[Positions/Omoplata Control]]
 - **Opponent stacks you by driving forward pressure and flattening your hips** (Effectiveness: High) - Your Response: Abandon the sweep temporarily and create defensive frames to prevent being flattened. Shrimp your hips away to create space and angle, then transition to alternative attacks such as triangle or armbar from the inverted position. If fully stacked, work to recover standard guard position before re-attacking. → Leads to [[Positions/Omoplata Control]]
@@ -256,6 +264,8 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Omoplata to Sweep?</p>
 
 ### 1. Releasing hip pressure during the sweep
 
@@ -295,6 +305,8 @@ The Omoplata to Sweep is a high-percentage transition that converts your opponen
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Omoplata to Sweep (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Understanding the basic sweep motion and omoplata control
 Partner begins in turtle position while you establish omoplata control from the side. Practice the hip elevation and leg extension mechanics slowly, focusing on maintaining hip-to-shoulder connection. Partner provides zero resistance but simulates forward rolling motion. Repeat 10-15 repetitions per side, emphasizing smooth technique over speed or power.
 
@@ -315,48 +327,12 @@ Incorporate the omoplata to sweep into full sparring sessions. Focus on setting 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive reaction that creates the sweeping opportunity from omoplata?
-**A**: The primary reaction is when the opponent rolls forward over their trapped shoulder or posts their free hand to relieve pressure on the shoulder joint. Both reactions compromise their base and create the mechanical disadvantage needed to complete the sweep. The forward roll provides momentum you can amplify, while the posting action extends their arm and narrows their base.
-
-**Q2**: Why is controlling the opponent's free arm critical for successful execution of this sweep?
-**A**: Controlling the free arm eliminates the opponent's primary method of creating base and preventing the sweep. When they cannot post their hand on the mat, they lose the ability to counter the rotational force you generate with your legs and hips. Additionally, pulling the free arm across their body adds to the rotational momentum and further compromises their balance. Without this control, skilled opponents will consistently base out and prevent the sweep.
-
-**Q3**: Your opponent successfully stacks you during the sweep attempt - how do you adjust?
-**A**: When facing a stack, abandon the sweep temporarily and create defensive frames to prevent being flattened. Shrimp your hips away to create space and angle, then transition to alternative attacks such as triangle choke or armbar from the inverted position, or work to recover standard guard position. The key is recognizing that continuing to force the sweep against a successful stack wastes energy and increases vulnerability to being passed.
-
-**Q4**: What is the relationship between the omoplata submission threat and the success rate of the sweep?
-**A**: The omoplata submission threat and the sweep create a synergistic dilemma for the opponent. The more dangerous your omoplata attack, the more urgently they will react defensively, which makes the sweep easier to execute. Conversely, if they focus on preventing the sweep by maintaining base, you have more time and opportunity to finish the shoulder lock. This principle of creating offensive dilemmas is fundamental to high-level guard play.
-
-**Q5**: What is the most critical hip movement for generating maximum sweeping force?
-**A**: The hip movement begins with explosive upward elevation while maintaining tight connection to the opponent's shoulder. As your hips rise, you simultaneously extend your top leg in a kicking motion, which creates rotational torque. The bottom leg maintains pressure across their neck and upper back throughout. Your hips should track in an arc from low position near the mat to elevated position above their shoulder line, then follow through by rotating in the direction of the sweep. The timing of simultaneous elevation and leg extension is the key mechanical detail.
-
-**Q6**: Your opponent posts their free hand and halts the sweep - what grip adjustments do you make?
-**A**: When the opponent posts successfully, you have two immediate options. First, attack the posted arm directly with a kimura grip by releasing your belt grip and securing figure-four control on the extended posting arm. The post creates ideal kimura geometry because the arm is extended and weight-bearing. Second, if you already have the free arm controlled and they post with it anyway, pull the arm sharply across their centerline to collapse the post and resume the sweep. Never fight a strong post with leg force alone when the arm is available to attack.
-
-**Q7**: What conditions must exist before you initiate the sweep rather than continuing to attack the omoplata finish?
-**A**: Initiate the sweep when the opponent commits their weight forward or laterally in a way that compromises their base. Specific triggers include: they begin a forward roll, they post their free hand wide creating narrow base, or they drive into you creating forward momentum you can redirect. If the opponent remains stationary with good base and their shoulder is accessible, continue attacking the omoplata finish. The sweep requires the opponent's weight to be in transition or their base to be compromised. Forcing the sweep against a settled, well-based opponent wastes energy.
-
-**Q8**: How do you chain attacks if the sweep stalls at the halfway point with opponent partially rolled?
-**A**: If the opponent stalls mid-roll, you have several chain options depending on arm control. If you still control the trapped arm, immediately transition to an armbar by swinging your far leg over their head while they are in the compromised half-rolled position. If they have extracted the arm but are partially inverted, secure a seat belt grip and work to establish back control by inserting hooks as they try to recover base. The mid-roll position is actually advantageous because the opponent is neither in guard nor in a stable top position, and any recovery attempt creates openings.
-
-**Q9**: What are the key indicators for choosing mount versus technical mount versus back control after the sweep lands?
-**A**: Choose standard mount when the opponent lands flat on their back with no rotational momentum, as this provides the most stable control platform. Choose technical mount when you maintain excellent arm control and the opponent is partially turned, as this preserves the trapped arm for immediate submission while preventing guard recovery. Choose back control when the opponent continues rolling aggressively past the sweep completion point and exposes their back. The decision should be reactive rather than pre-planned, based on the opponent's body position at the moment the sweep completes.
-
-**Q10**: How does the direction of force application differ between sweeping an opponent who rolls forward versus one who posts?
-**A**: Against a forward-rolling opponent, the force is primarily rotational. You amplify their existing momentum by extending your top leg and elevating hips in the same direction they are already moving. The timing is about acceleration, not initiation. Against a posting opponent, the force is more lateral and leveraged. You must break their post first by controlling or attacking the posting arm, then apply rotational force perpendicular to their remaining base. The posting opponent requires more setup work but the sweep itself is more controlled because you dictate the tempo rather than riding their momentum.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Omoplata to Sweep?</p>
 
 When practicing the omoplata to sweep, ensure controlled execution to protect both partners from injury. The primary safety concern is the trapped shoulder, which is under significant rotational stress during the omoplata position. Never force the sweep explosively during drilling or technical training - build speed gradually as both partners develop comfort with the movement patterns. Partners should communicate clearly and tap immediately if they feel excessive pressure on the shoulder joint or if they are unable to roll safely through the sweep. When first learning the technique, the person being swept should practice the forward roll in isolation to ensure they can perform it safely without injuring their neck or shoulders. Avoid practicing this technique against partners with pre-existing shoulder injuries or limited mobility. As the person executing the sweep, maintain constant awareness of your partner's safety and release pressure immediately upon any tap or verbal signal. During live sparring, recognize that forcing this sweep against a much larger opponent may put excessive stress on your hips and lower back - use technical precision rather than raw force.
 

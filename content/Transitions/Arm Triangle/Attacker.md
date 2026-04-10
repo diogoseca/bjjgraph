@@ -192,6 +192,8 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Triangle?</p>
+
 - Drive opponent's arm across their face using shoulder pressure and head positioning before attempting to lock the choke
 - Create a tight figure-four grip by connecting your hands palm-to-palm or gable grip behind opponent's neck
 - Eliminate all space between your choking arm and opponent's neck by walking your elbow toward the mat
@@ -206,6 +208,8 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Triangle?</p>
+
 - Established High Mount position with weight forward on opponent's chest
 - Opponent's near-side arm positioned across their centerline toward their opposite shoulder
 - Head control established with your head driving into opponent's trapped arm side
@@ -218,6 +222,8 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Triangle step by step?</p>
 
 1. **Isolate the arm**: From High Mount, use cross-face pressure with your shoulder to drive opponent's near-side arm across their face toward their opposite shoulder. Your head should be tight against their head on the trapped arm side. Do not use your hands to push the arm—shoulder pressure and head drive provide more sustained force that is harder for them to resist.
 2. **Thread choking arm**: Slide your arm that is closest to their trapped arm underneath their head, threading it through the space between their neck and trapped arm. Your bicep should be against one side of their neck. The deeper you thread, the tighter the eventual choke—aim to get your hand past their far ear before connecting the grip.
@@ -247,6 +253,8 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Triangle?</p>
+
 - **Frame on bicep and create space before arm crosses centerline** (Effectiveness: High) - Your Response: Switch to americana or kimura attack on the framing arm, or use their extended arm for armbar setup → Leads to [[Positions/Mount/High Mount]]
 - **Turn into the attacker and attempt to come to knees before choke is locked** (Effectiveness: Medium) - Your Response: Follow their turn and transition to back control, or maintain the choke grip and finish from back mount → Leads to [[Positions/Half Guard]]
 - **Extract trapped arm by turning shoulder and pulling elbow back before grip connects** (Effectiveness: Medium) - Your Response: Immediately attack the exposed neck with cross collar choke or transition to gift wrap control → Leads to [[Positions/Mount/High Mount]]
@@ -258,6 +266,8 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Triangle?</p>
 
 ### 1. Attempting to lock the choke before driving arm fully across opponent's face
 
@@ -297,6 +307,8 @@ Strategically, the Arm Triangle serves as a cornerstone technique that chains se
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Triangle (Attacker)?</p>
+
 **Week 1-2** - Arm isolation mechanics
 Practice driving opponent's arm across their face using shoulder pressure from mount. Partner offers no resistance. Focus on the angle and pressure needed to move the arm across centerline without using your hands.
 
@@ -317,48 +329,12 @@ Apply the Arm Triangle in live rolling from mount. Work on recognizing the setup
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Arm Triangle from High Mount?
-**A**: The optimal window opens when the opponent pushes on your chest with frames or attempts to turn away from pressure. Their arm crossing their centerline is the trigger. Initiating before the arm crosses wastes energy, while waiting too long allows them to re-establish defensive posture. The moment their forearm passes their chin line, commit to the shoulder drive.
-
-**Q2**: What conditions must exist before you can attempt the Arm Triangle from High Mount?
-**A**: You need established High Mount with forward weight distribution, the opponent's near-side arm driven across their centerline toward their opposite shoulder, your head tight against their head on the trapped arm side for the wedge, and your base maintained through hip positioning. Without the arm across the face, there is no choke structure to build.
-
-**Q3**: What grip configuration creates the choking pressure in an Arm Triangle?
-**A**: A palm-to-palm or gable grip connected behind opponent's head creates the choking structure. Your bicep presses against one side of their neck while your forearm presses against the other side, with their own shoulder completing the triangle against their carotid artery. The grip must lock behind the base of the skull for maximum leverage.
-
-**Q4**: Your opponent frames strongly on your chest to prevent the arm from crossing - how do you capitalize?
-**A**: When they extend arms to frame, they expose those arms for submission attacks. Switch to an americana on their near arm, attack a kimura on the far arm, or use their extended arm for an armbar setup. Their defensive frame becomes your offensive opportunity because extended arms cannot protect themselves.
-
-**Q5**: Why is head position critical in preventing the opponent from extracting their trapped arm?
-**A**: Your head acts as a wedge that blocks their shoulder from rotating backward. By driving your head down with your ear tight against their temple, you eliminate the space they need to turn their shoulder and pull their elbow back. Without this wedge, they can extract the arm before you finish. The head wedge must be maintained from grip connection through the finish.
-
-**Q6**: What is the correct direction of force when finishing the Arm Triangle choke?
-**A**: The squeeze comes from pulling your elbows together while expanding your chest, not from cranking sideways on the neck. Walk your choking elbow toward the mat while your chest expands into the choke. This creates a blood choke through bilateral carotid compression rather than a neck crank, which is both more effective and safer.
-
-**Q7**: Your opponent begins turning into you during the setup - what is your response?
-**A**: Follow their turn and transition to back control while maintaining your arm position. You can either finish the choke from back mount or abandon the choke and establish hooks for back control. Their turn gives you their back if you follow rather than fight it. Fighting the turn head-on wastes energy and often results in losing the grip entirely.
-
-**Q8**: Why do many practitioners prefer finishing the Arm Triangle from side control rather than mount?
-**A**: Side control provides better mechanical advantage for the finishing squeeze. The angle allows you to walk your elbow toward the mat more effectively and creates perpendicular pressure across the neck. Mount limits this angle and makes it harder to generate maximum squeeze without lifting your hips, which creates space for escape.
-
-**Q9**: What grip type should you use and where exactly should it connect behind the opponent's head?
-**A**: Use a palm-to-palm or gable grip locked behind the base of the opponent's skull, not on top of their neck. Gripping too high reduces choking leverage because the force vector misses the carotid arteries. The deep grip ensures your bicep and forearm create maximum bilateral compression on the neck while their own shoulder completes the choking triangle.
-
-**Q10**: The Arm Triangle is defended and you cannot finish - what chain attacks are available?
-**A**: If the opponent successfully prevents the arm from crossing, attack their framing arm with americana or armbar. If they turn into you during the choke, take the back. If they extract the trapped arm, attack the now-exposed neck with a cross collar choke or transition to gift wrap control. If they bridge during dismount, abandon the choke and re-establish High Mount to attack again. Every defense opens a different offensive pathway.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Triangle?</p>
 
 The Arm Triangle is a blood choke that can cause unconsciousness rapidly when applied correctly. Training partners should tap early and often, ideally before the choke is fully locked. The attacker must release immediately upon feeling a tap or verbal submission. Be aware that some practitioners may not feel the choke building until it is nearly complete. When drilling, apply the squeeze gradually and give partners time to tap. Avoid cranking sideways on the neck, which can cause cervical spine injury. If training with a partner who goes unconscious, release immediately, position them on their side, and they should regain consciousness within seconds. Seek medical attention if recovery is delayed.
 

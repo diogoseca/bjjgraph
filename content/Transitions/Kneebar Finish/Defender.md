@@ -164,6 +164,8 @@ The most common defensive error is extending your leg in the first place. Unders
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kneebar Finish?</p>
+
 - Attacker releases heel hook grip and both hands shift to control your ankle area, pulling your foot toward their chest
 - Attacker's hips reposition so your knee joint aligns directly across their hip crease, creating a visible fulcrum point for hyperextension
 - Attacker's knees pinch together around your thigh above the knee, restricting your ability to bend or rotate your leg
@@ -175,6 +177,8 @@ The most common defensive error is extending your leg in the first place. Unders
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kneebar Finish?</p>
 
 - Never fully extend your trapped leg in Carni - this is the primary trigger that enables the kneebar transition from heel hook control
 - Bend your knee immediately and forcefully the moment you feel grip transition from heel to ankle, using hamstring strength to close the hyperextension angle
@@ -188,6 +192,8 @@ The most common defensive error is extending your leg in the first place. Unders
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kneebar Finish?</p>
 
 ### 1. Forceful knee bend with hamstring curl to remove hyperextension angle
 
@@ -225,6 +231,8 @@ The most common defensive error is extending your leg in the first place. Unders
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kneebar Finish?</p>
+
 ### → [[Positions/Rubber Guard/Carni]]
 
 Bend your knee forcefully the instant you recognize the grip transition to ankle control. Use maximum hamstring contraction to close the hyperextension angle before the attacker can establish tight hip positioning. Once your knee is bent, the kneebar is neutralized and you return to defending the standard Carni heel hook threat.
@@ -240,6 +248,8 @@ Use your free leg to push against the attacker's hips while simultaneously extra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kneebar Finish?</p>
 
 ### 1. Extending your trapped leg to create distance while caught in Carni
 
@@ -274,6 +284,8 @@ Use your free leg to push against the attacker's hips while simultaneously extra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kneebar Finish?</p>
+
 **Week 1-2** - Recognition and knee bend reflex
 Partner transitions slowly from heel hook grip to ankle grip in Carni. Practice recognizing the grip change and immediately bending your knee with maximum hamstring contraction. No finishing pressure applied - focus purely on building the recognition-to-response reflex.
 
@@ -290,29 +302,6 @@ Full positional sparring from Carni where attacker has all submission options. P
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important thing to avoid doing when trapped in Carni to prevent the kneebar?
-**A**: Never fully extend your trapped leg while in Carni. Leg extension is the primary trigger that enables the attacker to transition from heel hook control to kneebar mechanics. Maintain a slight bend in your knee at all times, using hip movement and upper body positioning to create distance rather than straightening your leg. The attacker is specifically waiting for this extension to switch attacks.
-
-**Q2**: You feel the attacker's hands shift from your heel to your ankle - what is your immediate response?
-**A**: Immediately contract your hamstring with maximum force to bend your knee and close the hyperextension angle. This grip transition from heel to ankle is the primary recognition cue that the kneebar attempt is beginning. You have approximately one to two seconds before the attacker establishes hip positioning and knee pinch that will make bending extremely difficult. Speed of response is critical because the window to defend shrinks rapidly.
-
-**Q3**: Why should you roll toward the attacker rather than away when defending the kneebar?
-**A**: Rolling toward the attacker collapses the distance between your bodies and disrupts the precise hip alignment they need across your knee joint. Rolling away actually presents your leg at a better finishing angle and allows the attacker to follow into a belly-down kneebar where gravity assists their hip extension. By rolling inward, you compress the space they need for the fulcrum and create an opportunity to recover your knee bend.
-
-**Q4**: At what point should you tap to a kneebar rather than continuing to fight the defense?
-**A**: Tap immediately when you feel hyperextension pressure on your knee and you cannot bend your leg despite maximum hamstring effort. Unlike chokes where you have a gradual window, the kneebar can damage the posterior cruciate ligament and joint capsule with sudden structural failure before you feel adequate warning pain. If their hips are extending, your knee is straight, and your leg is locked in their pinch, the submission is complete and fighting it risks catastrophic injury.
-
-**Q5**: How can you use the kneebar defense as an opportunity to escape Carni entirely?
-**A**: When you successfully bend your knee to defeat the kneebar, use that defensive momentum to continue extracting your leg from the entanglement entirely. Push their hips away with your free leg while hip escaping backward. The attacker is momentarily committed to the failed kneebar position and must reset their grips, giving you a window to recover to half guard. Converting defensive success into positional improvement prevents the attacker from simply cycling back to the heel hook.
-
-
-
-</section>
 
 
 </main>

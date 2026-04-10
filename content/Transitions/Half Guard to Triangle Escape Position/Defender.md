@@ -154,6 +154,8 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Triangle Escape Position?</p>
+
 - Opponent begins driving their hips forward and pushing upward from their legs to recover vertical posture against your triangle
 - Opponent pins their trapped arm's elbow against their ribs and positions their hand defensively near their chest
 - Opponent posts their free hand on the mat or on your hip to create a structural base for escape
@@ -166,6 +168,8 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Triangle Escape Position?</p>
 
 - Maintain constant downward pulling pressure on the opponent's head to prevent posture recovery which is their primary escape mechanism
 - Optimize your choking angle by scooting your hips laterally to achieve perpendicular positioning before they can establish hip control
@@ -180,6 +184,8 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Triangle Escape Position?</p>
 
 ### 1. Pull head down aggressively with both hands while squeezing knees together to re-break posture
 
@@ -217,6 +223,8 @@ As the defender (the bottom guard player maintaining the triangle), your objecti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Triangle Escape Position?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Maintain constant head pull and angle optimization to prevent posture recovery. Squeeze knees together and extend hips before they establish stacking pressure. Threaten armbar transitions to keep them addressing multiple problems simultaneously.
@@ -228,6 +236,8 @@ Maintain constant head pull and angle optimization to prevent posture recovery. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Triangle Escape Position?</p>
 
 ### 1. Allowing the opponent to recover posture without immediately re-pulling their head down
 
@@ -257,6 +267,8 @@ Maintain constant head pull and angle optimization to prevent posture recovery. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Triangle Escape Position?</p>
+
 **Phase 1: Angle optimization and head control** - Developing automatic angle adjustment and head pulling response when opponent begins escape
 From locked triangle position, partner begins slowly posturing up. Practice immediately scooting hips laterally and pulling head down. Focus on recognizing the first micro-movements of escape and responding instantly.
 
@@ -270,26 +282,6 @@ Start with triangle caught during half guard pass. Top player attempts full esca
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical window for preventing the triangle escape position from being established?
-**A**: The first two to three seconds after the opponent recognizes the triangle threat. During this window, the opponent is transitioning from offensive passing mindset to defensive survival and has not yet established arm protection, posting base, or posture recovery. Aggressive head pulling and angle optimization during this window can prevent the escape position from ever being established, making the finish dramatically more likely.
-
-**Q2**: How does threatening an armbar transition disrupt the opponent's escape sequence?
-**A**: The armbar threat forces the opponent to prioritize keeping their trapped arm's elbow pinned to their ribs, which reduces the range of motion and force they can generate during posture recovery. It also creates a decision dilemma: if they focus on posture recovery they expose the arm, if they focus on arm protection they cannot generate full escape power. This divided attention slows their transition and gives you more time to finish the triangle.
-
-**Q3**: Your opponent has recovered partial posture and is beginning to stack your weight - what adjustment maintains your finishing threat?
-**A**: Angle your hips further laterally to maintain the perpendicular choking alignment despite the changed pressure angle. Use your hands on the back of their head to re-pull them down while simultaneously walking your shoulders away to create more distance for hip elevation. If the stack is deep, consider transitioning to an armbar or omoplata rather than fighting a losing battle against the stacking pressure.
-
-**Q4**: Why is controlling the opponent's free posting arm so important during the early transition phase?
-**A**: The free posting arm is the structural foundation for the opponent's entire escape sequence. Without it, they cannot establish the base needed for posture recovery, cannot create the structural frame for stacking pressure, and cannot control your hips to prevent angle optimization. Removing this single element cascades through their entire escape plan, making every subsequent step significantly harder to execute.
-
-
-
-</section>
 
 
 </main>

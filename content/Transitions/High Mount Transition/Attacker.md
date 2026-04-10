@@ -176,7 +176,7 @@ The High Mount Transition from Gogoplata Control represents a strategic position
 
 The mechanics rely on recognizing the specific defensive reactions that create mount opportunities. An opponent who drives forward to escape shin pressure actually assists the transition by providing upward momentum. The bottom player releases the foot-behind-head grip, plants the posting leg, and hip escapes laterally while maintaining upper body control. The previously attacking leg swings over to establish the mount position, with the natural momentum carrying the practitioner into a high mount configuration where the knees are in the opponent's armpits.
 
-Strategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to Americana, mounted triangle, and S-mount attacks, making this transition a gateway to multiple finishing sequences.
+Strategically, this transition serves multiple purposes in a systematic game plan. First, it provides an escape route when the gogoplata is defended without conceding position. Second, it creates a genuine dilemma for the defender who must choose between accepting submission pressure or giving up the mount. Third, it demonstrates how guard attacks and positional advancement can be seamlessly integrated rather than treated as separate objectives. The high mount achieved provides immediate access to mounted triangle and S-mount attacks, making this transition a gateway to multiple finishing sequences.
 
 **From Position**: [[Positions/Gogoplata Control]] (Bottom)
 
@@ -185,6 +185,8 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing High Mount Transition?</p>
 
 - Release submission grip timing must coincide with opponent's forward momentum, not before
 - Maintain upper body control throughout transition to prevent opponent from creating distance
@@ -201,6 +203,8 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting High Mount Transition?</p>
+
 - Established gogoplata control with shin across opponent's throat and foot secured behind head
 - Opponent initiating defensive movement such as forward roll, chin tuck, or posture attempt
 - Sufficient hip mobility to quickly transition from guard configuration to mount position
@@ -213,6 +217,8 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute High Mount Transition step by step?</p>
 
 1. **Recognize defensive trigger**: Identify when opponent commits to forward movement, chin tuck, or posture attempt that creates mounting opportunity. The key indicator is forward pressure or attempted roll rather than lateral escape.
 2. **Release foot behind head**: Remove your foot from behind opponent's head by releasing your hand grip on your own ankle. Maintain shin contact momentarily while transitioning your upper body control to collar or head grip.
@@ -241,6 +247,8 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter High Mount Transition?</p>
+
 - **Opponent frames on hips during transition to prevent mount establishment** (Effectiveness: Medium) - Your Response: Swim your knee inside their frame before they can fully establish, or transition to knee on belly as intermediate position before forcing mount → Leads to [[Positions/Gogoplata Control]]
 - **Opponent bridges immediately as you establish mount to off-balance** (Effectiveness: High) - Your Response: Post hands wide and ride the bridge maintaining chest pressure, then return to high mount as they settle. Grapevine legs if bridges continue → Leads to [[Positions/Gogoplata Control]]
 - **Opponent turns to turtle during the transition rather than accepting mount** (Effectiveness: Medium) - Your Response: Follow to back control position, establishing seatbelt grip as they turtle. The turtle is often a better outcome than mount due to back exposure → Leads to [[Positions/Mount/High Mount]]
@@ -252,6 +260,8 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing High Mount Transition?</p>
 
 ### 1. Releasing gogoplata grip before opponent commits to defensive movement
 
@@ -286,6 +296,8 @@ Strategically, this transition serves multiple purposes in a systematic game pla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train High Mount Transition (Attacker)?</p>
+
 **Week 1-2** - Transition mechanics isolation
 Practice the movement pattern from gogoplata position to mount with compliant partner. Focus on hip escape angle, leg swing mechanics, and landing in high mount position. No resistance, pure technical repetition.
 
@@ -303,48 +315,12 @@ Implement transition in positional sparring starting from rubber guard or high g
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What defensive movement from your opponent creates the optimal opportunity for high mount transition?
-**A**: Forward defensive movement such as rolling forward, driving into you, or attempting to posture through the gogoplata creates the optimal opportunity. This forward momentum assists the transition by providing upward energy that you redirect into mount establishment. Lateral escapes do not provide the same momentum advantage.
-
-**Q2**: Why is it critical to maintain upper body control throughout the transition?
-**A**: Upper body control prevents the opponent from creating distance during the transition phase when the gogoplata grip is released. Without collar or head control, the opponent can frame, hip escape, or recover guard before you establish mount. The continuous connection ensures they cannot escape during the brief vulnerability window.
-
-**Q3**: Your opponent posts their hand on your hip as you attempt to swing your leg over - what adjustment do you make?
-**A**: Swim your knee inside their posting arm before they can fully establish the frame, using your hip escape momentum to beat their hand. Alternatively, transition to knee on belly as an intermediate position, using that platform to clear the frame before advancing to mount. Do not fight the frame directly with strength.
-
-**Q4**: What is the critical difference between landing in high mount versus low mount after this transition?
-**A**: High mount with knees in armpits severely limits opponent's bridge power and hip escape options, making retention much easier. Low mount allows full bridge range of motion and stronger shrimping. The momentum from transition should carry you directly into high mount position rather than settling in low mount.
-
-**Q5**: Why should you wait for opponent's committed defensive movement before releasing the gogoplata?
-**A**: Releasing early allows opponent to simply return to neutral guard without providing the forward momentum needed for mount transition. Their committed defensive movement provides both the directional energy to assist your transition and ensures they cannot immediately recover position. Patience creates the dilemma.
-
-**Q6**: Your opponent successfully traps your leg in half guard during the transition - what is your response?
-**A**: Accept half guard top as a temporary position rather than fighting to free the leg immediately. Maintain heavy upper body pressure to prevent guard recovery and work standard half guard passing sequences. The half guard top is still significant positional advancement from bottom gogoplata control.
-
-**Q7**: How does this transition create a genuine dilemma for the opponent defending gogoplata?
-**A**: The opponent must choose between accepting gogoplata submission pressure or giving up mount position. Defending the choke through forward movement or posture creates the mounting opportunity. This transforms defense of one threat into exposure to another, embodying systematic position-attack integration.
-
-**Q8**: When should you convert this transition to a back take instead of mount?
-**A**: Convert to back take when opponent escapes laterally or turns to turtle rather than moving forward. The same gogoplata release timing applies but you follow their rotational direction with seatbelt grip instead of mounting. Lateral escape angle does not support mount mechanics but creates ideal back take geometry.
-
-**Q9**: What specific upper body grip should you establish before releasing the foot from behind opponent's head?
-**A**: Secure a deep collar grip or crossface control with the arm opposite your attacking leg before releasing the foot. This grip must be established while the gogoplata is still threatening, as releasing foot control without pre-established upper body connection creates a gap where the opponent can posture free and disengage entirely.
-
-**Q10**: Your opponent defends by driving their chin into your shin and stalling rather than moving forward or laterally - what do you do?
-**A**: Maintain gogoplata pressure and work to tighten the submission rather than forcing the mount transition. The chin-tuck stall indicates they are not providing momentum in any direction. Increase hip elevation and pull your foot deeper behind their head to intensify the choke. Their stall will eventually break into a forward escape attempt or a tap.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for High Mount Transition?</p>
 
 This transition involves rapid position changes that require body awareness and controlled execution. During training, ensure partners communicate clearly about gogoplata pressure levels before releasing to mount. The transition should be practiced at slow speeds initially to develop the movement pattern without risk of knee impacts to partner's ribs during the leg swing. Partners should tap immediately if any joint stress occurs during the position change. Avoid explosive movements until the technique is well-established, as uncontrolled momentum can cause accidental strikes or falls. Practice on mats with adequate padding and ensure sufficient space for the transition movement arc.
 

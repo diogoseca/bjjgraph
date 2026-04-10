@@ -154,6 +154,8 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Dogfight Sweep?</p>
+
 - Opponent's free hand (non-underhook side) releases from its posting position and reaches across your body toward your far knee or thigh
 - Increased forward driving pressure through the underhook combined with head pressure intensifying against your chest or shoulder
 - Opponent's outside leg repositions to generate more forward driving power, shifting from a stable post to a pushing platform
@@ -165,6 +167,8 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Dogfight Sweep?</p>
 
 - Maintain an active whizzer at all times in Dogfight to neutralize the underhook's leverage and prevent the forward drive that powers the sweep
 - Keep your far leg retracted and positioned close to your body rather than posted wide where it becomes an easy target for the grip
@@ -179,6 +183,8 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Dogfight Sweep?</p>
 
 ### 1. Heavy whizzer with hip sprawl to flatten the sweeper backward
 
@@ -216,6 +222,8 @@ The Dogfight Sweep defender is the top half guard player facing an opponent who 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Dogfight Sweep?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Apply heavy whizzer downward pressure combined with crossface and hip sprawl to drive the sweeper flat onto their back. Once flattened, immediately begin half guard passing sequences using crossface and underhook to prevent them from re-elevating to Dogfight.
@@ -231,6 +239,8 @@ Deny the far leg grip through active leg retraction and hip circling, then maint
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Dogfight Sweep?</p>
 
 ### 1. Posting far leg wide and heavy, making it an easy target for the far leg grip
 
@@ -260,6 +270,8 @@ Deny the far leg grip through active leg retraction and hip circling, then maint
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Dogfight Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep initiation cues under controlled conditions
 Partner slowly executes the Dogfight Sweep while you focus on identifying the moment the free hand reaches for the far leg and forward pressure increases. Practice calling out 'sweep' the instant you feel the initiation. Partner confirms accuracy of recognition timing. No active defense yet—purely sensory development.
 
@@ -276,26 +288,6 @@ Full resistance positional sparring starting in Dogfight. Defend all sweep and b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that a Dogfight Sweep attempt is being initiated?
-**A**: The earliest cue is feeling the opponent's free hand release from its posting position on your body or the mat and begin reaching across toward your far leg. This is typically accompanied by a slight increase in forward pressure through the underhook as the sweeper loads their drive. You may also feel their outside knee reposition to generate more pushing power. The hand leaving its post is the most reliable and earliest indicator, as the sweep cannot be completed without the far leg grip.
-
-**Q2**: Your opponent has already gripped your far knee and is driving forward—what is your last-resort defense?
-**A**: When the sweep is mid-execution, your best last-resort option is to post your far hand on the mat behind you while simultaneously driving your hips back into the sweeper with maximum sprawl pressure. The hand post creates a temporary third base point that can stall the topple long enough for you to strip their far leg grip with your whizzer-side hand or circle your hips away. If the sweep is too far advanced for this, consider turning into the sweep direction and accepting turtle position rather than being swept cleanly to your back.
-
-**Q3**: How do you balance defending the Dogfight Sweep without over-committing and exposing your back?
-**A**: The key is maintaining your hips facing the opponent rather than turning them away during defense. Apply whizzer and crossface pressure while keeping your chest oriented toward the sweeper. When retracting your far leg, circle it backward and toward the sweeper's hip rather than pulling it completely behind you, which would turn your back. If you feel the sweeper beginning to transition from sweep to back take (indicated by their underhook deepening toward your far hip rather than driving forward), immediately re-engage your whizzer and drive your hips forward to deny the back exposure.
-
-**Q4**: After successfully defending the Dogfight Sweep and remaining in Dogfight position, how should you capitalize?
-**A**: Immediately transition from defense to offense after a successful sweep defense. The sweeper has committed energy to a failed attempt and is momentarily off-balance or restructuring. Drive forward with crossface pressure to flatten them back to half guard bottom before they can set up another attack. Strip their underhook by swimming your arm inside during the moment of transition. If you can flatten them and establish crossface control, you have effectively turned their offensive Dogfight into your passing opportunity.
-
-
-
-</section>
 
 
 </main>

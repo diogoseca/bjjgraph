@@ -188,6 +188,8 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stand Up from Combat Base?</p>
+
 - Load weight forward through controlling grips before lifting the posted knee to maintain downward pressure throughout the transition
 - Rise with hips first while keeping center of gravity low and forward, never allowing hips to drift backward
 - Control at least one leg or pant grip throughout the entire stand-up sequence to prevent guard closure and hook insertion
@@ -202,6 +204,8 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stand Up from Combat Base?</p>
+
 - Established combat base with stable triangulated base and upright posture
 - At least one controlling grip on opponent's pants, ankles, or shins to manage legs during transition
 - Opponent's closed guard opened and all butterfly or elevator hooks cleared from your legs
@@ -214,6 +218,8 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stand Up from Combat Base step by step?</p>
 
 1. **Establish Controlling Grips**: Secure both hands on the opponent's pants at knee level or on their ankles, creating anchor points that will maintain downward pressure and distance control throughout the stand-up sequence. These grips serve dual purposes: they pin the opponent's primary weapons (their legs) and provide handles for immediate passing entries upon reaching standing. In no-gi, control behind the knees or grip the ankles.
 2. **Load Weight Forward**: Shift your center of gravity forward by driving chest weight through your arms and into the opponent's legs. This forward loading ensures that when you lift your posted knee, your weight moves upward rather than backward. The opponent should feel increased downward pressure on their legs, which pins their hooks and prevents them from attacking during the transition window.
@@ -243,6 +249,8 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stand Up from Combat Base?</p>
+
 - **Opponent closes guard by locking ankles behind your back during weight transition** (Effectiveness: High) - Your Response: Strip the ankle lock immediately by posting one hand on their hip and driving your hips backward while wedging your elbow inside their knee. If guard fully closes, reset to closed guard opening sequence before reattempting. → Leads to [[Positions/Closed Guard]]
 - **Opponent pulls collar grip to break posture forward as hips begin to rise** (Effectiveness: High) - Your Response: Break the collar grip before committing to the stand up using a two-on-one peel. If the grip is too deep, abort the stand up, resettle into combat base, and strip the grip before reattempting from a secure base. → Leads to [[Positions/Combat Base]]
 - **Opponent establishes De La Riva hook on lead leg during the transition** (Effectiveness: Medium) - Your Response: Drive the hooked knee forward and inward to strip the hook using rotational force. Do not step back, as this deepens the entanglement. Maintain pant grip control on the hooking leg and circle your foot to clear the hook before continuing to stand. → Leads to [[Positions/Combat Base]]
@@ -254,6 +262,8 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stand Up from Combat Base?</p>
 
 ### 1. Standing up without first establishing grip control on opponent's legs
 
@@ -293,6 +303,8 @@ As the executing practitioner, your goal is to elevate from a kneeling combat ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stand Up from Combat Base (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Movement pattern and muscle memory
 Practice the stand-up motion without a partner, focusing on proper hip trajectory (forward and up), foot placement width, and weight distribution through the hands. Use a heavy bag or grappling dummy to simulate grip pressure. Perform 20 repetitions per set, alternating lead leg, until the movement is smooth and automatic.
 
@@ -313,42 +325,12 @@ After completing the stand up, immediately chain into a passing sequence (Torean
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the stand up from combat base?
-**A**: The optimal timing is when the opponent creates distance by pushing with their feet on your hips or extending their frames. This defensive action provides the space needed to stand without fighting through hooks. Additionally, immediately after breaking a major grip such as a collar grip is excellent timing, as the opponent must re-establish control before they can counter. Avoid standing when the opponent is actively pulling with hooks or has deep De La Riva engagement, as these configurations create sweep leverage during the transition.
-
-**Q2**: Why must you load weight forward through your grips before lifting your posted knee?
-**A**: Loading weight forward ensures your center of gravity moves upward rather than backward during the elevation phase. If you sit back before standing, your hips move away from the opponent, creating space they can exploit to establish hooks, close guard, or initiate elevation sweeps. Forward loading also maintains downward pressure on the opponent's legs, pinning their offensive tools and preventing them from following your upward movement to attack your base during the vulnerable transition window.
-
-**Q3**: Your opponent hooks your lead ankle with their foot as you begin to stand—how do you adjust?
-**A**: Do not try to pull your foot free by stepping backward, as this deepens the hook and can lead to X-Guard or Single Leg X entries. Instead, drive the hooked leg's knee forward and inward while maintaining your grip pressure downward on their opposite leg. Circle the hooked foot inward to strip the hook using rotational force rather than linear pulling. If the hook is too deep, abort the stand up, resettle into combat base, and clear the hook before reattempting.
-
-**Q4**: What is the most critical mechanical detail that determines success or failure of this stand up?
-**A**: The hip trajectory during elevation is the single most critical mechanical detail. Your hips must travel upward and slightly forward—never backward. Backward hip movement creates space between you and the opponent, allowing them to establish hooks, close guard, or insert their feet for elevation-based sweeps. Maintaining forward hip pressure through your grips anchors your weight over the opponent and forces them to deal with continuous pressure rather than exploiting the space your retreat creates.
-
-**Q5**: What grip configuration provides the strongest control for executing the stand up?
-**A**: Double pant grips at the opponent's knees provide the strongest control because they allow simultaneous management of both legs, prevention of guard closure, and maintenance of downward pressure throughout the transition. Grip the pants with your thumbs on the inside of the knee crease and fingers wrapping the outside. This configuration pins the opponent's primary weapons and provides handles for immediate passing entries upon reaching standing. In no-gi, controlling behind both knees or gripping the ankles serves the same function.
-
-**Q6**: Your opponent has a strong collar grip and begins pulling your head down as you initiate the stand up—what do you do?
-**A**: You must break the collar grip before committing to the stand up. A collar grip during the transition allows the opponent to pull you forward and off-balance as your base shifts, leading to guard closure or front headlock positions. Use a two-on-one grip break by grabbing their gripping wrist with both hands and peeling it off with a circular motion toward your chest. Once freed, immediately re-establish your pant grip and resume the stand-up sequence before they can re-grip.
-
-**Q7**: If the stand up is blocked and you cannot complete it, what are your chain options?
-**A**: If blocked during the transition, your first option is to resettle into combat base and immediately initiate a kneeling pass such as a knee slice or pressure pass, using the opponent's defensive reaction against them. Alternatively, drive forward into Headquarters position by threading your lead knee between their legs. If the opponent committed significant energy to preventing the stand up, they may have opened passing angles exploitable from kneeling. The key is to never stall in the half-standing position—either complete the stand up or commit to an alternative immediately.
-
-**Q8**: In which direction should force be applied through your grips during the stand-up transition?
-**A**: Force should be applied diagonally downward and toward the mat through your pant grips throughout the entire transition. This downward diagonal force serves dual purposes: it pins the opponent's legs to prevent hook insertion and guard closure, and it provides a counterbalance for your rising center of gravity. Think of pressing the opponent's knees toward the mat as you stand, not simply holding them in place. This active downward drive is what prevents the opponent from following your upward movement to attack your base.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stand Up from Combat Base?</p>
 
 The stand up from combat base carries moderate knee stress during the transition, particularly on the posted knee as it lifts under load. Avoid twisting the knee during elevation—drive it straight upward. In training, be mindful of your partner's face and legs when establishing forward pressure through pant grips, as the standing motion can inadvertently pull their legs upward. If you feel instability in either knee during the movement, abort the stand up and resettle into combat base rather than forcing through poor mechanics. When drilling at speed, ensure your partner is prepared for the weight shift to avoid accidental impacts.
 

@@ -213,7 +213,7 @@ Harai Goshi occupies a critical position in the BJJ standing game as a bridge be
 
 - [[Positions/Mount]] - Alternative ending position - achievable by following throw directly to mount when opponent lands flat
 
-- [[Submissions/Kimura from Side Control]] - Follow-up submission - natural attack from side control position established after throw
+- [[Submissions/Kimura]] - Follow-up submission - natural attack from side control position established after throw
 
 - [[Positions/North-South]] - Position transition option - flow to north-south if opponent attempts to turn away during landing
 

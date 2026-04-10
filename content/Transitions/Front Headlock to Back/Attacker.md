@@ -186,6 +186,8 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Front Headlock to Back?</p>
+
 - Maintain constant downward pressure on opponent's head and neck throughout the transition to prevent postural recovery
 - Use opponent's defensive turtle posture as the foundation for establishing back control rather than fighting their structure
 - Progress systematically through control checkpoints rather than rushing to final position
@@ -201,6 +203,8 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Front Headlock to Back?</p>
+
 - Secure front headlock control with one arm around opponent's neck and head
 - Opponent in defensive turtle position or transitioning to turtle
 - Maintain head control with proper grip (gable grip, guillotine grip, or rear naked choke grip)
@@ -214,6 +218,8 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Front Headlock to Back step by step?</p>
 
 1. **Secure front headlock control**: Establish a solid front headlock position with your choking arm wrapped around the opponent's neck. Your chest should be heavy on their upper back, and your hips should be loaded forward. Ensure your head is positioned on the opposite side of your choking arm to create proper angle and prevent opponent from rolling through. Your free hand should control their far arm or post on their hip for stability.
 2. **Circle toward choking arm side**: Begin circling your body toward the side of your choking arm while maintaining downward pressure on the opponent's head. This lateral movement creates the necessary angle to access their back. Take small shuffling steps with your feet while keeping your weight distributed forward. The opponent will typically follow this circle to maintain their base, inadvertently opening their back to your attack.
@@ -242,6 +248,8 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Front Headlock to Back?</p>
+
 - **Opponent sits back into guard before hooks are established** (Effectiveness: High) - Your Response: Maintain front headlock control and use their backward movement to transition to guillotine choke or anaconda choke. Alternatively, step over into crucifix position if they expose their arm during the sit-back movement. → Leads to [[Positions/Front Headlock]]
 - **Opponent rolls through the front headlock toward the choking arm** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining head control, transitioning to guillotine or anaconda choke during the roll. Use your body weight to control the direction of the roll and prevent them from coming on top. Land in closed guard with front headlock control maintained. → Leads to [[Positions/Front Headlock]]
 - **Opponent stands up explosively before back control is established** (Effectiveness: Medium) - Your Response: Maintain front headlock grip and use their upward movement to establish standing back control or transition to standing guillotine. If one hook is already in, use it to climb onto their back in a standing position. Alternatively, use the standing position to set up snap-down opportunities to reset the front headlock. → Leads to [[Positions/Front Headlock]]
@@ -253,6 +261,8 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Front Headlock to Back?</p>
 
 ### 1. Releasing front headlock control too early before hooks are established
 
@@ -292,6 +302,8 @@ This technique serves as a cornerstone of modern no-gi grappling and has proven 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Front Headlock to Back (Attacker)?</p>
+
 **Week 1-2: Positional Drilling** - Front headlock control and circling mechanics
 Partner starts in turtle position. Establish front headlock and practice circling motion toward choking arm side while maintaining downward pressure. Partner remains passive. Focus on footwork, weight distribution, and maintaining head control throughout circular movement. Complete 10 repetitions per side, alternating which arm is the choking arm.
 
@@ -315,48 +327,12 @@ Practice identifying front headlock opportunities during normal sparring, includ
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes the front headlock to back take effective?
-**A**: The technique exploits the opponent's defensive turtle position by using their own structural posture against them. As the opponent turtles to defend the front headlock, they create the spatial relationship necessary for hook insertion. The attacker's circular motion around the opponent's head, combined with constant downward pressure, progressively opens access to the back while preventing the opponent from turning to face the attacker or standing up. The transition works because it systematically removes the opponent's defensive options while creating offensive opportunities.
-
-**Q2**: Why must the first hook be fully established before attempting to insert the second hook?
-**A**: Establishing the first hook completely provides the structural control necessary to safely insert the second hook without losing position. The first hook acts as an anchor point that prevents the opponent from sitting back into guard or rolling through the position. It also controls one side of the opponent's hips, making it mechanically difficult for them to generate explosive movement. Attempting both hooks simultaneously divides your attention and control, allowing the opponent to defend more effectively by sitting back or turning into you. Sequential hook insertion follows the principle of progression through control checkpoints.
-
-**Q3**: Your opponent begins standing up before you establish both hooks - how do you adjust?
-**A**: Maintain front headlock control and use their upward momentum to your advantage rather than fighting against it. Transition to standing back control by climbing onto their back while keeping one or both hooks engaged. Alternatively, transition to a standing guillotine position if the angle is favorable. The key is to maintain head control throughout their standing motion and use their movement to establish position rather than resisting their attempt to stand. If one hook is already established, use it to climb higher on their back as they rise. Never release the front headlock simply because they stand up.
-
-**Q4**: What is the critical timing for releasing the front headlock grip and transitioning to seat belt control?
-**A**: The front headlock grip should be released only after both hooks are securely established and your chest is connected to the opponent's back. The transition from headlock to seat belt must be one continuous motion with no pause, as any gap in control creates an opportunity for the opponent to establish defensive hand fighting. The release and establishment of new grips should be simultaneous: as your arms release the headlock, they immediately move into seat belt configuration. Releasing too early allows escape, while delaying the seat belt establishment gives the opponent time to establish defensive frames.
-
-**Q5**: Why is the circling motion toward the choking arm side essential for this transition?
-**A**: Circling toward the side of the choking arm creates the geometric angle necessary to access the opponent's back while maintaining control of their head. This lateral movement positions your body perpendicular to the opponent's spine, which is the optimal angle for hook insertion. Circling also uses the opponent's defensive instinct to follow your movement to maintain their base, inadvertently opening their back to your attack. Moving in the opposite direction would bring you in front of the opponent or allow them to face you, eliminating the back attack opportunity. The circular motion must be continuous and progressive, covering at least 90 degrees before hook insertion.
-
-**Q6**: Your opponent sits back aggressively as you attempt to circle - what options does this open for you?
-**A**: When the opponent sits back, they voluntarily abandon their turtle base and expose their neck and arms. This opens several high-percentage attacks: if your choking arm is deep, transition immediately to a guillotine by pulling guard and finishing the choke. If their arm is trapped against your body, switch to an anaconda grip and follow the sit-back to establish anaconda control. If they expose one arm while sitting, step over it into a crucifix position. The key insight is that their sit-back defense solves one problem (preventing hook insertion) but creates three new ones (guillotine, anaconda, crucifix). Read which option their specific body position offers and attack immediately.
-
-**Q7**: What grip configuration should you use during the front headlock phase, and how does it change as you progress through the transition?
-**A**: During the initial front headlock control, use a gable grip or chin strap grip with your choking arm wrapped around the opponent's neck and your free hand connected, creating a secure cage around their head. As you circle and begin hook insertion, your free hand should transition to controlling the opponent's far hip or far shoulder to prevent them from circling away or standing. Once both hooks are in, the grip must change entirely: release the headlock and immediately establish a seat belt (harness) with one arm over the shoulder and one under the armpit. Each grip change corresponds to a control checkpoint in the transition.
-
-**Q8**: How do you maintain control if the opponent attempts to roll through the front headlock?
-**A**: Follow the opponent's roll while maintaining head control, using your body weight to control the direction and speed of the roll. Your goal is to follow through the rotation while preventing them from achieving top position. Transition your front headlock grip toward a guillotine or anaconda choke configuration during the roll, as the rolling motion often creates the proper angle for these submissions. Land in closed guard with head control maintained, then work to re-establish the back take sequence or finish the choke. The key is to never release head control during the roll and to use gravity to your advantage by keeping your weight distributed over them throughout the rotation.
-
-**Q9**: What is the optimal direction of force through your chest and hips during the circling phase?
-**A**: Your chest pressure should drive diagonally downward and forward into the opponent's upper back and shoulders, collapsing their posture toward the mat. Your hips should be loaded forward, not sitting back, so that your center of gravity is over the opponent's shoulders rather than behind them. As you circle, the force vector rotates with you: your chest maintains constant downward pressure while your lateral movement adds a rotational component that spirals the opponent's defensive structure. Think of it as driving a corkscrew through their turtle base. If your force goes straight down, you pin but cannot access the back. If it goes only sideways, you lose pressure. The diagonal combination of both breaks their base and opens back access.
-
-**Q10**: Your opponent hip escapes away from you during hook insertion and creates distance - how do you chain to an alternative attack?
-**A**: When the opponent hip escapes, they create space between their neck and their far shoulder, which is the exact space needed for arm-in chokes. If their near arm is between your bodies, immediately switch to a darce choke by threading your choking arm under their armpit and connecting to your other arm behind their neck. If their arm is on the outside, transition to anaconda grip by shooting your choking arm across to their far armpit. In both cases, their hip escape actually assists the submission by opening the necessary space around their neck. Follow their movement to maintain head control while converting the grip, then sprawl your hips to prevent them from rolling through the choke.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Front Headlock to Back?</p>
 
 The front headlock to back take is generally a safe positional transition when practiced with proper control and awareness. Practitioners should maintain constant communication with training partners, especially during the early learning phases. The primary safety concern involves neck and spine safety during the front headlock control phase: excessive cranking or sudden jerking motions should be avoided, and pressure should be applied gradually and controlled. When the opponent attempts defensive rolls or explosive escapes, both practitioners must be aware of potential collision with the ground or mat boundaries. Partners should agree on intensity levels before drilling, particularly regarding how much resistance will be applied during the transition phases. As the technique often leads directly to back control and submission attempts (particularly the rear naked choke), practitioners should be well-versed in proper tapping protocols and immediately release all control when a tap is given. Beginners should work this transition under supervision to ensure proper mechanics and avoid developing bad habits that could lead to injury in live training.
 

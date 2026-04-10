@@ -188,6 +188,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Belly Down Armbar Transition?</p>
+
 - Anticipate the roll rather than react to it - grip tightening and subtle hip shifts telegraph the opponent's intention to turn before their body commits
 - Maintain unbroken wrist control throughout the entire transition - the grip is your lifeline and any slack allows arm extraction
 - Follow with your hips first, not your upper body - the hip-to-shoulder connection must track the opponent's rotation continuously
@@ -202,6 +204,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Belly Down Armbar Transition?</p>
+
 - Armbar control established with both hands securing the opponent's wrist or forearm in a two-on-one configuration
 - Hips positioned near the opponent's shoulder with perpendicular body alignment creating active hyperextension threat
 - Recognition that the opponent is initiating or preparing to roll toward their stomach, evidenced by hip bridging or shoulder rotation
@@ -214,6 +218,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Belly Down Armbar Transition step by step?</p>
 
 1. **Recognize the roll initiation**: As the opponent begins turning their torso toward the mat, identify the rotational direction and commit immediately to following. Look for the hip bridge, shoulder turn, and weight shift that precede the roll. Hesitation of even half a second results in lost grip contact and a failed transition.
 2. **Reinforce wrist control**: Tighten your two-handed grip on the opponent's wrist, ensuring thumbs wrap securely around the wrist bone. If your grip was loose, switch to a figure-four configuration where one hand grips the wrist and the other reinforces by gripping your own wrist. This double-lock prevents the arm from slipping during the rotational forces of the transition.
@@ -232,7 +238,7 @@ The belly down armbar transition from the attacker's perspective requires decisi
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 50% |
+| Success | [[Submissions/Belly Down Armbar]] | 50% |
 | Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 20% |
 
@@ -242,6 +248,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Belly Down Armbar Transition?</p>
 
 - **Opponent clasps hands together during the roll to prevent arm isolation** (Effectiveness: High) - Your Response: Immediately wedge your knee between their clasped hands and use a ratcheting motion to separate them. Alternatively, switch to a wrist lock threat by twisting the trapped hand, which forces them to release the clasp to protect their wrist. → Leads to [[Positions/Armbar Control]]
 - **Opponent posts free hand and hip escapes to create distance during transition** (Effectiveness: Medium) - Your Response: Follow their hip escape by scooting your hips to track their shoulder. If they create significant distance, transition to a scramble position and use your grip on their arm to pull them back or convert to a top ride position. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Belly Down Armbar Transition?</p>
 
 ### 1. Releasing grip pressure during the transition to reposition hands
 
@@ -293,6 +303,8 @@ The belly down armbar transition from the attacker's perspective requires decisi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Belly Down Armbar Transition (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo and cooperative movement patterns
 Practice the rolling motion from supine to belly-down without an opponent, focusing on hip rotation mechanics and maintaining hand position throughout. Then drill with a fully cooperative partner who rolls slowly on command. Perform 20 repetitions per side, emphasizing smooth continuous movement rather than speed.
 
@@ -310,42 +322,12 @@ Begin positional rounds from armbar control where the bottom player's only goal 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal moment to initiate the belly down armbar transition?
-**A**: The optimal moment is the instant you feel the opponent's hip bridge and shoulder rotation beginning, before their full body commits to the roll. Anticipating the roll allows you to follow smoothly rather than chase. If you wait until they are already halfway through the rotation, you will likely lose grip contact or arrive at the belly-down position with compromised control.
-
-**Q2**: What grip configuration must be maintained throughout the entire belly-down transition?
-**A**: A two-handed wrist control where both hands lock around the opponent's wrist with thumbs wrapping the bone. For maximum security, use a figure-four grip where one hand controls the wrist and the other grips your own wrist to reinforce. The grip must never be released or loosened during any phase of the transition, as even momentary slack allows arm extraction.
-
-**Q3**: What is the critical hip movement that enables you to follow the opponent's roll successfully?
-**A**: Your hips must rotate in the same direction and at the same speed as the opponent's shoulder. Think of your hip as attached to their shoulder by a short rope. As they turn, you pivot on your base hip to track their rotation, maintaining constant contact pressure. The hip leads the transition while your upper body follows, keeping the entire kinetic chain connected through the hip-to-shoulder point.
-
-**Q4**: Your opponent clasps their hands together during the transition to prevent arm extension - how do you respond?
-**A**: Wedge your knee between their forearms at the clasped point and use a prying motion to separate their hands. If the clasp is too strong, switch to a wrist lock threat by rotating the trapped wrist laterally, which forces them to release the defensive clasp to protect the smaller joint. You can also wait in the belly-down position with heavy pressure until fatigue forces them to release.
-
-**Q5**: What direction should force be applied when finishing the belly-down armbar?
-**A**: Force should be directed in two simultaneous vectors: your hips drive downward toward the mat while your hands pull the wrist toward your chest. The mat provides the backstop against the opponent's body, and gravity assists both vectors. Your back arches slightly to increase the distance between your hips and hands, maximizing the lever arm across the elbow joint.
-
-**Q6**: What happens if you lose leg control during the belly-down transition?
-**A**: Without knee pinch and leg control, the opponent can rotate the trapped arm, changing the elbow angle and potentially extracting it from the hyperextension plane entirely. They can also use the freed space to hip escape, turn back to their side, or begin recovering guard. If leg control is lost mid-transition, immediately re-establish knee pinch before attempting to finish, or transition to a different control position rather than forcing a compromised submission.
-
-**Q7**: Your opponent posts their free hand and begins to push up during the transition - what adjustment do you make?
-**A**: Drive your weight through their shoulder to collapse the posted arm. Use your chest and hip pressure to flatten them back to the mat. If they maintain the post, hook their posting arm with your leg to remove the base point. Alternatively, shift your weight further toward their head, making the post less effective as a structural support by changing the angle of force they must resist.
-
-**Q8**: If the belly-down finish is blocked because the opponent keeps their arm bent, what chain attacks are available?
-**A**: From the belly-down position with a bent arm, you can transition to a kimura by adjusting your grip to a figure-four on their bent arm and torquing the shoulder. You can also release to top turtle position and attack with a back take, clock choke, or front headlock series. If you still have the wrist, a wrist lock becomes available by rotating the hand against the joint while maintaining belly-down pressure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Belly Down Armbar Transition?</p>
 
 The belly down armbar applies extreme leverage to the elbow joint from a position where the opponent has severely limited ability to signal a tap. Always watch for verbal taps, body slaps with the free hand, and foot stomping on the mat. Apply finishing pressure gradually during training and never crank the arm explosively. The prone position can compress the opponent's neck and face if bodyweight is misapplied to the head area. Release immediately upon any tap signal. In competition, the referee may not have clear sight lines when the opponent is face-down, so prioritize controlled application over speed.
 

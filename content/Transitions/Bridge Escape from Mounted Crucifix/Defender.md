@@ -154,6 +154,8 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge Escape from Mounted Crucifix?</p>
+
 - Opponent plants both feet flat on the mat with heels close to buttocks, indicating bridge base establishment and imminent explosive attempt
 - Opponent's hip muscles tense visibly and their core engages, signaling the loading phase before explosive upward movement
 - Opponent turns their head to one side, revealing the intended direction of the bridge toward their trapped arm
@@ -166,6 +168,8 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge Escape from Mounted Crucifix?</p>
 
 - Recognize bridge initiation cues early — feet planting flat, hip muscles tensing, head turning to one side — and adjust base proactively before the explosion
 - Ride the bridge by lowering your center of gravity and spreading your base wide rather than rigidly fighting against the upward and lateral force
@@ -180,6 +184,8 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge Escape from Mounted Crucifix?</p>
 
 ### 1. Widen base and drop hips immediately when bridge initiation cues are detected
 
@@ -217,6 +223,8 @@ Defending the bridge escape from mounted crucifix means maintaining one of the m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge Escape from Mounted Crucifix?</p>
+
 ### → [[Positions/Mount/Mounted Crucifix]]
 
 Maintain tight leg entanglement throughout the bridge by spreading base wide, lowering hips immediately, and squeezing knees together on trapped arms. Ride the opponent's hip movement rather than fighting rigidly against it, allowing your weight to naturally resettle as their bridge collapses. Use the post-bridge recovery window to deepen control or initiate submission attacks.
@@ -232,6 +240,8 @@ If arm extraction occurs despite your defensive adjustments, immediately release
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge Escape from Mounted Crucifix?</p>
 
 ### 1. Posting hands on the mat to maintain base during the bridge rather than using hip weight
 
@@ -261,10 +271,12 @@ If arm extraction occurs despite your defensive adjustments, immediately release
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge Escape from Mounted Crucifix?</p>
+
 **Phase 1: Recognition Training** - Identifying bridge initiation cues through tactile feedback
 Partner performs bridge escapes from mounted crucifix with verbal countdown before each attempt. Practice identifying the physical cues — feet planting, hip loading, head turning — before the verbal signal. Develop sensitivity to detect escape attempts through feeling weight shifts rather than relying on visual observation.
 
-**Phase 2: Base Maintenance Under Pressure** - Riding explosive bridges without losing positional control
+**Phase 2: Base Under Pressure** - Riding explosive bridges without losing positional control
 Partner performs full-intensity bridge escapes while you focus exclusively on maintaining crucifix control through base adjustments. No submission attacks allowed — pure control maintenance against maximum effort. Develop the reflexive base-widening and hip-drop response to bridge initiation through repetition.
 
 **Phase 3: Counter-Attack Integration** - Transitioning from defense to offense during escape attempts
@@ -277,26 +289,6 @@ Practice recognizing when crucifix control is compromised beyond recovery and sm
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the primary recognition cues that indicate your opponent is about to attempt a bridge escape?
-**A**: The most reliable cues are feet planting flat on the mat with heels close to buttocks, visible hip muscle tension and core engagement, the head turning to one side indicating bridge direction, changes in breathing pattern suggesting maximum effort preparation, and repositioning of any free arm toward the trapped arm side. Recognizing these cues early allows proactive base adjustment before the explosive movement, which is significantly more effective than reactive defense after the bridge initiates.
-
-**Q2**: When should you abandon mounted crucifix control and accept standard mount instead?
-**A**: Transition to standard mount when the opponent has successfully extracted one arm and you cannot re-trap it without risking complete position loss through the scramble. Also transition if repeated bridges have loosened your leg control to the point where maintaining the crucifix requires excessive energy that could be better spent attacking from mount. Standard mount with full weight control is still worth 4 points and offers diverse submission opportunities, making it a strong fallback from a compromised crucifix.
-
-**Q3**: How do you use an opponent's bridge attempt to create submission opportunities?
-**A**: When the opponent bridges, they often expose their arms during the extraction attempt and their neck becomes accessible as their chin separates from the chest due to spinal extension. Attack the exposed arm with immediate armbar pressure when they attempt extraction, or sink a choking arm around their neck during the moment their chin lifts. The key timing is during the bridge's peak when the opponent is most committed to escape and least able to switch to submission defense.
-
-**Q4**: What is the optimal weight distribution response when you feel a powerful bridge initiating beneath you?
-**A**: Drop your hips immediately and spread your knees wider to create a more stable triangular base. Do not post your hands, as this creates exploitable space underneath. Instead, drive your weight through your pelvis directly into the opponent's midsection. If the bridge has significant lateral force, shift your weight slightly toward the direction of the bridge to counterbalance. The goal is to ride the movement like a wave rather than resist it rigidly, allowing your weight to naturally resettle as the bridge collapses.
-
-
-
-</section>
 
 
 </main>

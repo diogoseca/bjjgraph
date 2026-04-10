@@ -162,6 +162,8 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll to Truck?</p>
+
 - Attacker drives hip tight against your hip while you attempt to granby from buggy choke—this is the pivot setup
 - Attacker follows your rotational direction rather than resisting, indicating they are converting your escape into their entry
 - You feel attacker's chest staying glued to your back during your granby roll rather than separating as expected
@@ -173,6 +175,8 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll to Truck?</p>
 
 - Prevent hip-to-hip connection by creating distance before committing to granby escape
 - If caught mid-roll, immediately fight boot control as the highest priority defensive action
@@ -187,6 +191,8 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll to Truck?</p>
 
 ### 1. Stop rotation and return to turtle by posting both hands and driving hips back to base
 
@@ -224,6 +230,8 @@ Defending the Roll to Truck requires understanding that the attacker is exploiti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll to Truck?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Stop your rotation early by posting hands and driving hips back to base when you recognize the attacker following your granby. This returns you to turtle under buggy choke pressure, which while still threatening, is preferable to truck position.
@@ -239,6 +247,8 @@ Accelerate through the roll explosively to outpace the attacker's follow, or fig
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll to Truck?</p>
 
 ### 1. Committing to a slow, predictable granby roll that gives the attacker time to establish hip connection and follow
 
@@ -273,6 +283,8 @@ Accelerate through the roll explosively to outpace the attacker's follow, or fig
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll to Truck?</p>
+
 **Week 1-2** - Recognition and boot clearing
 Partner establishes truck position at 30% resistance. Practice identifying boot control and systematically clearing it with both hands. Drill the hip-clear-to-leg-extraction sequence repeatedly until the boot fighting mechanics become automatic.
 
@@ -289,29 +301,6 @@ Incorporate truck defense into live rolling. When caught in buggy choke, conscio
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when you find yourself in truck after a failed granby escape?
-**A**: Clear boot control immediately. The boot (attacker's foot pressed against your hip) is the foundation of all truck attacks. Without boot pressure, the attacker cannot generate torque for twister, maintain leg entanglement, or prevent you from squaring up. Use both hands to fight the boot off your hip before addressing leg entanglement or upper body grips.
-
-**Q2**: How can you prevent the Roll to Truck before it begins while still escaping the buggy choke?
-**A**: Create hip separation before committing to your granby escape. Use frames against the attacker's hip to push them away, then execute the granby explosively once their hip pivot point is removed. Alternatively, choose a sit-through escape rather than granby, as the sit-through does not create the rolling momentum the attacker needs for the truck transition.
-
-**Q3**: You feel the attacker following your granby roll with their chest glued to your back—what should you do?
-**A**: You have two options: stop the rotation immediately by posting both hands and driving your hips back to return to turtle, or accelerate explosively through the roll to outpace them and create separation. The worst option is continuing at the same pace, which allows the attacker to establish leg entanglement at their leisure. Choose based on whether you feel their grips are loose (accelerate) or tight (stop and reset).
-
-**Q4**: Why is the granby roll particularly vulnerable to the Roll to Truck conversion?
-**A**: The granby roll requires committing rotational momentum in a predictable direction, which the attacker can read and follow. The rolling motion also naturally places your legs in a configuration that facilitates leg entanglement. Combined with the hip-to-hip connection the attacker establishes from buggy choke, the granby essentially delivers you into the truck position. This is why varying escape methods and clearing hip connection first are critical defensive strategies.
-
-**Q5**: Your trapped leg is being threaded into a figure-four during the roll—what immediate action do you take?
-**A**: Straighten your trapped leg explosively and circle your ankle outward to prevent the figure-four from locking. Simultaneously use your free leg to push off the attacker's hip or thigh to create space. If the figure-four begins to set, shift priority to preventing the boot on your hip since the leg entanglement alone without boot pressure is escapable through hip rotation and systematic leg extraction.
-
-
-
-</section>
 
 
 </main>

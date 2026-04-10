@@ -11,7 +11,7 @@
     "technical-standup",
     "positional-improvement"
   ],
-  "from_position": "Turtle/Bottom",
+  "from_position": "Turtle/Top",
   "outcomes": [
     {
       "to": "Standing Position/Bottom",

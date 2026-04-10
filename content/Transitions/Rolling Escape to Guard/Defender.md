@@ -156,13 +156,15 @@ As the Aoki Lock top player, defending against the Rolling Escape requires antic
 
 The key defensive insight is that you do not need to completely prevent the roll - you need to ensure that if the roll happens, you follow it into a dominant position. Many high-level grapplers allow the roll to begin and then ride it to back control, converting the opponent's escape attempt into a worse position for them. This requires sensitivity to the opponent's hip movement, strong chest-to-back pressure during the roll, and immediate hook insertion when the roll creates space. The defender who understands this principle turns the opponent's best escape into a transition opportunity.
 
-**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Rolling Escape to Guard?</p>
 
 - Opponent's free hand posts on the mat beside their hip on the trapped arm side, establishing a base for the roll
 - Opponent's hips begin driving upward and forward toward their trapped arm, generating roll momentum
@@ -176,6 +178,8 @@ The key defensive insight is that you do not need to completely prevent the roll
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rolling Escape to Guard?</p>
 
 - Maintain tight leg entanglement with active squeezing to prevent space creation needed for the roll
 - Control opponent's hips with your hands to prevent them from generating the upward hip drive that initiates the roll
@@ -191,10 +195,12 @@ The key defensive insight is that you do not need to completely prevent the roll
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Rolling Escape to Guard?</p>
+
 ### 1. Tighten leg entanglement and increase hip pressure to prevent roll initiation
 
 - **When to use**: When you detect early setup cues before the roll begins - opponent posting free hand or shifting hips forward
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Opponent remains trapped in Aoki Lock and you can continue working toward the submission finish
 - **Risk**: Over-committing to tightening may create a static position that opponent can exploit with a different escape
 
@@ -208,14 +214,14 @@ The key defensive insight is that you do not need to completely prevent the roll
 ### 3. Widen base and control opponent's hips with both hands to block hip elevation
 
 - **When to use**: When opponent begins attacking your posted leg or shifting their hips - preemptive base stabilization
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Opponent cannot generate the hip drive needed for the roll and remains trapped in Aoki Lock position
 - **Risk**: Using both hands on hips means you cannot simultaneously apply maximum shoulder pressure
 
 ### 4. Accelerate the submission finish before roll completes
 
 - **When to use**: When opponent initiates the roll but has not yet extracted their arm - the roll can momentarily increase shoulder exposure
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: Opponent taps during the roll attempt as the movement briefly increases submission pressure
 - **Risk**: Forcing the finish during movement risks applying dangerous uncontrolled pressure that could injure your training partner
 
@@ -227,7 +233,9 @@ The key defensive insight is that you do not need to completely prevent the roll
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Aoki Lock]]
+<p class="section-subtitle">What is the best outcome when defending Rolling Escape to Guard?</p>
+
+### → [[Positions/Aoki Lock Control]]
 
 Prevent the roll entirely by maintaining tight leg entanglement, controlling opponent's hips with your hands, and keeping your posted leg base wide. Recognize early setup cues and increase pressure or adjust position before they can generate roll momentum.
 
@@ -242,6 +250,8 @@ When the roll cannot be prevented, ride it by maintaining chest-to-back connecti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Escape to Guard?</p>
 
 ### 1. Fighting the roll by pulling backward against the opponent's momentum
 
@@ -276,6 +286,8 @@ When the roll cannot be prevented, ride it by maintaining chest-to-back connecti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Escape to Guard?</p>
+
 **Week 1-2** - Recognition and prevention drills
 Partner telegraphs roll setups at slow speed while you practice recognizing the three early cues (hand post, hip elevation, shoulder rotation). Practice tightening leg entanglement and adjusting base in response. No live resistance - focus on pattern recognition.
 
@@ -292,29 +304,6 @@ Full positional sparring starting in Aoki Lock top. Partner uses all escape meth
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing to roll?
-**A**: The three earliest cues are: the opponent's free hand posting on the mat beside their hip on the trapped arm side, their hips beginning to drive upward toward the trapped arm creating roll momentum, and their trapped shoulder rotating internally with palm turning toward the floor. Recognizing these cues gives you time to increase pressure, adjust base, or prepare to follow the roll.
-
-**Q2**: Why is following the roll often better than trying to prevent it entirely?
-**A**: Following the roll with chest-to-back connection converts the escape attempt into a back control opportunity, which is actually a worse position for your opponent than Aoki Lock bottom. By riding their momentum and inserting hooks as they roll, you maintain dominant control throughout. Trying to prevent the roll by pulling backward often creates the exact space the opponent needs for arm extraction.
-
-**Q3**: How should you adjust your base when you detect your opponent targeting your posted leg?
-**A**: Widen your posted leg stance and shift weight distribution to make your base more stable against lateral attacks. If opponent reaches for your posted leg with their free hand, you can use that opening to increase hip pressure on their shoulder since their free hand is now occupied. This creates a dilemma where attacking your base reduces their escape capability.
-
-**Q4**: Your opponent initiates the roll and you follow with chest connection - what must you do immediately as they complete the rotation?
-**A**: Insert hooks inside their thighs before they can establish guard frames. Your legs, which were entangled around their arm, must transition to hip control hooks as the roll changes the positional relationship. Simultaneously convert your existing upper body control to seatbelt or harness grip. The transition window is approximately one to two seconds before they can post and face you.
-
-**Q5**: What is the risk of forcing an accelerated finish when you sense the roll beginning?
-**A**: Forcing explosive pressure during the opponent's rolling movement creates uncontrolled force vectors on the shoulder joint that can cause serious injury including rotator cuff tears, labrum damage, or dislocation. The dynamic movement makes it difficult to control pressure precisely. In competition this risks disqualification, and in training it risks injuring your partner. Controlled transition to back control is the safer high-percentage response.
-
-
-
-</section>
 
 
 </main>

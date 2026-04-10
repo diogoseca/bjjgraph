@@ -162,6 +162,8 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook Sweep from Half?</p>
+
 - Opponent's arm drives deep under your armpit with their shoulder connecting to your ribs on the trapped leg side, establishing the primary sweeping lever
 - Opponent shifts their hips away from you at an angle, moving from flat on their back to their side facing you - this angle creation is the setup phase
 - Opponent's free hand reaches for your far hip, belt, or pants - this grip prevents you from posting your far leg for base
@@ -174,6 +176,8 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook Sweep from Half?</p>
 
 - Win the underhook battle first - prevent the deep underhook from being established through active hand fighting and crossface pressure
 - Maintain heavy chest-to-chest pressure with hips low to deny the angle creation that makes the sweep mechanically possible
@@ -188,6 +192,8 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Sweep from Half?</p>
 
 ### 1. Establish deep whizzer over the underhook arm by threading your arm over their bicep and gripping your own thigh or their hip, then drive your shoulder weight down to flatten them
 
@@ -225,6 +231,8 @@ Defending the Underhook Sweep from Half Guard requires the top player to recogni
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Sweep from Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Shut down the sweep early by winning the underhook battle with a deep whizzer and flattening the opponent with crossface pressure, then resume your passing sequence from a dominant half guard top position with the opponent unable to re-establish their offensive structure
@@ -240,6 +248,8 @@ When the sweep is already loaded, post your far leg wide for base to absorb the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Sweep from Half?</p>
 
 ### 1. Allowing the underhook to establish without contesting - accepting the deep underhook passively before reacting
 
@@ -274,6 +284,8 @@ When the sweep is already loaded, post your far leg wide for base to absorb the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Sweep from Half?</p>
+
 **Phase 1: Recognition Drilling (Weeks 1-2)** - Identifying sweep setup cues
 Partner slowly establishes underhook sweep setup from half guard bottom, pausing at each stage (underhook insertion, angle creation, far hip grip, loading phase). Top player verbally identifies each cue as it occurs and practices the corresponding defensive response in isolation. Build pattern recognition before combining responses.
 
@@ -290,29 +302,6 @@ Full-speed positional rounds starting from half guard top. Bottom player activel
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important defensive action when your opponent secures a deep underhook from half guard bottom?
-**A**: The most important defensive action is immediately establishing a deep whizzer by threading your arm over their bicep and driving your shoulder weight down to flatten them. The whizzer must be deep enough that your hand grips your own thigh or their hip, creating structural control over their underhook arm. A shallow whizzer that only reaches the elbow provides insufficient control and can be powered through. The whizzer combined with crossface pressure neutralizes the underhook as a sweeping lever and begins flattening the opponent's angle.
-
-**Q2**: Why is maintaining low hip pressure critical for preventing the underhook sweep?
-**A**: Low hip pressure directly prevents the two mechanical prerequisites the bottom player needs for the sweep: angle creation and hip loading. When your hips are heavy and pinned against their hips, the opponent cannot shift their body to the 45-degree angle that creates sweeping leverage, and they cannot elevate their hips to generate the bridging power that drives the sweep. High hips create a gap that allows the bottom player to move freely underneath you, establishing the exact body position the sweep requires.
-
-**Q3**: Your opponent has established the underhook and begun creating angle - you feel your weight shifting. What is your immediate defensive sequence?
-**A**: Your immediate sequence should be: first, post your far leg out wide at 45 degrees to create a triangular base that prevents being tipped over; second, drive your whizzer deep over their underhook arm to control and weaken the lever; third, use crossface pressure to drive their head and shoulders back toward flat on the mat. This three-point defense addresses the sweep at multiple levels simultaneously - the leg post provides structural base, the whizzer weakens the sweeping lever, and the crossface removes the angle. Execute all three as quickly as possible rather than relying on any single defensive element.
-
-**Q4**: What are the earliest recognition cues that indicate your opponent is setting up the underhook sweep?
-**A**: The earliest cues appear in sequence: first, their arm begins threading deep under your armpit with their shoulder driving toward your ribs rather than just their hand reaching under; second, their hips begin shifting laterally away from you as they move from flat to their side; third, their free hand reaches toward your far hip, belt, or pants to establish the base-prevention grip. Recognizing and responding to the first cue - the deep underhook attempt - gives you maximum time to implement defensive measures before the sweep develops momentum. Waiting until you feel the hip shift or far grip means you are already behind in the defensive timeline.
-
-**Q5**: How should you adjust your passing strategy after successfully defending an underhook sweep attempt?
-**A**: After defending the sweep, capitalize on the opponent's momentary vulnerability by immediately transitioning to an active pass rather than simply resettling in half guard top. The opponent has just expended energy on a failed sweep attempt and may have compromised their defensive frames during the recovery. Use your whizzer control to flatten them and initiate a knee slice or crossface pass while they are still reorganizing. If they maintained their underhook despite the failed sweep, switch to a backstep pass or kimura attack that uses their underhook commitment against them. The key principle is to punish failed sweep attempts with aggressive passing so opponents learn that attacking carries risk.
-
-
-
-</section>
 
 
 </main>

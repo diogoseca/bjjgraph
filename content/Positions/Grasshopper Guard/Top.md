@@ -173,6 +173,8 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ## Position Definition
 
+<p class="section-subtitle">What is Grasshopper Guard (Top)?</p>
+
 - Top player maintains standing or low combat base posture with weight distributed to prevent being elevated by bottom player's hip leverage. The base must be wide enough to resist sweeping attempts while narrow enough to threaten passing lanes.
 - At least one leg remains free from bottom player's hooks or entanglement attempts, providing escape route and passing option. This free leg serves as both defensive tool against submissions and offensive weapon for stepping over or around guard.
 - Top player's upper body positioning controls distance from bottom player's inverted torso, preventing them from establishing upper body connections or grips while maintaining enough proximity to threaten passing. This distance management is dynamic, adjusting as bottom player's inversion angle changes.
@@ -184,6 +186,8 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Grasshopper Guard (Top)?</p>
 
 - Understanding of basic leg lock defense principles and common entry mechanics
 - Ability to maintain balance and base while opponent generates upward pressure
@@ -199,6 +203,8 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Grasshopper Guard?</p>
+
 - Time is your ally - bottom player cannot sustain inverted position indefinitely
 - Distance management is critical - too close invites entanglements, too far allows following
 - Base width determines sweep vulnerability - adjust dynamically based on bottom player's leg configuration
@@ -213,6 +219,8 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Grasshopper Guard (Top)?</p>
 
 **Bottom player inverts deeply with both legs engaged in entanglement attempts:**
 - Execute **[[Transitions/Back Step Pass/Attacker|Back Step Pass]]** → [[Positions/Side Control]] (Probability: 70%)
@@ -241,6 +249,8 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Grasshopper Guard?</p>
 
 ### 1. Driving forward with constant heavy pressure against inverted guard
 
@@ -280,6 +290,8 @@ The position also demands excellent leg lock defense awareness. Many of the bott
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Grasshopper Guard attacks?</p>
+
 ### Grasshopper Guard Pass Progression
 
 Partner establishes grasshopper position with 50% resistance level. Practice passing sequence: recognize inversion, establish base, wait for hip drop or transition, execute back step or leg drag pass. Reset and repeat, gradually increasing partner's resistance to 75% over multiple rounds.
@@ -312,38 +324,6 @@ Partner holds grasshopper position but signals by dropping hips 2-3 times per ro
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent inverts deeply and begins threading their legs around yours - what is your immediate response?
-**A**: Execute a back step immediately by stepping your endangered leg backward and away from their entanglement attempt while keeping your weight low. The back step creates separation and removes your leg from the danger zone before they can establish control. Avoid pulling straight backward, which often completes their entanglement for them.
-
-**Q2**: What base width should you maintain when facing grasshopper guard, and why?
-**A**: Maintain a medium-width base that is wide enough to resist elevation sweeps but narrow enough to allow quick directional changes and passing attempts. Too wide a base makes you slow to react and vulnerable to leg threading between your stance. Too narrow makes you easily swept when they elevate their hips. Adjust dynamically based on their leg configuration.
-
-**Q3**: How do you recognize when the bottom player's inversion is weakening and becoming vulnerable to a stack pass?
-**A**: Watch for their hips dropping toward the mat, decreased leg activity, slower adjustments to your circling, and visible core fatigue indicated by their midsection relaxing. When their hips sag below chest height or they struggle to maintain shoulder base contact, this creates the optimal window to drive forward with a stack pass.
-
-**Q4**: What are the essential grips or controls for maintaining top position against grasshopper guard?
-**A**: Rather than specific grips, focus on controlling distance and leg positioning. Your hands should be ready to strip or redirect their hooks, post on their hips to prevent elevation, or frame against their legs to create passing angles. Avoid reaching down toward their legs which compromises posture - instead maintain upright position and use your hips and base for control.
-
-**Q5**: The bottom player establishes a hook behind your knee - how do you recover before they complete the entanglement?
-**A**: Immediately shift your weight away from the hooked leg and begin the back step motion. As you step back, use your free hand to address the hook by pushing their leg away or pinning it against their body. Move slowly and deliberately rather than explosively jerking, which can complete the entanglement or cause injury. Reset to neutral distance once the hook is cleared.
-
-**Q6**: Why is constant forward pressure ineffective against grasshopper guard?
-**A**: Constant forward pressure feeds directly into the bottom player's sweeping mechanics by providing the momentum and weight commitment they need for elevation sweeps and X-guard transitions. Their inverted posture is specifically designed to redirect forward pressure upward. Instead, use selective pressure during transition windows when their hips drop or inversion weakens.
-
-**Q7**: How should you manage energy expenditure when facing a skilled grasshopper guard player?
-**A**: Recognize that the bottom player's position is far more exhausting than yours. Maintain a patient, energy-efficient standing or combat base while making small circling movements that force them to constantly adjust. Avoid explosive reactions or prolonged grappling exchanges in their preferred range. Let time work against their position sustainability while you wait for passing opportunities.
-
-**Q8**: Your opponent begins rolling for a kneebar - what adjustment should you make?
-**A**: Sprawl immediately by extending your hips backward and driving your weight toward the mat. This removes the rotational leverage they need to complete the roll and finish the submission. Simultaneously begin stepping your endangered leg away from their body. Once the roll is disrupted, either complete the pass to side control or reset to standing with distance established.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

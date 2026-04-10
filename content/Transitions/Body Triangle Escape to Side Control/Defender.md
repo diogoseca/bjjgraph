@@ -162,6 +162,8 @@ As the defender against this escape, you are the back controller with body trian
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Body Triangle Escape to Side Control?</p>
+
 - Opponent begins shifting hips toward the triangle leg side, reducing the squeeze angle and positioning to attack the lock
 - One hand moves from neck defense toward your legs or the figure-four junction, indicating clearing attempt initiation
 - Controlled deliberate breathing pattern replacing panicked breathing suggests mental preparation for systematic escape work
@@ -174,6 +176,8 @@ As the defender against this escape, you are the back controller with body trian
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Body Triangle Escape to Side Control?</p>
 
 - Maintain tight figure-four lock with foot positioned deep behind your knee to resist clearing attempts and preserve the mechanical advantage of the triangle.
 - Attack the neck aggressively whenever the opponent diverts a hand from neck defense to the triangle, creating a defensive dilemma that punishes escape attempts.
@@ -188,6 +192,8 @@ As the defender against this escape, you are the back controller with body trian
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Body Triangle Escape to Side Control?</p>
 
 ### 1. Tighten squeeze and increase pressure when opponent begins hip shifting
 
@@ -225,6 +231,8 @@ As the defender against this escape, you are the back controller with body trian
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Body Triangle Escape to Side Control?</p>
+
 ### → [[Positions/Back Control/Body Triangle]]
 
 Maintain tight figure-four lock and punish every clearing attempt with aggressive neck attacks that force the opponent to prioritize survival over escape. Follow their hip movement to maintain alignment and use squeeze pulses to prevent settling.
@@ -240,6 +248,8 @@ If the triangle begins to loosen, immediately transition to standard hooks befor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Body Triangle Escape to Side Control?</p>
 
 ### 1. Ignoring opponent's hip movement and not adjusting position to maintain alignment
 
@@ -269,13 +279,15 @@ If the triangle begins to loosen, immediately transition to standard hooks befor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Body Triangle Escape to Side Control?</p>
+
 **Phase 1: Recognition and Awareness** - Identifying escape attempt initiation cues
 Partner attempts slow, telegraphed escapes while you practice recognizing the cues that indicate clearing attempts. Focus on feeling hip shifts, hand movement changes, and breathing patterns that signal escape initiation. No counterattacks yet, pure awareness development.
 
 **Phase 2: Counter-Technique Development** - Executing specific responses to escape attempts
 Partner attempts body triangle escapes with moderate effort while you practice specific counters including squeeze tightening, neck attacks during clearing attempts, and position following. Develop automatic responses to each stage of the escape sequence.
 
-**Phase 3: Dilemma Creation** - Combining submission threats with triangle retention
+**Phase 3: Fork Attacks** - Combining submission threats with triangle retention
 Partner attempts escapes with increasing intensity while you practice creating dilemmas that force them to choose between neck defense and triangle clearing. Coordinate upper body attacks with triangle adjustments to maintain multi-layered control throughout their escape attempts.
 
 **Phase 4: Transition Management** - Smooth transitions when triangle is compromised
@@ -285,29 +297,6 @@ Partner works full-effort escapes that succeed in loosening the triangle. Practi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What visual and tactile cues indicate your opponent is about to attempt a body triangle escape?
-**A**: Watch for hip shifting toward your triangle leg side, hands moving from neck defense toward your legs, and a transition from panicked to controlled breathing indicating mental preparation. Tactile cues include reduced tension on your choking arm, weight shifting in their hips, and their torso beginning to angle toward your crossing leg rather than remaining flat against you.
-
-**Q2**: Your opponent begins attacking the foot behind your knee - what is your immediate response?
-**A**: Tighten the squeeze to recommit the lock while simultaneously attacking their now-exposed neck with aggressive choking arm insertion. When their hand leaves neck defense to attack your foot, exploit that opening immediately. This creates a defensive dilemma where they must choose between continuing the clearing attempt with an unprotected neck or abandoning the escape to re-establish defense.
-
-**Q3**: When should you transition from body triangle to standard hooks during an opponent's escape attempt?
-**A**: Transition when the figure-four lock begins to loosen and you cannot immediately re-establish the foot behind your knee. This is preferable to losing back control entirely while fighting for a compromised triangle. Insert hooks quickly before the opponent completes their turn, then work to re-establish the body triangle once stabilized with standard hook control.
-
-**Q4**: How do you maintain body triangle control when your opponent turns toward the triangle side?
-**A**: Follow their turning motion by adjusting your hip angle to stay directly behind them and increase momentary squeeze pressure to discourage further turning. Use your seatbelt or upper body control to pull them back toward a flatter position. If they persist in turning despite your resistance, prepare to transition to crucifix or armbar as their arm exposure increases during the turn.
-
-**Q5**: What adjustment prevents your opponent from creating the initial hip space needed for the escape?
-**A**: Maintain constant chest-to-back connection and follow any hip movement immediately by mirroring it with your own hip adjustment. Keep your hips positioned close to theirs rather than elevated or distant. Apply periodic squeeze pulses to prevent them from settling into a stable position for systematic clearing work, and attack the neck aggressively whenever you feel them shift focus from defense to escape.
-
-
-
-</section>
 
 
 </main>

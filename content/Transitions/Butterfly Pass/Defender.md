@@ -154,6 +154,8 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Pass?</p>
+
 - Passer widens their knee base significantly beyond shoulder width while lowering their hips, indicating they are establishing the wide platform needed to resist sweeps during the pass
 - Passer drives heavy forward chest pressure while simultaneously securing collar grip or head control, signaling they are beginning the postural breakdown phase before hook clearing
 - Passer shifts weight laterally toward one side while their hip drops toward the mat on that side, indicating they are beginning to address and flatten your primary butterfly hook
@@ -166,6 +168,8 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Pass?</p>
 
 - Maintain upright seated posture with active core engagement to preserve sweeping leverage and prevent being flattened
 - Keep hooks dynamically engaged with constant upward pressure against opponent's inner thighs rather than passive foot placement
@@ -181,6 +185,8 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Pass?</p>
 
 ### 1. Sit up explosively and re-establish dominant grips while driving hooks deeper under opponent's thighs to restore full butterfly guard elevation
 
@@ -218,6 +224,8 @@ Defending the butterfly pass requires understanding the passer's sequential pres
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Pass?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Maintain active hooks and strong upper body grips to prevent the passer from establishing the forward pressure and base width needed for systematic hook clearing. Fight every grip break, immediately re-pummell for underhooks, and use constant hook elevation to keep the passer reactive. When they attempt to flatten a hook, use the window to re-insert the hook or transition to an alternative guard before they can secure control.
@@ -233,6 +241,8 @@ Time a butterfly sweep to coincide with the passer's lateral weight shift during
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Pass?</p>
 
 ### 1. Lying back flat instead of maintaining seated upright posture when passer applies forward pressure
 
@@ -267,6 +277,8 @@ Time a butterfly sweep to coincide with the passer's lateral weight shift during
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Pass?</p>
+
 **Week 1-2: Recognition and Retention Fundamentals** - Identifying butterfly pass initiation cues and maintaining guard structure under pressure
 Partner initiates butterfly pass at slow pace while you practice recognizing the wide base setup and early pressure application. Focus on maintaining seated posture, keeping hooks actively engaged, and re-establishing grips after each break. No sweeping or transitioning yet - pure positional retention and recognition drill. Partner increases pressure gradually over sessions.
 
@@ -283,26 +295,6 @@ Positional sparring starting from butterfly guard against partners using their f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a butterfly pass is being initiated rather than a general pressure engagement?
-**A**: The earliest specific cue is the passer deliberately widening their knee base beyond normal combat base width while simultaneously lowering their hips. This distinct posture change differentiates a butterfly pass attempt from general engagement because the exaggerated base width serves no purpose other than creating geometric resistance to butterfly sweep leverage. A passer who is merely engaging your guard will maintain normal combat base width, while one initiating a butterfly pass specifically needs the extra-wide platform to safely begin applying the forward pressure and lateral weight shifts required for systematic hook clearing. Recognizing this base-widening early gives you a critical 2-3 second window to establish grips and prepare counter-attacks before the passer begins their pressure sequence.
-
-**Q2**: Why is the moment when the passer shifts weight to flatten your first hook the most critical defensive window?
-**A**: The lateral weight shift to flatten a hook creates a momentary structural vulnerability in the passer's base that does not exist at any other point in the passing sequence. To drive their hip down onto your hook, the passer must commit a significant portion of their weight to one side, which inherently reduces their stability on the opposite side. This is the same biomechanical principle that makes all sweeps work - unbalancing someone to one side makes them vulnerable to being swept to the other side. Your hook on the non-pressured side retains full elevation capability, and with coordinated upper body pulling toward the light side, you can generate the off-balance needed for a sweep at the exact moment the passer has committed their weight and cannot recover quickly enough to re-establish base.
-
-**Q3**: When should you abandon butterfly guard retention and transition to an alternative guard during a passing attempt?
-**A**: The decision point for transitioning away from butterfly guard occurs when your primary hook has been flattened and the passer has secured either a crossface or underhook on that side. At this stage, recovering the flattened hook against an opponent with established upper body control becomes extremely low-percentage and energy-intensive. Attempting to force butterfly recovery here typically results in a complete pass because the passer has already achieved the critical halfway point of their sequence. Instead, immediately transition to deep half guard by scooping their near leg, or use your remaining active hook to enter X-guard or single leg X by extending and redirecting. These transitions exploit the fact that the passer's weight commitment to one side often leaves their legs vulnerable to entanglement. The key principle is that a proactive transition to a strong alternative guard always produces better outcomes than a desperate attempt to recover a compromised butterfly guard.
-
-**Q4**: How does grip fighting strategy differ when defending a butterfly pass compared to playing offensive butterfly guard?
-**A**: In offensive butterfly guard, your grip fighting emphasizes establishing dominant controls for sweep setup - you prioritize collar grips for posture breaking and sleeve grips for directional sweep control. When defending a butterfly pass, your grip fighting shifts toward denial and disruption. The primary objective becomes preventing the passer from securing the collar grip or crossface that enables their forward pressure system. This means your hands must work more reactively, stripping grips as they form rather than proactively establishing your own setup grips. The defensive grip fighting also prioritizes inside position with your elbows, keeping them tight to prevent the passer from threading underhooks. However, the best defenders blend both approaches - they strip the passer's grips while simultaneously working to establish their own offensive controls, creating a grip fighting dynamic where defense and counter-offense operate simultaneously.
-
-
-
-</section>
 
 
 </main>

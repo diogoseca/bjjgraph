@@ -194,6 +194,8 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from Anaconda?</p>
+
 - Maintain unbroken chest-to-back connection throughout the entire transition to prevent defender from creating separation or turning to face you
 - Release the anaconda grip only when seatbelt control can be immediately established, minimizing the vulnerable grip transition window
 - Follow the opponent's defensive rotation rather than fighting it, using their movement energy to accelerate your transition to back control
@@ -208,6 +210,8 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from Anaconda?</p>
+
 - Secure anaconda grip with gable grip or figure-four clasped tightly around opponent's neck and near arm
 - Establish dominant chest pressure driving into opponent's trapped shoulder and upper back
 - Opponent's defensive reaction must be creating back exposure through turning, turtling, or distance creation
@@ -220,6 +224,8 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from Anaconda step by step?</p>
 
 1. **Recognize defensive trigger**: Identify the moment when the opponent's defensive movements create back exposure. Watch for them turning away from choke pressure, attempting to turtle tighter, or driving their hips backward. This recognition must happen in real-time as the transition window is typically less than two seconds before the opponent adjusts.
 2. **Drive chest pressure into opponent's back**: Intensify your chest-to-back connection by driving your sternum firmly into the opponent's upper back and shoulder blade area as they begin to turn. This continuous pressure prevents them from creating separation distance and ensures you remain physically attached during the grip transition. Your weight should follow their movement direction rather than resist it.
@@ -250,6 +256,8 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from Anaconda?</p>
+
 - **Opponent immediately turns back to face attacker during grip transition window** (Effectiveness: High) - Your Response: Abort the back take and re-establish anaconda grip or transition to front headlock. If they turn quickly, you may be able to shoot for a guillotine or darce as they rotate toward you. → Leads to [[Positions/Anaconda Control]]
 - **Opponent drops hips flat to mat and sprawls to prevent hook insertion** (Effectiveness: Medium) - Your Response: Maintain seatbelt control and walk your hips laterally to create an angle. Use the seatbelt to pull their upper body toward you while driving your knee under their hip to create space for hook entry. Alternatively, transition to a body triangle if one hook is in. → Leads to [[Positions/Anaconda Control]]
 - **Opponent grabs attacker's transitioning arm to prevent seatbelt establishment** (Effectiveness: Medium) - Your Response: Use your free arm to swim inside their grip while maintaining chest pressure. If they commit both hands to grip fighting your arms, their base is compromised and you can use hip pressure to roll them and insert hooks from the resulting scramble. → Leads to [[Positions/Anaconda Control]]
@@ -261,6 +269,8 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from Anaconda?</p>
 
 ### 1. Releasing anaconda grip before seatbelt position is ready to be established
 
@@ -300,6 +310,8 @@ The attacker executing the Back Take from Anaconda must develop the ability to r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from Anaconda (Attacker)?</p>
+
 **Phase 1: Recognition Drilling** - Reading defensive reactions from anaconda control
 Partner assumes anaconda control bottom and cycles through different defensive reactions: turning away, turtling, creating distance, and staying stationary. Attacker identifies which reactions create back take opportunities versus which favor continuing the choke. No live transition yet, just pattern recognition at 25% speed.
 
@@ -320,42 +332,12 @@ Positional sparring starting from anaconda control where attacker must read the 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary visual or tactile cue that signals the optimal moment to transition from anaconda choke to back take?
-**A**: The primary cue is the opponent turning their shoulders and hips away from the choking pressure, which simultaneously reduces the choke angle and exposes their back. You feel their upper body rotating under your chest, their trapped arm pulling toward their body, and their hips shifting away from your control side. This turning motion is the clearest signal that choke defense is working but back exposure is increasing.
-
-**Q2**: Your opponent begins turning away from your anaconda pressure but keeps their elbows tight to their body - how do you create space for hook insertion?
-**A**: Use the seatbelt underhook arm to lift their far elbow away from their hip, creating the gap needed for hook entry. Simultaneously drive your near-side knee into their lower back to wedge space between their hips and the mat. If elbows remain tight, transition your near-side leg to butterfly hook position against their inner thigh and use the leverage to pry their legs apart for hook insertion.
-
-**Q3**: What grip configuration replaces the anaconda lock during the transition to back control?
-**A**: The seatbelt grip replaces the anaconda lock. One arm threads over the opponent's shoulder while the other slides under their far armpit, with hands clasped together on their chest or upper sternum. This seatbelt provides upper body control comparable to the anaconda grip but oriented for back control rather than choking. The overhook side controls the near shoulder while the underhook side prevents the opponent from turning into you.
-
-**Q4**: Which hook should be inserted first when transitioning from anaconda to back control, and why?
-**A**: The near-side hook should be inserted first because it is closest to the opponent's body during the transition and establishes immediate hip control on the side where the attacker already has positional advantage. The near-side hook prevents the opponent from completing their turn to face the attacker, which is the highest-percentage escape during this transition. Once the near-side hook is secure, the far-side hook can be inserted with much less risk of losing position.
-
-**Q5**: Your opponent grabs your wrist as you release the anaconda grip to transition to seatbelt - how do you respond?
-**A**: Use your free arm to maintain chest-to-back connection while swimming your grabbed wrist inside their grip using a circular motion toward their thumb, which is the weakest point of any grip. Alternatively, abandon the grabbed arm temporarily and use your free arm to establish a single underhook, then use hip pressure and body weight to compromise their grip. Never stop chest pressure to deal with the wrist grab, as separation is more dangerous than a temporarily controlled wrist.
-
-**Q6**: What is the critical body connection that must be maintained throughout the entire transition from anaconda to back control?
-**A**: Chest-to-back connection is the critical body connection that must never break during the entire transition. Your sternum should remain in constant contact with the opponent's upper back and shoulder blades from the initial anaconda position through seatbelt establishment and hook insertion to final consolidation. Any separation allows the opponent to turn, create frames, or generate enough distance to face you and negate the back take entirely.
-
-**Q7**: You successfully insert one hook but the opponent begins turning to face you before you can set the second hook - what is your immediate response?
-**A**: Tighten the seatbelt grip and drive your inserted hook deeper while using the free leg to post on the mat and follow their rotation. If they continue turning, use the seatbelt to pull them back and re-angle your hips behind theirs. If the turn is too far along, abandon the second hook temporarily and use the single hook plus seatbelt to drag them back into position. A solid single hook with tight seatbelt is sufficient to prevent full escape while you reset for the second hook.
-
-**Q8**: If the back take attempt fails and your opponent begins escaping, what position should you prioritize recovering to?
-**A**: Prioritize recovering to anaconda control or front headlock position rather than scrambling for an inferior position. Since you started from anaconda control, your arms and upper body are already configured for head-and-arm attacks. Re-establish the anaconda grip or transition to darce or guillotine depending on the angle of the scramble. Recovering to the starting position preserves your offensive advantage and gives you another opportunity to attack rather than conceding position entirely.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from Anaconda?</p>
 
 The back take from anaconda involves releasing neck pressure and transitioning control points. During training, execute the grip transition smoothly rather than explosively to avoid accidental cranking of the opponent's neck during the release phase. Be mindful that the anaconda grip can maintain choking pressure even during the transition, so release deliberately and check with your training partner about comfort level. When inserting hooks, avoid slamming heels into the opponent's inner thighs, which causes unnecessary discomfort. Both partners should communicate clearly about when the anaconda grip transitions to seatbelt to prevent unexpected choking pressure during positional drilling.
 

@@ -194,6 +194,8 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep from Single Leg X?</p>
+
 - Commit fully to the rotation once initiated because hesitation mid-backstep exposes you to sweeps and counters from the worst possible angle
 - Strip or control the bottom player's hip hook before rotating so it cannot follow your movement and re-establish guard
 - Transfer weight to the free posted leg before stepping to ensure stable base throughout the rotational movement
@@ -209,6 +211,8 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep from Single Leg X?</p>
+
 - Free leg posted wide with foot flat on the mat providing stable base for weight transfer and rotation initiation
 - Bottom player's sleeve or wrist grips stripped or controlled to prevent them from disrupting the rotation with upper body pulls
 - Control established on the bottom player's top leg or hip hook through hand grip on their ankle, knee, or pants
@@ -221,6 +225,8 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep from Single Leg X step by step?</p>
 
 1. **Establish grip control and strip upper body connections**: Break the bottom player's sleeve grips, collar ties, or any upper body controls that could pull you back during rotation. Use sharp grip breaks at the wrist and push their hands to the mat. This step is essential because any retained upper body grip gives them the ability to follow your rotation or pull you off balance mid-pass.
 2. **Control the hip hook with your near hand**: Secure a grip on the bottom player's top foot or ankle where it hooks your hip. Push it downward toward the mat or peel it off your hip entirely. If you cannot fully remove it, pin it against your body so it cannot actively follow your rotation. This is the most critical preparatory step because the hip hook is the primary mechanism that allows them to track your movement.
@@ -251,6 +257,8 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep from Single Leg X?</p>
+
 - **Bottom player follows the rotation with active hooks, maintaining SLX configuration by chasing the hip with their top hook** (Effectiveness: High) - Your Response: Accelerate the rotation and pin their chasing leg to the mat with your hand before completing the backstep. If they successfully follow, reset to standing base and re-address the hip hook before attempting again. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
 - **Bottom player transitions to ashi garami entry by threading their legs into leg entanglement during the rotation window** (Effectiveness: Medium) - Your Response: Recognize the leg entry attempt and immediately straighten your leg and backstep aggressively past the entanglement angle. If caught, address the ashi position rather than continuing the pass attempt. → Leads to [[Positions/Half Guard]]
 - **Bottom player frames with arms against your hips and shoulders during rotation to create space for guard recovery** (Effectiveness: Medium) - Your Response: Drive through the frames with chest pressure as you complete the rotation. Use the momentum of the backstep to collapse their arm frames before they can fully extend. Prioritize crossface establishment to neutralize frame power. → Leads to [[Positions/X-Guard/Single Leg X-Guard]]
@@ -262,6 +270,8 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep from Single Leg X?</p>
 
 ### 1. Initiating the backstep without first stripping the bottom player's hip hook
 
@@ -306,6 +316,8 @@ The attacker in the Backstep from Single Leg X is the top player trapped in the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep from Single Leg X (Attacker)?</p>
+
 **Phase 1: Solo Rotation Mechanics** - Hip rotation pattern and footwork
 Practice the backstep rotation without a partner. Stand on one leg, simulate the posting and weight transfer, and step the free leg in a wide arc behind you while rotating your hips 180 degrees. Focus on maintaining low center of gravity, smooth continuous motion, and landing with chest facing the direction you started from. Perform 20 repetitions per side.
 
@@ -326,42 +338,12 @@ Start in SLX top and flow between backstep attempts, headquarters passing, and s
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical setup action before initiating the backstep rotation from SLX?
-**A**: Controlling or stripping the bottom player's hip hook is the most critical setup action. The hip hook is the mechanism that allows the bottom player to follow your rotation and maintain guard. Without addressing this hook first, the backstep rotation will fail because the bottom player can simply track your movement with their foot and re-establish SLX configuration on the other side. Strip it by peeling the foot off your hip, or pin it to the mat with your hand.
-
-**Q2**: Your opponent's hip hook is stripped but they immediately grab your same-side sleeve as you begin the rotation - how do you adjust?
-**A**: If the sleeve grip is established just as you begin rotating, you must make a split-second decision. If the grip is loose, power through the rotation using your momentum to break the grip as you turn. If the grip is strong, abort the backstep immediately by returning your weight to the posted leg and strip the grip before re-attempting. Continuing a backstep against a strong sleeve grip will result in being pulled off balance mid-rotation, which is the worst possible outcome.
-
-**Q3**: In which direction should the free leg step during the backstep, and why does the stepping radius matter?
-**A**: The free leg should step in a wide arc behind the bottom player's far hip, landing on the opposite side of their body. The stepping radius matters enormously because a wider arc creates a more complete hip rotation, which is what mechanically clears the trapped leg from the inside hook. A narrow step produces insufficient rotation and leaves the trapped leg still caught in the entanglement. Always err on the side of stepping wider rather than shorter.
-
-**Q4**: You complete the rotation and clear the hooks but the bottom player immediately inserts their knee before you can establish crossface - what went wrong and how do you prevent it?
-**A**: The gap between hook clearance and side control establishment was too long. The backstep rotation and the side control consolidation must be treated as one continuous movement, not two separate actions. Prevent this by dropping your weight and driving the crossface the instant your rotation clears the hooks. Your chest should land on their torso within one second of the hooks clearing. Practice connecting the landing directly to the crossface establishment as a single integrated motion.
-
-**Q5**: What grip should your hands prioritize during the backstep rotation itself?
-**A**: During the actual rotation, one hand should control the bottom player's top leg or ankle to prevent the hip hook from chasing, while the other hand posts on the mat for balance support during the transition. Once the rotation is complete and you are landing in side control, the posting hand immediately transitions to crossface while the leg-controlling hand drops to block the far hip. The grip priorities shift from control and balance during rotation to crossface and hip block upon landing.
-
-**Q6**: Your opponent has very tight inside hook tension around your ankle that resists rotational clearance - what adjustments enable the backstep to succeed?
-**A**: When the inside hook is exceptionally tight, drive your trapped knee forward toward the bottom player's chest to change the angle of the hook and reduce its grip strength. You can also use your hand to peel their inside leg off your ankle momentarily before rotating. Another approach is the backstep to knee slide variant where you initiate the backstep for the angle change but finish by driving your knee through the remaining hook rather than relying purely on rotational clearance.
-
-**Q7**: How does the backstep from SLX differ mechanically from a backstep from De La Riva guard?
-**A**: The key difference is the hook configuration you must defeat. In DLR, the primary hook wraps behind your lead knee from the outside, so the backstep clears it by stepping behind the hook's wrapping direction. In SLX, you face both an inside ankle wrap and a hip hook working together, requiring you to address the hip hook before rotating and relying on rotation to clear the inside hook. SLX backsteps typically require more preparatory grip work and a wider rotation arc because the inside hook has deeper purchase around the ankle.
-
-**Q8**: During live rolling, your backstep attempt fails because the bottom player follows your rotation and retains SLX - what chain attack should you immediately threaten?
-**A**: After a failed backstep, immediately threaten a direct pass in the opposite direction such as a headquarters pass or standing leg extraction. The bottom player committed their hooks to following your rotation in one direction, which means they are momentarily committed in that direction and vulnerable to a sudden reversal of passing direction. Alternatively, if they over-commit to chasing, their legs may extend and create a window for a knee bar or ankle lock counter-attack on the trapped leg.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep from Single Leg X?</p>
 
 The backstep from SLX involves rapid rotational movement that can stress knee and ankle joints for both practitioners. The top player must control rotation speed to avoid sudden twisting pressure on the bottom player's hooks, particularly their inside hook around the ankle which bears rotational torque during the pass. The bottom player's knee is vulnerable if they resist hook clearance with a locked leg during rotation. Both partners should communicate clearly and tap immediately if any joint pressure becomes excessive. When drilling, begin with slow controlled rotations and gradually increase speed. Avoid explosive backsteps until both partners are comfortable with the mechanics.
 

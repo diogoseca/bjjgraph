@@ -169,6 +169,8 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Scarf Hold (Bottom)?</p>
+
 - Bottom player on their back with shoulders and upper back pinned to the mat, chest compressed by top player's torso weight creating breathing restriction and postural control
 - Top player's hips positioned alongside bottom player's chest/shoulder area with reverse orientation (facing toward legs, away from head), distributing weight through hip and torso compression against ribcage
 - Bottom player's near arm typically controlled or trapped by top player's underhook or overhook, limiting defensive framing options and creating submission vulnerability
@@ -182,6 +184,8 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse Scarf Hold (Bottom)?</p>
+
 - Opponent has achieved reverse scarf hold control from top position
 - Bottom player is on their back with shoulders flat to mat
 - Top player has secured control of at least one arm (typically near-side)
@@ -194,6 +198,8 @@ Success in this position requires prioritizing survival first, then creating fra
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Scarf Hold?</p>
 
 - Maintain breath control despite chest compression - use diaphragmatic breathing and remain calm to prevent panic and energy waste
 - Protect near-side arm from being isolated for kimura or americana by keeping elbow tight to body and hand near opposite shoulder
@@ -209,6 +215,8 @@ Success in this position requires prioritizing survival first, then creating fra
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse Scarf Hold (Bottom)?</p>
 
 **If opponent maintains heavy chest pressure without attempting submissions:**
 - Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 70%)
@@ -237,6 +245,8 @@ Success in this position requires prioritizing survival first, then creating fra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Scarf Hold?</p>
 
 ### 1. Panicking under chest pressure and burning energy with ineffective thrashing movements
 
@@ -276,6 +286,8 @@ Success in this position requires prioritizing survival first, then creating fra
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Reverse Scarf Hold defense?</p>
+
 ### Reverse Scarf Hold Survival Drill
 
 Partner maintains heavy reverse scarf hold pressure while bottom player practices breath control, frame maintenance, and energy conservation for timed rounds. Start with 1-minute rounds, progress to 2-3 minutes. Focus on staying calm, maintaining frames, and not wasting energy on ineffective movements.
@@ -309,38 +321,6 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you find yourself in Reverse Scarf Hold Bottom?
-**A**: The first priority is survival through breath control and protecting your near-side arm. Focus on diaphragmatic breathing despite chest compression to prevent panic. Immediately bring your near-side elbow tight to your ribs with your hand near your opposite shoulder to prevent arm isolation for kimura or americana attacks. Only after establishing defensive breathing and arm protection should you begin working on escape sequences.
-
-**Q2**: Your opponent starts isolating your near arm for a kimura - what is the immediate defensive response?
-**A**: When you feel the kimura grip being established, immediately turn your body toward the attacking arm (rotating your torso toward your trapped arm), which decreases the angle available for the submission. Simultaneously pull your elbow back toward your hip and try to straighten your arm while bridging to create space. If possible, grab your own belt, gi, or shorts to prevent arm separation. The key is addressing the attack immediately before they secure the figure-four grip.
-
-**Q3**: What are the essential frames for creating escape space from Reverse Scarf Hold Bottom?
-**A**: The primary frame is your far-side arm positioned against the opponent's neck, shoulder, or hip depending on their positioning. This frame should use skeletal structure (forearm perpendicular to their body) rather than pushing with muscle strength. Your near-side arm, when not defending submissions, can frame on their hip to prevent them from settling their weight further onto your chest. These frames create the space necessary for hip escape mechanics.
-
-**Q4**: How do you shut down the opponent's primary advancement to mount?
-**A**: When you feel the opponent attempting to step over to mount, immediately turn your hips toward them and insert your near-side knee between your bodies as a shield. This knee insertion must happen before their leg clears your body. Simultaneously push on their hip with your far-side frame to create separation. If they begin the step-over, use that moment of weight shift to execute a hip escape toward their back, potentially recovering half guard or creating reversal opportunity.
-
-**Q5**: What grip priority should you maintain when the opponent reaches for a submission attempt?
-**A**: When the opponent reaches for a submission, they temporarily compromise their base and weight distribution. Your priority is using this window to either defend the specific submission or initiate your escape. For arm attacks, immediately address the grip before it locks. For transitions, use their weight shift to bridge and create space. The key is recognizing that their attack attempt is your escape opportunity - maintain defensive arm position while capitalizing on their compromised base.
-
-**Q6**: Your opponent transitions toward north-south - what is the correct defensive response?
-**A**: As they begin moving toward north-south, their weight necessarily shifts off your chest, creating space. Immediately follow their movement with your hips by turning to face them and inserting your knees between your bodies. As they complete the transition, work to establish open guard frames before they can consolidate north-south control. The transition moment is often easier to escape than either stable position, so act immediately when you feel the weight shift.
-
-**Q7**: How do you manage energy expenditure while defending Reverse Scarf Hold?
-**A**: Energy management requires recognizing the difference between effective effort and wasted movement. Explosive bridging without setup is wasted energy. Pushing with arms against their weight is wasted energy. Effective effort includes controlled breathing, maintaining structural frames that don't require muscular effort, and timing explosive movements for when opponent's base is compromised. Accept that you may need to survive 30-60 seconds before an escape opportunity presents itself.
-
-**Q8**: What is the recovery sequence after you create space but fail to complete the escape?
-**A**: After creating space without completing the escape, immediately re-establish your defensive frames before the opponent can recapture full control. Reset your near-side arm to protected position (elbow tight, hand near opposite shoulder). Re-establish your far-side frame against their neck or shoulder. Use the remaining space to adjust your hip angle for the next escape attempt. Don't abandon frames to immediately attempt another escape - reset your defensive structure first, then look for the next opportunity.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -364,7 +344,7 @@ Top player creates windows of opportunity (reaching for submissions, adjusting p
 - **[[Positions/Side Control/Reverse Scarf Hold]]** - Parent position - hub page for this variant
 - **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Alternative name - judo terminology for same position
 - **[[Positions/Side Control/Kesa Gatame]]** - Similar defensive position with traditional scarf hold orientation
-- **[[Positions/Side Control/Side Control Consolidation]]** - Related defensive position with similar escape principles
+- **[[Positions/Side Control]]** - Related defensive position with similar escape principles
 - **[[Positions/Side Control/Scarf Hold Position]]** - Related position with traditional forward-facing scarf hold
 - **[[Transitions/Elbow Escape to Guard]]** - Primary escape transition from bottom pins
 - **[[Transitions/Bridge and Roll]]** - Reversal transition when opponent's base is compromised

@@ -194,6 +194,8 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Reverse Scarf Hold?</p>
+
 - Establish far-side frame against opponent's hip or lower back before initiating any shrimping movement to create structural space
 - Turn onto your side facing the opponent to maximize shrimping distance and prevent the flattened position that eliminates hip mobility
 - Execute incremental hip escapes rather than one large shrimp, building space progressively with each movement
@@ -208,6 +210,8 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Reverse Scarf Hold?</p>
+
 - Near-side arm protected with elbow tight to ribs and hand near opposite shoulder to prevent arm isolation attacks
 - Far-side arm positioned to establish a structural frame against opponent's hip, lower back, or shoulder area
 - Controlled breathing established through diaphragmatic technique despite chest compression to prevent panic-driven energy waste
@@ -220,6 +224,8 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Reverse Scarf Hold step by step?</p>
 
 1. **Secure Defensive Arm Position**: Immediately protect your near-side arm by pulling the elbow tight to your ribs with your hand positioned near the opposite shoulder. This eliminates the americana and kimura threat that the top player will target if your arm drifts away from your body. This defensive posture must be maintained throughout the entire escape sequence.
 2. **Establish Far-Side Frame**: Position your far-side forearm as a structural frame against the opponent's hip, lower back, or shoulder depending on their body position. Use skeletal structure rather than muscular pushing by placing the forearm perpendicular to their body. This frame creates the initial separation needed to begin hip escape movements and prevents chest-to-chest reconnection.
@@ -251,6 +257,8 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Reverse Scarf Hold?</p>
+
 - **Top player drops hip weight lower and sprawls wider to eliminate shrimping space** (Effectiveness: High) - Your Response: When the opponent sprawls and drops low, switch to a bridge escape attempt that exploits their compromised height. Their wide base for anti-shrimp becomes vulnerable to directional bridges. Chain the bridge with an immediate return to hip escape if they re-settle high. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
 - **Top player transitions to mount by stepping over during hip escape movement** (Effectiveness: High) - Your Response: If you feel the leg stepping over during your shrimp, immediately clamp your elbow to your hip on the mount side and insert your knee to block the leg clearance. Use the space from your hip escape to prevent the mount completion by keeping your knee as a barrier. → Leads to [[Positions/Mount]]
 - **Top player re-secures arm trap after frame creation breaks their initial control** (Effectiveness: Medium) - Your Response: Maintain your far-side frame even while defending the arm re-trap. Use short, quick shrimps to maintain whatever space exists. If they commit both hands to the arm trap, their base weakens and a bridge opportunity opens. → Leads to [[Positions/Side Control/Reverse Scarf Hold]]
@@ -262,6 +270,8 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Reverse Scarf Hold?</p>
 
 ### 1. Attempting to push the opponent off with arm strength instead of using frame structure and hip escapes
 
@@ -301,6 +311,8 @@ The Escape from Reverse Scarf Hold is executed by the bottom player trapped unde
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Reverse Scarf Hold (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Structural frame placement and maintenance under pressure
 Partner maintains reverse scarf hold at 30% pressure. Practice establishing and maintaining the far-side frame in different positions against the opponent's hip, lower back, and shoulder. Focus on using skeletal structure rather than muscular effort. Each round emphasizes maintaining the frame for 30 seconds without collapse.
 
@@ -321,42 +333,12 @@ Full resistance rounds starting in reverse scarf hold bottom. Use the complete e
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first action you take when establishing the escape from reverse scarf hold bottom?
-**A**: The first action is protecting the near-side arm by pulling the elbow tight to your ribs with the hand near your opposite shoulder. This eliminates the americana and kimura threat before any escape movement begins. Only after the arm is secured do you establish the far-side frame and begin the shrimping sequence. Starting with arm protection prevents the top player from converting your escape attempt into a submission opportunity.
-
-**Q2**: Why must you turn onto your side before initiating hip escape movements from reverse scarf hold?
-**A**: Turning onto your side dramatically increases hip escape distance and effectiveness. When flat on your back, the shrimping motion is constrained to one to two inches of movement because your hip range of motion is limited by the mat contact along your entire back. On your side, the same shrimping motion generates six to eight inches of distance because your hips can rotate freely through a larger arc. The side position also enables angle creation that opens escape pathways impossible from the flat position.
-
-**Q3**: Your opponent sprawls low and widens their base when they feel you begin to shrimp - how do you adjust?
-**A**: When the opponent sprawls low and wide to counter your hip escapes, switch to a bridge escape attempt. Their sprawled position drops their center of gravity but reduces their ability to resist upward force from a directional bridge. Execute an angled bridge toward their back to exploit the weak axis created by their sprawl. This bridge-to-shrimp chaining creates the escape dilemma system where defending one method opens vulnerability to the other.
-
-**Q4**: What role does the far-side frame play throughout the entire escape sequence?
-**A**: The far-side frame serves as the structural foundation for the entire escape. It creates and maintains the initial space between your body and the opponent's chest, preventing them from resettling crushing pressure between shrimps. The frame must remain engaged continuously throughout the escape sequence, adjusting angle and position as your body moves but never completely disengaging. Without constant frame pressure, the top player collapses back onto your chest after each shrimp, negating all accumulated space creation.
-
-**Q5**: How do you recognize the optimal moment to insert your knee shield during the escape?
-**A**: The optimal moment for knee insertion is when your shrimping has created a gap between your torso and the opponent's body that is roughly the width of your thigh. You can feel this through your frame arm as the pressure against it decreases and the distance between your forearm and your own body increases. The knee insertion must happen immediately when this space appears because the window typically lasts only one to two seconds before the top player adjusts. Training repetition develops the pattern recognition to act on this window automatically.
-
-**Q6**: Your near-side arm gets partially isolated during the escape attempt and the opponent begins securing a kimura grip - what is your response?
-**A**: Immediately abort the escape sequence and address the submission. Turn your body toward the trapped arm to reduce the available angle for the kimura. Straighten the arm while pulling the elbow back toward your hip to break the isolation. If possible, grab your own belt, shorts, or gi to prevent arm separation. Only after the kimura threat is fully neutralized should you reset your defensive arm position and resume the escape sequence. Continuing to shrimp with a partially isolated arm risks giving the opponent the leverage they need to finish the submission.
-
-**Q7**: What differentiates the hip escape from reverse scarf hold from a standard side control hip escape?
-**A**: The primary difference is the escape direction relative to the top player's orientation. In standard side control, the opponent faces your head, so hip escapes move away from their chest toward their legs. In reverse scarf hold, the opponent faces your legs, so the pressure angle is reversed and the shrimping must account for the different base configuration. The far-side frame targets the opponent's hip or lower back rather than their neck or chest. Additionally, the top player's base vulnerabilities are in different directions, making the bridge-shrimp dilemma angle calculations different from standard side control escapes.
-
-**Q8**: You successfully insert a knee but cannot establish full half guard entanglement - what alternatives do you have?
-**A**: If full half guard cannot be locked, use the inserted knee as a butterfly hook by positioning your foot on the opponent's inner thigh and elevating to create more space for the second leg to engage. Alternatively, extend the knee shield into an open guard frame while establishing grips on their collar or sleeves to maintain distance. A third option is using the partial space to execute a technical stand-up by posting your far hand and driving to standing. The critical principle is never surrendering the space the shrimps created. Any guard structure you can establish serves as a platform for further improvement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Reverse Scarf Hold?</p>
 
 This escape involves sustained hip movement under significant chest compression, which can strain the lower back and hip flexors if performed with poor alignment. Practitioners should communicate if experiencing breathing difficulty under the pin pressure. During training, partners should allow escapes at reduced resistance levels before progressing to full resistance. The near-side arm is vulnerable to sudden joint locks during the escape attempt. If your partner catches a submission grip during the escape, tap immediately rather than trying to power through. Always warm up hip flexors and thoracic spine before drilling sustained shrimping mechanics.
 

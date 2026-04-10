@@ -208,9 +208,9 @@ The 3-4 Mount to S Mount transition serves as a critical link in the mount submi
 
 - [[Positions/Mount]] - Parent position in the mount hierarchy from which both 3-4 Mount and S Mount derive
 
-- [[Submissions/Armbar from S Mount]] - Primary submission follow-up after successfully achieving S Mount through this transition
+- [[Transitions/S Mount Armbar Setup]] - Primary submission follow-up after successfully achieving S Mount through this transition
 
-- [[Submissions/Americana from 3-4 Mount]] - Complementary threat that can be used to set up the S Mount entry through defensive reactions
+- [[Submissions/Americana]] - Complementary threat that can be used to set up the S Mount entry through defensive reactions
 
 - [[Positions/Half Guard]] - Counter outcome position—where attacker may end up if bottom player successfully reverses during transition
 

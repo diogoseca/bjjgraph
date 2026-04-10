@@ -169,6 +169,8 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ## Position Definition
 
+<p class="section-subtitle">What is Vaporizer (Bottom)?</p>
+
 - Lockdown established on one leg with bottom practitioner's legs intertwined around opponent's trapped leg, creating structural control through the figure-four configuration that prevents leg extraction
 - Underhook or overhook secured on opponent's upper body, typically with the arm threading under the opponent's arm or wrapping over their shoulder to create leverage for the whip-up motion
 - Opponent's posture broken and weight shifted to one side, with their trapped leg extended and their upper body compromised, preventing them from establishing a stable base
@@ -182,6 +184,8 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Vaporizer (Bottom)?</p>
+
 - Lockdown secured on one of opponent's legs with figure-four leg configuration
 - Opponent in or transitioning from half guard top position
 - Underhook or overhook control established on opponent's upper body
@@ -194,6 +198,8 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Vaporizer?</p>
 
 - Maintain constant lockdown pressure by extending the trapped leg away from opponent's body while keeping the lock tight
 - Use whip-up motion by driving hips forward and upward to break opponent's posture and force weight distribution onto their hands
@@ -209,6 +215,8 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Vaporizer (Bottom)?</p>
 
 **If opponent maintains heavy pressure and resists whip-up motion with wide base:**
 - Execute **[[Transitions/Electric Chair Transition/Attacker|Electric Chair Transition]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 55%)
@@ -237,6 +245,8 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Vaporizer?</p>
 
 ### 1. Failing to maintain constant lockdown pressure and allowing opponent's leg to relax
 
@@ -276,6 +286,8 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Vaporizer defense?</p>
+
 ### Lockdown Maintenance Drill
 
 Partner starts in half guard top with good posture. Bottom practitioner establishes lockdown and practices maintaining it while partner attempts various escape methods. Focus on keeping constant pressure and preventing leg extraction. Perform 5-minute rounds switching roles.
@@ -308,38 +320,6 @@ From Vaporizer, attempt Old School sweep. When partner defends, immediately tran
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins to widen their base to resist your whip-up motion - how do you adjust your lockdown pressure to maintain control?
-**A**: When opponent widens their base, increase the extension of their trapped leg by driving your lockdown legs away from your body while pulling them closer with your underhook. This creates opposing forces that compromise their widened base. Additionally, angle your hips slightly toward their trapped leg side to maximize the lateral pressure. A widened base actually exposes them to the Electric Chair - use their defensive posture against them.
-
-**Q2**: What are the essential grips required for maintaining the Vaporizer position and creating effective attacks?
-**A**: The two essential grips are the lockdown leg configuration and the underhook. The lockdown must be tight with your top leg's foot hooked behind your bottom leg, creating a figure-four that traps their leg. The underhook should be deep, reaching their far shoulder blade or lat, providing leverage for the whip-up motion. Without both grips working together, the position loses its effectiveness - the lockdown alone can be weathered, and the underhook alone allows them to extract their leg.
-
-**Q3**: How do you shut down your opponent's primary escape attempt when they try to establish a whizzer?
-**A**: When they establish a whizzer, immediately drive your underhook deeper and pull yourself tighter to their body, eliminating the space the whizzer needs to be effective. Simultaneously increase your lockdown pressure to prevent them from using the whizzer to create distance. If their whizzer is strong, this actually sets up the Electric Chair perfectly - their whizzer commitment prevents them from defending the leg split. Transition to Electric Chair by releasing the lockdown and controlling their far leg.
-
-**Q4**: What is the proper hip movement sequence for executing an effective whip-up motion?
-**A**: The whip-up motion starts from your core and hips, not your arms. Drive your hips forward and upward toward opponent's chest while simultaneously extending their trapped leg away with your lockdown. Your underhook pulls them toward you as your hips rise. Think of trying to touch your hips to their armpit while extending their leg behind you. The motion should be rhythmic and continuous - multiple smaller whip-ups are more effective than one explosive attempt.
-
-**Q5**: Your opponent posts their hand on the mat to prevent being swept - how do you capitalize on this defensive reaction?
-**A**: When they post their hand, they've created the setup for the Old School sweep. Their posted hand becomes a fixed point you can sweep around. Drive your outside foot to the mat behind you and bridge toward their posted hand while pulling with your underhook. Their post prevents them from basing in that direction, making the sweep high percentage. If they remove the post to defend, immediately return to the whip-up motion - they cannot defend both simultaneously.
-
-**Q6**: How do you apply pressure effectively without exhausting yourself when your opponent is defending well?
-**A**: Use structural pressure rather than muscular effort. Let your body weight do the work through proper positioning - chest tight to their side, hips driving forward, lockdown extending their leg using your leg weight. Maintain rhythmic breathing and avoid holding your breath during whip-up attempts. Create pressure through angles and leverage rather than squeezing or pulling harder. Rest between attack attempts by simply maintaining the position with good structure rather than constantly exploding.
-
-**Q7**: Your opponent manages to partially extract their leg from the lockdown - what is your recovery protocol?
-**A**: Immediately re-establish the lockdown before they fully clear by hooking your top foot back behind your bottom leg. If they've created significant space, temporarily transition to a traditional half guard hook and work to re-establish the lockdown from there. Maintain your underhook throughout - losing the underhook while they're clearing the lockdown gives up the position entirely. Use your underhook to pull yourself back into tight proximity where you can re-lock your legs.
-
-**Q8**: When should you transition from the Vaporizer to the Electric Chair versus continuing with sweep attempts?
-**A**: Transition to Electric Chair when opponent commits their weight backward to resist the whip-up or establishes a strong whizzer. Their backward weight commitment makes leg separation easier. Also transition when they flatten out and become difficult to sweep laterally - the Electric Chair works by splitting their legs rather than rolling them. Continue with sweep attempts when they stay light, post their hands, or maintain high posture - these reactions favor the Old School sweep and other lateral attacks.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -204,13 +204,13 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Mount/Mounted Triangle]] - Target control position when transition succeeds
 
-- [[Transitions/Triangle Choke]] - Same strangling mechanics applied from different position
+- [[Submissions/Triangle Choke]] - Same strangling mechanics applied from different position
 
-- [[Submissions/Armbar from Mount]] - Chain attack when opponent defends triangle by posturing
+- [[Transitions/Mount to Armbar]] - Chain attack when opponent defends triangle by posturing
 
 - [[Positions/Gift Wrap]] - Control position that sets up ideal triangle entry
 
-- [[Submissions/Americana from Mount]] - Alternative attack when arm isolation fails
+- [[Americana from Modified Mount]] - Alternative attack when arm isolation fails
 
 - [[Positions/Mount/S Mount]] - Similar asymmetric mount used for armbar that can transition to triangle
 
@@ -218,7 +218,7 @@ The Mounted Triangle functions as a cornerstone submission setup within the moun
 
 - [[Positions/Half Guard]] - Position opponent may recover to if counter is successful
 
-- [[Submissions/Triangle Choke Front]] - Submission finish accessible from mounted triangle control
+- [[Submissions/Triangle Choke]] - Submission finish accessible from mounted triangle control
 
 
 </section>

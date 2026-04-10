@@ -74,8 +74,8 @@
       "relationship": "Alternative submission entry from the same double sleeve guard position creating offensive dilemma"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Related submission technique sharing similar hip rotation and arm isolation mechanics"
+      "name": "Armbar from Clamp Guard",
+      "relationship": "Related armbar transition sharing similar hip rotation and arm isolation mechanics from guard"
     },
     {
       "name": "Spider Guard",
@@ -94,8 +94,8 @@
       "relationship": "Chain attack when opponent bends arm to defend the armbar setup during rotation"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Follow-up transition from armbar control to complete the submission"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Follow-up submission from armbar control to complete the finish"
     }
   ],
   "attacker": {
@@ -271,6 +271,14 @@
       {
         "question": "What are the three conditions that must exist simultaneously before committing to the hip pivot for this armbar setup?",
         "answer": "Three conditions must align: first, the target arm must be extended and pulled across your centerline, separated from the opponent's defensive structure through your sleeve pull and bicep foot control. Second, the opponent's posture must be broken or compromised, preventing them from standing up or posturing through the rotation. Third, your hips must be elevated and loaded for rotation with your non-target foot firmly planted on their hip to provide the push-off force. Initiating without all three creates easily defended attempts."
+      },
+      {
+        "question": "When is the optimal timing window to initiate the armbar setup from double sleeve guard?",
+        "answer": "The optimal window opens when the opponent's posture breaks forward, either from your push-pull sleeve dynamics or from their own forward lean to break grips or establish control. The second-best window is when they extend one arm to break a grip, as the extended arm is already partially isolated and their attention is divided between grip breaking and base maintenance. The worst time to initiate is when the opponent has strong upright posture with both arms retracted and their weight centered over their base."
+      },
+      {
+        "question": "How does the non-target sleeve grip contribute to the success of the armbar setup beyond simply controlling the second arm?",
+        "answer": "The non-target sleeve grip serves four functions beyond arm control: it prevents the opponent from posting that hand to resist the rotation, it provides a secondary pulling vector that reinforces the postural breakdown created by the target sleeve pull, it stops the opponent from framing against your incoming leg during the pivot, and it maintains the bilateral tension that keeps the opponent's weight committed forward rather than allowing them to sit back and disengage. Releasing it prematurely removes all four of these advantages simultaneously."
       }
     ],
     "safety_considerations": "The armbar targets the elbow joint and can cause serious ligament damage including medial collateral ligament tears and hyperextension injuries. During drilling, apply the pivot and arm isolation slowly, focusing on positional control rather than submission pressure. Never use explosive force on the arm during practice. Allow training partners adequate time to recognize the position and tap. When working the hip pivot at speed, ensure your leg crosses safely over the partner's head without striking their face. Release all pressure immediately upon any tap signal, whether verbal or physical. In competition, apply finishing pressure gradually to give opponents time to submit safely."

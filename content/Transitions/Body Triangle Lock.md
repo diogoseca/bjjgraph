@@ -196,7 +196,7 @@ Body Triangle Lock serves as a critical transition within the back attack system
 
 - [[Positions/Back Control]] - Parent position system - Body Triangle Lock is part of back control methodology
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up - body triangle creates optimal RNC finishing conditions
+- [[Submissions/Rear Naked Choke]] - Primary follow-up - body triangle creates optimal RNC finishing conditions
 
 - [[Positions/Crucifix]] - Alternative advancement - can transition to crucifix if opponent attempts belly-down escape
 

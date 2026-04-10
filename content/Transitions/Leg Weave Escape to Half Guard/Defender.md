@@ -162,6 +162,8 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Weave Escape to Half Guard?</p>
+
 - Bottom player begins driving forearm into your neck or shoulder to establish a primary defensive frame
 - Bottom player places far hand on your hip and starts small bridging movements to create escape momentum
 - Bottom player's hips begin shifting laterally, indicating the start of a hip escape sequence
@@ -174,6 +176,8 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Weave Escape to Half Guard?</p>
 
 - Maintain constant forward chest pressure to prevent the bottom player from establishing effective defensive frames
 - Control the crossface aggressively to limit the bottom player's ability to create hip escape angles
@@ -188,6 +192,8 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Weave Escape to Half Guard?</p>
 
 ### 1. Drive crossface pressure harder and lower your hips to smother the bottom player's frame attempts before they are established
 
@@ -225,6 +231,8 @@ As the top player maintaining the leg weave, your goal is to prevent the bottom 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Weave Escape to Half Guard?</p>
+
 ### → [[Positions/Leg Weave]]
 
 Maintain constant crossface pressure and follow any hip escape movement with your own weight. Address frame attempts immediately by lowering your shoulder and driving through their forearm. Keep the weaved leg deep and your hips low to prevent space creation.
@@ -240,6 +248,8 @@ When the bottom player creates space during their escape attempt, immediately tr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Weave Escape to Half Guard?</p>
 
 ### 1. Remaining static when the bottom player begins hip escaping, allowing them to create space unopposed
 
@@ -269,6 +279,8 @@ When the bottom player creates space during their escape attempt, immediately tr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Weave Escape to Half Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying escape cues and developing automatic responses
 Bottom player performs each phase of the escape slowly and deliberately while top player focuses on recognizing each cue and naming the appropriate counter. No resistance, purely developing pattern recognition. 5-minute rounds with verbal identification of each cue.
 
@@ -285,29 +297,6 @@ Extended positional rounds at competition intensity. Top player must maintain le
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you the bottom player is about to attempt the escape?
-**A**: The earliest cue is the bottom player's near-side forearm beginning to wedge against your neck or shoulder. This frame establishment is the mandatory first step of the escape sequence, and without it no hip escape will be effective. When you feel this forearm pressure beginning, immediately drive your shoulder into the frame to prevent it from setting. This preemptive response shuts down the entire escape chain at its origin point.
-
-**Q2**: How should you adjust your weight distribution when you feel the bottom player bridging underneath you?
-**A**: Lower your hips and widen your base slightly by posting your free leg further from your body. Absorb the bridge by relaxing your weight downward rather than stiffening against it. The bridge is meant to create a momentum window for the hip escape, so by settling your weight into the bridge rather than resisting it rigidly, you deny the disruption they need. Keep your chest connected to their body throughout so you follow any movement that results from the bridge.
-
-**Q3**: The bottom player successfully inserts a partial knee shield - what is your best immediate response?
-**A**: Rather than fighting directly against the inserted knee, which is structurally strong, transition your passing approach to exploit the new configuration. Angle your pressure diagonally over the knee shield and drive toward a knee slice pass through the shield. Alternatively, backstep around the shield entirely. The worst response is trying to crush the shield straight down with chest pressure, as the shin bone provides excellent structural support against vertical force.
-
-**Q4**: When is it better to abandon the leg weave and transition to a different pass rather than fighting to maintain position?
-**A**: Transition to a different pass when the bottom player has successfully recovered their knee shield with proper hip angle and the underhook battle is contested. At this point, the leg weave advantage is largely neutralized and you are fighting from standard half guard top rather than the superior leg weave position. Recognizing this transition point and immediately switching to an appropriate half guard pass saves energy and maintains offensive initiative.
-
-**Q5**: How do you prevent the bottom player from converting their escape into a deep half guard entry?
-**A**: Keep your hips back and weight distributed away from your lead leg when you feel the bottom player attempting to dive underneath you. The deep half entry requires them to get their head under your center of gravity and control your lead leg. Sprawling your hips back while maintaining upper body connection removes the space they need to complete the deep half entry. If they get partially underneath, immediately backstep your weaved leg free and circle toward their head to re-establish a dominant passing angle.
-
-
-
-</section>
 
 
 </main>

@@ -154,6 +154,8 @@ As the top player in high mount, defending against frame escapes requires unders
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame Escape from High Mount?</p>
+
 - Opponent's forearms begin pressing against your hip crease or inner thigh area with deliberate structural alignment rather than random flailing
 - Opponent generates small hip bumps or bridges while maintaining forearm contact against your pelvis, indicating coordinated frame-and-bump technique
 - Opponent's elbows shift from a passive tucked defensive position to an active angled position directed outward at your hips
@@ -166,6 +168,8 @@ As the top player in high mount, defending against frame escapes requires unders
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame Escape from High Mount?</p>
 
 - Maintain constant forward weight distribution to eliminate space between your hips and the opponent's upper chest area
 - Control the opponent's arms preemptively through wrist pins, collar ties, or underhooks to prevent frame creation before it begins
@@ -180,6 +184,8 @@ As the top player in high mount, defending against frame escapes requires unders
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame Escape from High Mount?</p>
 
 ### 1. Pin the framing arms to the mat or opponent's chest before frames establish full structural integrity
 
@@ -217,6 +223,8 @@ As the top player in high mount, defending against frame escapes requires unders
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame Escape from High Mount?</p>
+
 ### → [[Positions/Mount/S Mount]]
 
 When the opponent commits both arms to hip frames, step one leg over their most isolated arm and transition to S Mount. Their frame commitment positions their arm perfectly for isolation, making S Mount entry higher percentage than from standard high mount where arms are tucked defensively.
@@ -232,6 +240,8 @@ Drive forward weight aggressively when sensing frame insertion, pin one or both 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame Escape from High Mount?</p>
 
 ### 1. Sitting passively in high mount without controlling the opponent's arms or maintaining active pressure
 
@@ -261,6 +271,8 @@ Drive forward weight aggressively when sensing frame insertion, pin one or both 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame Escape from High Mount?</p>
+
 **Phase 1: Recognition Training** - Identifying frame escape attempts at the earliest possible stage
 Partner drills frame escape at fifty percent speed while you focus on recognizing the earliest cues—forearm contact against hips, hip bump initiation, elbow angle changes from passive to active. Practice immediate verbal identification followed by physical response at low intensity.
 
@@ -277,26 +289,6 @@ Full resistance positional rounds starting from high mount top. Apply recognitio
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a frame escape from high mount?
-**A**: The earliest cue is feeling deliberate forearm bone pressure against your hip creases or inner thigh area, distinguishing it from general defensive arm flailing. The opponent's elbows shift from a passive tucked position to an active angled position directed outward at your pelvis. This forearm-to-hip contact precedes any hip movement and is your first opportunity to neutralize the escape before it gains momentum through combined frame-and-bump technique.
-
-**Q2**: Your opponent establishes strong forearm frames and begins generating hip bumps—what is your optimal counter-strategy?
-**A**: Rather than fighting the frames directly with opposing force, transition to S Mount by stepping one leg over their arm that is most exposed by the frame commitment. Their dedicated framing position isolates at least one arm in an extended configuration, which is the ideal setup for S Mount entry and subsequent armbar attack. Alternatively, drive weight aggressively forward while walking knees higher to compress the available frame space, but only if the frames have not yet established full structural integrity.
-
-**Q3**: How do you prevent the opponent from timing their frame insertion during your submission attempts?
-**A**: Minimize weight shifts during submission setups by establishing grips incrementally rather than reaching with your full body weight commitment. Use collar grips that keep your weight forward rather than wrist grips that require leaning laterally. When you must shift weight for a submission entry, do so quickly and decisively, committing fully rather than creating prolonged windows of reduced pressure. Pin the near-side arm before reaching for the submission grip to eliminate at least one potential frame.
-
-**Q4**: What position should you transition to if the opponent successfully walks your hips back to their waist level?
-**A**: If you lose high mount and return to standard mount, immediately re-establish heavy hip pressure and begin walking your knees back up toward the armpits. If the opponent is actively chaining into mount escapes, consider transitioning to Technical Mount if they begin to turn to their side, or re-establishing high mount through grip-assisted knee advancement before they can execute a full escape. Standard mount is still extremely dominant, so maintaining composure and systematic re-advancement is more effective than panicking about the positional loss.
-
-
-
-</section>
 
 
 </main>

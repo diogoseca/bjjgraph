@@ -188,6 +188,8 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Pass from Meathook?</p>
+
 - Chin must remain tucked throughout the entire stacking sequence to prevent throat exposure to gogoplata
 - Drive with shoulder into opponent's hip crease rather than leading with head to maintain safe angle
 - Commit fully once the stack begins because hesitation in the middle position maximizes counter-attack exposure
@@ -203,6 +205,8 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Pass from Meathook?</p>
+
 - Free arm must have solid base position with hand posted wide on the mat for driving leverage
 - Chin tucked with jaw pressed to chest to protect throat from gogoplata entry during forward drive
 - Identify that the shin hook has not yet reached full depth where the ankle is locked behind the shoulder
@@ -215,6 +219,8 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Pass from Meathook step by step?</p>
 
 1. **Secure chin and assess position**: Tuck chin firmly against chest and turn head away from opponent's hooking leg to protect the throat. Assess the depth of their shin hook and the position of their controlling grip on the opposite side. Confirm that your free arm has solid mat contact for driving base.
 2. **Establish driving base with free arm**: Post your free arm wide on the mat at approximately 45 degrees from your body. This wide base provides the mechanical platform for the forward drive and prevents you from being swept laterally during the stacking sequence. Press weight into the posted hand to load your hips.
@@ -246,6 +252,8 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Pass from Meathook?</p>
+
 - **Bottom player redirects shin to throat for gogoplata as top player drives forward** (Effectiveness: High) - Your Response: Keep chin tucked throughout the drive and turn head away from hooking leg. If you feel shin contact near throat, immediately stop forward drive and redirect to lateral movement or retreat to posture recovery instead. → Leads to [[Positions/Gogoplata Control]]
 - **Bottom player frames against shoulder to prevent forward stack progression** (Effectiveness: Medium) - Your Response: Swim through their frames by circling your shoulder under their arms while maintaining forward pressure. Alternatively, switch to double-under grip to bypass frame resistance and re-establish stacking leverage. → Leads to [[Positions/Closed Guard]]
 - **Bottom player hip escapes laterally during stack to re-angle for triangle or omoplata** (Effectiveness: High) - Your Response: Follow their hip movement by walking your own hips in the same direction to prevent angle creation. If they achieve significant angle, abandon the stack and transition to posture recovery to avoid entering a worse submission position. → Leads to [[Positions/Closed Guard]]
@@ -257,6 +265,8 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Pass from Meathook?</p>
 
 ### 1. Leading with head rather than shoulder during the forward drive
 
@@ -301,6 +311,8 @@ As the attacker executing the Stack Pass from Meathook, you are the top player c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Pass from Meathook (Attacker)?</p>
+
 **Phase 1: Mechanics without resistance** - Chin tuck, shoulder drive angle, and base positioning
 Practice the stacking mechanics with a cooperative partner who holds light Meathook. Focus entirely on proper chin position, shoulder contact point, wide base with free arm, and the forward driving motion. No arm extraction yet, just the stacking compression sequence repeated until automatic.
 
@@ -321,42 +333,12 @@ Begin drilling the stack pass as part of a broader Meathook escape system. If st
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most critical safety measure before initiating the forward drive in the Stack Pass from Meathook?
-**A**: Tucking the chin firmly against the chest and turning the head away from the opponent's hooking leg. This protects the throat from gogoplata entry as the forward drive brings you directly into the path of the opponent's shin. Failing to tuck the chin before driving forward is the most dangerous error because it positions the throat into immediate choke range.
-
-**Q2**: Why should the shoulder be the primary contact point rather than the head during the stacking drive?
-**A**: The shoulder drives into the opponent's hip crease at a safe angle that generates stacking compression while keeping the head behind or beside the shoulder, away from gogoplata range. Leading with the head positions the throat directly into the shin's path and provides less mechanical advantage for compression. The shoulder also creates a wider surface area for pressure distribution.
-
-**Q3**: Your opponent begins adjusting their shin toward your throat as you initiate the stack. How do you respond?
-**A**: Immediately stop the forward drive and assess whether you can redirect laterally or need to abort entirely. If the shin is approaching the throat, retreat to posture recovery rather than forcing through. The gogoplata threat escalates with every inch of forward progress past the critical point where the shin can contact the neck.
-
-**Q4**: At what point during the stack should you attempt to extract the trapped arm?
-**A**: Extract the arm at the moment of maximum compression when the opponent's hips are stacked over their shoulders. This is when the shin hook is at its weakest mechanical position because the folding of the body changes the angle of the leg and reduces the lever force the hook can apply against the tricep. Attempting extraction before full compression fights against maximum hook resistance.
-
-**Q5**: Why is rotational arm extraction more effective than straight pulling against the Meathook shin hook?
-**A**: The shin hook's strongest resistance is along the straight-line pulling axis. Rotational extraction spirals the arm through the hook, changing the angle of contact and exploiting gaps in the shin's grip mechanics. This reduces the force required for extraction significantly and prevents the shoulder strain that comes from sustained straight-line pulling against the hook's resistance.
-
-**Q6**: Your opponent hip escapes laterally while you are mid-stack. What adjustment do you make?
-**A**: Follow their hip movement by walking your own hips in the same direction to prevent them from creating the angle needed for triangle or omoplata setups. If they achieve significant lateral angle despite your adjustment, abandon the stack and transition to posture recovery because continuing the drive at a compromised angle increases submission vulnerability without improving passing position.
-
-**Q7**: What is the correct base position for the free arm during the stacking sequence?
-**A**: The free arm posts wide on the mat at approximately 45 degrees from the body with strong palm or fist contact on the mat surface. This wide post creates a triangular base that generates both the forward driving force needed for stacking and the lateral stability needed to prevent sweeps during the drive. Narrow posting provides insufficient leverage and leaves you vulnerable to lateral rolls.
-
-**Q8**: After successfully extracting the arm, what must happen immediately and why?
-**A**: Immediately begin walking hips laterally to clear the opponent's legs and establish passing position. Any pause between arm extraction and passing allows the bottom player to recover guard structure, re-insert their legs for Rubber Guard re-establishment, or transition to alternative attacks like triangle or closed guard submissions. The extraction-to-pass must be one continuous flowing sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Pass from Meathook?</p>
 
 The Stack Pass from Meathook carries significant neck and throat risk due to the gogoplata danger inherent in forward driving against Rubber Guard positions. Always tuck the chin before initiating any forward movement. If you feel shin contact near the throat at any point during the drive, immediately stop and retreat rather than forcing through. Tap immediately to any gogoplata that locks the shin against the throat. The trapped shoulder is also at risk during aggressive extraction attempts. Use rotational mechanics rather than brute force pulling to prevent shoulder strain. During training, communicate clearly with partners about resistance levels and establish tap protocols before drilling.
 

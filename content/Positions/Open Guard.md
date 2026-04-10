@@ -116,15 +116,15 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (2% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (2% of attempts)
+- **[[Transitions/Arm Drag/Attacker|Arm Drag]]** (2% of attempts)
 
 - **[[Transitions/Scissor Sweep from Open Guard/Attacker|Scissor Sweep from Open Guard]]** (4% of attempts)
 
 - **[[Transitions/Open Guard to Deep Half/Attacker|Open Guard to Deep Half]]** (5% of attempts)
 
-- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (9% of attempts)
+- **[[Transitions/Open Guard to Collar Sleeve Guard/Attacker|Open Guard to Collar Sleeve Guard]]** (10% of attempts)
 
-- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (11% of attempts)
+- **[[Transitions/Open Guard to De La Riva/Attacker|Open Guard to De La Riva]]** (12% of attempts)
 
 - **[[Transitions/Open Guard to Double Sleeve Guard/Attacker|Open Guard to Double Sleeve Guard]]** (4% of attempts)
 
@@ -132,13 +132,11 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 - **[[Transitions/Collar Drag from Open Guard/Attacker|Collar Drag from Open Guard]]** (4% of attempts)
 
-- **[[Transitions/Scramble from Failed Sweep/Attacker|Scramble from Failed Sweep]]** (3% of attempts)
+- **[[Transitions/Recovery from Failed Sweep/Attacker|Recovery from Failed Sweep]]** (3% of attempts)
 
 - **[[Transitions/Technical Stand Up from Open Guard/Attacker|Technical Stand Up from Open Guard]]** (6% of attempts)
 
 - **[[Transitions/Transition to Clamp Guard/Attacker|Transition to Clamp Guard]]** (1% of attempts)
-
-- **[[Submissions/Triangle from Open Guard/Attacker|Triangle from Open Guard]]** (2% of attempts)
 
 
 ### Common Mistakes

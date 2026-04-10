@@ -208,7 +208,7 @@ The shrimp escape is the foundational defensive technique that connects multiple
 
 - [[Transitions/Ghost Escape]] - Advanced variation using shrimp mechanics with direction reversal
 
-- [[Principles/Guard Recovery]] - Target position and endpoint of successful shrimp escape
+- [[Positions/Open Guard]] - Intermediate guard recovery position when closed guard cannot be immediately established
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Common intermediate position when shrimp creates partial space
 

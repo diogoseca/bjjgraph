@@ -87,12 +87,12 @@
       "relationship": "Alternative positional advancement available after escaping the guillotine"
     },
     {
-      "name": "Standing Guillotine from Clinch",
-      "relationship": "Related guillotine attack that can lead to the guard guillotine scenario"
+      "name": "Clinch",
+      "relationship": "Standing position where guillotine attacks commonly originate before pulling to guard"
     },
     {
-      "name": "Guillotine from Butterfly Guard",
-      "relationship": "Common guillotine setup that this technique counters"
+      "name": "Butterfly Guard",
+      "relationship": "Common guard position from which guillotine setups occur that this technique counters"
     },
     {
       "name": "Arm in Guillotine Variation",
@@ -268,6 +268,18 @@
       {
         "question": "Your opponent switches to a high elbow guillotine as you begin passing—how does this change your approach?",
         "answer": "Accelerate your passing speed immediately and commit fully to reaching side control. The high elbow guillotine is significantly more dangerous than the standard variation, but maintaining its specific mechanics becomes very difficult as you drive laterally past their guard. The increased danger makes decisive, rapid action more important than methodical passing."
+      },
+      {
+        "question": "The Von Flue choke is not producing a tap and your opponent appears comfortable—what adjustments should you make to the direction of force?",
+        "answer": "Angle your shoulder pressure slightly forward toward the mat rather than straight down, driving the point of your shoulder deeper into the carotid. Walk your hips further behind you to increase the gravitational component through your shoulder. You can also micro-adjust by turning your head toward their hips, which rotates the shoulder bone and changes the pressure angle on the artery. The force must compress the carotid laterally, not push into the trachea."
+      },
+      {
+        "question": "Your opponent successfully defends the Von Flue by releasing the grip but you cannot consolidate side control before they start framing—what chain attacks are available?",
+        "answer": "Immediately transition to standard side control attacks exploiting their compromised position. Their near arm is likely out of position from releasing the guillotine, making it vulnerable to Americana or kimura. If they turn into you while framing, threaten arm triangle or darce choke. If they bridge away, follow to knee on belly. The key is recognizing that escaping the guillotine and achieving any form of top control is already a significant win—chain to whatever their defensive reaction exposes."
+      },
+      {
+        "question": "What specific grip or hand positioning do you use with your free arm during the guard passing phase of this technique?",
+        "answer": "Your free arm—the one not trapped in the guillotine—controls the opponent's hip on the choking arm side by pushing their knee or thigh down and away. This hand drives into their hip crease or pushes their top knee to the mat to clear the passing path. Once past the guard, this arm transitions to controlling their far arm or underhooking to prevent framing. The free hand never reaches for their choking arm grip—it stays focused on hip control and leg clearing throughout the pass."
       }
     ],
     "safety_considerations": "The Von Flue choke is a blood choke that can produce unconsciousness within seconds once properly established. Always tap immediately when caught in a Von Flue during training—the onset of unconsciousness is often sudden without gradual warning sensations. When applying the technique, maintain constant awareness of your partner's consciousness and release immediately upon tap or any signs of distress. During the passing phase, practitioners should tap early if the guillotine is too tight to survive the passing sequence rather than risking oxygen deprivation or cervical injury. Never ignore neck pain symptoms—cervical spine compression can occur if excessive downward shoulder force is applied improperly."
@@ -369,6 +381,14 @@
       {
         "question": "What leg positioning best prevents the lateral guard pass that enables the Von Flue setup?",
         "answer": "Closed guard with legs locked high on the opponent's back provides the strongest prevention against the lateral pass required for Von Flue. If closed guard is not possible, a butterfly hook on the choking arm side combined with an overhook prevents lateral movement in that critical direction. Your legs must create barriers specifically on the choking arm side where the Von Flue requires the pass."
+      },
+      {
+        "question": "What should your free arm be doing while you hold the guillotine to prevent the Von Flue counter?",
+        "answer": "Your free arm—the one reinforcing the choke or controlling the opponent's body—should actively block the opponent's hip on the choking arm side to prevent their lateral movement. If they begin walking their hips, use your free arm as a frame against their shoulder on the passing side to stall the pass. This arm is your early warning system and first line of defense against the lateral pass that enables the Von Flue."
+      },
+      {
+        "question": "You are attacking a guillotine from butterfly guard and your opponent begins passing laterally—why is this more dangerous than from closed guard and how do you respond?",
+        "answer": "Butterfly guard provides less lateral pass prevention than closed guard because butterfly hooks primarily resist forward and upward movement, not lateral passing. When you feel the lateral pass beginning from butterfly, you must either immediately close your guard around their waist to lock them in place, or release the guillotine and use your butterfly hooks to elevate and create distance for guard recovery. The open nature of butterfly guard means the window between pass initiation and Von Flue danger is much shorter than from closed guard."
       }
     ],
     "training_progressions": [

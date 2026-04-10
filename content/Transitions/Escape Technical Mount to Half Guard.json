@@ -94,8 +94,8 @@
       "relationship": "Recovery variation - half guard sub-position commonly established during this escape"
     },
     {
-      "name": "Armbar from Technical Mount",
-      "relationship": "Primary submission threat - the attack this escape must defend against during execution"
+      "name": "Mount to Armbar",
+      "relationship": "Primary submission threat - the armbar setup transition this escape must defend against during execution"
     },
     {
       "name": "S Mount",
@@ -134,7 +134,7 @@
       },
       {
         "step_number": 3,
-        "action": "Read Weight Distribution",
+        "action": "Read Center of Gravity",
         "description": "Feel for the top player's weight shifts through your frame and body contact. When they commit weight forward toward armbar setup or shift laterally for submission angles, their hip pressure decreases momentarily. This is your escape window. Do not rush—premature attempts waste energy and expose your arm to attack."
       },
       {
@@ -280,6 +280,18 @@
       {
         "question": "After inserting your knee shield, what must you do immediately to prevent the top player from re-passing?",
         "answer": "Lock your legs around the opponent's nearest leg to establish the half guard entanglement, then immediately fight for the underhook on the trapped leg side or reinforce your knee shield with proper shin-across-torso positioning. You must get onto your side facing the opponent rather than remaining flat on your back. The first two seconds after knee insertion determine whether you arrive in a functional half guard or a compromised position that gets passed immediately. Establishing structural control—either underhook or knee shield—before the top player adjusts is critical to making the escape permanent."
+      },
+      {
+        "question": "Your first hip escape attempt fails and the top player re-settles—what is your strategy for the second attempt?",
+        "answer": "Reset to your protected position with arm tucked and frame re-established rather than immediately forcing another attempt. Each failed attempt still creates micro-space that accumulates over successive tries. Wait for the next genuine weight shift rather than trying to manufacture one through bridging alone. Chain attempts in a rhythm—bridge, shrimp, reset, bridge, shrimp—so each successive escape builds on residual space from the previous one. The key is patience between attempts and maintaining arm protection during resets, not increasing the force of individual efforts."
+      },
+      {
+        "question": "How does the direction of force application change between the bridge and the hip escape phases?",
+        "answer": "The bridge directs force vertically, driving your hips straight up toward the ceiling to lift the opponent's weight and create separation from the mat. The hip escape immediately redirects force laterally, driving your hips away from the opponent toward their posted leg side. This perpendicular change in force direction is what makes the sequence effective—the vertical bridge disrupts the opponent's settled weight, and the lateral shrimp converts that disruption into distance before they can re-settle. Trying to combine both directions simultaneously reduces the effectiveness of each."
+      },
+      {
+        "question": "What determines whether you should attempt the knee shield recovery variant versus the standard half guard entry?",
+        "answer": "Choose the knee shield recovery when the top player is heavy and likely to attempt an immediate re-pass after your escape, or when there is insufficient space for a full leg entanglement. The knee shield provides a stronger transitional barrier because your shin across their torso creates a structural frame they must address before re-establishing mount. Choose the standard half guard entry when you have created enough space for full leg entanglement and the top player is slower to react. The standard entry is more stable long-term but requires more space to establish than the knee shield."
       }
     ],
     "safety_considerations": "This escape carries moderate injury risk primarily from arm exposure during hip escape movements. If your arm becomes trapped during the escape attempt, immediately prioritize defending the armbar rather than continuing the escape—tap early if caught in a submission during the transition. Avoid explosive movements when your arm is not properly protected, as forced escapes under armbar threat can result in elbow hyperextension injuries. Bridge movements should come from hip extension, not neck strain, to prevent cervical injury. During training, communicate with partners about intensity level and practice at controlled speeds before adding resistance. Partners maintaining technical mount should apply submissions at training-appropriate speed to allow proper defensive recognition."

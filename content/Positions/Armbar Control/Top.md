@@ -20,8 +20,8 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 51% of exchanges from this position.",
+      "name": "Execute Armbar from Armbar Control",
+      "text": "From this position, attempt Armbar from Armbar Control. This technique is attempted in 51% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Master armbar control from top position in BJJ. Learn arm isolatio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Omoplata",
-      "text": "From this position, attempt Omoplata. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Omoplata from Armbar Control",
+      "text": "From this position, attempt Omoplata from Armbar Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura from Armbar Control",
+      "text": "From this position, attempt Kimura from Armbar Control. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
@@ -169,6 +169,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Position Definition
 
+<p class="section-subtitle">What is Armbar Control (Top)?</p>
+
 - Top practitioner controls opponent's isolated arm with both hands gripping the wrist, forearm, or controlling above and below the elbow joint, maintaining constant tension and preventing arm retraction
 - Top practitioner's hips positioned perpendicular or near-perpendicular to opponent's shoulder, creating the angle necessary for proper leverage and extension across the elbow joint with body weight distribution through the hips
 - At least one leg (typically both) of the top practitioner positioned to control opponent's upper body, with one leg across the chest/neck area and the other controlling the head or providing base, preventing opponent from sitting up or turning into the position
@@ -182,6 +184,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Armbar Control (Top)?</p>
+
 - Successful isolation of one of opponent's arms from a controlling position such as mount, guard, side control, or back control
 - Establishment of secure grips on the isolated arm, preferably controlling both above and below the elbow joint or securing a firm two-handed wrist control
 - Sufficient angle created between practitioner's hips and opponent's shoulder (minimum 45 degrees, ideally 90 degrees) to enable proper leverage for elbow hyperextension
@@ -194,6 +198,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Armbar Control?</p>
 
 - Maintain constant grip pressure on the isolated arm throughout the position, never allowing slack that would enable the opponent to retract the limb or change the angle of attack
 - Position hips as close to opponent's shoulder as possible while maintaining perpendicularity, maximizing leverage and minimizing the opponent's ability to create defensive space
@@ -210,8 +216,10 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Armbar Control (Top)?</p>
+
 **If opponent keeps arm straight and does not attempt to stack or create defensive posture:**
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[game-over]] (Probability: 75%)
+- Execute **[[Armbar from Armbar Control/Attacker|Armbar from Armbar Control]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent attempts to stack by driving forward and posting on their free arm:**
@@ -226,7 +234,7 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 **If opponent attempts to roll through or turn into the submission:**
 - Execute **[[Transitions/Straight Armbar/Attacker|Straight Armbar]]** → [[Positions/Armbar Control]] (Probability: 55%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 40%)
 
 
 **If opponent creates space under hips and attempts to pull arm back toward their body:**
@@ -241,6 +249,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Armbar Control?</p>
 
 ### 1. Allowing hips to drift away from opponent's shoulder, creating distance between the hip and shoulder connection point
 
@@ -285,6 +295,8 @@ Armbar Control Top is accessible from multiple positions including mount, guard,
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Armbar Control attacks?</p>
+
 ### Static Armbar Position Drill
 
 Partner holds armbar control position while training partner provides 25% resistance. Focus on maintaining perfect hip-to-shoulder proximity, proper leg positioning over head and chest, correct arm orientation with thumb up, and pinched knees. Hold position for 30-second intervals, resetting if any fundamental element deteriorates. Progress to 50% resistance as control improves.
@@ -318,38 +330,6 @@ Practice entering armbar control from five different starting positions: closed 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip-to-shoulder distance when maintaining armbar control?
-**A**: Your hips should be positioned as close to the opponent's shoulder as possible, ideally with zero gap between your hip bone and their shoulder joint. This maximizes leverage by reducing the moment arm the opponent can use to defend, and ensures that any hip elevation translates directly into extension pressure on the elbow joint.
-
-**Q2**: Your opponent starts to sit up and stack forward - what adjustment do you make?
-**A**: When the opponent begins stacking, immediately transition your leg positioning by bringing your top leg (the one across their face) tighter against their neck and driving your knee toward the mat on the far side. This creates a wedge that prevents further forward movement. If stacking continues, flow to triangle by swinging your leg over their head, as their forward posture actually facilitates this transition.
-
-**Q3**: Why should the opponent's thumb point upward during the armbar finish?
-**A**: Thumb-up orientation positions the elbow joint with the hyperextension plane aligned directly with your hip elevation. When the thumb points down, the arm can rotate, distributing pressure across the forearm bones rather than concentrating it on the elbow ligaments. The thumb-up position creates the weakest structural configuration for the joint, requiring less force to generate a tap.
-
-**Q4**: What are the essential grips for maintaining armbar control position?
-**A**: The primary grip configuration involves both hands controlling the wrist area with your thumbs on the inside (touching the opponent's pulse point). For additional security, a secondary grip has one hand on the wrist and one hand cupping the triceps above the elbow. Both hands should pull the arm toward your chest centerline while maintaining constant tension.
-
-**Q5**: How do you recover when your opponent extracts a few inches of their arm?
-**A**: Immediately re-grip higher on their arm (toward the elbow), pinch your knees together harder, and scoot your hips closer to their shoulder to recapture the lost distance. Do not chase the wrist - instead, control whatever portion of the arm remains accessible while repositioning your body. If significant space is lost, consider transitioning to triangle or omoplata rather than fighting for a deteriorating armbar.
-
-**Q6**: What is the proper leg positioning for controlling the opponent's upper body?
-**A**: One leg crosses over the opponent's face/neck with your hamstring pressing against their cheek and your calf hooking behind their head. The other leg positions across their chest with your thigh applying downward pressure. Both legs work together to prevent the opponent from sitting up or turning into the position. Avoid crossing your feet, which compromises hip mobility.
-
-**Q7**: How do you distribute your weight to prevent the opponent from bridging out of armbar control?
-**A**: Concentrate your weight through your hips directly against the opponent's shoulder, creating a downward anchor point. Your upper body should stay slightly elevated rather than flat on the mat, allowing you to adjust dynamically to bridging attempts. If the opponent bridges, follow their hip movement by scooting your hips to maintain the shoulder connection rather than trying to resist with static weight. Your legs provide the secondary anchor by squeezing inward against their head and torso.
-
-**Q8**: Your opponent begins to roll toward the trapped arm side - what is your immediate response?
-**A**: When the opponent rolls toward the controlled arm side, follow their roll while maintaining your grip configuration. As they rotate, your body position naturally transitions toward a mounted armbar or belly-down armbar position. Keep your knees pinched and continue the arm isolation. If they roll away from the controlled arm, immediately tighten your leg control and consider switching to a triangle attack as this escape exposes their neck.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -370,13 +350,13 @@ Practice entering armbar control from five different starting positions: closed 
 
 ## Related Positions and Techniques
 
-- **[[Transitions/Armbar Finish]]** - Primary submission finish from this control position
+- **[[Armbar from Armbar Control]]** - Primary submission finish from this control position
 - **[[Positions/Triangle Control]]** - Common transition when opponent defends armbar with stacking
 - **[[Positions/Omoplata Control]]** - Alternative submission when opponent successfully bends arm
 - **[[Positions/Mount]]** - Common entry position for armbar attacks
 - **[[Positions/Closed Guard]]** - Frequent starting position for armbar attacks from bottom
-- **[[Submissions/Armbar from Mount]]** - Specific entry technique from mount position
-- **[[Submissions/Armbar from Guard]]** - Entry variation from guard positions
+- **[[Armbar from Mount]]** - Specific entry technique from mount position
+- **[[Armbar from Guard]]** - Entry variation from guard positions
 - **[[Positions/Kimura Trap]]** - Alternative arm attack control when armbar is defended
 - **[[Positions/Mount/High Mount]]** - Transitional position facilitating armbar setup from mount
 - **[[Submissions/Belly Down Armbar]]** - Variant submission finish when opponent rolls during armbar attempt

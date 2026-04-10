@@ -162,6 +162,8 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Through from Quarter?</p>
+
 - Sudden increase in crossface pressure with the opponent's shoulder driving harder into your far cheek, indicating they are pinning you flat before the drive
 - Opponent posts their far hand on the mat beside your hip or past your body, establishing the base structure needed for sweep-safe knee extraction
 - Weight shifts forward and downward with the opponent's chest becoming noticeably heavier, compressing your upper body to eliminate hip mobility
@@ -173,6 +175,8 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Through from Quarter?</p>
 
 - Recognize the knee through attempt in its setup phase rather than waiting for the knee to begin moving—crossface surge and weight shift are the earliest indicators
 - Maintain active knee shield or leg contact throughout the quarter guard exchange rather than allowing defensive structures to degrade passively under pressure
@@ -187,6 +191,8 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Through from Quarter?</p>
 
 ### 1. Re-insert knee shield by driving your near-side knee between the opponent's hip and your body, re-establishing the defensive barrier before the knee clears
 
@@ -224,6 +230,8 @@ Defending the Knee Through from Quarter Guard demands immediate recognition and 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Through from Quarter?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a decisive hip escape to coincide with the opponent's forward weight commitment during the knee drive, creating enough lateral space to re-engage both legs around their thigh and recover full half guard before they can re-establish quarter guard pressure. The key is using their commitment momentum against them—as they drive forward, their lateral mobility is temporarily reduced.
@@ -239,6 +247,8 @@ Maintain active knee shield or leg frames throughout the exchange, re-inserting 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Through from Quarter?</p>
 
 ### 1. Lying flat on back without maintaining active frames or leg engagement, passively accepting the crossface pressure without resistance
 
@@ -268,6 +278,8 @@ Maintain active knee shield or leg frames throughout the exchange, re-inserting 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Through from Quarter?</p>
+
 **Phase 1: Recognition Training** - Identifying knee through setup cues before the drive initiates
 Partner alternates between knee through attempts and other quarter guard actions (crossface adjustments, grip changes, feints). Defender focuses exclusively on identifying which actions indicate a genuine knee through attempt versus positional maintenance. Call out the recognition cue as soon as you identify it. Build pattern recognition speed over multiple rounds until identification becomes automatic.
 
@@ -284,29 +296,6 @@ Positional sparring from quarter guard bottom with full resistance. Bottom playe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that tell you a knee through attempt is imminent?
-**A**: The earliest cues occur during the setup phase before the knee moves: sudden increase in crossface pressure as the opponent pins you flat, the opponent posting their far hand on the mat establishing base for the drive, weight shifting noticeably forward and downward compressing your upper body, and the opponent's passing knee beginning to press forward against your remaining defensive leg contact. Recognizing these setup indicators gives you one to two seconds of additional reaction time compared to waiting for the actual knee drive to begin.
-
-**Q2**: When defending the knee through, what determines whether you should fight for knee shield re-insertion versus committing to a full hip escape?
-**A**: The decision depends on the space available between the opponent's hip and your body. If there is sufficient space to insert your knee—typically when the opponent has not yet committed their full weight forward—re-inserting the knee shield is more energy efficient and maintains better defensive structure. If the opponent has closed that space with heavy chest-to-chest pressure, the knee cannot physically fit between your bodies and hip escape becomes the only viable option. You must assess this within one second of recognizing the drive attempt.
-
-**Q3**: How do you use the opponent's forward commitment during the knee drive to create counter-offensive opportunities?
-**A**: When the opponent commits weight forward for the knee drive, their lateral stability is temporarily compromised and their base narrows to the posted hand and one leg. This creates vulnerability to sweeps timed to this commitment moment—an underhook sweep pulling them past your body, a hip bump using their forward momentum against them, or a deep half entry that uses their forward weight to pull them over your body. The key is recognizing that the moment of maximum offensive commitment from the passer is simultaneously the moment of maximum sweep vulnerability.
-
-**Q4**: Your opponent has started the knee drive and your knee shield has been cleared—what are your remaining defensive options in priority order?
-**A**: Priority order when the knee shield is cleared: First, explosive hip escape away from the passing direction to create space for leg re-engagement before the knee fully crosses your centerline. Second, frame against the passing knee with both hands using skeletal structure to physically block further advancement while continuing to hip escape. Third, if the knee is nearly past, immediately transition to mount defense fundamentals—establish elbow-knee connection frames and prepare for bridge or elbow escape from mount rather than fighting a lost battle for quarter guard retention.
-
-**Q5**: What role does the underhook play in defending the knee through, and when should you abandon it for other defensive priorities?
-**A**: The underhook serves as both defensive anchor preventing the crossface from flattening you completely and offensive counter-threat forcing the passer to allocate resources to sweep defense. You should maintain the underhook as long as it provides either defensive or offensive value. Abandon the underhook only when maintaining it actively prevents a more critical defensive action—specifically when you need both hands to frame against an imminent knee drive that will achieve mount in the next one to two seconds. In that emergency scenario, survival takes priority over maintaining offensive threats.
-
-
-
-</section>
 
 
 </main>

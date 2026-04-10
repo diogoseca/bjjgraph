@@ -20,8 +20,8 @@ description: "Master Guillotine Control Bottom in BJJ. Complete guide covering s
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 50% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Guillotine Control",
+      "text": "From this position, attempt Guillotine Choke from Guillotine Control. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
@@ -169,6 +169,8 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Guillotine Control (Bottom)?</p>
+
 - Bottom player has one arm wrapped around opponent's neck in front headlock position with hand clasped to create guillotine grip, applying pressure to the trachea or carotid arteries through arm and wrist position
 - Bottom player's hips are positioned underneath or slightly behind the opponent's center of gravity, with legs typically in guard position (closed, half, or butterfly) to control distance and prevent opponent from driving forward or extracting head
 - Opponent's head and neck are controlled and pulled downward toward bottom player's chest, with opponent's posture broken forward and shoulders compressed toward hips, limiting ability to create space or establish base
@@ -180,6 +182,8 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Guillotine Control (Bottom)?</p>
 
 - Successful guillotine grip establishment during opponent's shot, guard pass attempt, or scramble
 - Opponent's head positioned on one side of bottom player's body (typically between chest and hip)
@@ -194,6 +198,8 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guillotine Control?</p>
 
 - Maintain constant upward lifting pressure with choking arm while simultaneously pulling opponent's head down toward chest to compress neck and close choking angle
 - Coordinate hip movement and guard retention to prevent opponent from driving weight forward and flattening bottom player or passing guard while defending choke
@@ -210,19 +216,21 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Guillotine Control (Bottom)?</p>
+
 **If opponent drives weight forward and attempts to flatten bottom player to relieve choke pressure:**
 - Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 - Execute **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
 
 
 **If opponent postures up and attempts to create space by extending arms or lifting torso:**
-- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[Positions/Game Over]] (Probability: 65%)
+- Execute **[[Transitions/High Elbow Guillotine Variation/Attacker|High Elbow Guillotine Variation]]** → [[game-over]] (Probability: 65%)
 - Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Closed Guard]] (Probability: 50%)
 
 
 **If opponent turns head and shoulders away from choking arm to escape:**
-- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Anaconda Choke/Attacker|Anaconda Choke]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 55%)
 
 
 **If opponent successfully creates significant space and begins extracting head:**
@@ -231,7 +239,7 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 
 **If opponent keeps head down and attempts to drive forward while defending neck:**
-- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[Positions/Game Over]] (Probability: 70%)
+- Execute **[[Transitions/Guillotine Choke/Attacker|Guillotine Choke]]** → [[game-over]] (Probability: 70%)
 - Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 45%)
 
 
@@ -242,6 +250,8 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guillotine Control?</p>
 
 ### 1. Pulling opponent's head up instead of down while attempting to finish choke
 
@@ -286,6 +296,8 @@ From a positional hierarchy perspective, Guillotine Control Bottom represents a 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Guillotine Control defense?</p>
+
 ### Guillotine Finish Progression Drill
 
 Partner starts in guillotine control bottom position with proper grip. Practice transitioning between different guillotine variations (standard, high elbow, arm-in, ten-finger) based on partner's defensive reactions. Partner provides progressive resistance, starting with static defense and gradually adding movement and counter-pressure. Focus on maintaining control while adjusting mechanics smoothly.
@@ -325,38 +337,6 @@ Start each round with bottom player establishing guillotine control in guard. Bo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grips for maintaining Guillotine Control Bottom?
-**A**: The primary grips include palm-to-palm, gable grip, and S-grip configurations with the choking arm wrapped around the opponent's neck. The blade of the wrist or forearm should cross the front of the throat targeting the trachea or carotid arteries. The supporting hand reinforces by clasping the choking wrist or forearm to create a closed loop, preventing opponent from peeling the grip.
-
-**Q2**: How should you position your hips to maintain control from Guillotine Control Bottom?
-**A**: Hips should be positioned underneath or slightly behind the opponent's center of gravity, angled toward the choking side. This creates a fulcrum point that amplifies choking pressure. Avoid flat-on-back positioning which allows opponent to drive forward and flatten you. Hip mobility allows you to follow the opponent's escape attempts and maintain optimal choking angle.
-
-**Q3**: Your opponent begins driving their weight forward to flatten you—what adjustment do you make?
-**A**: Use the forward pressure against them by executing a hip bump sweep, leveraging their committed weight to roll them over your hip to mount while maintaining the guillotine grip. Alternatively, angle your hips away from the pressure and use butterfly hooks to elevate and redirect their weight. Never fight their pressure head-on—redirect it.
-
-**Q4**: What is the primary escape your opponent will attempt and how do you shut it down?
-**A**: The most common escape is posturing up and hand fighting to extract the head. Counter by maintaining downward pressure on the head with your choking arm while your legs actively prevent posture through closed guard, butterfly hooks, or high guard. If they begin creating space, immediately close the distance with your legs and pull the head back down before they can fully posture.
-
-**Q5**: How do you apply finishing pressure without exhausting yourself from bottom position?
-**A**: Use leg control (closed guard or high guard) to do the work of compressing the opponent's posture rather than relying solely on arm strength. The choking pressure comes from the angle and connection—keep elbows tight to your body and let the forearm blade do the work against the neck structures. Adjust angle rather than squeezing harder when the choke stalls.
-
-**Q6**: Your opponent successfully tucks their chin against the choke—what is your response?
-**A**: Transition to alternative attacks that exploit their chin tuck. The high elbow guillotine attacks behind the chin by driving your elbow toward the ceiling. If they trap their arm inside, switch to arm-in guillotine mechanics. Their chin tuck also opens triangle and omoplata opportunities as they become preoccupied with neck defense.
-
-**Q7**: What leg position provides the best finishing platform for Guillotine Control Bottom?
-**A**: High closed guard with legs positioned high on opponent's back provides the best finishing platform—it breaks posture, prevents escape, and creates a stable base for choking pressure. Alternatively, one-leg-up guard (same side as choking arm elevated, opposite leg controlling hip) creates excellent finishing angle while maintaining control.
-
-**Q8**: How do you recover control if opponent begins passing your guard while defending the guillotine?
-**A**: If they begin passing, you must decide quickly: either fully commit to the guillotine finish before they complete the pass (risky but sometimes necessary), or release the choke and address the pass with standard guard retention. If releasing, maintain wrist control to prevent them from immediately posturing up and use the released arm to re-frame and recover guard before they consolidate.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

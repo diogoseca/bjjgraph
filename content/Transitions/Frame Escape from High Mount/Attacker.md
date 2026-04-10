@@ -188,6 +188,8 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame Escape from High Mount?</p>
+
 - Use skeletal structure for frames rather than muscular pushing to maintain sustainability against the opponent's gravity advantage
 - Time frame insertion during opponent's weight shifts—grip changes, submission attempts, and position adjustments create windows of reduced pressure
 - Keep frames short and bent-armed to prevent armbar and americana exposure while maintaining structural integrity against the opponent's base
@@ -202,6 +204,8 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame Escape from High Mount?</p>
+
 - At least one arm free to create forearm frames against the opponent's hip or pelvis area without current arm isolation
 - Ability to generate minimal hip movement despite the opponent's elevated position and forward pressure distribution
 - Opponent's weight partially committed forward, creating viable bone-on-bone frame targets against their hip crease
@@ -214,6 +218,8 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame Escape from High Mount step by step?</p>
 
 1. **Establish Defensive Posture**: Tuck your chin to your chest, bring your hands to your neck and collar area, and keep your elbows connected to your ribs. This defensive shell protects against immediate submission threats while you prepare to create frames. Breathe steadily through your nose and commit to controlled movement rather than explosive panic responses.
 2. **Identify Timing Window**: Wait for the opponent to shift their weight during a grip change, submission attempt, or position adjustment. Watch for their hands leaving the mat or reaching toward your collar, arms, or head—these movements temporarily reduce their downward pressure by twenty to forty percent and create the opening you need for frame insertion.
@@ -243,6 +249,8 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame Escape from High Mount?</p>
+
 - **Top player pins framing arms to the mat or chest and drives weight forward to prevent frame establishment** (Effectiveness: High) - Your Response: Switch to hip bump timing when opponent reaches for arm pin, using their grip commitment as the next frame insertion window since pinning requires them to shift weight off center → Leads to [[Positions/Mount/High Mount]]
 - **Top player transitions to S Mount by stepping one leg over the exposed framing arm** (Effectiveness: High) - Your Response: Immediately abandon the frame escape and defend the trapped arm by clasping hands together or gripping your own lapel, then work S Mount-specific escapes rather than continuing frame attempts → Leads to [[Positions/Mount/S Mount]]
 - **Top player drives weight aggressively forward and attacks cross collar choke during frame creation attempt** (Effectiveness: Medium) - Your Response: Prioritize neck defense over frame completion by grip fighting the choking hand with both hands, then re-attempt frames during the next weight shift when the choke attempt is neutralized → Leads to [[Positions/Mount/High Mount]]
@@ -254,6 +262,8 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame Escape from High Mount?</p>
 
 ### 1. Extending arms straight to push on opponent's chest or shoulders instead of framing against hips
 
@@ -293,6 +303,8 @@ As the bottom player trapped in high mount, your immediate priority is reducing 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame Escape from High Mount (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Forearm frame positioning and structural alignment
 Practice placing forearm frames against a stationary partner in high mount with zero resistance. Focus on correct forearm blade placement against the hip crease, elbow angle maintenance at ninety degrees, and keeping frames short enough to prevent arm isolation. Drill twenty repetitions per side.
 
@@ -313,42 +325,12 @@ Positional sparring starting from high mount bottom against partners of varying 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for inserting frames against a settled high mount?
-**A**: The optimal window occurs when the top player shifts weight during grip changes, submission attempts, or positional adjustments. When they reach for a collar grip their weight moves forward and off their hips, when they adjust knees their base temporarily lifts, and when they post a hand their downward pressure redirects. These moments reduce downward force significantly, creating sufficient space for frame insertion that would be impossible against fully settled weight.
-
-**Q2**: What forearm positioning creates the strongest frame without exposing arms to submission attack?
-**A**: Place the blade of your forearm—the ulna bone—directly against the opponent's hip crease with your elbow bent at approximately ninety degrees and connected to your ribcage. Your hands should remain near your own body rather than extending toward the opponent. This positioning uses bone-on-bone contact for maximum structural integrity while keeping the elbow angle too acute for the opponent to straighten your arm for an armbar or americana setup.
-
-**Q3**: Your opponent pins your right arm to the mat while maintaining high mount—how do you adjust your frame escape?
-**A**: Use your free left arm to create a single-sided frame against their left hip while simultaneously hip escaping toward the trapped arm side. The hip escape creates an angle that makes it harder for them to maintain the arm pin. If the pin is too strong, bridge toward the pinned side to create space, then retract the arm to defensive position before re-attempting the frame escape with both forearms available.
-
-**Q4**: What is the most common failure point during the frame escape sequence?
-**A**: The most common failure is creating initial frame pressure without combining hip movement. Frames alone cannot generate enough force to move a committed opponent's base. The hip bump must coincide with frame pressure to create compound force that multiplies effectiveness. Additionally, many practitioners create the initial frame but fail to maintain continuous pressure while executing the progressive hip escapes needed to walk the opponent's base all the way down to the waist.
-
-**Q5**: What grip or hand position should you maintain during the frame escape?
-**A**: Hands should remain in a closed fist or open palm pressed against your own chest or neck area, with the forearm blade doing the work against the opponent's hips rather than your hands. Gripping the opponent's pants or belt at the hip is acceptable if available, but reaching for distant grips extends your arms dangerously. The priority is maintaining bent-arm structural integrity rather than establishing traditional grips that would compromise frame architecture.
-
-**Q6**: In which direction should force be applied during the frame escape?
-**A**: Force should be directed along the opponent's torso axis—pushing their hips diagonally downward toward your own waist rather than straight up or away from you. Pushing upward lifts them momentarily but they return to the same position. Pushing laterally creates rotation but not positional change. The downward-along-torso vector slides their base from your upper chest to your waist, which is the specific positional improvement this technique achieves.
-
-**Q7**: Your opponent responds to your frame escape by transitioning to S Mount—what immediate adjustment do you make?
-**A**: Immediately abandon the frame escape and defend the trapped arm by clasping your hands together or gripping your own lapel. Turn your body toward the trapped arm to prevent the opponent from extending it for the armbar finish. Use your free arm to push on their crossing knee and work to collapse their S Mount structure back to standard mount. The S Mount transition means your frame escape generated movement, so address the new positional threat before continuing escape attempts.
-
-**Q8**: How do you chain the frame escape into an effective mount escape sequence?
-**A**: Pre-select your follow-up escape before beginning the frame escape. As the opponent's hips reach your waist level, immediately execute your chosen technique: for upa, trap their arm and same-side foot then bridge explosively; for elbow escape, establish a frame on their hip and begin shrimping to insert your knee. The transition must be seamless because the opponent will attempt to re-advance within two to three seconds of reaching standard mount. There is no rest phase between the frame escape and the mount escape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame Escape from High Mount?</p>
 
 Frame escapes from high mount involve significant compressive forces on the torso and ribcage from the opponent's weight. Train progressively, starting with cooperative drilling at zero resistance before increasing intensity. Communicate with training partners about pressure levels, particularly regarding breathing restriction under sustained high mount pressure. Avoid explosive neck movements during frame attempts, as the opponent's weight on the upper chest creates vulnerability to cervical strain. Tap immediately if any choke becomes fully secured during the escape attempt rather than continuing to frame against a locked submission.
 

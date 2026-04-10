@@ -154,6 +154,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Sleeve to De La Riva?</p>
+
 - Bottom player's hips begin rotating toward your lead leg side while they maintain sleeve grips, creating the angular alignment needed for DLR hook threading
 - One of your sleeve grips feels looser or the pulling tension changes direction, indicating the bottom player is preparing to release that grip for ankle conversion
 - Bottom player removes one foot from your hip and begins moving it toward the outside of your lead leg rather than pushing straight forward
@@ -166,6 +168,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Sleeve to De La Riva?</p>
 
 - Recognize the hip angle change as the earliest cue: when the bottom player's hips rotate toward your lead leg side, the DLR attempt is imminent
 - Keep your lead leg retractable by not overcommitting weight to it when facing double sleeve guard
@@ -180,6 +184,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Sleeve to De La Riva?</p>
 
 ### 1. Retract lead leg and square up
 
@@ -217,6 +223,8 @@ As the defender (top player), your objective is to prevent the bottom player fro
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Sleeve to De La Riva?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the near-side sleeve grip during the conversion window when the bottom player's hand is releasing the sleeve to grab your ankle. With only one sleeve grip remaining and no DLR hook, initiate an immediate toreando or leg drag pass before they can re-establish double sleeve control. Speed is critical because any hesitation allows them to re-grip.
@@ -228,6 +236,8 @@ Strip the near-side sleeve grip during the conversion window when the bottom pla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Sleeve to De La Riva?</p>
 
 ### 1. Allowing the opponent to establish a deep DLR hook before attempting any defense
 
@@ -257,6 +267,8 @@ Strip the near-side sleeve grip during the conversion window when the bottom pla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Sleeve to De La Riva?</p>
+
 **Phase 1: Recognition Drills (Week 1-2)** - Identifying transition cues without defensive reaction
 Partner executes the Double Sleeve to DLR transition at slow speed repeatedly. Your only task is to call out the cue you see: hip rotation, foot removal from hip, or grip tension change. Do not attempt to defend. Build the pattern recognition before adding motor responses.
 
@@ -273,26 +285,6 @@ Positional sparring starting from double sleeve guard. Top player's goal is to p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is attempting to transition from double sleeve to DLR?
-**A**: The earliest cue is the hip angle rotation: when the bottom player pushes off your far hip with their foot while pulling your near sleeve differently, their hips rotate approximately 45 degrees toward your lead leg side. This angular change precedes the actual hook insertion and gives you the maximum reaction window. The foot leaving your hip to begin threading toward the outside of your leg is the secondary confirmation cue.
-
-**Q2**: Why is the grip conversion moment the best defensive window?
-**A**: During the grip conversion, the bottom player must release their near-side sleeve grip to grab your ankle or pants. For a brief moment, they have only one upper body grip and their hooking leg is in transition. This is when their overall control is at its minimum, making grip strips more effective, leg retractions more successful, and forward pressure more likely to flatten their guard. Once both the hook and the new grip are established, the defensive difficulty increases dramatically.
-
-**Q3**: Your opponent has partially established a DLR hook but has not yet converted their near-side grip. What defensive action provides the best outcome?
-**A**: Backstep your hooked leg while simultaneously stripping or controlling their near-side sleeve grip before it converts to an ankle grip. The partial hook without the ankle grip is fragile and can be cleared by stepping over their shin. Combining the backstep with grip control prevents them from completing the transition and often puts you in position for a backstep pass or leg drag. Do not drive forward at this stage, as even a partial hook with your forward pressure can be leveraged into a sweep.
-
-**Q4**: How should you adjust your weight distribution when facing double sleeve guard to make DLR entry harder?
-**A**: Keep your weight centered or slightly back rather than loading your lead leg. A heavy lead leg is the exact target the bottom player needs for DLR hook insertion: weighted, forward-committed, and difficult to retract. By keeping your lead leg relatively light, you can pull it back instantly when you feel the threading motion. Consider adjusting to a more square stance rather than staggered when facing aggressive guard players who favor DLR transitions from sleeve control positions.
-
-
-
-</section>
 
 
 </main>

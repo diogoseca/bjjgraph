@@ -162,6 +162,8 @@ Defending against the Escape Zombie Control means maintaining your dominant Zomb
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Zombie Control?</p>
+
 - Bottom player begins establishing strong near-side frame against your chest or shoulder instead of fighting for underhook
 - Lockdown tension decreases or the grip pattern changes from offensive stretch to passive hold
 - Bottom player's hips begin shifting away from you rather than engaging for sweep setups
@@ -174,6 +176,8 @@ Defending against the Escape Zombie Control means maintaining your dominant Zomb
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Zombie Control?</p>
 
 - Recognize early indicators of the escape: frame establishment against your chest and reduced lockdown tension
 - Maintain constant chest-to-shoulder pressure to eliminate space for the hip escape that powers the transition
@@ -188,6 +192,8 @@ Defending against the Escape Zombie Control means maintaining your dominant Zomb
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Zombie Control?</p>
 
 ### 1. Drive heavy crossface pressure when frame establishment begins to collapse their space
 
@@ -225,6 +231,8 @@ Defending against the Escape Zombie Control means maintaining your dominant Zomb
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Zombie Control?</p>
+
 ### → [[Positions/Rubber Guard/Zombie]]
 
 Shut down the escape early by collapsing frames with crossface pressure, controlling the near-side arm, and re-establishing heavy top pressure and lockdown control before the bottom player can complete the transition
@@ -240,6 +248,8 @@ Allow the escape to proceed partially, then capitalize on the back exposure duri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Zombie Control?</p>
 
 ### 1. Allowing frame establishment without contesting the grips
 
@@ -269,6 +279,8 @@ Allow the escape to proceed partially, then capitalize on the back exposure duri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Zombie Control?</p>
+
 **Phase 1: Recognition** - Identifying escape attempt indicators early
 Partner initiates the escape at random intervals from Zombie Bottom while you practice recognizing the early signs: frame changes, lockdown tension shifts, and body positioning adjustments. Call out the escape attempt before they begin the actual turn. Develop pattern recognition speed for the subtle pre-escape signals.
 
@@ -282,29 +294,6 @@ Positional sparring starting in Zombie Top. Bottom player uses full escape reper
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that the bottom player is abandoning their Zombie game for an escape attempt?
-**A**: The earliest indicators are changes in grip priority and body positioning. The bottom player shifts from fighting for underhook (offensive) to establishing a frame against your chest (defensive escape setup). Their lockdown tension changes from active stretching for sweeps to passive holding. Their far-side arm moves from attacking your wrists to protecting their own neck. These subtle shifts precede the actual escape by one to two seconds, giving you a critical reaction window to shut down the escape or prepare your counter.
-
-**Q2**: When the bottom player begins their escape, should you try to maintain Zombie top or transition to back take?
-**A**: This depends on timing. If you catch the escape attempt early - during frame establishment before lockdown release - you should maintain Zombie top by collapsing their frames and re-establishing heavy pressure. However, once the lockdown has been released and the bottom player is turning, attempting to maintain Zombie top is wasted effort since the position's control structure has been broken. At that point, immediately transition to back take mode, threading your seatbelt and hunting for hooks during their most vulnerable phase.
-
-**Q3**: How do you balance pressure that prevents the escape with avoiding overcommitment that enables Granby rolls?
-**A**: Apply pressure diagonally rather than straight forward. Drive your shoulder into their face and chest at an angle that both collapses their frames and maintains your lateral base. Keep your far-side knee posted wide to prevent being rolled. If you feel them begin any rolling motion, immediately shift your hips to the opposite side and drive perpendicular to their roll direction. Think of your pressure as a wedge rather than a battering ram - it should prevent movement in multiple directions simultaneously.
-
-**Q4**: What grip adjustments should you make when you feel the lockdown releasing?
-**A**: When the lockdown releases, immediately transition from passing-oriented grips (crossface, underhook, pant control) to control-oriented grips (seatbelt setup, near-side underhook, far-side collar or shoulder control). Your near-side arm should immediately seek to thread under their armpit for the seatbelt as they turn. Your far-side hand should control their far shoulder or neck to prevent them from completing the turtle rotation with defensive integrity. The grip transition should happen simultaneously with the lockdown release.
-
-**Q5**: What do you do if the bottom player successfully reaches turtle despite your counter-attempts?
-**A**: Immediately transition your game plan from Zombie top control to turtle attack sequences. Establish chest-to-back pressure immediately and begin hunting for seatbelt grip by threading your arm under their near armpit while controlling their far shoulder. Do not pause to regroup - the window for back take is most open in the first three to five seconds after they establish turtle, before they can begin their own escape sequences. If seatbelt is unavailable, transition to front headlock control by circling toward their head, which opens different submission and control pathways.
-
-
-
-</section>
 
 
 </main>

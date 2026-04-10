@@ -77,28 +77,24 @@
     ],
     "transitions": [
       {
-        "transition": "Twister Finish",
-        "attempt_probability": 30
+        "transition": "Twister from Twister Control",
+        "attempt_probability": 35
       },
       {
         "transition": "Back Take",
-        "attempt_probability": 23
+        "attempt_probability": 25
       },
       {
-        "transition": "Guillotine Choke",
+        "transition": "Guillotine Choke from Twister Control",
         "attempt_probability": 15
       },
       {
-        "transition": "Calf Slicer",
+        "transition": "Neck Crank from Twister Control",
+        "attempt_probability": 13
+      },
+      {
+        "transition": "Calf Slicer from Twister Control",
         "attempt_probability": 12
-      },
-      {
-        "transition": "Neck Crank",
-        "attempt_probability": 11
-      },
-      {
-        "transition": "Twister",
-        "attempt_probability": 9
       }
     ],
     "decision_tree": [

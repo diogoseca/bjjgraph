@@ -162,6 +162,8 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape from Dead Orchard?</p>
+
 - Bottom player shifts weight onto upper back and shoulders, drawing knees toward chest in preparation for granby roll
 - Sudden increase in hip escape speed with chained movements rather than single shrimp-and-pause pattern
 - Bottom player's free arm shifts from framing at your elbow to controlling your choking arm wrist for active redirection
@@ -174,6 +176,8 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape from Dead Orchard?</p>
 
 - Recognize the transition from incremental to explosive escape by feeling the bottom player load weight onto their shoulders or draw knees toward chest
 - Sprawl heavily and drive weight forward at the first sign of rolling or inversion to stuff the granby before momentum builds
@@ -188,6 +192,8 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape from Dead Orchard?</p>
 
 ### 1. Sprawl and drive chest pressure forward to pin bottom player's shoulders flat and prevent granby roll loading
 
@@ -225,6 +231,8 @@ As the practitioner maintaining Dead Orchard Control against an opponent attempt
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape from Dead Orchard?</p>
+
 ### → [[Positions/Dead Orchard Control]]
 
 Sprawl to stuff rolling attempts and match multi-shrimp chains with hip adjustments to maintain compression angle. The aggressive escape burns the bottom player's energy rapidly, so surviving their committed attempt often leaves them exhausted and more vulnerable to the incremental squeeze.
@@ -240,6 +248,8 @@ When the aggressive escape compromises your grip beyond recovery, make the strat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape from Dead Orchard?</p>
 
 ### 1. Fighting to maintain the dead orchard grip after it has been structurally compromised by the aggressive escape
 
@@ -269,6 +279,8 @@ When the aggressive escape compromises your grip beyond recovery, make the strat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape from Dead Orchard?</p>
+
 **Phase 1: Counter Recognition** - Identifying aggressive escape loading cues under controlled conditions
 Partner telegraphs the loading phase for granby rolls and multi-shrimp chains at slow speed. Practice recognizing the weight shift, knee draw, and grip change that indicate the aggressive escape is being deployed. Develop automatic recognition that triggers your counter response.
 
@@ -285,29 +297,6 @@ Full resistance rounds from dead orchard control where bottom player uses the co
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for countering the granby roll escape attempt?
-**A**: The critical window is during the loading phase when the bottom player shifts weight to their shoulders and draws knees toward their chest. This is the one to two second preparation phase before the roll itself begins. Once the rolling momentum starts, stuffing it requires significantly more force and energy. By sprawling and driving chest pressure forward during the loading phase, you pin their shoulders flat and remove the mechanical foundation the granby requires.
-
-**Q2**: When should you strategically release the dead orchard grip and transition to side control instead of fighting to maintain it?
-**A**: Release when you feel your grip depth has moved past the point of submission viability, specifically when your hand position has slipped back toward the near shoulder rather than past the far shoulder. Also release when the bottom player has created significant hip angle that you cannot close within two to three hip adjustments. The decision calculus is simple: side control top is a dominant position worth 3 points, while fighting for a compromised dead orchard risks the bottom player escaping entirely to open guard where you have zero advantage.
-
-**Q3**: How do you prevent the multi-shrimp chain from building cumulative distance against your dead orchard control?
-**A**: Match each shrimp with your own hip adjustment in the same direction, maintaining the compression angle throughout the chain. The key is anticipating the chain rather than reacting to individual shrimps. When you feel the first rapid shrimp, immediately begin walking your hips in the same direction with equivalent urgency. Your hip adjustments should be slightly ahead of their shrimps rather than trailing behind. If you fall behind the chain by even one shrimp, the cumulative distance becomes difficult to recover.
-
-**Q4**: Your opponent attempts a granby roll and you successfully stuff it - what should your immediate follow-up be?
-**A**: Immediately increase the dead orchard pressure by driving your shoulder harder into their trapped shoulder and walking your choking arm grip deeper. The failed granby attempt has expended significant energy and likely left the bottom player slightly disoriented from the attempted inversion. This is the optimal moment to attempt the anaconda finish, as their defensive resources are temporarily depleted. Do not simply maintain the current pressure level - actively advance toward the submission during this recovery window.
-
-**Q5**: How does the aggressive escape create different counter-opportunities compared to the standard frame-and-shrimp escape?
-**A**: The aggressive escape extends the bottom player's body and commits them to large movements that create vulnerability windows not present in the incremental escape. During a committed granby roll, the bottom player temporarily abandons their defensive frame to generate rotation, and a successful stuff leaves them in a worse position than before. During the multi-shrimp chain, their energy expenditure is dramatically higher, creating fatigue opportunities. The trade-off is that these openings are brief and require quick recognition, whereas the incremental escape provides fewer openings but also fewer counter-attack opportunities.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Toreando from Inverted?</p>
+
 - Secure bilateral leg control before initiating any lateral movement — single-leg control allows guard recovery through the free leg
 - Redirect legs laterally and slightly downward, never forward into the opponent's inversion mechanics
 - Circle explosively in the opposite direction of the leg redirection with short quick steps, never crossing your feet
@@ -202,6 +204,8 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Toreando from Inverted?</p>
+
 - Standing or combat base position with wide athletic stance and ability to move laterally in either direction
 - Both hands free and positioned to grip opponent's pant legs at ankles or knees simultaneously
 - Opponent's collar, sleeve, and belt grips neutralized or stripped to prevent tracking during lateral movement
@@ -214,6 +218,8 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Toreando from Inverted step by step?</p>
 
 1. **Recognize inversion and establish athletic stance**: As your opponent begins inverting, immediately adjust to a wider athletic base with feet shoulder-width apart or wider and knees bent. Drop your level slightly to lower your center of gravity and position yourself within arm's reach of their elevated legs. Avoid crowding forward, which feeds their berimbolo entries and offensive rotation sequences.
 2. **Secure bilateral pant grips at ankles or knees**: Grip both of your opponent's pant legs simultaneously — ideally at the ankle cuffs for maximum leverage, or at the knee line if ankle grips are unavailable. Establish firm control with fingers wrapped inside the pant material. Both grips must be secured before initiating lateral movement to prevent the opponent from freeing one leg and re-engaging with hooks or foot-on-hip placement.
@@ -243,6 +249,8 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Toreando from Inverted?</p>
+
 - **Hip rotation tracking — opponent rotates hips to follow the passer's lateral movement, keeping legs oriented toward the passer** (Effectiveness: High) - Your Response: Accelerate lateral movement and use a sharp directional change to the opposite side, or transition to a stack pass if they successfully track your initial direction → Leads to [[Positions/Inverted Guard]]
 - **Collar grip anchor — opponent grabs collar to pull passer back toward center, preventing lateral separation** (Effectiveness: Medium) - Your Response: Strip the collar grip before initiating lateral movement using a two-handed grip break, or power through with a fully committed lateral drive that breaks the grip through distance → Leads to [[Positions/Inverted Guard]]
 - **Leg hook insertion — opponent hooks passer's lead leg with their foot to prevent clearing the hip line** (Effectiveness: Medium) - Your Response: Step the hooked leg backward and re-establish stance, or switch to a backstep pass using the hook connection as a pivot point for the directional change → Leads to [[Positions/Inverted Guard]]
@@ -254,6 +262,8 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Toreando from Inverted?</p>
 
 ### 1. Pushing legs forward into the opponent rather than laterally
 
@@ -293,6 +303,8 @@ As the passer facing inverted guard, the toreando provides a speed-based passing
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Toreando from Inverted (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Bilateral pant grip establishment and control
 Practice gripping both pant legs simultaneously from various angles against a cooperative partner in inverted guard. Develop speed and accuracy in securing ankle and knee grips, including grip transitions when initial grips are blocked. Build comfort with the specific hand positioning required for effective toreando control against elevated legs.
 
@@ -313,42 +325,12 @@ Apply the toreando from inverted in positional sparring and full rolling at comp
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the toreando against an inverting opponent?
-**A**: The optimal window is after the opponent begins rotating their hips toward inversion but before they establish optimal grips (collar, sleeve, belt) and full hip elevation. Initiating during this transition phase catches them between positions, with legs accessible but defensive grips not yet secured. Waiting until full inversion is established allows them to set up berimbolo entries and defensive hooks that significantly reduce toreando success rates.
-
-**Q2**: Why must both pant grips be secured simultaneously before initiating lateral movement?
-**A**: Bilateral grip control is essential because the inverted player can immediately re-engage their guard with any freed leg by placing a foot on your hip, inserting a De La Riva hook, or establishing a collar-sleeve connection. A single grip only controls one half of their defensive structure, allowing them to rotate and re-center. Simultaneous control of both legs eliminates their primary tracking mechanism and creates the directional imbalance necessary for the toreando to succeed.
-
-**Q3**: Your opponent successfully tracks your lateral movement with hip rotation during the toreando — how should you adjust?
-**A**: When the inverted player tracks your lateral movement, immediately change direction — push their legs to the opposite side and circle the other way. This directional switch exploits the momentum of their rotation, as they must stop their hip movement and reverse direction. If double-switching fails, transition to a stack pass by driving their knees toward their chest, using their committed rotation against them. The key principle is never forcing the toreando in one direction against successful tracking.
-
-**Q4**: What is the critical mechanical detail that differentiates the toreando leg redirection from a simple forward push?
-**A**: The toreando leg redirection must be perpendicular to the opponent's spine — driving their legs laterally past their own centerline rather than pushing forward or backward. A forward push simply compresses them deeper into inversion and feeds stack pass mechanics instead, while a backward push creates distance they can use to recover seated guard. The lateral vector eliminates the rotational axis the inverted player depends on, forcing their hips flat to one side where their inversion mechanics no longer function.
-
-**Q5**: What grip position on the opponent's legs provides maximum toreando leverage and why?
-**A**: Ankle cuff grips provide maximum leverage because they control the longest lever arm — the full length of the opponent's leg from hip to ankle. Gripping at the knees provides less directional control and allows the opponent to bend their legs and create angles that resist the lateral push. Ankle grips also allow you to lift the legs slightly during redirection, further disrupting the inverted player's shoulder-based rotation pivot. In no-gi situations where pant grips are unavailable, control at the Achilles tendon or behind the knees becomes the primary alternative.
-
-**Q6**: How should you direct the force during leg redirection — laterally, downward, or at an angle?
-**A**: Direct the force laterally and slightly downward toward the mat, at approximately a 30-degree angle below horizontal. Pure lateral force allows the inverted player to maintain hip elevation and continue rotating, while driving too far downward compresses them into a dangerous neck position. The slight downward angle flattens their inversion while the lateral component breaks their centerline alignment, creating the passing lane needed to circle around their hip line. The force should move their legs past their own hip line, not merely to their centerline.
-
-**Q7**: Your opponent grabs your collar with their free hand as you begin the toreando — what is the risk and how do you address it?
-**A**: A collar grip during the toreando allows the inverted player to pull you forward into their inversion system, potentially setting up a berimbolo or preventing your lateral movement by anchoring your upper body. Address this by stripping the grip before committing to the lateral pass using a sharp two-handed grip break on their collar hand. If you cannot release your leg grips to strip, drive your elbows outward to create breaking pressure. Never initiate the lateral movement with an active opponent collar grip intact, as it directly enables their highest-percentage counters.
-
-**Q8**: If the toreando fails and your opponent begins recovering to seated guard, what follow-up chain attack should you use?
-**A**: As the opponent transitions from inverted to seated guard, immediately attack with a knee slice or leg drag pass during the recovery phase. The transition between inverted and seated guard creates a brief window where the opponent's legs are neither fully inverted nor fully re-established, reducing their defensive options significantly. A fast knee slice through the opening created by the failed toreando capitalizes on their positional transition before they can settle defensive grips. Alternatively, re-grip for a second toreando attempt in the opposite direction before they fully establish their seated guard.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Toreando from Inverted?</p>
 
 The toreando from inverted guard requires particular care regarding the inverted player's cervical spine. Aggressive lateral leg redirection while the opponent is inverted can create dangerous rotational forces on the neck if their shoulders are anchored to the mat. The passer should redirect legs laterally rather than driving them downward toward the opponent's head. Both practitioners should communicate immediately if neck pressure becomes excessive during training. Develop the pass at controlled speed before applying full competition intensity, and immediately release all pressure if your training partner signals discomfort or taps. Avoid explosive jerking motions on the legs that could cause knee or ankle injuries.
 

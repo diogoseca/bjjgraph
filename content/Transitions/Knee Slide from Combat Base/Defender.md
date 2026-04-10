@@ -154,6 +154,8 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slide from Combat Base?</p>
+
 - Passer shifts weight forward onto posted knee and drives lead shoulder toward your face, signaling crossface establishment
 - Passer's trailing hand moves to control your far hip or pants, establishing the anchor needed to complete the cut
 - Lead knee rotates inward and angles diagonally toward your far hip rather than pointing straight ahead
@@ -166,6 +168,8 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slide from Combat Base?</p>
 
 - Deny the crossface by framing against the passer's lead shoulder before they can establish head control, as the crossface is the foundation of the entire pass
 - Insert a knee shield or butterfly hook early when you recognize the knee slide initiation rather than waiting until the cutting knee is already on your thigh
@@ -180,6 +184,8 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slide from Combat Base?</p>
 
 ### 1. Insert knee shield by placing your inside shin across the passer's hip before the cutting knee crosses your thigh line
 
@@ -217,6 +223,8 @@ Defending the Knee Slide from Combat Base requires early recognition of the pass
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slide from Combat Base?</p>
+
 ### → [[Positions/Combat Base]]
 
 Use early frames against the passer's crossface shoulder combined with aggressive hip escape to deny the knee slide entirely. Strip their far-side grip and push their lead arm past your head to break the crossface, forcing them back to neutral combat base where they must restart the pass.
@@ -232,6 +240,8 @@ Insert a knee shield or clamp your legs around the cutting knee before it comple
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slide from Combat Base?</p>
 
 ### 1. Reacting to the knee slide only after the cutting knee has already crossed the thigh line
 
@@ -266,6 +276,8 @@ Insert a knee shield or clamp your legs around the cutting knee before it comple
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slide from Combat Base?</p>
+
 **Phase 1: Recognition** - Identifying knee slide initiation cues from combat base
 Partner slowly initiates the knee slide from combat base while the defender focuses on identifying the earliest cues—weight shift, grip changes, knee angle rotation, and far hip control. No defensive action taken, purely visual and tactile recognition training to develop awareness of when the pass begins.
 
@@ -282,26 +294,6 @@ Defend the knee slide in live positional sparring against training partners of v
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a knee slide is being initiated from combat base?
-**A**: The earliest cues include the opponent shifting weight forward onto their posted knee, their lead hand reaching for crossface or collar grip, and a subtle hip angle change as they prepare to drive the knee diagonally. The most reliable cue is the opponent's trailing hand moving to control your far hip or pants, signaling they are establishing the anchor needed to complete the cut. Recognizing these setup movements gives you a one-to-two second window to deploy preventive defenses before the knee begins cutting.
-
-**Q2**: When is the latest possible moment to successfully defend a knee slide, and what defense works at that point?
-**A**: The latest effective defense point is when the opponent's knee has begun crossing your thigh but has not yet reached the mat on the far side. At this stage, clamp your legs tightly around their cutting leg to establish half guard retention, immediately insert a knee shield with your inside leg, and frame against their crossface shoulder to prevent being flattened. Once the knee completes its cut to the mat, defensive options drop dramatically and you must transition to side control bottom escape strategies instead.
-
-**Q3**: How does defending the knee slide differ in gi versus no-gi?
-**A**: In the gi, defenders have additional grip options including collar grips and sleeve grips that can stall the passer's forward momentum and break their posture. Pant grips on the cutting leg can directly impede the knee's path across the thigh. In no-gi, defenders rely more heavily on underhook position, elbow-knee connection frames, and hip escape velocity since there are no fabric grips to anchor defensive structures. No-gi defense emphasizes speed and timing, while gi defense can incorporate grip-based stalling and redirection of passing momentum.
-
-**Q4**: Your crossface defense has failed and the passer has heavy shoulder pressure—what is your emergency recovery sequence?
-**A**: When crossface defense fails, immediately protect your neck by tucking your chin and turning your face toward the passer. Get your near-side elbow to the mat as a wedge to prevent being completely flattened. Pummel your inside arm for an underhook while using your legs to clamp the cutting knee for half guard. From this compromised position, work to reinsert a knee shield by hip escaping and framing against the passer's hip. The priority shifts from preventing the pass to retaining half guard, which is significantly better than conceding full side control.
-
-
-
-</section>
 
 
 </main>

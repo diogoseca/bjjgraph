@@ -88,7 +88,7 @@ This escape is particularly important because it transforms an extremely dangero
 
 - **Establish Defensive Frame**: Position your free arm as a frame against the top player's hip or chest with your elbow bent at appr...
 
-- **Read Weight Distribution**: Feel for the top player's weight shifts through your frame and body contact. When they commit weight...
+- **Read Center of Gravity**: Feel for the top player's weight shifts through your frame and body contact. When they commit weight...
 
 - **Bridge Explosively**: When you detect the weight shift, drive your hips upward explosively toward the ceiling and slightly...
 
@@ -217,7 +217,7 @@ This escape serves as the primary defensive recovery pathway from one of BJJ's m
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Recovery variation - half guard sub-position commonly established during this escape
 
-- [[Submissions/Armbar from Technical Mount]] - Primary submission threat - the attack this escape must defend against during execution
+- [[Transitions/Mount to Armbar]] - Primary submission threat - the armbar setup transition this escape must defend against during execution
 
 - [[Positions/Mount/S Mount]] - Related mount variation - shares stepped leg configuration with similar escape mechanics
 

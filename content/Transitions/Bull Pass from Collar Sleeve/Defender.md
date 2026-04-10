@@ -162,6 +162,8 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bull Pass from Collar Sleeve?</p>
+
 - Passer grabs your sleeve-gripping wrist or forearm with their free hand, establishing a two-on-one grip break setup
 - Passer drives hips backward explosively while pulling at your sleeve grip, indicating an imminent grip break
 - After grip break, passer's hands immediately move toward both of your knees or pant legs simultaneously
@@ -173,6 +175,8 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bull Pass from Collar Sleeve?</p>
 
 - Maintain collar grip tension throughout the entire exchange as your primary anchor and posture-breaking tool
 - Defend the sleeve grip break with active wrist curling and elbow retraction rather than passive resistance
@@ -188,6 +192,8 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bull Pass from Collar Sleeve?</p>
 
 ### 1. Actively resist the two-on-one grip break by curling your gripping hand and pulling your elbow tight to your ribs
 
@@ -225,6 +231,8 @@ As the defender facing a bull pass from your collar sleeve guard, your primary o
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bull Pass from Collar Sleeve?</p>
+
 ### → [[Positions/Collar Sleeve Guard]]
 
 Maintain collar grip tension while hip escaping to track the passer's lateral movement. The collar grip serves as an anchor that disrupts the passer's base even when your legs are partially redirected. Active hip movement combined with collar pulling can collapse the passer's posture and force them to abandon the pass, returning both players to the collar sleeve guard exchange.
@@ -240,6 +248,8 @@ When the bull pass redirects your legs past the recovery angle for collar sleeve
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bull Pass from Collar Sleeve?</p>
 
 ### 1. Releasing the collar grip when the sleeve grip is broken, panicking and losing all connection
 
@@ -269,6 +279,8 @@ When the bull pass redirects your legs past the recovery angle for collar sleeve
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bull Pass from Collar Sleeve?</p>
+
 **Grip Retention Drill** - Defending the two-on-one sleeve grip break
 Partner attempts the two-on-one grip break with progressive resistance from light to strong. Practice curling your wrist, pulling your elbow tight, and maintaining grip tension under pressure. Develop the grip strength and defensive reflexes needed to resist the initial grip break that enables the entire pass.
 
@@ -285,29 +297,6 @@ Positional sparring starting in collar sleeve guard where the top player attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a bull pass is being attempted from your collar sleeve guard?
-**A**: The earliest cue is when the passer grabs your sleeve-gripping wrist or forearm with their free hand to establish a two-on-one grip break. This setup precedes the actual grip break by one to two seconds and gives you the maximum defensive preparation time. Immediately upon feeling the two-on-one, tighten your grip, curl your wrist, and prepare for hip escape movement.
-
-**Q2**: Why is the collar grip your most important defensive asset when the sleeve grip is broken?
-**A**: The collar grip provides continuous connection to the passer's upper body that disrupts their posture and base throughout the lateral passing attempt. Even after losing the sleeve grip, a strong collar pull can collapse the passer's posture forward, preventing them from executing the explosive lateral step needed to complete the pass. The collar grip also anchors you to the passer, making it harder for them to create the separation needed to clear your legs.
-
-**Q3**: What body movement should you prioritize when you feel your legs being redirected to one side?
-**A**: Immediately hip escape in the same direction the passer is moving laterally, not in the direction your legs are being pushed. Your goal is to re-face the passer by tracking their movement with your hips. Simultaneously pull the collar grip to break their posture. This combination of hip escape and collar pull creates the best chance of preventing the pass from completing because it closes the passing lane the passer is trying to create.
-
-**Q4**: When should you accept half guard rather than fighting to maintain collar sleeve guard?
-**A**: Accept the transition to half guard when the passer has already cleared one leg past your knee line and is driving forward with committed pressure. Attempting to recover full collar sleeve guard from this position wastes energy and often results in being passed entirely. Instead, immediately insert a knee shield or lock down their leg to establish half guard structure where you have a strong defensive and offensive platform.
-
-**Q5**: How do you defend against a fake bull pass to knee slice combination?
-**A**: Keep your hips centered and do not overcommit your hip escape in the initial direction of the bull pass movement until you confirm the passer has actually committed their weight laterally. If you notice the passer's weight staying centered rather than fully committing to the lateral step, maintain your guard frame position rather than chasing their initial direction. When they reverse for the knee slice, your centered hips are already positioned to defend the center line pass.
-
-
-
-</section>
 
 
 </main>

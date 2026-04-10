@@ -140,6 +140,8 @@ As the defender against the Transition to Clamp Guard, your primary objective is
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Transition to Clamp Guard?</p>
+
 - Opponent hip escapes away from one of your arms while maintaining wrist control, creating the angle needed for shin threading
 - Opponent's near-side leg lifts and begins threading across the front of your reaching arm at bicep level
 - Opponent pulls your wrist toward their hip while simultaneously angling their body away from you
@@ -152,6 +154,8 @@ As the defender against the Transition to Clamp Guard, your primary objective is
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Transition to Clamp Guard?</p>
 
 - Keep elbows tight to your body when engaging in open guard — extended arms are the primary target for clamp interception
 - Recognize the hip escape and shin threading motion as the early warning signal for clamp entry
@@ -166,6 +170,8 @@ As the defender against the Transition to Clamp Guard, your primary objective is
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Transition to Clamp Guard?</p>
 
 ### 1. Retract the arm immediately by bending the elbow and pulling it tight to your ribs before the shin seats on the bicep
 
@@ -196,6 +202,8 @@ As the defender against the Transition to Clamp Guard, your primary objective is
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Transition to Clamp Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Prevent the clamp from establishing by retracting arms early, maintaining tight elbows, and not reaching inside the guard with extended arms. When you must engage grips, keep elbows pinned to your ribs.
@@ -211,6 +219,8 @@ Drive forward with strong shoulder pressure before the clamp closes, collapsing 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Transition to Clamp Guard?</p>
 
 ### 1. Reaching deep inside the opponent's guard with extended arms while passing
 
@@ -240,6 +250,8 @@ Drive forward with strong shoulder pressure before the clamp closes, collapsing 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Transition to Clamp Guard?</p>
+
 **Phase 1: Recognition** - Identifying clamp entry setups
 Partner attempts clamp entries at slow speed while you focus on recognizing the hip escape, shin threading, and wrist pull cues. Call out each cue verbally as you see it. No defensive action — purely visual and tactile recognition development.
 
@@ -256,23 +268,6 @@ Full-speed positional sparring from open guard with the specific constraint of k
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a clamp guard entry is being attempted?
-**A**: The earliest cue is the opponent's hip escape away from one of your arms combined with wrist control on that arm. The hip escape creates the angle needed for shin threading, and the wrist control prevents you from retracting. Secondary cues include the near-side leg lifting to thread across your arm and a deliberate pull on your wrist toward their hip. Recognizing these cues within the first half-second is critical because extraction difficulty increases exponentially once the shin seats on the bicep.
-
-**Q2**: Why is circular arm extraction more effective than pulling straight back against an established clamp?
-**A**: The clamp uses a wedge mechanic created by the hip angle — the shin presses across the bicep at an angle that tightens under direct pulling force, similar to a Chinese finger trap. Circular extraction changes the force vector to one the clamp is not designed to resist. The outward rotation moves the arm around the edge of the shin rather than against the flat pressing surface, requiring significantly less force to clear. Additionally, circular motion disrupts the guard player's hip angle, further weakening the clamp mechanics.
-
-**Q3**: When is the optimal moment to drive forward rather than retract when defending against the clamp entry?
-**A**: Drive forward only when you recognize the hip escape but before the shin has threaded across your bicep. At this stage, the forward drive collapses the space the opponent needs for the clamping angle and can advance your passing position. If the shin is already on the bicep, do not drive forward because the clamp tightens with forward pressure and the guard player can use your momentum for sweeps. The decision point is shin contact: no contact means drive, contact means retract or rotate.
-
-
-
-</section>
 
 
 </main>

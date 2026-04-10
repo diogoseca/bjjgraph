@@ -194,6 +194,8 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing High Guard to Rubber Guard?</p>
+
 - Break posture completely before initiating the guard climb - attempting to climb against strong posture guarantees failure
 - Climb the guard to ribcage height before attempting the leg thread, using alternating hip lifts rather than pulling with arms
 - Establish the overhook anchor on the near-side arm before unlocking your ankles for the leg threading phase
@@ -208,6 +210,8 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting High Guard to Rubber Guard?</p>
+
 - Opponent's posture must be fully broken with their head and chest pulled close to your torso before beginning the guard climb
 - Adequate hip and hamstring flexibility to bring your shin above the opponent's shoulder line without straining
 - Strong collar or head control grip maintained throughout the transition to prevent posture recovery during vulnerable phases
@@ -220,6 +224,8 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute High Guard to Rubber Guard step by step?</p>
 
 1. **Break opponent's posture**: From closed guard bottom, establish a strong collar grip with your right hand while controlling the opponent's same-side sleeve or wrist with your left hand. Pull their head and chest down toward your torso using combined arm pull and heel drive into their lower back, collapsing their posture completely before proceeding.
 2. **Climb guard high on back**: With posture broken, walk your hips up the opponent's torso by alternating hip lifts and re-gripping with your legs. Your goal is to position your hips as high on their ribcage as possible, with your guard sitting near their armpits rather than at their waist. Use your heels to pull yourself higher with each adjustment.
@@ -250,6 +256,8 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter High Guard to Rubber Guard?</p>
+
 - **Aggressive posture recovery by driving hips back and straightening spine before guard climb completes** (Effectiveness: High) - Your Response: Re-engage posture breaking with stronger heel drive into lower back and collar pull before re-attempting the climb. If posture recovery is too strong, chain to hip bump sweep or scissor sweep instead. → Leads to [[Positions/Closed Guard]]
 - **Stripping overhook and pushing hips through to open guard during ankle unlock phase** (Effectiveness: Medium) - Your Response: Transition immediately to triangle setup as their arm extraction creates the one-arm-in one-arm-out configuration. The arm movement needed to strip the overhook exposes them to the triangle entry. → Leads to [[Positions/Open Guard]]
 - **Standing up explosively to create distance and make high guard position mechanically impossible** (Effectiveness: High) - Your Response: If caught early, follow with sweeps from high guard such as overhead sweep or transition to conventional closed guard attacks. If they achieve full standing, accept open guard bottom and re-engage with feet on hips. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing High Guard to Rubber Guard?</p>
 
 ### 1. Attempting the transition without adequate hip and hamstring flexibility
 
@@ -300,6 +310,8 @@ As the bottom player executing the High Guard to Rubber Guard transition, your o
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train High Guard to Rubber Guard (Attacker)?</p>
+
 **Phase 1: Flexibility Foundation** - Hip and hamstring range of motion
 Develop the flexibility required for Rubber Guard through daily stretching targeting hip flexors, hamstrings, and external hip rotation. Include pigeon pose, seated forward folds, supine leg raises, and butterfly stretches held for progressively longer durations over four to six weeks.
 
@@ -320,42 +332,12 @@ Incorporate the High Guard to Rubber Guard transition into live rolling, selecti
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the high guard climb from closed guard?
-**A**: The optimal window opens immediately after successfully breaking the opponent's posture, when their head and chest are pulled close to your torso and their weight is committed forward. Attempting the climb while opponent has strong posture allows them to sit back and create distance. You need their posture collapsed and base compromised before beginning the guard climb.
-
-**Q2**: What entry requirements must exist before you can attempt the leg threading phase?
-**A**: Your guard must be climbed high enough that your hips sit at or above the opponent's ribcage level, and you must have an established overhook on their near-side arm. Without the high guard position, the leg cannot clear the shoulder. Without the overhook, the opponent can post with their arm and create space during the threading movement.
-
-**Q3**: What is the most critical hip movement during the transition from high guard to Mission Control?
-**A**: The angular hip displacement of thirty to forty-five degrees toward the overhook side is the most critical movement. This creates the clearance angle needed for your leg to pass over the opponent's shoulder. Without this angle, the leg jams against their shoulder and the transition stalls, giving the opponent time to recover posture and defend.
-
-**Q4**: What is the most common reason the leg threading phase fails?
-**A**: Insufficient guard height before attempting to thread the leg is the most common failure point. Practitioners try to swing the leg over the shoulder while their hips are still at waist level, which lacks the elevation angle needed for clearance. The guard must be climbed to ribcage height before the threading action can succeed mechanically.
-
-**Q5**: What grip must you establish before opening your guard ankles during the transition?
-**A**: You must have a secure overhook on the opponent's near-side arm before unlocking your ankles. The overhook serves as your primary control anchor during the brief moment when your legs are transitioning from closed guard to rubber guard configuration. Without it, the opponent can posture up or drive forward to pass during the vulnerable ankle unlock.
-
-**Q6**: What is the primary direction of force when securing Mission Control?
-**A**: The force direction is diagonally downward across the opponent's trapped shoulder and neck. Your locked leg creates a lever that pushes their shoulder down while your hand grip on the foot pulls the leg tight, compressing their posture. The free hand reinforces this by pulling the head down. All forces converge to pin the opponent's upper body in a forward-flexed position.
-
-**Q7**: Your opponent begins posturing up aggressively as you start climbing your guard high - how do you adjust?
-**A**: Abandon the rubber guard attempt temporarily and refocus on posture breaking using your existing grips. Drive your heels harder into their lower back while pulling collar or head control down with both hands. Only resume the guard climb once posture is fully collapsed again. Forcing the transition against active posture recovery exposes you to guard opening and passing.
-
-**Q8**: If the opponent defends by stripping your foot grip as you establish Mission Control, what chain attack should you pursue?
-**A**: When the opponent strips your foot grip, their arm movement creates space for a triangle setup. As they reach to strip the grip, their near arm is already trapped by your overhook while their far arm extends forward, creating the one-arm-in one-arm-out configuration needed for triangle entry. Transition immediately by controlling the extending arm and swinging your leg across their neck.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for High Guard to Rubber Guard?</p>
 
 This transition places significant stress on the bottom player's hips, hamstrings, and lower back. Practitioners must develop adequate flexibility through a dedicated stretching program before attempting the full range of motion in live training. Forcing the high guard position without sufficient flexibility risks hip flexor strains, hamstring tears, and lower back injuries. The top player should be aware that aggressive posture recovery attempts while the leg is being threaded can hyperextend the bottom player's knee. Both partners should communicate during drilling to establish safe movement boundaries and tap immediately if any joint feels compromised.
 

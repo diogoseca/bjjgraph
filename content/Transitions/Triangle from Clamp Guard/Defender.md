@@ -154,6 +154,8 @@ Defending the Triangle from Clamp Guard requires understanding that your arm is 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle from Clamp Guard?</p>
+
 - The guard player's clamping leg shifts from a static hold across the bicep to an active sliding motion toward your shoulder, indicating preparation for the leg shoot
 - The guard player's hips begin rotating underneath you with increased angular movement, pre-loading the body for the triangle entry and creating the hip angle needed to clear the shoulder
 - The guard player's free hand transitions from general posture control to a firm grip behind your head or on the back of your neck, establishing the pulling anchor needed to prevent posture recovery during the leg shoot
@@ -165,6 +167,8 @@ Defending the Triangle from Clamp Guard requires understanding that your arm is 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle from Clamp Guard?</p>
 
 - Prevention is exponentially more effective than escape — stop the leg from crossing the shoulder rather than fighting a locked triangle
 - Never circle the trapped arm outward without first establishing strong upright posture and closing the neck-shoulder gap
@@ -179,6 +183,8 @@ Defending the Triangle from Clamp Guard requires understanding that your arm is 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle from Clamp Guard?</p>
 
 ### 1. Posture up immediately and tuck chin to close the neck-shoulder gap before the leg can cross
 
@@ -216,6 +222,8 @@ Defending the Triangle from Clamp Guard requires understanding that your arm is 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle from Clamp Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Successfully drive forward or extract the arm completely to break the clamp configuration, denying the triangle and resetting the engagement to open guard where you have a full defensive toolkit and both arms available
@@ -231,6 +239,8 @@ Prevent the triangle entry through early posture recovery and chin tuck, keeping
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle from Clamp Guard?</p>
 
 ### 1. Circling the trapped arm outward without first establishing posture and closing the neck-shoulder gap
 
@@ -260,6 +270,8 @@ Prevent the triangle entry through early posture recovery and chin tuck, keeping
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle from Clamp Guard?</p>
+
 **Phase 1: Recognition** - Identifying the transition cues from clamp guard to triangle attempt
 Partner alternates between maintaining the clamp statically and initiating the triangle entry. The defender practices identifying which movements signal the triangle attempt versus normal clamp retention. Call out the attack before it happens. No escape attempts yet — purely develop the pattern recognition that enables early prevention. 15 minutes with role-specific feedback.
 
@@ -273,26 +285,6 @@ Start with the triangle already locked at various stages of tightness. Practice 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the guard player's shin starting to slide from your bicep toward your shoulder — what immediate action prevents the triangle?
-**A**: Posture up immediately by straightening your spine and driving your hips backward while tucking your chin to close the gap between your neck and shoulder. Simultaneously drive your trapped shoulder forward into the guard player's hip to physically block the leg's path. If possible, grab the moving leg with your free hand and push it back down. Speed is critical here — you have less than one second before the leg clears the shoulder if you do not react to the sliding cue.
-
-**Q2**: What are the earliest recognition cues that the bottom player is transitioning from clamp retention to triangle entry?
-**A**: The three earliest cues are: first, the guard player's hips begin rotating underneath you with increased angular movement rather than maintaining static clamp pressure; second, their free hand shifts to a firm grip behind your head or neck rather than general posture control; third, you feel the clamping leg lighten on your bicep as it prepares to shoot rather than pressing down with sustained static control. Any one of these cues should trigger immediate posture recovery.
-
-**Q3**: The triangle is partially locked but the guard player has not yet adjusted their angle — what is your escape priority sequence?
-**A**: First, establish posture by driving your spine upright and keeping your head elevated — this is the single most important defensive action because the choke cannot finish without your head being pulled forward. Second, square your hips to the opponent to prevent them from achieving the 30-45 degree angle needed for choking geometry. Third, work to extract the trapped arm by pushing it toward the opponent's hip while maintaining posture. Fourth, if extraction fails, work to pass to the opposite side while opening the lock. Address each priority in order — skipping posture to fight the arm is the most common fatal error.
-
-**Q4**: Why should you never circle your trapped arm outward when attempting to escape the clamp guard?
-**A**: Circular outward extraction is the primary trigger for the triangle from clamp guard. The circular movement creates lateral space between your neck and shoulder — the exact gap the choking leg needs to cross. Additionally, the circular path positions your arm on the choking side of the triangle before the lock is even established. Straight-back extraction is safer because it does not create the neck-shoulder gap, though it does expose you to the armbar. The tactical choice between triangle risk and armbar risk must be managed through posture control before either extraction direction is attempted.
-
-
-
-</section>
 
 
 </main>

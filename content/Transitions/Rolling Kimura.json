@@ -12,7 +12,7 @@
     "back-take",
     "no-gi"
   ],
-  "from_position": "Turtle/Top",
+  "from_position": "Kimura Trap/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -105,7 +105,7 @@
       "relationship": "Related shoulder lock with similar mechanics from different angle"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Submission option from back control achieved via rolling kimura"
     },
     {

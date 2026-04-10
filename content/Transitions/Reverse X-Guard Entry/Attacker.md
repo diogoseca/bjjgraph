@@ -186,6 +186,8 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse X-Guard Entry?</p>
+
 - Maintain constant hip elevation throughout the entry to prevent being flattened before completing the hook insertion
 - Control opponent's near-side ankle or pants cuff throughout the transition to prevent them from stepping away and disengaging
 - Thread your outside leg deep beneath opponent's hips before attempting to establish the crossing hook
@@ -200,6 +202,8 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse X-Guard Entry?</p>
+
 - Inverted guard established with shoulders and upper back anchored to the mat, hips elevated
 - Control of opponent's near-side pants leg at the ankle or cuff to prevent disengagement
 - Opponent maintaining relatively upright posture rather than applying heavy stack pressure
@@ -212,6 +216,8 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse X-Guard Entry step by step?</p>
 
 1. **Establish grip control**: From inverted guard, secure a strong grip on opponent's near-side pants at the ankle or cuff with your same-side hand. Establish a secondary grip on their sleeve or collar with your other hand to prevent them from posting or disengaging.
 2. **Create threading angle**: Hip escape slightly toward your pants-grip side to create an angle that allows your outside leg to thread beneath their hips. Your shoulder blades remain anchored while your hips rotate approximately 45 degrees.
@@ -240,6 +246,8 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse X-Guard Entry?</p>
+
 - **Opponent steps far leg back before crossing hook establishes, creating distance and preventing leg threading** (Effectiveness: High) - Your Response: Maintain pants grip and follow their retreating leg, using the grip to prevent full disengagement while transitioning to Single Leg X or technical standup → Leads to [[Positions/Inverted Guard]]
 - **Opponent applies immediate stack pressure when they recognize the inversion, driving weight onto your shoulders** (Effectiveness: High) - Your Response: Abandon the entry and granby roll to the opposite side, using their forward pressure to assist your rotation and recover to seated guard or De La Riva → Leads to [[Positions/Side Control]]
 - **Opponent posts their hand on your hip to prevent threading and maintains low base** (Effectiveness: Medium) - Your Response: Use your free hand to attack their posting arm with a two-on-one grip, clearing the obstruction and creating the window for leg insertion → Leads to [[Positions/Inverted Guard]]
@@ -251,6 +259,8 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse X-Guard Entry?</p>
 
 ### 1. Attempting entry when opponent is applying heavy stack pressure
 
@@ -285,6 +295,8 @@ This technique represents a sophisticated evolution in modern guard play, bridgi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse X-Guard Entry (Attacker)?</p>
+
 **Week 1-2** - Solo movement mechanics
 Practice inverted hip rotation and leg threading movements without a partner. Focus on maintaining shoulder contact while rotating hips 45 degrees, then threading and curling each leg individually. Develop the hip mobility required for clean entries.
 
@@ -302,54 +314,12 @@ Full positional sparring from inverted guard with all options available. Chain R
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Reverse X-Guard Entry?
-**A**: The primary goal is to establish Reverse X-Guard position, where your legs create an X-configuration controlling opponent's base while you face away from them. This position offers powerful sweep mechanics, transitions to other leg entanglements, and back take opportunities that are difficult to defend because opponents cannot see your lower body movements.
-
-**Q2**: What position do you start Reverse X-Guard Entry from, and what conditions must exist?
-**A**: This technique starts from Inverted Guard with your shoulders and upper back anchored to the mat, hips elevated, and legs positioned toward your opponent. You need an established inverted guard with proper weight distribution, active grips on the opponent's ankle and sleeve, and the opponent must be maintaining relatively upright posture rather than applying stack pressure.
-
-**Q3**: What are the key grips needed for Reverse X-Guard Entry and why is the pants grip non-negotiable?
-**A**: The essential grips are a pants grip on opponent's near-side ankle or cuff with your same-side hand, and a secondary grip on their sleeve, collar, or belt with your other hand. The pants grip is non-negotiable because it prevents the opponent from stepping away during the threading phase. Without it, they simply disengage and you are left inverted without control, which is an extremely vulnerable position.
-
-**Q4**: When is the optimal timing window to attempt Reverse X-Guard Entry?
-**A**: The optimal timing is when opponent maintains upright posture from inverted guard top position rather than applying stack pressure. Specifically, look for moments when their weight shifts slightly forward or when they are reaching for grips with their hands, which momentarily compromises their base and creates space beneath their hips for threading your leg through.
-
-**Q5**: Your opponent recognizes your entry and posts their hand on your hip to block threading. How do you respond?
-**A**: Attack their posting hand with a two-on-one grip using both hands to strip and redirect the obstruction, creating the window for your leg to thread beneath their hips. Alternatively, use the posting hand as a pivot point - their commitment to blocking one pathway often opens another, such as a berimbolo entry on the opposite side or a direct back take via Kiss of the Dragon.
-
-**Q6**: What is the critical difference between where the crossing hook must land versus where it commonly ends up as an error?
-**A**: The crossing hook must travel completely past opponent's centerline to land on their far hip or behind their far thigh. The common error is threading too shallow and hooking the near hip instead. The far hip placement creates true mechanical control and prevents easy clearing, while the near hip placement provides minimal leverage and is easily defeated by a simple step.
-
-**Q7**: Your opponent begins applying stack pressure as you start threading your leg. What immediate adjustment do you make?
-**A**: Abandon the Reverse X-Guard Entry attempt and execute a granby roll to the opposite side of their pressure. Use their forward driving momentum to assist your rotation rather than fighting against the stack. This converts their offensive pressure into your escape mechanism and allows you to recover to De La Riva, seated guard, or attempt a berimbolo on the other side.
-
-**Q8**: How does the direction of force differ between Reverse X-Guard sweeps and standard X-Guard sweeps?
-**A**: In standard X-Guard, you typically sweep by extending your legs and pushing opponent backward or lifting them overhead. In Reverse X-Guard, because you face away from them, your sweeps work by pulling their base out from under them - extending creates a downward pressure on their near leg while your hooks disrupt their far-side base, toppling them sideways or forward over your body rather than backward.
-
-**Q9**: What chain attacks should you prepare if opponent successfully defends your Reverse X-Guard Entry by stepping their far leg back?
-**A**: When opponent steps their far leg back, immediately redirect to Single Leg X-Guard on their near leg that remains in range, or use the momentum of their retreat to come up to a technical standup. If you maintain the pants grip during their backstep, you can also follow their motion into a standard X-Guard entry on the retreating leg or convert to a leg drag position as you come up.
-
-**Q10**: Why must you maintain shoulder blade contact with the mat throughout the entry?
-**A**: The shoulder blades serve as fixed anchor points that create rotational stability during the hip movement. If your shoulders rise, you lose the mechanical base needed to generate threading force and become susceptible to being pushed or pulled off-balance. The anchored shoulders also protect your neck from compression and maintain the structural integrity needed for the transition.
-
-**Q11**: You have established the crossing hook but your inside hook keeps slipping before you can consolidate. What is the mechanical cause and correction?
-**A**: The most common cause is that your hips are not sufficiently elevated, allowing your inside leg to approach at a flat angle rather than hooking upward behind the opponent's knee. The correction is to drive your hips higher by pressing through your shoulders before inserting the inside hook, creating the upward angle needed for the hook to catch behind the knee. Also verify your crossing hook is locked deep enough to anchor your hip position while you set the second hook.
-
-**Q12**: How do you differentiate in the moment between an opponent you should attempt this entry against versus one you should not?
-**A**: Attempt the entry against opponents who are standing relatively upright, reaching for grips, or shifting weight laterally - these all create space beneath their hips. Do not attempt against opponents who are already driving forward with stack pressure, have established strong grips on both your legs, or are actively circling to pass. The key diagnostic is whether you can feel space beneath their hips when you elevate yours. If their weight immediately compresses you, the entry pathway is closed.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse X-Guard Entry?</p>
 
 Reverse X-Guard Entry requires significant hip and spine mobility. Practitioners should develop adequate flexibility before attempting this technique in live training. The inverted position places some stress on the cervical spine - always maintain shoulder blade contact with the mat and avoid allowing weight to compress your neck. If opponent applies stack pressure during the entry attempt, immediately abandon and granby roll to prevent neck injury. When drilling, partners should apply graduated resistance and communicate clearly about pressure levels. Practitioners with existing neck or lower back issues should consult with a medical professional and their instructor before incorporating inverted techniques into their game.
 

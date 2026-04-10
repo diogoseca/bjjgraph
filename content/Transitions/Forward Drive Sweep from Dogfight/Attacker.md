@@ -194,6 +194,8 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Forward Drive Sweep from Dogfight?</p>
+
 - Drive with your entire body through the underhook, not just your arm - the power comes from your posting leg and core, channeled through the underhook contact point
 - Control the opponent's far-side posting option before initiating the drive to eliminate their primary base recovery mechanism
 - Angle the drive slightly toward the opponent's trapped-leg side where the half guard hook creates a structural weakness in their base
@@ -209,6 +211,8 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Forward Drive Sweep from Dogfight?</p>
+
 - Deep underhook established with arm reaching to opponent's far shoulder or lat, not merely to their near hip
 - Head positioned tight against opponent's chest on the underhook side, below their chin level
 - Outside posting leg positioned behind you with knee and ball of foot on the mat, ready to generate explosive forward drive
@@ -221,6 +225,8 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Forward Drive Sweep from Dogfight step by step?</p>
 
 1. **Secure deep underhook**: From Dogfight, ensure your underhook reaches deep around the opponent's torso to their far shoulder or lat. A shallow underhook to the near hip provides insufficient leverage and is easily stripped by the whizzer. Drive your shoulder into their armpit to deepen the grip.
 2. **Position head as driving wedge**: Press your head tight against the opponent's chest on the underhook side, keeping it below their chin level. Your head acts as an additional pressure point and prevents the opponent from establishing a crossface that would redirect your driving force away from the sweep angle.
@@ -251,6 +257,8 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Forward Drive Sweep from Dogfight?</p>
+
 - **Opponent sprawls hips back and drops weight to resist forward drive** (Effectiveness: High) - Your Response: If the sprawl stalls your drive, immediately redirect to a Dogfight Sweep by changing the direction of your sweep angle laterally, or duck under into Deep Half Guard entry using their forward-sprawl momentum against them. → Leads to [[Positions/Dogfight Position]]
 - **Opponent crossfaces with free hand and drives you backward to flatten your posture** (Effectiveness: High) - Your Response: Absorb the crossface by tucking your chin and maintaining underhook depth. If you cannot maintain upright posture, flow into Deep Half Guard entry by dropping your level beneath the crossface pressure rather than fighting it head-on. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent posts far leg wide and sprawls laterally to create base against the drive** (Effectiveness: Medium) - Your Response: Their wide post exposes them to the Dogfight Sweep targeting the now-extended far leg, or creates back exposure for a back take as their hips open. Immediately chain to whichever secondary attack the wide post creates. → Leads to [[Positions/Dogfight Position]]
@@ -262,6 +270,8 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Forward Drive Sweep from Dogfight?</p>
 
 ### 1. Driving straight forward instead of at a diagonal angle toward the trapped-leg side
 
@@ -306,6 +316,8 @@ The Forward Drive Sweep is your primary direct offensive weapon from Dogfight. A
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Forward Drive Sweep from Dogfight (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic movement pattern and body coordination
 Practice the forward drive sweep with a fully compliant partner. Focus on deep underhook placement, head positioning, far-side hip control, and the diagonal drive angle. Perform 20 repetitions per side, emphasizing correct body alignment and drive direction without resistance.
 
@@ -326,42 +338,12 @@ Integrate the forward drive sweep into full rolling sessions starting from half 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the forward drive sweep from Dogfight?
-**A**: The optimal timing window occurs when the opponent's weight shifts backward onto their heels, when they momentarily relax their whizzer pressure, or when they redirect their defensive attention to another threat. Reading these weight shifts through your underhook is essential - you should feel the opponent lighten against your forward pressure. Attempting the drive when the opponent is actively driving forward into you is counterproductive and wastes energy.
-
-**Q2**: What grip control must be established on the opponent's far side before committing to the forward drive?
-**A**: You must control the opponent's far hip, belt line, or far knee with your free hand before committing to the drive. This grip eliminates their primary base recovery option - the far leg post. Without this control, the opponent can simply step their far leg backward or laterally to create an unbreakable tripod base. The grip should be firm enough to prevent posting but positioned to allow you to maintain your own balance during the drive.
-
-**Q3**: Why must the drive angle be diagonal rather than straight forward?
-**A**: The diagonal drive angle toward the opponent's trapped-leg side exploits the structural weakness created by your half guard hook. The opponent cannot step back on the side where your hook controls their leg, so driving toward that side removes their retreat option. A straight-forward drive allows the opponent to step their far leg directly back to absorb the pressure, creating a stable base that negates the sweep entirely regardless of how much force you generate.
-
-**Q4**: Your opponent establishes a deep whizzer and begins sprawling their hips back as you initiate the forward drive - how do you adjust?
-**A**: When the opponent sprawls against your forward drive, their defensive posture creates opportunities for chain attacks. Immediately assess whether to redirect into a Dogfight Sweep by changing your sweep angle laterally to attack their now-extended base, or duck under into a Deep Half Guard entry using their sprawl momentum to slide beneath them. The key is recognizing within one second that the forward drive has stalled and committing to the redirect rather than continuing to push against a sprawled opponent.
-
-**Q5**: What is the critical role of head positioning during the forward drive sweep execution?
-**A**: Your head serves as an additional driving pressure point and a defensive shield against the crossface. Positioned tight against the opponent's chest below their chin, the head creates a wedge that amplifies your forward pressure by adding another contact point beyond just the underhook. If your head is too high, the opponent can crossface beneath it and redirect your driving force sideways. If your head is too far from their body, you lose the pressure amplification and create space for defensive adjustments.
-
-**Q6**: Your forward drive attempt stalls because the opponent posts their far leg wide - what chain attack do you transition to?
-**A**: The opponent's wide far leg post opens two primary chain attacks. First, the Dogfight Sweep becomes available because their extended far leg is now vulnerable to being controlled and swept. Second, the wide post opens their hip angle, potentially exposing their back for a back take transition. Read which option is more available based on their upper body positioning - if their whizzer stays tight, attack the far leg with the Dogfight Sweep; if their whizzer loosens to maintain base, circle behind for the back take.
-
-**Q7**: How do you maintain your half guard hook during the forward drive to prevent the opponent from stepping over?
-**A**: Maintain active tension in your half guard hook by squeezing your knees together throughout the drive execution. The hook should control the opponent's inside leg at the knee or above, not at the ankle where it slips easily. If you feel the hook loosening during the drive, momentarily pause the forward pressure to re-secure by pinching your knees tighter before continuing. Losing the hook during the drive eliminates the structural base weakness that makes the diagonal angle effective.
-
-**Q8**: What determines whether the forward drive results in mount versus side control upon completion?
-**A**: The direction of your drive and your hip positioning during the follow-through determine the final position. A drive angled toward the opponent's centerline with your hips crossing over their torso during the topple results in mount. A drive angled too far laterally, or delayed hip crossing during the transition, typically results in side control or a scramble. To ensure mount, keep your hips directly over the opponent's torso as they fall and clear your inside leg early to settle into mount before they can establish defensive frames.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Forward Drive Sweep from Dogfight?</p>
 
 The Forward Drive Sweep is generally low-risk with minimal injury potential compared to submissions or inversions. Primary safety concerns involve controlled landing when sweeping to prevent knee or shoulder impact injuries on the mat. Partners should practice breakfalls and communicate during live drilling to avoid unexpected impacts. Avoid explosive forward drives on partners who are bracing with locked arms, as sudden collapse could strain their wrists or shoulders. Train the sweep at controlled speed before adding competition-level intensity.
 

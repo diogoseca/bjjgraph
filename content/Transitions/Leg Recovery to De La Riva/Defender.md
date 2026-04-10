@@ -164,6 +164,8 @@ The critical defensive window for you is the moment between their leg extraction
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Recovery to De La Riva?</p>
+
 - Opponent begins hip escaping away from you while maintaining frames on your shoulder or bicep
 - Opponent's free leg actively pushes against your hip or hooks behind your knee to create space
 - Opponent's trapped leg knee starts driving upward toward their chest in a circular arc rather than remaining flat
@@ -175,6 +177,8 @@ The critical defensive window for you is the moment between their leg extraction
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Recovery to De La Riva?</p>
 
 - Maintain constant forward hip pressure to deny the space needed for leg extraction
 - Control the upper body with crossface or shoulder pressure to prevent the hip escape that creates extraction angle
@@ -188,6 +192,8 @@ The critical defensive window for you is the moment between their leg extraction
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Recovery to De La Riva?</p>
 
 ### 1. Drive forward hip pressure and re-settle weight before extraction completes
 
@@ -225,6 +231,8 @@ The critical defensive window for you is the moment between their leg extraction
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Recovery to De La Riva?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Maintain constant forward hip pressure and crossface control to deny the space and angle needed for extraction. When you feel their free leg pushing, drive your weight lower and tighter. If their leg partially clears, immediately re-drag it by gripping the ankle and pulling it back across their body before the DLR hook is inserted.
@@ -240,6 +248,8 @@ When you recognize their recovery attempt is gaining traction and the leg drag i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Recovery to De La Riva?</p>
 
 ### 1. Passively holding leg drag without advancing when opponent begins recovery attempts
 
@@ -269,6 +279,8 @@ When you recognize their recovery attempt is gaining traction and the leg drag i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Recovery to De La Riva?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 Partner attempts slow-speed leg extraction from leg drag bottom. Practice recognizing the hip escape and free leg push cues, then respond by driving forward hip pressure and re-settling weight. No counter-attacks yet, just maintaining position against progressive extraction attempts.
 
@@ -285,29 +297,6 @@ Full resistance guard passing rounds where you establish leg drag and partner us
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting Leg Recovery to De La Riva?
-**A**: The earliest cue is feeling them hip escape away from you while simultaneously establishing a frame on your shoulder or bicep. This hip escape is the prerequisite for their leg extraction—without it, the leg cannot travel in the circular arc needed to clear your control. Feeling this movement should trigger immediate forward pressure or advancement.
-
-**Q2**: Why is hip-level weight distribution more effective than chest-level pressure at preventing leg extraction?
-**A**: Hip-level weight pins their pelvis to the mat, which directly prevents the hip escape that creates the angle needed for extraction. Chest-level pressure may feel heavy but leaves their hips mobile—they can shrimp away and create the arc path for their trapped leg. The extraction requires hip movement first, so controlling their hips addresses the root cause rather than a symptom.
-
-**Q3**: Your opponent has partially freed their leg but the DLR hook is not yet established—what is the highest-percentage response?
-**A**: Immediately re-drag their leg by gripping the ankle or knee and pulling it back across their body before the hook lands behind your knee. This window between extraction and hook insertion is typically under one second, so you must react instantly. If you are too slow for the re-drag, accelerate to side control consolidation rather than fighting a half-established DLR guard.
-
-**Q4**: When should you abandon maintaining leg drag and accelerate to side control instead?
-**A**: Abandon the leg drag when you feel the opponent has created significant angle through hip escape and their free leg is actively pushing your hip away. At this point, fighting to maintain the drag is a losing battle. Instead, use their movement as an opportunity to drive your crossface through and slide past their recovering legs into side control. A consolidated side control is far better than a contested leg drag.
-
-**Q5**: How do you shut down the opponent's free leg from creating space during their recovery attempt?
-**A**: Use your free hand to control or redirect their pushing leg—either grip their knee and pin it to the mat, or use your forearm to deflect the push laterally rather than letting it connect with your hip. Alternatively, drive your hip forward into their push to neutralize the space creation through pressure rather than grip. The free leg is their primary tool for space creation, so addressing it early shuts down the entire extraction sequence.
-
-
-
-</section>
 
 
 </main>

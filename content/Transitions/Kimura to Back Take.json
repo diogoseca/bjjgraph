@@ -11,7 +11,7 @@
     "submission-to-position",
     "positional-advancement"
   ],
-  "from_position": "Kimura Trap/Top",
+  "from_position": "Kimura Trap/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -51,12 +51,12 @@
       "relationship": "Submission threat that creates defensive reaction enabling transition"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Common entry point - primary context for initiating transition"
+      "name": "North-South",
+      "relationship": "Alternative position context where Kimura grip can be established before transitioning to back take"
     },
     {
-      "name": "Kimura from Turtle",
-      "relationship": "Alternative entry - variation from top turtle position"
+      "name": "Turtle",
+      "relationship": "Alternative entry position - Kimura grip established against turtled opponent enables direct back take"
     },
     {
       "name": "Rear Naked Choke",
@@ -67,8 +67,8 @@
       "relationship": "Follow-up position - control system established after transition"
     },
     {
-      "name": "Armbar from Back",
-      "relationship": "Alternative finish - submission option from achieved back position"
+      "name": "Armbar from Back Transition",
+      "relationship": "Alternative finish - submission option from achieved back control position"
     },
     {
       "name": "Back Take",

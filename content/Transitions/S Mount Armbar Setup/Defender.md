@@ -93,6 +93,14 @@ description: "Defend the S Mount Armbar Setup in BJJ. Recognition cues, escape t
         "@type": "Answer",
         "text": "Tap immediately if your arm reaches full extension with the attacker's hips tight against your shoulder and their legs controlling your upper body. At that point, the armbar is mechanically complete and further resistance risks serious elbow ligament damage. Also tap if you feel any sharp pain or popping sensation in the elbow joint. Training safety always takes absolute priority over positional survival."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "How should you prioritize your free arm's defensive functions during the setup?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The free arm serves three defensive functions in priority order: first, reinforce the collar grip on the trapped arm if it is weakening under the attacker's grip-breaking attempts; second, frame against the attacker's hip to resist the fall-back transition and maintain defensive distance; third, control the attacker's leg over your head to prevent full step-over completion. Avoid using the free arm to push randomly or reach across your body, which can expose it to a second arm attack or mounted triangle entry."
+      }
     }
   ]
 }
@@ -162,6 +170,8 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting S Mount Armbar Setup?</p>
+
 - Attacker shifts to two-on-one grip on your wrist, abandoning chest or posting control
 - Attacker's hips scoot tighter against your shoulder with increased grinding pressure on the joint
 - Attacker's knees squeeze together compressing your trapped arm between their thighs
@@ -174,6 +184,8 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending S Mount Armbar Setup?</p>
 
 - Never allow the trapped arm to straighten - maintain bent elbow with hand gripping own collar at all times
 - Time defensive actions during the attacker's transition window when their weight shifts backward
@@ -189,6 +201,8 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against S Mount Armbar Setup?</p>
 
 ### 1. Bend trapped arm and grip own collar or lapel tightly to prevent extension
 
@@ -226,6 +240,8 @@ Defending the S Mount Armbar Setup requires recognizing the transition from posi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending S Mount Armbar Setup?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge and hip escape to coincide with the attacker's fall-back transition when their stability is reduced. Maintain arm protection throughout the escape and immediately recover guard position once space is created.
@@ -241,6 +257,8 @@ Establish and maintain a collar grip on the trapped arm that the attacker cannot
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending S Mount Armbar Setup?</p>
 
 ### 1. Straightening the trapped arm in an attempt to pull it free during the setup
 
@@ -270,6 +288,8 @@ Establish and maintain a collar grip on the trapped arm that the attacker cannot
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against S Mount Armbar Setup?</p>
+
 **Phase 1: Recognition Drilling** - Identifying setup initiation cues at reduced speed
 Partner performs the S Mount Armbar Setup at 25% speed while you identify each recognition cue verbally: grip change, hip adjustment, knee pinch, weight shift. Build awareness of the setup sequence before adding physical defensive responses.
 
@@ -286,29 +306,6 @@ Incorporate S Mount Armbar Setup defense into regular positional sparring from m
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the S Mount Armbar Setup?
-**A**: The earliest cue is when the attacker shifts from single-hand or positional control to a deliberate two-on-one grip on your wrist. This grip change signals commitment to the arm attack rather than general S Mount maintenance. The moment you feel both hands securing your wrist, immediately reinforce your collar grip and prepare your free hand for defensive framing.
-
-**Q2**: Why is the transition window the optimal moment for defensive action rather than after armbar control?
-**A**: During the transition from S Mount to armbar control, the attacker must shift weight backward and change body position. This creates a brief moment of reduced stability where pressure on your shoulder decreases and their leg positions are adjusting. Once all five armbar control points are locked in, escape becomes exponentially more difficult because every defensive avenue is simultaneously blocked.
-
-**Q3**: Your opponent has secured a two-on-one grip and begins leaning back - what escape sequence gives the best chance?
-**A**: First, reinforce your collar grip to prevent arm extension. Second, bridge explosively toward the attacker's legs to disrupt their base during the fall-back. Third, hip escape in the same direction to create lateral space. Fourth, use your free hand to push their leg off your head. Fifth, extract your arm and immediately recover to half guard. This sequence must execute as one fluid motion during the transition window.
-
-**Q4**: How should you manage energy when trapped in S Mount with the armbar setup imminent?
-**A**: Use structural defense rather than muscular resistance. Maintain your collar grip through hand and forearm positioning rather than bicep strength. Breathe steadily to prevent panic-induced energy depletion. Conserve explosive effort for one well-timed escape attempt during the transition window rather than multiple desperate movements that exhaust you without creating meaningful positional change.
-
-**Q5**: When should you tap rather than continue defending the S Mount Armbar Setup?
-**A**: Tap immediately if your arm reaches full extension with the attacker's hips tight against your shoulder and their legs controlling your upper body. At that point, the armbar is mechanically complete and further resistance risks serious elbow ligament damage. Also tap if you feel any sharp pain or popping sensation in the elbow joint. Training safety always takes absolute priority over positional survival.
-
-
-
-</section>
 
 
 </main>

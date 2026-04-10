@@ -219,7 +219,7 @@ The mat return from rear clinch serves as the critical link between the standing
 
 - [[Transitions/Counter Throw from Standing Rear Clinch]] - Counter technique the defender may employ during mat return attempt
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat available immediately after successful mat return to back control
+- [[Submissions/Rear Naked Choke]] - Primary submission threat available immediately after successful mat return to back control
 
 - [[Transitions/Back Take]] - Alternative method for establishing back control from various positions
 

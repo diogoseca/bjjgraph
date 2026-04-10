@@ -165,6 +165,8 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ## Position Definition
 
+<p class="section-subtitle">What is Spider Guard (Top)?</p>
+
 - Top player standing or on knees facing bottom player who has established Spider Guard with at least one sleeve grip and corresponding foot placement on bicep or hip
 - Bottom player on their back or seated with hips elevated off mat using foot pressure on top player's arms or torso to create distance and control posture
 - Top player maintaining upright posture while managing sleeve grips and foot pressure from bottom player, seeking to break grips and establish passing grips
@@ -176,6 +178,8 @@ Spider Guard Top is the position where the top player is standing or on their kn
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Spider Guard (Top)?</p>
 
 - Bottom player has established at least one Spider Guard hook with corresponding sleeve grip
 - Top player is in standing or combat base position facing the guard
@@ -189,6 +193,8 @@ Spider Guard Top is the position where the top player is standing or on their kn
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Spider Guard?</p>
 
 - Maintain strong upright posture to prevent being broken down or swept forward
 - Systematically break grips before attempting to pass, never force passes with grips intact
@@ -204,6 +210,8 @@ Spider Guard Top is the position where the top player is standing or on their kn
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Spider Guard (Top)?</p>
 
 **If bottom player has double sleeve grips with both feet on biceps in classic Spider Guard:**
 - Execute **[[Transitions/Grip Break/Attacker|Grip Break]]** → [[Positions/Combat Base]] (Probability: 60%)
@@ -238,6 +246,8 @@ Spider Guard Top is the position where the top player is standing or on their kn
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Spider Guard?</p>
 
 ### 1. Attempting to pass with sleeve grips still intact, allowing bottom player to maintain full distance control
 
@@ -282,6 +292,8 @@ Spider Guard Top is the position where the top player is standing or on their kn
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Spider Guard attacks?</p>
+
 ### Systematic Grip Breaking Drill
 
 Partner establishes Spider Guard with double sleeve grips and bicep hooks. Top player practices systematic grip breaking techniques including the thumb strip, two-hands-on-one break, and posture-based breaks. Rotate through all grip break variations. Bottom player maintains moderate resistance but allows successful breaks. Focus on technique and efficiency rather than strength.
@@ -314,38 +326,6 @@ Bottom player starts in Spider Guard and attempts to transition one hook to lass
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent establishes Spider Guard with both feet on your biceps and strong sleeve grips - what is your first priority before attempting to pass?
-**A**: Your first priority must be systematically breaking the sleeve grips before attempting any passing sequence. With grips intact, any forward movement plays into the Spider Guard player's strength by loading their sweeping mechanisms. Use the thumb strip or two-hands-on-one break while maintaining upright posture. Only after breaking at least one grip should you initiate passing sequences.
-
-**Q2**: What base and stance fundamentals should you maintain when facing Spider Guard?
-**A**: Maintain a wide stance with feet outside the opponent's hips and weight distributed evenly between both legs. Keep knees slightly bent for mobility and your back straight with shoulders over hips to maintain strong posture. This base prevents the most common sweeps which rely on compromising your balance by catching you with weight committed to one side or with a narrow base.
-
-**Q3**: How do you recognize when the bottom player is transitioning from Spider Guard to Lasso Guard, and what should you do immediately?
-**A**: The transition signal is when one foot begins threading under your arm toward your shoulder rather than pushing against your bicep. You must act immediately during this transition window before the lasso is secured deeply. Either strip the sleeve grip on that side and step back, or circle toward the lasso side and begin a backstep passing sequence before the lasso is fully established.
-
-**Q4**: Why should you avoid using your arms to push against the foot pressure on your biceps?
-**A**: Using your arms to fight foot pressure creates rapid arm fatigue while the bottom player maintains control with minimal energy expenditure using their stronger leg muscles. This is an energy battle you cannot win. Instead, use posture, distance management, and systematic grip breaks to neutralize the Spider Guard. Step back to reduce foot pressure effectiveness rather than muscling through it.
-
-**Q5**: After successfully breaking your opponent's grips, what must you do immediately to prevent guard re-establishment?
-**A**: Immediately control the opponent's pants at the knees or ankles and drive forward pressure to flatten their guard structure before they can re-establish grips. Simply breaking grips and pausing allows immediate Spider Guard recovery. The moment grips break, you must establish your own dominant grips and begin your passing sequence to capitalize on the positional advantage you've created.
-
-**Q6**: Your opponent has single-side Spider Guard with their other hand on your collar - what passing opportunity does this create?
-**A**: Single-side Spider Guard with collar grip creates an opening for knee slice or long step passing sequences on the uncontrolled side. The collar grip controls posture but doesn't control the passing lane on the side without the bicep hook. Address the collar grip with posture or strip it, then immediately attack with knee slice, cutting toward the side that has no Spider Guard hook defending it.
-
-**Q7**: When the bottom player releases foot pressure to attack with a triangle or omoplata entry, how should you respond?
-**A**: The moment they release foot pressure for a submission entry, you have a window to either stack pass by driving your weight forward and stacking them on their shoulders, or execute a leg drag pass by controlling the attacking leg and dragging it across their body. Their commitment to the submission attempt temporarily removes their distance control, creating a passing opportunity if you recognize it immediately.
-
-**Q8**: How do you manage energy expenditure when facing a skilled Spider Guard player in a long match?
-**A**: Prioritize posture and distance over constant forward pressure. Step back when necessary to reset rather than fighting through strong grips. Use efficient grip-breaking mechanics rather than strength-based breaks. Wait for transition moments when they're moving between positions or switching grips to launch your passing attacks. Avoid prolonged static grip battles which favor the guard player's energy conservation.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

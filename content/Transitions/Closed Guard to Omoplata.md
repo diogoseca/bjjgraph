@@ -215,13 +215,13 @@ The omoplata transition is a cornerstone technique in modern guard systems, inte
 
 - [[Transitions/Omoplata to Back]] - Follow-up when opponent rolls forward to escape
 
-- [[Submissions/Armbar from Guard]] - Alternative submission - similar arm isolation mechanics
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Alternative submission from guard - similar arm isolation mechanics
 
 - [[Positions/Back Control]] - Common follow-up position when opponent escapes forward
 
 - [[Transitions/Hip Bump Sweep]] - Alternative attack from same starting position
 
-- [[Submissions/Kimura from Guard]] - Alternative shoulder attack from guard
+- [[Transitions/Kimura Sweep]] - Alternative shoulder attack and sweep from guard
 
 
 </section>

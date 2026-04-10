@@ -194,6 +194,8 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Carni to Gogoplata Setup?</p>
+
 - Recognize opponent's forward stack pressure as the primary trigger that creates the transition opportunity
 - Maintain bottom leg entanglement as an anchor throughout the transition to prevent opponent disengagement
 - Thread the shin with hip rotation and flexibility rather than muscling the leg into position
@@ -208,6 +210,8 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Carni to Gogoplata Setup?</p>
+
 - Established Carni control with inside leg hook over opponent's hip and heel/ankle grips secured
 - Opponent committing to forward stack pressure that brings their neck within threading range
 - Sufficient hip external rotation and hamstring flexibility to achieve leg-behind-head positioning under load
@@ -220,6 +224,8 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Carni to Gogoplata Setup step by step?</p>
 
 1. **Establish Carni Control**: Secure inside leg positioning with your top leg hooking over the opponent's hip while both hands control their heel and ankle. Confirm the entanglement is stable and that your bottom leg maintains solid figure-four or ashi garami configuration before considering any transition attempt.
 2. **Read Forward Pressure Trigger**: Monitor your opponent's defensive response to the Carni position. The transition becomes viable when they commit to forward stack pressure, driving their weight toward you to neutralize the leg entanglement. Their forward lean brings their neck within threading range of your legs and signals the transition window.
@@ -250,6 +256,8 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Carni to Gogoplata Setup?</p>
+
 - **Opponent postures up immediately upon feeling top leg release, creating distance before shin reaches throat** (Effectiveness: High) - Your Response: If posture recovery is too fast, retract the threading leg and re-establish Carni inside hook to maintain entanglement control rather than chasing a failed gogoplata → Leads to [[Positions/Rubber Guard/Carni]]
 - **Opponent grabs the threading leg with both hands to block shin from reaching the throat** (Effectiveness: Medium) - Your Response: Use your free hand to strip their grip on the threading leg while bottom leg maintains entanglement anchor, or redirect to triangle setup using the elevated leg position → Leads to [[Positions/Rubber Guard/Carni]]
 - **Opponent turns head away and drives laterally to escape both the entanglement and the threading attempt** (Effectiveness: Medium) - Your Response: Follow their lateral movement with hip adjustment and consider transitioning to back take if their turning exposes the back, or settle for open guard reset → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Carni to Gogoplata Setup?</p>
 
 ### 1. Attempting the transition without sufficient hip flexibility for leg-behind-head positioning
 
@@ -300,6 +310,8 @@ Executing the Carni to Gogoplata Setup requires recognizing the precise moment w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Carni to Gogoplata Setup (Attacker)?</p>
+
 **Phase 1: Flexibility Development** - Hip mobility and hamstring flexibility prerequisites
 Develop the physical attributes required for the transition through dedicated flexibility work. Target hip external rotation, hamstring mobility, and leg-behind-head positioning. Use rubber guard progressions (Mission Control, then Chill Dog) as benchmarks. Minimum 4-6 weeks of daily stretching before attempting the technique with a partner.
 
@@ -320,45 +332,12 @@ Attempt the transition during positional sparring starting from Carni position. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals the opportunity to attempt the Carni to Gogoplata transition?
-**A**: The primary trigger is the opponent driving forward with stack pressure to escape the Carni entanglement. This forward drive brings their neck and upper body into range of your legs, creating the space and angle necessary to thread your shin across their throat. Without this forward pressure, the threading distance is too great and the attempt becomes telegraphed and easily defended.
-
-**Q2**: Which leg do you release from the Carni entanglement to thread across the opponent's throat?
-**A**: Release the top leg, the one hooking over the opponent's hip that provides inside positioning. This leg is already closest to the upper body and has the shortest path to the throat. The bottom leg maintains the remaining entanglement control as an anchor to prevent the opponent from simply backing away during the critical transition window.
-
-**Q3**: What happens if you release both legs from the Carni before establishing shin contact on the throat?
-**A**: Releasing both legs simultaneously eliminates all control over the opponent, allowing them to posture up, pull away, or pass your guard entirely. You must maintain at least one control point throughout the transition. The bottom leg stays engaged with the opponent's lower body until the shin is established across the throat and the foot is secured behind the head.
-
-**Q4**: Your opponent grabs your threading leg as it approaches their neck - how do you adjust?
-**A**: Use your free hand to strip their grip while continuing the threading motion with hip rotation. If the grip cannot be broken quickly, abandon the gogoplata and use the elevated leg position to transition to a triangle setup by switching leg configuration, or return the leg to Carni inside hook position. Never force the shin past their grip as this creates poor angle and reduces finishing potential.
-
-**Q5**: What minimum flexibility benchmark indicates readiness for this transition?
-**A**: You should be able to comfortably maintain Mission Control position in rubber guard for at least thirty seconds without strain. This demonstrates the hip external rotation, hamstring flexibility, and leg-behind-head capability required for the gogoplata. If Mission Control is not sustainable, the Carni to Gogoplata transition will be unreliable under resistance and risks injury to your own hip or hamstring.
-
-**Q6**: How do you maintain control over the opponent while transitioning from leg entanglement to throat control?
-**A**: Maintain bottom leg engagement with the opponent's lower body throughout the transition. This leg acts as an anchor preventing the opponent from backing away. Simultaneously, shift one hand from heel control to the opponent's head or collar to pull them forward into the threading shin. The combination of lower body anchor and upper body pull maintains continuous pressure throughout the positional change.
-
-**Q7**: What is the correct hip elevation angle after establishing the gogoplata from Carni?
-**A**: Your pelvis should be elevated higher than your shoulders to create a perpendicular shin angle across the trachea. This elevation is achieved through core engagement and posting on your upper back and shoulders. Without sufficient hip elevation, the shin sits parallel to the throat rather than across it, eliminating compression and making the position easily escaped by simple head movement.
-
-**Q8**: If the gogoplata control fails to fully lock, what are your immediate chain attack options?
-**A**: If the gogoplata does not fully lock, you can transition to a triangle by switching your leg configuration using the threading leg as the locking leg, move to an omoplata if the opponent turns their shoulder toward you during escape, or disengage both legs and recover to open guard to reset. Recognize quickly whether the control will lock and have predetermined chain reactions rather than forcing a position that is not there.
-
-**Q9**: What grip sequence should you execute during the transition from Carni to gogoplata?
-**A**: Begin with both hands controlling the opponent's heel and ankle in Carni. As you release the top leg, shift one hand to control the opponent's head or collar to maintain forward pressure and prevent posturing. Once the shin crosses the throat, both hands shift to pull your own foot behind the opponent's head. Finally, one hand maintains foot position behind the head while the other controls posture or adds compression pressure for the finish.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Carni to Gogoplata Setup?</p>
 
 The Carni to Gogoplata Setup involves shin-across-throat pressure that can restrict breathing and blood flow to the brain. Always practice with controlled intensity and establish clear tap protocols before drilling. The transition requires significant hip flexibility - never force the leg-behind-head position as this risks hip labrum tears, hamstring strains, or groin injuries. Partners should communicate immediately if they feel neck compression or difficulty breathing. Begin all training at slow speed with cooperative partners before progressing to resistance. Practitioners with knee, hip, or neck injuries should avoid this technique until fully recovered. The attacker must also protect their own flexibility by warming up thoroughly before attempting the threading motion under load.
 

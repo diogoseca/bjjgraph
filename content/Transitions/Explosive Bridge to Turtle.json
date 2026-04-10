@@ -53,7 +53,7 @@
       "relationship": "Component technique - arm extraction is critical element of this escape sequence"
     },
     {
-      "name": "Guard Recovery",
+      "name": "Rolling to Guard",
       "relationship": "Follow-up option - can transition from turtle to guard after successful escape"
     },
     {

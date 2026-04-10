@@ -214,7 +214,7 @@ The Heel Grab Sweep serves as a cornerstone technique within the Single Leg X Gu
 
 - [[Transitions/Outside Ashi Entry]] - Follow-up transition when opponent sits to counter the sweep
 
-- [[Submissions/Kneebar from Guard]] - Alternative submission finish from same position
+- [[Transitions/Kneebar]] - Alternative leg attack from same position targeting trapped leg
 
 - [[Transitions/Butterfly Sweep]] - Similar off-balancing mechanics using leg elevation
 

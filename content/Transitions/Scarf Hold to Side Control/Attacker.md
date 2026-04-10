@@ -182,6 +182,8 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Scarf Hold to Side Control?</p>
+
 - Never release existing control before establishing replacement control - overlap grip changes to maintain continuous pressure
 - Drive hip rotation with commitment rather than pausing in transitional angles where neither scarf hold nor side control mechanics apply
 - Establish crossface before completing the full rotation to prevent bottom player from turning into you during the transition
@@ -196,6 +198,8 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Scarf Hold to Side Control?</p>
+
 - Secure scarf hold with controlled head wrap and near arm trap established
 - Hips positioned low and heavy against opponent's ribcage with stable base
 - Bottom player's escape attempts currently managed without requiring full defensive commitment
@@ -207,6 +211,8 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Scarf Hold to Side Control step by step?</p>
 
 1. **Assess and stabilize current position**: Before initiating the transition, ensure your scarf hold is fully consolidated with tight head control, secure arm trap, and heavy hip pressure. Verify the bottom player is not mid-escape or actively bridging, as initiating the transition during their escape attempt creates compounding instability.
 2. **Initiate crossface establishment**: Begin sliding your far arm (currently wrapped around the head) from behind the opponent's head to across their face and jaw. Drive your forearm across their cheekbone and chin, establishing crossface pressure before releasing the head wrap completely. This creates overlapping head control during the transition.
@@ -235,6 +241,8 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Scarf Hold to Side Control?</p>
+
 - **Bottom player bridges explosively during grip change window to create scramble** (Effectiveness: High) - Your Response: If you feel the bridge coming, abandon the transition and re-consolidate scarf hold. Drive hips heavy and widen base to ride out the bridge before re-attempting the transition once they settle. → Leads to [[Positions/Side Control/Scarf Hold Position]]
 - **Bottom player inserts knee shield or frames during hip rotation to recover half guard** (Effectiveness: High) - Your Response: Drive your near knee across their thigh line before they complete the knee insertion. If the knee gets in, immediately apply pressure passing mechanics rather than trying to return to scarf hold. → Leads to [[Positions/Half Guard]]
 - **Bottom player turns into you during crossface transition to recover guard** (Effectiveness: Medium) - Your Response: Use the turning momentum to accelerate your own rotation into side control. Their turn actually helps complete the transition if you drive your crossface deeper and follow their movement with chest pressure. → Leads to [[Positions/Side Control/Scarf Hold Position]]
@@ -246,6 +254,8 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Scarf Hold to Side Control?</p>
 
 ### 1. Releasing head control before establishing crossface, creating a gap in head management
 
@@ -285,6 +295,8 @@ As the attacker executing Scarf Hold to Side Control, your primary objective is 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Scarf Hold to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Grip change sequencing and hip rotation path
 Practice the transition with a cooperative partner focusing exclusively on the grip-switching sequence. Drill the crossface establishment before head wrap release, the arm trap release to hip control switch, and the smooth hip rotation. Perform 20 repetitions per side with zero resistance, building muscle memory for the overlapping control principle.
 
@@ -302,42 +314,12 @@ Full resistance positional sparring starting from scarf hold. Practice using the
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical sequencing principle for grip changes during this transition?
-**A**: New control points must be established before old ones are released, creating overlapping control throughout the transition. Specifically, the crossface must be in place before the head wrap disengages, and hip control must replace the arm trap before it is fully released. This eliminates any gap in pressure that the bottom player could exploit for escape.
-
-**Q2**: Your bottom opponent begins bridging just as you initiate the crossface switch - how do you respond?
-**A**: Immediately abandon the transition attempt and re-consolidate scarf hold. Drive your hips heavy into their ribs, widen your base by extending your back leg, and ride out the bridge while maintaining your existing head wrap and arm trap. Only re-attempt the transition once the bridge subsides and the bottom player settles. Trying to complete the transition during an active bridge compounds instability and frequently results in losing position entirely.
-
-**Q3**: Why is it important to keep hips low during the rotation rather than lifting to create turning clearance?
-**A**: Lifting the hips creates space between your body and the opponent's torso that they immediately exploit by inserting a knee for half guard recovery or initiating hip escape sequences. The rotation should pivot around the chest connection point with hips sliding along the mat surface, maintaining constant pressure that denies the bottom player any space to work with during the transition.
-
-**Q4**: What is the optimal timing window for initiating this transition?
-**A**: The best window is when the bottom player has just finished an unsuccessful escape attempt and is resettling, or when they are passively defending without actively threatening bridges or turns. Avoid initiating during active escape sequences, immediately after they establish new frames, or when their hips are loaded for a bridge. The bottom player should be in a relatively static defensive posture for the transition to succeed at highest probability.
-
-**Q5**: What must your near hand do immediately after releasing the arm trap?
-**A**: The near hand must immediately secure the opponent's far hip to block knee insertion. This is the single most critical action in the entire transition because the arm trap release creates a brief window where the bottom player's hips are uncontrolled. Without immediate hip control, the bottom player inserts their knee between your bodies and recovers half guard, completely negating the transition. The hip block should be in place before the arm trap is fully disengaged.
-
-**Q6**: Your opponent grabs your far arm to prevent crossface establishment - what variant do you switch to?
-**A**: Switch to the underhook-first variant by diving your near arm under their far shoulder while maintaining head pressure through body positioning rather than arm control. This bypasses the grip fight on your far arm entirely and establishes side control using the underhook as primary upper body control. Complete the hip rotation while your near arm secures the underhook, then work to establish crossface after side control alignment is achieved.
-
-**Q7**: How does this transition fit into a broader offensive strategy from scarf hold?
-**A**: This transition serves as a tactical reset when scarf hold offense stalls or when the bottom player neutralizes primary submission threats. By flowing to side control, the top player accesses a broader submission network including americana, kimura, arm triangle, and north-south choke, plus advancement pathways to mount and knee on belly. The transition also functions as bait, as the bottom player's defensive reactions to the grip changes can expose submission opportunities in both scarf hold and the transitional phase.
-
-**Q8**: What is the difference between the crossface-first and quick-switch variants, and when do you choose each?
-**A**: The crossface-first variant prioritizes continuous head control by establishing the crossface before releasing the head wrap, making it ideal against active opponents who immediately exploit any gap in head control. The quick-switch variant simultaneously releases old grips and establishes new ones in a faster but riskier movement, suitable against passive opponents who are unlikely to exploit the brief control gap. Choose crossface-first against experienced or aggressive defenders, and quick-switch when speed of transition is more important than control continuity.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Scarf Hold to Side Control?</p>
 
 This transition is low-risk from an injury standpoint as it involves positional adjustment rather than joint manipulation or choking mechanics. The primary safety concern is maintaining controlled pressure during the rotation to avoid accidentally driving excessive weight into the bottom player's ribs or sternum during the hip rotation phase. Practitioners should communicate during drilling if chest compression becomes uncomfortable, and the top player should avoid slamming their weight down after completing the rotation. During live training, be aware that the bottom player may attempt explosive escapes during the grip change window, which can create collision risks if both players commit to rapid movement simultaneously.
 

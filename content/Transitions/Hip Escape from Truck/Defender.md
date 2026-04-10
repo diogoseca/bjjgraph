@@ -154,6 +154,8 @@ As the truck top player defending against the hip escape, your objective is to m
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape from Truck?</p>
+
 - Bottom player begins fighting your boot with their free hand, pushing your foot away from their hip or attempting to redirect the pressure angle
 - Bottom player establishes forearm frames against your chest or shoulder, creating separation in the upper body connection
 - Bottom player's hips begin lateral movement away from you through shrimping motion, with their free leg posting on the mat for drive
@@ -166,6 +168,8 @@ As the truck top player defending against the hip escape, your objective is to m
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape from Truck?</p>
 
 - Maintain constant boot pressure as the foundation of all truck control—boot pressure directly counteracts shrimping mechanics and must be your first priority
 - Follow the bottom player's hip escape movement with matching upper body pressure to prevent distance creation and maintain chest-to-back connection
@@ -180,6 +184,8 @@ As the truck top player defending against the hip escape, your objective is to m
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape from Truck?</p>
 
 ### 1. Increase boot pressure and drive hips forward to counteract shrimping
 
@@ -217,6 +223,8 @@ As the truck top player defending against the hip escape, your objective is to m
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape from Truck?</p>
+
 ### → [[Positions/Twister Control/Truck]]
 
 Maintain strong boot pressure throughout the escape attempt, follow the bottom player's hip movement with matching pressure, and tighten leg entanglement when you feel extraction attempts beginning. Use submission threats to interrupt systematic escape sequences.
@@ -232,6 +240,8 @@ Recognize when the truck position is becoming untenable and proactively transiti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape from Truck?</p>
 
 ### 1. Allowing boot pressure to decrease while focusing on upper body submissions
 
@@ -261,6 +271,8 @@ Recognize when the truck position is becoming untenable and proactively transiti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape from Truck?</p>
+
 **Phase 1: Control Maintenance Basics** - Maintaining truck position against cooperative escape attempts
 Bottom player performs the hip escape at slow speed with minimal force. Top player practices maintaining boot pressure, following hip movement, and tightening leg entanglement. Focus on developing sensitivity to movement cues and building automatic maintenance responses. 20+ repetitions per side.
 
@@ -277,26 +289,6 @@ Start in truck with both players at full resistance. Top player works to maintai
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a hip escape from truck?
-**A**: The earliest cue is the bottom player fighting your boot with their free hand, attempting to push your foot away from their hip or redirect the pressure angle. This hand fighting precedes the actual hip escape movement and indicates they are addressing the primary obstacle before initiating shrimping. Recognizing this allows you to increase boot pressure preemptively before they begin moving their hips.
-
-**Q2**: When should you transition from maintaining truck to establishing back control during an escape attempt?
-**A**: Transition to back control when the bottom player has created enough distance through hip escapes that your leg entanglement is loosening and their trapped leg shows active extraction movement. The decision point is when maintaining truck requires more energy and creates more risk than transitioning. If you feel their knee circling or ankle rotating within your entanglement, the truck is compromised and back control insertion should begin immediately.
-
-**Q3**: How do you use submission threats to disrupt the bottom player's systematic hip escape sequence?
-**A**: When you recognize the bottom player beginning their escape sequence, immediately threaten a submission that requires them to redirect their defensive attention. A twister grip attempt forces them to stop shrimping and protect their neck. A calf slicer pressure on the trapped leg forces them to abandon extraction and address the compression. These threats break the sequential nature of their escape, forcing them to restart from the defensive phase rather than progressing through their escape checklist.
-
-**Q4**: What is the most effective counter when the bottom player successfully creates distance with their first hip escape?
-**A**: Follow their movement immediately by driving your hips forward and re-establishing chest-to-back connection before they can execute a second hip escape. The bottom player's escape depends on cumulative distance from sequential shrimps, so closing the gap after the first movement resets their progress. Simultaneously increase boot pressure and tighten leg entanglement to make their second attempt more difficult than their first.
-
-
-
-</section>
 
 
 </main>

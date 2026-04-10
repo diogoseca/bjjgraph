@@ -39,7 +39,7 @@ The rotational finishing mechanic distinguishes the Clock Choke from static coll
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 58% |
+| Success | [[Transitions/Clock Choke]] | 58% |
 | Failure | [[Positions/Turtle]] | 30% |
 | Counter | [[Positions/Half Guard]] | 12% |
 
@@ -204,9 +204,9 @@ The Clock Choke is a cornerstone submission for the turtle attack system, workin
 
 - [[Positions/Front Headlock]] - Related control position with similar collar and neck threats
 
-- [[Transitions/Bow and Arrow Choke]] - Alternative gi choke sharing collar grip mechanics
+- [[Submissions/Bow and Arrow Choke]] - Alternative gi choke sharing collar grip mechanics
 
-- [[Transitions/Cross Collar Choke]] - Related collar choke with different finishing mechanics
+- [[Submissions/Cross Collar Choke]] - Related collar choke with different finishing mechanics
 
 - [[Positions/Side Control]] - Position reached when opponent rolls through the choke attempt
 

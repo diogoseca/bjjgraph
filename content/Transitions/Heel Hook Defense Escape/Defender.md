@@ -154,13 +154,15 @@ description: "Defend against heel hook escape attempts from Honey Hole top. Cont
 
 As the Honey Hole top player, your opponent is attempting to escape your inside leg entanglement before you can finish the heel hook. Your goal is to maintain the triangle configuration, preserve heel exposure, and either retain the position for submission or transition to an alternative attack like a kneebar when their escape creates leg extension. Success requires anticipating escape attempts, following rotational movement with your hips to maintain positional dominance, and immediately re-establishing control points when any space is created. The best defense against escape is offensive pressure — maintaining constant submission threat forces your opponent to divide attention between escaping and defending the heel hook.
 
-**Opponent's Starting Position**: [[Positions/Ashi Garami/Honey Hole]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Ashi Garami/Cross Ashi-Garami]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Heel Hook Defense Escape?</p>
 
 - Opponent begins curling toes and actively hiding heel against their hip crease in boot defense position
 - Explosive hip movement or sudden tension in opponent's body indicating imminent rotational escape attempt
@@ -175,6 +177,8 @@ As the Honey Hole top player, your opponent is attempting to escape your inside 
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Heel Hook Defense Escape?</p>
+
 - Maintain triangle tightness as your primary control mechanism — a loose triangle enables all escape methods
 - Follow your opponent's rotation with your hips to preserve positional dominance and heel exposure throughout their escape attempts
 - Re-establish heel grip immediately after any successful grip break using your secondary hand as backup
@@ -188,6 +192,8 @@ As the Honey Hole top player, your opponent is attempting to escape your inside 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Heel Hook Defense Escape?</p>
 
 ### 1. Tighten triangle and immediately re-grip heel with cup configuration
 
@@ -225,6 +231,8 @@ As the Honey Hole top player, your opponent is attempting to escape your inside 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Heel Hook Defense Escape?</p>
+
 ### → [[Positions/Ashi Garami/Honey Hole]]
 
 Maintain tight triangle configuration, follow all rotation attempts with your hips, and immediately re-grip the heel after any successful grip break. Apply progressive heel hook pressure to force tap before escape builds momentum.
@@ -240,6 +248,8 @@ When opponent's rotational escape creates leg extension during extraction, immed
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Heel Hook Defense Escape?</p>
 
 ### 1. Loosening the triangle configuration when transitioning to apply heel hook breaking pressure
 
@@ -269,6 +279,8 @@ When opponent's rotational escape creates leg extension during extraction, immed
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Heel Hook Defense Escape?</p>
+
 **Phase 1: Escape Recognition Drilling** - Identifying escape cues and timing defensive responses
 Partner in Honey Hole bottom announces their escape intention, then attempts at 50% speed. Focus on recognizing the specific cues that precede each escape type and initiating the appropriate counter before the escape gains momentum. Build pattern recognition through repetition.
 
@@ -285,29 +297,6 @@ Positional sparring from Honey Hole top at 100% intensity. 30-second rounds wher
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What visual and tactile cues indicate your opponent is about to attempt the rotational escape?
-**A**: Primary cues include: opponent suddenly curling their toes into boot defense position, both hands moving to grip fight your heel cup, free foot posting firmly on your hip creating a push frame, and a sudden increase in full-body tension and breathing rate. The most reliable early indicator is the free foot posting on your hip, as this precedes the rotation by about half a second.
-
-**Q2**: How should you adjust your triangle configuration when you feel the escape rotation beginning?
-**A**: Drive your hips forward into the rotation to follow the opponent's movement while simultaneously tightening your inside leg triangle by pulling your ankle deeper behind their thigh. Your outside leg should increase pressure across their hip to pin them against the rotation. The goal is to maintain the exact same angular relationship you had before they started rotating.
-
-**Q3**: When should you abandon the heel hook attempt and transition to a kneebar during the opponent's escape?
-**A**: Transition to kneebar when the opponent's rotational escape has loosened the triangle enough that their leg begins extending during extraction — specifically when their knee straightens past 90 degrees and moves away from their chest. At this point, heel hook access is compromised but the extended leg is perfectly positioned for kneebar control. The transition must be immediate; hesitation allows them to complete extraction.
-
-**Q4**: Your grip on the heel is stripped but you maintain the triangle — what is your immediate priority?
-**A**: Immediately re-grip the heel with your secondary hand while tightening the triangle to prevent escape during the re-grip. Do not chase the heel with both hands simultaneously as this releases positional pressure. Use one hand to maintain body control while the other re-establishes the heel cup. If re-grip fails, focus entirely on triangle tightness and hip pressure to retain the position for a second submission attempt.
-
-**Q5**: How do you maintain hip pressure when your opponent posts their free foot on your hip to create escape space?
-**A**: Hook their free foot with your near-side hand and redirect it away from your hip, or use your elbow to knock the foot off your hip while maintaining your triangle with your legs. If you cannot remove the foot, drive your hips forward harder to overcome the pushing force they generate through the post. The critical principle is never allowing their free foot to stay posted long enough to generate sustained rotational force.
-
-
-
-</section>
 
 
 </main>

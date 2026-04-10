@@ -216,7 +216,7 @@ The Standing Escape occupies a specific tactical niche within the Invisible Coll
 
 - [[Transitions/Back Door Escape]] - Broader escape system framework this technique belongs to
 
-- [[Transitions/Rear Naked Choke]] - Alternative submission opponent may transition to during escape
+- [[Submissions/Rear Naked Choke]] - Alternative submission opponent may transition to during escape
 
 
 </section>

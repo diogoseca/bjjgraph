@@ -223,7 +223,7 @@ The RDLR pass is a crucial component of modern guard passing systems, serving as
 
 - [[Positions/Back Control]] - Counter outcome - position opponent achieves if back take succeeds during pass
 
-- [[Principles/Grip Fighting]] - Prerequisite concept - essential for establishing passing grips
+- [[Principles/Grips]] - Prerequisite concept - essential for establishing passing grips
 
 - [[Transitions/Back Step]] - Complementary technique - used to counter inversions and berimbolo attempts during pass
 

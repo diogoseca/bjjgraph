@@ -166,6 +166,8 @@ The most dangerous moment is when their inside leg clears and they plant their k
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass to Side Control?</p>
+
 - Opponent breaks their grip focus from your heel and redirects both hands to fight your grip on their ankle, signaling they are abandoning leg attacks for a passing strategy
 - Opponent drives chest weight forward and down onto your torso while their hips stay low, creating the compressing pressure needed to pin you flat for extraction
 - Opponent begins straightening their inside leg and pulling it toward their own body rather than maintaining the interlocked entanglement position, indicating extraction has begun
@@ -176,6 +178,8 @@ The most dangerous moment is when their inside leg clears and they plant their k
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass to Side Control?</p>
 
 - Maintain persistent grip control on opponent's ankle or foot throughout the exchange to prevent clean leg extraction and force them to fight for every inch
 - Use active leg hooking to re-capture any partially extracted leg before it fully clears the entanglement, treating each extraction attempt as a re-hooking opportunity
@@ -189,6 +193,8 @@ The most dangerous moment is when their inside leg clears and they plant their k
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass to Side Control?</p>
 
 ### 1. Maintain two-handed ankle grip and re-hook with your legs as opponent attempts extraction, actively pulling their ankle back into the entanglement
 
@@ -226,6 +232,8 @@ The most dangerous moment is when their inside leg clears and they plant their k
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass to Side Control?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Maintain strong two-handed grip on opponent's ankle throughout their extraction attempts and actively re-hook their leg with your own legs whenever they begin to clear. Their failed extraction attempt wastes energy and resets the position. Use aggressive grip fighting in the early phase to prevent extraction from ever progressing past the initial stage.
@@ -241,6 +249,8 @@ When opponent over-commits to the pass by driving chest forward, exploit the ope
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass to Side Control?</p>
 
 ### 1. Releasing grip on opponent's ankle to push against their chest or shoulders during the pass attempt
 
@@ -270,6 +280,8 @@ When opponent over-commits to the pass by driving chest forward, exploit the ope
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass to Side Control?</p>
+
 **Week 1-2** - Grip retention and re-hooking
 From 50-50 bottom, partner attempts to break your ankle grip using two-on-one grip fighting. Practice maintaining grip under pressure and re-hooking their leg whenever it begins to extract. Partner uses 30-50% resistance. Focus on hand positioning and grip endurance rather than explosive movements.
 
@@ -286,29 +298,6 @@ Positional sparring starting from 50-50 with partner attempting pass at full int
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important grip to maintain when defending against the pass from 50-50 bottom?
-**A**: Two-handed control on opponent's ankle or foot is the most critical grip. This grip directly prevents leg extraction, which is the fundamental mechanism of the pass. Without ankle control, you cannot re-hook their leg or prevent extraction. Maintaining this grip forces opponent to spend time and energy grip fighting before they can begin any extraction sequence.
-
-**Q2**: Your opponent has broken your ankle grip and begun extracting their inside leg - what is the highest priority defensive action?
-**A**: Immediately re-hook their extracting leg with your own legs before it fully clears, while simultaneously framing against their shoulder with your near arm to prevent chest pressure from pinning you flat. If the re-hook fails, hip escape laterally and insert your knee to block their forward drive. The critical principle is acting during extraction, not after both legs clear.
-
-**Q3**: When does the counter heel hook opportunity present itself during opponent's pass attempt?
-**A**: The counter heel hook window opens when opponent commits their upper body forward for chest pressure during leg extraction. Their forward weight shift and focus on passing means they are not actively defending their own heel. Sit up explosively during this moment and attack their exposed heel with both hands. This threat forces them to abort the pass or risk the submission finish.
-
-**Q4**: Your opponent is driving heavy crossface after clearing both legs - what defensive options remain?
-**A**: At this stage your options are limited but not zero. Frame against their crossface arm with both hands to create space, then hip escape hard away from them to insert your knee for half guard recovery. Alternatively, use the ghost escape by turning away and coming to turtle position. The key is accepting that full guard recovery is unlikely and focusing on preventing complete side control consolidation.
-
-**Q5**: Why is defending during the grip fighting phase more effective than defending during the extraction phase?
-**A**: During grip fighting, opponent has not yet established chest pressure or begun extracting legs, meaning you have maximum mobility and grip access. Once extraction begins, their chest weight pins you and their leg is already partially free, reducing your defensive options dramatically. Early defense when you have full range of motion and grip access has roughly double the success rate of late-stage defense.
-
-
-
-</section>
 
 
 </main>

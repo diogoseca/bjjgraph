@@ -166,6 +166,8 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elbow Escape to Remove Hooks?</p>
+
 - Opponent's elbow drops inside their hip toward your ankle or instep, creating the wedge frame that initiates hook removal
 - Subtle hip shift away from one of your hooks—the opponent is creating space on that side to begin the shrimping motion
 - Opponent's legs begin clamping together or their knees angle inward, preparing to trap your hook once it is cleared
@@ -178,6 +180,8 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elbow Escape to Remove Hooks?</p>
 
 - Maintain constant forward chest pressure against opponent's back to limit their hip mobility and escape angles
 - Keep hooks active with heels driving toward opponent's far hip rather than passive foot placement inside thighs
@@ -192,6 +196,8 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elbow Escape to Remove Hooks?</p>
 
 ### 1. Deepen threatened hook and increase choking pressure simultaneously
 
@@ -229,6 +235,8 @@ Advanced defenders develop sensitivity to the early phases of hook removal attem
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elbow Escape to Remove Hooks?</p>
+
 ### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Apply immediate choking pressure whenever opponent diverts a hand from neck defense to address hooks, forcing them to abandon the escape and return to survival mode. Combine this with active hook retention by driving heels toward their far hip when you feel the elbow wedge initiating.
@@ -244,6 +252,8 @@ Switch to body triangle when you recognize the early phases of the elbow escape 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elbow Escape to Remove Hooks?</p>
 
 ### 1. Keeping hooks passive with feet simply resting inside opponent's thighs rather than actively driving heels
 
@@ -273,6 +283,8 @@ Switch to body triangle when you recognize the early phases of the elbow escape 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elbow Escape to Remove Hooks?</p>
+
 **Week 1-2** - Hook retention awareness
 Partner performs the elbow escape at 25% speed while you focus on recognizing the early cues—elbow drop, hip shift, leg clamping. Practice responding with active hook adjustments (deepening heels, curling inward) without attempting counters. Build recognition speed and proprioceptive awareness of hook pressure changes.
 
@@ -289,29 +301,6 @@ Full resistance rounds starting from invisible collar position. Attacker has bac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the elbow escape to remove hooks?
-**A**: The earliest cue is the opponent's elbow dropping inside their hip toward your ankle or instep. This precedes the actual hip escape and hook clearance by one to two seconds. Recognizing this elbow wedge positioning gives you a window to respond before they generate the lateral hip movement that actually clears the hook. Secondary cues include subtle hip shifting away from one hook and legs beginning to angle inward.
-
-**Q2**: Why is switching to body triangle an effective counter to the elbow escape, and what is the timing window?
-**A**: Body triangle eliminates the hook-by-hook removal mechanic entirely because your legs are locked in a single structure that cannot be addressed with elbow wedges. The timing window is before the opponent gains leverage on your first hook—once you feel the elbow wedge establishing contact, you have approximately two to three seconds to transition your hooks into body triangle configuration before they begin the hip escape that clears the hook.
-
-**Q3**: Your opponent clears your first hook but has not yet secured it with their legs—what is your highest-percentage response?
-**A**: Immediately re-insert the cleared hook before they can triangle their legs around it. Drive your foot back inside their thigh while simultaneously increasing forward chest pressure to limit their hip mobility. The window between hook clearance and leg trap is typically less than two seconds, so you must react instantly. If re-insertion fails, consolidate your remaining hook and switch to body triangle with your free leg crossing over to lock the triangle.
-
-**Q4**: How should you adjust your submission pressure when you feel the opponent beginning to work on your hooks?
-**A**: Increase choking pressure or initiate a new submission threat immediately. The opponent's decision to work on hooks means they are either diverting a hand from neck defense or using their elbows, both of which create submission openings. Tighten your collar grip, begin working your choking arm deeper, or shift to an armbar threat on their exposed arm. The goal is to create a dilemma where they cannot address hooks without increasing their submission risk.
-
-**Q5**: What weight distribution adjustment best prevents hook clearance when you detect the escape beginning?
-**A**: Shift your weight toward the hook being attacked by angling your hips in that direction and driving your chest pressure down on that side of their back. This makes the threatened hook significantly heavier and harder to clear with the elbow wedge. Simultaneously, curl the heel of your threatened hook deeper toward their far hip to increase the distance the elbow must travel to push it free. Avoid leaning away from the attack, which lightens the hook and makes clearance easier.
-
-
-
-</section>
 
 
 </main>

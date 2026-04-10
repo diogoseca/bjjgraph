@@ -162,6 +162,8 @@ From the defender's perspective, the High Mount to S Mount transition represents
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting High Mount to S Mount?</p>
+
 - Attacker secures two-on-one control of your wrist or pins your arm to the mat with deliberate isolation intent
 - Attacker shifts weight noticeably forward with chest driving over your face, posting one hand near your head
 - Attacker's knee on one side lifts off the mat or begins sliding toward your head in preparation for the leg swing
@@ -174,6 +176,8 @@ From the defender's perspective, the High Mount to S Mount transition represents
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending High Mount to S Mount?</p>
 
 - Recognize the S Mount entry cues early — arm isolation attempts and forward weight shifts signal the transition is imminent
 - Protect the target arm by keeping elbows connected to your ribs and hands gripping your own collar or lapel
@@ -188,6 +192,8 @@ From the defender's perspective, the High Mount to S Mount transition represents
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against High Mount to S Mount?</p>
 
 ### 1. Explosive bridge during leg swing
 
@@ -225,6 +231,8 @@ From the defender's perspective, the High Mount to S Mount transition represents
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending High Mount to S Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a hip escape toward the side the attacker is swinging their leg, exploiting the momentary instability when they are on a single knee. Insert your knee before they can re-establish control, recovering to half guard where you have legitimate sweep and escape options.
@@ -240,6 +248,8 @@ Retract the target arm before the attacker secures full isolation, or bridge exp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending High Mount to S Mount?</p>
 
 ### 1. Extending the arm to push the attacker's leg away during the swing
 
@@ -274,6 +284,8 @@ Retract the target arm before the attacker secures full isolation, or bridge exp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against High Mount to S Mount?</p>
+
 **Phase 1: Recognition Drilling** - Identifying S Mount entry cues from high mount bottom
 Partner alternates between maintaining static high mount and initiating S Mount entries at slow speed. Defender calls out the moment they recognize the transition beginning and identifies which arm is being targeted. No physical defense yet — focus entirely on developing pattern recognition for arm isolation setups and leg movement initiation.
 
@@ -290,29 +302,6 @@ Start in high mount bottom with partner actively working to achieve S Mount and 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that tells you an S Mount transition is imminent?
-**A**: The earliest cue is focused arm isolation — when the attacker shifts from general mount control to deliberately targeting one specific arm with two-on-one grips or wrist pinning. This arm isolation precedes the leg swing by several seconds and gives you the most time to react. Secondary cues include forward weight shift and one knee lifting, but these occur later in the sequence when your defensive window is already shrinking.
-
-**Q2**: Why is defending during the transition far more effective than defending after S Mount is established?
-**A**: During the transition, the attacker is on a single-base point (one knee) with their weight in motion, making them vulnerable to bridges and hip escapes. After S Mount is established, they have a stable two-post base (leg over head, leg across torso) with their hip sealed against your shoulder, eliminating nearly all escape leverage. The success rate of defensive actions drops from approximately 40-50% during transition to 15-20% once S Mount is fully locked in.
-
-**Q3**: Your attacker has isolated your right arm and is beginning to lift their left leg — what specific defensive actions do you take in order?
-**A**: First, immediately attempt to pull your right arm back to your body and grip your own collar to establish bent-arm defense. Second, if the arm cannot be retracted, use your left hand to hook the attacker's left knee or shin to physically block the step-over. Third, bridge explosively toward the left side (the direction the leg is swinging) to disrupt the attacker's single-leg base. The order is critical: arm protection first, leg block second, bridge third.
-
-**Q4**: What should you do with your free arm when the attacker is attempting the S Mount entry?
-**A**: Your free arm has two viable uses depending on timing: if the attacker's leg has not yet left the mat, use it to frame against their hip to create space for hip escape. If the leg is in motion, hook their transitioning knee or shin to physically block the step-over. Never extend the free arm to push on the attacker's chest or face, as this exposes it to isolation and gives the attacker a second submission target.
-
-**Q5**: If the transition succeeds and you are now in S Mount bottom, what is your immediate defensive priority?
-**A**: Immediately grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. This bent-arm defense is your lifeline — a straightened arm in S Mount is an instant armbar finish. Simultaneously, use your free hand to control the attacker's near leg at the knee to prevent them from adjusting to full armbar position. Focus on arm protection first, escape second, and wait for the attacker's adjustment movements to create your escape window.
-
-
-
-</section>
 
 
 </main>

@@ -154,6 +154,8 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Darce Control Maintenance?</p>
+
 - Opponent settles their body weight through their shoulder into the side of your head rather than immediately squeezing for the finish
 - You feel opponent walking their hips to adjust angle and improve base rather than committing to a single finishing direction
 - Opponent's grip pressure becomes steady and structural rather than the intense squeezing burst of an immediate choke attempt
@@ -166,6 +168,8 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Darce Control Maintenance?</p>
 
 - Act immediately upon recognizing darce maintenance rather than waiting to see if the choke loosens on its own
 - Prioritize extracting the trapped arm above all other defensive actions since the arm-in configuration is what makes the choke effective
@@ -180,6 +184,8 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Darce Control Maintenance?</p>
 
 ### 1. Execute systematic arm extraction by gripping your trapped wrist with your free hand and pulling toward your centerline while turning into the opponent
 
@@ -217,6 +223,8 @@ Defending against Darce Control Maintenance requires immediate recognition that 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Darce Control Maintenance?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Extract your trapped arm by gripping your own wrist with your free hand and pulling it toward your centerline while simultaneously turning your body into the opponent to reduce the grip angle. Once the arm is free, the darce choke mechanics fail completely and you are in a standard front headlock defense scenario with established escape sequences available.
@@ -232,6 +240,8 @@ Execute a granby roll or sit-through when the opponent shifts their weight forwa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Darce Control Maintenance?</p>
 
 ### 1. Pulling away from the choke by extending the neck and trying to create distance from the opponent
 
@@ -261,6 +271,8 @@ Execute a granby roll or sit-through when the opponent shifts their weight forwa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Darce Control Maintenance?</p>
+
 **Phase 1: Recognition and Awareness** - Identifying darce maintenance entry and distinguishing it from immediate finish attempts
 Partner establishes darce control at 25% pressure. Practice identifying the grip configuration, recognizing the maintenance versus finish approach, and understanding how each defensive option changes as the opponent's grip deepens. Build awareness of the critical first-five-second window where escape probability is highest.
 
@@ -277,26 +289,6 @@ Partner applies full darce maintenance with intent to finish or advance. Defende
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should you move toward the darce choke rather than pulling away from it when defending?
-**A**: Moving toward the choke by turning your body into the opponent reduces the angle needed for carotid compression, effectively loosening the choke. It also creates space on the opposite side of your neck where you can work to extract the trapped arm. Pulling away stretches your neck into the compression and gives the opponent additional space to drive their grip deeper, paradoxically making the choke tighter and more dangerous.
-
-**Q2**: What is the single most important defensive action to prioritize when caught in darce control maintenance?
-**A**: Extracting the trapped arm is the highest priority because the arm-in configuration is the fundamental mechanism that makes the darce choke effective. Without the arm trapped between your body and the choking arm, the choke cannot generate sufficient compression on the carotid arteries. Every other defensive action is secondary to arm extraction. Use your free hand to grip the trapped wrist and pull it toward your centerline while turning into the opponent.
-
-**Q3**: How do you recognize that your opponent has shifted from attempting an immediate darce finish to a maintenance strategy?
-**A**: The shift to maintenance is characterized by the opponent settling their body weight structurally rather than squeezing explosively, walking their hips to optimize their angle and base, and making small positional adjustments rather than committing to a single finishing direction. Their pressure becomes steady and rhythmic rather than the intense burst of an immediate choke attempt. Recognizing this shift is important because it means you have slightly more time to organize your defense but also that the opponent is building toward a stronger finishing position.
-
-**Q4**: Your opponent is maintaining darce control and you cannot extract your trapped arm - what alternative escape should you attempt?
-**A**: If arm extraction fails, execute a granby roll or sit-through to change your body angle relative to the choke. Wait for the opponent to shift their weight forward during a grip adjustment, then drive your hips under their body and rotate to recover half guard or closed guard. The key is timing the roll to when their base is least stable. If rolling is also blocked, frame against their hip with your free hand and walk your hips away to change the engagement angle enough to neutralize the choke pressure.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending the back step requires the bottom player to recognize early that their
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Step?</p>
+
 - Opponent drives chest forward and downward with increasing pressure on your upper body instead of trying to extract their leg backward
 - Opponent's free hand reaches to clear your top leg off their hip or thigh, indicating they are preparing to step over
 - Opponent controls your near-side arm by gripping your wrist or tricep, removing your ability to post and frame
@@ -175,6 +177,8 @@ Defending the back step requires the bottom player to recognize early that their
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Back Step?</p>
+
 - Maintain seated or upright posture against forward chest pressure to preserve leg entanglement structure and offensive threats
 - Keep figure-4 leg triangle tight with constant squeezing to prevent opponent from clearing their trapped leg
 - Use frames on opponent's shoulders and hips to prevent them from collapsing their weight onto your upper body
@@ -187,6 +191,8 @@ Defending the back step requires the bottom player to recognize early that their
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Step?</p>
 
 ### 1. Tighten leg triangle and threaten heel hook to force opponent to address submission before passing
 
@@ -224,6 +230,8 @@ Defending the back step requires the bottom player to recognize early that their
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Step?</p>
+
 ### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Maintain your seated posture and tight leg triangle throughout the opponent's back step attempt. Use frames against their shoulders to prevent chest pressure from flattening you. If they begin clearing your top leg, immediately threaten heel hook to force them back into defending the submission. The key is early recognition and immediate offensive response rather than passive defense.
@@ -239,6 +247,8 @@ If the back step is already in progress and your original entanglement is broken
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Step?</p>
 
 ### 1. Lying flat on the back instead of maintaining seated posture when opponent drives forward
 
@@ -268,6 +278,8 @@ If the back step is already in progress and your original entanglement is broken
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Step?</p>
+
 **Phase 1: Recognition Drilling (Week 1-2)** - Identifying back step cues versus standard leg extraction
 Partner alternates between standard leg extraction attempts and back step passes from outside ashi-garami. You call out which technique they are attempting as soon as you recognize it. No defensive response yet - focus purely on reading the cues (forward pressure vs. backward pull, hand placement on your top leg, arm control attempts). Build pattern recognition before adding physical response. 15-20 repetitions per round.
 
@@ -284,29 +296,6 @@ Positional sparring starting from outside ashi-garami. Both players at full resi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a back step rather than a standard leg extraction?
-**A**: The earliest cue is the direction of their pressure and weight shift. A standard leg extraction involves the opponent pulling their leg backward and away from you, shifting weight rearward. A back step involves the opposite - the opponent drives forward with chest pressure onto your upper body while their free hand reaches to clear your top leg. This forward commitment is the distinguishing signal that differentiates a pass attempt from an escape attempt and should trigger your defensive response immediately.
-
-**Q2**: Why does threatening a heel hook serve as an effective defense against the back step, even if you cannot finish the submission?
-**A**: The heel hook threat creates a dilemma for the opponent: if they continue the back step while your heel hook grip is engaged, the rotational force of their stepping motion combined with your grip can cause serious knee injury. This forces them to stop their pass, address the submission threat by stripping your grips, and restart their sequence. Even an imperfect heel hook attempt buys you critical seconds to re-establish your posture and tighten your leg entanglement. The threat is often as effective as the actual submission in disrupting the pass.
-
-**Q3**: Your opponent has already cleared your top leg and is mid-step - what defensive option gives you the best chance of preventing the pass?
-**A**: At this late stage, your best option is guard recovery rather than trying to re-establish the broken leg entanglement. As their leg clears over your body, immediately work to insert your near knee between your bodies to establish a knee shield or half guard. Your hands should be creating frames on their shoulders and hips to prevent them from settling their weight. The window for this recovery is extremely short - you must act during their stepping motion before they drive shoulder pressure and establish crossface control.
-
-**Q4**: How does maintaining seated posture mechanically prevent the back step from succeeding?
-**A**: Seated posture prevents the back step through multiple mechanical advantages. First, your upright torso keeps your leg triangle structure intact because your hips are angled correctly to maintain the figure-4 lock. Second, an upright position means the opponent cannot generate the forward chest pressure needed to flatten you and free their trapped leg. Third, your seated position keeps your arms in optimal position to create frames and threaten submissions. When you are driven flat, all three of these mechanical advantages disappear simultaneously, which is why posture is the foundational defensive element.
-
-**Q5**: When is attempting a counter-roll or inversion the right defensive choice versus simply recovering guard?
-**A**: The counter-roll is appropriate when the opponent commits aggressively to the back step with significant forward momentum and their weight is already passing over your body. In this scenario, their committed momentum can be redirected by inverting underneath them. Guard recovery is the better choice when the opponent is methodically and slowly executing the back step with controlled pressure, because their controlled weight distribution makes inversion extremely difficult and likely to fail. Assess their speed and commitment - explosive passes invite inversions, methodical passes require positional guard recovery.
-
-
-
-</section>
 
 
 </main>

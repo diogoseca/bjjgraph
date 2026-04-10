@@ -193,7 +193,7 @@
     ],
     "training_drills": [
       {
-        "name": "Base Maintenance Drill",
+        "name": "Base Drill",
         "description": "Partner establishes SLX while you work on maintaining wide base and proper weight distribution. Partner attempts various sweeping angles while you practice base recovery and balance maintenance. Focus on keeping free leg active and responsive to directional threats.",
         "duration": "3 minutes per round"
       },
@@ -285,7 +285,7 @@
         "attempt_probability": 10
       },
       {
-        "transition": "Kneebar",
+        "transition": "Kneebar from Single Leg X-Guard",
         "attempt_probability": 10
       },
       {

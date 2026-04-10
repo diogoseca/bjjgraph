@@ -192,6 +192,8 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Take from Bottom?</p>
+
 - Release the guillotine grip at the precise moment opponent commits to turning away, not before
 - Convert choking arm into overhook seatbelt control as opponent rotates, maintaining chest contact throughout transition
 - Use your legs to follow the rotation by opening guard and hooking opponent's hips as they turn
@@ -207,6 +209,8 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Take from Bottom?</p>
+
 - Bottom Hindulotine position established with secure guillotine grip around opponent's neck
 - Opponent begins turning away from the choke to relieve neck pressure, exposing their back
 - Your legs are in a position that allows opening guard and following the rotation (closed guard, butterfly, or half guard)
@@ -219,6 +223,8 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Take from Bottom step by step?</p>
 
 1. **Recognize the turn**: Feel opponent begin rotating their shoulders and hips away from your guillotine pressure, indicating commitment to turn escape rather than posture or drive defense
 2. **Release guillotine grip**: Open your hands and release the guillotine configuration, but maintain your choking arm across their neck and chest without creating space between your bodies
@@ -248,6 +254,8 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Take from Bottom?</p>
+
 - **Opponent stops mid-turn and re-faces to prevent back exposure** (Effectiveness: High) - Your Response: If they stop the turn, immediately re-establish guillotine grip and continue attacking the choke, or transition to darce if their arm position allows → Leads to [[Positions/Hindulotine]]
 - **Opponent turns fully through and faces you, preventing back control establishment** (Effectiveness: Medium) - Your Response: Accept the guard recovery and look for immediate sweep or submission from the new guard configuration, using your seatbelt attempt as an arm drag setup → Leads to [[Positions/Closed Guard]]
 - **Opponent posts hands on mat and creates distance during transition** (Effectiveness: Medium) - Your Response: Use butterfly hooks to elevate their hips and follow them as they create distance, or transition to technical stand-up and pursue from standing → Leads to [[Positions/Hindulotine]]
@@ -259,6 +267,8 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Take from Bottom?</p>
 
 ### 1. Releasing guillotine grip too early before opponent commits to the turn
 
@@ -293,6 +303,8 @@ The back take from bottom Hindulotine is particularly effective because the oppo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Take from Bottom (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice the grip transition from guillotine to seatbelt with a cooperative partner. Focus on smooth hand release and immediate seatbelt establishment without creating any space. Partner turns slowly on cue, allowing you to feel the proper timing and mechanics.
 
@@ -310,54 +322,12 @@ Incorporate the technique into positional sparring starting from Hindulotine pos
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Back Take from Bottom Hindulotine?
-**A**: The primary goal is to convert a stalled or defended guillotine attempt into dominant back control by capitalizing on the opponent's defensive turn. Rather than chasing a failing choke, this transition exploits the back exposure created when opponents turn away from guillotine pressure, transforming their escape into a worse positional outcome.
-
-**Q2**: What position do you start Back Take from Bottom from?
-**A**: This technique starts from Bottom Hindulotine, a guillotine variation from guard position where you have the guillotine grip secured while controlling opponent with your legs. The angled hip positioning of the Hindulotine creates the rotational pressure that typically triggers the opponent's turn escape attempt.
-
-**Q3**: What are the key grips needed for Back Take from Bottom?
-**A**: The key grip transition is from guillotine to seatbelt. Initially you have a guillotine grip (arm under chin, hands clasped). During transition, your choking arm becomes the overhook arm across opponent's chest, while your other arm threads under their far armpit. Hands clasp together in seatbelt configuration with overhook hand controlling wrist of underhook arm.
-
-**Q4**: Your opponent begins turning away but then stops mid-rotation - how should you respond?
-**A**: If they stop the turn before fully committing, immediately re-establish your guillotine grip and continue the choke attack. The partial turn often worsens their neck position. Alternatively, if their arm position allows, the partial turn may expose a darce choke entry. Never release control to chase a back that isn't fully exposed.
-
-**Q5**: When is the optimal timing to release your guillotine grip and initiate the back take?
-**A**: Release the guillotine grip at the precise moment when you feel definitive rotation in both the opponent's shoulders and hips, confirming their commitment to the turning escape. Releasing too early allows them to recover and face you. The ideal timing is when they have committed enough that they cannot easily reverse the turn, but before they complete the rotation.
-
-**Q6**: What body part must maintain constant contact throughout the entire transition?
-**A**: Your chest must maintain constant contact with opponent's back throughout the entire transition. This chest-to-back connection is the anchor that prevents separation and allows you to follow their rotation. Any gap created between your chest and their back provides opportunity for them to frame, turn back, or create escape distance.
-
-**Q7**: Why is it critical to establish seatbelt control before inserting hooks?
-**A**: Seatbelt provides the upper body anchor that keeps you connected during the chaotic transition phase. Without seatbelt first, you have no control point to prevent opponent from continuing to turn and face you. The seatbelt grip also allows you to pull them into position for hook insertion. Attempting hooks without upper body control leaves you vulnerable to scrambles and reversals.
-
-**Q8**: How does keeping your guard closed during transition negatively impact the technique?
-**A**: A closed guard restricts your hip mobility and prevents you from following the opponent's rotation. As they turn, your crossed ankles create a fixed point that cannot match their movement speed. Opening the guard allows your legs to independently track and follow the rotation, enabling you to stay connected and insert hooks as the back becomes exposed.
-
-**Q9**: What submission opportunities become available immediately after securing back control from this transition?
-**A**: Once back control is established, primary options include rear naked choke, bow and arrow choke (in gi), armbar from back, and collar chokes. The transition often catches opponents mentally unprepared for back defense since they were focused on guillotine escape, creating a brief window where submissions may succeed before they establish proper defensive hand fighting.
-
-**Q10**: Your opponent creates distance by posting their hands during the transition - what adjustment should you make?
-**A**: Use butterfly hooks to elevate their hips and follow as they create distance, maintaining your grip on their upper body. If they achieve significant separation, consider transitioning to a technical stand-up while maintaining arm control, allowing you to pursue the back take from standing or reset to a different attack. Never chase with extended arms as this creates vulnerability.
-
-**Q11**: What is the critical direction of force you apply through the seatbelt during the transition?
-**A**: The seatbelt force should pull diagonally across the opponent's chest toward your overhook side hip, not straight backward. This diagonal pull keeps them angled into you and prevents them from squaring their shoulders to re-face. The overhook arm drives across their sternum while the underhook arm lifts under their armpit, creating a rotational force that keeps their back oriented toward your chest throughout hook insertion.
-
-**Q12**: How do you chain this back take with other attacks if the opponent refuses to turn at all?
-**A**: If the opponent does not turn, they remain in the guillotine and you continue finishing the choke. If they drive forward instead, use butterfly hooks to sweep to mount while maintaining the grip. If they create frames, transition to a darce choke by threading your choking arm deeper. The entire Hindulotine system creates a dilemma: refusing to turn means accepting the guillotine, turning exposes the back, and framing opens the darce.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Take from Bottom?</p>
 
 This transition is generally low-risk when performed with proper technique, but awareness of several safety factors ensures injury-free training. The primary risk involves neck strain if the guillotine is maintained too aggressively during the opponent's turn, potentially causing cervical spine torque. Release the guillotine cleanly when transitioning rather than holding while they rotate. During drilling, partners should turn at controlled speeds to allow proper timing development. Avoid explosive hook insertions that could strike training partner's groin or inner thigh. In competition or hard sparring, be aware that rapid transitions can result in scrambles where joint locks may be applied unexpectedly. Always tap early to any submission caught during chaotic transitions. Practitioners with neck injuries should approach this technique cautiously due to the rotational forces involved during the transition phase.
 

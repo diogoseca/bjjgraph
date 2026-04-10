@@ -380,7 +380,7 @@
         "condition": "If opponent defends shoulder lock by pulling arm back aggressively",
         "actions": [
           {
-            "technique": "Armbar Finish",
+            "technique": "Rolling Armbar",
             "target": "Armbar Control",
             "probability": 60
           },
@@ -593,7 +593,7 @@
     ],
     "transitions": [
       {
-        "transition": "Williams Shoulder Lock",
+        "transition": "Williams Shoulder Lock from Williams Guard",
         "attempt_probability": 13
       },
       {
@@ -617,7 +617,7 @@
         "attempt_probability": 12
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Rolling Armbar from Closed Guard",
         "attempt_probability": 13
       },
       {

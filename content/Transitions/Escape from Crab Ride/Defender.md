@@ -154,6 +154,8 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape from Crab Ride?</p>
+
 - Opponent's hips begin shifting away from the hooked side, indicating shrimp escape preparation
 - Opponent reaches with their same-side hand toward your hooking foot or ankle to initiate strip
 - Opponent tucks their chin aggressively and tightens elbows, signaling they are about to commit to an escape sequence
@@ -166,6 +168,8 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape from Crab Ride?</p>
 
 - Maintain constant chest-to-back pressure to limit the space available for hip escape movement
 - Keep the hook deep and actively engaged under the opponent's hip rather than passively resting
@@ -180,6 +184,8 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape from Crab Ride?</p>
 
 ### 1. Deepen hook and increase chest pressure when opponent begins hip escape
 
@@ -217,6 +223,8 @@ As the defender against the Escape from Crab Ride, your role is the crab ride to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape from Crab Ride?</p>
+
 ### → [[Positions/Back Control]]
 
 Time your second hook insertion with the opponent's hip escape movement. When they create lateral space to strip your hook, their far hip opens up for your free leg to thread through. Follow their hip movement rather than fighting it, using their escape direction as your pathway to the second hook.
@@ -232,6 +240,8 @@ Maintain heavy chest pressure and an active deep hook while following the oppone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape from Crab Ride?</p>
 
 ### 1. Allowing the hook to become passive and shallow without actively maintaining depth
 
@@ -261,6 +271,8 @@ Maintain heavy chest pressure and an active deep hook while following the oppone
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape from Crab Ride?</p>
+
 **Phase 1: Control Maintenance** - Maintaining crab ride against progressive escape resistance
 Partner attempts escapes at progressive resistance levels starting at 25% and building to 100%. Focus on maintaining hook depth, chest pressure, and perpendicular alignment. Track how long you maintain control before the escape succeeds. Build the sensitivity to feel escape initiation and respond immediately.
 
@@ -274,26 +286,6 @@ Three-minute positional rounds starting from crab ride. Top player works to main
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important control element to maintain when the opponent begins their escape attempt?
-**A**: Chest-to-back pressure is the most important element because it limits the space available for hip escape movement, slows the escape, and maintains your weight advantage. While the hook provides the anchor, it is the chest pressure that prevents the explosive hip displacement needed to strip the hook. Opponents who can create space between your chest and their back have dramatically higher escape success rates regardless of hook depth.
-
-**Q2**: How should you respond when you feel the opponent's hips shift away from your hook?
-**A**: Follow their hip movement with your own hip adjustment rather than fighting it statically. As they shrimp away, slide your hips in the same direction to maintain perpendicular alignment and hook depth. Simultaneously look for the second hook insertion opportunity, as their hip movement often opens the far hip. Increase chest pressure forward during this sequence to prevent them from completing the turn.
-
-**Q3**: When is the optimal time to attempt inserting the second hook during an escape attempt?
-**A**: The best moment is when the opponent commits their hands to stripping your first hook, leaving their far side undefended. Their focus on the hook strip means they cannot simultaneously block the second hook insertion. Also, their hip escape movement creates the lateral space needed for your free leg to thread through on the far side. The escape attempt itself creates the opening you need for advancement.
-
-**Q4**: Your opponent successfully strips your hook - what is the immediate recovery protocol?
-**A**: Immediately increase upper body control through crossface pressure and far-side grips to prevent the turn. Sprawl your hips back to flatten the opponent and re-establish a new hook from a fresh angle. If the opponent is already turning, transition to front headlock or anaconda control rather than chasing the hook from behind, as their rotation makes re-insertion of the original hook very difficult.
-
-
-
-</section>
 
 
 </main>

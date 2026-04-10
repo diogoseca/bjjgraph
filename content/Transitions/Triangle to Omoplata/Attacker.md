@@ -188,6 +188,8 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle to Omoplata?</p>
+
 - Use opponent's triangle defense as the entry mechanism for omoplata—never force the transition against a passive opponent
 - Maintain continuous arm control throughout the entire transition window to prevent escape
 - Release triangle legs at the precise moment when opponent's posture reaches maximum elevation during their defense
@@ -203,6 +205,8 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle to Omoplata?</p>
+
 - Triangle control established with opponent's arm trapped across their own neck
 - Opponent begins defensive posture by stacking, driving forward, or attempting to posture up
 - Legs configured in figure-four around opponent's neck and shoulder with ankle lock secure
@@ -216,6 +220,8 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle to Omoplata step by step?</p>
 
 1. **Recognize triangle defense trigger**: Identify the opponent's defensive reaction—typically posturing up, stacking by driving weight forward, or turning the trapped shoulder inward to relieve choking pressure. This reaction creates the necessary space and positioning for the omoplata transition. Monitor their weight distribution shifting forward and their head rising, which signals commitment to the escape.
 2. **Secure dominant wrist control**: Before releasing any triangle pressure, tighten your grip on the opponent's trapped arm at the wrist or gi sleeve. This control is the single most critical element preventing escape during the transition window. Pull the arm slightly across your body to maintain the angle needed for omoplata entry and prevent retraction when you unlock your legs.
@@ -245,6 +251,8 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Triangle to Omoplata?</p>
+
 - **Opponent rolls forward to relieve shoulder pressure before omoplata is fully locked** (Effectiveness: High) - Your Response: Follow the roll while maintaining arm control and transition to back take by inserting hooks as they complete the rotation. Alternatively, maintain the omoplata grip through the roll and finish from the opposite side. The forward roll is an opportunity for positional advancement when anticipated correctly. → Leads to [[Positions/Open Guard]]
 - **Opponent pulls trapped arm free during the transition window between triangle and omoplata** (Effectiveness: Medium) - Your Response: Immediately return to closed guard or establish an open guard position such as spider guard or collar sleeve guard. Maintain active guard retention by establishing new grips and controlling distance. The arm extraction happens because wrist control was insufficient—address this in future attempts. → Leads to [[Positions/Open Guard]]
 - **Opponent drives weight backward and squares hips to prevent omoplata rotation** (Effectiveness: Medium) - Your Response: Use the backward pressure to reload the triangle by reconfiguring your legs around their neck, or switch to sweep mechanics by using the leg across their back to drive them forward. Their backward weight shift actually makes re-entering the triangle easier since their head drops back toward your hips. → Leads to [[Positions/Triangle Control]]
@@ -256,6 +264,8 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle to Omoplata?</p>
 
 ### 1. Releasing triangle legs before securing wrist control on the trapped arm
 
@@ -295,6 +305,8 @@ The Triangle to Omoplata transition exploits the opponent's defensive reactions 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle to Omoplata (Attacker)?</p>
+
 **Phase 1: Static Mechanics** - Understanding the geometric relationship between triangle and omoplata positions
 Begin in established triangle with a cooperative partner. Practice the full transition slowly, focusing on arm control sequence, leg swing arc, and hip repositioning. Partner remains stationary while you drill each component. Perform 20-30 repetitions per side, pausing at each checkpoint to verify positioning.
 
@@ -315,48 +327,12 @@ Begin sparring from open guard and work to establish triangle, then transition t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary defensive reaction from the triangle that creates the opportunity for the omoplata transition?
-**A**: The opponent posturing up, stacking, or driving forward to relieve triangle choke pressure. This defensive movement elevates their posture and creates the space needed to swing the leg over their back. The forward pressure that relieves triangle compression naturally feeds into the omoplata setup because the opponent's weight shift forward extends their trapped arm and exposes the shoulder to rotational attack. This is why the transition should be reactive rather than forced.
-
-**Q2**: Your opponent begins stacking you hard by driving their weight forward—what is the optimal moment to initiate the transition?
-**A**: Initiate the transition at the peak of their forward drive, when their posture is most elevated and their weight is committed forward. At this moment, they cannot quickly reverse direction to prevent the leg swing, and their forward momentum assists the omoplata entry. Releasing the triangle too early—before they fully commit—allows them to retract the arm. Releasing too late—after they have settled into a stacking base—means insufficient space exists for the leg to clear their back.
-
-**Q3**: Why is wrist control the single most critical element during the transition window?
-**A**: Wrist control prevents the opponent from retracting their trapped arm during the vulnerable moment when the triangle legs are unlocked and repositioning. Without secure wrist control, the opponent can pull their arm free instantly since the figure-four leg lock is no longer restraining it. The arm must remain isolated across your body throughout the entire transition to ensure the shoulder joint stays vulnerable for the omoplata. This control also prevents the opponent from establishing posting or framing positions.
-
-**Q4**: What is the most critical hip movement when transitioning from triangle to omoplata?
-**A**: The critical hip movement is rotating perpendicular to the opponent's trapped shoulder while maintaining contact. Your hips must travel from their triangle position (angled at the opponent's neck) to a perpendicular alignment against the shoulder joint. This rotation must occur simultaneously with the leg swing and without breaking contact—any gap between your hips and their shoulder creates an escape window. The rotation generates the angular momentum needed for the leg swing while establishing the correct finishing angle.
-
-**Q5**: Your opponent successfully rolls forward as you establish the omoplata—how do you capitalize?
-**A**: Maintain control of the trapped arm throughout the roll and follow their momentum rather than fighting it. As they complete the forward roll, you should end up on top with multiple options: maintain the omoplata and finish from the new angle, transition to back control by inserting hooks while they are face-down, or consolidate a top position. The key is staying connected to their body and arm during the roll rather than letting go. Many high-level practitioners actually prefer the roll because it creates back take opportunities.
-
-**Q6**: What grip should your free hand establish during the transition, and why is it essential?
-**A**: Your free hand should grip the opponent's belt, far-side gi lapel, or pants at the hip to control their torso rotation and prevent the forward roll escape. This grip serves dual purposes: it stops the opponent from rolling through the omoplata (their highest-percentage escape) and it controls their posture to prevent them from sitting up and creating defensive frames. Without this grip, you have no mechanism to prevent the forward roll other than chasing it, which is reactive rather than preventive.
-
-**Q7**: Your opponent pulls their trapped arm partially free during the leg swing—what is the correct response?
-**A**: If the arm is partially extracted, immediately assess whether you can re-capture it by increasing leg pressure across their back and pulling the wrist back into position. If the arm continues extracting, abandon the omoplata transition and immediately re-engage guard by either re-establishing the triangle if their head is still between your legs, transitioning to closed guard with an overhook on the escaping arm, or establishing spider guard or collar sleeve grips. Never chase a fully extracted arm—transition to the next available attack.
-
-**Q8**: How do the biomechanical pressure vectors differ between the triangle choke and the omoplata finish?
-**A**: The triangle applies bilateral compressive force on the carotid arteries through leg squeeze and angle adjustment, targeting blood flow restriction to the brain. The omoplata applies rotational torque to the shoulder joint through hip drive and arm elevation, targeting the shoulder capsule and rotator cuff. The triangle requires maintaining the figure-four leg configuration with hip elevation, while the omoplata requires perpendicular hip positioning with forward driving pressure. Understanding these distinct mechanics is essential because attempting to apply triangle-style squeezing during the omoplata produces no meaningful shoulder pressure.
-
-**Q9**: When should you NOT transition from triangle to omoplata and instead maintain the triangle?
-**A**: Maintain the triangle when the opponent is absorbing pressure without actively defending—they may be close to tapping or going unconscious. Also maintain it when your angle is strong and the choke is deepening, when the opponent is fatiguing and their posture is weakening rather than strengthening, or when you have superior wrist control that is pulling the trapped arm tighter across their neck. The omoplata transition should only occur as a reaction to the opponent's active defense, never as a predetermined sequence when the triangle itself is working effectively.
-
-**Q10**: What are the three primary follow-up attacks if the omoplata submission itself is defended after a successful transition?
-**A**: First, the omoplata sweep—when the opponent maintains strong base but leans forward, use your leg across their back to drive them forward and sweep to mount or side control. Second, the back take—when the opponent attempts the forward roll escape, follow them through the roll and establish hooks for back control. Third, return to triangle or armbar—if the opponent partially escapes the omoplata by creating distance but remains in your guard, re-establish leg attacks using the arm isolation you maintained. These three options ensure that defending the omoplata itself creates new vulnerabilities.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Triangle to Omoplata?</p>
 
 The triangle to omoplata transition involves two distinct joint and blood flow threats that require careful management during training. The triangle phase can restrict blood flow to the brain and cause unconsciousness without warning—partners should communicate immediately if they feel lightheaded. The omoplata phase attacks the shoulder joint, which is particularly vulnerable to injury from sudden rotational force. During training, both partners must maintain clear communication about pressure levels and tap immediately when shoulder discomfort occurs. The practitioner applying the technique should increase pressure gradually and release immediately upon feeling a tap. Beginners should focus exclusively on positioning and control rather than finishing pressure until the complete transition mechanics are thoroughly understood. Explosive movements during the leg swing phase can inadvertently apply sudden force to the shoulder—emphasize smooth, controlled transitions rather than speed. Partners should agree on resistance levels appropriate for their skill level and injury history before beginning each round.
 

@@ -162,6 +162,8 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kiss of the Dragon from RDLR?</p>
+
 - Opponent's hips begin shifting toward your centerline with shoulders walking underneath you, indicating the angle creation phase before inversion
 - Increased pulling pressure on your far ankle as opponent loads the grip for rotational control during the threading motion
 - Opponent's far leg releases its posting position on your hip, freeing it to generate rotational momentum for the inversion
@@ -174,6 +176,8 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kiss of the Dragon from RDLR?</p>
 
 - Maintain low heavy base with hips back to deny the space underneath you that the inversion requires for threading
 - Control the opponent's near-side hip to prevent the initial angular shift that precedes the inversion entry
@@ -188,6 +192,8 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kiss of the Dragon from RDLR?</p>
 
 ### 1. Sprawl hips back and drive weight down onto opponent's inverting body
 
@@ -225,6 +231,8 @@ As the defender against Kiss of the Dragon from RDLR, you are the top player fac
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kiss of the Dragon from RDLR?</p>
+
 ### → [[Positions/Side Control]]
 
 When the inversion attempt stalls or is initiated with poor timing, drive forward with crossface pressure to flatten the opponent and consolidate to side control by pinning their hips and establishing chest-to-chest pressure over their compromised guard structure.
@@ -240,6 +248,8 @@ Deny the technique early by maintaining low base with heavy hips, stripping the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kiss of the Dragon from RDLR?</p>
 
 ### 1. Standing tall or straightening legs when RDLR hook is established
 
@@ -269,6 +279,8 @@ Deny the technique early by maintaining low base with heavy hips, stripping the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kiss of the Dragon from RDLR?</p>
+
 **Phase 1: Recognition** - Identifying inversion setup cues versus standard sweep threats
 Partner establishes RDLR and alternates between standard sweep setups and Kiss of the Dragon entries at slow speed. Focus on identifying the specific cues that differentiate the inversion from other attacks. Call out the technique you recognize before the partner completes it.
 
@@ -285,29 +297,6 @@ Positional rounds starting from opponent's RDLR guard with full resistance. Defe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up Kiss of the Dragon rather than a standard RDLR sweep?
-**A**: The earliest cue is the opponent's hips shifting toward your centerline combined with their far leg releasing its posting position on your hip. Standard RDLR sweeps typically maintain the far leg frame for leverage, while Kiss of the Dragon requires freeing the far leg to generate rotational momentum. Additionally, increased downward pull on your far ankle and the opponent's shoulders beginning to walk underneath you indicate inversion setup rather than sweep mechanics.
-
-**Q2**: Your opponent has already committed to the inversion and their head is threading between your legs—what is the most effective response at this late stage?
-**A**: At this late stage, the most effective response is to immediately sit your hips to the mat on the side their head is entering, compressing the space and stalling the rotation. Simultaneously reach for their far hip to prevent them from completing the circle around your leg. If they have progressed too far to stop, switch your defensive priority to preventing hook insertion by immediately turning to face them as they emerge, rather than trying to stop the rotation itself.
-
-**Q3**: How should you adjust your base specifically when you feel the RDLR hook deepening behind your knee?
-**A**: When the hook deepens behind your knee, immediately widen your stance and sit your hips back while angling your hooked knee outward to reduce the hook's rotational leverage. Place more weight on your hooked-side leg to make it heavier and harder to rotate around. Your hands should establish grips on their near-side hip to prevent hip elevation and begin stripping the ankle grip that controls the direction of any rotation attempt.
-
-**Q4**: Why is the crossface counter risky against an opponent with an established RDLR hook?
-**A**: The crossface requires driving your weight forward, which is exactly the direction the RDLR hook is designed to exploit for sweeps. Forward pressure loads the waiter sweep and gives the opponent leverage to elevate your base. The crossface only works if you can flatten the opponent before they redirect your momentum upward with their hook. If they read the crossface coming, they can use your forward drive as additional fuel for the inversion, making the entry easier rather than harder.
-
-**Q5**: What passing strategy should you adopt immediately after successfully defending a Kiss of the Dragon attempt?
-**A**: After stuffing the inversion, immediately capitalize on the opponent's compromised guard structure. Their RDLR hook will be weakened from the failed attempt, and they will be recovering from the inverted position with their grips disrupted. Drive forward with a leg drag or knee slice pass while their hips are still returning to guard position. The window after a failed inversion is one of the best passing opportunities from RDLR top, as the opponent needs several seconds to re-establish hook depth and grip configuration.
-
-
-
-</section>
 
 
 </main>

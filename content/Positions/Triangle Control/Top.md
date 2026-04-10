@@ -50,8 +50,8 @@ description: "Master Triangle Control defense from top in BJJ. Learn escape tech
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Choke",
-      "text": "From this position, attempt Triangle Choke. This technique is attempted in 37% of exchanges from this position.",
+      "name": "Execute Triangle Choke from Triangle Control",
+      "text": "From this position, attempt Triangle Choke from Triangle Control. This technique is attempted in 37% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ## Position Definition
 
+<p class="section-subtitle">What is Triangle Control (Top)?</p>
+
 - Opponent's legs are configured around the practitioner's head and one shoulder, with one leg across the back of the neck and the other leg locked over the ankle or shin in a triangular configuration creating structural pressure
 - One of the top player's arms is trapped inside the triangle configuration alongside their own neck, while the other arm remains outside creating asymmetric control
 - The bottom player's hips are positioned to extend and create upward pressure into the top player's neck and carotid arteries with ability to increase choking pressure
@@ -183,6 +185,8 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Triangle Control (Top)?</p>
 
 - Understanding of triangle choke mechanics including how arterial compression works through leg configuration
 - Basic posture recovery skills from broken posture positions inside guard
@@ -197,6 +201,8 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Triangle Control?</p>
+
 - Maintain composure and avoid panic—explosive, uncontrolled movements waste energy and often worsen the position by creating space for tighter locks
 - Protect the neck immediately by tucking chin and creating space between shoulder and neck to prevent full arterial compression
 - Keep the trapped arm's elbow tight to the body to prevent opponent from isolating it for additional control or armbar transitions
@@ -210,6 +216,8 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Triangle Control (Top)?</p>
 
 **If opponent has triangle locked but not yet extended hips for full pressure:**
 - Execute **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** → [[Positions/Open Guard]] (Probability: 45%)
@@ -242,6 +250,8 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Triangle Control?</p>
 
 ### 1. Pulling the trapped arm out explosively without addressing posture and hip position first
 
@@ -280,6 +290,8 @@ The defensive hierarchy from Triangle Control Top follows a clear priority seque
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Triangle Control attacks?</p>
 
 ### Triangle Defense Positional Sparring
 
@@ -335,7 +347,7 @@ Start in triangle control with posture broken. Bottom player provides progressiv
 ## Related Positions and Techniques
 
 - **[[Transitions/Triangle Escape]]** - Primary escape technique from this defensive position
-- **[[Submissions/Triangle Choke Front]]** - Primary submission threat the defender faces from this position
+- **[[Submissions/Triangle Choke]]** - Primary submission threat the defender faces from this position
 - **[[Transitions/Posture Recovery]]** - Critical defensive technique for relieving choking pressure
 - **[[Transitions/Stack Defense]]** - Alternative defensive approach using forward pressure against triangle
 - **[[Positions/Armbar Control]]** - Common transition target for the attacking opponent from triangle

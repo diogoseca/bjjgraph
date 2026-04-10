@@ -47,10 +47,6 @@
       "relationship": "Target position - successful entry establishes mounted crucifix control"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Chain attack - failed armbar defense often creates crucifix entry opportunity"
-    },
-    {
       "name": "Gift Wrap",
       "relationship": "Alternative entry - gift wrap control can transition to crucifix"
     },
@@ -72,7 +68,7 @@
     },
     {
       "name": "Mount to Armbar",
-      "relationship": "Primary chain - armbar setup from mount creates crucifix entry windows"
+      "relationship": "Primary chain - armbar setup from mount creates crucifix entry windows when failed armbar defense exposes the far arm"
     }
   ],
   "attacker": {

@@ -46,8 +46,8 @@
       "relationship": "Target position achieved through this transition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Primary submission follow-up from reverse mount"
+      "name": "Armbar from Reverse Mount",
+      "relationship": "Primary submission follow-up available immediately after achieving reverse mount"
     },
     {
       "name": "North-South Choke",

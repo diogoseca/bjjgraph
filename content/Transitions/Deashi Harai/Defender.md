@@ -166,6 +166,8 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Deashi Harai?</p>
+
 - Opponent establishes a strong collar grip and begins applying subtle upward-backward pulling pressure, combined with a sleeve grip that drives across your body—this tsurikomi action is the primary setup for the sweep
 - Opponent pivots their body to create a 45-degree angle to your centerline while maintaining grips, positioning their sweeping-side leg within arc distance of your lead ankle—this angular repositioning is the clearest telegraphing cue
 - Opponent takes a deliberate backstep or applies push-pull rhythm through their grips to encourage you to step forward—any deliberate provocation of forward movement when they hold strong grips signals a foot sweep attempt
@@ -177,6 +179,8 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deashi Harai?</p>
 
 - Maintain a low, dynamic stance with weight distributed across both feet to deny the single-leg weight commitment your opponent needs
 - Keep active footwork with short steps rather than long strides that create exploitable weight transfer windows
@@ -191,6 +195,8 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Deashi Harai?</p>
 
 ### 1. Retract lead leg and redistribute weight to rear foot as you feel the sweep contact approaching your ankle
 
@@ -228,6 +234,8 @@ For experienced practitioners, Deashi Harai defense also involves understanding 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Deashi Harai?</p>
+
 ### → [[Positions/Standing Position]]
 
 Break the opponent's controlling grips early in the setup phase or retract your lead leg as soon as you detect the sweep initiation. Immediately re-establish your own dominant grips and capitalize on their failed technique by attacking with your own takedown while they are recovering their stance and position. The key is maintaining composure and using their failed attempt as your offensive opportunity rather than simply resetting to neutral.
@@ -243,6 +251,8 @@ Time a counter-throw such as Ouchi Gari or a forward body lock drive at the exac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deashi Harai?</p>
 
 ### 1. Taking long forward strides while engaged in grips, creating predictable weight transfer patterns
 
@@ -272,6 +282,8 @@ Time a counter-throw such as Ouchi Gari or a forward body lock drive at the exac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Deashi Harai?</p>
+
 **Week 1-2: Recognition and Base Awareness** - Identifying Deashi Harai setups and maintaining defensive stance
 Partner slowly demonstrates the full Deashi Harai setup sequence while you practice recognizing each phase: grip establishment, angle creation, and sweep initiation. Focus on feeling the grip changes and weight manipulation through your body rather than watching their feet. Practice maintaining athletic stance with active footwork while partner applies progressive grip pressure. 15-20 repetitions per session of partner setting up the sweep while you call out the phase you detect.
 
@@ -288,29 +300,6 @@ Engage in full standup sparring rounds where you specifically monitor for foot s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is breaking the sleeve grip more important than breaking the collar grip when defending against Deashi Harai?
-**A**: The sleeve grip controls the rotational force that prevents you from posting or recovering balance once the sweep connects. Without the sleeve grip, the opponent cannot drive your arm across your body or prevent you from using that arm for balance recovery. While the collar grip provides the lifting action, a sweep with only a collar grip gives you a free arm to post, step through, or push away. Removing the sleeve grip eliminates the coordinated three-point attack that makes the technique effective.
-
-**Q2**: Your opponent has attempted Deashi Harai and you successfully retracted your lead leg—what should you expect next and how do you prepare?
-**A**: Expect an immediate follow-up attack on your now heavily-weighted rear leg, most likely Kosoto Gari or Kouchi Gari. When you retract your lead leg, all your weight shifts to the rear foot, creating the exact weight-commitment condition your opponent needs for a different sweep. Prepare by immediately redistributing your weight back to center, stepping your retracted foot down quickly to re-establish a balanced base, and maintaining your grip control to limit their ability to redirect their kuzushi. Anticipating the combination is more important than celebrating your successful defense.
-
-**Q3**: At what point in the Deashi Harai sequence is counter-attacking most viable, and what makes this timing window effective?
-**A**: The optimal counter-attack window is the instant the opponent lifts their sweeping foot from the mat to initiate the arc toward your ankle. At this moment, they are standing on a single support leg with their weight committed to the sweep direction, making them highly vulnerable to forward pressure. A well-timed Ouchi Gari or forward drive into their support leg exploits their compromised base. This window is narrow—too early and they haven't committed, too late and the sweep has already connected. Reading the angular positioning and grip tightening that precede the sweep helps you anticipate this moment.
-
-**Q4**: How does stance width affect your vulnerability to Deashi Harai, and what is the optimal defensive stance?
-**A**: A stance that is too narrow makes you unstable and easy to off-balance with grip manipulation, while a stance that is too wide creates long, committed weight transfers between steps that give the opponent large timing windows. The optimal defensive stance is approximately shoulder-width with a slight stagger, knees bent to lower center of gravity, and weight distributed 50/50 between both feet on the balls of your feet. This allows rapid weight redistribution without committing fully to either leg. Crucially, avoid locking into any single stance configuration—keep your feet alive with subtle adjustments.
-
-**Q5**: What is the difference between defending Deashi Harai in gi versus no-gi, and how should your defensive priorities shift?
-**A**: In gi, the opponent has persistent sleeve and collar grips that allow sustained kuzushi control, meaning the threat is ongoing as long as grips are maintained. Your primary defense is grip fighting to deny the controlling configuration. In no-gi, the opponent relies on collar ties, wrist control, and overhooks that are more transient and easier to break but require closer distance. No-gi Deashi Harai typically comes from clinch range with less warning. Your defensive priorities shift from grip breaking (gi) to distance management and head position (no-gi), since the collar tie is the primary control mechanism that replaces the gi collar grip.
-
-
-
-</section>
 
 
 </main>

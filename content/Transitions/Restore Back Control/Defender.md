@@ -158,6 +158,8 @@ The most critical defensive principle is continuous movement. Pausing during an 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Restore Back Control?</p>
+
 - Attacker drives chest deeper into your back after you clear a hook, signaling restoration attempt
 - Attacker's leg begins curling back under your thigh to re-insert a cleared hook
 - Attacker switches grip from compromised seat belt to collar or gift wrap, indicating grip recovery phase
@@ -169,6 +171,8 @@ The most critical defensive principle is continuous movement. Pausing during an 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Restore Back Control?</p>
 
 - Never pause during an escape—continuous movement prevents the attacker from readjusting
 - Clear hooks and grips in rapid sequence rather than addressing one at a time
@@ -183,6 +187,8 @@ The most critical defensive principle is continuous movement. Pausing during an 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Restore Back Control?</p>
 
 ### 1. Accelerate the turn by explosively rotating your torso toward the underhook side while framing on their choking arm
 
@@ -213,6 +219,8 @@ The most critical defensive principle is continuous movement. Pausing during an 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Restore Back Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Complete the turn to face opponent before they restore both hooks. Establish half guard by trapping one of their legs between yours during the transition. The half guard provides a stable recovery position.
@@ -228,6 +236,8 @@ Clear both hooks and break chest connection to establish a neutral turtle positi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Restore Back Control?</p>
 
 ### 1. Pausing after clearing one hook instead of continuing the escape sequence
 
@@ -252,6 +262,8 @@ Clear both hooks and break chest connection to establish a neutral turtle positi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Restore Back Control?</p>
+
 **Phase 1: Escape Continuation Drilling** - Maintaining escape momentum against restoration attempts
 Start from partially escaped back control. Partner attempts to restore while you focus on continuous movement and completing the escape. 20 repetitions with increasing resistance.
 
@@ -265,29 +277,6 @@ Start from partially compromised back control with partner attempting full resto
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is continuous movement essential when the attacker attempts to restore back control?
-**A**: Continuous movement prevents the attacker from executing their restoration hierarchy. They need momentary stability to re-insert hooks, tighten chest contact, and recover grips. If you keep moving, they must constantly adjust rather than executing restoration steps. Pausing gives them the time window needed to re-insert a hook or switch grips, which resets your escape progress.
-
-**Q2**: What should your immediate priority be when you feel the attacker's chest pressing deeper into your back during your escape?
-**A**: Create hip distance immediately. The attacker is prioritizing chest connection because it is their primary anchor for restoration. Drive your hips away from them by scooting forward or bridging to create space. Once chest connection is broken, their hooks and grips become much less effective. Do not stop to fight their grips—address the chest pressure first.
-
-**Q3**: How do you exploit the attacker's grip switch during restoration?
-**A**: When the attacker switches grips (e.g., from seat belt to collar), there is a brief moment where their upper body control is reduced. Use this window to accelerate your turn or clear a hook. The grip switch requires them to release one control point to establish another, creating a transition gap. Timing your explosive escape movement to coincide with their grip switch maximizes your success rate.
-
-**Q4**: You have cleared both hooks but the attacker still has a strong seat belt grip—what escape sequence should you follow?
-**A**: With both hooks cleared, your legs are free to move but the seat belt maintains upper body connection. First, scoot your hips forward and away to stretch out the chest-to-back connection, making the seat belt the only remaining control point. Then use two-on-one grip fighting on the choking arm to break or weaken the seat belt. As the grip loosens, immediately turn toward the underhook side to face the opponent. The key is creating maximum hip distance before committing to the turn, because the seat belt without hooks lacks the lower body control to follow your rotation effectively.
-
-**Q5**: What neck protection must you maintain while using your hands to strip a re-inserting hook?
-**A**: When committing a hand to hook defense, you must keep your chin tucked tightly to your chest and your opposite shoulder elevated to close the gap on the choking side. The hand defending the hook should work quickly with a short, decisive push on the foot rather than an extended grip fight that leaves your neck exposed for multiple seconds. Ideally, use the hand on the same side as the re-inserting hook so your opposite arm remains available for neck defense. If both hands must momentarily leave neck defense, bunch your shoulders up toward your ears and tuck your chin maximally to create a structural barrier that buys you the fraction of a second needed to complete the hook strip.
-
-
-
-</section>
 
 
 </main>

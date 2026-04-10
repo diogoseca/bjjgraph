@@ -188,6 +188,8 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing S Mount to Mounted Triangle?</p>
+
 - Recognize armbar defense as a triangle opportunity rather than forcing a contested submission against a well-defended arm
 - Maintain continuous two-on-one arm control throughout the transition to prevent the opponent from extracting their arm during the threading motion
 - Adjust hip angle before threading the leg to create the path under the chin without lifting your weight off the opponent's torso
@@ -202,6 +204,8 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting S Mount to Mounted Triangle?</p>
+
 - Established S Mount control with your near leg extended over the opponent's head and foot planted firmly on the mat
 - Opponent's near arm is isolated between your legs and they are actively defending the armbar by bending the arm or clasping hands
 - Your hips are tight against the opponent's shoulder with sufficient weight preventing them from creating escape space
@@ -214,6 +218,8 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute S Mount to Mounted Triangle step by step?</p>
 
 1. **Recognize the armbar defense pattern**: Observe the opponent bending their trapped arm, clasping hands together, or gripping their own collar to prevent arm extension. This defensive reaction positions their arm inside the triangle space and signals the transition opportunity. Do not continue forcing the armbar against this defense.
 2. **Secure arm control with both hands**: Establish two-on-one control on the opponent's trapped arm at the wrist and elbow. This prevents them from extracting the arm during the transition. Your grip does not need to extend the arm for armbar; it only needs to keep the arm positioned between your legs where it will be trapped by the triangle.
@@ -243,6 +249,8 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter S Mount to Mounted Triangle?</p>
+
 - **Opponent straightens their trapped arm explosively to extract it before the triangle locks** (Effectiveness: High) - Your Response: Immediately switch back to the armbar attack on the now-extended arm. Their attempt to escape the triangle by straightening the arm creates the exact opening the armbar requires. Maintain wrist control and pivot hips to secure the armbar before they can re-bend. → Leads to [[Positions/Mount/S Mount]]
 - **Opponent bridges explosively during the hip adjustment phase to displace your base** (Effectiveness: High) - Your Response: Post your free foot wide on the mat to absorb the bridge momentum and drive your hips back down into their shoulder. If the bridge is powerful enough to displace you, abandon the triangle attempt and secure standard mount before they can recover guard. Do not chase the triangle from an unstable base. → Leads to [[Positions/Half Guard]]
 - **Opponent uses their free arm to block your leg from threading under their chin** (Effectiveness: Medium) - Your Response: Control or pin their blocking arm with your near hand, pushing it across their body or trapping it against your hip. Alternatively, use the arm push variant by driving their blocking arm across their centerline, which simultaneously removes the block and positions the arm for the triangle. If their arm is persistent, consider the gift wrap entry. → Leads to [[Positions/Mount/S Mount]]
@@ -255,6 +263,8 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing S Mount to Mounted Triangle?</p>
 
 ### 1. Forcing the armbar against a well-defended bent arm instead of recognizing the triangle opportunity
 
@@ -299,6 +309,8 @@ Attacking the mounted triangle from S Mount requires recognizing the specific de
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train S Mount to Mounted Triangle (Attacker)?</p>
+
 **Phase 1: Mechanics** - Leg threading motion and figure-four lock
 Practice the isolated leg threading motion from S Mount with a compliant partner. Focus on sliding the calf under the chin without lifting your hips, locking the figure-four, and adjusting the angle. Perform 20 repetitions per side until the motion is smooth and automatic. No resistance from partner at this phase.
 
@@ -319,42 +331,12 @@ Begin in S Mount with a fully resisting partner. Work to achieve either the armb
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent clasps their hands together to defend the armbar from S Mount - what is the optimal next action?
-**A**: Immediately transition to the mounted triangle by threading your head-side leg under their chin. Their clasped hands fix both arms in a bent position that is ideal for the triangle trap. Maintain wrist control on the near arm, adjust your hip angle slightly toward their head, and slide your calf under their chin. Their armbar defense has created the perfect opening for the triangle, and attempting to break their grip for the armbar is lower percentage than accepting the triangle gift.
-
-**Q2**: What is the most critical hip movement during the S Mount to Mounted Triangle transition?
-**A**: The subtle forward hip scoot toward the opponent's head that creates the angle for leg threading. This is not a dramatic hip lift or rotation but a five-to-ten degree angle adjustment where your hips slide forward along their body. The key constraint is that your weight must stay on their torso throughout this adjustment. Lifting your hips creates the space they need to bridge or extract their arm. Think of it as shifting your center of gravity forward, not upward.
-
-**Q3**: Why must you lock the figure-four before attempting to finish the triangle from mounted position?
-**A**: The figure-four lock is the structural foundation that creates mechanical choking pressure. Without it, you are simply squeezing with your legs, which is energy-intensive and produces minimal pressure on the carotid arteries. The locked configuration redirects your squeezing force into the precise angle needed for the blood choke. Additionally, attempting to finish without the lock leaves your legs vulnerable to being separated by the opponent's defensive framing, collapsing the entire position.
-
-**Q4**: Your opponent posts their free hand against your hip to block the leg threading motion - how do you adjust?
-**A**: Control their blocking arm by pinning it with your near hand or pushing it across their centerline. The arm push variant is particularly effective here: drive their forearm across their body toward the far side, which simultaneously removes the blocking frame and positions the arm inside the triangle space. If they resist the arm push strongly, switch to controlling their wrist and peeling it off your hip before re-attempting the thread. Never force the leg past a strong frame.
-
-**Q5**: What grip must you maintain throughout the entire transition from S Mount to Mounted Triangle?
-**A**: Wrist control on the opponent's trapped arm is the non-negotiable grip. This grip prevents arm extraction during the vulnerable threading phase when your leg configuration is changing and the triangle is not yet locked. Releasing the wrist to post for balance or adjust position is the single most common reason this transition fails. Train to maintain the wrist grip with one hand while using your other hand and your core for balance and secondary control tasks.
-
-**Q6**: The opponent begins a powerful bridge just as you start adjusting your hip angle - what is your immediate response?
-**A**: Post your free foot wide on the mat on the side they are bridging toward to create a structural brace against their upward force. Drive your hips back down into their shoulder to re-establish the weight connection. If the bridge is powerful enough to seriously compromise your base, abandon the triangle attempt entirely and drop back to standard mount to consolidate. Never continue the threading motion from an unstable base, as this almost always results in being swept to half guard bottom or worse.
-
-**Q7**: How does the direction of force differ between the armbar attack and the triangle entry from S Mount?
-**A**: The armbar applies force by extending the opponent's arm perpendicular to their body, using hip elevation to hyperextend the elbow joint. The triangle entry redirects force from arm extension to neck compression, threading the leg in a lateral arc under the chin rather than driving the hips upward. The armbar pulls the arm away from the body while the triangle wraps around the neck and arm together. Understanding this directional shift is essential because the transition requires changing your mechanical focus from pulling outward on the arm to wrapping inward around the neck.
-
-**Q8**: Your opponent successfully defends three consecutive triangle attempts by keeping their chin tucked and free arm framing - what strategic adjustment should you make?
-**A**: Return to the armbar attack to reset the defensive dilemma. If the opponent has become highly effective at defending the triangle, attacking the armbar forces them back into the arm defense that originally opened the triangle. The power of this chain comes from alternation, not repetition. Additionally, consider the gift wrap variant which neutralizes their free arm framing, or use the arm push to forcibly reposition their blocking arm. If the position has become a stalemate, return to standard mount to rest and re-approach the S Mount with a fresh attack angle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for S Mount to Mounted Triangle?</p>
 
 The S Mount to Mounted Triangle transition involves neck compression and potential cervical spine stress. Partners should establish clear tap signals before drilling. The leg threading motion must be controlled and deliberate to avoid striking the opponent's face or jaw. Once the triangle is locked, apply choking pressure gradually to allow time for the tap. Never crank or twist the neck during the transition. In training, release immediately upon any tap signal, verbal or physical. Be especially careful when drilling with less experienced partners who may not recognize the choking pressure building before it becomes dangerous.
 

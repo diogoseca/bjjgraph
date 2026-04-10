@@ -162,6 +162,8 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Truck Entry?</p>
+
 - Attacker shifts from standard turtle top pressure to perpendicular positioning across your back, angling their hips toward yours
 - You feel the attacker's leg beginning to thread under your hips or between your legs, with their shin sliding across your centerline
 - Attacker establishes seatbelt or over-under arm control while simultaneously adjusting hip angle, indicating imminent hook attempt
@@ -174,6 +176,8 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Truck Entry?</p>
 
 - Deny hip space by keeping hips low and tight to prevent leg hook threading
 - Fight grip establishment aggressively before seatbelt control consolidates
@@ -189,6 +193,8 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Truck Entry?</p>
 
 ### 1. Sit back to guard immediately when you feel perpendicular angle being established
 
@@ -226,6 +232,8 @@ Defending the Truck Entry requires early recognition and immediate hip managemen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Truck Entry?</p>
+
 ### → [[Positions/Turtle]]
 
 Deny the entry early by sitting back to guard, flattening hips, or stripping the threading leg before it establishes. This returns the exchange to a standard turtle top versus turtle bottom scenario where the attacker must find a new attack.
@@ -241,6 +249,8 @@ Execute a granby roll or explosive hip escape when the attacker commits to the e
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Truck Entry?</p>
 
 ### 1. Remaining static in turtle and allowing the attacker to methodically set up each phase of the entry
 
@@ -275,6 +285,8 @@ Execute a granby roll or explosive hip escape when the attacker commits to the e
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Truck Entry?</p>
+
 **Week 1-2: Recognition and Early Defense** - Identifying Truck Entry setups and practicing immediate defensive responses
 Partner slowly sets up the Truck Entry while you practice recognizing each phase: perpendicular positioning, hip lift, leg threading. At each phase, practice the appropriate defense: sit back for early recognition, flatten hips when you feel the lift, strip the leg when threading begins. Drill at 25% speed with verbal cues from partner.
 
@@ -291,29 +303,6 @@ During regular sparring, deliberately allow opponents to reach turtle top and pr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment to defend against a Truck Entry and why?
-**A**: The most critical defensive moment is before the leg hook threads past your centerline. Once the attacker's shin passes completely under your hips with their foot emerging on the far side, the hook becomes structurally locked by your own body weight and is extremely difficult to remove. Defending early by flattening hips, sitting back, or stripping the threading leg is dramatically more effective than trying to escape after the hook is established. Early recognition of the perpendicular angle setup is therefore the key to successful defense.
-
-**Q2**: Your opponent has established a partial hook but does not yet have seatbelt control - what should you prioritize?
-**A**: Prioritize removing the partial hook immediately before the attacker can add upper body control. Use your hands to push their foot back under your hips while simultaneously sitting back toward guard or flattening your hips to deny the hook deepening. Once the attacker adds seatbelt control to an established hook, escape probability drops significantly because they can initiate the roll. The window between partial hook and complete entry is your best opportunity to abort their attack.
-
-**Q3**: How does flattening your hips defend against Truck Entry and what are the tradeoffs?
-**A**: Flattening your hips removes the space under your body that the attacker needs to thread their leg hook. Without this space, their shin cannot pass under your torso and the hook cannot be established. However, the tradeoff is significant: a flattened turtle position is vulnerable to Crucifix entries where the attacker traps your arm, and it makes guard recovery harder because your hips are pinned. You should use hip flattening as a temporary defensive measure and immediately work to recover turtle structure or sit back to guard afterward.
-
-**Q4**: The attacker has fully established the Truck position with deep hook and seatbelt - what is your best defensive strategy?
-**A**: Once Truck is fully established, your immediate priority shifts to defending submissions (neck protection for Twister, leg defense for Calf Slicer) while working to clear the boot pressure on your hip. Address the boot first by using your free hand to fight it while the other hand protects your neck. If you can reduce the boot pressure, attempt a granby roll or hip escape to create enough space to extract your trapped leg. Accept that escape from a fully locked Truck is low-percentage and focus on preventing the finish while looking for moments of loosened control.
-
-**Q5**: Why is sitting back to guard the highest-percentage defense against Truck Entry?
-**A**: Sitting back to guard works because it fundamentally removes the conditions the attacker needs: your turtle base and the space under your hips. By dropping your hips backward and turning to face the attacker, you simultaneously deny the threading angle, remove available hip space, and transition to a guard position where the attacker must start a new passing sequence. The motion must be initiated early, before the hook is established, because once the hook is in, sitting back can actually assist the attacker's roll by providing rotation in their desired direction.
-
-
-
-</section>
 
 
 </main>

@@ -156,6 +156,8 @@ Defending against your opponent's elbow escape requires early recognition and im
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elbow Escape from Back?</p>
+
 - Opponent establishes a two-on-one grip on your choking arm, pulling it away from their neck and redirecting it downward
 - Opponent's elbow begins pressing against the inside of your top hook, creating a wedge-like frame between their hip and your leg
 - Opponent's hips start sliding incrementally downward away from your hip-to-hip connection, indicating the hip escape has begun
@@ -167,6 +169,8 @@ Defending against your opponent's elbow escape requires early recognition and im
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elbow Escape from Back?</p>
 
 - Maintain constant hip-to-hip connection with forward pressure to prevent the opponent from creating space for downward hip escape
 - Drive hooks deep with active heel pressure inside the opponent's thighs to resist elbow frames and maintain secure leg control
@@ -181,6 +185,8 @@ Defending against your opponent's elbow escape requires early recognition and im
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elbow Escape from Back?</p>
 
 ### 1. Tighten seatbelt grip and drive hips forward while deepening both hooks simultaneously
 
@@ -211,6 +217,8 @@ Defending against your opponent's elbow escape requires early recognition and im
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elbow Escape from Back?</p>
+
 ### → [[Positions/Back Control]]
 
 Tighten hooks and seatbelt immediately upon sensing the earliest escape cues, maintaining relentless hip-to-hip connection and heavy forward pressure to deny any space creation throughout the escape attempt
@@ -226,6 +234,8 @@ When one hook is cleared and the opponent commits to turning, flow with their ro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elbow Escape from Back?</p>
 
 ### 1. Continuing to attack submissions aggressively instead of addressing positional control when the escape attempt begins
 
@@ -255,6 +265,8 @@ When one hook is cleared and the opponent commits to turning, flow with their ro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elbow Escape from Back?</p>
+
 **Phase 1: Recognition Training** - Identifying early escape cues through tactile awareness
 Partner performs the elbow escape at slow speed while you focus on identifying each phase through feel rather than sight. Close your eyes during drills to develop sensitivity to grip changes, hip movement initiation, and elbow frame pressure. Build automatic recognition of the escape sequence at its earliest stages.
 
@@ -271,29 +283,6 @@ Full-speed positional sparring from back control where the bottom player uses al
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that your opponent is beginning an elbow escape attempt?
-**A**: The earliest cue is when the opponent begins two-on-one grip fighting on your choking arm combined with subtle controlled hip shifting downward. This grip fight signals they are methodically securing neck defense as the precursor to the framing phase, rather than the panicked arm flailing associated with less organized escape attempts.
-
-**Q2**: How should you adjust your hook depth when you feel an elbow frame building pressure against your top leg?
-**A**: Drive your hook deeper by actively pulling your heel toward the opponent's far hip, increasing muscular engagement to resist the elbow frame. Simultaneously drive your hips forward to maintain hip-to-hip connection and eliminate the space the opponent needs for their downward hip escape. The combination of deeper hooks and forward hip pressure counters both the frame leverage and the hip escape direction.
-
-**Q3**: At what point during the escape should you transition to mount instead of fighting for back control?
-**A**: Transition to mount when the opponent has cleared one hook and their body rotation has sufficient momentum that re-establishing the hook is unlikely before they complete the turn. The decision point is when you feel their hips rotate past approximately forty-five degrees toward facing you. At this angle, fighting for back control is lower percentage than flowing with their turn to establish mount.
-
-**Q4**: What seatbelt adjustment prevents the opponent from successfully stripping your harness grip during the escape?
-**A**: Clasp your hands tightly together at the centerline of the opponent's chest with your choking arm over their shoulder and control arm under their armpit. When they begin stripping, drive your chest pressure forward into their back to create compression that makes grip breaking mechanically harder. You can also switch to a higher seatbelt position with your choking arm across their throat.
-
-**Q5**: How does early recognition of the two-on-one grip fight inform your immediate defensive response?
-**A**: Recognizing the two-on-one grip fight as the first phase of a systematic elbow escape tells you the opponent has shifted from panicked defense to organized escape methodology. This should trigger immediate tightening of all control points: deepen hooks, increase forward hip pressure, re-secure seatbelt with maximum chest-to-back connection, and consider proactive body triangle transition before the framing phase begins.
-
-
-
-</section>
 
 
 </main>

@@ -130,7 +130,7 @@
       },
       {
         "step_number": 3,
-        "action": "Read Opponent's Weight Distribution",
+        "action": "Read Opponent's Center of Gravity",
         "description": "Assess whether the opponent's weight is driving forward aggressively (overhead sweep), centered with moderate pressure (lateral bridge), or shifting to one side (leg hook reversal). This read determines which variant you execute and must happen rapidly, within one to two seconds of grip establishment."
       },
       {

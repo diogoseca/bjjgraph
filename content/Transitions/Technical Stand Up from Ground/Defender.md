@@ -154,6 +154,8 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Technical Stand Up from Ground?</p>
+
 - Opponent pushes forcefully against your shoulders or chest with extended arms to create distance for posting
 - One hand reaches behind the hip to plant flat on the mat in preparation for the posting base
 - Weight shifts to one hip as the body turns slightly sideways to align posting hand and support foot
@@ -165,6 +167,8 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Stand Up from Ground?</p>
 
 - Maintain consistent forward pressure to deny the space needed for framing and posting
 - Control at least one grip on collar, sleeve, or pant leg to tether the opponent to the ground
@@ -179,6 +183,8 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Technical Stand Up from Ground?</p>
 
 ### 1. Drive forward with heavy chest pressure to collapse their frames before they can establish a post
 
@@ -216,6 +222,8 @@ From the defender's perspective, preventing the Technical Stand Up from Ground r
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Technical Stand Up from Ground?</p>
+
 ### → [[Positions/Standing Guard]]
 
 Maintain persistent forward pressure and grip control to deny the bottom player space for framing and posting. Immediately re-close distance any time they push you away, and control their sleeves or collar to prevent the posting hand from reaching the mat.
@@ -231,6 +239,8 @@ Time a takedown or snap-down during the kick-through phase when the opponent's b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Stand Up from Ground?</p>
 
 ### 1. Allowing too much distance without applying forward pressure or grip control
 
@@ -260,6 +270,8 @@ Time a takedown or snap-down during the kick-through phase when the opponent's b
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Technical Stand Up from Ground?</p>
+
 **Phase 1: Recognition and Timing** - Identifying cues and counter-timing windows
 Partner performs technical stand ups at slow speed while you focus on recognizing each preparatory cue: framing, posting hand placement, weight shift, and kick-through initiation. Practice calling out each phase as it occurs to develop pattern recognition. No active countering during this phase.
 
@@ -276,26 +288,6 @@ Start with partner in seated position and you standing or in combat base. Partne
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most reliable cue that signals a technical stand up attempt is imminent?
-**A**: The earliest reliable cue is the opponent creating distance through forceful framing against your shoulders or chest. This pushing action is the mandatory first step before any technical stand up because the opponent needs space to plant their posting hand. If you feel strong pushing pressure from their arms, they are likely preparing to post and initiate the stand up. Responding immediately to this distance creation attempt is the most effective way to prevent the technique before it begins.
-
-**Q2**: When is the optimal timing window to counter the technical stand up with a takedown?
-**A**: The optimal counter-timing is during the kick-through phase when the opponent's weight is transitioning between their posting hand and support foot, and their legs are reorganizing underneath them. At this precise moment, their base is at its narrowest and most unstable, making them extremely vulnerable to forward pressure or a well-timed shot. Attacking too early means they can abort and recover guard, while attacking too late means they have already established standing base and can defend.
-
-**Q3**: How should you adjust your pressure strategy if the opponent successfully creates distance with their frames?
-**A**: If the opponent creates distance, do not simply drive straight forward into their extended frames, as this plays into their structure. Instead, angle your approach laterally to bypass the frames, or use grip fighting to strip their framing hands before re-closing distance. Control their wrists or sleeves to prevent re-framing, then apply pressure from an angle that their frames cannot effectively resist. Speed of re-engagement is critical - close the gap before they can establish the posting hand position.
-
-**Q4**: What grip should you prioritize to make the technical stand up most difficult for your opponent?
-**A**: Prioritize controlling the opponent's posting-side sleeve or wrist, as this directly prevents them from planting the hand that serves as the structural foundation for the entire stand up sequence. Without the posting hand, the opponent cannot safely elevate their hips or execute the kick-through. Secondary priority is a collar grip on the same side, which allows you to apply downward pressure and snap them back to the mat if they attempt to rise. Controlling both the sleeve and collar on the posting side effectively eliminates the technical stand up as an option.
-
-
-
-</section>
 
 
 </main>

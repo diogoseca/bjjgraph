@@ -162,6 +162,8 @@ From the defender perspective, preventing the Matrix escape represents a critica
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Matrix Position?</p>
+
 - Opponent's rotational momentum visibly decelerating or stopping entirely during the Matrix roll
 - Opponent tucking their chin and bringing hands toward their neck or face rather than continuing to reach for hooks
 - Hip movement shifting from rotational arc to downward retraction toward the mat
@@ -174,6 +176,8 @@ From the defender perspective, preventing the Matrix escape represents a critica
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Matrix Position?</p>
 
 - Maintain constant forward pressure throughout the opponent's escape attempt to deny them space for recovery
 - Follow the hip retraction with your own hip advancement to stay connected and prevent separation
@@ -188,6 +192,8 @@ From the defender perspective, preventing the Matrix escape represents a critica
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Matrix Position?</p>
 
 ### 1. Sprawl and drive hips into opponent's back to pin them in the stalled position
 
@@ -225,6 +231,8 @@ From the defender perspective, preventing the Matrix escape represents a critica
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Matrix Position?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the opponent's transition closely, maintaining chest-to-back connection throughout their recovery. Insert the bottom hook as their legs retract from the Matrix rotation and before they can tighten their turtle. Establish seatbelt control first, then work for the second hook. The key timing window is during their roll to turtle when their legs are in motion.
@@ -240,6 +248,8 @@ Apply immediate heavy sprawl pressure the moment you recognize the stall, drivin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Matrix Position?</p>
 
 ### 1. Giving space by pulling away when the Matrix rotation stalls
 
@@ -269,6 +279,8 @@ Apply immediate heavy sprawl pressure the moment you recognize the stall, drivin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Matrix Position?</p>
+
 **Capitalization Timing** - Recognizing the escape initiation and responding immediately
 Partner attempts Matrix escapes at varying speeds while defender practices recognizing the exact moment to drive forward and follow. Focus on the perceptual trigger of rotation slowing and the physical response of immediate forward pressure. Execute 15 repetitions per round.
 
@@ -285,29 +297,6 @@ Start from stalled Matrix position. Opponent attempts escape while defender atte
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for capitalizing on a stalled Matrix escape?
-**A**: The most critical window is during the roll from stalled Matrix to turtle—approximately one to two seconds when the opponent's legs are in transit and their defensive structure is incomplete. Once they establish tight turtle with elbows to knees and chin tucked, your advantage drops significantly because you now face standard turtle attack challenges rather than exploiting a compromised opponent. Insert hooks and establish upper body control during this transition window before the turtle shell closes.
-
-**Q2**: How do you distinguish between a turtle recovery attempt and a guard pull redirect?
-**A**: Watch the hip direction during the escape. Turtle recovery shows hips retracting downward toward the mat with the opponent pulling their knees under their body—this creates a vertical descent toward four-point base. Guard pull redirect shows hips continuing to rotate with the opponent threading their legs between your legs or around your torso—this maintains horizontal momentum. The distinction appears in the first half-second of the escape and determines whether you should follow for back control or prepare to defend against guard establishment.
-
-**Q3**: Your opponent begins the escape and you successfully insert one hook—what is your immediate priority?
-**A**: Immediately establish seatbelt or harness upper body control before pursuing the second hook. A single hook without upper body control is easily stripped by the opponent extending their leg or continuing their roll. The seatbelt locks their torso relative to yours, preventing the rotation and movement they need to clear the hook. With seatbelt established, the second hook insertion becomes significantly easier because the opponent's movement options are constrained by your upper body connection.
-
-**Q4**: Why is forward pressure more effective than attempting immediate submissions during the escape transition?
-**A**: During the escape transition, the opponent is moving dynamically and their body position changes rapidly—this makes submission grips unreliable and easy to shake loose. Forward pressure, by contrast, accomplishes the critical objective of denying them the space and time needed to complete their recovery. A failed submission attempt during the transition often results in losing all contact with the opponent as they use the space created by your grip change to complete their escape. Secure position first through pressure and control, then attack submissions from the established dominant position.
-
-**Q5**: The opponent successfully reaches turtle despite your pressure—what is your adjusted game plan?
-**A**: Transition immediately to standard turtle attack protocol rather than continuing to treat the situation as a stalled Matrix capitalization. Establish chest pressure on their upper back, begin grip fighting for seatbelt or harness control, and work your standard back take sequence with hook insertion. The advantage you still retain is that you are already in tight contact and the opponent has just expended energy on the escape, so their defensive reactions may be slightly delayed. Do not allow frustration at the missed capitalization window to cause reckless attacks.
-
-
-
-</section>
 
 
 </main>

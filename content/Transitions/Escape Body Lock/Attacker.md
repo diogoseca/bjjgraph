@@ -188,6 +188,8 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Body Lock?</p>
+
 - Attack the grip before it fully sets - prevention requires far less energy than escape
 - Target the weakest structural point of the locked grip with two-on-one hand fighting
 - Generate escape force through explosive hip movement and whole-body mechanics, never arm strength alone
@@ -203,6 +205,8 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Body Lock?</p>
+
 - Opponent has established locked grip around your torso from behind in standing position
 - At least one hand is free to initiate grip fighting against opponent's locked hands
 - Sufficient base stability to generate explosive hip movement without being immediately thrown
@@ -214,6 +218,8 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Body Lock step by step?</p>
 
 1. **Establish Defensive Base**: Immediately widen your stance to at least shoulder width, bend your knees deeply to lower your center of gravity, and drive your weight downward through your feet. This base prevents your opponent from lifting you for throws or driving your posture backward. Your stance must be athletic and loaded for explosive movement.
 2. **Identify Grip Configuration**: Reach behind with both hands to feel your opponent's grip and identify whether they are using a gable grip, butterfly grip, or S-grip. Each configuration has a distinct weakest point. The gable grip breaks most easily when attacked at the thumb junction, while the butterfly grip is vulnerable where the fingers overlap.
@@ -244,6 +250,8 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Body Lock?</p>
+
 - **Opponent re-locks grip immediately after your break attempt** (Effectiveness: High) - Your Response: Do not pause after a failed break - immediately chain into a second attempt from a different angle or transition to a guard pull if grip re-establishment is too fast → Leads to [[Positions/Body Lock]]
 - **Opponent transitions to back control during your hip switch by inserting hooks** (Effectiveness: High) - Your Response: If you feel hooks being inserted during the hip switch, immediately sit and fight the hooks rather than continuing the standing escape. Strip the bottom hook first while keeping elbows tight → Leads to [[Positions/Back Control]]
 - **Opponent drives heavy forward pressure to collapse your base during escape** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by dropping to turtle while stripping their grip, or execute a controlled guard pull to prevent a chaotic takedown into a worse position → Leads to [[Positions/Body Lock]]
@@ -255,6 +263,8 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Body Lock?</p>
 
 ### 1. Using only arm strength to break the locked grip
 
@@ -294,6 +304,8 @@ As the attacker executing the Escape Body Lock, your objective is to break your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Body Lock (Attacker)?</p>
+
 **Phase 1: Grip Breaking Mechanics** - Isolated grip identification and two-on-one breaking technique
 Partner establishes various locked grip configurations (gable, butterfly, S-grip) at progressive resistance levels. Practice identifying grip type by feel and executing two-on-one breaks targeting the weakest structural point. Build to full resistance over multiple sessions.
 
@@ -314,42 +326,12 @@ Simulate competition conditions with body lock entries from live wrestling excha
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the body lock escape?
-**A**: The optimal window is within the first 1-2 seconds of your opponent locking their grip, before they can establish full chest-to-back connection and drive hip pressure. During this brief window, their grip has not yet fully tightened and their body positioning may still be adjusting. Every additional second they maintain the body lock increases their control and decreases your escape probability significantly. If the initial window passes, you must create your own window through explosive movement rather than waiting.
-
-**Q2**: Why is the hip switch more effective than pulling directly away from your opponent?
-**A**: Pulling directly backward fights against the strongest axis of their grip and body connection - they have two locked arms and their entire body weight driving forward. The hip switch creates lateral angular displacement that attacks a perpendicular axis where their grip provides minimal resistance. The rotational force also breaks the chest-to-back connection that provides their primary control, as their chest cannot follow a lateral hip switch as easily as it can follow a linear pull. This angular attack multiplies your force advantage significantly.
-
-**Q3**: What grip configuration weakness should you target when opponent uses a gable grip?
-**A**: The gable grip's weakest point is where the thumbs meet at the junction of the palms. Attack this point by driving your two-on-one grip against one hand at the thumb line, peeling it away from the other hand. The gable grip provides excellent compressive strength but is vulnerable to forces that separate the palms laterally at the thumb junction. Combine the grip attack with a hip bump to add whole-body force to the peeling motion rather than relying on arm strength alone.
-
-**Q4**: When should you accept turtle position rather than fighting for a full standing escape?
-**A**: Accept turtle when your standing escape attempts have failed for 2-3 seconds and opponent's pressure is overwhelming, when you feel a throw or suplex being initiated and controlled descent is safer than being thrown, or when your grip break succeeds but opponent maintains enough connection to prevent you from turning to face them. Turtle is a tactical retreat that preserves your options rather than a surrender - it removes the throwing and lifting threats while giving you established escape paths from a known defensive position.
-
-**Q5**: What is the most critical mechanical detail in the two-on-one grip break?
-**A**: The most critical detail is pulling their hand across your body toward your opposite hip rather than pushing it away from you. Pulling across your body uses your stronger pulling muscles and torso rotation, while pushing away isolates your weaker pushing muscles against their combined grip strength. The cross-body pull also naturally integrates with the hip switch, creating a unified movement where the grip break and angular displacement happen simultaneously rather than sequentially.
-
-**Q6**: Your opponent's grip breaks but they immediately reach to re-lock - how do you respond?
-**A**: Use the momentary freedom to immediately change your body angle rather than trying to completely disengage. Even a brief grip break creates a window where their control is compromised. Execute a sharp hip switch or quarter turn during this window so that when they re-lock, they are in a less optimal position. Each successive break-and-relock cycle should leave them with a progressively worse angle until you can create enough space for a full escape or force them to abandon the body lock attempt entirely.
-
-**Q7**: How does the direction of your hip switch affect which escape outcome you achieve?
-**A**: Switching your hips toward the side of opponent's over-arm (the arm over your shoulder in the body lock) tends to create more space for turning to face them and recovering to clinch, as you move into the gap created by their arm position. Switching toward the under-arm side tends to result in turtle position, as the under-arm blocks your rotation and you naturally descend. Reading which arm is over and which is under determines the optimal escape direction and expected outcome.
-
-**Q8**: What defensive measure prevents your opponent from taking your back during the escape attempt?
-**A**: Keep your elbows tight to your body throughout the entire escape sequence, particularly during the hip switch and turning phase. Flared elbows create space for hook insertion. If you feel any leg threading between yours during the escape, immediately sit your hips to the mat and address the hook before continuing the standing escape. Maintaining chin-to-chest protects against chokes during the transition. The combination of tight elbows, seated hook defense, and chin tuck creates a defensive framework that limits back take opportunities.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Body Lock?</p>
 
 Explosive hip switching during the escape carries risk of lower back and oblique muscle strains, particularly when executed under load against a resisting opponent. When your opponent attempts throws during the escape, protect your neck by tucking your chin and controlling your fall trajectory. Tap immediately if a choking grip is secured during the scramble rather than fighting through a compromised position. During training, build intensity progressively and communicate with partners about resistance levels to prevent injury from unexpected explosive movements.
 

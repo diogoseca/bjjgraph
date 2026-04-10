@@ -166,6 +166,8 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crackhead Control to New York?</p>
+
 - Controlling leg pressure shifts from your neck or upper back downward toward your shoulder blades, signaling the beginning of leg repositioning
 - Bottom player's shin-gripping hand releases its grip on their own ankle, creating a momentary gap in their control circuit
 - Brief lightening of overall downward pressure as the bottom player's core engagement redirects from maintaining Crackhead position to facilitating the leg slide
@@ -178,6 +180,8 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crackhead Control to New York?</p>
 
 - Exploit the transitional window when shin grip is released - this is your highest percentage escape moment
 - Posture recovery attempts must begin the instant you feel the controlling leg shift from your neck
@@ -192,6 +196,8 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crackhead Control to New York?</p>
 
 ### 1. Explosive posture recovery during shin grip release - drive chest up and hips back the instant you feel the controlling leg lighten
 
@@ -229,6 +235,8 @@ Your defensive strategy should be calibrated to the transition's progress. Early
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crackhead Control to New York?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Time your posture recovery to the exact moment the shin grip releases. Drive your chest forward and up while pushing your hips back, using your free hand to frame on their hip. The bottom player's controlling leg is in transit and cannot resist your posture recovery. Once posture is established, the rubber guard structure collapses to standard closed guard where you have significantly better defensive and passing options.
@@ -240,6 +248,8 @@ Time your posture recovery to the exact moment the shin grip releases. Drive you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crackhead Control to New York?</p>
 
 ### 1. Remaining passive during the transition and allowing New York to consolidate without contesting
 
@@ -269,6 +279,8 @@ Time your posture recovery to the exact moment the shin grip releases. Drive you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crackhead Control to New York?</p>
+
 **Week 1-2** - Recognition drilling
 Partner initiates Crackhead to New York transitions at slow speed while you focus exclusively on identifying the recognition cues - shin grip release, leg pressure shift, hip rotation. Call out each cue verbally as you feel it. No escape attempts yet, purely sensory development.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting in Crackhead Control. Defend all tr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single highest percentage moment to attempt escape during the Crackhead Control to New York transition?
-**A**: The moment the bottom player releases their shin grip to begin leg repositioning. During this brief window of one to two seconds, their controlling leg has no anchored grip maintaining its position, their core engagement is redirected toward facilitating the movement, and their attention is divided between multiple tasks. This creates the maximum vulnerability in their guard structure that you can exploit with explosive posture recovery or forward pressure.
-
-**Q2**: Your opponent begins sliding their controlling leg from your neck toward your shoulder blades - should you drive forward or pull back?
-**A**: Drive forward. Forward pressure compresses the space the bottom player needs to reposition their leg and disrupts the sliding motion that defines this transition. Pulling backward creates space that actually assists their leg repositioning and gives the overhook more leverage to control your posture. The forward drive also opens opportunities to flatten them before New York consolidates, and if they redirect your pressure into Carni or Chill Dog setups, you can address those threats from a more structurally sound position.
-
-**Q3**: You feel the bottom player's free leg tighten its hook on your hip during the transition - what does this signal and how should you respond?
-**A**: The increased free leg pressure signals that the bottom player is compensating for the instability created by their primary leg repositioning. This confirms the transition is actively occurring. Respond by addressing the free leg hook first - use your same-side hand to strip or block the hook while simultaneously driving your weight forward. Removing this safety mechanism forces the bottom player to abort the transition or risk losing hip control entirely, which can lead to a complete guard collapse.
-
-**Q4**: How does your defensive approach change if you recognize the transition late and the New York shin grip has already been re-established?
-**A**: Once New York is consolidated, the transitional window has closed and you must now defend against a fully established position rather than a transition in progress. Shift your strategy to systematic New York escape: widen your base, begin grip fighting the shin-controlling hand to weaken the closed kinetic chain, and work toward overhook extraction through elbow retraction toward your hip. The escape becomes significantly harder and more time-consuming compared to intervention during the transition itself, which is why early recognition is critical.
-
-**Q5**: Why is contesting the shin re-grip with your free hand a viable late-stage defense despite the risk to your base?
-**A**: Without the shin grip completing the New York control structure, the bottom player's leg cannot maintain its position across your shoulder blades and will gradually slide off due to gravity and your posture recovery efforts. The shin grip is the mechanical keystone that transforms a loose leg position into a stable control platform. Even though reaching to contest the grip temporarily compromises your base, the payoff of preventing New York consolidation outweighs the sweep risk, particularly because you can immediately recover base once the grip is denied.
-
-
-
-</section>
 
 
 </main>

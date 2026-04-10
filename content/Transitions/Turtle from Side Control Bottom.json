@@ -85,12 +85,12 @@
       "relationship": "Alternative escape target accessible through hip escape rather than turning to turtle"
     },
     {
-      "name": "Escape Side Control Consolidation",
-      "relationship": "Related escape sequence from tighter side control variant with similar principles"
+      "name": "Side Control Escape",
+      "relationship": "Related escape sequence from side control with similar principles"
     },
     {
-      "name": "Hip Escape from Side Control Consolidation",
-      "relationship": "Alternative hip-escape-based method from consolidated side control position"
+      "name": "Hip Escape from Side Control",
+      "relationship": "Alternative hip-escape-based method from side control position"
     }
   ],
   "attacker": {

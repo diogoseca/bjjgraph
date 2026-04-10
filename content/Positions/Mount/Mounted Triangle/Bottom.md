@@ -171,6 +171,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mounted Triangle (Bottom)?</p>
+
 - Bottom player's back remains on mat with opponent's leg threaded over shoulder and under neck, creating triangle structure while opponent maintains superior positioning through partial mount or modified mount configuration
 - One arm is typically trapped inside the triangle structure between opponent's legs while the other arm remains free for defensive framing, though exact arm positioning varies based on triangle angle and opponent's control adjustments
 - Opponent's hips remain elevated and positioned to apply triangle pressure through leg squeeze and angle adjustment, while maintaining enough weight distribution to prevent explosive bridge escapes or reversal attempts
@@ -182,6 +184,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Mounted Triangle (Bottom)?</p>
+
 - Opponent successfully transitioned from mount to mounted triangle configuration
 - Bottom player failed to defend initial triangle setup from high mount or S mount
 - Triangle structure is established with leg over shoulder and opponent maintaining top position
@@ -192,6 +196,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mounted Triangle?</p>
 
 - Never panic - calm technical defense is essential for survival and escape
 - Protect the trapped arm immediately to prevent armbar finish
@@ -207,6 +213,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Mounted Triangle (Bottom)?</p>
 
 **If opponent has loose triangle structure without full lock:**
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Mount]] (Probability: 40%)
@@ -235,6 +243,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mounted Triangle?</p>
 
 ### 1. Panicking and thrashing randomly when caught in mounted triangle
 
@@ -274,6 +284,8 @@ Escape pathways generally involve either explosive bridging to disrupt the trian
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Mounted Triangle defense?</p>
+
 ### Mounted Triangle Defense Flow Drill
 
 Partner establishes mounted triangle with varying levels of tightness. Bottom player practices systematic defensive sequence: chin tuck, arm protection, frame creation, hip escape. Repeat 10 times per side focusing on calm execution under pressure.
@@ -306,38 +318,6 @@ Partner establishes mounted triangle and signals commitment to finishing angle. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins tightening the triangle lock - what is your immediate defensive priority?
-**A**: Immediately establish chin tuck by driving your chin down toward your chest and turning your head toward your trapped arm side. This reduces the angle available for the choke and buys time. Simultaneously, begin circulating your trapped arm by bending it tight to your body and gripping your own collar or their leg to prevent arm extension. These two actions address both submission threats (triangle and armbar) simultaneously.
-
-**Q2**: What are the essential defensive frames you need to create space for escape?
-**A**: Your free arm creates the primary frame by placing your forearm or hand against their hip on the side opposite your trapped arm. This prevents them from fully settling their weight and creates a structural barrier for space generation. Secondary framing involves using your trapped arm's elbow to create a wedge against their thigh, preventing full compression of the triangle. Both frames use skeletal structure rather than pushing with muscular effort.
-
-**Q3**: How do you recognize when the opponent's base is vulnerable enough for an explosive escape attempt?
-**A**: The opponent's base becomes vulnerable when they commit weight forward to finish the triangle (hips elevate, weight shifts toward your head), when they reach for finishing grips like grabbing their shin, or when they adjust angle and momentarily shift their posted leg. Feel for weight distribution changes through the pressure on your chest. When their hips lift significantly or they lean forward aggressively, that's your window for an explosive bridge toward their committed direction.
-
-**Q4**: What grip priorities protect you from both triangle and armbar simultaneously?
-**A**: Keep your trapped arm bent at approximately 90 degrees and grip either your own collar (gi), your own opposite bicep (no-gi), or their hip/leg to prevent arm extension. This protects against armbar. For triangle defense, your free hand should frame on their hip while your chin stays tucked. Never straighten your trapped arm or let it drift away from your body - this invites the armbar transition.
-
-**Q5**: How do you apply effective bridging pressure to disrupt the mounted triangle without giving up worse position?
-**A**: Bridge at a 45-degree angle toward the side where their bottom leg is posted, not straight up. This attacks their base at its weakest point. Time the bridge when they commit weight forward to finish. Drive through your feet explosively while turning into the bridge direction. If the bridge successfully disrupts their balance, follow through into guard recovery. If they base out, immediately reset frames rather than continuing to bridge ineffectively.
-
-**Q6**: Your opponent transitions from triangle attempt to armbar - how do you adjust your defense mid-transition?
-**A**: The transition to armbar requires them to release some triangle pressure and pivot their hips. Use this moment to bend your trapped arm aggressively and turn toward them, getting your elbow toward your hip. If possible, grip your own wrist with your free hand to create a two-on-one defense on your arm. Their hip pivot during the armbar transition often creates space for you to hip escape or turn into them, potentially recovering to mount bottom rather than armbar.
-
-**Q7**: How do you manage energy expenditure when trapped in mounted triangle for extended periods?
-**A**: Breathe deliberately through your nose, staying calm despite the pressure. Use frames to hold position rather than constantly pushing or bridging. Save explosive efforts for genuine escape opportunities rather than desperate thrashing. Accept that survival may require enduring discomfort while waiting for the right moment. Between escape attempts, relax your muscles while maintaining essential defensive structure. Mental composure is your primary energy management tool.
-
-**Q8**: You've partially escaped and created some space but haven't fully recovered guard - how do you consolidate your defensive gains?
-**A**: Immediately insert your knee as a shield between your bodies before they can recollapse the distance. Use your free arm to control their hip and prevent them from re-establishing mount pressure. Continue shrimping to create more space rather than pausing. If you can get to half guard, lock it immediately and establish proper half guard defense before they can remount. Never stop moving until you've achieved a stable defensive position with proper connection points.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

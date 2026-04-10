@@ -188,6 +188,8 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Technical Mount to S Mount?</p>
+
 - Arm control precedes rotation—never begin the hip rotation until two-on-one grip is fully secured on wrist and elbow with the arm extended
 - Rotate around the controlled arm as an axis, keeping hips tight to the opponent's shoulder throughout the entire movement
 - Maintain constant downward pressure during rotation to prevent the opponent from creating space or building defensive frames
@@ -202,6 +204,8 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Technical Mount to S Mount?</p>
+
 - Established Technical Mount with posted leg providing stable tripod base and foot flat on the mat
 - Opponent's arm fully isolated and controlled with two-on-one grip—wrist grip firm, elbow grip preventing retraction
 - Inside leg hooked underneath opponent maintaining connection and ready to transition across torso
@@ -214,6 +218,8 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Technical Mount to S Mount step by step?</p>
 
 1. **Confirm arm isolation and grip security**: Before initiating any rotation, verify that your two-on-one grip is secure with one hand controlling the wrist and the other controlling above the elbow. The opponent's arm should be extended and unable to bend. Test grip security by applying slight pulling pressure—if the arm moves freely with you, proceed.
 2. **Drive hips tight against opponent's shoulder**: Close any remaining gap between your hips and the opponent's shoulder on the attacked arm side. This hip-to-shoulder seal is critical—it prevents the opponent from retracting their arm during the rotation and creates the pivot point around which your body will turn. Your weight should pin their shoulder to the mat.
@@ -243,6 +249,8 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Technical Mount to S Mount?</p>
+
 - **Opponent retracts arm by bending elbow and gripping own collar during the rotation** (Effectiveness: High) - Your Response: If arm retraction begins during rotation, immediately abandon the S Mount transition and return to Technical Mount. Re-establish arm control before attempting the transition again. Do not chase a partially retracted arm while in an unstable mid-rotation position. → Leads to [[Positions/Mount/Technical Mount]]
 - **Opponent times an explosive hip escape during the weight shift, shrimping away from the controlled arm** (Effectiveness: Medium) - Your Response: Follow their hip movement by scooting your hips with them, maintaining the hip-to-shoulder seal. If they create significant space, decide quickly: either complete the rotation explosively to S Mount before they recover, or settle back into Technical Mount and reclaim the lost ground. → Leads to [[Positions/Mount/Technical Mount]]
 - **Opponent bridges explosively during the mid-rotation instability, attempting to reverse position** (Effectiveness: Medium) - Your Response: Ride the bridge by staying heavy on your posted leg and keeping your center of gravity low. Use their upward momentum to accelerate your rotation into S Mount. If the bridge is powerful enough to displace you, prioritize maintaining arm control and landing in a recoverable position. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Technical Mount to S Mount?</p>
 
 ### 1. Releasing wrist grip during the hip rotation to post hand for balance
 
@@ -293,6 +303,8 @@ Executing the Technical Mount to S Mount transition requires converting your dia
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Technical Mount to S Mount (Attacker)?</p>
+
 **Phase 1: Static Rotation Mechanics** - Hip rotation path and leg placement
 With a compliant partner, practice the pure hip rotation from Technical Mount to S Mount with no resistance. Focus on the path of the hips, the timing of the inside leg crossing the torso, and achieving the correct perpendicular angle. Complete 20 repetitions per side.
 
@@ -313,39 +325,12 @@ Practice the complete sequence from Technical Mount through S Mount transition t
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip to maintain throughout the entire Technical Mount to S Mount rotation?
-**A**: The wrist grip on the isolated arm is the non-negotiable priority throughout the entire rotation. Without wrist control, the opponent will immediately retract their arm during any weight shift, eliminating the purpose of the transition entirely. The wrist grip should be maintained from initial Technical Mount arm isolation through S Mount establishment and into the armbar finish. If you must sacrifice one point of control during the rotation, sacrifice balance or secondary grips—never the wrist.
-
-**Q2**: Your opponent begins hip escaping away from you as you initiate the rotation—how do you adjust?
-**A**: Follow their hip movement by scooting your own hips in the same direction, maintaining the hip-to-shoulder seal that prevents arm retraction. Do not let space develop between your hips and their shoulder. If the hip escape is minor, continue the rotation while following their movement. If significant space opens, make a binary decision: either complete the rotation explosively before they recover position, or abandon the transition and return to Technical Mount to close the distance before attempting again.
-
-**Q3**: What specific body angle should you achieve at the completion of the transition, and how do you verify it?
-**A**: Your body should be fully perpendicular to the opponent's torso—a 90-degree angle between your spine and theirs. You know you have achieved the correct angle when both legs are in the S-shape configuration with one over the head and foot planted and one across the chest, your belly button faces the wall rather than the ceiling, and your hips are sealed against their shoulder with the isolated arm extended across your centerline. If you can see the opponent's face directly, you have not rotated enough.
-
-**Q4**: When should you abandon the Technical Mount to S Mount transition and return to your starting position?
-**A**: Abandon the transition immediately if you lose wrist control during the rotation, if the opponent successfully bends their arm past 90 degrees during the weight shift, or if a powerful bridge displaces your base before you complete the perpendicular alignment. The key principle is that a secure Technical Mount with arm control is better than an unstable mid-rotation position. Never stay in a half-committed transitional state—either complete the rotation or return to Technical Mount decisively.
-
-**Q5**: What role does the inside leg play during the transition, and what happens if you fail to reposition it?
-**A**: The inside leg must transition from its hooked position underneath the opponent to crossing over their torso at chest level, creating the lower barrier of the S Mount S-shape. If you fail to reposition this leg, you end up in a compromised position that resembles S Mount but lacks the structural control the crossing leg provides. Without the torso-crossing leg, the opponent can hip escape freely underneath you, your base becomes one-dimensional, and the armbar finishing mechanics are severely compromised because you lack the lower leg barrier that traps their body.
-
-**Q6**: Your opponent frames against your hip with their free arm as you begin rotating—what does this tell you and how do you respond?
-**A**: The hip frame tells you the opponent is prioritizing preventing the rotation over protecting their free arm. This creates an offensive opportunity rather than a genuine barrier. Respond by either swimming your arm under their framing arm to establish gift wrap control, or simply driving through the frame using rotational momentum and body weight. The frame is structurally weak against rotational force because it can only push in one direction. Their free arm commitment to the frame also means they cannot use it for other defensive purposes.
-
-**Q7**: How does the weight distribution change from Technical Mount to S Mount, and why does this matter for the transition?
-**A**: In Technical Mount, weight distributes between the posted leg and hooked inside leg, with the upper body providing chest or shoulder pressure. In S Mount, weight shifts to the hip-to-shoulder connection, with both legs serving as structural barriers rather than primary weight-bearing platforms. During the transition, the weight must transfer smoothly between these distributions. This matters because the mid-transition moment where weight is shifting is the opponent's best escape window—if the weight transfer is jerky or creates a momentary lightness, the opponent can bridge or hip escape during that instant.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Technical Mount to S Mount?</p>
 
 The Technical Mount to S Mount transition itself carries low direct injury risk since it is a positional advancement rather than a submission. However, practitioners should be mindful that the arm control maintained throughout the transition can create inadvertent hyperextension pressure on the opponent's elbow if the rotation is performed aggressively while the arm is fully extended. During training, execute the rotation with controlled speed and communicate with your partner about elbow comfort. The transition should flow smoothly into S Mount rather than jerking the controlled arm during rotation. Partners should tap immediately if they feel any elbow hyperextension during the rotational movement.
 

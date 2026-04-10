@@ -164,6 +164,8 @@ The critical window for successful defense occurs before the attacker connects t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Anaconda Choke?</p>
+
 - Opponent threads their arm under your near-side arm from front headlock position, reaching across toward your far shoulder with their forearm pressing against the side of your neck
 - You feel simultaneous pressure on both sides of your neck - opponent's bicep on one side and your own trapped shoulder being driven into the other side by chest pressure
 - Opponent begins walking their hips laterally while maintaining chest pressure on your shoulder, indicating they are positioning for the gator roll finish
@@ -176,6 +178,8 @@ The critical window for successful defense occurs before the attacker connects t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda Choke?</p>
 
 - Address the choking arm immediately with your free hand - every second of delay allows the attacker to tighten the loop and reduces escape probability
 - Circle away from the trapped arm side to reduce the constricting angle and create space for arm extraction
@@ -190,6 +194,8 @@ The critical window for successful defense occurs before the attacker connects t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Anaconda Choke?</p>
 
 ### 1. Strip the grip before hands connect by pulling opponent's threading wrist away from your far shoulder with your free hand
 
@@ -227,6 +233,8 @@ The critical window for successful defense occurs before the attacker connects t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Anaconda Choke?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Strip the anaconda grip before it closes by attacking the threading wrist with your free hand, or prevent the gator roll by posting and sprawling to force the attacker back to basic front headlock control without the arm-in loop
@@ -242,6 +250,8 @@ Circle away from the trapped arm side aggressively while fighting the choking wr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda Choke?</p>
 
 ### 1. Waiting until the grip is fully locked before beginning defensive action
 
@@ -276,6 +286,8 @@ Circle away from the trapped arm side aggressively while fighting the choking wr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Anaconda Choke?</p>
+
 **Week 1-2** - Recognition and early prevention
 Partner drills the arm threading motion at slow speed from front headlock. Practice recognizing the threading attempt and immediately attacking the wrist with your free hand to prevent grip completion. Build the reflex to react to the first contact of their arm under your near arm. 30 repetitions per side daily.
 
@@ -292,29 +304,6 @@ Positional sparring starting from front headlock with attacker working to establ
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for defending the anaconda choke?
-**A**: The most critical window is before the attacker connects their hands on the far side. Once the loop closes, escape probability drops dramatically. You must attack the threading wrist with your free hand and begin circling away from the trapped arm side immediately when you feel the arm threading under your near arm. Prevention of the completed grip is far more effective than escaping an established anaconda.
-
-**Q2**: Your near arm is trapped and the attacker has locked their grip - which direction do you circle and why?
-**A**: Circle away from the trapped arm side. If your right arm is trapped, circle to your left. Circling away opens the angle of the constricting loop and creates space for potential arm extraction. Circling toward the trapped side feeds into the choke by tightening the loop. While circling, your free hand should be pulling on the attacker's choking wrist or elbow to create additional space at the neck.
-
-**Q3**: The attacker begins stepping over your back for the gator roll - what is your immediate defensive response?
-**A**: Post your free hand firmly on the mat or against the attacker's hip to block the step-over and deny them the angle needed to complete the roll. Simultaneously sprawl your legs back to lower your center of gravity and make the roll more difficult. If the step is already mid-flight, consider going with the roll momentum and scrambling immediately on landing rather than trying to stop a committed roll. Timing determines which response is appropriate.
-
-**Q4**: How should you manage your trapped arm to reduce the effectiveness of the anaconda choke?
-**A**: Keep the trapped arm bent with your elbow pulled tight to your ribcage rather than extending it. An extended arm increases the loop size and gives the attacker more leverage for the squeeze. Try to rotate the trapped arm so the elbow points toward the ground, which changes the compression angle and reduces the mechanical advantage. Never try to yank the arm straight out through brute force, as this typically tightens the choke against you.
-
-**Q5**: When defending the anaconda, what breathing strategy helps you survive longer under pressure?
-**A**: Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and can actually tighten the choking loop. Stay calm and breathe shallowly while working your defense systematically. Muscle tension from panic increases oxygen consumption, so consciously relax muscles not actively needed for escape. If you feel tunnel vision or lightheadedness starting, tap immediately rather than gambling on a last-second escape.
-
-
-
-</section>
 
 
 </main>

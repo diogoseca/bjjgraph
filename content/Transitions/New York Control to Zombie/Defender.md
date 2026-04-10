@@ -166,6 +166,8 @@ The most effective defensive strategy combines aggressive posture recovery with 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting New York Control to Zombie?</p>
+
 - Bottom player's overhook grip loosens or releases voluntarily rather than being stripped - indicates they are abandoning New York to transition rather than fighting to maintain it
 - Their high guard leg begins dropping from your shoulder toward your hip or thigh, seeking to hook behind your calf for lockdown establishment
 - Bottom player's free hand shifts from controlling your head or arm to framing against your chest, creating space for the body rotation needed to turn onto their side
@@ -177,6 +179,8 @@ The most effective defensive strategy combines aggressive posture recovery with 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending New York Control to Zombie?</p>
 
 - Complete shoulder extraction aggressively and immediately address the leg entanglement before lockdown solidifies
 - Establish crossface or chest pressure the instant your arm is free to prevent the bottom player from turning to their side
@@ -191,6 +195,8 @@ The most effective defensive strategy combines aggressive posture recovery with 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against New York Control to Zombie?</p>
 
 ### 1. Drive forward with immediate crossface pressure upon extraction, flattening the bottom player before they can turn to their side and establish lockdown structure
 
@@ -228,6 +234,8 @@ The most effective defensive strategy combines aggressive posture recovery with 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending New York Control to Zombie?</p>
+
 ### → [[Positions/Rubber Guard/New York Control]]
 
 Complete extraction aggressively and either backstep to free your leg entirely or establish immediate crossface pressure that prevents lockdown. The key is eliminating the transition window by moving through it decisively rather than pausing in the vulnerable phase. Control their top knee during extraction to mechanically prevent the lockdown triangle from forming.
@@ -243,6 +251,8 @@ If lockdown partially establishes, immediately drive heavy crossface pressure to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending New York Control to Zombie?</p>
 
 ### 1. Pausing after extracting from the overhook to reset posture before addressing the leg entanglement
 
@@ -277,6 +287,8 @@ If lockdown partially establishes, immediately drive heavy crossface pressure to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against New York Control to Zombie?</p>
+
 **Week 1-2** - Recognition and Extraction Completion
 Partner holds New York Control and you practice completing shoulder extraction while immediately driving forward with crossface. Focus on recognizing when their overhook releases voluntarily and identifying their leg dropping as the lockdown trigger. No lockdown resistance yet - develop the habit of continuous forward pressure after extraction.
 
@@ -293,29 +305,6 @@ Full positional sparring from New York Control where you work to extract, preven
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most dangerous moment for the defender during this transition?
-**A**: The most dangerous moment is the 1-2 second window between beginning shoulder extraction from New York and achieving full posture recovery. During this phase, your posture is compromised, your base is transitional, and the bottom player's legs are actively repositioning from high guard wrap to lockdown configuration. Any pause or hesitation in this window gives the attacker time to establish full Zombie structure with lockdown and underhook.
-
-**Q2**: Your opponent releases their overhook voluntarily as you begin extracting - what does this signal and how should you respond?
-**A**: A voluntary overhook release signals the bottom player is abandoning New York to transition to Zombie rather than fighting to maintain it. This is your cue that they are about to drop their leg for lockdown. Respond by immediately controlling their top knee with your free hand to prevent leg repositioning while driving forward with crossface pressure. Do not interpret their release as surrender - it is the beginning of their next attack.
-
-**Q3**: You feel the bottom player's leg dropping from your shoulder during extraction - what is the correct defensive priority?
-**A**: Your immediate priority is preventing the lockdown from forming by controlling their dropping leg. Push their top knee toward the mat with your free hand while simultaneously driving your trapped leg straight and posting your base wide. If you can prevent the leg from hooking behind your calf, the lockdown cannot establish. This is a brief window - once their foot hooks your calf and their legs triangle, the lockdown is set and you must switch to top pressure defense instead.
-
-**Q4**: The lockdown has already established despite your defense - what is the correct order of defensive priorities from Zombie top?
-**A**: First, establish crossface or heavy shoulder pressure to prevent them from turning to their side - a flat Zombie has minimal offensive power. Second, deny the underhook by keeping your shoulder forward and elbow tight, using whizzer if they begin threading their arm. Third, maintain wide base with your free leg posted to resist lockdown stretches and sweep attempts. Only after controlling their upper body and base should you begin working to systematically extract your trapped leg through posture and pressure.
-
-**Q5**: Why is backing away after extraction more dangerous than driving forward into the bottom player?
-**A**: Backing away creates space that the bottom player exploits in multiple ways: they can recover full guard, re-establish rubber guard entries like Mission Control, or use the distance to complete their lockdown without any top pressure interfering. Driving forward denies them space and time, forces them flat which kills Zombie structure, and converts your extraction momentum directly into passing pressure. Forward pressure also prevents them from turning to their side, which is mechanically required for all Zombie offensive options.
-
-
-
-</section>
 
 
 </main>

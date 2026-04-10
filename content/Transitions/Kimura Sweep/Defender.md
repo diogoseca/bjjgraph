@@ -166,6 +166,8 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura Sweep?</p>
+
 - Opponent grabs your wrist with their same-side hand and begins threading their opposite arm under your tricep
 - Opponent pulls your elbow sharply across their centerline while increasing leg squeeze to break your posture
 - Opponent hip escapes to one side while maintaining tight grip on your arm, loading their weight onto one hip
@@ -177,6 +179,8 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura Sweep?</p>
 
 - Maintain strong posture with elbows tucked tight to deny wrist access for the initial Kimura grip capture
 - Recognize the grip threat early and strip it before the figure-four is fully consolidated around your wrist
@@ -191,6 +195,8 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura Sweep?</p>
 
 ### 1. Strip the grip early by circling your trapped arm toward your own body and pulling your elbow back sharply to your hip
 
@@ -228,6 +234,8 @@ At higher levels, skilled defenders learn to use the opponent's commitment to th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Strip the Kimura grip early before the figure-four is consolidated by pulling your elbow sharply back to your hip and circling your wrist free. Re-establish posture with hands on opponent's hips to prevent re-engagement.
@@ -243,6 +251,8 @@ If the sweep partially succeeds but you manage to disengage during the roll by p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura Sweep?</p>
 
 ### 1. Extending the trapped arm straight to try to power out of the Kimura grip
 
@@ -272,6 +282,8 @@ If the sweep partially succeeds but you manage to disengage during the roll by p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura Sweep?</p>
+
 **Week 1-2** - Grip Prevention and Recognition
 Partner attempts to secure Kimura grip from Closed Guard while you practice keeping elbows tight, recognizing wrist control attempts, and executing immediate grip strips. 50 repetitions per session focusing on speed of recognition.
 
@@ -288,29 +300,6 @@ Begin from inside opponent's Closed Guard with them targeting the Kimura Sweep. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the Kimura Sweep?
-**A**: The earliest cue is feeling your opponent grab your wrist with their same-side hand. This is the entry point for the figure-four grip. Immediately pull your elbow back to your hip and circle your wrist free before they can thread their opposite arm under your tricep to complete the lock.
-
-**Q2**: Your opponent has secured the Kimura grip and begins hip escaping. What is your immediate priority?
-**A**: Drive your weight forward and down onto their chest while simultaneously widening your knees for base. This denies the hip escape angle that creates the rotational leverage for the sweep. Do not try to posture up, as this lifts your weight and makes the sweep easier.
-
-**Q3**: Why is extending your trapped arm to escape the grip a dangerous mistake?
-**A**: Extending the arm straightens it into a position where your opponent can transition directly to an armbar attack. The figure-four grip controls a straight arm effectively, so extension does not break the grip but instead opens a more dangerous submission threat while weakening your base.
-
-**Q4**: How can you turn a defended Kimura Sweep into a guard passing opportunity?
-**A**: When your opponent commits both arms to the Kimura grip and opens their guard to create sweep angle, their legs are no longer fully controlling your hips. After neutralizing the sweep by flattening your weight or stripping the grip, immediately drive your hips through the open guard space and work to pass before they can re-close their guard.
-
-**Q5**: Your opponent opens their guard and posts a foot to begin the sweep drive. What defensive adjustment do you make?
-**A**: Post your free hand on the mat on the side they are sweeping you toward while dropping your hip on the opposite side. The posted hand creates a tripod base absorbing the sweep momentum. Simultaneously, attempt to trap their posted foot with your leg to eliminate their driving platform and collapse the sweep mechanics.
-
-
-
-</section>
 
 
 </main>

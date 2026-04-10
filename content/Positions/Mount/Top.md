@@ -26,32 +26,32 @@ description: "Master offensive strategies from top Mount in BJJ. Learn control m
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 4% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Mount",
+      "text": "From this position, attempt Cross Collar Choke from Mount. This technique is attempted in 4% of exchanges from this position.",
       "position": 2
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 4% of exchanges from this position.",
-      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Gift Wrap to Technical Mount",
       "text": "From this position, attempt Gift Wrap to Technical Mount. This technique is attempted in 4% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute S-Mount Transition",
       "text": "From this position, attempt S-Mount Transition. This technique is attempted in 3% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute High Mount Transition",
-      "text": "From this position, attempt High Mount Transition. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt High Mount Transition. This technique is attempted in 7% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Mounted Triangle",
+      "text": "From this position, attempt Mounted Triangle. This technique is attempted in 3% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -173,6 +173,8 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mount (Top)?</p>
+
 - Top practitioner sits astride opponent's torso with knees positioned on either side of body
 - Top practitioner's hips maintain downward pressure while upper body remains mobile for attacks
 - Bottom opponent's back remains on mat with limited hip mobility due to weight distribution
@@ -184,6 +186,8 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Mount (Top)?</p>
 
 - Understanding of base maintenance and weight distribution from top positions
 - Knowledge of fundamental mount submissions including Americana, Armbar, and Cross Collar Choke
@@ -197,6 +201,8 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Mount?</p>
 
 - Heavy hips with light hands - maintain weight through hip pressure while staying mobile above for attacks
 - Control before submission - establish dominant control and read defensive patterns before committing to finishes
@@ -213,20 +219,22 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Mount (Top)?</p>
+
 **If opponent establishes strong frames and begins hip escape to create distance:**
 - Execute **[[Follow hips and re-center/Attacker|Follow hips and re-center]]** → [[Positions/Mount]] (Probability: 60%)
-- Execute **[[Americana on framing arm/Attacker|Americana on framing arm]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Americana on framing arm/Attacker|Americana on framing arm]]** → [[game-over]] (Probability: 50%)
 - Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 55%)
 
 
 **If opponent extends arm to frame on face, neck, or chest creating isolation opportunity:**
 - Execute **[[Transitions/Mount to Armbar/Attacker|Mount to Armbar]]** → [[Positions/Armbar Control]] (Probability: 70%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent keeps elbows tight to body defending all arm attacks effectively:**
-- Execute **[[Transitions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Submissions/Cross Collar Choke/Attacker|Cross Collar Choke]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Positions/Mount/Mounted Triangle/Attacker|Mounted Triangle]]** → [[Positions/Mount/Mounted Triangle]] (Probability: 40%)
 - Execute **[[Transitions/High Mount Transition/Attacker|High Mount Transition]]** → [[Positions/Mount/High Mount]] (Probability: 50%)
 
@@ -248,6 +256,8 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Mount?</p>
 
 ### 1. Sitting too high on opponent's chest without establishing proper base control first
 
@@ -291,6 +301,8 @@ Mount retention mechanics require constant adjustment. When the bottom player br
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Mount attacks?</p>
 
 ### Mount Maintenance Against Progressive Resistance
 
@@ -348,10 +360,10 @@ Partner gives specific defensive reactions in sequence: frames, arm extensions, 
 - **[[Positions/Mount/High Mount]]** - Advanced mount variation providing superior submission access at cost of stability
 - **[[Positions/Mount/Technical Mount]]** - Transitional mount variation bridging toward back control when opponent turns
 - **[[Positions/Back Control]]** - Superior position often achieved from technical mount when opponent exposes back
-- **[[Submissions/Armbar from Mount]]** - Primary high-percentage submission from mount targeting extended arms
-- **[[Submissions/Americana from Mount]]** - Fundamental shoulder lock exploiting bent-arm defensive positioning
-- **[[Transitions/Cross Collar Choke]]** - Classic gi choke requiring collar access that creates armbar dilemma
-- **[[Submissions/Ezekiel from Mount]]** - Inside sleeve choke option when opponent tucks chin against collar attacks
+- **[[Transitions/Mount to Armbar]]** - Primary high-percentage submission transition from mount targeting extended arms
+- **[[Submissions/Americana]]** - Fundamental shoulder lock exploiting bent-arm defensive positioning from mount
+- **[[Submissions/Cross Collar Choke]]** - Classic gi choke requiring collar access that creates armbar dilemma from high mount
+- **[[Submissions/Ezekiel Choke]]** - Inside sleeve choke option when opponent tucks chin against collar attacks
 - **[[Positions/Mount/S Mount]]** - Asymmetric mount variation optimized for armbar entry and finishing
 
 

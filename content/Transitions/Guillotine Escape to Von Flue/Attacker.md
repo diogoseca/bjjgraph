@@ -188,6 +188,8 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guillotine Escape to Von Flue?</p>
+
 - Pass to the choking arm side exclusively—this is the only side where Von Flue choke mechanics function, as your shoulder must compress the carotid opposite the opponent's forearm
 - Maintain forward pressure throughout the guard pass to prevent opponent from adjusting their grip, switching variations, or re-establishing guard structure
 - Drive your shoulder into the opponent's neck at the carotid artery below the jaw line, not into the chest or chin, targeting the soft tissue between jaw and collarbone
@@ -202,6 +204,8 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guillotine Escape to Von Flue?</p>
+
 - Opponent has an active guillotine grip from bottom guard position with committed head control
 - You can create enough posture through chin tuck and partial extension to begin a lateral passing sequence despite the choke
 - Your head is positioned on the same side as the opponent's choking arm, which is required for Von Flue mechanics
@@ -214,6 +218,8 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guillotine Escape to Von Flue step by step?</p>
 
 1. **Tuck chin and protect airway**: Tuck your chin tightly against the opponent's chest to reduce choking pressure on your trachea. Create just enough posture to begin moving laterally without fully breaking their grip. Focus on protecting the airway while preparing to pass—the chin tuck buys critical seconds during the transition.
 2. **Walk hips toward the choking arm side**: Begin lateral movement by walking your hips and feet toward the side where the opponent's choking arm is positioned. This direction is absolutely critical—passing to the wrong side eliminates the Von Flue possibility entirely. Use small, controlled steps while maintaining your chin tuck and forward pressure.
@@ -243,6 +249,8 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guillotine Escape to Von Flue?</p>
+
 - **Opponent releases guillotine grip before Von Flue is established and immediately frames for guard recovery** (Effectiveness: High) - Your Response: Immediately consolidate side control with crossface and hip control before they can create distance. Their grip release removes the Von Flue opportunity but gives you dominant side control position—transition to standard top attacks. → Leads to [[Positions/Open Guard]]
 - **Opponent closes guard tightly around your waist to prevent the lateral passing sequence** (Effectiveness: High) - Your Response: Use standard guard opening techniques—drive knee into their tailbone, posture with both hands on their hips, and work to create the space needed to resume the lateral pass. The Von Flue requires passing their guard first. → Leads to [[Positions/Guillotine Control]]
 - **Opponent transitions to high elbow guillotine during your pass attempt, increasing choke danger** (Effectiveness: Medium) - Your Response: Accelerate the passing speed and commit fully to reaching side control. The high elbow guillotine is more dangerous but requires specific body positioning that becomes harder to maintain as you drive laterally past their guard legs. → Leads to [[Positions/Guillotine Control]]
@@ -254,6 +262,8 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guillotine Escape to Von Flue?</p>
 
 ### 1. Passing to the wrong side, away from the choking arm
 
@@ -293,6 +303,8 @@ As the attacker in the Guillotine Escape to Von Flue, you are the practitioner c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guillotine Escape to Von Flue (Attacker)?</p>
+
 **Phase 1: Shoulder Placement Mechanics** - Understanding Von Flue pressure positioning
 Practice establishing Von Flue shoulder pressure from side control with a cooperative partner who holds a loose guillotine grip. Focus on finding the exact shoulder position that creates carotid compression. No resistance—pure positional awareness and anatomical understanding.
 
@@ -313,39 +325,12 @@ Partner varies their defense between maintaining grip, releasing early, switchin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What side must you pass to when executing the Guillotine Escape to Von Flue?
-**A**: You must pass to the choking arm side—the side where the opponent's forearm crosses your neck. This positions your shoulder against the carotid artery on the side opposite from where their arm compresses, creating bilateral neck compression. Passing to the wrong side eliminates the Von Flue opportunity entirely and wastes the passing effort.
-
-**Q2**: Your opponent has a tight guillotine from closed guard and you cannot open their legs—what must you address first?
-**A**: You must open their closed guard before the lateral pass is possible. Drive your knee into their tailbone, posture up while maintaining a firm chin tuck to protect the airway, and use standard guard-opening techniques with hand positioning on their hips. The Von Flue is only available once you can pass the guard, so guard opening is the essential prerequisite step.
-
-**Q3**: Where exactly should your shoulder be positioned to create effective Von Flue choke pressure?
-**A**: Your shoulder should press into the soft tissue of the neck between the jaw line and the collarbone, directly over the carotid artery. Too high on the jaw creates discomfort without blood flow restriction. Too low on the chest creates no choking pressure whatsoever. The correct placement causes immediate narrowing of blood flow to the brain.
-
-**Q4**: Your opponent releases the guillotine grip as you begin establishing side control—what is your immediate response?
-**A**: Immediately abandon the Von Flue attempt and consolidate standard side control with crossface and hip control. Their grip release means you have successfully escaped the guillotine and achieved a dominant position. Establish heavy crossface pressure, block their far hip, and begin working standard side control submissions and transitions.
-
-**Q5**: What is the most critical mechanical detail during the guard passing phase of this technique?
-**A**: Maintaining your chin tucked tightly against the opponent's chest throughout the entire pass is the single most critical detail. The chin tuck protects your trachea from the most dangerous direct choking pressure while you complete the lateral passing movement. Without the chin tuck, the guillotine can finish you during the vulnerable passing phase.
-
-**Q6**: How do you prevent the opponent from recovering guard once you establish side control with Von Flue shoulder pressure?
-**A**: Keep your hips sprawled back and heavy with your weight driving downward through your shoulder using gravity and skeletal alignment. Use your nearside arm to block their far hip, preventing any knee insertion for guard recovery. Your body should create a complete seal against their torso with zero space for their legs to work between your bodies.
-
-**Q7**: Your opponent switches to a high elbow guillotine as you begin passing—how does this change your approach?
-**A**: Accelerate your passing speed immediately and commit fully to reaching side control. The high elbow guillotine is significantly more dangerous than the standard variation, but maintaining its specific mechanics becomes very difficult as you drive laterally past their guard. The increased danger makes decisive, rapid action more important than methodical passing.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guillotine Escape to Von Flue?</p>
 
 The Von Flue choke is a blood choke that can produce unconsciousness within seconds once properly established. Always tap immediately when caught in a Von Flue during training—the onset of unconsciousness is often sudden without gradual warning sensations. When applying the technique, maintain constant awareness of your partner's consciousness and release immediately upon tap or any signs of distress. During the passing phase, practitioners should tap early if the guillotine is too tight to survive the passing sequence rather than risking oxygen deprivation or cervical injury. Never ignore neck pain symptoms—cervical spine compression can occur if excessive downward shoulder force is applied improperly.
 

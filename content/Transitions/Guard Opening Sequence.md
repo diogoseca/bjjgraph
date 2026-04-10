@@ -224,11 +224,11 @@ Guard Opening Sequence serves as the critical gateway from closed guard top to a
 
 - [[Transitions/Long Step Pass]] - Alternative passing option from open guard
 
-- [[Principles/Grip Fighting]] - Essential concept integrated throughout opening sequence
+- [[Principles/Grips]] - Essential concept integrated throughout opening sequence
 
 - [[Transitions/Elevator Sweep]] - Common counter sweep opponent uses during standing break
 
-- [[Submissions/Triangle from Closed Guard]] - Submission threat opponent may use if posture breaks
+- [[Transitions/Triangle Setup]] - Submission threat opponent may use if posture breaks
 
 - [[Transitions/Hip Bump Sweep]] - Counter sweep opponent threatens during posture recovery
 

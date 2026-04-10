@@ -220,7 +220,7 @@ The Overhook to Closed Guard transition sits at a critical junction in the guard
 
 - [[Positions/Overhook Control]] - Related control concept sharing overhook mechanics
 
-- [[Submissions/Armbar from Guard]] - Submission available from closed guard after successful transition
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Submission available from closed guard after successful transition
 
 
 </section>

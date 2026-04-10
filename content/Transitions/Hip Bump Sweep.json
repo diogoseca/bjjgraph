@@ -38,8 +38,8 @@
   ],
   "related_content": [
     {
-      "name": "Kimura from Guard",
-      "relationship": "Primary chain attack - used when opponent posts to defend Hip Bump"
+      "name": "Kimura Sweep",
+      "relationship": "Primary chain attack - used when opponent posts to defend Hip Bump, transitioning to Kimura grip"
     },
     {
       "name": "Guillotine Choke",
@@ -54,16 +54,16 @@
       "relationship": "Alternative sweep - works when opponent's weight is distributed differently"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Alternative attack from broken posture sharing similar setup conditions"
     },
     {
-      "name": "Omoplata from Guard",
+      "name": "Closed Guard to Omoplata",
       "relationship": "Alternative attack - can be chained when Hip Bump is defended"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Alternative attack - works from similar posture-broken position"
+      "name": "Rolling Armbar from Closed Guard",
+      "relationship": "Alternative attack from closed guard exploiting similar posture-broken position"
     },
     {
       "name": "Flower Sweep",
@@ -206,7 +206,7 @@
         "description": "Practice the hip bump motion solo and with compliant partner. Focus on creating the 45-degree angle, generating explosive hip drive, and maintaining arm control throughout. Partner provides minimal resistance. Drill 20-30 repetitions per session, alternating sides. Emphasis on feeling the proper angle and explosive hip movement."
       },
       {
-        "phase": "Week 3-4: Posture Breaking Integration",
+        "phase": "Week 3-4: Posture Integration",
         "focus": "Combining posture control with sweep execution",
         "description": "Partner begins with good posture. Practice breaking their posture first, then executing the sweep. Partner provides light resistance to posture breaking but allows sweep once posture is broken. Drill 15-20 repetitions per session. Learn to feel when posture is sufficiently broken before attempting sweep."
       },

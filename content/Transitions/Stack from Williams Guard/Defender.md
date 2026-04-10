@@ -162,6 +162,8 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack from Williams Guard?</p>
+
 - Top player lowers their hips toward the mat and shifts weight forward rather than maintaining upright posture
 - Top player's free hand moves to control your far hip, signaling intent to block your primary hip escape route
 - Increasing compression felt through the shoulder lock as top player begins driving chest and shoulder into your thigh
@@ -174,6 +176,8 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack from Williams Guard?</p>
 
 - Recognize stacking intent at the earliest possible moment through tactile and visual cues before pressure becomes overwhelming
 - Initiate hip escape immediately upon detecting forward pressure, creating lateral angles that defeat the linear stacking mechanic
@@ -188,6 +192,8 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack from Williams Guard?</p>
 
 ### 1. Hip escape to far side creating lateral angle that prevents the stacking fold
 
@@ -225,6 +231,8 @@ As the Williams Guard bottom player facing a stack pass attempt, your primary ob
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack from Williams Guard?</p>
+
 ### → [[Positions/Williams Guard]]
 
 Recognize the stack attempt early and immediately hip escape laterally to create an angle that prevents the top player from folding your hips. Maintain shoulder lock pressure while using leg frames to block forward advancement. The stack requires linear forward pressure, so lateral hip movement defeats the mechanic entirely and preserves your guard control.
@@ -240,6 +248,8 @@ Time a bridge and roll or omoplata transition when the top player's forward mome
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack from Williams Guard?</p>
 
 ### 1. Waiting too long to initiate hip escape defense, allowing hips to elevate past the recovery point
 
@@ -269,6 +279,8 @@ Time a bridge and roll or omoplata transition when the top player's forward mome
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack from Williams Guard?</p>
+
 **Phase 1: Recognition** - Identifying stacking intent through tactile and visual cues
 Partner initiates stacking attempts at various speeds and intensities. Focus exclusively on recognizing the earliest cues of forward pressure, hip lowering, and free hand positioning. No active defense yet, only identification and verbal callout of each cue.
 
@@ -285,29 +297,6 @@ Start in Williams Guard bottom with full resistance. Partner attempts all passin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate a stack attempt from Williams Guard?
-**A**: The earliest cues are the top player lowering their hips toward the mat, shifting weight forward rather than maintaining upright posture, and their free hand moving toward your far hip to block escape. You will feel increasing compression through the shoulder lock as their chest pressure increases into your thighs. Additionally, the sensation of small forward foot steps and your hips beginning to lift from the mat confirms stacking intent.
-
-**Q2**: When is the optimal moment to initiate hip escape defense against the stack?
-**A**: Hip escape must begin at the earliest possible moment when you feel forward pressure increasing, before the stacking angle elevates your hips significantly. Once the top player has walked their hips past your centerline and your hips are raised toward your shoulders, hip escape becomes extremely difficult. The window closes rapidly, so immediate reaction to the initial forward drive is critical for successful stack defense.
-
-**Q3**: How should you decide between maintaining shoulder lock grip versus releasing it to defend the stack?
-**A**: Maintain the grip as long as you can effectively hip escape and create angles to prevent the stack from folding you. If the stacking pressure has progressed to the point where your hips are elevated over your shoulders and you cannot create defensive angles, release the grip and immediately transition to recovering open guard or half guard frames. A completed stack with grip retention leads to guard pass, while timely release preserves guard recovery options.
-
-**Q4**: What sweep opportunity becomes available when the top player overcommits to the stack?
-**A**: When the top player drives forward aggressively with excessive commitment, their base becomes vulnerable to being rolled through. Use the momentum of their forward drive combined with a bridge and hip thrust to roll them over your shoulder toward the controlled arm side. Alternatively, channel their forward energy into an omoplata rotation. Both counters convert their passing attempt into a positional reversal to half guard top.
-
-**Q5**: How do you transition to guard recovery when the stack is partially successful?
-**A**: As stacking pressure increases, release the shoulder lock grip early enough to retain hand fighting capability. Use your legs to immediately reclamp around their waist or establish butterfly hooks to create new distance frames. Hip escape to create angle, then work to close your guard or establish knee shield half guard. The critical factor is transitioning before you are completely folded, maintaining enough hip mobility to insert defensive leg frames.
-
-
-
-</section>
 
 
 </main>

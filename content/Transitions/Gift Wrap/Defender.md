@@ -166,6 +166,8 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap?</p>
+
 - Attacker secures same-side wrist control on one of your arms while maintaining mount—this is the earliest warning of a Gift Wrap attempt
 - Attacker's opposite arm begins driving under your armpit from the outside, reaching across your chest diagonally toward the controlled wrist
 - You feel your arm being pulled across your own body toward the opposite shoulder while weight increases on your upper chest
@@ -178,6 +180,8 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap?</p>
 
 - Prevention is the strongest defense—keep elbows tight to ribs and arms close to centerline to deny the initial arm isolation
 - Recognize the Gift Wrap attempt at the earliest possible stage (wrist control) when defensive options are most numerous
@@ -192,6 +196,8 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap?</p>
 
 ### 1. Retract arm explosively by pulling elbow tight to ribs and rotating shoulder inward before the threading arm connects
 
@@ -229,6 +235,8 @@ The defender must also recognize that the Gift Wrap is a gateway position—the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap?</p>
+
 ### → [[Positions/Mount]]
 
 Deny the Gift Wrap entry entirely by retracting the targeted arm during the initial wrist control phase. Keep elbows pinched tight to ribs and immediately grip-fight any wrist control attempt. Time a strong bridge during the attacker's forward lean to disrupt threading. The goal is to return to standard mount bottom defense with both arms available.
@@ -244,6 +252,8 @@ When the Gift Wrap is partially or fully established and arm recovery is not imm
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap?</p>
 
 ### 1. Extending arms to push attacker away during mount, creating the arm isolation the Gift Wrap requires
 
@@ -278,6 +288,8 @@ When the Gift Wrap is partially or fully established and arm recovery is not imm
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner attempts Gift Wrap entries from mount at 30% speed. Defender focuses on recognizing the wrist control and threading cues as early as possible. Practice immediate arm retraction and elbow-pinch defense. Develop awareness of the Gift Wrap timeline and which defensive options exist at each stage.
 
@@ -294,29 +306,6 @@ Full resistance rounds starting from mount with the attacker actively hunting th
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Gift Wrap attempt is beginning from mount?
-**A**: The earliest cue is the attacker securing same-side wrist control on one of your arms while in mount. This wrist control is the foundation of the entire Gift Wrap sequence—without it, the attacker cannot prevent arm retraction during the threading phase. Recognizing this grip as a Gift Wrap precursor rather than a generic mount control allows you to initiate your defensive response at the stage where you have the most options.
-
-**Q2**: Why is turning away from the attacker during a Gift Wrap the worst possible defensive response?
-**A**: Turning away exposes your back directly to the attacker who already has one of your arms trapped. The Gift Wrap arm control translates seamlessly into back control—the attacker follows your rotation, inserts hooks, and arrives in back mount with the arm still trapped. This converts a bad position into a catastrophic one. Always turn toward the attacker if you must rotate, or hip escape laterally without rotating your shoulders.
-
-**Q3**: Your arm is fully wrapped and locked high across your chest—what is your immediate defensive priority?
-**A**: Shift from arm recovery to positional escape. Once the wrap is locked with the arm high, the mechanical advantage prevents muscular extraction. Use your free arm to frame on the attacker's hip, begin hip escaping toward the trapped arm side, and work to insert your knee for half guard recovery. Accept the arm trap temporarily and focus on preventing further positional advancement while working toward guard recovery.
-
-**Q4**: When during the Gift Wrap sequence is the attacker's control at its weakest and most vulnerable to disruption?
-**A**: The grip transfer moment—when the attacker releases their initial wrist control hand to let the threading arm take over the grip—represents the weakest link in the sequence. For a brief instant, neither hand has a secure locked grip on your wrist. Time an explosive arm retraction or bridge to this exact moment. Reading the grip transfer requires drilling against the technique repeatedly to develop the timing sensitivity.
-
-**Q5**: How should you use your free arm when your opponent has partially established the Gift Wrap and is threatening your neck?
-**A**: Your free arm must prioritize neck defense above all other tasks. Tuck your chin and use your free hand to create a defensive frame against the attacker's choking arm, gripping their wrist or forearm to prevent it from sliding under your chin. Do not use the free arm to attempt arm recovery when neck threats are active—losing the neck battle ends the match immediately, while the arm trap alone does not. Once the choke threat is neutralized, you can briefly redirect the free hand to assist positional escape.
-
-
-
-</section>
 
 
 </main>

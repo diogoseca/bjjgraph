@@ -28,7 +28,7 @@ The escape mechanics center on three interconnected elements: counter-rotating t
 
 Strategically, Leg Extraction serves as the primary bailout when caught in Estima Lock scenarios during guard passing or leg entanglement exchanges. The technique integrates into broader defensive leg lock systems, connecting to guard recovery sequences and providing a foundation for understanding other leg entanglement escapes. Mastery of this escape significantly reduces the danger of engaging in modern leg lock exchanges where Estima Lock threats are common.
 
-**From Position**: [[Positions/Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock Control]] (Bottom)
 **Success Rate**: 58%
 
 </section>
@@ -41,7 +41,7 @@ Strategically, Leg Extraction serves as the primary bailout when caught in Estim
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 50% |
 | Success | [[Positions/Half Guard]] | 15% |
-| Failure | [[Positions/Estima Lock]] | 25% |
+| Failure | [[Positions/Estima Lock Control]] | 25% |
 | Counter | [[Positions/Ashi Garami/Saddle]] | 10% |
 
 
@@ -201,7 +201,7 @@ Leg Extraction serves as a foundational escape within the broader defensive leg 
 ## Related Techniques
 
 
-- [[Positions/Estima Lock]] - Primary submission threat this technique escapes
+- [[Transitions/Estima Lock]] - Primary submission threat this technique escapes
 
 - [[Transitions/Ashi Garami Escape]] - Related leg entanglement escape with similar mechanics
 
@@ -213,7 +213,7 @@ Leg Extraction serves as a foundational escape within the broader defensive leg 
 
 - [[Positions/Ashi Garami/Saddle]] - Counter position opponent may transition to if extraction fails
 
-- [[Transitions/Toe Hold]] - Alternative attack opponent may transition to during extraction
+- [[Submissions/Toe Hold]] - Alternative attack opponent may transition to during extraction
 
 - [[Transitions/Counter Sweep]] - Follow-up option when opponent over-commits during extraction
 

@@ -20,8 +20,8 @@ description: "Control twister side control from top position with systematic sub
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Twister Finish",
-      "text": "From this position, attempt Twister Finish. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Side Control to Shoulder of Justice",
+      "text": "From this position, attempt Side Control to Shoulder of Justice. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
@@ -32,14 +32,14 @@ description: "Control twister side control from top position with systematic sub
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Choke",
-      "text": "From this position, attempt Darce Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Darce Choke from Twister Side Control",
+      "text": "From this position, attempt Darce Choke from Twister Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kimura from Twister Side Control",
+      "text": "From this position, attempt Kimura from Twister Side Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 4
     },
     {
@@ -175,6 +175,8 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Position Definition
 
+<p class="section-subtitle">What is Twister Side Control (Top)?</p>
+
 - Top player maintains lateral control position with leg hook entangling bottom player's near leg while their body is positioned perpendicular or at angle to create leverage for spinal attacks and prevent bottom player from turning into them or achieving flat defensive posture
 - Top player's weight is distributed between shoulder pressure driving bottom player's near shoulder toward mat and leg positioning that controls and elevates bottom player's hips, creating the mechanical structure necessary for twister-style submissions while maintaining sufficient base to prevent reversal
 - Bottom player's mobility is severely restricted by combination of leg entanglement at lower body and shoulder control at upper body, with their spine in rotated position that makes traditional side control escapes ineffective while creating vulnerability to spinal submission attacks
@@ -186,6 +188,8 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Twister Side Control (Top)?</p>
+
 - Top player has achieved truck position or similar leg entanglement with bottom player facing away
 - Top player has successfully transitioned to lateral control while maintaining leg hook around bottom player's near leg
 - Bottom player's shoulder is accessible for control and their hips are elevated by leg entanglement creating mechanical foundation for submissions
@@ -196,6 +200,8 @@ The learning progression for Twister Side Control top is significant, with begin
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Twister Side Control?</p>
 
 - Leg entanglement must restrict hip mobility while maintaining top player's base and balance for sustained control
 - Shoulder pressure drives bottom player's near shoulder to mat preventing defensive turning and frame creation
@@ -212,9 +218,11 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Twister Side Control (Top)?</p>
+
 **If bottom player's spine is fully rotated and shoulder is driven to mat with secure leg entanglement:**
-- Execute **[[Transitions/Twister Finish/Attacker|Twister Finish]]** → [[game-over]] (Probability: 65%)
-- Execute **[[Transitions/Calf Slicer/Attacker|Calf Slicer]]** → [[game-over]] (Probability: 45%)
+- Execute **[[Twister Finish/Attacker|Twister Finish]]** → [[game-over]] (Probability: 65%)
+- Execute **[[Submissions/Calf Slicer/Attacker|Calf Slicer]]** → [[game-over]] (Probability: 45%)
 
 
 **If bottom player attempts to turn into top player to create frames or relieve pressure:**
@@ -233,7 +241,7 @@ The learning progression for Twister Side Control top is significant, with begin
 
 
 **If bottom player extends near arm to frame or post during escape attempt:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 68%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 68%)
 - Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
 
 
@@ -244,6 +252,8 @@ The learning progression for Twister Side Control top is significant, with begin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Twister Side Control?</p>
 
 ### 1. Overcommitting weight forward in pursuit of twister submission while neglecting base maintenance
 
@@ -283,6 +293,8 @@ The learning progression for Twister Side Control top is significant, with begin
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Twister Side Control attacks?</p>
+
 ### Progressive Twister Setup
 
 Start from established truck position. Partner provides 50% resistance while top player practices transitioning to twister side control and setting up twister submission. Focus on maintaining control through transition and achieving proper mechanical positioning. Increase resistance as technique improves.
@@ -316,38 +328,6 @@ Start from various positions (truck, side control, failed back take). Partner pr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the two primary control elements that must be maintained simultaneously in twister side control top?
-**A**: The leg entanglement around the bottom player's near leg and shoulder pressure driving their near shoulder toward the mat must be maintained simultaneously. The leg hook restricts hip mobility and creates the foundation for spinal submissions, while shoulder pressure prevents defensive turning and frame creation. Losing either element significantly reduces control quality and submission accessibility.
-
-**Q2**: Your opponent begins to bridge explosively while you're pursuing the twister finish - what adjustment do you make?
-**A**: Immediately post your outside leg wide to expand your base and absorb the bridging force. Shift weight distribution away from the forward-leaning submission posture toward a more balanced control position. Maintain the leg hook but temporarily pause submission pursuit until you've neutralized the bridge attempt and re-established stable control. Only resume offensive action when your base is secure.
-
-**Q3**: How should weight distribution differ between maintaining control versus actively pursuing submissions from twister side control?
-**A**: During control maintenance, weight should be evenly distributed between shoulder pressure and leg positioning to create a stable, self-sustaining control structure. When pursuing submissions, weight shifts more dynamically - forward for the twister finish, laterally for darce or anaconda attempts. The key is maintaining enough base to prevent reversals while creating the specific mechanical leverage each submission requires.
-
-**Q4**: What submission chain should you pursue when the bottom player turns into you trying to create frames?
-**A**: When the bottom player turns toward you exposing their neck, immediately transition to front choke attacks. The darce choke becomes high-percentage as their turning motion feeds their arm across their body, and the anaconda choke is available if you can circle to the opposite side. Recognize this defensive pattern as an offensive opportunity rather than a positional threat.
-
-**Q5**: Your leg entanglement is starting to loosen as your opponent creates hip movement - how do you recover control?
-**A**: Immediately re-establish the leg hook by driving your knee deeper behind their knee and squeezing actively with your legs. Simultaneously increase shoulder pressure to limit their ability to continue creating hip movement. If the entanglement becomes too shallow, consider transitioning to truck position to reset the leg control before returning to twister side control, rather than fighting a losing battle with compromised mechanics.
-
-**Q6**: What distinguishes successful submission pursuit from positions lost due to over-aggression?
-**A**: Successful submission pursuit maintains base integrity throughout - the outside leg stays posted, shoulder pressure continues, and the leg hook remains active even while attacking. Over-aggression abandons these control elements in pursuit of the finish, creating openings for escape. Elite practitioners threaten submissions while maintaining 70-80% of their positional control, only fully committing when all prerequisites for finishing are met.
-
-**Q7**: How do you create submission dilemmas that force the bottom player into worse positions regardless of their defensive choice?
-**A**: Structure your attacks so each defensive response opens another submission pathway. When they protect against the twister by preventing spinal rotation, their frames often expose the arm for kimura. When they turn in to relieve shoulder pressure, the neck becomes vulnerable for darce or anaconda. When they turn away, they gift back exposure. Constantly threaten multiple chains so no single defensive focus can neutralize your offense.
-
-**Q8**: What are the key grip priorities when controlling from twister side control top?
-**A**: The primary grip is the leg hook entanglement - this cannot be compromised. Secondary grips include controlling the near shoulder (either directly or through chest pressure), controlling the near wrist to prevent frames, and potentially securing the chin strap for twister finish attempts. In no-gi, hip positioning often replaces traditional grips, using body placement rather than handles to maintain control.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -374,7 +354,7 @@ Start from various positions (truck, side control, failed back take). Partner pr
 - **[[Transitions/Anaconda Choke]]** - Alternative front choke option from similar positional structure
 - **[[Positions/Back Control]]** - Common transition when bottom player exposes back during escape attempts
 - **[[Positions/Kimura Trap]]** - Submission control option when bottom player extends arm to frame
-- **[[Submissions/Calf Slicer from Truck]]** - Leg attack available from established leg entanglement
+- **[[Calf Slicer from Truck]]** - Leg attack available from established leg entanglement
 - **[[Positions/Side Control]]** - Traditional variant that shares lateral control but differs in submission emphasis
 
 

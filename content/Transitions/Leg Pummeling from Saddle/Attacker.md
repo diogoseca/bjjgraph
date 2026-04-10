@@ -194,6 +194,8 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Leg Pummeling from Saddle?</p>
+
 - Protect the heel throughout the entire pummeling sequence—never sacrifice heel safety for positional advancement
 - Use hip movement to create the initial space needed for leg insertion rather than relying solely on leg strength
 - Target the opponent's inside controlling leg first, as this disrupts their perpendicular alignment most effectively
@@ -208,6 +210,8 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Leg Pummeling from Saddle?</p>
+
 - Your heel must still be protected or partially hidden—do not attempt pummeling if the opponent has a finishing grip with rotation already applied
 - Your free leg must have enough range of motion to reach the opponent's controlling hooks for the pummeling action
 - You need at least one hand available for framing on the opponent's hips or knees to create and maintain space
@@ -219,6 +223,8 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Leg Pummeling from Saddle step by step?</p>
 
 1. **Establish defensive baseline**: Before initiating the pummel, confirm your heel is protected by rotating your knee inward toward your centerline. Use both hands to guard your foot and ankle area if the opponent is threatening grips. Assess the tightness of their figure-four configuration and identify which of their controlling legs presents the best pummeling target—typically the leg closest to your free hip.
 2. **Create hip space through controlled movement**: Bridge or hip escape slightly to create micro-space between your trapped leg and the opponent's controlling hooks. Move your hips toward the opponent rather than away—this counterintuitively reduces joint stress while creating the angle change needed for the pummel. The hip movement should be subtle enough not to trigger an immediate defensive response from the opponent.
@@ -249,6 +255,8 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Leg Pummeling from Saddle?</p>
+
 - **Opponent immediately re-locks their figure-four or triangle configuration when they feel the pummeling attempt** (Effectiveness: High) - Your Response: Maintain your inserted leg position and continue framing rather than withdrawing. If they re-lock with your leg inside, you have actually improved your position. Use sustained hip pressure and frames to prevent a clean re-lock. If they do successfully re-lock, restart the sequence from the hip movement phase. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent abandons positional control to immediately attack the heel hook during the transitional instability** (Effectiveness: High) - Your Response: If the opponent lunges for the heel during your pummel, immediately prioritize heel protection over completing the pummeling sequence. Retract your free leg to guard the heel if necessary. The momentary positional looseness that enables pummeling also makes the heel more vulnerable—never trade heel safety for positional progress. → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent uses your leg movement to completely disengage from the entanglement and transition to a passing position** (Effectiveness: Medium) - Your Response: If the opponent disengages during your pummel, immediately recover guard by establishing foot-on-hip frames and hand grips. While losing the entanglement entirely means they may pass, this outcome is preferable to remaining in saddle. Transition to open guard retention immediately. → Leads to [[Positions/Open Guard]]
@@ -260,6 +268,8 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Leg Pummeling from Saddle?</p>
 
 ### 1. Attempting the pummel explosively with a single large movement that telegraphs the escape
 
@@ -299,6 +309,8 @@ As the attacker executing leg pummeling from saddle, you are the practitioner wh
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Leg Pummeling from Saddle (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip movement and leg insertion patterns
 Practice the hip escape to pummel sequence without a partner, using a grappling dummy or pillow between your legs. Focus on the coordination of hip movement creating space followed by free leg insertion. Develop the muscle memory for progressive knee-shin-foot threading. 50 repetitions per side per session.
 
@@ -319,48 +331,12 @@ Begin rounds in saddle bottom against fully resisting opponents. Track success r
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the leg pummel against a controlling opponent?
-**A**: The optimal window occurs when the opponent transitions between grips—specifically when they shift from positional control grips to submission finishing grips. During this transition, their legs momentarily lighten as their attention and energy redirect to their hands. A secondary window opens when the opponent adjusts their perpendicular angle, as the hip repositioning creates micro-gaps in their figure-four configuration. Recognizing these windows requires training sensitivity through progressive resistance drilling.
-
-**Q2**: What conditions must exist before you can safely attempt leg pummeling from saddle?
-**A**: Four conditions must be present: your heel must still be protected or partially hidden (never attempt with a finishing grip locked in), your free leg must retain enough mobility to reach the opponent's controlling hooks, you need at least one hand available for framing on their legs, and the opponent's figure-four must show some looseness or be in transition. If any condition is absent—particularly heel protection—prioritize tapping or alternative defense over attempting the pummel.
-
-**Q3**: What is the most critical hip movement during the leg pummeling sequence?
-**A**: The initial hip escape toward the opponent (not away) is the most critical movement. This counterintuitive direction reduces joint stress on the trapped knee while creating the angle change needed to open space between the opponent's controlling legs. Moving away from the opponent extends your leg further into their control and increases rotational vulnerability. The hip movement toward them also disrupts their perpendicular alignment, which is the foundation of saddle dominance.
-
-**Q4**: Why does targeting the opponent's inside controlling leg first produce better results than targeting the outside leg?
-**A**: The inside controlling leg—the one positioned across your hip—is the keystone of the saddle structure. It provides the perpendicular alignment and inside position that make saddle dominant. Disrupting this leg collapses the entire control framework, because without inside position across the hip, the opponent cannot maintain the rotational control needed for heel hook finishing mechanics. The outside leg merely reinforces what the inside leg establishes, so removing it alone leaves the fundamental control intact.
-
-**Q5**: What grip configuration should you maintain on your own legs during the pummel?
-**A**: At minimum, one hand should guard your heel and ankle area at all times during the pummeling sequence. The other hand frames on the opponent's controlling knee or shin to create and maintain space. If the opponent is not actively threatening heel grips, both hands can frame on their legs to accelerate the pummel, but instantly return one hand to heel protection if they shift toward submission grips. The hands serve as both shields and wedges throughout the technique.
-
-**Q6**: Your opponent drives heavy hip pressure when they feel your pummeling attempt—how do you adjust your approach?
-**A**: Use the forward drive against them by timing your hip escape to coincide with their pressure commitment. As they drive forward, angle off laterally using the momentum to create space on the opposite side from their drive. Their committed weight makes it harder for them to adjust direction quickly. If they consistently shut down pummeling through pressure, switch to a boot scoot escape or forward roll that uses their forward pressure as the escape mechanism rather than fighting against it.
-
-**Q7**: What is the primary risk if you leave your free leg partially inserted during a stalled pummel attempt?
-**A**: A half-inserted leg creates a catastrophic configuration where the opponent can trap both your legs in an expanded saddle, essentially doubling their control. Your free leg, now wedged inside their hooks without completing the pummel, cannot function as a frame or escape tool and may itself become an additional target for submission. The partially inserted position is worse than the original saddle because you have lost your primary defensive tool—the free leg—without gaining positional improvement.
-
-**Q8**: Your pummel succeeds and you reach inside ashi-garami—what are your first three actions in the new position?
-**A**: First, immediately re-protect your heel by rotating your knee inward and using your hands to guard the foot and ankle. Second, establish a frame on the opponent's hips with your inside leg to prevent them from re-advancing to saddle through backward stepping or angle changes. Third, assess grip positioning and begin systematic grip fighting to strip any remaining controls they have on your trapped leg. Only after these three defensive priorities are addressed should you consider further escape toward full guard recovery.
-
-**Q9**: How does the opponent's body type affect which pummeling variant you should prioritize?
-**A**: Against opponents with long legs, the hip switch pummel works best because their longer controlling legs create larger gaps during angle changes. Against stocky opponents with tight figure-fours, the incremental knee wedge pummel is more effective because their shorter legs leave less space for dramatic movements but are more susceptible to progressive prying. Against opponents with strong grips but less leg dexterity, the frame-assisted pummel using hand frames to separate their legs before inserting works well because it bypasses their leg tightness entirely.
-
-**Q10**: If the opponent attacks your heel hook during your pummeling attempt, what is the correct immediate response?
-**A**: Immediately abort the pummeling sequence and return to pure heel defense. Retract your free leg to guard the heel if it was committed to the pummel. Use both hands to fight the heel grip—strip at the thumbs with two-on-one grip fighting. Rotate your knee inward to hide the heel. The positional progress from pummeling is meaningless if the opponent finishes the heel hook during the transition. Only resume pummeling after the submission threat is fully addressed and the opponent returns to positional control.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Leg Pummeling from Saddle?</p>
 
 Leg pummeling from saddle involves transitional movement through positions with high knee ligament injury risk. Never attempt pummeling when the opponent has already secured a finishing heel hook grip with rotational pressure—tap immediately in this scenario. Throughout the pummeling sequence, maintain strict heel protection and avoid any explosive pulling of the trapped leg away from the opponent, as this creates the kinetic energy that magnifies joint damage. If you feel any sharp pain in the knee during the transition, stop immediately and tap. Train this technique under qualified instruction with progressive resistance, and always communicate clearly with training partners about the danger level of the position.
 

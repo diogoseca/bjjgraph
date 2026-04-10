@@ -148,6 +148,8 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll from Vaporizer?</p>
+
 - The opponent begins loosening their lockdown configuration (unlocking the bottom foot) while simultaneously deepening or tightening their underhook grip
 - The opponent's hips shift forward and begin rotating rather than driving upward in the characteristic Vaporizer whip-up motion—the force direction changes from vertical to rotational
 - The opponent tucks their chin aggressively to their chest and rounds their upper back more than normal Vaporizer posture requires, preparing to protect the neck during the roll
@@ -160,6 +162,8 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll from Vaporizer?</p>
 
 - Maintain heavy downward chest pressure through your torso and hips to make generating rolling momentum mechanically difficult for the bottom player
 - Control the opponent's underhook arm—this is their primary connection point needed to complete the roll and maintain offensive contact in turtle
@@ -174,6 +178,8 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll from Vaporizer?</p>
 
 ### 1. Sprawl and drive weight down to compress the opponent and prevent rotational momentum from developing
 
@@ -204,6 +210,8 @@ As the defender—the top player in the Vaporizer—your goal is to prevent the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll from Vaporizer?</p>
+
 ### → [[Positions/Vaporizer]]
 
 Recognize the roll setup cues early—the lockdown loosening combined with underhook tightening—and immediately sprawl your weight downward while widening your base. Control their underhook arm with a whizzer or wrist grip to prevent them from generating rotational momentum. The earlier you detect the attempt, the easier it is to prevent and the more compromised their lockdown becomes afterward.
@@ -219,6 +227,8 @@ If the roll is partially successful but you manage to strip their underhook grip
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll from Vaporizer?</p>
 
 ### 1. Pulling backward and away from the roll instead of driving weight downward to prevent it
 
@@ -248,6 +258,8 @@ If the roll is partially successful but you manage to strip their underhook grip
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll from Vaporizer?</p>
+
 **Phase 1: Recognition Drills** - Identifying roll setup cues versus standard attacks
 Partner alternates between standard Vaporizer attacks (Electric Chair, Old School, whip-up sweeps) and roll attempts. Top player calls out the attack type when they detect the setup cues. No physical defense—purely developing pattern recognition through feeling the difference between lockdown tightening (sweep) and lockdown loosening with underhook tightening (roll).
 
@@ -264,26 +276,6 @@ Start in Vaporizer top position. Partner works through their complete Vaporizer 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to roll rather than continue with standard Vaporizer attacks?
-**A**: The earliest and most reliable cue is feeling the lockdown configuration begin to loosen while the underhook simultaneously tightens or deepens. In standard Vaporizer attacks like the Electric Chair or Old School sweep, the lockdown tightens as the attack develops. When the lockdown loosens but the underhook intensifies, this signals a transition away from lockdown-based attacks toward a rolling movement that requires the underhook as its primary connection point rather than the leg entanglement.
-
-**Q2**: Your opponent begins the roll and you cannot prevent it—should you resist the motion or follow it?
-**A**: Always follow rather than resist a committed roll. Resisting by pulling backward creates separation that allows the opponent to complete the transition cleanly and establish a strong turtle position with time to set up crab ride or truck entries. Following keeps you connected and in physical contact, enabling you to immediately begin attacking their turtle with seatbelt control and hook insertion. Think of converting their transition into your back-take opportunity rather than trying to maintain a position that is already lost.
-
-**Q3**: How does defending the Roll from Vaporizer differ from defending standard Vaporizer sweeps like the Old School?
-**A**: Standard Vaporizer sweeps such as the Old School are defended by maintaining wide base and resisting lateral rolling forces. The roll defense is fundamentally different because the movement direction is forward and rotational rather than lateral. Sprawling and driving weight downward is more effective against the roll than widening your base, because the roll requires space underneath your body to thread through. For sweeps you widen your base laterally; for rolls you flatten and compress the space vertically. Recognizing which attack is coming determines your defensive response.
-
-**Q4**: What position should you work toward if you successfully prevent the roll attempt?
-**A**: After successfully preventing the roll, immediately advance your lockdown escape sequence. The opponent's lockdown will be partially compromised from the roll attempt because they loosened the figure-four configuration during setup, creating a window to extract your trapped leg. Do not passively return to defending the same Vaporizer configuration. Use the disruption in their leg control to clear the lockdown, establish combat base or whizzer control, and begin your guard passing sequence while their offensive structure is degraded.
-
-
-
-</section>
 
 
 </main>

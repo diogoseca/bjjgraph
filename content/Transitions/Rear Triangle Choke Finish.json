@@ -14,7 +14,7 @@
   "from_position": "Rear Triangle/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Rear Triangle Choke",
       "probability": 55,
       "result": "success"
     },

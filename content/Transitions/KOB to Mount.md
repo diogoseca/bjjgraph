@@ -216,7 +216,7 @@ This transition is a critical node in the top-position advancement chain, connec
 
 - [[Transitions/Frame and Shrimp from Knee on Belly]] - Primary defensive technique the bottom player uses to prevent this transition from succeeding
 
-- [[Transitions/Consolidation to Mount]] - Alternative mount entry from side control that shares similar principles of weight transfer and control
+- [[Transitions/Side Control to Mount]] - Alternative mount entry from side control that shares similar principles of weight transfer and control
 
 
 </section>

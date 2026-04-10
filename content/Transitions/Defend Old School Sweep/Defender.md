@@ -164,6 +164,8 @@ The key insight for the defender is that the top player's defense is reactive an
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Defend Old School Sweep?</p>
+
 - Deep whizzer being threaded under your underhooking arm with the elbow clamping tight to the top player's ribs, limiting your pulling leverage
 - Heavy crossface pressure driving your head away from the underhook side, breaking your head control and flattening your torso angle
 - Top player's free leg posting wide with knee angled outward, creating a broad base that removes your rotational sweeping angle
@@ -175,6 +177,8 @@ The key insight for the defender is that the top player's defense is reactive an
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Defend Old School Sweep?</p>
 
 - Recognize when the sweep is being successfully defended rather than forcing against established counter-structure
 - Use the initial sweep threat as a setup for secondary attacks that exploit the defensive commitments the top player makes
@@ -188,6 +192,8 @@ The key insight for the defender is that the top player's defense is reactive an
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Defend Old School Sweep?</p>
 
 ### 1. Switch to Electric Chair by diving under the top player's hips and attacking the trapped leg separation
 
@@ -225,6 +231,8 @@ The key insight for the defender is that the top player's defense is reactive an
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Defend Old School Sweep?</p>
+
 ### → [[Positions/Mount]]
 
 Time the sweep re-attempt during the top player's base adjustments or weight shifts. When they move their posted leg to reposition or transition between defensive structures, the momentary base compromise creates a window for the sweep. Alternatively, chain from the sweep threat to Electric Chair and use the split to sweep to mount.
@@ -240,6 +248,8 @@ When the top player sprawls heavily to defend the sweep, use the created space u
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Defend Old School Sweep?</p>
 
 ### 1. Continuing to force the Old School Sweep against a fully established whizzer, crossface, and wide base defense
 
@@ -269,6 +279,8 @@ When the top player sprawls heavily to defend the sweep, use the created space u
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Defend Old School Sweep?</p>
+
 **Phase 1: Recognition Drilling** - Identifying when the Old School Sweep defense is established
 Partner establishes Old School Top defense at various speeds and intensities. Bottom player practices recognizing the whizzer, crossface, and wide base indicators that signal the sweep is being defended. Call out each defensive element as you feel it. Ten repetitions focusing on speed of recognition.
 
@@ -285,29 +297,6 @@ Start in Old School bottom position against full resistance. Execute complete of
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize that your Old School Sweep is being successfully defended and you should transition to an alternative attack?
-**A**: The primary indicators are: a deep whizzer clamped tight against your underhooking arm limiting your pulling leverage, heavy crossface pressure turning your head away from the sweep direction, and a wide base with the free leg posted at an angle. When all three defensive elements are established, continuing the sweep will fail. The key is recognizing this within two to three seconds of feeling the defense lock in, rather than burning energy on a doomed attempt.
-
-**Q2**: When the top player sprawls to defend your sweep, what alternative attacks become available from the space created?
-**A**: The sprawl creates space underneath the top player's hips that enables deep half guard entry by releasing the underhook and diving your head underneath their hips. It also widens the distance between their legs, potentially opening Electric Chair entries if you can redirect the lockdown force to split their base. Additionally, the sprawl can shift their weight distribution forward, creating a different sweeping angle if you time a re-attempt during their recovery.
-
-**Q3**: What timing adjustment maximizes your sweep completion rate against a well-defended opponent?
-**A**: Rather than attacking the sweep when the opponent is in their established defensive structure, time the sweep attempt during transitions between defensive positions. When the top player adjusts their base, repositions the crossface, or shifts weight to address the lockdown, they create momentary windows where one or more defensive elements are compromised. These transition moments offer significantly higher sweep completion rates than attacking a stationary, fully established defense.
-
-**Q4**: What is the critical difference between forcing a defended sweep and flowing to an alternative attack?
-**A**: Forcing a defended sweep burns energy against an established structural defense, telegraphs your intentions, and progressively degrades your offensive position as the top player capitalizes on your predictability to advance their passing pressure. Flowing to an alternative attack uses the opponent's defensive commitments against them, maintaining offensive initiative while exploiting the specific vulnerabilities each defensive element creates. The flow approach conserves energy and keeps the opponent reacting to your transitions.
-
-**Q5**: How should you manage the lockdown during transitions from sweep defense to alternative attacks?
-**A**: The lockdown must remain actively tensioned throughout all transitions because it serves as the foundational control that enables every attack in the chain. Even when switching from Old School Sweep to Electric Chair or deep half entry, maintain the lockdown extension by keeping your bottom foot hooked on the opponent's ankle with legs actively extending. Only release the lockdown deliberately when a specific technique requires it, such as transitioning to a completely different guard system.
-
-
-
-</section>
 
 
 </main>

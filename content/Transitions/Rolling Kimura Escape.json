@@ -11,7 +11,7 @@
     "shoulder-lock-escape",
     "rolling-mechanics"
   ],
-  "from_position": "Kimura Trap/Bottom",
+  "from_position": "Carni/Top",
   "outcomes": [
     {
       "to": "Open Guard/Bottom",
@@ -68,8 +68,8 @@
       "relationship": "Common follow-up if opponent successfully follows your roll"
     },
     {
-      "name": "Kimura from Side Control",
-      "relationship": "Understanding the attack improves defensive awareness"
+      "name": "North-South to Kimura",
+      "relationship": "Understanding this Kimura attack path improves defensive awareness and escape timing"
     },
     {
       "name": "Escape Fundamentals",

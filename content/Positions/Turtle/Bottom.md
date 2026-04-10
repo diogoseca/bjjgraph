@@ -165,6 +165,8 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Turtle (Bottom)?</p>
+
 - Bottom practitioner positioned on hands and knees with weight distributed across four points of contact, creating a stable base with rounded back to protect against submissions while maintaining mobility for dynamic movement
 - Head tucked defensively with chin to chest, elbows tight to ribs and knees to prevent underhook penetration and maintain structural integrity against back takes, creating a tight defensive shell
 - Hips elevated off the mat with knees under hips and hands under shoulders, maintaining mobility while preventing opponent from flattening the position and establishing dominant control
@@ -176,6 +178,8 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Turtle (Bottom)?</p>
 
 - Guard has been passed or is in process of being passed
 - Ability to maintain rounded defensive posture with chin tucked
@@ -189,6 +193,8 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle?</p>
 
 - Keep elbows tight to knees to prevent underhook penetration and maintain defensive frames
 - Maintain constant motion and weight shifting to prevent opponent from settling their weight
@@ -205,9 +211,11 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Turtle (Bottom)?</p>
+
 **If opponent has seatbelt control but no hooks in:**
 - Execute **[[Principles/Hand Fighting/Attacker|Hand Fighting]]** → [[Positions/Closed Guard]] (Probability: 50%)
-- Execute **[[Explosive Standup/Attacker|Explosive Standup]]** → [[Positions/Scramble Position]] (Probability: 40%)
+- Execute **[[Explosive Standup/Attacker|Explosive Standup]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 **If opponent is attempting front headlock control:**
@@ -221,13 +229,13 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 
 **If opponent has one hook in but no harness control:**
-- Execute **[[Kick Back Hook Out/Attacker|Kick Back Hook Out]]** → [[Positions/Scramble Position]] (Probability: 45%)
+- Execute **[[Kick Back Hook Out/Attacker|Kick Back Hook Out]]** → [[Positions/Standing Position]] (Probability: 45%)
 - Execute **[[Roll Over Hook Side/Attacker|Roll Over Hook Side]]** → [[Positions/Half Guard]] (Probability: 50%)
 
 
 **If opponent is low and heavy with underhooks:**
 - Execute **[[Deep Half Escape/Attacker|Deep Half Escape]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 40%)
-- Execute **[[Technical Standup/Attacker|Technical Standup]]** → [[Positions/Scramble Position]] (Probability: 35%)
+- Execute **[[Technical Standup/Attacker|Technical Standup]]** → [[Positions/Standing Position]] (Probability: 35%)
 
 
 
@@ -237,6 +245,8 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle?</p>
 
 ### 1. Remaining static in turtle without attempting movement or improvement
 
@@ -276,6 +286,8 @@ Turtle Bottom is a defensive position where the bottom practitioner is on their 
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Turtle defense?</p>
+
 ### Turtle Escape Gauntlet
 
 Partner starts in turtle bottom while training partner attempts various attacks (back takes, chokes, rolls). Bottom player must successfully escape to guard or standing within 30 seconds. Rotate attacks every round to develop well-rounded defensive awareness and multiple escape routes.
@@ -309,38 +321,6 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the essential body position for maintaining a defensive turtle that protects against both chokes and back takes?
-**A**: The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes.
-
-**Q2**: Your opponent establishes seatbelt control - what immediate actions should you take?
-**A**: Immediately begin hand fighting to strip their grips, specifically targeting the choking hand first since this prevents finishing attacks. While hand fighting, create motion through hip movement and directional changes to disrupt their weight placement. Look for opportunities to either explode to standing if their weight is high, or execute a sit-through if they commit forward. The key is not allowing them time to settle and insert hooks - constant movement and grip fighting buys you time and creates escape opportunities.
-
-**Q3**: How do you determine whether to attempt a granby roll versus a technical standup from turtle?
-**A**: The decision depends on opponent's weight distribution and control points. Choose granby roll when opponent's weight is high on your back and forward-leaning, as you can use their momentum against them and they cannot follow your rotation effectively. Choose technical standup when opponent's weight is relatively light or they have poor hip control, allowing you to post and drive through without being dragged back down. If opponent has deep underhooks and heavy chest pressure, neither may work - consider sit-through or deep half entry instead.
-
-**Q4**: Your opponent begins inserting a hook while you're in turtle - what is the proper defensive response?
-**A**: Immediately kick your leg back and away from their hooking attempt while simultaneously rotating your hips away from that side. Do not let the hook settle - if you feel them threading their foot inside your thigh, extend your leg explosively to strip the hook before they can secure it. If the first hook is secured, immediately work to prevent the second hook by turning toward the hook side and looking to sit through or granby roll. A single hook is recoverable; allowing both hooks to set dramatically reduces escape probability.
-
-**Q5**: What role does grip fighting play in turtle bottom defense and what are the priority grips to fight?
-**A**: Grip fighting is critical because preventing dominant grip establishment buys time and creates escape windows. Priority grips to fight are: first, the choking hand in any seatbelt or harness configuration since this prevents finishing attacks; second, any wrist control they're using to flatten you or control your movement; third, grips on your hips or waist that control your base. Use two hands on one grip to strip efficiently rather than fighting multiple grips simultaneously. The goal is to create moments of loosened control where escapes become possible.
-
-**Q6**: Your opponent commits their weight forward for a front headlock attack - what opportunity does this create?
-**A**: Forward weight commitment for front headlock creates excellent sit-through opportunities. As they drive forward, their base becomes compromised and they cannot follow you laterally. Execute a quick sit-through to the opposite side of their choking arm, threading your near leg through and turning to face them. This often leads directly to half guard or closed guard recovery. The key is timing - wait for them to commit their weight before initiating the sit-through, or they can easily follow and maintain control.
-
-**Q7**: How should you manage energy expenditure while defending turtle position?
-**A**: Energy management in turtle requires strategic effort distribution. Use defensive structure (tight elbows, rounded back, tucked chin) as your primary defense rather than explosive movement - this costs minimal energy. Save explosive movements for genuine escape opportunities when opponent makes errors or their weight shifts favorably. Avoid fighting every grip with maximum effort; instead, prioritize the most threatening controls. When escape attempts fail, immediately return to defensive structure rather than continuing to scramble. Recognize that turtle is unsustainable - invest energy in calculated escape attempts rather than extended grip fighting battles.
-
-**Q8**: Your granby roll attempt fails and opponent follows you - how should you recover?
-**A**: If opponent follows your granby roll, immediately chain into a second escape rather than returning to static turtle. Options include: executing a second granby roll in the opposite direction using their forward momentum against them, transitioning to a sit-out and scramble if they're heavy on top, or inverting into deep half guard if they end up with chest pressure on your torso. The key principle is continuous motion - a failed escape that flows into another escape attempt is far better than resetting to a static turtle where opponent can re-establish control points.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -368,7 +348,7 @@ Partner attempts to establish harness control, underhooks, and dominant grips wh
 - **[[Transitions/Technical Stand-up]]** - Alternative escape route to standing position
 - **[[Positions/Front Headlock]]** - Common attacking position opponent transitions to
 - **[[Transitions/Anaconda Choke]]** - Submission threat when turtle defense fails
-- **[[Principles/Defensive Posture]]** - Fundamental concept for turtle bottom structure
+- **[[Principles/Escape Fundamentals]]** - Fundamental concept for turtle bottom defensive structure
 - **[[Transitions/Rolling to Guard]]** - Key escape transition for guard recovery
 - **[[Principles/Hip Escape Mechanics]]** - Movement principle underlying turtle escapes
 

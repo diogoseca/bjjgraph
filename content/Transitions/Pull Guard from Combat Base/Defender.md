@@ -154,6 +154,8 @@ As the defender in combat base against a guard pull attempt, your primary object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pull Guard from Combat Base?</p>
+
 - Opponent reaches aggressively for your collar or behind your head with both hands, indicating posture-breaking intent
 - Opponent's feet begin walking up from your hips toward your ribcage in a progressive leg-wrapping sequence
 - Opponent performs a visible hip escape to close distance, angling their body toward your waist
@@ -166,6 +168,8 @@ As the defender in combat base against a guard pull attempt, your primary object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pull Guard from Combat Base?</p>
 
 - Maintain upright posture with hands controlling opponent's hips to prevent them from closing distance for guard closure
 - Fight grips proactively — strip collar and sleeve grips within two to three seconds of establishment before they generate posture-breaking pressure
@@ -180,6 +184,8 @@ As the defender in combat base against a guard pull attempt, your primary object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pull Guard from Combat Base?</p>
 
 ### 1. Post hand on opponent's hip and drive your hips backward to create distance before legs can wrap
 
@@ -217,6 +223,8 @@ As the defender in combat base against a guard pull attempt, your primary object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pull Guard from Combat Base?</p>
+
 ### → [[Positions/Combat Base]]
 
 Maintain strong upright posture, aggressively fight and strip grips within seconds of establishment, and use hip positioning to prevent guard closure. Stay patient with base structure while applying continuous passing pressure that keeps the opponent defensive rather than focused on closing guard.
@@ -232,6 +240,8 @@ When opponent commits to the guard pull, exploit their upward focus to initiate 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pull Guard from Combat Base?</p>
 
 ### 1. Allowing opponent's collar grip to remain established without fighting it immediately
 
@@ -261,6 +271,8 @@ When opponent commits to the guard pull, exploit their upward focus to initiate 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pull Guard from Combat Base?</p>
+
 **Phase 1: Recognition Drilling** - Identifying guard pull attempts and their stages
 Partner performs guard pull setup sequences including grip establishment, foot walking, and hip escaping at slow speed. Defender practices verbally calling out each stage of the guard pull as they recognize it. Build pattern recognition and awareness before adding physical defensive responses.
 
@@ -277,26 +289,6 @@ Three-minute positional rounds starting with defender in combat base. Bottom pla
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the highest-priority defensive action when you feel your opponent's heels starting to hook behind your lower back?
-**A**: Immediately drive your hips backward while posting one hand on the opponent's hip to create space. The critical window is before the ankles cross — once ankles are locked, breaking the guard requires significantly more effort and a full guard opening sequence. If their heels are just starting to hook, push their near-side knee down with your hand while retreating your hips to prevent the ankle crossing that completes guard closure. Speed of response in this one-to-two-second window determines whether you maintain combat base or get pulled into closed guard.
-
-**Q2**: How does your weight distribution in combat base need to change when defending a guard pull versus preparing to pass?
-**A**: When defending a guard pull, shift your weight slightly more toward your posted knee in approximately a sixty-five to thirty-five ratio and lower your center of gravity by dropping your hips. This anchors you against forward pulling forces. In contrast, passing preparation requires more weight toward the planted foot with a fifty-fifty distribution and higher hip positioning for mobility. The guard pull defense priority is resisting forward collapse, whereas passing requires dynamic lateral movement. Recognize the opponent's intent and adjust your weight distribution accordingly before they commit.
-
-**Q3**: Your opponent has established a strong cross-collar grip and is beginning to break your posture — what is your systematic response?
-**A**: First, post your same-side hand on their hip bone to create a structural brace against the pull. Second, use your free hand to execute a two-on-one grip break on their collar-gripping wrist, circling your wrist inside their grip and peeling their fingers. Third, once the grip is broken, immediately re-establish your own controlling grip on their bicep or sleeve to prevent them from re-gripping. Fourth, restore your full combat base posture by driving your chest forward and head up. Never attempt to simply power through a deep collar grip as the leverage heavily favors the bottom player.
-
-**Q4**: When is standing up the best defensive option versus staying in combat base and fighting grips?
-**A**: Standing is the best option when the opponent has established multiple controlling grips such as collar plus sleeve and your combat base posture is significantly compromised, meaning your head is at or below your hip level and you cannot recover posture from the kneeling position. Standing creates maximum distance and breaks the bottom player's leverage chain entirely. However, stay in combat base and fight when you have at least equal grip control and your posture remains intact, as standing unnecessarily resets the position and surrenders the proximity advantage you need for effective passing sequences.
-
-
-
-</section>
 
 
 </main>

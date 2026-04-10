@@ -162,6 +162,8 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Inverted Lasso Guard?</p>
+
 - Opponent widens their base and drops hips backward while maintaining connection, indicating they are establishing a defensive platform against sweeps before attempting to pass
 - Opponent's free hand moves to control your non-lasso leg behind the knee, signaling they are targeting your steering mechanism before committing to arm extraction or stack pressure
 - Opponent begins circular movement with their lassoed arm rather than pulling explosively, indicating systematic arm extraction approach rather than reactive escape
@@ -174,6 +176,8 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Inverted Lasso Guard?</p>
 
 - Maintain continuous tension on the lasso hook throughout all defensive movements because any slack allows arm extraction that eliminates the position entirely
 - Keep the free leg active and threatening at all times, posting on the opponent's hip for sweep steering or threading behind their back for berimbolo entry
@@ -188,6 +192,8 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Inverted Lasso Guard?</p>
 
 ### 1. Initiate berimbolo rotation by threading the free leg behind the opponent's back and spinning toward their back
 
@@ -225,6 +231,8 @@ Defending your inverted lasso guard against a skilled passer requires maintainin
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Inverted Lasso Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Execute a berimbolo by threading the free leg behind the opponent's back when they retreat weight to defend sweeps or commit both hands to grip fighting. Time the hip rotation to coincide with their defensive weight shift, using their backward momentum to accelerate your spin toward their back. Secure seat belt grip and insert hooks immediately upon reaching the back position.
@@ -240,6 +248,8 @@ Maintain constant lasso tension and use hip reangulation to reset your guard pos
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Inverted Lasso Guard?</p>
 
 ### 1. Allowing the free non-lasso leg to become passive or controlled without fighting to recover it
 
@@ -269,6 +279,8 @@ Maintain constant lasso tension and use hip reangulation to reset your guard pos
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Inverted Lasso Guard?</p>
+
 **Phase 1: Guard Retention Under Pressure** - Maintaining lasso tension and free leg activity against progressive passing attempts
 Partner attempts arm extraction and stack passes at 40% speed while you focus on keeping the lasso hook tight, sleeve grip connected, and free leg active on their hip. No offensive techniques yet, purely building the defensive muscle memory for guard retention under pressure.
 
@@ -285,29 +297,6 @@ Positional sparring starting in established inverted lasso guard with the top pl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary recognition cue that the top player is initiating a stack pass rather than arm extraction?
-**A**: The primary cue is the direction of their pressure: stack passing drives shoulder and chest pressure toward your upper chest and shoulders to flatten the inversion, while arm extraction involves circular arm movement and grip fighting without significant forward compression. Additionally, the stack passer typically steps their lead foot forward near your hip to create a driving platform, whereas the arm extractor maintains their base position and works the grip sequence without committing forward weight. Recognizing this directional difference within one second determines whether you should prepare a sweep counter or a grip retention defense.
-
-**Q2**: How should you respond when the top player successfully controls your free non-lasso leg?
-**A**: Immediately work to recover the free leg by kicking through, circling the foot to break the grip, or using your free hand to peel their grip off your knee. If direct recovery fails, consider transitioning to a triangle threat by bringing the controlled leg toward their neck, or switching to an omoplata angle that uses the lasso hook without requiring the free leg. Never accept a controlled free leg passively, as this eliminates your two primary offensive weapons and converts the position from a threatening guard to a holding pattern that the passer will dismantle systematically.
-
-**Q3**: What determines the optimal moment to transition from inverted lasso guard to berimbolo entry?
-**A**: The optimal berimbolo moment is when the opponent shifts weight backward to defend the overhead sweep or commits both hands to grip fighting rather than maintaining active base control. Their retreated weight posture reduces their ability to follow your rotation, and their hands being occupied with grips means they cannot post or counter-cartwheel. Watch for their hips moving behind their feet and their head rising to upright posture as the definitive cue that berimbolo is available. Initiating berimbolo against forward-weighted opponents is significantly harder and invites the cartwheel counter-pass.
-
-**Q4**: When should you abandon the inverted position and return to upright lasso guard?
-**A**: Return to upright guard when any of three conditions occur: your lasso tension has degraded to the point where the hook is loose and arm extraction is imminent, you have been inverted for more than three seconds without successfully initiating a technique, or the opponent has flattened your hips with stack pressure that eliminates your rotational mobility. Recognizing these failure states early allows a controlled transition back to upright lasso guard where energy expenditure is lower and you can re-establish optimal grip tension. Waiting too long results in forced transition under pressure with compromised grips.
-
-**Q5**: Your opponent follows your berimbolo rotation with a cartwheel counter-pass. What is your best response?
-**A**: When the opponent counter-cartwheels, recognize that they are matching your rotational direction and will arrive on the far side. Your best response is to disengage the lasso hook and immediately invert again to face the new angle, establishing a De La Riva hook or new lasso on the arriving leg before they consolidate a passing position. Alternatively, if you can detect the cartwheel early enough, stall your berimbolo rotation and reverse direction to catch them mid-cartwheel with an off-balance sweep. The worst response is continuing the berimbolo rotation into their counter, which delivers you directly into their passing path.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Crucifix to Mount?</p>
+
 - Establish upper body anchor through crossface and shoulder pressure before releasing any leg control on the trapped arm
 - Execute the leg swing in a single committed motion to minimize the defensive window between crucifix and mount
 - Maintain constant chest-to-back or chest-to-shoulder connection throughout the entire transition to prevent space creation
@@ -202,6 +204,8 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Crucifix to Mount?</p>
+
 - Dominant crossface or head control established to prevent opponent from turning away during transition
 - Secure grip on far arm through overhook, wrist control, or kimura configuration maintained throughout
 - Hips positioned close to opponent's torso rather than extended away, minimizing the distance for mount entry
@@ -214,6 +218,8 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Crucifix to Mount step by step?</p>
 
 1. **Assess transition opportunity**: Evaluate whether crucifix submissions have stalled against the opponent's neck defense and whether mount would provide better finishing opportunities. Confirm that your chest-to-back connection is solid and that head control can replace the leg trap as the primary positional anchor throughout the transition.
 2. **Anchor upper body control**: Establish dominant crossface by driving your shoulder and head into the opponent's nearside shoulder and neck area. This upper body anchor must be fully locked in before any leg movement begins, as it replaces the leg trap as primary control and prevents the opponent from turning away during the critical transition window.
@@ -243,6 +249,8 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Crucifix to Mount?</p>
+
 - **Opponent bridges explosively during the leg swing when attacker's base is most compromised** (Effectiveness: High) - Your Response: Anticipate the bridge by keeping your weight low and forward through the crossface. If the bridge begins, post your free hand on the mat and ride the bridge rather than fighting it, then resettle once the opponent returns to the mat. → Leads to [[Positions/Half Guard]]
 - **Opponent immediately frames with the freed arm against hip or shoulder as soon as the leg trap opens** (Effectiveness: Medium) - Your Response: Swim through the frame using your crossface shoulder pressure to collapse it, or redirect the framing arm by controlling the wrist and pinning it to the mat before completing the leg swing. → Leads to [[Positions/Crucifix]]
 - **Opponent hip escapes and inserts knee shield as the attacker swings the leg over** (Effectiveness: High) - Your Response: Control the opponent's nearside hip with your free hand to block the shrimp. If the knee begins inserting, immediately drive your weight forward and smash the knee flat before it can establish a full shield barrier. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Crucifix to Mount?</p>
 
 ### 1. Releasing the leg trap before establishing solid upper body control through crossface or head pressure
 
@@ -293,6 +303,8 @@ Executing the Crucifix to Mount transition requires understanding the precise se
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Crucifix to Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolation of the leg swing and weight transfer sequence
 Practice the transition against a compliant partner from established crucifix. Focus on the exact sequence: crossface anchor, far arm control, hip shift, leg release, leg swing, mount consolidation. Perform 20 repetitions per side with zero resistance, emphasizing smooth mechanics and proper weight distribution at each stage.
 
@@ -310,42 +322,12 @@ Start in crucifix with full resistance. Work the complete decision tree: attempt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Crucifix to Mount transition?
-**A**: The optimal window opens when the opponent has committed their defensive focus to protecting the neck against choke attempts. At this moment, their attention and physical resources are directed upward toward hand fighting and chin tuck, leaving them less prepared to counter a positional transition. Additionally, the transition is well-timed immediately after the opponent completes a failed escape attempt and is momentarily recovering energy, as they lack the explosive capacity to counter during this brief recovery period.
-
-**Q2**: What must be established before releasing the leg trap on the near arm?
-**A**: Dominant upper body control through crossface and shoulder pressure must be fully locked in before any leg movement begins. The crossface serves as the replacement anchor once the leg trap is released, preventing the opponent from turning away or creating escape angles. Additionally, secure control of the far arm through overhook, wrist grip, or kimura configuration must be verified, as this arm becomes the opponent's primary defensive tool once the near arm is freed from the leg trap.
-
-**Q3**: How should you direct your weight during the leg swing portion of the transition?
-**A**: Weight should be driven forward and down through the crossface shoulder pressure throughout the leg swing. The common error is lifting the upper body to facilitate the leg swing, which creates space and reduces control. Instead, keep the chest heavy on the opponent's upper back and shoulder while the legs do the work independently. As the leg completes the arc and lands, immediately transfer weight down through the hips onto the opponent's torso to establish mount pressure before they can react defensively.
-
-**Q4**: What is the most common failure point during the Crucifix to Mount transition?
-**A**: The most common failure point is releasing the leg trap before establishing sufficient upper body control. When the legs open without a solid crossface and shoulder anchor in place, the opponent immediately gains access to their freed arm and uses it to create frames, push distance, or initiate hip escapes. This single error transforms a dominant position into a scramble where the attacker has abandoned crucifix control without successfully establishing mount, often resulting in the opponent recovering half guard or worse.
-
-**Q5**: What grip configuration provides the most secure control of the far arm during transition?
-**A**: The kimura grip configuration on the far arm provides the most secure control because it simultaneously maintains positional control and threatens a submission. The two-on-one wrist and elbow control prevents the opponent from retracting the arm for frames while keeping it extended. If overhook control is used instead, it must be deep with the elbow pinched tight to prevent the opponent from swimming the arm free. Simple wrist grips are the least secure option and should only be used when other configurations are unavailable.
-
-**Q6**: Your opponent begins bridging as you release the leg trap—how do you respond?
-**A**: Do not fight the bridge by posting upward, as this creates space. Instead, drive your weight forward through the crossface and stay tight to the opponent's back. Post your free hand on the mat only if absolutely necessary to prevent being rolled, keeping it close to the opponent's body rather than wide. Ride the bridge by maintaining chest-to-back connection. As the opponent returns from the bridge peak, immediately complete the leg swing during this recovery moment when they have the least ability to generate a second defensive movement.
-
-**Q7**: If the mount transition is blocked by the opponent inserting a knee shield, what chain options are available?
-**A**: If a knee shield is inserted, you have several options depending on depth of insertion. If the knee is shallow, immediately smash it flat using crossface pressure and hip weight, then complete the mount. If the knee is fully established, abandon the mount attempt and either return to crucifix position to re-establish the leg trap on the near arm, or transition to a half guard top passing position using the knee slice or smash pass. You can also threaten a kimura on the far arm to force the opponent to abandon the knee shield to defend.
-
-**Q8**: How do you disguise the Crucifix to Mount transition to prevent the opponent from preparing defensive reactions?
-**A**: The most effective disguise is to initiate a genuine submission attempt from crucifix—particularly a choke—that forces the opponent to commit their defensive resources to protecting the neck. While they are focused on hand fighting the choke, begin the preparatory hip repositioning subtly. Then abandon the choke attempt and immediately execute the leg release and swing in one fluid motion. The opponent's defensive focus on the neck creates a cognitive delay before they recognize and respond to the positional transition, significantly reducing their ability to counter effectively.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Crucifix to Mount?</p>
 
 During the transition from crucifix to mount, exercise control over the speed and force of the leg swing to avoid striking your training partner's face or ribs. The weight transfer must be controlled and gradual rather than dropping full bodyweight abruptly onto a partner's torso, which can cause rib injuries or wind the partner. When drilling at higher resistance levels, communicate with training partners to establish boundaries for bridge intensity and counter force. Be especially cautious with the crossface pressure during training, as excessive shoulder driving can cause neck strain.
 

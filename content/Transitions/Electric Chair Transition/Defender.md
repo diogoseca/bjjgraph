@@ -174,6 +174,8 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Electric Chair Transition?</p>
+
 - Bottom player secures deep underhook reaching across your back to your far lat or belt - this is the first major setup indicator and your earliest warning
 - Bottom player's near hand releases upper body control and reaches toward your ankle or foot on the lockdown side, indicating the transition to ankle grip phase
 - You feel increasing hip extension pressure from the lockdown as the bottom player begins driving their hips forward and upward to elevate your trapped leg
@@ -186,6 +188,8 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Electric Chair Transition?</p>
 
 - Maintain heavy forward chest pressure to deny the bottom player space for hip elevation and prevent the perpendicular angle needed for splitting pressure
 - Fight aggressively to deny the underhook - establish crossface or shoulder pressure immediately when you feel the bottom player reaching across your back
@@ -200,6 +204,8 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Electric Chair Transition?</p>
 
 ### 1. Drive heavy crossface and shoulder pressure forward while sprawling hips away to flatten the bottom player and deny elevation angle
 
@@ -237,6 +243,8 @@ Understanding the attacker's sequencing is your greatest defensive asset. The tr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Electric Chair Transition?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 Flatten the bottom player with heavy crossface and shoulder pressure before they establish the ankle grip. Drive forward weight through your chest while working to separate their lockdown feet. Once flattened, systematically work the lockdown break sequence to extract your trapped leg.
@@ -252,6 +260,8 @@ Break the lockdown configuration entirely through windshield wiper motion or sys
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Electric Chair Transition?</p>
 
 ### 1. Sitting back or leaning away from the bottom player to relieve the splitting pressure
 
@@ -286,7 +296,9 @@ Break the lockdown configuration entirely through windshield wiper motion or sys
 
 ## Training Progressions
 
-**Week 1-2** - Recognition and Weight Distribution
+<p class="section-subtitle">How do you train defense against Electric Chair Transition?</p>
+
+**Week 1-2** - Recognition and Center of Gravity
 Partner slowly walks through the Electric Chair Transition sequence while you practice identifying each phase: underhook establishment, ankle grip, hip elevation, angle creation. Focus on maintaining forward pressure and proper weight distribution through chest and shoulder contact. No resistance from attacker yet.
 
 **Week 3-4** - Grip Denial and Stripping
@@ -302,32 +314,6 @@ Full resistance positional sparring starting in lockdown with partner attacking 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an Electric Chair Transition is being initiated from lockdown?
-**A**: The earliest cue is the bottom player establishing a deep underhook reaching across your back to your far lat or belt area. This grip change signals their intent to transition from standard lockdown retention to the Electric Chair attack sequence. Recognizing and contesting this underhook immediately is your best defensive opportunity, as all subsequent Electric Chair mechanics depend on this upper body control being established.
-
-**Q2**: Why is sitting back or leaning away from the pressure the worst defensive response to the Electric Chair?
-**A**: Leaning back creates space for the bottom player to achieve full hip extension and the perpendicular angle that maximizes splitting pressure. The Electric Chair mechanism requires the attacker to elevate your trapped leg and angle their body - both actions become easier when you create distance. Forward pressure compresses their space, limits hip extension, and prevents the angle creation that makes the position dangerous.
-
-**Q3**: Your opponent has secured the underhook and is reaching for your ankle - what is your best defensive action in this moment?
-**A**: This grip change is the attacker's most vulnerable moment because they've released upper body control to reach for the ankle. Immediately drive heavy crossface pressure forward to flatten them while pulling your near foot away from their reaching hand. If you can deny the ankle grip while maintaining forward pressure, the Electric Chair loses its splitting action and reverts to a standard lockdown battle you can work to escape.
-
-**Q4**: When should you attempt the windshield wiper leg extraction and what risk does it carry?
-**A**: Attempt the windshield wiper when the transition is progressing past the point where grip stripping is viable - when both the underhook and ankle grip are established but before full elevation is achieved. The primary risk is that the rotation exposes the crab ride hook position. If the bottom player recognizes and follows your rotation rather than fighting to maintain the Electric Chair path, they can transition directly to the Truck, which presents an equally dangerous set of submission threats.
-
-**Q5**: How does the limp leg concept help defend against the Electric Chair Transition?
-**A**: The limp leg concept involves deliberately relaxing your trapped leg rather than tensing against the lockdown. A stiff leg provides the attacker with a rigid lever that amplifies their lockdown extension force, making elevation easier and the submission pressure more effective. A relaxed leg absorbs force, reduces the mechanical advantage of the lockdown lever, and creates more mobility for circular extraction motions when escape opportunities arise.
-
-**Q6**: Your opponent begins elevating your leg and you feel the splitting pressure increasing - what is your systematic escape sequence?
-**A**: First, drive your chest weight forward aggressively to deny further angle creation. Second, use your free hand to attack the ankle grip by prying their fingers or pulling your foot away. Third, drive your free leg's knee toward the mat on the lockdown side to counter the elevation force. Fourth, work to separate their lockdown feet by using knee pressure against their triangle. The key is addressing these in order rather than scrambling, as each step reduces the position's effectiveness incrementally.
-
-
-
-</section>
 
 
 </main>

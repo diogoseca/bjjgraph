@@ -186,6 +186,8 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar on Free Arm?</p>
+
 - Maintain Gift Wrap arm trap throughout the armbar transition to preserve positional control and prevent defensive recovery
 - Target the free arm specifically when opponent overextends it for defensive frames or grip breaks
 - Control the elbow line before rotating into armbar position to prevent hitchhiker escape
@@ -201,6 +203,8 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar on Free Arm?</p>
+
 - Gift Wrap position established with one arm trapped across opponent's body
 - Hooks or body triangle maintaining back control foundation
 - Opponent's free arm extended or reaching for defensive purposes
@@ -214,6 +218,8 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar on Free Arm step by step?</p>
 
 1. **Secure arm control**: From Gift Wrap, identify when opponent's free arm extends for neck defense or framing. Use your non-Gift-Wrap hand to control their wrist or forearm, securing two-on-one control momentarily.
 2. **Thread leg over head**: Swing your top leg over opponent's face and head, placing your calf across their face or neck. Your foot should hook past their far shoulder to prevent them from posturing or turning into you.
@@ -242,6 +248,8 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Armbar on Free Arm?</p>
+
 - **Hitchhiker escape - opponent rotates toward trapped arm and spins out** (Effectiveness: High) - Your Response: Maintain strong knee pinch and follow their rotation by transitioning to belly-down armbar or back retake position → Leads to [[Positions/Gift Wrap]]
 - **Arm extraction and stacking - opponent pulls arm free while driving forward** (Effectiveness: Medium) - Your Response: If arm escapes, immediately return to Gift Wrap choking threats or transition to crucifix position → Leads to [[Positions/Gift Wrap]]
 - **Grip break and guard recovery - opponent strips wrist control and works hips away** (Effectiveness: Medium) - Your Response: Maintain Gift Wrap control on opposite arm and follow to technical mount or reset back control → Leads to [[Positions/Gift Wrap]]
@@ -253,6 +261,8 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar on Free Arm?</p>
 
 ### 1. Releasing Gift Wrap control on trapped arm while attacking free arm
 
@@ -292,6 +302,8 @@ From a strategic perspective, the Armbar on Free Arm creates a powerful dilemma 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar on Free Arm (Attacker)?</p>
+
 **Week 1-2** - Arm identification and control
 Practice identifying when opponent's free arm becomes vulnerable. Drill the initial arm control sequence from Gift Wrap with cooperative partner. Focus on maintaining Gift Wrap trap while securing secondary arm.
 
@@ -309,48 +321,12 @@ Apply technique in positional sparring starting from Gift Wrap. Chain with choke
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window to initiate the armbar attack from Gift Wrap?
-**A**: The optimal timing is when the opponent extends their free arm to defend choke attempts, create framing distance, or break grips. These defensive actions necessarily extend and expose the arm, creating the vulnerability needed for armbar attack. Attacking before they extend makes arm isolation difficult, so you should threaten the choke first to bait the arm extension.
-
-**Q2**: What entry requirements must be present before you attempt this transition?
-**A**: You need established Gift Wrap control with one arm trapped across the opponent's body, maintained hooks or body triangle as your back control foundation, and the opponent's free arm must be extended or reaching away from their centerline. Your chest-to-back connection must be intact, and you need clear control of the free arm's wrist before initiating rotation.
-
-**Q3**: What is the most critical hip movement during the transition from Gift Wrap to armbar?
-**A**: The hip pivot from behind the opponent to a perpendicular angle is the most critical movement. Your bottom hip must drive toward their shoulder as you rotate, creating the proper armbar angle where your hips sit tight against their shoulder joint. This perpendicular alignment is what generates effective hyperextension leverage when you bridge.
-
-**Q4**: Your opponent posts their free hand on the mat to create a frame during Gift Wrap - how do you adjust?
-**A**: A posted hand is an ideal opportunity because the arm is extended and bearing weight, making it difficult to retract quickly. Secure wrist control on the posted hand with your non-Gift-Wrap arm, then immediately begin threading your leg over their head. The weight they have committed to the post actually works against them by preventing arm retraction during your transition.
-
-**Q5**: What grip configuration should you use on the free arm during the attack?
-**A**: Control the free arm at the wrist or lower forearm with your non-Gift-Wrap hand, pulling it toward your chest centerline. Your Gift Wrap arm maintains the trap on the opposite arm. During the finish, both hands coordinate on the free arm's wrist while your body positioning and the Gift Wrap's mechanical lock maintain the trapped arm. The wrist grip should orient their thumb toward the ceiling.
-
-**Q6**: In which direction should the breaking force be applied during the armbar finish?
-**A**: The primary breaking force comes from three simultaneous vectors: hip bridge driving upward into the elbow joint from below, wrist pull bringing their hand toward your chest along your centerline, and knee squeeze pinching the upper arm in place between your thighs. The hip bridge is the dominant force vector, driving the fulcrum up into the back of the elbow while the arm is held straight by the wrist control.
-
-**Q7**: Your opponent begins the hitchhiker escape by rotating toward their trapped arm - what is your response?
-**A**: Follow their rotation by transitioning to a belly-down armbar position, maintaining strong knee pinch throughout. Do not fight against their rotation direction. Instead, use their momentum to spin into a prone position where you maintain the arm. If they rotate far enough, you can also use the movement to retake back control or transition to mounted armbar.
-
-**Q8**: The opponent successfully retracts their free arm before you complete the armbar - what chain attacks are available?
-**A**: Immediately return to rear naked choke threats since retracting the arm typically requires removing it from neck defense. If they protect the neck instead, reattempt the armbar when the arm extends again. You can also transition to crucifix if their arm positioning allows trapping both arms, or advance to technical mount while maintaining the Gift Wrap to create new attacking angles.
-
-**Q9**: Why is releasing the Gift Wrap control the single most common reason this technique fails?
-**A**: The Gift Wrap trap is the foundation of the entire attack because it removes half the opponent's defensive tools. When released, the opponent immediately recovers two-handed defense, allowing them to grip fight, frame, bridge effectively, and coordinate escape movements. The armbar attempt becomes dramatically harder because the opponent can use both arms to stack, extract the attacked arm, or create defensive connections that a single arm cannot achieve.
-
-**Q10**: How does proper leg placement across the opponent's face contribute to finishing success?
-**A**: The leg across the face serves three critical functions: it prevents the opponent from posturing up or stacking forward to relieve elbow pressure, it blocks them from turning their head and shoulders into you which would allow escape, and the calf hooking past their far shoulder acts as a lever that keeps their upper body pinned flat. Without deep leg placement, the opponent retains the ability to change body angle and defeat the armbar mechanics.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar on Free Arm?</p>
 
 The armbar hyperextends the elbow joint and can cause serious ligament damage, dislocation, or fracture if applied too quickly or powerfully. Always apply pressure gradually in training, giving your partner adequate time to tap. Release immediately when you feel or hear a tap, and never hold through a tap during drilling. Partners should tap early before feeling significant pain, as joint damage can occur very quickly once the elbow begins extending past its natural range. Avoid explosive bridging during practice - save full-speed application for competition only. If your partner has elbow injuries or hyper-mobility issues, use extra caution or avoid this technique entirely. Never apply armbars on partners who are unfamiliar with proper tap protocols.
 

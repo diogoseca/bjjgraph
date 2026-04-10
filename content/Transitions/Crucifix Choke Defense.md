@@ -201,7 +201,7 @@ The Crucifix Choke Defense occupies a critical position in the defensive hierarc
 
 - [[Positions/Crucifix]] - Source position where this defense is executed from bottom
 
-- [[Transitions/Choke from Crucifix]] - Primary submission threat this defense neutralizes
+- [[Submissions/Choke from Crucifix]] - Primary submission threat this defense neutralizes
 
 - [[Transitions/Arm Recovery from Crucifix]] - Follow-up escape technique after successful choke defense
 

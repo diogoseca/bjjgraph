@@ -154,6 +154,8 @@ As the defender against the grip fight escape, you are the practitioner maintain
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Grip Fight Escape from Rear Triangle?</p>
+
 - Opponent's free hand reaches toward your choking leg ankle or behind your knee rather than defending their neck
 - Opponent stops fighting the choke defensively and shifts focus to pulling or peeling at the figure-four connection
 - Tactile sensation of fingers wrapping around your ankle bone at the lock point, indicating targeted grip fight initiation
@@ -166,6 +168,8 @@ As the defender against the grip fight escape, you are the practitioner maintain
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Grip Fight Escape from Rear Triangle?</p>
 
 - Recognize grip fight initiation early by feeling for the opponent's free hand targeting your ankle-knee connection
 - Actively tighten the triangle lock by squeezing knees together when you feel the ankle being attacked
@@ -180,6 +184,8 @@ As the defender against the grip fight escape, you are the practitioner maintain
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Grip Fight Escape from Rear Triangle?</p>
 
 ### 1. Squeeze triangle tighter and angle hips to accelerate choke finish
 
@@ -217,6 +223,8 @@ As the defender against the grip fight escape, you are the practitioner maintain
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Grip Fight Escape from Rear Triangle?</p>
+
 ### → [[Positions/Triangle Control/Rear Triangle]]
 
 Recognize the grip fight early, tighten the triangle lock immediately, and strip the opponent's ankle grip before they generate breaking force. Maintain constant choking pressure to force them to choose between the grip fight and defending the choke. Use your hands to actively deny the opponent's free hand access to the lock point.
@@ -232,6 +240,8 @@ If the triangle becomes compromised, proactively transition to standard back con
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Grip Fight Escape from Rear Triangle?</p>
 
 ### 1. Ignoring the grip fight and continuing to attack the choke without addressing the ankle grip
 
@@ -261,6 +271,8 @@ If the triangle becomes compromised, proactively transition to standard back con
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Grip Fight Escape from Rear Triangle?</p>
+
 **Phase 1: Grip Fight Recognition** - Developing tactile awareness of grip fight initiation
 Partner executes the grip fight escape at slow speed while you focus on feeling each stage: hand reaching for ankle, fingers wrapping the lock point, burst force against the connection. Practice identifying each stage with eyes closed to build proprioceptive awareness. Call out each stage as you feel it to confirm recognition accuracy.
 
@@ -277,26 +289,6 @@ Start in locked rear triangle with partner using full effort grip fight escape. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: How do you recognize the difference between a panicked escape attempt and a systematic grip fight from the bottom player?
-**A**: A panicked escape involves explosive, undirected movements like wild bridging, frantic arm pulling, or full-body thrashing without targeting specific control points. A systematic grip fight shows deliberate hand placement targeting your ankle-knee connection, burst-and-rest timing patterns, maintained chin protection throughout the escape attempt, and progressive small gains rather than all-or-nothing efforts. The systematic grip fight is far more dangerous and requires immediate defensive response, while panicked escapes often tire the opponent without achieving structural damage to your triangle.
-
-**Q2**: What is your immediate response when you feel the bottom player's hand wrapping around your ankle at the lock point?
-**A**: Immediately squeeze your knees together to tighten the triangle lock and make the ankle harder to peel. Simultaneously use your nearest free hand to strip their grip by peeling their fingers off your ankle or pushing their wrist away from the connection point. If you cannot strip the grip immediately, increase choking pressure by angling your hips to force them to choose between maintaining the ankle grip and defending the choke. Speed of response is critical because once they establish a strong C-grip on your ankle, it becomes much harder to defend.
-
-**Q3**: Your bottom player has loosened the ankle lock significantly. What adjustments do you make to maintain dominant position?
-**A**: If the ankle lock is loosened beyond recovery, do not waste energy trying to re-lock the triangle. Instead, immediately transition to standard back control by inserting your hooks and establishing a seatbelt grip while you still have back exposure. If hooks are already partially in, focus on securing full back control before the opponent can escape to turtle. Alternatively, if the opponent's arm is still partially trapped, transition to crucifix or armbar before they fully extract it. The key decision is recognizing the point of no return for the triangle and transitioning before you lose all positional advantage.
-
-**Q4**: How do you balance maintaining the triangle choke threat while defending against the grip fight escape?
-**A**: Alternate between offensive choke pressure and defensive grip protection in a rhythmic cycle. When you feel the opponent reaching for your ankle, briefly shift focus to stripping their grip or tightening the lock, then immediately return to choke pressure. The opponent cannot effectively fight your ankle while defending a tight choke, so maintaining high choking pressure is actually your best defense against the grip fight. Use your hands to cycle between attacking the opponent's neck and defending your ankle connection, never committing fully to one at the expense of the other.
-
-
-
-</section>
 
 
 </main>

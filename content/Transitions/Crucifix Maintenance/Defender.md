@@ -162,6 +162,8 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crucifix Maintenance?</p>
+
 - Opponent's legs tightening with increased inward squeeze around your trapped arm, indicating they are reinforcing the leg triangle control point
 - Weight shifting forward onto your upper body and shoulders, signaling the attacker is consolidating chest-to-back pressure to prevent turning
 - Grip adjustment on your far arm—switching from wrist grip to overhook or kimura configuration—indicates the attacker is securing deeper and more submission-threatening control
@@ -174,6 +176,8 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crucifix Maintenance?</p>
 
 - Protect the neck as absolute first priority—surviving position is meaningless if you are submitted during the escape attempt
 - Attack the weakest control point first, typically the far arm grip which relies on hand strength rather than mechanical advantage
@@ -188,6 +192,8 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crucifix Maintenance?</p>
 
 ### 1. Incremental arm extraction during grip transition: use subtle hip movement and angle changes to create space in the leg triangle when the attacker adjusts their far arm grip
 
@@ -225,6 +231,8 @@ Defending against Crucifix Maintenance means systematically dismantling the oppo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crucifix Maintenance?</p>
+
 ### → [[Positions/Side Control]]
 
 Time your bridge escape during the attacker's weight redistribution or submission setup, creating enough displacement to escape both arm traps. The attacker retains top position but in side control where your arms are free and standard escape sequences become available.
@@ -240,6 +248,8 @@ Work systematic arm extraction by combining hip movement with angle changes duri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crucifix Maintenance?</p>
 
 ### 1. Pulling the trapped arm explosively and directly against the locked leg triangle
 
@@ -269,6 +279,8 @@ Work systematic arm extraction by combining hip movement with angle changes duri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crucifix Maintenance?</p>
+
 **Phase 1: Recognition and Survival** - Identifying crucifix maintenance patterns and establishing survival posture
 Partner holds crucifix and performs maintenance adjustments without attacking submissions. Defender practices calm breathing, neck defense posture, and identifying which of the three control points is weakest. Focus on developing comfort in the position and understanding the attacker's movement patterns before attempting any escape.
 
@@ -282,29 +294,6 @@ Partner performs full maintenance with realistic grip transitions, weight shifts
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct priority hierarchy when defending against crucifix maintenance?
-**A**: The hierarchy is: (1) protect the neck from immediate choke threats using chin tuck, shoulder raise, and free hand defense, (2) identify and attack the weakest control point, typically the far arm grip, (3) work to free the trapped arm through angle changes and incremental movement, (4) execute positional recovery by combining arm freedom with body movement to transition to back control or side control defense. Skipping any level of the hierarchy—particularly neck defense—risks submission during the escape attempt.
-
-**Q2**: When is the optimal moment to attempt escape from crucifix maintenance, and what cues signal this window?
-**A**: The optimal escape windows occur during the attacker's maintenance adjustments: grip transitions on the far arm (brief control gap), weight shifts for submission setups (reduced chest pressure), hip switches for realignment (momentary balance disruption), and the recovery moment after blocking your previous escape attempt (attentional reset). Tactile cues include lightening of chest pressure, loosening of the far arm grip, and brief instability in the attacker's base. Visual cues include the attacker looking away to set up attacks and hand repositioning movements.
-
-**Q3**: Why should arm extraction be combined with simultaneous body movement rather than performed as a standalone action?
-**A**: Freeing the arm without changing body position gives the attacker an immediate opportunity to recapture the arm with a simple re-squeeze of the leg triangle or a quick grip re-establishment. When arm extraction is combined with a hip escape or turn, the new body angle makes recapture mechanically difficult because the geometry that enabled the trap no longer exists. The simultaneous movement also forces the attacker to address two problems at once—arm escape and positional change—splitting their maintenance attention and reducing their ability to counter effectively.
-
-**Q4**: How should you manage your energy when trapped in crucifix against an opponent actively maintaining position?
-**A**: Breathe calmly through the nose to prevent hyperventilation and panic. Use micro-movements that require minimal energy rather than explosive bursts that exhaust you quickly. Accept that escape is a process requiring patient, incremental work rather than a single dramatic movement. Time your energy expenditure to coincide with the attacker's adjustment windows when your effort will have maximum effect. Reserve any explosive energy for the final moment of escape execution when space has already been created through accumulated micro-movements. A calm, methodical defender will outlast a tense, panicking one.
-
-**Q5**: If the attacker transitions to a kimura grip on your far arm, what does this signal and how should you respond?
-**A**: The kimura grip transition signals two things: the attacker is seeking more secure control and they are adding a submission threat to their maintenance. During the grip transition itself, there is a brief window where neither the old grip nor the new grip is fully established—this is an escape opportunity if you act immediately. If the kimura grip locks in, you must address both the positional control and the submission threat. Straighten the arm to reduce kimura leverage while using the transition disruption to work hip escape. Do not allow the arm to be rotated behind your back, as this creates both a submission and a tighter positional control.
-
-
-
-</section>
 
 
 </main>

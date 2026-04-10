@@ -162,6 +162,8 @@ Defending against the Hitchhiker Escape means you are the person holding the arm
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hitchhiker Escape?</p>
+
 - Opponent's trapped thumb begins rotating outward away from their body toward the ceiling - the signature hitchhiker motion
 - Opponent starts turning their shoulders and chest toward your legs rather than bridging straight up
 - Free hand pushes against your hip or thigh to create space for the rotation rather than gripping your legs defensively
@@ -174,6 +176,8 @@ Defending against the Hitchhiker Escape means you are the person holding the arm
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hitchhiker Escape?</p>
 
 - Control the shoulder and upper arm in addition to the wrist to prevent the rotational escape from breaking your grip angle
 - Squeeze knees together tightly to track opponent's rotation and maintain chest-to-arm connection throughout the movement
@@ -188,6 +192,8 @@ Defending against the Hitchhiker Escape means you are the person holding the arm
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hitchhiker Escape?</p>
 
 ### 1. Secure shoulder control by gripping above the elbow with your near hand while maintaining wrist control with the far hand, then extend hips explosively
 
@@ -225,6 +231,8 @@ Defending against the Hitchhiker Escape means you are the person holding the arm
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hitchhiker Escape?</p>
+
 ### → [[Positions/Armbar Control]]
 
 Prevent the rotation by establishing dual control on wrist and shoulder before the escape develops. Pin opponent's elbow to your chest, squeeze knees tight, and extend hips decisively. The key is responding to the very first sign of thumb rotation rather than waiting for the full escape to develop.
@@ -240,6 +248,8 @@ If the hitchhiker rotation is well-established and the armbar is compromised, ca
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hitchhiker Escape?</p>
 
 ### 1. Relying solely on wrist control without securing the shoulder or upper arm
 
@@ -274,6 +284,8 @@ If the hitchhiker rotation is well-established and the armbar is compromised, ca
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hitchhiker Escape?</p>
+
 **Phase 1: Recognition Training (Weeks 1-2)** - Learn to identify hitchhiker escape cues and develop early-warning recognition
 Partner slowly executes hitchhiker escape from your armbar while you practice identifying each recognition cue: thumb rotation, shoulder turn, hip rotation, free hand pushing. Do not attempt to counter yet - focus entirely on seeing and feeling the escape develop. Call out each cue verbally as you recognize it. Drill 20-30 slow repetitions per session to build pattern recognition.
 
@@ -290,29 +302,6 @@ Start in armbar position during positional sparring. Partner attempts full-speed
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a Hitchhiker Escape?
-**A**: The earliest cue is the thumb rotating outward away from their body. Before any significant body rotation occurs, the opponent must initiate the hitchhiker thumb motion to change the joint angle. Recognizing this subtle forearm rotation before the full body turn develops gives you the maximum window to counter by securing shoulder control and extending hips decisively.
-
-**Q2**: Why is wrist-only control insufficient to prevent the Hitchhiker Escape?
-**A**: Wrist-only control allows the opponent to externally rotate their forearm, which changes the plane of their elbow joint relative to your hip extension force. The hitchhiker rotation is biomechanically designed to exploit single-point wrist control by redirecting the hyperextension vector away from the vulnerable joint angle. Controlling both the wrist and shoulder eliminates the rotation axis entirely.
-
-**Q3**: Your opponent has begun rotating and you cannot finish the standard armbar - what is your highest-percentage transition?
-**A**: Follow the rotation and transition to a belly-down armbar. As the opponent turns, maintain your wrist grip and turn your body in the same direction, ending up with your chest facing the mat and their arm still controlled. This position actually provides a stronger finishing angle than the standard armbar because your body weight drives directly into the hyperextension. If wrist control is lost during the transition, immediately switch to triangle as backup.
-
-**Q4**: How should you adjust your leg positioning to counter the hitchhiker rotation?
-**A**: Drive the leg across your opponent's face downward with active pressure, using your hamstring and calf to pin their head and prevent the turning motion. Simultaneously squeeze both knees together to eliminate space around the trapped arm. The combination of head control preventing rotation and knee pressure tracking the arm creates a two-point defensive system that makes the hitchhiker mechanically impossible to complete.
-
-**Q5**: When is it appropriate to release the armbar and transition to triangle during a Hitchhiker Escape attempt?
-**A**: Transition to triangle when the opponent has rotated past 45 degrees and your armbar leverage is clearly compromised but you still have leg control over their upper body. Their rotation naturally separates their head from their trapped arm, creating the angle needed for triangle entry. Swing your far leg over their head as they continue turning and lock the triangle before they can complete the escape to turtle or half guard. This is a higher-percentage response than forcing a deteriorating armbar.
-
-
-
-</section>
 
 
 </main>

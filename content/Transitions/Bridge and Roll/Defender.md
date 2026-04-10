@@ -168,6 +168,8 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge and Roll?</p>
+
 - Opponent walks feet close to buttocks and plants them flat on the mat, positioning for explosive hip drive
 - Opponent reaches across body to grab your wrist, sleeve, or elbow, attempting to trap your arm against their chest
 - Opponent hooks your ankle or shin with their foot on the same side as the arm they are trapping
@@ -182,6 +184,8 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Bridge and Roll?</p>
+
 - Maintain wide base with knees spread and toes gripping the mat to create a stable platform resistant to bridging force
 - Keep at least one arm free and ready to post at all times—never allow both arms to be trapped simultaneously
 - Distribute weight through hips into opponent's solar plexus rather than sitting upright, making bridging elevation significantly harder
@@ -195,6 +199,8 @@ Defending the Bridge and Roll from the top mount position requires understanding
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge and Roll?</p>
 
 ### 1. Post free arm on mat at 45-degree angle toward bridge direction to create tripod base
 
@@ -239,6 +245,8 @@ Defending the Bridge and Roll from the top mount position requires understanding
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge and Roll?</p>
+
 ### → [[Positions/Mount]]
 
 Maintain mount by posting free arm, withdrawing trapped arm, or using grapevine hooks to neutralize bridging power. Successful defense preserves your dominant position and forces opponent to expend energy on failed escape.
@@ -254,6 +262,8 @@ When you recognize the early bridge and roll setup, advance to high mount by sli
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge and Roll?</p>
 
 ### 1. Allowing both arms to be trapped against opponent's chest without recognizing the danger
 
@@ -288,6 +298,8 @@ When you recognize the early bridge and roll setup, advance to high mount by sli
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge and Roll?</p>
+
 **Week 1-2: Base Awareness Fundamentals** - Recognizing escape setups and posting mechanics
 Partner executes slow-motion bridge and roll setups while you practice recognizing the cues: foot positioning, arm reach, hip turn. Focus on posting response with free arm at correct angle. No resistance from bottom partner initially—purely pattern recognition and correct posting form at slow speed.
 
@@ -304,29 +316,6 @@ Full positional sparring from mount against partner using complete escape system
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important physical response when you feel your opponent begin an explosive bridge from bottom mount?
-**A**: The single most important response is posting your free arm on the mat at a 45-degree angle toward the direction of the bridge. This creates a tripod structure that absorbs the rolling force and prevents the reversal. The post must be placed close to your body with a slightly bent elbow for structural strength—an extended arm post can be overwhelmed. This response must be trained to the point of automatic reflex, as the explosive bridge happens too fast for conscious decision-making. If both arms are trapped, the bridge and roll will succeed, which is why maintaining at least one free arm is a prerequisite for effective defense.
-
-**Q2**: How does transitioning to high mount specifically counter the bridge and roll escape attempt?
-**A**: High mount counters the bridge and roll through multiple mechanisms. First, with knees near the opponent's armpits, their arms are pinned closer to their body, making the cross-body arm trap significantly harder to execute. Second, your weight is positioned higher on their torso, far from their hip power center, meaning their bridge generates less rotational force on your body. Third, from high mount, the opponent's feet must be much further from their buttocks to accommodate your higher knee position, reducing their bridging leverage. Fourth, high mount creates immediate submission threats (armbar, triangle) that force the bottom player to prioritize defense over escape setup. The positional advancement simultaneously defends the escape and improves your offensive options.
-
-**Q3**: Your opponent successfully traps your right arm and hooks your right foot—what are your options before the bridge?
-**A**: You have a narrow window between the trapping completion and the bridge execution. Primary option: immediately post your left hand on the mat at a 45-degree angle to your left hip, creating a tripod that will absorb the incoming bridge. Secondary option: if you have time, strip your right wrist free by circling it toward their thumb (the weakest point of any grip) before they can secure it against their chest—this eliminates the trap entirely. Third option: drive your hips forward aggressively to flatten their body and reduce their bridging angle, while simultaneously pulling your right foot free from their hook by straightening your leg. The worst response is freezing or attempting to push down with your trapped arm, as this plays directly into the escape mechanics.
-
-**Q4**: Why does grapevine position work against the bridge and roll but create vulnerability to the elbow escape?
-**A**: Grapevine hooks thread your legs inside the opponent's legs and hook their ankles outward, which prevents hip extension—the fundamental movement required for any bridging escape. Without full hip extension, the opponent cannot generate the elevation needed to roll you over. However, the grapevine inherently narrows your base by bringing your knees closer together and lower on their body. This narrow base creates the exact condition the elbow escape exploits: the opponent only needs to shrimp their hips laterally and insert a knee between your narrowed knees to begin guard recovery. This is why mount maintenance requires constantly reading the opponent's escape intention and adjusting between wide base (anti-bridge) and grapevine (anti-bridge) versus pressure with posting readiness (anti-elbow escape).
-
-**Q5**: What weight distribution adjustments should you make when you feel your opponent loading for a bridge?
-**A**: When you sense the bridge loading (feet planting, core tensing, hips shifting), immediately drive your hips forward and downward into their solar plexus, increasing the weight they must lift. Simultaneously shift your center of gravity slightly toward the direction you anticipate the bridge by leaning your chest forward and angling your shoulders. Keep your head positioned over or slightly past your hips on the anticipated bridge side. Avoid shifting weight backward as this effectively reduces the load on their bridge. The goal is to make yourself as structurally heavy as possible in the direction of their roll while maintaining your posting arm free on the opposite side. Think of it as loading the spring in the opposite direction—the more weight they must move at the start, the less likely they can generate sufficient momentum to complete the reversal.
-
-
-
-</section>
 
 
 </main>

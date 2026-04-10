@@ -200,7 +200,7 @@ The S-Mount Transition is a critical link between mount control and armbar finis
 
 - [[Positions/Mount/S Mount]] - Target position achieved on successful transition
 
-- [[Submissions/Armbar from Mount]] - Primary follow-up submission from S-Mount
+- [[Transitions/Mount to Armbar]] - Primary follow-up submission setup from S-Mount
 
 - [[Positions/Mount/Technical Mount]] - Alternative advancement when opponent turns during transition
 

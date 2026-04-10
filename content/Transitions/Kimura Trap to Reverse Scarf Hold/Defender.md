@@ -154,6 +154,8 @@ Defending the Transition to Reverse Scarf Hold requires early recognition and im
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura Trap to Reverse Scarf Hold?</p>
+
 - Attacker's feet begin walking in small steps in an arc around your head while maintaining Kimura grip, indicating the rotation has started
 - Pressure shifts from the attacker's hips to their chest on your torso, feeling like a spreading weight rather than a point pressure
 - The Kimura grip pressure changes angle as the attacker's body rotates, with the figure-four shifting from lateral to diagonal orientation
@@ -166,6 +168,8 @@ Defending the Transition to Reverse Scarf Hold requires early recognition and im
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura Trap to Reverse Scarf Hold?</p>
 
 - Recognize the transition early by feeling the attacker's feet begin to walk in an arc around your head and their weight shift from hips to chest
 - Exploit the mid-rotation vulnerability window when the attacker's base is narrowest and pressure is transitioning between positions
@@ -180,6 +184,8 @@ Defending the Transition to Reverse Scarf Hold requires early recognition and im
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura Trap to Reverse Scarf Hold?</p>
 
 ### 1. Insert far-side frame against attacker's neck or shoulder to block rotation
 
@@ -217,6 +223,8 @@ Defending the Transition to Reverse Scarf Hold requires early recognition and im
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura Trap to Reverse Scarf Hold?</p>
+
 ### → [[Positions/Kimura Trap]]
 
 Force the attacker back to Kimura Trap by inserting a strong far-side frame against their neck during the early rotation phase, combined with an explosive bridge that disrupts their foot-walking arc. The goal is to make the transition fail and return to a known defensive position.
@@ -232,6 +240,8 @@ Time a hip escape during the mid-rotation vulnerability window when the attacker
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura Trap to Reverse Scarf Hold?</p>
 
 ### 1. Waiting until Reverse Scarf Hold is fully consolidated before attempting to defend
 
@@ -261,6 +271,8 @@ Time a hip escape during the mid-rotation vulnerability window when the attacker
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura Trap to Reverse Scarf Hold?</p>
+
 **Phase 1: Recognition Drilling** - Identifying transition cues with eyes closed using tactile awareness
 Partner alternates between threatening the Kimura finish and initiating the Reverse Scarf Hold rotation. Defender closes eyes and identifies which action is being performed based on pressure changes, foot movement patterns, and grip angle shifts. Build the ability to recognize the transition within one second of initiation.
 
@@ -277,26 +289,6 @@ Start in Kimura Trap Bottom with full resistance. The attacker may attempt the R
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest tactile cues that the Reverse Scarf Hold transition has begun from Kimura Trap?
-**A**: The earliest cues are the attacker's feet beginning to move in small walking steps in an arc around your head, combined with a pressure shift from their hips to their chest on your torso. You will also feel the Kimura grip angle changing from a lateral orientation to a diagonal one as the attacker's body begins to rotate. The most reliable early indicator is the weight shift to chest, which the attacker must perform to free their hips for rotation.
-
-**Q2**: Why is the mid-rotation phase the optimal time to attempt defensive actions?
-**A**: During mid-rotation (approximately the perpendicular angle), the attacker's base is at its narrowest point, their weight is distributed across a transitional rather than stable configuration, and their attention is split between completing the rotation and maintaining control. A bridge, frame, or hip escape during this window has the highest probability of success because the attacker cannot simultaneously stabilize their narrow base and complete the rotation against resistance.
-
-**Q3**: What is the risk-reward calculation of releasing your Kimura arm defense to create frames during the transition?
-**A**: Releasing the Kimura defense during mid-rotation is moderately risky but potentially high-reward. The risk is that the attacker recognizes the arm extension and immediately re-engages the Kimura finish with improved leverage from their new angle. The reward is that a well-timed frame can completely block the rotation and create guard recovery opportunities. The optimal strategy is to release Kimura defense only when the attacker is clearly committed to the positional transition and their focus has shifted from the submission to the rotation.
-
-**Q4**: Your frame was insufficient and the attacker has completed the rotation to Reverse Scarf Hold - what is your immediate priority?
-**A**: Immediately re-establish near-arm defense by tucking your elbow tight to your ribs with your hand near your opposite shoulder, as the trapped arm in Reverse Scarf Hold is highly vulnerable to americana and kimura attacks. Then focus on breath control under the chest compression to prevent panic. Only after these survival priorities are addressed should you begin working on escape sequences using far-side frames and hip rotation to create space for guard recovery.
-
-
-
-</section>
 
 
 </main>

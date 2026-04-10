@@ -190,6 +190,8 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Switch to Triangle?</p>
+
 - Create multiple threats to overwhelm opponent's defense and force reactive decisions that open new attack vectors
 - Use opponent's defensive reactions as entry points - every escape creates a new vulnerability
 - Maintain at least one control point throughout the entire transition to prevent opponent reset
@@ -205,6 +207,8 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Switch to Triangle?</p>
+
 - Active closed guard position with broken or partially broken opponent posture
 - Opponent defending or escaping from initial attack (armbar, kimura, omoplata, or sweep)
 - Control of at least one arm through sleeve grip, wrist control, or overhook
@@ -218,6 +222,8 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Switch to Triangle step by step?</p>
 
 1. **Recognize defensive reaction**: As opponent defends initial attack (typically by pulling arm free from armbar or resisting kimura), immediately identify the opening created by their defensive movement. Their focus on escaping the current submission creates a momentary lapse in posture control and positioning awareness. The specific cue varies by initial attack: arm withdrawal from armbar, elbow turn from kimura, or shoulder roll from omoplata.
 2. **Secure control point**: Establish a critical control point during the transition - typically an overhook on the defending arm, head control with your hand behind their skull, or a strong collar grip. This control prevents the opponent from posturing up and provides the anchor point for your triangle entry. Never release the prior grip until this new anchor is firmly established, ensuring continuous control throughout the switch.
@@ -247,6 +253,8 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Switch to Triangle?</p>
+
 - **Opponent postures up aggressively during transition before triangle locks** (Effectiveness: High) - Your Response: Maintain strong overhook or head control and use your legs to break posture back down. If posture cannot be broken, transition to omoplata or overhook guard rather than forcing a compromised triangle. The key is not releasing your anchor grip during their posture attempt. → Leads to [[Positions/Closed Guard]]
 - **Opponent stacks your hips and drives forward to pass guard during the switch** (Effectiveness: Medium) - Your Response: Keep shoulders off the mat by posting on your elbow, create frames against their hips to prevent the stack, and be ready to follow their pressure into an omoplata or sweep if the triangle position becomes too compressed. Never accept a flat back under stacking pressure. → Leads to [[Positions/Closed Guard]]
 - **Opponent grabs your leg to prevent it from crossing their neck and blocks the triangle entry** (Effectiveness: Medium) - Your Response: Use your free leg to kick away their grip on your attacking leg, swim your leg over the top of their grip rather than forcing it through their block, or switch to armbar or omoplata if the triangle entry is denied since your angle is already established. → Leads to [[Positions/Closed Guard]]
@@ -258,6 +266,8 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Switch to Triangle?</p>
 
 ### 1. Attempting triangle without establishing proper 45-90 degree hip angle first
 
@@ -297,6 +307,8 @@ Success depends on maintaining continuous offensive pressure throughout the swit
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Switch to Triangle (Attacker)?</p>
+
 **Week 1-2: Isolation Drilling** - Solo movement and partner-assisted positioning
 Practice the hip angle creation and leg throw in isolation without resistance. Partner holds position while you work through the mechanical steps of switching from armbar position to triangle. Focus on smooth hip rotation, high leg placement, and maintaining at least one grip throughout the movement.
 
@@ -320,48 +332,12 @@ Explore switching to triangle from failed sweeps, standing guard breaks, half gu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is creating a 45-90 degree hip angle essential before executing the switch to triangle?
-**A**: Creating a hip angle is essential because it positions your body perpendicular to your opponent's torso, providing the geometric leverage necessary for your leg to effectively cross their neck and shoulder. Without this angle, your leg either cannot reach properly or crosses too low on their back, resulting in a weak triangle lacking compression mechanics. The angle also prevents the opponent from maintaining center position and using posture to defend. Attempting the triangle from a flat, square position is one of the most common errors and rarely succeeds against trained practitioners because the choking geometry requires offset alignment.
-
-**Q2**: Your opponent successfully pulls their arm free from your armbar attempt - what is the optimal timing window for initiating the triangle switch?
-**A**: The optimal timing window is the 1-2 second period immediately after they retract their arm but before they re-establish posture and base. During this window, their arm is moving backward (creating the one-arm-in configuration), their weight is shifting (compromising base), and their attention is focused on the arm they just freed rather than the new threat developing at their neck. You must already have your hip angle partially established from the armbar attempt, and your overhook or head control must be in place before they fully withdraw. Waiting even slightly too long allows them to reconnect their defensive structure.
-
-**Q3**: What control points should you maintain during the transition to prevent opponent escape?
-**A**: You must maintain at least one strong control point throughout the entire transition: an overhook on their defending arm, head control with your hand cupping behind their skull, or a deep collar grip pulling their posture forward. These anchors serve multiple purposes - they break posture preventing escape, they provide a base for your hip movement during angle creation, and they limit the opponent's ability to circle away or stack. The critical rule is never having zero control points active simultaneously. Establish the new grip before releasing the old one, creating a seamless chain of control through the transition.
-
-**Q4**: Your opponent begins stacking you as you attempt to lock the triangle - how do you adjust?
-**A**: Immediately post on your elbow to prevent your back from going flat, which is the prerequisite for a successful stack pass. Create frames with your free hand against their hip or thigh to resist forward pressure. Use your bottom leg to push their hip away, creating space that prevents the stack from compressing your position. If the stack becomes severe, follow their forward momentum into an omoplata by releasing the triangle lock and swimming your leg over their shoulder, or use the stacking energy to sweep them forward. Never stubbornly hold a triangle while being stacked flat - transition or adjust before you lose positional control entirely.
-
-**Q5**: What is the most critical hip movement when switching from an armbar attempt to the triangle?
-**A**: The most critical hip movement is the lateral hip escape (shrimp) to the side opposite your choking leg, combined with a pivot that rotates your hips from the armbar angle into the triangle angle. During the armbar, your hips are angled to isolate the arm. For the triangle, you need to redirect that angle so your hips face perpendicular to the opponent's centerline with your choking leg positioned to cross their neck. This is not simply a leg movement - it requires driving off your bottom foot on the mat or their hip to generate the rotational force. Without this hip pivot, you end up trying to force the triangle from the armbar angle, which produces a weak, easily defended position.
-
-**Q6**: What grip adjustments are required when switching from a kimura attack to the triangle?
-**A**: When switching from kimura, you must transition from the figure-four wrist-and-arm grip to a head control or overhook anchor. Release the wrist grip last - your overhook on their arm from the kimura becomes your primary control point during the switch. As you release their wrist, immediately cup the back of their head or grip their collar to pull their posture down. The overhook you already have from the kimura position provides excellent control during the hip angle change. The common error is releasing both kimura grips simultaneously, which gives the opponent a free moment to posture and reset.
-
-**Q7**: How does this transition create a dilemma that forces the opponent into a losing decision?
-**A**: The switch to triangle creates a dilemma because the opponent's defensive reaction to the initial attack directly creates the opening for the triangle. If they pull their arm back to defend the armbar, that arm retraction isolates one arm inside and shifts their weight - exactly what the triangle needs. If they resist by keeping the arm extended, the armbar remains viable. If they posture up to escape, they break guard closure but expose their neck. The opponent cannot simultaneously keep their arm safe from the armbar, keep their posture intact, and prevent the arm isolation needed for the triangle. Every defensive choice solves one problem while creating another.
-
-**Q8**: Your opponent posts their free hand on your hip during the transition to prevent your angle change - how do you adjust?
-**A**: When they post on your hip, use a two-step approach. First, swim your near hand inside their posting arm and redirect it by pushing their elbow outward, breaking their frame and removing the post. Second, use your legs to pull them forward by driving your heels into their lower back while their frame is disrupted - this breaks their posture and removes the leverage their post provided. Alternatively, you can use the posted arm itself as a target: grab their posting wrist, pull it across your body, and now both their arms are on one side - an even better triangle entry than the original switch provided.
-
-**Q9**: What distinguishes a successful chain attack sequence from simply attempting random techniques in sequence?
-**A**: A successful chain attack sequence uses the specific defensive reaction to one technique as the deliberate entry for the next, whereas random sequential attacks allow the opponent to fully reset between attempts. In the switch to triangle, the armbar attempt is not thrown hoping to finish - it is thrown to provoke the arm retraction that opens the triangle. Each technique in the chain shares control points (the overhook persists from kimura to triangle, the angle from armbar feeds the triangle entry), maintaining continuous pressure. Random attempts release control between techniques, giving the opponent recovery time. The chain works because biomechanically, the defense for technique A positions the body perfectly for technique B.
-
-**Q10**: If the opponent blocks your leg from crossing their neck by grabbing it, what chain attacks remain available?
-**A**: When your leg is blocked from crossing the neck, several chain options remain because your angle and arm isolation are already established. First, switch to armbar by using the angle you created to pivot your hips and throw your other leg over their face for the armbar on the arm they used to grab your leg - they cannot simultaneously grip your leg and defend the armbar. Second, transition to omoplata by threading the blocked leg over their shoulder instead of their neck. Third, use their grip commitment to sweep them laterally since they have committed one hand to your leg rather than their base. The key principle is that their defensive grip creates new vulnerabilities elsewhere.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Switch to Triangle?</p>
 
 The switch to triangle transition is relatively safe when practiced with proper communication, but several considerations apply. When drilling, communicate clearly about resistance levels and tap early when the triangle becomes tight - blood chokes can cause unconsciousness in 3-5 seconds without warning. During the transition phase, be mindful of your partner's fingers and toes as legs move dynamically across their body. For the person applying the triangle, release immediately upon feeling a tap and never extend submissions beyond the tap in training. Pay attention to neck positioning during angle creation, as aggressive or jerky hip movements can strain cervical muscles in both partners. Those with pre-existing neck, shoulder, or hip injuries should modify drilling intensity and consult medical professionals before extensive repetition. During live rolling, maintain awareness of surrounding training pairs when executing the hip angle changes, as the lateral movement can encroach on adjacent rolling space.
 

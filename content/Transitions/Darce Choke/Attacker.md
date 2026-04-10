@@ -186,6 +186,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Darce Choke?</p>
+
 - Maintain deep arm penetration with your choking arm reaching past opponent's far hip before locking the grip to maximize leverage
 - Drive shoulder pressure into the side of opponent's head to close the space and tighten the choking mechanism
 - Keep elbows pinched tightly together to eliminate gaps that allow arm extraction or defensive frames
@@ -200,6 +202,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Darce Choke?</p>
+
 - Darce Control position established with figure-four or gable grip locked
 - Opponent's near-side arm trapped against their body within the choke configuration
 - Choking arm threaded deep under armpit with hand reaching past opponent's far hip
@@ -213,6 +217,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Darce Choke step by step?</p>
 
 1. **Verify grip depth**: Confirm your choking arm is threaded deep with your hand reaching past opponent's far hip. If shallow, re-thread before attempting the finish. Your bicep should be tight against the back of opponent's neck with no gaps.
 2. **Lock the grip**: Secure your grip by grabbing your own bicep with your free hand while your choking arm's hand controls behind opponent's head or shoulder. Pinch elbows together tightly to create a sealed triangle of pressure around opponent's neck and trapped arm.
@@ -230,7 +236,7 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
+| Success | [[Transitions/Darce Choke]] | 65% |
 | Failure | [[Positions/Darce Control]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
@@ -240,6 +246,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Darce Choke?</p>
 
 - **Arm extraction before grip locks - opponent pulls trapped arm free eliminating choke structure** (Effectiveness: High) - Your Response: Maintain constant inward pressure with bicep against neck. If extraction begins, immediately transition to anaconda grip or advance to mount rather than fighting for the darce → Leads to [[Positions/Darce Control]]
 - **Turning into the choke - opponent rotates their body to face you and reduce choking angle** (Effectiveness: Medium) - Your Response: Follow their turn by walking your hips in the same direction. If they commit fully, take their back as they turn or transition to mount over their turning body → Leads to [[Positions/Darce Control]]
@@ -252,6 +260,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Darce Choke?</p>
 
 ### 1. Grip too shallow with hand not reaching past opponent's far hip
 
@@ -291,6 +301,8 @@ The Darce Choke is particularly effective because it attacks from a position whe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Darce Choke (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics and depth
 Practice threading the darce arm and establishing proper grip depth on a compliant partner. Focus on hand reaching past far hip before locking. Drill 50 repetitions per side daily, emphasizing the feel of proper penetration depth.
 
@@ -308,48 +320,12 @@ Apply darce finish in positional sparring starting from front headlock or turtle
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary choking mechanism of the Darce Choke and what makes it a blood choke rather than an air choke?
-**A**: The Darce Choke compresses both carotid arteries simultaneously using the figure-four arm configuration with the opponent's own trapped shoulder acting as the third point of compression. It becomes a blood choke rather than air choke when the hip positioning is perpendicular to the opponent's spine, directing the force vector into the sides of the neck rather than the front. Proper angle ensures bilateral carotid compression producing unconsciousness within 3-8 seconds.
-
-**Q2**: What grip depth is required before attempting the finish?
-**A**: Your choking arm must be threaded deep enough that your hand reaches past opponent's far hip before locking the grip. This depth ensures your bicep is positioned directly against the back of their neck with sufficient leverage to close the choke. Attempting to finish with a shallow grip results in an energy-wasting stalemate that the opponent can outlast.
-
-**Q3**: How should your hips be positioned relative to your opponent's spine during the finish?
-**A**: Your hips should be perpendicular to opponent's spine, not directly on top of them. Walk your hips around until your body forms a 90-degree angle to theirs. This position allows your chest to drive into the back of their trapped shoulder while your hip sprawl generates the structural force needed to complete the strangle.
-
-**Q4**: Your opponent tucks their chin and brings their elbows tight - what adjustment do you make?
-**A**: When opponent establishes a committed defensive shell, do not waste energy trying to force the choke through pure squeezing. Instead, transition to mount by stepping over their body while maintaining grip control, or advance to north-south position. Their defensive posture prevents effective framing, making positional advancement high-percentage. You can reattempt the finish from the new position.
-
-**Q5**: What is the critical mechanical difference between the Darce and the Anaconda choke?
-**A**: The Darce threads the choking arm under the near armpit and over the far shoulder, while the Anaconda threads under the far armpit and over the near shoulder. This means the Darce is typically finished from the side or perpendicular position, while the Anaconda requires rolling to the opposite side. The entry opportunities also differ: Darce is more accessible from front headlock, while Anaconda favors turtle attacks.
-
-**Q6**: Your opponent begins extracting their trapped arm - how do you respond?
-**A**: When arm extraction begins, you have a split-second decision. If extraction is early, increase inward pressure with your bicep against their neck while driving shoulder pressure down to re-trap the arm. If extraction is too far along to recover, immediately release the darce and either transition to anaconda grip configuration, advance to mount, or take the back as they create the turning motion. Never continue fighting for a darce without the arm-in structure.
-
-**Q7**: What causes the choke to feel tight without actually producing unconsciousness?
-**A**: This occurs when pressure is on the trachea (air choke) rather than the carotid arteries (blood choke), usually due to incorrect hip positioning. When hips are directly on top rather than perpendicular, the force vector compresses the front of the neck instead of the sides. The solution is walking your hips around to achieve proper angle where compression comes from the sides, targeting the carotid arteries for rapid unconsciousness.
-
-**Q8**: When opponent rolls through the darce, what is the optimal response?
-**A**: Follow the roll while maintaining your grip configuration. The roll often works in your favor because you end up in an even better finishing position on top with the choke already locked. As they roll, keep your elbows pinched and your body tight to theirs. When the roll completes, immediately sprawl and re-apply shoulder pressure from your new top position. Many opponents inadvertently tighten the choke on themselves during the roll.
-
-**Q9**: How do you generate finishing pressure without relying on arm strength?
-**A**: The finish uses body structure rather than muscular effort. Your arms maintain the locked triangle configuration while your sprawled hips and perpendicular body position generate force. Drive your shoulder into opponent's head using body weight, and use the hip sprawl to extend and tighten. Think of your arms as the cage and your body as the hydraulic press. This approach allows finishing without fatigue even against larger opponents.
-
-**Q10**: Your darce grip is locked but opponent is framing on your hip with their free hand preventing the sprawl - what do you do?
-**A**: Address the frame before attempting to finish. Drive your hip forward into their posting hand to collapse the frame while maintaining grip integrity. If they maintain the frame, circle your hips to the opposite side to change the angle and remove their framing leverage. As a third option, transition to north-south by walking your hips past their head, which completely removes their ability to frame on your hip and opens a new finishing angle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Darce Choke?</p>
 
 The Darce Choke is a blood choke that can produce unconsciousness within 3-8 seconds when properly applied. Always train with experienced partners who understand tap signals and never apply full finishing pressure in drilling without your partner's explicit consent. Release immediately upon tap - do not wait to see if they really mean it. In competition, release when referee stops the match. Neck injuries can occur if the opponent attempts violent escape while the choke is locked, so maintain control throughout. Partners with prior neck injuries or cardiovascular conditions should exercise additional caution. Never practice this technique while fatigued to the point of impaired judgment. If a training partner loses consciousness, place them in recovery position and monitor breathing until they regain awareness.
 

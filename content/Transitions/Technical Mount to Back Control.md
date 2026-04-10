@@ -212,9 +212,9 @@ The Technical Mount to Back Control transition sits at the critical junction bet
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Specific back control variation establishing the grip used during this transition
 
-- [[Submissions/Armbar from Technical Mount]] - Primary submission threat that creates the armbar-or-back dilemma enabling this transition
+- [[Transitions/Mount to Armbar]] - Primary submission threat that creates the armbar-or-back dilemma enabling this transition
 
-- [[Submissions/RNC from Seat Belt]] - Primary submission chain available after completing this transition to back control
+- [[Submissions/Rear Naked Choke]] - Primary submission chain available after completing this transition to back control
 
 - [[Transitions/Escape Technical Mount to Half Guard]] - Defender's primary escape technique that this transition must overcome
 

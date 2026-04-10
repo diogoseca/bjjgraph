@@ -206,7 +206,7 @@ The Cartwheel Escape from Omoplata occupies a critical defensive node in the omo
 
 - [[Positions/Mount]] - Position reached by omoplata holder when countering the escape with a follow-through sweep
 
-- [[Submissions/Rolling Omoplata]] - Counter technique where omoplata holder follows the roll momentum to maintain submission threat
+- [[Submissions/Omoplata/Rolling Omoplata from Omoplata Control]] - Counter technique where omoplata holder follows the roll momentum to maintain submission threat
 
 - [[Transitions/Omoplata Sweep]] - Alternative outcome where omoplata holder capitalizes on escape momentum to sweep
 
@@ -215,8 +215,6 @@ The Cartwheel Escape from Omoplata occupies a critical defensive node in the omo
 - [[Positions/Spider Guard]] - Frequent entry position for omoplata setups that create this escape situation
 
 - [[Positions/Back Control]] - Position the omoplata holder may reach by following escape momentum for a back take
-
-- [[Positions/Scramble Position]] - Transitional state that may occur during incomplete or contested cartwheel escape attempts
 
 - [[Positions/Triangle Control]] - Related guard control position with similar escape mechanics involving forward pressure
 

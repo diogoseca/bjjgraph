@@ -148,6 +148,8 @@ Defending against the frame escape from Reverse Scarf Hold means maintaining you
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame from Reverse Scarf Hold?</p>
+
 - Bottom player's far-side forearm begins moving toward your hip or lower back to establish the primary structural frame contact point
 - Bottom player plants both feet flat on the mat with knees bent, indicating preparation for hip escape or bridge to support the framing sequence
 - Bottom player's breathing pattern shifts to controlled, deep diaphragmatic breaths, signaling composure recovery and mental preparation for a systematic escape attempt
@@ -159,6 +161,8 @@ Defending against the frame escape from Reverse Scarf Hold means maintaining you
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame from Reverse Scarf Hold?</p>
 
 - Maintain constant heavy hip pressure on the opponent's chest to deny the base space needed for effective frame establishment
 - Stay low with your torso driving into their body to limit the leverage available for forearm frames against your hip or shoulder
@@ -173,6 +177,8 @@ Defending against the frame escape from Reverse Scarf Hold means maintaining you
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame from Reverse Scarf Hold?</p>
 
 ### 1. Drive hip pressure through the frame before it establishes full skeletal alignment
 
@@ -203,6 +209,8 @@ Defending against the frame escape from Reverse Scarf Hold means maintaining you
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame from Reverse Scarf Hold?</p>
+
 ### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Maintain constant hip pressure and low chest position. Address frames immediately before they achieve structural alignment by driving through them or re-angling your body. Use micro-adjustments in weight distribution to prevent timing windows. When frames collapse, immediately re-secure arm control and resettle full chest compression.
@@ -218,6 +226,8 @@ When the bottom player creates persistent space through successful framing that 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame from Reverse Scarf Hold?</p>
 
 ### 1. Sitting upright to fight the frame with arms and hand fighting instead of maintaining low chest and hip pressure
 
@@ -247,6 +257,8 @@ When the bottom player creates persistent space through successful framing that 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame from Reverse Scarf Hold?</p>
+
 **Phase 1: Recognition Training** - Identifying frame escape initiation cues early
 Partner attempts frame escape from reverse scarf hold at slow speed. Practice recognizing the moment their far arm begins moving toward your hip, their feet plant for hip escape, and their breathing changes. Develop early detection habits through chest contact feedback before the escape sequence gains momentum.
 
@@ -263,26 +275,6 @@ Full resistance rounds starting in reverse scarf hold. Partner uses complete esc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent establishes a forearm frame against your hip from reverse scarf hold bottom - what is your immediate response?
-**A**: Drop your weight lower and drive your hip pressure directly through the frame before it achieves full skeletal alignment. Re-angle your body slightly to change the direction of force so their frame cannot maintain structural advantage. If the frame is already solidly established with proper elbow-to-body positioning, transition to attacking the framing arm or near-side arm rather than trying to collapse a well-structured frame through pressure alone, which wastes energy.
-
-**Q2**: Your opponent successfully completes two hip escape increments and begins inserting their knee between your bodies - how do you respond?
-**A**: You have two options depending on how far the knee has penetrated. If the knee has not yet crossed your centerline, immediately drive your hip back into the created space and use your hand to push their knee down and away, re-establishing chest contact. If the knee is already establishing a shield across your torso, immediately transition to north-south or step over to mount before the half guard is fully secured, converting their escape progress into your positional advancement rather than fighting a losing battle to maintain reverse scarf hold.
-
-**Q3**: When should you transition away from reverse scarf hold rather than continuing to fight the frame escape?
-**A**: Transition when the cumulative space from chained hip escapes makes re-closing distance energy-expensive, meaning you would need to expend significant effort to drive through established frames and recover chest-to-chest contact. The decision point is whether you can collapse the frame and close the gap faster than the bottom player can insert their knee. If the answer is uncertain, transition to north-south or mount immediately. Fighting to maintain a deteriorating reverse scarf hold wastes energy that could fuel a successful transition to a fresh dominant position.
-
-**Q4**: How does attacking the near-side arm preemptively reduce the effectiveness of frame escape attempts from reverse scarf hold bottom?
-**A**: Attacking the near-side arm with americana or kimura forces the bottom player to prioritize arm defense over frame maintenance. They must pull their near arm back to defensive position, potentially use their far-side arm to defend the submission rather than maintaining their frame, and abandon hip escape positioning to address the immediate threat. This completely resets their escape progress and drains energy on defense. However, maintain your base during the submission attempt, as committing both hands to the attack without base adjustment creates a window where a desperate bridge may succeed.
-
-
-
-</section>
 
 
 </main>

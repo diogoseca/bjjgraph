@@ -162,6 +162,8 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to K-Guard?</p>
+
 - Bottom player performs a deliberate shrimp to create hip angle before any hook movement, creating visible space between their hip and your trapped leg
 - Bottom player's inside leg disengages from standard half guard hook position, with their knee beginning to rotate upward and across the front of your thigh
 - You feel a momentary decrease in leg entanglement pressure as the bottom player transitions between hook configurations, creating a brief window where their control is weakest
@@ -174,6 +176,8 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to K-Guard?</p>
 
 - Maintain constant forward chest pressure to deny the space the bottom player needs between your chest and theirs for the hook rotation
 - Establish and maintain crossface control to flatten the bottom player's spine, eliminating the hip angle required for the inside hook inversion
@@ -188,6 +192,8 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to K-Guard?</p>
 
 ### 1. Drive crossface and flatten bottom player's spine before hook rotation completes
 
@@ -225,6 +231,8 @@ Defending the Transition to K-Guard requires the top player to recognize the rec
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to K-Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Shut down the entry early by driving crossface pressure and flattening the bottom player's spine before they complete the hook switch. Maintain heavy forward pressure to deny the hip angle needed for hook rotation. Return to standard half guard top with passing initiative.
@@ -240,6 +248,8 @@ Exploit the momentary vulnerability when the bottom player releases their standa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to K-Guard?</p>
 
 ### 1. Failing to recognize the preliminary shrimp and frame increase as early warning signs of K-Guard entry
 
@@ -269,6 +279,8 @@ Exploit the momentary vulnerability when the bottom player releases their standa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to K-Guard?</p>
+
 **Week 1-2: Cue Recognition Drilling** - Identifying K-Guard entry attempts through tactile and visual cues
 Partner attempts K-Guard entry at 30% speed from half guard bottom while you focus on identifying the three main precursor cues: shrimp for hip angle, increased frame pressure, and inside hook disengagement. Call out each cue as you feel it. No defensive action yet, just recognition and awareness development.
 
@@ -285,29 +297,6 @@ Positional sparring from half guard top against a partner who specifically targe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting to transition from half guard to K-Guard?
-**A**: The earliest cue is the deliberate shrimp creating hip angle combined with increased inside arm frame pressure against your shoulder. These precursor movements happen before any hook change and are the bottom player creating the prerequisites for the hook rotation. The shrimp provides the hip clearance needed for the inversion while the frame increase creates distance protection. Recognizing these movements gives you the maximum defensive window before the hook switch begins.
-
-**Q2**: Why is the moment of inside hook release the critical defensive window for the top player?
-**A**: When the bottom player releases their standard inside hook to begin the inversion, there is a brief window of reduced entanglement where your trapped leg is momentarily free from active hook control. This is your best opportunity to extract the leg through a sprawl or backstep because the bottom player's guard structure is at its weakest point during the transition between configurations. Once the inverted hook crosses over and engages, the entanglement is re-established and extraction becomes significantly harder.
-
-**Q3**: Your opponent has successfully established K-Guard with both hooks under active tension - what is your systematic approach to neutralize it?
-**A**: Do not attempt to strip individual hooks, as this creates the off-balancing dynamics the K-Guard system exploits. Instead, work systematically: first, establish crossface or underhook control on their upper body. Second, drive your hips forward and low to compress both hooks simultaneously rather than fighting them individually. Third, control their far hip to prevent the angle changes that power their sweeps. Fourth, work to flatten their spine by driving your shoulder into their chest. Only attempt to pass once their hook tension is degraded and their angle generation is limited.
-
-**Q4**: How should you adjust your half guard top strategy against an opponent known to frequently enter K-Guard?
-**A**: Against a known K-Guard player, prioritize crossface control and spine flattening from the start of half guard top. Keep constant chest-to-chest pressure to deny the frame distance they need for the hook switch. Maintain your trapped leg heavy with forward weight commitment to make the inversion mechanically difficult. Consider a backstep passing approach that removes your leg from entanglement range rather than forward pressure passes that load your weight onto their hooks. Grip fight aggressively to control their inside arm and deny the frame that protects their transition.
-
-**Q5**: What is the correct defensive response if you feel your opponent's inside hook begin to disengage from standard position?
-**A**: The instant you feel the inside hook disengage, you have two primary options based on your current control. If you have crossface and upper body control established, immediately increase forward pressure to flatten them before the hook rotation completes, simultaneously driving your trapped knee down to reinstate the half guard entanglement. If you do not have upper body control, immediately sprawl your trapped leg backward to extract it from the loosened entanglement while widening your base. Speed of reaction matters more than technique selection in this window.
-
-
-
-</section>
 
 
 </main>

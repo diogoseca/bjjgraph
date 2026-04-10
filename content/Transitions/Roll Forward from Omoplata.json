@@ -71,7 +71,7 @@
       "relationship": "Alternative sweep option from the same omoplata control position using lateral momentum"
     },
     {
-      "name": "Rolling Omoplata",
+      "name": "Rolling Omoplata from Omoplata Control",
       "relationship": "Related rolling technique from omoplata that uses similar forward momentum principles"
     },
     {
@@ -79,8 +79,8 @@
       "relationship": "Opponent escape technique that the roll forward can preempt or follow"
     },
     {
-      "name": "Omoplata from Spider Guard",
-      "relationship": "Common entry path through spider guard that establishes the omoplata control for this transition"
+      "name": "Spider Guard",
+      "relationship": "Entry guard with sleeve and foot control that provides strong setups for omoplata attacks leading to this transition"
     },
     {
       "name": "Back Control",
@@ -268,6 +268,14 @@
       {
         "question": "What is the biggest difference between executing the roll when you initiate it versus following the opponent's forward roll escape attempt?",
         "answer": "When you initiate the roll, you must generate all momentum through your hip drive and belt grip pull. This requires more explosive effort but gives you complete control over timing and direction of the roll. When following the opponent's escape roll, you use their momentum, which requires less energy but demands faster reaction time and the ability to maintain control during their initiated movement. The key technical difference is that when following their roll, you must keep your shin pressure across their back even tighter because their rolling motion naturally creates separation space. In both cases, the belt grip remains essential for steering into proper side control position upon landing."
+      },
+      {
+        "question": "How does the roll forward execution differ in no-gi compared to gi?",
+        "answer": "The primary difference is grip selection. In gi, the belt grip at the hip provides the strongest steering control and is the preferred option. In no-gi, you must substitute with a seatbelt grip around the waist, a grip on the far hip bone, or an overhook around the waist. The no-gi grips are inherently less secure, so you must compensate by maintaining tighter hip-to-shoulder proximity throughout the roll and executing with more explosive commitment since you cannot rely on the grip to keep the opponent connected during a slower transition. The shin pressure across the back becomes even more critical in no-gi because the steering grip alone cannot prevent separation."
+      },
+      {
+        "question": "Your opponent posts with both hands on the mat in front of them while you have omoplata control - what opportunity does this create?",
+        "answer": "A double post is one of the best triggers for the roll forward. Both hands on the mat means the opponent has committed their entire upper body structure to base, leaving zero hands available for grip fighting or blocking your hip drive. Their forward weight distribution from the double post plays directly into the roll mechanics. Secure your belt grip immediately if not already established, then drive your hips forward explosively. The opponent cannot strip your grip, block your momentum, or adjust their base without lifting a hand and compromising their stability. The double post also means their weight is already shifted forward, reducing the force you need to generate to complete the roll."
       }
     ],
     "safety_considerations": "The Roll Forward from Omoplata involves continued shoulder joint pressure during a dynamic rolling motion. The trapped shoulder remains under rotational stress throughout the transition, and the combination of momentum and joint manipulation can hyperextend the shoulder before the defender can signal a tap. During training, execute the roll at controlled speed and release shoulder pressure immediately if your partner taps or signals discomfort at any point during the movement. Avoid explosive full-speed rolls with unfamiliar training partners. Communicate intensity expectations before drilling and build speed gradually as both partners become comfortable with the technique."

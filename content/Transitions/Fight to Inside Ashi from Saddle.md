@@ -216,7 +216,7 @@ The fight from Saddle to Inside Ashi-Garami occupies a critical position in the 
 
 - [[Positions/Ashi Garami/Honey Hole]] - Alternative name for Saddle position in some systems
 
-- [[Transitions/Heel Hook from Saddle]] - Primary submission threat being defended against during this transition
+- [[Heel Hook from Saddle]] - Primary submission threat being defended against during this transition
 
 - [[Submissions/Inside Heel Hook]] - Submission that makes the Saddle position so dangerous to defend
 

@@ -162,6 +162,8 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crucifix from Turtle?</p>
+
 - Opponent grabs your near-side wrist or triceps while maintaining chest-to-back pressure, signaling the first phase of crucifix entry
 - You feel the opponent's arm swimming underneath your far armpit, reaching for your far wrist or forearm to establish bilateral control
 - Opponent inserts a hook on your near-side hip while controlling your arm, establishing the base needed for leg threading
@@ -174,6 +176,8 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crucifix from Turtle?</p>
 
 - Keep elbows tight to knees in turtle - space between elbow and knee is the crucifix entry point
 - Recognize the arm swim as the primary danger signal and immediately retract the targeted arm
@@ -189,6 +193,8 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crucifix from Turtle?</p>
 
 ### 1. Retract the far arm and tuck elbow tight to knee before the opponent can complete the arm swim
 
@@ -226,6 +232,8 @@ Defending the crucifix from turtle requires a layered approach that begins with 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crucifix from Turtle?</p>
+
 ### → [[Positions/Turtle]]
 
 Prevent the crucifix by maintaining a tight turtle shell with elbows to knees, retracting any arm the opponent attempts to isolate, and using hip movement to disrupt their angle. The opponent remains in turtle top but must abandon the crucifix and attempt different attacks.
@@ -241,6 +249,8 @@ If the crucifix entry has progressed beyond arm control, use a sit-back to guard
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crucifix from Turtle?</p>
 
 ### 1. Allowing elbows to separate from knees in turtle, creating space for the arm swim
 
@@ -275,6 +285,8 @@ If the crucifix entry has progressed beyond arm control, use a sit-back to guard
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crucifix from Turtle?</p>
+
 **Week 1-2: Recognition and Prevention** - Identifying crucifix entry attempts and maintaining tight turtle structure
 Partner slowly works through the crucifix entry sequence from turtle top while you practice recognizing each phase: arm grab, arm swim, hook insertion, leg thread. Focus on maintaining tight elbow-to-knee connection and retracting arms immediately when targeted. Partner uses 25% speed with no resistance to allow recognition pattern development.
 
@@ -291,29 +303,6 @@ Begin in turtle bottom with partner working full resistance toward crucifix. Pra
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a crucifix from turtle, and what should your immediate response be?
-**A**: The earliest cue is feeling your near-side wrist or triceps being grabbed while the opponent maintains chest-to-back pressure. Your immediate response should be to tighten your elbow-to-knee connection on both sides and begin creating movement through hip shifts or directional changes. If possible, retract the controlled arm and reset to a tighter turtle. Acting at this first phase has the highest success rate because the opponent has not yet established any hooks or bilateral arm control.
-
-**Q2**: Why is it better to accept back control than to allow full crucifix consolidation?
-**A**: Back control with hooks, while disadvantageous, still allows defensive use of both arms for hand fighting, frame creation, and choke defense. The escape rate from back control is significantly higher than from crucifix because both arms remain functional. Crucifix eliminates arm defense entirely, making submissions nearly inevitable against a skilled opponent. The positional sacrifice of accepting back control preserves your ability to defend and eventually escape, while allowing crucifix often leads directly to submission.
-
-**Q3**: Your opponent has trapped your near arm with their legs and is controlling your far wrist - which arm should you prioritize freeing first?
-**A**: Prioritize freeing the hand-controlled far arm first because it has more extraction potential than the leg-trapped arm. The hand grip is weaker than the mechanical lock of the leg triangle, so incremental movements and grip fighting have a higher chance of success. Once the far arm is free, it can immediately be used for neck defense and to create frames that facilitate extracting the leg-trapped arm. Attempting to free the leg-trapped arm first usually requires hip movement that the opponent can feel and counter.
-
-**Q4**: How should you adjust your turtle structure specifically to prevent crucifix entries?
-**A**: The key adjustment is eliminating space between your elbows and knees on both sides - this gap is the crucifix entry point. Keep your elbows pressed against the inside of your knees, creating a sealed shell that prevents the opponent from swimming their arm underneath. Additionally, maintain constant micro-movement in your hips to prevent the opponent from timing their arm swim. Keep your weight slightly back toward your heels rather than forward on your hands, which reduces the chance of arm exposure during weight shifts.
-
-**Q5**: You feel the opponent's leg beginning to thread over your far shoulder - what is your last-chance defensive action?
-**A**: Immediately turn your body toward the opponent (into the leg) while explosively shrimping your hips away. This combination collapses the angle they need for the crucifix and may cause their leg to slip off your shoulder. Simultaneously, pull your far arm tight to your chest and try to duck your shoulder under their leg. If the leg clears your shoulder despite your defense, immediately accept the position has been lost and transition your focus entirely to neck defense and freeing the hand-controlled arm.
-
-
-
-</section>
 
 
 </main>

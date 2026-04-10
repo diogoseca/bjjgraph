@@ -186,6 +186,8 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse the entanglement to Outside Ashi?</p>
+
 - Control the opponent's far leg before initiating any reversal movement to prevent their counter-rotation
 - Use hip rotation rather than leg strength to clear entanglement and create reversal angle
 - Maintain constant connection throughout the reversal to prevent opponent from disengaging to neutral
@@ -201,6 +203,8 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse the entanglement to Outside Ashi?</p>
+
 - Established defensive frames with free leg preventing opponent's immediate submission
 - Opponent's weight committed forward or laterally during transition attempt
 - Heel protected and knee line maintained preventing immediate submission threat
@@ -214,6 +218,8 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse the entanglement to Outside Ashi step by step?</p>
 
 1. **Secure far leg control**: While defending in Leg Knot Bottom, reach across and grip opponent's far leg at the knee or lower thigh. This grip prevents them from counter-rotating when you initiate the reversal and is essential for controlling their base throughout the technique.
 2. **Establish hip angle**: Turn your hips toward the opponent while keeping your heel protected by pointing toes toward their hip. Create approximately 45-degree angle that positions your hips for the upcoming rotation while maintaining defensive integrity.
@@ -242,6 +248,8 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse the entanglement to Outside Ashi?</p>
+
 - **Opponent widens base and posts hands to prevent rotation** (Effectiveness: High) - Your Response: Threaten the heel hook from current position to force reaction, or switch to 50-50 entry instead of Outside Ashi → Leads to [[Positions/Leg Knot]]
 - **Opponent drives forward and stacks during reversal attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum to accelerate your hip switch, allowing their drive to complete your rotation rather than fighting it → Leads to [[Positions/Ashi Garami/Outside Ashi-Garami]]
 - **Opponent disengages completely and creates distance** (Effectiveness: Medium) - Your Response: Follow immediately with Single Leg X entry or technical standup; do not allow them to reset to neutral standing → Leads to [[Positions/Leg Knot]]
@@ -253,6 +261,8 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse the entanglement to Outside Ashi?</p>
 
 ### 1. Attempting reversal without controlling opponent's far leg
 
@@ -292,6 +302,8 @@ Strategic timing is paramount for this technique. The optimal window occurs when
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse the entanglement to Outside Ashi (Attacker)?</p>
+
 **Week 1-2** - Reversal mechanics isolation
 Partner holds static Leg Knot Top position with minimal resistance. Focus on proper sequencing: far leg grip, hip angle, leg extraction, rotation, hook establishment. Drill each component separately then combine into full movement. Emphasis on protecting heel throughout.
 
@@ -309,48 +321,12 @@ Full positional sparring starting from Leg Knot Bottom. Bottom player attempts r
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of reversing entanglement to Outside Ashi?
-**A**: The primary goal is to transform a defensive bottom position in Leg Knot into an offensive attacking position in Outside Ashi-Garami. This reversal shifts the leg lock threat from your opponent to you, giving you access to heel hooks, ankle locks, and kneebar entries while neutralizing their previous attacking momentum.
-
-**Q2**: What position do you start this reversal from?
-**A**: This technique starts from Leg Knot Bottom, where your leg is entangled with opponent's legs but neither has achieved dominant control. You must have defensive frames established and your heel protected before attempting the reversal.
-
-**Q3**: What are the key grips needed for this reversal?
-**A**: The essential grip is controlling opponent's far leg at the knee or lower thigh. This grip prevents their counter-rotation during your reversal. Secondary grips include controlling your own foot during extraction to protect heel, and gripping opponent's ankle/heel once you establish Outside Ashi position.
-
-**Q4**: Your opponent posts their hands wide and bases out when you attempt the reversal - how do you adjust?
-**A**: When opponent bases out effectively, the Outside Ashi angle becomes difficult to achieve. Adjust by redirecting into 50-50 Guard entry instead, which requires less rotation angle. Alternatively, threaten heel hook from current position to force them to address the submission, creating the weight shift you need for the original reversal.
-
-**Q5**: When is the optimal timing window to attempt this reversal?
-**A**: The optimal window occurs when opponent commits weight forward during submission attempt, during grip transitions between attacks, or when they shift weight to advance position. Never attempt when opponent has neutral balanced base. Look for micro-movements indicating weight commitment before initiating reversal.
-
-**Q6**: What is the critical mechanical detail that makes or breaks this technique?
-**A**: The critical detail is using hip rotation rather than leg strength for the reversal. The hip switch must rotate your body underneath their leg while your outside leg hooks behind their knee. Pulling with leg strength alone tightens the entanglement and exposes your heel. Hip rotation creates the angle while keeping your heel protected.
-
-**Q7**: What is the opponent's most likely defensive response and how do you counter it?
-**A**: The most likely response is widening base and posting hands to prevent rotation. Counter by threatening immediate heel hook from current position to force them to address the submission threat. This creates the weight shift or grip adjustment you need. If they disengage completely, follow immediately with Single Leg X entry rather than allowing reset.
-
-**Q8**: If the reversal is blocked midway, what chain attacks are available?
-**A**: If blocked midway: (1) Redirect to 50-50 Guard entry which requires less rotation, (2) Return to defensive Leg Knot and await next opportunity, (3) Technical standup if opponent disengages, (4) Butterfly hook recovery if you've cleared enough entanglement. Never stay in incomplete transition position as it lacks both defensive frames and attacking capability.
-
-**Q9**: What hip angle must you establish before initiating leg extraction?
-**A**: Approximately 45 degrees turned toward the opponent with toes pointed toward their hip to protect heel exposure. This angle positions your hips for the upcoming 180-degree rotation while maintaining defensive integrity. Attempting extraction from flat hips exposes heel and lacks the mechanical advantage needed for the hip switch.
-
-**Q10**: Why must you secure the outside hook immediately after completing rotation?
-**A**: The outside hook behind opponent's knee is what prevents their leg extraction and establishes your attacking control. Without immediate hook establishment, opponent can simply pull their leg out before you consolidate position, nullifying the entire reversal. The hook should be the final action of the rotation itself, not a separate subsequent movement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse the entanglement to Outside Ashi?</p>
 
 This reversal involves rapid hip rotation and leg entanglement changes that create joint stress on both practitioners' knees and ankles. Practice with controlled speed initially, allowing partner to tap if caught in compromising position during transition. Never force through stuck entanglements as this can cause knee ligament damage. Communicate clearly with training partners about resistance levels. If opponent applies heel hook during your reversal attempt, tap immediately rather than trying to complete the technique. Both practitioners should have solid understanding of heel hook defense before drilling this reversal at higher intensities.
 

@@ -162,6 +162,8 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Kimura Counter via Roll?</p>
+
 - Bottom player's Kimura grip pressure shifts from upward (toward submission) to lateral (across their body), indicating redirection into roll
 - Bottom player plants their outside foot flat on the mat, establishing a posting point for bridge-to-rotation movement
 - Hip angle changes from static control to loading for explosive bridge, with the bottom player's hips shifting toward you
@@ -173,6 +175,8 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura Counter via Roll?</p>
 
 - Recognize pre-roll indicators early to prepare defensive positioning before the rolling motion begins
 - Maintain heavy hip pressure and base to deny the bottom player the space needed to generate rotational momentum
@@ -187,6 +191,8 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Kimura Counter via Roll?</p>
 
 ### 1. Post free hand wide and sprawl hips back to kill rotational momentum
 
@@ -224,6 +230,8 @@ As the defender against the Kimura Counter via Roll, you are the top player in a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Kimura Counter via Roll?</p>
+
 ### → [[Positions/Half Guard]]
 
 Capitalize on the transition window when the bottom player's legs are releasing from half guard hooks but have not yet closed around your waist. Strip the weakening Kimura grip with a sharp two-on-one break, then immediately drive your knee across their thigh line to establish half guard top before their legs can reconnect. Use your freed arm to crossface and flatten them, consolidating half guard top where the failed roll has left them without grips or defensive structure.
@@ -239,6 +247,8 @@ Prevent the roll entirely by recognizing the setup cues and immediately sprawlin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura Counter via Roll?</p>
 
 ### 1. Retreating hips backward when feeling the roll initiate instead of driving forward through it
 
@@ -268,6 +278,8 @@ Prevent the roll entirely by recognizing the setup cues and immediately sprawlin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Kimura Counter via Roll?</p>
+
 **Phase 1: Recognition Training** - Identifying pre-roll cues in live movement
 From Kimura Trap top position, have your partner attempt the counter-roll at various speeds while you focus purely on recognizing the four setup indicators. Do not attempt to stop the roll initially—just call out when you see the cues. Develop pattern recognition before adding defensive responses.
 
@@ -284,29 +296,6 @@ Full-speed positional sparring starting from Kimura Trap with top player working
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to attempt the Kimura Counter via Roll?
-**A**: The four primary cues are: their Kimura grip pressure shifting from upward toward submission to lateral across their body, their outside foot planting flat on the mat as a bridging post, their hips loading and shifting toward you in preparation for explosive rotation, and their free hand moving from framing to reaching for your collar or head. Seeing any two of these simultaneously indicates an imminent roll attempt and should trigger immediate defensive positioning.
-
-**Q2**: How should you position your hips to resist the rolling motion effectively?
-**A**: Drop your hips heavy and forward, sprawling your legs back at approximately 45 degrees to create a wide, low base. Your hip bone should press into their torso, pinning them flat and eliminating the space they need for the bridge that initiates the roll. Avoid keeping your hips high or square, as this creates the elevation gap the bottom player exploits. The lower and heavier your hips, the more force they need to generate rotation.
-
-**Q3**: Your opponent initiates the roll but you feel their legs starting to swing around your waist - what is your immediate response?
-**A**: Immediately backstep your far leg over their swinging legs before they can lock ankles behind your back. Simultaneously, drive your near knee across their hip line to block the leg closure. If you cannot prevent the ankle lock, posture up explosively the instant their ankles cross, establishing hands on their hips before they can break your posture. The first two seconds after guard closure determine whether you can posture and begin opening or get broken down.
-
-**Q4**: How do you use your arm extraction to prevent the roll rather than fuel it?
-**A**: Extract your arm with steady, controlled pressure rather than explosive jerking. Maintain constant forward chest pressure while methodically straightening your elbow and rotating your wrist toward their thumb line—the weakest point of any grip. The key is removing your arm without creating the energy spike the bottom player redirects into roll momentum. Think slow constant pressure rather than sudden explosive pulling.
-
-**Q5**: What is the most advantageous position to achieve when the roll attempt fails mid-transition?
-**A**: Half guard top with crossface control is the most advantageous realistic outcome. When the roll stalls mid-transition, the bottom player's legs are between half guard and closed guard—neither fully locked nor fully free. Drive your knee through this gap to establish half guard top, immediately crossface to flatten them, and begin passing. They will be grip-less and structurally compromised from the failed roll, making the pass significantly easier than from a stable Kimura Trap.
-
-
-
-</section>
 
 
 </main>

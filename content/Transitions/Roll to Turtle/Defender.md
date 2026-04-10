@@ -164,6 +164,8 @@ The critical defensive window occurs between the moment your opponent initiates 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll to Turtle?</p>
+
 - Opponent begins tucking their near-side elbow tight to their body and turning their shoulders away from you toward the mat
 - You feel increased frame pressure against your hip or shoulder as opponent creates space for the rotation
 - Opponent's hips elevate or shift away from you with an explosive upward drive, signaling the initiation of the roll
@@ -175,6 +177,8 @@ The critical defensive window occurs between the moment your opponent initiates 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll to Turtle?</p>
 
 - Maintain heavy crossface and hip pressure to detect early movement cues before the roll initiates
 - Drive your chest into their back during the turn to maintain contact and prevent them from establishing space
@@ -189,6 +193,8 @@ The critical defensive window occurs between the moment your opponent initiates 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll to Turtle?</p>
 
 ### 1. Follow the roll and establish seatbelt control with hooks
 
@@ -226,6 +232,8 @@ The critical defensive window occurs between the moment your opponent initiates 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll to Turtle?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow opponent's rotation with your chest glued to their back, immediately thread your choking arm over their shoulder and underhook arm under their armpit to establish seatbelt control. As they reach the four-point turtle base, insert your near hook first inside their thigh, then work to secure the second hook before they can begin their next escape sequence. The key is maintaining chest-to-back contact throughout the entire rotation rather than reaching for hooks prematurely.
@@ -241,6 +249,8 @@ Prevent the escape entirely by recognizing early cues and increasing hip pressur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll to Turtle?</p>
 
 ### 1. Allowing space between your chest and opponent's body during the roll
 
@@ -275,6 +285,8 @@ Prevent the escape entirely by recognizing early cues and increasing hip pressur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll to Turtle?</p>
+
 **Week 1-2** - Recognition and reaction drilling
 Partner performs Roll to Turtle at slow speed from side control. Practice recognizing the early cues (shoulder turn, frame building, hip elevation) and choosing your response: prevent with increased pressure or follow with chest contact. No resistance from escaping partner - focus purely on reading the movement and positioning your body correctly.
 
@@ -291,29 +303,6 @@ Positional sparring from side control top against partners who mix Roll to Turtl
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to attempt Roll to Turtle from side control bottom?
-**A**: The earliest cues are the opponent tucking their near-side elbow tight to their body, turning their shoulders toward the mat away from you, and building frames against your hip or shoulder. You may also feel them stop resisting your crossface and instead accept or turn into the pressure. The hip elevation or explosive upward drive is a later cue indicating commitment to the roll. Recognizing the early shoulder turn and frame-building gives you the most time to prevent or follow the escape.
-
-**Q2**: Your opponent initiates the roll and you decide to follow rather than prevent - what is the correct grip sequence?
-**A**: As they rotate, drive your chest into their back and immediately thread your top arm over their shoulder while your bottom arm goes under their armpit to establish the seatbelt grip with hands clasped. This upper body control must be secured before attempting hooks. Only after the seatbelt is locked should you insert the near-side hook first inside their thigh, then work for the second hook. Reversing this sequence by reaching for legs first allows them to use your loose upper body control to execute granby rolls or sit-outs.
-
-**Q3**: How should you adjust your side control if you notice your opponent repeatedly attempting Roll to Turtle?
-**A**: Switch to a lower hip position with more emphasis on hip-to-hip contact rather than chest pressure. Use your near-side arm to block their far hip more aggressively, preventing the hip elevation that powers the roll. Consider transitioning to kesa gatame or scarf hold variations where your body positioning makes the turn mechanically more difficult. You can also bait the roll by slightly loosening pressure, then immediately following with pre-positioned grips to convert their escape into a back take.
-
-**Q4**: Your opponent successfully reaches turtle but you maintained chest contact throughout - what should you prioritize?
-**A**: Prioritize establishing the seatbelt grip immediately while keeping your chest heavy on their upper back. Do not let them settle into a tight defensive turtle. Drive your weight forward and down to collapse their structure while threading your arms for control. If they have already closed elbows to knees, work to insert your near hook while using chest pressure to prevent their granby roll or sit-out. The first five seconds after they reach turtle are critical - they are still organizing their defensive structure and most vulnerable to back control establishment.
-
-**Q5**: When is it better to prevent the Roll to Turtle versus following it to take the back?
-**A**: Prevent the roll when you have strong hip control and crossface established with your weight settled low - the energy cost of prevention is minimal and you maintain your dominant side control. Follow the roll when the opponent has already created enough frame and momentum that prevention would require overcommitting your weight, or when you are confident in your back take ability. Following is also preferable when you have pre-positioned your arms for seatbelt control and can guarantee chest-to-back contact throughout the rotation. If unsure, following is generally safer than fighting a committed roll since a failed prevention often creates scrambles.
-
-
-
-</section>
 
 
 </main>

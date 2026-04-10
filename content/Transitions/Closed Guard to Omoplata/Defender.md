@@ -162,6 +162,8 @@ Defending the omoplata transition from closed guard requires early recognition a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Closed Guard to Omoplata?</p>
+
 - Opponent secures an overhook or deep sleeve grip on one arm while simultaneously hip escaping to create angle - this combination signals omoplata setup
 - Opponent opens their guard and begins rotating their hips perpendicular to your torso while pulling your arm across their centerline
 - You feel your arm being isolated and pulled forward while your posture is being broken, with the opponent's leg beginning to swing high toward your head and shoulder
@@ -174,6 +176,8 @@ Defending the omoplata transition from closed guard requires early recognition a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Closed Guard to Omoplata?</p>
 
 - Maintain strong posture with elbows tight to deny the angle and arm isolation needed for omoplata entry
 - Withdraw the targeted arm immediately when you feel the opponent creating angle with their hips - early extraction prevents the technique entirely
@@ -188,6 +192,8 @@ Defending the omoplata transition from closed guard requires early recognition a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Closed Guard to Omoplata?</p>
 
 ### 1. Posture up and withdraw the targeted arm by pulling your elbow sharply back to your hip while driving your chest upright
 
@@ -225,6 +231,8 @@ Defending the omoplata transition from closed guard requires early recognition a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Closed Guard to Omoplata?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Withdraw your arm early during the setup phase by pulling your elbow sharply to your hip while driving your posture upright. Alternatively, stack the opponent flat and methodically extract your arm while maintaining heavy forward pressure. In both cases, re-establish strong posture and grip fighting position before the opponent can re-attack.
@@ -240,6 +248,8 @@ Execute a forward roll when fully caught in the omoplata, timing the roll as the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Closed Guard to Omoplata?</p>
 
 ### 1. Pulling your arm backward against the omoplata pressure instead of driving forward to stack
 
@@ -274,6 +284,8 @@ Execute a forward roll when fully caught in the omoplata, timing the roll as the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Closed Guard to Omoplata?</p>
+
 **Phase 1: Recognition and Early Defense (Weeks 1-2)** - Identifying omoplata setups and practicing arm withdrawal
 Partner initiates omoplata entry at slow speed from closed guard. Focus on recognizing the overhook establishment and hip escape angle creation. Practice pulling the targeted elbow to your hip and re-establishing posture the moment you feel the setup beginning. Drill 20 repetitions per side with partner increasing speed gradually.
 
@@ -290,29 +302,6 @@ Partner attacks omoplata at full speed from closed guard. Practice selecting the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an omoplata is being set up from closed guard, and what is your immediate response?
-**A**: The earliest cue is feeling the opponent establish an overhook or deep sleeve grip on one arm while simultaneously hip escaping to create angle. Your immediate response should be to withdraw the targeted arm by pulling your elbow sharply back to your hip while driving your chest upright to re-establish posture. Addressing this at the grip and angle phase prevents the entire omoplata sequence from developing. If you wait until you feel the leg swinging, you have already missed the optimal defensive window.
-
-**Q2**: Why is driving forward to stack more effective than pulling backward when caught in an omoplata?
-**A**: Pulling backward increases the rotational angle on your shoulder, which is exactly the direction the omoplata applies pressure - you are essentially helping the attacker finish the submission. Driving forward compresses the opponent flat against the mat, which prevents them from sitting up perpendicular to your spine (required for the finish), reduces the shoulder rotation angle, and pins their hips so they cannot adjust. The stack also creates a platform from which you can methodically extract your arm while maintaining heavy top pressure.
-
-**Q3**: Your opponent has threaded their leg over your shoulder and is beginning to sit up - is it better to roll forward or attempt to stack at this point?
-**A**: At this stage, the decision depends on how far they have rotated. If they are just beginning to sit up and their chest is not yet perpendicular to your spine, the stack is still viable - drive hard forward, pin their shoulders flat, and work to extract your arm. If they have already achieved the perpendicular chest position with their weight over your back, the stack window has closed and the forward roll becomes the better option. Roll over your trapped shoulder explosively and prepare to turn immediately to prevent them from taking your back.
-
-**Q4**: How do you prevent the attacker from transitioning to back control when you execute the forward roll escape?
-**A**: The key is rolling speed and immediate directional change upon landing. Roll explosively over the trapped shoulder toward the opponent's feet rather than straight forward. As soon as you land, immediately post your far hand on the mat and rotate your hips to face the opponent. Your first priority after the roll is getting your back off the mat and establishing a guard position facing them. If you pause on your belly or roll slowly, the attacker will follow with hooks and seatbelt grip to secure back control. The transition from roll to facing position must be one continuous motion.
-
-**Q5**: What defensive grip should you use as an emergency measure when fully caught in omoplata, and why is it only a temporary solution?
-**A**: Clasp your hands together in a gable grip or grab your own belt or gi pants to prevent the attacker from extending your arm behind your back. This prevents the finish by denying them the arm extension needed for shoulder rotation. However, it is only temporary because the attacker can shift to sweeping you from this position, use their hands to systematically break your grip, or transition to alternative attacks like wrist locks on your clasped hands. While gripping, you must immediately begin working a real escape - either the stack or forward roll - rather than simply holding and hoping.
-
-
-
-</section>
 
 
 </main>

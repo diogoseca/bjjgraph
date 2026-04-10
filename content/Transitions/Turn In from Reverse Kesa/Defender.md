@@ -140,6 +140,8 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turn In from Reverse Kesa?</p>
+
 - Bottom player plants their far foot flat on the mat close to their hip, indicating they are loading a bridge
 - Bottom player's free arm moves to frame against your far hip or upper thigh rather than pushing on your upper body
 - Bottom player's hips begin to shift or angle slightly toward you rather than away, signaling rotation intent
@@ -152,6 +154,8 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turn In from Reverse Kesa?</p>
 
 - Maintain low hip pressure on the near-side ribs to prevent the bridge that initiates the turn-in sequence
 - Keep the far arm trapped or controlled to eliminate the frame that serves as the turn-in pivot point
@@ -166,6 +170,8 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turn In from Reverse Kesa?</p>
 
 ### 1. Drive hips forward and re-flatten before knee insertion
 
@@ -196,6 +202,8 @@ As the defender (top player maintaining Reverse Kesa-Gatame), your goal is to pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turn In from Reverse Kesa?</p>
+
 ### → [[Positions/Side Control/Reverse Kesa-Gatame]]
 
 Recognize the turn-in early through foot placement and hip angle cues, then drive your hips forward to re-flatten before the rotation generates momentum. Maintain heavy chest pressure throughout and keep the far arm trapped to eliminate the framing pivot point.
@@ -211,6 +219,8 @@ When the bottom player creates space with their bridge and commits to the rotati
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turn In from Reverse Kesa?</p>
 
 ### 1. Sitting too upright and allowing space between your chest and opponent's torso
 
@@ -240,6 +250,8 @@ When the bottom player creates space with their bridge and commits to the rotati
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turn In from Reverse Kesa?</p>
+
 **Phase 1: Recognition Drilling** - Identifying turn-in setup cues
 Bottom player repeatedly sets up the turn-in at slow speed without completing it. Top player practices identifying foot placement, arm framing, and hip angle cues. Call out the cue verbally when recognized. 20 repetitions focusing on reading the earliest possible indicators.
 
@@ -256,23 +268,6 @@ Full resistance positional rounds starting in Reverse Kesa-Gatame. Top player ma
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a turn-in escape?
-**A**: The earliest cue is the bottom player planting their far foot flat on the mat close to their hip. This foot positioning loads the bridge that initiates the turn-in sequence. Once you see this foot position combined with the free arm moving toward your hip for a frame, the turn-in attempt is imminent. Responding at this stage by driving your hips forward or trapping the framing arm prevents the escape before it generates momentum.
-
-**Q2**: Why is transitioning to mount often better than fighting to maintain reverse kesa when the turn-in is partially successful?
-**A**: Once the bottom player has created rotational space and begun turning, re-flattening them requires fighting against their momentum and the space they have already created. The energy cost is high and success is uncertain. Transitioning to mount capitalizes on the space the bottom player created by using it for your own leg to step over. This converts their escape attempt into a worse positional outcome, which also discourages future turn-in attempts.
-
-**Q3**: How should you adjust your weight distribution when you feel the bottom player loading a bridge?
-**A**: Widen your base by extending your far leg further and drop your hips even lower against their near-side ribs. Drive your chest pressure forward and slightly toward their legs rather than pulling back. This forward hip drive is counterintuitive but prevents the bridge from creating space because your weight moves into the direction the bottom player is trying to lift. Avoid posting hands, as this reduces the chest pressure that suppresses the bridge.
-
-
-
-</section>
 
 
 </main>

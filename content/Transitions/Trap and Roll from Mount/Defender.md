@@ -162,6 +162,8 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Trap and Roll from Mount?</p>
+
 - Bottom player reaches for your wrist or elbow with both hands, attempting to establish the two-on-one arm trap
 - Bottom player walks their feet close to their buttocks, loading their hips for an explosive bridge
 - Bottom player hooks or steps on the outside of your ankle or foot on one side, trapping your posting ability
@@ -174,6 +176,8 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Trap and Roll from Mount?</p>
 
 - Never leave an arm extended and stationary within the bottom player's trapping range
 - Maintain wide base with feet ready to post in any direction to counter bridging force
@@ -189,6 +193,8 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Trap and Roll from Mount?</p>
 
 ### 1. Retract the targeted arm and swim it free from the two-on-one grip using elbow rotation
 
@@ -226,6 +232,8 @@ Defending the Trap and Roll from the top mount position requires awareness of th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Trap and Roll from Mount?</p>
+
 ### → [[Positions/Mount]]
 
 Maintain disciplined arm positioning, retract any arm the bottom player attempts to trap, and keep wide base with active feet to prevent foot hooks. Post the free hand immediately if the bridge initiates to absorb the force.
@@ -241,6 +249,8 @@ Recognize the bridge setup (feet walking in, arm grab attempt) and preemptively 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Trap and Roll from Mount?</p>
 
 ### 1. Leaving one arm posted on the mat for extended periods within the bottom player's reach
 
@@ -275,6 +285,8 @@ Recognize the bridge setup (feet walking in, arm grab attempt) and preemptively 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Trap and Roll from Mount?</p>
+
 **Phase 1: Recognition Drills** - Identifying trap and roll setup cues
 Partner slowly sets up the trap and roll while you practice identifying the key cues: feet walking in, arm reach, foot hook. Call out each cue as you recognize it. No defensive action in this phase, only awareness development. Repeat until recognition becomes immediate and automatic.
 
@@ -291,29 +303,6 @@ Positional sparring from mount where the bottom player focuses specifically on t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a trap and roll is being set up from bottom mount?
-**A**: The earliest cue is the bottom player walking their feet in close to their hips while reaching for your arm with both hands. This foot positioning loads their bridge power, and the two-handed reach indicates the arm trap is imminent. Recognizing this setup in the loading phase gives you maximum time to retract the targeted arm or advance position before the explosive bridge phase begins.
-
-**Q2**: Why is addressing the foot hook equally important as defending the arm trap?
-**A**: The foot hook removes your ability to step out and post with your leg on the trapped side, which is the most reliable defense against the bridge. Without the foot hook, you can simply step your base wide to absorb any bridge force regardless of whether your arm is trapped. The foot hook is the structural element that makes the bridge effective, so breaking it neutralizes the entire technique even if the arm trap is secure.
-
-**Q3**: How should you adjust your base when you feel the bottom player begin to bridge explosively?
-**A**: Drive your hips forward and low while posting your free hand at a 45-degree angle toward the bridge direction. Keep your head low and your weight centered rather than leaning away from the bridge. Grapevining your legs provides additional base stability by widening your contact area with the mat. The key is absorbing the bridge force through your structural base rather than fighting it with upper body strength.
-
-**Q4**: What offensive opportunity does a failed trap and roll create for the mounted player?
-**A**: A failed trap and roll leaves the bottom player's arms extended and committed from the trapping attempt, creating immediate submission opportunities. The arm that was reaching for the trap is now exposed for Americana or armbar attacks. Additionally, the failed bridge often leaves the bottom player slightly turned to one side, opening the path for gift wrap control or technical mount transition toward back control.
-
-**Q5**: How do you prevent the bottom player from chaining the trap and roll into an elbow escape?
-**A**: After defending the trap and roll, immediately re-center your weight and drive your hips down before the bottom player can capitalize on any weight shift your defense created. Close any space that opened on the posting side by sliding your knee back to the mat and re-establishing hip-to-hip pressure. Threaten a submission on the arm they extended during the trap attempt to freeze their offensive momentum and force them back to a defensive posture.
-
-
-
-</section>
 
 
 </main>

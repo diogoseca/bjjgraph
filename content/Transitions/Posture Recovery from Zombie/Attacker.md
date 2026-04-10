@@ -194,6 +194,8 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Posture Recovery from Zombie?</p>
+
 - Address upper body control first by establishing crossface or whizzer before attempting to free the trapped leg from lockdown
 - Drive weight forward through hips and chest rather than pulling backward, which plays into the lockdown's designed resistance angle
 - Use skeletal alignment and gravity rather than muscular force to overcome lockdown tension during posture recovery
@@ -208,6 +210,8 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Posture Recovery from Zombie?</p>
+
 - Identify which arm the opponent is using for underhook control and the depth of their grip
 - Assess the tightness of the lockdown by testing leg mobility with small movements before committing to recovery
 - Establish at least one controlling grip on the opponent's upper body before beginning recovery sequence
@@ -220,6 +224,8 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Posture Recovery from Zombie step by step?</p>
 
 1. **Establish crossface control**: Drive your forearm across the opponent's jaw and neck on the side of their underhook, turning their head away from you. This is the foundational control that prevents them from maintaining chest-to-chest connection and weakens their underhook pulling power by misaligning their spine.
 2. **Neutralize the underhook**: Thread your arm over the opponent's underhook arm to establish a whizzer or overhook. Drive your elbow tight against their body and grip their wrist or forearm. This counter-lever removes their ability to pull your upper body down and creates the space needed to begin spine extension.
@@ -250,6 +256,8 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Posture Recovery from Zombie?</p>
+
 - **Opponent tightens lockdown and initiates Old School Sweep during recovery** (Effectiveness: High) - Your Response: Immediately drop weight forward and drive heavy crossface pressure to flatten their shoulders. Widen your free leg base to counter the lateral sweeping force. If they get significant elevation, abandon recovery temporarily and re-establish base. → Leads to [[Positions/Rubber Guard/Zombie]]
 - **Opponent releases lockdown and shoots hips back to re-establish closed guard** (Effectiveness: Medium) - Your Response: The moment you feel lockdown release, immediately drive your hips forward and down to prevent them from closing their legs behind your back. If they do recover closed guard, you have at least achieved a more familiar passing position. → Leads to [[Positions/Closed Guard]]
 - **Opponent deepens underhook and attempts to come up to dogfight position** (Effectiveness: High) - Your Response: Counter the underhook with a strong whizzer and crossface combination. Drive your weight into their shoulder to prevent them from sitting up. If they achieve dogfight, immediately sprawl and re-establish heavy top pressure. → Leads to [[Positions/Rubber Guard/Zombie]]
@@ -261,6 +269,8 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Posture Recovery from Zombie?</p>
 
 ### 1. Attempting to recover posture by pulling backward explosively against the lockdown
 
@@ -300,6 +310,8 @@ As the attacker executing Posture Recovery from Zombie, your objective is to sys
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Posture Recovery from Zombie (Attacker)?</p>
+
 **Phase 1: Mechanics** - Crossface and weight distribution fundamentals
 Practice establishing crossface from broken posture position with a compliant partner. Focus on hand placement, forearm angle across the jaw, and weight transfer from hands to hips. Drill the forward drive motion repeatedly until it becomes instinctive. No lockdown resistance in this phase.
 
@@ -320,42 +332,12 @@ Start every round in Zombie Top with partner at full resistance from Zombie Bott
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why should you drive weight forward rather than pull backward when recovering posture from the Zombie?
-**A**: The lockdown is biomechanically designed to resist backward pulling - the bottom player's legs create maximum tension when you try to sit back or pull away. Driving forward changes the angle of force, compressing the lockdown mechanism and reducing its leverage. Forward pressure also flattens the opponent's shoulders to the mat, weakening their underhook and limiting their ability to maintain pulling control. The forward drive works with gravity rather than against the lockdown's designed resistance vector.
-
-**Q2**: What is the first grip you should establish before attempting posture recovery?
-**A**: The crossface is the essential first grip. Drive your forearm across the opponent's jaw and neck on the underhook side, turning their head away from you. This grip serves multiple purposes: it prevents the opponent from maintaining chest-to-chest connection that powers their pulling control, it weakens the underhook by misaligning their spine, and it provides you with a control point from which to generate the forward pressure needed for recovery. Without crossface, every subsequent recovery step is significantly harder.
-
-**Q3**: Your opponent initiates an Old School Sweep as you begin recovering posture - how do you respond?
-**A**: Immediately drop your weight forward and drive heavy crossface pressure into their face and shoulder to flatten them back down. Simultaneously widen your free leg base to counter the lateral sweeping force the Old School generates. If they achieve significant elevation before you can counter, temporarily abandon the recovery and focus entirely on base defense. Once you have stopped the sweep, re-establish your recovery position and begin again. Never try to fight through an active sweep while mid-recovery.
-
-**Q4**: What role does the free leg play during posture recovery from Zombie?
-**A**: The free leg serves as your primary base and balance point throughout the entire recovery. It should be posted wide at approximately 45 degrees from your body, creating a stable tripod with your two contact points on the opponent. This wide post absorbs the lateral forces from sweep attempts, provides a platform for driving forward pressure, and gives you the structural stability needed to extend your spine upward. A narrow free leg position is the most common reason recovery attempts fail because it leaves you vulnerable to being tipped over.
-
-**Q5**: What conditions must exist before you can successfully extract your trapped leg from the lockdown?
-**A**: Three conditions must be met before leg extraction becomes viable: first, you must have established dominant upper body control through crossface and whizzer or underhook counter, removing the opponent's ability to pull you back down. Second, your posture must be at least partially recovered with your chest elevated and spine extending, which changes the angle making lockdown tension less effective. Third, your hips must be driving downward to compress the space the lockdown needs to function. Attempting extraction without all three conditions results in the opponent simply tightening the lockdown.
-
-**Q6**: How do you differentiate between the opponent releasing lockdown intentionally versus lockdown naturally loosening during recovery?
-**A**: An intentional lockdown release feels sudden and is accompanied by the opponent's hips shooting backward to create space for closed guard recovery. Their legs will immediately begin working to close behind your back. A natural loosening from your recovery pressure is gradual, with tension slowly decreasing as your posture improves. The critical difference in your response: if you feel sudden release with hip movement, immediately drive hips forward to prevent guard closure. If you feel gradual loosening, continue your systematic recovery and transition to passing when the lockdown is fully defeated.
-
-**Q7**: What is the most critical direction of force during the spine extension phase of recovery?
-**A**: The primary force direction is forward and upward simultaneously - driving your chest toward the opponent's face while extending your spine upward. This diagonal vector accomplishes two things: the forward component maintains pressure on the opponent preventing them from readjusting their defensive structure, while the upward component gradually rebuilds your posture. Driving purely upward without forward pressure allows the opponent to create space and re-establish pulling control. Driving purely forward without upward extension keeps you broken down.
-
-**Q8**: Your opponent switches from lockdown to a deep underhook and starts coming up to dogfight during your recovery - what adjustment do you make?
-**A**: This is a common transition the bottom player makes when they feel the lockdown losing effectiveness. Immediately counter by driving a deep whizzer over their underhook arm while simultaneously sprawling your hips back to create downward pressure on their shoulder. The sprawl prevents them from completing the sit-up to dogfight, while the whizzer removes their underhook leverage. If they manage to reach dogfight despite your counter, crossface aggressively and drive them back to the mat rather than engaging in the dogfight exchange where they have sweep opportunities.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Posture Recovery from Zombie?</p>
 
 Posture recovery from Zombie involves significant forces on the knee and ankle of the trapped leg due to lockdown tension. Never attempt explosive jerking motions to free the leg, as this can cause medial collateral ligament strain or ankle injuries. During training, communicate with your partner about lockdown tightness and tap if you feel sharp pain in the trapped knee. The crossface pressure used during recovery should be firm but controlled, avoiding direct pressure on the throat or windpipe. Partners playing Zombie bottom should gradually release lockdown tension if the top player signals discomfort rather than maintaining maximum grip.
 

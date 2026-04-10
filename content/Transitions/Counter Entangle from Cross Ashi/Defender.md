@@ -156,6 +156,8 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Entangle from Cross Ashi?</p>
+
 - Opponent's free leg begins moving inward toward the space between your legs rather than framing outward on your hips or shoulders
 - Opponent shifts their hips to face you more squarely, rotating from the perpendicular cross ashi alignment toward the parallel 50-50 orientation
 - Increased framing pressure on your hips, knees, or ankles as opponent creates the two to three inches of space needed for the threading motion
@@ -167,6 +169,8 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Entangle from Cross Ashi?</p>
 
 - Maintain constant tension on your outside leg cross to eliminate the threading gap your opponent needs for the free leg insertion
 - Monitor your opponent's free leg for hooking attempts toward the space between your legs and address them immediately before the thread completes
@@ -180,6 +184,8 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Entangle from Cross Ashi?</p>
 
 ### 1. Tighten outside leg cross and immediately attack heel hook to punish the threading attempt
 
@@ -210,6 +216,8 @@ As the person controlling Cross Ashi-Garami from top, your opponent's counter-en
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Entangle from Cross Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Cross Ashi-Garami]]
 
 Prevent the counter-entangle by maintaining tight outside leg cross tension at all times and accelerating heel hook attacks when you detect threading movement. Keep constant submission pressure to deny the opponent the cognitive bandwidth and physical freedom to plan and execute the threading motion. If their attempt fails, use the momentary disorganization to deepen your cross ashi control.
@@ -225,6 +233,8 @@ Capitalize on the opponent's threading motion by transitioning to Honey Hole dur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Entangle from Cross Ashi?</p>
 
 ### 1. Loosening outside leg cross during grip adjustments or submission setups, creating the threading window the opponent needs
 
@@ -249,6 +259,8 @@ Capitalize on the opponent's threading motion by transitioning to Honey Hole dur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Entangle from Cross Ashi?</p>
+
 **Phase 1: Recognition Drilling** - Identifying counter-entangle attempts early
 Partner attempts the counter-entangle from cross ashi bottom at varying speeds while you practice recognizing the earliest cues—free leg direction change, hip rotation, framing shifts. Call out the attempt verbally the moment you detect it. No physical counter-response yet; pure recognition training to build pattern awareness.
 
@@ -262,29 +274,6 @@ Start in cross ashi top with partner at full resistance attempting both counter-
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a counter-entangle from Cross Ashi bottom?
-**A**: The earliest cue is their free leg moving inward toward the space between your legs rather than framing outward on your hips. This subtle directional change precedes the actual threading by one to two seconds and provides the critical early warning needed to tighten control or initiate a counter-response. Secondary cues include hip rotation toward square alignment and increased framing pressure on your knees or ankles.
-
-**Q2**: Your opponent has successfully inserted their hook but has not completed the 50-50 triangle yet—what is your optimal response?
-**A**: You have two strong options depending on depth of insertion. If the hook is shallow, strip it by pushing their foot back out while tightening your cross. If the hook is deep and stripping seems unlikely, immediately transition to Honey Hole by reconfiguring your legs around their inserted leg. The critical error is passively allowing the triangle to complete while attempting neither stripping nor advancement. Every second the hook stays in without a response increases the probability of completed 50-50.
-
-**Q3**: How does maintaining constant heel hook threat prevent the counter-entangle?
-**A**: An opponent actively defending a heel hook cannot simultaneously execute the complex threading sequence required for the counter-entangle. The heel hook threat forces them to keep both hands engaged in grip fighting and their trapped leg in maximum defensive flexion, eliminating the physical and cognitive freedom needed to coordinate the free leg threading, framing, and triangle lock. Continuous submission pressure is your most effective positional maintenance tool.
-
-**Q4**: Why is transitioning to Honey Hole often the best response to a partially successful counter-entangle attempt?
-**A**: When the opponent's threading disrupts the cross ashi configuration, it simultaneously creates openings for Honey Hole entry because the leg movement changes the entanglement geometry. Rather than fighting to restore a configuration that has been compromised, capitalizing on the disruption to advance to a more dominant position converts the opponent's escape attempt into a worse outcome for them. Honey Hole provides stronger control and higher submission percentage than cross ashi.
-
-**Q5**: What adjustment should you make to your outside leg cross during grip changes to prevent creating threading windows?
-**A**: During grip changes, maintain your outside leg cross as a constant baseline by keeping your calf or shin pressed firmly against the opponent's trapped leg. Adjust your hands independently of your legs—never loosen leg control to facilitate hand repositioning. If you need to shift your body position for a better grip angle, drive your hips forward first to increase compression before making the hand adjustment. This prevents the momentary gap that opponents need for the threading motion.
-
-
-
-</section>
 
 
 </main>

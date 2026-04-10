@@ -164,6 +164,8 @@ The key to shutting down half guard recovery lies in understanding its timing de
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard Recovery?</p>
+
 - Bottom player establishes shin frame across your hip with their free leg, indicating they are building the structure needed for recovery
 - Bottom player posts their far-side hand on your shoulder or collar, creating the upper body frame that precedes the hip escape
 - Bottom player loads their hips by bringing their knees toward their chest, preparing for an explosive shrimp toward you
@@ -175,6 +177,8 @@ The key to shutting down half guard recovery lies in understanding its timing de
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard Recovery?</p>
 
 - Maintain constant chest-to-hip pressure on the bottom player's near hip to deny the space needed for knee shield insertion
 - Control the bottom player's far-side arm or shoulder to prevent frame creation that precedes every recovery attempt
@@ -188,6 +192,8 @@ The key to shutting down half guard recovery lies in understanding its timing de
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard Recovery?</p>
 
 ### 1. Drive chest pressure into bottom player's near hip and sprawl to flatten their recovery attempt, pinning their knee before the shield can establish
 
@@ -225,6 +231,8 @@ The key to shutting down half guard recovery lies in understanding its timing de
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard Recovery?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Maintain relentless hip pressure and systematically strip the bottom player's frames before they can build the structure needed for recovery. Control their far-side arm, drive shoulder into their near hip, and keep their dragged leg pinned. When they attempt the recovery, immediately sprawl and drive weight down to stuff the knee insertion.
@@ -240,6 +248,8 @@ Use the bottom player's recovery movement against them by advancing your positio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard Recovery?</p>
 
 ### 1. Allowing the bottom player to establish both a shin frame and a shoulder frame without disrupting either
 
@@ -269,6 +279,8 @@ Use the bottom player's recovery movement against them by advancing your positio
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard Recovery?</p>
+
 **Week 1-2** - Pressure maintenance and frame recognition
 Establish leg drag control on a cooperative partner who slowly builds recovery frames. Practice identifying each frame as it forms and stripping it with appropriate counter-pressure. Focus on maintaining chest-to-hip contact through small positional adjustments without creating space.
 
@@ -282,29 +294,6 @@ Full resistance positional sparring from leg drag. Focus on converting failed re
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing a half guard recovery from leg drag bottom?
-**A**: The first sign is the bottom player posting their far-side hand on your shoulder or collar to create an upper body frame. This is followed by their free leg shin being placed across your hip as a lower body frame. Together, these two frames form the prerequisite structure for the recovery. If you see the shoulder post, the shin frame is coming next - strip the arm frame immediately before the structure is complete.
-
-**Q2**: Your opponent successfully inserts a partial knee shield but has not yet secured the underhook - what is your immediate response?
-**A**: This is a critical window where the recovery is incomplete and vulnerable. Immediately drive your shoulder into their knee shield to collapse it before the underhook arrives. Simultaneously establish or re-establish your crossface to prevent them from turning into you. The knee shield without underhook support can be collapsed with committed shoulder pressure - once the underhook connects, the recovery becomes far more difficult to reverse.
-
-**Q3**: How do you maintain leg drag control without creating the transitional windows that enable recovery?
-**A**: The key is minimizing the number and duration of weight shifts. When you need to adjust position, maintain chest contact with their hip throughout the movement rather than lifting and resettling. Use small incremental adjustments instead of large positional changes. If you must make a significant transition, first strip their frames so no recovery structure exists during your weight shift, or commit fully to advancement so you pass through the window before they can exploit it.
-
-**Q4**: Your opponent keeps threatening the recovery and you cannot advance - should you stay patient or force advancement?
-**A**: Patience is correct only if you are actively degrading their recovery structure each cycle. Strip their frames, control their far arm, and deny their hip loading. Each failed recovery costs them energy. However, if they rebuild frames faster than you strip them, you need to change strategy - backstep to threaten the back take, which forces them to defend a different threat and abandons their recovery sequence. Creating offensive dilemmas prevents them from committing fully to recovery.
-
-**Q5**: When is the backstep to back take the correct response versus driving pressure to maintain leg drag?
-**A**: Backstep when the bottom player commits to turning their shoulders toward you during the recovery - their rotation creates natural back exposure. Drive pressure when they are loading hips but keeping shoulders relatively flat. The distinction is in their upper body orientation. A flat-shouldered recovery attempt is best met with downward pressure and frame stripping. A turned-shoulder recovery attempt is best met by following their rotation around to the back. Read the shoulders, not just the hips.
-
-
-
-</section>
 
 
 </main>

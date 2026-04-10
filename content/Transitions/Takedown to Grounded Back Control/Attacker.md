@@ -192,6 +192,8 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Takedown to Grounded Back Control?</p>
+
 - Maintain chest-to-back connection throughout the entire descent - any separation allows opponent to turn, frame, or recover guard
 - Break opponent's base laterally or rearward before initiating the mat return, never pull straight backward against a wide stance
 - Insert at least one hook during the transition itself rather than waiting until you reach the ground, securing hip control immediately
@@ -207,6 +209,8 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Takedown to Grounded Back Control?</p>
+
 - Standing back control established with secure seatbelt or harness grip and chest-to-back connection
 - At least partial lower body control through hooks inside thighs, body triangle, or strategic hip positioning that compromises opponent's base
 - Opponent's posture identified as upright and defensive, indicating they are prioritizing grip fighting or escape over accepting the position
@@ -219,6 +223,8 @@ Strategically, this transition should be attempted when the opponent demonstrate
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Takedown to Grounded Back Control step by step?</p>
 
 1. **Secure harness and assess base**: Confirm your seatbelt grip is tight with the choking arm over the opponent's shoulder and the control arm under their armpit, hands clasped. Press your chest firmly into their back and assess their stance width and weight distribution to select your takedown angle.
 2. **Break opponent's base**: Shift your hips laterally to one side while pulling the opponent's upper body in the opposite direction using your harness grip. This creates a rotational force that disrupts their stance. Alternatively, step your lead foot behind their heel to block their posting ability while driving rearward pressure through your chest.
@@ -249,6 +255,8 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Takedown to Grounded Back Control?</p>
+
 - **Opponent widens stance and drops weight to resist the takedown, anchoring themselves to prevent the descent** (Effectiveness: High) - Your Response: Switch from lateral displacement to a trip by hooking their near ankle with your foot while driving diagonally across their center of gravity. Their wide stance makes them vulnerable to trip mechanics. → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent explosively turns into you during the descent, attempting to recover facing position and establish guard** (Effectiveness: Medium) - Your Response: Follow the turn by maintaining harness grip and dropping your weight onto them. If they partially turn, transition to side control or front headlock rather than fighting to maintain back position against their momentum. → Leads to [[Positions/Half Guard]]
 - **Opponent reaches behind to grab your head or collar, using the grip to create a frame that prevents your descent or threatens a throw** (Effectiveness: Medium) - Your Response: Strip the grip immediately with your control arm while maintaining the choking arm on the neck. If the grip persists, use it as an anchor point to accelerate your descent, pulling them down with you. → Leads to [[Positions/Back Control/Standing Back Control]]
@@ -261,6 +269,8 @@ Strategically, this transition should be attempted when the opponent demonstrate
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Takedown to Grounded Back Control?</p>
 
 ### 1. Pulling backward with arms only instead of driving the takedown through hip drop and body weight
 
@@ -300,6 +310,8 @@ Strategically, this transition should be attempted when the opponent demonstrate
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Takedown to Grounded Back Control (Attacker)?</p>
+
 **Week 1-2** - Descent mechanics and hook insertion timing
 Practice the hip drop and lateral displacement with a fully cooperative partner. Focus on maintaining chest-to-back connection throughout the fall and inserting the first hook during the descent. Drill the landing angle to get the opponent on their side. Perform 20-30 repetitions per side, emphasizing smooth mechanics over speed.
 
@@ -317,54 +329,12 @@ Begin from neutral standing position, work back take to mat return to submission
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Takedown to Grounded Back Control?
-**A**: The primary goal is to convert the inherently unstable standing back control into the most dominant ground position in BJJ. Standing back exposure deteriorates over time as the bottom player works grip strips and hip turns, so the mat return must be executed before control degrades. The transition preserves your harness grip and establishes hooks during the descent, creating immediate grounded back control with submission threats.
-
-**Q2**: Why must the first hook be inserted during the descent rather than after landing?
-**A**: During the fall, the opponent's legs naturally separate for balance and they cannot effectively clamp their thighs together to prevent hook insertion. Once they land, they immediately tighten their legs, turtle, or use their arms to block your feet. The descent window is the single easiest moment to secure hip control, and missing it often means spending significant time and energy fighting for hooks on the ground.
-
-**Q3**: Your opponent widens their base and drops their weight to resist your mat return - how do you adjust?
-**A**: Switch from a direct pull-down to a trip-based entry. Step your lead foot behind their near heel while driving laterally across their center of gravity. Their wide stance actually becomes a liability against trip mechanics because their feet are too far apart to quickly adjust. The lateral trip converts their defensive base widening into a vulnerability by removing their posting ability on one side.
-
-**Q4**: What is the critical mechanical detail that determines whether you land in dominant back control or a scramble?
-**A**: Maintaining unbroken chest-to-back connection throughout the entire descent. Any separation, even momentary, gives the opponent space to turn, insert a frame, or recover guard. Your sternum must stay pressed against their spine from initiation through landing. This connection is the single mechanical variable that most strongly predicts whether the transition ends in back control or a scramble.
-
-**Q5**: Why should you land the opponent on their side rather than flat on their stomach?
-**A**: Landing on their side exposes both inner thighs for hook insertion and prevents immediate turtle defense. When opponents land on their belly, they can immediately tuck their knees under and post with their arms, creating a strong turtle that is difficult to break down. The side landing also gives you a natural angle for seatbelt adjustment and places the opponent in a weaker defensive configuration where their arms cannot effectively frame.
-
-**Q6**: Your opponent starts turning into you explosively during the descent - what is the correct response?
-**A**: Follow their rotation by maintaining harness grip and driving your weight onto them. If they partially complete the turn, transition to side control or front headlock rather than fighting to maintain back position against their momentum. Fighting a committed turn usually results in losing the position entirely, while flowing with it and transitioning to an alternative dominant position preserves your advantage. The key is recognizing the turn early and making a clear decision.
-
-**Q7**: What grip configuration should you maintain during the entire mat return, and why?
-**A**: The seatbelt grip: choking arm over the shoulder threatening the neck, control arm under the armpit with hands clasped together. This grip must stay locked throughout the descent because it serves three functions simultaneously - it prevents the opponent from turning to face you, it maintains the upper body connection that makes the takedown possible, and it positions you for immediate rear naked choke threat upon landing. Breaking this grip to post a hand sacrifices all three advantages.
-
-**Q8**: How does the direction of force application differ between the arm-based pull and the hip-drop mat return?
-**A**: An arm-based pull applies force horizontally through the upper body, which the opponent can resist by posting their legs and leaning forward. The hip-drop mat return applies force vertically and diagonally through your body weight dropping below the opponent's center of gravity, which is much harder to resist because it requires them to lift your entire body weight while maintaining their own balance. The hip drop also preserves grip endurance because your arms maintain connection rather than generating force.
-
-**Q9**: When should you choose a mat return over attempting a standing submission like the rear naked choke?
-**A**: Choose the mat return when the opponent maintains strong upright posture with chin tucked, when they are actively fighting your choking arm making neck access difficult, when their grip fighting is threatening your harness stability, or when they demonstrate good base and balance that makes standing control unsustainable. The mat return is the positionally conservative choice that trades the possibility of a standing finish for the near-certainty of achieving the highest-percentage finishing position in BJJ.
-
-**Q10**: Your opponent drops to their knees preemptively as you begin the mat return - how does this change your approach?
-**A**: Their preemptive knee drop means you skip the standing takedown mechanics entirely and transition directly to turtle-top back take protocol. Follow them down maintaining chest-to-back connection and harness control, then immediately work to flatten them from turtle and insert hooks before they can establish a defensive shell with elbows to knees. The key adjustment is recognizing that you no longer need to break their standing base, but you must insert hooks faster because turtle provides better defensive frames than standing.
-
-**Q11**: What common error causes the harness to fail during the descent, and how is it prevented?
-**A**: The most common harness failure occurs when the practitioner releases one hand from the seatbelt clasp to post on the ground for balance during the fall. This creates instant separation and allows the opponent to turn. Prevention requires trusting your hooks and hip position to provide stability during the descent rather than relying on hand posting. Accept a slightly less controlled landing rather than breaking the grip that controls the entire position.
-
-**Q12**: How do you create the lateral angle needed to initiate an effective mat return against a resistant opponent?
-**A**: Shift your hips to one side while keeping your chest glued to their back, creating an off-center alignment between your bodies. This lateral offset converts the mat return from a straight-back pull into an angular displacement that attacks the weaker diagonal line of their base. You can enhance the angle by stepping one foot to the outside of their corresponding foot, giving you a trip reference point and removing their ability to post on that side during the descent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Takedown to Grounded Back Control?</p>
 
 The Takedown to Grounded Back Control involves bringing both practitioners to the ground from a standing position, which carries inherent impact risks. Always practice on adequate matting and ensure the training area is clear of other practitioners and obstacles. Control the speed of descent during drilling to prevent slamming or forceful impacts. The bottom practitioner should learn proper breakfall technique to safely absorb the landing. In competition rulesets that prohibit slamming, ensure your mat return uses controlled descent rather than forceful throwing. Be cautious of knee and ankle injuries if legs become entangled during the descent. Neck compression can occur if the seatbelt grip shifts during the fall, so partners should communicate immediately if they feel cervical pressure. Beginners should drill at slow speed with cooperative partners before progressing to resistance training.
 

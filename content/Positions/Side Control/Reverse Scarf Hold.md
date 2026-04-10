@@ -171,7 +171,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - Transitional Flexibility: Recognizing when to maintain reverse scarf versus transitioning to more stable positions based on opponent's reactions
 
-- Weight Distribution Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability
+- Center of Gravity Management: Proper pressure application through chest and hips maximizes control while maintaining your own base stability
 
 
 ### Available Transitions
@@ -181,21 +181,21 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (13% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (11% of attempts)
+- **[[Americana from Reverse Scarf Hold/Attacker|Americana from Reverse Scarf Hold]]** (11% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (12% of attempts)
+- **[[Kimura from Reverse Scarf Hold/Attacker|Kimura from Reverse Scarf Hold]]** (12% of attempts)
 
 - **[[Transitions/Back Step/Attacker|Back Step]]** (10% of attempts)
 
 - **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** (15% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (9% of attempts)
+- **[[Arm Triangle from Reverse Scarf Hold/Attacker|Arm Triangle from Reverse Scarf Hold]]** (9% of attempts)
 
 - **[[Transitions/Reverse Scarf to North-South/Attacker|Reverse Scarf to North-South]]** (4% of attempts)
 
 - **[[Transitions/Reverse Scarf to Side Control/Attacker|Reverse Scarf to Side Control]]** (2% of attempts)
 
-- **[[Submissions/North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (2% of attempts)
+- **[[North-South Choke from Reverse Scarf/Attacker|North-South Choke from Reverse Scarf]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -244,7 +244,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 - **[[Positions/North-South]]** - Common transition target from reverse scarf hold
 
-- **[[Positions/Side Control/Side Control Consolidation]]** - Entry position for reverse scarf hold transitions
+- **[[Positions/Side Control]]** - Entry position for reverse scarf hold transitions
 
 - **[[Positions/Mount]]** - Advancement position when opponent bridges forward
 

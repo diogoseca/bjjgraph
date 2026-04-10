@@ -28,7 +28,7 @@ The technique represents a high-percentage pathway to back control because it ne
 
 Success requires precise hip positioning, weight distribution, and grip sequencing to prevent common defensive reactions such as rolling or sitting through. The chair sit acts as a transitional control position that bridges the gap between attacking turtle and securing full back mount with hooks established. When the opponent does manage to sit through, the position flows naturally into truck and twister system attacks, making it a win-win proposition for the attacker.
 
-**From Position**: [[Positions/Turtle]] (Top)
+**From Position**: [[Positions/Matrix]] (Bottom)
 **Success Rate**: 68%
 
 </section>
@@ -214,11 +214,11 @@ The chair sit to back take occupies a central position within the turtle attack 
 
 - [[Positions/Harness]] - Upper body control system used during and after transition
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat from established back control
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from established back control
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi choke available after completing back take
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi choke available after completing back take
 
-- [[Submissions/Armbar from Back]] - Submission option from the back mount position achieved
+- [[Transitions/Armbar from Back Transition]] - Submission option from the back mount position achieved
 
 - [[Submissions/Twister]] - Submission available if transition flows into truck position
 

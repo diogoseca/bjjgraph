@@ -208,9 +208,9 @@ The Double Underhook Pass represents one of three primary pathways from Crackhea
 
 - [[Positions/North-South]] - Alternative outcome when driving toward head
 
-- [[Submissions/Americana from Side Control]] - Follow-up submission from pass completion
+- [[Submissions/Americana]] - Follow-up submission from pass completion
 
-- [[Submissions/Kimura from Side Control]] - Follow-up submission from pass completion
+- [[Submissions/Kimura]] - Follow-up submission from pass completion
 
 - [[Transitions/Arm Triangle]] - Follow-up submission from pass completion
 

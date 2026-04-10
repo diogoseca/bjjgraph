@@ -20,38 +20,38 @@ description: "Master passing Seated Guard in BJJ. Strategic guide covering dista
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Toreando Pass",
-      "text": "From this position, attempt Toreando Pass. This technique is attempted in 38% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute Knee Slice Pass",
       "text": "From this position, attempt Knee Slice Pass. This technique is attempted in 12% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Long Step Pass",
       "text": "From this position, attempt Long Step Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Leg Drag Pass",
       "text": "From this position, attempt Leg Drag Pass. This technique is attempted in 12% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Stack Pass",
       "text": "From this position, attempt Stack Pass. This technique is attempted in 11% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Smash Pass",
       "text": "From this position, attempt Smash Pass. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Bodylock Pass from Seated",
+      "text": "From this position, attempt Bodylock Pass from Seated. This technique is attempted in 4% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Seated Guard (Top)?</p>
+
 - Standing or kneeling position facing opponent who is seated upright with posted hands and active legs, maintaining athletic stance with knees bent and hips mobile for quick direction changes
 - Maintaining distance awareness to prevent opponent's feet from pushing your hips or controlling your legs, typically staying just outside their maximum leg reach until ready to engage
 - Grip fighting to establish control on opponent's sleeves, collar, or pants before advancing position, with at least one dominant grip secured before closing distance
@@ -181,6 +183,8 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Seated Guard (Top)?</p>
 
 - Opponent in seated guard position with hands posted and legs extended
 - Ability to maintain standing or kneeling posture without being swept
@@ -195,6 +199,8 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Seated Guard?</p>
+
 - Distance Control First: Establish grips and control opponent's legs before closing distance to prevent sweeps
 - Respect the Standup: Opponent can stand instantly, so maintain posture and grip control to prevent this
 - Angle Over Pressure: Passing from angles prevents opponent from using their legs effectively against you
@@ -208,6 +214,8 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Seated Guard (Top)?</p>
 
 **If opponent has no grips and legs are extended defensively:**
 - Execute **[[Transitions/Toreando Pass/Attacker|Toreando Pass]]** → [[Positions/Side Control]] (Probability: 65%)
@@ -240,6 +248,8 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Seated Guard?</p>
 
 ### 1. Rushing Forward Without Grip Control
 
@@ -284,7 +294,9 @@ Seated Guard Top works best when you establish dominant grips (collar, sleeves, 
 
 ## Training Drills for Attacks
 
-### Grip Fighting from Seated Guard Top
+<p class="section-subtitle">How do you train Seated Guard attacks?</p>
+
+### Grips from Seated Guard Top
 
 Partner starts in seated guard. You stand or kneel and attempt to establish dominant grips (collar, sleeves, pants). Partner fights grips and tries to stand. Focus on winning grip battles and preventing technical standups. Reset when pass is achieved or opponent stands.
 
@@ -323,38 +335,6 @@ Start with you standing/kneeling and partner in seated guard. Attempt to pass. P
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary risk when approaching a seated guard player without establishing grips first?
-**A**: Approaching without grips allows the opponent to freely attack with sweeps, enter leg entanglements like Single Leg X-Guard, or execute a technical standup. Their legs remain uncontrolled and can push, hook, or entangle you. The seated player has excellent base from their posted hands, so they can react offensively to any uncommitted approach. Always establish at least one dominant grip (collar, sleeve, or pants) before closing distance.
-
-**Q2**: Why is stance switching between standing and kneeling important when passing seated guard?
-**A**: Stance switching disrupts the opponent's timing and prevents them from calibrating their attacks. When you stay static in one stance, they can time sweeps, standups, and entries perfectly. Standing gives mobility but exposes you to ankle picks; kneeling provides pressure but allows hook insertion. By constantly alternating, you keep the opponent guessing and force them to constantly readjust their offensive timing.
-
-**Q3**: Your opponent in seated guard starts to execute a technical standup - what is the optimal counter?
-**A**: The optimal counter is a snap down to front headlock position. As they rise to stand, their head becomes exposed and they momentarily compromise their base. By snapping their head down with a collar or head tie, you can establish front headlock control which offers guillotine and go-behind opportunities. Alternatively, a quick toreando pass or bodylock can capitalize on their weight shift during the standup attempt.
-
-**Q4**: What angle should you approach from when passing seated guard, and why?
-**A**: Approach from 45-degree angles outside the opponent's centerline rather than directly in front. When you pass straight forward, their legs have maximum leverage to frame, push, and create distance. From the angle, their legs cannot generate the same power to resist, and you can redirect their leg defense while advancing to the side. Think of going around their leg defense rather than through it.
-
-**Q5**: How do you prevent an opponent from inserting butterfly hooks as you drop your weight to pass?
-**A**: The key is timing - only drop weight after you've cleared or controlled their legs. Maintain standing or kneeling posture until you've established a clear passing angle and leg control. If they try to insert hooks, immediately use knee slice or long step to cut through before hooks are fully established. Control at least one of their legs with your hands to limit their ability to create hook position.
-
-**Q6**: What grip combination provides the best control for preventing both sweeps and technical standups from seated guard?
-**A**: A collar grip combined with same-side pants or sleeve control provides excellent control. The collar grip prevents them from sitting up for technical standup and breaks their posture. The pants/sleeve grip limits their leg mobility for sweeps. This combination allows you to pull them off-balance while controlling their primary offensive tools. Some practitioners prefer double pants grips for maximum leg control before establishing upper body control.
-
-**Q7**: Your opponent grabs both your ankles while you're standing over their seated guard - what is the correct response?
-**A**: Immediately circle one foot free while maintaining posture - never allow both ankles to remain controlled. As you free one leg, use that freedom to establish a controlling grip on their collar or pants. If they commit fully to ankle control, their upper body becomes vulnerable to collar drags and snap downs. The worst response is to stand still or try to advance with both ankles controlled, as this invites ankle picks and single leg X entries.
-
-**Q8**: When is it appropriate to fully commit your weight forward during a seated guard pass?
-**A**: Only commit full weight forward after you've cleared the opponent's legs and are moving into consolidation position. Premature weight commitment while their legs are still active allows them to insert hooks, close guard, or use your forward momentum for sweeps. The correct sequence is: establish grips, create angle, control legs, clear leg defense, then drop weight for consolidation. If you feel their legs are still threatening, maintain mobility instead of committing.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

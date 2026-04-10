@@ -186,6 +186,8 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Overhook Escape?</p>
+
 - Spiral your shoulder forward while driving elbow to hip - linear pulling strengthens their grip
 - Time escape attempts during grip adjustments or position transitions when overhook pressure decreases
 - Maintain chin tucked and elbows tight throughout to prevent triangle setup during extraction
@@ -201,6 +203,8 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Overhook Escape?</p>
+
 - Trapped in New York Control with opponent's overhook threaded under your armpit
 - Low base established with weight distributed laterally to prevent sweep during extraction
 - Chin tucked and free hand protecting neck to prevent triangle setup
@@ -213,6 +217,8 @@ Timing proves critical to successful execution. The optimal window for escape oc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Overhook Escape step by step?</p>
 
 1. **Establish defensive base**: Widen your knees and lower your hips close to the mat, distributing weight laterally rather than forward. Keep your free hand protecting your neck with elbow tight to your body to prevent triangle entry during the escape attempt.
 2. **Identify extraction window**: Wait for the moment when opponent adjusts their overhook grip, attempts to transition to another position, or begins setting up a submission. These transitional moments create brief reductions in overhook pressure that significantly increase extraction success rates.
@@ -242,6 +248,8 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Overhook Escape?</p>
+
 - **Deepening overhook grip and pulling arm across centerline when escape is sensed** (Effectiveness: High) - Your Response: Abort extraction attempt and reset defensive base - forcing against deep grip invites submission → Leads to [[Positions/Rubber Guard/New York Control]]
 - **Transitioning to triangle setup by shooting leg around neck during extraction attempt** (Effectiveness: High) - Your Response: Keep chin tucked and elbow tight throughout - if triangle begins, abort and stack immediately → Leads to [[Positions/Triangle Control]]
 - **Using free hand to control your posture and prevent shoulder rotation** (Effectiveness: Medium) - Your Response: Hand fight to remove their control before attempting extraction - their free hand occupied reduces submission threats → Leads to [[Positions/Rubber Guard/New York Control]]
@@ -253,6 +261,8 @@ Timing proves critical to successful execution. The optimal window for escape oc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Overhook Escape?</p>
 
 ### 1. Pulling arm straight backward against the overhook grip
 
@@ -287,6 +297,8 @@ Timing proves critical to successful execution. The optimal window for escape oc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Overhook Escape (Attacker)?</p>
+
 **Week 1-2** - Spiral mechanics
 Practice the shoulder-forward, elbow-to-hip spiral motion against a stationary partner holding overhook position. Focus on understanding the correct angle of extraction without resistance. Repeat 20-30 times per side to develop muscle memory for the movement pattern.
 
@@ -304,48 +316,12 @@ Positional sparring starting from New York Control. Top player works to escape w
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Overhook Escape?
-**A**: The primary goal is to extract your trapped arm from the opponent's overhook control, which is the essential first step in escaping New York Control. Without freeing the arm, all other escape attempts become significantly harder as the opponent maintains access to gogoplata, triangle, and omoplata submission chains. Arm extraction must precede addressing leg control.
-
-**Q2**: Why does pulling straight backward fail against the overhook?
-**A**: Pulling straight backward fights against the strongest angle of the overhook grip, where the opponent's arm is fully loaded and their body structure supports the pull. This direction actually tightens their control rather than loosening it. The spiral motion with shoulder forward and elbow to hip attacks the weak angle where their grip has minimal structural support.
-
-**Q3**: Your opponent shoots their shin toward your throat during extraction - what immediate adjustment prevents the counter?
-**A**: Immediately tuck your chin firmly to your chest while keeping your extracting elbow connected to your ribs. This denies the space needed for the shin to slide across your throat. If the gogoplata setup progresses despite your chin tuck, abort the extraction, stack their hips to eliminate the angle, and reset to defensive positioning before attempting extraction again.
-
-**Q4**: What creates the optimal timing window for extraction attempts?
-**A**: The optimal window occurs during transitions: when opponent adjusts their overhook grip, begins setting up a submission, or moves to a different control position. These moments temporarily reduce overhook pressure as their focus and structural support shift. Attempting extraction against a fully consolidated, static grip has dramatically lower success rates than exploiting transitional opportunities.
-
-**Q5**: How should your base be positioned before initiating the extraction?
-**A**: Establish a wide, low base with knees spread and hips close to the mat, distributing weight laterally rather than forward. This prevents sweeps during extraction and provides stability for the spiraling motion. Forward pressure feeds into their submission chains, while lateral distribution neutralizes their sweep mechanics and maintains your defensive structure.
-
-**Q6**: What should your free hand do throughout the extraction sequence?
-**A**: Your free hand must protect your neck with elbow tight to your body throughout the entire extraction. This prevents triangle setup that exploits extended or posting arms. Never use the free hand to push away or post during extraction - this creates the arm isolation needed for triangle entry and removes your defensive structure.
-
-**Q7**: Why must extraction be completed in one continuous motion rather than stopping partway?
-**A**: A partially extracted arm is worse than a fully trapped arm because the opponent can immediately re-establish a deeper grip from the compromised position while your defense is disrupted. The partial escape shows them you're attempting to leave, prompting them to tighten control. Commit to complete extraction or abort and reset - there is no beneficial middle ground.
-
-**Q8**: What immediate defensive posture must you establish after successful arm extraction?
-**A**: Immediately bring both hands to protect your neck with elbows tight to your body while maintaining your low, wide base. The primary threat shifts from the overhook to the remaining leg control across your back - but triangle danger persists if your arms extend. Only after establishing this defensive posture should you begin addressing the leg control.
-
-**Q9**: When should you abort an extraction attempt and reset?
-**A**: Abort when opponent deepens their overhook grip in response to your attempt, when triangle setup progresses past initial stages, or when your base becomes compromised by their leg pressure. Forcing a failed extraction against increased resistance wastes energy and creates counter-submission opportunities. Resetting to solid defensive position preserves your ability to attempt again.
-
-**Q10**: How does the standing extraction variant differ from ground-based extraction?
-**A**: Standing extraction uses explosive upward movement to break the entire control structure simultaneously rather than incrementally escaping the overhook while staying engaged on the ground. Standing creates distance that compromises both overhook and leg control. It requires excellent timing to prevent being pulled back down, but bypasses the need for precise spiral mechanics when ground extraction repeatedly fails.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Overhook Escape?</p>
 
 Overhook Escape presents moderate injury risk primarily to the shoulder of the trapped arm. Forcing extraction against a deeply consolidated overhook can strain the shoulder joint, particularly the anterior deltoid and rotator cuff. Never attempt explosive extraction when opponent has maximum grip depth - the sudden release can cause hyperextension. During drilling, communicate with your partner about grip pressure and tap immediately if you feel shoulder strain during the spiral motion. Practitioners with prior shoulder injuries should use extra caution and consider the standing extraction variant which places less rotational stress on the joint. Ensure adequate warm-up focusing on shoulder mobility before drilling this technique. The neck is also at risk if opponent successfully transitions to triangle during failed extraction - always maintain chin tuck throughout the sequence.
 

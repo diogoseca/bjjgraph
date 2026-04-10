@@ -162,6 +162,8 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Shoulder of Justice?</p>
+
 - Bottom player establishes a deliberate steady breathing rhythm through their nose, indicating they are preparing mentally for an escape attempt rather than enduring passively
 - Bottom player's near-side forearm begins creating a subtle wedge between their chest and your torso, building the micro-frame foundation for the escape sequence
 - Bottom player's far foot plants flat on the mat with the knee raised, positioning for hip escape power generation
@@ -174,6 +176,8 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Shoulder of Justice?</p>
 
 - Maintain continuous hip-to-hip connection as the primary control mechanism that prevents the bottom player's hip escape from generating meaningful distance
 - Sustain the 45-degree shoulder pressure angle toward the opponent's far shoulder throughout all positional adjustments and escape defense
@@ -188,6 +192,8 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Shoulder of Justice?</p>
 
 ### 1. Drive hips heavier into opponent's hip line and increase shoulder pressure angle
 
@@ -225,6 +231,8 @@ As the top player defending against the Escape from Shoulder of Justice, your ob
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Shoulder of Justice?</p>
+
 ### → [[Positions/Shoulder of Justice]]
 
 Maintain continuous hip-to-hip connection and follow the bottom player's hip movements with your own hip adjustments. When you detect frame creation, increase pressure through your shoulder angle and drive your weight through your center of mass to collapse the frame before the hip escape can execute.
@@ -240,6 +248,8 @@ When the bottom player successfully creates space through a hip escape, immediat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Shoulder of Justice?</p>
 
 ### 1. Allowing hips to disconnect from opponent's hip line during pressure application or adjustment
 
@@ -269,6 +279,8 @@ When the bottom player successfully creates space through a hip escape, immediat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Shoulder of Justice?</p>
+
 **Phase 1: Escape Recognition** - Identifying preparation cues
 Partner in bottom position cycles through escape preparation behaviors: establishing breathing rhythm, creating micro-frames, planting feet, and testing hip movement. Top player calls out each preparation cue as they recognize it without attempting to counter. Build pattern recognition speed across multiple rounds.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting in Shoulder of Justice. Top player 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a planned escape rather than enduring passively?
-**A**: The earliest and most reliable cue is the bottom player establishing deliberate nasal breathing with a steady rhythm. This indicates they have shifted from panic or passive endurance to active escape preparation, as controlled breathing is the necessary first step of any systematic escape from Shoulder of Justice. Secondary cues include their far foot planting flat on the mat and their near forearm beginning to create a subtle wedge against your chest.
-
-**Q2**: Why is hip-to-hip connection more important than shoulder pressure intensity for preventing the escape?
-**A**: Hip-to-hip connection physically blocks the primary escape mechanism, which is the hip escape that creates lateral distance. Shoulder pressure creates discomfort and provokes reactions, but it is the hip connection that actually prevents the bottom player's hips from moving away. A top player with moderate shoulder pressure but excellent hip connection is far more difficult to escape than one with maximum shoulder pressure but disconnected hips, because the bottom player can shrimp away regardless of jaw discomfort.
-
-**Q3**: The bottom player creates a forearm micro-frame without extending their arm. Should you attack the arm?
-**A**: No. A properly executed micro-frame keeps the arm within the bottom player's centerline and is not vulnerable to kimura or americana attacks. Attempting to isolate a protected arm requires you to release pressure and shift your weight, which is exactly the weight shift the bottom player is waiting for to execute their hip escape. Instead, increase your shoulder pressure angle and drive your weight through the micro-frame to collapse it structurally while maintaining hip connection.
-
-**Q4**: When is the optimal moment to transition to mount rather than re-consolidating Shoulder of Justice?
-**A**: The optimal moment is immediately after the bottom player completes a hip escape that creates clear space between your bodies but before they insert a knee shield. This window typically lasts one to two seconds. If you can step your near leg over their body and settle into mount before the knee shield arrives, you have converted their escape attempt into a worse positional outcome. If their knee is already moving across your hip line, re-consolidation is the safer choice.
-
-**Q5**: How do you distinguish between a panic reaction and a planned escape attempt from the bottom player?
-**A**: Panic reactions are characterized by explosive but uncoordinated movements: wild bridges without follow-through, full arm extensions pushing at your shoulder, holding breath followed by gasping, and desperate turning movements. Planned escape attempts show controlled breathing, subtle frame building without arm extension, deliberate foot positioning, and small preliminary hip tests before committing. Panic reactions are easier to counter because they create larger openings, while planned attempts require proactive prevention through maintaining connection and monitoring preparation cues.
-
-
-
-</section>
 
 
 </main>

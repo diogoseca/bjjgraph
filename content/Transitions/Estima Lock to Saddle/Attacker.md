@@ -16,7 +16,7 @@ description: "How to execute Estima Lock to Saddle in BJJ. Attacking perspective
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Estima Lock to Saddle in BJJ",
-  "description": "Step-by-step guide for executing Estima Lock to Saddle from Estima Lock/Top.",
+  "description": "Step-by-step guide for executing Estima Lock to Saddle from Estima Lock Control/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,13 +178,15 @@ The mechanical foundation of this transition relies on the backstep—a rotation
 
 Timing is critical for this transition. Executing too early abandons a potentially viable Estima Lock finish, while executing too late allows the opponent to extract their leg entirely or establish strong defensive frames. The optimal window occurs when you recognize the opponent's defense is working—their ankle rotation reduces your footlock pressure, their free leg threatens your balance, or their hip escape begins creating dangerous space. Reading these signals and immediately initiating the backstep preserves offensive momentum rather than losing the position entirely.
 
-**From Position**: [[Positions/Estima Lock]] (Top)
+**From Position**: [[Positions/Estima Lock Control]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Estima Lock to Saddle?</p>
 
 - Recognize defensive success indicators that signal optimal transition timing rather than forcing a failing Estima Lock
 - Maintain continuous leg control throughout the backstep—never release the trapped leg during rotation
@@ -200,6 +202,8 @@ Timing is critical for this transition. Executing too early abandons a potential
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Estima Lock to Saddle?</p>
+
 - Established Estima Lock control with figure-four grip on opponent's foot
 - Opponent demonstrating defensive resistance through ankle counter-rotation or hip escape
 - Your hips positioned close to opponent's trapped leg creating leverage for rotation
@@ -212,6 +216,8 @@ Timing is critical for this transition. Executing too early abandons a potential
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Estima Lock to Saddle step by step?</p>
 
 1. **Read defensive indicators**: Identify that opponent's Estima Lock defense is succeeding—their ankle counter-rotation reduces pressure, their free leg begins posting, or their hips start escaping. This recognition triggers the transition rather than continuing a failing attack.
 2. **Maintain leg control**: Shift your grip from the footlock configuration to controlling the opponent's leg above the ankle, typically gripping around their calf or controlling the knee line. This preserves the leg entanglement while freeing your hands for the positional change.
@@ -230,7 +236,7 @@ Timing is critical for this transition. Executing too early abandons a potential
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Ashi Garami/Saddle]] | 65% |
-| Failure | [[Positions/Estima Lock]] | 25% |
+| Failure | [[Positions/Estima Lock Control]] | 25% |
 | Counter | [[Positions/Open Guard]] | 10% |
 
 
@@ -240,10 +246,12 @@ Timing is critical for this transition. Executing too early abandons a potential
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Estima Lock to Saddle?</p>
+
 - **Opponent kicks free and posts their foot during backstep rotation** (Effectiveness: High) - Your Response: Accelerate the backstep and use your near-side hand to block their posting leg before it can establish a base. If they successfully post, immediately transition to leg drag passing rather than forcing the Saddle entry. → Leads to [[Positions/Open Guard]]
-- **Opponent straightens their leg and bridges during the transition window** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure against their leg throughout the rotation and keep your weight low. If they create significant space, abandon the Saddle and pursue outside ashi-garami or leg drag instead. → Leads to [[Positions/Estima Lock]]
+- **Opponent straightens their leg and bridges during the transition window** (Effectiveness: Medium) - Your Response: Maintain heavy hip pressure against their leg throughout the rotation and keep your weight low. If they create significant space, abandon the Saddle and pursue outside ashi-garami or leg drag instead. → Leads to [[Positions/Estima Lock Control]]
 - **Opponent counter-rotates toward you and attempts to come on top** (Effectiveness: Medium) - Your Response: Use their rotation momentum to complete your backstep faster—their movement actually helps your transition. Immediately lock the triangle around their thigh before they can establish top position. → Leads to [[Positions/Open Guard]]
-- **Opponent sits up aggressively and frames on your hips during backstep** (Effectiveness: Low) - Your Response: Continue the backstep while using your free hand to swim past their frames. The sitting position actually assists your triangle establishment by bringing their thigh closer to your locking legs. → Leads to [[Positions/Estima Lock]]
+- **Opponent sits up aggressively and frames on your hips during backstep** (Effectiveness: Low) - Your Response: Continue the backstep while using your free hand to swim past their frames. The sitting position actually assists your triangle establishment by bringing their thigh closer to your locking legs. → Leads to [[Positions/Estima Lock Control]]
 
 
 </section>
@@ -251,6 +259,8 @@ Timing is critical for this transition. Executing too early abandons a potential
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Estima Lock to Saddle?</p>
 
 ### 1. Releasing the trapped leg during backstep rotation to use hands for base
 
@@ -285,6 +295,8 @@ Timing is critical for this transition. Executing too early abandons a potential
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Estima Lock to Saddle (Attacker)?</p>
+
 **Week 1-2** - Backstep mechanics isolation
 Practice the backstep rotation without resistance, focusing on hip movement pathway, maintaining leg contact throughout, and achieving proper triangle position. Partner remains static while you drill the movement pattern 20-30 repetitions per side.
 
@@ -302,48 +314,12 @@ Start from Estima Lock position with full resistance. Top player attempts footlo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Estima Lock to Saddle transition?
-**A**: The primary goal is to convert a single-attack footlock position (Estima Lock) into the superior Saddle (Inside Sankaku) configuration that offers multiple high-percentage finishing options including inside heel hooks, outside heel hooks, kneebars, and calf slicers. This positional upgrade is executed when the opponent successfully defends the original Estima Lock attack.
-
-**Q2**: Your opponent begins counter-rotating their ankle during your Estima Lock attempt—what specific signals tell you to initiate the backstep?
-**A**: Key signals include: diminished pressure on the ankle despite maintaining your grip, the opponent's foot beginning to point away from the lock angle, their hips starting to create space, or their free leg establishing frames. These indicators show their defense is succeeding and continuing the Estima Lock yields diminishing returns while the leg entanglement structure remains exploitable through transition.
-
-**Q3**: What is the critical difference between stepping and rotating during the backstep motion?
-**A**: The backstep should be executed as a hip rotation where your body pivots around the trapped leg, not as sequential stepping of individual legs. Stepping is slow and telegraphed, allowing the opponent time to react, post, and prevent Saddle establishment. Rotation is faster, maintains continuous pressure on the trapped leg, and generates momentum that carries you behind their knee line before they can establish effective defense.
-
-**Q4**: Your opponent posts their free foot during your backstep—how do you adjust?
-**A**: Accelerate the backstep rotation and use your near-side hand to block their posting leg before it can establish a stable base. If they successfully post before you can block, immediately recognize that the Saddle entry is compromised and transition to leg drag passing or outside ashi-garami instead of forcing a failing position. The key is rapid decision-making rather than stubbornly pursuing the original plan.
-
-**Q5**: Why must you thread your inside leg past the opponent's far hip before locking the triangle?
-**A**: Deep leg positioning creates a stronger entanglement structure that prevents the opponent from easily clearing your legs. A shallow triangle with your foot only reaching their near hip allows them to rotate their knee outward and slip free before you can establish proper Saddle control. The deeper your inside leg threads, the more difficult extraction becomes and the tighter your triangle squeeze will be.
-
-**Q6**: What grip configuration should you establish once the Saddle position is secured?
-**A**: Secure the opponent's heel with both hands—typically using a cup grip (palms facing up, fingers interlocked around the heel) for inside heel hook attacks, or a cross grip configuration for outside heel hook setups. Simultaneously, use your triangle squeeze and body positioning to control their knee line, preventing the rotation escape that defeats heel hook mechanics.
-
-**Q7**: Your opponent sits up aggressively and frames on your hips as you initiate the backstep—should you abort or continue?
-**A**: Continue the backstep while swimming past their frames with your free hand. The sitting position actually assists your Saddle establishment by bringing their thigh closer to your locking legs. Their sit-up reduces the distance your hips need to travel and their frames become less effective once you complete the rotation behind their knee line. This is one of the lower-threat counters to address.
-
-**Q8**: What finishing options become available from Saddle that were not possible from Estima Lock?
-**A**: Saddle opens access to inside heel hooks (the highest-percentage leg lock finish in modern competition), outside heel hooks through leg configuration changes, kneebars by straightening their leg against your hip, and calf slicers by positioning your shin behind their knee. The Estima Lock only threatens the single footlock attack, while Saddle's versatility allows attacking multiple joints and adapting to defensive reactions.
-
-**Q9**: When should you abort the Saddle transition entirely and pursue alternative positions?
-**A**: Abort when the opponent successfully posts their free foot with a stable base before you can block it, when they create significant space through explosive bridging that defeats your hip pressure, or when they stand up during the transition window. In these cases, pursuing leg drag passing, outside ashi-garami, or standing passes preserves offensive momentum rather than forcing a structurally compromised position.
-
-**Q10**: How does the Rolling Backstep variant differ from standard execution and when is it appropriate?
-**A**: The Rolling Backstep uses a shoulder roll while maintaining leg control to rotate into Saddle position, generating momentum through the rolling motion rather than hip rotation from a stable base. This variant is appropriate when you've been flattened by opponent's pressure and cannot execute a standing backstep, or when their downward drive creates an opportunity to use their energy against them through the roll.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Estima Lock to Saddle?</p>
 
 The Estima Lock to Saddle transition involves rotational stress on both practitioners' knees and ankles during the backstep movement. Control your rotation speed during training to prevent sudden torque on your partner's joints. When completing the transition, establish the Saddle triangle gradually rather than explosively snapping your legs closed, which can hyperextend your partner's knee. Once in Saddle, heel hook attacks become available—these are among the most dangerous submissions in BJJ with potential for permanent knee ligament damage. Apply heel hook pressure slowly with clear communication, and tap immediately when caught. Never explosively rotate heel hooks or continue applying pressure after a tap. Partners should keep their knee aligned with their hip to prevent ACL injury during training; avoid allowing the knee to rotate inward under pressure. If either person feels sharp pain during the transition or subsequent attacks, immediately release and reset.
 

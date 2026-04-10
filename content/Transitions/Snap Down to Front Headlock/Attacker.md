@@ -190,6 +190,8 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Snap Down to Front Headlock?</p>
+
 - Control opponent's head and posture before initiating downward force - never snap without established grip
 - Use opponent's forward pressure and upright posture against them by redirecting their momentum
 - Generate explosive downward snap through coordinated upper body pull and hip drive, not arm strength alone
@@ -205,6 +207,8 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Snap Down to Front Headlock?</p>
+
 - Standing clinch position established with collar tie or head control on the back of opponent's skull or neck
 - Opponent maintaining relatively upright posture or committing forward pressure into the clinch
 - Strong secondary grip on opponent's tricep, lat, or overhook on near arm to prevent posting
@@ -218,6 +222,8 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Snap Down to Front Headlock step by step?</p>
 
 1. **Establish primary head control**: From standing clinch position, secure a firm grip on the back of opponent's head or neck using your lead hand. Position your palm against the rear of their skull or clasp behind their neck, ensuring your elbow is positioned near their shoulder line. This creates the primary control point that will direct their descent.
 2. **Secure secondary control point**: With your trailing hand, establish a second control point by gripping opponent's tricep, latissimus dorsi, or securing an overhook on their near arm. This secondary grip prevents them from posting or creating defensive frames during the snap. The two-point control system is essential for maintaining dominance throughout the transition.
@@ -247,6 +253,8 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Snap Down to Front Headlock?</p>
+
 - **Opponent sprawls and drives forward as you attempt to snap, resisting the downward pull** (Effectiveness: High) - Your Response: Redirect to alternate technique: use their forward drive to transition to single leg attack, arm drag, or guard pull. If they overcommit forward, redirect their momentum past you for a go-behind. → Leads to [[Positions/Clinch]]
 - **Opponent posts hand to mat and creates defensive frame to prevent collapse** (Effectiveness: Medium) - Your Response: Attack posted arm immediately with kimura grip or arm crush. Alternatively, circle toward their posted side while maintaining head control to collapse the frame. Drive shoulder into their tricep to break posting structure. → Leads to [[Positions/Front Headlock]]
 - **Opponent counters with their own collar tie and establishes pummeling battle** (Effectiveness: Medium) - Your Response: Win inside position through superior hand fighting before reattempting snap. Use feints and level changes to create openings. Circle away from their strong side grip before executing snap to disrupt their counter-control. → Leads to [[Positions/Clinch]]
@@ -259,6 +267,8 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Snap Down to Front Headlock?</p>
 
 ### 1. Using only arm strength without hip drive during snap execution
 
@@ -303,6 +313,8 @@ The attacker's strategic advantage lies in dictating the pace and direction of t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Snap Down to Front Headlock (Attacker)?</p>
+
 **Weeks 1-2: Fundamental Mechanics** - Basic snap down mechanics and grip positioning
 Begin with partner in turtle position. Practice establishing front headlock grips from standing position, emphasizing proper hand placement and body positioning. Partner remains static initially. Focus on grip depth, chest pressure, and hip positioning. Drill 15-20 repetitions per training session with slow, controlled movements and perfect technical form.
 
@@ -326,48 +338,12 @@ Develop snap down variations for different body types, gi vs. no-gi contexts, an
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the two critical grip positions required before executing an effective snap down to front headlock?
-**A**: The two critical grips are: (1) Primary head/neck control with hand positioned behind opponent's skull or neck with firm pressure, and (2) Secondary control point on opponent's tricep, lat, or overhook on near arm. This two-point control system prevents opponent from posting or creating defensive frames while providing the leverage to direct their descent and maintain control throughout the transition.
-
-**Q2**: Why is it essential to drive your hips forward during the snap down rather than simply pulling with your arms?
-**A**: Hip drive is essential because arm strength alone generates insufficient force to overcome an opponent's structural base and postural resistance. By driving hips forward while pulling downward, you engage larger muscle groups including lats, core, and hips, creating significantly more power. Forward hip drive also positions your body weight over the opponent as they descend, establishing the dominant angle necessary for front headlock control and preventing posture recovery.
-
-**Q3**: Your opponent sprawls and drives forward as you initiate the snap down - what is the correct response?
-**A**: When opponent sprawls and drives forward, redirect to alternative techniques rather than forcing the snap. Use their forward drive to change levels and attack their legs with single or double leg takedowns since they have committed their weight forward. Alternatively, execute an arm drag to access their back, or redirect to guillotine if their head is exposed during the sprawl. The key is recognizing the failed snap early and immediately transitioning rather than continuing against their momentum.
-
-**Q4**: How should the direction of force during the snap differ from a straight downward pull, and why is this critical?
-**A**: The snap should be executed downward AND across your centerline rather than straight down. Pulling straight down allows opponent to maintain structural integrity by posting hands directly beneath their shoulders. By directing force down and across your body, you break their structural alignment, making it impossible to post effectively while creating the angle necessary for front headlock control. This diagonal force vector collapses their base and prevents defensive posturing.
-
-**Q5**: What immediate submission opportunities become available upon successfully establishing front headlock control?
-**A**: Primary submission opportunities include: guillotine choke by using existing head control to secure choking grip, anaconda choke by transitioning grip to trap their arm against their neck, darce choke with opposite side grip configuration threading under the far arm, and various neck crank submissions. The specific submission selected depends on opponent's defensive reactions, their body positioning, and which grips were established during the snap down.
-
-**Q6**: Your opponent posts their hand to the mat after the snap - how do you adjust your attack?
-**A**: When opponent posts to the mat, their posted arm becomes vulnerable. Attack the posted arm with a kimura grip by controlling their wrist and threading behind the elbow. Alternatively, circle toward the posted side while maintaining head control to collapse the structural frame by driving your shoulder into their tricep. You can also use the post as a cue to transition to anaconda or darce choke, as the posted arm creates the arm-in configuration these submissions require.
-
-**Q7**: What is the most common timing error when attempting snap downs, and how should it be corrected?
-**A**: The most common timing error is attempting the snap when opponent has already created distance or pulled their head back defensively. The correction involves proper setup timing: establish grips when opponent is within range, create a loading phase by pulling them slightly forward causing them to either resist or commit weight, then execute the snap during this reaction window. The snap must occur when opponent's weight is forward or they are resisting backward, never when they have successfully created distance.
-
-**Q8**: How does the snap down create offensive dilemmas when combined with leg attack entries in a chain wrestling system?
-**A**: The snap down attacks the opponent's posture at the head level, forcing them to defend upward by maintaining upright position and resisting downward force. This defense requires them to keep their weight high and their head position strong. However, this defensive posture directly exposes them to level-change takedowns such as double legs and single legs that attack below the waist. Conversely, if they crouch low to defend leg attacks, their bent posture becomes ideal for the snap down. This high-low dilemma is the foundation of effective chain wrestling.
-
-**Q9**: What are the key differences in grip strategy between gi and no-gi snap down execution?
-**A**: In no-gi, the primary grip is a cupping hand behind the skull or a collar tie with fingers interlocked behind the neck, relying on friction and hand positioning for security. In gi, you can establish a deep cross-collar grip or lapel grip behind the neck, which provides significantly more grip security and resistance to being stripped. The gi collar grip allows for sustained control and repeated snap attempts, while no-gi grips are more transient and require faster execution since the opponent can more easily shed the grip through sweat and head movement.
-
-**Q10**: You successfully snap your opponent down but they immediately begin to stand back up before you consolidate front headlock - what went wrong and how do you fix it?
-**A**: The failure occurred in the follow-through phase. After the initial snap, you must immediately chase the opponent's descent with your chest and hips, establishing heavy downward pressure on their upper back before they can rebuild their base. The correction is to drive your body weight forward and down as the snap occurs, getting your chest over their shoulders within the same beat as the pull. If there is a gap between the snap and the chest pressure, the opponent has a window to recover. Think of it as one continuous motion: pull, drive, settle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Snap Down to Front Headlock?</p>
 
 When practicing snap downs, both partners must maintain awareness of the training surface and surrounding space to prevent head or neck contact with the mat or other obstacles. The executing partner should control the speed and force of the snap, particularly during initial learning phases, to prevent neck strain or injury to training partners. Never release control abruptly - maintain connection throughout the descent to ensure partner can safely post or protect themselves. Partners should communicate about resistance levels, especially when learning, and tap immediately if experiencing neck discomfort or inability to support their weight. In competition contexts, be aware that overly aggressive snap downs can be penalized in some rule sets if they endanger opponent's neck or spine. Beginners should practice on padded surfaces and build neck strength through progressive resistance before training this technique at full intensity.
 

@@ -169,6 +169,8 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Position Definition
 
+<p class="section-subtitle">What is Seat Belt Control Back (Bottom)?</p>
+
 - Opponent positioned behind you with chest against your back, establishing deep back control with weight distribution through their hips and torso creating constant forward pressure that limits your mobility and prevents you from turning to face them
 - One opponent arm wrapped over your shoulder (typically your non-dominant side) while the other threads under your opposite armpit, creating the characteristic seat belt or harness grip configuration with diagonal force distribution across your entire torso
 - Opponent's hands clasped together across your chest or upper torso, forming a tight control loop that restricts your upper body movement and creates leverage for choking attacks and positional adjustments against your defensive frames
@@ -182,6 +184,8 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Seat Belt Control Back (Bottom)?</p>
+
 - Opponent has successfully taken your back from turtle, guard, or scramble position
 - Opponent has established the over-under grip configuration (seat belt/harness)
 - You are positioned facing away from opponent with limited offensive options
@@ -194,6 +198,8 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Seat Belt Control Back?</p>
 
 - Protect neck at all costs - chin tucked down, hands defending collar line, never allowing opponent to slide forearm under chin
 - Address grips systematically - prioritize breaking the over-shoulder grip first as it provides primary control and choking leverage
@@ -209,6 +215,8 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Seat Belt Control Back (Bottom)?</p>
 
 **If opponent has seat belt grip but no hooks established yet:**
 - Execute **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** → [[Positions/Turtle]] (Probability: 50%)
@@ -237,6 +245,8 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Seat Belt Control Back?</p>
 
 ### 1. Exposing neck by lifting chin or turning head toward choking arm
 
@@ -276,6 +286,8 @@ The seat belt grip itself creates a powerful control mechanism that must be syst
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Seat Belt Control Back defense?</p>
+
 ### Back Escape Positional Sparring
 
 Start with opponent having seat belt control without hooks. Bottom player works to escape to turtle or guard within 2-minute rounds. Top player works to maintain control and establish hooks. Reset when escape is achieved or submission is near. Progress to adding hooks once basic escapes are functional.
@@ -309,38 +321,6 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Opponent begins sliding their choking arm toward your neck - what is your immediate defensive response?
-**A**: Immediately tuck your chin tightly to your chest to close the space under your jaw. Simultaneously bring both hands to your collar line, grabbing opponent's choking wrist or forearm with your near-side hand while your far-side hand protects the collar area. Turn your head away from the choking arm direction. The chin tuck must be your first reflex - even a split-second delay in tucking allows the forearm to slide under.
-
-**Q2**: What are the essential defensive frames for surviving seat belt back control?
-**A**: Primary frames include: hands controlling opponent's choking wrist to prevent RNC completion, elbows tucked tight to ribs to prevent arm isolation, shoulders rounded forward with chin tucked to protect neck space. Secondary frames include controlling opponent's hooks with your legs by keeping knees together and using your feet to block their hook insertion. Your entire body should create a defensive shell while you work systematic escape sequences.
-
-**Q3**: How do you systematically break the seat belt grip to begin your escape?
-**A**: Address one grip at a time rather than fighting the entire structure. Start with the over-shoulder arm as it provides opponent's primary choking leverage. Two-on-one grip the over-arm wrist, pulling it toward your hip while creating hip movement to generate angles that weaken their grip structure. Once the over-arm is weakened or controlled, the under-arm becomes less threatening. Never try to pull both arms simultaneously - this exhausts you while opponent easily maintains connection.
-
-**Q4**: Your opponent has established both hooks - what is your priority order for escape?
-**A**: Priority order: 1) Protect neck from immediate submission threat, 2) Control opponent's choking hand to prevent RNC setup, 3) Address the bottom hook first by bringing your knee up and using hip movement to slide your hip to the mat on that side, 4) Once hips are to mat with bottom hook cleared, work to face opponent and recover guard. The bottom hook must be addressed first because it prevents you from sliding your hips to the mat - without that foundation movement, no escape is possible.
-
-**Q5**: Opponent is applying heavy chest pressure making it hard to breathe - how do you create space to initiate escape?
-**A**: Use explosive bridge-and-shrimp combinations to create momentary space. Bridge your hips up forcefully while simultaneously turning your shoulders toward the direction you want to escape. As your hips come down, immediately shrimp away from opponent, creating 4-6 inches of separation. Time your escapes when opponent shifts weight for attacks - their commitment to submissions creates windows where their control is momentarily weaker.
-
-**Q6**: What defensive anticipation cues indicate opponent is about to attack the rear naked choke?
-**A**: Watch for: opponent's over-arm hand releasing grip to slide toward your neck, their chest pressure increasing as they commit weight forward, subtle repositioning of their head toward your choking-side shoulder, their choking-side hook driving deeper to stabilize their base. When you feel these cues, immediately reinforce neck defense before the attack materializes. The moment they release the seat belt grip to attack, you have a brief window where their control is compromised.
-
-**Q7**: Opponent has broken through your neck defense and their arm is partially under your chin - what is your recovery protocol?
-**A**: Immediately two-on-one grip their choking wrist and pull it across your body toward your far hip, creating distance between their forearm and your neck. Simultaneously tuck your chin harder and turn your head toward their bicep rather than away. Bridge explosively while pulling their arm to create enough space to re-tuck your chin behind their forearm. This is an emergency defense - once their arm is under the chin, you have seconds before the choke is locked.
-
-**Q8**: When is it appropriate to attempt the rolling escape from back control?
-**A**: Attempt rolling escapes when opponent extends their body to complete a submission, temporarily loosening their hook control. Also effective when opponent is high on your back with their weight forward, making them susceptible to being rolled. Do not attempt rolls when opponent has tight hooks and compact body positioning - this wastes energy and often results in worse position. The roll requires opponent's commitment elsewhere that compromises their hook security.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -364,7 +344,7 @@ Start in seat belt control bottom position. Execute hip escapes repeatedly to cr
 - **[[Positions/Back Control]]** - Parent position - seat belt back bottom is a specific configuration within back control defense
 - **[[Positions/Turtle]]** - Primary escape target position when successfully breaking free from back control
 - **[[Positions/Half Guard]]** - Transitional defensive state during escape attempts when partially recovering guard
-- **[[Transitions/Rear Naked Choke]]** - Primary submission threat from this position requiring constant defensive awareness
+- **[[Submissions/Rear Naked Choke]]** - Primary submission threat from this position requiring constant defensive awareness
 - **[[Transitions/Hand Fighting from Back]]** - Essential defensive transition for grip management from bottom back control
 - **[[Transitions/Elbow Escape to Remove Hooks]]** - Critical escape technique for removing hooks and beginning escape sequence
 - **[[Positions/Closed Guard]]** - Alternative escape target position when rolling through to face opponent

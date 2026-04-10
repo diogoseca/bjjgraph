@@ -188,6 +188,8 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Standing up in Base?</p>
+
 - Establish stable posting base before initiating standup sequence
 - Create frames and distance to prevent opponent pressure during transition
 - Maintain defensive posture throughout entire movement sequence
@@ -203,6 +205,8 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Standing up in Base?</p>
+
 - Stable turtle position with at least one hand available to post on the mat
 - Opponent positioned at distance or transitioning between control attempts
 - Clear awareness of opponent's grip configuration and pressure direction
@@ -216,6 +220,8 @@ The technical standup from base is a fundamental defensive movement that allows 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Standing up in Base step by step?</p>
 
 1. **Establish posting hand**: From turtle position, post your lead hand firmly on the mat with fingers spread wide, arm positioned slightly in front of your shoulder line. This creates your primary base point and structural support for the entire standup sequence. The posting hand should be on the side away from your opponent when possible.
 2. **Create defensive frame**: Extend your non-posting arm to create a frame against opponent's chest or shoulder, establishing distance and preventing them from collapsing their weight onto you during the standup. Keep elbow tight and forearm positioned to redirect pressure rather than absorb it directly.
@@ -245,6 +251,8 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Standing up in Base?</p>
+
 - **Opponent drives forward with heavy chest pressure as you attempt to post hand** (Effectiveness: High) - Your Response: Immediately transition to alternative escape such as granby roll or hip escape rather than fighting directly against superior pressure. Wait for pressure transition before reattempting standup. → Leads to [[Positions/Turtle]]
 - **Opponent grabs your posting arm or wrist to prevent base establishment** (Effectiveness: Medium) - Your Response: Switch to opposite side posting, using circular motion to clear the grip while establishing frame with the previously grabbed arm. Alternatively, use the grip to pull opponent off-balance forward. → Leads to [[Positions/Turtle]]
 - **Opponent secures seatbelt harness and inserts hooks during standup attempt** (Effectiveness: High) - Your Response: Abandon standup attempt and immediately address back control defense. Fight the choking hand, prevent second hook, and transition to back escape protocol rather than continuing standup against established back control. → Leads to [[Positions/Back Control]]
@@ -257,6 +265,8 @@ The technical standup from base is a fundamental defensive movement that allows 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Standing up in Base?</p>
 
 ### 1. Attempting to stand up explosively without establishing proper base first
 
@@ -301,6 +311,8 @@ The technical standup from base is a fundamental defensive movement that allows 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Standing up in Base (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Solo drilling of technical standup sequence without resistance
 Practice the movement pattern repeatedly from turtle position, focusing on proper hand posting, frame creation, foot placement, and sequential base-building. Perform 20-30 repetitions per session, alternating sides. Video record to check posture, base width, and head position. Emphasize smooth, controlled movement rather than speed.
 
@@ -324,54 +336,12 @@ Practice flowing between technical standup, hip escapes, granby rolls, and guard
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is establishing a proper posting base more important than explosive speed when executing the technical standup?
-**A**: A proper posting base creates structural integrity that allows you to support your body weight and resist opponent's pressure during the vulnerable transition from bottom to standing. Explosive speed without solid base results in unstable balance that opponents can easily disrupt, causing you to fall back to bottom position or worse. The sequential base-building approach (hand post, foot plant, hip elevation, step through) distributes your weight properly and provides checkpoints where you can react to opponent interference. Speed matters only after base quality is established, as proper structure multiplies the effectiveness of explosive power.
-
-**Q2**: What is the primary function of the defensive frame during the technical standup sequence?
-**A**: The defensive frame serves to create and maintain distance between your torso and the opponent's center of mass, preventing them from collapsing their weight onto you during the standup. This distance is essential because it provides the space necessary for hip elevation and leg positioning. The frame also allows you to redirect opponent's pressure rather than absorbing it directly, using your skeletal structure to manage their force while your base-building sequence progresses. Without proper framing, opponent's pressure can nullify the standup attempt before it begins by preventing proper posting or hip mobility.
-
-**Q3**: How should you modify your technical standup approach when opponent has secured grips on your upper body?
-**A**: When opponent has strong upper body grips, you must address the grips before initiating the standup sequence through hand fighting, grip breaking, or strategic repositioning. Attempting standup with opponent controlling your posture through grips allows them to use your upward momentum against you, pulling you forward into worse positions or using the movement to take your back. Alternatively, you can use their grips strategically by changing direction suddenly, pulling them off-balance forward, or creating angles that compromise their base. Only proceed with standup once grips are neutralized or can be used to your advantage.
-
-**Q4**: What are the key differences between technical standup from turtle versus technical standup from seated guard?
-**A**: From turtle, you start with more compact posture and typically face less immediate pressure on your upper body, allowing focus on sequential base-building. From seated guard, you are more exposed to standing opponent's pressure and must establish frames immediately while posting, often requiring more aggressive distance creation. Seated guard standup typically involves facing opponent throughout the sequence, while turtle standup may involve turning to face them as you rise. The foot positioning from seated guard is also typically more forward, creating immediate defensive posture, while from turtle your initial base is more lateral before rotating to face opponent.
-
-**Q5**: Why is head position critical during the technical standup sequence?
-**A**: Proper head position (up with eyes on opponent and chin away from chest) serves multiple critical functions during technical standup. First, it maintains spinal alignment which is essential for structural integrity and weight distribution across your base. Second, keeping head up prevents front headlock and guillotine attacks which are primary threats during standup transitions. Third, visual tracking of opponent allows you to react to their movements and adjust your base or frames accordingly. Looking down weakens your posture, breaks your base structure, and removes situational awareness, making you vulnerable to immediate attacks and failed standup attempts.
-
-**Q6**: Your opponent posts their hand on your far hip during your standup attempt - how do you adjust?
-**A**: When opponent posts on your far hip, they are attempting to control your hip rotation and prevent you from completing the standup by pinning your hips to the mat. Adjust by redirecting your standup direction away from the posted hand, pivoting your base so that their hand loses its blocking angle. You can also use your framing arm to target their posting elbow, collapsing their structure to remove the hip control. If their hand is deep, consider switching to the opposite side standup or chaining into a sit-through escape that uses their committed hand position against them. The key is not fighting their hand directly but changing the angle to make their post ineffective.
-
-**Q7**: What is the most critical hip movement during the technical standup and why does it determine success or failure?
-**A**: The hip elevation phase where you drive through your posted foot and hand to lift your hips off the mat is the most critical movement because it transitions your weight from a grounded four-point base to a dynamic three-point base that enables standing. This movement must generate enough vertical force to clear your hips while maintaining horizontal stability through your posting hand and lead foot. If the hip drive is insufficient, you stall in a vulnerable half-elevated position where opponent can easily flatten you. If the direction is wrong, your weight shifts away from your base points and you collapse. The quality of this single movement determines whether the subsequent step-through is possible.
-
-**Q8**: What specific grip configuration must you clear before attempting the standup, and what is the priority order?
-**A**: Priority one is any grip that controls your collar, neck, or head, because these grips allow the opponent to snap you down or apply front headlock pressure during your standup. Priority two is any seatbelt or harness grip around your torso, because this controls your upper body rotation and enables back takes during your upward movement. Priority three is hip or belt grips that anchor your hips to the mat and prevent the elevation phase. You do not need to clear all grips before attempting standup, but the first two categories must be addressed. Use two-on-one grip breaks to strip the highest priority grip, then immediately initiate the standup before opponent can re-establish control.
-
-**Q9**: What direction should force be applied during the hip elevation phase, and how does this differ from a simple jumping motion?
-**A**: Force during hip elevation should be directed primarily upward at approximately 45 degrees forward and vertical, driving through the lead foot into the mat while the posting hand provides lateral stability. This differs fundamentally from a jumping motion which applies force straight down to generate vertical lift. The 45-degree drive vector creates upward movement while simultaneously maintaining forward base through the posted foot, preventing you from being pulled backward. A jumping motion removes all base points simultaneously, creating a moment of zero stability where any opponent pressure causes complete collapse. The controlled drive maintains at least two points of contact throughout the movement.
-
-**Q10**: Your standup attempt is blocked and you cannot complete the step-through - what chain attacks or alternatives should you immediately transition to?
-**A**: When the standup stalls at the step-through phase, you have several immediate chain options based on opponent's reaction. If opponent is driving forward into you, use their forward pressure to execute a sit-through to butterfly guard or half guard, threading your blocked leg into guard position rather than standing. If opponent is heavy on your hips preventing elevation, drop back to turtle and immediately chain into a granby roll in the opposite direction. If opponent has circled to your posting hand side, switch to a Peterson roll using their lateral position against them. The worst response is repeatedly attempting the same blocked standup, as this wastes energy and allows opponent to time their counter. Always have at least two alternative escape routes prepared before initiating standup.
-
-**Q11**: What specific conditions in your opponent's weight distribution and positioning create the optimal timing window for initiating the standup?
-**A**: The optimal window occurs when opponent's weight shifts away from directly compressing your hips. This happens during four specific moments: when opponent transitions from one attacking grip to another and briefly releases pressure, when opponent circles and their weight momentarily lifts as they reposition their feet, when opponent reaches for a submission grip and transfers weight to their upper body, or when opponent drives forward aggressively and their hips rise above your center line. You can create these windows artificially by pumping your hips or feinting movement in one direction to provoke a reaction. The window typically lasts less than one second, so the posting hand must already be positioned before the window opens.
-
-**Q12**: How does the technical standup integrate with overall guard retention and positional escape strategies from turtle?
-**A**: Technical standup serves as a critical branch in the turtle escape decision tree alongside granby rolls, sit-throughs, and guard recovery pulls. The choice between standup and alternatives depends on three factors: opponent's weight height (high weight favors granby, low weight favors standup), grip configuration (harness control makes standup dangerous, loose grips make it optimal), and your energy state (standup requires more explosive output than rolling escapes). The standup is uniquely valuable because it resets the entire positional exchange to neutral standing, allowing you to dictate whether engagement continues on the ground or standing. This makes it the preferred escape when you are ahead on points, when opponent's ground game is superior, or when you want to pull guard to a specific position with favorable grips.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Standing up in Base?</p>
 
 Technical standup is a relatively low-risk movement when executed properly, but practitioners should be aware of several safety factors. Ensure adequate hand and wrist strength before attempting under resistance, as posting on weak wrists can result in sprains. During the hip elevation phase, avoid explosive jumping movements that can strain hip flexors or cause loss of balance leading to falls. When training with resistance, partners should progressively increase pressure rather than immediately using full intensity, allowing proper technique development before speed and power are added. Be particularly cautious of neck position during the transition, as improper head placement can expose you to front headlock attacks or choke attempts. When drilling, use mats with adequate cushioning to prevent wrist and hand injuries from repeated posting. Partners should communicate clearly when adding resistance to prevent unexpected pressure that could compromise base and cause falls.
 

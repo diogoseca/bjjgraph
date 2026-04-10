@@ -208,7 +208,7 @@ The Knee Through from Quarter Guard occupies a critical position in the guard pa
 
 - [[Transitions/Knee Shield from Quarter Guard]] - Primary defensive counter from the bottom player attempting to prevent the knee through
 
-- [[Transitions/Consolidation to Mount]] - Related mount entry transition from side control using similar pressure mechanics
+- [[Transitions/Side Control to Mount]] - Related mount entry transition from side control using similar pressure mechanics
 
 - [[Positions/Headquarters Position]] - Earlier passing position in the hierarchy that often leads to quarter guard establishment
 

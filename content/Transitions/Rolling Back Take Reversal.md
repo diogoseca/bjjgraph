@@ -204,7 +204,7 @@ The Rolling Back Take Reversal occupies a unique space in the back defense hiera
 
 - [[Transitions/Hip Escape to Turtle]] - Alternative - safer escape option requiring less commitment
 
-- [[Transitions/Rear Naked Choke]] - Follow-up - primary attack after securing back control
+- [[Submissions/Rear Naked Choke]] - Follow-up - primary attack after securing back control
 
 - [[Positions/Harness]] - Related control - grip you establish after completing the roll
 

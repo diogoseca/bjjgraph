@@ -69,19 +69,15 @@
       "relationship": "Counter destination — where the attacker may end up if the opponent successfully disrupts the transition"
     },
     {
-      "name": "Armbar from Knee on Belly",
-      "relationship": "Related near-side armbar submission from the same starting position"
-    },
-    {
-      "name": "Armbar Finish",
-      "relationship": "Follow-up finish transition from the armbar control position achieved by this technique"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Follow-up finish submission executed from armbar control after successfully completing this transition"
     },
     {
       "name": "Baseball Bat Choke",
       "relationship": "Complementary attack from KOB that creates the defensive reactions exploited by the far side armbar"
     },
     {
-      "name": "Cross Collar Choke from KOB",
+      "name": "Cross Collar Choke",
       "relationship": "Alternative choke attack from KOB that forces arm extension when defended"
     },
     {
@@ -95,6 +91,10 @@
     {
       "name": "Mount",
       "relationship": "Alternative advancement target from KOB that shares the attack-from-pressure philosophy"
+    },
+    {
+      "name": "Far Side Armbar",
+      "relationship": "Parent submission family — the far side armbar finish executed from armbar control"
     }
   ],
   "attacker": {
@@ -278,6 +278,14 @@
       {
         "question": "How does the angle of your knee placement on the opponent's torso affect the availability of the far side armbar?",
         "answer": "Your knee should be positioned perpendicular to the opponent's centerline with your body angled slightly toward their far side. If your knee points toward their head, reaching across for the far wrist becomes difficult. If your knee points toward their hips, you lose the diaphragm pressure that forces the defensive arm reactions you need. The perpendicular angle provides the optimal balance between maintaining intense pressure and having the reach to capture the far arm without losing your base."
+      },
+      {
+        "question": "Your opponent posts their far hand on your knee and straightens their arm to relieve pressure — what is your immediate response?",
+        "answer": "This is the ideal trigger for the far side armbar. The straight arm pushing against your knee is fully exposed and isolated from their body. Immediately release your collar grip and reach across to capture that extended wrist before they can retract it. Their straight arm position means wrist control is easier to establish, and the arm is already partially isolated from their torso. Maintain knee pressure throughout the capture to prevent them from pulling the arm back once they recognize the threat."
+      },
+      {
+        "question": "How do you maintain balance during the grip transition from collar control to far wrist capture?",
+        "answer": "The grip transition is the most vulnerable moment for your base. Keep your weight driven downward through the knee throughout the switch. Your far hand can briefly post on the mat or on the opponent's hip for stability as your near hand releases the collar and reaches across. Avoid lifting your center of gravity during the reach — stay low and heavy. The posting leg should remain wide throughout, and your core engagement keeps you stable as you extend across the opponent's body to capture the far wrist."
       }
     ],
     "safety_considerations": "The far side armbar applies significant hyperextension force to the elbow joint. Always apply the finish progressively, giving your training partner time to recognize the threat and tap. Release immediately upon feeling a tap or hearing a verbal submission. In training, emphasize reaching armbar control position rather than cranking through full extension. Be especially cautious during the leg swing transition phase, as the opponent's arm can be caught at an awkward angle if the grip shifts unexpectedly. Never apply explosive force to the elbow — use steady, controlled pressure. Both partners should communicate clearly about comfort and tap early when caught."

@@ -186,6 +186,8 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ushiro Ashi-Garami Escape?</p>
+
 - Maintain dorsiflexion throughout the entire escape to protect the heel from finishing grips
 - Control the opponent's inside knee with both hands to prevent saddle or honey hole transitions
 - Clear legs sequentially rather than attempting to extract the trapped leg in one explosive movement
@@ -201,6 +203,8 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ushiro Ashi-Garami Escape?</p>
+
 - Trapped in ushiro ashi-garami with hips inverted from a prior escape attempt through standard ashi-garami
 - Opponent's outside leg crosses over your knee line while inside leg remains underneath your trapped leg
 - Sufficient awareness of heel hook and ankle lock threats from the reversed configuration angles
@@ -214,6 +218,8 @@ Strategically, this escape represents the completion phase of a defensive invers
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ushiro Ashi-Garami Escape step by step?</p>
 
 1. **Protect the heel**: Immediately establish dorsiflexion on the trapped foot by pulling toes toward your shin and activating the anterior tibialis. This closes the heel exposure gap that the attacker needs for heel hook finishing grips. Maintain this foot position throughout the entire escape sequence without relaxation.
 2. **Control inside knee**: Use both hands to grip the opponent's inside knee, which is the primary control point preventing saddle transition. Push this knee away from your centerline to create separation between their inside leg and your trapped thigh. This grip also prevents them from deepening the figure-four configuration around your leg.
@@ -243,6 +249,8 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ushiro Ashi-Garami Escape?</p>
+
 - **Opponent accelerates heel hook attempt during your extraction sequence, attacking exposed heel during leg clearing** (Effectiveness: High) - Your Response: Intensify dorsiflexion and use both hands to strip their heel grip before continuing extraction. If grip is deep, accept turtle position by continuing rotation rather than fighting the grip in place → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 - **Opponent transitions to saddle by stepping the inside leg through as you clear the outside leg** (Effectiveness: High) - Your Response: Maintain inside knee control throughout the entire clearing sequence. If they begin stepping through, immediately redirect to Granby roll escape to turtle rather than fighting the saddle entry → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Opponent re-establishes outside leg cross after initial clearing by chasing your knee with their leg** (Effectiveness: Medium) - Your Response: Keep pushing frame active on their hip and angle your knee inward toward your centerline to deny the re-cross. Accelerate extraction timing before they can re-establish the figure-four → Leads to [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
@@ -254,6 +262,8 @@ Strategically, this escape represents the completion phase of a defensive invers
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ushiro Ashi-Garami Escape?</p>
 
 ### 1. Relaxing foot dorsiflexion during the extraction sequence when focus shifts to leg clearing mechanics
 
@@ -293,6 +303,8 @@ Strategically, this escape represents the completion phase of a defensive invers
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ushiro Ashi-Garami Escape (Attacker)?</p>
+
 **Week 1-2** - Heel protection and body mechanics
 Drill dorsiflexion maintenance under simulated pressure. Practice the six-step sequence as isolated movements with a compliant partner. Focus on inside knee control grips, free leg pushing frame placement, and sequential leg clearing mechanics without resistance. Build muscle memory for each step before combining them.
 
@@ -310,48 +322,12 @@ Full resistance positional sparring starting from ushiro ashi-garami bottom. Tra
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal when you first recognize you are trapped in ushiro ashi-garami?
-**A**: The immediate priority is protecting your heel by establishing and maintaining dorsiflexion (pulling toes toward shin) on the trapped foot. This closes the heel exposure gap that the attacker needs for finishing grips. Heel protection must be established before any extraction attempt begins, as the reversed configuration creates unusual submission angles that can catch defenders who prioritize escape over safety.
-
-**Q2**: Why must you control the opponent's inside knee throughout the escape, and what happens if you neglect it?
-**A**: The inside knee is the gateway to saddle and honey hole transitions. If you neglect it while clearing the outside leg, the opponent can step their inside leg through to establish saddle position, which is a significantly worse entanglement than ushiro. Maintaining inside knee control with at least one hand prevents this positional advancement and keeps the escape path viable throughout the extraction sequence.
-
-**Q3**: Your opponent begins accelerating their heel hook grip as you start clearing their outside leg—how do you adjust?
-**A**: Immediately pause outside leg clearing and redirect both hands to strip the heel hook grip, breaking it at the thumbs or peeling their fingers. If the grip is too deep to strip safely, abandon the direct extraction and commit to a Granby roll through turtle to clear both legs through rotational momentum. Never continue a slow extraction against an active finishing grip—either neutralize the grip or change the escape path entirely.
-
-**Q4**: What foot position must you maintain on the trapped leg during the entire escape and why?
-**A**: Maintain active dorsiflexion—toes pulled toward the shin with the anterior tibialis contracted—throughout the entire escape. This position pulls the heel closer to the lower leg, closing the space the attacker needs to secure a finishing heel hook grip. Even momentary relaxation of dorsiflexion during extraction creates enough heel exposure for an experienced attacker to catch a submission. This must become an automatic reflex, not a conscious decision.
-
-**Q5**: How do you decide between completing extraction to open guard versus accepting turtle position?
-**A**: Assess the depth of the opponent's inside leg control and their grip proximity to your heel. If inside leg control is shallow and they lack heel grips, complete the full extraction to open guard for superior positioning. If inside leg control is deep with active submission attempts, accept turtle through Granby roll for faster clearance with less heel exposure risk. Spending more than four to five seconds fighting a deep entanglement without progress signals that turtle acceptance is the higher-percentage option.
-
-**Q6**: What role does the free leg play in creating the space necessary for extraction?
-**A**: The free leg serves as the primary distance-creation tool by placing the sole of the foot against the opponent's near hip or inner thigh and driving them away. This pushing frame generates the separation needed to clear the outside leg and extract the trapped limb. The free leg must maintain active contact throughout extraction—removing it eliminates the only force creating space between you and the opponent's entanglement structure.
-
-**Q7**: Your opponent's outside leg re-crosses over your knee after you initially cleared it—what went wrong and how do you prevent this?
-**A**: The re-cross occurs because the pushing frame on their hip was released prematurely or your knee angle allowed them to recapture. Prevent it by maintaining the free leg pushing frame throughout clearing and angling your trapped knee inward toward your own centerline rather than leaving it neutral. The inward knee angle creates a smaller target for re-crossing while the sustained push keeps their legs at maximum distance.
-
-**Q8**: When your escape is blocked and the opponent begins transitioning to saddle, what is the optimal emergency response?
-**A**: Immediately commit to a Granby roll toward turtle rather than fighting the saddle entry. Once the opponent begins stepping through for saddle, you have a narrow window where rotational escape is still possible before they lock the configuration. Trying to reverse the saddle entry by pushing their leg back is lower percentage than using the rotation already built into your inversion to complete the roll through to turtle, where the entanglement geometry breaks down.
-
-**Q9**: How should you manage energy expenditure when the initial extraction attempt stalls?
-**A**: Avoid repeated explosive attempts that deplete energy without progress. Instead, maintain heel protection and inside knee control as a defensive baseline that requires minimal energy. Focus expenditure on grip fighting during the opponent's adjustment phases—these are the highest-value moments for extraction progress. If three to four seconds pass without meaningful clearing progress, transition to turtle or deep half guard rather than continuing to burn energy against a deeply established entanglement.
-
-**Q10**: What is the critical difference between escaping ushiro ashi-garami versus standard ashi-garami positions?
-**A**: In ushiro, your hips are already inverted from a prior escape attempt, which changes the available leverage angles for both defender and attacker. Standard ashi-garami escape relies heavily on hip movement away from the entanglement, but in ushiro your hips face the opposite direction, making continued rotation (Granby roll) more natural than reversing the inversion. The reversed configuration also changes which of the opponent's legs is the primary threat—the inside leg becomes the saddle transition danger rather than just a secondary control point.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ushiro Ashi-Garami Escape?</p>
 
 Ushiro ashi-garami escape involves significant knee and ankle joint risk due to the reversed leg entanglement configuration. The primary injury danger is heel hook submission during extraction attempts—momentary loss of dorsiflexion can expose the heel to finishing grips that attack the knee's rotational ligaments (MCL, LCL, meniscus). Always tap immediately if a heel hook grip is secured and you cannot strip it within one to two seconds. During training, practice at controlled speed with trusted partners who understand the mechanics. Never attempt explosive escapes against training partners applying heel hooks at full resistance. Beginners should drill the sequence without any submission threat until the movement pattern is automatic. The inverted hip position also creates potential neck strain during Granby roll variants—ensure adequate neck conditioning before training rolling escapes.
 

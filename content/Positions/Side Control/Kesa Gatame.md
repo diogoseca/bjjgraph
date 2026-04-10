@@ -183,25 +183,23 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 ### Available Transitions
 
 
-- **[[Transitions/Americana/Attacker|Americana]]** (12% of attempts)
+- **[[Kimura from Kesa Gatame/Attacker|Kimura from Kesa Gatame]]** (10% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (10% of attempts)
+- **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** (9% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (9% of attempts)
-
-- **[[Transitions/North-South Choke/Attacker|North-South Choke]]** (8% of attempts)
+- **[[North-South Choke from Kesa Gatame/Attacker|North-South Choke from Kesa Gatame]]** (8% of attempts)
 
 - **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (14% of attempts)
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (32% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (7% of attempts)
+- **[[Arm Triangle from Kesa Gatame/Attacker|Arm Triangle from Kesa Gatame]]** (7% of attempts)
 
 - **[[Transitions/Kesa Gatame to Modified Scarf Hold/Attacker|Kesa Gatame to Modified Scarf Hold]]** (2% of attempts)
 
 - **[[Transitions/Kesa Gatame to Reverse Kesa-Gatame/Attacker|Kesa Gatame to Reverse Kesa-Gatame]]** (2% of attempts)
 
-- **[[Submissions/Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (2% of attempts)
+- **[[Americana from Kesa Gatame/Attacker|Americana from Kesa Gatame]]** (14% of attempts)
 
 - **[[Submissions/Kesa Gatame Arm Crush/Attacker|Kesa Gatame Arm Crush]]** (2% of attempts)
 

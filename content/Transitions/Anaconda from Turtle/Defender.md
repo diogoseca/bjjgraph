@@ -164,6 +164,8 @@ The critical defensive insight is that the anaconda requires three sequential el
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Anaconda from Turtle?</p>
+
 - Feeling opponent's arm threading under your neck from turtle top with palm-down forearm pressure sliding across your throat toward your near shoulder
 - Opponent controlling your near-side arm with their hand while their other arm begins snaking under your chin, indicating near arm trap setup
 - Sudden increase in chest pressure on your upper back combined with opponent's body shifting to one side, signaling preparation for the rolling motion
@@ -176,6 +178,8 @@ The critical defensive insight is that the anaconda requires three sequential el
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda from Turtle?</p>
 
 - Prevention is vastly easier than escape - deny the arm trap before it develops by keeping elbows locked to knees
 - Address the choking arm with your free hand immediately upon feeling neck pressure, before attempting positional escape
@@ -191,6 +195,8 @@ The critical defensive insight is that the anaconda requires three sequential el
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Anaconda from Turtle?</p>
 
 ### 1. Retract near arm and tuck elbow to knee before trap is secured, denying the essential arm-in configuration
 
@@ -228,6 +234,8 @@ The critical defensive insight is that the anaconda requires three sequential el
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Anaconda from Turtle?</p>
+
 ### → [[Positions/Turtle]]
 
 Prevent the anaconda from developing by retracting your near arm, hand fighting the grip before it locks, or executing an explosive stand-up during the setup phase. The goal is to force the attacker back to neutral turtle top position where they must restart their attack sequence, buying you time to initiate your own turtle escape.
@@ -243,6 +251,8 @@ If caught in the roll, go with the opponent's momentum while aggressively fighti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda from Turtle?</p>
 
 ### 1. Allowing elbows to flare away from knees in turtle, giving opponent easy access to near arm for trapping
 
@@ -277,6 +287,8 @@ If caught in the roll, go with the opponent's momentum while aggressively fighti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Anaconda from Turtle?</p>
+
 **Recognition Drilling (Week 1-2)** - Identifying anaconda setup cues and developing immediate reactions
 Partner slowly executes anaconda setup from turtle while you practice recognizing each stage: arm threading, near arm trap, grip establishment, roll initiation. Develop the reflex to retract near arm and begin hand fighting within one second of feeling arm threading under your neck. Repeat at progressively faster speeds.
 
@@ -293,29 +305,6 @@ Partner attacks anaconda from turtle with full intent. Defend using the complete
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and highest-percentage moment to defend the anaconda from turtle?
-**A**: The earliest and highest-percentage defensive moment is before the near arm is trapped - keeping your elbows locked to your knees in a tight turtle prevents the fundamental arm-in configuration that the entire anaconda depends on. Without the arm trap, the attacker cannot establish anaconda mechanics regardless of how deep they thread their arm. This preventive defense requires zero energy and is far more reliable than any escape after the technique has developed.
-
-**Q2**: Your opponent has locked the figure-four grip but has not yet rolled - what should you do?
-**A**: With the grip locked but no roll initiated, you are in the last viable escape window. Immediately post both hands on the mat and drive explosively to standing, as the attacker's commitment to maintaining the tight grip limits their ability to follow rapid vertical movement. Simultaneously, use your free hand to attack the grip at the elbow joint, pulling their choking elbow away from your neck. If standing fails, begin circling away from their choking arm side to disrupt their rolling angle before they can commit to the roll.
-
-**Q3**: How should you manage your breathing when caught in anaconda control?
-**A**: Take short, controlled breaths through your nose rather than gasping through your mouth. Deep panicked breaths expand your chest and neck musculature, which paradoxically tightens the choking mechanism. Stay as calm as possible and breathe shallowly while working your defensive hand fighting. Relaxing muscles not directly involved in escape reduces oxygen consumption. However, recognize that a properly locked anaconda is a blood choke - breathing management delays but does not prevent unconsciousness if the choke remains locked.
-
-**Q4**: You feel the roll beginning and cannot stop it - what is the best survival strategy?
-**A**: Go with the opponent's rolling momentum rather than resisting it, as resistance against a committed roll only tightens the choke. During the roll, aggressively attack the grip at the elbow joint with your free hand to create any space possible. As you land after the roll, immediately begin scrambling by shrimping your hips away from their chest and working to re-establish turtle or recover half guard. The momentary chaos of the landing is your best escape opportunity because the attacker must re-establish pressure from the new position.
-
-**Q5**: What distinguishes a defensible anaconda attempt from one you should tap to?
-**A**: A defensible attempt has at least one of these features: the grip is not fully locked with elbows together, there is space between the choking arm and your neck that your free hand can exploit, or the roll has not been completed so the finishing angle is not established. You should tap when all three elements are present simultaneously: tight locked grip with no gaps, completed roll with optimal finishing angle, and your free hand cannot create any space at the choking arm's elbow after five to eight seconds of effort. Do not attempt to tough out a fully locked bilateral blood choke.
-
-
-
-</section>
 
 
 </main>

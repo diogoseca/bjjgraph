@@ -20,8 +20,8 @@ description: "Master Williams Guard Bottom in BJJ. Innovative shoulder lock guar
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Williams Shoulder Lock",
-      "text": "From this position, attempt Williams Shoulder Lock. This technique is attempted in 13% of exchanges from this position.",
+      "name": "Execute Williams Shoulder Lock from Williams Guard",
+      "text": "From this position, attempt Williams Shoulder Lock from Williams Guard. This technique is attempted in 13% of exchanges from this position.",
       "position": 1
     },
     {
@@ -165,6 +165,8 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Position Definition
 
+<p class="section-subtitle">What is Williams Guard (Bottom)?</p>
+
 - Bottom practitioner controls opponent's arm in shoulder lock configuration with figure-four grip or similar shoulder manipulation, creating constant submission threat while maintaining positional control through integrated joint lock and guard retention mechanics
 - Bottom practitioner maintains active guard structure with legs positioned to create distance frames that prevent passing attempts, using hip movement and leg engagement to generate sweeping leverage while simultaneously reinforcing shoulder lock control
 - Opponent's controlled arm is isolated and manipulated away from their centerline through shoulder lock mechanics, disrupting their base and limiting their ability to establish pressure or complete guard passes by reducing available posting points
@@ -177,6 +179,8 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Williams Guard (Bottom)?</p>
+
 - Successful grip establishment on opponent's arm with shoulder lock configuration
 - Opponent positioned in standing or combat base within guard range
 - Bottom practitioner has space to establish leg frames and maintain distance
@@ -188,6 +192,8 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Williams Guard?</p>
 
 - Maintain constant shoulder lock pressure to create submission threat and control opponent's movement
 - Use legs actively to create distance and prevent opponent from establishing chest-to-chest pressure
@@ -204,8 +210,10 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Williams Guard (Bottom)?</p>
+
 **If opponent defends shoulder lock by pulling arm back aggressively:**
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Rolling Armbar/Attacker|Rolling Armbar]]** → [[Positions/Armbar Control]] (Probability: 60%)
 - Execute **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** → [[Positions/Mount]] (Probability: 55%)
 
 
@@ -231,6 +239,8 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Williams Guard?</p>
 
 ### 1. Releasing shoulder lock pressure to adjust grips or leg position
 
@@ -270,6 +280,8 @@ Williams Guard Bottom is an innovative open guard position characterized by cont
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Williams Guard defense?</p>
+
 ### Williams Guard Entry Drill
 
 Partner starts in combat base. Practice establishing shoulder lock grip from various open guard positions, focusing on arm isolation and initial control establishment. Work both sides, 2 minutes per side.
@@ -303,38 +315,6 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grips for establishing and maintaining Williams Guard control?
-**A**: Williams Guard requires a figure-four grip configuration on the opponent's arm that creates shoulder lock mechanics. Your bottom arm threads behind their tricep while your top hand grips your own wrist, creating the shoulder isolation. This grip must be reinforced by leg engagement—typically feet on hips or butterfly hooks—to create distance and prevent the opponent from collapsing into you to escape the shoulder manipulation.
-
-**Q2**: Your opponent starts to posture up and pull their arm back forcefully—what adjustment do you make?
-**A**: An aggressive arm pull is your trigger for the armbar finish or omoplata transition. Follow their motion rather than fighting it—as they pull back, use their momentum to rotate into the omoplata by swinging your leg over their shoulder. Alternatively, if their elbow is exposed, transition to armbar control. The key is reading their defensive energy and redirecting it into your attack rather than trying to hold static position.
-
-**Q3**: How do you maintain Williams Guard when opponent drives forward with heavy pressure?
-**A**: Forward pressure is actually advantageous for your attacking options. Use your legs as frames to manage the pressure while maintaining shoulder lock grip. Their forward drive accelerates your omoplata rotation—use their momentum to swing your leg over and take the back, or complete the omoplata sweep. Never try to hold static against forward pressure; instead, channel their energy into transitions that favor your attacking angles.
-
-**Q4**: What hip angle adjustments are critical for maintaining effective shoulder lock pressure?
-**A**: Your hips should angle away from the opponent's free arm while staying connected to the controlled arm side. This creates maximum isolation of the trapped limb while protecting you from their free arm establishing underhook or posting. The angle is dynamic—you continuously adjust based on their movements, using hip mobility to maintain the shoulder lock's mechanical advantage while setting up sweep angles.
-
-**Q5**: How do you generate shoulder lock pressure using full body mechanics rather than arm strength?
-**A**: Shoulder lock pressure comes from engaging your entire posterior chain—core tension, hip engagement, and leg drive—not just grip strength. Your legs create distance frames that pull their arm into the lock. Your hips angle to maximize the shoulder rotation. Your core stabilizes the position. The grip is simply the connection point; the actual force comes from coordinated body structure working as a unit.
-
-**Q6**: When opponent posts their free hand on the mat, what immediate attack becomes available?
-**A**: A mat post with the free hand opens the triangle immediately. Their posted arm creates the space needed for your leg to swing over their shoulder and lock the triangle. It also exposes the posted arm to kimura attack or back take—if they commit to the post, you can release one side of your shoulder lock to attack the posted arm with kimura control, then use that grip to take the back when they react.
-
-**Q7**: What is the primary strategic advantage of Williams Guard over traditional guard positions?
-**A**: Williams Guard creates a mechanical dilemma where every defensive option the opponent chooses opens a specific attacking opportunity. Defending the shoulder lock requires movement that opens sweeps; defending sweeps requires posture that increases submission vulnerability. This integrated attack-defense system forces opponents into reactive mode where their choices are channeled into predictable patterns you can exploit systematically.
-
-**Q8**: How do you recover Williams Guard control after a partial escape where opponent frees their arm slightly?
-**A**: Immediate action is critical—do not let them fully extract. Hip escape to re-angle, use your legs to block their advance, and immediately work to re-isolate the arm by swimming your grip back to figure-four position. If they've created too much space, transition to another guard (butterfly, open guard) rather than fighting for lost position. Partial escapes often expose the back as they turn to extract—read this and transition to back take if available.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -361,9 +341,9 @@ Flow drill connecting Williams shoulder lock to omoplata to triangle to armbar. 
 - **[[Positions/Open Guard]]** - General guard category
 - **[[Positions/Rubber Guard]]** - Similar arm control guard concept
 - **[[Positions/Overhook Guard]]** - Similar arm isolation principle
-- **[[Transitions/Williams Shoulder Lock]]** - Primary submission threat
-- **[[Transitions/Omoplata]]** - Common submission transition
-- **[[Transitions/Triangle Choke]]** - Alternative submission when opponent defends shoulder lock
+- **[[Submissions/Williams Shoulder Lock]]** - Primary submission threat
+- **[[Submissions/Omoplata]]** - Common submission transition
+- **[[Submissions/Triangle Choke]]** - Alternative submission when opponent defends shoulder lock
 - **[[Positions/Back Control]]** - High-value position from transitions
 
 

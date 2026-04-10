@@ -188,6 +188,8 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame to Guard from Kesa Gatame?</p>
+
 - Establish bone-on-bone frames using forearm against opponent's jawline and shoulder before attempting any hip movement
 - Create space incrementally through sustained structural frame pressure rather than explosive arm pushing
 - Time hip escape with opponent's weight shifts or submission attempts that temporarily compromise their pressure
@@ -202,6 +204,8 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame to Guard from Kesa Gatame?</p>
+
 - Far arm positioned to create frame against opponent's face, neck, or shoulder with forearm perpendicular to their jawline
 - Near arm working toward extraction using small elbow pumps or posted against mat to prevent complete flattening
 - Feet planted flat on mat with knees bent to generate hip escape power once frames create sufficient space
@@ -214,6 +218,8 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame to Guard from Kesa Gatame step by step?</p>
 
 1. **Establish Primary Frame**: Position your far forearm across the opponent's jawline and neck, creating a bone-on-bone barrier. Your forearm should be perpendicular to their face with your elbow driving into their shoulder. Use skeletal alignment rather than muscular pushing to resist their chest pressure, keeping your wrist straight and connected to their collarbone area for maximum structural integrity. This frame must be sustainable without significant muscular effort.
 2. **Secure Near Arm Position**: Work your near arm free from the opponent's trap using small elbow pumps that incrementally extract the arm toward your hip. If fully trapped, focus on creating even minimal space between your elbow and their body. If partially free, post your elbow against the mat to prevent being completely flattened. The near arm's positioning determines whether you can generate the hip movement necessary for escape.
@@ -244,6 +250,8 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame to Guard from Kesa Gatame?</p>
+
 - **Opponent collapses frames by driving chest forward with increased pressure and head drive** (Effectiveness: High) - Your Response: Re-establish frames by repositioning forearm higher on their jawline with renewed skeletal alignment. If frames collapse completely, immediately redirect to a bridge-and-roll escape that capitalizes on their committed forward weight distribution. → Leads to [[Positions/Side Control/Kesa Gatame]]
 - **Opponent transitions to mount by stepping over as hip escape creates space between bodies** (Effectiveness: Medium) - Your Response: Anticipate the mount transition by keeping your near-side knee active as a barrier. The instant they begin stepping over, insert your knee shield to recover half guard rather than allowing full mount establishment. Your hip escape creates space they need to step through, so use that same space for your knee. → Leads to [[Positions/Mount]]
 - **Opponent re-pins near arm and tightens head control when framing attempt is detected early** (Effectiveness: High) - Your Response: Switch to attacking their far posting arm with your free hand to compromise their base before re-attempting frames, or redirect to a ghost escape by sliding your hips away from them rather than pushing through their tightened control. Use their commitment to re-pinning as an opportunity for a different escape vector. → Leads to [[Positions/Side Control/Kesa Gatame]]
@@ -254,6 +262,8 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame to Guard from Kesa Gatame?</p>
 
 ### 1. Pushing with arms using muscular effort rather than establishing structural bone-on-bone frames
 
@@ -293,6 +303,8 @@ As the bottom player in Kesa Gatame, your primary objective with the frame to gu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame to Guard from Kesa Gatame (Attacker)?</p>
+
 **Foundation** - Frame mechanics and skeletal alignment
 Practice establishing bone-on-bone frames against a static partner in Kesa Gatame. Focus on forearm positioning against the jawline, wrist alignment, and using body structure rather than arm strength. Hold frames for 30-second intervals to develop endurance and confirm proper positioning. Partner provides feedback on frame effectiveness.
 
@@ -313,42 +325,12 @@ Start from Kesa Gatame bottom in live positional rounds with full resistance. Ap
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for establishing your initial frame against the Kesa Gatame top player?
-**A**: The best timing is when the top player adjusts their position, attempts a submission, or shifts weight to deepen control. Any moment where their pressure temporarily decreases or their attention diverts creates an opening for frame establishment. You can also create your own timing by bridging slightly to force a weight adjustment, then immediately establishing your frame during their recovery. Waiting passively for perfect timing wastes energy and allows them to consolidate further.
-
-**Q2**: What conditions must exist before you can successfully begin the hip escape phase of this technique?
-**A**: Your far arm must have a structural frame established against the opponent's jawline or neck that creates visible space between your torsos. Your near arm should be at least partially free or posted to assist hip movement. Your feet should be planted flat with knees bent to generate hip escape power. Without all three conditions present, hip escape attempts will be ineffective and waste energy that could be used for alternative escape attempts.
-
-**Q3**: Why should your forearm frame target the opponent's jawline rather than their chest?
-**A**: The jawline creates a mechanical advantage where moderate force generates significant displacement because you are pushing against a smaller, more sensitive area with greater lever advantage. Chest frames allow the opponent to drive through with bodyweight since the larger surface area distributes your force across their mass. Additionally, jaw frames create discomfort that motivates the opponent to adjust their position, creating secondary escape opportunities beyond the primary space creation.
-
-**Q4**: What happens when you attempt to push frames using muscular effort rather than skeletal alignment?
-**A**: Muscular pushing exhausts your arms within 20-30 seconds under heavy Kesa Gatame pressure, collapsing your frames and leaving you in a worse energy state than before you started. Skeletal alignment uses bone structure to resist force passively, allowing indefinite frame maintenance without significant energy expenditure. The correction is to align your forearm perpendicular to the force direction with a straight wrist, using body positioning to generate pressure rather than arm muscles.
-
-**Q5**: Your opponent drives forward aggressively when you begin framing - how do you adjust your escape approach?
-**A**: When the opponent drives forward aggressively, their weight shifts toward your head, which actually creates space at your hips. Accept the forward pressure on your frame while simultaneously executing a hip escape in the opposite direction, exploiting the space their forward drive creates at the hip line. If the forward drive overwhelms your frame entirely, redirect to a bridge-and-roll escape that converts their committed forward momentum into a reversal opportunity.
-
-**Q6**: What should your near-side knee do the instant you create enough hip space?
-**A**: Your knee must immediately thread between your body and the opponent's torso to establish a knee shield. The knee points toward their far shoulder with your shin crossing diagonally across their chest and your foot hooking behind their hip. This creates a permanent mechanical barrier that prevents re-establishment of chest pressure. Hesitating even briefly after creating space allows the opponent to close the distance and nullify all your frame work.
-
-**Q7**: If your initial frame escape fails and the opponent maintains position, what is your immediate follow-up option?
-**A**: If frames are collapsed, immediately transition to a bridge-and-roll attempt that capitalizes on the opponent's forward pressure used to defeat your frames. Alternatively, switch to a ghost escape by turning away from them rather than continuing to push. The critical principle is never repeating the same failed frame attempt in succession but chaining into a different escape pattern that exploits specifically how the opponent chose to counter your initial effort.
-
-**Q8**: What grip should you establish immediately upon recovering guard to prevent the opponent from re-passing?
-**A**: In gi, secure a collar grip with your far hand and a sleeve grip with your near hand to control their posture and prevent disengagement for passing. In no-gi, establish a collar tie behind their neck with one hand and wrist control with the other. These grips serve the dual purpose of preventing immediate re-passing attempts and setting up your offensive guard game with sweeps and submissions, transforming the situation from a defensive recovery into an offensive engagement.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame to Guard from Kesa Gatame?</p>
 
 Frame placement against the opponent's face must be controlled to avoid eye gouging or excessive pressure on the throat. Always frame against the jawline and cheekbone area rather than directly against the eyes or trachea. During training, communicate with your partner about frame pressure intensity and adjust based on their feedback. When drilling with newer practitioners, emphasize controlled frame placement to prevent accidental injury to the face and neck area. If you feel your partner's neck being compressed dangerously during frame application, adjust your angle immediately.
 

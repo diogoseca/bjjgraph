@@ -162,6 +162,8 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Elbow Escape from 3-4 Mount?</p>
+
 - Bottom player positions feet flat on the mat close to their hips with knees bent, establishing the bridging platform needed for the escape sequence
 - Near-side elbow drives inward against your mounted knee, attempting to create a wedge frame that will prevent you from driving deeper
 - Bottom player grips your near-side sleeve or wrist, controlling your ability to post your hand for base during their bridge
@@ -174,6 +176,8 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Elbow Escape from 3-4 Mount?</p>
 
 - Maintain constant forward pressure through hips and chest, keeping weight heavy on the bottom player's diaphragm to limit their breathing and hip mobility
 - Drive the mounted knee tight to the bottom player's ribs or armpit as a wedge, eliminating the space needed for elbow frame insertion and hip escape
@@ -188,6 +192,8 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Elbow Escape from 3-4 Mount?</p>
 
 ### 1. Drive mounted knee deeper and drop chest weight forward
 
@@ -225,6 +231,8 @@ As the top player defending against the Elbow Escape from 3-4 Mount, your object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Elbow Escape from 3-4 Mount?</p>
+
 ### → [[Positions/Mount]]
 
 When the bottom player bridges toward the mounted side, flow with their momentum by bringing your posted leg across their body to establish full mount rather than fighting to maintain the 3-4 configuration. Use the bridge energy to transition your weight into symmetric mount with both knees on the mat, immediately establishing grapevines to prevent further escape attempts.
@@ -240,6 +248,8 @@ Shut down the escape at the earliest recognition stage by driving your mounted k
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Elbow Escape from 3-4 Mount?</p>
 
 ### 1. Sitting upright with weight distributed through knees instead of driving forward through hips and chest
 
@@ -269,6 +279,8 @@ Shut down the escape at the earliest recognition stage by driving your mounted k
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Elbow Escape from 3-4 Mount?</p>
+
 **Phase 1: Recognition Drilling** - Identifying escape setup cues from the top position
 Partner performs the elbow escape setup in slow motion while you practice identifying each recognition cue: foot positioning, frame placement, grip establishment, hip angling, and bridge initiation. Call out each cue verbally as you recognize it, developing the pattern recognition needed for real-time defense.
 
@@ -285,29 +297,6 @@ Practice flowing from escape defense into offensive sequences: bottom player's b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is setting up the elbow escape rather than a bridge-and-roll?
-**A**: The most distinctive early cue is the near-side elbow driving inward against your mounted knee as a wedge frame, combined with the bottom player's hips angling toward the posted leg side. A bridge-and-roll setup involves trapping your arm and same-side leg, which requires different hand positioning. The elbow escape setup focuses on creating lateral frames and hip angle rather than limb trapping, and the bottom player's feet will be positioned to drive lateral hip movement rather than upward bridging.
-
-**Q2**: Why should you consider consolidating to full mount rather than fighting to maintain the 3-4 configuration when the escape is progressing?
-**A**: The 3-4 mount's asymmetric weight distribution creates an inherent vulnerability on the posted leg side that the bottom player is specifically targeting. Fighting to maintain an already-compromised 3-4 configuration wastes energy and gives the bottom player repeated opportunities to chain escape attempts. Consolidating to full mount eliminates the asymmetric escape corridor entirely and establishes stronger symmetric control, making it strategically superior to defending a position with a known structural weakness.
-
-**Q3**: The bottom player successfully inserts their knee but has not yet secured half guard hooks. What is your optimal response?
-**A**: Immediately drive your trapped leg backward and outward to extract it from the loose knee position before half guard hooks are established. Simultaneously drive forward with shoulder pressure and crossface to flatten the bottom player and prevent them from turning to their side to secure the entanglement. If extraction fails, immediately transition to half guard top passing mechanics rather than attempting to re-mount, as forcing the mount recovery against an established knee shield wastes energy and often fails.
-
-**Q4**: How should you adjust your weight distribution when you feel the bottom player beginning to shrimp toward the posted leg side?
-**A**: Immediately shift weight toward the posted leg side to cut off the escape angle, driving your mounted knee deeper into the ribs while adjusting your posted leg position closer to the bottom player's hip. This places your weight directly in the path of their escape movement. Alternatively, use the lateral movement as an opportunity to switch your mounted knee to the opposite side, which reverses the 3-4 configuration and forces the bottom player to completely restart their escape sequence facing a new direction.
-
-**Q5**: When is it appropriate to threaten a submission during the escape defense rather than purely maintaining position?
-**A**: Submission threats are appropriate when the bottom player extends an arm during framing, creating an isolation opportunity for an Americana or armbar setup. The submission threat forces the bottom player to abandon their frames to defend, eliminating the structural support they need for the escape. However, submission attempts must be controlled tightly without shifting your weight upward or creating space, as an overcommitted submission attempt that misses creates the exact space the bottom player needs to accelerate their escape.
-
-
-
-</section>
 
 
 </main>

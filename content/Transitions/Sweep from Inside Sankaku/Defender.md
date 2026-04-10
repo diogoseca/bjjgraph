@@ -154,6 +154,8 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Inside Sankaku?</p>
+
 - Bottom player establishes grips on your wrist, forearm, or posting hand while hiding their heel, indicating sweep setup rather than pure defense
 - Bottom player loads their hips by planting their free foot on the mat and tensing glutes, preparing for an explosive bridge
 - Bottom player shifts their upper body to angle toward one side, choosing a sweep direction and aligning their force vector
@@ -166,6 +168,8 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Inside Sankaku?</p>
 
 - Maintain low center of gravity and balanced weight distribution to resist bridge-based sweep mechanics
 - Keep posting hand free and ready to recover base if the bottom player initiates a sweep
@@ -180,6 +184,8 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Inside Sankaku?</p>
 
 ### 1. Drop weight and widen base by posting the far hand firmly on the mat
 
@@ -217,6 +223,8 @@ As the defender against the Sweep from Inside Sankaku, you are the top player ma
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Inside Sankaku?</p>
+
 ### → [[Positions/Inside Sankaku]]
 
 Maintain balanced weight distribution with a low center of gravity, keep your posting hand free, strip the opponent's upper body grips before they coordinate with hip movement, and apply steady submission pressure without over-committing forward.
@@ -232,6 +240,8 @@ When sweep threats become persistent, transition to Saddle by bringing your far 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Inside Sankaku?</p>
 
 ### 1. Leaning excessively forward to reach for the heel hook, shifting center of gravity past the tipping point
 
@@ -261,6 +271,8 @@ When sweep threats become persistent, transition to Saddle by bringing your far 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Inside Sankaku?</p>
+
 **Phase 1: Base Awareness** - Recognizing sweep setups and maintaining base
 Partner signals sweep attempts with specific grips and hip loads. Practice detecting these indicators and responding with base adjustments. Focus on maintaining weight distribution through hips and keeping posting hand available. No live submission hunting yet.
 
@@ -277,26 +289,6 @@ Advanced drilling where the top player uses the bottom player's sweep attempts a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest warning sign that the bottom player is setting up a sweep rather than focusing purely on escape?
-**A**: The earliest warning sign is the bottom player establishing upper body grips on your wrist, forearm, or body while simultaneously hiding their heel. Pure escape attempts focus on leg extraction and hip movement away from you, while sweep setups require upper body connection to eliminate your posting base. The combination of heel hiding plus upper body grip establishment is the distinctive indicator of sweep intent.
-
-**Q2**: How should you adjust your weight distribution when you sense a sweep attempt is coming?
-**A**: Lower your center of gravity by sinking your hips closer to the mat and widening your base by posting your far hand firmly. Avoid leaning forward, as this is exactly the weight distribution the sweep exploits. Shift weight laterally if possible, moving your center of gravity away from the bottom player's intended sweep direction. The goal is to make your base wider than the arc of their bridge can overcome.
-
-**Q3**: When is transitioning to Saddle the correct defensive response to persistent sweep threats?
-**A**: Transition to Saddle when the bottom player has demonstrated strong upper body grip fighting that consistently threatens your base in Inside Sankaku. The Saddle traps both legs and eliminates the single-leg pivot point that makes the Inside Sankaku sweep mechanically viable. This is particularly appropriate when the bottom player has strong bridging power or when repeated grip stripping has been insufficient to stop sweep attempts.
-
-**Q4**: Your opponent briefly releases heel protection to grab your wrist for the sweep - should you attack the heel or defend the sweep?
-**A**: This presents a tactical dilemma. If the heel exposure is clear and you can secure grips quickly, attacking the heel forces them to abandon the sweep and return to defense. However, reaching aggressively for the heel shifts your weight forward, which enables the sweep. The safest approach is to threaten the heel with one hand while maintaining base with the other, forcing the bottom player to release their sweep grip to re-protect the heel without you committing your balance.
-
-
-
-</section>
 
 
 </main>

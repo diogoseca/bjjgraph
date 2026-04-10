@@ -311,11 +311,11 @@
         "attempt_probability": 43
       },
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": 6
       },
       {
-        "transition": "Toe Hold",
+        "transition": "Toe Hold from Inside Ashi-Garami",
         "attempt_probability": 9
       },
       {
@@ -626,7 +626,7 @@
     },
     "transitions": [
       {
-        "transition": "Heel Hook",
+        "transition": "Heel Hook from Inside Ashi-Garami",
         "attempt_probability": 5
       },
       {
@@ -646,8 +646,8 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Toe Hold",
-        "attempt_probability": 6
+        "transition": "Toe Hold from Inside Ashi-Garami",
+        "attempt_probability": 7
       },
       {
         "transition": "50-50 Entry",
@@ -682,11 +682,7 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Inside Heel Hook",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Toe Hold from Top",
+        "transition": "Inside Heel Hook from Inside Ashi-Garami",
         "attempt_probability": 1
       },
       {

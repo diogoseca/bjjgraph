@@ -162,6 +162,8 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting High Guard to Rubber Guard?</p>
+
 - Opponent's hips rising unusually high on your torso with guard climbing above your waist toward your ribcage
 - Opponent attempting to establish an overhook on your near-side arm while maintaining strong collar or head control
 - Opponent's hips angling thirty to forty-five degrees to one side while maintaining high guard position
@@ -174,6 +176,8 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending High Guard to Rubber Guard?</p>
 
 - Prevent posture collapse as the first line of defense - strong posture makes the guard climb mechanically impossible
 - Keep elbows tight to your body to deny the overhook that anchors the entire transition sequence
@@ -188,6 +192,8 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against High Guard to Rubber Guard?</p>
 
 ### 1. Drive hips back while straightening spine and pressing hands into opponent's hips to create a structural posture frame
 
@@ -225,6 +231,8 @@ As the top player caught in your opponent's closed guard, recognizing the High G
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending High Guard to Rubber Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Stand up explosively when you feel the guard climbing high, breaking the ankle lock and creating distance that completely denies rubber guard entry while establishing an advantageous open guard passing position.
@@ -240,6 +248,8 @@ Apply immediate posture recovery with hands on opponent's hips and drive hips ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending High Guard to Rubber Guard?</p>
 
 ### 1. Allowing posture to break completely before recognizing and reacting to the rubber guard attempt
 
@@ -269,6 +279,8 @@ Apply immediate posture recovery with hands on opponent's hips and drive hips ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against High Guard to Rubber Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying transition attempts early
 Partner attempts the High Guard to Rubber Guard transition at half speed while you focus on recognizing the posture break, guard climb, and overhook establishment cues. Develop awareness of the timing windows where defensive intervention is most effective.
 
@@ -285,29 +297,6 @@ Positional sparring starting in closed guard where partner actively attempts the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the High Guard to Rubber Guard transition?
-**A**: The earliest cue is feeling your opponent's hips rising and their guard climbing higher on your torso beyond the normal waist position, combined with a strong collar pull breaking your posture and an overhook attempt on your near arm. These signals indicate rubber guard entry within seconds. Early recognition at the posture break phase provides the best defensive window.
-
-**Q2**: What is the most dangerous moment during this transition where your submission risk is highest?
-**A**: The most dangerous moment occurs when you attempt to pull your trapped arm free after Mission Control is partially or fully established. Pulling the arm out creates the exact arm configuration needed for a triangle choke entry. You should address the leg control first by pushing the opponent's foot off your shoulder before attempting to extract the trapped arm.
-
-**Q3**: What posture recovery technique is most effective against the high guard climb?
-**A**: Place both hands on the opponent's hips or ribcage and drive your hips back while straightening your spine, creating a structural frame that resists their pulling force. Simultaneously work your elbows tight to your body to prevent overhook establishment. Combine hip-back drive with elbow control rather than just muscling your head up, which they can easily counter with grip adjustments.
-
-**Q4**: When should you attempt to stand up as a defense against this transition?
-**A**: Standing is most effective during the early phase when your posture is only partially broken and the guard has not yet climbed above your waist. Once you feel the opponent's hips rising, immediately post one foot and drive up. Standing creates distance that makes the high guard climb mechanically impossible and may break the closed guard entirely for passing.
-
-**Q5**: What is the biggest mistake top players make when defending against Rubber Guard entry?
-**A**: The biggest mistake is waiting too long to react, allowing the opponent to fully establish Mission Control before attempting any escape. Every named position in the Rubber Guard system becomes progressively harder to escape. Defending during the posture break or guard climb phase is exponentially easier than defending once the leg is threaded and the foot is secured across your back.
-
-
-
-</section>
 
 
 </main>

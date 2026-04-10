@@ -154,6 +154,8 @@ Defending the omoplata sweep requires recognizing the attack early and understan
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Omoplata Sweep?</p>
+
 - Opponent breaks your posture and pulls one arm across their centerline with strong sleeve or wrist control, isolating it from your body
 - Opponent opens their guard and begins pivoting their hips perpendicular to your body, creating an angle with their shoulders rotating away from you
 - One of opponent's legs begins swinging high over your shoulder toward your back while the other hooks your hip, creating the omoplata leg framework
@@ -165,6 +167,8 @@ Defending the omoplata sweep requires recognizing the attack early and understan
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Omoplata Sweep?</p>
 
 - Recognize the omoplata setup early through grip and hip movement indicators before the leg swings over
 - Maintain strong upright posture to prevent the initial arm isolation and posture break
@@ -180,6 +184,8 @@ Defending the omoplata sweep requires recognizing the attack early and understan
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Omoplata Sweep?</p>
 
 ### 1. Extract trapped arm before omoplata position is consolidated by pulling elbow tight and circling arm out
 
@@ -217,6 +223,8 @@ Defending the omoplata sweep requires recognizing the attack early and understan
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Omoplata Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Extract your trapped arm early by pulling your elbow tight to your ribs and circling it out before the opponent consolidates the omoplata position. Immediately re-establish posture and strong hand positioning on their hips once freed.
@@ -232,6 +240,8 @@ If the omoplata is fully locked, roll forward over your trapped shoulder to reli
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Omoplata Sweep?</p>
 
 ### 1. Driving weight forward reactively when feeling omoplata shoulder pressure
 
@@ -261,6 +271,8 @@ If the omoplata is fully locked, roll forward over your trapped shoulder to reli
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Omoplata Sweep?</p>
+
 **Phase 1: Recognition and Early Extraction (Weeks 1-3)** - Identifying omoplata setups and practicing arm extraction before position consolidates
 Partner attempts omoplata entries from closed guard at 40% speed. Focus entirely on recognizing the grip fight, hip pivot, and leg swing indicators. Practice pulling your elbow tight and circling your arm out during the early entry phase. Perform 20 repetitions per session, gradually increasing partner's speed as recognition improves.
 
@@ -277,26 +289,6 @@ Positional sparring starting from closed guard where partner actively hunts the 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is driving your weight forward the worst possible response when you feel omoplata shoulder pressure?
-**A**: The omoplata sweep is a reaction-based technique that specifically exploits forward weight commitment. When you drive forward, your center of gravity moves past your base of support, which is exactly the momentum the attacker needs to complete the sweep. Your forward drive combines with their hip rotation and leg leverage to create irresistible rotational force. Instead, you should sit your hips back, widen your base, and work to extract your arm or manage the leg across your back. Denying the forward reaction forces the attacker to choose between a static omoplata submission attempt (which you can address systematically) and an under-powered sweep that you can resist.
-
-**Q2**: What is the highest-percentage defensive window for preventing the omoplata sweep?
-**A**: The highest-percentage window is during the initial grip fight before your arm is pulled across the attacker's centerline and before they open their guard to pivot. At this stage, a strong two-on-one grip break combined with posture recovery completely neutralizes the attack before it develops. Once the arm crosses centerline and the attacker begins their hip pivot, the defense becomes significantly harder. The second window is after the leg swings over but before the attacker sits up and applies shoulder pressure. During this brief window, you can still extract your arm by pulling your elbow tight and circling it out. After the attacker sits up with full pressure, your options narrow to rolling forward or stalling with wide base.
-
-**Q3**: Your arm is trapped and the opponent has the omoplata fully locked. What is your safest escape option?
-**A**: The safest escape from a fully consolidated omoplata is the forward roll over your trapped shoulder. Tuck your chin firmly to protect your neck, keep your free arm posted for controlled rotation, and roll forward in the direction the attacker is applying pressure. This relieves the shoulder lock by removing the angle that creates the submission. As you roll, maintain awareness of your back exposure because experienced attackers will attempt to follow your roll and take back control. The roll should end with you facing the opponent in their guard, where you can immediately begin working to pass. Time the roll when the attacker commits to sitting up, as this makes it harder for them to follow the roll to your back.
-
-**Q4**: How do you prevent the attacker from transitioning to your back if you successfully roll out of the omoplata?
-**A**: As you roll, keep your elbows tight and your chin tucked, and aim to complete the roll facing the opponent rather than turning away. The moment you feel the roll completing, immediately square your shoulders to the attacker and establish grips on their legs or hips to prevent them from climbing onto your back. Experienced attackers will try to maintain their leg hooks and seat belt grip during your roll to convert directly to back control. By completing the roll quickly and immediately establishing a defensive posture facing them, you deny the back take angle. Post your inside arm on the mat to prevent them from rotating behind you.
-
-
-
-</section>
 
 
 </main>

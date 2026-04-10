@@ -158,13 +158,15 @@ The critical defensive window occurs when the top player begins addressing your 
 
 Understanding the escape mechanics from the defender's perspective allows you to anticipate each step and insert your counter at the optimal moment. The top player's extraction follows a predictable sequence: forward pressure, limp leg, triangle break, extraction, pass. Your goal is to disrupt this sequence as early as possible, ideally preventing them from ever reaching the triangle break stage by keeping them reactive to your offensive threats.
 
-**Opponent's Starting Position**: [[Positions/Half Guard/Lockdown]] (Top)
+**Opponent's Starting Position**: [[Positions/Vaporizer]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Lockdown Escape to Half Guard Pass?</p>
 
 - Opponent begins driving heavy forward chest pressure while simultaneously relaxing their trapped leg—the combination of these two actions signals the start of the extraction sequence
 - Opponent's free hand releases upper body control and reaches toward your feet or ankles, indicating they are targeting the foot triangle for separation
@@ -179,6 +181,8 @@ Understanding the escape mechanics from the defender's perspective allows you to
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Lockdown Escape to Half Guard Pass?</p>
+
 - Maintain maximum lockdown tension by keeping ankles tightly crossed and actively pulling their heel toward your hip with flexed feet throughout
 - Fight for and maintain the underhook on the trapped-leg side to prevent crossface establishment and enable sweep attacks
 - Stay proactively offensive rather than passively holding lockdown—attack with sweeps to keep opponent defending instead of extracting
@@ -192,6 +196,8 @@ Understanding the escape mechanics from the defender's perspective allows you to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lockdown Escape to Half Guard Pass?</p>
 
 ### 1. Tighten lockdown and extend hips aggressively while fighting for underhook to load Electric Chair or Old School sweep
 
@@ -229,6 +235,8 @@ Understanding the escape mechanics from the defender's perspective allows you to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lockdown Escape to Half Guard Pass?</p>
+
 ### → [[Positions/Half Guard/Lockdown]]
 
 Maintain tight ankle triangle by actively squeezing knees together and pulling opponent's heel toward your hip. When they begin extraction, immediately attack with Old School sweep or whip-up to force them to defend rather than extract. Fight for the underhook constantly and use hip extension to disrupt their forward pressure. If they break the triangle, immediately re-engage by recapturing their ankle before full clearance.
@@ -244,6 +252,8 @@ When you sense the lockdown is about to be broken—their hand is on your feet, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lockdown Escape to Half Guard Pass?</p>
 
 ### 1. Holding lockdown passively without attacking when opponent begins extraction sequence
 
@@ -278,6 +288,8 @@ When you sense the lockdown is about to be broken—their hand is on your feet, 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lockdown Escape to Half Guard Pass?</p>
+
 **Week 1-2** - Lockdown retention and recognition
 Practice maintaining tight lockdown against progressive extraction attempts. Focus on keeping ankles crossed, feet flexed, and knees squeezed. Develop sensitivity to the tactile cues that indicate extraction is beginning—feeling the trapped leg relax, sensing forward pressure increase, detecting the hand reaching for your feet. No counter-attacks yet, purely retention.
 
@@ -294,29 +306,6 @@ Positional sparring starting in lockdown bottom against partners who have traine
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your primary defensive strategy when you feel the top player beginning the lockdown extraction sequence?
-**A**: Your primary strategy should be proactive offense rather than passive defense. The moment you sense extraction beginning—forward pressure increasing, their leg relaxing, hand reaching for your feet—immediately attack with sweeps or deepen your control. Attack with the whip-up when their hand drops to your feet, or load the Old School when they drive forward. Forcing them to defend your attacks interrupts their extraction sequence.
-
-**Q2**: The top player reaches down to separate your feet—what immediate opportunity does this create?
-**A**: When the top player reaches for your feet, they sacrifice upper body control momentarily. This creates an immediate whip-up sweep opportunity—come up explosively to your elbow and drive into them while their base is compromised by the reaching hand. Their attention split between feet and balance makes this the highest-percentage counter-attack timing available from lockdown bottom.
-
-**Q3**: When should you abandon lockdown retention and transition to Deep Half Guard instead?
-**A**: Transition to Deep Half Guard when your foot triangle has been broken and opponent has begun extracting their heel. Rather than fighting to re-engage a compromised lockdown, proactively dive underneath their hips while they are focused on completing extraction. The transition must happen before their leg fully clears—once they extract completely and begin passing, the Deep Half entry window closes rapidly.
-
-**Q4**: How do you prevent the top player from establishing the forward pressure that enables extraction?
-**A**: Use aggressive hip extension through the lockdown to constantly off-balance the top player backward, preventing them from settling their chest weight onto your torso. Fight for the underhook to create frames and angles that make forward pressure difficult to maintain. When they do establish forward pressure, immediately whip up into them using their own committed weight as momentum for the sweep.
-
-**Q5**: Your lockdown triangle has been broken but opponent's heel hasn't cleared yet—what is the optimal response?
-**A**: This is a critical decision point with two viable options depending on timing. If you can immediately recapture the ankle triangle by squeezing your legs together and re-hooking, attempt re-engagement. If the foot is already past your knee line and re-engagement is unlikely, commit fully to the Deep Half Guard transition by threading underneath their hips and securing the far leg underhook. Hesitating between these options wastes the narrow window for either.
-
-
-
-</section>
 
 
 </main>

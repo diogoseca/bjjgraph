@@ -85,6 +85,22 @@ description: "Defend against the gogoplata to armbar chain attack. Learn recogni
         "@type": "Answer",
         "text": "During gogoplata defense, your focus is on head position, chin tucking, and lateral movement to reduce shin-to-throat pressure while keeping arms tucked. When the transition to armbar begins, your focus must immediately shift to arm protection, maintaining elbow flexion, and generating forward stacking pressure. This mental shift is the primary challenge because the transition happens quickly and defenders who remain in gogoplata defense mode are completely unprepared for armbar mechanics."
       }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the safest body position to adopt immediately when you realize the attacker is transitioning from gogoplata to armbar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Immediately turn your body toward the side of the trapped arm while bending the elbow forcefully and rotating your thumb toward the ceiling. This combined action creates the strongest anatomical defense against arm extension while positioning your body to stack forward into the attacker. Avoid remaining square-shouldered to the attacker as this gives them optimal leverage for the finish. The side-turned position also facilitates the hitchhiker escape if standard armbar defense fails."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "After successfully defending the gogoplata to armbar transition and escaping, what should your immediate tactical priority be?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Your immediate priority is to improve position rather than settling into a neutral guard. If you escaped during the pivot phase, work to pass the attacker's guard immediately while their offensive structure is dismantled and they are recovering from the failed transition. If you ended up in half guard top, establish crossface control and begin passing before they can re-establish rubber guard grips. The attacker is most vulnerable in the moments immediately following a failed chain attack because their guard configuration has been disrupted by their own offensive movement."
+      }
     }
   ]
 }
@@ -154,6 +170,8 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gogoplata to Armbar?</p>
+
 - Attacker grips your wrist or forearm with increased intensity while still maintaining the gogoplata foot position behind your head
 - Attacker releases their foot from behind your head creating a momentary loosening of the choking mechanism and reduction in shin pressure
 - Attacker's hips begin rotating away from the gogoplata angle toward a perpendicular alignment with your shoulder, accompanied by a sensation of their body twisting beneath you
@@ -166,6 +184,8 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gogoplata to Armbar?</p>
 
 - Keep arms tucked tight against your body to deny the wrist control that initiates the armbar transition while still defending the gogoplata with head positioning
 - Recognize the moment the attacker releases their foot from behind your head as the critical transition window where neither submission is fully controlling
@@ -180,6 +200,8 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gogoplata to Armbar?</p>
 
 ### 1. Tuck arm tight against body and deny wrist control before the transition initiates
 
@@ -217,6 +239,8 @@ Defending the gogoplata to armbar transition requires awareness of the chain att
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gogoplata to Armbar?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your posture recovery for the exact moment the attacker releases the gogoplata foot from behind your head. This is the weakest point in the chain where neither the gogoplata nor the armbar is fully controlling your posture. Drive forward explosively with your legs while pulling your head upward and back, clearing the submission chain and establishing top position in half guard where you have legitimate passing options.
@@ -228,6 +252,8 @@ Time your posture recovery for the exact moment the attacker releases the gogopl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gogoplata to Armbar?</p>
 
 ### 1. Extending arms to defend the gogoplata choke without awareness that arm extension is the primary trigger for the armbar transition
 
@@ -257,6 +283,8 @@ Time your posture recovery for the exact moment the attacker releases the gogopl
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gogoplata to Armbar?</p>
+
 **Phase 1: Recognition Training** - Identifying each transition cue in sequence to build automatic threat detection
 Partner establishes gogoplata and performs the transition to armbar at 25% speed. Practice identifying each recognition cue as it occurs: wrist grip tightening, foot release, hip pivot, leg swing. Call out each cue verbally as you feel it to build conscious awareness. Complete 15-20 repetitions until recognition becomes automatic.
 
@@ -273,26 +301,6 @@ After successfully defending the armbar transition, immediately work to improve 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most dangerous moment during the gogoplata to armbar transition from the defender's perspective?
-**A**: The most dangerous moment is immediately after the attacker secures wrist control but before you recognize the transition has begun. At this point, the attacker has established the new control mechanism while you are still mentally focused on defending the gogoplata. Developing recognition of the wrist grip tightening as a transition indicator allows you to shift defensive strategy before the hip pivot begins and the armbar becomes inevitable.
-
-**Q2**: Why is extending your arms a poor defensive strategy against the gogoplata when the attacker knows chain attacks?
-**A**: Extending arms to push away or create distance from the gogoplata directly provides the wrist control target needed for the armbar transition. The attacker is specifically waiting for arm extension as the trigger to initiate the chain. Instead, defend the gogoplata through head positioning, chin tucking, and lateral movement while keeping elbows pinned to your ribs to deny any viable armbar target.
-
-**Q3**: What should you do if the attacker has already swung their leg over your head and has partial armbar control established?
-**A**: Immediately implement standard armbar defense: bend the trapped arm forcefully, rotate your thumb toward the ceiling, grip your own wrist with your free hand to reinforce the bend, and begin stacking forward or executing a hitchhiker escape. The transition creates slightly loosened leg control compared to a standard armbar setup from mount, so your defensive window is narrow but real. Prioritize preventing full arm extension above all other concerns.
-
-**Q4**: How does your defensive focus need to change between the gogoplata phase and the armbar transition phase?
-**A**: During gogoplata defense, your focus is on head position, chin tucking, and lateral movement to reduce shin-to-throat pressure while keeping arms tucked. When the transition to armbar begins, your focus must immediately shift to arm protection, maintaining elbow flexion, and generating forward stacking pressure. This mental shift is the primary challenge because the transition happens quickly and defenders who remain in gogoplata defense mode are completely unprepared for armbar mechanics.
-
-
-
-</section>
 
 
 </main>

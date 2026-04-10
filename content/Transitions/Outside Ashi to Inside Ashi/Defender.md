@@ -154,6 +154,8 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Outside Ashi to Inside Ashi?</p>
+
 - Opponent's free leg begins moving laterally toward your hip or waist, seeking a threading path across your body rather than pushing away
 - Opponent shifts from defensive posturing and heel protection to actively rotating their hips toward your legs with purpose
 - Opponent's hands move from frames on your hips to reaching for your legs or heel, indicating transition from defensive to offensive intent
@@ -166,6 +168,8 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Outside Ashi to Inside Ashi?</p>
 
 - Maintain constant tightness in your leg triangle configuration to eliminate threading lanes for opponent's free leg across your hip
 - Keep offensive submission pressure active to force opponent into purely defensive mindset and prevent counter-entanglement initiation
@@ -180,6 +184,8 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Outside Ashi to Inside Ashi?</p>
 
 ### 1. Tighten leg triangle and squeeze to eliminate all threading space around opponent's trapped leg
 
@@ -217,6 +223,8 @@ As the defender against the Outside Ashi to Inside Ashi transition, you are the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Outside Ashi to Inside Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 Maintain tight leg triangle with constant squeeze pressure, keep offensive submission threats active to force defensive mindset, and shut down threading attempts immediately upon recognition by controlling opponent's hip rotation with grips and preventing their free leg from crossing your hip line.
@@ -232,6 +240,8 @@ If counter-entanglement becomes unavoidable, disengage your ashi garami early du
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Outside Ashi to Inside Ashi?</p>
 
 ### 1. Ignoring early signs of counter-entanglement and maintaining exclusive focus on finishing your own submission
 
@@ -261,6 +271,8 @@ If counter-entanglement becomes unavoidable, disengage your ashi garami early du
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Outside Ashi to Inside Ashi?</p>
+
 **Phase 1: Recognition Training** - Identifying counter-entanglement attempts versus standard escape attempts early
 Partner establishes Outside Ashi-Garami Top and you hold the bottom offensive position. Partner randomly alternates between pure escape attempts and counter-entanglement attempts. You must verbally identify which they are attempting within two seconds of initiation. Focus on developing sensitivity to the difference between defensive movement patterns and offensive counter-entanglement setups.
 
@@ -277,26 +289,6 @@ Positional sparring from Outside Ashi-Garami with full resistance. You start in 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is attempting a counter-entanglement from Outside Ashi-Garami Top?
-**A**: The earliest cues are changes in opponent's free leg activity and hip angle. When they stop trying to extract their trapped leg and instead begin rotating their hips toward your legs while their free leg moves laterally toward your hip, they are initiating a counter-entanglement. Their hands may shift from defensive frames to reaching for your legs. A sudden decrease in escape urgency combined with active hip rotation toward your body is the clearest early warning indicator.
-
-**Q2**: Why is maintaining constant submission pressure the most effective preemptive defense against counter-entanglement attempts?
-**A**: Constant submission pressure forces the opponent to dedicate their attention and physical resources to protecting their heel and defending the immediate submission threat. A practitioner who is actively defending a heel hook cannot simultaneously execute the hip rotation, leg threading, and grip establishment required for counter-entanglement. The combined mental and physical demands of submission defense override the ability to initiate complex offensive transitions against you.
-
-**Q3**: When should you choose to disengage your ashi garami rather than continue fighting the counter-entanglement?
-**A**: Disengage when the opponent has successfully threaded their leg across your hip and is actively establishing heel control on your leg. At this point, fighting to maintain your original ashi garami while their inside ashi is being consolidated creates a race you are likely to lose. Early disengagement to half guard or standing preserves your positional options and prevents you from being trapped in the opponent's offensive leg entanglement. The critical decision point is when their free leg crosses your hip line with apparent control.
-
-**Q4**: How does the tightness of your leg triangle directly relate to your vulnerability to counter-entanglement?
-**A**: Your leg triangle tightness is inversely proportional to your vulnerability. A tight triangle with no gaps between your legs and the opponent's trapped leg eliminates the threading lanes necessary for counter-entanglement. The opponent's free leg literally cannot cross your hip if your legs are clamped firmly around their limb with no space. Every gap in your triangle represents a potential threading path. Maintaining constant squeeze pressure—especially during grip transitions and submission attempts when your focus shifts—is the single most important defensive measure.
-
-
-
-</section>
 
 
 </main>

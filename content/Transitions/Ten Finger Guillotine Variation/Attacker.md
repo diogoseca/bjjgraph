@@ -188,6 +188,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ten Finger Guillotine Variation?</p>
+
 - Maintain constant head control and hip pressure throughout the grip transition to prevent any escape opportunity
 - Interlace fingers deeply past the second knuckle with wrist blade positioned across the trachea before beginning compression
 - Stabilize base with increased sprawl pressure before committing to the grip change to ensure positional security
@@ -202,6 +204,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ten Finger Guillotine Variation?</p>
+
 - Established guillotine control from top position with opponent's head securely trapped below hip level
 - Choking arm positioned deep enough that the forearm blade sits directly across the front of the throat
 - Stable base with hips driving forward and legs sprawled back to prevent opponent movement during grip change
@@ -213,6 +217,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ten Finger Guillotine Variation step by step?</p>
 
 1. **Verify control stability**: Confirm your guillotine control is secure with hip pressure driving the opponent's head down. Your weight should be distributed forward through your chest and hips, preventing any opportunity for the opponent to posture or create space during the upcoming grip change.
 2. **Position choking arm depth**: Adjust your choking arm so the blade of the wrist or forearm sits directly across the front of the opponent's throat, targeting the trachea. Ensure the arm is threaded deep enough that your bicep contacts the side of their neck, creating the proper channel for the ten finger cage.
@@ -231,7 +237,7 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Submissions/Ten Finger Guillotine]] | 55% |
 | Failure | [[Positions/Guillotine Control]] | 30% |
 | Counter | [[Positions/Closed Guard]] | 15% |
 
@@ -241,6 +247,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Ten Finger Guillotine Variation?</p>
 
 - **Opponent postures up explosively during the grip transition window** (Effectiveness: High) - Your Response: Abort the grip change and re-establish your previous grip immediately. If they create significant posture, follow their movement and drive them back down with hip pressure before reattempting. Speed of grip transition is critical to closing this window. → Leads to [[Positions/Closed Guard]]
 - **Opponent hand fights vigorously to prevent finger interlace or separate locked fingers** (Effectiveness: Medium) - Your Response: Complete the interlace as rapidly as possible and tighten against your chest before they can separate your hands. If they successfully prevent the lock, return to your original grip configuration rather than fighting for a compromised interlace. → Leads to [[Positions/Guillotine Control]]
@@ -253,6 +261,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ten Finger Guillotine Variation?</p>
 
 ### 1. Releasing the original grip before stabilizing position with increased hip pressure
 
@@ -287,6 +297,8 @@ The Ten Finger Guillotine Variation from the attacker's perspective requires pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ten Finger Guillotine Variation (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Finger interlace technique and structural compression
 Practice the ten finger interlace in isolation—rapidly interlacing all fingers past the second knuckle from various starting positions. Drill on a heavy bag or grappling dummy to develop the squeezing mechanics and back arch finishing motion without positional concerns.
 
@@ -304,42 +316,12 @@ Positional sparring starting from established guillotine control. Integrate the 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for switching from a standard guillotine grip to the ten finger configuration?
-**A**: The best window occurs when the opponent is momentarily focused on defending the existing choke rather than improving position. Transition during a squeeze attempt that draws their hand-fighting attention upward, or immediately after they exhaust energy on a failed posture attempt. The grip change should be completed in under one second to minimize vulnerability during the transition.
-
-**Q2**: What prerequisites must exist before attempting the ten finger grip switch from guillotine control?
-**A**: You need stable top position with hip pressure preventing opponent movement, your choking arm must be deep enough that the forearm blade sits across the throat, the opponent's posture must be fully broken with head below hip level, and you need sufficient positional control that a momentary grip release will not allow them to posture up or extract their head.
-
-**Q3**: What is the most critical mechanical detail of the ten finger interlace that determines finishing success?
-**A**: The depth of the finger interlace is paramount. Fingers should mesh together past the second knuckle, creating a solid structural cage rather than a superficial fingertip connection. Shallow interlace allows the grip to slip under pressure, while deep interlace creates a lock that actually strengthens under load. The grip should be compact and tight against the throat before any squeezing begins.
-
-**Q4**: What are the most common failure points when attempting this variation?
-**A**: The three primary failure points are releasing the original grip before stabilizing position with hip pressure, allowing the opponent to posture during the grip transition window, and interlacing fingers too shallow so the grip slides apart under resistance. A fourth common failure is neglecting to re-seat the forearm blade against the throat after the grip change, resulting in pressure against the chin or jaw rather than the neck structures.
-
-**Q5**: What specific grip configuration should your fingers form during the ten finger guillotine?
-**A**: Both hands come together on the far side of the opponent's neck with all fingers fully interlaced past the second knuckle, palms facing each other in a prayer-like configuration. The wrists should remain straight to maintain structural integrity, and the locked grip pulls tight against your own chest or sternum to eliminate any gap. Avoid bending wrists outward which reduces compression efficiency and creates openings.
-
-**Q6**: In which direction should the primary finishing force be applied?
-**A**: The primary force vector is a backward pull toward your own sternum combined with an upward arch of your back. This creates a closing mechanism where the forearm blade drives into the throat while the interlaced grip acts as the anchor point. Avoid pulling sideways or lifting away from your body, as this reduces the mechanical advantage and allows space for the opponent to breathe or adjust their defensive position.
-
-**Q7**: Your opponent begins vigorously hand fighting your interlaced fingers during the grip transition—how do you respond?
-**A**: Complete the finger interlace as rapidly as possible and immediately tighten the grip against your chest before they can separate your hands. If they successfully prevent the interlace, abandon the ten finger attempt and re-establish your previous grip configuration. The worst outcome is being stuck without any grip at all. Either commit fully to the new grip or return to your original hold within one to two seconds.
-
-**Q8**: If the ten finger guillotine is defended, what chain attacks should you pursue?
-**A**: From maintained guillotine control, transition to the high elbow variation by driving your choking elbow toward the ceiling, which attacks behind the chin defense. If head-and-arm control remains, switch to anaconda or darce setups by threading your arm deeper around the neck. If all choke variations are defended, use the opponent's defensive focus on their neck to advance position to mount, side control, or north-south while they are preoccupied with hand fighting.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ten Finger Guillotine Variation?</p>
 
 The ten finger guillotine applies intense compression to the trachea and carotid arteries. Training partners must tap immediately when choking pressure is felt on the neck. The interlaced grip creates rapid, powerful compression that can escalate quickly, making controlled application and immediate release upon tap essential. Never apply rotational or lateral force to the cervical spine—pressure should follow a straight compression axis along the throat. Allow adequate recovery time between repetitions during drilling to prevent cumulative neck strain.
 

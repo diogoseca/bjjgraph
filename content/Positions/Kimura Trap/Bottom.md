@@ -171,6 +171,8 @@ Strategically, the position forces top players into impossible choices—they mu
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kimura Trap (Bottom)?</p>
+
 - Practitioner maintains Kimura grip on opponent's arm with figure-four configuration (practitioner's outside hand grips their own wrist after threading under opponent's arm), ensuring deep grip placement near opponent's elbow for maximum control and leverage while preventing grip breaks through constant inward pressure and elbow positioning that protects the lock structure
 - Practitioner's body positioned on bottom with shoulders on or near mat, using hips and legs to create connection with opponent through half guard lockdown, butterfly hooks, or other retention mechanisms that prevent opponent from settling weight and establishing stable top control while maintaining mobility for sweeping and transitional movements
 - Opponent positioned on top or side with trapped arm extended forward or pulled across their body, creating structural weakness in their base as the Kimura grip forces their shoulder into compromised position and limits their ability to distribute weight effectively or establish stable posting positions with their compromised arm
@@ -183,6 +185,8 @@ Strategically, the position forces top players into impossible choices—they mu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Kimura Trap (Bottom)?</p>
+
 - Opponent commits arm forward or across body in half guard, side control, or turtle position, creating opportunity to thread arm under and establish Kimura grip
 - Practitioner able to secure deep Kimura grip with proper hand positioning (own wrist grip) before opponent recognizes threat and withdraws arm
 - Practitioner maintains some form of guard retention or hip mobility to prevent opponent from completely flattening and establishing crushing top pressure
@@ -194,6 +198,8 @@ Strategically, the position forces top players into impossible choices—they mu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Kimura Trap?</p>
 
 - Maintain deep Kimura grip with figure-four configuration positioned as close to opponent's elbow as possible for maximum control and submission threat
 - Use Kimura grip to control opponent's shoulder and disrupt their base by pulling arm across their body or driving it behind their back, forcing weight shifts
@@ -209,6 +215,8 @@ Strategically, the position forces top players into impossible choices—they mu
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Kimura Trap (Bottom)?</p>
 
 **If opponent widens base and posts far leg to defend Kimura submission:**
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Mount]] (Probability: 70%)
@@ -237,6 +245,8 @@ Strategically, the position forces top players into impossible choices—they mu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Kimura Trap?</p>
 
 ### 1. Releasing Kimura grip prematurely when opponent defends or attempts to pull arm free
 
@@ -276,6 +286,8 @@ Strategically, the position forces top players into impossible choices—they mu
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Kimura Trap defense?</p>
+
 ### Kimura Grip Retention Drill
 
 Partner starts in half guard top or side control. Bottom player establishes Kimura grip and maintains it while partner attempts to extract arm using various defense methods (pulling back, posting, base widening). Focus on grip depth, hand positioning, and using hip movement to maintain control even under pressure. Reset when grip is broken or after 60 seconds.
@@ -309,38 +321,6 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hip positioning for maintaining offensive capability from Kimura Trap Bottom?
-**A**: Keep your hips turned toward your opponent with your bottom hip slightly elevated off the mat, creating an angle that enables sweeping mechanics. Your hips should never be flat on the mat, as this eliminates leverage and allows opponent to settle their weight. The lockdown or butterfly hook connection with their trapped leg maintains this angle while preventing them from passing or flattening you.
-
-**Q2**: Your opponent starts driving forward with heavy crossface pressure - what adjustment do you make?
-**A**: Use their forward drive against them by maintaining the Kimura grip and either executing a rolling Kimura (using their momentum to come on top) or transitioning to deep half guard by sliding underneath them. Their forward pressure creates momentum you can redirect. Additionally, use your free arm to frame on their shoulder or jaw to create distance and relieve the crossface pressure before they completely flatten you.
-
-**Q3**: What are the essential grips for maintaining Kimura Trap Bottom position?
-**A**: The primary grip is the figure-four Kimura configuration with your outside hand gripping your own wrist after threading under opponent's tricep. This must be deep near their elbow, not their wrist. Your free hand should either frame on their shoulder/face or establish an underhook on their far side for additional control. Your legs provide the secondary grip through lockdown configuration or butterfly hook on their trapped leg.
-
-**Q4**: How do you shut down the opponent's primary counter from Kimura Trap Bottom?
-**A**: The primary counter is opponent pulling their arm back and extracting it from the grip. Prevent this by keeping constant inward pressure with the grip, positioning your elbows tight to your body, and using your hip angle to maintain the arm extended across their centerline. When you feel them pulling back, immediately increase submission pressure or initiate the Old School Sweep, making their extraction attempt work against them.
-
-**Q5**: What is the correct base structure for generating sweeping power from Kimura Trap Bottom?
-**A**: Establish a tripod base with your posted outside foot flat on the mat, your shoulder blade on the mat, and your head driving into opponent's chest. This creates three stable contact points that allow powerful hip elevation for sweeps. Your lockdown leg controls their trapped leg while your hips bridge up and toward them. The sweeping motion comes from this unified base structure, not from pulling with the arms.
-
-**Q6**: Your opponent successfully widens their base and posts their far hand - how do you still complete the sweep?
-**A**: Their base widening actually creates the setup for Old School Sweep by exposing their far leg for ankle hooking. Hook their far ankle with your outside leg while bridging toward them and pulling the Kimura grip across your body. Their wide base and posted hand cannot prevent this off-balancing angle. Alternatively, use their commitment to base defense to threaten the back take, as their focus on staying upright often exposes their back.
-
-**Q7**: How do you manage energy when working the Kimura Trap Bottom system against a patient opponent?
-**A**: Use efficient grip maintenance by keeping elbows tight and letting the figure-four structure do the work rather than constantly squeezing. Cycle through threat sequences methodically - show the sweep, show the submission, show the back take - forcing them to constantly adjust and expend energy. Rest when opponent isn't actively attacking by maintaining the grip with minimal effort. The bottom player with the Kimura grip can afford patience because the top player's arm is compromised.
-
-**Q8**: Your opponent partially passes but you maintain the Kimura grip - what is your recovery sequence?
-**A**: Keep the Kimura grip as your anchor and immediately recover half guard by shrimping your hips and re-inserting your knee shield or lockdown on their trapped leg. The grip prevents them from consolidating the pass because their arm is compromised. If they continue to advance, use the grip to pull yourself onto your side and threaten the back take as they pass, converting their positional advancement into back exposure.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -364,7 +344,7 @@ Start in Kimura Trap Bottom. Partner cycles through four defensive reactions: (1
 - **[[Positions/Half Guard]]** - Primary entry position - most common starting point for establishing Kimura Trap Bottom
 - **[[Positions/Half Guard/Lockdown]]** - Common leg configuration - often combined with Kimura grip for enhanced control
 - **[[Transitions/Old School Sweep]]** - Primary sweep option - highest percentage sweep from Kimura Trap Bottom position
-- **[[Transitions/Kimura]]** - Primary submission threat - direct finish option from this control position
+- **[[Submissions/Kimura]]** - Primary submission threat - direct finish option from this control position
 - **[[Positions/Back Control]]** - Common transition target - reached when opponent turns into Kimura grip defensively
 - **[[Positions/Side Control]]** - Alternative entry position - can establish Kimura Trap when opponent commits arm
 - **[[Positions/Half Guard/Deep Half Guard]]** - Alternative bottom position - shares focus on creating sweeps from inferior position

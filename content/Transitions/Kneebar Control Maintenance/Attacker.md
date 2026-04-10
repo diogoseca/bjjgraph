@@ -188,6 +188,8 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kneebar Control Maintenance?</p>
+
 - Hip-to-knee proximity is the primary control metric - any gap between your hips and their knee joint signals deteriorating control that must be immediately corrected
 - Grip endurance outweighs grip strength - configure your arms for sustainable holding rather than maximum squeeze to avoid premature fatigue
 - Cycle between brief submission pressure bursts and consolidation phases to force defensive reactions that reveal re-tightening opportunities
@@ -202,6 +204,8 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kneebar Control Maintenance?</p>
+
 - Top position established with opponent's leg isolated and secured across your torso using figure-four or gable grip near the ankle
 - Hips are positioned adjacent to opponent's knee joint with forward driving angle creating submission fulcrum
 - At least one leg is posted wide for base to resist bridging, rotation, and explosive escape attempts
@@ -214,6 +218,8 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kneebar Control Maintenance step by step?</p>
 
 1. **Audit grip integrity**: Check that your figure-four or gable grip has not loosened during the opponent's previous escape attempts. Reposition your hands around the lower calf and Achilles area if any slippage has occurred, ensuring elbows remain pinched together tightly against the leg to create a clamp effect.
 2. **Close hip-to-knee gap**: Drive your hips forward toward the opponent's knee joint, eliminating any space that has developed during their defensive movements. Your hip bone should maintain constant contact with the side of their knee, re-establishing the fulcrum point required for credible submission pressure.
@@ -243,6 +249,8 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kneebar Control Maintenance?</p>
+
 - **Opponent forcefully rotates hips to extract knee from the pressure angle, turning their body perpendicular to your control** (Effectiveness: High) - Your Response: Follow their rotation by adjusting your hip angle to match their movement. If they rotate away, consider transitioning to saddle entry. If they rotate toward you, tighten the near-side leg hook and drive weight forward to suppress the turn. → Leads to [[Positions/Half Guard]]
 - **Opponent explosively bridges while simultaneously pulling their leg toward their body using both hands** (Effectiveness: Medium) - Your Response: Widen your base immediately by posting with your free hand and spreading your knees. Ride the bridge by staying heavy and low rather than fighting it. Once the bridge subsides, immediately re-consolidate grip and hip position before they can chain another escape attempt. → Leads to [[Positions/Kneebar Control]]
 - **Opponent uses their free leg to push against your hip, creating linear distance to slide their trapped knee out of the control zone** (Effectiveness: High) - Your Response: Pin their pushing leg with your base-side arm or trap it under your knee. If distance is created, follow forward with your hips rather than reaching with your arms. If they create too much distance, transition to passing their recovering guard rather than chasing a deteriorating kneebar. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kneebar Control Maintenance?</p>
 
 ### 1. Relying solely on arm grip strength to hold the leg rather than using body weight and torso clamping
 
@@ -293,6 +303,8 @@ As the attacker maintaining kneebar control from top, your objective is to prese
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kneebar Control Maintenance (Attacker)?</p>
+
 **Phase 1: Static Control Mechanics** - Grip configuration, hip placement, and base positioning
 Partner holds still in bottom kneebar position while you practice optimal arm configuration, hip-to-knee proximity, and base width. Hold for 60-second intervals focusing on comfort, breathing, and identifying which muscles bear load. Switch between figure-four and gable grips to find sustainable configurations.
 
@@ -313,42 +325,12 @@ Begin from guard passing or half guard entries, establish kneebar control, maint
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important control metric to monitor during kneebar control maintenance?
-**A**: Hip-to-knee proximity is the most critical metric. Your hips must maintain constant contact with the opponent's knee joint because this connection creates the fulcrum necessary for submission threat. Any gap between your hip and their knee signals deteriorating control that must be immediately corrected before addressing any other element. Without hip proximity, you have a leg grab rather than a submission position.
-
-**Q2**: Your opponent begins rotating their hips forcefully away from your kneebar pressure - what is your immediate response?
-**A**: Follow their rotation by adjusting your hip angle to match their movement direction rather than fighting their rotation head-on. If they rotate away from you, this often exposes saddle entry opportunities - consider threading your legs to transition. If you maintain kneebar focus, shift your body to stay perpendicular to their knee as they turn. Never anchor your position while they rotate freely, as this creates the distance they need to extract.
-
-**Q3**: Why is cycling between submission pressure bursts and consolidation phases more effective than constant pressure?
-**A**: Constant maximum pressure depletes your energy rapidly without producing the finish, because the opponent can adopt a static defensive posture and wait for your grip to fatigue. Cycling creates two advantages: the brief pressure bursts force the opponent to react defensively, which reveals their escape strategy and creates momentary grip-loosening opportunities; the consolidation phases allow you to retighten control and recover grip endurance. Each cycle extracts defensive information while preserving your energy.
-
-**Q4**: What grip configuration provides the best balance between control and endurance for kneebar maintenance?
-**A**: A gable grip with elbows squeezed tight against the leg, positioned around the lower calf and Achilles area, provides optimal endurance. The key is distributing holding force across your chest, lats, and squeezed elbows rather than relying on forearm grip strength. Your arms position and guide the leg while your torso clamps it. This configuration can sustain control for several minutes compared to pure grip-dependent holds that fatigue within 30-60 seconds.
-
-**Q5**: At what point should you abandon kneebar control maintenance and transition to an alternative position?
-**A**: Transition when you observe progressive control deterioration despite active maintenance efforts for approximately 15-20 seconds. Specific indicators include: hip-to-knee gap that you cannot close despite repeated attempts, grip slippage that continues after reconfiguration, or opponent establishing a frame that you cannot collapse. The critical insight is transitioning while you still retain enough positional advantage to choose your exit point - either to alternative leg attacks like ankle locks and toe holds, or to guard passing.
-
-**Q6**: How should you manage the opponent's free leg during kneebar control maintenance?
-**A**: The free leg is the opponent's primary defensive weapon for creating frames and pushing distance. Three management strategies depending on your configuration: pin it under your base-side knee to eliminate its mobility entirely; use your base-side arm to hook or control it when it begins framing; or position your body angle so the free leg cannot reach effective contact points against your hip. Never ignore the free leg during maintenance - account for it in every adjustment cycle.
-
-**Q7**: Your grips are starting to fatigue after thirty seconds of maintenance - what adjustment prevents position loss?
-**A**: Immediately transition from grip-dependent control to weight-based control. Drop your chest heavily onto the trapped leg, letting body weight replace forearm squeeze. Shift to a gable grip if using figure-four, as gable requires less finger strength. Reduce the frequency of pressure bursts to conserve remaining grip endurance. If fatigue is severe, either commit to a final finish attempt within the next 5 seconds or transition to a position that requires less grip - such as passing to side control - before your grip fails completely and the opponent escapes on their terms.
-
-**Q8**: What base configuration best resists an opponent's explosive bridge during kneebar control?
-**A**: A tripod base with your posted foot perpendicular to the opponent's body, positioned wide and slightly behind your center of gravity. When the bridge comes, absorb it by lowering your center of gravity rather than bracing against it rigidly. Your base foot should be flat on the mat with the knee bent at approximately 90 degrees, allowing you to ride the upward force and return to position as the bridge subsides. Avoid crossing your legs or keeping a narrow base, as either configuration collapses under explosive upward force.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kneebar Control Maintenance?</p>
 
 Kneebar attacks target the knee joint through hyperextension, which can cause serious ligament damage including ACL and PCL tears if applied without control. During maintenance drilling, apply position control without finishing extension pressure. When cycling submission pressure bursts, use controlled, gradual force and immediately release if your partner signals discomfort. Both practitioners should have a clear understanding of tap protocols before any leg lock training. Never apply sudden jerking extension during maintenance adjustments. In competition, be prepared to release immediately upon tap, verbal submission, or referee stoppage.
 

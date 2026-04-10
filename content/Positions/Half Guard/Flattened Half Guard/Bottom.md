@@ -173,6 +173,8 @@ Understanding the position's risks is equally important. The primary danger is n
 
 ## Position Definition
 
+<p class="section-subtitle">What is Flattened Half Guard (Bottom)?</p>
+
 - Bottom player's back remains flat against the mat with chest-to-chest contact established, eliminating the space required for hip mobility and offensive frame construction while the top player's weight settles onto the sternum and ribcage
 - One leg remains hooked around the top player's leg in half guard configuration, providing the final defensive barrier preventing the transition to side control, though the hook's effectiveness is severely compromised by the lack of upper body frames and hip mobility
 - The bottom player's shoulder blades contact the mat continuously while the top player drives forward pressure through their chest and hips, creating sustained compression on the bottom player's torso that restricts respiratory function and limits explosive movement capacity
@@ -184,6 +186,8 @@ Understanding the position's risks is equally important. The primary danger is n
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Flattened Half Guard (Bottom)?</p>
+
 - Understanding of fundamental hip escape mechanics and the ability to create small amounts of space through incremental shrimping movements
 - Developed respiratory control to maintain calm breathing patterns while under sustained chest pressure that restricts diaphragm expansion
 - Frame fighting experience to recognize and fight for underhook control while managing crossface pressure from disadvantaged positions
@@ -194,6 +198,8 @@ Understanding the position's risks is equally important. The primary danger is n
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Flattened Half Guard?</p>
 
 - Accept temporary discomfort to maintain positional structure - panic leads to defensive errors
 - Create space away from opponent (toward trapped leg side) to avoid back exposure during recovery
@@ -207,6 +213,8 @@ Understanding the position's risks is equally important. The primary danger is n
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Flattened Half Guard (Bottom)?</p>
 
 **If opponent has crossface but you maintain underhook on far side:**
 - Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard/Knee Shield Half Guard]] (Probability: 45%)
@@ -230,6 +238,8 @@ Understanding the position's risks is equally important. The primary danger is n
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Flattened Half Guard?</p>
 
 ### 1. Attempting explosive bridge and roll escapes while completely flattened with no frames established
 
@@ -264,6 +274,8 @@ Understanding the position's risks is equally important. The primary danger is n
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Flattened Half Guard defense?</p>
+
 ### Pressure Breathing Drill
 
 Partner applies moderate chest pressure while you practice maintaining calm breathing patterns and performing small hip movements. Focus on breathing control rather than escape. Build tolerance to sustained pressure.
@@ -271,7 +283,7 @@ Partner applies moderate chest pressure while you practice maintaining calm brea
 **Duration**: 3 minutes
 
 
-### Incremental Space Creation
+### Incremental Distance Control
 
 Start flattened with partner applying 50% pressure. Create space through tiny hip escapes, immediately filling space with elbow or knee. Count repetitions needed to recover knee shield. Gradually increase partner's pressure resistance.
 
@@ -289,38 +301,6 @@ Begin flattened with partner controlling crossface. Fight to establish underhook
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct breathing technique when pinned flat under heavy chest pressure?
-**A**: Practice tactical breathing by taking small, controlled breaths timed with your movements rather than attempting full deep breaths. The opponent's weight prevents full diaphragm expansion, so trying to breathe deeply creates oxygen debt and triggers panic. Small breaths coordinated with hip escapes allow you to maintain oxygenation while conserving energy.
-
-**Q2**: Your opponent has crossface control - should you fight to remove it or focus elsewhere?
-**A**: Accept the crossface while fighting to maintain your own underhook on their far side. Attempting to remove crossface directly wastes energy and often fails. The underhook is the higher priority because it prevents them from settling full weight and provides the structural foundation for hip escapes. Fight for the underhook, accept the crossface.
-
-**Q3**: Why are explosive bridge and roll escapes ineffective from flattened half guard?
-**A**: Without frames established, explosive movements have no leverage to generate power against the opponent's weight. These movements burn massive energy while telegraphing your intentions, allowing skilled top players to simply ride your motion and resettle. Incremental micro-adjustments are more effective because each small gain stacks and cannot be countered as easily.
-
-**Q4**: Your opponent shifts weight to initiate a knee slice pass - what is the optimal escape timing?
-**A**: The moment they shift weight to pass creates a brief reduction in chest pressure. Use this instant to execute your hip escape, diving under their hips toward deep half guard position. Their commitment to the passing motion means they cannot immediately recover pressure, and your counter-movement takes advantage of their weight transfer.
-
-**Q5**: What direction should you shrimp to avoid exposing your back during escape attempts?
-**A**: Shrimp toward your trapped leg side, creating space away from your opponent while keeping your chest facing them. Shrimping toward the free leg side or turning away exposes your back, which skilled opponents anticipate and exploit with back takes. The trapped leg side direction maintains defensive orientation while still creating recovery space.
-
-**Q6**: How do you fill the space created by a hip escape to prevent the opponent from following?
-**A**: Immediately insert your elbow, knee, or a frame into the space created by each hip escape. The elbow slides into the gap between you and your opponent, the knee comes up to create knee shield, or your forearm posts on their hip. Never leave created space empty - fill it with structure before the opponent can collapse it again.
-
-**Q7**: Why is the trapped leg hook critical even when flattened with no frames?
-**A**: The leg hook is your final barrier preventing the complete guard pass to side control. Even with compromised frames and limited mobility, the hook forces the top player to solve the leg extraction problem before advancing. Releasing it prematurely surrenders this last defensive barrier and allows immediate pass completion.
-
-**Q8**: What mental approach prevents panic when breathing is restricted under pressure?
-**A**: Develop the ability to remain calm and methodical by accepting temporary discomfort as part of the position. Panic triggers frantic movements that waste energy and tighten opponent's control. Focus on technical execution - systematic micro-adjustments rather than desperate escapes. Mental discipline to maintain the process even when uncomfortable separates successful defenders from those who get passed.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

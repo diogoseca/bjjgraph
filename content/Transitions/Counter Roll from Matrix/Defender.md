@@ -154,6 +154,8 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter Roll from Matrix?</p>
+
 - Bottom player's leg trajectory changes direction during the Matrix roll, redirecting from a back-seeking arc to a downward path targeting your near leg
 - Rolling momentum shifts from circumnavigating your body to undercutting your base, with the bottom player's hips changing rotational arc mid-movement
 - Bottom player's hands or grips transition from seeking your back or belt to grabbing at your near leg, thigh, or pants for the half guard capture
@@ -165,6 +167,8 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter Roll from Matrix?</p>
 
 - Recognize the redirect early—the moment the bottom player's legs change trajectory from back-seeking to leg-targeting, the counter roll has begun and must be addressed immediately
 - Maintain active base and weight distribution to prevent leg capture rather than relaxing after successfully defending the initial Matrix rotation
@@ -179,6 +183,8 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter Roll from Matrix?</p>
 
 ### 1. Sprawl and drive weight down on the redirecting opponent to flatten the rolling attempt
 
@@ -216,6 +222,8 @@ The Counter Roll from Matrix defender is the top player who has successfully blo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter Roll from Matrix?</p>
+
 ### → [[Positions/Side Control]]
 
 Capitalize on the transitional vulnerability during the counter roll redirect by hip switching past the capturing legs and immediately establishing crossface and underhook control to consolidate side control before the bottom player can recover any guard structure
@@ -231,6 +239,8 @@ Drive sprawl pressure down on the opponent as they redirect their rotation, flat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter Roll from Matrix?</p>
 
 ### 1. Relaxing defensive intensity after successfully blocking the initial Matrix rotation
 
@@ -260,6 +270,8 @@ Drive sprawl pressure down on the opponent as they redirect their rotation, flat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter Roll from Matrix?</p>
+
 **Counter Roll Recognition** - Identifying redirect indicators in real-time
 Partner alternates between accepting defended Matrix in turtle and redirecting to counter roll without telling you which they will choose. Top player identifies which response is occurring and calls out the redirect when detected. Focus on developing rapid pattern recognition for the leg trajectory change and timing your awareness.
 
@@ -276,26 +288,6 @@ Start with bottom player in Matrix position at full intensity. Top player defend
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What distinguishes a counter roll attempt from a completely failed Matrix where the bottom player simply accepts turtle position?
-**A**: A counter roll is identified by the bottom player's legs actively changing trajectory from a back-seeking arc to a downward path targeting your legs, combined with maintained or redirected momentum. A fully failed Matrix shows the bottom player's momentum dying completely with no redirectional movement, and they settle into turtle with flat hips and retracted legs. The counter roll maintains continuous motion and active leg pursuit while the failed Matrix shows a clear stop in all movement.
-
-**Q2**: Why is relaxing after defending the initial Matrix rotation a critical error for the top player?
-**A**: Relaxing creates a window where the bottom player can redirect to the counter roll without opposition. Skilled practitioners expect their Matrix to be defended and immediately flow into the counter roll as part of their planned attack sequence, not as an improvised reaction. The top player who relaxes is essentially giving the bottom player a free half guard recovery that completely negates the defensive success of blocking the original Matrix attempt.
-
-**Q3**: Your opponent's legs are beginning to wrap around your thigh mid-counter roll—what is your immediate response?
-**A**: Immediately backstep the targeted leg away from the wrapping attempt while driving crossface pressure with your upper body to prevent the bottom player from following your leg. If the legs have partially engaged, hip switch explosively to extract your leg before the entanglement tightens and locks around your thigh. Time is critical—once both of the opponent's legs close around your thigh with full clamping pressure, extraction becomes significantly more difficult and you are committed to a half guard passing situation.
-
-**Q4**: How should you adjust your positioning when facing an opponent known for counter roll proficiency from the Matrix?
-**A**: Maintain a wider base with legs positioned further from the opponent's reach throughout the entire Matrix defense exchange. Position your near leg slightly further back than standard positioning to increase the distance the opponent's legs must travel during their redirect. Keep constant mobility in your legs rather than planting them statically, and immediately transition to offensive passing after blocking the Matrix to deny the timing window needed for the counter roll setup and execution.
-
-
-
-</section>
 
 
 </main>

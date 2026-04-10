@@ -192,6 +192,8 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Arm Drag Sweep?</p>
+
 - Control the opponent's arm and redirect their momentum rather than opposing it directly
 - Create angular displacement by moving your hips away from the controlled arm
 - Break opponent's base by removing their posting arm while simultaneously off-balancing
@@ -207,6 +209,8 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Arm Drag Sweep?</p>
+
 - Established guard position with opponent engaged (closed, butterfly, seated, or open guard)
 - Control of opponent's wrist or sleeve on one side with same-side grip
 - Opponent's posture broken forward or neutral (not fully upright and defensive)
@@ -221,6 +225,8 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Arm Drag Sweep step by step?</p>
 
 1. **Establish primary control**: From guard position, secure a firm grip on your opponent's wrist or sleeve with your same-side hand (right hand controls their right wrist). This grip should be strong enough to redirect the arm but not telegraph your intentions. Simultaneously, break their posture slightly forward by pulling with your guard or using your legs to close distance. Your opponent should feel engaged but not threatened at this stage.
 2. **Secure secondary control**: With your opposite hand (left hand), reach over or around their controlled arm to grip their tricep, lat muscle, or back of their shoulder. In gi, this can be a deep collar grip or lat grip. In no-gi, grip the tricep or wrap around the back. This second grip is critical for preventing them from posting with this arm and for generating the dragging force. The combination of wrist/sleeve control and upper arm control creates a strong mechanical advantage.
@@ -251,6 +257,8 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Arm Drag Sweep?</p>
+
 - **Opponent posts with free arm to prevent sweep completion** (Effectiveness: High) - Your Response: Immediately abandon the sweep and transition to back control by taking the path of least resistance. Their post creates space on the back-exposed side. Swim your inside arm around their waist, establish first hook, and work to back mount. Alternatively, attack the posted arm with a kimura or use it as a post to elevate yourself over their back. → Leads to [[Positions/Back Control]]
 - **Opponent circles their hips back toward you to face and recover guard** (Effectiveness: Medium) - Your Response: Prevent the hip circle by blocking their far leg with your outside leg or by driving your head and shoulder into their near hip. Maintain constant pressure on the dragged arm to prevent them from pulling it back. If they do manage to circle, immediately re-establish guard and prepare to repeat the arm drag or switch to alternative attacks like triangle or omoplata. → Leads to [[Positions/Closed Guard]]
 - **Opponent yanks their arm free before sweep completes** (Effectiveness: Medium) - Your Response: If they pull their arm free, they typically create space and expose other opportunities. Immediately transition to alternative attacks: if they pull back aggressively, shoot for deep half guard entry. If they pull up, attack with triangle or omoplata since their arm is elevated and exposed. Use their pulling motion to help you come up to combat base or transition to a different sweep. → Leads to [[Positions/Closed Guard]]
@@ -262,6 +270,8 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Arm Drag Sweep?</p>
 
 ### 1. Pulling the arm across the chest instead of deep to the opponent's opposite hip
 
@@ -301,10 +311,12 @@ What makes the arm drag sweep particularly powerful in modern BJJ is its adaptab
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Arm Drag Sweep (Attacker)?</p>
+
 **Week 1-2: Fundamental Movement Pattern** - Establish proper arm drag mechanics and hip angle creation
 Partner stands on knees while you sit in guard. Practice arm drag motion without resistance, focusing on grip placement (wrist and tricep/lat), pulling depth (hand to opposite hip), and hip angle creation (45-degree escape). Perform 20-30 repetitions per side per session. Partner should allow the drag but maintain posting position. Emphasis is on smooth, coordinated movement of hips and arms together.
 
-**Week 3-4: Adding Sweep Mechanics** - Integrate leg action with arm drag motion
+**Week 3-4: Adding Kuzushi** - Integrate leg action with arm drag motion
 Same setup, but now add the sweeping component. Practice from closed guard (scissor sweep motion), butterfly guard (hook elevation), and seated guard (leg blocking). Partner provides 25% resistance by maintaining base but not actively defending. Focus on timing: arms drag, hips angle, legs sweep—all in one fluid motion. Drill 15-20 complete repetitions per side, alternating guard positions.
 
 **Week 5-8: Decision Making and Completion** - Recognize sweep vs. back take opportunities and complete to dominant position
@@ -321,48 +333,12 @@ Live positional sparring from guard where you attempt arm drag sweep and partner
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is creating a 45-degree hip angle essential to the arm drag sweep's effectiveness?
-**A**: The 45-degree hip angle serves multiple critical functions: it removes you from directly in front of your opponent, eliminating their ability to use their free arm and legs to post directly forward; it begins to expose their back, creating dual-threat opportunities between sweep and back take; it allows you to generate rotational force that adds to the off-balancing effect of the arm drag itself; and it creates a mechanical advantage where your entire body works together rather than just your arms pulling. Without this angle, you are fighting directly against their strongest defensive structure.
-
-**Q2**: What is the primary indicator that you should transition to back control instead of completing the sweep?
-**A**: The primary indicator is when your opponent posts with their free arm to prevent the sweep. This posting action, while defensive against the sweep, creates space on their back-exposed side and signals that they are committed to preventing the sweep rather than defending their back. When you see the post, immediately abandon the sweep and swim your inside arm around their waist to establish the first hook for back control. Secondary indicators include their hips turning away, upper body rotating to expose the back, or weight shifting heavily onto the posted arm.
-
-**Q3**: Your opponent maintains a strong upright posture with both hands controlling your hips from inside closed guard. How do you create the conditions for the arm drag sweep?
-**A**: When opponent has strong posture with hands on your hips, you must first break that structure before the arm drag becomes viable. Use your legs to pull them forward with heel pressure into their lower back while simultaneously pulling one arm off your hip using a two-on-one grip break. Once one hand is freed, immediately secure wrist control and begin threatening the hip bump sweep, which forces them to post a hand forward. That posting hand becomes your arm drag target. The key is creating a preceding threat that generates the forward weight commitment the arm drag requires.
-
-**Q4**: What specific grip configuration gives you maximum control during the arm drag, and why does each hand serve a different function?
-**A**: The same-side hand (right hand on their right wrist) controls direction and prevents the arm from returning to a posting position. It pulls laterally across their centerline. The opposite hand (left hand on their tricep, lat, or shoulder) provides the pushing force that drives the arm deep past their hip and prevents them from pulling the elbow back. These two grips create a push-pull mechanism: the wrist hand redirects while the upper arm hand generates depth. Without the secondary grip, the opponent can simply retract their elbow and recover. Without the primary grip, you cannot control the direction of the drag.
-
-**Q5**: How deep should you pull the arm during the drag, and why does this depth matter?
-**A**: You should pull the arm deep enough that their hand reaches or passes their opposite hip, as if placing their hand in their opposite pocket. This depth is critical because it maximizes the rotational force on their upper body, prevents them from simply pulling the arm back to recover, removes their ability to post with that arm at any useful angle, and creates maximum structural compromise to their base. Shallow arm drags that only pull across the chest are easily defended because the opponent can circle their elbow back and recover the posting position.
-
-**Q6**: What role do your legs play in the arm drag sweep, and how does this differ from a pure arm drag to back take?
-**A**: In the arm drag sweep, your legs provide the primary sweeping force (60-70% of total power), working in coordination with the arm drag. Depending on guard type: closed guard legs scissor, butterfly hooks elevate, seated guard legs block and sweep. This active leg engagement is what differentiates a sweep from a back take. In a pure arm drag to back take, the legs primarily maintain guard structure and help you come up, but they do not generate sweeping force. The sweep requires greater hip and leg activation to actually off-balance and topple the opponent, while the back take focuses more on climbing and establishing position behind them.
-
-**Q7**: Your opponent pulls their arm free mid-execution and immediately postures up aggressively. What chain attacks become available?
-**A**: When the opponent pulls free and postures up, their arm elevation and backward weight shift expose several immediate opportunities. Their raised arm creates a natural triangle entry angle if you can control the opposite sleeve and shoot your hips up. Their aggressive backward posture makes the hip bump sweep available because they have committed weight rearward. If they pull laterally, switch to attacking their opposite arm with a kimura or opposite-side arm drag. The key principle is that their defensive escape from one attack necessarily opens other vulnerabilities, and you should flow to those opportunities rather than forcing the original technique.
-
-**Q8**: Why is simultaneous timing of hip movement and arm drag critical to the technique's success?
-**A**: Simultaneous timing is critical because the two movements work synergistically to create maximum off-balancing effect. If you drag the arm first, the opponent feels the threat and can prepare their base or pull the arm back before you create the angle. If you move your hips first without dragging the arm, the opponent can simply post with the arm you are trying to drag and maintain their base. When performed simultaneously, the opponent must deal with two structural challenges at once: their arm being removed from posting and their balance being compromised by your angular movement. This compounding effect is much more difficult to defend than either movement in isolation.
-
-**Q9**: Your opponent recognizes the arm drag setup and immediately stiffens their arm and widens their base. How do you adjust?
-**A**: A stiff arm with wide base creates a static, energy-expensive defensive posture that can be exploited through timing and misdirection. First, use the resistance against them by switching threats: fake the arm drag and use their defensive commitment to attack the opposite side with a hip bump sweep or collar drag. Alternatively, use a push-pull sequence where you push their arm first to elicit a pulling reaction, then ride that pulling energy into the arm drag. You can also attack their stiff arm directly with a two-on-one wrist snap that breaks the rigid structure, or simply wait for them to relax their defensive tension and strike when they reset.
-
-**Q10**: In what specific moment during the guard opening sequence is the arm drag sweep most effective, and why?
-**A**: The arm drag sweep is most effective when the opponent commits one or both hands to initiating a guard opening sequence, such as placing a hand on your hip or reaching for your knee to begin a standing break. At this moment, their arms are occupied with passing objectives rather than posting for base defense, and their mental focus is on offense rather than sweep defense. Their hand placement on your body also brings their arm within ideal dragging range. Additionally, the slight forward weight shift many passers adopt when beginning to open guard provides the momentum you need to amplify the off-balancing effect of the drag.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Arm Drag Sweep?</p>
 
 The arm drag sweep is generally a safe technique with low injury risk when practiced properly. However, practitioners should be aware of the following safety considerations: (1) When drilling, avoid yanking the arm violently, especially with training partners who have shoulder or elbow issues; apply smooth, controlled force even when going fast. (2) As the person being swept, avoid posting with a straight arm to catch your fall, as this can cause wrist, elbow, or shoulder injuries; instead, break-fall properly by slapping the mat with your forearm. (3) Be cautious of knee and ankle stress when performing leg sweeping actions, particularly in butterfly guard where explosive hook elevation can strain the knee if performed with poor mechanics. (4) When transitioning to back control, avoid slamming your weight onto your partner's spine; maintain control and establish position gradually. (5) Both partners should communicate about pace and resistance during drilling, especially when practicing defensive counters at higher resistance levels. (6) Ensure adequate mat space as the technique can create rotational momentum that causes both practitioners to move laterally across the mat.
 

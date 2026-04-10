@@ -158,6 +158,8 @@ The most effective defense begins before the pass is initiated. By maintaining a
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pressure Pass through Center?</p>
+
 - Passer drops their level noticeably, lowering hips and chest while loading weight onto their toes in preparation for the forward drive
 - Passer's hands shift from controlling distance to gripping your legs or hips, attempting to pin your legs against your body before the drive
 - Passer's forward pressure increases sharply rather than maintaining the patient circling and base adjustments typical of standard grasshopper guard engagement
@@ -168,6 +170,8 @@ The most effective defense begins before the pass is initiated. By maintaining a
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pressure Pass through Center?</p>
 
 - Maintain active hip elevation and cycle leg configurations to deny the passer any timing window for initiating the forward drive
 - Recognize the pass initiation within the first half-second by reading the passer's level change and forward weight shift, then respond immediately
@@ -181,6 +185,8 @@ The most effective defense begins before the pass is initiated. By maintaining a
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pressure Pass through Center?</p>
 
 ### 1. Granby roll to guard recovery - execute a shoulder roll in the direction of the passer's drive, using their forward momentum to carry you through to a guard recovery position with legs between you and the passer
 
@@ -211,6 +217,8 @@ The most effective defense begins before the pass is initiated. By maintaining a
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pressure Pass through Center?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Maintain active hip elevation by constantly cycling leg configurations and never committing both legs to a single entanglement. When the passer begins their level change, immediately re-invert by shooting fresh hooks behind their knees before they can control your legs. This resets the position and forces them to address your new leg placement, buying time for your hips to recover elevation.
@@ -226,6 +234,8 @@ Execute a Granby roll the instant you recognize the forward drive initiating. Ro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pressure Pass through Center?</p>
 
 ### 1. Trying to absorb the forward pressure by tensing your core and holding the inverted position statically
 
@@ -255,6 +265,8 @@ Execute a Granby roll the instant you recognize the forward drive initiating. Ro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pressure Pass through Center?</p>
+
 **Week 1-2** - Recognition and Granby roll mechanics
 Partner announces then initiates slow forward drives from grasshopper guard top. Practice identifying the level change cue and executing Granby rolls to closed guard recovery. Focus on timing the roll to use the passer's momentum rather than fighting against it. Reset and repeat 15-20 times per round.
 
@@ -271,29 +283,6 @@ Apply defensive skills in live rolling against partners who use pressure passing
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first recognition cue that a pressure pass through center is being initiated?
-**A**: The first cue is the passer dropping their level by lowering their hips and chest while shifting weight onto their toes. This level change is distinctly different from the patient standing base and circling used during normal grasshopper guard engagement. The passer's hands will also shift from distance management to attempting to control or pin your legs, confirming the pass initiation.
-
-**Q2**: Why is absorbing forward pressure by tensing your core an ineffective defensive strategy?
-**A**: Your core muscles cannot sustain the load of another person's bodyweight driving forward while you are in an inverted position. The inverted posture already places high demand on your core, and adding the passer's full bodyweight causes rapid muscular fatigue and structural collapse. Redirection through movement is biomechanically superior because it channels the force rather than opposing it directly, preserving your energy for guard recovery.
-
-**Q3**: Your opponent has begun their forward drive and your legs are being pinned - what is your best remaining defensive option?
-**A**: Execute a Granby roll immediately in the direction of their drive. Use their forward momentum to assist your shoulder roll rather than fighting against it. As you roll through, your legs will naturally retract from their pin, and you can immediately wrap them around the passer's waist for closed guard upon completing the rotation. If the Granby roll window has also passed, transition to framing against their shoulders and hip escaping laterally to recover half guard.
-
-**Q4**: How should you manage your leg configuration to prevent giving the passer a timing window?
-**A**: Never commit both legs to a single entanglement or attack simultaneously. Always maintain one leg as a free defensive anchor that can insert a fresh hook, create a new angle, or block the passer's forward path. Alternate which leg threatens attacks while the other maintains the inverted structure. This constant cycling forces the passer to address multiple leg positions and prevents the bilateral commitment that creates their timing window.
-
-**Q5**: What training approach best develops the reflexive speed needed to defend this pass in live rolling?
-**A**: Progressive resistance drilling where a partner initiates the pressure pass at increasing speeds and commitment levels. Begin with the partner signaling their drive, allowing you to practice recognition and Granby roll timing. Progress to unannounced drives at half speed, then three-quarter speed, and finally full-speed live attempts. The goal is to develop an automatic defensive response to the level-change cue that does not require conscious decision-making, as the pass develops too quickly for deliberate analysis.
-
-
-
-</section>
 
 
 </main>

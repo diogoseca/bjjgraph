@@ -209,7 +209,7 @@ Frame and Escape Mounted Triangle sits within the broader mounted triangle defen
 
 - [[Transitions/Bridge Defense from Mounted Triangle]] - Complementary escape technique using explosive bridging rather than systematic framing
 
-- [[Submissions/Mounted Triangle Finish]] - Submission threat being escaped, understanding finish mechanics informs defensive priorities
+- [[Submissions/Triangle Choke]] - Submission threat being escaped, understanding finish mechanics informs defensive priorities
 
 - [[Positions/Mount]] - Parent position category from which mounted triangle develops
 

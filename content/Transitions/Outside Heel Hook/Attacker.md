@@ -16,7 +16,7 @@ description: "How to execute the Outside Heel Hook in BJJ. Attacking perspective
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Outside Heel Hook in BJJ",
-  "description": "Step-by-step guide for executing Outside Heel Hook from Backside 50-50/Bottom.",
+  "description": "Step-by-step guide for executing Outside Heel Hook from Backside 50-50/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -178,13 +178,15 @@ From Backside 50-50 Bottom, the attacker controls the opponent's leg with their 
 
 Strategically, the Outside Heel Hook serves as the primary submission threat from Backside 50-50, forcing opponents to choose between defending the heel and preventing positional advancement. When opponents hide their heel or boot-defend effectively, this opens pathways for Inside Heel Hook attacks, toe holds, or positional escapes. The technique epitomizes modern leg lock philosophy: systematic entanglement control combined with precise breaking mechanics.
 
-**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Bottom)
+**From Position**: [[Positions/Ashi Garami/Backside 50-50]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Outside Heel Hook?</p>
 
 - Control the knee line before attacking the heel - if their knee can move freely, the submission loses effectiveness
 - Figure-four grip configuration with blade of wrist against Achilles tendon for maximum rotational leverage
@@ -201,6 +203,8 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Outside Heel Hook?</p>
+
 - Established Backside 50-50 entanglement with your inside leg triangled behind their knee
 - Opponent's heel exposed and accessible (not tucked behind your leg or boot-defended)
 - Control of opponent's hip movement to prevent spinning escape or counter-rotation
@@ -213,6 +217,8 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Outside Heel Hook step by step?</p>
 
 1. **Secure leg entanglement**: Ensure your inside leg is triangled behind opponent's knee, creating the classic Backside 50-50 configuration. Your outside leg controls their hip by hooking over or pressing against their thigh to prevent rotation escapes. Confirm the back-to-back orientation is established.
 2. **Control the knee line**: Squeeze your knees together and pinch opponent's leg tightly between your thighs. Their knee must be immobilized relative to their hip - any slack in the knee line allows them to spin and relieve rotational pressure. This step is non-negotiable before proceeding.
@@ -230,7 +236,7 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Outside Heel Hook]] | 55% |
 | Failure | [[Positions/Ashi Garami/Backside 50-50]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 
@@ -240,6 +246,8 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Outside Heel Hook?</p>
 
 - **Boot defense - opponent straightens leg and points toes to hide heel behind your controlling leg** (Effectiveness: High) - Your Response: Transition to Inside Heel Hook by reshaping your grip to attack the other side of the heel, or switch to a straight ankle lock on the exposed ankle → Leads to [[Positions/Ashi Garami/Backside 50-50]]
 - **Spin escape - opponent rotates their entire body in the direction of the heel hook to relieve rotational pressure** (Effectiveness: High) - Your Response: Follow their rotation and maintain the submission, or if they fully escape, pursue the back take as they turn away from you → Leads to [[Positions/Ashi Garami/50-50 Guard]]
@@ -252,6 +260,8 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Outside Heel Hook?</p>
 
 ### 1. Attacking the heel before controlling the knee line
 
@@ -291,6 +301,8 @@ Strategically, the Outside Heel Hook serves as the primary submission threat fro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Outside Heel Hook (Attacker)?</p>
+
 **Week 1-2** - Grip mechanics and body positioning
 Practice figure-four grip configurations on a static partner or grappling dummy. Focus on wrist blade placement on Achilles, elbow positioning tight to body, and heel-to-chest connection. No resistance - pure technical repetition.
 
@@ -308,48 +320,12 @@ Positional sparring from Backside 50-50 with full resistance. Opponent uses all 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical goal of the Outside Heel Hook and which structures does it target?
-**A**: The primary goal is to apply external rotation to the opponent's tibia relative to their femur, creating breaking pressure on the lateral knee structures including the LCL and popliteal complex. This rotational force, when properly applied through hip mechanics rather than arm strength, forces a tap or causes serious knee injury. The lateral structures are targeted specifically by the outward rotation direction.
-
-**Q2**: Which direction should opponent's toes point at the finish of a properly applied Outside Heel Hook?
-**A**: Opponent's toes should point toward their opposite hip at the finish. This indicates proper external tibial rotation has been achieved. If their toes point in any other direction, the rotational mechanics are incorrect and the submission will be less effective or targeting the wrong structures. Use this visual cue to confirm your breaking angle.
-
-**Q3**: Your opponent begins spinning in the direction of your heel hook as you start to apply pressure. How do you respond?
-**A**: You have two primary options: first, follow their rotation and maintain the submission by adjusting your hip angle as they spin - this can actually help finish the attack if you stay connected. Second, if they fully clear the rotation and begin escaping, immediately pursue the back take since they've turned away from you to escape the leg entanglement. Never simply let them spin free without capitalizing.
-
-**Q4**: What is the critical mechanical difference between using arm strength versus hip mechanics to finish the Outside Heel Hook?
-**A**: Hip mechanics generate vastly more force through structural leverage - your entire bodyweight drives the rotation rather than just arm muscles. Hip-driven finishes are sustainable, don't fatigue, and create irresistible pressure. Arm-driven attempts exhaust you quickly and give opponent time to escape through superior endurance and grip fighting. The arms serve only to connect the heel to your torso.
-
-**Q5**: Your opponent establishes boot defense by straightening their leg and hiding their heel. What are your chain attack options?
-**A**: Primary option is transitioning to the Inside Heel Hook by reshaping your grip to attack the medial side of their heel. Secondary option is dropping to a straight ankle lock on the exposed ankle since their straightened leg position actually facilitates this attack. You can also disengage and work for positional advancement to Saddle if both heel attacks are well defended.
-
-**Q6**: Why is controlling the knee line critical before attacking the heel?
-**A**: The knee line (immobilizing opponent's knee relative to their hip) ensures that rotational force applied to the heel transfers directly to the knee joint rather than being dissipated through leg movement. Without knee line control, opponents can spin their entire leg to match your rotation, eliminating all submission pressure regardless of grip quality. Knee line is the fulcrum of the entire mechanical system.
-
-**Q7**: You are in Backside 50-50 and notice your opponent reaching to attack your leg simultaneously. How do you assess whether to continue your Outside Heel Hook attempt?
-**A**: Assess attack depth - whoever has the more developed submission position should commit to finishing while the other must defend. Check your heel exposure versus theirs, grip quality, and knee line control. If your attack is further along (heel secured, breaking angle set), commit to the finish. If theirs is more developed, release immediately, defend the incoming attack, then re-engage the leg lock battle from a neutral position.
-
-**Q8**: What grip configuration provides maximum rotational leverage for the Outside Heel Hook?
-**A**: The figure-four grip with the blade of your wrist (not palm) positioned directly against the Achilles tendon provides maximum leverage. Your cupping hand goes under the heel bone, and your opposite hand grips your own wrist to complete the figure-four. Elbows must be pinned tight to your ribcage with the heel pulled directly to your sternum, eliminating all space between foot and chest.
-
-**Q9**: What is the optimal timing window for initiating the Outside Heel Hook from Backside 50-50?
-**A**: The optimal window opens when your knee line control is fully established and opponent's heel becomes momentarily exposed - typically when they shift focus to defending positional advancement or attempt their own leg attack. Initiating before the knee line is secured wastes the attempt. The best attacks come when opponent commits to a defensive action that diverts their hands away from heel protection.
-
-**Q10**: How does the Backside 50-50 orientation specifically benefit the Outside Heel Hook compared to attacking from standard 50-50?
-**A**: The back-to-back orientation of Backside 50-50 naturally exposes the outside of opponent's heel because their foot points away from you rather than toward you as in standard 50-50. This means the outside heel is more accessible without needing to reshape the entanglement. Additionally, the rotational direction for the Outside Heel Hook aligns with your natural hip extension away from opponent, making the breaking mechanics more efficient and powerful from this specific configuration.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Outside Heel Hook?</p>
 
 The Outside Heel Hook is among the most dangerous submissions in grappling due to the rapid and severe damage it can cause to lateral knee structures. The LCL, popliteal ligaments, and surrounding structures have little proprioceptive warning before catastrophic failure - opponents often do not feel significant pain until damage is already occurring. Always apply the submission progressively and with control, never explosively. In training, tap early and tap often - ego has no place in heel hook exchanges. When applying the submission, the moment you feel the rotational resistance decrease suddenly, STOP immediately as this indicates structural compromise. Never practice heel hooks without explicit mutual agreement and only train them with experienced partners who understand proper tap timing. Heel hooks should only be practiced in gyms with clear communication about leg lock training protocols. If you feel any unusual sensation in your knee during defense, tap immediately rather than attempting to fight through.
 

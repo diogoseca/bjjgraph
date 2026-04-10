@@ -162,6 +162,8 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turn to Face from Zombie?</p>
+
 - Bottom player begins establishing forearm frames against your chest or shoulder instead of fighting for underhook
 - Bottom player's hips shift from side position toward flat as they prepare to rotate through center
 - Lockdown tension changes—either a strong stretch to create space or loosening as they prepare to release during the turn
@@ -174,6 +176,8 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turn to Face from Zombie?</p>
 
 - Maintain heavy crossface pressure through your shoulder to prevent the bottom player from initiating shoulder rotation
 - Keep your chest connected to the opponent's back or shoulder to eliminate the space needed for turning
@@ -188,6 +192,8 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turn to Face from Zombie?</p>
 
 ### 1. Drive crossface and flatten their shoulders back to the mat before rotation initiates
 
@@ -225,6 +231,8 @@ As the defender against the Turn to Face from Zombie, you are the top player wor
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turn to Face from Zombie?</p>
+
 ### → [[Positions/Rubber Guard/Zombie]]
 
 Maintain heavy crossface pressure through your shoulder driving into their back and shoulder junction. Control their far arm to prevent frame establishment and keep your hips low to restrict their rotation. Continuously disrupt any frames they attempt to build before they can consolidate a turning position. Patient pressure with occasional passing threats keeps them defensive.
@@ -240,6 +248,8 @@ When the bottom player commits to the turn but executes it slowly or without ade
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turn to Face from Zombie?</p>
 
 ### 1. Reacting too late to rotation cues and allowing the bottom player to build momentum before applying counter-pressure
 
@@ -269,10 +279,12 @@ When the bottom player commits to the turn but executes it slowly or without ade
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turn to Face from Zombie?</p>
+
 **Phase 1: Recognition Sensitivity** - Identifying pre-turn cues through feel
 With eyes closed from Zombie Top, partner slowly begins Turn to Face setup. Defender identifies the specific moment they feel frame creation, hip shifting, or lockdown changes. Develop tactile sensitivity to pre-turn signals without relying on visual cues. Practice calling out when you detect the turn beginning.
 
-**Phase 2: Counter Pressure Application** - Crossface and sprawl timing
+**Phase 2: Counter Pressure** - Crossface and sprawl timing
 Partner attempts Turn to Face at 50% speed while you practice applying immediate crossface counter-pressure and hip sprawl upon detection. Focus on the timing of your response relative to their rotation initiation. Develop automatic counter-pressure responses that fire immediately upon detection of turning intent.
 
 **Phase 3: Position Advancement from Failed Turns** - Converting defense into offense
@@ -285,29 +297,6 @@ Live sparring from Zombie Top where partner uses Turn to Face alongside other Zo
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is about to attempt a Turn to Face?
-**A**: The earliest cues are changes in the bottom player's far arm positioning—it tucks tight to their body rather than seeking underhook or grips—and subtle hip weight shifts as they load their bottom hip for rotation. You will also feel changes in lockdown tension as they either stretch to create space or begin loosening in preparation for release. Their near-side arm will shift from underhook attempts to establishing a forearm frame against your shoulder. Recognizing these pre-turn adjustments gives you a 1-2 second window to apply counter-pressure before the turn begins.
-
-**Q2**: What is the most effective counter when the bottom player begins rotating their hips toward you?
-**A**: The most effective immediate counter is driving heavy crossface pressure through your shoulder into the junction of their neck and shoulder while simultaneously sprawling your hips to pin their hip rotation. This two-point pressure system—upper body through crossface and lower body through hip sprawl—creates converging forces that arrest the rotation. If they have already built significant momentum, abandon the re-flatten and instead circle toward their back to capitalize on their movement by advancing to side control.
-
-**Q3**: How should you adjust your weight distribution to prevent the Turn to Face?
-**A**: Weight should project forward and downward through your chest and shoulder into the opponent's upper back and shoulder area, not through your knees or hands. Your hips should stay low and heavy, driving into the opponent rather than floating above them. The free leg posts wide for base against the lockdown stretch while your crossface side drives forward. This distribution creates a constant pressure that makes the preparation phase of the turn extremely difficult, as the bottom player cannot create the frames or space needed to initiate rotation.
-
-**Q4**: If the bottom player successfully gets halfway through the turn, what is your best response?
-**A**: Once they reach the halfway point, attempting to reverse their rotation becomes significantly harder. Instead, capitalize on their movement by circling toward the direction they came from—toward their back. As they rotate to face you, their legs often open during the transition, creating a passing lane. Drive your knee across their thigh line while maintaining upper body pressure to advance to side control. This converts their escape attempt into a passing opportunity for you, which is a better outcome than the original Zombie position.
-
-**Q5**: What grip priority prevents the Turn to Face from succeeding?
-**A**: First priority is crossface control through shoulder pressure on their face and neck—this physically prevents shoulder rotation and is the single most effective tool against the turn. Second priority is far arm control, either gripping their wrist or threading your arm over their far arm to prevent frame creation. Third priority is hip control through your sprawl pressure and weight distribution. The crossface should never be sacrificed for other grips. If you can maintain crossface while controlling their far arm, the Turn to Face becomes mechanically impossible regardless of their lockdown management.
-
-
-
-</section>
 
 
 </main>

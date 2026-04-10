@@ -162,6 +162,8 @@ As the defender, you are in the process of escaping back control when your oppon
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Control to Reverse Half Guard?</p>
+
 - Opponent stops fighting to re-insert their cleared hook and instead shifts their weight laterally, indicating commitment to backstep conversion
 - Opponent's free leg swings over or around your body in a circular backstep motion rather than driving back toward hook re-insertion
 - Opponent transitions their upper body grip from seatbelt to crossface or collar control from behind, indicating preparation for reverse half guard
@@ -174,6 +176,8 @@ As the defender, you are in the process of escaping back control when your oppon
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Control to Reverse Half Guard?</p>
 
 - Recognize the backstep initiation immediately through hip movement and leg threading cues to begin your counter before the position is established
 - Complete your rotation to face the opponent before the backstep leg threads between your legs, converting the position to standard half guard where you have better defensive options
@@ -188,6 +192,8 @@ As the defender, you are in the process of escaping back control when your oppon
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Control to Reverse Half Guard?</p>
 
 ### 1. Accelerate rotation to face opponent before backstep completes
 
@@ -225,6 +231,8 @@ As the defender, you are in the process of escaping back control when your oppon
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Control to Reverse Half Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Complete your shoulder rotation to face the opponent before the backstep leg threads between your legs. Use frames against their shoulder and hip to maintain facing position. Insert knee shield immediately upon facing them to establish standard half guard defensive structure with sweep and re-guard options.
@@ -236,6 +244,8 @@ Complete your shoulder rotation to face the opponent before the backstep leg thr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Control to Reverse Half Guard?</p>
 
 ### 1. Failing to recognize the backstep initiation and continuing passive back escape movement
 
@@ -265,6 +275,8 @@ Complete your shoulder rotation to face the opponent before the backstep leg thr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Control to Reverse Half Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying backstep initiation cues
 Partner alternates between re-inserting hooks and executing backsteps from back control. You call out which action they are performing as soon as you recognize it. Build pattern recognition for the lateral weight shift, leg arc, and grip transition that signal the backstep conversion.
 
@@ -281,29 +293,6 @@ Positional sparring starting from back control. Work full escape sequences knowi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest cue that your opponent is converting to a backstep rather than fighting to re-insert their hook?
-**A**: The earliest cue is the lateral weight shift combined with their free leg moving in a circular arc over your body rather than driving back toward the inside of your thigh for hook re-insertion. You will also feel their grip transitioning from seatbelt to crossface or collar control. When these cues appear together, the backstep is imminent and you must react immediately.
-
-**Q2**: Why is completing your rotation to face the opponent the highest-priority defensive response?
-**A**: The entire advantage of reverse half guard comes from the reverse angle where the top player is behind you. By completing your rotation to face them, you convert the position to standard half guard where you have established frames, sweep options, and defensive structures. Facing the opponent neutralizes the backstep's primary benefit and puts you in a familiar defensive position.
-
-**Q3**: Your opponent has completed the backstep and is settling weight in reverse half guard - what is your immediate priority?
-**A**: Your immediate priority is preventing the crossface from behind and working to turn your shoulders to face the opponent. Frame against their hip and shoulder to create the space needed for rotation. If you cannot rotate immediately, keep your legs active to prevent deep leg entanglement and work to insert a knee shield as a preliminary defensive structure before fully recovering standard half guard.
-
-**Q4**: How can you convert the opponent's backstep attempt into a deep half guard entry?
-**A**: As the opponent's backstep leg threads between your legs, you can trap it by clamping your legs and pulling their leg underneath your body into deep half guard configuration. This requires precise timing during the backstep motion and active hip movement to position yourself under their center of gravity. Deep half guard gives you strong sweep options and negates their passing advantage from reverse half guard.
-
-**Q5**: What makes flattening to the mat the worst defensive response when the backstep initiates?
-**A**: Flattening eliminates your framing ability, hip mobility, and sweep potential simultaneously. It gives the opponent maximum chest-to-hip pressure from behind and makes their passing options from reverse half guard much easier. The flat position also prevents you from inserting a knee shield or completing rotation to face them. Staying on your side or actively rotating preserves all your defensive options.
-
-
-
-</section>
 
 
 </main>

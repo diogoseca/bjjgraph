@@ -198,7 +198,7 @@ Arm Extraction and Pass serves as a critical bridge between the 10th Planet turt
 
 - [[Transitions/Back Take from Top]] - Alternative attack - threat of back take creates opening for arm extraction
 
-- [[Submissions/Kimura from Side Control]] - Follow-up submission available when opponent posts arm during extraction
+- [[Submissions/Kimura]] - Follow-up submission available when opponent posts arm during extraction
 
 - [[Transitions/Arm Extraction to Turtle]] - Related technique for arm management in turtle positions
 

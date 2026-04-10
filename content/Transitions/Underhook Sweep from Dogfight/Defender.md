@@ -162,6 +162,8 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook Sweep from Dogfight?</p>
+
 - Opponent's underhook deepens noticeably, reaching past your ribs toward your far lat or shoulder blade with increased grip intensity
 - Opponent's free hand reaches across to grab your far hip, far knee, or far ankle—this is the clearest pre-sweep indicator
 - Forward pressure through the underhook increases suddenly with a diagonal angle rather than the steady forward pressure of position maintenance
@@ -173,6 +175,8 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook Sweep from Dogfight?</p>
 
 - Maintain a wide, active base with your far leg posted well outside the sweep direction to create a stable triangular foundation
 - Keep your whizzer active and pulling downward to limit the opponent's underhook depth and rotational leverage
@@ -186,6 +190,8 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Sweep from Dogfight?</p>
 
 ### 1. Post far hand wide on the mat and widen base with far knee to create a stable tripod against the sweep direction
 
@@ -223,6 +229,8 @@ As the defender against the Underhook Sweep from Dogfight, you are the top playe
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Sweep from Dogfight?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Recognize the sweep setup early and immediately drive forward with heavy whizzer and crossface pressure before the opponent can secure far-side control. Use your body weight and forward angle to collapse their upright posture and drive them flat to the mat, re-establishing top half guard where you can work guard passes.
@@ -238,6 +246,8 @@ Maintain active posting with your far hand and wide base with your far knee thro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Sweep from Dogfight?</p>
 
 ### 1. Keeping a narrow base with both knees close together during the dogfight exchange
 
@@ -267,10 +277,12 @@ Maintain active posting with your far hand and wide base with your far knee thro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Sweep from Dogfight?</p>
+
 **Phase 1: Cue Recognition** - Identifying sweep setup through tactile and visual feedback
 Partner sets up the underhook sweep at slow speed while you practice identifying each recognition cue: underhook deepening, free hand reaching for far side, outside leg loading, and pressure angle changing. Call out each cue as you feel it to build automatic recognition patterns.
 
-**Phase 2: Base Maintenance Under Pressure** - Maintaining stable posting and wide base against progressive sweep attempts
+**Phase 2: Base Under Pressure** - Maintaining stable posting and wide base against progressive sweep attempts
 Partner attempts the underhook sweep at 30-50% intensity while you focus exclusively on proactive base maintenance. Practice keeping your far-side post active, whizzer pulling downward, and base wide throughout sustained pressure. Increase resistance gradually across rounds.
 
 **Phase 3: Counter-Attack Integration** - Transitioning from sweep defense to flattening or passing counter-attacks
@@ -283,29 +295,6 @@ Full-resistance positional sparring from dogfight with you defending from top. T
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most reliable recognition cue that the Underhook Sweep is being set up?
-**A**: The earliest and most reliable cue is the opponent's free hand reaching across to control your far hip, far knee, or far ankle. While increased underhook pressure can indicate a sweep, it could also indicate a back take or general position fight. The free hand reaching for far-side control is the clearest specific indicator of the underhook sweep, as no other dogfight attack requires this particular grip setup.
-
-**Q2**: Why is proactive base maintenance more effective than reactive posting against this sweep?
-**A**: The underhook sweep relies on an explosive drive that generates momentum rapidly. Once the drive initiates and your weight begins shifting past the tipping point, reactive posting arrives too late to generate sufficient counterforce. Proactive base maintenance means your far-side post is already established before the drive begins, distributing your weight across a stable triangle that can absorb the force without requiring a rapid positional adjustment under pressure.
-
-**Q3**: Your opponent has established deep underhook and just grabbed your far knee with their free hand. What is your immediate priority?
-**A**: Your immediate priority is stripping their free hand from your far knee before they can initiate the drive. Once they have both the deep underhook and far-side control, all sweep prerequisites are met and the probability of a successful sweep increases dramatically. Use your near-side hand to peel their grip while simultaneously widening your base and driving your whizzer downward. If you cannot strip the grip in time, immediately drive forward with maximum crossface pressure to flatten them before they can execute the explosive drive phase.
-
-**Q4**: How do you balance defending the underhook sweep without exposing yourself to the back take?
-**A**: The key is using your whizzer and crossface as your primary defense rather than relying solely on far-side posting. A wide far-side post defends the sweep effectively but exposes your back. Instead, keep your whizzer active and pulling downward to limit underhook depth, drive crossface pressure to collapse posture, and maintain your far-side post at moderate width rather than maximum extension. This balanced defensive posture addresses both the sweep and back take threats simultaneously without overcommitting to either.
-
-**Q5**: What is the best counter-attack available when you successfully defend the Underhook Sweep?
-**A**: The best counter-attack is to immediately drive forward with whizzer and crossface pressure to flatten the opponent back to half guard bottom. After a failed sweep attempt, the sweeper's weight is typically shifted forward and off-balance from the drive, creating a window where forward pressure can collapse their posture before they can reset to neutral dogfight. This counter converts a defensive success into an offensive opportunity by taking advantage of the opponent's post-sweep vulnerability.
-
-
-
-</section>
 
 
 </main>

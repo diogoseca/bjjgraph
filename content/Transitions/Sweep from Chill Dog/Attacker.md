@@ -20,7 +20,7 @@ description: "Learn to execute the Sweep from Chill Dog reversal to mount. Step-
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Assess Weight Distribution",
+      "name": "Assess Center of Gravity",
       "text": "From the compact Chill Dog posture with elbows pressed to knees, use tactile awareness through your upper back and shoulders to map the opponent's weight distribution. Feel for forward chest pressure that indicates their center of gravity is over your back rather than behind you. The heavier their forward pressure, the more vulnerable they are to the reversal because their rearward base is compromised.",
       "position": 1
     },
@@ -188,6 +188,8 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Chill Dog?</p>
+
 - Read the opponent's weight through tactile contact on your back before committing to the sweep direction
 - Control the opponent's far-side posting hand to eliminate their ability to base out during the reversal
 - The sweep exploits forward weight commitment - never attempt against an opponent sitting back on their heels
@@ -202,6 +204,8 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Chill Dog?</p>
+
 - Opponent's chest pressure is committed forward onto your upper back, compromising their rearward base
 - Compact Chill Dog defensive posture is intact with elbows tight to knees and rounded back
 - At least one hand is available to control the opponent's far wrist or arm during the reversal
@@ -215,7 +219,9 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 ## Execution Steps
 
-1. **Assess Weight Distribution**: From the compact Chill Dog posture with elbows pressed to knees, use tactile awareness through your upper back and shoulders to map the opponent's weight distribution. Feel for forward chest pressure that indicates their center of gravity is over your back rather than behind you. The heavier their forward pressure, the more vulnerable they are to the reversal because their rearward base is compromised.
+<p class="section-subtitle">How do you execute Sweep from Chill Dog step by step?</p>
+
+1. **Assess Center of Gravity**: From the compact Chill Dog posture with elbows pressed to knees, use tactile awareness through your upper back and shoulders to map the opponent's weight distribution. Feel for forward chest pressure that indicates their center of gravity is over your back rather than behind you. The heavier their forward pressure, the more vulnerable they are to the reversal because their rearward base is compromised.
 2. **Secure Far-Side Arm Control**: Without telegraphing your intention, reach your near-side hand across to grip the opponent's far wrist or forearm. This control is the critical setup that prevents them from posting to stop the reversal. The grip must be established smoothly within the normal range of defensive hand fighting so the opponent does not recognize it as a sweep setup rather than a defensive grip adjustment.
 3. **Load the Sit-Out**: Shift your weight slightly onto your far-side hand and near-side knee, loading the near-side leg for the sit-out kick-through. This weight transfer must be subtle and happen within one second to avoid alerting the opponent. Think of compressing a spring - you are gathering the tension needed for the explosive execution that follows.
 4. **Execute the Sit-Out**: Explosively kick your near-side leg through and past the opponent's far hip, simultaneously pulling their controlled arm across your body. Your hip drives through the space between your body and the mat as the leg clears, creating angular displacement that breaks the opponent's chest-to-back connection. The sit-out must be fast and committed - this is the point of no return where hesitation means failure.
@@ -243,6 +249,8 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Chill Dog?</p>
+
 - **Opponent sprawls hips backward and drives weight down as they feel the sit-out initiate** (Effectiveness: High) - Your Response: If the sprawl is early enough to kill your momentum, abort the sweep and immediately chain to a Granby roll. The opponent's backward hip drive creates forward space that the Granby exploits. Do not force the sit-out against a successfully sprawled opponent. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Opponent posts their far hand wide to base out and prevent the reversal from completing** (Effectiveness: Medium) - Your Response: This is why controlling the far wrist is critical. If they free the arm and post, redirect into a hip escape to half guard rather than continuing the reversal against a posted arm. Alternatively, switch to an arm drag on the posted arm to re-create the imbalance. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Opponent circles away from the sit-out direction, disengaging from the reversal path** (Effectiveness: Medium) - Your Response: If the opponent disengages, you lose the chest-to-back connection needed for the reversal but gain space. Immediately transition to open guard by establishing feet-on-hips frames and upper body grips before they can re-engage on their terms. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Chill Dog?</p>
 
 ### 1. Telegraphing the sweep by visibly reaching for the opponent's arm before loading the sit-out
 
@@ -293,6 +303,8 @@ As the attacker executing this sweep, you are the bottom player in Chill Dog tur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Chill Dog (Attacker)?</p>
+
 **Phase 1: Sit-Out Mechanics** - Solo drilling of the sit-out and hip switch motion from Chill Dog posture
 Practice the sit-out kick-through and hip switch from Chill Dog position without a partner. Focus on explosive leg clearance, smooth hip rotation, and landing in a position that would correspond to mount. Perform 15-20 repetitions per side, building speed and fluidity in the movement chain. Emphasize the continuous flow from compact posture to full extension.
 
@@ -313,42 +325,12 @@ Begin each round in Chill Dog with partner at full competition resistance. Score
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What specific weight distribution must the opponent have for the sweep to be viable?
-**A**: The opponent must have their chest pressure committed forward onto your upper back, meaning their center of gravity is positioned over your torso rather than behind their own hips. This forward commitment compromises their rearward base, making them vulnerable to the rotational displacement of the sit-out. If the opponent's weight is centered over their own knees or sitting back, the sweep lacks the mechanical advantage needed to generate the reversal and should not be attempted.
-
-**Q2**: Why is controlling the opponent's far-side arm the most critical grip for this sweep?
-**A**: The far-side arm is the opponent's primary posting tool during the reversal. When the sit-out displaces their alignment, their natural reaction is to post their far hand wide on the mat to stop the rotation. If this post is successful, the sweep dies mid-execution and you end up in a compromised position with your back partially exposed. Controlling the far wrist removes this posting ability entirely, making the reversal mechanically inevitable once sufficient rotational momentum is generated through the sit-out and hip switch.
-
-**Q3**: Your opponent's weight suddenly increases on your upper back during a grip transition - is this the right moment to sweep?
-**A**: Yes, this is an excellent sweep window. The increased forward pressure during a grip transition means the opponent's weight is committed forward while their hands are momentarily occupied with changing grips rather than available for posting or base maintenance. Their forward commitment provides the mechanical vulnerability the sweep exploits, and their grip transition means they cannot immediately post to stop the reversal. Execute the arm control and sit-out explosively within the one to two second window before the new grip is established.
-
-**Q4**: You initiate the sit-out but feel the opponent beginning to sprawl - what is your immediate chain response?
-**A**: Immediately redirect into a Granby roll in the direction opposite to your sit-out. The opponent's sprawl drives their hips backward and their weight forward, which is exactly the weight distribution that makes a Granby roll most effective. Their backward hip drive creates the forward space you need for the Granby rotation. Do not try to force the sit-out against a sprawl - the chain from failed sweep to Granby is a higher-percentage combination than committing against the counter.
-
-**Q5**: What is the critical difference between the sit-out reversal and the Peterson roll variation?
-**A**: The sit-out reversal uses a kick-through motion that creates angular displacement before generating the reversal rotation, and it requires space for the leg to clear past the opponent's hip. The Peterson roll uses an underhook combined with a lateral rolling motion that generates reversal through rotational momentum directly. The sit-out is better when space exists for the leg kick-through and the opponent's hips are elevated. The Peterson roll is better when hips are tight together with no space for a sit-out, but an underhook is available on the near side.
-
-**Q6**: How does the sweep threat improve your other Chill Dog escape options?
-**A**: Once the opponent has been swept or recognizes the sweep threat, they become more conservative with their forward pressure to avoid exposing themselves to another reversal. This reduction in forward pressure creates wider windows for the Granby roll, hip escape to half guard, and technical stand-up, all of which benefit from reduced top pressure. The sweep functions as a force multiplier: even if you only successfully execute it occasionally, its threat changes the opponent's behavior in ways that make every other escape from Chill Dog more effective.
-
-**Q7**: What happens if you execute the sit-out but cannot complete the full reversal to mount?
-**A**: A partial sit-out that stalls before achieving mount leaves you in a dangerous intermediate position with your back partially exposed and no guard structure established. If the reversal stalls, you must immediately decide between two options: continue driving forward with everything you have to complete the reversal, or abandon the sweep entirely and hip escape to establish half guard from the sit-out angle. Never remain static in the intermediate position because the opponent will use your exposed back to establish back control with hooks.
-
-**Q8**: At what point during the sweep execution is the movement irreversible and full commitment mandatory?
-**A**: The point of no return is when the sit-out leg clears past the opponent's far hip and your compact Chill Dog frame breaks open. Before this point, you can abort by retracting the leg and re-establishing the defensive frame. After the leg clears, your back is partially exposed and the Chill Dog defensive structure is gone. From this point forward, you must commit fully to completing the reversal to mount because returning to Chill Dog is no longer mechanically possible. Attempting to retreat from this position gives the opponent a free path to your back.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Chill Dog?</p>
 
 The Sweep from Chill Dog involves explosive rotational forces through the hips and lower back. Always warm up thoroughly with hip circles and light sit-out drilling before attempting at full speed. Partners should communicate about resistance levels during drilling to prevent unexpected impacts during the reversal. The opponent landing from the reversal should be controlled - avoid slamming or spiking during practice. If you experience lower back pain during the sit-out motion, reduce intensity and focus on proper hip mechanics rather than forcing through with muscular effort. Stop immediately if you feel sharp pain in the spine, hips, or shoulders during any phase of execution.
 

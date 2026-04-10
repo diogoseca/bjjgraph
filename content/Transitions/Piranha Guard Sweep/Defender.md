@@ -162,6 +162,8 @@ Defending the Piranha Guard Sweep requires understanding the unique mechanical t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Piranha Guard Sweep?</p>
+
 - Opponent creates an angle with hip escape while maintaining or increasing lapel tension, indicating sweep direction is being established
 - Opponent's hook engages more deeply under your thigh or moves closer to your hip crease, loading for the elevation component of the sweep
 - Sudden increase in diagonal lapel pulling force combined with visible hip bridge initiation signals the sweep is imminent
@@ -174,6 +176,8 @@ Defending the Piranha Guard Sweep requires understanding the unique mechanical t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Piranha Guard Sweep?</p>
 
 - Maintain wide athletic base with hips low and center of gravity below the opponent's pulling forces to resist compound off-balancing
 - Prioritize lapel grip stripping over passing attempts, as the sweep threat must be neutralized before safe forward passing can begin
@@ -188,6 +192,8 @@ Defending the Piranha Guard Sweep requires understanding the unique mechanical t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Piranha Guard Sweep?</p>
 
 ### 1. Widen base and drop hips immediately upon recognizing sweep setup cues
 
@@ -225,6 +231,8 @@ Defending the Piranha Guard Sweep requires understanding the unique mechanical t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Piranha Guard Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the lapel configuration during the sweep attempt using a two-on-one grip break on the primary grip, then immediately disengage and establish passing position against the compromised open guard before opponent can re-thread the lapel
@@ -240,6 +248,8 @@ Maintain strong base throughout the sweep attempt by keeping hips low and stance
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Piranha Guard Sweep?</p>
 
 ### 1. Leaning forward into the sweep direction during defense instead of sitting hips back
 
@@ -269,10 +279,12 @@ Maintain strong base throughout the sweep attempt by keeping hips low and stance
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Piranha Guard Sweep?</p>
+
 **Phase 1: Recognition** - Sweep setup identification and cue reading
 Partner establishes Piranha Guard and slowly walks through each sweep setup phase while you identify the cues: angle creation, hook engagement, grip adjustment, and sweep initiation. Verbalize each cue as you recognize it to build conscious pattern recognition at controlled speed.
 
-**Phase 2: Base Maintenance** - Defensive base stability against progressive sweep attempts
+**Phase 2: Base** - Defensive base stability against progressive sweep attempts
 Partner attempts sweeps at fifty percent then seventy percent intensity while you focus exclusively on maintaining base through hip positioning, stance width, and strategic posting. Do not attempt to pass or strip grips during this phase, purely develop base stability under sweep pressure.
 
 **Phase 3: Counter Integration** - Grip stripping and passing after successful sweep defense
@@ -285,29 +297,6 @@ Full-speed positional sparring starting in Piranha Guard with defender working t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Piranha Guard Sweep is being set up?
-**A**: The earliest cue is the opponent creating a hip angle through a small hip escape while maintaining or increasing lapel tension. This angle creation establishes the sweep direction before the hook engagement or sweep motion begins. Recognizing this preparatory movement gives you the maximum time window to widen your base or strip grips before the sweep develops dangerous momentum.
-
-**Q2**: Why is it dangerous to drive forward with pressure when the opponent has the sweep loaded?
-**A**: Forward pressure delivers your weight directly into the attacker's pulling direction, effectively converting your passing energy into sweep momentum. The lapel configuration acts as a redirect mechanism that turns your forward drive into rotational force around their hip pivot. Instead of forward pressure, move laterally to change the angle of engagement and reduce the effectiveness of their directional sweep setup.
-
-**Q3**: How should you prioritize defensive actions when caught mid-sweep with your base already compromised?
-**A**: When caught mid-sweep, immediately post your far hand on the mat in the direction you are falling to create a tripod base and prevent complete reversal. From this posted position, drive your hips away from the opponent while working to extract your leg from their hook. If the sweep is nearly complete, transition directly to guard recovery rather than fighting the reversal, accepting momentary positional loss to establish half guard.
-
-**Q4**: What is the relationship between lapel grip stripping and sweep defense timing?
-**A**: Grip stripping is the proactive defense that prevents sweeps before they develop, while base maintenance is the reactive defense during sweep execution. Ideally, strip the primary lapel grip before the opponent establishes their sweep angle, which removes the mechanical advantage powering the sweep. If grip stripping fails and the sweep is initiated, switch immediately to base maintenance and posting defense rather than continuing to fight grips.
-
-**Q5**: Your opponent switches sweep direction after you post to block—what adjustment prevents the reversal?
-**A**: Immediately transfer your post to the new sweep direction while simultaneously dropping your center of gravity lower. The direction switch relies on you being committed to defending one side, so maintain a centered base position between posts rather than fully committing laterally. Use your hands on the mat as mobile pivot points rather than static posts, allowing rapid transfer between sides as the attacker changes sweep directions.
-
-
-
-</section>
 
 
 </main>

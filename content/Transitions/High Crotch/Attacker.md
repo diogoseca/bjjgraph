@@ -16,7 +16,7 @@ description: "How to execute the High Crotch takedown in BJJ. Penetration step m
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute High Crotch in BJJ",
-  "description": "Step-by-step guide for executing High Crotch from Standing Position/Top.",
+  "description": "Step-by-step guide for executing High Crotch from Clinch/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -176,13 +176,15 @@ The High Crotch from the attacker's perspective is a systematic takedown built o
 
 The finishing phase offers multiple options depending on the opponent's defensive reaction, making the high crotch a branching attack rather than a single-path technique. Whether you run the pipe, lift and return, trip the far leg, or transition to a double leg, each finish exploits a specific defensive posture. Reading which finish to apply in real time is the skill that separates advanced practitioners from intermediate ones.
 
-**From Position**: [[Positions/Standing Position]] (Top)
+**From Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing High Crotch?</p>
 
 - Deep penetration step with lead leg between opponent's feet to compromise their base before they can react
 - High shoulder placement into opponent's hip crease or lower abdomen for maximum leverage over their center of mass
@@ -199,6 +201,8 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting High Crotch?</p>
+
 - Standing engagement with opponent at arm's length or closer
 - Ability to close distance without telegraphing intention through feints and grip fighting
 - Grip fighting control or hand fighting advantage to create an opening for the level change
@@ -212,6 +216,8 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute High Crotch step by step?</p>
 
 1. **Create opening with grip fighting**: Engage in hand fighting or collar ties to create the opening for your attack. Use feints, pushes, or pulls to get the opponent to react and shift their weight. Look for the moment when their lead leg is slightly forward or their weight is distributed between both feet. Your grip fighting should disguise the impending level change and prevent them from establishing dominant grips that could stop your penetration.
 2. **Execute penetration step**: Explosively drop your level by bending at the knees and hips while simultaneously stepping your lead foot deep between the opponent's legs. Your penetration step should place your foot at least even with their back foot, ideally slightly past it. Keep your back straight and head up as you change levels - avoid simply bending at the waist which telegraphs the shot and compromises your posture. This step must be fast and deep to prevent defensive reactions.
@@ -240,6 +246,8 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter High Crotch?</p>
+
 - **Sprawl defense with hips back and weight down on your upper back** (Effectiveness: High) - Your Response: Adjust to a low single leg variation or transition to a different takedown. If they sprawl hard, you can run around to their back by circling to the outside of the captured leg while keeping your grip tight. Alternatively, elevate the captured leg higher and switch to a double leg finish by capturing both legs. → Leads to [[Positions/Standing Position]]
 - **Guillotine choke attempt as you change levels for the shot** (Effectiveness: Medium) - Your Response: Maintain proper head position on the outside of their captured leg throughout the technique. If they start to secure a guillotine grip, immediately adjust your head position lower and tighter to their hip, making it difficult for them to get under your chin. Continue driving forward aggressively to complete the takedown before they can lock in the choke, as completing the takedown typically breaks their grip structure. → Leads to [[Positions/Standing Position]]
 - **Whizzer overhook on your near arm to kill your forward drive** (Effectiveness: Medium) - Your Response: Do not fight the whizzer directly. Instead, use it to your advantage by continuing to drive forward and slightly in the direction of the whizzer. You can transition to running the pipe finish or switch to a fireman's carry by ducking under their whizzer arm. Another option is to release the whizzer side temporarily and transition to a low single leg finish on the same leg. → Leads to [[Positions/Standing Position]]
@@ -251,6 +259,8 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing High Crotch?</p>
 
 ### 1. Shallow penetration step that fails to get deep enough between opponent's legs
 
@@ -290,6 +300,8 @@ The finishing phase offers multiple options depending on the opponent's defensiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train High Crotch (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Penetration step and body positioning
 Practice penetration step drills without a partner, focusing on explosive level change while maintaining upright posture. Work on stepping deep between imaginary opponent's legs. Then progress to cooperative partner drills where partner allows you to execute the technique slowly, emphasizing proper shoulder placement, head position on outside, and grip security. Repeat 20-30 times per session with no resistance.
 
@@ -310,48 +322,12 @@ Develop proficiency in all finishing variations (run the pipe, lift and return, 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the key difference between a high crotch and a traditional single leg takedown in terms of shoulder placement?
-**A**: The high crotch places the shoulder high into the opponent's hip crease or lower abdomen rather than lower on the thigh, providing better control over their entire body and center of mass. This high shoulder placement combined with head position on the outside of the captured leg gives superior driving leverage and makes it more difficult for the opponent to defend by simply stepping back or circling away. The single leg grabs the leg lower and relies more on pulling the leg to the chest.
-
-**Q2**: Why is head position on the outside of the captured leg crucial during the high crotch?
-**A**: Outside head position serves two critical purposes: First, it protects you from guillotine chokes and front headlock attacks by keeping your neck away from the opponent's arms and chest. Second, it allows you to drive your shoulder more effectively into their hips because your head acts as a brace against their body, creating a wedge that forces their weight backward. Inside head position exposes you to immediate submission danger and compromises your driving mechanics entirely.
-
-**Q3**: Your opponent secures a whizzer overhook as you lock up the high crotch - how do you adjust?
-**A**: Rather than fighting directly against the whizzer, use it to your advantage by continuing to drive forward in the direction of the whizzer. You can transition to a fireman's carry by ducking under their whizzer arm, or switch to a low single leg finish. Another option is to use the whizzer to help you run the pipe finish by driving in the direction they are pulling. The key is not to stall and fight the whizzer statically, but to keep moving and use their overhook momentum against them.
-
-**Q4**: What are the optimal penetration step mechanics for a successful high crotch entry?
-**A**: The penetration step must be explosive and deep, with your lead foot landing at least even with the opponent's back foot, ideally slightly past it. The level change should come from bending the knees and hips while keeping your back relatively straight and head up, not from bending at the waist which telegraphs the shot and compromises posture. Your step should be one fluid explosive motion that closes distance before the opponent can react. The depth of penetration is critical because shallow shots allow easy sprawl defense, while deep penetration compromises their base before they can effectively respond.
-
-**Q5**: You shoot a high crotch but your penetration step is shallow and opponent begins to sprawl - what is your immediate response?
-**A**: If you feel the sprawl coming because your penetration was shallow, immediately transition rather than trying to force the original technique. Your best options are: circle to the outside of the captured leg while maintaining your grip to run around to their back, switch to a low single leg by adjusting your grip lower and driving your shoulder into their thigh, or release entirely and transition to a front headlock if their head drops. The worst response is to remain static on your knees fighting for the original position, which gives them time to establish full sprawl pressure and front headlock control.
-
-**Q6**: What grip configuration should you use when locking your hands behind the opponent's thigh?
-**A**: The gable grip (palm-to-palm with fingers interlocked) is the strongest option for locking behind the thigh because it creates maximum grip strength without relying on finger strength alone. The S-grip (hooking fingers together) is an acceptable alternative that some practitioners prefer for its quick application. Regardless of grip choice, your elbows must stay tight to your body to form a complete circle around the leg that prevents the opponent from stripping your hands apart. Avoid butterfly grip or any open-hand configuration as these are too easily broken under pressure.
-
-**Q7**: How does the high crotch integrate with double leg and single leg attacks to create a complete chain wrestling system?
-**A**: The high crotch serves as an excellent primary attack that branches into other techniques based on defensive reactions. If the opponent sprawls, you can transition to a duck under to the back or switch to ankle picks at the opposite leg. Against whizzer defense, the fireman's carry becomes available. If they square their hips to defend, you convert to a double leg by releasing one arm and capturing both legs. The high crotch also works as a counter to the opponent's failed shot attempts. Faking the high crotch to draw a reaction and then executing foot sweeps or upper body throws completes the chain.
-
-**Q8**: When should you choose the run the pipe finish versus the lift and return finish?
-**A**: Run the pipe is the preferred finish when you have strong forward momentum and the opponent is already hopping backward on their free leg trying to maintain balance - you simply keep driving and elevating until they topple. Lift and return is more appropriate when the opponent has established some base and is not moving backward, requiring you to physically elevate their captured leg high enough to compromise their balance before pivoting and returning them to the mat. Lift and return requires more strength but works better against opponents who brace against the forward drive. The trip variation is best when they post their free leg wide to stabilize.
-
-**Q9**: Your opponent posts their far hand on the mat as you drive them backward during the high crotch - how do you capitalize?
-**A**: When the opponent posts their hand on the mat, they have committed their weight backward and their arm to a structural support role rather than defense. Continue your forward drive aggressively because their posted hand means they are already off-balance. You can run the pipe finish because their posted hand will eventually fail to support their weight. Alternatively, if you can reach their posted arm, sweep it away to immediately collapse their base. The posted hand is a sign that your pressure is working and the takedown is close to completion - increase intensity rather than pausing.
-
-**Q10**: What are the critical conditions that must exist before you commit to a high crotch attempt?
-**A**: Before committing to the shot, three conditions should be present: First, you need the opponent's weight to be distributed across both feet or slightly forward rather than loaded on their back leg where they can easily retreat. Second, you need a clear lane for your penetration step without their lead leg blocking your path, which is achieved through grip fighting and feints. Third, your own stance must be balanced with weight on the balls of your feet and knees slightly bent, ready for an explosive level change. Shooting without these conditions dramatically reduces success rate and increases exposure to counters.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for High Crotch?</p>
 
 When practicing the high crotch, execute all training repetitions with control to protect both yourself and your training partner. The most significant safety consideration is protecting your neck during the penetration step - maintain proper outside head position at all times to avoid guillotine exposure. When finishing with lift and return variations, ensure you are on proper mats and control the opponent's landing to prevent head or neck injuries. Never spike an opponent or release them at the apex of a lift. Practice releases so training partners can safely exit the position if needed. During live training, tap early if caught in a guillotine during a failed high crotch attempt rather than fighting through submission danger. For the training partner defending, avoid cranking guillotines or kimuras immediately when defending high crotch attempts - give your partner time to adjust position or release. Both parties should communicate about intensity levels, especially when drilling finishing variations that involve lifting. Always warm up properly before practicing explosive penetration steps to prevent knee, hip, and lower back injuries.
 

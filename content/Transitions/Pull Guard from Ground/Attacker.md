@@ -194,6 +194,8 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pull Guard from Ground?</p>
+
 - Establish dominant grips before committing hips to the pull motion, ensuring connection that prevents opponent from disengaging during the transition
 - Time the pull to coincide with opponent's forward weight shift or step, using their momentum to assist guard closure rather than fighting against their base
 - Generate hip elevation through explosive bridging rather than pulling with arms alone, creating the height needed to wrap legs around opponent's waist from ground level
@@ -208,6 +210,8 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pull Guard from Ground?</p>
+
 - At least one strong grip established on opponent's collar, sleeve, or wrist providing pulling connection for the guard pull motion
 - Hips oriented toward opponent with sufficient space to shoot legs around their waist without obstruction from their frames
 - Opponent within close range where hip bridge and arm pull can close the remaining distance to wrap legs
@@ -220,6 +224,8 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pull Guard from Ground step by step?</p>
 
 1. **Establish base position**: From seated or partially grounded position, orient your hips directly toward your opponent with your feet positioned between you and them. Sit up on one hip or maintain a slightly angled seated posture that allows explosive hip movement. Keep your weight forward on your sit bones rather than leaning back, maintaining readiness for the pulling motion.
 2. **Secure primary grip**: Establish a strong collar grip with your dominant hand, inserting fingers deep into the collar fabric at the back of the neck. In no-gi, secure a collar tie or wrist control on the same side. This grip serves as your primary pulling mechanism and must be deep enough to generate significant forward force on your opponent's upper body posture.
@@ -250,6 +256,8 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pull Guard from Ground?</p>
+
 - **Opponent sprawls hips back and drives weight downward to prevent guard closure** (Effectiveness: High) - Your Response: Maintain pulling pressure on collar grip and transition to butterfly hooks or shin-to-shin guard rather than forcing closed guard against sprawl pressure. Use their downward pressure to set up collar drag or arm drag from the seated position. → Leads to [[Positions/Standing Guard]]
 - **Opponent posts hands on your hips and creates straight-arm distance to prevent leg wrap** (Effectiveness: High) - Your Response: Attack the posting arm with a two-on-one grip break, pulling their arm across your body to eliminate the frame. Alternatively, angle your body 45 degrees to bypass the frame on one side and wrap from an angle rather than directly forward. → Leads to [[Positions/Open Guard]]
 - **Opponent circles laterally and angles away from the guard pull attempt** (Effectiveness: Medium) - Your Response: Track their movement by pivoting on your hip and maintaining grip connection. Use the collar grip to prevent full disengagement while scooting your hips to follow their angle change. If they create too much angle, transition to De La Riva or single leg X entry instead. → Leads to [[Positions/Open Guard]]
@@ -261,6 +269,8 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pull Guard from Ground?</p>
 
 ### 1. Pulling with arms only without engaging hips and core for the guard closure motion
 
@@ -300,6 +310,8 @@ As the attacker executing Pull Guard from Ground, your objective is to transitio
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pull Guard from Ground (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo hip bridge and leg wrap coordination
 Practice the hip bridge to leg wrap motion without a partner, using a heavy bag or grappling dummy. Focus on generating explosive hip elevation from seated position and immediately wrapping legs with ankle lock. Build muscle memory for the coordinated motion of pulling with arms while bridging with hips. Complete 30 repetitions per session.
 
@@ -317,48 +329,12 @@ Positional sparring starting from standing guard bottom. Execute guard pull at f
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent sprawls hard and drives their hips back as you initiate the guard pull from ground - how do you adjust your technique?
-**A**: Maintain collar grip tension and abandon the closed guard attempt. Instead, insert butterfly hooks or establish shin-to-shin contact as intermediate control. Use their sprawling momentum to set up a collar drag that pulls them past you, or transition to seated guard with feet on hips. The key adjustment is recognizing the sprawl early and redirecting to a guard variation that works with their retreating hips rather than forcing closed guard against backward pressure.
-
-**Q2**: What is the most critical grip configuration for a successful guard pull from ground position?
-**A**: A deep cross-collar grip serves as the primary pulling mechanism, with fingers inserted behind the collar at the base of the neck. This grip provides the strongest forward-pulling leverage for breaking posture and closing distance. The secondary grip should be a same-side sleeve or wrist control that prevents the opponent from posting to resist the pull. Together, these grips create a two-point control system that generates diagonal pulling force, making it mechanically difficult for the opponent to maintain their base and resist the pull simultaneously.
-
-**Q3**: You establish collar and sleeve grips but your opponent posts their free hand firmly on your hip to create distance - what is your response?
-**A**: Attack the posting arm with a two-on-one grip break, pulling their wrist across your body to eliminate the frame while maintaining your collar grip connection. Alternatively, angle your body 45 degrees toward the side opposite their post, bypassing the frame laterally. If neither works immediately, use your feet on their hips to create a momentary push that disrupts their posting structure, then immediately shoot your legs around their waist during the brief moment their frame is compromised.
-
-**Q4**: What hip movement generates the necessary elevation to close guard from a seated position?
-**A**: An explosive posterior pelvic bridge where you drive your hips forward and upward toward your opponent's midsection while simultaneously pulling them downward with your grips. The bridge starts from your sit bones, driving through your feet planted on the mat slightly behind your hips for leverage. The motion should launch your hips upward to the level of your opponent's belt line, creating the height needed for your legs to wrap around their waist above their hip bones. Think of projecting your hips toward their sternum rather than simply lifting upward.
-
-**Q5**: What is the primary timing window for executing a guard pull from ground position?
-**A**: The optimal window is during your opponent's forward weight transfer, specifically when they step toward you or shift their center of gravity forward over their lead foot. This forward commitment makes it mechanically difficult for them to sprawl back and creates momentum that assists your pulling motion. Secondary windows include moments when opponent is adjusting grips with one hand released, transitioning between stances, or looking away to assess position. The pull should be explosive and committed once you recognize the timing window rather than gradual.
-
-**Q6**: Your guard pull attempt results in your legs landing on only one side of your opponent's hip - how do you recover to closed guard?
-**A**: Immediately hip escape toward the side where your legs are positioned to create the angle needed to swing your far leg across their body. Maintain collar grip tension to prevent them from posturing away during the adjustment. Use your near leg as a hook on their hip to maintain connection while your far leg swings around to complete the wrap. If they begin to pass toward the open side, abandon closed guard recovery and transition to half guard or De La Riva hook on the near leg to retain guard engagement.
-
-**Q7**: Your opponent begins circling laterally as you initiate the guard pull from seated position - how do you track their movement?
-**A**: Pivot on your seated hip in the direction of their circle while maintaining grip tension through your collar connection. Use your sleeve grip to steer their upper body back toward your centerline as your hips rotate to follow. Plant your outside hand briefly for base during the pivot if needed. If they circle faster than you can track, use the collar grip to execute a collar drag in their circling direction, converting their lateral momentum into a forward pull that creates the guard closure opportunity from a different angle.
-
-**Q8**: What are the two most common failure points that prevent closing the guard during a ground-based pull?
-**A**: First, insufficient hip elevation where the practitioner's hips remain too low to wrap legs above the opponent's hip bones. This results from relying solely on arm pulling without engaging the hip bridge, leaving the legs scraping ineffectively below the opponent's waist. Second, delayed ankle lock timing where the practitioner wraps legs but fails to immediately cross ankles, allowing the opponent a two-to-three second window to posture and begin opening the guard before it fully closes. Both failures stem from treating the technique as sequential steps rather than one explosive coordinated motion.
-
-**Q9**: Your opponent grabs your collar and pushes you flat on your back as you attempt the pull - what adjustment prevents this?
-**A**: Frame against their pushing arm with your free hand on their wrist or elbow to create structural resistance against being flattened. Simultaneously angle your body 30-45 degrees off-center so their push drives past your shoulder rather than directly through your centerline. If already partially flattened, immediately place feet on their hips to establish distance control frames, strip their collar grip with a two-on-one break, and re-attempt the pull from the feet-on-hips position where you have superior leverage for managing distance and generating the pull.
-
-**Q10**: What role does body angle play in the success of a ground-based guard pull?
-**A**: Body angle is critical because a squared-up position allows the opponent to drive straight through with sprawl pressure or stiff-arm frames. Positioning your body at a 30-45 degree angle relative to your opponent creates an off-center pulling vector that is significantly harder to resist with a straight sprawl. The angle also positions one leg closer to their far hip, making the wrap easier to complete. Additionally, the angled position allows you to use your near-side hip as a pivot point for the bridge, generating rotational force that supplements the linear pull and creates a spiral entry into guard closure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pull Guard from Ground?</p>
 
 Guard pulls from ground carry risk of knee and ankle injuries if legs become trapped or twisted during the wrapping motion. Never force a guard pull when your legs are entangled in an awkward position that could stress the knee laterally. Practice hip bridges at controlled speed before adding resistance to avoid lower back strain. Ensure clear communication with training partners during guard pull drills to prevent collisions, particularly when bridging explosively toward a standing opponent. In competition, be aware that jumping closed guard is illegal at most belt levels due to knee injury risk - ground-based pulls avoid this concern but still require controlled leg placement.
 

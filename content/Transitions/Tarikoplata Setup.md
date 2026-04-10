@@ -214,7 +214,7 @@ The Tarikoplata Setup represents the compound-lock layer of the Meathook attack 
 
 - [[Transitions/Triangle Setup]] - Chain attack when opponent postures to defend Tarikoplata
 
-- [[Submissions/Armbar from Guard]] - Chain attack when opponent straightens arm to defend omoplata angle
+- [[Transitions/Armbar on Free Arm]] - Chain attack from Meathook when opponent straightens arm to defend omoplata angle
 
 - [[Positions/Rubber Guard/Mission Control]] - Prerequisite Rubber Guard position that precedes Meathook in the system progression
 

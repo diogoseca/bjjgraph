@@ -192,6 +192,8 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Duck Under?</p>
+
 - Level change precedes arm manipulation - drop your hips and bend your knees before attempting to duck through, as upright posture prevents successful execution
 - Use opponent's pressure against them by timing the duck to coincide with their forward drive or when they push into your collar tie
 - Maintain chest-to-chest contact during the level change to prevent opponent from sprawling away or creating distance
@@ -207,6 +209,8 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Duck Under?</p>
+
 - Clinch position established with both practitioners engaged in grip fighting at close range
 - Collar tie or head control established on at least one side to create reaction and defensive arm positioning from opponent
 - Opponent's arm elevated or extended in defensive posture, creating the space necessary to duck underneath
@@ -219,6 +223,8 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Duck Under step by step?</p>
 
 1. **Establish collar tie**: Secure a strong collar tie or head control on one side while your opposite hand controls opponent's elbow or tricep. This setup creates the pressure that forces their defensive arm into position and begins the reaction sequence.
 2. **Create reaction**: Pull down and across with your collar tie while simultaneously pushing their elbow toward your ducking side. This manipulation elevates their arm and creates the opening you need to pass underneath their armpit.
@@ -249,6 +255,8 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Duck Under?</p>
+
 - **Opponent sprawls hips back and establishes front headlock as you attempt to duck through** (Effectiveness: High) - Your Response: If you feel their hips retreating, abort the duck and immediately pummel back to neutral clinch. Alternatively, shoot directly to a double leg since their sprawl creates distance perfect for penetration step entry. → Leads to [[Positions/Front Headlock]]
 - **Opponent whizzers over your ducking arm and applies downward pressure to stop your circle** (Effectiveness: Medium) - Your Response: Continue driving forward with your shoulder into their hip while maintaining your grip on their far side. The whizzer becomes a liability if you can complete the circle since they've given up their arm position. Use a limp arm to slip the whizzer if pressure is too strong. → Leads to [[Positions/Clinch]]
 - **Opponent steps back and pivots to face you, squaring up before you complete the back take** (Effectiveness: Medium) - Your Response: Maintain your grip on their far hip and convert to an arm drag or inside trip. Their pivoting motion creates momentum you can redirect into a different attack. If they successfully square, immediately re-engage grip fighting from the new clinch position. → Leads to [[Positions/Clinch]]
@@ -260,6 +268,8 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Duck Under?</p>
 
 ### 1. Attempting the duck under while standing upright without proper level change
 
@@ -299,6 +309,8 @@ Strategically, the Duck Under attacker benefits from integrating this technique 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Duck Under (Attacker)?</p>
+
 **Week 1-2** - Movement mechanics
 Practice the level change and threading motion without a partner, focusing on keeping your back straight and head position during the duck. Then drill against a stationary partner who maintains collar tie position without resisting. Emphasize the continuous nature of the movement.
 
@@ -319,54 +331,12 @@ Integrate duck under as part of your complete clinch game, combining it with sna
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Duck Under technique?
-**A**: The primary goal is to transition from a neutral clinch position to dominant back control by ducking underneath the opponent's arm. This allows you to reach Standing Rear Clinch or Back Control without the risks associated with shot-based takedowns, maintaining a favorable risk-reward profile while advancing to a superior position.
-
-**Q2**: When is the optimal moment to attempt the Duck Under?
-**A**: The optimal moment is when your opponent pushes back against your collar tie pressure or drives forward into you. Their forward commitment or defensive reaction elevates their arm and momentarily fixes their weight distribution, creating the opening needed to duck through. Also effective when they focus on establishing their own offense and neglect arm positioning.
-
-**Q3**: What are the key grips needed to execute the Duck Under effectively?
-**A**: You need a collar tie or head control on one side to create setup pressure, plus control of opponent's elbow or tricep on the same side to manipulate their arm position. As you execute the duck, your collar tie hand releases and reaches for their far hip or waist to control their rotation while you circle behind.
-
-**Q4**: Your opponent whizzers your arm as you attempt to circle behind - how do you complete the technique?
-**A**: Continue driving forward with your shoulder into their hip while maintaining your far-side grip. Their whizzer actually compromises their defensive positioning if you can complete the circle. Use a limp arm motion by relaxing your trapped arm and letting it slide free of the whizzer as you continue your forward momentum. If the whizzer is too tight, convert to an arm drag using their own grip against them.
-
-**Q5**: What adjustment do you make if opponent sprawls their hips back as you drop level?
-**A**: If you feel their hips retreating, abort the duck immediately and either pummel back to neutral clinch or shoot directly to a double leg. Their sprawl creates the exact distance needed for a penetration step, so converting to a double leg often catches them in transition. Forcing the duck against a successful sprawl typically results in front headlock position for opponent.
-
-**Q6**: Why must you keep your head tight to opponent's ribs during the circling phase?
-**A**: Your head pressed against their torso acts as a control point that prevents them from rotating to face you. Any space between your head and their body gives them room to pivot their hips and square up, negating your positional advantage. The head-to-body contact essentially controls their spine's ability to rotate until you've secured rear clinch grips.
-
-**Q7**: What happens if you pause in the side body position after threading through?
-**A**: Pausing creates a vulnerable transition point where opponent has multiple defensive options. They can establish a strong whizzer, square their hips to face you, drop to turtle position, or initiate their own offensive sequence. Each second of hesitation increases the difficulty of completing the back take. The technique must flow as one continuous motion from level change to secured rear clinch.
-
-**Q8**: Why should your hips be offset rather than directly behind opponent after completing the duck?
-**A**: Positioning hips directly behind allows opponent to sit straight back into you, potentially reversing position through sacrifice throws or simply creating a scramble that neutralizes your advantage. The offset angle prevents this counter by ensuring they cannot load your weight effectively. It also positions you for better takedown mechanics if you need to bring them to the ground.
-
-**Q9**: How does the threat of Duck Under create openings for other techniques?
-**A**: Opponents who respect the Duck Under will often keep their arms tight and elbows down to prevent the duck, which creates openings for snap downs since they cannot post effectively. When they widen their elbows to defend the snap down, the Duck Under becomes available. This creates an offensive system where defending one attack opens vulnerability to another, forcing opponents into reactive positions.
-
-**Q10**: Your opponent posts their hand on your shoulder as you initiate the level change - how do you adjust?
-**A**: Their extended arm actually creates a better ducking lane if you redirect the energy. Use your tricep-side hand to push their posting arm upward and across while simultaneously dropping your level deeper than usual. The posted arm becomes a bridge you duck under rather than an obstacle. If their post is too strong to redirect, abandon the duck and convert to a snap down since their extended arm is vulnerable to being pulled forward and down.
-
-**Q11**: What is the critical difference between the grip transfer timing in a successful versus failed Duck Under?
-**A**: In a successful Duck Under, the collar tie hand releases and the far-hip hand establishes grip nearly simultaneously, creating no gap in control. In a failed attempt, the practitioner releases the collar tie too early, leaving a window where they have no control over the opponent's movement. This gap allows the opponent to turn, sprawl, or create separation. The grip transfer must overlap so that at no point during the technique do you lack a controlling connection to the opponent's body.
-
-**Q12**: How do you integrate the Duck Under with arm drags in a systematic clinch approach?
-**A**: The arm drag and duck under create complementary threats - defending one often exposes vulnerability to the other. When opponent extends their arm to establish grips, the arm drag is available. When they retract their arm to deny the drag, the duck under opening appears as their elbow rises. Chain these techniques by reading opponent's arm positioning and defensive priorities, always attacking whichever option they're not defending.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Duck Under?</p>
 
 The Duck Under is generally a low-risk technique but requires attention to neck and knee safety during practice. When drilling, partners should avoid excessive whizzer pressure that could strain the ducking practitioner's neck or shoulder. The deep level change requires adequate knee flexibility and strength - practitioners with knee issues should modify depth appropriately. During live training, be cautious of collisions if both practitioners drop level simultaneously. Always control your head position to avoid accidental contact with opponent's hips or legs during the threading motion.
 

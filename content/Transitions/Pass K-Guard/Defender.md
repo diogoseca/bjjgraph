@@ -154,6 +154,8 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass K-Guard?</p>
+
 - Passer drops hips forward and low, driving weight into your hook system with increased pressure rather than staying upright or disengaging
 - Passer strips your sleeve or collar grip and begins establishing crossface or far hip control to anchor your position
 - Passer's trapped knee begins driving toward the mat on the inverted hook side, indicating systematic hook neutralization is underway
@@ -166,6 +168,8 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass K-Guard?</p>
 
 - Maintain active tension in both hooks at all times because passive hooks are immediately neutralized by any competent passer applying systematic pressure
 - Keep your head elevated off the mat to preserve the spine angle that enables hip mobility and continuous angle generation
@@ -180,6 +184,8 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass K-Guard?</p>
 
 ### 1. Reload butterfly hook elevation and drive passer's weight upward to break their pressure base
 
@@ -217,6 +223,8 @@ Defending against the K-Guard pass from the bottom player's perspective requires
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass K-Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 When the passer shifts weight laterally or commits to addressing the butterfly hook, swim your inside arm for a deep underhook. Use the underhook combined with remaining hook tension to spin behind them. The key trigger is when their crossface pressure momentarily weakens during grip transitions - this window allows you to establish the underhook before they can re-establish head control. Follow with seatbelt grip and hook insertion to complete the back take.
@@ -232,6 +240,8 @@ Maintain aggressive grip fighting and active hook tension throughout the passer'
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass K-Guard?</p>
 
 ### 1. Allowing both hooks to become passive without active pulling or lifting tension
 
@@ -261,6 +271,8 @@ Maintain aggressive grip fighting and active hook tension throughout the passer'
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass K-Guard?</p>
+
 **Phase 1 - Retention Mechanics** - Hook tension maintenance and angle preservation under pressure
 Partner applies steady forward pressure while you focus exclusively on maintaining K-Guard structure. Practice keeping both hooks active, head off mat, and hips mobile. No counter-attacks allowed, pure retention only. Develop proprioceptive awareness of when each hook is loaded versus compromised and how to reload under pressure.
 
@@ -277,26 +289,6 @@ Full positional sparring from K-Guard bottom against partners of varying sizes a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that a K-Guard pass attempt is beginning?
-**A**: The earliest cues are the passer dropping their hips forward to increase pressure, beginning to strip your dominant grips on their collar or sleeves, and driving their crossface arm across your jaw to control head position. These grip and pressure changes typically precede actual hook neutralization by several seconds, giving you a critical early warning window to reinforce your retention structure or prepare counter-attacks before the passer reaches the execution phase of their pass.
-
-**Q2**: When should you abandon K-Guard retention and transition to an alternative guard?
-**A**: Transition when both hooks have been significantly compromised and your spine angle has been flattened past the point of recovery. Specifically, if the passer has neutralized your inverted hook and established crossface control that prevents you from recovering side position, attempting to maintain K-Guard becomes counterproductive. At this point, transition to Deep Half Guard by diving under their weight, or recover half guard with knee shield. The key is making this decision before you are completely flattened rather than fighting a lost retention battle.
-
-**Q3**: How do you exploit the passer's forward pressure commitment to set up a back take?
-**A**: When the passer drives forward pressure to compress your hooks, their weight distribution shifts toward you and creates vulnerability on their near side. Time your underhook attempt for the moment they transition grips - specifically when their crossface arm adjusts or they release one grip to establish another. Swim your inside arm deep for the underhook while simultaneously using your inverted hook to redirect their forward momentum laterally. Follow with seatbelt grip and hook insertion as their base collapses from the force redirection.
-
-**Q4**: What is the defensive priority hierarchy when your K-Guard is being systematically passed?
-**A**: First priority is preventing back exposure during your own defensive transitions - never turn away from the passer in ways that expose your back. Second priority is maintaining at least half guard rather than conceding full pass to side control. Third priority is recovering full K-Guard or transitioning to an alternative guard with active hooks. Fourth priority is launching counter-attacks like sweeps or back takes. This hierarchy ensures you maintain a viable position even when your preferred defense fails at each level.
-
-
-
-</section>
 
 
 </main>

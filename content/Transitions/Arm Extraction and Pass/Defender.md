@@ -166,6 +166,8 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Extraction and Pass?</p>
+
 - Attacker shifts chest weight forward and drives into your near shoulder blade rather than maintaining standard chair-sit hip pressure - this forward commitment signals the shoulder pin setup
 - Attacker's near hand reaches for your trapped wrist or forearm, establishing a control grip in preparation for guiding the extraction
 - Attacker's hips begin shifting toward your legs while chest pressure increases on your shoulder - this combined movement creates the extraction space and signals the technique is in progress
@@ -177,6 +179,8 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Extraction and Pass?</p>
 
 - Maintain tight arm connection to your torso by keeping elbows clamped to your ribs - a structurally connected arm is nearly impossible to extract without the shoulder pin
 - Defend the shoulder pin first by keeping your base wide and actively resisting the forward weight drive before it collapses your structure
@@ -190,6 +194,8 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Extraction and Pass?</p>
 
 ### 1. Explosive sit-through to guard recovery during the hip shift phase
 
@@ -227,6 +233,8 @@ The defender's ultimate strategic goal is either to prevent the extraction entir
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Extraction and Pass?</p>
+
 ### → [[Positions/Crackhead Control]]
 
 Prevent the extraction by defending the shoulder pin early through base maintenance and arm retraction, or execute a granby roll that disrupts the attacker's weight placement and forces them to reset to standard Crackhead Control dynamics
@@ -242,6 +250,8 @@ Time an explosive sit-through during the attacker's hip shift phase when their i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Extraction and Pass?</p>
 
 ### 1. Allowing elbows to flare away from ribs, creating space between arm and torso that makes extraction trivially easy
 
@@ -271,6 +281,8 @@ Time an explosive sit-through during the attacker's hip shift phase when their i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Extraction and Pass?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner slowly executes the Arm Extraction and Pass sequence while you practice identifying each recognition cue. Focus on maintaining tight elbow-to-rib connection and defending the shoulder pin through base widening. No resistance from attacker beyond following the technique steps. Build pattern recognition for the setup.
 
@@ -287,29 +299,6 @@ Incorporate arm extraction defense into full rolling sessions. Focus on transiti
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest and most effective moment to defend against the Arm Extraction and Pass?
-**A**: The earliest and most effective defensive window is before the shoulder pin is established. When you feel the attacker's chest weight shifting forward onto your shoulder blade, immediately widen your base, circle your hips away from the pressure, and clamp your elbow tighter to your ribs. Defending at this stage prevents the entire extraction chain from developing.
-
-**Q2**: Your attacker has established the shoulder pin and is gripping your wrist - what is your best defensive response?
-**A**: At this stage, pure arm resistance is unlikely to succeed since the shoulder pin has broken your arm's structural support. Switch to timing-based defense: wait for the attacker to shift their hips toward your legs to create extraction space, then explosively sit through to half guard during that moment when their inside leg hook pressure decreases. The hip shift is their most vulnerable moment.
-
-**Q3**: How do you recognize that the Arm Extraction and Pass is being attempted versus a standard back take from Crackhead Control?
-**A**: The key recognition cue is the direction of the attacker's weight shift. For back takes, they shift their weight laterally to establish hooks and seat belt control. For arm extraction, they drive weight forward onto your shoulder blade while their near hand reaches for your wrist or forearm. The forward chest commitment to the shoulder pin is the definitive signal that differentiates extraction from back take attempts.
-
-**Q4**: The extraction has succeeded and the attacker is transitioning to side control - what is your emergency defense?
-**A**: Immediately attempt to insert your near knee between your bodies as the attacker's hips transition from chair-sit to side control sprawl. This is the last window before full side control is established. Your knee must beat their near hand to your far hip. If the knee insertion succeeds, you recover half guard with offensive options. If it fails, focus on immediate framing and side control escape sequences rather than trying to return to turtle.
-
-**Q5**: Why is the granby roll defense risky against the Arm Extraction and Pass specifically?
-**A**: The granby roll requires you to invert and expose your back momentarily during the rolling motion. Against the arm extraction setup, the attacker already has forward chest pressure committed to your shoulder and is positioned to follow your roll. If they maintain chest contact during the granby, they can transition directly to back control with hooks as your back rotates through their control. The granby works best if timed before the chest pressure is fully established, when the attacker is still settling their weight.
-
-
-
-</section>
 
 
 </main>

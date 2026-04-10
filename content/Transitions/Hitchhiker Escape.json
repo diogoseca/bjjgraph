@@ -42,16 +42,16 @@
       "relationship": "Primary defensive system - positional defenses should be attempted before Hitchhiker Escape"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Understanding the offensive mechanics improves defensive timing and recognition"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Understanding the offensive finishing mechanics improves defensive timing and recognition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Alternative armbar position where similar escape principles may apply"
+      "name": "Far Side Armbar",
+      "relationship": "Alternative armbar variant where similar escape principles may apply"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Follow-up technique after successful escape execution"
+      "name": "Half Guard Recovery",
+      "relationship": "Follow-up technique after successful escape execution to re-establish guard structure"
     },
     {
       "name": "Armbar Control",
@@ -72,10 +72,6 @@
     {
       "name": "Closed Guard",
       "relationship": "Ideal recovery position after successful escape"
-    },
-    {
-      "name": "Armbar Finish",
-      "relationship": "The finishing transition the escape is designed to prevent"
     },
     {
       "name": "Belly Down Armbar",

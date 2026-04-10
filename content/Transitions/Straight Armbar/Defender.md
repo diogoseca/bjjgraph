@@ -156,13 +156,15 @@ Defending the Straight Armbar from Mounted Crucifix is one of the most challengi
 
 The defensive strategy centers on three phases: prevention, disruption, and escape. Prevention means recognizing the armbar setup before the attacker commits and addressing the threat while still in crucifix — typically by denying the wrist grip or keeping the elbow bent. Disruption targets the transition itself, exploiting the brief moments of instability when the attacker shifts weight from crucifix control to armbar position. Escape applies when the armbar is partially secured, requiring explosive movement combined with technical precision to extract the arm or reverse position before the finish lands. Understanding all three phases gives you multiple defensive layers rather than relying on a single desperate escape attempt.
 
-**Opponent's Starting Position**: [[Positions/Mount/Mounted Crucifix]] (Top)
+**Opponent's Starting Position**: [[Positions/Armbar Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Straight Armbar?</p>
 
 - Attacker shifts both hands from your neck or collar toward your wrist or forearm, indicating a switch from choke to armbar targeting
 - Attacker's weight shifts laterally toward the trapped arm side as they begin aligning their hips over your elbow joint
@@ -177,6 +179,8 @@ The defensive strategy centers on three phases: prevention, disruption, and esca
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Straight Armbar?</p>
+
 - Prevent full arm extension at all costs — a bent elbow cannot be hyperextended regardless of hip positioning or leverage applied by the attacker
 - Recognize the transition from choke threat to armbar threat early by monitoring the attacker's hand movement from your neck toward your wrist
 - Use the attacker's weight shift during transition as your primary escape window — they are most vulnerable when moving from crucifix to armbar alignment
@@ -190,6 +194,8 @@ The defensive strategy centers on three phases: prevention, disruption, and esca
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Straight Armbar?</p>
 
 ### 1. Explosive bridge toward the trapped arm side during the attacker's weight transition
 
@@ -227,6 +233,8 @@ The defensive strategy centers on three phases: prevention, disruption, and esca
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Straight Armbar?</p>
+
 ### → [[Positions/Mount/Mounted Crucifix]]
 
 Deny the armbar transition by keeping your elbow bent and preventing wrist isolation. Use bicep curling combined with thumb rotation to maintain defensive arm structure. If the attacker cannot secure proper hip-over-elbow alignment, they are forced to abandon the attempt and return to crucifix control, resetting to the previous position where you can attempt arm extraction escapes.
@@ -242,6 +250,8 @@ Time an explosive bridge to coincide with the attacker's weight shift during tra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Straight Armbar?</p>
 
 ### 1. Allowing the arm to fully straighten by relaxing the bicep curl under pressure
 
@@ -276,6 +286,8 @@ Time an explosive bridge to coincide with the attacker's weight shift during tra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Straight Armbar?</p>
+
 **Week 1-2** - Recognition and arm defense mechanics
 Partner slowly transitions from mounted crucifix to armbar position while you practice recognizing each phase of the transition. Focus on the bicep curl defense, thumb rotation, and gripping your own wrist to reinforce the bend. No resistance from the attacker — build recognition speed and defensive arm positioning as automatic responses. 15 slow repetitions per side, then increase transition speed gradually.
 
@@ -292,29 +304,6 @@ Full resistance positional sparring starting from mount, with the attacker worki
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from choke threat to armbar from mounted crucifix?
-**A**: The earliest cue is feeling the attacker's hands shift from your neck or collar area toward your wrist or forearm. This grip change indicates they are abandoning the choke and targeting the arm instead. You may also feel their weight begin shifting laterally toward the arm they intend to attack. Recognizing this transition at the grip-change stage gives you the maximum time window for defensive response — waiting until you feel hip pressure on your elbow means the armbar is already partially secured and escape probability has dropped significantly.
-
-**Q2**: Why is the attacker's transition from crucifix to armbar your best escape window?
-**A**: During the transition, the attacker must shift their weight from the centered crucifix position to a laterally-offset armbar alignment. This weight shift temporarily compromises their base and reduces the pressure holding you flat. Additionally, the attacker's legs must transition from crucifix arm-trapping configuration to armbar leg positioning (one leg across face, knees pinching the arm), and during this reconfiguration there are moments where leg control is loosened. These combined instabilities — weight shift, base disruption, and leg repositioning — create a brief but exploitable window where your bridge or hip escape has the highest probability of succeeding.
-
-**Q3**: Your arm is partially extended but you still have some bend in the elbow — what is your immediate defensive priority?
-**A**: Your immediate priority is reinforcing the elbow bend by gripping your own wrist with your free hand and pulling it toward your shoulder, creating a two-arm curl against the attacker's extension attempt. Simultaneously rotate your thumb toward the ceiling to strengthen the elbow joint's structural resistance to hyperextension. Then begin turning your entire body toward the trapped arm side while bridging — this combination reduces the attacker's leverage angle and creates the rotational escape path. Do not simply hold the curl statically; you must combine the defensive arm position with active body movement to create a genuine escape rather than merely delaying the finish.
-
-**Q4**: How does turning your body toward the trapped arm help defend the straight armbar?
-**A**: Turning toward the trapped arm accomplishes three defensive objectives simultaneously. First, it reduces the extension angle by shortening the distance between your elbow and your body, making it harder for the attacker to achieve full hyperextension. Second, it disrupts the attacker's perpendicular hip alignment — their hips need to be directly over your elbow for maximum leverage, and your turn moves the elbow off their centerline. Third, it creates the rotational momentum needed for escape — continuing the turn allows you to come up to your knees or roll through to a position where you can extract the arm and recover guard.
-
-**Q5**: What should you do if the armbar is fully locked and you cannot bend your elbow?
-**A**: If the armbar is fully locked with your arm straight, hips aligned over your elbow, and knees pinched tight, you must tap immediately. Attempting to escape a fully locked armbar risks serious elbow ligament damage, dislocation, or fracture. The time for technical escape has passed once the submission is mechanically complete. Tap clearly — hand tap on their body or the mat, verbal tap, or foot tap — and the attacker must release immediately. There is no shame in tapping to a well-executed submission from such a dominant control position, and preserving your joint health allows you to train and improve your earlier-phase defenses.
-
-
-
-</section>
 
 
 </main>

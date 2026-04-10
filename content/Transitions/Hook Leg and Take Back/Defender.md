@@ -166,6 +166,8 @@ Strategically, the defender should approach this situation by choosing escape di
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hook Leg and Take Back?</p>
+
 - Feeling the attacker's near-side leg shift from a base position to a reaching or curling motion against your hip during your sit-up escape
 - Attacker's harness grip tightening and chest pressure increasing forward just as you begin sitting, indicating they are loading to follow your movement
 - Attacker's head driving harder into your far shoulder during the sit-up, signaling they are preparing to maintain connection through the transition rather than finishing the choke
@@ -177,6 +179,8 @@ Strategically, the defender should approach this situation by choosing escape di
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hook Leg and Take Back?</p>
 
 - Keep elbows tight to hips during the sit-up motion to physically block hook insertion pathways before they develop
 - Sit laterally rather than directly backward to change the angle and deny the attacker clean hook entry geometry
@@ -191,6 +195,8 @@ Strategically, the defender should approach this situation by choosing escape di
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hook Leg and Take Back?</p>
 
 ### 1. Lateral sit with elbow block: sit to guard at a 45-degree angle away from the attacker's near leg while keeping near elbow pinned tight against your hip to physically obstruct hook entry
 
@@ -228,6 +234,8 @@ Strategically, the defender should approach this situation by choosing escape di
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hook Leg and Take Back?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Deny hook insertion through lateral sitting angle and elbow blocking, or recline to pin attacker flat. Either method forces a positional reset where the attacker remains in buggy choke top but has failed the back take transition, giving you another opportunity to escape with better defensive structure.
@@ -243,6 +251,8 @@ Strip the harness grip during the sit-up and immediately turn to face the attack
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hook Leg and Take Back?</p>
 
 ### 1. Sitting directly backward in a straight line during buggy choke escape without any lateral angle
 
@@ -277,6 +287,8 @@ Strip the harness grip during the sit-up and immediately turn to face the attack
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hook Leg and Take Back?</p>
+
 **Week 1-2** - Directional awareness
 Practice sitting out of buggy choke position at various angles with no resistance. Focus on feeling the difference between sitting straight back versus 45-degree lateral angles. Partner holds buggy choke grips without attempting hook insertion. Develop muscle memory for the lateral sit-up escape path and elbow-tight hip shielding posture.
 
@@ -293,29 +305,6 @@ Start in buggy choke bottom position against fully resisting partner who attacks
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is sitting directly backward the worst escape direction when defending Hook Leg and Take Back?
-**A**: Sitting directly backward creates maximum hip exposure on both sides simultaneously, presenting the attacker with a clean and unobstructed entry for the near-side hook. The straight-back motion also makes it easiest for the attacker to follow with chest connection because there is no lateral displacement to chase. Sitting at a 45-degree angle forces the attacker to adjust and reduces the available hook insertion surface.
-
-**Q2**: What is the first thing you should do if the attacker successfully inserts their near-side hook during your escape?
-**A**: Immediately clamp your thighs together to trap the hooking foot and prevent it from seating deep inside your thigh. Then rotate your body toward the hook side to prevent the second hook from entering. Addressing the first hook before the second arrives is critical because single-hook back control is far more escapable than double hooks, and the rotation toward the trapped leg creates half guard geometry.
-
-**Q3**: Why is stripping the harness grip during the sit-up more effective than stripping it after hooks are established?
-**A**: During the sit-up, the attacker's grip structure is in transition and their body is adjusting to follow your movement, making the harness grip less consolidated and more vulnerable to stripping. After hooks are established, the attacker has a stable base with lower body anchoring that reinforces their harness grip through structural connection. Stripping the harness during transition eliminates the upper body control that makes hook insertion effective.
-
-**Q4**: Your opponent has one hook in and is reaching for the second - what defensive option gives you the best positional outcome?
-**A**: Trap the inserted hook by clamping your thighs and immediately rotate toward the hook side while stripping the harness grip with your hands. This creates a half guard position where the attacker's inserted leg becomes trapped between your legs and you are now facing them. Half guard bottom is dramatically better than back control bottom, and the rotation prevents the second hook from ever arriving.
-
-**Q5**: How does controlling the tempo of your sit-up escape help defend against the back take?
-**A**: A controlled, deliberate sit-up keeps hip elevation minimal and reduces the window of time where the hip space is open for hook insertion. Explosive sit-ups create large, fast hip elevation that actually opens more space and generates momentum the attacker can ride to follow your movement. Controlled tempo combined with lateral angle minimizes the insertion opportunity and forces the attacker into a reactive chase rather than a timed entry.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turn and Extract from Kneebar?</p>
+
 - Rotation must precede extraction - never attempt to pull the leg out without turning first to collapse the extension angle
 - Hip rotation toward the attacker collapses the hyperextension angle and immediately relieves submission pressure on the knee
 - Timing is the decisive factor - execute before the attacker achieves full extension when the escape becomes significantly harder
@@ -202,6 +204,8 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turn and Extract from Kneebar?</p>
+
 - Attacker has established kneebar control but has not achieved full hyperextension on the knee joint
 - Defender can identify the direction of kneebar extension pressure to determine optimal rotation direction
 - At least one hand is free to post on the mat for base establishment during and after rotation
@@ -214,6 +218,8 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turn and Extract from Kneebar step by step?</p>
 
 1. **Assess kneebar angle and rotation direction**: Identify the direction of extension pressure being applied to your knee joint and determine the optimal rotation direction. Feel whether the attacker's hips are driving directly into the back of the knee or at an angle, which dictates your turning path toward their body.
 2. **Post free hand and create initial frame**: Use your free hand to post firmly on the mat while creating a frame against the attacker's hip or torso. This frame establishes the space necessary to initiate hip rotation without being pulled deeper into the kneebar control configuration.
@@ -243,6 +249,8 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turn and Extract from Kneebar?</p>
+
 - **Attacker tightens grip and drives hips forward aggressively to maintain the extension angle during rotation attempt** (Effectiveness: High) - Your Response: Increase rotation speed with explosive hip movement to overcome the grip before they can fully re-establish extension pressure → Leads to [[Positions/Kneebar Control]]
 - **Attacker threads legs to transition to saddle position during the rotation, exploiting the space created by turning** (Effectiveness: Medium) - Your Response: Keep legs tight together during rotation and prevent leg threading by maintaining inside knee pressure against their thigh → Leads to [[Positions/Ashi Garami/Saddle]]
 - **Attacker switches grip to attack the heel as rotation exposes it, transitioning toward heel hook** (Effectiveness: Medium) - Your Response: Keep foot tucked with toes pointed toward shin throughout rotation, never allowing the foot to flare outward and expose the heel → Leads to [[Positions/Kneebar Control]]
@@ -254,6 +262,8 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turn and Extract from Kneebar?</p>
 
 ### 1. Attempting to pull the leg straight out without rotating first
 
@@ -293,6 +303,8 @@ The turn and extract is the primary escape technique when caught in kneebar cont
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turn and Extract from Kneebar (Attacker)?</p>
+
 **Phase 1: Static Rotation Mechanics** - Hip rotation direction and knee bend mechanics
 Partner holds light kneebar control while you practice hip rotation without resistance, focusing on correct rotation direction toward the attacker, knee bend timing, and foot protection throughout the movement
 
@@ -310,42 +322,12 @@ Start in kneebar control with full resistance. Defender must escape within 15 se
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical direction of hip rotation when escaping a kneebar and why?
-**A**: Rotate toward the attacker's body, which collapses the hyperextension angle on the knee joint. Rotating away increases the extension angle and makes the kneebar tighter and more dangerous. The hip rotation toward the attacker shortens the lever arm and creates slack in the attacker's grip configuration, immediately reducing submission pressure. This single mechanical principle is the foundation of the entire escape.
-
-**Q2**: Your opponent has tight kneebar control and begins driving their hips forward for the finish - what is your immediate response?
-**A**: Immediately initiate explosive hip rotation toward the attacker while simultaneously bending the captured knee and pulling the heel toward your glute. Post your free hand on the mat for base. The key is committing fully to the rotation before the extension reaches a critical angle where the knee is at risk. Hesitation allows the attacker to achieve full extension, at which point this escape becomes significantly more dangerous to attempt and you should consider tapping.
-
-**Q3**: What grip configuration on your leg makes the turn and extract most difficult to execute?
-**A**: A tight figure-four grip with the attacker's arms positioned around the lower calf, combined with their hips pressed directly against the back of the knee joint. This configuration creates maximum leverage and makes rotation harder because the grip is close to the fulcrum point. When facing this grip, you need more explosive rotation and may need to address the grip pressure with your free hand before completing the extraction by pushing against their clasped hands.
-
-**Q4**: During the turn and extract, what is the primary risk to your heel and how do you mitigate it?
-**A**: The rotation can expose the heel to the attacker, creating an opportunity for them to switch to a heel hook which attacks through rotation rather than extension. Mitigate this by keeping the foot tucked with toes pointed toward your shin throughout the rotation, maintaining the foot as close to your glute as possible. Never allow the foot to flare outward during the turn, as this presents the heel directly to the attacker's hands and makes the switch trivially easy.
-
-**Q5**: What conditions must exist before you can successfully attempt the turn and extract escape?
-**A**: The attacker must not have achieved full extension on the knee, as attempting to turn against a fully locked kneebar is dangerous and risks injury. Your hips must retain enough mobility to rotate, meaning the attacker's leg entanglement cannot be completely pinning your hips flat. You need at least one hand free to post for base establishment during the turn. These conditions create the viable window for the escape, which closes as the attacker tightens control.
-
-**Q6**: Your turn and extract attempt fails and the attacker re-grips your leg - what should you do next?
-**A**: Immediately reassess rather than repeating the same escape. If the attacker's grip has loosened even slightly from your attempt, try a second rotation with greater explosiveness and commitment. If they have actually tightened their control beyond the pre-attempt level, switch to an alternative defense such as the straighten leg defense to address the extension directly, rather than repeatedly attempting rotation. Chain your defenses together so each attempt flows into the next option without resetting to static defense.
-
-**Q7**: How does your escape strategy differ when the kneebar attacker has inside ashi versus outside ashi control?
-**A**: With inside ashi control, rotate toward the side where the attacker's inside leg is hooking, as this is the weaker side of their entanglement configuration and allows you to thread past their legs more easily. With outside ashi, rotate toward the attacker's body on the outside leg side to collapse the angle. The key difference is the rotation arc needed: inside ashi requires a tighter rotation while outside ashi allows a wider turning motion. In both cases, rotating to collapse the extension angle remains the core principle.
-
-**Q8**: After successfully extracting your leg, why is establishing turtle base immediately critical rather than attempting to stand?
-**A**: Turtle base provides immediate four-point stability that prevents the attacker from re-capturing your leg during the vulnerable transition moment. Standing attempts require basing on one leg, leaving the other momentarily exposed to re-capture or single leg attacks. Turtle also protects against the attacker diving on a takedown as you try to stand. Establish turtle first to create distance and defensive structure, then work toward standing or guard recovery from the more stable four-point platform.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turn and Extract from Kneebar?</p>
 
 The turn and extract must be executed with careful awareness of knee joint loading during the rotation. Never force the rotation if the attacker has achieved full hyperextension, as this can create dangerous rotational stress on an already compromised knee. Tap immediately if you feel sharp pain in the knee joint during the escape attempt. In training, communicate with your partner about resistance levels and practice the rotation at controlled speeds until mechanics are well-established. The knee is particularly vulnerable during this escape because rotation occurs while the joint is under extension stress, creating compound force vectors on the ligaments.
 

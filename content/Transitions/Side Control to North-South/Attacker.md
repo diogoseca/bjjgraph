@@ -182,6 +182,8 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Side Control to North-South?</p>
+
 - Maintain chest-to-chest pressure throughout the entire transition without creating any space
 - Keep opponent's near arm controlled or trapped during movement to prevent frame insertion
 - Walk your feet in a tight circular path around opponent's head using small controlled steps
@@ -197,6 +199,8 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Side Control to North-South?</p>
+
 - Solid Side Control position established with heavy chest pressure across opponent's torso
 - Opponent's near arm controlled or neutralized through crossface, underhook, or arm trap
 - Your hips low and connected to opponent's torso with weight driving downward
@@ -210,6 +214,8 @@ The transition from Side Control to North-South is a fundamental positional adva
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Side Control to North-South step by step?</p>
 
 1. **Secure near arm control**: Establish dominant control of opponent's near arm through crossface pressure or underhook grip. This prevents them from creating frames as you transition. Your weight should drive through their shoulder into the mat, pinning their near shoulder flat.
 2. **Walk feet toward opponent's head**: Begin walking your feet in a semicircular path toward opponent's head while maintaining chest-to-chest contact. Your steps should be small and controlled, never breaking pressure. Keep your hips low and connected throughout the entire walking motion to prevent any space creation.
@@ -238,6 +244,8 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Side Control to North-South?</p>
+
 - **Bridge and turn into you during transition** (Effectiveness: Medium) - Your Response: Anticipate the bridge by keeping your weight low and hips connected. Use their bridging momentum to accelerate your transition to North-South, letting their energy help you complete the circular movement faster. → Leads to [[Positions/Side Control]]
 - **Frame with far arm to create space during rotation** (Effectiveness: Low) - Your Response: Keep your chest tight to their torso throughout the transition. If they establish a frame, use your head position to collapse it as you move, or attack the extended arm with kimura grip since the frame exposes their limb. → Leads to [[Positions/Side Control]]
 - **Hip escape toward your legs during transition** (Effectiveness: Medium) - Your Response: Maintain hip-to-hip connection and walk your feet faster to stay ahead of their hip movement. If they create significant space, abandon the North-South transition and reestablish Side Control or transition to mount instead. → Leads to [[Positions/Side Control]]
@@ -249,6 +257,8 @@ The transition from Side Control to North-South is a fundamental positional adva
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Side Control to North-South?</p>
 
 ### 1. Raising hips during transition, losing pressure connection
 
@@ -288,6 +298,8 @@ The transition from Side Control to North-South is a fundamental positional adva
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Side Control to North-South (Attacker)?</p>
+
 **Phase 1: Static Position Familiarization** - Understanding start and end positions
 Start in Side Control, partner passive. Practice walking feet around their head while maintaining chest pressure. Focus on keeping hips low and connected. Repeat 10 times per side, checking pressure consistency with partner feedback.
 
@@ -308,48 +320,12 @@ Full positional sparring starting from Side Control. Top player must decide when
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary control point that must be maintained throughout the transition to North-South?
-**A**: Chest-to-chest pressure must be maintained throughout the entire transition. Breaking this connection creates space for opponent to insert frames, recover guard, or escape. Your sternum should remain heavy on their torso from start to finish of the movement, functioning like a rolling pin that never lifts off the surface.
-
-**Q2**: Why is the transition to North-South more effective when opponent attempts to turn into you?
-**A**: When opponents turn into you from Side Control, they shift their weight and remove their defensive frames momentarily. This movement creates the perfect timing window for transition because they cannot simultaneously defend the position change and complete their escape attempt. Their turning motion actually helps you complete the circular path to North-South faster by providing momentum in the direction you want to travel.
-
-**Q3**: What is the correct path your feet should take during the transition?
-**A**: Your feet should walk in a tight semicircular arc around opponent's head, moving from the Side Control position to perpendicular North-South alignment. The path should consist of small steps keeping your hips low and connected. Walking too wide creates space that allows escape; walking too tight may cause you to trip or lose balance. The arc should keep your body in constant contact with theirs.
-
-**Q4**: How should you adjust your strategy if opponent secures an underhook on your far leg during transition?
-**A**: If opponent secures an underhook on your far leg, the North-South transition is compromised. You should immediately abandon it and either return to Side Control, transition to mount by stepping over with your hooked leg using their grip as leverage, or attack the underhook arm with a kimura. Forcing the transition against a leg underhook gives opponent leverage to recover guard or sweep you.
-
-**Q5**: What new submission opportunities become available in North-South that were difficult from Side Control?
-**A**: North-South position offers superior access to the kimura on the far arm by reaching under their body, the North-South choke by controlling the head with your arm and chest, and simultaneous arm attacks on both sides. The perpendicular angle eliminates many defensive frames that work in Side Control and allows you to isolate limbs more effectively because the opponent cannot use lateral hip escapes to create defensive angles.
-
-**Q6**: Why must you establish new grips immediately upon reaching North-South position?
-**A**: The moment you complete the transition is when the opponent has the best opportunity to begin their escape sequence because your old grips have been released and new ones are not yet secured. If you don't immediately secure arm controls such as double underhooks, kimura grip, or hugging the far arm, they can create frames, bridge, or start rolling to turtle. The first 1-2 seconds after arrival are critical for establishing dominant grips.
-
-**Q7**: Your opponent frames against your hip during the transition - how do you continue the movement?
-**A**: When opponent frames your hip, use your chest pressure to drive forward and collapse the frame by angling your body past it. Simultaneously accelerate your foot walk to stay ahead of their defensive structure. If the frame is strong, switch to attacking the extended arm with a kimura grip rather than fighting through the frame. The frame exposes the arm, creating an offensive opportunity from what was a defensive action.
-
-**Q8**: What grip should you prioritize securing first upon reaching North-South position?
-**A**: Prioritize double underhooks on both arms, scooping underneath their triceps to pin their arms to their sides. This eliminates all framing ability and sets up multiple submission pathways including the North-South choke and kimura. If double underhooks are not available, secure control of the near arm with a kimura grip or hug the far arm tight to your chest. The key is denying arm mobility within the first 1-2 seconds after arrival.
-
-**Q9**: How does the direction of force change between Side Control and North-South positions?
-**A**: In Side Control, your pressure drives laterally across opponent's body from shoulder to hip, creating a shearing force. In North-South, the pressure drives vertically downward through your chest into their sternum, creating a compressive force. This perpendicular force direction compresses their rib cage and restricts breathing more effectively. The transition requires smoothly shifting from lateral to vertical pressure without creating gaps during the rotational movement.
-
-**Q10**: Your opponent begins turning to turtle as you initiate the transition - should you continue or abort?
-**A**: Continue the transition but modify your objective. As they turn, accelerate your movement and transition past North-South directly to front headlock or turtle top position. Their turning motion actually assists your circular path around their head. Rather than fighting to keep them flat, use their movement to advance to a position where you threaten chokes or back takes from their turtle. This is a higher-value outcome than completing North-South against a resisting opponent.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Side Control to North-South?</p>
 
 The North-South transition is one of the safer movements in BJJ when executed properly, but practitioners must be aware of potential issues. Maintain controlled pressure throughout - dropping your full weight suddenly onto opponent's chest can cause rib injuries or breathing difficulty. Be particularly cautious with smaller or injured training partners. When consolidating in North-South, ensure your partner can breathe and tap if needed. Avoid posting hands near opponent's face during the transition to prevent accidental eye pokes. Practice smooth, controlled movements rather than explosive or jerky motions that could injure neck or shoulders. Always respond immediately when partner taps, especially if you have transitioned to submission attempts from North-South.
 

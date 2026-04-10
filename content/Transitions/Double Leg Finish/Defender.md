@@ -166,6 +166,8 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Leg Finish?</p>
+
 - Opponent's hands clasped behind both of your knees with forearm pressure against the back of your legs, indicating the finish grip is secured
 - Explosive upward hip extension from the opponent combined with forward shoulder pressure against your torso, signaling the driving phase has begun
 - Your weight shifting backward involuntarily as opponent's drive disrupts your base, with your heels lifting or feet sliding backward on the mat
@@ -177,6 +179,8 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Leg Finish?</p>
 
 - Lower your hips immediately upon feeling the opponent's grip behind your knees to increase the force required for the lift and reduce their mechanical advantage
 - Establish a whizzer (overhook) on one side as early as possible to disrupt the opponent's structural alignment and create an anchor point for defensive movement
@@ -190,6 +194,8 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Leg Finish?</p>
 
 ### 1. Sprawl and drive hips back while cross-facing opponent's head away from your body
 
@@ -227,6 +233,8 @@ Advanced defenders develop the ability to counterattack during the finish phase 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Leg Finish?</p>
+
 ### → [[Positions/Clinch]]
 
 Achieve this by sprawling aggressively early in the finish attempt while cross-facing the opponent's head, or by establishing a deep whizzer that breaks their driving angle. Once their momentum is stopped, pummel to establish dominant grip position in the clinch. The key is addressing the finish attempt before the opponent achieves full hip extension - once they are driving at full power, returning to a dominant clinch position becomes significantly harder.
@@ -242,6 +250,8 @@ This counter outcome occurs when you successfully threaten a guillotine choke du
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Leg Finish?</p>
 
 ### 1. Staying upright and stiff-legging against the drive instead of lowering hips and sprawling
 
@@ -271,6 +281,8 @@ This counter outcome occurs when you successfully threaten a guillotine choke du
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Leg Finish?</p>
+
 **Week 1-2: Recognition and Reaction Drills** - Identifying the finish attempt and initiating defensive responses
 Partner performs double leg finish at 25% speed and power from established penetration position. Defender practices recognizing the drive initiation cues and responding with basic sprawl, whizzer establishment, and hip lowering. Focus on reaction speed and correct defensive posture rather than stopping the takedown. Partner provides feedback on timing of defender's recognition. Build the muscle memory for immediate hip drop when feeling the drive begin.
 
@@ -287,29 +299,6 @@ Defend double leg finishes during live standing grappling at full resistance. De
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for sprawl defense against the double leg finish, and why does timing matter so much?
-**A**: The optimal sprawl window is after the opponent has committed to the finish but before they achieve full hip extension and forward drive momentum. This window is typically less than one second. Timing matters because sprawling too early (before they commit) allows them to adjust and re-shoot, while sprawling too late (after full hip extension) means their driving power has already displaced your base beyond recovery. The ideal sprawl occurs as you feel their hips begin to thrust forward - at this point their commitment prevents adjustment, but their power has not yet reached full expression. Recognizing the hip extension initiation through tactile cues (increasing forward pressure, upward lift on your legs) is the key skill.
-
-**Q2**: Your opponent has completed the penetration step and secured grip behind your knees but has not yet begun the drive - what is your highest-percentage defensive response?
-**A**: The highest-percentage response at this moment is establishing a deep whizzer on one side while simultaneously dropping your hips low and heavy. The whizzer should be locked by clamping your elbow tight to your ribs with your arm threaded over their arm and behind their back. This is the highest-percentage option because it addresses the problem structurally rather than requiring explosive timing like the sprawl. The whizzer breaks the symmetry of their drive - they cannot lift both legs evenly when one side is anchored by the overhook. From this position, circle toward the whizzer side to further compromise their angle while using your free hand to fight their grip on the opposite knee. This buys time and creates scramble opportunities.
-
-**Q3**: When is attempting a guillotine counter during the double leg finish a good tactical decision versus a poor one?
-**A**: A guillotine counter is a good decision when the opponent's head is positioned on the inside (between your arms) rather than tight against your hip, because inside head position exposes the neck for the choke. It is also favorable when you have training in finishing guillotines from guard, since completing the takedown while in a guillotine puts the attacker in immediate danger. A guillotine attempt is a poor decision when the opponent's head is tight to your hip with no neck exposure, when your guillotine grip is weak or poorly positioned, or when you lack confidence finishing from guard. A failed guillotine attempt wastes the critical defensive window and typically results in conceding side control without resistance, which is worse than other defensive options.
-
-**Q4**: How should your defensive strategy change when the takedown is clearly going to succeed and you cannot prevent it?
-**A**: When the takedown is inevitable, your strategic priority shifts entirely from preventing the takedown to controlling the landing position. The specific actions are: hook your legs around the opponent's waist to establish closed guard before hitting the mat, or at minimum insert a knee between your bodies to establish half guard. If neither guard option is available, immediately frame with both forearms against the opponent's shoulders and hips upon landing to prevent them from settling their weight. The positional difference between landing in closed guard versus conceding side control is enormous - from guard you have sweeps, submissions, and positional control, while from side control bottom you face an uphill escape battle. Never accept a clean pass to side control when you had the opportunity to pull guard during the descent.
-
-**Q5**: What physical cue tells you the opponent is about to initiate the drive phase of the finish, and how should you respond in the fraction of a second before it begins?
-**A**: The key physical cue is feeling their hip bones begin to thrust forward and upward against your thighs combined with a tightening of their grip behind your knees and increased head pressure into your torso. You may also feel their weight shift from their knees to the balls of their feet as they load for the explosive drive. In the fraction of a second before the drive, you should simultaneously drop your hips back and down (beginning the sprawl motion), swim one arm over their shoulder for a whizzer, and shift your weight laterally rather than accepting the straight-line drive. This pre-emptive response is far more effective than reacting after the drive has begun, because once the opponent achieves full hip extension with forward momentum, the physics heavily favor the attacker regardless of defensive technique quality.
-
-
-
-</section>
 
 
 </main>

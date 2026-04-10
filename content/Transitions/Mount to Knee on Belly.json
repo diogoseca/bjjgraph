@@ -86,15 +86,15 @@
       "relationship": "Primary defensive escape the bottom player uses after KOB is established"
     },
     {
-      "name": "Armbar from Knee on Belly",
+      "name": "Far Side Armbar from KOB",
       "relationship": "High-percentage submission available from the target KOB position"
     },
     {
-      "name": "Cross Collar Choke from KOB",
-      "relationship": "Gi-based submission threat from the target KOB position"
+      "name": "Cross Collar Choke",
+      "relationship": "Gi-based submission threat available from the target KOB position"
     },
     {
-      "name": "Consolidation to Knee on Belly",
+      "name": "Side Control to Knee on Belly",
       "relationship": "Alternative KOB entry from side control that shares similar mechanics"
     }
   ],
@@ -266,6 +266,14 @@
       {
         "question": "How does the Mount to KOB transition integrate with your overall top pressure cycling game?",
         "answer": "The transition creates a dynamic positional cycling system where you flow between mount, KOB, and side control based on the opponent's defensive reactions. Each position requires different defensive responses from the bottom player, preventing them from developing effective escape patterns against any single position. When mount attacks stall, transition to KOB for new angles. When KOB escapes develop, drop to side control or advance back to mount. This cycling compounds fatigue and frustration, degrading the quality of their escape attempts over time until submission openings emerge."
+      },
+      {
+        "question": "What is the primary direction of force you should apply through your grips during the weight shift phase?",
+        "answer": "The primary force direction should be forward and downward, driving through your collar and belt grips to pin the opponent's shoulders and hips to the mat. This forward pressure serves two purposes: it prevents the hip escape that exploits reduced hip-to-hip control during the knee lift, and it loads your weight onto your grip contact points rather than your transitioning knee. The forward vector should increase as your knee lifts, creating a compensating pressure mechanism that fills the control gap left by removing one ground contact point from the straddling mount position."
+      },
+      {
+        "question": "Your opponent catches your transitioning leg and begins recovering half guard - what are your immediate options?",
+        "answer": "If the leg is caught before KOB is established, you have three primary responses. First, use your free leg to pummel inside their legs and extract the caught leg back to mount position. Second, drive through the catch using a knee slice motion to complete the pass to side control rather than KOB. Third, use the half guard top position as a platform for submission attacks like the kimura or darce choke that punish their commitment to the leg catch. The worst response is to remain static in the half guard position without immediately pursuing one of these options, as this allows them to consolidate their defensive structure."
       }
     ],
     "safety_considerations": "The Mount to Knee on Belly transition carries moderate injury risk primarily from knee placement. Avoid dropping bodyweight suddenly onto the training partner's sternum, floating ribs, or xiphoid process, which can cause bruising, rib contusion, or cartilage damage. During drilling, place the knee with controlled pressure and gradually increase weight. Allow training partners to tap or verbally signal if diaphragm pressure becomes overwhelming. Be particularly careful with smaller training partners where the weight differential amplifies the concentrated pressure through the knee contact point."

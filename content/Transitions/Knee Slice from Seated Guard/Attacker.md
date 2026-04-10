@@ -188,6 +188,8 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slice from Seated Guard?</p>
+
 - Grip before drive: Never initiate the knee slice without established collar and pants or sleeve control to prevent counter-attacks
 - Diagonal angle: Drive the knee at 45 degrees across the thigh line, not straight down between the legs, to create the splitting wedge effect
 - Simultaneous crossface: The crossface must arrive with or immediately after the knee to prevent underhook counter-attacks from the guard player
@@ -202,6 +204,8 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slice from Seated Guard?</p>
+
 - Standing or kneeling position over the seated guard player with athletic base and mobility to change angles
 - Collar grip established with lead hand for posture control and prevention of technical standup
 - Pants or sleeve grip with trail hand for controlling the guard player's near-side leg
@@ -214,6 +218,8 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slice from Seated Guard step by step?</p>
 
 1. **Establish Dominant Grips**: From standing or kneeling over the seated guard player, secure a collar grip with your lead hand and a pants grip at the knee or ankle with your trail hand. These grips prevent the opponent from standing up, scooting away, or inserting butterfly hooks. The collar grip controls their posture while the pants grip controls their primary defensive tool.
 2. **Control the Near-Side Leg**: Use your pants grip to push the opponent's near-side leg to the mat or pin it to one side, eliminating the primary frame they would use to block your knee entry. If they resist the push, use a quick pull-push action to off-balance them laterally before committing to the slice. The leg must be cleared or redirected before the knee drive begins.
@@ -243,6 +249,8 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slice from Seated Guard?</p>
+
 - **Knee shield frame inserted before the knee crosses the thigh line, blocking the diagonal drive path** (Effectiveness: High) - Your Response: Switch to long step pass by stepping your lead leg back and around the shield, or use toreando to redirect laterally past the frame → Leads to [[Positions/Seated Guard]]
 - **Underhook and hip escape as the knee lands, creating angle for sweep from half guard** (Effectiveness: High) - Your Response: Apply immediate whizzer control on the underhook arm and drive heavy shoulder pressure to flatten the opponent before they complete the reversal → Leads to [[Positions/Half Guard]]
 - **Butterfly hook insertion under the slicing thigh before the knee reaches the mat** (Effectiveness: Medium) - Your Response: Accelerate the forward drive and use the collar grip to snap their posture down, removing the elevation angle the hook needs to function → Leads to [[Positions/Seated Guard]]
@@ -254,6 +262,8 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slice from Seated Guard?</p>
 
 ### 1. Attempting the knee slice without establishing grips first
 
@@ -293,6 +303,8 @@ The knee slice from seated guard is executed by the passer standing or kneeling 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slice from Seated Guard (Attacker)?</p>
+
 **Phase 1: Grip and Entry Mechanics** - Proper grip placement, knee angle, and forward drive coordination
 Practice the knee slice entry against a stationary seated guard partner with no resistance. Focus on correct grip placement (collar plus pants), 45-degree knee angle, and simultaneous drive-and-crossface coordination. Repeat 20 times per side until the motion feels fluid and automatic.
 
@@ -313,48 +325,12 @@ Train the knee slice entry during timed rounds with fresh partners rotating in e
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What grip combination provides the most reliable control for initiating a knee slice from seated guard?
-**A**: A collar grip with the lead hand combined with a same-side pants grip at the knee provides the most reliable control. The collar grip prevents the opponent from sitting up, standing, or creating distance, while the pants grip controls their primary defensive tool. This combination allows you to simultaneously restrict their mobility and create the angle necessary for the knee slice entry. Some practitioners prefer a sleeve grip, but the collar provides superior posture control against the seated base.
-
-**Q2**: Why is the 45-degree knee angle critical for a successful knee slice entry?
-**A**: The 45-degree angle creates a wedge effect that splits the opponent's legs apart as it drives across their thigh line. A vertical knee drive gets stuck between the legs without creating lateral separation, resulting in a stalled half guard with no passing momentum. The diagonal angle channels your forward momentum into a lateral splitting force that opens the path for your hips to follow through. This angle also positions your shin as a barrier that prevents the opponent from closing their legs around your thigh.
-
-**Q3**: Your opponent inserts a knee shield as you begin the knee slice - how do you adjust?
-**A**: When the opponent establishes a knee shield, your primary options are to switch to a long step pass by stepping your lead leg back and around the shield, or to use the toreando pass by redirecting their legs laterally. Do not force the knee slice through the shield since this burns energy and rarely succeeds against a well-placed frame. The knee shield blocks the diagonal angle of the slice, so you must change the angle of attack entirely rather than trying to power through the frame.
-
-**Q4**: At what moment during the seated guard exchange is the knee slice most likely to succeed?
-**A**: The knee slice is most effective when the opponent's weight is committed to their posted hands, typically occurring when they scoot backward, attempt to re-grip, or transition between defensive positions. During these moments, their legs are momentarily less active as defensive frames. The optimal timing window is approximately half a second when their hips are transitioning and they cannot instantly deploy knee shields or butterfly hooks. Reading these weight shifts through your grips provides the timing cues for the entry.
-
-**Q5**: What is the most critical upper body control to establish after the knee lands across the thigh?
-**A**: The crossface is the single most critical upper body control after the knee lands. Driving your forearm or shoulder across the opponent's jaw to turn their head away prevents them from turning into you for underhook battles, which is the primary counter to the knee slice. Without the crossface, the opponent can face you, establish an underhook, and initiate sweeps or back takes from half guard. The crossface should arrive simultaneously with the knee drop as a unified motion.
-
-**Q6**: Your knee slice gets stuck in half guard with the opponent fighting for the underhook - what is your immediate priority?
-**A**: Your immediate priority is establishing or maintaining the crossface to prevent the opponent from completing the underhook. If they already have the underhook, apply a whizzer on their underhook arm while driving shoulder pressure to flatten them back to the mat. Do not try to extract your trapped leg while they have an active underhook because this exposes your back to a back take. Neutralize their upper body offense first through crossface and pressure, then work on extracting the leg through standard half guard passing mechanics.
-
-**Q7**: How does the knee slice from seated guard differ mechanically from a knee slice initiated from half guard top?
-**A**: The knee slice from seated guard must first close the distance gap that the seated player maintains with posted hands and extended legs. This requires grip fighting and precise timing that the half guard knee slice does not need. From half guard, the passer is already chest-to-chest with one leg trapped, so the knee slice is a continuation of existing pressure. From seated guard, the passer must bridge open space, land the knee correctly, and establish upper body control in one fluid motion, making grip setup and entry timing far more critical to success.
-
-**Q8**: What is the primary chain attack if the knee slice from seated guard is blocked repeatedly?
-**A**: The primary chain is to fake the knee slice to draw the knee shield defense, then switch to a toreando pass going the opposite direction. When the opponent commits their legs to blocking the slice angle, their lateral mobility is temporarily compromised, creating an opening for the toreando to redirect their legs to one side. Alternatively, backstep to the far side when the opponent over-commits their knee shield toward you. The three-pass chain of knee slice, toreando, and backstep covers all defensive angles from seated guard.
-
-**Q9**: Why should you avoid attempting the knee slice when the opponent has established strong collar and sleeve grips on you?
-**A**: When the opponent controls your collar and sleeve simultaneously, they can break your posture, redirect your movement, and execute sweeps as you drive forward. The knee slice requires forward weight commitment, which their grips can exploit by pulling you off-balance or channeling your momentum into a sweep. You must break at least one of their grips before initiating the slice. Entering the knee slice against double grips is one of the most common errors that leads to being swept or pulled into closed guard.
-
-**Q10**: What role does the trail leg play during the knee slice entry, and what happens if it is neglected?
-**A**: The trail leg provides base and balance during the forward drive. It should remain posted on the mat with the foot flat, ready to adjust position as the lead knee slices forward. If neglected, the trail leg floats off the mat or gets too far behind, removing your base and making you vulnerable to being swept laterally. After the knee lands, the trail leg becomes the free leg used to backstep or windshield-wiper past the opponent's half guard retention. Proper trail leg positioning is the difference between a controlled entry and an off-balance lunge.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slice from Seated Guard?</p>
 
 The knee slice involves significant forward pressure on the opponent's knee and hip structures. Apply pressure gradually and maintain control throughout the technique. Avoid explosive twisting motions that could hyperextend the opponent's trapped knee, particularly when their foot is caught between your legs during the slice. Rapid angle changes during the drive can stress the medial collateral ligament. In training, drive smoothly rather than explosively, and immediately release pressure if your partner signals discomfort in their knee or hip. Be especially cautious when the opponent's leg is externally rotated during the half guard catch.
 

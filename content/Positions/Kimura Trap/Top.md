@@ -20,38 +20,38 @@ description: "Master Kimura Trap Top in BJJ. Dominant offensive position combini
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 30% of exchanges from this position.",
-      "position": 1
-    },
-    {
-      "@type": "HowToStep",
       "name": "Execute North-South to Kimura",
       "text": "From this position, attempt North-South to Kimura. This technique is attempted in 13% of exchanges from this position.",
-      "position": 2
+      "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
       "text": "From this position, attempt Side Control to Mount. This technique is attempted in 15% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Kimura to Back Take",
       "text": "From this position, attempt Kimura to Back Take. This technique is attempted in 13% of exchanges from this position.",
-      "position": 4
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Knee on Belly",
       "text": "From this position, attempt Knee on Belly. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Arm Triangle Setup",
       "text": "From this position, attempt Arm Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Americana from Kimura Trap",
+      "text": "From this position, attempt Americana from Kimura Trap. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -171,6 +171,8 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Position Definition
 
+<p class="section-subtitle">What is Kimura Trap (Top)?</p>
+
 - Practitioner maintains Kimura grip on opponent's arm with figure-four configuration, ensuring deep grip placement near opponent's elbow while using body weight and positioning to prevent opponent from rolling out or extracting the trapped arm through proper angle and pressure application
 - Practitioner positioned on top with chest or shoulder pressure controlling opponent's upper body, using weight distribution across opponent's torso and strategic base positioning that prevents bottom player from creating space or establishing effective frames while maintaining mobility for positional transitions
 - Opponent positioned on bottom or side with trapped arm compromised and unable to effectively frame or create defensive structure, as Kimura grip forces their shoulder into vulnerable position that eliminates their ability to generate pushing power or establish space-creating frames with the trapped limb
@@ -183,6 +185,8 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Kimura Trap (Top)?</p>
+
 - Practitioner has achieved top position in side control, north-south, half guard, or opponent is in turtle position exposing arm
 - Opponent's arm is accessible and extended sufficiently to thread practitioner's arm underneath and establish Kimura grip configuration
 - Practitioner able to secure Kimura grip while maintaining positional control and preventing opponent from rolling or escaping during grip establishment
@@ -194,6 +198,8 @@ Strategically, the position is valued for its control density—the top player c
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Kimura Trap?</p>
 
 - Maintain deep Kimura grip with proper figure-four configuration while using positional pressure to prevent opponent from rolling or extracting arm
 - Use top position control combined with Kimura grip to create double control system that overwhelms opponent's defensive capacity
@@ -209,6 +215,8 @@ Strategically, the position is valued for its control density—the top player c
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Kimura Trap (Top)?</p>
 
 **If opponent keeps arm tight and defensive, preventing finishing angle development:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 75%)
@@ -226,7 +234,7 @@ Strategically, the position is valued for its control density—the top player c
 
 
 **If opponent extends arm or loses defensive structure attempting to push or frame:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 85%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 85%)
 - Execute **[[Transitions/Arm Triangle Setup/Attacker|Arm Triangle Setup]]** → [[Transitions/Arm Triangle]] (Probability: 70%)
 
 
@@ -237,6 +245,8 @@ Strategically, the position is valued for its control density—the top player c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Kimura Trap?</p>
 
 ### 1. Releasing positional control to pursue Kimura finish prematurely, allowing opponent to create escape space
 
@@ -276,6 +286,8 @@ Strategically, the position is valued for its control density—the top player c
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Kimura Trap attacks?</p>
+
 ### Kimura Finish from Side Control Drill
 
 Start in side control with Kimura grip established. Partner maintains defensive arm position. Practice creating finishing angles by walking feet toward partner's head in circular motion while maintaining proper grip and pressure. Focus on using full body leverage rather than arm strength. Reset when tap occurs or after 45 seconds.
@@ -309,38 +321,6 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal grip depth for maintaining Kimura Trap Top control?
-**A**: The grip should be positioned as close to the opponent's elbow as possible, with your figure-four locked tight and your gripping arm threaded deep under their tricep. This deep positioning maximizes leverage for both control and finishing, while shallow grips near the wrist allow opponents to straighten their arm and escape. The elbow-deep grip also prevents them from turning their hand to break the configuration.
-
-**Q2**: Your opponent starts bridging explosively while you have Kimura Trap Top established - what adjustment do you make?
-**A**: Ride the bridge by maintaining your grip connection and keeping your chest heavy on their torso without fighting the upward force directly. As they bridge, their trapped arm often extends slightly, creating finishing opportunities. When they come back down, immediately walk your feet toward their head to create the finishing angle. The bridge wastes their energy while you conserve yours through patient pressure.
-
-**Q3**: How do you distribute weight to maintain Kimura Trap Top without losing mobility?
-**A**: Keep your hips low with your weight concentrated through your shoulder into opponent's chest, but maintain light contact with your feet using a sprawled base. This allows you to shift weight quickly for transitions while keeping opponent pinned. Avoid sitting on your heels or putting weight on your knees, as this creates dead spots where opponent can escape. Your chest pressure should feel heavy to them while your legs remain mobile.
-
-**Q4**: What are the essential grips for maintaining Kimura Trap Top position?
-**A**: The primary grip is the figure-four Kimura configuration where your outside hand grips your own wrist after threading under opponent's tricep. Your gripping hand should control their wrist with thumb-in grip for maximum control. Secondary control comes from your opposite arm either crossfacing their jaw or underhooking their far side to prevent turning. The combination of arm control plus head/far side control creates complete upper body dominance.
-
-**Q5**: How do you shut down the opponent's primary escape from Kimura Trap Top?
-**A**: The primary escape is the opponent turning into you and rolling to relieve shoulder pressure. Prevent this by maintaining heavy shoulder pressure that pins their far shoulder to the mat, keeping your hips low and sprawled to create a wide base, and anticipating the roll by staying connected to their movement. When you feel them loading to turn, either tighten your chest pressure to pin them or flow with their roll to take the back.
-
-**Q6**: Your opponent successfully hides their elbow tight to their body - what is your response?
-**A**: When opponent tucks their elbow defensively, you have three high-percentage options: first, maintain the grip and transition to mount since their defensive focus on the arm opens positional advancement; second, spin to north-south where different angles often expose the elbow; third, use the shoulder pressure to gradually pry the elbow away from their body through progressive angle changes. Never release the grip - their defensive posture still limits their escape options.
-
-**Q7**: How do you manage energy when the opponent is stalling in Kimura Trap Top?
-**A**: Use patient, pressure-based control rather than active pulling or cranking. Let your body weight do the work through proper positioning - heavy shoulder pressure, sprawled hips, and relaxed arms maintaining the grip configuration. Periodically create micro-adjustments by walking feet or shifting angle to prevent them from settling. The stalling opponent is expending energy defending while you conserve through efficient weight distribution.
-
-**Q8**: Your opponent partially escapes and gets to their side - how do you recover full Kimura Trap Top control?
-**A**: Maintain your Kimura grip absolutely - this is your anchor point. Drive your shoulder into their back while walking your feet in an arc to re-establish perpendicular position. Use the Kimura grip itself to pull them back flat by driving their trapped arm toward the mat. If they continue turning away, follow them to back control. The grip ensures you maintain offensive threat regardless of their positional movement.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -363,12 +343,12 @@ Start in Kimura Trap Top from side control. Partner cycles through defensive rea
 
 - **[[Positions/Side Control]]** - Primary position - most common platform for establishing Kimura Trap Top
 - **[[Positions/North-South]]** - Key transition position - excellent platform for Kimura finishing mechanics
-- **[[Transitions/Kimura]]** - Primary submission - direct finish from this control position
+- **[[Submissions/Kimura]]** - Primary submission - direct finish from this control position
 - **[[Positions/Mount]]** - Common transition target - reached when opponent creates space defending Kimura
 - **[[Positions/Back Control]]** - Transition option - accessed when opponent rolls to defend Kimura
 - **[[Positions/Turtle]]** - Entry position - opponent's turtle creates arm exposure for grip establishment
 - **[[Positions/Half Guard]]** - Alternative entry - can establish Kimura Trap from top half guard position
-- **[[Transitions/Americana]]** - Related shoulder lock - similar finishing mechanics from top positions
+- **[[Submissions/Americana]]** - Related shoulder lock - similar finishing mechanics from top positions
 - **[[Transitions/Kimura to Back Take]]** - Key transition - primary pathway when opponent rolls to defend
 - **[[Positions/Knee on Belly]]** - Alternative advancement - transitional position when Kimura is defended
 

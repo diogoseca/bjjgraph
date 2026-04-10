@@ -21,37 +21,37 @@ description: "Master closed guard bottom with offensive sweeps, submissions, and
     {
       "@type": "HowToStep",
       "name": "Execute Hip Bump Sweep",
-      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 21% of exchanges from this position.",
+      "text": "From this position, attempt Hip Bump Sweep. This technique is attempted in 23% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar from Guard",
-      "text": "From this position, attempt Armbar from Guard. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Scissor Sweep",
+      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Scissor Sweep",
-      "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Triangle Setup",
+      "text": "From this position, attempt Triangle Setup. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Triangle Setup",
-      "text": "From this position, attempt Triangle Setup. This technique is attempted in 8% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Closed Guard",
+      "text": "From this position, attempt Cross Collar Choke from Closed Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Cross Collar Choke",
-      "text": "From this position, attempt Cross Collar Choke. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Pendulum Sweep",
+      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Pendulum Sweep",
-      "text": "From this position, attempt Pendulum Sweep. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Guillotine Setup",
+      "text": "From this position, attempt Guillotine Setup. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -169,6 +169,8 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Position Definition
 
+<p class="section-subtitle">What is Closed Guard (Bottom)?</p>
+
 - Your legs wrap completely around opponent's waist with ankles crossed behind their back, creating locked circuit that restricts hip movement and prevents disengagement. Heels pull into lower back to break posture while knees squeeze ribs to restrict breathing and movement.
 - Your back remains flat on mat with shoulders in contact with ground, hips elevated slightly to maintain connection and prevent being flattened. Head and upper back maintain mobility to create angles and respond to opponent's pressure while protecting against strikes in MMA.
 - Opponent's torso trapped between your legs with their hips unable to move laterally or create significant distance. Your hips stay connected to theirs, eliminating space that would allow them to establish posture or begin systematic passing sequences.
@@ -180,6 +182,8 @@ Master practitioners understand that closed guard is not a passive holding posit
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Closed Guard (Bottom)?</p>
 
 - Proper back position with shoulders flat on mat and ability to maintain connection without being completely flattened by opponent's weight
 - Leg conditioning and hip flexibility for sustained guard closure with ability to cross ankles comfortably behind opponent's back for extended periods
@@ -194,6 +198,8 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Closed Guard?</p>
+
 - Maintain constant hip connection eliminating space between your hips and opponent's hips to prevent posture establishment and passing angles
 - Control opponent's posture through strategic grips on collar, sleeves, or behind head using combined arm and leg pressure to break them forward
 - Create angles by shifting hips laterally to off-balance opponent and expose their base, setting up sweeps and submissions from advantageous positions
@@ -207,6 +213,8 @@ Master practitioners understand that closed guard is not a passive holding posit
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Closed Guard (Bottom)?</p>
 
 **If opponent maintains strong upright posture with hands on hips or chest creating distance:**
 - Execute **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** → [[Positions/Mount]] (Probability: 60%)
@@ -240,6 +248,8 @@ Master practitioners understand that closed guard is not a passive holding posit
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Closed Guard?</p>
 
 ### 1. Keeping flat, square position without creating angles or off-balancing opponent through hip movement
 
@@ -279,7 +289,9 @@ Master practitioners understand that closed guard is not a passive holding posit
 
 ## Training Drills for Defense
 
-### Posture Breaking Sequences
+<p class="section-subtitle">How do you train Closed Guard defense?</p>
+
+### Posture Sequences
 
 Practice posture breaking sequences with progressive resistance, focusing on using collar grips combined with heel pressure to pull opponent forward. Partner starts with strong posture and gradually increases resistance as you develop timing and leverage mechanics. Work both gi collar grips and no-gi head control variations.
 
@@ -293,14 +305,14 @@ Drill transition chains between submissions and sweeps, such as triangle to armb
 **Duration**: 10 minutes continuous flow
 
 
-### Hip Mobility and Angle Creation
+### Hip Mobility and Dominant Angles
 
 Work on hip mobility drills specifically for closed guard, practicing shifting hips 45 degrees left and right while maintaining guard closure. Add resistance by having partner attempt to maintain square posture as you create angles. Develop ability to create angles without breaking guard.
 
 **Duration**: 5 minutes technique, 5 minutes live resistance
 
 
-### Grip Fighting from Closed Guard
+### Grips from Closed Guard
 
 Specific training focused on establishing and maintaining dominant grips against opponent actively fighting hands. Practice transitioning between collar, sleeve, and wrist grips while maintaining posture control. Work both offensive grip establishment and defensive grip breaking against partner's attempts.
 
@@ -344,12 +356,12 @@ Partner attempts to break and pass closed guard using any legal methods while yo
 - **[[Positions/Triangle Control]]** - Primary submission position accessible from closed guard attacks
 - **[[Positions/Mount]]** - Most common target position for sweeps from closed guard
 - **[[Positions/Back Control]]** - Alternative sweep target via kimura or omoplata transitions
-- **[[Positions/Rubber Guard]]** - Advanced variation using extreme flexibility for enhanced control
+- **[[Positions/Rubber Guard/Mission Control]]** - Advanced rubber guard variation using flexibility for enhanced control
 - **[[Positions/Spider Guard]]** - Alternative guard system when closed guard is broken
 - **[[Positions/Combat Base]]** - Opponent's defensive posture attempting to counter closed guard offense
 - **[[Transitions/Hip Bump Sweep]]** - Fundamental sweep technique from this position
 - **[[Transitions/Scissor Sweep]]** - High-percentage sweep utilizing angle creation
-- **[[Submissions/Armbar from Guard]]** - Primary submission attack from broken posture
+- **[[Transitions/Closed Guard to Triangle]]** - Primary triangle entry transition from broken posture
 
 
 </section>

@@ -209,9 +209,9 @@ The transition to mount from side control represents a critical component of the
 
 - [[Positions/Gift Wrap]] - Control method that facilitates the transition
 
-- [[Submissions/Americana from Mount]] - Follow-up submission after achieving mount
+- [[Submissions/Americana]] - Follow-up submission available after achieving mount
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission commonly attacked from mount
+- [[Transitions/Mount to Armbar]] - Follow-up submission transition commonly attacked from mount
 
 - [[Positions/Mount/High Mount]] - Advanced mount variation accessible after basic mount establishment
 

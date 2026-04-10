@@ -198,7 +198,7 @@
     ],
     "training_drills": [
       {
-        "name": "Grip Fighting from Seated Guard Top",
+        "name": "Grips from Seated Guard Top",
         "description": "Partner starts in seated guard. You stand or kneel and attempt to establish dominant grips (collar, sleeves, pants). Partner fights grips and tries to stand. Focus on winning grip battles and preventing technical standups. Reset when pass is achieved or opponent stands.",
         "duration": "3 minutes"
       },
@@ -271,10 +271,6 @@
     },
     "transitions": [
       {
-        "transition": "Toreando Pass",
-        "attempt_probability": 38
-      },
-      {
         "transition": "Knee Slice Pass",
         "attempt_probability": 12
       },
@@ -308,7 +304,7 @@
       },
       {
         "transition": "Toreando Pass from Seated Guard",
-        "attempt_probability": 1
+        "attempt_probability": 39
       }
     ],
     "knowledge_assessment": [
@@ -382,7 +378,7 @@
       "No strong chest-to-chest pressure from opponent"
     ],
     "key_principles": [
-      "Active Base Maintenance: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you",
+      "Active Base: Posted hands provide stability but must allow movement - rigid base limits mobility, too loose base allows opponent to flatten you",
       "Distance Management: Feet actively control spacing - too close allows chest pressure, too far limits offensive options",
       "Ready to Stand: Mental and physical preparedness to technical standup at any moment forces opponent caution",
       "Hip Mobility Priority: Unlike closed guard, seated guard requires constant hip adjustment to keep opponent off-balance",

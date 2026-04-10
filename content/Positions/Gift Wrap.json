@@ -337,7 +337,7 @@
     },
     "transitions": [
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Gift Wrap",
         "attempt_probability": 33
       },
       {
@@ -377,7 +377,7 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Gift Wrap RNC",
+        "transition": "Rear Naked Choke from Gift Wrap",
         "attempt_probability": 2
       }
     ]

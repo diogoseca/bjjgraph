@@ -165,6 +165,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Position Definition
 
+<p class="section-subtitle">What is Open Guard (Bottom)?</p>
+
 - Legs are open and actively engaged with opponent's hips, knees, or ankles, creating barriers and control points rather than passive positioning with constant micro-adjustments based on opponent's movements
 - Bottom player maintains at least one point of contact with opponent through hands (grips on gi/wrists) or feet (hooks on hips/legs), preventing free movement and maintaining connection for offensive and defensive purposes
 - Hip positioning remains mobile and reactive, with bottom player able to adjust angles and create distance through shrimping and hip movement, never remaining flat on back for extended periods
@@ -176,6 +178,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Open Guard (Bottom)?</p>
 
 - Hip mobility and leg dexterity sufficient to maintain active foot positioning on opponent's hips, knees, or legs
 - Understanding of grip fighting fundamentals including sleeve control, collar grips, and pant grips
@@ -191,6 +195,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Open Guard?</p>
+
 - Maintain active foot and hand engagement at all times - passive limbs invite passing pressure
 - Control distance and angles through strategic framing and leg positioning, never allowing opponent to close distance freely
 - Prevent opponent from establishing dominant grips or pressure by constant grip fighting and hand battling
@@ -205,6 +211,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Open Guard (Bottom)?</p>
 
 **If opponent is standing or on knees with upright posture:**
 - Execute **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** → [[Positions/Standing Position]] (Probability: 55%)
@@ -242,6 +250,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Open Guard?</p>
 
 ### 1. Passive legs/feet that remain static without active engagement
 
@@ -286,6 +296,8 @@ Open Guard Bottom is a dynamic family of guard positions where the bottom player
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Open Guard defense?</p>
+
 ### Open Guard Retention with Progressive Passing Pressure
 
 Partner attempts various passes while you maintain open guard structure. Start at 50% intensity and gradually increase to competition pace. Focus on maintaining active feet, preventing grips, and recovering when partially passed. Reset when pass is completed or sweep is achieved.
@@ -307,7 +319,7 @@ Partner alternates between pressure passing and distance creation while you adju
 **Duration**: 2 minutes per round, 5-6 rounds
 
 
-### Grip Fighting from Guard Bottom
+### Grips from Guard Bottom
 
 Positional sparring focused exclusively on establishing and breaking grips from open guard. No passing or sweeping - purely grip fighting. Develop hand fighting skills, wrist control, and strategic grip sequences.
 
@@ -318,38 +330,6 @@ Positional sparring focused exclusively on establishing and breaking grips from 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins driving forward with shoulder pressure - what hip adjustment maintains your guard structure?
-**A**: Immediately hip escape diagonally away from the pressure direction while maintaining one foot on their hip and the other creating a frame on their knee or thigh. Never stay flat when pressure comes - angle your body to create space and prevent being flattened. This hip escape creates the space needed to insert hooks or establish a specific guard variation.
-
-**Q2**: What are the essential connection points for maintaining open guard control against a standing opponent?
-**A**: Minimum two connection points required: one controlling lower body (foot on hip, de la riva hook, or shin frame) and one controlling upper body (collar grip, sleeve grip, or wrist control). Without both connections, opponent can freely advance. The feet manage distance while hands control their posture and movement direction.
-
-**Q3**: How do you shut down a toreando pass attempt when opponent grabs your pants at the knees?
-**A**: Immediately grip their sleeves or wrists to prevent them from redirecting your legs. Keep your knees pointed at them rather than allowing them to be pushed to one side. If they begin the lateral movement, follow with your hips and establish a hook on their near leg. The key is preventing the angle creation by keeping your legs between you and them.
-
-**Q4**: Your opponent strips your collar grip while maintaining pant control - what immediate recovery prevents the pass?
-**A**: Establish a new connection point immediately - either re-grip the collar from a different angle, control their same-side sleeve, or frame on their shoulder with your hand. Simultaneously create distance with your feet by pushing on their hips. Never allow them to have upper body freedom while controlling your legs - this is the passing configuration.
-
-**Q5**: What weight distribution fundamentals allow you to maintain guard when being stacked?
-**A**: Keep weight on your upper back and shoulders rather than rolling onto your neck. Post with one or both hands behind you to prevent being folded completely. Turn your body to the side rather than staying square - this makes stacking much more difficult and creates angles for guard retention or sweep opportunities.
-
-**Q6**: How do you maintain control when your primary guard variation is being systematically dismantled?
-**A**: Transition to a different guard variation before your current guard completely fails. Recognize early warning signs (losing key grips, opponent creating angle) and flow to complementary guards. For example, if spider guard grips are being stripped, transition to lasso or de la riva before losing all control. The transition itself can create sweep opportunities.
-
-**Q7**: What framing priorities prevent opponent from achieving chest-to-chest pressure?
-**A**: Primary frame on their shoulder or bicep with your forearm - not extended arm. Secondary frame with your knee or shin across their hip line. Keep elbows tight to your body when framing to prevent kimura attacks. Create a structure that uses your skeleton's strength rather than muscular effort to maintain distance.
-
-**Q8**: How do you manage energy when defending sustained passing pressure for extended periods?
-**A**: Use efficient movements - small hip adjustments rather than large escapes when possible. Let your guard structure absorb pressure rather than fighting it directly. Threaten sweeps and submissions to force opponent to reset rather than continuously defending. Transition to half guard or closed guard periodically to recover if needed - these require less active maintenance.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -168,6 +168,8 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rubber Guard Clear to Pass?</p>
+
 - Opponent places free hand on your far hip or begins posting against your body to create a structural frame - this indicates the beginning of the escape sequence
 - Opponent shifts weight laterally away from the trapped arm side, angling shoulders to reduce leg pressure effectiveness - they are entering the pressure redirection phase
 - Opponent's free hand moves to push down on your controlling knee or begins fighting your grip on your own shin - they are addressing leg control, your highest-danger moment for losing position
@@ -179,6 +181,8 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rubber Guard Clear to Pass?</p>
 
 - Maintain constant downward breaking pressure on opponent's posture through leg engagement and pulling mechanics to prevent the first phase of their escape
 - Fight for grip retention aggressively - the hand securing your shin or foot is the structural keystone of the entire Rubber Guard configuration
@@ -192,6 +196,8 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rubber Guard Clear to Pass?</p>
 
 ### 1. Transition to triangle by shooting legs up around opponent's head and extracted arm as they begin circular arm withdrawal
 
@@ -236,6 +242,8 @@ Defending against the Rubber Guard Clear to Pass means you are the bottom player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rubber Guard Clear to Pass?</p>
+
 ### → [[Positions/Rubber Guard]]
 
 Maintain grip on shin or foot throughout opponent's escape attempt by actively fighting their hand that pushes your knee. Use hip elevation to re-lock the leg configuration before they complete arm extraction. Pull their head down with your free hand to re-break posture whenever they create any vertical space. The key is preventing the escape from progressing past the leg control phase - if you keep your shin anchored across their back, the arm trap remains functional.
@@ -251,6 +259,8 @@ Time your triangle entry to the precise moment the opponent begins extracting th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rubber Guard Clear to Pass?</p>
 
 ### 1. Relying solely on leg strength to hold the Rubber Guard configuration without actively fighting grips
 
@@ -285,6 +295,8 @@ Time your triangle entry to the precise moment the opponent begins extracting th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rubber Guard Clear to Pass?</p>
+
 **Week 1-2** - Grip retention and re-establishment under pressure
 Partner attempts to push your controlling knee and break your shin grip from established Rubber Guard. Practice re-gripping and pulling the leg back into position while maintaining head control. Focus on developing automatic grip re-acquisition reflexes. Partner uses progressive resistance from 30% to 70%.
 
@@ -301,29 +313,6 @@ Live rounds starting in established Rubber Guard. Practice the complete defensiv
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the highest-percentage moment to transition from Rubber Guard to triangle during the opponent's escape attempt?
-**A**: The highest-percentage moment is when the opponent begins the circular arm extraction motion. At this point, their arm is withdrawing from your chest trap and naturally creating the one-arm-in, one-arm-out configuration that the triangle requires. Shooting your hips up and locking legs around their head and the extracting arm catches them in transition before they can complete the withdrawal and tuck their elbow to their ribs.
-
-**Q2**: Your opponent posts their free hand on your far hip and begins the frame establishment phase - how do you counter this specifically?
-**A**: Use the posted hand as an anchor point to pull yourself deeper into the Rubber Guard configuration. Grip their posting wrist with your free hand and pull it across your body while simultaneously elevating your hips to increase leg pressure. Their frame hand is now trapped, removing their primary escape tool. Alternatively, use this as an opportunity to advance to New York position by using their frame as leverage to deepen your arm isolation.
-
-**Q3**: Why is it important to actively fight grips rather than relying solely on leg strength to maintain Rubber Guard?
-**A**: Leg muscles fatigue rapidly when asked to maintain static pressure against a systematically escaping opponent. The Rubber Guard configuration is structurally maintained by the hand gripping the shin or foot combined with leg positioning - the grip is the keystone. Without active grip retention, the opponent can incrementally reduce leg pressure through frame creation until the configuration collapses. Active grip fighting keeps the structural lock intact while distributing effort between arms and legs.
-
-**Q4**: Your opponent successfully extracts their arm but has not yet recovered full posture - what is your best immediate response?
-**A**: Immediately transition to either triangle entry if their head is still low enough to lock legs around, or re-close your guard by locking ankles behind their back to prevent the pass. If you choose the triangle, shoot your hips up aggressively before they posture. If you choose closed guard, immediately re-break their posture and look to re-enter Rubber Guard. The worst response is doing nothing - the window between arm extraction and posture recovery is narrow and you must act decisively.
-
-**Q5**: How should you use hip rotation to prevent the opponent from angling their shoulders away from your trapped arm side?
-**A**: When the opponent angles their shoulders away to reduce your leg pressure, rotate your hips in the same direction to track their movement and maintain the perpendicular relationship between your shin and their back. Use your shoulder and upper back as the pivot point, keeping your leg configuration locked while adjusting the angle. This tracking movement prevents them from creating the lateral space needed for pressure redirection and keeps your arm isolation mechanically sound regardless of their angle changes.
-
-
-
-</section>
 
 
 </main>

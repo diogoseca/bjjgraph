@@ -154,6 +154,8 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Electric Chair Entry from Deep Half?</p>
+
 - Opponent's outside leg begins moving over your near shin rather than staying in the standard deep half leg configuration
 - You feel the opponent's foot hooking behind your calf on the near leg while their other foot triangles behind their own knee
 - Opponent's hips begin extending downward and away from you while their underhook pulls tighter, creating a splitting sensation on your legs
@@ -166,6 +168,8 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Electric Chair Entry from Deep Half?</p>
 
 - Recognize the lockdown threading attempt in its earliest stages before the figure-four is completed - once the triangle is locked, prevention becomes dramatically harder
 - Maintain forward pressure and crossface control to limit the opponent's hip mobility and prevent the perpendicular angle needed for the Electric Chair
@@ -180,6 +184,8 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Electric Chair Entry from Deep Half?</p>
 
 ### 1. Retract near leg immediately when you feel the lockdown threading beginning
 
@@ -217,6 +223,8 @@ As the defender in deep half guard top when your opponent attempts the Electric 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Electric Chair Entry from Deep Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Extract your near leg from the lockdown attempt before it is completed by driving your knee toward the opponent's hip and retracting aggressively. Once free, immediately pass your leg over the opponent's body to establish standard half guard top where their deep half positioning is neutralized. Use crossface pressure to prevent them from re-entering deep half.
@@ -228,6 +236,8 @@ Extract your near leg from the lockdown attempt before it is completed by drivin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Electric Chair Entry from Deep Half?</p>
 
 ### 1. Failing to recognize the lockdown threading until the figure-four is fully locked
 
@@ -257,6 +267,8 @@ Extract your near leg from the lockdown attempt before it is completed by drivin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Electric Chair Entry from Deep Half?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the Electric Chair entry cues early
 Partner attempts the lockdown threading from deep half at half speed while you practice recognizing the initial leg movement. Call out the moment you detect the threading attempt. Partner provides feedback on whether you caught it early enough. 20 repetitions per side, emphasizing detection speed over defensive response.
 
@@ -273,26 +285,6 @@ Positional sparring starting from deep half top. Partner actively hunts for Elec
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting the Electric Chair entry from deep half?
-**A**: The earliest cue is feeling the opponent's outside leg moving over your near shin in a threading motion. In standard deep half, their legs stay below and behind your trapped leg. The moment a leg crosses over the top of your shin, it signals lockdown threading. This happens before the figure-four is completed, giving you a critical window to retract your leg and prevent the lockdown from being established.
-
-**Q2**: Why is forward crossface pressure the primary defensive tool against the Electric Chair entry?
-**A**: Forward crossface pressure serves three defensive functions simultaneously: it flattens the opponent and prevents them from creating the perpendicular hip angle needed for the Electric Chair, it restricts their underhook depth and prevents them from reaching your far ankle, and it loads your weight onto their upper body which prevents the hip extension that powers the splitting mechanism. No other single defensive action addresses all three elements of the Electric Chair threat.
-
-**Q3**: Your opponent has fully established the Electric Chair position with lockdown, underhook, and ankle control - what is your best escape strategy?
-**A**: With the full Electric Chair established, prioritize breaking the weakest link in the chain. Address the ankle grip first by stripping their hand off your far ankle using your free hand. Without ankle control, the splitting pressure is significantly reduced. Next, apply the limp leg concept to your trapped leg and begin driving forward to flatten them. Finally, work to break the lockdown triangle methodically. If the submission pressure becomes dangerous before you can escape, tap rather than risk knee or groin injury.
-
-**Q4**: How do you prevent the opponent from transitioning to a Truck position if you successfully defend the Electric Chair?
-**A**: When defending the Electric Chair, be aware that the opponent may abandon the split and instead use the lockdown control to roll you into the Truck position by inserting a hook between your legs. To prevent this, keep your trapped leg knee tight to the mat and avoid letting the opponent roll underneath you. If they begin the roll, immediately sprawl your hips and use your free leg to post wide, preventing the rotation that leads to Truck entry.
-
-
-
-</section>
 
 
 </main>

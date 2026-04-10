@@ -158,6 +158,8 @@ The critical defensive principle is that leg drag control is inherently transiti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag Counter to Half Guard?</p>
+
 - Bottom player establishes a frame against your shoulder or bicep with their near-side elbow, creating structural distance
 - Bottom player begins shrimping their hips away while keeping shoulders flat—this is the space-creation phase before leg threading
 - Bottom player's trapped knee starts moving in a circular motion toward their chest rather than remaining pinned—indicates imminent leg extraction attempt
@@ -169,6 +171,8 @@ The critical defensive principle is that leg drag control is inherently transiti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag Counter to Half Guard?</p>
 
 - Maintain constant hip pressure on the bottom player to eliminate the space needed for hip escaping and leg threading
 - Keep your grip on their dragged leg tight throughout transitions—grip loosening is the primary trigger for their escape
@@ -182,6 +186,8 @@ The critical defensive principle is that leg drag control is inherently transiti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag Counter to Half Guard?</p>
 
 ### 1. Increase hip pressure and re-secure leg drag grip immediately upon feeling their hip escape
 
@@ -212,6 +218,8 @@ The critical defensive principle is that leg drag control is inherently transiti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag Counter to Half Guard?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Maintain constant hip pressure and tight grip on dragged leg. When you feel the bottom player begin to hip escape, immediately drive your chest into their near hip and re-secure your controlling grips. Prevent frame establishment by keeping shoulder pressure tight. The key is reacting within the first half-second of their escape attempt before they build momentum.
@@ -227,6 +235,8 @@ When the bottom player partially frees their leg and half guard lock becomes lik
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag Counter to Half Guard?</p>
 
 ### 1. Stalling in leg drag control without actively advancing toward a consolidated position
 
@@ -256,6 +266,8 @@ When the bottom player partially frees their leg and half guard lock becomes lik
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag Counter to Half Guard?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 From established leg drag control, partner slowly initiates the escape sequence. Practice recognizing each phase (frame establishment, hip escape, knee extraction, leg threading) and maintaining pressure through each. No advancement—focus purely on shutting down the escape through pressure retention.
 
@@ -272,29 +284,6 @@ Positional sparring starting in leg drag control. You must advance to a consolid
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is about to attempt the half guard counter?
-**A**: The earliest cue is when the bottom player establishes a frame against your shoulder or bicep with their near-side elbow. This frame is the prerequisite for their hip escape—without it, they cannot generate the space needed for leg extraction. Collapsing this frame immediately shuts down the escape before it begins.
-
-**Q2**: Why is active advancement from leg drag more effective than static retention against this counter?
-**A**: Static leg drag control inevitably creates the grip adjustments and weight shifts the bottom player exploits to time their escape. Every moment you stall, you generate micro-opportunities for their counter. Active advancement toward side control, mount, or back take eliminates these windows by forcing the bottom player to defend new threats rather than executing their escape sequence.
-
-**Q3**: Your grip on the dragged leg is slipping and the bottom player is beginning to extract their knee—what is your best response?
-**A**: Immediately abandon the leg drag and drive laterally into side control consolidation. Trying to re-secure a failing grip wastes time and energy while the bottom player completes their escape. By releasing the leg and establishing crossface and hip control for side control, you trade the leg drag for a consolidated dominant position before they can lock half guard.
-
-**Q4**: How should you respond when you feel the bottom player's outside leg reaching for your near leg?
-**A**: This is a late-stage recognition cue meaning the escape is well advanced. Immediately sprawl your near leg back to deny the hook, or transition to side control by driving your chest over their torso and establishing crossface. If you can pull your leg free before they triangle, do so and consolidate. If they lock the triangle, accept half guard top and begin your passing sequence immediately.
-
-**Q5**: What is the relationship between your shoulder control and the bottom player's ability to execute this counter?
-**A**: Your shoulder or head control prevents the bottom player from generating frames, which are the essential first step of their escape sequence. Without frames, they cannot create the hip separation needed for leg extraction. Maintaining constant shoulder pressure or crossface makes the counter nearly impossible to initiate. If you lose shoulder control, the escape becomes available regardless of how tight your leg grip is.
-
-
-
-</section>
 
 
 </main>

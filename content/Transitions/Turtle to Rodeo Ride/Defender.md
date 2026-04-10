@@ -154,6 +154,8 @@ Defending the Transition to Rodeo Ride requires recognizing the attack in its ea
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Rodeo Ride?</p>
+
 - Opponent shifts from bilateral chest pressure (standard turtle top) to unilateral pressure on one side of your back
 - You feel the opponent's near hand reaching underneath your body to control your wrist, elbow, or thread between your elbow and knee
 - Opponent's far hand establishes a collar grip or crossface rather than maintaining standard turtle top control
@@ -168,6 +170,8 @@ Defending the Transition to Rodeo Ride requires recognizing the attack in its ea
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Turtle to Rodeo Ride?</p>
+
 - Deny near-arm control at all costs—this is the attacker's first and most critical setup step
 - Create movement and direction changes whenever you feel the opponent beginning to walk their hips to an angle
 - Time explosive escapes to the mid-transition moment when the opponent has shifted weight but not yet loaded pressure
@@ -181,6 +185,8 @@ Defending the Transition to Rodeo Ride requires recognizing the attack in its ea
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Rodeo Ride?</p>
 
 ### 1. Explosive sit-back to guard during the opponent's hip walk phase
 
@@ -218,6 +224,8 @@ Defending the Transition to Rodeo Ride requires recognizing the attack in its ea
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Rodeo Ride?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a sit-back or granby roll to the moment the opponent is mid-transition with their weight shifted but not yet loaded. Thread your legs between you and the opponent to establish half guard retention. The key timing cue is feeling the opponent's hips begin to walk perpendicular—this is when their control is weakest.
@@ -233,6 +241,8 @@ Deny the near-arm control that initiates the entry by maintaining an extremely t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Rodeo Ride?</p>
 
 ### 1. Waiting too long to react to the angle change, allowing full Rodeo Ride establishment
 
@@ -262,6 +272,8 @@ Deny the near-arm control that initiates the entry by maintaining an extremely t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Rodeo Ride?</p>
+
 **Phase 1: Recognition Drill** - Identifying Rodeo Ride entry cues with eyes closed
 Partner performs slow Rodeo Ride entries from turtle top while bottom player keeps eyes closed and identifies each stage of the entry by feel: pressure shift, hand threading, hip walk, pressure loading. Call out each cue as you feel it. Develops the tactile sensitivity needed to recognize the attack in live rolling.
 
@@ -278,26 +290,6 @@ Begin from turtle bottom against an opponent who will attempt Rodeo Ride among o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that signals a Rodeo Ride entry attempt?
-**A**: The earliest cue is feeling the opponent's pressure shift from bilateral (even across your back from directly behind) to unilateral (concentrated on one side). This shift happens before they secure any grips and indicates they are beginning the angle change. The second earliest cue is feeling a hand threading between your elbow and knee toward your near arm. Recognizing these early signals gives you the maximum defensive window to prevent the entry.
-
-**Q2**: Why is the mid-transition moment the best timing for defensive escape attempts?
-**A**: During mid-transition, the opponent has partially committed their weight to the angle change but has not yet established the full control configuration (loaded hip, near-arm control, posted leg). Their weight is shifting between positions, their grips may be in transition, and their base is less stable than either standard turtle top or completed Rodeo Ride. Escaping during this window catches them in their most vulnerable state. Before the transition, they have stable turtle top control; after, they have stable Rodeo Ride control. The middle is where instability lives.
-
-**Q3**: If Rodeo Ride is fully established, what should your primary defensive focus be?
-**A**: Once Rodeo Ride is fully established, your primary focus must shift from preventing the position to preventing back exposure and hook insertion. The opponent will use Rodeo Ride as a launching pad for back takes, so defend the hooks above all else. Fight grips targeting your hips and legs, maintain your elbow-to-knee shell to prevent arm-based back take setups, and look for moments during the opponent's attack attempts to execute escape sequences. Accept that you are in a bad position and focus on incremental improvement rather than gambling on low-percentage explosive escapes.
-
-**Q4**: Why is rolling toward the opponent's posted leg more effective than rolling away from it?
-**A**: The opponent's posted leg is their primary base point—it is what keeps them stable during Rodeo Ride. Rolling toward it forces them to either lift the posted leg to follow you (destroying their own base) or let you roll past it (creating separation and escape opportunity). Rolling away from the posted leg takes you into the direction where the opponent's loaded hip and upper body pressure are strongest, essentially helping them maintain control. The posted leg side is the structural weakness in their position.
-
-
-
-</section>
 
 
 </main>

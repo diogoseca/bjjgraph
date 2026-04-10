@@ -194,6 +194,8 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape from Vaporizer?</p>
+
 - Widen base immediately by sprawling the free leg to resist whip-up motion—a narrow base is the prerequisite for every Vaporizer attack
 - Neutralize the underhook before addressing the lockdown, as the underhook provides the leverage that makes all lockdown-based attacks functional
 - Use heavy shoulder pressure into the opponent's chest to flatten their hips and reduce the effectiveness of their whip-up mechanics
@@ -208,6 +210,8 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape from Vaporizer?</p>
+
 - At least one arm is available to establish a whizzer or crossface against the opponent's underhook
 - Free leg can be sprawled wide to create a stable tripod base resistant to lateral rolling
 - Sufficient awareness to identify whether opponent has underhook or overhook, as the counter differs significantly
@@ -220,6 +224,8 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape from Vaporizer step by step?</p>
 
 1. **Stabilize base against whip-up**: Immediately widen your base by sprawling your free leg out to the side at roughly 45 degrees from your body. Lower your center of gravity by sinking your hips toward the mat. This creates a stable tripod that resists the lateral rolling pressure of the whip-up motion. Without this base, every subsequent step becomes impossible because the bottom player will sweep you before you can address the lockdown.
 2. **Establish heavy shoulder pressure**: Drive your near shoulder into the opponent's chest or jaw, creating uncomfortable pressure that flattens their hips toward the mat. Keep your head positioned on the opposite side of their head from the underhook to maximize the crossface effect. This pressure reduces the effectiveness of their whip-up by pinning their driving hip and limiting their ability to generate upward force through their core.
@@ -252,6 +258,8 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape from Vaporizer?</p>
+
 - **Opponent increases lockdown pressure and drives harder whip-up when sensing you beginning to establish defensive grips** (Effectiveness: High) - Your Response: Pause the escape sequence and focus entirely on widening your base and driving shoulder pressure. Do not fight the whip-up with upper body strength—use structural positioning by sprawling wider and sinking heavier. Resume the escape only after the whip-up attempt subsides. → Leads to [[Positions/Vaporizer]]
 - **Opponent initiates Old School sweep by posting their outside foot and driving through the underhook when you shift weight during lockdown circulation** (Effectiveness: High) - Your Response: Immediately widen your base in the opposite direction of the sweep and drive crossface pressure harder to limit their bridging power. Keep your far hand posted wide for stability rather than committed to the lockdown extraction. Accept the escape delay in exchange for maintaining top position. → Leads to [[Positions/Mount]]
 - **Opponent releases lockdown voluntarily during your escape to transition to a back take when you are focused on leg extraction** (Effectiveness: Medium) - Your Response: Turn your hips toward the opponent immediately rather than away. Establish a whizzer on the underhook arm and drive your shoulder pressure into their head. Do not give them the angle needed to secure the second hook—address the back take entry before resuming any passing attempt. → Leads to [[Positions/Back Control]]
@@ -263,6 +271,8 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape from Vaporizer?</p>
 
 ### 1. Attempting to yank the trapped leg free with explosive force before addressing the underhook
 
@@ -307,6 +317,8 @@ Executing the Escape from Vaporizer requires the top player to systematically di
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape from Vaporizer (Attacker)?</p>
+
 **Phase 1: Base Stabilization** - Resisting the whip-up through structural positioning
 Partner establishes full Vaporizer with lockdown and underhook. Practice only base widening and shoulder pressure to resist the whip-up motion. No escape attempts—focus entirely on maintaining stable position for 60 seconds under progressive resistance. Develop the structural positioning that makes you impossible to roll.
 
@@ -327,42 +339,12 @@ Start in Vaporizer with partner at full competition intensity. Partner attacks w
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must the underhook be neutralized before attempting to clear the lockdown?
-**A**: The lockdown's offensive power depends on the coordination between the leg entanglement and the upper body leverage provided by the underhook. The underhook enables the whip-up motion that makes sweeps possible and provides the pulling force that keeps the top player's weight shifted laterally. Attempting to clear the lockdown while the underhook remains active creates space through leg movement that the bottom player immediately exploits with sweep attempts. Neutralizing the underhook with a whizzer removes approximately 70% of the Vaporizer's offensive capability, making the subsequent lockdown extraction significantly safer and more likely to succeed.
-
-**Q2**: Your opponent drives a powerful whip-up and you feel your weight shifting to one side—what is your immediate response?
-**A**: Immediately widen your base by sprawling your free leg further out at a 45-degree angle and drive your shoulder pressure down into the opponent's chest. Do not attempt to resist the lateral force with upper body strength—use structural positioning to create a wider, lower center of gravity that the whip-up cannot overcome. Avoid posting your hand near their hip, as this creates a leverage point for the Old School sweep. Only resume escape work once your base is stable and the whip-up motion has been neutralized through positioning.
-
-**Q3**: What is the correct leg movement for clearing a tight lockdown, and why does explosive pulling fail?
-**A**: The correct technique is knee circulation—pointing the trapped knee downward to narrow the leg profile, then making small rotational arcs that gradually create slack in the figure-four configuration. Explosive pulling fails because the figure-four tightens reflexively when force is applied directly against it, similar to a Chinese finger trap. The bottom player's natural response to a pulling motion is to squeeze tighter, and the sudden space created by explosive movement gives them momentum for sweeps. Circulation works because the rotational movement degrades the lock's structure without triggering the tightening reflex.
-
-**Q4**: You begin circulating your trapped leg and your opponent posts their outside foot to initiate the Old School sweep—how do you adjust?
-**A**: Immediately pause the lockdown circulation and address the sweep threat. Widen your base in the direction opposite to the intended sweep and increase your crossface pressure to limit their bridging power. The Old School sweep requires them to bridge through the underhook side—heavy crossface prevents this bridge from generating sufficient force. Only resume the lockdown escape once the sweep threat has been neutralized. Accept the delay; maintaining top position takes absolute priority over escape progress.
-
-**Q5**: What grip configuration gives you the best chance of successfully extracting your trapped leg?
-**A**: A deep whizzer on the opponent's underhook arm combined with crossface shoulder pressure provides the optimal control for extraction. The whizzer prevents the underhook from generating lateral leverage, while the crossface pins their head and limits hip mobility. Your far hand should be posted wide for base support rather than grabbing your own leg or the opponent's leg. This configuration maintains pressure on the opponent while leaving your trapped leg free to perform the circulation movements without any of your limbs being committed to tasks that compromise your base.
-
-**Q6**: Your opponent suddenly releases the lockdown during your escape—what does this likely indicate and how should you respond?
-**A**: A voluntary lockdown release usually indicates the opponent is transitioning to a back take, Truck entry, or butterfly sweep. Do not celebrate the free leg—immediately turn your hips toward the opponent and address the positional transition they are initiating. Establish a whizzer if not already in place, drive shoulder pressure into their head, and prevent them from securing the angle needed for back control. The lockdown release creates a brief scramble that favors the prepared player. If you anticipated the release and maintained upper body control, you can immediately advance to a passing position.
-
-**Q7**: How do you manage energy expenditure during a prolonged escape attempt that takes 45-60 seconds?
-**A**: Use structural pressure rather than muscular effort throughout the escape. Let your body weight do the work through proper positioning—chest heavy on their torso, hips low and wide, whizzer pressure maintained through arm position rather than constant squeezing. Maintain controlled breathing and avoid holding your breath during circulation attempts. The escape is a grinding process, not an explosive one. Brief pauses in your escape work where you simply maintain position and breathe are perfectly acceptable as long as you continue applying structural pressure that prevents the bottom player from improving their controls.
-
-**Q8**: After extracting your leg from the lockdown, what is your immediate priority before attempting to pass?
-**A**: Your immediate priority is preventing lockdown re-establishment. Step the freed leg to the outside of the opponent's hip rather than leaving it between their legs where they can re-entangle. Simultaneously transition from the whizzer to a crossface to control their head and prevent them from turning toward you to recover guard. Only after these two actions—outside leg positioning and crossface establishment—should you initiate a passing sequence. Re-lockdown after a 30-second escape attempt is devastating to morale and energy reserves, so this prevention step is non-negotiable.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape from Vaporizer?</p>
 
 The Vaporizer escape involves significant force on the trapped knee and ankle through the lockdown configuration. Never explosively yank the leg free, as uncontrolled extraction can cause MCL or LCL damage to the trapped knee or the opponent's legs. The lockdown figure-four creates rotational stress on the ankle joint that intensifies with forceful pulling. When drilling, communicate with your partner about lockdown tightness and tap immediately if you feel sharp pain in the knee or ankle. The whip-up motion can also strain the lower back of the top player, so warm up thoroughly before practicing extended escape sequences. Begin all drilling at low resistance and increase gradually.
 

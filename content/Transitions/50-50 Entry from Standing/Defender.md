@@ -166,6 +166,8 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 50-50 Entry from Standing?</p>
+
 - Opponent establishes a low collar tie or sleeve grip combined with their opposite hand reaching toward your lead ankle or shin
 - Opponent's level drops noticeably as they bend their knees and begin shifting their weight backward and downward
 - Opponent breaks your grip and immediately reaches for your lead leg rather than re-engaging in standard grip fighting
@@ -178,6 +180,8 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 50-50 Entry from Standing?</p>
 
 - Deny access to your lead leg by maintaining active stance adjustments and keeping your lead foot mobile and retractable
 - Recognize the entry early through grip and posture cues - the earlier you identify it, the more options you have to shut it down
@@ -192,6 +196,8 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 50-50 Entry from Standing?</p>
 
 ### 1. Sprawl and circle away
 
@@ -229,6 +235,8 @@ Strategically, understanding when opponents are likely to attempt this entry - t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 50-50 Entry from Standing?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the entry entirely through early recognition and sprawling, backstep defense, or grip stripping before the opponent can establish the leg entanglement. The most reliable path is recognizing the entry in its earliest phase - when opponent reaches for your ankle - and immediately pulling your lead leg back while driving your hips away. Maintain your grips to prevent them from following you.
@@ -244,6 +252,8 @@ If the opponent manages to sit but you prevent the full 50-50 configuration by e
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Entry from Standing?</p>
 
 ### 1. Reacting too late and attempting to defend after the leg entanglement is already established
 
@@ -273,6 +283,8 @@ If the opponent manages to sit but you prevent the full 50-50 configuration by e
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 50-50 Entry from Standing?</p>
+
 **Phase 1 (Weeks 1-2): Recognition Drilling** - Identifying entry cues without time pressure
 Partner slowly demonstrates the 50-50 entry at 25% speed. Defender calls out each recognition cue as they see it: ankle reach, level change, grip establishment, descent initiation. No physical defense yet - purely visual and tactile recognition training. Alternate between gi and no-gi grips. 10-15 slow repetitions per session.
 
@@ -289,29 +301,6 @@ Start from standing grip fighting. Partner attempts 50-50 entry at any time duri
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates an opponent is about to attempt a 50-50 entry from standing?
-**A**: The earliest cue is the opponent reaching with their free hand toward your lead ankle or shin while maintaining an upper body grip. This combined grip pattern - one hand controlling your upper body and the other targeting your lead leg - is the prerequisite for the entry. Recognizing this reach before they secure the ankle grip gives you the maximum defensive window, as the entry cannot proceed without this critical connection point.
-
-**Q2**: Why is sprawling at an angle more effective than stepping straight backward against this entry?
-**A**: Stepping straight backward allows the attacker to follow you in a linear path while maintaining their ankle grip, effectively helping them load onto your leg as you pull them. Sprawling at an angle creates lateral displacement that the attacker cannot easily follow because their sitting motion is committed to a forward-downward trajectory. The angular sprawl also rotates your trapped leg away from their hooking path, making it much harder for them to configure the entanglement even if they maintain the ankle grip.
-
-**Q3**: Your opponent has secured your ankle grip and begun sitting - what is your immediate priority?
-**A**: Your immediate priority is extracting your knee past their hip line before they can configure their inside leg hook. Drive your knee forward and across their body while simultaneously pulling your hips backward. If your knee clears past their hip, the 50-50 configuration becomes impossible and you end up in a passing position against their open guard. The window for this extraction closes rapidly once they begin threading their legs, so the response must be immediate and explosive.
-
-**Q4**: How should you adjust your stance and weight distribution if you suspect your opponent is planning a 50-50 entry?
-**A**: Shift more weight to your rear foot and keep your lead foot light and retractable, rather than committing weight forward onto the lead leg. Widen your stance slightly to create a more stable base against pulling forces. Maintain a higher posture to make it harder for them to reach your ankle. Keep your lead hand active as a frame on their shoulder or collar to maintain distance and make it difficult for them to lower their level. This stance adjustment makes the entry significantly harder without compromising your own offensive options.
-
-**Q5**: If you are caught in a partially established 50-50 where the attacker has one hook but not the second, what should you do?
-**A**: With only one hook established, focus all effort on preventing the second hook from being configured. Use your free leg to push on their hip or knee to create separation. Rotate your trapped knee inward to make it difficult for their second leg to thread around yours. Simultaneously work to strip their ankle grip with your hands. If you can prevent the second hook for 3-5 seconds, the attacker typically must abandon or restart the entry, giving you an opportunity to extract and reset to standing.
-
-
-
-</section>
 
 
 </main>

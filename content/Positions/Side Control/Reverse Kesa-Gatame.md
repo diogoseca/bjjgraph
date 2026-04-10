@@ -181,19 +181,17 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 
 - **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (15% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (15% of attempts)
+- **[[Kimura from Reverse Kesa-Gatame/Attacker|Kimura from Reverse Kesa-Gatame]]** (15% of attempts)
 
-- **[[Transitions/Americana/Attacker|Americana]]** (13% of attempts)
+- **[[Americana from Reverse Kesa-Gatame/Attacker|Americana from Reverse Kesa-Gatame]]** (15% of attempts)
 
-- **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** (10% of attempts)
+- **[[Arm Triangle from Reverse Kesa-Gatame/Attacker|Arm Triangle from Reverse Kesa-Gatame]]** (10% of attempts)
 
 - **[[Transitions/Back Take/Attacker|Back Take]]** (13% of attempts)
 
 - **[[Transitions/Reverse Kesa to North-South/Attacker|Reverse Kesa to North-South]]** (5% of attempts)
 
 - **[[Transitions/Reverse Kesa to Side Control/Attacker|Reverse Kesa to Side Control]]** (3% of attempts)
-
-- **[[Submissions/Americana from Reverse Kesa/Attacker|Americana from Reverse Kesa]]** (2% of attempts)
 
 
 ### Common Mistakes

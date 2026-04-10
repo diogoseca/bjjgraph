@@ -175,6 +175,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Position Definition
 
+<p class="section-subtitle">What is Twister Control (Bottom)?</p>
+
 - Your spine is in a rotated, twisted position with your upper body facing one direction while your hips and legs are controlled facing another direction
 - One of your legs is typically trapped and controlled by the opponent, creating the foundation for the rotational control
 - Your neck and head positioning is compromised, making you vulnerable to various choke and neck attack options
@@ -186,6 +188,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Twister Control (Bottom)?</p>
+
 - Opponent has established truck position or similar back exposure control
 - At least one of your legs is controlled or trapped by opponent's legs
 - Your spine is twisted with shoulders and hips facing different directions
@@ -196,6 +200,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Twister Control?</p>
 
 - Protect your neck first - submission danger is immediate and severe
 - Work systematically to reduce spinal rotation before attempting explosive escapes
@@ -212,6 +218,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Twister Control (Bottom)?</p>
+
 **Opponent is establishing initial Twister Control with partial leg capture:**
 - Execute **[[Immediate Leg Defense/Attacker|Immediate Leg Defense]]** → [[Positions/Open Guard]] (Probability: 60%)
 - Execute **[[Turn Into Opponent/Attacker|Turn Into Opponent]]** → [[Positions/Half Guard]] (Probability: 40%)
@@ -225,7 +233,7 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 **Opponent is hunting for Twister submission grip with rotation maximized:**
 - Execute **[[Hand Fight Submission Grip/Attacker|Hand Fight Submission Grip]]** → [[Positions/Twister Control]] (Probability: 40%)
 - Execute **[[Roll Through With Twist/Attacker|Roll Through With Twist]]** → [[Positions/Open Guard]] (Probability: 30%)
-- Execute **[[Tap for Safety/Attacker|Tap for Safety]]** → [[Positions/Game Over]] (Probability: 30%)
+- Execute **[[Tap for Safety/Attacker|Tap for Safety]]** → [[game-over]] (Probability: 30%)
 
 
 **Opponent transitions to alternative attack losing some rotational control:**
@@ -240,6 +248,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Twister Control?</p>
 
 ### 1. Attempting explosive bridging movements while spine is fully rotated
 
@@ -273,6 +283,8 @@ The energy dynamics of being stuck in Twister Control Bottom are particularly ch
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Twister Control defense?</p>
 
 ### Twister Control Escape Sequences
 

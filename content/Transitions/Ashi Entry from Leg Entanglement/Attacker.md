@@ -194,6 +194,8 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ashi Entry from Leg Entanglement?</p>
+
 - Create timing windows through submission feints or positional threats before attempting the entry, as forcing the thread against an alert opponent drastically reduces success rate
 - Maintain constant contact with the opponent's captured leg throughout the entry to prevent them from extracting during the threading transition
 - Thread the inside leg across the hip before establishing the outside hook, as the inside leg provides the rotational control that makes the outside hook possible
@@ -208,6 +210,8 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ashi Entry from Leg Entanglement?</p>
+
 - Existing leg-on-leg contact with at least one hook or entanglement engaged around the opponent's lower body providing preliminary control
 - Grip on the opponent's foot or ankle with at least one hand to anchor their leg position during the threading sequence
 - Sufficient hip proximity to the opponent's trapped leg to thread the inside leg across without overextending or creating exploitable space
@@ -220,6 +224,8 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ashi Entry from Leg Entanglement step by step?</p>
 
 1. **Identify Target Leg**: From general leg entanglement, evaluate which of the opponent's legs offers the best angle for inside ashi entry based on your current hook positioning, their defensive structure, and which knee line is more accessible for your body alignment.
 2. **Establish Preliminary Foot Control**: Secure initial grip on the opponent's foot or ankle with your near hand using a C-grip configuration, preventing them from rotating their leg away or clearing your position before you begin the threading sequence into ashi garami.
@@ -250,6 +256,8 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ashi Entry from Leg Entanglement?</p>
+
 - **Opponent pumps their leg explosively to extract it before the outside hook is established** (Effectiveness: High) - Your Response: Follow their leg immediately by scooting your hips forward and re-clamping your legs. If they create significant distance, transition to a kneebar threat on the extended leg rather than chasing the original ashi entry. → Leads to [[Positions/Leg Entanglement]]
 - **Opponent hip escapes laterally and frames against your inside leg to prevent it from crossing their hip** (Effectiveness: Medium) - Your Response: Use the backstep entry variant by rotating over their leg rather than threading directly. Their hip escape often exposes the opposite angle for outside ashi or saddle entry as an alternative. → Leads to [[Positions/Leg Entanglement]]
 - **Opponent initiates a counter-entanglement by grabbing your leg and entering their own ashi garami** (Effectiveness: Medium) - Your Response: If your position is more advanced, accelerate the entry and finish threading before their counter develops. If they achieve equal entanglement, disengage and re-enter rather than accepting a 50-50 exchange from a previously superior angle. → Leads to [[Positions/Leg Entanglement]]
@@ -261,6 +269,8 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ashi Entry from Leg Entanglement?</p>
 
 ### 1. Attempting the entry without first creating a timing window through submission threat or positional pressure
 
@@ -295,6 +305,8 @@ The attacker's objective in the Ashi Entry from Leg Entanglement is to convert a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ashi Entry from Leg Entanglement (Attacker)?</p>
+
 **Phase 1: Mechanics** - Threading sequence and leg positioning
 Practice the inside leg thread and outside hook placement with a cooperative partner from static leg entanglement. Focus on correct sequencing: inside leg across hip, outside leg behind knee, heel grip. Perform 20 repetitions per side with zero resistance, building muscle memory for the threading motion and body positioning.
 
@@ -312,48 +324,12 @@ Integrate the ashi entry into full leg entanglement sparring at 100% resistance.
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the ashi entry during a general leg entanglement exchange?
-**A**: The optimal timing window opens when the opponent's defensive attention is divided between multiple threats. This occurs when they are defending a submission attempt with their hands (leaving their legs undefended for pummeling), when they are initiating their own positional advancement (committing weight in one direction), or immediately after they complete an escape attempt and are resetting their defensive structure. Attempting the entry against a static, prepared opponent with both hands free for leg pummeling has significantly lower success rates.
-
-**Q2**: What conditions must exist in the leg entanglement before you can successfully thread your inside leg across the opponent's hip?
-**A**: Three conditions must be present: first, you need at least one preliminary hook or entanglement on the target leg providing anchor control so the opponent cannot simply pull their leg away during the thread. Second, you need a grip on their foot or ankle to prevent rotational defense. Third, your hips must be close enough to their leg that you can reach across their hip without overextending, which typically means you are already positioned at or below their knee line with your center of mass near their trapped leg.
-
-**Q3**: Why is perpendicular body alignment critical when completing the transition to Inside Ashi-Garami?
-**A**: Perpendicular alignment at approximately ninety degrees to the opponent's trapped leg maximizes mechanical advantage for both control and submissions. When your body faces their leg at this angle, your legs create optimal clamping pressure from both sides, your hips can generate extension force directly along the submission axis, and your weight distributes efficiently across the control points. Parallel alignment to the opponent reduces clamping effectiveness, limits hip extension leverage, and makes it easier for the opponent to sit up and address your controls directly.
-
-**Q4**: What is the most common reason practitioners fail to complete the ashi entry and remain stuck in general leg entanglement?
-**A**: The most common failure is attempting to thread the inside leg without first creating a timing window through a credible submission threat or positional pressure. When the opponent has both hands free and their full attention on leg defense, they can easily frame against the inside leg thread or pummel their leg free. The solution is to always precede the entry with a submission feint that forces their hands to address the immediate threat, creating the two-to-three second window needed to complete the threading sequence.
-
-**Q5**: What grip sequence should you establish during the ashi entry and why does grip order matter?
-**A**: The correct grip sequence is: first, C-grip on the opponent's foot or ankle with your near hand to anchor their leg position and prevent rotation. Second, establish the inside leg across their hip for rotational control. Third, hook the outside leg behind their knee for extraction prevention. Fourth, transition your hand grip to C-grip on the heel specifically for submission control. This order matters because each control point makes the next one possible. Without the initial foot anchor, they rotate away. Without the inside leg, the outside hook is easily cleared. Without both legs positioned, heel control is meaningless.
-
-**Q6**: In which direction should your hips move relative to the opponent's trapped leg during the final phase of the entry?
-**A**: Your hips should move toward the opponent's foot, not toward their hip or body. The critical concept is getting below the knee line, which means positioning your center of mass between their knee and their foot. Moving your hips toward their foot accomplishes three things simultaneously: it tightens the entanglement by closing the gap between your body and their leg, it positions you below the knee line where submissions become mechanically effective, and it prevents the opponent from clearing the entanglement by making it impossible for them to push your body above their knee.
-
-**Q7**: Your opponent recognizes the entry and begins pumping their leg explosively to extract it before you can establish the outside hook - how do you adjust?
-**A**: Follow their leg immediately by scooting your hips forward in sync with their pumping motion, maintaining zero distance between your body and their leg. Reinforce the inside leg across their hip by driving it deeper and hooking your foot on the far side. If they create significant space through explosive pumping, convert the situation by threatening a straight ankle lock or kneebar on the now-extended leg rather than chasing the original ashi entry. Their extension creates vulnerability to different attacks. Never let them pump without following - static defense against explosive extraction always fails.
-
-**Q8**: If the opponent successfully defends the ashi entry by clearing your inside leg from their hip, what chain attacks or transitions are available?
-**A**: When the inside leg is cleared, several immediate transitions are available depending on the angle. If you still have the outside hook, transition to Outside Ashi-Garami by using your cleared inside leg to hook their far hip instead. If they turn away during the defense, their back exposure creates a direct back take opportunity. If they drive forward aggressively to consolidate, drop into the backstep entry variant to rethreading from the opposite angle. If all entries are blocked, threatening a straight ankle lock with your existing grip often forces them to defend with their hands, reopening the window for a second threading attempt.
-
-**Q9**: Your opponent attempts to stand during the ashi entry - how does this change your approach?
-**A**: When the opponent stands, maintain your heel grip and use their elevation to create sweep opportunities. Extend your legs into their hips and knees to off-balance them as they rise. If you have the inside leg across their hip, their standing motion loads weight onto your leg which can be used to sweep them laterally. If they achieve full standing posture, transition your leg configuration toward Single Leg X-Guard by hooking behind their standing leg while maintaining heel control on the trapped leg. Their standing position is actually more vulnerable to sweeps than their seated position because their base is narrower.
-
-**Q10**: How does the knee line concept apply specifically to the transition from general leg entanglement to Inside Ashi-Garami?
-**A**: During the transition, the knee line determines whether you have achieved true Inside Ashi-Garami or are still in a general entanglement. When your body is above the opponent's knee line (closer to their hip), you lack submission access and they can easily clear your position. The threading sequence must end with your hips positioned below the knee line, between their knee and foot. The inside leg across the hip and outside hook behind the knee create a structural barrier that prevents your body from sliding above the knee line during the opponent's defensive movements, which is what distinguishes inside ashi from a loose leg drape.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ashi Entry from Leg Entanglement?</p>
 
 Leg entanglement transitions involve positions where knee and ankle joints are vulnerable to rapid loading during position changes. Always execute the threading sequence with controlled movement rather than explosive jerking that could torque training partners' knees. When establishing the outside hook behind the opponent's knee, avoid cranking or twisting their leg into unnatural angles. If the opponent taps during any phase of the entry, release immediately even if no submission was intentionally applied, as the entanglement itself can create joint pressure during transitions. Train heel hook finishing mechanics only under qualified instruction with experienced partners who understand tap timing.
 

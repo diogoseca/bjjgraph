@@ -334,7 +334,7 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Front Headlock",
         "attempt_probability": 4
       },
       {
@@ -346,15 +346,15 @@
         "attempt_probability": 2
       },
       {
-        "transition": "Peruvian Necktie",
+        "transition": "Peruvian Necktie from Front Headlock",
         "attempt_probability": 2
       },
       {
-        "transition": "Arm in Guillotine",
+        "transition": "Arm in Guillotine from Front Headlock",
         "attempt_probability": 1
       },
       {
-        "transition": "High Elbow Guillotine",
+        "transition": "High Elbow Guillotine from Front Headlock",
         "attempt_probability": 1
       },
       {
@@ -362,7 +362,7 @@
         "attempt_probability": 1
       },
       {
-        "transition": "Ten Finger Guillotine",
+        "transition": "Ten Finger Guillotine from Front Headlock",
         "attempt_probability": 1
       }
     ],

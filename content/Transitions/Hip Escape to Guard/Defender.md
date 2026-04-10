@@ -166,6 +166,8 @@ Your positional advantage is substantial but requires active maintenance. Static
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape to Guard?</p>
+
 - Opponent turns to their side and positions bottom foot flat on the mat, preparing to drive off it for shrimping
 - Opponent's hips begin moving laterally away from you while their shoulders stay relatively stationary
 - Opponent's free hand moves from neck defense to attempt creating frames on your hip or knee
@@ -178,6 +180,8 @@ Your positional advantage is substantial but requires active maintenance. Static
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape to Guard?</p>
 
 - Maintain constant chest-to-back connection to deny space for hip escapes
 - Follow opponent's hip movement immediately rather than allowing distance to accumulate
@@ -193,6 +197,8 @@ Your positional advantage is substantial but requires active maintenance. Static
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape to Guard?</p>
 
 ### 1. Drive hips forward and tighten chest connection to follow opponent's shrimp
 
@@ -230,6 +236,8 @@ Your positional advantage is substantial but requires active maintenance. Static
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape to Guard?</p>
+
 ### → [[Positions/Gift Wrap]]
 
 Maintain tight chest-to-back connection and follow every hip escape by driving your hips forward to close space. Keep the trapped arm pulled high across opponent's chest and use active hooks to control their hip mobility. Deny the initial side position by driving your weight through their shoulder to keep them flat.
@@ -245,6 +253,8 @@ When opponent creates significant lateral distance through hip escapes, proactiv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape to Guard?</p>
 
 ### 1. Allowing space to develop between your chest and opponent's back without immediately closing it
 
@@ -279,6 +289,8 @@ When opponent creates significant lateral distance through hip escapes, proactiv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape to Guard?</p>
+
 **Week 1-2** - Connection maintenance
 Practice maintaining chest-to-back connection while partner performs slow hip escapes at 30% speed. Focus on following their hip movement by driving your hips forward and keeping hooks active. No submissions - purely positional retention.
 
@@ -295,29 +307,6 @@ Full resistance positional rounds starting from Gift Wrap. Top player works to s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical physical connection to maintain when your opponent begins hip escaping from Gift Wrap?
-**A**: Chest-to-back connection is the most critical connection. When your chest stays glued to their back, their hip escapes generate minimal usable distance because your body follows their movement. Drive your hips forward to close any gap immediately, treating any separation as an emergency.
-
-**Q2**: Your opponent removes their free hand from neck defense to create a frame on your hip - what is your immediate response?
-**A**: Immediately attack the rear naked choke since their neck is now undefended. Their frame on your hip is less dangerous than the finishing opportunity their exposed neck presents. This forces them to abandon the escape and return to choke defense, resetting their escape progress entirely.
-
-**Q3**: When should you transition from back control to mount during your opponent's hip escape sequence?
-**A**: Transition to mount when your opponent has created enough lateral distance that maintaining back control requires significant effort and risks losing position entirely. The mount transition should happen proactively while you still have the arm trap secured, not reactively after control has already degraded. Mounted Gift Wrap preserves your advantage.
-
-**Q4**: How does keeping the trapped arm high across the chest prevent the arm extraction that follows hip escapes?
-**A**: High arm positioning across the chest toward the opposite shoulder minimizes the gap between the arm trap and opponent's torso. When the arm is high, shoulder rotation alone cannot create enough space for extraction. If the arm drifts low toward the waist, the larger gap near the hip allows easier extraction through the natural rotation created by shrimping.
-
-**Q5**: Your opponent chains three consecutive hip escapes and inserts a knee frame - what is your counter-strategy?
-**A**: At this stage, closing the distance back to tight Gift Wrap is difficult. Your best option is to transition to mounted Gift Wrap by stepping over their bottom hip while maintaining the arm trap. Alternatively, attack the rear naked choke aggressively because the knee frame insertion often corresponds with weakened neck defense as they redirect their free hand to manage frames.
-
-
-
-</section>
 
 
 </main>

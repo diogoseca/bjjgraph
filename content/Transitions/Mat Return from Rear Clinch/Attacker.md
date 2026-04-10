@@ -190,6 +190,8 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mat Return from Rear Clinch?</p>
+
 - Maintain constant chest-to-back connection throughout the entire descent to prevent any separation that allows the opponent to turn or create distance
 - Angle your hips to one side before initiating the takedown so the opponent cannot sit straight back into you or square their base
 - Use your bodyweight and gravity as the primary driving force rather than muscular effort, sitting through to the mat rather than pulling the opponent down
@@ -204,6 +206,8 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mat Return from Rear Clinch?</p>
+
 - Secure bodylock or seatbelt grip from standing rear clinch with hands locked and chest pressed firmly against opponent's back
 - Position hips at approximately 45-degree angle to one side of the opponent rather than directly behind them
 - Compromise opponent's posture by keeping them bent forward at the waist through constant downward pressure on their upper body
@@ -216,6 +220,8 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mat Return from Rear Clinch step by step?</p>
 
 1. **Secure controlling grip**: Lock your hands in either a bodylock configuration around the opponent's waist or a seatbelt grip with one arm over the shoulder and one under the armpit. Ensure the grip is tight with no slack between your chest and their back. Test the grip by squeezing briefly to confirm it will hold through the transition.
 2. **Establish hip angle**: Step your hips to your preferred side at roughly a 45-degree angle behind the opponent. Your lead hip should be positioned just past their hip on the side you plan to take them down toward. This angle prevents them from sitting straight back and creates the directional vector for the descent.
@@ -245,6 +251,8 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mat Return from Rear Clinch?</p>
+
 - **Opponent hand fights and peels bodylock grip before descent** (Effectiveness: High) - Your Response: Switch grip configurations quickly. If they strip the bodylock, transition to seatbelt. If they strip one hand, immediately re-clasp or switch to an over-under grip. Use the moment of their grip fighting concentration to initiate the descent while their base is compromised by their arm movement. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent widens base and drops hips to resist the takedown** (Effectiveness: Medium) - Your Response: Switch to the ankle pick mat return variation by releasing one hand to pick their far ankle while driving them over their widened base. Alternatively, change angle to the opposite side and re-attempt the sitting motion from the new direction, exploiting their commitment to defending the original angle. → Leads to [[Positions/Standing Rear Clinch]]
 - **Opponent turns into you during the descent and establishes half guard** (Effectiveness: High) - Your Response: If you sense the turn happening, abandon the mat return and follow their rotation to maintain chest-to-back connection. If they complete the turn, immediately work to re-establish back control from turtle or transition to a passing sequence from the top position rather than accepting half guard bottom. → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mat Return from Rear Clinch?</p>
 
 ### 1. Dropping straight down behind the opponent instead of sitting to an angle
 
@@ -300,6 +310,8 @@ The attacking methodology follows a clear sequence: secure dominant grip, establ
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mat Return from Rear Clinch (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Sitting motion and hip angle
 Practice the sitting motion without a partner. From standing, step your hips to a 45-degree angle and sit to the mat on that side while maintaining your arm position as if holding a bodylock. Focus on smooth, controlled descent to your hip without using your hands to catch yourself. Repeat 20 times per side.
 
@@ -320,42 +332,12 @@ Positional sparring starting from standing rear clinch. Attacker's goal is to co
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must your hips be angled to one side rather than directly behind the opponent before initiating the mat return?
-**A**: Hips directly behind the opponent allow them to sit straight back onto you, creating a scramble or reversal where you lose back control. Angling your hips to approximately 45 degrees forces a diagonal descent that prevents the sit-back counter, creates a controlled landing trajectory to your preferred side, and positions your legs optimally for immediate hook insertion during the descent. The angle also loads your bodyweight diagonally across the opponent's back, making their base asymmetrically compromised and harder to defend.
-
-**Q2**: What is the optimal timing window for initiating the mat return against a defending opponent?
-**A**: The optimal timing window occurs when the opponent is actively engaged in hand fighting to strip your grips. During grip defense, the opponent must commit at least one hand to peeling your controlling grip, which simultaneously removes that hand from their base and creates postural compromise. Their weight shifts during hand fighting, and their mental attention focuses on grip removal rather than base maintenance. Initiating the descent at this exact moment exploits both the physical and cognitive openings, making the mat return significantly harder to defend.
-
-**Q3**: Your opponent widens their stance and drops their hips to create a strong base against your mat return attempt - how do you adjust?
-**A**: A wide, low base resists the standard sitting mat return because the opponent's center of gravity is lower and their feet are spread for stability. Adjust by switching to the ankle pick variation: release one hand from the bodylock to grab the opponent's far ankle while driving them diagonally over their widened stance with the remaining arm. Alternatively, change your angle to the opposite side and re-attempt, exploiting their commitment to defending the original direction. You can also use a more explosive suplex-style lift to bypass the base entirely by elevating their hips above their feet.
-
-**Q4**: What grip configuration is most critical to maintain during the descent phase and why?
-**A**: The seatbelt or bodylock grip must remain locked throughout the descent because it is the only mechanism maintaining chest-to-back connection during the most vulnerable phase of the technique. If the grip breaks during descent, the opponent can immediately turn to face you, post hands for base, or scramble away before you establish ground control. The grip transfers your bodyweight into the opponent's frame, controls their posture, and anchors the connection that allows hook threading during the fall. Releasing the grip to post your own hands for balance sacrifices the entire positional advantage.
-
-**Q5**: When during the mat return sequence should you begin inserting your hooks?
-**A**: Hook insertion should begin during the descent phase, not after landing on the ground. As you initiate the sitting motion and both bodies begin descending toward the mat, your inside leg should already be threading between the opponent's thighs. By the time you contact the mat, at least one hook should be in position. Waiting until you are fully grounded creates a window where the opponent can turtle, turn, or scramble away before you establish leg control. Concurrent hook insertion during the descent is what converts the takedown into immediate back control rather than a scramble.
-
-**Q6**: Your opponent manages to turn their shoulders toward you during the descent and you feel them rotating to face you - what is your immediate response?
-**A**: If the opponent begins turning during the descent, you must immediately decide between two responses based on how far the turn has progressed. If the turn is early and less than 45 degrees, tighten your grip, drive your chest harder into their back, and accelerate the descent to ground them before the turn completes. If the turn has progressed beyond 45 degrees, abandon the mat return and follow their rotation to maintain chest-to-back connection, potentially transitioning to a front headlock if they turn fully or re-establishing rear clinch from the new angle. Do not fight the turn from a losing position, as this typically results in ending up underneath in half guard.
-
-**Q7**: What is the difference between a mat return and a suplex in terms of mechanics and strategic application?
-**A**: A mat return uses a controlled sitting motion where the attacker descends to the mat alongside the opponent, maintaining constant chest-to-back connection throughout. It prioritizes positional preservation over impact. A suplex uses explosive lifting and arching to elevate the opponent and rotate them overhead or to the side, momentarily separating bodies during the arc. The mat return is lower risk because connection is never broken, making it ideal for grappling where maintaining back control is the primary objective. The suplex generates more force but risks separation and scrambles, and may be penalized or illegal in some rulesets due to the slamming component.
-
-**Q8**: How does the direction of force in the mat return differ from a standard rear trip or reap?
-**A**: The mat return directs force diagonally downward and to the side through a sitting motion, using the attacker's bodyweight as the primary mechanism. The opponent is brought down along with the attacker in a controlled tandem descent. A rear trip or reap directs force backward through the opponent's base by attacking their supporting leg while driving their upper body in the opposite direction, creating rotational force that topples them. The mat return keeps both players moving together, while trips and reaps create separation between the force applied to the upper body and the leg attack. This distinction is why the mat return preserves back control more reliably than trips.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mat Return from Rear Clinch?</p>
 
 The mat return involves taking both practitioners from standing to the ground, creating inherent impact risk. Always practice on adequate matting with proper thickness. During the learning phase, execute the descent slowly and communicate with your training partner throughout. Never slam your partner or accelerate the descent beyond what allows controlled landing. The attacker must control the speed of the descent and land to the side rather than directly on top of the defender. In training, the defender should not resist the takedown with stiff arms posted behind them, as this creates wrist and elbow injury risk upon impact. Both practitioners should tuck their chin to prevent the back of the head from contacting the mat. If practicing suplex variations, ensure your partner is comfortable with elevation and rotation before attempting at speed.
 

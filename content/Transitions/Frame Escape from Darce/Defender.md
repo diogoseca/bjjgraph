@@ -154,6 +154,8 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Frame Escape from Darce?</p>
+
 - Opponent's free hand moves decisively toward your hip or shoulder, indicating initial frame establishment
 - Opponent tucks chin aggressively and begins rotating their body toward you rather than away
 - Hip movement or shrimping motion away from you combined with maintained frame pressure signals coordinated escape
@@ -166,6 +168,8 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Frame Escape from Darce?</p>
 
 - Maintain constant forward pressure through shoulder and chest to prevent frames from generating meaningful space between bodies
 - Keep elbows pinched tight together throughout to eliminate gaps that allow the trapped arm to be extracted from the choke configuration
@@ -180,6 +184,8 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Frame Escape from Darce?</p>
 
 ### 1. Increase shoulder pressure and drive forward to collapse frames before they become structural
 
@@ -217,6 +223,8 @@ As the defender against the Frame Escape from Darce, you are the practitioner ho
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Frame Escape from Darce?</p>
+
 ### → [[Positions/Darce Control]]
 
 Defeat the frame escape by maintaining constant forward shoulder pressure, keeping elbows pinched tight to prevent arm extraction, and driving hips into the opponent to prevent hip escapes. If frames begin to generate space, immediately re-angle by walking your hips laterally to bypass the frame direction and restore choking pressure from a new vector.
@@ -232,6 +240,8 @@ When the Darce grip is compromised but the escape has not yet been completed, re
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Frame Escape from Darce?</p>
 
 ### 1. Maintaining a loose Darce grip while attempting to finish rather than tightening before frames take effect
 
@@ -261,6 +271,8 @@ When the Darce grip is compromised but the escape has not yet been completed, re
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Frame Escape from Darce?</p>
+
 **Phase 1: Recognition** - Identifying frame escape attempts in their earliest stages
 Partner attempts frame escape from Darce Control with clear, telegraphed movements at 25% speed. Practice recognizing each phase of the escape—frame placement, hip escape, arm extraction, knee insertion—and calling out each phase as it begins. Develop automatic pattern recognition for escape initiation cues.
 
@@ -277,26 +289,6 @@ Full resistance positional sparring starting from established Darce Control. Alt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a frame escape?
-**A**: The earliest cue is decisive movement of their free hand toward your hip, shoulder, or the inside of your choking arm, indicating they are establishing the initial frame that begins the escape sequence. Additionally, aggressive chin tucking combined with any attempt to rotate their body toward you signals a systematic escape attempt rather than random struggle. Recognizing these cues within the first second allows you to apply counter-pressure before the frame becomes structural.
-
-**Q2**: When should you abandon the Darce grip and transition to side control instead?
-**A**: Abandon the Darce when you feel the opponent's trapped arm extracting past the point of recovery—specifically when their elbow has moved past your choking arm's wrist and is approaching their own centerline. At this point, the compression necessary for the choke is functionally lost and continuing to fight the grip wastes energy and risks losing all positional advantage. Immediately drive crossface and establish side control while you still have superior positioning.
-
-**Q3**: How do you defeat a well-established frame placed against your hip?
-**A**: Drive your shoulder deeper into the side of their head and walk your hips laterally to change the angle of pressure. A frame is only effective against force coming from one direction, so by changing your angle while maintaining choking pressure from a different vector, you bypass the frame's structural resistance entirely. Alternatively, use your free hand to strip the frame by pushing their elbow toward their body while simultaneously increasing your upper body forward pressure.
-
-**Q4**: Your opponent begins shrimping while maintaining a strong frame—what is your immediate response?
-**A**: Follow their hip movement by driving your hips into theirs to maintain compression distance and prevent separation. Do not allow them to create any gap between your hips and theirs, as this space enables both arm extraction and knee insertion that complete the escape. Use your free hand to control their far hip and block further shrimping. If they create significant distance despite your follow, immediately decide between re-engaging the choke from the new angle or releasing to establish side control.
-
-
-
-</section>
 
 
 </main>

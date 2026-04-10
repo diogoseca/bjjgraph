@@ -186,6 +186,8 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sumi Gaeshi?</p>
+
 - Create angular entry by stepping offline from opponent's centerline
 - Sacrifice your base completely when committing to the throw
 - Position lifting leg at opponent's hip or inner thigh, not knee
@@ -201,6 +203,8 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sumi Gaeshi?</p>
+
 - Establish strong grips on opponent (collar/sleeve, double underhooks, or belt grips)
 - Break opponent's posture forward or catch them leaning in
 - Create proper angle by stepping to the side (approximately 45 degrees)
@@ -214,6 +218,8 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sumi Gaeshi step by step?</p>
 
 1. **Establish grips and break posture**: From standing, secure strong grips on your opponent's collar and sleeve (gi) or establish double underhooks (no-gi). Pull their upper body forward to break their posture and bring their weight toward you. Their chest should be leaning over their front foot.
 2. **Create angle by stepping offline**: Step to the outside at approximately 45 degrees with your non-throwing leg. This lateral movement creates the angle necessary for the throw and positions you perpendicular to your opponent's forward momentum rather than directly in front of them.
@@ -242,6 +248,8 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sumi Gaeshi?</p>
+
 - **Opponent sprawls and widens base when they feel the angle creation** (Effectiveness: High) - Your Response: Switch to alternative sweep or takedown, or use their sprawl reaction to transition to single leg X-guard entry → Leads to [[Positions/Standing Position]]
 - **Opponent circles away from your lifting leg side** (Effectiveness: Medium) - Your Response: Follow their movement with your angle and re-establish the setup, or chain to opposite-side technique like ankle pick → Leads to [[Positions/Standing Position]]
 - **Opponent posts hand on mat during the throw** (Effectiveness: Medium) - Your Response: Continue rotation and attack the posted arm for kimura or use momentum to establish side control instead of mount → Leads to [[Positions/Mount]]
@@ -253,6 +261,8 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sumi Gaeshi?</p>
 
 ### 1. Placing lifting foot at opponent's knee instead of hip
 
@@ -292,6 +302,8 @@ The beauty of Sumi Gaeshi lies in its versatility across different grip configur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sumi Gaeshi (Attacker)?</p>
+
 **Week 1-2: Fundamental Mechanics** - Body positioning and angle creation
 Practice the entry footwork and angle creation from standing position. Drill the dropping motion and leg placement without resistance. Partner holds grips but remains stationary. Focus on proper foot position at hip and clean backward fall.
 
@@ -312,51 +324,12 @@ Implement Sumi Gaeshi in live rolling and competition scenarios. Develop persona
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is creating a 45-degree angle crucial before executing Sumi Gaeshi?
-**A**: The angle positions you perpendicular to your opponent's forward momentum rather than directly in their path. This allows you to redirect their energy in a circular arc over your center of gravity. Without the angle, you're fighting directly against their forward pressure, making the technique require excessive strength and reducing success probability significantly.
-
-**Q2**: What is the primary mechanical difference between Sumi Gaeshi and Tomoe Nage?
-**A**: While both are sacrifice throws, Sumi Gaeshi uses foot placement at the hip with an angular entry and circular throwing motion, whereas Tomoe Nage places the foot on the abdomen or belt and executes a more vertical, straight overhead throw. Sumi Gaeshi emphasizes the corner angle and lateral entry, while Tomoe Nage works directly from the front.
-
-**Q3**: Where should your lifting foot be positioned for maximum leverage in Sumi Gaeshi?
-**A**: The lifting foot should be placed high on the opponent's hip or upper inner thigh, not at the knee. The higher the foot placement, the greater the leverage and the shorter the distance the opponent needs to travel to be swept overhead. Knee placement is too low and allows opponent to easily step over or base out.
-
-**Q4**: How does Sumi Gaeshi function as both a takedown and a sweep in BJJ?
-**A**: From standing, Sumi Gaeshi is a sacrifice takedown where you drop to your back to execute the throw. From seated or butterfly guard, it functions as a sweep where you are already on your back or sitting and use the same mechanical principles to reverse position. The core technique remains identical, but the starting position and tactical context differ.
-
-**Q5**: Your opponent sprawls and widens their base as you begin to create the entry angle. How do you adjust?
-**A**: When the opponent sprawls in reaction to your angle creation, the Sumi Gaeshi entry is compromised because their hips are now distant and their weight is back. Transition to a single leg X-guard entry by threading your inside leg between theirs, or switch to an ankle pick on the near leg since their weight distribution has shifted backward. You can also use the sprawl reaction to pull guard to butterfly and reset the attack from seated position.
-
-**Q6**: What is the optimal timing window for committing to the backward sacrifice in Sumi Gaeshi?
-**A**: The optimal moment to commit is when your opponent's weight is moving forward, either because they are stepping in, driving with pressure, or reacting to your pull on their upper body. Dropping when their weight is already traveling toward you multiplies the momentum available for the throw. Attempting the sacrifice when the opponent is pulling back or has weight on their heels dramatically reduces success because you must generate all the forward momentum yourself.
-
-**Q7**: Why must you maintain grips throughout the entire Sumi Gaeshi execution?
-**A**: Grips serve multiple critical functions: they control opponent's upper body trajectory during the throw, generate the pulling force that brings opponent over your center, and allow you to follow through to top position after the throw. Releasing grips results in loss of control, potentially allowing opponent to land in advantageous position or escape the throw entirely.
-
-**Q8**: Your opponent posts their hand on the mat as you execute the throw and stops halfway through the arc. What do you do?
-**A**: When the opponent posts a hand during the throw, they create a structural vulnerability in that posted arm. Immediately redirect your attack to the posted arm by securing a kimura grip on the wrist and elbow, or continue your rotation while pulling their posting arm across your body to complete the sweep to side control. The posted arm is bearing their weight and cannot be retracted quickly, making it an ideal submission target. If neither option is available, use the momentum to establish closed guard with strong grip control.
-
-**Q9**: What grip configuration provides the strongest control for Sumi Gaeshi in the gi?
-**A**: A collar and sleeve grip combination offers the strongest control for gi Sumi Gaeshi. The collar grip (cross grip on the far lapel is ideal) provides direct pulling power to break posture and guide the opponent's upper body over your center. The sleeve grip prevents them from posting their hand during the throw. This combination gives you two distinct control points that work together to direct the throwing arc and eliminate their primary defensive option.
-
-**Q10**: What is the direction of force your lifting leg should apply during the throwing arc?
-**A**: The lifting leg should apply force in a circular arc that starts from the hip going upward and then curving over your head in the direction you are rolling. It is not a straight vertical push, which would require excessive strength and allow the opponent to step over. The circular trajectory follows the natural path of the throw: up, over, and behind you. This arc combines with the pulling action of your grips to create a wheel-like rotation around your body as the fulcrum.
-
-**Q11**: If your initial Sumi Gaeshi attempt is blocked but you maintain grips and butterfly hooks, what chain attacks are available?
-**A**: With grips and butterfly hooks maintained after a failed Sumi Gaeshi, several high-percentage follow-ups are available. You can immediately attempt a standard butterfly sweep to the opposite side since the opponent's base is likely shifted from defending. Entry to X-guard or single leg X-guard is available by threading your hooking leg deeper. You can reattempt the Sumi Gaeshi to the other side if the opponent over-corrects their base. Finally, pulling into closed guard resets the engagement if all sweeping options are exhausted.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sumi Gaeshi?</p>
 
 When practicing Sumi Gaeshi, ensure adequate mat space exists behind you for the backward drop. The person being thrown must be comfortable with rotational breakfalls and overhead throws. Begin all training with slow, controlled repetitions with clear communication between partners. The thrower should maintain grip control throughout to guide the landing. Advanced practitioners must still exercise control to prevent dangerous spikes or uncontrolled landings. Avoid practicing on hard surfaces or when fatigued. Stop immediately if either partner experiences discomfort or uncertainty about the rotation.
 

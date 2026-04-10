@@ -202,7 +202,7 @@ The Back Turn from Technical Mount occupies a unique place in the BJJ positional
 
 - [[Positions/Armbar Control]] - Counter outcome position when opponent catches arm during mid-turn rotation
 
-- [[Submissions/Armbar from Technical Mount]] - Primary submission threat that motivates the back turn as a defensive response
+- [[Transitions/Mount to Armbar]] - Primary submission threat transition that motivates the back turn as a defensive response
 
 - [[Transitions/Back Door Escape]] - Follow-up escape system used from back control after completing the turn
 

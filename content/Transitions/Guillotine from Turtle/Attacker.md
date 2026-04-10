@@ -182,6 +182,8 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guillotine from Turtle?</p>
+
 - Establish front headlock control before attempting the choke
 - Control opponent's far shoulder to prevent their escape rotation
 - Choose between standing finish and guard pull based on opponent's defensive reaction
@@ -197,6 +199,8 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guillotine from Turtle?</p>
+
 - Opponent in bottom turtle with head accessible
 - Top position established with control over opponent's upper body
 - Ability to access opponent's neck without exposing your own position
@@ -210,6 +214,8 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guillotine from Turtle step by step?</p>
 
 1. **Establish front headlock position**: From turtle top, drive your chest into opponent's upper back while wrapping your arm around their neck. Your armpit should be tight to the side of their head, with your forearm crossing under their chin. Simultaneously control their far shoulder with your free hand to prevent rotation escape.
 2. **Secure guillotine grip**: Thread your choking arm deeper until your wrist reaches the opposite side of their neck. With your free hand, grab your choking wrist using either a palm-to-palm grip (high elbow style) or a gable grip (arm-in variation). Your shoulder should be pressing down on the back of their neck, creating immediate discomfort.
@@ -238,6 +244,8 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guillotine from Turtle?</p>
+
 - **Opponent tucks chin and turns into you** (Effectiveness: Medium) - Your Response: Switch to high elbow guillotine variation, using opponent's turn to deepen your grip. Alternatively transition to anaconda or darce choke as they expose their shoulder. → Leads to [[Positions/Turtle]]
 - **Opponent posts hand on your hip and extends to create space** (Effectiveness: High) - Your Response: Use your free hand to control their posting arm, stripping it away while driving your chest pressure forward. Alternatively, transition to arm-in guillotine if their arm becomes trapped. → Leads to [[Positions/Turtle]]
 - **Opponent rolls forward (granby roll escape)** (Effectiveness: Medium) - Your Response: Follow their roll while maintaining grip, ending in top position with guillotine locked. Use their momentum to improve your finishing angle. Don't resist the roll, flow with it. → Leads to [[Positions/Turtle]]
@@ -250,6 +258,8 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guillotine from Turtle?</p>
 
 ### 1. Attempting guillotine without proper front headlock control first
 
@@ -294,6 +304,8 @@ The Guillotine from Turtle is a high-percentage submission setup that capitalize
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guillotine from Turtle (Attacker)?</p>
+
 **Phase 1: Fundamental Mechanics (Weeks 1-2)** - Front headlock control and grip acquisition from turtle
 Partner starts in turtle, you practice establishing front headlock position and threading arm for guillotine grip. Partner remains stationary. Focus on getting wrist to opposite side of neck and locking grip cleanly. Drill minimum 20 repetitions per training session, alternating sides.
 
@@ -317,48 +329,12 @@ Apply technique during normal sparring when opportunities arise. Start from turt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary control position you must establish before attempting the guillotine from turtle?
-**A**: Front headlock position with your chest driving into opponent's upper back, arm wrapped around neck with armpit tight to their head, and control of their far shoulder to prevent rotation. This dominant position must be secured before threading deeper for the choke grip.
-
-**Q2**: Why is controlling the opponent's far shoulder critical during the guillotine setup from turtle?
-**A**: Controlling the far shoulder prevents the opponent from rotating away from your choke, which is one of the highest-percentage escapes from front headlock position. Without this control, the opponent can turn their body perpendicular to you and escape to their guard or standing position, completely nullifying your attack.
-
-**Q3**: What are the two main finishing options for guillotine from turtle and when should you choose each?
-**A**: Standing finish should be used when opponent remains stationary and flat in turtle, allowing you to stand and finish with hip thrust and arching pressure. Guard pull finish should be used when opponent attempts to roll, stand, or create movement that threatens your standing base. The decision is made based on opponent's reaction within 2-3 seconds of securing the grip.
-
-**Q4**: How should you respond if your opponent tucks their chin and turns into you during the guillotine setup?
-**A**: Switch to high elbow guillotine variation using their turn to deepen your grip position, or transition to anaconda or darce choke as their shoulder becomes exposed during the turn. Never force a defended position; flow to the opening their defense creates.
-
-**Q5**: What is the most common grip depth error when attempting guillotine from turtle and how does it compromise the technique?
-**A**: Gripping too shallow around the face instead of deep under the chin. This creates a crank rather than a choke, has low finish rate, high injury risk, and allows opponent to escape by turning their head. The correction is ensuring your wrist reaches the opposite side of neck before locking grip, or transitioning to a different attack if depth cannot be achieved.
-
-**Q6**: When pulling guard to finish the guillotine from turtle, what angle and position should your body take?
-**A**: Angle your body 45 degrees away from your choking arm side while crunching your abs and using your legs to pull opponent's hips close. This angle prevents opponent from posturing and creates optimal leverage for the choke. Your legs must be active throughout, eliminating space between your bodies and breaking their posture continuously.
-
-**Q7**: Your opponent posts their hand on your hip and begins extending to create distance during the guillotine setup. How do you adjust?
-**A**: Use your free hand to strip their posting arm away from your hip while simultaneously driving your chest pressure forward to collapse the space they are trying to create. If their arm becomes trapped inside your grip during this exchange, immediately transition to arm-in guillotine variation which eliminates their hand-fighting defense entirely. Never allow the posting hand to remain unchecked.
-
-**Q8**: What determines your grip configuration choice between palm-to-palm, gable grip, and ten-finger interlace for the guillotine from turtle?
-**A**: Palm-to-palm grip suits high elbow variation when opponent tucks chin, providing the wrist angle to attack behind the jaw. Gable grip provides maximum squeeze power for standard guillotine when you have deep placement across the throat. Ten-finger interlace offers the strongest grip security against hand fighters and works best when transitioning to guard pull finish. Choose based on arm depth, opponent's primary defense, and your intended finishing position.
-
-**Q9**: Your opponent successfully strips your guillotine grip while you are in turtle top. What is the correct attack chain from this position?
-**A**: Immediately transition to back take by using the remaining front headlock contact to circle behind the opponent and establish seatbelt control. If they turn toward you during the grip strip, attack the crucifix by trapping the arm they used to strip your grip. If they flatten out, switch to anaconda or darce choke using the arm that was already around their neck. The key principle is that losing the guillotine grip should trigger an immediate secondary attack, never a reset to neutral.
-
-**Q10**: What is the optimal timing window for initiating the guillotine from turtle, and what signals indicate the window is open?
-**A**: The optimal window opens when the opponent first settles into turtle after a guard pass or scramble, before they begin active escape sequences. Key signals include: opponent pauses momentarily to reorganize their base, opponent lifts their head slightly to assess positioning, or opponent reaches a hand out to post during a direction change. The first 3-5 seconds of turtle establishment offer the highest-percentage entry because defensive grips and escape patterns have not yet been initiated.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guillotine from Turtle?</p>
 
 The guillotine from turtle requires careful application in training to prevent neck injuries. Always apply pressure progressively over 3-5 seconds minimum, never explosively or with jerking motions. Partners must have clear communication and immediate tap protocol established before drilling. The choke should target the blood vessels in the neck, not create pressure on the spine or trachea. Practitioners should avoid applying guillotines to partners with known neck injuries or conditions. When drilling, use controlled resistance and stop immediately at tap. Beginners should focus on position and grip mechanics before applying finishing pressure. In competition, be aware that guillotines can transition to dangerous positions if opponent rolls, so maintain awareness of your own neck safety. If you feel pain rather than pressure in your neck as the defender, tap immediately—never try to tough out neck pain. Training partners should agree on intensity levels before each round, and white belts should only practice this technique under direct instructor supervision.
 

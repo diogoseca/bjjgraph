@@ -162,6 +162,8 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle from Back Control?</p>
+
 - Opponent begins aggressive hand fighting on your choking arm, attempting two-on-one grip control to neutralize your upper body attacks and free their movement
 - Opponent's hips start shifting laterally with a hip escape motion, creating angle to disrupt your chest-to-back alignment and weaken your hook control
 - Opponent uses their legs to push against your hooks, attempting to extend and strip your feet from inside their thighs through leg straightening movements
@@ -174,6 +176,8 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle from Back Control?</p>
 
 - Maintain constant chest-to-back pressure throughout escape attempts to limit the opponent's ability to create space or establish turtle base
 - Adjust hook depth in response to stripping attempts by driving heels deeper into the opponent's inner thighs and maintaining active downward hook pressure
@@ -188,6 +192,8 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle from Back Control?</p>
 
 ### 1. Re-secure hooks by driving heels deeper and squeezing knees together while tightening chest pressure
 
@@ -225,6 +231,8 @@ As the back controller, preventing the opponent's escape to turtle requires unde
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle from Back Control?</p>
+
 ### → [[Positions/Back Control]]
 
 Maintain active hook pressure and seatbelt control throughout escape attempts. Drive heels deep into opponent's inner thighs, squeeze knees together, and tighten chest-to-back connection whenever the opponent initiates movement. Attack the rear naked choke during hand transitions to force them back to defensive priorities.
@@ -240,6 +248,8 @@ When the opponent successfully clears one hook and begins turning their hips, fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle from Back Control?</p>
 
 ### 1. Fighting to maintain hooks at all costs instead of transitioning to mount when control is compromised
 
@@ -269,6 +279,8 @@ When the opponent successfully clears one hook and begins turning their hips, fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle from Back Control?</p>
+
 **Phase 1: Recognition** - Identifying escape initiation cues and sequential phases
 Partner executes turtle escape attempts at 50% speed while you focus on recognizing the sequential escape cues: hand fighting changes, seatbelt stripping, hip movement initiation, and hook strip attempts. Call out each phase as you identify it without attempting to counter. Build pattern recognition before adding defensive responses.
 
@@ -285,29 +297,6 @@ Full resistance positional sparring starting from back control. Maintain positio
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest indication that your opponent is preparing to escape back control to turtle?
-**A**: The earliest cue is a change in their hand fighting behavior, specifically when they transition from purely defensive two-on-one neck protection to actively trying to strip your seatbelt grip or control your wrists. This signals they are preparing to address your hooks next, as the escape requires sequential dismantling of your control points starting with upper body grip neutralization.
-
-**Q2**: Your opponent strips your near-side hook - should you fight to re-insert it or transition to mount?
-**A**: This depends on your remaining controls. If your seatbelt is still tight and they have not created significant angle with their hips, fight to re-insert the hook by driving your knee back inside their thigh. If they have already begun turning their hips and your seatbelt is compromised, transition to mount immediately by walking your top leg over their body, as fighting for a lost hook wastes the window for mount.
-
-**Q3**: When is the optimal moment to attack a rear naked choke during your opponent's turtle escape attempt?
-**A**: The optimal moment is when the opponent moves their hands from your choking arm to address your hooks. This defensive hand transition creates a 1-2 second window where their neck is unprotected while their hands are occupied with hook fighting. Recognize this hand movement and immediately advance the choking arm behind their neck. Even if the choke does not finish, it forces them to abandon the escape and return to neck defense.
-
-**Q4**: How does switching to body triangle configuration affect your ability to prevent the turtle escape?
-**A**: Body triangle provides vastly superior hip control compared to standard hooks, making the hip escape phase of the turtle escape nearly impossible to execute. The locked leg configuration prevents the opponent from extending their legs to strip hooks and maintains constant compression around their waist. However, the transition itself requires briefly loosening hook control, and the opponent can target the locked ankle to relieve pressure if they turn toward the locked-leg side.
-
-**Q5**: How should you adjust your weight distribution when the opponent begins hip escaping during their escape attempt?
-**A**: Drive your weight forward and down through your chest, angling the pressure toward the mat on the side the opponent is trying to hip escape toward. This creates downward resistance against their lateral hip movement. Simultaneously squeeze your hooks tighter and pull with your seatbelt in the opposite direction of their hip escape. The goal is to make their hip escape feel like they are dragging your entire body weight with them.
-
-
-
-</section>
 
 
 </main>

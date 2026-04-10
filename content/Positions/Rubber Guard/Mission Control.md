@@ -112,7 +112,7 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 - **[[Transitions/Closed Guard to Triangle/Attacker|Closed Guard to Triangle]]** (14% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (10% of attempts)
+- **[[Transitions/Gogoplata/Attacker|Gogoplata]]** (10% of attempts)
 
 - **[[Transitions/Hip Bump Sweep/Attacker|Hip Bump Sweep]]** (10% of attempts)
 
@@ -185,8 +185,6 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 ### Available Transitions
 
 
-- **[[Transitions/Posture Recovery/Attacker|Posture Recovery]]** (15% of attempts)
-
 - **[[Transitions/Arm Extraction and Pass/Attacker|Arm Extraction and Pass]]** (13% of attempts)
 
 - **[[Transitions/Stack Defense/Attacker|Stack Defense]]** (13% of attempts)
@@ -201,7 +199,7 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 - **[[Transitions/Stack Pass from Mission Control/Attacker|Stack Pass from Mission Control]]** (2% of attempts)
 
-- **[[Transitions/Posture Recovery from Mission Control/Attacker|Posture Recovery from Mission Control]]** (1% of attempts)
+- **[[Transitions/Posture Recovery from Mission Control/Attacker|Posture Recovery from Mission Control]]** (16% of attempts)
 
 
 ### Common Mistakes

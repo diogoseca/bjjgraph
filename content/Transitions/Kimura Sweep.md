@@ -206,7 +206,7 @@ The Kimura Sweep occupies a central position in the Closed Guard attacking syste
 
 - [[Positions/Closed Guard]] - Starting position for this technique
 
-- [[Submissions/Armbar from Guard]] - Alternative attack when opponent straightens arm defending Kimura
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Alternative attack when opponent straightens arm defending Kimura
 
 - [[Transitions/Back Take from Bottom]] - Follow-up when opponent turns to resist sweep
 
@@ -214,7 +214,7 @@ The Kimura Sweep occupies a central position in the Closed Guard attacking syste
 
 - [[Transitions/Scissor Sweep]] - Alternative sweep from similar guard position
 
-- [[Transitions/Kimura]] - Direct submission alternative when opponent flattens to defend sweep
+- [[Submissions/Kimura]] - Direct submission alternative when opponent flattens to defend sweep
 
 - [[Transitions/Pendulum Sweep]] - Chain sweep option when opponent stacks forward to counter
 

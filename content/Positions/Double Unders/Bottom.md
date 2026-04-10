@@ -165,6 +165,8 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Position Definition
 
+<p class="section-subtitle">What is Double Unders (Bottom)?</p>
+
 - Opponent has both arms wrapped under your legs with hands meeting behind your back or gripping belt, controlling your lower body and eliminating your ability to create effective frames with your legs
 - Your back is curved with hips elevated as opponent drives weight through underhooks into your thighs, collapsing defensive posture and stacking your weight onto your shoulders
 - Opponent's chest pressure is driving forward and downward into your legs, forcing your hips upward while preventing you from extending legs or creating separation between bodies
@@ -178,6 +180,8 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Double Unders (Bottom)?</p>
+
 - Opponent has secured double underhooks from a passing position under your legs
 - Your defensive frames have been compromised or removed
 - Opponent is driving forward pressure through underhooks to stack your hips
@@ -190,6 +194,8 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Unders?</p>
 
 - Create frames immediately - elbows inside, forearms against opponent's face/neck to generate any available space
 - Prevent complete stacking by maintaining hip mobility and turning to one side when possible
@@ -205,6 +211,8 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Double Unders (Bottom)?</p>
 
 **If opponent drives heavy pressure forward and down attempting to flatten you completely onto your back:**
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Half Guard/Deep Half Guard]] (Probability: 55%)
@@ -233,6 +241,8 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Unders?</p>
 
 ### 1. Accepting flat back position without immediate frame creation response
 
@@ -277,6 +287,8 @@ Double Unders Bottom Position occurs when an opponent has established underhooks
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Double Unders defense?</p>
+
 ### Double Underhook Escape Repetition
 
 Partner establishes double underhooks from various positions (half guard, butterfly, seated). Practice frame creation, deep half entries, and granby rolls with progressive resistance. Start at 30% resistance, increase to 70% over weeks. Focus on immediate reactions when underhooks are secured.
@@ -309,38 +321,6 @@ Partner continuously seeks double underhooks while you work to maintain frames, 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent is driving heavy stacking pressure through double unders - what immediate frame should you establish to create space?
-**A**: Establish a cross-face frame by placing your forearm across their jawline or neck, using your elbow tight to your body as the anchor point. This frame creates a lever that generates space proportional to their forward pressure - the harder they drive, the more effective the frame becomes. Your other hand should control their bicep or shoulder to prevent them from walking around your frame. The frame must be skeletal rather than muscular, using bone alignment to redirect their pressure.
-
-**Q2**: What are the fundamental requirements for maintaining any defensive structure against double unders pressure?
-**A**: Three elements must be maintained: active hip mobility to prevent complete flattening, at least one frame creating space between your body and theirs, and leg activity to threaten guard recovery. If any element is lost, the others become progressively harder to maintain. Priority is hip mobility first (turn to side, don't accept flat back), then frames second, then leg positioning. Without hip mobility, frames become ineffective; without frames, leg recovery becomes impossible.
-
-**Q3**: How do you execute the primary escape of diving to deep half guard when trapped in double unders bottom?
-**A**: Time the entry when opponent drives their weight forward. Turn your hips toward the side you're escaping to, thread your bottom arm under their near leg to establish the deep half underhook, and rotate your body underneath their hips using their forward pressure as momentum. Your head must get below their hip line. The key is committing fully to the rotation rather than fighting to stay on top - use their energy against them by diving deep underneath rather than resisting the pressure direction.
-
-**Q4**: What grip adjustments should you prioritize when opponent begins walking their knees forward to complete the pass?
-**A**: When knees start walking forward, your window for standard escapes closes rapidly. Prioritize getting one hand to their hip on the passing side to create a frame that blocks their knee advancement. If that fails, immediately commit to either deep half entry by threading under, or granby roll by using their forward momentum to rotate away. Do not try to push their chest away - redirect to hip control or commit to rotation-based escapes that work with their passing momentum.
-
-**Q5**: How should you use hip positioning to maximize your defensive options and prevent complete pass completion?
-**A**: Never accept a flat back position with both shoulders on the mat. Always turn your hips to one side, which accomplishes three things: reduces the stacking pressure on your spine, creates an angle for deep half entry on the low side, and maintains granby roll option toward the high side. The side you turn toward becomes your deep half escape side, while the opposite side becomes your granby direction. Staying angled rather than flat maintains both escape pathways.
-
-**Q6**: Your opponent pauses their forward pressure momentarily to readjust grips - what immediate action gives you the best recovery chance?
-**A**: The grip adjustment pause is your primary window. Immediately create maximum hip movement by bridging and turning to your side to break their chest connection. Then establish butterfly hook with your free leg by inserting your foot inside their thigh. The butterfly hook combined with your frame allows you to create enough space to either recover full butterfly guard or transition to half guard with knee shield. Speed is critical - you have approximately 1-2 seconds before they reestablish pressure.
-
-**Q7**: How do you manage energy expenditure to survive extended periods in double unders bottom while maintaining escape capability?
-**A**: Avoid constant muscular straining against their pressure, which exhausts you faster than them. Use frames based on skeletal alignment rather than muscular pushing. Time your explosive escape attempts for moments when their pressure lightens or shifts. Between escape attempts, focus on maintaining hip angle and breathing steadily rather than constantly fighting. Accept that you may need to survive 30-60 seconds before a legitimate escape window opens. Preserve your explosive capacity for committed escape attempts rather than wasting it on half-efforts.
-
-**Q8**: When should you strategically accept transitioning to turtle rather than continuing to fight double unders bottom, and how do you execute this safely?
-**A**: Accept turtle transition when you cannot establish any frames and your back is being completely flattened, or when opponent's pass is imminent and turtle provides better scramble opportunity. Execute by timing a granby roll as they commit weight forward - use their momentum to roll over your shoulder toward turtle rather than trying to sit up against their pressure. Immediately establish defensive turtle posture with elbows tight and head protected. Turtle from active choice is far better than being flattened into side control with no defensive options.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

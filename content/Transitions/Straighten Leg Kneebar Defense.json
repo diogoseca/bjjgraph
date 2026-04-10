@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "game-over",
+      "to": "Kneebar",
       "probability": 15,
       "result": "counter"
     }
@@ -159,13 +159,13 @@
         "counter": "Attacker transitions to heel hook by rotating your foot during the extension attempt, exploiting exposed rotational angles",
         "effectiveness": "Medium",
         "your_response": "Immediately switch defensive priorities from leg extension to foot and ankle control—bring heel to buttock and hide the heel by turning toes toward their chest",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Attacker drops to straight ankle lock by adjusting grip to your foot when the knee straightens and ankle becomes exposed",
         "effectiveness": "Medium",
         "your_response": "Point your toes and flex your ankle to reduce ankle lock leverage while continuing to extract the leg from their entanglement structure",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Half Guard/Top"
       },
       {
         "counter": "Attacker drives hips forward aggressively to maintain fulcrum pressure against the knee despite your extension effort",
@@ -283,7 +283,7 @@
       {
         "action": "Transition to heel hook by rotating the opponent's foot during their extension attempt, exploiting the rotational angles created by their defensive movement",
         "when_to_use": "When the opponent's extension is succeeding and kneebar pressure is diminishing, but their foot is still within your control",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Submission via heel hook, converting a failing kneebar into an alternative finish",
         "risk": "Requires releasing kneebar grip to transition, potentially allowing full extraction if heel hook grip is not established quickly"
       },
@@ -297,7 +297,7 @@
       {
         "action": "Anticipate the extension and time a sharp pull to accelerate the kneebar finish during the opponent's commitment to straightening",
         "when_to_use": "When you read the extension attempt early and can capitalize on the opponent's quadriceps engagement against your finishing direction",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Half Guard/Top",
         "if_successful": "Kneebar finish by using the opponent's own extension commitment against them",
         "risk": "Requires precise timing—mistiming allows the opponent to complete their defense with added momentum"
       }
@@ -308,7 +308,7 @@
         "how": "Re-break the opponent's leg extension early by driving hips forward and sharply pulling the leg back to bent position with elbows squeezed tight, then immediately tighten all control points to prevent repeated defense attempts"
       },
       {
-        "outcome": "game-over",
+        "outcome": "Half Guard/Top",
         "how": "Either finish the kneebar by timing a sharp extension against the opponent's defensive movement, or transition to heel hook or ankle lock when the kneebar becomes untenable but their foot remains accessible"
       }
     ],

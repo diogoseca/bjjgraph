@@ -154,6 +154,8 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Feet on Hips to De La Riva?</p>
+
 - Bottom player removes one foot from your hip while keeping the other foot planted, indicating they are freeing a leg to thread a hook behind your knee
 - Bottom player's hips begin rotating to one side as they angle toward your lead leg, creating the alignment needed for DLR hook entry
 - Bottom player aggressively fights for cross sleeve or collar grip before removing their foot, establishing the upper body anchor required for a safe transition
@@ -166,6 +168,8 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Feet on Hips to De La Riva?</p>
 
 - Maintain a squared stance with even weight distribution to deny a clear lead leg for the DLR hook
 - Control the bottom player's ankles or pants to prevent them from removing feet from your hips and threading hooks
@@ -180,6 +184,8 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Feet on Hips to De La Riva?</p>
 
 ### 1. Strip ankle or pants grip on lead leg and circle away from the hooking attempt
 
@@ -217,6 +223,8 @@ As the top player facing an opponent in feet on hips guard, your primary concern
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Feet on Hips to De La Riva?</p>
+
 ### → [[Positions/Feet on Hips Guard]]
 
 Deny the hook by maintaining a squared stance, controlling the bottom player's ankles, and immediately stripping any hooking attempt. React to the first sign of transition by closing distance or circling to prevent the hook from threading behind your knee.
@@ -232,6 +240,8 @@ Capitalize on the transition attempt by backstepping your lead leg and immediate
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Feet on Hips to De La Riva?</p>
 
 ### 1. Standing with an exaggerated lead leg forward, presenting a clear target for the DLR hook
 
@@ -261,6 +271,8 @@ Capitalize on the transition attempt by backstepping your lead leg and immediate
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Feet on Hips to De La Riva?</p>
+
 **Phase 1: Recognition** - Identifying transition cues at slow speed
 Partner executes the DLR transition at slow speed while you focus on recognizing the preparatory cues: foot pressure changes, hip rotation, and grip adjustments. Call out each cue verbally as you identify it to build conscious awareness of the transition timeline before working on physical responses.
 
@@ -277,26 +289,6 @@ Positional sparring from feet on hips guard at full intensity. Top player focuse
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a De La Riva transition from feet on hips?
-**A**: The earliest cue is a change in foot pressure distribution where one foot pushes harder on your hip while the other begins to lighten. This asymmetric pressure indicates the bottom player is preparing to remove the lighter foot for the hook. Additionally, aggressive cross-sleeve or collar grip fighting signals they are establishing the upper body anchor needed for a safe transition. Reacting at this preparatory stage gives you maximum time to counter before the hook attempt begins.
-
-**Q2**: Why is maintaining a squared stance the most effective passive defense against the DLR entry?
-**A**: A squared stance with even weight distribution denies the bottom player a clear lead leg to target. The DLR hook requires threading behind a specific knee, which is difficult when both legs are equidistant and neither is committed forward. A squared stance also preserves your ability to retreat either leg quickly, whereas an advanced lead leg has limited retraction options. The bottom player must first provoke you into presenting a lead leg before they can realistically attempt the hook.
-
-**Q3**: Your opponent successfully threads a partial DLR hook but has not yet secured the ankle grip - what is the highest-percentage counter?
-**A**: Immediately backstep your hooked leg backward while driving your same-side knee toward the mat to flatten the hook angle. Without the ankle grip, the hook has minimal retention power and your backstep momentum will extract your leg cleanly. Simultaneously use your free hand to push their hooking knee away from your leg. Once extracted, immediately initiate a pass while their guard is in transition rather than allowing them to re-establish feet on hips and attempt the entry again.
-
-**Q4**: How do you prevent the bottom player from using asymmetric foot pressure to provoke you into presenting a lead leg?
-**A**: Maintain awareness of your stance and resist the impulse to step forward when pushed asymmetrically. Instead, absorb the rotational pressure by engaging your core and keeping both feet planted with equal weight. If you feel yourself being turned, step with both feet simultaneously to re-square your stance rather than advancing one leg. You can also counter the asymmetric pressure by controlling both of the bottom player's ankles, neutralizing their ability to create differential pushing forces entirely.
-
-
-
-</section>
 
 
 </main>

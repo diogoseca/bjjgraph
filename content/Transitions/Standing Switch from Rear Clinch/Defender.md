@@ -154,6 +154,8 @@ As the defender against the Standing Switch, your objective is to maintain your 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Switch from Rear Clinch?</p>
+
 - Opponent suddenly drops their hips and bends their knees significantly, lowering their center of gravity below your grip line
 - Opponent reaches one arm back between your bodies or behind your near-side leg, creating an anchor point for rotation
 - Sudden explosive rotational movement of the opponent's hips toward you combined with shoulder turning into your body
@@ -166,6 +168,8 @@ As the defender against the Standing Switch, your objective is to maintain your 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Switch from Rear Clinch?</p>
 
 - Maintain constant forward hip pressure to prevent the opponent from creating the space needed to initiate the hip pivot rotation
 - Keep your grip configuration tight and locked at all times, minimizing transition windows where the opponent might exploit momentary looseness
@@ -180,6 +184,8 @@ As the defender against the Standing Switch, your objective is to maintain your 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Switch from Rear Clinch?</p>
 
 ### 1. Drive hips forward and re-square your position when you feel the opponent begin to rotate
 
@@ -217,6 +223,8 @@ As the defender against the Standing Switch, your objective is to maintain your 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Switch from Rear Clinch?</p>
+
 ### → [[Positions/Standing Rear Clinch]]
 
 Prevent the switch entirely by maintaining tight grip pressure, even weight distribution, and immediate hip re-squaring at the first sign of rotation. This preserves your dominant control position unchanged and forces the opponent to try alternative escapes.
@@ -232,6 +240,8 @@ Capitalize on the opponent's switch attempt by executing a mat return the moment
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Switch from Rear Clinch?</p>
 
 ### 1. Loading weight heavily to one side of the opponent's back, creating the exact imbalance the switch exploits
 
@@ -261,6 +271,8 @@ Capitalize on the opponent's switch attempt by executing a mat return the moment
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Switch from Rear Clinch?</p>
+
 **Phase 1: Recognition Drilling** - Learning to identify switch initiation cues through tactile feedback
 Partner slowly demonstrates the switch setup movements while you focus on feeling the weight shifts, hip drops, and reaching motions through your controlling grips. Identify and verbalize each cue as you feel it. Practice with eyes closed to develop pure tactile recognition without visual reliance.
 
@@ -277,26 +289,6 @@ Start from standing rear clinch with partner working all available escapes inclu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a standing switch?
-**A**: The earliest cue is a sudden drop in the opponent's hip level accompanied by increased knee bend, lowering their center of gravity below your controlling grip line. This level change is the prerequisite for the switch because the opponent needs a pivot point below your grip to generate rotational leverage. You can feel this through your grips as the opponent's torso drops away from your chest contact and your arms begin to angle downward. Reacting at this pre-switch phase gives you the maximum time window to counter.
-
-**Q2**: Why is maintaining even weight distribution across the opponent's back essential for preventing the switch?
-**A**: Even weight distribution denies the opponent a clear rotational path because they need to pivot toward the side where there is less resistance. If your weight is loaded to the right side of their back, they can switch left where your pressure is minimal. By keeping weight centered and evenly distributed, both sides present equal resistance to rotation, forcing the opponent to generate significantly more force to execute the switch in either direction. This even distribution also keeps your own base balanced and prevents them from using your asymmetric weight against you.
-
-**Q3**: Your opponent has attempted two switch feints but has not committed to a full attempt—how should this change your defensive approach?
-**A**: Multiple feints indicate the opponent is testing your reactions and looking for a pattern to exploit. Avoid over-reacting to subsequent feints with large defensive movements, as this creates the timing windows they seek. Instead, maintain steady baseline pressure and grip tension without dramatic reactions. Simultaneously, recognize that a full-commitment switch is imminent and pre-load your mat return option so that when they finally commit, you can capitalize on their lowered base and rotational movement with an immediate takedown counter rather than a purely defensive response.
-
-**Q4**: How does the mat return counter work as a response to the switch, and what is the critical timing?
-**A**: The mat return counter exploits the opponent's compromised base during the switch—when they drop their hips and begin rotating, their feet are no longer optimally positioned for balance. The critical timing is after the opponent has committed to the level change but before they complete significant rotation. At this moment, drive your hips forward and down while lifting slightly with your locked grip, then step your outside leg past their near-side hip to trip or drive them to the mat. If executed too early, they have not yet compromised their base. If too late, they complete the rotation and you drive into empty space.
-
-
-
-</section>
 
 
 </main>

@@ -194,6 +194,8 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Cross Face Pass from Flattened Half?</p>
+
 - Maintain unbroken chest-to-chest contact throughout all four phases of the pass to prevent any frame recovery
 - The crossface is the primary passing tool, not just a control point. Drive it continuously to create the wedge effect that enables leg extraction
 - Create angle through incremental foot walking rather than explosive hip movements that sacrifice pressure stability
@@ -208,6 +210,8 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Cross Face Pass from Flattened Half?</p>
+
 - Crossface control established with forearm across opponent's jawline, turning their head away from the passing direction
 - Chest-to-chest contact settled with body weight distributed through skeletal alignment rather than muscular tension
 - Opponent's frames collapsed with no active knee shield, forearm frames, or underhook threatening your position
@@ -220,6 +224,8 @@ Executing the cross face pass from flattened half guard requires systematic prog
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Cross Face Pass from Flattened Half step by step?</p>
 
 1. **Establish Crossface Control**: From flattened half guard top, drive your shoulder and forearm across your opponent's face and jaw, turning their head away from the direction you intend to pass. Ensure your forearm bone sits across the jawline rather than the throat, creating heavy uncomfortable pressure that limits their vision and restricts their ability to turn toward you.
 2. **Secure Hip Control with Free Hand**: With your free hand, establish control on your opponent's far hip by cupping the hip bone or gripping the belt line. This prevents them from creating hip movement, shrimping away, or inserting frames. The combination of crossface and hip control creates a two-point control system that severely restricts all defensive options available to the bottom player.
@@ -250,6 +256,8 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Cross Face Pass from Flattened Half?</p>
+
 - **Opponent recovers underhook on far side and creates defensive angle to prevent flattening** (Effectiveness: High) - Your Response: Immediately apply whizzer control on their underhook arm and increase crossface pressure to re-flatten them before they can build structural resistance from the recovered underhook → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Opponent dives underneath for deep half guard entry during angle creation phase** (Effectiveness: Medium) - Your Response: Post your free hand behind their head and drive your hips back to prevent them from getting underneath your center of gravity, then re-settle weight forward to maintain the flattened position → Leads to [[Positions/Half Guard]]
 - **Opponent bridges and shrimps to re-establish knee shield or active half guard frames** (Effectiveness: High) - Your Response: Follow their hip movement with your own hips, increasing forward pressure during the bridge apex when they are extended and most vulnerable, then use their return to the mat to advance your passing angle further → Leads to [[Positions/Half Guard/Flattened Half Guard]]
@@ -261,6 +269,8 @@ Executing the cross face pass from flattened half guard requires systematic prog
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Cross Face Pass from Flattened Half?</p>
 
 ### 1. Applying crossface pressure across the throat instead of the jawline
 
@@ -300,10 +310,12 @@ Executing the cross face pass from flattened half guard requires systematic prog
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Cross Face Pass from Flattened Half (Attacker)?</p>
+
 **Phase 1: Mechanics** - Crossface Pressure and Body Positioning
 Practice establishing and maintaining crossface control against a compliant partner. Focus on proper forearm placement across the jawline, weight distribution through chest and hips, and maintaining pressure while breathing calmly. Drill the foot-walking sequence without resistance to develop smooth lateral movement. Build endurance with 3-minute rounds in the control position.
 
-**Phase 2: Angle Creation** - Lateral Movement and Leg Extraction Timing
+**Phase 2: Dominant Angles** - Lateral Movement and Leg Extraction Timing
 With crossface established on a cooperative partner, practice the complete foot-walking sequence to create passing angle. Focus on maintaining chest contact while adjusting your hip angle incrementally. Drill the windshield-wiper leg extraction motion until it becomes smooth and instinctive. Partner provides light resistance to develop timing for the extraction phase.
 
 **Phase 3: Resistance Training** - Pass Against Progressive Defense
@@ -317,42 +329,12 @@ Apply the cross face pass in live rolling starting from flattened half guard pos
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to initiate leg extraction during the cross face pass?
-**A**: The optimal moment is when your opponent is focused on managing the crossface pressure or has just completed a bridge attempt. During the bridge recovery, they are momentarily settling their hips back to the mat and cannot actively defend leg extraction. Timing the windshield-wiper motion with this settling phase exploits the brief window where their hook pressure is weakest and their defensive attention is divided.
-
-**Q2**: What conditions must exist before you can effectively begin the cross face pass from flattened half guard?
-**A**: You need established crossface control turning their head away, chest-to-chest contact with settled weight through skeletal alignment, the opponent's frames collapsed so they cannot create distance, and their underhook neutralized or controlled. Without all four conditions, attempting the pass creates openings for frame recovery or guard transitions that undo your pressure advantage.
-
-**Q3**: How does the crossface mechanically create the angle necessary for leg extraction?
-**A**: The crossface turns the opponent's head away from the passing direction, which rotates their shoulders and creates a wedge between their upper body and lower body alignment. This wedge effect restricts their ability to follow your lateral hip movement with their own hips, allowing you to walk your feet and create the extraction angle without the opponent mirroring your movement to maintain their hook.
-
-**Q4**: What is the most common reason the cross face pass fails even when crossface control is established?
-**A**: The most common failure is lifting chest pressure during the angle creation or leg extraction phase. Many practitioners unconsciously reduce chest contact when walking their feet or attempting to free their leg. This creates space that allows frame recovery, underhook re-establishment, or knee shield insertion, negating the positional advantage of the crossface and requiring the entire flattening sequence to be repeated.
-
-**Q5**: Where should your free hand be positioned during the cross face pass and why?
-**A**: Your free hand should control the opponent's far hip, blocking their ability to create hip movement or shrimp away from your pressure. This hand prevents them from using hip escapes to follow your angle creation and keeps their lower body pinned while your crossface controls their upper body. Without hip control, opponents can match your lateral movement and maintain their hook position throughout the passing attempt.
-
-**Q6**: In which direction should you drive your shoulder pressure during the crossface and why?
-**A**: Drive your shoulder pressure diagonally downward and across, pushing through the opponent's jawline toward the mat on the far side of their head. This diagonal angle creates maximum head rotation while simultaneously compressing their chest. Driving straight down provides pressure but minimal head turning, while driving purely across lacks the weight component needed to prevent bridging and frame recovery.
-
-**Q7**: Your opponent frames against your hip with their near-side hand during the pass attempt - how do you respond?
-**A**: Collapse their frame by driving increased chest and hip pressure forward while pinching your elbow against your body to trap their hand between your hip and their own body. Once their frame is compromised, use the opportunity to advance your passing angle. Their commitment of a hand to the hip frame temporarily eliminates their ability to fight for the underhook, creating a window for accelerated angle creation.
-
-**Q8**: If your opponent re-establishes knee shield during your cross face pass attempt, what follow-up techniques should you chain to?
-**A**: Transition to a smash pass by driving your hip pressure into their knee shield to collapse it, or switch to a long step pass by stepping your free leg over their shield. The crossface you maintained gives you significant advantage for either follow-up because their head is already turned away. You can also transition to an arm triangle setup if their near arm comes across their body while fighting the re-established knee shield.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Cross Face Pass from Flattened Half?</p>
 
 The crossface applies significant pressure to the opponent's face, jaw, and cervical spine. Position your forearm across the jawline rather than the throat to avoid tracheal compression. In training, apply pressure gradually and release immediately upon tap signals. Be aware that extreme crossface pressure combined with full body weight can create cervical spine strain, particularly for smaller training partners. Never crank the head violently - use steady, controlled pressure that turns rather than torques the neck. Monitor your partner's breathing and reduce pressure if they show signs of respiratory distress.
 

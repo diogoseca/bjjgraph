@@ -154,6 +154,8 @@ As the defender, your leg is trapped in the opponent's inside ashi-garami and th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Inside Ashi to Outside Ashi?</p>
+
 - Attacker's hips begin rotating away from inside angle toward the outside of your trapped leg, indicating directional change in their body alignment
 - Attacker's inside leg starts withdrawing from across your hip, reducing the pressure you feel on your near hip from their shin or knee
 - You feel a brief moment of loosened leg triangle pressure as the attacker transitions between configurations, creating slight space around your trapped leg
@@ -166,6 +168,8 @@ As the defender, your leg is trapped in the opponent's inside ashi-garami and th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Inside Ashi to Outside Ashi?</p>
 
 - Recognize the transition early by monitoring the attacker's hip rotation and leg movement—early detection creates the best escape windows
 - Exploit the vulnerability window during the leg switch when the figure-four triangle is temporarily loosened to extract your heel and leg
@@ -181,6 +185,8 @@ As the defender, your leg is trapped in the opponent's inside ashi-garami and th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Inside Ashi to Outside Ashi?</p>
 
 ### 1. Retract leg through the loosened triangle during the transition window
 
@@ -218,6 +224,8 @@ As the defender, your leg is trapped in the opponent's inside ashi-garami and th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Inside Ashi to Outside Ashi?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the transition vulnerability window by retracting your heel the moment you feel the figure-four triangle loosen. Combine heel retraction with explosive hip movement away from the attacker to create distance. Once your leg is partially extracted, continue moving to establish half guard or open guard rather than stopping. The key timing is reacting within the first half-second of feeling the leg triangle open.
@@ -233,6 +241,8 @@ Prevent the transition from completing by establishing strong frames with your f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Inside Ashi to Outside Ashi?</p>
 
 ### 1. Failing to recognize the transition is occurring until the outside ashi is fully established
 
@@ -262,6 +272,8 @@ Prevent the transition from completing by establishing strong frames with your f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Inside Ashi to Outside Ashi?</p>
+
 **Phase 1: Recognition Training** - Identifying transition cues without resistance
 Partner establishes inside ashi and slowly executes the transition to outside ashi at 25% speed. The defender focuses on identifying the hip rotation, leg withdrawal, and triangle loosening cues. No escape attempts—purely recognition training. 15 repetitions focusing on calling out each cue as it occurs.
 
@@ -278,26 +290,6 @@ Start in inside ashi with the attacker free to attempt any transition including 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from inside ashi to outside ashi?
-**A**: The earliest cue is feeling the attacker's hips begin to rotate away from the inside angle toward the outside of your trapped leg. This hip rotation precedes the actual leg switch and signals the directional change in their body alignment. You may also notice reduced pressure from their inside leg across your hip as it begins to withdraw. Reacting to the hip rotation rather than waiting for the leg switch gives you the maximum time to execute your defensive response.
-
-**Q2**: Why is the transition vulnerability window your best escape opportunity rather than defending the established outside ashi?
-**A**: During the transition, the attacker's figure-four triangle is temporarily loosened as they reconfigure their legs. This brief looseness creates the only moment where the structural integrity of the entanglement is compromised. Once outside ashi is fully established with a tight triangle, the escape requires overcoming complete positional control. The transition window may last less than one second, but it represents a significantly higher probability of successful escape than fighting a fully locked position.
-
-**Q3**: Your opponent begins the transition but you cannot extract your leg during the vulnerability window—what should your next defensive priority be?
-**A**: If you cannot escape during the transition window, immediately prioritize hiding your heel by rotating your knee inward and tucking your foot toward your body. The outside ashi configuration provides direct access to outside heel hooks, which are the primary danger. By protecting the heel first, you buy time to work a systematic escape from the established outside ashi position. Additionally, establish frames with your free leg and hands to prevent the attacker from closing distance for finishing mechanics.
-
-**Q4**: How does defending the Inside Ashi to Outside Ashi transition differ from defending a direct outside ashi entry?
-**A**: The key difference is the vulnerability window. A direct outside ashi entry typically occurs from a scramble or guard pass where the attacker establishes control in one motion. The transition from inside to outside ashi requires the attacker to disassemble one configuration before establishing another, creating a brief gap in control. Your defensive strategy should specifically exploit this gap, which does not exist in direct entries. The transition also telegraphs the direction change through recognizable hip rotation cues.
-
-
-
-</section>
 
 
 </main>

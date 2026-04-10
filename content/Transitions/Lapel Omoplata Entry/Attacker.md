@@ -186,6 +186,8 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lapel Omoplata Entry?</p>
+
 - Attack the posting arm when opponent commits to base defense against sweep threats
 - Maintain lapel control throughout the rotation to prevent opponent from posturing away
 - Create the rotational angle with hip movement before committing to the leg thread
@@ -200,6 +202,8 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lapel Omoplata Entry?</p>
+
 - Established lapel guard configuration with opponent's lapel fed around their leg or arm
 - Opponent has posted their hand to base against sweep threat or pressure
 - Hip mobility to rotate under the posting arm while maintaining lapel grip
@@ -212,6 +216,8 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lapel Omoplata Entry step by step?</p>
 
 1. **Threaten sweep**: From lapel guard, initiate a sweep threat that forces opponent to post their hand for base. The posting arm becomes your target for omoplata entry.
 2. **Control posting arm**: Secure control of the posting arm at the wrist or tricep using your non-lapel hand. This prevents arm retraction and guides the shoulder into position for the attack.
@@ -240,6 +246,8 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lapel Omoplata Entry?</p>
+
 - **Opponent postures up immediately when feeling the rotation begin, pulling arm free before leg threads** (Effectiveness: High) - Your Response: Maintain tight lapel control and pursue with your rotation, or transition to triangle setup if arm escapes but head remains trapped → Leads to [[Positions/Lapel Guard]]
 - **Opponent rolls forward through the omoplata to escape the shoulder pressure** (Effectiveness: Medium) - Your Response: Follow the roll maintaining control, transitioning to mounted omoplata or using the roll to come up on top → Leads to [[Positions/Omoplata Control]]
 - **Opponent stacks pressure into you to prevent hip rotation and kill the angle** (Effectiveness: Medium) - Your Response: Use the lapel to off-balance them or transition to sweep using their forward pressure momentum → Leads to [[Positions/Lapel Guard]]
@@ -251,6 +259,8 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lapel Omoplata Entry?</p>
 
 ### 1. Releasing lapel control during the hip rotation phase
 
@@ -285,6 +295,8 @@ Strategically, this entry creates a true dilemma for the top player. When threat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lapel Omoplata Entry (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice the hip rotation and leg threading motion from static lapel guard. Partner provides posted arm without resistance, allowing focus on mechanics of angle creation and leg placement.
 
@@ -302,48 +314,12 @@ Implement in positional sparring starting from lapel guard. Work against full re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Lapel Omoplata Entry?
-**A**: The primary goal is to transition from lapel guard to omoplata control by attacking an opponent's posting arm. You use sweep threats to force them to post for base, then rotate under that posting arm to secure shoulder lock control while the lapel configuration prevents their escape.
-
-**Q2**: What position do you start Lapel Omoplata Entry from?
-**A**: This technique starts from Lapel Guard/Bottom. You must have an established lapel configuration—typically worm guard, squid guard, or a hybrid variation—with the opponent's lapel fed around their leg or arm to create the control necessary for the attack.
-
-**Q3**: What are the key grips needed for Lapel Omoplata Entry?
-**A**: You need the primary lapel grip maintaining your guard configuration, plus control of the posting arm at the wrist or tricep level. The lapel grip serves as an anchor preventing opponent from posturing away, while the arm control guides the shoulder into position and prevents retraction.
-
-**Q4**: Your opponent posts their hand wide rather than directly—how do you adjust the entry?
-**A**: When the hand posts wide, you need additional hip escape to create the angle for leg threading. Control the wrist firmly and use it to guide the shoulder position as you rotate. The wider post actually creates more space for the leg to clear if you adjust your angle accordingly.
-
-**Q5**: What is the optimal timing window for initiating the omoplata entry?
-**A**: The optimal timing is the moment of maximum commitment to the posting arm—when opponent has fully extended to base against your sweep threat. At this point they cannot easily retract the arm because their weight depends on it for stability. Attacking before full commitment allows easy arm retraction.
-
-**Q6**: Your opponent begins rolling forward as you establish the omoplata—what adjustment maintains control?
-**A**: Follow the roll by maintaining your leg across their back and controlling their near hip. As they roll, you have two options: come up to mounted omoplata position for top control, or allow the roll while maintaining shoulder pressure to finish from the other side. Never release control during the roll.
-
-**Q7**: How do you counter Lapel Omoplata Entry from the top position?
-**A**: The primary defense is early posture recovery before the leg threads over your shoulder. If you feel the rotation beginning, immediately drive your weight forward and pull your arm back before it becomes trapped. If caught, clasp hands together to prevent isolation, or roll forward explosively to escape the shoulder pressure.
-
-**Q8**: When is the best time to attempt Lapel Omoplata Entry versus other lapel guard attacks?
-**A**: Attempt the omoplata when opponent posts their hand to defend sweep threats—this posting reaction is your trigger. If they keep hands close and stay heavy, sweep attacks are better options. The omoplata specifically targets the defensive reaction of posting, so it works best in combination with credible sweep threats.
-
-**Q9**: What chain attacks are available if the opponent prevents the omoplata entry by retracting their arm?
-**A**: If the arm escapes but you've created the rotational angle, transition to triangle setup as their head may still be trapped. Alternatively, use your momentum to complete a sweep since they've likely compromised their base by retracting. The lapel control enables multiple follow-ups from the same entry attempt.
-
-**Q10**: What is the critical mechanical detail for the hip rotation in this technique?
-**A**: The hip rotation must create perpendicular alignment to opponent's body before threading the leg. Hip escape away from the posting arm first, establishing the angle while maintaining lapel anchor. Attempting to thread the leg without sufficient angle results in the leg being blocked by opponent's shoulder.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lapel Omoplata Entry?</p>
 
 The omoplata attacks the shoulder joint through rotational force on the humerus. Apply pressure gradually, especially during training, as the shoulder can be vulnerable to injury from sudden torque. Partners must tap early when feeling shoulder pressure—ego-driven resistance risks rotator cuff damage or shoulder dislocation. When drilling, communicate clearly about pressure levels. The lapel configuration can create unexpected restriction on opponent's movement, so release all controls immediately upon tap. Avoid this technique on training partners with existing shoulder injuries.
 

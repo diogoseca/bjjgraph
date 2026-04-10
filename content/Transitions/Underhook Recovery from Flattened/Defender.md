@@ -162,6 +162,8 @@ As the top player in flattened half guard, your opponent's underhook recovery at
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook Recovery from Flattened?</p>
+
 - Bottom player begins small, incremental hip escapes rather than explosive bridging movements, indicating a systematic recovery attempt
 - Bottom player's near-side arm starts working toward your far side, creating a frame on your hip or shoulder as a precursor to underhook insertion
 - Bottom player's shoulder angles from flat toward their side, indicating they are building rotational momentum for the underhook thread
@@ -174,6 +176,8 @@ As the top player in flattened half guard, your opponent's underhook recovery at
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook Recovery from Flattened?</p>
 
 - Maintain constant forward chest pressure to eliminate the space needed for the underhook arm to thread through
 - Drive the crossface deeper when you feel the bottom player's hip escape beginning, following their movement rather than letting them create space
@@ -188,6 +192,8 @@ As the top player in flattened half guard, your opponent's underhook recovery at
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Recovery from Flattened?</p>
 
 ### 1. Drive crossface deeper and increase forward chest pressure to re-flatten the bottom player
 
@@ -225,6 +231,8 @@ As the top player in flattened half guard, your opponent's underhook recovery at
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Recovery from Flattened?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Maintain constant forward pressure and follow the bottom player's hip escapes with your chest, preventing space creation. Clamp your near-side elbow to block the underhook path. Drive crossface deeper each time they attempt to move. The goal is to make their recovery attempts futile by eliminating the space they need before they can use it.
@@ -240,6 +248,8 @@ Read the bottom player's hip escape timing and use their movement as the trigger
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Recovery from Flattened?</p>
 
 ### 1. Remaining static with heavy pressure without actively working to advance the pass or counter the recovery
 
@@ -269,6 +279,8 @@ Read the bottom player's hip escape timing and use their movement as the trigger
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Recovery from Flattened?</p>
+
 **Phase 1: Recognition Training** - Identifying underhook recovery cues
 Bottom player executes the underhook recovery sequence at 50% speed while top player focuses exclusively on recognizing the early cues: hip escape initiation, frame creation, and arm threading. Top player calls out each cue verbally as they notice it. Builds pattern recognition without the pressure of needing to counter.
 
@@ -285,29 +297,6 @@ Competition-intensity positional sparring starting from flattened half guard. To
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting underhook recovery from flattened half guard?
-**A**: The earliest cue is small, incremental hip escape movements rather than explosive bridges. These controlled hip movements indicate the bottom player is executing a systematic recovery sequence rather than panicking. The second cue is their near-side arm beginning to create a frame on your hip or shoulder, which is the precursor to the underhook threading attempt. Recognizing these early indicators allows you to increase pressure before significant space is created.
-
-**Q2**: How should you adjust your crossface when you feel the opponent beginning to create a frame against your hip?
-**A**: Drive your crossface deeper and increase the angle of pressure to turn their head further away from the action. Simultaneously shift your chest pressure to follow their hip escape direction, closing the space they are creating. The crossface adjustment should be proactive and aggressive rather than simply maintaining the existing level of control. Your goal is to make their frame ineffective by driving through it with your shoulder weight.
-
-**Q3**: When is the optimal moment to attempt completing the guard pass during an opponent's underhook recovery attempt?
-**A**: The optimal moment is when the bottom player commits their far arm to the underhook path and simultaneously executes a hip escape. This combination often loosens their leg hook because their attention and physical effort are directed toward the underhook rather than maintaining the hook. The hip escape itself creates the angle you need for a knee slice. Time your leg extraction to coincide with this commitment window.
-
-**Q4**: What does a successful early whizzer defense look like against the underhook insertion?
-**A**: A successful early whizzer catches the underhook arm before it passes your armpit depth. As you feel the arm beginning to thread, immediately overhook it with your near-side arm while driving your shoulder weight down onto their shoulder. The whizzer should pin their arm against your body at a shallow depth where it has no leverage. From this position, you can use the whizzer to re-flatten their shoulder to the mat by driving pressure diagonally downward.
-
-**Q5**: How do you prevent the initial space creation that enables underhook recovery without exhausting yourself?
-**A**: Use your skeletal structure and body weight positioning rather than muscular effort to prevent space creation. Drive your chest pressure through your sternum onto their chest, using gravity and body angle to maintain compression. Keep your hips heavy and low, distributing weight through your chest and hips rather than your arms. This creates sustainable pressure that does not fatigue your muscles. When they attempt hip escapes, follow with your entire body rather than resisting with your arms.
-
-
-
-</section>
 
 
 </main>

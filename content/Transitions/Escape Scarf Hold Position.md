@@ -220,7 +220,7 @@ Escape Scarf Hold Position sits within the broader pin escape system, connecting
 
 - [[Positions/Side Control]] - Related control position with different escape mechanics for comparison
 
-- [[Positions/Scramble Position]] - Possible outcome when escape creates contested 50-50 situation
+- [[Positions/Standing Position]] - Possible outcome when escape creates contested 50-50 situation
 
 
 </section>

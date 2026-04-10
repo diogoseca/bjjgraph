@@ -188,6 +188,8 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Inverted Guard?</p>
+
 - Establish controlling grips on pants and belt before initiating any sweeping motion to ensure force transmission through connection points
 - Generate sweep power through hip rotation rather than upper body pulling, using your core as the primary engine for rotational displacement
 - Insert hooks deep behind the opponent's leg to create a secure mechanical lever that prevents them from simply stepping away
@@ -202,6 +204,8 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Inverted Guard?</p>
+
 - Inverted guard established with hips elevated above shoulder level and weight distributed across shoulder blades
 - Far-side pants grip at the knee or ankle secured to control sweep direction and pull angle
 - Secondary grip on belt, collar, or near-side sleeve established for generating rotational pull
@@ -214,6 +218,8 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Inverted Guard step by step?</p>
 
 1. **Establish Inverted Guard Position**: From open guard, invert your body by rolling onto your shoulders while keeping your upper back firmly in contact with the mat. Elevate your hips toward the ceiling, positioning your legs between you and your opponent. Distribute weight across your shoulder blades, never on your cervical spine, while maintaining active hip elevation and rotational readiness.
 2. **Secure Controlling Grips**: Establish a grip on the opponent's far-side pants at the knee or ankle with your near hand while your other hand controls their belt, collar, or near-side sleeve. These grips must be secured before initiating any sweeping motion, as they provide the connection points through which rotational force is transmitted to displace the opponent's base.
@@ -243,6 +249,8 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Inverted Guard?</p>
+
 - **Opponent sprawls and drives hips down to eliminate hook insertion angle** (Effectiveness: High) - Your Response: Redirect to berimbolo entry by using your grips to pull yourself underneath rather than threading a hook, or transition to single leg X-guard where the sprawl creates the space needed for leg elevation → Leads to [[Positions/Inverted Guard]]
 - **Opponent backsteps and circles away from the hook side to remove sweeping angle** (Effectiveness: Medium) - Your Response: Follow their movement with hip rotation and re-establish the hook on the new angle, or use their lateral movement to enter crab ride or De La Riva guard on the opposite side → Leads to [[Positions/Inverted Guard]]
 - **Opponent stacks forward through your legs and applies crushing pressure to flatten your inversion** (Effectiveness: High) - Your Response: Granby roll away from the stack pressure to recover guard, or redirect their forward momentum into the sweep by using their drive as the rotational energy for a berimbolo entry → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Inverted Guard?</p>
 
 ### 1. Resting weight on the neck instead of the shoulder blades during inversion
 
@@ -293,6 +303,8 @@ As the sweeper executing from inverted guard, your primary advantage lies in the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Inverted Guard (Attacker)?</p>
+
 **Phase 1: Inversion Mechanics** - Safe inversion technique and hip mobility
 Develop comfortable inversion mechanics without a partner. Practice rolling onto shoulders with proper weight distribution across shoulder blades. Build hip elevation strength and rotational mobility through solo drills including granby rolls, inversion flows, and hip circles while inverted. Establish safe habits before adding resistance.
 
@@ -313,42 +325,12 @@ Apply the sweep in positional sparring starting from inverted guard against full
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the sweep from inverted guard?
-**A**: The optimal timing is when the opponent commits their weight forward while attempting to pass or control your inverted position. Their forward momentum creates the rotational inertia needed for the sweep. If the opponent maintains distance with a low, wide base, the sweep requires significantly more effort and has lower success probability. The window opens specifically when their weight shifts forward of their base of support.
-
-**Q2**: What grips must be established before attempting the sweep from inverted guard?
-**A**: You need a controlling grip on the opponent's far-side pants at the knee or ankle with your near hand, and a secondary grip on their belt, collar, or near-side sleeve with your other hand. The pants grip is critical for directing the sweep angle, while the secondary grip provides the pull necessary to generate rotational momentum. Attempting the sweep without both grips results in slipping off the opponent without displacing their base.
-
-**Q3**: How should you position your hook behind the opponent's leg for maximum sweep effectiveness?
-**A**: The hook should be placed deep behind the opponent's far knee or lower thigh, with your foot actively pulling toward you rather than simply resting behind their leg. The hook depth determines the amount of control you have over their base. A shallow hook allows the opponent to step free easily. Your shin should create a shelf behind their leg that blocks forward stepping and serves as the primary lever for rotational displacement.
-
-**Q4**: Your opponent sprawls when you attempt hook insertion - how do you adjust your approach?
-**A**: When the opponent sprawls, their hips drop and eliminate the space needed for hook insertion. Adjust by switching to a berimbolo-style entry where you use your grips to pull yourself underneath them rather than threading a hook from outside. Alternatively, abandon the inverted sweep temporarily and transition to single leg X-guard or De La Riva guard where you can re-establish offensive positions from a different angle that does not require the space the sprawl eliminated.
-
-**Q5**: What is the most critical hip movement during the sweep execution?
-**A**: The decisive hip movement is a forceful lateral rotation toward the hook side combined with a simultaneous pulling motion through your grips. Your hips must rotate as a unified structure rather than segmenting, generating torque that transfers through the hook to destabilize the opponent's base. The rotation should feel like spinning on your shoulder blades while your legs sweep the opponent in an arc beneath their center of gravity, with continuous momentum throughout.
-
-**Q6**: What is the primary direction of force application during the sweep?
-**A**: The primary force direction is lateral and slightly downward relative to the opponent's base, creating a rotational displacement that circles underneath their center of gravity. The force is not straight backward but follows a circular arc that takes the opponent's base out from under them while positioning you behind them. The combination of grip pull and hook drive creates a composite force vector that cannot be resisted by bracing in any single direction.
-
-**Q7**: If your initial sweep attempt fails and the opponent maintains balance, what chain attacks are available?
-**A**: If the sweep fails but you retain grips, immediately transition to a berimbolo entry by continuing your rotation underneath the opponent. If the hook is stripped, switch to single leg X-guard or X-guard entries using your remaining grip to elevate the opponent's leg. If both grips are broken, execute a granby roll to recover De La Riva guard or seated guard. The key is maintaining transitional momentum rather than resetting to static inverted guard and losing initiative.
-
-**Q8**: How do you maintain back control once the sweep successfully places you behind the opponent?
-**A**: Immediately after arriving behind the opponent, establish a seatbelt grip with your choking arm over their shoulder and your underhook arm beneath their armpit. Simultaneously insert both hooks inside their thighs before they can turn to face you. Press your chest firmly against their back and lower your hips to prevent them from sitting back into you. The transition from sweep grips to back control configuration must happen in one continuous motion without any pause that allows the opponent to begin escape sequences.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Inverted Guard?</p>
 
 Inverted guard sweeps carry inherent risk of cervical spine compression if weight is placed on the neck during inversion. Always maintain weight on shoulder blades, never on the cervical spine. Practitioners with pre-existing neck injuries or limited cervical mobility should avoid this technique until adequate flexibility is developed. During training, communicate clearly with partners about neck comfort and immediately abandon any sweep attempt if neck pressure is felt. Build inversion comfort progressively through dedicated mobility work before attempting sweeps under resistance. Training partners should avoid applying sudden stack pressure that could compress the inverted practitioner's neck.
 

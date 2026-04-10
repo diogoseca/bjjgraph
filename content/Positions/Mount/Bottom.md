@@ -175,6 +175,8 @@ Energy management is the hidden variable in mount defense. The top player expend
 
 ## Position Definition
 
+<p class="section-subtitle">What is Mount (Bottom)?</p>
+
 - Top practitioner sits astride bottom practitioner's torso with knees on either side of body
 - Bottom practitioner's back is on the mat with hips controlled by top practitioner's weight
 - Top practitioner maintains ability to post hands for base or initiate submission attacks
@@ -186,6 +188,8 @@ Energy management is the hidden variable in mount defense. The top player expend
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Mount (Bottom)?</p>
 
 - Understanding of hip escape mechanics and shrimping movement patterns for space creation
 - Knowledge of proper framing techniques using skeletal structure without exposing limbs to attack
@@ -199,6 +203,8 @@ Energy management is the hidden variable in mount defense. The top player expend
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount?</p>
 
 - Frame early and structurally - establish elbow-knee connection frames before opponent settles heavy pressure
 - Protect neck first - keep chin tucked and hands defending collar and neck region against choke entries
@@ -214,6 +220,8 @@ Energy management is the hidden variable in mount defense. The top player expend
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Mount (Bottom)?</p>
 
 **If opponent establishes high mount with knees near armpits limiting arm movement:**
 - Execute **[[Transitions/Frame and Shrimp to Guard/Attacker|Frame and Shrimp to Guard]]** → [[Positions/Half Guard]] (Probability: 55%)
@@ -247,6 +255,8 @@ Energy management is the hidden variable in mount defense. The top player expend
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount?</p>
 
 ### 1. Lying completely flat on back with no defensive frames or angle established
 
@@ -290,6 +300,8 @@ Energy management is the hidden variable in mount defense. The top player expend
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Defense
+
+<p class="section-subtitle">How do you train Mount defense?</p>
 
 ### Mount Escape Hierarchy Drill
 

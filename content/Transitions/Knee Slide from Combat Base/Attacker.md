@@ -188,6 +188,8 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slide from Combat Base?</p>
+
 - Drive the knee diagonally across the opponent's thigh at approximately 45 degrees rather than straight down, using hip weight to separate their legs along the cutting path
 - Establish crossface control before initiating the knee cut to prevent the opponent from turning into you and creating defensive angles that block the pass
 - Maintain constant hip-to-opponent contact throughout the cutting motion so no space opens for the bottom player to insert hooks or frames
@@ -202,6 +204,8 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slide from Combat Base?</p>
+
 - Stable combat base established with one knee posted and opposite foot planted flat on the mat providing triangulated base
 - Crossface or collar grip secured on the opponent's head or neck to control their head position and prevent turning
 - Underhook, lapel grip, or hip control established on the far side to prevent opponent from creating upper body frames
@@ -214,6 +218,8 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slide from Combat Base step by step?</p>
 
 1. **Secure upper body control from combat base**: From combat base, establish crossface with the lead arm by driving your forearm across the opponent's jaw and neck, turning their head away from you. Simultaneously secure an underhook or collar grip with the trailing arm on the far side to prevent frames. This dual control creates the upper body vise essential for the pass.
 2. **Angle the lead knee toward the cutting line**: Rotate your lead knee inward toward the opponent's far hip, positioning the shin at approximately 45 degrees across their thigh line. The knee should point diagonally rather than straight down. Drop your hip weight forward to load the cutting angle with pressure that will drive through their guard structure.
@@ -243,6 +249,8 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slide from Combat Base?</p>
+
 - **Opponent inserts knee shield before the cutting knee crosses the thigh line, creating a frame that blocks forward progress** (Effectiveness: High) - Your Response: Drive your crossface shoulder into the top of their knee shield to flatten it toward the mat. If the shield holds, transition to a smash pass by walking your hips around the shield, or switch to a long step pass by stepping over the shield to the far side. → Leads to [[Positions/Half Guard]]
 - **Opponent wins the underhook on the near side, turning into you and threatening sweeps or back takes from half guard** (Effectiveness: High) - Your Response: Immediately apply a whizzer with heavy shoulder pressure to neutralize their underhook leverage. If the underhook is deep, transition to a kimura grip on the underhook arm to attack the arm directly or use it to peel the underhook and re-establish crossface control. → Leads to [[Positions/Half Guard]]
 - **Opponent frames hard against the crossface shoulder with both hands, creating distance that prevents the knee from cutting through** (Effectiveness: Medium) - Your Response: Swim your crossface arm inside their frames to collapse the distance, or grip their framing wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch to an arm drag that pulls the framing arm across their body. → Leads to [[Positions/Combat Base]]
@@ -254,6 +262,8 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slide from Combat Base?</p>
 
 ### 1. Driving the knee straight down into the opponent's thigh instead of cutting diagonally across
 
@@ -293,6 +303,8 @@ Executing the Knee Slide from Combat Base requires understanding the biomechanic
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slide from Combat Base (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo and partner drilling of the cutting motion
 Practice the knee slide cutting motion with a compliant partner, focusing on proper 45-degree knee angle, hip weight transfer along the cutting line, and crossface positioning. Drill 20 repetitions per side with no resistance to build the neuromuscular pattern for coordinated upper and lower body movement.
 
@@ -313,39 +325,12 @@ Integrate the knee slide into a complete passing system during live rolling, com
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal angle for driving the knee across the opponent's thigh during the knee slide?
-**A**: The knee should drive diagonally at approximately 45 degrees across the opponent's thigh, cutting from the inside hip toward the mat on the far side. A straight-down angle stalls against the thigh and allows the opponent to insert a knee shield. The diagonal path uses your hip weight to separate their legs while your crossface prevents them from following the direction of your cut.
-
-**Q2**: Your opponent inserts a knee shield just as you begin the knee slide—how do you adjust your passing strategy?
-**A**: When the opponent inserts a knee shield, do not force the knee slide through the frame. Use your crossface shoulder pressure to flatten their shield knee toward the mat while shifting your hips to the opposite side. If the shield holds, transition to a smash pass by driving your shoulder into their knee shield and walking your hips around, or switch to a long step pass by stepping your lead leg over their shield to the far side.
-
-**Q3**: Why is the crossface critical during the knee slide, and what happens if you skip it?
-**A**: The crossface controls the opponent's head position and prevents them from turning their body toward you, which would block the cutting knee's path and enable guard recovery. Without the crossface, the opponent can freely create defensive angles, insert frames against your chest, and hip escape away from the cutting knee. The crossface also creates a mechanical lever that pins the opponent's upper body to the mat, channeling all resistance against your hip pressure through a single point of contact.
-
-**Q4**: What grip configuration provides the strongest control for completing the knee slide in the gi?
-**A**: The strongest gi configuration combines a cross-collar grip with the lead hand driving the crossface and a pants grip at the knee or belt grip with the trailing hand. The cross-collar grip controls head position and prevents the opponent from turning into you, while the pants grip pins their far hip and prevents guard recovery. This dual control creates a vise that channels all pressure through the cutting knee.
-
-**Q5**: What is the most common timing window for initiating the knee slide from combat base?
-**A**: The optimal timing window occurs when the opponent is reacting to another threat—such as defending a grip break, recovering from a toreando feint, or adjusting their guard after a weight shift. The moment their attention and frames are occupied with one threat is when the knee slide cuts through most efficiently. Initiating the knee slide against a fully set, prepared guard with established frames significantly reduces the success rate.
-
-**Q6**: How should you distribute your weight during each phase of the knee slide?
-**A**: During setup in combat base, weight is distributed 60-40 between posted knee and planted foot. As you initiate the cut, shift weight forward through your hips onto the opponent's torso via the crossface shoulder. At mid-pass, your weight should be almost entirely on the opponent through hip and chest pressure, with the cutting knee serving as a blade rather than a weight-bearing point. Upon completion, transfer to standard side control weight distribution across the opponent's chest and hips.
-
-**Q7**: Your opponent frames hard against your crossface shoulder during the knee slide—what is your response?
-**A**: Use a swim move to get your crossface arm inside their frame, collapsing the distance between your shoulder and their neck. If the frame is too strong to swim through, grip their wrist and pin it to the mat while driving your shoulder past the frame. Alternatively, use the frame as an opportunity to switch grips and transition to an arm drag that pulls their framing arm across their body, opening the far side for the knee to cut through without resistance.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slide from Combat Base?</p>
 
 The knee slide is generally a low-risk technique, but practitioners should apply crossface pressure with control to avoid excessive neck strain on training partners. Avoid driving the knee directly into the opponent's thigh with excessive downward force, which can cause contusions or bruising. When training, communicate with your partner about pressure levels during the crossface and hip pressure phases. Be aware that the cutting knee can compress the opponent's ribs if body weight is applied incorrectly—adjust the cutting angle to pass over the thigh rather than driving into the torso. During drilling, use progressive resistance to allow the bottom player to develop defensive timing without injury.
 

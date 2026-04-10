@@ -154,6 +154,8 @@ The Z-Guard Sweep Defender operates from the top position against an opponent wh
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Z-Guard Sweep?</p>
+
 - Bottom player reaches across to grip your far-side collar, sleeve, or wrist while maintaining knee shield pressure
 - Bottom player hip escapes to create an angled body position with weight shifting onto their shoulder blade
 - Increased upward or lateral pressure through the knee shield accompanied by tightening of the far-side pulling grip
@@ -166,6 +168,8 @@ The Z-Guard Sweep Defender operates from the top position against an opponent wh
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Z-Guard Sweep?</p>
 
 - Maintain heavy hip pressure and low center of gravity to minimize the mechanical advantage the knee shield provides as a sweeping lever
 - Win the grip battle proactively by stripping far-side grips before the opponent can establish the pulling control necessary for the sweep
@@ -180,6 +184,8 @@ The Z-Guard Sweep Defender operates from the top position against an opponent wh
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Z-Guard Sweep?</p>
 
 ### 1. Strip the far-side grip by controlling opponent's reaching arm and pulling it away from your collar or sleeve before the sweep can be loaded
 
@@ -217,6 +223,8 @@ The Z-Guard Sweep Defender operates from the top position against an opponent wh
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Z-Guard Sweep?</p>
+
 ### → [[Positions/Z-Guard]]
 
 Strip the far-side grip early by controlling the opponent's reaching arm, preventing them from establishing the pulling control needed for the sweep. Maintain heavy hip pressure and wide base to absorb any residual sweeping force, then resume your passing strategy from Z-Guard top.
@@ -232,6 +240,8 @@ When the opponent commits to the sweep, drive forward aggressively with crossfac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Z-Guard Sweep?</p>
 
 ### 1. Allowing the opponent to establish a deep far-side grip without fighting it
 
@@ -261,6 +271,8 @@ When the opponent commits to the sweep, drive forward aggressively with crossfac
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Z-Guard Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner sets up the Z-Guard Sweep at slow speed while the defender focuses purely on recognizing the three critical setup elements: far-side grip establishment, body angle creation, and knee shield loading. Call out each element as it is identified. No defensive action taken - purely visual and tactile recognition training to build awareness.
 
@@ -277,26 +289,6 @@ Full resistance positional sparring from Z-Guard with the top player defending s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: You feel the bottom player beginning to extend their knee shield forcefully while pulling your collar - what is your immediate response?
-**A**: Immediately strip the collar grip with a two-on-one grip break, pulling their hand away from your collar while simultaneously dropping your hips and widening your base. Address the pulling force first because the knee shield extension alone cannot generate sufficient rotational torque for the sweep. Once the grip is stripped, the sweep mechanism is neutralized and you can resume your passing strategy from a stable base position.
-
-**Q2**: What is the most important grip to prevent the Z-Guard Sweep from being initiated?
-**A**: Control the opponent's far-side arm to prevent them from establishing any pulling grip on your collar, sleeve, or wrist. Whether you use a wrist pin, sleeve grip, or crossface pressure that limits their reach, preventing the far-side connection eliminates the pulling force that creates the push-pull torque mechanism. Without this grip, the knee shield extension can only create distance, not rotational sweeping force.
-
-**Q3**: The bottom player has secured a deep collar grip and is coming up on their shoulder blade with an angled body position - what should you prioritize?
-**A**: Prioritize stripping the collar grip immediately since the angled body position combined with the deep grip indicates the sweep is being loaded. Use a two-on-one grip break, pushing their gripping hand toward their own chest to break the collar hold. Simultaneously drop your hip weight directly onto their angled hips to eliminate the space they need for the lateral hip drive. If you cannot strip the grip quickly, post your far hand on the mat as an emergency brace while driving your crossface pressure to flatten them out of the angle.
-
-**Q4**: How can you convert a failed Z-Guard Sweep attempt into a passing opportunity?
-**A**: When the opponent commits to the sweep but fails due to your defensive response, their knee shield is often partially extended and their grips are broken or weakened. This is the optimal moment to initiate a pass because their primary defensive structure is compromised. Drive forward with crossface pressure to collapse the weakened knee shield, sliding your knee through the gap created by their extension. The failed sweep creates precisely the opening that the Z-Guard normally prevents. Follow through aggressively to side control before they can re-establish the knee shield frame.
-
-
-
-</section>
 
 
 </main>

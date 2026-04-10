@@ -204,11 +204,9 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 
 - [[Positions/Mount/Mounted Crucifix]] - Target position - successful entry establishes mounted crucifix control
 
-- [[Submissions/Armbar from Mount]] - Chain attack - failed armbar defense often creates crucifix entry opportunity
-
 - [[Positions/Gift Wrap]] - Alternative entry - gift wrap control can transition to crucifix
 
-- [[Transitions/Choke from Crucifix]] - Follow-up attack - primary submission from established crucifix
+- [[Submissions/Choke from Crucifix]] - Follow-up attack - primary submission from established crucifix
 
 - [[Transitions/Armbar from Crucifix]] - Follow-up attack - secondary submission option from crucifix
 
@@ -216,7 +214,7 @@ The Mounted Crucifix Entry serves as a critical link between S Mount attacking s
 
 - [[Transitions/Back Take from Top]] - Alternative advancement - back take available if crucifix fails but opponent turns
 
-- [[Transitions/Mount to Armbar]] - Primary chain - armbar setup from mount creates crucifix entry windows
+- [[Transitions/Mount to Armbar]] - Primary chain - armbar setup from mount creates crucifix entry windows when failed armbar defense exposes the far arm
 
 
 </section>

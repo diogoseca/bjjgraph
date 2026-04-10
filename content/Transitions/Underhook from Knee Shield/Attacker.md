@@ -188,6 +188,8 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Underhook from Knee Shield?</p>
+
 - Time the underhook attempt to coincide with the opponent's forward weight shift or grip adjustment, never against a settled and balanced opponent
 - Remove the knee shield and swim the underhook as a single coordinated motion with zero gap between frame removal and arm entry
 - Drive the underhook deep past the opponent's armpit to their far shoulder blade for maximum leverage and whizzer resistance
@@ -203,6 +205,8 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Underhook from Knee Shield?</p>
+
 - Established knee shield half guard with shin actively framing across opponent's torso and bottom leg hook secure on far leg
 - At least one controlling grip on opponent's upper body—collar grip in gi, wrist or head control in no-gi—preventing free crossface
 - Opponent's weight shifted forward or committed to a passing attempt, creating the reaction window for the underhook
@@ -215,6 +219,8 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Underhook from Knee Shield step by step?</p>
 
 1. **Establish Initial Grip Control**: From knee shield half guard bottom, secure a collar grip with your outside hand in gi or head and wrist control in no-gi. Your inside arm maintains a frame on the opponent's bicep or shoulder, simultaneously blocking the crossface and monitoring the path for the underhook entry. Confirm your bottom leg hook is secure behind the opponent's far leg.
 2. **Create the Timing Window**: Apply outward pressure with your knee shield to provoke a forward reaction, then release the pressure as the opponent drives back in. This push-pull rhythm disrupts their balance and creates a split-second window where their weight shifts forward and their near arm lifts slightly, opening the underhook path. Alternatively, wait for them to initiate a knee slice or smash pass, as their forward commitment creates the same window.
@@ -244,6 +250,8 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Underhook from Knee Shield?</p>
+
 - **Crossface and flatten—opponent drives shoulder into jaw and applies heavy forward pressure during knee shield removal** (Effectiveness: High) - Your Response: If crossface arrives before underhook is established, abort immediately and re-establish knee shield frame. If crossface arrives after deep underhook, tuck chin toward underhook side and use forehead pressure against their shoulder to resist while completing the elevation to knees. → Leads to [[Positions/Half Guard/Flattened Half Guard]]
 - **Strong whizzer—opponent wraps arm over underhook and pulls elbow to their hip, preventing elevation to Dogfight** (Effectiveness: Medium) - Your Response: Do not fight the whizzer head-on. Either drop level to enter deep half guard using their whizzer pressure against them, or circle your hips away from the whizzer side to reduce its leverage while driving forward with your head position. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Near-side arm pin—opponent controls your near arm at the wrist or elbow before you can swim, physically blocking the underhook path** (Effectiveness: Medium) - Your Response: Use your knee shield frame to push the opponent away and break the arm control through distance creation. Alternatively, threaten a sweep with the outside arm to force them to release the pin, then immediately swim for the underhook. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Underhook from Knee Shield?</p>
 
 ### 1. Removing the knee shield before the underhook path is clear, creating a gap with no frame and no underhook
 
@@ -294,6 +304,8 @@ As the attacker executing the Underhook from Knee Shield, your objective is to c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Underhook from Knee Shield (Attacker)?</p>
+
 **Phase 1: Mechanics** - Isolated underhook swimming motion and knee shield removal coordination
 Partner holds knee shield top position statically. Practitioner drills the coordinated knee shield removal and underhook swim repeatedly, focusing on eliminating the gap between removing the frame and establishing the underhook. No resistance—emphasis on building the single-beat motor pattern. Drill 30 repetitions per side.
 
@@ -314,42 +326,12 @@ Positional sparring starting from knee shield half guard bottom. Bottom player's
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the underhook attempt from knee shield?
-**A**: The best timing window occurs when the opponent shifts their weight forward during a passing attempt or adjusts their grips. Look for moments when they drive into your knee shield—this forward commitment means they cannot immediately retract to counter your underhook. You can also create the window by pushing outward with the knee shield and then dropping it as they push back, using their forward momentum against them. Attempting the underhook while the opponent is settled with balanced weight and both hands controlling your upper body has the lowest success rate.
-
-**Q2**: What conditions must exist before you attempt the underhook from knee shield?
-**A**: Four conditions should be present: First, you need at least one controlling grip on the opponent's upper body to prevent their crossface during the transition. Second, your hips must be mobile and not flattened to the mat, giving you the ability to turn into the opponent. Third, your near-side arm must have a clear swimming path under their armpit, meaning their elbow is not pinned tight to their body. Fourth, your bottom leg hook should be secure to maintain the half guard structure—losing the hook during the underhook attempt results in a complete guard pass.
-
-**Q3**: What is the most critical mechanical detail that separates a successful underhook from a failed one?
-**A**: Depth of penetration is the single most important mechanical factor. The underhook must reach past the opponent's armpit to their far shoulder blade or lat muscle. A shallow underhook that only reaches the near hip provides no meaningful leverage for sweeps and is easily countered by a whizzer. The depth is achieved by turning your shoulder inward and driving it under the opponent's armpit while simultaneously pressing your head against their chest to create the angle needed for deep penetration past the armpit.
-
-**Q4**: Your underhook attempt stalls because the opponent establishes a strong whizzer—how do you adjust?
-**A**: Do not fight the whizzer head-on by trying to muscle through it. Instead, immediately drop your level and transition to a deep half guard entry, diving under the opponent's base and using their forward whizzer pressure against them. Alternatively, if you still have your knee shield partially in place, reset to full knee shield by pulling your arm back and re-establishing the frame. The worst response is to remain in a halfway position with a compromised underhook and no knee shield, as this leaves you vulnerable to both flattening and passing.
-
-**Q5**: What grip configuration provides the highest success rate for the underhook entry?
-**A**: In gi, a cross collar grip with your outside hand provides the strongest control during the transition because it prevents the opponent from posturing away and gives you pulling power to assist the underhook entry. In no-gi, controlling the opponent's far wrist or tricep with your outside hand serves a similar purpose. The near-side hand should be framing on their bicep before swimming through—this frame monitors the space and converts directly into the underhook motion without a grip change that could telegraph your intention to the opponent.
-
-**Q6**: In what direction should you apply force when driving for the underhook and elevating to Dogfight?
-**A**: The primary force vector should be diagonal—forward and slightly upward through the underhook side. Drive your shoulder under and past the opponent's armpit while simultaneously pressing your head into their chest and your hips forward. This diagonal vector is critical because a purely horizontal drive gets stuffed by the crossface, while a purely upward drive lifts you into an unstable position without forward pressure. The diagonal creates a wedge effect that is extremely difficult for the top player to counter with either crossface or whizzer alone.
-
-**Q7**: Your opponent reacts to your underhook attempt by immediately applying a heavy crossface—how do you respond?
-**A**: If the crossface arrives before you establish the underhook, abort the attempt and re-establish your knee shield frame immediately. Fighting through a strong crossface without the underhook leads to getting flattened with no offensive tools. If the crossface arrives after you establish a deep underhook, tuck your chin toward the underhook side and use your forehead pressure against their shoulder to resist the crossface while continuing to drive to your knees. The underhook and head position working together can overcome even a strong crossface if your penetration is deep enough.
-
-**Q8**: What attacks should you chain to if you successfully reach Dogfight but the opponent defends your initial sweep?
-**A**: From Dogfight, chain immediately to complementary attacks based on the opponent's defensive reaction. If they post wide to defend the forward drive sweep, attack with the back take by circling behind their whizzer side. If they whizzer hard and drive forward, drop to deep half guard and use their momentum for the deep half sweep. If they try to flatten you, hit the old school sweep by catching their far leg. Every defensive reaction to one Dogfight attack opens a different Dogfight attack—never reset to neutral after a failed attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Underhook from Knee Shield?</p>
 
 The Underhook from Knee Shield is a relatively low-risk transition, but practitioners should be aware of potential neck strain when the opponent drives a heavy crossface during the transition, particularly if the head is caught in an awkward angle between the underhook side and the crossface. Shoulder strain can occur if the underhook arm gets trapped in an extended position while the opponent applies a tight whizzer and drives downward. Always abort the attempt cleanly rather than forcing through a strong counter to avoid joint strain. Train the transition at progressive resistance levels and ensure the abort-to-knee-shield pattern is automatic before attempting against full resistance.
 

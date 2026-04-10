@@ -162,6 +162,8 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Half Butterfly?</p>
+
 - Passer begins driving chest weight forward and downward onto your upper body with increased pressure intensity, signaling the start of hook neutralization
 - Passer's hips drop noticeably lower and heavier on your butterfly hook side, reducing the space available for hip elevation and sweep mechanics
 - Passer establishes or strengthens crossface control, turning your head away and limiting your ability to create the angle needed for effective hook engagement
@@ -174,6 +176,8 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Half Butterfly?</p>
 
 - Maintain active butterfly hook engagement with constant upward pressure to prevent the passer from settling their weight into the neutralization position
 - Fight aggressively for the underhook on the hook side as it provides the primary platform for sweeps and prevents the passer from establishing crossface dominance
@@ -188,6 +192,8 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Half Butterfly?</p>
 
 ### 1. Immediate butterfly hook elevation and sweep attempt before passer's weight settles
 
@@ -225,6 +231,8 @@ Defending the Pass Half Butterfly requires recognizing the passer's intent to ne
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Half Butterfly?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a butterfly hook sweep during the passer's weight transfer phase, coordinating hip elevation with upper body grip control to generate enough off-balancing force to complete the reversal before the passer can stabilize their base
@@ -240,6 +248,8 @@ Maintain active hook engagement through constant hip movement and angle changes,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Half Butterfly?</p>
 
 ### 1. Allowing the butterfly hook to become passive without active upward pressure
 
@@ -274,6 +284,8 @@ Maintain active hook engagement through constant hip movement and angle changes,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Half Butterfly?</p>
+
 **Phase 1: Recognition and Awareness** - Identifying pass initiation cues through weight and pressure changes
 Partner executes the pass at slow speed while you focus exclusively on feeling the weight distribution changes that signal each phase. Call out each cue verbally as you feel it: weight shift, crossface establishment, hip drop, base widening. Build awareness of the pass timeline without attempting any defense yet.
 
@@ -290,29 +302,6 @@ Positional sparring from half butterfly bottom with full resistance. Score point
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate the passer is initiating the Pass Half Butterfly?
-**A**: The earliest cues are the passer driving their chest weight noticeably forward and downward onto your upper body while simultaneously dropping their hips lower on the butterfly hook side. You will also feel increased crossface pressure as they try to control your head position, and their base may widen as they spread their knees for stability. Recognizing these weight distribution changes before the setup is complete gives you the maximum window for defensive response.
-
-**Q2**: Your butterfly hook is being systematically collapsed by the passer's hip pressure - what are your two best escape routes?
-**A**: The two best escape routes when hook retention becomes untenable are transitioning to deep half guard or rising to dogfight position. For deep half, thread your outside arm under the passer's hips and invert your angle, using their committed forward weight against them to enter underneath. For dogfight, fight for the underhook on the hook side and use it to climb up to a neutral kneeling position where you have equal leverage. The choice depends on the passer's weight commitment: heavy forward pressure favors deep half, while lighter pressure favors the underhook rise.
-
-**Q3**: How should you coordinate your butterfly hook and half guard legs to maximize defensive effectiveness against this pass?
-**A**: The legs must work as an integrated system rather than independently. While the butterfly hook maintains upward pressure and sweep threat, the half guard legs maintain squeeze on the trapped leg to prevent extraction. When attempting a sweep, tighten the half guard squeeze simultaneously with the hook elevation to create a dual-vector force that removes the passer's base from both sides. If defending, use the half guard legs to anchor while the hook creates space. Losing coordination between the two allows the passer to address each threat individually.
-
-**Q4**: What is the optimal timing for attempting a sweep counter during the Pass Half Butterfly?
-**A**: The optimal sweep timing is during the passer's weight transfer phase, specifically the moment they shift from stable top pressure to forward driving pressure for hook neutralization. This transition creates a brief window where their base is narrowest and their weight is moving in a direction you can redirect. Attempting sweeps before the pass starts wastes the element of surprise, while attempting after the passer has settled their weight faces maximum resistance. Reading the weight shift and attacking during the transition maximizes sweep percentage.
-
-**Q5**: The passer has established crossface and their weight is heavily committed forward - which defensive option gives you the best chance of recovery?
-**A**: With heavy forward weight commitment and established crossface, the deep half entry is your highest-percentage option. The passer's forward weight actually assists your entry by creating momentum you can redirect underneath them. Thread your outside arm under their hips, turn your body away from the crossface direction, and use a hip escape to shoot your head underneath their center of gravity. Their committed forward pressure makes it difficult for them to retract fast enough to block the entry if you execute it with timing and commitment.
-
-
-
-</section>
 
 
 </main>

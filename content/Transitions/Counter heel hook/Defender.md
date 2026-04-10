@@ -166,6 +166,8 @@ Strategically, the best defense against a counter heel hook begins before it hap
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter heel hook?</p>
+
 - Opponent stops defending their own heel and begins reaching toward your heel with their outside hand while you are focused on finishing your attack
 - You feel opponent's hand cupping the back of your heel or fingers wrapping around your Achilles tendon area while their other hand releases defensive grip fighting
 - Opponent's hips shift and rotate to create a new angle directed at your trapped foot, changing from purely defensive posture to an offensive orientation
@@ -178,6 +180,8 @@ Strategically, the best defense against a counter heel hook begins before it hap
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter heel hook?</p>
 
 - Heel awareness during offense: Even while attacking opponent's heel, maintain awareness of your own heel exposure and keep it defended through knee angle
 - Early recognition beats late defense: Identifying the counter attempt in its initial phase provides escape options that disappear once grips are locked
@@ -192,6 +196,8 @@ Strategically, the best defense against a counter heel hook begins before it hap
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter heel hook?</p>
 
 ### 1. Immediately rotate your knee inward and strip opponent's heel grip with two-on-one hand fighting before they establish figure-four configuration
 
@@ -229,6 +235,8 @@ Strategically, the best defense against a counter heel hook begins before it hap
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter heel hook?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Strip opponent's heel grips through aggressive two-on-one grip fighting combined with knee rotation. Once their counter grips are broken, you return to neutral 50-50 where you can reset your offense, attempt a different attack, or extract to standing. Key is prioritizing grip strips over maintaining your own attack.
@@ -244,6 +252,8 @@ If opponent commits heavily to the counter and shifts their body position, use t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter heel hook?</p>
 
 ### 1. Continuing to attack opponent's heel while ignoring the counter being established on your own heel
 
@@ -273,6 +283,8 @@ If opponent commits heavily to the counter and shifts their body position, use t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter heel hook?</p>
+
 **Week 1-2** - Counter recognition and knee rotation defense
 Partner slowly initiates counter heel hook from 50-50 bottom while you practice recognizing the cues and executing immediate knee rotation defense. Focus on identifying the moment opponent shifts from defense to counter-offense. No live resistance - build pattern recognition.
 
@@ -289,29 +301,6 @@ Full speed 50-50 positional sparring where both practitioners attack and defend 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a counter heel hook?
-**A**: The earliest cue is feeling opponent's hand contact the back of your heel or Achilles while they simultaneously reduce their own heel defense. This indicates they are shifting from pure defense to counter-offense. The transition in their grip fighting from stripping your grips to reaching for your heel is the critical moment. Recognizing this within the first second provides maximum defensive options.
-
-**Q2**: When is it acceptable to race the counter heel hook rather than defending?
-**A**: Only when you have a clearly dominant grip position - your figure-four is fully locked with breaking angle established, while opponent has only initial contact on your heel without their secondary grip. Even then, this is a high-risk decision appropriate only in competition with stakes that justify the bilateral injury risk. In training, always default to defending the counter rather than racing.
-
-**Q3**: How does knee rotation defend against the counter heel hook mechanically?
-**A**: Rotating your knee inward toward your centerline aligns your knee joint with the direction of any applied rotational force, removing the torque angle that causes ligament damage. It also retracts your heel closer to your body, making it harder for opponent to maintain their cupping grip. The combination of reduced grip surface area and eliminated breaking angle makes the heel hook mechanically ineffective even if opponent maintains some grip contact.
-
-**Q4**: Your opponent has secured a figure-four grip on your heel and begins rotating - what is your immediate action?
-**A**: Tap immediately. Once a figure-four grip is locked with rotational pressure initiated, the window for safe defense has closed. Knee ligament damage occurs in under 2 seconds from this position. No grip strip or positional escape can reliably prevent injury faster than the submission finishes. Protecting your training longevity is always more valuable than avoiding a tap in practice.
-
-**Q5**: What preventive measures should you take during your own heel hook attack to minimize counter vulnerability?
-**A**: Maintain your attacking knee rotated inward even while finishing your own heel hook, keeping your heel tucked close to your body or behind your opposite knee. Use your inside leg to frame against opponent's hip, which both controls distance and blocks their reach toward your heel. Attack with controlled posture rather than overcommitting forward, which exposes your heel. These preventive habits make the counter far more difficult to initiate.
-
-
-
-</section>
 
 
 </main>

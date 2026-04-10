@@ -166,6 +166,8 @@ Defensive success depends primarily on posture management and pressure direction
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Meathook to Gogoplata Control?</p>
+
 - Shin hook pressure on your tricep suddenly releases or lightens as the bottom player withdraws their leg from your arm—this is the primary indicator the transition is beginning
 - Bottom player's hips rotate toward their hooking leg side, creating the angle needed to thread their shin across your throat rather than your shoulder
 - Both of opponent's hands shift from shoulder and collar control to targeting your head, attempting to pull your head down into the incoming shin
@@ -178,6 +180,8 @@ Defensive success depends primarily on posture management and pressure direction
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Meathook to Gogoplata Control?</p>
 
 - Never drive forward with pressure while trapped in Meathook—forward commitment is exactly what enables the gogoplata transition
 - The defensive window between shin release from tricep and shin contact with throat is your only reliable opportunity to prevent establishment
@@ -192,6 +196,8 @@ Defensive success depends primarily on posture management and pressure direction
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Meathook to Gogoplata Control?</p>
 
 ### 1. Explosive posture recovery the moment shin hook releases from tricep
 
@@ -229,6 +235,8 @@ Defensive success depends primarily on posture management and pressure direction
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Meathook to Gogoplata Control?</p>
+
 ### → [[Positions/Rubber Guard/Meathook]]
 
 Execute explosive posture recovery the instant you feel the shin hook release from your tricep. Drive your hips back and chest up simultaneously while the bottom player's leg is in transit between arm and throat. Their temporary loss of arm control during the transition is your window to re-establish structural posture, forcing them to either re-establish Meathook from scratch or accept the failed transition.
@@ -244,6 +252,8 @@ Use the stacking defense by committing fully to forward pressure that compresses
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Meathook to Gogoplata Control?</p>
 
 ### 1. Driving forward with steady pressure while trapped in Meathook without recognizing the gogoplata setup
 
@@ -273,6 +283,8 @@ Use the stacking defense by committing fully to forward pressure that compresses
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Meathook to Gogoplata Control?</p>
+
 **Week 1-2** - Recognition drilling
 Partner establishes Meathook and alternates between holding position and initiating gogoplata transition at slow speed. Practice identifying the shin release cue and verbalizing 'transition' the moment you feel it. Build automatic recognition before adding defensive responses. 30 repetitions per session.
 
@@ -289,29 +301,6 @@ Full resistance positional sparring starting from Meathook top. Partner works fu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most reliable defensive action when you feel the shin hook release from your tricep in Meathook?
-**A**: Explosive posture recovery is the highest-percentage defense. The moment the shin pressure lifts from your arm, drive your hips back and chest upward simultaneously. This must be immediate and explosive because the defensive window between shin release and throat contact is only one to two seconds. Hesitation allows the shin to reach your throat where defensive options become severely limited.
-
-**Q2**: Why does forward pressure make you more vulnerable to the Meathook to Gogoplata transition?
-**A**: Forward pressure is the specific trigger the bottom player waits for to initiate the transition. Your forward drive drops your head into the path of the incoming shin, your weight commitment prevents the upward posture recovery needed to escape, and your momentum carries your throat directly into the shin's trajectory. The bottom player cannot complete this transition without your forward pressure providing both the angle and the head positioning they need.
-
-**Q3**: Your opponent's shin is already crossing your throat—what emergency defense remains available?
-**A**: Tuck your chin aggressively toward your chest to prevent the shin from settling into the throat groove, then commit fully to an explosive stack by driving your weight forward and upward to compress the bottom player's hips. The stack must be fully committed—half measures actually help the choke. If the position locks fully with their foot behind your head, tap immediately rather than risking tracheal injury from a locked gogoplata.
-
-**Q4**: Which direction should you turn your head when using lateral movement to defend the shin path?
-**A**: Always turn your head away from the attacking shin—toward the side opposite the leg that is transitioning from your arm to your throat. Turning toward the shin exposes your throat and simultaneously opens your far shoulder for an omoplata transition, giving the bottom player two submission options. Turning away moves your throat out of the shin path while keeping your shoulders square against shoulder attacks.
-
-**Q5**: How does the stacking defense work against this transition, and what is its primary risk?
-**A**: The stacking defense involves explosively driving your weight forward and upward to fold the bottom player, compressing their hip flexibility and forcing the attacking leg out of position. The primary risk is that a half-committed stack actually assists the gogoplata by providing forward pressure without sufficient compression to break the position. The stack must be fully explosive and committed to work—moderate forward pressure feeds directly into the submission.
-
-
-
-</section>
 
 
 </main>

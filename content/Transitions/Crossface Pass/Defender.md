@@ -156,6 +156,8 @@ The defender's primary objective is to prevent the passer from achieving the fla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Crossface Pass?</p>
+
 - Passer drives their forearm across your face toward your far shoulder while dropping shoulder weight - this is the initial crossface entry
 - Passer's head moves to the opposite side of their trapped leg, positioning for the wedge that prevents you from turning in
 - Passer begins walking their free leg forward while stepping their trapped leg back, creating the extraction angle
@@ -168,6 +170,8 @@ The defender's primary objective is to prevent the passer from achieving the fla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Crossface Pass?</p>
 
 - Prevent the crossface establishment as your highest priority - once the crossface is locked in, all subsequent defense becomes exponentially harder
 - Win the underhook battle early by fighting for inside position on the trapped leg side before the passer can drive their forearm across your face
@@ -182,6 +186,8 @@ The defender's primary objective is to prevent the passer from achieving the fla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Crossface Pass?</p>
 
 ### 1. Establish deep underhook on trapped leg side before crossface locks in and immediately create angle by turning into the passer
 
@@ -219,6 +225,8 @@ The defender's primary objective is to prevent the passer from achieving the fla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Crossface Pass?</p>
+
 ### → [[Positions/Half Guard]]
 
 Win the underhook battle before the crossface establishes by fighting for inside position immediately when you feel the passer attempt to drive their forearm across. Turn into the passer to create angle, secure deep underhook, and use the underhook to prevent flattening. Alternatively, establish lockdown on the trapped leg to prevent extraction and create sweep threats that force the passer to abandon the crossface pass attempt.
@@ -234,6 +242,8 @@ Execute a sweep from the defensive position by timing your hip movement with the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Crossface Pass?</p>
 
 ### 1. Remaining flat on back and fighting from the flattened position instead of immediately working to get on your side
 
@@ -268,6 +278,8 @@ Execute a sweep from the defensive position by timing your hip movement with the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Crossface Pass?</p>
+
 **Phase 1: Recognition and Early Defense (Week 1-3)** - Identifying crossface pass initiation and winning the underhook battle
 Partner attempts crossface pass at 30% speed and resistance. Practice recognizing the forearm drive, shoulder pressure initiation, and extraction angle creation. Focus exclusively on beating the passer to the underhook and maintaining side angle. Reset each time crossface is fully established to reinforce early defense habits.
 
@@ -284,26 +296,6 @@ Full resistance positional sparring from half guard bottom against partners who 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most effective timing window for defending the crossface pass?
-**A**: The most effective timing window is before the crossface is established, during the passer's initial attempt to drive their forearm across your face. At this phase, you can still fight for the underhook, insert knee shield, or create frames that prevent the crossface from settling. Once the crossface is locked in with shoulder pressure and the far arm is controlled, defensive success rates drop dramatically. Early recognition and immediate action are critical.
-
-**Q2**: Why is the underhook on the trapped leg side the single most important defensive grip?
-**A**: The underhook on the trapped leg side prevents the passer from driving you flat because it allows you to maintain angle and turn into them. It provides the primary pathway to sweeps, back takes, and guard recovery by giving you control of the passer's posture and body angle. Without the underhook, the passer can freely apply crossface pressure and flatten you, which eliminates virtually all high-percentage defensive options from half guard bottom.
-
-**Q3**: Your opponent has fully established crossface with shoulder pressure and you are nearly flat - what is your priority sequence?
-**A**: When fully flattened under crossface pressure, your priority sequence is: first protect your far arm from being controlled by keeping it tight to your body or actively framing against the passer's hip, second fight to get back on your side through small hip escapes rather than explosive movements, third attempt to insert knee shield or butterfly hook to create distance, and fourth if those fail transition to lockdown on the trapped leg to prevent extraction and create sweep threats. Do not waste energy on explosive bridge attempts against an established crossface.
-
-**Q4**: How does transitioning to lockdown help defend against the crossface pass?
-**A**: The lockdown captures the passer's trapped leg in a figure-four grip that completely prevents the circular extraction motion required to complete the crossface pass. This forces the passer to abandon the pass attempt and address the lockdown, changing the positional dynamic. Additionally, the lockdown creates electric chair sweep threats that put the passer on defense. However, the lockdown commits you to a specific leg configuration and can limit your own hip mobility, so it works best as a secondary defense when underhook and knee shield options have been denied.
-
-
-
-</section>
 
 
 </main>

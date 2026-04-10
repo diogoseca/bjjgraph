@@ -164,6 +164,8 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ankle Pick?</p>
+
 - Opponent establishes firm collar tie with their lead hand and begins pulling your head down and forward to load weight on your lead leg
 - Opponent circles laterally to create a 45-degree angle to your lead leg while maintaining collar tie pressure, positioning their head toward the outside of your body
 - Sudden explosive level change where opponent drops their hips while maintaining collar tie contact, with their trailing hand reaching toward your lead ankle
@@ -176,6 +178,8 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ankle Pick?</p>
 
 - Deny the collar tie and wrist control that precede every ankle pick attempt through proactive grip fighting
 - Maintain dynamic weight distribution across both legs rather than committing heavily to your lead foot
@@ -190,6 +194,8 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ankle Pick?</p>
 
 ### 1. Sprawl and hip retraction: Drive hips back and down while posting both hands on opponent's head and shoulders to stuff the level change before they reach your ankle
 
@@ -227,6 +233,8 @@ The defensive hierarchy against the ankle pick follows three stages: prevention 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ankle Pick?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the attack in the early stages through proactive grip fighting that prevents collar tie establishment, or use immediate sprawl and hip retraction when level change initiates before the heel cup is secured. Circular footwork away from the attacker's angle forces them to reset and spend additional energy re-establishing their attack position.
@@ -242,6 +250,8 @@ When the ankle pick is too far along to sprawl effectively, convert to a guard p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ankle Pick?</p>
 
 ### 1. Standing flat-footed with weight heavily committed to the lead leg during collar tie exchanges
 
@@ -276,6 +286,8 @@ When the ankle pick is too far along to sprawl effectively, convert to a guard p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ankle Pick?</p>
+
 **Week 1-3: Recognition and Collar Tie Defense** - Identifying ankle pick setups and neutralizing collar tie control
 Partner establishes collar tie and creates angle at slow speed while you practice grip breaks and lateral circling to deny positioning. Focus on recognizing the collar tie angle combination that precedes every ankle pick. Drill two-on-one collar tie breaks and immediate counter-gripping. No level changes yet, purely setup-phase defense.
 
@@ -292,29 +304,6 @@ Full-speed standing exchanges where partner attempts ankle picks among other tak
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an ankle pick attempt is developing, and what should your immediate response be?
-**A**: The earliest cue is when your opponent establishes a firm collar tie and begins circling laterally to create a 45-degree angle while pulling your head down and forward. Your immediate response should be to fight the collar tie with a two-on-one grip break or establish your own dominant collar tie. Simultaneously, lighten your lead foot and begin circling in the opposite direction to deny the angle. Addressing the collar tie at this stage prevents the entire attack chain from developing and is far more energy-efficient than reacting to the level change later.
-
-**Q2**: Why is pulling guard a better defensive option than sprawling once the attacker has secured a heel cup grip on your ankle?
-**A**: Once the heel cup is locked, sprawling actually assists the attacker because it drives your hips backward, adding to the rotational force they are creating with their ankle pull and upper body drive. The sprawl works against you mechanically at this stage. Pulling guard converts their takedown momentum into your guard game, allowing you to establish closed guard or another guard position where you have offensive options. The guard pull gives you control over the descent and prevents the worst-case scenario of being driven flat to the mat into bottom side control without guard recovery.
-
-**Q3**: How does your weight distribution need to change when you recognize your opponent has established the 45-degree angle for an ankle pick?
-**A**: When you recognize the angle has been established, immediately shift more weight to your rear foot and lighten your lead foot so it can be retracted quickly. Your lead foot should maintain mat contact but carry minimal weight, almost like a probe rather than a load-bearing post. This dynamic distribution means that even if the attacker reaches your ankle, there is minimal weight commitment that they can exploit for rotational collapse. Combine this weight shift with lateral circling away from their angle to further disrupt their attack timing.
-
-**Q4**: Your opponent drops for the ankle pick and their head ends up inside your body line between your hips. What counter opportunity does this create?
-**A**: When the attacker's head ends up inside your body line, this is a critical positional error on their part that opens a guillotine counter. Immediately secure an arm-in guillotine or chin strap grip around their neck with your near arm, then close your guard or pull guard to lock the submission. Their level change has brought their neck directly into your attacking range and their forward momentum makes it difficult for them to retract. This is the highest-risk scenario for the attacker and the reason proper ankle pick technique demands that the head stay on the outside of the defender's body.
-
-**Q5**: What is the critical difference between defending an ankle pick in the setup phase versus the execution phase?
-**A**: In the setup phase, before the level change, your defense focuses on prevention: break the collar tie, deny the angle through circular footwork, and keep your lead foot light and mobile. These are low-energy, high-percentage defensive actions that stop the attack before it begins. In the execution phase, after the level change has started, your defense shifts to reaction: sprawl if the heel cup has not been secured, or pull guard if it has. The execution phase requires explosive movement and split-second decision-making about whether to sprawl or sit. Confusing these phases leads to the most common defensive errors like sprawling after the grip is locked or trying to grip-fight when you should be reacting explosively to a committed level change.
-
-
-
-</section>
 
 
 </main>

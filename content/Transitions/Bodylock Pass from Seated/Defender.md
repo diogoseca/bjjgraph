@@ -154,6 +154,8 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bodylock Pass from Seated?</p>
+
 - Attacker drops their level suddenly, bending knees and lowering their center of gravity while driving shoulders forward toward your torso
 - Attacker's arms reach wide around your body aiming for your torso rather than engaging your legs or sleeves for grip control
 - Attacker establishes a wrist control or collar tie and pulls you forward while loading their hips for a penetration step
@@ -165,6 +167,8 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bodylock Pass from Seated?</p>
 
 - Recognize the bodylock threat early through the attacker's level change and forward drive before the lock is established
 - Maintain strong forearm frames at shoulder and hip level to prevent chest-to-chest connection
@@ -179,6 +183,8 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bodylock Pass from Seated?</p>
 
 ### 1. Establish forearm frame across attacker's neck and shoulder before they close distance
 
@@ -216,6 +222,8 @@ As the defender facing the Bodylock Pass from Seated Guard, your primary objecti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bodylock Pass from Seated?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a butterfly hook insertion as the attacker commits forward with their level change. Use their forward momentum to elevate and sweep them over, ending in top half guard position where you can advance to a full pass or consolidate dominant control.
@@ -231,6 +239,8 @@ Maintain strong frames and proactive distance management to prevent the body loc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bodylock Pass from Seated?</p>
 
 ### 1. Reaching forward with fully extended arms to push the attacker away at chest level
 
@@ -260,6 +270,8 @@ Maintain strong frames and proactive distance management to prevent the body loc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bodylock Pass from Seated?</p>
+
 **Phase 1: Recognition** - Identifying bodylock entries versus leg-based passes
 Partner alternates between leg-based pass attempts and bodylock entries from standing over seated guard. Practice identifying which pass is coming based on arm positioning, grip targets, and body movement. No physical defense yet, pure visual and tactile pattern recognition development.
 
@@ -276,26 +288,6 @@ Positional sparring starting in seated guard with partner using bodylock pass as
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest visual cue that your opponent is attempting a bodylock pass rather than a leg-based pass?
-**A**: The earliest cue is the opponent's arms reaching wide around your body rather than targeting your legs, pants, or sleeves. Combined with a sudden level drop and forward shoulder drive aimed at your chest rather than your lower body, this signals a bodylock entry. Leg-based passes begin with grip fighting on your lower body, while the bodylock pass targets your torso directly with wide arm positioning.
-
-**Q2**: Once the bodylock is fully locked around your torso, what is your most effective immediate response?
-**A**: Your most effective immediate response is to turn to your side and begin hip escaping before the attacker can drive you flat. Once flat on your back with the lock tight, escape becomes extremely difficult because your hips lose all lateral mobility. By turning to your side immediately, you maintain hip movement and can work to create angles that prevent the leg-clearing phase. Simultaneously attack one of the attacker's hands with both of yours to break the grip.
-
-**Q3**: Why is the technical standup the highest-percentage defense against the bodylock pass, and when does this option expire?
-**A**: The technical standup is highest-percentage because it completely removes you from the seated position where the bodylock pass is effective, resetting to standing where different engagement rules apply. This option expires once the attacker has closed to clinch range and initiated their explosive level change, approximately when they are within one arm's length of your torso. After this point, attempting to stand exposes your hips to the bodylock with even greater force.
-
-**Q4**: Your opponent has established a tight bodylock but has not yet cleared your legs - what guard recovery prevents the pass?
-**A**: Closing your guard by wrapping your legs around the attacker's waist is the strongest immediate guard recovery because it prevents them from using the windshield wiper hip motion needed to clear your legs. With closed guard established, the bodylock becomes less effective as the attacker cannot drive past your leg barrier. From closed guard you can then work standard guard attacks while the attacker must first break open your guard before reattempting the pass.
-
-
-
-</section>
 
 
 </main>

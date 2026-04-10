@@ -28,7 +28,7 @@ The technique relies on explosive footwork, proper weight distribution, and the 
 
 The Bullfighter Pass is particularly effective in no-gi grappling where leg grips are harder to maintain, but it remains highly useful in the gi when executed with proper timing. At the highest levels, this pass is rarely used in isolation. It functions as the primary entry in a standing passing system that chains with the Long Step Pass, Knee Cut Pass, and backstep entries to leg attacks, forcing the guard player to defend multiple threats simultaneously.
 
-**From Position**: [[Positions/Open Guard]] (Top)
+**From Position**: [[Positions/De La Riva Guard]] (Top)
 **Success Rate**: 68%
 
 </section>

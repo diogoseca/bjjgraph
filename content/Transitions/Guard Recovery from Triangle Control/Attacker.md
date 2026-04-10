@@ -194,6 +194,8 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Guard Recovery from Triangle Control?</p>
+
 - Establish posture immediately to relieve the angle of the choke—stacking forward or driving upright both reduce the finish angle that makes the triangle lethal
 - Address the trapped arm first by working it across the opponent's centerline to eliminate the choking angle before attempting to extract your head
 - Move your body toward the trapped arm side to create the angle that opens the triangle rather than pulling away, which tightens the lock
@@ -209,6 +211,8 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Guard Recovery from Triangle Control?</p>
+
 - Posture partially established or the ability to drive upright despite the bottom player's head control and leg pressure
 - Trapped arm retains enough mobility to work across the opponent's centerline rather than being fully pinned against their thigh
 - Free hand available to post for base, control the locking ankle, or grip the opponent's hip during the extraction process
@@ -220,6 +224,8 @@ As the top player caught in triangle control, you face one of the most dangerous
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Guard Recovery from Triangle Control step by step?</p>
 
 1. **Establish Upright Posture**: Drive your hips forward and straighten your spine to create distance between your neck and the opponent's thigh, relieving the immediate choking pressure. Post your free hand on the mat behind you or on the opponent's hip for structural support. Your priority is creating the postural angle that prevents the choke from being finished while you work the escape.
 2. **Grip the Locking Ankle**: With your free hand, grip the opponent's ankle that is locked behind their knee (the locking leg). This grip prevents them from re-adjusting the triangle angle and gives you control over the tightness of the leg configuration. Pull the ankle toward you slightly to create slack in the triangle lock.
@@ -251,6 +257,8 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Guard Recovery from Triangle Control?</p>
+
 - **Bottom player pulls your head down and re-tightens the triangle angle every time you attempt to establish posture, maintaining constant head control** (Effectiveness: High) - Your Response: Grab the bottom player's wrist that is controlling your head and pin it to your chest while driving your posture up. Use a two-on-one grip on their head-controlling arm if necessary to break the pull before re-establishing your extraction sequence. → Leads to [[Positions/Triangle Control]]
 - **Bottom player transitions to armbar by uncrossing their ankles and swinging their leg over your face as you attempt to extract your trapped arm** (Effectiveness: High) - Your Response: The moment you feel the ankles uncross and a leg swinging over your head, immediately stack your weight forward and turn toward the armbar side while pulling your elbow tight to your body. The stack prevents the extension needed for the armbar finish. → Leads to [[Positions/Armbar Control]]
 - **Bottom player pivots their hips and threatens omoplata by rotating the triangle angle, trapping your arm in a shoulder lock configuration** (Effectiveness: Medium) - Your Response: Posture up strongly and step your far leg over to the omoplata side, using the leg as a post to prevent the hip rotation that creates the omoplata angle. Pull your trapped arm tight to your body and drive forward to flatten the opponent's rotation. → Leads to [[Positions/Omoplata Control]]
@@ -261,6 +269,8 @@ As the top player caught in triangle control, you face one of the most dangerous
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Guard Recovery from Triangle Control?</p>
 
 ### 1. Pulling away from the triangle by leaning backward, which tightens the leg lock around the neck and arm
 
@@ -295,6 +305,8 @@ As the top player caught in triangle control, you face one of the most dangerous
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Guard Recovery from Triangle Control (Attacker)?</p>
+
 **Phase 1: Posture Mechanics Under Triangle** - Establishing and maintaining upright posture while caught in triangle control
 Partner locks a triangle at 30% squeeze pressure. Practice driving upright posture using hip drive and arm posting. Hold posture for 10-second intervals while partner applies graduated pressure. Focus on identifying the structural mechanics that allow posture maintenance despite downward leg pressure on the head and neck.
 
@@ -315,48 +327,12 @@ Begin in triangle control at full resistance. Top player works the complete esca
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is it critical to turn toward the trapped arm side rather than away from it during triangle escape?
-**A**: Turning toward the trapped arm side opens the choking angle by removing the trapped shoulder from its position pressing against the carotid artery on the far side of the neck. When you turn away from the trapped arm, the shoulder is driven deeper into the neck, actually increasing the choking pressure. Additionally, turning toward the trapped arm creates the alignment needed to push the arm across the opponent's centerline, which is the primary mechanism for eliminating the shoulder-neck compression that makes the triangle lethal.
-
-**Q2**: What is the highest-priority action when first caught in a triangle before beginning the escape sequence?
-**A**: The highest priority is establishing upright posture to relieve the immediate choking pressure. Without posture, the bottom player can finish the triangle within seconds by pulling your head down and squeezing. Posture creates distance between your neck and their thigh, buying time for the systematic escape sequence. Once posture is established, you have significantly more time to work the escape methodically rather than rushing under choke pressure.
-
-**Q3**: How does controlling the opponent's locking ankle improve your triangle escape success rate?
-**A**: Controlling the locking ankle prevents the bottom player from re-adjusting the triangle angle, re-tightening the squeeze, and transitioning between different finishing positions. Without ankle control, the bottom player can continuously adapt the triangle to counter each of your escape adjustments, turning the escape into an ongoing battle of adjustments. With ankle control, their adjustment options are severely limited, allowing your incremental arm extraction and body rotation to accumulate positional gains without being reset.
-
-**Q4**: Your opponent uncrosses their ankles and begins swinging their leg over your face during your escape—what is happening and how do you respond?
-**A**: The opponent is transitioning from triangle to armbar. When they uncross their ankles, the triangle choke threat diminishes but the armbar threat emerges as they swing their leg over your head to create the hip extension control needed for the arm lock. Immediately stack your weight forward by driving your chest into the opponent and turn toward the armbar side while pulling your elbow tight against your body. The stack prevents the hip extension needed to finish the armbar, and turning toward the attack side removes the leverage angle they need.
-
-**Q5**: After extracting from the triangle and settling in closed guard top, what should your immediate priorities be?
-**A**: Your immediate priorities shift from survival to offense within three seconds of settling in closed guard top. First, establish posture by straightening your spine and placing hands on the opponent's hips or chest. Second, secure passing grips—collar and hip in gi, head and hip in no-gi. Third, begin guard opening sequences before the opponent can reorganize their submission threats from closed guard. Treating the recovery as complete only when you have passing initiative prevents the bottom player from launching another triangle or sweep attempt from the closed guard position.
-
-**Q6**: What specific grip should your free hand establish first, and why is this grip more important than immediately attempting to extract your trapped arm?
-**A**: Grip the opponent's locking ankle—the foot that is hooked behind the knee of the top leg. This grip is more important than immediate arm extraction because it controls the structural integrity of the triangle lock itself. Without this grip, every inch of arm progress you make can be reset by the opponent re-tightening their lock. The ankle grip limits their ability to adjust angle and squeeze pressure, creating a stable platform from which your subsequent arm extraction can accumulate permanent positional gains rather than being repeatedly reset.
-
-**Q7**: During the stacking phase of the escape, in what direction should you apply driving force, and what happens if you stack at the wrong angle?
-**A**: Drive forward and slightly toward the trapped arm side, stacking the opponent onto their upper back and shoulders. Your chest should press into the back of the opponent's thigh on the choking leg side. If you stack straight forward without the lateral angle, the opponent can maintain their choking angle and simply hip out to re-establish optimal triangle geometry. If you stack away from the trapped arm, you actually tighten the choking angle. The correct stacking direction compresses the opponent's ability to extend their hips while simultaneously creating the alignment needed for head extraction.
-
-**Q8**: Your trapped arm is stuck at the opponent's centerline and won't advance further despite multiple pushing attempts—what adjustment should you make?
-**A**: If the arm stalls at the centerline, increase the degree of body rotation toward the trapped arm side by walking your knees further in that direction. The arm extraction stalls when the body angle is insufficient to create the alignment that allows the arm to slide past the opponent's belly. Also re-establish your grip on their locking ankle and pull it toward you to create more slack in the triangle configuration. The combination of increased rotation and ankle manipulation usually breaks the stall point. Avoid reverting to explosive pulling, which compromises your base and triggers the opponent's squeeze reflex.
-
-**Q9**: The bottom player regrips your collar and breaks your posture immediately after you recover to closed guard top—how do you respond?
-**A**: Immediately post both hands on the opponent's hips or biceps to reestablish distance and posture. Do not allow yourself to be pulled back into a broken posture position that re-enables triangle setups. Drive your hips backward while keeping your spine straight and head up. Begin working guard opening sequences immediately—the urgency of transitioning to passing offense is critical because the opponent will attempt to re-establish the same grips and posture breaks that led to the original triangle. Every second spent in passive recovery is a second the opponent uses to reorganize their guard attack system.
-
-**Q10**: What role does forward hip pressure play throughout the escape, and what happens biomechanically if you lose hip drive at any phase?
-**A**: Forward hip pressure is the primary mechanism preventing the triangle finish during every phase of the escape. When you drive your hips forward and stack the opponent, you compress the distance between their hips and shoulders, limiting their ability to extend and squeeze—which is the primary finishing mechanic of the triangle choke. Without hip extension, the opponent cannot generate the bilateral carotid compression needed for the choke regardless of how tightly their legs are locked. If you lose hip drive at any phase, the opponent regains the ability to extend their legs, pull your head down, and re-establish the finishing angle. Constant forward hip pressure must be maintained from initial posture establishment through final head extraction.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Guard Recovery from Triangle Control?</p>
 
 Triangle escape carries moderate injury risk to the neck and shoulders. The cervical spine is under compression from the opponent's legs and can be strained if explosive posturing is attempted against a fully locked triangle. If the choke is deep and posture cannot be established within the first five seconds, tap early rather than risking loss of consciousness during a prolonged escape attempt. The trapped shoulder is vulnerable to rotator cuff strain when the arm is forcefully extracted—use incremental movement rather than explosive pulling. Communicate with training partners about the tightness of their triangle squeeze, particularly when drilling, to prevent inadvertent loss of consciousness during repetition work.
 

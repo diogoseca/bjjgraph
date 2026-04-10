@@ -188,6 +188,8 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Control to Crucifix?</p>
+
 - Maintain at least one hook throughout the transition to preserve back control and prevent escape
 - Use opponent's defensive arm positioning as the entry mechanism rather than forcing against tucked arms
 - Control the near-side arm first with shin pressure before attempting to trap the far arm
@@ -203,6 +205,8 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Control to Crucifix?</p>
+
 - Established back control with at least one hook inserted and chest-to-back connection
 - Opponent's arms are defensive and exposed away from body, not tucked tight to ribcage
 - Seatbelt grip or harness control actively maintained with choking arm threatening the neck
@@ -217,6 +221,8 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Control to Crucifix step by step?</p>
 
 1. **Secure the choking arm threat**: From back control with seatbelt grip, thread your choking-side hand deep across opponent's neck while maintaining both hooks. The choking hand should be palm-down with your forearm cutting across the front of their throat, establishing a credible rear naked choke threat that will force defensive reactions and arm extension.
 2. **Bait the defensive grip**: Apply moderate pressure with your choking arm to force opponent to commit both hands to defending their neck. They will typically grab your choking wrist with both hands or grip their own collar defensively, which exposes both arms away from their body and creates the critical window for crucifix entry. Do not proceed until you feel both hands committed to choke defense.
@@ -246,6 +252,8 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Control to Crucifix?</p>
+
 - **Opponent tucks arms tight to body defensively, denying entry** (Effectiveness: High) - Your Response: Maintain back control and use alternative attacks like body triangle or gift wrap. Threaten rear naked choke to force arm extension, then re-enter crucifix sequence when opponent commits hands to neck defense. → Leads to [[Positions/Back Control]]
 - **Opponent rolls toward you during hook removal phase** (Effectiveness: Medium) - Your Response: Keep bottom hook deeply inserted and use it as an anchor to prevent the roll. If they complete the roll, maintain chest connection and transition to mounted crucifix or standard mount rather than losing position entirely. → Leads to [[Positions/Back Control]]
 - **Opponent pulls trapped arm free during knee insertion** (Effectiveness: Medium) - Your Response: Immediately return to standard back control by reinserting both hooks. Re-establish seatbelt grip and restart the sequence when opponent commits hands to neck defense again. Do not chase the arm. → Leads to [[Positions/Back Control]]
@@ -257,6 +265,8 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Control to Crucifix?</p>
 
 ### 1. Removing both hooks simultaneously during transition
 
@@ -296,6 +306,8 @@ The Back Control to Crucifix transition converts standard rear mount dominance i
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Control to Crucifix (Attacker)?</p>
+
 **Week 1-2: Positional Understanding** - Static position recognition and entry mechanics
 Start from established back control with partner's arms in defensive position. Practice removing top hook and threading knee over near arm slowly and deliberately. Partner remains static, allowing you to feel proper shin placement and body angles. Focus on maintaining bottom hook throughout.
 
@@ -316,48 +328,12 @@ Full resistance back attack scenarios where partner defends intelligently. Pract
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is maintaining the bottom hook critical throughout the back control to crucifix transition?
-**A**: The bottom hook serves as your primary anchor and prevents opponent from turning into you during the transition. Removing both hooks simultaneously creates space for opponent to escape or reverse position. The bottom hook maintains back exposure and provides base stability while your top-side leg transitions to the shin-pin configuration. Without this hook, you lose the positional foundation that defines back control and risk complete position loss during the vulnerable transition phase.
-
-**Q2**: What defensive reaction from the opponent creates the optimal window for initiating the crucifix transition?
-**A**: When the opponent commits both hands to defending the rear naked choke by grabbing your choking wrist or their own collar, their arms become extended away from their body and vulnerable to control. This defensive posture is exactly what the crucifix transition exploits. The opponent's own defensive frames become the mechanism for their entrapment. Without this arm extension, attempting the transition is premature and likely to fail because there is no space to insert the knee over a tucked arm.
-
-**Q3**: How should your shin be positioned when pinning the opponent's near-side arm?
-**A**: Your shin should cross perpendicular to the opponent's upper arm and shoulder, with the shin bone creating pressure that pins their arm to their own body. Your knee should drive all the way to the mat on the far side of their body, creating a wedge that prevents arm extraction. The shin placement should be high on their arm, close to the shoulder, rather than on their forearm where they have more mechanical advantage to pull free.
-
-**Q4**: Your opponent keeps their elbows glued to their ribs and refuses to extend their arms to defend the choke. How do you create the opening?
-**A**: Increase the choke threat intensity by adjusting your choking arm deeper under the chin and closing the rear naked choke grip tighter. Most opponents will eventually commit at least one hand to neck defense when the choke becomes credible. Alternatively, use a gift wrap by pulling their near arm across their own neck, or threaten an armbar by isolating one arm with your hands. Any genuine submission threat forces a defensive reaction that opens the crucifix entry window.
-
-**Q5**: What is the most critical mechanical detail in the knee threading phase of the transition?
-**A**: The knee must travel completely over the opponent's arm to the far side of their body, creating a fulcrum point with the shin bone perpendicular across the upper arm near the shoulder. If the knee stops short and does not reach the mat on the far side, the arm trap lacks the mechanical advantage needed to prevent extraction. The shin must be bone-on-arm contact at the upper arm, not the forearm, because the shoulder joint restricts the opponent's ability to pull free when trapped at this angle.
-
-**Q6**: During the transition you feel opponent beginning to roll toward you. What adjustment preserves your attacking position?
-**A**: Immediately drop your weight through the bottom hook and drive your hips into their back to stop the roll momentum. If the roll has already started, maintain chest-to-back connection and follow the roll rather than fighting it, which allows you to end up in mounted crucifix or standard mount. The key is never separating from their back. If you lose connection during the roll, the position degrades to a scramble. Keep the shin locked on the near arm regardless of which direction the roll goes.
-
-**Q7**: What grip should you use on the far-side arm when completing the crucifix, and why?
-**A**: Initial control uses a wrist grip on the far arm to pull it across the opponent's body and underneath your armpit. Once secured under the armpit, transition to an overhook or kimura grip for more secure control that also opens submission pathways. The wrist grip alone is insufficient for sustained control because the opponent can rotate their arm and strip it. The armpit trap combined with your body weight creates a second point of arm isolation that mirrors the leg trap on the near side.
-
-**Q8**: If your shin trap fails and the opponent frees their near arm during step 4, what is your immediate recovery plan?
-**A**: Immediately reinsert your top hook to re-establish standard back control with both hooks and seatbelt grip. Do not chase the arm or attempt to re-thread the knee while in a compromised position, as this creates scramble opportunities for the opponent. Reset completely, maintain dominant back control, and wait for the next choke defense reaction to create a fresh entry window. Attempting to force the crucifix from a failed position wastes energy and risks losing back control entirely.
-
-**Q9**: How does the gift wrap variation change the entry sequence for the crucifix transition?
-**A**: The gift wrap pre-traps the near-side arm by pulling it across the opponent's own neck and pinning it with your hand. This eliminates the need to bait the arm extension and simplifies the knee threading phase because the near arm is already isolated and controlled. You thread the knee over the already-trapped arm, then release the gift wrap hand to capture the far arm. This variation is faster and more reliable but requires establishing the gift wrap first, which has its own setup requirements from back control.
-
-**Q10**: What chain attacks should you threaten if the crucifix entry is blocked repeatedly?
-**A**: Cycle between rear naked choke, bow and arrow choke, armbar from back, and gift wrap entries. Each attack forces a different defensive response that may open the crucifix window. If the opponent defends the choke with hands, crucifix becomes available. If they tuck arms to deny crucifix, the choke opens. If they turn their body, gift wrap or armbar from back become viable. The key is creating a systematic attack cycle where defending one threat opens vulnerability to another, rather than stubbornly pursuing a single entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Control to Crucifix?</p>
 
 The back control to crucifix transition involves significant pressure on the opponent's shoulders, arms, and neck area, requiring controlled execution to prevent injury. When training this transition, communicate clearly with your partner and move through positions deliberately rather than explosively, especially during the shin insertion phase where sudden pressure can stress shoulder joints. The opponent's arms are placed in vulnerable positions during this transition, particularly the far arm which can be at risk for shoulder or elbow hyperextension if cranked aggressively. Always allow your partner to tap before completing armbars or shoulder locks from crucifix, and release pressure immediately upon any tap signal. When being controlled in crucifix yourself, tap early if you feel joint stress rather than attempting to muscle out of the position. Newer practitioners should drill this transition at slow speeds until mechanics are ingrained, as rushing the movement can result in neck compression or shoulder strain for both parties.
 

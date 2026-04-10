@@ -162,6 +162,8 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Peterson Roll?</p>
+
 - Bottom player reaches back with near arm to grab your wrist or sleeve instead of maintaining their standard defensive turtle posture with elbows tight to knees
 - You feel the bottom player's hips begin to shift and load toward one side, indicating they are preparing to thread their hip underneath for the rolling motion
 - Bottom player suddenly stops defending and becomes still or baits you to reach deeper for an underhook, deliberately creating the reaching arm they need to capture
@@ -173,6 +175,8 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Peterson Roll?</p>
 
 - Keep your attacking arms protected and difficult to capture - never extend a single arm without your other hand providing a secondary post or control point
 - Manage forward pressure carefully by distributing weight through your chest rather than driving straight forward, which provides the momentum the bottom player needs
@@ -186,6 +190,8 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Peterson Roll?</p>
 
 ### 1. Post free hand firmly on the mat and sprawl hips back the instant you feel wrist capture or hip loading
 
@@ -223,6 +229,8 @@ Defending the Peterson Roll requires the turtle top player to recognize the earl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Peterson Roll?</p>
+
 ### → [[Positions/Turtle]]
 
 Post and sprawl immediately upon recognizing the wrist capture or strip their grip before they can connect it to hip movement. Maintain balanced weight distribution without over-committing forward, denying them the momentum they need. Once the attempt fails, immediately re-engage your turtle attacks before they can reset their defense.
@@ -238,6 +246,8 @@ If the roll has already initiated and cannot be stopped, follow the bottom playe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Peterson Roll?</p>
 
 ### 1. Over-committing weight forward by driving straight into the turtled opponent with heavy chest pressure
 
@@ -267,6 +277,8 @@ If the roll has already initiated and cannot be stopped, follow the bottom playe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Peterson Roll?</p>
+
 **Week 1-2** - Recognition and sprawl response
 Partner executes Peterson Roll at slow speed from turtle bottom. Focus on recognizing the wrist capture and hip loading cues, then drilling the sprawl-and-post response until it becomes automatic. Execute 20-30 repetitions per session, gradually increasing partner's speed while maintaining clean defensive reactions.
 
@@ -283,29 +295,6 @@ Full resistance positional sparring from turtle top where partner actively attem
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Peterson Roll is being attempted?
-**A**: The earliest cue is when the bottom player reaches back with their near arm to capture your wrist or sleeve instead of maintaining their standard defensive turtle posture with elbows tight to knees. This reaching motion indicates they are initiating the arm trap that is essential for the Peterson Roll. Recognizing this immediately allows you to either withdraw the targeted arm or post your free hand before the roll can develop.
-
-**Q2**: Why is over-committing forward pressure the most common mistake when defending the Peterson Roll?
-**A**: The Peterson Roll specifically exploits forward weight commitment by channeling that momentum into rotational force for the reversal. When you drive straight forward into a turtled opponent, you provide exactly the energy they need to fuel the roll. The more you push forward, the easier the roll becomes. Instead, distribute weight at an angle through shoulder pressure while keeping hips back and low, maintaining the ability to sprawl instantly without providing rollable momentum.
-
-**Q3**: Your opponent captures your wrist and you feel their hip begin to load - is it too late to defend?
-**A**: Not if you respond immediately. The critical window between wrist capture and full roll initiation is approximately one to two seconds. In that window, you can either strip the grip by sharply pulling your arm toward your own hip while circling your hand, or sprawl your hips back forcefully while posting your free hand on the mat. If you feel full rotational momentum already carrying you, switch to the follow strategy - maintain chest-to-back connection and follow the roll to secure back control rather than fighting the physics.
-
-**Q4**: How should you modify your turtle top attacks to minimize Peterson Roll vulnerability?
-**A**: Never extend a single arm for underhook or harness without maintaining a secondary post or control point with your other hand. Use sequential grips rather than diving both arms in simultaneously. Approach the seatbelt by first establishing one control point securely, then adding the second while the first provides your base. When attacking from turtle top against a Peterson Roll-aware opponent, consider using front headlock entries that control the head rather than reaching behind for harness, reducing the arm exposure that the Peterson Roll requires.
-
-**Q5**: When is following the Peterson Roll to maintain back control a better option than trying to stop it?
-**A**: Following the roll is the better option when the roll has already developed significant rotational momentum that posting alone cannot stop, typically when your wrist has been captured and the bottom player's hip has already threaded underneath. At this point, fighting the roll wastes energy and usually fails. By maintaining tight chest-to-back connection, keeping your seatbelt grip, and threading your hooks during the rotation, you can convert their reversal attempt into your advancement to full back control with hooks.
-
-
-
-</section>
 
 
 </main>

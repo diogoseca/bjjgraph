@@ -158,6 +158,8 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Scramble to Guard?</p>
+
 - Bottom player begins persistent hand-fighting against your leg hooks, pushing on your knee or ankle with increasing urgency - this signals they are working toward leg extraction as the first phase of the scramble
 - Bottom player's breathing pattern changes from distressed shallow breathing to deliberate controlled breaths, indicating they are composing themselves and preparing to generate explosive movement
 - Bottom player tucks their chin firmly and brings one or both hands to their neck or throat, creating protective frames that signal they are about to initiate turning movement and expect the scramble to expose their neck
@@ -169,6 +171,8 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Scramble to Guard?</p>
 
 - Maintain leg entanglement as the highest priority - the trapped leg is the anchor that prevents hip realignment and makes the scramble mechanically impossible
 - Recognize pre-scramble indicators early and tighten control before the explosive movement begins rather than reacting after it starts
@@ -183,6 +187,8 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Scramble to Guard?</p>
 
 ### 1. Tighten leg entanglement and increase rotational pressure immediately upon recognizing scramble indicators
 
@@ -213,6 +219,8 @@ The key to shutting down the Scramble to Guard lies in maintaining the two pilla
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Scramble to Guard?</p>
+
 ### → [[Positions/Twister Control]]
 
 Maintain tight leg entanglement by constantly adjusting your hooks and squeezing your knees together to prevent leg extraction. When you feel the bottom player loading for the explosive hip turn, immediately increase rotational pressure through your upper body control while clamping down harder on the trapped leg. Anticipate the scramble timing by reading their breathing and hand-fighting patterns, and pre-emptively tighten before they can generate momentum.
@@ -228,6 +236,8 @@ When the bottom player successfully frees their leg and begins the hip turn, do 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Scramble to Guard?</p>
 
 ### 1. Relaxing leg control while hunting for the Twister submission with upper body grips
 
@@ -257,6 +267,8 @@ When the bottom player successfully frees their leg and begins the hip turn, do 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Scramble to Guard?</p>
+
 **Week 1-2** - Recognition and prevention fundamentals
 From established Twister Control, partner announces before attempting the scramble. Practice recognizing pre-scramble indicators and tightening leg control in response. Focus on identifying which specific hand-fighting patterns signal imminent escape and developing automatic tightening responses to each indicator.
 
@@ -273,29 +285,6 @@ Full resistance positional rounds starting from Twister Control. Top player work
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that the bottom player is preparing to initiate the Scramble to Guard?
-**A**: The earliest indicators are persistent hand-fighting against your leg hooks with increasing urgency, a shift from panicked shallow breathing to deliberate controlled breaths, the bottom player tucking their chin and creating neck protection frames, and their free leg beginning to load against the mat or your body in preparation for explosive hip drive. These signs typically appear 3-5 seconds before the actual scramble initiation.
-
-**Q2**: Your opponent frees their trapped leg during a scramble attempt. Should you fight to re-establish Twister Control or transition?
-**A**: Transition immediately to the best available alternative position rather than fighting to re-establish Twister Control. Once the leg is free, the mechanical foundation for rotational control is gone. Attempting to re-trap the leg while the bottom player has momentum wastes energy and time. Instead, follow their turning movement and work to establish back control with hooks, or if their neck is exposed during the turn, transition to guillotine or front headlock. Securing a dominant alternative position is far superior to chasing a lost one.
-
-**Q3**: How do you use the bottom player's turning momentum to transition into a guillotine threat?
-**A**: As the bottom player initiates their hip turn toward you, their neck naturally becomes exposed as they rotate through the transition. Rather than resisting the turn, allow it while sliding your near-side arm under their chin to establish a guillotine grip. Their own turning momentum drives their neck deeper into your choking arm. Secure the grip with your other hand and begin squeezing before they complete the turn and establish defensive frames. The key timing is catching the grip during the rotation, not after they have settled into a facing position.
-
-**Q4**: What is the single most important control point to maintain when you sense a scramble attempt is coming?
-**A**: The leg entanglement is the single most critical control point. Without the trapped leg, the bottom player can freely rotate their hips to reduce spinal twist and face you for guard recovery. Tighten your hooks by squeezing your knees together, pulling your heels in, and using your hand to reinforce the leg control if necessary. Every other aspect of Twister Control - the rotation, the submission threat, the positional dominance - depends on maintaining this leg anchor. Upper body control is secondary to leg entanglement integrity.
-
-**Q5**: The bottom player successfully turns to face you but you maintain head control. What is your best positional transition?
-**A**: If you have head control as they complete the turn, immediately work to establish a front headlock or guillotine position. Drive your weight onto their shoulders and sprawl your hips back to prevent them from sitting up into guard. From front headlock you can threaten guillotine, darce, anaconda, or transition to back control by spinning behind them. This converts their partially successful escape into a new controlling position where you retain offensive initiative. The critical action is sprawling heavy immediately so they cannot complete guard recovery while you hold their head.
-
-
-
-</section>
 
 
 </main>

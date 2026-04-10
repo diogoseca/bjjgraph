@@ -154,6 +154,8 @@ Defending against the Vaporizer pass means maintaining the integrity of both con
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Vaporizer Position?</p>
+
 - Top player widens base significantly and drives shoulder pressure down, indicating they are establishing a stable platform for extraction attempts
 - Top player's trapped knee begins pointing toward the mat rather than staying wide, signaling the start of leg circulation to narrow their profile
 - Top player establishes whizzer control or strong crossface against your underhook, indicating they are neutralizing upper body control before attempting lockdown clearance
@@ -166,6 +168,8 @@ Defending against the Vaporizer pass means maintaining the integrity of both con
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Vaporizer Position?</p>
 
 - Maintain constant lockdown pressure by extending the trapped leg away from your body whenever you feel extraction attempts beginning
 - Re-establish the underhook immediately whenever it is threatened by whizzer or crossface, as the underhook is the engine of all your offensive options
@@ -180,6 +184,8 @@ Defending against the Vaporizer pass means maintaining the integrity of both con
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Vaporizer Position?</p>
 
 ### 1. Increase lockdown extension and re-establish underhook depth to counter extraction
 
@@ -217,6 +223,8 @@ Defending against the Vaporizer pass means maintaining the integrity of both con
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Vaporizer Position?</p>
+
 ### → [[Positions/Vaporizer]]
 
 Maintain constant lockdown pressure through leg extension and re-establish underhook control whenever it is threatened. Actively increase whip-up pressure during extraction attempts to make the top player's position increasingly unstable. The goal is to make the Vaporizer so uncomfortable that they abandon pass attempts entirely.
@@ -232,6 +240,8 @@ Time the Old School sweep to coincide with the top player's lateral weight shift
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Vaporizer Position?</p>
 
 ### 1. Allowing the underhook to be neutralized without immediate recovery efforts
 
@@ -261,6 +271,8 @@ Time the Old School sweep to coincide with the top player's lateral weight shift
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Vaporizer Position?</p>
+
 **Phase 1: Lockdown Retention Under Pressure** - Maintaining lockdown configuration against systematic extraction attempts
 Partner attempts controlled leg circulation from Vaporizer top. Practice active lockdown extension, re-tightening, and figure-four maintenance. No sweeps or transitions, purely lockdown retention. Build the reflexive tightening response that counters each extraction movement.
 
@@ -274,26 +286,6 @@ Full resistance positional sparring starting from the Vaporizer. Partner attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the two critical control points you must maintain to prevent the Vaporizer pass?
-**A**: The lockdown leg entanglement and the underhook. The lockdown controls the top player's leg mobility and provides the structural foundation for all attacks, while the underhook gives leverage for the whip-up motion and sweep attempts. Both must be maintained simultaneously because addressing only one allows the top player to systematically work through the other. Losing the underhook makes the lockdown a passive hold, and losing the lockdown makes the underhook insufficient for offense.
-
-**Q2**: When is the optimal timing to execute the Old School sweep against a pass attempt?
-**A**: The optimal timing is when the top player shifts weight laterally during their extraction attempt. At this moment, their weight distribution is compromised and they cannot base effectively in the direction of the sweep. Look for them to post a hand on the mat, which creates a fixed fulcrum point. Bridge toward their posted hand while driving off your outside foot. Their own committed weight shift amplifies the sweep force rather than allowing them to resist.
-
-**Q3**: Your lockdown is loosening despite active re-locking attempts - what is your contingency plan?
-**A**: Transition from pure retention to offensive threat. Attempt an Electric Chair entry if their weight is forward, or an Old School sweep if they are shifting laterally. If sweeps are not available, prepare to insert your knee for half guard retention before the lockdown fully clears. The critical decision is whether to commit to a sweep attempt that risks losing the position entirely or accept the positional downgrade to half guard where you can rebuild. Generally, one strong sweep attempt is worth the risk before accepting half guard.
-
-**Q4**: How do you counter the backstep extraction variant where the top player steps their free leg backward?
-**A**: When you feel the free leg stepping backward rather than the standard forward circulation, increase your lockdown extension immediately to resist the changed extraction angle. The backstep creates a different force vector, so adjust your hip angle to face toward the stepping direction. If the backstep begins to succeed, use their backward movement momentum to accelerate a Truck entry or back take rather than fighting the extraction directly. Their backward step often exposes their back if you can follow the rotation.
-
-
-
-</section>
 
 
 </main>

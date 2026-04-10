@@ -188,6 +188,8 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slice from Reverse X-Guard?</p>
+
 - Address hooks before committing to the slice—never drive the knee into fully intact Reverse X hooks
 - Establish crossface or upper body control before or simultaneously with the knee cut to prevent guard recovery
 - Drive the knee at a 45-degree angle across the thigh line, not straight down, to maximize cutting pressure
@@ -202,6 +204,8 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slice from Reverse X-Guard?</p>
+
 - Stable base with free leg posted wide, preventing sweep completion during the passing attempt
 - At least one upper body grip established—collar, sleeve, or head control—to anchor the passing angle
 - Primary hook behind knee weakened through pressure, grip fighting, or opponent fatigue
@@ -214,6 +218,8 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slice from Reverse X-Guard step by step?</p>
 
 1. **Establish upper body control**: Secure a controlling grip on the opponent's collar, sleeve, or head. In no-gi, establish a collar tie or wrist control on the near side. This grip prevents the bottom player from creating the off-balancing angles they need for sweeps and anchors your body position for the upcoming pass.
 2. **Widen base and apply forward pressure**: Step your free leg (the leg not entangled in hooks) wide to the side and slightly forward, creating a stable tripod base. Simultaneously drive your hips forward toward the opponent's chest, applying heavy pressure that compresses their hook structure and limits their ability to elevate or rotate.
@@ -244,6 +250,8 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slice from Reverse X-Guard?</p>
+
 - **Opponent re-hooks behind your knee as you initiate the slice** (Effectiveness: High) - Your Response: If the hook catches early, reset to base management and repeat the hook stripping process. If it catches late, drive more aggressive forward pressure to flatten their structure and force the hook shallow enough to slice through. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
 - **Opponent frames on your hip with their hands to block the knee from cutting across** (Effectiveness: Medium) - Your Response: Swim your arm inside their frame to collapse it, or switch to a backstep pass that attacks from the opposite angle. The frame is strong against direct pressure but weak against angle changes. → Leads to [[Positions/X-Guard/Reverse X-Guard]]
 - **Opponent inserts their knee to catch half guard as you slice through** (Effectiveness: High) - Your Response: If caught in half guard, immediately establish crossface and underhook to prevent them from recovering to a strong half guard position. Continue the pass using knee slice from half guard mechanics or transition to smash half guard passing. → Leads to [[Positions/Half Guard]]
@@ -255,6 +263,8 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slice from Reverse X-Guard?</p>
 
 ### 1. Attempting the knee slice before adequately weakening the primary hook behind the knee
 
@@ -294,6 +304,8 @@ As the attacker executing the Knee Slice from Reverse X-Guard, your objective is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slice from Reverse X-Guard (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Knee slice path and crossface timing
 Partner lies in Reverse X-Guard position with no resistance. Practice the isolated knee slice motion: 45-degree cutting angle, simultaneous crossface, hip settlement. Repeat 20 times per side focusing on smooth coordination between upper and lower body. No hook stripping needed—partner simply holds position.
 
@@ -314,36 +326,12 @@ During full sparring, actively seek Reverse X-Guard Top situations and practice 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: When is the optimal timing window to initiate the knee slice from Reverse X-Guard Top?
-**A**: The optimal window opens when the bottom player's primary hook behind your knee weakens—either from fatigue, a failed sweep attempt, or your systematic grip fighting. You should feel the hook losing purchase or becoming shallow. Initiating before this window means slicing into intact hooks that will catch and stall the pass. Waiting too long allows the bottom player to reset their structure. The slice should feel like it falls into the gap created by hook degradation, not like it is being forced through resistance.
-
-**Q2**: What grip configuration must be established before committing to the knee slice?
-**A**: You need at least one upper body controlling grip—collar grip, sleeve control, or head/neck control in no-gi—to anchor your passing angle and prevent the bottom player from creating off-balancing angles. The ideal configuration is a cross-collar grip or collar tie on the near side combined with a secondary grip on their far sleeve or wrist. This double control prevents them from framing against your hip to block the slice and limits their ability to follow your movement to recover guard.
-
-**Q3**: What is the critical direction of force during the knee cutting motion?
-**A**: The knee must cut at a 45-degree diagonal angle across the opponent's thigh line, driving from the space between their hip and knee toward the mat on their far side. A straight downward press gets stuck on the thigh and creates a stalling point. The diagonal angle creates a wedge effect that separates the opponent's legs while simultaneously moving your body past their guard structure. Your shin acts as a blade cutting through the gap, not a piston pressing down.
-
-**Q4**: Your opponent catches your slicing knee and inserts their knee for half guard—how do you respond?
-**A**: Immediately establish a strong crossface to prevent them from turning into you, and secure an underhook on their far side to control their upper body. From this caught-in-half-guard position, you can continue the pass using standard knee slice mechanics from half guard—drive the crossface, apply hip pressure, and cut through the half guard hook. Do not pull the knee back and reset to Reverse X-Guard, as this gives them the opportunity to re-establish full guard control.
-
-**Q5**: What is the most common mechanical failure that causes this pass to stall, and how do you prevent it?
-**A**: The most common failure is attempting the slice before adequately degrading the primary hook behind the knee. When the hook is still engaged, it catches the knee mid-cut and creates a tug-of-war where the bottom player can re-establish full control. Prevention requires patience during the setup phase—invest in forward pressure, grip fighting, and controlled hook stripping until you feel the hook become shallow or lose purchase. Only then commit to the explosive slice. The setup is 80% of the technique.
-
-**Q6**: Your opponent transitions to Single Leg X-Guard during your knee slice attempt—what went wrong and how do you adjust?
-**A**: This typically happens when you commit to the slice without maintaining forward pressure, creating space the bottom player uses to redirect your leg into Single Leg X hooks. To adjust, immediately stop forward passing momentum and address the new hook configuration. Backstep with the caught leg to clear the Single Leg X structure, or apply heavy downward pressure to pin their controlling foot to the mat. To prevent this in the future, maintain constant forward hip drive throughout the slice so the bottom player cannot create the space needed for the leg redirection.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slice from Reverse X-Guard?</p>
 
 When drilling this pass, control the speed of your knee slice to avoid driving your knee forcefully into your partner's inner thigh or groin area. During the hook clearing phase, avoid aggressively yanking your partner's feet or ankles, which can strain their knee or ankle joints. Communicate with your training partner about crossface pressure levels and always allow space for them to tap or verbally signal discomfort during the pass completion. Build speed gradually across training phases rather than attempting full-speed passes before the movement pattern is established.
 

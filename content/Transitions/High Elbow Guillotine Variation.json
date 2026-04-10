@@ -14,7 +14,7 @@
   "from_position": "Hindulotine/Bottom",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "High Elbow Guillotine",
       "probability": 58,
       "result": "success"
     },

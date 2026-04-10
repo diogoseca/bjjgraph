@@ -210,11 +210,11 @@ The Ringworm Sweep to Back Control sits within the larger Ringworm Guard attack 
 
 - [[Transitions/Triangle Setup]] - Chain attack when post is defended
 
-- [[Transitions/Omoplata]] - Counter when opponent smashes forward
+- [[Submissions/Omoplata]] - Counter when opponent smashes forward
 
 - [[Positions/De La Riva Guard]] - Recovery position if lapel is stripped
 
-- [[Transitions/Rear Naked Choke]] - Primary submission from back control
+- [[Submissions/Rear Naked Choke]] - Primary submission from back control
 
 
 </section>

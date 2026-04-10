@@ -162,6 +162,8 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lasso Guard Pass?</p>
+
 - Passer grips the sleeve of your lasso arm with their free hand and begins pulling it across their body, indicating they are establishing control for the pass
 - Passer stands up while maintaining sleeve control, shifting their weight to a wide base with hips back, signaling they are preparing to change angles
 - Passer takes a large step with their outside leg around your lasso leg, landing near your hip with their knee pointing outward, which is the critical angle change that weakens your lasso
@@ -173,6 +175,8 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lasso Guard Pass?</p>
 
 - Maintain constant tension on the sleeve grip and lasso leg extension to preserve the mechanical advantage of the position
 - Keep hips angled perpendicular to the passer to maximize sweep vectors and prevent them from flattening you
@@ -186,6 +190,8 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lasso Guard Pass?</p>
 
 ### 1. Re-extend the lasso and pull the sleeve grip tight while posting your free foot on the passer's hip to re-establish distance
 
@@ -223,6 +229,8 @@ Defending the Lasso Guard Pass means you are the lasso guard player whose guard 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lasso Guard Pass?</p>
+
 ### → [[Positions/Lasso Guard]]
 
 Maintain sleeve grip tension and lasso extension throughout the passer's attempts. When they step outside, follow with your hips and re-angle perpendicular to them. Use your free foot on their hip to push them back to the starting position. Threaten sweeps to force them to abandon the pass and reset.
@@ -238,6 +246,8 @@ Time a sweep attempt to coincide with the passer's weight shift during their ang
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Guard Pass?</p>
 
 ### 1. Allowing the lasso leg to bend and collapse when the passer pressures forward or steps around
 
@@ -267,6 +277,8 @@ Time a sweep attempt to coincide with the passer's weight shift during their ang
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lasso Guard Pass?</p>
+
 **Phase 1: Recognition and Grip Maintenance (Weeks 1-2)** - Identifying passing cues and maintaining lasso integrity under pressure
 Partner attempts the lasso guard pass at 30-40% intensity while you focus on recognizing each stage of the passing sequence. Practice maintaining sleeve grip tension and lasso leg extension as the passer stands and begins to move. No sweeps or submissions yet - purely defensive retention. Build grip endurance and develop sensitivity to when the lasso is being weakened.
 
@@ -283,29 +295,6 @@ Positional sparring starting in lasso guard with partner using full intensity pa
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment to attack with a sweep when defending against the lasso guard pass?
-**A**: The most critical sweep window occurs when the passer steps outside your lasso leg to change angles. During this weight transfer, their base is momentarily compromised as they shift from a squared stance to an angled one. This is when sickle sweeps and hook sweeps are highest percentage because the passer's weight is transitioning between legs and their posting ability is reduced. Attacking during this weight shift forces them to choose between completing the angle change or recovering their base.
-
-**Q2**: Why should you follow the passer's angle change with your hips rather than staying flat when they step outside?
-**A**: Following the passer's angle change with a hip switch maintains your perpendicular relationship to their body, which preserves the mechanical advantage of the lasso and keeps your sweep angles viable. If you stay flat while they step outside, the angle change progressively unwinds your lasso hook, making it easy for them to rotate their shoulder free. By turning your hips to face their new angle, you re-tension the lasso and maintain the fulcrum that makes the position controlling. This hip mobility is what separates effective lasso guard retention from static, easily passed guard play.
-
-**Q3**: When you feel your lasso control deteriorating, how do you decide between fighting to maintain the lasso versus transitioning to a different guard?
-**A**: The decision hinges on whether the passer has completed the angle change and begun clearing the hook. If they have only stood up but not yet stepped outside, re-extending the lasso and pulling the sleeve tight can restore full control. However, once they have successfully stepped outside and begun rotating their shoulder, the mechanical advantage has shifted too far for recovery. At this point, transitioning to De La Riva with the non-lasso leg or recovering to spider guard is higher percentage than fighting to maintain a compromised lasso. The key indicator is whether your shin still has firm contact across their tricep.
-
-**Q4**: What role does the non-lasso leg play in defending against the pass, and how should it be positioned?
-**A**: The non-lasso leg is your primary distance management and secondary attack tool. It should post on the passer's hip when they pressure forward, preventing them from closing distance and smashing the lasso. When they stand, the free foot on the hip creates a frame that keeps space and allows you to follow their movement. When they step outside for the angle change, the non-lasso leg can hook behind their far ankle for a sickle sweep or transition to a De La Riva hook on the far leg. Neglecting the non-lasso leg removes half your defensive and offensive capability from the lasso position.
-
-**Q5**: Your opponent has stood up and gripped your lasso sleeve but has not yet stepped outside - what is your best immediate action?
-**A**: At this stage, the passer is most vulnerable to re-extension and sweep threats. Immediately push your free foot into their same-side hip to create distance while pulling the sleeve grip tight and extending the lasso leg fully. This re-establishes the mechanical advantage before they can change angles. Simultaneously threaten a sickle sweep by hooking their far ankle with your free leg. This forces a dilemma: they must either abandon the sleeve grip to deal with the sweep threat, giving you time to re-establish full control, or accept the sweep risk and continue the pass under pressure.
-
-
-
-</section>
 
 
 </main>

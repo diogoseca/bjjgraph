@@ -188,6 +188,8 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Knee Slice from Deep Half?</p>
+
 - Establish crossface control before attempting any leg extraction to neutralize sweep mechanics
 - Drive forward pressure through your shoulder and chest to flatten the opponent and collapse their underhook leverage
 - Commit fully to the knee slice once initiated - hesitation creates sweep opportunities
@@ -203,6 +205,8 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Knee Slice from Deep Half?</p>
+
 - Crossface or strong head control established to limit opponent's ability to generate sweep rotation
 - Trapped leg has sufficient range of motion to change angle and initiate the knee cut across opponent's body
 - Free leg posted wide with solid base to maintain balance during the transitional moment of the slice
@@ -215,6 +219,8 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Knee Slice from Deep Half step by step?</p>
 
 1. **Establish Crossface and Settle Weight**: From deep half guard top, drive your crossface shoulder into the opponent's jaw and neck, turning their head away from you. Settle your chest weight onto their upper body while keeping your hips mobile. Your free hand should control their far hip or underhook their far arm to prevent frame creation.
 2. **Weaken the Deep Underhook**: Apply constant downward shoulder pressure to compress the opponent's underhook arm. Use your near hand to strip or peel their grip on your far leg. You can also use a whizzer or overhook to further compromise their underhook control. The goal is reducing their grip strength enough that your leg can move.
@@ -244,6 +250,8 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Knee Slice from Deep Half?</p>
+
 - **Opponent maintains tight deep underhook and blocks knee extraction** (Effectiveness: High) - Your Response: Increase crossface pressure to flatten their upper body, use near hand to strip grip on your leg, and consider switching to a backstep pass if the underhook remains unbreakable → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Opponent times a Homer Simpson sweep as your knee lifts off the mat** (Effectiveness: High) - Your Response: Post your free hand on the mat immediately and sprawl your trailing leg back to base out. If the sweep is advanced, abandon the knee slice and focus on base recovery before reattempting → Leads to [[Positions/Half Guard]]
 - **Opponent elevates hips into waiter sweep during the transitional moment** (Effectiveness: Medium) - Your Response: Drive your weight forward and down into their chest to kill the elevation. Widen your base with the posted leg and focus on smashing their upper body flat before reattempting the slice → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Knee Slice from Deep Half?</p>
 
 ### 1. Attempting the knee slice without first establishing crossface control
 
@@ -295,6 +305,8 @@ As the top player in deep half guard, the knee slice pass is your most direct ro
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Knee Slice from Deep Half (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic movement pattern and body coordination
 Practice the knee slice motion with a cooperative partner. Start in deep half guard top with crossface established. Focus on the coordination between crossface pressure, knee angle change, and forward drive. No resistance. Perform 20 repetitions per side emphasizing smooth connected movement.
 
@@ -315,42 +327,12 @@ Practice using the knee slice as part of a broader passing system. When the knee
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must be established before attempting the knee slice from deep half guard?
-**A**: Crossface control must be established first to neutralize the opponent's sweep mechanics. The crossface shoulder pressure turns the opponent's head away, collapses their upper body structure, and reduces the effectiveness of their deep underhook. Without crossface, any knee lift creates an immediate sweep opportunity for the bottom player.
-
-**Q2**: Your opponent maintains an extremely tight underhook on your far leg that you cannot break - what alternative approach should you consider?
-**A**: If the deep underhook is unbreakable through standard grip fighting and pressure, switch to a backstep pass rather than forcing the knee slice. The backstep works with the opponent's underhook grip rather than against it, stepping your trapped leg back and around to pass in the opposite direction. Continuing to force the knee slice against an unbreakable underhook wastes energy and creates sweep opportunities.
-
-**Q3**: What is the most critical moment of vulnerability during the knee slice from deep half?
-**A**: The most critical vulnerability window occurs when your knee lifts off the mat to begin the slicing motion. At this moment, you temporarily lose base and hip pressure, creating the exact conditions the bottom player needs to execute sweeps like the Homer Simpson or waiter sweep. This is why committed forward drive must accompany the knee lift, and why the free leg must be posted extremely wide for stability.
-
-**Q4**: You feel your opponent beginning to elevate their hips as you start the knee slice - how do you adjust?
-**A**: Immediately increase forward and downward pressure through your crossface and chest to kill their elevation. Drop your hips lower and widen your posted leg base. If the elevation is significant, abort the knee slice attempt temporarily, focus on flattening them completely, and only reattempt once their hips are back on the mat and their elevation threat is neutralized.
-
-**Q5**: Why should the knee stay low during the slice rather than lifting high over the opponent's body?
-**A**: Keeping the knee low maintains maximum contact with the opponent's body, preventing space creation that they can exploit for guard recovery or hook insertion. A high knee path creates a gap between your body and theirs, allowing them to insert feet, hooks, or frames that stall or reverse the pass. The low diagonal path also keeps your center of gravity lower, maintaining better balance throughout the transition.
-
-**Q6**: What is the correct direction of force during the knee slice pass?
-**A**: The force should be directed forward and diagonally downward through your crossface shoulder and chest into the opponent's upper body, while the knee cuts along a low diagonal across their hip line. The combined force vector flattens the opponent while the knee separates their legs from their body. Avoid upward or purely lateral forces, as these create space rather than pressure.
-
-**Q7**: Your opponent frames on your hip with their free hand during the knee slice - what grip adjustment solves this?
-**A**: Swim your near arm inside their framing arm to remove the frame, or pin their framing wrist to the mat with your hand while driving forward with increased crossface pressure. The swim-through is preferred as it positions your arm for a potential underhook that strengthens the pass. If the frame is very strong, use forehead pressure against their framing arm to walk it down before swimming through.
-
-**Q8**: After clearing the legs with the knee slice, what are the immediate priorities for consolidation?
-**A**: Immediately establish heavy hip-to-hip contact to prevent guard recovery, maintain or intensify crossface pressure to control their upper body, and position your near knee tight against their far hip to block knee insertion. Transition grips from passing configuration to standard side control within two seconds. The first three seconds after clearing the legs are the highest risk for guard recovery, so consolidation speed is critical.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Knee Slice from Deep Half?</p>
 
 The knee slice from deep half guard involves significant pressure on the opponent's neck and face from the crossface, as well as knee pressure across their body. Apply crossface with controlled force, avoiding excessive cranking of the neck. During training, communicate with partners about pressure intensity. Be cautious of your knee landing on the opponent's ribs or hip bones during the slice. If the opponent taps due to pressure rather than submission, release immediately and adjust your technique to distribute pressure more broadly.
 

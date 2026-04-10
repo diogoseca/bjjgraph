@@ -171,6 +171,8 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 ## Position Definition
 
+<p class="section-subtitle">What is Carni (Top)?</p>
+
 - Top player's leg is trapped and isolated in bottom player's leg entanglement, with limited mobility and heel exposed to potential attack, requiring immediate defensive responses
 - Top player must maintain awareness of heel position and keep ankle flexed with toes pointed away from attacker to prevent immediate heel hook finish while working to extract the trapped leg
 - Top player's upper body is positioned forward or sideways as they attempt to defend leg attack, creating vulnerability to back exposure if they roll or turn to escape
@@ -183,6 +185,8 @@ The most successful escapes from Carni involve recognizing the position early, b
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Carni (Top)?</p>
 
 - Bottom player has successfully established Carni control from guard position or leg entanglement
 - Top player's leg is isolated and entangled in bottom player's leg configuration
@@ -197,6 +201,8 @@ The most successful escapes from Carni involve recognizing the position early, b
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Carni?</p>
 
 - First priority is protecting the heel and preventing immediate submission by controlling ankle position
 - Maintain leg extension to prevent saddle transition while simultaneously working to extract trapped leg
@@ -213,13 +219,15 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Carni (Top)?</p>
+
 **If bottom player establishes tight heel control with immediate submission threat:**
 - Execute **[[Tap early to prevent injury/Attacker|Tap early to prevent injury]]** → [[game-over]] (Probability: 100%)
 
 
 **If bottom player has loose heel control but strong leg entanglement:**
 - Execute **[[Transitions/Stack Defense/Attacker|Stack Defense]]** → [[Positions/Combat Base]] (Probability: 45%)
-- Execute **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** → [[Positions/Scramble Position]] (Probability: 40%)
+- Execute **[[Transitions/Rolling Kimura Escape/Attacker|Rolling Kimura Escape]]** → [[Positions/Standing Position]] (Probability: 40%)
 
 
 **If bottom player transitions toward saddle and temporarily loosens control:**
@@ -239,6 +247,8 @@ The most successful escapes from Carni involve recognizing the position early, b
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Carni?</p>
 
 ### 1. Panicking and attempting explosive movements without systematic escape sequence
 
@@ -283,6 +293,8 @@ The most successful escapes from Carni involve recognizing the position early, b
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Carni attacks?</p>
+
 ### Carni Escape Hierarchy Drill
 
 Partner establishes Carni control at various tightness levels (loose, medium, tight). Practice systematic escape sequence: protect heel, create frames, clear hooks, extract leg. Start with loose control and progress to tighter positions.
@@ -322,38 +334,6 @@ Start with bottom player in established Carni position. Top player attempts safe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when you find yourself caught in Carni position?
-**A**: The first priority is protecting your heel by controlling your ankle position and keeping your toes pointed away from the attacker. This prevents the immediate heel hook finish while giving you time to work on extraction. If you focus on leg extraction before securing your ankle, you risk catastrophic knee injury during your escape attempt.
-
-**Q2**: Your opponent starts transitioning toward the saddle - what adjustment should you make?
-**A**: When the opponent transitions toward saddle, they often momentarily loosen their control to reposition. This is your window to either execute a leg drag pass if their entanglement becomes loose, or perform a technical stand-up if they lose grip control. The key is recognizing this brief opportunity and moving decisively rather than waiting passively.
-
-**Q3**: What are the essential grips or defensive positions for surviving in Carni top?
-**A**: The essential defensive positions include: keeping your ankle flexed with toes pointed away from the attacker, maintaining a slight bend in your knee to prevent easy heel exposure, positioning your free leg defensively to prevent additional control points, and using your upper body to create frames and distance. These elements work together to minimize submission risk while creating escape opportunities.
-
-**Q4**: How do you shut down the primary heel hook attack from Carni bottom?
-**A**: To shut down the heel hook attack, keep your trapped leg's ankle flexed with toes pointing away from the attacker at all times. Avoid extending your leg forcefully which presents your heel perfectly for attack. Maintain a slight knee bend while working your escape, and use your free leg to create barriers that prevent the attacker from optimizing their heel grip angle.
-
-**Q5**: What grip priorities should you maintain when defending Carni?
-**A**: Your grip priorities should focus on: first controlling your own ankle to protect the heel, second creating frames against the opponent's torso or hips to generate distance, and third establishing posts with your free hand to create base for extraction attempts. Avoid grabbing their legs ineffectively as this wastes energy without addressing the fundamental control problem.
-
-**Q6**: Your opponent begins to roll following your escape attempt - how do you respond?
-**A**: When the opponent follows your roll attempting a back take, you must immediately decide between two options: execute a Granby Roll to Guard to recover to half guard and reset the position, or complete a technical stand-up to disengage entirely. The worst response is to continue rolling without purpose, which plays directly into their back take strategy. Commit fully to one escape path.
-
-**Q7**: How should you manage energy when caught in Carni top?
-**A**: Energy management is critical because panic leads to rapid exhaustion and injury. Remain calm and work methodically through the escape hierarchy. Avoid explosive movements that don't address the technical problems. Prioritize protecting your heel first which requires minimal energy, then systematically work on extraction using technique rather than strength. Accept that sometimes giving up position is better than risking injury.
-
-**Q8**: After partially escaping the entanglement, what's your recovery procedure?
-**A**: After partially escaping, immediately transition to a stable base position like combat base or standing position. Do not remain in transitional positions where the opponent can re-establish control. Create distance as quickly as possible, establish your base, and only then re-engage on your terms. Keep your formerly trapped leg protected until you've fully established a safe position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

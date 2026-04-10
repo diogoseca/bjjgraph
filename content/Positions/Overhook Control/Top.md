@@ -20,14 +20,14 @@ description: "Master overhook control from top positions. Wrestling-based whizze
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 16% of exchanges from this position.",
+      "name": "Execute Kimura from Overhook Control",
+      "text": "From this position, attempt Kimura from Overhook Control. This technique is attempted in 16% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Darce Choke",
-      "text": "From this position, attempt Darce Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Darce Choke from Overhook Control",
+      "text": "From this position, attempt Darce Choke from Overhook Control. This technique is attempted in 10% of exchanges from this position.",
       "position": 2
     },
     {
@@ -171,6 +171,8 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ## Position Definition
 
+<p class="section-subtitle">What is Overhook Control (Top)?</p>
+
 - Your arm wrapped over opponent's arm from above with armpit sealed tightly over their shoulder, creating a vice-like connection with no gap between your armpit and their shoulder joint
 - Your grip secured behind opponent's back, around their shoulder, or in figure-four configuration with hands clasped together for maximum control and submission setup capability
 - Opponent's arm elevated and trapped at approximately shoulder height or above, preventing them from generating power, posting effectively, or establishing defensive structure
@@ -183,6 +185,8 @@ The transitional nature of top overhook distinguishes it from static control pos
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Overhook Control (Top)?</p>
 
 - Opponent has extended arm reaching for underhook, posting on mat, attempting to push you away, or in compromised turtle position
 - You have angle and space to wrap your arm over theirs from superior position
@@ -197,10 +201,12 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Overhook Control?</p>
+
 - Armpit Seal Creates Control: Keep armpit sealed tightly over opponent's shoulder with zero gap - the armpit connection creates the control more than the hand grip
 - Upward and Backward Pressure: Constantly drive their arm upward and backward to break their structure, limit their mobility, and create submission opportunities
 - Hip Connection Prevents Escape: Maintain close hip position to prevent opponent from circling away or creating the distance needed to escape the control
-- Head Control Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup
+- Head Position Combination: Combine overhook with head control using free arm for complete upper body dominance and submission setup
 - Attack Within Seconds: Treat overhook as transitional control leading to back takes or submissions within 3-5 seconds rather than static holding position
 - Read Defensive Reactions: When opponent attempts to escape or adjust, immediately capitalize on their movement to enter appropriate submission or advancement
 - Systematic Decision Tree: Follow clear if/else logic - pull back triggers Kimura, drive forward triggers front headlock chokes, turn away triggers back takes
@@ -212,8 +218,10 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Overhook Control (Top)?</p>
+
 **If opponent's posture is upright and they are trying to pull their arm back against your pressure:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
 - Execute **[[Transitions/Two-on-One to Back Take/Attacker|Two-on-One to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
@@ -244,6 +252,8 @@ The transitional nature of top overhook distinguishes it from static control pos
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Overhook Control?</p>
 
 ### 1. Leaving gap between armpit and opponent's shoulder while focusing on hand grip
 
@@ -283,6 +293,8 @@ The transitional nature of top overhook distinguishes it from static control pos
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Overhook Control attacks?</p>
+
 ### Overhook Retention Drill from Top
 
 Partner starts with arm extended from turtle or standing, you establish overhook. Partner attempts to escape using limp arm, circling, posture changes, and hip movement. Practice maintaining tight armpit seal and adapting grip as they move. Reset when escape occurs or 30 seconds elapses. Focus on pressure and mobility.
@@ -315,38 +327,6 @@ Start with overhook control from turtle top position. Practice different back ta
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts pulling their trapped arm backward forcefully - what immediate adjustment do you make?
-**A**: When opponent pulls back, immediately transition to a Kimura grip by releasing your hand grip and securing the figure-four on their wrist. Their backward pulling motion actually assists your Kimura entry by bending their arm into the proper position. Do not fight their pull with strength - use it to enter the submission. If they manage to create distance, follow by transitioning to an arm drag to take their back.
-
-**Q2**: What are the three essential connection points for maintaining effective overhook control from top position?
-**A**: The three essential connection points are: first, the armpit seal over opponent's shoulder with zero gap, which creates the primary control mechanism; second, hip-to-hip proximity that prevents opponent from circling away or creating escape angles; and third, head positioning either tight to theirs or controlling their head with your free hand. These three points working together create inescapable control - losing any one significantly weakens the position.
-
-**Q3**: You feel your armpit seal starting to loosen as opponent rotates their shoulder - how do you recover the control?
-**A**: Immediately drive your hips forward while simultaneously pulling your elbow tight to your ribs, re-sealing the armpit connection. Drop your shoulder weight downward onto their shoulder to flatten them and reestablish the seal. If the gap has opened too much, transition immediately to an alternative control - either secure a front headlock or transition to a back take attempt rather than fighting to recover a compromised overhook.
-
-**Q4**: What is the primary weight distribution error that allows opponents to escape overhook control?
-**A**: Overcommitting weight forward without maintaining base is the primary error. When you lean too far forward, opponent can use your momentum to roll you over or escape underneath. The correct distribution maintains forward pressure through the overhook while keeping your feet positioned to support dynamic movement. You should be able to pressure forward but instantly adjust if opponent creates an escape opportunity - balance constant pressure with reactive mobility.
-
-**Q5**: Your opponent drives forward aggressively into your overhook - what submission entry does this create?
-**A**: Forward driving creates optimal entry for Darce or Anaconda chokes. As they drive in, their head drops forward and their arm is already controlled by your overhook. Thread your choking arm around their neck (Darce goes arm-side first, Anaconda goes head-side first), secure the figure-four grip, and finish by sprawling your hips away while pulling their head down. Their forward momentum assists your choke entry rather than hindering it.
-
-**Q6**: How do you manage energy expenditure when maintaining overhook control against a defensive opponent?
-**A**: Energy management requires understanding that overhook is transitional, not positional. Maximum control time is 3-5 seconds before attacking or advancing. Use skeletal alignment rather than muscular tension - your armpit seal should rest on their shoulder, not grip it with arm strength. Transfer pressure through body positioning rather than squeezing. If opponent is successfully defending, don't fight to maintain - transition to alternative attacks or reset to another control position.
-
-**Q7**: You've partially lost the overhook as opponent circles their arm toward escape - what recovery options exist?
-**A**: Three recovery options depending on how far the escape has progressed: if arm is still elevated, quickly re-establish armpit seal by driving your shoulder down and forward; if they've brought their arm to centerline, immediately transition to an arm drag and pursue back control; if their arm is nearly free, release the overhook entirely and secure a front headlock or snap them down before they can recompose. Never chase a failing grip - transition proactively.
-
-**Q8**: What specific grip height provides maximum leverage from top overhook position?
-**A**: The grip should be high on opponent's shoulder blade or behind their neck, never low on their back near the waist. High grip positioning provides maximum control over their posture and structure - you can drive their shoulder down and restrict their head movement. Low grips allow opponent to use their body movement to escape because the lever arm is too short. As they move, constantly adjust your grip upward to maintain the high position.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -164,6 +164,8 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shin to Shin Pull?</p>
+
 - Opponent establishes a strong same-side sleeve or wrist grip and begins loading weight onto their rear foot in preparation for sitting
 - Opponent's hips begin dropping as they transition from standing to seated position while maintaining grip tension on your arm
 - Opponent's lead leg extends toward your shin with the foot flexed, seeking to create the perpendicular shin-to-shin connection
@@ -176,6 +178,8 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shin to Shin Pull?</p>
 
 - Deny the primary sleeve or wrist grip through proactive hand fighting before the pull is initiated
 - Maintain a stance that keeps your lead shin angled away from easy perpendicular contact
@@ -190,6 +194,8 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shin to Shin Pull?</p>
 
 ### 1. Backstep and disengage the lead leg by pulling it away from the shin contact point while simultaneously stripping the sleeve grip
 
@@ -227,6 +233,8 @@ Successful defense operates on a timeline: the earlier you react, the more optio
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shin to Shin Pull?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the shin connection through early backstep or circling movement while stripping the controlling sleeve grip, then maintain standing posture and re-engage grip fighting from a neutral position where you dictate the terms of engagement.
@@ -242,6 +250,8 @@ Drive controlled forward pressure into the opponent as they commit to sitting, f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin to Shin Pull?</p>
 
 ### 1. Freezing in place when opponent initiates the pull instead of immediately reacting with footwork or grip breaking
 
@@ -276,6 +286,8 @@ Drive controlled forward pressure into the opponent as they commit to sitting, f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shin to Shin Pull?</p>
+
 **Week 1-2: Recognition and Basic Response** - Identifying pull initiation cues and drilling basic backstep defense
 Partner performs shin-to-shin pull at slow speed while you practice recognizing the grip establishment and sitting cues. Drill the backstep response and two-on-one grip strip 20-30 times per session. Partner should announce which phase they are in initially, then remove verbal cues as recognition improves. Focus on reacting to the earliest cue rather than waiting for full pull commitment.
 
@@ -292,29 +304,6 @@ Start from standing with partner specifically attempting shin-to-shin pulls. If 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an opponent is about to attempt a shin-to-shin pull, and how should you respond?
-**A**: The earliest cue is the opponent establishing a strong same-side sleeve or wrist grip combined with a subtle weight shift to their rear foot. This grip is the prerequisite for effective off-balancing during the pull. Your immediate response should be to strip or contest this grip using a two-on-one grip break before they can begin sitting. Denying this single grip eliminates the pulling force that makes the technique dangerous, forcing them to reset their grip sequence.
-
-**Q2**: Why is circling laterally more effective than retreating straight backward when defending the shin-to-shin pull?
-**A**: Straight backward retreat preserves the perpendicular shin angle that creates the guard player's leverage, and the retreating momentum makes it difficult to change direction for passing. Lateral circling breaks the perpendicular angle because the guard player must adjust their hip positioning to maintain connection, which takes time and creates gaps in their control. Additionally, lateral movement positions you for passing entries when the connection breaks, whereas straight retreat simply creates distance that the guard player can close by scooting forward.
-
-**Q3**: Your opponent has already established shin-to-shin guard with a strong sleeve grip—what is your priority sequence for escaping?
-**A**: First, address the sleeve grip through systematic grip breaking rather than trying to clear the shin while the grip remains intact. Second, once grip control is contested, begin circling to break the shin angle while maintaining your base and posture. Third, immediately advance into passing pressure the moment the shin connection weakens rather than backing away, as distance allows the guard player to re-establish. The critical error is reversing this sequence—trying to clear the shin first leaves you vulnerable to the off-balancing pull that the sleeve grip generates.
-
-**Q4**: When is it appropriate to drive forward with pressure as a defense against the shin-to-shin pull, and when is it dangerous?
-**A**: Forward pressure is appropriate in the early phase when the opponent is still sitting down and has not yet established both strong shin angle and sleeve grip simultaneously. Their guard structure is weakest during the transition from standing to seated. Forward pressure becomes dangerous once they have consolidated both the perpendicular shin connection and a controlling upper body grip, because at that point your forward weight loads directly onto the lever they use for sweeps. Read the guard player's grip and shin quality before committing forward—pressure into a fully consolidated shin-to-shin guard is the primary way defenders get swept.
-
-**Q5**: How does defending the shin-to-shin pull differ in no-gi versus gi competition?
-**A**: In no-gi, the guard player's upper body grips are less secure (wrist control instead of sleeve), making grip stripping faster and easier for the defender. This means the window for successful defense is larger because the guard player must execute the pull faster before grips are broken. In gi, sleeve grips are more durable and harder to strip, so the defender must address grips earlier in the sequence—ideally preventing the initial sleeve grip from being established rather than trying to break it after the fact. Gi defense relies more on proactive grip denial, while no-gi defense can be more reactive since grips are easier to break even mid-pull.
-
-
-
-</section>
 
 
 </main>

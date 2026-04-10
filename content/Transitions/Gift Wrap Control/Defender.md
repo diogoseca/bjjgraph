@@ -166,6 +166,8 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Gift Wrap Control?</p>
+
 - Attacker's near-side hand reaches across your body toward your far wrist or forearm while maintaining Kuzure Kesa-Gatame pressure
 - Attacker shifts chest weight onto your far-side elbow, pinning it to the mat—this is the setup for threading your arm across your throat
 - Attacker's head begins driving past your far shoulder toward the mat, indicating they are committing to the wrap position and consolidating control
@@ -177,6 +179,8 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap Control?</p>
 
 - Early recognition is paramount—once the wrap crosses the throat, escape difficulty increases tenfold
 - Keep the far arm bent and elbow tight to your body to deny the wrist control needed to initiate the wrap
@@ -191,6 +195,8 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Gift Wrap Control?</p>
 
 ### 1. Post far hand on attacker's hip to create a frame that prevents wrist access
 
@@ -228,6 +234,8 @@ From a systematic perspective, Gift Wrap defense integrates into the broader Kuz
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Gift Wrap Control?</p>
+
 ### → [[Positions/Side Control/Kuzure Kesa-Gatame]]
 
 Prevent the wrap entirely by maintaining a stiff arm frame on the attacker's hip with your far hand. This denies wrist access and forces the attacker to abandon the wrap attempt, returning to standard Kuzure Kesa-Gatame where you retain both arms for defense. Combine the frame with small hip escapes to begin working toward standard bottom escapes.
@@ -243,6 +251,8 @@ Time an explosive bridge to the precise moment the attacker transitions from wri
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap Control?</p>
 
 ### 1. Leaving the far arm extended and relaxed at your side while in Kuzure Kesa-Gatame bottom
 
@@ -277,6 +287,8 @@ Time an explosive bridge to the precise moment the attacker transitions from wri
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Gift Wrap Control?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner initiates Gift Wrap at slow speed from Kuzure Kesa-Gatame. Practice identifying the wrist reach and elbow pin early. Focus on preemptive hip framing and keeping the far arm in defensive position. No escape attempts yet—develop awareness of the attack sequence.
 
@@ -293,29 +305,6 @@ Full resistance positional sparring starting from Kuzure Kesa-Gatame bottom. Par
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can prevent the Gift Wrap from being established?
-**A**: The earliest prevention point is before the attacker secures wrist control on your far arm. By posting your far hand on the attacker's hip or keeping your elbow bent tight to your ribs, you deny access to the wrist they need to initiate the threading sequence. Once they grip your wrist, the defense becomes significantly more difficult.
-
-**Q2**: Your arm is being threaded across your throat but has not yet crossed the centerline—what is your best response?
-**A**: Explosively straighten the arm before it crosses your throat. The fold requires a bent elbow—a straight arm cannot be wrapped across the throat. This straightening carries risk of armbar exposure, but it denies the wrap. Simultaneously bridge to create space and disrupt the attacker's elbow pin that creates the folding leverage.
-
-**Q3**: Why is the grip transition moment the most vulnerable point in the attacker's Gift Wrap sequence?
-**A**: During the grip transition, the attacker must release their wrist grip and reach under your tricep to secure the figure-four or bicep grip. For a brief moment, both of their hands are occupied with grip change rather than control—their base is temporarily compromised because they cannot post or adjust. This is the optimal window for an explosive bridge.
-
-**Q4**: The wrap is fully locked with the attacker's head past your far shoulder—what is your escape priority?
-**A**: Once fully locked, stop fighting the arm grip and focus entirely on hip movement and base disruption. Bridge toward the attacker's posting leg to attack their base structure. Use any space created to shrimp and insert a knee between your bodies. The goal shifts from preventing the wrap to escaping the position entirely—recovering half guard or turtle.
-
-**Q5**: How does your far arm position in Kuzure Kesa-Gatame bottom determine your vulnerability to the Gift Wrap?
-**A**: If your far arm is relaxed at your side or extended toward the mat, the attacker has free access to your wrist for the wrap initiation. If your far arm frames on the attacker's hip, it blocks their reaching path. If your elbow is bent tight with hand near your chin, they cannot easily grip and thread. Arm positioning is the single biggest factor in Gift Wrap vulnerability.
-
-
-
-</section>
 
 
 </main>

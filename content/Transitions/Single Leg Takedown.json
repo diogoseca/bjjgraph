@@ -11,7 +11,7 @@
     "single-leg",
     "leg-attack"
   ],
-  "from_position": "Standing Position/Top",
+  "from_position": "Clinch/Top",
   "outcomes": [
     {
       "to": "Side Control/Top",

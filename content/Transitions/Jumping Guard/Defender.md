@@ -154,6 +154,8 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Jumping Guard?</p>
+
 - Opponent steps forward with lead foot to close distance beyond normal grip fighting range, reducing the gap to approximately one foot
 - Opponent's grip pressure increases suddenly on collar or sleeve as they prepare to use you as an anchor point for their jump
 - Subtle knee bend or weight shift onto balls of feet indicating explosive movement loading, often disguised within grip fighting rhythm
@@ -166,6 +168,8 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Jumping Guard?</p>
 
 - Maintain active distance management to deny comfortable jumping range without retreating passively
 - Keep grips engaged on their arms to feel weight shifts and loading that signal a jump is imminent
@@ -181,6 +185,8 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Jumping Guard?</p>
 
 ### 1. Sprawl and hip displacement - drive hips back and down while extending arms on their shoulders to deny hip contact
 
@@ -218,6 +224,8 @@ Defending against Jumping Guard requires early recognition, proper stance mainte
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Jumping Guard?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the jump entirely through early recognition and sprawl defense. When you read the setup cues, immediately sprawl your hips back while posting on their shoulders. Their jump falls short and they land on the mat below you. Immediately pressure forward to establish a passing position before they can recover guard, or disengage to reset standing with initiative. This outcome is most achievable when you maintain active distance management and grip engagement throughout standing exchanges.
@@ -233,6 +241,8 @@ If the opponent makes contact but you prevent closed guard by widening your base
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Jumping Guard?</p>
 
 ### 1. Retreating straight backward when seeing the jump rather than sprawling hips down and back
 
@@ -262,6 +272,8 @@ If the opponent makes contact but you prevent closed guard by widening your base
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Jumping Guard?</p>
+
 **Phase 1: Recognition Drilling (Weeks 1-2)** - Identifying jumping guard setup cues without defensive response
 Partner alternates between normal grip fighting and jumping guard setups at 30% speed. Your only task is to call out when you recognize a jump is coming. Partner confirms or corrects your read. Build pattern recognition through repetition without requiring any physical defensive response. Train the eyes and awareness before the body.
 
@@ -278,26 +290,6 @@ Positional sparring starting from standing where partner is specifically attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to attempt a jumping guard, and how do they differ from normal grip fighting movements?
-**A**: The earliest cues include a sudden forward step that closes distance beyond normal grip fighting range, a noticeable increase in grip pressure on your collar or sleeve as they prepare to use you as an anchor, and a subtle loading of their legs with both feet parallel and weight shifting to the balls of their feet. These differ from normal grip fighting because standard exchanges involve alternating grip attempts with natural stance adjustments, while jumping guard preparation shows a coordinated commitment of grips, footwork, and weight distribution all aligning simultaneously toward a single explosive movement. The grip tightening in particular is distinctive because it serves a pulling function rather than a controlling function.
-
-**Q2**: Why is sprawling more effective than stepping backward as a primary defense against jumping guard?
-**A**: Stepping backward maintains the same spatial relationship between you and the attacker because you are moving along the same vector as their jump. They are traveling forward and upward, and your backward step only delays contact rather than preventing it, since their explosive momentum exceeds your walking retreat speed. Sprawling is superior because it changes your body geometry by dropping your hips below their wrapping trajectory while simultaneously creating backward distance. The downward component of the sprawl means their legs cannot wrap at the correct height to establish closed guard, and the sprawl transfers your weight forward onto their shoulders, making their jump feel like they hit a wall rather than a retreating target.
-
-**Q3**: Your opponent has made contact and their legs are around your torso but ankles are not yet locked - what is the highest percentage response in this critical window?
-**A**: In this critical 1-2 second window, immediately widen your base by stepping one foot back and out to a wide stance, then drive your hips forward and down to create pressure that makes ankle locking difficult. Simultaneously establish an underhook on one side and begin circling toward the underhook side to create an angle that prevents symmetrical guard closure. Use your free hand to push down on their top knee to create space between their legs and your body. The combination of base widening, hip pressure, underhook angle, and knee control attacks multiple aspects of their guard closure simultaneously, making it extremely difficult for them to complete the locked ankles position.
-
-**Q4**: How should your standing stance and distance management change when you know your opponent favors jumping guard entries?
-**A**: Maintain a slightly longer range than normal by keeping your lead foot farther back, forcing them to cover more distance to reach jumping range. Keep your hands active at mid-level rather than reaching forward for grips, which would allow them to use your extended arm as an anchor. Adopt a slightly wider base with more knee bend than typical standing posture, pre-loading your sprawl reaction. Focus your grip fighting on controlling their sleeves rather than engaging collar grips, as sleeve control limits their ability to pull you into jumping range and denies them the collar anchor they need. When they step forward, immediately match with a small step back rather than holding ground, maintaining the distance differential that makes their jump fall short.
-
-
-
-</section>
 
 
 </main>

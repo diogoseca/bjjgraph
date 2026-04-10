@@ -11,7 +11,7 @@
     "advanced",
     "leg-entanglement"
   ],
-  "from_position": "Estima Lock/Top",
+  "from_position": "Estima Lock Control/Top",
   "outcomes": [
     {
       "to": "Kneebar Control/Top",
@@ -19,7 +19,7 @@
       "result": "success"
     },
     {
-      "to": "Estima Lock/Top",
+      "to": "Estima Lock Control/Top",
       "probability": 30,
       "result": "failure"
     },
@@ -70,7 +70,7 @@
       "relationship": "Follow-up technique for maintaining control after successful entry"
     },
     {
-      "name": "Estima Lock Finish",
+      "name": "Estima Lock",
       "relationship": "Primary submission from source position that this chain attack complements"
     },
     {
@@ -164,7 +164,7 @@
         "counter": "Opponent bends their knee sharply to prevent hyperextension during the hip switch",
         "effectiveness": "High",
         "your_response": "Thread your shin behind their calf to create a calf slicer threat that forces them to straighten, or maintain thigh control and work to pry the knee straight using hip pressure and forearm leverage against their ankle",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent uses free leg to push your hips away and create distance before you complete the transition",
@@ -176,7 +176,7 @@
         "counter": "Opponent sits up and establishes grips on your body during the grip change",
         "effectiveness": "Medium",
         "your_response": "Accelerate through the transition rather than pausing—the sitting up motion actually brings their knee closer to your hips, making the kneebar easier if you complete the hip switch quickly before they can establish meaningful control",
-        "targets_outcome": "Estima Lock/Top"
+        "targets_outcome": "Estima Lock Control/Top"
       },
       {
         "counter": "Opponent rolls toward you during the transition to alleviate kneebar angle",
@@ -316,7 +316,7 @@
       {
         "action": "Bend knee aggressively and turn toward the attacker to eliminate hyperextension angle",
         "when_to_use": "When the attacker has already arrived at the knee but has not yet fully clamped their legs around your leg",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "The bent knee prevents submission completion and your rotation creates a scramble where the attacker may revert to Estima Lock control or lose leg control entirely",
         "risk": "If you rotate into the attacker's leg clamp, you may tighten their kneebar control rather than escaping it"
       },
@@ -330,7 +330,7 @@
       {
         "action": "Sit up and establish grips on the attacker's body during the transition window",
         "when_to_use": "During the grip change when the attacker releases your foot and before they complete the hip switch",
-        "targets_outcome": "Estima Lock/Top",
+        "targets_outcome": "Estima Lock Control/Top",
         "if_successful": "Your grips on the attacker's gi or body slow the transition and allow you to pull your leg free or re-enter a less dangerous position",
         "risk": "If the attacker completes the hip switch despite your grips, you may be in a seated position with a completed kneebar, making the tap more urgent"
       }
@@ -341,7 +341,7 @@
         "how": "Post your free leg on the attacker's hip immediately when you feel the foot grip release, push forcefully to create distance, and extract your trapped leg before the attacker can establish thigh control. Follow with guard recovery to open guard."
       },
       {
-        "outcome": "Estima Lock/Top",
+        "outcome": "Estima Lock Control/Top",
         "how": "Bend your knee aggressively and rotate toward the attacker during the hip switch to prevent hyperextension angle establishment. The attacker may revert to Estima Lock control, which is a less immediately dangerous position than completed kneebar control."
       }
     ],

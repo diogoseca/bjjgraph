@@ -148,6 +148,8 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turn to Turtle from Knee on Belly?</p>
+
 - Bottom player loads weight onto their far hip and begins rotating their hips away from you, shifting their center of gravity
 - Bottom player places forearm frame against your hip bone, creating a wedge designed to block your follow
 - Bottom player looks away from you toward the far side, indicating directional commitment to the turn
@@ -160,6 +162,8 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turn to Turtle from Knee on Belly?</p>
 
 - Anticipate the turn by reading hip loading, frame placement on your hip, and the opponent's head direction
 - Maintain near-side hip control to prevent the initial rotation from gaining momentum
@@ -174,6 +178,8 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turn to Turtle from Knee on Belly?</p>
 
 ### 1. Drive knee pressure deeper and crossface to pin head, preventing rotation
 
@@ -204,6 +210,8 @@ When your opponent attempts to turn away from Knee on Belly toward turtle, you f
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turn to Turtle from Knee on Belly?</p>
+
 ### → [[Positions/Knee on Belly]]
 
 Prevent the turn by maintaining strong crossface pressure and controlling the near-side hip. When you feel the bottom player loading their hip for rotation, drive your knee pressure deeper into their solar plexus and use your far-side grip to block hip rotation before it can generate momentum.
@@ -219,6 +227,8 @@ Allow the turn to initiate, then follow the rotation with your chest glued to th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turn to Turtle from Knee on Belly?</p>
 
 ### 1. Reacting too late to the turning motion and losing chest-to-back contact
 
@@ -248,6 +258,8 @@ Allow the turn to initiate, then follow the rotation with your chest glued to th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turn to Turtle from Knee on Belly?</p>
+
 **Recognition Phase** - Reading escape cues
 Partner attempts turns from KOB at half speed. Top player practices identifying the key indicators — hip loading, frame placement, and head direction — and verbally calling them out before choosing a response. Build pattern recognition speed before adding physical counters.
 
@@ -264,26 +276,6 @@ Live positional rounds starting from Knee on Belly. Top player must maintain pos
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest indicators that your opponent is about to turn away from your Knee on Belly?
-**A**: The earliest indicators include the bottom player loading weight onto their far hip, placing a forearm frame against your hip bone as a blocking wedge, and looking away from you toward the direction of their intended turn. You may also feel their near shoulder drop toward the mat as they prepare to use it as a rotation pivot. Recognizing these cues before the turn begins gives you the critical window needed to choose and execute the optimal counter response.
-
-**Q2**: When should you choose to stuff the turn versus following it to back control?
-**A**: Stuff the turn when you detect it early enough to prevent the initial rotation — meaning the opponent has not yet begun hip movement and you can increase knee pressure and crossface to pin them flat. Follow the turn when the rotation has already begun and the opponent has committed their hips to the movement. The critical decision point is approximately 30-45 degrees of rotation. Before this threshold, stuffing is viable and efficient. After this point, following for back control is significantly more effective than fighting against committed momentum.
-
-**Q3**: Your opponent successfully turns to turtle and you have followed with chest pressure — what is your immediate attack sequence?
-**A**: First, establish seatbelt grip with your choking arm over their shoulder and your other arm under their armpit, hands clasped together. Second, begin inserting your bottom hook by threading your foot inside their near-side thigh while maintaining heavy shoulder pressure. Third, once the first hook is secure, work to insert the second hook while keeping constant chest-to-back contact. Throughout this sequence, be prepared to follow any granby roll or sit-out attempt by staying connected to their back with your body weight.
-
-**Q4**: How do you maintain or improve your position if the opponent's turn attempt fails?
-**A**: After successfully stuffing the turn, immediately re-center your knee on their solar plexus and re-establish your grips on collar and far-side pants. The failed turn attempt often leaves the opponent partially rotated with compromised defensive frames and depleted energy. Use this moment of disorientation to advance — transition to mount by sliding your knee across, or attack a submission on their exposed near arm. Re-settle your base leg wide before they can recover and attempt another escape.
-
-
-
-</section>
 
 
 </main>

@@ -105,11 +105,9 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 ### Available Transitions
 
 
-- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (18% of attempts)
+- **[[Transitions/Underhook Sweep from Half/Attacker|Underhook Sweep from Half]]** (19% of attempts)
 
 - **[[Transitions/Half Guard to Back Take/Attacker|Half Guard to Back Take]]** (12% of attempts)
-
-- **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** (10% of attempts)
 
 - **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** (8% of attempts)
 
@@ -119,7 +117,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Kimura Sweep/Attacker|Kimura Sweep]]** (5% of attempts)
 
-- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (5% of attempts)
+- **[[Transitions/Deep Half Entry from Half Guard/Attacker|Deep Half Entry from Half Guard]]** (16% of attempts)
 
 - **[[Transitions/Knee Torque Sweep/Attacker|Knee Torque Sweep]]** (5% of attempts)
 
@@ -138,8 +136,6 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 - **[[Transitions/Half Guard to Old School/Attacker|Half Guard to Old School]]** (2% of attempts)
 
 - **[[Positions/Buggy Choke/Attacker|Buggy Choke]]** (2% of attempts)
-
-- **[[Submissions/Kneebar from Half Guard/Attacker|Kneebar from Half Guard]]** (2% of attempts)
 
 
 ### Common Mistakes
@@ -214,7 +210,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 - **[[Transitions/Over-Under Pass/Attacker|Over-Under Pass]]** (4% of attempts)
 
-- **[[Transitions/Kimura/Attacker|Kimura]]** (3% of attempts)
+- **[[Transitions/Kimura from Half Guard/Attacker|Kimura from Half Guard]]** (3% of attempts)
 
 - **[[Transitions/Half Guard to Double Jump/Attacker|Half Guard to Double Jump]]** (3% of attempts)
 

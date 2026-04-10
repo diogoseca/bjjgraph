@@ -164,6 +164,8 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Position reversal sweep to top?</p>
+
 - Opponent begins aggressively fighting for inside leg position, pressing their shin or calf against the inside of your leg structure to gain the inside control angle
 - Opponent creates hip angle by shrimping to the outside rather than remaining flat—this angle is the mechanical prerequisite for explosive hip elevation
 - Opponent's hands shift from passive heel defense to active two-on-one grip fighting on your wrists, indicating they are preparing offensive action rather than simply surviving
@@ -175,6 +177,8 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Position reversal sweep to top?</p>
 
 - Maintain dominant inside position control at all times—this is the single most important factor preventing the sweep from being initiated
 - Keep hips heavy with constant downward pressure to deny the elevation component that powers the sweep mechanics
@@ -189,6 +193,8 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Position reversal sweep to top?</p>
 
 ### 1. Drop hips low and widen base immediately upon feeling opponent create hip angle or fight for inside position
 
@@ -226,6 +232,8 @@ The most effective defensive approach is proactive rather than reactive. Maintai
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Position reversal sweep to top?</p>
+
 ### → [[Positions/Ashi Garami/50-50 Guard]]
 
 Deny the sweep entirely by maintaining heavy hip pressure, inside position control, and wide base. Address sweep setup cues immediately upon recognition—drop hips, widen base, and re-establish downward pressure before opponent can build elevation momentum. The goal is to return to status quo where you maintain top control.
@@ -241,6 +249,8 @@ When opponent commits heavily to the sweep and creates space in the entanglement
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Position reversal sweep to top?</p>
 
 ### 1. Allowing opponent to establish inside position without contesting it
 
@@ -270,6 +280,8 @@ When opponent commits heavily to the sweep and creates space in the entanglement
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Position reversal sweep to top?</p>
+
 **Week 1-2** - Recognition drilling
 Partner slowly performs each sweep setup phase (inside position fight, hip angle creation, grip change, elevation) while you identify and verbally call out each cue. Practice recognizing the sequence without attempting defense yet—build pattern recognition first.
 
@@ -286,29 +298,6 @@ Defend the sweep in live rolling while maintaining your own offensive game plan 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the reversal sweep from bottom 50-50?
-**A**: The earliest cue is opponent fighting aggressively for inside leg position by pressing their shin or calf against the inside of your leg structure. This precedes all other sweep components—hip angle, grip fighting, and elevation. Addressing inside position recovery immediately prevents the entire sweep chain from developing. If they cannot establish inside control, the sweep has near-zero probability of success.
-
-**Q2**: Why is maintaining heavy hip pressure the most effective passive defense against this sweep?
-**A**: Heavy hip pressure directly denies the elevation component that provides the mechanical force for the sweep. The sweep requires the bottom player to lift your weight upward before rotating—without successful elevation, no rotation is possible. Constant downward hip pressure through your pelvis into their lower abdomen means they must generate enough force to lift your entire bodyweight, which is exponentially harder than lifting light hips. This makes elevation the highest-energy component for the attacker.
-
-**Q3**: Your opponent has established inside position and created hip angle—what is your defensive priority sequence?
-**A**: First, immediately drop your hips and widen your base to deny the elevation component even though they have inside position. Second, address the inside position by fighting your own leg back to inside control angle. Third, consider attacking their heel aggressively to force them back into defensive mode. Do not attempt all three simultaneously—the elevation denial is most urgent because once they elevate, the sweep becomes very difficult to stop regardless of other factors.
-
-**Q4**: When should you consider disengaging from 50-50 rather than defending the sweep in place?
-**A**: Disengage when opponent has established clear inside position advantage, created significant hip angle, and your defensive adjustments have failed to deny these conditions. At that point, the sweep probability is very high and continued resistance risks being swept to a worse position. Disengagement sacrifices your top offensive position but resets to neutral, which is better than being reversed to bottom 50-50 where you face the same heel hook threats you were previously applying.
-
-**Q5**: Your opponent begins elevating their hips while you are reaching for their heel—should you complete the heel attack or address the sweep?
-**A**: Address the sweep immediately by driving your hips back down and widening your base. An in-progress heel attack that has not secured control will not finish faster than the sweep completes. If you had strong heel control already established, the sweep would be unlikely—the fact that they are elevating means your heel attack is insufficiently developed. Prioritize position over a speculative submission attempt. You can always re-attack the heel once you have re-established stable top position.
-
-
-
-</section>
 
 
 </main>

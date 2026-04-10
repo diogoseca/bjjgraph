@@ -209,7 +209,7 @@ The Roll Through Escape is a critical survival technique within the 10th Planet 
 
 - [[Positions/Turtle]] - Intermediate position that may be reached during escape
 
-- [[Principles/Guard Recovery]] - Follow-up technique to establish guard after escape
+- [[Transitions/Scramble to Guard]] - Follow-up technique to establish guard after escape
 
 - [[Transitions/Defensive Roll]] - Related rolling escape mechanic used from back exposure positions
 

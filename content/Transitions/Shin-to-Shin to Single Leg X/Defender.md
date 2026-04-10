@@ -162,6 +162,8 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Shin-to-Shin to Single Leg X?</p>
+
 - Opponent's shin pressure intensifies with increased upward and lateral force through the connection point
 - Opponent adjusts hip angle toward your trapped leg, closing the distance needed for threading their inside leg
 - Opponent establishes or tightens upper body pulling grips on your sleeve, collar, or wrist to load your weight
@@ -174,6 +176,8 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Shin-to-Shin to Single Leg X?</p>
 
 - Recognize shin-to-shin entry setups early through increased shin pressure and opponent hip angle changes
 - Maintain base with weight distributed away from the trapped leg to reduce weight loading vulnerability
@@ -188,6 +192,8 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Shin-to-Shin to Single Leg X?</p>
 
 ### 1. Clear the shin connection by circling your trapped leg backward while controlling opponent's upper body to prevent re-establishment
 
@@ -225,6 +231,8 @@ Defending the Shin-to-Shin to Single Leg X-Guard entry requires recognizing the 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Shin-to-Shin to Single Leg X?</p>
+
 ### → [[Positions/Open Guard]]
 
 Clear the shin connection through systematic circling or backstep before the inside leg thread begins, then immediately advance into a passing sequence while the opponent is recovering from the disrupted entry attempt
@@ -240,6 +248,8 @@ Strip the opponent's pulling grips and apply controlled downward pressure to fla
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Shin-to-Shin to Single Leg X?</p>
 
 ### 1. Waiting until the inside leg thread is fully wrapped around the ankle before attempting to defend the entry
 
@@ -269,6 +279,8 @@ Strip the opponent's pulling grips and apply controlled downward pressure to fla
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Shin-to-Shin to Single Leg X?</p>
+
 **Phase 1: Recognition** - Identifying entry setup cues before threading begins
 Partner slowly demonstrates the SLX entry from shin-to-shin while you identify each recognition cue verbally before they complete the entry. Practice at 30% speed, progressively increasing to 60% while maintaining accurate identification of the entry window timing.
 
@@ -285,29 +297,6 @@ After successfully defending the SLX entry, immediately chain into a guard passi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate your opponent is setting up a Shin-to-Shin to Single Leg X entry?
-**A**: Watch for three converging signals: increased upward pressure through the shin connection that loads your weight onto the trapped leg, opponent adjusting their hip angle toward your trapped leg to close threading distance, and opponent tightening or establishing new pulling grips on your sleeve or collar. Any two of these three occurring simultaneously indicates imminent entry preparation.
-
-**Q2**: Your opponent has already begun threading their inside leg around your ankle—what is your highest-percentage defensive response at this stage?
-**A**: At this late stage, immediately push their threading knee laterally away from your ankle using your hand while simultaneously stepping your trapped leg backward in a circular motion. This combination disrupts the wrap angle and creates space for extraction. If the wrap is already secured, drop your weight and address the bottom hook first by pushing their knee to the mat before attempting to extract your leg.
-
-**Q3**: How should your weight distribution differ when you recognize the opponent is preparing the SLX entry versus normal shin-to-shin engagement?
-**A**: In normal shin-to-shin engagement, your weight can be relatively centered for passing purposes. When you recognize entry preparation, immediately shift weight toward your free leg and lighten the trapped leg, making it mobile and ready to retract or circle. This weight shift removes the biomechanical condition the opponent needs—committed weight on the trapped leg—and gives you the mobility to clear before the thread completes.
-
-**Q4**: What is the relationship between your upper body grip control and the opponent's ability to successfully complete this transition?
-**A**: Your opponent's upper body grips serve as pulling anchors that commit your weight over the trapped leg. Without these grips, the shin connection alone generates insufficient weight loading for a reliable entry. Stripping their sleeve or collar grip is often more effective than directly clearing the shin because it addresses the root cause of the weight commitment rather than just the symptom.
-
-**Q5**: After successfully defending an SLX entry attempt, what should your immediate tactical objective be?
-**A**: Immediately transition from defense to offense by capitalizing on the disrupted entry. Your opponent is momentarily out of position from the failed threading attempt, creating a window for passing. Advance into a knee slice, toreando, or leg drag before they can re-establish shin-to-shin guard structure. The worst outcome is allowing them to reset to shin-to-shin and attempt the entry again from an improved angle.
-
-
-
-</section>
 
 
 </main>

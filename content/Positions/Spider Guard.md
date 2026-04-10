@@ -104,6 +104,8 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 - **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** (30% of attempts)
 
+- **[[Transitions/Spider Guard to Omoplata/Attacker|Spider Guard to Omoplata]]** (11% of attempts)
+
 - **[[Transitions/Omoplata Sweep/Attacker|Omoplata Sweep]]** (9% of attempts)
 
 - **[[Transitions/Balloon Sweep/Attacker|Balloon Sweep]]** (9% of attempts)
@@ -112,23 +114,17 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 - **[[Transitions/De La Riva Sweep/Attacker|De La Riva Sweep]]** (8% of attempts)
 
-- **[[Transitions/Spider Guard to Omoplata/Attacker|Spider Guard to Omoplata]]** (9% of attempts)
-
 - **[[Transitions/Pendulum Sweep/Attacker|Pendulum Sweep]]** (7% of attempts)
 
-- **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** (6% of attempts)
+- **[[Transitions/Armbar Setup from Double Sleeve/Attacker|Armbar Setup from Double Sleeve]]** (6% of attempts)
 
 - **[[Transitions/Guard Recovery from Spider Guard/Attacker|Guard Recovery from Spider Guard]]** (6% of attempts)
+
+- **[[Transitions/Triangle from Spider Guard/Attacker|Triangle from Spider Guard]]** (3% of attempts)
 
 - **[[Transitions/Spider Sweep/Attacker|Spider Sweep]]** (2% of attempts)
 
 - **[[Transitions/Spider to Lasso Guard/Attacker|Spider to Lasso Guard]]** (1% of attempts)
-
-- **[[Transitions/Triangle from Spider Guard/Attacker|Triangle from Spider Guard]]** (1% of attempts)
-
-- **[[Submissions/Omoplata from Spider Guard/Attacker|Omoplata from Spider Guard]]** (2% of attempts)
-
-- **[[Submissions/Triangle from Spider Guard Bottom/Attacker|Triangle from Spider Guard Bottom]]** (2% of attempts)
 
 
 ### Common Mistakes

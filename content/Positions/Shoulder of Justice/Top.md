@@ -20,38 +20,38 @@ description: "Master Shoulder of Justice Top in BJJ. Complete offensive guide wi
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Americana from Shoulder of Justice",
+      "text": "From this position, attempt Americana from Shoulder of Justice. This technique is attempted in 12% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 12% of exchanges from this position.",
-      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
       "text": "From this position, attempt Side Control to Mount. This technique is attempted in 13% of exchanges from this position.",
-      "position": 3
+      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to North-South",
       "text": "From this position, attempt Side Control to North-South. This technique is attempted in 13% of exchanges from this position.",
+      "position": 3
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Arm Triangle from Shoulder of Justice",
+      "text": "From this position, attempt Arm Triangle from Shoulder of Justice. This technique is attempted in 11% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute North-South Choke from Shoulder of Justice",
+      "text": "From this position, attempt North-South Choke from Shoulder of Justice. This technique is attempted in 10% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute North-South Choke",
-      "text": "From this position, attempt North-South Choke. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 13% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -167,6 +167,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Position Definition
 
+<p class="section-subtitle">What is Shoulder of Justice (Top)?</p>
+
 - Your shoulder driven deeply into opponent's jaw/chin area with sustained pressure directed at an angle toward their far shoulder, creating significant discomfort and limiting head rotation completely
 - Your chest positioned perpendicular to opponent's torso with weight distributed efficiently through shoulder blade and connected hips, pinning their near shoulder flat to the mat
 - Your hips low and heavy, connected directly to opponent's near hip line, preventing shrimping movements while maintaining the pressure vector from your center of mass through your shoulder
@@ -179,6 +181,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Shoulder of Justice (Top)?</p>
 
 - Successful establishment of side control from guard pass, scramble, or transition
 - Opponent positioned flat on back with chest facing upward
@@ -193,6 +197,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Shoulder of Justice?</p>
 
 - Drive shoulder blade deep into jaw line at 45-degree angle toward opponent's far shoulder rather than straight down
 - Maintain low, heavy hips connected to opponent's near hip throughout all movements and pressure application
@@ -209,9 +215,11 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Shoulder of Justice (Top)?</p>
+
 **If opponent attempts to create frames or push away with near-side arm to relieve pressure:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 72%)
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 67%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 72%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 67%)
 
 
 **If opponent shrimps away or attempts to recover guard by creating distance:**
@@ -231,7 +239,7 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 **If opponent flattens out completely and stops resisting to conserve energy:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 80%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 68%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 68%)
 
 
 
@@ -241,6 +249,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Shoulder of Justice?</p>
 
 ### 1. Applying shoulder pressure with upper body only without connecting hips to opponent's hip line
 
@@ -290,6 +300,8 @@ The Shoulder of Justice Top is characterized by driving your shoulder blade deep
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Shoulder of Justice attacks?</p>
+
 ### Shoulder Pressure Maintenance Drill
 
 Partner starts flat on back in bottom position. Establish Shoulder of Justice Top and maintain maximum shoulder pressure for 2-minute rounds while opponent uses only defensive breathing and minor positional adjustments without active escape attempts. Focus on sustainable pressure mechanics, efficient weight distribution, and maintaining base stability throughout. Switch roles each round.
@@ -304,7 +316,7 @@ From established Shoulder of Justice Top position, bottom partner makes one of f
 **Duration**: 10 minutes continuous switching
 
 
-### Dynamic Pressure Application Under Movement
+### Dynamic Pressure Under Movement
 
 Top player maintains Shoulder of Justice Top position while bottom partner attempts progressive escape sequences from passive to active resistance. Top player must maintain shoulder pressure throughout all opponent movements, continuously adjusting shoulder angle, base positioning, and hip connection. Reset when control is lost. Progress resistance from 25% to 75% over the drill duration.
 
@@ -329,38 +341,6 @@ Partner in bottom position actively moves their head to different defensive posi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal angle for driving shoulder pressure into the opponent's jaw?
-**A**: The optimal angle is approximately 45 degrees toward the opponent's far shoulder, not straight down. This angle creates a pressure vector that travels through their cervical spine, limits head rotation completely, and makes it biomechanically impossible for them to turn their head back toward you. Straight-down pressure allows them to turn away and begin escape sequences.
-
-**Q2**: Your opponent starts bridging explosively - what adjustment do you make to maintain the position?
-**A**: When opponent bridges, you should base out with your far knee posted even wider for stability, drop your hips heavier onto their near hip line, and wait for the bridge to exhaust itself. Do not fight the bridge directly - instead, ride it out while maintaining your shoulder pressure angle. As they return to the mat, immediately re-consolidate your pressure and look for submission opportunities created by their energy expenditure.
-
-**Q3**: Why must your hips stay connected to the opponent's near hip line throughout the position?
-**A**: Connected hips serve multiple critical functions: they prevent shrimping movements by blocking the primary escape vector, they transfer your body weight efficiently through your center of mass into the shoulder pressure point, and they create unified body pressure rather than isolated upper body pressure. When hips disconnect or rise, opponent can shrimp underneath and begin guard recovery.
-
-**Q4**: What are the essential grip priorities when establishing Shoulder of Justice Top?
-**A**: Primary priority is controlling or trapping the opponent's near-side arm to prevent defensive frames. Secondary is maintaining crossface control or head position. Tertiary is controlling the far arm if it becomes active. The near arm is most critical because extending it for relief immediately exposes high-percentage kimura attacks, making it the cornerstone of your submission dilemma system.
-
-**Q5**: How do you maintain shoulder pressure when opponent repositions their head defensively?
-**A**: Continuously adjust your shoulder blade angle and pressure direction based on their head position. Think of your shoulder as tracking their jaw - wherever they move their head, your shoulder follows and re-establishes the 45-degree angle toward their far shoulder. Use micro-adjustments of chest position and hip angle to maintain constant pressure without major positional changes that could create escape opportunities.
-
-**Q6**: Your opponent attempts to shrimp away - what is the appropriate counter transition?
-**A**: When opponent shrimps away, immediately transition to mount by stepping your near leg over their body, or advance to knee-on-belly if they create significant space. Their shrimping movement exposes their far side for these transitions. Alternatively, if they shrimp toward you, transition to north-south by spinning around their head while maintaining pressure. The key is capitalizing on their movement rather than simply trying to maintain the original position.
-
-**Q7**: What common error causes rapid fatigue when applying shoulder pressure?
-**A**: Using only shoulder and neck muscles to generate pressure without engaging full body weight and core causes rapid fatigue. The correction is to drive pressure through your center of mass - engage core, hips, and legs to transfer your body weight efficiently through the shoulder point of contact. Proper mechanics allow sustained pressure with minimal energy expenditure, while muscular pressing exhausts you quickly.
-
-**Q8**: How do you recover if opponent partially escapes and establishes a frame?
-**A**: First, re-establish hip connection by dropping your hips back to their hip line. Then systematically collapse their frame using your body weight rather than arm strength - walk your pressure into their frame until it fails. If the frame is elbow-to-knee connected, you may need to switch to north-south or knee-on-belly to attack from a different angle. Never try to maintain Shoulder of Justice against an established structural frame.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -388,8 +368,8 @@ Partner in bottom position actively moves their head to different defensive posi
 - **[[Positions/North-South]]** - Common transition target from pressure-induced turning reactions
 - **[[Positions/Kimura Trap]]** - Primary submission control when opponent frames with near arm
 - **[[Positions/Mount]]** - Position advancement target when opponent turns or shrimps away
-- **[[Transitions/Kimura]]** - Primary offensive technique - highest percentage submission from this position
-- **[[Transitions/Americana]]** - Secondary submission option when near arm is isolated and trapped
+- **[[Submissions/Kimura]]** - Primary offensive technique - highest percentage submission from this position
+- **[[Submissions/Americana]]** - Secondary submission option when near arm is isolated and trapped
 
 
 </section>

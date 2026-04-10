@@ -175,6 +175,8 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 ## Position Definition
 
+<p class="section-subtitle">What is New York Control (Top)?</p>
+
 - Top practitioner must prevent bottom player from achieving triangle lock by maintaining defensive arm positioning with elbows tight to body and hands protecting neck, avoiding arm extension or posting that allows leg positioning around neck and arm for triangle configuration
 - Top practitioner maintains low base with hips close to mat and weight distributed to prevent being swept, while simultaneously avoiding forward pressure that increases omoplata and gogoplata danger by driving opponent's leg deeper across back and shoulder
 - Top practitioner protects trapped arm from overhook by keeping elbow connection to ribs and preventing bottom player from establishing deep control that allows shoulder manipulation, back exposure, or submission setups requiring arm isolation and extension
@@ -185,6 +187,8 @@ Competition preparation requires specific drilling of New York defensive protoco
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing New York Control (Top)?</p>
 
 - Understanding that forward pressure increases submission danger in New York Control
 - Recognition that standard passing mechanics fail against proper rubber guard structure
@@ -198,6 +202,8 @@ Competition preparation requires specific drilling of New York defensive protoco
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from New York Control?</p>
 
 - Overhook escape must occur before leg extraction attempts - reversed priority leads to submission
 - Forward pressure plays into bottom player's submission chains - lateral movement provides safer escape
@@ -213,6 +219,8 @@ Competition preparation requires specific drilling of New York defensive protoco
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from New York Control (Top)?</p>
 
 **If overhook control remains deep and leg pressure maintains posture restriction:**
 - Execute **[[Transitions/Overhook Escape/Attacker|Overhook Escape]]** → [[Positions/Open Guard]] (Probability: 50%)
@@ -236,6 +244,8 @@ Competition preparation requires specific drilling of New York defensive protoco
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from New York Control?</p>
 
 ### 1. Driving forward with pressure attempting to establish dominant position
 
@@ -270,6 +280,8 @@ Competition preparation requires specific drilling of New York defensive protoco
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train New York Control attacks?</p>
+
 ### Overhook Escape Repetition
 
 From established New York Control, practice systematic overhook extraction using angle creation and pressure direction. Partner maintains moderate resistance while allowing successful escape for technical development.
@@ -295,38 +307,6 @@ Begin in New York Control with top player working to escape or pass while bottom
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct priority sequence when escaping New York Control from top?
-**A**: The overhook must be escaped before attempting to remove the leg control. Attempting to extract the leg while the overhook remains engaged leaves your arm trapped and allows the bottom player to transition between gogoplata, triangle, and omoplata threats freely. Only after the overhook is compromised can you safely address the leg control without exposing yourself to chain submissions.
-
-**Q2**: Why does driving forward with pressure increase submission danger in New York Control?
-**A**: Forward pressure drives the opponent's controlling leg deeper across your back and shoulder, tightening their structure and improving their angle for gogoplata and triangle submissions. It also loads your weight forward, making sweeps easier. Lateral movement and base widening provide safer escape vectors that don't feed into their submission chains.
-
-**Q3**: Your opponent begins to shoot their shin across your neck for a gogoplata - what immediate defensive adjustment should you make?
-**A**: Immediately tuck your chin firmly to your chest while simultaneously driving your head toward the mat on the side away from the incoming shin. Keep elbows tight to prevent arm isolation for triangle backup. If possible, stand up explosively to create distance and eliminate the angle, or stack their hips to reduce the shin pressure across your throat.
-
-**Q4**: How should you distribute your weight when stuck in New York Control from top?
-**A**: Maintain a wide, low base with weight distributed laterally rather than forward. Keep hips close to the mat and spread knees wide for stability against sweeps. Avoid loading weight forward into the opponent, as this feeds their submission chains. Weight should feel centered over your knees with the ability to shift laterally quickly for escape attempts.
-
-**Q5**: What makes standard posture recovery ineffective against New York Control?
-**A**: The leg wrapped over your shoulder and across your back mechanically prevents vertical posture establishment. Attempting to straighten up only tightens their leg control and often drives your trapped arm deeper into their overhook. Instead, use circular base distribution and lateral movement to reduce leg effectiveness before any vertical posture attempts.
-
-**Q6**: Your opponent adjusts their overhook grip - what window does this create for escape?
-**A**: Grip adjustments temporarily reduce overhook control depth and pulling pressure. This creates a brief window for arm extraction. Immediately rotate your shoulder forward and pull your elbow toward your hip while their grip is compromised. Time your extraction to coincide with their grip transition, then establish defensive hand positioning before they can re-engage the overhook.
-
-**Q7**: How do you prevent the bottom player from transitioning to triangle when defending their overhook?
-**A**: Keep elbows pinned tightly to your ribs with hands protecting your neck at all times. Never extend your arms to post or push away, as extended arms provide the isolation needed for triangle setup. When escaping the overhook, rotate your shoulder while keeping the elbow connected to your body, denying the space needed for leg entry around your neck.
-
-**Q8**: What is the relationship between base widening and successful New York Control defense?
-**A**: Base widening spreads your weight across a larger area, making sweeps mechanically more difficult while providing stability for systematic escape attempts. It also lowers your center of gravity, reducing the effectiveness of the opponent's leg pressure. Wide base combined with low hips creates the defensive platform needed to execute patient overhook escape without being swept during the process.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

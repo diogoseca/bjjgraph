@@ -162,6 +162,8 @@ As the deep half guard bottom player, the backstep represents one of the most da
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Backstep from Deep Half?</p>
+
 - Top player posts their free hand firmly on the mat beside or beyond your body, creating a wider base than normal deep half defense requires
 - Weight shifts from forward downward pressure to lateral loading onto the posted hand, creating a noticeable lightening of the free leg on the mat
 - Top player's crossface pressure suddenly intensifies as they anchor their upper body before initiating the stepping motion
@@ -173,6 +175,8 @@ As the deep half guard bottom player, the backstep represents one of the most da
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Backstep from Deep Half?</p>
 
 - Develop sensitivity to the weight shift patterns that precede a backstep attempt, particularly the posting hand placement and unweighting of the free leg
 - Maintain awareness of your back exposure at all times while playing deep half guard, recognizing that deep positioning creates vulnerability to rear attacks
@@ -187,6 +191,8 @@ As the deep half guard bottom player, the backstep represents one of the most da
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Backstep from Deep Half?</p>
 
 ### 1. Follow the rotation by hip-escaping in the same direction as the backstep, turning to face the passer and reguarding
 
@@ -224,6 +230,8 @@ As the deep half guard bottom player, the backstep represents one of the most da
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Backstep from Deep Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a bridge or leg hook during the weight shift phase of the backstep. The top player's commitment to swinging their leg creates a brief window where their base is compromised on the posting hand. Use this window to sweep by driving into their momentum direction, or hook their stepping leg to prevent the rotation from completing and establish half guard entanglement.
@@ -239,6 +247,8 @@ Follow the rotation with your hips immediately when you feel the weight shift, k
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Backstep from Deep Half?</p>
 
 ### 1. Failing to recognize backstep cues and remaining committed to forward-facing sweep mechanics while the top player rotates behind
 
@@ -268,6 +278,8 @@ Follow the rotation with your hips immediately when you feel the weight shift, k
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Backstep from Deep Half?</p>
+
 **Phase 1: Recognition Drilling** - Identifying backstep setup cues through feel
 Partner alternates between standard deep half top pressure adjustments and backstep setup motions (posting hand, weight shift, leg lift) without completing the step. Bottom player calls out when they detect backstep setup versus normal movement. Develop sensitivity to the specific pressure changes that precede backstep attempts. 20 repetitions per round.
 
@@ -284,29 +296,6 @@ Positional sparring starting from deep half guard bottom with full resistance. T
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate a backstep attempt from deep half guard top?
-**A**: The earliest cues are the top player posting their free hand firmly on the mat beyond your body and a noticeable weight shift from forward downward pressure to lateral loading onto that posted hand. You may also feel the free leg lighten on the mat as they prepare to lift it. These preparatory movements occur before the actual stepping motion and provide your best window for defensive reaction.
-
-**Q2**: If you recognize the backstep too late and your opponent has already stepped over, what is your best defensive option?
-**A**: If the step has already cleared your body, immediately turtle by pulling your knees to your chest and getting to all fours before they can establish hooks. Turtle is a significantly better defensive position than being flat on your back with an opponent landing on your back. From turtle, you have established defensive sequences for preventing hook insertion and recovering guard. Do not remain flat as this guarantees full back control.
-
-**Q3**: How does your underhook grip management change when you suspect a backstep rather than a forward pass attempt?
-**A**: When you suspect a backstep, your underhook should grip tighter and pull the trapped leg closer to your chest rather than using it as a sweep lever. This increased tension makes it harder for the top player to rotate freely because their trapped leg acts as an anchor keeping them connected to your front-facing position. Additionally, use your free hand to monitor their far hip rather than preparing sweep grips, as the hip contact provides early warning of rotational movement.
-
-**Q4**: What positioning adjustment makes you most resistant to backstep attempts while maintaining deep half guard?
-**A**: Keeping your hips angled toward the top player rather than perpendicular to them makes you most resistant to backsteps. When your hips face the top player, any backstep rotation forces them to travel a longer arc to reach your back, giving you more time to follow. Additionally, maintaining your free hand as a frame on their far hip rather than reaching for sweep grips provides both early warning and physical resistance to rotational movement.
-
-**Q5**: Your opponent posts their hand and begins shifting weight for what appears to be a backstep - should you follow the rotation or bridge to sweep?
-**A**: The answer depends on timing. If you detect the weight shift early before the free leg lifts, bridge into the compromised base to attempt the sweep, as their weight commitment to the posted hand creates vulnerability. If the free leg has already begun lifting, following the rotation with your hips is safer because a late bridge may provide momentum that helps complete the backstep. The bridge is higher reward but requires earlier recognition, while following the rotation is the safer default response.
-
-
-
-</section>
 
 
 </main>

@@ -180,6 +180,8 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ringworm Guard Entry?</p>
+
 - Bottom player has worm guard established with lapel behind your knee and begins reaching for your posting arm or sleeve with their free hand
 - You feel the lapel fabric being redirected from solely around your leg upward toward your arm or bicep area while the bottom player adjusts their hip angle
 - Bottom player shifts from threatening worm guard sweeps to pulling your arm across their centerline, indicating they want to capture it for the ringworm configuration
@@ -191,6 +193,8 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ringworm Guard Entry?</p>
 
 - Prevent the second phase of configuration—address the arm capture attempt before it consolidates into full ringworm
 - Maintain strong posture and base to deny the bottom player the reactions they need to initiate the arm wrap
@@ -205,6 +209,8 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ringworm Guard Entry?</p>
 
 ### 1. Strip the lapel grip and recover posture before the arm wrap completes
 
@@ -249,6 +255,8 @@ When caught in a developing ringworm entry, the defender should prioritize addre
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ringworm Guard Entry?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Strip the lapel grip or recover posture before the arm wrap consolidates. Use both hands to peel the lapel fabric from your arm while maintaining heavy hip pressure. Alternatively, stand up to change the angle and reduce the effectiveness of the lapel tension. The goal is to reduce the configuration back to basic worm guard or reset entirely.
@@ -264,6 +272,8 @@ Execute a backstep around the leg entanglement, using the rotation to clear the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ringworm Guard Entry?</p>
 
 ### 1. Ignoring the arm capture attempt and continuing to base with the posting hand exposed
 
@@ -298,6 +308,8 @@ Execute a backstep around the leg entanglement, using the rotation to clear the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ringworm Guard Entry?</p>
+
 **Week 1-2** - Recognition and early prevention
 Partner establishes worm guard and slowly transitions toward ringworm. Practice identifying the moment the arm capture begins and immediately retracting the posting arm. No live resistance—focus purely on reading the cues and developing the prevention reflex before the configuration completes.
 
@@ -314,32 +326,6 @@ Positional sparring starting from worm guard with partner actively working towar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive window when facing Ringworm Guard Entry?
-**A**: The most critical defensive window is during the transition from worm guard to ringworm—specifically when the bottom player begins redirecting the lapel from your leg toward your arm. Once both control points are established, escape difficulty increases dramatically. Acting during this configuration window before the arm wrap consolidates is exponentially easier than escaping the completed position.
-
-**Q2**: Your opponent has worm guard and reaches for your posting arm—what is your immediate response?
-**A**: Immediately retract your posting arm, tucking your elbow tight to your body and establishing a collar grip instead of posting on the mat. This denies the arm capture that converts basic worm guard into the far more dangerous ringworm configuration. Accept the temporary reduction in base to prevent the dual entanglement.
-
-**Q3**: Why is explosive movement particularly dangerous when caught in a developing ringworm configuration?
-**A**: The lapel wrap acts as a lever that converts explosive energy into sweeping momentum. Sudden jerking or pulling movements are redirected through the fabric into off-balancing forces that the bottom player can exploit for sweeps. Controlled, methodical movement preserves your base and prevents your own energy from being weaponized against you through the configuration.
-
-**Q4**: What visual and tactile cues indicate your opponent is transitioning from worm guard to ringworm?
-**A**: You will feel the lapel fabric being redirected upward from your leg toward your arm or bicep area. Visually, the bottom player shifts their free hand from threatening sweeps to reaching for your sleeve or wrist. Their hip angle changes as they adjust position to thread the lapel around your arm. The lapel tension on your leg may momentarily decrease as they reroute the fabric.
-
-**Q5**: Your opponent has completed the ringworm configuration with both leg and arm trapped—what is your best escape strategy?
-**A**: Identify which control point is weaker and address it first. Typically the arm wrap is newer and less consolidated than the leg entanglement. Work to strip the arm portion using both hands while maintaining heavy hip pressure to prevent sweep loading. If the arm wrap is too deep, backstep around the leg entanglement while keeping shoulders square to prevent back exposure. Accept half guard as a favorable outcome rather than fighting for full reset.
-
-**Q6**: How does your weight distribution need to change when defending against ringworm entry compared to standard worm guard?
-**A**: Against standard worm guard, you can distribute weight forward to pressure and work extraction. Against developing ringworm, you must keep weight slightly back and centered to avoid committing forward momentum that feeds into sweep mechanics. Keep your center of gravity over your free leg rather than the trapped leg, and avoid leaning into the arm capture side where your weight aids the bottom player's configuration.
-
-
-
-</section>
 
 
 </main>

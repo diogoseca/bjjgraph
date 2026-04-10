@@ -166,6 +166,8 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Twister Entry?</p>
+
 - Attacker's near-side knee walks behind your hip line while maintaining cross body pressure, positioning their leg for the threading angle between your thighs
 - Attacker's chest pressure shifts from purely downward to include forward hip drive into your lower back, indicating they are loading their hips to power the hook insertion
 - You feel the attacker's instep or shin making contact with the inside of your near-side thigh from behind, signaling the hook threading has begun
@@ -177,6 +179,8 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Twister Entry?</p>
 
 - Clamp knees together as the primary physical barrier against hook threading — the attacker cannot enter if there is no gap between your thighs
 - Maintain active turtle structure with elbows tight and chin tucked rather than flattening, which exposes the thigh gap the attacker needs for hook insertion
@@ -190,6 +194,8 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Twister Entry?</p>
 
 ### 1. Clamp knees together and drive hips backward away from the attacker's threading leg while maintaining tight turtle posture
 
@@ -227,6 +233,8 @@ If the hook does thread and the figure-four begins to lock, the defender's prior
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Twister Entry?</p>
+
 ### → [[Positions/Cross Body Ride]]
 
 Prevent the hook from threading by clamping knees together early and maintaining tight turtle structure. If the initial hook enters but the figure-four is not yet locked, use explosive leg straightening to eject the single hook before it anchors. Combine knee clamping with backward hip drive to deny the attacker the threading angle they need. Success here returns the exchange to standard cross body ride where you have more defensive options available.
@@ -242,6 +250,8 @@ Execute an explosive sit-through toward the attacker's legs as soon as you recog
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Twister Entry?</p>
 
 ### 1. Flattening the hips to the mat in response to cross body pressure, which spreads the knees and creates the exact thigh gap the attacker needs for hook insertion
 
@@ -271,6 +281,8 @@ Execute an explosive sit-through toward the attacker's legs as soon as you recog
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Twister Entry?</p>
+
 **Week 1-2** - Recognition and knee clamping defense
 Partner establishes cross body ride and slowly initiates Twister entry attempts at twenty percent speed. Practice identifying the recognition cues — near-side knee walking behind your hip, forward hip drive, instep contact between thighs. Focus on immediate knee clamping response and maintaining active turtle structure. Drill thirty repetitions per session emphasizing the speed of defensive reaction from the first cue. Partner provides verbal feedback on how effectively the knee clamp blocks their entry.
 
@@ -287,29 +299,6 @@ Incorporate Twister defense into live rolling whenever you find yourself in turt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your first defensive priority when you recognize the attacker is positioning for a Twister entry from cross body ride?
-**A**: Your first priority is clamping your knees together tightly to eliminate the thigh gap the attacker needs for hook threading. This physical barrier prevents the initial hook from penetrating between your legs. Simultaneously maintain active turtle structure with your hips up and elbows tight rather than flattening, which would spread your knees and create the exact opening the attacker is seeking. Address the leg defense before worrying about the seatbelt grip, because the hook threading is the critical action that advances the attacker's position.
-
-**Q2**: The attacker's hook has threaded between your thighs but the figure-four is not yet locked — what is your escape window?
-**A**: You have a brief two to four second window before the figure-four locks where a single hook can still be cleared. Straighten your near-side leg forcefully using hip extension to push the attacker's shin out from between your thighs. Simultaneously clamp your far-side knee down to prevent the attacker's second leg from completing the figure-four. If straightening fails, immediately execute a sit-through to turn and face the attacker, using the rotational momentum to dislodge the partially-set hook before it anchors. Speed is critical because once the figure-four locks, extraction requires fundamentally different and lower-percentage techniques.
-
-**Q3**: Why is bridging explosively a dangerous response when the figure-four is locked and your spine is rotated?
-**A**: When the figure-four is locked, it converts your explosive bridge force into additional spinal rotation rather than generating escape momentum. The bridge drives your hips upward but the figure-four redirects that force into twisting your lower body further away from your upper body, dramatically increasing the torque on your cervical and thoracic spine. This can cause disc herniation, ligament damage, or nerve compression. The correct response is to first reduce rotation by turning into the attacker to align your spine, then address the leg entanglement through controlled technical extraction rather than explosive movement.
-
-**Q4**: How do you distinguish between the attacker consolidating cross body ride versus initiating a Twister entry?
-**A**: During standard cross body ride consolidation, the attacker's pressure is predominantly downward through their chest with their legs providing base on the mat. When initiating a Twister entry, the attacker's near-side knee walks behind your hip line, their hip drive shifts forward into your lower back, and their chest pressure includes a forward loading component. You may feel their leg beginning to slide between your thighs from behind rather than remaining posted on the mat. The key distinguishing factor is the attacker's lower body becoming independently active while their upper body maintains pressure — this split between upper and lower body action signals the Twister entry has begun.
-
-**Q5**: When should you accept half guard recovery rather than continuing to fight the Twister entry from turtle?
-**A**: Accept half guard recovery as soon as the initial hook has anchored deep enough that your straightening defense fails to eject it. At this point, continuing to fight from turtle while the attacker works the figure-four completion puts you at increasing risk of the full Twister lockup. Executing an immediate sit-through to face the attacker and recover half guard removes you from the Twister system entirely and places you in a position with well-established offensive and defensive options. Half guard bottom against a former cross body rider is a dramatically better position than Twister Control bottom. Do not let positional pride about conceding turtle keep you in a deteriorating situation.
-
-
-
-</section>
 
 
 </main>

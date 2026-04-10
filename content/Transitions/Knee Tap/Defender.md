@@ -162,13 +162,15 @@ description: "How to defend against Knee Tap in BJJ. Recognition cues, defensive
 
 Defending the knee tap requires understanding the attacker's mechanical objectives and disrupting them before the technique develops full momentum. The knee tap relies on a coordinated upper-body pull combined with a lower-body sweep, meaning your defense must address both vectors simultaneously. The most dangerous phase is when the attacker has already established their collar tie and created angle - at this point, purely reactive defense has a low success rate. Effective knee tap defense therefore begins with proactive stance management, grip fighting to deny the collar tie, and weight distribution awareness that keeps your lead leg light enough to retract when threatened. When the attack does initiate, your defensive priority hierarchy is clear: first deny the knee grip by stepping the targeted leg back or circling away, second counter-attack their compromised posture with a front headlock or guillotine if their head drops too low, and third maintain your base through sprawling mechanics if the initial defenses fail. The defender who understands these layers can shut down the knee tap before it develops, or capitalize on the attacker's commitment to secure an advantageous counter position.
 
-**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Half Guard/Butterfly Half Guard]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Knee Tap?</p>
 
 - Opponent establishes collar tie and begins stepping to the outside of your lead leg, creating a lateral angle that signals they are positioning for the knee tap entry
 - Opponent's rear hand releases tricep or elbow control and drops toward your knee level while their collar tie hand increases downward pull pressure on your head
@@ -181,6 +183,8 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Tap?</p>
 
 - Maintain staggered stance with lead leg light enough to retract quickly when knee is threatened
 - Deny the collar tie through active hand fighting - without upper body control the knee tap cannot succeed
@@ -195,6 +199,8 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Tap?</p>
 
 ### 1. Step the targeted leg back and re-square your stance while posting your hand on their shoulder to create distance
 
@@ -232,6 +238,8 @@ Defending the knee tap requires understanding the attacker's mechanical objectiv
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Tap?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the knee grip through early recognition and stepping the targeted leg back while hand fighting to strip the collar tie. Re-square your stance immediately and reset the grip exchange. This is the highest-percentage defensive outcome because it stops the attack before it develops, requiring only awareness and footwork rather than athletic reactions.
@@ -247,6 +255,8 @@ When the attacker drops their head too low during the penetration step, capitali
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Tap?</p>
 
 ### 1. Standing square with weight evenly distributed on both legs and hips facing directly forward
 
@@ -281,6 +291,8 @@ When the attacker drops their head too low during the penetration step, capitali
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Tap?</p>
+
 **Week 1-2: Recognition and Awareness** - Identify knee tap setups before they develop
 Partner establishes collar tie and works angle creation at slow speed. Practice recognizing the setup cues: angle change, collar tie pressure increase, and weight pulling. Focus only on identifying what is happening without attempting defense. Build pattern recognition through repeated exposure at 30-50% speed.
 
@@ -297,32 +309,6 @@ Full speed standing rounds where partner actively hunts knee taps among other ta
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee tap is being set up, and what should your immediate response be?
-**A**: The earliest cue is your opponent stepping to the outside of your lead leg while maintaining collar tie control, creating a lateral angle. Your immediate response should be to circle your hips to re-square your stance, denying them the angle they need. Simultaneously, fight the collar tie by posting on their bicep or stripping the grip. If you neutralize the angle and the collar tie, the knee tap becomes mechanically impossible to execute with any success. Waiting until you see their hand drop toward your knee means you're already one step behind.
-
-**Q2**: Why is sprawling more effective than stepping backward when defending a committed knee tap?
-**A**: Stepping backward keeps your center of gravity at the same height, meaning the attacker can simply follow your step while maintaining the knee grip and still complete the see-saw motion. Sprawling drops your hips down and back, which fundamentally changes the angle of engagement - your knee drops below their grip point, removing the upward scooping leverage they need. Additionally, the sprawl drives your chest weight forward onto their upper back, potentially collapsing their attacking posture. Backward stepping only delays the attack; sprawling kills the mechanical advantage that makes the technique work.
-
-**Q3**: Your opponent has secured the collar tie and created angle - you feel their hand touch your knee. What is your defensive priority sequence?
-**A**: First, explosively sprawl your hips back and down to deny the scooping leverage on your knee. Second, simultaneously post your free hand on their far shoulder or drive a crossface to prevent them from following your hip movement. Third, circle your hips away from their angle to re-square your stance. If the sprawl successfully breaks their knee grip, immediately fight to strip the collar tie and return to neutral. If they maintain the knee grip despite your sprawl, transition to securing a front headlock by wrapping their head as their posture is compromised from the failed takedown attempt.
-
-**Q4**: When is it appropriate to counter the knee tap with a guillotine versus when should you focus purely on defensive sprawling?
-**A**: Counter with a guillotine only when the attacker's head drops below your chest line and comes inside your centerline during their penetration step - this head misposition is the prerequisite for any front headlock based counter. If their head stays tight to your ribs on the outside with proper posture, a guillotine counter will fail and you'll sacrifice your base chasing a submission that isn't there. In that case, focus on sprawling defense and grip fighting. The decision point is head position: head inside and low means counter opportunity, head outside and tight means pure defense.
-
-**Q5**: How does your weight distribution in standing stance directly affect your vulnerability to the knee tap?
-**A**: If your weight is committed forward onto your lead leg, the knee tap becomes much higher percentage because the targeted leg is load-bearing and cannot be quickly retracted. The attacker only needs to sweep a leg that's already supporting your mass. Conversely, keeping weight centered or slightly posterior means the lead leg is lighter, can be pulled away more quickly, and the attacker's sweep encounters less resistance. Additionally, forward weight commitment means the collar tie pull is more effective since you're already leaning in the direction they want to take you. A slight posterior bias forces the attacker to work harder to create the weight transfer they need before attacking.
-
-**Q6**: Your training partner consistently catches you with knee taps during standup - what systematic adjustments should you make to your standing game?
-**A**: First, audit your stance - you're likely standing too square or with too much weight forward, giving easy knee access. Adopt a more staggered stance with lead leg lighter. Second, prioritize collar tie denial in your grip fighting sequence - without the collar tie they cannot execute the coordinated pull needed for the knee tap. Third, develop awareness of their angle changes and drill circling to re-square immediately when they step outside. Fourth, practice your sprawl timing by having partners initiate knee taps at various speeds during positional rounds. Fifth, consider adding offensive pressure when you recognize the setup - a snap down or level change of your own disrupts their timing and turns defense into offense.
-
-
-
-</section>
 
 
 </main>

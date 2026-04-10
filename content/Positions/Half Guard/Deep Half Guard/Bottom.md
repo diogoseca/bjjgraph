@@ -38,8 +38,8 @@ description: "Master Deep Half Guard Bottom with powerful sweeps, back takes, an
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Electric Chair Submission",
-      "text": "From this position, attempt Electric Chair Submission. This technique is attempted in 6% of exchanges from this position.",
+      "name": "Execute Electric Chair",
+      "text": "From this position, attempt Electric Chair. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
@@ -169,6 +169,8 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Position Definition
 
+<p class="section-subtitle">What is Deep Half Guard (Bottom)?</p>
+
 - Bottom player's head positioned near opponent's far hip, creating a wedge point with the shoulder pressed against the opponent's inner thigh
 - Deep underhook of opponent's far leg with bottom player's arm wrapped around the thigh, controlling the leg close to the body
 - Bottom player's body inverted underneath opponent's hips with shoulders and upper back on the mat, legs positioned to create leverage
@@ -182,6 +184,8 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Deep Half Guard (Bottom)?</p>
+
 - Opponent's weight committed forward in top half guard or passing position
 - Bottom player able to create space to slide underneath opponent's hips
 - Deep underhook established on opponent's far leg before fully committing to position
@@ -194,6 +198,8 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Deep Half Guard?</p>
 
 - Maintain deep underhook of far leg at all times - this is the primary control mechanism
 - Keep head and shoulder wedged against opponent's inner thigh to disrupt their base
@@ -210,6 +216,8 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Deep Half Guard (Bottom)?</p>
+
 **If opponent drives weight forward with heavy crossface pressure:**
 - Execute **[[Transitions/Waiter Sweep/Attacker|Waiter Sweep]]** → [[Positions/Mount]] (Probability: 65%)
 - Execute **[[Transitions/Old School Sweep/Attacker|Old School Sweep]]** → [[Positions/Side Control]] (Probability: 60%)
@@ -221,7 +229,7 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 
 **If opponent whizzers far arm to prevent sweeps:**
-- Execute **[[Submissions/Electric Chair Submission/Attacker|Electric Chair Submission]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
+- Execute **[[Positions/Half Guard/Electric Chair/Attacker|Electric Chair]]** → [[Positions/Half Guard/Electric Chair]] (Probability: 50%)
 - Execute **[[Transitions/Deep Half Entry/Attacker|Deep Half Entry]]** → [[Positions/Back Control]] (Probability: 45%)
 
 
@@ -237,6 +245,8 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Deep Half Guard?</p>
 
 ### 1. Losing deep underhook of far leg by allowing opponent to pull leg back
 
@@ -271,6 +281,8 @@ Deep Half Guard Bottom requires excellent hip mobility, core strength, and timin
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Deep Half Guard defense?</p>
+
 ### Deep Half Entry Repetitions
 
 Partner starts in top half guard with forward pressure. Practice sliding underneath and establishing deep underhook, head position, and inverted body placement. Focus on smooth entry mechanics and maintaining tight underhook throughout.
@@ -296,38 +308,6 @@ Start in deep half guard bottom position. Bottom player works to sweep or take b
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent establishes strong crossface pressure and begins flattening you - what adjustment do you make?
-**A**: When getting flattened by crossface, immediately focus on maintaining your deep underhook grip as the priority. Use your free hand to frame against their hip or bicep to create space. Shrimp your hips away to create angle and relieve the pressure. If severely flattened, consider transitioning to lockdown to reestablish control, then work back toward proper deep half positioning once you've regained some space.
-
-**Q2**: What are the essential grips for maintaining deep half guard bottom position?
-**A**: The essential grips are: deep underhook around opponent's far thigh with your arm wrapped tightly and pulling the leg toward your chest, and your free hand controlling their near hip or pants to monitor their movement. Your head and shoulder wedged against their inner thigh serves as a critical contact point. The underhook is non-negotiable - if you lose it, you lose the position.
-
-**Q3**: How do you shut down your opponent's attempt to extract their trapped leg?
-**A**: To prevent leg extraction, constantly pull their far leg toward your chest with your underhook, keeping it tight to your body. Use your bottom leg hook around their far leg as secondary control. When they begin extraction attempts, elevate your hips to keep their weight loaded on you and maintain the mechanical advantage. Follow their leg movement with your body rather than letting them create separation.
-
-**Q4**: What grip priority should you focus on when first entering deep half guard?
-**A**: The deep underhook on opponent's far leg is the absolute priority grip when entering. Your shoulder should be against the inside of their thigh with your arm wrapped around and reaching toward their far hip or behind their knee. Without this underhook secured first, the position has no foundation. Secondary priority is positioning your head below their hip line to prevent shoulder pressure.
-
-**Q5**: How do you apply constant pressure on your opponent's base from deep half bottom?
-**A**: Apply pressure through continuous hip elevation and movement. Your hips should never be static - constantly make small elevation adjustments to test their balance. Pull their far leg toward you while pushing against their near hip with your free hand, creating opposing forces that destabilize them. Even small movements make it impossible for them to establish solid base for passing.
-
-**Q6**: Your opponent begins stepping over your bottom leg with their near leg - what is your immediate response?
-**A**: This step-over attempt actually opens up the rolling back take. As they step over, maintain your underhook and begin rolling underneath them in the same direction they're stepping. Use their step-over momentum to roll through and establish back control. Alternatively, if the back take angle isn't there, use your bottom leg to hook their stepping leg and prevent the step-over while resetting to standard deep half.
-
-**Q7**: How do you manage energy when playing deep half guard bottom for extended periods?
-**A**: Deep half bottom is relatively energy efficient because you're using leverage rather than strength. Keep your grips tight but don't over-squeeze - let your body position do the work. Make small frequent adjustments rather than explosive movements. Time your sweep attempts for when opponent shifts their weight, using their movement against them. If fatigued, focus on grip retention and position maintenance until an optimal sweep opportunity presents itself.
-
-**Q8**: Your opponent pulls their far leg back, breaking your underhook - how do you recover?
-**A**: If they break your underhook, immediately transition rather than trying to re-enter deep half. Follow their retreating leg into X-Guard or Single Leg X-Guard by hooking their leg with your feet. You can also immediately sit up and pursue a single leg takedown as they back away. The key is not to remain flat without control - either chase the leg into another guard or come up to attack.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

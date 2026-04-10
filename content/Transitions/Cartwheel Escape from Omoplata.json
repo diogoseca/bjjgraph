@@ -69,7 +69,7 @@
       "relationship": "Position reached by omoplata holder when countering the escape with a follow-through sweep"
     },
     {
-      "name": "Rolling Omoplata",
+      "name": "Rolling Omoplata from Omoplata Control",
       "relationship": "Counter technique where omoplata holder follows the roll momentum to maintain submission threat"
     },
     {
@@ -87,10 +87,6 @@
     {
       "name": "Back Control",
       "relationship": "Position the omoplata holder may reach by following escape momentum for a back take"
-    },
-    {
-      "name": "Scramble Position",
-      "relationship": "Transitional state that may occur during incomplete or contested cartwheel escape attempts"
     },
     {
       "name": "Triangle Control",
@@ -280,6 +276,14 @@
       {
         "question": "What grip adjustments should you make with the trapped arm during the forward roll?",
         "answer": "Pin the trapped arm tight against your body throughout the roll by internally rotating the shoulder and driving the elbow toward your hip. This prevents the arm from catching on the opponent's controlling leg during the rotation, which would re-establish the omoplata or create an armbar opportunity. The momentary looseness created by the forward roll provides a natural window to extract the arm, but only if the elbow stays compact against the ribs rather than flaring outward."
+      },
+      {
+        "question": "You complete the cartwheel escape and land in open guard top - what immediate offensive actions should you take to capitalize on the escape?",
+        "answer": "Immediately establish grips on the opponent's pants at the knees or ankles to control their legs and prevent them from establishing a strong open guard. Drive forward pressure into a guard passing sequence such as a toreando or leg drag pass, capitalizing on the opponent's momentary disorientation from the failed omoplata. The transition from escape to passing must be seamless because any pause allows them to reset grips, establish foot-on-hip frames, and recover a structured guard position. The cartwheel escape is most valuable when it directly chains into passing rather than resetting to a neutral guard engagement."
+      },
+      {
+        "question": "Your opponent hooks your far leg with their free leg as you prepare to initiate the forward roll - how do you adjust your escape approach?",
+        "answer": "The leg hook removes the base needed to generate forward rolling momentum and must be addressed before the cartwheel can proceed. Kick the hooked leg free by extending it forcefully while keeping your upper body loaded forward to maintain readiness for the roll. If the hook is too deep to clear with a single kick, abandon the cartwheel escape entirely and switch to alternative defenses. Drive your hips backward to relieve shoulder pressure and work toward posture recovery, or use the stack defense by driving forward weight onto the opponent to flatten them and reduce their leg control. Never attempt the roll with the far leg hooked as the incomplete momentum will stall the escape and leave you in a worse position."
       }
     ],
     "safety_considerations": "The cartwheel escape involves a forward roll that places significant stress on the trapped shoulder and cervical spine. Always tuck the chin firmly before initiating any forward movement to protect the neck from compression injuries. If shoulder mobility is limited due to existing injury or the omoplata pressure has already created significant pain, do not attempt the roll as the rotational forces during the escape can exacerbate shoulder damage. In training, communicate clearly with your partner and tap early if the shoulder pressure becomes excessive before attempting the escape. Start all drilling at slow speed to develop proper rolling mechanics before adding intensity. Practitioners with neck or shoulder injuries should consult with their instructor before training this technique."

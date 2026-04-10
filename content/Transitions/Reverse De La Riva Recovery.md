@@ -213,7 +213,7 @@ Within competition strategy, reliable RDLR recovery reduces the psychological pr
 
 - [[Transitions/Technical Stand-up]] - Alternative recovery strategy when bottom guard recovery is compromised
 
-- [[Principles/Guard Recovery]] - Broader guard retention concept that includes RDLR-specific recovery
+- [[Transitions/Re-Guard from Headquarters]] - Related guard recovery transition sharing hip escape and frame concepts for re-establishing guard from compromised positions
 
 - [[Positions/Butterfly Guard]] - Alternative guard position to transition to when RDLR hook is fully cleared
 

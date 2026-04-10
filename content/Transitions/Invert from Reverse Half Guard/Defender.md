@@ -154,6 +154,8 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Invert from Reverse Half Guard?</p>
+
 - Bottom player begins turning hips away from you and shifting weight onto their near shoulder, creating the initial rotation angle needed for the granby roll
 - Bottom player releases their half guard hook or loosens the leg entanglement, freeing their lower body for the rotation
 - Bottom player tucks their chin to their chest and draws their arms close to their body, assuming the compact shape required for efficient rotation
@@ -166,6 +168,8 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Invert from Reverse Half Guard?</p>
 
 - Maintain constant chest pressure directed toward opponent's far shoulder to eliminate the space needed for shoulder rotation initiation
 - Recognize early rotation cues—hip turning, shoulder shifting, frame posting—and immediately increase forward pressure to crush the attempt
@@ -180,6 +184,8 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Invert from Reverse Half Guard?</p>
 
 ### 1. Drive crossface pressure into bottom player's head to pin their shoulders flat against the mat
 
@@ -217,6 +223,8 @@ As the top player in reverse half guard, your opponent's inversion attempt repre
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Invert from Reverse Half Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 When the inversion begins and you cannot prevent it, immediately circle toward the bottom player's exposed back rather than fighting the rotation. As they pass through the inverted position, follow their movement and work to insert hooks and establish seat belt control. The inverted phase is when they are most vulnerable to back takes because their arms are tucked and their back is maximally exposed.
@@ -232,6 +240,8 @@ Shut down the inversion before it starts by maintaining heavy diagonal chest pre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Invert from Reverse Half Guard?</p>
 
 ### 1. Staying upright when sensing the bottom player beginning to rotate instead of immediately dropping weight
 
@@ -261,6 +271,8 @@ Shut down the inversion before it starts by maintaining heavy diagonal chest pre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Invert from Reverse Half Guard?</p>
+
 **Phase 1: Recognition and Reaction** - Identifying inversion setup cues
 Partner executes inversions at slow speed (25% pace) repeatedly while you identify each recognition cue in sequence: posting frame, hip turn, hook release, chin tuck. Call out each cue as you observe it. Build the visual and tactile pattern recognition before adding any defensive reactions.
 
@@ -277,26 +289,6 @@ Partner alternates between inversions, face-the-opponent escapes, old school swe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an inversion attempt is being set up from reverse half guard bottom?
-**A**: The earliest cue is the bottom player establishing a frame on your hip or thigh with their near arm while beginning to shift weight onto their near shoulder. This posting frame creates the space needed to initiate the rotation. Recognizing this action before any hip rotation begins gives you the maximum time to shut down the attempt through crossface pressure, arm control, or increased forward pressure on their shoulders.
-
-**Q2**: Your opponent has already initiated the granby roll—what is your highest-percentage counter at this point?
-**A**: Once the rotation is in progress, fighting against it is mechanically disadvantaged. Your best option is to follow the rotation by circling toward their exposed back. As they pass through the inverted position, work to insert hooks and establish seat belt control. The inverted phase is their point of maximum vulnerability. Committing to the back take during this window is significantly higher percentage than trying to stop a rotation that already has momentum.
-
-**Q3**: What pressure angle most effectively prevents the inversion from reverse half guard top?
-**A**: Drive your chest pressure diagonally toward their far shoulder while keeping your hips low and heavy on their body. This angle pins both shoulders to the mat and eliminates the near-shoulder pivot point needed for the granby roll. Pure forward pressure toward their head is less effective because it can actually be redirected into rotation momentum. The diagonal pressure toward the far shoulder specifically attacks the rotational axis that the inversion requires.
-
-**Q4**: How should you adjust if the bottom player alternates between inversion attempts and face-the-opponent escape attempts?
-**A**: Maintain balanced pressure that prevents both options by keeping your chest low on their body and controlling the near arm. If you overcommit to preventing the inversion by driving pressure toward the far shoulder, you may open the path for them to turn toward you. If you overcommit to preventing the face turn by driving pressure toward the near shoulder, you open the rotation angle. Stay centered with heavy hips and address each specific escape as the bottom player commits to it rather than anticipating.
-
-
-
-</section>
 
 
 </main>

@@ -203,7 +203,7 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 
 - [[Positions/Kimura Trap]] - Primary target position upon successful execution
 
-- [[Submissions/Kimura from Side Control]] - Related Kimura entry from adjacent top control position
+- [[Transitions/Kimura from Half Guard]] - Related Kimura entry from adjacent control position
 
 - [[Transitions/North-South Choke]] - Alternative submission from the same starting position
 
@@ -217,11 +217,11 @@ The North-South to Kimura transition is a cornerstone technique in modern BJJ's 
 
 - [[Positions/Crucifix]] - Advanced control position combining arm and leg trapping
 
-- [[Transitions/Kimura]] - Submission finish from the established Kimura Trap
+- [[Submissions/Kimura]] - Submission finish from the established Kimura Trap
 
 - [[Transitions/North-South Escape]] - How opponents attempt to escape the starting position
 
-- [[Transitions/Americana]] - Related shoulder lock available from North-South
+- [[Submissions/Americana]] - Related shoulder lock available from North-South
 
 
 </section>

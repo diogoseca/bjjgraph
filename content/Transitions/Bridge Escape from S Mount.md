@@ -214,7 +214,7 @@ The bridge escape from S Mount integrates directly into the broader mount escape
 
 - [[Transitions/Bridge Escape from Modified Mount]] - Similar technique - bridge escape applied from modified mount configuration
 
-- [[Submissions/Armbar from S Mount]] - Primary submission threat - the attack this escape is designed to prevent
+- [[Transitions/S Mount Armbar Setup]] - Primary submission threat - the attack this escape is designed to prevent
 
 - [[Positions/Mount]] - Parent position - S Mount is a variant of mount requiring specialized escape mechanics
 

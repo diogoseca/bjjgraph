@@ -166,6 +166,8 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Buggy Choke to Side Control?</p>
+
 - Feeling the choking arm extract from under your armpit or the collar grip release depth, indicating the attacker is abandoning the submission attempt
 - Chest pressure shifting from centered on your back to angling toward your shoulder complex as the attacker begins walking their hips perpendicular
 - Attacker's hand moving from collar grip toward your jaw or face area, signaling crossface establishment and transition to passing controls
@@ -177,6 +179,8 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Buggy Choke to Side Control?</p>
 
 - Recognize the grip transition window as your primary escape opportunity and act immediately when you feel choke grips releasing
 - Maintain active turtle posture with elbows tight and hips loaded to prevent flattening during the transition phase
@@ -191,6 +195,8 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Buggy Choke to Side Control?</p>
 
 ### 1. Sit to guard during grip transition by dropping near hip to mat and turning into opponent
 
@@ -228,6 +234,8 @@ Defenders must also understand the positional hierarchy at play. Accepting turtl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Buggy Choke to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your knee insertion during the grip transition window when the attacker releases choke grips and before they establish underhook on your far hip. Drive your inside knee across their hip line as they begin walking perpendicular, establishing knee shield half guard before they can flatten you into full side control. The key is inserting the knee before the crossface drives your head away from them.
@@ -243,6 +251,8 @@ Execute a granby roll or explosive posture recovery during the momentary pressur
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Buggy Choke to Side Control?</p>
 
 ### 1. Remaining passive in turtle during the grip transition instead of actively creating movement
 
@@ -272,6 +282,8 @@ Execute a granby roll or explosive posture recovery during the momentary pressur
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Buggy Choke to Side Control?</p>
+
 **Week 1-2** - Recognition and timing
 Partner establishes buggy choke control and transitions to side control at slow speed. Focus on recognizing the grip transition window through feel—identify when the threading arm extracts, when pressure shifts, and when crossface begins. Practice timing your defensive movements to the grip conversion moment. No resistance from attacker, pure pattern recognition and timing development.
 
@@ -288,29 +300,6 @@ Incorporate defense into full positional sparring from buggy choke bottom. Partn
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical defensive window during the Buggy Choke to Side Control transition?
-**A**: The critical window occurs during the grip transition phase when the attacker releases choking grips to establish passing controls. This window typically lasts 1-2 seconds and represents the moment when the attacker's pressure is least consolidated—their threading arm is extracting, their hip control is not yet established, and their chest pressure may momentarily shift. This is the highest-percentage moment to create movement, insert knee shields, or attempt guard recovery.
-
-**Q2**: Your opponent releases their collar grip and you feel their arm moving toward your jaw for a crossface—what should your immediate response be?
-**A**: Immediately frame against their incoming shoulder with your near-side forearm to prevent the crossface from establishing deep. Simultaneously drive your inside knee across their hip line to insert a knee shield before they can settle perpendicular. The crossface is the primary mechanism that prevents guard recovery from side control, so blocking it early is critical. If you allow the crossface to establish, your ability to turn and face the opponent drops dramatically.
-
-**Q3**: Why is recovering half guard considered a successful defensive outcome against this transition?
-**A**: Half guard provides established offensive and defensive systems including sweeps, back takes, and guard recovery options that are unavailable from under consolidated side control. From half guard, the defender has knee shield for distance management, underhook battles for positional advantage, and multiple sweep pathways. Side control bottom offers far fewer offensive options and requires significantly more energy to escape. Recovering half guard during the transition is far preferable to allowing full side control consolidation.
-
-**Q4**: When should you attempt a granby roll versus sitting to guard during the transition defense?
-**A**: Attempt a granby roll when chest pressure has lightened significantly during grip conversion and you have space to rotate without the attacker following. Sit to guard when the attacker's pressure remains heavy but their grip configuration is transitioning—the sitting motion works with gravity and requires less space than a granby roll. Generally, sitting to guard is higher percentage when the attacker maintains body contact, while the granby roll works better when a momentary pressure gap creates distance. Choose based on the specific pressure you feel during the transition.
-
-**Q5**: Your opponent has established the underhook on your far hip but hasn't completed the crossface yet—what is your best defensive option?
-**A**: Frame aggressively against their crossface shoulder to prevent it from driving past your chin while simultaneously working to insert your near-side knee across their hip line for knee shield half guard. With the underhook established, full turtle recovery is unlikely, so your goal shifts to minimizing positional damage by recovering half guard rather than remaining in turtle. The knee shield insertion combined with crossface prevention gives you the best defensive structure to work from once they settle into their passing position.
-
-
-
-</section>
 
 
 </main>

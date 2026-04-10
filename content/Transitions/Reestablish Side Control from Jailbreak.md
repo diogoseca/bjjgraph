@@ -206,7 +206,7 @@ Reestablishing Side Control from Jailbreak occupies a crucial defensive role wit
 
 - [[Positions/Half Guard/Deep Half Guard]] - Counter destination when bottom player dives underneath
 
-- [[Positions/Side Control/Side Control Consolidation]] - Follow-up consolidation position after reestablishment
+- [[Positions/Side Control]] - Follow-up control position after reestablishment
 
 - [[Transitions/Crossface from Dogfight]] - Related crossface control technique using similar mechanics
 

@@ -166,6 +166,8 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Jailbreak to Back Take?</p>
+
 - Bottom player secures deep underhook on the trapped leg side with elbow tight to their hip, indicating jailbreak preparation
 - Bottom player tucks chin to chest and begins turning shoulders toward the mat in an inverting motion
 - Bottom player's free leg posts hard against the mat, generating the explosive push-off momentum characteristic of jailbreak initiation
@@ -177,6 +179,8 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Jailbreak to Back Take?</p>
 
 - Strip or neutralize the underhook before the bottom player can initiate the rolling motion, as this eliminates the technique at its foundation
 - Maintain heavy crossface and flattening pressure to deny the space required for inversion and hip generation
@@ -191,6 +195,8 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Jailbreak to Back Take?</p>
 
 ### 1. Strip the underhook by driving whizzer pressure and pummeling to overhook control before the roll initiates
 
@@ -228,6 +234,8 @@ Understanding the biomechanics of this attack reveals its defensive vulnerabilit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Jailbreak to Back Take?</p>
+
 ### → [[Positions/Half Guard]]
 
 Strip the underhook early through whizzer pressure and pummeling before the bottom player can initiate the rolling motion. Without the underhook connection, the jailbreak cannot function and the position resets to standard half guard where you maintain top control.
@@ -243,6 +251,8 @@ When prevention fails and the roll begins, disengage by pulling hips back and ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Jailbreak to Back Take?</p>
 
 ### 1. Half-committing to following the roll without full hip sprawl and pressure
 
@@ -272,6 +282,8 @@ When prevention fails and the roll begins, disengage by pulling hips back and ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Jailbreak to Back Take?</p>
+
 **Week 1-2** - Underhook prevention
 Partner attempts to establish underhook from half guard bottom. Practice stripping and neutralizing the underhook through whizzer pressure, crossface driving, and pummeling. Focus on recognizing underhook establishment and responding within 1-2 seconds. No jailbreak attempts yet - isolate the grip battle.
 
@@ -288,29 +300,6 @@ Full resistance half guard rounds where bottom player actively threatens jailbre
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important preventive action you can take against the jailbreak to back take?
-**A**: Strip or neutralize the underhook before the bottom player can initiate the rolling motion. The underhook is the mechanical foundation of the entire jailbreak system - without it, the bottom player cannot maintain connection through the roll and cannot redirect your momentum. Contest the underhook aggressively through whizzer pressure, crossface driving, and pummeling. Winning this grip battle eliminates the technique at its source rather than forcing you into reactive defense.
-
-**Q2**: You feel the bottom player beginning to invert with their underhook secured - what is your immediate decision framework?
-**A**: You must make a binary decision within the first quarter-turn of the roll. Option one: disengage by pulling your hips back and basing wide, conceding turtle position but maintaining top control. Option two: commit fully to following with maximum hip sprawl and chest pressure to ride through the roll. The critical error is half-committing, which provides the bottom player with your forward momentum while giving you no control over the rotation. Speed of decision matters more than which option you choose.
-
-**Q3**: Why is driving forward pressure actually dangerous when you sense a jailbreak attempt?
-**A**: Forward pressure is the biomechanical fuel for the jailbreak roll. The technique converts your forward weight commitment into the bottom player's rotational momentum. When you drive forward against a prepared jailbreak, you advance your center of gravity past your base, creating the exact instability the bottom player exploits. Instead, pull hips back and widen your base to remove the forward energy source. A wide, hip-back posture denies the rolling mechanic its primary power source while maintaining your top position.
-
-**Q4**: The bottom player reaches turtle after a successful jailbreak but you prevented the back take - what are your attacking priorities?
-**A**: From turtle top, your immediate priority is establishing a controlling grip such as a seatbelt or front headlock before the bottom player can stand or sit through to guard. Attack with front headlock series including guillotine, darce, and anaconda entries. Look for opportunities to re-take the back through hook insertion or crab ride entries. Prevent the bottom player from sitting to guard by maintaining heavy chest pressure on their upper back. Do not allow a reset to standing where the positional advantage dissipates entirely.
-
-**Q5**: How do you distinguish between a standard jailbreak escape attempt and the back take continuation during the roll?
-**A**: The standard jailbreak targets turtle and typically decelerates once the bottom player clears past the halfway rotation point. The back take continuation shows continued acceleration past 180 degrees with the underhook arm actively pulling toward your back rather than simply creating separation. You can also feel the difference in their hip trajectory - turtle-bound escapes move laterally away from you, while back take attempts curve behind you. Reading this distinction early allows you to choose disengagement for turtle-bound escapes while preparing stronger following defense against back take attempts.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Technical Stand Up from Open Guard?</p>
+
 - Post the hand behind your hip on the same side as your base foot, creating a strong tripod structure before any upward movement begins
 - Maintain at least one defensive frame controlling your opponent's distance throughout the entire standing sequence, using foot on hip or stiff-arm
 - Drive your hips up and forward explosively once committed, minimizing time spent in the vulnerable transitional phase between guard and standing
@@ -202,6 +204,8 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Technical Stand Up from Open Guard?</p>
+
 - Establish at least one foot on the opponent's hip or knee as a distance-controlling frame before initiating the stand-up
 - Free one hand to post behind your hip by winning the grip battle or strategically releasing a non-essential grip
 - Create sufficient distance from your opponent through leg frames so they cannot immediately close the gap during your transition
@@ -214,6 +218,8 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Technical Stand Up from Open Guard step by step?</p>
 
 1. **Establish Distance Frame**: Place one or both feet on your opponent's hips or knees to create and maintain distance. This frame prevents them from closing the gap and gives you the space needed to initiate the stand-up sequence. Push firmly to create at least an arm's length of separation between your torso and your opponent.
 2. **Post Hand Behind Hip**: Place your posting hand flat on the mat directly behind your same-side hip with fingers pointing away from your body. This posting hand becomes the foundation of your tripod base. Choose the side that gives you the best angle relative to your opponent's position, typically the side away from their primary pressure.
@@ -243,6 +249,8 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Technical Stand Up from Open Guard?</p>
+
 - **Opponent rushes forward with pressure as you begin posting your hand behind your hip** (Effectiveness: High) - Your Response: Abandon the stand-up attempt early and use the posting hand to push their head down while re-establishing guard hooks. Alternatively, convert their forward momentum into a sweep by loading them onto butterfly hooks or collar dragging them past you. → Leads to [[Positions/Open Guard]]
 - **Opponent grabs your ankle or pant leg as you elevate your hips to prevent the base foot from setting** (Effectiveness: Medium) - Your Response: Kick the controlled leg free by circling your foot outward and pulling sharply. If the grip persists, use your free foot to push on their gripping-side shoulder to create enough separation to extract your leg. Do not attempt to stand with a controlled leg. → Leads to [[Positions/Open Guard]]
 - **Opponent shoots a takedown as you reach the final standing phase with feet coming together** (Effectiveness: High) - Your Response: Immediately sprawl by driving your hips back and down while posting both hands on their head and shoulders. If the sprawl fails or is too late, sit back and pull guard rather than getting taken down to a compromised position. Decisive commitment to sprawl or guard pull is critical. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Technical Stand Up from Open Guard?</p>
 
 ### 1. Posting the hand too far behind the body, creating an overextended tripod base
 
@@ -293,6 +303,8 @@ As the attacker executing the Technical Stand Up from Open Guard, your objective
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Technical Stand Up from Open Guard (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Posting, hip elevation, and leg sweep coordination
 Practice the technical stand up solo on the mat, focusing on smooth coordination between the posting hand, base foot, hip drive, and trailing leg sweep. Perform sets of ten repetitions on each side, emphasizing proper hand placement, explosive hip elevation, and maintaining balance throughout. Progress to adding a defensive frame with the non-posting hand.
 
@@ -313,42 +325,12 @@ Use the technical stand-up as part of your complete open guard game, choosing be
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating a technical stand up from open guard?
-**A**: The optimal timing is immediately after creating distance with your leg frames, when your opponent is momentarily retreating or resetting their grips. The worst time is when they are actively advancing with forward pressure or have established controlling grips. Look for the moment between their passing attempts when they are recalibrating, as this provides the largest window before they can react to your initial posting movement.
-
-**Q2**: Why must at least one foot remain on the opponent's body throughout most of the stand-up sequence?
-**A**: The foot on the opponent's hip or knee serves as your primary distance control mechanism during the transition. Without it, the opponent can immediately close the gap and re-engage before you complete standing, resulting in a scramble from a compromised position. The foot frame also provides pushing force that aids your hip elevation and gives you sensory feedback about the opponent's forward movement or shot attempts.
-
-**Q3**: Your opponent grabs your near-side ankle as you begin elevating your hips - how do you respond?
-**A**: Circle your ankle outward in a small rotational motion to break the grip, as straight pulling against a grip is much weaker than rotational breaking. If the grip persists, use your free foot to push on their gripping-side shoulder to create separation, or apply pressure to their wrist to force a release. Never continue the stand-up with a controlled ankle, as your opponent will use it to run the pipe or initiate a single leg entry.
-
-**Q4**: What is the critical difference between posting your hand too far back versus at the correct distance?
-**A**: When the posting hand is too far behind your body, the distance between your hand and feet creates a flat, weak tripod that requires more muscular effort to elevate the hips and generates less upward force. The correct posting distance is approximately six inches directly behind your hip, which creates a steep, powerful tripod angle. This close posting position allows your arm to act as a strong piston that drives your hips up efficiently rather than supporting your weight at a mechanical disadvantage.
-
-**Q5**: How does the presence of a credible technical stand-up threat improve your overall open guard game?
-**A**: When your opponent knows you can and will stand up, they must maintain engagement and forward pressure rather than backing away to reset or disengage. This committed forward pressure paradoxically creates better conditions for sweeps like butterfly hooks, collar drags, and scissor sweeps that exploit forward momentum. The stand-up threat forces opponents to address your hip movement, which opens up angle-based attacks and creates a strategic dilemma where stopping your stand-up exposes them to guard attacks.
-
-**Q6**: What are the key grip management priorities before initiating the stand-up in gi versus no-gi?
-**A**: In gi, you must strip or neutralize the opponent's collar and sleeve grips before standing, as these grips give them tremendous pulling power to drag you back down or redirect you into a snap-down. Maintaining your own collar grip during the stand-up provides distance control. In no-gi, the primary concern is preventing wrist and ankle grips. Without gi friction, you can push off the opponent's body more effectively with your feet, but their underhooks become more dangerous as you approach standing because they facilitate body lock takedowns.
-
-**Q7**: Your opponent begins shooting a double leg as you reach the final standing phase - what is your immediate response?
-**A**: Immediately sprawl by driving your hips backward and downward while posting both hands on their head and shoulders to stuff the shot. If the sprawl is successful, circle to their head side and look to establish a front headlock or snap down. If you recognize the shot too late to sprawl effectively, sit back and pull guard rather than getting taken down to a worse position. The key is making a decisive choice between sprawling or pulling guard rather than being caught compromised in a half-standing position.
-
-**Q8**: What directional angle should you use when standing up relative to your opponent's position?
-**A**: Stand up at approximately a forty-five degree angle away from your opponent's centerline rather than directly toward or away from them. This angle makes it significantly harder for them to shoot directly at your hips and creates a natural distance buffer. Choose the angle that takes you toward their weak side, typically away from their dominant gripping hand. Standing directly upward into their centerline is the most common error, as it places you in optimal range for their clinch or takedown entries.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Technical Stand Up from Open Guard?</p>
 
 The Technical Stand Up from Open Guard is a low-risk transition with no submission danger, but practitioners should be aware of potential knee strain from improper foot positioning during the posting phase. Ensure your base foot is flat with the knee tracking over the toes to avoid lateral knee stress. When training with partners, communicate clearly about the level of resistance for shot attempts during the standing phase to prevent collision injuries. Avoid practicing on slippery surfaces where the posting hand or feet may slip during hip elevation.
 

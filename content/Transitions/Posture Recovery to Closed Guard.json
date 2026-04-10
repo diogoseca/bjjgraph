@@ -12,7 +12,7 @@
     "positional-escape",
     "closed-guard"
   ],
-  "from_position": "Crackhead Control/Bottom",
+  "from_position": "Crackhead Control/Top",
   "outcomes": [
     {
       "to": "Closed Guard/Top",

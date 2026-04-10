@@ -154,6 +154,8 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Extraction from Inside Ashi?</p>
+
 - Opponent begins rotating their trapped knee inward and tucking their foot behind your hip—this is the heel hiding movement that precedes all extraction attempts
 - Opponent grabs your wrist or hand with a two-on-one configuration, targeting your heel grip for stripping
 - Opponent hip escapes to create an angle or gets onto their side rather than staying flat—this generates the rotational force needed for extraction
@@ -166,6 +168,8 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Extraction from Inside Ashi?</p>
 
 - Maintain constant heel control—this is the primary retention mechanism and must never be voluntarily released during extraction defense
 - Recognize extraction attempts within the first movement and immediately tighten hooks in response
@@ -181,6 +185,8 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Extraction from Inside Ashi?</p>
 
 ### 1. Tighten heel grip and threaten submission finish
 
@@ -218,6 +224,8 @@ As the defender against leg extraction—meaning you are the leg lock player mai
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Extraction from Inside Ashi?</p>
+
 ### → [[Positions/Ashi Garami/Inside Ashi-Garami]]
 
 Tighten all hooks immediately when extraction begins, drive your inside leg deeper across their hip, and clamp your legs with maximum inward pressure. Threaten heel hook or ankle lock to force them to abandon extraction and address the submission.
@@ -233,6 +241,8 @@ If entanglement is lost, immediately scramble forward as their leg clears. Use t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Extraction from Inside Ashi?</p>
 
 ### 1. Maintaining a loose heel grip that allows opponent to easily strip control with two-on-one
 
@@ -262,6 +272,8 @@ If entanglement is lost, immediately scramble forward as their leg clears. Use t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Extraction from Inside Ashi?</p>
+
 **Phase 1: Retention Fundamentals** - Building automatic re-tightening responses to extraction movements
 Partner performs slow extraction attempts while you practice tightening hooks, re-gripping heel, and clamping legs in response to each movement. Focus on recognizing the five key extraction cues and developing immediate physical responses to each. 20 repetitions per cue at walking pace.
 
@@ -278,26 +290,6 @@ Start in Inside Ashi-Garami. Bottom player attacks while top player works extrac
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important retention mechanism when your opponent begins attempting leg extraction?
-**A**: Heel control is the most important retention mechanism. As long as you maintain a strong grip on their heel, they cannot safely generate extraction force without risking knee damage. Tighten your heel grip immediately when you feel extraction beginning, and layer it with clamping your legs together with inward pressure. The heel grip is both your retention tool and your submission threat—losing it means losing both control and offensive capability simultaneously.
-
-**Q2**: Your opponent successfully clears your inside leg from their hip—how should you respond rather than trying to re-establish the same position?
-**A**: Use the space created by their hip clearance as an opportunity to thread your legs into a more advanced entanglement. Advance to saddle by threading your now-cleared inside leg deeper into the entanglement behind their knee, or transition to honey hole by crossing your feet around their trapped leg in a tighter configuration. Their escape movement creates the exact space needed for positional advancement. Fighting to re-establish the same inside leg position is less effective than flowing forward to a stronger position.
-
-**Q3**: How do you use submission threats to discourage extraction attempts?
-**A**: When opponent begins extraction movement—particularly the hip rotation—their heel often becomes more exposed as they shift their leg angle. Apply submission pressure during these movements to create a dilemma: they must stop their extraction to defend the submission, or risk completing the extraction with a partially locked submission on their joint. Even threatening a submission without full commitment forces them to slow their extraction and address the threat, buying time to re-consolidate your position.
-
-**Q4**: Your opponent stands up while their leg is still trapped—what defensive adjustment prevents the standing extraction?
-**A**: Follow them up by pulling your body closer using their trapped leg as an anchor, preventing them from creating the distance needed for standing extraction. Drive your inside leg deeper across their hip and hook their standing leg with your free leg to destabilize their base. If they commit to standing fully, use the elevation to transition to single leg X-guard position from your ashi configuration, converting their standing attempt into a sweep opportunity.
-
-
-
-</section>
 
 
 </main>

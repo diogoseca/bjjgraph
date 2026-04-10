@@ -162,6 +162,8 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Mount to Technical Mount?</p>
+
 - Attacker's weight shifts to one knee as they prepare to post the far leg, creating momentary pressure change on your torso
 - Attacker establishes controlling grip on your upper body with increased intensity before moving legs
 - One of the attacker's knees begins lifting or sliding outward away from your body, indicating the leg posting movement
@@ -174,6 +176,8 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Mount to Technical Mount?</p>
 
 - Recognize the transition attempt during the weight shift, not after technical mount is established
 - Maintain frames against the cross-face and hip to prevent the attacker from following your movement
@@ -189,6 +193,8 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Mount to Technical Mount?</p>
 
 ### 1. Frame on hip and hip escape during leg post
 
@@ -226,6 +232,8 @@ Defending the Mount to Technical Mount transition requires recognizing the attac
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Mount to Technical Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a hip escape during the attacker's weight shift, inserting your knee between your bodies as they post the far leg. The brief instability during the leg posting creates the best window for guard recovery. Frame on the attacker's hip with your near-side forearm to create space while shrimping your hips away from them.
@@ -237,6 +245,8 @@ Time a hip escape during the attacker's weight shift, inserting your knee betwee
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Mount to Technical Mount?</p>
 
 ### 1. Failing to recognize the transition attempt and only reacting after technical mount is fully established
 
@@ -271,6 +281,8 @@ Time a hip escape during the attacker's weight shift, inserting your knee betwee
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Mount to Technical Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition setup cues under controlled conditions
 Partner alternates between staying in standard mount and attempting technical mount transition at slow speed. Practice feeling the weight shift, knee lift, and grip change that signal the transition attempt. Call out 'transition' when you recognize the setup. Build recognition speed over multiple rounds until identification is consistent.
 
@@ -287,29 +299,6 @@ Positional sparring starting from mount with partner attempting to advance to te
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for preventing the Mount to Technical Mount transition?
-**A**: The optimal window is during the attacker's weight shift before the hook insertion completes. When you feel one knee lifting and pressure shifting to one side, the attacker is between positions and their base is compromised. This is the moment to frame and hip escape. Once the far leg is posted AND the near-side hook is inserted, the technical mount is established and prevention has failed—you must switch to escape strategy rather than prevention.
-
-**Q2**: Why should you bridge toward the posted leg side rather than the hook side when trying to disrupt the transition?
-**A**: The posted leg creates a wide but less rooted base compared to the hook side. The hook actively pulls your hips and provides the attacker with dynamic balance, making it difficult to disrupt from that direction. The posted leg relies on the foot being flat on the mat for stability—a forceful bridge toward this side creates angular pressure that the attacker must catch with their posted foot, which is harder to adjust during the transition. Bridging toward the posted leg attacks the weakest point in the attacker's base structure.
-
-**Q3**: Your arms are controlled and technical mount is fully established—what is your immediate defensive priority?
-**A**: Protect the near-side arm from extension at all costs. Keep the elbow bent and glued to your ribs, using your free hand to grip your own wrist or collar for reinforcement. The attacker's primary goal from technical mount is armbar, which requires extending your arm. Every defensive action should prioritize keeping that arm bent and tight. Secondary priority is preventing the attacker from establishing wrist control on the trapped arm. If both fail, prepare for armbar defense by immediately fighting to sit up and stack as the attacker begins the swing-over.
-
-**Q4**: How do you recover half guard from the technical mount position once the transition is complete?
-**A**: Frame on the attacker's hip with your near-side forearm keeping elbow bent and shrimp your hips away toward the posted leg side. As space is created, insert your bottom knee between your bodies as a knee shield aiming to get your shin across their torso. Simultaneously, use your top leg to hook their posted leg at the knee to prevent them from re-adjusting position. The combination of knee insertion and leg hook converts the position from technical mount to a half guard configuration where you have frames and distance.
-
-**Q5**: What is the critical difference between defending this transition versus escaping from established technical mount?
-**A**: Defending the transition targets the brief window of instability during the attacker's weight shift and leg posting, when their base is compromised and they are between positions. This requires reading the setup cues and reacting within a 1-2 second window. Escaping established technical mount is significantly harder because the attacker has consolidated their base, inserted the hook, and likely begun isolating your arm for submission. Prevention during the transition has roughly double the success rate of escape after establishment, making recognition and early reaction the highest priority.
-
-
-
-</section>
 
 
 </main>

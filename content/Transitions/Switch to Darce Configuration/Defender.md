@@ -166,6 +166,8 @@ Successful defense requires a layered approach: prevent the threading entirely i
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Switch to Darce Configuration?</p>
+
 - The attacker's threading arm releases the far-side collar grip and begins traveling across your upper back toward the far side of your body, signaling the transition from buggy choke to a head-and-arm configuration
 - You feel the chest pressure shift as the attacker adjusts their weight to redirect the arm path, often accompanied by a slight lift of their torso off your back during the hand repositioning
 - The attacker's hand begins probing under your far armpit from the back side, with their forearm sliding along the back of your neck toward the far-side carotid—this is the darce-specific threading direction distinct from the anaconda
@@ -177,6 +179,8 @@ Successful defense requires a layered approach: prevent the threading entirely i
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Switch to Darce Configuration?</p>
 
 - Recognize the collar release as the immediate signal that a darce or anaconda switch is being attempted and implement defensive protocols within the first second of the grip change
 - Clamp the far elbow tight to the ribs as the primary defense to deny the armpit threading path that the darce requires for arm insertion
@@ -191,6 +195,8 @@ Successful defense requires a layered approach: prevent the threading entirely i
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Switch to Darce Configuration?</p>
 
 ### 1. Clamp far elbow tight to ribs and tuck chin to deny the armpit threading path during the attacker's arm redirect phase
 
@@ -228,6 +234,8 @@ Successful defense requires a layered approach: prevent the threading entirely i
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Switch to Darce Configuration?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Deny the darce threading path by clamping the far elbow tight to your ribs immediately upon sensing the collar release. Maintain tight turtle posture with chin tucked. If the threading is blocked, the attacker is forced back to the buggy choke position or must attempt an alternative transition, returning you to the original defensive scenario which is less dangerous than darce control.
@@ -243,6 +251,8 @@ Exploit the grip transition window by sitting to guard explosively as the attack
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Switch to Darce Configuration?</p>
 
 ### 1. Freezing in turtle and waiting to feel the darce lock before attempting any defensive action
 
@@ -272,6 +282,8 @@ Exploit the grip transition window by sitting to guard explosively as the attack
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Switch to Darce Configuration?</p>
+
 **Week 1-2** - Recognition and elbow clamp mechanics
 Partner performs the darce switch at 25% speed from buggy choke top. Practice identifying the collar release through feel and immediately clamping the far elbow to the ribs. Focus on reaction time between sensing the collar release and completing the elbow seal. Drill 20 repetitions per side, gradually increasing the partner's transition speed as recognition improves.
 
@@ -288,29 +300,6 @@ Positional sparring starting from buggy choke top with partner attacking the ful
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is switching from buggy choke to darce configuration, and what should your immediate response be?
-**A**: The earliest cue is feeling the attacker's threading arm release the far-side collar grip and begin traveling across your upper back. Your immediate response should be to clamp your far elbow tight against your ribs to seal the armpit and prevent the threading path. This must happen within one second of sensing the collar release because the attacker's arm redirect is designed to be a continuous motion without pause.
-
-**Q2**: Why is sitting to guard during the grip transition window effective, and what are the timing requirements?
-**A**: Sitting to guard works because the attacker's control is momentarily reduced between releasing the buggy choke collar and establishing the darce grip. During this 1-2 second window, the attacker has incomplete neck control and reduced ability to prevent hip movement. You must commit to the sit explosively the instant you feel the collar release. Hesitating even slightly allows the attacker to re-establish pressure with the darce threading, closing the escape window permanently.
-
-**Q3**: Your attacker has begun threading under your far armpit but has not locked the figure-four yet—what is your highest-percentage defensive option?
-**A**: Extract the trapped near arm immediately by gripping your own wrist with your free hand and pulling the arm out of the darce channel. The near arm serves as the compression fulcrum that makes the darce a bilateral choke rather than a one-sided squeeze. Removing this arm before the figure-four locks eliminates the choke mechanics entirely, forcing the attacker to abandon the darce and seek a different position. This window closes permanently once the figure-four grip is secured.
-
-**Q4**: Why is pulling away from the darce counterproductive, and what should you do instead?
-**A**: Pulling away opens the neck-armpit channel wider by stretching your neck away from your shoulder, allowing the attacker's forearm blade to seat deeper across the carotid. The correct response is to move toward the attacker by turning your torso into the choking arm and collapsing the distance between your neck and their arm. This reduces the perpendicular angle needed for effective compression and creates space for arm extraction or guard recovery.
-
-**Q5**: What distinguishes defending the darce switch from buggy choke versus defending a standard darce entry from turtle or front headlock?
-**A**: The key difference is the grip transition window. In a standard darce entry, the attacker threads directly from neutral control without releasing an existing grip. In the buggy choke switch, the attacker must release the collar grip before rethreading for the darce, creating a 1-2 second control gap. This window is the defender's primary advantage and does not exist in standard darce entries. However, the defender is also starting from a more compromised position with partially broken posture from the buggy choke.
-
-
-
-</section>
 
 
 </main>

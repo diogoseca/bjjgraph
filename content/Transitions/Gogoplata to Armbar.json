@@ -65,7 +65,7 @@
       "relationship": "Target position on successful execution of the transition"
     },
     {
-      "name": "Gogoplata Finish",
+      "name": "Gogoplata",
       "relationship": "Primary submission threat that creates the defensive reactions enabling the armbar transition"
     },
     {
@@ -85,7 +85,7 @@
       "relationship": "Alternative chain attack when opponent turns shoulder away to defend gogoplata"
     },
     {
-      "name": "Armbar Finish",
+      "name": "Armbar from Armbar Control",
       "relationship": "Follow-up submission executed from armbar control after successful transition"
     },
     {
@@ -269,6 +269,14 @@
       {
         "question": "What is the most critical mechanical detail that determines whether the hip pivot succeeds or fails?",
         "answer": "Hip elevation throughout the pivot is the single most critical factor. If your hips drop to mat level during the rotation, you lose the mechanical advantage needed for both the pivot motion itself and the subsequent armbar control. The pivot should rotate around an elevated axis maintained by continuous core engagement. Dropping hips makes the rotation sluggish and allows the opponent to create distance and recover posture."
+      },
+      {
+        "question": "What specific grip configuration provides the most secure wrist control when initiating the transition from gogoplata?",
+        "answer": "A C-grip or thumb-in grip on the opponent's wrist with your near-side hand provides primary control, reinforced by your far-side hand on their triceps or elbow crease. The C-grip wraps around the wrist with all four fingers on one side and the thumb on the other, creating a secure anchor that resists rotational escape attempts. The reinforcing hand on the triceps prevents the opponent from bending the arm to retract it. Both grips must be established simultaneously before releasing the gogoplata foot to ensure continuous control throughout the transition."
+      },
+      {
+        "question": "In which direction should you apply force during the armbar finishing sequence after completing the transition?",
+        "answer": "Drive your hips upward toward the ceiling while simultaneously pulling the opponent's wrist toward your chest centerline. These two force vectors work together: the upward hip drive creates fulcrum pressure against the elbow joint, while the chest-directed wrist pull extends the arm into hyperextension across that fulcrum. The force must be perpendicular to the opponent's forearm to maximize leverage on the elbow. Avoid pulling the wrist laterally or pushing hips sideways, as diagonal force vectors reduce finishing efficiency and allow defensive adjustments."
       }
     ],
     "safety_considerations": "The gogoplata to armbar transition involves moving between two joint-threatening positions in rapid succession. During training, partners should apply the armbar finish slowly and incrementally after the transition is complete. The rapid change from throat compression to elbow hyperextension can catch defenders off guard, significantly increasing injury risk. Always establish clear tap protocols before drilling this chain, and release immediately upon any tap signal regardless of which phase the technique is in. Practitioners with limited hip flexibility should not force the gogoplata component, as hip and hamstring injuries can result from attempting positions beyond current mobility range. Drill at reduced speed until the full transition sequence is comfortable for both partners."
@@ -366,6 +374,14 @@
       {
         "question": "How does your defensive focus need to change between the gogoplata phase and the armbar transition phase?",
         "answer": "During gogoplata defense, your focus is on head position, chin tucking, and lateral movement to reduce shin-to-throat pressure while keeping arms tucked. When the transition to armbar begins, your focus must immediately shift to arm protection, maintaining elbow flexion, and generating forward stacking pressure. This mental shift is the primary challenge because the transition happens quickly and defenders who remain in gogoplata defense mode are completely unprepared for armbar mechanics."
+      },
+      {
+        "question": "What is the safest body position to adopt immediately when you realize the attacker is transitioning from gogoplata to armbar?",
+        "answer": "Immediately turn your body toward the side of the trapped arm while bending the elbow forcefully and rotating your thumb toward the ceiling. This combined action creates the strongest anatomical defense against arm extension while positioning your body to stack forward into the attacker. Avoid remaining square-shouldered to the attacker as this gives them optimal leverage for the finish. The side-turned position also facilitates the hitchhiker escape if standard armbar defense fails."
+      },
+      {
+        "question": "After successfully defending the gogoplata to armbar transition and escaping, what should your immediate tactical priority be?",
+        "answer": "Your immediate priority is to improve position rather than settling into a neutral guard. If you escaped during the pivot phase, work to pass the attacker's guard immediately while their offensive structure is dismantled and they are recovering from the failed transition. If you ended up in half guard top, establish crossface control and begin passing before they can re-establish rubber guard grips. The attacker is most vulnerable in the moments immediately following a failed chain attack because their guard configuration has been disrupted by their own offensive movement."
       }
     ],
     "training_progressions": [

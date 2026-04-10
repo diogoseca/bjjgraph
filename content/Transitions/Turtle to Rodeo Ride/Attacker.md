@@ -188,6 +188,8 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle to Rodeo Ride?</p>
+
 - Commit fully to the angle change—half-measures leave you in a weak position between turtle top and Rodeo Ride
 - Establish near-arm control before shifting your hips to prevent the opponent from posting and creating frames
 - Load hip pressure progressively rather than dropping weight suddenly, which allows the opponent to time an escape
@@ -202,6 +204,8 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle to Rodeo Ride?</p>
+
 - Initial turtle top control with chest-to-back pressure established
 - At least one dominant grip on opponent's collar, wrist, or shoulder
 - Opponent's near-side arm identified and accessible for control
@@ -214,6 +218,8 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle to Rodeo Ride step by step?</p>
 
 1. **Secure Near-Arm Control**: From standard turtle top with chest on opponent's back, reach underneath to control the near-side wrist or elbow with your near hand. Thread your hand between their elbow and knee to grip their wrist, pulling it slightly away from their body to break the tight elbow-to-knee defensive shell. This is the most critical setup step—without near-arm control, the opponent can post and prevent your angle change.
 2. **Establish Far-Side Anchor**: With your far hand, secure a collar grip (gi) or reach across to control the far shoulder, far hip, or establish a crossface (no-gi). This anchor prevents the opponent from turning into you during the angle change and provides the control point you will use to maintain connection throughout the transition. In gi, a deep cross-collar grip on the far lapel is the highest-percentage option because it immediately threatens chokes.
@@ -243,6 +249,8 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle to Rodeo Ride?</p>
+
 - **Opponent explosively sits back to guard before angle change completes** (Effectiveness: High) - Your Response: If you feel the sit-back beginning, immediately abandon the angle change and follow their hips down, re-establishing standard turtle control or transitioning to a front headlock if they turn toward you. Prevention is key—ensure near-arm control is solid before committing to the angle change. → Leads to [[Positions/Half Guard]]
 - **Opponent performs granby roll as you begin walking hips perpendicular** (Effectiveness: Medium) - Your Response: Follow the roll while maintaining your far-side anchor grip. The granby creates momentum you can redirect—as they invert, use your collar or shoulder control to guide them into back exposure rather than guard recovery. Stay heavy with your chest and do not release the far-side grip. → Leads to [[Positions/Turtle]]
 - **Opponent posts with near arm and creates a strong defensive frame before you secure control** (Effectiveness: High) - Your Response: Switch to a two-on-one grip break on their posting arm, or abandon the near-arm entry and transition to a front headlock spiral entry instead. The posted arm is actually vulnerable to kimura attacks if you can control the wrist and rotate the shoulder. → Leads to [[Positions/Turtle]]
@@ -254,6 +262,8 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle to Rodeo Ride?</p>
 
 ### 1. Attempting the angle change without first securing near-arm control
 
@@ -293,6 +303,8 @@ Executing the Transition to Rodeo Ride requires converting your standard turtle 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle to Rodeo Ride (Attacker)?</p>
+
 **Phase 1: Static Entry Mechanics** - Grip placement and hip positioning on a non-resisting partner
 Partner assumes turtle position and remains still. Practice the full entry sequence slowly: near-arm control, far-side anchor, leg post, hip walk, pressure loading. Repeat 20 times per side, focusing on the angle of your hips relative to their spine and the placement of your posted leg. No resistance, pure mechanical repetition.
 
@@ -313,42 +325,12 @@ Begin from standing or guard pass scenarios that naturally lead to turtle top. P
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Transition to Rodeo Ride?
-**A**: The optimal window is after you have established initial turtle top control with at least one dominant grip, but before the opponent begins an active escape sequence. Specifically, the best moment is when the opponent has settled into a defensive turtle posture and is focused on protecting their neck and maintaining their elbow-to-knee shell rather than explosively moving. Attempting the transition during an active escape creates a scramble, while waiting too long allows them to build a plan and begin executing it.
-
-**Q2**: Why must near-arm control be established before the hip walk begins?
-**A**: Near-arm control eliminates the opponent's ability to post on the side you are rotating toward. Without it, as you walk your hips perpendicular, the opponent can extend their arm to create a frame that blocks your rotation and creates space for guard recovery. The near arm is also their primary tool for generating the base needed to stand up or sit through. Controlling it first removes their most immediate defensive option and makes the subsequent angle change significantly safer.
-
-**Q3**: Your opponent has an extremely tight turtle with elbows glued to knees—how do you create the opening for near-arm control?
-**A**: Use collar or neck threats to force them to react and open their defensive shell. Establish a deep collar grip and begin applying clock choke pressure—this forces the opponent to address the choke with at least one hand, breaking their elbow-to-knee seal. Alternatively, use heavy chest pressure combined with a crossface to flatten their posture slightly, which naturally opens space between their elbows and knees. The tight turtle protects against arm access but is vulnerable to collar-based attacks that force the arms to move defensively.
-
-**Q4**: What is the critical hip angle relative to the opponent's spine in the completed Rodeo Ride position?
-**A**: The completed position requires your hips to be approximately 90 degrees (perpendicular) to the opponent's spine, with your hip loaded onto their torso between the shoulder and hip line. Being less than perpendicular (still partially behind them) reduces your control leverage and allows them to roll or sit through more easily. Being past perpendicular (approaching their front) risks them turning into you for guard recovery. The 90-degree angle maximizes your ability to control both their rotation and their lateral movement simultaneously.
-
-**Q5**: How does the direction of force differ between standard turtle top control and Rodeo Ride?
-**A**: Standard turtle top applies force primarily downward through the chest onto the opponent's back, compressing them toward the mat vertically. Rodeo Ride applies force laterally and diagonally—your loaded hip drives into the side of their torso while your chest maintains contact with their back from an angle. This lateral pressure vector is much harder to defend because turtle escapes (granby, sit-back, standup) are designed to counter vertical pressure. The perpendicular force requires the opponent to develop entirely different escape mechanics.
-
-**Q6**: Your opponent begins a sit-back escape just as you start walking your hips—should you continue or abort?
-**A**: Abort the angle change and follow their hips down immediately. A mid-transition sit-back catches you in a compromised position where your weight is partially shifted but your control is not yet established. Instead, drive your chest pressure forward and down to stuff the sit-back attempt, re-establish standard turtle top control, and then reattempt the Rodeo Ride transition once they return to a defensive turtle posture. Forcing the entry against an active escape is the most common reason practitioners lose the position entirely.
-
-**Q7**: What grip configuration provides the highest-percentage entry in gi versus no-gi?
-**A**: In gi, the highest-percentage configuration is near-side wrist control combined with a deep cross-collar grip on the far lapel. The collar grip provides a powerful anchor that controls rotation and immediately threatens clock choke. In no-gi, the optimal configuration is a near-side underhook with wrist control combined with a crossface or far-shoulder control. Without collar grips, body positioning and the underhook become your primary control mechanisms, requiring tighter chest-to-back contact throughout the transition.
-
-**Q8**: If the opponent successfully posts their near arm and blocks your angle change, what are your chain attack options?
-**A**: A posted near arm opens several opportunities: first, transition to a kimura attack by controlling their posted wrist and rotating the shoulder; second, use two-on-one grip fighting to strip their post and reattempt the entry; third, abandon the Rodeo Ride approach and use the posting arm as leverage for a front headlock spiral entry from the other side; fourth, attack the crucifix position by trapping their extended arm between your legs. The posted arm is a defensive commitment that creates vulnerability—the opponent cannot simultaneously post and protect against arm attacks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle to Rodeo Ride?</p>
 
 The Transition to Rodeo Ride involves loading significant hip pressure onto the opponent's torso and ribs. Avoid dropping your full weight suddenly, particularly in training, as this can cause rib injuries or thoracic spine compression. When drilling, load pressure gradually and communicate with your partner about pressure intensity. The near-arm control should not involve hyper-extending the shoulder—control the wrist or elbow rather than cranking the arm into uncomfortable positions. During the hip walk phase, be aware of your knee placement to avoid accidentally driving your knee into your partner's face or neck. In competition, these considerations still apply but the pace of entry is naturally faster.
 

@@ -190,6 +190,8 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Guard to Butterfly Half Guard?</p>
+
 - Control opponent's upper body through crossface or collar tie before attempting hook clearance to prevent posture recovery and re-insertion
 - Drive knees together to compress the butterfly hook structure, removing the lateral space hooks need for effective elevation
 - Time hook clearing attempts with opponent's weight commitment during sweep setups, exploiting the momentary weakness on the non-attacking side
@@ -204,6 +206,8 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Guard to Butterfly Half Guard?</p>
+
 - Established upper body control through crossface, collar tie, or underhook that limits opponent's ability to follow your hip movements
 - Forward pressure through chest and shoulder contact that prevents opponent from maintaining full upright seated posture
 - Awareness of which hook is weaker or less actively maintained based on opponent's grip configuration and weight distribution
@@ -216,6 +220,8 @@ The key insight is that you are not simply removing a hook but replacing it with
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Guard to Butterfly Half Guard step by step?</p>
 
 1. **Establish upper body control**: Secure crossface control by driving your shoulder into the opponent's jaw and turning their head away from the side you intend to clear the hook. Alternatively, establish a strong collar tie or underhook that breaks their upright posture. This upper body control is the foundation that makes hook clearing possible by limiting their ability to follow your movement.
 2. **Compress the hook structure**: Drive your knees together and slightly forward, squeezing the opponent's hooks inward toward each other. This collapses the lateral space that butterfly hooks need to generate effective elevation. Your knees should pinch against the outside of their thighs, reducing the angle of their hooks from active elevators to compressed, ineffective positions underneath you.
@@ -245,6 +251,8 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Guard to Butterfly Half Guard?</p>
+
 - **Opponent re-inserts butterfly hook before you settle into half guard position** (Effectiveness: High) - Your Response: Immediately re-compress by driving knees together again and restarting the hook clearing sequence. Focus on maintaining tighter chest contact during the transition to eliminate the space needed for re-insertion. Consider switching to the opposite hook if the first target proves difficult to clear. → Leads to [[Positions/Butterfly Guard]]
 - **Opponent transitions to X-Guard or single leg X during hook clearing attempt** (Effectiveness: High) - Your Response: As soon as you feel a foot on your hip, immediately retract your step and squat your hips low to remove the elevation platform they need for X-Guard. Re-establish combat base and fight to remove the foot from your hip before re-attempting the hook clear. → Leads to [[Positions/Half Guard]]
 - **Opponent uses arm drag to take the back during the weight shift** (Effectiveness: Medium) - Your Response: Maintain strong elbow connection to your body throughout the transition and never extend your arms away from your torso during the clearing sequence. If you feel the arm drag initiating, immediately post your hand on the mat on the drag side and turn your hips toward the opponent to face them rather than giving your back. → Leads to [[Positions/Half Guard]]
@@ -256,6 +264,8 @@ The key insight is that you are not simply removing a hook but replacing it with
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Guard to Butterfly Half Guard?</p>
 
 ### 1. Attempting to clear the hook by pulling your leg backward away from the opponent
 
@@ -295,6 +305,8 @@ The key insight is that you are not simply removing a hook but replacing it with
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Guard to Butterfly Half Guard (Attacker)?</p>
+
 **Phase 1: Static Hook Clearing Mechanics** - Basic body mechanics and positioning
 Partner maintains passive butterfly guard with hooks in place but no grips. Practice the step-through mechanics of clearing one hook while maintaining chest contact. Focus on keeping hips low, driving knees together, and stepping past the hook line. 10 repetitions each side with zero resistance.
 
@@ -315,42 +327,12 @@ Start in butterfly guard and work the complete chain: clear hook to butterfly ha
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you establish upper body control before attempting to clear a butterfly hook?
-**A**: Upper body control through crossface or collar tie restricts the opponent's ability to rotate their torso and follow your hip movement. Without it, the bottom player can freely adjust their hook angle to match any clearing attempt you make. The crossface specifically turns their head away, breaking the kinetic chain between their upper body and the hook side, creating the structural disconnect needed for the hook to be cleared against their resistance.
-
-**Q2**: What is the most critical timing window for clearing a butterfly hook?
-**A**: The optimal window occurs when the opponent initiates a sweep attempt on one side, momentarily committing their weight and attention to driving that hook. The non-attacking hook becomes weaker because their hip is loaded toward the sweep direction and their focus shifts away from maintaining bilateral hook pressure. This counter-timing approach exploits their offensive commitment rather than fighting against a fully balanced butterfly guard structure.
-
-**Q3**: Your opponent has a deep underhook on their right side with strong hooks - which hook should you target first and why?
-**A**: Target the left hook first, opposite to their dominant right underhook. Their right underhook gives them superior structural control on that side, making hook re-insertion easier and creating back take threats if you shift weight there. The left side, without the underhook support, has weaker retention capability. Clearing the weaker hook first gives you a stable half guard position from which you can then address the stronger underhook side.
-
-**Q4**: How do you prevent the opponent from transitioning to X-Guard during your hook clearing attempt?
-**A**: Keep your hips low and heavy throughout the transition, never allowing space underneath your body. If you feel a foot placement on your hip, immediately squat your hips down and retract to combat base rather than continuing the clearing attempt. The key prevention is maintaining chest-to-chest contact and low hip position, which removes the vertical space X-Guard requires. Additionally, controlling their far hip with your hand limits their ability to rotate into the X-Guard angle.
-
-**Q5**: What specific hip movement clears the butterfly hook most effectively?
-**A**: Drive your hip forward and downward into their knee on the target side, pushing their knee toward the mat. This collapses the hook angle from underneath rather than trying to pull your leg out laterally. Your hip physically presses their thigh downward, eliminating the upward elevation capacity of the hook. Combined with squeezing both knees together to compress the overall butterfly structure, this creates a direct path to step your leg through and past the neutralized hook.
-
-**Q6**: You clear one hook successfully but the opponent immediately starts working to re-insert it - what are your first three actions?
-**A**: First, post your freed leg wide to create a stable base that prevents being swept during the recovery scramble. Second, drive your crossface shoulder deeper to turn their head further away from the cleared side, breaking their ability to follow your hip with their leg. Third, drop your hip weight heavy on the cleared side to physically block the re-insertion path with your body mass. These three actions must happen within the first two to three seconds of clearing the hook, before the opponent can reorganize their structure.
-
-**Q7**: Why is stepping through the hook more effective than pulling your leg backward to clear it?
-**A**: Pulling backward creates distance between you and the opponent, which gives them space to recover seated posture, re-insert hooks, or transition to alternative guards like X-Guard that require space. Stepping through maintains chest-to-chest pressure and forward momentum, which keeps the opponent compressed and limits their movement options. The step-through also naturally transitions your leg into a half guard passing position rather than leaving you in no-man's land outside their guard.
-
-**Q8**: How should you adjust your approach when the opponent has a collar-and-sleeve grip configuration instead of underhooks?
-**A**: Collar-and-sleeve grips give the opponent distance-based control rather than close-range power. Strip the sleeve grip first because it controls your posting hand and limits your ability to base during the transition. Once the sleeve grip is broken, close the distance aggressively with chest pressure to nullify the collar grip's effectiveness at range. The hook clearing mechanics remain the same, but the preparation phase requires additional grip fighting to remove the distance management tools before you can establish the chest contact needed for the transition.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Guard to Butterfly Half Guard?</p>
 
 This transition involves moderate forward pressure and hip-level contact. Avoid driving excessive pressure into the opponent's knee joint when pinning their hook down, as this can strain the medial collateral ligament. Partners should communicate clearly during drilling, especially when the bottom player feels uncomfortable knee pressure. The step-through motion should be controlled rather than explosive to prevent accidentally driving the knee into the opponent's hip or groin area. Always warm up hips and knees before drilling this transition extensively.
 

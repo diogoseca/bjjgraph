@@ -156,6 +156,8 @@ Defensive success requires active management of three variables: your base width
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Z-Lock Half Guard?</p>
+
 - Bottom player secures a deep underhook and begins pulling your upper body across their centerline, indicating they are establishing the steering mechanism for the sweep
 - You feel both legs engaging simultaneously - lockdown tension pulling your trapped leg while butterfly hook pushes upward under your opposite thigh
 - Bottom player hip escapes to create an exaggerated side angle rather than lying flat, loading their legs with the mechanical advantage needed for the sweep
@@ -168,6 +170,8 @@ Defensive success requires active management of three variables: your base width
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Z-Lock Half Guard?</p>
 
 - Maintain a wide base with your free leg posted outward to provide structural bracing against rotational sweep forces from any direction
 - Distribute weight centrally rather than committing fully forward, denying the sweeper the forward momentum they need to fire the compound off-balance
@@ -182,6 +186,8 @@ Defensive success requires active management of three variables: your base width
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Z-Lock Half Guard?</p>
 
 ### 1. Post far hand wide on the mat in the direction of the sweep to create a structural brace that blocks the rotational path
 
@@ -219,6 +225,8 @@ Defensive success requires active management of three variables: your base width
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Z-Lock Half Guard?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Drive aggressive crossface to pin opponent's far shoulder to the mat while simultaneously walking your hips forward to increase pressure. This flattens their hip angle, neutralizes both butterfly hook and lockdown effectiveness, and transitions the position into Flattened Half Guard where your passing options increase significantly and their sweep threats diminish.
@@ -234,6 +242,8 @@ Deny the sweep by maintaining a balanced, centrally-distributed weight position 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Z-Lock Half Guard?</p>
 
 ### 1. Committing weight fully forward into heavy crossface without monitoring sweep timing
 
@@ -263,6 +273,8 @@ Deny the sweep by maintaining a balanced, centrally-distributed weight position 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Z-Lock Half Guard?</p>
+
 **Phase 1: Sweep Recognition Drills** - Identifying Z-Lock sweep setup cues and timing triggers
 Partner establishes Z-Lock bottom and sets up the sweep at 50% speed while you focus on recognizing the physical cues: underhook depth, hip angle changes, and the moment of weight-baiting. Call out each cue as you feel it without attempting to defend. Build the perceptual awareness needed to react before the sweep fires.
 
@@ -279,26 +291,6 @@ Full positional sparring starting from Z-Lock Half Guard top. Defend sweeps whil
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three variables you must manage simultaneously to defend the Sweep from Z-Lock Half Guard?
-**A**: The three critical defensive variables are base width (keeping your free leg posted wide for structural bracing), weight placement (distributing weight centrally rather than committing fully forward), and underhook denial (preventing or stripping the opponent's underhook that serves as the sweep's steering mechanism). Managing all three simultaneously makes the sweep extremely difficult to execute regardless of the attacker's skill level.
-
-**Q2**: Why is driving heavy crossface pressure both a defensive tool and a potential vulnerability against this sweep?
-**A**: Crossface pressure is defensive because it flattens the opponent's hip angle and reduces their mechanical advantage for the sweep. However, it becomes a vulnerability when you commit excessive bodyweight forward to drive the crossface, because the forward weight commitment is exactly what the sweeper needs to fire the compound off-balance. The solution is controlled crossface using upper body positioning rather than full bodyweight commitment, maintaining your center of gravity over your base.
-
-**Q3**: You feel both of the opponent's legs activating simultaneously - lockdown pulling and butterfly pushing. What is your immediate response?
-**A**: Immediately post your far hand wide on the mat in the direction you feel yourself being rotated. This structural post must happen before you pass the tipping point of the sweep. Simultaneously widen your base by stepping your free leg out. If the post stabilizes you, follow up by driving your weight back toward center and re-establishing heavy top pressure. The key is speed of reaction - once the compound off-balance reaches full momentum, posting becomes ineffective.
-
-**Q4**: When should you choose to sit your weight back versus driving forward to flatten the opponent?
-**A**: Sit back when you recognize the opponent has established full sweep grips (deep underhook, loaded Z-Lock configuration, and hip angle) and is waiting for you to drive forward. Sitting back denies the sweep but gives space. Drive forward to flatten when the opponent has NOT yet fully established their sweep position - particularly if their underhook is shallow or their hip angle is minimal. The decision depends on how loaded the sweep threat is at that moment.
-
-
-
-</section>
 
 
 </main>

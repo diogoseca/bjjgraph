@@ -154,6 +154,8 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Complete Pass from Flattened Half?</p>
+
 - Opponent shifts their hips to one side while maintaining chest pressure, creating a diagonal angle with their trapped leg
 - Opponent's free hand moves to control your far hip, pinning it to prevent your shrimp
 - Opponent drives their knee forward and diagonally across your thigh rather than simply maintaining the trapped position
@@ -166,6 +168,8 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Complete Pass from Flattened Half?</p>
 
 - The hook alone is a temporary barrier - use the time it buys to recover frames rather than relying on it as your sole defense
 - Fight for the underhook on the far side even while accepting the crossface, as it prevents full flattening and creates escape structure
@@ -180,6 +184,8 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Complete Pass from Flattened Half?</p>
 
 ### 1. Hip escape toward the trapped leg side at the moment of extraction to recover knee shield or half guard frames
 
@@ -217,6 +223,8 @@ As the defender against the Complete Pass from Flattened Half Guard, you are in 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Complete Pass from Flattened Half?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your hip escape to coincide with the opponent's extraction attempt. As they shift their hips to create the extraction angle, shrimp toward the trapped leg side and immediately insert your knee as a frame. The opponent's divided attention between maintaining pressure and extracting the leg creates the window you need to recover frames and return to active half guard.
@@ -228,6 +236,8 @@ Time your hip escape to coincide with the opponent's extraction attempt. As they
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Complete Pass from Flattened Half?</p>
 
 ### 1. Focusing entirely on clamping the hook without attempting frame recovery
 
@@ -257,6 +267,8 @@ Time your hip escape to coincide with the opponent's extraction attempt. As they
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Complete Pass from Flattened Half?</p>
+
 **Phase 1: Recognition** - Identifying extraction attempts through tactile and visual cues
 Partner performs multiple extraction attempts while you focus on recognizing the cues: hip shift, far hip control, knee drive. Call out each cue as you feel it without attempting any defense. Build the pattern recognition that enables timely defensive responses.
 
@@ -273,26 +285,6 @@ Positional sparring starting from flattened half guard with full resistance. Def
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is simply holding the hook a losing defensive strategy against a skilled passer?
-**A**: A skilled top player will methodically create angles through hip shifting, knee slicing, and backstep mechanics that eventually overcome any hook no matter how tightly you clamp. The hook is a time-buying mechanism, not a permanent solution. The time it provides must be used for active frame recovery - inserting elbows, recovering underhooks, or creating space for knee shield insertion. Without this progressive recovery work, the hook only delays the inevitable pass.
-
-**Q2**: What is the primary recognition cue that your opponent is about to attempt the extraction?
-**A**: The most reliable cue is feeling your opponent shift their hips to one side while maintaining chest pressure. This hip shift creates the diagonal angle necessary for knee slice extraction and is the preparatory movement that precedes the actual extraction drive. A secondary cue is their free hand moving to control your far hip, which indicates they are preparing to prevent your shrimp during the extraction. Recognizing these cues early gives you the time needed to begin your defensive response.
-
-**Q3**: How should you time your hip escape relative to the opponent's extraction attempt?
-**A**: Execute your hip escape at the moment the opponent begins their knee drive, not before. If you shrimp too early, they can adjust their angle and follow your movement. If you shrimp during the knee drive, their attention and energy are committed to the extraction, and they cannot simultaneously maintain full pressure and follow your hip escape. This timing exploits the fundamental conflict between extraction mechanics and pressure maintenance that the top player faces.
-
-**Q4**: Your opponent has both crossface and far hip control as they begin extraction. What is your best defensive option?
-**A**: With both controls established, your best option is to attempt a deep half guard entry if their hips rise during the extraction, or to clamp the hook as tightly as possible while working your inside elbow toward their hip line to create a frame. The far hip control limits your shrimp, so you must look for the micro-opportunities when their hand shifts or their pressure adjusts. Focus on getting your inside elbow to their hip as the immediate priority, as this single frame can create enough space for a follow-up shrimp.
-
-
-
-</section>
 
 
 </main>

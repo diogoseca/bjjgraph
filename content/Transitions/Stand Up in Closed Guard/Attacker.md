@@ -194,6 +194,8 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stand Up in Closed Guard?</p>
+
 - Recover full posture before attempting to stand—standing from broken posture invites sweeps and submissions during the transition
 - Place hands on opponent's hips or torso, never on the mat, to maintain control connection and prevent them from following your movement
 - Stand with a staggered stance using one foot first for maximum anteroposterior balance against pulling forces
@@ -209,6 +211,8 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stand Up in Closed Guard?</p>
+
 - Full upright posture recovered with spine straight, head over hips, and chest elevated above opponent's pulling range
 - Opponent's most dangerous collar and sleeve grips broken or neutralized through systematic grip fighting
 - Both hands positioned firmly on opponent's hips, lower abdomen, or gi pants with fingers pointing toward their head
@@ -221,6 +225,8 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stand Up in Closed Guard step by step?</p>
 
 1. **Recover Posture and Break Grips**: Establish full upright posture with spine straight, head over hips, and chest elevated. Break any collar or sleeve grips that could prevent standing by using two-on-one grip breaks or circular wrist movements. This step is non-negotiable—attempting to stand from broken posture is the single most common cause of failure.
 2. **Establish Hand Position on Hips**: Place both hands firmly on your opponent's hips or lower abdomen with palms pressing downward. This creates a stable platform supporting your weight during the transition while simultaneously pinning their hips to limit offensive angle creation. Fingers point toward their head to maintain strong wrist alignment throughout the standing motion.
@@ -251,6 +257,8 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stand Up in Closed Guard?</p>
+
 - **Bottom player breaks posture with collar drag or head pull during stand-up attempt, collapsing the standing structure** (Effectiveness: High) - Your Response: Secure hand position on both hips before initiating stand, break collar grip with two-on-one grip break before committing to the standing motion → Leads to [[Positions/Closed Guard]]
 - **Bottom player shoots hips up for armbar or triangle during the single-knee-up transition phase** (Effectiveness: Medium) - Your Response: Keep elbows tight to your body and weight back over your base during the transition—never lean forward or post hands on the mat where they can be isolated → Leads to [[Positions/Half Guard]]
 - **Bottom player hooks your sleeve and uses upward momentum to execute overhead or flower sweep during the standing transition** (Effectiveness: Medium) - Your Response: Strip sleeve grip before committing to stand, maintain both hands connected to opponent's body throughout the ascent to deny them leverage for sweeping → Leads to [[Positions/Half Guard]]
@@ -262,6 +270,8 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stand Up in Closed Guard?</p>
 
 ### 1. Attempting to stand without first recovering full upright posture and breaking dangerous grips
 
@@ -301,6 +311,8 @@ As the attacker executing the stand up in closed guard, your objective is to tra
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stand Up in Closed Guard (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Standing motion and balance
 Practice the standing sequence without a partner, focusing on the mechanics of transitioning from kneeling to standing with staggered stance. Drill posting one foot, driving up, and establishing balanced standing position. Repeat 20 times per side, focusing on keeping imaginary hand contact with an opponent's hips throughout.
 
@@ -318,42 +330,12 @@ Positional sparring starting in closed guard top with full resistance. Top playe
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal hand placement before initiating the standing sequence and why?
-**A**: Place both hands firmly on your opponent's hips or lower abdomen with palms pressing downward and fingers pointing toward their head. This position serves three critical functions: it creates a stable base for the standing motion, it pins the opponent's hips to prevent them from creating offensive angles, and it maintains continuous connection that prevents them from sitting up to attack during the transition.
-
-**Q2**: Why should you stand with a staggered stance rather than both feet parallel?
-**A**: A staggered stance provides significantly better anteroposterior balance against the pulling forces your opponent generates with their locked guard and grip control. With feet parallel, a strong collar pull directly forward or a hip extension pushing you backward can easily break your balance. The staggered stance creates a triangular base of support that resists forces from multiple directions while maintaining enough mobility for weight shifting and guard-breaking hip pressure.
-
-**Q3**: Your opponent grabs your collar with both hands as you begin to post your first foot—how do you respond?
-**A**: Abort the standing attempt and immediately address the grips before continuing. Use a two-on-one grip break on the more dominant collar grip first, typically the cross collar grip, by grabbing their wrist with both hands and pushing it toward their centerline while pulling your collar free. Once the primary grip is broken, address the secondary grip. Only resume the standing sequence once both collar grips are neutralized, as standing into double collar grips virtually guarantees being pulled back down.
-
-**Q4**: What is the critical weight distribution principle during the transition from kneeling to standing?
-**A**: Keep your center of gravity positioned directly over your base of support throughout the entire transition—your hips must remain under your shoulders at all times. The most common failure occurs when practitioners lean forward over their opponent during the stand-up, which shifts their weight past their base and makes them vulnerable to sweeps that use their forward momentum. Drive upward and slightly backward during the ascent, ensuring your weight stays over your own feet rather than projecting forward over the opponent's guard.
-
-**Q5**: Once standing, how do you apply pressure to break the closed guard ankle lock?
-**A**: Extend your hips forward while maintaining upright posture, pressing your lower abdomen and hip bones against the opponent's crossed ankles. This leverages your entire body weight through the strongest skeletal structure available—your pelvis—against the relatively weak ankle lock of crossed feet. Simultaneously push their hips toward the mat with your hands to prevent them from climbing higher and adjusting their lock. Never pry with your hands or try to reach behind to uncross their ankles, as this removes your control connection and exposes your arms.
-
-**Q6**: Your opponent shoots their hips up for an armbar as you post your foot to stand—what caused this vulnerability and how do you prevent it?
-**A**: This vulnerability occurs when you lean forward during the foot post, placing your weight over the opponent's hips rather than keeping it over your own base. The forward lean brings your arm within range of their hip elevation for armbar attacks. Prevent this by driving upward and slightly backward when posting your foot, keeping your elbows tight to your body rather than extended, and maintaining both hands pressed down on their hips so they cannot create the upward hip angle needed for the armbar entry. If caught mid-transition, immediately drive your weight back and retract your arm.
-
-**Q7**: What is the most common grip configuration the bottom player uses to prevent your stand-up and how do you address it?
-**A**: The most effective anti-stand-up grip combination is a cross collar grip paired with a same-side sleeve grip. The collar grip enables posture breaking and pulling you back down, while the sleeve grip prevents you from establishing hand position on their hips and controls one arm for submission threats. Address these grips sequentially, breaking the collar grip first with a two-on-one break since it poses the greater threat to your posture, then stripping the sleeve grip before re-establishing both hands on their hips and initiating the stand.
-
-**Q8**: After successfully opening the guard from standing, what should your immediate priority be and why?
-**A**: Immediately control both of your opponent's legs by gripping pants at the knees or ankles, or by pressing your forearms against their shins. The guard opening creates a brief window—approximately one to two seconds—before the opponent can establish organized open guard with hooks on your hips, sleeve grips, and active frames. If you hesitate during this window, they transition from a broken closed guard to an effective open guard and you lose the positional advantage gained from standing. The guard break and leg control must function as a single continuous motion.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stand Up in Closed Guard?</p>
 
 Standing up in closed guard carries inherent balance risks that both practitioners must manage. Ensure stable footing before committing to the standing motion, as falling backward while standing can cause injury to both players. Avoid explosive jerking motions when breaking the guard open, as sudden forceful guard breaks can strain the bottom player's lower back or ankles. When training this technique, bottom players should release their guard voluntarily if they feel excessive pressure on their ankles rather than holding a guard that is clearly broken. On mats with seams or uneven surfaces, check footing before standing to prevent slipping during the transition.
 

@@ -154,6 +154,8 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Step Over from X-Guard?</p>
+
 - Top player breaks your grip on their trapped ankle or strips your pant or sleeve control
 - Top player drives their knee forward and down, compressing your inside hook and reducing its depth behind their knee
 - Top player's free hand moves to pin your far hip or knee to the mat rather than fighting for upper body grips
@@ -166,6 +168,8 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Step Over from X-Guard?</p>
 
 - Maintain deep inside hook behind the top player's knee at all times to prevent the compression that sets up the step over
 - Keep a strong grip on the trapped ankle to prevent the top player from extracting their leg and breaking your guard structure
@@ -180,6 +184,8 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Step Over from X-Guard?</p>
 
 ### 1. Re-engage deep hooks by driving hips upward and reinserting inside leg behind knee
 
@@ -217,6 +223,8 @@ As the defender in X-Guard bottom when the top player attempts the Step Over pas
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Step Over from X-Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your sweep during the top player's single-leg balance phase. As they lift their free leg, drive your hips upward and direct the trapped leg laterally to dump them off-balance. The single-leg stance makes them extremely vulnerable to directional force.
@@ -232,6 +240,8 @@ Maintain deep hooks and strong ankle grips throughout the top player's compressi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Step Over from X-Guard?</p>
 
 ### 1. Allowing hooks to become shallow without proactively adjusting or transitioning to another guard
 
@@ -261,6 +271,8 @@ Maintain deep hooks and strong ankle grips throughout the top player's compressi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Step Over from X-Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying step over initiation cues and reacting immediately
 Partner announces and slowly executes each stage of the step over setup. Practice identifying each cue including grip break, knee compression, hip pin, and weight shift. Call out each cue as you feel it. Build pattern recognition at slow speed before adding resistance.
 
@@ -277,26 +289,6 @@ Start in X-Guard bottom against a partner using all passing techniques including
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a step over pass is being set up?
-**A**: The earliest cue is the top player breaking your grip on their trapped ankle. This is the prerequisite action that precedes all step over attempts, as the ankle grip prevents leg extraction and hook re-engagement. When you feel this grip being stripped, immediately re-grip and elevate hips to prevent further setup progression.
-
-**Q2**: Why is the single-leg balance phase the best moment to attempt a sweep?
-**A**: During the single-leg phase, the top player has removed one of their two base points and is balancing on the leg that is still partially trapped in your guard. This creates maximum vulnerability to lateral force because they cannot post with their free leg to recover balance. A well-timed directional push at this moment requires minimal force to complete a sweep.
-
-**Q3**: When should you transition from X-Guard to Single Leg X instead of trying to maintain your current position?
-**A**: Transition to Single Leg X when your inside hook behind the knee has become too shallow to re-seat despite hip elevation attempts, but your outside leg still has foot-on-hip contact. Rather than fighting for a compromised X-Guard, SLX maintains leg control through a different configuration that requires the top player to restart their passing approach entirely.
-
-**Q4**: What is the biggest risk of attempting to block the stepping leg with your hands?
-**A**: If you release your ankle grip to frame against the stepping leg and your frames are too weak to stop the arc, you lose both your primary control point and your hand position for guard recovery. The top player completes the pass with your hands displaced from any useful defensive structure, making side control consolidation almost guaranteed.
-
-
-
-</section>
 
 
 </main>

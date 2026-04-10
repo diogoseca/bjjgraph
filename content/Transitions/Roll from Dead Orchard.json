@@ -83,7 +83,7 @@
       "relationship": "Related escape pathway from dead orchard control"
     },
     {
-      "name": "Dead Orchard to Anaconda Finish",
+      "name": "Anaconda Choke from Dead Orchard",
       "relationship": "Submission threat that motivates this escape attempt"
     },
     {
@@ -103,8 +103,8 @@
       "relationship": "Common preceding position before dead orchard is established"
     },
     {
-      "name": "Anaconda Finish from Dead Orchard",
-      "relationship": "Primary submission threat that makes this escape critical"
+      "name": "Anaconda Control to Dead Orchard Control",
+      "relationship": "Transition into dead orchard that creates the situation requiring this escape"
     }
   ],
   "attacker": {

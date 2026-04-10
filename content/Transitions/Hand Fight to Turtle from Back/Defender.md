@@ -146,6 +146,8 @@ As the practitioner maintaining back control, your objective is to prevent the o
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hand Fight to Turtle from Back?</p>
+
 - Opponent establishes deliberate two-on-one grip control on your choking arm rather than defending passively with single-hand fighting
 - Opponent's hips begin shifting laterally to create angle toward the bottom hook side, indicating preparation for rotation
 - Opponent's breathing becomes controlled and rhythmic rather than panicked, suggesting a systematic escape plan rather than reactive scrambling
@@ -158,6 +160,8 @@ As the practitioner maintaining back control, your objective is to prevent the o
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hand Fight to Turtle from Back?</p>
 
 - Maintain constant forward chest pressure against opponent's back to limit space for hip movement and rotation mechanics
 - Re-establish harness grip immediately when opponent strips it through persistent re-gripping and grip variation switching
@@ -172,6 +176,8 @@ As the practitioner maintaining back control, your objective is to prevent the o
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hand Fight to Turtle from Back?</p>
 
 ### 1. Immediately re-establish harness grip using persistent re-gripping and grip variation switching
 
@@ -209,6 +215,8 @@ As the practitioner maintaining back control, your objective is to prevent the o
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hand Fight to Turtle from Back?</p>
+
 ### → [[Positions/Back Control]]
 
 Persistently re-establish harness grip each time the opponent strips it, switching between seatbelt variations and grip configurations to exhaust their grip fighting. Maintain deep hook pressure with active downward force to prevent hip escape. Use submission threats to interrupt their systematic stripping rhythm.
@@ -224,6 +232,8 @@ When the opponent commits to the rotation and strips your upper body control, fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hand Fight to Turtle from Back?</p>
 
 ### 1. Holding grips statically without adjusting position or switching grip configurations
 
@@ -253,6 +263,8 @@ When the opponent commits to the rotation and strips your upper body control, fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hand Fight to Turtle from Back?</p>
+
 **Phase 1: Grip Retention Drilling** - Maintaining and re-establishing harness grip against progressive hand fighting
 Partner works two-on-one grip strips while you practice immediate re-gripping, grip variation switching, and maintaining hook pressure throughout. Start with light hand fighting resistance and increase progressively. Focus on developing the reflex to re-grip within one second of any strip attempt succeeding.
 
@@ -266,23 +278,6 @@ Positional sparring starting from back control where the partner can use any esc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a hand fight to turtle escape rather than simply defending the choke?
-**A**: The earliest cue is when your opponent establishes a deliberate two-on-one grip on your choking arm with controlled pulling mechanics rather than panicked single-hand neck defense. Passive choke defense typically involves tucking the chin and using both hands to block your arm from getting under the chin. Active escape initiation shows as systematic grip breaking where the opponent grabs your wrist with both hands and begins peeling it away from their neck with purpose and control.
-
-**Q2**: When should you choose to follow your opponent to mount versus fighting to retain back control?
-**A**: Follow to mount when two conditions are met: first, your harness grip has been fully stripped and re-gripping has failed on multiple attempts, and second, the opponent has cleared at least one hook and begun rotating their hips. At this point, the energy cost of fighting for back retention exceeds the likely success, while mount remains achievable by following their rotation. The decision point is when you feel their shoulders turning away from you with momentum.
-
-**Q3**: How should you modify your grip strategy when your opponent consistently strips your seatbelt using two-on-one fighting?
-**A**: Switch grip configurations to change the problem. If your standard seatbelt is being stripped, transition to a chinstrap grip where your choking hand controls under the chin rather than around the neck. Alternatively, switch to a short choke grip that is harder to strip with two-on-one mechanics. You can also transition to gift wrap control by threading your arm through theirs when they reach for your wrist, converting their stripping attempt into an arm trap that improves your control.
-
-
-
-</section>
 
 
 </main>

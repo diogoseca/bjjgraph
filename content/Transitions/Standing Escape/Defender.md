@@ -166,6 +166,8 @@ Understanding the escaping player's decision points allows you to anticipate and
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Standing Escape?</p>
+
 - Defender establishes two-on-one grip on your collar-gripping wrist and begins pulling it away from their neck—this is the first preparatory action before any standing attempt
 - Defender shifts weight laterally onto one hip and begins posting a foot flat on the mat with bent knee, creating the combat base launch position for standing
 - Defender's chin tucks aggressively into their chest and their body begins to angle forward, indicating they are preparing to drive upward through their legs rather than escape laterally
@@ -178,6 +180,8 @@ Understanding the escaping player's decision points allows you to anticipate and
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Standing Escape?</p>
 
 - Maintain collar grip depth as the primary deterrent—a deep invisible collar makes the Standing Escape self-defeating because vertical movement tightens the choke
 - Monitor the escaping player's two-on-one wrist control attempts and counter-grip immediately rather than allowing them to establish the configuration unchallenged
@@ -192,6 +196,8 @@ Understanding the escaping player's decision points allows you to anticipate and
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Standing Escape?</p>
 
 ### 1. Deepen collar grip and apply immediate choking pressure by rotating your forearm toward your chest and driving knuckles into their neck
 
@@ -229,6 +235,8 @@ Understanding the escaping player's decision points allows you to anticipate and
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Standing Escape?</p>
+
 ### → [[Positions/Rubber Guard/Invisible Collar]]
 
 Deepen collar grip at the first sign of two-on-one wrist fighting to make the standing escape self-defeating. Simultaneously tighten hooks and drive chest weight forward to prevent the postural change needed for combat base. The combination of deep grip and active hooks makes the escape too dangerous to attempt.
@@ -244,6 +252,8 @@ Execute a mat return during the standing phase by driving your hips forward and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Standing Escape?</p>
 
 ### 1. Allowing the defender to establish two-on-one wrist control without immediately counter-gripping or deepening the collar
 
@@ -273,6 +283,8 @@ Execute a mat return during the standing phase by driving your hips forward and 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Standing Escape?</p>
+
 **Week 1-2** - Recognition and grip maintenance
 Partner initiates standing escape preparations at slow speed while you practice recognizing the two-on-one wrist control setup and combat base transition. Focus on immediately deepening collar grip and tightening hooks upon recognition. Drill 15-20 repetitions per side with partner providing 25% resistance. Build the automatic response of counter-gripping when you feel the second hand contact your collar wrist.
 
@@ -289,29 +301,6 @@ Positional sparring from Invisible Collar top with full resistance. Partner uses
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is preparing a Standing Escape from Invisible Collar?
-**A**: The earliest cue is the defender establishing two-on-one grip control on your collar-gripping wrist. Before any postural change or weight shift occurs, they must first address the collar grip to make standing safe. When you feel a second hand contact your collar wrist and begin pulling it away from their neck, this is the definitive signal that a standing escape is being prepared. Responding at this stage—by deepening the grip or transitioning attacks—is far more effective than waiting for the standing motion itself.
-
-**Q2**: Why is the body triangle the most effective preventive counter against the Standing Escape?
-**A**: The body triangle eliminates the hip mobility required to establish combat base, which is the mandatory launch platform for the standing escape. Without the ability to hip escape onto one side and post a foot, the defender cannot create the base position from which to drive upward. The body triangle also dramatically increases your control during any standing attempt because the figure-four lock distributes force across your entire lower body rather than relying on individual hooks that can be peeled sequentially.
-
-**Q3**: Your opponent has reached their feet and begins peeling your bottom hook—what is the optimal timing for a mat return?
-**A**: The optimal mat return timing is after they commit their free hand to grabbing your bottom hook instep but before they successfully strip it. At this moment, one of their hands is occupied with hook removal and the other maintains wrist control on your collar hand, meaning they have zero defensive hands available for base. Drive your hips explosively forward while extending your legs to create downward momentum. Hook their far ankle with your top foot to prevent them from stepping out of the collapse.
-
-**Q4**: How should you adjust your collar grip strategy when the defender successfully creates slack through two-on-one wrist fighting?
-**A**: If two-on-one wrist fighting has already created significant collar slack, forcing the grip deeper may not be viable. Instead, use the situation tactically—release the collar grip suddenly and shoot for a rear naked choke while both their hands are committed to your collar wrist. The unexpected release creates a window where their defensive hands are misallocated. Alternatively, maintain the shallow collar while transitioning to body triangle, accepting that the choke is temporarily neutralized but preserving positional dominance for future attacks.
-
-**Q5**: What distinguishes a Standing Escape attempt from a lateral hip escape attempt in terms of early recognition and defensive response?
-**A**: The key distinction is the direction of weight shift and foot positioning. A lateral hip escape shifts weight sideways with both feet typically remaining on the ground or one knee driving, aiming to create lateral separation. A Standing Escape shifts weight forward onto one posted foot with the knee bent at 90 degrees, creating a vertical launch platform. The chin tuck is more aggressive in standing preparation, and you may feel a momentary pause as they assess grip depth before committing. Defensive response differs because hip escapes require lateral pressure to counter, while standing attempts require forward chest pressure and immediate hook tightening to prevent the vertical drive.
-
-
-
-</section>
 
 
 </main>

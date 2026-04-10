@@ -82,7 +82,7 @@
       "relationship": "Similar technique - bridge escape applied from modified mount configuration"
     },
     {
-      "name": "Armbar from S Mount",
+      "name": "S Mount Armbar Setup",
       "relationship": "Primary submission threat - the attack this escape is designed to prevent"
     },
     {
@@ -278,6 +278,14 @@
       {
         "question": "Why is it dangerous to attempt consecutive bridge escapes without switching techniques?",
         "answer": "Each bridge attempt expends significant energy from the high-twitch muscle groups that power the explosive hip extension. A failed first bridge alerts the opponent to your escape strategy, allowing them to lower their center of gravity and tighten their base specifically against bridges. Repeated bridges drain your reserves while the opponent becomes progressively better positioned to counter. After a failed bridge, switching to frame-and-shrimp or trap-and-roll catches the opponent adjusting their defense and maintains unpredictability."
+      },
+      {
+        "question": "When should you avoid attempting the bridge escape from S Mount entirely?",
+        "answer": "Avoid the bridge escape when your trapped arm is already partially extended or your collar grip has been broken, as the bridge movement will accelerate arm exposure into armbar. Also avoid it when you cannot plant both feet flat on the mat, since a single-foot bridge lacks the force to displace the opponent. If you are severely fatigued and cannot generate an explosive committed bridge, choose the frame-and-shrimp escape instead, which relies more on incremental hip movement than explosive power and carries less counter-risk."
+      },
+      {
+        "question": "Your bridge successfully displaces the opponent but they scramble to re-mount rather than falling to the side - how do you prevent the re-mount?",
+        "answer": "As soon as you feel the opponent scrambling to recover mount, accelerate your hip escape and get your near knee across their hip line as a barrier. This knee shield prevents them from settling their hips back onto your torso. Frame against their chest with both arms to maintain distance while threading your far leg around their waist. If they are persistent, use the knee shield to create enough space to insert butterfly hooks rather than closed guard, as butterfly guard provides immediate sweep threats that discourage them from pressing forward into mount."
       }
     ],
     "safety_considerations": "Bridge escapes from S Mount carry inherent risk of accelerating arm submission if timing or arm protection fails. Never attempt to bridge with a straightened or partially extended arm, as the bridge movement can provide the opponent with the force needed to complete the armbar. If your arm becomes fully extended during any phase of the escape, tap immediately rather than continuing the bridge movement, which would increase hyperextension force on the elbow joint. Train this escape with progressive resistance, beginning at low intensity to develop proper arm protection habits before adding explosive bridge mechanics. Communicate clearly with training partners about submission thresholds."

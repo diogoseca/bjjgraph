@@ -148,6 +148,8 @@ As the half guard top player, your primary defense against the back door escape 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Back Door Escape from Half Guard?</p>
+
 - Opponent stops fighting for the underhook and begins hip escaping away from you rather than toward you, reversing their typical movement pattern
 - Opponent releases the half guard leg entanglement, freeing your trapped leg without attempting a sweep or guard transition
 - Opponent's shoulders begin rotating toward the mat with their back turning to face you, exposing the scapulae
@@ -160,6 +162,8 @@ As the half guard top player, your primary defense against the back door escape 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Back Door Escape from Half Guard?</p>
 
 - Maintain constant forward pressure through crossface and chest connection to eliminate the hip escape space needed to initiate the turn
 - Monitor opponent's hip movement direction continuously - a sudden shift away from you rather than toward you is the primary signal of a back door escape attempt
@@ -174,6 +178,8 @@ As the half guard top player, your primary defense against the back door escape 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Back Door Escape from Half Guard?</p>
 
 ### 1. Drive heavy crossface forward and sprawl hips to pin opponent flat, eliminating turning space
 
@@ -204,6 +210,8 @@ As the half guard top player, your primary defense against the back door escape 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Back Door Escape from Half Guard?</p>
+
 ### → [[Positions/Back Control]]
 
 Follow the opponent's turning motion with your chest glued to their back, establishing seatbelt control with the choking arm over their shoulder before they complete the turn to turtle. Insert the near-side hook first as their hips rotate, then secure the second hook once they settle. Stay connected throughout their movement rather than reaching or creating space between your chest and their back.
@@ -219,6 +227,8 @@ Recognize the escape attempt in its earliest phase when the opponent begins hip 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Back Door Escape from Half Guard?</p>
 
 ### 1. Sitting back on heels when sensing the escape attempt, creating space for the turn to develop
 
@@ -248,6 +258,8 @@ Recognize the escape attempt in its earliest phase when the opponent begins hip 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Back Door Escape from Half Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying escape cues before they develop
 Partner attempts back door escapes from half guard bottom while you focus exclusively on recognizing the initiation signals. Call out the escape verbally when you identify the attempt beginning, without trying to counter physically. Develop recognition speed and accuracy before adding any physical defensive responses.
 
@@ -264,26 +276,6 @@ Full positional sparring from half guard top where partner mixes conventional es
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest visual and tactile cues that indicate a back door escape attempt is about to begin?
-**A**: The earliest cues include the opponent ceasing their underhook fight and redirecting hip escape movement away from you rather than toward you, a noticeable relaxation in their framing pressure against your chest as they prepare to redirect energy, and small adjustments to their leg position preparing to release the half guard trap. The tactile cue of hip pressure shifting direction away from your body is the most reliable early indicator and should trigger immediate defensive response.
-
-**Q2**: When should you choose to follow the escape for a back take versus stuff the escape entirely?
-**A**: Stuff the escape when you recognize the intent before the turning motion begins, when the legs are still entangled and the opponent has only started the initial hip escape. Heavy crossface pressure and hip control can prevent the escape entirely at this stage. Follow for the back take once the opponent's shoulders have begun rotating and they have released or are releasing the leg entanglement. At that point, fighting the turn wastes energy and creates scrambles, while following with your chest gives you direct access to the exposed back.
-
-**Q3**: Your opponent completes the back door escape to turtle before you can establish back control - what are your immediate priorities?
-**A**: Immediately establish chest pressure on their upper back while working for seatbelt grip. Do not reach around wildly. Methodically establish the over-under harness by threading your choking arm over their shoulder while your other arm goes under their armpit. Keep your hips connected to their hips to prevent sit-throughs and technical standups. Time is critical because their first action will be to initiate a turtle escape, so establishing at least one hook and seatbelt within three seconds is essential for converting to full back control.
-
-**Q4**: How does your weight distribution as the half guard top player affect the opponent's ability to execute the back door escape?
-**A**: Forward-distributed weight through your chest and crossface makes the initial hip escape nearly impossible, effectively preventing the escape before it develops. Weight distributed too far back on your heels or hips creates the space between your chest and their body that the escape requires for the turning motion. However, extremely forward weight commitment can be exploited by the opponent using your momentum to accelerate their turn. The optimal distribution is heavy forward pressure with lateral mobility, keeping approximately seventy percent of weight through your upper body connection.
-
-
-
-</section>
 
 
 </main>

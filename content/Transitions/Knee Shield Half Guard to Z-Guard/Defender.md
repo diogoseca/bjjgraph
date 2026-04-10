@@ -154,6 +154,8 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Shield Half Guard to Z-Guard?</p>
+
 - Bottom player begins a short bridge or hip bump that lifts your weight slightly off their knee shield, creating space for the knee to travel upward
 - Bottom player's far hand releases a controlling grip and reaches for your collar, sleeve, or attempts to deepen their underhook, indicating grip preparation for the transition
 - Bottom player hip escapes laterally to create an angular gap between your torso and their knee shield, which allows the knee to slide upward along the newly created angle
@@ -165,6 +167,8 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Shield Half Guard to Z-Guard?</p>
 
 - Maintain constant forward pressure to deny the space needed for knee shield elevation throughout the passing engagement
 - Control the bottom player's knee shield leg at the knee or ankle to physically prevent upward travel of the shin along your torso
@@ -179,6 +183,8 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Shield Half Guard to Z-Guard?</p>
 
 ### 1. Drive immediate forward pressure surge when you feel the bridge or hip movement beginning
 
@@ -216,6 +222,8 @@ As the defender (top player in Knee Shield Half Guard), your goal is to prevent 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Shield Half Guard to Z-Guard?</p>
+
 ### → [[Positions/Half Guard/Flattened Half Guard]]
 
 Capitalize on the momentary instability during the bottom player's elevation attempt by driving heavy crossface pressure and shoulder weight into them as their knee shield is in transition between positions. The frame is weakest during movement, and a well-timed pressure surge can collapse it completely into flattened half guard.
@@ -231,6 +239,8 @@ Control the knee shield leg at the knee or ankle before it reaches shoulder heig
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Shield Half Guard to Z-Guard?</p>
 
 ### 1. Sitting back on heels and creating space between your torso and the bottom player's knee shield
 
@@ -260,6 +270,8 @@ Control the knee shield leg at the knee or ankle before it reaches shoulder heig
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Shield Half Guard to Z-Guard?</p>
+
 **Recognition Drilling** - Identifying transition attempts
 Bottom player attempts the Z-Guard transition at various speeds and with different setups. Top player's sole job is to verbally call out the attempt the instant they recognize it. No countering allowed initially—pure recognition development. Progress from slow-motion attempts to full-speed transitions.
 
@@ -276,26 +288,6 @@ During regular rolling sessions, top player focuses on maintaining pressure that
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest physical cues that indicate the bottom player is about to attempt the Z-Guard transition?
-**A**: The earliest cues are hip movement and grip adjustment. A short bridge or lateral hip escape creates the space needed for knee elevation, and this always precedes the knee movement itself. Additionally, the bottom player will often release a controlling grip momentarily to establish a deeper underhook or collar tie, which signals preparation for the transition. Recognizing these pre-movement indicators allows you to respond before the knee begins traveling.
-
-**Q2**: Why is it important to prevent the Z-Guard transition rather than just dealing with Z-Guard once it is established?
-**A**: Z-Guard is significantly harder to pass than standard knee shield half guard. The elevated frame creates better distance, superior sweep angles, and direct back take access. Preventing the transition keeps the bottom player in a less advantageous position where your passing strategies are more effective. Additionally, the bottom player builds momentum through successful transitions, and each positional upgrade increases their confidence and offensive output.
-
-**Q3**: Your opponent begins hip escaping and you feel their knee shield starting to creep upward. What is your immediate response sequence?
-**A**: First, drive your hips forward to apply a pressure surge that opposes their hip escape direction. Second, use your near hand to control their knee shield leg at the knee, pressing it downward to prevent further upward travel. Third, establish or re-establish your crossface with the far hand to limit their upper body mobility. The combination of forward pressure, leg control, and crossface addresses all three mechanical requirements the bottom player needs for a successful elevation.
-
-**Q4**: How do you balance preventing the Z-Guard transition with maintaining your own passing offense?
-**A**: The prevention should be integrated into your passing strategy rather than treated as a separate task. Maintain the grips and pressure that both prevent the transition and enable your passes. A strong crossface prevents the elevation and sets up knee slice passes. Controlling the knee shield leg blocks the transition and opens smash pass entries. The key insight is that good passing pressure inherently denies the Z-Guard transition because both require controlling the same contact points.
-
-
-
-</section>
 
 
 </main>

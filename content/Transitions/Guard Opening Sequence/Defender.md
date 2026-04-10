@@ -168,6 +168,8 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Guard Opening Sequence?</p>
+
 - Opponent straightens their spine and lifts their head, establishing strong upright posture - this signals the beginning of a guard opening sequence
 - Opponent begins walking their hands down toward your hips, belt, or pants near your knees - they are establishing opening grips
 - Opponent shifts weight backward with hips moving away from you, creating distance between your hips - they are preparing to stand or use combat base opening
@@ -181,6 +183,8 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Guard Opening Sequence?</p>
 
 - Break opponent's posture continuously - an opponent with broken posture cannot initiate guard opening mechanics
 - Win the grip battle by establishing dominant collar, sleeve, and wrist grips before they can secure opening grips on your legs
@@ -196,6 +200,8 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Guard Opening Sequence?</p>
 
 ### 1. Break posture with collar grip and heel pressure to prevent opening initiation
 
@@ -240,6 +246,8 @@ As the defender against the Guard Opening Sequence, you are the closed guard bot
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Guard Opening Sequence?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Maintain closed guard by breaking opponent's posture with combined collar grip pulling and heel pressure into their lower back. Win grip battles to deny them opening grips on your legs. Use continuous posture breaks so they cannot progress through the opening sequence.
@@ -255,6 +263,8 @@ Time a hip bump sweep when opponent sits their hips back during opening attempt,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Guard Opening Sequence?</p>
 
 ### 1. Relying solely on squeezing legs tighter to prevent the opening rather than using grips and posture breaks
 
@@ -289,6 +299,8 @@ Time a hip bump sweep when opponent sits their hips back during opening attempt,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Guard Opening Sequence?</p>
+
 **Week 1-2: Guard Retention Fundamentals** - Maintaining closed guard closure against progressive opening attempts
 Partner attempts guard opening at 30-50% intensity while you focus on ankle lock positioning, heel pressure, and basic posture breaking with collar grips. Learn to feel the early signals of opening attempts and respond with posture breaks before they develop momentum.
 
@@ -305,29 +317,6 @@ Accept that the guard will sometimes open and practice immediate transitions to 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your primary defensive priority when you feel the opponent beginning to establish upright posture inside your closed guard?
-**A**: Your primary priority is breaking their posture immediately before they can complete the postural setup. Establish a deep cross-collar grip and combine it with aggressive heel pressure pulling their lower back toward you. Simultaneously pull their head and shoulders forward with your grip. The goal is to curl them back down before they achieve the upright spine alignment that enables opening mechanics. Acting within the first two seconds of their posture attempt is critical because once established, strong posture becomes progressively harder to break.
-
-**Q2**: Your opponent has established strong posture and is reaching for your pants - what sweep opportunity does this create?
-**A**: When the opponent reaches both hands toward your legs, their upper body weight shifts backward and their posting ability is eliminated because their hands are committed low. This creates the perfect timing for a hip bump sweep. Sit up explosively toward their chest while controlling one of their wrists, driving your hip into their centerline. They cannot post because their hands are reaching for your legs. Even if the sweep does not complete, it forces them to abandon the grip attempt and reset their base, buying you time to re-break their posture.
-
-**Q3**: How should you adjust your defense when the opponent transitions from combat base to a full standing guard break?
-**A**: As they stand, your defensive strategy must shift from posture breaking to sweep threats and grip control. Grab both of their sleeves or wrists immediately to control their arms. Uncross your ankles and place your feet on their hips to maintain connection while they are elevated. From here, threaten elevator sweeps by hooking one leg, lumberjack sweeps by pulling both sleeves and kicking their legs, or transition to collar-sleeve open guard. The standing position gives them more opening leverage but also makes them more vulnerable to sweeps because their base is elevated.
-
-**Q4**: When is it correct to voluntarily open your guard rather than fighting to maintain closure?
-**A**: Voluntarily open your guard when the opponent has established dominant opening grips, strong posture, and mechanical advantage that makes continued closure energy-wasteful and inevitable to fail. Also open voluntarily when you want to transition to a specific open guard system that offers better offensive opportunities against their passing style - for example, transitioning to de la riva against a standing opponent or spider guard against a kneeling opponent. The key is that the transition must be on your terms with grips already planned, not a desperate last moment scramble when your ankles are forced apart.
-
-**Q5**: What grip combination gives you the best chance of preventing a standing guard break?
-**A**: A deep cross-collar grip combined with a same-side sleeve grip on their far arm provides the strongest prevention against standing breaks. The collar grip controls their posture and prevents them from fully extending upright. The sleeve grip denies them the pant grip they need on that side for the standing break. This combination allows you to break their posture, threaten triangles if they isolate the gripped arm, and set up hip bump sweeps when they attempt to create distance. Without both grips, they can work around single-grip defense.
-
-
-
-</section>
 
 
 </main>

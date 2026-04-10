@@ -166,6 +166,8 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hand Fighting from Back?</p>
+
 - Opponent's hands move simultaneously to your choking arm wrist and forearm, establishing the two-on-one defensive configuration
 - Opponent tucks chin aggressively toward chest and turns head slightly toward your choking arm side, closing neck access angles
 - Opponent stops addressing your hooks or body position and redirects all hand activity exclusively to your upper body attacking arms
@@ -177,6 +179,8 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hand Fighting from Back?</p>
 
 - Maintain chest-to-back pressure throughout grip exchanges to prevent the bottom player from creating rotational space for escape
 - Use arm switches and re-pummel sequences to defeat two-on-one control rather than fighting a losing strength battle on one arm
@@ -191,10 +195,12 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Hand Fighting from Back?</p>
+
 ### 1. Switch choking arm by withdrawing the controlled arm and immediately attacking with the opposite arm over the other shoulder
 
 - **When to use**: When opponent has fully committed both hands to your primary choking arm and cannot redirect quickly enough
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Opponent must release established grips and redirect both hands to new threat, creating a brief window where choke can advance past their defense
 - **Risk**: Momentarily weakens your seatbelt control during the switch, creating a potential escape window if opponent times hip escape during transition
 
@@ -208,7 +214,7 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 ### 3. Drive choking arm elbow tight to opponent's body and re-pummel underneath their defending hands to re-establish deeper neck access
 
 - **When to use**: When opponent has stripped your choking arm to a shallow position but has not yet cleared it fully across their body
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Turtle]]
 - **If successful**: Regains deep choking position despite their defensive grips, advancing the choke past the point where two-on-one defense is effective
 - **Risk**: Requires significant grip strength and may fatigue your arm if opponent's defensive grips are well-established
 
@@ -227,11 +233,13 @@ Advanced back controllers use hand fighting exchanges as opportunities rather th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hand Fighting from Back?</p>
+
 ### → [[Positions/Back Control]]
 
 Maintain hooks and harness control while defeating hand fighting through arm switches, re-pummel sequences, and grip fighting. Use body compression to fatigue opponent's grip endurance. Cycle between choking arm attacks and positional adjustments to keep opponent reactive and prevent them from building escape momentum.
 
-### → [[game-over]]
+### → [[Positions/Half Guard]]
 
 Finish the rear naked choke or alternative submission by exploiting the windows created during hand fighting exchanges. Time arm switches when opponent is mid-grip adjustment, use gift wrap to eliminate one defensive arm, or wait for grip fatigue to allow deep choking arm penetration past their declining two-on-one resistance.
 
@@ -242,6 +250,8 @@ Finish the rear naked choke or alternative submission by exploiting the windows 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hand Fighting from Back?</p>
 
 ### 1. Engaging in a pure grip strength battle on the controlled arm rather than switching or re-pummeling
 
@@ -271,6 +281,8 @@ Finish the rear naked choke or alternative submission by exploiting the windows 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hand Fighting from Back?</p>
+
 **Week 1-2** - Grip re-pummel and arm switching
 Partner establishes two-on-one defense from back control bottom while you practice switching choking arms and re-pummeling under their grips. Focus on smooth arm transitions without losing harness control. Partner provides static defensive grips for repetition drilling.
 
@@ -284,29 +296,6 @@ Partner provides full resistance hand fighting while you work complete sequences
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is switching your choking arm more effective than fighting the opponent's two-on-one grip directly?
-**A**: The opponent's two-on-one grip provides inherent mechanical advantage with both hands controlling one arm. Fighting directly into this structure is a losing strength proposition. Switching arms forces them to release established grips and redirect both hands to a completely new threat, creating a transition window where your fresh arm can advance past their scrambling defense before new grips stabilize.
-
-**Q2**: What positional adjustments should you make when you recognize your opponent has initiated systematic hand fighting?
-**A**: Tighten chest-to-back connection to eliminate escape space, squeeze hooks or body triangle to increase compression and drain grip endurance, and ensure your control arm maintains strong harness position. Adjust your angle so your choking arm side is higher, making it harder for them to strip your arm downward. Consider transitioning to gift wrap if their hand fighting is consistently defeating your direct choke attempts.
-
-**Q3**: How does your opponent's hand fighting commitment create vulnerabilities you can exploit?
-**A**: When both of opponent's hands are committed to your choking arm, they cannot frame against your chest pressure, address your hooks, or initiate hip escape simultaneously. This creates opportunities for gift wrap entries with your control arm, tighter body compression through hooks, and positional adjustments that worsen their escape angle. Their narrow defensive focus trades overall positional defense for localized arm control.
-
-**Q4**: Your choking arm has been stripped to a shallow position but opponent has not fully cleared it - what is your response?
-**A**: Drive your elbow tight against their ribcage and re-pummel underneath their gripping hands to regain deeper neck access. Use a swimming motion with your forearm to slide under their wrist control rather than pulling directly against their grip. Simultaneously tighten your control arm harness to limit their ability to adjust body position during the re-pummel sequence. This approach recovers attacking position without the risks of a full arm switch.
-
-**Q5**: When should you transition from choke hunting to positional maintenance against strong hand fighters?
-**A**: Transition to positional maintenance when repeated choke attempts are being consistently defeated and your arms are fatiguing. Focus on maintaining hooks, chest pressure, and basic harness control while using body compression to drain opponent's grip endurance over time. A patient approach preserves your energy advantage and allows you to re-attack when their defensive grips weaken from sustained isometric effort against your body weight and squeeze pressure.
-
-
-
-</section>
 
 
 </main>

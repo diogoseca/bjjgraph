@@ -162,6 +162,8 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Recovery from Crucifix?</p>
+
 - Bottom player's free arm shifts from defending the neck to pushing against your controlling leg or top knee
 - Bottom player begins shrimping or hip escaping away from the trapped arm side, changing their body angle relative to your position
 - Increased pulling tension on the trapped arm combined with rotational movement as they attempt to reduce arm cross-section
@@ -174,6 +176,8 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Recovery from Crucifix?</p>
 
 - Maintain constant baseline squeeze pressure on the leg triangle—relaxation creates extraction windows that accumulate over multiple escape attempts
 - Follow the opponent's hip escapes with corresponding hip adjustments to close created angles and maintain perpendicular body alignment
@@ -188,6 +192,8 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Recovery from Crucifix?</p>
 
 ### 1. Squeeze leg triangle tighter and adjust angle to close the extraction path created by opponent's hip escape
 
@@ -225,6 +231,8 @@ As the crucifix top player, your role when the opponent attempts arm recovery is
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Recovery from Crucifix?</p>
+
 ### → [[Positions/Crucifix]]
 
 Maintain leg triangle integrity by following hip escape movements with your own adjustments and threatening chokes when the free arm leaves neck defense. Use moderate sustained squeeze rather than maximum effort to conserve energy while denying extraction angles.
@@ -240,6 +248,8 @@ Capitalize on the opponent's committed hip escape by using the angle they create
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Recovery from Crucifix?</p>
 
 ### 1. Maintaining static position without adjusting to the bottom player's hip escape movements
 
@@ -269,6 +279,8 @@ Capitalize on the opponent's committed hip escape by using the angle they create
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Recovery from Crucifix?</p>
+
 **Phase 1: Control Maintenance** - Maintaining leg triangle integrity under progressive escape pressure
 Bottom player attempts arm extraction at increasing resistance levels—30%, 50%, 70%, then full resistance. Focus exclusively on maintaining squeeze integrity, following hip movements with your own adjustments, and recognizing extraction attempts early through tactile and visual cues. No submissions attempted during this phase.
 
@@ -282,29 +294,6 @@ Competition-pace positional sparring starting from established crucifix. Score p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What visual and tactile cue most reliably indicates the bottom player is about to attempt arm recovery?
-**A**: The most reliable cue is the free arm shifting from neck defense to pushing or framing against your controlling leg. This is the necessary precursor to arm extraction because the bottom player cannot create mechanical leverage against the leg trap without repositioning their free arm. When you feel their hand leave the neck area and contact your thigh or knee, they are committing to an escape attempt, and you should immediately respond with either a choke threat or increased squeeze pressure.
-
-**Q2**: Your opponent has successfully freed their arm and is establishing frames—what is your most effective immediate response?
-**A**: Transition immediately to back control rather than fighting to re-establish crucifix from a compromised position. The window to re-trap the arm is extremely small once frames are established, and attempting to chase the arm typically results in losing all positional advantage. By securing hooks and seatbelt control for standard back control, you maintain a dominant position with high submission probability rather than risking a scramble trying to recover a position that has already been broken.
-
-**Q3**: When is the optimal moment to transition from crucifix to mounted crucifix during an escape attempt?
-**A**: The optimal moment is when the bottom player commits to a deep hip escape and their body is angled away from you. Their committed hip escape creates the angular space you need to swing your leg over into mount, and their body position makes it difficult for them to reverse direction quickly enough to prevent the mount. The hip escape simultaneously opens your transition path while reducing their ability to counter it—their own escape movement becomes the setup for your positional advancement.
-
-**Q4**: How should you adjust your body position when the bottom player hip escapes away from the trapped arm?
-**A**: Follow their hip escape by adjusting your own hips in the same direction to maintain perpendicular alignment to their torso. Keep your chest tight against their upper back and shoulders throughout the adjustment, never allowing space to open between your bodies. Simultaneously increase the squeeze on the leg triangle to compensate for any slack created during the movement. The goal is to neutralize their angle change completely so that from their perspective, the escape created zero net positional change.
-
-**Q5**: What makes the arm recovery attempt most dangerous for you as the crucifix top player?
-**A**: The most dangerous aspect is when the bottom player successfully extracts the arm AND immediately establishes frames before you can react. This two-step sequence—extraction followed by instant framing—creates a structural barrier that prevents re-capture and begins the guard recovery process. Your defensive priority must be preventing the extraction entirely, because once frames are established, the positional advantage shifts dramatically. The transition from crucifix control to scramble happens in less than two seconds if the arm clears and frames go up.
-
-
-
-</section>
 
 
 </main>

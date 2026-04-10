@@ -182,6 +182,8 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kimura Defense?</p>
+
 - Prevent the figure-four lock by defending the wrist before completion
 - Keep elbow close to body to reduce leverage and shoulder stress
 - Circle the arm in direction of the lock to relieve pressure
@@ -197,6 +199,8 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kimura Defense?</p>
+
 - Opponent has established kimura grip (wrist control with figure-four)
 - Recognition of kimura threat before full shoulder torque applied
 - Awareness of body position relative to opponent's pressure direction
@@ -210,6 +214,8 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kimura Defense step by step?</p>
 
 1. **Recognize threat early**: Identify kimura setup as soon as opponent secures wrist control. Monitor for figure-four grip formation before full lock completion. Early recognition provides maximum defensive options and prevents deep shoulder exposure.
 2. **Secure defensive posture**: Pull trapped elbow tight to ribs, creating defensive frame. This reduces the lever arm length and prevents shoulder hyperextension. Keep shoulder internally rotated and elbow bent at 90 degrees minimum to maintain structural integrity.
@@ -238,6 +244,8 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kimura Defense?</p>
+
 - **Opponent follows the roll maintaining grip** (Effectiveness: High) - Your Response: Continue rolling motion multiple times or transition to technical standup. Use momentum to create separation even if grip remains. Attack with triangle or omoplata as they follow. → Leads to [[Positions/Kimura Trap]]
 - **Opponent switches to armbar during escape attempt** (Effectiveness: Medium) - Your Response: Recognize the transition immediately and defend armbar by keeping elbow inside and turning thumb up. Use the momentum of your roll to extract arm before armbar is secured. → Leads to [[Positions/Side Control]]
 - **Opponent drives weight forward preventing roll** (Effectiveness: Medium) - Your Response: Switch to shrimping escape instead of forward roll. Create distance by moving hips away while continuing arm circle. Frame against opponent's head or chest to prevent follow. → Leads to [[Positions/Kimura Trap]]
@@ -249,6 +257,8 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kimura Defense?</p>
 
 ### 1. Trying to pull arm straight out against the lock
 
@@ -288,6 +298,8 @@ The Kimura Defense attacker is the practitioner escaping from an opponent's kimu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kimura Defense (Attacker)?</p>
+
 **Phase 1: Recognition and Prevention (Weeks 1-2)** - Identifying kimura setups and preventing completion
 Practice recognizing kimura threats from all positions. Drill hand fighting and wrist defense to prevent figure-four completion. Partner provides slow setup attempts while defender practices grip denial and early defensive frames.
 
@@ -311,48 +323,12 @@ Face progressive resistance from training partners applying full-intensity kimur
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why must you circle your trapped arm in the direction of the lock rather than against it?
-**A**: Circling with the lock follows natural shoulder joint mechanics and relieves stress on the ligaments and joint capsule. Moving against the lock increases torque and accelerates potential injury. The circular motion with the lock creates temporary pressure relief while maintaining structural integrity, buying time to execute escapes without damaging the shoulder. This principle applies to all shoulder locks - always move with the rotation, never against it.
-
-**Q2**: What is the primary reason for keeping your elbow tight to your ribs during kimura defense?
-**A**: Keeping the elbow close to the body shortens the lever arm that the opponent can use to apply torque. Basic leverage physics shows that longer levers multiply force, so allowing the elbow to drift away gives the opponent maximum mechanical advantage. A tight elbow against the ribs creates a shorter, stronger structure that requires exponentially more force to compromise. This also prevents the shoulder from reaching dangerous angles of hyperextension and rotation.
-
-**Q3**: How does attacking the opponent's base improve kimura defense effectiveness?
-**A**: Base disruption forces the opponent to choose between maintaining submission pressure and preserving their balance. When you bridge, bump, or push to off-balance them, they must either release some grip pressure to post and recover base, or risk being swept or scrambled. This creates timing windows where grip pressure temporarily decreases, allowing for arm extraction or escape execution. Additionally, off-balancing prevents them from settling their weight fully into the submission, maintaining dynamic rather than static pressure.
-
-**Q4**: What are the key differences between defending a kimura from mount versus from side control?
-**A**: From mount, the defender has bridge and hip bump mechanics available to disrupt base, making the rolling escape highly effective since the opponent sits high. From side control, the opponent's weight is lower and spread wider, making bridges less effective. Side control kimura defense requires more shrimping and hip escape to create space, and often needs the hitchhiker escape since rolling forward is blocked by the opponent's chest pressure. The mounting position also allows easier counter-attacks with legs while side control requires focusing on distance creation.
-
-**Q5**: How can kimura defense be transformed into an offensive opportunity?
-**A**: The opponent's kimura grip commits both their hands and often compromises their base. From bottom positions, this creates back take opportunities as they focus on the arm - you can use the trapped arm as a handle to pull yourself behind them. From guard, their committed grips prevent them from defending leg attacks like triangles or omoplatas. The rolling escape can be continued into a sweep or back take if they follow. Advanced practitioners see kimura defense not as pure survival but as entry points to offensive sequences.
-
-**Q6**: Why is early recognition and prevention emphasized over late-stage escape in kimura defense?
-**A**: Once the kimura is fully locked with figure-four completed and pressure applied, the defensive options reduce dramatically while injury risk increases substantially. Early grip fighting to prevent wrist control or break the figure-four grip before lock completion is exponentially easier and safer than escaping a finished kimura. Prevention requires less energy, involves less injury risk, and maintains better positional control. Late-stage escapes require precise technique, good timing, and some luck - they are survival tactics rather than reliable defenses.
-
-**Q7**: What is the optimal timing window for initiating the rolling kimura escape?
-**A**: The optimal window occurs when the opponent is transitioning their weight or adjusting their grip position. As they shift to increase shoulder pressure or walk their feet for a finishing angle, their base becomes temporarily compromised. This is when the bridge-and-roll motion has the highest success rate. Another key window opens when they attempt to switch from control mode to finishing mode - the mental and physical transition creates a brief vulnerability. Attempting the roll when opponent is stable and settled results in failed escapes and wasted energy.
-
-**Q8**: Your opponent has a deep kimura from side control and starts walking their feet toward your head - what immediate adjustment must you make?
-**A**: When the opponent walks their feet toward your head, they are creating a finishing angle that dramatically increases shoulder torque. Your immediate priority is to follow their movement by turning your body in the same direction they are walking. This rotation keeps your shoulder aligned with their pressure direction rather than perpendicular to it. Simultaneously, you must increase hip escape movement away from them to prevent the finishing angle from locking in. If they complete the angle walk without your response, the shoulder is in immediate danger.
-
-**Q9**: What grip configurations indicate a shallow versus deep kimura threat?
-**A**: A shallow grip is positioned near your wrist, with the attacker's figure-four grip loosely configured and space visible between your arm and their chest. This grip allows significant defensive movement and grip breaking opportunity. A deep grip positions the figure-four near your elbow, with the attacker's chest pressed tight against your tricep and no visible space. The deep grip eliminates arm extraction options and provides maximum finishing leverage. Recognizing grip depth determines whether to focus on grip breaking (shallow) or rolling and hitchhiker escapes (deep).
-
-**Q10**: How do you coordinate your free arm and legs during the rolling kimura escape?
-**A**: Your free arm pushes against the opponent's hip or shoulder in the rolling direction to generate initial momentum and prevent them from blocking the roll. Your legs perform a bridging motion to elevate your hips and create rotational momentum, then tuck underneath you as the roll progresses. The sequence is: bridge to elevate, push with free arm to initiate rotation, tuck legs and roll over trapped shoulder, land with free arm posting to prevent being followed. Poor coordination stalls the roll and wastes the escape attempt.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kimura Defense?</p>
 
 Kimura defense requires controlled practice to prevent shoulder injuries. The shoulder joint has limited range of motion in the rotation and elevation patterns the kimura exploits, making it vulnerable to dislocation, rotator cuff tears, and labrum damage. Never force defensive movements explosively or jerk the arm against resistance. Tap early when learning, before reaching pain threshold. Partners must release immediately upon tap signal and avoid applying sudden or maximal pressure during training. Warm up shoulders thoroughly before drilling kimura defenses. If shoulder pain or clicking occurs, stop training and seek medical evaluation. Build shoulder mobility and strength gradually through progressive resistance training. Competition situations require higher risk tolerance, but training should prioritize long-term joint health over ego.
 

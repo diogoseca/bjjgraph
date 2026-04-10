@@ -182,6 +182,8 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Two-on-One to Back Take?</p>
+
 - Establish dominant two-on-one arm control with proper hand positioning before initiating any movement
 - Break opponent's posture by pulling controlled arm across their centerline to rotate their shoulders
 - Create angle off the line of attack to access opponent's side and eliminate their defensive frames
@@ -197,6 +199,8 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Two-on-One to Back Take?</p>
+
 - Two-on-one grip established on opponent's arm with one hand on wrist (pistol grip) and one on tricep or elbow
 - Opponent standing or in clinch position with upright posture accessible for grip establishment
 - Lateral angle created off centerline to prevent direct counter-wrestling and frame defense
@@ -210,6 +214,8 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Two-on-One to Back Take step by step?</p>
 
 1. **Establish two-on-one control**: Secure opponent's wrist with your lead hand using a pistol grip (thumb inside their wrist). Your trailing hand grabs their tricep just above the elbow or controls the elbow joint itself. Both grips work together to immobilize the entire arm structure from two points, creating a mechanical advantage they cannot overcome with their single free arm.
 2. **Break posture and create angle**: Pull the controlled arm forcefully across the opponent's centerline toward your opposite hip while simultaneously stepping laterally off the line of attack. This pulling motion should stretch their arm and rotate their shoulders at least 30-45 degrees, compromising their base and preventing them from squaring their hips to you. The pull direction determines your pathway.
@@ -238,6 +244,8 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Two-on-One to Back Take?</p>
+
 - **Opponent pulls their controlled arm back forcefully to strip the grip** (Effectiveness: Medium) - Your Response: Follow their arm pull by stepping forward aggressively and transitioning to a front headlock position or arm drag, using their pulling energy to advance position rather than fighting the retraction → Leads to [[Positions/Clinch]]
 - **Opponent turns into you while you attempt to access the back** (Effectiveness: High) - Your Response: Accept the turn and redirect to a body lock, collar tie, or clinch position, or chain to opposite-side back take attempt by switching your angle and repeating the sequence from the new position → Leads to [[Positions/Clinch]]
 - **Opponent sprawls and drives their hips back to prevent back access** (Effectiveness: Medium) - Your Response: Follow their upper body collapse by maintaining grip and snapping downward, transitioning to front headlock position or using their forward weight commitment to redirect to a duck-under on the opposite side → Leads to [[Positions/Clinch]]
@@ -250,6 +258,8 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Two-on-One to Back Take?</p>
 
 ### 1. Releasing the two-on-one grip too early before establishing seat belt control
 
@@ -289,10 +299,12 @@ The Two-on-One to Back Take is a fundamental wrestling-based transition that exp
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Two-on-One to Back Take (Attacker)?</p>
+
 **Week 1-2: Grip Fundamentals** - Establishing and maintaining two-on-one control
 Partner stands static while you practice securing proper hand positions (wrist pistol grip and tricep control), pulling across centerline, and maintaining control pressure. Focus on grip endurance, proper hand positioning, and feeling the structural break through your grips without attempting the full transition.
 
-**Week 3-4: Angle Creation and Footwork** - Movement patterns and lateral positioning
+**Week 3-4: Dominant Angles and Footwork** - Movement patterns and lateral positioning
 With two-on-one established, practice stepping off centerline at 45-degree angles while maintaining control. Partner provides light resistance by attempting to square up. Emphasize proper foot placement, hip positioning, and head clearing without completing the back take.
 
 **Week 5-6: Pathway Selection Drills** - Choosing between step-behind and duck-under variations
@@ -312,54 +324,12 @@ Incorporate into positional sparring from standing, then into full rolling. Focu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the two primary grips that constitute effective two-on-one control and why is this grip configuration mechanically superior?
-**A**: The two primary grips are: (1) pistol grip on the wrist with thumb inside for maximum control of hand and forearm, and (2) grip on the tricep above elbow or directly on elbow joint. This configuration is mechanically superior because it immobilizes the entire arm structure from two points, preventing the opponent from generating pulling or pushing power with that limb, while creating a 2-to-1 mechanical advantage that they cannot match with their single free arm.
-
-**Q2**: Why is creating an angle off the centerline critical before committing to the back take pathway?
-**A**: Creating an angle off centerline is critical because it prevents the opponent from squaring their hips to you and using their free arm effectively for defense. When you remain on their centerline, they can turn their entire body structure to face you and establish defensive frames. By moving to a 45-90 degree angle, you force them to rotate their entire body to defend, which takes time and creates windows for back access. The angle also positions you closer to their back while making it geometrically difficult for them to attack you with their free hand.
-
-**Q3**: Your opponent successfully turns into you while you are attempting the back take - what should you do?
-**A**: If the opponent turns into you, immediately redirect your attack rather than fighting to complete the original back take. Options include: transitioning to a body lock position, re-establishing clinch control with collar ties, attacking with a front headlock if their posture breaks, or chaining to an opposite-side back take attempt by switching your angle. The key is to flow with their defensive movement rather than forcing a compromised position against their rotation.
-
-**Q4**: What is the optimal timing window for initiating the step-behind or duck-under after the cross-body pull?
-**A**: The optimal timing window opens immediately after the cross-body pull disrupts the opponent's shoulder alignment and they begin reacting to recover their posture. This window lasts roughly one to two seconds before they either strip your grip or re-square their hips. The key indicator is when their far shoulder rotates away from you and their weight shifts to their far foot. Waiting too long allows them to stabilize, while moving before the pull takes effect means their structure is still intact enough to block your path.
-
-**Q5**: What grip must remain connected longest during the transition from two-on-one to seat belt, and why?
-**A**: The wrist grip should be the last two-on-one grip released, maintained until the seat belt arm threading under the armpit is secure. The wrist grip prevents the opponent from rotating their controlled arm back to a defensive position or turning to face you. If you release the wrist before the seat belt is established, the opponent can immediately rotate their torso, frame against your chest, and square up, negating all positional advantage you created during setup.
-
-**Q6**: Your opponent sprawls their hips back hard as you attempt the step-behind - how do you adapt?
-**A**: When the opponent sprawls, their hips move away but their upper body drops forward and down. Redirect your force to follow their upper body collapse rather than chasing the retreating hips. Maintain the wrist grip and snap their arm downward while circling toward the front headlock position. Their sprawl has committed their weight forward, making them vulnerable to snap-downs and front headlock entries. From front headlock, you can work go-behind sequences or chain to guillotine and anaconda attacks.
-
-**Q7**: How does the direction of the initial pull differ between setting up the step-behind versus the duck-under variation?
-**A**: For the step-behind, pull the controlled arm across and slightly downward toward your opposite hip, which rotates the opponent's shoulders and loads their weight onto their far foot, opening their near hip for you to step behind. For the duck-under, pull the controlled arm across and slightly upward toward your shoulder level, which elevates their elbow and creates space underneath their arm for your head and body to pass through. The upward pull tends to make the opponent post their weight more evenly or lean back, facilitating penetration under their arm structure.
-
-**Q8**: What is the most critical mechanical detail during the moment you transition from two-on-one grips to seat belt?
-**A**: The most critical detail is maintaining continuous chest-to-back pressure during the grip transition. As your hands change from two-on-one to seat belt, there is a brief moment where your hand control is incomplete. During this window, your chest pressed against their back is the only thing preventing them from turning to face you. If you allow any gap between your chest and their back during the grip switch, the opponent will feel the pressure release and immediately begin rotating to recover position.
-
-**Q9**: Your opponent strips your tricep grip but you still have the wrist - what are your immediate chain attack options?
-**A**: With only the wrist grip remaining, you have three immediate options: (1) execute a direct arm drag by pulling their arm across your body while stepping to their back, which works because their free hand is busy having just stripped your grip; (2) snap their wrist downward while stepping offline to create a snap-down entry to front headlock position; (3) re-establish the tricep grip from a new angle by circling to the opposite side, since their grip-stripping motion often leaves them reaching across their body and momentarily off-balance.
-
-**Q10**: How does the two-on-one to back take create a positional dilemma that prevents a single correct defensive response?
-**A**: The two-on-one creates a three-way dilemma: if the opponent pulls their controlled arm back to escape the grip, you follow forward into front headlock or arm drag positions using their retreating energy; if they try to turn into you to square up, their rotation actually brings their back closer to you on the opposite side; if they sprawl and create distance, you can redirect to snap-downs or duck-under variations using their forward weight commitment. Each defensive option specifically opens a different offensive pathway, and no single defense neutralizes all three threats simultaneously.
-
-**Q11**: What is the most common failure point for intermediate practitioners attempting this technique in live sparring?
-**A**: The most common failure point is committing to a single pathway (either step-behind or duck-under) before reading the opponent's reaction, then forcing that pathway against resistance rather than switching to the alternative. Intermediate practitioners often drill one variation extensively and default to it regardless of what the opponent gives them. The fix is to initiate the cross-body pull and wait a half-second to feel whether the opponent pulls back, turns in, or sprawls before selecting the pathway, working with the opponent's energy rather than against their chosen defense.
-
-**Q12**: What are the minimum entry conditions that must exist before you commit to the back take from two-on-one?
-**A**: Four conditions must be present: (1) both grips secure with no slipping on wrist or tricep, (2) the cross-body pull has rotated the opponent's shoulders at least 30-45 degrees from square, creating visible structural compromise, (3) your feet have already stepped off their centerline to a lateral angle so you are not directly in front of them, and (4) your head has cleared past their controlled arm to prevent them from re-centering by pushing your head back. If any condition is missing, continue working the two-on-one control to create them rather than forcing a premature entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Two-on-One to Back Take?</p>
 
 The two-on-one to back take is generally a low-risk technique when practiced properly, but several safety considerations apply. When drilling with partners, maintain controlled intensity during the grip-fighting phase to prevent wrist or elbow hyperextension from forceful arm pulling. Beginners should avoid explosive duck-under attempts that might result in neck strain or head collision with partner's hip. When the technique is completed and back control is established, the receiving partner should not attempt violent spinning escapes that could result in knee or ankle injuries from hook entanglement. During live training, both practitioners should be aware of mat boundaries when executing standing back takes to prevent out-of-bounds falls. Communication about intensity level is essential during initial learning phases.
 

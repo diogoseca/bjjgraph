@@ -164,6 +164,8 @@ The critical defensive window occurs during the setup phase before the bottom pl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Grasshopper Sweep?</p>
+
 - Bottom player's hips begin rising sharply toward the ceiling with increased core tension visible in their midsection
 - You feel both of your legs being controlled behind the knees by hooking feet with active dorsiflexion pressure
 - Bottom player's hands reach for and grip your ankles, heels, or pant legs near the ankle, pulling them toward their hips
@@ -176,6 +178,8 @@ The critical defensive window occurs during the setup phase before the bottom pl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Grasshopper Sweep?</p>
 
 - Deny hook depth by maintaining wide base and keeping knees away from bottom player's feet
 - Weight distribution must stay back and low to prevent being elevated by hip drive
@@ -190,6 +194,8 @@ The critical defensive window occurs during the setup phase before the bottom pl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Grasshopper Sweep?</p>
 
 ### 1. Widen base and sit hips back before hooks establish
 
@@ -227,6 +233,8 @@ The critical defensive window occurs during the setup phase before the bottom pl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Grasshopper Sweep?</p>
+
 ### → [[Positions/Grasshopper Guard]]
 
 Deny sweep conditions proactively by widening base, sitting hips back, stripping ankle grips, or back stepping to extract legs from hooks. Any of these actions performed early enough forces the bottom player to reset their attack, returning you to the neutral Grasshopper Guard engagement where you retain top position advantages.
@@ -242,6 +250,8 @@ Time a forward sprawl when the bottom player's inversion is still developing and
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Grasshopper Sweep?</p>
 
 ### 1. Standing tall with a narrow base directly over the inverted guard player
 
@@ -276,6 +286,8 @@ Time a forward sprawl when the bottom player's inversion is still developing and
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Grasshopper Sweep?</p>
+
 **Week 1-2** - Recognition and base management
 Partner establishes grasshopper guard at 25% speed. Practice identifying the three setup elements (hooks, grips, elevation) and maintaining defensive base width and hip position. No passing attempts - focus purely on recognizing when sweep conditions are developing.
 
@@ -292,29 +304,6 @@ Partner plays full grasshopper guard game with sweeps, leg attacks, and transiti
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What three elements must the bottom player establish before the Grasshopper Sweep becomes high percentage?
-**A**: The bottom player needs deep leg hooks behind both knees, grips on your ankles for pulling leverage, and sufficient hip elevation on a stable shoulder base. Denying any one of these three elements dramatically reduces the sweep's success probability, so your defense should focus on disrupting whichever element is most accessible.
-
-**Q2**: Why is driving forward a risky defensive choice when the sweep is already loaded?
-**A**: When hooks and grips are established with elevated hips, your forward momentum feeds directly into the sweep mechanics. The bottom player's technique is designed to redirect forward force upward through their hip fulcrum, so aggressive forward driving actually accelerates the elevation and makes the sweep nearly unstoppable. Forward pressure is only safe during the early setup phase.
-
-**Q3**: What is the earliest recognition cue that a Grasshopper Sweep is being set up?
-**A**: The earliest cue is feeling the bottom player's feet begin to curl and hook behind your knees with active dorsiflexion pressure, combined with their hips starting to rise. This tactile feedback through your legs occurs before the visual cues of full hip elevation, giving you a brief window to back step or widen base before the sweep loads fully.
-
-**Q4**: Your back step is too slow and the bottom player follows with re-inversion - what should you do?
-**A**: If the bottom player follows your back step, continue circling laterally rather than stopping or reversing direction. Their re-inversion consumes energy and each directional change forces them to reset their hook and grip placement. Use this circling motion to create enough separation to either disengage completely or initiate a passing sequence against their now-fatigued guard.
-
-**Q5**: How should you adjust your base management specifically when facing Grasshopper Guard compared to other open guards?
-**A**: Against Grasshopper Guard, your base should be wider and lower than typical open guard passing posture, with hips sitting back rather than positioned over the bottom player. This directly counters the vertical elevation vector of the sweep. Standard passing posture with weight forward and hips engaged creates exactly the conditions the sweep needs to succeed.
-
-
-
-</section>
 
 
 </main>

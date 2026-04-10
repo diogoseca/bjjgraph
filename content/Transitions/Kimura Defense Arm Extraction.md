@@ -208,7 +208,7 @@ The Kimura Defense Arm Extraction integrates directly with the half guard passin
 
 - [[Positions/Half Guard]] - Primary target position after successful arm extraction, returning to standard passing situation
 
-- [[Transitions/Kimura]] - The submission threat being defended against through arm extraction mechanics
+- [[Submissions/Kimura]] - The submission threat being defended against through arm extraction mechanics
 
 - [[Transitions/Kimura Counter via Roll]] - Alternative defensive technique against Kimura grip using rolling mechanics
 

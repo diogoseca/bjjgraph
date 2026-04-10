@@ -162,6 +162,8 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle Setup from De La Riva?</p>
+
 - Opponent increases pulling force on your far sleeve grip while simultaneously extending the DLR hook, indicating they are working to break your posture forward into the triangle setup position
 - Opponent's non-hooking leg disengages from your hip or bicep and begins moving upward toward your head and neck area, signaling the imminent leg shoot across your neck
 - Opponent shifts their hips to create a more perpendicular angle to your body, positioning themselves for the diagonal leg entry that characterizes the DLR triangle setup
@@ -174,6 +176,8 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle Setup from De La Riva?</p>
 
 - Keep both elbows pinched tight to your ribcage and inside the guard player's leg frames to prevent the arm isolation that enables triangle entry
 - Maintain strong upright posture with your head above your hips to deny the posture break that creates the shooting window for the triangle leg
@@ -188,6 +192,8 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle Setup from De La Riva?</p>
 
 ### 1. Posture up explosively and drive hips back to prevent triangle from locking
 
@@ -225,6 +231,8 @@ Defending the Triangle Setup from De La Riva requires recognizing the setup earl
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle Setup from De La Riva?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time a guard pass attempt during the opponent's DLR hook release window. When they release the hook to shoot the triangle, drive your knee through the opening and apply immediate passing pressure. This exploits the brief moment when neither their DLR structure nor their triangle is established, converting their attack into your passing opportunity.
@@ -240,6 +248,8 @@ Recognize the triangle setup early through sleeve grip tension and leg movement 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Setup from De La Riva?</p>
 
 ### 1. Reaching forward with extended arms while inside the opponent's DLR guard
 
@@ -269,6 +279,8 @@ Recognize the triangle setup early through sleeve grip tension and leg movement 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle Setup from De La Riva?</p>
+
 **Phase 1: Recognition Drilling** - Identifying triangle setup cues from DLR at slow speed
 Partner telegraphs triangle setups at slow speed from DLR. Practice identifying the sleeve grip intensification, posture break attempt, and free leg movement that signal the triangle entry. Verbally call out each cue as you recognize it before implementing any defensive action.
 
@@ -285,29 +297,6 @@ Specific sparring starting in DLR with partner actively threatening triangles al
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a triangle setup from DLR is being initiated?
-**A**: The earliest cue is increased pulling tension on your far sleeve combined with the opponent's non-hooking leg disengaging from your hip or bicep. This paired action indicates they are simultaneously working to break your posture and free the leg needed to shoot across your neck. Recognizing this combination gives you the maximum defensive window before the triangle entry begins in earnest.
-
-**Q2**: Why is stripping the cross sleeve grip the highest-priority defensive action against this triangle setup?
-**A**: The cross sleeve grip is the foundation of the entire triangle setup because it guarantees arm isolation inside the triangle configuration. Without it, even if the opponent successfully shoots their leg across your neck, both your arms end up outside the triangle, making the choke impossible and escape trivial. Removing this single grip eliminates the setup entirely and forces a complete restart.
-
-**Q3**: What defensive opportunity does the opponent's DLR hook release create for you as the top player?
-**A**: When the opponent releases the DLR hook to shoot the triangle, there is a brief window where they have neither DLR control nor a locked triangle established. This is the ideal moment to drive a knee through and initiate a guard pass, because the primary mechanism that prevented your forward movement is temporarily gone. Timing a pass attempt to this release window can convert their attack into your dominant position advancement.
-
-**Q4**: What is the correct response if the triangle has already locked but the opponent has not yet adjusted the finishing angle?
-**A**: Immediately tuck your chin to reduce choking pressure, posture up as much as possible, and work to square your body to the opponent's hips. Preventing them from achieving the 30-45 degree angle significantly reduces the choke's effectiveness and buys time for escape. Use your free hand to push on their hip to prevent angle adjustment while working your trapped arm across their body to relieve arterial compression.
-
-**Q5**: How should you manage your elbows while playing inside DLR guard to prevent triangle setups proactively?
-**A**: Keep both elbows pinched tightly to your ribcage throughout your time in the opponent's DLR guard. Never extend your arms forward or reach with straight arms, as this creates the arm separation the guard player needs for triangle entry. When grip fighting, break grips close to your body using hip rotation and wrist circles rather than arm extension. Your elbows should function as a unified frame connected to your torso at all times.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Backstep from Leg Knot?</p>
+
 - Establish upper body control before attempting any leg extraction to prevent opponent from following your movement
 - Use hip switching as the primary mechanical driver rather than pulling legs free with arm strength
 - Maintain constant downward pressure throughout the transition to prevent opponent from sitting up or creating distance
@@ -203,6 +205,8 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Backstep from Leg Knot?</p>
+
 - Established Leg Knot Top position with both legs engaged in the entanglement configuration
 - At least one arm free from grip fighting to establish control on opponent's upper body or far hip
 - Opponent's entanglement has not progressed to a deeper position like Saddle or consolidated Inside Ashi
@@ -215,6 +219,8 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Backstep from Leg Knot step by step?</p>
 
 1. **Assess the entanglement configuration**: Before initiating the backstep, evaluate which of your legs is trapped and how deeply the knot is established. Identify the path of least resistance for extraction. Check that the opponent has not progressed to a deeper entanglement like Saddle. Confirm your heel is protected and you are not in immediate submission danger before committing to the pass.
 2. **Establish upper body grips and control**: Reach across to control the opponent's far hip or underhook their far arm while maintaining your leg entanglement. In no-gi, use a crossface or collar tie to control their head position. In gi, grip the far lapel or far collar. This upper body control is essential because it prevents the opponent from sitting up or following your hip switch during extraction.
@@ -245,6 +251,8 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Backstep from Leg Knot?</p>
+
 - **Opponent re-entangles legs by hooking your ankle or knee during extraction** (Effectiveness: High) - Your Response: Accelerate the hip switch and drive more forward pressure to complete the extraction before the hook sets. If caught, immediately pummel your leg free before they consolidate the re-entanglement. → Leads to [[Positions/Leg Knot]]
 - **Opponent inserts knee between your bodies during the backstep to recover half guard** (Effectiveness: Medium) - Your Response: Drive the crossface harder and use your near hand to clear their knee below your hip line. If the knee is already inserted, switch to a half guard passing sequence rather than fighting back to the backstep. → Leads to [[Positions/Half Guard]]
 - **Opponent frames with both arms and shrimps away to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Follow their hip escape by adjusting your angle and maintaining chest contact. Use your forward momentum to cut through their frames before they can fully establish open guard. → Leads to [[Positions/Open Guard]]
@@ -256,6 +264,8 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Backstep from Leg Knot?</p>
 
 ### 1. Attempting to extract legs without first establishing upper body control
 
@@ -295,6 +305,8 @@ As the attacker executing the Backstep from Leg Knot, your objective is to clean
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Backstep from Leg Knot (Attacker)?</p>
+
 **Phase 1: Static Drilling** - Hip switch mechanics and leg extraction pathway
 Practice the hip switch and leg extraction motion with a cooperative partner in the leg knot position. Focus on the biomechanics of the rotation, the correct extraction angle, and the timing of the backstep. Perform 20-30 repetitions per side with no resistance.
 
@@ -315,42 +327,12 @@ Practice sequences where a heel hook attempt transitions into the backstep when 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What must be established before initiating the leg extraction phase of the backstep?
-**A**: Upper body control must be established first, either through a crossface, collar tie, far hip grip, or underhook. Without this control, the opponent can follow your hip movement and re-establish the entanglement, or sit up to recover guard. The upper body control anchors them in place while your lower body disengages.
-
-**Q2**: Your opponent begins re-hooking your ankle as you extract from the leg knot - how do you respond?
-**A**: Accelerate the hip switch and increase forward pressure into the opponent's chest to complete the extraction before the hook solidifies. If the hook is already set, immediately pummel the leg free using knee extension and ankle rotation rather than pulling with arms. If re-entangled, reset upper body control and try again rather than fighting a losing tug-of-war with the legs.
-
-**Q3**: What is the primary mechanical driver of the backstep - arm strength or hip rotation?
-**A**: Hip rotation is the primary mechanical driver. The backstep works through a hip switching motion that creates rotational force to extract the trapped leg, not through pulling the legs free with arm strength. Using arms to pull causes rapid fatigue and rarely overcomes the opponent's leg hooks. The legs extract as a natural consequence of the hip rotation combined with forward body weight distribution.
-
-**Q4**: When should you choose to backstep and pass rather than continue hunting leg lock submissions from leg knot?
-**A**: Choose the backstep when the opponent has strong heel hook defense and your submission threats are being neutralized, when the entanglement is neutral rather than advantageous for finishing, in points-based competition where three points for the pass outweigh the risk of a leg lock exchange, or when your energy is depleting and a positional pin allows recovery while maintaining control.
-
-**Q5**: What happens if you hesitate mid-backstep with one leg still partially entangled?
-**A**: Hesitation creates a critical window for the opponent to re-hook the partially freed leg, insert their knee for half guard, or sit up to establish frames. The half-committed position is worse than either the starting leg knot or the completed side control because you have neither the entanglement control nor the pinning control. The backstep must be committed and fluid from initiation through consolidation.
-
-**Q6**: Your opponent inserts their knee as you complete the backstep - what is your best response?
-**A**: Drive the crossface harder to prevent them from turning, and use your near hand to push their knee below your hip line. If the knee is already deeply inserted and half guard is established, accept the position and switch to a half guard passing sequence rather than trying to fight back to the backstep. Forcing the backstep against an established knee shield wastes energy and creates scramble opportunities for the opponent.
-
-**Q7**: What are the five critical control points when consolidating side control after the backstep?
-**A**: The five control points are: crossface with forearm or bicep pressure across the opponent's face and neck, perpendicular chest contact distributing weight across their torso, hip-to-hip connection with your hips heavy against theirs, near hand blocking the far hip to prevent knee insertion, and appropriate leg positioning with near knee posted and far leg sprawled for base. All five must be established quickly after the backstep to prevent guard recovery.
-
-**Q8**: How does the direction of your backstep relate to the leg knot configuration?
-**A**: The backstep must follow the natural rotation of the entanglement, stepping in the direction that allows the smoothest leg extraction. Backstepping against the entanglement geometry makes extraction impossible and can tighten the opponent's control. Before committing, assess which direction your hip switch naturally opens and which path your trapped leg can follow with the least resistance from the opponent's hooks.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Backstep from Leg Knot?</p>
 
 The backstep from leg knot involves significant rotational forces on both practitioners' knees and ankles during the extraction phase. Always practice with controlled speed initially, as explosive backsteps can catch training partners' legs at awkward angles. Pay attention to any knee discomfort during the hip switch, as twisting motions under load can strain the MCL and meniscus. If your leg feels stuck in the entanglement, reset position rather than forcing through with strength. Communicate with your training partner throughout the drilling process to ensure neither practitioner's joints are being stressed beyond safe ranges.
 

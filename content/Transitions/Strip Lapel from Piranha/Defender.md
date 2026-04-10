@@ -154,6 +154,8 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Strip Lapel from Piranha?</p>
+
 - Opponent establishes a controlling grip on your pants or shin before engaging their other hand in grip fighting on the lapel material
 - Opponent uses both hands to target your primary lapel grip with a distinctive two-on-one breaking motion rotating your wrist outward
 - Opponent steps back or widens their stance to create distance, positioning their body to pull the lapel back through your legs
@@ -165,6 +167,8 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Strip Lapel from Piranha?</p>
 
 - Maintain constant tension on the lapel material to resist extraction and keep the leg threading mechanically intact
 - Use your legs as a secondary locking mechanism by squeezing knees together when the opponent initiates a strip attempt
@@ -179,6 +183,8 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Strip Lapel from Piranha?</p>
 
 ### 1. Immediately re-grip the stripped lapel with your opposite hand and reinforce the threading depth
 
@@ -216,6 +222,8 @@ As the bottom player defending against the Strip Lapel from Piranha, your goal i
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Strip Lapel from Piranha?</p>
+
 ### → [[Positions/Piranha Guard]]
 
 Re-grip and reinforce the lapel threading immediately when any grip is broken, squeezing knees together to trap material and maintaining constant tension on the lapel to prevent full extraction
@@ -231,6 +239,8 @@ Capitalize on the opponent's base compromise during their two-handed grip-fighti
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Strip Lapel from Piranha?</p>
 
 ### 1. Passively allowing grips to be stripped without actively contesting each break or immediately re-gripping the material
 
@@ -260,6 +270,8 @@ Capitalize on the opponent's base compromise during their two-handed grip-fighti
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Strip Lapel from Piranha?</p>
+
 **Static Grip Retention** - Re-gripping mechanics and grip reinforcement speed
 Partner slowly attempts to strip lapel grips while you practice immediate re-gripping and grip switching between hands. Start with no time pressure, focusing on hand placement and lapel material management. Build reflexive re-gripping patterns and develop sensitivity to grip pressure changes that signal incoming strip attempts.
 
@@ -273,26 +285,6 @@ Start in Piranha Guard with partner at full resistance attempting strip and pass
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important immediate response when you feel your primary lapel grip being broken by a two-on-one?
-**A**: Immediately re-grip the lapel with your opposite hand before the opponent can extract it through your legs. The window between grip break and successful extraction is typically one to two seconds, so re-gripping must be reflexive rather than planned. Simultaneously squeeze your knees together to trap the material and prevent it from sliding back through the threading path. If re-gripping is impossible, begin transitioning to an alternative guard immediately.
-
-**Q2**: How do you create sweep threats that discourage the opponent from fully committing to the lapel strip?
-**A**: Use the remaining lapel tension combined with hook placement to create off-balancing pressure whenever the opponent's hands leave defensive positions to strip grips. A well-timed hip bump or pendulum movement when they commit both hands to stripping forces them to abandon the strip to recover base. This creates a dilemma: commit to stripping and risk being swept, or maintain base and leave the lapel intact for your continued guard play.
-
-**Q3**: When should you abandon Piranha Guard and transition to a different guard system during a strip attempt?
-**A**: Transition when the opponent has successfully broken your primary grip and is actively extracting the lapel with more than half the material already cleared through your legs. At this point, maintaining Piranha Guard becomes progressively harder and the energy spent fighting the strip is better invested in establishing a new guard. Key transition targets include De La Riva Guard if you still have hook contact, Spider Guard if the opponent is standing with arms extended, or Collar Sleeve Guard if you can maintain upper body grips.
-
-**Q4**: Your opponent establishes a strong pant grip at your knee before starting the strip—how does this change your defensive approach?
-**A**: The pant grip limits your sweep options and ability to create angles, making passive grip retention insufficient as a sole defensive strategy. Actively attack the controlling grip with foot pushes on their wrist or hip to break their anchor point and restore your mobility. Alternatively, use the restricted mobility as a cue to focus on re-threading the lapel deeper and squeezing your knees tighter rather than attempting sweeps, making extraction harder even with your limited hip movement.
-
-
-
-</section>
 
 
 </main>

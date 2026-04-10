@@ -166,6 +166,8 @@ Your grip retention strategy should combine active resistance to the strip with 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hand Fighting to Remove Collar Grip?</p>
+
 - Opponent brings both hands simultaneously to your choking wrist, abandoning all other defensive actions to focus on grip removal
 - Opponent begins aggressive chin tuck combined with attempts to locate and control your wrist rather than your forearm or fingers
 - Opponent initiates bridging motion toward the collar side, attempting to combine hip movement with pulling force on your wrist
@@ -177,6 +179,8 @@ Your grip retention strategy should combine active resistance to the strip with 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hand Fighting to Remove Collar Grip?</p>
 
 - Use opponent's two-on-one commitment against them by attacking undefended areas while they focus on your choking hand
 - Drive your choking elbow toward your own hip to tighten the collar against their pulling force rather than fighting their pull directly
@@ -192,17 +196,19 @@ Your grip retention strategy should combine active resistance to the strip with 
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Hand Fighting to Remove Collar Grip?</p>
+
 ### 1. Drive choking elbow to your hip and tighten collar grip against their pull by rotating your forearm inward
 
 - **When to use**: When opponent first establishes two-on-one on your wrist and begins pulling, before they coordinate with bridging
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: The collar choke tightens despite their grip fighting, creating immediate submission pressure that forces them to abandon the strip and tap
 - **Risk**: If they successfully strip the grip during your tightening attempt, you lose collar position entirely and must re-establish from seatbelt
 
 ### 2. Release collar grip and immediately swim arm to rear naked choke position while both their hands are occupied low
 
 - **When to use**: When their two-on-one control is strong and collar retention is failing, but their neck is momentarily exposed because both hands are on your wrist
-- **Targets**: [[game-over]]
+- **Targets**: [[Positions/Back Control]]
 - **If successful**: You establish rear naked choke before they can redirect their hands from your wrist to neck defense, finishing with alternative submission
 - **Risk**: If the RNC transition is too slow, they redirect hand fighting to defend the new attack and you have lost the collar position without gaining the RNC
 
@@ -228,7 +234,9 @@ Your grip retention strategy should combine active resistance to the strip with 
 
 ## Best-Case Outcomes for Defender
 
-### → [[game-over]]
+<p class="section-subtitle">What is the best outcome when defending Hand Fighting to Remove Collar Grip?</p>
+
+### → [[Positions/Back Control]]
 
 Finish the collar choke by tightening grip against their strip attempts, or transition to rear naked choke when both their hands are occupied on your wrist. The opponent's commitment to grip removal creates windows for submission completion.
 
@@ -243,6 +251,8 @@ Retain the collar grip by driving elbow to hip and maintaining forward pressure 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hand Fighting to Remove Collar Grip?</p>
 
 ### 1. Passively holding the collar grip while opponent systematically strips it without counter-attacking
 
@@ -272,6 +282,8 @@ Retain the collar grip by driving elbow to hip and maintaining forward pressure 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hand Fighting to Remove Collar Grip?</p>
+
 **Week 1-2** - Grip retention mechanics
 Partner applies progressive two-on-one pulling force (25% to 50%) on your established collar grip. Practice driving elbow to hip, rotating forearm for tightening effect, and maintaining chest pressure throughout. Focus on feeling the direction of their pull and angling your resistance accordingly. 15 repetitions per side.
 
@@ -288,29 +300,6 @@ Full resistance back control sparring starting with invisible collar established
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why does your opponent's two-on-one grip commitment create offensive opportunities for you?
-**A**: When the bottom player commits both hands to your choking wrist, they abandon all other defensive actions. Their hips, hooks, and lower body become completely undefended. This means you can deepen hooks, transition to body triangle, or switch to alternative submissions like the rear naked choke while their hands are occupied. Their defensive commitment to one threat opens vulnerability to every other threat.
-
-**Q2**: Your opponent bridges explosively while pulling your wrist with two-on-one control—how do you counter this combined attack?
-**A**: Drop your hips and drive your chest weight forward into their upper back to eliminate the bridging platform. Simultaneously drive your hooks deeper toward their hips to counter the upward momentum. The bridge requires hip elevation which your forward pressure and active hooks can prevent. Without the bridge, their grip break becomes an arm-only pull that is much easier to resist with collar mechanics alone.
-
-**Q3**: When should you abandon the collar grip and transition to rear naked choke instead of continuing to fight for collar retention?
-**A**: Switch to RNC when their two-on-one control is progressively winning the grip battle and you feel the collar slipping. The key timing is while both their hands are still committed to your wrist—release the collar and immediately swim your arm behind their neck before they can redirect their hands upward. If you wait until the collar is fully stripped, they will already be transitioning their hand defense upward.
-
-**Q4**: What is the most effective way to resist diagonal pulling force on your wrist?
-**A**: Rather than trying to hold static against their pull, drive your choking elbow toward your own hip while rotating your forearm inward against their neck. This converts their pulling energy into tightening pressure on the choke. The mechanics work because your forearm rotation creates a lever against the collar that their straight pulling force cannot overcome as easily as pulling against a static grip.
-
-**Q5**: How do you exploit the moment immediately after your opponent fails a grip break attempt?
-**A**: Failed strip attempts create a brief relaxation window where their grip loosens and they reset for the next attempt. Use this micro-window to immediately drive your fingers deeper into the collar or adjust your hand angle for better grip depth. Each failed attempt should leave your collar deeper than before, not at the same depth. This progressive deepening eventually makes the grip unstrippable and allows you to finish the choke.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge Escape from S Mount?</p>
+
 - Protect the trapped arm continuously from setup through completion - never straighten it during any phase of the escape
 - Time the bridge to coincide with the opponent's forward weight shift toward your trapped arm for maximum disruption
 - Bridge toward the opponent's posted leg to exploit the widest gap in their perpendicular base
@@ -203,6 +205,8 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge Escape from S Mount?</p>
+
 - Trapped arm is bent at 90 degrees or greater with hand gripping own collar or lapel
 - Both feet are planted flat on the mat with knees bent for maximum bridge power generation
 - Free hand is controlling opponent's near leg or positioned for immediate post-bridge framing
@@ -216,6 +220,8 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge Escape from S Mount step by step?</p>
 
 1. **Secure Arm Protection**: Grip your own collar or lapel firmly with your trapped hand, keeping the elbow bent at 90 degrees or tighter against your ribs. This grip is non-negotiable and must be maintained throughout the entire escape. Curl your wrist inward to create maximum resistance against extension attempts.
 2. **Plant Feet and Position Base**: Place both feet flat on the mat with knees bent at approximately 90 degrees. Position your feet hip-width apart to create a stable platform for the bridge. Your heels should be close to your hips to maximize upward force generation through the hip extension.
@@ -245,6 +251,8 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge Escape from S Mount?</p>
+
 - **Top player drops hips and sprawls to absorb bridge force, maintaining hip-to-shoulder pressure** (Effectiveness: High) - Your Response: If the bridge is absorbed, immediately transition to frame-and-shrimp escape rather than attempting a second bridge. Use the energy expenditure from their sprawl as a window for the alternative escape path. → Leads to [[Positions/Mount/S Mount]]
 - **Top player capitalizes on bridge momentum to extend trapped arm and accelerate armbar finish** (Effectiveness: High) - Your Response: If you feel your arm being extended during the bridge, abort the escape immediately and re-establish the collar grip. Pull your elbow back to your ribs and reset your defensive posture before attempting any further escape. → Leads to [[Positions/Armbar Control]]
 - **Top player repositions leg over head during bridge disruption to re-establish perpendicular control** (Effectiveness: Medium) - Your Response: If they lift their leg to reposition, use that momentary weight reduction to accelerate your hip escape. Their leg repositioning creates a brief window where their base is compromised on both sides. → Leads to [[Positions/Mount/S Mount]]
@@ -256,6 +264,8 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge Escape from S Mount?</p>
 
 ### 1. Straightening the trapped arm during the bridge in an attempt to push the opponent away
 
@@ -300,6 +310,8 @@ Executing the bridge escape from S Mount requires precise coordination of arm pr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge Escape from S Mount (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics Isolation** - Explosive hip bridge power and directional control
 Practice bridge mechanics without a partner, focusing on driving hips maximally upward and diagonally. Work on planting feet correctly, generating force through hip extension, and controlling bridge direction. Build hip bridge strength and explosiveness through repetitions and holds.
 
@@ -320,42 +332,12 @@ Full positional sparring from S Mount bottom where you attempt bridge escape and
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the bridge escape from S Mount?
-**A**: The optimal timing is when the top player shifts their weight forward toward your trapped arm to begin the armbar extension. This forward weight shift lifts pressure from their posted leg side, creating the widest gap in their base. Bridging before they shift creates minimal disruption since their weight is centered. Bridging after they have fully committed to the armbar is too late because your arm may already be extended.
-
-**Q2**: Which direction should you bridge relative to your opponent's body position in S Mount?
-**A**: Bridge diagonally toward the opponent's leg that extends over your head. This direction exploits the primary structural gap in their perpendicular base. The S Mount configuration creates strength laterally across your torso but relative weakness toward the posted leg. A straight upward bridge is easily absorbed, while a diagonal bridge toward the posted leg generates displacement that is biomechanically difficult for the top player to resist.
-
-**Q3**: Your opponent begins extending your trapped arm as you initiate the bridge - how do you adjust?
-**A**: Immediately abort the bridge and focus entirely on arm retraction. Pull your elbow back to your ribs while reinforcing the collar grip with your trapped hand. Curl your wrist inward and turn your body slightly toward the trapped arm to reduce extension leverage. Only after re-establishing secure arm protection should you consider another escape attempt, preferably using a different method.
-
-**Q4**: What grip must be maintained with your trapped hand throughout the entire bridge escape?
-**A**: Your trapped hand must grip your own collar, lapel, or shoulder throughout the entire escape sequence. This grip keeps the elbow bent at 90 degrees or tighter, making the arm biomechanically resistant to extension and armbar completion. The collar grip is non-negotiable and should never be released during any phase of the bridge - not during the explosive movement, not during the hip escape, and not until your legs have fully recovered guard position.
-
-**Q5**: How do you transition from bridge disruption to full guard recovery?
-**A**: Immediately after the bridge displaces the opponent's weight, chain into a hip escape away from their body toward their legs. As the space opens, retract your trapped arm while keeping it bent and bring your near knee across their body as a barrier. Thread both legs around their waist and lock ankles behind their back to establish closed guard. Frame against their chest with both arms to prevent them from re-establishing mount before the guard is fully secured.
-
-**Q6**: Your bridge disrupts the opponent's balance but they maintain wrist control on your near arm - what is your immediate response?
-**A**: Continue the hip escape aggressively while pulling your elbow back toward your hip with maximum force. The wrist grip is weaker than the full arm control they had in S Mount, so the hip escape creates enough distance to break the grip. If they follow your hip escape, use the momentum change to pull your arm free as they adjust. If the wrist grip holds, frame against their hip with your free hand and shrimp again before they can re-establish S Mount.
-
-**Q7**: What foot positioning is required before executing the bridge from S Mount bottom?
-**A**: Both feet must be planted flat on the mat with knees bent at approximately 90 degrees and heels positioned close to your hips. This position maximizes hip extension power for the bridge. Feet should be hip-width apart for a stable platform. If one foot is trapped or displaced by the opponent's leg positioning, adjust it before attempting the bridge, as a single-foot bridge generates insufficient force to displace the opponent from S Mount.
-
-**Q8**: Why is it dangerous to attempt consecutive bridge escapes without switching techniques?
-**A**: Each bridge attempt expends significant energy from the high-twitch muscle groups that power the explosive hip extension. A failed first bridge alerts the opponent to your escape strategy, allowing them to lower their center of gravity and tighten their base specifically against bridges. Repeated bridges drain your reserves while the opponent becomes progressively better positioned to counter. After a failed bridge, switching to frame-and-shrimp or trap-and-roll catches the opponent adjusting their defense and maintains unpredictability.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge Escape from S Mount?</p>
 
 Bridge escapes from S Mount carry inherent risk of accelerating arm submission if timing or arm protection fails. Never attempt to bridge with a straightened or partially extended arm, as the bridge movement can provide the opponent with the force needed to complete the armbar. If your arm becomes fully extended during any phase of the escape, tap immediately rather than continuing the bridge movement, which would increase hyperextension force on the elbow joint. Train this escape with progressive resistance, beginning at low intensity to develop proper arm protection habits before adding explosive bridge mechanics. Communicate clearly with training partners about submission thresholds.
 

@@ -11,7 +11,7 @@
     "back_control",
     "shoulder_lock"
   ],
-  "from_position": "Omoplata Control/Top",
+  "from_position": "Omoplata Control/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -49,7 +49,7 @@
       "relationship": "Broader category of back-taking techniques this transition belongs to"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Follow-up arm attack available from the resulting back control position"
     },
     {

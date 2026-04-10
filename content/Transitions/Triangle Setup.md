@@ -207,9 +207,9 @@ The Triangle Setup serves as a critical attacking hub within the closed guard sy
 
 - [[Positions/Triangle Control]] - Direct progression on successful setup
 
-- [[Submissions/Triangle from Closed Guard]] - Follow-up submission finish
+- [[Transitions/Closed Guard to Triangle]] - Follow-up submission finish
 
-- [[Transitions/Triangle Choke]] - Primary submission finish from triangle control
+- [[Submissions/Triangle Choke]] - Primary submission finish from triangle control
 
 - [[Transitions/Triangle to Armbar]] - Alternative finish when opponent defends choke
 
@@ -217,9 +217,9 @@ The Triangle Setup serves as a critical attacking hub within the closed guard sy
 
 - [[Transitions/Triangle to Back]] - Alternative transition when opponent extracts arm
 
-- [[Transitions/Omoplata]] - Alternative submission from same arm isolation setup
+- [[Submissions/Omoplata]] - Alternative submission from same arm isolation setup
 
-- [[Submissions/Armbar from Guard]] - Alternative submission sharing posture-break prerequisites
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Alternative submission sharing posture-break prerequisites
 
 - [[Transitions/Hip Bump Sweep]] - Combination attack — opponent defending triangle creates sweep opportunity
 

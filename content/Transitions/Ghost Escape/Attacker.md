@@ -188,6 +188,8 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ghost Escape?</p>
+
 - Create initial space through frames before attempting any rotational movement
 - Time the escape during opponent's weight transitions, grip adjustments, or submission setups
 - Maintain continuous rotational momentum from initiation through turtle establishment without pausing
@@ -203,6 +205,8 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ghost Escape?</p>
+
 - Opponent has established side control with chest-to-chest pressure and you are on bottom
 - At least one frame is established against opponent's shoulder, neck, or hip to create initial separation
 - Near-side arm is free and not trapped underneath your own body
@@ -215,6 +219,8 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ghost Escape step by step?</p>
 
 1. **Establish dual frames**: From bottom side control, place your far arm as a frame against the opponent's shoulder or neck, and your near arm frames against their hip or posts on the mat. These frames create the essential gap between your body and the opponent's chest needed to initiate hip rotation. Do not attempt the escape without frames in place.
 2. **Bridge to create space**: Execute a short explosive bridge into the opponent to momentarily lift their weight off your torso. This bridge does not need to be large, just enough to unload their chest pressure for the fraction of a second needed to begin turning your hips. Time this bridge with a moment when the opponent adjusts grips, shifts weight, or initiates a submission setup.
@@ -244,6 +250,8 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ghost Escape?</p>
+
 - **Opponent sprawls and drives weight backward to flatten you during initial hip rotation** (Effectiveness: High) - Your Response: Abandon the ghost escape immediately and switch to elbow escape or wait for the next timing window when opponent shifts weight forward again → Leads to [[Positions/Side Control]]
 - **Opponent transitions to mount by stepping over as you begin rotating onto your side** (Effectiveness: High) - Your Response: Keep bottom knee close to chest to block the leg coming over, or accelerate the rotation to complete the escape before mount is fully established → Leads to [[Positions/Mount]]
 - **Opponent follows the rotation and secures seatbelt or harness control on your back** (Effectiveness: Medium) - Your Response: Prioritize hand fighting to prevent hooks from being inserted, keep elbows tight to knees, and work immediate guard recovery from turtle rather than settling → Leads to [[Positions/Turtle]]
@@ -256,6 +264,8 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ghost Escape?</p>
 
 ### 1. Rotating too slowly or hesitating mid-movement
 
@@ -300,6 +310,8 @@ Executing the Ghost Escape requires coordinating explosive hip rotation, shoulde
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ghost Escape (Attacker)?</p>
+
 **Week 1-2: Solo drilling** - Master the rotational movement pattern without resistance
 Practice the ghost rotation from a side control simulation without a partner. Focus on smooth hip rotation, shoulder drive, arm extraction, and landing in solid turtle. Perform 20-30 repetitions per side daily to build the muscle memory for the circular movement pattern.
 
@@ -323,48 +335,12 @@ Incorporate the ghost escape into regular rolling sessions. Track which opponent
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary mechanical principle that makes the Ghost Escape effective compared to traditional shrimping escapes?
-**A**: The Ghost Escape uses circular rotational motion rather than linear shrimping movement. This creates angles that disrupt the top player's perpendicular weight distribution in ways they cannot easily follow, because their base is designed to resist lateral movement, not rotational movement. The circular path also generates momentum that compounds through the escape.
-
-**Q2**: When is the optimal timing window to initiate the Ghost Escape?
-**A**: The optimal timing is during transitional moments when the top player shifts weight, adjusts grips, initiates a submission setup, or transitions between control variations. These moments create brief windows where their pressure and base are compromised. Attempting the escape against fully settled, stable side control dramatically reduces success probability.
-
-**Q3**: Your opponent has heavy crossface pressure and is blocking your hip with their near hand. How do you create the conditions for a Ghost Escape?
-**A**: First establish a frame against their shoulder with your far arm to create minimal separation. Then use a short explosive bridge into the opponent to momentarily lift their chest weight, which also forces a reaction in their hip-blocking hand. The moment their weight shifts upward from the bridge, explosively rotate your hips away to begin the ghost motion before they can resettle.
-
-**Q4**: Why is it critical to keep your chin tucked throughout the entire Ghost Escape rotation?
-**A**: Keeping the chin tucked protects the neck from guillotine and front headlock attacks during the vulnerable rotational phase, makes the body more compact which improves rotational efficiency, and prevents the opponent from controlling your head position. A lifted chin also disrupts the forward rolling mechanics needed to complete the escape smoothly.
-
-**Q5**: What is the most critical step that practitioners commonly fail to execute, and why does it stall the escape?
-**A**: The bottom arm extraction is the most commonly failed step. As the body rotates, the arm closest to the mat must be actively pulled across the torso with the elbow tight to the ribs. Without this extraction, the arm gets trapped underneath the body, physically preventing the rotation from completing. Practitioners must drill this extraction in isolation until it becomes automatic.
-
-**Q6**: Your opponent begins stepping over to mount as you initiate hip rotation. What are your two response options?
-**A**: Option one: keep your bottom knee tight to your chest to physically block the leg from crossing over, which buys time to either complete the rotation or abandon and re-frame. Option two: accelerate the rotation dramatically, completing the escape to turtle before the mount is fully established. The choice depends on how far the mount transition has progressed when you recognize it.
-
-**Q7**: After completing the Ghost Escape to turtle, what should your immediate priorities be?
-**A**: Immediately establish a tight defensive turtle with elbows pressed to inner knees, chin tucked, and hips elevated. Begin hand fighting to prevent the opponent from establishing seatbelt or harness control. Do not remain static in turtle. Within 2-3 seconds, initiate either a technical stand-up if space allows, a guard recovery via sit-through or granby roll, or a single leg attack if the opponent's base is compromised.
-
-**Q8**: How does the Ghost Escape execution differ between gi and no-gi grappling?
-**A**: In no-gi, the escape is generally faster because there is less friction to resist rotation, but you may need to secure an underhook before initiating since you lack gi collar grips for leverage. In gi, you can use collar grips to aid the rotation, but the opponent can also use gi grips to slow or stop your movement. The no-gi version requires more explosive commitment while the gi version allows slightly more setup time.
-
-**Q9**: What conditions indicate you should abandon a Ghost Escape attempt and switch to a different escape?
-**A**: Abandon the Ghost Escape if the opponent successfully sprawls and resettles heavy weight on your hips during the initial rotation, if you feel them stepping over for mount and your knee block fails, or if they secure a tight front headlock before you can complete the roll. In each case, return to defensive frames and switch to an elbow escape, bridge-and-roll, or wait for the next timing window rather than forcing a stalled rotation.
-
-**Q10**: Why must the rotation be continuous rather than executed in stages?
-**A**: Any pause mid-rotation leaves you in a half-turned position with your back partially exposed and your frames compromised. This intermediate position is worse than the original side control bottom because it gives the opponent easy access to mount transitions and back takes with minimal effort. The continuous momentum also makes it mechanically impossible for the opponent to track and follow the movement in real-time.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ghost Escape?</p>
 
 When practicing the Ghost Escape, begin drilling slowly to master the rotational mechanics before adding speed or resistance. The shoulder and neck bear significant stress during the rotation, so warm up thoroughly before drilling. Ensure adequate mat space behind and beside you to prevent collisions with walls or training partners during the rolling motion. Partners should allow the escape to complete during initial learning phases rather than aggressively countering, which can cause the bottom player to land awkwardly on their neck or shoulder. Build speed and explosiveness gradually over several weeks. Be especially cautious with the arm extraction phase, as forcing the bottom arm through too aggressively can strain the elbow or shoulder. Tap immediately if you feel any sharp pain in the neck, shoulders, or back during rotation. Avoid drilling this technique when fatigued, as sloppy rotation increases neck injury risk.
 

@@ -188,6 +188,8 @@ As the attacker executing the sweep from combat base, your primary task is conve
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Combat Base?</p>
+
 - Attack the diagonal weakness: direct sweep force from the posted knee toward the planted foot, which is the line of least structural resistance in combat base
 - Load before you lift: shift the opponent's weight onto the hook by pulling their upper body forward and laterally before attempting elevation
 - Create an angle first: a slight hip escape creates the mechanical advantage needed to generate sweep power with minimal strength
@@ -203,6 +205,8 @@ As the attacker executing the sweep from combat base, your primary task is conve
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Combat Base?</p>
+
 - Establish at least one meaningful hook contact on the posted-knee side, either a butterfly hook under the thigh or a shin-to-shin connection on the posted leg
 - Secure upper body grip control through collar grip, sleeve grip, underhook, or overhook to direct the opponent's weight during the sweep
 - Create a slight angle by hip escaping toward the planted-foot side, positioning your hips off-center to generate leverage for the elevation
@@ -215,6 +219,8 @@ As the attacker executing the sweep from combat base, your primary task is conve
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Combat Base step by step?</p>
 
 1. **Establish guard engagement and grip control**: From open guard facing the opponent in combat base, establish your primary upper body control. In the gi, secure a cross-collar grip with the hand opposite the opponent's posted knee, and a sleeve grip on their same-side arm. In no-gi, fight for an underhook or collar tie on the posted-knee side. Your grips must control the opponent's ability to post their hands during the sweep.
 2. **Insert butterfly hook under the posted knee**: Thread your foot on the posted-knee side underneath their thigh, placing your instep against the inside of their posted-knee thigh. The hook should sit deep enough to bear weight during elevation but not so deep that it gets trapped under the opponent's shin. Keep your knee pointed outward to maximize the lifting surface area of your hook and prevent the opponent from simply pushing your knee to the mat.
@@ -244,6 +250,8 @@ As the attacker executing the sweep from combat base, your primary task is conve
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Combat Base?</p>
+
 - **Opponent posts their far hand on the mat to block the sweep direction and re-establish base** (Effectiveness: High) - Your Response: Redirect the sweep angle by pulling their posting arm across their body with your sleeve grip, or switch to the opposite-side sweep by retracting the hook and inserting on the other side to attack the now-exposed planted foot side → Leads to [[Positions/Combat Base]]
 - **Opponent backsteps and disengages their posted knee from the hook by stepping back to standing position** (Effectiveness: High) - Your Response: Follow their retreat with hip extension and immediately transition to a shin-to-shin or single leg X entry on their retreating leg, or use the space created to re-establish your preferred open guard position → Leads to [[Positions/Combat Base]]
 - **Opponent drives forward aggressively to flatten your hook and smash pass through the sweep attempt** (Effectiveness: Medium) - Your Response: Use their forward momentum against them by converting to a pendulum-style sweep or collar drag, pulling them over your head. Their forward drive actually aids the sweep if you redirect it with your grips rather than trying to hold your original position → Leads to [[Positions/Side Control]]
@@ -255,6 +263,8 @@ As the attacker executing the sweep from combat base, your primary task is conve
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Combat Base?</p>
 
 ### 1. Attempting the sweep without creating an angle first, lifting straight up from a flat-on-back position
 
@@ -294,10 +304,12 @@ As the attacker executing the sweep from combat base, your primary task is conve
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Combat Base (Attacker)?</p>
+
 **Phase 1: Hook Mechanics** - Butterfly hook insertion, placement, and elevation mechanics in isolation
 Practice inserting and elevating the butterfly hook against a static partner in combat base. Focus on instep placement against the inner thigh, knee angle for maximum lifting surface, and hip extension mechanics for generating elevation force. Partner provides no resistance. Drill 50 repetitions per side, building muscle memory for the hook mechanics before adding upper body grips.
 
-**Phase 2: Angle Creation and Loading** - Hip escape to angle, grip pull to load, and timing the weight transfer
+**Phase 2: Dominant Angles and Loading** - Hip escape to angle, grip pull to load, and timing the weight transfer
 Add the hip escape and upper body grips to the hook mechanics. Practice the complete sequence of hip escape, grip pull to load weight, and then elevate. Partner provides light resistance by maintaining combat base posture. Focus on feeling the weight transfer onto the hook through your instep before lifting. Drill both collar-sleeve and underhook-sleeve grip combinations.
 
 **Phase 3: Full Sweep with Resistance** - Executing the complete sweep against increasing resistance with follow-through to mount
@@ -314,42 +326,12 @@ Use positional sparring starting from open guard versus combat base. Focus on re
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary diagonal line of weakness in combat base that this sweep exploits?
-**A**: The diagonal line runs from the posted knee toward the planted foot. Combat base provides strong forward-backward resistance through the triangulated base, but sideways forces directed along this diagonal encounter minimal structural resistance because neither the posted knee nor the planted foot can effectively resist lateral force in that direction. The sweep directs the opponent's upper body along this line while lifting the posted-knee base point.
-
-**Q2**: Why must you create an angle with a hip escape before attempting to elevate the hook?
-**A**: Without the angle, the hook elevation pushes the opponent straight upward rather than generating the rotational toppling force needed for the sweep. The hip escape positions your hook to lift diagonally rather than vertically, converting the elevation into rotational momentum along the opponent's weakest structural line. The approximately 30-degree angle also gives your grips a pulling direction that is perpendicular to the opponent's strongest resistance axis.
-
-**Q3**: Your opponent posts their far hand on the mat to stop the sweep - how do you adjust?
-**A**: You have two primary options. First, use your sleeve grip to pull their posting arm across their body, removing the post and continuing the original sweep direction. Second, if the posting arm is too strong to pull, immediately retract the hook and switch to the opposite side, attacking the planted foot side which is now exposed because their posting hand is committed to the other direction. The post defense opens a vulnerability elsewhere that you can exploit with quick side-switching.
-
-**Q4**: What tactile feedback through your hook tells you the opponent's weight is properly loaded for the sweep?
-**A**: You should feel significant downward pressure on your instep from the opponent's thigh weight. When the opponent's weight is properly loaded, your foot will feel like it is bearing a meaningful portion of their body weight, similar to the feeling of a loaded butterfly hook before a standard butterfly sweep. If the instep feels light, the opponent's weight is still centered or back, and the elevation will fail. Continue pulling with upper body grips until you feel the load transfer before lifting.
-
-**Q5**: What are the minimum grip requirements for a successful sweep, and what happens if grips are stripped mid-attempt?
-**A**: At minimum you need one controlling upper body grip (collar, sleeve, or underhook) and the butterfly hook. The upper body grip serves two functions: loading the opponent's weight onto the hook through pulling, and preventing the opponent from posting their hand to stop the sweep. If your grip is stripped mid-attempt, abort the sweep immediately and re-establish guard engagement rather than continuing without upper body control, which typically results in the opponent passing over the exposed hook.
-
-**Q6**: Your opponent drives forward aggressively to smash through your sweep attempt - what is your response?
-**A**: Use their forward momentum against them rather than trying to maintain your original sweep position. Convert to a collar drag or pendulum-style sweep by redirecting their forward drive over your head or across your body. Their aggressive forward pressure actually aids these redirecting sweeps because the momentum is already moving in the direction you want. Alternatively, frame against their shoulder, retain guard, and use the forward pressure to enter De La Riva or shin-to-shin position for an alternative attack.
-
-**Q7**: How does this sweep integrate with the broader guard retention and attack system against a combat base passer?
-**A**: The sweep threat forces the passer to defend rather than focusing purely on passing, disrupting their rhythm and creating windows for guard re-establishment. When the sweep fails, it naturally resets to open guard positions where you can transition to De La Riva, butterfly guard, or shin-to-shin entries. The threat of the sweep makes the opponent hesitant to commit their weight forward, which in turn makes their passes less aggressive and easier to defend. The sweep is part of a cycle: threaten sweep, opponent defends, use the defensive reaction to establish preferred guard or chain to another attack.
-
-**Q8**: What is the critical difference between the hook elevation sweep and the ankle pick sweep in terms of timing and opponent position?
-**A**: The hook elevation sweep works best when the opponent's weight is forward or centered, loading the posted knee that your hook targets. The ankle pick sweep works best when the opponent sits back with weight on the planted foot, making it the primary load-bearing point you can remove. They complement each other because the opponent cannot simultaneously distribute weight to defend both attacks. If the opponent sits back to avoid the hook sweep, the ankle pick becomes available, and if they drive forward to avoid the ankle pick, the hook sweep becomes available.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Combat Base?</p>
 
 Sweeps from combat base carry moderate injury risk primarily concentrated in the landing phase and knee mechanics. The top player being swept can injure their shoulder or wrist if they post aggressively on an extended arm during the fall. The bottom player executing the sweep risks knee strain if the hook gets trapped and the opponent drives forward over it. Practice sweeps at controlled speed initially, allowing the partner to fall safely by tucking rather than posting on extended limbs. When drilling, the person being swept should practice falling to their side with arms close to body rather than extending arms to catch themselves.
 

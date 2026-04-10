@@ -188,6 +188,8 @@ As the attacker executing this transition, you are the half guard top player who
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Half Guard to Triangle Escape Position?</p>
+
 - Recognize the triangle threat instantly by feeling leg pressure on your neck and one arm trapped between opponent's thighs
 - Immediately tuck your chin and pin your trapped arm's elbow tight to your ribs to prevent both choking depth and armbar transitions
 - Recover vertical posture by driving upward from your legs rather than pulling with your back muscles
@@ -202,6 +204,8 @@ As the attacker executing this transition, you are the half guard top player who
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Half Guard to Triangle Escape Position?</p>
+
 - Recognize that the bottom player has captured your head and one arm in a triangle configuration during your passing attempt
 - Identify which arm is trapped inside the triangle and which remains free for defensive posting
 - Assess the depth of the triangle lock - whether legs are fully locked, partially closed, or still being established
@@ -213,6 +217,8 @@ As the attacker executing this transition, you are the half guard top player who
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Half Guard to Triangle Escape Position step by step?</p>
 
 1. **Recognize the triangle threat and suppress panic response**: The moment you feel leg pressure crossing behind your neck and one arm trapped between the opponent's thighs, recognize you are in a triangle configuration. Suppress the instinct to explosively pull away or yank your arm out, as both reactions tighten the choke and expose you to armbar transitions. Take a controlled breath and shift your mental framework from offense to structured defense.
 2. **Protect the trapped arm immediately**: Pin your trapped arm's elbow tightly against your ribs with your hand positioned near your own chest. This prevents the opponent from isolating the arm for an armbar transition and reduces the fulcrum effect that the trapped arm creates against your own neck. Never extend or straighten the trapped arm - keep it compact and defensive against your centerline.
@@ -242,6 +248,8 @@ As the attacker executing this transition, you are the half guard top player who
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Half Guard to Triangle Escape Position?</p>
+
 - **Bottom player pulls head down aggressively to re-break posture during recovery attempt** (Effectiveness: High) - Your Response: Drive upward explosively from your legs while simultaneously posting your free hand higher on the mat to create a structural frame. Use short, repeated driving motions rather than one sustained effort to gradually recover posture against their pulling force. → Leads to [[Positions/Half Guard]]
 - **Bottom player optimizes angle by scooting hips laterally before escape position is established** (Effectiveness: High) - Your Response: Immediately step in the same direction as their hip movement to match their angle change while pressing down on their hip with your free hand. Maintain forward pressure throughout the adjustment to prevent them from completing the angle optimization. → Leads to [[Positions/Triangle Control]]
 - **Bottom player transitions to armbar on the trapped arm during posture recovery** (Effectiveness: Medium) - Your Response: Keep trapped arm elbow pinned to ribs and turn your body toward the trapped arm side. Stack forward pressure even more aggressively while following their hip rotation. The key is preventing arm isolation by maintaining the compact elbow-to-ribs position throughout. → Leads to [[Positions/Triangle Control]]
@@ -253,6 +261,8 @@ As the attacker executing this transition, you are the half guard top player who
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Half Guard to Triangle Escape Position?</p>
 
 ### 1. Attempting to yank the trapped arm straight out of the triangle with force
 
@@ -292,6 +302,8 @@ As the attacker executing this transition, you are the half guard top player who
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Half Guard to Triangle Escape Position (Attacker)?</p>
+
 **Phase 1: Recognition and arm protection** - Developing instant recognition of triangle threats and automatic arm protection response
 Partner slowly applies triangle from half guard bottom while you practice recognizing the threat and immediately pinning your trapped arm elbow to your ribs. Focus on calm, controlled response rather than speed. Repeat until the arm protection becomes reflexive.
 
@@ -309,42 +321,12 @@ Partner catches triangle during live half guard passing and actively works to fi
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical action you should take when you feel the triangle closing around your neck during a half guard pass?
-**A**: Immediately pin your trapped arm's elbow tightly against your ribs with your hand near your chest. This is the first priority because it prevents two critical problems: the opponent isolating the arm for an armbar transition, and the trapped arm acting as a fulcrum that increases choking pressure against your own neck. Arm protection must happen before posture recovery.
-
-**Q2**: Why is it critical to drive forward into the triangle rather than pulling backward to create distance?
-**A**: Pulling backward creates extension in the opponent's legs, which is exactly how the triangle generates maximum choking pressure. The triangle works by constricting the carotids through leg extension against the trapped arm and neck. Driving forward compresses the triangle structure by stacking the opponent's weight onto their shoulders, reducing their ability to extend their hips and generate finishing pressure.
-
-**Q3**: Your opponent begins scooting their hips to the side to optimize their choking angle - how do you counter this adjustment?
-**A**: Press down firmly on their hip or inner thigh with your free hand to resist the lateral movement while simultaneously stepping in the same direction they are moving. You must match their angle change to prevent them from achieving the perpendicular position that maximizes triangle effectiveness. Maintain forward stacking pressure throughout this adjustment rather than stopping to address the angle change in isolation.
-
-**Q4**: What distinguishes the posture recovery in this transition from simply sitting upright?
-**A**: The posture recovery must be driven from the legs, not the back muscles. Pushing upward from your toes and knees through hip drive creates sustainable, powerful force that can overcome the opponent's downward pulling pressure. Using back muscles alone fatigues rapidly under the weight of the triangle and leads to re-breaking of posture within seconds. The spine should move toward vertical alignment through forward-and-upward hip drive.
-
-**Q5**: During the transition, your opponent releases the triangle momentarily to readjust their figure-four lock - what opportunity does this create?
-**A**: This brief loosening creates a critical window for accelerating the transition. Drive your posture upward explosively while the pressure is reduced, and begin circling toward your trapped arm side. The momentary loosening also makes it possible to improve your trapped arm position by driving the elbow even tighter to your ribs. Recognize these adjustment moments and exploit them immediately rather than waiting for the opponent to re-establish full pressure.
-
-**Q6**: What are the three most common half guard passing errors that expose you to triangle entries?
-**A**: First, leading with your head during knee slice passes places your neck directly in triangle range when the bottom player elevates their hips. Second, losing track of your arm position by posting too wide with the inside arm during passing creates the one-arm-in, one-arm-out configuration triangles require. Third, allowing the bottom player to control your head with an overhook while your arm is isolated inside their guard structure gives them the angle and control to close the triangle.
-
-**Q7**: How should you manage your breathing when caught in the triangle during this transition?
-**A**: Breathe through your nose in controlled, deliberate cycles rather than gasping through your mouth. The triangle creates compression that makes breathing difficult, and hyperventilation accelerates panic and exhaustion. Short, controlled nasal breaths maintain oxygen delivery while keeping your heart rate manageable. During the posture recovery phase, exhale as you drive upward to engage your core muscles effectively.
-
-**Q8**: Your posture recovery attempt fails and the opponent breaks you back down - what is the correct reset procedure?
-**A**: Re-establish your trapped arm position with elbow pinned to ribs as the first priority, then replant your posting hand. Take one controlled breath to reset mentally, then reinitiate the posture sequence with emphasis on leg drive rather than back pull. Each recovery attempt should restart from the fundamentals rather than trying to continue a failed sequence. Build cumulative progress through repeated correct technique rather than single explosive attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Half Guard to Triangle Escape Position?</p>
 
 Triangle chokes restrict blood flow to the brain and can cause unconsciousness in seconds when fully locked. During training drills for this transition, partners must apply triangle pressure progressively and tap immediately when the escape is not working. Never hold a fully locked triangle at maximum pressure during transition drilling. Communicate clearly with your training partner about pressure levels and always err on the side of releasing early rather than late. Training partners applying the triangle should watch for signs of distress including facial color changes, loss of coordination, or failure to respond to verbal cues.
 

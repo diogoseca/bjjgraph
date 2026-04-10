@@ -15,7 +15,7 @@
   "from_position": "Gift Wrap/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Short Choke",
       "probability": 55,
       "result": "success"
     },
@@ -48,7 +48,7 @@
       "relationship": "Alternative choke - standard RNC if Short Choke entry is blocked"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Chain attack - available when opponent uses free arm to defend choke"
     },
     {

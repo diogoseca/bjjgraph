@@ -162,6 +162,8 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Worm to Squid Guard?</p>
+
 - Sudden decrease in lapel tension around your leg as the bottom player begins unwinding the worm guard configuration from their shin
 - Bottom player's hips begin rotating to create a new angle, signaling the setup for leg threading through your base
 - Increased grip pressure on your sleeve or collar as they establish the secondary control anchor needed before the transition
@@ -174,6 +176,8 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Worm to Squid Guard?</p>
 
 - Recognize lapel tension changes immediately as reduced tension signals the beginning of a guard transition attempt
 - Attack during the reconfiguration window when the bottom player's control is at its weakest between configurations
@@ -188,6 +192,8 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Worm to Squid Guard?</p>
 
 ### 1. Strip the lapel during the tension drop using a two-handed grip break
 
@@ -225,6 +231,8 @@ Defending against the Worm to Squid Guard transition requires recognizing the re
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Worm to Squid Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip the lapel during the reconfiguration window when tension drops using a two-handed grip break followed by immediate clearing of the fabric away from your legs. This completely neutralizes the lapel guard system and leaves you in a standard open guard passing situation with significant advantage.
@@ -240,6 +248,8 @@ Block the leg threading by pinching your knees together or stepping back to prev
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Worm to Squid Guard?</p>
 
 ### 1. Waiting passively while the transition completes instead of exploiting the vulnerability window
 
@@ -269,6 +279,8 @@ Block the leg threading by pinching your knees together or stepping back to prev
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Worm to Squid Guard?</p>
+
 **Phase 1: Recognition and Awareness** - Identifying transition initiation cues through tactile sensitivity
 Partner establishes worm guard and repeatedly initiates the transition to squid guard at half speed. Defender focuses solely on recognizing the tactile and visual cues that indicate the transition has begun including lapel tension changes, hip rotation, and grip pressure shifts. No countering allowed during this phase, focusing on pure recognition training.
 
@@ -285,29 +297,6 @@ During regular rolling, when opponent establishes worm guard, actively look for 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating the worm to squid guard transition?
-**A**: The earliest cue is a decrease in lapel tension around your leg. Before any visible leg movement begins, the bottom player must start loosening the worm guard lapel connection to reconfigure it. This tension change is tactile rather than visual and can be felt as reduced pulling pressure on your trapped leg. Experienced practitioners learn to distinguish between intentional loosening for a transition versus natural grip fatigue through repeated exposure.
-
-**Q2**: Why is the transition window the optimal time to strip the lapel rather than when the guard is fully established?
-**A**: During the transition, the bottom player is actively reducing their own lapel tension and repositioning their control structure. This means the lapel is already partially loosened and their attention is divided between maintaining control and executing the reconfiguration. Attempting to strip against a fully established worm or squid guard means fighting maximum tension and focused defense. The transition window offers significantly reduced resistance and divided attention from the bottom player.
-
-**Q3**: Your opponent begins rotating their hips while increasing sleeve grip pressure - should you drive forward or step back?
-**A**: Drive forward with controlled pressure. Hip rotation combined with sleeve grip reinforcement indicates they are creating the angle for leg threading while using the grip to prevent disengagement. Forward pressure disrupts their rotation by loading their guard structure and making it harder to thread the leg through your base. Stepping back gives them the space and time they need to complete the reconfiguration uncontested.
-
-**Q4**: How do you prevent the deep squid guard hook from establishing once the leg has partially threaded through?
-**A**: Immediately squeeze your knees together and drop your hips slightly to close the space the hook needs to set deep. If their foot is already past your legs, use your near-side hand to push their heel outward before they can curl it behind your knee. The hook is only structurally dangerous when it sets deep behind the knee, so even partially dislodging it significantly weakens the resulting squid guard and may force them to abort the transition.
-
-**Q5**: What passing strategy should you implement after successfully stripping the lapel during the transition?
-**A**: After stripping the lapel, immediately advance with a high-tempo pass before they can re-establish any lapel control. Toreando or leg drag passes are most effective because they capitalize on the now-absent lapel restriction that previously limited your lateral movement. The bottom player will be momentarily disoriented from losing their primary control system. Do not hesitate or allow a reset, as they will attempt to re-feed the lapel and re-establish guard within seconds.
-
-
-
-</section>
 
 
 </main>

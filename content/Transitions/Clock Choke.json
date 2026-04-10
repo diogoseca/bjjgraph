@@ -15,7 +15,7 @@
   "from_position": "Turtle/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Clock Choke",
       "probability": 58,
       "result": "success"
     },

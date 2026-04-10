@@ -261,7 +261,7 @@
         "duration": "5 minutes per side, rotating through different defensive reactions"
       },
       {
-        "name": "Pressure and Weight Distribution Exercise",
+        "name": "Pressure and Center of Gravity Exercise",
         "description": "Hold quarter guard top position statically while partner provides moderate resistance attempting to recover guard or create space for escape. Focus exclusively on pressure quality, weight distribution optimization, and maintaining control without excessive muscling or energy expenditure. Partner provides verbal feedback on pressure effectiveness.",
         "duration": "3-4 minute rounds, 4 rounds"
       },
@@ -370,7 +370,7 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Quarter Guard",
         "attempt_probability": 6
       },
       {

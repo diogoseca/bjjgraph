@@ -154,6 +154,8 @@ Defending the Lasso Sweep demands early recognition and immediate base adjustmen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lasso Sweep?</p>
+
 - Opponent establishes a secondary collar or pants grip with their free hand while maintaining the lasso sleeve control
 - Opponent's lasso leg extends upward with increasing pressure, creating a lifting sensation against your trapped arm
 - Opponent's hips angle perpendicular to your body and load toward the lasso side, indicating directional sweep preparation
@@ -165,6 +167,8 @@ Defending the Lasso Sweep demands early recognition and immediate base adjustmen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lasso Sweep?</p>
 
 - Maintain a wide triangular base with your free-side leg stepped back to create lateral stability against rotational sweep forces
 - Keep your free hand available for emergency posting rather than committing it to grips that reduce your defensive base
@@ -179,6 +183,8 @@ Defending the Lasso Sweep demands early recognition and immediate base adjustmen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lasso Sweep?</p>
 
 ### 1. Post free hand on the mat immediately when feeling off-balance toward the lasso side
 
@@ -216,6 +222,8 @@ Defending the Lasso Sweep demands early recognition and immediate base adjustmen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lasso Sweep?</p>
+
 ### → [[Positions/Open Guard]]
 
 Step over the lasso leg during the sweep attempt to completely neutralize the lasso mechanic. Once the leg thread is removed, the sweeper loses their primary control tool and you can establish passing grips from a neutral open guard top position.
@@ -231,6 +239,8 @@ Maintain wide base and immediately post the free hand when feeling the sweep loa
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lasso Sweep?</p>
 
 ### 1. Keeping base narrow while caught in lasso, leaving no room for lateral posting
 
@@ -260,6 +270,8 @@ Maintain wide base and immediately post the free hand when feeling the sweep loa
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lasso Sweep?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner slowly establishes the sweep grips and positioning while you verbally call out each recognition cue: secondary grip establishment, lasso extension, hip angle change. Develops conscious awareness of the threat sequence before adding physical defensive responses.
 
@@ -276,26 +288,6 @@ Situational sparring starting in lasso guard where your partner attempts all ava
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Lasso Sweep is being loaded?
-**A**: The earliest cue is the opponent establishing a secondary collar or pants grip while maintaining lasso tension. The lasso alone does not generate sweep power—it requires this pulling grip to create directional force. When you feel them reaching for your collar or see them grip your pants with their free hand, the sweep attempt is imminent and you must immediately address either the grip or your base.
-
-**Q2**: How should you adjust your base specifically against the Lasso Sweep threat?
-**A**: Widen your base by stepping your free-side leg back and away from the lasso direction, creating a wider triangular support structure. Keep your weight slightly toward your free side rather than centered, as the sweep targets the compromised lasso side. Your free hand must remain available for posting rather than committed to grips, because your ability to post is the primary defense once the sweep begins.
-
-**Q3**: What is the highest-risk defensive error when facing a loaded Lasso Sweep?
-**A**: The highest-risk error is driving your weight forward into the guard player when they have both the lasso and a collar grip established. This forward pressure is exactly the weight shift the sweeper needs—it loads the sweep for them. Instead, maintain a neutral or slightly backward weight distribution and focus on breaking the secondary grip before addressing the lasso itself.
-
-**Q4**: Your opponent has established the collar grip and begins extending the lasso leg upward—what immediate action prevents the sweep?
-**A**: Immediately post your free hand on the mat on the lasso side while simultaneously stepping your free-side leg backward to widen your base. Break the collar grip by stripping it with your trapped hand or turning your body to reduce the pulling angle. If the sweep has already loaded significantly, step over the lasso leg entirely to remove the mechanical advantage rather than trying to resist the rotational force directly.
-
-
-
-</section>
 
 
 </main>

@@ -188,6 +188,8 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Zombie Guard?</p>
+
 - Maintain active lockdown tension throughout the entire sweep sequence to prevent the opponent from re-establishing their base at any stage
 - Secure a deep underhook with your chest connected to the opponent's chest before initiating any sweeping motion
 - Generate sweep force primarily through hip extension and bridge mechanics rather than upper body pulling strength
@@ -202,6 +204,8 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Zombie Guard?</p>
+
 - Lockdown entanglement established on opponent's near leg with active tension through thigh squeeze and instep hook behind the calf
 - Near-side underhook secured with chest-to-chest connection and shoulder driving into the opponent's sternum
 - Bottom player positioned on their side with hips angled toward the opponent rather than flat on back
@@ -214,6 +218,8 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Zombie Guard step by step?</p>
 
 1. **Confirm lockdown and underhook establishment**: Verify your lockdown is active with instep hooked deep behind the opponent's calf and thigh squeeze engaged through your adductors. Your near-side underhook should have your arm threaded fully under their armpit with your hand gripping their far shoulder blade or lat muscle. This double control foundation is the non-negotiable prerequisite before initiating any sweep mechanics.
 2. **Create the perpendicular angle**: Walk your feet toward the opponent's hips while maintaining lockdown tension to create a perpendicular angle with your body relative to theirs. Use small hip escapes to progressively increase this angle until your torso is roughly ninety degrees to their centerline. This angle generates the rotational leverage needed for the sweep and prevents them from simply driving you flat with forward pressure.
@@ -243,6 +249,8 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Zombie Guard?</p>
+
 - **Opponent drives heavy crossface pressure to flatten the bottom player before the sweep angle develops** (Effectiveness: High) - Your Response: Frame with your far hand on their shoulder or bicep to prevent the crossface from settling against your jaw. If the crossface establishes successfully, transition to Deep Half Guard entry rather than forcing the sweep against flattened positioning where you lack the hip angle for force generation. → Leads to [[Positions/Rubber Guard/Zombie]]
 - **Opponent posts their free leg wide and drops their hip to create a triangular base resistant to the sweep direction** (Effectiveness: Medium) - Your Response: Increase lockdown stretch intensity to pull their posted leg off its base alignment, or transition to Electric Chair attack by splitting their legs through the opening their wide base creates. The wide post that defeats the sweep is precisely the leg position that exposes them to the Electric Chair. → Leads to [[Positions/Rubber Guard/Zombie]]
 - **Opponent establishes a deep whizzer on the underhook arm to neutralize the rotational axis** (Effectiveness: High) - Your Response: Swim your underhook deeper past the whizzer by circling your hand and re-threading under their armpit, or abandon the underhook temporarily and switch to an overhook grip that allows a modified sweep angle using lockdown tension as the primary force vector rather than the underhook rotation. → Leads to [[Positions/Rubber Guard/Zombie]]
@@ -254,6 +262,8 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Zombie Guard?</p>
 
 ### 1. Attempting the sweep without establishing a deep underhook first
 
@@ -293,6 +303,8 @@ Executing the Sweep from Zombie Guard requires coordinating three mechanical sys
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Zombie Guard (Attacker)?</p>
+
 **Phase 1: Mechanical Foundation** - Individual component mastery
 Practice lockdown establishment, underhook securing, angle creation, and hip bridge mechanics as separate isolated skills. Drill each component against a stationary partner until the movements become automatic. Minimum 50 repetitions of each component per session before combining.
 
@@ -313,48 +325,12 @@ Positional sparring starting from Zombie bottom with no restrictions on partner'
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Sweep from Zombie Guard?
-**A**: The optimal timing is when the opponent commits their weight forward attempting to pass or establish crossface pressure. Their forward weight shift adds momentum to your sweep direction, reducing the force you need to generate. A secondary timing window opens when they attempt to extract their trapped leg from the lockdown, as the pulling motion temporarily compromises their base and creates space for your hip elevation.
-
-**Q2**: What entry requirements must exist before you can attempt the sweep?
-**A**: Four conditions must be met simultaneously: active lockdown with instep hooked behind the calf and thigh squeeze engaged, a deep underhook with chest-to-chest connection reaching the opponent's far lat, side positioning with your hips angled toward the opponent rather than flat on your back, and far-side hand controlling the opponent's upper body or posting for leverage. Attempting the sweep without any single condition dramatically reduces success probability.
-
-**Q3**: What is the critical mechanical detail that determines whether the sweep succeeds or fails?
-**A**: The coordination between lockdown stretch direction and underhook drive angle is the critical mechanical detail. The lockdown must stretch the opponent's leg laterally while the underhook drives forward and upward simultaneously. When these forces align correctly, they create a rotational moment the opponent cannot resist by posting. If either force is misaligned or mistimed, the opponent can absorb the sweep attempt through base adjustment alone.
-
-**Q4**: What are the three most common failure points when executing this sweep?
-**A**: First, insufficient underhook depth which removes the rotational axis and allows the opponent to whizzer and flatten you back down. Second, attempting the sweep while flat on your back rather than on your side, which eliminates the hip angle needed for force generation. Third, poor timing when the opponent's weight is shifted away from the sweep direction, requiring maximum force against their strongest base alignment rather than catching them during a transition.
-
-**Q5**: What grip requirements must be met for the sweep to achieve maximum effectiveness?
-**A**: The primary grip is the underhook, which should be deep enough that your hand reaches the opponent's far lat or shoulder blade for maximum rotational leverage. The lockdown is the secondary grip requiring your instep hooked deep behind their calf with active thigh adductor engagement providing constant tension. Your far hand should control the opponent's far tricep to prevent posting, grip their collar for pulling leverage, or post on the mat for additional elevation force.
-
-**Q6**: In what direction should force be applied during the sweep execution?
-**A**: Force should be applied in two coordinated vectors: the lockdown stretches the opponent's leg laterally away from your body, while the underhook and hip drive push diagonally forward and upward into the opponent's chest. The combined effect creates rotational force around the axis formed by your underhook contact point. Your bridge drives your hips toward the ceiling while your shoulder drives into their sternum, creating opposing moments that overcome their base.
-
-**Q7**: Your opponent posts their far hand on the mat to resist the sweep - how do you adjust?
-**A**: Redirect your far hand to attack their posting arm by either pulling it across your body or pushing their elbow inward to collapse the post. Alternatively, increase lockdown stretch intensity to pull their base further apart, making the single-hand post insufficient to maintain balance. If the post is too strong to overcome directly, transition to an Electric Chair attack by driving your hips upward while maintaining the lockdown, splitting their legs through the opening their wide post creates.
-
-**Q8**: What chain attacks should you pursue if the initial sweep attempt is blocked?
-**A**: If blocked by heavy crossface, transition to Deep Half Guard entry by ducking under the opponent's chest. If blocked by whizzer, convert to an Old School Sweep variation or fight to re-establish the underhook through swimming motions. If blocked by wide base posting, transition to Electric Chair submission by elevating your hips and splitting the opponent's legs. The sweep threat creates openings for all these alternatives because the opponent cannot defend everything simultaneously.
-
-**Q9**: How should you adjust the sweep when facing a significantly heavier opponent?
-**A**: Against heavier opponents, timing becomes paramount since you must catch them during weight transitions rather than trying to move their static mass. Increase the lockdown stretch duration to maximize base disruption before initiating the sweep. Use smaller incremental angle adjustments rather than attempting one explosive motion. The Whip-Up variation works well here because it uses their forward momentum against them, and be ready to chain into Electric Chair when the direct sweep stalls.
-
-**Q10**: What is the role of head positioning throughout the sweep execution?
-**A**: Your head should remain below the opponent's head level throughout the entire sweep sequence. This prevents them from establishing a crossface which would flatten you and kill the sweep, and creates a physical wedge that drives upward into their chest during execution. Think of your forehead driving into their sternum as an additional force vector complementing the underhook drive. If your head rises above theirs, you lose mechanical advantage and become vulnerable to being driven back to flat positioning.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Zombie Guard?</p>
 
 The Sweep from Zombie Guard involves significant rotational forces on both practitioners' knees due to the lockdown entanglement. Release the lockdown immediately if either practitioner experiences sharp knee pain or popping sensations. The lockdown stretch should create controlled tension through muscular engagement, not acute joint stress on the knee or ankle. During training, communicate with your partner about lockdown pressure intensity and complete the sweep with smooth controlled rotation rather than explosive jerking movements to minimize injury risk. Practitioners with existing knee or ankle injuries should exercise particular caution and consider modified lockdown depth.
 

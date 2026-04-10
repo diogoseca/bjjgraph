@@ -206,7 +206,7 @@ The Shoulder of Justice to Mount transition occupies a critical node in the side
 
 - [[Positions/Side Control]] - Parent position category — Shoulder of Justice is a specialized side control variation
 
-- [[Transitions/Consolidation to Mount]] - Related transition — alternative mount advancement pathway from standard side control
+- [[Transitions/Side Control to Mount]] - Related transition — alternative mount advancement pathway from standard side control
 
 - [[Transitions/Shoulder of Justice Kimura Setup]] - Complementary attack — kimura threat creates submission dilemma that opens the mount transition
 

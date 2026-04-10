@@ -16,7 +16,7 @@ description: "Complete guide to passing Z-Guard as the top player. Systematic kn
   "@context": "https://schema.org",
   "@type": "HowTo",
   "name": "How to Execute Pass Z-Guard in BJJ",
-  "description": "Step-by-step guide for executing Pass Z-Guard from Z-Lock Half Guard/Top.",
+  "description": "Step-by-step guide for executing Pass Z-Guard from Z-Guard/Top.",
   "step": [
     {
       "@type": "HowToStep",
@@ -180,13 +180,15 @@ description: "Complete guide to passing Z-Guard as the top player. Systematic kn
 
 As the attacker passing Z-Guard, your primary objective is the systematic dismantling of the bottom player's knee shield defensive structure to complete the pass to side control. This requires winning multiple simultaneous battles—the underhook war, the crossface establishment, and the progressive collapse of the knee shield frame—while maintaining sufficient base to prevent sweeps. The pass rewards patient, methodical pressure application over explosive movement, as the elevated knee shield is specifically designed to redirect and neutralize forward force. Success comes from reading the bottom player's reactions and chaining techniques accordingly, using their defensive adjustments to create passing opportunities rather than fighting through their strongest defensive positions.
 
-**From Position**: [[Positions/Half Guard/Z-Lock Half Guard]] (Top)
+**From Position**: [[Positions/Z-Guard]] (Top)
 
 </section>
 
 <section id="key-principles" class="content-section">
 
 ## Key Attacking Principles
+
+<p class="section-subtitle">What are the key principles for executing Pass Z-Guard?</p>
 
 - Collapse the knee shield through angular pressure at approximately 45 degrees rather than direct forward drive, which the shield is designed to redirect
 - Win the underhook or crossface battle before committing to the pass, as this eliminates the bottom player's primary offensive options
@@ -202,6 +204,8 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Z-Guard?</p>
+
 - Established position on top of Z-Guard with stable base and weight directed into the knee shield
 - At least one dominant grip established—crossface, collar grip, or far-side underhook
 - Wide base with knees preventing sweep attempts from the bottom player
@@ -214,6 +218,8 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Z-Guard step by step?</p>
 
 1. **Establish dominant grips and base**: Secure your primary controlling grip—either crossface with forearm driving across the bottom player's jaw, collar grip on the near side, or far-side underhook. Simultaneously establish a wide base with your knees spread and weight directed forward into the knee shield. Your head should be low and tight against their body to prevent collar ties and frame establishment.
 2. **Win the underhook or crossface battle**: Fight aggressively for the underhook on the far side or establish a deep crossface that drives the bottom player's head away from you. This is the critical battle that determines pass success—without controlling the far side, the bottom player retains sweep threats and can re-establish frames at will. Use your chest and shoulder pressure to pin their far arm while swimming for the underhook.
@@ -243,6 +249,8 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Z-Guard?</p>
+
 - **Bottom player secures deep underhook and threatens old school sweep** (Effectiveness: High) - Your Response: Immediately whizzer their underhook arm and drive your weight into their shoulder. Use the whizzer to flatten them back to the mat and re-establish crossface control. If they have committed to the sweep, backstep to the other side and look for back exposure. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
 - **Bottom player dives underneath for deep half guard entry** (Effectiveness: Medium) - Your Response: Sprawl your hips back immediately to prevent them from getting underneath you. Drive shoulder pressure into their far shoulder and re-establish hip control. If they have already entered deep half, transition to deep half passing strategies rather than forcing the Z-Guard pass. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Bottom player frames forcefully and re-extends knee shield after partial collapse** (Effectiveness: Medium) - Your Response: Do not fight the re-extension with pure strength. Maintain your grips and immediately re-apply angular pressure from a different angle. Use the bottom player's extension energy to change angles—if they push you away, circle to a new angle rather than driving straight back in. → Leads to [[Positions/Half Guard/Z-Lock Half Guard]]
@@ -254,6 +262,8 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Z-Guard?</p>
 
 ### 1. Attempting to pass with upright posture instead of driving low pressure into the knee shield
 
@@ -293,6 +303,8 @@ As the attacker passing Z-Guard, your primary objective is the systematic disman
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Z-Guard (Attacker)?</p>
+
 **Isolation** - Knee shield collapse mechanics
 Practice collapsing the knee shield in isolation with a cooperative partner. Focus on proper weight distribution, 45-degree angle pressure, and maintaining grips throughout the collapse. Partner provides static resistance only, allowing you to develop feel for the correct pressure angles and body mechanics.
 
@@ -313,42 +325,12 @@ Execute Z-Guard passing sequences after fatigue-inducing exercise to simulate co
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is direct forward pressure ineffective against a well-established Z-Guard knee shield?
-**A**: The elevated knee shield positioned against the shoulder creates a mechanical lever that redirects forward force laterally, converting the passer's forward drive into rotational energy that loads the bottom player's sweeping mechanism. The shin angle creates a wedge effect that makes it impossible to compress through direct pressure alone. The correct approach is angular pressure at approximately 45 degrees toward the far hip, which the shield geometry cannot effectively redirect.
-
-**Q2**: What grip must you establish before committing to the pass and why is it critical?
-**A**: The underhook on the far side or a deep crossface must be established before committing to any passing movement. This grip eliminates the bottom player's primary offensive weapons—the old school sweep requires an underhook, and most back takes depend on far-side arm control. Without controlling the far side, the bottom player can freely attack throughout your pass attempt, making completion nearly impossible against a skilled guard player.
-
-**Q3**: Your opponent has a strong knee shield and secures a deep underhook—how do you respond?
-**A**: Immediately establish a whizzer on their underhook arm to neutralize their leverage. Drive your weight into their shoulder through the whizzer to flatten them back to the mat. Use the whizzer control to strip their underhook depth while re-establishing crossface pressure. If they have already loaded a sweep, post your far hand on the mat and backstep to prevent being swept while maintaining top position.
-
-**Q4**: At what angle should you apply pressure to collapse the knee shield most effectively?
-**A**: Apply pressure at approximately 45 degrees toward the bottom player's far hip rather than straight forward. This angle loads the knee shield from a direction it cannot effectively redirect, as the shin is positioned to deflect forward force but is structurally weak against diagonal compression. Drive your shoulder into the shield while your hips angle toward their far side, creating a collapsing force that progressively breaks down the frame.
-
-**Q5**: How do you prevent the bottom player from entering deep half guard during your pass attempt?
-**A**: Maintain forward hip pressure and keep your center of gravity low to prevent them from shooting underneath you. Control their far-side shoulder with crossface or underhook to limit their ability to angle underneath. When you feel them beginning to dive for deep half, immediately sprawl your hips back and drive shoulder pressure into their upper body. If they begin turning in, use that turning momentum to accelerate your backstep pass rather than fighting the deep half entry.
-
-**Q6**: What is the most critical moment during pass completion where the bottom player can recover guard?
-**A**: The most vulnerable moment occurs during leg clearance—the transition between collapsing the knee shield and establishing side control. During this phase, the passer must release some hip pressure to move their legs past the guard player's defensive structure. The bottom player exploits this window by re-inserting a knee for half guard recovery or extending frames. To minimize this vulnerability, maintain at least one controlling grip throughout and complete leg clearance with a single decisive movement.
-
-**Q7**: Your opponent's knee shield is partially collapsed but they frame your shoulder with their far hand—what should you do?
-**A**: Address the secondary frame before continuing the pass. Control their far wrist or sleeve and pin it to their body or the mat, or swim your shoulder under their frame to nullify it. Do not attempt to pass through multiple frames simultaneously, as the compounding resistance makes completion extremely difficult. Strip the secondary frame first, then immediately resume the pass before they can re-establish it.
-
-**Q8**: How do you chain techniques when your initial Z-Guard pass attempt is successfully defended?
-**A**: Read the specific defense the bottom player uses and transition to the appropriate counter. If they re-extend the knee shield, change angle and re-engage with a different passing variation. If they secure the underhook, transition to backstep passing around their guard. If they dive for deep half, sprawl and drive into them. The key is maintaining continuous pressure through transitions rather than resetting to neutral after each failed attempt, keeping the bottom player in a reactive cycle.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Z-Guard?</p>
 
 When collapsing the knee shield, apply progressive pressure rather than explosive force to avoid injuring your training partner's knee or hip. Be mindful of excessive crossface pressure during drilling, as sustained neck pressure can cause discomfort and injury. During the leg clearance phase, avoid twisting your partner's trapped leg at unnatural angles. Communicate with your training partner about pressure intensity, and in competition preparation drills, establish clear boundaries for resistance levels to prevent training injuries.
 

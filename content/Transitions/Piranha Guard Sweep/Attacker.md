@@ -188,6 +188,8 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Piranha Guard Sweep?</p>
+
 - Maintain constant lapel tension throughout the sweep motion to prevent opponent from posturing and recovering base at any point during the sequence
 - Coordinate the lapel pull with hip elevation and hook action to create compound off-balancing from multiple directions simultaneously
 - Time the sweep when opponent commits weight forward during grip stripping or passing attempts, converting their energy into sweep momentum
@@ -202,6 +204,8 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Piranha Guard Sweep?</p>
+
 - Piranha Guard fully established with opponent's lapel threaded deep through your legs, extending past your hips for maximum leverage
 - Both hands secured on the threaded lapel with thumb-inside grips at two strategic points to maintain tension and prevent extraction
 - At least one hook engaged on opponent's hip, thigh, or knee to create the elevation platform for the sweep
@@ -214,6 +218,8 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Piranha Guard Sweep step by step?</p>
 
 1. **Confirm lapel configuration**: Verify the Piranha Guard is fully established with the opponent's lapel threaded deep through your legs. Both hands grip the lapel at strategic points with thumb-inside grips: one near the exit point from your legs to secure the threading, the second further along the material for pulling leverage.
 2. **Break opponent's posture**: Pull the lapel strongly toward your hips while angling your body slightly to one side, collapsing the opponent's upright posture and loading their weight forward over your centerline. Maintain steady pulling pressure for two to three seconds to fully compromise their base before proceeding.
@@ -243,6 +249,8 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Piranha Guard Sweep?</p>
+
 - **Opponent widens base and drops hips low to prevent hook elevation and resist off-balancing** (Effectiveness: High) - Your Response: Transition to collar drag or berimbolo entry since their widened base exposes the back, or switch to the opposite side hook sweep to attack the new base direction → Leads to [[Positions/Piranha Guard]]
 - **Opponent strips primary lapel grip with two-on-one break during sweep setup phase** (Effectiveness: High) - Your Response: Immediately re-thread the lapel if possible, or transition to De La Riva or Collar Sleeve Guard using the remaining hook to maintain distance and prevent the pass → Leads to [[Positions/Open Guard]]
 - **Opponent posts free hand on the mat to create additional base point in the sweep direction** (Effectiveness: Medium) - Your Response: Switch sweep direction to attack the posting-arm side where base is compromised, or set up an omoplata on the posted arm that is now extended away from their body → Leads to [[Positions/Piranha Guard]]
@@ -254,6 +262,8 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Piranha Guard Sweep?</p>
 
 ### 1. Initiating the sweep without first breaking opponent's posture through sustained lapel tension
 
@@ -293,10 +303,12 @@ The Piranha Guard Sweep leverages the unique lapel-through-legs configuration to
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Piranha Guard Sweep (Attacker)?</p>
+
 **Phase 1: Mechanics** - Lapel threading and grip establishment
 Practice threading the opponent's lapel through your legs from various starting positions with a compliant partner. Focus on achieving deep thread penetration and establishing both grip points efficiently within three to five seconds. Repeat fifty times per session until the motion is automatic.
 
-**Phase 2: Posture Breaking** - Coordinated tension and angle creation
+**Phase 2: Posture** - Coordinated tension and angle creation
 With partner in combat base, practice breaking their posture using lapel tension combined with hip angle changes. Develop sensitivity to opponent's weight distribution and learn to identify the moment their base becomes compromised. Partner provides zero resistance initially, building to light resistance.
 
 **Phase 3: Sweep Execution** - Complete sweep to mount with progressive resistance
@@ -313,48 +325,12 @@ Start in Piranha Guard against fully resisting partner at competition pace. Atte
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical timing window for initiating the Piranha Guard Sweep?
-**A**: The optimal timing window opens when the opponent shifts weight forward during grip stripping attempts or passing setup. This forward commitment reduces their ability to base backward against the sweep direction. Watch for the moment their hands engage with your lapel grips rather than posting on the mat, as this removes their primary base recovery tool and creates maximum vulnerability to the sweep.
-
-**Q2**: What grip configuration must be established before attempting the sweep?
-**A**: Both hands must control the threaded lapel with thumb-inside grips at two strategic points: one grip near where the lapel exits your legs to maintain the threading integrity, and a second grip further along the material to generate pulling leverage. The spacing between grips determines your mechanical advantage, with too-close spacing reducing control range and too-wide spacing weakening individual grip strength.
-
-**Q3**: What is the most critical hip movement during the sweep execution?
-**A**: The diagonal hip bridge combined with rotation is the primary force generator. Rather than bridging straight upward, drive your hips diagonally toward the opposite shoulder while rotating your torso in the sweep direction. This creates a spiraling force that is significantly harder to defend than linear elevation because the opponent cannot simply drop their weight to counter the rotational component.
-
-**Q4**: Your opponent posts their hand on the mat to block the sweep—how do you adjust?
-**A**: When the opponent posts to block, immediately recognize that their posting-side base is now committed. Switch the sweep direction to attack the opposite side where their base is weakest, using the same lapel tension in a new diagonal. Alternatively, the posted arm becomes vulnerable to omoplata if they extend it far enough from their body, converting the blocked sweep into a submission threat.
-
-**Q5**: What hook placement generates the most sweeping power in this technique?
-**A**: A butterfly hook positioned under the opponent's near-side thigh close to the hip crease provides maximum elevation leverage. The hook should engage before the sweep motion begins so your foot is already loaded under their weight. Position the hook so that your shin drives upward into their inner thigh, creating both vertical elevation and lateral displacement simultaneously for compound off-balancing.
-
-**Q6**: How does the direction of the lapel pull affect sweep success?
-**A**: The lapel must be pulled diagonally across your body toward the opposite hip, not straight backward toward your head. This diagonal vector creates rotational force around your hip pivot point that the opponent cannot resist with linear base widening. The angle of pull should match approximately forty-five degrees from your centerline, aligned with the sweep direction established by your hook placement.
-
-**Q7**: Your opponent strongly resists the sweep by dropping their hips—what chain attack opens up?
-**A**: When the opponent drops and widens their hips to resist, their back becomes exposed because they cannot simultaneously base wide and protect their back. Transition to a berimbolo entry by inverting under the opponent while maintaining lapel control, or execute a collar drag to pull them past you and take the back. The key insight is that base-widening defenses always create back exposure as an inherent trade-off.
-
-**Q8**: What happens if you lose one lapel grip during the sweep attempt?
-**A**: If the outside grip is lost, immediately increase tension on the remaining inside grip while using your free hand to establish a secondary control point such as a sleeve grip or pant grip at the knee. If the sweep is still viable with reduced control, commit quickly before more grip deterioration occurs. If control is insufficient, abandon the sweep and transition to De La Riva or Collar Sleeve Guard to prevent complete guard loss.
-
-**Q9**: How do you prevent the opponent from extracting the lapel during sweep setup?
-**A**: Maintain constant tension on both grip points throughout setup, ensuring no slack exists in the lapel thread. Keep your legs active around the threaded material, squeezing slightly to create friction that resists extraction. If you feel the opponent beginning to pull the lapel free, immediately pull your hips closer to them using your hooks, which reduces the available slack they need to extract the material from the threading.
-
-**Q10**: What body position ensures successful arrival in mount after the sweep completes?
-**A**: As the sweep reaches its apex and the opponent begins falling, drive your chest forward over their centerline while keeping your hips tight to theirs. Your lead shoulder should cross their midline before their back reaches the mat, establishing inside position. Immediately release the lapel thread and transition to cross-face control or collar grip while settling your hips heavy on their solar plexus to prevent any immediate escape attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Piranha Guard Sweep?</p>
 
 The Piranha Guard Sweep carries moderate injury risk primarily through uncontrolled lapel tension that can cause neck strain or cervical compression on the top player. Partners should communicate clearly about lapel tension levels and the bottom player must release grips immediately if the top player signals discomfort. The sweep itself can cause the top player to fall awkwardly if executed with excessive force, so controlled drilling with graduated resistance is essential before live application. Be particularly cautious of finger injuries from deep lapel grips during extended training sessions and consider taping fingers preventively when drilling high volumes.
 

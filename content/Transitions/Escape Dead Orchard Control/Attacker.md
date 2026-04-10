@@ -188,6 +188,8 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Dead Orchard Control?</p>
+
 - Frame at the choking arm elbow joint before initiating any hip movement to prevent grip tightening during escape attempts
 - Escape perpendicular to the opponent's force line - hip escape away from the trapped arm side rather than pulling straight back
 - Maintain chin-to-chest contact throughout the entire escape sequence to minimize choke effectiveness
@@ -203,6 +205,8 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Dead Orchard Control?</p>
+
 - Identify which arm is trapped and assess how deep the opponent's grip extends past your far shoulder
 - Establish a forearm wedge with your free hand at the crook of the opponent's choking arm elbow
 - Tuck chin tightly to chest and turn face toward opponent's body to reduce choke effectiveness
@@ -215,6 +219,8 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Dead Orchard Control step by step?</p>
 
 1. **Establish defensive frame at choking arm**: Place your free forearm across the crook of the opponent's choking arm at the elbow joint. This wedge prevents the grip from tightening further and creates a mechanical stop that gives you space to work. Do not push outward - use skeletal structure to block inward compression. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body.
 2. **Secure breathing and assess position**: Take two controlled nasal breaths to settle your nervous system and prevent panic. During these breaths, feel the opponent's weight distribution and grip depth. Identify whether their hips are high, indicating a possible hip escape opportunity, or settled heavily, requiring you to create the opportunity through small movements. This assessment determines your primary escape path.
@@ -237,7 +243,7 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 | Success | [[Positions/Half Guard]] | 10% |
 | Failure | [[Positions/Dead Orchard Control]] | 35% |
 | Counter | [[Positions/Back Control]] | 15% |
-| Counter | [[Positions/Game Over]] | 10% |
+| Counter | [[Positions/Anaconda Control]] | 10% |
 
 
 </section>
@@ -246,8 +252,10 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Dead Orchard Control?</p>
+
 - **Opponent re-tightens grip and increases shoulder pressure during hip escape attempt** (Effectiveness: High) - Your Response: Maintain frame at elbow and pause hip movement until pressure settles, then resume with smaller incremental shrimps timed to opponent's breathing cycles → Leads to [[Positions/Dead Orchard Control]]
-- **Opponent walks hips toward your head to accelerate anaconda finishing angle** (Effectiveness: High) - Your Response: Match their hip rotation by walking your hips in the same direction, or execute a forward roll in the direction of their rotation to invert and potentially recover guard → Leads to [[Positions/Game Over]]
+- **Opponent walks hips toward your head to accelerate anaconda finishing angle** (Effectiveness: High) - Your Response: Match their hip rotation by walking your hips in the same direction, or execute a forward roll in the direction of their rotation to invert and potentially recover guard → Leads to [[Positions/Anaconda Control]]
 - **Opponent releases dead orchard to take back control when you create hip angle** (Effectiveness: Medium) - Your Response: As soon as you feel the grip release, immediately turn into the opponent rather than away to prevent hook insertion, working to recover guard before they establish back control → Leads to [[Positions/Back Control]]
 - **Opponent switches from anaconda to darce grip when you extract the trapped arm** (Effectiveness: Medium) - Your Response: Recognize the grip switch by the change in arm threading direction and immediately circle toward the newly threatened side while re-establishing neck frames → Leads to [[Positions/Dead Orchard Control]]
 - **Opponent flattens you completely to mat by driving weight forward and sprawling** (Effectiveness: High) - Your Response: Work to get at least one knee back under your hips before resuming escape sequence - use forearm frame to prevent total chest-to-mat contact and create minimum space for hip recovery → Leads to [[Positions/Dead Orchard Control]]
@@ -258,6 +266,8 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Dead Orchard Control?</p>
 
 ### 1. Attempting explosive bridge or roll without first establishing frame at choking arm
 
@@ -302,6 +312,8 @@ As the practitioner trapped in Dead Orchard Control, your task is to systematica
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Dead Orchard Control (Attacker)?</p>
+
 **Phase 1: Survival Fundamentals** - Frame establishment and breathing under compression
 Partner establishes dead orchard control at 50% pressure. Practice establishing the elbow frame, tucking chin, and maintaining controlled breathing for 90-second rounds. No escape attempts - focus purely on defensive positioning and mental composure under pressure. Build comfort with restricted breathing and develop the automatic frame response.
 
@@ -322,42 +334,12 @@ Full resistance positional sparring starting from dead orchard control bottom. M
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first physical action you take when trapped in Dead Orchard Control?
-**A**: Establish a forearm wedge with your free arm at the crook of the opponent's choking arm elbow joint. This frame prevents the grip from tightening further and creates a mechanical stop that provides the foundation for all subsequent escape movements. Do not attempt hip escapes, rolls, or arm extraction before this frame is secure. Simultaneously tuck your chin to your chest and turn your face toward the opponent's body to minimize choke effectiveness.
-
-**Q2**: Why must you hip escape away from the trapped arm side rather than toward it?
-**A**: The anaconda grip creates circular compression that tightens when your body moves toward the trapped arm side. Hip escaping away changes the angle of compression, progressively reducing the choke's mechanical advantage. Moving toward the trapped arm feeds your neck deeper into the grip and accelerates the blood choke. The correct direction creates space where space is needed - between your neck and the choking arm - rather than compressing what is already compressed.
-
-**Q3**: Your opponent increases shoulder pressure and begins walking hips toward your head - what does this indicate and how do you respond?
-**A**: This indicates the opponent is committing to the anaconda finishing rotation, which is the highest-threat scenario in dead orchard control. Respond by either matching their hip rotation to prevent them from achieving the finishing angle, or execute a forward roll in the direction of their rotation to use their momentum against them. The forward roll can invert the position and create guard recovery opportunity. Staying static during this rotation guarantees the submission finish.
-
-**Q4**: When is the optimal moment to attempt the hip escape portion of this escape?
-**A**: The optimal moment occurs when the opponent shifts their weight, adjusts their grip, or transitions between attacks. Feel for momentary pressure reductions on your trapped shoulder or slight elevation of their hips. Their movement creates windows where your hip escape faces reduced resistance. Making small defensive movements forces them to react, and their reaction creates the window. Never attempt the hip escape against settled, committed pressure with full weight engagement.
-
-**Q5**: What determines whether you should extract the trapped arm or insert a knee frame after creating hip angle?
-**A**: Grip depth determines the choice. If the trapped arm has some freedom at the elbow and can be retracted toward your hip with moderate effort, extract it since this breaks the dead orchard mechanics entirely. If the arm is deeply trapped and extraction would require fighting directly against the grip, insert a knee frame between your body and the opponent's chest instead. The knee frame prevents them from re-settling weight and creates a pathway to half guard recovery without needing to fight the grip directly.
-
-**Q6**: How do you maintain effective breathing when your airway is partially restricted in Dead Orchard Control?
-**A**: Focus on slow, controlled nasal breathing rather than mouth breathing. Accept that full breaths are impossible and work with a consistent rhythm of shallow nasal breaths. Exhale during movements such as hip escapes and frame adjustments, and inhale during brief pauses. The body can function on restricted oxygen for longer than most practitioners realize if panic is avoided. Breath-holding or rapid gasping accelerates fatigue and reduces the time available for technical escape execution.
-
-**Q7**: Your initial hip escape creates some angle but the opponent follows and re-tightens - what is your response?
-**A**: Maintain your elbow frame and pause the hip escape until the opponent's pressure settles, then resume with smaller incremental shrimp movements timed to their breathing cycles or micro-adjustments. Each small shrimp builds on the previous angle gain, and the opponent cannot perfectly re-settle every time. The escape is cumulative - multiple small gains eventually create sufficient angle for arm extraction or guard recovery. Abandoning the escape because one movement was countered is the most common strategic error.
-
-**Q8**: What are the risks of attempting to stand directly from Dead Orchard Control without completing the escape sequence?
-**A**: Standing drives your neck upward into the opponent's grip, which can accelerate the choke by giving them an angle to hang their weight on your neck. It also exposes you to standing guillotine if they switch grips, and gives them easy back control access if they release one side. The standing escape should only be attempted after the grip has been significantly compromised through frame work and hip escaping, or from a recovered front headlock position where the specific dead orchard mechanics have already been broken.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Dead Orchard Control?</p>
 
 Dead Orchard Control involves blood choke mechanics that can cause unconsciousness in seconds when fully locked. During training, maintain clear tap signals with your free hand and tap early when the choke is fully secured rather than fighting through a locked submission. Training partners should release immediately upon any tap signal and monitor for signs of disorientation or loss of consciousness. Practice at controlled resistance levels and increase gradually. Never attempt to power through a fully locked dead orchard choke in training - the escape must be initiated before the choke reaches full compression to be viable.
 

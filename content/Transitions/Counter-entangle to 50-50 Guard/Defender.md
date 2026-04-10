@@ -166,6 +166,8 @@ The defender must balance between shutting down the counter-entangle and maintai
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Counter-entangle to 50-50 Guard?</p>
+
 - Opponent retracts their free leg from your hip frame and brings their knee toward their chest in a coiling motion preparing to thread
 - Opponent's hips begin rotating toward you rather than away, indicating they are setting up the threading angle rather than attempting extraction
 - Opponent's hands shift from protecting their heel to gripping your legs or controlling distance, signaling a transition from passive defense to active counter
@@ -178,6 +180,8 @@ The defender must balance between shutting down the counter-entangle and maintai
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Counter-entangle to 50-50 Guard?</p>
 
 - Recognize the counter-entangle setup early by monitoring your opponent's free leg activity and hip rotation
 - Maintain control of the space between your legs to deny the threading pathway your opponent needs
@@ -192,6 +196,8 @@ The defender must balance between shutting down the counter-entangle and maintai
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Counter-entangle to 50-50 Guard?</p>
 
 ### 1. Sprawl hips back and use free hand to block the threading leg at the knee or ankle before it passes between your legs
 
@@ -229,6 +235,8 @@ The defender must balance between shutting down the counter-entangle and maintai
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Counter-entangle to 50-50 Guard?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Block the threading attempt with your free hand or sprawled hip positioning, then immediately re-establish your Leg Knot Top grips and hip pressure. The opponent's failed counter-entangle leaves them with a compromised free leg frame, giving you an improved attacking position compared to before their attempt.
@@ -244,6 +252,8 @@ Use the opponent's counter-entangle attempt as the trigger to accelerate your ow
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Counter-entangle to 50-50 Guard?</p>
 
 ### 1. Failing to recognize the counter-entangle setup and only reacting after the opponent has already threaded their leg through
 
@@ -273,6 +283,8 @@ Use the opponent's counter-entangle attempt as the trigger to accelerate your ow
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Counter-entangle to 50-50 Guard?</p>
+
 **Week 1-2** - Recognition drilling
 Partner telegraphs the counter-entangle setup with exaggerated free leg retraction and hip rotation. Practice identifying the cues and calling them out verbally before taking any defensive action. Build pattern recognition before adding physical responses.
 
@@ -289,29 +301,6 @@ Full resistance positional rounds from Leg Knot. Top player works attacks while 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the counter-entangle to 50-50?
-**A**: The earliest cue is when your opponent retracts their free leg from your hip frame and brings their knee toward their chest. This coiling motion is the preparation phase for threading. Combined with their hips beginning to rotate toward you (rather than away), this is a near-certain indicator of an imminent counter-entangle attempt. Reacting at this stage gives you maximum time to block or advance position.
-
-**Q2**: Your opponent has already threaded their leg halfway through - is it too late to prevent 50-50?
-**A**: Not necessarily, but your options narrow significantly. Use your free hand to grip their threading leg at the ankle and push it back out before they lock ankles. Simultaneously drive your hips forward to reduce the space they need to complete the configuration. If their leg is past the halfway point with strong hip rotation, your best option shifts to immediately attacking the heel hook while their heel is exposed during rotation, or accelerating to Saddle before they secure the ankle lock.
-
-**Q3**: Why is accelerating to Saddle an effective response to the counter-entangle threat?
-**A**: Saddle position eliminates the counter-entangle option entirely because of its perpendicular alignment and tighter leg configuration. In Saddle, the opponent's free leg cannot thread between your legs due to the figure-four structure and your hip positioning across their body. Additionally, the opponent's hip rotation toward you during the counter-entangle setup actually assists your Saddle entry angle, making their offensive movement work against them.
-
-**Q4**: How should you adjust your hip pressure when you detect a counter-entangle attempt?
-**A**: Increase your hip pressure by driving forward into the opponent's trapped leg. This serves dual purposes: it reduces the space between your legs that the opponent needs for threading, and it pins their hips making the rotational movement needed for the counter-entangle more difficult. Never reduce hip pressure in response to a counter-entangle threat, as this creates the exact transitional window the technique requires to succeed.
-
-**Q5**: What should you do immediately after successfully blocking a counter-entangle attempt?
-**A**: Capitalize on the failed attempt by immediately advancing your position. The opponent's free leg is now in a compromised position after the blocked threading motion, meaning their primary defensive frame is gone. Use this window to advance to Saddle, tighten your Leg Knot control, or attack a submission. Do not simply return to the status quo, as the opponent will attempt the counter-entangle again once they re-establish their free leg frame.
-
-
-
-</section>
 
 
 </main>

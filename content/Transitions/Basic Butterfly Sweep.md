@@ -28,7 +28,7 @@ When executed properly, the Basic Butterfly Sweep transitions smoothly into moun
 
 This is considered an essential technique for all BJJ practitioners and forms the foundation for more advanced butterfly guard sweeping systems. It serves as the entry point to understanding how inside position via hooks creates mechanical leverage, how grip control prevents defensive posting, and how timing with opponent weight shifts determines success rate. Mastery of the basic butterfly sweep unlocks the entire butterfly guard attacking system including back takes, leg entanglements, and submission chains.
 
-**From Position**: [[Positions/Butterfly Guard]] (Bottom)
+**From Position**: [[Positions/Butterfly Guard/Half Butterfly]] (Bottom)
 **Success Rate**: 62%
 
 </section>
@@ -224,7 +224,7 @@ The Basic Butterfly Sweep is a cornerstone technique within the broader butterfl
 
 - [[Transitions/Deep Half Entry]] - Counter Option - Alternative when opponent sprawls hips back
 
-- [[Submissions/Kimura from Guard]] - Submission Threat - Attack on posted arm during sweep defense
+- [[Submissions/Kimura]] - Submission Threat - Attack on posted arm during sweep defense
 
 - [[Transitions/Guillotine Choke]] - Combination Attack - Submission threat from butterfly that facilitates sweep
 

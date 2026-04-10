@@ -188,6 +188,8 @@ From the attacker's perspective, transitioning from general back control to seat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Control to Seat Belt Control Back?</p>
+
 - Maintain chest-to-back connection throughout the entire grip transition to prevent opponent from exploiting the grip change window
 - Thread the over-shoulder arm first to establish choking-side control before completing the under-arm configuration
 - Use hook pressure to stabilize lower body control while hands transition between grip configurations
@@ -202,6 +204,8 @@ From the attacker's perspective, transitioning from general back control to seat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Control to Seat Belt Control Back?</p>
+
 - Established back control with at least one hook inside opponent's thigh and chest-to-back connection maintained
 - Opponent's escape attempts temporarily neutralized through hook pressure and body positioning
 - Clear access to opponent's shoulder line for threading the over-arm without obstruction from defensive frames
@@ -214,6 +218,8 @@ From the attacker's perspective, transitioning from general back control to seat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Control to Seat Belt Control Back step by step?</p>
 
 1. **Assess grip position and choose threading side**: From established back control, evaluate your current grip configuration and determine which arm will thread over the opponent's shoulder based on your body positioning, hook placement, and the opponent's defensive orientation. The over-shoulder arm typically goes on the side where your head is positioned, as this creates the natural choking angle for rear naked choke entries later in the attack sequence.
 2. **Stabilize position before initiating transition**: Before releasing any grips, increase chest-to-back pressure and drive your hooks deeper into the opponent's thighs. This creates a stable platform that can absorb the opponent's reactions during the grip change. Briefly tighten your existing control to ensure the opponent is neutralized and not mid-escape before you commit to the transition.
@@ -243,6 +249,8 @@ From the attacker's perspective, transitioning from general back control to seat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Control to Seat Belt Control Back?</p>
+
 - **Opponent strips over-shoulder arm before hands connect using two-on-one grip fighting** (Effectiveness: High) - Your Response: Immediately re-thread the over-arm or switch to the opposite shoulder if opponent has established a strong frame on the initial side, maintaining chest pressure throughout → Leads to [[Positions/Back Control]]
 - **Opponent tucks elbows tight to ribs blocking under-arm threading pathway** (Effectiveness: Medium) - Your Response: Use hook leverage to extend opponent's body by driving hips forward, creating space between their elbows and torso that allows arm threading underneath → Leads to [[Positions/Back Control]]
 - **Opponent explosively turns toward you during the grip change window** (Effectiveness: High) - Your Response: Follow their rotation with hooks and chest pressure, maintaining whatever grip you have while working to re-establish back control or transition to mount if they complete the turn → Leads to [[Positions/Turtle]]
@@ -254,6 +262,8 @@ From the attacker's perspective, transitioning from general back control to seat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Control to Seat Belt Control Back?</p>
 
 ### 1. Releasing both grips simultaneously to establish seat belt
 
@@ -293,6 +303,8 @@ From the attacker's perspective, transitioning from general back control to seat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Control to Seat Belt Control Back (Attacker)?</p>
+
 **Foundation** - Basic threading mechanics
 Practice the arm threading sequence with a compliant partner. Focus on over-arm placement, under-arm path, and hand connection while maintaining chest-to-back contact. Perform 50 repetitions per session until the motion becomes automatic and fluid.
 
@@ -313,42 +325,12 @@ Once seat belt is established in live training, immediately flow into submission
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What determines which arm should go over the shoulder versus under the armpit when establishing the seat belt?
-**A**: The over-shoulder arm is typically chosen based on your head positioning and intended choking angle. The arm on the same side as your head goes over the shoulder because this creates the natural path for sliding the forearm under the chin for a rear naked choke. Your body angle, hook placement, and the opponent's head tilt also influence the decision. Switching sides requires significant positional adjustment, so the initial choice should be deliberate and based on your natural attacking angle.
-
-**Q2**: Your opponent is actively hand fighting to prevent the over-arm from threading across their chest—how do you overcome this defense?
-**A**: Use your hook leverage to create a momentary distraction by rocking the opponent's hips, forcing them to address the lower body threat. In that instant of divided attention, thread the over-arm quickly across their chest. Alternatively, bait them by threatening the under-arm first, causing them to redirect their hand fighting low, which opens the shoulder line for the over-arm. The key is creating competing threats that split their defensive focus between upper and lower body.
-
-**Q3**: Why is it critical to connect hands immediately after threading both arms rather than adjusting position first?
-**A**: Any delay between threading the second arm and connecting hands creates a window where the opponent can isolate and strip the more vulnerable individual arm. An unconnected seat belt has roughly half the structural integrity of a connected one because each arm can be attacked independently. Connected hands create a closed loop that distributes force across both arms, making it exponentially harder for the opponent to break the grip structure. Position adjustments should come after the structural integrity of the connection is secured.
-
-**Q4**: What is the optimal timing for initiating the seat belt transition from general back control?
-**A**: The optimal window occurs immediately after neutralizing an escape attempt, when the opponent is momentarily spent and resetting their defensive framework. Other favorable moments include when the opponent focuses their hand fighting on your hooks rather than upper body, or when they pause to catch their breath after sustained defense. Avoid initiating during active escape sequences, explosive bridging, or when the opponent is actively grip fighting your current upper body controls.
-
-**Q5**: How does the seat belt grip differ mechanically from double underhooks at the back, and why does this matter?
-**A**: Double underhooks create parallel upward force vectors that primarily control the opponent's shoulders but allow rotational escape because both arms push in the same direction. The seat belt creates opposing diagonal force vectors—the over-arm pushes downward while the under-arm pushes upward—which locks the opponent's torso against rotation in either direction. This cross-body diagonal pressure requires the opponent to overcome forces in two opposing directions simultaneously, making escape substantially harder and providing the structural framework for systematic submission entries.
-
-**Q6**: You successfully thread the over-arm but the opponent immediately traps your under-arm attempt with a tight elbow—what is your contingency?
-**A**: Maintain the over-arm position and use it to control the opponent's shoulder while working to free the under-arm path. Apply downward pressure with the over-arm to limit their mobility, then use your chest and hook pressure to create a distraction that loosens their elbow clamp. If the trap persists, consider transitioning to a gift wrap using the over-arm to trap their defending arm against their body, which provides an equally effective alternative control configuration for maintaining dominant position and setting up attacks.
-
-**Q7**: What grip connection type provides the best balance of security and transition ability once the seat belt is established?
-**A**: The gable grip provides the strongest initial connection but limits wrist mobility needed for submission transitions. The wrist-on-wrist grab offers moderate strength with better transition ability, allowing you to release one hand for choke entries while maintaining connection with the other. The palm cup grip provides the quickest connection speed but lowest structural integrity. For establishing the seat belt, start with gable grip for maximum security during consolidation, then transition to wrist grab when ready to begin submission entries.
-
-**Q8**: During live rolling you take the back but only have collar grips—how do you sequence the transition to seat belt without losing position?
-**A**: First, increase chest-to-back pressure and hook depth to create a stable platform independent of your collar grips. Release one collar grip while maintaining the other for partial upper body control. Thread the released hand into the over-shoulder position, using the remaining collar grip as your safety anchor. Once the over-arm is set, release the second collar grip and thread it under the armpit, immediately connecting hands. The key is never having zero upper body control—the collar grip serves as your bridge between grip configurations.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Control to Seat Belt Control Back?</p>
 
 This transition involves upper body grip changes around the neck and shoulder area. Ensure controlled movements to avoid inadvertent neck compression during arm threading. Partners should communicate immediately if any choking pressure occurs during drill work before the seat belt is properly established. Avoid explosive jerking motions during grip transitions that could strain the partner's cervical spine or shoulder. During training progressions, start slowly and increase speed only as both partners develop comfort with the threading mechanics.
 

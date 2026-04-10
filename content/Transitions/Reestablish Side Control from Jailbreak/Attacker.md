@@ -188,6 +188,8 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reestablish Side Control from Jailbreak?</p>
+
 - React immediately when you detect underhook establishment or beginning of inversion—delay allows momentum to build past the recovery threshold
 - Drive crossface pressure forward and down to pin the bottom player's head and prevent the rotational motion that powers the escape
 - Neutralize the underhook through whizzer control or arm threading before it becomes the fulcrum for the roll
@@ -202,6 +204,8 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reestablish Side Control from Jailbreak?</p>
+
 - Top position in Jailbreak with at least partial upper body connection maintained through crossface or head control
 - Recognition that bottom player is initiating jailbreak escape through underhook establishment or beginning inversion
 - Sufficient forward weight position to drive pressure onto bottom player's shoulders and upper body
@@ -213,6 +217,8 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reestablish Side Control from Jailbreak step by step?</p>
 
 1. **Recognize Jailbreak Initiation**: Detect the bottom player's underhook establishment and initial hip turn toward inversion. Key indicators include their free leg posting on the mat, shoulder turning away from you, and chin tucking toward their chest. Early recognition is essential because the escape becomes exponentially harder to stop once rotational momentum builds past the tipping point.
 2. **Drive Crossface Forward**: Immediately reinforce crossface pressure by driving your forearm or shoulder into the bottom player's face and neck, turning their head away from the direction of the roll. This pins their shoulders to the mat and mechanically prevents completion of the inversion. Commit your weight forward through your chest and shoulder to maximize the pinning effect.
@@ -242,6 +248,8 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reestablish Side Control from Jailbreak?</p>
+
 - **Bottom player explosively completes the jailbreak roll before top player can react with sufficient counter-pressure** (Effectiveness: High) - Your Response: If the roll has significant momentum, follow the motion and look to establish front headlock or turtle top control rather than fighting the roll directly. Drive forward over the top to prevent back exposure. → Leads to [[Positions/Half Guard/Deep Half Guard]]
 - **Bottom player abandons jailbreak and recovers traditional half guard frames with knee shield insertion** (Effectiveness: Medium) - Your Response: Transition to standard half guard passing sequence using knee slice, smash pass, or backstep. The abandoned jailbreak means they have conceded the explosive escape for positional defense. → Leads to [[Positions/Half Guard]]
 - **Bottom player redirects underneath for deep half guard entry during the recovery sequence** (Effectiveness: Medium) - Your Response: Immediately sprawl hips back and reinforce whizzer to prevent them from reaching full deep half position. If they achieve deep half, switch to standard deep half passing techniques rather than continuing the side control recovery. → Leads to [[Positions/Half Guard/Deep Half Guard]]
@@ -253,6 +261,8 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reestablish Side Control from Jailbreak?</p>
 
 ### 1. Reacting too slowly to the jailbreak initiation and allowing rotational momentum to build
 
@@ -292,6 +302,8 @@ As the top player in Jailbreak, your objective is to recognize and shut down the
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reestablish Side Control from Jailbreak (Attacker)?</p>
+
 **Recognition Drilling** - Pattern recognition for jailbreak initiation cues
 Partner slowly initiates jailbreak escape from bottom half guard. Top player practices identifying the three key cues: underhook establishment, hip turn toward inversion, and chin tuck. Call out each cue as it appears. No resistance, focus purely on visual and tactile pattern recognition. 5 minutes per side.
 
@@ -309,39 +321,12 @@ Start from Jailbreak Top with partner fully committed to escaping via jailbreak.
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three primary indicators that a bottom player is initiating a jailbreak escape?
-**A**: The three key indicators are: underhook establishment on the same side as the trapped leg with elbow tight to their hip, hip turn toward the trapped leg side as they begin rotating toward inversion, and chin tuck toward their chest as they prepare to roll. Recognizing these cues early is critical because the escape becomes exponentially harder to stop once rotational momentum develops. Reacting at the first indicator rather than waiting for all three gives you the maximum time window for response.
-
-**Q2**: Why is neutralizing the underhook essential for preventing the jailbreak escape?
-**A**: The underhook serves as the mechanical fulcrum that enables the entire jailbreak escape. It creates a structural connection between the bottom player and the top player that prevents separation during the inversion roll. Without this connection, the bottom player simply rolls away without carrying the top player, losing the leverage needed to complete the escape. Neutralizing the underhook through whizzer control or arm threading removes the escape's primary mechanical advantage and leaves the bottom player unable to generate effective rotational force.
-
-**Q3**: Your crossface is established but the bottom player still manages to begin inverting—what adjustment do you make?
-**A**: If the bottom player begins inverting despite your crossface, the underhook is likely still providing enough structural support to power the escape. Immediately establish a whizzer over their underhooking arm while maintaining crossface. If the inversion is already significantly advanced past the 45-degree threshold, switch strategy from prevention to following the momentum—drive forward over the top of their roll to establish front headlock or turtle top control rather than fighting a roll that has already developed substantial momentum.
-
-**Q4**: What is the critical timing threshold between a recoverable and an unrecoverable jailbreak attempt?
-**A**: The transition from recoverable to unrecoverable occurs when the bottom player's shoulders pass approximately 45 degrees of rotation from the mat. Before this point, forward pressure and crossface can collapse the motion back to flat. After this point, the rotational momentum becomes self-sustaining and attempting to fight it directly wastes energy and often results in being rolled through. The top player must train to recognize this threshold and switch from prevention to following strategies when the escape passes the recovery point.
-
-**Q5**: How does the hip walk-around differ from a standard guard pass when reestablishing side control?
-**A**: Unlike a standard guard pass where the top player navigates past active leg defenses, the hip walk-around during jailbreak recovery focuses on moving from a parallel position to perpendicular alignment while maintaining constant chest pressure on a mostly flat opponent. The key difference is that the bottom player's primary defense at this stage is re-initiating the escape or inserting a knee, not active leg framing. Therefore the walk-around prioritizes maintaining downward pressure and controlling the far hip rather than defeating leg frames.
-
-**Q6**: What should you do if the bottom player abandons the jailbreak and transitions to deep half guard entry?
-**A**: When the bottom player switches from jailbreak to deep half entry, immediately recognize the shift by their movement underneath your body rather than away from it. Sprawl your hips back to prevent them from reaching full deep half position, as deep half becomes significantly more dangerous once they secure your far leg. Establish a whizzer on their underhooking arm and drive crossface pressure to flatten their approach. If they achieve full deep half despite your defense, switch to standard deep half passing techniques.
-
-**Q7**: How do you manage the transition from preventing the jailbreak to settling into side control without creating exploitable gaps?
-**A**: The key is sequential control—never release one point of control before establishing the next. Maintain crossface throughout the entire sequence. Only begin walking hips after confirming the escape is stalled. Only release whizzer or arm control after hips have reached perpendicular alignment. Only shift hand to far hip after weight is properly distributed. Each step builds on the previous one without creating windows for the bottom player to re-initiate escape. Rushing any step creates the exact space the bottom player needs.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reestablish Side Control from Jailbreak?</p>
 
 While this transition does not involve direct submission threat, neck safety is paramount for the bottom player during inversion attempts. The top player should avoid excessive downward pressure on the neck during crossface application, particularly when the bottom player is mid-inversion with their spine flexed. Always allow space for the bottom player to tap or verbally submit if they experience neck discomfort. In training, communicate with partners about pressure intensity and stop immediately if the bottom player shows signs of neck strain or cervical distress.
 

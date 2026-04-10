@@ -21,37 +21,37 @@ description: "Technical Mount Bottom escape guide in BJJ. Comprehensive defense 
     {
       "@type": "HowToStep",
       "name": "Execute Elbow Escape to Guard",
-      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 45% of exchanges from this position.",
+      "text": "From this position, attempt Elbow Escape to Guard. This technique is attempted in 50% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
       "name": "Execute Hip Escape to Guard",
-      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 17% of exchanges from this position.",
+      "text": "From this position, attempt Hip Escape to Guard. This technique is attempted in 16% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Upa Escape",
-      "text": "From this position, attempt Upa Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Upa Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Shrimp Escape",
-      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 15% of exchanges from this position.",
+      "text": "From this position, attempt Shrimp Escape. This technique is attempted in 14% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Bridge and Roll",
-      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 6% of exchanges from this position.",
+      "text": "From this position, attempt Bridge and Roll. This technique is attempted in 5% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Turn from Technical Mount",
-      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 1% of exchanges from this position.",
+      "text": "From this position, attempt Back Turn from Technical Mount. This technique is attempted in 0% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -167,6 +167,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Position Definition
 
+<p class="section-subtitle">What is Technical Mount (Bottom)?</p>
+
 - Opponent has one leg stepped over your body (typically near head/shoulder area) with knee posted on mat, creating asymmetrical mount position with immediate armbar threat and preventing effective bridging on that side
 - Your back is flat on the mat with opponent's chest maintaining heavy pressure on your torso, restricting breathing and limiting hip movement while controlling upper body positioning through weight distribution
 - Opponent's other leg remains on the opposite side of your body in traditional mount configuration, controlling your hip and preventing bridging movements that would normally disrupt mount control
@@ -179,6 +181,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Technical Mount (Bottom)?</p>
+
 - Opponent successfully transitioned from standard mount by stepping one leg over your body
 - Failed to prevent the technical mount transition during opponent's movement from regular mount
 - Bottom player is on their back with opponent maintaining chest pressure and weight control
@@ -190,6 +194,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Technical Mount?</p>
 
 - Immediately establish defensive frames to protect exposed arm from armbar threat - elbows must stay tight to body at all times
 - Create space between your shoulder and the mat using bridging pressure to prevent full chest compression and maintain breathing room
@@ -206,6 +212,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Technical Mount (Bottom)?</p>
+
 **If opponent is stepping leg over to isolate arm for armbar and arm control is being established:**
 - Execute **[[Transitions/Elbow Escape to Guard/Attacker|Elbow Escape to Guard]]** → [[Positions/Half Guard]] (Probability: 40%)
 - Execute **[[Transitions/Shrimp Escape/Attacker|Shrimp Escape]]** → [[Positions/Turtle]] (Probability: 35%)
@@ -218,7 +226,7 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 **If opponent is transitioning weight to set up triangle or switch to full mount:**
 - Execute **[[Transitions/Hip Escape to Guard/Attacker|Hip Escape to Guard]]** → [[Positions/Open Guard]] (Probability: 45%)
-- Execute **[[Principles/Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 35%)
+- Execute **[[Guard Recovery/Attacker|Guard Recovery]]** → [[Positions/Half Guard]] (Probability: 35%)
 
 
 **If opponent's base is compromised during transition with weight shifting off posted leg:**
@@ -233,6 +241,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Technical Mount?</p>
 
 ### 1. Extending the threatened arm to push or post, making it vulnerable to armbar
 
@@ -267,6 +277,8 @@ From the bottom perspective, Technical Mount represents one of the most precario
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Technical Mount defense?</p>
+
 ### Technical Mount Survival Drill
 
 Partner establishes technical mount while you practice maintaining defensive frames and protecting arms. Focus on creating space through bridging and preventing arm extension. Work 2-minute rounds with partner applying gradual pressure increase. Reset whenever arm becomes vulnerable to practice recognition and correction.
@@ -292,38 +304,6 @@ Start with partner giving 50% resistance in technical mount, allowing you to wor
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical defensive priority when you find yourself in Technical Mount Bottom?
-**A**: Protecting your arms from extension is the absolute priority. Keep both elbows tight to your ribs with arms bent—never extend to push or frame until you've established proper defensive structure. The stepped leg creates an immediate pathway to armbar if either arm straightens. Everything else—breathing, hip movement, escape attempts—is secondary to keeping your arms safe from isolation and extension.
-
-**Q2**: Your opponent shifts their weight forward to set up the armbar—what escape window does this create and how do you exploit it?
-**A**: When they shift forward for the armbar, their weight comes off your hips, creating a brief window for hip escape. Immediately shrimp your hips away from them while keeping your threatened arm bent and tight. Use your free leg to push against their hip to generate additional space. Time the hip escape to coincide with their forward weight shift—this is your best chance to recover half guard or insert a knee shield before they complete the submission.
-
-**Q3**: What is the correct head position in Technical Mount Bottom and why is it critical?
-**A**: Keep your head turned away from the stepped leg (toward the side where their normal mount leg is). Turning toward the stepped leg exposes your neck to triangle attacks—they can thread their arm around your neck while maintaining the armbar threat on your arm, creating dual submission threats. The turned-away head position also helps you see and defend against back takes if you manage to turn to your side during escape attempts.
-
-**Q4**: How do you establish effective defensive frames without extending your arms and exposing them to armbar?
-**A**: Use your free arm (the one not threatened by the stepped leg) to create a frame against their hip or chest with your elbow bent at 90 degrees—forearm perpendicular to their body, elbow tight to your ribs. Never push with a straightened arm. For the threatened arm, keep it bent and glued to your chest, using your hand to grip your own collar or grab your opposite shoulder. Frames should be structural, not muscular pushing.
-
-**Q5**: When should you attempt to escape Technical Mount versus simply surviving and defending?
-**A**: Attempt escapes only when the opponent commits to a submission attack or position transition—these moments shift their weight and create openings. When they commit forward for the armbar, their hip pressure decreases allowing hip escapes. When they adjust grips, brief windows open. Pure survival mode is appropriate when they're settled with heavy pressure and you're recovering breath or waiting for them to move. Never force escapes when they're stable—you'll burn energy and likely expose your arms.
-
-**Q6**: What is the bridge and roll timing from Technical Mount Bottom and what makes it different from standard mount escapes?
-**A**: The bridge and roll from Technical Mount is lower percentage than from regular mount because the asymmetric position compromises your bridging power on the stepped-leg side. Time the bridge when opponent's weight shifts toward the armbar setup—bridge toward the side of their normal mount leg (away from the stepped leg) where their base is weaker. The bridge must be more explosive than normal because you have less leverage. Often the bridge serves more to create hip escape opportunities than to complete a full reversal.
-
-**Q7**: If your arm becomes trapped and the opponent begins the armbar swing-over, what is your final defensive option?
-**A**: Once the swing-over begins, your best option is to follow their rotation and turn with them, attempting to come up to your knees as they fall back. Grab your own hands together (gable grip) with the trapped arm to prevent extension. If you can get to your knees as they sit back, you can stack them and potentially free your arm. This requires committed explosive movement—half-measures at this stage result in finished armbars. The key is recognizing the swing-over early and immediately committing to the stack defense.
-
-**Q8**: How do you recover guard from Technical Mount Bottom once you've created space through hip escapes?
-**A**: After creating space through hip escapes, immediately insert your knee between your bodies as a knee shield—aim to get your shin across their torso with your foot hooking their far hip. This is your half guard recovery. For full guard recovery, you need more space—continue shrimping until you can bring your far leg around their body and close your guard. Prioritize any guard recovery over staying flat—even quarter guard or butterfly hook gives you offensive options and removes immediate submission threats.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -203,7 +203,7 @@ The triangle to back transition represents a crucial connection between guard-ba
 ## Related Techniques
 
 
-- [[Transitions/Triangle Choke]] - Alternative finish from starting position when opponent defends without rotating
+- [[Submissions/Triangle Choke]] - Alternative finish from starting position when opponent defends without rotating
 
 - [[Transitions/Triangle to Armbar]] - Alternative transition from triangle when opponent postures rather than turns
 
@@ -215,11 +215,11 @@ The triangle to back transition represents a crucial connection between guard-ba
 
 - [[Transitions/Arm Drag to Back]] - Alternative back take entry using upper body control rather than leg configuration
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission from the resulting back control position
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission from the resulting back control position
 
-- [[Submissions/Armbar from Back]] - Secondary follow-up attack available from resulting back control
+- [[Transitions/Armbar from Back Transition]] - Secondary follow-up attack available from resulting back control
 
-- [[Transitions/Bow and Arrow Choke]] - High-percentage gi submission available after establishing back control
+- [[Submissions/Bow and Arrow Choke]] - High-percentage gi submission available after establishing back control
 
 - [[Transitions/Closed Guard to Triangle]] - Common entry sequence that establishes the starting triangle control position
 

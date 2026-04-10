@@ -206,9 +206,9 @@ The High Mount to S Mount transition occupies a pivotal position in the mount su
 
 - [[Transitions/3-4 Mount to S Mount]] - Related transition — alternative S Mount entry from a different mount variation
 
-- [[Submissions/Armbar from S Mount]] - Primary follow-up submission — the finish this transition sets up
+- [[Transitions/S Mount Armbar Setup]] - Primary follow-up technique — the armbar setup that this transition enables from S Mount
 
-- [[Submissions/Armbar from High Mount]] - Alternative submission — direct armbar without transitioning to S Mount first
+- [[Transitions/Mount to Armbar]] - Alternative submission path — direct armbar from mount without transitioning to S Mount first
 
 - [[Positions/Mount/Technical Mount]] - Alternative advancement — transition target when opponent turns to side during S Mount attempt
 

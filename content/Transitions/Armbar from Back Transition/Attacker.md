@@ -192,6 +192,8 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Armbar from Back Transition?</p>
+
 - Attack when opponent commits both hands to neck defense, creating arm vulnerability through their own defensive commitment
 - Maintain chest-to-back connection throughout initial transition to prevent opponent from creating separation or turning to face you
 - Control the target arm at the wrist and elbow simultaneously to prevent hitchhiker escape or arm retraction during transition
@@ -207,6 +209,8 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Armbar from Back Transition?</p>
+
 - Established standing back control with secure harness or seat belt grip configuration
 - Opponent actively defending neck with both hands, creating arm exposure through their defensive posture
 - Your choking arm positioned over opponent's shoulder with access to the defending arm
@@ -219,6 +223,8 @@ The key to success lies in recognizing the correct timing window: when the oppon
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Armbar from Back Transition step by step?</p>
 
 1. **Identify target arm**: While maintaining back control, observe opponent's defensive hand positioning. Target the arm that is most extended or committed to defending your choking arm, typically the hand fighting your over-the-shoulder grip.
 2. **Secure wrist control**: With your choking arm (over-the-shoulder arm), transition from choke threat to wrist control on the target arm. Grip at the wrist firmly, pulling the arm across your centerline to begin isolating the limb.
@@ -248,6 +254,8 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Armbar from Back Transition?</p>
+
 - **Opponent retracts arm quickly when they feel the transition beginning, pulling elbow tight to body** (Effectiveness: High) - Your Response: Transition back to rear naked choke attack since their arm retraction opens neck access, or switch to the opposite arm if it remains exposed → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent turns into you during the transition, attempting to face you and recover guard** (Effectiveness: Medium) - Your Response: Use your leg across their face to block the turn. If they complete partial rotation, transition to mounted triangle or armbar from mount. Use the rotation to maintain top position. → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent stacks forward during descent, driving weight into you to prevent hip extension** (Effectiveness: Medium) - Your Response: Maintain control and transition to belly-down armbar variation, or use the momentum to sweep them and finish from top armbar position → Leads to [[Positions/Armbar Control]]
@@ -260,6 +268,8 @@ The key to success lies in recognizing the correct timing window: when the oppon
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Armbar from Back Transition?</p>
 
 ### 1. Releasing back control too early before securing the arm
 
@@ -299,6 +309,8 @@ The key to success lies in recognizing the correct timing window: when the oppon
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Armbar from Back Transition (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice the transition movement pattern without resistance. Focus on the rotation mechanics, leg placement across face, and landing in proper armbar position. Drill from standing back control to armbar position 20-30 repetitions per side.
 
@@ -319,48 +331,12 @@ Implement in positional sparring starting from standing back control. Partner de
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Armbar from Back Transition?
-**A**: The primary goal is to transition from back control to a secured armbar position when the opponent defends the rear naked choke. This technique converts their defensive hand positioning into a submission opportunity by attacking the arms they commit to neck defense.
-
-**Q2**: What specific defensive behavior creates the optimal timing window for this transition?
-**A**: The optimal timing occurs when the opponent commits both hands to defending your choking arm, typically in a two-on-one grip configuration to prevent the rear naked choke. This defensive commitment exposes their arm structure and makes retraction difficult when you initiate the armbar transition.
-
-**Q3**: What is the critical function of the leg that crosses over the opponent's face during transition?
-**A**: The leg across the face serves multiple critical functions: it prevents the opponent from turning to face you, controls their posture to prevent stacking, acts as a pivot point for your rotation during descent, and ultimately controls their head position to prevent escape once the armbar is secured.
-
-**Q4**: Your opponent begins retracting their arm as you initiate the transition - how should you respond?
-**A**: If the arm retracts early in the transition, immediately return to rear naked choke attack since their arm retraction opens neck access. If you are mid-transition, consider switching to the opposite arm if exposed, or completing the transition and attacking the other arm from armbar position.
-
-**Q5**: What grip orientation is required for the wrist control and why?
-**A**: The wrist must be controlled with thumbs facing toward the ceiling (supinated grip). This orientation provides superior grip strength, prevents the hitchhiker escape where opponent rotates their thumb toward you, and positions the elbow correctly in your hip crease for proper breaking mechanics.
-
-**Q6**: How do you prevent the stack counter where opponent drives forward during the transition?
-**A**: Maintain heavy leg pressure across the opponent's face throughout the descent and landing. If they begin stacking, use the leg to push their face away while scooting your hips out. Alternatively, continue rotation to belly-down armbar if they commit fully to the stack.
-
-**Q7**: What is the proper hip and leg position upon landing in armbar position?
-**A**: Upon landing, knees should be pinched tightly together around the trapped arm with the elbow positioned in your hip crease. Top leg remains heavy across opponent's face controlling posture. Hips are initially low, only elevating into the elbow joint once posture control is established.
-
-**Q8**: When should you abandon this technique and return to choking attacks?
-**A**: Return to choking attacks when the opponent successfully retracts their target arm before you secure wrist control, when they turn to face you making armbar positioning impossible, or when their defensive posture shifts from arm-based neck defense to other configurations that re-expose the neck.
-
-**Q9**: What entry conditions must exist before you attempt this transition?
-**A**: You need established standing back control with a secure harness or seat belt grip, the opponent must be actively defending your choke with both hands committed to neck protection, and you must have your choking arm over the opponent's shoulder with clear access to at least one defending arm. Without these conditions, the transition lacks the necessary arm exposure and control structure to succeed.
-
-**Q10**: Your opponent clasps their hands together to defend the arm isolation - what grip-breaking strategy do you use?
-**A**: Attack the weakest point of their grip by peeling the top hand's fingers, starting with the pinky side. Alternatively, use a two-on-one configuration on their wrist to create a lever advantage. If direct grip breaking fails, insert your hand between their clasped hands to wedge them apart, or threaten a wristlock on the gripped configuration to force them to release voluntarily.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Armbar from Back Transition?</p>
 
 Practice this transition with controlled movement rather than explosive rotation to protect training partners. The standing-to-ground transition can generate significant momentum that stresses the elbow joint unexpectedly. Partners should communicate clearly and tap early when the armbar is secured. When finishing, extend hips gradually rather than explosively to allow time for the tap. Avoid this technique on partners with existing elbow injuries. In drilling, stop at the position before applying full extension pressure. The rotation component requires adequate mat space - ensure training area is clear before practicing standing variations.
 

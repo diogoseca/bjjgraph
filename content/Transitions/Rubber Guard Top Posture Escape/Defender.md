@@ -162,6 +162,8 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rubber Guard Top Posture Escape?</p>
+
 - Top player's free hand moves to frame on your knee or shin of the controlling leg rather than posting on the mat
 - Top player begins shifting hips laterally away from the trapped arm side, indicating circular extraction attempt
 - Top player drives forward with shoulder pressure while walking knees up, indicating stacking escape variation
@@ -174,6 +176,8 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rubber Guard Top Posture Escape?</p>
 
 - Maintain constant downward leg pressure on the trapped arm to preserve the fundamental control mechanism against extraction attempts
 - Recognize specific escape methods early through tactile cues and preload the appropriate counter submission or positional advancement
@@ -188,6 +192,8 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rubber Guard Top Posture Escape?</p>
 
 ### 1. Increase leg pressure and re-break posture by pulling head down with free hand while driving shin deeper across their back
 
@@ -225,6 +231,8 @@ As the defender, you are the Rubber Guard bottom player working to maintain your
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rubber Guard Top Posture Escape?</p>
+
 ### → [[Positions/Rubber Guard]]
 
 Detect the escape attempt early through recognition cues and immediately re-break posture by increasing leg pressure and pulling the head down. Advance through the positional hierarchy whenever the opponent pauses, making each subsequent escape attempt progressively more difficult and dangerous.
@@ -240,6 +248,8 @@ Time a hip bump sweep during the opponent's backward hip drive phase of posture 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rubber Guard Top Posture Escape?</p>
 
 ### 1. Relying solely on leg strength to maintain control rather than using structural positioning and grip configurations
 
@@ -269,6 +279,8 @@ Time a hip bump sweep during the opponent's backward hip drive phase of posture 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rubber Guard Top Posture Escape?</p>
+
 **Phase 1: Recognition** - Identifying escape attempt initiation cues
 Partner initiates different escape variations (frame escape, stacking, swim-and-circle) from your Rubber Guard. Practice identifying which escape method is being used within the first two seconds based on tactile and visual cues. Call out the escape type as you feel it. No countering yet, purely recognition drilling.
 
@@ -285,29 +297,6 @@ Positional sparring with full resistance starting in Rubber Guard. Bottom player
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal response when you feel the opponent's free hand framing on your controlling knee?
-**A**: Immediately increase downward pressure with the controlling leg and pull the opponent's head down with your free hand to re-break posture before they can push your knee away. If the frame is already strong, adjust your hip angle to change the vector of their push, making their frame less effective. Consider advancing to New York position to add a secondary control point that makes the single-leg frame insufficient.
-
-**Q2**: How do you convert a successful arm extraction by the opponent into a triangle entry?
-**A**: As you feel the trapped arm beginning to free through circular extraction, release your foot grip and immediately swing the controlling leg across the opponent's neck while the freed arm is still crossing their centerline. The key timing is catching them during the extraction motion when the arm is in transition and they cannot yet tuck it safely. Lock the triangle by connecting your legs before they can posture up and pull the freed arm across.
-
-**Q3**: When is the optimal moment to attempt a sweep against the escaping opponent?
-**A**: The optimal sweep window is during the opponent's backward hip drive phase of posture recovery, when their weight shifts away from you and their base narrows. At this moment, a hip bump or bridge forward catches them during a weight transition where they cannot resist forward force effectively. Attempting the sweep too early while they still have forward pressure fails, and too late after posture is recovered means you have lost the leverage advantage.
-
-**Q4**: What should you do if the opponent successfully recovers full posture and you lose Rubber Guard entirely?
-**A**: If Rubber Guard is fully lost, immediately transition to your backup closed guard lock if ankles are still crossed. If not, recover to open guard by establishing foot-on-hip frames and sleeve or wrist control to prevent immediate guard passing. Do not attempt to re-establish Rubber Guard against a postured opponent as this requires broken posture as a prerequisite. Instead, work to break their posture again from closed or open guard before reattempting Rubber Guard entry.
-
-**Q5**: Why is it important to maintain the closed guard lock underneath your Rubber Guard configuration?
-**A**: The closed guard lock serves as a safety net that ensures you retain a viable guard position even if the Rubber Guard control fails. Without it, a successful posture escape drops you directly into open guard with no grips or control, giving the opponent immediate passing opportunities. With the backup lock in place, you transition smoothly to closed guard where you can re-break posture and reattempt Rubber Guard entry from a controlled position.
-
-
-
-</section>
 
 
 </main>

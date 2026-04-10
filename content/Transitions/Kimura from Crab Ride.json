@@ -77,7 +77,7 @@
       "relationship": "Parent position category for crab ride attacks"
     },
     {
-      "name": "Kimura from Kimura Trap",
+      "name": "Kimura",
       "relationship": "Follow-up submission finish from the target control position"
     },
     {
@@ -262,6 +262,14 @@
       {
         "question": "How does the Kimura from Crab Ride create positional dilemmas for the turtle defender?",
         "answer": "The kimura threat forces opponents to keep their elbows tucked tight to their ribcage, which eliminates the far arm posting that is essential for resisting back takes and maintaining turtle base. Opponents who defend the back take by posting aggressively expose the arm for kimura isolation. This binary fork between defending the back and defending the arm is the core strategic value of threatening the kimura from crab ride. Even if the kimura never finishes, the threat degrades the opponent's overall defensive capability."
+      },
+      {
+        "question": "What is the correct direction of peeling force when isolating the arm from Crab Ride?",
+        "answer": "The peeling force should follow your perpendicular chest pressure line, pulling the arm laterally away from the opponent's ribcage and toward the mat on your side. This direction aligns with your existing body mechanics so you generate force through body weight and positioning rather than arm strength alone. Pulling the arm upward or backward relative to the opponent's spine is mechanically inferior because it fights against the natural strength of their lat and shoulder retraction muscles. The lateral peel exploits the weakest axis of their arm retention."
+      },
+      {
+        "question": "Your opponent attempts a sit-through escape while you are midway through securing the kimura grip - what do you do?",
+        "answer": "If you have the wrist grip but not the figure-four, increase hook pressure and drive your chest weight forward to stall the sit-through before it completes. Use the wrist grip to pull their arm across their body, which disrupts their rotational base for the sit-through. If the sit-through progresses despite this, follow their hip movement with your hook and transition to the kimura grip from the resulting scramble position. The worst response is to abandon the wrist grip entirely, as you lose both the arm attack and the ability to control their rotation during the escape."
       }
     ],
     "safety_considerations": "The Kimura attacks the shoulder joint through forced external rotation and can cause serious injury to the rotator cuff, labrum, and surrounding ligaments. Apply rotational pressure gradually and incrementally, never jerking or explosively cranking the shoulder lock. Allow training partners adequate time to recognize the danger and tap. Release immediately upon tap or verbal submission. Be especially cautious during the transition from crab ride to Kimura Trap, as the angle change can dramatically and unexpectedly increase pressure on the joint. In drilling, establish clear communication protocols before beginning kimura-specific training."
@@ -363,6 +371,14 @@
       {
         "question": "How should you manage energy when defending repeated kimura attempts from Crab Ride?",
         "answer": "Prioritize prevention over reaction by maintaining tight elbow position continuously rather than letting the arm drift and needing explosive retraction. When forced to actively defend, commit fully to one decisive action rather than multiple weak half-attempts. Between attacks, return to compact turtle base to recover. If repeated kimura attempts keep coming, recognize that the attacker is heavily committed to the arm attack, which may create escape opportunities as their ride control loosens during the reaching motions."
+      },
+      {
+        "question": "How do you prevent the initial arm exposure that enables the Kimura from Crab Ride?",
+        "answer": "Maintain a tight turtle shell with both elbows clamped firmly against your ribcage and hands positioned close to your chin or chest rather than posted on the mat. Avoid reaching across your body to strip the crab ride hook, as this is the most common movement that exposes the far arm. When you need to post for base, use short, controlled arm extensions and retract immediately rather than leaving the arm extended. The compact posture eliminates the primary entry opportunity the attacker needs to initiate the kimura sequence."
+      },
+      {
+        "question": "The attacker has fully locked the figure-four grip and is beginning to transition to Kimura Trap - what are your remaining options?",
+        "answer": "At this late stage, your best option is to turn aggressively toward the attacker while driving your trapped elbow toward your own hip, attempting to straighten the arm and break the figure-four structure during the transitional movement. If the grip holds through the turn, focus on preventing the attacker from consolidating Kimura Trap by keeping your hips mobile and fighting to recover half guard during their positional adjustment. As a last resort, grip your own lapel or shorts with the trapped hand to create an anchor point that resists the rotational finish while you work to improve position."
       }
     ],
     "training_progressions": [

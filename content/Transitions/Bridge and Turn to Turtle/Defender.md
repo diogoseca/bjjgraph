@@ -166,6 +166,8 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Bridge and Turn to Turtle?</p>
+
 - Opponent plants both feet flat on the mat with heels close to their glutes, creating the base needed for an explosive hip bridge
 - Opponent turns their head to one side, establishing an airway and indicating the direction they intend to turn during the escape
 - Opponent's hips begin tensing or subtly loading as they prepare to drive upward, creating a perceptible change in the pressure feedback through your chest
@@ -178,6 +180,8 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Bridge and Turn to Turtle?</p>
 
 - Maintain constant forward chest pressure distributed across opponent's upper body to deny breathing space and bridge power
 - Control or isolate at least one arm to prevent the rotational assist needed for the turn
@@ -192,6 +196,8 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Bridge and Turn to Turtle?</p>
 
 ### 1. Widen base and drop weight immediately when bridge initiates, sprawling hips back and driving chest pressure forward
 
@@ -229,6 +235,8 @@ Understanding the biomechanics of the escape allows you to anticipate and counte
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Bridge and Turn to Turtle?</p>
+
 ### → [[Positions/North-South]]
 
 Maintain heavy forward pressure with wide base, control at least one arm, and avoid creating weight shifts that open timing windows. When you feel the bridge attempt, immediately widen your base, sprawl your hips back, and drive your chest forward to absorb the force and re-establish the pin.
@@ -244,6 +252,8 @@ When the bridge succeeds and the opponent commits to the turn, follow their rota
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Bridge and Turn to Turtle?</p>
 
 ### 1. Sitting weight back toward opponent's hips instead of keeping it forward over their chest
 
@@ -278,6 +288,8 @@ When the bridge succeeds and the opponent commits to the turn, follow their rota
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Bridge and Turn to Turtle?</p>
+
 **Week 1-2** - Base and pressure maintenance
 Practice maintaining heavy North-South pressure against a partner who performs bridges at various angles and intensities. Focus on feeling the bridge initiation through your chest and immediately widening your base to absorb the force. No turn allowed yet—just bridge-and-absorb repetitions.
 
@@ -294,29 +306,6 @@ Full resistance North-South positional rounds where you maintain control and hun
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable way to prevent the bridge-and-turn escape from North-South?
-**A**: The most reliable prevention combines three elements: maintaining heavy forward chest pressure distributed across the opponent's upper body to restrict their breathing and bridge power, controlling at least one arm to eliminate the rotational assist needed for the turn, and keeping a wide base with low hips that can absorb the angled bridge force without being displaced. Denying any one of the three prerequisites (planted feet, free arm, weight shift) significantly reduces escape success.
-
-**Q2**: You feel your opponent plant their feet and begin tensing their hips—what should you do?
-**A**: Immediately widen your base by sprawling your legs outward and lower your hips while driving your chest pressure forward and downward. This creates maximum stability against the incoming bridge. Simultaneously, tighten your arm control to prevent the rotational turn. If you were setting up a submission, abandon it and prioritize base stability. The goal is to make the bridge fail before it generates momentum, forcing them to waste energy on a futile attempt.
-
-**Q3**: The opponent's bridge succeeds and they are mid-turn—should you try to re-establish North-South or follow to back control?
-**A**: Follow to back control immediately. Once the turn is committed and succeeding, fighting to re-establish North-South is low-percentage and wastes the window to secure a superior position. As they rotate to all fours, secure seatbelt grip and insert your near-side hook before they can tighten their turtle shell. Back control with hooks is worth 4 points and offers higher submission probability than North-South, making the opponent's escape attempt backfire.
-
-**Q4**: How do your own submission attempts from North-South create vulnerability to the bridge-and-turn?
-**A**: Every submission attempt requires weight redistribution and arm movement that creates the timing window the opponent needs. Reaching for a kimura shifts your weight to one side, lifting your chest to set up a North-South choke reduces the pinning pressure, and adjusting your arms for any attack temporarily frees the opponent's arms. The key is recognizing that you must either commit fully to the submission with speed or re-consolidate your base between attempts rather than leaving yourself in a compromised transitional weight distribution.
-
-**Q5**: What distinguishes a successful follow-to-back-control from a failed one when the opponent turns to turtle?
-**A**: The critical factor is speed of upper body control establishment. Successful follows involve immediately securing seatbelt grip as the opponent rotates, maintaining chest-to-back contact throughout the transition, and inserting the near-side hook before the opponent can tuck their elbows to knees in a defensive shell. Failed follows typically involve a gap in chest contact during the transition, allowing the opponent to establish a tight turtle that resists hook insertion. The seatbelt must be established during the rotation, not after the opponent reaches all fours.
-
-
-
-</section>
 
 
 </main>

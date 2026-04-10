@@ -50,8 +50,8 @@ description: "Master Single Leg X-Guard Top in BJJ. Control, pass, and attack fr
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Kneebar from Single Leg X-Guard",
+      "text": "From this position, attempt Kneebar from Single Leg X-Guard. This technique is attempted in 10% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 ## Position Definition
 
+<p class="section-subtitle">What is Single Leg X-Guard (Top)?</p>
+
 - Top player maintains standing or combat base position with at least one leg trapped in opponent's X-frame configuration, creating asymmetric weight distribution demands that require active base management
 - Bottom player has established X-guard frame with one leg hooking behind top player's trapped knee while the other leg controls at hip or thigh level, creating continuous off-balancing pressure
 - Top player's trapped leg is controlled between opponent's legs with the opponent's bottom hook threatening base and top hook controlling distance and preventing forward pressure establishment
@@ -176,6 +178,8 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Single Leg X-Guard (Top)?</p>
 
 - Opponent has successfully established Single Leg X Guard configuration on one of your legs
 - You are in standing, combat base, or semi-standing position with one leg trapped
@@ -189,6 +193,8 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Single Leg X-Guard?</p>
 
 - Maintain wide base with free leg positioned to prevent sweeps and maintain balance against directional pulls
 - Control opponent's upper body through collar ties, cross faces, or shoulder pressure to limit their ability to sit up and create angles
@@ -204,6 +210,8 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Single Leg X-Guard (Top)?</p>
 
 **If opponent has strong bottom hook and is extending for sweep:**
 - Execute **[[Transitions/Leg Weave Pass/Attacker|Leg Weave Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -232,6 +240,8 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Single Leg X-Guard?</p>
 
 ### 1. Standing fully upright with narrow base while trapped leg remains extended
 
@@ -271,7 +281,9 @@ Single Leg X-Guard Top represents the controlling position when facing an oppone
 
 ## Training Drills for Attacks
 
-### Base Maintenance Drill
+<p class="section-subtitle">How do you train Single Leg X-Guard attacks?</p>
+
+### Base Drill
 
 Partner establishes SLX while you work on maintaining wide base and proper weight distribution. Partner attempts various sweeping angles while you practice base recovery and balance maintenance. Focus on keeping free leg active and responsive to directional threats.
 
@@ -303,38 +315,6 @@ Flow through all major passing options from SLX Top: headquarters, knee slice, l
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts driving their bottom hook upward to initiate a sweep - what immediate adjustment do you make?
-**A**: Immediately widen your base by stepping your free leg diagonally away from the sweep direction, bend your knees to lower your center of gravity, and align your trapped knee toward the opponent to reduce the leverage they can generate. Simultaneously post your near hand on the mat if needed for stability while maintaining upper body control.
-
-**Q2**: What are the essential base fundamentals for maintaining stability in SLX Top?
-**A**: The essential base fundamentals include: maintaining a wide stance with the free leg positioned diagonally behind you, keeping knees bent to lower your center of gravity, distributing weight evenly rather than loading entirely on the trapped leg, keeping your trapped knee pointed toward the opponent to prevent full extension, and maintaining hip mobility to follow the opponent's movements.
-
-**Q3**: Which hook should you prioritize addressing first when attempting to escape SLX, and why?
-**A**: Address the bottom hook first because it represents the primary sweeping threat and controls your base. The bottom hook positioned behind your knee creates the elevation that enables sweeps in any direction. Clearing this hook first removes their primary leverage point and significantly reduces sweep danger, making it safer to then address the top hook and extract your leg.
-
-**Q4**: What grip priorities should you maintain to prevent the bottom player from enhancing their sweep attempts?
-**A**: Prioritize controlling the opponent's hands and wrists to prevent them from securing sleeve grips that enhance pulling power. Use collar ties, wrist control, or cross-face pressure to limit their ability to sit up and create angles. Actively strip any grips they establish before attempting to advance your position, as strong upper body grips dramatically increase their sweeping effectiveness.
-
-**Q5**: How should you apply pressure without enabling the opponent's technical standup or guard recovery?
-**A**: Balance forward pressure with upper body control - never drive forward without simultaneously controlling their shoulders or head with collar ties or cross-face pressure. Keep your weight distributed through your chest and shoulders onto their upper body rather than just leaning over their legs. This prevents them from using your forward momentum to stand up while maintaining enough pressure to limit their movement options.
-
-**Q6**: Your opponent suddenly releases their bottom hook and begins transitioning - what should you anticipate and how do you respond?
-**A**: Anticipate they are either attempting to transition to a different leg entanglement (X-Guard, Ashi Garami) or creating space to recover guard. When they release the bottom hook, immediately recognize this as your window to pass - step to headquarters position or initiate a knee slice pass before they can re-establish hooks. Follow their hip movement with your own base adjustments to prevent them from completing any transition.
-
-**Q7**: How do you manage energy expenditure while maintaining position against an active SLX player?
-**A**: Avoid wasting energy by forcing extraction of your trapped leg - this rarely works and exhausts you quickly. Instead, use minimal energy by maintaining proper posture and base, making incremental positional improvements rather than explosive escape attempts. Let your body weight and structure do the work through proper alignment rather than muscular effort. Stay calm and work systematically through the hook clearing sequence.
-
-**Q8**: After your opponent partially disrupts your base but you manage to recover - what immediate steps do you take to prevent another attempt?
-**A**: Immediately re-establish wide base with free leg positioned further from sweep direction, lower your hips by bending knees more deeply, and re-engage upper body control to prevent them from building momentum for another attempt. Strip any grips they may have established during the disruption. Consider changing your angle relative to their hooks to prevent them from re-creating the same sweep setup that nearly worked.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

@@ -189,7 +189,7 @@ The Guillotine Counter is a critical defensive technique that transforms a dange
 
 ## Position Integration
 
-The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control, which is a cornerstone offensive position offering numerous submission and control options. This counter also integrates with broader defensive strategies including Guard Recovery when defense is partially successful, and connects to submission defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common, such as Front Headlock, Turtle, and various guard-pulling situations. The technique is equally valuable in gi and no-gi contexts, making it a fundamental skill for well-rounded grapplers.
+The Guillotine Counter is a critical component of front headlock defense and scramble management systems. It connects directly to guard passing scenarios where opponent attempts guillotine from bottom, takedown situations where guillotine is used as a counter to shots, and transition moments where guillotines appear during position changes. After successfully defending the guillotine, practitioners advance to Side Control, which is a cornerstone offensive position offering numerous submission and control options. This counter also integrates with broader defensive strategies including guard recovery when defense is partially successful, and connects to submission defense frameworks that teach systematic responses to all major submission threats. Understanding this counter improves confidence in scrambles and reduces hesitation when engaging in positions where guillotines are common, such as Front Headlock, Turtle, and various guard-pulling situations. The technique is equally valuable in gi and no-gi contexts, making it a fundamental skill for well-rounded grapplers.
 
 </section>
 
@@ -207,7 +207,7 @@ The Guillotine Counter is a critical component of front headlock defense and scr
 
 - [[Positions/Side Control]] - Ending position after successful guillotine counter execution
 
-- [[Principles/Guard Recovery]] - Alternative defensive goal if full counter to side control is not achieved
+- [[Positions/Half Guard]] - Alternative guard recovery target if full counter to side control is not achieved
 
 - [[Submissions/High Elbow Guillotine]] - Submission variation that requires modified counter approach with increased shoulder pressure
 

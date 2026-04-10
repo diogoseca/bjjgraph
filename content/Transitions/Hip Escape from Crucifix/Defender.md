@@ -154,6 +154,8 @@ As the crucifix controller defending against the hip escape, your objective is t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hip Escape from Crucifix?</p>
+
 - Bottom player's feet plant firmly on the mat—particularly the foot on the trapped arm side—generating the driving force for the upcoming shrimp
 - Free arm repositions from neck defense to framing against your hip, thigh, or leg, indicating a shift from survival mode to active escape
 - Bottom player's breathing transitions from rapid or panicked to controlled and deliberate, suggesting they are preparing a systematic escape attempt
@@ -166,6 +168,8 @@ As the crucifix controller defending against the hip escape, your objective is t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hip Escape from Crucifix?</p>
 
 - Maintain perpendicular body alignment to the bottom player's torso to preserve optimal leg trap angle at all times
 - Follow hip movement immediately—any gap between their shrimp and your adjustment creates extraction space
@@ -181,6 +185,8 @@ As the crucifix controller defending against the hip escape, your objective is t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hip Escape from Crucifix?</p>
 
 ### 1. Tighten leg triangle and follow hip movement to maintain perpendicular alignment
 
@@ -218,6 +224,8 @@ As the crucifix controller defending against the hip escape, your objective is t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hip Escape from Crucifix?</p>
+
 ### → [[Positions/Crucifix]]
 
 Follow the bottom player's hip movement by adjusting your perpendicular alignment, tighten the leg triangle squeeze, and threaten neck attacks to force them back to defensive mode. React to their first hip movement faster than they can create meaningful space.
@@ -233,6 +241,8 @@ If the crucifix becomes untenable due to progressive space creation, transition 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hip Escape from Crucifix?</p>
 
 ### 1. Remaining static and relying solely on the initial leg trap tightness without active adjustment
 
@@ -262,6 +272,8 @@ If the crucifix becomes untenable due to progressive space creation, transition 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hip Escape from Crucifix?</p>
+
 **Phase 1: Recognition** - Identifying hip escape attempts early through tactile and visual cues
 Partner performs hip escape attempts with increasing subtlety while you focus on recognizing preparatory movements—foot placement, weight shifts, breathing changes, and free arm repositioning. Call out the attempt before it begins. Build pattern recognition speed without worrying about the counter yet.
 
@@ -278,26 +290,6 @@ Full-speed positional sparring from crucifix with focus on recognizing when to f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a hip escape from crucifix bottom?
-**A**: The earliest cue is feeling their feet plant firmly on the mat, particularly the foot on the trapped arm side. This foot placement generates the driving force for the shrimp. You may also feel a subtle weight shift in their hips as they prepare to push laterally. Before visible hip movement begins, this preparatory foot and weight positioning signals the escape attempt, giving you time to preemptively tighten your squeeze and adjust your angle.
-
-**Q2**: Your opponent has completed one hip escape and you feel slight loosening in your leg trap—should you maintain the crucifix or transition?
-**A**: Assess the degree of loosening. If the arm can still be maintained with a tighter squeeze and angle adjustment, maintain the crucifix and immediately follow their hips to restore the optimal trapping angle. If the arm has significant slack and continued hip escapes are imminent, proactively transition to back control before the arm is fully extracted. The transition should happen while you still have some control—waiting until the arm is free risks losing back control entirely.
-
-**Q3**: How do you create a dilemma that discourages hip escape attempts from crucifix?
-**A**: Combine control maintenance with active submission threats. When the bottom player has their free hand defending the neck, they cannot use it to frame for hip escapes. When they move the hand to frame, immediately attack the now-exposed neck. This creates an impossible choice—defend choke or escape position—that keeps the bottom player in a reactive defensive cycle. The dilemma is most effective when you vary between choke and armbar threats.
-
-**Q4**: What adjustment prevents the bottom player from executing multiple rapid hip escapes in succession?
-**A**: Heavy chest-to-back pressure is the primary tool for limiting successive hip escapes. By dropping your weight onto their upper back and shoulders, you reduce their ability to generate the hip drive needed for effective shrimping. Additionally, control their hip movement by hooking their near-side leg with yours or placing your knee against their hip as a physical barrier. The combination of upper body pressure and lower body blocking limits shrimping to ineffective micro-movements.
-
-
-
-</section>
 
 
 </main>

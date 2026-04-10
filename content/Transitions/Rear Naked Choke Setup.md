@@ -207,11 +207,11 @@ The Rear Naked Choke Setup is the primary submission pathway from back control, 
 
 - [[Positions/Back Control]] - Starting position and foundation for the RNC setup sequence
 
-- [[Transitions/Rear Naked Choke]] - Finishing submission that follows successful setup
+- [[Submissions/Rear Naked Choke]] - Finishing submission that follows successful setup
 
-- [[Submissions/Armbar from Back]] - Alternative attack when opponent defends neck with both arms
+- [[Transitions/Armbar from Back Transition]] - Alternative attack when opponent defends neck with both arms
 
-- [[Transitions/Bow and Arrow Choke]] - Gi alternative when RNC is defended but collar is available
+- [[Submissions/Bow and Arrow Choke]] - Gi alternative when RNC is defended but collar is available
 
 - [[Positions/Crucifix]] - Transition target when you trap opponent's defending arm
 

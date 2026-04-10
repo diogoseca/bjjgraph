@@ -212,7 +212,7 @@ The Roll from Dead Orchard serves as a last-resort escape option within the dead
 
 - [[Transitions/Escape from Dead Orchard]] - Related escape pathway from dead orchard control
 
-- [[Transitions/Dead Orchard to Anaconda Finish]] - Submission threat that motivates this escape attempt
+- [[Anaconda Choke from Dead Orchard]] - Submission threat that motivates this escape attempt
 
 - [[Transitions/Roll Defense from Anaconda]] - Similar rolling escape mechanics from standard anaconda control
 
@@ -222,7 +222,7 @@ The Roll from Dead Orchard serves as a last-resort escape option within the dead
 
 - [[Positions/Front Headlock]] - Common preceding position before dead orchard is established
 
-- [[Submissions/Anaconda Finish from Dead Orchard]] - Primary submission threat that makes this escape critical
+- [[Transitions/Anaconda Control to Dead Orchard Control]] - Transition into dead orchard that creates the situation requiring this escape
 
 
 </section>

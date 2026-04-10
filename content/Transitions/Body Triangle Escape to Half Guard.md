@@ -214,7 +214,7 @@ The Body Triangle Escape to Half Guard occupies a specialized node within the ba
 
 - [[Positions/Back Control/Seat Belt Control Back]] - Common upper body control configuration maintained by opponent during body triangle
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat you must defend throughout the escape sequence
+- [[Submissions/Rear Naked Choke]] - Primary submission threat you must defend throughout the escape sequence
 
 
 </section>

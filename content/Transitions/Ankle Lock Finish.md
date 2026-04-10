@@ -214,7 +214,7 @@ The Ankle Lock Finish integrates into the modern leg lock system as a critical f
 
 - [[Transitions/Outside Ashi Entry]] - Related leg entanglement transition
 
-- [[Positions/Estima Lock]] - Alternative grip when boot defense prevents standard finish
+- [[Transitions/Estima Lock]] - Alternative grip when boot defense prevents standard finish
 
 - [[Submissions/Straight Ankle Lock]] - Related submission with similar breaking mechanics
 

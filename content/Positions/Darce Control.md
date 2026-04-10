@@ -161,19 +161,21 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 ### Available Transitions
 
 
-- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (48% of attempts)
+- **[[Darce Choke from Darce Control/Attacker|Darce Choke from Darce Control]]** (53% of attempts)
 
-- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (18% of attempts)
+- **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** (17% of attempts)
 
-- **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (13% of attempts)
+- **[[Transitions/Switch to Anaconda Configuration/Attacker|Switch to Anaconda Configuration]]** (12% of attempts)
 
-- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (10% of attempts)
+- **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** (9% of attempts)
 
-- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (6% of attempts)
+- **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** (5% of attempts)
 
-- **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (3% of attempts)
+- **[[Transitions/Darce Control Maintenance/Attacker|Darce Control Maintenance]]** (2% of attempts)
 
-- **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (2% of attempts)
+- **[[Transitions/Darce to Anaconda Switch/Attacker|Darce to Anaconda Switch]]** (1% of attempts)
+
+- **[[Transitions/Darce Choke/Attacker|Darce Choke]]** (1% of attempts)
 
 
 ### Common Mistakes

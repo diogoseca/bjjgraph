@@ -204,7 +204,7 @@ The Sweep from Honey Hole sits within the defensive leg lock hierarchy as an alt
 
 - [[Positions/Side Control]] - Target position achieved upon successful sweep completion
 
-- [[Transitions/Inside Heel Hook from Honey Hole]] - Primary submission threat this sweep preempts by reversing before heel hook finish
+- [[Inside Heel Hook from Honey Hole]] - Primary submission threat this sweep preempts by reversing before heel hook finish
 
 - [[Positions/Ashi Garami]] - Parent positional family encompassing all leg entanglement variations
 
@@ -218,7 +218,7 @@ The Sweep from Honey Hole sits within the defensive leg lock hierarchy as an alt
 
 - [[Positions/Leg Entanglement]] - Conceptual framework governing all leg lock positions and transitions
 
-- [[Transitions/Heel Hook from Saddle]] - Related submission threat from adjacent entanglement position
+- [[Heel Hook from Saddle]] - Related submission threat from adjacent entanglement position
 
 
 </section>

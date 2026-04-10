@@ -212,7 +212,7 @@ The Crossface from Dogfight serves as the primary top player response when the b
 
 - [[Transitions/Knee Slice Pass]] - Complementary passing technique that chains well after partial crossface flattening
 
-- [[Transitions/Americana]] - High-percentage submission available from resulting side control position
+- [[Submissions/Americana]] - High-percentage submission available from resulting side control position
 
 - [[Transitions/Arm Triangle]] - Submission that develops naturally from sustained crossface pressure patterns
 

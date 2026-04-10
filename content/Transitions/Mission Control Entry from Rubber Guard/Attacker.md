@@ -188,6 +188,8 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mission Control Entry from Rubber Guard?</p>
+
 - Maintain unbroken posture control with at least one grip throughout the entire grip transition to prevent escape
 - Hip elevation creates the space necessary to thread the overhook arm under the elevated leg
 - The grip switch must be decisive and committed: hesitation during the transition creates the vulnerability the opponent needs
@@ -202,6 +204,8 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mission Control Entry from Rubber Guard?</p>
+
 - Rubber Guard established with leg threaded high across opponent's back, shin above the shoulder line
 - Opponent's posture broken with head pulled down toward chest using collar tie, wrist control, or head grip
 - Near-side arm trapped inside the elevated leg preventing opponent from posting or creating defensive frames
@@ -214,6 +218,8 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mission Control Entry from Rubber Guard step by step?</p>
 
 1. **Confirm Rubber Guard Structure**: Verify that your elevated leg is positioned high across the opponent's back with the shin above their shoulder line. Confirm their posture is broken, their near-side arm is trapped inside your leg, and you have at least one controlling grip on their head or arm. Do not proceed until all control points are confirmed.
 2. **Maximize Posture Break**: Pull the opponent's head aggressively toward your chest using both hands momentarily. Drive your hips upward to increase pressure on their trapped shoulder. This deepened posture break creates the maximum window for the grip transition by reducing their ability to react during the switch.
@@ -243,6 +249,8 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mission Control Entry from Rubber Guard?</p>
+
 - **Opponent drives backward to recover posture before shin grip is secured** (Effectiveness: High) - Your Response: Follow their backward movement with your hips, maintaining hip elevation and pulling pressure. If posture recovery is imminent, abort the transition and return to standard rubber guard head control rather than fighting for a compromised Mission Control. → Leads to [[Positions/Rubber Guard]]
 - **Opponent extracts trapped arm during the grip transition vulnerability window** (Effectiveness: Medium) - Your Response: If the arm begins slipping free, immediately transition to triangle entry by bringing the outside leg across their face. Their arm extraction creates the exact space needed for the triangle lock. Use the arm movement as your trigger rather than fighting to retain it. → Leads to [[Positions/Open Guard]]
 - **Opponent drives forward with stacking pressure to collapse hip elevation and prevent threading** (Effectiveness: Medium) - Your Response: Accept their forward pressure and use it to deepen the posture break. Drive your hips away from them while maintaining the high guard. Their forward drive actually loads more weight onto the trapped shoulder, making Mission Control stronger once you complete the grip transition. → Leads to [[Positions/Rubber Guard]]
@@ -254,6 +262,8 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mission Control Entry from Rubber Guard?</p>
 
 ### 1. Releasing head control with both hands simultaneously to reach for the shin
 
@@ -293,6 +303,8 @@ From the attacker's perspective, entering Mission Control from Rubber Guard is a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mission Control Entry from Rubber Guard (Attacker)?</p>
+
 **Phase 1: Flexibility Development** - Hip and hamstring range of motion
 Develop the hip flexibility required for sustained rubber guard and Mission Control through dedicated stretching targeting hip flexors, hamstrings, and external hip rotation. Include pigeon pose, seated forward folds, and supine leg raises. Hold positions for 60-120 seconds, training 4-5 times per week for minimum 4 weeks before attempting rubber guard transitions in live training.
 
@@ -313,48 +325,12 @@ Begin incorporating the entry into positional sparring from rubber guard with fu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the grip transition from rubber guard to Mission Control?
-**A**: The optimal window is immediately after deepening the posture break when the opponent's head is pulled maximally toward your chest and their weight is loaded forward onto the trapped shoulder. This moment provides the longest reaction time during the grip switch because the opponent must first recover posture before they can defend the transition. Attempting the switch while the opponent is actively fighting posture creates a contested vulnerability window.
-
-**Q2**: What entry requirements must be confirmed before attempting the Mission Control grip transition?
-**A**: Four conditions must be confirmed: the elevated leg is positioned high across the opponent's back above the shoulder line, the opponent's posture is broken with their head pulled down, the near-side arm is trapped inside the elevated leg preventing posting, and there is sufficient hip elevation to create clearance space for the arm to thread under the shin. Missing any one of these conditions significantly reduces success probability.
-
-**Q3**: What is the single most critical mechanical detail that determines whether Mission Control will hold or collapse?
-**A**: Grip depth on the shin. The overhook must secure the shin just below the knee rather than grabbing shallowly at the ankle or foot. A deep shin grip creates strong shoulder isolation through leverage, whereas a shallow ankle grip provides insufficient mechanical advantage and slips under defensive pressure. The difference between a locked Mission Control and a collapsing one is often the 6-8 inches of grip depth difference.
-
-**Q4**: Why does the transition commonly fail, and what is the primary cause of failure?
-**A**: The primary failure point is releasing head control prematurely or incompletely during the grip switch. When the bottom player removes both hands from the opponent's head to reach for the shin, the opponent recovers posture in the gap. The correction is maintaining aggressive head control with the non-threading hand throughout the entire transition, never allowing both control points to disengage simultaneously.
-
-**Q5**: What grip configuration must be maintained by the non-threading hand during the transition?
-**A**: The non-threading hand must maintain either a strong collar tie behind the opponent's neck, a cupping grip on the back of their head pulling downward, or a wrist grip on the trapped arm that prevents extraction. The grip must actively pull downward throughout the transition to maintain posture break. A passive or loose grip allows the opponent to generate the small amount of posture recovery needed to escape.
-
-**Q6**: What direction of force should the hip pop generate, and why is this specific direction important?
-**A**: The hip pop drives upward and slightly toward the opponent, creating vertical clearance between the shin and the opponent's back. The upward direction lifts the leg away from the opponent's body to create threading space. The slight forward angle ensures the opponent's weight remains loaded on the trapped shoulder rather than shifting backward. A purely vertical pop without the forward component allows the opponent to sit back during the clearance moment.
-
-**Q7**: Your opponent begins pulling their trapped arm backward during your grip transition - how do you adjust your technique?
-**A**: Rather than fighting to retain the arm inside the leg, immediately pivot to the triangle entry. The arm extraction creates the exact space needed to bring your outside leg across the opponent's face for the triangle lock. Use their pulling momentum to accelerate your leg across their neck. If the triangle angle is not available, abort the Mission Control entry and return to standard rubber guard head control to reset for another attempt.
-
-**Q8**: What submission chains become available once Mission Control is successfully established?
-**A**: Mission Control opens three primary chains: triangle choke (initiated when opponent attempts to posture up, your leg crosses their face), omoplata (initiated when opponent pulls trapped arm backward, creating shoulder rotation), and gogoplata (available when posture is broken completely and you can position your shin across the throat). Each chain is triggered by a specific defensive reaction, creating a dilemma system where defending one attack opens another.
-
-**Q9**: How does hip elevation during the entry differ from hip elevation during Mission Control maintenance?
-**A**: During the entry, hip elevation is explosive and maximal, creating a sharp upward pop that generates clearance space for the arm threading. During maintenance, hip elevation is sustained and moderate, creating constant upward pressure that keeps the opponent's weight loaded on the trapped shoulder. The entry uses a burst of energy to create space, while maintenance uses structural positioning to sustain control with minimal energy expenditure.
-
-**Q10**: Your opponent is significantly larger and their forward pressure makes hip elevation difficult - what adaptation do you use?
-**A**: Use the Progressive Walk Entry variant: rather than one explosive hip pop and arm thread, gradually walk the grip up the shin in small increments. Each micro-adjustment tightens the control slightly while maintaining continuous contact. Alternatively, use their forward pressure against them by accepting it to deepen the posture break, then timing the hip pop for the moment they relax their drive. Against larger opponents, timing the opponent's breathing rhythm can create natural windows for the hip elevation.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mission Control Entry from Rubber Guard?</p>
 
 Mission Control entry from Rubber Guard requires significant hip and hamstring flexibility that must be developed progressively over weeks or months. Attempting this transition without adequate flexibility risks hamstring strains, hip flexor injuries, and groin pulls. The elevated leg position also creates potential neck compression when the opponent drives forward, so practitioners must maintain a tucked chin and rounded shoulders throughout. Never force the high guard position beyond your current range of motion. Partners should avoid explosive stacking during drilling as this can cause cervical spine compression. Stop immediately if you feel sharp pain in the hip, knee, or neck. Warm up thoroughly before practicing rubber guard techniques.
 

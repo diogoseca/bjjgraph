@@ -20,14 +20,14 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Americana from Scarf Hold Position",
+      "text": "From this position, attempt Americana from Scarf Hold Position. This technique is attempted in 14% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 12% of exchanges from this position.",
+      "name": "Execute Kimura from Scarf Hold Position",
+      "text": "From this position, attempt Kimura from Scarf Hold Position. This technique is attempted in 12% of exchanges from this position.",
       "position": 2
     },
     {
@@ -44,14 +44,14 @@ description: "Master Scarf Hold Top (Kesa Gatame) in BJJ. Traditional judo pinni
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Far Side Armbar",
+      "text": "From this position, attempt Far Side Armbar. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 14% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Scarf Hold Position",
+      "text": "From this position, attempt Arm Triangle from Scarf Hold Position. This technique is attempted in 14% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Position Definition
 
+<p class="section-subtitle">What is Scarf Hold Position (Top)?</p>
+
 - Top player positioned perpendicular to bottom opponent with chest-to-chest connection, hips sitting low on the mat beside opponent's ribcage with direct pressure through the pelvis into their upper torso
 - Near arm threaded underneath opponent's near arm with grip securing their tricep, shoulder, or gi material, creating structural control of their upper body while preventing arm extraction
 - Far arm wrapped around opponent's head with hand gripping their collar, their own belt, or clasping behind opponent's neck, maintaining head control and preventing them from turning away
@@ -178,6 +180,8 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Scarf Hold Position (Top)?</p>
+
 - Successful transition from side control or guard passing sequence
 - Opponent positioned on their side or back
 - Control of opponent's near arm established
@@ -190,6 +194,8 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Scarf Hold Position?</p>
 
 - Maintain chest-to-chest pressure with weight driven through hips into opponent's ribcage, not through extended arms or posted base
 - Keep head control tight with far arm while preventing opponent from turning their face toward you or creating space
@@ -205,24 +211,26 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Scarf Hold Position (Top)?</p>
+
 **If opponent attempts to turn their face toward you and bridge:**
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 45%)
 
 
 **If opponent pushes on your head with far arm to create space:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 50%)
+- Execute **[[Submissions/Far Side Armbar/Attacker|Far Side Armbar]]** → [[Positions/Armbar Control]] (Probability: 50%)
 
 
 **If opponent attempts to extract trapped near arm:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 60%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 55%)
 
 
 **If opponent is passive and not defending actively:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 75%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[Positions/Armbar Control]] (Probability: 75%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 65%)
 
 
 
@@ -232,6 +240,8 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Scarf Hold Position?</p>
 
 ### 1. Sitting too upright with hips raised high off the mat
 
@@ -266,6 +276,8 @@ Scarf Hold Top Position (Kesa Gatame) is a classical pinning position derived fr
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Scarf Hold Position attacks?</p>
+
 ### Scarf Hold Pressure Maintenance Drill
 
 Partner starts in scarf hold top, bottom partner attempts to create space by bridging and framing. Top partner focuses on maintaining tight connection, low hips, and constant pressure through weight distribution. Work 2-minute rounds with emphasis on feeling opponent's movements and adjusting weight accordingly.
@@ -291,38 +303,6 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution point for maintaining effective scarf hold control?
-**A**: Weight should be distributed primarily through your hips pressing directly into the opponent's ribcage, not through extended arms or a posted base. Sitting low with hips heavy on the mat beside their torso creates crushing pressure that restricts breathing and limits their movement options. Keeping weight through the pelvis rather than the legs or arms maintains constant control while conserving energy.
-
-**Q2**: Your opponent starts bridging explosively - what adjustment do you make to maintain position?
-**A**: When opponent bridges, widen your base by extending your back leg further behind you and driving your hip pressure deeper into their ribs. Simultaneously tighten your head control to prevent them from turning their face toward you. Ride the bridge by staying connected rather than posting away, and as they return to the mat, immediately re-consolidate your perpendicular angle and arm trap before they can chain into another escape attempt.
-
-**Q3**: What are the essential grips for maintaining scarf hold position?
-**A**: The primary grips involve threading your near arm underneath opponent's near arm and securing above their elbow or on the tricep to prevent extraction. Your far arm wraps around their head with your hand gripping their far collar, your own belt, or clasping behind their neck. These combined grips create the control triangle of angle, arm, and head that defines effective scarf hold retention.
-
-**Q4**: How do you shut down the opponent's primary bridge-and-roll escape attempt?
-**A**: The bridge-and-roll relies on opponent trapping your far arm and rolling you over your shoulder. Prevent this by keeping your far arm (the one around their head) tight and mobile, never letting them pin it to their chest. If they grab your arm, immediately circle it free or use your head control to turn their face away, breaking their alignment for the roll. Additionally, extend your legs wide for base and keep hips low to make elevating you nearly impossible.
-
-**Q5**: What grip priorities should you establish immediately upon transitioning to scarf hold?
-**A**: First priority is head control - wrap your far arm around their head before they can establish defensive frames. Second priority is near arm control by threading underneath and securing above elbow. Third is hip positioning, sitting low and tight against their ribcage. Never settle your weight until both head and arm control are secured, as a loose transition allows immediate escape opportunities.
-
-**Q6**: Your opponent turns their face toward you and starts establishing frames - how do you respond?
-**A**: This is a critical moment requiring immediate response. Drive your crossface deeper using your far arm to turn their head away, eliminating their visual reference and frame effectiveness. Simultaneously tighten your arm control to prevent them from creating space. If they get a frame on your shoulder, drive your weight through your hips into their ribs while working to swim your arm inside their frame. Never allow them to complete the turn as this leads to guard recovery or reversal.
-
-**Q7**: How do you manage energy expenditure while maintaining scarf hold for extended periods?
-**A**: Scarf hold should be low-energy when positioned correctly. Rest your weight through skeletal structure rather than muscular tension by keeping hips low and heavy. Use body positioning rather than grip strength where possible. When opponent is not actively escaping, relax your muscles while maintaining structural connection. The perpendicular angle naturally pins them when weight is properly distributed, requiring minimal effort compared to fighting their escape attempts reactively.
-
-**Q8**: Your opponent extracts their trapped arm partially - how do you recover control?
-**A**: Immediately transition to attacking the exposed arm with americana or kimura threat, which forces them to defend the submission rather than complete the extraction. If they continue extracting, switch your arm control by diving your near arm to their far shoulder (modified scarf hold variation) or transition to mount as their arm extraction creates the space for leg step-over. Never chase a fully extracted arm - use the extraction as a transition trigger instead.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">
@@ -351,8 +331,8 @@ Start in scarf hold top and chain between Americana, arm triangle, and kimura se
 - **[[Positions/Side Control/Reverse Kesa-Gatame]]** - Variation - facing opposite direction with similar control principles
 - **[[Positions/North-South]]** - Transition target - common progression from scarf hold
 - **[[Positions/Mount]]** - Transition target - advancement option when opponent turns in
-- **[[Transitions/Americana]]** - Primary submission transition - highest percentage finish from this position
-- **[[Transitions/Kimura]]** - Secondary submission transition when opponent defends americana
+- **[[Submissions/Americana]]** - Primary submission transition - highest percentage finish from this position
+- **[[Submissions/Kimura]]** - Secondary submission transition when opponent defends americana
 
 
 </section>

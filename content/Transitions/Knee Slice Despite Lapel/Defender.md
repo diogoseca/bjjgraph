@@ -164,6 +164,8 @@ The critical defensive window occurs between the passer's partial lapel clear an
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice Despite Lapel?</p>
+
 - Passer begins technical unwinding motions on your lapel grip, working fabric off their leg or arm with deliberate hand positioning rather than explosive pulling
 - Passer drops into combat base with lead knee at your hip line while securing cross-face or collar grip—this posture telegraphs the slice initiation
 - Passer's shoulder pressure increases dramatically on your jaw side while their free hand controls your far hip, establishing the dual control needed for the slice
@@ -175,6 +177,8 @@ The critical defensive window occurs between the passer's partial lapel clear an
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice Despite Lapel?</p>
 
 - Maintain lapel configuration tension at all times—a slack lapel is a cleared lapel waiting to happen
 - Reconfigure the lapel immediately when partially stripped rather than accepting the weakened grip
@@ -190,6 +194,8 @@ The critical defensive window occurs between the passer's partial lapel clear an
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice Despite Lapel?</p>
 
 ### 1. Reconfigure lapel around slicing leg during partial clear
 
@@ -227,6 +233,8 @@ The critical defensive window occurs between the passer's partial lapel clear an
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice Despite Lapel?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Reconfigure your lapel grip immediately when you feel the clearing attempt, threading the fabric around a new anchor point on their body. Alternatively, sit up aggressively when they commit to the slice to force them to abandon the pass and address your back take threat. The goal is resetting the exchange with your lapel guard intact or improved.
@@ -242,6 +250,8 @@ When the slice is already in motion and you cannot reconfigure or sit up, insert
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice Despite Lapel?</p>
 
 ### 1. Holding a slack lapel configuration without maintaining active tension on the fabric
 
@@ -276,6 +286,8 @@ When the slice is already in motion and you cannot reconfigure or sit up, insert
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice Despite Lapel?</p>
+
 **Week 1-2** - Lapel tension maintenance
 Partner attempts to clear your lapel configuration with progressively increasing intensity. Practice maintaining tension through hip adjustments and grip reconfiguration without any passing attempts. Build the habit of constant fabric management and learn to feel when tension is being compromised.
 
@@ -292,29 +304,6 @@ Full resistance sparring from lapel guard. Practice the complete defensive hiera
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first thing you should do when you feel your lapel grip tension decreasing?
-**A**: Immediately reconfigure the lapel around a new anchor point on the passer's body. The moment tension decreases, your defensive barrier is compromised. Re-thread the fabric before they can initiate the slice through the weakened configuration. Speed of reconfiguration determines whether the exchange resets or the pass succeeds.
-
-**Q2**: When is sitting up for a back take most effective against this pass?
-**A**: The optimal moment is when the passer commits their weight laterally into the slice, creating space behind them. Their forward commitment to the knee cut means their back is exposed and they cannot easily retract. If you sit up before they establish cross-face pressure, their slice becomes a path to your back take rather than their pass completion.
-
-**Q3**: Why is inserting a knee shield considered a last resort rather than a primary defense?
-**A**: Knee shield concedes the lapel guard entirely, which was your dominant position. You transition from an offensive guard with sweep and back take potential to a defensive half guard where the passer holds the initiative. It is necessary when the pass is succeeding, but the primary goal should always be maintaining or reconfiguring the lapel guard first.
-
-**Q4**: Your opponent has partially cleared the worm guard and starts the tangential slice—what defensive adjustment addresses the angle?
-**A**: Rotate your hips to follow their slice angle, keeping your lapel grip side facing them rather than lying flat. If they angle toward your far shoulder at 45 degrees, rotate your hips 45 degrees in the same direction so the remaining lapel barrier stays between your bodies. This hip rotation also loads your sit-up mechanics for the back take threat.
-
-**Q5**: How do you distinguish between a committed slice attempt and a feint designed to draw a reaction?
-**A**: A committed slice shows simultaneous cross-face pressure increase, far hip control, and lead knee driving across your thigh. A feint typically lacks one of these elements—usually the cross-face pressure. React to the combination of all three signals rather than any single cue. Overreacting to feints by sitting up prematurely exposes you to smash passing when they redirect.
-
-
-
-</section>
 
 
 </main>

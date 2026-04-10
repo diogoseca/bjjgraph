@@ -41,7 +41,7 @@ Strategically, the Balloon Sweep occupies a key role in the closed guard sweepin
 |--------|----------|-------------|
 | Success | [[Positions/Mount]] | 58% |
 | Failure | [[Positions/Closed Guard]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
+| Counter | [[Positions/Open Guard]] | 15% |
 
 
 </section>
@@ -221,9 +221,9 @@ The Balloon Sweep is a fundamental component of closed guard offense that bridge
 
 - [[Positions/Butterfly Guard]] - Related position sharing hook mechanics used in the lifting phase
 
-- [[Submissions/Armbar from Guard]] - Submission chain option when opponent posts arm to defend sweep
+- [[Submissions/Armbar/Rolling Armbar from Closed Guard]] - Submission chain option when opponent posts arm to defend sweep
 
-- [[Submissions/Triangle from Closed Guard]] - Setup relationship where failed triangle creates ideal Balloon Sweep loading
+- [[Transitions/Closed Guard to Triangle]] - Setup relationship where failed triangle creates ideal Balloon Sweep loading
 
 - [[Transitions/Back Take]] - Alternative transition when opponent defends sweep by turning and exposing back
 

@@ -204,7 +204,7 @@ The Kneebar from Ushiro functions as a critical chain attack within the modern l
 
 - [[Submissions/Inside Heel Hook]] - Primary alternative attack from the same ushiro entanglement
 
-- [[Transitions/Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar
+- [[Submissions/Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar
 
 - [[Positions/Ashi Garami/Saddle]] - Transition option during scrambles from ushiro configuration
 

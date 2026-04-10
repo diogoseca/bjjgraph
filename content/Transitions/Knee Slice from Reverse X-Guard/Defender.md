@@ -154,6 +154,8 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from Reverse X-Guard?</p>
+
 - Top player begins systematically stripping your primary hook behind their knee using their hand or hip rotation rather than simply managing it
 - Forward hip pressure increases significantly as the top player drives their weight toward your chest, compressing your hook structure
 - Top player's free leg steps wider to the side, creating the tripod base needed for a stable knee slice angle
@@ -166,6 +168,8 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from Reverse X-Guard?</p>
 
 - Maintain active hook pressure at all times—passive hooks invite the pass by giving the top player space to strip and slice
 - Control the opponent's upper body with grips to prevent them from establishing the crossface that makes the slice irreversible
@@ -180,6 +184,8 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from Reverse X-Guard?</p>
 
 ### 1. Re-hook behind the knee immediately when you feel the primary hook being stripped
 
@@ -217,6 +223,8 @@ As the defender in Reverse X-Guard Bottom facing a knee slice pass attempt, your
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from Reverse X-Guard?</p>
+
 ### → [[Positions/X-Guard/Single Leg X-Guard]]
 
 As the opponent initiates the knee slice and their leg begins to cut across, redirect their momentum by catching their ankle with your far hand while repositioning your inside hook from behind the knee to across their hip. Thread your outside leg through to establish the second Single Leg X hook. This transitions you from a defensive situation into a strong attacking guard with sweep and leg lock options.
@@ -232,6 +240,8 @@ Maintain constant hook activity and grip fighting to prevent the opponent from e
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from Reverse X-Guard?</p>
 
 ### 1. Allowing hooks to become passive while waiting for the opponent to attempt the pass
 
@@ -261,6 +271,8 @@ Maintain constant hook activity and grip fighting to prevent the opponent from e
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from Reverse X-Guard?</p>
+
 **Phase 1: Recognition Drill** - Identifying knee slice setup cues
 Partner slowly works through the knee slice setup from Reverse X-Guard Top while you verbally call out each recognition cue as you feel it: hook stripping, pressure shift, base widening, crossface approach. No defensive response—pure recognition training. 5 minutes per side.
 
@@ -277,26 +289,6 @@ Positional sparring starting in Reverse X-Guard Bottom against full resistance. 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee slice attempt is developing from Reverse X-Guard Top?
-**A**: The earliest cue is feeling the opponent's hand actively working to strip your primary hook behind their knee, combined with an increase in forward hip pressure. These two actions together indicate they are degrading your hook structure to create the passing lane. A secondary cue is their free leg stepping wider—this base widening creates the tripod needed for a stable slice. Recognizing these cues gives you time to reinforce hooks and counter-attack before the slice materializes.
-
-**Q2**: Your primary hook has been stripped and the knee slice is in motion—what is your best defensive option?
-**A**: Once the primary hook is stripped and the knee is actively cutting, your best option depends on timing. If the knee has not passed your midline, frame hard on the opponent's slicing hip to stall the pass and attempt to re-hook or transition. If the knee is past the midline, immediately insert your inside knee to catch half guard—this is damage limitation but preserves a guard position. The worst option is chasing a re-hook on a knee that has already committed to the slice, as this wastes energy on a low-percentage defense.
-
-**Q3**: How do you transition to Single Leg X-Guard as a counter to the knee slice attempt?
-**A**: As the opponent commits their knee to the slice, catch their ankle with your far hand and redirect the leg's momentum. Simultaneously reposition your inside leg from behind their knee to across their hip, threading your outside leg through to establish the second Single Leg X hook on their far thigh. This requires quick hip adjustment and precise timing—you are using the opponent's passing energy to fuel your transition. The key is acting during the slice motion, not after it completes, when there is still space between their legs for your hooks.
-
-**Q4**: What proactive strategies prevent the knee slice from developing in the first place?
-**A**: The most effective prevention is maintaining constant offensive pressure with your Reverse X-Guard. Continuously threaten sweeps so the opponent is forced to defend rather than pass. Keep your primary hook deep and active with elevating pressure, and fight for sleeve or collar control that prevents them from establishing the grips needed for the pass setup. If you control the pace with sweeps and transitions, the opponent never reaches the stable base position required to initiate the knee slice sequence.
-
-
-
-</section>
 
 
 </main>

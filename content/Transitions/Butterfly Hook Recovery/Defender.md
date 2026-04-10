@@ -158,6 +158,8 @@ Successful defense against hook recovery demands constant awareness of your own 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Hook Recovery?</p>
+
 - Bottom player's forearm suddenly pressing against your jaw or neck, establishing a cross-face frame to create separation between bodies
 - Hip movement beneath you as opponent executes a shrimping motion, creating angular space on one side where their knee begins drawing toward their chest
 - Opponent's knee bending sharply with foot rotating inward, indicating imminent hook insertion attempt as the instep prepares to thread between bodies
@@ -169,6 +171,8 @@ Successful defense against hook recovery demands constant awareness of your own 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Hook Recovery?</p>
 
 - Maintain constant forward pressure through the chest without pauses that create insertion windows for the bottom player
 - Keep elbows pinched tight to your ribs to deny frame insertion points between your arms and torso
@@ -183,6 +187,8 @@ Successful defense against hook recovery demands constant awareness of your own 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Hook Recovery?</p>
 
 ### 1. Drive forward explosively to re-smash when you feel the frame being established, collapsing the space before the hook can enter
 
@@ -213,6 +219,8 @@ Successful defense against hook recovery demands constant awareness of your own 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Hook Recovery?</p>
+
 ### → [[Positions/Double Unders]]
 
 Maintain relentless forward pressure without creating timing windows. When you feel frame establishment beginning, immediately re-smash by dropping chest weight and driving forward. Follow every hip escape with lateral movement to re-center your chest over their hips. Deny the space needed for hook entry by keeping your elbows pinched and hips heavy.
@@ -228,6 +236,8 @@ When opponent commits to the recovery attempt with both hands working on hook in
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Hook Recovery?</p>
 
 ### 1. Pausing forward pressure to readjust grip behind opponent's back with both hands simultaneously
 
@@ -257,6 +267,8 @@ When opponent commits to the recovery attempt with both hands working on hook in
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Hook Recovery?</p>
+
 **Week 1-2** - Pressure consistency
 Maintain double unders position with constant forward pressure while partner attempts hook recovery at 30% resistance. Focus on eliminating pressure gaps during grip adjustments and weight shifts. Partner provides feedback on when they feel windows opening. Drill 5-minute rounds, tracking how many successful hook insertions partner achieves.
 
@@ -273,29 +285,6 @@ Full resistance positional sparring from double unders top. Partner uses all rec
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is beginning a butterfly hook recovery attempt?
-**A**: The earliest cue is feeling their forearm pressing against your jaw or neck to establish a cross-face frame. This is the first step in the recovery sequence - frame before hip escape before hook insertion. Reacting at this stage by re-smashing forward is far more effective than waiting until the hook is already threading, because the frame is the weakest link in the chain and can be collapsed with committed forward pressure.
-
-**Q2**: Why is it counterproductive to pull your hips backward when you feel the opponent bending their knee for hook insertion?
-**A**: Pulling hips back creates more space between bodies, which is exactly what the opponent needs for hook insertion. The hook requires a gap between your inner thigh and their body to thread through. By retreating, you open that gap wider. Instead, driving hips forward and down closes the space and prevents the knee from bending enough to complete the threading motion, using your weight advantage rather than conceding it.
-
-**Q3**: Your opponent successfully inserts one butterfly hook despite your pressure - what is the optimal tactical response?
-**A**: Do not waste energy trying to strip the seated hook with your hands. Instead, immediately transition your passing approach. Backstep around the hook to establish headquarters or knee slice position, where the single hook is less effective. Alternatively, if you feel confident in your balance, accept the hook and drive forward to bait an elevation sweep attempt that you can ride and counter. The key is adapting your passing strategy rather than fighting to restore double unders against an established hook.
-
-**Q4**: How should you adjust your grip behind the opponent's back without creating a timing window for hook recovery?
-**A**: Adjust one hand at a time while maintaining forward chest pressure through body weight and the remaining grip. Never release both hands simultaneously. The chest-to-thigh connection must remain loaded throughout any grip adjustment. Some elite passers maintain pressure purely through chest weight and hip drive during brief grip transitions, eliminating hand dependence entirely for those critical moments. Practice making grip adjustments feel invisible to the bottom player.
-
-**Q5**: When is it strategically better to abandon double unders and transition to a different pass rather than fighting the hook recovery?
-**A**: Transition when the opponent has achieved both frame establishment and hip escape, meaning they have created real space and their knee is already bending toward insertion. At this point, the energy cost of re-smashing through their frame exceeds the energy of transitioning to headquarters, knee slice, or leg weave. The hook recovery is a two-stage process: if you missed the window to prevent the frame, cutting your losses by transitioning preserves your top position and energy rather than exhausting yourself in a losing pressure battle.
-
-
-
-</section>
 
 
 </main>

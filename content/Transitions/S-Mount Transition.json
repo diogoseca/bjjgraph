@@ -46,8 +46,8 @@
       "relationship": "Target position achieved on successful transition"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Primary follow-up submission from S-Mount"
+      "name": "Mount to Armbar",
+      "relationship": "Primary follow-up submission setup from S-Mount"
     },
     {
       "name": "Technical Mount",

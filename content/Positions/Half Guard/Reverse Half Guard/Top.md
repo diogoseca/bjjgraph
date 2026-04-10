@@ -167,6 +167,8 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Half Guard (Top)?</p>
+
 - Top player's hips positioned behind and to the side of bottom player's hips, with their trapped leg extending between bottom player's legs from the reverse angle, creating an awkward defensive geometry
 - Bottom player facing away from top player or at a severe angle, unable to establish traditional half guard frames or chest-to-chest connection, with their upper body twisted uncomfortably
 - Top player's chest pressure directed toward bottom player's hips from behind, with weight distribution preventing bottom player from rotating to face them or recovering full guard structure
@@ -179,6 +181,8 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Reverse Half Guard (Top)?</p>
+
 - Successful backstep or circling movement from traditional half guard top position
 - Bottom player's half guard structure disrupted through angular change
 - Top player's leg trapped in half guard but from reverse orientation
@@ -190,6 +194,8 @@ The reverse half guard top position represents a critical moment in passing sequ
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Reverse Half Guard?</p>
 
 - Maintain chest pressure directed toward opponent's hips to prevent rotation and re-facing
 - Keep low base with hips close to opponent to limit their mobility and space for recovery
@@ -205,6 +211,8 @@ The reverse half guard top position represents a critical moment in passing sequ
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse Half Guard (Top)?</p>
 
 **If opponent attempts to turn and face you by rotating their chest toward you:**
 - Execute **[[Transitions/Aoki Lock to Back Control/Attacker|Aoki Lock to Back Control]]** → [[Positions/Back Control]] (Probability: 70%)
@@ -233,6 +241,8 @@ The reverse half guard top position represents a critical moment in passing sequ
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Reverse Half Guard?</p>
 
 ### 1. Allowing opponent to turn and face you by failing to maintain chest pressure from behind
 
@@ -267,6 +277,8 @@ The reverse half guard top position represents a critical moment in passing sequ
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Reverse Half Guard attacks?</p>
+
 ### Reverse Half Guard Decision Drill
 
 Start in reverse half guard top position. Partner alternates between turning toward you (triggering back take) and flattening away (triggering pass completion). Practice reading defensive reactions and choosing the appropriate finish within 3 seconds.
@@ -292,38 +304,6 @@ Start with cooperative partner in reverse half guard. Progress through: no resis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary strategic decision you must make immediately upon achieving reverse half guard top?
-**A**: You must immediately choose between pursuing the back take or completing the guard pass. This position is a decision point, not a control position. Hesitation allows the bottom player to recover their defensive structure. If they turn toward you, take the back; if they flatten away, complete the pass to side control.
-
-**Q2**: How do you prevent the bottom player from rotating to face you and recovering standard half guard?
-**A**: Maintain constant chest pressure directed toward their hips from behind, keeping your weight low and heavy. Establish crossface control from the reverse angle by driving your shoulder or arm into their head. This pressure freezes their upper body rotation and prevents them from re-establishing frames or the underhook battle.
-
-**Q3**: Your opponent starts turning their shoulders toward you to face you - what immediate action should you take?
-**A**: This is your cue to take the back. Their rotation exposes their back, so immediately transition to back control by inserting hooks and establishing seat belt grip. Do not fight to prevent their turn - instead, use their movement to secure the superior back control position.
-
-**Q4**: What happens if you stay static in reverse half guard top without advancing?
-**A**: The position favors movement, not static control. Staying static gives the bottom player time to identify escape routes, recover their guard structure, and potentially sweep you. The reverse half guard top is inherently unstable as a holding position - you must immediately advance to back take or pass completion.
-
-**Q5**: How should you adjust your weight distribution when the bottom player tries to create space by shrimping?
-**A**: Keep your hips low and heavy, driving your weight into their hips rather than staying high. When they shrimp, follow their hip movement while maintaining chest pressure. Use the smash pass or pressure pass to cut off their space creation and complete the guard pass to side control.
-
-**Q6**: What grip and pressure should you maintain to control the trapped leg while setting up your pass?
-**A**: Control the trapped leg by maintaining hip pressure that pins it between your body and theirs. Your chest should drive toward their hips, creating a wedge effect. This allows you to work methodically on leg extraction while maintaining positional dominance. Don't rush the extraction - controlled pressure prevents their recovery.
-
-**Q7**: Your opponent reaches for an underhook while you're in reverse half guard top - how do you capitalize on this?
-**A**: Their reaching arm exposes them to kimura attacks. Secure a kimura grip on their reaching arm and use it to either submit them or transition to kimura control position. Alternatively, use their extended arm as leverage to complete your pass by driving a crossface and sliding through to north-south or side control.
-
-**Q8**: What distinguishes a successful back take attempt versus a failed one from reverse half guard top?
-**A**: Success depends on timing with the opponent's defensive movement. Successful back takes occur when the opponent turns toward you, exposing their back - you follow their rotation and insert hooks. Failed attempts happen when you force the back take against a flattened opponent who hasn't committed to turning. Read their defensive reaction first.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

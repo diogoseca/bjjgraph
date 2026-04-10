@@ -188,6 +188,8 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kimura Counter via Roll?</p>
+
 - Recognize the critical threshold where the Kimura grip shifts from viable offense to diminishing returns, and commit to the roll before position deteriorates further
 - Use the opponent's arm extraction force and posturing energy as fuel for your rolling motion rather than fighting against it
 - Maintain continuous hip-to-hip connection throughout the transition to prevent the opponent from disengaging or creating passing angles
@@ -202,6 +204,8 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kimura Counter via Roll?</p>
+
 - Active Kimura grip still intact with at least partial figure-four control, even if opponent is beginning to extract
 - Hips turned toward opponent with enough mobility to initiate rotational movement despite bottom position
 - Leg connection through lockdown, half guard hook, or butterfly hook providing an anchor for generating roll momentum
@@ -214,6 +218,8 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kimura Counter via Roll step by step?</p>
 
 1. **Recognize grip deterioration**: Monitor the tension in your Kimura grip and feel for the opponent's arm beginning to slip free or their posture strengthening beyond your ability to control. Key indicators include their elbow straightening, wrist rotating out of your grip, or successful posturing that breaks your hip connection. This recognition moment determines whether you transition to the roll or continue fighting for the Kimura.
 2. **Secure hip connection and base**: Before initiating any rolling motion, verify that your hips are turned toward your opponent with active leg connection through lockdown, half guard hooks, or butterfly hook. Plant your outside foot flat on the mat to create a posting point for generating rotational force. This connection provides the anchor point that converts your hip drive into the rolling momentum needed to complete the transition.
@@ -243,6 +249,8 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kimura Counter via Roll?</p>
+
 - **Opponent bases out wide and posts free hand to resist the rolling force** (Effectiveness: High) - Your Response: Abandon the roll attempt and immediately re-engage the Kimura grip if still available, or transition to an underhook sweep from half guard. Their wide base often exposes them to Old School Sweep mechanics. → Leads to [[Positions/Kimura Trap]]
 - **Opponent drives forward aggressively to flatten your hips before the roll initiates** (Effectiveness: High) - Your Response: Use their forward pressure to fuel a Rolling Kimura instead, which converts their drive into sweeping momentum. Alternatively, frame on their shoulder and re-establish hip angle before reattempting. → Leads to [[Positions/Kimura Trap]]
 - **Opponent strips the Kimura grip during the rolling transition before closed guard is established** (Effectiveness: Medium) - Your Response: Immediately transition to half guard retention by inserting your knee shield and establishing frames. Prioritize preventing the pass rather than completing the roll to closed guard. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kimura Counter via Roll?</p>
 
 ### 1. Initiating the roll too early while the Kimura grip is still viable for sweeps or submissions
 
@@ -288,6 +298,8 @@ As the attacker executing the Kimura Counter via Roll, your objective is to conv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kimura Counter via Roll (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Hip rotation and leg swing coordination
 Practice the rolling motion solo on the mat, focusing on bridging into hip rotation and swinging legs in a circular path. Develop the muscle memory for the transition between lying on your side with hips turned and arriving in a closed guard position. Drill 20 repetitions per side.
 
@@ -305,42 +317,12 @@ During positional sparring from Kimura Trap Bottom, work the complete system: at
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Kimura Counter via Roll?
-**A**: The optimal window is when you feel the opponent's arm extraction becoming inevitable but before the Kimura grip is completely broken. Key indicators include their elbow straightening past 90 degrees, their wrist beginning to rotate free, or their posture recovering to a point where your hips disconnect. Initiating too early wastes viable Kimura position, while initiating too late means the grip breaks before the roll generates sufficient momentum to reach closed guard.
-
-**Q2**: What is the most critical hip movement during the Kimura Counter via Roll?
-**A**: The bridge-to-rotation transition is the most critical movement. Your bottom hip must drive upward in a bridge while simultaneously rotating your torso toward the opponent. This combined upward and rotational force creates the momentum needed to swing your legs around their waist. Without the bridge component, you lack the elevation to clear your legs. Without the rotation, you cannot direct the momentum into the guard-closing path.
-
-**Q3**: Your opponent posts their free hand on the mat to resist the roll - how do you adjust?
-**A**: When the opponent posts their hand, they create a tripod base that is extremely resistant to the rolling force. Rather than forcing through their post, abandon the roll and redirect to an alternative from Kimura Trap. Their posted hand often leaves their far side exposed for an Old School Sweep, or you can redirect the Kimura pressure toward the posted arm side to break their three-point base. Forcing a roll against a solid post wastes energy and exposes you to position loss.
-
-**Q4**: What grip adjustments are necessary as you transition from Kimura grip to closed guard control?
-**A**: Begin transitioning grips during the roll itself rather than after. As your legs swing around, your top hand releases the wrist grip and reaches for the collar (gi) or behind their head (no-gi). Your bottom hand releases the figure-four and moves to control their sleeve or wrist. The transition should be seamless—there should be no dead time where you have neither Kimura control nor closed guard grips, as this gap allows the opponent to posture and begin immediate guard opening.
-
-**Q5**: What direction should the rolling force be applied relative to your opponent's base?
-**A**: The rolling force should be directed diagonally into and under your opponent's base, pulling them toward your hip on the side of the Kimura grip. This diagonal vector both closes distance (preventing separation) and creates the angular momentum needed for your legs to clear around their waist. Rolling directly sideways creates too much separation, while rolling straight into them stalls against their forward pressure and base.
-
-**Q6**: Your opponent drives forward with heavy crossface pressure as you attempt the roll - how do you respond?
-**A**: Use their forward drive as fuel for the technique by converting the roll into a Rolling Kimura sweep instead, which leverages their forward momentum to come up on top. Alternatively, frame on their crossface shoulder with your free arm to create just enough space for hip rotation, then time the roll to coincide with a surge in their forward pressure. Their own momentum, properly redirected, powers the transition more effectively than your own force.
-
-**Q7**: If the roll is partially blocked and you cannot establish closed guard, what is your fallback chain?
-**A**: If the roll stalls mid-transition, immediately prioritize half guard retention by inserting your knee shield between your bodies and establishing a cross-face frame. From knee shield half guard, you can reattempt the Kimura grip if the opponent's arm remains accessible, transition to butterfly half guard for sweep options, or work standard half guard recovery. The worst outcome is getting stuck mid-roll with no guard structure—always have a positional fallback.
-
-**Q8**: How do you prevent the opponent from capitalizing on the transition window between Kimura release and closed guard establishment?
-**A**: Minimize the transition window by overlapping the grip change with the leg swing—your hands should be moving to closed guard grips while your legs are still completing the wrap. Keep your chest pressed tight against their torso throughout the roll to deny space for posturing. The moment your ankles cross, immediately pull your heels into their lower back and squeeze your knees to break their posture before they can orient to the new position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kimura Counter via Roll?</p>
 
 The Kimura Counter via Roll involves rapid rotational movement that can stress the neck, shoulders, and spine. During the grip transition phase, the shoulder joint remains under residual Kimura pressure and sudden movement can cause injury if the grip is not released smoothly. Always practice at controlled speed before attempting in live sparring. Communicate with training partners before drilling to prevent unexpected rolls that could cause collision injuries. If you experience sharp pain in the shoulder or neck during execution, stop immediately and assess before continuing. Partners should avoid resisting with rigid, locked-out arms during the Kimura phase, as the rolling motion can amplify joint pressure unpredictably.
 

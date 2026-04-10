@@ -39,7 +39,7 @@ What makes this finish particularly effective from Carni is the element of surpr
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 65% |
+| Success | [[Transitions/Kneebar]] | 65% |
 | Failure | [[Positions/Rubber Guard/Carni]] | 25% |
 | Counter | [[Positions/Half Guard]] | 10% |
 
@@ -198,13 +198,11 @@ The Kneebar Finish integrates into the Carni attack system as the complementary 
 
 - [[Positions/Kneebar Control]] - Control position if unable to finish immediately, maintains submission threat
 
-- [[Transitions/Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar hyperextension
+- [[Submissions/Calf Slicer]] - Chain attack when opponent bends knee to defend the kneebar hyperextension
 
 - [[Positions/Ashi Garami]] - Parent leg entanglement system from which Carni derives
 
 - [[Positions/Ashi Garami/Saddle]] - Alternative control position accessible from Carni when heel hook is defended
-
-- [[Positions/Game Over]] - Terminal state reached upon successful kneebar tap
 
 - [[Positions/Half Guard]] - Common recovery position for defender after successful counter-escape
 

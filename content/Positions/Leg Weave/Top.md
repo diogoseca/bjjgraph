@@ -165,6 +165,8 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Weave (Top)?</p>
+
 - Top player's lead leg is threaded between bottom player's legs, creating a weaving pattern that disrupts defensive leg positioning and prevents the bottom player from establishing effective guard retention frames
 - Upper body control maintained through grips on the opponent's collar, sleeves, or underhooks, with the top player's chest pressure directed toward the bottom player's upper body to prevent them from sitting up or creating distance
 - Bottom player on their back or side with limited ability to establish butterfly hooks, knee shield, or other leg-based defensive structures due to the top player's leg positioning disrupting their base and frame
@@ -178,6 +180,8 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Leg Weave (Top)?</p>
+
 - Initial guard engagement from standing or combat base position
 - Successful opening of closed guard or engagement with open guard variations
 - Control of at least one upper body grip (collar, sleeve, or underhook)
@@ -190,6 +194,8 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Leg Weave?</p>
 
 - Thread the lead leg deep between opponent's legs while maintaining upper body connection and forward pressure
 - Keep hips low and driving forward to prevent bottom player from creating space or recovering guard
@@ -205,6 +211,8 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Leg Weave (Top)?</p>
 
 **If opponent attempts to create frames with arms or recover knee shield position:**
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
@@ -233,6 +241,8 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Leg Weave?</p>
 
 ### 1. Threading leg too shallow between opponent's legs without deep penetration
 
@@ -267,6 +277,8 @@ The Leg Weave Top Position is an advanced guard passing control where the top pl
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Leg Weave attacks?</p>
+
 ### Leg Weave Threading Drill
 
 Partner in open guard, practice threading your lead leg between their legs while maintaining upper body control. Focus on depth of penetration and maintaining forward pressure. Partner provides 50% resistance. 5 repetitions each side.
@@ -299,38 +311,6 @@ Bottom player attempts specific escapes (knee shield recovery, deep half entry, 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent begins bridging explosively while you're in leg weave - what adjustment prevents them from creating space?
-**A**: Drop your weight immediately by lowering your hips and driving your chest into their shoulder. Maintain your weaved leg deep and use your far hand to post on the mat for stability. The key is anticipating the bridge and settling your weight before they generate momentum, not reacting after they've already created space.
-
-**Q2**: What are the essential grips for maintaining leg weave control against an active opponent?
-**A**: The primary grips are collar control with your crossface-side hand to prevent them sitting up, and far hip or pants grip to control their rotation. In no-gi, underhook on the near side combined with head pressure replaces collar control. The weaved leg itself becomes a third point of control, pinning their bottom leg while your grips manage upper body movement.
-
-**Q3**: How do you shut down the primary escape when opponent attempts to recover knee shield?
-**A**: As they try to insert their knee, drive your weaved leg deeper while simultaneously increasing chest pressure toward their head. Use your far hand to block their knee from coming inside by posting on their thigh. The key is recognizing the attempt early and smothering it before their knee gets between your bodies - once the shield is half-established, you must address it rather than forcing through.
-
-**Q4**: What grip priorities should you maintain when the opponent actively fights your controls?
-**A**: First priority is maintaining the weave depth - if your leg comes out, the position is lost. Second priority is upper body control to prevent sitting up, whether through collar, underhook, or crossface. Third is far hip control to prevent rotation. If forced to choose, keep the weave and reestablish upper body control through pressure rather than abandoning leg position for grips.
-
-**Q5**: How should you apply pressure in leg weave without exhausting yourself?
-**A**: Pressure comes from structural positioning, not muscle tension. Keep your hips low and let gravity do the work by relaxing into the position rather than actively pushing. Your chest pressure should come from body position with your shoulder driving into their chest. Use your weaved leg like an anchor point and distribute weight across chest, shoulder, and leg rather than holding yourself up with arms.
-
-**Q6**: Your opponent starts turning away to attempt turtle - what movement pattern should you follow?
-**A**: Immediately begin circling toward their back while maintaining your weave. As they turn, your weaved leg becomes a hook that prevents them from completing the turtle. Simultaneously transition your upper body grips to establish seat belt control. The key is following their rotation rather than trying to stop it - their turn actually accelerates your back take if you maintain connection and circle with them.
-
-**Q7**: How do you manage energy during extended leg weave sequences against a defensive opponent?
-**A**: Settle your weight and establish control points rather than constantly driving. Create waves of pressure followed by brief consolidation periods. Let the opponent carry your weight while you use the position to rest. Make them work to escape by maintaining threatening position without constant exertion. When you do attack, use explosive bursts on single passing attempts rather than sustained grinding pressure.
-
-**Q8**: Your opponent partially escapes and gets their knee shield halfway established - how do you recover full leg weave control?
-**A**: Rather than fighting directly against their inserted knee, angle your hips and drive your shoulder into the knee shield to collapse it. Use your far hand to control their bottom leg and prevent them from establishing full shield. Sometimes the best recovery is accepting the partial loss and transitioning to a complementary pass like knee slice that uses their shield position against them rather than forcing back to pure leg weave.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

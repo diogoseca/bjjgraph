@@ -14,7 +14,7 @@
   "from_position": "Inside Sankaku/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Inside Heel Hook",
       "probability": 50,
       "result": "success"
     },
@@ -71,7 +71,7 @@
       "relationship": "Same submission from the alternative name position"
     },
     {
-      "name": "Inside Sankaku Heel Hook Finish",
+      "name": "Inside Heel Hook",
       "relationship": "Submission finish page for this technique"
     },
     {
@@ -400,7 +400,7 @@
         "description": "Partner attempts to expose and grip the heel at moderate intensity while you maintain the hidden heel position. Practice the physical mechanics of pressing your heel against your hip, turning toes inward, and using your hand to assist heel protection. Build the muscle memory so heel hiding becomes automatic upon entering any leg entanglement."
       },
       {
-        "phase": "Phase 3: Active Grip Fighting",
+        "phase": "Phase 3: Active Grips",
         "focus": "Developing two-on-one grip strip technique",
         "description": "Partner establishes initial grip contact and you practice stripping it with two-on-one defense. Progress from slow and cooperative to moderate resistance. Learn to immediately re-hide the heel after each successful grip strip. Develop the ability to chain multiple grip defense rounds without losing composure or positional awareness."
       },

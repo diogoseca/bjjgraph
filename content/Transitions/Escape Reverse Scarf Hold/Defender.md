@@ -146,6 +146,8 @@ Defending against the hip escape from Reverse Scarf Hold requires the top player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Reverse Scarf Hold?</p>
+
 - Bottom player begins establishing a far-side forearm frame against your hip, lower back, or shoulder, creating structural space for shrimping
 - Bottom player rotates their hips and shoulders to turn from flat on their back onto their side, indicating shrimping preparation
 - Bottom player's feet begin walking closer to their hips in preparation for driving hip escape movements
@@ -159,6 +161,8 @@ Defending against the hip escape from Reverse Scarf Hold requires the top player
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Escape Reverse Scarf Hold?</p>
+
 - Maintain constant heavy hip pressure on the opponent's chest to limit their ability to turn onto their side and initiate shrimping mechanics
 - Control the near-side arm aggressively to eliminate the frame establishment that enables the escape sequence
 - Recognize frame placement and hip rotation as the earliest indicators of hip escape preparation
@@ -171,6 +175,8 @@ Defending against the hip escape from Reverse Scarf Hold requires the top player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Reverse Scarf Hold?</p>
 
 ### 1. Drive hip weight lower and collapse the far-side frame by turning into the framing arm
 
@@ -208,6 +214,8 @@ Defending against the hip escape from Reverse Scarf Hold requires the top player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Reverse Scarf Hold?</p>
+
 ### → [[Positions/Side Control/Reverse Scarf Hold]]
 
 Collapse the opponent's far-side frame before they can turn onto their side by driving your hip weight into the frame and turning your body to crush it. Re-settle full chest pressure and re-secure arm control before they can chain into a bridge escape. Use the windows between their shrimps to re-establish pressure.
@@ -223,6 +231,8 @@ When the opponent's hip escapes create lateral space, use that space to step you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Reverse Scarf Hold?</p>
 
 ### 1. Allowing the bottom player to turn onto their side without resistance
 
@@ -252,6 +262,8 @@ When the opponent's hip escapes create lateral space, use that space to step you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Reverse Scarf Hold?</p>
+
 **Phase 1: Frame Recognition and Collapse** - Identifying and neutralizing frame attempts before they generate escape space
 Partner attempts to establish far-side frames at 30% intensity. Practice feeling frame establishment through chest contact and immediately collapsing the frame by turning your body into it or driving hip weight down. Focus on recognizing frames through tactile feedback rather than visual monitoring.
 
@@ -268,23 +280,6 @@ Full resistance rounds starting in reverse scarf hold. Defend against the oppone
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing a hip escape from reverse scarf hold bottom?
-**A**: The earliest cues are the establishment of a far-side forearm frame against your hip or lower back, and the beginning of hip rotation as they attempt to turn from flat onto their side. You can feel the frame through pressure against your hip area, and the hip rotation manifests as a shift in the chest contact pattern. Secondary cues include the opponent walking their feet closer to their hips and their far-side elbow angling outward to establish structural support. Recognizing these early allows you to collapse the frame and drive the opponent flat before the shrimping sequence begins.
-
-**Q2**: Your opponent has successfully turned onto their side and executed two shrimps creating visible space - should you fight to maintain reverse scarf hold or transition?
-**A**: Transition rather than fight. Once the opponent has achieved side positioning and completed multiple successful shrimps, the reverse scarf hold is significantly compromised. Attempting to resettle the pin requires fighting against their established frames and accumulated space, which is energy-intensive with low success probability. Instead, use the space they created to step over into mount, converting their escape effort into your positional advancement. The mount provides superior control, submission opportunities, and four points, making it a better outcome than an uncertain fight to restore a compromised reverse scarf hold.
-
-**Q3**: How does the defensive response to a hip escape differ from the response to a bridge escape from reverse scarf hold?
-**A**: Against a bridge escape, the primary defense is wide base and low hips to absorb explosive upward force, with the option to ride bridge momentum to mount. Against a hip escape, the primary defense is preventing the opponent from turning onto their side and collapsing their frames before shrimping generates meaningful distance. Bridge defense is reactive to a sudden explosive movement, while hip escape defense must be proactive against an incremental process. The bridge requires instant base adjustment; the hip escape requires constant pressure maintenance and frame awareness. Understanding this difference prevents applying the wrong counter to each escape type.
-
-
-
-</section>
 
 
 </main>

@@ -11,7 +11,7 @@
     "timing",
     "position recovery"
   ],
-  "from_position": "Open Guard/Top",
+  "from_position": "Estima Lock Control/Bottom",
   "outcomes": [
     {
       "to": "Side Control/Top",
@@ -24,7 +24,7 @@
       "result": "failure"
     },
     {
-      "to": "Scramble Position/Bottom",
+      "to": "Turtle/Bottom",
       "probability": 15,
       "result": "counter"
     }
@@ -77,7 +77,7 @@
       "relationship": "Starting position for many sweep attempts you must defend"
     },
     {
-      "name": "Scramble Position",
+      "name": "Turtle",
       "relationship": "Common result when counter sweep creates chaotic exchange"
     }
   ],
@@ -151,7 +151,7 @@
         "counter": "Opponent transitions to submission attempt when sweep is stuffed",
         "effectiveness": "Medium",
         "your_response": "Maintain proper posture and arm positioning even while defending sweep. Keep elbows tight and do not post hands in dangerous positions near their hips or legs.",
-        "targets_outcome": "Scramble Position/Bottom"
+        "targets_outcome": "Turtle/Bottom"
       },
       {
         "counter": "Opponent uses your counter-pressure to facilitate guard retention or reguard",
@@ -163,7 +163,7 @@
         "counter": "Opponent baits counter-sweep to create scramble situation favoring their athleticism",
         "effectiveness": "Low",
         "your_response": "Recognize when opponent is inviting scramble and choose to control position methodically instead of engaging in chaotic exchanges.",
-        "targets_outcome": "Scramble Position/Bottom"
+        "targets_outcome": "Turtle/Bottom"
       }
     ],
     "common_errors": [
@@ -311,7 +311,7 @@
       {
         "action": "Create scramble by inverting, granby rolling, or explosively disengaging to prevent the top player from establishing a controlled pass",
         "when_to_use": "When the top player has already begun passing and a clean reguard is not possible, making a scramble the best available option",
-        "targets_outcome": "Scramble Position/Bottom",
+        "targets_outcome": "Turtle/Bottom",
         "if_successful": "Prevent the clean guard pass and create a chaotic exchange where you can compete for position on more equal terms",
         "risk": "Scrambles favor the more athletic and explosive practitioner, and energy expenditure is high with uncertain positional outcome"
       }
@@ -322,8 +322,8 @@
         "how": "Abandon the failed sweep early, retract your legs to reinsert feet on hips or establish shin frames, re-grip their sleeves or collar, and reset to a neutral open guard before they can initiate a passing sequence. The key is speed of recognition - the earlier you identify sweep failure, the more time you have to rebuild guard structure."
       },
       {
-        "outcome": "Scramble Position/Bottom",
-        "how": "When clean reguard is impossible because the top player is already advancing, use explosive hip movement (granby roll, inversion, or technical stand-up) to disrupt their passing trajectory and create a dynamic exchange. Focus on preventing them from establishing chest-to-chest contact or crossface control during the scramble."
+        "outcome": "Turtle/Bottom",
+        "how": "When clean reguard is impossible because the top player is already advancing, use explosive hip movement (granby roll, inversion, or technical stand-up) to disrupt their passing trajectory and create a dynamic exchange. Focus on preventing them from establishing chest-to-chest contact or crossface control during the transition."
       }
     ],
     "common_errors": [

@@ -169,6 +169,8 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ## Position Definition
 
+<p class="section-subtitle">What is Reverse Mount (Top)?</p>
+
 - Top practitioner sits on opponent's torso/chest with hips positioned on sternum or upper abdomen, weight distributed through buttocks and lower back onto opponent's ribcage, facing away from opponent's head toward their feet
 - Both knees on the mat on either side of opponent's torso, with feet positioned near or past opponent's shoulders, creating wide base for balance despite backward orientation
 - Opponent flat on their back with shoulders against mat, facing upward toward ceiling with top practitioner's back blocking their view and limiting upper body movement
@@ -180,6 +182,8 @@ The position's main strategic value is as a stepping stone rather than a destina
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Reverse Mount (Top)?</p>
 
 - Opponent must be on their back with shoulders to the mat
 - Top practitioner must have achieved mount orientation (sitting on torso) facing away from head
@@ -194,8 +198,10 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Reverse Mount?</p>
+
 - Transitional Recognition: Understanding this position is temporary and should convert quickly to standard mount or back control
-- Weight Distribution: Proper weight through buttocks onto chest prevents bridging escapes despite backward orientation
+- Center of Gravity: Proper weight through buttocks onto chest prevents bridging escapes despite backward orientation
 - Balance Through Core: Core engagement maintains balance while facing away from opponent's center of mass
 - Quick Transition Mindset: Mental preparedness to flow immediately to superior positions rather than forcing reverse mount control
 - Opportunistic Submissions: Recognizing brief submission windows without over-committing to attacks from unstable position
@@ -208,6 +214,8 @@ The position's main strategic value is as a stepping stone rather than a destina
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Reverse Mount (Top)?</p>
 
 **If opponent is relatively flat and not actively defending, assess back control opportunity:**
 - Execute **[[Transitions/Back Take/Attacker|Back Take]]** → [[Positions/Back Control]] (Probability: 65%)
@@ -236,6 +244,8 @@ The position's main strategic value is as a stepping stone rather than a destina
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Reverse Mount?</p>
 
 ### 1. Attempting to Maintain Reverse Mount Long-Term
 
@@ -275,6 +285,8 @@ The position's main strategic value is as a stepping stone rather than a destina
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Reverse Mount attacks?</p>
+
 ### Reverse Mount to Standard Mount Flow Drill
 
 Partner starts flat on back. Practitioner sits in reverse mount and practices smooth 180-degree rotation to standard mount, focusing on maintaining weight and connection throughout turn. Practice both directions (spinning over each shoulder). Emphasize keeping knees wide and weight heavy during transition.
@@ -307,38 +319,6 @@ Start from various scramble positions (failed back take, turtle transitions, mou
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important principle when finding yourself in reverse mount top position?
-**A**: Recognize that reverse mount is a transitional position and must be converted quickly to either standard mount or back control within 3-5 seconds. Attempting to maintain reverse mount long-term leads to progressively decreasing stability and increasing escape probability for the opponent.
-
-**Q2**: How should you distribute your weight to maintain control in reverse mount despite the backward orientation?
-**A**: Keep hips heavy and sink your weight directly onto the opponent's sternum or upper abdomen through your buttocks and lower back. Maintain forward lean with core engagement to eliminate space between your lower body and their chest. The weight should feel oppressive to the bottom player even without head control.
-
-**Q3**: Your opponent starts bridging strongly while you're in reverse mount - what adjustment do you make?
-**A**: Ride the bridge by maintaining heavy hips and wide knee base while using your posted hands for balance. As they land from the bridge, immediately initiate your transition to standard mount by spinning toward their head, using their exhausted moment post-bridge as your window for smooth conversion.
-
-**Q4**: What are the essential base requirements for maintaining stability in reverse mount?
-**A**: Keep knees wide and positioned outside opponent's ribcage to create a broad base similar to standard mount but adjusted for backward orientation. Feet should be positioned near or past opponent's shoulders. At least one hand should be posted on the mat at all times for balance support and to sense opponent's movement.
-
-**Q5**: When does reverse mount naturally occur during rolling, and how should you respond upon recognizing it?
-**A**: Reverse mount typically occurs during scrambles, failed back take attempts, or when opponents turn away during standard mount control. Upon recognition, immediately assess whether back control (inserting hooks from the reverse position) or standard mount (180-degree rotation) is the better option based on opponent's body position and defensive posture.
-
-**Q6**: Your opponent turns to their side attempting a hip escape from reverse mount - how do you capitalize?
-**A**: Their turn exposes their back, creating an excellent opportunity for back take. Insert your first hook on the side they're turning toward, establish seat belt control, and follow with your second hook to secure full back control. This is often a higher-percentage transition than forcing them flat for standard mount.
-
-**Q7**: Why is over-committing to submissions from reverse mount considered a critical error?
-**A**: Reverse mount is inherently unstable and submission attempts require committing your base and control to the attack. Over-committing often results in complete position loss as the opponent escapes during the submission attempt. Standard mount and back control offer far superior submission platforms, so prioritize transitioning to these positions rather than forcing low-percentage attacks from reverse mount.
-
-**Q8**: How do you manage energy expenditure when controlling from reverse mount?
-**A**: Minimize energy expenditure by keeping transitions brief - make your decision within 3-5 seconds and execute smoothly. Use structural control through proper knee and hip positioning rather than muscular effort. Relying on proprioception rather than constantly looking backward reduces tension and conserves energy. The goal is efficient flow to a superior position, not prolonged battle for unstable control.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

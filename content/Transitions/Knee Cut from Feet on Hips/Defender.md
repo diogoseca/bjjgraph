@@ -154,6 +154,8 @@ As the defender against the knee cut from feet on hips, your primary objective i
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Cut from Feet on Hips?</p>
+
 - Top player secures pants grips at both knees and begins compressing your legs toward their centerline, reducing your pushing power
 - Top player shifts their weight laterally and angles their hip toward the gap between your legs, creating the line for the knee cut entry
 - Top player pushes one of your knees toward the mat while their corresponding knee drops toward the space between your legs
@@ -165,6 +167,8 @@ As the defender against the knee cut from feet on hips, your primary objective i
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Cut from Feet on Hips?</p>
 
 - Fight grips immediately when the top player reaches for your knees—preventing bilateral pants grips eliminates the foundation for the entire knee cut sequence
 - Maintain constant hip mobility and micro-adjustments to prevent the passer from settling into a stable base for the frame break
@@ -179,6 +183,8 @@ As the defender against the knee cut from feet on hips, your primary objective i
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Cut from Feet on Hips?</p>
 
 ### 1. Re-establish foot frame on hip before knee enters gap
 
@@ -216,6 +222,8 @@ As the defender against the knee cut from feet on hips, your primary objective i
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Cut from Feet on Hips?</p>
+
 ### → [[Positions/Feet on Hips Guard]]
 
 React immediately when the first foot is cleared by retracting your hip and re-posting your foot on the passer's hip bone before their knee enters the gap. Fight their grip on your knee by circling your leg and re-establishing the pushing frame while your opposite foot maintains pressure.
@@ -235,6 +243,8 @@ When the passer's weight commits forward and their hips drop during the knee cut
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Cut from Feet on Hips?</p>
 
 ### 1. Allowing bilateral pants grips at the knees without grip fighting
 
@@ -264,6 +274,8 @@ When the passer's weight commits forward and their hips drop during the knee cut
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Cut from Feet on Hips?</p>
+
 **Phase 1: Recognition and Early Grip Defense** - Identifying knee cut setup cues and fighting bilateral knee grips
 Partner establishes feet on hips top position and works to secure pants grips at the knees. Bottom player practices stripping grips, fighting for wrist control, and recognizing when the frame break is being initiated. Focus on preventing the passing foundation from being established rather than defending the pass itself.
 
@@ -280,26 +292,6 @@ Full positional sparring starting from feet on hips bottom. Top player attempts 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a knee cut is being attempted from feet on hips?
-**A**: The earliest cue is when the top player secures bilateral pants grips at both of your knees and begins compressing your legs toward their centerline. This grip establishment is the foundation for all knee cut attempts from feet on hips—without these grips, the passer cannot effectively clear your frames. Recognizing this grip fight as the beginning of the passing sequence gives you the maximum time window to strip grips, fight for wrist control, or preemptively transition to a more controlling guard.
-
-**Q2**: Your opponent has broken one foot off their hip and is stepping their knee through—what is your highest-percentage defense?
-**A**: Your highest-percentage defense at this stage is inserting a De La Riva hook on the cutting leg as it steps forward. Thread your near-side foot behind their knee before the knee crosses your thigh line, simultaneously gripping their far-side sleeve or ankle to prevent them from clearing the hook. This converts their forward stepping motion into vulnerability by entangling their base leg. If the DLR hook is not available due to angle, hip escape laterally and insert a knee shield to catch half guard with frames rather than being flattened.
-
-**Q3**: How does your hip positioning affect your ability to defend the knee cut from feet on hips?
-**A**: Hip positioning is the single most critical factor in knee cut defense. Elevated, mobile hips allow you to hip escape laterally, create angles that extend the cutting distance, and transition between guard configurations as needed. Flat, static hips provide the passer with a stable target and eliminate your ability to redirect the pass or insert hooks. When a frame is cleared, immediately hip escape away from the cleared side—this single adjustment can double the distance the cutting knee must travel and opens windows for guard transitions that stationary hips cannot access.
-
-**Q4**: Why is transitioning to a different guard often more effective than trying to re-establish feet on hips after a frame is broken?
-**A**: Re-establishing the same frame requires fighting against the passer's established grip and forward momentum, which means you are working against their prepared position rather than creating a new defensive problem. Transitioning to De La Riva, closed guard, or knee shield changes the defensive dynamic entirely, forcing the passer to abandon their current passing sequence and address a new guard structure they may not have a prepared response for. Guard transitions also capitalize on the passer's forward commitment during the knee cut, using their momentum against them rather than directly opposing it.
-
-
-
-</section>
 
 
 </main>

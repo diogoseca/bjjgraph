@@ -154,6 +154,8 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Butterfly Half Guard Sweep?</p>
+
 - Opponent adjusts hip angle to approximately 45 degrees relative to your centerline, creating the diagonal sweep trajectory
 - Opponent fights aggressively for an underhook on the butterfly side, attempting to thread their arm deep under your armpit
 - Butterfly hook pressure increases significantly with active upward driving through opponent's foot beneath your thigh
@@ -166,6 +168,8 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Half Guard Sweep?</p>
 
 - Deny the underhook on the butterfly side through active hand fighting and whizzer control to remove upper body pulling power
 - Keep hips low and heavy to prevent butterfly hook elevation from generating meaningful upward force against your base
@@ -180,6 +184,8 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Butterfly Half Guard Sweep?</p>
 
 ### 1. Sprawl hips back and apply heavy crossface to flatten opponent's posture
 
@@ -217,6 +223,8 @@ Defending the Butterfly Half Guard Sweep requires the top player to recognize th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Butterfly Half Guard Sweep?</p>
+
 ### → [[Positions/Half Guard/Butterfly Half Guard]]
 
 Sprawl hips back immediately when you feel elevation pressure, apply heavy crossface to flatten opponent's posture, and strip their underhook to remove sweeping leverage. The sweep fails and you maintain top position with opportunity to initiate passing.
@@ -232,6 +240,8 @@ Use the opponent's committed sweep attempt as an opportunity to advance position
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Half Guard Sweep?</p>
 
 ### 1. Driving forward with heavy pressure directly into an active and loaded butterfly hook
 
@@ -261,6 +271,8 @@ Use the opponent's committed sweep attempt as an opportunity to advance position
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Butterfly Half Guard Sweep?</p>
+
 **Phase 1: Recognition Training** - Identifying sweep setup cues early
 Partner establishes butterfly half guard and slowly sets up the sweep at reduced speed. Focus on recognizing hip angle changes, underhook attempts, and increased hook pressure before the sweep is initiated. Develop tactile sensitivity to loading.
 
@@ -277,26 +289,6 @@ Positional sparring starting in top butterfly half guard against full resistance
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up the butterfly half guard sweep?
-**A**: The earliest cue is their hip angle adjustment to approximately 45 degrees relative to your centerline combined with aggressive underhook fighting on the butterfly side. This angling creates the diagonal sweep trajectory before any elevation begins. Recognizing this early allows you to initiate defensive measures like whizzering the underhook or sprawling hips back before the opponent can load your weight over the hook.
-
-**Q2**: Why does posting your hand on the mat create vulnerability even though it prevents the immediate sweep?
-**A**: While the hand post creates an emergency base that stops the butterfly sweep in one direction, it commits your weight to one side and occupies one of your arms. This creates openings for the opponent to switch to the 100% sweep or old school sweep, which specifically target the side you are now unable to defend because your arm is posted. The hand post is a short-term emergency fix that creates a different long-term problem requiring immediate follow-up action.
-
-**Q3**: Your opponent begins the sweep with a coordinated hook drive and underhook pull - what is your immediate response?
-**A**: Immediately sprawl your hips back hard while posting your far hand wide on the mat for emergency base. Simultaneously drive your shoulder into their chest to break their seated posture and collapse their structure. Do not try to resist the elevation force directly by staying rigid. If the sweep is already past the tipping point, go with the motion and immediately work to establish guard recovery rather than fighting a lost position from a compromised angle.
-
-**Q4**: How should you manage weight distribution when your opponent has an established butterfly half guard with active hook?
-**A**: Keep your hips low and heavy with weight distributed diagonally away from the butterfly hook side. Your near hip should be pressed into their body while your far leg provides a wide base post. Avoid committing your center of gravity forward over the butterfly hook, as this is exactly the loading condition the opponent needs for the sweep. Think of your weight distribution as a tripod with two points of contact through your body and one through your posted free leg.
-
-
-
-</section>
 
 
 </main>

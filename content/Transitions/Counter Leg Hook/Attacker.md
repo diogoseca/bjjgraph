@@ -188,6 +188,8 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Counter Leg Hook?</p>
+
 - Time the counter to coincide with the top player's weight commitment during pass advancement
 - Maintain at least one frame against the top player's upper body throughout the entire counter movement
 - Move perpendicular to the direction of the top player's pressure rather than directly against it
@@ -202,6 +204,8 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Counter Leg Hook?</p>
+
 - At least one functional frame established against top player's chest, shoulder, or neck
 - Bottom hip not completely flattened to the mat, retaining some mobility for shrimping
 - Top player's weight committed in a specific direction, creating a counter-movement window
@@ -214,6 +218,8 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Counter Leg Hook step by step?</p>
 
 1. **Assess weight distribution**: Read the top player's weight commitment and identify which direction their pressure is driving. This determines whether you counter toward turtle or attempt guard recovery. Look for moments when they shift weight forward to advance the pass or laterally to consolidate the hook.
 2. **Establish defensive frames**: Create or reinforce frames against the top player's upper body using forearms on their chest, shoulder, or neck. These frames serve dual purpose: preventing them from flattening you completely and creating the initial space needed to begin the counter movement. Frame with structural alignment, not muscular effort.
@@ -244,6 +250,8 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Counter Leg Hook?</p>
+
 - **Top player follows the hip escape and re-establishes the hook before turtle is reached** (Effectiveness: High) - Your Response: Chain immediately into a second hip escape in the opposite direction or transition to deep half guard entry using their forward momentum → Leads to [[Positions/Leg Hook]]
 - **Top player drops weight and sprawls to prevent the turn to turtle** (Effectiveness: Medium) - Your Response: Use the sprawl pressure as an opportunity to scoot hips away and re-insert a knee shield or butterfly hook for half guard recovery instead → Leads to [[Positions/Half Guard]]
 - **Top player transitions to side control during the turning movement** (Effectiveness: High) - Your Response: If they achieve side control, immediately begin framing and hip escape sequences rather than trying to return to half guard; accept the position change and work escapes → Leads to [[Positions/Side Control]]
@@ -255,6 +263,8 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Counter Leg Hook?</p>
 
 ### 1. Attempting to turn to turtle before stripping or loosening the leg hook
 
@@ -294,6 +304,8 @@ As the attacker executing the Counter Leg Hook, you are the bottom player active
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Counter Leg Hook (Attacker)?</p>
+
 **Phase 1: Hook Stripping Mechanics** - Isolating the hook removal movement
 Partner establishes leg hook from top with moderate tension. Bottom player practices stripping the hook using hip movement, leg extension, and free foot placement. No follow-up transition yet - focus purely on the mechanics of neutralizing the hook efficiently. Work 20 repetitions each side with increasing hook tension.
 
@@ -314,42 +326,12 @@ Start from half guard with top player working to establish leg hook. Bottom play
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Counter Leg Hook?
-**A**: The optimal window occurs when the top player commits their weight forward to advance the pass or shifts laterally to consolidate the hook. During these transitional moments, their base is temporarily compromised and they cannot quickly adjust to your counter-movement. Initiating the counter while the top player is settled and balanced dramatically reduces success probability.
-
-**Q2**: Why must the hook be stripped or loosened before turning to turtle?
-**A**: If you turn to turtle with the hook still engaged, the top player maintains leg control that directly feeds into back control establishment. The engaged hook acts as a built-in first hook for back takes, meaning you arrive in turtle already halfway to conceding back control. Stripping the hook first ensures you reach turtle in a neutral defensive position rather than an already compromised one.
-
-**Q3**: Your opponent sprawls heavy when you attempt to turn to turtle - how do you adjust?
-**A**: Use the sprawl pressure as an opportunity to redirect to guard recovery instead. Their sprawl creates downward pressure but reduces their lateral mobility. Scoot your hips away from their pressure while they are sprawled heavy and re-insert a knee shield or butterfly hook. The sprawl actually helps create the separation needed for guard re-insertion if you redirect your movement accordingly.
-
-**Q4**: What is the critical mechanical detail that makes the hip escape effective during this counter?
-**A**: The hip escape must be directed perpendicular to the top player's pressure line, not directly away from them. Moving perpendicular exploits the fact that their weight is committed in a specific direction, making lateral redirection difficult for them to follow. The bottom foot drives the escape while the frame against their upper body prevents them from collapsing the space you create.
-
-**Q5**: What grip configuration should you fight to strip before initiating the counter?
-**A**: Prioritize stripping the crossface grip first, as it controls your head and upper body orientation, making turning movements extremely difficult. Secondary priority is any grip controlling your near hip, which prevents the hip escape needed for the counter. Use two-on-one grip fighting to strip the priority grip, then immediately initiate the counter before they can re-establish control.
-
-**Q6**: How do you decide between turtling and attempting guard recovery during the counter?
-**A**: The decision depends on available space and the top player's upper body proximity after the hip escape. If you create enough space to get your knee between your bodies, attempt guard recovery with a knee shield or butterfly hook. If the top player stays tight to your upper body despite losing the hook, turtle is the safer option because attempting guard insertion while they maintain chest pressure often results in worse position.
-
-**Q7**: Your counter attempt fails and the opponent re-establishes the hook - what is the chain attack?
-**A**: Immediately chain into a second counter attempt in the opposite direction, using their forward momentum from re-establishing the hook against them. Alternatively, if the hook is deeper than before, abandon the counter and transition to a deep half guard entry by threading underneath their base. The key is never settling back into a static leg hook bottom position after a failed counter.
-
-**Q8**: What role do frames play throughout the entire counter sequence?
-**A**: Frames serve as the structural foundation for every phase of the counter. Before the counter, they prevent flattening and create initial space. During hook stripping, they prevent the top player from following your hip movement. During the turn, they create the separation needed to complete the position change. After reaching turtle or guard, they prevent the top player from immediately re-establishing dominant control. Losing frame contact at any point typically results in counter failure.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Counter Leg Hook?</p>
 
 The Counter Leg Hook is generally a low-risk defensive technique with minimal injury potential. The primary safety concern is neck strain when turning to turtle, particularly if the top player maintains a crossface or headlock during the turn. Ensure the neck is protected by tucking the chin before initiating any turning movement. Avoid explosive bridging movements that could strain the lower back, particularly when the hook restricts hip mobility. In training, communicate with partners about the intensity of hook pressure to avoid knee or ankle strain during the stripping phase.
 

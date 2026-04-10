@@ -170,6 +170,8 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Rear Triangle Choke Finish?</p>
+
 - Opponent begins walking their hips toward your trapped arm side, signaling they are optimizing the choke angle
 - Increased knee compression and medial squeeze pressure around your neck and trapped arm indicating active finishing attempt
 - Opponent's hands release grip control on your arm to reposition for head control or posture breaking, signaling transition to finish phase
@@ -182,6 +184,8 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rear Triangle Choke Finish?</p>
 
 - Protect carotid arteries immediately by tucking chin to chest and turning face toward the non-choking leg side to reduce compression effectiveness
 - Prioritize trapped arm extraction as the primary escape pathway—the trapped arm wedge is what makes the triangle choke mechanically effective
@@ -196,6 +200,8 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rear Triangle Choke Finish?</p>
 
 ### 1. Two-hand grip strip on the choking leg ankle to prevent lock tightening and disrupt the angle
 
@@ -233,6 +239,8 @@ Defending the Rear Triangle Choke Finish requires immediate recognition that the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rear Triangle Choke Finish?</p>
+
 ### → [[Positions/Back Control]]
 
 Extract the trapped arm from the triangle by pulling the elbow tight against your ribs and threading the forearm across your centerline during a moment of looseness. Once the arm is free, the triangle structure collapses and the position reverts to standard back control where your escape options are significantly better.
@@ -248,6 +256,8 @@ Prevent the choke from finishing by maintaining chin protection, fighting the ch
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rear Triangle Choke Finish?</p>
 
 ### 1. Attempting to pull the head out of the triangle before extracting the trapped arm
 
@@ -282,6 +292,8 @@ Prevent the choke from finishing by maintaining chin protection, fighting the ch
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rear Triangle Choke Finish?</p>
+
 **Phase 1: Recognition and Survival** - Identifying finishing attempts and maintaining consciousness under pressure
 Partner applies rear triangle at progressive tightness levels while you practice chin tuck, face positioning, and controlled breathing. Focus on recognizing the specific cues that indicate a finishing attempt versus positional maintenance. Build comfort under pressure before adding escape movements.
 
@@ -298,32 +310,6 @@ Positional sparring starting from locked rear triangle with attacker at full int
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first action you should take when you recognize the opponent is initiating the choke finish?
-**A**: Immediately tuck your chin toward your chest and turn your face toward the non-choking leg side to protect your carotid arteries from full compression. Simultaneously establish a grip on the opponent's choking leg ankle or behind their knee with your free hand to prevent them from optimizing their angle. These two actions combined buy the critical seconds needed to mount a meaningful escape attempt.
-
-**Q2**: Why is extracting the trapped arm more important than trying to remove your head from the triangle?
-**A**: The trapped arm acts as a wedge that fills the space between your neck and the opponent's legs, creating the surface that compresses your carotid arteries. Attempting to pull your head out first actually drives your own shoulder deeper into your neck, tightening the choke. By extracting the arm first, you eliminate the mechanical wedge and create space within the triangle loop that allows your head to escape with significantly less force.
-
-**Q3**: Your opponent begins walking their hips toward your trapped arm side - what does this signal and how should you respond?
-**A**: This signals they are optimizing the cutting angle to convert from a compression hold to an efficient blood choke targeting both carotid arteries. You have a narrow window to respond. Use your free hand to grip their choking leg ankle and pull it toward the non-choking side to disrupt their angle. Simultaneously attempt to rotate your body in the opposite direction of their hip walk to reduce the diagonal pressure vector.
-
-**Q4**: How should you manage your breathing when caught in a tightening rear triangle choke?
-**A**: Breathe through your nose using controlled diaphragmatic breathing rather than gasping through your mouth. Panic breathing accelerates oxygen depletion and reduces the mental clarity needed for escape execution. Exhale slowly and fully before inhaling to maximize oxygen exchange with each restricted breath cycle. Mental composure directly determines how long you can maintain consciousness and work your escape sequence effectively.
-
-**Q5**: The opponent releases some pressure to adjust their position - how do you capitalize on this adjustment window?
-**A**: This adjustment window is your primary escape opportunity. Immediately work arm extraction by pulling your trapped elbow tight against your ribs and threading your forearm across your centerline. Simultaneously shrimp your hips away to create distance. If the triangle loosens significantly, attempt to rotate your entire body toward the non-choking leg side. Execute your prepared escape sequence without hesitation—advanced attackers minimize adjustment windows to fractions of a second.
-
-**Q6**: What grip should your free hand prioritize when defending the choke finish and why?
-**A**: Your free hand should grip the opponent's choking leg at the ankle or behind the knee to prevent them from tightening the lock and to create leverage for disrupting their finishing angle. Do not reach behind your head to fight their hands or grab at the locking leg from above, as this wastes your most valuable defensive asset on a mechanically disadvantaged position. The choking leg ankle grip gives you direct mechanical influence over the primary choking mechanism from below.
-
-
-
-</section>
 
 
 </main>

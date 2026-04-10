@@ -166,6 +166,8 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting High Elbow Guillotine Variation?</p>
+
 - Attacker's choking elbow begins rising above their shoulder line while maintaining grip around your neck
 - You feel the attacker hip escaping away from you while pulling your head in the opposite direction, creating diagonal tension
 - The pressure shifts from a straight pull on your throat to an angled compression on the sides of your neck targeting the carotid arteries
@@ -178,6 +180,8 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending High Elbow Guillotine Variation?</p>
 
 - Address posture immediately - every second with broken posture allows the attacker to improve grip depth and elbow angle
 - Fight the choking hand before the elbow elevates, as prevention is far more effective than escaping a locked-in high elbow
@@ -192,6 +196,8 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against High Elbow Guillotine Variation?</p>
 
 ### 1. Posture recovery with stacking pressure - drive your head upward and forward, walking your knees toward the attacker's hips to stack your weight onto their chest
 
@@ -229,6 +235,8 @@ The most reliable defensive framework prioritizes posture first, grip disruption
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending High Elbow Guillotine Variation?</p>
+
 ### → [[Positions/Hindulotine]]
 
 Recover posture by stacking forward and driving your head upward before the attacker completes elbow elevation. Alternatively, fight the grip through aggressive hand fighting and chin tuck to deny wrist blade placement under your jaw. Once the high elbow configuration is disrupted, the attacker returns to standard Hindulotine control where additional escape options exist.
@@ -244,6 +252,8 @@ Execute the Von Flue counter by passing the attacker's guard to the choking arm 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending High Elbow Guillotine Variation?</p>
 
 ### 1. Waiting passively while the attacker adjusts grip and hip angle instead of immediately fighting the position
 
@@ -273,6 +283,8 @@ Execute the Von Flue counter by passing the attacker's guard to the choking arm 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against High Elbow Guillotine Variation?</p>
+
 **Week 1-2** - Recognition and early defense
 Partner establishes Hindulotine and slowly transitions to high elbow position. Practice identifying the recognition cues: elbow rising, hip angle changing, pressure shifting to carotid. Work posture recovery and chin tuck as immediate defensive responses against zero resistance.
 
@@ -289,29 +301,6 @@ Positional sparring starting from Hindulotine with partner actively attacking hi
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical moment to begin your defense against the high elbow transition?
-**A**: The moment you feel the attacker's elbow begin to rise above their shoulder line is the critical window. Before the elbow fully elevates and the hip angle is established, you have multiple viable defensive options. Once both components are in place, the scissoring pressure makes escape extremely difficult. Immediate reaction to the first sign of elbow elevation gives you the highest probability of successful defense.
-
-**Q2**: Your chin is tucked but you feel the attacker walking their grip higher - what adjustment prevents the finish?
-**A**: Use your hands to directly attack the attacker's choking wrist, attempting to strip it downward away from your chin while simultaneously driving your near-side shoulder into the space between your neck and their forearm. Creating even a small wedge with your shoulder bone disrupts the seal needed for carotid compression. Combine this with posture recovery attempts whenever their grip loosens.
-
-**Q3**: Why is stacking dangerous once the high elbow configuration is fully established?
-**A**: When the attacker has fully elevated their elbow and established the diagonal hip angle, driving forward adds your own body weight to the compression on your carotid arteries. The scissoring angle means forward pressure actually tightens the choke rather than relieving it. Stacking is only safe as an early defense before the elbow elevates, when it can prevent the attacker from establishing the finishing angle.
-
-**Q4**: The attacker has the high elbow locked and you feel carotid compression beginning - what is your emergency response?
-**A**: Tap immediately if you feel blood flow restriction to your brain. If you choose to continue defending, your only viable option is to aggressively circle your body away from the choking arm side to collapse the scissoring angle, accepting the risk of back exposure. Simultaneously strip the choking hand with both hands. This is a last-resort defense with low success probability against a properly locked high elbow finish.
-
-**Q5**: How does the Von Flue counter work as a defense and what is the primary risk in attempting it?
-**A**: The Von Flue counter involves passing the attacker's guard to the choking arm side and driving your near-side shoulder into their carotid while they maintain the guillotine grip. Your shoulder pressure creates a counter choke that forces them to release. The primary risk is that passing guard while being choked requires precise timing - if you cannot clear the legs quickly enough, the high elbow finish will cause unconsciousness before your counter takes effect.
-
-
-
-</section>
 
 
 </main>

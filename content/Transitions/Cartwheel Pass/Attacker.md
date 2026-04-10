@@ -186,6 +186,8 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Cartwheel Pass?</p>
+
 - Commit fully to the cartwheel motion - hesitation allows opponent to establish leg hooks
 - Hand placement must be precise, beside opponent's hips, not on their body
 - Maintain visual awareness of opponent's legs throughout the rotation to avoid entanglement
@@ -200,6 +202,8 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Cartwheel Pass?</p>
+
 - Opponent established in inverted guard position with elevated hips and legs
 - Clear space beside opponent's body for hand placement and cartwheel trajectory
 - Opponent's legs committed to one direction, creating passing lane on opposite side
@@ -212,6 +216,8 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Cartwheel Pass step by step?</p>
 
 1. **Establish position**: From standing or combat base facing the inverted guard, assess opponent's leg positioning and identify which side offers the clear passing lane based on where their legs are committed.
 2. **Create angle**: Step laterally toward the identified passing lane, beginning to circle around the edge of opponent's guard structure while maintaining enough distance to avoid leg hooks.
@@ -240,6 +246,8 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Cartwheel Pass?</p>
+
 - **Opponent tracks your movement and rotates their inversion to follow, maintaining leg threat** (Effectiveness: High) - Your Response: Abort the cartwheel and circle back to original side, using their rotation against them by attacking the now-exposed opposite angle → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent extends legs directly at you during cartwheel initiation, catching your hips or legs** (Effectiveness: Medium) - Your Response: Increase cartwheel height and speed to clear the extended legs, or convert to a back step pass if legs catch early → Leads to [[Positions/Grasshopper Guard]]
 - **Opponent posts on hip and technical stands during your aerial transition** (Effectiveness: Medium) - Your Response: Land and immediately transition to front headlock or snap down rather than forcing side control on a recovering opponent → Leads to [[Positions/Grasshopper Guard]]
@@ -251,6 +259,8 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Cartwheel Pass?</p>
 
 ### 1. Hesitating mid-cartwheel or attempting a slow, controlled rotation
 
@@ -285,6 +295,8 @@ Strategically, the Cartwheel Pass functions best as a surprise element within yo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Cartwheel Pass (Attacker)?</p>
+
 **Week 1-2** - Cartwheel mechanics
 Practice cartwheel motion solo without partner to develop comfort with the athletic movement. Focus on hand placement, rotation speed, and controlled landing. Build shoulder stability and spatial awareness required for the technique.
 
@@ -302,48 +314,12 @@ Incorporate into positional sparring from standing against inverted guards. Part
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Cartwheel Pass?
-**A**: The primary goal is to completely bypass the opponent's inverted guard structure by vaulting over their elevated legs, avoiding leg entanglements entirely, and landing directly in side control with immediate pressure before they can reorganize defensively.
-
-**Q2**: What position do you start the Cartwheel Pass from?
-**A**: This technique starts from Grasshopper Guard Top, specifically when facing an opponent who has established an inverted guard position with elevated hips and legs threatening leg entanglements or sweeps.
-
-**Q3**: Where should your hands be placed when initiating the cartwheel?
-**A**: Hands must be planted firmly on the mat beside the opponent's hips, not on their body. This positioning provides stable support for your rotation while keeping your arms free from potential traps and ensuring consistent trajectory through the pass.
-
-**Q4**: Your opponent begins tracking your movement and rotating their inversion to follow - how should you respond?
-**A**: Abort the cartwheel attempt and immediately circle back to your original side. Use their rotation against them by attacking the now-exposed opposite angle, as their commitment to following you has created an opening elsewhere.
-
-**Q5**: When is the optimal timing to attempt the Cartwheel Pass?
-**A**: The optimal timing is when the opponent has committed deeply to their inversion with legs directed away from your intended passing lane. Attempting when they are actively adjusting or have legs extended toward you significantly reduces success and increases counter risk.
-
-**Q6**: What is the consequence of hesitating during the cartwheel rotation?
-**A**: Hesitation gives the opponent time to recognize the pass, adjust their leg positioning, and either catch your hips with hooks or extend legs to intercept your trajectory, pulling you into leg entanglement or setting up a sweep.
-
-**Q7**: How should you land to maximize control after completing the cartwheel?
-**A**: Land with your hip-side knee first, immediately driving chest pressure perpendicular across opponent's torso. Establish crossface and block their far hip simultaneously with landing - consolidation must happen in the same moment as touchdown.
-
-**Q8**: The opponent extends their legs at you during your cartwheel initiation - what adjustment should you make?
-**A**: Increase your cartwheel height and rotation speed to clear the extended legs, maintaining commitment to the pass. Alternatively, if their legs catch you early in the movement, convert immediately to a back step pass rather than forcing the incomplete cartwheel.
-
-**Q9**: What direction of force should you generate during the cartwheel rotation?
-**A**: Force should be lateral and upward, creating an arc that carries your body over and around the opponent's guard structure. The momentum must be sufficient to clear their elevated legs completely while landing close enough to establish immediate pressure.
-
-**Q10**: How does the Cartwheel Pass integrate with other passing techniques against inverted guards?
-**A**: The Cartwheel Pass functions as an athletic surprise element that complements more methodical passes like the back step or leg drag. Its threat forces opponents to respect aerial passes, which creates openings for ground-based passing when they adjust defensively.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Cartwheel Pass?</p>
 
 The Cartwheel Pass carries inherent athletic risk due to its acrobatic nature. Practitioners should develop comfortable cartwheel mechanics through solo drilling before attempting with partners. Ensure adequate mat space and ceiling clearance before practicing. The landing phase requires controlled deceleration to avoid crashing weight onto the opponent's face or ribs - aim to land beside them with pressure spreading gradually. Avoid attempting this pass when fatigued, as compromised coordination increases injury risk for both parties. Partners should communicate clearly, and the receiving player should tap or verbalize if landing pressure is excessive. Practitioners with shoulder, wrist, or neck injuries should avoid this technique until fully recovered.
 

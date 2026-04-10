@@ -194,6 +194,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inside Sankaku Heel Hook?</p>
+
 - Maintain hip-to-hip connection throughout the entire finishing sequence to prevent the defender from creating extraction distance
 - Establish the blade of your wrist against the Achilles tendon before applying any rotational force to maximize mechanical advantage
 - Control the knee line with your legs to prevent defensive rotation that would neutralize the submission angle
@@ -208,6 +210,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inside Sankaku Heel Hook?</p>
+
 - Inside Sankaku figure-four entanglement fully secured with outside leg crossed over inside leg at the opponent's knee joint
 - Hip-to-hip connection confirmed with no significant gap between your hips and the opponent's hips
 - Knee line control established through proper leg positioning that prevents the opponent from rotating their knee past your leg barrier
@@ -220,6 +224,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inside Sankaku Heel Hook step by step?</p>
 
 1. **Verify positional control**: Before initiating the submission, confirm all three control checkpoints: hip-to-hip connection is tight with no gap, your legs maintain the figure-four around the opponent's leg with outside leg crossed over inside leg, and your knee line barrier prevents defensive rotation. Rushing past this verification is the most common cause of failed heel hook attempts.
 2. **Strip heel protection**: The defender will attempt to hide their heel by pressing it against their own hip with toes turned inward. Use your inside hand to cup their ankle from underneath and your outside hand to control their toes, then lever the heel out of the hidden position by rotating their foot to expose the Achilles tendon toward your centerline. Apply steady pressure rather than explosive force to avoid losing grip.
@@ -239,7 +245,7 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 50% |
+| Success | [[Submissions/Inside Heel Hook]] | 50% |
 | Failure | [[Positions/Inside Sankaku]] | 30% |
 | Counter | [[Positions/Ashi Garami/50-50 Guard]] | 20% |
 
@@ -249,6 +255,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 <section id="common-counters" class="content-section">
 
 ## Opponent Counters
+
+<p class="section-subtitle">How might your opponent counter Inside Sankaku Heel Hook?</p>
 
 - **Heel hiding defense where opponent presses heel against their own hip and turns toes inward** (Effectiveness: High) - Your Response: Apply steady hip pressure forward while using your inside leg to elevate their knee slightly, creating tension on their hip flexor that makes maintaining the hidden position exhausting. Alternatively, transition to a toe hold attack that targets the foot regardless of heel positioning. → Leads to [[Positions/Inside Sankaku]]
 - **Grip stripping where opponent uses both hands to peel your wrist away from their Achilles** (Effectiveness: High) - Your Response: Immediately re-grip or switch to the opposite hand configuration. If they commit both hands to grip fighting, their hips and legs are undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible. → Leads to [[Positions/Inside Sankaku]]
@@ -261,6 +269,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inside Sankaku Heel Hook?</p>
 
 ### 1. Cranking the heel hook explosively rather than applying controlled progressive force
 
@@ -300,6 +310,8 @@ From the attacker's perspective, the Inside Sankaku Heel Hook is the highest-per
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inside Sankaku Heel Hook (Attacker)?</p>
+
 **Phase 1: Grip Mechanics** - Developing correct grip placement and two-on-one reinforcement
 Partner allows full Inside Sankaku control with no resistance. Practice placing the wrist blade against the Achilles tendon, establishing two-on-one grip, and tucking the foot into the armpit. Repeat until grip placement is automatic. No force application—focus purely on hand positioning and the feeling of correct alignment.
 
@@ -317,42 +329,12 @@ Full positional sparring starting from established Inside Sankaku. Attacker work
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent is actively hiding their heel by pressing it against their hip—what systematic approach do you use to force exposure?
-**A**: Apply steady forward hip pressure to create tension on their hip flexor, making the hidden position exhausting to maintain. Simultaneously use your inside leg to slightly elevate their knee, which changes the angle and makes heel hiding harder. If they maintain the hide, threaten a toe hold by grabbing their toes—this forces them to address a different submission vector, often momentarily exposing the heel as they adjust their defense. The key is creating a dilemma where defending one threat exposes another.
-
-**Q2**: What is the optimal timing window to transition from positional control to the heel hook submission attempt?
-**A**: The optimal window opens when three conditions align simultaneously: your hip connection is fully established with no gap, the knee line is controlled so the opponent cannot rotate defensively, and either the heel is already exposed or you have a clear path to strip the protection. Additionally, the opponent should be in a reactive rather than proactive defensive mode—meaning they are responding to your pressure rather than executing a pre-planned escape sequence. Attempting the heel hook during an active escape attempt significantly reduces success rates.
-
-**Q3**: Where exactly should your wrist blade be positioned relative to the opponent's heel anatomy for maximum breaking efficiency?
-**A**: The blade (ulnar/pinky side) of your wrist should be positioned directly against the Achilles tendon at the base of the calcaneus (heel bone), sitting in the natural groove between the bottom of the calf muscle and the top of the heel. Your fingers wrap around the heel bone itself from the outside. This placement creates a fulcrum point that transmits rotational force most efficiently to the knee's ligaments. Placement too high on the calf reduces leverage, and too low on the foot shifts force away from the knee.
-
-**Q4**: Your opponent strips your primary grip hand off their heel—what is your immediate response?
-**A**: Immediately re-grip with the same hand from a different angle or switch to the opposite hand as the new primary grip. If they committed both hands to strip your grip, their legs and hips are momentarily undefended—use this window to improve your leg positioning or transition to belly-down where grip stripping becomes nearly impossible due to bodyweight pressure. Never chase a lost grip with the same approach that was just defeated. Change the angle, change the hand, or change the finishing variant.
-
-**Q5**: What critical mechanical detail distinguishes a properly applied inside heel hook from an ineffective one?
-**A**: The critical distinction is rotational alignment perpendicular to the knee's natural bending axis. A properly applied inside heel hook rotates the heel away from the knee in the direction that loads the MCL and ACL—specifically, the heel rotates laterally while the knee is prevented from following. An ineffective attempt applies force along the knee's natural bending plane (flexion/extension) rather than against its rotational resistance. The entanglement must prevent the opponent from rotating their entire body with the force, so knee line control is inseparable from the submission mechanics.
-
-**Q6**: Your opponent begins a rolling escape by dipping their shoulder and loading their hip to rotate—how do you respond?
-**A**: Immediately drive your weight down into the entanglement by pulling their trapped knee tighter to your body with your legs. Use your outside hand to post on the mat or grab their far hip to block the rotation before it develops momentum. If they commit fully to the roll, follow the rolling motion while maintaining your grip—their roll can actually improve your finishing angle as it often transitions the position toward Saddle where you have even tighter control. The key is reading the roll early from the shoulder and hip loading cues rather than reacting after it's initiated.
-
-**Q7**: What grip configuration do you use for the two-on-one reinforcement and why is it superior to a single-hand grip?
-**A**: The two-on-one uses your secondary hand gripping your primary hand's wrist in either a monkey grip or gable grip, doubling effective grip strength at the contact point. This is superior because the heel hook requires maintaining grip against the opponent's entire body rotating defensively, which generates forces that overwhelm any single-hand grip. The reinforcement also creates a rigid structure that transmits rotational force more efficiently from your core to the heel. Without reinforcement, the defender can defeat the submission through simple two-on-one grip fighting against your single gripping hand.
-
-**Q8**: When finishing the heel hook, should the force come primarily from your arms or from a different part of your body?
-**A**: The rotational force should come primarily from your core and back, not your arms. The arms function as transmission cables connecting your core's rotational power to the heel, not as the force generators themselves. The finish is executed by arching your back and rotating your shoulders away from the opponent while your arms maintain a rigid, tight connection. Arms fatigue rapidly under load and generate significantly less force than the core musculature. Keeping elbows tight to the body ensures efficient force transfer from the larger muscle groups through to the submission point.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inside Sankaku Heel Hook?</p>
 
 The inside heel hook is among the most dangerous techniques in grappling, targeting the MCL, ACL, and meniscus through rotational force that can cause catastrophic, career-ending injury in milliseconds. Always apply force progressively and slowly in training, never explosively. Release immediately upon any tap signal—verbal, physical, or ambiguous. Train heel hooks only with experienced partners who understand the submission's danger. Beginners should drill grip placement without any force application until mechanics are automatic. In competition, apply with control appropriate to the level of competition. Never hold the submission after the tap. If you feel the knee give before your partner taps, release immediately.
 

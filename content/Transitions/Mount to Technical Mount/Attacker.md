@@ -188,6 +188,8 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mount to Technical Mount?</p>
+
 - Read the opponent's hip movement and shoulder rotation to identify the optimal moment for leg posting
 - Maintain constant chest-to-back pressure throughout the transition to prevent guard recovery
 - Secure upper body control before committing to the leg post to maintain connection during the weight shift
@@ -203,6 +205,8 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mount to Technical Mount?</p>
+
 - Stable mount control with hip pressure established on opponent's torso and at least one controlling grip
 - Opponent begins turning to side or initiating hip escape, creating angle for leg posting
 - Upper body connection maintained through crossface, underhook, or collar grip to prevent separation during transition
@@ -215,6 +219,8 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mount to Technical Mount step by step?</p>
 
 1. **Recognize the trigger**: Identify the opponent's turn or hip escape initiation. Watch for their bottom hip lifting, shoulder turning away from you, or hands pushing on your hip or knee. This defensive movement creates the space and angle necessary for the transition. Do not attempt the transition against a flat, centered opponent.
 2. **Establish upper body control**: Before moving your legs, secure a controlling grip on the opponent's upper body. Cross-face with your near-side arm driving your shoulder into their jaw, or establish a collar grip or underhook. This grip prevents the opponent from creating distance during the transition and maintains your ability to follow their movement.
@@ -244,6 +250,8 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mount to Technical Mount?</p>
+
 - **Opponent hip escapes aggressively during leg posting, recovering half guard before hook insertion completes** (Effectiveness: High) - Your Response: Follow the hip escape with your hips, driving forward pressure to prevent full guard recovery. If they catch your posting leg, immediately work to free it using knee slice mechanics rather than abandoning the transition entirely. → Leads to [[Positions/Half Guard]]
 - **Opponent frames on near-side hip with both hands, preventing weight transfer and creating distance to reguard** (Effectiveness: Medium) - Your Response: Attack the framing arms by threatening Americana on the bottom arm or isolating the top arm for wrist control. Alternatively, maintain heavy cross-face pressure to collapse their frame before reattempting the transition. → Leads to [[Positions/Mount]]
 - **Opponent bridges explosively during the weight shift, attempting to reverse or create scramble before position consolidates** (Effectiveness: Medium) - Your Response: Ride the bridge by keeping your base wide through the posted leg. Use the bridging momentum to accelerate your transition rather than fighting it. As they return to the mat, your hook should already be inserted and position consolidated. → Leads to [[Positions/Mount]]
@@ -255,6 +263,8 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mount to Technical Mount?</p>
 
 ### 1. Attempting the transition when opponent is flat on their back without any turning movement
 
@@ -294,6 +304,8 @@ The Mount to Technical Mount transition from the attacker's perspective is a del
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mount to Technical Mount (Attacker)?</p>
+
 **Phase 1: Mechanics** - Basic leg posting and hook insertion mechanics
 Practice the isolated mechanical movement with a compliant partner. From mount, partner turns to side on command. Focus on weight shift to near knee, far leg posting with correct shin angle, and simultaneous hook insertion. Repeat 20 times per side until the movement pattern is smooth and automatic.
 
@@ -314,42 +326,12 @@ Simulate competition scenarios with time pressure and accumulated fatigue. Start
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that signals the optimal moment to initiate the Mount to Technical Mount transition?
-**A**: The primary trigger is the opponent turning to their side or initiating a hip escape from mount. When the bottom player rotates their hips and shoulders away from you, this creates the angle and space necessary to post the far leg. Attempting the transition against a flat, centered opponent sacrifices mount stability without creating the angles needed for effective technical mount. The opponent's movement—whether voluntary escape or forced by your pressure—is what makes the transition mechanically sound.
-
-**Q2**: Your opponent is defending mount by staying completely flat and refusing to turn—how do you create the opening for technical mount?
-**A**: Apply heavy cross-face pressure with your shoulder driving into their jaw to force the head turn, which naturally causes the body to follow. Alternatively, threaten a high-percentage submission like the Americana or cross collar choke that requires them to use their hands defensively—any arm movement creates the reaction you need. You can also walk your knees up toward their armpits to force a defensive hip escape. The key is creating a dilemma where their defensive movement generates the angle you need.
-
-**Q3**: What is the critical mechanical detail that distinguishes a successful leg post from one that creates escape opportunities?
-**A**: The posted leg must be positioned close to the opponent's body with the shin perpendicular to their torso and foot flat on the mat, creating a tight tripod base. A leg posted too far away creates a gap that allows knee shield insertion, half guard recovery, or full escape underneath. The posted foot should be within touching distance of the opponent's hip, and the shin should act as a wall preventing rotation back. Simultaneously, the near-side hook must be inserted to complete the cage around the opponent.
-
-**Q4**: During the transition, your opponent bridges explosively—what is the correct response and why?
-**A**: Ride the bridge rather than fighting it. Keep your base wide through the posted leg and maintain upper body connection through cross-face or collar grip. The bridge actually accelerates your transition by lifting the opponent's hips and creating more space for hook insertion. As they return to the mat after the bridge, your technical mount should already be consolidated. Fighting the bridge by stiffening wastes energy and risks being rolled off, while flowing with it converts their escape energy into your positional advancement.
-
-**Q5**: What grip must be established before committing to the leg posting movement?
-**A**: Upper body control through cross-face, underhook, or collar grip must be secured before the legs move. This grip serves as your anchor during the weight shift—without it, the momentary instability of moving from bilateral mount to asymmetric technical mount creates a window where the opponent can frame out and escape. The upper body grip maintains continuous pressure and prevents the opponent from creating the distance needed for guard recovery. Moving the legs before securing the grip is the most common cause of failed transitions.
-
-**Q6**: How does the hook insertion coordinate with the leg post, and what happens if they are performed sequentially rather than simultaneously?
-**A**: The hook insertion and leg post should occur as one coordinated movement, not two separate actions. As the far leg swings out to post, the near leg simultaneously threads underneath the opponent's body. If performed sequentially—posting first, then inserting the hook—there is a gap where no hook prevents the opponent from spinning their hips back to guard. This timing window is enough for a competent bottom player to recover half guard or create a scramble. Simultaneous execution creates the technical mount cage in one motion, eliminating the escape window.
-
-**Q7**: Your opponent successfully frames against your hip during the transition, preventing you from completing the technical mount—what are your options?
-**A**: You have three primary options. First, attack the framing arm with an Americana or wrist control, converting their defensive structure into a submission opportunity. Second, collapse the frame by increasing cross-face pressure and driving your shoulder through, then reattempt the transition once their frame breaks. Third, abandon the technical mount attempt and return to standard mount with heavy pressure, then create a new opening through submission threats. The worst response is to keep forcing against an effective frame.
-
-**Q8**: Why is technical mount considered a transitional position rather than a control position, and how does this affect your approach after completing the transition?
-**A**: Technical mount sacrifices the bilateral stability of standard mount for superior submission angles, meaning it is inherently less stable as a holding position. The asymmetric base with one hook and one posted leg provides less resistance to escapes than standard mount's two-knee base. This means you must attack immediately upon establishing technical mount—armbar, back take, or triangle within 3-5 seconds. Treating it as a resting or control position allows the opponent time to develop defensive frames. Every second without attacking is wasted positional advantage.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mount to Technical Mount?</p>
 
 The Mount to Technical Mount transition is relatively low-risk in terms of acute injury potential, as it involves positional movement rather than joint manipulation or choking. However, practitioners should be aware of knee stress on the posted leg, particularly on hard or slippery surfaces where the foot may slide. Partners should communicate if they feel trapped in positions that compress the ribcage or restrict breathing. During drilling, the bottom player should tap if they feel excessive pressure on the neck from cross-face control. Always ensure adequate mat space and warm up hip flexors and knees before heavy positional drilling from mount.
 

@@ -39,7 +39,7 @@ The belly-down position offers distinct mechanical advantages for the attacker. 
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 50% |
+| Success | [[Submissions/Belly Down Armbar]] | 50% |
 | Failure | [[Positions/Armbar Control]] | 30% |
 | Counter | [[Positions/Half Guard]] | 20% |
 
@@ -200,11 +200,9 @@ The belly down armbar transition is a critical link in the armbar chain attack s
 
 - [[Positions/Armbar Control]] - Source position from which this transition is initiated
 
-- [[Transitions/Armbar Finish]] - Alternative finish from armbar control when opponent stays supine
+- [[Armbar from Armbar Control]] - Alternative finish from armbar control when opponent stays supine
 
 - [[Submissions/Belly Down Armbar]] - The submission itself that this transition seeks to achieve
-
-- [[Submissions/Belly Down Armbar Finish]] - Specific finishing mechanics from the belly-down position
 
 - [[Transitions/Back Take from Armbar]] - Alternative transition when opponent rolls and arm extraction occurs
 
@@ -216,7 +214,7 @@ The belly down armbar transition is a critical link in the armbar chain attack s
 
 - [[Positions/Kimura Trap]] - Alternative arm isolation control if belly-down finish is unavailable
 
-- [[Submissions/Armbar from High Mount]] - Entry technique that commonly creates the armbar control starting point
+- [[Positions/Mount/High Mount]] - Dominant position that commonly precedes armbar control setup
 
 
 </section>

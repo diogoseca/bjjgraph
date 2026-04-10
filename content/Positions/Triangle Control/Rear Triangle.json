@@ -3,7 +3,7 @@
   "slug": "rear-triangle",
   "description": "Master Rear Triangle position in BJJ. Advanced back control variation with triangle leg configuration. Learn entry mechanics, submission chains, and control strategies from both perspectives.",
   "variant_uniqueness": "Triangle legs free hands for attacks",
-  "overview": "The Rear Triangle is an advanced back control variation that combines traditional back dominance with triangle choke mechanics. By threading one leg under the opponent's armpit and locking a triangle configuration around their neck and trapped arm, the top practitioner creates a hybrid control system that offers superior structural control compared to standard back mount. This position eliminates many standard defensive options while creating direct pathways to multiple high-percentage submissions including the rear triangle choke, armbar variations, and rear naked choke.\n\nFrom the bottom perspective, Rear Triangle Bottom represents one of the most compromised defensive positions in BJJ. The defender faces simultaneous threats from both the triangle choking mechanism and the positional control of back mount, with one arm trapped inside the triangle structure severely limiting defensive options. The position creates extreme pressure on the carotid arteries while restricting mobility and breathing, demanding immediate defensive action and systematic escape sequences to survive.\n\nThe strategic significance of the rear triangle lies in its ability to create submission dilemmas where defensive choices against one threat inevitably expose the opponent to alternative attacks. The position serves as both a control platform and a submission position, exemplifying position-before-submission philosophy while maintaining constant offensive pressure. Mastery of both perspectives—the systematic attack sequences from top and the survival-focused escape mechanics from bottom—is essential for advanced practitioners competing at blue belt level and above.",
+  "overview": "The Rear Triangle is an advanced back control variation that combines traditional back dominance with triangle choke mechanics. By threading one leg under the opponent's armpit and locking a triangle configuration around their neck and trapped arm, the top practitioner creates a hybrid control system that offers superior structural control compared to standard back mount. This position eliminates many standard defensive options while creating direct pathways to multiple high-percentage submissions including the rear triangle choke, armbar variations, and rear naked choke.\n\nFrom the bottom perspective, Rear Triangle Bottom represents one of the most compromised defensive positions in BJJ. The defender faces simultaneous threats from both the triangle choking mechanism and the positional control of back mount, with one arm trapped inside the triangle structure severely limiting defensive options. The position creates extreme pressure on the carotid arteries while restricting mobility and breathing, demanding immediate defensive action and systematic escape sequences to survive.\n\nThe strategic significance of the rear triangle lies in its ability to create submission dilemmas where defensive choices against one threat inevitably expose the opponent to alternative attacks. The position serves as both a control platform and a submission position, exemplifying position-before-submission philosophy while maintaining constant offensive pressure. Mastery of both perspectives\u2014the systematic attack sequences from top and the survival-focused escape mechanics from bottom\u2014is essential for advanced practitioners competing at blue belt level and above.",
   "key_principles": [
     "Triangle leg must cross behind the neck, not in front, to create proper posterior choking angle",
     "Maintain chest-to-back connection throughout position to prevent opponent rotation and escape",
@@ -283,7 +283,7 @@
         "attempt_probability": 14
       },
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Rear Triangle",
         "attempt_probability": 16
       },
       {
@@ -291,7 +291,7 @@
         "attempt_probability": 13
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Rear Triangle",
         "attempt_probability": 12
       },
       {
@@ -307,7 +307,7 @@
         "attempt_probability": 3
       },
       {
-        "transition": "Rear Triangle Choke",
+        "transition": "Rear Triangle Choke from Rear Triangle",
         "attempt_probability": 2
       }
     ],

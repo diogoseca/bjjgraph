@@ -206,9 +206,9 @@ The Leg Drag Pass to Side Control is the primary consolidation pathway in the le
 
 - [[Positions/Knee on Belly]] - Intermediate position option
 
-- [[Submissions/Americana from Side Control]] - Follow-up submission
+- [[Submissions/Americana]] - Follow-up submission from side control
 
-- [[Submissions/Kimura from Side Control]] - Follow-up submission
+- [[Submissions/Kimura]] - Follow-up submission from side control
 
 - [[Transitions/Arm Triangle]] - Follow-up submission
 

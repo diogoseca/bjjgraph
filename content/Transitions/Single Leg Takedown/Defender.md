@@ -154,13 +154,15 @@ description: "How to defend against Single Leg Takedown in BJJ. Recognition cues
 
 Defending the Single Leg Takedown requires a layered defensive framework that begins well before the opponent captures your leg. The first and most effective line of defense is prevention through proper stance, distance management, and recognition of pre-attack cues that telegraph the shot. When prevention fails and the opponent secures your leg, the defensive priority shifts to denying them finishing mechanics by controlling their head position, establishing a strong whizzer, and keeping your hips squared rather than allowing them to corner you. The critical principle is that every second you remain standing with your leg captured, the opponent gains momentum toward completion - so your defensive response must be immediate and decisive rather than passive. Effective single leg defense integrates wrestling-based sprawl mechanics with BJJ-specific options including guillotine counters and tactical guard pulls that convert a defensive situation into an offensive one. Understanding the attacker's finishing sequences allows you to anticipate their next adjustment and preemptively deny it, turning defense into a proactive exchange where you dictate the outcome rather than simply reacting to their pressure.
 
-**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Clinch]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Single Leg Takedown?</p>
 
 - Opponent drops their level suddenly by bending knees and lowering hips, often preceded by a feint or grip change that draws your attention upward
 - Opponent's hands release their current grip configuration and both arms reach toward your lead leg simultaneously, with their head dropping toward your hip line
@@ -174,6 +176,8 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg Takedown?</p>
 
 - React immediately to any level change - the first two seconds after leg capture determine the outcome more than anything else
 - Drive hips away and down when sprawling to kill forward momentum and deny penetration depth
@@ -189,6 +193,8 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg Takedown?</p>
 
 ### 1. Sprawl with whizzer and crossface
 
@@ -226,6 +232,8 @@ Defending the Single Leg Takedown requires a layered defensive framework that be
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg Takedown?</p>
+
 ### → [[Positions/Standing Position]]
 
 Execute an immediate sprawl by driving hips down and back while posting hands on opponent's head and shoulders. Establish a strong whizzer on their near arm and crossface pressure to kill their forward drive. Circle away from their head toward their hips to create angle for hip extraction. Once their penetration is killed, use the whizzer to pummel back to neutral standing or transition to front headlock control. The key is explosive hip reaction within the first second of their shot.
@@ -241,6 +249,8 @@ When the takedown cannot be fully defended, secure a collar grip or overhook bef
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg Takedown?</p>
 
 ### 1. Reaching down to grab the opponent's head or push their shoulders instead of sprawling hips
 
@@ -275,6 +285,8 @@ When the takedown cannot be fully defended, secure a collar grip or overhook bef
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg Takedown?</p>
+
 **Week 1-2: Recognition and basic sprawl** - Identifying single leg attacks early and executing fundamental sprawl mechanics
 Partner shoots single legs at 30-50% speed while you focus on recognizing the level change trigger and executing hip sprawl with correct mechanics. Drill the sprawl motion solo and with partner for 20-30 repetitions per session. Emphasis on hip reaction speed rather than hand fighting - the hips must move first. Practice from various stances and grip configurations.
 
@@ -294,29 +306,6 @@ Shift from reactive defense to proactive prevention. Work snap-downs and collar 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent shoots a single leg and their head is positioned on the inside of your captured leg - what counter-attack opportunity does this create?
-**A**: Inside head position exposes their neck to guillotine choke. Immediately secure a chin strap or arm-in guillotine grip by wrapping your near arm around their head and locking your hands together. Pull their head tight against your chest while sprawling your hips back to create downward pressure on their neck. From here you can either finish the standing guillotine, pull guard with the choke locked, or use the guillotine threat to force them to release your leg and defend the submission.
-
-**Q2**: What is the correct hip position and weight distribution when your opponent has captured your leg and is attempting to run the pipe?
-**A**: Your hips should be lowered and driven toward the mat with your weight centered over your standing foot, which should be positioned slightly behind your hip line for maximum base. Avoid leaning forward or backward - maintain a slight athletic crouch over the posting leg. The captured leg should have your knee bent to create slack in their grip rather than keeping it straight. Use your free hand to establish a whizzer on their near arm while your other hand crossfaces or posts on their head to prevent forward drive. Your center of gravity must stay directly above your standing foot's contact point with the mat.
-
-**Q3**: Your opponent has a deep single leg with outside head position and strong forward drive - the takedown seems inevitable. How do you minimize positional damage?
-**A**: When the takedown cannot be prevented, your goal shifts from defense to damage control. Secure a collar grip or overhook before hitting the mat. As you descend, immediately close your guard by wrapping your legs around their waist, converting their takedown into your closed guard rather than allowing them to pass to side control. If possible, establish a guillotine grip during the descent. The difference between landing in closed guard versus conceding side control is enormous - closed guard gives you offensive capability while side control puts you in a purely defensive position requiring energy-intensive escapes.
-
-**Q4**: How do you time a sprawl correctly against a single leg shot, and what happens if your timing is early versus late?
-**A**: The optimal sprawl timing is the instant you feel or see the level change and forward commitment - your hips must start moving backward and downward before their hands connect with your leg. If your sprawl is early (before they commit), you telegraph your defense and they can adjust to a different attack or fake the shot entirely. If your sprawl is late (after they've secured the leg and begun driving), you lose the mechanical advantage and must rely on whizzer defense and scrambling rather than the clean sprawl. Train to react to the level change trigger rather than trying to predict when the shot is coming.
-
-**Q5**: What defensive adjustments should you make when your opponent consistently chains single leg attempts with double leg conversions?
-**A**: Against an opponent who chains single-to-double, you cannot fully commit your sprawl defense to one side because they will switch to the other leg. Instead, use a modified defense: sprawl with hips back but keep your base slightly more square than a full single-leg sprawl. Prioritize hand fighting and head position over pure hip extension. When they attempt the conversion, immediately re-sprawl to the new angle and pummel for underhooks. Consider preemptive strategies like guillotine grips or snap-downs that punish their level change before they can establish any leg control, forcing them to abandon the chain entirely.
-
-
-
-</section>
 
 
 </main>

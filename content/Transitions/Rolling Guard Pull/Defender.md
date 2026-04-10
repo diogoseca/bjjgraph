@@ -156,13 +156,15 @@ Defending the rolling guard pull requires early recognition and decisive reactio
 
 The rolling guard pull is most dangerous when it catches you off-guard. Once you learn to recognize the telltale setup indicators, your defensive success rate increases dramatically because the technique relies heavily on the element of surprise and your forward pressure. By managing your distance, keeping your grips strategic, and maintaining a slightly retreating base angle, you force the attacker into lower-percentage entries or outright failed attempts that leave them grounded without guard established.
 
-**Opponent's Starting Position**: [[Positions/Standing Position]] (Top)
+**Opponent's Starting Position**: [[Positions/Standing Guard]] (Bottom)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Rolling Guard Pull?</p>
 
 - Opponent establishes a deep grip and begins pulling you forward with increasing tension while stepping toward you
 - Opponent's hips begin dropping rapidly while their upper body rounds forward into a tucked position
@@ -177,6 +179,8 @@ The rolling guard pull is most dangerous when it catches you off-guard. Once you
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Rolling Guard Pull?</p>
+
 - Maintain awareness of grip tension changes that signal the attacker is about to initiate the pull sequence
 - Control distance by keeping a slightly retreating base angle that denies the forward momentum the roll requires
 - React to the hip drop immediately - the first half-second determines whether the roll succeeds or fails
@@ -190,6 +194,8 @@ The rolling guard pull is most dangerous when it catches you off-guard. Once you
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Guard Pull?</p>
 
 ### 1. Strip grips and disengage backward before the roll initiates
 
@@ -227,6 +233,8 @@ The rolling guard pull is most dangerous when it catches you off-guard. Once you
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Guard Pull?</p>
+
 ### → [[Positions/Standing Position]]
 
 Strip grips early when you recognize the setup, step backward to break the connection, and force the opponent to fall to their back without guard established. Immediately pressure forward into a passing position or re-engage from standing with grip advantage.
@@ -242,6 +250,8 @@ If the opponent's roll carries them too far or they lose grip, they end up on th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Guard Pull?</p>
 
 ### 1. Driving forward into the opponent as they initiate the roll
 
@@ -271,6 +281,8 @@ If the opponent's roll carries them too far or they lose grip, they end up on th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Guard Pull?</p>
+
 **Week 1-2: Recognition Drilling** - Identify rolling guard pull setup cues in real time
 Partner randomly mixes rolling guard pull attempts with normal grip fighting and standard guard pulls. Your only job is to call out 'roll' when you recognize the setup cues. No defensive action required yet. Track your recognition accuracy and timing. Goal is 80% accurate recognition before the hip drop occurs.
 
@@ -287,29 +299,6 @@ Practice defending rolling guard pulls during live sparring from standing. Partn
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a rolling guard pull?
-**A**: The earliest cue is a sudden increase in pulling tension through their established grip combined with a forward step that closes distance beyond normal grip fighting range. This pull-and-step combination creates the forward momentum they need for the roll. Recognizing this pattern before the hip drop allows you to strip grips or disengage while the technique is still in its setup phase and easiest to counter. Secondary cues include chin tucking, shoulder rounding, and the beginning of the hip drop, but by these points the window for easy defense has already narrowed.
-
-**Q2**: Why is lateral movement more effective than backward movement when defending the rolling guard pull?
-**A**: Backward movement stays on the same line as the attacker's rolling trajectory, meaning their grip and rotational momentum continue pulling you along the intended path into their guard. Lateral movement takes you off the line of their rotation, which means their pull force now has a sideways vector that disrupts the roll's mechanics. Circling also creates an angle that makes it harder for their legs to catch your hips as the roll completes. Additionally, backward movement against a strong grip often fails because you are fighting their grip strength directly, while lateral movement uses the grip's directionality against itself.
-
-**Q3**: Your opponent successfully completes the roll but has not yet closed their guard - what is your immediate priority?
-**A**: Your immediate priority is establishing grips on their pants at the knees or ankles to prevent guard closure while maintaining your standing base. Do not drop to your knees, as standing gives you superior passing angles and prevents them from using their leg strength to close guard. Post one hand on their hip to create distance while using your other hand to control their legs. Begin an immediate toreando or bullfighter pass before they can organize their legs into any guard structure. Speed is critical because every second you delay gives them time to establish hooks, grips, and guard retention.
-
-**Q4**: How should you adjust your standing base and distance when you suspect your opponent favors rolling guard pulls?
-**A**: Maintain a slightly wider stance than normal with your weight distributed evenly or slightly toward your heels rather than leaning forward. Keep your hips slightly behind your shoulder line to resist forward pulling forces. Fight grips at maximum arm extension rather than in close range, which gives you more time to react to a sudden hip drop. Avoid giving them deep collar grips, as these are the strongest anchors for the roll. Use a stiff-arm frame on their shoulder or bicep to maintain distance. If they persistently seek the entry, consider shooting your own takedown first to deny them the standing position they need to initiate the roll.
-
-**Q5**: What is the risk of trying to apply a guillotine as the opponent rolls into guard?
-**A**: Attempting a guillotine during their roll is extremely risky because it requires you to bend forward at the waist and follow their downward movement, which feeds directly into their guard pull. Your bent posture and forward head position give them exactly the broken posture and close distance they want for guard establishment. Additionally, their rolling momentum can sweep you forward over them, landing you in their closed guard with a failed guillotine attempt and broken posture. The guillotine defense becomes their offense. Only attempt head control if you can maintain upright posture and use it as a frame rather than a submission attempt.
-
-
-
-</section>
 
 
 </main>

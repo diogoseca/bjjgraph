@@ -154,6 +154,8 @@ As the defender facing the collar sleeve to spider guard transition, your object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Collar Sleeve to Spider Guard?</p>
+
 - The bottom player repositions their sleeve-side foot from your hip up to your bicep, establishing the first spider hook before releasing their collar
 - You feel reduced collar grip tension followed by the bottom player's free leg swinging toward your opposite arm to place the second foot on your bicep
 - The bottom player executes a strong off-balancing collar pull that feels like a setup rather than a committed sweep attempt, indicating they are creating a window for the grip switch
@@ -166,6 +168,8 @@ As the defender facing the collar sleeve to spider guard transition, your object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Collar Sleeve to Spider Guard?</p>
 
 - Recognize the transition setup cues early to prepare your defensive response before the grip switch begins
 - Capitalize on the collar grip release by immediately advancing posture and position during the control gap
@@ -180,6 +184,8 @@ As the defender facing the collar sleeve to spider guard transition, your object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Collar Sleeve to Spider Guard?</p>
 
 ### 1. Drive forward with heavy pressure the moment you feel the collar grip release
 
@@ -217,6 +223,8 @@ As the defender facing the collar sleeve to spider guard transition, your object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Collar Sleeve to Spider Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Capitalize on the collar grip release by surging forward with heavy pressure or stripping the remaining sleeve grip during the transition. Act within the 1-2 second vulnerability window before spider guard is established. Immediately establish your own passing grips on their legs or collar to prevent guard re-establishment.
@@ -228,6 +236,8 @@ Capitalize on the collar grip release by surging forward with heavy pressure or 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Collar Sleeve to Spider Guard?</p>
 
 ### 1. Failing to recognize the transition setup and allowing the bottom player to complete the grip switch uncontested
 
@@ -257,6 +267,8 @@ Capitalize on the collar grip release by surging forward with heavy pressure or 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Collar Sleeve to Spider Guard?</p>
+
 **Phase 1: Recognition** - Identifying transition setup cues
 Partner repeatedly initiates the collar sleeve to spider guard transition at slow speed. Defender calls out each recognition cue as they detect it: foot walking to bicep, collar tension change, hip elevation. No defensive action taken yet, purely developing the ability to read the transition in real time.
 
@@ -273,26 +285,6 @@ After successfully preventing the spider guard transition, immediately chain int
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary vulnerability window during the collar sleeve to spider guard transition that you should exploit?
-**A**: The primary vulnerability occurs when the bottom player releases their collar grip to reach for your second sleeve. During this 1-2 second window, they lose their primary upper body pulling control and have only their feet on your biceps for distance management. This is the optimal moment to drive forward with pressure, strip the remaining sleeve grip, or establish your own dominant grips, because the bottom player cannot pull you into their guard structure or effectively off-balance you without the collar grip.
-
-**Q2**: Why is it more effective to prevent spider guard establishment during the transition than to dismantle it after it is set up?
-**A**: Once spider guard is fully established with bilateral sleeve grips and feet on biceps, the bottom player has a complete push-pull control system that requires systematic grip breaking to overcome. During the transition, only half the system is in place. Disrupting the transition means fighting against incomplete control rather than a fully integrated guard, requiring less energy, less time, and less technical dismantling. Additionally, the bottom player's attention is divided during the transition, making them less able to counter your defensive actions.
-
-**Q3**: Your opponent begins walking their foot from your hip up to your bicep - what immediate action prevents the spider guard transition?
-**A**: Immediately lower your elbow on that side to pin their foot below your bicep, preventing them from establishing the elevated hook position that spider guard requires. Simultaneously step that leg back to create distance and reduce the bottom player's ability to extend their leg to your arm. If you can strip their sleeve grip on that side at the same time, you eliminate both the hook and the grip, forcing them to restart their guard setup from scratch.
-
-**Q4**: How should you adjust your passing strategy when you successfully prevent the spider guard transition?
-**A**: After disrupting the transition, the bottom player is in a compromised collar sleeve guard with potentially weakened grips and disrupted hip positioning. Immediately initiate a passing sequence before they can re-establish their preferred guard. A toreando pass or knee cut is effective because the bottom player's feet are displaced from their optimal framing positions and their grip structure is incomplete. The key is capitalizing on the disrupted guard within 2-3 seconds before they can resettle into collar sleeve or attempt another guard transition.
-
-
-
-</section>
 
 
 </main>

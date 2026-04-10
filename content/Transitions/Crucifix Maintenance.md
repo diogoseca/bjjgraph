@@ -204,7 +204,7 @@ Crucifix Maintenance sits at the critical junction between achieving the crucifi
 
 - [[Positions/Side Control]] - Secondary fallback when opponent escapes crucifix more completely
 
-- [[Transitions/Choke from Crucifix]] - Primary submission attack enabled by successful crucifix maintenance
+- [[Submissions/Choke from Crucifix]] - Primary submission attack enabled by successful crucifix maintenance
 
 - [[Transitions/Armbar from Crucifix]] - Secondary submission attack accessible from maintained crucifix control
 

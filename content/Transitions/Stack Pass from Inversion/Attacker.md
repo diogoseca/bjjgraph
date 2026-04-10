@@ -186,6 +186,8 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Pass from Inversion?</p>
+
 - Control opponent's legs before initiating forward pressure to prevent leg entanglements
 - Drive hips over shoulders rather than just pressing down to create true compression
 - Maintain constant forward pressure once committed to prevent opponent from resetting inversion
@@ -200,6 +202,8 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Pass from Inversion?</p>
+
 - Opponent in inverted guard position with hips elevated
 - Both of opponent's legs controlled or pinned to prevent leg threading
 - Your posture lowered with hips driving forward rather than standing tall
@@ -212,6 +216,8 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Pass from Inversion step by step?</p>
 
 1. **Secure leg control**: Pin opponent's legs together by gripping behind both knees or controlling their ankles, preventing them from separating legs to create hooks or entanglements
 2. **Lower your level**: Drop your hips and chest toward opponent, bringing your center of gravity low to generate maximum forward pressure while maintaining a stable, sprawled base
@@ -240,6 +246,8 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Pass from Inversion?</p>
+
 - **Re-inverting and shooting legs through for leg entanglement before stack is complete** (Effectiveness: High) - Your Response: Maintain tight leg control throughout and do not release grip until you have cleared to side control → Leads to [[Positions/Grasshopper Guard]]
 - **Granby roll away from stacking pressure to reset guard** (Effectiveness: Medium) - Your Response: Follow their roll direction and transition to a leg drag or toreando pass as they turn → Leads to [[Positions/Closed Guard]]
 - **Posting on your hips with hands to prevent forward pressure** (Effectiveness: Medium) - Your Response: Strip their hand posts by circling your arms inside their frames and continue driving forward → Leads to [[Positions/Grasshopper Guard]]
@@ -251,6 +259,8 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Pass from Inversion?</p>
 
 ### 1. Attempting to stack before controlling opponent's legs
 
@@ -285,6 +295,8 @@ Strategically, the stack pass represents a commitment - once you drive forward, 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Pass from Inversion (Attacker)?</p>
+
 **Week 1-2** - Stacking mechanics
 Practice the folding motion against a compliant partner, learning proper body positioning to drive hips over shoulders without relying on arm strength
 
@@ -302,54 +314,12 @@ Full resistance positional sparring starting with partner in grasshopper guard. 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of the Stack Pass from Inversion?
-**A**: The primary goal is to neutralize the bottom player's hip elevation by driving their hips over their shoulders, compressing their spine and eliminating the mobility and leverage they need for sweeps and leg attacks. This transforms their offensive position into a defensive one where they cannot generate power.
-
-**Q2**: What position do you start Stack Pass from Inversion from?
-**A**: This technique starts from top position against an inverted guard, most commonly Grasshopper Guard. You are standing or in low combat base facing an opponent who has inverted with elevated hips and legs seeking to create entanglements or sweeps.
-
-**Q3**: What are the key grips needed for Stack Pass from Inversion?
-**A**: The essential grip is control of both legs, typically achieved by gripping behind both knees to pin the legs together, or controlling both ankles. The specific grip matters less than ensuring the opponent cannot separate their legs to thread for entanglements or create hooks.
-
-**Q4**: How do you counter the Stack Pass from Inversion as the bottom player?
-**A**: The most effective counter is preventing leg control by keeping legs active and separated. If the stack begins, a Granby roll in the direction of pressure can reset the guard. Early in the stack, shooting legs through for ashi garami entries is possible. Once fully stacked, options become limited - prevention is key.
-
-**Q5**: When is the best time to attempt the Stack Pass from Inversion?
-**A**: The optimal timing is when the opponent's hips begin dropping from core fatigue or during transitions between leg configurations. Attempting against a fresh, fully established inversion with active legs risks leg entanglements. Patience and timing recognition are critical - let the position fatigue work for you.
-
-**Q6**: Your opponent begins threading a leg inside yours as you initiate the stack - what adjustment do you make?
-**A**: Immediately halt forward pressure and address the leg control issue by squaring your hips and pinning both legs together again. Attempting to continue the stack with compromised leg control leads directly to ashi garami or other leg entanglements. Reset the leg control before resuming.
-
-**Q7**: What is the difference between pressing down and actually stacking an opponent?
-**A**: Pressing down puts weight on the opponent but allows them to retain hip mobility and leg power. True stacking drives the hips past the shoulders so the spine compresses and folds, making the opponent's legs heavy and immobile. The angle of pressure determines effectiveness - forward and through, not straight down.
-
-**Q8**: Why must you maintain constant pressure once you commit to the stack pass?
-**A**: Any release of pressure allows the opponent to immediately recover hip elevation and reset their inverted guard. The inverted position requires constant core engagement to maintain - if you relieve pressure even momentarily, their hips spring back to offensive position. The pass requires continuous commitment from initiation to side control.
-
-**Q9**: Your opponent posts their hands on your hips to prevent the stack - how do you address this?
-**A**: Circle your arms inside their arm posts to strip the frames, bringing your elbows inside their elbows. As you strip the posts, continue driving forward. Their arm posts cannot match your leg-driven forward pressure once you've cleared the frames. Do not try to rip through the posts - swim inside them.
-
-**Q10**: How does the Stack Pass integrate with other pressure passing techniques?
-**A**: The stack pass works best as part of a pressure system. Use toreando or leg drag attempts to force the opponent to invert defensively, which fatigues their core. When their inversion weakens, the stack becomes available. If the stack is defended with a Granby roll, follow with a leg drag or toreando. The techniques chain together based on opponent's reactions.
-
-**Q11**: What direction of force should you apply during the stacking phase, and why does the angle matter?
-**A**: The force must be directed forward and slightly upward through the opponent's legs, driving their hips past their shoulders toward their head. A purely downward force allows hip mobility to persist. The forward-through angle compresses the spine into flexion, loading the opponent's weight onto their upper back and neck, which eliminates the hip elevation necessary for all inverted guard attacks.
-
-**Q12**: Your opponent defends the stack with a Granby roll to their left side - what chain attack do you use?
-**A**: As they Granby roll left, immediately follow their rotation by stepping your right leg over and pulling their far leg across your body for a leg drag. Their rolling momentum exposes their back angle, making the leg drag high-percentage. If the leg drag is unavailable, redirect into a toreando pass by controlling both ankles and redirecting their legs to the mat on the side they rolled toward. Never let them complete the Granby and re-establish guard without pursuing a follow-up pass.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Pass from Inversion?</p>
 
 The Stack Pass from Inversion puts significant pressure on the opponent's cervical spine and lower back when fully stacked. Apply pressure progressively rather than explosively to allow training partners to tap if their neck or back is compromised. Be especially cautious with older training partners or those with existing spine issues. Never hold a stack position statically for extended periods in training. If your partner signals discomfort or taps, release pressure immediately. Avoid this technique entirely if your partner has known cervical spine problems or recent back injuries.
 

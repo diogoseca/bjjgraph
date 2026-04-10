@@ -210,7 +210,7 @@ The Russian Cowboy to Back Control transition is a critical link in the back att
 
 - [[Transitions/Back Control Maintenance]] - Follow-up control system employed after successfully establishing both hooks
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat used both as a diversion during insertion and as follow-up attack
+- [[Submissions/Rear Naked Choke]] - Primary submission threat used both as a diversion during insertion and as follow-up attack
 
 - [[Positions/Half Guard]] - Counter outcome position if opponent successfully reverses during hook insertion attempt
 

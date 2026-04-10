@@ -130,7 +130,7 @@
       },
       {
         "step_number": 3,
-        "action": "Read Weight Distribution",
+        "action": "Read Center of Gravity",
         "description": "Read the opponent's weight distribution through your hooks, sensing when they commit forward pressure that loads their mass onto your hook system. The optimal initiation moment occurs when their weight shifts forward and their base narrows, creating vulnerability to the lateral-vertical compound force you are about to generate."
       },
       {

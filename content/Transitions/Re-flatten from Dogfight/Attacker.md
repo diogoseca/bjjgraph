@@ -194,6 +194,8 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Re-flatten from Dogfight?</p>
+
 - Win the head position battle first by driving your crossface shoulder across the opponent's jaw line, forcing their head offline and disrupting their forward pressure vector
 - Use the whizzer not as a static grip but as an active torque tool that redirects the opponent's underhook force away from your body and toward the mat
 - Time your hip drive to coincide with the moment the opponent's posting points are most compromised, typically when they are adjusting their base or defending your crossface
@@ -208,6 +210,8 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Re-flatten from Dogfight?</p>
+
 - Established whizzer or overhook control on the bottom player's underhook arm with grip at or above the elbow
 - Head position at or below the opponent's shoulder level with ability to drive crossface pressure across their jaw
 - Trapped leg maintaining connection through the half guard entanglement without excessive slack that allows disengagement
@@ -220,6 +224,8 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Re-flatten from Dogfight step by step?</p>
 
 1. **Secure whizzer control**: Establish a deep whizzer by threading your arm over the opponent's underhook arm and gripping at or above their elbow. Pull the whizzer tight against your body to limit the depth and power of their underhook, creating the primary control mechanism for redirecting their upper body.
 2. **Drive crossface pressure**: Place your shoulder or forearm across the opponent's jaw and neck, driving their head away from your body and offline from their forward pressure direction. The crossface disrupts their ability to maintain upright posture and converts their forward drive into lateral instability.
@@ -250,6 +256,8 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Re-flatten from Dogfight?</p>
+
 - **Opponent deepens underhook and drives forward explosively before crossface is established** (Effectiveness: High) - Your Response: If the underhook is too deep for effective whizzer control, switch to sprawling your hips back momentarily to create separation, then reset with renewed crossface pressure from a wider angle → Leads to [[Positions/Dogfight Position]]
 - **Opponent drops level and enters deep half guard to avoid the flattening pressure** (Effectiveness: Medium) - Your Response: Anticipate the level drop by maintaining tight chest-to-chest connection and following their downward movement, using your whizzer arm to prevent them from threading underneath your hips → Leads to [[Positions/Dogfight Position]]
 - **Opponent redirects the forward driving pressure into a sweep by channeling your momentum laterally** (Effectiveness: High) - Your Response: Maintain wide base with your free leg and avoid overcommitting weight forward beyond your balance point, keeping your center of gravity over your knees rather than projecting past them → Leads to [[Positions/Half Guard]]
@@ -261,6 +269,8 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Re-flatten from Dogfight?</p>
 
 ### 1. Attempting to re-flatten using only arm strength without engaging hip drive and body weight
 
@@ -300,6 +310,8 @@ As the top player in the dogfight, your primary objective with the re-flatten is
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Re-flatten from Dogfight (Attacker)?</p>
+
 **Phase 1: Mechanics Isolation** - Individual pressure components
 Practice crossface placement, whizzer grip, and hip drive as separate movements from static dogfight position with compliant partner, focusing on proper body mechanics and weight transfer for each element individually
 
@@ -320,39 +332,12 @@ Combine the re-flatten with immediate passing attempts upon reaching half guard 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three simultaneous pressure vectors used in the re-flatten sequence?
-**A**: The three pressure vectors are crossface pressure driving the opponent's head offline, whizzer torque pulling their underhook shoulder toward the mat, and hip drive generating forward and downward force through body weight. All three must work in coordination to overcome the opponent's structural resistance and collapse their kneeling posture systematically.
-
-**Q2**: Your opponent has a shallow underhook and their outside posting leg is narrow - when should you initiate the re-flatten?
-**A**: This is the ideal moment to initiate the re-flatten because both structural supports are compromised simultaneously. The shallow underhook means your whizzer will have maximum leverage advantage, and the narrow posting leg means less lateral base to resist your driving pressure. Attack immediately before the opponent can deepen their underhook or widen their base to restore structural integrity.
-
-**Q3**: What is the most critical body position element that determines whether the re-flatten succeeds or fails?
-**A**: The crossface is the most critical element because it controls the opponent's head position, which dictates their ability to maintain forward pressure and structural integrity through the underhook. Without an effective crossface, the opponent can maintain their head position and forward drive, making the whizzer and hip pressure alone insufficient to collapse their posture.
-
-**Q4**: How should you adjust your re-flatten attempt when the opponent drops their level to enter deep half guard?
-**A**: When the opponent drops for deep half, maintain tight chest-to-chest connection and follow their downward movement rather than continuing to drive forward into empty space. Use your whizzer arm to block them from threading underneath your hips, and sprawl your hips slightly to increase downward pressure on their shoulders. If they complete the deep half entry, transition to deep half passing rather than forcing the re-flatten.
-
-**Q5**: What grip positioning on the whizzer arm maximizes your torque for the re-flatten?
-**A**: The whizzer should grip at or above the opponent's elbow on their underhook arm, with your arm threaded deeply over their arm and pulled tight against your ribs. This positioning creates the longest possible lever arm for generating rotational torque. A whizzer that only controls the wrist or forearm provides insufficient leverage to redirect the opponent's underhook force and break their structural integrity.
-
-**Q6**: Your opponent uses your forward driving pressure to initiate a sweep by redirecting your momentum laterally - what fundamental error caused this?
-**A**: The error was overcommitting weight forward beyond your center of balance without maintaining adequate base through your posted free leg. Effective re-flattening requires controlled incremental pressure where your center of gravity stays over your knees, not projected past them. The correction is to widen your free leg base, apply pressure through hip weight transfer rather than forward lunging, and maintain the ability to retract if the opponent redirects your force.
-
-**Q7**: After successfully flattening the opponent, what is your immediate priority before initiating a guard pass?
-**A**: Your immediate priority is consolidating heavy half guard top control by driving your chest onto the opponent's chest, establishing dominant crossface or underhook control, and preventing the opponent from re-inserting a knee shield or coming back up to their knees. Control their bottom knee to prevent frame re-insertion, settle your hips low and wide, and only begin your passing sequence once the opponent is fully stabilized in the flattened position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Re-flatten from Dogfight?</p>
 
 The re-flatten technique involves significant pressure application to the head and neck through the crossface and forward driving mechanics. During training, modulate crossface pressure to avoid cervical strain and communicate with your partner about neck discomfort. Avoid explosive slamming movements when driving the opponent flat, as the transition from kneeling to supine position can cause impact injuries if performed recklessly. Be mindful of your partner's knee health when maintaining the half guard leg trap during the flattening sequence, particularly if they resist by posting their trapped leg at extreme angles.
 

@@ -188,6 +188,8 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Rubber Guard Sweep?</p>
+
 - Maintain rubber guard tension throughout the sweep to prevent opponent from basing out during the positional reversal
 - Time the sweep to coincide with opponent's postural recovery attempt, using their upward momentum as the sweep catalyst
 - Generate hip elevation through a powerful bridge directed at a 45-degree angle toward the trapped-arm side
@@ -202,6 +204,8 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Rubber Guard Sweep?</p>
+
 - Established Mission Control or equivalent rubber guard configuration with opponent's near-side arm trapped firmly against your chest
 - Opponent's posture broken with head pulled below shoulder level, limiting their ability to base effectively against directional force
 - Free hand controlling opponent's head, shoulder, or far arm to direct rotational force during the sweep execution
@@ -214,6 +218,8 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Rubber Guard Sweep step by step?</p>
 
 1. **Confirm rubber guard control**: Verify that your rubber guard configuration is secure with your shin across the opponent's back, foot locked to your opposite hand, and their near-side arm trapped firmly against your chest. Your free hand should control their head or far shoulder. Ensure your hips are not flat on the mat. Maintain a slight bridge to keep your hips active and ready to generate explosive force when the sweep window opens.
 2. **Read opponent's weight distribution**: Monitor your opponent's posture and weight shifts through tactile feedback. The optimal sweep window opens when they begin driving upward or backward to recover posture. Feel for the moment their hips start to rise or their weight shifts away from your chest. This backward momentum is the energy source you will redirect into the sweep. Do not telegraph your intention by tensing prematurely.
@@ -243,6 +249,8 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Rubber Guard Sweep?</p>
+
 - **Opponent bases wide with free hand and drops weight forward to prevent hip bridge from generating sufficient elevation for the sweep** (Effectiveness: High) - Your Response: Switch to a submission attack. The wide base and dropped weight bring their head closer, opening triangle and gogoplata pathways. Use the sweep fake to create the reaction that sets up New York entry or direct triangle setup from the arm isolation. → Leads to [[Positions/Rubber Guard]]
 - **Opponent extracts trapped arm during the sweep attempt by circling or explosively pulling free, removing the base weakness the sweep relies on** (Effectiveness: High) - Your Response: Immediately transition to triangle setup as the arm extraction creates the exact space needed for your leg to cross their shoulder line. The freed arm paradoxically opens your highest-percentage submission pathway from rubber guard. → Leads to [[Positions/Rubber Guard]]
 - **Opponent drives forward aggressively to flatten bottom player and prevent hip bridge initiation through sustained chest pressure** (Effectiveness: Medium) - Your Response: Accept the forward pressure and redirect it into an omoplata entry from New York position, or use the forward commitment to set up a back take by shooting your hips out laterally and threading for hooks as they overcommit. → Leads to [[Positions/Rubber Guard]]
@@ -254,6 +262,8 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Rubber Guard Sweep?</p>
 
 ### 1. Attempting the sweep without proper rubber guard control fully established
 
@@ -293,6 +303,8 @@ Executing the Rubber Guard Sweep requires precise timing and coordination betwee
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Rubber Guard Sweep (Attacker)?</p>
+
 **Phase 1: Foundation Mechanics** - Solo hip bridge and angle drilling
 Practice explosive hip bridges at 45-degree angles without a partner, developing the hip drive and directional control needed for the sweep. Combine with rubber guard flexibility work targeting hip flexors and hamstrings. Perform 20-30 directional bridges per side, focusing on maximum elevation and proper angle.
 
@@ -313,42 +325,12 @@ Full-speed positional rounds with scoring. Starting from established rubber guar
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body position change in your opponent signals the optimal timing window for initiating the Rubber Guard Sweep?
-**A**: The optimal window opens when the opponent shifts their weight backward or upward to recover posture. You feel their hips rising and their head pulling away from your chest through the rubber guard control. This backward momentum provides the energy you redirect into the sweep. Attempting the sweep against a settled, forward-pressuring opponent is significantly less effective because there is no existing momentum to exploit.
-
-**Q2**: Why must the hip bridge be directed at a 45-degree angle rather than straight upward during this sweep?
-**A**: The 45-degree angle exploits the specific base weakness created by the rubber guard arm trap. The trapped arm prevents the opponent from posting on that side, so bridging toward the trapped-arm side forces them to rely on a base that does not exist. A straight upward bridge allows them to use their free hand to post and resist, negating the structural advantage that rubber guard provides.
-
-**Q3**: Your opponent successfully extracts their trapped arm during your sweep attempt - what is your immediate tactical response?
-**A**: Transition immediately to a triangle setup. The arm extraction creates the exact space needed for your leg to swing across their shoulder line and lock behind their head. The sweep attempt disguised the triangle entry, and the opponent's arm extraction motion actually facilitates the submission setup by creating the gap between their arm and neck that the triangle requires.
-
-**Q4**: What is the critical grip function of the free hand during sweep execution?
-**A**: The free hand pulls the opponent's head and shoulder in the sweep direction, creating rotational force that combines with the hip bridge elevation. Without this upper body control, the bridge alone is often insufficient against a resisting opponent because it produces primarily vertical force. The free hand transforms the linear upward force into a rotational sweep that exploits the opponent's compromised base on the trapped-arm side.
-
-**Q5**: How do you prevent the opponent from inserting a knee and recovering half guard during the sweep-to-mount transition?
-**A**: Maintain the rubber guard leg across the opponent's back throughout the sweep until past the tipping point, then immediately drive your hips forward as you arrive on top. Keep your chest connected to their body during the entire transition with zero gap between sweep completion and mount establishment. The seamless connection eliminates the space creation needed for knee insertion or frame building.
-
-**Q6**: What conditions in rubber guard make the sweep a better tactical choice than pursuing a submission?
-**A**: The sweep becomes the superior option when the opponent defends submissions by keeping their arms tight and chin tucked but commits to posturing up to escape rubber guard control. Their defensive posture blocks submission entries but creates the backward weight shift that feeds the sweep. The sweep is also preferable when competition time pressure demands a positional scoring opportunity rather than a higher-risk submission attempt.
-
-**Q7**: Your opponent bases wide with their free hand to resist your sweep - how do you adapt your attack?
-**A**: The wide base creates vulnerability to submission entries because the posting hand is far from their centerline and cannot defend the neck. Switch to a triangle setup since the wide posting position leaves the neck exposed. Alternatively, use the sweep fake as a setup for New York entry, as the wide base and lowered head position create the conditions for advancing through the rubber guard positional hierarchy toward dominant control.
-
-**Q8**: What mechanical role does the rubber guard leg serve during the sweep motion?
-**A**: The rubber guard leg across the opponent's back functions as a lever that amplifies the hip bridge force. It creates a fulcrum point near the opponent's shoulder line, converting your upward hip drive into rotational force that topples them. Additionally, it prevents the opponent from creating distance or disengaging during the sweep, ensuring your force is transmitted efficiently through their center of mass rather than dissipating into space.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Rubber Guard Sweep?</p>
 
 The Rubber Guard Sweep requires significant hip and hamstring flexibility. Never force the rubber guard leg position beyond your current range of motion, as this risks hip flexor strains, hamstring tears, and groin injuries. During drilling, communicate clearly with your partner about sweep timing to prevent neck compression injuries during the roll. Ensure adequate warm-up focusing on hip mobility and hamstring flexibility before practicing this technique. When landing in mount after the sweep, control your descent to avoid dropping full body weight onto your partner's torso or ribs unexpectedly.
 

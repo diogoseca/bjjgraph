@@ -214,9 +214,9 @@ The bridge escape from scarf hold sits within the broader scarf hold bottom defe
 
 - [[Positions/Side Control/Kesa Gatame]] - Traditional judo variant of the scarf hold position with similar escape principles
 
-- [[Submissions/Americana from Kesa Gatame]] - Submission threat from scarf hold that creates escape windows when opponent attacks
+- [[Submissions/Americana]] - Submission threat from scarf hold that creates escape windows when opponent attacks
 
-- [[Submissions/Arm Triangle from Scarf Hold]] - Submission threat motivating urgency to escape scarf hold control
+- [[Transitions/Arm Triangle]] - Submission threat motivating urgency to escape scarf hold control
 
 
 </section>

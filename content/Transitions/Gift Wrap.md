@@ -206,9 +206,9 @@ The Gift Wrap functions as a critical transitional hub within the mount attack s
 
 - [[Transitions/Gift Wrap to Technical Mount]] - Positional advancement while maintaining arm trap
 
-- [[Submissions/Armbar from Mount]] - Setup feint that creates Gift Wrap entry opportunities
+- [[Transitions/Mount to Armbar]] - Setup feint that creates Gift Wrap entry opportunities
 
-- [[Submissions/Ezekiel from Mount]] - Submission threat that forces defensive arm extension
+- [[Submissions/Ezekiel Choke]] - Submission threat that forces defensive arm extension
 
 - [[Positions/Back Control]] - Primary destination after Gift Wrap is established
 
@@ -216,7 +216,7 @@ The Gift Wrap functions as a critical transitional hub within the mount attack s
 
 - [[Positions/Mount/High Mount]] - Related position offering similar Gift Wrap entries
 
-- [[Transitions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap control
+- [[Submissions/Rear Naked Choke]] - Primary submission threat from established Gift Wrap control
 
 
 </section>

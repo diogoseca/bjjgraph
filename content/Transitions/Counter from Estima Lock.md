@@ -28,7 +28,7 @@ Success in this counter depends on understanding the biomechanical principles un
 
 This transition connects the Estima Lock defensive position to open guard recovery and represents an essential skill within comprehensive leg lock defense systems. The escape integrates counter-rotation principles found in other footlock defenses with grip-breaking mechanics specific to the Estima Lock's figure-four configuration. Practitioners who develop proficiency in this counter can engage more confidently in leg entanglement exchanges, knowing they possess reliable defensive options when opponents secure the characteristic inverted footlock grip.
 
-**From Position**: [[Positions/Estima Lock]] (Bottom)
+**From Position**: [[Positions/Estima Lock Control]] (Bottom)
 **Success Rate**: 40%
 
 </section>
@@ -40,7 +40,7 @@ This transition connects the Estima Lock defensive position to open guard recove
 | Result | Position | Probability |
 |--------|----------|-------------|
 | Success | [[Positions/Open Guard]] | 40% |
-| Failure | [[Positions/Estima Lock]] | 35% |
+| Failure | [[Positions/Estima Lock Control]] | 35% |
 | Counter | [[Positions/Side Control]] | 25% |
 
 
@@ -194,9 +194,9 @@ The Counter from Estima Lock connects the defensive Estima Lock bottom position 
 ## Related Techniques
 
 
-- [[Positions/Estima Lock]] - Source position where this counter is initiated from the bottom
+- [[Transitions/Estima Lock]] - Source position where this counter is initiated from the bottom
 
-- [[Submissions/Estima Lock Finish]] - The submission threat being escaped through this counter technique
+- [[Transitions/Estima Lock]] - The submission threat being escaped through this counter technique
 
 - [[Positions/Open Guard]] - Primary recovery target position upon successful counter execution
 

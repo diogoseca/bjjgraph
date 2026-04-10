@@ -214,7 +214,7 @@ This transition connects the judo-derived reverse scarf hold system to the broad
 
 - [[Transitions/Escape Reverse Scarf Hold]] - Opponent's defensive transition that creates urgency for this positional adjustment
 
-- [[Transitions/Americana]] - Submission available from both reverse scarf hold and the target side control
+- [[Submissions/Americana]] - Submission available from both reverse scarf hold and the target side control
 
 - [[Positions/Mount]] - Natural advancement from side control after completing this transition
 

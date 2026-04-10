@@ -26,14 +26,14 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Armbar Finish",
-      "text": "From this position, attempt Armbar Finish. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Far Side Armbar from KOB",
+      "text": "From this position, attempt Far Side Armbar from KOB. This technique is attempted in 13% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Baseball Bat Choke",
-      "text": "From this position, attempt Baseball Bat Choke. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Baseball Bat Choke from Knee on Belly",
+      "text": "From this position, attempt Baseball Bat Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
       "position": 3
     },
     {
@@ -44,14 +44,14 @@ description: "Master Knee on Belly Top control in BJJ. Dynamic offensive positio
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Cross Collar Choke from Knee on Belly",
+      "text": "From this position, attempt Cross Collar Choke from Knee on Belly. This technique is attempted in 11% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Back Take from Top",
-      "text": "From this position, attempt Back Take from Top. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Kimura from Knee on Belly",
+      "text": "From this position, attempt Kimura from Knee on Belly. This technique is attempted in 7% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Position Definition
 
+<p class="section-subtitle">What is Knee on Belly (Top)?</p>
+
 - One knee positioned on opponent's torso/solar plexus area with shin perpendicular to their centerline, creating direct downward pressure through the knee joint while controlling their breathing and movement
 - Opposite leg extended wide for base with foot planted firmly on the mat, toes pointing away from opponent to create stable tripod structure and enable quick transitions
 - Upper body weight distributed forward through the knee contact point while hands control opponent's collar and belt/pants, maintaining forward pressure that prevents opponent from creating space or turning into you
@@ -178,6 +180,8 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Knee on Belly (Top)?</p>
+
 - Successful guard pass to side control or direct entry from standing
 - Control of opponent's upper body through collar or cross-collar grip
 - Opponent flat on back with limited mobility
@@ -190,6 +194,8 @@ Knee on Belly Top is a highly effective transitional control position where the 
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Knee on Belly?</p>
 
 - Keep knee positioned on opponent's solar plexus or lower ribs to maximize breathing disruption and control
 - Maintain wide base with extended leg for stability and quick transitional movement
@@ -206,14 +212,16 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Knee on Belly (Top)?</p>
+
 **If opponent remains flat and defensive without creating frames:**
-- Execute **[[Transitions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Baseball Bat Choke/Attacker|Baseball Bat Choke]]** → [[game-over]] (Probability: 55%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 **If opponent pushes against knee or creates frames with arms:**
-- Execute **[[Transitions/Armbar Finish/Attacker|Armbar Finish]]** → [[Positions/Armbar Control]] (Probability: 60%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
+- Execute **[[Transitions/Far Side Armbar from KOB/Attacker|Far Side Armbar from KOB]]** → [[Positions/Armbar Control]] (Probability: 60%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 55%)
 
 
 **If opponent turns to side attempting to escape:**
@@ -222,8 +230,8 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 
 **If opponent successfully creates space by shrimping away:**
-- Execute **[[Positions/Knee on Belly/Attacker|Knee on Belly]]** → [[Positions/Side Control]] (Probability: 75%)
-- Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 65%)
+- Execute **[[Transitions/KOB to Side Control/Attacker|KOB to Side Control]]** → [[Positions/Side Control]] (Probability: 75%)
+- Execute **[[Transitions/KOB to Mount/Attacker|KOB to Mount]]** → [[Positions/Mount]] (Probability: 65%)
 
 
 
@@ -233,6 +241,8 @@ Knee on Belly Top is a highly effective transitional control position where the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Knee on Belly?</p>
 
 ### 1. Placing too much weight on the knee, causing loss of mobility and balance
 
@@ -272,6 +282,8 @@ Knee on Belly Top is a highly effective transitional control position where the 
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Knee on Belly attacks?</p>
+
 ### Knee on Belly Maintenance Drill
 
 Partner lies flat while you establish Knee on Belly Top. Partner attempts various escapes (shrimping, bridging, turning) at 50% resistance while you maintain position for 2 minutes, focusing on weight distribution and quick adjustments to counter escape attempts.
@@ -305,38 +317,6 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal knee placement for maximum pressure and control in Knee on Belly?
-**A**: The knee should be positioned directly on the opponent's solar plexus or lower ribs, with the shin perpendicular to their centerline. This placement creates direct downward pressure on the diaphragm, disrupting breathing and limiting their ability to generate power for escapes. Placing the knee too high on the chest reduces pressure effectiveness and makes it easier for the opponent to frame.
-
-**Q2**: How should weight be distributed to maintain both pressure and mobility from Knee on Belly Top?
-**A**: Weight should be distributed forward through the knee contact point while keeping the feet light and mobile. The hips stay high and mobile, allowing quick weight shifts. The opposite leg extends wide with the foot planted firmly, creating a stable tripod structure. Avoid committing full weight to the knee as this sacrifices mobility and makes you vulnerable to sweeps. Think of pressing down through the knee like a piston while your body remains ready to spring in any direction.
-
-**Q3**: Your opponent starts creating frames by placing their hands on your knee - what adjustment do you make?
-**A**: When the opponent extends their arms to frame, this creates an immediate submission opportunity. Their extended arms become vulnerable to armbars and kimuras. Capitalize by attacking the extended arm with an armbar finish or trapping the far arm for a kimura. Alternatively, use their pushing reaction to slide your knee through and transition to mount. Never allow them to frame for free — punish every arm extension.
-
-**Q4**: What are the essential grips for maintaining Knee on Belly control?
-**A**: The primary grips are near-side collar control and far-side pants or belt grip. The collar grip controls the opponent's upper body and prevents them from sitting up or turning toward you. The far-side pants/belt grip prevents them from turning away and creates control of their hip movement. Together these grips establish the control framework that enables pressure application and submission setups. In no-gi, replace collar with head/neck control and belt with hip cupping.
-
-**Q5**: Why is Knee on Belly considered a transitional rather than settling position?
-**A**: Knee on Belly's value comes from its mobility and attack versatility rather than static control. The position creates multiple dilemmas — defend submissions, prevent mount transition, or escape pressure — but prolonged stillness allows the opponent to solve these problems sequentially. Maintaining offensive momentum through constant threats keeps the opponent reactive and prevents them from executing coordinated defense. The position degrades quickly when you stop attacking.
-
-**Q6**: Your opponent begins to bridge and turn away from you - how do you respond?
-**A**: When the opponent turns away, follow their movement and look for back control. Their turning motion exposes their back, creating an opportunity to transition to back control by inserting hooks or taking the seat belt grip. Alternatively, use their turning motion to slide into north-south position if back control isn't available. Never fight their turning momentum directly — redirect it into a positional advancement that benefits you.
-
-**Q7**: How do you recover position when an opponent partially escapes by creating space with hip movement?
-**A**: When the opponent creates space through shrimping, immediately transition back to side control rather than fighting to maintain Knee on Belly. Use your grips to follow their movement and re-establish chest-to-chest pressure. From solid side control, you can re-establish Knee on Belly once they're flattened again. Chasing a compromised Knee on Belly often leads to guard recovery by the opponent.
-
-**Q8**: What role does the base leg play in effective Knee on Belly control?
-**A**: The base leg provides the stable platform that enables both pressure application and rapid transitions. It should be extended wide with toes pointing away from the opponent, creating a tripod structure with your knee and posting hand. This wide base prevents sweeps, enables quick directional changes, and allows you to post and recover if the opponent disrupts your balance. A narrow base makes the position unstable and easily countered by even basic escape attempts.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -360,11 +340,11 @@ Partner gives feedback on pressure levels as you experiment with different weigh
 - **[[Positions/Side Control]]** - Primary entry position - Knee on Belly often entered from side control
 - **[[Positions/Mount]]** - Common transition target - natural progression when opponent creates space
 - **[[Positions/North-South]]** - Alternative transition - effective when opponent escapes toward head
-- **[[Transitions/Baseball Bat Choke]]** - Primary submission - high-percentage attack from this position in gi
+- **[[Submissions/Baseball Bat Choke]]** - Primary submission - high-percentage attack from this position in gi
 - **[[Positions/Mount/S Mount]]** - Advanced variation - evolution of Knee on Belly toward mount
 - **[[Positions/Back Control]]** - Opportunistic target when opponent turns away from pressure
-- **[[Transitions/Armbar Finish]]** - Primary arm attack when opponent extends frames against knee
-- **[[Transitions/Kimura]]** - Alternative arm attack targeting opponent's far arm from top control
+- **[[Transitions/Far Side Armbar from KOB]]** - Primary arm attack when opponent extends frames against knee
+- **[[Submissions/Kimura]]** - Alternative arm attack targeting opponent's far arm from top control
 
 
 </section>

@@ -166,6 +166,8 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sickle Sweep?</p>
+
 - Guard player shifts hips to approximately 45 degrees from your centerline, creating the diagonal sweeping angle required for the sickle motion
 - Strong collar grip is established deep behind your neck combined with sleeve control, indicating upper body control setup for the sweep
 - Guard player's bottom foot repositions from distance management to pushing actively on your far hip, loading the push-pull mechanism
@@ -178,6 +180,8 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sickle Sweep?</p>
 
 - Maintain upright posture with hips back to resist the forward pull of the collar grip and prevent being loaded onto the hooked leg
 - Strip or neutralize the collar grip early, as this is the primary mechanism that prevents you from posting your hands to recover base
@@ -192,6 +196,8 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sickle Sweep?</p>
 
 ### 1. Step far leg back and widen base while stripping collar grip
 
@@ -229,6 +235,8 @@ Advanced defenders learn to use the Sickle Sweep attempt as a passing opportunit
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sickle Sweep?</p>
+
 ### → [[Positions/De La Riva Guard]]
 
 Strip the collar grip early and widen your base by stepping your far leg back before the sickle motion generates momentum. Once the immediate sweep threat is neutralized, work to address the DLR hook through backstep or pressure to begin your pass. This resets the position to a neutral guard engagement where you retain initiative.
@@ -244,6 +252,8 @@ When the sweep attempt fails completely - either through successful base widenin
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sickle Sweep?</p>
 
 ### 1. Leaning forward with weight over the hooked leg when feeling the collar grip pull
 
@@ -278,10 +288,12 @@ When the sweep attempt fails completely - either through successful base widenin
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sickle Sweep?</p>
+
 **Week 1-2: Recognition and Base Awareness** - Identifying sweep setup cues and maintaining proper base
 Partner establishes De La Riva guard and slowly goes through the Sickle Sweep setup without completing it. Defender practices recognizing the hip angle shift, collar grip establishment, and hook tension changes. Focus on maintaining wide base and upright posture. Partner signals each setup phase so defender learns to identify them in real time.
 
-**Week 3-4: Grip Fighting and Prevention** - Stripping collar grip and denying the sweeping angle
+**Week 3-4: Grips and Prevention** - Stripping collar grip and denying the sweeping angle
 Partner attempts to establish full Sickle Sweep setup with moderate resistance. Defender practices collar grip stripping techniques, base widening responses, and hook neutralization through backstep or pressure. Work on timing the grip strip before the sweep loads. Switch roles each round to understand both perspectives.
 
 **Week 5-8: Emergency Defense and Recovery** - Defending mid-sweep and recovering position when caught
@@ -294,29 +306,6 @@ Full resistance drilling where partner attempts Sickle Sweep and defender works 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a Sickle Sweep is being set up from De La Riva Guard?
-**A**: The earliest cue is when the guard player begins shifting their hips to create a 45-degree angle from your centerline while establishing a deep collar grip behind your neck. This hip angle shift is the foundation of the entire sweep - without it, the sickle motion lacks the mechanical advantage needed to generate sufficient off-balancing force. Recognizing this angle change before the collar grip is fully established gives you maximum time to respond.
-
-**Q2**: Why is stripping the collar grip more important than addressing the De La Riva hook when defending the Sickle Sweep?
-**A**: The collar grip serves as the multiplying factor that makes the sweep finish. Without it, even a perfect sickle motion can be defended by posting your hands on the mat. The collar grip prevents posting, adds directional pull force to the sweep, and controls your posture. Stripping the hook alone still leaves you vulnerable to being swept if the collar grip pull breaks your posture forward, whereas stripping the collar grip gives you immediate posting ability regardless of the hook's position.
-
-**Q3**: Your opponent has already loaded the sickle motion and you feel yourself beginning to fall - what is your emergency response?
-**A**: Post your hand firmly on the mat on the side you are being swept toward and lower your center of gravity as much as possible. Accept that the sweep may partially succeed but focus on preventing the complete topple that gives them mount. From the posted hand position, immediately look to transition your defense into an offensive scramble - you can pull guard, shoot for a single leg from the kneeling position, or use the post to backstep and establish side control before they complete the transition to top.
-
-**Q4**: How can you use the opponent's Sickle Sweep commitment as a passing opportunity?
-**A**: When the guard player commits to the sickle motion, they necessarily extend both legs and shift their weight to one side, creating a momentary opening. If you can maintain your base through the initial off-balance, their extended legs and committed hips create an excellent opportunity for a backstep pass over the extended hook, a leg drag by grabbing their extending leg and driving it across your body, or a pressure pass by dropping your weight into their extended structure. Their commitment means they cannot quickly retract to a defensive guard position.
-
-**Q5**: What base configuration provides the strongest defense against the diagonal sweeping angle of the Sickle Sweep?
-**A**: A wide, staggered stance with your far leg positioned back and laterally to the side provides maximum resistance to the diagonal sweep. This creates a triangular base where the widest dimension is aligned against the sweep's primary force vector. Your hooked leg should have a slight bend with your weight distributed toward your far leg rather than centered or forward. This configuration forces the guard player to overcome a much wider base structure and gives you more time to recognize and react to the sweep attempt.
-
-
-
-</section>
 
 
 </main>

@@ -47,8 +47,8 @@
       "relationship": "Target control position reached upon successful execution"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Primary follow-up when triangle is defended by arm extraction"
+      "name": "Rolling Armbar from Closed Guard",
+      "relationship": "Alternative submission attack from closed guard sharing similar hip movement and arm isolation mechanics"
     },
     {
       "name": "Triangle to Armbar",
@@ -59,8 +59,8 @@
       "relationship": "Alternative transition when opponent turns away or stacks"
     },
     {
-      "name": "Omoplata from Guard",
-      "relationship": "Backup attack when triangle angle is lost during entry"
+      "name": "Omoplata Sweep",
+      "relationship": "Sweep option using omoplata mechanics when triangle angle is lost during entry"
     },
     {
       "name": "Triangle to Back",
@@ -75,8 +75,8 @@
       "relationship": "Sweep option from similar angle creation position"
     },
     {
-      "name": "Kimura from Guard",
-      "relationship": "Alternative submission when arm isolation is achieved but triangle blocked"
+      "name": "Kimura Sweep",
+      "relationship": "Alternative attack when arm isolation is achieved but triangle entry is blocked"
     },
     {
       "name": "Closed Guard to Omoplata",

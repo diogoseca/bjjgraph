@@ -217,9 +217,9 @@ The back control to crucifix transition occupies a critical position in modern b
 
 - [[Transitions/Armbar from Crucifix]] - Primary submission finish after completing transition
 
-- [[Transitions/Choke from Crucifix]] - Secondary submission finish option from crucifix position
+- [[Submissions/Choke from Crucifix]] - Secondary submission finish option from crucifix position
 
-- [[Transitions/Rear Naked Choke]] - Choke threat that creates defensive reaction enabling transition
+- [[Submissions/Rear Naked Choke]] - Choke threat that creates defensive reaction enabling transition
 
 - [[Positions/Twister Control/Truck]] - Alternative dual-arm control system with different leg mechanics
 

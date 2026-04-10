@@ -166,6 +166,8 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 50-50 Entry?</p>
+
 - Opponent begins rolling their shoulders toward the mat while elevating their hips, shifting weight from seated position to upper back
 - Opponent's outside leg shoots toward the space behind your lead knee, with their calf aiming to hook behind your knee joint
 - Opponent establishes grips on your pants, ankle, or foot that pull your lead leg forward while they simultaneously begin rotating their hips
@@ -177,6 +179,8 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 50-50 Entry?</p>
 
 - Recognize inversion attempts within the first half-second and immediately address your lead leg positioning before the thread initiates
 - Maintain a wide athletic base with weight distributed evenly between both feet to deny the single-leg weight shift the attacker needs
@@ -190,6 +194,8 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 50-50 Entry?</p>
 
 ### 1. Backstep and clear your lead leg by stepping it behind your rear leg, removing the threading target entirely
 
@@ -227,6 +233,8 @@ If prevention fails and the entanglement begins forming, your defensive prioriti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 50-50 Entry?</p>
+
 ### → [[Positions/Inverted Guard]]
 
 Deny the leg thread through early backstep, leg straightening, or grip stripping before the entanglement forms. Maintain your standing base while opponent remains inverted, then immediately apply passing pressure while they are in a compromised upside-down position.
@@ -242,6 +250,8 @@ This represents the worst-case counter outcome where your opponent completes a p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 50-50 Entry?</p>
 
 ### 1. Standing with a narrow stance and weight shifted onto the lead leg while opponent plays inverted guard
 
@@ -271,6 +281,8 @@ This represents the worst-case counter outcome where your opponent completes a p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 50-50 Entry?</p>
+
 **Week 1-2** - Recognition and backstep drilling
 Partner slowly demonstrates the 50-50 Entry from inverted guard at 25% speed while you practice recognizing the initiation cues and executing the backstep. Focus on identifying the shoulder roll, hip elevation, and leg shooting motion. Drill 30+ backstep responses per session until the reaction becomes automatic.
 
@@ -287,29 +299,6 @@ Positional rounds starting with partner in inverted guard and you standing. Part
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a 50-50 Entry is being attempted against you?
-**A**: The earliest cue is your opponent rolling their shoulders toward the mat while elevating their hips from any guard position. This inversion preparation happens before the leg thread and gives you the maximum defensive window. By the time their outside leg is shooting toward your knee, you are already in a reactive position with less time to respond.
-
-**Q2**: Your opponent has hooked their calf behind your lead knee but has not yet completed the hip rotation - what is your best defensive option?
-**A**: Immediately straighten your lead leg by driving your knee forward and extending your foot, then circle your foot outward to strip the hook. Their calf needs the bend of your knee to maintain the hook - a straightened leg removes the shelf their calf is sitting on. Simultaneously shift your weight to your rear leg and begin backstepping to create additional extraction distance.
-
-**Q3**: Why is driving forward with stack pressure dangerous if the opponent has already begun threading their leg?
-**A**: Forward pressure after the thread has started actually accelerates the opponent's rotation by loading weight onto their shoulders, which is exactly the base they use for the rolling motion. Your forward drive pulls your own knee deeper into the entanglement. Stack pressure is only effective as a preemptive defense before any leg contact occurs, when it collapses the inversion entirely.
-
-**Q4**: How should your stance and weight distribution change when facing an opponent who plays inverted guard?
-**A**: Widen your stance significantly beyond your normal combat base, distribute weight evenly between both feet, and keep your knees bent at a moderate angle rather than deeply flexed. Never shift more than 60% of your weight onto your lead leg. Stay on the balls of your feet ready to backstep, and keep your lead foot ready to retract at any moment rather than planted flat on the mat.
-
-**Q5**: Your opponent's 50-50 Entry fails and they are stuck inverted without the entanglement - how do you capitalize?
-**A**: This is a prime passing opportunity. Immediately apply pressure to their inverted body by driving your hips into their elevated legs, folding them over themselves with stack pressure. Control their pants at the knees to prevent them from re-establishing guard or re-attempting the entry. Work toward passing to side control while they are compromised in the inverted position with no leg entanglement protecting them.
-
-
-
-</section>
 
 
 </main>

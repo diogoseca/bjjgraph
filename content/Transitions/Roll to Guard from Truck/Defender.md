@@ -154,6 +154,8 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Roll to Guard from Truck?</p>
+
 - Bottom player begins fighting your boot aggressively with their near hand, attempting to push your foot off their hip to reduce the torque that locks the entanglement
 - Bottom player posts their far hand on the mat in front of their face, establishing the base point needed to guide their forward roll direction
 - Bottom player tucks their chin sharply toward their chest and angles their near shoulder forward, the preparatory body position for initiating a diagonal forward roll
@@ -166,6 +168,8 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Roll to Guard from Truck?</p>
 
 - Maintain constant boot pressure on the hip as the primary mechanism preventing the roll from loosening the leg entanglement
 - Keep your weight centered rather than committed too far forward, which creates the timing window the bottom player needs
@@ -180,6 +184,8 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Roll to Guard from Truck?</p>
 
 ### 1. Increase boot pressure and sprawl hips back to flatten the bottom player
 
@@ -217,6 +223,8 @@ As the defender in the Roll to Guard from Truck, you are the top player maintain
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Roll to Guard from Truck?</p>
+
 ### → [[Positions/Twister Control/Truck]]
 
 Recognize the escape attempt early by watching for boot fighting and far hand posting. Immediately increase boot pressure while sprawling your hips back to flatten the bottom player. Secure control of their far arm to eliminate the posting hand. The earlier you shut down the attempt, the more effectively you maintain the truck position.
@@ -232,6 +240,8 @@ If the roll has already begun and cannot be stopped, stay connected to the botto
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Roll to Guard from Truck?</p>
 
 ### 1. Committing weight too far forward during twister setups, creating the exact timing window the bottom player needs to initiate the roll
 
@@ -261,6 +271,8 @@ If the roll has already begun and cannot be stopped, stay connected to the botto
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Roll to Guard from Truck?</p>
+
 **Phase 1: Recognition Drilling** - Identifying pre-roll cues
 Partner announces when they will attempt the roll. From truck top, practice recognizing the boot fighting, hand posting, and chin tuck sequence. Develop the ability to identify the escape attempt at each stage. No resistance from top player initially - focus entirely on pattern recognition.
 
@@ -274,26 +286,6 @@ Full-speed positional sparring from truck position. Top player works to maintain
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing a Roll to Guard escape?
-**A**: The earliest cue is aggressive boot fighting with the near hand. When the bottom player shifts from defending the neck and upper body to actively pushing your boot off their hip, they are prioritizing escape over submission defense. This boot fighting precedes the hand posting and chin tuck that immediately precede the roll, giving you the maximum response window.
-
-**Q2**: Why does committing your weight forward during twister setups create vulnerability to the Roll to Guard?
-**A**: Forward weight commitment is the primary timing window the bottom player reads to initiate the roll. When your weight shifts forward, you cannot sprawl back to prevent rotation, and your momentum actually assists their forward rolling motion. The bottom player uses your attacking pressure as the catalyst for their escape, converting your offensive energy into their escape momentum.
-
-**Q3**: When is it better to follow the roll into back control rather than trying to prevent it?
-**A**: Follow the roll when the bottom player has already generated significant forward momentum and your attempts to sprawl or block have failed. At this point, fighting the roll wastes energy and risks losing all control. Staying connected and flowing into back control converts the escape attempt into a position that still favors you, maintaining offensive pressure throughout the transition.
-
-**Q4**: How does controlling the bottom player's far arm prevent the Roll to Guard escape?
-**A**: The far arm is the posting hand that guides the roll direction and provides the base point for the forward rotation. Without this posting hand, the bottom player cannot perform a controlled diagonal roll over their shoulder. They are limited to uncontrolled tumbling that risks neck injury, which most practitioners will not attempt. Controlling this arm effectively eliminates the Roll to Guard as an option.
-
-
-
-</section>
 
 
 </main>

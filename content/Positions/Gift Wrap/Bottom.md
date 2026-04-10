@@ -173,6 +173,8 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Position Definition
 
+<p class="section-subtitle">What is Gift Wrap (Bottom)?</p>
+
 - One arm is trapped across defender's own body, typically with attacker's arm threading under defender's armpit and controlling the wrist or forearm on the opposite side, creating a diagonal control line that immobilizes the limb
 - Attacker maintains back control position with hooks in or body triangle established, with their chest connected to defender's back and hips positioned directly behind defender's hips for maximum control leverage
 - Defender's trapped arm is pulled high across the chest toward the opposite shoulder, limiting mobility and preventing the arm from being used for framing, grip breaking, or neck defense while creating shoulder pressure
@@ -183,6 +185,8 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Gift Wrap (Bottom)?</p>
 
 - Back control has been established with hooks or body triangle in place
 - One of defender's arms has been isolated and controlled across their body
@@ -196,6 +200,8 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Gift Wrap?</p>
 
 - Immediate priority is preventing submission - protect neck first before attempting escapes
 - Trapped arm recovery is essential - defensive capability remains severely compromised until arm is freed
@@ -212,10 +218,12 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Gift Wrap (Bottom)?</p>
+
 **If opponent is actively attacking rear naked choke with choking arm deep:**
 - Execute **[[Two-on-One Hand Defense/Attacker|Two-on-One Hand Defense]]** → [[Positions/Gift Wrap]] (Probability: 40%)
 - Execute **[[Chin Tuck and Turn/Attacker|Chin Tuck and Turn]]** → [[Positions/Gift Wrap]] (Probability: 35%)
-- Execute **[[Accept submission/Attacker|Accept submission]]** → [[Positions/Game Over]] (Probability: 25%)
+- Execute **[[Accept submission/Attacker|Accept submission]]** → [[game-over]] (Probability: 25%)
 
 
 **If opponent is consolidating Gift Wrap control without immediate submission attack:**
@@ -243,6 +251,8 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Gift Wrap?</p>
 
 ### 1. Using trapped arm to push or frame, creating additional leverage for opponent's control
 
@@ -282,6 +292,8 @@ From a training perspective, Gift Wrap Bottom should be practiced extensively be
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Gift Wrap defense?</p>
+
 ### Gift Wrap Escape Flow Drill
 
 Partner maintains Gift Wrap control at 50% resistance while defender practices systematic escape sequence: neck protection, arm recovery attempts, hip escaping, and guard recovery. Focus on smooth transitions between defensive priorities rather than explosive escapes.
@@ -315,38 +327,6 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the correct priority sequence when defending from Gift Wrap Bottom?
-**A**: The priority sequence is: first, prevent immediate submissions (especially the rear naked choke) by protecting the neck with your free hand; second, work to recover the trapped arm to restore defensive capability; third, address the back position through hip escapes or guard recovery. Attempting these out of order typically results in submission or position advancement by the attacker.
-
-**Q2**: Your opponent begins attacking the rear naked choke with their arm already under your chin - what is your immediate response?
-**A**: Immediately use your free hand to grip fight the choking arm, pulling it down and away from your neck while simultaneously tucking your chin hard toward your chest. Turn your body slightly toward the choking arm side to reduce the angle. Do not waste time on arm recovery when a choke is imminent - defend the choke first, then address the position.
-
-**Q3**: What is the proper technique for recovering the trapped arm in Gift Wrap?
-**A**: Keep the trapped arm relaxed rather than pushing against the control. Use your hips and shoulder movement to create rotational space. The key mechanics involve rotating your trapped shoulder forward while shrimping your hips in the same direction. This creates an angle that allows you to withdraw the arm along the path of least resistance. Timing the recovery when opponent shifts for a submission attempt often creates the necessary space.
-
-**Q4**: Why is staying on your side critical for escaping Gift Wrap Bottom?
-**A**: Staying on your side maintains hip mobility, which is essential for shrimping and creating escape angles. When you flatten onto your back, you lose the ability to effectively shrimp, your hips become pinned, and the opponent's control becomes significantly stronger. Side positioning also reduces the effectiveness of certain chokes and maintains better structural defense against submission attempts.
-
-**Q5**: Your opponent starts transitioning toward mount while maintaining the Gift Wrap - how should you respond?
-**A**: As they shift toward mount, use this weight transfer to bridge and create hip movement. Shrimp your hips away from the direction they are moving and try to insert a knee or shin as a frame. The mount transition momentarily reduces their back control pressure, creating an escape window. Time your hip escape to coincide with their weight shift rather than fighting against settled control.
-
-**Q6**: How do you prevent exhausting yourself while defending Gift Wrap Bottom?
-**A**: Keep your trapped arm completely relaxed instead of constantly fighting against the control. Focus on using hip movement and body positioning rather than arm strength. Wait for your opponent to attack or adjust before attempting explosive escapes. Maintain steady breathing and conserve energy for properly timed escape attempts rather than continuous struggling that accomplishes nothing.
-
-**Q7**: What common mistake leads defenders to get submitted while focusing on arm recovery?
-**A**: The most common mistake is neglecting neck defense while prioritizing arm recovery. When defenders focus entirely on freeing the trapped arm, they often remove their free hand from neck protection, creating an immediate rear naked choke opportunity. The attacker expects this mistake and waits for the opening. Always maintain neck defense with the free hand while using hip and shoulder mechanics for arm recovery.
-
-**Q8**: Your opponent is attacking your free arm for an armbar - what is your defensive protocol?
-**A**: Immediately retract the free arm close to your body, keeping the elbow tight to your ribs. Turn toward the arm being attacked to reduce extension angles. If they begin isolating the arm, you may need to accept giving up the arm momentarily to roll through the armbar attempt, using the rotation to potentially escape to turtle. Never fully extend the free arm or you lose your last defensive tool.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -372,7 +352,7 @@ Start each round from Gift Wrap Bottom position. Defender's goal is to escape to
 - **[[Positions/Turtle]]** - Emergency escape target from Gift Wrap Bottom
 - **[[Positions/Half Guard]]** - Positional recovery target via hip escape
 - **[[Transitions/Back Door Escape]]** - Broader escape system that includes Gift Wrap defense
-- **[[Principles/RNC Defense]]** - Critical defensive principle while trapped in Gift Wrap
+- **[[RNC Defense]]** - Critical defensive principle while trapped in Gift Wrap
 - **[[Transitions/Shrimp Escape]]** - Essential movement mechanic for Gift Wrap Bottom escape
 
 

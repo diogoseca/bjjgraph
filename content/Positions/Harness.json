@@ -344,7 +344,7 @@
     },
     "transitions": [
       {
-        "transition": "Rear Naked Choke",
+        "transition": "Rear Naked Choke from Harness",
         "attempt_probability": 40
       },
       {
@@ -360,11 +360,11 @@
         "attempt_probability": 4
       },
       {
-        "transition": "Bow and Arrow Choke",
+        "transition": "Bow and Arrow Choke from Harness",
         "attempt_probability": 10
       },
       {
-        "transition": "Short Choke",
+        "transition": "Short Choke from Harness",
         "attempt_probability": 5
       },
       {
@@ -392,7 +392,7 @@
         "attempt_probability": 1
       },
       {
-        "transition": "RNC from Harness",
+        "transition": "Rear Naked Choke from Harness",
         "attempt_probability": 1
       }
     ]
@@ -595,7 +595,7 @@
         "duration": "5 minutes per partner"
       },
       {
-        "name": "Two-on-One Grip Fighting Drill",
+        "name": "Two-on-One Grips Drill",
         "description": "Partner has harness grip and actively attempts to bring choking arm across neck for rear naked choke. Bottom player uses two-on-one control on choking arm to prevent choke while maintaining chin protection. Practice controlling the wrist, elbow, and tricep area. Partner slowly increases pressure over multiple rounds. Emphasize grip endurance and proper hand positioning.",
         "duration": "3 minutes per partner"
       },

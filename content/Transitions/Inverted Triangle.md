@@ -39,7 +39,7 @@ The biomechanics of the inverted triangle differ significantly from the standard
 
 | Result | Position | Probability |
 |--------|----------|-------------|
-| Success | [[game-over]] | 55% |
+| Success | [[Transitions/Inverted Triangle]] | 55% |
 | Failure | [[Positions/Triangle Control]] | 30% |
 | Counter | [[Positions/Side Control]] | 15% |
 
@@ -202,7 +202,7 @@ The inverted triangle integrates into the comprehensive triangle attack system a
 
 - [[Positions/Triangle Control]] - Starting position from which the inverted triangle is initiated
 
-- [[Submissions/Triangle Choke Front]] - Primary alternative submission from same control position
+- [[Submissions/Triangle Choke]] - Primary alternative submission from same control position
 
 - [[Transitions/Triangle to Armbar]] - Alternative attack when opponent defends by posturing up
 

@@ -190,6 +190,8 @@ The critical decision point is choosing the correct takedown direction. Your che
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Mat Return to Back Mount?</p>
+
 - Maintain unbroken chest-to-back connection throughout the entire descent to prevent opponent from creating space or turning
 - Use lower body mechanics to break opponent's base before initiating the takedown rather than relying on upper body pulling alone
 - Keep harness or seat belt grip locked and tight during transition - losing this grip turns the mat return into a scramble
@@ -204,6 +206,8 @@ The critical decision point is choosing the correct takedown direction. Your che
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Mat Return to Back Mount?</p>
+
 - Secure harness or seat belt grip with one arm over opponent's shoulder and one under their armpit, hands connected at bicep or wrist
 - Chest-to-back connection established with your torso pressing into opponent's back creating unified movement
 - At least partial hook control or body positioning that compromises opponent's base and balance
@@ -216,6 +220,8 @@ The critical decision point is choosing the correct takedown direction. Your che
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Mat Return to Back Mount step by step?</p>
 
 1. **Tighten harness control**: Secure your harness grip by pulling your choking arm elbow tight to your body while your control arm grips your own bicep or wrist, eliminating any slack in the seatbelt configuration and creating a locked connection
 2. **Assess balance and choose direction**: Feel opponent's weight distribution through your chest connection and determine whether to take them backward, to the side of your choking arm, or diagonally based on where their balance is weakest and most exploitable
@@ -245,6 +251,8 @@ The critical decision point is choosing the correct takedown direction. Your che
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Mat Return to Back Mount?</p>
+
 - **Opponent posts their foot wide and sprawls their hips back to prevent base break** (Effectiveness: High) - Your Response: Switch takedown direction to attack the opposite side where their base is now compromised, or lift the posted leg to remove their anchor point → Leads to [[Positions/Back Control/Standing Back Control]]
 - **Opponent drops to turtle preemptively before you can control the descent** (Effectiveness: Medium) - Your Response: Follow them to the mat maintaining your harness, transition to grounded back control by inserting hooks as they turtle, or attack the turtle directly with chokes → Leads to [[Positions/Turtle]]
 - **Opponent peels your grip and turns to face you during the descent** (Effectiveness: Medium) - Your Response: If harness breaks, transition to front headlock or guillotine position, using their turning momentum to establish the alternative dominant position → Leads to [[Positions/Back Control/Standing Back Control]]
@@ -256,6 +264,8 @@ The critical decision point is choosing the correct takedown direction. Your che
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Mat Return to Back Mount?</p>
 
 ### 1. Releasing harness grip during the takedown attempt
 
@@ -295,6 +305,8 @@ The critical decision point is choosing the correct takedown direction. Your che
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Mat Return to Back Mount (Attacker)?</p>
+
 **Week 1-2** - Fundamentals
 Practice the mat return against a completely compliant partner, focusing on maintaining harness connection throughout the descent, controlling the landing, and immediately establishing hooks. Drill 20-30 repetitions per session emphasizing proper mechanics over speed.
 
@@ -315,54 +327,12 @@ Implement mat return in live rolling and sparring, working to recognize opportun
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Mat Return to Back Mount?
-**A**: The primary goal is to transition from the inherently unstable standing back control position to grounded back control where submissions become more accessible, escapes are harder for the opponent, and you can consolidate your dominant position with body triangles, hooks, and sustained choking pressure.
-
-**Q2**: What position do you start Mat Return to Back Mount from?
-**A**: This technique starts from Standing Back Control Top, where you have chest-to-back connection with the opponent, harness or seat belt grip established, and both practitioners are standing. The standing position's instability is what motivates the transition to grounded control.
-
-**Q3**: What are the key grips needed for Mat Return to Back Mount?
-**A**: The essential grip is the harness or seat belt configuration with one arm over opponent's shoulder (choking arm) and one arm under their armpit (control arm), with hands connected by gripping your own bicep or wrist. This grip must remain locked throughout the entire descent to maintain back exposure.
-
-**Q4**: How do you determine the optimal direction for the mat return?
-**A**: Feel opponent's weight distribution through your chest connection and identify where their balance is weakest. If they lean forward, take them backward. If their weight favors one side, attack the opposite side. The choking arm side is often preferred as it keeps your attacking arm in optimal position upon landing.
-
-**Q5**: Your opponent posts their foot wide as you attempt the mat return - how do you adjust?
-**A**: Switch the takedown direction to attack the opposite side where their base is now compromised by the wide post, or lift the posted leg directly using your hook or a hand to remove their anchor point. Their defensive post often creates vulnerability on the opposite side that you can immediately exploit.
-
-**Q6**: What is the most critical action immediately after landing from the mat return?
-**A**: Establishing hooks inside opponent's thighs within one second of contacting the mat. This prevents turtle escapes, hip escapes, and guard recovery attempts before the opponent can organize their defense. The hooks must be prioritized even before adjusting grips or attacking submissions.
-
-**Q7**: Why should you avoid using only arm strength for the mat return?
-**A**: Relying solely on arm pulling allows opponents with good base to resist the takedown while fatiguing your grip and arms rapidly. The proper technique uses leg mechanics such as kicks, hooks, or trips to break opponent's base first, making the upper body pull just the finishing element rather than the primary force generator.
-
-**Q8**: When is the best time to attempt Mat Return to Back Mount?
-**A**: Optimal timing occurs when opponent's weight shifts creating imbalance, when they focus on grip fighting your harness leaving their base undefended, when their posture breaks forward or backward, or when submission attempts from standing have failed and you need to transition to ground for better finishing leverage.
-
-**Q9**: How do you counter an opponent who preemptively drops to turtle as you initiate the mat return?
-**A**: Follow them to the mat maintaining your harness connection, insert hooks as they turtle by driving your heels into their hip crease, and transition to grounded back control. Alternatively, attack the turtle directly with clock choke, bow and arrow setup, or crucifix entry depending on their defensive posture.
-
-**Q10**: What distinguishes the side trip mat return from the standard backward variant?
-**A**: The side trip variant uses a lateral kick to remove the opponent's near leg while driving them sideways to the mat rather than directly backward. This lands you in side-oriented back control, avoids having their full weight crash onto you, and is effective when the opponent posts strongly against backward takedowns but has weak lateral base.
-
-**Q11**: Your opponent begins aggressively hand fighting your harness during standing back control - does this help or hurt your mat return attempt?
-**A**: Their focus on hand fighting actually helps your mat return because their attention and energy shift to grip stripping rather than base maintenance. When both hands are fighting your harness, they cannot post or widen their stance effectively. This creates an ideal timing window to attack their compromised base with the mat return before they can redirect their defensive focus.
-
-**Q12**: What is the correct force direction when driving through the mat return takedown?
-**A**: The force should be directed diagonally downward at approximately 45 degrees toward the mat, not straight backward or straight down. Your hips and legs generate the primary driving force while your chest maintains connection and your arms guide direction. Driving purely backward allows posting, while driving purely down lets them widen base. The diagonal vector compromises both defensive options simultaneously.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Mat Return to Back Mount?</p>
 
 The Mat Return to Back Mount carries moderate injury risk primarily from the impact of taking opponents to the mat. Always practice on appropriate mats with sufficient padding, and drill the technique at reduced speed until both partners are comfortable with the landing mechanics. The person being taken down should learn to breakfall properly and not post their arms rigidly, which can cause shoulder and wrist injuries. The attacking partner must control the descent speed and never drop their full weight suddenly on the defender. Avoid suplex-style variations until both partners have significant experience, and never perform high-amplitude throws in training environments without explicit agreement and proper supervision. In competition, be aware of ruleset restrictions on slams and throws to the head or neck area.
 

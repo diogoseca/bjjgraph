@@ -162,6 +162,8 @@ As the defender against the Reverse Scarf to North-South transition, your object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reverse Scarf to North-South?</p>
+
 - Top player shifts their weight forward toward your head, increasing pressure on your upper chest and shoulders while reducing pressure on your lower torso
 - Top player adjusts their grip from reverse scarf arm control to a wider control position, preparing to transition grips during rotation
 - Top player begins walking their near-side leg in an arc around your body rather than maintaining static base position
@@ -174,6 +176,8 @@ As the defender against the Reverse Scarf to North-South transition, your object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reverse Scarf to North-South?</p>
 
 - Recognize the transition initiation early through weight shift and grip adjustment cues to begin defensive response before the rotation builds momentum
 - Frame on the attacker's hip immediately when you feel forward weight shift to mechanically block the rotation arc before it begins
@@ -188,6 +192,8 @@ As the defender against the Reverse Scarf to North-South transition, your object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reverse Scarf to North-South?</p>
 
 ### 1. Frame on attacker's hip with far arm to block rotation initiation
 
@@ -225,6 +231,8 @@ As the defender against the Reverse Scarf to North-South transition, your object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reverse Scarf to North-South?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your bridge or knee insertion during the rotation window when the attacker's weight shifts forward and their base narrows. As they begin walking their legs around, their base temporarily compromises, creating the opportunity to insert your near-side knee between your bodies or complete a hip escape. The key is acting during the transition phase rather than after north-south is consolidated, as escaping from established north-south is significantly harder than exploiting the transition window.
@@ -240,6 +248,8 @@ Establish a strong frame on the attacker's hip with your far arm before the rota
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reverse Scarf to North-South?</p>
 
 ### 1. Waiting until the rotation is complete to begin defensive response
 
@@ -269,6 +279,8 @@ Establish a strong frame on the attacker's hip with your far arm before the rota
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reverse Scarf to North-South?</p>
+
 **Phase 1: Recognition and Timing** - Identifying transition initiation cues
 Partner performs the transition at slow speed while you focus on feeling the recognition cues: forward weight shift, grip adjustments, and leg movement initiation. Call out each cue verbally as you detect it. Build sensitivity to the tactile signals that precede the rotation without attempting any defensive response yet.
 
@@ -285,29 +297,6 @@ Start in reverse scarf hold bottom during live positional sparring. Partner work
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the Reverse Scarf to North-South transition is being initiated?
-**A**: The earliest cue is the forward weight shift where the attacker moves their pressure from your mid-chest toward your upper chest and shoulder area. This forward loading precedes the leg rotation by several seconds and represents the preparation phase of the transition. You may also feel their grip adjusting as they prepare to release reverse scarf arm control. Recognizing this weight shift is critical because it gives you maximum time to establish your defensive frame before the rotation builds momentum.
-
-**Q2**: When is the optimal window to attempt a hip escape or knee insertion during this transition?
-**A**: The optimal window is during the mid-rotation phase when the attacker's legs are in transition between their reverse scarf base and north-south base configuration. During this walking arc, their base width is temporarily at its narrowest point, their weight distribution is shifting, and their arms may be transitioning between grip configurations. This window typically lasts only one to two seconds, so your defensive response must be pre-loaded and ready to execute the moment you feel the rotation initiate.
-
-**Q3**: How do you prevent the attacker from establishing north-south underhooks after the rotation completes?
-**A**: Keep your elbows tight to your body and your forearms actively framing against their chest throughout the entire transition. When you feel the grip transition phase where the attacker releases reverse scarf grips to seek north-south underhooks, immediately fight for inside arm position by swimming your elbows inward and pressing your forearms against their chest. The goal is to maintain frames that prevent their arms from threading under your armpits. If they secure one underhook, prioritize defending the second side to maintain at least partial defensive structure.
-
-**Q4**: What should your immediate priority be if the transition completes and you find yourself in north-south bottom?
-**A**: Immediately establish forearm frames against the attacker's chest to create breathing room and prevent full pressure consolidation. Begin small hip escapes to create cumulative space, and protect both arms from being isolated for submissions. Your most important early action is controlled breathing under the chest pressure to prevent panic and energy depletion. From there, work systematic escape sequences targeting half guard recovery through hip escape and knee insertion during the attacker's submission attempts or positional adjustments.
-
-**Q5**: Why is it strategically acceptable to remain in reverse scarf hold rather than risk the transition to north-south?
-**A**: Reverse scarf hold, while still a disadvantageous bottom position, has more mechanical vulnerabilities from the top player's perspective than north-south. The reversed orientation limits the attacker's visibility, creates base compromises from the unusual facing angle, and offers specific escape pathways through bridging toward the attacker's back. North-south provides the attacker with superior pressure distribution, more sustainable control, better submission access, and easier transitions to mount. Preventing the advancement preserves your position in a less disadvantageous pin where your escape probability is higher.
-
-
-
-</section>
 
 
 </main>

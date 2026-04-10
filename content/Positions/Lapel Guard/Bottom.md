@@ -175,6 +175,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 ## Position Definition
 
+<p class="section-subtitle">What is Lapel Guard (Bottom)?</p>
+
 - Bottom player has established control of opponent's lapel with at least one grip point feeding the fabric around opponent's body, leg, or arm—this lapel configuration creates a mechanical barrier that persists independent of hand grip strength
 - Bottom player maintains open guard structure with hips mobile and legs active, using the lapel as a supplementary control point rather than relying solely on it—this allows continued guard retention if lapel grip is lost
 - Opponent's posture is disrupted by the lapel configuration which pulls them off-balance or restricts their movement in specific directions, typically preventing them from achieving the hip contact necessary for effective pressure passing
@@ -185,6 +187,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Lapel Guard (Bottom)?</p>
 
 - Ability to extract opponent's lapel while maintaining guard position
 - Understanding of basic open guard mechanics and hip movement
@@ -198,6 +202,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Guard?</p>
 
 - Extract and configure lapel early before opponent establishes dominant passing grips
 - Use lapel as persistent control point that doesn't require constant grip maintenance
@@ -213,6 +219,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Lapel Guard (Bottom)?</p>
 
 **If opponent stands with upright posture and attempts to create distance:**
 - Execute **[[Transitions/Worm Guard Entry/Attacker|Worm Guard Entry]]** → [[Positions/Worm Guard]] (Probability: 70%)
@@ -241,6 +249,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Guard?</p>
 
 ### 1. Relying exclusively on lapel grip without maintaining leg frames or hip mobility
 
@@ -280,6 +290,8 @@ The learning curve for lapel guard is steep but rewarding. Initial sessions focu
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Lapel Guard defense?</p>
+
 ### Lapel Extraction Repetitions
 
 Partner maintains various open guard positions while you practice extracting lapels and feeding them into basic configurations. Focus on maintaining guard retention throughout the extraction process. Reset every 30 seconds regardless of success.
@@ -312,38 +324,6 @@ From established lapel guard, partner defends first submission attempt (triangle
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the essential grips for maintaining lapel guard once a worm guard configuration is established?
-**A**: The primary grip threads through the lapel fabric behind the opponent's knee, using a pistol grip or four-finger hook. The secondary grip controls the far sleeve or collar to prevent them from posturing away. Use skeletal alignment rather than muscular squeeze—hook fingers through the lapel and let body positioning maintain tension to preserve grip endurance.
-
-**Q2**: Your opponent starts driving heavy forward pressure trying to smash through your lapel configuration—what adjustment prevents the pass?
-**A**: Transition to squid guard by redirecting the lapel around their posting arm instead of their leg. Their forward pressure actually aids this reconfiguration. Alternatively, use their forward momentum to load a back take, as driving forward opens the path behind them. The key is converting their pressure into your offensive opportunity rather than fighting it directly.
-
-**Q3**: How do you distribute your weight to maintain lapel guard against a standing opponent?
-**A**: Keep your hips angled toward your lapel grip side, not flat on your back. Your non-lapel leg creates an active frame or hooks their lead leg for additional control. Shoulder weight stays light with the ability to sit up quickly for back takes. The lapel provides primary control while your hips and legs remain dynamic for transitions.
-
-**Q4**: What is the most common error when holding lapel grips, and how does it compromise retention?
-**A**: Gripping the lapel fabric with excessive forearm tension rather than structural alignment causes rapid forearm fatigue. Within 2-3 minutes of death-gripping, your control fails completely. The correction is hooking fingers through the lapel and using body positioning to maintain tension, allowing the skeletal structure rather than muscles to do the work.
-
-**Q5**: Your opponent successfully strips your primary lapel grip—what immediate recovery maintains guard?
-**A**: Transition to spider guard by immediately bicep controlling both arms, or flow to lasso guard by wrapping your leg around their arm. These traditional guards share similar control principles and don't require re-establishing the lapel configuration. Alternatively, re-extract the lapel from a safer angle before they advance position.
-
-**Q6**: How do you shut down the backstep escape when your opponent recognizes they're in worm guard?
-**A**: Maintain sleeve control on the same side as your lapel wrap to prevent them from posting and changing angle. When they begin the backstep motion, sit up aggressively and pursue the back take rather than trying to hold them in place. Their backstep actually opens the path to their back if you follow their rotation.
-
-**Q7**: Your opponent posts their hand to base while you threaten a sweep—what attack capitalizes on this reaction?
-**A**: The posted arm is vulnerable to omoplata. Rotate your hips under their posting arm while maintaining lapel control, threading your leg over their shoulder. Their base post becomes the setup for shoulder lock control. This is a classic lapel guard dilemma—defending the sweep opens the submission.
-
-**Q8**: How do you manage energy when your opponent is aggressively trying to clear your lapel configuration?
-**A**: Let the lapel configuration do the work rather than actively fighting their clearing attempts. Maintain structural grips and wait for specific reactions—their energy expenditure far exceeds yours. When they create openings through aggressive clearing, capitalize with sweeps or submissions. Patience is a weapon when you control the exchange with low energy output.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

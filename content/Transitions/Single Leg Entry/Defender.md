@@ -166,6 +166,8 @@ From a strategic perspective, consistent single leg defense relies on making the
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Single Leg Entry?</p>
+
 - Opponent drops their elevation suddenly by bending at hips and knees, lowering their head and shoulders below your chest level - this explosive level change is the primary visual indicator of an incoming shot
 - You feel a sudden forward pull through your grips or collar tie as opponent uses the connection to close distance and load their penetration step, often accompanied by their trailing hand releasing grip
 - Opponent's lead foot steps deep toward or between your legs while their posture breaks forward, indicating committed penetration step that requires immediate hip defense rather than upper body framing
@@ -178,6 +180,8 @@ From a strategic perspective, consistent single leg defense relies on making the
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Single Leg Entry?</p>
 
 - Maintain athletic stance with proper weight distribution to enable explosive sprawl reaction at all times during standing engagement
 - Deny the level change by keeping hands active in the pocket, framing on shoulders and head to occupy the space the attacker needs for entry
@@ -193,6 +197,8 @@ From a strategic perspective, consistent single leg defense relies on making the
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Single Leg Entry?</p>
 
 ### 1. Sprawl and establish front headlock - drop hips back explosively while driving weight onto opponent's upper back, then circle to their head side and secure a front headlock grip
 
@@ -230,6 +236,8 @@ From a strategic perspective, consistent single leg defense relies on making the
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Single Leg Entry?</p>
+
 ### → [[Positions/Standing Position]]
 
 Execute sprawl defense at the earliest recognition of the shot, driving your hips back and weight onto opponent's upper back. Circle immediately to their head side and use front headlock control or crossface to create separation. Extract your leg by turning your knee outward while pushing their head down. Reset to standing with active hand fighting to prevent immediate re-attack. The key is explosive initial hip defense followed by controlled positional work rather than simply trying to muscle your leg free.
@@ -245,6 +253,8 @@ When you successfully sprawl but the opponent maintains contact and tries to wor
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Single Leg Entry?</p>
 
 ### 1. Stepping backward instead of sprawling when opponent shoots - retreating with feet rather than dropping hips
 
@@ -279,6 +289,8 @@ When you successfully sprawl but the opponent maintains contact and tries to wor
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Single Leg Entry?</p>
+
 **Phase 1: Sprawl Mechanics (Weeks 1-2)** - Developing explosive hip sprawl reaction to visual and tactile shot cues
 Solo drilling of sprawl mechanics focusing on explosive hip drop with proper weight distribution. Partner provides slow-speed shot entries while you practice sprawl timing - initially with verbal warnings, then purely on visual recognition. Emphasis on hip defense happening before any hand technique. Build muscle memory for the sprawl as an automatic reaction rather than a conscious decision.
 
@@ -295,29 +307,6 @@ Full-speed standing sparring with emphasis on converting defensive success into 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is your highest-priority physical movement the instant you recognize an opponent's single leg entry?
-**A**: The highest-priority movement is dropping your hips back and down in a sprawl, driving your weight onto the opponent's upper back through your hips rather than your hands. This must happen before any upper body technique like crossface, whizzer, or guillotine. The hip sprawl removes your legs from the attacker's target zone, kills their forward momentum, and places you in a structurally dominant position. Attempting upper body techniques without first defending with your hips is the most common defensive failure, because no amount of hand fighting compensates for having your hips directly over the attacker's shoulder where they can lift you.
-
-**Q2**: Why is turning your knee outward more effective than pulling straight backward when trying to extract a captured leg?
-**A**: Turning the knee outward exploits the structural weakness in the attacker's clasped grip. Their hands are interlocked behind your thigh, creating maximum holding strength in the forward-backward plane. When you pull straight back, you fight directly against their strongest grip orientation and their entire shoulder/arm system. Rotating your knee outward creates a lateral force that presses against the small gap between their hands and wrists, which is the weakest point in any clasped grip. Additionally, the outward rotation of your knee changes the shape of your thigh, making it harder for them to maintain the tight clamp. This principle applies universally - always escape grips by attacking their weakest angle rather than their strongest.
-
-**Q3**: How should your defensive strategy differ when facing an opponent who mixes single leg entries with guard pulls?
-**A**: When facing an opponent who mixes takedowns with guard pulls, you cannot commit fully to sprawling because dropping your hips back on a guard pull attempt gives them exactly the angle and distance they want to establish their preferred guard. Instead, maintain a more upright defensive posture with active hands in the pocket, ready to either sprawl on a genuine shot or drive forward on a guard pull. The key distinction is reading their hip level and hand position: a genuine single leg entry shows explosive hip drop with both hands targeting your leg, while a guard pull shows grip establishment followed by a controlled sit. When uncertain, the safest response is a half-sprawl with hands controlling their collar and sleeve, which defends both attacks adequately without committing fully to either defensive pattern.
-
-**Q4**: Your opponent shoots a single leg and secures your leg with a tight grip, but they have poor head position with their head in your centerline - what is the optimal counter?
-**A**: When the attacker has centerline head position during a single leg, this is the optimal moment for a guillotine counter. Wrap your arm around their neck immediately, securing a chin strap or arm-in guillotine configuration. Your other hand should control their far wrist or post on their shoulder to prevent them from driving through the takedown. The centerline head position means their neck is perfectly exposed and both your arms have access to the choking line. Even if the guillotine does not finish, establishing this grip forces them to abandon the single leg to address the choke threat. This is why experienced wrestlers emphasize outside head position so heavily - centerline head position during a single leg is a critical tactical error that opens the attacker to the most dangerous counter available.
-
-**Q5**: After successfully defending a single leg attempt and establishing front headlock control, what are your immediate offensive priorities?
-**A**: Your immediate priorities from front headlock after a stuffed single leg are: first, prevent the opponent from recovering their posture by maintaining downward pressure on their head and controlling their far shoulder or tricep. Second, begin circling toward their far side to improve your angle and open up offensive options. Third, choose your primary attack based on their reaction - if they try to stand straight up, snap them back down and threaten a guillotine; if they try to back out, follow with a go-behind to back control; if they turtle defensively, attack with a darce or anaconda choke. The critical principle is treating the stuffed shot as an offensive opportunity rather than simply resetting to standing. The attacker is in a compromised posture with broken balance, and this advantage is temporary - exploit it immediately before they recover.
-
-
-
-</section>
 
 
 </main>

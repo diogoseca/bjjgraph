@@ -188,6 +188,8 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Quarter Guard?</p>
+
 - Underhook depth determines sweep power—the deeper your forearm penetrates past the armpit to contact the lat, the greater your mechanical advantage for the elevation
 - Hip angle creation through hip escape is a non-negotiable prerequisite—flat hips cannot generate the rotational force required for the reversal
 - Free leg posting provides the primary explosive force that combines with underhook leverage to create the opposing forces needed for sweep completion
@@ -202,6 +204,8 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Quarter Guard?</p>
+
 - Deep underhook established with forearm contacting opponent's lat muscle and elbow pointing toward ceiling
 - Hip angle of at least thirty degrees created through hip escape away from opponent
 - Free leg foot posted flat on mat near hip with knee bent for explosive pushing capability
@@ -214,6 +218,8 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Quarter Guard step by step?</p>
 
 1. **Secure Deep Underhook**: From quarter guard bottom with minimal leg engagement, fight to establish a deep underhook on the near side by threading your arm under opponent's armpit until your forearm contacts their lat muscle, driving your elbow toward the ceiling to maximize leverage depth and prevent stripping.
 2. **Create Angle with Hip Escape**: Execute a sharp hip escape away from the opponent to create approximately a thirty-degree angle between your hips and theirs, preventing the top player from using their weight to flatten you and establishing the directional foundation for the sweep.
@@ -243,6 +249,8 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Quarter Guard?</p>
+
 - **Opponent sprawls hips backward and drives crossface to flatten your angle** (Effectiveness: High) - Your Response: Recognize sprawl immediately and transition to deep half guard entry by threading underneath their elevated hips, or recover knee shield if space between bodies permits insertion → Leads to [[Positions/Quarter Guard]]
 - **Opponent posts far hand wide on mat creating defensive tripod base** (Effectiveness: High) - Your Response: Redirect sweep angle toward their posted hand side using far hip control to pull them over the post, or abandon sweep and immediately attack back take since posted hand exposes their back → Leads to [[Positions/Quarter Guard]]
 - **Opponent strips underhook using overhook and heavy shoulder pressure** (Effectiveness: Medium) - Your Response: Re-fight for underhook depth by turning into opponent and driving elbow upward, or if strip is complete, immediately frame against neck and hip escape to recover knee shield before pass completes → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Quarter Guard?</p>
 
 ### 1. Attempting sweep without sufficient underhook depth
 
@@ -293,6 +303,8 @@ As the attacker executing the Sweep from Quarter Guard, you are operating from a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Quarter Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo hip movement and underhook drilling
 Practice the hip escape to angle creation and posting movement pattern without a partner, focusing on the coordination between hip escape, free leg posting, and underhook driving motion until the sequence becomes automatic muscle memory
 
@@ -313,39 +325,12 @@ Apply the sweep during live rolling starting from quarter guard position, develo
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical grip for initiating the sweep from quarter guard?
-**A**: The deep underhook is the most critical grip, as it provides the primary lever for elevating the opponent and redirecting their weight. The underhook must be deep enough that your forearm contacts their lat muscle with your elbow pointing toward the ceiling. Without sufficient underhook depth, the sweep lacks the mechanical advantage needed to overcome the top player's positional advantage and weight pressure.
-
-**Q2**: When is the optimal timing window to initiate the sweep from quarter guard?
-**A**: The optimal timing window occurs when the top player commits their weight forward to complete the pass or when they post their hand on the mat to adjust their base. During these moments, their center of gravity shifts forward and their defensive base narrows, creating maximum vulnerability to the underhook-driven reversal. Initiating the sweep while they are settled with wide base significantly reduces success probability.
-
-**Q3**: Your opponent posts their far hand on the mat as you attempt the sweep—how do you adjust?
-**A**: When the opponent posts their far hand, they create a defensive tripod that prevents the sweep in the original direction. Adjust by redirecting the sweep angle toward their posted hand side, using your far hip control to pull them over the post. Alternatively, abandon the sweep and attack the back take since their posted hand exposes their back and removes one arm from defensive position.
-
-**Q4**: What role does the free leg play during sweep execution?
-**A**: The free leg serves as the primary power generator for the sweep, providing the pushing force that combines with the underhook pull to create the opposing forces needed for the reversal. The foot must be posted flat on the mat near your hip with the knee bent at approximately ninety degrees to generate maximum explosive force. Without proper free leg posting, the sweep relies entirely on upper body strength and consistently fails.
-
-**Q5**: How do you prevent the opponent from recovering guard during the sweep follow-through?
-**A**: During follow-through, maintain continuous chest-to-chest contact and keep your underhook connected until you have fully rotated to top position. The most common guard recovery occurs when the sweeper creates space between bodies during the transition. After achieving top position, immediately transition from underhook to crossface control and establish heavy hip pressure to prevent knee insertion.
-
-**Q6**: What happens if you attempt the sweep without first creating an angle with your hips?
-**A**: Attempting the sweep from a flat position without hip angle results in insufficient mechanical leverage because your body cannot generate the rotational force needed to elevate the opponent. The flat position also allows the top player to use their weight directly against you since your underhook lacks the angular advantage needed to redirect their mass. Always create at least a thirty-degree hip angle through hip escape before committing to the sweep.
-
-**Q7**: Your opponent sprawls their hips back when you begin the sweep—what is the correct response?
-**A**: When the opponent sprawls backward, they remove their center of gravity from the sweep arc but also create space between hips. Use this space immediately to either recover full half guard by inserting your knee for a knee shield, transition to deep half guard by threading underneath their elevated hips, or attempt a back take by following their backward movement and coming up on their far side with the underhook still connected.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Quarter Guard?</p>
 
 The Sweep from Quarter Guard is a relatively low-risk reversal technique with no direct joint manipulation or choking pressure. Primary safety concern is neck strain during aggressive crossface pressure from the top player—communicate with training partners about pressure levels. During the sweep itself, ensure controlled landing when achieving top position to avoid knee-on-knee collisions. Partners should practice cooperative drilling before adding resistance to prevent injury from unexpected weight shifts during the reversal.
 

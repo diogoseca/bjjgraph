@@ -162,6 +162,8 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting 3-4 Mount to S Mount?</p>
+
 - Attacker's hands shift to two-on-one control on your near-side wrist or sleeve, pulling the arm across their body
 - Weight noticeably shifts toward the mounted-side knee with increased pressure on your ribcage on that side
 - Attacker's posted leg lifts slightly or begins moving toward your head rather than maintaining its base position
@@ -174,6 +176,8 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending 3-4 Mount to S Mount?</p>
 
 - Protect the near-side arm at all costs—keep it bent with elbow tight to your ribs, never allowing isolation across the attacker's centerline
 - Recognize the transition setup early by feeling for weight shifts, grip changes, and hip rotation that precede the leg swing
@@ -188,6 +192,8 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against 3-4 Mount to S Mount?</p>
 
 ### 1. Retract the near-side arm and re-establish elbow-to-knee frame before arm isolation is complete
 
@@ -225,6 +231,8 @@ Defending the 3-4 Mount to S Mount transition requires recognizing the attack be
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending 3-4 Mount to S Mount?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time an explosive bridge to coincide with the attacker's leg swing, then immediately hip escape toward the posted leg side while the attacker's base is disrupted. Insert your near-side knee between your bodies and recover half guard entanglement on their leg before they can re-establish mount control.
@@ -240,6 +248,8 @@ Prevent the transition entirely by retracting the near-side arm early when you r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending 3-4 Mount to S Mount?</p>
 
 ### 1. Extending the near-side arm to push the attacker's leg away during the swing-over
 
@@ -274,6 +284,8 @@ Prevent the transition entirely by retracting the near-side arm early when you r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against 3-4 Mount to S Mount?</p>
+
 **Phase 1: Recognition** - Identifying transition cues from 3-4 Mount bottom
 Partner slowly performs the transition setup—grip changes, weight shifts, rotation—while you practice identifying each cue verbally. Call out what you feel: grip change on wrist, weight shifting, hips turning. Build the sensory vocabulary for recognizing this transition before it develops.
 
@@ -290,29 +302,6 @@ Partner attempts the transition at 60-80% resistance. Practice the complete defe
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from 3-4 Mount to S Mount?
-**A**: The earliest cue is feeling two-on-one grip control being established on your near-side wrist or sleeve, with your arm being pulled across the attacker's centerline. This arm isolation attempt precedes all other transition movements. If you feel this grip change, immediately fight to retract the arm before the rotation begins—once the arm is fully isolated and the attacker begins turning their hips, the transition becomes exponentially harder to prevent.
-
-**Q2**: Your opponent has isolated your arm and begins rotating their hips—what immediate action should you take?
-**A**: Frame your far arm against the attacker's near hip to physically block the perpendicular rotation. Your forearm should create a structural barrier that prevents them from completing the turn. Simultaneously, begin loading a bridge toward the mounted side so you are ready to explode when their posted leg lifts. The frame buys time; the loaded bridge creates the escape opportunity. Do not attempt both simultaneously—frame first, then bridge when the leg moves.
-
-**Q3**: When during the transition is the optimal window to attempt a bridge escape?
-**A**: The optimal window is the exact moment the attacker's posted leg leaves the ground to swing over your head. At this instant, they have reduced their base from three points of contact to two, and their center of gravity is shifting. A well-timed bridge at this moment can displace them from mount entirely, creating space to recover half guard. Bridging before the leg lifts wastes energy against a stable base, and bridging after the leg lands is too late as the S Mount base is already established.
-
-**Q4**: What should you do if the S Mount is fully established with your arm isolated?
-**A**: Immediately switch to S Mount defensive posture: grip your own collar or lapel with the trapped hand to keep the elbow bent, use your free hand to control the attacker's near leg preventing full armbar setup, and begin small hip escapes toward the attacker's legs. If the arm becomes fully extended with the attacker's hips locked against your shoulder, tap immediately—fighting a fully locked armbar risks serious elbow injury. The time to escape is during the transition, not after S Mount is consolidated.
-
-**Q5**: Why is extending the near-side arm the worst possible defensive response during this transition?
-**A**: Extending the arm straightens the elbow joint, which is exactly the position required for an armbar finish. A bent arm at 90 degrees or greater is exponentially harder to attack because the attacker must first break your grip and straighten the arm before applying the submission. By extending voluntarily—even to push the attacker's leg away—you bypass the entire grip-breaking phase and deliver your arm into the submission position. This is the single most common error that converts a survivable position into an immediate tap.
-
-
-
-</section>
 
 
 </main>

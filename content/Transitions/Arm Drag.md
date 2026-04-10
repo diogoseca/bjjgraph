@@ -214,7 +214,7 @@ The arm drag serves as a fundamental connector between numerous positions in the
 
 - [[Transitions/Arm Drag Sweep]] - Alternative application - sweep variation from bottom guard positions
 
-- [[Transitions/Rear Naked Choke]] - Follow-up submission - primary finish once back control is secured
+- [[Submissions/Rear Naked Choke]] - Follow-up submission - primary finish once back control is secured
 
 - [[Positions/Standing Position]] - Starting position - most common origin for standing arm drag attempts
 

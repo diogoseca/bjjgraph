@@ -206,9 +206,9 @@ The S Mount to Mounted Triangle transition occupies a critical position in the m
 
 - [[Transitions/Mounted Triangle Squeeze]] - Follow-up technique - finishing the triangle choke from the mounted triangle position achieved by this transition
 
-- [[Submissions/Mounted Triangle Finish]] - Terminal submission - the mounted triangle choke finish that this transition sets up
+- [[Submissions/Triangle Choke]] - Terminal submission - the mounted triangle choke finish that this transition sets up
 
-- [[Submissions/Armbar from S Mount]] - Chain partner submission - opponent defending this armbar creates the opening for the triangle transition
+- [[Transitions/Mount to Armbar]] - Chain partner transition - the broader armbar attack from mount that creates the S Mount dilemma where armbar defense opens this triangle entry
 
 - [[Positions/Mount/High Mount]] - Entry position - high mount flows to S Mount which flows to mounted triangle in the submission progression
 

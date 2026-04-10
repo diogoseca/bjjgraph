@@ -162,6 +162,8 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle from Armbar?</p>
+
 - Attacker's leg pressure across your face or neck suddenly changes, lifts, or releases from the armbar pinch position
 - You feel the attacker's hips shift laterally as they reposition to create the angle for the leg swing over your head
 - Attacker releases or significantly loosens their two-handed grip on your trapped arm, transferring to a single-hand wrist grip
@@ -174,6 +176,8 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle from Armbar?</p>
 
 - Recognize the transition initiation immediately—the moment the attacker's legs begin opening from armbar configuration is your primary action window
 - Use the transition window aggressively, as the attacker's control is at its weakest when their legs are between armbar and triangle configurations
@@ -188,6 +192,8 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle from Armbar?</p>
 
 ### 1. Explosive posture recovery during the transition window before the triangle locks
 
@@ -225,6 +231,8 @@ As the defender facing a Triangle from Armbar transition, you are caught in a di
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle from Armbar?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the transition window when the attacker's legs are between armbar and triangle configuration. Execute an explosive posture recovery combined with arm extraction during the grip transition. Drive forward and to the side, clearing your head past the attacker's legs before the triangle can lock. The brief period of reduced leg control is your primary escape opportunity—commit fully to posture recovery the instant you recognize the transition initiating.
@@ -236,6 +244,8 @@ Exploit the transition window when the attacker's legs are between armbar and tr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle from Armbar?</p>
 
 ### 1. Freezing when recognizing the transition instead of acting during the window of reduced control
 
@@ -265,6 +275,8 @@ Exploit the transition window when the attacker's legs are between armbar and tr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle from Armbar?</p>
+
 **Phase 1: Recognition** - Identifying transition cues without defensive action
 Partner executes the triangle from armbar transition at slow speed while you call out each recognition cue as it appears: leg pressure change, grip shift, leg swing initiation, lock attempt. No defensive action—focus purely on reading the transition. Perform 15 repetitions, then discuss which cues appeared earliest and most reliably.
 
@@ -281,29 +293,6 @@ Positional sparring from armbar control. Defender focuses on escaping the armbar
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the attacker is transitioning from armbar to triangle?
-**A**: The earliest cue is a change in the leg pressure across your face and neck. In armbar control, the attacker's legs create specific downward and inward pressure to control your upper body. When this pressure suddenly shifts, lifts, or releases—particularly if the far-side leg begins moving—it indicates the attacker is opening their leg configuration for the triangle transition. This leg movement precedes the grip change and arm repositioning, making it the first available signal for defensive response.
-
-**Q2**: Why is the transition window between armbar and triangle your best defensive opportunity?
-**A**: During the transition, the attacker must temporarily unlock their legs from armbar configuration before relocking in triangle configuration. This creates a brief period where their leg control over your upper body is significantly reduced—neither the armbar squeeze nor the triangle lock is active. Additionally, the attacker often transitions from a two-handed arm grip to a single-hand grip, further reducing their control. This convergence of reduced leg control and weakened grip creates a window where your posture recovery and arm extraction attempts face minimal resistance.
-
-**Q3**: How should you modify your armbar defense to simultaneously protect against the triangle transition?
-**A**: Standard armbar defense (clasped hands with bent arm, head close to attacker's hips) creates ideal triangle entry conditions. To defend both threats simultaneously, maintain your arm defense but keep your head elevated with strong posture rather than allowing it to sink toward the attacker's hips. Use your free hand to control the attacker's far leg (the one that would swing for the triangle) rather than placing it purely for armbar defense. This dual-threat awareness forces the attacker to deal with your leg control before initiating the triangle transition, buying additional reaction time.
-
-**Q4**: Your opponent locks the triangle but has not yet adjusted the angle—what is your immediate tactical priority?
-**A**: Immediately square your hips to the attacker's centerline and drive forward with stacking pressure. The triangle choke requires a 30-45 degree angle between the attacker's body and yours to achieve effective carotid compression. By squaring up and stacking before they can angle off, you neutralize the choking geometry even though the lock is established. From this squared, stacked position, work systematic triangle escapes: posture recovery, arm extraction, and eventually passing the guard. Time is critical because the attacker will actively fight to reestablish the angle.
-
-**Q5**: What is the risk of using your free hand to block the leg swing, and when is it worth taking?
-**A**: Blocking the leg swing with your free hand removes that hand from its defensive role in the armbar escape. While your hand is occupied catching the attacker's shin, you lose the ability to create frames, assist in arm extraction, or maintain defensive posture against the armbar itself. The attacker may use this momentary gap to adjust their armbar grip and accelerate the finish on your trapped arm. However, this risk is worth taking when you have a strong armbar defense position (bent arm, clasped hands solid) and the leg swing is clearly initiating—preventing the triangle is often more valuable than maintaining redundant armbar defense, since the triangle from this position is typically a higher-percentage finish than the stalled armbar.
-
-
-
-</section>
 
 
 </main>

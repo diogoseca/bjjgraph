@@ -214,7 +214,7 @@ Progression to Zombie is a critical link in the 10th Planet Rubber Guard system'
 
 - [[Positions/Closed Guard]] - Fallback position if rubber guard control fails
 
-- [[Transitions/Omoplata]] - Secondary submission pathway accessible from Zombie
+- [[Submissions/Omoplata]] - Secondary submission pathway accessible from Zombie
 
 - [[Transitions/Advance to Chill Dog]] - Alternative transition from New York toward gogoplata pathway
 

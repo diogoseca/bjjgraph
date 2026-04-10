@@ -154,6 +154,8 @@ Defending the knee slice from seated guard requires early recognition and proact
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Knee Slice from Seated Guard?</p>
+
 - Passer establishes collar grip with lead hand and reaches for your pants or knee with trail hand, forming the setup combination for the slice
 - Passer's lead foot steps between your legs or to the inside of your thigh, positioning their shin at a diagonal angle across your thigh line
 - Passer's weight shifts forward and downward as they begin to drive their knee to the mat, accompanied by their shoulder level dropping toward your upper body
@@ -166,6 +168,8 @@ Defending the knee slice from seated guard requires early recognition and proact
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Knee Slice from Seated Guard?</p>
 
 - Prevent the collar grip establishment because without it the passer cannot control your posture for the slice entry
 - Maintain active feet as distance managers, pushing on hips and knees to prevent the passer from stepping inside your guard
@@ -180,6 +184,8 @@ Defending the knee slice from seated guard requires early recognition and proact
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Knee Slice from Seated Guard?</p>
 
 ### 1. Insert knee shield across the passer's hip or chest before their knee lands across your thigh, creating a physical frame that blocks the slice angle
 
@@ -217,6 +223,8 @@ Defending the knee slice from seated guard requires early recognition and proact
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Knee Slice from Seated Guard?</p>
+
 ### → [[Positions/Seated Guard]]
 
 Deploy early knee shield or execute technical standup before the passer commits their weight forward. Aggressive grip fighting to prevent the collar-pants setup is the highest-percentage path to retaining your guard position.
@@ -232,6 +240,8 @@ If the knee slice lands but the crossface is not established, immediately pummel
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Knee Slice from Seated Guard?</p>
 
 ### 1. Sitting passively and allowing the passer to establish grips without resistance
 
@@ -261,6 +271,8 @@ If the knee slice lands but the crossface is not established, immediately pummel
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Knee Slice from Seated Guard?</p>
+
 **Phase 1: Recognition Drilling** - Identifying the knee slice setup cues before the drive begins
 Partner sets up the knee slice slowly, establishing grips and stepping inside. Practice identifying the collar grip, the pants grip, and the weight shift that precedes the knee drive. Call out each cue as you recognize it to build the pattern recognition that triggers your defensive responses automatically.
 
@@ -277,26 +289,6 @@ Start in seated guard with partner attempting the knee slice at full resistance 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest defensive action you can take to prevent a knee slice from seated guard?
-**A**: The earliest defensive action is aggressive grip fighting to prevent the passer from establishing the collar-and-pants grip combination. Without these grips, the passer cannot control your posture or legs for the slice entry. Use your hands to strip their collar grip immediately when it lands, and use your feet to push on their hips to maintain distance. The grip-fighting phase is where the pass is most easily prevented because once grips are established and the knee is in motion, your defensive options narrow significantly.
-
-**Q2**: Your opponent's knee has already landed across your thigh and they are driving forward - what is your highest-priority action?
-**A**: Your highest priority is preventing the crossface from settling. Use your near-side forearm to frame against their neck or shoulder, turning their head away or preventing them from driving their shoulder across your jaw. Without the crossface, you can still turn into them, fight for the underhook, and initiate sweeps from half guard. If the crossface establishes before you frame, you will be flattened on your back with severely limited offensive and defensive options.
-
-**Q3**: Why is the underhook the most critical grip to establish when defending in half guard after a knee slice entry?
-**A**: The underhook on the trapped-leg side provides the primary offensive pathway for sweeps, back takes, and guard recoveries from half guard. Without it, you are relegated to purely defensive framing while the passer methodically works through to side control. With the underhook, you threaten the old school sweep, the back take from half guard, and the dogfight position, all of which force the passer to defend rather than advance. The underhook transforms your position from survival mode to active attack mode.
-
-**Q4**: When is the optimal timing to attempt a technical standup against a knee slice attempt from seated guard?
-**A**: The optimal timing is during the grip-fighting phase before the passer has established both collar and pants grips. Once they control your collar, the standup becomes significantly harder because they can snap you back down. The best window opens when the passer is reaching for their second grip since they are momentarily off-balance and committed to the grip fight, giving you a clean window to post and stand. Attempting the standup after the passer has committed their weight forward risks being snapped down to front headlock.
-
-
-
-</section>
 
 
 </main>

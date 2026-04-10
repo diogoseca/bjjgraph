@@ -154,6 +154,8 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Fight to Inside Ashi from Saddle?</p>
+
 - Opponent begins rotating their trapped knee inward while reaching for their own foot or ankle to protect the heel in a deliberate, controlled manner
 - Free leg posts on your hip with increasing structural pressure rather than random pushing, creating a purposeful frame against your advancement
 - Opponent's hands shift from general defensive posture to specifically targeting your grip connections at the figure-four configuration
@@ -166,6 +168,8 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Fight to Inside Ashi from Saddle?</p>
 
 - Maintain perpendicular alignment to the opponent's body throughout their escape attempts to preserve maximum mechanical advantage
 - Hip pressure must remain constant and heavy into the trapped leg, preventing the bridging that collapses your finishing angle
@@ -181,6 +185,8 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Fight to Inside Ashi from Saddle?</p>
 
 ### 1. Re-tighten figure-four and drive hips deeper into trapped leg
 
@@ -218,6 +224,8 @@ As the defender against the fight to Inside Ashi, you are the Saddle top player 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Fight to Inside Ashi from Saddle?</p>
+
 ### → [[Positions/Ashi Garami/Saddle]]
 
 Maintain constant hip pressure and re-engage the figure-four leg configuration at the first sign of looseness during opponent's escape attempts. Attack the submission when their pummeling movement exposes the heel to force them back to purely defensive posture. Address their free leg framing early to prevent the hip movement that drives the degradation sequence.
@@ -229,6 +237,8 @@ Maintain constant hip pressure and re-engage the figure-four leg configuration a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Fight to Inside Ashi from Saddle?</p>
 
 ### 1. Allowing hip pressure to decrease when the opponent frames with their free leg on your hip
 
@@ -258,6 +268,8 @@ Maintain constant hip pressure and re-engage the figure-four leg configuration a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Fight to Inside Ashi from Saddle?</p>
+
 **Phase 1: Recognition** - Identifying escape attempt patterns early
 Partner executes the fight to Inside Ashi sequence at slow speed while you observe and identify each phase: heel protection, free leg framing, grip fighting, hip bridging, and leg pummeling. Call out each phase as it begins. Develop the ability to recognize the complete escape sequence and its individual components before they develop momentum.
 
@@ -274,26 +286,6 @@ Full live rounds starting in Saddle. Practice reading the opponent's escape prog
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is initiating a systematic fight to Inside Ashi rather than a random escape attempt?
-**A**: The earliest cue is deliberate, controlled movement rather than panicked struggles. Watch for the opponent rotating their knee inward while simultaneously reaching for their own foot to protect the heel, followed by their free leg posting firmly on your hip with structural intent rather than pushing randomly. These sequential movements indicate a trained escape protocol rather than instinctive resistance, requiring a systematic defensive response.
-
-**Q2**: When should you abandon Saddle maintenance and commit to finishing the submission during the opponent's escape attempt?
-**A**: Attack the submission when the opponent's escape movement momentarily exposes their heel, but only if you can maintain your figure-four leg configuration during the attack. If attacking requires loosening your positional control, the risk-reward is poor because a failed submission attempt from a compromised Saddle accelerates their degradation. The ideal moment is when they pummel their knee and briefly straighten their leg, temporarily exposing the heel.
-
-**Q3**: How do you prevent the opponent's free leg framing from generating enough force to clear your hip pressure?
-**A**: Use your top leg or free hand to address their framing leg before it establishes a strong structural post on your hip. Pin their free leg against your body, hook behind their knee with your arm, or use your top leg to cross-control their free leg. If the frame is already established, drive your hips forward into their trapped leg to counteract the pushing force rather than trying to remove the frame directly.
-
-**Q4**: Your opponent has partially degraded your Saddle and you feel your figure-four loosening - what is your recovery sequence?
-**A**: Immediately re-engage your outside leg hook behind their knee and drive your inside leg deeper across their hip. Increase hip pressure into their trapped leg to re-establish perpendicular alignment. Only after these structural elements are restored should you address grips on their heel or ankle. If the degradation is too advanced and re-entry to Saddle is unlikely, consider transitioning to an immediate submission attempt from the compromised position or strategically disengaging to top position.
-
-
-
-</section>
 
 
 </main>

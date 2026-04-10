@@ -192,6 +192,8 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Counter Roll to Top?</p>
+
 - Timing is everything - initiate the roll when opponent commits weight for an attack or adjustment
 - Use opponent's trapped arm control as a pivot point to generate rotational momentum
 - Bridge explosively toward the side of the trapped arm to create the rotational axis
@@ -207,6 +209,8 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Counter Roll to Top?</p>
+
 - Gift Wrap Bottom position established with one arm trapped across the body
 - Opponent commits weight forward for submission attack or positional adjustment
 - Free arm available to grip opponent's controlling arm and generate initial push-off momentum
@@ -219,6 +223,8 @@ The mechanical chain requires coordinated action across your entire body: feet d
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Counter Roll to Top step by step?</p>
 
 1. **Identify timing window**: Wait for opponent to commit weight forward or laterally, typically when attacking the neck with rear naked choke, transitioning toward mount, or tightening the arm trap. The weight shift creates temporary imbalance that the reversal exploits. Do not telegraph your intention by tensing or shifting prematurely.
 2. **Secure grip on controlling arm**: With your free hand, grip the arm that is threading under your armpit controlling your trapped arm. Secure a firm grip on their wrist or forearm using a monkey grip or C-clamp. This connection is the mechanical link that pulls them over with your rotation and must not be released.
@@ -248,6 +254,8 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Counter Roll to Top?</p>
+
 - **Opponent releases Gift Wrap and posts hand to prevent roll** (Effectiveness: High) - Your Response: If opponent releases arm trap to post, immediately recover the freed arm and address back control through standard escape sequences. You have successfully eliminated the Gift Wrap even if the full reversal fails, which is a significant positional improvement. → Leads to [[Positions/Gift Wrap]]
 - **Opponent drops weight flat and sprawls hips to kill bridge momentum** (Effectiveness: High) - Your Response: If bridge is stuffed, switch to hip escape sequence immediately rather than repeatedly attempting the roll. Use the energy opponent spent stopping the roll to create space for guard recovery through shrimping and frames. Do not burn energy on a second roll attempt. → Leads to [[Positions/Gift Wrap]]
 - **Opponent transitions to crucifix by trapping second arm during stalled roll** (Effectiveness: Medium) - Your Response: If roll stalls midway, tuck the elbow of the freed arm tight against your ribs to prevent crucifix entry. Be prepared to turtle and address crucifix defense if the roll fails partway through. The key is keeping your elbows glued to your body. → Leads to [[Positions/Back Control]]
@@ -259,6 +267,8 @@ The mechanical chain requires coordinated action across your entire body: feet d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Counter Roll to Top?</p>
 
 ### 1. Initiating roll when opponent has settled weight and is not attacking
 
@@ -298,6 +308,8 @@ The mechanical chain requires coordinated action across your entire body: feet d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Counter Roll to Top (Attacker)?</p>
+
 **Week 1-2** - Roll mechanics isolation
 Practice the bridging and rolling mechanics without resistance. Partner maintains Gift Wrap position statically while you drill gripping their controlling arm, loading the bridge, executing the explosive rotation, and posting on top. Focus on smooth continuous motion and correct bridge direction.
 
@@ -318,48 +330,12 @@ Positional sparring from Gift Wrap Bottom with full resistance. Defender attempt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Counter Roll?
-**A**: The optimal timing is when the opponent commits their weight forward or laterally, typically during a submission attack such as rear naked choke attempt, position transition toward mount, or grip adjustment to tighten the arm trap. These moments create temporary imbalance that the explosive bridge exploits for rotational reversal.
-
-**Q2**: What grip must be maintained throughout the roll and why is it critical?
-**A**: You must maintain a firm grip on the arm that threads under your armpit controlling your trapped arm, securing their wrist or forearm. This grip serves two essential purposes: it mechanically pulls the opponent over with your rotation making the reversal possible, and it allows you to inherit the Gift Wrap control on top after completion. Without this connection, you roll alone while they resettle.
-
-**Q3**: Which direction should you bridge when executing the Counter Roll?
-**A**: Bridge toward the trapped arm side, never the free arm side. The trapped arm side is where the opponent's weight is committed through their Gift Wrap control, creating the natural rotation point and axis of imbalance. Bridging toward the free arm side drives directly into the opponent's base and the roll fails completely with wasted energy.
-
-**Q4**: Your opponent drops their weight flat and stuffs your bridge attempt - what should you do?
-**A**: Immediately abandon the Counter Roll and transition to standard hip escape sequences. Do not repeatedly attempt the roll against settled resistance as this burns energy without result. Use the space and energy opponent expended sprawling to stop the roll as an opportunity to shrimp, create frames, and work toward guard recovery.
-
-**Q5**: What is the risk if you half-commit to the roll and stall midway through the rotation?
-**A**: Half-committing often results in worse positions than both success and outright failure. The incomplete rotation exposes your second arm to crucifix entries and can transition into mounted back control. The technique requires full explosive commitment because the intermediate position during rotation is the most vulnerable moment.
-
-**Q6**: Your opponent begins attacking the rear naked choke while you are planning a Counter Roll - should you proceed?
-**A**: Never attempt the Counter Roll when a rear naked choke is actively being locked in. The rotational movement can actually tighten the choke and accelerate the submission. Address choke defense first through two-on-one hand fighting and chin tuck. Only consider the Counter Roll after neutralizing the immediate choke threat, when the opponent shifts to a different attack.
-
-**Q7**: What must you do in the first two seconds after completing the roll?
-**A**: Post your free hand on the mat to stabilize, drive your chest into their back, and immediately work to establish your own Gift Wrap control by threading your arm under their armpit and controlling their wrist. Insert hooks inside their thighs. Failing to consolidate control within this window allows the opponent to scramble, recover, or escape to neutral.
-
-**Q8**: How does the Counter Roll fit into the broader Gift Wrap Bottom escape system?
-**A**: The Counter Roll is a high-variance complement to fundamental escapes like arm recovery and hip escapes. It should not be the primary escape strategy but rather an opportunistic weapon deployed when the opponent creates clear timing windows through aggressive attacks. Practitioners should develop reliable incremental escapes first and use the Counter Roll as a surprise counter when opponents become predictable.
-
-**Q9**: Your opponent releases the Gift Wrap to post their hand and stop your roll - is this a failure?
-**A**: This is actually a significant success even though the full reversal did not complete. By forcing the opponent to release the Gift Wrap arm trap, you have eliminated the primary control advantage and returned to standard back control. From here, your full defensive toolkit including both arms is available, dramatically improving your escape prospects through normal back escape sequences.
-
-**Q10**: What is the critical difference between the bridge direction in Counter Roll versus a standard bridge and roll escape from mount?
-**A**: In Counter Roll from Gift Wrap, you bridge toward the trapped arm side specifically because that is where the opponent's weight is committed through the arm threading configuration. In a standard bridge and roll from mount, you bridge over the shoulder toward the side where the opponent has less base. The principle is the same, exploiting directional imbalance, but the direction is dictated by the Gift Wrap mechanics rather than general base assessment.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Counter Roll to Top?</p>
 
 The Counter Roll to Top involves explosive rotational movement from a compromised position, which carries inherent risks. Primary injury concerns include: neck strain from rolling while under choke threat (never attempt if choke is already locked in), shoulder injury if the trapped arm is pulled beyond comfortable range during rotation, and collision injuries if training space is limited. Start all drilling with cooperative partners at low speed to develop the rolling mechanics safely. Never attempt this technique when a rear naked choke is fully secured - focus on choke defense first. Avoid this technique if you have pre-existing neck or shoulder injuries. In training, tap immediately if anything feels wrong during the rotation rather than trying to power through. Ensure adequate mat space before attempting in live rolling.
 

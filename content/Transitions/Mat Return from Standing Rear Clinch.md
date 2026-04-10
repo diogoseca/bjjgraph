@@ -42,7 +42,7 @@ The mat return also serves as a crucial decision point within the standing rear 
 | Success | [[Positions/Back Control]] | 55% |
 | Success | [[Positions/Turtle]] | 10% |
 | Failure | [[Positions/Standing Rear Clinch]] | 20% |
-| Counter | [[Positions/Scramble Position]] | 10% |
+| Counter | [[Positions/Turtle]] | 10% |
 | Counter | [[Positions/Clinch]] | 5% |
 
 

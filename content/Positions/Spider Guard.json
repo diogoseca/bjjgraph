@@ -511,7 +511,7 @@
         "duration": "5 minutes"
       },
       {
-        "name": "Grip Fighting from Spider Guard",
+        "name": "Grips from Spider Guard",
         "description": "Partner attempts to break your grips while you maintain sleeve control and re-establish grips when broken. Focus on grip strength, grip replacement strategies, and maintaining foot pressure even during grip transitions. 3-minute rounds with 30-second rest.",
         "duration": "3 minutes"
       },
@@ -584,6 +584,10 @@
         "attempt_probability": 30
       },
       {
+        "transition": "Spider Guard to Omoplata",
+        "attempt_probability": 11
+      },
+      {
         "transition": "Omoplata Sweep",
         "attempt_probability": 9
       },
@@ -600,20 +604,20 @@
         "attempt_probability": 8
       },
       {
-        "transition": "Spider Guard to Omoplata",
-        "attempt_probability": 9
-      },
-      {
         "transition": "Pendulum Sweep",
         "attempt_probability": 7
       },
       {
-        "transition": "Armbar Finish",
+        "transition": "Armbar Setup from Double Sleeve",
         "attempt_probability": 6
       },
       {
         "transition": "Guard Recovery from Spider Guard",
         "attempt_probability": 6
+      },
+      {
+        "transition": "Triangle from Spider Guard",
+        "attempt_probability": 3
       },
       {
         "transition": "Spider Sweep",
@@ -622,18 +626,6 @@
       {
         "transition": "Spider to Lasso Guard",
         "attempt_probability": 1
-      },
-      {
-        "transition": "Triangle from Spider Guard",
-        "attempt_probability": 1
-      },
-      {
-        "transition": "Omoplata from Spider Guard",
-        "attempt_probability": 2
-      },
-      {
-        "transition": "Triangle from Spider Guard Bottom",
-        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [

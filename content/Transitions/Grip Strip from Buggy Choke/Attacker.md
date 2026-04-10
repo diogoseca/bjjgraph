@@ -188,6 +188,8 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Grip Strip from Buggy Choke?</p>
+
 - Recognize when the buggy choke has stalled by monitoring grip depth, defensive frame strength, and choking pressure progression over 3-5 seconds
 - Maintain constant body pressure through chest and hips throughout the entire grip stripping and transition sequence to prevent the bottom player from creating escape space
 - Strip defensive grips in the correct sequence, removing the most structurally important defensive grip first before addressing secondary frames
@@ -202,6 +204,8 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Grip Strip from Buggy Choke?</p>
+
 - Buggy choke grips established from turtle top with threading arm under opponent's near armpit reaching toward far collar
 - Body pressure maintained through chest on opponent's back and hips heavy on near hip creating flattening force
 - Clear recognition that the choke is not progressing due to effective defensive grip fighting or framing by the bottom player
@@ -214,6 +218,8 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Grip Strip from Buggy Choke step by step?</p>
 
 1. **Assess choke viability**: Evaluate whether the buggy choke is progressing by testing grip depth and monitoring the bottom player's defensive grip strength. If the choke has stalled for more than 3-5 seconds with active defense and no deepening of the choking arm, commit to the transition rather than continuing to force the submission.
 2. **Pre-load body pressure**: Before releasing any choking grips, drive your chest weight and hips down heavily onto the bottom player to restrict their movement during the upcoming transition. This pre-loading of pressure prevents the bottom player from exploiting the brief instability when your grip configuration changes from choke to positional control.
@@ -243,6 +249,8 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Grip Strip from Buggy Choke?</p>
+
 - **Bottom player immediately re-grips or re-establishes defensive frames after each strip attempt** (Effectiveness: High) - Your Response: Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping → Leads to [[Positions/Buggy Choke]]
 - **Bottom player sits to half guard during the transitional moment when choking grips are released** (Effectiveness: High) - Your Response: Anticipate the sit-out and immediately drive crossface pressure to flatten them before they can establish half guard frames. Follow their movement with hip pressure to prevent knee insertion and guard recovery → Leads to [[Positions/Half Guard]]
 - **Bottom player tucks elbows tight and turtles down to prevent grip access during strip attempt** (Effectiveness: Medium) - Your Response: Use body weight to flatten the turtle posture first by driving hips and chest down heavily, then peel grips from the weakened defensive structure once the tightened turtle collapses under sustained pressure → Leads to [[Positions/Buggy Choke]]
@@ -254,6 +262,8 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Grip Strip from Buggy Choke?</p>
 
 ### 1. Releasing choke grips before establishing replacement control points on the bottom player
 
@@ -293,6 +303,8 @@ The Grip Strip from Buggy Choke is executed by the top player who has establishe
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Grip Strip from Buggy Choke (Attacker)?</p>
+
 **Phase 1: Recognition** - Identifying stalled chokes
 Practice holding buggy choke position with a partner who defends at various intensities. Develop the ability to recognize within 3-5 seconds whether the choke is progressing or stalled based on grip depth, defensive frame strength, and pressure progression indicators.
 
@@ -313,42 +325,12 @@ Open sparring from turtle top incorporating the grip strip as part of the comple
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary indicator that you should abandon the buggy choke and execute the grip strip transition?
-**A**: When the choke has stalled for 3-5 seconds despite sustained pressure, with the bottom player maintaining effective defensive grips or frames that prevent the choking arm from deepening. Continued effort on the stalled choke burns energy without progress while the transition to side control preserves positional advantage and offensive momentum.
-
-**Q2**: Why is it critical to increase body pressure before releasing your choking grips?
-**A**: Increasing body pressure before releasing grips restricts the bottom player's movement during the transition. Without pre-loaded pressure, the moment you release your choking grips creates a window where the bottom player has reduced control on them but your body weight is not pinning them effectively, allowing escapes like sitting to guard or performing a granby roll.
-
-**Q3**: What is the first control point you must establish when arriving in side control after the grip strip?
-**A**: The crossface must be established as the absolute first priority upon arriving in side control. Crossface control prevents the bottom player from turning their head toward you, which blocks guard recovery, turtle re-establishment, and most escape sequences. No other positional adjustment matters until the crossface is locked in and head movement is controlled.
-
-**Q4**: Your opponent re-grips their defensive frame immediately after you strip it - what adjustment should you make?
-**A**: Switch to a two-on-one grip break on their strongest defensive grip, or maintain partial choke pressure with one hand while stripping with the other to prevent simultaneous re-gripping. If re-gripping persists, increase body pressure to weaken the defensive structure before attempting the strip again rather than repeatedly stripping and allowing re-gripping in a cycle.
-
-**Q5**: How does the grip strip from buggy choke create a dilemma for the bottom player within the turtle attack system?
-**A**: The grip strip forces the bottom player to choose between defending the choke and defending the positional transition. If they grip fight aggressively to prevent the choke, they must maintain frames that the top player will strip before transitioning. If they prepare to defend the transition by changing frame orientation, they reduce their choke defense, potentially allowing the submission to finish.
-
-**Q6**: What is the ideal timing window for executing the entire grip strip to side control consolidation sequence?
-**A**: The entire transition from choke abandonment to side control consolidation should be completed within 2-3 seconds. Any longer creates excessive transitional instability where the bottom player can exploit gaps in control. The speed requirement means each step must flow directly into the next without pauses for assessment or readjustment during the sequence.
-
-**Q7**: During the grip strip, the bottom player attempts a granby roll - how should you respond?
-**A**: Maintain heavy hip pressure to prevent the rotational movement from developing. If the granby has already begun, follow the roll maintaining chest contact and establish side control on the opposite side. Alternatively, if the roll creates back exposure, abandon the side control transition entirely and take the back instead, converting the defensive reaction into an even more dominant position.
-
-**Q8**: Why should you strip defensive grips in a specific sequence rather than attacking them randomly?
-**A**: Defensive grips form a structural hierarchy where certain grips provide foundational support for the entire defensive frame. Removing the most structurally important grip first collapses the entire defensive structure more efficiently than attacking peripheral grips. Typically the grip nearest to your crossface path is the priority because removing it opens the control point that makes side control consolidation possible.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Grip Strip from Buggy Choke?</p>
 
 The grip strip from buggy choke is a positional transition with minimal injury risk compared to submission techniques. However, practitioners should be aware that rapid grip stripping can cause finger and wrist strain on both partners. When drilling, allow partners to release grips naturally rather than violently tearing grips free. During the transition, avoid dropping body weight suddenly onto a partner's spine or ribs. Communicate during practice to ensure both partners understand the transition sequence and can signal if pressure becomes excessive during positional consolidation.
 

@@ -166,6 +166,8 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Lapel Omoplata Entry?</p>
+
 - Opponent's hips begin rotating away from your posting arm while their lapel grip tightens—this hip escape creates the angle for leg threading
 - You feel a grip securing your wrist or tricep on the posting arm simultaneously with increased lapel tension pulling you off-balance
 - Opponent's outside leg begins elevating toward your shoulder line rather than remaining in guard retention position, indicating imminent omoplata entry
@@ -177,6 +179,8 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Lapel Omoplata Entry?</p>
 
 - Recognize the posting arm trap early—your hand post in response to sweep threats is the setup for the omoplata attack
 - Address the lapel configuration first when possible, as it serves as the anchor preventing standard posture recovery
@@ -190,6 +194,8 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Lapel Omoplata Entry?</p>
 
 ### 1. Early posture recovery and arm retraction before leg threads over shoulder
 
@@ -227,6 +233,8 @@ The defensive timing window is narrow but decisive. Early recognition—before t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Lapel Omoplata Entry?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Recognize the attack early during the hip rotation phase, immediately retract the posting arm while driving your weight forward. Address the lapel grip by stripping or working the fabric free. Return to standard lapel guard top position ready to resume passing.
@@ -242,6 +250,8 @@ If caught late and forced to roll forward through the omoplata, use explosive fo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Lapel Omoplata Entry?</p>
 
 ### 1. Pulling the posting arm straight backward to escape rather than driving forward
 
@@ -271,6 +281,8 @@ If caught late and forced to roll forward through the omoplata, use explosive fo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Lapel Omoplata Entry?</p>
+
 **Week 1-2** - Recognition and prevention
 Partner initiates omoplata entry at slow speed from various lapel configurations. Focus on recognizing the hip rotation and arm grip cues, then practicing immediate arm retraction and forward pressure. No resistance from attacker beyond the initial setup.
 
@@ -287,29 +299,6 @@ Full resistance positional rounds starting from lapel guard. Top player focuses 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your posting arm is being targeted for omoplata entry?
-**A**: The earliest cue is feeling the opponent's hips begin to rotate away from your posting arm while their lapel grip tightens simultaneously. This hip escape creates the angle they need to thread their leg. A secondary early cue is feeling a grip secure your wrist or tricep on the posting arm. Recognizing these cues before the leg elevates gives you the widest defensive window.
-
-**Q2**: Why is pulling your arm backward a poor defensive choice when caught in the omoplata entry?
-**A**: Pulling backward increases the shoulder rotation angle, which is exactly the direction the omoplata submission applies force. This makes the lock tighter and more painful rather than relieving pressure. It also compromises your base by shifting weight away from the opponent, opening sweep opportunities. The correct response is driving forward to reduce the rotation angle.
-
-**Q3**: Your opponent has their leg halfway over your shoulder—what is the highest-percentage escape at this stage?
-**A**: At this intermediate stage, clasp your hands together immediately to prevent full arm isolation, then drive your weight forward and circle toward the opponent to reduce the shoulder rotation angle. If they continue establishing control despite your hand clasp, transition to the forward roll escape before they sit up and secure full omoplata control with hip and belt grips.
-
-**Q4**: How should you modify your posting strategy against an opponent who plays lapel guard with omoplata threats?
-**A**: Rather than posting with an extended arm when defending sweeps, use knee-based posting and hip drops to maintain base. Keep your hands close to your body and use your knees and hips for balance adjustments. When you must post a hand, retract it immediately after stabilizing rather than leaving it extended. This eliminates the target the omoplata entry requires.
-
-**Q5**: What makes defending omoplata from lapel guard harder than defending omoplata from standard closed guard?
-**A**: The lapel configuration creates a persistent fabric anchor that prevents the standard omoplata defense of posturing away. In closed guard, you can posture up and stack to kill the attack angle. In lapel guard, the lapel wrap physically restricts your ability to create distance, meaning you must address both the fabric barrier and the arm trap simultaneously rather than relying on posture alone.
-
-
-
-</section>
 
 
 </main>

@@ -165,6 +165,8 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Position Definition
 
+<p class="section-subtitle">What is Rear Triangle (Bottom)?</p>
+
 - Opponent's legs are configured in a figure-four triangle formation around the defender's neck and one trapped arm, with the ankle locked behind the knee creating the choking mechanism while applying direct pressure to the carotid arteries on the trapped arm side
 - Defender's back is exposed to opponent with at least one arm trapped inside the triangle structure, severely limiting defensive hand fighting options and posture recovery while the opponent maintains chest-to-back contact creating forward pressure
 - Opponent maintains elements of back control including hooks or body triangle combined with the triangle configuration, creating a hybrid control position with multiple submission threats converging simultaneously on the defender
@@ -177,6 +179,8 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Rear Triangle (Bottom)?</p>
+
 - Opponent successfully transitioned from back control or seated back mount to triangle configuration
 - One of defender's arms became trapped inside the triangle structure during the transition or initial control phase
 - Opponent secured the figure-four leg lock with ankle behind knee creating the triangle choking mechanism
@@ -188,6 +192,8 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Rear Triangle?</p>
 
 - Immediately address posture and create space between head and choking leg to relieve carotid pressure and buy time
 - Focus on extracting the trapped arm from inside the triangle as the primary escape pathway before addressing other threats
@@ -204,10 +210,12 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Rear Triangle (Bottom)?</p>
+
 **If opponent's triangle is fully locked with ankle behind knee and tight pressure on carotid arteries:**
 - Execute **[[Transitions/Triangle Escape/Attacker|Triangle Escape]]** → [[Positions/Back Control]] (Probability: 25%)
 - Execute **[[Transitions/Arm Extraction/Attacker|Arm Extraction]]** → [[Positions/Turtle]] (Probability: 30%)
-- Execute **[[Tap Out/Attacker|Tap Out]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Tap Out/Attacker|Tap Out]]** → [[game-over]] (Probability: 45%)
 
 
 **If triangle is locked but defender maintains some posture and trapped arm has mobility:**
@@ -235,6 +243,8 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rear Triangle?</p>
 
 ### 1. Attempting to pull the head out first before addressing the trapped arm inside the triangle
 
@@ -279,6 +289,8 @@ Rear Triangle Bottom is a highly compromised defensive position where the practi
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Rear Triangle defense?</p>
+
 ### Rear Triangle Survival Drill
 
 Partner applies rear triangle with varying degrees of tightness while defender practices maintaining composure, chin protection, and controlled breathing for timed intervals (30-60 seconds). Focus on staying calm under pressure and recognizing the feeling of different triangle tightness levels before they become critical.
@@ -319,38 +331,6 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first priority when caught in a fully locked rear triangle and why?
-**A**: The first priority is to protect your chin by tucking it tightly to your chest and turning your face toward the non-choking leg side. This creates a defensive structure that reduces the effectiveness of the blood choke by protecting the carotid arteries from full compression. Chin protection buys you critical time to work your escape sequence before loss of consciousness.
-
-**Q2**: Your opponent starts to angle their hips more aggressively to finish the choke - what adjustment do you make?
-**A**: Grip the opponent's choking leg at the ankle or behind the knee with your free hand to prevent further hip adjustment. Simultaneously attempt to create rotation by turning your body toward the non-choking leg side. Use your trapped arm to push against the opponent's leg rather than trying to pull it out. These combined actions disrupt their finishing angle.
-
-**Q3**: Why should you extract the trapped arm before attempting to remove your head from the triangle?
-**A**: The trapped arm is what makes the triangle effective as a choke - it fills the space that would otherwise exist between your neck and the opponent's legs. Attempting to remove your head first actually tightens the choke because it drives your shoulder more deeply into your neck. By extracting the arm first, you eliminate the mechanical wedge and create space for your head to escape.
-
-**Q4**: What grip priorities should you establish with your free hand when escaping rear triangle?
-**A**: Primary grip is on the opponent's choking leg ankle or behind the knee to prevent tightening and create escape leverage. Secondary grip is on your trapped arm's wrist to assist with arm extraction. Never waste the free hand reaching for your opponent's hands behind your head - this is ineffective and exposes you to wrist control.
-
-**Q5**: How do you recognize when the triangle is transitioning to an armbar and what is your immediate response?
-**A**: The armbar transition shows when opponent begins extending their hips away while pulling down on your trapped arm and shifting their body perpendicular to yours. Immediate response is to keep your trapped arm bent and tight to your body, clasp your hands together if possible, and turn your body toward the trapped arm side to prevent elbow extension.
-
-**Q6**: Your opponent loosens the triangle to adjust position - how do you capitalize on this window?
-**A**: This is your escape opportunity. Immediately work arm extraction by pulling elbow tight to ribs and threading forearm across your centerline. Simultaneously shrimp your hips away and work to insert your knee between bodies. If the triangle is loose enough, you can roll toward the non-choking leg side to escape to guard. Speed is critical during this adjustment window.
-
-**Q7**: How do you manage breathing and energy when trapped in rear triangle under sustained pressure?
-**A**: Breathe through your nose in controlled patterns rather than gasping through your mouth. Focus on diaphragmatic breathing rather than chest breathing. Conserve energy by using technical movements rather than explosive escape attempts. Accept that escape will take multiple small movements rather than one big effort. Mental composure directly affects your breathing efficiency and escape timing.
-
-**Q8**: After successfully extracting your trapped arm, what is the immediate follow-up to complete the escape?
-**A**: Once the arm is extracted, immediately use it to frame against opponent's hip or leg while shrimping your hips away. Work to insert your bottom knee between your bodies to create a barrier. Continue turning toward the non-choking leg side while maintaining the frame. Target turtle position first as an interim goal, then work to recover guard or stand. Never stop moving once the arm is free.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -378,7 +358,7 @@ Start in fully locked rear triangle bottom position with defender earning 1 poin
 - **[[Positions/Turtle]]** - Escape target position for defensive recovery
 - **[[Transitions/Triangle Escape]]** - Primary escape technique from this position
 - **[[Transitions/Arm Extraction]]** - Essential defensive technique for escaping this position
-- **[[Transitions/Rear Naked Choke]]** - Secondary submission threat opponent may transition to
+- **[[Submissions/Rear Naked Choke]]** - Secondary submission threat opponent may transition to
 - **[[Positions/Closed Guard]]** - Alternative escape target for positional reset
 - **[[Positions/Back Control/Seat Belt Control Back]]** - Recovery position if triangle is broken but back control maintained
 

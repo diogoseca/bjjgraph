@@ -188,6 +188,8 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Reverse Kesa to Side Control?</p>
+
 - Maintain chest-to-chest pressure throughout the entire rotation — never lift your weight off the opponent during the transition
 - Secure near-side arm control before initiating the rotation to prevent frame insertion during the vulnerable transition window
 - Rotate around the contact point of your chest on their torso, using your chest as a pivot rather than lifting and repositioning
@@ -202,6 +204,8 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Reverse Kesa to Side Control?</p>
+
 - Stable Reverse Kesa-Gatame position with chest pressure established on opponent's upper torso
 - Near-side arm trapped under your armpit or controlled with firm overhook grip to prevent defensive frames
 - Wide base with legs providing stability sufficient to maintain pressure through rotational movement
@@ -213,6 +217,8 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Reverse Kesa to Side Control step by step?</p>
 
 1. **Consolidate arm control**: Confirm that the bottom player's near-side arm is securely trapped under your armpit or controlled with a deep overhook. Tighten your elbow clamp and test the control by feeling for resistance. This arm must remain controlled throughout the entire rotation to prevent them from inserting frames.
 2. **Shift weight to chest contact point**: Transfer your weight forward onto your chest, pressing heavily into the opponent's upper torso. Your chest becomes the pivot point for the rotation. Drop your shoulders lower than your hips and let gravity drive your weight into their sternum and shoulder area.
@@ -242,6 +248,8 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Reverse Kesa to Side Control?</p>
+
 - **Bottom player bridges explosively during the rotation to create space and disrupt the transition** (Effectiveness: High) - Your Response: Ride the bridge by staying connected through your chest pivot point. Widen your base immediately and drop your hips lower. If the bridge creates significant space, abandon the transition and re-settle in reverse kesa rather than forcing completion. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
 - **Bottom player inserts near knee across your hip line during the rotation gap to recover half guard** (Effectiveness: High) - Your Response: Drive your hip forward to smash the knee back down before it establishes position. If their knee is already through, immediately switch to a knee slice passing sequence from the newly formed half guard top rather than forcing the side control transition. → Leads to [[Positions/Half Guard]]
 - **Bottom player frames with free arm against your shoulder or neck during the rotation to create distance** (Effectiveness: Medium) - Your Response: Swim through or collapse the frame by driving your shoulder into their forearm. Use your chest weight to crush the frame flat. If the frame is established before you rotate, return to reverse kesa and re-secure arm control before attempting again. → Leads to [[Positions/Side Control/Reverse Kesa-Gatame]]
@@ -253,6 +261,8 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Reverse Kesa to Side Control?</p>
 
 ### 1. Lifting chest off the opponent during the rotation to reposition
 
@@ -292,6 +302,8 @@ As the top player executing the Reverse Kesa to Side Control transition, your pr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Reverse Kesa to Side Control (Attacker)?</p>
+
 **Phase 1: Solo Movement Pattern** - Rotational mechanics and body awareness
 Practice the rotation movement solo on a heavy bag or grappling dummy. Focus on keeping chest contact throughout the rotation, walking the legs around the pivot point, and ending in proper side control base. Perform 20 repetitions per side.
 
@@ -309,42 +321,12 @@ Start in reverse kesa-gatame and work live rounds where the top player must tran
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What body part serves as the primary pivot point during the rotation from reverse kesa to side control?
-**A**: Your chest serves as the pivot point. The rotation occurs around the contact point where your chest presses into the opponent's upper torso. Your weight should remain on this contact point throughout the entire movement, never lifting off the opponent. The chest acts as an anchor that maintains pressure while your legs walk around to the new orientation.
-
-**Q2**: When is the optimal timing window to initiate the transition from reverse kesa to side control?
-**A**: The safest window occurs when the bottom player is momentarily static — typically after a failed escape attempt when they are resetting, or when their near-side arm is deeply trapped and they lack the tools to disrupt the rotation. Never initiate the transition while the opponent is actively bridging, shrimping, or executing explosive escape movements, as their momentum compounds the instability of the rotation.
-
-**Q3**: Your opponent inserts their near knee during the midpoint of the rotation — what is your immediate response?
-**A**: Drive your hip forward to smash the knee back down before it establishes a half guard frame. If their knee is already through and wedged in position, do not force the side control transition. Instead, immediately switch to a knee slice passing sequence from the newly formed half guard top position, using your established upper body control to complete the pass.
-
-**Q4**: What is the critical grip transition that must happen seamlessly during the rotation?
-**A**: The transition from reverse kesa arm trap to crossface control must be seamless with zero gap. Your armpit clamp on the opponent's near arm must remain active until the exact moment your other arm slides under their head to establish crossface pressure. There should never be a point during the transition where neither control grip is active, as any gap allows the opponent to insert frames or begin escape sequences.
-
-**Q5**: How does blocking the hip line with your near knee prevent guard recovery during the transition?
-**A**: Sliding your near knee across the opponent's hip line creates a physical barrier that prevents them from inserting their knee between your bodies. This knee-on-hip contact blocks the primary guard recovery pathway available to the bottom player during the rotation. Without this block, the rotational movement creates a momentary gap at the hip line that skilled bottom players will exploit instantly to recover half guard.
-
-**Q6**: Your opponent bridges hard just as you begin walking your far leg toward their head — how do you adjust?
-**A**: Ride the bridge by staying connected through your chest pivot point rather than lifting away. Immediately widen your base by extending your far leg further and posting your near foot. Drop your hips lower to increase weight on their torso. If the bridge is powerful enough to compromise your rotation, abandon the transition attempt and re-settle into stable reverse kesa-gatame rather than forcing completion against active resistance.
-
-**Q7**: Why is the crawl transition variant preferred against experienced bottom players?
-**A**: Experienced bottom players immediately exploit any pressure gap created during fast rotational movements. The crawl transition maintains maximum chest contact throughout by moving in small increments, consolidating each adjustment before proceeding to the next. This methodical approach minimizes the transition window where the bottom player can insert frames or recover guard, trading speed for positional security against opponents who capitalize on momentary openings.
-
-**Q8**: What should your near hand do immediately after releasing the reverse kesa arm trap?
-**A**: Your near hand must immediately take an active control role — either blocking the opponent's far hip to prevent knee insertion and hip escapes, or establishing an underhook under their near arm for additional upper body control. A hand without a purpose creates dead space that the opponent can exploit. The transition from arm trap to hip block should be instantaneous, with no moment where the hand is idle or searching for position.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Reverse Kesa to Side Control?</p>
 
 This transition involves controlled rotational movement with sustained chest pressure. The primary safety concern is maintaining awareness of the bottom player's arm position during the rotation to avoid inadvertently cranking their shoulder or elbow through the trapped arm mechanism. Release arm control smoothly during the grip transition rather than jerking or twisting. In training, communicate with your partner about pressure levels and ensure the rotation speed allows them to adjust their body position. Avoid driving excessive head pressure through the crossface during drilling, as repeated crossface pressure can cause neck strain over extended training sessions.
 

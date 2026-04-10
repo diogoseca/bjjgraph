@@ -188,6 +188,8 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Escape Chill Dog?</p>
+
 - Maintain defensive frame integrity until the exact moment of escape execution - premature movement telegraphs intent
 - Use opponent's forward pressure as the catalyst for your hip escape, converting their energy into your lateral movement
 - Thread the inside leg between opponent's legs before turning to face them - leg insertion is the anchor point for half guard
@@ -202,6 +204,8 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Escape Chill Dog?</p>
+
 - Compact Chill Dog defensive frame with elbows connected to knees and rounded back maintained
 - Awareness of opponent's weight distribution and pressure direction through tactile sensitivity
 - Inside hip positioned with sufficient space for lateral hip escape movement
@@ -214,6 +218,8 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Escape Chill Dog step by step?</p>
 
 1. **Read opponent's weight distribution**: From Chill Dog, use tactile awareness through your back and shoulders to identify where opponent's weight is concentrated. Feel for forward pressure commitment, lateral weight shifts, or momentary lightness that signals grip adjustment. The escape window opens when their weight shifts forward or to one side.
 2. **Initiate hip escape laterally**: When the window opens, explosively drive your hips laterally away from the opponent's primary pressure direction. Push off your hands and knees simultaneously, using your inside arm to post and your outside leg to drive the escape. The movement must be sharp and committed - a gradual shift will be absorbed by the top player's pressure.
@@ -243,6 +249,8 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Escape Chill Dog?</p>
+
 - **Opponent follows hip escape and re-establishes chest pressure before leg insertion completes** (Effectiveness: High) - Your Response: If they follow your hip escape before you complete the leg thread, immediately switch to a Granby roll in the direction of your hip escape, using the momentum you already created. The key is not stopping your movement - redirect it into a roll rather than trying to re-insert the leg against their pressure. → Leads to [[Positions/Rubber Guard/Chill Dog]]
 - **Opponent capitalizes on the turn by inserting hooks during the rotation from turtle to guard** (Effectiveness: High) - Your Response: If you feel hooks being inserted during the rotation, immediately stop the turn and address the hooks before they establish back control. Use your inside hand to strip the near hook while keeping your elbow tight to prevent the seatbelt grip. If one hook is in, transition to back escape protocols rather than continuing the half guard recovery. → Leads to [[Positions/Back Control]]
 - **Opponent snaps down to front headlock as bottom player lifts head during escape transition** (Effectiveness: Medium) - Your Response: Keep your head tucked and chin protected throughout the escape. If they do secure a front headlock, immediately sit through to guard rather than trying to complete the half guard recovery. The front headlock from this angle is dangerous - prioritize head extraction over position improvement. → Leads to [[Positions/Rubber Guard/Chill Dog]]
@@ -254,6 +262,8 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Escape Chill Dog?</p>
 
 ### 1. Telegraphing the escape by lifting hips or shifting weight before committing to the movement
 
@@ -298,6 +308,8 @@ As the attacker executing this escape, you are the bottom player in Chill Dog tu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Escape Chill Dog (Attacker)?</p>
+
 **Phase 1: Solo Hip Escape Mechanics** - Hip escape movement pattern from turtle position
 Practice the hip escape motion from Chill Dog position without a partner. Focus on explosive lateral hip movement while maintaining compact frame, then threading the leg and turning to half guard position. Perform 20 repetitions per side, emphasizing speed and coordination between hip escape and leg insertion.
 
@@ -318,39 +330,12 @@ Start every round in Chill Dog with partner at full resistance attempting to tak
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What specific weight distribution change in your opponent signals the optimal window for initiating the hip escape?
-**A**: The optimal window opens when you feel your opponent's weight shift forward onto your upper back or laterally to one side. Forward pressure means their base is compromised backward, making it difficult for them to follow your lateral hip escape. A lateral shift means one side is lighter and available for escape. You can also feel for momentary lightness during grip transitions when they release one control point to establish another - this two to three second window is often the best opportunity for explosive execution.
-
-**Q2**: Why must the leg insertion happen simultaneously with the hip escape rather than as a separate movement?
-**A**: If you hip escape without immediately threading the leg, you create lateral space but no guard structure. The opponent simply follows your hip movement and re-establishes turtle top control in the new position - you have moved but gained nothing. The leg thread is what converts the hip escape into a position change by creating the half guard entanglement. Without it, you are doing a hip escape that ends in the same position. The coordination between hip escape and leg insertion is the fundamental mechanical skill of this technique.
-
-**Q3**: Your opponent sprawls heavily after you initiate the hip escape, pinning your hips to the mat - how do you salvage the escape attempt?
-**A**: If sprawled on before the leg threads, use the posting arm to create a frame and work a micro hip escape to create just enough space for the inside knee to slide through. Even from a flattened position, if you can get your knee between their legs, you can begin the half guard recovery. If completely flattened with no space, transition to a belly-down escape by reaching for their far ankle to break their sprawl base, then reattempt the hip escape once their weight shifts during the ankle fight.
-
-**Q4**: What grip should you immediately fight for once you establish half guard from the escape?
-**A**: Fight for the underhook on the trapped-leg side as your primary objective. This underhook transforms half guard from a neutral recovery position into an offensive sweeping platform with access to old school sweeps, back takes, and dogfight transitions. If the underhook is not immediately available due to opponent's crossface, establish a knee shield first to create distance, then work for the underhook from the protected position. The underhook is the gateway to offensive half guard.
-
-**Q5**: How do you create the escape opportunity when your opponent is maintaining perfectly centered, stable pressure?
-**A**: When the opponent is stable and settled, you must create your own opening through provocation. Make small movements that force a reaction - briefly shift your weight as if attempting a Granby roll in one direction to draw their pressure that way, then immediately hip escape to the opposite side. Alternatively, bump upward with your hips to force them to rebalance. The goal is creating a momentary weight shift that you can exploit. Never wait indefinitely for an opening that may not come.
-
-**Q6**: What is the primary risk if you turn your upper body to face the opponent before the leg hook is secured?
-**A**: Turning without the leg hook established exposes your back with no guard structure in place. The opponent can immediately insert hooks during your rotation and establish back control with seatbelt grip. The leg entanglement is what makes the turn safe because even if the opponent attempts to follow, their leg is trapped and they cannot freely insert hooks. Without that anchor, you are rotating into the most dangerous position in grappling - back exposure with no defensive structure.
-
-**Q7**: Your escape reaches half guard but the opponent immediately drives a heavy crossface - what is your priority response?
-**A**: Do not accept the crossface and fight through it. Immediately frame on their crossface shoulder with your inside arm to create space, then hip escape away to create the angle needed to get onto your side. If they have already flattened you with the crossface, insert your knee shield as a barrier between your bodies before they can fully consolidate. The knee shield gives you distance to work the crossface off and begin establishing offensive half guard. Accepting the crossface in half guard leads to a rapid pass.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Escape Chill Dog?</p>
 
 This escape involves explosive hip movement from a compact turtle position, which can strain the lower back and hip flexors if performed without proper warm-up. Practice the hip escape motion at slow speed before adding explosive timing. During partner drilling, the top player should avoid driving excessive downward pressure on the bottom player's spine during the escape attempt, as this can compress vertebrae during the lateral hip movement. If experiencing lower back discomfort during the escape, reduce the explosive intensity and focus on mechanical efficiency rather than speed. Always tap immediately if the opponent establishes a tight neck control during the escape transition.
 

@@ -290,15 +290,15 @@
         "attempt_probability": 15
       },
       {
-        "transition": "Kimura",
+        "transition": "Kimura from Reverse Kesa-Gatame",
         "attempt_probability": 15
       },
       {
-        "transition": "Americana",
-        "attempt_probability": 13
+        "transition": "Americana from Reverse Kesa-Gatame",
+        "attempt_probability": 15
       },
       {
-        "transition": "Arm Triangle",
+        "transition": "Arm Triangle from Reverse Kesa-Gatame",
         "attempt_probability": 10
       },
       {
@@ -312,10 +312,6 @@
       {
         "transition": "Reverse Kesa to Side Control",
         "attempt_probability": 3
-      },
-      {
-        "transition": "Americana from Reverse Kesa",
-        "attempt_probability": 2
       }
     ],
     "knowledge_assessment": [
@@ -400,7 +396,7 @@
         "actions": [
           {
             "technique": "Bridge and Roll",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 50
           },
           {
@@ -445,7 +441,7 @@
         "actions": [
           {
             "technique": "Bridge and Roll",
-            "target": "Scramble Position",
+            "target": "Standing Position",
             "probability": 45
           },
           {

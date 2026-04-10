@@ -162,6 +162,8 @@ As the butterfly guard player, defending against passes requires proactive hook 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Butterfly Hook Control?</p>
+
 - Passer establishes strong crossface or collar grip and begins driving your head away from the pass-side direction
 - Passer's knee begins targeting your near-side hook with deliberate downward pinning pressure against your instep
 - Passer shifts weight laterally while maintaining upper body control, indicating commitment to a specific pass direction
@@ -174,6 +176,8 @@ As the butterfly guard player, defending against passes requires proactive hook 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Butterfly Hook Control?</p>
 
 - Maintain upright posture at all times—the passer cannot effectively neutralize your hooks while your seated posture remains strong and head stays elevated
 - Active hook management means constantly adjusting hook depth and pressure rather than holding static positions that are easy to pin
@@ -188,6 +192,8 @@ As the butterfly guard player, defending against passes requires proactive hook 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Butterfly Hook Control?</p>
 
 ### 1. Re-insert hooks by hip escaping and pumping hooks deep before passer consolidates the pin
 
@@ -225,6 +231,8 @@ As the butterfly guard player, defending against passes requires proactive hook 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Butterfly Hook Control?</p>
+
 ### → [[Positions/Mount]]
 
 Time an explosive hook sweep precisely when the passer shifts weight laterally during their pass attempt. The moment they commit to one side to pin a hook, their opposite side becomes light. Use your upper body grip to pull them into the sweep direction while elevating aggressively with the hook on their light side. This is the highest-value defensive outcome.
@@ -240,6 +248,8 @@ Maintain active hook pressure and strong upper body grips throughout the exchang
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Butterfly Hook Control?</p>
 
 ### 1. Allowing posture to be broken flat to the mat during initial grip exchange with the passer
 
@@ -269,6 +279,8 @@ Maintain active hook pressure and strong upper body grips throughout the exchang
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Butterfly Hook Control?</p>
+
 **Recognition Drilling** - Identifying pass initiation cues
 Partner begins butterfly pass at 25% speed while you verbally call out each recognition cue as it appears—grip changes, weight shifts, hook targeting. Develop automatic pattern recognition before adding physical defense responses.
 
@@ -285,29 +297,6 @@ Positional sparring where successful pass defense must immediately convert to a 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a butterfly hook pass is being initiated?
-**A**: The passer's grip changes from neutral engagement to directional control—specifically when they establish a strong crossface or collar grip while controlling your sleeve or wrist on the pass side. This grip configuration is the precursor to all butterfly hook passes because it controls your posture and denies your directional sweep grips. Recognizing this grip change gives you the maximum time window to counter before your hooks are addressed.
-
-**Q2**: Your near-side hook has been fully pinned to the mat—what is your best immediate response?
-**A**: Transition to half guard by inserting your near-side knee across the passer's hip line as a knee shield. Do not fight to re-insert the butterfly hook against an established pin—this wastes energy and rarely succeeds against a competent passer. The knee shield transition preserves your guard structure while giving you underhook access and sweep options from half guard. Speed is critical since the window between losing one hook and complete pass is typically only two to three seconds.
-
-**Q3**: How do you maintain hook effectiveness when the passer applies heavy forward pressure?
-**A**: Use the passer's forward pressure against them by maintaining your hooks at the crease of their hips and redirecting their weight laterally for sweeps. Heavy forward pressure actually increases your sweep leverage because their weight is loaded onto your hooks. The key is maintaining strong upper body grips to direct the sweep—without grips, the pressure simply flattens you. If pressure is too great to maintain posture, consider transitioning to deep half guard by getting your shoulder underneath their base.
-
-**Q4**: What determines whether you should attempt a sweep or transition to alternative guard when the pass begins?
-**A**: The timing of your recognition determines your options. If you recognize the pass within the first one to two seconds of initiation while both hooks are still active, you have time for a sweep attempt. If one hook is already partially compromised, sweeping becomes risky and transitioning to half guard or knee shield is safer. The quality of your remaining grips also factors in—strong grips with both hooks favor sweep attempts while compromised grips favor immediate guard transitions.
-
-**Q5**: Your opponent stands up during their pass attempt, removing your hook elevation angle—what do you do?
-**A**: Immediately transition from butterfly hooks to X-guard or single leg X-guard by extending one hook underneath their standing leg while gripping their far ankle. Standing removes the butterfly hook elevation angle but creates the distance and leg positioning needed for X-guard entries. The transition must be immediate—if you remain seated with shallow hooks against a standing opponent, they will simply step around your guard. Use your grips to control their posture while you reconfigure your legs.
-
-
-
-</section>
 
 
 </main>

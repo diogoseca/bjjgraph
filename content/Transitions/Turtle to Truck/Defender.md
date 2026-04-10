@@ -162,6 +162,8 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Turtle to Truck?</p>
+
 - Opponent shifts from directly behind you to a perpendicular angle against your ribs, changing from chest-on-back pressure to side-riding position
 - You feel a hand or arm reaching under your body to grip your far knee or shin from the inside, threading between your body and the mat
 - Opponent's near leg begins threading between your legs or behind your far thigh, with their shin contacting the back of your leg
@@ -174,6 +176,8 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Turtle to Truck?</p>
 
 - Deny far leg access by keeping knees together and elbows tight to inner thighs in turtle
 - Recognize the attack immediately - any reaching under your body for the far leg signals Truck intent
@@ -189,6 +193,8 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Turtle to Truck?</p>
 
 ### 1. Explosive sit-back to heavy base - drive your hips back toward your heels and flatten your body, squeezing your knees together to deny far leg access
 
@@ -226,6 +232,8 @@ Defending the Turtle to Truck transition requires early recognition and immediat
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Turtle to Truck?</p>
+
 ### → [[Positions/Turtle]]
 
 Deny the far leg grip by sitting back heavily onto your heels with knees squeezed together, collapsing the space the attacker needs to reach under your body. If their reaching arm is trapped, use the moment to turn into them and re-establish turtle with you as the defender in a stronger position, forcing the attacker to restart their attack sequence.
@@ -241,6 +249,8 @@ Stand up explosively when you feel the attacker drop their weight low for the le
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Turtle to Truck?</p>
 
 ### 1. Ignoring the far leg threat and focusing only on defending the neck or upper body grips
 
@@ -275,6 +285,8 @@ Stand up explosively when you feel the attacker drop their weight low for the le
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Turtle to Truck?</p>
+
 **Phase 1: Recognition and early defense** - Identifying Truck entry signals and executing immediate defensive reactions
 Partner slowly demonstrates Truck entry from turtle while you practice recognizing the perpendicular shift and far leg reach. Execute sit-back defense and standup defense at 25% speed. Drill 15 repetitions of each defensive response. Focus on building the recognition-to-reaction neural pathway before adding speed or resistance.
 
@@ -291,29 +303,6 @@ Start from turtle with partner attacking freely, including Truck entries mixed w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a Turtle to Truck transition rather than a traditional back take?
-**A**: The earliest cue is the opponent shifting from a chest-on-back position directly behind you to a perpendicular angle against your ribs. Traditional back takes maintain behind positioning with the goal of inserting hooks and establishing seatbelt control. The Truck entry requires side-riding position to access the far leg, so the lateral weight shift is the first divergence point. A hand reaching under your body toward the far leg confirms the intent. Recognizing this shift early gives you a 2-3 second window to execute defensive action before the hook is inserted.
-
-**Q2**: Your opponent has gripped your far knee from underneath but has not yet inserted their leg hook - what is the highest percentage defensive response?
-**A**: The highest percentage response is an immediate explosive sit-back, driving your hips toward your heels while squeezing your knees together. This accomplishes three things simultaneously: it traps their reaching arm under your body weight making it difficult to maintain the grip, it closes the space between your legs that they need for hook insertion, and it shifts your weight posteriorly where they cannot easily redirect you. If the sit-back is decisive enough, the attacker must release the grip and reset entirely. Combine the sit-back with turning toward the attacker to face them, which further denies the perpendicular angle required for Truck entry.
-
-**Q3**: The attacker has partially inserted their leg hook but has not yet locked the triangle - should you attempt to stand or execute a granby roll?
-**A**: With a partial hook but no triangle lock, the granby roll toward the side opposite the hook is generally the higher-percentage escape. Standing with a partial hook risks the attacker using your upward momentum to pull you off balance and accelerate the entry. The granby roll generates rotational force that strips the partial hook as you turn your body away from the entanglement. The key is explosive commitment to the roll before the attacker can bring their second leg over to complete the triangle. If you feel the second leg starting to come over during the roll, accelerate your rotation rather than slowing down.
-
-**Q4**: How does defending the Turtle to Truck transition differ from defending a traditional back take from turtle?
-**A**: Traditional back take defense focuses on hand fighting against seatbelt grips, preventing hook insertion by keeping your hips low and elbows tight, and creating movement to prevent the attacker from settling. Truck defense requires monitoring a different attack vector entirely - the far leg and perpendicular positioning. While back take defense is primarily upper-body oriented (hands, neck, shoulder control), Truck defense demands lower-body awareness (leg positioning, hip height, knee proximity). The defensive actions also differ: sitting back stops Truck entries but can feed a traditional back take, while keeping hips elevated defends back takes but creates space for Truck entries. You must read which attack your opponent is pursuing to select the correct defensive framework.
-
-**Q5**: Your opponent has locked the full leg triangle and established boot pressure - what escape options remain and what is the priority sequence?
-**A**: Once the Truck is fully established, the priority sequence is: first, protect your neck and spine by tucking your chin and preventing the attacker from controlling your far arm for the Twister. Second, fight the boot pressure using your free hand to push or strip the foot from your hip, as removing the boot eliminates the torque that powers all attacks. Third, work to extract your trapped leg by bending it sharply and using hip rotation to create space within the triangle. Fourth, attempt a forward roll or granby roll to escape the entanglement once you have reduced at least one control point. Escape probability is significantly lower at this stage, so if submissions begin applying, tap early rather than risking spinal or knee injury.
-
-
-
-</section>
 
 
 </main>

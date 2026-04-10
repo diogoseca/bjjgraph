@@ -162,6 +162,8 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting KOB to Side Control?</p>
+
 - Opponent begins lowering their center of gravity and dropping their hips toward the mat while knee remains on your belly
 - Opponent's knee starts sliding laterally off your torso rather than pressing downward with full commitment
 - Opponent reaches for crossface or collar grip with their far hand, signaling intent to establish side control head control
@@ -173,6 +175,8 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending KOB to Side Control?</p>
 
 - Recognize the transition cues early — the opponent's weight shift, grip changes, and hip lowering all signal the impending drop to side control
 - Act during the pressure gap, not before or after — the window exists only while the knee is leaving the belly and the chest has not yet settled
@@ -187,6 +191,8 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against KOB to Side Control?</p>
 
 ### 1. Insert knee shield during the knee drop phase
 
@@ -224,6 +230,8 @@ From the defender's perspective, the opponent's transition from Knee on Belly to
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending KOB to Side Control?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time your knee insertion to the exact moment the opponent's knee lifts off your belly. Frame against their hip with your near elbow while shrimping your hips away, then drive your knee across their hip line before their chest weight settles. The key is acting during the pressure gap — too early and their knee blocks you, too late and their chest pins you flat.
@@ -235,6 +243,8 @@ Time your knee insertion to the exact moment the opponent's knee lifts off your 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending KOB to Side Control?</p>
 
 ### 1. Waiting passively for the opponent to fully settle into side control before attempting escape
 
@@ -264,6 +274,8 @@ Time your knee insertion to the exact moment the opponent's knee lifts off your 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against KOB to Side Control?</p>
+
 **Phase 1: Recognition** - Identifying transition cues and timing windows
 Partner establishes KOB and transitions to side control at varying speeds. Focus on recognizing the weight shift, knee movement, and grip changes that signal the transition. Do not attempt escapes yet — build awareness of when the vulnerability window opens and closes.
 
@@ -280,29 +292,6 @@ During positional sparring from KOB, actively look for and exploit the KOB to si
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first recognition cue that your opponent is transitioning from KOB to side control?
-**A**: The first cue is the opponent lowering their center of gravity and dropping their hips toward the mat while their knee begins sliding laterally off your torso. You may also feel a slight reduction in focused downward pressure as their weight begins redistributing from vertical knee pressure toward horizontal chest contact. Grip changes — particularly reaching for a crossface or collar grip — confirm the intent to consolidate to side control.
-
-**Q2**: When during the KOB to side control transition is the optimal window to attempt guard recovery?
-**A**: The optimal window is the brief moment between when the opponent's knee lifts off your belly and when their chest establishes full perpendicular contact with your torso. During this phase, focused downward pressure has been removed but distributed chest pressure has not yet settled. This is when the total pinning force is at its lowest point, giving you the maximum opportunity to insert frames, shrimp, and recover guard before the weight resettles.
-
-**Q3**: Why is inserting a knee shield more effective than pushing with extended arms during this transition?
-**A**: A knee shield uses your strongest body structure — the skeletal frame of your leg — to create a structural barrier that the opponent cannot simply pressure through. Extended arms are weaker, expose you to kimura and americana attacks, and create only vertical force against a horizontal settling motion. The knee shield simultaneously creates distance, blocks chest contact, and provides a foundation for further guard recovery. It addresses the mechanical problem of the transition directly.
-
-**Q4**: Your opponent drops from KOB but you fail to recover guard — what should you do immediately?
-**A**: Immediately establish defensive frames against their crossface and hip to prevent full side control consolidation. Protect your neck from the crossface by framing with your near forearm against their shoulder, tuck your elbows tight to prevent arm isolation for submissions, and begin working standard side control escape sequences. Do not panic or stop moving — chain escape attempts together and look for opportunities when the opponent transitions or attacks from their newly established side control.
-
-**Q5**: How does defending the KOB to side control transition differ from escaping an established side control?
-**A**: Defending during the transition exploits a temporary vulnerability window where the opponent's pressure is in flux and not yet consolidated. The total pinning force is lower during the transition than in established side control, making frame insertion and hip escapes more achievable. In established side control, the opponent has settled their full weight, secured crossface control, and blocked your hips — requiring more energy and more complex escape sequences. The transition defense is proactive and opportunistic, while side control escape is reactive and grinding.
-
-
-
-</section>
 
 
 </main>

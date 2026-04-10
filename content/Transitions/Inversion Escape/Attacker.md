@@ -182,6 +182,8 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Inversion Escape?</p>
+
 - Initiate escape before opponent establishes heel hook grip - timing is everything
 - Commit fully to the inversion with explosive hip rotation toward your own trapped leg
 - Use your free leg as primary propulsion by posting and driving into the mat
@@ -197,6 +199,8 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Inversion Escape?</p>
+
 - Opponent has established Honey Hole but has not yet secured breaking grip on heel
 - Your free leg remains mobile with ability to post on mat or opponent's body
 - Sufficient hip mobility to perform inverted rotation without strain
@@ -209,6 +213,8 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Inversion Escape step by step?</p>
 
 1. **Assess and prepare**: Immediately upon feeling the inside leg triangle form, assess whether opponent has heel grip. If no heel grip, prepare for explosive inversion by gripping opponent's pants at knee with both hands.
 2. **Post free leg**: Plant your free foot firmly on the mat outside your hip, toes pointed outward. This leg provides the primary drive for your inversion. Bend your knee to approximately 90 degrees for maximum explosive potential.
@@ -229,7 +235,7 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 | Success | [[Positions/Open Guard]] | 55% |
 | Success | [[Positions/Ashi Garami/50-50 Guard]] | 15% |
 | Failure | [[Positions/Ashi Garami/Honey Hole]] | 20% |
-| Counter | [[game-over]] | 10% |
+| Counter | [[Submissions/Inside Heel Hook]] | 10% |
 
 
 </section>
@@ -238,8 +244,10 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Inversion Escape?</p>
+
 - **Opponent follows rotation and maintains inside position by driving hips forward during your inversion attempt** (Effectiveness: High) - Your Response: If opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard → Leads to [[Positions/Ashi Garami/50-50 Guard]]
-- **Opponent secures heel grip before or during your inversion attempt** (Effectiveness: High) - Your Response: If heel is secured, abort inversion immediately and transition to grip fighting defense while protecting knee alignment - do not invert with heel grip established → Leads to [[game-over]]
+- **Opponent secures heel grip before or during your inversion attempt** (Effectiveness: High) - Your Response: If heel is secured, abort inversion immediately and transition to grip fighting defense while protecting knee alignment - do not invert with heel grip established → Leads to [[Positions/Open Guard]]
 - **Opponent posts hand on mat to prevent your rotation and maintains base** (Effectiveness: Medium) - Your Response: Target their posting arm with your grips to remove base, or change inversion direction to roll away from their post → Leads to [[Positions/Ashi Garami/Honey Hole]]
 - **Opponent transitions to kneebar as you invert, changing attack angle** (Effectiveness: Medium) - Your Response: Complete inversion faster and pull knee tight to chest; the kneebar requires extension which your curled position denies → Leads to [[Positions/Ashi Garami/Honey Hole]]
 
@@ -249,6 +257,8 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Inversion Escape?</p>
 
 ### 1. Attempting inversion after opponent has secured heel hook grip
 
@@ -288,6 +298,8 @@ The Inversion Escape is executed by the person trapped in Honey Hole bottom posi
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Inversion Escape (Attacker)?</p>
+
 **Week 1-2** - Inversion mechanics
 Practice solo inversion drills without partner. Focus on smooth shoulder roll mechanics, hip rotation, and return to guard position. Build comfort with inverted position and directional awareness. 50+ repetitions daily.
 
@@ -305,48 +317,12 @@ Positional sparring starting from Honey Hole position with full resistance. Goal
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Inversion Escape from Honey Hole?
-**A**: The primary goal is to extract your trapped leg from the inside leg triangle configuration before your opponent can secure a heel hook grip. The inversion changes the angle of your leg relative to their entanglement, creating a brief window where extraction becomes mechanically possible. Secondary goal is establishing safe guard position immediately upon extraction.
-
-**Q2**: Why must you initiate the inversion BEFORE your opponent grips your heel?
-**A**: Once the heel is gripped with proper hand configuration, your opponent can apply breaking rotation during your inversion, using your own movement against you. The combination of inversion rotation plus heel hook pressure creates devastating force on the knee joint. The escape window exists only during the brief transition between leg triangle establishment and heel hook grip - typically 1-2 seconds maximum.
-
-**Q3**: What role does your free leg play in executing the Inversion Escape?
-**A**: Your free leg provides the primary explosive force for the entire escape. By posting firmly on the mat with foot outside your hip and driving explosively while rotating, you generate the momentum needed to change your body angle relative to opponent's triangle. Without this posted leg drive, the inversion lacks sufficient force to create the angle change necessary for extraction.
-
-**Q4**: Your opponent begins following your rotation as you invert - how do you adjust?
-**A**: When opponent follows aggressively, use their forward momentum to transition directly into 50-50 guard rather than completing to open guard. As you rotate, hook their near leg with your previously trapped leg and settle into the symmetrical 50-50 position. This neutralizes their inside position advantage by creating mutual entanglement rather than trying to completely escape their leg control.
-
-**Q5**: What grip should you maintain throughout the Inversion Escape and why?
-**A**: Maintain pant grips at opponent's knees with both hands throughout the entire inversion. These grips serve multiple purposes: controlling their ability to follow your rotation, preventing them from adjusting their leg triangle as you move, and providing anchor points to help pull yourself through the rotation. Releasing grips allows opponent to freely readjust and re-establish entanglement.
-
-**Q6**: How do you protect your knee joint during the rotational movement of this escape?
-**A**: Keep your knee pointed in the same direction as your toes throughout the entire inversion. Knee ligaments are most vulnerable when the knee faces a different direction than the foot - the exact configuration heel hooks exploit. By maintaining alignment during rotation, you prevent the twisted position that causes injury. If alignment breaks during the escape attempt, immediately stop rotation and reassess.
-
-**Q7**: What immediate action must you take the moment your leg extracts from the entanglement?
-**A**: The moment your leg extracts, both feet must immediately go to opponent's hips with active pushing to establish open guard frames. This is not separate from the escape - it's the completion of it. Without immediate guard establishment, opponent will either re-enter leg entanglement or advance to passing position while you're recovering from the inversion. The escape isn't complete until you have defensive structure.
-
-**Q8**: Your first inversion attempt failed but created some space - what do you do next?
-**A**: Do not pause to recover - immediately chain into your second escape attempt while any space exists. If inversion failed, try hip escape. If hip escape fails, try technical standup. Use all available energy in the first 3-5 seconds of being caught. The position only gets worse with time as opponent settles weight and tightens control. Sequential explosive attempts are more effective than single attempts followed by recovery periods.
-
-**Q9**: When should you abort the Inversion Escape attempt entirely?
-**A**: Abort immediately if opponent secures heel grip with proper hand configuration (four fingers on top, thumb below) at any point. Also abort if you feel your knee-foot alignment break during rotation. Finally, abort if opponent transitions to kneebar with your leg extended - the inversion requires a curled position which kneebar denies. In all these cases, switch to appropriate alternative defense or prepare to tap.
-
-**Q10**: How do you create the optimal angle for the inversion by positioning your posted foot?
-**A**: Plant your free foot on the mat outside your hip with toes pointed outward at roughly 45 degrees. Position the foot far enough from your body to create leverage but close enough to generate explosive drive. The knee should bend to approximately 90 degrees. This positioning creates the biomechanical foundation for the rotational force - the further outside and the stronger the initial drive, the more angle change you create during the inversion.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Inversion Escape?</p>
 
 The Inversion Escape carries inherent risk due to the rotational forces involved and the dangerous position you're escaping from. NEVER attempt inversion if your opponent has already secured a heel hook grip - the combination of your rotation and their breaking pressure can cause immediate catastrophic knee injury including ACL, MCL, and meniscus tears. Always maintain knee-foot alignment throughout the technique; if alignment breaks, stop immediately. Practice initially with cooperative partners at slow speeds before adding resistance. Tap immediately if you feel any rotational pressure on your knee during a failed escape attempt. This technique requires hip mobility - do not attempt if you have hip or lower back injuries. Warm up thoroughly before drilling inverted movements.
 

@@ -188,6 +188,8 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Stack Pass from Mission Control?</p>
+
 - Drive with your hips, not your arms—stacking power comes from hip drive and bodyweight distribution, not upper body pushing
 - Keep elbows tight to your body throughout the stack to prevent triangle completion and omoplata entries
 - Head position must stay inside toward the trapped arm side to deny the triangle angle across your neck
@@ -202,6 +204,8 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Stack Pass from Mission Control?</p>
+
 - Trapped in Mission Control with opponent's high guard leg across your back and shoulder isolated
 - Elbows drawn tight to your body with hands positioned to control opponent's hips or thighs
 - Base established on knees or feet with ability to generate forward driving pressure
@@ -214,6 +218,8 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Stack Pass from Mission Control step by step?</p>
 
 1. **Secure hip control**: Place both hands on the opponent's hips or upper thighs, gripping firmly to control their ability to adjust hip angle. This grip prevents them from shrimping away or redirecting your stacking pressure. Keep elbows tight against your own torso throughout.
 2. **Tuck chin and align spine**: Tuck your chin firmly to your chest and align your spine for forward driving. This protects your neck from triangle attempts and creates a structural line through your body that transfers hip drive into stacking pressure efficiently without energy waste.
@@ -243,6 +249,8 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Stack Pass from Mission Control?</p>
+
 - **Opponent transitions to omoplata by using forward stacking momentum to rotate their hips and catch the trapped arm** (Effectiveness: High) - Your Response: Keep elbows extremely tight and pull arm across your body toward the opposite hip as you feel rotation. If omoplata locks, posture up and circle toward their head to extract the arm before they can flatten you. → Leads to [[Positions/Closed Guard]]
 - **Opponent shrimps away during the stack to create distance and re-establishes Mission Control grips before the guard collapses** (Effectiveness: Medium) - Your Response: Maintain constant forward pressure and follow their hip movement with your drive direction. If they create enough distance to re-establish, immediately switch to posture recovery rather than continuing a failed stack. → Leads to [[Positions/Rubber Guard/Mission Control]]
 - **Opponent brings leg across your face during the stack to enter triangle choke using your forward momentum** (Effectiveness: Medium) - Your Response: Turn head aggressively toward the trapped arm side and drive shoulder into their thigh to prevent the leg from crossing your centerline. If triangle locks partially, stack harder to compress the angle and prevent the choke from setting. → Leads to [[Positions/Rubber Guard/Mission Control]]
@@ -254,6 +262,8 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Stack Pass from Mission Control?</p>
 
 ### 1. Driving forward with arms extended rather than using hip drive for stacking pressure
 
@@ -293,6 +303,8 @@ As the attacker executing the Stack Pass from Mission Control, your primary obje
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Stack Pass from Mission Control (Attacker)?</p>
+
 **Phase 1: Stacking Mechanics** - Hip drive and pressure distribution
 Practice the stacking motion against a compliant partner in Mission Control. Focus on driving with hips rather than arms, keeping elbows tight, and learning the body mechanics of folding an opponent's guard through forward pressure. Partner provides no resistance and allows the guard to collapse.
 
@@ -310,42 +322,12 @@ Positional sparring starting in Mission Control with full resistance. Top player
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary source of stacking power and why should you avoid driving with your arms?
-**A**: Stacking power comes from hip drive and bodyweight transfer, not arm strength. Driving with arms extended creates space between your elbows and torso that the bottom player exploits for triangle and omoplata entries. Hip drive generates significantly more force than arm pushing, and keeping hands on the hips for control rather than pushing maintains the tight elbow position needed to prevent submissions.
-
-**Q2**: Where must your head be positioned during the stack and what happens if you get this wrong?
-**A**: Your head must stay on the inside, toward the trapped arm side, with chin tucked to chest. If your head goes to the outside, you directly feed the triangle choke by positioning your neck at the exact angle needed for the bottom player's leg to cross your face and complete the lock. Inside head position combined with shoulder pressure into their thigh denies the triangle angle entirely.
-
-**Q3**: Your opponent begins rotating their hips for an omoplata as you initiate the stack—how do you respond?
-**A**: Immediately squeeze your elbows even tighter and pull your trapped arm across your body toward the opposite hip to prevent the arm from being isolated. If the rotation continues, posture up and circle toward their head to extract the arm before they can flatten you. The key is recognizing the hip rotation early—once the omoplata is fully locked, escape becomes much harder.
-
-**Q4**: Why is it critical to control the opponent's hips before initiating the stack?
-**A**: Uncontrolled hips allow the opponent to shrimp away to create distance, redirect your stacking pressure into submission angles, or adjust their hip position to maintain guard structure despite the forward pressure. Gripping the hips or upper thighs creates a fixed point that ensures your stacking force is directed through their guard structure rather than being dissipated by their movement.
-
-**Q5**: What should you do immediately after the high guard collapses—and what is the danger of pausing?
-**A**: Immediately progress to clearing the guard legs and establishing half guard top with crossface or underhook. Pausing in the stacked position gives the opponent time to establish sweeping grips and generate hip bump sweeps that exploit your elevated, forward-committed center of gravity. The stack is a transitional action that must flow directly into the pass, not a resting position.
-
-**Q6**: When should you choose the stack pass over posture recovery or arm extraction from Mission Control?
-**A**: Choose the stack pass when the bottom player is actively threatening submissions and time pressure makes patient escapes too dangerous, when posture recovery has been attempted and failed because the bottom player's grip control is too strong, or when the bottom player's hip elevation is the primary control mechanism and direct forward pressure is the most efficient way to eliminate it.
-
-**Q7**: Your opponent successfully shrimps away during the stack and begins re-establishing grips—what is your adjustment?
-**A**: If they create enough distance to re-establish Mission Control grips, abandon the stack attempt and immediately switch to posture recovery as your primary escape strategy. Continuing to chase a failed stack attempt wastes energy and gives them time to re-establish full control. Recognize when the stack has lost its effectiveness and transition to alternative escapes rather than forcing a defended technique.
-
-**Q8**: What base adjustments prevent sweeps during the forward-committed stack pass?
-**A**: Widen your base by posting one foot wide to the side during the stack drive, creating lateral stability against hip bump and sweep attempts. Maintain some weight on both knees rather than committing entirely forward, and be prepared to post a hand if you feel sweeping forces. The forward commitment of the stack inherently creates sweep vulnerability, so proactive base widening is essential.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Stack Pass from Mission Control?</p>
 
 The stack pass creates significant compressive forces on the opponent's spine, neck, and shoulder joints. Apply stacking pressure progressively rather than explosively to allow the bottom player time to adjust and tap if necessary. Never drive a stack with your head posted on the mat as this creates dangerous cervical spine compression on both players. Release immediately if the opponent indicates discomfort in their neck or spine. In training, communicate with your partner about pressure levels and avoid stacking opponents with known neck or back injuries.
 

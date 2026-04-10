@@ -206,9 +206,9 @@ The triangle to armbar transition is a cornerstone of comprehensive guard attack
 
 - [[Positions/Armbar Control]] - Target control position reached on successful transition
 
-- [[Submissions/Triangle Choke Front]] - Primary attack that forces defensive reaction opening the armbar
+- [[Submissions/Triangle Choke]] - Primary attack that forces defensive reaction opening the armbar
 
-- [[Submissions/Armbar from Guard]] - Related finishing technique sharing similar mechanics
+- [[Transitions/Armbar Setup from Double Sleeve]] - Related guard-based armbar entry sharing similar arm isolation mechanics
 
 - [[Transitions/Closed Guard to Triangle]] - Initial attack sequence that establishes the triangle
 
@@ -216,11 +216,11 @@ The triangle to armbar transition is a cornerstone of comprehensive guard attack
 
 - [[Transitions/Triangle to Omoplata]] - Parallel option when opponent stacks forward during transition
 
-- [[Transitions/Omoplata]] - Third submission in the triangle chain system
+- [[Submissions/Omoplata]] - Third submission in the triangle chain system
 
 - [[Transitions/Triangle to Back]] - Positional transition when opponent extracts trapped arm
 
-- [[Transitions/Armbar Finish]] - Finishing technique applied from armbar control position
+- [[Armbar from Armbar Control]] - Finishing submission applied from armbar control position after successful transition
 
 - [[Positions/Closed Guard]] - Primary guard position from which triangle is established
 

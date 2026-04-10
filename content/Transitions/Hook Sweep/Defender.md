@@ -158,6 +158,8 @@ At the highest level, hook sweep defense transitions from pure survival into off
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Hook Sweep?</p>
+
 - Opponent shifts their hips laterally, creating a noticeable angle change from square to approximately 45 degrees to one side
 - Sweeping-side hook drives deeper under your thigh with increased upward pressure, and you feel your weight being loaded onto that hook
 - Upper body grips tighten and begin pulling you forward and laterally toward the sweeping side, breaking your balanced posture
@@ -170,6 +172,8 @@ At the highest level, hook sweep defense transitions from pure survival into off
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Hook Sweep?</p>
 
 - Maintain upright posture with hips back to prevent being pulled forward into optimal sweeping range
 - Deny the 45-degree angle by adjusting your base to face the opponent squarely when you feel hip shifting
@@ -185,6 +189,8 @@ At the highest level, hook sweep defense transitions from pure survival into off
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Hook Sweep?</p>
 
 ### 1. Post your hand firmly to the mat on the sweeping side, creating a third base point that prevents being toppled
 
@@ -222,6 +228,8 @@ At the highest level, hook sweep defense transitions from pure survival into off
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Hook Sweep?</p>
+
 ### → [[Positions/Butterfly Guard]]
 
 Neutralize the sweep through posting, base widening, or hip sprawl to maintain your top position while the opponent remains in butterfly guard bottom. From here, immediately re-engage your passing strategy before the opponent can reset and attempt again.
@@ -237,6 +245,8 @@ Counter the sweep attempt by capitalizing on the attacker's committed angle and 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Hook Sweep?</p>
 
 ### 1. Leaning forward with weight over the knees when facing butterfly guard, feeding momentum into the sweep
 
@@ -271,6 +281,8 @@ Counter the sweep attempt by capitalizing on the attacker's committed angle and 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Hook Sweep?</p>
+
 **Phase 1: Weeks 1-2** - Recognition and base awareness
 Partner slowly executes hook sweep setup while you practice identifying the three setup elements: angle creation, hook deepening, and grip establishment. No resistance yet. Focus on recognizing each cue through feel rather than sight. Call out each element as you detect it to build pattern recognition.
 
@@ -287,26 +299,6 @@ Positional sparring starting in opponent's butterfly guard. Focus on preventing 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three mechanical elements of the hook sweep that you must disrupt as a defender?
-**A**: The three elements are the 45-degree angle that removes your base on the sweeping side, the deep hook under your thigh that generates lifting force, and the upper body grips that pull you forward and laterally to break your balance. Neutralizing any one of these three elements prevents the attacker from coordinating the sweep effectively. The most efficient defense targets whichever element is weakest in the current moment, whether that means re-squaring your hips to deny the angle, keeping hooks shallow through hip positioning, or stripping grips to prevent the pull.
-
-**Q2**: Why is it more effective to address butterfly hooks through hip positioning rather than trying to remove them with your hands?
-**A**: Addressing hooks through hip positioning preserves your posture and keeps your hands available for posting and grip fighting, whereas reaching down to grab feet breaks your posture, removes your defensive posting ability, and rarely succeeds against properly flexed hooks that grip the inner thigh securely. By pushing your knees together you compress the space available for hooks, and by sprawling your hips back you move beyond the effective range of the hooks entirely. Both approaches solve the hook problem without compromising your defensive structure or creating submission vulnerabilities.
-
-**Q3**: At what point during the hook sweep sequence does defensive intervention become significantly less effective?
-**A**: Defensive intervention becomes dramatically less effective once the attacker has achieved all three setup elements simultaneously: the 45-degree angle, deep hook placement, and strong upper body grips with forward pull. Once the coordinated lift-and-pull begins from this fully loaded position, the defender's realistic options narrow to posting, which itself carries submission risk. The critical window for effective defense is during the setup phase when the attacker is establishing angle, deepening hooks, and fighting for grips. Intervening during any of these setup actions is far more energy-efficient and has a much higher success rate than attempting to resist a fully committed sweep.
-
-**Q4**: How can you turn a successful hook sweep defense into a guard passing opportunity?
-**A**: When the attacker commits to the hook sweep, they create structural vulnerabilities in their guard. Their lateral hip shift to create the sweeping angle opens a passing lane on the opposite side where their guard retention is weakest. After posting to stop the sweep, you can immediately redirect your passing pressure to the side the opponent angled away from, exploiting their compromised guard structure. Additionally, if you sprawl to neutralize hooks, the distance created can be used to initiate standing passes or toreando passes before the opponent can re-establish their butterfly guard structure. The key is transitioning from defense to offense without a pause.
-
-
-
-</section>
 
 
 </main>

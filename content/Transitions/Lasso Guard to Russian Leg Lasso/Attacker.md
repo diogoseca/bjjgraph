@@ -188,6 +188,8 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Lasso Guard to Russian Leg Lasso?</p>
+
 - Maintain absolute tension on the first lasso throughout the entire threading sequence - any momentary looseness allows the opponent to free one arm and collapse the transition
 - Thread the second leg only when the opponent's free arm is committed to a task (grip fighting, posting, passing attempt) rather than when it is held defensively close to their body
 - Sequence grips deliberately: secure the second sleeve grip before threading the leg, not after, so the leg has a track to follow into position
@@ -202,6 +204,8 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Lasso Guard to Russian Leg Lasso?</p>
+
 - Established lasso hook on the first arm with shin firmly pressed across the tricep, foot crossing behind the shoulder, and same-side sleeve grip pulling toward your chest
 - Secondary grip on the collar or lapel that controls the opponent's posture and prevents them from standing fully upright to retract their arms
 - The opponent's free arm is extended or occupied - either reaching for a grip, posting on the mat, or engaged in a passing attempt that takes it away from their centerline
@@ -213,6 +217,8 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Lasso Guard to Russian Leg Lasso step by step?</p>
 
 1. **Confirm first lasso integrity and identify free arm exposure**: Before initiating the transition, verify that your first lasso hook is deeply threaded with constant tension on the sleeve grip. Then assess the opponent's free arm position - it must be extended or committed to a task. If their free arm is tucked defensively against their body, provoke a reaction with collar grip pressure or a sweep feint that forces them to post or reach.
 2. **Secure the second sleeve grip**: With your non-lasso hand, release the collar grip and immediately capture the opponent's free arm at the wrist or sleeve cuff. This must be done before threading the leg, because the sleeve grip creates the channel through which your shin will travel. Without the grip, the opponent can simply retract their arm as you attempt to thread. Grip firmly with a palm-down hold that pulls the arm toward you.
@@ -242,6 +248,8 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Lasso Guard to Russian Leg Lasso?</p>
+
 - **Opponent retracts free arm explosively as soon as they feel the second sleeve grip, pulling it tight against their body before the leg can thread** (Effectiveness: High) - Your Response: If the arm retracts before threading, do not chase it. Return to standard lasso guard and use the first lasso to set up sweeps or submissions that force them to extend the arm again. A collar drag or triangle threat often forces the arm back out where it becomes accessible for a reattempt. → Leads to [[Positions/Lasso Guard]]
 - **Opponent strips the first sleeve grip during the transition moment when your non-lasso hand releases the collar to grab the second sleeve** (Effectiveness: High) - Your Response: The moment you release the collar grip is the highest vulnerability point. If the first sleeve breaks, immediately abandon the threading attempt and recover to open guard using your legs to create distance. Re-establish grips from a neutral position rather than fighting to recover from a compromised half-threaded state. → Leads to [[Positions/Open Guard]]
 - **Opponent postures up aggressively and stands tall to create distance as they feel the second leg beginning to thread** (Effectiveness: Medium) - Your Response: Use the first lasso to pull their arm downward, breaking their posture back into range. If they successfully stand, transition to single leg X-guard or De La Riva entries that work at longer range. The standing posture means their base is narrower, creating opportunities for different attacks even if the Russian Leg Lasso threading fails. → Leads to [[Positions/Lasso Guard]]
@@ -253,6 +261,8 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Lasso Guard to Russian Leg Lasso?</p>
 
 ### 1. Releasing the collar grip to grab the second sleeve without first confirming the opponent's free arm is truly exposed and accessible
 
@@ -292,6 +302,8 @@ Executing the transition to Russian Leg Lasso requires threading a second leg th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Lasso Guard to Russian Leg Lasso (Attacker)?</p>
+
 **Grip Sequencing Drill** - Collar-to-sleeve grip transfer mechanics
 With a cooperative partner in kneeling position, establish standard lasso guard and practice the grip transfer sequence: release collar, capture second sleeve, confirm first lasso tension, release. Repeat 20-30 times per side focusing purely on grip speed and first-lasso tension maintenance during the transfer. Partner holds their arms in realistic positions but does not resist.
 
@@ -309,48 +321,12 @@ Start every round in established single-leg lasso guard. Bottom player works to 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for threading the second leg into Russian Leg Lasso?
-**A**: The optimal window occurs when the opponent's free arm is committed to a task - reaching for a grip break on the first lasso, posting on the mat for base during a sweep defense, or extending forward during a passing attempt. Their arm must be away from their centerline and occupied, making retraction slow. The window typically lasts 1-2 seconds before they complete their action and withdraw the arm. Attempting the thread when the free arm is tucked defensively against their body will fail because they can retract faster than you can thread.
-
-**Q2**: Why must you secure the second sleeve grip before threading the second leg, and what happens if you reverse this sequence?
-**A**: The second sleeve grip holds the opponent's arm in position and creates a guide track for your shin to travel across. Without it, the opponent simply retracts their arm the moment they feel your leg moving toward it, since there is nothing anchoring the arm in the threading path. If you attempt to thread first without the sleeve grip, your shin has to chase a moving target. This delays the threading enough that the opponent can also address the first lasso, potentially collapsing both controls simultaneously and leaving you in open guard with no control.
-
-**Q3**: What is the most critical mechanical detail that determines whether the first lasso maintains tension during the transition?
-**A**: The first sleeve grip must maintain continuous pulling pressure toward your chest throughout the entire threading sequence. When you release the collar grip to capture the second sleeve, the first lasso temporarily loses its secondary stabilizer. The first sleeve grip becomes the sole anchor keeping that lasso functional. If your pulling pressure drops even momentarily during the collar-to-sleeve hand transfer, the opponent can create slack and extract the first arm. Maintaining this tension requires conscious effort because your attention naturally shifts to the new threading task.
-
-**Q4**: Your opponent posts their free hand on the mat as you begin threading. How does this affect your approach?
-**A**: A posted hand is an ideal threading opportunity because the arm is extended, weight-bearing, and cannot be quickly retracted without the opponent losing base and potentially being swept. Capture the sleeve grip on the posted arm, then thread your leg through while their arm remains fixed in position by their own weight. The key advantage is that withdrawing a posted arm requires them to shift their weight first, giving you more time to complete the thread than if the arm were free-floating.
-
-**Q5**: What are your immediate options if the opponent strips the first sleeve grip during the moment you release the collar?
-**A**: The collar-to-sleeve transfer is the highest vulnerability window. If the first sleeve breaks during this moment, immediately abandon the threading attempt and focus on guard retention. Use both legs to create distance and frames rather than trying to regrip while in a compromised position. Recover to open guard by establishing foot-on-hip distance control, then rebuild grips systematically from a stable position. Continuing the thread with a broken first lasso leaves you with one uncommitted leg and no anchor, which is a pass invitation.
-
-**Q6**: How should your hip angle change during the threading sequence, and why does this matter?
-**A**: Your hips should rotate 30-45 degrees toward the side where you are threading the second leg. This rotation shortens the distance between your shin and the opponent's arm, making the threading motion faster and more direct. With flat hips, the shin must travel a longer arc to reach across the opponent's arm, creating a slow and telegraphed motion that gives the opponent time to retract. The angled hips also improve the curling mechanics of the threading motion, allowing the shin to hook across the tricep in one efficient movement.
-
-**Q7**: Your opponent drives forward with heavy pressure when they feel you initiating the second thread. What should your response be?
-**A**: Forward pressure is a double-edged response from the opponent. While it can flatten your hips and impede threading, it also brings their arms closer and loads their weight forward over your guard. Use the first lasso to redirect their forward momentum into a sweep - a sickle sweep or omoplata entry becomes high-percentage when they commit weight forward. If the sweep threat forces them to retract their weight, the pressure releases and their arms re-extend to recover base, reopening the threading window. The key is not to fight the pressure directly but to use it as fuel for an attack.
-
-**Q8**: After completing the Russian Leg Lasso, what must you do within 3-5 seconds and why?
-**A**: You must initiate a sweep or submission threat within 3-5 seconds because Russian Leg Lasso is an energy-intensive control that depletes grip endurance rapidly when held statically. Both hands maintain constant sleeve tension, both legs actively press outward against the arms, and your core engages to maintain hip angle. This simultaneous exertion drains stamina faster than the opponent's escape efforts. The position is designed as a launching platform for bilateral sweeps that use coordinated push-pull on both arms to generate irresistible torque. Holding passively wastes the mechanical advantage and allows the opponent to methodically work free.
-
-**Q9**: The opponent successfully retracts their free arm after you captured the sleeve but before you threaded. What chain attack should you pursue?
-**A**: When the arm retracts, you still hold the second sleeve grip even though you cannot thread. Use this grip to immediately threaten a collar drag or arm drag that pulls the opponent forward and off-balance. Their retraction motion shifts their weight backward, so a forward-pulling attack catches them in transition. If the drag generates enough forward momentum, the opponent must post with that same arm to recover base, which re-extends it into threading range. Alternatively, release the second sleeve, recover your collar grip, and use the first lasso to set up a sickle sweep while their base is disrupted from the retraction effort.
-
-**Q10**: How do you determine which direction to angle your hips when your opponent's stance is asymmetric during single lasso?
-**A**: Angle your hips toward the side where the opponent's free arm is most exposed, which is typically the side where they have less base or where their arm is reaching. If their free arm is on the same side as their lead leg in a staggered stance, that arm is closer and easier to reach by angling toward it. If they have shifted their weight away from the lasso side, their free arm often compensates by reaching across their body for balance, creating a threading angle from the opposite direction. Read their weight distribution and arm position together to determine the shortest threading path.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Lasso Guard to Russian Leg Lasso?</p>
 
 The primary safety concern during the transition to Russian Leg Lasso involves the torque placed on the opponent's shoulder joints when both arms are simultaneously bound by lasso hooks. Thread the second leg smoothly rather than explosively to avoid sudden rotational stress on the shoulder. During drilling, communicate with your partner about pressure levels and release immediately if they indicate discomfort. Practitioners with knee injuries should be cautious with the threading motion, as the curling and rotating of the threading leg places lateral stress on the knee joint. Both players should be aware that the bilateral binding creates stronger forces than a single lasso, so sweep attempts from Russian Leg Lasso can generate significant momentum - breakfall practice is recommended before live training.
 

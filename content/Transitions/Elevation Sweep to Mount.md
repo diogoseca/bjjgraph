@@ -212,9 +212,9 @@ The Elevation Sweep to Mount occupies a central position within the Reverse X-Gu
 
 - [[Positions/Half Guard/Deep Half Guard]] - Recovery position when opponent sprawls
 
-- [[Submissions/Armbar from Mount]] - Follow-up submission from achieved position
+- [[Transitions/Mount to Armbar]] - Follow-up submission setup from achieved position
 
-- [[Submissions/Americana from Mount]] - Follow-up submission from achieved position
+- [[Submissions/Americana]] - Follow-up submission from achieved mount position
 
 - [[Transitions/Back Take from Top]] - Alternative advancement from mount
 

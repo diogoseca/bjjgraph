@@ -190,6 +190,8 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Turtle Flatten to Side Control?</p>
+
 - Control the near hip to prevent re-turtling and block guard recovery attempts
 - Apply lateral chest pressure at a 45-degree angle to collapse the four-point base structure
 - Maintain heavy shoulder-to-shoulder contact throughout the flattening sequence to deny space
@@ -205,6 +207,8 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Turtle Flatten to Side Control?</p>
+
 - Established chest-to-back pressure on turtled opponent with hips connected
 - At least one controlling grip on opponent's hip, belt, or waistline
 - Upper body control via crossface, collar tie, or seatbelt configuration
@@ -217,6 +221,8 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Turtle Flatten to Side Control step by step?</p>
 
 1. **Establish hip control**: From turtle top, secure a deep grip on the opponent's far hip or belt line with your near hand. Your fingers should hook inside the hip crease or grab the gi pants at the waistband. This grip anchors the flattening direction and prevents the opponent from rolling away.
 2. **Secure upper body control**: Thread your far arm under the opponent's armpit for an underhook or establish crossface control by driving your forearm across their jaw line to the far side of their neck. This upper body connection prevents them from turning into you or creating a scramble during the flatten.
@@ -246,6 +252,8 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Turtle Flatten to Side Control?</p>
+
 - **Opponent granby rolls as you initiate the flatten, using your forward pressure to invert and recover guard** (Effectiveness: High) - Your Response: Recognize the roll initiation by their hip lift and immediately backstep or follow the roll while maintaining harness control to end up in back control rather than losing position → Leads to [[Positions/Half Guard]]
 - **Opponent sits through to half guard or butterfly guard as you commit weight laterally for the flatten** (Effectiveness: Medium) - Your Response: If they sit through toward you, immediately transition to front headlock position and attack with guillotine or anaconda; if away, follow their hips and re-establish top pressure → Leads to [[Positions/Half Guard]]
 - **Opponent posts a strong far arm and hip escapes during the flatten to create frames and recover guard** (Effectiveness: Medium) - Your Response: Drive through their posted arm with your crossface pressure, collapsing their frame. Alternatively, switch to kimura attack on the posted arm to either submit or use the grip to continue flattening → Leads to [[Positions/Turtle]]
@@ -257,6 +265,8 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Turtle Flatten to Side Control?</p>
 
 ### 1. Attempting to flatten by pulling opponent sideways instead of driving through with chest and knee pressure
 
@@ -296,6 +306,8 @@ Strategically, the flatten is a high-percentage option when the opponent has exc
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Turtle Flatten to Side Control (Attacker)?</p>
+
 **Week 1-2** - Flatten mechanics
 Practice the flatten motion on a compliant partner in turtle. Focus on proper drive angle (45-degree lateral), hip grip placement, and maintaining upper body contact. Drill the push-through motion repeatedly until the lateral collapse becomes natural. No resistance — partner holds static turtle and allows the flatten.
 
@@ -316,48 +328,12 @@ Live positional sparring starting from turtle top against fully resisting oppone
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal angle of force application when flattening an opponent from turtle?
-**A**: The optimal angle is approximately 45 degrees lateral — driving diagonally toward the mat through the opponent's near hip rather than straight down onto their back. A 45-degree lateral angle attacks the weakest structural axis of the four-point turtle base, causing it to collapse sideways. Straight downward pressure is absorbed by the base structure and rarely collapses the turtle effectively.
-
-**Q2**: Your opponent keeps their elbows tight to their knees in a strong defensive turtle — how do you create the opening for the flatten?
-**A**: Use upper body pressure to force a reaction. Drive your chest weight onto their shoulders at an angle, forcing them to post a hand or shift weight to one side to maintain balance. The moment they post or shift, they create a structural asymmetry that makes lateral flattening effective. Alternatively, threaten a back take or choke to force them to defend with their arms, which opens the hip line for the flatten grip. The key is making them react rather than trying to force the flatten against a perfectly set defensive structure.
-
-**Q3**: What grip configuration do you need before initiating the flatten?
-**A**: You need two control points established simultaneously: one on the hip line (far hip, belt, or waistband grip with your near hand) and one controlling the upper body (crossface, collar tie, seatbelt, or underhook with your far arm). The hip grip controls the direction and angle of the flatten. The upper body grip prevents the opponent from turning in, sitting through, or creating a scramble. Attempting the flatten with only one of these control points allows the opponent to escape in the direction that is uncontrolled.
-
-**Q4**: Your opponent initiates a granby roll as you begin the flatten — how do you adjust?
-**A**: Immediately abandon the flatten and follow the roll by maintaining your upper body grip (seatbelt or harness). As they invert, their back becomes exposed and you can follow their rotation to establish back control with hooks. The granby actually works in your favor if you maintain connection — their defensive roll exposes them to the exact back take they were trying to prevent. The critical mistake is continuing the flatten attempt while they roll, which causes you to lose all control and end up in their guard.
-
-**Q5**: Why is it critical to eliminate the pause between flattening the opponent and sliding to side control?
-**A**: Any pause gives the opponent a recovery window. A flattened opponent can immediately re-turtle by posting their elbows and knees, hip escape into half guard, or create frames to push you away. The flat-on-belly position is not inherently controllable — it only becomes dominant when you consolidate side control with crossface and underhook. The transition from flatten to side control must be one continuous motion because the opponent's escape options multiply with every second they have to reorganize their defensive structure.
-
-**Q6**: Your opponent posts their far arm as you drive the flatten — what opportunities does this create?
-**A**: A posted far arm opens several high-percentage attacks. First, the kimura becomes available on the posting arm since their shoulder is exposed and their hand is on the mat — secure wrist control and begin the figure-four grip. Second, you can collapse through their posted arm with increased crossface pressure, using their post as a lever to flatten them faster. Third, a posted arm can be trapped between your legs for a crucifix entry if you can thread your near leg over their arm. The post is a defensive error that creates more problems than it solves.
-
-**Q7**: What is the most critical mechanical detail during the drive phase of the flatten?
-**A**: The most critical detail is using your near knee as a wedge against the opponent's near hip while driving your chest through their shoulder at the same 45-degree angle. The knee and chest must drive in the same direction simultaneously — the knee provides structural force against their base while the chest provides upper body control and weight transfer. If only the knee drives without chest, the opponent turns in; if only the chest drives without the knee wedge, the opponent can hip escape away from the pressure.
-
-**Q8**: When should you choose the turtle flatten over attempting a back take?
-**A**: Choose the flatten when: the opponent has excellent hand fighting that prevents seatbelt establishment, they are constantly threatening sit-throughs that make hook insertion risky, they have a strong turtle base that resists your hook attempts, or when you recognize they are better at turtle escapes than you are at back takes. The flatten is also preferable in competition when you need to advance position reliably rather than risk a scramble. If your back take attempt has been defended twice, switching to the flatten is strategically sound because it attacks a different axis of the opponent's defense.
-
-**Q9**: How does the direction of force application differ between gi and no-gi turtle flatten?
-**A**: In gi, the belt grip allows you to pull and rotate the opponent's hips while driving with your chest, creating a twisting flatten motion that is very difficult to resist. In no-gi, without the belt grip, you must rely more on pushing force through hip cupping and chest drive, making the motion more linear. No-gi requires tighter body-to-body contact throughout the flatten because grips are less secure and the opponent can slip away more easily. The core mechanic remains the same — lateral 45-degree drive — but no-gi demands more chest pressure and body positioning to compensate for reduced grip strength.
-
-**Q10**: Your flatten attempt stalls because the opponent bases out wide with their knees — what adjustment do you make?
-**A**: A wide-based turtle is actually more vulnerable to a different flatten angle. Instead of driving laterally into their near hip, shift your angle to drive more forward and down at their shoulder line while your knee blocks behind their near knee. A wide base sacrifices height for stability — by attacking their upper structure (shoulders down to the mat) rather than their hip line, you collapse their arms and they cannot maintain the wide base once their shoulders hit the mat. Alternatively, you can kick their far knee out to destroy the wide base before re-initiating the standard lateral flatten.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Turtle Flatten to Side Control?</p>
 
 When drilling the turtle flatten, control the speed and force of the lateral drive to avoid slamming your partner's hip or ribs into the mat. The sudden lateral collapse can strain the opponent's shoulders if their arm is trapped underneath during the flatten — always allow your partner to clear their arms. In live training, be aware that the crossface can apply significant pressure to the jaw and neck; use measured force and release immediately if your partner signals discomfort. Avoid using the flatten on partners with pre-existing shoulder, rib, or neck injuries, as the lateral compression forces can aggravate these conditions. During the drive phase, keep your own base stable to prevent your knee from sliding into your partner's spine or kidney area.
 

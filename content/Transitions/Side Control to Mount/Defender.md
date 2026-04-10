@@ -162,6 +162,8 @@ Defending the side control to mount transition is one of the most critical defen
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Side Control to Mount?</p>
+
 - Top player shifts their hips 6-12 inches toward your head while maintaining chest pressure - this hip walk is the preparatory movement for the step-over and the earliest warning sign
 - Top player's near-side hand moves to trap or isolate your near-side arm through underhook deepening, wrist pinning, or knee-on-arm positioning - they are removing your primary defensive frame
 - Top player posts their far-side hand on your far hip or the mat near your waist - this posting hand provides the base they need to lift their leg over your body
@@ -174,6 +176,8 @@ Defending the side control to mount transition is one of the most critical defen
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Side Control to Mount?</p>
 
 - Maintain active frames at all times in side control - your near-side forearm against their hip and far-side hand controlling their shoulder or bicep prevents the step-over setup
 - Never allow your near-side arm to be fully isolated or trapped, as this eliminates your primary frame against the stepping leg
@@ -189,6 +193,8 @@ Defending the side control to mount transition is one of the most critical defen
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Side Control to Mount?</p>
 
 ### 1. Insert near-side knee shield by turning your hips toward opponent and bringing your knee across their body as they initiate the step-over
 
@@ -226,6 +232,8 @@ Defending the side control to mount transition is one of the most critical defen
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Side Control to Mount?</p>
+
 ### → [[Positions/Side Control]]
 
 Disrupt the mount transition early by maintaining active frames, bridging during the step-over weight shift, or swimming your arm back inside to re-establish defensive structure. The goal is to force them to reset to standard side control rather than achieving mount, buying you time to attempt full escapes from side control.
@@ -241,6 +249,8 @@ Insert your near-side knee between your bodies as the top player's first leg ste
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Side Control to Mount?</p>
 
 ### 1. Lying flat with arms at sides without maintaining active frames against opponent's hips and shoulders
 
@@ -275,6 +285,8 @@ Insert your near-side knee between your bodies as the top player's first leg ste
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Side Control to Mount?</p>
+
 **Week 1-2: Recognition and Frame Maintenance** - Identifying mount transition cues and maintaining defensive frames under pressure
 Partner holds side control and periodically attempts the mount transition at 30% speed. Your only goal is to identify the hip shift cue and verbally call it out before they step over. No active defense yet - purely developing recognition. Then add frame maintenance drills where you hold defensive frames for 60-second rounds while partner applies realistic side control pressure. Build the habit of always having frames active.
 
@@ -291,29 +303,6 @@ Apply all defensive responses in live rolling. Chain defenses together when firs
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that your opponent is about to attempt the side control to mount transition?
-**A**: The earliest cue is feeling their hips shift 6-12 inches toward your head while maintaining chest pressure. This hip walk is the preparatory movement that creates the angle needed for the step-over. It precedes all other visible indicators like arm isolation or leg movement. Training yourself to recognize this subtle weight shift allows you to launch defensive frames and hip movement before the step-over begins, dramatically increasing your defensive success rate.
-
-**Q2**: Why is inserting your knee shield the highest-percentage defensive response, and what timing window must you hit?
-**A**: The knee shield is the highest-percentage response because it physically blocks the step-over path while simultaneously recovering a guard position (half guard) that offers offensive options. The critical timing window is between the moment you recognize the hip shift and before their stepping leg clears your body. This window is approximately 1-2 seconds. If you insert the knee after their first leg clears, you can still catch half guard on the second leg, but this secondary window is much shorter and the position achieved is more compromised than early knee shield insertion.
-
-**Q3**: Why should you bridge toward the side your opponent is stepping from rather than directly upward?
-**A**: Bridging toward the side they're stepping from (their original side control position) disrupts the weight transfer that powers the step-over. Their body weight is moving in one direction (toward mount) and your bridge creates force in the opposite direction, maximizing disruption. An upward bridge actually assists the transition by lifting your hips and creating more clearance for their leg. The lateral bridge also threatens to dump them past their original base, forcing them to abandon the mount attempt and reset their base to prevent being rolled. This directional specificity is critical and often overlooked by less experienced practitioners.
-
-**Q4**: Your opponent has already stepped their first leg over and is bringing the second leg across - what is your best remaining defensive option?
-**A**: Your best remaining option is to immediately insert your bottom knee between your bodies to catch their second leg and recover half guard. Squeeze your legs together tightly on their trapped leg before they can extract it. Simultaneously establish a knee shield with your top leg against their chest to create distance and prevent them from settling into mount. While this is not the ideal defensive scenario (early prevention is far superior), recovering half guard is dramatically better than allowing full mount. Once you have half guard, immediately work to establish an underhook and begin your offensive sweep sequences.
-
-**Q5**: What defensive frame structure should you maintain throughout side control to be prepared for both mount transition defense and general escape attempts?
-**A**: The optimal defensive frame structure positions your near-side forearm horizontally against their hip crease, preventing both the hip walk toward your head and serving as a direct barrier to the step-over leg. Your far-side hand controls their shoulder, bicep, or crossface arm to manage upper body pressure and prevent them from settling full weight. Both elbows stay tight to your body to protect against arm isolations and submission entries. Your hips should be slightly angled rather than flat, with your near-side knee already partially cocked to quickly insert a knee shield. This structure serves triple duty: it prevents mount transitions, creates space for hip escape attempts, and protects against submissions from side control.
-
-
-
-</section>
 
 
 </main>

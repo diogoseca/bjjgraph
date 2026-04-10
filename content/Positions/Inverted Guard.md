@@ -108,7 +108,7 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 - **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** (9% of attempts)
 
-- **[[Transitions/Omoplata/Attacker|Omoplata]]** (4% of attempts)
+- **[[Omoplata from Inverted Guard/Attacker|Omoplata from Inverted Guard]]** (4% of attempts)
 
 - **[[Transitions/Roll to Truck/Attacker|Roll to Truck]]** (5% of attempts)
 

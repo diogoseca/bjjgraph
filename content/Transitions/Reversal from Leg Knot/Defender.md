@@ -162,6 +162,8 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reversal from Leg Knot?</p>
+
 - Bottom player's free leg moves to posting position against your hip or across your thigh
 - Bottom player's upper body turns to create an angled sweeping platform rather than lying flat
 - Bottom player's hands shift from passive defense to actively stripping your heel or ankle grips
@@ -174,6 +176,8 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reversal from Leg Knot?</p>
 
 - Maintain at least one free hand available for posting throughout all submission attempts from Leg Knot
 - Keep weight distributed low and centered over the entanglement rather than extended forward toward the trapped leg
@@ -188,6 +192,8 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reversal from Leg Knot?</p>
 
 ### 1. Post free hand immediately when hip rotation begins and drive weight into the sweep direction
 
@@ -225,6 +231,8 @@ Defending the Reversal from Leg Knot requires the top player to maintain base aw
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reversal from Leg Knot?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Maintain base awareness and post immediately when reversal indicators appear. Keep weight centered and at least one hand free for posting throughout submission attempts. Shut down the sweep early before the bottom player generates committed hip rotation.
@@ -240,6 +248,8 @@ Use the bottom player's reversal attempt as an opportunity to advance position. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reversal from Leg Knot?</p>
 
 ### 1. Committing both hands to heel grip for submission finish without maintaining posting ability
 
@@ -269,10 +279,12 @@ Use the bottom player's reversal attempt as an opportunity to advance position. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reversal from Leg Knot?</p>
+
 **Phase 1: Recognition** - Identifying reversal indicators early
 Partner cycles through reversal setups at moderate pace while you practice calling out each recognition cue as it appears. Develop pattern recognition for free leg posting, grip stripping, and hip angle changes without yet attempting to counter.
 
-**Phase 2: Base Maintenance** - Maintaining posting ability during submission attempts
+**Phase 2: Base** - Maintaining posting ability during submission attempts
 Drill submission setups from Leg Knot Top while keeping one hand available for posting at all times. Partner attempts reversals at 50% intensity. Focus on the habit of never committing both hands simultaneously to grip work.
 
 **Phase 3: Counter-Advancement** - Converting reversal attempts into Saddle advancement
@@ -285,29 +297,6 @@ Positional sparring from Leg Knot Top with specific objective of maintaining or 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that the bottom player is setting up a reversal?
-**A**: The earliest cues include the bottom player's free leg moving to a posting position against your hip, their upper body turning to create a sweeping angle, their hands shifting from passive defense to actively stripping your grips, and deliberate hip engagement replacing defensive squirming. Any combination of these movements indicates an imminent reversal attempt requiring immediate base adjustment.
-
-**Q2**: How should you adjust base positioning to prevent the reversal without sacrificing submission pressure?
-**A**: Maintain a wider base with your free hand available for posting while keeping your submission-gripping hand active on the trapped foot. Position at a slight angle toward the anticipated sweep direction to pre-load your base against the reversal force. Never commit both hands simultaneously to the submission grip, always keeping one available for base recovery.
-
-**Q3**: Your opponent begins explosive hip rotation for the reversal - what is your immediate defensive response?
-**A**: Immediately post your free hand on the mat toward the sweeping direction to resist the rotational force. Simultaneously drop your weight and tighten the leg entanglement by squeezing your knees together. If the rotation is too powerful to resist through posting, transition with the movement and attempt to advance to Saddle position using the bottom player's own momentum rather than fighting against it.
-
-**Q4**: When should you advance to Saddle rather than simply maintaining Leg Knot during reversal defense?
-**A**: Advance to Saddle when the bottom player's reversal attempt loosens the entanglement configuration and creates space for you to cross the knee line and triangle your legs around their trapped leg. The reversal attempt often disrupts the leg knot structure, creating brief windows where the Saddle entry becomes available through the gaps their own movement creates.
-
-**Q5**: What is the primary risk if you ignore the reversal threat and focus entirely on finishing your submission?
-**A**: Committing both hands to finishing a submission eliminates your ability to post and maintain base entirely. The bottom player's sweep will succeed because you have no posting arm available, and you may end up mounted with your opponent in the dominant position. An aggressive finish attempt during a reversal also creates rotational forces that can compromise your own joints if the sweep completes mid-submission.
-
-
-
-</section>
 
 
 </main>

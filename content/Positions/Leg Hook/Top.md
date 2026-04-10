@@ -165,6 +165,8 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Position Definition
 
+<p class="section-subtitle">What is Leg Hook (Top)?</p>
+
 - Top player's leg is hooked underneath or around bottom player's defending leg, creating mechanical control of the hip and limiting bottom player's ability to recover guard or create distance
 - Top player maintains forward chest pressure on bottom player's upper body, typically with shoulder or chest pressure on the sternum or shoulder line to prevent bottom player from sitting up or creating frames
 - Bottom player is on their side or back with at least one leg controlled by the hook, with limited ability to establish effective frames or create the space needed for guard recovery
@@ -178,6 +180,8 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing Leg Hook (Top)?</p>
+
 - Top player has initiated half guard passing sequence and achieved initial control
 - Bottom player's leg is accessible for hooking (not deeply locked in half guard or other defensive configuration)
 - Top player has created sufficient angle and space to insert the hooking leg
@@ -190,6 +194,8 @@ Leg Hook Top Position represents a transitional control state where the top prac
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Leg Hook?</p>
 
 - Maintain constant forward pressure with chest and shoulders to prevent bottom player from creating space or establishing defensive frames
 - Control bottom player's far hip with hand or forearm to prevent hip escape and limit their ability to turn into you or away to recover guard
@@ -206,6 +212,8 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Leg Hook (Top)?</p>
+
 **If bottom player is flat on their back with minimal defensive frames:**
 - Execute **[[Transitions/Knee Slice Pass/Attacker|Knee Slice Pass]]** → [[Positions/Side Control]] (Probability: 70%)
 - Execute **[[Transitions/Side Control to Mount/Attacker|Side Control to Mount]]** → [[Positions/Mount]] (Probability: 60%)
@@ -217,7 +225,7 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 
 **Else if bottom player extends arms to push or frame:**
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[Positions/Kimura Trap]] (Probability: 50%)
 - Execute **[[Transitions/Darce Setup/Attacker|Darce Setup]]** → [[Positions/Darce Control]] (Probability: 45%)
 
 
@@ -238,6 +246,8 @@ Leg Hook Top Position represents a transitional control state where the top prac
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Leg Hook?</p>
 
 ### 1. Maintaining static hook position without advancing the pass or adjusting pressure
 
@@ -282,6 +292,8 @@ Leg Hook Top Position represents a transitional control state where the top prac
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Leg Hook attacks?</p>
+
 ### Hook Establishment Flow Drill
 
 Partner in half guard bottom offers 75% resistance. Top player practices entering and establishing the leg hook from various half guard configurations while maintaining upper body control. Focus on smooth transitions, proper weight distribution, and maintaining base throughout the hooking motion. Work for 5-minute rounds, switching roles after each round.
@@ -322,38 +334,6 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What three points of contact form the stable tripod base in Leg Hook Top position?
-**A**: The stable tripod base consists of the hooked leg, the grounded knee, and upper body pressure distributed through chest and shoulder contact. This three-point distribution creates maximum stability while resisting the bottom player's attempts to off-balance or reverse you. The weight should shift dynamically between these points based on opponent reactions.
-
-**Q2**: Your opponent starts hip escaping away from your hook - what adjustment do you make?
-**A**: Immediately follow their hip movement by circling your hips in the same direction while maintaining the hook tension. Use your far hand to control their hip and prevent further escape distance. Drive your chest pressure forward and slightly toward the direction they're escaping to cut off the angle. If they create significant space, transition to leg drag mechanics to re-establish control.
-
-**Q3**: Why is controlling the far hip critical for maintaining Leg Hook Top position?
-**A**: Far hip control prevents the bottom player from executing hip escapes, turning into you, or creating the angular movement needed to recover guard. Without this control, they can use their free leg to push off your hips or establish butterfly hooks. The far hip grip acts as a tether that keeps them flat and limits their defensive options to only those that don't require hip mobility.
-
-**Q4**: What is the primary error that allows bottom players to recover guard from Leg Hook Top?
-**A**: Lifting chest and shoulder pressure off the bottom player's upper body to focus entirely on leg control is the primary error. This allows them to sit up, establish frames, or create space for guard recovery. The leg hook alone provides insufficient control - it must be combined with constant upper body pressure to create a complete control system that addresses both halves of their body.
-
-**Q5**: Your opponent inserts a butterfly hook with their free leg - how do you respond?
-**A**: Immediately flatten the butterfly hook by driving your hip weight down onto their thigh while maintaining your primary leg hook. Use your free hand to push their knee to the mat or pin it against their other leg. Shift to a more smashing pressure distribution to eliminate the space they need to elevate you with the butterfly hook. If the hook is deep, consider transitioning to a smash pass variation.
-
-**Q6**: What angle should your body maintain relative to the bottom player during Leg Hook Top?
-**A**: Position your body at 45-90 degrees relative to the bottom player rather than squared up directly. This passing angle creates efficient force direction for pass completion, limits their framing effectiveness, and provides better mobility to adjust to their defensive reactions. A squared-up posture makes you vulnerable to their frames and limits your passing options.
-
-**Q7**: How do you prevent being swept when transitioning from Leg Hook Top to knee slice pass?
-**A**: Maintain the far hip control grip throughout the transition and keep your weight low with hips driving forward. Don't lift your weight to create the slice - drive through with hip pressure while keeping chest contact. The common sweep opportunity occurs when passers elevate their hips too high during the knee slice entry, so keep your center of gravity low and use lateral pressure rather than upward movement.
-
-**Q8**: What indicates the optimal timing to advance from Leg Hook Top to pass completion?
-**A**: The optimal timing is when the bottom player's defensive frames collapse or when they commit to a single escape direction. Signs include: their far leg stops actively defending, their upper body flattens to the mat, they stop fighting the crossface, or they commit to turning away. Attempting to advance while they're actively framing and mobile typically results in guard recovery or scramble opportunities.
-
-
-
-</section>
-
 
 <section id="position-metrics" class="content-section">
 
@@ -380,7 +360,7 @@ Start in leg hook top position. Practice transitioning to submission threats (ki
 - **[[Transitions/Leg Drag Pass]]** - Primary transition - alternative high-percentage pass from hook control
 - **[[Positions/Side Control]]** - Transition target - most common final position after successful pass
 - **[[Positions/Headquarters Position]]** - Related passing position - similar control concepts with different leg configuration
-- **[[Transitions/Kimura]]** - Submission threat - opportunistic submission from this position
+- **[[Submissions/Kimura]]** - Submission threat - opportunistic submission from this position
 - **[[Transitions/Darce Choke]]** - Submission threat - available when bottom player makes defensive errors
 - **[[Transitions/Smash Pass]]** - Related passing concept - complementary pressure passing strategy
 - **[[Positions/Half Guard/Lockdown]]** - Defensive system - understanding opponent's control from bottom

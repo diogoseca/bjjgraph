@@ -166,6 +166,8 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Granby to Closed Guard?</p>
+
 - Bottom player explosively extends hips backward to create space between your chest and their back, disrupting your weight placement
 - Inside shoulder drops toward the mat as the bottom player tucks their chin and begins loading rotational momentum
 - Bottom player's body compacts suddenly with knees pulling toward chest and elbows tightening, indicating preparation for a rolling movement
@@ -177,6 +179,8 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Granby to Closed Guard?</p>
 
 - Maintain constant chest-to-back pressure to deny the space needed for the roll initiation
 - Control the inside shoulder to prevent the diagonal rotation that powers the Granby movement
@@ -191,6 +195,8 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Granby to Closed Guard?</p>
 
 ### 1. Sprawl and drive chest pressure down onto their upper back the moment you feel hip extension, pinning their shoulders to the mat and collapsing the space needed for rotation
 
@@ -228,6 +234,8 @@ Advanced defenders develop the ability to use the Granby roll attempt against th
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Granby to Closed Guard?</p>
+
 ### → [[Positions/Turtle]]
 
 Sprawl immediately when you feel the hip extension, driving your chest weight onto their upper back to collapse the space needed for rotation. Pin their inside shoulder with your hand or forearm to mechanically prevent the diagonal roll. Maintain constant forward pressure and reestablish your controlling grips once the escape attempt is abandoned.
@@ -243,6 +251,8 @@ Rather than fighting the rotation, follow it by circling your hips in the same d
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Granby to Closed Guard?</p>
 
 ### 1. Sitting back and giving the bottom player space when you feel the Granby initiation rather than driving forward
 
@@ -272,6 +282,8 @@ Rather than fighting the rotation, follow it by circling your hips in the same d
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Granby to Closed Guard?</p>
+
 **Phase 1: Week 1-2 - Recognition Drilling** - Learning to identify Granby roll initiation cues from turtle top position
 Partner alternates between static turtle defense and Granby roll attempts from turtle bottom. Top player calls out 'roll' each time they detect the initiation cues (hip extension, shoulder drop, body compacting). No defensive action taken yet - focus solely on recognition speed and accuracy. Track correct identification rate and work toward 90% detection before the rotation phase begins.
 
@@ -288,29 +300,6 @@ Full live rolling with specific attention to turtle top scenarios. Bottom player
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest physical cue that indicates a bottom player is about to attempt a Granby roll from turtle?
-**A**: The earliest cue is an explosive hip extension backward that creates space between your chest and their back. This hip push is the mandatory first step of every Granby roll because the bottom player needs clearance to begin rotating their shoulders. You may also feel a sudden compacting of their body as they pull their knees toward their chest and tighten their elbows. Recognizing this hip extension as the trigger allows you to respond with a sprawl before the rotation phase even begins.
-
-**Q2**: Why is following the rotation to take the back often more effective than trying to stop the Granby roll entirely?
-**A**: Following the rotation exploits the bottom player's commitment to the movement. Once they have initiated the roll with significant momentum, stopping it requires enormous force and often results in a scramble. By instead circling your hips in the same direction and maintaining your seatbelt grip, you use their rotational energy to improve your position. The bottom player cannot abort the roll mid-rotation, so your follow-through typically results in deeper back control with hooks inserted during the transition, converting their escape attempt into a worse position for them.
-
-**Q3**: Your opponent initiates a Granby roll and you feel them beginning to thread their inside leg between your bodies - what is the immediate correction?
-**A**: Drive your near-side hip forward and down to close the space that their leg is threading through, pinning their leg against their own body or the mat. Simultaneously, tighten your chest pressure against their back to prevent further rotation. If their leg has partially entered, use your near-side arm to frame against their thigh and push it back out while maintaining upper body control with your other arm. The goal is to deny the leg frame that becomes their first guard barrier. If the leg is fully inserted, immediately work to pass it before the second leg arrives and guard is closed.
-
-**Q4**: How should your weight distribution change when you sense a Granby roll attempt versus maintaining standard turtle top control?
-**A**: In standard turtle top control, your weight is distributed with approximately 70% through your chest onto their upper back and 30% through your hips for mobility. When you sense a Granby attempt, shift to sprawl-based distribution with 80-90% of your weight driving downward through your shoulders and chest while your legs extend back and hips drop. This increased forward and downward pressure makes it mechanically much harder for the bottom player to create the space needed for rotation. The trade-off is reduced mobility, but this is acceptable because your priority shifts from attacking to preventing the escape.
-
-**Q5**: What makes the shoulder block defense more reliable than the sprawl defense against the Granby roll?
-**A**: The shoulder block is more precise and targets the specific mechanical requirement of the technique. The Granby roll requires the inside shoulder to drop and rotate diagonally. By posting your hand directly on that shoulder joint and driving it into the mat, you prevent the exact movement that initiates the roll without needing to reorganize your entire body position as a sprawl requires. The shoulder block also keeps your other hand free to maintain seatbelt or harness control. However, the sprawl is more reliable against explosive attempts where you lack time for precise shoulder targeting, so both tools should be developed.
-
-
-
-</section>
 
 
 </main>

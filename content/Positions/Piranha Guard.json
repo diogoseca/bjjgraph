@@ -224,7 +224,7 @@
         "duration": "5 minutes per configuration level"
       },
       {
-        "name": "Dynamic Base Maintenance Against Off-Balancing",
+        "name": "Dynamic Base Against Off-Balancing",
         "description": "Bottom player uses lapel grips to create off-balancing pressure in multiple directions while top player maintains base and posture. Top player practices weight shifting, base widening, and recovery movements without losing structural integrity. Emphasize staying calm under pressure and making micro-adjustments to base. Build from 50% to 75% resistance.",
         "duration": "4 minutes per round, 3 rounds"
       },
@@ -465,9 +465,9 @@
             "probability": 60
           },
           {
-            "technique": "Armbar from Guard",
-            "target": "Armbar Control",
-            "probability": 45
+            "technique": "Arm Drag",
+            "target": "Back Control",
+            "probability": 50
           }
         ]
       },
@@ -531,7 +531,7 @@
         "duration": "5 minutes"
       },
       {
-        "name": "Posture Breaking with Lapel Control",
+        "name": "Posture with Lapel Control",
         "description": "Start with collar already threaded through legs. Partner attempts to maintain good posture and strong base while you work collar grips and leg positioning to break them down progressively. Focus on creating maximum breaking power with minimal effort through proper mechanics, angles, and leverage understanding.",
         "duration": "3 minutes per person"
       },
@@ -630,7 +630,7 @@
         "attempt_probability": 11
       },
       {
-        "transition": "Armbar from Guard",
+        "transition": "Arm Drag",
         "attempt_probability": 10
       },
       {

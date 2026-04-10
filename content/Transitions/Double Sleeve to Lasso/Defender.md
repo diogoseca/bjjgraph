@@ -154,6 +154,8 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Double Sleeve to Lasso?</p>
+
 - Bottom player lifts one foot off your hip while maintaining or increasing sleeve tension on that side, creating space for the threading motion
 - Bottom player's hips elevate off the mat and rotate to one side, indicating they are preparing to angle their shin across your arm
 - Increased pulling tension on one sleeve combined with decreased pressure from the same-side foot signals the specific threading side
@@ -165,6 +167,8 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Double Sleeve to Lasso?</p>
 
 - Keep elbows tight to your body and arms retracted when you sense the bottom player adjusting foot placement for a threading attempt
 - Maintain strong upright posture with chest forward and hips back to minimize the space available for shin threading between your arm and torso
@@ -179,6 +183,8 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Double Sleeve to Lasso?</p>
 
 ### 1. Retract the threatened arm by pulling your elbow tight to your ribs and rotating your wrist to strip the sleeve grip
 
@@ -216,6 +222,8 @@ Defending the Double Sleeve to Lasso transition requires awareness of the bottom
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Double Sleeve to Lasso?</p>
+
 ### → [[Positions/Open Guard]]
 
 Time your grip break to coincide with the threading attempt when the bottom player has committed their leg to the transition and temporarily reduced their foot frames on your body. Strip both sleeve grips and immediately establish your own passing grips on their legs before they can recover controls.
@@ -231,6 +239,8 @@ Retract the targeted arm sharply by pulling your elbow to your ribs the instant 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Double Sleeve to Lasso?</p>
 
 ### 1. Leaving arms extended with elbows flared wide while in the bottom player's double sleeve guard
 
@@ -260,6 +270,8 @@ Retract the targeted arm sharply by pulling your elbow to your ribs the instant 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Double Sleeve to Lasso?</p>
+
 **Phase 1: Recognition** - Identifying pre-threading cues and timing signals
 Partner performs lasso entries at 50% speed. Focus exclusively on recognizing the pre-threading signals: foot lifting off hip, hip elevation, rotation toward threading side. Call out the cue verbally before the thread completes to build pattern recognition without worrying about defensive technique execution.
 
@@ -276,26 +288,6 @@ Positional sparring starting from double sleeve guard top. Bottom player activel
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What early warning signs indicate the bottom player is about to attempt a lasso thread?
-**A**: The key recognition cues include one foot lifting off your hip while sleeve tension increases on that side, hip elevation and rotation toward one side creating the threading angle, increased pulling on one sleeve compared to the other, and the bottom player's gaze or shoulders shifting toward the arm they intend to thread. These signals typically occur in sequence within one to two seconds before the actual threading attempt, giving you a narrow but actionable window to prevent the entry through arm retraction or posture adjustment.
-
-**Q2**: Why is driving forward more effective than retreating when defending the threading attempt?
-**A**: Retreating backward extends the distance between you and the bottom player, which paradoxically creates more space for their shin to travel through during the threading motion. Driving forward compresses the space the bottom player needs for hip rotation and leg insertion, making it geometrically more difficult to complete the thread. Additionally, the bottom player has just lifted one foot off your hip to begin threading, temporarily weakening their distance management and making them more vulnerable to forward pressure that collapses their entire guard structure.
-
-**Q3**: The bottom player's shin is halfway through the threading motion and you cannot prevent it - what should you do?
-**A**: Immediately rotate your arm inward while pulling your elbow sharply toward your hip to reduce the remaining space the shin can travel through. Simultaneously step toward the threading side to flatten the angle and minimize thread depth. If the thread is too advanced to prevent, focus on keeping your elbow bent and tight to ensure a shallow lasso rather than allowing the shin to cross fully to a deep position. A shallow lasso provides significantly less control and is much easier to clear through subsequent grip breaks and posture adjustments.
-
-**Q4**: How does the bottom player's threading attempt create a passing opportunity for the top player?
-**A**: During the threading attempt, the bottom player must lift one foot off your hip and commit their leg to the threading motion, temporarily reducing their defensive frames from two legs to one. This creates a window where you face reduced resistance to forward movement and can drive into a passing sequence before the lasso establishes. The transition also occupies both of the bottom player's arms with sleeve gripping duties, limiting their ability to create secondary frames or establish alternative controls, making them vulnerable to aggressive forward pressure timed to coincide with the foot lifting.
-
-
-
-</section>
 
 
 </main>

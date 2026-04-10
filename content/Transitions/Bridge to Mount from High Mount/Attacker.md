@@ -196,6 +196,8 @@ The technique demands precise timing above all else. Bridging against a settled,
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Bridge to Mount from High Mount?</p>
+
 - Time bridges exclusively during opponent's weight shifts rather than against settled position to maximize displacement
 - Generate all force through hip extension and foot drive, never through arm pushing which exposes limbs to attack
 - Angle bridges directionally rather than straight up to create rotational displacement that is harder to absorb
@@ -210,6 +212,8 @@ The technique demands precise timing above all else. Bridging against a settled,
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Bridge to Mount from High Mount?</p>
+
 - Both feet planted flat on the mat as close to hips as possible with knees bent at approximately 90 degrees
 - Arms tucked defensively against ribs with hands protecting chin and neck in compact shell position
 - Weight shifted onto shoulders and upper back in preparation for upward hip drive through the bridge
@@ -222,6 +226,8 @@ The technique demands precise timing above all else. Bridging against a settled,
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Bridge to Mount from High Mount step by step?</p>
 
 1. **Plant feet for maximum leverage**: Position both feet flat on the mat as close to your hips as possible, with knees bent at approximately 90 degrees. Wider foot placement provides more stability but less height; closer placement generates more vertical force. Ensure both heels are firmly planted for maximum drive through the floor.
 2. **Establish defensive arm position**: Tuck elbows tight against your ribs with hands positioned near your chin and neck, creating a compact defensive shell. Do not extend arms to push on opponent's body. This position protects against arm isolation while keeping your structure compact for the bridge movement.
@@ -252,6 +258,8 @@ The technique demands precise timing above all else. Bridging against a settled,
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Bridge to Mount from High Mount?</p>
+
 - **Opponent posts hands wide near head and drives hips downward for tripod base stability** (Effectiveness: High) - Your Response: Wait for a different timing window when they reach for grips or submissions rather than bridging against active posting. Their posting creates a stable tripod that absorbs upward force effectively. → Leads to [[Positions/Mount/High Mount]]
 - **Opponent transitions to S Mount by sliding one knee across torso during bridge displacement** (Effectiveness: Medium) - Your Response: Immediately protect the near-side arm by clasping hands or gripping your own lapel. Work to collapse the S Mount position back through hip movement and frame creation. → Leads to [[Positions/Mount/S Mount]]
 - **Opponent grapevines both legs inside yours to eliminate hip extension leverage** (Effectiveness: High) - Your Response: Switch to small hip bumps combined with forearm frames on their hips rather than full bridges. Work to free one leg at a time by hooking their foot with yours to break the grapevine configuration. → Leads to [[Positions/Mount/High Mount]]
@@ -263,6 +271,8 @@ The technique demands precise timing above all else. Bridging against a settled,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Bridge to Mount from High Mount?</p>
 
 ### 1. Extending arms to push on opponent's chest or face during bridge attempt
 
@@ -302,6 +312,8 @@ The technique demands precise timing above all else. Bridging against a settled,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Bridge to Mount from High Mount (Attacker)?</p>
+
 **Phase 1: Bridge Mechanics** - Hip extension power and directional angles
 Practice explosive bridges without a partner, focusing on driving hips to maximum height with directional angles. Build posterior chain power through bridge repetitions, hip thrusts, and glute bridges. Develop the habit of angling bridges laterally rather than straight up.
 
@@ -322,39 +334,12 @@ Positional sparring starting from high mount bottom, applying bridge to mount te
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary timing window for executing the bridge from high mount bottom?
-**A**: The optimal timing window opens when the top player shifts weight forward to establish grips or initiate a submission setup. This forward weight shift elevates their center of gravity and narrows their support base, making them maximally vulnerable to explosive upward displacement. Bridging while they maintain static pressure with wide base and active posting is mechanically inefficient and likely to fail without sufficient force to overcome their tripod stability.
-
-**Q2**: Why should the bridge be angled to one side rather than directed straight upward?
-**A**: A directional bridge creates rotational displacement force that the top player cannot absorb by simply pressing hips downward. Straight upward bridges allow the opponent to spread knees and drive weight down symmetrically to maintain position. An angled bridge forces them to post to one side, creating asymmetric displacement that destabilizes their knee positioning and forces their knees to slide down the torso.
-
-**Q3**: What should your arms be doing during bridge execution from high mount bottom?
-**A**: Arms must remain tucked tight against your ribs with hands protecting chin and neck throughout the bridge. Never extend arms to push on opponent's chest, face, or shoulders, as this creates immediate armbar, americana, and kimura opportunities. All bridge force is generated through hip extension and foot drive. Arms serve exclusively defensive purposes during the movement, protecting against submission threats while the hips do the work.
-
-**Q4**: Your bridge successfully forces the opponent to regular mount - what is your immediate next action?
-**A**: Immediately chain into a standard mount escape sequence without pausing in regular mount. Establish elbow-knee connection frames and begin either an elbow escape by shrimping to insert a knee shield, or an upa escape by trapping arm and foot on the same side for an explosive bridge-and-roll. The opponent will attempt to walk knees back to high mount within seconds, so the transition from bridge to escape must be continuous and immediate.
-
-**Q5**: The opponent grapevines your legs when you attempt to bridge - how do you adjust your escape approach?
-**A**: When grapevined, full bridges become mechanically compromised because your legs cannot generate sufficient leverage for explosive hip extension. Switch to small hip bumps combined with forearm frame creation against their hips. Use micro-movements to gradually work their knees downward. Attempt to hook one of their grapevining feet with yours to break the configuration before resuming bridge attempts with full leverage.
-
-**Q6**: What physical cue tells you the opponent is about to reach for a submission grip from high mount?
-**A**: The opponent will release some chest-to-chest pressure and sit slightly more upright, or you will feel one hand release contact as they reach toward your collar, wrist, or head. Their weight shifts forward onto the posting hand as they reach, and knee pressure against your ribs may momentarily lighten on one side. This is the precise moment to bridge, as their base is compromised and attention is directed toward grip establishment rather than position maintenance.
-
-**Q7**: How do you manage energy when trapped in high mount waiting for bridge opportunities?
-**A**: Remain physically relaxed between bridge attempts, breathing steadily and controlling your heart rate through nasal breathing. Avoid constant struggling or tentative testing bridges when the opponent's base is solid, as this depletes energy without positional improvement. Stay mentally alert for timing windows while keeping your body in a low-energy defensive posture. Each bridge attempt should be a fully committed explosive effort followed by immediate relaxation if unsuccessful, preserving capacity for subsequent attempts.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Bridge to Mount from High Mount?</p>
 
 Bridge technique from high mount carries risk of neck strain if executed with poor head positioning. Always bridge through the shoulders and feet, never through the neck or head. Keep your chin tucked throughout the movement to protect cervical spine alignment. If the opponent has established deep collar grips, be aware that explosive bridges can inadvertently tighten chokes—tap immediately if any choke becomes compromised during bridge attempts. Practice bridge mechanics without a partner before adding resistance to develop proper spinal alignment and force generation patterns. Communicate intensity expectations with training partners before drilling.
 

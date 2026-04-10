@@ -11,10 +11,10 @@
     "backside-50-50",
     "entry-guide"
   ],
-  "from_position": "Backside 50-50/Bottom",
+  "from_position": "Backside 50-50/Top",
   "outcomes": [
     {
-      "to": "game-over",
+      "to": "Outside Heel Hook",
       "probability": 55,
       "result": "success"
     },

@@ -194,6 +194,8 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Hip Escape from Cross Body Ride?</p>
+
 - Frame before you move—establish structural barriers against opponent's hip before initiating any hip escape movement
 - Explosiveness matters more than strength—rapid hip displacement creates more space than sustained pushing against the ride
 - Escape direction is always lateral, away from the line of opponent's perpendicular chest pressure
@@ -209,6 +211,8 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Hip Escape from Cross Body Ride?</p>
+
 - At least one arm free for framing against opponent's hip or thigh
 - Sufficient hip mobility to execute lateral shrimping motion despite top pressure
 - Defensive posture maintained with chin tucked tightly and elbows pinned to ribs
@@ -221,6 +225,8 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Hip Escape from Cross Body Ride step by step?</p>
 
 1. **Establish defensive posture and assess pressure direction**: From turtle bottom under cross body ride pressure, tuck your chin tightly to your chest and pin your elbows against your ribs. Assess which direction the opponent's weight is primarily loading—identify whether their pressure is centered, shifted toward your head, or shifted toward your hips. This assessment determines the optimal shrimping direction.
 2. **Create near-side frame against opponent's hip**: Post your near-side forearm firmly against the opponent's hip bone or upper thigh on the side closest to their body. This frame serves as both a barrier preventing further weight transfer and a lever point for the upcoming hip movement. Keep your elbow connected to your ribs while extending only the forearm to avoid arm isolation.
@@ -252,6 +258,8 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Hip Escape from Cross Body Ride?</p>
+
 - **Top player drives weight forward immediately to re-flatten and re-establish ride** (Effectiveness: High) - Your Response: If you feel the weight re-settling before you complete the escape, immediately redirect to a sit-out or granby roll. The forward pressure commitment opens rotational escape pathways that lateral shrimping cannot access. → Leads to [[Positions/Cross Body Ride]]
 - **Top player follows hip movement laterally to maintain perpendicular angle** (Effectiveness: Medium) - Your Response: Chain a second hip escape in the same direction before they can fully re-settle, or sharply change direction to exploit their lateral momentum. An opponent moving laterally cannot simultaneously drive weight downward. → Leads to [[Positions/Cross Body Ride]]
 - **Top player abandons ride to secure seatbelt and insert hooks for back control** (Effectiveness: High) - Your Response: Immediately switch to hand fighting, targeting the choking hand first. If hooks begin entering, prioritize stripping the near-side hook while keeping your hips mobile. Transition to back escape protocols rather than continuing the hip escape. → Leads to [[Positions/Back Control]]
@@ -263,6 +271,8 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Hip Escape from Cross Body Ride?</p>
 
 ### 1. Pushing with arms instead of escaping with hips
 
@@ -307,6 +317,8 @@ The attacker perspective for the Hip Escape from Cross Body Ride covers the exec
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Hip Escape from Cross Body Ride (Attacker)?</p>
+
 **Solo Movement** - Face-down shrimping mechanics
 Practice the face-down lateral shrimping motion without a partner. Emphasize explosive hip displacement while maintaining chin-tucked posture and tight elbow position. Drill both directions, focusing on generating maximum lateral distance per shrimp.
 
@@ -327,42 +339,12 @@ Full-resistance positional rounds starting from cross body ride bottom. Top play
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing for initiating the hip escape from cross body ride?
-**A**: The optimal timing is during weight transitions—when the opponent adjusts their grips, shifts their chest pressure to set up a different attack, or begins inserting hooks. These micro-adjustments momentarily lighten their pressure and compromise their perpendicular connection to your back. Attempting the escape during settled, heavy pressure wastes energy and has a significantly lower success rate. Train yourself to feel pressure changes through tactile awareness and explode during these brief windows.
-
-**Q2**: Your frame against the opponent's hip is being stripped—how do you adjust your escape approach?
-**A**: If your forearm frame is being stripped, immediately switch to a secondary framing point. Use your elbow against their knee or hip crease, which is harder to strip because it creates a bone-on-bone wedge that their grip cannot easily control. Alternatively, abandon the frame entirely and redirect your effort to a quick sit-out or granby roll while the opponent is focused on hand fighting. The key is never fighting a losing grip battle—if one escape pathway closes, immediately redirect energy to another.
-
-**Q3**: What direction should you shrimp relative to the opponent's chest pressure?
-**A**: Shrimp directly lateral—away from the perpendicular line of the opponent's chest pressure. If they are riding across your back from right to left, shrimp to the left to escape their weight line. Moving forward or backward is ineffective because the cross body configuration can follow these directions easily. Lateral movement exploits the key weakness of perpendicular positioning: the top player cannot follow lateral hip displacement without completely reorganizing their weight distribution and angle.
-
-**Q4**: Your first hip escape attempt fails and the opponent settles heavier—what is your next action?
-**A**: Do not repeat the identical escape immediately. Instead, create a brief moment of stillness to reset your frame, then chain a different escape variant. Try shrimping in the opposite direction, or transition to a sit-out by threading your near leg through. If the opponent has settled very heavy, use small micro-movements to disrupt their balance before committing to the next explosive attempt. The worst response is remaining still and accepting the position—continuous movement keeps escape possibilities alive.
-
-**Q5**: What grip configuration should you maintain on your defensive arm during the hip escape?
-**A**: Keep your defensive arm—the arm not being used for framing—tight to your body with hand protecting your collar and neck area. This arm should never extend away from your torso during the escape, as extension creates opportunities for arm isolation, kimura attacks, or crucifix entries. After the hip escape creates space, this arm transitions to assist with position recovery: either posting to support a sit-up or threading between your body and the opponent for half guard insertion.
-
-**Q6**: How does the opponent's exact angle across your back determine which hip escape variation you use?
-**A**: The opponent's angle determines the optimal shrimp direction. If they are positioned more toward your head in a diagonal-forward orientation, shrimp your hips toward your feet and slightly away from their body. If they are positioned more toward your hips in a diagonal-back orientation, shrimp toward your head. Always escape in the direction that takes your hips away from the concentration of their weight. Misreading the angle and shrimping into their pressure line wastes the attempt and the energy invested.
-
-**Q7**: What is the critical mechanical difference between a hip escape from cross body ride and a standard side control hip escape?
-**A**: In cross body ride, the opponent's pressure comes from above and perpendicular to your spine rather than laterally as in side control. This means your frame must push upward against their hip rather than sideways against their chest. Additionally, you are face-down rather than on your back, so the shrimping motion involves rotating your hips laterally while maintaining a turtle-like posture rather than the supine bridge-and-shrimp of side control escapes. The face-down orientation also means you must actively protect your back throughout the entire sequence.
-
-**Q8**: If the hip escape successfully creates space but the opponent transitions to a seatbelt grip, what becomes your immediate priority?
-**A**: Immediately switch priority from completing guard recovery to fighting the seatbelt grip, specifically targeting the choking hand—the arm over your shoulder. Use both hands to strip this grip before the opponent can consolidate back control with hooks. If you cannot strip the grip quickly, continue your hip escape motion aggressively to prevent hook insertion while hand fighting. The seatbelt without hooks is recoverable; seatbelt with hooks means your escape window has closed and you must transition to dedicated back escape techniques.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Hip Escape from Cross Body Ride?</p>
 
 This escape technique carries low injury risk when performed with proper mechanics. The primary safety concern is neck strain from explosive movement while the opponent maintains heavy upper back pressure. Always maintain chin-tucked posture throughout the escape to protect the cervical spine. During drilling, communicate with training partners about pressure levels and begin with light resistance before gradually increasing intensity. If caught in a choke during the escape attempt, tap immediately rather than continuing the escape. Avoid excessive bridging or twisting movements that could strain the lower back under load, and ensure proper warm-up of hips and shoulders before dedicated drilling sessions.
 

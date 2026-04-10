@@ -59,12 +59,12 @@
       "relationship": "Recovery position when opponent sprawls"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission from achieved position"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission setup from achieved position"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Follow-up submission from achieved position"
+      "name": "Americana",
+      "relationship": "Follow-up submission from achieved mount position"
     },
     {
       "name": "Back Take from Top",

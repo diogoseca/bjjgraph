@@ -21,37 +21,37 @@ description: "Master Side Control Top in BJJ. Complete guide to submissions, tra
     {
       "@type": "HowToStep",
       "name": "Execute Side Control to Mount",
-      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 20% of exchanges from this position.",
+      "text": "From this position, attempt Side Control to Mount. This technique is attempted in 38% of exchanges from this position.",
       "position": 1
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Americana",
-      "text": "From this position, attempt Americana. This technique is attempted in 11% of exchanges from this position.",
+      "name": "Execute Knee on Belly",
+      "text": "From this position, attempt Knee on Belly. This technique is attempted in 9% of exchanges from this position.",
       "position": 2
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Kimura",
-      "text": "From this position, attempt Kimura. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Side Control to North-South",
+      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 6% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Knee on Belly",
-      "text": "From this position, attempt Knee on Belly. This technique is attempted in 10% of exchanges from this position.",
+      "name": "Execute Arm Triangle from Side Control",
+      "text": "From this position, attempt Arm Triangle from Side Control. This technique is attempted in 6% of exchanges from this position.",
       "position": 4
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Side Control to North-South",
-      "text": "From this position, attempt Side Control to North-South. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Ezekiel Choke from Side Control",
+      "text": "From this position, attempt Ezekiel Choke from Side Control. This technique is attempted in 2% of exchanges from this position.",
       "position": 5
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Arm Triangle",
-      "text": "From this position, attempt Arm Triangle. This technique is attempted in 7% of exchanges from this position.",
+      "name": "Execute Side Control to Kesa Gatame",
+      "text": "From this position, attempt Side Control to Kesa Gatame. This technique is attempted in 2% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Position Definition
 
+<p class="section-subtitle">What is Side Control (Top)?</p>
+
 - Chest positioned perpendicular to opponent's torso with direct contact across their upper body, creating maximum surface area for control and weight distribution
 - Opponent flat on their back with shoulders pinned to the mat, unable to turn into you or create significant angles for escape
 - Crossface established with forearm or bicep pressure across opponent's neck and face, controlling their head position and preventing them from turning toward you
@@ -176,6 +178,8 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Side Control (Top)?</p>
 
 - Successful guard pass completion from any guard type
 - Understanding of weight distribution principles and pressure passing mechanics
@@ -190,9 +194,11 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Key Offensive Principles
 
+<p class="section-subtitle">What are the key principles for attacking from Side Control?</p>
+
 - Crossface Control: Forearm or bicep pressure across neck and face prevents opponent from turning into you and creates discomfort that forces reactions
 - Hip Pressure: Keep hips low and heavy on opponent's hips to eliminate space and prevent guard recovery
-- Weight Distribution: Strategic placement of weight across torso limits opponent's movement while preserving your mobility for transitions
+- Center of Gravity: Strategic placement of weight across torso limits opponent's movement while preserving your mobility for transitions
 - Head Position: Your head positioned opposite the crossface creates additional pressure and prevents opponent from sitting up
 - Hip Control: Near hand blocks opponent's far hip to prevent knee insertion and guard recovery
 - Base Management: Appropriate leg positioning with near leg posted and far leg sprawled provides stability against escape attempts
@@ -205,9 +211,11 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Side Control (Top)?</p>
+
 **If opponent's near arm is extended or pushing against your neck or head:**
-- Execute **[[Transitions/Americana/Attacker|Americana]]** → [[Positions/Game Over]] (Probability: 50%)
-- Execute **[[Transitions/Kimura/Attacker|Kimura]]** → [[Positions/Game Over]] (Probability: 45%)
+- Execute **[[Submissions/Americana/Attacker|Americana]]** → [[game-over]] (Probability: 50%)
+- Execute **[[Submissions/Kimura/Attacker|Kimura]]** → [[game-over]] (Probability: 45%)
 
 
 **If opponent creates space by bridging or frames with both arms:**
@@ -217,12 +225,12 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 
 **If opponent turns into you attempting to recover guard:**
 - Execute **[[Transitions/Side Control to North-South/Attacker|Side Control to North-South]]** → [[Positions/North-South]] (Probability: 70%)
-- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[Positions/Game Over]] (Probability: 35%)
+- Execute **[[Transitions/Darce Choke/Attacker|Darce Choke]]** → [[game-over]] (Probability: 35%)
 
 
 **If opponent's far arm crosses their own neck while defending:**
-- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Transitions/Breadcutter Choke/Attacker|Breadcutter Choke]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Arm Triangle/Attacker|Arm Triangle]]** → [[game-over]] (Probability: 55%)
+- Execute **[[Submissions/Breadcutter Choke/Attacker|Breadcutter Choke]]** → [[game-over]] (Probability: 40%)
 
 
 **If opponent attempts to insert knee for half guard recovery:**
@@ -237,6 +245,8 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Side Control?</p>
 
 ### 1. Positioning too high on opponent's chest without hip contact
 
@@ -275,6 +285,8 @@ Side Control Top is one of the most fundamental and dominant positions in Brazil
 <section id="training-drills" class="content-section hide-minimal">
 
 ## Training Drills for Attacks
+
+<p class="section-subtitle">How do you train Side Control attacks?</p>
 
 ### Position Maintenance Against Progressive Resistance
 
@@ -336,8 +348,8 @@ Partner attempts specific escape such as elbow escape, bridge and roll, or turni
 - **[[Positions/Side Control/Scarf Hold Position]]** - Related holding position with head control emphasis
 - **[[Positions/Half Guard]]** - Common escape target for bottom player attempting guard recovery
 - **[[Positions/Back Control]]** - Advanced position when opponent turns incorrectly during escape
-- **[[Transitions/Americana]]** - Primary shoulder lock submission transition from this position
-- **[[Transitions/Kimura]]** - High-percentage shoulder lock transition with back take potential
+- **[[Submissions/Americana]]** - Primary shoulder lock submission transition from this position
+- **[[Submissions/Kimura]]** - High-percentage shoulder lock transition with back take potential
 - **[[Transitions/Arm Triangle]]** - Head and arm choke available when opponent defends arms incorrectly
 - **[[Transitions/Darce Choke]]** - Effective choke when opponent turns into you from bottom
 - **[[Transitions/North-South Choke]]** - Powerful submission from north-south transition

@@ -162,6 +162,8 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Anaconda Control to Dead Orchard Control?</p>
+
 - Attacker stops squeezing for an immediate finish and begins walking their grip incrementally deeper past your far shoulder, signaling the shift from anaconda finish to dead orchard depth
 - Attacker's hips begin stepping laterally toward your head in small increments rather than staying in the standard anaconda position beside your hip
 - Shoulder pressure changes from a forward driving force to a more downward compressive angle, indicating the attacker is transitioning from finishing mechanics to control mechanics
@@ -173,6 +175,8 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Anaconda Control to Dead Orchard Control?</p>
 
 - Recognize the transition early through tactile cues: grip walking, hip repositioning, and weight redistribution signal the shift from finish attempt to dead orchard setup
 - Exploit the transitional phase aggressively rather than waiting for dead orchard to lock in, as escape probability drops dramatically once established
@@ -187,6 +191,8 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Anaconda Control to Dead Orchard Control?</p>
 
 ### 1. Explosive bridge and turn toward the trapped arm side during the attacker's hip repositioning phase to scramble free before dead orchard angle is established
 
@@ -224,6 +230,8 @@ Defending the Transition to Dead Orchard Control requires recognizing the attack
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Anaconda Control to Dead Orchard Control?</p>
+
 ### → [[Positions/Turtle]]
 
 Time an explosive bridge-and-turn to coincide with the attacker's hip repositioning phase when their base is narrowest. Alternatively, extract your trapped arm during a grip deepening micro-adjustment and immediately turtle tight with elbows to knees to prevent re-establishment of the anaconda configuration.
@@ -239,6 +247,8 @@ Prevent the dead orchard transition from completing by maintaining active frames
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Anaconda Control to Dead Orchard Control?</p>
 
 ### 1. Failing to recognize the transition from anaconda finish attempt to dead orchard setup, allowing the attacker to establish deep control without resistance
 
@@ -268,6 +278,8 @@ Prevent the dead orchard transition from completing by maintaining active frames
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Anaconda Control to Dead Orchard Control?</p>
+
 **Week 1-2** - Recognition and awareness
 Partner establishes anaconda control and transitions to dead orchard at 30% speed while bottom player practices identifying each stage: grip walking, hip repositioning, weight angle change, and secondary arm control. No escape attempts. Focus purely on developing the tactile sensitivity to recognize each transition phase through feel rather than sight.
 
@@ -284,29 +296,6 @@ Starting from anaconda control, top player chooses between immediate finish and 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from anaconda finish to dead orchard setup?
-**A**: The earliest cue is feeling the grip begin to walk incrementally deeper past your far shoulder without a corresponding increase in squeezing pressure. An anaconda finish attempt involves maximal squeeze. Dead orchard transition involves deliberate positional deepening without maximum effort squeeze. The shift from squeezing to walking is the first signal that the attacker has changed strategy from immediate finish to extended control.
-
-**Q2**: Why is the transitional phase your best escape opportunity rather than waiting for the position to establish?
-**A**: During the transition, the attacker is deliberately dismantling aspects of their existing control structure to rebuild at deeper levels. Grip adjustments create momentary looseness, hip repositioning narrows their base, and the focus on positional improvement divides their attention between maintaining current control and achieving new positioning. These transitional gaps do not exist once dead orchard is locked in and the attacker has consolidated all control elements at the deeper level.
-
-**Q3**: Your opponent begins walking their hips toward your head. What specific defensive movement counters this repositioning?
-**A**: Scoot your own hips in the same direction the attacker is walking, matching their movement step-for-step to maintain parallel hip alignment. This denies them the perpendicular angle that dead orchard requires. Simultaneously, use your free arm to frame against their shoulder to resist the changing pressure angle. If you can maintain parallel hip alignment, the attacker cannot achieve the downward compression vector that characterizes dead orchard, keeping them in standard anaconda where your escape options are broader.
-
-**Q4**: When should you attempt arm extraction during this transition, and what happens if it fails?
-**A**: Attempt arm extraction only during the brief loosening that occurs between the attacker's grip deepening micro-adjustments. Feel for the momentary reduction in tightness when they reposition their clasp. Pull your elbow tight to your ribs and drive your arm toward your hip in one committed movement. If extraction fails, your arm gets pulled deeper into the loop, which accelerates the dead orchard establishment. Because of this risk, only attempt extraction when you feel a clear loosening and can commit fully to the movement.
-
-**Q5**: Your free arm frame is being stripped by the attacker's free arm. How do you maintain defensive structure?
-**A**: When your frame is being stripped, immediately replace it with a different defensive structure. Options include: switching your frame target from shoulder to the choking arm's elbow, using your free hand to grip their wrist and fight the grip directly, or posting your free hand on the mat and beginning a hip escape movement that changes the angle of engagement. The critical principle is never allowing both the frame loss and the grip deepening to happen simultaneously. Sacrifice some frame quality to maintain neck defense if necessary.
-
-
-
-</section>
 
 
 </main>

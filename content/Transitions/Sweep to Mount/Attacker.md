@@ -192,6 +192,8 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep to Mount?</p>
+
 - Use the guillotine grip as a steering wheel to direct opponent's weight toward their weak base angle
 - Generate sweep momentum from hip drive and core rotation rather than arm pulling
 - Time the sweep to coincide with opponent's weight shift during their defensive adjustment
@@ -207,6 +209,8 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep to Mount?</p>
+
 - Established Hindulotine grip from bottom with forearm blade positioned high under opponent's chin and hands locked
 - Opponent's posture broken forward with their head below their shoulder line, creating structural vulnerability
 - At least one hip cleared off center line to create the angle needed for directional sweep force
@@ -220,6 +224,8 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep to Mount step by step?</p>
 
 1. **Secure Hindulotine grip**: Confirm your guillotine grip is locked tight with the blade of your forearm positioned high under the opponent's chin. Hands should be in gable grip or chin strap configuration with elbows pinched tight to prevent opponent from creating defensive space between your arms and their neck.
 2. **Create hip angle**: Shift your hips approximately 30-45 degrees toward your choking arm side by walking your feet and bumping your hips laterally. This angles your body relative to your opponent and positions your hip as the fulcrum point for the sweep, loading the directional force you need for the off-balance.
@@ -249,6 +255,8 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep to Mount?</p>
+
 - **Posting the far-side arm wide and driving weight backward to prevent being tipped over the balance point** (Effectiveness: High) - Your Response: Their wide post compromises their choke defense. Abandon the sweep attempt and immediately tighten the guillotine for a direct finish, or switch to the Butterfly Sweep with Guillotine if hooks are available. Their arm extension also opens Hindulotine to Darce Choke transition. → Leads to [[Positions/Hindulotine]]
 - **Sprawling hips back and pulling head free to create distance and break the guillotine grip** (Effectiveness: Medium) - Your Response: If they create significant distance, close your guard to prevent pass and maintain whatever grip you retain. If only partial distance, re-establish hip angle and re-load the sweep threat. Their retreat resets the position but you retain guard control. → Leads to [[Positions/Hindulotine]]
 - **Circling toward the sweep direction to neutralize the off-balance angle and realign base** (Effectiveness: Medium) - Your Response: Follow their circular movement by adjusting your hip angle to maintain the off-balance threat from the new angle. If they circle past your sweep side, switch the sweep direction or transition to a back take as their rotation exposes their back. → Leads to [[Positions/Hindulotine]]
@@ -260,6 +268,8 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep to Mount?</p>
 
 ### 1. Attempting to sweep using only arm pulling force through the guillotine grip without hip drive
 
@@ -299,6 +309,8 @@ Strategically, this technique bridges the gap between bottom guard attacking and
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep to Mount (Attacker)?</p>
+
 **Week 1-2** - Hip angle and bridge mechanics
 Practice the hip angle setup and directional bridge in isolation without a partner, then with a compliant partner in Hindulotine position. Focus on generating sweep force from hips and core rather than arms. Drill planting feet, creating angle, and bridging at 45 degrees while maintaining a static guillotine grip. Partner provides zero resistance and allows the sweep to complete each repetition.
 
@@ -316,48 +328,12 @@ Full resistance sparring with the specific goal of hitting this sweep from Hindu
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary biomechanical difference between the Sweep to Mount and the Butterfly Sweep with Guillotine from Hindulotine?
-**A**: The Sweep to Mount uses a hip bump bridge mechanic where feet are planted on the mat and explosive bridging creates the off-balance, while the Butterfly Sweep with Guillotine uses butterfly hooks inside the opponent's thighs to elevate and redirect their forward momentum. The hip bump variant works when hooks are unavailable and relies on directional bridging force rather than opponent's forward pressure.
-
-**Q2**: Why must you establish a 30-45 degree hip angle before initiating the sweep?
-**A**: The hip angle converts your bridge from a purely vertical lift into a directional off-balance. A flat bridge only lifts the opponent momentarily before they settle back to base. The angled bridge creates a lateral force component that pushes opponent past their balance point toward your choking arm side, where their base is structurally weakest due to the guillotine pull.
-
-**Q3**: Your opponent posts their far hand wide to block your sweep attempt - how do you capitalize?
-**A**: Their wide post shifts their weight and compromises their guillotine defense. Abandon the sweep immediately and tighten the guillotine for a direct finish, as their extended arm cannot defend both the choke and the base simultaneously. Alternatively, their arm extension creates the angle needed for a Hindulotine to Darce Choke transition.
-
-**Q4**: What is the optimal timing window for initiating this sweep?
-**A**: The sweep should be initiated when opponent's weight shifts laterally or they narrow their base while adjusting their choke defense. The ideal moment is during a defensive transition - such as when they move their hand to fight your grip or shift their hips to relieve pressure. Initiating during static moments when their base is wide and settled meets maximum resistance.
-
-**Q5**: What grip configuration must be maintained throughout the entire sweep-to-mount transition?
-**A**: Maintain a locked gable grip or chin strap with the blade of your forearm positioned high under the opponent's chin, applying constant pressure to the carotid arteries. The grip serves dual purposes: submission threat and directional control. Never loosen the grip during the sweep, as the neck connection is both your steering mechanism and your insurance that you arrive in mount with an active submission.
-
-**Q6**: Where should the primary force for the sweep originate, and what is the consequence of generating force from the wrong source?
-**A**: Primary sweep force must originate from the hip bridge and core rotation through planted feet. If you generate force primarily through arm pulling on the guillotine grip, your grip fatigues within seconds, the sweep lacks sufficient power to off-balance a resisting opponent, and you risk losing the guillotine entirely as your forearms burn out. Arms direct the force vector while hips provide the power.
-
-**Q7**: Your opponent drops their weight low and flattens their body against you - how do you respond?
-**A**: Their low, flat position actually compresses them into your guillotine grip, increasing choking pressure. First attempt to finish the guillotine directly since their position assists your submission. If the choke stalls, insert butterfly hooks underneath their flattened body and transition to the Butterfly Sweep with Guillotine variant, which is specifically designed for forward-pressure opponents.
-
-**Q8**: After landing in mount, what should your immediate assessment determine?
-**A**: Assess whether the guillotine grip maintained sufficient tightness to finish the mounted guillotine. If the grip is still locked high under the chin with good pressure, drive hips toward your choking arm side and finish. If the grip loosened during transition, release the guillotine cleanly and immediately establish standard mount control with heavy hips and wide base, transitioning to conventional mount attacks.
-
-**Q9**: Your opponent circles toward your sweep side to neutralize the angle - what adjustment preserves your attack?
-**A**: Follow their circular movement by re-angling your hips to maintain the off-balance threat from the updated position. If they circle past your original sweep direction, you have two options: switch the sweep direction by re-planting and re-angling to the opposite side, or capitalize on their rotational momentum to take their back as their turning motion naturally exposes it.
-
-**Q10**: How does the Sweep to Mount integrate with the broader Hindulotine attack system to create dilemmas?
-**A**: The sweep forces opponents to widen their base for stability, which weakens their guillotine defense. Defending the choke requires keeping weight forward and base narrow, which opens the sweep. This creates a binary dilemma where every defensive adjustment for one threat exposes the other. Combined with the Butterfly Sweep with Guillotine, back take options, and darce transitions, the sweep ensures opponents cannot find a safe defensive posture.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep to Mount?</p>
 
 This technique involves significant rotational force on the cervical spine during the sweep transition while maintaining guillotine pressure. Practice with controlled speed initially, ensuring your partner can tap at any point during the movement. The guillotine component requires immediate release upon tap, which can be challenging mid-sweep - develop the habit of releasing the grip instantly regardless of sweep progress. Avoid explosive or jerking neck movements during the bridge. Partners should tap early when caught in the sweep sequence rather than defending through uncomfortable cervical positions. Practitioners with prior neck injuries should use reduced grip pressure during training and avoid full-speed repetitions until comfortable with the mechanics. Always warm up the neck thoroughly before drilling this technique.
 

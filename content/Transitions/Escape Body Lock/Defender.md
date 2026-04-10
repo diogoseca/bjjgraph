@@ -154,6 +154,8 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Body Lock?</p>
+
 - Opponent begins aggressive hand fighting against your locked grip, reaching behind to peel at your fingers or wrists
 - Opponent suddenly drops their level and widens their base, preparing for explosive movement
 - Opponent shifts their hips laterally or begins rotating their torso against your chest connection
@@ -166,6 +168,8 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Body Lock?</p>
 
 - Maintain constant forward hip pressure to prevent opponent from establishing base for escape
 - Re-lock grip immediately at the first sign of loosening rather than waiting for full break
@@ -180,6 +184,8 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Body Lock?</p>
 
 ### 1. Increase hip pressure and immediately re-lock grip tighter
 
@@ -217,6 +223,8 @@ As the defender against the Escape Body Lock, your objective is to maintain your
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Body Lock?</p>
+
 ### → [[Positions/Back Control]]
 
 When opponent creates angular displacement during hip switch, follow their rotation and immediately insert your near-side hook while transitioning your grip from body lock to seatbelt harness. Their escape movement actually helps your hook insertion by creating space between their legs.
@@ -232,6 +240,8 @@ Re-lock your grip immediately when opponent's break attempt fails, driving incre
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Body Lock?</p>
 
 ### 1. Loosening grip in anticipation of opponent's escape to prepare for re-gripping
 
@@ -261,6 +271,8 @@ Re-lock your grip immediately when opponent's break attempt fails, driving incre
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Body Lock?</p>
+
 **Phase 1: Pressure Maintenance Under Escape Attempts** - Maintaining chest connection and grip while partner attempts escapes
 Partner attempts various escape techniques at progressive resistance levels while you focus solely on maintaining body lock control. Track how long you can sustain control against increasingly aggressive escape attempts. Develop the sensitivity to increase pressure in response to escape cues.
 
@@ -277,26 +289,6 @@ Partner mixes genuine escape attempts with feints and positional adjustments. Pr
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt an escape from body lock?
-**A**: The earliest cue is aggressive hand fighting against your locked grip, specifically when you feel their hands reaching behind to peel at your fingers or wrists. This precedes all physical escape movements and indicates they are targeting your grip as the first step. Secondary early cues include sudden base widening and level dropping, which signal preparation for explosive hip movement. Recognizing these pre-escape indicators allows you to increase pressure and tighten control before the escape develops momentum.
-
-**Q2**: How should you respond when your opponent executes a hip switch during their escape attempt?
-**A**: Rather than fighting the hip switch directly, use the angular displacement it creates to your advantage by following the rotation and inserting your near-side hook between their legs. Their hip switch actually opens space for hook insertion that did not exist in the static body lock position. Simultaneously transition your grip from locked body lock to seatbelt harness. This converts their escape attempt into your back take, upgrading from a transitional control to a dominant position worth competition points.
-
-**Q3**: Why is maintaining chest-to-back connection more important than grip strength alone when defending against the escape?
-**A**: Chest-to-back connection provides primary control through surface area contact and weight transfer that cannot be broken by hand fighting alone. Even if your grip loosens momentarily, the chest connection prevents your opponent from creating the angular displacement needed for escape. Grip strength alone without chest connection allows opponents to rotate within the grip circle. The chest connection transfers your entire body weight into their center of mass, while the grip only uses arm strength. Prioritizing chest connection allows you to maintain control even during grip transitions.
-
-**Q4**: When is it strategically correct to release your body lock grip voluntarily during an escape defense?
-**A**: Release the grip voluntarily only when you can immediately establish an equal or superior control position, such as transitioning to front headlock when the opponent turns and lowers their head, or switching to a seatbelt harness when hooks are being inserted. Never release the grip into empty space or based on speculation that a better position might appear. The release must be part of a planned transition with the next control already being established as the grip opens. A controlled release to front headlock maintains offensive pressure despite losing the locked configuration.
-
-
-
-</section>
 
 
 </main>

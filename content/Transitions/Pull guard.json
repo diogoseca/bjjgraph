@@ -11,7 +11,7 @@
     "standing",
     "grips"
   ],
-  "from_position": "Standing Position/Top",
+  "from_position": "Standing Guard/Bottom",
   "outcomes": [
     {
       "to": "Closed Guard/Bottom",
@@ -73,7 +73,7 @@
       "relationship": "Alternative offensive sequence from closed guard pull"
     },
     {
-      "name": "Triangle from Closed Guard",
+      "name": "Closed Guard to Triangle",
       "relationship": "Submission attack initiated immediately after guard pull"
     },
     {

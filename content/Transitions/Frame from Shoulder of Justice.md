@@ -212,7 +212,7 @@ The Frame from Shoulder of Justice occupies a specific niche within the side con
 
 - [[Positions/North-South]] - Position the top player may transition to if the frame disrupts shoulder pressure toward the head direction
 
-- [[Transitions/Escape Side Control Consolidation]] - Follow-up escape technique usable after successfully transitioning to standard side control bottom
+- [[Transitions/Side Control Escape]] - Follow-up escape technique usable after successfully transitioning to standard side control bottom
 
 
 </section>

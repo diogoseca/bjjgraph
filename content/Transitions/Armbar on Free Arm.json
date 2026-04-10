@@ -47,8 +47,8 @@
       "relationship": "Target position - successful attack leads to armbar control"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Related submission sharing armbar finishing mechanics"
+      "name": "Armbar from Armbar Control",
+      "relationship": "Finishing submission - completes the armbar after establishing control position"
     },
     {
       "name": "Rear Naked Choke",
@@ -67,16 +67,16 @@
       "relationship": "Positional option for mounted armbar variant"
     },
     {
-      "name": "Armbar from Back",
-      "relationship": "Related technique - similar mechanics from different back control"
+      "name": "Armbar from Back Transition",
+      "relationship": "Related technique - similar armbar mechanics from standard back control"
     },
     {
       "name": "Body Triangle",
       "relationship": "Leg control that combines with Gift Wrap for armbar setup"
     },
     {
-      "name": "Armbar Finish",
-      "relationship": "Finishing transition from armbar control position"
+      "name": "Gift Wrap Armbar",
+      "relationship": "Related submission - armbar finish from Gift Wrap position"
     },
     {
       "name": "Belly Down Armbar",

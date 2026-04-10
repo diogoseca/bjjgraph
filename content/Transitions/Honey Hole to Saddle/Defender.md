@@ -162,6 +162,8 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Honey Hole to Saddle?</p>
+
 - Attacker's hip pressure momentarily decreases or shifts direction as they begin adjusting body angle
 - Attacker's outside leg lifts or loosens its contact across your hip during repositioning
 - Attacker releases one grip to reposition their hands for structural control in the new configuration
@@ -174,6 +176,8 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Honey Hole to Saddle?</p>
 
 - Recognize reconfiguration attempts early through tactile cues in hip pressure changes and leg adjustment movements
 - Exploit the transition window immediately when hip pressure decreases rather than waiting for full loosening
@@ -188,6 +192,8 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Honey Hole to Saddle?</p>
 
 ### 1. Explosive hip rotation toward attacker during momentary pressure reduction to disrupt perpendicular alignment
 
@@ -225,6 +231,8 @@ Defending the Honey Hole to Saddle transition requires recognizing the narrow wi
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Honey Hole to Saddle?</p>
+
 ### → [[Positions/Half Guard]]
 
 Exploit the maximum loosening moment during reconfiguration by combining explosive hip rotation with free leg posting to extract your trapped leg. Time the escape to the instant when the attacker adjusts both legs sequentially, threading your leg free during the gap between inside triangle tightening and outside leg replanting.
@@ -240,6 +248,8 @@ Prevent the Saddle optimization by maintaining constant defensive pressure throu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Honey Hole to Saddle?</p>
 
 ### 1. Remaining passive and waiting to see if the attacker completes the Saddle transition before reacting
 
@@ -269,6 +279,8 @@ Prevent the Saddle optimization by maintaining constant defensive pressure throu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Honey Hole to Saddle?</p>
+
 **Phase 1: Recognition Training** - Identifying reconfiguration cues through tactile awareness
 Partner executes the Honey Hole to Saddle transition at slow speed while you focus on identifying each recognition cue. Call out when you feel hip pressure changes, leg adjustments, and grip transitions. Repeat 20 times per side until you can identify the transition initiation within the first half-second of movement.
 
@@ -285,29 +297,6 @@ Start in Honey Hole with full resistance. Attacker's goal is to achieve Saddle w
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest tactile cue that tells you the attacker is beginning a Honey Hole to Saddle transition?
-**A**: The earliest cue is a shift or momentary decrease in hip pressure against your trapped leg. Before any visible leg adjustment, the attacker must redirect their weight to begin the reconfiguration. This pressure change is detectable through your trapped thigh before you can see or feel the leg adjustments. Train yourself to react to this pressure shift as the primary trigger for defensive action.
-
-**Q2**: Your attacker begins lifting their outside leg to adjust its angle across your hip - what defensive action gives you the highest success probability?
-**A**: Immediately drive your free leg's foot into the space vacated by their outside leg, framing your foot or shin against their hip to prevent them from replanting the outside leg in its new position. This frame blocks the critical outside leg adjustment that distinguishes Saddle from Honey Hole. While maintaining this frame, begin working hip rotation to create extraction angles. The frame buys time for the rotational escape.
-
-**Q3**: Why is preventing the Saddle optimization more important than attempting an immediate full escape?
-**A**: Escape attempts from Honey Hole have meaningfully higher success rates than escape attempts from fully locked Saddle due to the Saddle's optimized perpendicular alignment, tighter hip pressure, and established submission dilemma framework. Preventing the upgrade keeps you in a position where subsequent escape attempts have better odds. A failed escape attempt from Honey Hole usually returns you to Honey Hole, while a failed escape from Saddle often results in immediate submission.
-
-**Q4**: How should you manage your energy when the attacker makes multiple transition attempts that you successfully defend?
-**A**: Each successful defense costs defensive energy through framing, rotation, and grip fighting. Recognize that the attacker is also expending energy on reconfiguration attempts. Use the rest periods between attempts to work incremental escape progress rather than fully resting. Small hip movements and grip adjustments between defensive efforts accumulate toward eventual escape. The defender who uses inter-attempt rest productively will outlast the attacker who must repeatedly restart their transition sequence.
-
-**Q5**: What recovery protocol should you follow after a failed escape attempt during the transition window?
-**A**: Immediately re-establish heel protection and defensive frames rather than attempting a second escape in quick succession. The attacker will likely re-tighten control after your escape attempt, and a second attempt against tightened control has lower success probability. Return to your defensive baseline, assess what the attacker adjusted in response to your escape, and wait for the next reconfiguration attempt to create a new window. Failed escapes provide information about the attacker's defensive reactions that you can exploit in subsequent attempts.
-
-
-
-</section>
 
 
 </main>

@@ -166,6 +166,8 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle from Guard?</p>
+
 - The bottom player's outside leg begins lifting off your far shoulder and moving laterally toward your face, indicating the triangle leg transition is initiating from Mission Control
 - You feel a subtle reduction in downward pulling pressure on your head accompanied by the bottom player's hips shifting laterally, signaling the bait-and-switch timing where they trade head control for triangle entry space
 - The bottom player's grip shifts from pulling your head straight down to pulling it diagonally toward the trapped arm side, pre-setting the angle they need for the triangle and indicating the entry is imminent
@@ -177,6 +179,8 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle from Guard?</p>
 
 - Recognize the bait: when the bottom player slightly releases head control pressure, this is not a genuine escape window but a trap designed to trigger the postural recovery that assists the triangle entry
 - Keep the chin tucked and head turned toward the trapped arm side throughout all defensive movements to prevent the leg from crossing cleanly across the neck and to reduce available choking space
@@ -191,6 +195,8 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle from Guard?</p>
 
 ### 1. Drive forward with stacking pressure and tuck chin to the trapped arm side before the leg fully crosses the face, collapsing the space the bottom player needs to complete the triangle entry
 
@@ -228,6 +234,8 @@ The defender must operate on multiple defensive timelines simultaneously. The im
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Triangle from Guard?</p>
+
 ### → [[Positions/Rubber Guard/Mission Control]]
 
 Prevent the leg from crossing by driving forward with immediate stacking pressure the moment the outside leg lifts. Keep chin tucked and head turned to the trapped arm side to deny space for the leg to travel across your face. If the triangle attempt fails, the bottom player must re-establish Mission Control, giving you an opportunity to restart your escape sequence from the control position with knowledge of their attack timing.
@@ -247,6 +255,8 @@ Time a standing break during a moment of reduced hip elevation or grip fatigue f
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle from Guard?</p>
 
 ### 1. Attempting to posture up explosively when the bottom player's outside leg begins moving toward your face, interpreting the leg movement as a weakening of control rather than the beginning of the triangle attack
 
@@ -276,6 +286,8 @@ Time a standing break during a moment of reduced hip elevation or grip fatigue f
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle from Guard?</p>
+
 **Week 1-2** - Recognition and immediate response
 Partner establishes Mission Control and slowly initiates the triangle entry at 30% speed. Practice recognizing the outside leg lift and the reduction in head control pressure as the triangle setup cues. Drill the immediate forward stacking response and chin tuck 20 times per session. Focus entirely on the first defensive timeline: preventing the leg from crossing the face.
 
@@ -292,29 +304,6 @@ Full resistance positional sparring starting from Mission Control. Partner uses 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is explosive posture recovery the wrong response when you feel the bottom player's outside leg begin lifting from your far shoulder?
-**A**: Explosive posture recovery creates the exact space and momentum the bottom player needs to swing the leg across your face and into triangle position. The triangle entry from Mission Control is specifically designed to exploit postural recovery attempts. Your upward driving movement carries your head into the closing triangle, and the space you create by extending your spine allows the leg to travel across your face unobstructed. The correct response is forward stacking pressure that collapses the available space rather than expanding it.
-
-**Q2**: What are the three defensive timelines you must manage simultaneously when the triangle entry begins from Mission Control?
-**A**: The three defensive timelines are: first, prevent the leg from crossing the face entirely by driving forward with stacking pressure and turning the head; second, if the leg crosses, prevent the figure-four lock by maintaining shoulder width and head position that creates structural resistance against the closing legs; third, if the lock establishes, prevent the angle cut by controlling the bottom player's hips and squaring your alignment to their centerline. Each timeline has progressively worse odds of escape, making the first timeline the highest priority defensive action.
-
-**Q3**: The bottom player has locked the triangle but has not yet cut the angle. What is your highest-priority defensive action and why?
-**A**: Your highest priority is preventing the angle cut by immediately controlling the bottom player's far hip with your free hand while driving your hips forward to square your centerline to theirs. The angle is what converts the triangle from a positional squeeze into an arterial blood choke. Without the perpendicular angle, the triangle applies uncomfortable pressure but cannot achieve bilateral carotid compression needed for unconsciousness. Denying the angle buys substantial time to work systematic escape sequences from inside a locked but ineffective triangle configuration.
-
-**Q4**: You successfully extract your trapped arm during the triangle entry. What position should you expect to reach, and what is your immediate priority?
-**A**: With the arm extracted, you should reach closed guard position since the shoulder isolation that defines Mission Control is broken. Your immediate priority is posture recovery, establishing strong grips on the bottom player's hips or biceps, and beginning your guard opening sequence. Do not celebrate the escape by relaxing, as the bottom player will immediately attempt to re-establish rubber guard control or transition to alternative attacks. Maintain forward pressure and grip fighting to prevent them from pulling you back into Mission Control.
-
-**Q5**: How do you distinguish between a genuine escape window and a baited opening designed to trigger your triangle entry?
-**A**: A genuine escape window occurs when the bottom player's hip elevation drops, their grip control weakens simultaneously on both head and arm, and their outside leg settles into a static position rather than tensing for movement. A baited opening typically shows only reduced head pulling pressure while hip elevation remains high, the outside leg begins subtle repositioning or tensing for the swing, and the trapped arm control actually tightens rather than relaxing. The key tell is the outside leg: if it is coiling or shifting position while head control lightens, the bottom player is setting up the triangle entry, not losing control.
-
-
-
-</section>
 
 
 </main>

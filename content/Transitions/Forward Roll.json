@@ -11,7 +11,7 @@
     "rolling",
     "turtle escape"
   ],
-  "from_position": "Turtle/Bottom",
+  "from_position": "Truck/Bottom",
   "outcomes": [
     {
       "to": "Seated Guard/Bottom",
@@ -67,16 +67,16 @@
       "relationship": "Complementary movement pattern connecting inversion and turtle escapes"
     },
     {
-      "name": "Guard Recovery",
-      "relationship": "Primary objective when executing forward roll from bottom"
+      "name": "Rolling to Guard",
+      "relationship": "Primary guard recovery transition sharing the same objective from turtle bottom"
     },
     {
       "name": "Defensive Roll",
       "relationship": "Related defensive rolling movement from turtle position"
     },
     {
-      "name": "Forward Roll",
-      "relationship": "Self-reference for the forward roll transition technique"
+      "name": "Technical Stand-up",
+      "relationship": "Alternative turtle escape option that recovers to standing rather than guard"
     }
   ],
   "attacker": {

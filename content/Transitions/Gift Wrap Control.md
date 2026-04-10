@@ -208,11 +208,11 @@ Gift Wrap Control functions as a transitional hub within the side control and mo
 
 - [[Transitions/Arm Triangle]] - Submission option—wrapped arm position can set up arm triangle
 
-- [[Submissions/Kimura from Side Control]] - Alternative attack—used when arm extends during wrap attempt
+- [[Submissions/Kimura]] - Alternative attack—used when arm extends during wrap attempt
 
-- [[Submissions/Americana from Side Control]] - Alternative attack—available when opponent posts defensively
+- [[Submissions/Americana]] - Alternative attack—available when opponent posts defensively
 
-- [[Transitions/Cross Collar Choke]] - Submission from Gift Wrap—wrapped arm assists collar control
+- [[Submissions/Cross Collar Choke]] - Submission from Gift Wrap—wrapped arm assists collar control
 
 
 </section>

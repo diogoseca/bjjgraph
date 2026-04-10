@@ -188,6 +188,8 @@ The Frame Escape from Darce represents the primary systematic response when caug
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Frame Escape from Darce?</p>
+
 - Establish frames immediately before the choke tightens—proactive framing is exponentially more effective than reactive framing once compression is locked
 - Direct framing pressure against opponent's far hip or shoulder to disrupt the compression angle rather than pushing against the choking arm itself
 - Turn into the choke rather than pulling away to reduce the effective choking diameter and create extraction angles for the trapped arm
@@ -202,6 +204,8 @@ The Frame Escape from Darce represents the primary systematic response when caug
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Frame Escape from Darce?</p>
+
 - At least one arm (typically the far-side arm) free and available for framing against opponent's body
 - Chin tucked firmly to chest to prevent deep penetration of the choking arm under the jaw
 - Some residual space between the choking arm and neck that has not been fully compressed by the figure-four lock
@@ -214,6 +218,8 @@ The Frame Escape from Darce represents the primary systematic response when caug
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Frame Escape from Darce step by step?</p>
 
 1. **Recognize Threat and Protect Neck**: Immediately identify the Darce grip being established by feeling the arm threading under your armpit and across the back of your neck. Tuck your chin firmly to your chest and bring your free hand to your trapped shoulder to begin creating a pocket of space between the choking arm and your neck. This initial reaction must be automatic and immediate—every second of delay allows the opponent to tighten their grip.
 2. **Establish Primary Frame**: Place your free forearm across your opponent's far hip or lower ribcage, creating a structural brace that prevents them from driving their weight forward and tightening the choke. The frame should use bone-on-bone contact with your forearm perpendicular to their body for maximum structural integrity. Keep your elbow tight to your own body rather than extending your arm, which would compromise the frame's strength.
@@ -243,6 +249,8 @@ The Frame Escape from Darce represents the primary systematic response when caug
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Frame Escape from Darce?</p>
+
 - **Opponent tightens grip and drives shoulder pressure deeper before frames are fully established** (Effectiveness: High) - Your Response: Accelerate chin tuck and use both hands to push against opponent's choking arm bicep to create emergency space before transitioning back to hip-based framing → Leads to [[Positions/Darce Control]]
 - **Opponent releases Darce grip and immediately transitions to crossface side control as space is created** (Effectiveness: Medium) - Your Response: Redirect frames to side control defense—frame against their far hip and begin standard hip escape to guard recovery before they consolidate side control → Leads to [[Positions/Side Control]]
 - **Opponent sprawls hips back and re-angles to maintain choking pressure despite frame placement** (Effectiveness: Medium) - Your Response: Shift frame target from hip to shoulder and combine with a hip switch to change escape angle, disrupting the new choking vector their sprawl created → Leads to [[Positions/Darce Control]]
@@ -254,6 +262,8 @@ The Frame Escape from Darce represents the primary systematic response when caug
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Frame Escape from Darce?</p>
 
 ### 1. Pulling away from the choke by extending the neck and pushing with straight arms
 
@@ -293,6 +303,8 @@ The Frame Escape from Darce represents the primary systematic response when caug
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Frame Escape from Darce (Attacker)?</p>
+
 **Phase 1: Frame Mechanics** - Frame placement and hip escape coordination
 Partner establishes loose Darce grip at 25% resistance. Practice placing frames in correct positions against hip and shoulder, coordinating hip escapes with frame maintenance. Focus on proper forearm angle, frame targets, and timing of shrimp with frame pressure. 10 repetitions per side with partner feedback on frame effectiveness.
 
@@ -313,45 +325,12 @@ Complete the escape and immediately transition to offensive half guard technique
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical initial action when you feel a Darce grip being established?
-**A**: Immediately tuck your chin firmly to your chest and bring your free hand to your trapped shoulder to create a pocket of space. This prevents the choking arm from sliding under your jaw where it can access the carotid arteries directly. Every second of delay allows the opponent to tighten their grip and reduce your escape options significantly, making early recognition and instant chin protection the highest priority.
-
-**Q2**: Where should you direct your primary frame and why is this target optimal?
-**A**: Direct your primary frame against your opponent's far hip or lower ribcage using forearm-to-bone contact. This target provides maximum structural resistance because the hip is a stable bone structure that cannot move away from your frame easily. Framing against the head or chest lacks structural integrity and the opponent can simply drive through it with shoulder pressure.
-
-**Q3**: Why is turning into the choke more effective than pulling away from it?
-**A**: Turning into the choke reduces the effective diameter of the choking loop around your neck. The Darce relies on your trapped shoulder being pushed against your neck by the choking arm to create compression. When you turn toward the choke, you reduce the angle that creates this compression and create space on the opposite side for arm extraction. Pulling away actually increases the compression angle and tightens the choke.
-
-**Q4**: Your opponent sprawls their hips back as you establish your frame—how do you adjust your escape?
-**A**: Redirect your frame from their hip to their shoulder or chest, and combine this with a hip switch that changes your escape angle. The sprawl removes their hip as a viable frame target but also creates space under their chest. Use this space to turn more aggressively into them and work your arm extraction from the new angle. The hip switch disrupts their sprawl-based counter by changing the vector of your escape entirely.
-
-**Q5**: What role does the knee shield play in completing the frame escape successfully?
-**A**: The knee shield serves as a physical barrier that prevents the opponent from reattaching the Darce grip or collapsing back into the control position after space is created. It creates structural separation between your bodies maintained by skeletal alignment rather than muscular effort. Without inserting a knee shield, any space created by framing is temporary and the opponent will simply close the distance and re-engage the choke.
-
-**Q6**: How do you extract the trapped arm when the opponent is maintaining tight compression?
-**A**: Rotate your trapped shoulder toward the mat while pulling your elbow tight to your centerline. Use your free hand to grip your own wrist and assist the extraction by pulling toward your belly button. The key mechanical detail is that the elbow must travel toward your navel, not outward, as this follows the path of least resistance through the narrowing gap between the choking arm and your body. Coordinate the extraction with a hip escape to create maximum available space.
-
-**Q7**: Your initial frame escape fails and the opponent re-tightens the Darce—what is your backup plan?
-**A**: Chain to a Granby roll escape by turning your hips over your trapped-side shoulder and rolling through, or attempt a step-over escape if space permits. The frame escape creates micro-spaces even when it fails that can be exploited by chaining to a different escape pathway rather than repeatedly attempting the same technique. Each failed attempt should yield partial progress—more space, a slightly loosened grip—that makes the next escape attempt more viable.
-
-**Q8**: What grip configuration must the opponent have for the frame escape to remain viable?
-**A**: The frame escape is most effective when the opponent has established the Darce threading but has not yet locked a tight figure-four with elbows fully pinched. If the grip is completely locked with maximum compression and the opponent's weight is settled, the frame escape becomes significantly harder and may need to be preceded by grip-breaking or combined with rolling escapes. The window of opportunity is largest during the grip transition phase before the lock is secured.
-
-**Q9**: How should you coordinate breathing during the frame escape to manage energy and composure?
-**A**: Breathe slowly and deliberately through your nose in controlled cycles, exhaling during each phase of exertion such as the hip escape and arm extraction. Never hold your breath as this depletes oxygen faster and accelerates the panic response that degrades technique. During moments when the choke pressure lessens from your framing, take a full breath to restore oxygen before initiating the next escape phase. Calm breathing enables systematic execution rather than energy-wasting explosive movements.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Frame Escape from Darce?</p>
 
 The Frame Escape from Darce involves defending against an active blood choke that can cause unconsciousness within seconds if fully locked. Always tap immediately if you feel lightheaded, experience vision changes, or cannot maintain defensive composure. During training, communicate clearly with your partner about pressure levels and establish tap signals before drilling. Never attempt to power through a fully locked Darce choke to practice the escape—start from partially established positions and progressively increase resistance across training sessions. Partners applying the Darce must release immediately upon tap and monitor for signs of distress including facial color changes and loss of muscular tension.
 

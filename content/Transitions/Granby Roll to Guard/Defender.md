@@ -164,6 +164,8 @@ The most critical defensive window exists in the first fraction of a second when
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Granby Roll to Guard?</p>
+
 - Bottom player drives hips backward creating a brief gap between their body and your chest pressure, signaling space creation for the roll
 - Bottom player posts their far-side hand near their ear with fingers angled toward their feet, establishing the pivot point for shoulder roll initiation
 - Bottom player tucks their chin aggressively and turns their head away from your primary control side, indicating commitment to the rotational escape
@@ -176,6 +178,8 @@ The most critical defensive window exists in the first fraction of a second when
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Granby Roll to Guard?</p>
 
 - Maintain heavy perpendicular chest pressure on opponent's back to eliminate the space needed to initiate the roll
 - Keep hips low and weighted on opponent's near hip to anchor their base and prevent rotational momentum generation
@@ -190,6 +194,8 @@ The most critical defensive window exists in the first fraction of a second when
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Granby Roll to Guard?</p>
 
 ### 1. Drive chest pressure forward and sprawl hips back when you feel the initial hip bump space creation
 
@@ -227,6 +233,8 @@ The most critical defensive window exists in the first fraction of a second when
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Granby Roll to Guard?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Prevent the roll entirely by maintaining heavy forward pressure, blocking the posting arm, and immediately re-flattening the bottom player whenever they attempt to create space. Consolidate grips quickly after shutting down each escape attempt to narrow the remaining defensive windows.
@@ -242,6 +250,8 @@ When the granby roll has progressed past the stopping point, immediately commit 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Granby Roll to Guard?</p>
 
 ### 1. Allowing weight to rise off the bottom player's back when they create the initial hip bump space
 
@@ -271,6 +281,8 @@ When the granby roll has progressed past the stopping point, immediately commit 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Granby Roll to Guard?</p>
+
 **Week 1-2** - Recognition and pressure maintenance
 Partner attempts granby roll at half speed from Buggy Choke bottom while you focus on recognizing the pre-roll indicators (hip bump, arm post, chin tuck) and responding with immediate forward pressure. No following or back takes yet—purely focus on reading the escape attempt and maintaining top pressure.
 
@@ -287,29 +299,6 @@ Positional sparring from Buggy Choke where bottom player uses full escape arsena
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a Granby Roll?
-**A**: The earliest cue is the bottom player driving their hips backward to create a small gap between their body and your chest pressure. This space creation is the prerequisite for every granby attempt because without that gap, there is no room for the shoulder to rotate. Feeling this hip shift through proprioception allows you to react with forward pressure before the roll even begins.
-
-**Q2**: Your opponent has already begun the granby roll and is past the halfway point—what is your best defensive response?
-**A**: Stop trying to prevent the roll and immediately switch to following it. Maintain chest-to-back connection as they rotate, hook their near leg with your leg, and establish a seatbelt grip as they complete the inversion. Your goal shifts from maintaining Buggy Choke to converting to back control. Fighting a roll with full momentum wastes energy and costs you the connection needed for the back take.
-
-**Q3**: Why is blocking the far-side posting arm an effective preventive defense against the Granby Roll?
-**A**: The posted arm establishes the pivot point that enables the diagonal shoulder roll. Without this pivot, the bottom player cannot generate the proper rotational arc and the roll either stalls completely or forces them onto their head, which they will avoid. By pinning or trapping the posting arm before it reaches the mat, you eliminate the mechanical foundation of the entire escape.
-
-**Q4**: How should your weight distribution change when defending against the granby versus maintaining the Buggy Choke attack?
-**A**: During active Buggy Choke attack, weight is distributed between chest pressure and hip control in roughly equal measure. When defending the granby, shift more weight forward onto their shoulders and upper back to counter the backward hip bump that initiates the escape. Keep your hips low but drive your chest diagonally downward toward their far shoulder, creating a pinning vector that opposes the rotational direction of the granby.
-
-**Q5**: Your opponent successfully completes the granby roll and lands facing you—what is your immediate priority?
-**A**: Immediately address their legs before they can close guard or establish foot-on-hip frames. Drive forward with your hips while controlling their knees or ankles to prevent guard closure. If you cannot prevent guard establishment within the first two seconds, accept the guard position and begin working your guard passing sequence rather than scrambling wildly. The critical error is hesitating in no-man's-land where they can lock closed guard while you have no base.
-
-
-
-</section>
 
 
 </main>

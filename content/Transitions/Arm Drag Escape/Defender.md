@@ -166,6 +166,8 @@ Strategically, the most effective defense combines grip denial with offensive pr
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Arm Drag Escape?</p>
+
 - Bottom player's hands begin working toward your choking arm, specifically targeting the wrist with their near hand and tricep area with their far hand—you will feel increased hand activity on your forearm and upper arm
 - Bottom player shifts their weight laterally rather than driving forward or attempting to stand, indicating they are preparing to circle their head rather than execute a standup or rolling escape
 - You feel a distinct two-point grip tightening on your choking arm—one grip near the wrist and one near the elbow—which signals the two-on-one is being established and the drag is imminent
@@ -177,6 +179,8 @@ Strategically, the most effective defense combines grip denial with offensive pr
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Arm Drag Escape?</p>
 
 - Recognize two-on-one grip establishment early—the escape cannot work without secure wrist and tricep control on your choking arm
 - Maintain heavy chest-to-back pressure to limit the bottom player's ability to generate angular hip movement for the head circle
@@ -192,6 +196,8 @@ Strategically, the most effective defense combines grip denial with offensive pr
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Arm Drag Escape?</p>
 
 ### 1. Retract choking arm and sprawl hips back immediately upon feeling two-on-one grip acquisition, pulling your elbow tight to your ribs and extending your hips away from their reach
 
@@ -229,6 +235,8 @@ Strategically, the most effective defense combines grip denial with offensive pr
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Arm Drag Escape?</p>
+
 ### → [[Positions/Front Headlock]]
 
 Deny the two-on-one grip by retracting your choking arm early, sprawling hips back to remove forward leverage, or driving them flat to eliminate their angular hip movement. Maintain chest pressure and re-establish your choking arm position once the attempt fails.
@@ -244,6 +252,8 @@ When the arm drag is partially completed and you cannot retain front headlock, r
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Arm Drag Escape?</p>
 
 ### 1. Holding static front headlock position without adjusting when feeling the two-on-one grip being established
 
@@ -273,6 +283,8 @@ When the arm drag is partially completed and you cannot retain front headlock, r
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Arm Drag Escape?</p>
+
 **Week 1-2** - Recognition and grip denial fundamentals
 Partner works arm drag escape at slow speed while you focus on recognizing the two-on-one grip acquisition and practicing arm retraction and repositioning. No scrambling or counter-offense—purely develop the sensitivity to feel when the grips are being established and the muscle memory for immediate arm withdrawal. Drill 20 repetitions per round, switching between allowing the grip and denying it.
 
@@ -289,29 +301,6 @@ Full resistance positional sparring starting from front headlock. Your goal is t
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that an arm drag escape is being attempted from front headlock bottom?
-**A**: The earliest cue is feeling increased hand activity on your choking arm, specifically the bottom player's near hand working toward your wrist and their far hand reaching for your tricep or upper arm area. This two-on-one grip acquisition is the necessary precursor to the drag—without these grips, the escape cannot function. Recognizing this hand work before both grips are secured gives you the maximum time window to implement defensive adjustments.
-
-**Q2**: Why is sprawling your hips back an effective defense but also potentially dangerous against the arm drag?
-**A**: Sprawling back removes the forward weight commitment that the arm drag requires for leverage, effectively denying the escape's primary power source. However, sprawling also reduces your own forward pressure on the bottom player's upper back, which can open opportunities for alternative escapes like technical standup or granby roll. The sprawl solves the arm drag problem but may create a different problem, which is why combining the sprawl with an immediate offensive transition like guillotine or back take attempt is more effective than sprawling alone.
-
-**Q3**: Your opponent has established the two-on-one grip and begun the drag. Is it too late to defend?
-**A**: It is not too late, but your defensive options change. At this stage, grip denial is no longer viable, so you must transition to counter-offense. The two best options are switching to a guillotine grip by tightening around their neck as it moves during the head circle, or releasing head control entirely and spinning behind them to take the back while they are committed to lateral movement. Both options use their commitment against them rather than trying to statically resist a drag that is already in motion.
-
-**Q4**: How should you adjust your choking arm position if you feel the bottom player repeatedly targeting it for two-on-one control?
-**A**: Reposition your choking arm by either climbing it higher around their head so the wrist is less accessible, or by switching to a different grip configuration entirely such as a chin strap or collar tie where the arm geometry makes two-on-one acquisition more difficult. You can also intermittently release and re-acquire head control from different angles to prevent them from settling into a consistent grip fighting pattern. The key is denying them the predictable arm position they need to build their two-on-one.
-
-**Q5**: What offensive transition best punishes a committed arm drag attempt while also advancing your position?
-**A**: The back take spin is the highest-reward offensive counter. When the bottom player commits to the lateral arm drag and their body weight shifts to one side, release your head control and circle behind them in the direction opposite their drag. Their lateral commitment makes it extremely difficult for them to turn and face you, and their hands are occupied with your arm rather than defending the back take. This converts their escape attempt directly into your best attacking position and creates a strong deterrent against future arm drag attempts.
-
-
-
-</section>
 
 
 </main>

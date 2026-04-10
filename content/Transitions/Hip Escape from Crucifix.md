@@ -216,7 +216,7 @@ The hip escape from crucifix integrates into the broader crucifix survival frame
 
 - [[Transitions/Crucifix Choke Defense]] - Related defensive technique often needed before initiating escape
 
-- [[Transitions/Choke from Crucifix]] - Primary submission threat that must be defended during escape
+- [[Submissions/Choke from Crucifix]] - Primary submission threat that must be defended during escape
 
 - [[Transitions/Armbar from Crucifix]] - Secondary submission threat requiring awareness during escape
 

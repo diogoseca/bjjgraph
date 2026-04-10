@@ -156,6 +156,8 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Escape from Triangle?</p>
+
 - Opponent begins posturing up and posts a foot on the mat near your hip, shifting weight from knees to feet
 - Opponent grabs your pants at both hips or belt with both hands, establishing bilateral control for forward drive
 - Opponent's weight shifts forward and upward as they begin walking knees toward your head
@@ -168,6 +170,8 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Escape from Triangle?</p>
 
 - Maintain the perpendicular choking angle through constant hip adjustment—the triangle's effectiveness depends on geometric positioning, not raw squeezing force
 - Control opponent's posture through persistent head pulling and grip management on the back of their neck or collar to prevent them from achieving the upright stance needed to initiate the stack
@@ -182,6 +186,8 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Escape from Triangle?</p>
 
 ### 1. Hip escape to choking leg side to re-establish perpendicular finishing angle before stack develops full pressure
 
@@ -212,6 +218,8 @@ Defending against the Stack Escape requires the triangle bottom player to mainta
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Escape from Triangle?</p>
+
 ### → [[Positions/Triangle Control]]
 
 Maintain the perpendicular choking angle through constant hip escaping to the choking leg side. Pull the opponent's head down aggressively with both hands, extend hips for maximum upward pressure, and keep the choking leg's knee pointing toward the trapped shoulder to sustain arterial compression despite stacking attempts.
@@ -227,6 +235,8 @@ When the stack neutralizes your triangle angle beyond recovery, immediately rele
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Escape from Triangle?</p>
 
 ### 1. Remaining flat on back instead of actively hip escaping to maintain the perpendicular choking angle during the stack
 
@@ -256,6 +266,8 @@ When the stack neutralizes your triangle angle beyond recovery, immediately rele
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Escape from Triangle?</p>
+
 **Phase 1: Recognition Drilling** - Early identification of stack attempt cues
 Partner initiates stack escape at varying speeds and intensities. Practice identifying the earliest cues including foot posting, grip changes on your hips, and weight shift forward. Respond with immediate angle adjustment through hip escaping before the stack develops full forward pressure.
 
@@ -272,29 +284,6 @@ Positional sparring starting in triangle control with partner's goal being the s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a stack escape from your triangle?
-**A**: The primary early cue is the opponent posting a foot on the mat near your hip and beginning to shift their weight from knees to feet. This weight redistribution is the earliest indication of a stack attempt and provides the maximum window for preemptive angle adjustment through hip escaping before they generate full stacking pressure with bilateral hip grips.
-
-**Q2**: When should you abandon the triangle and transition to omoplata instead of continuing to fight the stack?
-**A**: Transition to omoplata when you can no longer maintain the perpendicular angle needed for effective arterial compression despite hip adjustments. If your back is being driven flat and your legs are losing their squeeze angle with the opponent's hips clearly above your shoulders, the stack has progressed beyond triangle recovery. The omoplata transition must be initiated before the opponent begins clearing your legs from around their neck.
-
-**Q3**: Why is maintaining the perpendicular angle more important than squeezing harder when being stacked?
-**A**: The triangle choke works through carotid artery compression at a specific geometric angle between your legs and the opponent's neck, not through raw squeezing force. Squeezing harder with legs in a compromised angle burns muscular endurance without generating effective choking pressure on the arteries. Maintaining the 30-45 degree perpendicular angle ensures that whatever leg pressure you apply is directed into the correct anatomical targets for arterial compression.
-
-**Q4**: Your opponent has established grips on both your hips and is beginning to stand—what is your priority defensive action?
-**A**: Your priority is maintaining head control by pulling their head down with both hands or gripping behind their neck. If you break their posture before they fully stand, the stack loses its driving foundation. Simultaneously begin hip escaping to the choking leg side to re-establish your angle. If the posture break fails and they achieve full standing posture, immediately prepare for the omoplata transition rather than continuing to fight from a deteriorating triangle.
-
-**Q5**: How does hip extension help defend against a stack escape from your triangle?
-**A**: Hip extension drives your pelvis upward and away from the mat, maintaining the vertical component of the choking pressure that the stack is designed to neutralize. By extending your hips, you prevent your body from being folded in half onto your own shoulders and keep your legs in a position where they can maintain effective squeeze on the opponent's carotid arteries even as their body drives forward into the stack.
-
-
-
-</section>
 
 
 </main>

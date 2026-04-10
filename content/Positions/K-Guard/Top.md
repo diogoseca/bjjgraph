@@ -169,6 +169,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Position Definition
 
+<p class="section-subtitle">What is K-Guard (Top)?</p>
+
 - Top player's hips positioned forward toward bottom player's guard with one leg trapped between bottom player's inverted and butterfly hooks, maintaining forward pressure through hip placement and weight distribution
 - Bottom player's inverted inside hook crosses trapped leg creating lateral pulling force while butterfly hook creates elevation threat, forming characteristic 'K' configuration that disrupts top player's base
 - Top player maintains upper body control through grips on bottom player's collar, sleeves, or underhooks while working to control the space created by hooks and establish dominant angles for passing
@@ -182,6 +184,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before playing K-Guard (Top)?</p>
+
 - Bottom player has established K-Guard configuration from half guard bottom with inverted and butterfly hooks active
 - Top player has one leg trapped in bottom player's hook system
 - Bottom player has created active tension in both hooks with frames preventing chest-to-chest contact
@@ -194,6 +198,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from K-Guard?</p>
 
 - Maintain constant forward hip pressure to prevent bottom player from creating additional space or recovering full guard
 - Control the bottom player's far hip to anchor their position and prevent hip escape movements that enable sweeps
@@ -209,6 +215,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from K-Guard (Top)?</p>
 
 **If bottom player maintains strong hook tension and active frames with good hip mobility:**
 - Execute **[[Transitions/Smash Pass/Attacker|Smash Pass]]** → [[Positions/Side Control]] (Probability: 55%)
@@ -237,6 +245,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from K-Guard?</p>
 
 ### 1. Standing too upright and allowing bottom player to extend hooks and frames fully
 
@@ -281,6 +291,8 @@ Strategically, K-Guard Top represents a transitional position where the top play
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train K-Guard attacks?</p>
+
 ### K-Guard Pressure Maintenance Drill
 
 Bottom player holds K-Guard structure with active hooks while top player practices maintaining constant forward pressure without standing up or backing away. Focus on hip pressure, weight distribution, and keeping bottom player compressed. Switch roles every 2 minutes.
@@ -295,7 +307,7 @@ Bottom player maintains both inverted and butterfly hooks while top player pract
 **Duration**: 5 x 30 seconds per method
 
 
-### Grip Fighting from K-Guard Top
+### Grips from K-Guard Top
 
 Both players engage in grip fighting from K-Guard Top position. Top player works to establish dominant grips (underhook, crossface, far hip control) while bottom player fights for defensive grips and maintains hook tension. 30-second rounds with intensity.
 
@@ -320,38 +332,6 @@ Start in K-Guard Top position. Top player's goal is to advance to side control o
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary weight distribution strategy for maintaining passing pressure from K-Guard Top?
-**A**: The primary strategy is directing weight through forward hip pressure angled toward the bottom player's upper body while maintaining a low chest position. Weight should compress the hook system rather than push against it, with the trapped leg staying heavy to prevent elevation while the free leg provides stable base. This creates downward and forward pressure that limits the bottom player's hip mobility without exposing you to sweep attempts.
-
-**Q2**: Your opponent starts elevating your trapped leg with their butterfly hook - what adjustment do you make?
-**A**: Immediately widen your free leg base and drop your hips lower while driving your weight laterally into the butterfly hook side rather than fighting the elevation directly. Simultaneously control their far hip to prevent them from completing the off-balancing motion. If elevation continues, backstep the trapped leg to remove it from the hook system entirely and re-engage from a safer angle.
-
-**Q3**: What are the essential grip priorities when facing K-Guard from top position?
-**A**: First priority is far hip control to anchor their position and prevent hip escapes that power sweeps. Second priority is collar or crossface grip to control their upper body and flatten their spine. Third priority is controlling the knee shield or inside arm to prevent re-framing. Grips should be established before initiating any pass to ensure the bottom player cannot reinforce their defensive structure.
-
-**Q4**: How should you shut down the primary back-take threat from K-Guard bottom?
-**A**: The back-take primarily occurs when you commit weight forward and the bottom player swims under for an underhook. Prevent this by maintaining chest angle down with your head positioned on their far shoulder, controlling their inside arm to block underhook attempts, and keeping pressure diagonal rather than straight down. If they begin the underhook motion, immediately whizzer and drive them flat before they can complete the back-take sequence.
-
-**Q5**: What is the most common base error that leads to getting swept from K-Guard Top?
-**A**: The most common error is standing too upright while attempting to extract the trapped leg, which allows the bottom player to extend their hooks and frames to full length. This creates maximum leverage for their sweep attempts and removes your ability to pressure their hooks. The correction is to maintain forward hip pressure with chest angled down throughout the passing attempt, only creating height when you've already broken their hook tension.
-
-**Q6**: Your opponent maintains active hook tension and you cannot flatten them - what systematic approach should you take?
-**A**: Begin by winning the grip fight to establish dominant control points. Then use hip pressure combined with angle changes to redirect rather than fight their hook tension. Work to flatten their spine through shoulder pressure while controlling the far hip. Once their defensive structure is compromised, time your passing sequence to coincide with the moment their frames collapse. Patience is essential - forcing premature passes against active hooks leads to sweep counters.
-
-**Q7**: How do you manage energy expenditure when facing a strong K-Guard retention system?
-**A**: Use positional pressure through body weight rather than muscular effort. Establish grips that allow you to rest weight on them while maintaining control. Avoid pushing directly against their hook system which creates stalemates. Instead, use angle changes and redirections that require minimal energy while systematically degrading their position. Accept that passing a skilled K-Guard player requires patience and methodical pressure rather than explosive attempts.
-
-**Q8**: Your opponent partially recovers full guard as you attempt to pass - how do you prevent complete guard recovery?
-**A**: Immediately stop the passing attempt and re-establish pressure on the K-Guard structure before they can fully close their guard. Drive your trapped knee down between their legs to maintain the half guard configuration. Control their inside arm to prevent framing and re-apply hip pressure to compress their hooks. If they've already begun closing, backstep and disengage momentarily rather than getting caught in a compromised closed guard position, then re-engage with better angles.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

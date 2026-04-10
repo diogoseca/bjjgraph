@@ -194,6 +194,8 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass Reverse Half?</p>
+
 - Maintain constant chest pressure directed toward the bottom player's hips throughout the entire passing sequence to prevent rotation and space creation
 - Control the head with crossface from the reverse angle to freeze the bottom player's upper body and eliminate turning options
 - Block the far hip with your near hand to prevent shrimping and guard recovery attempts during leg extraction
@@ -209,6 +211,8 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Reverse Half?</p>
+
 - Reverse half guard top position established with one leg trapped from the reverse angle
 - Chest pressure directed toward bottom player's hips preventing them from rotating to face you
 - Crossface or head control from behind limiting bottom player's upper body mobility
@@ -221,6 +225,8 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Reverse Half step by step?</p>
 
 1. **Establish heavy chest pressure**: Drive your chest weight toward the bottom player's hips from behind, keeping your body low and heavy. Your shoulder should press into their upper back or shoulder blade area, creating uncomfortable pressure that discourages movement and prevents them from rotating to face you.
 2. **Secure crossface control from reverse angle**: Reach your far arm across the bottom player's face and neck from behind, establishing a crossface that freezes their head position. This prevents them from turning their shoulders toward you and eliminates their ability to create defensive frames with their upper body.
@@ -251,6 +257,8 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Reverse Half?</p>
+
 - **Bottom player shrimps and recovers knee shield before leg extraction completes** (Effectiveness: High) - Your Response: Increase far hip pressure to prevent the shrimp, or immediately switch to backstep over the knee shield to maintain the passing advantage from a new angle. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Bottom player bridges explosively and turns to face you during the hip switch** (Effectiveness: Medium) - Your Response: If they turn toward you, abandon the pass and immediately transition to back control by following their rotation and inserting hooks. Their turning movement exposes their back. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Bottom player inverts and recovers full guard or sweeps during extraction** (Effectiveness: Medium) - Your Response: Drive heavy chest pressure downward to prevent the inversion from completing. If they begin inverting, redirect your weight to flatten them before they can establish an inverted guard position. → Leads to [[Positions/Half Guard]]
@@ -262,6 +270,8 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Reverse Half?</p>
 
 ### 1. Attempting to extract the trapped leg without first establishing sufficient upper body pressure and control
 
@@ -301,6 +311,8 @@ As the attacker in Pass Reverse Half, your objective is to convert the angular a
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Reverse Half (Attacker)?</p>
+
 **Phase 1: Pressure Foundation** - Chest pressure and upper body control from reverse angle
 Practice establishing and maintaining heavy chest pressure from reverse half guard top with a cooperative partner. Focus on crossface placement, hip blocking mechanics, and weight distribution. Partner remains still while you develop the feeling of correct pressure angles. 5-minute rounds with position resets.
 
@@ -321,42 +333,12 @@ Start in reverse half guard top with partner at full resistance. Execute the com
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the pass versus pursuing a back take from reverse half guard top?
-**A**: Initiate the pass when the bottom player flattens defensively and faces away from you, as this indicates they are prioritizing back defense over guard recovery. If the bottom player turns their shoulders toward you to face you, abandon the pass and pursue the back take instead. The bottom player's defensive choice dictates your technique selection—never force a pass against a turning opponent or a back take against a flattened one.
-
-**Q2**: What conditions must exist before you can begin extracting your trapped leg?
-**A**: Three conditions must be met before extraction: heavy chest pressure directed toward the bottom player's hips must be established, crossface control from the reverse angle must freeze their upper body rotation, and far hip control must prevent shrimping. Without all three controls in place, extraction attempts create space that the bottom player exploits for guard recovery. The upper body controls create the stable platform that makes leg extraction mechanically possible.
-
-**Q3**: What is the most critical mechanical detail in the hip switch extraction technique?
-**A**: The most critical detail is rotating your trapped-leg-side hip toward the mat to change the extraction angle from directly backward to diagonally through the gap. This hip switch creates a path of least resistance for the knee to slide through the clamp rather than fighting directly against it. The rotation must be smooth and controlled—explosive hip switching creates space underneath your body that compromises the entire pass.
-
-**Q4**: Your opponent recovers a knee shield during your extraction attempt—how do you adjust?
-**A**: Stop the direct extraction and address the knee shield first. You have two primary options: drive your weight into the knee shield and smash it flat before resuming extraction, or backstep over the knee shield to re-establish a passing angle. Do not continue pulling against a recovered knee shield, as this wastes energy and gives the bottom player time to further consolidate their defensive structure. Reset your upper body controls after addressing the shield.
-
-**Q5**: What grip or control is most essential for preventing the bottom player's guard recovery during the pass?
-**A**: Far hip control with your near hand is the most essential control for preventing guard recovery. The bottom player's primary defensive mechanism is shrimping their hips away to create space for knee insertion and guard recovery. Blocking the far hip eliminates this option entirely. Without far hip control, even perfect chest pressure and crossface cannot prevent a determined shrimp escape, because the bottom player's hip movement generates from below your chest contact point.
-
-**Q6**: What is the primary direction of force application throughout this pass?
-**A**: The primary force direction is chest pressure driving toward the bottom player's hips from behind and above. This downward-and-forward pressure vector serves multiple purposes: it prevents the bottom player from rotating to face you, it flattens them to the mat eliminating sweep angles, and it pins their hips in place to prevent shrimping. All other controls—crossface, hip block, and leg extraction—operate within this primary pressure framework.
-
-**Q7**: Your opponent times a bridge during your hip switch and begins to reverse you—what went wrong and how do you respond?
-**A**: The bridge counter succeeds when you lift your hips during the hip switch, shifting your center of gravity high enough to be displaced. Respond immediately by abandoning the hip switch, dropping your weight flat, and re-establishing heavy chest pressure. The correction for future attempts is to keep hips low and heavy throughout the hip switch—the extraction should feel like sliding sideways rather than lifting and rotating. If the bottom player has strong bridge timing, use smaller incremental hip switches rather than one large movement.
-
-**Q8**: How does the pass chain with back take threats to create offensive dilemmas from reverse half guard?
-**A**: The pass and back take form a binary dilemma from reverse half guard top. Threatening the pass forces the bottom player to turn toward you to prevent flattening and leg extraction—this turning movement exposes their back for hooks and seat belt control. Threatening the back take forces them to flatten and face away to protect their back—this flattening response is exactly the defensive posture that makes the pass highest percentage. By alternating threats, you force the bottom player into a no-win defensive loop where each defensive choice opens the other attack.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Reverse Half?</p>
 
 Reverse half guard passing involves significant pressure on the bottom player's spine and hips from the reverse angle. Apply chest pressure gradually and avoid sudden weight drops that could injure the lower back or ribs. Be mindful of knee strain on both players when extracting the trapped leg, particularly if the bottom player maintains a tight leg clamp—forcing extraction against maximum resistance risks knee ligament injury. In training, communicate with your partner about pressure levels and release immediately if they indicate discomfort. Avoid cranking the neck during crossface application and be aware that the reverse angle creates unusual spinal loading that requires controlled technique.
 

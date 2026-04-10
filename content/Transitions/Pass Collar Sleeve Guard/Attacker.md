@@ -194,6 +194,8 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Pass Collar Sleeve Guard?</p>
+
 - Break the collar grip first since it provides the opponent's primary posture control and sweeping leverage
 - Use two-on-one leverage for grip breaks rather than strength-based yanking that wastes energy
 - Control the opponent's freed hand immediately after each grip break to prevent re-establishment
@@ -208,6 +210,8 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Pass Collar Sleeve Guard?</p>
+
 - Established upright posture with hips back and chest elevated to resist collar pull
 - Stable base with weight distributed across both knees or feet to absorb off-balancing forces
 - Free hand identified and positioned for two-on-one grip break on the collar grip
@@ -220,6 +224,8 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Pass Collar Sleeve Guard step by step?</p>
 
 1. **Establish posture and base**: From kneeling or standing position, drive your hips back and elevate your chest to create a stable upright posture that resists the opponent's collar pull. Widen your knees and distribute weight evenly to establish a base that can absorb pulling forces from both grips without tipping forward.
 2. **Identify collar grip as primary target**: Assess the opponent's grip structure and confirm that the collar grip is providing their primary posture control. The collar grip powers their sweeps and submissions, so breaking it first removes the foundation of their entire guard game and makes subsequent grip breaks easier.
@@ -252,6 +258,8 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Pass Collar Sleeve Guard?</p>
+
 - **Guard player immediately re-grips collar during the passing transition between grip breaks** (Effectiveness: High) - Your Response: Maintain wrist control on the freed hand throughout the entire sequence and do not release it until forward chest pressure is established, eliminating the re-gripping window → Leads to [[Positions/Collar Sleeve Guard]]
 - **Guard player shoots triangle when your arm extends forward during the two-on-one grip break** (Effectiveness: Medium) - Your Response: Keep elbows pinned to your ribs during grip breaks and use hip extension rather than arm extension to generate breaking force, denying the arm isolation needed for triangle entry → Leads to [[Positions/Closed Guard]]
 - **Guard player executes pendulum or flower sweep during forward driving phase** (Effectiveness: Medium) - Your Response: Do not commit full weight forward until both grips are broken, and base out wide with hands ready to post if you feel loading for a sweep during the drive-through → Leads to [[Positions/Mount]]
@@ -263,6 +271,8 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Pass Collar Sleeve Guard?</p>
 
 ### 1. Attempting to pass with grips still attached, trying to muscle through the guard structure
 
@@ -302,6 +312,8 @@ From the passer's perspective, defeating collar sleeve guard requires a systemat
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Pass Collar Sleeve Guard (Attacker)?</p>
+
 **Phase 1: Isolated Grip Breaking** - Two-on-one grip break mechanics
 Partner establishes collar sleeve grips at full strength. Practice only the two-on-one collar grip break with proper hip extension mechanics. No passing, just break and reset. Build efficient leverage-based grip breaks until they become reflexive.
 
@@ -322,42 +334,12 @@ Start every round from collar sleeve guard position with full resistance. Passer
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the forward drive after breaking grips?
-**A**: The forward drive should begin immediately as the sleeve grip is stripped, ideally within one to two seconds of the final grip break. Any longer delay gives the guard player time to re-establish grips or reposition their legs for frames. The drive should feel like a continuous transition from the sleeve strip rather than a separate action, maintaining momentum from the grip-breaking phase directly into forward pressure.
-
-**Q2**: What conditions must exist before you can safely attempt this pass?
-**A**: You must have stable upright posture with hips behind your knees, at least one free hand positioned to initiate the two-on-one grip break, and elbows kept tight to your ribs to prevent triangle entries. Your base must be wide enough to absorb pulling forces from both grips simultaneously. If the guard player has already loaded your weight for a sweep, you must re-establish your base before attempting any grip-breaking sequence.
-
-**Q3**: What is the most critical mechanical detail in the two-on-one collar grip break?
-**A**: The hip extension drive is the most critical mechanical detail. Both hands control the opponent's gripping wrist, but the actual breaking force comes from explosively driving your hips backward and away from the grip. This engages the glutes and posterior chain rather than relying on arm and grip strength alone. The hip drive creates a leverage advantage that multiplies your force, making the grip break effective regardless of relative grip strength.
-
-**Q4**: What is the most common failure point that causes this pass to stall?
-**A**: The most common failure point is attempting to drive forward while one or both grips are still attached. Passers often become impatient after breaking the collar grip and try to pass before the sleeve is stripped, or break both grips but fail to control the freed hands, allowing immediate re-gripping. The pass stalls because any remaining grip gives the guard player a handle to steer the passing movement and re-establish defensive structures.
-
-**Q5**: What specific grip control do you need on the opponent's freed hand after breaking the collar grip?
-**A**: Control their freed hand at the wrist and pin it to their own chest or redirect it across their body away from your collar. The control does not need to be a crushing grip, just enough to occupy the hand and prevent it from reaching back toward your collar or lapel. You can use a simple C-grip on their wrist while your other hand transitions to address the sleeve grip. The key is maintaining this wrist control until your chest pressure arrives.
-
-**Q6**: What direction of force should your chest pressure apply during the drive-through phase?
-**A**: Drive your chest pressure at approximately a 45-degree angle downward and forward through the centerline between their legs. The downward component flattens their hips to the mat, eliminating their ability to create angles or maintain hip elevation for guard retention. The forward component drives you past their hip line. Avoid purely horizontal or purely vertical pressure, as horizontal alone allows hip escaping and vertical alone stalls your forward progress.
-
-**Q7**: Your opponent re-grips your collar with their opposite hand just as you strip the sleeve grip - how do you adjust?
-**A**: If they re-grip with the opposite hand, you now have a positional advantage because their arms are crossed, limiting their defensive range. Instead of resetting to break the new grip, immediately drive forward with chest pressure since crossed arms cannot generate the same pulling power or create effective frames. Use the drive-through momentum to flatten them and establish crossface before they can uncross their arms and reorganize their guard structure.
-
-**Q8**: The pass attempt is blocked and the opponent begins re-establishing collar sleeve grips - what chain attack do you pursue?
-**A**: Rather than retreating to restart the same pass, immediately transition to a complementary passing technique. If you still have forward position, switch to a knee cut or knee slide that uses the forward momentum you have already generated. If they are re-gripping while you have lateral angle, convert to a toreando or leg drag. The key principle is that a failed direct pass creates openings for lateral passes because the guard player's grip re-establishment focuses their attention on the collar and sleeve rather than leg defense.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Pass Collar Sleeve Guard?</p>
 
 When breaking grips, use controlled hip extension rather than sudden jerking motions that could hyperextend training partners' fingers or wrists. During the forward drive phase, lower your level gradually rather than crash-landing your chest weight, which can cause rib or sternum injuries. Establish crossface using the flat of your forearm rather than a pointed elbow to prevent facial injuries. Always maintain awareness of your partner's trapped limbs during transitions to avoid accidental joint stress, and release pressure immediately if your partner signals discomfort.
 

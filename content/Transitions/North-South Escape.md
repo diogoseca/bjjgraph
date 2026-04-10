@@ -219,7 +219,7 @@ The north-south escape is a critical component of the comprehensive pin escape s
 
 - [[Transitions/North-South Choke]] - Submission threat - must defend against while escaping
 
-- [[Transitions/Kimura]] - Submission threat - common attack to be aware of during escape
+- [[Submissions/Kimura]] - Submission threat - common attack to be aware of during escape
 
 - [[Positions/Half Guard/Knee Shield Half Guard]] - Transitional position - intermediate guard during escape sequence
 

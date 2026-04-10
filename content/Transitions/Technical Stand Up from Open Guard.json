@@ -73,8 +73,8 @@
       "relationship": "Complementary transition for cycling between standing and guard"
     },
     {
-      "name": "Scramble to Top Position",
-      "relationship": "Alternative transition when stand-up creates a scramble opportunity"
+      "name": "Standing Position",
+      "relationship": "Target position reached when stand-up is successfully completed"
     },
     {
       "name": "Standing Up from Combat Base",
@@ -93,7 +93,7 @@
       "relationship": "Alternative guard position that can also transition to standing"
     },
     {
-      "name": "Scramble Position",
+      "name": "Clinch",
       "relationship": "Common resulting position when stand-up is contested by opponent"
     },
     {

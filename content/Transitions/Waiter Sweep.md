@@ -217,7 +217,7 @@ The Waiter Sweep is a cornerstone technique within the butterfly guard system an
 
 - [[Transitions/Guillotine Choke]] - Combination attack - submission available from same control structure
 
-- [[Submissions/Kimura from Guard]] - Alternative attack - submission when opponent defends with far arm post
+- [[Submissions/Kimura]] - Alternative attack - submission when opponent defends with far arm post
 
 - [[Positions/Mount]] - Alternative ending position - higher-value sweep completion option
 

@@ -162,6 +162,8 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Reguard to Butterfly Guard?</p>
+
 - Bottom player establishes sudden frames on your shoulders or biceps with forearms, creating separation where none existed
 - Increased hook pumping activity as opponent attempts to drive hooks deeper into your inner thighs
 - Bottom player posts a hand behind them on the mat, preparing to initiate posture recovery
@@ -174,6 +176,8 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Reguard to Butterfly Guard?</p>
 
 - Deny space by maintaining constant chest-to-hip pressure that prevents the hip escape driving the reguard sequence
 - Control hook depth through knee positioning and forward hip drive to keep opponent's hooks shallow and ineffective
@@ -188,6 +192,8 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Reguard to Butterfly Guard?</p>
 
 ### 1. Drive crossface pressure and pin hips to prevent hip escape initiation
 
@@ -225,6 +231,8 @@ As the defender facing the reguard to butterfly guard, you are the top player wo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Reguard to Butterfly Guard?</p>
+
 ### → [[Positions/Open Guard]]
 
 Strip all hooks by driving your knees together while advancing past the opponent's hip line, then immediately establish passing grips on their legs to prevent hook reinsertion and begin your passing sequence against a hookless guard
@@ -240,6 +248,8 @@ Maintain constant forward pressure through crossface and hip drive to prevent th
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Reguard to Butterfly Guard?</p>
 
 ### 1. Allowing space after partial hook disruption instead of maintaining continuous pressure
 
@@ -269,6 +279,8 @@ Maintain constant forward pressure through crossface and hip drive to prevent th
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Reguard to Butterfly Guard?</p>
+
 **Phase 1: Recognition Training** - Identifying reguard initiation cues
 Partner executes reguard attempts from compromised butterfly hook position while you focus purely on recognizing the initiation cues—framing, hook pumping, hip escape preparation. Call out each cue as you identify it without attempting to prevent the reguard. Develops the pattern recognition needed for early intervention.
 
@@ -285,29 +297,6 @@ Start from top position against compromised butterfly hooks with partner working
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is attempting to reguard to butterfly guard?
-**A**: Watch for sudden framing on your shoulders or biceps combined with increased hook pumping activity. You will feel the opponent begin driving their hooks upward with more urgency while simultaneously creating structural frames to generate separation. The combination of increased hook activity and upper body framing signals the reguard attempt, and your window to prevent it is before the hip escape completes—typically a one-to-two second window from first recognition.
-
-**Q2**: What is the single most effective action to prevent the reguard?
-**A**: Maintain chest-to-hip pressure with your weight driven through your shoulder into their upper body while keeping hooks shallow through knee pinching and forward hip drive. The reguard requires space for the hip escape—if you deny space by staying heavy and connected, the bottom player cannot create the lateral angle needed to reinsert hooks deeply. Your knee should drive toward their hip line, controlling hook depth and preventing the elevation angle they need for recovery.
-
-**Q3**: How should you capitalize when you successfully prevent the reguard attempt?
-**A**: When the reguard fails and the opponent's hooks become shallow or are cleared, immediately advance to a passing position rather than maintaining the current top position. Drive your knee through the center to split any remaining hooks and transition to headquarters or half guard passing position. The failed reguard leaves the bottom player temporarily disorganized with grips out of position, creating a two-to-three second passing window you must exploit before they initiate another recovery attempt.
-
-**Q4**: Your opponent partially recovers one hook during the reguard attempt—how do you respond?
-**A**: Address the recovered hook immediately by pinching your knee against it and driving it back toward the mat using your same-side hand to control their knee. Push their knee down and to the outside while applying crossface pressure to prevent them from sitting up. Do not allow them to reinsert the second hook—once both hooks are deep, the reguard is essentially complete and you face a fully functional butterfly guard again.
-
-**Q5**: How do you maintain energy efficiency while preventing repeated reguard attempts?
-**A**: Use body positioning and gravity rather than muscular effort to deny the reguard. Keep your weight distributed through your chest and shoulders onto the opponent rather than holding yourself up with your arms. Use knee positioning and hip pressure to control hook depth rather than actively pushing hooks away with your hands. A properly positioned crossface and knee drive requires minimal energy to maintain but effectively prevents the hip escape and hook reinsertion that the reguard demands.
-
-
-
-</section>
 
 
 </main>

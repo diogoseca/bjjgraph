@@ -188,6 +188,8 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Roll Forward from Omoplata?</p>
+
 - Maintain shoulder pressure throughout the entire rolling motion to prevent the opponent from extracting their arm during the transition
 - Drive hips forward explosively to generate the momentum needed for the roll rather than trying to pull the opponent over with upper body strength
 - Use the belt or hip grip as your primary steering mechanism to control the direction, speed, and landing position of the roll
@@ -202,6 +204,8 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Roll Forward from Omoplata?</p>
+
 - Omoplata control established with leg securely over opponent's shoulder and shin applying constant pressure across their upper back
 - Deep grip secured on opponent's belt at the hip, far pants leg, or hip bone to provide directional control throughout the rolling motion
 - Opponent's base compromised through forward weight distribution, narrow posting with free hand, or commitment to defending the shoulder lock
@@ -214,6 +218,8 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Roll Forward from Omoplata step by step?</p>
 
 1. **Secure control grips**: From established omoplata control, secure a deep grip on the opponent's belt at the hip or grab their far pants leg near the hip. This grip serves as your primary control handle throughout the entire rolling motion and determines whether you land in tight side control or a loose scramble. In no-gi, grab the far hip or establish a seatbelt around their waist.
 2. **Assess opponent's base**: Read the opponent's weight distribution and free arm position before committing to the roll. The ideal moment to initiate is when they commit their free hand to the mat for posting, when their weight shifts forward to defend the shoulder lock, or when they attempt to grip-fight your controlling leg. Attempting the roll against a well-based opponent with a wide post significantly reduces success probability.
@@ -243,6 +249,8 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Roll Forward from Omoplata?</p>
+
 - **Opponent posts free hand wide and sprawls hips back to resist the forward rolling momentum** (Effectiveness: High) - Your Response: If the opponent sprawls effectively, abandon the roll and return to standard omoplata finishing mechanics by increasing shoulder rotation pressure, or redirect force laterally to execute the omoplata sweep instead of the forward roll → Leads to [[Positions/Omoplata Control]]
 - **Opponent turns into the roll and begins recovering guard during the mid-roll transition phase** (Effectiveness: Medium) - Your Response: Maintain belt grip throughout the roll and land with immediate heavy chest pressure to prevent knee insertion. If guard recovery begins, use the rolling momentum to transition directly into a passing sequence rather than stopping to fight from a stalled position → Leads to [[Positions/Open Guard]]
 - **Opponent extracts trapped arm by pulling elbow tight to their body during the rolling motion** (Effectiveness: High) - Your Response: If arm extraction begins mid-roll, increase shin pressure across the back and accelerate the roll to complete the positional advancement even without the omoplata. Focus on achieving the top position and establishing side control rather than fighting to maintain the shoulder lock on a freeing arm → Leads to [[Positions/Omoplata Control]]
@@ -254,6 +262,8 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Roll Forward from Omoplata?</p>
 
 ### 1. Initiating the roll without securing a belt or hip grip first
 
@@ -293,6 +303,8 @@ As the attacker executing the Roll Forward from Omoplata, you are converting you
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Roll Forward from Omoplata (Attacker)?</p>
+
 **Phase 1: Mechanics** - Forward roll movement pattern from omoplata
 Practice the forward rolling motion from omoplata position with a fully compliant partner. Focus on hip drive direction, maintaining shin contact across the back, and landing in perpendicular side control orientation. No resistance. 20 repetitions per side, emphasizing smooth continuous motion.
 
@@ -313,42 +325,12 @@ Flow between omoplata finish attempt, roll forward sweep, and back take based on
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent posts their free hand wide on the mat while you have omoplata control - is this the right time to attempt the roll forward?
-**A**: Yes, a wide post is an excellent trigger for the roll forward. When the opponent posts their free hand wide, their base is committed to one direction and they cannot easily retract it to counter the roll. Ensure your belt grip is secure before initiating. The wide post means their defensive hand is occupied with maintaining base rather than available to block your hip drive. Drive your hips forward explosively while pulling on the belt grip to initiate the roll before they can adjust their posting hand.
-
-**Q2**: What is the most critical grip for controlling the direction of the forward roll?
-**A**: The belt or hip grip is the most critical control point. This grip serves as your steering mechanism, determining whether you land in tight side control or end up in a loose scramble. Without this grip, the roll becomes uncontrolled momentum that the opponent can redirect or separate from. Secure the grip deep on the belt at hip level or grab the far pants leg near the hip, and pull it toward you throughout the entire rolling motion to keep the opponent's body connected to yours during the transition.
-
-**Q3**: What hip movement initiates the forward roll from omoplata control?
-**A**: The roll is initiated by driving your hips explosively forward and upward toward the opponent's trapped shoulder. The power comes from your hip flexors and core, not from pulling with your arms or upper body. Think of it as thrusting your hips over the opponent's shoulder using the trapped arm as a pivot point. Your free leg pushes off the mat to generate additional forward momentum. The hip drive should be one explosive committed motion rather than a gradual push that gives the opponent time to react.
-
-**Q4**: What happens if you lose the omoplata grip during the roll - how do you salvage the position?
-**A**: If the omoplata leg slips off during the roll, immediately focus on completing the positional advancement rather than trying to re-establish the shoulder lock mid-transition. Continue the rolling momentum and establish chest pressure on the opponent. Even without the omoplata, completing the roll puts you in top position. Transition immediately to establishing standard side control grips: crossface and hip control. The positional advancement from bottom to top is still valuable even without maintaining the submission threat on the shoulder.
-
-**Q5**: How do you prevent the opponent from recovering guard as you complete the roll and land on top?
-**A**: Immediate consolidation is the key. As you land from the roll, your weight must instantly settle on the opponent's chest in a perpendicular orientation. Release the omoplata leg configuration quickly and establish crossface pressure before the opponent can insert a knee or create a frame. The belt grip you maintained throughout the roll prevents them from creating separation distance. Block their near hip with your hand to prevent knee insertion and settle your hips low against their body. Speed of transition from roll landing to established side control determines whether the sweep results in a dominant position.
-
-**Q6**: Your opponent defends by tucking their elbow tight and refusing to extend their arm - how does this affect the roll forward?
-**A**: When the opponent tucks their elbow, the omoplata submission becomes less effective, but the roll forward actually becomes more viable. Their tucked elbow means they are not posting with that arm, which reduces their base significantly. Additionally, the defensive arm position typically shifts their weight forward as they curl inward, playing directly into the forward roll mechanics. Use their tucked-arm defensive posture as the trigger to execute the roll, as their compromised base makes the sweep higher percentage even though the shoulder lock finish itself is well defended.
-
-**Q7**: When should you choose the roll forward over the standard omoplata finish or the back take?
-**A**: Choose the roll forward when the opponent has strong posture defense that prevents the submission finish but their base is compromised forward or sideways. If they successfully prevent shoulder rotation by posting and framing, the roll converts their defensive structure into the mechanism for the sweep. Choose the submission finish when you have deep shoulder rotation and the opponent cannot posture. Choose the back take when the opponent turns away or attempts to create distance laterally. The three options form a complete dilemma system where each defensive reaction to one attack opens the other two.
-
-**Q8**: What is the biggest difference between executing the roll when you initiate it versus following the opponent's forward roll escape attempt?
-**A**: When you initiate the roll, you must generate all momentum through your hip drive and belt grip pull. This requires more explosive effort but gives you complete control over timing and direction of the roll. When following the opponent's escape roll, you use their momentum, which requires less energy but demands faster reaction time and the ability to maintain control during their initiated movement. The key technical difference is that when following their roll, you must keep your shin pressure across their back even tighter because their rolling motion naturally creates separation space. In both cases, the belt grip remains essential for steering into proper side control position upon landing.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Roll Forward from Omoplata?</p>
 
 The Roll Forward from Omoplata involves continued shoulder joint pressure during a dynamic rolling motion. The trapped shoulder remains under rotational stress throughout the transition, and the combination of momentum and joint manipulation can hyperextend the shoulder before the defender can signal a tap. During training, execute the roll at controlled speed and release shoulder pressure immediately if your partner taps or signals discomfort at any point during the movement. Avoid explosive full-speed rolls with unfamiliar training partners. Communicate intensity expectations before drilling and build speed gradually as both partners become comfortable with the technique.
 

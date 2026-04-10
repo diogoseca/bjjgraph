@@ -188,6 +188,8 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Reverse Half Guard?</p>
+
 - Time the sweep to coincide with the opponent's forward weight commitment rather than forcing against a neutral base
 - Maintain continuous leg entanglement on the trapped leg throughout the entire sweep rotation to prevent escape
 - Generate rotational force through hip and core engagement rather than relying on upper body strength
@@ -202,6 +204,8 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Reverse Half Guard?</p>
+
 - Secure leg entanglement on opponent's trapped leg with active clamping using both legs
 - Opponent's weight committed forward with pressure driving into your back or hips
 - Sufficient hip mobility and space to initiate rotational movement underneath opponent
@@ -214,6 +218,8 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Reverse Half Guard step by step?</p>
 
 1. **Confirm leg entanglement and weight distribution**: Verify that your legs are securely clamping the opponent's trapped leg with constant tension. Feel for their weight distribution—the sweep requires their weight to be committed forward over their knees. If their weight is back or neutral, wait or use other attacks to draw them forward before initiating.
 2. **Establish rotational alignment**: Angle your hips and torso to create the rotational pathway for the sweep. Your body should be positioned to channel the opponent's forward drive into a lateral or diagonal rolling motion. Tuck your chin to protect your neck and prepare your arms to assist the rotation by posting or framing.
@@ -243,6 +249,8 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Reverse Half Guard?</p>
+
 - **Opponent bases out with hand post to prevent the roll** (Effectiveness: High) - Your Response: Switch to underhook elevation variant or use their posted arm as leverage for a different sweep angle. Their posted hand creates a new off-balance point you can attack from the opposite direction. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Opponent sits back to remove forward pressure** (Effectiveness: High) - Your Response: Abandon the sweep attempt and transition to deep half guard entry or standard half guard recovery. Without forward pressure, the sweep lacks the necessary force vector. Use their withdrawal to create space for alternative positions. → Leads to [[Positions/Half Guard/Reverse Half Guard]]
 - **Opponent sprawls and drives crossface to flatten you** (Effectiveness: Medium) - Your Response: Use the crossface pressure to fuel a different sweep direction. Their sprawl commitment can be redirected if you time a secondary rotation. Alternatively, use the flattening to transition to an inversion entry or turtle recovery. → Leads to [[Positions/Side Control]]
@@ -254,6 +262,8 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Reverse Half Guard?</p>
 
 ### 1. Initiating the sweep when opponent's weight is neutral or sitting back
 
@@ -293,6 +303,8 @@ Executing the Sweep from Reverse Half Guard requires precise timing and body coo
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Reverse Half Guard (Attacker)?</p>
+
 **Phase 1: Mechanics** - Solo hip rotation and body coordination
 Practice the sweep rotation solo, focusing on generating force through hip movement while maintaining a tucked chin and compact body position. Drill the rotational pathway 20 times per side to build muscle memory for the sweep direction and body positioning without an opponent.
 
@@ -313,45 +325,12 @@ Develop a complete attack tree from reverse half guard where the sweep is one br
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal timing window for initiating the Sweep from Reverse Half Guard?
-**A**: The optimal timing window opens when the opponent commits their weight forward with pressure driving into your back or hips. Specifically, you should feel their weight shift over their knees rather than sitting back on their hips. This forward commitment provides the momentum vector that the sweep redirects into a reversal. Initiating too early when weight is neutral results in insufficient force, while initiating too late after they have settled their base makes the sweep significantly harder.
-
-**Q2**: What conditions must exist before you can attempt this sweep?
-**A**: Four conditions must be present: secure leg entanglement on the opponent's trapped leg with active clamping, opponent's weight committed forward rather than neutral or withdrawn, sufficient hip mobility and space to generate rotational force, and defensive hand positioning protecting your neck from chokes during the transition. Missing any of these conditions significantly reduces success probability and increases counter risk.
-
-**Q3**: What is the most critical mechanical detail that makes this sweep work?
-**A**: The hip rotation is the most critical mechanical detail. The sweep is powered by explosive hip rotation through the core, not by upper body pulling or pushing. The hips generate the rotational force that redirects the opponent's forward pressure into a lateral or diagonal rolling motion. Without proper hip engagement, the sweep lacks sufficient force to overcome even moderate resistance. Arms assist direction and framing but must not be the primary power source.
-
-**Q4**: Your opponent posts their hand to stop the sweep—how do you adjust?
-**A**: When the opponent posts a hand, switch to the underhook elevation variant or redirect the sweep angle to attack their new off-balance point. Their posted arm creates a fixed base on one side, making them vulnerable to being swept in the opposite direction. You can also use their posted arm as a lever by controlling the wrist and redirecting the sweep over that arm. The key is recognizing the post immediately and adapting rather than forcing the original sweep angle.
-
-**Q5**: What grip configuration provides the best control during the sweep?
-**A**: The primary grip is the leg entanglement itself, maintained through active clamping with both legs. For upper body control, the near hand defends the neck while the far hand assists rotation by posting on the mat or framing against the opponent's body. In gi, collar or sleeve grips can supplement control, but the legs must provide the majority of control. Over-relying on upper body grips compromises the hip-driven mechanics that power the sweep.
-
-**Q6**: In which direction should force be applied during the sweep rotation?
-**A**: Force should be directed laterally or diagonally, perpendicular to the opponent's forward drive. The opponent's weight is moving forward, so redirecting it sideways creates the off-balance. Think of the force application as a wheel turning—your hips are the axle and the rotational force channels the opponent's linear momentum into circular motion that tips them over their support base. The exact angle depends on the variant but always converts their forward drive into lateral displacement.
-
-**Q7**: Your opponent sits back to remove forward pressure when they feel you setting up the sweep—what is your best response?
-**A**: When the opponent withdraws pressure, the sweep loses its force vector and should be abandoned immediately. Instead, capitalize on their withdrawal by transitioning to deep half guard entry, standard half guard recovery, or back take attempts. Their backward weight shift creates space that was not previously available, opening alternative attacks. Use the sweep threat as bait—their fear of being swept creates the space that enables other techniques in your reverse half guard system.
-
-**Q8**: What are the chain attacks if the initial sweep attempt is blocked?
-**A**: If blocked, the primary chains are: transition to back take by using the opponent's defensive posting to expose their back, entry to deep half guard using the space created during the sweep exchange, recovery to standard half guard with underhook for conventional sweep attempts, or inversion to attack with leg entanglement entries. The key is having a predetermined secondary option so that the failed sweep immediately flows into the next technique without pause.
-
-**Q9**: What distinguishes a failed sweep that stays in reverse half guard from one that results in side control bottom?
-**A**: A failed sweep that stays in reverse half guard occurs when the opponent simply stops the rotation but does not advance—you retain your leg entanglement and return to the starting position. Side control bottom results when the opponent both stops the sweep and capitalizes by extracting their trapped leg and passing during your compromised positioning. The difference is whether you maintain leg control during the failure. If leg control holds, you stay in reverse half; if it breaks during the failed attempt, the opponent passes.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Reverse Half Guard?</p>
 
 The Sweep from Reverse Half Guard involves rotational forces through the spine and neck during the inverted transition phase. Always keep the chin tucked tightly during rotation to protect cervical vertebrae. Avoid forcing the sweep against a fully posted opponent, as this can create awkward twisting loads on the lower back and knees. During training, tap immediately if you feel any neck compression or spinal torque during the rotation. Partners should allow the sweep to complete rather than resisting in ways that create dangerous spinal angles. Progress resistance gradually and ensure both partners understand the rotational mechanics before drilling at full speed.
 

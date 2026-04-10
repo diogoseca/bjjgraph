@@ -188,6 +188,8 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Matrix to Side Control?</p>
+
 - Recognize the exact moment when the Matrix rotation is fully neutralized before committing to the consolidation—premature advancement risks secondary rotation attempts
 - Strip all remaining grips before beginning the flattening phase, as residual connection points allow the opponent to re-initiate rotation or disrupt your base
 - Establish crossface control as the first priority during consolidation, as it prevents the opponent from turning back toward you for another Matrix attempt
@@ -202,6 +204,8 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Matrix to Side Control?</p>
+
 - Successfully blocked or halted the opponent's Matrix back take rotation with your defensive base intact
 - Maintained top position with weight distributed on the opponent's torso or hips without being displaced
 - Opponent's rotational momentum has fully dissipated and their body has settled against your defensive structure
@@ -214,6 +218,8 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Matrix to Side Control step by step?</p>
 
 1. **Recognize Rotation Halt**: Identify the exact moment when the bottom player's Matrix rotation has been fully blocked or halted. Watch for their hip movement stopping, their rotation momentum dissipating, and their body settling against your defensive base. This recognition window is brief—typically one to two seconds—so develop sensitivity to the shift from active rotation to stalled movement.
 2. **Strip Remaining Grips**: Immediately break any remaining grips the bottom player holds on your belt, pants, or legs. These connection points allow them to re-initiate rotation or pull you off balance during your consolidation attempt. Use sharp grip breaks with your free hand while maintaining weight pressure through your chest and hips to prevent them from using the grip-breaking moment to escape.
@@ -243,6 +249,8 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Matrix to Side Control?</p>
+
 - **Opponent re-initiates Matrix rotation before crossface is established** (Effectiveness: High) - Your Response: Immediately return to wide defensive base, re-block the rotation, and restart the consolidation sequence once the secondary attempt is fully neutralized → Leads to [[Positions/Matrix]]
 - **Opponent inserts knee shield to prevent side control consolidation** (Effectiveness: Medium) - Your Response: Use smash pass mechanics to collapse the knee shield before it is fully established, or switch to a knee slice passing angle that bypasses the shield → Leads to [[Positions/Matrix]]
 - **Opponent frames with both arms and shrimps to create distance for guard recovery** (Effectiveness: Medium) - Your Response: Increase chest pressure and close the distance before the frames are fully extended, targeting the far hip with your near hand to prevent the shrimp from creating enough space for knee insertion → Leads to [[Positions/Matrix]]
@@ -254,6 +262,8 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Matrix to Side Control?</p>
 
 ### 1. Rushing the consolidation before the Matrix rotation is fully neutralized
 
@@ -288,6 +298,8 @@ The Matrix to Side Control transition from the attacker's perspective involves c
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Matrix to Side Control (Attacker)?</p>
+
 **Phase 1: Mechanics** - Individual movement patterns
 Practice the grip strip to crossface to flattening sequence against a compliant partner holding static Matrix bottom position. Focus on proper weight transfer from defensive wide base to offensive perpendicular pressure. Execute 20 repetitions per side with emphasis on smooth transitions between each step.
 
@@ -305,42 +317,12 @@ Positional sparring starting from Matrix top with the bottom player actively att
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal moment to begin transitioning from Matrix defense to side control consolidation?
-**A**: The optimal moment occurs when the bottom player's rotation has fully stalled—their hip movement has stopped, their momentum has dissipated, and their body has settled against your defensive base. You should also confirm that at least one of their primary grips has been broken or significantly weakened. Acting before the rotation fully stalls risks being caught in a secondary attempt, while waiting too long allows them to reset their structure.
-
-**Q2**: Why must crossface control be established before attempting to flatten the opponent during this transition?
-**A**: Crossface control eliminates the opponent's ability to turn their head toward you, which is the prerequisite for re-entering the Matrix rotation. Without the crossface, the opponent retains rotational freedom and can use any forward pressure you apply as leverage for a secondary back take attempt. The crossface also creates uncomfortable pressure that forces defensive reactions, occupying the opponent's attention while you advance the consolidation.
-
-**Q3**: Your opponent's Matrix rotation is blocked but they still maintain a strong belt grip with one hand—how do you proceed?
-**A**: Strip the belt grip before committing to the side control consolidation. That remaining grip provides a connection point the opponent can use to re-initiate rotation or pull you off balance during your passing attempt. Use your free hand to execute a sharp grip break while maintaining chest pressure to prevent them from using the momentary grip-fighting exchange to create space or reset their position for another Matrix entry.
-
-**Q4**: What direction of force should your chest pressure travel during the flattening phase of this transition?
-**A**: Drive chest pressure diagonally across the opponent's body, perpendicular to their spine, combining lateral force with downward weight. This diagonal vector rolls them from their side onto their back while simultaneously eliminating the space between your bodies. Driving straight down is less effective because it compresses without flattening, and driving purely laterally allows them to use your momentum to create distance.
-
-**Q5**: The opponent attempts to re-enter their Matrix rotation as you begin consolidating—what is your immediate response?
-**A**: Immediately return to your wide defensive base and re-block the rotation rather than trying to force through the consolidation. A secondary Matrix attempt against a narrow, passing-focused base is far more likely to succeed than the initial attempt against your prepared defense. Once the secondary rotation is fully neutralized, restart the consolidation sequence from the grip-stripping phase. Patience here prevents giving up back control.
-
-**Q6**: How do you prevent the opponent from inserting a knee shield during the transition to side control?
-**A**: Keep your near-side hip low and heavy against the opponent's far hip throughout the consolidation, applying constant downward pressure that blocks the pathway for knee insertion. Your hip acts as a physical barrier preventing their knee from threading between your bodies. If you feel their knee beginning to rise, immediately drop your hip weight onto it and drive it back down before it crosses the threshold where a knee shield becomes established.
-
-**Q7**: What grip configuration provides the most secure control during the final consolidation phase into side control?
-**A**: The crossface arm drives your forearm or bicep across the opponent's neck and face with shoulder pressure behind it, while the near-side hand controls their far hip to prevent guard recovery. This configuration addresses both primary defensive threats simultaneously—the crossface prevents rotation and turning, while the hip block prevents knee insertion. Once settled, you can adjust to underhook or other preferred side control grips.
-
-**Q8**: If the opponent turtles during your consolidation attempt rather than being flattened, how does your approach change?
-**A**: A turtled opponent requires a different pathway to side control. Rather than continuing the flattening pressure against their turtle structure, transition to a spiral ride or use crossface pressure to break them down flat from turtle. Alternatively, you can chain to a front headlock attack, snap-down, or clock choke that exploits their turtle posture. The key is recognizing that turtle requires different mechanics than the standard Matrix-to-side-control flattening sequence.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Matrix to Side Control?</p>
 
 This transition involves significant pressure application through crossface and chest-to-chest contact. Be mindful of the opponent's neck position during crossface application to avoid excessive lateral neck pressure. During training, apply flattening pressure gradually rather than explosively to allow your partner to tap or verbally signal if the pressure becomes uncomfortable. Avoid driving crossface pressure directly into the throat—target the jaw and cheekbone area instead. When extracting legs from entanglements, move deliberately to avoid torquing your partner's knee or ankle joints.
 

@@ -162,6 +162,8 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Uchi Mata?</p>
+
 - Attacker pulls you sharply forward and downward with their collar or head grip, attempting to break your posture and load your weight onto your front leg
 - Attacker steps their lead foot deep between your legs or slightly outside your lead foot, closing the distance for hip contact
 - Attacker's hips begin rotating toward you with their back turning to face your chest, indicating they are loading the throw
@@ -174,6 +176,8 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Uchi Mata?</p>
 
 - Deny dominant grips early through active hand fighting - the throw cannot succeed without strong upper body control
 - Maintain low hip position and avoid standing upright in the clinch, keeping your center of gravity below the attacker's hip line
@@ -188,6 +192,8 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Uchi Mata?</p>
 
 ### 1. Hip sprawl - drive your hips backward and away from the attacker the moment you feel the entry step
 
@@ -225,6 +231,8 @@ Defending Uchi Mata requires early recognition and decisive action because once 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Uchi Mata?</p>
+
 ### → [[Positions/Clinch]]
 
 Sprawl early and decisively when you recognize the entry step. Drive your hips back and down while maintaining your grips on the attacker. As their throw fails, use the positional advantage of their compromised posture to establish dominant grips or initiate your own takedown attempt. The failed throw leaves them extended and off-balance, creating openings for snap downs, go-behinds, or counter-takedowns.
@@ -240,6 +248,8 @@ Execute Uchi Mata Sukashi or a counter-throw when the attacker over-commits to t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Uchi Mata?</p>
 
 ### 1. Standing upright with weight forward in the clinch, making kuzushi easy for the attacker
 
@@ -269,6 +279,8 @@ Execute Uchi Mata Sukashi or a counter-throw when the attacker over-commits to t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Uchi Mata?</p>
+
 **Week 1-2: Recognition drilling** - Learn to identify Uchi Mata entry cues before the throw develops
 Partner performs slow-motion Uchi Mata entries while you practice recognizing the kuzushi, entry step, and hip rotation. No actual throwing occurs. Focus on identifying the exact moment when each phase begins. Call out 'entry' when you feel the step-in, 'rotation' when hips begin turning. Build pattern recognition at progressively faster speeds until you can reliably identify the attack at realistic pace.
 
@@ -285,29 +297,6 @@ Engage in standing sparring rounds where the attacker is specifically working Uc
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important factor in successfully defending Uchi Mata?
-**A**: Early recognition and immediate reaction to the entry step. Once the attacker achieves full hip contact and begins rotation, defensive options narrow dramatically. The defender who recognizes the kuzushi attempt and the entry step early can sprawl, post, or counter before the throw develops. This is why grip fighting and posture maintenance are the foundation of Uchi Mata defense - they give you the time and structure needed to read the attack before it reaches the point of no return. Drilling sprawl reactions until they are automatic is the most valuable defensive investment.
-
-**Q2**: Your opponent has a collar grip and keeps attempting Uchi Mata entries - what systematic approach prevents repeated attempts?
-**A**: Address the root cause by denying the grip configuration that enables the throw. Strip or break the collar grip using two-on-one grip breaks, and immediately establish your own dominant grip before they can re-grip. If you cannot break the grip, nullify it by maintaining low hip position and slight lateral angle so the collar grip cannot generate effective forward kuzushi. Counter-grip aggressively: establish your own collar tie or underhook on the throwing side to control their rotation. Additionally, use movement to prevent them from setting their feet for the entry. An opponent who is constantly adjusting footwork to match your circling cannot settle into the throwing stance needed for Uchi Mata.
-
-**Q3**: You feel the attacker's hip make contact with yours and their leg starting to sweep - what are your remaining options at this late stage?
-**A**: At this late stage your options are limited but not zero. First, drop your weight explosively by bending your knees and sitting your hips down and back, making yourself as heavy as possible on the leg being swept. This may prevent the lift from generating enough force to complete the throw. Second, attempt to hop over the sweeping leg with your target leg if you have any remaining base, though this requires exceptional timing. Third, if the throw is clearly going to succeed, focus on controlling the landing by gripping the attacker tightly and turning your body to land on your side rather than flat on your back, which may allow you to immediately recover to turtle or half guard rather than conceding full side control. Accept the throw but minimize the positional damage.
-
-**Q4**: How does defending Uchi Mata differ in no-gi compared to gi, and what adjustments should you make?
-**A**: In no-gi, the attacker lacks collar and sleeve grips, which significantly reduces their kuzushi effectiveness and makes the throw harder to execute. However, the closer body contact required in no-gi (over-under, body lock) means that when the attacker does achieve position, the throw can happen faster with less warning. Your primary defensive adjustment is to focus on underhook fighting and head position rather than grip breaking. Deny the attacker the underhook on the throwing side, as this is the primary control point for no-gi Uchi Mata. Additionally, the absence of gi friction means you can swim through positions faster, so actively pummel for better position rather than relying on grip management. The sprawl defense remains equally effective in both gi and no-gi.
-
-**Q5**: What body position should you maintain in the clinch to make yourself a difficult target for Uchi Mata?
-**A**: Maintain a slightly crouched stance with your hips pushed back and knees bent, keeping your center of gravity low. Your weight should be distributed evenly or slightly rearward across both feet rather than loaded onto either leg. Keep a slight lateral angle rather than squaring up directly with the attacker, as Uchi Mata works best against an opponent who is directly facing the thrower. Active footwork with small adjustments prevents the attacker from settling into their entry stance. Your arms should maintain frames against their shoulders and biceps with bent elbows, not extended, creating a structure that prevents their hip from closing distance to yours. This posture simultaneously defends against forward throws like Uchi Mata and backward throws like Osoto Gari.
-
-
-
-</section>
 
 
 </main>

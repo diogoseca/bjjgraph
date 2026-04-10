@@ -210,7 +210,7 @@ Follow to Back Control represents a critical junction in the modern leg lock gam
 
 - [[Positions/Ashi Garami/Outside Ashi-Garami]] - Position that often precedes Ushiro Ashi-Garami in leg attack sequences
 
-- [[Transitions/Rear Naked Choke]] - Primary submission available from established back control
+- [[Submissions/Rear Naked Choke]] - Primary submission available from established back control
 
 - [[Transitions/Body Triangle Lock]] - Control consolidation option after establishing back control
 

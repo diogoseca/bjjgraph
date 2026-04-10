@@ -154,6 +154,8 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Side Control to Shoulder of Justice?</p>
+
 - Opponent begins walking their chest forward toward your head while maintaining side control pressure
 - You feel the crossface pressure shifting from bicep across your neck to a more focused shoulder blade contact against your jaw
 - Opponent adjusts their near-side hand to pin or trap your near arm against the mat or your body
@@ -166,6 +168,8 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Side Control to Shoulder of Justice?</p>
 
 - Recognize the chest walk-up early and frame against the shoulder before it reaches your jaw line
 - Maintain near-arm activity with micro-frames rather than letting the arm be trapped or pinned
@@ -181,6 +185,8 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Side Control to Shoulder of Justice?</p>
 
 ### 1. Frame against opponent's shoulder with near-side forearm before shoulder reaches jaw
 
@@ -218,6 +224,8 @@ Defending the Transition to Shoulder of Justice requires recognizing the attack 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Side Control to Shoulder of Justice?</p>
+
 ### → [[Positions/Half Guard]]
 
 Time a shrimp escape during the attacker's chest walk-up when their hip connection lightens, and insert your near-side knee between their legs to establish half guard. This is the highest-percentage defensive outcome because the transition creates a brief window of reduced hip pressure.
@@ -233,6 +241,8 @@ Maintain active frames against the opponent's shoulder before it reaches your ja
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Side Control to Shoulder of Justice?</p>
 
 ### 1. Waiting passively until the Shoulder of Justice is fully established before attempting any defense
 
@@ -262,6 +272,8 @@ Maintain active frames against the opponent's shoulder before it reaches your ja
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Side Control to Shoulder of Justice?</p>
+
 **Phase 1: Recognition Drilling** - Learning to identify the transition cues before shoulder pressure is established
 Partner slowly executes the chest walk-up from side control at quarter speed. Call out each recognition cue as you feel it: forward movement, near arm trap, shoulder angle rotation, jaw contact. No escape attempts yet, purely sensory training to build awareness of the transition pattern.
 
@@ -278,26 +290,6 @@ Partner establishes full Shoulder of Justice and maintains it with competition p
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from standard side control to Shoulder of Justice?
-**A**: The earliest cue is feeling the opponent begin to walk their chest forward toward your head while maintaining side control. This forward movement precedes the shoulder angle change and is the moment when defensive action is most effective. You may also notice them adjusting their near-side hand to trap your arm, which is a setup action that precedes the chest walk-up.
-
-**Q2**: Why is the transitional window the best time to attempt a defensive shrimp?
-**A**: During the chest walk-up, the attacker must shift their weight forward, which momentarily lightens their hip connection to your near hip line. This brief window of reduced hip pressure is the optimal time for a shrimp because the primary barrier to shrimping, their heavy hip weight, is temporarily reduced. Once the Shoulder of Justice is fully established with re-consolidated hip pressure, shrimping becomes significantly harder.
-
-**Q3**: Your opponent has fully established the Shoulder of Justice and you are in significant discomfort. What should you NOT do and why?
-**A**: You should not extend your near arm to push their shoulder away, bring your far arm across your face for protection, or turn your face into the pressure to relieve jaw pain. Each of these reactive movements is specifically what the attacker is trying to provoke: the extended near arm opens a kimura, the crossed far arm creates an arm triangle, and turning in opens north-south and back-take transitions. Instead, breathe through your nose, maintain micro-frames, and wait for the attacker to shift weight during a transition or submission attempt.
-
-**Q4**: What defensive option gives you the best chance of escaping once the Shoulder of Justice is already established?
-**A**: Timing a shrimp escape when the attacker shifts weight for a submission attempt or positional advancement gives you the best chance. When they initiate a kimura, mount transition, or north-south spin, their base changes and hip connection lightens momentarily. Use that window for a deliberate hip escape to insert a knee for half guard. This requires patience and the discipline to wait for the right moment rather than forcing an escape under maximum pressure.
-
-
-
-</section>
 
 
 </main>

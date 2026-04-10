@@ -20,38 +20,38 @@ description: "Master saddle position mechanics with systematic entries, control 
   "step": [
     {
       "@type": "HowToStep",
-      "name": "Execute Heel Hook",
-      "text": "From this position, attempt Heel Hook. This technique is attempted in 40% of exchanges from this position.",
+      "name": "Execute Outside Heel Hook from Saddle",
+      "text": "From this position, attempt Outside Heel Hook from Saddle. This technique is attempted in 5% of exchanges from this position.",
       "position": 1
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Outside Heel Hook",
-      "text": "From this position, attempt Outside Heel Hook. This technique is attempted in 5% of exchanges from this position.",
-      "position": 2
     },
     {
       "@type": "HowToStep",
       "name": "Execute Straight Ankle Lock Entry",
       "text": "From this position, attempt Straight Ankle Lock Entry. This technique is attempted in 10% of exchanges from this position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Toe Hold from Saddle",
+      "text": "From this position, attempt Toe Hold from Saddle. This technique is attempted in 9% of exchanges from this position.",
       "position": 3
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Toe Hold",
-      "text": "From this position, attempt Toe Hold. This technique is attempted in 9% of exchanges from this position.",
+      "name": "Execute Kneebar from Saddle",
+      "text": "From this position, attempt Kneebar from Saddle. This technique is attempted in 3% of exchanges from this position.",
       "position": 4
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Kneebar",
-      "text": "From this position, attempt Kneebar. This technique is attempted in 3% of exchanges from this position.",
-      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute Back Take from Ashi",
       "text": "From this position, attempt Back Take from Ashi. This technique is attempted in 10% of exchanges from this position.",
+      "position": 5
+    },
+    {
+      "@type": "HowToStep",
+      "name": "Execute Cross Ashi Transition",
+      "text": "From this position, attempt Cross Ashi Transition. This technique is attempted in 6% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -173,6 +173,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ## Position Definition
 
+<p class="section-subtitle">What is Saddle (Top)?</p>
+
 - You are positioned perpendicular to opponent's body with their leg entangled by your legs, creating structural control of their hip, knee, and ankle joints through figure-four or similar leg configuration
 - Your hips are pressuring into opponent's trapped leg while maintaining inside position between their legs, preventing them from facing you directly or turning away to relieve pressure on vulnerable joints
 - Opponent's heel is exposed and oriented toward your chest or armpit, enabling finishing mechanics for heel hooks while your grips control the foot and ankle to prevent defensive hiding or rotation
@@ -183,6 +185,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Saddle (Top)?</p>
 
 - You have achieved inside position between opponent's legs
 - You have established perpendicular alignment to opponent's body
@@ -195,6 +199,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 <section id="key-principles" class="content-section">
 
 ## Key Offensive Principles
+
+<p class="section-subtitle">What are the key principles for attacking from Saddle?</p>
 
 - Perpendicular positioning creates maximum mechanical advantage on the leg
 - Hip pressure prevents opponent rotation and maintains positional dominance
@@ -211,19 +217,21 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ## Decision Making from This Position
 
+<p class="section-subtitle">What should you do from Saddle (Top)?</p>
+
 **You have achieved perpendicular positioning with inside control but opponent is framing on your hips:**
 - Execute **[[Clear frames systematically/Attacker|Clear frames systematically]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 - Execute **[[Transition to Inside Ashi-Garami/Attacker|Transition to Inside Ashi-Garami]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 30%)
 
 
 **Opponent's heel is fully exposed and you have established figure-four grip:**
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 80%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 20%)
+- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[game-over]] (Probability: 80%)
+- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[game-over]] (Probability: 20%)
 
 
 **Opponent is hiding heel by rotating knee inward:**
-- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 40%)
+- Execute **[[Transitions/Straight Ankle Lock Entry/Attacker|Straight Ankle Lock Entry]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Submissions/Toe Hold/Attacker|Toe Hold]]** → [[game-over]] (Probability: 40%)
 
 
 **Opponent is attempting to turn into you to escape:**
@@ -244,6 +252,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Offensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when attacking from Saddle?</p>
 
 ### 1. Attempting to finish heel hook before establishing optimal control position
 
@@ -278,6 +288,8 @@ From a strategic perspective, the Saddle functions differently depending on rule
 
 ## Training Drills for Attacks
 
+<p class="section-subtitle">How do you train Saddle attacks?</p>
+
 ### Saddle Entry Progression Drill
 
 Start from Outside Ashi-Garami, Inside Ashi-Garami, 50-50, and Single Leg X. Practice systematic entries to Saddle with partner providing graduated resistance (none, light, moderate, full).
@@ -310,38 +322,6 @@ Establish Saddle, partner executes specific escape sequences (hip clear, frame c
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent starts pushing your hips with their free leg while you have saddle control—what adjustment do you make?
-**A**: Increase hip pressure into their trapped leg while using your top leg to pin or control their free leg. If they create significant space with their push, you may need to momentarily release some control to address the free leg, either by hooking it or by transitioning to a position where their pushing leg cannot generate effective force. The key is preventing them from using that free leg to create rotation angles.
-
-**Q2**: What are the essential grips for maintaining saddle position before attempting submissions?
-**A**: The primary structural grips include controlling the opponent's ankle with your outside arm to prevent them from rotating their knee, using your inside arm to frame on their hip or control their pants/belt, and maintaining leg configuration pressure. These positional grips differ from finishing grips—establish control grips first, only transition to heel control when ready to submit.
-
-**Q3**: How do you shut down an opponent's primary escape of turning into you?
-**A**: Maintain heavy hip pressure driving into their trapped leg while using your top leg to block their hip rotation toward you. Your shoulder should stay heavy on their thigh. If they begin rotating, ride with the rotation while adjusting your angle to stay perpendicular. The key is making their turn tighten your control rather than create escape space.
-
-**Q4**: What is the correct grip sequence when transitioning from positional control to submission finish?
-**A**: First establish structural control with leg configuration and hip pressure. Next, control the ankle with your outside arm to prevent knee rotation. Then clear any frames the opponent has on your hips. Only after these controls are established should you transition to heel grip—use your inside hand to cup the heel while your outside arm maintains ankle control. The figure-four finishing grip comes last.
-
-**Q5**: How should you apply pressure with your hips to maximize control effectiveness?
-**A**: Drive your hips into the opponent's trapped thigh at approximately a 45-degree angle toward their hip. This pressure prevents them from rotating either direction and maintains the perpendicular alignment that gives you mechanical advantage. Your hips should feel like a wedge that gets tighter when they move, not looser.
-
-**Q6**: Your opponent begins framing on your shoulder while hiding their heel—what's your tactical response?
-**A**: Address the threat hierarchy: frames before submissions. Use your free hand to strip or redirect their frame while maintaining hip pressure and leg configuration. Once the frame is cleared, recognize that their heel hiding has exposed their ankle—transition to straight ankle lock or toe hold threat. This forces them to choose between maintaining the frame or protecting the ankle, creating a new dilemma.
-
-**Q7**: How do you manage energy expenditure when an opponent is actively resisting but not escaping?
-**A**: Avoid the trap of constantly attacking submissions against strong defense. Instead, maintain positional control with minimal energy by relying on structural mechanics rather than muscular effort. Let your leg configuration and hip pressure do the work. Wait for defensive errors that open attack opportunities rather than forcing submissions against solid defense. The position should feel sustainable for extended periods.
-
-**Q8**: What recovery protocol do you use if the opponent partially clears your hip pressure?
-**A**: Immediately re-engage hip pressure before attempting to reestablish other controls. If they've created significant space, you may need to temporarily transition to Inside Ashi-Garami and rebuild to saddle. Never try to skip steps in re-establishing control—the hierarchy is perpendicular alignment, then hip pressure, then inside position, then grips. Forcing submissions from a compromised position leads to escapes.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

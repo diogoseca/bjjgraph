@@ -194,6 +194,8 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Sweep from Knee Shield?</p>
+
 - Underhook depth determines sweep power—fight for a grip that reaches the opponent's lat or back, not just their armpit
 - Hip angle creates the sweep trajectory—a 45-degree angle generates rotational force that bypasses the opponent's base
 - Knee shield transitions from defensive frame to offensive lever at the moment of sweep initiation
@@ -208,6 +210,8 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Sweep from Knee Shield?</p>
+
 - Knee shield established with shin across opponent's chest creating active outward pressure
 - Underhook secured on near side with grip reaching opponent's back or lat muscle
 - Hip escape completed to create approximately 45-degree angle relative to opponent's centerline
@@ -220,6 +224,8 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Sweep from Knee Shield step by step?</p>
 
 1. **Establish Knee Shield Frame**: Position your top leg's shin horizontally across the opponent's chest or abdomen, creating a rigid frame that maintains distance and prevents them from settling their weight. Engage your hip flexors to maintain constant outward pressure through the shield while keeping your foot hooked near their far hip for stability.
 2. **Secure the Underhook**: Thread your near-side arm underneath the opponent's far arm, establishing a deep underhook that reaches their back or lat. This grip is the primary engine for generating sweep force and controlling their posture. Fight past any whizzer attempts by circling your elbow tight and driving your shoulder into their armpit.
@@ -250,6 +256,8 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Sweep from Knee Shield?</p>
+
 - **Opponent whizzers the underhook to prevent deep grip and block the driving force** (Effectiveness: High) - Your Response: Use the whizzer pressure against them by continuing to drive forward—their whizzer commits their weight forward, making the sweep easier. Alternatively, switch to a lumberjack grip on their far leg. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Opponent posts far hand wide on the mat to create a strong base preventing the roll** (Effectiveness: Medium) - Your Response: Control their posting arm by securing a wrist grip or sleeve grip before initiating the sweep. If they have already posted, attack the post by pulling their arm toward you or switching to an arm drag. → Leads to [[Positions/Half Guard/Knee Shield Half Guard]]
 - **Opponent drives heavy crossface pressure to flatten you and kill the angle before the sweep initiates** (Effectiveness: High) - Your Response: Frame on their crossface shoulder with your free hand to maintain your angle. If they flatten you, abandon the sweep and recover your knee shield frame first. Transition to deep half guard if position degrades. → Leads to [[Positions/Side Control]]
@@ -261,6 +269,8 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Sweep from Knee Shield?</p>
 
 ### 1. Attempting the sweep without establishing a deep enough underhook first
 
@@ -300,10 +310,12 @@ As the attacker executing the Sweep from Knee Shield, your objective is to trans
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Sweep from Knee Shield (Attacker)?</p>
+
 **Phase 1: Mechanics** - Fundamental movement patterns and coordination
 Drill the sweep motion without resistance, focusing on the coordination between underhook drive, knee shield lever, and hip angle. Partner remains passive and allows the sweep. Repeat 20-30 times per side to build muscle memory for the push-pull timing and follow-through.
 
-**Phase 2: Grip Fighting Integration** - Winning prerequisite grips under resistance
+**Phase 2: Grips Integration** - Winning prerequisite grips under resistance
 Practice establishing the underhook and far side control against a partner who actively defends grips but does not resist the sweep itself. Develop the grip fighting sequences that lead to sweep position. Focus on timing, hand speed, and transitioning between grip options.
 
 **Phase 3: Progressive Resistance** - Executing against increasing defensive intensity
@@ -317,42 +329,12 @@ Start positional sparring rounds from knee shield half guard bottom. Work the sw
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Your opponent whizzers your underhook attempt aggressively—how do you adjust your sweep strategy?
-**A**: When the opponent whizzers, their weight necessarily shifts forward toward you, which actually loads the sweep. You can use this forward pressure by switching to a lumberjack variation—reach across to grip their far leg while maintaining your knee shield push. Alternatively, swim back inside for the underhook by circling your elbow tight to your body, or transition to deep half guard by diving under their committed weight. The whizzer is most dangerous when you try to force the underhook against it rather than flowing to alternatives.
-
-**Q2**: What is the critical hip movement that generates sweep power from the knee shield?
-**A**: The critical movement is the hip escape that creates a 45-degree angle between your body and the opponent before the sweep initiates. This angle converts the sweep from a straight push into their base—which they can easily resist—into a rotational force that tips them laterally over their far shoulder. Without this angle, the sweep becomes a strength contest that the top player wins due to gravity and base advantage. The angle should point your hips toward their far hip.
-
-**Q3**: Your opponent posts their far hand to prevent being swept—what is your immediate response?
-**A**: If they have already posted, you have several options. Pull their posting arm toward you using a wrist or sleeve grip to remove the post. Switch to an arm drag on their posting arm, which exposes their back for a potential back take. If neither grip is available, use the knee shield to push them laterally while scooping their posting arm with your free hand. Prevention is best—secure far side control before initiating the sweep so the post is never available.
-
-**Q4**: What grip on the far side provides the best sweep leverage in the gi?
-**A**: The far lapel grip at chest level provides the strongest control because it prevents both posting and posture recovery simultaneously. Pulling the lapel toward you while driving with the underhook creates maximum rotational force. The sleeve grip on the far wrist is the second best option, directly controlling their posting ability. In no-gi, a wrist grip or overhook on their far arm serves the same purpose. The key is that whatever grip you choose must prevent the opponent from posting their far hand.
-
-**Q5**: You have established the underhook but the opponent is driving forward with heavy pressure—how do you use this momentum?
-**A**: Forward pressure from the opponent is the ideal condition for the sweep. Their weight is already loaded past their base line, so your job is simply to redirect it laterally. Maintain your knee shield angle so their pressure drives across your body rather than straight into you. Pull with the underhook in the direction of the sweep while pushing with the knee shield into their hip crease. Their own momentum becomes the primary sweeping force—you are redirecting energy rather than generating it.
-
-**Q6**: At what point should the knee shield transition from a defensive frame to an offensive lever during the sweep?
-**A**: The transition occurs at the moment of the explosive drive, not before. During setup—securing the underhook, creating angle, controlling far side—the knee shield should remain a defensive frame maintaining distance. When all prerequisites are met and you commit to the sweep, the shield angles downward toward the opponent's hip crease and becomes a pushing lever. Transitioning too early collapses your defensive structure before the sweep is ready, exposing you to guard passing.
-
-**Q7**: Your sweep attempt stalls halfway and the opponent begins recovering base—what are your chain attack options?
-**A**: If the sweep stalls mid-execution, you have several follow-up options. Dive underneath for deep half guard entry since the opponent's weight is already committed forward and partially off-balance. Come up to the dogfight position using your underhook and wrestle for the top from knees. Switch to a back take by circling your underhook behind them as they fight to recover base. The worst option is trying to force the same sweep again—the opponent has already adjusted, so transition to an attack that exploits their recovery position.
-
-**Q8**: What direction should force be applied through the underhook during the sweep execution?
-**A**: The underhook force should drive diagonally forward and upward toward the opponent's far shoulder, not straight forward into their chest. This diagonal vector creates the rotational moment that tips them over their base. Think of lifting their near-side ribs while pushing their far-side ribs with the knee shield—the combined forces create a rolling motion across their base line. Driving straight forward results in a pushing match that the top player can resist with base and gravity advantage.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Sweep from Knee Shield?</p>
 
 The Sweep from Knee Shield is a low-risk technique with minimal injury potential when executed properly. The primary safety concern is neck strain from the opponent driving heavy crossface pressure during sweep attempts. Avoid cranking the sweep against a locked-out opponent—if the sweep is not moving, abandon and reset rather than forcing through with explosive power that could injure either player's knees or shoulders. Communicate with training partners about resistance levels during drilling phases.
 

@@ -215,7 +215,7 @@ The Counter Leg Attack represents the final defensive option in the Inside Sanka
 
 - [[Transitions/50-50 Entry]] - Related transition that establishes similar mutual entanglement from other positions
 
-- [[Transitions/Toe Hold]] - Potential follow-up submission once 50-50 or Ashi is established from counter
+- [[Submissions/Toe Hold]] - Potential follow-up submission once 50-50 or Ashi is established from counter
 
 
 </section>

@@ -162,6 +162,8 @@ Defending against underhook pummeling requires maintaining your established grip
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Underhook Pummeling from Clinch?</p>
+
 - Opponent's elbow drops toward their hip on one side as they prepare to initiate the swim motion underneath your controlling arm
 - Opponent creates a push-pull rhythm or sudden pressure change, using the disruption as a setup to mask the incoming pummel attempt
 - Opponent's weight shifts noticeably to one side as they angle their body to create a wider swimming lane for the underhook entry
@@ -174,6 +176,8 @@ Defending against underhook pummeling requires maintaining your established grip
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Underhook Pummeling from Clinch?</p>
 
 - Maintain active overhook pressure that loads weight downward onto the opponent's swimming arm, making the swim mechanically difficult
 - Keep elbows tight to your body to close the swimming lanes the opponent needs for the underhook path
@@ -188,6 +192,8 @@ Defending against underhook pummeling requires maintaining your established grip
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Underhook Pummeling from Clinch?</p>
 
 ### 1. Clamp overhook or whizzer immediately on the swimming arm to block underhook establishment
 
@@ -225,6 +231,8 @@ Defending against underhook pummeling requires maintaining your established grip
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Underhook Pummeling from Clinch?</p>
+
 ### → [[Positions/Clinch]]
 
 Maintain active overhook pressure and counter-pummel immediately when you feel the opponent's arm beginning to swim. Use forehead pressure on their shoulder as a structural barrier and keep your elbows tight to close swimming lanes. Address each pummel attempt within the first second before it develops into a completed underhook.
@@ -240,6 +248,8 @@ When the opponent's aggressive pummel attempt creates a clear opening to their t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Underhook Pummeling from Clinch?</p>
 
 ### 1. Passive grip maintenance without actively loading downward pressure onto the pummeling arm
 
@@ -269,6 +279,8 @@ When the opponent's aggressive pummel attempt creates a clear opening to their t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Underhook Pummeling from Clinch?</p>
+
 **Phase 1: Recognition Drilling** - Identifying pummel attempts before they develop
 Partner executes slow pummel attempts at 30-50% speed while you practice recognizing the early cues—elbow drop, weight shift, pressure change—and initiating defensive responses before the swim motion begins. Develop tactile sensitivity to the preparatory movements.
 
@@ -285,29 +297,6 @@ Defend against full-resistance pummeling in timed competitive rounds, maintainin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt an underhook pummel?
-**A**: The earliest cue is a subtle weight shift to one side combined with their elbow beginning to drop toward their hip on the swimming side. This preparatory movement occurs before the actual swim motion begins. Recognizing this preparation gives you maximum response time to clamp your overhook, drive your forehead into their shoulder, and close the swimming lane before the attempt fully develops.
-
-**Q2**: Your opponent successfully pummel-wins one underhook and is beginning to drive their head to that side—what is your immediate priority?
-**A**: Your immediate priority is counter-pummeling on that same side before they consolidate with head position and hip drive. The window between the underhook being threaded and full consolidation is approximately one to two seconds. Use your overhook on that side to create downward pressure while swimming your arm underneath theirs to strip the underhook. If you miss the window, transition to managing the over-under position rather than fighting a fully consolidated underhook.
-
-**Q3**: How do you prevent an opponent from chaining a blocked pummel into an attack on the opposite side?
-**A**: After blocking the initial pummel with your overhook, immediately re-establish pressure on both sides rather than relaxing after the successful defense. The opponent's natural chain is to use your overhook commitment against them by attacking the opposite side. Use your free hand to frame on their bicep or establish collar tie control on the side they are likely to attack next, denying them the space and angle needed for a combination pummel sequence.
-
-**Q4**: When is it more advantageous to capitalize into a body lock rather than simply blocking the pummel attempt?
-**A**: Capitalizing into a body lock is most advantageous when the opponent's pummel attempt creates a clear opening to their torso—specifically when their elbow lifts away during the swim and their head drops momentarily. This window occurs during aggressive pummel attempts where the opponent commits significant body movement. If their pummel is subtle and controlled, blocking and counter-pummeling is safer because the body lock attempt may fail and could compromise your existing dominant position.
-
-**Q5**: What stance adjustment prevents the opponent from creating the angle they need for effective pummeling?
-**A**: Maintain a slightly staggered stance with your lead foot positioned slightly inside their lead foot, keeping your hips square to their centerline. This positioning closes the inside lane they need for the swim motion and forces them to pummel from a wider angle, which is slower and easier to detect. Additionally, slight forward pressure through your chest and shoulders reduces the space between bodies, making the swimming arc more difficult to complete regardless of the angle attempted.
-
-
-
-</section>
 
 
 </main>

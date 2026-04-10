@@ -162,6 +162,8 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Escape Technical Mount to Half Guard?</p>
+
 - Bottom player begins bridging with increased hip drive, creating upward force against your settled weight—this typically precedes a hip escape attempt
 - Bottom player's far foot repositions to generate lateral pushing force, indicating preparation for shrimp movement toward your posted leg side
 - Bottom player's free arm shifts from passive defense to active framing against your hip or chest, creating the space architecture needed for escape
@@ -174,6 +176,8 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Escape Technical Mount to Half Guard?</p>
 
 - Maintain heavy hip-to-shoulder pressure that eliminates the space needed for bridging and hip escape initiation
 - Keep arm control tight throughout—the moment arm control is compromised, the escape becomes viable and your submission threat disappears
@@ -188,6 +192,8 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Escape Technical Mount to Half Guard?</p>
 
 ### 1. Drive heavy crossface and hip pressure to re-flatten the bottom player and eliminate escape space
 
@@ -225,6 +231,8 @@ As the top player in Technical Mount facing an escape attempt to half guard, you
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Escape Technical Mount to Half Guard?</p>
+
 ### → [[Positions/Mount/Technical Mount]]
 
 Maintain heavy settled pressure with strong arm control, deny space through hip-to-shoulder connection, and immediately re-flatten any bridging or hip escape attempts before they generate meaningful lateral distance
@@ -244,6 +252,8 @@ Allow the partial escape and follow the bottom player's rotation rather than fig
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Escape Technical Mount to Half Guard?</p>
 
 ### 1. Remaining static in technical mount without maintaining active offensive pressure
 
@@ -273,6 +283,8 @@ Allow the partial escape and follow the bottom player's rotation rather than fig
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Escape Technical Mount to Half Guard?</p>
+
 **Phase 1: Position Maintenance** - Holding technical mount against escape attempts
 Partner attempts the hip escape to half guard at 50% resistance. Focus on recognizing escape initiation cues and immediately increasing pressure to shut down the attempt. Work 2-minute rounds maintaining technical mount without transitioning. Track how many escape attempts you can neutralize per round.
 
@@ -286,29 +298,6 @@ Full resistance positional sparring from technical mount. Practice reading the e
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is preparing to escape to half guard?
-**A**: The earliest cue is repositioning of the bottom player's far foot to generate pushing force for the hip escape. Before any visible hip movement occurs, the foot slides to a position that allows lateral driving. You may also feel increased tension through their bridge as they load their hips for the explosive movement. Recognizing this preparatory phase gives you time to increase pressure or begin your own transition before the escape attempt fully develops.
-
-**Q2**: How should you adjust your weight distribution when you feel the bottom player begin to hip escape?
-**A**: Drop your weight immediately by driving your hips toward the mat and increasing shoulder-to-chest pressure on the side the bottom player is escaping toward. Your posted leg should shift to block their hip movement by angling the shin to cut off their shrimp path. Simultaneously tighten your arm control to maintain the armbar threat—the combination of increased pressure and submission threat forces them to abort the escape or risk arm exposure. Avoid rising up, which creates the space they need.
-
-**Q3**: Your opponent successfully inserts a knee between your bodies during the escape—what is your best immediate response?
-**A**: You have a brief window before they establish full half guard hooks. First option: drive your hip through their knee shield aggressively to clear the knee and re-establish mount before they lock their legs. Second option: if the knee is too well-established to clear, immediately transition to half guard top with strong crossface and underhook, accepting the position change but maintaining top control. The worst response is sitting in a compromised position between technical mount and half guard—commit to either clearing the knee or establishing dominant half guard top.
-
-**Q4**: When should you transition from maintaining technical mount to taking the back during an escape attempt?
-**A**: Transition to back control when the bottom player has created enough lateral distance that re-flattening them requires significant energy expenditure, and they are turning to their side during the hip escape. The key indicator is when their far shoulder lifts off the mat—this rotation creates the pathway to their back. Release arm control, establish seat belt grip immediately, and follow their rotation. The decision must be made quickly—hesitating leaves you in no-man's land where you lose both technical mount control and the back take opportunity.
-
-**Q5**: Why is maintaining offensive pressure critical for preventing the escape, even when you feel secure in technical mount?
-**A**: Constant submission threat forces the bottom player to allocate their attention and arm positioning toward defense rather than escape. If you sit passively in technical mount, the bottom player can focus entirely on timing their hip escape and knee insertion without worrying about immediate submission danger. The armbar threat specifically keeps their threatened arm occupied with protection, which means they have fewer limbs available for framing and escape movement. Active offensive pressure creates a defensive tax that makes escape execution significantly more difficult.
-
-
-
-</section>
 
 
 </main>

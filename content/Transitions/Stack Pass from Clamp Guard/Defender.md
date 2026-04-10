@@ -148,6 +148,8 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Stack Pass from Clamp Guard?</p>
+
 - Opponent's free hand moves from fighting near the trapped arm to gripping your far hip or thigh, establishing the directional control needed for forward driving rather than arm extraction
 - Opponent drops their head to the opposite side of your clamping legs, positioning it past your hip as a wedge against triangle entry before the drive begins
 - Opponent's posture shifts from upright to forward-leaning with their weight transitioning from knees to toes, loading their base for the explosive forward drive into your guard
@@ -160,6 +162,8 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Stack Pass from Clamp Guard?</p>
 
 - Recognize the stack attempt at its earliest stage — the passer gripping your far hip with their free hand and dropping their head to one side signals the incoming drive rather than arm extraction
 - Maintain hip angle by actively fighting to keep your hips angled away from the passer rather than allowing them to be driven flat and compressed under stacking pressure
@@ -174,6 +178,8 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Stack Pass from Clamp Guard?</p>
 
 ### 1. Shoot triangle by swinging leg over the passer's neck as they drive forward into your guard territory
 
@@ -204,6 +210,8 @@ Defending the Stack Pass from Clamp Guard requires recognizing the opponent's fo
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Stack Pass from Clamp Guard?</p>
+
 ### → [[Positions/Clamp Guard]]
 
 Maintain your guard by framing against the stack drive early with both hands on the passer's shoulders, keeping your hips angled away to prevent compression. Active hip adjustment and frame strength in the first second of the drive prevent the stack from reaching the compression depth needed to neutralize your guard.
@@ -219,6 +227,8 @@ Convert the passer's forward drive into a triangle by shooting your top leg over
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Stack Pass from Clamp Guard?</p>
 
 ### 1. Accepting the stack compression passively without fighting the drive in its earliest phase
 
@@ -248,6 +258,8 @@ Convert the passer's forward drive into a triangle by shooting your top leg over
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Stack Pass from Clamp Guard?</p>
+
 **Phase 1: Recognition** - Identifying stack pass initiation versus arm extraction
 Partner alternates between arm extraction attempts and stack pass setups from clamp guard top without announcing which approach they are using. Bottom player identifies which approach is being attempted and calls it out before the drive begins. Build the pattern recognition needed to deploy the correct defensive response at the earliest possible moment.
 
@@ -264,26 +276,6 @@ Full positional sparring from established clamp guard against stack pass attempt
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is about to attempt a stack pass rather than arm extraction?
-**A**: The earliest cue is the opponent's free hand moving to grip your far hip or thigh rather than working to create leverage against their trapped arm. This hip grip signals stack pass intent because arm extraction requires working against the clamp itself, not controlling your hip position. Additionally, the opponent begins dropping their head to one side and shifting their weight from upright posture to forward-leaning with toes engaged for driving force. Recognizing this shift gives you the critical seconds needed to pre-frame and prepare triangle or defensive responses before the drive begins.
-
-**Q2**: At what specific moment during the stack pass attempt does the triangle counter have the highest success probability?
-**A**: The triangle counter has the highest success rate during the first two seconds of the opponent's forward drive, specifically when their head enters your leg territory but before their chest contacts your thighs and establishes compression. At this moment, you still have full hip mobility to angle for the triangle, the opponent's head is in the ideal position for your leg to pass over their neck, and their committed forward momentum prevents them from retreating. Once stack compression is established and your hips are folded past your shoulders, triangle entry becomes physically impossible due to complete loss of hip mobility and leg freedom.
-
-**Q3**: Your opponent has established partial stack compression but has not begun the lateral walk — what should you prioritize?
-**A**: Prioritize creating a strong frame against the shoulder closest to the side the opponent needs to walk toward, blocking their lateral movement path. Simultaneously, fight to get one hip off the mat by turning slightly to one side, which partially decompresses your spine and recovers some leg mobility. If you can re-establish even partial hip angle before they begin the lateral walk, you can potentially reguard to clamp by reseating the shin on their bicep, or transition to closed guard by wrapping your legs around their torso while their weight is committed forward.
-
-**Q4**: How should you protect your spine during a deeply committed stack pass attempt that you cannot prevent?
-**A**: If the stack is deep enough that your hips are above your shoulders, immediately turn your body to one side rather than accepting the compression flat on your back. Flat stacking loads the cervical spine axially, which is the most dangerous loading pattern for neck injuries. Turning to one side converts the axial load into a lateral load that your spine handles much more safely through its natural curvature. Additionally, use your arms to create frames that support some of the passer's weight through skeletal structure rather than allowing full compression through your spine. If the compression becomes painful at any point, tap immediately — no guard recovery is worth a cervical injury.
-
-
-
-</section>
 
 
 </main>

@@ -212,7 +212,7 @@ Jailbreak to Turtle serves as a critical escape valve in the half guard bottom s
 
 - [[Transitions/Granby Roll to Guard]] - Related movement - shares inversion mechanics with jailbreak
 
-- [[Principles/Guard Recovery]] - Follow-up option - common chain from turtle after jailbreak escape
+- [[Transitions/Rolling to Guard]] - Follow-up option - common guard recovery chain from turtle after jailbreak escape
 
 
 </section>

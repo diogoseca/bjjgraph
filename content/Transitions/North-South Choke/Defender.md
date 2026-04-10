@@ -164,6 +164,8 @@ The critical defensive principle is preventing the arm from threading under your
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting North-South Choke?</p>
+
 - Attacker begins sliding one arm under your neck from the side while maintaining North-South chest pressure, indicating the threading phase has started
 - Attacker drops their head toward your chest on one side, positioning their ear against you to maximize arm depth under your neck
 - Attacker's non-choking hand moves to control or pin your far arm, clearing the path for chest seal on your face
@@ -176,6 +178,8 @@ The critical defensive principle is preventing the arm from threading under your
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending North-South Choke?</p>
 
 - Prevent the choking arm from threading under your neck by maintaining chin tuck and active frames against attacker's chest
 - Recognize the choke setup early during the arm-threading phase when defense is still possible, not after the squeeze begins
@@ -190,6 +194,8 @@ The critical defensive principle is preventing the arm from threading under your
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against North-South Choke?</p>
 
 ### 1. Frame against attacker's chest with both forearms and bridge to create space before arm threads deep
 
@@ -227,6 +233,8 @@ The critical defensive principle is preventing the arm from threading under your
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending North-South Choke?</p>
+
 ### → [[Positions/North-South]]
 
 Create frames against attacker's chest early in the setup and use explosive bridging to prevent the arm from threading deep. Fight any attempt to isolate your arms while keeping your chin tucked. Force the attacker to abandon the choke and return to standard North-South control where you can continue systematic escape sequences.
@@ -242,6 +250,8 @@ During the attacker's weight shift as they commit to threading the arm, hip esca
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending North-South Choke?</p>
 
 ### 1. Waiting until the choke is fully locked before attempting to defend
 
@@ -271,6 +281,8 @@ During the attacker's weight shift as they commit to threading the arm, hip esca
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against North-South Choke?</p>
+
 **Week 1-2** - Recognition and frame timing
 Partner slowly sets up the North-South Choke while you practice recognizing the threading phase and establishing frames against their chest. No resistance from attacker during defense. Focus on building the habit of immediate frame creation the instant you feel the arm begin to slide under your neck.
 
@@ -287,29 +299,6 @@ Full resistance positional sparring starting in North-South bottom. Partner atta
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that a North-South Choke is being set up and why must you act immediately?
-**A**: The earliest cue is feeling the attacker begin sliding one arm under your neck from the side while their other hand moves to control your far arm. You must act immediately because the window for effective defense is extremely short. Once the arm is threaded deep and the attacker drops their ear to your chest, the choke can be sealed within 2-3 seconds. Defending during the threading phase requires far less energy and has a much higher success rate than defending after the compression begins.
-
-**Q2**: Why is framing against the attacker's chest more effective than trying to pull their choking arm out?
-**A**: The choking arm is anchored by the attacker's body weight pressing through their chest and sprawled hips. Trying to pull it out requires overcoming their entire body weight with just your arm strength, which is mechanically impossible. Framing against their chest creates space by moving your body away from their arm, which is far more achievable. The frame uses skeletal structure to generate space, and even small amounts of space disrupt the bilateral compression needed for the blood choke to work.
-
-**Q3**: Your chin is tucked but you feel the attacker's arm starting to thread under your neck - what is your specific defensive sequence?
-**A**: Immediately establish a forearm frame against the attacker's chest on the choking arm side, then bridge explosively upward and toward that same side. The bridge creates momentary space that prevents the arm from seating deep. As you descend from the bridge, hip escape toward the choking arm side to change your angle. If the arm slips out during this movement, immediately reset your frames. If it remains partially threaded, continue hip escaping to insert a knee and recover half guard before the attacker can re-sprawl and seal the choke.
-
-**Q4**: When the attacker shifts from Kimura to North-South Choke, what defensive adjustment must you make?
-**A**: When defending the Kimura, your elbows are clamped tight to your body with hands connected, which inadvertently exposes your neck. As soon as you sense the attacker abandoning the Kimura grip and moving to thread under your neck, you must immediately release your defensive hand connection and establish frames against their chest. The transition from arm defense to choke defense requires opening your arms, which feels counterintuitive but is necessary because framing against the chest is the only way to prevent the arm from seating under your neck.
-
-**Q5**: You are in North-South bottom and feel the choke is partially set - is it better to turn to turtle or hip escape to guard?
-**A**: If the arm is already partially threaded, hip escape toward the choking arm side is generally safer because turning to turtle can worsen the choke angle if the arm remains in place. The hip escape changes the compression angle and may loosen the arm's position against your carotid. However, if the chest seal is nearly complete and you have enough hip mobility, turning to turtle eliminates the chest-to-face seal entirely and is the faster escape. The decision depends on how deep the arm is and whether the chest seal has been established. If in doubt, bridge and hip escape first.
-
-
-
-</section>
 
 
 </main>

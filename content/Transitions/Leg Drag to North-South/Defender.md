@@ -160,6 +160,8 @@ From a systematic perspective, your defense against this transition integrates w
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Leg Drag to North-South?</p>
+
 - The passer's feet begin walking in an arc toward your head rather than driving laterally toward mount or side control
 - Their grip on your dragged leg loosens or releases entirely while their chest pressure shifts from your shoulder toward your sternum
 - The angle of their shoulder pressure rotates from parallel to your spine toward perpendicular—you feel their chest sliding across your upper body rather than driving into your side
@@ -170,6 +172,8 @@ From a systematic perspective, your defense against this transition integrates w
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Leg Drag to North-South?</p>
 
 - Recognize the transition early by feeling the passer's weight shift from lateral pressure to circular motion toward your head
 - Exploit the moment when the passer releases leg control—your lower body is briefly free for knee insertion or hip escape
@@ -183,6 +187,8 @@ From a systematic perspective, your defense against this transition integrates w
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Leg Drag to North-South?</p>
 
 ### 1. Turn into the passer and fight for inside position with frames on their chest and far shoulder
 
@@ -213,6 +219,8 @@ From a systematic perspective, your defense against this transition integrates w
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Leg Drag to North-South?</p>
+
 ### → [[Positions/Leg Drag Control]]
 
 Turn into the passer the moment you feel their circular motion begin. Drive your near-side shoulder into them and establish frames on their chest. This forces them back to a lateral angle and resets the leg drag exchange where your original defensive frames are effective. The key is turning early before they clear your shoulder line.
@@ -228,6 +236,8 @@ Exploit the moment when the passer releases your dragged leg to begin circling. 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Leg Drag to North-South?</p>
 
 ### 1. Continuing to frame laterally against mount and side control after the passer has changed direction toward north-south
 
@@ -257,6 +267,8 @@ Exploit the moment when the passer releases your dragged leg to begin circling. 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Leg Drag to North-South?</p>
+
 **Week 1-2** - Recognition and reaction
 Partner slowly performs the leg drag to north-south transition at 30% speed. Practice identifying the recognition cues (foot arc, leg release, pressure direction change) and performing the correct defensive response. Reset after each repetition. Build the pattern recognition foundation before adding resistance.
 
@@ -273,29 +285,6 @@ Full resistance positional sparring from leg drag bottom. Top player uses all co
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the passer is transitioning toward north-south rather than continuing to mount or side control?
-**A**: The earliest cue is feeling their feet begin to walk in an arc toward your head combined with a release or loosening of their grip on your dragged leg. Their chest pressure also shifts from driving laterally into your shoulder to sliding across your upper chest toward your sternum. This directional change in pressure is the most reliable tactile indicator.
-
-**Q2**: Why is turning into the passer more effective than turning away when defending this transition?
-**A**: Turning into the passer disrupts their circular path by forcing them to deal with your facing structure rather than circling around a passive body. It also prevents back exposure, which turning away creates. When you face them, you can establish frames against their chest and potentially recover guard, whereas turning away accelerates their path to either north-south or back control with no defensive structure between you.
-
-**Q3**: Your frames are established but the passer has already cleared your shoulder line—what is your best remaining option?
-**A**: At this stage, your best option is to immediately hip escape hard toward their legs while pulling your knees to your chest. You are trying to insert a knee or both knees between your bodies before they settle full north-south pressure. If you can get even one knee inside, you can work to half guard. If they have already settled chest-to-chest, switch to north-south escape techniques—controlled breathing, small hip escapes, and frame creation to eventually insert a knee during their submission attempts.
-
-**Q4**: During positional sparring from leg drag bottom, what specific defensive drill prepares you for the north-south transition?
-**A**: The most effective drill has the top partner alternate randomly between driving toward mount, circling to side control, and transitioning to north-south from leg drag. The bottom player must recognize which direction the pass is going and apply the correct defensive response within one second. This develops the pattern recognition and reflexive response needed to defend all three legs of the trilemma rather than committing prematurely to one defensive posture.
-
-**Q5**: How does your defensive response differ based on whether you are still in leg drag control versus the passer being mid-transition to north-south?
-**A**: In leg drag control before the transition starts, your defense focuses on preventing all three consolidation pathways through lateral frames and hip positioning. Once the north-south transition is in progress, your defense must specifically target the circular motion—either turning into them to block the arc or exploiting the released leg grip to insert a knee. The key difference is that mid-transition defense requires directional awareness and immediate reaction to a specific threat, whereas pre-transition defense is about general positional integrity.
-
-
-
-</section>
 
 
 </main>

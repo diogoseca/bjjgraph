@@ -154,6 +154,8 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Ushiro Ashi-Garami?</p>
+
 - Opponent reaches across to grip or control your far-side posting hand or wrist, indicating sweep setup rather than pure escape
 - Opponent's hips angle toward you rather than away, loading the rotational mechanics needed for the sweep
 - Free leg repositions to establish a posting point on the mat behind or beside your hip, providing the drive platform for the sweep
@@ -166,6 +168,8 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Ushiro Ashi-Garami?</p>
 
 - Maintain base awareness during heel hook finishing attempts by keeping at least one posting hand available at all times
 - Recognize sweep initiation cues early through tactile feedback from the entangled legs and visual monitoring of opponent's hand positioning
@@ -180,6 +184,8 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Ushiro Ashi-Garami?</p>
 
 ### 1. Maintain far-side posting hand free and ready to post on the mat
 
@@ -217,6 +223,8 @@ Defending the Sweep from Ushiro Ashi-Garami requires maintaining base integrity 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Ushiro Ashi-Garami?</p>
+
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Maintain far-side posting hand availability throughout all finishing attempts. When the sweep is initiated, immediately post the free hand on the mat and distribute weight away from the tipping point. The opponent's sweep attempt fails and they remain trapped in ushiro ashi-garami bottom.
@@ -232,6 +240,8 @@ When the sweep attempt is detected early through recognition cues, redirect your
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Ushiro Ashi-Garami?</p>
 
 ### 1. Committing both hands to heel hook finishing grips without maintaining a free posting hand
 
@@ -261,10 +271,12 @@ When the sweep attempt is detected early through recognition cues, redirect your
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Ushiro Ashi-Garami?</p>
+
 **Phase 1: Recognition Training** - Identifying sweep setup cues versus standard escape indicators
 Partner alternates between sweep setup sequences and standard escape attempts from ushiro ashi-garami bottom. Practice identifying which movement pattern is being initiated based on hand positioning, hip angle, and free leg placement. Call out the identification verbally before the technique develops to build early recognition speed.
 
-**Phase 2: Base Maintenance Under Pressure** - Maintaining posting hand availability during finishing attempts
+**Phase 2: Base Under Pressure** - Maintaining posting hand availability during finishing attempts
 Practice heel hook finishing attempts while partner actively targets the posting hand for control. Develop the habit of maintaining at least one free posting hand during all finishing sequences. Work on one-hand supplemented finishing mechanics that preserve base stability without sacrificing finishing effectiveness.
 
 **Phase 3: Saddle Transition Counter** - Converting sweep attempts into saddle transitions
@@ -277,26 +289,6 @@ Positional rounds starting in ushiro ashi-garami top against partners who active
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is setting up a sweep rather than a standard escape from ushiro ashi-garami bottom?
-**A**: The earliest cue is the opponent reaching to control your far-side posting hand. Standard escapes focus on leg clearing and turtle rotation, where the hands work to control your inside knee. When the opponent's hand targets your posting arm instead, they are establishing the primary sweep prerequisite. This distinction appears 1-2 seconds before the actual sweep initiation, providing a critical early warning window for defensive response.
-
-**Q2**: Why is transitioning to saddle an effective counter to the sweep attempt, and what mechanical principle makes this work?
-**A**: Transitioning to saddle works because the opponent's sweep rotation actually assists your outside leg step-through. The rotational movement they generate to sweep you creates space for your leg to clear into the saddle configuration. Additionally, their commitment to sweeping means their hands are occupied with your posting arm rather than blocking your leg transition. The saddle converts their offensive movement into a positional upgrade for you, making their sweep attempt counterproductive.
-
-**Q3**: How should you adjust your weight distribution during heel hook finishing attempts to prevent sweep vulnerability without reducing finishing effectiveness?
-**A**: Distribute weight primarily through the figure-four entanglement and your posted leg rather than driving shoulders forward past your hip line. This keeps your center of gravity behind the tipping point while still allowing downward finishing pressure through the entangled legs. Use your inside leg control on their thigh to generate heel hook finishing leverage rather than forward body weight, maintaining base stability and finishing pressure simultaneously.
-
-**Q4**: Your opponent has controlled your posting hand and you feel their hips beginning to drive into you—what is the optimal response at this late stage?
-**A**: At this late stage, the sweep is likely to succeed if you try to simply resist. Your best option is to immediately step your outside leg through to transition to saddle before the sweep gains full momentum. If the saddle transition is not available, use your trapped posting hand to frame on the mat by bending the elbow and posting on the forearm instead of the full hand—this partial post may be sufficient to stall the sweep and create time for full hand recovery.
-
-
-
-</section>
 
 
 </main>

@@ -218,7 +218,7 @@ The Back Take from Kesa Gatame occupies a critical role in the bottom player's e
 
 - [[Transitions/Back Take]] - Generic back take transition sharing similar mechanical principles
 
-- [[Transitions/Rear Naked Choke]] - Primary follow-up submission after achieving back control from this transition
+- [[Submissions/Rear Naked Choke]] - Primary follow-up submission after achieving back control from this transition
 
 
 </section>

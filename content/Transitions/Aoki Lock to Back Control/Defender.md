@@ -158,13 +158,15 @@ The critical defensive window exists during the transition itself, between your 
 
 Defensive success depends on recognizing the transition early through tactile cues such as feeling the shoulder pressure release and the chest driving forward onto your back. Trained defenders learn to differentiate between their opponent adjusting Aoki Lock pressure and actually abandoning the submission for the back take. This recognition allows you to switch from shoulder lock escape protocol to back take defense protocol before your opponent has established any control points behind you.
 
-**Opponent's Starting Position**: [[Positions/Aoki Lock]] (Top)
+**Opponent's Starting Position**: [[Positions/Aoki Lock Control]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Aoki Lock to Back Control?</p>
 
 - Sudden release or significant reduction of shoulder lock pressure while opponent maintains body contact, indicating they are abandoning the submission for a positional transition
 - Opponent's chest drives forward into your back with increased weight and forward pressure, replacing the rotational shoulder pressure with linear back-take pressure
@@ -177,6 +179,8 @@ Defensive success depends on recognizing the transition early through tactile cu
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Aoki Lock to Back Control?</p>
 
 - Recognize the transition initiation by feeling the release of shoulder lock pressure combined with chest driving forward onto your back
 - Control the direction of your escape to avoid giving your opponent a clean path to your back during the roll
@@ -192,10 +196,12 @@ Defensive success depends on recognizing the transition early through tactile cu
 
 ## Defensive Options
 
+<p class="section-subtitle">What can you do to defend against Aoki Lock to Back Control?</p>
+
 ### 1. Turn into opponent and recover guard during the grip release window
 
 - **When to use**: Immediately when you feel shoulder lock pressure release and before opponent establishes seatbelt, during the brief transition gap when their hands are between grips
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: You face your opponent and recover to closed guard or half guard, completely negating the back take and resetting to a neutral guard position
 - **Risk**: If you turn too late after seatbelt is established, opponent follows your rotation and maintains back control. Turning into a partially set seatbelt can expose your neck to choke attacks
 
@@ -209,7 +215,7 @@ Defensive success depends on recognizing the transition early through tactile cu
 ### 3. Sprawl and flatten to prevent the roll-through from completing
 
 - **When to use**: When you feel the opponent beginning to follow your roll but you have not yet committed fully to the rolling escape, allowing you to reverse direction and flatten belly-down
-- **Targets**: [[Positions/Aoki Lock]]
+- **Targets**: [[Positions/Aoki Lock Control]]
 - **If successful**: You stall the transition and force opponent back to the Aoki Lock position or create a neutral scramble where neither player has dominant control
 - **Risk**: Flattening belly-down with opponent on top can lead to back mount if they maintain chest-to-back connection, and may re-expose you to the shoulder lock if they re-engage their original grip
 
@@ -228,7 +234,9 @@ Defensive success depends on recognizing the transition early through tactile cu
 
 ## Best-Case Outcomes for Defender
 
-### → [[Positions/Aoki Lock]]
+<p class="section-subtitle">What is the best outcome when defending Aoki Lock to Back Control?</p>
+
+### → [[Positions/Aoki Lock Control]]
 
 Turn into your opponent during the transition window when they release the shoulder lock grip. Time the turn to coincide with the grip release and drive your hips toward them to recover guard. Alternatively, sprawl and flatten to stall the roll-through, forcing them back to the original position where you can restart your shoulder lock defense.
 
@@ -243,6 +251,8 @@ Immediately turtle tight with elbows glued to knees and chin tucked when you fee
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Aoki Lock to Back Control?</p>
 
 ### 1. Rolling forward explosively without awareness that opponent is following the roll for a back take
 
@@ -277,6 +287,8 @@ Immediately turtle tight with elbows glued to knees and chin tucked when you fee
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Aoki Lock to Back Control?</p>
+
 **Week 1-2** - Recognition and turtle defense
 Partner performs the Aoki Lock to back take transition at slow speed. Focus on recognizing the tactile cues of the transition: shoulder pressure release, chest driving forward, leg repositioning. Practice turtling tight immediately upon recognition. Build defensive posture muscle memory with 15-20 repetitions per side.
 
@@ -293,29 +305,6 @@ Start from Aoki Lock bottom with partner at full resistance. Defend the shoulder
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is transitioning from Aoki Lock to a back take?
-**A**: The earliest cue is a sudden release or significant reduction of shoulder lock pressure while your opponent maintains or increases body contact. When the rotational shoulder pressure disappears but their chest drives forward into your back, they have abandoned the submission and are initiating the back take. This tactile shift from rotational to linear pressure is the primary early warning signal.
-
-**Q2**: Why is the transition window between grip release and seatbelt establishment your best defensive opportunity?
-**A**: During this brief window, your opponent has abandoned their strongest control mechanism, the leg-entangled shoulder lock, and has not yet established their next control mechanism, the seatbelt grip with hooks. Their hands are transitioning between grips and their legs are repositioning from shoulder control to hook position. This is the moment of minimum control where defensive actions like turning in, creating distance, or establishing frames have the highest probability of success.
-
-**Q3**: Your opponent has established seatbelt but no hooks yet - what is your defensive priority sequence?
-**A**: First, protect your neck by tucking your chin and controlling the over-shoulder arm with two-on-one grip fighting. Second, turtle tight with elbows to knees to deny hook insertion space. Third, begin actively stripping the seatbelt grip using your hands while maintaining the tight turtle shell. Fourth, once seatbelt loosens, immediately execute an escape such as granby roll, sit-through, or technical standup before they can re-establish control. Never skip the neck protection step to fight hooks.
-
-**Q4**: When should you choose to turtle tight versus turning into your opponent during this transition?
-**A**: Turn into your opponent when you detect the transition early, specifically when you feel the shoulder pressure release and their hands have not yet reached seatbelt position. This requires fast recognition and immediate commitment. Turtle tight when the transition is already advanced and your opponent has chest-to-back contact or partial seatbelt, because turning at this stage would expose your neck. The decision hinges on timing: early detection enables turning, late detection requires turtling.
-
-**Q5**: How do you prevent your rolling escape from Aoki Lock from becoming a free back take for your opponent?
-**A**: Before committing to a forward roll, test whether your opponent is maintaining body contact by doing a small directional feint. If they are glued to your back and matching your movement, the forward roll will deliver you directly into their back control. Instead, change escape direction by turning toward them, sprawling flat, or executing a sit-through to a different angle. Only commit to the full roll when you feel genuine separation between your back and their chest.
-
-
-
-</section>
 
 
 </main>

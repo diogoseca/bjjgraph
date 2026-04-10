@@ -166,6 +166,8 @@ Defensive success against the escape requires understanding the sequential natur
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ushiro Ashi-Garami Escape?</p>
+
 - Opponent begins using both hands to grip and push your inside knee away from their centerline, indicating the start of the clearing sequence
 - Opponent places their free foot on your hip or inner thigh to establish a pushing frame, signaling imminent outside leg clearing attempt
 - Opponent rotates their trapped knee inward toward their own body while simultaneously pushing your hips away, indicating active outside leg clearing mechanics
@@ -177,6 +179,8 @@ Defensive success against the escape requires understanding the sequential natur
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ushiro Ashi-Garami Escape?</p>
 
 - Maintain constant pressure through the outside leg cross to prevent the initial clearing phase from succeeding
 - Monitor the opponent's foot dorsiflexion and attack the heel hook immediately when it relaxes even momentarily
@@ -191,6 +195,8 @@ Defensive success against the escape requires understanding the sequential natur
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ushiro Ashi-Garami Escape?</p>
 
 ### 1. Tighten outside leg cross and attack heel hook when opponent's dorsiflexion relaxes during clearing attempt
 
@@ -228,6 +234,8 @@ Defensive success against the escape requires understanding the sequential natur
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ushiro Ashi-Garami Escape?</p>
+
 ### → [[Positions/Ashi Garami/Ushiro Ashi-Garami]]
 
 Deny the sequential clearing by maintaining tight outside leg cross pressure, driving hips forward to collapse pushing frames, and attacking the heel whenever dorsiflexion relaxes. Force the opponent to repeatedly restart their escape sequence without making progress through any of the six extraction steps.
@@ -243,6 +251,8 @@ Allow the outside leg to clear while maintaining deep inside leg thigh control, 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ushiro Ashi-Garami Escape?</p>
 
 ### 1. Focusing exclusively on holding the outside leg cross without attacking submissions or preparing transitions
 
@@ -272,6 +282,8 @@ Allow the outside leg to clear while maintaining deep inside leg thigh control, 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ushiro Ashi-Garami Escape?</p>
+
 **Week 1-2** - Retention mechanics and submission timing
 Practice maintaining ushiro ashi-garami control against a partner performing the six-step escape sequence at low intensity. Focus on keeping the outside leg cross tight, monitoring dorsiflexion lapses for heel hook timing, and maintaining inside leg thigh control. Build awareness of which escape phase creates the best submission windows.
 
@@ -288,29 +300,6 @@ Full resistance positional sparring starting from ushiro ashi-garami top. Track 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most reliable indicator that your opponent is about to begin the outside leg clearing phase of their escape?
-**A**: The most reliable indicator is when the opponent places their free foot on your hip or inner thigh to establish a pushing frame while simultaneously gripping your inside knee with both hands. This combination signals they are about to initiate the distance creation and hip rotation needed to peel your outside leg off their trapped knee. Attack their heel or drive your hips forward immediately when you detect this setup.
-
-**Q2**: Your outside leg cross has been cleared but your inside leg still controls their thigh deeply—what is the highest-percentage response?
-**A**: Immediately transition to saddle by stepping your inside leg through to the far side of their trapped thigh. This is the optimal response because the inside leg already has the deep control needed for saddle entry, and the cleared outside leg creates the space for the step-through. Saddle is a positional upgrade from ushiro with higher submission finishing rates. Attempting to re-establish the outside leg cross is lower percentage than completing the saddle transition.
-
-**Q3**: How do you exploit the moment when your opponent shifts both hands from heel protection to inside knee control?
-**A**: When both hands leave heel defense to grip your inside knee, their dorsiflexion often weakens as their attention splits between multiple tasks. This creates a window to accelerate your heel hook attack with both hands while their foot protection is compromised. Secure a deep grip on the heel and begin the rotational finish before they can redirect a hand back to defense. The opponent cannot effectively fight your inside knee and protect their heel simultaneously.
-
-**Q4**: Your opponent commits to a Granby roll during the escape—should you maintain the entanglement or follow to back control?
-**A**: Follow to back control rather than fighting the roll. A committed Granby roll generates rotational momentum that progressively degrades the figure-four entanglement regardless of how tightly you hold. Following the rotation maintains chest-to-back contact and allows you to transition into a back take pursuit where you can establish hooks and harness control. Stubbornly holding the leg entanglement against rolling momentum typically results in losing both the entanglement and positional access.
-
-**Q5**: What hip pressure adjustment prevents the opponent's pushing frame from generating effective extraction distance?
-**A**: Drive your hips forward and downward toward the opponent's trapped leg rather than allowing their foot-on-hip push to create separation. This forward pressure collapses the space between your lower body and theirs, reducing the effectiveness of their pushing frame by shortening its lever arm. Simultaneously, angle your hips slightly toward their trapped leg side to load weight through the entanglement. The key is proactive pressure rather than reactive holding.
-
-
-
-</section>
 
 
 </main>

@@ -162,6 +162,8 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Tai Otoshi?</p>
+
 - Opponent establishes strong sleeve-and-lapel or collar-tie-and-wrist control with both hands pulling toward their centerline, creating sustained forward pressure through grips
 - Opponent begins rotating their hips and turning their back toward you while maintaining grip tension, with their lead foot stepping across your centerline
 - You feel your weight being pulled forward onto your toes with increasing intensity, and your upright posture is compromised as opponent's pulling action accelerates
@@ -173,6 +175,8 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Tai Otoshi?</p>
 
 - Maintain upright posture with hips back and weight centered over your feet to deny forward off-balancing
 - Actively fight grips to prevent the two-point control configuration required for the throw
@@ -186,6 +190,8 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Tai Otoshi?</p>
 
 ### 1. Drop hips back and widen base immediately upon feeling forward pull, driving your weight down and backward to deny the kuzushi
 
@@ -223,6 +229,8 @@ Defending Tai Otoshi requires understanding the throw's mechanical dependencies 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Tai Otoshi?</p>
+
 ### → [[Positions/Standing Position]]
 
 Deny the kuzushi by dropping your hips, widening your base, and actively breaking grips before the throw entry develops. The most reliable defense is preventing the throw from starting rather than dealing with it mid-execution. Keep your elbows tight, posture upright, and immediately strip any sleeve or collar grip that provides the opponent with two-point pulling control.
@@ -238,6 +246,8 @@ When caught in a committed entry, step over the blocking leg and drive your hips
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Tai Otoshi?</p>
 
 ### 1. Pulling straight backward against the forward kuzushi instead of circling or sprawling
 
@@ -267,6 +277,8 @@ When caught in a committed entry, step over the blocking leg and drive your hips
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Tai Otoshi?</p>
+
 **Week 1-2: Recognition and Posture** - Identifying throw setups and maintaining defensive posture
 Partner telegraphs Tai Otoshi entries at slow speed while you practice recognizing the grip configuration, forward pull, and rotational entry. Focus on maintaining upright posture with hips back and immediately reacting to the forward kuzushi by dropping your base. No resistance from partner - purely recognition and posture maintenance drilling.
 
@@ -283,29 +295,6 @@ Standing sparring rounds where partner is specifically working Tai Otoshi as the
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest point at which you can recognize a Tai Otoshi attempt, and what should your immediate response be?
-**A**: The earliest recognition point is during the kuzushi phase when you feel sustained forward pulling pressure through both grip points simultaneously pulling toward the opponent's centerline. This two-handed coordinated pull is the setup for all forward throws including Tai Otoshi. Your immediate response should be to drop your hips slightly, widen your base by stepping your rear foot back, and begin stripping the more dangerous pulling grip (usually the sleeve/wrist control) using a sharp two-on-one break. Responding at this phase prevents the throw from developing past the initial setup.
-
-**Q2**: Why is circling toward the thrower's back more effective than pulling straight backward when defending Tai Otoshi?
-**A**: Circling toward the thrower's back denies the throw's rotational mechanics because Tai Otoshi requires the opponent to be positioned in front of and slightly to the side of the blocking leg. By circling toward their back (the direction they are rotating), you move out of the throw's effective arc and may end up behind them in an advantageous position. Pulling straight backward creates a linear resistance that skilled throwers exploit by chaining to backward-direction throws like Osoto Gari or Kouchi Gari that use your retreat momentum. The lateral movement eliminates both the forward and backward attack vectors simultaneously.
-
-**Q3**: Your opponent has already placed their blocking leg across your shins - what are your remaining defensive options at this late stage?
-**A**: At this late stage, your best option is to hop or step over the blocking leg by lifting your lead foot high and clearing the obstacle before the rotational pull completes. Drive your hips forward into the opponent's back as you step over, which converts the situation into a clinch behind them. If stepping over is not possible, you can attempt to sit through to guard by dropping your hips below the blocking leg and pulling guard, accepting bottom position but preventing a hard throw landing. The worst option is to resist the pull while standing, as this typically results in a clean throw to side control.
-
-**Q4**: How does your defensive approach change when facing a no-gi Tai Otoshi versus a gi version?
-**A**: In no-gi, the thrower's grip connection is less secure and more dependent on body proximity, which gives the defender more opportunities to break free through explosive movement and sweaty skin slippage. However, the throw entry happens faster because the thrower must commit more explosively to compensate for the weaker grips. Your defense should focus on maintaining distance using stiff-arm frames against their shoulders and biceps, since without gi grips the thrower needs to be closer to generate adequate pull. Breaking a collar tie is easier than breaking a deep collar grip, so aggressive hand fighting to strip neck control is more viable and should be prioritized immediately.
-
-**Q5**: What stance adjustments should you make when you suspect your opponent favors Tai Otoshi in their standing game?
-**A**: Adopt a slightly more square stance with your hips further back than normal and your weight distributed toward your heels rather than the balls of your feet. This posture makes forward kuzushi significantly harder to achieve. Keep your elbows tighter to your body to make grip establishment on your sleeves more difficult, and actively hand fight to prevent the two-grip configuration the thrower needs. Maintain a slightly wider base than normal and lower your center of gravity by increasing knee bend. Circle consistently to deny them a stable entry angle, and prioritize breaking any collar or lapel grip immediately before they can pair it with a sleeve grip.
-
-
-
-</section>
 
 
 </main>

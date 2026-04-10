@@ -26,32 +26,32 @@ description: "Master Spider Guard Bottom in BJJ. Complete guide covering sleeve 
     },
     {
       "@type": "HowToStep",
+      "name": "Execute Spider Guard to Omoplata",
+      "text": "From this position, attempt Spider Guard to Omoplata. This technique is attempted in 11% of exchanges from this position.",
+      "position": 2
+    },
+    {
+      "@type": "HowToStep",
       "name": "Execute Omoplata Sweep",
       "text": "From this position, attempt Omoplata Sweep. This technique is attempted in 9% of exchanges from this position.",
-      "position": 2
+      "position": 3
     },
     {
       "@type": "HowToStep",
       "name": "Execute Balloon Sweep",
       "text": "From this position, attempt Balloon Sweep. This technique is attempted in 9% of exchanges from this position.",
-      "position": 3
+      "position": 4
     },
     {
       "@type": "HowToStep",
       "name": "Execute Scissor Sweep",
       "text": "From this position, attempt Scissor Sweep. This technique is attempted in 8% of exchanges from this position.",
-      "position": 4
+      "position": 5
     },
     {
       "@type": "HowToStep",
       "name": "Execute De La Riva Sweep",
       "text": "From this position, attempt De La Riva Sweep. This technique is attempted in 8% of exchanges from this position.",
-      "position": 5
-    },
-    {
-      "@type": "HowToStep",
-      "name": "Execute Spider Guard to Omoplata",
-      "text": "From this position, attempt Spider Guard to Omoplata. This technique is attempted in 9% of exchanges from this position.",
       "position": 6
     }
   ],
@@ -165,6 +165,8 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ## Position Definition
 
+<p class="section-subtitle">What is Spider Guard (Bottom)?</p>
+
 - Bottom practitioner is on their back with at least one foot actively placed against opponent's bicep, arm, or hip creating extension and distance control through the leg
 - Strong grip control on opponent's sleeves (double sleeve grip) or collar and sleeve combination, with grips maintained at or above opponent's elbows for maximum control leverage
 - Top practitioner is in standing or combat base position, facing the bottom player with their posture disrupted by foot pressure and grip control preventing forward advancement
@@ -176,6 +178,8 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Spider Guard (Bottom)?</p>
 
 - Opponent in standing or combat base position within guard range
 - Successful establishment of sleeve grip controls on opponent's arms
@@ -189,6 +193,8 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Spider Guard?</p>
 
 - Maintain constant tension through extended legs pressing against opponent's arms to prevent forward pressure and passing attempts
 - Keep grips tight on sleeves or collar to control opponent's posture and prevent grip breaks
@@ -204,6 +210,8 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Spider Guard (Bottom)?</p>
 
 **If opponent stands upright with extended posture trying to break grips:**
 - Execute **[[Transitions/Triangle Setup/Attacker|Triangle Setup]]** → [[Positions/Triangle Control]] (Probability: 55%)
@@ -232,6 +240,8 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Spider Guard?</p>
 
 ### 1. Allowing legs to bend and lose extension pressure on opponent's arms
 
@@ -271,6 +281,8 @@ Spider Guard Bottom is a fundamental gi-based open guard position where the bott
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Spider Guard defense?</p>
+
 ### Spider Guard Retention Drill
 
 Partner attempts to pass spider guard using various methods while you maintain position, focusing on hip movement, grip retention, and foot placement. Start with 50% resistance and gradually increase intensity. Goal is to maintain spider guard for 2-minute rounds.
@@ -285,7 +297,7 @@ Flow through spider guard sweep sequences - balloon sweep to triangle to omoplat
 **Duration**: 5 minutes
 
 
-### Grip Fighting from Spider Guard
+### Grips from Spider Guard
 
 Partner attempts to break your grips while you maintain sleeve control and re-establish grips when broken. Focus on grip strength, grip replacement strategies, and maintaining foot pressure even during grip transitions. 3-minute rounds with 30-second rest.
 
@@ -303,38 +315,6 @@ Start with compromised spider guard position (weak grips or poor foot placement)
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the optimal grip position on the sleeves for maximum Spider Guard control?
-**A**: Grips should be established at or above the opponent's elbows using deep four-finger sleeve grips. This position maximizes the lever arm length, providing stronger control over the opponent's arm movement and posture. Gripping too low on the wrists or forearms creates weak control that opponents can easily strip, while gripping near the elbows gives you mechanical advantage for pulling, pushing, and redirecting their movement.
-
-**Q2**: Your opponent is driving forward with low posture trying to pressure pass - how should you respond?
-**A**: Against forward pressure with low posture, transition one leg to lasso by threading it under their arm and over their shoulder. This converts their forward pressure into a sweep setup. Alternatively, if they commit significant weight forward, use their momentum for a balloon sweep by extending both legs and elevating them overhead, or execute a scissor sweep by collapsing one bicep hook while extending the other leg. Never try to hold them out with straight arm strength against forward pressure.
-
-**Q3**: Why must your hips remain elevated and mobile in Spider Guard rather than flat on the mat?
-**A**: Elevated, mobile hips are essential for three reasons: First, they enable quick angle creation for sweep setups and guard transitions. Second, they provide the ability to adjust foot placement instantly as the opponent moves. Third, they prevent stack passes because stacking requires your hips to be flat and compressed. Mobile hips also allow you to follow the opponent's lateral movement during passing attempts and maintain the perpendicular angle needed for effective sweeps.
-
-**Q4**: Your opponent successfully breaks one of your sleeve grips - what should you do immediately?
-**A**: Immediately recognize whether you can regain the grip or must transition to another position. If regaining is possible, use the foot pressure on that side to prevent them from withdrawing their arm while fighting for the grip. If they've withdrawn the arm completely, immediately transition to a guard that works with single-sleeve control such as collar-sleeve, lasso, or de la riva. Never remain in a compromised Spider Guard hoping to recover.
-
-**Q5**: How do you manage grip endurance during a long Spider Guard exchange?
-**A**: Use leg strength and foot pressure as your primary control mechanism rather than relying heavily on grip strength. Position grips efficiently at the elbow level where less strength is required for control. Create attacking opportunities that force the opponent to react rather than just maintaining static control. If grips are fatiguing, transition to lasso or de la riva where leg position provides more control than grips alone.
-
-**Q6**: When the opponent stands tall and tries to posture up to break your grips, what attacking opportunity does this create?
-**A**: Standing tall with extended arms creates ideal conditions for triangle and omoplata entries. When they posture up, their arms become isolated and easier to manipulate. Pull one arm across your centerline using foot and grip pressure while the other arm is pushed away. This arm isolation combined with their extended posture creates the opening to throw your leg over their shoulder for triangle setup or pivot your hips for omoplata entry.
-
-**Q7**: Your opponent begins circling to their left to pass your guard - how should you adjust your Spider Guard structure?
-**A**: As they circle left, you must follow with your hips, maintaining perpendicular orientation to their body. Increase pressure with your right foot on their left bicep while your left foot can transition to de la riva hook on their left leg. Maintain your right sleeve grip strongly while the left grip can transition to collar or belt. The key is never letting them gain an angle without your hips following to maintain the guard structure.
-
-**Q8**: When should you abandon Spider Guard and transition to closed guard as a defensive recovery?
-**A**: Transition to closed guard when you've lost significant grip control and the opponent has established dominant grips on your pants or legs, when they've successfully flattened your hips making angle creation impossible, or when they've broken both sleeve grips and are advancing rapidly. Closed guard provides a defensive reset where you can recover your grips and energy before re-establishing Spider Guard. Don't wait until you're being passed to transition - recognize the compromised position early.
-
-
-
-</section>
 
 
 <section id="position-metrics" class="content-section">

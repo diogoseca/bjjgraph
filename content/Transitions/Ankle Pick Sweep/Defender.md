@@ -164,6 +164,8 @@ The most critical defensive window is the moment between your opponent establish
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Ankle Pick Sweep?</p>
+
 - Opponent establishes a strong collar, wrist, or sleeve grip on your lead arm and begins pulling you forward or laterally to test your balance
 - Opponent shifts their hips at an angle toward your lead leg while maintaining their upper body grip, creating the attack angle for the ankle pick
 - Opponent's free hand drops below their waist and reaches toward your ankle or heel area rather than fighting for upper body grips
@@ -176,6 +178,8 @@ The most critical defensive window is the moment between your opponent establish
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Ankle Pick Sweep?</p>
 
 - Deny the upper body grip first - without collar, wrist, or sleeve control, the ankle pick has no pulling mechanism to generate rotational force
 - Maintain a wide, staggered stance with knees bent so your ankles are difficult to reach and your base resists off-balancing in any direction
@@ -190,6 +194,8 @@ The most critical defensive window is the moment between your opponent establish
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Ankle Pick Sweep?</p>
 
 ### 1. Strip the upper body grip and circle away to reset distance
 
@@ -227,6 +233,8 @@ The most critical defensive window is the moment between your opponent establish
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Ankle Pick Sweep?</p>
+
 ### → [[Positions/Seated Guard]]
 
 Strip the upper body grip early by two-on-one breaking the collar or wrist control, then immediately circle away to reset distance. Alternatively, sprawl aggressively when the ankle is grabbed, pulling your heel free while driving hips low to the mat, then recover standing posture with active footwork before opponent can re-engage.
@@ -242,6 +250,8 @@ When the sweep is partially successful and you are falling, immediately hook one
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Ankle Pick Sweep?</p>
 
 ### 1. Standing with a narrow, square stance that leaves both ankles easily accessible
 
@@ -276,6 +286,8 @@ When the sweep is partially successful and you are falling, immediately hook one
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Ankle Pick Sweep?</p>
+
 **Week 1-2: Recognition and grip stripping** - Identifying ankle pick setups and breaking initial grips
 Partner sits in seated guard and slowly works through the ankle pick setup sequence. Practice recognizing each stage: upper body grip establishment, hip angle change, and ankle reach. Focus on stripping the upper body grip using two-on-one breaks and circular wrist motion. Partner provides no resistance to grip breaks initially. Complete 15-20 repetitions focusing on timing of recognition and speed of grip strip.
 
@@ -292,29 +304,6 @@ Full positional sparring where you attempt to pass seated guard while partner us
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the first grip you should prioritize stripping when defending against an ankle pick sweep setup?
-**A**: Strip the upper body grip (collar, wrist, or sleeve control) first, as it provides the pulling force that creates the rotational off-balancing necessary for the sweep to work. Without this grip, the opponent can grab your ankle all they want but cannot generate the diagonal pulling force needed to topple you. The upper body grip is the engine of the sweep - remove it and the technique stalls completely.
-
-**Q2**: Why does a narrow, square stance make you especially vulnerable to the ankle pick sweep?
-**A**: A narrow stance places both ankles within easy reaching distance of the seated player and provides minimal lateral stability against the diagonal pulling force. When your feet are close together, even a small off-balancing pull creates a large angular displacement, making it easy for the opponent to remove your base. A wide, staggered stance forces the opponent to reach further for the ankle, gives you greater base width to resist rotational forces, and allows you to quickly shift weight to your back leg when the lead ankle is attacked.
-
-**Q3**: Your opponent has already grabbed your ankle and is beginning the sweep - what is your best immediate response?
-**A**: Your best immediate response depends on the sweep's progression. If the pull hasn't committed your weight yet, sprawl backward sharply to extract your ankle while driving your hips low. If you're already being pulled off balance, post your free hand to the mat with a bent elbow and immediately circle your feet toward the sweep direction to recover base. As a last resort, if the sweep is succeeding, hook one of their legs between yours as you fall to retain half guard rather than conceding full top position. The worst response is to freeze or try to stand still and resist the rotational force purely through leg strength.
-
-**Q4**: How does forward-leaning posture increase your vulnerability to the ankle pick sweep?
-**A**: Leaning forward shifts your center of gravity over your lead foot, loading most of your weight onto the very ankle the opponent is targeting. This concentrated weight makes the lead leg extremely difficult to retract when grabbed and provides the opponent with a heavy, committed target that amplifies their sweeping force. Additionally, forward lean reduces your ability to sprawl backward since your weight must first shift rearward before you can move your hips back. Keeping weight centered or slightly posterior allows rapid backward adjustment when the ankle is threatened.
-
-**Q5**: What movement pattern should you adopt to make the ankle pick sweep harder to execute against you?
-**A**: Constant footwork with small lateral movements, stance switches, and level changes makes you a moving target that is extremely difficult to time attacks against. Specifically, avoid standing in one spot for more than 2-3 seconds. Use small circling steps that change the angle between you and the seated player, making their hip adjustments constantly outdated. Combine this with active grip fighting to prevent them from establishing the upper body control needed to initiate the sweep, and you create a compounding defensive challenge where they must solve multiple problems simultaneously.
-
-
-
-</section>
 
 
 </main>

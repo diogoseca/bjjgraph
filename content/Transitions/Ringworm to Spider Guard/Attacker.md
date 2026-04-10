@@ -188,6 +188,8 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Ringworm to Spider Guard?</p>
+
 - Never release the lapel grip until at least one sleeve grip is secured, maintaining continuous control throughout the transition
 - Use the existing lapel tension to control distance during the grip exchange, preventing the opponent from collapsing the space
 - Coordinate hand and foot movement as a unified system rather than sequential independent actions
@@ -202,6 +204,8 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Ringworm to Spider Guard?</p>
+
 - Secure Ringworm Guard position with functional lapel wrap restricting opponent's leg
 - Identify at least one accessible sleeve on the opponent for initial grip acquisition
 - Ensure sufficient distance between you and the opponent to allow foot repositioning to biceps
@@ -214,6 +218,8 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Ringworm to Spider Guard step by step?</p>
 
 1. **Assess transition timing**: Evaluate your Ringworm Guard integrity and the opponent's grip fighting progress. The optimal timing window is when the opponent has committed their hands to lapel extraction or when they briefly abandon sleeve defense to address the wrap. Read their hand positioning and body weight distribution to determine readiness.
 2. **Secure first sleeve grip**: While maintaining the lapel wrap with your primary hand, use your free hand to capture a deep four-finger grip on the opponent's near-side sleeve at or above the elbow. Aim for the thickest part of the sleeve material near the elbow crease for maximum purchase. This grip becomes your first anchor point in Spider Guard.
@@ -243,6 +249,8 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Ringworm to Spider Guard?</p>
+
 - **Opponent strips the attempted sleeve grip during the transition by pulling their arm back sharply** (Effectiveness: High) - Your Response: Immediately retighten the lapel wrap with your free hand and reset the Ringworm Guard configuration rather than chasing the sleeve with an exposed position. Wait for the next opening to reattempt. → Leads to [[Positions/Ringworm Guard]]
 - **Opponent drives forward aggressively during the lapel release moment to collapse distance and smash past the guard** (Effectiveness: Medium) - Your Response: Use the already-established spider hook to push them back while framing with your free hand. Convert the forward pressure into a sweep attempt or use butterfly hook recovery to maintain guard. → Leads to [[Positions/Open Guard]]
 - **Opponent withdraws both arms simultaneously and postures tall to deny sleeve access entirely** (Effectiveness: Medium) - Your Response: Place feet on their hips for distance control and transition to a feet-on-hips guard configuration. Use a sit-up motion to chase their arms and re-establish contact. Do not release the lapel until you have reconnected with their upper body. → Leads to [[Positions/Open Guard]]
@@ -254,6 +262,8 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Ringworm to Spider Guard?</p>
 
 ### 1. Releasing the lapel grip before securing any sleeve control
 
@@ -293,6 +303,8 @@ Executing the Ringworm to Spider Guard transition requires precise timing and gr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Ringworm to Spider Guard (Attacker)?</p>
+
 **Phase 1: Grip Sequencing** - Isolated grip exchange mechanics
 Practice the hand coordination of releasing the lapel and capturing sleeves in isolation with a cooperative partner. Focus on the speed and precision of the grip switch without worrying about foot placement. Repeat 20 times per side until the grip exchange becomes automatic.
 
@@ -313,42 +325,12 @@ After successfully transitioning to Spider Guard, immediately flow into sweep or
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most critical timing window for initiating the Ringworm to Spider Guard transition?
-**A**: The optimal timing window is when the opponent commits their hands to extracting the lapel wrap, momentarily abandoning sleeve defense. At this point, their hands are occupied with the lapel rather than protecting their sleeves, creating a natural opening for sleeve acquisition. Initiating too early wastes a functional Ringworm Guard, while too late means the lapel is already broken with nothing secured to replace it.
-
-**Q2**: Why must you secure at least one sleeve grip before releasing the lapel wrap?
-**A**: Releasing the lapel before establishing sleeve control creates a complete control vacuum where neither the Ringworm nor Spider Guard system is active. This gap allows the opponent to advance freely into a passing position with no resistance. The brief period of dual control, holding lapel and sleeve simultaneously, is the bridge that enables a safe transition between guard systems.
-
-**Q3**: Your opponent begins pulling their arm back as you reach for the sleeve - how do you adjust?
-**A**: Rather than chasing the withdrawing arm, immediately retighten the lapel wrap and reset your Ringworm Guard. Chasing the arm extends your body and creates vulnerability. Wait for the next opportunity when the opponent re-engages their arms for lapel extraction. Alternatively, use your foot to hook behind their elbow and pull the arm back toward you before gripping.
-
-**Q4**: What grip depth and position on the sleeve provides the best Spider Guard control?
-**A**: Secure a deep four-finger grip at or above the opponent's elbow crease, where the sleeve material is thickest. This position maximizes the lever arm length for controlling their arm movement and provides the strongest mechanical connection between your grip and your foot on their bicep. Gripping lower on the forearm or wrist reduces control significantly and allows easier grip breaks.
-
-**Q5**: Where exactly should you place your feet during spider hook establishment and why?
-**A**: Place the ball of your foot on the inner bicep area, specifically in the crook of the elbow or just above it on the upper bicep. This placement creates maximum pushing leverage because your foot acts against the weakest point of their arm structure. Placing too high on the shoulder reduces control, while placing on the forearm lacks the mechanical advantage needed for effective distance management and sweep setups.
-
-**Q6**: The opponent drives forward with pressure just as you release the lapel - what is your immediate response?
-**A**: Use your already-established spider hook on one side to push them back while framing with your free hand against their shoulder or chest. If the forward pressure is too strong, convert it into a sweep opportunity by extending under them or use a butterfly hook with your free leg to redirect their momentum overhead. The key is using their forward energy against them rather than trying to stop it directly.
-
-**Q7**: How does maintaining hip elevation affect the success of this transition?
-**A**: Elevated hips are critical because they preserve sweeping leverage and mobility throughout the transition. Flat hips eliminate the ability to create angles, make foot repositioning slow and difficult, and signal to the opponent that they can apply crushing forward pressure safely. Staying on your shoulder or side ensures that once Spider Guard is established, you can immediately threaten sweeps without needing to first elevate and reposition.
-
-**Q8**: If your first attempt at the transition fails and you fall back to Ringworm Guard, what should you assess before trying again?
-**A**: Assess why the attempt failed by identifying whether it was a timing issue, grip acquisition problem, or opponent recognition of the transition. Check that your lapel wrap is still functional and retighten if needed. Evaluate whether the opponent has adjusted their arm defense to specifically counter sleeve grips. Consider varying your approach by trying the hybrid variant or lasso detour on the next attempt to avoid being predictable.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Ringworm to Spider Guard?</p>
 
 This transition involves grip changes and position shifts that carry minimal direct injury risk compared to submissions or joint locks. However, practitioners should exercise caution with foot placement on biceps to avoid accidental contact with the training partner's face or eyes during the repositioning phase. Communicate with training partners during initial drill phases when practicing the grip exchange sequence. Avoid explosive foot movements near the opponent's face. If grip fatigue develops during repeated drilling, rest to prevent finger and forearm strain that can lead to overuse injuries.
 

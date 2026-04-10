@@ -210,7 +210,7 @@ Uchi Mata serves as a fundamental cornerstone of an effective standing game in B
 
 - [[Positions/Mount]] - Alternative landing position - transition here if opponent turns during throw
 
-- [[Submissions/Kimura from Side Control]] - Follow-up submission - natural attack after establishing side control from throw
+- [[Submissions/Kimura]] - Follow-up submission - natural attack after establishing side control from throw
 
 - [[Transitions/Ippon Seoi Nage]] - Alternative throw - use when opponent defends Uchi Mata by preventing hip contact
 

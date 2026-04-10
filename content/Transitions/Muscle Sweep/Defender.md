@@ -148,6 +148,8 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Muscle Sweep?</p>
+
 - Bottom player shifts hips laterally to create a 45-degree angle while maintaining closed guard, moving their body off-center relative to your position
 - Opponent establishes deep collar grip and actively pulls your head down while simultaneously controlling your sleeve or wrist on one side
 - You feel your weight being loaded forward as the bottom player's legs pull your hips closer and their grips break your posture toward their hip
@@ -158,6 +160,8 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Muscle Sweep?</p>
 
 - Maintain strong upright posture with head over hips to deny the broken posture the sweep requires as its primary prerequisite
 - Fight sleeve and collar grips aggressively before they become established - once both grips are set the sweep becomes far more dangerous
@@ -171,6 +175,8 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Muscle Sweep?</p>
 
 ### 1. Recover posture by driving hips back and chest up, then strip the collar grip using two-on-one grip break before the sweep can be loaded
 
@@ -201,6 +207,8 @@ Defending the Muscle Sweep requires the top player inside closed guard to recogn
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Muscle Sweep?</p>
+
 ### → [[Positions/Closed Guard]]
 
 Strip the opponent's collar grip early using two-on-one grip breaks, recover strong upright posture with head over hips, and widen your base to prevent the angle creation. Denying posture and grips forces the bottom player to abandon the sweep attempt entirely.
@@ -216,6 +224,8 @@ Drive forward aggressively when you feel the hip angle being created, stacking t
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Muscle Sweep?</p>
 
 ### 1. Allowing posture to be broken without immediately fighting to recover it, accepting a head-down position as you attempt to pass
 
@@ -245,10 +255,12 @@ Drive forward aggressively when you feel the hip angle being created, stacking t
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Muscle Sweep?</p>
+
 **Week 1-2: Recognition and Posture Recovery** - Learn to identify Muscle Sweep setup cues and practice immediate posture recovery
 Partner performs slow-motion Muscle Sweep setups while you identify each setup element as it occurs: grip establishment, hip angle creation, posture breaking. Practice recovering posture using hip drive and grip breaks at each stage. Build pattern recognition before adding speed.
 
-**Week 3-4: Grip Fighting and Base Adjustment** - Develop systematic grip stripping and base widening responses
+**Week 3-4: Grips and Base Adjustment** - Develop systematic grip stripping and base widening responses
 Partner establishes Muscle Sweep grips at moderate intensity while you practice two-on-one collar grip breaks and sleeve grip strips. Combine grip fighting with base adjustment drills - practice widening knees and sitting hips back as a coordinated defensive response. Partner increases grip tenacity progressively.
 
 **Week 5-8: Emergency Defense and Counter-Attacks** - Practice posting defense and transitions to offense when sweep is blocked
@@ -261,26 +273,6 @@ Defend against Muscle Sweep attempts mixed with other closed guard attacks durin
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the three setup elements you must deny to prevent the Muscle Sweep from being loaded?
-**A**: The three elements are broken posture (head below shoulders), sleeve or wrist control preventing your post, and a 45-degree hip angle from the bottom player. Denying any single element significantly reduces the sweep's effectiveness, but denying posture is the highest priority since it is the prerequisite for the other two elements to function. Without broken posture, the bottom player cannot generate the pulling force needed to control your upper body or load your weight forward for the sweep.
-
-**Q2**: Your opponent has already established grips and shifted their angle - what is your emergency defense?
-**A**: Post your free hand firmly on the mat on the side the sweep is directed toward, creating a tripod base structure that blocks the rolling direction. This is a last-resort defense because your posted arm becomes vulnerable to Kimura and armbar attacks. Immediately after stopping the sweep momentum, begin working to strip grips and recover posture rather than staying in the posted position. If the post fails, tuck your elbow and turn into the opponent rather than away to avoid giving up back control.
-
-**Q3**: Why is driving your weight forward a dangerous response to feeling the Muscle Sweep being loaded?
-**A**: Forward weight distribution is exactly what the Muscle Sweep exploits. The sweep's mechanics direct force upward and diagonally using the bottom player's hip drive combined with upper body pulling. Adding your own forward momentum to this equation actually accelerates the sweep by loading more weight onto the sweeping vector. The correct response is the opposite - sit your weight back through your hips, which removes the forward weight the sweep requires and creates distance that weakens the opponent's grip control and pulling leverage.
-
-**Q4**: When should you widen your base as a preventive measure against the Muscle Sweep?
-**A**: Widen your base the moment you feel the bottom player shifting their hips laterally to create an angle. This hip shift is the earliest reliable recognition cue that the Muscle Sweep is being set up. By spreading your knees wider than shoulder-width before the explosive phase, you create a broader support structure that is mechanically harder to roll over. A wide base also makes it easier to shift your weight toward the sweep direction if needed, giving you a more stable platform for all subsequent defensive actions.
-
-
-
-</section>
 
 
 </main>

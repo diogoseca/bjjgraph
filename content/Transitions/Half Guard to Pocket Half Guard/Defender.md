@@ -154,6 +154,8 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Half Guard to Pocket Half Guard?</p>
+
 - Top player begins swimming their arm under your far armpit, attempting to thread past your elbow and reach across your back toward the underhook position
 - Sudden increase in forward chest pressure combined with the top player's head driving toward the crossface side, indicating intent to flatten your defensive structure
 - Top player's near hand begins controlling your far wrist or elbow, clearing the underhook lane by redirecting your defensive arm away from the entry path
@@ -166,6 +168,8 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Half Guard to Pocket Half Guard?</p>
 
 - Prevention is vastly more effective than escape: stopping the underhook entry before it is established requires a fraction of the energy needed to escape once Pocket Half Guard is consolidated
 - The underhook battle is the primary battleground: whoever wins the underhook determines whether this transition succeeds or fails, so invest maximum effort in this grip fight
@@ -180,6 +184,8 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Half Guard to Pocket Half Guard?</p>
 
 ### 1. Fight for your own underhook first by aggressively swimming your arm under the top player's armpit before they establish theirs
 
@@ -217,6 +223,8 @@ As the defender against the Transition to Pocket Half Guard, your primary object
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Half Guard to Pocket Half Guard?</p>
+
 ### → [[Positions/Half Guard]]
 
 Win the underhook battle by establishing your own underhook first, using aggressive arm fighting and hip positioning. Alternatively, strip the top player's underhook attempt through grip fighting and re-establish neutral Half Guard Bottom with frames intact.
@@ -232,6 +240,8 @@ Insert knee shield before the top player can close chest-to-chest distance. Driv
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Half Guard to Pocket Half Guard?</p>
 
 ### 1. Waiting passively for the top player to attempt the underhook instead of proactively fighting for your own underhook or establishing preventive frames
 
@@ -261,6 +271,8 @@ Insert knee shield before the top player can close chest-to-chest distance. Driv
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Half Guard to Pocket Half Guard?</p>
+
 **Phase 1: Recognition and Prevention** - Identifying transition cues and early prevention
 Partner announces when they are beginning the transition attempt. Defender practices recognizing the cues (forward pressure increase, arm swimming, head positioning) and immediately responds with underhook fighting or knee shield insertion. Focus on reaction speed and choosing the correct defensive response based on the attacker's entry method.
 
@@ -277,26 +289,6 @@ Positional sparring starting from Half Guard with partner attempting to establis
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the top player is attempting the Transition to Pocket Half Guard?
-**A**: The earliest cue is feeling the top player's arm begin to swim under your far armpit combined with an increase in forward chest pressure. These two simultaneous actions indicate they are threading the underhook while using pressure to prevent you from creating distance. Responding at this stage requires significantly less energy than escaping once the position is established. Secondary cues include their head driving to the crossface side and their free leg posting wider.
-
-**Q2**: Why is the knee shield insertion considered the most reliable defensive option against this transition?
-**A**: The knee shield creates a structural barrier that physically prevents the chest-to-chest contact required for the Pocket Half Guard transition to succeed. Unlike grip fighting which can be overcome through pressure, the knee shield uses skeletal structure to maintain distance. It works even against significantly stronger opponents because it leverages the shin bone against the chest. However, it must be inserted before the top player closes the distance, making timing critical.
-
-**Q3**: Your underhook has been established by the top player but they have not yet completed the crossface. What should you do?
-**A**: This is a critical window where the transition is only partially complete. Without the crossface, you can still turn into the underhook side and create angle. Use this window to either establish your own underhook on the opposite side to create a double underhook scramble, hip escape underneath for deep half guard entry while their head is still on the wrong side, or drive into them to create the Dogfight position where you have equal standing. The key is acting immediately before they complete the crossface.
-
-**Q4**: How should you manage your energy when defending against repeated Pocket Half Guard transition attempts?
-**A**: Prioritize skeletal alignment and frame positioning over muscular resistance. Your knee shield should be maintained through bone-on-body contact, not sustained muscular pushing. Keep your underhook attempts focused and efficient rather than constantly wrestling for position. If the top player abandons one attempt and resets, use that window to improve your position through hip escape or guard transition rather than simply resting in place. Defensive efficiency means spending energy only on high-value actions.
-
-
-
-</section>
 
 
 </main>

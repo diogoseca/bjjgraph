@@ -164,6 +164,8 @@ The defender holds significant tactical advantage during distance creation attem
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Distance Creation to Reset?</p>
+
 - Opponent secures wrist control or sleeve grip on your lapel-gripping hand while simultaneously straightening their posture—this two-action combination signals the beginning of a clearing sequence
 - Top player shifts weight onto their rear leg and begins extending hips backward while maintaining a stiff arm on your shoulder or chest—weight redistribution toward backstep is imminent
 - Opponent's free hand begins working on the lapel fabric around their leg or arm with unwinding motions rather than attempting to pass—they have abandoned passing in favor of disengagement
@@ -174,6 +176,8 @@ The defender holds significant tactical advantage during distance creation attem
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Distance Creation to Reset?</p>
 
 - Recognize reset attempts early through grip changes and posture shifts to respond before clearing begins
 - Tighten lapel configuration immediately when you feel opponent controlling your gripping hand
@@ -187,6 +191,8 @@ The defender holds significant tactical advantage during distance creation attem
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Distance Creation to Reset?</p>
 
 ### 1. Tighten lapel configuration and deepen the wrap by pulling more fabric through while fighting to maintain your gripping hand
 
@@ -224,6 +230,8 @@ The defender holds significant tactical advantage during distance creation attem
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Distance Creation to Reset?</p>
+
 ### → [[Positions/Lapel Guard]]
 
 Prevent the reset by tightening your lapel configuration the moment you sense clearing attempts. Fight aggressively for your gripping hand—use your free hand to re-grip the lapel deeper or switch to a different lapel anchor point. If opponent begins the backstep, sit up immediately and attach to their upper body, forcing them back into your guard structure. The goal is to make the energy cost of their reset exceed the cost of engaging with your guard.
@@ -239,6 +247,8 @@ When the lapel wrap is cleared and opponent creates backward distance, immediate
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Distance Creation to Reset?</p>
 
 ### 1. Passively allowing opponent to control your gripping hand without fighting to maintain the lapel configuration
 
@@ -268,6 +278,8 @@ When the lapel wrap is cleared and opponent creates backward distance, immediate
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Distance Creation to Reset?</p>
+
 **Week 1-2** - Recognition and Grip Retention
 Partner executes distance creation sequence at 50% speed. Practice identifying the three recognition cues (wrist control, posture shift, fabric unwinding) and fighting to maintain your gripping hand. Do not attempt counters—focus solely on reading intent and retaining your lapel grip under moderate clearing pressure.
 
@@ -284,29 +296,6 @@ Full resistance rounds starting in established lapel guard. Top player chooses f
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that your opponent is attempting a distance creation reset rather than a passing attempt?
-**A**: The earliest cue is when opponent secures wrist control on your lapel-gripping hand while simultaneously straightening their posture rather than driving forward. A passer drives into you with pressure; a resetter controls your grip hand and extends upward. This two-action combination—grip control plus postural extension—distinguishes reset intent from passing intent.
-
-**Q2**: Your opponent has just cleared your worm guard wrap and is beginning the explosive backstep—what is the optimal defensive response?
-**A**: Sit up aggressively and pursue the back take, using their backward momentum to create the angle for your rotation behind them. Their weight shifting backward during the backstep means their base is momentarily compromised and their arms are occupied. Alternatively, insert a De La Riva hook on their stepping leg to maintain guard connection even if the lapel configuration is lost.
-
-**Q3**: Why is transitioning to De La Riva guard preferable to conceding open guard when your lapel configuration is stripped?
-**A**: De La Riva guard maintains an active offensive position with hook control and upper body grips, preserving your ability to sweep and attack. Conceding open guard gives the opponent exactly what they wanted—a neutral restart where their passing skills apply against your flat guard. DLR forces them to solve a new guard problem rather than enjoying a clean reset to their preferred passing stance.
-
-**Q4**: How should you layer your defensive responses when you sense a reset attempt beginning?
-**A**: Layer three responses in sequence: first, fight to maintain your gripping hand and tighten the lapel configuration to prevent clearing. Second, if the wrap is being stripped, threaten a sit-up back take to make the backstep dangerous. Third, if both fail, immediately transition to De La Riva or spider guard rather than conceding open guard. Each layer forces the opponent to solve an additional problem before achieving a clean reset.
-
-**Q5**: What is the primary risk of attempting the sit-up back take too aggressively during opponent's distance creation?
-**A**: If your timing is off and opponent anticipates the sit-up, they can sprawl or circle away, leaving you in a seated position without any guard configuration while they stand in dominant posture with fresh grips. The sit-up must be timed to the backstep moment when their weight is shifting and their arms are occupied with clearing—committing too early or too late turns your counter into their opportunity.
-
-
-
-</section>
 
 
 </main>

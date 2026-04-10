@@ -188,6 +188,8 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Butterfly Smash?</p>
+
 - Forward pressure through the opponent's center line to collapse butterfly structure and eliminate upright posture
 - Systematic removal of frames and hooks before attempting to pass around the legs
 - Weight distribution through shoulders and hips to pin lower body and prevent hook re-insertion
@@ -203,6 +205,8 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Butterfly Smash?</p>
+
 - Opponent is in butterfly guard with both hooks established under your thighs
 - You have established grips on opponent's collar, sleeves, or wrist control in no-gi
 - Your posture is upright or slightly forward with elbows tight to your body
@@ -216,6 +220,8 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Butterfly Smash step by step?</p>
 
 1. **Establish upper body control**: Secure grips on opponent's collar or control both sleeves. Drive your forehead into opponent's chest or shoulder to begin breaking their upright posture. Keep your elbows tight to your body to prevent arm drags. Your head position is critical - it should be low on their sternum, not high on their shoulder where they can frame against it.
 2. **Choose side and begin pressure**: Select the side where opponent's butterfly hook feels weaker or where you have better grip control. Step your opposite leg back slightly to create angle while driving your chest and shoulder forward into opponent's upper body, beginning to collapse their structure. The angle change is subtle - you are not circling wide, just creating enough asymmetry to attack one hook at a time.
@@ -245,6 +251,8 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Butterfly Smash?</p>
+
 - **Opponent sits up explosively and pumps butterfly hooks to create distance** (Effectiveness: Medium) - Your Response: Maintain head position low on their chest, drive forward harder with your shoulders, and immediately drop your hips to smother their hook movement before they can extend → Leads to [[Positions/Butterfly Guard]]
 - **Opponent arm drags your controlling arm to attack your back** (Effectiveness: High) - Your Response: Keep elbows tight to body during initial engagement. If drag begins, immediately limp arm and circle away while establishing new grips. Never let them get behind your shoulder line → Leads to [[Positions/Butterfly Guard]]
 - **Opponent switches to half guard as you begin to pass** (Effectiveness: High) - Your Response: Expect this transition and be prepared to immediately address half guard with knee slice or crossface passing. Prevent the transition by controlling the far hip with your hand as you clear the first hook → Leads to [[Positions/Butterfly Guard]]
@@ -256,6 +264,8 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Butterfly Smash?</p>
 
 ### 1. Attempting to pass too quickly without establishing sufficient pressure
 
@@ -295,6 +305,8 @@ The Butterfly Smash is a fundamental pressure passing technique designed to neut
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Butterfly Smash (Attacker)?</p>
+
 **Week 1-2: Pressure Fundamentals** - Learning proper weight distribution and pressure application
 Practice establishing grips and forward pressure against static butterfly guard. Focus on feeling how pressure collapses hooks. Partner provides minimal resistance, only maintaining butterfly structure. Emphasize chest-to-chest connection and hip positioning.
 
@@ -315,48 +327,12 @@ Incorporate gi and no-gi specific grips. Practice against high-level butterfly p
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: Why is forward pressure more effective than lateral movement when passing butterfly guard?
-**A**: Forward pressure directly attacks the structural integrity of butterfly hooks by removing the space they need to function. Butterfly hooks rely on creating elevation and distance - forward pressure collapses this structure by driving the opponent flat and removing the leverage their hooks require. Lateral movement without pressure allows the opponent to maintain their hook connection and rotate with you, keeping their guard intact.
-
-**Q2**: What is the primary timing indicator for when to step over the second butterfly hook?
-**A**: You should only step over the second hook after the first hook is completely neutralized AND you have established upper body control through a crossface or underhook. Stepping too early allows the opponent to use the remaining hook to recover guard or transition to half guard. The key signal is feeling the opponent's structure collapse and their upper body pinned flat with your crossface turning their head.
-
-**Q3**: How does keeping your elbows tight to your body prevent common butterfly guard attacks?
-**A**: Tight elbow positioning prevents arm drags, which are one of the most effective counters from butterfly guard. When your elbows are extended or loose, the opponent can easily grab your wrist or tricep and pull your arm across their body to access your back. Keeping elbows connected to your ribs makes it much harder for them to isolate and control your arms for the drag.
-
-**Q4**: What is the relationship between chest pressure and hook effectiveness in the butterfly smash?
-**A**: Butterfly hooks require the bottom player to maintain an upright or angled posture to generate lifting power. Chest pressure forces the opponent onto their back, which fundamentally changes the angle of their hips and legs, making the hooks biomechanically weak. When the opponent is flat, their hooks cannot create the elevation needed for sweeps or guard retention, turning them into passive obstacles rather than active threats.
-
-**Q5**: Your opponent posts their hand on the mat as you begin driving pressure - how do you adjust?
-**A**: A posted hand indicates the opponent is trying to maintain their seated posture under your pressure. Target that posting arm by driving your shoulder into the same side, collapsing the post. Alternatively, use the fact that their hand is occupied to secure a grip advantage on their other arm. Never allow the posted hand to successfully prop them up - redirect your pressure angle to attack the post directly.
-
-**Q6**: What grip configuration is most critical during the initial engagement of the butterfly smash?
-**A**: In gi, a collar grip combined with a sleeve grip on the same side gives you directional control while preventing the opponent from establishing their own dominant grips. In no-gi, a collar tie with wrist control serves the same function. The critical requirement is that your grips allow you to drive the opponent's upper body backward while your elbows remain tight to your torso, preventing arm drags throughout the engagement.
-
-**Q7**: The opponent defends your first hook clear and begins elevating for a butterfly sweep - what is your response?
-**A**: If the opponent successfully pumps their hook during your clearing attempt, you must immediately widen your base by stepping your far leg out and drop your hips lower rather than fighting the elevation. Absorb the elevation attempt by sprawling your hips back momentarily, then re-engage with your pressure once the sweep momentum dissipates. Never try to power through an active elevation - reset your pressure angle and try the opposite side.
-
-**Q8**: What is the correct direction of force when driving your knee to the mat beside the opponent's hip?
-**A**: The force direction should be forward and downward at approximately 45 degrees toward the mat, not purely downward or purely forward. This angle simultaneously pins the opponent's thigh flat while advancing your body position past their hook. The knee drives tight against their hip bone, creating a wedge that prevents the hook from recovering its elevation angle. Purely downward force does not advance your position, while purely forward force can be redirected into a sweep.
-
-**Q9**: Your butterfly smash is blocked and the opponent recovers to seated position with fresh grips - what passing options remain?
-**A**: When the butterfly smash stalls and the opponent resets to a strong seated butterfly guard, you should not force the same pass again. Chain to alternative passes: transition to a standing toreando pass to change the dynamic entirely, switch to a body lock pass if you can secure double underhooks, or attempt a knee slice pass by creating an angle. The key principle is that failed pressure should lead to a different passing vector, not a repeated attempt at the same approach.
-
-**Q10**: Why must you clear frames one at a time rather than simultaneously during the butterfly smash?
-**A**: Attempting to strip multiple frames simultaneously requires you to release your own controlling grips and upper body pressure, creating space the opponent will immediately exploit to re-establish their guard structure. By clearing one frame at a time while maintaining pressure with the rest of your body, you ensure continuous control throughout the passing sequence. Each frame you remove reduces the opponent's ability to create distance, making subsequent frame clears progressively easier.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Butterfly Smash?</p>
 
 The butterfly smash is generally a safe passing technique when performed with control. However, practitioners should be mindful of pressure application on the opponent's face and neck during crossface establishment - excessive or sudden pressure can cause discomfort or injury to the jaw, cervical spine, or temporomandibular joint. When drilling, start with light pressure and gradually increase as both partners become comfortable with the mechanics. Be particularly careful with head positioning to avoid accidental headbutts when driving forward. Partners should communicate clearly if pressure becomes uncomfortable, especially on the jaw or neck. When receiving the pass, avoid explosive bridging or shrimping movements that could result in collision injuries.
 

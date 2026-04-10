@@ -182,6 +182,8 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Kosoto Gake?</p>
+
 - Break opponent's base by attacking their weighted rear leg where structural support is concentrated
 - Coordinate upper body pull with leg reap timing as a single unified action, not two separate movements
 - Maintain close chest-to-chest distance throughout the throw to maximize grip leverage and reaping power
@@ -197,6 +199,8 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Kosoto Gake?</p>
+
 - Establish strong collar and sleeve grips in gi, or collar tie and underhook in no-gi
 - Close the distance to eliminate space between you and opponent, achieving chest-to-chest contact
 - Identify opponent's weight distribution confirming majority loading on their rear leg
@@ -210,6 +214,8 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Kosoto Gake step by step?</p>
 
 1. **Establish grips and close distance**: Secure a dominant collar grip with your lead hand and sleeve or elbow control with your rear hand in gi (or collar tie and underhook in no-gi). Step in close to eliminate space between your chest and opponent's upper body, positioning yourself at a 45-degree angle to their stance.
 2. **Break opponent's posture and load rear leg**: Pull your opponent's upper body backward and slightly downward using your collar grip, forcing them to shift their weight onto their rear leg. Their natural reaction is to resist by pushing back or stepping backward, which loads their rear leg perfectly for the reap. Confirm the weight shift before committing.
@@ -238,6 +244,8 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Kosoto Gake?</p>
+
 - **Opponent steps back with their rear leg to avoid having weight on it** (Effectiveness: High) - Your Response: Follow their backward movement and switch to Kosoto Gari (attacking their front leg instead) or chain to Osoto Gari if they overcommit to backward motion → Leads to [[Positions/Standing Position]]
 - **Opponent sprawls and drops their hips backward when they feel the reap** (Effectiveness: Medium) - Your Response: Maintain upper body control and transition to Front Headlock position, using their sprawl momentum to secure the dominant position on the ground → Leads to [[Positions/Standing Position]]
 - **Opponent turns in and attacks with their own throw or guillotine attempt** (Effectiveness: Medium) - Your Response: Immediately release the attempted throw, establish strong posture, and defend the submission or counter-throw by creating distance with your hips and circling away → Leads to [[Positions/Clinch]]
@@ -249,6 +257,8 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Kosoto Gake?</p>
 
 ### 1. Attempting the reap from too far away without closing distance first
 
@@ -288,6 +298,8 @@ Kosoto Gake is a fundamental standing technique where you reap your opponent's w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Kosoto Gake (Attacker)?</p>
+
 **Week 1-2: Static drilling** - Basic movement pattern and coordination
 Practice the reaping motion and upper body pull separately, then combine them with a completely compliant partner. Focus on grip positioning, distance management, and the feeling of sweeping through opponent's leg. Repeat 10-15 repetitions per side with emphasis on smooth coordination.
 
@@ -305,54 +317,12 @@ Attempt Kosoto Gake during regular standup sparring with full resistance. Focus 
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the most important factor in timing Kosoto Gake effectively?
-**A**: The most critical timing factor is recognizing when your opponent's weight is committed to their rear leg. This typically occurs when they are moving backward, resisting forward pressure, or adopting a defensive stance with their weight distributed rearward. Attempting the throw when weight is on the front leg will fail because the rear leg can easily step away from the reap.
-
-**Q2**: How does the upper body action differ from the lower body action in Kosoto Gake?
-**A**: The upper body pulls backward and downward in a circular arc to break opponent's posture and drive them toward the mat, while the lower body reaps forward and upward through the back of opponent's leg. These opposing directions create a scissoring action that rotates opponent around their center of gravity. Both must be coordinated simultaneously for the throw to work effectively.
-
-**Q3**: Why is Kosoto Gake considered a higher percentage throw for BJJ practitioners compared to explosive throws?
-**A**: Kosoto Gake requires less explosive power, flexibility, and athletic ability than dynamic throws like Uchi Mata or Harai Goshi. It relies primarily on timing, positioning, and coordination rather than strength or speed. The close-distance requirement and direct transition to top control also make it more suited to the BJJ context where controlling position is prioritized. Additionally, the technique is safer to attempt because you maintain close contact and can defend counters more easily.
-
-**Q4**: What adjustment should you make if your opponent consistently defends Kosoto Gake by stepping their rear leg backward?
-**A**: Chain to Kosoto Gari (targeting their front leg instead) or Osoto Gari (larger outer reap) to attack the leg they've stepped onto. This creates a takedown system where defending one attack opens vulnerability to another. You can also use feints of Kosoto Gake to create backward movement, then switch to techniques that exploit their motion like ankle picks or rear trips.
-
-**Q5**: What is the mechanical reason why pulling opponent's upper body backward is essential to completing the throw?
-**A**: Pulling the upper body backward shifts opponent's center of gravity behind their base of support (their feet), creating rotational momentum around the horizontal axis. The leg reap removes their supporting structure at the same moment their weight is moving backward, eliminating their ability to recover balance. Without the upper body pull, the leg reap alone only creates annoyance rather than actual off-balancing. The combination creates a force couple that rotates opponent efficiently to the ground.
-
-**Q6**: Your opponent posts their hand on your hip as you attempt the reap - how do you adjust?
-**A**: When opponent posts on your hip, they are creating a frame to prevent you from closing distance. You must strip this posting hand by using your sleeve grip hand to peel it away while simultaneously driving forward with increased pressure. Alternatively, change the angle of your attack by stepping deeper to the side where they cannot effectively post, or use the posting arm as a target for a two-on-one grip to expose their upper body for the throw.
-
-**Q7**: What specific grip configuration provides the strongest control for executing Kosoto Gake in the gi?
-**A**: The most effective grip configuration is a cross-collar grip (four fingers inside the lapel at collar level) with your lead hand combined with a sleeve grip at the elbow with your rear hand. The collar grip provides powerful pulling leverage for breaking posture backward, while the elbow grip prevents opponent from circling away and controls their ability to create defensive frames. This combination maximizes control while allowing you to generate the rotational force needed for the throw.
-
-**Q8**: What is the correct direction of force for the reaping leg during Kosoto Gake execution?
-**A**: The reaping leg should drive forward and slightly upward through the back of opponent's calf, creating a scooping motion that lifts their heel while sweeping their foot forward. The force vector should be approximately 45 degrees forward and up, not directly backward which would lack the lifting component. Think of sweeping their leg out from under them rather than kicking it out, maintaining constant contact throughout the motion.
-
-**Q9**: If your initial Kosoto Gake attempt is blocked but you maintain grips, what are your best chain attack options?
-**A**: From a blocked Kosoto Gake with maintained grips, the most effective chains are: Osoto Gari to the same leg with increased commitment, Kouchi Gari attacking the supporting front leg that now bears more weight, or transitioning to a single leg attack on the leg you were attempting to reap. If opponent over-defends by shifting weight dramatically forward, use their momentum for a snap down to front headlock. The key is reading which direction they shifted to defend and attacking the vulnerability that shift created.
-
-**Q10**: What distance should you maintain before initiating Kosoto Gake and why?
-**A**: You must be at chest-to-chest contact distance before initiating the reap. At this distance, your upper body grips can generate maximum pulling force, and your reaping leg can make solid contact with opponent's calf without overextending. If you attempt from outside this range, you will reach with your leg, compromising your balance and reducing the power of the reap. The close distance also prevents opponent from easily creating defensive frames or circling away from the attack.
-
-**Q11**: Your opponent defends by hopping on their supporting leg - what does this indicate and how should you respond?
-**A**: Hopping indicates your reaping action is effective but lacking sufficient upper body breaking power to complete the throw. Their base remains under their center of gravity because you haven't pulled them far enough backward. Response options include: increasing the backward pull dramatically while they hop (catching them mid-balance), switching to attack the hopping leg since it's now the only base point, or using the moment of single-leg balance to execute an ankle pick on that supporting leg. The hop is actually a positive sign that you're close to success.
-
-**Q12**: How should you modify Kosoto Gake execution when transitioning from gi to no-gi grappling?
-**A**: In no-gi, replace the collar grip with a strong collar tie (hand cupping behind opponent's neck) and replace the sleeve grip with an underhook or wrist control. The collar tie provides similar backward pulling leverage though with less mechanical advantage than a lapel grip. You must compensate by generating more pulling force through head position and body weight rather than relying on fabric friction. Timing becomes even more critical in no-gi because grips are less secure, so the setup window is narrower and you need faster execution once you commit to the throw.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Kosoto Gake?</p>
 
 Kosoto Gake is generally one of the safest takedowns to practice and execute. The primary safety concerns involve controlled landing for both participants. The person being thrown should practice breakfall technique (slapping the mat with their arm to disperse impact) to prevent head or shoulder injury. The thrower must be careful not to land with excessive weight directly on opponent's ribs or head, instead distributing pressure across the torso. When drilling at beginner levels, both partners should practice on soft mats and communicate about execution speed. In competition, be aware that aggressive execution can result in the thrown person's head impacting the mat if their posture is severely broken. Control the upper body pull to ensure safe landing.
 

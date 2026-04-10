@@ -188,6 +188,8 @@ As the attacker executing this transition, you are converting deteriorating back
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Back Control to Reverse Half Guard?</p>
+
 - Read the escape early and commit to the backstep before hooks are fully cleared to maintain maximum control throughout the transition
 - Use the defender's rotational momentum to assist your backstep rather than fighting against their turning movement
 - Maintain chest-to-back or chest-to-hip pressure throughout the transition to prevent separation and space creation
@@ -202,6 +204,8 @@ As the attacker executing this transition, you are converting deteriorating back
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Back Control to Reverse Half Guard?</p>
+
 - At least one hook has been cleared or is actively being stripped by the defender
 - You still maintain some upper body connection through seatbelt, collar grip, or chest pressure
 - The defender has begun rotating their shoulders toward you, creating space for the backstep
@@ -214,6 +218,8 @@ As the attacker executing this transition, you are converting deteriorating back
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Back Control to Reverse Half Guard step by step?</p>
 
 1. **Recognize the escape trigger**: Feel the defender stripping your bottom hook or beginning to rotate their shoulders toward you. This is the decision point: rather than fighting to re-insert the hook, commit mentally to the backstep conversion. The earlier you recognize this trigger, the more control you retain throughout the transition.
 2. **Secure upper body control**: Before moving your legs, ensure you have a solid grip on the defender's upper body. Transition from seatbelt to a crossface or collar grip that will work in the reverse half guard position. This prevents separation during the backstep and maintains your ability to control the defender's posture and rotation.
@@ -243,6 +249,8 @@ As the attacker executing this transition, you are converting deteriorating back
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Back Control to Reverse Half Guard?</p>
+
 - **Defender completes rotation to face you before backstep is finished** (Effectiveness: High) - Your Response: If they fully face you, you end up in standard half guard top rather than reverse. Accept the position and work your passing game from there. Prevent this by maintaining chest pressure and timing the backstep earlier in the escape sequence. → Leads to [[Positions/Half Guard]]
 - **Defender shrimps away explosively during the backstep to create distance** (Effectiveness: Medium) - Your Response: Follow their hip movement with your own hips and maintain chest pressure. If they create significant distance, you may need to re-engage from a passing position rather than reverse half guard. Use the leg drag to cut off their shrimping angle. → Leads to [[Positions/Half Guard]]
 - **Defender catches your backstep leg in deep half guard configuration** (Effectiveness: Medium) - Your Response: If they trap your backstep leg underneath them in deep half, you need to address this before establishing reverse half guard. Post on their hip and work to extract your leg, or accept the deep half position and use standard deep half passing techniques. → Leads to [[Positions/Half Guard]]
@@ -254,6 +262,8 @@ As the attacker executing this transition, you are converting deteriorating back
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Back Control to Reverse Half Guard?</p>
 
 ### 1. Waiting too long to initiate the backstep after the hook is cleared
 
@@ -293,6 +303,8 @@ As the attacker executing this transition, you are converting deteriorating back
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Back Control to Reverse Half Guard (Attacker)?</p>
+
 **Phase 1: Solo Movement** - Backstep mechanics without resistance
 Practice the backstep leg movement with a training dummy or cooperative partner. Focus on the hip rotation, leg threading path, and weight transfer. Perform 20 repetitions per side, emphasizing smooth transitions without lifting your weight off the training surface.
 
@@ -313,42 +325,12 @@ Extended positional rounds starting from back control. Include back take attempt
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary trigger that tells you to initiate the backstep to reverse half guard?
-**A**: The primary trigger is feeling your bottom hook being stripped or the defender beginning to rotate their shoulders toward you. When you sense the hook clearing and re-insertion becomes unlikely within the next movement cycle, that is the moment to commit to the backstep. Waiting until the hook is fully cleared reduces your control during the transition.
-
-**Q2**: Why is it critical to maintain upper body control before executing the backstep?
-**A**: Upper body control through crossface, collar grip, or chest pressure serves as the anchor that prevents separation during the leg reconfiguration. Without this anchor, the defender can create distance or complete their rotation to face you during the backstep, negating the reverse half guard advantage. The upper body grip is the one constant that bridges back control and reverse half guard.
-
-**Q3**: Your defender strips your bottom hook and immediately shrimps away - how do you adjust the backstep timing?
-**A**: When the defender shrimps away after stripping the hook, you must accelerate the backstep and follow their hip movement simultaneously. Drive your chest into their retreating hips while threading the backstep leg between their legs. The shrimping motion actually assists the backstep by creating the space your leg needs to thread through, but you must stay connected to prevent full separation.
-
-**Q4**: What is the most common mechanical error during the backstep and how does it manifest?
-**A**: The most common error is rising up on the hips during the backstep rather than staying low and heavy. This manifests as the defender suddenly having space underneath to insert a knee shield, recover guard, or complete an explosive escape. The correction is to think of the backstep as a sliding movement around the defender rather than a lifting movement over them.
-
-**Q5**: Once you establish reverse half guard top, what determines whether you pursue a back take or a guard pass?
-**A**: The defender's reaction determines your choice. If they turn toward you attempting to face you and recover guard, follow their rotation and pursue the back take by inserting hooks. If they flatten defensively or try to shrimp away from you, commit to the leg drag or knee slice pass to advance to side control. Read their movement within two to three seconds and commit fully.
-
-**Q6**: How does the backstep leg threading depth affect the stability of reverse half guard?
-**A**: Deeper leg threading past the defender's knee line creates a stronger entanglement that is significantly harder for them to clear. Shallow threading only past the ankle or mid-calf allows easy extraction and guard recovery. Drive your backstep leg deep between their thighs with your foot past their far knee to establish maximum control and prevent them from straightening their legs to free themselves.
-
-**Q7**: Your defender catches your backstep leg in a deep half guard configuration - what is your immediate response?
-**A**: If they trap your backstep leg underneath them in deep half, stop the backstep conversion and address the deep half position first. Post on their hip with your free hand to prevent them from completing the deep half sweep. Work to extract your leg using a whizzer or hip pressure before they can establish full deep half guard control. Alternatively, accept the deep half position and use standard deep half passing techniques.
-
-**Q8**: What role does crossface pressure play during and after the backstep transition?
-**A**: Crossface pressure serves dual purposes. During the backstep, it slows the defender's shoulder rotation to buy time for the leg reconfiguration. After establishing reverse half guard, the crossface from behind prevents the defender from turning to face you, which would convert the position to standard half guard and eliminate your reverse angle advantage. Strong crossface is the primary control mechanism in reverse half guard top.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Back Control to Reverse Half Guard?</p>
 
 This transition involves rapid positional changes and leg entanglement that require controlled execution during training. Avoid explosive backstep movements that could torque your partner's trapped knee or ankle. During drilling, communicate with your partner about the speed and pressure of the transition. Be particularly careful when threading the backstep leg to avoid catching your partner's knee in an awkward angle. If your partner signals discomfort in the leg entanglement, release immediately and adjust your positioning.
 

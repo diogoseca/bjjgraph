@@ -208,7 +208,7 @@ The hip escape from truck occupies a critical position within the truck bottom e
 
 - [[Transitions/Escape from Truck]] - Related general escape technique from truck position
 
-- [[Submissions/Calf Slicer from Truck]] - Submission threat that motivates urgency for escape
+- [[Submissions/Calf Slicer]] - Submission threat that motivates urgency for escape
 
 - [[Positions/Twister Control]] - Primary submission threat position accessible from truck
 

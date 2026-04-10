@@ -168,6 +168,8 @@ The defender in this transition is the guard player working to maintain feet-on-
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Pass Feet on Hips Guard?</p>
+
 - Top player reaches for your pants legs at or below the knees with both hands, abandoning attempts to control your upper body
 - Top player drives forward pressure into your frames while maintaining a low, wide base rather than standing tall
 - Top player begins redirecting one of your feet laterally off their hip while maintaining control of the other knee
@@ -180,6 +182,8 @@ The defender in this transition is the guard player working to maintain feet-on-
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Pass Feet on Hips Guard?</p>
 
 - Fight grips relentlessly—preventing the passer from establishing pants control at your knees is your first and most important defensive priority
 - Maintain hip elevation with curved lower back throughout the defense, preserving mobility and frame effectiveness even under forward pressure
@@ -194,6 +198,8 @@ The defender in this transition is the guard player working to maintain feet-on-
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Pass Feet on Hips Guard?</p>
 
 ### 1. Fight grips and strip pants control from your knees, then re-establish feet on hips with full extension
 
@@ -238,6 +244,8 @@ The defender in this transition is the guard player working to maintain feet-on-
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Pass Feet on Hips Guard?</p>
+
 ### → [[Positions/Feet on Hips Guard]]
 
 Strip the passer's pants grips through aggressive grip fighting before they can apply forward pressure. Circle your feet to break their grip placement and immediately re-extend your frames to full length. Establish your own sleeve or collar grips to prevent them from easily re-engaging the passing sequence.
@@ -253,6 +261,8 @@ When the passer drives forward with committed pressure, use their momentum by pu
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Pass Feet on Hips Guard?</p>
 
 ### 1. Allowing the passer to establish bilateral pants grips at your knees without immediately fighting to strip them
 
@@ -287,10 +297,12 @@ When the passer drives forward with committed pressure, use their momentum by pu
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Pass Feet on Hips Guard?</p>
+
 **Recognition Training** - Identifying passing initiation cues and grip threats
 Partner attempts various passing entries from feet on hips while you focus on identifying the moment they shift from grip fighting to committed passing. Call out the cue verbally before reacting physically. Develops the pattern recognition that enables proactive rather than reactive defense.
 
-**Grip Fighting Isolation** - Preventing and stripping pants grips at the knees
+**Grips Isolation** - Preventing and stripping pants grips at the knees
 Isolated drill where the passer attempts to establish knee-level pants grips while you fight to prevent and strip them. Reset every 30 seconds. Track how long you can prevent grip establishment. Build the hand speed and grip-fighting sensitivity specific to this passing scenario.
 
 **Guard Transition Flow** - Transitioning from compromised feet-on-hips to alternative guards
@@ -303,29 +315,6 @@ Positional sparring starting from feet on hips against a passer using full techn
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that indicate the top player is initiating a systematic pass of your feet on hips guard?
-**A**: The primary early cues are the passer reaching for your pants at knee level with both hands rather than engaging your upper body, the passer lowering their center of gravity and widening their base to resist sweeps, and a noticeable increase in forward driving pressure through the frames. These actions signal they are beginning the systematic frame-breaking sequence rather than attempting to engage your grips or posture. Early recognition allows you to begin fighting grips before they are established rather than after.
-
-**Q2**: The top player has broken one of your foot frames and is pinning your leg to the mat - what is the most effective immediate response?
-**A**: Immediately hip-escape away from the pinned-leg side to create distance and prevent the passer from advancing through the gap. Use your remaining foot on their hip to push and generate separation while simultaneously either threading your free leg for a De La Riva hook on their advancing leg or retracting it to insert a butterfly hook or half guard hook. Use your grips to pull their upper body in the opposite direction of their passing movement. Speed of reaction is critical—every second of delay allows the passer to consolidate control and address your remaining frame.
-
-**Q3**: When should you abandon feet on hips guard and transition to a different guard configuration rather than continuing to fight for frame retention?
-**A**: Transition when you recognize any of these conditions: the passer has established strong bilateral pants grips at your knees that you cannot strip after two grip-fighting attempts, your frames are being compressed to the point where your legs are bent past 90 degrees and losing structural pushing power, or the passer has broken one frame and is actively working on the second. Proactive transition to De La Riva, spider guard, or closed guard while you still have one functional frame gives you far better defensive options than fighting to maintain a compromised feet-on-hips position until total frame failure.
-
-**Q4**: Your opponent has established strong pants grips at your knees and is applying forward pressure - how do you fight to maintain your guard?
-**A**: Focus on disrupting their grip control through multiple approaches: use your hands to strip their grip on one side by peeling their fingers off the material or redirecting their hand, establish your own sleeve grips to control their arm position and create mutual grip fighting, circle your feet in small rotational movements on their hips to make their grip maintenance more difficult, and hip-escape laterally to change the angle of engagement and create asymmetric pressure that compromises their bilateral grip structure. If grip stripping fails after two attempts, immediately transition to an alternative guard before your frames are broken.
-
-**Q5**: What is the safest fallback position if the pass is nearly completed and you cannot maintain any form of open guard?
-**A**: The half guard hook is your final safety net before the pass completes to side control. As the passer drives through your broken frames, immediately clamp your legs around their lead leg by trapping it between your knees and locking a figure-four or butterfly-style hook. Even a shallow half guard hook prevents the full pass to side control and gives you a platform to begin half guard recovery sequences. This is preferable to accepting a complete pass because half guard offers underhook access, sweep potential, and back take opportunities that side control bottom does not provide.
-
-
-
-</section>
 
 
 </main>

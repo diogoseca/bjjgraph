@@ -10,7 +10,7 @@
     "chair-sit",
     "seatbelt-grip"
   ],
-  "from_position": "Turtle/Top",
+  "from_position": "Matrix/Bottom",
   "outcomes": [
     {
       "to": "Back Control/Top",
@@ -74,7 +74,7 @@
       "relationship": "High-percentage gi choke available after completing back take"
     },
     {
-      "name": "Armbar from Back",
+      "name": "Armbar from Back Transition",
       "relationship": "Submission option from the back mount position achieved"
     },
     {

@@ -154,13 +154,15 @@ description: "How to counter the Rolling Kimura Escape in BJJ. Recognition cues,
 
 As the Kimura attacker (defender against the rolling escape), your primary concern is maintaining the submission or converting to a superior position when your opponent attempts this dynamic escape. The Rolling Kimura Escape relies on forward momentum and your forward weight commitment to succeed, so understanding its mechanics allows you to either prevent it entirely or capitalize on the failed attempt. Your defensive strategy centers on three priorities: recognizing the escape attempt before it gains momentum, maintaining your Kimura grip through the rotation by following the roll, and transitioning to back control or mount if the grip breaks during the exchange. The key insight is that a rolling escape attempt, whether successful or not, creates a scramble moment that rewards the practitioner with better awareness and preparation. By staying connected to your opponent's body throughout their roll and keeping your base low and mobile, you transform their escape attempt into a positional advancement opportunity for yourself.
 
-**Opponent's Starting Position**: [[Positions/Kimura Trap]] (Bottom)
+**Opponent's Starting Position**: [[Positions/Rubber Guard/Carni]] (Top)
 
 </section>
 
 <section id="recognition-cues" class="content-section">
 
 ## How to Recognize This Attack
+
+<p class="section-subtitle">How do you know when someone is attempting Rolling Kimura Escape?</p>
 
 - Opponent tucks their chin sharply to their chest and their body tenses as they prepare for explosive forward movement
 - Opponent places their free hand flat on the mat near their trapped shoulder, positioning it as a push-off point for the roll
@@ -175,6 +177,8 @@ As the Kimura attacker (defender against the rolling escape), your primary conce
 
 ## Key Defensive Principles
 
+<p class="section-subtitle">What are the key principles for defending Rolling Kimura Escape?</p>
+
 - Maintain deep Kimura grip near the elbow throughout any rolling attempt to preserve control even during dynamic movement
 - Keep your base low and mobile rather than rigidly committed forward, allowing you to follow lateral and rotational movements
 - Recognize pre-roll positioning cues (chin tuck, free hand placement, body tensing) to preemptively adjust before the roll initiates
@@ -188,6 +192,8 @@ As the Kimura attacker (defender against the rolling escape), your primary conce
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Rolling Kimura Escape?</p>
 
 ### 1. Widen base and shift weight backward to prevent forward roll completion
 
@@ -225,6 +231,8 @@ As the Kimura attacker (defender against the rolling escape), your primary conce
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Rolling Kimura Escape?</p>
+
 ### → [[Positions/Kimura Trap]]
 
 Recognize pre-roll cues early and widen your base while shifting hips back to prevent forward rotation. Maintain deep grip and re-angle your finishing pressure from a more stable base position. The failed escape attempt typically leaves opponent more exhausted and mentally deflated, creating better finishing opportunities.
@@ -240,6 +248,8 @@ When the roll initiates, follow the rotation by driving your chest into their ba
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Rolling Kimura Escape?</p>
 
 ### 1. Rigidly resisting the roll by planting in place and pulling the Kimura grip against the rotation
 
@@ -269,6 +279,8 @@ When the roll initiates, follow the rotation by driving your chest into their ba
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Rolling Kimura Escape?</p>
+
 **Phase 1: Roll Recognition Drill** - Learn to identify pre-roll cues and timing indicators
 Partner establishes Kimura escape position and cycles through pre-roll preparation movements (chin tuck, hand placement, weight shift) without actually rolling. Practice identifying each cue verbally. Progress to partner randomly choosing to roll or not, and you must call it before they commit. Develop the pattern recognition to react within the 1-2 second warning window.
 
@@ -285,29 +297,6 @@ Begin from Kimura Trap top position with partner allowed to use any escape inclu
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is about to attempt a rolling Kimura escape?
-**A**: The earliest cues are: opponent tucks their chin sharply to their chest (protecting neck for the roll), places their free hand flat on the mat near their trapped shoulder (creating a push-off point), stops actively resisting the Kimura direction and begins shifting weight forward, and their breathing changes to a sharp preparatory exhale. These cues typically appear 1-2 seconds before the roll initiates, giving you a narrow but actionable window to adjust your base and prevent the escape.
-
-**Q2**: Why is following the roll generally a better strategy than rigidly resisting it?
-**A**: Rigidly resisting creates two problems: first, the rotational force often breaks your grip anyway, resulting in a clean escape; second, maintaining a locked submission position during uncontrolled dynamic movement creates serious injury risk for your training partner. Following the roll while maintaining grip and chest connection converts the escape into a back take opportunity, because the same rotation that relieves the Kimura angle delivers you directly behind your opponent. You trade a submission attempt for the most dominant position in BJJ.
-
-**Q3**: Your opponent initiates the roll and your Kimura grip begins slipping - what is the correct decision sequence?
-**A**: First, attempt to maintain the grip by tightening your figure-four and staying connected to their body as they rotate. If the grip continues slipping despite your efforts, immediately redirect your energy toward positional control rather than fighting a losing grip battle. Drive your chest into their back and work to insert hooks for back control, or collapse your weight over their centerline to establish mount. The key principle is recognizing the transition point from submission hunting to position hunting within the first half-second of grip failure.
-
-**Q4**: How should you adjust your Kimura finishing mechanics to prevent the rolling escape from being viable?
-**A**: Apply finishing pressure through proper arm mechanics and hip positioning rather than driving your entire body weight forward. Keep your base wide with hips low, which removes the forward momentum that the rolling escape exploits. Finish by rotating their wrist toward their spine using your figure-four grip mechanics while your body remains balanced, not by driving forward. This denies the opponent the forward weight commitment they need to power the roll and forces them to rely on less effective conventional escape methods.
-
-**Q5**: Your opponent completes the roll and breaks your Kimura grip, but you maintained chest contact throughout - what position should you be in?
-**A**: If you maintained chest-to-back contact throughout the roll, you should be directly behind your opponent in a back control position. Immediately insert your hooks inside their thighs and transition your arms from the broken Kimura grip to a seatbelt configuration (one arm over their shoulder, one under their armpit). The opponent expected to land in open guard facing you, but your connection through the roll means they land with you attached to their back. This is the highest-value counter to the rolling escape and why following rather than resisting is the superior strategy.
-
-
-
-</section>
 
 
 </main>

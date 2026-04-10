@@ -154,6 +154,8 @@ As the defender against this sweep, you are the top player in pocket half guard 
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Pocket Half Guard?</p>
+
 - Opponent tightens underhook grip and pulls their elbow closer to their body, increasing tension on your far shoulder
 - Opponent's hips angle toward the underhook side rather than remaining flat, indicating preparation for an angled bridge
 - Bottom foot increases pressure against your near hip, establishing a stronger fulcrum for rotational force
@@ -166,6 +168,8 @@ As the defender against this sweep, you are the top player in pocket half guard 
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Pocket Half Guard?</p>
 
 - Maintain a wide triangular base with your free leg posted to resist lateral displacement in the sweep direction
 - Control the underhook battle—stripping or shallowing the opponent's underhook removes the primary sweep lever
@@ -180,6 +184,8 @@ As the defender against this sweep, you are the top player in pocket half guard 
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Pocket Half Guard?</p>
 
 ### 1. Post far hand wide on the mat to establish a wide base against the sweep direction
 
@@ -217,6 +223,8 @@ As the defender against this sweep, you are the top player in pocket half guard 
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Pocket Half Guard?</p>
+
 ### → [[Positions/Half Guard/Pocket Half Guard]]
 
 Maintain wide base with far hand posted, keep weight centered rather than committed forward, and strip or shallow the opponent's underhook before they can establish the sweep angle
@@ -232,6 +240,8 @@ Drive aggressive crossface pressure timed between the opponent's sweep attempts,
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Pocket Half Guard?</p>
 
 ### 1. Keeping a narrow base with both knees close together under the hips
 
@@ -261,6 +271,8 @@ Drive aggressive crossface pressure timed between the opponent's sweep attempts,
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Pocket Half Guard?</p>
+
 **Phase 1: Recognition** - Identifying sweep initiation cues
 Partner executes the sweep at half speed while you focus on feeling the preparatory movements—hip angle change, underhook tightening, increased foot pressure. Build sensitivity to these cues without attempting to defend initially. Call out each cue verbally as you feel it.
 
@@ -277,26 +289,6 @@ Start in pocket half guard top with opponent having established deep underhook a
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that indicates this sweep is about to be attempted?
-**A**: The earliest cue is the opponent's subtle hip escape toward the underhook side, angling their hips rather than lying flat. This creates the bridge angle necessary for generating lateral force. You may also feel increased tension in their underhook grip and stronger foot pressure against your near hip as they establish the sweep mechanics.
-
-**Q2**: Why is committing forward pressure dangerous against an opponent who has this sweep loaded?
-**A**: Forward pressure shifts your center of gravity past the midline toward the opponent's underhook side, which is exactly the direction the sweep is designed to exploit. The opponent uses your forward momentum as additional force for the rotation—the harder you drive forward, the more powerful the sweep becomes when timed with your pressure.
-
-**Q3**: How do you choose between posting your hand and stripping the underhook as defensive responses?
-**A**: Strip the underhook when you have time before the sweep initiates—this removes the primary lever and eliminates the threat entirely. Post your hand when the sweep is already in motion and you need immediate base stability to prevent being swept. Attempting to strip the underhook during active sweep execution is too slow and results in being swept with one arm out of position.
-
-**Q4**: What is the defensive dilemma created when the opponent threatens both this sweep and the Old School Sweep?
-**A**: The directional dilemma forces you to balance weight perfectly on the midline. Sitting back to prevent the pocket sweep opens the Old School entry, while driving forward to prevent the Old School opens this sweep. The best defensive strategy is maintaining centered weight with a wide base while actively fighting the underhook, which addresses the root cause of both threats rather than reacting to each individually.
-
-
-
-</section>
 
 
 </main>

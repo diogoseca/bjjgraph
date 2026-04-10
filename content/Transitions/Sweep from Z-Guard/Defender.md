@@ -162,6 +162,8 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Sweep from Z-Guard?</p>
+
 - Bottom player secures deep underhook on the trapped leg side and begins pulling your weight forward with increasing intensity
 - Bottom player's hips angle sharply away from you as they create the lateral positioning needed to generate sweep force
 - You feel increasing tension and loading in the knee shield as the bottom player prepares to extend explosively
@@ -174,6 +176,8 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Sweep from Z-Guard?</p>
 
 - Maintain wide base with weight distributed across both knees to resist lateral displacement from the sweep
 - Win the underhook battle by stripping their underhook and establishing your own crossface control before they can set up
@@ -188,6 +192,8 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Sweep from Z-Guard?</p>
 
 ### 1. Widen base and drop hips to resist rotational force
 
@@ -225,6 +231,8 @@ As the defender (top player) facing the Sweep from Z-Guard, your primary objecti
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Sweep from Z-Guard?</p>
+
 ### → [[Positions/Side Control]]
 
 Counter the sweep by driving aggressive crossface pressure to flatten the bottom player, collapsing their knee shield, and completing a pass to side control while they are committed to the sweep setup and unable to recover guard structure
@@ -240,6 +248,8 @@ Defend the sweep by maintaining wide base, stripping the underhook early, and pr
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Sweep from Z-Guard?</p>
 
 ### 1. Driving excessive forward pressure into the knee shield without controlling the underhook
 
@@ -269,6 +279,8 @@ Defend the sweep by maintaining wide base, stripping the underhook early, and pr
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Sweep from Z-Guard?</p>
+
 **Phase 1: Recognition** - Identifying sweep setup cues
 Partner establishes Z-Guard and slowly works through sweep setup stages. Focus on recognizing underhook establishment, hip angle creation, and knee shield loading. No active defense yet, purely developing awareness of what each stage feels and looks like.
 
@@ -285,29 +297,6 @@ After successfully defending sweep attempts, immediately transition to passing s
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the earliest recognition cue that the bottom player is setting up a Z-Guard sweep?
-**A**: The earliest cue is when the bottom player begins fighting aggressively for the underhook on the trapped leg side. Before any sweep can be executed, they need this control point established. If you feel them pummeling or driving their arm under your armpit with increasing urgency, they are building toward a sweep attempt. Defending the underhook early prevents the sweep from developing.
-
-**Q2**: Why is forward pressure dangerous when the bottom player has an established underhook and angle?
-**A**: Forward pressure into the knee shield adds your own momentum to the sweep's rotational force. The bottom player's sweep works by using knee shield extension combined with underhook pull to create rotation. When you drive forward, you are essentially loading energy into the mechanism they will use to sweep you. The more pressure you apply, the less force they need to generate from their own body to complete the sweep.
-
-**Q3**: What is your best defensive option if the sweep has already been initiated and you feel yourself tipping?
-**A**: Post your hand immediately on the mat in the direction you are falling. This creates a new base point that catches your weight before you complete the rotation. However, this is a last-resort defense because the posting arm can be controlled or attacked. After posting, immediately work to re-center your base over the bottom player's body and strip their underhook to prevent a follow-up attempt.
-
-**Q4**: How should you distribute your weight to minimize vulnerability to the Z-Guard sweep?
-**A**: Distribute weight evenly across a wide base with both knees spread and hips positioned slightly behind the knee shield contact point rather than directly over it. Avoid concentrating weight on the trapped leg side where the sweep direction threatens. Keep your center of gravity low and centered between your knees rather than forward over the bottom player's frame.
-
-**Q5**: What counter-attack opportunity exists when the bottom player overcommits to the sweep?
-**A**: When the bottom player extends their knee shield explosively for the sweep, they momentarily create space between their body and yours. If you can maintain base through the sweep attempt, this space can be exploited to collapse the knee shield and drive through for a pass. Additionally, their underhook commitment during the sweep can be converted into a whizzer or used to establish your own crossface control as they extend.
-
-
-
-</section>
 
 
 </main>

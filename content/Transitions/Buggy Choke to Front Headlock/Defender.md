@@ -166,6 +166,8 @@ From a systemic perspective, the most successful defensive approach treats the t
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Buggy Choke to Front Headlock?</p>
+
 - Attacker's threading arm begins withdrawing from under your armpit while their opposite hand maintains or tightens collar tie or chin strap pressure on your neck
 - Attacker's feet begin shuffling in an arc toward your head rather than staying behind you, indicating the circling movement that precedes front headlock establishment
 - Choking pressure from the buggy choke suddenly decreases but head control remains or intensifies, signaling the attacker is abandoning the choke for positional transition
@@ -177,6 +179,8 @@ From a systemic perspective, the most successful defensive approach treats the t
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Buggy Choke to Front Headlock?</p>
 
 - Exploit the grip exchange window - the attacker is most vulnerable during the transition between buggy choke and front headlock when their primary grip releases
 - Avoid turning freely into the attacker's circling path, as this accelerates their front headlock establishment and delivers your neck into their control
@@ -191,6 +195,8 @@ From a systemic perspective, the most successful defensive approach treats the t
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Buggy Choke to Front Headlock?</p>
 
 ### 1. Explosive sit-out to guard recovery during the grip exchange
 
@@ -228,6 +234,8 @@ From a systemic perspective, the most successful defensive approach treats the t
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Buggy Choke to Front Headlock?</p>
+
 ### → [[Positions/Buggy Choke]]
 
 Strip the attacker's secondary head control grip during the arm extraction phase using both hands on their wrist. With the threading arm already withdrawn and the chin strap broken, all control connections are severed and the attacker must disengage, returning you to neutral turtle where you can pursue guard recovery.
@@ -243,6 +251,8 @@ Execute a sit-out or technical standup during the grip exchange window when the 
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Buggy Choke to Front Headlock?</p>
 
 ### 1. Turning freely into the buggy choke defense without preparing for the follow-up front headlock
 
@@ -277,6 +287,8 @@ Execute a sit-out or technical standup during the grip exchange window when the 
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Buggy Choke to Front Headlock?</p>
+
 **Week 1-2** - Recognition and timing awareness
 Partner slowly transitions from buggy choke to front headlock while you focus on feeling the grip exchange window through proprioception. Identify the exact moment the threading arm begins withdrawing and the secondary grip tightens. No escape attempts yet - pure sensory development and timing recognition at low speed.
 
@@ -293,29 +305,6 @@ Begin from buggy choke control with full resistance from both players. Attacker 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the highest-percentage defensive window during the Buggy Choke to Front Headlock transition?
-**A**: The highest-percentage window is during the grip exchange phase when the attacker releases the deep threading arm from under the armpit but has not yet established the full front headlock gable grip. During this brief period, the attacker's control is at its absolute weakest because they are between grip configurations. Explosive movement or grip stripping during this window can prevent the front headlock from ever materializing.
-
-**Q2**: Your attacker begins circling toward your head after releasing the buggy choke threading arm - what is your immediate response?
-**A**: Immediately counter-circle in the opposite direction while using both hands to strip the remaining chin strap or collar tie grip. The counter-circling creates angular separation that makes it harder for the attacker to arrive at front headlock angle. If the grip strip succeeds, you return to neutral turtle with full escape options. If it fails, the counter-circle still delays the front headlock and may create a scramble opportunity.
-
-**Q3**: Why is the turning defense against the buggy choke simultaneously the setup for the front headlock entry?
-**A**: The turning motion that relieves buggy choke pressure rotates your body to face partially away from the attacker, which is precisely the angle they need for front headlock control. Your turn exposes the side of your neck and positions the attacker's circling path directly toward your head. This is why you must prepare secondary defenses while turning - the turn solves one problem but creates another if you do not anticipate the follow-up transition.
-
-**Q4**: You feel the attacker's chest weight shifting from your back toward your near shoulder - what does this signal and how should you respond?
-**A**: This weight shift signals the transition from buggy choke vertical pressure to front headlock diagonal pressure. The attacker is moving from behind you to perpendicular. Respond immediately by framing against their shoulder with your near arm to prevent them from settling the perpendicular angle, while simultaneously sitting out or standing up. Once the diagonal pressure fully establishes, escape becomes significantly more difficult.
-
-**Q5**: When is accepting front headlock bottom a better choice than fighting the transition aggressively?
-**A**: Accepting front headlock bottom is rarely optimal, but it becomes the least-bad option when your grip stripping and escape attempts have failed and the attacker has already consolidated strong head control with both hands. At that point, continued scrambling wastes energy and may expose your neck further. Instead, settle into proper front headlock defensive posture with chin tucked, hand fighting the choking arm, and work the standard front headlock escape sequence rather than fighting a lost transition battle.
-
-
-
-</section>
 
 
 </main>

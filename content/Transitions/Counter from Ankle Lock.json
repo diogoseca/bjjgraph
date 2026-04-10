@@ -29,7 +29,7 @@
       "result": "counter"
     },
     {
-      "to": "game-over",
+      "to": "Straight Ankle Lock",
       "probability": 15,
       "result": "counter"
     }
@@ -163,7 +163,7 @@
         "counter": "Attacker deepens grip and commits to finishing the ankle lock before boot defense is fully established",
         "effectiveness": "High",
         "your_response": "Prioritize boot defense completion over grip fighting. If toes are not yet tucked, abandon two-on-one grip work and focus entirely on foot positioning. A secure boot defense nullifies even deep grips, while grip fighting without boot defense leaves you vulnerable to the finish.",
-        "targets_outcome": "game-over"
+        "targets_outcome": "Side Control/Top"
       },
       {
         "counter": "Attacker transitions to inside ashi-garami by threading their leg through as you drive forward, using your momentum to enter a more dominant entanglement",
@@ -223,7 +223,7 @@
         "description": "Partner establishes straight ankle lock control at 30% resistance. Practice plantarflexing the foot, tucking toes behind the armpit, and maintaining boot defense under gradually increasing submission pressure. Focus on the timing of when to establish boot defense relative to grip completion. Build muscle memory for the foot position that becomes automatic under stress."
       },
       {
-        "phase": "Phase 2: Grip Fighting Integration",
+        "phase": "Phase 2: Grips Integration",
         "focus": "Two-on-one grip stripping with maintained boot defense",
         "description": "From established ankle lock control, practice two-on-one grip fighting while maintaining boot defense. Partner provides moderate resistance on grips. Focus on attacking the thumb line of the heel grip, sequencing hand placement for maximum stripping efficiency, and maintaining boot defense throughout. Build the coordination of simultaneous foot defense and hand offense."
       },
@@ -305,7 +305,7 @@
       {
         "action": "Deepen grip and commit to immediate finish before boot defense completes",
         "when_to_use": "In the first 2-3 seconds of recognizing counter initiation, before boot defense is fully established and toes are securely tucked",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Side Control/Top",
         "if_successful": "The ankle lock finishes before the counter can develop, ending the exchange immediately",
         "risk": "If boot defense completes during your commitment, you have spent energy and time on a failed finish with no transition"
       },
@@ -326,14 +326,14 @@
       {
         "action": "Switch to kneebar attack by rotating grip to the opponent's knee line as they extend during the forward drive",
         "when_to_use": "When the opponent straightens their trapped leg during the forward stacking phase, creating kneebar exposure that was not available during standard ankle lock positioning",
-        "targets_outcome": "game-over",
+        "targets_outcome": "Side Control/Top",
         "if_successful": "The submission attack switches to a kneebar that the opponent is not prepared to defend since they were focused on ankle lock counter mechanics",
         "risk": "The kneebar requires releasing ankle control, and if the attack fails, you have no submission grip remaining"
       }
     ],
     "favorable_outcomes": [
       {
-        "outcome": "game-over",
+        "outcome": "Side Control/Top",
         "how": "Commit to finishing the ankle lock in the first 2-3 seconds before boot defense completes, or switch to a kneebar attack when the opponent extends their leg during the forward stacking phase. The key is decisiveness: finish before the counter develops or exploit the new angles created by their counter movements."
       },
       {

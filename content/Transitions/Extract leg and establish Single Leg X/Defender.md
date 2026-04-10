@@ -160,6 +160,8 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 
 ## How to Recognize This Attack
 
+<p class="section-subtitle">How do you know when someone is attempting Extract leg and establish Single Leg X?</p>
+
 - Bottom player begins rotating their hips toward the extraction side while pushing with their free leg against your hip, creating angular space in the entanglement
 - Bottom player's trapped leg goes completely limp and relaxed instead of maintaining normal tension, indicating preparation for limp leg extraction mechanics
 - Bottom player's hands reposition from defensive grips on their own foot/ankle to reaching toward your leg or ankle, preparing to capture your leg for Single Leg X-Guard hooks
@@ -171,6 +173,8 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Extract leg and establish Single Leg X?</p>
 
 - Maintain constant tension in the leg entanglement to eliminate slack that enables extraction angles
 - Minimize transitional windows during grip adjustments by overlapping controls before releasing old grips
@@ -185,6 +189,8 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Extract leg and establish Single Leg X?</p>
 
 ### 1. Drive forward with heavy hip pressure and sprawl to pin opponent's hips flat against the mat, eliminating rotation angles
 
@@ -215,6 +221,8 @@ Advanced defensive strategy goes beyond simple retention. When the bottom player
 
 ## Best-Case Outcomes for Defender
 
+<p class="section-subtitle">What is the best outcome when defending Extract leg and establish Single Leg X?</p>
+
 ### → [[Positions/Leg Knot]]
 
 Maintain tight leg crossing with constant hip pressure to deny extraction angles. Overlap grip adjustments so there is never a window of loose control. Use your top leg to block opponent's free leg from framing. Pin their hips flat with forward drive whenever you detect rotation beginning.
@@ -230,6 +238,8 @@ When opponent commits to extraction and creates rotation, capitalize on the move
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Extract leg and establish Single Leg X?</p>
 
 ### 1. Creating unnecessary transitional windows by releasing grips to reach for submissions without maintaining backup control
 
@@ -259,6 +269,8 @@ When opponent commits to extraction and creates rotation, capitalize on the move
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Extract leg and establish Single Leg X?</p>
+
 **Week 1-2** - Recognition and retention fundamentals
 Partner attempts extraction from Leg Knot Bottom at slow speed with clear telegraphing. Practice identifying recognition cues and responding with tightened control. Focus on maintaining tight leg crossing and hip pressure responses. No submission attacks yet—purely retention focused.
 
@@ -275,29 +287,6 @@ Full resistance rounds starting from Leg Knot with both players working their sy
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What are the earliest recognition cues that your opponent is preparing a leg extraction attempt?
-**A**: The earliest cues are: the trapped leg going completely limp and relaxed (indicating limp leg mechanics preparation), increased pushing and framing activity from their free leg against your hip or body, subtle hip rotation toward the extraction side, and their hands repositioning from defensive foot/ankle protection toward reaching for your leg to capture it. Recognizing these precursors before the actual extraction motion begins gives you the most time to respond effectively.
-
-**Q2**: How should you adjust your leg entanglement control when you sense an extraction attempt beginning?
-**A**: Immediately tighten your leg crossing by squeezing your knees together and increasing pressure on opponent's trapped thigh. Drive your hips forward to pin their hips flat and eliminate the rotation angle they need. Use your top leg to control their free leg, removing their primary framing tool. If you can, initiate a submission threat simultaneously to force them to abandon the extraction and return to defending the entanglement.
-
-**Q3**: Your opponent's extraction is nearly complete and their leg is sliding free - what is your best tactical option?
-**A**: When extraction is nearly complete, attempting to retain the original entanglement is usually futile and wastes energy. You have two viable options: capitalize on the angle change to advance to Saddle by crossing your leg over their now-exposed knee line during the transition, or disengage completely by pulling your own leg back and immediately sprawling to top position before they can establish Single Leg X hooks. The choice depends on whether their knee line is exposed (advance to Saddle) or protected (disengage and pass).
-
-**Q4**: Why is overlapping grip control essential when defending against extraction attempts?
-**A**: Every time you release one grip to establish another, you create a transitional window where your overall control is reduced. Skilled opponents specifically wait for these moments to initiate extraction. Overlapping means establishing your new controlling grip or leg position before releasing the old one, so you always maintain at least two points of control. This eliminates the single-grip windows that enable extraction and forces opponent to break multiple controls simultaneously, which is far more difficult.
-
-**Q5**: How do you prevent your forward driving pressure from being used against you in a Granby roll counter?
-**A**: Control your forward pressure by driving into opponent's hips rather than over their body. Keep a wide base with your free leg posted diagonally to maintain balance if they attempt to invert. Distribute your weight through your chest onto their thigh rather than leaning your center of gravity past their body. If you feel them begin to invert, immediately pull back your hips and redirect your pressure downward rather than forward, removing the momentum they need for the Granby roll.
-
-
-
-</section>
 
 
 </main>

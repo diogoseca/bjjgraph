@@ -186,6 +186,8 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Single Leg X Entry?</p>
+
 - Control opponent's captured leg at the ankle and knee simultaneously for maximum control
 - Use inside leg hook behind opponent's knee to prevent backward escape
 - Maintain outside leg positioning across opponent's hip to control distance and angle
@@ -201,6 +203,8 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Single Leg X Entry?</p>
+
 - Seated guard position established with hips mobile and not flat on mat
 - Opponent in standing or combat base position within engagement range
 - At least one grip secured on opponent's leg, ankle, or pant material
@@ -214,6 +218,8 @@ The Single Leg X position reached through this entry offers multiple offensive p
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Single Leg X Entry step by step?</p>
 
 1. **Establish initial seated guard position**: Begin in seated guard with your hips elevated slightly off the mat, posting on your hands behind you. Keep your legs mobile and ready to engage, with knees bent and feet active. Maintain posture that allows quick movement in any direction while tracking opponent's movement and weight distribution.
 2. **Secure ankle or lower leg grip**: As opponent steps forward or shifts weight, immediately secure a grip on their ankle, achilles, or lower pant leg on the side you intend to attack. Use a firm overhand grip with your hand wrapping around the ankle from outside to inside. This grip prevents them from stepping back and serves as your primary control point throughout the entry.
@@ -242,6 +248,8 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Single Leg X Entry?</p>
+
 - **Opponent backsteps and pulls captured leg away before you establish inside hook** (Effectiveness: High) - Your Response: Follow their backward movement by scooting forward on your hips, maintaining ankle grip while persistently pursuing the inside hook. Alternatively, switch to De La Riva or Reverse De La Riva guard if they create too much distance. → Leads to [[Positions/Seated Guard]]
 - **Opponent sprawls heavily forward, driving chest pressure down onto your outside leg frame** (Effectiveness: Medium) - Your Response: Immediately retract outside leg and transition to X-Guard or Deep Half Guard by swimming your outside leg deeper underneath their hips. Use their forward pressure as momentum to facilitate the positional change. → Leads to [[Positions/Seated Guard]]
 - **Opponent circles away from your inside hook, rotating their hips to face away** (Effectiveness: Medium) - Your Response: Follow their rotation by adjusting your angle, walking your hips in the same direction they circle. If they continue rotating, transition to their back or switch to attacking their opposite leg with technical stand-up entry. → Leads to [[Positions/Seated Guard]]
@@ -253,6 +261,8 @@ The Single Leg X position reached through this entry offers multiple offensive p
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Single Leg X Entry?</p>
 
 ### 1. Allowing hips to remain flat on mat during entry
 
@@ -287,10 +297,12 @@ The Single Leg X position reached through this entry offers multiple offensive p
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Single Leg X Entry (Attacker)?</p>
+
 **Week 1-2: Fundamental Entry Mechanics** - Mastering basic entry sequence with cooperative partner
 Practice entry from seated guard with partner in standing position offering no resistance. Focus on clean execution of each step: grip, inside hook, outside frame, hip elevation, angle adjustment. Repeat 20-30 repetitions per training session, alternating sides. Partner should allow you to complete full entry and hold position for 5 seconds before resetting.
 
-**Week 3-4: Timing and Grip Fighting** - Developing timing awareness and grip security
+**Week 3-4: Timing and Grips** - Developing timing awareness and grip security
 Partner begins adding light resistance by attempting to pull their leg away when you reach for ankle grip. Practice grip fighting and re-gripping while maintaining position pursuit. Work on timing entry when partner shifts weight forward or sideways. Begin chaining entry with follow-up sweeps or transitions to build muscle memory for offensive sequences.
 
 **Week 5-8: Counter Defense and Adjustment** - Recognizing and countering common defensive responses
@@ -310,48 +322,12 @@ Develop multiple entry pathways to Single Leg X from standing, kneeling, and var
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary function of the inside leg hook in Single Leg X Entry?
-**A**: The inside leg hook serves multiple critical functions: it prevents opponent from stepping backward to escape, creates clamping pressure by pulling their leg toward you, compromises their base by attacking one pillar of their stance, and works in conjunction with your ankle grip to create two-point control on the same leg. The hook should be positioned deep behind their knee with your heel pulling toward their hamstring for maximum effectiveness.
-
-**Q2**: Why must your hips remain elevated during Single Leg X Entry rather than flat on the mat?
-**A**: Hip elevation is essential because it creates the lifting, off-balancing angle that defines effective Single Leg X position. When hips are elevated, you generate upward and angular pressure that pulls opponent forward and across your centerline, compromising their balance. Flat hips eliminate this leverage, making the position static and allowing opponent to maintain centered base. The elevation also keeps you mobile and able to adjust angles as opponent attempts to counter.
-
-**Q3**: What is the correct placement for the outside leg frame and why is this positioning important?
-**A**: The outside leg should be positioned across opponent's hip or lower abdomen, with your foot pressing into their hip bone. This placement is crucial because it controls distance and prevents opponent from driving their weight directly down onto you, which would flatten you and eliminate your off-balancing leverage. Positioning too high (at ribs or shoulders) allows them to drive past your frame. Too low provides insufficient distance control. Hip-level positioning maintains optimal leverage while keeping you safe from passes.
-
-**Q4**: Your opponent begins backstopping away from your entry attempt - how do you adjust?
-**A**: When opponent backsteps, you must immediately follow their movement by scooting your hips forward while maintaining your ankle grip. Pursue the inside hook persistently as you move with them. If they create too much distance and you cannot complete the entry, transition to alternative positions like De La Riva Guard or Reverse De La Riva Guard that work at longer range. The key is never surrendering your ankle grip prematurely, as this grip prevents complete escape and maintains your attacking connection.
-
-**Q5**: What are the three primary offensive pathways available after successfully entering Single Leg X position?
-**A**: After establishing Single Leg X, you have three main offensive categories: (1) Sweeps to top position using the off-balancing structure you've created, typically sweeping opponent forward and over their captured leg, (2) Transitions to more complex leg entanglement positions such as Ashi Garami, Outside Ashi-Garami, X-Guard, or Deep Half Guard depending on how opponent reacts, and (3) Direct submission attacks including kneebars, ankle locks, or toe holds on the captured leg, though these require careful positioning and often work best in combination with sweep threats.
-
-**Q6**: Why is angling your body toward the captured leg important rather than staying square to your opponent?
-**A**: Angling toward the captured leg creates oblique off-balancing pressure that pulls opponent diagonally forward rather than straight down. This diagonal pull is much harder to defend because it attacks their base at an angle where they have less structural stability. When you stay square, any pressure you generate is directly into their stance where they are strongest. The angle, typically around 45 degrees, also facilitates smoother transitions to connected positions and creates more difficult recovery problems for the opponent.
-
-**Q7**: Your opponent sprawls forward with heavy chest pressure as you attempt the entry - what is the optimal response?
-**A**: When opponent sprawls forward with pressure, do not fight against the force. Instead, use their momentum by retracting your outside leg from the hip frame and swimming it deeper underneath their hips to transition toward X-Guard or Deep Half Guard. Their forward commitment actually assists this transition because their weight is already moving in a direction that favors your positional change. Maintain ankle grip throughout and redirect their energy into the new position rather than absorbing it.
-
-**Q8**: What grip must you secure first, and why is the sequence of grip acquisition critical?
-**A**: The ankle or lower leg grip must be secured first because it is the foundational control point for the entire entry. This grip prevents backward escape, anchors your connection to their leg, and enables all subsequent steps (inside hook, outside frame, hip elevation). Gripping higher first (at the knee or thigh) leaves their foot and ankle free, allowing them to simply step away or reposition before you can establish your hooks. The ankle grip also gives you the longest lever arm for controlling their leg direction during the entry.
-
-**Q9**: Your opponent posts their free leg wide and drops their weight - how does this change your attack?
-**A**: A wide base with dropped weight actually creates vulnerability because their weight is now distributed laterally rather than centered. This makes off-balancing easier in the direction perpendicular to their base. Execute your sweep earlier before they fully settle, directing the sweep laterally across their wide base. Alternatively, their posted leg is now isolated and accessible, allowing you to transition your outside leg from hip frame to attacking the posted leg for an Ashi Garami entry. The wide base compromises their ability to recover in any single direction quickly.
-
-**Q10**: What conditions must exist in your seated guard before you can realistically attempt this entry?
-**A**: Before attempting the entry, you need: hips that are mobile and elevated (not flat on mat), at least one accessible leg from your opponent within gripping range, your inside leg free to insert the hook without being controlled, and your opponent's weight must be shifting forward or their base narrowed from movement. If opponent is perfectly centered with wide base and you have no grips, attempting the entry cold will fail. Create the conditions by using foot pushes, grip fighting, or threatening technical standup to draw them forward before committing to the entry.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Single Leg X Entry?</p>
 
 Single Leg X Entry is generally a safe technique when practiced with proper control, but several safety considerations must be observed. When inserting the inside hook behind opponent's knee, do so smoothly without jerking or twisting their leg suddenly, as aggressive hooking can stress knee ligaments. If transitioning directly to leg locks from this position, ensure you and your training partners understand appropriate submission progression and tap early protocols, particularly with heel hooks which can cause severe injury. During the entry, be aware that aggressive backward resistance from opponent while you have deep grips can create awkward falling situations, so maintain control of your own balance. When drilling with elevated hips, ensure adequate mat space behind you as rapid angle changes can cause backward rolling if not properly controlled. Communicate with training partners during learning phases and start with cooperative drilling before adding resistance. For beginners, focus on position establishment rather than immediate submissions until mechanics are solid. As with all leg entanglement work, tap early and often to protect knee and ankle joints from cumulative stress.
 

@@ -44,8 +44,8 @@ description: "Master Butterfly Guard Bottom in BJJ. Dynamic open guard with expl
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Guillotine Choke",
-      "text": "From this position, attempt Guillotine Choke. This technique is attempted in 5% of exchanges from this position.",
+      "name": "Execute Guillotine Choke from Butterfly Guard",
+      "text": "From this position, attempt Guillotine Choke from Butterfly Guard. This technique is attempted in 7% of exchanges from this position.",
       "position": 5
     },
     {
@@ -171,6 +171,8 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ## Position Definition
 
+<p class="section-subtitle">What is Butterfly Guard (Bottom)?</p>
+
 - Both hooks inserted under opponent's thighs with insteps or balls of feet making contact against inner thighs, creating inside position and leverage points for elevation
 - Seated upright position maintained with core engaged, chest forward, and hips mobile rather than flat on back, allowing for dynamic movement and proper leverage mechanics
 - Upper body control established through grips on collar, sleeves, or underhooks, controlling opponent's posture and preventing them from standing tall or creating excessive distance
@@ -182,6 +184,8 @@ The learning curve for butterfly guard involves developing several interconnecte
 <section id="prerequisites" class="content-section">
 
 ## Prerequisites
+
+<p class="section-subtitle">What do you need before playing Butterfly Guard (Bottom)?</p>
 
 - Sufficient hip mobility and flexibility to maintain seated position with knees flared outward comfortably for extended periods
 - Core strength and stability to maintain upright posture under opponent's forward pressure and passing attempts
@@ -195,6 +199,8 @@ The learning curve for butterfly guard involves developing several interconnecte
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Butterfly Guard?</p>
 
 - Maintain inside position with hooks deep under opponent's thighs to maximize elevation potential and prevent opponent from establishing outside control
 - Keep seated posture upright with active core engagement to prevent being flattened, maintaining offensive capability and sweep readiness
@@ -210,6 +216,8 @@ The learning curve for butterfly guard involves developing several interconnecte
 <section id="decision-tree" class="content-section">
 
 ## Decision Making from This Position
+
+<p class="section-subtitle">What should you do from Butterfly Guard (Bottom)?</p>
 
 **If opponent maintains low combat base with hands posted forward defensively:**
 - Execute **[[Transitions/Butterfly Sweep/Attacker|Butterfly Sweep]]** → [[Positions/Mount]] (Probability: 65%)
@@ -243,6 +251,8 @@ The learning curve for butterfly guard involves developing several interconnecte
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Butterfly Guard?</p>
 
 ### 1. Lying flat on back instead of maintaining upright seated posture with active core
 
@@ -287,6 +297,8 @@ The learning curve for butterfly guard involves developing several interconnecte
 
 ## Training Drills for Defense
 
+<p class="section-subtitle">How do you train Butterfly Guard defense?</p>
+
 ### Hook Insertion and Elevation Drill
 
 Partner starts in combat base while you practice inserting hooks and generating elevation with progressive resistance. Focus on feeling the leverage points and timing the elevation with upper body pull. Start with compliant partner and gradually increase resistance as technique improves.
@@ -308,7 +320,7 @@ Start in established butterfly guard and work against live resistance. Bottom pl
 **Duration**: 5-minute rounds, 4-6 rounds
 
 
-### Grip Fighting and Upper Body Control
+### Grips and Upper Body Control
 
 Focus specifically on establishing and maintaining dominant grips from butterfly position. Partner actively fights grips and attempts to establish their own controlling grips. Work on breaking posture and controlling distance through grip strategies without using hooks for sweeps.
 

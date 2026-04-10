@@ -188,6 +188,8 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Duck Under from Clinch?</p>
+
 - Change levels through the knees, not the waist—maintain a strong spine angle to protect against front headlock and preserve explosive lateral power
 - Create misdirection before commitment—generate an upward or lateral reaction from the opponent to open space beneath their arm for the level change
 - Clear the arm actively using your hands to redirect the opponent's elbow upward rather than passively ducking lower beneath it
@@ -202,6 +204,8 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Duck Under from Clinch?</p>
+
 - Close clinch range with head contact or near-head proximity, ensuring minimal distance for the level change to cover
 - At least one controlling grip such as collar tie, bicep control, or wrist grip on the side you intend to duck under
 - Opponent's weight slightly forward or committed to upper body engagement, preventing immediate disengagement when you change levels
@@ -214,6 +218,8 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Duck Under from Clinch step by step?</p>
 
 1. **Establish controlling grip**: From the clinch, secure a collar tie or wrist control on the side you intend to duck under while maintaining head position against the opponent's shoulder. Your inside hand controls their bicep or elbow on the duck side, preparing for arm clearance during the level change.
 2. **Create misdirection**: Apply a brief push or snap to the opponent's head or shoulder on the duck under side to generate a reactive response. This misdirection redirects their attention upward or laterally, causing their arms to lift and creating the momentary gap beneath their arm needed for the level change.
@@ -243,6 +249,8 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Duck Under from Clinch?</p>
+
 - **Sprawl and hip away upon recognizing the level change, driving hips back and pushing attacker's head down** (Effectiveness: High) - Your Response: Convert to single leg by catching their near leg as they sprawl backward, or immediately re-engage the clinch from a lower position using an underhook → Leads to [[Positions/Clinch]]
 - **Whizzer (overhook) threaded on the duck side as head passes beneath the arm, controlling the attacker's shoulder** (Effectiveness: Medium) - Your Response: Continue circling through the whizzer by keeping hips tight to opponent's body and driving short steps; alternatively switch to an inside trip on the far leg using the close proximity → Leads to [[Positions/Clinch]]
 - **Cross-face with free hand as attacker ducks, combined with hip re-squaring to prevent the circle behind** (Effectiveness: High) - Your Response: Underhook on the cross-face side and drive through to complete the back take, or disengage and re-engage from standing with a snap down → Leads to [[Positions/Clinch]]
@@ -254,6 +262,8 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Duck Under from Clinch?</p>
 
 ### 1. Bending at the waist instead of dropping hips through the knees when changing levels
 
@@ -293,6 +303,8 @@ The Duck Under from Clinch is executed by the practitioner who uses a level chan
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Duck Under from Clinch (Attacker)?</p>
+
 **Phase 1: Solo Mechanics** - Level change and circular footwork pattern
 Drill the duck under motion without a partner, focusing on dropping hips through bent knees while maintaining upright torso, stepping across with the near foot, and driving laterally with short shuffle steps. Build muscle memory for the movement pattern and develop explosiveness in the level change.
 
@@ -313,48 +325,12 @@ Integrate the duck under into complete sparring rounds, working on setting up th
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the critical mechanical difference between a successful duck under level change and one that gets stuffed?
-**A**: The successful duck under changes levels by bending at the knees while keeping the torso relatively upright, which maintains base, speed, and protects the neck from front headlock attacks. A failed duck under typically bends at the waist, which exposes the back of the neck, removes hip power from the lateral motion, and creates a slow telegraphed movement. The knee bend preserves the ability to drive laterally with explosive steps while the waist bend collapses your structure forward into the opponent's control framework.
-
-**Q2**: Your opponent has a strong collar tie on your right side—which direction do you duck under and why?
-**A**: Duck under to your right, going beneath their collar tie arm. The collar tie creates the ideal opportunity because the arm is already extended and positioned above your head level. By ducking under this arm, you use their grip commitment against them—their hand is occupied controlling your head, making it slower to react to the level change. Push their right elbow upward with your right hand as you step across with your right foot, clearing your head under the arm they cannot quickly retract.
-
-**Q3**: What misdirection setup most effectively disguises the duck under from an experienced clinch fighter?
-**A**: A brief snap down or push on the opponent's head toward their weak side creates a momentary upward or lateral reaction that opens space for the duck under. The opponent instinctively resists the snap by posturing up or pushing back, which lifts their arms and creates the gap beneath them. Alternatively, threatening a single leg entry on the opposite side forces them to defend low, then immediately redirecting to the duck under exploits their downward defensive commitment and creates maximum space beneath the arms.
-
-**Q4**: What grip must you establish before attempting the duck under and where does that hand go during execution?
-**A**: You need at least a bicep or wrist control on the duck under side before initiating. During execution, this hand transitions to pushing the opponent's elbow upward and past your head to clear the path. Without this controlling grip, you cannot effectively redirect their arm above your head, and the duck under becomes a pure level change without arm clearance—dramatically increasing the risk of getting caught in a front headlock or guillotine as you lower your head into their control range.
-
-**Q5**: Your duck under gets halfway through but the opponent whizzers your near arm—how do you complete the technique?
-**A**: Keep your hips tight to their body and continue circling despite the whizzer. The overhook only works defensively if you stop your lateral movement—as long as you maintain circular momentum, the whizzer actually becomes a connection point that keeps you attached to their body. Drop your hips lower to reduce their leverage angle, keep driving short shuffle steps behind them, and use your free arm to secure a grip around their waist. If the whizzer is extremely deep and stops your rotation, switch to an inside trip on their far leg using the close proximity the whizzer creates.
-
-**Q6**: What is the most common counter an opponent will use against the duck under and how do you prevent it?
-**A**: The sprawl is the most common counter. Opponents who feel the level change immediately drive their hips backward and push down on your head or shoulders. Prevention relies on proper misdirection and explosive commitment—if you snap or push before ducking, the opponent's upward reaction opens a window where a sprawl is physiologically delayed by their recovery. Additionally, keeping your head tight to their body rather than leading with your head extended forward makes the sprawl less effective because there is less exposed surface for them to push down on.
-
-**Q7**: In what clinch scenario is the duck under highest percentage versus when should you choose a different technique?
-**A**: The duck under is highest percentage when the opponent is focused on upper body control with committed grips—collar ties, overhooks, or high wrist controls that leave space beneath their arms. It works best against taller opponents whose natural arm extension creates larger gaps for head clearance. Avoid the duck under when the opponent has low tight underhooks with their head buried in your chest, as there is no space to duck through and your level change exposes you to lifts. In that scenario, an arm drag or snap down is more appropriate since the opponent's structure is compact and low.
-
-**Q8**: How does the duck under chain with other clinch techniques when your initial attempt is blocked?
-**A**: If the duck under is stuffed by a sprawl, immediately transition to a single leg by catching the near leg before they recover their hips forward. If they counter with a cross-face, convert to an arm drag by capturing the cross-facing arm and circling the opposite direction. If they re-square quickly, the duck under attempt has created a reaction you can exploit with a snap down to front headlock. The duck under must be treated as the first link in a chain rather than an isolated technique—the failed attempt always creates a follow-up opening.
-
-**Q9**: What footwork pattern makes the duck under most mechanically effective?
-**A**: The footwork follows a penetration step pattern where your near foot—same side as the duck—steps across past the opponent's centerline as you duck beneath their arm. This initial penetration step is the most critical movement because it commits your body to the circular path and creates the angular momentum needed to complete the back take. Follow immediately with short lateral shuffle steps driving behind them, never crossing your feet which would compromise your base. The near foot leads, the far foot follows, maintaining shoulder-width balance throughout the circling motion.
-
-**Q10**: What body contact point must you achieve immediately after clearing the opponent's arm and why is it critical?
-**A**: Chest-to-back contact is the essential connection point that must be established the instant you clear their arm. Your chest pressed firmly against the opponent's upper back creates a physical barrier that prevents them from turning to face you by blocking their rotational movement. Without immediate chest contact, there is a critical window where the opponent can spin their hips, re-square their stance, and face you before you establish any controlling grip. The chest contact also provides the sustained forward pressure needed to prevent them from simply stepping away from you.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Duck Under from Clinch?</p>
 
 The duck under involves rapid level changes that can strain the lower back and knees if performed with poor mechanics. Always warm up the neck, lower back, hip flexors, and knees thoroughly before drilling. Partners should avoid applying excessive downward pressure on the head or neck during the ducking phase, as this can compress the cervical spine dangerously. Practice at controlled speed initially, progressing to full speed only after proper knee-bend mechanics are habitual. In live training, be aware of potential collision risk when both practitioners change levels simultaneously from the clinch.
 

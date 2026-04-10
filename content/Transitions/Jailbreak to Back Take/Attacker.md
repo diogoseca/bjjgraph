@@ -186,6 +186,8 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Jailbreak to Back Take?</p>
+
 - Maintain underhook connection throughout the entire rolling sequence as the mechanical link enabling the back take
 - Accelerate through the roll when opponent follows rather than stopping at turtle position
 - Use opponent's forward momentum against them by redirecting their chase into back exposure
@@ -201,6 +203,8 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Jailbreak to Back Take?</p>
+
 - Secure underhook on same side as trapped leg with elbow tight to hip before initiating jailbreak
 - Top player commits forward pressure indicating they will likely follow your escape attempt
 - Sufficient space to execute initial jailbreak rolling motion without being completely flattened
@@ -213,6 +217,8 @@ This transition exemplifies the principle of using opponent reactions to your ad
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Jailbreak to Back Take step by step?</p>
 
 1. **Establish underhook**: Secure deep underhook on the same side as your trapped leg with your elbow tight against your own hip. This connection is critical and must be maintained throughout the entire sequence.
 2. **Initiate jailbreak roll**: Tuck your chin to your chest and begin inverting toward the mat, using explosive hip movement and your free leg pushing off the ground to generate rolling momentum toward the trapped leg side.
@@ -241,6 +247,8 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 ## Opponent Counters
 
+<p class="section-subtitle">How might your opponent counter Jailbreak to Back Take?</p>
+
 - **Top player disengages and resets rather than following the jailbreak roll** (Effectiveness: High) - Your Response: Settle into turtle position and work turtle escapes, or re-engage half guard. The disengage still represents positional improvement for you. → Leads to [[Positions/Jailbreak]]
 - **Top player drives hard to flatten you before roll gains momentum** (Effectiveness: High) - Your Response: Focus on maintaining underhook and creating small frames. Wait for weight shift forward before attempting escape, or switch to deep half entry. → Leads to [[Positions/Half Guard]]
 - **Top player posts arm or hip wide to base out against the rolling momentum** (Effectiveness: Medium) - Your Response: Use their wide base as opportunity to come underneath for deep half guard entry, or settle for standard turtle escape. → Leads to [[Positions/Jailbreak]]
@@ -252,6 +260,8 @@ This transition exemplifies the principle of using opponent reactions to your ad
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Jailbreak to Back Take?</p>
 
 ### 1. Losing underhook during the rolling sequence
 
@@ -286,6 +296,8 @@ This transition exemplifies the principle of using opponent reactions to your ad
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Jailbreak to Back Take (Attacker)?</p>
+
 **Week 1-2** - Jailbreak mechanics
 Master the basic jailbreak escape to turtle first. Focus on underhook establishment, chin tuck, and rolling mechanics without attempting the back take continuation. Build muscle memory for the foundational movement.
 
@@ -303,51 +315,12 @@ Integrate into live rolling from half guard bottom position. Partner applies ful
 </section>
 
 
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the primary goal of Jailbreak to Back Take?
-**A**: The primary goal is to convert a defensive half guard escape into an offensive back control position. By continuing the jailbreak rolling momentum when the opponent follows, you use their chase against them to establish the most dominant position in BJJ rather than settling for the neutral turtle position.
-
-**Q2**: What is the most critical control point that must be maintained throughout this technique?
-**A**: The underhook on the same side as your trapped leg is the essential control point. This grip serves as your connection to the opponent throughout the rolling sequence, prevents them from disengaging during your escape, and provides the leverage needed to pull yourself behind them for the back take. Without the underhook, the technique fails completely.
-
-**Q3**: Your opponent starts driving forward to flatten you before you can initiate the roll - how do you adjust?
-**A**: When the opponent drives forward to flatten you, focus on maintaining your underhook and creating small frames to prevent complete flattening. Wait for their weight to shift forward, which indicates they're committing to pressure - this is actually the optimal moment to execute the jailbreak. Alternatively, if flattening continues, consider switching to a deep half guard entry using the same underhook as your entry point.
-
-**Q4**: How do you determine at the mid-point of the roll whether to continue to back take or settle for turtle?
-**A**: At approximately 180 degrees through the roll, feel for opponent's momentum and connection. If they're actively following with their weight moving in your direction, continue accelerating through to back take. If they disengage, stop pursuing, or base out wide, settle for turtle position. The key indicator is whether you feel their pressure continuing to follow you or releasing.
-
-**Q5**: What makes this technique a true dilemma for the top player in half guard?
-**A**: The jailbreak to back take creates a dilemma because the top player must choose between two bad options. If they disengage when you initiate jailbreak, you escape to turtle and they lose their dominant position. If they follow the roll to prevent turtle escape, they expose their back. Either choice results in positional loss for the top player, making this a forcing function in the half guard battle.
-
-**Q6**: What should your immediate action be upon completing the roll to the opponent's back?
-**A**: Immediately insert both hooks inside the opponent's thighs with toes pointing outward to establish standard back control. This must happen within 1-2 seconds of achieving back position. Until hooks are established, the opponent can still turn to face you and escape. Transition your underhook grip to harness or seatbelt control only after hooks are secure.
-
-**Q7**: Your opponent strips your underhook mid-roll - what is your recovery protocol?
-**A**: Immediately abort the back take attempt when the underhook is lost. Without this connection, you cannot control the opponent's movement and they will likely follow to mount or side control. Transition to emergency turtle defense or attempt to re-establish half guard frames. Never try to complete the technique once the underhook is compromised.
-
-**Q8**: How does the chair sit variation differ from the standard rolling back take?
-**A**: The chair sit variation uses the underhook to sit through underneath the opponent rather than completing a full roll. As the opponent follows your initial jailbreak movement, you use their momentum to pull yourself underneath and behind them from a seated position. This variation is useful when flexibility limits rolling options or when the opponent's following momentum is very strong, making controlled deceleration into the seat position more effective than trying to match their speed through the roll.
-
-**Q9**: What is the optimal timing window for initiating the jailbreak to back take sequence?
-**A**: The optimal timing window is when the top player commits their weight forward onto your upper body, narrowing their base and making them vulnerable to being rolled. This moment typically occurs when they drive crossface pressure or attempt to flatten you with shoulder pressure. Their forward weight commitment means their center of gravity is advanced past their base, which is the biomechanical condition that makes the rolling escape mechanically viable. Initiating before this commitment lacks sufficient momentum, and waiting too long allows them to consolidate control.
-
-**Q10**: Your opponent follows your roll but immediately sprawls their hips back as you reach their side - what is your adjustment?
-**A**: When the opponent sprawls during the transition, their hips pull away from your chest, making full back control difficult. Rather than chasing their hips, transition to crab ride by inserting one hook while controlling their far arm or lapel. The crab ride gives you an intermediate control position from which you can work to re-establish full back control once their hips settle. Alternatively, use the underhook to drag them into a front headlock position where you can reset the attack sequence.
-
-**Q11**: What direction of force should the underhook arm generate during the acceleration phase?
-**A**: During the acceleration phase, the underhook arm should generate a pulling force that draws your body toward the opponent's back, not pushing force that drives the opponent away. Think of it as pulling yourself around a fixed point rather than moving the opponent. The force vector is curvilinear, following the arc of your rotation, with your elbow staying tight to your hip as the fulcrum. This pulling mechanic redirects the opponent's forward chase energy and converts it into your rotational momentum behind them.
-
-
-
-</section>
-
 
 <section id="safety-considerations" class="content-section">
 
 ## Safety Considerations
+
+<p class="section-subtitle">What are the safety concerns for Jailbreak to Back Take?</p>
 
 The jailbreak to back take involves significant spinal flexion and rotational movement that requires adequate flexibility and proper warm-up before training. Always tuck your chin to protect your neck throughout the rolling sequence. Begin training at low speed with a cooperative partner before adding resistance. Practitioners with neck or shoulder injuries should consult with their instructor and potentially modify or avoid this technique. The inversion component places strain on the cervical spine, making proper head positioning critical. Stop immediately if you feel any neck discomfort during practice.
 

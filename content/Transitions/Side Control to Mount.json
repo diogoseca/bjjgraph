@@ -52,12 +52,12 @@
       "relationship": "Control method that facilitates the transition"
     },
     {
-      "name": "Americana from Mount",
-      "relationship": "Follow-up submission after achieving mount"
+      "name": "Americana",
+      "relationship": "Follow-up submission available after achieving mount"
     },
     {
-      "name": "Armbar from Mount",
-      "relationship": "Follow-up submission commonly attacked from mount"
+      "name": "Mount to Armbar",
+      "relationship": "Follow-up submission transition commonly attacked from mount"
     },
     {
       "name": "High Mount",

@@ -189,7 +189,7 @@ The Standing Rear Clinch holds particular importance in no-gi grappling and MMA 
 
 - **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** (5% of attempts)
 
-- **[[Submissions/Standing RNC from Rear Clinch/Attacker|Standing RNC from Rear Clinch]]** (2% of attempts)
+- **[[Rear Naked Choke from Standing Rear Clinch/Attacker|Rear Naked Choke from Standing Rear Clinch]]** (2% of attempts)
 
 
 ### Common Mistakes
