@@ -3,8 +3,9 @@
 .explorer {
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
   padding-top: 1rem;
+  // The .sidebar is the scroll container — the explorer just lays out its
+  // file tree and lets the sidebar handle overflow.
   &.desktop-only {
     @media all and not ($mobile) {
       display: flex;
@@ -37,7 +38,8 @@
   max-height: 40vh;
   overflow-y: auto;
   overflow-x: hidden;
-  overscroll-behavior-y: contain;
+  // Default `overscroll-behavior: auto` — when this inner list reaches its
+  // top/bottom edge, the scroll continues into the parent .explorer.
 
   // Fade mask: transparent at top/bottom edges, opaque in middle
   mask-image: linear-gradient(

@@ -197,27 +197,27 @@ a {
       gap: 1rem;
       top: 0;
       box-sizing: border-box;
-      // Horizontal padding lives on the direct children (not the sidebar
-      // itself) so that scroll events fired in the "padded" area still reach
-      // the explorer's scroll container instead of bubbling to the page.
-      padding: calc(#{$topSpacing} * 1.5) 0 0 0;
+      padding: calc(#{$topSpacing} * 1.5) 3rem 0 3rem;
       display: flex;
       height: 100vh;
       position: sticky;
+      // The sidebar itself is the single scroll container: search + explorer
+      // stack inside, and any wheel event anywhere on the sidebar (including
+      // the padded zones above/left/right of the explorer) scrolls them as
+      // one unit. Inner .scrollable-list lists still scroll independently
+      // but their overscroll bleeds out into this container.
+      overflow-y: auto;
 
-      // Non-scrolling items (Search, etc.) use margin so their internal
-      // sizing is unchanged.
-      & > *:not(.explorer) {
-        margin-left: 3rem;
-        margin-right: 3rem;
+      // Subtle scrollbar
+      &::-webkit-scrollbar {
+        width: 4px;
       }
-
-      // The explorer uses padding so the 3rem zones are *inside* its scroll
-      // viewport — scroll wheel events on those zones now scroll the explorer.
-      & > .explorer {
-        box-sizing: border-box;
-        padding-left: 3rem;
-        padding-right: 3rem;
+      &::-webkit-scrollbar-thumb {
+        background: var(--lightgray);
+        border-radius: 4px;
+      }
+      &:hover::-webkit-scrollbar-thumb {
+        background: var(--gray);
       }
     }
 
