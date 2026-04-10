@@ -3,24 +3,36 @@
 
 
 ---
-title: "Triangle Choke | BJJ Submission | BJJ Graph"
+title: "Triangle Choke | BJJ Submission Family | BJJ Graph"
 description: "Master the Triangle Choke in BJJ. Complete safety guide with setup, execution, and defense. Success rates: Beginner 35%, Intermediate 55%, Advanced 75%."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Triangle Choke targets the Carotid arteries and brachial plexus. Risk: Loss of consciousness from blood choke. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Triangle Choke/Attacker|Play as Attacker]]
-[[Triangle Choke/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Triangle Choke/from Closed Guard|Closed Guard]] | 65% | Loss of consciousness from carotid compression |  |
+| [[Triangle Choke/from Crackhead Control|Crackhead Control]] | 65% | Loss of consciousness from blood choke |  |
+| [[Triangle Choke/from De La Riva|De La Riva Guard]] | 52% | Neck strain or cervical spine compression |  |
+| [[Triangle Choke/from Mounted Triangle|Mounted Triangle]] | 65% | Loss of consciousness from blood choke |  |
+| [[Triangle Choke/from Open Guard|Open Guard]] | 40% | Carotid artery compression causing loss of consciousness |  |
+| [[Triangle Choke/from Spider Guard|Spider Guard]] | 62% | Carotid artery compression leading to unconsciousness |  |
+| [[Triangle Choke/from Triangle Control|Triangle Control]] | 65% | Loss of consciousness from bilateral carotid artery compression |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -33,9 +45,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and brachial plexus
-**Starting Position**: [[Positions/Closed Guard]]
-**From Position**: [[Positions/Triangle Control]] (Top)
-**Success Rate**: 65%
+**Success Rate**: 65% (average across variants)
 
 </section>
 
@@ -80,143 +90,10 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 58% |
-| Failure | [[Positions/Triangle Control]] | 27% |
-| Counter | [[Positions/Closed Guard]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Angle creation is more important than leg strength - proper ... | Posture is your primary defense—keep spine straight, head up... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Triangle Choke/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Angle creation is more important than leg strength - proper hip angle creates the choke, not squeezing
-
-- Control the posture by breaking down opponent's base before attempting triangle lock
-
-- Use opponent's trapped shoulder as a compression point against their own neck
-
-- Lock the triangle by placing ankle behind knee, not by crossing ankles
-
-- Cut the angle by moving hips 45 degrees perpendicular to opponent's body
-
-- Pull opponent's head down while lifting hips to create finishing pressure
-
-- Maintain tight connection between your legs and opponent's neck throughout
-
-
-### Execution Steps
-
-
-- **Break posture and isolate arm**: From closed guard, establish strong collar and sleeve grips. Pull opponent forward while opening gua...
-
-- **Throw leg over shoulder**: Open your guard and immediately throw your leg (same side as the isolated arm) high over the opponen...
-
-- **Lock the triangle**: Pull your ankle (from the leg over the shoulder) behind your opposite knee to create the triangle lo...
-
-- **Cut the angle**: Move your hips approximately 45 degrees to the side, positioning yourself perpendicular to your oppo...
-
-- **Control the head**: Establish a strong grip on the back of opponent's head, either grabbing your own shin or using a col...
-
-- **Lift hips and pull head**: Simultaneously lift your hips toward the ceiling while pulling opponent's head down toward your ches...
-
-- **Maintain and finish**: Hold the position with steady pressure until tap. Do not spike or jerk. If opponent doesn't tap imme...
-
-
-### Common Mistakes
-
-
-- **Crossing ankles instead of locking ankle behind knee**
-  - Consequence: Weak triangle that opponent can easily escape; ankles vulnerable to ankle locks in some rulesets
-  - Correction: Always lock by placing ankle behind opposite knee, creating a proper mechanical triangle shape
-
-- **Failing to cut the angle (staying directly in front of opponent)**
-  - Consequence: Opponent can posture up, stack you, or defend the choke with hand positioning
-  - Correction: Immediately move hips 45 degrees perpendicular after locking triangle—this is non-negotiable for finishing
-
-- **Squeezing with legs only, without pulling head down**
-  - Consequence: Insufficient pressure on carotid arteries; choke takes too long or fails entirely
-  - Correction: Always combine leg squeeze with pulling opponent's head down toward chest while lifting hips
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Triangle Choke/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Posture is your primary defense—keep spine straight, head up, and drive hips forward to resist being broken down into the triangle
-
-- Never allow one arm to be isolated across your centerline without immediately fighting to recover it to your side of the body
-
-- Act at the earliest possible stage—defending the arm isolation is ten times easier than escaping a locked, angled triangle
-
-- Stack before angle—if triangle locks, immediately drive forward to prevent the hip angle cut that makes the choke tight
-
-- Keep your trapped arm's elbow tight to your ribs and turn your hand toward their hip to reduce neck compression
-
-- Use your free hand to fight grips and control their hips rather than pushing on their legs, which exposes it to attack
-
-- Breathe deliberately and avoid panicking—controlled movement preserves energy and prevents you from tightening the choke through struggling
-
-
-### Recognition Cues
-
-
-- Opponent breaks your posture and begins pulling one of your arms across their centerline using sleeve or wrist control while the other arm is pushed away
-
-- You feel one of opponent's legs release from closed guard and rise high toward your shoulder or the back of your neck while maintaining grip control
-
-- Opponent's hips begin shifting laterally beneath you, creating an angle that moves them perpendicular to your body—this signals the angle cut that precedes the finish
-
-- You feel compression on both sides of your neck simultaneously—shin on one side, your own shoulder on the other—indicating the triangle is mechanically engaged
-
-
-### Escape Paths
-
-
-- Posture recovery and arm extraction to closed guard top—fight to pull trapped arm back to your side while driving head and chest upward
-
-- Stack pass by driving forward and walking hips over opponent's head, compressing them until triangle loosens and you can pass to side control
-
-- Standing base to stack—stand up with locked triangle, then drive opponent's hips over their shoulders using gravity and forward pressure to neutralize the choke
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Triangle from mount top position**: When opponent defends mount by bringing their arms up, trap one arm and throw leg over their shoulder, locking triangle while still in top position. Fall to side to finish. (When to use: When opponent uses arms to defend mount rather than turning to escape)
@@ -243,7 +120,7 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 - [[Positions/Mount]]
 - [[Positions/Spider Guard]]
 - [[Positions/De La Riva Guard]]
-- [[Positions/Rubber Guard]]
+- [[Positions/Rubber Guard/Mission Control]]
 - [[Positions/Back Control]]
 - [[Positions/Triangle Control]]
 
@@ -254,13 +131,13 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ## Related Submissions
 
-- [[Submissions/Armbar from Guard]]
-- [[Transitions/Omoplata]]
-- [[Transitions/Guillotine Choke]]
-- [[Submissions/Armbar from Back]]
-- [[Submissions/Kimura from Guard]]
-- [[Transitions/Gogoplata]]
-- [[Transitions/Arm Triangle]]
+- [[Submissions/Far Side Armbar]] - Primary chain when opponent defends triangle by extending arm to escape lock
+- [[Submissions/Omoplata]] - Alternative finish when triangle angle is denied and opponent pulls arm free
+- [[Transitions/Guillotine Choke]] - Complementary guard submission sharing similar head control and posture-breaking principles
+- [[Transitions/Gogoplata]] - Advanced submission from triangle configuration using shin pressure on throat
+- [[Transitions/Arm Triangle]] - Related blood choke targeting same carotid arteries from top position
+- [[Armbar Finish]] - High-percentage transition from failed triangle when arm becomes isolated during defense
+- [[Submissions/Cross Collar Choke]] - Complementary gi choke creating submission dilemma with triangle from closed guard
 
 
 </section>
@@ -269,8 +146,8 @@ The triangle choke's strategic value extends beyond its finishing potential—it
 
 ## Additional Related Content
 
-- [[Submissions/Armbar from Guard]] - Primary transition when opponent defends triangle by pulling arm free
-- [[Transitions/Omoplata]] - Alternative finish when triangle is defended—opponent's defensive movements open omoplata
+- [[Submissions/Far Side Armbar]] - Primary transition when opponent defends triangle by pulling arm free
+- [[Submissions/Omoplata]] - Alternative finish when triangle is defended—opponent's defensive movements open omoplata
 - [[Positions/Closed Guard]] - Most common starting position for triangle choke setup
 - [[Transitions/Pendulum Sweep]] - Sweep option that creates triangle opportunity when opponent posts hand to defend
 - [[Transitions/Guillotine Choke]] - Complementary guard submission—similar head control principles

@@ -3,22 +3,22 @@
 
 
 ---
-title: "Triangle Choke Side Defender | BJJ Defense Guide | BJJ Graph"
+title: "Triangle Choke Side from Side Control Defender | BJJ Defense Guide | BJJ Graph"
 description: "How to defend against Triangle Choke Side in BJJ. Recognition, escape paths, and defensive strategies."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke Side targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
+> **SAFETY**: Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Tap early and often. Your safety is more important than any training round.
 
 <!-- Schema Markup - HowTo for Defense -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Defend Triangle Choke Side in BJJ",
-  "description": "Step-by-step guide for defending and escaping Triangle Choke Side in BJJ.",
+  "name": "How to Defend Triangle Choke Side from Side Control in BJJ",
+  "description": "Step-by-step guide for defending and escaping Triangle Choke Side from Side Control in BJJ.",
   "step": [
     {
       "@type": "HowToStep",
@@ -105,7 +105,7 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Triangle Choke Side Defender",
+  "name": "Triangle Choke Side from Side Control Defender",
   "description": "How to defend against Triangle Choke Side in BJJ. Recognition, escape paths, and defensive strategies.",
   "isPartOf": {
     "@type": "WebSite",
@@ -136,14 +136,14 @@ description: "How to defend against Triangle Choke Side in BJJ. Recognition, esc
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Triangle Choke Side",
-      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side"
+      "name": "Triangle Choke Side from Side Control",
+      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side-from-Side-Control"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Defender",
-      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side/Defender"
+      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side-from-Side-Control/Defender"
     }
   ]
 }
@@ -169,6 +169,8 @@ Successful defense combines proactive arm management with reactive escape mechan
 
 ## How to Recognize This Submission
 
+<p class="section-subtitle">How do you know when someone is attempting Triangle Choke Side from Side Control?</p>
+
 - Attacker begins controlling your near-side wrist or forearm and guiding it across your own neck while maintaining side control pressure on your upper body
 - Attacker shifts their hips upward toward your head and begins lifting their near-side leg off the mat, indicating they are preparing to swing it over your head and neck
 - You feel your own arm being wedged against your neck with increasing shoulder pressure, and the attacker's chest weight shifts from your torso toward your head
@@ -180,6 +182,8 @@ Successful defense combines proactive arm management with reactive escape mechan
 <section id="key-principles" class="content-section">
 
 ## Key Defensive Principles
+
+<p class="section-subtitle">What are the key principles for defending Triangle Choke Side from Side Control?</p>
 
 - Arm position awareness - never allow your arm to cross your own centerline toward your neck while under side control, as this creates the primary choking mechanism for the attacker
 - Early intervention priority - the best defense occurs before the triangle locks; once the figure-four is established, escape difficulty increases exponentially with each second
@@ -194,6 +198,8 @@ Successful defense combines proactive arm management with reactive escape mechan
 <section id="defensive-options" class="content-section">
 
 ## Defensive Options
+
+<p class="section-subtitle">What can you do to defend against Triangle Choke Side from Side Control?</p>
 
 ### 1. Retract the trapped arm before the triangle locks by pulling your elbow tight to your ribs and turning your shoulder away from your own neck to clear the arm past your centerline
 
@@ -231,6 +237,8 @@ Successful defense combines proactive arm management with reactive escape mechan
 
 ## Escape Paths
 
+<p class="section-subtitle">How do you escape Triangle Choke Side from Side Control?</p>
+
 - Arm retraction to side control bottom: Pull trapped arm back past centerline before triangle locks, using elbow retraction and shoulder rotation to clear the arm from the choking position
 - Free hand insertion and head extraction: Insert free hand as a wedge into the triangle space, create separation between neck and thigh, then systematically work head out of the opening by turning and ducking
 - Bridge and angle disruption to guard recovery: Explosive bridge toward attacker to break perpendicular alignment, then turn into them and work legs between bodies to recover half guard or closed guard
@@ -241,6 +249,8 @@ Successful defense combines proactive arm management with reactive escape mechan
 <section id="favorable-outcomes" class="content-section">
 
 ## Best-Case Outcomes for Defender
+
+<p class="section-subtitle">What is the best outcome when defending Triangle Choke Side from Side Control?</p>
 
 ### → [[Positions/Side Control]]
 
@@ -257,6 +267,8 @@ Bridge and turn into the attacker to disrupt their perpendicular angle, then use
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Defensive Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when defending Triangle Choke Side from Side Control?</p>
 
 ### 1. Allowing arm to cross centerline without immediate retraction during side control defense
 
@@ -291,10 +303,12 @@ Bridge and turn into the attacker to disrupt their perpendicular angle, then use
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train defense against Triangle Choke Side from Side Control?</p>
+
 **Phase 1: Recognition and Early Intervention Drill** - Identifying side triangle setups and practicing immediate arm retraction
 Partner slowly sets up the side triangle from side control, guiding your arm across your neck at 20-30% speed. Practice recognizing the setup cues (wrist control, shoulder pressure, hip shift) and immediately retracting your arm before the leg swings over. Repeat 20-30 times per side until the arm retraction response becomes instinctive. Partner gradually increases speed to 50% as recognition improves.
 
-**Phase 2: Wedge Insertion and Space Creation** - Defending from inside a locked triangle with free hand techniques
+**Phase 2: Wedge Insertion and Distance Control** - Defending from inside a locked triangle with free hand techniques
 Partner establishes a locked side triangle at 30-40% squeeze pressure. Practice inserting your free hand as a wedge into the triangle space, creating separation between your neck and their thigh. Work head extraction mechanics by ducking chin and pulling toward the opening. Partner holds position without increasing pressure while you drill the sequence. Build to 50-60% pressure as technique solidifies.
 
 **Phase 3: Angle Disruption and Guard Recovery Under Resistance** - Bridging, turning, and recovering guard from locked side triangle
@@ -307,29 +321,6 @@ Start from side control bottom against a partner who is actively hunting the sid
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What is the single most important early defensive action when you recognize your opponent is setting up a side triangle from side control?
-**A**: The most important early action is immediately retracting your near-side arm before it crosses your own centerline. Pull your elbow tight to your ribs and rotate your shoulder away from your neck to clear the arm from the potential choking position. This eliminates the trapped-arm wedge that the entire side triangle mechanism depends on. Without your arm across your neck, the attacker cannot create the bilateral carotid compression needed for the choke. Every second of delay makes retraction more difficult as the attacker applies increasing chest pressure to pin the arm in place.
-
-**Q2**: SAFETY CRITICAL: You are caught in a locked side triangle and beginning to feel lightheaded - what is the correct response? **[SAFETY-CRITICAL]**
-**A**: If you feel lightheadedness, this indicates the blood choke is compressing your carotid arteries and you have only seconds before potential unconsciousness. You must tap immediately - do not attempt a heroic last-second escape when blood flow to your brain is already compromised. Tap clearly with your free hand on the attacker's body or the mat, or tap with your feet, or verbally signal. There is no submission worth risking unconsciousness in training. Lightheadedness means the choke is working and your window for safe escape has likely closed. Continuing to fight after lightheadedness begins creates serious risk of going unconscious without warning.
-
-**Q3**: Your opponent has the side triangle locked but has not yet controlled your free arm - what is the optimal defensive sequence?
-**A**: With the triangle locked but your free arm available, immediately insert your free hand palm-first into the space between your neck and the attacker's inner thigh on the choking side. This wedge prevents full carotid compression and buys you critical time. Next, use that wedged hand to push against their thigh while simultaneously turning your body toward the attacker to disrupt their perpendicular angle. As space opens, begin working your head toward the triangle opening by ducking your chin and pulling your head through. Throughout this sequence, never extend your free arm where the attacker can grab your wrist - keep it working inside the triangle space where it serves as both wedge and escape tool.
-
-**Q4**: How does the defender's body positioning relative to the attacker affect the side triangle's effectiveness, and how should you use this knowledge?
-**A**: The side triangle requires the attacker to maintain a perpendicular (90-degree) body angle relative to your torso for optimal bilateral compression. When you turn your body toward the attacker, you reduce this angle toward parallel, which distributes the choking pressure less effectively across your neck. Conversely, turning away can actually increase the perpendicular alignment and help the attacker. Therefore, your defensive body movement should always be toward the attacker - bridging into them, turning your chest toward their hips, and stacking their position. This angular disruption weakens the choke even if you cannot fully escape, buying time for systematic escape work.
-
-**Q5**: What defensive adjustments should you make when caught in a side triangle during no-gi versus gi training?
-**A**: In no-gi, you have the advantage of reduced friction - sweat makes it easier to slip your trapped arm back past your centerline and to extract your head from the triangle opening. Capitalize on this by aggressively working arm retraction and head extraction, using the slippery surface to your advantage. However, the lack of grips also means the attacker will rely on wrist control and body pressure rather than sleeve grips, so be prepared for tighter wrist grabs. In gi, you face the disadvantage of increased friction and the attacker using your collar or sleeve to maintain arm position. Focus on breaking their gi grips first before attempting arm retraction, and use your own lapel or collar as a frame tool against their legs. The fundamental escape mechanics remain the same, but the speed and grip-fighting priorities shift significantly between contexts.
-
-
-
-</section>
 
 
 </main>

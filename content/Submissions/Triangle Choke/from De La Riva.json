@@ -1,0 +1,486 @@
+{
+  "name": "Triangle Choke from De La Riva",
+  "description": "Master Triangle from De La Riva in BJJ. Complete guide with setup requirements, execution steps, and safety protocols. Success rates: Beginner 30%, Intermediate 45%, Advanced 60%.",
+  "tags": [
+    "bjj",
+    "submission",
+    "triangle-choke",
+    "de-la-riva",
+    "guard-attack",
+    "blood-choke",
+    "open-guard-submission"
+  ],
+  "submission_category": "Choke",
+  "submission_type": "Blood Choke",
+  "target_area": "Carotid arteries and jugular veins",
+  "starting_position": "De La Riva Guard",
+  "from_position": "De La Riva Guard/Bottom",
+  "success_rate": 52,
+  "overview": "The Triangle from De La Riva is a sophisticated blood choke that capitalizes on the unique angular control provided by the De La Riva guard position. This submission represents a fundamental offensive option from one of modern BJJ's most dynamic open guard systems. The De La Riva hook on the opponent's leg creates natural off-balancing opportunities while the opposite leg controls posture and distance, establishing perfect conditions for transitioning to the triangle position. The technical challenge lies in transitioning from the linear De La Riva guard structure to the circular enclosure required for an effective triangle choke. Success depends on precise timing, grip manipulation, and understanding how to use the De La Riva hook as a pivot point rather than abandoning it prematurely. When executed correctly, this technique combines the sweeping threat inherent in De La Riva with a finishing submission, creating a true dilemma for the opponent.",
+  "safety_considerations": {
+    "injury_risks": [
+      {
+        "injury": "Neck strain or cervical spine compression",
+        "severity": "Medium",
+        "recovery_time": "1-2 weeks"
+      },
+      {
+        "injury": "Loss of consciousness from blood choke",
+        "severity": "High",
+        "recovery_time": "Immediate recovery if released promptly, potential complications if held too long"
+      },
+      {
+        "injury": "Shoulder or rotator cuff strain from arm trap",
+        "severity": "Low",
+        "recovery_time": "3-7 days"
+      }
+    ],
+    "application_speed": "SLOW and progressive - 3-5 seconds minimum from initial lock to any significant pressure",
+    "tap_signals": [
+      "Verbal tap or vocal distress",
+      "Physical hand tap on partner's body or mat",
+      "Physical foot tap on mat or partner",
+      "Any sudden change in resistance or body going limp"
+    ],
+    "release_protocol": [
+      "Immediately open legs and release triangle configuration",
+      "Release arm trap and posture control",
+      "Allow partner to return to neutral position with full neck mobility",
+      "Check partner's consciousness and neck comfort before continuing"
+    ],
+    "training_restrictions": [
+      "Never apply sudden jerking motions to the neck",
+      "Never use competition finishing speed during drilling or light sparring",
+      "Always ensure partner has at least one arm free to tap",
+      "Release immediately upon any tap signal without testing tightness"
+    ]
+  },
+  "outcomes": [
+    {
+      "to": "game-over",
+      "probability": 60,
+      "result": "success"
+    },
+    {
+      "to": "De La Riva Guard/Top",
+      "probability": 25,
+      "result": "failure"
+    },
+    {
+      "to": "Open Guard/Top",
+      "probability": 15,
+      "result": "counter"
+    }
+  ],
+  "from_positions": [
+    "De La Riva Guard",
+    "Reverse De La Riva Guard",
+    "Open Guard",
+    "Spider Guard",
+    "Lasso Guard",
+    "Collar Sleeve Guard"
+  ],
+  "related_submissions": [
+    "Triangle Choke",
+    "Omoplata",
+    "Far Side Armbar",
+    "Inverted Triangle",
+    "Baratoplata",
+    "Gogoplata"
+  ],
+  "related_content": [
+    {
+      "name": "De La Riva Sweep",
+      "relationship": "Primary sweeping option from same guard position when triangle is defended"
+    },
+    {
+      "name": "Berimbolo Entry",
+      "relationship": "Back take option from De La Riva when opponent defends triangle by turning away"
+    },
+    {
+      "name": "Omoplata Sweep",
+      "relationship": "Direct transition when opponent hides arm to defend triangle"
+    },
+    {
+      "name": "De La Riva Guard",
+      "relationship": "Starting position and guard system from which this submission is executed"
+    },
+    {
+      "name": "Triangle Choke",
+      "relationship": "Parent submission technique that this position-specific variation is derived from"
+    },
+    {
+      "name": "Closed Guard",
+      "relationship": "Related guard position where triangle entries share core finishing mechanics"
+    },
+    {
+      "name": "Back Control",
+      "relationship": "Position achieved when opponent turns away from triangle pressure"
+    },
+    {
+      "name": "Open Guard",
+      "relationship": "Parent guard family from which De La Riva guard is a specialized variation"
+    }
+  ],
+  "attacker": {
+    "name": "from De La Riva Attacker",
+    "description": "How to execute Triangle from De La Riva in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
+    "overview": "The Triangle from De La Riva is a sophisticated blood choke that capitalizes on the unique angular control provided by the De La Riva guard position. This submission represents a fundamental offensive option from one of modern BJJ's most dynamic open guard systems. The De La Riva hook on the opponent's leg creates natural off-balancing opportunities while the opposite leg controls posture and distance, establishing perfect conditions for transitioning to the triangle position. The technical challenge lies in transitioning from the linear De La Riva guard structure to the circular enclosure required for an effective triangle choke. Success depends on precise timing, grip manipulation, and understanding how to use the De La Riva hook as a pivot point rather than abandoning it prematurely. When executed correctly, this technique combines the sweeping threat inherent in De La Riva with a finishing submission, creating a true dilemma for the opponent.",
+    "key_principles": [
+      "Use De La Riva hook to off-balance opponent forward while controlling posture with opposite leg",
+      "Break opponent's defensive grips before attempting triangle transition",
+      "Pivot on the De La Riva hook to create angular entry for triangle lock",
+      "Secure high triangle position with knee behind opponent's head before tightening",
+      "Control trapped arm across body to prevent opponent's posture recovery",
+      "Angle body perpendicular to opponent to maximize choking pressure",
+      "Use active pulling with legs rather than passive squeezing to finish"
+    ],
+    "setup_requirements": [
+      "Established De La Riva guard with hook secured behind opponent's knee",
+      "Collar and sleeve grip control or equivalent no-gi grip configuration",
+      "Opponent's weight shifted forward or posture broken down",
+      "Clear path to bring opposite leg across opponent's shoulder and neck",
+      "Opponent's defensive frames broken or at least one arm isolated",
+      "Sufficient hip mobility to create necessary angle for triangle entry"
+    ],
+    "execution_steps": [
+      {
+        "step_number": 1,
+        "action": "Establish dominant De La Riva control",
+        "description": "Secure classic De La Riva position with hook deep behind opponent's knee, opposite foot on hip or bicep, and strong collar-sleeve grips. Break opponent's posture forward using collar grip while preventing them from standing tall. This foundational control is essential before attempting any offensive transition.",
+        "timing": "Initial position establishment - hold until opponent commits weight forward"
+      },
+      {
+        "step_number": 2,
+        "action": "Break opponent's defensive grips and posture",
+        "description": "Use collar grip to pull opponent's head down while simultaneously pushing their far arm across your centerline with your sleeve grip. The De La Riva hook prevents them from stepping back to recover posture. This creates the broken posture necessary for triangle entry and begins isolating one arm.",
+        "timing": "1-2 seconds as opponent attempts to maintain base"
+      },
+      {
+        "step_number": 3,
+        "action": "Pivot on De La Riva hook and swim leg over shoulder",
+        "description": "Maintain the De La Riva hook as a pivot point while releasing the hip control with your opposite leg. Swing this free leg high and over the opponent's shoulder on the side of your collar grip. The De La Riva hook prevents them from backing away during this transition. Aim to place your shin across the back of their neck.",
+        "timing": "Quick transition - 0.5-1 second window as opponent is off-balanced"
+      },
+      {
+        "step_number": 4,
+        "action": "Lock triangle configuration",
+        "description": "Release De La Riva hook and bring that leg across your opposite ankle to create the triangle lock. Ensure your knee is positioned behind opponent's head, not on top of their shoulder. The trapped arm should be across their own neck, not outside your legs. Lock your legs in figure-four configuration with flexed feet for maximum security.",
+        "timing": "Immediate lock as shin clears shoulder - 1 second"
+      },
+      {
+        "step_number": 5,
+        "action": "Control posture and create finishing angle",
+        "description": "Grip behind opponent's head with both hands and pull them down while simultaneously rotating your hips perpendicular to their body. This angle is critical - your spine should form roughly 90-degree angle with theirs. Pull their trapped arm across their neck to tighten the choke. Your knees should point away from opponent's body.",
+        "timing": "2-3 seconds to establish optimal angle"
+      },
+      {
+        "step_number": 6,
+        "action": "Finish with leg extension and hip pressure",
+        "description": "Extend your locking leg while simultaneously squeezing your knees together and arching your hips upward. The choking pressure comes from the combination of their trapped arm against one carotid and your leg against the other. Maintain head control and optimal angle throughout. Apply pressure progressively, never explosively, monitoring for tap constantly.",
+        "timing": "3-5 seconds progressive tightening"
+      }
+    ],
+    "common_counters": [
+      {
+        "counter": "Standing up to prevent triangle lock",
+        "effectiveness": "High",
+        "your_response": "Maintain De La Riva hook longer to prevent standing, or transition to omoplata/sweep if they commit fully to standing posture",
+        "targets_outcome": "De La Riva Guard/Top"
+      },
+      {
+        "counter": "Stacking pressure to compress your guard",
+        "effectiveness": "Medium",
+        "your_response": "Shrimp hips away from stack direction, maintain angle perpendicular to their body, and use grips behind head to prevent them from driving chest into your knees",
+        "targets_outcome": "game-over"
+      },
+      {
+        "counter": "Hiding arm inside to prevent triangle lock",
+        "effectiveness": "High",
+        "your_response": "Attack omoplata or triangle variation, or use leg over shoulder position to transition to back take if arm remains defended",
+        "targets_outcome": "De La Riva Guard/Top"
+      },
+      {
+        "counter": "Posturing up with strong base",
+        "effectiveness": "Medium",
+        "your_response": "Use both hands behind head to break posture, kick De La Riva hook to off-balance them forward, or transition to sweep if they commit too much weight back",
+        "targets_outcome": "Open Guard/Top"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Releasing De La Riva hook too early in transition",
+        "consequence": "Opponent backs away or stands up before triangle can be locked",
+        "correction": "Maintain De La Riva hook until your opposite leg has fully cleared their shoulder and is positioned across back of neck"
+      },
+      {
+        "error": "Locking triangle with knee on top of shoulder instead of behind head",
+        "consequence": "Triangle is loose and easily defended, providing no choking pressure",
+        "correction": "Ensure shin crosses high on opponent's back with knee positioned behind their head in the 'high triangle' configuration"
+      },
+      {
+        "error": "Failing to control trapped arm across opponent's body",
+        "consequence": "Opponent can use free arm to create space and defend their neck",
+        "correction": "Immediately after locking triangle, secure trapped arm with grip and pull it across their centerline"
+      },
+      {
+        "error": "Remaining parallel with opponent instead of creating angle",
+        "consequence": "No effective choking pressure despite locked triangle",
+        "correction": "Rotate hips to create perpendicular angle - your spine should be roughly 90 degrees to theirs"
+      },
+      {
+        "error": "Applying explosive jerking pressure to finish choke",
+        "consequence": "Risk of neck injury, loss of control, and dangerous training environment",
+        "correction": "Apply progressive, steady pressure over 3-5 seconds, monitoring partner constantly for tap signals"
+      },
+      {
+        "error": "Holding choke after tap or after partner goes unconscious",
+        "consequence": "Serious injury including brain damage from prolonged oxygen deprivation",
+        "correction": "Release immediately upon any tap signal or if partner's body goes limp - never test your partner's toughness"
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: DLR Hook Mechanics and Leg Swim Isolation",
+        "focus": "Developing the foundational movement pattern of maintaining the DLR hook while swimming the free leg over the shoulder",
+        "description": "Drill the leg swim in isolation with a cooperative partner. Focus on maintaining DLR hook tension throughout the transition, timing the hip pivot, and placing the shin accurately across the back of the neck. No resistance. 50 repetitions per side over multiple sessions until movement becomes automatic."
+      },
+      {
+        "phase": "Phase 2: Triangle Lock and Dominant Angles",
+        "focus": "Connecting the leg swim to the triangle lock, emphasizing the figure-four configuration and perpendicular angle",
+        "description": "Starting from the leg-over-shoulder position, practice releasing the DLR hook and locking the triangle. Partner provides light posture resistance. Focus on proper knee placement behind the head, immediate arm control across centerline, and hip rotation to create the perpendicular finishing angle. Slow drilling at 30% resistance."
+      },
+      {
+        "phase": "Phase 3: Finishing Mechanics Under Resistance",
+        "focus": "Applying progressive choking pressure with proper safety awareness against moderate defensive resistance",
+        "description": "Full sequence from DLR to locked triangle with partner providing 50-70% resistance on posture and arm defense. Practice head control grips, leg extension finishing pressure, and hip elevation. Emphasize recognizing when the choke is properly aligned versus misaligned. Partner taps early to build trust and safety awareness."
+      },
+      {
+        "phase": "Phase 4: Chain Attacks and Live Integration",
+        "focus": "Integrating the triangle into the full DLR attack chain with omoplata, sweep, and back take alternatives",
+        "description": "Live positional sparring starting from DLR guard. Attack the triangle, and when defended, flow to omoplata when arm is hidden, sweep when opponent postures, or take the back when they turn away. Full resistance with tap-and-continue format. Develop the recognition of which counter-attack to use based on opponent's specific defensive reaction."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the primary function of the De La Riva hook during the triangle setup phase?",
+        "answer": "The De La Riva hook serves as a pivot point and prevents the opponent from backing away or standing up during the transition. It maintains close distance and off-balances the opponent forward while you swing your opposite leg over their shoulder. The hook should be maintained until the triangle is nearly locked to prevent defensive escape.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is creating a perpendicular angle essential for finishing the triangle from De La Riva?",
+        "answer": "The perpendicular angle (approximately 90 degrees between your spine and opponent's) maximizes the choking pressure by ensuring your leg compresses one carotid artery while their trapped arm compresses the other. Without this angle, the triangle may be mechanically locked but will lack the geometric alignment necessary to create effective blood flow restriction.",
+        "safety_critical": false
+      },
+      {
+        "question": "What are the minimum tap signals you must recognize immediately when applying this submission?",
+        "answer": "You must immediately recognize and respond to: verbal taps or vocal distress, physical hand taps on your body or the mat, physical foot taps on the mat or your body, and any sudden change in resistance or the body going limp. All of these require instant release of the submission without any delay or testing.",
+        "safety_critical": true
+      },
+      {
+        "question": "What is the difference between proper 'high triangle' position and incorrect 'shoulder triangle' position?",
+        "answer": "High triangle has your knee positioned behind opponent's head with shin across their back, creating maximum choking pressure. Shoulder triangle incorrectly has knee on top of their shoulder, which allows them to maintain posture and creates no effective choking mechanism. Always ensure shin clears shoulder completely during entry.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why must pressure be applied progressively over 3-5 seconds rather than explosively?",
+        "answer": "Progressive pressure application ensures training partner safety by giving them time to recognize the submission and tap before injury occurs. Explosive application risks neck injury from sudden compression, makes it difficult for partner to tap in time, and creates dangerous training culture. In training, partner safety always supersedes submission completion.",
+        "safety_critical": true
+      },
+      {
+        "question": "How should you transition if opponent successfully defends the triangle by hiding their arm inside your legs?",
+        "answer": "If the arm remains defended inside, transition to omoplata by bringing your free leg over their back, or attack the back take if they turn away. The leg-over-shoulder position provides multiple offensive options, so never force a defended triangle. Instead, flow to the next highest percentage attack based on their defensive reaction.",
+        "safety_critical": false
+      },
+      {
+        "question": "What anatomical structures does the triangle choke target and how does proper arm positioning affect the finish?",
+        "answer": "The triangle choke targets the carotid arteries on both sides of the neck, restricting blood flow to the brain. The trapped arm must be positioned across the opponent's own neck, placing their bicep against one carotid while your thigh compresses the other. If the arm is outside your leg structure or not pulled across the centerline, only one carotid is compressed and the choke becomes significantly less effective.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent begins to posture up as you lock the triangle - what grip adjustments maintain control and set up the finish?",
+        "answer": "When opponent postures, immediately overhook or cup behind their head with both hands to create downward pulling leverage. Never push on the knee to break posture - this is weak mechanically. Instead, use your pulling grip combined with leg extension to drive their head toward the mat. If they achieve full posture, consider transitioning to armbar or omoplata rather than fighting an uphill battle.",
+        "safety_critical": false
+      },
+      {
+        "question": "What indicators tell you the choke is properly aligned versus just causing neck discomfort?",
+        "answer": "A properly aligned blood choke creates rapid facial color change (reddening or purpling), visible distress without ability to speak clearly, and rapid onset of effects within 5-10 seconds. If opponent is only experiencing neck discomfort without these signs after 10+ seconds, the choke is likely an air choke or misaligned blood choke. Reposition by adjusting your angle and ensuring the trapped arm crosses their centerline before reapplying pressure.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the figure-four leg lock configuration contribute to finishing strength versus alternative triangle locks?",
+        "answer": "The figure-four configuration (ankle behind opposite knee) creates a unified leg structure where extending the locking leg simultaneously tightens the entire triangle and compresses both sides of the neck. This mechanical linkage means your leg extension directly translates to choking pressure. Alternative locks that don't create this connection require more isolated muscle effort and are easier for opponents to defend through posture and frame manipulation.",
+        "safety_critical": false
+      },
+      {
+        "question": "Your opponent stacks hard and begins to pass while you have the triangle locked - what is your priority and escape sequence?",
+        "answer": "Priority is maintaining the triangle structure while creating an angle to release stack pressure. Shrimp your hips away from their passing direction, maintain grip behind head, and use your free arm to post and rotate your body perpendicular to theirs. If they achieve side control position with triangle locked, you can still finish by completing the perpendicular angle or transition to armbar by extending their trapped arm while maintaining leg control.",
+        "safety_critical": false
+      },
+      {
+        "question": "What is the point of no escape in the triangle and what must be controlled before reaching it?",
+        "answer": "The point of no escape occurs when you achieve proper perpendicular angle with opponent's posture broken, arm trapped across their centerline, and knee positioned behind their head. Before this point, you must control their posture through head grip, secure the trapped arm position, and lock the figure-four configuration. Once these elements align, even skilled opponents have very limited defensive options and the finish becomes largely a matter of progressive pressure application.",
+        "safety_critical": false
+      }
+    ]
+  },
+  "defender": {
+    "name": "from De La Riva Defender",
+    "description": "How to defend against Triangle from De La Riva in BJJ. Recognition, escape paths, and defensive strategies.",
+    "overview": "Defending the Triangle from De La Riva requires understanding the attack's progression from open guard to closed triangle configuration. The defense operates across three distinct windows: pre-entry (while still in De La Riva guard), mid-transition (as the leg swims over your shoulder), and post-lock (once the triangle is secured). Each window demands different defensive priorities and techniques. The most effective defense occurs in the earliest window, preventing the attacker from ever achieving the leg-over-shoulder position. Once the triangle is fully locked with proper angle and arm control, defensive options narrow significantly and the risk of unconsciousness increases. Defenders must develop the sensitivity to recognize the attack's setup cues and respond with immediate posture recovery or guard passing pressure rather than allowing the attacker to complete the multi-step entry sequence from De La Riva.",
+    "key_principles": [
+      "Maintain strong upright posture against the De La Riva hook to deny the broken posture needed for triangle entry",
+      "Keep both arms inside the guard framework - never allow one arm to be isolated across the centerline",
+      "Recognize the leg swim early and immediately posture up or stack before the triangle configuration can lock",
+      "Once caught, posture is your primary weapon - standing tall prevents the attacker from creating the perpendicular angle needed to finish",
+      "Address the trapped arm immediately by pulling it free or tucking it tight to your body to deny the cross-neck pressure",
+      "Use explosive posture recovery in combination with arm extraction rather than attempting one without the other",
+      "When stacking, drive forward and to the side to create a passing angle rather than pushing straight into the attacker"
+    ],
+    "recognition_cues": [
+      "Opponent's collar grip pulls your head down aggressively while their sleeve grip pushes your arm across your body from De La Riva guard",
+      "Opponent's non-hooking leg releases from hip control and begins swinging upward toward your shoulder or neck",
+      "You feel increased forward pull from the De La Riva hook combined with downward collar pressure, breaking your posture significantly",
+      "Opponent's hips begin rotating perpendicular to your body while maintaining the DLR hook as an anchor point",
+      "Your arm gets trapped between opponent's legs as their shin crosses behind your neck and they begin closing the triangle figure-four"
+    ],
+    "defensive_options": [
+      {
+        "action": "Posture up and strip the De La Riva hook before the leg swim",
+        "when_to_use": "Early stage - when you feel collar grip pulling your head down and their free leg begins to lift off your hip",
+        "targets_outcome": "De La Riva Guard/Top",
+        "if_successful": "Return to standard De La Riva Guard top position with posture intact and ability to initiate passing",
+        "risk": "Low risk if executed early, but requires recognizing the setup before the leg clears your shoulder"
+      },
+      {
+        "action": "Stack and drive forward to compress the triangle and create a guard passing angle",
+        "when_to_use": "Mid-stage - when the triangle is partially locked but attacker has not yet achieved perpendicular angle or full arm control",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Break free of the triangle by stacking and passing to side control or at minimum resetting to open guard top",
+        "risk": "Medium risk - if stacking fails and you remain bent forward, attacker can adjust angle and finish from underneath your stack"
+      },
+      {
+        "action": "Extract trapped arm while maintaining strong posture to deny the cross-neck choke mechanism",
+        "when_to_use": "Post-lock stage - when triangle is locked but you still have posture and the arm is not yet fully pulled across your centerline",
+        "targets_outcome": "De La Riva Guard/Top",
+        "if_successful": "Denying the arm-across-neck position eliminates the primary choking mechanism and forces attacker to readjust or abandon",
+        "risk": "Medium risk - attempting to extract arm while posture is broken accelerates the choke rather than defending it"
+      },
+      {
+        "action": "Stand up explosively and use height to remove attacker's angle and hip connection",
+        "when_to_use": "Any stage before full angle and head control are established - particularly effective when attacker's grips behind your head are not yet secure",
+        "targets_outcome": "Open Guard/Top",
+        "if_successful": "Standing removes the attacker's ability to create perpendicular angle and can lead to slam-pass or stack-pass opportunities to escape",
+        "risk": "High risk in competition if attacker maintains locked triangle during standing - potential slam penalties and gravity assists the choke if you fall"
+      }
+    ],
+    "escape_paths": [
+      "Stack pass escape: Drive forward and to the side while standing up, compress attacker's guard, walk around their body to break the triangle angle and pass to side control",
+      "Arm extraction to posture: Grip your own wrist with the trapped hand, pull the arm straight back toward your hip while simultaneously posturing up, breaking the cross-neck pressure mechanism",
+      "Hitchhiker escape: Turn away from the trapped arm side, extend the trapped arm straight while rotating your body, slide your shoulder free of the triangle by moving perpendicular to attacker's legs"
+    ],
+    "favorable_outcomes": [
+      {
+        "outcome": "De La Riva Guard/Top",
+        "how": "Maintain strong posture throughout the exchange, strip the DLR hook early, and prevent the leg from clearing your shoulder by keeping elbows tight and posture upright"
+      },
+      {
+        "outcome": "Open Guard/Top",
+        "how": "If caught in the triangle, use explosive standing combined with stacking pressure to break the attacker's angle and pass their guard during the escape sequence"
+      }
+    ],
+    "common_errors": [
+      {
+        "error": "Allowing posture to break without immediate recovery when collar grip pulls head down",
+        "consequence": "Broken posture is the prerequisite for every triangle entry - once your head is pulled below their hips, the leg swim becomes trivially easy and you enter a losing defensive position",
+        "correction": "The moment you feel collar grip pulling your posture, immediately drive your hips back and extend your spine upward. Grip their collar or lapel and push their chest away to create distance. Address the posture break before anything else."
+      },
+      {
+        "error": "Pushing the attacking leg away with hands instead of posturing up",
+        "consequence": "Pushing the leg with your hands leaves your arms extended and vulnerable to arm isolation, actually accelerating the triangle setup rather than defending it",
+        "correction": "Keep hands attached to your grips and focus on posture recovery through spine extension and hip position. The leg swim is defeated by posture, not by hand fighting against their leg."
+      },
+      {
+        "error": "Trying to muscle out of a fully locked triangle by pulling straight backward",
+        "consequence": "Pulling backward against a locked figure-four triangle actually tightens the choke mechanism and burns enormous energy with zero defensive benefit",
+        "correction": "Once locked, work laterally - either stack to the side, extract the trapped arm, or use the hitchhiker escape by turning away. Never pull straight back against the lock."
+      },
+      {
+        "error": "Neglecting to address the trapped arm position while focusing only on posture",
+        "consequence": "Even with good posture, a trapped arm across your own neck provides the choking mechanism. The attacker can finish from below if the arm stays trapped regardless of your posture",
+        "correction": "Address posture AND arm position simultaneously. Grip your trapped wrist with your free hand and work the arm back to your centerline while posturing. Both elements must be corrected together."
+      },
+      {
+        "error": "Staying on knees instead of standing when caught in the triangle",
+        "consequence": "Remaining on knees gives the attacker maximum leverage to control your posture and create the perpendicular angle, limiting your defensive options to arm-only defenses",
+        "correction": "Stand up explosively when caught in a triangle. Standing gives you structural advantage through gravity and height, making it much harder for the attacker to maintain the perpendicular angle needed to finish."
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What is the earliest defensive window against Triangle from De La Riva and why is it the most important?",
+        "answer": "The earliest window is during the De La Riva guard phase before the leg swim begins, when you feel the collar grip pulling your posture down and the sleeve grip pushing your arm across. This window is most important because maintaining posture at this stage completely prevents the triangle entry. Once the leg clears your shoulder, defensive difficulty increases exponentially. Immediate posture recovery and grip fighting at this stage eliminates the threat entirely.",
+        "safety_critical": false
+      },
+      {
+        "question": "Why is standing up one of the most effective defensive responses once caught in a triangle?",
+        "answer": "Standing removes the attacker's ability to create the perpendicular angle needed for effective choking pressure. It changes the mechanical relationship by using gravity and your height advantage to stretch their leg configuration. Standing also gives you structural base through your legs rather than relying on upper body strength alone. However, you must be aware of competition rules regarding lifting and slamming, and the attacker may still finish if you fall back down with the triangle locked.",
+        "safety_critical": false
+      },
+      {
+        "question": "What should you do if you feel yourself losing consciousness while caught in a triangle?",
+        "answer": "Tap immediately using any available method - hand tap, foot tap, or verbal signal. Never attempt to tough out a blood choke, as unconsciousness can occur within 8-12 seconds of full arterial compression and there is no reliable way to predict when you will lose consciousness. If you feel lightheaded, experience visual changes, or sense cognitive impairment, tap instantly. Your training partner's safety and your own depend on early recognition and honest tapping behavior.",
+        "safety_critical": true
+      },
+      {
+        "question": "How does the hitchhiker escape work mechanically against the triangle?",
+        "answer": "The hitchhiker escape exploits the triangle's directional weakness by turning your body away from the trapped arm side and extending the trapped arm straight behind you, as if hitchhiking. This rotation slides your shoulder perpendicular to the attacker's leg configuration, creating space that allows your head and arm to slip free. The key mechanical principle is that the triangle compresses bilaterally but cannot effectively prevent rotational escape when the defender turns the correct direction with proper arm extension.",
+        "safety_critical": false
+      },
+      {
+        "question": "What makes the stack pass escape effective and what is the primary risk?",
+        "answer": "The stack pass works by driving your weight forward and to one side, compressing the attacker's body and preventing them from maintaining the perpendicular angle needed for the choke. Walking around their body while maintaining forward pressure breaks the triangle's geometry. The primary risk is that if you stack straight forward without lateral movement, a skilled attacker can still maintain their angle underneath the stack and finish the choke while you carry their weight. Always stack to the side, never straight forward.",
+        "safety_critical": false
+      }
+    ],
+    "training_progressions": [
+      {
+        "phase": "Phase 1: Recognition and Posture Recovery Drilling",
+        "focus": "Learning to recognize triangle setup cues from De La Riva and developing automatic posture recovery responses",
+        "description": "Partner telegraphs triangle entry from DLR at slow speed. Defender practices recognizing collar pull, arm isolation, and leg swim cues. Focus solely on immediate posture recovery - spine extension, hip retraction, and grip fighting. No resistance from partner. Build the neurological connection between recognizing the setup and firing the posture recovery response."
+      },
+      {
+        "phase": "Phase 2: Stack and Arm Extraction Under Light Resistance",
+        "focus": "Developing stack passing and arm extraction mechanics when caught in a partially locked triangle",
+        "description": "Partner locks a loose triangle and allows defender to practice stack escapes and arm extraction techniques. Partner provides 30-50% resistance to simulate realistic defensive scenarios. Focus on combining posture recovery with arm extraction, proper stacking direction (to the side not straight forward), and transitioning from defense to guard pass."
+      },
+      {
+        "phase": "Phase 3: Live Positional Defense Rounds",
+        "focus": "Applying defensive techniques against full-speed triangle attacks from DLR with progressive resistance",
+        "description": "Positional sparring starting from De La Riva guard. Attacker attempts triangle while defender works all defensive windows. Full resistance but tap-and-continue format. Defender develops timing for early prevention, mid-transition defense, and post-lock escape. Track which defensive window you're using most to identify whether early recognition needs improvement."
+      },
+      {
+        "phase": "Phase 4: Competition Simulation with Multiple Threats",
+        "focus": "Defending triangle within the full DLR attack chain including sweeps, omoplata, and back takes",
+        "description": "Open sparring rounds starting from DLR where attacker can use any technique. Defender must address triangle threat while also defending sweeps and other submissions. Develops the ability to defend the triangle without creating openings for other attacks. Full competition intensity with focus on maintaining composure and defensive structure across multiple threat vectors."
+      }
+    ]
+  },
+  "variations_and_setups": [
+    {
+      "variation_name": "Triangle to Omoplata Switch",
+      "description": "If opponent successfully defends triangle by hiding arm or posturing, use the leg-over-shoulder position to transition directly to omoplata by bringing free leg over their back",
+      "when_to_use": "When opponent keeps trapped arm inside or successfully postures up from triangle attempt"
+    },
+    {
+      "variation_name": "Inverted Triangle from De La Riva",
+      "description": "Instead of standard triangle, rotate underneath opponent and lock inverted triangle, particularly effective when opponent is defending standard triangle entry",
+      "when_to_use": "Against opponent who maintains strong upright posture or when standard triangle angle is blocked"
+    },
+    {
+      "variation_name": "Triangle to Back Take",
+      "description": "If opponent turns away from triangle pressure, release bottom leg and take back control, maintaining top leg across shoulder as first hook",
+      "when_to_use": "When opponent attempts to defend by turning their back to escape choking pressure"
+    }
+  ]
+}

@@ -3,24 +3,30 @@
 
 
 ---
-title: "Inverted Triangle | BJJ Submission | BJJ Graph"
+title: "Inverted Triangle | BJJ Submission Family | BJJ Graph"
 description: "Master the Inverted Triangle choke in BJJ. Complete guide covering setup from guard and scrambles, perpendicular finishing mechanics, and defensive counters."
 ---
 
 
-<body data-content-type="submissions-hub">
+<body data-content-type="submissions-family">
 
 > **SAFETY**: Inverted Triangle targets the Carotid arteries and trachea. Risk: Cervical spine compression from improper rotation during setup. Release immediately upon tap.
 
 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
-<div class="role-links">
 
-[[Inverted Triangle/Attacker|Play as Attacker]]
-[[Inverted Triangle/Defender|Play as Defender]]
+<section id="variants" class="content-section">
 
-</div>
+## Position Variants
+
+| From Position | Success Rate | Top Injury Risk | Key Difference |
+|---------------|-------------|-----------------|----------------|
+| [[Inverted Triangle/from Triangle Control|Triangle Control]] | 60% | Cervical spine compression from improper rotation during setup |  |
+
+
+</section>
+
 
 <section id="overview" class="content-section">
 
@@ -29,8 +35,7 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 **Category**: Choke
 **Type**: Blood Choke
 **Target Area**: Carotid arteries and trachea
-**Starting Position**: [[Positions/Closed Guard]]
-**Success Rate**: 60%
+**Success Rate**: 60% (average across variants)
 
 </section>
 
@@ -78,145 +83,10 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 </section>
 
-<section id="outcomes" class="content-section">
 
-## Outcomes
+<section id="variation-details" class="content-section hide-minimal">
 
-| Result | Position | Probability |
-|--------|----------|-------------|
-| Success | [[game-over]] | 60% |
-| Failure | [[Positions/Closed Guard]] | 25% |
-| Counter | [[Positions/Side Control]] | 15% |
-
-
-</section>
-
-<section class="content-section">
-
-## Attacker vs Defender
-
-| &nbsp; | Attacker | Defender |
-|--------|----------|----------|
-| **Focus** | Execute and finish | Escape and survive |
-| **Key Principles** | Invert body orientation to create unconventional choking ang... | Prevent arm isolation across your own neck as the highest pr... |
-| **Options** | 7 execution steps | 4 defensive options |
-
-</section>
-
-<section id="attacker-summary" class="content-section">
-
-## Playing as Attacker
-
-[[Inverted Triangle/Attacker|→ Full Attacker Guide]]
-
-### Key Principles
-
-
-- Invert body orientation to create unconventional choking angles that bypass standard triangle defenses
-
-- Secure one arm across opponent's neck before establishing leg triangle to ensure proper choke mechanics
-
-- Use hip extension and rotation to generate compression rather than relying solely on leg squeeze
-
-- Maintain connection points at shoulder, hips, and legs throughout the transition to prevent escape
-
-- Angle adjustment is critical - position your body perpendicular or away from opponent to maximize arterial compression
-
-- Control the trapped arm to prevent opponent from creating defensive frames or turning into the choke
-
-- Finish with ankle lock and hip thrust, not just leg squeeze, to create complete circulatory restriction
-
-
-### Execution Steps
-
-
-- **Secure Arm Across Neck**: From closed guard bottom or scramble position, use an overhook, kimura grip, or direct control to pu...
-
-- **Break Down Opponent's Posture**: While controlling the trapped arm, use your legs and free hand to break opponent's posture forward a...
-
-- **Swing Lead Leg Over Back of Neck**: Identify which leg will go over the back of opponent's neck (typically the leg on the same side as t...
-
-- **Thread Opposite Leg for Figure-Four**: Thread your opposite leg under the trapped arm and position your ankle across your other leg's knee ...
-
-- **Adjust Angle and Control Posture**: Rotate your hips to create the optimal angle - your body should be perpendicular or facing away from...
-
-- **Extend Hips and Lock Ankle**: Pull your ankle tight across the back of your knee to secure the figure-four completely. Simultaneou...
-
-- **Final Adjustment and Finish**: Make micro-adjustments to maximize arterial compression. Pull opponent's head down slightly with you...
-
-
-### Common Mistakes
-
-
-- **Applying the choke before properly inverting body position**
-  - Consequence: Creates a weak standard triangle angle that opponent can easily defend with posture
-  - Correction: Focus on establishing the inverted orientation first. Your body should be perpendicular or facing away before you apply finishing pressure. The inversion creates the mechanical advantage.
-
-- **Failing to secure the arm across opponent's neck before setting up legs**
-  - Consequence: Opponent can extract their arm and escape entirely, or the choke becomes ineffective without the arm creating pressure
-  - Correction: Treat arm control as the primary objective. Use both hands if necessary to ensure the arm is pinned across the neck before attempting any leg movements.
-
-- **Squeezing with legs only without hip extension**
-  - Consequence: Creates muscle fatigue without effective choking pressure, allowing opponent to wait out your strength
-  - Correction: The finish comes from hip extension and body angle, not leg strength. Extend your hips toward the ceiling while maintaining the figure-four. Think 'push away' not 'squeeze together'.
-
-
-</section>
-
-<section id="defender-summary" class="content-section">
-
-## Playing as Defender
-
-[[Inverted Triangle/Defender|→ Full Defender Guide]]
-
-### Key Principles
-
-
-- Prevent arm isolation across your own neck as the highest priority defensive action
-
-- Turn away from the attacker, never into them, as turning in tightens the inverted angle
-
-- Fight the figure-four lock before it is secured - once locked, escape difficulty increases dramatically
-
-- Keep posture strong and elbows tight to prevent the initial arm drag across the neck
-
-- Use your free hand actively to create frames against the attacker's hips preventing angle adjustment
-
-- Recognize that standard triangle defenses (posturing, stacking) are less effective against inverted angles
-
-- Address the trapped arm first by working to extract it before attempting to clear the legs
-
-
-### Recognition Cues
-
-
-- Opponent controls your wrist or sleeve and begins pulling your arm across your own centerline toward your neck while their hips shift laterally
-
-- You feel a leg swinging over the back of your neck or head while your arm is being isolated against your chest or neck
-
-- Opponent's body rotates perpendicular to yours from a bottom position, with their hips turning away from you while maintaining arm control
-
-- From turtle or scramble, opponent threads a leg between your arm and head while controlling your wrist, creating the initial triangle configuration
-
-- Your posture collapses and you feel figure-four leg pressure on your neck from an unusual angle where opponent is not directly facing you
-
-
-### Escape Paths
-
-
-- Extract trapped arm by circling elbow down and pulling toward your hip while turning your body away from the attacker, then clear the legs and recover to top position in closed guard
-
-- Turn away from the attacker to square your shoulders to their hips, neutralizing the perpendicular angle, then posture up and work to open the figure-four by pushing on the locking ankle
-
-- Stand up if the figure-four is loose, using elevation to break the leg configuration, then carefully strip the legs and settle into side control or open guard passing position
-
-
-</section>
-
-
-<section id="variations" class="content-section hide-minimal">
-
-## Variations
+## Variation Details
 
 
 **Inverted Triangle from Failed Armbar**: When attempting an armbar from guard and opponent defends by pulling their arm free, immediately trap that defending arm across their neck and swing your legs to inverted triangle position. The momentum from the armbar attempt helps establish the angle. (When to use: Excellent chain submission when opponent successfully defends your armbar by pulling elbow back)
@@ -245,7 +115,6 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 - [[Positions/Rubber Guard/Mission Control]]
 - [[Positions/Rubber Guard/New York]]
 - [[Positions/Open Guard]]
-- [[Positions/Spider Guard]]
 - [[Positions/Armbar Control]]
 - [[Positions/Half Guard]]
 - [[Positions/Inverted Guard]]
@@ -257,15 +126,15 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 ## Related Submissions
 
-- [[Transitions/Triangle Choke]]
-- [[Submissions/Armbar from Guard]]
-- [[Transitions/Omoplata]]
-- [[Transitions/Gogoplata]]
-- [[Transitions/Baratoplata]]
-- [[Transitions/Rear Naked Choke]]
-- [[Submissions/Armbar from Mount]]
-- [[Submissions/Triangle Choke Front]]
-- [[Submissions/Triangle Choke Side]]
+- [[Submissions/Triangle Choke]] - Parent submission - standard triangle mechanics that the inverted version modifies
+- [[Submissions/Flying Armbar]] - Dynamic submission sharing scramble-based entry mechanics
+- [[Submissions/Omoplata]] - Alternative shoulder lock from similar arm control positions
+- [[Transitions/Gogoplata]] - Advanced choke sharing inverted leg positioning principles
+- [[Submissions/Baratoplata]] - Shoulder lock chain option when inverted triangle is defended
+- [[Submissions/Far Side Armbar]] - Complementary armbar attack from perpendicular body positioning
+- [[Transitions/Guillotine Choke]] - Alternative choking submission available during scramble transitions
+- [[Transitions/Arm Triangle]] - Related blood choke using arm-across-neck compression principle
+- [[Armbar Finish]] - Primary chain submission when inverted triangle is partially defended
 
 
 </section>
@@ -274,13 +143,13 @@ The Inverted Triangle is an advanced blood choke executed from bottom positions 
 
 ## Additional Related Content
 
-- [[Transitions/Triangle Choke]] - Parent submission - standard triangle choking mechanics that the inverted version modifies
+- [[Submissions/Triangle Choke]] - Parent submission - standard triangle choking mechanics that the inverted version modifies
 - [[Positions/Closed Guard]] - Primary starting position for establishing the inverted triangle entry
-- [[Submissions/Armbar from Guard]] - Common chain - inverted triangle often follows failed armbar attempts
-- [[Transitions/Kimura]] - Alternative submission - arm control can lead to kimura or inverted triangle
+- [[Positions/Armbar Control]] - Common chain position - inverted triangle often follows failed armbar attempts when transitioning through armbar control
+- [[Submissions/Kimura]] - Alternative submission - arm control can lead to kimura or inverted triangle
 - [[Positions/Inverted Guard]] - Related position - inverted guard mechanics facilitate the body inversion required
 - [[Positions/Crucifix]] - Related control position - similar arm trapping and body inversion principles
-- [[Transitions/Omoplata]] - Alternative submission from similar arm control positions
+- [[Submissions/Omoplata]] - Alternative submission from similar arm control positions
 - [[Transitions/Gogoplata]] - Advanced submission sharing inverted leg positioning principles
 - [[Positions/Rubber Guard]] - Guard system providing multiple inverted triangle entry opportunities
 

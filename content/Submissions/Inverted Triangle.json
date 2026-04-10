@@ -11,11 +11,13 @@
     "hub",
     "finishing-guide"
   ],
+  "is_family": true,
   "submission_category": "Choke",
   "submission_type": "Blood Choke",
   "target_area": "Carotid arteries and trachea",
   "starting_position": "Closed Guard",
   "success_rate": 60,
+  "variant_uniqueness": "Perpendicular angle bypasses standard triangle defenses",
   "overview": "The Inverted Triangle is an advanced blood choke executed from bottom positions where the practitioner's body orientation is inverted relative to a standard triangle. This submission creates exceptional choking pressure by trapping one of the opponent's arms across their neck while isolating it with the legs in a figure-four configuration. The inverted nature of this technique generates unique leverage mechanics that make it particularly effective against opponents who have strong triangle defense patterns developed for conventional angles. The submission is most commonly entered from positions like turtle defense, failed armbar attempts, or scrambles where traditional triangle setups are unavailable. The mechanical advantage stems from the practitioner's ability to use their entire body weight and hip extension to create compression against the carotid arteries while simultaneously restricting the opponent's ability to posture or turn into the choke. Unlike the standard triangle where you face your opponent, the inverted variation positions you facing away or perpendicular, creating unusual angles that opponents often struggle to defend. This makes it an excellent addition to any guard player's submission arsenal, particularly for those who frequently find themselves in scramble situations or against opponents with excellent triangle awareness.",
   "safety_considerations": {
     "injury_risks": [
@@ -65,21 +67,32 @@
       "Absolutely no practice on unconscious or semi-conscious partners"
     ]
   },
-  "outcomes": [
+  "variations": [
     {
-      "to": "game-over",
-      "probability": 60,
-      "result": "success"
+      "name": "from Triangle Control",
+      "slug": "from-triangle-control"
+    }
+  ],
+  "variations_and_setups": [
+    {
+      "variation_name": "Inverted Triangle from Failed Armbar",
+      "description": "When attempting an armbar from guard and opponent defends by pulling their arm free, immediately trap that defending arm across their neck and swing your legs to inverted triangle position. The momentum from the armbar attempt helps establish the angle.",
+      "when_to_use": "Excellent chain submission when opponent successfully defends your armbar by pulling elbow back"
     },
     {
-      "to": "Closed Guard/Top",
-      "probability": 25,
-      "result": "failure"
+      "variation_name": "Inverted Triangle from Turtle Defense",
+      "description": "When opponent has you in turtle position and reaches under to control your far hip or opposite arm, trap their reaching arm and invert toward it, threading your legs over and under to establish the triangle while you're on your side or even your back.",
+      "when_to_use": "Perfect counter when defending turtle position against aggressive opponents who over-commit with deep underhooks"
     },
     {
-      "to": "Side Control/Top",
-      "probability": 15,
-      "result": "counter"
+      "variation_name": "Inverted Triangle from Rubber Guard",
+      "description": "From rubber guard positions like Mission Control or New York, if opponent postures and attempts to pull their trapped arm free, follow their arm across their neck and invert into triangle using the existing leg control as your starting point.",
+      "when_to_use": "Natural transition for rubber guard practitioners when rubber guard attacks are defended"
+    },
+    {
+      "variation_name": "Rolling Inverted Triangle",
+      "description": "From standing or seated guard, if opponent attempts to pass around your legs, grab their arm and roll backward over your shoulder while pulling their arm across their neck, using the rolling momentum to establish the inverted triangle position as you complete the rotation.",
+      "when_to_use": "Dynamic setup against standing passers or in scramble situations where traditional setups aren't available"
     }
   ],
   "from_positions": [
@@ -89,21 +102,47 @@
     "Mission Control",
     "New York",
     "Open Guard",
-    "Spider Guard",
     "Armbar Control",
     "Half Guard",
     "Inverted Guard"
   ],
   "related_submissions": [
-    "Triangle Choke",
-    "Armbar from Guard",
-    "Omoplata",
-    "Gogoplata",
-    "Baratoplata",
-    "Rear Naked Choke",
-    "Armbar from Mount",
-    "Triangle Choke Front",
-    "Triangle Choke Side"
+    {
+      "name": "Triangle Choke",
+      "relationship": "Parent submission - standard triangle mechanics that the inverted version modifies"
+    },
+    {
+      "name": "Flying Armbar",
+      "relationship": "Dynamic submission sharing scramble-based entry mechanics"
+    },
+    {
+      "name": "Omoplata",
+      "relationship": "Alternative shoulder lock from similar arm control positions"
+    },
+    {
+      "name": "Gogoplata",
+      "relationship": "Advanced choke sharing inverted leg positioning principles"
+    },
+    {
+      "name": "Baratoplata",
+      "relationship": "Shoulder lock chain option when inverted triangle is defended"
+    },
+    {
+      "name": "Far Side Armbar",
+      "relationship": "Complementary armbar attack from perpendicular body positioning"
+    },
+    {
+      "name": "Guillotine Choke",
+      "relationship": "Alternative choking submission available during scramble transitions"
+    },
+    {
+      "name": "Arm Triangle",
+      "relationship": "Related blood choke using arm-across-neck compression principle"
+    },
+    {
+      "name": "Armbar Finish",
+      "relationship": "Primary chain submission when inverted triangle is partially defended"
+    }
   ],
   "related_content": [
     {
@@ -115,8 +154,8 @@
       "relationship": "Primary starting position for establishing the inverted triangle entry"
     },
     {
-      "name": "Armbar from Guard",
-      "relationship": "Common chain - inverted triangle often follows failed armbar attempts"
+      "name": "Armbar Control",
+      "relationship": "Common chain position - inverted triangle often follows failed armbar attempts when transitioning through armbar control"
     },
     {
       "name": "Kimura",
@@ -141,394 +180,6 @@
     {
       "name": "Rubber Guard",
       "relationship": "Guard system providing multiple inverted triangle entry opportunities"
-    }
-  ],
-  "attacker": {
-    "name": "Inverted Triangle Attacker",
-    "description": "How to execute Inverted Triangle in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
-    "overview": "The Inverted Triangle is an advanced blood choke executed from bottom positions where the practitioner's body orientation is inverted relative to a standard triangle. This submission creates exceptional choking pressure by trapping one of the opponent's arms across their neck while isolating it with the legs in a figure-four configuration. The inverted nature of this technique generates unique leverage mechanics that make it particularly effective against opponents who have strong triangle defense patterns developed for conventional angles. The submission is most commonly entered from positions like turtle defense, failed armbar attempts, or scrambles where traditional triangle setups are unavailable. The mechanical advantage stems from the practitioner's ability to use their entire body weight and hip extension to create compression against the carotid arteries while simultaneously restricting the opponent's ability to posture or turn into the choke. Unlike the standard triangle where you face your opponent, the inverted variation positions you facing away or perpendicular, creating unusual angles that opponents often struggle to defend. This makes it an excellent addition to any guard player's submission arsenal, particularly for those who frequently find themselves in scramble situations or against opponents with excellent triangle awareness.",
-    "key_principles": [
-      "Invert body orientation to create unconventional choking angles that bypass standard triangle defenses",
-      "Secure one arm across opponent's neck before establishing leg triangle to ensure proper choke mechanics",
-      "Use hip extension and rotation to generate compression rather than relying solely on leg squeeze",
-      "Maintain connection points at shoulder, hips, and legs throughout the transition to prevent escape",
-      "Angle adjustment is critical - position your body perpendicular or away from opponent to maximize arterial compression",
-      "Control the trapped arm to prevent opponent from creating defensive frames or turning into the choke",
-      "Finish with ankle lock and hip thrust, not just leg squeeze, to create complete circulatory restriction"
-    ],
-    "setup_requirements": [
-      "Opponent's arm must be trapped across their own neck with your body controlling the shoulder",
-      "Your hips must be mobile enough to invert and rotate your lower body into position",
-      "Sufficient space to swing your legs around opponent's head without their posture preventing the movement",
-      "Control of opponent's posture to prevent them from standing or creating vertical distance",
-      "At least one leg hook or control point established before initiating the inversion",
-      "Opponent's base must be compromised enough that they cannot simply stand and slam"
-    ],
-    "execution_steps": [
-      {
-        "step_number": 1,
-        "action": "Secure Arm Across Neck",
-        "description": "From closed guard bottom or scramble position, use an overhook, kimura grip, or direct control to pull one of opponent's arms across their own neck. The bicep or forearm should be pressing against the side of their neck. Maintain tight control of this arm with both hands initially, preventing them from extracting it. This is the foundation of the entire submission.",
-        "timing": "2-3 seconds to establish control"
-      },
-      {
-        "step_number": 2,
-        "action": "Break Down Opponent's Posture",
-        "description": "While controlling the trapped arm, use your legs and free hand to break opponent's posture forward and down. You need them close to your body with their head lower than their hips. Pull their shoulder down with the trapped arm while using your legs to prevent them from posting. This collapsed posture is essential for the next steps.",
-        "timing": "1-2 seconds"
-      },
-      {
-        "step_number": 3,
-        "action": "Swing Lead Leg Over Back of Neck",
-        "description": "Identify which leg will go over the back of opponent's neck (typically the leg on the same side as their trapped arm). Release your leg control and swing this leg up and over the back of their neck, placing your calf across the base of their skull. Your knee should be pointing toward the ceiling. Maintain arm control throughout this movement to prevent escape.",
-        "timing": "1-2 seconds for leg placement"
-      },
-      {
-        "step_number": 4,
-        "action": "Thread Opposite Leg for Figure-Four",
-        "description": "Thread your opposite leg under the trapped arm and position your ankle across your other leg's knee pit to create the figure-four lock. This configuration should sandwich the opponent's neck and trapped arm together. Ensure your bottom leg's knee is angled outward to create maximum space for the choke. The lock should feel secure but not yet create choking pressure.",
-        "timing": "2-3 seconds to establish figure-four"
-      },
-      {
-        "step_number": 5,
-        "action": "Adjust Angle and Control Posture",
-        "description": "Rotate your hips to create the optimal angle - your body should be perpendicular or facing away from opponent. Use your hands to control their head, shoulder, or gi to prevent them from turning into the choke or posturing up. This angle adjustment is what distinguishes the inverted triangle from standard variations and creates the primary choking mechanism.",
-        "timing": "1-2 seconds"
-      },
-      {
-        "step_number": 6,
-        "action": "Extend Hips and Lock Ankle",
-        "description": "Pull your ankle tight across the back of your knee to secure the figure-four completely. Simultaneously extend your hips upward and slightly rotate them away from opponent. This hip extension combined with the locked ankles creates compression on both carotid arteries. Squeeze your knees together while maintaining hip extension. The choke should be blood restriction, not air restriction.",
-        "timing": "3-4 seconds gradual pressure increase"
-      },
-      {
-        "step_number": 7,
-        "action": "Final Adjustment and Finish",
-        "description": "Make micro-adjustments to maximize arterial compression. Pull opponent's head down slightly with your hands while maintaining hip extension. Ensure their trapped arm is creating pressure against one side of the neck while your leg configuration restricts the other. If they don't tap within 3-4 seconds of full pressure, reassess your angle and arm position rather than increasing force.",
-        "timing": "2-3 seconds to tap or release"
-      }
-    ],
-    "common_counters": [
-      {
-        "counter": "Grabbing your bottom leg and attempting to pass it over their head",
-        "effectiveness": "High",
-        "your_response": "Immediately hook your bottom leg's foot behind their shoulder or under their armpit. Use this hook to break their posture down while maintaining the figure-four. If necessary, transition to standard triangle by inverting back.",
-        "targets_outcome": "Closed Guard/Top"
-      },
-      {
-        "counter": "Turning into the choke to relieve pressure on carotid arteries",
-        "effectiveness": "Medium",
-        "your_response": "Use your hands to control their head and prevent rotation. If they successfully turn, adjust your hip angle to follow their movement and maintain perpendicular pressure. Consider transitioning to armbar if they fully commit to turning.",
-        "targets_outcome": "Closed Guard/Top"
-      },
-      {
-        "counter": "Standing up to create vertical distance and slam threat",
-        "effectiveness": "High",
-        "your_response": "Immediately release the submission or accept a potential slam in competition. In training, do not allow them to lift you. Maintain connection and break their posture back down before they can fully stand.",
-        "targets_outcome": "Side Control/Top"
-      },
-      {
-        "counter": "Creating a frame with free hand against your hip to prevent angle adjustment",
-        "effectiveness": "Medium",
-        "your_response": "Use your hands to strip the defensive frame, swim over their arm, or control their wrist. Alternatively, use the frame as a pivot point to rotate your hips even more perpendicular, turning their defensive structure into your leverage point.",
-        "targets_outcome": "Closed Guard/Top"
-      },
-      {
-        "counter": "Stacking your body weight back over your head to reduce leg effectiveness",
-        "effectiveness": "Low",
-        "your_response": "Accept the stack temporarily and maintain your grips. Use the stack pressure to help you rotate further, using their forward pressure against them. As they commit to the stack, extend your hips explosively to break their base.",
-        "targets_outcome": "Closed Guard/Top"
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Applying the choke before properly inverting body position",
-        "consequence": "Creates a weak standard triangle angle that opponent can easily defend with posture",
-        "correction": "Focus on establishing the inverted orientation first. Your body should be perpendicular or facing away before you apply finishing pressure. The inversion creates the mechanical advantage."
-      },
-      {
-        "error": "Failing to secure the arm across opponent's neck before setting up legs",
-        "consequence": "Opponent can extract their arm and escape entirely, or the choke becomes ineffective without the arm creating pressure",
-        "correction": "Treat arm control as the primary objective. Use both hands if necessary to ensure the arm is pinned across the neck before attempting any leg movements."
-      },
-      {
-        "error": "Squeezing with legs only without hip extension",
-        "consequence": "Creates muscle fatigue without effective choking pressure, allowing opponent to wait out your strength",
-        "correction": "The finish comes from hip extension and body angle, not leg strength. Extend your hips toward the ceiling while maintaining the figure-four. Think 'push away' not 'squeeze together'."
-      },
-      {
-        "error": "Jerking or spiking the technique rapidly during setup or finish",
-        "consequence": "Risk of cervical spine injury, neck strain, or loss of consciousness without warning signs for your partner",
-        "correction": "DANGER: Apply all movements slowly and progressively. Give your training partner 5-7 seconds minimum to recognize and tap to the pressure. Never snap into position."
-      },
-      {
-        "error": "Releasing legs before releasing trapped arm during submission release",
-        "consequence": "Trapped arm can torque awkwardly causing shoulder or elbow injury as legs release pressure",
-        "correction": "DANGER: Always release the figure-four first, then carefully guide the trapped arm free. Support your partner's neck if they were unconscious."
-      },
-      {
-        "error": "Poor angle selection - body aligned with opponent instead of perpendicular",
-        "consequence": "Choke pressure is minimal and opponent can turn face-to-face and escape",
-        "correction": "After establishing the figure-four, actively rotate your hips and shoulders to face 90 degrees away from opponent. Your chest should face their side or back, not their face."
-      },
-      {
-        "error": "Allowing opponent's free arm to create frames on your hips or legs",
-        "consequence": "They can prevent you from achieving optimal angle and may escape the position entirely",
-        "correction": "Use your hands actively to control opponent's free arm, head, or shoulder. Don't allow them free use of defensive frames."
-      }
-    ],
-    "training_progressions": [
-      {
-        "phase": "Phase 1: Solo Mechanics",
-        "focus": "Hip inversion and figure-four leg configuration",
-        "description": "Practice the hip inversion movement and figure-four lock with a grappling dummy or heavy bag. Focus on achieving the perpendicular body angle smoothly and locking the ankle across the knee pit without looking. Drill 20 repetitions per side until the movement pattern is automatic. Include flexibility work targeting hip external rotation and hamstring mobility."
-      },
-      {
-        "phase": "Phase 2: Cooperative Drilling",
-        "focus": "Full sequence with compliant partner",
-        "description": "Walk through the complete seven-step sequence with a training partner offering zero resistance. Focus on arm placement across the neck, proper leg threading order, and angle adjustment. Partner provides verbal feedback on choke pressure quality. Drill both sides, 15 repetitions each, emphasizing slow progressive pressure application and safe release protocol."
-      },
-      {
-        "phase": "Phase 3: Entry Integration",
-        "focus": "Chaining from failed submissions and scrambles",
-        "description": "Practice entering the inverted triangle from common scenarios: failed armbar from guard, turtle defense counter, and rubber guard progressions. Partner provides 30-50% resistance on the initial technique, then feeds the inverted triangle entry. Focus on recognizing the opportunity window and transitioning smoothly from the preceding position."
-      },
-      {
-        "phase": "Phase 4: Graduated Resistance",
-        "focus": "Finishing against progressive defense",
-        "description": "Start in established inverted triangle position with figure-four locked. Partner defends with increasing intensity across rounds: 30%, 50%, then 70% resistance. Work on maintaining angle, controlling the free arm, and adjusting hip extension against each defensive response. Identify which counters give you the most difficulty and develop specific responses."
-      },
-      {
-        "phase": "Phase 5: Live Positional Sparring",
-        "focus": "Full application in rolling",
-        "description": "Begin from closed guard and attempt to reach the inverted triangle against fully resisting opponents. Track success rates and identify which entries work best against different body types and skill levels. Integrate the inverted triangle into your existing submission chains, particularly as a follow-up to armbar and triangle attempts that are defended."
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "Why is the inverted angle mechanically superior to a standard triangle for finishing the choke?",
-        "answer": "The inverted angle creates perpendicular pressure against the carotid arteries rather than frontal pressure. This perpendicular orientation makes it much harder for the opponent to relieve pressure by posturing or turning into the choke, as their natural defensive movements (turning toward you) actually increase the compression. Additionally, the inverted angle allows you to use hip extension in a direction that opponent cannot easily counter with posture, creating more reliable blood restriction than standard triangles where opponents can sometimes create space by arching their back.",
-        "safety_critical": false
-      },
-      {
-        "question": "What are the critical safety steps when releasing an inverted triangle if your training partner becomes unconscious?",
-        "answer": "Immediately open the figure-four by releasing your ankle lock first. Remove the top leg from over the back of their neck carefully without jerking movements. Guide the trapped arm free from across their neck with controlled movement to avoid shoulder injury. Support their neck and head as you release to prevent their head from dropping to the mat. Create space to allow natural blood flow restoration by turning their head to the side. Check for breathing and consciousness immediately. If they remain unconscious for more than a few seconds, alert your coach and be prepared to provide medical assistance. Never leave an unconscious training partner unattended.",
-        "safety_critical": true
-      },
-      {
-        "question": "What is the most common defensive mistake that makes the inverted triangle easier to finish?",
-        "answer": "The most common mistake is when opponents try to turn into the choke, believing they can face you and posture as they would against a standard triangle. This turning motion actually helps you achieve the perpendicular angle you need and often tightens the choke rather than relieving it. Experienced opponents know to turn away from an inverted triangle, not into it, and to fight the angle by trying to square their shoulders to your hips rather than turning their face toward you.",
-        "safety_critical": false
-      },
-      {
-        "question": "Why must the arm be secured across the opponent's neck before attempting to establish the leg triangle?",
-        "answer": "The arm across the neck serves two critical functions: it creates one side of the choking pressure against the carotid artery, and it prevents the opponent from turning their head to relieve pressure once the legs are in place. Without the arm properly positioned, you're attempting a naked triangle (leg-only choke) which requires perfect positioning and is much easier to defend. The arm must be secured first because once you start moving your legs into position, you typically need both hands for balance and leg placement, meaning you can't effectively establish arm control during the leg movements.",
-        "safety_critical": false
-      },
-      {
-        "question": "What is the primary mechanical source of pressure in the inverted triangle finish - leg squeeze or hip extension?",
-        "answer": "Hip extension is the primary mechanical source of pressure, not leg squeeze. While the figure-four lock maintains the structure, the finish comes from extending your hips toward the ceiling and away from the opponent while maintaining the perpendicular angle. This hip extension creates compression that tightens both the leg configuration and pulls the trapped arm tighter across the neck. Relying only on leg squeeze leads to muscle fatigue and often creates discomfort rather than effective arterial compression. The most efficient inverted triangles feel almost effortless because they use skeletal structure and hip position rather than muscular effort.",
-        "safety_critical": false
-      },
-      {
-        "question": "Why should you never spike or rapidly jerk into the inverted triangle position during training?",
-        "answer": "Rapidly spiking into the inverted triangle creates severe cervical spine injury risk because you're rotating and compressing the opponent's neck simultaneously in an unusual angle. Their neck is in a vulnerable position with their own arm creating leverage against it, and sudden rotational force can cause disc injuries, ligament damage, or vertebrae compression. Additionally, rapid application can cause loss of consciousness before your training partner recognizes they're in danger and needs to tap. Blood chokes can render someone unconscious in 3-4 seconds when applied suddenly, giving no warning. Slow, progressive application (5-7 seconds minimum) allows your partner to recognize the submission, assess their escape options, and tap safely before injury or unconsciousness occurs. This is a safety-critical principle that must never be violated in training.",
-        "safety_critical": true
-      },
-      {
-        "question": "How does the inverted triangle differ strategically from a standard triangle in terms of when to attempt it?",
-        "answer": "The inverted triangle is primarily a reactive or transitional submission rather than a primary attack from static positions. While you can hit standard triangles from stable closed guard or spider guard positions, inverted triangles typically emerge from scrambles, failed submissions (like armbars), defensive situations (like turtle), or when opponents are moving dynamically and expose unconventional angles. Strategically, you should recognize inverted triangle opportunities when you have arm control across the neck but your body position doesn't allow for standard attacks. It's an excellent 'plan B' submission that catches opponents who have developed strong triangle defense patterns, as those defenses are largely ineffective against the inverted angle.",
-        "safety_critical": false
-      },
-      {
-        "question": "Your opponent starts to posture up while you have the figure-four locked - what adjustment prevents escape?",
-        "answer": "When opponent attempts to posture, immediately increase hip extension while pulling their head down with your hands. Do not simply squeeze harder with your legs - this wastes energy and allows them to continue posturing. Instead, extend your hips explosively toward the ceiling and rotate further perpendicular to their body. Use your hands to control either their head, collar, or the back of their neck to prevent the posture. If they achieve partial posture, consider switching your angle by scooting your hips further away from them while maintaining the figure-four, which often re-breaks their posture as they chase you.",
-        "safety_critical": false
-      },
-      {
-        "question": "What anatomical structures does the inverted triangle attack and how does proper arm positioning enhance the choke?",
-        "answer": "The inverted triangle attacks the carotid arteries on both sides of the neck, creating a blood choke that restricts oxygen flow to the brain. The trapped arm across the opponent's neck creates pressure on one carotid artery, while your leg configuration (specifically the thigh pressing against the other side of the neck) restricts the other carotid. Proper arm positioning is critical because the bicep or forearm creates the 'third side' of the triangle, completing the choking structure. Without the arm properly positioned, you must rely entirely on leg pressure, which is less efficient and allows more defensive movement. The arm also prevents the opponent from turning their chin into the crook of your leg to relieve pressure.",
-        "safety_critical": false
-      },
-      {
-        "question": "What grip adjustments should you make during the finish if the opponent is successfully defending by keeping their chin tucked?",
-        "answer": "When opponent tucks their chin, do not attempt to pry it away forcefully as this wastes energy and can cause neck injury. Instead, adjust your hand position to control the crown of their head, pushing it down toward your hip while maintaining hip extension. Alternatively, establish a grip on their far shoulder and pull it toward you while rotating your hips away, which naturally exposes the neck by changing the angle of attack. You can also grab behind their head with a gable grip and pull down while extending your hips. The goal is to change the angle rather than fighting their chin directly - a well-positioned inverted triangle makes chin tucking ineffective because the pressure comes from perpendicular angles.",
-        "safety_critical": false
-      },
-      {
-        "question": "How do you recognize the point of no escape in the inverted triangle, and what indicators tell you the choke is correctly applied?",
-        "answer": "The point of no escape occurs when the figure-four is locked with proper ankle placement, your hips are extended and perpendicular to the opponent, and the trapped arm is creating consistent pressure against their carotid. Indicators of correct application include: opponent's face changing color (reddening or purple tint), visible decrease in their movement and strength, their free arm movements becoming weaker and less coordinated, and a distinctive 'settled' feeling where your leg structure feels locked in place without requiring constant adjustment. The choke should feel mechanically efficient - if you're straining with leg strength, the angle is likely wrong. A correctly applied inverted triangle feels like the opponent's own body is working against them.",
-        "safety_critical": true
-      },
-      {
-        "question": "What are the competition finishing strategies for the inverted triangle versus training application differences?",
-        "answer": "In competition, once the figure-four is locked and angle established, you can apply finishing pressure more rapidly (2-3 seconds to full pressure) because the objective is the tap or unconsciousness within the rules. Use maximum hip extension immediately once control is established. In training, you must apply pressure over 5-7 seconds minimum to allow your partner to assess and tap. Competition allows following up if they stand with potential slam risk (rules-dependent), while training requires immediate release if they begin standing. Competition strategy includes hand-fighting aggressively to prevent any grip establishment, while training should allow some defensive movement for learning purposes. The core finishing mechanics remain identical, but the application speed and willingness to accept extreme positions differs significantly.",
-        "safety_critical": true
-      }
-    ]
-  },
-  "defender": {
-    "name": "Inverted Triangle Defender",
-    "description": "How to defend against Inverted Triangle in BJJ. Recognition, escape paths, and defensive strategies.",
-    "overview": "Defending the Inverted Triangle requires understanding that this choke operates on fundamentally different mechanics than a standard triangle. The perpendicular body angle means conventional triangle defenses - posturing up, turning into the choke, stacking - are often ineffective or even counterproductive. As a defender, your priority hierarchy is clear: prevent the arm from being trapped across your neck first, prevent the figure-four lock second, and escape by turning away from the choke and extracting your trapped arm third. Early recognition is critical because the inverted triangle becomes exponentially harder to escape once the figure-four is locked and the attacker's hips are extended. The position attacks your carotid arteries from an unusual angle, and many practitioners make the fatal error of turning toward the attacker thinking they can posture as they would against a standard triangle, which actually tightens the choke. Your defensive movement should always be away from the attacker's body, working to square your shoulders to their hips and extract the trapped arm before the figure-four configuration can be completed.",
-    "key_principles": [
-      "Prevent arm isolation across your own neck as the highest priority defensive action",
-      "Turn away from the attacker, never into them, as turning in tightens the inverted angle",
-      "Fight the figure-four lock before it is secured - once locked, escape difficulty increases dramatically",
-      "Keep posture strong and elbows tight to prevent the initial arm drag across the neck",
-      "Use your free hand actively to create frames against the attacker's hips preventing angle adjustment",
-      "Recognize that standard triangle defenses (posturing, stacking) are less effective against inverted angles",
-      "Address the trapped arm first by working to extract it before attempting to clear the legs"
-    ],
-    "recognition_cues": [
-      "Opponent controls your wrist or sleeve and begins pulling your arm across your own centerline toward your neck while their hips shift laterally",
-      "You feel a leg swinging over the back of your neck or head while your arm is being isolated against your chest or neck",
-      "Opponent's body rotates perpendicular to yours from a bottom position, with their hips turning away from you while maintaining arm control",
-      "From turtle or scramble, opponent threads a leg between your arm and head while controlling your wrist, creating the initial triangle configuration",
-      "Your posture collapses and you feel figure-four leg pressure on your neck from an unusual angle where opponent is not directly facing you"
-    ],
-    "defensive_options": [
-      {
-        "action": "Extract trapped arm before figure-four is locked by circling elbow down and pulling toward your hip",
-        "when_to_use": "Early defense when you feel your arm being dragged across your neck but legs are not yet locked in figure-four",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You recover to closed guard top or open guard top with posture intact and no submission threat",
-        "risk": "If you pull too aggressively without addressing the leg on your neck, you may open space for a standard triangle entry"
-      },
-      {
-        "action": "Turn away from attacker and drive shoulders square to their hips to neutralize the perpendicular angle",
-        "when_to_use": "When figure-four is partially locked but attacker has not yet achieved full perpendicular angle or hip extension",
-        "targets_outcome": "Closed Guard/Top",
-        "if_successful": "You eliminate the perpendicular choking angle, converting the position to a weaker standard triangle angle that is easier to defend",
-        "risk": "Requires significant core strength and timing; if attacker follows your rotation, the choke may tighten during the turn"
-      },
-      {
-        "action": "Posture explosively while controlling attacker's hips, then stack and drive forward to pass",
-        "when_to_use": "When attacker's figure-four is loose or they have poor hip extension, particularly effective if their angle is not yet fully perpendicular",
-        "targets_outcome": "Side Control/Top",
-        "if_successful": "You achieve top position in side control by driving through the loose triangle configuration and passing to dominant position",
-        "risk": "If the figure-four is tight, posturing can increase choke pressure; only attempt when you feel the lock is not fully secured"
-      },
-      {
-        "action": "Stand up rapidly to create vertical distance and break the figure-four configuration through elevation",
-        "when_to_use": "When attacker cannot maintain connection and their figure-four is not fully locked, particularly if their hips are not elevated",
-        "targets_outcome": "Side Control/Top",
-        "if_successful": "Standing breaks the choke mechanics and allows you to strip the legs and pass to top position",
-        "risk": "In competition, slamming rules may apply; in training, never slam an inverted opponent - release safely if you stand"
-      }
-    ],
-    "escape_paths": [
-      "Extract trapped arm by circling elbow down and pulling toward your hip while turning your body away from the attacker, then clear the legs and recover to top position in closed guard",
-      "Turn away from the attacker to square your shoulders to their hips, neutralizing the perpendicular angle, then posture up and work to open the figure-four by pushing on the locking ankle",
-      "Stand up if the figure-four is loose, using elevation to break the leg configuration, then carefully strip the legs and settle into side control or open guard passing position"
-    ],
-    "favorable_outcomes": [
-      {
-        "outcome": "Closed Guard/Top",
-        "how": "Extract the trapped arm early before the figure-four is locked, then posture up and re-establish your base in closed guard top position with strong posture"
-      },
-      {
-        "outcome": "Side Control/Top",
-        "how": "If you successfully stand and strip the legs, or drive through a loose figure-four with a stack pass, you can advance directly to side control"
-      }
-    ],
-    "common_errors": [
-      {
-        "error": "Turning into the attacker (toward their face) to relieve choking pressure",
-        "consequence": "This is the single most dangerous mistake - turning in actually helps the attacker achieve their optimal perpendicular angle and dramatically tightens the blood choke rather than relieving it",
-        "correction": "Always turn away from the attacker. Rotate your shoulders so they face the attacker's hips, not their head. This squares the angle and reduces the perpendicular choking pressure that makes the inverted triangle effective."
-      },
-      {
-        "error": "Attempting standard triangle defense by posturing up without addressing the arm trap",
-        "consequence": "Posturing without extracting the arm increases pressure on the trapped arm against your own neck, potentially making the choke tighter while wasting significant energy",
-        "correction": "Address the trapped arm first. Work to circle your elbow down and extract the arm before attempting to posture. The arm across your neck is what creates the third pressure point of the choke."
-      },
-      {
-        "error": "Panicking and using explosive jerking movements to escape",
-        "consequence": "Rapid jerking movements create neck injury risk for both you and the attacker, can cause your own shoulder to be torqued by the trapped arm, and often creates the movement reactions that help the attacker adjust their angle",
-        "correction": "Stay calm and work methodically. Focus on one defensive objective at a time: first fight the arm trap, then address the angle, then work to open the figure-four. Controlled movement is more effective than panic."
-      },
-      {
-        "error": "Ignoring the free hand and allowing attacker to control your head or remaining arm",
-        "consequence": "Losing your free hand eliminates your only defensive tool, allowing the attacker to pull your head down, adjust angle freely, and complete the choke without resistance",
-        "correction": "Keep your free hand active at all times. Frame against the attacker's hip to prevent angle adjustment, or use it to fight the figure-four lock. Never allow both arms to be controlled simultaneously."
-      },
-      {
-        "error": "Waiting too long to defend, allowing the figure-four to be fully locked with hip extension",
-        "consequence": "Once the figure-four is locked and the attacker extends their hips with proper perpendicular angle, escape probability drops below 20% and unconsciousness can occur within 4-6 seconds",
-        "correction": "Defend immediately at the first recognition cue. The moment you feel your arm being isolated or a leg swinging over your neck, begin your defensive response. Every second of delay exponentially reduces your escape probability."
-      }
-    ],
-    "knowledge_assessment": [
-      {
-        "question": "Why is turning into the attacker the most dangerous defensive mistake against the inverted triangle?",
-        "answer": "Turning into the attacker is catastrophic because the inverted triangle's primary choking mechanism relies on the perpendicular angle between your body and theirs. When you turn toward them, you are actually helping them achieve that perpendicular orientation. In a standard triangle, turning in can relieve pressure, but the inverted variation exploits the opposite body mechanics. By turning toward the attacker, you tighten both the leg pressure on one carotid and the arm pressure on the other, accelerating blood restriction. The correct response is always to turn away, squaring your shoulders to their hips to flatten the angle.",
-        "safety_critical": true
-      },
-      {
-        "question": "What are the earliest recognition cues that an inverted triangle is being set up, and why is early defense critical?",
-        "answer": "The earliest cues are: your arm being pulled across your own centerline toward your neck, the attacker's hips shifting laterally to create an angle, and a leg beginning to swing over the back of your head or neck from an unusual direction. Early defense is critical because the inverted triangle follows an exponential difficulty curve - before the figure-four is locked, you have perhaps 70% escape probability; once locked with hip extension, this drops below 20%. The window between arm isolation and figure-four completion is typically only 3-5 seconds, making immediate recognition and response essential for survival.",
-        "safety_critical": true
-      },
-      {
-        "question": "What should your defensive priority hierarchy be when caught in an inverted triangle attempt?",
-        "answer": "The priority hierarchy from highest to lowest is: first, prevent or extract the arm trap across your neck since this is the foundation of the entire choke and without it the submission cannot function; second, prevent the figure-four lock by blocking the attacker's legs from connecting or stripping the ankle before it locks across the knee pit; third, neutralize the perpendicular angle by turning away and squaring your shoulders to the attacker's hips; fourth, create distance through posturing or standing to break the mechanical structure. Attempting lower-priority actions before higher ones wastes energy and time on symptoms rather than the root cause of the submission threat.",
-        "safety_critical": false
-      },
-      {
-        "question": "How does defending the inverted triangle differ from defending a standard triangle choke?",
-        "answer": "Standard triangle defense relies heavily on posturing up, turning into the choke to relieve carotid pressure, and stacking the opponent. Against the inverted triangle, all three of these are less effective or actively counterproductive. Posturing can increase arm-on-neck pressure. Turning in helps the attacker achieve their desired perpendicular angle. Stacking is less effective because the attacker's hips are already oriented to absorb forward pressure. Instead, inverted triangle defense requires turning away from the attacker, extracting the trapped arm as the primary objective, and working to square your body angle to eliminate the perpendicular choking mechanics. The defensive mindset must be completely different from conventional triangle defense.",
-        "safety_critical": false
-      },
-      {
-        "question": "When is it appropriate to tap rather than continue defending the inverted triangle, and what are the warning signs of impending unconsciousness?",
-        "answer": "You should tap immediately when you feel the figure-four fully locked with strong hip extension and your arm firmly trapped, and you have no active escape in progress. Warning signs of impending unconsciousness include: tunnel vision or darkening of peripheral vision, a warm rushing sensation in your head, tingling in your face or extremities, sudden feeling of calm or disconnection, and noticeable decrease in your own grip and muscular strength. Blood chokes can cause unconsciousness in as little as 4-6 seconds once fully applied. If you experience any visual disturbances or feel your own strength fading, tap immediately rather than attempting one more escape. Your training partner's safety and your own health are always more important than defending a submission in practice.",
-        "safety_critical": true
-      }
-    ],
-    "training_progressions": [
-      {
-        "phase": "Phase 1: Recognition Drilling",
-        "focus": "Identifying inverted triangle setups early",
-        "description": "Partner slowly walks through inverted triangle entries from closed guard, failed armbar, and turtle positions. Defender focuses on recognizing the earliest cues: arm being pulled across centerline, lateral hip shift, and leg swinging over neck. Stop at each recognition point and discuss. No resistance from attacker - pure pattern recognition."
-      },
-      {
-        "phase": "Phase 2: Arm Extraction Practice",
-        "focus": "Extracting trapped arm before figure-four locks",
-        "description": "Partner establishes arm across neck control but does not lock the figure-four. Defender drills the elbow circle-down extraction at 50% resistance. Perform 15 repetitions per side focusing on timing the extraction with turning away from the attacker. Gradually increase resistance across rounds."
-      },
-      {
-        "phase": "Phase 3: Escape from Locked Position",
-        "focus": "Defending when figure-four is already established",
-        "description": "Partner establishes full inverted triangle with figure-four locked but applies only light finishing pressure. Defender works through escape options: turning away to flatten angle, posturing with arm extraction, and standing to break configuration. Partner provides 40-60% resistance. Focus on staying calm and working methodically rather than panicking."
-      },
-      {
-        "phase": "Phase 4: Live Positional Sparring",
-        "focus": "Full speed defense against committed attacks",
-        "description": "Start from closed guard with attacker working to achieve inverted triangle. Defender uses full defensive toolkit from recognition through escape. Full resistance from both partners. Track success rates for early prevention versus late escape. Identify personal weak points in the defensive sequence and develop specific responses for each failure mode."
-      }
-    ]
-  },
-  "variations_and_setups": [
-    {
-      "variation_name": "Inverted Triangle from Failed Armbar",
-      "description": "When attempting an armbar from guard and opponent defends by pulling their arm free, immediately trap that defending arm across their neck and swing your legs to inverted triangle position. The momentum from the armbar attempt helps establish the angle.",
-      "when_to_use": "Excellent chain submission when opponent successfully defends your armbar by pulling elbow back"
-    },
-    {
-      "variation_name": "Inverted Triangle from Turtle Defense",
-      "description": "When opponent has you in turtle position and reaches under to control your far hip or opposite arm, trap their reaching arm and invert toward it, threading your legs over and under to establish the triangle while you're on your side or even your back.",
-      "when_to_use": "Perfect counter when defending turtle position against aggressive opponents who over-commit with deep underhooks"
-    },
-    {
-      "variation_name": "Inverted Triangle from Rubber Guard",
-      "description": "From rubber guard positions like Mission Control or New York, if opponent postures and attempts to pull their trapped arm free, follow their arm across their neck and invert into triangle using the existing leg control as your starting point.",
-      "when_to_use": "Natural transition for rubber guard practitioners when rubber guard attacks are defended"
-    },
-    {
-      "variation_name": "Rolling Inverted Triangle",
-      "description": "From standing or seated guard, if opponent attempts to pass around your legs, grab their arm and roll backward over your shoulder while pulling their arm across their neck, using the rolling momentum to establish the inverted triangle position as you complete the rotation.",
-      "when_to_use": "Dynamic setup against standing passers or in scramble situations where traditional setups aren't available"
     }
   ]
 }

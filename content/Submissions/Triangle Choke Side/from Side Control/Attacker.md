@@ -3,22 +3,22 @@
 
 
 ---
-title: "Triangle Choke Side Attacker | BJJ Submission Guide | BJJ Graph"
+title: "Triangle Choke Side from Side Control Attacker | BJJ Submission Guide | BJJ Graph"
 description: "How to execute Triangle Choke Side in BJJ. Attacking perspective with setup, execution, and finishing mechanics."
 ---
 
 
 <body data-content-type="submissions">
 
-> **SAFETY**: Triangle Choke Side targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
+> **SAFETY**: Triangle Choke Side from Side Control targets the Carotid arteries and jugular veins. Risk: Carotid artery compression causing unconsciousness. Release immediately upon tap.
 
 <!-- Schema Markup - HowTo for Execution -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "HowTo",
-  "name": "How to Execute Triangle Choke Side in BJJ",
-  "description": "Step-by-step guide for Triangle Choke Side with safety protocols.",
+  "name": "How to Execute Triangle Choke Side from Side Control in BJJ",
+  "description": "Step-by-step guide for Triangle Choke Side from Side Control with safety protocols.",
   "step": [
     {
       "@type": "HowToStep",
@@ -131,7 +131,7 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
 {
   "@context": "https://schema.org",
   "@type": "WebPage",
-  "name": "Triangle Choke Side Attacker",
+  "name": "Triangle Choke Side from Side Control Attacker",
   "description": "How to execute Triangle Choke Side in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
   "isPartOf": {
     "@type": "WebSite",
@@ -162,14 +162,14 @@ description: "How to execute Triangle Choke Side in BJJ. Attacking perspective w
     {
       "@type": "ListItem",
       "position": 3,
-      "name": "Triangle Choke Side",
-      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side"
+      "name": "Triangle Choke Side from Side Control",
+      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side-from-Side-Control"
     },
     {
       "@type": "ListItem",
       "position": 4,
       "name": "Attacker",
-      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side/Attacker"
+      "item": "https://bjjgraph.org/Submissions/Triangle-Choke-Side-from-Side-Control/Attacker"
     }
   ]
 }
@@ -195,6 +195,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Key Attacking Principles
 
+<p class="section-subtitle">What are the key principles for executing Triangle Choke Side from Side Control?</p>
+
 - Angle perpendicular to opponent's body - side triangle requires 90-degree body positioning relative to opponent's torso, not the parallel alignment of traditional triangles
 - Trap one arm across opponent's neck - the isolated arm must cross their own centerline to create the choking wedge against their carotid artery
 - Figure-four leg configuration - same locking mechanism as traditional triangle with one leg across the back of neck and the other locked behind the knee
@@ -210,6 +212,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Prerequisites
 
+<p class="section-subtitle">What do you need before attempting Triangle Choke Side from Side Control?</p>
+
 - Dominant top position with opponent on their back or side (side control, north-south, or transitional scramble position)
 - One of opponent's arms isolated and positioned across their own neck or centerline (often from defensive framing attempts)
 - Sufficient mobility to swing legs into triangle configuration without losing positional control
@@ -223,6 +227,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 <section id="execution-steps" class="content-section">
 
 ## Execution Steps
+
+<p class="section-subtitle">How do you execute Triangle Choke Side from Side Control step by step?</p>
 
 1. **Isolate and trap opponent's near arm**: From side control or north-south position, use your upper body control to guide opponent's near-side arm across their own neck and centerline. This is often accomplished by pressuring their far shoulder, causing them to frame with their near arm, or by directly controlling their wrist and threading it across. The arm must cross past their centerline to create the choking angle. (Timing: 1-2 seconds - requires reading opponent's defensive reactions)
 2. **Secure trapped arm position with chest pressure**: Once the arm is isolated across their neck, use your chest or shoulder pressure to pin it in place temporarily while you transition your legs. Your upper body should maintain enough pressure to prevent them from pulling the arm back, but not so much that you cannot move your hips freely. This is a critical transition moment where balance is essential. (Timing: 1 second)
@@ -252,6 +258,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Opponent Defenses
 
+<p class="section-subtitle">How might your opponent defend against Triangle Choke Side from Side Control?</p>
+
 - **Pulling trapped arm back across centerline** (Effectiveness: High) - Your Response: Immediately increase chest pressure on their shoulder and use your hand to control their wrist, preventing the arm from escaping. If they succeed in extracting the arm, transition to alternative attacks like kimura or armbar rather than forcing a compromised triangle. → Leads to [[Positions/Side Control]]
 - **Inserting free hand into triangle to create space** (Effectiveness: High) - Your Response: Control the free arm before they can insert it - grab their wrist and extend it away from their body, or pin it to the mat. If the hand is already inserted, you may need to break your lock temporarily, reposition, and re-secure the triangle with better arm control. → Leads to [[Positions/Side Control]]
 - **Turning into you to relieve neck pressure** (Effectiveness: Medium) - Your Response: Adjust your angle dynamically - as they turn, you must turn with them to maintain perpendicular positioning. Use your locked legs to follow their movement and maintain back-of-neck pressure. Sometimes their turn actually improves your angle if you move with them correctly. → Leads to [[Positions/Side Control]]
@@ -264,6 +272,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 <section id="common-mistakes" class="content-section hide-minimal">
 
 ## Common Attacking Mistakes
+
+<p class="section-subtitle">What mistakes should you avoid when executing Triangle Choke Side from Side Control?</p>
 
 ### 1. Applying triangle from parallel position instead of perpendicular angle
 
@@ -308,6 +318,8 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Training Progressions
 
+<p class="section-subtitle">How do you train Triangle Choke Side from Side Control (Attacker)?</p>
+
 **Phase 1: Static Arm Isolation and Leg Placement** - Arm trapping mechanics and figure-four lock from side control
 Partner remains passive on their back while you practice isolating the near arm across their neck using chest pressure and wrist control. Focus on threading the arm past their centerline, then slowly swing your leg over and establish the figure-four lock without any resistance. Repeat 20-30 times per side until the arm-to-lock sequence feels automatic. No finishing pressure applied in this phase.
 
@@ -324,50 +336,6 @@ Begin from side control with full resistance. Partner works normal side control 
 
 </section>
 
-
-<section id="knowledge-assessment" class="content-section">
-
-## Test Your Knowledge
-
-**Q1**: What anatomical structures does the side triangle choke target, and how does the trapped arm contribute to the choking mechanism?
-**A**: The side triangle targets the carotid arteries on both sides of the neck, restricting blood flow to the brain to cause unconsciousness. The trapped arm serves as a critical wedge - when positioned across the opponent's own neck and squeezed between your thigh and their shoulder, it compresses one carotid artery while your leg compresses the other side. Without the trapped arm properly positioned across their centerline, the choke lacks the internal pressure component and becomes ineffective. The arm essentially becomes an extension of your choking mechanism, using their own limb against them.
-
-**Q2**: Your opponent begins to posture up and create space while you have the triangle locked - what adjustment prevents their escape?
-**A**: Drive your hips aggressively toward their head rather than pulling them down with your legs. This hip drive accomplishes two things: it tightens the triangle by reducing the circumference of your leg configuration, and it prevents them from creating the extension needed to posture. Simultaneously, use your free hand to control their far hip or shoulder to prevent them from bridging away. The perpendicular angle and high hip position should naturally limit their posturing ability, but you must actively pursue their head with your hips rather than passively holding the lock.
-
-**Q3**: At what point during the side triangle sequence does the opponent reach the point of no escape, and what indicators confirm you have secured this position?
-**A**: The point of no escape occurs when three conditions are met simultaneously: the trapped arm is fully across their centerline with no space to retract it, the figure-four leg lock is secured with proper perpendicular body angle, and the free arm is controlled preventing them from inserting it into the triangle. Indicators include: their breathing becomes labored and audible, their face changes color (reddening), their defensive movements become weaker and more frantic, and you can feel their carotid pulse diminishing against your thigh. Once all three control points are established, even explosive movement typically fails to create escape opportunity.
-
-**Q4**: What are the most common finishing errors that prevent successful completion of the side triangle, and how do you correct each?
-**A**: The three most common finishing errors are: (1) Squeezing only with calf muscles rather than full knee adduction - correct by focusing on bringing knees toward each other using your hip adductors while maintaining the figure-four lock; (2) Maintaining parallel body alignment instead of perpendicular angle - correct by repositioning your torso to form a 'T' shape with their body and keeping hips high toward their head; (3) Neglecting free arm control allowing them to insert their hand - correct by grabbing their wrist and extending it away from their body or pinning it to the mat before applying finishing pressure. Each error individually can compromise the choke; all three must be addressed for consistent finishing.
-
-**Q5**: What grip adjustments should you make during the finish when the opponent actively defends by turning their chin down or tucking their neck?
-**A**: When opponent tucks their chin, the primary adjustment is to increase the perpendicular angle by driving your hips more aggressively toward the top of their head rather than toward their face. This changes the pressure angle from front-of-neck (which their chin blocks) to side-of-neck where the carotid arteries are more exposed. Additionally, use your free hand to control their far shoulder or grab behind their head, pulling it slightly toward your hips to extend their neck. The combination of angle adjustment and head control negates the chin-tuck defense. Avoid trying to pry their chin up, which wastes energy and creates escape opportunity.
-
-**Q6**: SAFETY CRITICAL: What are the warning signs that your training partner is approaching unconsciousness, and what immediate actions must you take? **[SAFETY-CRITICAL]**
-**A**: Warning signs of approaching unconsciousness include: sudden cessation of defensive movement and resistance, body going limp or heavy, change in skin color (reddening or pallor), eyes glazing or rolling, unusual breathing patterns or breath-holding, and failure to respond to verbal check-ins. Immediate actions upon ANY of these signs: (1) Immediately release ALL leg pressure and open the triangle completely, (2) Roll them onto their side to clear the airway, (3) Elevate their legs above heart level to restore blood flow to brain, (4) Call their name and check for responsiveness, (5) Monitor breathing continuously - if absent, begin rescue breathing, (6) Seek medical attention if they don't regain consciousness within 10-15 seconds. Never shake an unconscious person or apply any further pressure.
-
-**Q7**: In competition, what strategic considerations determine whether to continue pursuing the side triangle versus transitioning to a different attack?
-**A**: Continue pursuing when: the trapped arm is secured and opponent's defensive options are limited, you have established the perpendicular angle with minimal adjustment needed, their free arm is controlled or they're expending significant energy fighting it, and the clock favors finishing attempts. Transition away when: opponent successfully extracts the trapped arm, they insert their free hand deeply into the triangle before you can prevent it, they're successfully turning their body to relieve pressure and you cannot adjust angle, or the position becomes a stalemate consuming energy without progress. High-percentage transitions include kimura on the extracted arm, armbar on the isolated arm, or returning to side control to reset the attack sequence.
-
-**Q8**: How does the side triangle setup differ between gi and no-gi contexts, and what control modifications are necessary?
-**A**: In gi, you can use collar grips to control the trapped arm position and lapel grips to prevent arm extraction, making the setup more secure but slower. Collar control also helps maintain the perpendicular angle. In no-gi, the setup must be faster and more dynamic because there are no fabric handles - you rely purely on wrist control, overhooks, and chest pressure to secure the trapped arm. The finish in no-gi often requires more aggressive hip pressure since there's no gi friction to maintain position. Additionally, in no-gi the opponent can more easily slip their arm out due to sweat, so the transition from arm isolation to leg lock must be faster with less margin for setup error. Free arm control in no-gi typically requires wrist-on-wrist grips rather than sleeve control.
-
-**Q9**: SAFETY CRITICAL: What is the correct release protocol when your partner taps, and why is the sequence of actions important? **[SAFETY-CRITICAL]**
-**A**: The release protocol sequence is: (1) Immediately unlock the figure-four by releasing your ankle from behind your knee, (2) Open your legs completely to remove all circumferential pressure from their neck, (3) Release any grip on their trapped or free arm, (4) Allow them to turn their head freely to restore blood flow, (5) Verbally confirm they are okay before moving away. This sequence is critical because: unlocking the figure-four first removes the primary choking pressure fastest; releasing the arm grips second prevents inadvertent shoulder strain during their recovery; and allowing head movement third ensures blood flow restoration. Reversing this sequence (releasing arms first while maintaining leg lock) can cause continued unconsciousness risk. The entire release should take less than 1 second from tap signal to complete pressure removal.
-
-**Q10**: What control requirements must be established before you can safely commit to finishing the side triangle, and how do you verify each is in place?
-**A**: Three control requirements must be verified: (1) Trapped arm position - verify the arm crosses past opponent's centerline by ensuring you can see their own elbow or forearm against their opposite-side neck; test by feeling resistance when you squeeze - no arm means no resistance; (2) Perpendicular body angle - verify by confirming your hips point toward their head and your torso forms a 'T' with their body; your head should be near their hips, not parallel to their shoulders; (3) Free arm control - verify by maintaining grip on their wrist or feeling their arm pinned against your body; if you don't know where their free hand is, stop finishing and locate it. Only when all three are confirmed should you apply progressive finishing pressure. Rushing the finish without verification leads to escape and wasted energy.
-
-**Q11**: Your opponent is defending effectively by keeping their free arm inside the triangle space - what technical adjustment recovers the submission?
-**A**: When their free arm is inserted, you have several recovery options: (1) Break the lock temporarily, use both hands to extract their inserted arm by grabbing their wrist and forcefully extending it away from their body, then relock with better arm control; (2) Transition to an armbar on the inserted arm itself - their extended arm inside the triangle is vulnerable to arm attacks; (3) Switch to arm triangle (kata gatame) mechanics by threading your arm under their head while maintaining leg position, creating hybrid pressure from both arms and legs; (4) Abandon the triangle and transition to kimura on the trapped arm, which is often exposed when they're focused on the inserted-arm defense. The worst response is to squeeze harder hoping to overcome their defense, which wastes energy and gives them time to further improve their position.
-
-**Q12**: How do physical attributes (flexibility, leg length, opponent neck size) affect side triangle viability and what technical adjustments compensate?
-**A**: Hip flexibility affects your ability to achieve the perpendicular angle and drive hips toward opponent's head; less flexible practitioners should work from slightly less acute angles and rely more on arm-pressure supplementation. Leg length determines whether you can achieve the figure-four lock around larger opponents; shorter legs require tighter perpendicular angle and may benefit from the ankle-lock variation rather than behind-knee lock. Large-necked opponents require maximum perpendicular angle, additional arm-thread pressure (modified arm triangle grip), and potentially abandoning the technique for arm attacks if the circumference cannot be closed. Compensations include: using arm triangle grip addition, adjusting finish angle more aggressively, and recognizing when physical matchup makes the technique low-percentage versus transitioning to higher-percentage alternatives like kimura or armbar.
-
-
-
-</section>
 
 
 </main>
