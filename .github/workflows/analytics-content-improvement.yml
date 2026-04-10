@@ -1,0 +1,277 @@
+name: Analytics-Driven Content Improvement
+
+on:
+  schedule:
+    - cron: '0 8 * * 3'  # Wednesday 8:00 AM UTC (mid-week, separate from Monday content bot)
+  workflow_dispatch:
+    inputs:
+      num_files:
+        description: 'Number of files to improve'
+        required: false
+        default: '3'
+        type: choice
+        options: ['1', '3', '5', '10']
+
+jobs:
+  improve:
+    runs-on: ubuntu-latest
+    concurrency:
+      group: analytics-content-improvement
+      cancel-in-progress: false
+    permissions:
+      contents: write
+      pull-requests: write
+      id-token: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install Python dependencies
+        run: |
+          pip install jsonschema jinja2 requests
+
+      - name: Fetch analytics and improve content with Claude
+        id: improve_content
+        uses: anthropics/claude-code-action@v1
+        with:
+          model: claude-opus-4-6
+          claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
+          prompt: |
+            You are a BJJ content expert improving pages based on real user analytics data.
+
+            Python libraries available: `requests`, `json`, `jsonschema`, `jinja2`.
+            PostHog API key is in env var `POSTHOG_API_KEY`.
+            PostHog project ID: 236155. API base: `https://us.posthog.com`.
+
+            **CRITICAL: Never edit generated role pages (Bottom.md, Top.md, Attacker.md, Defender.md).
+            They are regenerated from parent JSON files via Jinja2 templates. Edit the JSON source instead.**
+
+            # Step 1: Fetch Analytics
+
+            Use Python with `requests` to query the PostHog Query API:
+            ```
+            POST https://us.posthog.com/api/projects/236155/query/
+            Headers: Authorization: Bearer $POSTHOG_API_KEY
+            Content-Type: application/json
+            ```
+
+            Run HogQL queries to get last 14 days of:
+            - Pageviews per content page: `SELECT properties.$current_url, count() FROM events WHERE event = '$pageview' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url ORDER BY count() DESC LIMIT 200`
+            - Session duration per page (engagement proxy): `SELECT properties.$current_url, avg(properties.$session_duration) FROM events WHERE event = '$pageview' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url`
+            - Bounce rate (single-page sessions): `SELECT properties.$current_url, countIf(properties.$session_duration < 10) / count() as bounce_rate FROM events WHERE event = '$pageview' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url HAVING count() > 5`
+            - Search entry pages: `SELECT properties.$current_url, count() FROM events WHERE event = '$pageview' AND properties.$referrer LIKE '%google%' OR properties.$referrer LIKE '%bing%' OR properties.$referrer LIKE '%duckduckgo%' AND timestamp > now() - interval 14 day GROUP BY properties.$current_url ORDER BY count() DESC`
+
+            Map page URLs back to content file paths:
+            - Strip domain (https://bjjgraph.org)
+            - Convert URL path to file path: `/Positions/Mount` → `content/Positions/Mount.json`
+            - Handle URL encoding and slug conversion
+
+            Save results to `/tmp/analytics/` for reference in the PR body.
+
+            # Step 2: Select Files
+
+            Select the top ${{ github.event.inputs.num_files || '3' }} files to improve, prioritizing:
+            1. **HIGH TRAFFIC + LOW ENGAGEMENT**: Many views but avg session duration <20s or bounce rate >70%
+            2. **SEARCH ENTRY + THIN CONTENT**: Landing pages from search that have TODOs or overview <500 chars
+            3. **HIGH TRAFFIC + OLD CONTENT**: Popular pages not improved in >60 days (check bot_metadata.last_improved in JSON or git log)
+
+            Skip files that don't have a .json source (truly orphaned .md files are handled by the Monday content bot).
+
+            # Step 3: Generate Content Catalog
+
+            ```bash
+            find content -type f \( -name "*.json" -o -name "*.md" \) \
+              ! -name "CONTRIBUTING-*" ! -name "TEMPLATE*" ! -name "index.md" \
+              -exec basename {} \; | sed 's/\.json$//; s/\.md$//' | sort -u > /tmp/content_catalog.txt
+            ```
+
+            Use this catalog for [[Wikilink]] validation — only link to names in this list.
+
+            # Step 4: Improve Content
+
+            For each selected .json file:
+            1. Read the JSON source file
+            2. Read the matching template from `templates/` for structure reference
+            3. Improve the JSON content:
+               - Fill any TODO/placeholder fields with accurate BJJ content
+               - Enrich thin descriptions and overviews (front-load key facts)
+               - Add [[Wikilinks]] throughout (6-15 minimum, validated against catalog)
+               - Improve knowledge_assessment questions (clear, specific, practical)
+               - Ensure success rates: beginner <= intermediate <= advanced
+               - Add bot_metadata.last_improved with today's date
+            4. Focus improvements on what analytics suggest is weak:
+               - High bounce rate → improve overview/first paragraph (this is what users see first)
+               - Low session duration → add depth to key_principles and decision_tree sections
+               - Search entry page → ensure description and overview answer the search query directly
+
+            # Step 5: Validate
+
+            Run validation for each improved file:
+            ```bash
+            python3 scripts/validate_json.py --file <file>
+            ```
+
+            Fix any validation errors. Retry up to 3 times if needed.
+
+            # Step 6: Write Analytics Summary
+
+            Write `/tmp/analytics/improvement_summary.txt` with:
+            - Which pages were selected and why (include traffic numbers, bounce rate, session duration)
+            - What improvements were made to each file
+            - Before/after content quality comparison
+          claude_args: "--allowedTools 'Read,Edit,Write,Bash(date:*),Bash(cat:*),Bash(python3:*),Bash(find:*),Glob,Grep'"
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+
+      - name: Validate and retry .json files
+        id: validate_retry
+        run: |
+          echo "========================================"
+          echo "Validating improved .json files"
+          echo "========================================"
+
+          UPDATED_FILES=""
+
+          for json_file in $(git diff --name-only | grep "\.json$"); do
+            echo "Validating: $json_file"
+
+            if python3 scripts/validate_json.py --file "$json_file" 2>&1 | grep -q "Valid"; then
+              echo "  ✓ Validation passed"
+              UPDATED_FILES="${UPDATED_FILES}${json_file}"$'\n'
+            else
+              echo "  ✗ Validation failed — skipping"
+            fi
+          done
+
+          echo "updated_json_files<<EOF" >> $GITHUB_OUTPUT
+          echo "$UPDATED_FILES" >> $GITHUB_OUTPUT
+          echo "EOF" >> $GITHUB_OUTPUT
+
+      - name: Regenerate markdown from validated .json
+        if: steps.validate_retry.outputs.updated_json_files != ''
+        run: |
+          echo "Regenerating markdown from validated .json files..."
+
+          while IFS= read -r json_file; do
+            [ -z "$json_file" ] && continue
+            echo "  → $json_file"
+            python3 scripts/regenerate_md_from_json.py --file "$json_file" || echo "    ⚠ Warning: Regeneration failed"
+          done <<< "${{ steps.validate_retry.outputs.updated_json_files }}"
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [[ -n $(git status --porcelain) ]]; then
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+
+            CHANGED_FILES=$(git status --porcelain | wc -l)
+            JSON_CHANGES=$(git status --porcelain | grep "\.json$" | wc -l)
+            MD_CHANGES=$(git status --porcelain | grep "\.md$" | wc -l)
+
+            echo "changes_count=$CHANGED_FILES" >> $GITHUB_OUTPUT
+            echo "json_count=$JSON_CHANGES" >> $GITHUB_OUTPUT
+            echo "md_count=$MD_CHANGES" >> $GITHUB_OUTPUT
+          else
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Create Pull Request
+        if: steps.check_changes.outputs.has_changes == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          BRANCH_NAME="analytics-improvement/$(date +%Y%m%d-%H%M%S)"
+          git checkout -b "$BRANCH_NAME"
+          git add .
+
+          CHANGED_FILES=$(git diff --cached --name-only)
+
+          # Read analytics summary if available
+          ANALYTICS_SUMMARY=""
+          if [ -f /tmp/analytics/improvement_summary.txt ]; then
+            ANALYTICS_SUMMARY=$(cat /tmp/analytics/improvement_summary.txt)
+          fi
+
+          cat > /tmp/commit-msg.txt << EOF
+          Analytics-driven content improvement
+
+          Files improved: ${{ steps.check_changes.outputs.changes_count }}
+          - JSON files: ${{ steps.check_changes.outputs.json_count }}
+          - Markdown files: ${{ steps.check_changes.outputs.md_count }}
+
+          Selection: Based on PostHog analytics (last 14 days)
+          Criteria: High traffic + low engagement, search entry pages, stale content
+
+          Files:
+          $CHANGED_FILES
+
+          Generated by analytics-content-improvement workflow
+          EOF
+
+          git commit -F /tmp/commit-msg.txt
+          git remote set-url origin https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git
+          git push origin "$BRANCH_NAME"
+
+          cat > /tmp/pr-body.md << 'EOFBODY'
+          ## Analytics-Driven Content Improvement
+
+          This PR improves content pages selected by **PostHog analytics data** — targeting high-traffic pages with low engagement.
+
+          ### Selection Criteria
+          Pages were ranked by:
+          1. High traffic + low engagement (high bounce rate or low session duration)
+          2. Search entry pages with thin content
+          3. Popular pages not improved recently
+
+          ### Changes Summary
+          - **JSON files**: ${{ steps.check_changes.outputs.json_count }}
+          - **Markdown files**: ${{ steps.check_changes.outputs.md_count }} (auto-regenerated from JSON)
+          - **Total**: ${{ steps.check_changes.outputs.changes_count }} files
+
+          ### Analytics Context
+          ```
+          ANALYTICS_PLACEHOLDER
+          ```
+
+          ### Files Modified
+          ```
+          CHANGED_FILES_PLACEHOLDER
+          ```
+
+          ### Review Checklist
+          - [ ] Content improvements are accurate BJJ knowledge
+          - [ ] [[Wikilinks]] resolve correctly
+          - [ ] JSON validates successfully
+          - [ ] Success rates properly ordered (beginner ≤ intermediate ≤ advanced)
+          - [ ] No dev artifacts (TODO, FIXME, etc.)
+
+          ---
+          **Workflow**: Analytics-Driven Content Improvement
+          **Run ID**: ${{ github.run_id }}
+          **Model**: Claude Opus 4.6
+          **Data Source**: PostHog (last 14 days)
+          EOFBODY
+
+          # Replace placeholders
+          sed -i "s|ANALYTICS_PLACEHOLDER|$ANALYTICS_SUMMARY|" /tmp/pr-body.md
+          sed -i "s|CHANGED_FILES_PLACEHOLDER|$CHANGED_FILES|" /tmp/pr-body.md
+
+          PR_URL=$(gh pr create \
+            --title "📊 Analytics-driven content improvement ($(date +%Y-%m-%d))" \
+            --body-file /tmp/pr-body.md \
+            --base main \
+            --head "$BRANCH_NAME")
+
+          echo "Created PR: $PR_URL"
+          gh pr edit "$BRANCH_NAME" --add-label "automated" --add-label "analytics" --add-label "content-improvement" || true

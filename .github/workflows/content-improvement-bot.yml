@@ -2,13 +2,13 @@ name: Content Improvement Bot
 
 on:
   schedule:
-    - cron: '0 8 * * *'  # Daily at 8:00 AM UTC
+    - cron: '0 8 * * 1'  # Weekly on Monday at 8:00 AM UTC
   workflow_dispatch:
     inputs:
       num_files:
         description: 'Number of files to improve'
         required: false
-        default: '2'
+        default: '5'
         type: choice
         options: ['1', '2', '5', '10', '20']
       enable_paa:
@@ -121,13 +121,13 @@ jobs:
 
                 if [ ! -d "$variant_folder" ]; then
                   template_type="SINGLE"
-                  template_file="templates/Positions/TEMPLATE-POSITION-SINGLE.json"
+                  template_file="templates/Positions/TEMPLATE-SINGLE.json"
                 elif ls "$variant_folder"/*.json >/dev/null 2>&1; then
                   template_type="FAMILY"
-                  template_file="templates/Positions/TEMPLATE-POSITION-FAMILY.json"
+                  template_file="templates/Positions/TEMPLATE-FAMILY.json"
                 else
                   template_type="DUAL"
-                  template_file="templates/Positions/TEMPLATE-POSITION-DUAL.json"
+                  template_file="templates/Positions/TEMPLATE-DUAL.json"
                 fi
 
                 echo "  → Position template: $template_type"
@@ -144,6 +144,9 @@ jobs:
               elif [[ "$file" == *"/Systems/"* ]]; then
                 category="Systems"
                 template_file="templates/Systems.json"
+              elif [[ "$file" == *"/Learning/"* ]]; then
+                category="Learning"
+                template_file="templates/Learning.json"
               else
                 echo "  ✗ Unknown category - skipping"
                 continue
@@ -213,6 +216,7 @@ jobs:
         id: prepare_paa
         uses: anthropics/claude-code-action@v1
         with:
+          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are a BJJ SEO analyst preparing "People Also Ask" (PAA) context for AI search optimization.
@@ -291,11 +295,15 @@ jobs:
         id: improve_content
         uses: anthropics/claude-code-action@v1
         with:
+          model: claude-opus-4-6
           claude_code_oauth_token: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           prompt: |
             You are an elite BJJ black belt instructor AND Google AI search optimization expert.
 
-            Your mission: Aggressively optimize BJJ content for AI search engines (Google AI Overview, Bing Chat, Perplexity) while maintaining technical accuracy and safety.
+            Your mission: Optimize BJJ content for AI search engines (Google AI Overview, Bing Chat, Perplexity) while maintaining technical accuracy and safety.
+
+            **CRITICAL: Never edit generated role pages (Bottom.md, Top.md, Attacker.md, Defender.md).
+            They are regenerated from parent JSON files via Jinja2 templates. Edit the JSON source instead.**
 
             # Pre-Processed Context Available
 
@@ -339,11 +347,10 @@ jobs:
 
             ## Core Principles
 
-            **1. Conversational Query Matching**
-            - Transform headings into natural questions users ask AI
-            - Current: "Mount Position Setup" → Optimized: "How do I set up Mount position?"
-            - Current: "Triangle Escapes" → Optimized: "What are the best ways to escape Triangle Choke?"
-            - Current: "Guard Passing Principles" → Optimized: "How do I pass guard in BJJ?"
+            **1. Content Optimization (Headings Stay Short)**
+            - DO NOT change section headings — Jinja2 templates add question-based subtitles automatically
+            - Focus on making content within sections answer natural user questions
+            - Front-load key facts in first paragraph of each section
 
             **2. Entity Recognition & Consistency**
             - Always use canonical names: **Mount** (not "mounted position", "top mount")
@@ -387,7 +394,10 @@ jobs:
             - Add dedicated FAQ field at end with 5-10 Q&As
             - Improve field names/structure to match conversational queries
 
-            ### For .md Files
+            ### For .md Files (orphaned only — no parent JSON)
+
+            **DO NOT edit generated role pages** (Bottom.md, Top.md, Attacker.md, Defender.md).
+            These are generated from parent JSON files via Jinja2 templates — any edits will be overwritten.
 
             **Read:**
             1. Template OR examples: `/tmp/preprocessing/<filename>_template.json` or `<filename>_examples.txt`
@@ -395,63 +405,9 @@ jobs:
             3. PAA data: `/tmp/paa_output/<filename>_paa.json` (if available)
 
             **Optimize:**
-
-            **Structure transformation:**
-            ```markdown
-            # How do I [Technique]? | BJJ Graph
-
-            <!-- Direct answer box (2-3 sentences) -->
-            **[Technique]** is [concise definition]. Success rate: Beginner X%, Advanced Y%. Requires: [prerequisites].
-
-            ## What is [Technique]?
-
-            [Definition paragraph - define all entities, use canonical names]
-
-            **[Technique Name]** (also called [aliases]) is when [description]...
-
-            From **[[Starting Position]]**, you transition to **[[Ending Position]]**...
-
-            ## How to Execute [Technique] (Step-by-Step)
-
-            Follow these 10 steps to master [Technique]:
-
-            1. **Setup:** [detailed action]
-            2. **Grip:** [detailed action with specifics]
-            3. **Movement:** [detailed body mechanics]
-            ...
-            10. **Finish:** [completion criteria]
-
-            ## When Should I Use [Technique]?
-
-            [Situational guidance with clear scenarios]
-
-            ## What are Common Mistakes with [Technique]?
-
-            **⚠️ DANGER:** [Critical safety/technical error]
-
-            1. **Mistake:** [common error]
-               **Fix:** [how to correct]
-
-            ## Frequently Asked Questions
-
-            ### [PAA Question 1 from DataForSEO]?
-            [Direct 2-4 sentence answer]
-
-            ### [PAA Question 2]?
-            [Direct answer]
-
-            [5-10 FAQ questions total]
-
-            ## Related Techniques
-
-            - **[[Related Technique 1]]** - [how it relates]
-            - **[[Related Technique 2]]** - [how it relates]
-            ```
-
-            **Heading optimization:**
-            - Convert ALL headings to questions where possible
-            - Use natural language: "How", "What", "When", "Why", "Which"
-            - Match PAA questions when available
+            - Focus on content quality: fill TODOs, add wikilinks, improve descriptions
+            - Keep existing heading structure intact (templates handle question subtitles)
+            - Add PAA FAQ sections if PAA data is available
 
             **Content density:**
             - Paragraphs: 2-4 sentences max
@@ -714,7 +670,7 @@ jobs:
           **Run ID**: ${{ github.run_id }}
           **Timestamp**: $(date -u '+%Y-%m-%dT%H:%M:%SZ')
           **Selection**: Git creation date (oldest files)
-          **Model**: Claude Sonnet 4.5
+          **Model**: Claude Opus 4.6
           EOFBODY
 
           PR_URL=$(gh pr create \

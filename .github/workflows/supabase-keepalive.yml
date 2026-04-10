@@ -1,0 +1,28 @@
+name: Supabase Keepalive
+
+# Prevents Supabase free-tier project from auto-pausing after 7 days of inactivity
+# Pings the REST API every 5 days
+
+on:
+  schedule:
+    - cron: '0 12 */5 * *'
+  workflow_dispatch:
+
+jobs:
+  ping:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping Supabase
+        run: |
+          if [ -z "${{ secrets.SUPABASE_URL }}" ]; then
+            echo "SUPABASE_URL not set, skipping"
+            exit 0
+          fi
+          STATUS=$(curl -s -o /dev/null -w "%{http_code}" \
+            "${{ secrets.SUPABASE_URL }}/rest/v1/" \
+            -H "apikey: ${{ secrets.SUPABASE_ANON_KEY }}")
+          echo "Supabase ping status: $STATUS"
+          if [ "$STATUS" -ge 400 ]; then
+            echo "Warning: Supabase returned $STATUS"
+            exit 1
+          fi
