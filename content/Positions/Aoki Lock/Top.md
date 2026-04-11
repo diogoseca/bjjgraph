@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock Top | BJJ Position Guide | BJJ Graph"
-description: "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 68% finish rate."
+description: "Master Aoki Lock Top in BJJ. Offensive leg-entangled shoulder lock with 68% finish rate. Success rates: Beginner 20%, Intermediate 40%, Advanced 65%."
 ---
 
 
@@ -109,7 +109,7 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock Top",
-  "description": "Master Aoki Lock top position in BJJ. Advanced submission control with leg entanglement and shoulder lock mechanics. Learn finishing strategies and transitions with 68% finish rate.",
+  "description": "Master Aoki Lock Top in BJJ. Offensive leg-entangled shoulder lock with 68% finish rate. Success rates: Beginner 20%, Intermediate 40%, Advanced 65%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -151,11 +151,13 @@ description: "Master Aoki Lock top position in BJJ. Advanced submission control 
 
 <section id="overview" class="content-section">
 
-The Aoki Lock Top Position represents an advanced submission control state where the top practitioner has secured a leg-entangled shoulder lock position, named after Shinya Aoki's signature application. This position combines elements of leg entanglement control with omoplata-style shoulder lock mechanics, creating a powerful finishing position that controls the opponent's mobility while applying progressive pressure to the shoulder joint. The top player maintains dominant leverage through hip pressure and precise limb control, making this one of the most controlling submission positions in modern no-gi grappling.
+Aoki Lock Top is an offensive submission control position where you trap your opponent's arm and shoulder with your legs while driving hip pressure into the shoulder joint. At advanced level this position achieves a 68% finish rate, making it one of the most effective shoulder lock control states in modern no-gi grappling.
 
-From the top perspective, this position offers exceptional control over the opponent's upper body rotation and shoulder mobility while simultaneously managing their leg positioning. The practitioner uses their legs to trap the opponent's arm and shoulder complex while maintaining stable base through posted leg and applying rotational pressure to the shoulder joint. Success requires precise technical execution, strong positional awareness, and deep understanding of shoulder lock mechanics and safety protocols.
+From top, you have four primary offensive paths: finish the Aoki Lock directly, transition to Back Control when they roll forward, enter the Truck when they turn away, or capture the Crucifix when they expose the far arm. Three control points must stay locked simultaneously: leg entanglement around the shoulder complex, hip pressure directed into the joint, and hand control on the opponent's far hip to prevent rotation.
 
-The Aoki Lock top position is particularly effective in no-gi competition where the absence of gi grips makes traditional shoulder lock escapes more difficult. It commonly arises from turtle attacks, front headlock positions, or guard passing sequences where the opponent's arm becomes isolated. Understanding proper entry mechanics, pressure application protocols, and transition options is essential for high-level execution. The position serves as a hub for multiple offensive paths including direct submission finish, back control advancement, truck system entry, and crucifix capture.
+The position combines leg entanglement control with omoplata-style shoulder lock mechanics. Your legs trap the arm and shoulder complex, preventing rotation and extraction; your posted free leg creates a stable base; your hip pressure is directed downward and forward onto the shoulder joint, creating rotational stress on the shoulder capsule. The absence of gi grips in no-gi competition makes traditional shoulder lock escapes more difficult, amplifying this position's effectiveness.
+
+Aoki Lock Top commonly arises from Turtle attacks, Front Headlock positions, or guard passing sequences where the opponent's arm becomes isolated. Understanding proper pressure application protocols is essential: apply pressure gradually over 3-5 seconds minimum, monitor tap signals continuously, and release immediately upon any tap. The position serves as a hub for Back Control, Truck, and Crucifix transitions - recognizing which path is open determines whether you finish or advance.
 
 </section>
 
