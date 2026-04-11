@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 50% escape rate."
+description: "Master Aoki Lock Bottom defense in BJJ. Shoulder lock escape protocols and grip breaks from leg-entangled control. Success rates: Beginner 20%, Intermediate 45%, Advanced 65%."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Aoki Lock Bottom",
-  "description": "Master Aoki Lock defense and escape strategies. Defensive control position with shoulder lock pressure. Learn escapes, grip breaks, and counter-attacks with 50% escape rate.",
+  "description": "Master Aoki Lock Bottom defense in BJJ. Shoulder lock escape protocols and grip breaks from leg-entangled control. Success rates: Beginner 20%, Intermediate 45%, Advanced 65%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,11 +157,13 @@ description: "Master Aoki Lock defense and escape strategies. Defensive control 
 
 <section id="overview" class="content-section">
 
-The Aoki Lock Bottom Position represents a critical defensive scenario where you are being attacked with a leg-entangled shoulder lock submission. Named after legendary Japanese fighter Shinya Aoki, this position occurs when your opponent has secured leg entanglement control over your shoulder while applying omoplata-style pressure, typically from side control, turtle, or transitional scrambles. Unlike traditional kimura or omoplata control, the Aoki Lock combines leg trapping with shoulder manipulation, creating a unique defensive challenge that requires specialized escape protocols.
+Aoki Lock Bottom is a high-danger defensive position where your opponent has trapped your arm and shoulder with their legs while driving hip pressure into your shoulder joint. Your primary mission is immediate escape — the position carries a 28% submission rate and every second of passive defense increases injury risk to the rotator cuff, labrum, and shoulder capsule.
 
-From bottom, your primary objectives are immediate escape, preventing submission finish, and creating offensive opportunities from defensive positions. The position requires understanding shoulder lock mechanics, maintaining defensive posture despite leg entanglement, and recognizing the specific movement patterns needed to neutralize the attack. While highly uncomfortable and dangerous, proper defensive technique can turn this position into a pathway back to guard or even position reversals.
+Your three-step survival protocol: (1) internally rotate the trapped shoulder to resist external rotation pressure, (2) attack your opponent's posted-leg base with your free hand to destabilize their pressure generation, and (3) roll toward your trapped arm — never away — to follow the path of least resistance and use their control momentum to assist your escape to Closed Guard, Turtle, or Open Guard.
 
-This position commonly arises when defending turtle position, during scrambles from guard passing attempts, or when opponent capitalizes on arm isolation during transitions. Understanding the mechanical differences between Aoki Lock and traditional shoulder locks is essential for mounting effective defense and preventing catastrophic shoulder injuries. The leg entanglement component limits traditional escape routes, requiring specific counter-strategies that address both the shoulder pressure and leg control simultaneously.
+The Aoki Lock differs from traditional Kimura and Omoplata control because the leg entanglement eliminates standard escape routes. You cannot muscle the arm free without first addressing the leg component. This requires sequential problem-solving: disrupt the base to loosen leg entanglement, then extract the arm before opponent re-tightens. Attempting arm extraction while the legs remain tight exhausts energy and amplifies shoulder stress.
+
+This position commonly arises when defending Turtle, during scrambles from guard passing, or when an opponent isolates your arm in transition. The 50% escape rate at advanced level is achievable through continuous movement, well-timed base attacks, and chain-linking escape attempts rather than isolated single efforts. Tap early and clearly when shoulder pressure reaches dangerous threshold — shoulder injuries from this position are serious and long-lasting.
 
 </section>
 

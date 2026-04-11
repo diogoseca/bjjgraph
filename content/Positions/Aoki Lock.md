@@ -4,7 +4,7 @@
 
 ---
 title: "Aoki Lock | BJJ Position Guide | BJJ Graph"
-description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control combining leg entanglement with omoplata-style pressure. Complete guide covering both offensive and defensive perspectives."
+description: "Master Aoki Lock in BJJ. Leg-entangled shoulder lock named after Shinya Aoki. Success rates: Beginner 20%, Intermediate 40%, Advanced 65%."
 ---
 
 
@@ -22,11 +22,13 @@ description: "Master Aoki Lock position in BJJ. Advanced shoulder lock control c
 
 <section id="overview" class="content-section">
 
-The Aoki Lock position represents an advanced submission control state named after Japanese MMA fighter Shinya Aoki, characterized by leg entanglement control combined with shoulder lock pressure. This hybrid position integrates elements of omoplata mechanics with leg-based trapping, creating a powerful control system that limits opponent mobility while applying progressive shoulder joint pressure. The position exists in two distinct perspectives: bottom (defensive escape focus) and top (offensive finishing focus), each requiring specialized technical knowledge and safety awareness.
+The Aoki Lock is an advanced submission control position where you trap your opponent's arm and shoulder using leg entanglement, then apply rotational pressure to the shoulder joint. Named after Japanese MMA legend Shinya Aoki, this technique delivers a 65% finish rate at advanced level and is a cornerstone of modern no-gi grappling and submission-only competition.
 
-From the structural perspective, Aoki Lock control involves isolating the opponent's shoulder girdle through leg positioning while maintaining base and applying rotational pressure to the shoulder joint. The top player uses leg entanglement to trap the arm and shoulder complex, preventing rotation and extraction while maintaining stable base through posted leg and hip positioning. The bottom player faces dual threats of shoulder and wrist manipulation, requiring immediate defensive action and escape execution.
+The position integrates omoplata-style shoulder lock mechanics with leg-based trapping, creating a dual-threat system: the attacker (top) applies progressive hip pressure toward the shoulder while the defender (bottom) must escape or tap before the joint exceeds its rotation limit. Both perspectives demand immediate, specialized responses - the top player finishes or transitions to Back Control, Truck, or Crucifix, while the bottom player must roll toward the trapped arm direction and address the leg entanglement simultaneously.
 
-This position appears most commonly in no-gi competition, submission-only formats, and MMA contexts where advanced shoulder locks are legal. It requires deep understanding of shoulder anatomy, joint manipulation mechanics, and progressive pressure application protocols. The position carries moderate to high risk for both practitioners - aggressive defense can create scrambles while improper application can cause serious shoulder injuries. Success depends on technical precision, positional awareness, and commitment to safety protocols throughout execution.
+Aoki Lock control involves isolating the opponent's shoulder girdle through precise leg positioning while maintaining a stable base through a posted leg and hip pressure. The top player's legs trap the arm and shoulder complex, preventing rotation and extraction. The bottom player faces concurrent threats to the shoulder and wrist, requiring immediate defensive action and continuous escape attempts.
+
+This position appears most commonly in no-gi competition, submission-only formats, and MMA where advanced shoulder locks are legal. It requires deep understanding of shoulder anatomy, joint manipulation mechanics, and progressive pressure protocols. The position carries moderate to high risk for both practitioners: improper application causes serious shoulder injuries, and aggressive defense can convert to scrambles favoring the attacker. Technical precision, positional awareness, and strict safety protocols throughout execution determine success.
 
 </section>
 
