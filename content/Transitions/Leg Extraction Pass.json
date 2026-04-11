@@ -275,7 +275,7 @@
         "description": "Positional sparring starting from leg entanglements with full resistance. Top player's goal is extraction to pass within 60 seconds. Bottom player's goal is submission or sweep. Track success rates across sessions to identify patterns in failure and develop automatic responses to common defensive reactions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why must you drive the trapped knee toward the mat rather than pulling the leg backward during extraction?",
         "answer": "Driving the knee toward the mat straightens your leg, which strips the opponent's inside hook that relies on the bend in your knee for grip. This forward-and-down motion compresses their entanglement structure, reducing the space their hooks need to function. Pulling backward does the opposite — it loads your heel into their grip zone, creates the rotational angle they need for heel hooks, and exposes your knee joint to kneebar attacks. The biomechanical principle is that forward pressure closes the spaces the entanglement occupies, while backward pulling opens them."
@@ -392,7 +392,7 @@
         "correction": "If a re-pummel is blocked, immediately transition to an alternative entanglement variant rather than forcing the same hook entry. Shift to saddle entry, 50-50 transition, or outside ashi reconfiguration to present a new control problem."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most important grip to maintain throughout your defense against the Leg Extraction Pass?",
         "answer": "The heel or ankle grip on the opponent's trapped foot is the most important grip to maintain because it serves dual purpose: it is an active submission threat that forces the opponent to address danger before extracting, and it anchors their leg in the entanglement preventing the knee straightening action that powers the extraction. Without this grip, the opponent faces no consequence for extraction and can commit fully to methodical hook clearing. Even when the finish is not immediately available, the grip threat creates the time pressure and dilemma that make the extraction exploitable."

@@ -312,11 +312,9 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
 
 // Cached graph.json data and lookup index (read once at build time)
 let _graphJson: any = null
+type GraphSection = "positions" | "transitions" | "submissions" | "principles" | "systems"
 // Maps lowercase slug (without section prefix) → { section, key }
-let _slugIndex: Record<
-  string,
-  { section: "positions" | "transitions" | "submissions"; key: string }
-> = {}
+let _slugIndex: Record<string, { section: GraphSection; key: string }> = {}
 
 function loadGraphData(): any {
   if (_graphJson !== null) return _graphJson
@@ -354,53 +352,99 @@ function loadGraphData(): any {
     }
   }
 
+  if (_graphJson.principles) {
+    for (const key of Object.keys(_graphJson.principles)) {
+      _slugIndex[key] = { section: "principles", key }
+    }
+  }
+
+  if (_graphJson.systems) {
+    for (const key of Object.keys(_graphJson.systems)) {
+      _slugIndex[key] = { section: "systems", key }
+    }
+  }
+
   return _graphJson
 }
+
+type RoleFilter = "attacker" | "defender" | "top" | "bottom" | null
 
 function getPageGraphData(slug: FullSlug): string | null {
   const graph = loadGraphData()
   if (!graph || Object.keys(graph).length === 0) return null
 
   // Strip section prefix and lowercase to match index
-  // e.g. "Positions/Mount/Top" → "mount/top"
-  // e.g. "Transitions/Hip-Bump-Sweep" → "hip-bump-sweep"
+  // e.g. "Positions/Mount/Top"          → "mount/top"
+  // e.g. "Transitions/Hip-Bump-Sweep"   → "hip-bump-sweep"
+  // e.g. "Submissions/Americana/from-Mount" → "americana/from-mount" → normalized to "americana-from-mount"
+  // e.g. "Principles/Base"              → "base"
   const slugLower = slug.toLowerCase()
-  let lookupKey: string | null = null
-  let urlSection: "positions" | "transitions" | "submissions" | null = null
+  const SECTIONS: Array<{ prefix: string; section: GraphSection }> = [
+    { prefix: "positions/", section: "positions" },
+    { prefix: "transitions/", section: "transitions" },
+    { prefix: "submissions/", section: "submissions" },
+    { prefix: "principles/", section: "principles" },
+    { prefix: "systems/", section: "systems" },
+  ]
 
-  if (slugLower.startsWith("positions/")) {
-    lookupKey = slugLower.slice("positions/".length)
-    urlSection = "positions"
-  } else if (slugLower.startsWith("transitions/")) {
-    lookupKey = slugLower.slice("transitions/".length)
-    urlSection = "transitions"
-  } else if (slugLower.startsWith("submissions/")) {
-    lookupKey = slugLower.slice("submissions/".length)
-    urlSection = "submissions"
+  let lookupKey: string | null = null
+  let urlSection: GraphSection | null = null
+  for (const s of SECTIONS) {
+    if (slugLower.startsWith(s.prefix)) {
+      lookupKey = slugLower.slice(s.prefix.length)
+      urlSection = s.section
+      break
+    }
+  }
+  if (!lookupKey || !urlSection) return null
+
+  // Detect role suffix and strip to find parent entry.
+  // Positions: /top, /bottom
+  // Transitions & Submissions: /attacker, /defender
+  let role: RoleFilter = null
+  if (urlSection === "positions") {
+    if (lookupKey.endsWith("/top")) {
+      // Keep slash — position role entries are keyed "mount/top"
+      role = "top"
+    } else if (lookupKey.endsWith("/bottom")) {
+      role = "bottom"
+    }
+  } else if (urlSection === "transitions" || urlSection === "submissions") {
+    if (lookupKey.endsWith("/attacker")) {
+      role = "attacker"
+      lookupKey = lookupKey.slice(0, -"/attacker".length)
+    } else if (lookupKey.endsWith("/defender")) {
+      role = "defender"
+      lookupKey = lookupKey.slice(0, -"/defender".length)
+    }
   }
 
-  if (!lookupKey) return null
-
-  // Detect attacker/defender role suffix and strip to find parent entry
-  let role: "attacker" | "defender" | null = null
-  if (lookupKey.endsWith("/attacker")) {
-    role = "attacker"
-    lookupKey = lookupKey.slice(0, -"/attacker".length)
-  } else if (lookupKey.endsWith("/defender")) {
-    role = "defender"
-    lookupKey = lookupKey.slice(0, -"/defender".length)
+  // Submission variant URL normalization: "americana/from-mount" → "americana-from-mount"
+  // (family hub keys like "americana" are unchanged)
+  if (urlSection === "submissions" && lookupKey.includes("/")) {
+    const hyphenated = lookupKey.replace(/\//g, "-")
+    if (graph.submissions?.[hyphenated]) {
+      lookupKey = hyphenated
+    }
   }
 
   // Prefer the section matching the URL prefix (avoids slug collisions
   // where e.g. both transitions["americana"] and submissions["americana"] exist)
   let entry = _slugIndex[lookupKey]
-  if (entry && urlSection && entry.section !== urlSection && graph[urlSection]?.[lookupKey]) {
+  if (entry && entry.section !== urlSection && graph[urlSection]?.[lookupKey]) {
+    entry = { section: urlSection, key: lookupKey }
+  }
+  // Fall back to direct lookup in the URL-matching section (handles position
+  // hub entries like "mount" that the index may not cover).
+  if (!entry && graph[urlSection]?.[lookupKey]) {
     entry = { section: urlSection, key: lookupKey }
   }
   if (!entry) return null
 
   const data = graph[entry.section]?.[entry.key]
   if (!data) return null
+
+  const toUrlPath = (p: string) => p.replace(/\s+/g, "-")
 
   // Return only the fields each page type needs
   if (entry.section === "positions") {
@@ -411,18 +455,20 @@ function getPageGraphData(slug: FullSlug): string | null {
       transitions: data.transitions,
       defenses: data.defenses,
       opponentTransitions: data.opponentTransitions || [],
-      knowledgeAssessment: data.knowledgeAssessment || [],
+      flashcards: data.flashcards || [],
     })
   } else if (entry.section === "transitions" || entry.section === "submissions") {
-    const ka =
-      role === "defender"
-        ? data.defenderKnowledgeAssessment || []
-        : role === "attacker"
-          ? data.knowledgeAssessment || []
-          : [...(data.knowledgeAssessment || []), ...(data.defenderKnowledgeAssessment || [])]
+    // Role-filtered flashcard selection
+    let flashcards: Array<{ question: string; answer: string }> = []
+    if (role === "attacker") {
+      flashcards = data.attackerFlashcards || []
+    } else if (role === "defender") {
+      flashcards = data.defenderFlashcards || []
+    } else {
+      flashcards = data.flashcards || []
+    }
 
     // Resolve outcome slugs to display names and URL-safe paths (spaces → hyphens)
-    const toUrlPath = (p: string) => p.replace(/\s+/g, "-")
     const resolvedOutcomes = (data.outcomes || []).map((o: any) => {
       const toSlug: string = o.to || ""
       if (toSlug === "game-over") {
@@ -449,14 +495,21 @@ function getPageGraphData(slug: FullSlug): string | null {
       startingPositionPath: toUrlPath(data.startingPositionPath || ""),
       startingPositionRole: data.startingPositionRole || null,
       outcomes: resolvedOutcomes,
-      knowledgeAssessment: ka,
+      flashcards,
     }
 
     if (entry.section === "submissions") {
       result.isTerminal = data.isTerminal
+      if (data.isFamily) result.isFamily = true
     }
 
     return JSON.stringify(result)
+  } else if (entry.section === "principles" || entry.section === "systems") {
+    return JSON.stringify({
+      type: entry.section === "principles" ? "principle" : "system",
+      name: data.name,
+      flashcards: data.flashcards || [],
+    })
   }
 
   return null
@@ -738,15 +791,16 @@ export function renderPage(
   if (slug.toLowerCase() === ("training" as FullSlug)) {
     const graph = loadGraphData()
     if (graph) {
+      type BankSection = "transitions" | "submissions" | "positions" | "principles" | "systems"
       const bank: Array<{
         name: string
         type: string
         slug: string
-        knowledgeAssessment: Array<{ question: string; answer: string }>
+        flashcards: Array<{ question: string; answer: string }>
       }> = []
 
       // Track graph keys for adjacency building
-      const bankGraphKeys: Array<{ key: string; section: "transitions" | "submissions" }> = []
+      const bankGraphKeys: Array<{ key: string; section: BankSection }> = []
 
       // Build a lookup from technique name → file slug
       const slugLookup: Record<string, string> = {}
@@ -761,17 +815,23 @@ export function renderPage(
         section: Record<string, any>,
         type: string,
         prefix: string,
-        sectionName: "transitions" | "submissions",
+        sectionName: BankSection,
       ) => {
         for (const [key, data] of Object.entries(section || {})) {
-          const ka = data.knowledgeAssessment || []
-          if (ka.length === 0) continue
+          // Skip family hubs from the training bank — their aggregated flashcards
+          // are already present via the variant entries.
+          if (data.isFamily) continue
+          // For positions, only include role entries (not hub-level aggregations)
+          // to avoid duplicate cards for the same position.
+          if (sectionName === "positions" && data.role === "hub") continue
+          const cards = data.flashcards || []
+          if (cards.length === 0) continue
           const fileSlug = slugLookup[data.name?.toLowerCase()] || `${prefix}/${data.name || key}`
           bank.push({
             name: data.name || key,
             type,
             slug: fileSlug,
-            knowledgeAssessment: ka,
+            flashcards: cards,
           })
           bankGraphKeys.push({ key, section: sectionName })
         }
@@ -779,6 +839,9 @@ export function renderPage(
 
       addEntries(graph.transitions, "transition", "Transitions", "transitions")
       addEntries(graph.submissions, "submission", "Submissions", "submissions")
+      addEntries(graph.positions, "position", "Positions", "positions")
+      addEntries(graph.principles, "principle", "Principles", "principles")
+      addEntries(graph.systems, "system", "Systems", "systems")
 
       questionBankJson = JSON.stringify(bank)
 

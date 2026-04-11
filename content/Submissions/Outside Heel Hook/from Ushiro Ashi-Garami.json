@@ -140,18 +140,18 @@
   "attacker": {
     "name": "from Ushiro Ashi-Garami Attacker",
     "description": "Learn to attack the outside heel hook from ushiro ashi-garami with expert finishing mechanics, reversed-angle grip details, and training progressions.",
-    "overview": "Attacking the outside heel hook from ushiro ashi-garami requires adapting standard heel hook mechanics to the reversed entanglement angle. The attacker must maintain leg control through the opponent's inversion while establishing a finishing grip that accounts for the changed hip orientation. Success depends on recognizing the heel exposure window during the opponent's escape attempt and transitioning smoothly from positional maintenance to submission finishing. The reversed angle demands specific grip adjustments\u2014the heel cup or figure-four must be configured to generate lateral rotation from an angle roughly 90 to 180 degrees different from standard outside ashi. Proper hip extension along the trapped leg's axis, combined with tight elbow positioning and controlled rotational torque, completes the finishing sequence.",
+    "overview": "Attacking the outside heel hook from ushiro ashi-garami requires adapting standard heel hook mechanics to the reversed entanglement angle. The attacker must maintain leg control through the opponent's inversion while establishing a finishing grip that accounts for the changed hip orientation. Success depends on recognizing the heel exposure window during the opponent's escape attempt and transitioning smoothly from positional maintenance to submission finishing. The reversed angle demands specific grip adjustments—the heel cup or figure-four must be configured to generate lateral rotation from an angle roughly 90 to 180 degrees different from standard outside ashi. Proper hip extension along the trapped leg's axis, combined with tight elbow positioning and controlled rotational torque, completes the finishing sequence.",
     "key_principles": [
       "Maintain figure-four leg control through the opponent's inversion before transitioning hands to the heel grip",
-      "Adjust heel cup grip angle to account for reversed hip orientation\u2014hand placement shifts relative to standard outside ashi",
+      "Adjust heel cup grip angle to account for reversed hip orientation—hand placement shifts relative to standard outside ashi",
       "Drive hip extension along the line of the opponent's trapped leg rather than perpendicular to your own body",
       "Control the opponent's free leg with your outside leg to prevent escape or counter-rotation during finishing",
-      "Apply rotational torque progressively\u2014the reversed angle can produce faster breaking pressure than expected",
+      "Apply rotational torque progressively—the reversed angle can produce faster breaking pressure than expected",
       "Keep elbows tight to your chest during the finish to maximize rotational leverage on the heel"
     ],
     "setup_requirements": [
       "Established ushiro ashi-garami with inside leg controlling opponent's thigh and outside leg crossing over their knee line",
-      "Opponent's heel accessible or nearly accessible through grip fighting\u2014foot not fully hidden behind attacker's body",
+      "Opponent's heel accessible or nearly accessible through grip fighting—foot not fully hidden behind attacker's body",
       "Upper body free to establish grip on opponent's heel without releasing leg entanglement pressure",
       "Opponent's free leg controlled or neutralized to prevent counter-rotation during the finishing sequence",
       "Hip positioning allows extension drive once the finishing grip is secured on the heel"
@@ -178,7 +178,7 @@
       {
         "step_number": 4,
         "action": "Configure figure-four grip on heel",
-        "description": "Thread your far arm under the heel so their ankle rests in your elbow crease, then connect your hands in a figure-four or palm-to-palm grip. Adjust hand placement for the reversed angle\u2014your grip should position the heel slightly closer to your hip line than in standard outside ashi to account for the inverted geometry.",
+        "description": "Thread your far arm under the heel so their ankle rests in your elbow crease, then connect your hands in a figure-four or palm-to-palm grip. Adjust hand placement for the reversed angle—your grip should position the heel slightly closer to your hip line than in standard outside ashi to account for the inverted geometry.",
         "timing": "1-2 seconds"
       },
       {
@@ -196,31 +196,31 @@
       {
         "step_number": 7,
         "action": "Complete the finish with hip bridge",
-        "description": "If the initial torque does not produce a tap, add a controlled hip bridge to increase extension force while maintaining rotational pressure on the heel. Bridge straight up rather than arching sideways to keep force aligned through the knee. Stop immediately at any tap signal and release in reverse order\u2014rotation first, then extension, then grip.",
+        "description": "If the initial torque does not produce a tap, add a controlled hip bridge to increase extension force while maintaining rotational pressure on the heel. Bridge straight up rather than arching sideways to keep force aligned through the knee. Stop immediately at any tap signal and release in reverse order—rotation first, then extension, then grip.",
         "timing": "1-3 seconds"
       }
     ],
     "common_counters": [
       {
-        "counter": "Boot defense\u2014opponent maintains dorsiflexion and hides heel behind their shin",
+        "counter": "Boot defense—opponent maintains dorsiflexion and hides heel behind their shin",
         "effectiveness": "High",
         "your_response": "Use a forearm wedge against the sole of their foot to pry open the boot, or transition to an ankle lock finish that does not require heel exposure. If the boot remains impenetrable, transition to a kneebar or toe hold that attacks from a different angle.",
         "targets_outcome": "Ushiro Ashi-Garami/Top"
       },
       {
-        "counter": "Counter-rotation\u2014opponent rotates their hips to align with your body and clear the entangled leg",
+        "counter": "Counter-rotation—opponent rotates their hips to align with your body and clear the entangled leg",
         "effectiveness": "Medium",
         "your_response": "Follow their rotation by adjusting your outside leg pressure and hip angle. If they rotate toward you, tighten the figure-four squeeze. If they rotate away, consider following to back control or transitioning to saddle as their rotation opens new entanglement opportunities.",
         "targets_outcome": "Ushiro Ashi-Garami/Top"
       },
       {
-        "counter": "Grip fighting\u2014opponent uses both hands to strip your heel cup before you can secure the figure-four",
+        "counter": "Grip fighting—opponent uses both hands to strip your heel cup before you can secure the figure-four",
         "effectiveness": "Medium",
-        "your_response": "Maintain leg squeeze pressure to limit their hand positioning options. Transition between grip configurations\u2014switch from figure-four to palm-to-palm or single wrist control to keep them reacting. Use your free hand to control their wrist before re-establishing the heel grip.",
+        "your_response": "Maintain leg squeeze pressure to limit their hand positioning options. Transition between grip configurations—switch from figure-four to palm-to-palm or single wrist control to keep them reacting. Use your free hand to control their wrist before re-establishing the heel grip.",
         "targets_outcome": "Ushiro Ashi-Garami/Top"
       },
       {
-        "counter": "Full inversion escape\u2014opponent commits to completing rotation to turtle and pulls free",
+        "counter": "Full inversion escape—opponent commits to completing rotation to turtle and pulls free",
         "effectiveness": "Medium",
         "your_response": "If entanglement is degrading, immediately follow to back control rather than chasing a deteriorating heel hook. Use the rotational momentum to take the back as they turtle. Only pursue the heel hook if your grip is already established and the finish is imminent.",
         "targets_outcome": "Closed Guard/Bottom"
@@ -239,7 +239,7 @@
       },
       {
         "error": "Applying rotational force suddenly or explosively instead of progressively",
-        "consequence": "Causes serious knee injury before the defender can tap\u2014potential ACL or MCL tear with career-ending consequences",
+        "consequence": "Causes serious knee injury before the defender can tap—potential ACL or MCL tear with career-ending consequences",
         "correction": "Always apply rotation over a minimum of five seconds in training, increasing pressure gradually and pausing at any resistance to allow the tap"
       },
       {
@@ -262,7 +262,7 @@
       {
         "phase": "Phase 1: Static Grip Mechanics",
         "focus": "Heel cup placement and figure-four configuration for the reversed angle",
-        "description": "Partner holds ushiro ashi-garami position passively while you practice establishing the correct grip angle for the reversed configuration. Drill transitioning from leg control to heel access without releasing entanglement. Focus on hand placement differences compared to standard outside ashi. No finishing pressure\u2014grip establishment only."
+        "description": "Partner holds ushiro ashi-garami position passively while you practice establishing the correct grip angle for the reversed configuration. Drill transitioning from leg control to heel access without releasing entanglement. Focus on hand placement differences compared to standard outside ashi. No finishing pressure—grip establishment only."
       },
       {
         "phase": "Phase 2: Controlled Finishing Sequence",
@@ -272,7 +272,7 @@
       {
         "phase": "Phase 3: Defensive Integration",
         "focus": "Finishing against common counters and boot defense",
-        "description": "Partner adds progressive resistance\u2014boot defense, grip fighting, and counter-rotation attempts. Practice adapting grip configuration and transitioning between submission options when the primary heel hook is defended. Develop the ability to read which counter the defender is using and select the appropriate response in real time."
+        "description": "Partner adds progressive resistance—boot defense, grip fighting, and counter-rotation attempts. Practice adapting grip configuration and transitioning between submission options when the primary heel hook is defended. Develop the ability to read which counter the defender is using and select the appropriate response in real time."
       },
       {
         "phase": "Phase 4: Dynamic Entry and Live Application",
@@ -280,7 +280,7 @@
         "description": "Begin from standard ashi-garami positions with the partner performing realistic inversion escapes. Practice following the inversion, establishing ushiro control, and transitioning to the heel hook during live movement at 60-70% intensity. Develop timing for recognizing when the heel becomes exposed during the opponent's rotation."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the outside heel hook from ushiro ashi-garami primarily attack?",
         "answer": "The outside heel hook primarily attacks the knee's lateral ligament complex, including the LCL (lateral collateral ligament), and generates rotational stress on the ACL and MCL through lateral rotation of the heel. Secondary stress passes through the menisci and the ankle ligaments. The combined rotational and extension force can damage multiple structures simultaneously, which is why this submission is classified as extremely dangerous.",
@@ -292,7 +292,7 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins hiding their heel with a tight boot defense\u2014what are your options?",
+        "question": "Your opponent begins hiding their heel with a tight boot defense—what are your options?",
         "answer": "First, attempt a forearm wedge against their sole to pry open the boot by breaking dorsiflexion. If the boot holds after two attempts, transition to alternative submissions that do not require heel exposure: a toe hold by attacking the forefoot instead, a kneebar by shifting hip pressure to extend the knee directly, or a calf slicer if their leg positioning permits. Continuing to fight a committed boot defense wastes energy and time while the defender works to escape the entanglement entirely.",
         "safety_critical": false
       },
@@ -302,8 +302,8 @@
         "safety_critical": true
       },
       {
-        "question": "Your opponent starts counter-rotating during your finishing sequence\u2014what adjustment prevents escape?",
-        "answer": "When the opponent counter-rotates, immediately tighten your figure-four leg squeeze to maintain entanglement integrity and follow their hip rotation with your outside leg. If they rotate toward you, increase knee squeeze pressure to prevent them from clearing. If they rotate away, evaluate whether to follow to back control or transition to saddle. Only continue the heel hook if your grip remains solid and the rotation is not degrading your finishing angle\u2014otherwise the positional transition offers higher value than a deteriorating submission attempt.",
+        "question": "Your opponent starts counter-rotating during your finishing sequence—what adjustment prevents escape?",
+        "answer": "When the opponent counter-rotates, immediately tighten your figure-four leg squeeze to maintain entanglement integrity and follow their hip rotation with your outside leg. If they rotate toward you, increase knee squeeze pressure to prevent them from clearing. If they rotate away, evaluate whether to follow to back control or transition to saddle. Only continue the heel hook if your grip remains solid and the rotation is not degrading your finishing angle—otherwise the positional transition offers higher value than a deteriorating submission attempt.",
         "safety_critical": false
       },
       {
@@ -336,9 +336,9 @@
   "defender": {
     "name": "from Ushiro Ashi-Garami Defender",
     "description": "Defend the outside heel hook from ushiro ashi-garami. Recognition cues, escape sequences, counter-attacks, and safety protocols for this dangerous lock.",
-    "overview": "Defending the outside heel hook from ushiro ashi-garami requires early recognition and decisive action because the reversed entanglement angle produces faster breaking pressure than standard heel hook positions. The defender has already invested energy in an inversion escape attempt from standard ashi-garami, which means defensive resources are partially depleted. The primary defensive priority is heel protection through strict dorsiflexion and boot positioning, combined with systematic grip fighting to prevent the attacker from establishing a figure-four finishing grip. When early defense fails and rotational pressure begins loading through the knee, the defender must tap immediately\u2014the reversed angle of ushiro produces breaking force before pain signals in many cases, making ego-driven defense extremely dangerous. Secondary defensive goals include completing the escape rotation to turtle, counter-entangling the attacker's legs, or clearing the entanglement to recover guard.",
+    "overview": "Defending the outside heel hook from ushiro ashi-garami requires early recognition and decisive action because the reversed entanglement angle produces faster breaking pressure than standard heel hook positions. The defender has already invested energy in an inversion escape attempt from standard ashi-garami, which means defensive resources are partially depleted. The primary defensive priority is heel protection through strict dorsiflexion and boot positioning, combined with systematic grip fighting to prevent the attacker from establishing a figure-four finishing grip. When early defense fails and rotational pressure begins loading through the knee, the defender must tap immediately—the reversed angle of ushiro produces breaking force before pain signals in many cases, making ego-driven defense extremely dangerous. Secondary defensive goals include completing the escape rotation to turtle, counter-entangling the attacker's legs, or clearing the entanglement to recover guard.",
     "key_principles": [
-      "Maintain strict dorsiflexion throughout\u2014never relax the foot or point toes when any heel hook threat exists",
+      "Maintain strict dorsiflexion throughout—never relax the foot or point toes when any heel hook threat exists",
       "Fight grips early before the attacker consolidates the figure-four or heel cup configuration",
       "Use the free leg actively to push the attacker's hips away and create separation for leg extraction",
       "Recognize the point of no return and tap immediately when rotational pressure establishes on the knee",
@@ -355,7 +355,7 @@
     "defensive_options": [
       {
         "action": "Maintain boot defense with strict dorsiflexion and two-handed grip control on attacker's wrists",
-        "when_to_use": "As soon as you recognize the attacker shifting from positional control to heel hook setup\u2014this is the highest-priority early defense",
+        "when_to_use": "As soon as you recognize the attacker shifting from positional control to heel hook setup—this is the highest-priority early defense",
         "targets_outcome": "Ushiro Ashi-Garami/Top",
         "if_successful": "Attacker cannot establish finishing grip, buying time to work leg extraction or force them to abandon the attempt",
         "risk": "If boot defense fails while you remain static, the attacker secures the grip from an established position with no escape route remaining"
@@ -394,12 +394,12 @@
       {
         "error": "Relaxing dorsiflexion during escape attempts, allowing the heel to become exposed mid-transition",
         "consequence": "Attacker secures heel cup grip during the momentary exposure, converting a successful positional escape into a caught submission",
-        "correction": "Maintain maximum dorsiflexion through every phase of defense and escape\u2014treat foot position as the highest priority regardless of what else is happening"
+        "correction": "Maintain maximum dorsiflexion through every phase of defense and escape—treat foot position as the highest priority regardless of what else is happening"
       },
       {
         "error": "Stopping the inversion rotation halfway and fighting from a static inverted position",
         "consequence": "Creates the worst-case scenario where the defender is inverted, energy-depleted, and fully entangled with maximum heel exposure",
-        "correction": "Commit fully to rotation once initiated\u2014complete the movement to turtle rather than pausing in the reversed position"
+        "correction": "Commit fully to rotation once initiated—complete the movement to turtle rather than pausing in the reversed position"
       },
       {
         "error": "Attempting to out-grip-fight the attacker's heel access with one hand while the other pushes on the mat",
@@ -408,11 +408,11 @@
       },
       {
         "error": "Testing knee flexibility limits instead of tapping when rotational pressure is established",
-        "consequence": "ACL or MCL tear before pain signals arrive\u2014the reversed ushiro angle generates faster breaking force than standard positions, and many defenders are injured because they did not feel the danger in time",
+        "consequence": "ACL or MCL tear before pain signals arrive—the reversed ushiro angle generates faster breaking force than standard positions, and many defenders are injured because they did not feel the danger in time",
         "correction": "Tap immediately when you feel any rotational pressure established on the knee with a secured grip. There is no flexibility reserve that protects against rotational heel hook force"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that the outside heel hook from ushiro ashi-garami is being set up?",
         "answer": "Key recognition cues include the attacker's hands transitioning from leg control toward your heel or ankle area, their hips shifting to align along your trapped leg's axis, increased inside leg pressure on your thigh combined with tighter outside leg over your knee, and any attempt to thread an arm under your ankle. The earlier you recognize these cues, the more defensive options remain available to you.",
@@ -420,12 +420,12 @@
       },
       {
         "question": "What is the safest way to respond when rotational pressure is already established on your knee?",
-        "answer": "Tap immediately through any available signal\u2014verbal tap, hand tap on partner or mat, foot tap with free leg, or any vocal indication. Do not attempt to escape once rotational pressure is loaded through the knee joint because the reversed ushiro angle generates breaking force faster than standard positions and ligament damage can occur before pain registers. The only safe response once the grip is locked and rotation has begun is immediate submission.",
+        "answer": "Tap immediately through any available signal—verbal tap, hand tap on partner or mat, foot tap with free leg, or any vocal indication. Do not attempt to escape once rotational pressure is loaded through the knee joint because the reversed ushiro angle generates breaking force faster than standard positions and ligament damage can occur before pain registers. The only safe response once the grip is locked and rotation has begun is immediate submission.",
         "safety_critical": true
       },
       {
         "question": "What defensive options are available before the attacker secures the finishing grip?",
-        "answer": "Before grip establishment, three primary options exist: maintain boot defense with strict dorsiflexion while using both hands to control the attacker's wrists, complete the inversion rotation to turtle to clear the entanglement entirely, or counter-entangle the attacker's exposed legs when they release leg control to reach for the heel. The choice depends on how advanced the attacker's grip progression is\u2014boot defense for early stages, rotation for mid-stages, and counter-entanglement when the attacker's legs are exposed.",
+        "answer": "Before grip establishment, three primary options exist: maintain boot defense with strict dorsiflexion while using both hands to control the attacker's wrists, complete the inversion rotation to turtle to clear the entanglement entirely, or counter-entangle the attacker's exposed legs when they release leg control to reach for the heel. The choice depends on how advanced the attacker's grip progression is—boot defense for early stages, rotation for mid-stages, and counter-entanglement when the attacker's legs are exposed.",
         "safety_critical": false
       },
       {
@@ -443,7 +443,7 @@
       {
         "phase": "Phase 1: Boot Defense and Grip Awareness",
         "focus": "Maintaining dorsiflexion under pressure and recognizing attack setups",
-        "description": "Partner holds ushiro ashi-garami and slowly works toward heel access. Practice maintaining strict dorsiflexion while using both hands to control attacker's wrists. Develop sensitivity for recognizing when the attacker's intention shifts from positional control to submission setup. No escape attempts\u2014pure defensive positioning and grip prevention."
+        "description": "Partner holds ushiro ashi-garami and slowly works toward heel access. Practice maintaining strict dorsiflexion while using both hands to control attacker's wrists. Develop sensitivity for recognizing when the attacker's intention shifts from positional control to submission setup. No escape attempts—pure defensive positioning and grip prevention."
       },
       {
         "phase": "Phase 2: Escape Sequences",

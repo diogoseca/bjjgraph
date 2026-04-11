@@ -309,7 +309,7 @@
         "description": "Full rolling with focus on finding triangle opportunities from various guard positions. Develop sensitivity to when opponents create openings by posting arms, breaking posture forward, or reaching inside your guard. Practice setting up triangles off other attacks - using hip bump, kimura, or armbar threats to force reactions that open the triangle. Track success rate and identify which setups and finishes work against different body types and skill levels."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is creating approximately 90 degrees of angle essential for triangle effectiveness, and what happens if you stay directly underneath your opponent?",
         "answer": "The 90-degree angle prevents the opponent from stacking you and driving forward with their weight, which would break the triangle's structure and potentially pass your guard. When you're directly underneath them, they can use gravity and forward pressure to compress you, making it impossible to maintain the triangle configuration or extend your hips for the finish. The perpendicular angle also optimizes the choking geometry by ensuring their neck is properly positioned relative to your leg and their own trapped shoulder.",
@@ -465,7 +465,7 @@
         "correction": "Always turn toward the choking leg (the leg whose knee is against your neck) to relieve pressure; this compresses the triangle into a less effective angle"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is early recognition and prevention more effective than late-stage escape when defending the triangle from closed guard?",
         "answer": "Once the attacker achieves all three structural elements - perpendicular angle, ankle locked behind the knee, and fully broken posture - the triangle creates bilateral compression of both carotid arteries that produces unconsciousness within 5-10 seconds. At this stage, even technically correct escape attempts may not succeed before the blood choke takes effect. Prevention through posture maintenance, tight elbows, and immediate response to wrist control prevents the attacker from ever establishing these three elements, keeping the defender in a position where their escape percentage remains high.",

@@ -19,7 +19,7 @@
   "starting_position": "Flattened Half Guard",
   "from_position": "Flattened Half Guard/Top",
   "success_rate": 62,
-  "overview": "The Kimura from flattened half guard top is a high-percentage shoulder lock that exploits the positional dominance achieved when you collapse your opponent's defensive structure. Unlike Kimura attacks from neutral positions where the defender retains significant mobility, this variation benefits from sustained chest pressure that restricts the defender's breathing, hip movement, and standard defensive responses. The attack typically presents when the bottom player extends an arm to establish frames, fight for an underhook, or push against the crossface \u2014 necessary survival actions that simultaneously expose the arm to figure-four grip capture.\n\nThe defining strategic advantage is the compounding pressure dilemma. Your chest weight restricts the opponent's movement while the Kimura grip creates a secondary threat forcing them to choose between defending the submission and recovering positional frames. When they defend the Kimura by clasping hands or gripping their belt, they abandon frame recovery efforts, allowing you to settle deeper into the flattened position or advance to side control. When they prioritize positional escape, the arm becomes increasingly vulnerable to the shoulder lock. This two-pronged problem is central to why this variation finishes at higher rates than Kimura attacks from more neutral positions.\n\nThe finishing mechanics differ from standard Kimura applications because the flattened position eliminates several common defenses. The bridge-and-roll escape is compromised by your weight distribution, hip escaping to create defensive angles is limited by chest pressure, and hiding the hand becomes difficult when the defender needs that arm for positional survival. Understanding these positional advantages allows you to apply the Kimura with controlled precision rather than relying on brute rotational force, making this one of the most reliable shoulder lock finishes available from top position.",
+  "overview": "The Kimura from flattened half guard top is a high-percentage shoulder lock that exploits the positional dominance achieved when you collapse your opponent's defensive structure. Unlike Kimura attacks from neutral positions where the defender retains significant mobility, this variation benefits from sustained chest pressure that restricts the defender's breathing, hip movement, and standard defensive responses. The attack typically presents when the bottom player extends an arm to establish frames, fight for an underhook, or push against the crossface — necessary survival actions that simultaneously expose the arm to figure-four grip capture.\n\nThe defining strategic advantage is the compounding pressure dilemma. Your chest weight restricts the opponent's movement while the Kimura grip creates a secondary threat forcing them to choose between defending the submission and recovering positional frames. When they defend the Kimura by clasping hands or gripping their belt, they abandon frame recovery efforts, allowing you to settle deeper into the flattened position or advance to side control. When they prioritize positional escape, the arm becomes increasingly vulnerable to the shoulder lock. This two-pronged problem is central to why this variation finishes at higher rates than Kimura attacks from more neutral positions.\n\nThe finishing mechanics differ from standard Kimura applications because the flattened position eliminates several common defenses. The bridge-and-roll escape is compromised by your weight distribution, hip escaping to create defensive angles is limited by chest pressure, and hiding the hand becomes difficult when the defender needs that arm for positional survival. Understanding these positional advantages allows you to apply the Kimura with controlled precision rather than relying on brute rotational force, making this one of the most reliable shoulder lock finishes available from top position.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -119,21 +119,21 @@
   "attacker": {
     "name": "from Flattened Half Guard Attacker",
     "description": "Attack with the Kimura from flattened half guard top. Step-by-step grip capture, weight distribution, and finishing mechanics for the shoulder lock.",
-    "overview": "Attacking with the Kimura from flattened half guard top capitalizes on the significant control advantage you have already established. Your chest pressure restricts the opponent's breathing and movement, creating a platform from which the figure-four grip becomes devastatingly effective. The key insight is that the bottom player must use their arms to survive the flattened position \u2014 framing, fighting for underhooks, pushing the crossface \u2014 and each of these defensive arm movements creates a window for Kimura grip capture. Your objective is to maintain heavy top pressure while patiently waiting for or forcing the arm exposure, then securing the figure-four and finishing with controlled rotational pressure that the compromised position makes extremely difficult to defend.",
+    "overview": "Attacking with the Kimura from flattened half guard top capitalizes on the significant control advantage you have already established. Your chest pressure restricts the opponent's breathing and movement, creating a platform from which the figure-four grip becomes devastatingly effective. The key insight is that the bottom player must use their arms to survive the flattened position — framing, fighting for underhooks, pushing the crossface — and each of these defensive arm movements creates a window for Kimura grip capture. Your objective is to maintain heavy top pressure while patiently waiting for or forcing the arm exposure, then securing the figure-four and finishing with controlled rotational pressure that the compromised position makes extremely difficult to defend.",
     "key_principles": [
-      "Maintain chest-to-chest pressure throughout the entire Kimura attack sequence \u2014 lifting your weight to finish is the primary reason this submission fails from top position",
-      "Capture the wrist before threading the figure-four \u2014 premature elbow threading without wrist control allows the opponent to retract the arm",
-      "Pin the opponent's elbow to their ribcage using your chest weight before applying rotation \u2014 this removes the space they need to straighten their arm and escape",
-      "Use your hips as the primary rotational engine rather than arm strength \u2014 hip drive generates far more torque while keeping your base stable",
-      "Force the arm exposure rather than waiting passively \u2014 swim your hand inside their frame or bait the underhook attempt to create the opening",
-      "Treat the Kimura grip as a positional control tool first and submission second \u2014 the threat alone can create passing opportunities"
+      "Maintain chest-to-chest pressure throughout the entire Kimura attack sequence — lifting your weight to finish is the primary reason this submission fails from top position",
+      "Capture the wrist before threading the figure-four — premature elbow threading without wrist control allows the opponent to retract the arm",
+      "Pin the opponent's elbow to their ribcage using your chest weight before applying rotation — this removes the space they need to straighten their arm and escape",
+      "Use your hips as the primary rotational engine rather than arm strength — hip drive generates far more torque while keeping your base stable",
+      "Force the arm exposure rather than waiting passively — swim your hand inside their frame or bait the underhook attempt to create the opening",
+      "Treat the Kimura grip as a positional control tool first and submission second — the threat alone can create passing opportunities"
     ],
     "setup_requirements": [
       "Established chest-to-chest pressure with the opponent's back flat on the mat and their defensive frames collapsed or compromised",
       "Crossface control or head position that prevents the opponent from turning into you during the grip capture sequence",
-      "Identification of the target arm \u2014 typically the far arm when the opponent reaches across to fight the crossface or establish an underhook",
+      "Identification of the target arm — typically the far arm when the opponent reaches across to fight the crossface or establish an underhook",
       "Stable base with your hips low enough to maintain pressure while your hands transition from positional control to submission grips",
-      "The opponent's trapped leg hook still engaged \u2014 if they have already recovered frames, the positional advantage is insufficient for reliable Kimura attacks"
+      "The opponent's trapped leg hook still engaged — if they have already recovered frames, the positional advantage is insufficient for reliable Kimura attacks"
     ],
     "execution_steps": [
       {
@@ -145,13 +145,13 @@
       {
         "step_number": 2,
         "action": "Capture the wrist with your near hand",
-        "description": "As the target arm extends, immediately secure their wrist with your crossface-side hand. Grip the wrist firmly with your thumb wrapping around the back of their hand. This initial wrist control is critical \u2014 without it, the opponent can retract their arm before you establish the full figure-four. Maintain chest pressure throughout this grip change.",
+        "description": "As the target arm extends, immediately secure their wrist with your crossface-side hand. Grip the wrist firmly with your thumb wrapping around the back of their hand. This initial wrist control is critical — without it, the opponent can retract their arm before you establish the full figure-four. Maintain chest pressure throughout this grip change.",
         "timing": "Immediate reaction within 1 second of arm exposure"
       },
       {
         "step_number": 3,
         "action": "Thread your far arm under their elbow",
-        "description": "With the wrist secured, slide your far arm underneath their captured arm at the elbow crease. Thread deeply so your forearm passes completely under their upper arm. Your hand should emerge on the far side of their elbow, reaching toward your own wrist. Keep your chest heavy on their torso \u2014 do not lift to create threading space, instead use their arm elevation to thread underneath.",
+        "description": "With the wrist secured, slide your far arm underneath their captured arm at the elbow crease. Thread deeply so your forearm passes completely under their upper arm. Your hand should emerge on the far side of their elbow, reaching toward your own wrist. Keep your chest heavy on their torso — do not lift to create threading space, instead use their arm elevation to thread underneath.",
         "timing": "1-2 seconds, maintaining constant chest contact"
       },
       {
@@ -169,14 +169,14 @@
       {
         "step_number": 6,
         "action": "Initiate controlled internal rotation",
-        "description": "Begin rotating their forearm toward their hip using your figure-four grip as a lever. The rotation should come primarily from your hip drive and body positioning rather than arm strength alone. Keep your chest heavy to prevent them from bridging or turning. Paint their hand toward the mat behind their back in a slow arc \u2014 never jerk or spike the rotation. The opponent's shoulder reaches end range and the submission pressure builds progressively.",
+        "description": "Begin rotating their forearm toward their hip using your figure-four grip as a lever. The rotation should come primarily from your hip drive and body positioning rather than arm strength alone. Keep your chest heavy to prevent them from bridging or turning. Paint their hand toward the mat behind their back in a slow arc — never jerk or spike the rotation. The opponent's shoulder reaches end range and the submission pressure builds progressively.",
         "timing": "3-5 seconds of smooth, progressive rotation"
       },
       {
         "step_number": 7,
         "action": "Complete the finish with hip pressure",
         "description": "As you feel the shoulder reaching its rotational limit, drive your hips forward while maintaining the rotational angle. This hip drive compounds the submission pressure by adding a compression element to the rotation. The opponent's arm is now trapped between your figure-four grip and their own body, with your weight preventing any escape movement. Hold steady pressure and wait for the tap rather than forcing additional rotation past the breaking point.",
-        "timing": "Hold finishing pressure until tap \u2014 never rush past resistance"
+        "timing": "Hold finishing pressure until tap — never rush past resistance"
       }
     ],
     "common_counters": [
@@ -209,32 +209,32 @@
       {
         "error": "Lifting chest off the opponent to create space for the figure-four threading",
         "consequence": "Removes the primary control advantage of the flattened position, allowing the opponent to immediately recover frames, insert knee shield, or escape the half guard entirely",
-        "correction": "Thread the figure-four using the existing space created by the opponent's arm elevation \u2014 your chest stays glued to their torso throughout the entire grip establishment sequence"
+        "correction": "Thread the figure-four using the existing space created by the opponent's arm elevation — your chest stays glued to their torso throughout the entire grip establishment sequence"
       },
       {
         "error": "Attempting to finish with arm strength alone rather than using hip rotation and body weight",
         "consequence": "Burns grip and arm endurance quickly, produces inconsistent finishing pressure, and allows stronger opponents to resist the rotation through muscular defense",
-        "correction": "Drive the finish through hip rotation and forward pressure \u2014 your arms maintain the grip structure while your hips and body weight generate the rotational torque needed to overcome shoulder resistance"
+        "correction": "Drive the finish through hip rotation and forward pressure — your arms maintain the grip structure while your hips and body weight generate the rotational torque needed to overcome shoulder resistance"
       },
       {
         "error": "Attacking the near arm instead of the far arm from crossface position",
-        "consequence": "The near arm is protected by your own body position and the opponent can easily retract it beneath your chest \u2014 this also sacrifices crossface control for a low-percentage grip attempt",
-        "correction": "Target the far arm that extends past the opponent's centerline when they reach for frames or underhooks \u2014 this arm is mechanically isolated from their defensive structure"
+        "consequence": "The near arm is protected by your own body position and the opponent can easily retract it beneath your chest — this also sacrifices crossface control for a low-percentage grip attempt",
+        "correction": "Target the far arm that extends past the opponent's centerline when they reach for frames or underhooks — this arm is mechanically isolated from their defensive structure"
       },
       {
         "error": "Releasing crossface control prematurely before establishing secure figure-four grip",
         "consequence": "Allows the opponent to turn their head toward the action, use their near arm for framing, and create the defensive angles needed to prevent the Kimura finish",
-        "correction": "Maintain crossface pressure with your shoulder and head position while transitioning your hand to the wrist grip \u2014 the crossface transfers from hand control to shoulder-driven control during the grip change"
+        "correction": "Maintain crossface pressure with your shoulder and head position while transitioning your hand to the wrist grip — the crossface transfers from hand control to shoulder-driven control during the grip change"
       },
       {
         "error": "Jerking or spiking the rotational finish instead of applying progressive pressure",
         "consequence": "Creates serious injury risk to training partners, does not allow time for the tap, and in competition can result in disqualification for dangerous technique application",
-        "correction": "Apply rotation in a smooth, progressive arc over 3-5 seconds minimum \u2014 feel for the endpoint of shoulder range and hold steady pressure rather than forcing past resistance"
+        "correction": "Apply rotation in a smooth, progressive arc over 3-5 seconds minimum — feel for the endpoint of shoulder range and hold steady pressure rather than forcing past resistance"
       },
       {
         "error": "Leaving slack in the figure-four grip with elbows flared away from your body",
-        "consequence": "Creates space for the opponent to extract their arm, straighten the elbow, or rotate their shoulder to relieve pressure \u2014 the submission becomes a control position rather than a finishing threat",
-        "correction": "Squeeze your elbows tight against your ribs when locking the figure-four \u2014 the grip should function as a closed mechanical system with zero slack between your arms and their captured limb"
+        "consequence": "Creates space for the opponent to extract their arm, straighten the elbow, or rotate their shoulder to relieve pressure — the submission becomes a control position rather than a finishing threat",
+        "correction": "Squeeze your elbows tight against your ribs when locking the figure-four — the grip should function as a closed mechanical system with zero slack between your arms and their captured limb"
       }
     ],
     "training_progressions": [
@@ -251,7 +251,7 @@
       {
         "phase": "Phase 3: Counter Management",
         "focus": "Defeating common defensive responses",
-        "description": "Partner applies specific defenses \u2014 hand clasping, arm straightening, bridging, hip escaping \u2014 and you practice the appropriate counter for each. Rotate through all four defenses in sequence, building reaction patterns. Increase partner resistance gradually across sessions."
+        "description": "Partner applies specific defenses — hand clasping, arm straightening, bridging, hip escaping — and you practice the appropriate counter for each. Rotate through all four defenses in sequence, building reaction patterns. Increase partner resistance gradually across sessions."
       },
       {
         "phase": "Phase 4: Live Integration",
@@ -264,7 +264,7 @@
         "description": "Three-minute rounds starting from flattened half guard with the Kimura as the primary attack objective. Full resistance from both players. Track finish rate, time to grip capture, and defensive responses encountered. Develop the ability to chain the Kimura threat with passing sequences."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Kimura attack when applied from flattened half guard?",
         "answer": "The Kimura primarily attacks the shoulder joint through forced internal rotation beyond its normal range of motion. The specific structures at risk are the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the glenohumeral ligaments that stabilize the shoulder capsule, and the glenoid labrum. Secondary stress is placed on the bicep tendon at its attachment point. The flattened position amplifies these forces because the opponent cannot use hip movement to relieve the rotational pressure on the joint.",
@@ -272,7 +272,7 @@
       },
       {
         "question": "What physical and tactile cues indicate the Kimura is approaching the breaking point from this position?",
-        "answer": "You will feel a progressive increase in resistance as the shoulder approaches its end range, followed by a distinct hardening where the rotation meets bony and ligamentous limits. The opponent's body may involuntarily stiffen or arch. Their breathing pattern changes \u2014 often becoming rapid or held. You may feel micro-tremors in their arm as the muscles resist the rotation under load. These cues signal you should hold steady pressure and wait for the tap rather than increasing force, as the joint is at its structural limit.",
+        "answer": "You will feel a progressive increase in resistance as the shoulder approaches its end range, followed by a distinct hardening where the rotation meets bony and ligamentous limits. The opponent's body may involuntarily stiffen or arch. Their breathing pattern changes — often becoming rapid or held. You may feel micro-tremors in their arm as the muscles resist the rotation under load. These cues signal you should hold steady pressure and wait for the tap rather than increasing force, as the joint is at its structural limit.",
         "safety_critical": true
       },
       {
@@ -286,33 +286,33 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent clasps both hands together to defend the Kimura grip \u2014 what is the correct sequence to break this defense?",
+        "question": "Your opponent clasps both hands together to defend the Kimura grip — what is the correct sequence to break this defense?",
         "answer": "First, maintain your figure-four grip and chest pressure without releasing anything. Drive their clasped hands toward the mat using your hip weight rather than pulling with your arms. If the clasp holds, wedge your knee against the outside of their captured elbow to create a lever that separates their grip. You can also attack the weakest point of their clasp by peeling the bottom hand's fingers while maintaining downward pressure. If the grip remains unbreakable, use the stalling opportunity to advance your passing position past the half guard while they are occupied with hand defense.",
         "safety_critical": false
       },
       {
         "question": "How should you adjust the figure-four grip if the opponent begins to straighten their captured arm?",
-        "answer": "When the opponent straightens their arm, maintain your wrist grip firmly and use your chest weight to drive their straightened arm across their body toward the opposite hip. Simultaneously, use your threading arm to lift at their elbow crease while pulling their wrist toward their shoulder with the controlling hand \u2014 this re-bends the arm into the Kimura angle. If the arm remains straight, redirect the attack to an Americana by rotating the arm in the opposite direction, as a straight arm with wrist control is vulnerable to this complementary shoulder lock.",
+        "answer": "When the opponent straightens their arm, maintain your wrist grip firmly and use your chest weight to drive their straightened arm across their body toward the opposite hip. Simultaneously, use your threading arm to lift at their elbow crease while pulling their wrist toward their shoulder with the controlling hand — this re-bends the arm into the Kimura angle. If the arm remains straight, redirect the attack to an Americana by rotating the arm in the opposite direction, as a straight arm with wrist control is vulnerable to this complementary shoulder lock.",
         "safety_critical": false
       },
       {
         "question": "What is the correct application speed for the Kimura in training, and what happens if this is violated?",
-        "answer": "In training, the Kimura must be applied with slow, progressive rotation over a minimum of 3-5 seconds once rotational pressure begins. This allows the training partner adequate time to recognize the danger, assess their defensive options, and tap before the joint reaches its structural limit. Violating this speed guideline risks catastrophic shoulder injury including rotator cuff tears, shoulder dislocation, and labral damage \u2014 injuries that may require surgery and 6-12 months of recovery. The shoulder joint has very little buffer between discomfort and structural failure under Kimura torque.",
+        "answer": "In training, the Kimura must be applied with slow, progressive rotation over a minimum of 3-5 seconds once rotational pressure begins. This allows the training partner adequate time to recognize the danger, assess their defensive options, and tap before the joint reaches its structural limit. Violating this speed guideline risks catastrophic shoulder injury including rotator cuff tears, shoulder dislocation, and labral damage — injuries that may require surgery and 6-12 months of recovery. The shoulder joint has very little buffer between discomfort and structural failure under Kimura torque.",
         "safety_critical": true
       },
       {
         "question": "How does the competition finishing strategy differ from the training application of this Kimura?",
-        "answer": "In competition, you can apply the Kimura at a faster pace than training, but the fundamental mechanics remain identical \u2014 grip establishment, elbow pinning, and hip-driven rotation. The key competition adjustment is maintaining relentless forward pressure throughout the sequence to prevent the referee from standing you up for inactivity. Chain the Kimura threat with passing attempts so the referee sees continuous advancement. If the opponent defends the Kimura, immediately transition to a pass or positional upgrade rather than stalling in the grip. Time management matters \u2014 begin the Kimura attack when there is sufficient time on the clock to work through defensive responses.",
+        "answer": "In competition, you can apply the Kimura at a faster pace than training, but the fundamental mechanics remain identical — grip establishment, elbow pinning, and hip-driven rotation. The key competition adjustment is maintaining relentless forward pressure throughout the sequence to prevent the referee from standing you up for inactivity. Chain the Kimura threat with passing attempts so the referee sees continuous advancement. If the opponent defends the Kimura, immediately transition to a pass or positional upgrade rather than stalling in the grip. Time management matters — begin the Kimura attack when there is sufficient time on the clock to work through defensive responses.",
         "safety_critical": false
       },
       {
-        "question": "Your opponent bridges and turns into you during the Kimura attempt \u2014 what adjustment prevents them from escaping?",
-        "answer": "Post your far-side foot wide and lower your base to absorb the bridge energy without being displaced. Keep the figure-four grip locked throughout the bridge \u2014 do not release to post your hands. As the opponent's bridge peaks and they begin settling back to the mat, tighten the grip and drive your hips forward to recapture the flattened position. The bridge actually exposes more rotational range if you maintain the grip through it, because their shoulder extends as they arch. Use this window to advance the rotation as they return to the mat.",
+        "question": "Your opponent bridges and turns into you during the Kimura attempt — what adjustment prevents them from escaping?",
+        "answer": "Post your far-side foot wide and lower your base to absorb the bridge energy without being displaced. Keep the figure-four grip locked throughout the bridge — do not release to post your hands. As the opponent's bridge peaks and they begin settling back to the mat, tighten the grip and drive your hips forward to recapture the flattened position. The bridge actually exposes more rotational range if you maintain the grip through it, because their shoulder extends as they arch. Use this window to advance the rotation as they return to the mat.",
         "safety_critical": false
       },
       {
         "question": "Why is attacking the far arm preferable to the near arm when executing the Kimura from flattened half guard top?",
-        "answer": "The far arm is mechanically isolated from the opponent's defensive structure when it extends past their torso centerline \u2014 to reach for frames, underhooks, or crossface defense, they must expose it beyond the protection of their own body. The near arm, by contrast, is shielded beneath your chest and can be easily retracted to safety. Additionally, attacking the near arm requires you to sacrifice crossface control, which eliminates the head position advantage that makes the flattened half guard so dominant. The far arm attack preserves crossface pressure while the arm is already extended into a vulnerable position.",
+        "answer": "The far arm is mechanically isolated from the opponent's defensive structure when it extends past their torso centerline — to reach for frames, underhooks, or crossface defense, they must expose it beyond the protection of their own body. The near arm, by contrast, is shielded beneath your chest and can be easily retracted to safety. Additionally, attacking the near arm requires you to sacrifice crossface control, which eliminates the head position advantage that makes the flattened half guard so dominant. The far arm attack preserves crossface pressure while the arm is already extended into a vulnerable position.",
         "safety_critical": false
       }
     ]
@@ -320,49 +320,49 @@
   "defender": {
     "name": "from Flattened Half Guard Defender",
     "description": "Defend against the Kimura from flattened half guard. Recognition cues, grip prevention, escape sequences, and safety protocols for shoulder lock defense.",
-    "overview": "Defending the Kimura from flattened half guard bottom is among the most difficult defensive scenarios because you are already in a compromised position before the submission even begins. Your back is flat, your breathing is restricted by chest pressure, and the arm movements required for positional survival are the same movements that expose you to the Kimura grip. The critical defensive insight is that prevention is vastly more effective than escape once the figure-four is locked \u2014 recognizing the attack early and denying the initial wrist capture gives you significantly better survival odds than attempting to fight a fully established Kimura grip while pinned flat. Your defensive priorities must be sequenced: deny the grip first, fight the figure-four second, and escape the rotation as a last resort before tapping.",
+    "overview": "Defending the Kimura from flattened half guard bottom is among the most difficult defensive scenarios because you are already in a compromised position before the submission even begins. Your back is flat, your breathing is restricted by chest pressure, and the arm movements required for positional survival are the same movements that expose you to the Kimura grip. The critical defensive insight is that prevention is vastly more effective than escape once the figure-four is locked — recognizing the attack early and denying the initial wrist capture gives you significantly better survival odds than attempting to fight a fully established Kimura grip while pinned flat. Your defensive priorities must be sequenced: deny the grip first, fight the figure-four second, and escape the rotation as a last resort before tapping.",
     "key_principles": [
-      "Prevention over escape \u2014 deny the initial wrist capture by keeping your elbows tight to your body and avoiding arm extensions past your torso centerline",
-      "Recognize the grip transition early \u2014 the moment the attacker releases crossface with their hand, they are likely targeting your arm for the Kimura wrist capture",
-      "Never straighten your arm under the figure-four grip \u2014 a bent arm at 90 degrees gives you the strongest defensive structure against rotation",
-      "Turn toward the attack, not away \u2014 rolling away from the Kimura exposes your back, while turning into the attacker relieves rotational pressure on the shoulder",
-      "Tap early and tap clearly \u2014 the Kimura from this position reaches the breaking point quickly because your mobility is compromised by the flattened position",
-      "Use grip defense as a bridge to positional recovery \u2014 clasping hands buys time but is not a permanent solution, use it to create space for frame recovery"
+      "Prevention over escape — deny the initial wrist capture by keeping your elbows tight to your body and avoiding arm extensions past your torso centerline",
+      "Recognize the grip transition early — the moment the attacker releases crossface with their hand, they are likely targeting your arm for the Kimura wrist capture",
+      "Never straighten your arm under the figure-four grip — a bent arm at 90 degrees gives you the strongest defensive structure against rotation",
+      "Turn toward the attack, not away — rolling away from the Kimura exposes your back, while turning into the attacker relieves rotational pressure on the shoulder",
+      "Tap early and tap clearly — the Kimura from this position reaches the breaking point quickly because your mobility is compromised by the flattened position",
+      "Use grip defense as a bridge to positional recovery — clasping hands buys time but is not a permanent solution, use it to create space for frame recovery"
     ],
     "recognition_cues": [
-      "The attacker releases their crossface hand from your jaw or neck and redirects it toward your extended arm \u2014 this grip change is the primary early warning signal",
-      "You feel the attacker's far arm threading underneath your elbow while their other hand controls your wrist \u2014 this threading motion means the figure-four is being established",
-      "The attacker shifts their weight slightly toward your head side while maintaining chest pressure \u2014 this angle adjustment creates the rotational line needed for the Kimura finish",
-      "Your arm is isolated with your elbow away from your ribcage \u2014 any arm position where your elbow is more than six inches from your body is vulnerable to Kimura capture from this position"
+      "The attacker releases their crossface hand from your jaw or neck and redirects it toward your extended arm — this grip change is the primary early warning signal",
+      "You feel the attacker's far arm threading underneath your elbow while their other hand controls your wrist — this threading motion means the figure-four is being established",
+      "The attacker shifts their weight slightly toward your head side while maintaining chest pressure — this angle adjustment creates the rotational line needed for the Kimura finish",
+      "Your arm is isolated with your elbow away from your ribcage — any arm position where your elbow is more than six inches from your body is vulnerable to Kimura capture from this position"
     ],
     "defensive_options": [
       {
         "action": "Clasp hands together or grip your own belt to prevent arm isolation",
-        "when_to_use": "Immediately when you feel the figure-four grip being established \u2014 this is the highest priority defense that buys time for positional recovery",
+        "when_to_use": "Immediately when you feel the figure-four grip being established — this is the highest priority defense that buys time for positional recovery",
         "targets_outcome": "Flattened Half Guard/Top",
         "if_successful": "Prevents the rotational finish and stalls the attacker's submission sequence, creating an opportunity to recover frames while they work to break your grip",
-        "risk": "Your hands are occupied with grip defense rather than positional recovery \u2014 if you cannot use this time to create space, the attacker will eventually break the grip or advance position"
+        "risk": "Your hands are occupied with grip defense rather than positional recovery — if you cannot use this time to create space, the attacker will eventually break the grip or advance position"
       },
       {
         "action": "Turn into the attacker by bridging toward the Kimura side and recovering knee shield",
-        "when_to_use": "When the rotation has begun but has not reached the point of no return \u2014 you still have enough shoulder mobility to turn your body toward the threat",
+        "when_to_use": "When the rotation has begun but has not reached the point of no return — you still have enough shoulder mobility to turn your body toward the threat",
         "targets_outcome": "Half Guard/Top",
         "if_successful": "Relieves rotational pressure on the shoulder, creates space to recover frames, and may break the attacker's chest pressure enough to re-establish functional half guard",
-        "risk": "Requires significant effort from a compromised position \u2014 if the bridge is too weak, you expend energy without creating meaningful positional change"
+        "risk": "Requires significant effort from a compromised position — if the bridge is too weak, you expend energy without creating meaningful positional change"
       },
       {
         "action": "Hip escape toward the trapped leg side to create angle and relieve shoulder pressure",
-        "when_to_use": "When the attacker lifts their weight slightly to adjust the Kimura angle \u2014 this momentary pressure reduction creates the window for hip movement",
+        "when_to_use": "When the attacker lifts their weight slightly to adjust the Kimura angle — this momentary pressure reduction creates the window for hip movement",
         "targets_outcome": "Half Guard/Top",
         "if_successful": "Changes the angle between your body and the attacker, reducing the mechanical advantage of the figure-four and potentially allowing you to recover to functional half guard",
-        "risk": "Hip escaping while the Kimura grip is locked can accelerate the rotation if done in the wrong direction \u2014 always escape toward your trapped leg side, never away from the attacker"
+        "risk": "Hip escaping while the Kimura grip is locked can accelerate the rotation if done in the wrong direction — always escape toward your trapped leg side, never away from the attacker"
       },
       {
         "action": "Straighten the captured arm forcefully to remove the figure-four bending angle",
-        "when_to_use": "As a last resort when grip clasping has failed and rotation is beginning \u2014 straightening removes the lever arm the figure-four requires",
+        "when_to_use": "As a last resort when grip clasping has failed and rotation is beginning — straightening removes the lever arm the figure-four requires",
         "targets_outcome": "Flattened Half Guard/Top",
         "if_successful": "Eliminates the rotational leverage and may allow you to retract the arm to safety, though the attacker may redirect to an Americana",
-        "risk": "A straight arm under the figure-four is vulnerable to Americana-direction rotation and hyperextension \u2014 this defense trades one danger for another"
+        "risk": "A straight arm under the figure-four is vulnerable to Americana-direction rotation and hyperextension — this defense trades one danger for another"
       }
     ],
     "escape_paths": [
@@ -379,26 +379,26 @@
     "common_errors": [
       {
         "error": "Rolling away from the Kimura to relieve pressure on the shoulder",
-        "consequence": "Exposes the back to the attacker, who can transition from the Kimura to a back take while maintaining the grip \u2014 this converts a submission defense into a positional crisis",
-        "correction": "Always turn toward the Kimura attack, not away \u2014 bridging into the attacker relieves rotational pressure while keeping your back off the mat and denying back exposure"
+        "consequence": "Exposes the back to the attacker, who can transition from the Kimura to a back take while maintaining the grip — this converts a submission defense into a positional crisis",
+        "correction": "Always turn toward the Kimura attack, not away — bridging into the attacker relieves rotational pressure while keeping your back off the mat and denying back exposure"
       },
       {
         "error": "Extending the arm past the torso centerline to push away the crossface or establish frames",
-        "consequence": "Creates the exact arm exposure the attacker needs to capture the wrist and establish the figure-four \u2014 the defensive action becomes the submission entry",
-        "correction": "Keep elbows tight to your ribs when fighting from flattened position \u2014 use forearm frames close to your body rather than extended arm pushes that expose the wrist to capture"
+        "consequence": "Creates the exact arm exposure the attacker needs to capture the wrist and establish the figure-four — the defensive action becomes the submission entry",
+        "correction": "Keep elbows tight to your ribs when fighting from flattened position — use forearm frames close to your body rather than extended arm pushes that expose the wrist to capture"
       },
       {
         "error": "Continuing to fight the Kimura grip after the rotation has passed the point of no return",
-        "consequence": "Risks catastrophic shoulder injury including rotator cuff tears, dislocation, and labral damage \u2014 the flattened position means you cannot generate enough counter-force to reverse an established rotation",
-        "correction": "Tap immediately and clearly when you feel the rotation reach your shoulder's end range \u2014 the compressed position means there is very little buffer between discomfort and structural failure"
+        "consequence": "Risks catastrophic shoulder injury including rotator cuff tears, dislocation, and labral damage — the flattened position means you cannot generate enough counter-force to reverse an established rotation",
+        "correction": "Tap immediately and clearly when you feel the rotation reach your shoulder's end range — the compressed position means there is very little buffer between discomfort and structural failure"
       },
       {
         "error": "Using only hand clasping as a permanent defense without working to improve position",
-        "consequence": "The attacker will eventually break the clasp through leverage and wedging techniques, and you have made no positional progress during the time your grip held \u2014 this delays the inevitable without solving the underlying problem",
-        "correction": "Use hand clasping as a bridge, not a destination \u2014 immediately begin hip escaping and working toward frame recovery while your grip stalls the rotation, converting defensive time into positional improvement"
+        "consequence": "The attacker will eventually break the clasp through leverage and wedging techniques, and you have made no positional progress during the time your grip held — this delays the inevitable without solving the underlying problem",
+        "correction": "Use hand clasping as a bridge, not a destination — immediately begin hip escaping and working toward frame recovery while your grip stalls the rotation, converting defensive time into positional improvement"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that a Kimura is being set up from flattened half guard?",
         "answer": "The primary early warning signal is the attacker releasing their crossface hand from your jaw or neck and redirecting it toward your extended arm. You may also feel their weight shift slightly toward your head side as they create the rotational angle. Any time your elbow drifts more than six inches from your ribcage while flattened, you are in the Kimura danger zone. The threading of their far arm under your elbow confirms the figure-four is being established.",
@@ -406,12 +406,12 @@
       },
       {
         "question": "When should you tap to the Kimura from flattened half guard, and what signals should you use?",
-        "answer": "Tap the moment you feel the shoulder rotation reach the end of your comfortable range of motion \u2014 do not wait for pain. From the flattened position, your mobility is already compromised, meaning there is very little distance between discomfort and structural failure. Use multiple rapid hand taps on the attacker's body with your free hand, verbal announcement of 'tap,' or foot taps on the mat. If you cannot tap with your hands, any verbal sound indicating distress should be treated as a tap.",
+        "answer": "Tap the moment you feel the shoulder rotation reach the end of your comfortable range of motion — do not wait for pain. From the flattened position, your mobility is already compromised, meaning there is very little distance between discomfort and structural failure. Use multiple rapid hand taps on the attacker's body with your free hand, verbal announcement of 'tap,' or foot taps on the mat. If you cannot tap with your hands, any verbal sound indicating distress should be treated as a tap.",
         "safety_critical": true
       },
       {
         "question": "What defensive options are available against the Kimura from flattened half guard?",
-        "answer": "The primary defense is prevention \u2014 keeping elbows tight to your body to deny the initial wrist capture. If the grip is captured, clasp your hands together or grip your belt to stall the figure-four rotation. Simultaneously, bridge toward the Kimura side and hip escape to relieve rotational pressure. As a secondary option, straighten the captured arm to remove the figure-four bending angle, though this creates Americana vulnerability. Always turn toward the attack rather than away to prevent back exposure.",
+        "answer": "The primary defense is prevention — keeping elbows tight to your body to deny the initial wrist capture. If the grip is captured, clasp your hands together or grip your belt to stall the figure-four rotation. Simultaneously, bridge toward the Kimura side and hip escape to relieve rotational pressure. As a secondary option, straighten the captured arm to remove the figure-four bending angle, though this creates Americana vulnerability. Always turn toward the attack rather than away to prevent back exposure.",
         "safety_critical": false
       },
       {
@@ -421,7 +421,7 @@
       },
       {
         "question": "How should you use the grip clasp defense to create positional improvement rather than just stalling?",
-        "answer": "The grip clasp buys time but is not a permanent solution \u2014 the attacker will eventually break it through leverage. Use the stalling window to begin hip escaping toward your trapped leg side, incrementally creating the space needed to re-establish your knee shield or elbow frame. Each small hip movement compounds while your grip holds the rotation at bay. The objective is to convert defensive time into positional recovery so that when the grip eventually breaks, you have already improved your position enough to prevent the finish.",
+        "answer": "The grip clasp buys time but is not a permanent solution — the attacker will eventually break it through leverage. Use the stalling window to begin hip escaping toward your trapped leg side, incrementally creating the space needed to re-establish your knee shield or elbow frame. Each small hip movement compounds while your grip holds the rotation at bay. The objective is to convert defensive time into positional recovery so that when the grip eventually breaks, you have already improved your position enough to prevent the finish.",
         "safety_critical": false
       }
     ],
@@ -429,7 +429,7 @@
       {
         "phase": "Phase 1: Recognition Drills",
         "focus": "Identifying Kimura setups from flattened half guard",
-        "description": "Partner establishes flattened half guard top and cycles through different grip changes \u2014 some leading to Kimura attempts, others to passing. Call out 'Kimura' the moment you recognize the setup. Build pattern recognition for the crossface release, wrist targeting, and weight shift cues."
+        "description": "Partner establishes flattened half guard top and cycles through different grip changes — some leading to Kimura attempts, others to passing. Call out 'Kimura' the moment you recognize the setup. Build pattern recognition for the crossface release, wrist targeting, and weight shift cues."
       },
       {
         "phase": "Phase 2: Grip Prevention",
@@ -439,7 +439,7 @@
       {
         "phase": "Phase 3: Escape Sequences",
         "focus": "Surviving the locked figure-four and recovering position",
-        "description": "Partner establishes the full Kimura grip at moderate resistance. Practice the complete defensive sequence \u2014 clasp hands, bridge toward the attack, hip escape, recover frames. Focus on converting grip defense time into positional improvement rather than static stalling. Include tap timing awareness throughout."
+        "description": "Partner establishes the full Kimura grip at moderate resistance. Practice the complete defensive sequence — clasp hands, bridge toward the attack, hip escape, recover frames. Focus on converting grip defense time into positional improvement rather than static stalling. Include tap timing awareness throughout."
       },
       {
         "phase": "Phase 4: Live Defensive Rounds",

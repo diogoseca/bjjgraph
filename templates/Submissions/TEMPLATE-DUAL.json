@@ -258,7 +258,7 @@
         "common_counters",
         "common_errors",
         "training_progressions",
-        "knowledge_assessment"
+        "flashcards"
       ],
       "properties": {
         "name": {
@@ -404,7 +404,7 @@
             }
           }
         },
-        "knowledge_assessment": {
+        "flashcards": {
           "type": "array",
           "description": "Understanding test questions including safety-critical items (minimum 5)",
           "minItems": 5,
@@ -447,7 +447,7 @@
         "escape_paths",
         "favorable_outcomes",
         "common_errors",
-        "knowledge_assessment",
+        "flashcards",
         "training_progressions"
       ],
       "properties": {
@@ -569,7 +569,7 @@
             }
           }
         },
-        "knowledge_assessment": {
+        "flashcards": {
           "type": "array",
           "description": "Understanding test questions (minimum 3)",
           "minItems": 3,

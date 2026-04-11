@@ -276,7 +276,7 @@
         "description": "Start from Russian Cowboy with the top player hunting the calf slicer among other submissions. Bottom player escapes freely. Rounds of 2-3 minutes focusing on recognizing the right moment to initiate the calf slicer transition versus other available attacks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the calf slicer from Russian Cowboy primarily attack?",
         "answer": "The calf slicer primarily attacks the gastrocnemius and soleus muscles of the calf through direct compression against the attacker's shin bone. Secondary targets include the Achilles tendon, which is placed under strain as the foot is folded, and the connective tissue behind the knee joint including the popliteal fossa. The compression can also affect the peroneal and tibial nerves running through the calf, creating sharp nerve pain that often triggers the tap before muscle damage occurs.",
@@ -293,7 +293,7 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins straightening their trapped leg as you start threading your shin \u2014 what adjustment prevents the escape?",
+        "question": "Your opponent begins straightening their trapped leg as you start threading your shin — what adjustment prevents the escape?",
         "answer": "Immediately use your free hand to hook behind their heel or grab their toes and pull the foot back toward their buttock, re-bending the knee before they achieve full extension. Simultaneously drive your hooking knee deeper behind their leg to block the straightening motion at the source. If they have significant extension momentum, abandon the foot capture temporarily and use both your hook and your free leg to scissor around their thigh, physically preventing the extension. Once the knee is re-bent, quickly establish the foot grip before they attempt to straighten again.",
         "safety_critical": false
       },
@@ -332,14 +332,14 @@
   "defender": {
     "name": "from Russian Cowboy Defender",
     "description": "Defend against the calf slicer from Russian Cowboy in BJJ. Recognition cues, escape sequences, and survival strategies for this compression attack.",
-    "overview": "Defending the calf slicer from Russian Cowboy requires early recognition and proactive leg management before the attacker can establish the compression fulcrum. The primary challenge is that you are already in a disadvantaged back control position where your defensive attention is naturally drawn to neck protection, which is exactly the distraction the attacker exploits to reposition their hook into the calf slicer. Successful defense depends on monitoring the hook position even while addressing upper body threats, and taking immediate action when you feel the shin beginning to cross behind your knee.\n\nThe critical defensive window is narrow \u2014 once the attacker has their shin fully behind your knee and controls your foot, escape becomes extremely difficult and tapping is often the safest response. This makes prevention and early-stage defense far more important than late-stage escape attempts. Understanding the attacker's setup sequence allows you to intervene at the most vulnerable points of their transition, particularly when they release upper body control to grab your foot.",
+    "overview": "Defending the calf slicer from Russian Cowboy requires early recognition and proactive leg management before the attacker can establish the compression fulcrum. The primary challenge is that you are already in a disadvantaged back control position where your defensive attention is naturally drawn to neck protection, which is exactly the distraction the attacker exploits to reposition their hook into the calf slicer. Successful defense depends on monitoring the hook position even while addressing upper body threats, and taking immediate action when you feel the shin beginning to cross behind your knee.\n\nThe critical defensive window is narrow — once the attacker has their shin fully behind your knee and controls your foot, escape becomes extremely difficult and tapping is often the safest response. This makes prevention and early-stage defense far more important than late-stage escape attempts. Understanding the attacker's setup sequence allows you to intervene at the most vulnerable points of their transition, particularly when they release upper body control to grab your foot.",
     "key_principles": [
-      "Monitor the hook position constantly \u2014 any deepening or rotation of their shin behind your knee signals the calf slicer setup",
+      "Monitor the hook position constantly — any deepening or rotation of their shin behind your knee signals the calf slicer setup",
       "Keep your trapped leg as straight as possible to deny the bent-knee angle needed for the fulcrum",
       "Address the leg threat immediately when you feel shin rotation, even at the cost of momentarily reducing neck defense",
       "Never allow the attacker to capture your foot with both hands, as this is the point of no return for most practitioners",
       "Create hip movement to change the angle of contact between their shin and your calf, reducing compression effectiveness",
-      "Tap early and without hesitation if the fulcrum is locked and pressure begins \u2014 this submission causes serious injury quickly"
+      "Tap early and without hesitation if the fulcrum is locked and pressure begins — this submission causes serious injury quickly"
     ],
     "recognition_cues": [
       "The attacker's hooking shin begins rotating from a parallel position under your thigh to a perpendicular cross behind your knee crease",
@@ -358,7 +358,7 @@
       },
       {
         "action": "Two-on-one grip fight the hand reaching for your foot to prevent foot capture",
-        "when_to_use": "When you detect the attacker releasing their seatbelt to grab your foot \u2014 exploit the temporary loss of upper body control",
+        "when_to_use": "When you detect the attacker releasing their seatbelt to grab your foot — exploit the temporary loss of upper body control",
         "targets_outcome": "Russian Cowboy/Top",
         "if_successful": "Prevents the submission and creates an escape window since the attacker has compromised their upper body control",
         "risk": "Removing your hands from neck defense exposes you to choke if the calf slicer was a feint"
@@ -372,10 +372,10 @@
       },
       {
         "action": "Tap immediately when the fulcrum is locked and pressure begins",
-        "when_to_use": "When the attacker has shin behind your knee, controls your foot, and begins hip extension \u2014 do not wait",
+        "when_to_use": "When the attacker has shin behind your knee, controls your foot, and begins hip extension — do not wait",
         "targets_outcome": "Russian Cowboy/Top",
         "if_successful": "Prevents serious calf, Achilles, or knee injury that could sideline you for months",
-        "risk": "None \u2014 this is always the correct decision when the submission is locked in during training"
+        "risk": "None — this is always the correct decision when the submission is locked in during training"
       }
     ],
     "escape_paths": [
@@ -401,7 +401,7 @@
       {
         "error": "Trying to muscle out of a fully locked calf slicer instead of tapping",
         "consequence": "Serious risk of calf muscle tear, Achilles rupture, or knee damage that can require months of recovery or surgery",
-        "correction": "Once the fulcrum is locked and foot is captured, tap immediately. There is no shame in tapping to a locked compression \u2014 the escape window has passed and resistance only increases injury risk."
+        "correction": "Once the fulcrum is locked and foot is captured, tap immediately. There is no shame in tapping to a locked compression — the escape window has passed and resistance only increases injury risk."
       },
       {
         "error": "Rolling toward the attacker's hook side in an attempt to escape",
@@ -414,7 +414,7 @@
         "correction": "Address the leg threat with one hand or your legs while keeping at least one hand in a protective chin-tuck position. Only commit both hands to the leg if you are certain the slicer is the genuine attack."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize the calf slicer is being set up from Russian Cowboy before it is locked in?",
         "answer": "The primary recognition cue is feeling the attacker's shin rotate from its normal position under your thigh to a perpendicular cross behind your knee crease. You will feel increased pressure behind the knee rather than on your inner thigh. Additionally, if the attacker releases their underhook or adjusts their seatbelt grip to reach toward your lower leg, this signals they are transitioning from positional control to the submission setup. Early detection at this stage is critical because the escape window closes rapidly once the fulcrum is established.",
@@ -422,7 +422,7 @@
       },
       {
         "question": "When is the correct time to tap to the calf slicer from Russian Cowboy and why is early tapping important?",
-        "answer": "Tap immediately when you feel the attacker's shin locked behind your knee with your foot controlled and any compression pressure beginning through their hip extension. Do not wait to see if you can escape \u2014 the calf slicer applies force extremely quickly once the fulcrum is set, and the difference between manageable pressure and tissue damage can be less than a second of additional extension. The calf muscle, Achilles tendon, and knee ligaments are all at risk, with potential injuries ranging from weeks to months of recovery. Early tapping preserves your training longevity.",
+        "answer": "Tap immediately when you feel the attacker's shin locked behind your knee with your foot controlled and any compression pressure beginning through their hip extension. Do not wait to see if you can escape — the calf slicer applies force extremely quickly once the fulcrum is set, and the difference between manageable pressure and tissue damage can be less than a second of additional extension. The calf muscle, Achilles tendon, and knee ligaments are all at risk, with potential injuries ranging from weeks to months of recovery. Early tapping preserves your training longevity.",
         "safety_critical": true
       },
       {

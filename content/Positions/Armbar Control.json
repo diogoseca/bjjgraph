@@ -319,7 +319,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal hip-to-shoulder distance when maintaining armbar control?",
         "answer": "Your hips should be positioned as close to the opponent's shoulder as possible, ideally with zero gap between your hip bone and their shoulder joint. This maximizes leverage by reducing the moment arm the opponent can use to defend, and ensures that any hip elevation translates directly into extension pressure on the elbow joint."
@@ -604,7 +604,7 @@
         "attempt_probability": 4
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive action you must take when caught in an armbar?",
         "answer": "Immediately bend your trapped elbow and rotate your forearm so your thumb points toward the ceiling. This creates the strongest anatomical position for your elbow joint and prevents the opponent from achieving the extension angle needed to finish. Simultaneously, use your free hand to grip your trapped wrist and pull it toward your chest to reinforce the bent position."

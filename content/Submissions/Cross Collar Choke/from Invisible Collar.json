@@ -266,7 +266,7 @@
         "description": "Implement in positional sparring from back control starting position. Partner uses full defensive arsenal. Focus on concealing setup, timing finish correctly, and transitioning when defended. Track success rates to identify improvement areas."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Cross Collar Choke Finish target, and how does this differ from an air choke?",
         "answer": "The Cross Collar Choke Finish targets both carotid arteries on the lateral sides of the neck, compressing them to restrict blood flow to the brain. This is a blood choke, not an air choke. An air choke targets the trachea to restrict breathing, which is slower, more painful, and carries higher injury risk. Proper collar placement ensures the gi material folds across the carotid arteries rather than pressing into the windpipe, producing unconsciousness in 3-8 seconds rather than the longer and more dangerous timeline of tracheal compression.",
@@ -410,7 +410,7 @@
         "correction": "Always escape toward the non-collar side. This creates distance between your neck and their choking hand, reducing pressure while positioning you for guard recovery"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that an invisible collar choke is being established?",
         "answer": "The earliest cue is the opponent's over-hook hand migrating from your shoulder toward your collar, with fingers beginning to penetrate the gi material near your neck. Any collar contact during back control should trigger immediate defensive response. Do not wait for choking pressure—by then the grip is often too deep to strip effectively.",

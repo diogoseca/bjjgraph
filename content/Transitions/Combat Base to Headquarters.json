@@ -243,7 +243,7 @@
         "description": "During live rolling, deliberately seek combat base positions and practice recognizing opportunities to advance to headquarters. Track success rate and identify which defensive reactions cause the most failures. Adjust approach based on live feedback and develop your personal timing preferences."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Combat Base to Headquarters transition?",
         "answer": "The optimal timing window occurs immediately after breaking the opponent's controlling grips, during their grip reset phase when their legs momentarily stop active guard retention. Secondary windows include when the opponent commits to a single-leg frame (foot on hip) that you can redirect, or when they briefly flatten their hips to rest. The key is recognizing moments of defensive passivity rather than forcing through active resistance."
@@ -369,7 +369,7 @@
         "correction": "Layer defenses so that if the knee shield fails, a butterfly hook is already positioned as secondary defense, and if both fail, grips are maintained for guard recovery or scramble creation"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the top player is transitioning from Combat Base to Headquarters?",
         "answer": "The earliest cue is the passer establishing a pants grip at your knee level with the hand on their posted-knee side, combined with their opposite hand moving to strip your frames or grips. This grip change precedes the physical knee drive by one to two seconds, providing a critical reaction window. Secondary cues include the posted knee shifting inward and forward from its neutral position and a noticeable weight shift onto the posted knee."

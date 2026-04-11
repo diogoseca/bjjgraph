@@ -18,7 +18,7 @@
   "starting_position": "Straight Ankle Lock Control",
   "from_position": "Straight Ankle Lock Control/Bottom",
   "success_rate": 58,
-  "overview": "The straight ankle lock from straight ankle lock control is the foundational leg lock finish in Brazilian Jiu-Jitsu, representing the most direct path from leg entanglement to submission. Unlike ankle lock attempts initiated during scrambles or transitions, this finish begins from an already-established control position where the attacker's legs are wrapped around the opponent's trapped leg, the forearm is seated against the Achilles tendon, and the hips are aligned perpendicular to the defender's body. This positional security transforms the submission from a scramble-dependent attack into a systematic mechanical process.\n\nThe finishing sequence coordinates three simultaneous movement patterns: hip extension driving the pelvis forward, back arch pulling the shoulders away from the opponent, and wrist rotation tightening the forearm blade into the Achilles tendon. The opponent's foot is trapped in the pocket between the attacker's armpit and forearm, creating a fulcrum that hyperextends the ankle joint during the bridge. Force generation comes from the entire posterior chain rather than arm strength, which is why smaller practitioners can reliably finish this lock against larger opponents when the mechanics are correct.\n\nStrategically, the straight ankle lock from established control serves dual purposes within a complete leg attack system. The immediate tap threat forces defensive reactions that open transitions to inside ashi garami, outside ashi garami, or kneebar positions. Experienced practitioners treat the finish attempt as a forcing function\u2014either the opponent taps, or their defensive movement creates a pathway to more dominant entanglements. This makes the ankle lock threat valuable both as a direct submission and as a positional advancement tool that maintains offensive initiative throughout the engagement.",
+  "overview": "The straight ankle lock from straight ankle lock control is the foundational leg lock finish in Brazilian Jiu-Jitsu, representing the most direct path from leg entanglement to submission. Unlike ankle lock attempts initiated during scrambles or transitions, this finish begins from an already-established control position where the attacker's legs are wrapped around the opponent's trapped leg, the forearm is seated against the Achilles tendon, and the hips are aligned perpendicular to the defender's body. This positional security transforms the submission from a scramble-dependent attack into a systematic mechanical process.\n\nThe finishing sequence coordinates three simultaneous movement patterns: hip extension driving the pelvis forward, back arch pulling the shoulders away from the opponent, and wrist rotation tightening the forearm blade into the Achilles tendon. The opponent's foot is trapped in the pocket between the attacker's armpit and forearm, creating a fulcrum that hyperextends the ankle joint during the bridge. Force generation comes from the entire posterior chain rather than arm strength, which is why smaller practitioners can reliably finish this lock against larger opponents when the mechanics are correct.\n\nStrategically, the straight ankle lock from established control serves dual purposes within a complete leg attack system. The immediate tap threat forces defensive reactions that open transitions to inside ashi garami, outside ashi garami, or kneebar positions. Experienced practitioners treat the finish attempt as a forcing function—either the opponent taps, or their defensive movement creates a pathway to more dominant entanglements. This makes the ankle lock threat valuable both as a direct submission and as a positional advancement tool that maintains offensive initiative throughout the engagement.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -141,10 +141,10 @@
   "attacker": {
     "name": "from Straight Ankle Lock Control Attacker",
     "description": "How to finish the straight ankle lock from ankle lock control. Step-by-step grip mechanics, hip extension technique, and counter-transition strategies.",
-    "overview": "Finishing the straight ankle lock from established control requires mastering the coordination between grip placement, hip extension, and back arch that generates breaking pressure on the Achilles tendon and ankle joint. From ankle lock control, the attacker must balance immediate finishing pressure with awareness of the defender's escape attempts, using the submission threat to maintain offensive initiative while remaining ready to transition when the finish is unavailable. The key distinction between novice ankle lock attempts and expert-level finishing is the integration of leg control throughout the entire sequence\u2014your legs actively prevent the hip rotation that would relieve pressure rather than passively holding position. Every element of the finish works as an interconnected system where grip security, leg wrapping, hip alignment, and breaking mechanics must function together to produce the tap.",
+    "overview": "Finishing the straight ankle lock from established control requires mastering the coordination between grip placement, hip extension, and back arch that generates breaking pressure on the Achilles tendon and ankle joint. From ankle lock control, the attacker must balance immediate finishing pressure with awareness of the defender's escape attempts, using the submission threat to maintain offensive initiative while remaining ready to transition when the finish is unavailable. The key distinction between novice ankle lock attempts and expert-level finishing is the integration of leg control throughout the entire sequence—your legs actively prevent the hip rotation that would relieve pressure rather than passively holding position. Every element of the finish works as an interconnected system where grip security, leg wrapping, hip alignment, and breaking mechanics must function together to produce the tap.",
     "key_principles": [
       "Secure perpendicular hip alignment before initiating any finishing pressure to maximize mechanical advantage against the ankle joint",
-      "Generate breaking force through posterior chain activation\u2014hip extension and back arch working together\u2014rather than arm strength alone",
+      "Generate breaking force through posterior chain activation—hip extension and back arch working together—rather than arm strength alone",
       "Seat the blade of your wrist bone directly against the Achilles tendon to create the sharpest and most effective fulcrum point",
       "Maintain active leg control throughout the finish to prevent the hip rotation that relieves submission pressure on the ankle",
       "Trap the opponent's foot deep in the armpit pocket before bridging to eliminate the space needed for boot defense",
@@ -167,7 +167,7 @@
       {
         "step_number": 2,
         "action": "Seat the Forearm",
-        "description": "Slide the blade of your wrist bone directly against the Achilles tendon, positioning your forearm across the back of the ankle between the calf muscle and the heel bone. The bony edge of your radius creates the pressure point\u2014avoid using the flat of your forearm, which disperses force and significantly reduces finishing leverage.",
+        "description": "Slide the blade of your wrist bone directly against the Achilles tendon, positioning your forearm across the back of the ankle between the calf muscle and the heel bone. The bony edge of your radius creates the pressure point—avoid using the flat of your forearm, which disperses force and significantly reduces finishing leverage.",
         "timing": "1-2 seconds"
       },
       {
@@ -185,7 +185,7 @@
       {
         "step_number": 5,
         "action": "Initiate Hip Extension",
-        "description": "Drive your hips forward and upward in a controlled bridging motion while simultaneously arching your upper back away from the opponent. The hip extension creates the primary force vector against the ankle joint. Focus on pushing your belt line toward the ceiling rather than pulling with your arms\u2014the posterior chain generates far more force than grip strength alone.",
+        "description": "Drive your hips forward and upward in a controlled bridging motion while simultaneously arching your upper back away from the opponent. The hip extension creates the primary force vector against the ankle joint. Focus on pushing your belt line toward the ceiling rather than pulling with your arms—the posterior chain generates far more force than grip strength alone.",
         "timing": "2-3 seconds progressive"
       },
       {
@@ -231,7 +231,7 @@
       {
         "error": "Using arm strength to pull and crank the ankle instead of generating force through hip extension and back arch",
         "consequence": "Arms fatigue rapidly, finishing pressure is insufficient against a competent defender, and the jerky application increases injury risk for the training partner",
-        "correction": "Focus all finishing power on the bridge\u2014hip extension driving upward combined with back arch pulling shoulders away from the opponent. Arms maintain the grip position while the posterior chain generates the force."
+        "correction": "Focus all finishing power on the bridge—hip extension driving upward combined with back arch pulling shoulders away from the opponent. Arms maintain the grip position while the posterior chain generates the force."
       },
       {
         "error": "Leaving space between the opponent's foot and your armpit, allowing room for the foot to rotate or slip free",
@@ -241,7 +241,7 @@
       {
         "error": "Failing to maintain active leg control around the defender's trapped leg during the finishing sequence",
         "consequence": "Defender freely rotates their hip, relieving all submission pressure on the ankle and creating angles to extract the knee and escape to standing or guard position",
-        "correction": "Keep your inside leg actively wedged behind their knee and your outside leg crossing over their thigh throughout the entire finish. Leg control is not a setup step you complete and forget\u2014it must be maintained continuously."
+        "correction": "Keep your inside leg actively wedged behind their knee and your outside leg crossing over their thigh throughout the entire finish. Leg control is not a setup step you complete and forget—it must be maintained continuously."
       },
       {
         "error": "Positioning the grip too high on the shin or calf instead of directly against the Achilles tendon",
@@ -256,7 +256,7 @@
       {
         "error": "Continuing to fight for a finish when the defender has substantially freed their ankle through persistent boot defense and grip fighting",
         "consequence": "Energy is wasted pursuing a finish that becomes progressively less available while the defender accumulates positional advantages and escape momentum",
-        "correction": "Set an internal time limit of 10-15 seconds. If the finish is not imminent by that point, immediately transition based on the defender's body position\u2014hip rotation away opens inside ashi, hip rotation toward opens outside ashi."
+        "correction": "Set an internal time limit of 10-15 seconds. If the finish is not imminent by that point, immediately transition based on the defender's body position—hip rotation away opens inside ashi, hip rotation toward opens outside ashi."
       }
     ],
     "training_progressions": [
@@ -268,7 +268,7 @@
       {
         "phase": "Mechanics Phase",
         "focus": "Breaking sequence coordination and posterior chain activation",
-        "description": "From established control, practice the coordinated bridge\u2014hip extension plus back arch\u2014with a partner who provides feedback on pressure quality. Emphasis on generating force from the hips and back rather than arms. Partner taps at the first sign of correct pressure to reinforce proper mechanics."
+        "description": "From established control, practice the coordinated bridge—hip extension plus back arch—with a partner who provides feedback on pressure quality. Emphasis on generating force from the hips and back rather than arms. Partner taps at the first sign of correct pressure to reinforce proper mechanics."
       },
       {
         "phase": "Counter-Transition Phase",
@@ -281,7 +281,7 @@
         "description": "Positional sparring starting from straight ankle lock control with full resistance. Practice committing to the finish when available and transitioning when the window closes. Track finishing percentage and average time to finish or transition to develop internal clock awareness."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structure does the straight ankle lock primarily attack and where should your forearm be positioned?",
         "answer": "The straight ankle lock primarily attacks the Achilles tendon and the ankle joint ligaments through hyperextension. The blade of the wrist bone (radius) must be positioned directly against the Achilles tendon in the narrow gap between the calf muscle belly and the heel bone. This precise placement creates a sharp fulcrum that concentrates force on the most vulnerable anatomical structure rather than dispersing pressure across the larger calf muscle.",
@@ -304,12 +304,12 @@
       },
       {
         "question": "At what point should you abandon the direct ankle lock finish and transition to an alternative attack?",
-        "answer": "Set an internal time limit of 10-15 seconds from when you establish control. If the finish is not imminent by that point\u2014meaning the defender has successfully fought grips, activated boot defense, or created enough hip rotation to relieve meaningful pressure\u2014immediately transition based on their defensive movement. Hip rotation away opens inside ashi garami, hip rotation toward opens outside ashi garami, and straightened leg opens kneebar. Continuing to fight for a finish beyond this window wastes energy and allows the defender to accumulate escape momentum.",
+        "answer": "Set an internal time limit of 10-15 seconds from when you establish control. If the finish is not imminent by that point—meaning the defender has successfully fought grips, activated boot defense, or created enough hip rotation to relieve meaningful pressure—immediately transition based on their defensive movement. Hip rotation away opens inside ashi garami, hip rotation toward opens outside ashi garami, and straightened leg opens kneebar. Continuing to fight for a finish beyond this window wastes energy and allows the defender to accumulate escape momentum.",
         "safety_critical": false
       },
       {
         "question": "How should you apply and release the straight ankle lock safely during training?",
-        "answer": "Apply pressure progressively over 3-5 seconds minimum, using smooth hip extension and back arch rather than explosive jerking or spiking. Monitor your partner's reactions continuously and stop immediately at any tap signal\u2014verbal, physical hand tap, foot tap, or any distress signal. Upon receiving a tap, immediately stop hip extension, release the armpit grip to allow the foot to slide free, open the leg entanglement, and move away from the leg. Always check verbally with your partner afterward to confirm they are uninjured.",
+        "answer": "Apply pressure progressively over 3-5 seconds minimum, using smooth hip extension and back arch rather than explosive jerking or spiking. Monitor your partner's reactions continuously and stop immediately at any tap signal—verbal, physical hand tap, foot tap, or any distress signal. Upon receiving a tap, immediately stop hip extension, release the armpit grip to allow the foot to slide free, open the leg entanglement, and move away from the leg. Always check verbally with your partner afterward to confirm they are uninjured.",
         "safety_critical": true
       },
       {
@@ -327,9 +327,9 @@
   "defender": {
     "name": "from Straight Ankle Lock Control Defender",
     "description": "Defend the straight ankle lock from ankle lock control. Boot defense, grip fighting techniques, escape sequences, and recovery to safe guard positions.",
-    "overview": "Defending the straight ankle lock from ankle lock control requires immediate recognition that the attacker has secured a mechanically sound finishing position. The defender's primary concern is preventing the attacker from completing the breaking mechanics\u2014hip extension combined with back arch\u2014that generate dangerous pressure on the Achilles tendon and ankle ligaments. Every defensive action must serve dual purposes: relieving immediate submission pressure while simultaneously creating the conditions for full escape. Boot defense, grip fighting, and hip rotation are the three core defensive tools, and the timing and sequencing of their deployment determines whether the escape succeeds or the attacker advances to a more dominant leg entanglement. The critical window for escape is the first 5-12 seconds after the attacker establishes control, before they can consolidate grips and complete their leg wrap around the trapped leg.",
+    "overview": "Defending the straight ankle lock from ankle lock control requires immediate recognition that the attacker has secured a mechanically sound finishing position. The defender's primary concern is preventing the attacker from completing the breaking mechanics—hip extension combined with back arch—that generate dangerous pressure on the Achilles tendon and ankle ligaments. Every defensive action must serve dual purposes: relieving immediate submission pressure while simultaneously creating the conditions for full escape. Boot defense, grip fighting, and hip rotation are the three core defensive tools, and the timing and sequencing of their deployment determines whether the escape succeeds or the attacker advances to a more dominant leg entanglement. The critical window for escape is the first 5-12 seconds after the attacker establishes control, before they can consolidate grips and complete their leg wrap around the trapped leg.",
     "key_principles": [
-      "Address the submission threat immediately\u2014every second of delay allows the attacker to improve grip placement and tighten leg control",
+      "Address the submission threat immediately—every second of delay allows the attacker to improve grip placement and tighten leg control",
       "Activate boot defense by pointing toes and turning the foot inward to prevent the forearm from seating cleanly against the Achilles tendon",
       "Fight the controlling grip with two-on-one grip breaks targeting the thumb line before the attacker can establish the figure-four or Gable grip",
       "Maintain bent knee position throughout all defensive actions to preserve hip rotation capability and prevent dangerous full leg extension",
@@ -389,7 +389,7 @@
       {
         "error": "Rotating the hip in the direction that facilitates the attacker's planned transition to inside or outside ashi garami",
         "consequence": "Your escape attempt directly helps the attacker advance to a more dominant leg entanglement where heel hook submissions become available and escape options narrow substantially",
-        "correction": "Before rotating, assess which direction the attacker wants you to move based on their leg configuration. If their inside leg is behind your knee, rotating away gives them inside ashi\u2014so rotate toward them instead. Choose the rotation direction that creates problems for the attacker, not the one that feels most natural."
+        "correction": "Before rotating, assess which direction the attacker wants you to move based on their leg configuration. If their inside leg is behind your knee, rotating away gives them inside ashi—so rotate toward them instead. Choose the rotation direction that creates problems for the attacker, not the one that feels most natural."
       },
       {
         "error": "Waiting passively hoping the attacker will give up or make a mistake rather than immediately initiating defensive sequences",
@@ -397,7 +397,7 @@
         "correction": "Begin defensive action within the first 1-2 seconds of recognizing ankle control is established. Immediate boot defense and grip fighting dramatically improve escape probability compared to delayed reactions. The optimal escape window closes at roughly 10-12 seconds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize the straight ankle lock is being set up from ankle lock control?",
         "answer": "The key recognition cues are feeling the attacker's bony wrist edge sliding against your Achilles tendon, their legs tightening around your trapped leg to restrict hip rotation, your foot being pulled into their armpit pocket with increasing clamping pressure, and the attacker beginning to arch their back or extend their hips. Any combination of these cues indicates the finishing mechanics are being initiated and immediate defensive action is required within the first 1-2 seconds.",
@@ -405,7 +405,7 @@
       },
       {
         "question": "What is the safest way to tap to the straight ankle lock and when should you tap?",
-        "answer": "Tap clearly and decisively using verbal signal, physical hand tap on the opponent or mat with at least two firm taps, or foot tap with the free leg. Tap as soon as you feel sharp pain in the Achilles tendon area or recognize that the attacker has achieved full control with the breaking mechanics engaged and your defensive options are exhausted. Do not wait until the pain becomes severe\u2014the ankle lock can cause Achilles tendon damage that requires months of recovery. Tapping early preserves your ability to train the next day.",
+        "answer": "Tap clearly and decisively using verbal signal, physical hand tap on the opponent or mat with at least two firm taps, or foot tap with the free leg. Tap as soon as you feel sharp pain in the Achilles tendon area or recognize that the attacker has achieved full control with the breaking mechanics engaged and your defensive options are exhausted. Do not wait until the pain becomes severe—the ankle lock can cause Achilles tendon damage that requires months of recovery. Tapping early preserves your ability to train the next day.",
         "safety_critical": true
       },
       {
@@ -428,7 +428,7 @@
       {
         "phase": "Recognition Phase",
         "focus": "Identifying submission setup cues and building defensive reflexes",
-        "description": "Partner establishes straight ankle lock control at slow speed while you practice recognizing each setup stage\u2014forearm contact, grip formation, leg wrap, foot clamping. Call out each stage verbally as it happens. Build the sensory awareness that triggers immediate defensive response before the finish is initiated."
+        "description": "Partner establishes straight ankle lock control at slow speed while you practice recognizing each setup stage—forearm contact, grip formation, leg wrap, foot clamping. Call out each stage verbally as it happens. Build the sensory awareness that triggers immediate defensive response before the finish is initiated."
       },
       {
         "phase": "Escape Technique Phase",

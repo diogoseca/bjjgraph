@@ -18,7 +18,7 @@
   "starting_position": "Invisible Collar",
   "from_position": "Invisible Collar/Top",
   "success_rate": 58,
-  "overview": "The Clock Choke from Invisible Collar combines the deceptive grip concealment of the invisible collar position with the rotational finishing pressure of the clock choke. Unlike the standard clock choke from turtle top where the attacker must first establish a collar grip, this variant begins with the grip already hidden deep in the opponent's lapel from back control. The attacker transitions from concealed collar control into the characteristic circular walking motion, using the pre-established grip depth to generate immediate choking pressure before the opponent recognizes the threat has shifted from positional control to active submission.\n\nThis variant is particularly effective because the invisible collar grip disguises the clock choke setup as routine back control maintenance. The opponent allocates defensive resources to preventing rear naked chokes and armbar entries, leaving the collar grip unchallenged until walking pressure begins. The transition from invisible collar to clock choke finishing mechanics requires precise timing\u2014the attacker must shift their weight forward and begin the walking arc at the exact moment grip depth is sufficient to generate carotid compression through rotation alone.\n\nIn competition, this technique punishes opponents who prioritize hook defense over grip monitoring. The invisible collar establishes choking infrastructure while the opponent focuses on removing hooks or preventing the seat belt switch. When the attacker initiates the clock walk, the choke tightens rapidly because the collar material is already seated against the carotid arteries rather than needing to be drawn across the neck during the walk itself.",
+  "overview": "The Clock Choke from Invisible Collar combines the deceptive grip concealment of the invisible collar position with the rotational finishing pressure of the clock choke. Unlike the standard clock choke from turtle top where the attacker must first establish a collar grip, this variant begins with the grip already hidden deep in the opponent's lapel from back control. The attacker transitions from concealed collar control into the characteristic circular walking motion, using the pre-established grip depth to generate immediate choking pressure before the opponent recognizes the threat has shifted from positional control to active submission.\n\nThis variant is particularly effective because the invisible collar grip disguises the clock choke setup as routine back control maintenance. The opponent allocates defensive resources to preventing rear naked chokes and armbar entries, leaving the collar grip unchallenged until walking pressure begins. The transition from invisible collar to clock choke finishing mechanics requires precise timing—the attacker must shift their weight forward and begin the walking arc at the exact moment grip depth is sufficient to generate carotid compression through rotation alone.\n\nIn competition, this technique punishes opponents who prioritize hook defense over grip monitoring. The invisible collar establishes choking infrastructure while the opponent focuses on removing hooks or preventing the seat belt switch. When the attacker initiates the clock walk, the choke tightens rapidly because the collar material is already seated against the carotid arteries rather than needing to be drawn across the neck during the walk itself.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -110,7 +110,7 @@
   "attacker": {
     "name": "Clock Choke from Invisible Collar Attacker",
     "description": "Execute the Clock Choke from Invisible Collar with concealed grip transitions, walking pressure mechanics, and finishing sequences for gi competition.",
-    "overview": "Attacking with the Clock Choke from Invisible Collar leverages the pre-established concealed collar grip to bypass the most difficult phase of a standard clock choke\u2014getting the initial collar penetration without the opponent recognizing the threat. From the invisible collar position, the attacker already has deep four-finger collar control disguised as passive back control. The transition to clock choke finishing mechanics involves releasing hooks, shifting weight forward over the opponent's shoulders, and initiating the circular walking arc that generates rotational compression against the carotid arteries. The key advantage is speed of onset\u2014because the grip is already seated deep, the choke becomes dangerous within the first two steps of the walk rather than requiring the full arc to build pressure.",
+    "overview": "Attacking with the Clock Choke from Invisible Collar leverages the pre-established concealed collar grip to bypass the most difficult phase of a standard clock choke—getting the initial collar penetration without the opponent recognizing the threat. From the invisible collar position, the attacker already has deep four-finger collar control disguised as passive back control. The transition to clock choke finishing mechanics involves releasing hooks, shifting weight forward over the opponent's shoulders, and initiating the circular walking arc that generates rotational compression against the carotid arteries. The key advantage is speed of onset—because the grip is already seated deep, the choke becomes dangerous within the first two steps of the walk rather than requiring the full arc to build pressure.",
     "key_principles": [
       "Maintain invisible collar grip depth throughout the transition from back control to walking position",
       "Shift weight forward progressively to load the opponent's shoulders before initiating the walk",
@@ -187,7 +187,7 @@
       {
         "counter": "Opponent tucks chin aggressively to block collar from seating on carotid",
         "effectiveness": "Low",
-        "your_response": "The invisible collar grip is already beneath the chin from the initial setup, making a chin tuck less effective than against a standard clock choke. Continue walking and driving weight forward\u2014the chin tuck is exhausting to maintain and the collar pressure builds regardless.",
+        "your_response": "The invisible collar grip is already beneath the chin from the initial setup, making a chin tuck less effective than against a standard clock choke. Continue walking and driving weight forward—the chin tuck is exhausting to maintain and the collar pressure builds regardless.",
         "targets_outcome": "game-over"
       }
     ],
@@ -245,7 +245,7 @@
         "description": "Begin from back control with the goal of establishing invisible collar and finishing the clock choke within 90 seconds. Partner provides full resistance. If the clock choke is defended, practice transitioning to bow and arrow, rear naked choke, or returning to back control. Track finish rate across 10 rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Clock Choke from Invisible Collar target?",
         "answer": "The clock choke targets the carotid arteries and jugular veins on both sides of the neck. The collar material folds against one side while the attacker's forearm or shoulder creates pressure on the opposite side. This bilateral compression restricts blood flow to the brain, causing unconsciousness within seconds when properly applied. The rotational walking motion creates the tightening effect that seats the collar material against the vascular structures.",
@@ -253,22 +253,22 @@
       },
       {
         "question": "How does the invisible collar grip advantage differ from a standard clock choke collar entry?",
-        "answer": "The invisible collar provides pre-established grip depth that bypasses the most contested phase of the standard clock choke\u2014the initial collar penetration. In a standard clock choke, the attacker must establish the collar grip while the opponent actively defends their neck. From invisible collar, the grip is already four fingers deep with knuckles against the neck before the opponent recognizes the clock choke threat. This eliminates the grip fighting phase and allows the choke to become dangerous within the first two walking steps rather than requiring a full arc.",
+        "answer": "The invisible collar provides pre-established grip depth that bypasses the most contested phase of the standard clock choke—the initial collar penetration. In a standard clock choke, the attacker must establish the collar grip while the opponent actively defends their neck. From invisible collar, the grip is already four fingers deep with knuckles against the neck before the opponent recognizes the clock choke threat. This eliminates the grip fighting phase and allows the choke to become dangerous within the first two walking steps rather than requiring a full arc.",
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins stripping your collar grip with both hands during the walking arc\u2014what adjustment prevents escape?",
+        "question": "Your opponent begins stripping your collar grip with both hands during the walking arc—what adjustment prevents escape?",
         "answer": "Accelerate the walking motion to tighten the choke faster than the opponent can strip the grip. Simultaneously drive your chest weight harder into their upper back to compress their posture and limit their hand fighting leverage. If the grip begins slipping despite acceleration, immediately transition to a rear naked choke attempt since both their hands are committed to fighting the collar arm, leaving their neck completely unprotected for the RNC entry.",
         "safety_critical": false
       },
       {
         "question": "What are the key safety considerations when applying the Clock Choke from Invisible Collar in training?",
-        "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum to allow your partner time to recognize the choke and tap. The concealed nature of this technique means your partner may not realize the choke is active until pressure builds, making gradual application essential. Release immediately upon any tap signal\u2014verbal, hand tap, or foot tap. Never maintain pressure after your partner goes limp. Monitor for signs of distress since the blood choke can cause unconsciousness rapidly.",
+        "answer": "Apply pressure slowly and progressively over 3-5 seconds minimum to allow your partner time to recognize the choke and tap. The concealed nature of this technique means your partner may not realize the choke is active until pressure builds, making gradual application essential. Release immediately upon any tap signal—verbal, hand tap, or foot tap. Never maintain pressure after your partner goes limp. Monitor for signs of distress since the blood choke can cause unconsciousness rapidly.",
         "safety_critical": true
       },
       {
         "question": "How should you release the Clock Choke from Invisible Collar after a tap?",
-        "answer": "Immediately open your collar grip fingers and release the lapel material upon receiving any tap signal. Remove your body weight from the opponent's back by shifting your hips away and creating space. Do not maintain the walking position or far-side anchor grip. Allow your partner to recover in a neutral position without pressure or rushing. Check on their condition\u2014ask if they are okay\u2014before continuing training, especially if there was any delay between choke onset and the tap.",
+        "answer": "Immediately open your collar grip fingers and release the lapel material upon receiving any tap signal. Remove your body weight from the opponent's back by shifting your hips away and creating space. Do not maintain the walking position or far-side anchor grip. Allow your partner to recover in a neutral position without pressure or rushing. Check on their condition—ask if they are okay—before continuing training, especially if there was any delay between choke onset and the tap.",
         "safety_critical": true
       },
       {
@@ -293,7 +293,7 @@
       },
       {
         "question": "What are the most common defensive responses to the Clock Choke from Invisible Collar and how do you recognize each?",
-        "answer": "The three most common defenses are: two-handed grip stripping where the opponent commits both hands to your collar wrist and pulls away from their neck; rolling toward the choking side to relieve rotational pressure, recognized by hip movement and shoulder rotation; and sitting out to face the attacker, recognized by the opponent posting a hand and driving their hips through. Each defense creates a specific opening\u2014grip stripping exposes the neck for RNC, rolling helps tighten the choke if you follow, and the sit-out can be blocked with the far-side anchor grip.",
+        "answer": "The three most common defenses are: two-handed grip stripping where the opponent commits both hands to your collar wrist and pulls away from their neck; rolling toward the choking side to relieve rotational pressure, recognized by hip movement and shoulder rotation; and sitting out to face the attacker, recognized by the opponent posting a hand and driving their hips through. Each defense creates a specific opening—grip stripping exposes the neck for RNC, rolling helps tighten the choke if you follow, and the sit-out can be blocked with the far-side anchor grip.",
         "safety_critical": false
       }
     ]
@@ -301,13 +301,13 @@
   "defender": {
     "name": "Clock Choke from Invisible Collar Defender",
     "description": "Defend the Clock Choke from Invisible Collar with early grip recognition, collar stripping techniques, and escape strategies to recover guard position.",
-    "overview": "Defending the Clock Choke from Invisible Collar requires recognizing the threat earlier than a standard clock choke because the concealed grip eliminates the normal warning signs of collar establishment. In a standard clock choke, the defender feels the attacker reaching for their collar and can begin defense immediately. With the invisible collar variant, the grip is already deep before the walking motion begins, compressing the defensive timeline dramatically. The defender must develop awareness of subtle grip positioning changes during back control that indicate the invisible collar is being set up, and begin defensive action before the walking arc starts.\n\nThe primary defensive strategy focuses on stripping the collar grip with both hands before the walking pressure makes removal impossible. Once the attacker begins walking, the defender must combine aggressive two-handed grip fighting with directional hip movement away from the choking side. Understanding the attacker's submission chain is critical\u2014purely defending the collar often opens the defender to rear naked choke or bow and arrow transitions, so escape movements must account for multiple threats simultaneously.",
+    "overview": "Defending the Clock Choke from Invisible Collar requires recognizing the threat earlier than a standard clock choke because the concealed grip eliminates the normal warning signs of collar establishment. In a standard clock choke, the defender feels the attacker reaching for their collar and can begin defense immediately. With the invisible collar variant, the grip is already deep before the walking motion begins, compressing the defensive timeline dramatically. The defender must develop awareness of subtle grip positioning changes during back control that indicate the invisible collar is being set up, and begin defensive action before the walking arc starts.\n\nThe primary defensive strategy focuses on stripping the collar grip with both hands before the walking pressure makes removal impossible. Once the attacker begins walking, the defender must combine aggressive two-handed grip fighting with directional hip movement away from the choking side. Understanding the attacker's submission chain is critical—purely defending the collar often opens the defender to rear naked choke or bow and arrow transitions, so escape movements must account for multiple threats simultaneously.",
     "key_principles": [
       "Monitor the attacker's over-hook hand position constantly for any collar contact during back control",
       "Commit both hands to collar grip removal the moment choking pressure is detected",
       "Tuck chin aggressively to limit the collar's ability to seat against the carotid arteries",
       "Hip escape away from the choking side to reduce rotational pressure angle",
-      "Prioritize surviving the choke over maintaining turtle\u2014accept guard recovery as a win",
+      "Prioritize surviving the choke over maintaining turtle—accept guard recovery as a win",
       "Time explosive escape attempts for the moment the attacker removes hooks to begin walking",
       "Maintain breathing discipline to avoid panic and premature energy expenditure"
     ],
@@ -335,7 +335,7 @@
       },
       {
         "action": "Roll toward the choking side and recover to closed guard",
-        "when_to_use": "When the walking arc has already begun and grip stripping has failed\u2014last resort before the choke locks in",
+        "when_to_use": "When the walking arc has already begun and grip stripping has failed—last resort before the choke locks in",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Breaks the walking angle and transitions to guard where the collar grip becomes less dangerous without the walking pressure",
         "risk": "The roll can tighten the choke momentarily before breaking the angle, creating a brief window where you may be choked during the roll itself"
@@ -378,7 +378,7 @@
         "correction": "Develop the habit of constantly monitoring hand positions during back control defense. Any collar contact should trigger immediate two-handed grip fighting response before pressure develops."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize the Clock Choke from Invisible Collar is being set up before walking pressure begins?",
         "answer": "Monitor the attacker's over-hook hand during back control. If it migrates from your shoulder toward your collar with fingers beginning to penetrate the gi material near your neck, an invisible collar is being established. Additional cues include the attacker shifting weight forward, beginning to remove hooks, and reaching their free hand toward your far hip for anchoring. Any collar finger contact during back control should trigger immediate defensive response.",
@@ -386,7 +386,7 @@
       },
       {
         "question": "What is the safest way to tap to the Clock Choke from Invisible Collar?",
-        "answer": "Tap clearly and repeatedly on the attacker's body, arm, or the mat with your hand the moment you feel choking pressure building. If your hands are trapped or fighting the grip, use a verbal tap by saying 'tap' loudly. You can also tap with your feet on the mat. Do not wait until the choke is fully locked\u2014the invisible collar variant can render you unconscious faster than expected because the grip is pre-established. Tap early and tap clearly.",
+        "answer": "Tap clearly and repeatedly on the attacker's body, arm, or the mat with your hand the moment you feel choking pressure building. If your hands are trapped or fighting the grip, use a verbal tap by saying 'tap' loudly. You can also tap with your feet on the mat. Do not wait until the choke is fully locked—the invisible collar variant can render you unconscious faster than expected because the grip is pre-established. Tap early and tap clearly.",
         "safety_critical": true
       },
       {
@@ -396,7 +396,7 @@
       },
       {
         "question": "Why is hip escaping toward the non-choking side more effective than crawling forward when defending the clock choke walk?",
-        "answer": "Crawling forward actually assists the attacker by maintaining the choking angle and can pull the collar tighter as you move away from the fixed grip. Lateral hip escape toward the non-choking side changes the rotational angle the attacker needs for the choke, reducing collar pressure and creating space to turn and face the attacker. The directional choice is critical\u2014escaping toward the choking side can feed directly into the choke's mechanics.",
+        "answer": "Crawling forward actually assists the attacker by maintaining the choking angle and can pull the collar tighter as you move away from the fixed grip. Lateral hip escape toward the non-choking side changes the rotational angle the attacker needs for the choke, reducing collar pressure and creating space to turn and face the attacker. The directional choice is critical—escaping toward the choking side can feed directly into the choke's mechanics.",
         "safety_critical": false
       },
       {

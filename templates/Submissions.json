@@ -21,7 +21,7 @@
     "opponent_defense_patterns",
     "common_errors",
     "variations_and_setups",
-    "knowledge_assessment",
+    "flashcards",
     "from_positions",
     "related_submissions",
     "related_content"
@@ -331,7 +331,7 @@
         }
       }
     },
-    "knowledge_assessment": {
+    "flashcards": {
       "type": "array",
       "description": "Questions including safety-critical items (minimum 5)",
       "minItems": 5,

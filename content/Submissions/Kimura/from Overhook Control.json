@@ -18,7 +18,7 @@
   "starting_position": "Overhook Control",
   "from_position": "Overhook Control/Top",
   "success_rate": 62,
-  "overview": "The Kimura from Overhook Control converts the existing arm wrap directly into a figure-four shoulder lock, capitalizing on the structural control already established by the whizzer grip. Unlike standard Kimura entries that require fighting for wrist control from neutral positions, this variant begins with the opponent's arm already elevated, trapped, and structurally compromised. The transition from overhook seal to figure-four grip occurs within the same control framework, significantly reducing the defensive window available to the opponent.\n\nThe mechanical advantage of this entry is substantial. The overhook has already elevated the opponent's arm above their power generation angle, broken their posture, and removed one of their posting bases. Converting to the Kimura requires releasing the grip behind their back, capturing their wrist, and establishing the figure-four while maintaining shoulder pressure. The critical moment is the grip switch\u2014the brief instant when you release the overhook grip and reach for their wrist represents the highest escape probability for the defender.\n\nFinishing the Kimura from overhook control often requires different body mechanics than the traditional side control Kimura. Because the position frequently involves standing, turtle top, or scramble contexts, you need to sprawl your hips away or step over their body to generate sufficient rotational torque. Hip positioning relative to their trapped shoulder determines your mechanical advantage\u2014keeping your hips close to their shoulder maximizes the rotational force applied through the figure-four grip while minimizing their ability to rotate their body to relieve pressure.",
+  "overview": "The Kimura from Overhook Control converts the existing arm wrap directly into a figure-four shoulder lock, capitalizing on the structural control already established by the whizzer grip. Unlike standard Kimura entries that require fighting for wrist control from neutral positions, this variant begins with the opponent's arm already elevated, trapped, and structurally compromised. The transition from overhook seal to figure-four grip occurs within the same control framework, significantly reducing the defensive window available to the opponent.\n\nThe mechanical advantage of this entry is substantial. The overhook has already elevated the opponent's arm above their power generation angle, broken their posture, and removed one of their posting bases. Converting to the Kimura requires releasing the grip behind their back, capturing their wrist, and establishing the figure-four while maintaining shoulder pressure. The critical moment is the grip switch—the brief instant when you release the overhook grip and reach for their wrist represents the highest escape probability for the defender.\n\nFinishing the Kimura from overhook control often requires different body mechanics than the traditional side control Kimura. Because the position frequently involves standing, turtle top, or scramble contexts, you need to sprawl your hips away or step over their body to generate sufficient rotational torque. Hip positioning relative to their trapped shoulder determines your mechanical advantage—keeping your hips close to their shoulder maximizes the rotational force applied through the figure-four grip while minimizing their ability to rotate their body to relieve pressure.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -287,7 +287,7 @@
         "description": "Start positional rounds from overhook control. Apply the complete Kimura sequence against fully resisting partners. Track your grip switch success rate and identify which defensive responses give you the most trouble. Adjust your timing and setups based on live feedback."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from Overhook Control primarily attack?",
         "answer": "The Kimura primarily attacks the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) by forcing internal rotation beyond their functional range. Secondary structures at risk include the shoulder capsule, glenoid labrum, and bicep tendon. The figure-four grip creates a lever that generates rotational torque against these small stabilizer muscles, which cannot resist the mechanical advantage of your entire body driving the rotation.",
@@ -295,12 +295,12 @@
       },
       {
         "question": "Your opponent grabs their own belt to prevent the figure-four grip from being established - what adjustment completes the submission?",
-        "answer": "Wedge your fingers under their wrist and use your forearm as a fulcrum to peel their grip away from their belt. Apply downward pressure on their elbow with your chest while levering their wrist upward. If the grip is too strong to break, transition to a two-on-one arm drag and take the back instead, then attack the Kimura from back control where their defensive grips are less effective. Never stall fighting one grip\u2014chain to another attack.",
+        "answer": "Wedge your fingers under their wrist and use your forearm as a fulcrum to peel their grip away from their belt. Apply downward pressure on their elbow with your chest while levering their wrist upward. If the grip is too strong to break, transition to a two-on-one arm drag and take the back instead, then attack the Kimura from back control where their defensive grips are less effective. Never stall fighting one grip—chain to another attack.",
         "safety_critical": false
       },
       {
         "question": "What is the critical moment during the overhook-to-Kimura transition that determines success or failure?",
-        "answer": "The grip switch\u2014the instant when you release your overhook grip behind their back and reach to capture their wrist\u2014is the highest-risk moment. During this brief window, the opponent has maximum escape opportunity because your armpit seal is maintained only by shoulder pressure, not hand grip. Success requires pre-positioning your free hand near their wrist before initiating the switch, executing the transition in under one second, and maintaining heavy shoulder and head pressure throughout to compensate for the momentary grip change.",
+        "answer": "The grip switch—the instant when you release your overhook grip behind their back and reach to capture their wrist—is the highest-risk moment. During this brief window, the opponent has maximum escape opportunity because your armpit seal is maintained only by shoulder pressure, not hand grip. Success requires pre-positioning your free hand near their wrist before initiating the switch, executing the transition in under one second, and maintaining heavy shoulder and head pressure throughout to compensate for the momentary grip change.",
         "safety_critical": false
       },
       {
@@ -325,7 +325,7 @@
       },
       {
         "question": "What are the key safety considerations when applying the Kimura from Overhook Control in training?",
-        "answer": "Apply rotational pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the submission. The shoulder joint provides very little sensory warning between discomfort and structural failure\u2014the rotator cuff can tear before the defender feels sharp pain. Always ensure your partner has at least one hand free to tap. Release all pressure immediately upon any tap signal (verbal, hand, or foot). Return the arm to neutral position gently after release rather than letting it spring back.",
+        "answer": "Apply rotational pressure slowly and progressively over 3-5 seconds minimum, never jerking or spiking the submission. The shoulder joint provides very little sensory warning between discomfort and structural failure—the rotator cuff can tear before the defender feels sharp pain. Always ensure your partner has at least one hand free to tap. Release all pressure immediately upon any tap signal (verbal, hand, or foot). Return the arm to neutral position gently after release rather than letting it spring back.",
         "safety_critical": true
       },
       {
@@ -338,25 +338,25 @@
   "defender": {
     "name": "from Overhook Control Defender",
     "description": "Defend against the Kimura from overhook control. Recognition cues, escape timing, grip defense strategies, and progressive training for all experience levels.",
-    "overview": "Defending against the Kimura from Overhook Control demands early recognition of the grip transition from overhook to figure-four. The most critical defensive window occurs during the grip switch\u2014when the attacker releases their overhook grip behind your back to capture your wrist. Once the figure-four is established and hip pressure applied, escape options narrow dramatically. Successful defense requires keeping your elbow tight to your body, fighting grip establishment at the wrist, and being prepared to tap early given the rapid onset of rotational pressure on the shoulder joint. Understanding the attacker's decision tree from overhook control allows you to deny the Kimura entry while also being prepared for the alternative attacks they will chain to when the Kimura is defended.",
+    "overview": "Defending against the Kimura from Overhook Control demands early recognition of the grip transition from overhook to figure-four. The most critical defensive window occurs during the grip switch—when the attacker releases their overhook grip behind your back to capture your wrist. Once the figure-four is established and hip pressure applied, escape options narrow dramatically. Successful defense requires keeping your elbow tight to your body, fighting grip establishment at the wrist, and being prepared to tap early given the rapid onset of rotational pressure on the shoulder joint. Understanding the attacker's decision tree from overhook control allows you to deny the Kimura entry while also being prepared for the alternative attacks they will chain to when the Kimura is defended.",
     "key_principles": [
-      "Defend the grip transition before the figure-four is established\u2014prevention is far more effective than escape once the submission is locked",
+      "Defend the grip transition before the figure-four is established—prevention is far more effective than escape once the submission is locked",
       "Keep your elbow pinched tight to your ribs and rotate your wrist inward toward your centerline to deny the figure-four grip at the wrist",
       "Address the root cause by fighting to free your arm from the overhook entirely rather than only defending individual grip attempts",
       "If the figure-four is locked, turn your body toward the attacker to reduce the rotational angle on your shoulder rather than trying to power out",
-      "Tap immediately when you feel rotational pressure you cannot stop through positional adjustment\u2014the shoulder provides minimal warning before structural failure",
+      "Tap immediately when you feel rotational pressure you cannot stop through positional adjustment—the shoulder provides minimal warning before structural failure",
       "Maintain awareness that defending the Kimura may expose you to alternative attacks from the overhook position such as Darce chokes or back takes"
     ],
     "recognition_cues": [
       "Attacker's free hand begins sliding along your trapped arm toward your wrist, repositioning from head control or secondary grip to pre-grip position near your hand",
-      "Attacker's overhook grip behind your back loosens or shifts as they prepare to release it for the figure-four switch\u2014you feel the hand behind your back disengage",
+      "Attacker's overhook grip behind your back loosens or shifts as they prepare to release it for the figure-four switch—you feel the hand behind your back disengage",
       "Attacker increases head pressure and shoulder weight simultaneously, compensating for the momentary control loss during the grip transition",
       "Attacker's hips begin shifting to create a perpendicular angle to your shoulder, indicating they are setting up the finishing position for rotational torque"
     ],
     "defensive_options": [
       {
         "action": "Pin your own wrist to your belt or hip to prevent the figure-four grip from being established",
-        "when_to_use": "As soon as you recognize the attacker reaching for your wrist or loosening the overhook grip behind your back\u2014this is a preemptive defense",
+        "when_to_use": "As soon as you recognize the attacker reaching for your wrist or loosening the overhook grip behind your back—this is a preemptive defense",
         "targets_outcome": "Overhook Control/Top",
         "if_successful": "Attacker cannot establish the figure-four and must either continue working from overhook or transition to a different attack",
         "risk": "Pinning your wrist commits your arm defensively and may open you to other attacks like Darce choke if the attacker switches targets"
@@ -370,14 +370,14 @@
       },
       {
         "action": "Pull guard by closing your legs around the attacker's waist while retracting your trapped arm",
-        "when_to_use": "During the grip switch moment when the attacker releases the overhook to capture your wrist\u2014use their momentary control loss to pull them into your closed guard",
+        "when_to_use": "During the grip switch moment when the attacker releases the overhook to capture your wrist—use their momentary control loss to pull them into your closed guard",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "You recover to closed guard where the attacker's Kimura finishing mechanics are severely limited by your guard structure and posture control",
         "risk": "If timed poorly, you may end up in closed guard with the figure-four already locked, which still allows a stacking Kimura finish"
       },
       {
         "action": "Turn your entire body toward the attacker to reduce the rotational angle on your shoulder",
-        "when_to_use": "When the figure-four is already established and rotational pressure has begun\u2014this is a last-resort defense before tapping",
+        "when_to_use": "When the figure-four is already established and rotational pressure has begun—this is a last-resort defense before tapping",
         "targets_outcome": "Overhook Control/Top",
         "if_successful": "Reduces the rotational angle enough to buy time for grip fighting or creates a back-exposure opportunity where the attacker must choose between Kimura and back take",
         "risk": "Turning toward the attacker exposes your back and may give them a back take if they release the Kimura to pursue positional advancement"
@@ -412,7 +412,7 @@
       {
         "error": "Waiting too long to tap when rotational pressure begins on the shoulder",
         "consequence": "Rotator cuff tear or shoulder dislocation requiring months of recovery and potentially surgical repair. The shoulder provides very little sensory warning between moderate discomfort and structural failure.",
-        "correction": "Tap immediately when you feel rotational pressure that you cannot stop through positional adjustment. There is no benefit to waiting when the figure-four is locked and pressure is increasing\u2014the submission only gets tighter."
+        "correction": "Tap immediately when you feel rotational pressure that you cannot stop through positional adjustment. There is no benefit to waiting when the figure-four is locked and pressure is increasing—the submission only gets tighter."
       },
       {
         "error": "Defending only the Kimura grip without addressing the underlying overhook control",
@@ -420,7 +420,7 @@
         "correction": "Address the root cause by fighting to strip the armpit seal and free your arm from the overhook entirely. Pummel for an underhook or create enough distance to recompose your defensive structure rather than playing a reactive grip-fighting game."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that a Kimura from Overhook Control is being set up before the grip transition occurs?",
         "answer": "Watch for the attacker's free hand beginning to slide along your trapped arm toward your wrist while they simultaneously increase head pressure and shoulder weight. You will also feel the grip behind your back loosen or shift as they prepare to release it for the figure-four switch. Their hips will begin repositioning to create a perpendicular angle to your shoulder. These combined cues occur 1-2 seconds before the actual grip switch.",
@@ -428,7 +428,7 @@
       },
       {
         "question": "What is the safest way to tap when caught in the Kimura from Overhook Control?",
-        "answer": "Tap immediately using any available signal: verbal tap by clearly saying 'tap', physical hand taps with your free hand on the attacker or mat, or foot taps on the mat. Do not wait to see if you can escape once rotational pressure has begun\u2014the shoulder joint provides minimal warning between discomfort and structural failure. If your free hand is trapped, use verbal taps or foot taps. Any sound of distress should be treated as a tap by both partners.",
+        "answer": "Tap immediately using any available signal: verbal tap by clearly saying 'tap', physical hand taps with your free hand on the attacker or mat, or foot taps on the mat. Do not wait to see if you can escape once rotational pressure has begun—the shoulder joint provides minimal warning between discomfort and structural failure. If your free hand is trapped, use verbal taps or foot taps. Any sound of distress should be treated as a tap by both partners.",
         "safety_critical": true
       },
       {

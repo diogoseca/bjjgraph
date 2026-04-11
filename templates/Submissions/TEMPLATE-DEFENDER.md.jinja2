@@ -40,7 +40,7 @@ description: "{{ defender.description }}"
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {%- for qa in defender.knowledge_assessment[:6] %}
+    {%- for qa in defender.flashcards[:6] %}
     {
       "@type": "Question",
       "name": "{{ qa.question }}",

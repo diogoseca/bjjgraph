@@ -123,6 +123,13 @@ Preview deployments for `dev` are also available at unique URLs (e.g., `<hash>.b
 - **PostHog**: https://us.posthog.com/project/236155
 - **SEO**: Schema markup on all content pages
 
+### Content quality signals
+
+When maintaining content, pay attention to two feedback channels:
+
+1. **Most-skipped flashcards** — every time a user hits **Skip** on a flashcard, the runtime fires a `flashcard_skipped` PostHog event with `{ page, technique, question }`. Aggregate these in PostHog (group by `question`) to find the questions users find broken, unclear, or off-topic — those are the first ones to rewrite.
+2. **Issues raised by open-source collaborators** — GitHub issues and PRs from the community are the highest-signal source of content problems. Triage them before adding new content.
+
 ## License
 
 PolyForm Noncommercial 1.0.0 - Free for personal, educational, and non-commercial use. Commercial use requires permission. See [LICENSE](LICENSE)

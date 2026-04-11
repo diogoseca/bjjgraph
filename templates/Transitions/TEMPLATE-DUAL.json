@@ -165,7 +165,7 @@
         "common_counters",
         "common_errors",
         "training_progressions",
-        "knowledge_assessment",
+        "flashcards",
         "safety_considerations"
       ],
       "properties": {
@@ -309,7 +309,7 @@
             }
           }
         },
-        "knowledge_assessment": {
+        "flashcards": {
           "type": "array",
           "description": "Understanding test questions (minimum 5)",
           "minItems": 5,
@@ -352,7 +352,7 @@
         "defensive_options",
         "favorable_outcomes",
         "common_errors",
-        "knowledge_assessment",
+        "flashcards",
         "training_progressions"
       ],
       "properties": {
@@ -470,7 +470,7 @@
             }
           }
         },
-        "knowledge_assessment": {
+        "flashcards": {
           "type": "array",
           "description": "Understanding test questions (minimum 3)",
           "minItems": 3,

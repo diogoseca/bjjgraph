@@ -211,7 +211,7 @@
         "description": "Positional sparring starting from Electric Chair position. Both partners work with full resistance. Top player looks for backstep back take or other escapes. Bottom player attempts sweep or submission. Track success rate and identify patterns in timing and execution failures."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the backstep?",
         "answer": "The optimal timing is when the opponent fully commits to the Electric Chair extension with their hips maximally elevated and extended. At this point, they are most focused on the sweep or submission and their back is most exposed. Attempting too early when they can still retract leads to failed transitions."
@@ -336,7 +336,7 @@
         "correction": "Release the lockdown deliberately while simultaneously inserting knee shield or recovering guard frames. The transition must be coordinated, not a panicked abandonment of all control."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest cue that indicates the top player is about to attempt the backstep back take?",
         "answer": "The earliest cue is the top player's free leg beginning to step backward or widen its base in preparation for the circular arc. This is often accompanied by increased forward chest pressure as they load weight before initiating the backstep. Recognizing this leg movement gives you the maximum response time."

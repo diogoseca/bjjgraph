@@ -143,13 +143,13 @@
   "attacker": {
     "name": "Omoplata from Armbar Control Attacker",
     "description": "Learn to attack the omoplata from armbar control position. Step-by-step execution guide with counters, common errors, and progressive training methods.",
-    "overview": "Attacking the omoplata from armbar control requires recognizing the precise moment your opponent bends their trapped arm and immediately transitioning your leg position to trap the shoulder. The technical challenge lies in maintaining wrist control throughout the leg-swing phase \u2014 releasing the wrist prematurely allows arm extraction and complete position loss. Advanced execution involves a seamless flow from the supine armbar position to an upright seated omoplata, using explosive hip rotation to close the transition window. The finish demands patient, progressive shoulder rotation with far hip control preventing the forward roll escape that serves as the opponent's primary defensive option.",
+    "overview": "Attacking the omoplata from armbar control requires recognizing the precise moment your opponent bends their trapped arm and immediately transitioning your leg position to trap the shoulder. The technical challenge lies in maintaining wrist control throughout the leg-swing phase — releasing the wrist prematurely allows arm extraction and complete position loss. Advanced execution involves a seamless flow from the supine armbar position to an upright seated omoplata, using explosive hip rotation to close the transition window. The finish demands patient, progressive shoulder rotation with far hip control preventing the forward roll escape that serves as the opponent's primary defensive option.",
     "key_principles": [
-      "Treat the arm bend defense as an opportunity rather than a setback \u2014 the omoplata chain makes armbar control more dangerous, not less",
+      "Treat the arm bend defense as an opportunity rather than a setback — the omoplata chain makes armbar control more dangerous, not less",
       "Maintain wrist control with your near hand throughout the entire leg-swing transition to prevent arm extraction during the vulnerable phase",
-      "Execute the leg swing with speed and commitment \u2014 hesitation allows the opponent to posture up and defend both the armbar and omoplata",
+      "Execute the leg swing with speed and commitment — hesitation allows the opponent to posture up and defend both the armbar and omoplata",
       "Hip rotation from supine to seated must be explosive and fully committed, as half-measures leave you in an indefensible position between two attacks",
-      "Far hip control is the critical finishing detail \u2014 without it, the forward roll escape is available and high percentage against even well-applied omoplatas",
+      "Far hip control is the critical finishing detail — without it, the forward roll escape is available and high percentage against even well-applied omoplatas",
       "Apply finishing pressure gradually and progressively, using body weight and forward lean rather than jerking or spiking the shoulder rotation"
     ],
     "setup_requirements": [
@@ -263,7 +263,7 @@
     ],
     "training_progressions": [
       {
-        "phase": "Phase 1: Isolation \u2014 Leg Swing Mechanics",
+        "phase": "Phase 1: Isolation — Leg Swing Mechanics",
         "focus": "Developing fluid leg-over-head movement from supine armbar position",
         "description": "Practice the leg swing motion with a fully cooperative partner, focusing on the arc path, speed, and landing position of the leg across the shoulder. Perform 20 repetitions per side with zero resistance, building muscle memory for the transition movement pattern before adding any defensive reactions."
       },
@@ -283,7 +283,7 @@
         "description": "Start from armbar control against escalating resistance (50% building to 80%). Complete the full chain from defensive recognition through omoplata finish with live unpredictable defensive responses. Alternate between partners for 3-minute rounds, gradually increasing intensity over multiple sessions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What specific defensive reaction triggers the transition from armbar to omoplata?",
         "answer": "The trigger is the opponent bending their trapped elbow past 90 degrees to prevent hyperextension. When you feel strong bicep resistance against your hip bridge and the arm begins curling inward toward the opponent's chest, this indicates they have committed to the bend defense. This bent-arm position creates the exact shoulder angle needed to swing your leg over and establish the omoplata entanglement, transforming their successful armbar defense into a new vulnerability.",
@@ -300,7 +300,7 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins forward rolling as you sit up for the omoplata \u2014 what is your immediate response?",
+        "question": "Your opponent begins forward rolling as you sit up for the omoplata — what is your immediate response?",
         "answer": "Immediately grip their far hip or belt with your inside hand to block the roll before it gains momentum. If they have already initiated rotation, follow them through the roll by maintaining your leg position around their shoulder and scooting your hips to match their movement. As they complete the roll, you can often end up in a mounted omoplata or transition to a sweep, converting their escape attempt into a positional advantage rather than losing the submission entirely.",
         "safety_critical": false
       },
@@ -341,10 +341,10 @@
     "description": "Defend against the omoplata from armbar control in BJJ. Recognition cues, escape timing, defensive options, and survival strategies for all skill levels.",
     "overview": "Defending the omoplata from armbar control demands early recognition that the attacker is abandoning the armbar in favor of a shoulder lock. The transition period, when the attacker swings their leg over your head, represents the primary escape window. Once the omoplata is fully established with the attacker seated and controlling your far hip, defensive options narrow dramatically. Your priorities are preventing the leg from crossing over your shoulder, maintaining posture to avoid being flattened, and executing a forward roll before hip control is established if the omoplata begins to set. Understanding the attacker's sequence allows you to identify which phase of the attack you are in and select the appropriate defensive response for maximum escape probability.",
     "key_principles": [
-      "Recognize the transition early by feeling for the leg swing and hip rotation \u2014 every second of delay reduces your escape options significantly",
+      "Recognize the transition early by feeling for the leg swing and hip rotation — every second of delay reduces your escape options significantly",
       "Keep your trapped arm close to your body and avoid reaching away, which deepens the shoulder entanglement and accelerates the finish",
       "Maintain an upright posture with your free hand posted on the mat to resist being flattened face-down by the attacker's forward pressure",
-      "The forward roll is your highest-percentage escape but only works before the attacker establishes far hip control \u2014 timing is everything",
+      "The forward roll is your highest-percentage escape but only works before the attacker establishes far hip control — timing is everything",
       "Never attempt to explosively muscle out of a locked omoplata, as this spikes rotational force on the shoulder and risks acute injury",
       "If escape options have closed and the shoulder is loaded under pressure, tap early and decisively to protect long-term shoulder health"
     ],
@@ -410,7 +410,7 @@
         "correction": "Always post your free hand on the mat in front of you or to the side, maintaining an upright frame that resists the attacker's forward pressure and preserves your escape options"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that the attacker is transitioning from armbar to omoplata?",
         "answer": "The key recognition cues are the attacker's far leg lifting away from your body and beginning to swing over your head, a shift in their hip angle from perpendicular armbar alignment to rotating parallel, and the release of one hand from your wrist while the other maintains control. You will also feel decreased extension pressure on your elbow replaced by a rotational loading sensation on your shoulder as their leg crosses over. Recognizing these cues early gives you the maximum escape window.",
@@ -418,12 +418,12 @@
       },
       {
         "question": "When should you tap to the omoplata from armbar control to prevent injury?",
-        "answer": "Tap immediately when you feel your shoulder being forced into internal rotation beyond your comfortable range and you cannot execute any remaining escape option. If the attacker has seated position with hip control established and your shoulder is rotating despite your defensive efforts, the mechanical advantage has shifted irreversibly. Tap before you feel sharp pain or a popping sensation \u2014 the shoulder joint can suffer permanent damage quickly once the rotational threshold is exceeded. Never hesitate to tap early in training.",
+        "answer": "Tap immediately when you feel your shoulder being forced into internal rotation beyond your comfortable range and you cannot execute any remaining escape option. If the attacker has seated position with hip control established and your shoulder is rotating despite your defensive efforts, the mechanical advantage has shifted irreversibly. Tap before you feel sharp pain or a popping sensation — the shoulder joint can suffer permanent damage quickly once the rotational threshold is exceeded. Never hesitate to tap early in training.",
         "safety_critical": true
       },
       {
         "question": "What is the most effective defensive option during the transition phase?",
-        "answer": "The most effective defense during the transition is the forward roll, executed before the attacker establishes far hip control. As soon as you recognize the leg swinging over your head, tuck your chin, commit your weight forward, and roll over your trapped shoulder. The roll must be initiated before the attacker sits up and grips your hip \u2014 once hip control is established, the roll becomes blocked and your best escape window closes. Timing is the decisive factor in this defense.",
+        "answer": "The most effective defense during the transition is the forward roll, executed before the attacker establishes far hip control. As soon as you recognize the leg swinging over your head, tuck your chin, commit your weight forward, and roll over your trapped shoulder. The roll must be initiated before the attacker sits up and grips your hip — once hip control is established, the roll becomes blocked and your best escape window closes. Timing is the decisive factor in this defense.",
         "safety_critical": false
       },
       {
@@ -446,12 +446,12 @@
       {
         "phase": "Phase 2: Escape Timing Drills",
         "focus": "Developing the forward roll escape with proper timing",
-        "description": "Partner completes the omoplata transition at moderate speed. Practice the forward roll escape during the critical window before hip control is established. Partner provides feedback on timing \u2014 too early, too late, or correct. Perform 10-15 repetitions per round with 30% resistance, focusing on the moment hip control would be established."
+        "description": "Partner completes the omoplata transition at moderate speed. Practice the forward roll escape during the critical window before hip control is established. Partner provides feedback on timing — too early, too late, or correct. Perform 10-15 repetitions per round with 30% resistance, focusing on the moment hip control would be established."
       },
       {
         "phase": "Phase 3: Full Defense Under Progressive Resistance",
         "focus": "Integrating all defensive options against live attacks",
-        "description": "Start from armbar control bottom against escalating resistance from 50% to 75%. Partner attacks with the full armbar-to-omoplata chain while you apply appropriate defenses \u2014 posture recovery, forward roll, turn-in escape \u2014 based on the phase of attack. Alternate between partners for 3-minute rounds, building decision-making under genuine submission pressure."
+        "description": "Start from armbar control bottom against escalating resistance from 50% to 75%. Partner attacks with the full armbar-to-omoplata chain while you apply appropriate defenses — posture recovery, forward roll, turn-in escape — based on the phase of attack. Alternate between partners for 3-minute rounds, building decision-making under genuine submission pressure."
       }
     ]
   }

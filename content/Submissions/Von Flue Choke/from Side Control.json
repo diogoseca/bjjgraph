@@ -15,7 +15,7 @@
   "target_area": "Carotid arteries",
   "starting_position": "Side Control",
   "success_rate": 58,
-  "overview": "The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated\u2014once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.",
+  "overview": "The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -50,7 +50,7 @@
       "If partner is unconscious, elevate legs and monitor recovery"
     ],
     "training_restrictions": [
-      "Never apply full pressure in training\u2014use gradual pressure to allow tap",
+      "Never apply full pressure in training—use gradual pressure to allow tap",
       "Never hold the choke after partner releases their guillotine grip",
       "Always allow partner's arms to be free enough to tap",
       "Never use competition speed or sudden pressure in drilling",
@@ -131,12 +131,12 @@
   "attacker": {
     "name": "Von Flue Choke Attacker",
     "description": "How to execute Von Flue Choke in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
-    "overview": "The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated\u2014once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.",
+    "overview": "The Von Flue Choke is a devastating counter-submission that punishes opponents who maintain an overly committed guillotine grip from bottom position. Named after Jason Von Flue who famously used it in the UFC, this technique transforms a defensive scenario into an immediate offensive threat. The choke works by using shoulder pressure combined with body weight to compress one carotid artery while the opponent's own arm compresses the other, creating a blood choke that renders the guillotine grip not only ineffective but actively dangerous for the person holding it. This submission is particularly effective in no-gi grappling where guillotine attempts are common, and it serves as a crucial defensive concept that every practitioner must understand. The psychological impact of the Von Flue choke cannot be overstated—once an opponent has been caught with it, they become hesitant to hold guillotine grips from bottom position, fundamentally changing the dynamics of guard passing exchanges. The technique demonstrates a core principle in Brazilian Jiu-Jitsu: every offensive position contains the seeds of its own defeat if held too long or too rigidly.",
     "key_principles": [
       "Shoulder pressure creates one-sided carotid compression while opponent's arm creates the other",
       "Body weight distribution amplifies the choke without requiring arm strength",
       "The opponent's defensive grip becomes the mechanism of their own submission",
-      "Patience is critical\u2014rushing the finish allows the opponent to release and escape",
+      "Patience is critical—rushing the finish allows the opponent to release and escape",
       "Head position must be tight to opponent's far shoulder to prevent space creation",
       "Hip pressure prevents opponent from turning into you and escaping the choke",
       "The choke is a positional control problem first, submission second"
@@ -153,7 +153,7 @@
       {
         "step_number": 1,
         "action": "Secure side control position",
-        "description": "As you pass the guard or establish side control against an opponent holding a guillotine, ensure your chest is heavy on their chest and your hips are low. Your head should be on the far side of their body, away from the arm executing the guillotine grip. Do not try to pull your head out of any partial guillotine pressure\u2014instead, accept the position and focus on establishing dominant control.",
+        "description": "As you pass the guard or establish side control against an opponent holding a guillotine, ensure your chest is heavy on their chest and your hips are low. Your head should be on the far side of their body, away from the arm executing the guillotine grip. Do not try to pull your head out of any partial guillotine pressure—instead, accept the position and focus on establishing dominant control.",
         "timing": "2-3 seconds"
       },
       {
@@ -189,7 +189,7 @@
       {
         "step_number": 7,
         "action": "Maintain position until tap or release",
-        "description": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application, though some may stubbornly hold their guillotine grip until they lose consciousness. Watch for their grip to loosen (a sign of impending unconsciousness) and be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved\u2014the choke either works or the opponent escapes by releasing their grip.",
+        "description": "Hold steady pressure without increasing it further. Most opponents will tap within 3-5 seconds of full pressure application, though some may stubbornly hold their guillotine grip until they lose consciousness. Watch for their grip to loosen (a sign of impending unconsciousness) and be prepared to release immediately upon any tap signal. Never increase pressure once full pressure is achieved—the choke either works or the opponent escapes by releasing their grip.",
         "timing": "Hold until tap or grip release"
       }
     ],
@@ -197,7 +197,7 @@
       {
         "counter": "Releasing the guillotine grip immediately",
         "effectiveness": "High",
-        "your_response": "This is the desired outcome\u2014maintain side control and continue your passing or submission attack from the improved position. Do not continue applying pressure once they release.",
+        "your_response": "This is the desired outcome—maintain side control and continue your passing or submission attack from the improved position. Do not continue applying pressure once they release.",
         "targets_outcome": "Side Control/Top"
       },
       {
@@ -243,7 +243,7 @@
       {
         "error": "Continuing to apply pressure after opponent releases the guillotine grip",
         "consequence": "Unnecessary injury risk, poor training partnership, potential for causing unconsciousness when submission is already achieved",
-        "correction": "The moment you feel their grip loosen or release, immediately remove shoulder pressure and consolidate side control\u2014the submission is complete when they let go"
+        "correction": "The moment you feel their grip loosen or release, immediately remove shoulder pressure and consolidate side control—the submission is complete when they let go"
       },
       {
         "error": "Lifting your head up to look around or see what's happening",
@@ -255,12 +255,12 @@
       {
         "phase": "Phase 1: Recognition and Positioning",
         "focus": "Identifying the Von Flue opportunity and establishing correct shoulder placement",
-        "description": "Drill recognizing when an opponent maintains a guillotine grip from bottom side control. Practice transitioning from guard pass to side control while maintaining awareness of the guillotine grip. Focus on correct shoulder placement on the neck\u2014not the jaw\u2014and establishing the crossface grip. Partner holds a static guillotine while you repeatedly set up the correct position without applying pressure. 20-30 repetitions per side."
+        "description": "Drill recognizing when an opponent maintains a guillotine grip from bottom side control. Practice transitioning from guard pass to side control while maintaining awareness of the guillotine grip. Focus on correct shoulder placement on the neck—not the jaw—and establishing the crossface grip. Partner holds a static guillotine while you repeatedly set up the correct position without applying pressure. 20-30 repetitions per side."
       },
       {
         "phase": "Phase 2: Pressure Mechanics and Safety Protocol",
         "focus": "Developing progressive pressure application and safety awareness",
-        "description": "With the correct position established, practice applying gradual shoulder pressure over 3-5 seconds while partner communicates the pressure level they feel. Develop sensitivity to grip changes that indicate your partner is approaching their limit. Practice the complete release protocol after every repetition\u2014remove pressure, create space, check partner. Emphasize that the choke is complete when they release their grip, not when they tap."
+        "description": "With the correct position established, practice applying gradual shoulder pressure over 3-5 seconds while partner communicates the pressure level they feel. Develop sensitivity to grip changes that indicate your partner is approaching their limit. Practice the complete release protocol after every repetition—remove pressure, create space, check partner. Emphasize that the choke is complete when they release their grip, not when they tap."
       },
       {
         "phase": "Phase 3: Counter Integration and Hip Walking",
@@ -273,10 +273,10 @@
         "description": "Positional sparring starting from closed guard with bottom player holding a guillotine grip. Top player must pass guard, recognize the Von Flue opportunity, and finish or consolidate. Bottom player uses full resistance and can release the guillotine at any time. Progress to fully live rolls where you specifically look for Von Flue opportunities during guard passing. Track success rate and identify which passing sequences create the best Von Flue setups."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the two primary pressure points that create the Von Flue choke, and why is the opponent's own arm critical to the technique?",
-        "answer": "The two primary pressure points are: 1) Your shoulder driving into one side of their neck to compress one carotid artery, and 2) Their own arm (from the guillotine grip) which crosses their neck and compresses the opposite carotid artery. The opponent's arm is critical because it creates half of the choke for you\u2014without their guillotine grip, the shoulder pressure alone would be insufficient. This is why the technique works as a counter-submission: their offensive weapon becomes the instrument of their own defeat.",
+        "answer": "The two primary pressure points are: 1) Your shoulder driving into one side of their neck to compress one carotid artery, and 2) Their own arm (from the guillotine grip) which crosses their neck and compresses the opposite carotid artery. The opponent's arm is critical because it creates half of the choke for you—without their guillotine grip, the shoulder pressure alone would be insufficient. This is why the technique works as a counter-submission: their offensive weapon becomes the instrument of their own defeat.",
         "safety_critical": false
       },
       {
@@ -286,12 +286,12 @@
       },
       {
         "question": "What is the correct action to take the moment your opponent releases their guillotine grip during a Von Flue choke attempt?",
-        "answer": "The moment your opponent releases their guillotine grip, you must immediately remove all shoulder pressure from their neck and consolidate your side control position. Continuing to apply pressure after they've released their grip is both unnecessary and dangerous\u2014the submission is complete when they let go of their offensive grip. Your goal was to force them to release the guillotine, and once achieved, the technique is finished. Continuing to apply pressure would be applying a choke to a defenseless opponent, which violates safety principles and good training partnership.",
+        "answer": "The moment your opponent releases their guillotine grip, you must immediately remove all shoulder pressure from their neck and consolidate your side control position. Continuing to apply pressure after they've released their grip is both unnecessary and dangerous—the submission is complete when they let go of their offensive grip. Your goal was to force them to release the guillotine, and once achieved, the technique is finished. Continuing to apply pressure would be applying a choke to a defenseless opponent, which violates safety principles and good training partnership.",
         "safety_critical": true
       },
       {
         "question": "How does walking your hips toward the opponent's head improve the Von Flue choke's effectiveness, and what defensive option does it remove?",
-        "answer": "Walking your hips toward the opponent's head creates a more acute angle between your body and theirs, which increases the downward and forward pressure of your shoulder into their neck. This improved angle makes the carotid compression more direct and effective. Additionally, this hip position removes the opponent's ability to use their legs to push your hips away and create distance\u2014their primary escape mechanism from side control. With your hips high and close to their head, they lose the leverage needed to bridge or push effectively, trapping them in the submission.",
+        "answer": "Walking your hips toward the opponent's head creates a more acute angle between your body and theirs, which increases the downward and forward pressure of your shoulder into their neck. This improved angle makes the carotid compression more direct and effective. Additionally, this hip position removes the opponent's ability to use their legs to push your hips away and create distance—their primary escape mechanism from side control. With your hips high and close to their head, they lose the leverage needed to bridge or push effectively, trapping them in the submission.",
         "safety_critical": false
       },
       {
@@ -306,7 +306,7 @@
       },
       {
         "question": "Your opponent is stubbornly holding their guillotine grip despite your shoulder pressure. What indicators suggest they are approaching unconsciousness, and what should you do?",
-        "answer": "Key indicators of impending unconsciousness include: their grip beginning to loosen without them intentionally releasing, their body going slack or limp, changes in their breathing pattern (becoming irregular or stopping), their skin color changing (flushing or becoming pale), and lack of purposeful movement or resistance. If you observe any of these signs, you must immediately release all pressure and check their consciousness. Do not wait for a tap\u2014a stubborn opponent may pass out before they decide to tap. The moment you sense they're approaching unconsciousness, the training round is over regardless of whether they formally surrendered.",
+        "answer": "Key indicators of impending unconsciousness include: their grip beginning to loosen without them intentionally releasing, their body going slack or limp, changes in their breathing pattern (becoming irregular or stopping), their skin color changing (flushing or becoming pale), and lack of purposeful movement or resistance. If you observe any of these signs, you must immediately release all pressure and check their consciousness. Do not wait for a tap—a stubborn opponent may pass out before they decide to tap. The moment you sense they're approaching unconsciousness, the training round is over regardless of whether they formally surrendered.",
         "safety_critical": true
       },
       {
@@ -316,12 +316,12 @@
       },
       {
         "question": "Why does the Von Flue work specifically against opponents holding a guillotine from bottom position but not against other defensive configurations?",
-        "answer": "The Von Flue only works against opponents holding a guillotine because their own arm creates half of the choking mechanism. When they hold the guillotine grip from bottom, their forearm crosses their own neck, compressing one carotid artery from the inside. Your shoulder then compresses the opposite carotid from the outside. Without their guillotine grip in place, your shoulder pressure alone only compresses one side of the neck, which is insufficient to cause a blood choke. This is why the technique is specifically a counter to the guillotine\u2014it weaponizes their offensive grip against them. Against other defensive positions, this same shoulder pressure would at best be uncomfortable but not create a submission.",
+        "answer": "The Von Flue only works against opponents holding a guillotine because their own arm creates half of the choking mechanism. When they hold the guillotine grip from bottom, their forearm crosses their own neck, compressing one carotid artery from the inside. Your shoulder then compresses the opposite carotid from the outside. Without their guillotine grip in place, your shoulder pressure alone only compresses one side of the neck, which is insufficient to cause a blood choke. This is why the technique is specifically a counter to the guillotine—it weaponizes their offensive grip against them. Against other defensive positions, this same shoulder pressure would at best be uncomfortable but not create a submission.",
         "safety_critical": false
       },
       {
         "question": "During competition, your opponent is caught in your Von Flue but neither taps nor releases their grip as time expires. What is the correct response?",
-        "answer": "You must release the submission immediately when time expires, regardless of how close the finish seemed. In competition, the referee will stop the match and you cannot continue the submission after time. From a safety perspective, your opponent may have been about to go unconscious but time saved them. Never try to hold the submission hoping the referee doesn't notice time has expired. Additionally, this scenario demonstrates why competition finishing requires faster pressure application than training\u2014in competition, you may need to apply firmer pressure within the rules to get the tap before time runs out, while always maintaining control to release instantly when required.",
+        "answer": "You must release the submission immediately when time expires, regardless of how close the finish seemed. In competition, the referee will stop the match and you cannot continue the submission after time. From a safety perspective, your opponent may have been about to go unconscious but time saved them. Never try to hold the submission hoping the referee doesn't notice time has expired. Additionally, this scenario demonstrates why competition finishing requires faster pressure application than training—in competition, you may need to apply firmer pressure within the rules to get the tap before time runs out, while always maintaining control to release instantly when required.",
         "safety_critical": true
       },
       {
@@ -331,7 +331,7 @@
       },
       {
         "question": "Your training partner has been caught in two Von Flue chokes this session and now seems reluctant to attempt guillotines. How should you interpret this and what training adjustment should you make?",
-        "answer": "This reluctance demonstrates the secondary strategic value of the Von Flue\u2014it serves as a deterrent that changes opponent behavior. When training partners know you can counter their guillotine with the Von Flue, they become hesitant to hold the grip from bottom position, which actually makes your guard passing easier. However, for their development, you should now give them space to practice guillotines without immediately countering with the Von Flue. Consider alternating rounds where you allow the guillotine to develop so they can work their technique, versus rounds where you apply the counter. Good training partnership means developing both practitioners, not just demonstrating your counters repeatedly.",
+        "answer": "This reluctance demonstrates the secondary strategic value of the Von Flue—it serves as a deterrent that changes opponent behavior. When training partners know you can counter their guillotine with the Von Flue, they become hesitant to hold the grip from bottom position, which actually makes your guard passing easier. However, for their development, you should now give them space to practice guillotines without immediately countering with the Von Flue. Consider alternating rounds where you allow the guillotine to develop so they can work their technique, versus rounds where you apply the counter. Good training partnership means developing both practitioners, not just demonstrating your counters repeatedly.",
         "safety_critical": false
       }
     ]
@@ -339,9 +339,9 @@
   "defender": {
     "name": "Von Flue Choke Defender",
     "description": "How to defend against Von Flue Choke in BJJ. Recognition, escape paths, and defensive strategies.",
-    "overview": "Defending the Von Flue Choke requires understanding a fundamental paradox: the threat comes not from an opponent's attack, but from your own guillotine grip being weaponized against you. When you hold a guillotine from bottom side control, your forearm crosses your own neck, compressing one carotid artery from the inside. Your opponent's shoulder then compresses the opposite carotid from the outside, completing a bilateral blood choke using your own grip as half the mechanism. The primary defense is recognition\u2014understanding when your guillotine grip transitions from offensive weapon to self-inflicted liability. This transition occurs the moment your opponent passes your guard while you maintain the guillotine. Once they achieve side control, your guillotine becomes increasingly dangerous to you rather than to them, and the decision to release must happen quickly before shoulder pressure locks in the choke. Effective defense requires disciplining yourself to release a grip that feels offensive but has become structurally compromised. Many practitioners hold the guillotine too long out of stubbornness or failure to recognize the positional change, which is the single most common cause of being caught in the Von Flue. Learning to read the transition from guard to side control and making an immediate decision about whether to maintain or release the guillotine is the foundational defensive skill against this submission.",
+    "overview": "Defending the Von Flue Choke requires understanding a fundamental paradox: the threat comes not from an opponent's attack, but from your own guillotine grip being weaponized against you. When you hold a guillotine from bottom side control, your forearm crosses your own neck, compressing one carotid artery from the inside. Your opponent's shoulder then compresses the opposite carotid from the outside, completing a bilateral blood choke using your own grip as half the mechanism. The primary defense is recognition—understanding when your guillotine grip transitions from offensive weapon to self-inflicted liability. This transition occurs the moment your opponent passes your guard while you maintain the guillotine. Once they achieve side control, your guillotine becomes increasingly dangerous to you rather than to them, and the decision to release must happen quickly before shoulder pressure locks in the choke. Effective defense requires disciplining yourself to release a grip that feels offensive but has become structurally compromised. Many practitioners hold the guillotine too long out of stubbornness or failure to recognize the positional change, which is the single most common cause of being caught in the Von Flue. Learning to read the transition from guard to side control and making an immediate decision about whether to maintain or release the guillotine is the foundational defensive skill against this submission.",
     "key_principles": [
-      "Release the guillotine grip immediately when your opponent passes to side control\u2014your offensive grip has become a liability",
+      "Release the guillotine grip immediately when your opponent passes to side control—your offensive grip has become a liability",
       "Recognize that every second you hold the guillotine from bottom side control increases your vulnerability to the Von Flue exponentially",
       "Turn your body toward the opponent to reduce the angle their shoulder can create against your neck",
       "Create frames against their chest and hips to prevent them from settling weight and establishing the shoulder-on-neck position",
@@ -349,33 +349,33 @@
       "If you feel shoulder pressure on your neck while holding a guillotine, treat it as an emergency requiring immediate grip release"
     ],
     "recognition_cues": [
-      "Opponent has passed your guard to side control while you are still holding a guillotine grip from bottom\u2014this is the primary danger signal",
+      "Opponent has passed your guard to side control while you are still holding a guillotine grip from bottom—this is the primary danger signal",
       "You feel increasing shoulder pressure on the side of your neck rather than your opponent trying to pull their head free from the guillotine",
       "Opponent's hips begin walking toward your head rather than settling into standard side control position, indicating they are actively pursuing the Von Flue",
       "Your opponent establishes a crossface grip while you hold the guillotine, locking your head position and preventing you from turning away from the shoulder pressure",
-      "You notice your opponent is not fighting your guillotine grip but instead seems comfortable or even encouraging of it\u2014this indicates they recognize the Von Flue opportunity"
+      "You notice your opponent is not fighting your guillotine grip but instead seems comfortable or even encouraging of it—this indicates they recognize the Von Flue opportunity"
     ],
     "defensive_options": [
       {
         "action": "Release the guillotine grip and immediately frame against their chest to establish standard side control bottom defense",
-        "when_to_use": "As soon as you recognize your opponent has achieved side control while you hold the guillotine\u2014this is the highest-percentage defense and should be your default response",
+        "when_to_use": "As soon as you recognize your opponent has achieved side control while you hold the guillotine—this is the highest-percentage defense and should be your default response",
         "targets_outcome": "Side Control/Top",
         "if_successful": "You transition to standard side control bottom defense with frames, removing the Von Flue threat entirely and working normal escape sequences",
-        "risk": "Low risk\u2014releasing the guillotine concedes the pass but removes all Von Flue danger and returns you to a standard defensive position"
+        "risk": "Low risk—releasing the guillotine concedes the pass but removes all Von Flue danger and returns you to a standard defensive position"
       },
       {
         "action": "Turn your body toward your opponent and use your legs to push their hips away while maintaining or releasing the guillotine",
         "when_to_use": "When you feel initial shoulder pressure but believe you still have time to create space before the choke locks in fully",
         "targets_outcome": "Half Guard/Bottom",
         "if_successful": "You create enough distance to recover half guard or re-establish a guard position where the guillotine becomes effective again or you can safely release",
-        "risk": "Medium risk\u2014if your timing is late, the turning motion can actually tighten the choke by pressing your neck further into their shoulder"
+        "risk": "Medium risk—if your timing is late, the turning motion can actually tighten the choke by pressing your neck further into their shoulder"
       },
       {
         "action": "Bridge explosively toward the opponent while releasing the guillotine to create a scramble and recover guard",
         "when_to_use": "When the Von Flue pressure is building but has not fully locked in, and you need an explosive movement to disrupt their positioning before the choke completes",
         "targets_outcome": "Half Guard/Bottom",
         "if_successful": "The bridge disrupts their base and shoulder position, creating space to insert your knee and recover half guard or initiate a scramble to a neutral position",
-        "risk": "Medium risk\u2014a failed bridge wastes energy and may allow them to reposition with even heavier pressure, and bridging toward them can momentarily increase the choke pressure"
+        "risk": "Medium risk—a failed bridge wastes energy and may allow them to reposition with even heavier pressure, and bridging toward them can momentarily increase the choke pressure"
       }
     ],
     "escape_paths": [
@@ -396,7 +396,7 @@
     "common_errors": [
       {
         "error": "Stubbornly holding the guillotine grip from bottom side control hoping to finish the choke despite the positional change",
-        "consequence": "Your own arm becomes half of the Von Flue choking mechanism\u2014the longer you hold it, the tighter the choke becomes, and you risk losing consciousness before deciding to release",
+        "consequence": "Your own arm becomes half of the Von Flue choking mechanism—the longer you hold it, the tighter the choke becomes, and you risk losing consciousness before deciding to release",
         "correction": "Develop the discipline to release your guillotine immediately when your opponent passes to side control. The guillotine is no longer viable from bottom side control and holding it only endangers you. Treat the guard pass as an automatic trigger to release."
       },
       {
@@ -415,20 +415,20 @@
         "correction": "At minimum, release one hand from the guillotine to establish a frame against their chest. This creates space to prevent the choke from deepening and gives you a base for hip escape or guard recovery."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why does your own guillotine grip become dangerous when your opponent passes to side control, and what is the biomechanical mechanism that creates the Von Flue choke?",
-        "answer": "When you hold a guillotine from bottom side control, your forearm crosses your own neck and compresses one carotid artery from the inside. Your opponent's shoulder then compresses the opposite carotid from the outside. Together, these two pressure points create a bilateral blood choke\u2014your grip provides half the mechanism while their shoulder provides the other half. From inside your guard, the guillotine attacks their neck. But once they pass to side control, the same grip geometry now attacks your own neck because their shoulder can drive into the exposed side while your arm handles the other side. The positional change transforms your offensive weapon into a self-inflicted vulnerability.",
+        "answer": "When you hold a guillotine from bottom side control, your forearm crosses your own neck and compresses one carotid artery from the inside. Your opponent's shoulder then compresses the opposite carotid from the outside. Together, these two pressure points create a bilateral blood choke—your grip provides half the mechanism while their shoulder provides the other half. From inside your guard, the guillotine attacks their neck. But once they pass to side control, the same grip geometry now attacks your own neck because their shoulder can drive into the exposed side while your arm handles the other side. The positional change transforms your offensive weapon into a self-inflicted vulnerability.",
         "safety_critical": true
       },
       {
         "question": "At what specific moment during a guard pass should you release your guillotine grip to avoid Von Flue danger, and what are the consequences of releasing too late?",
-        "answer": "You should release the guillotine grip the moment your opponent's hips clear your legs and they begin establishing side control\u2014when their chest starts dropping perpendicular to your torso and your guard retention has failed. Releasing too late means their shoulder is already positioned on your neck with their weight committed, and the choke may already be partially locked. At that point, simply releasing the grip may not be enough because the shoulder pressure has already compressed one carotid, and you now need to actively escape the side control pressure as well. The earlier you release, the more time and energy you have for defensive framing before they can set up the Von Flue.",
+        "answer": "You should release the guillotine grip the moment your opponent's hips clear your legs and they begin establishing side control—when their chest starts dropping perpendicular to your torso and your guard retention has failed. Releasing too late means their shoulder is already positioned on your neck with their weight committed, and the choke may already be partially locked. At that point, simply releasing the grip may not be enough because the shoulder pressure has already compressed one carotid, and you now need to actively escape the side control pressure as well. The earlier you release, the more time and energy you have for defensive framing before they can set up the Von Flue.",
         "safety_critical": true
       },
       {
         "question": "You are holding a guillotine and feel your opponent beginning to pass your guard. Your guillotine feels tight and you believe you might still finish. How do you evaluate whether to hold or release?",
-        "answer": "Evaluate based on three factors: 1) Are their hips still inside your guard or have they cleared to the side? If inside, the guillotine is still viable. If cleared, release immediately. 2) Is their head being pulled down into the choke, or are they posturing up and driving past you? If they're sinking, hold. If they're passing, release. 3) Can you feel their shoulder making contact with your neck? If yes, the Von Flue is already being set up and you must release immediately regardless of how tight your grip feels. The critical insight is that a tight guillotine grip from bottom side control hurts you, not them\u2014the tighter you squeeze, the more you compress your own carotid against your forearm.",
+        "answer": "Evaluate based on three factors: 1) Are their hips still inside your guard or have they cleared to the side? If inside, the guillotine is still viable. If cleared, release immediately. 2) Is their head being pulled down into the choke, or are they posturing up and driving past you? If they're sinking, hold. If they're passing, release. 3) Can you feel their shoulder making contact with your neck? If yes, the Von Flue is already being set up and you must release immediately regardless of how tight your grip feels. The critical insight is that a tight guillotine grip from bottom side control hurts you, not them—the tighter you squeeze, the more you compress your own carotid against your forearm.",
         "safety_critical": false
       },
       {
@@ -438,7 +438,7 @@
       },
       {
         "question": "You feel shoulder pressure on your neck while holding a guillotine from bottom and you realize the Von Flue is partially locked. What is the emergency escape sequence?",
-        "answer": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation\u2014every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine\u2014nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately.",
+        "answer": "This is an emergency requiring immediate action in this order: 1) Release the guillotine grip completely and without hesitation—every fraction of a second you hold it deepens the choke. 2) Use the freed arm closest to their hips to push against their hip or thigh to create distance. 3) Bridge explosively toward them to disrupt their shoulder pressure and create space. 4) Insert your knee between your bodies to establish half guard. 5) If you cannot insert the knee, continue bridging and framing until you create enough space to turn toward them and recover guard. The critical first step is always releasing the guillotine—nothing else works while you are holding the grip that creates half the choke against yourself. In training, if you feel lightheaded at any point during this sequence, tap immediately.",
         "safety_critical": true
       }
     ],
@@ -456,7 +456,7 @@
       {
         "phase": "Phase 3: Escape Under Pressure",
         "focus": "Escaping when Von Flue pressure has already begun developing",
-        "description": "Partner establishes partial Von Flue position with light-to-moderate shoulder pressure while you hold the guillotine. Practice the emergency escape sequence: release grip, frame, bridge, insert knee. Partner progressively increases pressure and resistance across rounds. Develop the ability to escape even when you have delayed your release slightly too long. Include tap recognition\u2014learn when the choke is too deep to escape and tapping is the correct response."
+        "description": "Partner establishes partial Von Flue position with light-to-moderate shoulder pressure while you hold the guillotine. Practice the emergency escape sequence: release grip, frame, bridge, insert knee. Partner progressively increases pressure and resistance across rounds. Develop the ability to escape even when you have delayed your release slightly too long. Include tap recognition—learn when the choke is too deep to escape and tapping is the correct response."
       },
       {
         "phase": "Phase 4: Live Situational Sparring",

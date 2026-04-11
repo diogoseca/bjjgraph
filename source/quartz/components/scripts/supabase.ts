@@ -429,15 +429,21 @@ function mergeCards(local: SRSCard[], cloud: SRSCard[]): SRSCard[] {
     if (!existing || card.lastReview > existing.lastReview) {
       // Local card is newer or doesn't exist in cloud
       if (existing) {
-        // Union questionsMastered from both
-        const allMastered = new Set([...existing.questionsMastered, ...card.questionsMastered])
-        card.questionsMastered = Array.from(allMastered).sort((a, b) => a - b)
+        // Union flashcardsMastered from both
+        const allMastered = new Set([
+          ...(existing.flashcardsMastered || []),
+          ...(card.flashcardsMastered || []),
+        ])
+        card.flashcardsMastered = Array.from(allMastered).sort((a, b) => a - b)
       }
       merged.set(card.technique, card)
     } else if (existing) {
-      // Cloud card is newer — union questionsMastered from local
-      const allMastered = new Set([...existing.questionsMastered, ...card.questionsMastered])
-      existing.questionsMastered = Array.from(allMastered).sort((a, b) => a - b)
+      // Cloud card is newer — union flashcardsMastered from local
+      const allMastered = new Set([
+        ...(existing.flashcardsMastered || []),
+        ...(card.flashcardsMastered || []),
+      ])
+      existing.flashcardsMastered = Array.from(allMastered).sort((a, b) => a - b)
     }
   }
 

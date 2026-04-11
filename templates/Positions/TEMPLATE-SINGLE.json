@@ -350,20 +350,32 @@
       "properties": {
         "retention_rate": {
           "allOf": [
-            { "$ref": "#/$defs/value_with_description" },
-            { "description": "Position retention rate" }
+            {
+              "$ref": "#/$defs/value_with_description"
+            },
+            {
+              "description": "Position retention rate"
+            }
           ]
         },
         "advancement_probability": {
           "allOf": [
-            { "$ref": "#/$defs/value_with_description" },
-            { "description": "Probability of advancing to better position" }
+            {
+              "$ref": "#/$defs/value_with_description"
+            },
+            {
+              "description": "Probability of advancing to better position"
+            }
           ]
         },
         "submission_probability": {
           "allOf": [
-            { "$ref": "#/$defs/value_with_description" },
-            { "description": "Probability of finishing from this position" }
+            {
+              "$ref": "#/$defs/value_with_description"
+            },
+            {
+              "description": "Probability of finishing from this position"
+            }
           ]
         },
         "average_time": {
@@ -372,7 +384,7 @@
         }
       }
     },
-    "knowledge_assessment": {
+    "flashcards": {
       "type": "array",
       "description": "Q&A pairs about this position (optional)",
       "minItems": 6,
@@ -380,7 +392,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["question", "answer"],
+        "required": [
+          "question",
+          "answer"
+        ],
         "properties": {
           "question": {
             "type": "string",
@@ -401,7 +416,9 @@
       "type": "object",
       "description": "A metric value with optional description",
       "additionalProperties": false,
-      "required": ["value"],
+      "required": [
+        "value"
+      ],
       "properties": {
         "value": {
           "type": "integer",

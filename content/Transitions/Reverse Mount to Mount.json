@@ -240,7 +240,7 @@
         "description": "Simulate competition rounds where reverse mount scenarios are created through live rolling. Execute the transition under full resistance with accumulated fatigue from the round. Measure whether technique quality degrades under pressure and identify specific failure points to address in future drilling sessions."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the rotation from reverse mount to standard mount?",
         "answer": "The rotation should be initiated within 3-5 seconds of achieving reverse mount. This window exists because reverse mount is inherently transitional—every second spent there allows the bottom player to develop frames, begin hip escapes, and prepare defensive counters timed to the rotation. Executing within this window catches the opponent before they organize their defense."
@@ -357,7 +357,7 @@
         "correction": "Prioritize knee shield insertion or guard recovery over turtle escape. Half guard with a knee shield is a superior defensive outcome compared to turtle against an attacker who was already positioned on your back in reverse mount."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What proprioceptive cue tells you the attacker is about to initiate the rotation from reverse mount?",
         "answer": "The primary cue is a weight shift to one side of your chest as the attacker posts their hand in the rotation direction. You will feel increased pressure from one knee against your ribs while the other knee lightens slightly. This asymmetric pressure change is the earliest detectable indicator that the spin is imminent and provides the maximum defensive reaction window."

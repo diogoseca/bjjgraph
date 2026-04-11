@@ -277,7 +277,7 @@
         "description": "Begin positional sparring rounds starting in high mount. Attempt the Kimura and its chain attacks against a fully resisting partner. Track success rate and identify which counter-attacks you struggle with most. Gradually integrate the Kimura into your full mount submission system."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from High Mount primarily attack?",
         "answer": "The Kimura targets the shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule ligaments, and the glenoid labrum. The figure-four grip creates a lever that rotates the humerus past its natural range of motion within the glenohumeral socket, with the elbow serving as the fulcrum point. Secondary stress occurs on the bicep tendon and the acromioclavicular joint.",
@@ -333,7 +333,7 @@
   "defender": {
     "name": "from High Mount Defender",
     "description": "Defend the Kimura from High Mount with early recognition cues, grip prevention techniques, and proven escape strategies to recover guard position safely.",
-    "overview": "Defending the Kimura from High Mount demands immediate action because the elevated position gives the attacker superior leverage and severely limits your options for straightening the trapped arm. Your primary defense centers on preventing wrist capture by keeping your elbows tight to your body and hands clasped near your chin. Once the figure-four grip is secured, your defensive window narrows rapidly\u2014you must either strip the grip before rotation begins, connect your hands to create a structural barrier against extension, or use the attacker's commitment to the finish as an opportunity to bridge and escape the mount entirely.\n\nTiming is critical because the top-down angle makes late-stage Kimura defense far more difficult than from side control. The attacker's weight on your upper chest restricts your ability to generate the bridging power needed to roll them, so your defenses must be proactive rather than reactive. The moment you recognize the Kimura setup, you must begin your defensive sequence immediately rather than waiting to see if the attacker completes the grip. Prevention is dramatically more effective than escape once the figure-four is locked.",
+    "overview": "Defending the Kimura from High Mount demands immediate action because the elevated position gives the attacker superior leverage and severely limits your options for straightening the trapped arm. Your primary defense centers on preventing wrist capture by keeping your elbows tight to your body and hands clasped near your chin. Once the figure-four grip is secured, your defensive window narrows rapidly—you must either strip the grip before rotation begins, connect your hands to create a structural barrier against extension, or use the attacker's commitment to the finish as an opportunity to bridge and escape the mount entirely.\n\nTiming is critical because the top-down angle makes late-stage Kimura defense far more difficult than from side control. The attacker's weight on your upper chest restricts your ability to generate the bridging power needed to roll them, so your defenses must be proactive rather than reactive. The moment you recognize the Kimura setup, you must begin your defensive sequence immediately rather than waiting to see if the attacker completes the grip. Prevention is dramatically more effective than escape once the figure-four is locked.",
     "key_principles": [
       "Keep elbows glued to your ribs and hands near your chin to prevent arm isolation and wrist capture from the start",
       "Recognize the Kimura setup before the figure-four grip is completed, when defensive options are still available",
@@ -351,7 +351,7 @@
     "defensive_options": [
       {
         "action": "Clasp hands together or grip own lapel to prevent wrist isolation and figure-four completion",
-        "when_to_use": "The moment you feel the attacker grip your wrist or begin swimming under your elbow\u2014this must be immediate",
+        "when_to_use": "The moment you feel the attacker grip your wrist or begin swimming under your elbow—this must be immediate",
         "targets_outcome": "High Mount/Top",
         "if_successful": "Prevents the Kimura from being completed, forcing the attacker to either break your grip or abandon the attack",
         "risk": "Both hands are committed to defense, temporarily preventing you from creating frames for escape"
@@ -396,7 +396,7 @@
       },
       {
         "error": "Waiting to defend until after the figure-four grip is fully secured and locked",
-        "consequence": "Defensive options decrease dramatically once the figure-four is tight\u2014grip breaking becomes extremely difficult under the attacker's body weight",
+        "consequence": "Defensive options decrease dramatically once the figure-four is tight—grip breaking becomes extremely difficult under the attacker's body weight",
         "correction": "Begin defensive action the instant you recognize wrist control being attempted, before the second hand threads under your arm"
       },
       {
@@ -410,7 +410,7 @@
         "correction": "Stay calm, choose one defensive option, and commit to executing it with proper timing and full effort rather than thrashing"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that the Kimura from High Mount is being set up before the grip is secured?",
         "answer": "Key recognition cues include the attacker's hand swimming under your elbow or reaching across for your wrist, their weight shifting laterally to one side while maintaining chest pressure, and your elbow being pried away from your ribs by their knee or hand. The earliest warning sign is typically the attacker abandoning neck attacks and redirecting focus to your arm. Recognizing these cues before the figure-four is complete gives you the widest defensive window.",
@@ -418,7 +418,7 @@
       },
       {
         "question": "What is the safest way to tap when caught in the Kimura from High Mount?",
-        "answer": "Tap immediately and clearly the moment you feel rotational pressure on your shoulder that you cannot stop. Use your free hand to tap rapidly on the attacker's body, the mat, or your own body. If your free hand is trapped, use verbal tapping by saying 'tap' loudly or tapping with your feet. Do not wait to see if you can escape once rotation has begun\u2014the shoulder can suffer structural damage before you feel significant pain, and the top-down angle from high mount makes late escapes nearly impossible.",
+        "answer": "Tap immediately and clearly the moment you feel rotational pressure on your shoulder that you cannot stop. Use your free hand to tap rapidly on the attacker's body, the mat, or your own body. If your free hand is trapped, use verbal tapping by saying 'tap' loudly or tapping with your feet. Do not wait to see if you can escape once rotation has begun—the shoulder can suffer structural damage before you feel significant pain, and the top-down angle from high mount makes late escapes nearly impossible.",
         "safety_critical": true
       },
       {
@@ -441,7 +441,7 @@
       {
         "phase": "Phase 1: Recognition and Prevention",
         "focus": "Identifying Kimura setups and maintaining defensive arm position",
-        "description": "Partner drills the Kimura entry sequence at slow speed while you practice recognizing the setup cues and maintaining elbows-tight defensive posture. Focus on keeping hands clasped near your chin and reacting to wrist capture attempts with immediate hand connection. No live resistance yet\u2014build pattern recognition."
+        "description": "Partner drills the Kimura entry sequence at slow speed while you practice recognizing the setup cues and maintaining elbows-tight defensive posture. Focus on keeping hands clasped near your chin and reacting to wrist capture attempts with immediate hand connection. No live resistance yet—build pattern recognition."
       },
       {
         "phase": "Phase 2: Grip Defense and Breaking",

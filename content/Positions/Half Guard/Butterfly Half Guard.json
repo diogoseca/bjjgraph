@@ -268,7 +268,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical weight distribution adjustment when your opponent starts to elevate with their butterfly hook?",
         "answer": "Immediately drop your hips lower and shift weight toward the butterfly hook side while driving your shoulder into their chest or face. This removes the space underneath your body that allows their hook to generate elevation power. Simultaneously widen your base with your free leg and post your hand on the mat to create a tripod-like structure that resists upward momentum."
@@ -613,7 +613,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal body posture for maintaining butterfly half guard and why does lying flat compromise the position?",
         "answer": "The optimal posture is seated or semi-reclined with shoulders elevated 30-45 degrees off the mat. This posture creates the mechanical foundation for sweep leverage by allowing your hips to move freely and generate power through the butterfly hook. Lying flat eliminates the geometric advantage because your hook can only push upward rather than drive at an angle, your core cannot engage effectively to coordinate the sweep, and your opponent can apply crushing shoulder pressure without you having leverage to counter."

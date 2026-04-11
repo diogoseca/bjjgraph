@@ -294,10 +294,10 @@ def has_todos(data: dict) -> bool:
 def needs_enrichment(data: dict, category: str) -> bool:
     """Check if file needs enrichment beyond validation errors.
 
-    NOTE: Does NOT check knowledge_assessment count. The schema is the source of truth —
+    NOTE: Does NOT check flashcards count. The schema is the source of truth —
     if it doesn't require the field, this heuristic shouldn't contradict it.
-    Checking knowledge_assessment caused an infinite loop where 12 family Position files
-    were re-selected every run (schema doesn't require knowledge_assessment, so Claude
+    Checking flashcards caused an infinite loop where 12 family Position files
+    were re-selected every run (schema doesn't require flashcards, so Claude
     never generates it, so this function always returned True).
     """
     if has_todos(data):
@@ -558,7 +558,7 @@ KEY FIELDS:
 - bjj_applications: 3-6 items with scenario/application/outcome (concrete mat situations)
 - common_mistakes: 3-5 items with mistake/consequence/correction
 - training_exercises: 2-4 items with name/description (50+ chars)/focus
-- knowledge_assessment: 4-6 Q&A pairs for self-assessment"""
+- flashcards: 4-6 Q&A pairs for self-assessment"""
 
     return f"Set name = '{filename}' (MUST MATCH FILENAME EXACTLY)"
 
@@ -648,7 +648,7 @@ POSITION_PROMPT = '''You are an expert Brazilian Jiu-Jitsu black belt instructor
 - Reflect realistic training choices for advanced hobbyists
 - Consider what techniques are actually attempted vs theoretically possible
 
-### 3. Add/Improve knowledge_assessment (8-12 Q&A pairs)
+### 3. Add/Improve flashcards (8-12 Q&A pairs)
 **Focus: RETENTION (maintaining this stable position)**
 
 **Mix of question types (50/50):**
@@ -754,7 +754,7 @@ Transitions model THREE types of technique attempts. Classify this transition co
 - `outcomes[].to` MUST reference existing Position names (from the valid references list) or "game-over"
 - Only Type A transitions may have "game-over" in outcomes
 
-### 3. Add/Improve knowledge_assessment (8-12 Q&A pairs)
+### 3. Add/Improve flashcards (8-12 Q&A pairs)
 **Focus: EXECUTION (performing the motion)**
 
 **Mix of question types (50/50):**
@@ -833,7 +833,7 @@ Submissions MUST have:
 
 Probabilities MUST sum to 100%.
 
-### 3. Add/Improve knowledge_assessment (8-12 Q&A pairs)
+### 3. Add/Improve flashcards (8-12 Q&A pairs)
 **Focus: FINISHING (mechanics that cause the tap)**
 
 **Mix of question types (50/50):**
@@ -1367,7 +1367,7 @@ def create_transition_stub(name: str, from_position: str, to_position: str = Non
                 {"phase": "TODO", "focus": "TODO", "description": "TODO"},
                 {"phase": "TODO", "focus": "TODO", "description": "TODO"}
             ],
-            "knowledge_assessment": [
+            "flashcards": [
                 {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
                 {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
                 {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
@@ -1395,7 +1395,7 @@ def create_transition_stub(name: str, from_position: str, to_position: str = Non
                 {"error": "TODO", "consequence": "TODO", "correction": "TODO"},
                 {"error": "TODO", "consequence": "TODO", "correction": "TODO"}
             ],
-            "knowledge_assessment": [
+            "flashcards": [
                 {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
                 {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"},
                 {"question": "TODO?", "answer": "TODO - this answer needs at least fifty characters to pass validation"}

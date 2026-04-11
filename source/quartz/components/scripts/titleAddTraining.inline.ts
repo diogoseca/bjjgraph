@@ -68,7 +68,7 @@ function addCardToSRS(name: string, type: "transition" | "submission", slug: str
       repetitions: 0,
       lastReview: d,
       history: [],
-      questionsMastered: [],
+      flashcardsMastered: [],
     })
     localStorage.setItem(SRS_KEY, JSON.stringify(cards))
   } catch {

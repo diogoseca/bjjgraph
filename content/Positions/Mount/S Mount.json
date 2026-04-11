@@ -328,7 +328,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What hip adjustment should you make when your opponent starts to bridge explosively from S Mount bottom?",
         "answer": "Drop your hips lower and tighter against their shoulder while posting your near foot wider for stability. The bridge creates upward force, so you counter by driving your weight down and forward toward their trapped arm. Keep your center of gravity low and avoid sitting up, which would make you vulnerable to being displaced."
@@ -601,7 +601,7 @@
         "attempt_probability": 17
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent drops their weight and starts to extend your trapped arm - what immediate defensive action do you take?",
         "answer": "Grip your own collar or lapel with the trapped hand, keeping the elbow bent at 90 degrees or greater. Simultaneously drive your free hand into their near hip to create a frame. Never straighten the arm to resist - bent arms are exponentially harder to attack. If they're pulling hard, curl toward your trapped arm rather than extending away from it."

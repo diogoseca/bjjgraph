@@ -3,11 +3,11 @@
     "transition_files": 1037,
     "submission_files": 371,
     "position_files": 136,
-    "total_issues": 652,
-    "errors": 80,
+    "total_issues": 651,
+    "errors": 76,
     "warnings": 9,
-    "info": 563,
-    "orphaned_transitions": 4,
+    "info": 566,
+    "orphaned_transitions": 0,
     "orphaned_submissions": 126,
     "missing_transitions": 0,
     "naming_matches": 0,
@@ -16,41 +16,9 @@
     "invalid_from_positions": 0,
     "outcome_errors": 70,
     "outcome_warnings": 2,
-    "attempt_outliers": 437
+    "attempt_outliers": 440
   },
   "issues": [
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Frame from Side Control",
-      "file": "content/Transitions/Frame from Side Control.json",
-      "from_position": "Side Control/Bottom",
-      "message": "Orphaned transition: 'Frame from Side Control' (from: Side Control/Bottom) — suggest adding to Side Control/Bottom"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Hip Escape from Side Control",
-      "file": "content/Transitions/Hip Escape from Side Control.json",
-      "from_position": "Side Control/Bottom",
-      "message": "Orphaned transition: 'Hip Escape from Side Control' (from: Side Control/Bottom) — suggest adding to Side Control/Bottom"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Side Control to Knee on Belly",
-      "file": "content/Transitions/Side Control to Knee on Belly.json",
-      "from_position": "Side Control/Top",
-      "message": "Orphaned transition: 'Side Control to Knee on Belly' (from: Side Control/Top) — suggest adding to Side Control/Top"
-    },
-    {
-      "type": "orphaned_transition",
-      "severity": "error",
-      "name": "Single Leg to Back Take",
-      "file": "content/Transitions/Single Leg to Back Take.json",
-      "from_position": "Standing Position/Top",
-      "message": "Orphaned transition: 'Single Leg to Back Take' (from: Standing Position/Top) — suggest adding to Standing Position/Top"
-    },
     {
       "type": "orphaned_submission",
       "severity": "info",
@@ -5280,109 +5248,129 @@
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'North-South Choke from Side Control' has only 2% attempt probability",
+      "message": "top: 'Ezekiel Choke from Side Control' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Ezekiel Choke from Side Control",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Side Control to Kesa Gatame' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Side Control to Kesa Gatame",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'North-South Choke from Side Control' has only 1% attempt probability",
       "severity": "info",
       "transition": "North-South Choke from Side Control",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Breadcutter Choke from Side Control' has only 2% attempt probability",
+      "message": "top: 'Breadcutter Choke from Side Control' has only 1% attempt probability",
       "severity": "info",
       "transition": "Breadcutter Choke from Side Control",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Side Control to Scarf Hold Position' has only 2% attempt probability",
+      "message": "top: 'Side Control to Scarf Hold Position' has only 1% attempt probability",
       "severity": "info",
       "transition": "Side Control to Scarf Hold Position",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Arm Crush' has only 2% attempt probability",
+      "message": "top: 'Arm Crush' has only 1% attempt probability",
       "severity": "info",
       "transition": "Arm Crush",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Straight Armbar' has only 2% attempt probability",
+      "message": "top: 'Straight Armbar' has only 1% attempt probability",
       "severity": "info",
       "transition": "Straight Armbar",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Far Side Armbar' has only 2% attempt probability",
+      "message": "top: 'Far Side Armbar' has only 1% attempt probability",
       "severity": "info",
       "transition": "Far Side Armbar",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Kneebar Finish' has only 2% attempt probability",
+      "message": "top: 'Kneebar Finish' has only 1% attempt probability",
       "severity": "info",
       "transition": "Kneebar Finish",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Marce Choke' has only 2% attempt probability",
+      "message": "top: 'Marce Choke' has only 1% attempt probability",
       "severity": "info",
       "transition": "Marce Choke",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Mir Lock' has only 2% attempt probability",
+      "message": "top: 'Mir Lock' has only 1% attempt probability",
       "severity": "info",
       "transition": "Mir Lock",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Triangle Choke Side' has only 2% attempt probability",
+      "message": "top: 'Triangle Choke Side' has only 1% attempt probability",
       "severity": "info",
       "transition": "Triangle Choke Side",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Side Control.json",
       "position": "Side Control",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Von Flue Choke' has only 1% attempt probability",
+      "message": "top: 'Side Control to Knee on Belly' has only 1% attempt probability",
       "severity": "info",
-      "transition": "Von Flue Choke",
+      "transition": "Side Control to Knee on Belly",
       "current": 1
     },
     {
@@ -5390,10 +5378,20 @@
       "position": "Side Control",
       "role": "bottom",
       "type": "attempt_negligible",
-      "message": "bottom: 'Turtle from Side Control Bottom' has only 2% attempt probability",
+      "message": "bottom: 'Sit Out from Side Control' has only 1% attempt probability",
       "severity": "info",
-      "transition": "Turtle from Side Control Bottom",
-      "current": 2
+      "transition": "Sit Out from Side Control",
+      "current": 1
+    },
+    {
+      "file": "content/Positions/Side Control.json",
+      "position": "Side Control",
+      "role": "bottom",
+      "type": "attempt_negligible",
+      "message": "bottom: 'Hip Escape from Side Control' has only 1% attempt probability",
+      "severity": "info",
+      "transition": "Hip Escape from Side Control",
+      "current": 1
     },
     {
       "file": "content/Positions/Spider Guard.json",
@@ -5470,69 +5468,129 @@
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Deashi Harai' has only 2% attempt probability",
+      "message": "top: 'Ankle Pick' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Ankle Pick",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Arm Drag to Back' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Arm Drag to Back",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Body Lock Takedown' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Body Lock Takedown",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Jumping Guard' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Jumping Guard",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Osoto Gari' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Osoto Gari",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Ouchi Gari' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Ouchi Gari",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Tomoe Nage' has only 2% attempt probability",
+      "severity": "info",
+      "transition": "Tomoe Nage",
+      "current": 2
+    },
+    {
+      "file": "content/Positions/Standing Position.json",
+      "position": "Standing Position",
+      "role": "top",
+      "type": "attempt_negligible",
+      "message": "top: 'Deashi Harai' has only 1% attempt probability",
       "severity": "info",
       "transition": "Deashi Harai",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Harai Goshi' has only 2% attempt probability",
+      "message": "top: 'Harai Goshi' has only 1% attempt probability",
       "severity": "info",
       "transition": "Harai Goshi",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Ippon Seoi Nage' has only 2% attempt probability",
+      "message": "top: 'Ippon Seoi Nage' has only 1% attempt probability",
       "severity": "info",
       "transition": "Ippon Seoi Nage",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Russian Tie to Back Take' has only 2% attempt probability",
+      "message": "top: 'Russian Tie to Back Take' has only 1% attempt probability",
       "severity": "info",
       "transition": "Russian Tie to Back Take",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Sumi Gaeshi' has only 2% attempt probability",
+      "message": "top: 'Sumi Gaeshi' has only 1% attempt probability",
       "severity": "info",
       "transition": "Sumi Gaeshi",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Tani Otoshi' has only 2% attempt probability",
+      "message": "top: 'Tani Otoshi' has only 1% attempt probability",
       "severity": "info",
       "transition": "Tani Otoshi",
-      "current": 2
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: '50-50 Entry from Standing' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "50-50 Entry from Standing",
       "current": 1
     },
     {
@@ -5540,79 +5598,19 @@
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Body Lock Pass' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Body Lock Pass",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Kosoto Gake' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Kosoto Gake",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Kosoto Gari' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Kosoto Gari",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Morote Seoi Nage' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Morote Seoi Nage",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Sasae Tsurikomi Ashi' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Sasae Tsurikomi Ashi",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Tai Otoshi' has only 1% attempt probability",
-      "severity": "info",
-      "transition": "Tai Otoshi",
-      "current": 1
-    },
-    {
-      "file": "content/Positions/Standing Position.json",
-      "position": "Standing Position",
-      "role": "top",
-      "type": "attempt_negligible",
-      "message": "top: 'Flying Kneebar' has only 2% attempt probability",
+      "message": "top: 'Flying Kneebar' has only 1% attempt probability",
       "severity": "info",
       "transition": "Flying Kneebar",
-      "current": 2
+      "current": 1
     },
     {
       "file": "content/Positions/Standing Position.json",
       "position": "Standing Position",
       "role": "top",
       "type": "attempt_negligible",
-      "message": "top: 'Reverse Kimura' has only 1% attempt probability",
+      "message": "top: 'Single Leg to Back Take' has only 1% attempt probability",
       "severity": "info",
-      "transition": "Reverse Kimura",
+      "transition": "Single Leg to Back Take",
       "current": 1
     },
     {
@@ -6067,30 +6065,5 @@
     }
   ],
   "naming_inconsistencies": [],
-  "orphan_fix_suggestions": [
-    {
-      "orphan": "Frame from Side Control",
-      "suggested_position": "Side Control",
-      "suggested_role": "Bottom",
-      "position_file": "content/Positions/Side Control.json"
-    },
-    {
-      "orphan": "Hip Escape from Side Control",
-      "suggested_position": "Side Control",
-      "suggested_role": "Bottom",
-      "position_file": "content/Positions/Side Control.json"
-    },
-    {
-      "orphan": "Side Control to Knee on Belly",
-      "suggested_position": "Side Control",
-      "suggested_role": "Top",
-      "position_file": "content/Positions/Side Control.json"
-    },
-    {
-      "orphan": "Single Leg to Back Take",
-      "suggested_position": "Standing Position",
-      "suggested_role": "Top",
-      "position_file": "content/Positions/Standing Position.json"
-    }
-  ]
+  "orphan_fix_suggestions": []
 }

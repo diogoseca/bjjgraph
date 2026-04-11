@@ -217,7 +217,7 @@
         "description": "Positional sparring starting from DLR guard with opponent trying to pass while you work transitions to X-Guard and immediate sweeping attacks. Add submission threats from X-Guard position. Track success rates and identify weak points."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary timing trigger for initiating the De La Riva to X-Guard transition?",
         "answer": "The optimal timing is when opponent has committed their weight forward onto their DLR-hooked leg with a relatively wide base. This weight distribution allows for effective elevation once X-Guard is established. Conversely, if opponent has backward weight or narrow base, maintaining DLR for direct sweeps is typically more effective."
@@ -342,7 +342,7 @@
         "correction": "Defend proactively during the transition window, not reactively after completion. The earliest cue (grip transition to underhook) should trigger immediate defensive action. Every second of delay makes defense exponentially harder."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is initiating the DLR to X-Guard transition?",
         "answer": "The earliest reliable cue is the grip transition: the bottom player releases their collar or sleeve grip and reaches for an underhook or deep pant grip on your near side. This grip change precedes the hook reconfiguration by several seconds and signals the beginning of the transition sequence. The hip rotation underneath follows shortly after, but the grip switch is detectable first."

@@ -346,7 +346,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary grip configuration for controlling turtle and why is it essential before attempting hooks?",
         "answer": "The seatbelt grip (over-under harness) is the primary control configuration, with one arm over the opponent's shoulder and the other under their armpit, hands clasped together. This grip is essential before attempting hooks because it controls the opponent's upper body and prevents them from turning into you, sitting to guard, or standing up. Without upper body control first, hook attempts are easily defended and you risk losing the position entirely."
@@ -641,7 +641,7 @@
         "attempt_probability": 6
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the essential body position for maintaining a defensive turtle that protects against both chokes and back takes?",
         "answer": "The essential defensive turtle requires a rounded back with chin tucked tightly to chest, elbows glued to the inside of your knees creating a protective shell, and hips elevated off the mat with weight distributed evenly across all four points of contact. This configuration protects the neck from chokes by eliminating space, prevents underhook penetration that leads to flattening and back takes, and maintains mobility for dynamic escapes. The rounded spine and tucked chin specifically defend the carotid arteries from arm-in chokes."

@@ -272,15 +272,17 @@ The `game-over` page (`content/game-over.md`) is a sink node - once reached, the
 Client-side spaced repetition system using SM-2 algorithm. All data stored in localStorage (no backend).
 
 **Terminology — Cards vs Techniques:**
-- A **technique** = one transition or submission (e.g., "Armbar from Mount"). Each technique has multiple quiz questions in its `knowledgeAssessment` array.
-- An **SRS card** = one technique. There is exactly one card per technique name. The SM-2 algorithm tracks the technique as a unit, not individual questions.
-- When reviewing a technique, the user sees random questions from its assessment pool. After rating (Again/Hard/Easy), the entire technique's SRS metrics update.
+- A **technique** = one transition or submission (e.g., "Armbar from Mount"). Each technique has multiple flashcards (Q&A pairs) in its `flashcards` array.
+- An **SRS card** = one technique. There is exactly one card per technique name. The SM-2 algorithm tracks the technique as a unit, not individual flashcards.
+- When reviewing a technique, the user sees random flashcards from its pool. After rating (Again/Hard/Easy), the entire technique's SRS metrics update.
+
+**Field name:** Source JSON uses `flashcards` across all content types. Role-nested where roles exist (`top.flashcards`, `bottom.flashcards`, `attacker.flashcards`, `defender.flashcards`). Principles and Systems have a single top-level `flashcards` array.
 
 **Daily Goal:** Single capacity number (default 30). Due reviews fill first, remaining slots are new technique suggestions selected by graph connectivity scoring.
 
 **"Memorized"** = techniques NOT due today (`allCards.length - dueCards.length`). Includes both upcoming and mastered cards.
 
-**Per-question mastery:** Each SRS card has a `questionsMastered: number[]` field tracking which question indices were answered correctly (Hard/Easy). Mastery % = `questionsMastered.length / knowledgeAssessment.length`. One correct answer = mastered for that question.
+**Per-flashcard mastery:** Each SRS card has a `flashcardsMastered: number[]` field tracking which flashcard indices were answered correctly (Hard/Easy). Mastery % = `flashcardsMastered.length / flashcards.length`. One correct answer = mastered for that flashcard.
 
 **Dashboard layout (4 sections):**
 1. **Hero** — Completion banner + Start/Continue session button + progress bar + streak

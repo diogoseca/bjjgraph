@@ -343,7 +343,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical weight distribution adjustment when your opponent attempts a butterfly sweep from open guard?",
         "answer": "When opponent attempts a butterfly sweep, immediately shift your weight backward and lower your hips while widening your base. Drive your hips back rather than forward, as forward weight gives them the leverage they need. Your hands should maintain control of their legs or hips while your center of gravity moves away from their lifting vector. This neutralizes the sweep angle and allows you to either reset your passing position or capitalize on their extended hooks."
@@ -691,7 +691,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal weight distribution and stance for maintaining defensive stability while remaining mobile in Standing Guard Bottom?",
         "answer": "Maintain weight on the balls of your feet with knees bent in an athletic stance, hips slightly back, and approximately 60% of weight on your rear foot for stability while keeping the front foot light for quick movement. Your stance width should be roughly shoulder-width, allowing lateral movement in either direction. This distribution enables quick level changes for guard pulls, lateral circling to avoid pressure, and immediate sprawling if opponent shoots for takedowns."

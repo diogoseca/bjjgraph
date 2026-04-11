@@ -198,7 +198,7 @@
         "description": "Implement Mission Control Recovery in live rolling with full resistance. Track success rate and identify failure patterns. Refine timing and execution based on live feedback from resisting opponents."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of Mission Control Recovery?",
         "answer": "The primary goal is to return to Mission Control position when a gogoplata attempt fails, preserving positional advantage and attack options rather than conceding the entire guard position. This transforms a failed submission into continued offensive pressure."
@@ -321,7 +321,7 @@
         "correction": "If driving forward, use your inside arm to control the overhook wrist or elbow first, eliminating the ability to redirect your momentum. Only commit to stacking pressure once the overhook is neutralized or controlled."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the critical timing window for defending against Mission Control Recovery?",
         "answer": "The window opens the moment the bottom player's shin begins sliding off your throat and closes when they grab their own shin to lock Mission Control. This window lasts approximately one to two seconds. Any defensive action taken after the shin grab consolidates Mission Control will face dramatically higher resistance because the position's structural integrity is restored."

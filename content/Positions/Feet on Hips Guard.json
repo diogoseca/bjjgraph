@@ -338,7 +338,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first step you should take before attempting any pass against feet on hips guard?",
         "answer": "Establish strong bilateral pants grips at or just below the knees before initiating any passing movement. This grip control neutralizes the pushing power of the opponent's leg frames and prevents them from extending fully to create distance. Without knee control, the bottom player retains full leg extension capability which makes any pass extremely difficult to complete."
@@ -675,7 +675,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal foot placement for maintaining feet on hips guard and why?",
         "answer": "Place the ball of each foot directly on the opponent's hip bones (anterior superior iliac spine landmarks), not on the thighs or stomach. This bony contact point provides maximum structural stability and pushing efficiency because bone-on-bone contact transmits force more effectively than pressing against soft tissue. The ball of the foot creates a broad, stable pushing surface while maintaining sensitivity to the opponent's weight shifts and movement."

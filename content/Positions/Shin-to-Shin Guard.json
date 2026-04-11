@@ -315,7 +315,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary strategic objective when facing shin-to-shin guard from top position?",
         "answer": "The primary objective is to systematically neutralize the shin connection while preventing transitions to more dangerous positions like single leg X or X-guard. This requires establishing upper body control first to prevent distance management grips, then methodically clearing the shin using circling, backsteps, or controlled pressure rather than forcing directly through the connection."
@@ -634,7 +634,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal placement and angle for the shin connection in shin-to-shin guard?",
         "answer": "Position your shin across the lower third of the opponent's tibia at approximately 45 degrees perpendicular to their leg. This placement creates maximum leverage for off-balancing while making it mechanically difficult for them to clear without exposing themselves to transitions. Too high (near knee) reduces leverage; too low (near ankle) allows easy clearing; too shallow an angle provides insufficient control over their base."

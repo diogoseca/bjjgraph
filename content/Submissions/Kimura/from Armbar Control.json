@@ -276,7 +276,7 @@
         "description": "Begin in armbar control position. Top player attempts armbar or kimura chain. Bottom player uses full defensive repertoire. Reset after submission, escape, or 60 seconds. Track submission rate and identify which defensive responses cause the most difficulty for targeted improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from Armbar Control primarily attack?",
         "answer": "The Kimura from Armbar Control targets the shoulder joint through forced external rotation, specifically stressing the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, the glenoid labrum, and the surrounding ligaments. The rotational force is concentrated on the glenohumeral joint where the humerus meets the scapula.",
@@ -402,7 +402,7 @@
         "correction": "Tap immediately when you feel the rotation reaching the end of your comfortable range of motion. Shoulder injuries are among the most debilitating in grappling and recovery time far exceeds the cost of conceding a training tap."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that your opponent is switching from armbar to kimura?",
         "answer": "The earliest cue is feeling one of the attacker's hands release wrist control and begin threading under your bent forearm from the outside. You may also notice a shift in pressure direction from a linear pull along your arm's length to a circular or rotational force around your forearm. The grip configuration change from open wrist control to an encircling figure-four pattern is the definitive confirmation.",

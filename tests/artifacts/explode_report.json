@@ -1,110 +1,11 @@
 {
-  "issues": [
-    {
-      "type": "orphaned_transition",
-      "name": "Frame from Side Control",
-      "file": "content/Transitions/Frame from Side Control.json",
-      "from_position": "Side Control/Bottom"
-    },
-    {
-      "type": "orphaned_transition",
-      "name": "Hip Escape from Side Control",
-      "file": "content/Transitions/Hip Escape from Side Control.json",
-      "from_position": "Side Control/Bottom"
-    },
-    {
-      "type": "orphaned_transition",
-      "name": "Side Control to Knee on Belly",
-      "file": "content/Transitions/Side Control to Knee on Belly.json",
-      "from_position": "Side Control/Top"
-    },
-    {
-      "type": "orphaned_transition",
-      "name": "Single Leg to Back Take",
-      "file": "content/Transitions/Single Leg to Back Take.json",
-      "from_position": "Standing Position/Top"
-    }
-  ],
-  "actions": [
-    {
-      "action": "add_ref",
-      "position": "Side Control",
-      "role": "bottom",
-      "transition": "Frame from Side Control",
-      "reason": "Connect orphaned transition 'Frame from Side Control' to Side Control/bottom"
-    },
-    {
-      "action": "add_ref",
-      "position": "Side Control",
-      "role": "bottom",
-      "transition": "Hip Escape from Side Control",
-      "reason": "Connect orphaned transition 'Hip Escape from Side Control' to Side Control/bottom"
-    },
-    {
-      "action": "add_ref",
-      "position": "Side Control",
-      "role": "top",
-      "transition": "Side Control to Knee on Belly",
-      "reason": "Connect orphaned transition 'Side Control to Knee on Belly' to Side Control/top"
-    },
-    {
-      "action": "add_ref",
-      "position": "Standing Position",
-      "role": "top",
-      "transition": "Single Leg to Back Take",
-      "reason": "Connect orphaned transition 'Single Leg to Back Take' to Standing Position/top"
-    }
-  ],
-  "results": [
-    {
-      "action": {
-        "action": "add_ref",
-        "position": "Side Control",
-        "role": "bottom",
-        "transition": "Frame from Side Control",
-        "reason": "Connect orphaned transition 'Frame from Side Control' to Side Control/bottom"
-      },
-      "status": "applied",
-      "file": "content/Positions/Side Control.json"
-    },
-    {
-      "action": {
-        "action": "add_ref",
-        "position": "Side Control",
-        "role": "bottom",
-        "transition": "Hip Escape from Side Control",
-        "reason": "Connect orphaned transition 'Hip Escape from Side Control' to Side Control/bottom"
-      },
-      "status": "applied",
-      "file": "content/Positions/Side Control.json"
-    },
-    {
-      "action": {
-        "action": "add_ref",
-        "position": "Side Control",
-        "role": "top",
-        "transition": "Side Control to Knee on Belly",
-        "reason": "Connect orphaned transition 'Side Control to Knee on Belly' to Side Control/top"
-      },
-      "status": "applied",
-      "file": "content/Positions/Side Control.json"
-    },
-    {
-      "action": {
-        "action": "add_ref",
-        "position": "Standing Position",
-        "role": "top",
-        "transition": "Single Leg to Back Take",
-        "reason": "Connect orphaned transition 'Single Leg to Back Take' to Standing Position/top"
-      },
-      "status": "applied",
-      "file": "content/Positions/Standing Position.json"
-    }
-  ],
+  "issues": [],
+  "actions": [],
+  "results": [],
   "summary": {
-    "issues_found": 4,
-    "actions_planned": 4,
-    "applied": 4,
+    "issues_found": 0,
+    "actions_planned": 0,
+    "applied": 0,
     "skipped": 0
   }
 }

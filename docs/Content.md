@@ -157,9 +157,9 @@ Submissions generate 3 pages: Hub, Attacker, Defender. Same attacker/defender pa
 
 ---
 
-## Knowledge Assessment Guidelines
+## Flashcards Guidelines
 
-The `knowledge_assessment` array (5-20 Q&A pairs) should be tailored to each content type's nature:
+The `flashcards` array (5-20 Q&A pairs) should be tailored to each content type's nature:
 
 ### Positions = Stable States (Focus: RETENTION)
 

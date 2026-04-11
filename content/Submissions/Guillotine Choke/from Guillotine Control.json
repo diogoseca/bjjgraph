@@ -157,9 +157,9 @@
   "attacker": {
     "name": "from Guillotine Control Attacker",
     "description": "Complete attacking guide for finishing the guillotine choke from established guillotine control. Step-by-step finishing mechanics and counter-responses.",
-    "overview": "Executing the guillotine choke from established guillotine control shifts the challenge from initial entry to precise finishing mechanics. With the grip already secured and posture broken, the attacker must systematically eliminate remaining defensive space, optimize forearm placement across the neck structures, and apply progressive tightening until the opponent submits. The key advantage of finishing from established control is that you can invest full attention in compression mechanics rather than splitting focus between grip acquisition and positioning. Success requires understanding how different grip configurations\u2014standard, high-elbow, and arm-in\u2014each attack the neck from different angles, allowing seamless transitions when the defender adjusts. The attacker must also remain alert to positional advancement opportunities, using the choke threat to open pathways to mount, back control, or side control when the direct finish stalls.",
+    "overview": "Executing the guillotine choke from established guillotine control shifts the challenge from initial entry to precise finishing mechanics. With the grip already secured and posture broken, the attacker must systematically eliminate remaining defensive space, optimize forearm placement across the neck structures, and apply progressive tightening until the opponent submits. The key advantage of finishing from established control is that you can invest full attention in compression mechanics rather than splitting focus between grip acquisition and positioning. Success requires understanding how different grip configurations—standard, high-elbow, and arm-in—each attack the neck from different angles, allowing seamless transitions when the defender adjusts. The attacker must also remain alert to positional advancement opportunities, using the choke threat to open pathways to mount, back control, or side control when the direct finish stalls.",
     "key_principles": [
-      "Maintain zero space between your choking forearm and the opponent's neck\u2014any gap eliminates compression entirely",
+      "Maintain zero space between your choking forearm and the opponent's neck—any gap eliminates compression entirely",
       "Use skeletal structure and body positioning rather than muscular effort to generate choking pressure, keeping elbows pinned to ribs",
       "Follow the opponent's defensive movement with hip adjustments rather than fighting against their direction",
       "Coordinate upper body choking mechanics with lower body control to prevent escape while finishing",
@@ -184,7 +184,7 @@
       {
         "step_number": 2,
         "action": "Seal the choking loop",
-        "description": "Clasp your hands together in your chosen grip configuration\u2014palm-to-palm for maximum compression, gable grip for durability, or S-grip for versatility. Pull the clasped hands tight against the back of the opponent's neck to eliminate any slack in the loop. Your forearm and bicep should form a complete ring with no daylight visible.",
+        "description": "Clasp your hands together in your chosen grip configuration—palm-to-palm for maximum compression, gable grip for durability, or S-grip for versatility. Pull the clasped hands tight against the back of the opponent's neck to eliminate any slack in the loop. Your forearm and bicep should form a complete ring with no daylight visible.",
         "timing": "1 second"
       },
       {
@@ -214,7 +214,7 @@
       {
         "step_number": 7,
         "action": "Maintain and follow through finish",
-        "description": "Hold steady pressure as the choke takes effect. Do not release or readjust once you feel the opponent's resistance diminishing\u2014maintain the exact position and pressure that is working. Monitor for tap signals constantly and be prepared for immediate release. If the opponent attempts last-ditch escapes, follow their movement with your hips while keeping the choking structure locked.",
+        "description": "Hold steady pressure as the choke takes effect. Do not release or readjust once you feel the opponent's resistance diminishing—maintain the exact position and pressure that is working. Monitor for tap signals constantly and be prepared for immediate release. If the opponent attempts last-ditch escapes, follow their movement with your hips while keeping the choking structure locked.",
         "timing": "3-8 seconds until tap or unconsciousness"
       }
     ],
@@ -314,20 +314,20 @@
         "description": "During regular sparring rounds, prioritize securing guillotine control from natural exchanges (sprawls, clinch, scrambles) and immediately executing finishing sequences. Track finish rate to measure improvement. Develops the ability to transition from chaotic exchanges to controlled finishing positions. Full 5-minute rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the guillotine choke primarily attack and how does forearm placement determine the type of choke?",
         "answer": "The guillotine primarily targets the carotid arteries on both sides of the neck for a blood choke, and secondarily the trachea for an airway choke. Forearm placement determines which mechanism dominates: when the blade of the forearm crosses the front of the throat with the wrist bone centered, both carotids and the trachea are compressed. A slightly higher placement with the forearm angled upward emphasizes blood choke mechanics, while direct frontal pressure creates more tracheal compression. The high-elbow variation specifically targets the carotids by attacking behind the chin.",
         "safety_critical": false
       },
       {
-        "question": "Your opponent tucks their chin firmly against your forearm\u2014what grip adjustment converts a stalled choke into a finish?",
+        "question": "Your opponent tucks their chin firmly against your forearm—what grip adjustment converts a stalled choke into a finish?",
         "answer": "Transition to the high-elbow guillotine by driving your choking elbow toward the ceiling while maintaining wrist connection behind the opponent's head. This changes the angle of attack from front-of-throat to behind-and-above the chin, bypassing the chin tuck entirely. The elevated elbow creates a sharper angle that compresses the carotid arteries even with the chin tucked because the pressure now comes from above the jawline rather than through it.",
         "safety_critical": false
       },
       {
         "question": "What are the critical safety considerations when applying the guillotine choke and at what point must you release regardless of competition context?",
-        "answer": "The guillotine choke must always be applied with slow, progressive pressure over 3-5 seconds minimum\u2014never snapped or jerked. Release immediately upon any tap signal (verbal, hand tap, foot tap) or any sign of distress including loss of resistance, color change, gurgling sounds, or sudden limpness. In training, release at the first tap without exception. Even in competition, release the moment the referee intervenes. Tracheal damage from forceful application can cause permanent injury, and continued pressure after unconsciousness risks brain damage.",
+        "answer": "The guillotine choke must always be applied with slow, progressive pressure over 3-5 seconds minimum—never snapped or jerked. Release immediately upon any tap signal (verbal, hand tap, foot tap) or any sign of distress including loss of resistance, color change, gurgling sounds, or sudden limpness. In training, release at the first tap without exception. Even in competition, release the moment the referee intervenes. Tracheal damage from forceful application can cause permanent injury, and continued pressure after unconsciousness risks brain damage.",
         "safety_critical": true
       },
       {
@@ -341,13 +341,13 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins driving forward aggressively from inside your guillotine bottom control\u2014what adjustment prevents being stacked and passed?",
-        "answer": "Convert their forward pressure into a hip bump sweep by extending your hips upward and rolling them over your hip to mount while maintaining the guillotine grip throughout. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom\u2014redirect it.",
+        "question": "Your opponent begins driving forward aggressively from inside your guillotine bottom control—what adjustment prevents being stacked and passed?",
+        "answer": "Convert their forward pressure into a hip bump sweep by extending your hips upward and rolling them over your hip to mount while maintaining the guillotine grip throughout. Their committed forward drive provides the momentum for the sweep. If the sweep angle is not available, angle your hips away from their pressure direction and use butterfly hooks to redirect their weight laterally. Never fight their forward drive head-on from bottom—redirect it.",
         "safety_critical": false
       },
       {
         "question": "What is the difference between a finishing squeeze and a controlling squeeze, and why does this distinction matter for submission success?",
-        "answer": "A controlling squeeze maintains position and prevents escape using moderate sustained pressure, while a finishing squeeze applies progressive, increasing compression targeting the carotid arteries. The distinction matters because applying finishing intensity too early causes rapid forearm fatigue\u2014you can maintain a controlling squeeze for 60+ seconds but maximum finishing effort drains grip strength in 15-20 seconds. The correct approach is to use controlling pressure while optimizing position, then transition to finishing pressure only when angle, depth, and body positioning are fully optimized.",
+        "answer": "A controlling squeeze maintains position and prevents escape using moderate sustained pressure, while a finishing squeeze applies progressive, increasing compression targeting the carotid arteries. The distinction matters because applying finishing intensity too early causes rapid forearm fatigue—you can maintain a controlling squeeze for 60+ seconds but maximum finishing effort drains grip strength in 15-20 seconds. The correct approach is to use controlling pressure while optimizing position, then transition to finishing pressure only when angle, depth, and body positioning are fully optimized.",
         "safety_critical": false
       },
       {
@@ -357,7 +357,7 @@
       },
       {
         "question": "What grip adjustments should you make when the defender begins successfully peeling your hands apart?",
-        "answer": "When hand fighting threatens your grip, immediately switch to a more durable grip configuration\u2014from palm-to-palm to gable grip if they are attacking finger separation, or from gable grip to a deep S-grip that wraps further around the wrist. Simultaneously, re-pin your elbows to your ribs to reduce the leverage they have for peeling. If grip integrity is compromised, consider transitioning to a positional advancement rather than fighting a losing grip battle, using whatever remaining control you have to advance to mount or side control.",
+        "answer": "When hand fighting threatens your grip, immediately switch to a more durable grip configuration—from palm-to-palm to gable grip if they are attacking finger separation, or from gable grip to a deep S-grip that wraps further around the wrist. Simultaneously, re-pin your elbows to your ribs to reduce the leverage they have for peeling. If grip integrity is compromised, consider transitioning to a positional advancement rather than fighting a losing grip battle, using whatever remaining control you have to advance to mount or side control.",
         "safety_critical": false
       },
       {
@@ -370,15 +370,15 @@
   "defender": {
     "name": "from Guillotine Control Defender",
     "description": "Complete defensive guide against the guillotine choke from guillotine control. Recognition cues, escape mechanics, and survival strategies.",
-    "overview": "Defending the guillotine choke from established guillotine control requires immediate threat recognition and systematic escape mechanics before the choking structure tightens beyond the point of no return. The defender faces a compressing time window\u2014once the attacker's grip is fully sealed and posture is broken, escape becomes exponentially more difficult with each second. Effective defense prioritizes early recognition of the choking threat, posture recovery to create space for head extraction, and targeted hand fighting to disrupt the grip structure. The defender must also remain aware of positional consequences, as escaping the choke by conceding dominant position may create worse problems.\n\nThe most critical defensive principle is that prevention is vastly easier than escape. Recognizing the entry phase\u2014when the opponent threads their arm around your neck\u2014and addressing it before hands are clasped and posture is broken gives the defender a significant advantage. Once control is fully established, defense shifts to survival mode: protecting the airway through chin tuck, fighting the grip with both hands, and working systematic posture recovery to create the space needed to extract the head from the choking loop.",
+    "overview": "Defending the guillotine choke from established guillotine control requires immediate threat recognition and systematic escape mechanics before the choking structure tightens beyond the point of no return. The defender faces a compressing time window—once the attacker's grip is fully sealed and posture is broken, escape becomes exponentially more difficult with each second. Effective defense prioritizes early recognition of the choking threat, posture recovery to create space for head extraction, and targeted hand fighting to disrupt the grip structure. The defender must also remain aware of positional consequences, as escaping the choke by conceding dominant position may create worse problems.\n\nThe most critical defensive principle is that prevention is vastly easier than escape. Recognizing the entry phase—when the opponent threads their arm around your neck—and addressing it before hands are clasped and posture is broken gives the defender a significant advantage. Once control is fully established, defense shifts to survival mode: protecting the airway through chin tuck, fighting the grip with both hands, and working systematic posture recovery to create the space needed to extract the head from the choking loop.",
     "key_principles": [
-      "Address the guillotine threat during the entry phase before the grip is fully sealed\u2014prevention is far easier than escape",
+      "Address the guillotine threat during the entry phase before the grip is fully sealed—prevention is far easier than escape",
       "Protect your airway immediately with chin tuck, driving your chin down toward your chest to prevent forearm access to the trachea",
       "Fight the grip with both hands simultaneously, targeting the weakest point of the clasp rather than pulling against the entire structure",
       "Recover posture progressively by walking your hands up the opponent's body while driving your hips forward to create space",
-      "Maintain awareness of positional consequences\u2014do not escape the choke only to concede mount or back control",
+      "Maintain awareness of positional consequences—do not escape the choke only to concede mount or back control",
       "Use directional movement (turning into the opponent) to reduce choking angle rather than pulling straight away",
-      "Recognize when to tap\u2014if the choke is fully locked and escape options are exhausted, tapping prevents serious injury"
+      "Recognize when to tap—if the choke is fully locked and escape options are exhausted, tapping prevents serious injury"
     ],
     "recognition_cues": [
       "Opponent's arm threading around your neck from the front with their forearm crossing your throat",
@@ -418,10 +418,10 @@
       }
     ],
     "escape_paths": [
-      "Posture recovery to head extraction\u2014stack hands on opponent's hips, drive head up and back, extract head from the loop once space is created",
-      "Von Flue counter from top position\u2014drive shoulder into opponent's neck while they hold guillotine from bottom, using their own grip as a compression point",
-      "Turn and pass to side control\u2014rotate into the opponent and drive past their guard, forcing grip release due to positional change",
-      "Grip strip and posture\u2014peel opponent's hands apart at the clasp point using both hands, then immediately posture and extract head"
+      "Posture recovery to head extraction—stack hands on opponent's hips, drive head up and back, extract head from the loop once space is created",
+      "Von Flue counter from top position—drive shoulder into opponent's neck while they hold guillotine from bottom, using their own grip as a compression point",
+      "Turn and pass to side control—rotate into the opponent and drive past their guard, forcing grip release due to positional change",
+      "Grip strip and posture—peel opponent's hands apart at the clasp point using both hands, then immediately posture and extract head"
     ],
     "favorable_outcomes": [
       {
@@ -460,7 +460,7 @@
         "correction": "If you are the one being guillotined from top and the opponent holds from bottom, recognize that passing guard actually helps you. But if you are holding a guillotine from bottom and they begin passing, release immediately and re-guard."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive action you should take when you feel a guillotine grip establishing around your neck?",
         "answer": "Immediately tuck your chin down toward your chest to protect the trachea and reduce the attacker's access to the carotid arteries. Simultaneously, begin posture recovery by driving your hips forward and stacking your hands on the opponent's body. The chin tuck buys critical time by reducing the effectiveness of the choke while you work on grip fighting and posture recovery. Every second of delay before these actions makes escape exponentially harder.",
@@ -468,17 +468,17 @@
       },
       {
         "question": "When should you tap to a guillotine choke rather than continuing to fight the escape?",
-        "answer": "Tap immediately if you feel lightheadedness, vision changes (tunneling or darkening), inability to create any defensive movement or progress, or if the choke has been locked for more than 3-4 seconds with full compression and you have no viable escape path remaining. In training, always err on the side of tapping early\u2014there is no training scenario that justifies risking unconsciousness or injury. The 'tough it out' mentality with chokes leads to preventable injuries.",
+        "answer": "Tap immediately if you feel lightheadedness, vision changes (tunneling or darkening), inability to create any defensive movement or progress, or if the choke has been locked for more than 3-4 seconds with full compression and you have no viable escape path remaining. In training, always err on the side of tapping early—there is no training scenario that justifies risking unconsciousness or injury. The 'tough it out' mentality with chokes leads to preventable injuries.",
         "safety_critical": true
       },
       {
         "question": "What defensive options are available against the guillotine choke from different positional contexts?",
-        "answer": "From top position: posture up using hands stacked on opponent's hips, hand fight the grip, or pass to side control to set up Von Flue counter. From bottom position being guillotined: work underhook on choking side and circle to change angle, or strip the grip and recover guard. The positional context determines which defense is most effective\u2014top position generally offers better escape options because you can use your body weight and gravity to assist posture recovery.",
+        "answer": "From top position: posture up using hands stacked on opponent's hips, hand fight the grip, or pass to side control to set up Von Flue counter. From bottom position being guillotined: work underhook on choking side and circle to change angle, or strip the grip and recover guard. The positional context determines which defense is most effective—top position generally offers better escape options because you can use your body weight and gravity to assist posture recovery.",
         "safety_critical": false
       },
       {
         "question": "Why is pulling straight backward the wrong defensive response to a guillotine and what should you do instead?",
-        "answer": "Pulling straight backward extends the neck into the choking forearm, actually increasing compression on the carotid arteries and trachea. This is the most common defensive error and it accelerates the submission. Instead, drive forward and upward\u2014push your hips toward the opponent while driving your head toward the ceiling. This stacks the opponent, reduces the angle of the choke, and creates the space needed for head extraction. Forward pressure combined with posture is the correct escape direction.",
+        "answer": "Pulling straight backward extends the neck into the choking forearm, actually increasing compression on the carotid arteries and trachea. This is the most common defensive error and it accelerates the submission. Instead, drive forward and upward—push your hips toward the opponent while driving your head toward the ceiling. This stacks the opponent, reduces the angle of the choke, and creates the space needed for head extraction. Forward pressure combined with posture is the correct escape direction.",
         "safety_critical": false
       },
       {

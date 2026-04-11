@@ -244,7 +244,7 @@
         "description": "Timed rounds simulating competition intensity where you must decide between maintaining Piranha, transitioning to Worm Guard, or abandoning lapel guard entirely. Partner applies maximum passing pressure. Develop the judgment to know when the transition is tactically optimal versus when holding Piranha or retreating to open guard is the safer choice."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the Piranha to Worm Guard transition?",
         "answer": "The optimal window opens when the opponent is reacting to a Piranha-specific attack threat—such as recovering their base after a sweep attempt—rather than actively grip-fighting or initiating a pass. During their defensive recovery, their hands are occupied with balance rather than lapel control, and their lead leg is typically posted in a predictable position. Initiating during an active pass attempt is dangerous because your grip transition creates vulnerability. The secondary window is when they pause to reassess, creating a brief moment of static positioning where the DLR hook can be set without resistance."
@@ -361,7 +361,7 @@
         "correction": "Circle your lead leg outward and laterally while pulling back, creating a spiral extraction path that allows the lapel to slide off your thigh rather than catching against it."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that the bottom player is initiating a Piranha to Worm Guard transition rather than maintaining standard Piranha Guard attacks?",
         "answer": "The earliest cue is the bottom player's hip angle changing from square (facing you directly for Piranha attacks) to angled toward your lead leg, typically accompanied by their outside foot seeking a DLR hook behind your knee or calf. Standard Piranha attacks like pendulum sweeps use symmetrical hip positioning, so the asymmetric hip shift toward one of your legs specifically signals the worm guard evolution. This hip angle change typically precedes the grip transfer by one to two seconds, giving you a reaction window."

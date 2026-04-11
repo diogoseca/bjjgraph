@@ -30,7 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.TreeExplorer(),
     Component.MoveCards(),
     Component.OutcomeCards(),
-    Component.TransitionFlashcard(),
+    Component.Flashcard(),
     Component.Graph({
       localGraph: { showTags: false, depth: 1 },
       globalGraph: { showTags: false },

@@ -243,7 +243,7 @@
         "description": "Simulate match situations where overhook control is failing and you must decide between maintaining the grip, attempting a sweep, or transitioning to half guard. Include time pressure scenarios and scoring situations where maintaining guard matters. Develop automatic recognition of when this transition is the tactically correct choice."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your overhook grip is starting to weaken as the top player systematically strips your control - when is the optimal moment to initiate the transition to half guard?",
         "answer": "The optimal moment is when you still have sufficient overhook control to manage the top player's posture but recognize that the grip will fail within the next 3-5 seconds. Initiating the transition while you still have the overhook as a controlling frame gives you the best chance of threading your leg safely. Waiting until the overhook completely fails leaves you in an uncontrolled scramble where the top player can easily pass to side control. The overhook serves as your managing frame during the transition, so it must still be functional when you begin."
@@ -359,7 +359,7 @@
         "correction": "Develop awareness of the early indicators: hip escape movement starting, inside knee angling inward, subtle loosening of overhook grip, and shifting body angle. Responding in the first second of initiation prevents the transition entirely."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "You feel the bottom player beginning to hip escape and their inside knee moving toward your legs - what is the most effective immediate response?",
         "answer": "Drive your hips forward immediately and increase chest-to-chest pressure to eliminate the space the bottom player needs for leg insertion. Simultaneously sprawl your threatened leg backward to prevent their knee from entering between your legs. Use your crossface arm to turn their face away from the insertion side, which limits their hip mobility and prevents the diagonal angle. Speed is critical because the transition window is only 2-3 seconds, and addressing it in the first second prevents the movement entirely."

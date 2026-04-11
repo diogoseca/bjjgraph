@@ -14,7 +14,7 @@
   "target_area": "Elbow joint",
   "starting_position": "Closed Guard",
   "success_rate": 62,
-  "overview": "The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics\u2014you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.",
+  "overview": "The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics—you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -54,12 +54,12 @@
       "If pain persists, apply ice and seek medical evaluation"
     ],
     "training_restrictions": [
-      "Never spike or jerk the armbar\u2014always apply smooth, progressive pressure",
-      "Never use competition speed in training\u2014control and communication are paramount",
+      "Never spike or jerk the armbar—always apply smooth, progressive pressure",
+      "Never use competition speed in training—control and communication are paramount",
       "Always ensure training partner has clear tap access with at least one free hand",
       "Stop immediately at first sign of discomfort, even before verbal tap",
       "Beginners should practice finishing mechanics on compliant partners only",
-      "Never continue pressure after tap signal\u2014release immediately"
+      "Never continue pressure after tap signal—release immediately"
     ]
   },
   "outcomes": [
@@ -110,7 +110,7 @@
     },
     {
       "name": "Triangle Choke",
-      "relationship": "Common combination\u2014triangle threats set up armbar opportunities"
+      "relationship": "Common combination—triangle threats set up armbar opportunities"
     },
     {
       "name": "Omoplata",
@@ -148,9 +148,9 @@
   "attacker": {
     "name": "Armbar from Guard Attacker",
     "description": "How to execute Armbar from Guard in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
-    "overview": "The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics\u2014you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.",
+    "overview": "The armbar from guard is one of the most fundamental and highest-percentage submissions in Brazilian Jiu-Jitsu. This technique targets the elbow joint by hyperextending it against the natural range of motion, forcing a tap or causing structural damage. From closed guard, the armbar represents a perfect marriage of positional control and finishing mechanics—you maintain the defensive safety of guard position while simultaneously attacking with a fight-ending submission. The armbar from guard is typically the first submission taught to beginners because it introduces the essential concepts of angle creation, hip control, and limb isolation that underpin all joint lock attacks. What makes this technique particularly effective is that it can be entered from multiple guard variations and combined seamlessly with other attacks like triangles and omoplatas, creating powerful submission chains that are difficult to defend.",
     "key_principles": [
-      "Break posture first\u2014opponent cannot defend armbar effectively from broken posture",
+      "Break posture first—opponent cannot defend armbar effectively from broken posture",
       "Control the head and shoulder line to prevent posture recovery",
       "Isolate the attacking arm by securing it across your centerline",
       "Create perpendicular angle to maximize leverage and minimize opponent's defensive options",
@@ -159,10 +159,10 @@
       "Thumb points up during extension to target the elbow joint correctly"
     ],
     "setup_requirements": [
-      "Opponent's posture must be broken\u2014head pulled down and forward pressure eliminated",
+      "Opponent's posture must be broken—head pulled down and forward pressure eliminated",
       "Secure strong grip control on opponent's arm (typically cross-collar grip or sleeve grip)",
       "Opponent's trapped arm must be isolated across your centerline",
-      "Your hips must be mobile\u2014not flattened to the mat by opponent's weight",
+      "Your hips must be mobile—not flattened to the mat by opponent's weight",
       "Create initial angle by shifting hips out approximately 45 degrees",
       "Establish leg position over opponent's head before committing to rotation",
       "Maintain continuous grip on the attacking arm throughout the entire movement"
@@ -195,7 +195,7 @@
       {
         "step_number": 5,
         "action": "Secure proper arm position and hip placement",
-        "description": "Ensure opponent's arm is between your legs with their thumb pointing up toward the ceiling. Your hips should be tight to their shoulder\u2014imagine trying to touch your tailbone to their shoulder. Both hands should grip their wrist or forearm to prevent any arm extraction. Your knees must be squeezed together to prevent them from rotating their elbow away from danger.",
+        "description": "Ensure opponent's arm is between your legs with their thumb pointing up toward the ceiling. Your hips should be tight to their shoulder—imagine trying to touch your tailbone to their shoulder. Both hands should grip their wrist or forearm to prevent any arm extraction. Your knees must be squeezed together to prevent them from rotating their elbow away from danger.",
         "timing": "Adjustment phase - 2-3 seconds"
       },
       {
@@ -233,7 +233,7 @@
       {
         "counter": "Opponent locks their hands together in defensive grip",
         "effectiveness": "Low",
-        "your_response": "Apply progressive hip pressure to break the grip\u2014most grips will break under sustained pressure. Can also peel the defensive hand away by attacking the thumb, or transition to triangle while they focus on grip defense.",
+        "your_response": "Apply progressive hip pressure to break the grip—most grips will break under sustained pressure. Can also peel the defensive hand away by attacking the thumb, or transition to triangle while they focus on grip defense.",
         "targets_outcome": "game-over"
       }
     ],
@@ -246,17 +246,17 @@
       {
         "error": "Letting hips drop to mat during finish",
         "consequence": "Drastically reduces leverage and allows opponent to escape or stack you",
-        "correction": "Maintain elevated hips throughout finish\u2014actively drive hips up toward ceiling while squeezing knees"
+        "correction": "Maintain elevated hips throughout finish—actively drive hips up toward ceiling while squeezing knees"
       },
       {
         "error": "Yanking or jerking the arm instead of using progressive hip extension",
         "consequence": "SERIOUS INJURY RISK: Can cause sudden ligament tears or elbow dislocation before partner can tap",
-        "correction": "Apply smooth, progressive pressure using hip extension only\u2014no pulling or spiking motions"
+        "correction": "Apply smooth, progressive pressure using hip extension only—no pulling or spiking motions"
       },
       {
         "error": "Failing to control opponent's head with leg",
         "consequence": "Opponent sits up, postures, and escapes or passes to side control",
-        "correction": "Always pin head with leg before committing to full rotation\u2014this leg acts as a base and prevents posture recovery"
+        "correction": "Always pin head with leg before committing to full rotation—this leg acts as a base and prevents posture recovery"
       },
       {
         "error": "Not creating sufficient angle before attempting armbar",
@@ -271,7 +271,7 @@
       {
         "error": "Continuing to apply pressure after opponent taps",
         "consequence": "SERIOUS INJURY: Unnecessary elbow damage, potential surgery, and loss of training partner trust",
-        "correction": "Release ALL pressure immediately at first tap signal\u2014this is non-negotiable safety protocol"
+        "correction": "Release ALL pressure immediately at first tap signal—this is non-negotiable safety protocol"
       }
     ],
     "training_progressions": [
@@ -296,7 +296,7 @@
         "description": "Start in closed guard with full resistance. Work the entire sequence: posture break, arm isolation, angle creation, leg positioning, and finish. Include transition options when armbar is defended: switch to triangle, omoplata, or sweep. Rounds of 5 minutes focusing on creating and capitalizing on armbar opportunities within live rolling."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Why is it critically important to apply armbar pressure slowly and progressively in training rather than using competition speed?",
         "answer": "Slow, progressive application allows your training partner adequate time to recognize the danger and tap before injury occurs. Elbow joints can be damaged in fractions of a second with explosive pressure, potentially requiring surgery and months of recovery. The elbow joint has less sensory feedback than other joints, so partners may not feel pain until structural damage is already occurring. Training is about learning and improvement, not injury, so controlled application is essential for long-term training partner relationships and safety culture.",
@@ -314,7 +314,7 @@
       },
       {
         "question": "What should you do immediately if your training partner taps or shows any sign of distress during armbar application?",
-        "answer": "Release all pressure immediately by stopping hip extension and releasing leg control. Do not wait or gradually reduce pressure\u2014the release must be instant and complete. Open your legs, allow the arm to return to safe position, and check with your partner about their elbow condition before continuing training. Even slight delays in releasing after a tap can cause serious injury and destroy training partner trust.",
+        "answer": "Release all pressure immediately by stopping hip extension and releasing leg control. Do not wait or gradually reduce pressure—the release must be instant and complete. Open your legs, allow the arm to return to safe position, and check with your partner about their elbow condition before continuing training. Even slight delays in releasing after a tap can cause serious injury and destroy training partner trust.",
         "safety_critical": true
       },
       {
@@ -328,7 +328,7 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins rotating their elbow outward during the finish attempt\u2014what anatomical structure are they trying to protect and how do you counter?",
+        "question": "Your opponent begins rotating their elbow outward during the finish attempt—what anatomical structure are they trying to protect and how do you counter?",
         "answer": "They are attempting to rotate the elbow joint out of the hyperextension plane to protect the ulnar collateral ligament (UCL) and lateral collateral ligament (LCL). This hitchhiker escape removes the elbow from direct pressure. Counter by squeezing your knees together tightly to prevent rotation, keeping their wrist pulled toward your chest with both hands, and ensuring your hips remain elevated and tight to their shoulder. If rotation begins, you can follow it by transitioning to a belly-down armbar position, or switch to a wristlock or triangle attack.",
         "safety_critical": false
       },
@@ -344,17 +344,17 @@
       },
       {
         "question": "How do you adjust your finishing mechanics when opponent stacks you during the armbar attempt?",
-        "answer": "When stacked, immediately angle your hips further toward opponent's back (away from their centerline) to reduce their stacking leverage. Keep the leg over their head heavy and push their face away to prevent further forward driving. If stacking continues, you have two options: transition to omoplata by pivoting your hips under their arm, or release the armbar and recover closed guard before they complete the stack. Never fight a fully established stack with the armbar\u2014the leverage is entirely in their favor and you risk a guard pass.",
+        "answer": "When stacked, immediately angle your hips further toward opponent's back (away from their centerline) to reduce their stacking leverage. Keep the leg over their head heavy and push their face away to prevent further forward driving. If stacking continues, you have two options: transition to omoplata by pivoting your hips under their arm, or release the armbar and recover closed guard before they complete the stack. Never fight a fully established stack with the armbar—the leverage is entirely in their favor and you risk a guard pass.",
         "safety_critical": false
       },
       {
         "question": "What is the optimal wrist position for applying maximum finishing pressure while minimizing your own energy expenditure?",
-        "answer": "Pull opponent's wrist toward your lower chest or upper abdomen, not toward your face or overhead. Both hands should grip the wrist with your thumbs on the back of their hand, creating a unified pulling structure. Keep your elbows close to your body rather than flaring out, which wastes energy and weakens the pull. The finishing pressure comes primarily from hip extension against their elbow, not from pulling the wrist\u2014the wrist grip merely prevents arm extraction. This configuration allows you to apply maximum pressure with minimal arm fatigue.",
+        "answer": "Pull opponent's wrist toward your lower chest or upper abdomen, not toward your face or overhead. Both hands should grip the wrist with your thumbs on the back of their hand, creating a unified pulling structure. Keep your elbows close to your body rather than flaring out, which wastes energy and weakens the pull. The finishing pressure comes primarily from hip extension against their elbow, not from pulling the wrist—the wrist grip merely prevents arm extraction. This configuration allows you to apply maximum pressure with minimal arm fatigue.",
         "safety_critical": false
       },
       {
         "question": "In competition, what finishing speed adjustments are appropriate versus training, and why?",
-        "answer": "In competition, entry speed can be maximized\u2014the pivot, leg swing, and position establishment should be explosive. However, even in competition, finishing pressure should still be controlled and progressive over 1-2 seconds rather than explosive. This is because sudden explosive pressure can cause serious injury before the opponent or referee can stop the match, potentially resulting in disqualification and long-term consequences for your opponent. Elite competitors finish with controlled pressure, using their positional dominance rather than explosive force to secure the tap.",
+        "answer": "In competition, entry speed can be maximized—the pivot, leg swing, and position establishment should be explosive. However, even in competition, finishing pressure should still be controlled and progressive over 1-2 seconds rather than explosive. This is because sudden explosive pressure can cause serious injury before the opponent or referee can stop the match, potentially resulting in disqualification and long-term consequences for your opponent. Elite competitors finish with controlled pressure, using their positional dominance rather than explosive force to secure the tap.",
         "safety_critical": true
       }
     ]
@@ -362,50 +362,50 @@
   "defender": {
     "name": "Armbar from Guard Defender",
     "description": "How to defend against Armbar from Guard in BJJ. Recognition, escape paths, and defensive strategies.",
-    "overview": "Defending the armbar from guard requires understanding the attacker's sequential mechanics and intervening at the earliest possible stage. The armbar from guard follows a predictable chain\u2014posture break, arm isolation, angle creation, leg positioning, and finish\u2014and your defensive options become progressively worse at each stage. Early defense through posture maintenance and grip fighting is far more energy-efficient and reliable than late-stage escapes from a locked armbar position. Your defensive strategy must prioritize prevention over escape: keeping strong posture denies the attacker the broken-down position they need, while disciplined elbow positioning prevents the arm isolation that initiates the attack sequence. When prevention fails and you find yourself in an active armbar attempt, your survival depends on recognizing which stage of the attack you are in and selecting the appropriate escape\u2014stacking early, hitchhiker mid-sequence, or grip defense in the late stage. The defender who understands the attacker's mechanics will always have better timing on defensive responses than one who simply reacts to pressure.",
+    "overview": "Defending the armbar from guard requires understanding the attacker's sequential mechanics and intervening at the earliest possible stage. The armbar from guard follows a predictable chain—posture break, arm isolation, angle creation, leg positioning, and finish—and your defensive options become progressively worse at each stage. Early defense through posture maintenance and grip fighting is far more energy-efficient and reliable than late-stage escapes from a locked armbar position. Your defensive strategy must prioritize prevention over escape: keeping strong posture denies the attacker the broken-down position they need, while disciplined elbow positioning prevents the arm isolation that initiates the attack sequence. When prevention fails and you find yourself in an active armbar attempt, your survival depends on recognizing which stage of the attack you are in and selecting the appropriate escape—stacking early, hitchhiker mid-sequence, or grip defense in the late stage. The defender who understands the attacker's mechanics will always have better timing on defensive responses than one who simply reacts to pressure.",
     "key_principles": [
-      "Posture is your primary defense\u2014maintain upright spine with head over hips to deny the attacker's first requirement for the armbar",
+      "Posture is your primary defense—maintain upright spine with head over hips to deny the attacker's first requirement for the armbar",
       "Keep elbows tight to your torso at all times inside closed guard to prevent arm isolation across the attacker's centerline",
-      "Recognize the attack early\u2014intervene during posture break or arm isolation stages rather than waiting until legs are positioned",
+      "Recognize the attack early—intervene during posture break or arm isolation stages rather than waiting until legs are positioned",
       "When caught, immediately clasp hands together and drive weight forward to stack before the attacker can establish hip-to-shoulder tightness",
-      "Never extend a single arm inside guard without the other hand protecting it\u2014an isolated arm is an armbar invitation",
-      "Turn toward the attacker rather than pulling away\u2014turning in collapses their angle and removes the perpendicular leverage they need",
-      "Stay calm and systematic under pressure\u2014panic arm pulling wastes energy and often makes the position worse"
+      "Never extend a single arm inside guard without the other hand protecting it—an isolated arm is an armbar invitation",
+      "Turn toward the attacker rather than pulling away—turning in collapses their angle and removes the perpendicular leverage they need",
+      "Stay calm and systematic under pressure—panic arm pulling wastes energy and often makes the position worse"
     ],
     "recognition_cues": [
       "Opponent breaks your posture by pulling your head down with collar grip while simultaneously controlling one of your wrists or sleeves with their other hand",
       "Opponent shifts their hips laterally to one side while maintaining closed guard, creating the angular displacement needed for armbar entry",
-      "One of opponent's legs begins climbing high on your back or shoulder while the other foot plants on your hip\u2014this is the leg positioning that precedes the full rotation",
+      "One of opponent's legs begins climbing high on your back or shoulder while the other foot plants on your hip—this is the leg positioning that precedes the full rotation",
       "Opponent secures an overhook on your arm while pulling it across their body toward their opposite hip, isolating the limb across their centerline"
     ],
     "defensive_options": [
       {
         "action": "Posture recovery and arm extraction",
-        "when_to_use": "Early stage\u2014when opponent has broken your posture and begun isolating your arm but has not yet established leg position over your head",
+        "when_to_use": "Early stage—when opponent has broken your posture and begun isolating your arm but has not yet established leg position over your head",
         "targets_outcome": "Closed Guard/Top",
         "if_successful": "Return to neutral closed guard top position with posture intact, denying all submission entries",
         "risk": "Low risk if executed before opponent's legs are positioned. If too late, you expose yourself to triangle as you pull the arm back"
       },
       {
         "action": "Stack defense by driving weight forward and standing up",
-        "when_to_use": "Mid-stage\u2014when opponent has begun rotating and positioning legs but has not yet locked hips tight to your shoulder",
+        "when_to_use": "Mid-stage—when opponent has begun rotating and positioning legs but has not yet locked hips tight to your shoulder",
         "targets_outcome": "Side Control/Top",
         "if_successful": "Nullify the armbar by compressing attacker's hips and removing their extension space, then pass to side control as they open their guard",
-        "risk": "Medium risk\u2014if the attacker has deep hip-to-shoulder connection, stacking may not relieve pressure and can actually tighten the armbar"
+        "risk": "Medium risk—if the attacker has deep hip-to-shoulder connection, stacking may not relieve pressure and can actually tighten the armbar"
       },
       {
         "action": "Hitchhiker escape by rotating thumb down and walking toward opponent's head",
-        "when_to_use": "Late stage\u2014when armbar is nearly locked and you cannot stack or extract your arm, but opponent has not yet achieved full hip extension",
+        "when_to_use": "Late stage—when armbar is nearly locked and you cannot stack or extract your arm, but opponent has not yet achieved full hip extension",
         "targets_outcome": "Closed Guard/Top",
         "if_successful": "Rotate your arm out of the hyperextension plane and extract it by walking your body toward opponent's head, returning to top position",
-        "risk": "Medium-high risk\u2014requires precise timing and if the attacker squeezes knees or transitions to belly-down armbar, escape becomes much harder"
+        "risk": "Medium-high risk—requires precise timing and if the attacker squeezes knees or transitions to belly-down armbar, escape becomes much harder"
       },
       {
         "action": "Grip defense with hand clasp and forward pressure",
-        "when_to_use": "Emergency defense\u2014when arm is fully extended between opponent's legs and finishing pressure is imminent, buying time to set up a proper escape",
+        "when_to_use": "Emergency defense—when arm is fully extended between opponent's legs and finishing pressure is imminent, buying time to set up a proper escape",
         "targets_outcome": "Closed Guard/Top",
         "if_successful": "Prevent immediate finish and create window to stack, hitchhike, or extract the arm while opponent works to break your grip",
-        "risk": "High risk\u2014this is a temporary measure only. Sustained hip pressure will eventually break any grip, and you are burning energy while the attacker conserves theirs"
+        "risk": "High risk—this is a temporary measure only. Sustained hip pressure will eventually break any grip, and you are burning energy while the attacker conserves theirs"
       }
     ],
     "escape_paths": [
@@ -431,7 +431,7 @@
       },
       {
         "error": "Allowing posture to be broken without immediately fighting to recover it",
-        "consequence": "Broken posture is the first domino in the armbar sequence\u2014once down, arm isolation and angle creation become available. Accepting broken posture passively invites the full attack chain",
+        "consequence": "Broken posture is the first domino in the armbar sequence—once down, arm isolation and angle creation become available. Accepting broken posture passively invites the full attack chain",
         "correction": "Treat posture breaks as emergencies. Immediately drive hips back, push chest up, and strip the controlling collar or head grip before opponent can advance to arm isolation"
       },
       {
@@ -450,30 +450,30 @@
         "correction": "Before standing to stack, address the leg over your head by pushing it down with your free hand or ducking your head under it. Only drive forward once you have created space above your head to absorb the stacking motion"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive priority when inside an opponent's closed guard to prevent armbar attacks?",
         "answer": "Maintaining strong upright posture with your head over your hips and spine straight. Posture is the foundation of all closed guard defense because the attacker cannot initiate the armbar sequence without first breaking your posture down. With strong posture, arm isolation becomes nearly impossible, angle creation is denied, and your base remains intact to defend sweeps. Every armbar defense strategy becomes exponentially harder once posture is compromised, making posture maintenance the highest-priority defensive action.",
         "safety_critical": false
       },
       {
-        "question": "Your opponent has just swung their leg over your head and is beginning to squeeze\u2014what is the most effective immediate escape response?",
+        "question": "Your opponent has just swung their leg over your head and is beginning to squeeze—what is the most effective immediate escape response?",
         "answer": "Immediately clasp both hands together in a gable grip or S-grip to prevent arm extension, then drive your weight forward into the attacker by posting your free-side knee forward and stacking their hips. The stack compresses their guard structure and removes the space they need for hip extension. As you stack, work to get your head to the mat on the far side of their body. This eliminates their perpendicular angle and their ability to generate finishing pressure. From the stacked position, you can then work to extract your arm and pass to side control.",
         "safety_critical": false
       },
       {
         "question": "Why is it dangerous to simply pull your trapped arm straight backward when caught in an armbar from guard?",
-        "answer": "Pulling straight backward pits your single arm's pulling strength against the attacker's entire body\u2014their legs, hips, and both arms are all working to maintain the position. This mechanical disadvantage means the escape almost never succeeds against a competent attacker. Worse, the pulling motion often inadvertently extends your arm further, tightening the submission. The backward pulling also prevents you from turning into the attacker, which is the body movement that actually collapses the armbar angle and creates real escape opportunities.",
+        "answer": "Pulling straight backward pits your single arm's pulling strength against the attacker's entire body—their legs, hips, and both arms are all working to maintain the position. This mechanical disadvantage means the escape almost never succeeds against a competent attacker. Worse, the pulling motion often inadvertently extends your arm further, tightening the submission. The backward pulling also prevents you from turning into the attacker, which is the body movement that actually collapses the armbar angle and creates real escape opportunities.",
         "safety_critical": true
       },
       {
         "question": "At what stage of the armbar attack does defense become significantly more difficult, and what should you do if you reach that stage?",
-        "answer": "Defense becomes significantly more difficult once the attacker achieves hip-to-shoulder tightness with both legs locked\u2014one across your face and one across your chest\u2014and your arm is fully extended between their legs. At this stage, your primary option is grip defense (clasping hands) to buy time while you assess stack or hitchhiker opportunities. You must act within 3-5 seconds because sustained hip pressure will eventually break any grip. If you cannot escape, tap early and decisively to protect your elbow\u2014there is no shame in recognizing a completed submission.",
+        "answer": "Defense becomes significantly more difficult once the attacker achieves hip-to-shoulder tightness with both legs locked—one across your face and one across your chest—and your arm is fully extended between their legs. At this stage, your primary option is grip defense (clasping hands) to buy time while you assess stack or hitchhiker opportunities. You must act within 3-5 seconds because sustained hip pressure will eventually break any grip. If you cannot escape, tap early and decisively to protect your elbow—there is no shame in recognizing a completed submission.",
         "safety_critical": true
       },
       {
         "question": "How does the hitchhiker escape work biomechanically and when is it most effective?",
-        "answer": "The hitchhiker escape exploits the fact that the armbar attacks the elbow in one specific plane of hyperextension\u2014with the thumb pointing up. By rotating your trapped arm so the thumb points toward the mat, you move the elbow joint out of the hyperextension plane, redirecting pressure to the shoulder rather than the elbow. You then walk your body in a circular path toward the attacker's head, using their own leg as a pivot point. This is most effective when the attacker has committed to the finish but has slight looseness in their knee squeeze, allowing the rotation. It becomes ineffective once they clamp knees tightly or transition to belly-down control.",
+        "answer": "The hitchhiker escape exploits the fact that the armbar attacks the elbow in one specific plane of hyperextension—with the thumb pointing up. By rotating your trapped arm so the thumb points toward the mat, you move the elbow joint out of the hyperextension plane, redirecting pressure to the shoulder rather than the elbow. You then walk your body in a circular path toward the attacker's head, using their own leg as a pivot point. This is most effective when the attacker has committed to the finish but has slight looseness in their knee squeeze, allowing the rotation. It becomes ineffective once they clamp knees tightly or transition to belly-down control.",
         "safety_critical": false
       }
     ],
@@ -481,12 +481,12 @@
       {
         "phase": "Phase 1: Recognition and Posture Maintenance",
         "focus": "Identifying armbar setups and maintaining defensive posture",
-        "description": "Partner works armbar setups from closed guard at 30-40% speed while you focus exclusively on recognizing the four recognition cues and maintaining posture through each attempt. No escape practice yet\u2014simply identify which stage of the attack you are in when you get caught. Build awareness of the attacker's sequence so you can intervene earlier each round."
+        "description": "Partner works armbar setups from closed guard at 30-40% speed while you focus exclusively on recognizing the four recognition cues and maintaining posture through each attempt. No escape practice yet—simply identify which stage of the attack you are in when you get caught. Build awareness of the attacker's sequence so you can intervene earlier each round."
       },
       {
         "phase": "Phase 2: Early Intervention Escapes",
         "focus": "Posture recovery and arm extraction before armbar is established",
-        "description": "Partner attempts armbar at 50% resistance while you practice posture recovery through grip stripping and chest elevation. Focus on keeping elbows tucked and recovering posture before the angle is created. Success is measured by how early in the sequence you shut down the attack\u2014ideal defense stops the armbar at the posture break stage."
+        "description": "Partner attempts armbar at 50% resistance while you practice posture recovery through grip stripping and chest elevation. Focus on keeping elbows tucked and recovering posture before the angle is created. Success is measured by how early in the sequence you shut down the attack—ideal defense stops the armbar at the posture break stage."
       },
       {
         "phase": "Phase 3: Mid and Late Stage Escapes",
@@ -508,7 +508,7 @@
     },
     {
       "variation_name": "Flower Sweep to Armbar",
-      "description": "Combine flower sweep mechanics with armbar finish\u2014if sweep is partially successful but opponent posts with their arm, transition directly to armbar on the posted limb.",
+      "description": "Combine flower sweep mechanics with armbar finish—if sweep is partially successful but opponent posts with their arm, transition directly to armbar on the posted limb.",
       "when_to_use": "When opponent prevents sweep completion by posting their arm"
     },
     {

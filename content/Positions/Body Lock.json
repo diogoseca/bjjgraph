@@ -306,7 +306,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most critical body connection point for maintaining body lock control?",
         "answer": "The chest-to-back connection is the most critical control point. Your chest must be pressed firmly against your opponent's back or upper torso, eliminating all space between bodies. This connection transfers your weight directly into their center of gravity and prevents them from creating frames, turning to face you, or establishing distance for escape. The locked hands become secondary insurance once proper chest connection is established."
@@ -583,7 +583,7 @@
         "attempt_probability": 1
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the most effective timing for preventing the body lock from being established?",
         "answer": "The most effective defense occurs before the grip is locked - hand fight aggressively the moment you feel your opponent attempting to connect their hands around your torso. Prevention requires significantly less energy than escape. Position one or both hands inside their arms to create a wedge that blocks their hands from meeting. Once the grip is fully locked, breaking it becomes exponentially more difficult because you must overcome the combined strength of both their arms working as a unified structure."

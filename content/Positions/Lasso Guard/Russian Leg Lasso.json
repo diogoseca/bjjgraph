@@ -294,7 +294,7 @@
         "attempt_probability": 3
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary mechanical principle that makes the Russian Leg Lasso dangerous for the top player?",
         "answer": "The lasso creates a pulley-like fulcrum around which the guard player generates rotational force. When the top player leans forward or commits weight into the lasso, they amplify this mechanical advantage exponentially, making sweeps nearly unstoppable. Understanding this principle is essential because it dictates that passers must maintain upright posture with hips back rather than applying forward pressure."
@@ -577,7 +577,7 @@
         "attempt_probability": 2
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the three essential grips required for maintaining effective Russian Leg Lasso control?",
         "answer": "The three essential grips are: the lasso itself (leg threaded through opponent's arm with foot positioned high near shoulder), the collar grip with the hand opposite to the lasso leg for posture control, and the sleeve grip on the lasso-side arm to prevent extraction and amplify rotational force. Losing any of these three significantly compromises position effectiveness."

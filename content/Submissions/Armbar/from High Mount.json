@@ -44,7 +44,7 @@
     }
   ],
   "success_rate": 50,
-  "overview": "The Armbar from High Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, combining the overwhelming positional dominance of high mount with the mechanical precision of elbow hyperextension. From high mount, the attacker's knees are positioned near the defender's armpits, creating an elevated platform that severely restricts defensive framing and provides direct access to arm isolation. This proximity to the defender's upper body eliminates the extended transition distances that make armbar entries from standard mount more escapable.\n\nThe submission operates by isolating one of the defender's arms and rotating the body perpendicular to apply controlled hyperextension against the elbow joint. The high mount starting point is critical because the defender's bridge leverage is already neutralized by the attacker's elevated knee positioning, meaning the primary defense against the armbar\u2014explosive hip movement\u2014is mechanically compromised before the attack even begins. This creates a compounding advantage where positional dominance feeds directly into submission probability.\n\nStrategically, the Armbar from High Mount functions as the centerpiece of mount attack systems. It creates a binary dilemma: defenders who protect their arms by tucking elbows expose their neck to collar chokes, while those who extend arms to frame against the mounting pressure expose themselves to armbar attacks. Elite practitioners use this dilemma to force predictable defensive reactions, then execute the armbar against the reaction they have trained to exploit. Competition data consistently shows this as one of the most successful submission finishes from mount at all belt levels.",
+  "overview": "The Armbar from High Mount is one of the highest-percentage submissions in Brazilian Jiu-Jitsu, combining the overwhelming positional dominance of high mount with the mechanical precision of elbow hyperextension. From high mount, the attacker's knees are positioned near the defender's armpits, creating an elevated platform that severely restricts defensive framing and provides direct access to arm isolation. This proximity to the defender's upper body eliminates the extended transition distances that make armbar entries from standard mount more escapable.\n\nThe submission operates by isolating one of the defender's arms and rotating the body perpendicular to apply controlled hyperextension against the elbow joint. The high mount starting point is critical because the defender's bridge leverage is already neutralized by the attacker's elevated knee positioning, meaning the primary defense against the armbar—explosive hip movement—is mechanically compromised before the attack even begins. This creates a compounding advantage where positional dominance feeds directly into submission probability.\n\nStrategically, the Armbar from High Mount functions as the centerpiece of mount attack systems. It creates a binary dilemma: defenders who protect their arms by tucking elbows expose their neck to collar chokes, while those who extend arms to frame against the mounting pressure expose themselves to armbar attacks. Elite practitioners use this dilemma to force predictable defensive reactions, then execute the armbar against the reaction they have trained to exploit. Competition data consistently shows this as one of the most successful submission finishes from mount at all belt levels.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -72,14 +72,14 @@
     ],
     "release_protocol": [
       "Release immediately upon any tap signal without hesitation",
-      "If in doubt about whether partner tapped, release immediately\u2014position can be re-established",
+      "If in doubt about whether partner tapped, release immediately—position can be re-established",
       "Release if partner goes limp or appears to lose consciousness",
       "After release, maintain position control but remove all joint pressure before continuing"
     ],
     "training_restrictions": [
       "White belts should drill at slow speed with compliant partners before attempting in live sparring",
-      "Never apply full extension speed in drilling\u2014always leave time for partner to tap",
-      "Avoid cranking through defensive grips\u2014use proper grip-breaking technique instead of force",
+      "Never apply full extension speed in drilling—always leave time for partner to tap",
+      "Avoid cranking through defensive grips—use proper grip-breaking technique instead of force",
       "Partners with previous elbow injuries should communicate limitations before training"
     ]
   },
@@ -147,13 +147,13 @@
   "attacker": {
     "name": "from High Mount Attacker",
     "description": "Execute the Armbar from High Mount in BJJ. Step-by-step mechanics for arm isolation, rotation, finishing sequence, and dealing with common defensive counters.",
-    "overview": "Attacking the Armbar from High Mount is a systematic process that begins well before the submission itself. The attacker must first establish dominant high mount control with knees near the armpits, then isolate one of the defender's arms through grip fighting, positional pressure, or by capitalizing on defensive reactions. The high mount platform provides a significant mechanical advantage because the defender's primary escape tool\u2014the bridge\u2014is already neutralized by the elevated knee positioning. This means the attacker can focus entirely on arm isolation and submission mechanics without simultaneously defending against explosive escapes. The finishing sequence requires controlled rotation from mount to a perpendicular position while maintaining constant pressure on the isolated arm, culminating in progressive hip elevation against the elbow joint to achieve the tap.",
+    "overview": "Attacking the Armbar from High Mount is a systematic process that begins well before the submission itself. The attacker must first establish dominant high mount control with knees near the armpits, then isolate one of the defender's arms through grip fighting, positional pressure, or by capitalizing on defensive reactions. The high mount platform provides a significant mechanical advantage because the defender's primary escape tool—the bridge—is already neutralized by the elevated knee positioning. This means the attacker can focus entirely on arm isolation and submission mechanics without simultaneously defending against explosive escapes. The finishing sequence requires controlled rotation from mount to a perpendicular position while maintaining constant pressure on the isolated arm, culminating in progressive hip elevation against the elbow joint to achieve the tap.",
     "key_principles": [
-      "Establish complete high mount control before initiating any submission attack\u2014position before submission",
+      "Establish complete high mount control before initiating any submission attack—position before submission",
       "Isolate the target arm progressively using two-on-one grips, never reaching blindly across the body",
       "Maintain hip-to-chest contact throughout the rotation to prevent the defender from following your movement",
       "Pinch knees together during the finish to control the arm angle and prevent the defender from rotating the elbow",
-      "Apply finishing pressure by elevating hips slowly against the elbow\u2014never jerk or spike the extension",
+      "Apply finishing pressure by elevating hips slowly against the elbow—never jerk or spike the extension",
       "Control the defender's head with your leg to prevent them from sitting up during the finishing sequence"
     ],
     "setup_requirements": [
@@ -191,7 +191,7 @@
       {
         "step_number": 5,
         "action": "Sit back while pinching knees together",
-        "description": "Lower your hips to the mat while maintaining the trapped arm between your thighs. Pinch your knees together firmly to control the arm angle and prevent the defender from rotating their elbow to escape. Your sitting motion should be controlled and progressive\u2014do not throw yourself backward as this creates space for escape. The defender's thumb should be pointing toward the ceiling.",
+        "description": "Lower your hips to the mat while maintaining the trapped arm between your thighs. Pinch your knees together firmly to control the arm angle and prevent the defender from rotating their elbow to escape. Your sitting motion should be controlled and progressive—do not throw yourself backward as this creates space for escape. The defender's thumb should be pointing toward the ceiling.",
         "timing": "2-3 seconds for controlled descent"
       },
       {
@@ -217,7 +217,7 @@
       {
         "counter": "Defender bridges explosively during the leg swing transition",
         "effectiveness": "Medium",
-        "your_response": "Post your free hand wide for base stability and drive your weight forward. If the bridge is strong enough to displace you, abandon the armbar and re-settle into high mount. The bridge window is brief\u2014if you survive the initial explosion, continue the attack.",
+        "your_response": "Post your free hand wide for base stability and drive your weight forward. If the bridge is strong enough to displace you, abandon the armbar and re-settle into high mount. The bridge window is brief—if you survive the initial explosion, continue the attack.",
         "targets_outcome": "High Mount/Top"
       },
       {
@@ -229,7 +229,7 @@
       {
         "counter": "Defender pulls the trapped arm back to their body during transition",
         "effectiveness": "High",
-        "your_response": "Maintain wrist control throughout the entire transition\u2014never release the grip even momentarily. If the arm escapes, immediately return to high mount and re-establish control before attempting again. Do not chase the arm while off-balance.",
+        "your_response": "Maintain wrist control throughout the entire transition—never release the grip even momentarily. If the arm escapes, immediately return to high mount and re-establish control before attempting again. Do not chase the arm while off-balance.",
         "targets_outcome": "High Mount/Top"
       },
       {
@@ -248,7 +248,7 @@
       {
         "error": "Releasing wrist control during the leg swing transition",
         "consequence": "Defender immediately retracts their arm to safety, wasting the setup work and potentially creating a scramble",
-        "correction": "Maintain absolute wrist control throughout every phase of the technique\u2014the grip on the wrist is the last thing to change"
+        "correction": "Maintain absolute wrist control throughout every phase of the technique—the grip on the wrist is the last thing to change"
       },
       {
         "error": "Swinging the leg too wide over the defender's head",
@@ -290,7 +290,7 @@
       {
         "phase": "Phase 3: Counter Integration",
         "focus": "Dealing with common defensive responses",
-        "description": "Partner provides specific counters\u2014hand clasping, bridging, stacking, arm retraction\u2014while you practice the appropriate responses. Develop automatic recognition of each counter and the corresponding technical solution. Chain between armbar attempts and fallback positions."
+        "description": "Partner provides specific counters—hand clasping, bridging, stacking, arm retraction—while you practice the appropriate responses. Develop automatic recognition of each counter and the corresponding technical solution. Chain between armbar attempts and fallback positions."
       },
       {
         "phase": "Phase 4: Submission Chains",
@@ -303,7 +303,7 @@
         "description": "Positional sparring starting from high mount with full resistance. Attacker works to isolate arms and finish the armbar; defender works to escape. Develop timing, sensitivity to openings, and the ability to execute under competitive pressure. Track success rate across rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structure does the Armbar from High Mount primarily attack?",
         "answer": "The armbar attacks the elbow joint through controlled hyperextension. The hips drive upward against the posterior aspect of the elbow while the wrist is anchored to the chest, creating a lever that forces the joint beyond its natural range of extension. The primary structures at risk are the ulnar collateral ligament, the annular ligament, and the joint capsule itself. Secondary stress is placed on the shoulder girdle when the defender resists by pulling the arm.",
@@ -319,7 +319,7 @@
         "answer": "Before committing, you need solid high mount with knees at or above armpit level eliminating bridge leverage, two-on-one wrist control on the target arm with the arm pulled across your centerline, the defender's free arm controlled or neutralized so it cannot create effective frames during your transition, and forward weight distribution that prevents explosive escape during the leg swing. Rushing the entry without these control points is the primary cause of failed armbar attempts from mount."
       },
       {
-        "question": "Your opponent starts to posture up and sit toward you during the finishing phase\u2014what adjustment prevents escape?",
+        "question": "Your opponent starts to posture up and sit toward you during the finishing phase—what adjustment prevents escape?",
         "answer": "The leg crossing the defender's face and throat is your primary posture control tool. Drive the calf down across their neck and use your hamstring to pull their head back to the mat. Simultaneously, angle your body slightly away from them to increase the distance they need to cover to stack you. If they continue to posture successfully, triangle your legs over their head and under their arm to create an additional control layer. Never sacrifice the hip-to-elbow connection to fight the posture."
       },
       {
@@ -349,14 +349,14 @@
   "defender": {
     "name": "from High Mount Defender",
     "description": "Defend and escape the Armbar from High Mount in BJJ. Recognition cues, early prevention, hand-fighting defense, and escape sequences when caught in the submission.",
-    "overview": "Defending the Armbar from High Mount requires a layered approach that begins with prevention and ends with emergency escape. The ideal defense prevents the attacker from ever isolating your arm in the first place\u2014keeping elbows tight, hands protecting your neck, and maintaining defensive frames that prevent the attacker from establishing the two-on-one grip needed to begin the submission sequence. Once arm isolation begins, defense shifts to grip fighting, arm retraction, and exploiting the attacker's weight shifts during their transition from mount to armbar position. The defender must recognize that every phase of the armbar setup creates a momentary positional weakness in the attacker's base, and these windows are the escape opportunities. Understanding which defensive action matches each phase of the attack is the foundation of high-level armbar defense from high mount.",
+    "overview": "Defending the Armbar from High Mount requires a layered approach that begins with prevention and ends with emergency escape. The ideal defense prevents the attacker from ever isolating your arm in the first place—keeping elbows tight, hands protecting your neck, and maintaining defensive frames that prevent the attacker from establishing the two-on-one grip needed to begin the submission sequence. Once arm isolation begins, defense shifts to grip fighting, arm retraction, and exploiting the attacker's weight shifts during their transition from mount to armbar position. The defender must recognize that every phase of the armbar setup creates a momentary positional weakness in the attacker's base, and these windows are the escape opportunities. Understanding which defensive action matches each phase of the attack is the foundation of high-level armbar defense from high mount.",
     "key_principles": [
-      "Keep elbows connected to your torso at all times\u2014extended arms become immediate armbar targets",
+      "Keep elbows connected to your torso at all times—extended arms become immediate armbar targets",
       "Grip your own collar or clasp hands together the instant you feel arm isolation beginning",
-      "Use the attacker's transition movement as your escape window\u2014they are most vulnerable during the leg swing",
+      "Use the attacker's transition movement as your escape window—they are most vulnerable during the leg swing",
       "Turn your body toward the trapped arm to prevent full extension rather than pulling away",
       "Control the attacker's leg with your free hand to prevent them from completing the step-over",
-      "Maintain defensive composure\u2014panic creates arm extension which accelerates the submission"
+      "Maintain defensive composure—panic creates arm extension which accelerates the submission"
     ],
     "recognition_cues": [
       "Attacker secures two-on-one grip on your wrist or forearm from high mount position",
@@ -375,7 +375,7 @@
       },
       {
         "action": "Bridge explosively during the attacker's leg swing transition",
-        "when_to_use": "The moment the attacker lifts their leg to swing over your head\u2014their base is weakest during this phase",
+        "when_to_use": "The moment the attacker lifts their leg to swing over your head—their base is weakest during this phase",
         "targets_outcome": "Closed Guard/Top",
         "if_successful": "Bridge displaces the attacker's base, preventing them from completing the armbar and allowing guard recovery",
         "risk": "Mistimed bridge wastes energy and may extend your arm further into the submission"
@@ -389,7 +389,7 @@
       },
       {
         "action": "Turn into the attacker and follow their rotation to prevent extension",
-        "when_to_use": "When the attacker has completed the leg swing and is sitting back\u2014turning toward them prevents full arm extension",
+        "when_to_use": "When the attacker has completed the leg swing and is sitting back—turning toward them prevents full arm extension",
         "targets_outcome": "High Mount/Top",
         "if_successful": "Prevents the armbar finish and may allow you to stack the attacker or recover top position",
         "risk": "Turning exposes your back momentarily and the attacker may transition to back control"
@@ -414,7 +414,7 @@
     "common_errors": [
       {
         "error": "Extending the trapped arm straight in an attempt to pull it free from the attacker's control",
-        "consequence": "A fully extended arm is mechanically indefensible against armbar\u2014this accelerates the submission rather than preventing it",
+        "consequence": "A fully extended arm is mechanically indefensible against armbar—this accelerates the submission rather than preventing it",
         "correction": "Always keep the trapped arm bent, gripping your own collar or clasping hands together to maintain the bend"
       },
       {
@@ -430,7 +430,7 @@
       {
         "error": "Turning away from the attacker to protect the arm, exposing the back",
         "consequence": "Attacker transitions from armbar attempt to back control, which is an equally or more dangerous position",
-        "correction": "Turn toward the attacker rather than away\u2014this relieves armbar pressure without exposing the back"
+        "correction": "Turn toward the attacker rather than away—this relieves armbar pressure without exposing the back"
       },
       {
         "error": "Attempting to bench-press the attacker off during the finishing sequence",
@@ -438,28 +438,28 @@
         "correction": "Focus on hip movement and positional escape rather than pushing the attacker's body weight upward"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that an armbar from high mount is being initiated?",
         "answer": "The earliest cue is the attacker establishing a two-on-one grip on your wrist or forearm. This grip change from normal mount control to arm isolation signals the beginning of the submission sequence. Secondary cues include the attacker planting a foot near your head and shifting weight to one side. Recognizing the two-on-one grip gives you the maximum defensive window before the attack becomes difficult to stop."
       },
       {
         "question": "When should you tap to an armbar from high mount, and why is early recognition critical?",
-        "answer": "Tap immediately when your arm is fully extended with the attacker's hips positioned under your elbow and their knees pinched around your upper arm. At this point, any hip elevation produces direct hyperextension force on the elbow joint. Early recognition is critical because the elbow can be damaged in a fraction of a second once full extension is achieved. There is no benefit to resisting a fully locked armbar\u2014the risk of permanent injury far outweighs any competitive advantage.",
+        "answer": "Tap immediately when your arm is fully extended with the attacker's hips positioned under your elbow and their knees pinched around your upper arm. At this point, any hip elevation produces direct hyperextension force on the elbow joint. Early recognition is critical because the elbow can be damaged in a fraction of a second once full extension is achieved. There is no benefit to resisting a fully locked armbar—the risk of permanent injury far outweighs any competitive advantage.",
         "safety_critical": true
       },
       {
         "question": "What is the optimal timing window for the bridge escape against the armbar from high mount?",
-        "answer": "The optimal timing window is during the attacker's leg swing\u2014the moment they lift their far leg to clear your head. During this phase, the attacker is balanced on one leg and their posted hand, making them most vulnerable to being displaced by an explosive bridge. Before this window, the attacker has full mount base; after this window, the attacker has established the armbar position. The bridge must be explosive, directional, and immediately followed by hip escape to recover guard."
+        "answer": "The optimal timing window is during the attacker's leg swing—the moment they lift their far leg to clear your head. During this phase, the attacker is balanced on one leg and their posted hand, making them most vulnerable to being displaced by an explosive bridge. Before this window, the attacker has full mount base; after this window, the attacker has established the armbar position. The bridge must be explosive, directional, and immediately followed by hip escape to recover guard."
       },
       {
         "question": "How do you defend when the attacker has completed the armbar setup but has not yet finished?",
-        "answer": "In this late-stage defense, grip your own collar or clasp your hands together to prevent full arm extension. Simultaneously, turn your body toward the trapped arm so your elbow points down rather than up\u2014this changes the angle and prevents clean hyperextension. Use your free arm to push on the attacker's near knee to create space. If you can sit up toward the attacker, you relieve extension pressure and may be able to stack them. If the arm becomes fully extended despite these efforts, tap immediately.",
+        "answer": "In this late-stage defense, grip your own collar or clasp your hands together to prevent full arm extension. Simultaneously, turn your body toward the trapped arm so your elbow points down rather than up—this changes the angle and prevents clean hyperextension. Use your free arm to push on the attacker's near knee to create space. If you can sit up toward the attacker, you relieve extension pressure and may be able to stack them. If the arm becomes fully extended despite these efforts, tap immediately.",
         "safety_critical": true
       },
       {
         "question": "How should you manage defensive priorities when trapped between armbar and choke threats from high mount?",
-        "answer": "Protect the most immediate threat first. If the attacker has isolated your arm and begun rotating, arm defense takes priority\u2014clasp hands and maintain the bent-arm position. If the attacker has collar grips threatening a choke, protect the neck with your hands near your collar. The critical principle is that you cannot defend everything simultaneously from high mount, so identify the active attack and address it specifically rather than trying to cover all threats with general positioning."
+        "answer": "Protect the most immediate threat first. If the attacker has isolated your arm and begun rotating, arm defense takes priority—clasp hands and maintain the bent-arm position. If the attacker has collar grips threatening a choke, protect the neck with your hands near your collar. The critical principle is that you cannot defend everything simultaneously from high mount, so identify the active attack and address it specifically rather than trying to cover all threats with general positioning."
       }
     ],
     "training_progressions": [
@@ -471,7 +471,7 @@
       {
         "phase": "Phase 2: Defensive Posture",
         "focus": "Maintaining protective structure under pressure",
-        "description": "Partner establishes high mount and attempts arm isolation at moderate resistance. Practice keeping elbows tight, hands protecting neck, and clasping hands when arm isolation begins. Focus on maintaining defensive posture for 60-second rounds without attempting escapes\u2014pure survival and structure."
+        "description": "Partner establishes high mount and attempts arm isolation at moderate resistance. Practice keeping elbows tight, hands protecting neck, and clasping hands when arm isolation begins. Focus on maintaining defensive posture for 60-second rounds without attempting escapes—pure survival and structure."
       },
       {
         "phase": "Phase 3: Escape Timing",

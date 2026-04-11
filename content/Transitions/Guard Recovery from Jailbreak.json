@@ -227,7 +227,7 @@
         "description": "Live rolling starting from half guard where the bottom player attempts Jailbreak and must make the real-time decision of whether to continue the roll or abort and recover guard. Develop the judgment to recognize when the Jailbreak has failed early enough to begin recovery with maximum advantage rather than waiting until the position is fully compromised."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first priority after recognizing that a Jailbreak attempt has failed?",
         "answer": "The first priority is assessing your body orientation relative to the opponent—specifically, identifying which direction your hips face and determining the shortest path to squaring up with the opponent in front of you. This assessment must happen within one second because the top player is simultaneously working to consolidate their position. Without this orientation awareness, subsequent recovery actions like framing and hip escaping may be directed inefficiently."
@@ -340,7 +340,7 @@
         "correction": "Consolidate side control first with full crossface, underhook, and hip control confirmed before attempting any position advancement. Stable side control is the reliable platform from which mount transitions succeed."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the critical time window for consolidating position after defending a Jailbreak attempt?",
         "answer": "The critical window is three to five seconds after the Jailbreak fails. During this period, the bottom player is most disoriented and their body is least aligned for effective guard recovery. Their hips may be facing the wrong direction, their arms may be displaced from framing positions, and they need time to assess their orientation before initiating systematic recovery. After this window closes, the bottom player has typically squared their hips, established frames, and begun the guard recovery sequence."

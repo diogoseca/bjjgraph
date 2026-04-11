@@ -138,9 +138,9 @@
   "attacker": {
     "name": "from Reverse Kesa-Gatame Attacker",
     "description": "Complete attacking guide for the Kimura from Reverse Kesa-Gatame covering grip transitions, finishing mechanics, and counter-responses.",
-    "overview": "Attacking the Kimura from Reverse Kesa-Gatame leverages your dominant chest pressure and the natural arm isolation of the reverse scarf hold to set up a high-percentage shoulder lock. Your reverse orientation gives direct access to the opponent's far arm without the extensive grip fighting required from standard side control. The figure-four grip locks onto the wrist while your body weight pins the torso, and hip-driven rotation rather than arm strength generates the finishing torque. Maintaining heavy chest pressure throughout the entire sequence is essential\u2014the positional control is what makes this submission high-percentage, and sacrificing pressure for the finish opens escape windows that skilled opponents will exploit immediately.",
+    "overview": "Attacking the Kimura from Reverse Kesa-Gatame leverages your dominant chest pressure and the natural arm isolation of the reverse scarf hold to set up a high-percentage shoulder lock. Your reverse orientation gives direct access to the opponent's far arm without the extensive grip fighting required from standard side control. The figure-four grip locks onto the wrist while your body weight pins the torso, and hip-driven rotation rather than arm strength generates the finishing torque. Maintaining heavy chest pressure throughout the entire sequence is essential—the positional control is what makes this submission high-percentage, and sacrificing pressure for the finish opens escape windows that skilled opponents will exploit immediately.",
     "key_principles": [
-      "Maintain chest pressure throughout the entire submission attempt\u2014never rise up to create the grip",
+      "Maintain chest pressure throughout the entire submission attempt—never rise up to create the grip",
       "Isolate the far arm progressively: secure wrist control first, then establish the figure-four before attempting rotation",
       "Keep elbows tight to your body during the grip transition to prevent defensive frames from being inserted",
       "Use body rotation through hips and core rather than arm strength to generate finishing torque",
@@ -158,7 +158,7 @@
       {
         "step_number": 1,
         "action": "Secure wrist control on far arm",
-        "description": "From established Reverse Kesa-Gatame with your armpit clamping the opponent's far arm, transition your near hand to grip their wrist firmly. Maintain heavy chest pressure throughout this grip change\u2014any lightening gives the opponent a window to extract their arm or insert defensive frames against your body.",
+        "description": "From established Reverse Kesa-Gatame with your armpit clamping the opponent's far arm, transition your near hand to grip their wrist firmly. Maintain heavy chest pressure throughout this grip change—any lightening gives the opponent a window to extract their arm or insert defensive frames against your body.",
         "timing": "1-2 seconds"
       },
       {
@@ -170,7 +170,7 @@
       {
         "step_number": 3,
         "action": "Pin elbow to near-side hip",
-        "description": "Drive the opponent's elbow down firmly against your near-side hip, establishing the critical fulcrum point for the shoulder lock. Their forearm should angle upward with their hand pointing toward the ceiling. This elbow-hip connection is the mechanical foundation\u2014without it, rotational force dissipates through the entire arm rather than isolating the shoulder.",
+        "description": "Drive the opponent's elbow down firmly against your near-side hip, establishing the critical fulcrum point for the shoulder lock. Their forearm should angle upward with their hand pointing toward the ceiling. This elbow-hip connection is the mechanical foundation—without it, rotational force dissipates through the entire arm rather than isolating the shoulder.",
         "timing": "1-2 seconds"
       },
       {
@@ -182,7 +182,7 @@
       {
         "step_number": 5,
         "action": "Apply progressive rotational pressure",
-        "description": "Begin rotating the opponent's forearm toward the mat behind their back using controlled body rotation rather than arm strength alone. Drive through your hips and core to generate torque while maintaining the elbow-hip fulcrum. The shoulder joint approaches its anatomical limit of internal rotation gradually\u2014maintain steady pressure and monitor for the tap signal.",
+        "description": "Begin rotating the opponent's forearm toward the mat behind their back using controlled body rotation rather than arm strength alone. Drive through your hips and core to generate torque while maintaining the elbow-hip fulcrum. The shoulder joint approaches its anatomical limit of internal rotation gradually—maintain steady pressure and monitor for the tap signal.",
         "timing": "3-5 seconds in training"
       },
       {
@@ -267,7 +267,7 @@
         "description": "Start from established Reverse Kesa-Gatame against fully resisting partner. Work to secure and finish the Kimura against realistic defense including grip fighting, bridging, arm straightening, and guard recovery attempts. Track finishing percentage across rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Kimura from Reverse Kesa-Gatame primarily attack?",
         "answer": "The Kimura targets the shoulder joint complex, specifically the rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis), the shoulder capsule, and the glenoid labrum. Internal rotation past the anatomical limit creates shearing force on the rotator cuff tendons and compressive force on the labrum. Secondary stress affects the bicep tendon at the shoulder attachment point.",
@@ -284,7 +284,7 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent straightens their arm to prevent the figure-four\u2014what adjustment do you make?",
+        "question": "Your opponent straightens their arm to prevent the figure-four—what adjustment do you make?",
         "answer": "A straightened arm opens the Americana attack in the opposite rotational direction. Press their wrist toward the mat while maintaining elbow control, converting directly to an Americana. This creates a two-directional dilemma where the opponent must choose between defending the Kimura by straightening or the Americana by bending. Cycling between both attacks keeps them perpetually defensive and unable to address the positional pin.",
         "safety_critical": false
       },
@@ -305,7 +305,7 @@
       },
       {
         "question": "What is the proper release protocol after your partner taps to this submission?",
-        "answer": "Immediately stop all rotational pressure the moment any tap signal is detected\u2014verbal, hand tap, or foot tap. Reverse the rotation by externally rotating the arm back toward neutral position. Release the figure-four grip completely and allow your partner to move their arm freely. Never release suddenly or let the arm spring back, as this can cause additional injury. Allow your partner to assess their shoulder mobility before continuing.",
+        "answer": "Immediately stop all rotational pressure the moment any tap signal is detected—verbal, hand tap, or foot tap. Reverse the rotation by externally rotating the arm back toward neutral position. Release the figure-four grip completely and allow your partner to move their arm freely. Never release suddenly or let the arm spring back, as this can cause additional injury. Allow your partner to assess their shoulder mobility before continuing.",
         "safety_critical": true
       }
     ]
@@ -313,14 +313,14 @@
   "defender": {
     "name": "from Reverse Kesa-Gatame Defender",
     "description": "Complete defensive guide against the Kimura from Reverse Kesa-Gatame covering recognition cues, grip defense, and escape techniques.",
-    "overview": "Defending the Kimura from Reverse Kesa-Gatame requires recognizing the grip transition early and preventing the figure-four lock from being established. The reverse scarf hold orientation limits your framing options compared to standard side control, making proactive arm defense essential rather than reactive. Your primary defensive tools are grip fighting to prevent wrist control, arm positioning to deny the figure-four configuration, and explosive hip movement timed to the attacker's grip transition when their base is most compromised. Once the figure-four is locked and the elbow is pinned, escape options narrow dramatically\u2014early recognition and immediate action define successful defense against this submission.",
+    "overview": "Defending the Kimura from Reverse Kesa-Gatame requires recognizing the grip transition early and preventing the figure-four lock from being established. The reverse scarf hold orientation limits your framing options compared to standard side control, making proactive arm defense essential rather than reactive. Your primary defensive tools are grip fighting to prevent wrist control, arm positioning to deny the figure-four configuration, and explosive hip movement timed to the attacker's grip transition when their base is most compromised. Once the figure-four is locked and the elbow is pinned, escape options narrow dramatically—early recognition and immediate action define successful defense against this submission.",
     "key_principles": [
       "Recognize the grip transition from armpit clamp to wrist control as the primary danger signal requiring immediate response",
       "Keep your trapped arm bent at 90 degrees with elbow tight to your body to limit the attacker's ability to isolate it",
       "Use your free arm to grip fight and strip wrist control before the figure-four is established",
       "Time explosive bridge and hip escape attempts to the attacker's grip transition when their base is most compromised",
       "If the figure-four locks, immediately anchor your arm by gripping your own thigh to prevent rotation",
-      "Prioritize escaping the entire pin over defending the submission from within\u2014positional escape solves both problems"
+      "Prioritize escaping the entire pin over defending the submission from within—positional escape solves both problems"
     ],
     "recognition_cues": [
       "Attacker transitions from armpit clamp to deliberate wrist grip on your far hand, changing from positional control to submission setup",
@@ -331,7 +331,7 @@
     "defensive_options": [
       {
         "action": "Strip wrist control with free hand before figure-four is locked",
-        "when_to_use": "Immediately when you feel the attacker transition from armpit clamp to wrist grip\u2014this is the highest-percentage defensive window",
+        "when_to_use": "Immediately when you feel the attacker transition from armpit clamp to wrist grip—this is the highest-percentage defensive window",
         "targets_outcome": "Reverse Kesa-Gatame/Top",
         "if_successful": "Attacker must re-establish armpit clamp and restart the submission setup, resetting to neutral pin position",
         "risk": "Free hand is temporarily occupied with grip fighting rather than framing, briefly limiting escape options"
@@ -341,21 +341,21 @@
         "when_to_use": "During the grip transition phase when the attacker is threading their arm under your tricep but has not completed the lock",
         "targets_outcome": "Reverse Kesa-Gatame/Top",
         "if_successful": "Breaks the figure-four attempt and forces the attacker to reset, but exposes you to an Americana counter",
-        "risk": "A straightened arm is vulnerable to the Americana in the opposite direction\u2014be prepared to re-bend immediately if they switch"
+        "risk": "A straightened arm is vulnerable to the Americana in the opposite direction—be prepared to re-bend immediately if they switch"
       },
       {
         "action": "Explosive bridge combined with hip escape during grip transition",
-        "when_to_use": "When you feel the chest pressure lighten during the attacker's grip change\u2014this momentary window provides the best escape opportunity",
+        "when_to_use": "When you feel the chest pressure lighten during the attacker's grip change—this momentary window provides the best escape opportunity",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Creates enough space to insert knees and recover closed guard, escaping both the submission and the pin simultaneously",
         "risk": "Failed bridge with poor timing wastes energy and may result in the attacker settling deeper into the pin with the grip established"
       },
       {
         "action": "Grab own thigh to anchor arm against rotation",
-        "when_to_use": "Last resort when the figure-four is established but rotation has not yet begun\u2014buys time but does not solve the problem",
+        "when_to_use": "Last resort when the figure-four is established but rotation has not yet begun—buys time but does not solve the problem",
         "targets_outcome": "Reverse Kesa-Gatame/Top",
         "if_successful": "Temporarily prevents the finish and forces the attacker to work to break your anchor grip, creating time for additional defensive actions",
-        "risk": "Only delays the submission\u2014skilled attackers will peel the grip or change angles. You must combine this with escape attempts rather than relying on it alone"
+        "risk": "Only delays the submission—skilled attackers will peel the grip or change angles. You must combine this with escape attempts rather than relying on it alone"
       }
     ],
     "escape_paths": [
@@ -383,7 +383,7 @@
       {
         "error": "Bridging without combining lateral hip escape movement",
         "consequence": "A bridge alone lifts the attacker momentarily but returns you to the same flat position when you settle back down. The attacker simply rides the bridge and resettles with potentially deeper control.",
-        "correction": "Always combine the upward bridge with a lateral hip escape\u2014shrimp your hips away as you bridge to create lasting directional space that enables guard recovery."
+        "correction": "Always combine the upward bridge with a lateral hip escape—shrimp your hips away as you bridge to create lasting directional space that enables guard recovery."
       },
       {
         "error": "Panicking and using explosive energy without technical defense",
@@ -391,7 +391,7 @@
         "correction": "Use controlled systematic defense, timing explosive movements specifically to the attacker's grip transitions. Conserve energy between defensive windows and maintain technical framing throughout."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that a Kimura attack is being initiated from Reverse Kesa-Gatame?",
         "answer": "The primary recognition cue is the attacker transitioning their near hand from the armpit clamp to a deliberate wrist grip on your far hand. You will feel their far arm threading under your tricep from the outside. The chest pressure may shift slightly as they adjust position for the grip change. Recognizing these cues at the wrist control stage gives you the most defensive options before the figure-four is locked.",
@@ -422,7 +422,7 @@
       {
         "phase": "Recognition Training",
         "focus": "Identifying Kimura setup cues from Reverse Kesa-Gatame",
-        "description": "Partner slowly initiates the Kimura setup while you practice identifying each stage: wrist control change, figure-four threading, elbow pinning. Call out each stage verbally as you feel it. No escape attempts\u2014pure recognition development to build awareness of the submission timeline."
+        "description": "Partner slowly initiates the Kimura setup while you practice identifying each stage: wrist control change, figure-four threading, elbow pinning. Call out each stage verbally as you feel it. No escape attempts—pure recognition development to build awareness of the submission timeline."
       },
       {
         "phase": "Grip Defense Drilling",

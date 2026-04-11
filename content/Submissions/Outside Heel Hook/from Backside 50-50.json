@@ -22,7 +22,7 @@
     "Outside Ashi-Garami"
   ],
   "success_rate": 45,
-  "overview": "The Outside Heel Hook from Backside 50-50 is one of the highest-percentage leg lock finishes in modern no-gi grappling. This submission exploits the unique advantages of the backside 50-50 configuration\u2014chest-to-back pressure, superior visual access to the opponent's legs, and enhanced rotational control\u2014to attack the lateral structures of the opponent's knee through controlled heel rotation. The backside angle is particularly effective because the top player's body weight pins the defender's hips, neutralizing the defensive hip rotation that normally defuses heel hook attacks from other leg entanglement positions.\n\nThe finishing mechanics rely on isolating the opponent's heel while their knee line is immobilized by the leg entanglement. The attacker cups the heel and applies lateral rotation, turning the foot outward relative to the knee, generating devastating torque against the lateral collateral ligament, posterolateral corner structures, and potentially the anterior cruciate ligament. Unlike standard heel hooks from symmetric 50-50, the backside orientation provides a mechanical advantage because the attacker can combine rotational force with posterior hip extension, creating compound pressure that is extremely difficult to defend once the grip is established.\n\nThis submission demands absolute respect for its injury potential. Rotational forces on knee ligaments provide minimal proprioceptive feedback before structural failure, meaning the defender may not feel significant pain until damage has already occurred. Strict adherence to controlled application speed, immediate release on any tap signal, and conservative training protocols are essential for safe practice.",
+  "overview": "The Outside Heel Hook from Backside 50-50 is one of the highest-percentage leg lock finishes in modern no-gi grappling. This submission exploits the unique advantages of the backside 50-50 configuration—chest-to-back pressure, superior visual access to the opponent's legs, and enhanced rotational control—to attack the lateral structures of the opponent's knee through controlled heel rotation. The backside angle is particularly effective because the top player's body weight pins the defender's hips, neutralizing the defensive hip rotation that normally defuses heel hook attacks from other leg entanglement positions.\n\nThe finishing mechanics rely on isolating the opponent's heel while their knee line is immobilized by the leg entanglement. The attacker cups the heel and applies lateral rotation, turning the foot outward relative to the knee, generating devastating torque against the lateral collateral ligament, posterolateral corner structures, and potentially the anterior cruciate ligament. Unlike standard heel hooks from symmetric 50-50, the backside orientation provides a mechanical advantage because the attacker can combine rotational force with posterior hip extension, creating compound pressure that is extremely difficult to defend once the grip is established.\n\nThis submission demands absolute respect for its injury potential. Rotational forces on knee ligaments provide minimal proprioceptive feedback before structural failure, meaning the defender may not feel significant pain until damage has already occurred. Strict adherence to controlled application speed, immediate release on any tap signal, and conservative training protocols are essential for safe practice.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -60,16 +60,16 @@
       "Sudden body stiffening or panicked movement indicating distress"
     ],
     "release_protocol": [
-      "Release ALL rotational pressure immediately upon any tap signal\u2014do not finish the rotation",
+      "Release ALL rotational pressure immediately upon any tap signal—do not finish the rotation",
       "Disengage heel grip completely before releasing leg entanglement to prevent accidental torque during separation",
       "Maintain leg entanglement briefly without pressure to allow controlled, safe separation of limbs",
       "If opponent appears injured or does not respond normally after release, stop training immediately and assess",
-      "If in any doubt whether a tap occurred, release immediately\u2014the position can always be re-established"
+      "If in any doubt whether a tap occurred, release immediately—the position can always be re-established"
     ],
     "training_restrictions": [
       "Heel hooks should only be trained with partners who understand rotational leg lock mechanics and tap early",
       "New practitioners (white and blue belts) should drill grip mechanics and positioning without applying rotational finishing pressure",
-      "Never apply this submission at full speed during positional sparring\u2014reserve competition-speed application for competition only",
+      "Never apply this submission at full speed during positional sparring—reserve competition-speed application for competition only",
       "Partners with prior knee injuries should communicate limitations before leg lock training begins",
       "Avoid training heel hooks when fatigued, as reduced proprioception increases injury risk for both practitioners"
     ]
@@ -160,7 +160,7 @@
   "attacker": {
     "name": "from Backside 50-50 Attacker",
     "description": "Execute the Outside Heel Hook from Backside 50-50 with systematic precision. Step-by-step attacking guide covering grip mechanics, rotational finishing, and training progressions.",
-    "overview": "Executing the Outside Heel Hook from Backside 50-50 requires systematic control establishment before committing to the finish. The attacking sequence begins with consolidating chest-to-back pressure to neutralize defensive hip mobility, then progresses through heel isolation, grip reinforcement, elbow positioning inside the thigh, and finally controlled lateral rotation combined with hip extension. The backside angle provides a significant mechanical advantage over standard 50-50 heel hook attempts because your body weight pins the opponent's hips, preventing the rotational escapes that commonly defuse heel hooks from symmetric positions. Success depends on patient grip establishment and reading the opponent's defensive reactions to choose between finishing the heel hook, transitioning to alternative leg attacks, or advancing to back control. The dual-threat nature of backside 50-50\u2014legs and back\u2014creates a defensive dilemma that makes the outside heel hook particularly effective when the opponent prioritizes back defense over heel protection.",
+    "overview": "Executing the Outside Heel Hook from Backside 50-50 requires systematic control establishment before committing to the finish. The attacking sequence begins with consolidating chest-to-back pressure to neutralize defensive hip mobility, then progresses through heel isolation, grip reinforcement, elbow positioning inside the thigh, and finally controlled lateral rotation combined with hip extension. The backside angle provides a significant mechanical advantage over standard 50-50 heel hook attempts because your body weight pins the opponent's hips, preventing the rotational escapes that commonly defuse heel hooks from symmetric positions. Success depends on patient grip establishment and reading the opponent's defensive reactions to choose between finishing the heel hook, transitioning to alternative leg attacks, or advancing to back control. The dual-threat nature of backside 50-50—legs and back—creates a defensive dilemma that makes the outside heel hook particularly effective when the opponent prioritizes back defense over heel protection.",
     "key_principles": [
       "Chest pressure before heel hunting: Establish and maintain heavy chest-to-back pressure to immobilize opponent's hips before reaching for the heel, as defensive hip rotation is the primary counter to heel hooks",
       "Two-stage grip establishment: Secure initial heel cup with near hand, then reinforce with figure-four or Gable grip before applying any rotation, as single-hand finishes have dramatically lower success rates",
@@ -311,10 +311,10 @@
         "description": "Positional sparring starting from backside 50-50 with full resistance. Attacker works to finish the heel hook or transition to alternative attacks. Defender works to escape or reverse. Both partners must respect tap protocols. 3-minute rounds with alternating roles. Assess finish rate and identify areas for improvement."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Outside Heel Hook primarily attack and why is this significant for safety?",
-        "answer": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner structures, and can also damage the anterior cruciate ligament (ACL) and meniscus through rotational shearing forces. This is critically significant for safety because these knee ligaments provide minimal proprioceptive feedback before structural failure\u2014unlike chokes where you feel pressure building, heel hooks can cause serious ligament tears before the defender feels significant pain. This is why controlled application and early tapping are non-negotiable.",
+        "answer": "The outside heel hook primarily attacks the lateral collateral ligament (LCL), the posterolateral corner structures, and can also damage the anterior cruciate ligament (ACL) and meniscus through rotational shearing forces. This is critically significant for safety because these knee ligaments provide minimal proprioceptive feedback before structural failure—unlike chokes where you feel pressure building, heel hooks can cause serious ligament tears before the defender feels significant pain. This is why controlled application and early tapping are non-negotiable.",
         "safety_critical": true
       },
       {
@@ -357,7 +357,7 @@
   "defender": {
     "name": "from Backside 50-50 Defender",
     "description": "Defend the Outside Heel Hook from Backside 50-50 in BJJ. Complete guide covering recognition cues, heel protection, grip stripping, escape paths, and survival strategies.",
-    "overview": "Defending the Outside Heel Hook from Backside 50-50 is one of the most challenging defensive scenarios in modern leg lock grappling. The defender faces the dual threat of a high-percentage submission combined with significant positional disadvantage\u2014their back is exposed to the attacker's chest pressure with limited visual feedback on the attacker's grip progression. Survival depends on early recognition of the attack sequence, immediate heel protection through internal knee rotation, aggressive grip fighting to prevent the attacker from establishing the finishing configuration, and systematic work toward position improvement or leg extraction. The window for successful defense narrows rapidly once the attacker secures a clean two-handed heel grip, making preemptive defensive habits and early recognition essential. Defenders must accept that tapping early to heel hooks in training is not weakness but intelligent self-preservation, given the minimal pain warning these submissions provide before catastrophic knee injury.",
+    "overview": "Defending the Outside Heel Hook from Backside 50-50 is one of the most challenging defensive scenarios in modern leg lock grappling. The defender faces the dual threat of a high-percentage submission combined with significant positional disadvantage—their back is exposed to the attacker's chest pressure with limited visual feedback on the attacker's grip progression. Survival depends on early recognition of the attack sequence, immediate heel protection through internal knee rotation, aggressive grip fighting to prevent the attacker from establishing the finishing configuration, and systematic work toward position improvement or leg extraction. The window for successful defense narrows rapidly once the attacker secures a clean two-handed heel grip, making preemptive defensive habits and early recognition essential. Defenders must accept that tapping early to heel hooks in training is not weakness but intelligent self-preservation, given the minimal pain warning these submissions provide before catastrophic knee injury.",
     "key_principles": [
       "Heel protection as absolute priority: Hide your heel immediately through internal knee rotation and toe retraction before addressing any other defensive concern, as heel exposure enables rapid submission finish",
       "Grip prevention over grip breaking: Invest energy in preventing the attacker from establishing the initial heel cup grip rather than trying to break an already-established reinforced grip configuration",
@@ -376,7 +376,7 @@
     "defensive_options": [
       {
         "action": "Hide heel through aggressive internal knee rotation, pulling toes toward shin and rotating knee inward to deny grip access",
-        "when_to_use": "Immediately upon recognizing any heel hook attempt\u2014this is the first and most important defensive response regardless of attack timing",
+        "when_to_use": "Immediately upon recognizing any heel hook attempt—this is the first and most important defensive response regardless of attack timing",
         "targets_outcome": "Backside 50-50/Top",
         "if_successful": "Attacker cannot establish finishing grip and must either wait for re-exposure or transition to alternative attacks",
         "risk": "Low risk defensive action, but if knee rotation is insufficient the attacker may still access the heel"
@@ -386,21 +386,21 @@
         "when_to_use": "When attacker has established initial heel cup but has not yet secured the reinforced two-handed grip or begun rotation",
         "targets_outcome": "Backside 50-50/Top",
         "if_successful": "Attacker loses heel control and must re-establish grip, buying time for positional escape or further defensive action",
-        "risk": "Moderate risk\u2014using both hands for grip fighting means you cannot frame against their body simultaneously"
+        "risk": "Moderate risk—using both hands for grip fighting means you cannot frame against their body simultaneously"
       },
       {
         "action": "Rotate entire body to face the attacker, converting asymmetric backside 50-50 to symmetric standard 50-50 guard",
         "when_to_use": "When attacker lightens chest pressure to reach for heel or when you have created enough space through bridging to initiate the turn",
         "targets_outcome": "50-50 Guard/Bottom",
         "if_successful": "Eliminates the backside positional disadvantage and creates a more neutral exchange where defensive options are significantly better",
-        "risk": "Higher risk\u2014the rotation may momentarily expose your heel further during the turning movement"
+        "risk": "Higher risk—the rotation may momentarily expose your heel further during the turning movement"
       },
       {
         "action": "Bridge explosively and extract trapped leg from entanglement through internal hip rotation and framing",
         "when_to_use": "When attacker has not yet secured heel grip and their chest pressure is momentarily reduced during grip transition",
         "targets_outcome": "Open Guard/Bottom",
         "if_successful": "Complete escape from the leg entanglement, recovering to open guard or standing position with full defensive structure",
-        "risk": "High risk if attempted while attacker has heel grip\u2014the extraction movement can accelerate rotational damage to the knee"
+        "risk": "High risk if attempted while attacker has heel grip—the extraction movement can accelerate rotational damage to the knee"
       }
     ],
     "escape_paths": [
@@ -440,10 +440,10 @@
         "correction": "Maintain at least one frame against the attacker's hip or chest while using the other hand for grip fighting. Alternate which hand frames and which fights grips. Preserve the space needed for eventual escape even while defending the immediate submission threat."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive action when you recognize an Outside Heel Hook attempt from backside 50-50?",
-        "answer": "The absolute first priority is hiding your heel through aggressive internal knee rotation\u2014turn your knee inward and pull your toes toward your shin. This must happen before any grip fighting, framing, or escape attempt. The heel must become inaccessible to the attacker's grip before you address anything else. Every fraction of a second the heel remains exposed increases the probability of the attacker establishing a finishing grip.",
+        "answer": "The absolute first priority is hiding your heel through aggressive internal knee rotation—turn your knee inward and pull your toes toward your shin. This must happen before any grip fighting, framing, or escape attempt. The heel must become inaccessible to the attacker's grip before you address anything else. Every fraction of a second the heel remains exposed increases the probability of the attacker establishing a finishing grip.",
         "safety_critical": true
       },
       {
@@ -463,7 +463,7 @@
       },
       {
         "question": "When is it appropriate to attempt a counter heel hook on the attacker's leg as a defensive strategy?",
-        "answer": "Counter-attacking the attacker's heel is appropriate only when they have committed both hands heavily to your heel and their own legs become exposed within your entanglement. This typically happens when they are so focused on finishing your heel that they neglect their own leg defense. However, this is a high-risk strategy\u2014if you reach for their heel while yours is exposed, you may get finished first. Only attempt the counter when your own heel is hidden and the attacker's heel is clearly accessible.",
+        "answer": "Counter-attacking the attacker's heel is appropriate only when they have committed both hands heavily to your heel and their own legs become exposed within your entanglement. This typically happens when they are so focused on finishing your heel that they neglect their own leg defense. However, this is a high-risk strategy—if you reach for their heel while yours is exposed, you may get finished first. Only attempt the counter when your own heel is hidden and the attacker's heel is clearly accessible.",
         "safety_critical": false
       }
     ],
@@ -476,7 +476,7 @@
       {
         "phase": "Phase 2: Grip Prevention and Stripping",
         "focus": "Hand fighting mechanics to prevent and break heel cup grips",
-        "description": "Partner establishes progressively stronger heel grips at different stages\u2014initial single-hand cup, two-handed reinforcement, full finishing position. Practice stripping grips at each stage using two-on-one hand fighting while maintaining at least one frame. Understand that grip stripping becomes exponentially harder at each stage, reinforcing the importance of early prevention."
+        "description": "Partner establishes progressively stronger heel grips at different stages—initial single-hand cup, two-handed reinforcement, full finishing position. Practice stripping grips at each stage using two-on-one hand fighting while maintaining at least one frame. Understand that grip stripping becomes exponentially harder at each stage, reinforcing the importance of early prevention."
       },
       {
         "phase": "Phase 3: Positional Escape Integration",
@@ -486,7 +486,7 @@
       {
         "phase": "Phase 4: Live Defensive Sparring",
         "focus": "Full-resistance defense against committed heel hook attacks",
-        "description": "Positional sparring starting from backside 50-50 bottom. Attacker works full heel hook offense while you defend and escape using all trained defensive tools. Tap early and often\u2014track escape success rate rather than submission avoidance duration. 3-minute rounds alternating roles. Debrief after each round to identify where defensive decisions went right or wrong."
+        "description": "Positional sparring starting from backside 50-50 bottom. Attacker works full heel hook offense while you defend and escape using all trained defensive tools. Tap early and often—track escape success rate rather than submission avoidance duration. 3-minute rounds alternating roles. Debrief after each round to identify where defensive decisions went right or wrong."
       }
     ]
   }

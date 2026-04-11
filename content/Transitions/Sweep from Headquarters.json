@@ -246,7 +246,7 @@
         "description": "Live rounds starting from headquarters with full resistance and competitive intensity. Partner attempts real passes while you work sweep opportunities. Develop the ability to execute under fatigue and time pressure with full commitment."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window to initiate a sweep from headquarters position?",
         "answer": "The optimal timing window is during the opponent's weight transitions—specifically when they shift weight to initiate a passing attempt such as a knee cut or toreando. At this moment, their base is directionally committed and temporarily vulnerable to forces perpendicular to their movement direction. Attempting sweeps against a settled, balanced headquarters base has significantly lower success rates because the triangulated structure can absorb force from any direction."
@@ -363,7 +363,7 @@
         "correction": "Widen the posting leg substantially when sweep threats are detected, creating a broader triangulated base that distributes force across a wider support area"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the earliest recognition cues that a sweep from headquarters is being initiated?",
         "answer": "The earliest cues are the bottom player fighting for an underhook on the near side and their free leg becoming active with hook insertion attempts. Hip escape movement creating an angle is another early indicator. These setup actions must be addressed immediately, as the sweep becomes exponentially harder to defend once the underhook and hook are both established and the sweep angle is loaded."

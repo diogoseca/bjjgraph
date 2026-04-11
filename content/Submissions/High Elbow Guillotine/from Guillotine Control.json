@@ -19,7 +19,7 @@
   "starting_position": "Guillotine Control",
   "from_position": "Guillotine Control/Top",
   "success_rate": 58,
-  "overview": "The High Elbow Guillotine from Guillotine Control is a blood choke variation that redirects the choking forearm upward by driving the elbow toward the ceiling, creating a tighter compression angle across the carotid arteries than the standard guillotine. Starting from an established Guillotine Control position provides a significant mechanical advantage because the head is already trapped and posture is already broken, allowing the attacker to focus entirely on converting the grip configuration and finishing. The position eliminates the most difficult phase of any guillotine attack\u2014securing the initial head control\u2014and reduces the technique to a grip transition and squeeze.\n\nThe critical distinction from other guillotine entries is that the grip change happens from a position of existing control rather than during a scramble or shot defense. The attacker rotates the choking wrist so the blade of the forearm presses directly into the near-side carotid artery while the elbow climbs vertically, closing the far-side artery against the attacker's chest and shoulder. This dual compression produces a pure blood choke that can cause unconsciousness within seconds of full application, often before the defender recognizes the severity of the threat.\n\nStrategically, the high elbow variation is the primary answer to the chin tuck defense that neutralizes standard guillotines. When the defender drops their chin to protect the trachea, the high elbow angle attacks behind and beneath the jaw, making chin position largely irrelevant. This forces defenders into secondary defense layers\u2014posture recovery and hand fighting\u2014which opens opportunities for the attacker to chain into sweeps or positional advancement when the choke itself is defended.",
+  "overview": "The High Elbow Guillotine from Guillotine Control is a blood choke variation that redirects the choking forearm upward by driving the elbow toward the ceiling, creating a tighter compression angle across the carotid arteries than the standard guillotine. Starting from an established Guillotine Control position provides a significant mechanical advantage because the head is already trapped and posture is already broken, allowing the attacker to focus entirely on converting the grip configuration and finishing. The position eliminates the most difficult phase of any guillotine attack—securing the initial head control—and reduces the technique to a grip transition and squeeze.\n\nThe critical distinction from other guillotine entries is that the grip change happens from a position of existing control rather than during a scramble or shot defense. The attacker rotates the choking wrist so the blade of the forearm presses directly into the near-side carotid artery while the elbow climbs vertically, closing the far-side artery against the attacker's chest and shoulder. This dual compression produces a pure blood choke that can cause unconsciousness within seconds of full application, often before the defender recognizes the severity of the threat.\n\nStrategically, the high elbow variation is the primary answer to the chin tuck defense that neutralizes standard guillotines. When the defender drops their chin to protect the trachea, the high elbow angle attacks behind and beneath the jaw, making chin position largely irrelevant. This forces defenders into secondary defense layers—posture recovery and hand fighting—which opens opportunities for the attacker to chain into sweeps or positional advancement when the choke itself is defended.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -60,11 +60,11 @@
     ],
     "training_restrictions": [
       "Never apply at competition speed during drilling or positional training",
-      "Never spike or jerk the submission\u2014always apply smooth progressive pressure",
+      "Never spike or jerk the submission—always apply smooth progressive pressure",
       "Never continue pressure if partner's face changes color or shows signs of oxygen deprivation",
       "Always maintain verbal communication during slow drilling phases",
       "Never practice on partners with neck or throat injuries without explicit instructor approval",
-      "Always allow clear tap access\u2014never trap both arms while finishing"
+      "Always allow clear tap access—never trap both arms while finishing"
     ]
   },
   "from_positions": [
@@ -89,7 +89,7 @@
     },
     {
       "name": "High Elbow Guillotine",
-      "relationship": "Parent submission family\u2014generic version applied from multiple positions"
+      "relationship": "Parent submission family—generic version applied from multiple positions"
     },
     {
       "name": "Front Headlock",
@@ -145,12 +145,12 @@
   "attacker": {
     "name": "High Elbow Guillotine from Guillotine Control Attacker",
     "description": "Learn to attack with the High Elbow Guillotine from Guillotine Control. Step-by-step ceiling-elbow finish, grip transitions, and counter responses.",
-    "overview": "Attacking with the High Elbow Guillotine from Guillotine Control means you already own the most valuable real estate in guillotine finishing\u2014deep head control with broken posture. Your task is converting the existing grip into the high elbow configuration and finishing before the defender can recover posture or strip your hands. The ceiling-elbow angle generates bilateral carotid compression that bypasses chin tuck defense entirely, making this the highest-percentage guillotine variation against technically proficient defenders. From Guillotine Control you have the luxury of working a deliberate grip transition rather than racing to secure the head during a scramble, which allows precise forearm placement across the arteries.",
+    "overview": "Attacking with the High Elbow Guillotine from Guillotine Control means you already own the most valuable real estate in guillotine finishing—deep head control with broken posture. Your task is converting the existing grip into the high elbow configuration and finishing before the defender can recover posture or strip your hands. The ceiling-elbow angle generates bilateral carotid compression that bypasses chin tuck defense entirely, making this the highest-percentage guillotine variation against technically proficient defenders. From Guillotine Control you have the luxury of working a deliberate grip transition rather than racing to secure the head during a scramble, which allows precise forearm placement across the arteries.",
     "key_principles": [
       "Drive the choking elbow vertically toward the ceiling to close the far-side carotid against your chest and shoulder",
       "Maintain zero space between your choking forearm and the opponent's neck throughout the grip transition",
       "Use closed guard or high guard to anchor the opponent's posture down while you adjust the finishing angle",
-      "Rotate the wrist blade into the near-side carotid artery before elevating\u2014depth first, then height",
+      "Rotate the wrist blade into the near-side carotid artery before elevating—depth first, then height",
       "Keep your chin tucked and head pressure forward to prevent the opponent from creating extension to relieve the choke",
       "Coordinate hip extension with elbow elevation to create opposing forces that amplify compression"
     ],
@@ -195,7 +195,7 @@
       {
         "step_number": 6,
         "action": "Squeeze and contract",
-        "description": "With the elbow at maximum height, contract both arms and pull the opponent's head tightly into your chest while maintaining hip extension. The finish should produce rapid bilateral carotid occlusion\u2014watch for tap signals within three to five seconds of full application.",
+        "description": "With the elbow at maximum height, contract both arms and pull the opponent's head tightly into your chest while maintaining hip extension. The finish should produce rapid bilateral carotid occlusion—watch for tap signals within three to five seconds of full application.",
         "timing": "3-5 seconds progressive application"
       },
       {
@@ -207,25 +207,25 @@
     ],
     "common_counters": [
       {
-        "counter": "Posture recovery\u2014opponent frames on hips and extends arms to lift head out of choking position",
+        "counter": "Posture recovery—opponent frames on hips and extends arms to lift head out of choking position",
         "effectiveness": "High",
         "your_response": "Immediately pull guard tighter and use your legs to break posture back down. If they create significant space, switch to pulling the head down and re-establishing depth before re-attempting the elbow elevation.",
         "targets_outcome": "Guillotine Control/Top"
       },
       {
-        "counter": "Hand fighting\u2014opponent peels at the choking wrist or forearm to strip the grip before the elbow reaches full height",
+        "counter": "Hand fighting—opponent peels at the choking wrist or forearm to strip the grip before the elbow reaches full height",
         "effectiveness": "High",
         "your_response": "Keep elbows pinned tight to your ribs and forearm connected to your chest. If they get a grip on your wrist, rotate toward the choking side to increase pressure and make their grip less effective. Regrasp quickly if broken.",
         "targets_outcome": "Guillotine Control/Top"
       },
       {
-        "counter": "Von Flue counter\u2014opponent allows the guillotine while passing guard and applies shoulder pressure to the neck",
+        "counter": "Von Flue counter—opponent allows the guillotine while passing guard and applies shoulder pressure to the neck",
         "effectiveness": "Medium",
         "your_response": "Never hold the guillotine with open guard or while your opponent passes to side control. If they begin advancing past your guard, either finish immediately or release the grip and re-establish guard before they consolidate the Von Flue position.",
         "targets_outcome": "Closed Guard/Bottom"
       },
       {
-        "counter": "Turning into the choke\u2014opponent rotates their body toward the choking arm to create space between forearm and neck",
+        "counter": "Turning into the choke—opponent rotates their body toward the choking arm to create space between forearm and neck",
         "effectiveness": "Medium",
         "your_response": "Follow their rotation with your hips and use the turn to transition to anaconda or darce choke setups. Their turn actually exposes them to head-and-arm choke variations that are higher percentage than fighting to maintain the original guillotine angle.",
         "targets_outcome": "Guillotine Control/Top"
@@ -240,7 +240,7 @@
       {
         "error": "Squeezing with arms only while neglecting hip extension",
         "consequence": "Rapid forearm fatigue without sufficient compression to produce a finish. The opponent can outlast the squeeze and escape when grip strength fails.",
-        "correction": "Coordinate hip extension with arm contraction to create opposing forces. The hips drive the neck into the forearm while the arms pull the head into the chest\u2014both forces together finish the choke."
+        "correction": "Coordinate hip extension with arm contraction to create opposing forces. The hips drive the neck into the forearm while the arms pull the head into the chest—both forces together finish the choke."
       },
       {
         "error": "Allowing space between the choking forearm and the chest during elbow elevation",
@@ -267,7 +267,7 @@
       {
         "phase": "Grip Isolation",
         "focus": "High elbow grip mechanics without resistance",
-        "description": "Partner allows you to practice the grip transition from standard guillotine to high elbow configuration repeatedly. Focus on wrist blade placement, elbow elevation path, and clasp positioning. No finishing pressure\u2014develop the motor pattern of the grip change. 20 repetitions per side."
+        "description": "Partner allows you to practice the grip transition from standard guillotine to high elbow configuration repeatedly. Focus on wrist blade placement, elbow elevation path, and clasp positioning. No finishing pressure—develop the motor pattern of the grip change. 20 repetitions per side."
       },
       {
         "phase": "Finishing Mechanics",
@@ -285,7 +285,7 @@
         "description": "Start in guillotine control with partner defending at full intensity. Attacker wins by submission or positional advancement using the choke threat. Partner wins by escaping guillotine control entirely. Reset after each resolution. Develops realistic timing and decision-making under pressure. 2-minute rounds, 5-8 rounds."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the High Elbow Guillotine specifically target and how does the elbow position affect compression?",
         "answer": "The High Elbow Guillotine targets both carotid arteries simultaneously. The blade of the wrist or forearm compresses the near-side carotid directly, while the elevated elbow closes the far-side carotid by pressing it against the attacker's chest and shoulder. This bilateral compression produces a blood choke that causes unconsciousness within seconds when fully applied, as opposed to a tracheal crush that primarily causes pain.",
@@ -293,22 +293,22 @@
       },
       {
         "question": "Why does the High Elbow Guillotine defeat the chin tuck defense that stops standard guillotines?",
-        "answer": "The standard guillotine attacks horizontally across the front of the throat, which the chin tuck blocks by interposing the jaw between the forearm and the trachea. The high elbow angle attacks from below and behind the chin\u2014the forearm blade slides under the jawline to reach the carotid arteries regardless of chin position. The vertical elbow path makes the chin tuck irrelevant because the compression occurs beneath the jaw rather than through it.",
+        "answer": "The standard guillotine attacks horizontally across the front of the throat, which the chin tuck blocks by interposing the jaw between the forearm and the trachea. The high elbow angle attacks from below and behind the chin—the forearm blade slides under the jawline to reach the carotid arteries regardless of chin position. The vertical elbow path makes the chin tuck irrelevant because the compression occurs beneath the jaw rather than through it.",
         "safety_critical": false
       },
       {
-        "question": "Your opponent starts hand fighting your choking wrist during the grip transition\u2014what adjustment prevents the strip?",
+        "question": "Your opponent starts hand fighting your choking wrist during the grip transition—what adjustment prevents the strip?",
         "answer": "Pin your elbows tight to your ribs and keep the choking forearm connected to your chest wall, eliminating the space needed for effective hand fighting. Rotate your body slightly toward the choking side to increase downward pressure on their grip hand. If they momentarily break your clasp, re-grip immediately at the wrist rather than trying to re-establish the full palm-to-palm configuration, then complete the elbow elevation before they can re-engage their hand fight.",
         "safety_critical": false
       },
       {
         "question": "What are the critical indicators that the choke is properly set and the opponent is approaching the point of no escape?",
-        "answer": "Key indicators include the opponent's hand fighting becoming weaker or less coordinated, a visible color change in the face (reddening or darkening), the opponent's breathing becoming labored or producing gurgling sounds, and the cessation of active escape attempts replaced by static tension. The point of no escape occurs when the elbow reaches full ceiling height with zero gap between forearm and neck\u2014at this point even releasing one hand from the grip maintains enough compression to produce unconsciousness.",
+        "answer": "Key indicators include the opponent's hand fighting becoming weaker or less coordinated, a visible color change in the face (reddening or darkening), the opponent's breathing becoming labored or producing gurgling sounds, and the cessation of active escape attempts replaced by static tension. The point of no escape occurs when the elbow reaches full ceiling height with zero gap between forearm and neck—at this point even releasing one hand from the grip maintains enough compression to produce unconsciousness.",
         "safety_critical": true
       },
       {
         "question": "What is the proper release protocol when your training partner taps to the High Elbow Guillotine?",
-        "answer": "Immediately release the choking arm grip upon any tap signal\u2014verbal, physical hand tap, foot tap, or body going limp. Lower the choking elbow and remove shoulder pressure simultaneously. Release head control and create space by opening guard and stepping back. Monitor your partner's breathing and consciousness for ten to fifteen seconds after release. Never reapply pressure once released, and be prepared to call for medical assistance if your partner shows signs of delayed response or confusion.",
+        "answer": "Immediately release the choking arm grip upon any tap signal—verbal, physical hand tap, foot tap, or body going limp. Lower the choking elbow and remove shoulder pressure simultaneously. Release head control and create space by opening guard and stepping back. Monitor your partner's breathing and consciousness for ten to fifteen seconds after release. Never reapply pressure once released, and be prepared to call for medical assistance if your partner shows signs of delayed response or confusion.",
         "safety_critical": true
       },
       {
@@ -317,13 +317,13 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins passing your guard while you hold the guillotine grip\u2014what is the correct decision and why?",
-        "answer": "You must either finish the submission immediately before they consolidate the pass, or release the grip and address the guard pass with standard retention. Holding the guillotine grip while the opponent passes to side control exposes you to the Von Flue choke, where their shoulder pressure on your neck reverses the submission. The decision depends on how deep and tight your choke is\u2014if the elbow is fully elevated and compression is bilateral, you can finish through the pass; if the grip is compromised, release immediately.",
+        "question": "Your opponent begins passing your guard while you hold the guillotine grip—what is the correct decision and why?",
+        "answer": "You must either finish the submission immediately before they consolidate the pass, or release the grip and address the guard pass with standard retention. Holding the guillotine grip while the opponent passes to side control exposes you to the Von Flue choke, where their shoulder pressure on your neck reverses the submission. The decision depends on how deep and tight your choke is—if the elbow is fully elevated and compression is bilateral, you can finish through the pass; if the grip is compromised, release immediately.",
         "safety_critical": false
       },
       {
         "question": "In competition, what finishing adjustments maximize your success rate when the opponent is actively defending?",
-        "answer": "In competition, use rapid grip switching between standard and high elbow configurations to prevent the defender from settling into a single defensive pattern. Time the elbow elevation to coincide with the opponent's exhalation when their neck is momentarily thinner. Walk your hips toward the choking side to increase the lever arm. If the opponent stalls your finish, threaten positional advancement to mount or back control\u2014their defensive reaction to the position threat often opens the neck for the choke finish.",
+        "answer": "In competition, use rapid grip switching between standard and high elbow configurations to prevent the defender from settling into a single defensive pattern. Time the elbow elevation to coincide with the opponent's exhalation when their neck is momentarily thinner. Walk your hips toward the choking side to increase the lever arm. If the opponent stalls your finish, threaten positional advancement to mount or back control—their defensive reaction to the position threat often opens the neck for the choke finish.",
         "safety_critical": false
       }
     ]
@@ -333,12 +333,12 @@
     "description": "Defend against the High Elbow Guillotine from Guillotine Control. Recognition cues, escape techniques, and survival strategies for BJJ practitioners.",
     "overview": "Defending the High Elbow Guillotine from Guillotine Control requires recognizing the elbow elevation early and acting before the attacker completes the grip transition. The high elbow angle bypasses the standard chin tuck defense, so your primary survival tools are posture recovery, hand fighting the choking wrist, and creating angles that reduce compression on both carotid arteries simultaneously. Time is severely compressed in this position because the blood choke can produce unconsciousness within seconds once the elbow reaches full height, making early recognition and immediate decisive action essential. Your best outcomes come from preventing the grip transition entirely rather than trying to survive the fully locked choke.",
     "key_principles": [
-      "Recognize the elbow elevation early\u2014once the elbow reaches ceiling position with full compression, escape becomes nearly impossible",
+      "Recognize the elbow elevation early—once the elbow reaches ceiling position with full compression, escape becomes nearly impossible",
       "Fight the choking wrist and forearm connection to the chest before the elbow climbs, not after",
       "Posture recovery is your highest-priority defense: get your head above your hips to reduce the mechanical advantage of the choke angle",
       "Create angles by turning into the choking arm to reduce bilateral carotid compression to single-side pressure",
-      "Never allow your opponent to maintain closed guard while finishing\u2014fighting the guard open reduces their ability to control your posture",
-      "Tap early and decisively if the choke locks in\u2014the blood choke window to unconsciousness is measured in seconds, not minutes"
+      "Never allow your opponent to maintain closed guard while finishing—fighting the guard open reduces their ability to control your posture",
+      "Tap early and decisively if the choke locks in—the blood choke window to unconsciousness is measured in seconds, not minutes"
     ],
     "recognition_cues": [
       "Attacker's choking elbow begins rising vertically toward the ceiling rather than squeezing horizontally across your throat",
@@ -400,20 +400,20 @@
       {
         "error": "Attempting to posture up when the choke is already fully locked with the elbow at ceiling height",
         "consequence": "Posturing drives your neck harder into the forearm blade, actually tightening the choke and accelerating the blood flow restriction",
-        "correction": "If the choke is fully locked, prioritize turning into the arm to reduce bilateral compression rather than posturing. Alternatively, tap immediately if escape is not available\u2014the window to unconsciousness is very short."
+        "correction": "If the choke is fully locked, prioritize turning into the arm to reduce bilateral compression rather than posturing. Alternatively, tap immediately if escape is not available—the window to unconsciousness is very short."
       },
       {
         "error": "Fighting the choke with one hand while posting the other hand on the mat",
         "consequence": "Single-hand defense lacks the strength to strip the grip against a fully committed two-arm choke. The posting hand provides no defensive value against neck compression.",
-        "correction": "Commit both hands to the choking wrist for maximum stripping power. Accept temporary positional disadvantage to survive the submission\u2014you cannot be passed if you are unconscious."
+        "correction": "Commit both hands to the choking wrist for maximum stripping power. Accept temporary positional disadvantage to survive the submission—you cannot be passed if you are unconscious."
       },
       {
         "error": "Waiting too long to tap when the choke is locked and escape attempts have failed",
         "consequence": "Blood chokes produce unconsciousness within five to ten seconds of full bilateral compression. Delayed tapping risks involuntary loss of consciousness and potential injury.",
-        "correction": "Tap immediately and decisively when you feel bilateral carotid compression with no available escape path. There is no benefit to resisting a locked blood choke\u2014the window to unconsciousness is too short to outlast."
+        "correction": "Tap immediately and decisively when you feel bilateral carotid compression with no available escape path. There is no benefit to resisting a locked blood choke—the window to unconsciousness is too short to outlast."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that the attacker is transitioning from a standard guillotine to the high elbow variation?",
         "answer": "The primary cues are the attacker's elbow beginning to rise vertically toward the ceiling rather than squeezing horizontally, a grip change from standard palm-to-palm to a wrist-level clasp, and increased pressure shifting from the front of your throat to behind and beneath your jawline. You may also feel the attacker's hips begin extending forward as they coordinate the finishing mechanics.",
@@ -421,7 +421,7 @@
       },
       {
         "question": "What is the safest way to tap to the High Elbow Guillotine and when should you tap?",
-        "answer": "Tap clearly by slapping the attacker's body, your own body, or the mat with your hand, or by verbal signal. Tap immediately when you feel bilateral carotid compression with the elbow fully elevated and your escape attempts have failed. Do not attempt to tough out a locked blood choke\u2014the window from full compression to unconsciousness is five to ten seconds. A clear early tap prevents injury and allows you to resume training safely.",
+        "answer": "Tap clearly by slapping the attacker's body, your own body, or the mat with your hand, or by verbal signal. Tap immediately when you feel bilateral carotid compression with the elbow fully elevated and your escape attempts have failed. Do not attempt to tough out a locked blood choke—the window from full compression to unconsciousness is five to ten seconds. A clear early tap prevents injury and allows you to resume training safely.",
         "safety_critical": true
       },
       {
@@ -436,7 +436,7 @@
       },
       {
         "question": "How does the Von Flue counter work and when is it a viable defensive option?",
-        "answer": "The Von Flue choke counter works by passing the attacker's guard while they maintain the guillotine grip, then applying heavy shoulder pressure into the side of their neck from side control. The attacker's own grip traps their arm in place, preventing escape from the counter-pressure. This is viable only when the attacker holds the guillotine with open guard or you can successfully open their closed guard during the defense. It is not viable if the attacker has tight closed guard and a deep choke\u2014you must address the guard before attempting the pass.",
+        "answer": "The Von Flue choke counter works by passing the attacker's guard while they maintain the guillotine grip, then applying heavy shoulder pressure into the side of their neck from side control. The attacker's own grip traps their arm in place, preventing escape from the counter-pressure. This is viable only when the attacker holds the guillotine with open guard or you can successfully open their closed guard during the defense. It is not viable if the attacker has tight closed guard and a deep choke—you must address the guard before attempting the pass.",
         "safety_critical": false
       }
     ],
@@ -454,7 +454,7 @@
       {
         "phase": "Live Survival Sparring",
         "focus": "Realistic defense with full resistance and tap awareness",
-        "description": "Start in guillotine control with partner applying full-intensity high elbow guillotine. Defender must escape or survive for the round duration. Emphasize tap discipline\u2014tap early when escape is not available rather than risking unconsciousness. Develops honest assessment of defensive capabilities under pressure. 90-second rounds, 5-8 rounds."
+        "description": "Start in guillotine control with partner applying full-intensity high elbow guillotine. Defender must escape or survive for the round duration. Emphasize tap discipline—tap early when escape is not available rather than risking unconsciousness. Develops honest assessment of defensive capabilities under pressure. 90-second rounds, 5-8 rounds."
       }
     ]
   }

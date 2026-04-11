@@ -104,7 +104,7 @@ jobs:
                - Fill any TODO/placeholder fields with accurate BJJ content
                - Enrich thin descriptions and overviews (front-load key facts)
                - Add [[Wikilinks]] throughout (6-15 minimum, validated against catalog)
-               - Improve knowledge_assessment questions (clear, specific, practical)
+               - Improve flashcards (clear, specific, practical Q&A pairs)
                - Ensure success rates: beginner <= intermediate <= advanced
                - Add bot_metadata.last_improved with today's date
             4. Focus improvements on what analytics suggest is weak:

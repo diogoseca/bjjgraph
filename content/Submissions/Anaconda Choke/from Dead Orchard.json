@@ -71,13 +71,13 @@
     "release_protocol": [
       "Release ALL pressure immediately upon any tap signal",
       "If opponent goes limp or appears unconscious, release immediately and place in recovery position",
-      "If in doubt whether a tap occurred, release and check\u2014position can always be re-established",
+      "If in doubt whether a tap occurred, release and check—position can always be re-established",
       "After release, monitor partner for delayed distress including disorientation, nausea, or vision changes",
       "Never re-apply choke pressure immediately after release without confirming partner is fully recovered"
     ],
     "training_restrictions": [
       "Begin drilling at 50% pressure until both partners understand mechanics and tap timing",
-      "No full-pressure anaconda finishing attempts for white belts\u2014focus on positional control only",
+      "No full-pressure anaconda finishing attempts for white belts—focus on positional control only",
       "Partners must verbally confirm readiness before live finishing attempts during sparring",
       "Stop immediately if partner shows signs of panic, disorientation, or loss of motor control",
       "Avoid training choke finishes when fatigued or with new or unfamiliar training partners"
@@ -110,43 +110,43 @@
   "related_content": [
     {
       "name": "Dead Orchard Control",
-      "relationship": "Source position\u2014the established control state from which this finish is executed"
+      "relationship": "Source position—the established control state from which this finish is executed"
     },
     {
       "name": "Anaconda Control",
-      "relationship": "Parent control position\u2014standard anaconda configuration that precedes Dead Orchard establishment"
+      "relationship": "Parent control position—standard anaconda configuration that precedes Dead Orchard establishment"
     },
     {
       "name": "Front Headlock",
-      "relationship": "Entry position\u2014common setup state where the anaconda grip is initially established"
+      "relationship": "Entry position—common setup state where the anaconda grip is initially established"
     },
     {
       "name": "Turtle",
-      "relationship": "Common entry state\u2014opponent turtle position frequently creates anaconda finishing opportunities"
+      "relationship": "Common entry state—opponent turtle position frequently creates anaconda finishing opportunities"
     },
     {
       "name": "Anaconda Choke",
-      "relationship": "Primary submission variant\u2014standard anaconda finish without the extended Dead Orchard control phase"
+      "relationship": "Primary submission variant—standard anaconda finish without the extended Dead Orchard control phase"
     },
     {
       "name": "Darce Control",
-      "relationship": "Sister position\u2014alternative arm-in choke control with different arm threading mechanics"
+      "relationship": "Sister position—alternative arm-in choke control with different arm threading mechanics"
     },
     {
       "name": "Back Control",
-      "relationship": "Alternative advancement\u2014transition target when the anaconda finish is successfully defended"
+      "relationship": "Alternative advancement—transition target when the anaconda finish is successfully defended"
     },
     {
       "name": "North-South",
-      "relationship": "Positional alternative\u2014transition option when opponent neutralizes choke mechanics through strong defensive grips"
+      "relationship": "Positional alternative—transition option when opponent neutralizes choke mechanics through strong defensive grips"
     }
   ],
   "attacker": {
     "name": "from Dead Orchard Attacker",
     "description": "Execute the Anaconda Choke from Dead Orchard in BJJ. Step-by-step finishing mechanics covering grip depth, hip walking, shoulder pressure coordination, and progressive squeeze application for this advanced blood choke.",
-    "overview": "Executing the Anaconda Choke from Dead Orchard requires mastery of sustained positional pressure combined with precise finishing mechanics. The attacker has already invested significant effort establishing the Dead Orchard control configuration\u2014deep anaconda grip, shoulder pressure, and hip control\u2014and must now convert this positional advantage into a successful submission. The finishing phase demands sensitivity to the opponent's defensive state, precise hip walking to achieve optimal compression angle, and coordinated application of grip squeeze, shoulder drive, and body rotation. Unlike explosive submission attempts, this finish rewards patience and methodical pressure escalation, capitalizing on the defensive fatigue created during the extended control phase. Understanding the relationship between grip depth, hip angle, and shoulder pressure is essential for consistently completing this choke against resisting opponents.",
+    "overview": "Executing the Anaconda Choke from Dead Orchard requires mastery of sustained positional pressure combined with precise finishing mechanics. The attacker has already invested significant effort establishing the Dead Orchard control configuration—deep anaconda grip, shoulder pressure, and hip control—and must now convert this positional advantage into a successful submission. The finishing phase demands sensitivity to the opponent's defensive state, precise hip walking to achieve optimal compression angle, and coordinated application of grip squeeze, shoulder drive, and body rotation. Unlike explosive submission attempts, this finish rewards patience and methodical pressure escalation, capitalizing on the defensive fatigue created during the extended control phase. Understanding the relationship between grip depth, hip angle, and shoulder pressure is essential for consistently completing this choke against resisting opponents.",
     "key_principles": [
-      "Maintain grip depth throughout the finishing sequence\u2014shallow grips cannot generate sufficient bilateral carotid compression",
+      "Maintain grip depth throughout the finishing sequence—shallow grips cannot generate sufficient bilateral carotid compression",
       "Walk hips toward the opponent's head in small incremental steps to progressively tighten the choking angle",
       "Coordinate the squeeze with shoulder drive and hip rotation for maximum compression efficiency",
       "Recognize the finishing window when the opponent's defensive movements slow and their trapped arm relaxes",
@@ -290,7 +290,7 @@
         "description": "Positional sparring starting from established Dead Orchard control. Attacker works to finish while defender uses full resistance and all available escapes. Track finishing success rate and identify patterns where the finish stalls. Adjust technique based on live feedback."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the Anaconda Choke from Dead Orchard primarily target, and how does the arm-in configuration create compression?",
         "answer": "The finish targets bilateral compression of the carotid arteries on both sides of the neck. The arm-in configuration creates a triangle of pressure: the choking arm compresses one carotid, the opponent's own trapped arm acts as a fulcrum pressing against the opposite carotid, and the shoulder drives downward to seal the compression. This bilateral blood restriction produces unconsciousness by cutting cerebral blood flow rather than restricting the airway."
@@ -341,7 +341,7 @@
     "description": "Defend the Anaconda Choke from Dead Orchard in BJJ. Recognition cues, escape timing, grip defense techniques, and systematic survival strategies for this advanced blood choke position.",
     "overview": "Defending the Anaconda Choke from Dead Orchard requires calm, systematic responses under extreme duress. The defender is already in a severely compromised position with restricted breathing, limited mobility, and an opponent who has built significant control through the extended Dead Orchard phase. Successful defense demands early recognition of finishing indicators, targeted grip fighting to prevent the squeeze from completing, and precise timing of escape movements that exploit momentary pressure shifts during the attacker's hip walking adjustments. The defender must resist panic responses that accelerate fatigue and instead focus on incremental defensive improvements that preserve escape windows. Understanding that even deeply locked anaconda finishes have exploitable gaps during the attacker's adjustment phases provides the mental framework needed to maintain composure and execute technical escapes under severe positional pressure.",
     "key_principles": [
-      "Recognize finishing indicators early\u2014hip walking, increased shoulder pressure, and grip tightening signal the transition from control to finish",
+      "Recognize finishing indicators early—hip walking, increased shoulder pressure, and grip tightening signal the transition from control to finish",
       "Create space at the choking arm's elbow joint where defensive leverage is greatest rather than fighting the grip itself",
       "Time escape attempts to coincide with the attacker's hip walking adjustments when pressure momentarily shifts",
       "Turn your body toward the trapped arm side to change the compression angle and reduce choke effectiveness on the carotids",
@@ -373,17 +373,17 @@
       },
       {
         "action": "Forward roll through the choke when attacker overcommits hips past optimal angle",
-        "when_to_use": "When you feel the attacker's hips have walked too far, creating a cranking angle rather than compression\u2014their weight is committed forward and they cannot follow a roll",
+        "when_to_use": "When you feel the attacker's hips have walked too far, creating a cranking angle rather than compression—their weight is committed forward and they cannot follow a roll",
         "targets_outcome": "Half Guard/Top",
         "if_successful": "Inverts the position and can extract the trapped arm during the roll, recovering to guard",
-        "risk": "High risk if the choke is well-positioned\u2014rolling into a locked choke accelerates unconsciousness rather than creating escape"
+        "risk": "High risk if the choke is well-positioned—rolling into a locked choke accelerates unconsciousness rather than creating escape"
       },
       {
         "action": "Clasp hands together to create a structural barrier preventing full grip tightening",
         "when_to_use": "When you feel the squeeze beginning but still have enough hand mobility to bring your hands together in a prayer or gable grip",
         "targets_outcome": "Dead Orchard Control/Top",
         "if_successful": "Creates an internal frame that mechanically prevents full carotid compression, buying time to work other escapes",
-        "risk": "Only a temporary defense\u2014the attacker can strip the clasp or walk past it with angular pressure changes"
+        "risk": "Only a temporary defense—the attacker can strip the clasp or walk past it with angular pressure changes"
       }
     ],
     "escape_paths": [
@@ -423,7 +423,7 @@
         "correction": "If the choke is locked with full bilateral compression and you cannot create any space within two to three seconds, tap immediately. The position can be drilled again safely. No training roll is worth risking brain hypoxia"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive priority when you recognize the attacker transitioning from Dead Orchard control to finishing the anaconda choke?",
         "answer": "The first priority is getting your free hand to the choking arm at the elbow joint to create a frame that prevents the grip from tightening into full compression. Do not waste energy pulling at their hands or pushing their body. The elbow is the mechanically weakest point of the choking arm and framing there provides the greatest defensive leverage per unit of energy expended. Simultaneously, tuck your chin and turn your face toward the attacker's body to protect the carotid arteries.",
@@ -452,7 +452,7 @@
       {
         "phase": "Phase 1: Recognition and Awareness",
         "focus": "Identifying the transition from Dead Orchard control to finishing attempt",
-        "description": "Partner establishes Dead Orchard control and alternates between maintaining position and initiating finishing sequences. Defender practices identifying the specific cues\u2014hip walking, shoulder pressure increase, grip tightening\u2014that distinguish finishing attempts from control maintenance. Call out the cue as soon as you recognize it."
+        "description": "Partner establishes Dead Orchard control and alternates between maintaining position and initiating finishing sequences. Defender practices identifying the specific cues—hip walking, shoulder pressure increase, grip tightening—that distinguish finishing attempts from control maintenance. Call out the cue as soon as you recognize it."
       },
       {
         "phase": "Phase 2: Defensive Framing Mechanics",
@@ -462,12 +462,12 @@
       {
         "phase": "Phase 3: Escape Timing Development",
         "focus": "Timing hip escapes and rolls to attacker adjustment windows",
-        "description": "Partner performs complete finishing sequences with moderate resistance. Defender focuses on timing escape attempts\u2014hip escapes and forward rolls\u2014to coincide with the attacker's hip walking adjustments and grip stripping moments. Track escape success rates and refine timing through repeated exposure."
+        "description": "Partner performs complete finishing sequences with moderate resistance. Defender focuses on timing escape attempts—hip escapes and forward rolls—to coincide with the attacker's hip walking adjustments and grip stripping moments. Track escape success rates and refine timing through repeated exposure."
       },
       {
         "phase": "Phase 4: Full Resistance Positional Sparring",
         "focus": "Complete defensive application against full-resistance finishing attempts",
-        "description": "Positional sparring starting from established Dead Orchard control with the attacker working to finish at full intensity. Defender uses all available defensive tools\u2014framing, grip fighting, escape timing, and positional awareness\u2014to either prevent the finish or escape to guard recovery. Tap early and often to build pattern recognition safely."
+        "description": "Positional sparring starting from established Dead Orchard control with the attacker working to finish at full intensity. Defender uses all available defensive tools—framing, grip fighting, escape timing, and positional awareness—to either prevent the finish or escape to guard recovery. Tap early and often to build pattern recognition safely."
       }
     ]
   }

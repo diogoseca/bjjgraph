@@ -11,7 +11,7 @@ export interface SRSCard {
   repetitions: number // consecutive correct reviews
   lastReview: string // ISO date
   history: Array<{ date: string; rating: "again" | "hard" | "easy" }>
-  questionsMastered: number[] // indices of questions answered correctly (Hard/Easy)
+  flashcardsMastered: number[] // indices of flashcards answered correctly (Hard/Easy)
 }
 
 const STORAGE_KEY = "bjj-srs-cards"
@@ -28,12 +28,19 @@ function addDays(dateStr: string, days: number): string {
 
 export function loadSRSCards(): SRSCard[] {
   try {
-    const cards = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]") as SRSCard[]
-    // Migration: ensure questionsMastered exists on all cards
-    for (const card of cards) {
-      if (!card.questionsMastered) card.questionsMastered = []
+    const raw = JSON.parse(localStorage.getItem(STORAGE_KEY) || "[]") as Array<
+      SRSCard & { questionsMastered?: number[] }
+    >
+    // Ensure flashcardsMastered exists on every card. Also handles in-memory
+    // migration for any legacy card that still has questionsMastered (the
+    // persisted migration runs once in flashcard.inline.ts).
+    for (const card of raw) {
+      if (!card.flashcardsMastered) {
+        card.flashcardsMastered = card.questionsMastered ?? []
+      }
+      if (card.questionsMastered) delete card.questionsMastered
     }
-    return cards
+    return raw as SRSCard[]
   } catch {
     return []
   }
@@ -67,7 +74,7 @@ export function addCard(
     repetitions: 0,
     lastReview: today(),
     history: [],
-    questionsMastered: [],
+    flashcardsMastered: [],
   }
   cards.push(card)
   saveSRSCards(cards)
@@ -118,13 +125,13 @@ export function getMasteredCards(): SRSCard[] {
   return loadSRSCards().filter((c) => c.repetitions >= 5 && c.easeFactor >= 2.5)
 }
 
-export function masterQuestion(technique: string, questionIndex: number) {
+export function masterFlashcard(technique: string, flashcardIndex: number) {
   const cards = loadSRSCards()
   const card = cards.find((c) => c.technique === technique)
   if (!card) return
-  if (!card.questionsMastered) card.questionsMastered = []
-  if (!card.questionsMastered.includes(questionIndex)) {
-    card.questionsMastered.push(questionIndex)
+  if (!card.flashcardsMastered) card.flashcardsMastered = []
+  if (!card.flashcardsMastered.includes(flashcardIndex)) {
+    card.flashcardsMastered.push(flashcardIndex)
     saveSRSCards(cards)
   }
 }

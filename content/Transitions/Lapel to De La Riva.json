@@ -222,7 +222,7 @@
         "description": "Full resistance sparring rounds starting from lapel guard. Focus on reading opponent's reactions and choosing appropriate moments to transition. Track success rate and identify patterns in failed attempts. Target 3-5 successful transitions per training session."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary advantage of maintaining the lapel grip throughout this transition?",
         "answer": "The lapel grip serves as insurance throughout the transition—if your DLR hook is defended or cleared, you retain meaningful guard control rather than ending up in a compromised open guard. It also prevents the opponent from stepping back during hook insertion and provides continuous off-balancing pressure."
@@ -359,7 +359,7 @@
         "correction": "Strip or neutralize the DLR hook before initiating any passing sequence. Backstep, circle, or flatten the hook before committing to forward passing pressure"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to transition from lapel guard to DLR?",
         "answer": "The earliest cue is the hip rotation—when the bottom player begins angling their hips approximately 45 degrees toward your lead leg side. This rotation precedes the leg threading by a fraction of a second and signals their intent to insert the DLR hook. Recognizing this rotation before the leg moves gives you the maximum defensive window."

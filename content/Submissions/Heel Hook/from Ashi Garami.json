@@ -19,7 +19,7 @@
   "starting_position": "Ashi Garami",
   "from_position": "Ashi Garami/Bottom",
   "success_rate": 45,
-  "overview": "The heel hook from Ashi Garami targets the knee's rotational ligaments\u2014primarily the ACL, MCL, and LCL\u2014through controlled twisting of the heel while the foot is locked against the attacker's chest. Executed from the standard outside Ashi Garami entanglement, this attack sits at the base of the leg lock positional hierarchy, making it lower percentage than heel hooks from Saddle or Cross Ashi but still a credible threat that demands immediate defensive response from the opponent.\n\nThe biomechanical principle relies on isolating the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure\u2014ligaments can tear before the defender recognizes the severity of the threat.\n\nStrategically, the heel hook from outside Ashi serves dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook\u2014straightening the leg, turning the knee inward, reaching to strip grips\u2014often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.",
+  "overview": "The heel hook from Ashi Garami targets the knee's rotational ligaments—primarily the ACL, MCL, and LCL—through controlled twisting of the heel while the foot is locked against the attacker's chest. Executed from the standard outside Ashi Garami entanglement, this attack sits at the base of the leg lock positional hierarchy, making it lower percentage than heel hooks from Saddle or Cross Ashi but still a credible threat that demands immediate defensive response from the opponent.\n\nThe biomechanical principle relies on isolating the foot from the knee joint. By securing the heel in a figure-four or butterfly grip and clamping the foot tightly to the chest, the attacker creates a fixed point at the ankle. Hip rotation then transmits force through the tibia and fibula into the knee joint, stressing the cruciate and collateral ligaments beyond their structural tolerance. The danger of this submission lies in the minimal pain feedback before structural failure—ligaments can tear before the defender recognizes the severity of the threat.\n\nStrategically, the heel hook from outside Ashi serves dual purpose. As a direct finishing threat, it forces opponents to address the attack rather than focusing on extraction. As a positional tool, defensive reactions to the heel hook—straightening the leg, turning the knee inward, reaching to strip grips—often create openings for the attacker to advance to Inside Ashi, Cross Ashi, or Saddle, where finishing percentages climb dramatically. Skilled practitioners weaponize the threat itself as much as the finish, using attack-and-advance sequences that systematically deteriorate the defender's position.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -146,7 +146,7 @@
   "attacker": {
     "name": "Heel Hook from Ashi Garami Attacker",
     "description": "Learn to attack the heel hook from outside Ashi Garami with proper grip configuration, knee line control, rotational finishing mechanics, and hierarchy advancement strategy.",
-    "overview": "Attacking the heel hook from outside Ashi Garami requires understanding that this represents an opportunistic finish from the base of the leg lock hierarchy. Your primary goal is securing heel exposure through proper grip fighting and angle management while maintaining enough positional control to either complete the submission or transition to a more dominant entanglement when the initial attack is defended. The grip configuration\u2014figure-four with heel bone seated in the wrist crook\u2014knee line management through pinching knees, and rotational mechanics through hip turning must coordinate precisely to generate finishing pressure from a position with inherent structural limitations compared to Saddle or Cross Ashi. Treat the heel hook threat as both a finishing tool and a forcing function that creates advancement opportunities when the opponent's defensive reactions open transitional pathways.",
+    "overview": "Attacking the heel hook from outside Ashi Garami requires understanding that this represents an opportunistic finish from the base of the leg lock hierarchy. Your primary goal is securing heel exposure through proper grip fighting and angle management while maintaining enough positional control to either complete the submission or transition to a more dominant entanglement when the initial attack is defended. The grip configuration—figure-four with heel bone seated in the wrist crook—knee line management through pinching knees, and rotational mechanics through hip turning must coordinate precisely to generate finishing pressure from a position with inherent structural limitations compared to Saddle or Cross Ashi. Treat the heel hook threat as both a finishing tool and a forcing function that creates advancement opportunities when the opponent's defensive reactions open transitional pathways.",
     "key_principles": [
       "Control the knee line by pinching your knees together around the opponent's thigh before initiating any rotation to prevent force dissipation through free knee movement",
       "Clamp the captured foot tight against your chest so your entire upper body acts as a unified rotation platform rather than relying on arm strength alone",
@@ -256,7 +256,7 @@
       {
         "error": "Attempting the heel hook immediately from outside Ashi without first establishing proper grip configuration and positional control",
         "consequence": "Rushed attacks are easily defended, waste energy, and often result in loss of the entire leg entanglement when the opponent capitalizes on overcommitment",
-        "correction": "Follow the systematic sequence of entanglement consolidation, posture control, heel capture, grip configuration, clamping, knee line control, then rotation\u2014establishing each element before progressing"
+        "correction": "Follow the systematic sequence of entanglement consolidation, posture control, heel capture, grip configuration, clamping, knee line control, then rotation—establishing each element before progressing"
       },
       {
         "error": "Gripping the forefoot or toes instead of securing the heel bone itself in the crook of the wrist",
@@ -291,10 +291,10 @@
         "description": "Integrate heel hook from Ashi Garami into full rolling sessions with specific focus on entries from guard positions, timing of attacks within scrambles, hierarchy advancement chains, and finishing under competition-level resistance. Track success rate across training partners to identify patterns."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the heel hook from Ashi Garami primarily attack?",
-        "answer": "The heel hook primarily attacks the rotational ligaments of the knee\u2014the anterior cruciate ligament (ACL), medial collateral ligament (MCL), and lateral collateral ligament (LCL). Secondary stress affects the meniscus cartilage and ankle ligaments. The submission works by rotating the tibia relative to the femur beyond the knee's structural tolerance through controlled twisting of the isolated heel.",
+        "answer": "The heel hook primarily attacks the rotational ligaments of the knee—the anterior cruciate ligament (ACL), medial collateral ligament (MCL), and lateral collateral ligament (LCL). Secondary stress affects the meniscus cartilage and ankle ligaments. The submission works by rotating the tibia relative to the femur beyond the knee's structural tolerance through controlled twisting of the isolated heel.",
         "safety_critical": false
       },
       {
@@ -303,13 +303,13 @@
         "safety_critical": true
       },
       {
-        "question": "Your opponent straightens their trapped leg during your heel hook attempt\u2014what adjustment prevents their escape?",
+        "question": "Your opponent straightens their trapped leg during your heel hook attempt—what adjustment prevents their escape?",
         "answer": "When the opponent straightens their leg, pinch your knees together more tightly around their thigh to maintain the knee line and prevent force dissipation. Use the straightening motion as an opportunity to thread your inside leg deeper toward Inside Ashi by sliding your hook past their hip before they complete the defense. If the straightening successfully neutralizes the finish, transition immediately to the improved hierarchical position rather than forcing a low-percentage completion from outside Ashi.",
         "safety_critical": false
       },
       {
         "question": "What is the correct release protocol when your training partner taps to a heel hook?",
-        "answer": "Immediately cease all rotational pressure upon any tap signal\u2014verbal, physical hand tap, foot tap, or distress vocalization. Release the heel grip completely before unwrapping the leg entanglement configuration. Allow your partner to extract their leg at their own pace without rushing the release. Check with them about their knee and ankle condition afterward. Report any discomfort to the instructor even if it seems minor, as ligament damage may not produce immediate severe pain.",
+        "answer": "Immediately cease all rotational pressure upon any tap signal—verbal, physical hand tap, foot tap, or distress vocalization. Release the heel grip completely before unwrapping the leg entanglement configuration. Allow your partner to extract their leg at their own pace without rushing the release. Check with them about their knee and ankle condition afterward. Report any discomfort to the instructor even if it seems minor, as ligament damage may not produce immediate severe pain.",
         "safety_critical": true
       },
       {
@@ -347,13 +347,13 @@
   "defender": {
     "name": "Heel Hook from Ashi Garami Defender",
     "description": "Defend against the heel hook from Ashi Garami with early recognition cues, grip stripping sequences, leg extraction mechanics, and counter-positioning strategies.",
-    "overview": "Defending the heel hook from Ashi Garami demands early recognition and immediate response before the attacker establishes a secure grip configuration. Once the heel is captured and the figure-four is locked, defensive options narrow dramatically and the timeline to tap shrinks with each second of applied rotation. The defender must prioritize preventing heel exposure through leg straightening and inward knee positioning, stripping grips before they solidify into figure-four configurations, and extracting the trapped leg through systematic clearing sequences rather than explosive ripping that creates worse exposure angles. Understanding the danger timeline\u2014from initial heel capture through locked figure-four to progressive rotational pressure\u2014determines which defensive response is appropriate at each stage and when tapping becomes the safest and most intelligent choice.",
+    "overview": "Defending the heel hook from Ashi Garami demands early recognition and immediate response before the attacker establishes a secure grip configuration. Once the heel is captured and the figure-four is locked, defensive options narrow dramatically and the timeline to tap shrinks with each second of applied rotation. The defender must prioritize preventing heel exposure through leg straightening and inward knee positioning, stripping grips before they solidify into figure-four configurations, and extracting the trapped leg through systematic clearing sequences rather than explosive ripping that creates worse exposure angles. Understanding the danger timeline—from initial heel capture through locked figure-four to progressive rotational pressure—determines which defensive response is appropriate at each stage and when tapping becomes the safest and most intelligent choice.",
     "key_principles": [
-      "Tap early when rotational pressure is felt on the knee before pain signals arrive\u2014knee ligament damage consistently precedes pain in heel hook submissions",
+      "Tap early when rotational pressure is felt on the knee before pain signals arrive—knee ligament damage consistently precedes pain in heel hook submissions",
       "Prevent heel exposure by maintaining straight leg alignment with the knee pointed inward toward the attacker to eliminate the rotational angle needed for the finish",
       "Address the grip immediately with both hands to strip the heel grip before the figure-four is established, as stripping a locked figure-four is exponentially harder",
       "Never explosively rip the trapped leg out of the entanglement, as forceful extraction generates uncontrolled knee rotation and creates worse exposure angles",
-      "Maintain awareness of the positional hierarchy level to calibrate defensive urgency\u2014Outside Ashi is manageable while Saddle is a critical emergency requiring immediate action",
+      "Maintain awareness of the positional hierarchy level to calibrate defensive urgency—Outside Ashi is manageable while Saddle is a critical emergency requiring immediate action",
       "Use systematic leg extraction sequences that address each connection point methodically rather than fighting all entanglement controls simultaneously"
     ],
     "recognition_cues": [
@@ -411,17 +411,17 @@
       {
         "error": "Waiting for pain signals before tapping to the heel hook",
         "consequence": "Knee ligament structural failure occurs before pain is felt due to low receptor density in the ACL, MCL, and LCL, resulting in tears that require surgical reconstruction and six to twelve months of rehabilitation",
-        "correction": "Tap immediately when rotational pressure is felt on the knee that cannot be neutralized through defensive positioning, regardless of current pain level\u2014positional recognition must replace pain as the tap trigger"
+        "correction": "Tap immediately when rotational pressure is felt on the knee that cannot be neutralized through defensive positioning, regardless of current pain level—positional recognition must replace pain as the tap trigger"
       },
       {
         "error": "Explosively ripping the trapped leg out of the entanglement in a panic response",
         "consequence": "Violent extraction generates uncontrolled rotation at the knee joint during the movement, often creating worse heel exposure angles and effectively finishing the submission for the attacker",
-        "correction": "Use methodical, controlled leg extraction by first addressing specific connection points\u2014inside hook, outside leg, heel grip\u2014rather than yanking the entire leg simultaneously against the entanglement"
+        "correction": "Use methodical, controlled leg extraction by first addressing specific connection points—inside hook, outside leg, heel grip—rather than yanking the entire leg simultaneously against the entanglement"
       },
       {
         "error": "Focusing exclusively on the heel grip while ignoring the underlying leg entanglement position",
         "consequence": "Even if the heel grip is temporarily stripped, the attacker immediately re-grips because the entanglement provides continuous unimpeded access to the heel",
-        "correction": "Address both the grip and the positional control in sequence\u2014strip the grip to buy immediate time, then work on clearing the leg entanglement before the attacker re-establishes heel connection"
+        "correction": "Address both the grip and the positional control in sequence—strip the grip to buy immediate time, then work on clearing the leg entanglement before the attacker re-establishes heel connection"
       },
       {
         "error": "Turning away from the attacker to escape the entanglement by rotating the hips away",
@@ -429,7 +429,7 @@
         "correction": "Face the attacker throughout all defensive sequences, using hip positioning and frames to create extraction angles rather than turning away to create distance"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that a heel hook from Ashi Garami is being set up?",
         "answer": "Key recognition cues include the opponent threading their hand underneath your Achilles tendon to cup the heel bone, clamping your foot against their chest, clasping their hands in a figure-four configuration around the heel, and beginning to turn their hips away from your trapped knee while pinching their knees around your thigh. The sequence from heel capture to figure-four to rotation follows a predictable progression that becomes recognizable with training.",
@@ -437,7 +437,7 @@
       },
       {
         "question": "Why is tapping early to a heel hook more important than with most other submissions?",
-        "answer": "Heel hooks attack knee ligaments\u2014ACL, MCL, and LCL\u2014that have significantly fewer pain receptors than the joint capsules or tendons targeted by armbars, kimuras, or chokes. Structural failure in these ligaments can occur before the defender experiences meaningful pain, meaning that waiting for pain to signal when to tap often results in tapping after ligament damage has already occurred. Positional awareness and rotational pressure recognition must replace pain as the primary tap trigger for heel hooks.",
+        "answer": "Heel hooks attack knee ligaments—ACL, MCL, and LCL—that have significantly fewer pain receptors than the joint capsules or tendons targeted by armbars, kimuras, or chokes. Structural failure in these ligaments can occur before the defender experiences meaningful pain, meaning that waiting for pain to signal when to tap often results in tapping after ligament damage has already occurred. Positional awareness and rotational pressure recognition must replace pain as the primary tap trigger for heel hooks.",
         "safety_critical": true
       },
       {
@@ -460,7 +460,7 @@
       {
         "phase": "Phase 1: Recognition and Tap Timing",
         "focus": "Identifying heel hook attack stages and developing safe tap habits",
-        "description": "Partner walks through the heel hook sequence at slow speed while you practice identifying each stage: heel capture, figure-four establishment, foot clamping, knee line control, and rotation initiation. Practice tapping at the correct moment\u2014when rotational pressure begins that you cannot immediately neutralize\u2014rather than waiting for pain. Build the critical habit of early positional recognition and immediate tap response."
+        "description": "Partner walks through the heel hook sequence at slow speed while you practice identifying each stage: heel capture, figure-four establishment, foot clamping, knee line control, and rotation initiation. Practice tapping at the correct moment—when rotational pressure begins that you cannot immediately neutralize—rather than waiting for pain. Build the critical habit of early positional recognition and immediate tap response."
       },
       {
         "phase": "Phase 2: Grip Stripping Under Pressure",

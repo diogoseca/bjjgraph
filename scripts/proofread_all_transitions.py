@@ -10,11 +10,11 @@ Changes are applied surgically: removals, additions, probability adjustments,
 and normalization to 100%.
 
 Usage:
-    python3 scripts/proofread-all-transitions.py                            # all files
-    python3 scripts/proofread-all-transitions.py --dry-run                  # show prompts only
-    python3 scripts/proofread-all-transitions.py --file content/Positions/Mount.json
-    python3 scripts/proofread-all-transitions.py --category Transitions --max-files 10
-    python3 scripts/proofread-all-transitions.py --batch                    # no delay between files
+    python3 scripts/proofread_all_transitions.py                            # all files
+    python3 scripts/proofread_all_transitions.py --dry-run                  # show prompts only
+    python3 scripts/proofread_all_transitions.py --file content/Positions/Mount.json
+    python3 scripts/proofread_all_transitions.py --category Transitions --max-files 10
+    python3 scripts/proofread_all_transitions.py --batch                    # no delay between files
 """
 
 import argparse
@@ -256,7 +256,7 @@ def build_submission_prompt(data: dict, refs: Dict[str, List[str]]) -> str:
 Audit attacker section:
 - Validate common_counters[].targets_outcome values match outcomes[].to
 - Check execution_steps include timing information
-- Verify safety_critical knowledge_assessment questions exist
+- Verify safety_critical flashcards questions exist
 """
     if 'defender' in data:
         defender_section = """
@@ -782,9 +782,9 @@ def main():
         formatter_class=argparse.RawDescriptionHelpFormatter,
         epilog="""
 Examples:
-  python3 scripts/proofread-all-transitions.py --dry-run --file content/Positions/Mount.json
-  python3 scripts/proofread-all-transitions.py --category Transitions --max-files 10
-  python3 scripts/proofread-all-transitions.py --batch
+  python3 scripts/proofread_all_transitions.py --dry-run --file content/Positions/Mount.json
+  python3 scripts/proofread_all_transitions.py --category Transitions --max-files 10
+  python3 scripts/proofread_all_transitions.py --batch
 """,
     )
 

@@ -307,7 +307,7 @@
         "attempt_probability": 39
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary risk when approaching a seated guard player without establishing grips first?",
         "answer": "Approaching without grips allows the opponent to freely attack with sweeps, enter leg entanglements like Single Leg X-Guard, or execute a technical standup. Their legs remain uncontrolled and can push, hook, or entangle you. The seated player has excellent base from their posted hands, so they can react offensively to any uncommitted approach. Always establish at least one dominant grip (collar, sleeve, or pants) before closing distance."
@@ -619,7 +619,7 @@
         "attempt_probability": 11
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal hand posting position for maintaining seated guard, and why does it matter?",
         "answer": "Post hands slightly wider than shoulder-width apart, fingers pointing away from body, elbows slightly bent like springs. This creates a stable tripod base with your hips while allowing mobility. Too narrow collapses under pressure, too wide limits your ability to move laterally. The slight elbow bend creates a spring-like structure that absorbs pressure without collapsing, while engaging your lats provides additional structural support."

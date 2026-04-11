@@ -164,7 +164,7 @@
       "One leg crossing over the opponent's face with hamstring pressure on the cheek, the other leg across the chest",
       "Opponent's arm oriented with thumb pointing toward the ceiling for optimal elbow vulnerability",
       "Knees pinched together to prevent the opponent from creating rotational space for arm extraction",
-      "Opponent's defensive posture sufficiently compromised\u2014grip fighting broken, stacking prevented, hitchhiker path blocked"
+      "Opponent's defensive posture sufficiently compromised—grip fighting broken, stacking prevented, hitchhiker path blocked"
     ],
     "execution_steps": [
       {
@@ -190,7 +190,7 @@
       {
         "step_number": 5,
         "action": "Pull wrist to chest",
-        "description": "Simultaneously pull both hands toward your sternum centerline while maintaining the hip bridge. This opposing force\u2014hips up, hands down\u2014creates a scissoring action across the elbow. Do not pull laterally or toward your shoulder; the vector must be straight to your midline."
+        "description": "Simultaneously pull both hands toward your sternum centerline while maintaining the hip bridge. This opposing force—hips up, hands down—creates a scissoring action across the elbow. Do not pull laterally or toward your shoulder; the vector must be straight to your midline."
       },
       {
         "step_number": 6,
@@ -289,13 +289,13 @@
         "description": "Start from armbar control in positional sparring rounds. Top player works to finish, bottom player works to escape. Full resistance with full speed. Track finish rate over 3-minute rounds. Debrief after each round to identify which checkpoint failures led to escape or which defensive pattern succeeded."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the five positional checkpoints you must confirm before committing to the armbar finish?",
         "answer": "The five checkpoints are: (1) hip-to-shoulder proximity with zero gap between your hip bone and the opponent's deltoid, (2) thumb-up arm orientation ensuring the elbow's weakest plane aligns with your hip elevation, (3) leg control with one leg across the face and one across the chest, (4) wrist grip secured below the elbow line with both hands pulling toward your sternum, and (5) knees pinched together eliminating lateral space for arm rotation or extraction."
       },
       {
-        "question": "Your opponent clasps their hands together in an S-grip to prevent arm extension\u2014what are your options to break this defense?",
+        "question": "Your opponent clasps their hands together in an S-grip to prevent arm extension—what are your options to break this defense?",
         "answer": "Attack the grip systematically: first, maintain hip bridge pressure to fatigue their grip over 5-10 seconds. If that fails, use one hand to peel their top hand's fingers while the other hand maintains wrist control. You can also wedge your wrist into the crease of their elbow to create a bicep slicer threat that forces them to release. A fourth option is switching to figure-four grip control and using rotational torque rather than linear extension to break the clasp."
       },
       {
@@ -303,7 +303,7 @@
         "answer": "The armbar finish attacks the elbow joint, specifically hyperextending it against the collateral ligaments (ulnar and radial) and the annular ligament. The primary force-generating movement is the glute bridge driving hips toward the ceiling. The pubic bone acts as the fulcrum positioned behind the opponent's elbow, and hip elevation creates the hyperextension vector. This engages the largest muscle groups (glutes, hamstrings, core) rather than relying on arm strength, making the finish sustainable and powerful."
       },
       {
-        "question": "Your opponent begins the hitchhiker escape by rotating their thumb toward their head\u2014what is your immediate response?",
+        "question": "Your opponent begins the hitchhiker escape by rotating their thumb toward their head—what is your immediate response?",
         "answer": "Immediately clamp your top leg (the one crossing their face) tighter against their neck to block the rotational escape. If they continue turning, you have two options: follow their rotation by transitioning to a belly-down armbar position while maintaining grip, or abandon the armbar and swing your chest-side leg over their head to enter triangle control, which their turning motion actually facilitates. Do not try to force the standard finish against an active hitchhiker escape."
       },
       {
@@ -312,7 +312,7 @@
       },
       {
         "question": "What grip configuration provides the strongest wrist control for the armbar finish?",
-        "answer": "Both hands grip the opponent's wrist area with thumbs positioned on the radial (thumb) side of their forearm. Hands pull toward your sternum centerline\u2014not laterally toward either shoulder. For enhanced control, stack your hands so the bottom hand grips the wrist while the top hand reinforces by gripping over the bottom hand or cupping the forearm. In no-gi, a monkey grip (thumbless) around the wrist with cupped palms provides the most reliable hold against sweat."
+        "answer": "Both hands grip the opponent's wrist area with thumbs positioned on the radial (thumb) side of their forearm. Hands pull toward your sternum centerline—not laterally toward either shoulder. For enhanced control, stack your hands so the bottom hand grips the wrist while the top hand reinforces by gripping over the bottom hand or cupping the forearm. In no-gi, a monkey grip (thumbless) around the wrist with cupped palms provides the most reliable hold against sweat."
       },
       {
         "question": "When should you abandon the armbar finish and transition to an alternative attack?",
@@ -325,12 +325,12 @@
       },
       {
         "question": "What conditions indicate the armbar is properly loaded and the opponent's tap is imminent?",
-        "answer": "The arm is properly loaded when: the opponent's forearm blade is pressed firmly against your pubic bone with no gap, their elbow is visibly beginning to hyperextend past the natural 180-degree line, their grip defense has broken or weakened to the point of trembling, and they are no longer actively attempting escape movements but instead bracing against the pressure. At this stage, maintain steady pressure rather than increasing force\u2014the tap will come within 2-3 seconds.",
+        "answer": "The arm is properly loaded when: the opponent's forearm blade is pressed firmly against your pubic bone with no gap, their elbow is visibly beginning to hyperextend past the natural 180-degree line, their grip defense has broken or weakened to the point of trembling, and they are no longer actively attempting escape movements but instead bracing against the pressure. At this stage, maintain steady pressure rather than increasing force—the tap will come within 2-3 seconds.",
         "safety_critical": true
       },
       {
         "question": "What is the entry requirement that must exist before you can attempt the armbar finish?",
-        "answer": "You must have established full Armbar Control with the opponent's arm isolated across your centerline, both hands securing their wrist or forearm, hips tight to their shoulder, and legs controlling their upper body. Attempting the finish from a loose or partially established control position is the primary reason armbars fail\u2014the opponent can exploit any gap in the control chain to mount a defense before the extension pressure becomes inescapable."
+        "answer": "You must have established full Armbar Control with the opponent's arm isolated across your centerline, both hands securing their wrist or forearm, hips tight to their shoulder, and legs controlling their upper body. Attempting the finish from a loose or partially established control position is the primary reason armbars fail—the opponent can exploit any gap in the control chain to mount a defense before the extension pressure becomes inescapable."
       },
       {
         "question": "What are the primary injury risks of the armbar finish and how should you apply pressure to prevent them during training?",
@@ -342,14 +342,14 @@
   "defender": {
     "name": "from Armbar Control Defender",
     "description": "How to defend against the Armbar Finish in BJJ. Recognition cues, defensive options, and escape strategies from Armbar Control.",
-    "overview": "Defending the Armbar Finish is one of the most time-critical defensive situations in Brazilian Jiu-Jitsu. Once the attacker has established Armbar Control and begins the finishing sequence, the defender operates within a rapidly closing window where every second of inaction brings the elbow closer to hyperextension. The defender's primary objective is preventing full arm extension while simultaneously working to dismantle the attacker's control system\u2014specifically their hip proximity, knee pinch, leg control, and wrist grip.\n\nThe key defensive insight is that the armbar finish requires all five of the attacker's control checkpoints functioning simultaneously. Removing even one checkpoint\u2014creating a hip gap, rotating the arm, clearing the leg from your face, breaking the wrist grip, or opening the knee pinch\u2014degrades the finish enough to create an escape window. Effective defense layers multiple checkpoint disruptions rather than relying on a single explosive movement. The defender who bends the arm, rotates the thumb, stacks the hips, and controls the face-side leg has addressed the entire finishing system.\n\nStrategically, the defender must recognize the difference between early-phase defense (attacker still tightening control) and late-phase defense (attacker actively bridging for the finish). Early defense permits grip fighting, positional adjustments, and systematic escape work. Late defense demands immediate action\u2014either a committed hitchhiker escape, an explosive stack, or a tap. Attempting methodical defense against an actively loaded armbar is how elbows get injured. The defender's training must emphasize recognizing which phase they are in and selecting the appropriate defensive intensity.",
+    "overview": "Defending the Armbar Finish is one of the most time-critical defensive situations in Brazilian Jiu-Jitsu. Once the attacker has established Armbar Control and begins the finishing sequence, the defender operates within a rapidly closing window where every second of inaction brings the elbow closer to hyperextension. The defender's primary objective is preventing full arm extension while simultaneously working to dismantle the attacker's control system—specifically their hip proximity, knee pinch, leg control, and wrist grip.\n\nThe key defensive insight is that the armbar finish requires all five of the attacker's control checkpoints functioning simultaneously. Removing even one checkpoint—creating a hip gap, rotating the arm, clearing the leg from your face, breaking the wrist grip, or opening the knee pinch—degrades the finish enough to create an escape window. Effective defense layers multiple checkpoint disruptions rather than relying on a single explosive movement. The defender who bends the arm, rotates the thumb, stacks the hips, and controls the face-side leg has addressed the entire finishing system.\n\nStrategically, the defender must recognize the difference between early-phase defense (attacker still tightening control) and late-phase defense (attacker actively bridging for the finish). Early defense permits grip fighting, positional adjustments, and systematic escape work. Late defense demands immediate action—either a committed hitchhiker escape, an explosive stack, or a tap. Attempting methodical defense against an actively loaded armbar is how elbows get injured. The defender's training must emphasize recognizing which phase they are in and selecting the appropriate defensive intensity.",
     "key_principles": [
-      "Bend the trapped arm immediately and maintain flexion at all costs\u2014a straight arm is a finished arm regardless of other defensive actions",
+      "Bend the trapped arm immediately and maintain flexion at all costs—a straight arm is a finished arm regardless of other defensive actions",
       "Rotate your forearm so the thumb points toward the ceiling, strengthening the elbow joint's structural resistance to hyperextension",
       "Connect your trapped hand to your own body by clasping hands, gripping your lapel, or grabbing your own bicep to create a unified defensive structure",
       "Control the attacker's leg crossing your face with your free hand to prevent them from dropping back and generating finishing leverage",
       "Stack the attacker's hips by driving forward and upward to compromise their bridge angle and reduce hyperextension force",
-      "Act with urgency proportional to arm extension\u2014the more extended your arm, the less time remains for technical defense before you must tap",
+      "Act with urgency proportional to arm extension—the more extended your arm, the less time remains for technical defense before you must tap",
       "Never fight a fully loaded armbar with muscular resistance alone; redirect force through positional escape (hitchhiker, stack, roll) rather than static strength"
     ],
     "recognition_cues": [
@@ -357,29 +357,29 @@
       "Both of the attacker's hands shift to your wrist area and begin pulling downward toward their sternum while their hips rise simultaneously",
       "The attacker's knees squeeze together tightly, compressing your upper arm between their thighs and eliminating any lateral movement of your trapped limb",
       "The leg crossing your face increases hamstring pressure against your cheek or neck, pinning your head and preventing you from sitting up",
-      "You feel progressive upward pressure on the back of your elbow as the attacker initiates the glute bridge\u2014this is the final finishing motion and signals maximum urgency"
+      "You feel progressive upward pressure on the back of your elbow as the attacker initiates the glute bridge—this is the final finishing motion and signals maximum urgency"
     ],
     "defensive_options": [
       {
         "action": "Hitchhiker escape: rotate thumb toward your own head, slide elbow across the attacker's body, and turn to turtle while extracting the arm",
-        "when_to_use": "When your arm is still bent and you can create rotational movement before the attacker locks the finish\u2014most effective in early-to-mid phase before full extension pressure is applied",
+        "when_to_use": "When your arm is still bent and you can create rotational movement before the attacker locks the finish—most effective in early-to-mid phase before full extension pressure is applied",
         "targets_outcome": "Armbar Control/Top",
         "if_successful": "You extract your arm and recover to turtle or half guard, resetting the position and denying the submission completely",
         "risk": "If the attacker reads the rotation early, they can follow your turn into a belly-down armbar or switch to a triangle by swinging their leg over your head"
       },
       {
         "action": "Stack defense: drive hips forward and upward into the attacker, folding their body and compromising their bridge angle to neutralize finishing leverage",
-        "when_to_use": "When the attacker's legs are not fully locked tight and you can generate forward drive\u2014particularly effective when you still have one foot planted on the mat for driving force",
+        "when_to_use": "When the attacker's legs are not fully locked tight and you can generate forward drive—particularly effective when you still have one foot planted on the mat for driving force",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "The attacker's hip elevation is neutralized by your forward pressure, their finishing angle collapses, and you can work to extract your arm and pass into top position or recover to closed guard",
         "risk": "If the attacker maintains tight leg control during your stack, they may transition to triangle as your forward posture facilitates their leg entry over your head"
       },
       {
         "action": "Grip defense with arm connection: clasp your hands together (S-grip or palm-to-palm) or grab your own lapel to prevent the attacker from extending your arm",
-        "when_to_use": "As an immediate emergency response when the attacker has strong control but has not yet applied full finishing pressure\u2014buys time for a positional escape",
+        "when_to_use": "As an immediate emergency response when the attacker has strong control but has not yet applied full finishing pressure—buys time for a positional escape",
         "targets_outcome": "Armbar Control/Top",
         "if_successful": "The attacker cannot extend your arm for the finish and must spend time and energy breaking your grip, giving you opportunities to work hitchhiker or stack escapes during grip-breaking attempts",
-        "risk": "Grip defense alone is a stalling tactic\u2014the attacker can break grips through figure-four control, finger peeling, or bicep slicer threats, and extended grip fighting depletes your forearm endurance"
+        "risk": "Grip defense alone is a stalling tactic—the attacker can break grips through figure-four control, finger peeling, or bicep slicer threats, and extended grip fighting depletes your forearm endurance"
       },
       {
         "action": "Bridge and roll toward the trapped arm side: explosively bridge toward the side of your trapped arm to roll the attacker over and potentially land in top position",
@@ -407,7 +407,7 @@
     "common_errors": [
       {
         "error": "Straightening the trapped arm in a panicked attempt to pull it free from the attacker's control",
-        "consequence": "A straight arm in armbar control is a finished arm\u2014full extension creates the exact mechanical configuration the attacker needs, and the submission occurs almost immediately regardless of other defensive actions",
+        "consequence": "A straight arm in armbar control is a finished arm—full extension creates the exact mechanical configuration the attacker needs, and the submission occurs almost immediately regardless of other defensive actions",
         "correction": "Keep the elbow bent at 90 degrees or tighter at all times. Use your free hand to grip your trapped wrist and reinforce the bend. Pull your trapped hand toward your own shoulder rather than away from the attacker. The bent arm buys time; a straight arm ends the exchange."
       },
       {
@@ -431,23 +431,23 @@
         "correction": "Use your free hand to push the face-side leg toward the attacker's body or over your head. Clearing this leg is often the gateway to successful hitchhiker or stacking escapes. Address the leg control before or simultaneously with arm defense."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the first defensive action you should take when you recognize the attacker is initiating the armbar finish?",
-        "answer": "Immediately bend your trapped elbow to 90 degrees or tighter and rotate your forearm so the thumb points toward the ceiling. Simultaneously, use your free hand to grip your trapped wrist, your own lapel, or clasp your hands together to reinforce the bent-arm position. These two actions\u2014bending and connecting\u2014address the attacker's primary finishing requirement (arm extension) and buy critical seconds for positional escape work."
+        "answer": "Immediately bend your trapped elbow to 90 degrees or tighter and rotate your forearm so the thumb points toward the ceiling. Simultaneously, use your free hand to grip your trapped wrist, your own lapel, or clasp your hands together to reinforce the bent-arm position. These two actions—bending and connecting—address the attacker's primary finishing requirement (arm extension) and buy critical seconds for positional escape work."
       },
       {
-        "question": "Your arm is still bent but the attacker's hips are tight to your shoulder and their knees are pinching hard\u2014what escape should you prioritize?",
+        "question": "Your arm is still bent but the attacker's hips are tight to your shoulder and their knees are pinching hard—what escape should you prioritize?",
         "answer": "With tight hip-to-shoulder proximity and strong knee pinch, the hitchhiker escape is your highest-percentage option. Rotate your thumb toward your own head (hitchhiker position), slide your elbow across the attacker's body using the rotational motion, and turn your entire body toward the trapped arm side to reach turtle. The thumb rotation makes it mechanically difficult for the attacker to maintain wrist control, and the turning motion creates the angle needed to extract the arm. The stack defense is less effective here because their hips are already locked tight against your shoulder."
       },
       {
         "question": "How do you determine whether to continue defending or tap during an armbar finish attempt?",
-        "answer": "Tap when your arm reaches full extension against your active resistance and you feel direct pressure on the elbow joint itself. If your defensive grip has broken, your arm is straightening despite your efforts, and the attacker's hips are bridging with full commitment, the mechanical advantage has shifted irreversibly. The threshold for injury is remarkably small\u2014less than one inch of additional extension can cause ligament damage. Tap before you feel a pop or sharp pain. In training, err toward tapping early; in competition, the margin is slightly longer but still demands honest self-assessment.",
+        "answer": "Tap when your arm reaches full extension against your active resistance and you feel direct pressure on the elbow joint itself. If your defensive grip has broken, your arm is straightening despite your efforts, and the attacker's hips are bridging with full commitment, the mechanical advantage has shifted irreversibly. The threshold for injury is remarkably small—less than one inch of additional extension can cause ligament damage. Tap before you feel a pop or sharp pain. In training, err toward tapping early; in competition, the margin is slightly longer but still demands honest self-assessment.",
         "safety_critical": true
       },
       {
-        "question": "The attacker is applying progressive bridge pressure and your grip defense is weakening\u2014what is your emergency response?",
-        "answer": "When grip defense is failing, you must immediately commit to a positional escape rather than trying to re-strengthen the grip. Your two emergency options are: (1) explosive stack\u2014plant your feet and drive your hips forward into the attacker to fold their body and neutralize the bridge angle, or (2) bridge and roll toward the trapped arm side to invert the position. Both require full commitment and explosive movement. Half-measures at this stage lead to arm extension and submission. If neither escape is available because your mobility is fully compromised, tap immediately.",
+        "question": "The attacker is applying progressive bridge pressure and your grip defense is weakening—what is your emergency response?",
+        "answer": "When grip defense is failing, you must immediately commit to a positional escape rather than trying to re-strengthen the grip. Your two emergency options are: (1) explosive stack—plant your feet and drive your hips forward into the attacker to fold their body and neutralize the bridge angle, or (2) bridge and roll toward the trapped arm side to invert the position. Both require full commitment and explosive movement. Half-measures at this stage lead to arm extension and submission. If neither escape is available because your mobility is fully compromised, tap immediately.",
         "safety_critical": true
       },
       {
@@ -478,7 +478,7 @@
       {
         "phase": "Week 7-8",
         "focus": "Positional sparring with full resistance",
-        "description": "Start from armbar control in live positional rounds. Attacker works to finish, defender works to escape. Full resistance and speed. Track escape success rate over 3-minute rounds. Emphasize recognizing the tap threshold\u2014defender must tap honestly when escape is no longer viable. Debrief after each round to identify which defensive checkpoint failures allowed the finish and which escape selections were optimal."
+        "description": "Start from armbar control in live positional rounds. Attacker works to finish, defender works to escape. Full resistance and speed. Track escape success rate over 3-minute rounds. Emphasize recognizing the tap threshold—defender must tap honestly when escape is no longer viable. Debrief after each round to identify which defensive checkpoint failures allowed the finish and which escape selections were optimal."
       }
     ]
   }

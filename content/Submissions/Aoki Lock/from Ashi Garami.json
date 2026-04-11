@@ -302,7 +302,7 @@
         "description": "Positional sparring starting from ashi garami where attacker works Aoki Lock against full defensive resistance. Include all common counters - leg extraction, rotation, sit-up defense, guard passing attempts. Practice transitioning between Aoki Lock, heel hook, and kneebar based on defensive reactions. Emphasize maintaining safety protocols even under competitive pressure. 3-minute rounds with role switching."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What are the primary anatomical structures at risk during an Aoki Lock and why must pressure be applied slowly?",
         "answer": "The Aoki Lock targets the plantar fascia, ankle ligaments (particularly ATFL and deltoid ligament), achilles tendon, calf muscle, and shin periosteum through combined plantar flexion and compression. Pressure must be applied slowly (5-7 seconds minimum) because these structures can sustain serious damage before pain signals fully register, and sudden application can cause tears or ruptures before the opponent has time to tap. The achilles tendon is particularly vulnerable to sudden loading in extreme plantar flexion.",
@@ -451,7 +451,7 @@
         "correction": "Use circular hip rotation and internal rotation to collapse the figure-four structure rather than linear pulling. Thread the knee inward and curl the leg toward your chest in a circular path that addresses the triangular lock mechanics."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that an Aoki Lock is being attempted and why is early recognition critical for defense?",
         "answer": "The earliest cue is the opponent beginning to weave their inside leg through the gap between their outside leg and your trapped leg while in ashi garami. This threading motion is the setup for the figure-four configuration. Early recognition is critical because defensive options diminish exponentially once the figure-four is locked - extraction before the lock is completed has a dramatically higher success rate than any defense attempted after the closed loop is established and compression begins.",

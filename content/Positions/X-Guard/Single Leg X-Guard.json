@@ -297,7 +297,7 @@
         "attempt_probability": 6
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts driving their bottom hook upward to initiate a sweep - what immediate adjustment do you make?",
         "answer": "Immediately widen your base by stepping your free leg diagonally away from the sweep direction, bend your knees to lower your center of gravity, and align your trapped knee toward the opponent to reduce the leverage they can generate. Simultaneously post your near hand on the mat if needed for stability while maintaining upper body control."
@@ -628,7 +628,7 @@
         "attempt_probability": 5
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "Your opponent starts lowering their base and driving forward - what adjustment do you make to maintain control?",
         "answer": "When the opponent drives forward, immediately angle your hips to the side rather than accepting direct pressure. Extend your top hook aggressively into their hip to create distance while maintaining the bottom hook wrapped around their ankle. If pressure continues, this is your cue to transition to Ashi Garami by following their forward momentum - their weight commitment forward makes their leg more vulnerable to entanglement attacks."

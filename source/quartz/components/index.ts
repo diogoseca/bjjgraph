@@ -25,7 +25,7 @@ import EditOnGithub from "./EditOnGithub"
 import MoveCards from "./MoveCards"
 import OutcomeCards from "./OutcomeCards"
 import Snackbar from "./Snackbar"
-import TransitionFlashcard from "./TransitionFlashcard"
+import Flashcard from "./Flashcard"
 import VictoryDisplay from "./VictoryDisplay"
 import TrainingDashboard from "./TrainingDashboard"
 import TreeExplorer from "./TreeExplorer"
@@ -61,7 +61,7 @@ export {
   MoveCards,
   OutcomeCards,
   Snackbar,
-  TransitionFlashcard,
+  Flashcard,
   VictoryDisplay,
   TrainingDashboard,
   TreeExplorer,

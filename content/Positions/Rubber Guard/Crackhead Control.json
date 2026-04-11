@@ -298,7 +298,7 @@
         "attempt_probability": 16
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary defensive priority when trapped in Crackhead Control from top?",
         "answer": "The primary defensive priority is systematic arm extraction combined with posture recovery. The trapped arm severely limits passing mechanics and defensive options, so freeing it must precede any serious passing attempts. This should be done through small circular motions rather than explosive pulling, which triggers omoplata entries."
@@ -592,7 +592,7 @@
         "attempt_probability": 15
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the minimum overhook depth required for sustainable Crackhead Control?",
         "answer": "The overhooking hand must reach behind the opponent's shoulder blade or lat muscle, with the elbow pointing toward the ceiling and forearm crossing diagonally across their back. Anything shallower - such as gripping at the elbow - allows the opponent to extract the arm through straightening and posturing, collapsing the position entirely."

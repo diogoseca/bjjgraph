@@ -126,8 +126,8 @@
           "description": "Bottom perspective overview (400+ words minimum)",
           "minLength": 400
         },
-        "knowledge_assessment": {
-          "$ref": "#/$defs/knowledge_assessment"
+        "flashcards": {
+          "$ref": "#/$defs/flashcards"
         },
         "state_properties": {
           "$ref": "#/$defs/state_properties"
@@ -205,8 +205,8 @@
           "description": "Top perspective overview (400+ words minimum)",
           "minLength": 400
         },
-        "knowledge_assessment": {
-          "$ref": "#/$defs/knowledge_assessment"
+        "flashcards": {
+          "$ref": "#/$defs/flashcards"
         },
         "state_properties": {
           "$ref": "#/$defs/state_properties"
@@ -505,9 +505,52 @@
       }
     },
     "position_metrics": {
-      "$ref": "#/$defs/position_metrics"
+      "type": "object",
+      "description": "Success rates, retention rates, probabilities",
+      "additionalProperties": false,
+      "required": [
+        "retention_rate",
+        "advancement_probability",
+        "submission_probability"
+      ],
+      "properties": {
+        "retention_rate": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/value_with_description"
+            },
+            {
+              "description": "Position retention rate"
+            }
+          ]
+        },
+        "advancement_probability": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/value_with_description"
+            },
+            {
+              "description": "Probability of advancing to better position"
+            }
+          ]
+        },
+        "submission_probability": {
+          "allOf": [
+            {
+              "$ref": "#/$defs/value_with_description"
+            },
+            {
+              "description": "Probability of finishing from this position"
+            }
+          ]
+        },
+        "average_time": {
+          "type": "string",
+          "description": "Average time spent in position (optional)"
+        }
+      }
     },
-    "knowledge_assessment": {
+    "flashcards": {
       "type": "array",
       "description": "6 Q&A pairs about this position (how to maintain, common mistakes, etc.)",
       "minItems": 6,
@@ -515,7 +558,10 @@
       "items": {
         "type": "object",
         "additionalProperties": false,
-        "required": ["question", "answer"],
+        "required": [
+          "question",
+          "answer"
+        ],
         "properties": {
           "question": {
             "type": "string",
@@ -534,7 +580,9 @@
       "type": "object",
       "description": "A metric value with optional description",
       "additionalProperties": false,
-      "required": ["value"],
+      "required": [
+        "value"
+      ],
       "properties": {
         "value": {
           "type": "integer",
@@ -545,40 +593,6 @@
         "description": {
           "type": "string",
           "description": "Optional description of this metric"
-        }
-      }
-    },
-    "position_metrics": {
-      "type": "object",
-      "description": "Success rates, retention rates, probabilities",
-      "additionalProperties": false,
-      "required": [
-        "retention_rate",
-        "advancement_probability",
-        "submission_probability"
-      ],
-      "properties": {
-        "retention_rate": {
-          "allOf": [
-            { "$ref": "#/$defs/value_with_description" },
-            { "description": "Position retention rate" }
-          ]
-        },
-        "advancement_probability": {
-          "allOf": [
-            { "$ref": "#/$defs/value_with_description" },
-            { "description": "Probability of advancing to better position" }
-          ]
-        },
-        "submission_probability": {
-          "allOf": [
-            { "$ref": "#/$defs/value_with_description" },
-            { "description": "Probability of finishing from this position" }
-          ]
-        },
-        "average_time": {
-          "type": "string",
-          "description": "Average time spent in position (optional)"
         }
       }
     }

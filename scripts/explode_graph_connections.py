@@ -428,7 +428,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                         {"phase": "TODO", "focus": "TODO", "description": "TODO"}
                         for _ in range(4)
                     ],
-                    "knowledge_assessment": [
+                    "flashcards": [
                         {"question": "TODO?", "answer": "TODO" * 13}
                         for _ in range(5)
                     ],
@@ -449,7 +449,7 @@ def apply_actions(actions, positions, transitions, dry_run=False):
                         {"error": "TODO", "consequence": "TODO", "correction": "TODO"}
                         for _ in range(3)
                     ],
-                    "knowledge_assessment": [
+                    "flashcards": [
                         {"question": "TODO?", "answer": "TODO" * 13}
                         for _ in range(3)
                     ],

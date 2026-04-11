@@ -198,7 +198,7 @@
         "description": "Include back take attempts in live rolling from 50-50 positions. Track success rates against training partners of various skill levels. Refine timing and execution based on real resistance patterns."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary goal of the Back Take from 50-50?",
         "answer": "The primary goal is to convert a neutral leg entanglement position where leg attacks are being successfully defended into the most dominant control position in BJJ. This bypasses the opponent's leg lock defense entirely and creates high-percentage submission opportunities from back control."
@@ -325,7 +325,7 @@
         "correction": "Always turn toward your opponent when defending the back take, closing the distance between your chest and theirs to prevent them from establishing the back angle"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is transitioning from leg attacks to a back take attempt?",
         "answer": "The earliest cue is when your opponent's near-side arm shifts from controlling your foot, ankle, or heel to reaching over your shoulder blade or threading under your armpit. This grip change indicates they are abandoning the leg attack in favor of establishing upper body control for the back take. You may also feel their leg entanglement tension decrease simultaneously as they prepare to extract."

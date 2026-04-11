@@ -8,7 +8,7 @@ import {
   addCard,
   reviewCard,
   removeCard,
-  masterQuestion,
+  masterFlashcard,
 } from "./srs"
 import type { SRSCard } from "./srs"
 import {
@@ -26,9 +26,9 @@ import { loadExplored } from "./explored"
 
 interface QuestionBankEntry {
   name: string
-  type: "transition" | "submission"
+  type: "transition" | "submission" | "position" | "principle" | "system"
   slug: string
-  knowledgeAssessment: Array<{ question: string; answer: string }>
+  flashcards: Array<{ question: string; answer: string }>
 }
 
 function loadQuestionBank(): QuestionBankEntry[] {
@@ -555,10 +555,10 @@ document.addEventListener("nav", () => {
       const row = document.createElement("div")
       row.className = "training-card-row"
 
-      // Mastery % from per-question tracking
+      // Mastery % from per-flashcard tracking
       const entry = bankMap.get(card.technique)
-      const totalQ = entry?.knowledgeAssessment.length ?? 0
-      const masteredQ = card.questionsMastered?.length ?? 0
+      const totalQ = entry?.flashcards.length ?? 0
+      const masteredQ = card.flashcardsMastered?.length ?? 0
       const masteryPct = totalQ > 0 ? Math.round((masteredQ / totalQ) * 100) : 0
 
       // Status text
@@ -653,8 +653,10 @@ document.addEventListener("nav", () => {
         <button class="training-add-btn">+ Add</button>
       `
       row.querySelector(".training-add-btn")?.addEventListener("click", () => {
-        addCard(entry.name, entry.type, entry.slug)
-        renderDashboard()
+        if (entry.type === "transition" || entry.type === "submission") {
+          addCard(entry.name, entry.type, entry.slug)
+          renderDashboard()
+        }
       })
       container.appendChild(row)
     }
@@ -748,15 +750,14 @@ document.addEventListener("nav", () => {
   function startTraining(technique: string) {
     currentTrainingTechnique = technique
     const entry = bankMap.get(technique)
-    if (!entry || entry.knowledgeAssessment.length === 0) return
+    if (!entry || entry.flashcards.length === 0) return
 
     const area = document.getElementById("training-flashcard-area")
     if (!area) return
     area.style.display = "block"
 
-    const qa =
-      entry.knowledgeAssessment[Math.floor(Math.random() * entry.knowledgeAssessment.length)]
-    currentQuestionIndex = entry.knowledgeAssessment.indexOf(qa)
+    const qa = entry.flashcards[Math.floor(Math.random() * entry.flashcards.length)]
+    currentQuestionIndex = entry.flashcards.indexOf(qa)
 
     const label = document.getElementById("training-flashcard-label")
     const question = document.getElementById("training-flashcard-question")
@@ -827,7 +828,7 @@ document.addEventListener("nav", () => {
   function handleHard() {
     if (currentTrainingTechnique) {
       reviewCard(currentTrainingTechnique, "hard")
-      masterQuestion(currentTrainingTechnique, currentQuestionIndex)
+      masterFlashcard(currentTrainingTechnique, currentQuestionIndex)
       incrementReviewed()
       updateStreak()
     }
@@ -838,7 +839,7 @@ document.addEventListener("nav", () => {
   function handleEasy() {
     if (currentTrainingTechnique) {
       reviewCard(currentTrainingTechnique, "easy")
-      masterQuestion(currentTrainingTechnique, currentQuestionIndex)
+      masterFlashcard(currentTrainingTechnique, currentQuestionIndex)
       incrementReviewed()
       updateStreak()
     }
@@ -871,7 +872,9 @@ document.addEventListener("nav", () => {
         <button class="training-add-btn">+ Add</button>
       `
       row.querySelector(".training-add-btn")?.addEventListener("click", () => {
-        addCard(match.name, match.type, match.slug)
+        if (match.type === "transition" || match.type === "submission") {
+          addCard(match.name, match.type, match.slug)
+        }
         searchInput.value = ""
         removeAllChildren(searchResults!)
         renderDashboard()

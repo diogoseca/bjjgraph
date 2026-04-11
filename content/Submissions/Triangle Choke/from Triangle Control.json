@@ -17,7 +17,7 @@
   "starting_position": "Triangle Control",
   "from_position": "Triangle Control/Bottom",
   "success_rate": 65,
-  "overview": "The triangle choke from triangle control is one of the highest-percentage finishes in Brazilian Jiu-Jitsu, executed once the bottom practitioner has established a locked triangle configuration around the opponent's head and one arm. Unlike triangle entries from open guard or spider guard where the lock itself is contested, this finish begins with the triangle already secured, shifting the technical focus entirely to angle optimization, hip elevation, and progressive arterial compression. The position uses the legs and hips against the vulnerable structures of the neck, creating a mechanical advantage that is difficult to overcome through strength alone.\n\nFrom a strategic standpoint, the triangle choke finish from triangle control operates as the centerpiece of a submission chain that includes armbar, omoplata, and back take transitions. The finish requires three simultaneous mechanical actions: squeezing the knees together to compress the carotid arteries, pulling the opponent's head down to eliminate posture, and elevating the hips to create a downward pressure vector. Proper angle is critical\u2014the attacker must position their body approximately 30-45 degrees off the opponent's centerline, with the choking leg's knee pointing toward the trapped shoulder. This geometric alignment maximizes compression on both carotid arteries while the opponent's own trapped arm acts as a wedge amplifying the choke.\n\nThe finish timeline is surprisingly short once mechanics are correct. A properly locked and angled triangle can produce unconsciousness in 4-8 seconds of sustained arterial compression, making this both a highly effective and potentially dangerous technique that demands respect in training. The attacker must develop sensitivity to the opponent's defensive reactions\u2014posturing attempts open armbar transitions, stacking opens omoplata paths, and arm extraction creates back take opportunities. This means the triangle finish is not a static hold but a dynamic interaction where the attacker constantly adjusts to maintain optimal finishing position while the defender cycles through increasingly desperate escape attempts.",
+  "overview": "The triangle choke from triangle control is one of the highest-percentage finishes in Brazilian Jiu-Jitsu, executed once the bottom practitioner has established a locked triangle configuration around the opponent's head and one arm. Unlike triangle entries from open guard or spider guard where the lock itself is contested, this finish begins with the triangle already secured, shifting the technical focus entirely to angle optimization, hip elevation, and progressive arterial compression. The position uses the legs and hips against the vulnerable structures of the neck, creating a mechanical advantage that is difficult to overcome through strength alone.\n\nFrom a strategic standpoint, the triangle choke finish from triangle control operates as the centerpiece of a submission chain that includes armbar, omoplata, and back take transitions. The finish requires three simultaneous mechanical actions: squeezing the knees together to compress the carotid arteries, pulling the opponent's head down to eliminate posture, and elevating the hips to create a downward pressure vector. Proper angle is critical—the attacker must position their body approximately 30-45 degrees off the opponent's centerline, with the choking leg's knee pointing toward the trapped shoulder. This geometric alignment maximizes compression on both carotid arteries while the opponent's own trapped arm acts as a wedge amplifying the choke.\n\nThe finish timeline is surprisingly short once mechanics are correct. A properly locked and angled triangle can produce unconsciousness in 4-8 seconds of sustained arterial compression, making this both a highly effective and potentially dangerous technique that demands respect in training. The attacker must develop sensitivity to the opponent's defensive reactions—posturing attempts open armbar transitions, stacking opens omoplata paths, and arm extraction creates back take opportunities. This means the triangle finish is not a static hold but a dynamic interaction where the attacker constantly adjusts to maintain optimal finishing position while the defender cycles through increasingly desperate escape attempts.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -36,12 +36,12 @@
         "recovery_time": "Minutes to hours, rarely persists beyond 24 hours"
       }
     ],
-    "application_speed": "SLOW and progressive\u2014build squeeze pressure over 3-5 seconds minimum. Never jerk, spike, or explosively tighten the triangle. Gradual compression allows training partners adequate time to recognize the submission and tap before arterial occlusion reaches dangerous levels.",
+    "application_speed": "SLOW and progressive—build squeeze pressure over 3-5 seconds minimum. Never jerk, spike, or explosively tighten the triangle. Gradual compression allows training partners adequate time to recognize the submission and tap before arterial occlusion reaches dangerous levels.",
     "tap_signals": [
-      "Verbal tap\u2014saying 'tap' or any distress vocalization",
-      "Physical hand tap\u2014multiple taps on partner's body, legs, or the mat",
-      "Physical foot tap\u2014tapping feet on mat when hands are trapped inside the triangle",
-      "Going limp or sudden loss of resistance\u2014treat as immediate tap and release"
+      "Verbal tap—saying 'tap' or any distress vocalization",
+      "Physical hand tap—multiple taps on partner's body, legs, or the mat",
+      "Physical foot tap—tapping feet on mat when hands are trapped inside the triangle",
+      "Going limp or sudden loss of resistance—treat as immediate tap and release"
     ],
     "release_protocol": [
       "Immediately uncross ankles and open legs to release the triangle configuration",
@@ -133,20 +133,20 @@
   "attacker": {
     "name": "from Triangle Control Attacker",
     "description": "Complete guide to finishing the triangle choke from triangle control. Step-by-step angle adjustments, hip mechanics, and squeeze optimization for consistent taps.",
-    "overview": "Finishing the triangle choke from triangle control requires mastering three simultaneous mechanical actions: angle optimization to maximize carotid compression, sustained hip elevation to create a downward pressure vector, and constant head control to prevent posture recovery. The position begins with the triangle already locked, so the technical challenge shifts from establishing the lock to optimizing the finishing geometry. The attacker must read the opponent's defensive reactions in real time\u2014each escape attempt opens a different transition opportunity, making the triangle finish the hub of a complete submission chain. Success depends on patience and progressive tightening rather than explosive force, using the mechanical advantage of the legs against the neck to create an inescapable compression.",
+    "overview": "Finishing the triangle choke from triangle control requires mastering three simultaneous mechanical actions: angle optimization to maximize carotid compression, sustained hip elevation to create a downward pressure vector, and constant head control to prevent posture recovery. The position begins with the triangle already locked, so the technical challenge shifts from establishing the lock to optimizing the finishing geometry. The attacker must read the opponent's defensive reactions in real time—each escape attempt opens a different transition opportunity, making the triangle finish the hub of a complete submission chain. Success depends on patience and progressive tightening rather than explosive force, using the mechanical advantage of the legs against the neck to create an inescapable compression.",
     "key_principles": [
-      "Cut the angle to 30-45 degrees off opponent's centerline before attempting to finish\u2014the triangle cannot compress both carotid arteries from a parallel position",
+      "Cut the angle to 30-45 degrees off opponent's centerline before attempting to finish—the triangle cannot compress both carotid arteries from a parallel position",
       "Elevate hips off the mat using shoulders as a base point to create a downward pressure vector rather than relying solely on horizontal leg squeeze",
       "Pull the opponent's head down and forward continuously with grips on the back of the head or neck to prevent any posture recovery",
       "Drag the trapped arm diagonally across the opponent's neck so their own limb amplifies the choking pressure as a wedge",
-      "Apply sustained progressive compression rather than explosive squeezing\u2014blood chokes require continuous arterial occlusion, not momentary pressure spikes",
+      "Apply sustained progressive compression rather than explosive squeezing—blood chokes require continuous arterial occlusion, not momentary pressure spikes",
       "Keep the choking leg's knee pointed toward the trapped shoulder to ensure the thigh and calf compress both carotid arteries symmetrically"
     ],
     "setup_requirements": [
       "Triangle lock secured with ankles crossed behind opponent's neck and knees squeezing together around head and one shoulder",
       "Opponent's posture broken with head pulled forward and down toward your chest, eliminating their ability to create vertical space",
       "One of opponent's arms trapped inside the triangle configuration alongside their neck while the other arm remains outside",
-      "Body angled at least partially off centerline with ability to pivot further\u2014starting from parallel position requires angle adjustment before finishing",
+      "Body angled at least partially off centerline with ability to pivot further—starting from parallel position requires angle adjustment before finishing",
       "Grips established on opponent's head, neck, or wrist to maintain control throughout the finishing sequence"
     ],
     "execution_steps": [
@@ -159,7 +159,7 @@
       {
         "step_number": 2,
         "action": "Cut the angle",
-        "description": "Walk on your shoulder blades to pivot your body 30-45 degrees off the opponent's centerline. Your choking leg's knee should point directly toward the trapped shoulder. This angular adjustment is the single most important finishing detail\u2014without it, the choke compresses the trachea rather than the carotid arteries.",
+        "description": "Walk on your shoulder blades to pivot your body 30-45 degrees off the opponent's centerline. Your choking leg's knee should point directly toward the trapped shoulder. This angular adjustment is the single most important finishing detail—without it, the choke compresses the trachea rather than the carotid arteries.",
         "timing": "2-3 seconds"
       },
       {
@@ -183,7 +183,7 @@
       {
         "step_number": 6,
         "action": "Squeeze and sustain compression",
-        "description": "With angle, arm position, head control, and hip elevation all established, squeeze your knees together with sustained progressive pressure. Pull down on the head while driving hips up to create opposing forces across the neck. Maintain this compression steadily\u2014the tap typically comes within 3-6 seconds of full arterial occlusion.",
+        "description": "With angle, arm position, head control, and hip elevation all established, squeeze your knees together with sustained progressive pressure. Pull down on the head while driving hips up to create opposing forces across the neck. Maintain this compression steadily—the tap typically comes within 3-6 seconds of full arterial occlusion.",
         "timing": "3-6 seconds for finish"
       },
       {
@@ -195,25 +195,25 @@
     ],
     "common_counters": [
       {
-        "counter": "Posture recovery\u2014opponent drives upward to create vertical space and relieve neck pressure",
+        "counter": "Posture recovery—opponent drives upward to create vertical space and relieve neck pressure",
         "effectiveness": "High",
         "your_response": "Immediately increase head pull-down force with both hands on the back of the head. If they achieve partial posture, transition to armbar by swinging the leg over their face while controlling the isolated arm.",
         "targets_outcome": "Triangle Control/Bottom"
       },
       {
-        "counter": "Stack defense\u2014opponent drives forward and lifts your hips off the mat to compress your body and reduce choking angle",
+        "counter": "Stack defense—opponent drives forward and lifts your hips off the mat to compress your body and reduce choking angle",
         "effectiveness": "Medium",
         "your_response": "Underhook their far leg to prevent full stacking, maintain the angle by scooting hips away, or transition to omoplata by releasing the triangle and swinging your hips through.",
         "targets_outcome": "Closed Guard/Bottom"
       },
       {
-        "counter": "Trapped arm extraction\u2014opponent fights to pull their arm free from the triangle configuration",
+        "counter": "Trapped arm extraction—opponent fights to pull their arm free from the triangle configuration",
         "effectiveness": "Medium",
         "your_response": "Grip their wrist with both hands to prevent extraction. If they begin freeing the arm, immediately transition to back take by using the opening to hip escape and climb onto their back.",
         "targets_outcome": "Triangle Control/Bottom"
       },
       {
-        "counter": "Shoulder turn\u2014opponent rotates their trapped shoulder inward to reduce choking pressure on the far-side carotid",
+        "counter": "Shoulder turn—opponent rotates their trapped shoulder inward to reduce choking pressure on the far-side carotid",
         "effectiveness": "Low",
         "your_response": "Increase the angle by pivoting further off centerline and pull their head tighter to compensate. The shoulder turn actually exposes the arm for a tighter armbar transition if the choke angle becomes suboptimal.",
         "targets_outcome": "Triangle Control/Bottom"
@@ -223,22 +223,22 @@
       {
         "error": "Attempting to finish from a parallel position without cutting the angle first",
         "consequence": "Compresses the trachea (windpipe) rather than the carotid arteries, creating an air choke that is slow, painful, and easy to defend rather than a fast blood choke",
-        "correction": "Always cut the angle to 30-45 degrees before applying finishing pressure\u2014walk on shoulder blades to pivot until the choking leg's knee points at the trapped shoulder"
+        "correction": "Always cut the angle to 30-45 degrees before applying finishing pressure—walk on shoulder blades to pivot until the choking leg's knee points at the trapped shoulder"
       },
       {
         "error": "Squeezing explosively with maximum leg force instead of applying sustained progressive compression",
         "consequence": "Fatigues the leg muscles within 10-15 seconds without achieving the submission, leaving the attacker with weak legs and the opponent still conscious and ready to escape",
-        "correction": "Apply steady, progressive compression at 70-80% effort while simultaneously pulling the head down and elevating hips\u2014sustained arterial occlusion finishes the choke, not momentary pressure spikes"
+        "correction": "Apply steady, progressive compression at 70-80% effort while simultaneously pulling the head down and elevating hips—sustained arterial occlusion finishes the choke, not momentary pressure spikes"
       },
       {
         "error": "Releasing head control to readjust leg position or re-lock the triangle",
-        "consequence": "Gives the opponent a window to posture up, relieve pressure, and begin their escape sequence\u2014even one second of released head control can reset the entire finishing position",
+        "consequence": "Gives the opponent a window to posture up, relieve pressure, and begin their escape sequence—even one second of released head control can reset the entire finishing position",
         "correction": "Maintain constant head control with at least one hand throughout any adjustments. If the lock needs fixing, use one hand to adjust while the other continues pulling the head down"
       },
       {
         "error": "Keeping hips flat on the mat without elevating to create a downward pressure vector",
         "consequence": "Reduces choking effectiveness by approximately 40% because the compression comes only from horizontal squeeze rather than the more powerful combination of squeeze plus downward hip-driven force",
-        "correction": "Bridge hips upward off the mat using upper back as a base, creating opposing forces\u2014hips pushing up while hands pull head down\u2014to maximize compression on the carotid arteries"
+        "correction": "Bridge hips upward off the mat using upper back as a base, creating opposing forces—hips pushing up while hands pull head down—to maximize compression on the carotid arteries"
       },
       {
         "error": "Neglecting to pull the trapped arm across the opponent's own neck",
@@ -265,7 +265,7 @@
       {
         "phase": "Phase 3: Progressive Resistance",
         "focus": "Finishing against defense",
-        "description": "Partner applies progressive resistance at 50%, then 75%, then 100% while you work the finishing sequence. Partner uses specific defenses\u2014posture recovery, stacking, arm extraction\u2014in isolation first, then combined. Learn to read defensive reactions and adjust finishing mechanics accordingly."
+        "description": "Partner applies progressive resistance at 50%, then 75%, then 100% while you work the finishing sequence. Partner uses specific defenses—posture recovery, stacking, arm extraction—in isolation first, then combined. Learn to read defensive reactions and adjust finishing mechanics accordingly."
       },
       {
         "phase": "Phase 4: Submission Chain Flow",
@@ -278,7 +278,7 @@
         "description": "Begin rounds from locked triangle control. Bottom player works to finish or transition; top player works to escape. Three-minute rounds with full resistance. Track finishing percentage and identify which defensive reactions are causing the most difficulty to develop targeted responses."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the triangle choke from triangle control primarily attack?",
         "answer": "The triangle choke primarily attacks both carotid arteries through bilateral compression. The choking leg's thigh compresses one carotid artery while the shin and the opponent's own trapped arm compress the other. This creates a blood choke that restricts cerebral blood flow, producing unconsciousness in 4-8 seconds of sustained arterial occlusion. The brachial plexus may also experience secondary compression.",
@@ -290,7 +290,7 @@
         "safety_critical": false
       },
       {
-        "question": "Your opponent begins posturing up while you have the triangle locked\u2014what adjustment prevents the escape?",
+        "question": "Your opponent begins posturing up while you have the triangle locked—what adjustment prevents the escape?",
         "answer": "Immediately increase downward pulling force on the back of their head with both hands while simultaneously elevating your hips to maintain the compression angle. If they achieve partial posture despite this, transition to the armbar by controlling their isolated arm and swinging your leg over their face. The posture recovery actually exposes the arm for the armbar, turning their defense into your next attack opportunity.",
         "safety_critical": false
       },
@@ -301,16 +301,16 @@
       },
       {
         "question": "How does hip elevation change the pressure dynamics of the triangle choke finish?",
-        "answer": "Hip elevation transforms the pressure from a horizontal squeeze into a combination of horizontal squeeze plus a downward force vector. By bridging the hips upward using the upper back as a base, the attacker drives the thigh and shin downward into the neck while simultaneously squeezing inward. This creates opposing forces\u2014hips pushing up, hands pulling the head down\u2014that compress the neck from multiple angles, increasing finishing effectiveness by approximately 40% compared to a flat squeeze alone.",
+        "answer": "Hip elevation transforms the pressure from a horizontal squeeze into a combination of horizontal squeeze plus a downward force vector. By bridging the hips upward using the upper back as a base, the attacker drives the thigh and shin downward into the neck while simultaneously squeezing inward. This creates opposing forces—hips pushing up, hands pulling the head down—that compress the neck from multiple angles, increasing finishing effectiveness by approximately 40% compared to a flat squeeze alone.",
         "safety_critical": false
       },
       {
         "question": "What are the signs that a training partner is losing consciousness during a triangle choke, and what must you do?",
-        "answer": "Signs include sudden loss of resistance or going limp, changes in skin color (face turning red or purple), gurgling sounds, eyes rolling back, or any unusual cessation of defensive movement. You must release the triangle immediately by uncrossing ankles, removing all leg pressure, and releasing grips. Check consciousness and breathing, place them in recovery position if unconscious, elevate their legs, and alert the instructor immediately. Never assume they are still fighting\u2014treat any ambiguous signal as a tap.",
+        "answer": "Signs include sudden loss of resistance or going limp, changes in skin color (face turning red or purple), gurgling sounds, eyes rolling back, or any unusual cessation of defensive movement. You must release the triangle immediately by uncrossing ankles, removing all leg pressure, and releasing grips. Check consciousness and breathing, place them in recovery position if unconscious, elevate their legs, and alert the instructor immediately. Never assume they are still fighting—treat any ambiguous signal as a tap.",
         "safety_critical": true
       },
       {
-        "question": "Your opponent stacks forward and begins lifting your hips off the mat\u2014how do you maintain the finish or transition?",
+        "question": "Your opponent stacks forward and begins lifting your hips off the mat—how do you maintain the finish or transition?",
         "answer": "First, underhook their far leg with your free arm to prevent full stacking pressure. Simultaneously scoot your hips away to maintain the choking angle. If they continue driving forward despite these adjustments, transition to the omoplata by releasing the triangle lock, swinging your hips through under their arm, and controlling their shoulder. The stacking motion actually assists the omoplata transition by placing their weight forward over the fulcrum point.",
         "safety_critical": false
       },
@@ -321,7 +321,7 @@
       },
       {
         "question": "Why is sustained progressive compression more effective than explosive squeezing for the triangle finish?",
-        "answer": "Blood chokes work through sustained arterial occlusion\u2014the carotid arteries must be compressed continuously for 4-8 seconds to produce unconsciousness. Explosive squeezing at maximum force fatigues the leg muscles within 10-15 seconds, after which the squeeze weakens and the opponent can survive the pressure wave. Progressive compression at 70-80% effort can be maintained indefinitely, ensuring continuous arterial occlusion. The opponent cannot outlast a steady squeeze the way they can wait out an explosive burst.",
+        "answer": "Blood chokes work through sustained arterial occlusion—the carotid arteries must be compressed continuously for 4-8 seconds to produce unconsciousness. Explosive squeezing at maximum force fatigues the leg muscles within 10-15 seconds, after which the squeeze weakens and the opponent can survive the pressure wave. Progressive compression at 70-80% effort can be maintained indefinitely, ensuring continuous arterial occlusion. The opponent cannot outlast a steady squeeze the way they can wait out an explosive burst.",
         "safety_critical": false
       },
       {
@@ -334,14 +334,14 @@
   "defender": {
     "name": "from Triangle Control Defender",
     "description": "Essential guide to defending and escaping the triangle choke from triangle control. Learn posture recovery, stack defense, and systematic escape sequences.",
-    "overview": "Defending the triangle choke finish from triangle control is one of the most urgent defensive situations in Brazilian Jiu-Jitsu. Once the triangle is locked and the attacker begins optimizing their angle and squeeze, the window for escape narrows rapidly\u2014a fully locked triangle with correct mechanics can produce unconsciousness in under 8 seconds. The defender must prioritize posture recovery above all else, as the choke relies on the head being pulled forward into the compression zone between the attacker's thigh and shin. Understanding the attacker's finishing mechanics is essential because each element they establish\u2014angle, arm position, head control, hip elevation\u2014makes the escape progressively more difficult.\n\nSystematic defense requires addressing multiple threats simultaneously rather than fighting any single element in isolation. The defender must work to square up against the attacker's angle to reduce choking efficiency, prevent the trapped arm from being pulled across the neck, and recover upright posture to create space. Every second counts in this position, and the defender must balance urgency with technical precision\u2014panicked, explosive movements typically worsen the position by creating space that the attacker uses to tighten the lock further.",
+    "overview": "Defending the triangle choke finish from triangle control is one of the most urgent defensive situations in Brazilian Jiu-Jitsu. Once the triangle is locked and the attacker begins optimizing their angle and squeeze, the window for escape narrows rapidly—a fully locked triangle with correct mechanics can produce unconsciousness in under 8 seconds. The defender must prioritize posture recovery above all else, as the choke relies on the head being pulled forward into the compression zone between the attacker's thigh and shin. Understanding the attacker's finishing mechanics is essential because each element they establish—angle, arm position, head control, hip elevation—makes the escape progressively more difficult.\n\nSystematic defense requires addressing multiple threats simultaneously rather than fighting any single element in isolation. The defender must work to square up against the attacker's angle to reduce choking efficiency, prevent the trapped arm from being pulled across the neck, and recover upright posture to create space. Every second counts in this position, and the defender must balance urgency with technical precision—panicked, explosive movements typically worsen the position by creating space that the attacker uses to tighten the lock further.",
     "key_principles": [
-      "Address posture first\u2014stand upright or drive the spine vertical to create space between your neck and the attacker's compressing leg before attempting any other defensive action",
+      "Address posture first—stand upright or drive the spine vertical to create space between your neck and the attacker's compressing leg before attempting any other defensive action",
       "Keep the trapped arm's elbow tight to your ribcage to prevent the attacker from pulling it across your neck where it amplifies the choking pressure",
-      "Square your shoulders to the attacker's hips to reduce their choking angle\u2014the triangle is weakest when your centerline aligns with theirs",
+      "Square your shoulders to the attacker's hips to reduce their choking angle—the triangle is weakest when your centerline aligns with theirs",
       "Control the attacker's hips with your free hand to prevent them from achieving full hip elevation and the downward pressure vector that completes the finish",
       "Tuck your chin toward your trapped shoulder to reduce the compression space around your neck and buy time for escape mechanics",
-      "Maintain controlled breathing and composure\u2014panic accelerates oxygen consumption and leads to poor technical decisions under pressure"
+      "Maintain controlled breathing and composure—panic accelerates oxygen consumption and leads to poor technical decisions under pressure"
     ],
     "recognition_cues": [
       "Feeling both of the opponent's legs wrap around your head and one shoulder with ankles crossing behind your neck, creating triangular compression",
@@ -352,21 +352,21 @@
     ],
     "defensive_options": [
       {
-        "action": "Posture recovery\u2014drive upward to straighten the spine, stack weight onto the attacker, and create vertical space to relieve neck pressure",
+        "action": "Posture recovery—drive upward to straighten the spine, stack weight onto the attacker, and create vertical space to relieve neck pressure",
         "when_to_use": "As soon as the triangle is recognized, before the attacker establishes the angle and head control. This is the highest-priority defense.",
         "targets_outcome": "Triangle Control/Bottom",
         "if_successful": "Relieves immediate choking pressure and creates space to begin systematic escape sequence or force the attacker to reset their finishing position",
         "risk": "If done without proper hand position, the attacker can transition to armbar as posturing exposes the trapped arm"
       },
       {
-        "action": "Stack and pass\u2014drive forward with your weight, stacking the attacker's hips over their shoulders while walking around to the side to clear the legs",
+        "action": "Stack and pass—drive forward with your weight, stacking the attacker's hips over their shoulders while walking around to the side to clear the legs",
         "when_to_use": "When posture recovery alone is insufficient and you need to use forward pressure to collapse the triangle angle. Effective against lighter or flexible attackers.",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Collapses the attacker's angle, relieves choking pressure, and can lead to passing the legs entirely to achieve side control",
         "risk": "The attacker can transition to omoplata if your weight commits too far forward without controlling their hips"
       },
       {
-        "action": "Trapped arm extraction\u2014fight to remove the trapped arm from inside the triangle while maintaining posture to reduce the arm-as-wedge effect",
+        "action": "Trapped arm extraction—fight to remove the trapped arm from inside the triangle while maintaining posture to reduce the arm-as-wedge effect",
         "when_to_use": "When you have partial posture and the attacker has not yet secured a grip on your trapped wrist. Must be combined with posture maintenance.",
         "targets_outcome": "Closed Guard/Bottom",
         "if_successful": "Removes the internal wedge that amplifies the choke, dramatically reducing compression even if the triangle remains locked",
@@ -375,7 +375,7 @@
     ],
     "escape_paths": [
       "Posture recovery to standing base, then systematic leg peeling to clear the triangle lock and pass to side control or return to open guard",
-      "Stack and circle pass\u2014drive forward pressure while walking around to the choking leg side, collapsing the triangle angle until you can clear the legs",
+      "Stack and circle pass—drive forward pressure while walking around to the choking leg side, collapsing the triangle angle until you can clear the legs",
       "Arm extraction combined with shoulder turn to reduce choking pressure, then frame creation and hip escape to disengage from the triangle configuration"
     ],
     "favorable_outcomes": [
@@ -385,7 +385,7 @@
       },
       {
         "outcome": "Triangle Control/Bottom",
-        "how": "Recover posture and relieve immediate choking pressure while remaining in the triangle\u2014the attacker retains control but must restart their finishing sequence, buying time for a more complete escape"
+        "how": "Recover posture and relieve immediate choking pressure while remaining in the triangle—the attacker retains control but must restart their finishing sequence, buying time for a more complete escape"
       }
     ],
     "common_errors": [
@@ -402,7 +402,7 @@
       {
         "error": "Panicking and making explosive, uncontrolled movements when the choke begins to tighten",
         "consequence": "Wastes energy rapidly, accelerates oxygen consumption under restricted blood flow, and creates openings the attacker exploits to deepen the angle or transition to armbar or omoplata",
-        "correction": "Practice controlled breathing even under pressure. Execute systematic escape steps in sequence\u2014posture, square up, hand position, stack or extract\u2014rather than thrashing with uncoordinated movements."
+        "correction": "Practice controlled breathing even under pressure. Execute systematic escape steps in sequence—posture, square up, hand position, stack or extract—rather than thrashing with uncoordinated movements."
       },
       {
         "error": "Allowing the attacker to pull the trapped arm across the neck without fighting the wrist grip",
@@ -410,10 +410,10 @@
         "correction": "Actively fight the wrist grip by keeping the trapped elbow tight to your ribcage and turning the palm outward. Preventing the arm-across-neck position is the second priority after posture recovery."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is your first defensive priority when you recognize you are caught in a triangle choke from triangle control?",
-        "answer": "The immediate first priority is posture recovery\u2014driving the spine vertical to create space between your neck and the attacker's compressing legs. Posture recovery relieves the direct choking pressure and creates the vertical space needed for all subsequent escape mechanics. Without recovering posture first, attempting arm extraction or other escapes typically makes the position worse by giving the attacker space to tighten their lock.",
+        "answer": "The immediate first priority is posture recovery—driving the spine vertical to create space between your neck and the attacker's compressing legs. Posture recovery relieves the direct choking pressure and creates the vertical space needed for all subsequent escape mechanics. Without recovering posture first, attempting arm extraction or other escapes typically makes the position worse by giving the attacker space to tighten their lock.",
         "safety_critical": false
       },
       {
@@ -433,7 +433,7 @@
       },
       {
         "question": "How does the stack defense work against the triangle choke and what is the main risk?",
-        "answer": "The stack defense involves driving your weight forward over the attacker, lifting their hips onto their shoulders to compress their body and collapse the choking angle. This forward pressure reduces the space available for the attacker to extend their hips and squeeze. The main risk is that committing your weight forward exposes you to the omoplata transition\u2014the attacker can release the triangle, swing their hips through, and attack your shoulder. To mitigate this, control the attacker's far hip with your free hand while stacking.",
+        "answer": "The stack defense involves driving your weight forward over the attacker, lifting their hips onto their shoulders to compress their body and collapse the choking angle. This forward pressure reduces the space available for the attacker to extend their hips and squeeze. The main risk is that committing your weight forward exposes you to the omoplata transition—the attacker can release the triangle, swing their hips through, and attack your shoulder. To mitigate this, control the attacker's far hip with your free hand while stacking.",
         "safety_critical": false
       }
     ],

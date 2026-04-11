@@ -1,5 +1,5 @@
 {
-  "last_updated_at": "2026-04-10T09:34:38.538030Z",
+  "last_updated_at": "2026-04-11T09:34:27.052200Z",
   "votes": {
     "100% Sweep": {
       "success_rate": 50.0,
@@ -3118,8 +3118,8 @@
       "vote_count": 30
     },
     "Posture Recovery": {
-      "success_rate": 75.0,
-      "vote_count": 30
+      "success_rate": 75.03,
+      "vote_count": 31
     },
     "Posture Recovery from Carni": {
       "success_rate": 50.0,

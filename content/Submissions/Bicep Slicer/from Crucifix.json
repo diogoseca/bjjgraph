@@ -286,7 +286,7 @@
       {
         "phase": "Phase 1: Positional Mechanics",
         "focus": "Shin placement and fulcrum positioning",
-        "description": "Practice the core mechanic in isolation with a compliant partner. Focus exclusively on correctly seating the shin behind the elbow joint and establishing wrist control. No pressure applied\u2014only positional drilling to build muscle memory for the fulcrum placement and grip configurations. Drill from crucifix position only until the entry becomes automatic."
+        "description": "Practice the core mechanic in isolation with a compliant partner. Focus exclusively on correctly seating the shin behind the elbow joint and establishing wrist control. No pressure applied—only positional drilling to build muscle memory for the fulcrum placement and grip configurations. Drill from crucifix position only until the entry becomes automatic."
       },
       {
         "phase": "Phase 2: Controlled Pressure",
@@ -296,7 +296,7 @@
       {
         "phase": "Phase 3: Defensive Recognition and Transition Chains",
         "focus": "Reading defensive reactions and chaining attacks",
-        "description": "Partner provides specific defensive reactions\u2014arm straightening, rolling, bridging, hand fighting. Practice recognizing each defense and transitioning to the appropriate alternative attack: armbar when they straighten, maintain through rolls, abandon to crucifix control when shin is displaced. Build the decision tree through repetitive scenario drilling at moderate resistance."
+        "description": "Partner provides specific defensive reactions—arm straightening, rolling, bridging, hand fighting. Practice recognizing each defense and transitioning to the appropriate alternative attack: armbar when they straighten, maintain through rolls, abandon to crucifix control when shin is displaced. Build the decision tree through repetitive scenario drilling at moderate resistance."
       },
       {
         "phase": "Phase 4: Live Application and Competition Timing",
@@ -304,7 +304,7 @@
         "description": "Apply the bicep slicer during positional sparring starting from crucifix, truck, and mount positions. Partner provides full resistance. Focus on identifying windows of opportunity, committing to the submission at the right moment, and smoothly transitioning when defenses succeed. Develop the timing sense for when the position is available versus when alternative attacks are higher percentage."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary safety concern when applying the bicep slicer, and what application speed should be used in training?",
         "answer": "The primary safety concerns are bicep muscle tears and elbow hyperextension injuries. In training, the bicep slicer must be applied EXTREMELY SLOWLY over a minimum of 5-7 seconds with constant communication. The submission attacks both the bicep muscle (compression) and elbow joint (hyperextension), making it capable of causing severe injury if applied suddenly or explosively. Training partners must be experienced enough to recognize the submission early and tap immediately.",
@@ -322,7 +322,7 @@
       },
       {
         "question": "What are the immediate steps you must take when your training partner taps to a bicep slicer?",
-        "answer": "Upon receiving a tap, immediately release all pressure on the bicep and elbow, remove your shin from behind their elbow joint, release your grip on their wrist, and allow them to straighten their arm naturally without resistance. Then check with your partner about their condition before continuing training. The release must be immediate and complete\u2014never continue applying pressure after a tap, as both the bicep muscle and elbow joint are vulnerable to serious injury from this submission.",
+        "answer": "Upon receiving a tap, immediately release all pressure on the bicep and elbow, remove your shin from behind their elbow joint, release your grip on their wrist, and allow them to straighten their arm naturally without resistance. Then check with your partner about their condition before continuing training. The release must be immediate and complete—never continue applying pressure after a tap, as both the bicep muscle and elbow joint are vulnerable to serious injury from this submission.",
         "safety_critical": true
       },
       {
@@ -341,7 +341,7 @@
         "safety_critical": true
       },
       {
-        "question": "Your opponent starts to roll toward the trapped arm while you have the bicep slicer partially applied\u2014what adjustment maintains the submission?",
+        "question": "Your opponent starts to roll toward the trapped arm while you have the bicep slicer partially applied—what adjustment maintains the submission?",
         "answer": "When the opponent rolls toward the trapped arm, maintain your body position and follow their roll while keeping your shin locked behind their elbow. Use your free leg as a hook to control their hip and prevent the full roll completion. Your weight should stay connected to their body throughout the movement. You may end up in a different position (such as transitioning from crucifix to a mounted variation), but can often maintain the submission throughout the movement by keeping the shin-elbow-wrist connection intact.",
         "safety_critical": false
       },
@@ -352,7 +352,7 @@
       },
       {
         "question": "What is the point of no escape in the bicep slicer, and how do you recognize when you've reached it?",
-        "answer": "The point of no escape occurs when your shin is fully seated behind the elbow joint, wrist control is secured with the arm bent past 90 degrees, and your chest or hip pressure closes the distance. At this point, the opponent cannot straighten their arm due to the fulcrum position, and any resistance only increases compression on the bicep. You recognize this point when you feel their arm locked into position with no remaining slack in the system\u2014the scissoring mechanism is fully engaged and finishing pressure requires only bodyweight commitment.",
+        "answer": "The point of no escape occurs when your shin is fully seated behind the elbow joint, wrist control is secured with the arm bent past 90 degrees, and your chest or hip pressure closes the distance. At this point, the opponent cannot straighten their arm due to the fulcrum position, and any resistance only increases compression on the bicep. You recognize this point when you feel their arm locked into position with no remaining slack in the system—the scissoring mechanism is fully engaged and finishing pressure requires only bodyweight commitment.",
         "safety_critical": false
       },
       {
@@ -362,7 +362,7 @@
       },
       {
         "question": "In competition, how do you adjust your finishing speed and pressure while still respecting your opponent's safety?",
-        "answer": "In competition, you can apply the bicep slicer faster than in training, but you should still avoid explosive jerking motions that bypass the opponent's ability to tap. Apply steady, progressive pressure and give the opponent a reasonable opportunity to tap before reaching maximum compression. Even in competition, maintain awareness\u2014if your opponent goes limp or shows signs of losing consciousness (which can happen with intense pain), release and alert the referee. A victory obtained by permanently injuring an opponent is not worth the cost to the sport and your training community.",
+        "answer": "In competition, you can apply the bicep slicer faster than in training, but you should still avoid explosive jerking motions that bypass the opponent's ability to tap. Apply steady, progressive pressure and give the opponent a reasonable opportunity to tap before reaching maximum compression. Even in competition, maintain awareness—if your opponent goes limp or shows signs of losing consciousness (which can happen with intense pain), release and alert the referee. A victory obtained by permanently injuring an opponent is not worth the cost to the sport and your training community.",
         "safety_critical": true
       }
     ]
@@ -370,18 +370,18 @@
   "defender": {
     "name": "Bicep Slicer Defender",
     "description": "How to defend against Bicep Slicer in BJJ. Recognition, escape paths, and defensive strategies.",
-    "overview": "Defending the Bicep Slicer requires early recognition and decisive action, as this compression lock attacks both the bicep muscle and elbow joint simultaneously with rapidly escalating damage potential. The defender's primary challenge is that the bicep slicer is typically applied from highly dominant positions\u2014crucifix, truck, or modified mount\u2014where defensive options are already severely limited. Unlike joint locks that build pressure gradually along a single axis, the bicep slicer creates a two-fold threat: crushing compression on the bicep belly and hyperextension of the elbow, meaning the window between discomfort and injury is dangerously narrow. Successful defense depends on preventing the three-point connection\u2014shin behind elbow, wrist control secured, and chest pressure closing the distance. If all three are established, escape becomes extremely difficult and tapping early is the safest option. The defender must prioritize straightening the trapped arm before the fulcrum is fully seated, as this single action eliminates the entire mechanical basis of the submission. Understanding when to fight and when to tap is perhaps the most critical defensive skill, as the bicep slicer can cause severe, lasting damage if resistance continues past the point of no return.",
+    "overview": "Defending the Bicep Slicer requires early recognition and decisive action, as this compression lock attacks both the bicep muscle and elbow joint simultaneously with rapidly escalating damage potential. The defender's primary challenge is that the bicep slicer is typically applied from highly dominant positions—crucifix, truck, or modified mount—where defensive options are already severely limited. Unlike joint locks that build pressure gradually along a single axis, the bicep slicer creates a two-fold threat: crushing compression on the bicep belly and hyperextension of the elbow, meaning the window between discomfort and injury is dangerously narrow. Successful defense depends on preventing the three-point connection—shin behind elbow, wrist control secured, and chest pressure closing the distance. If all three are established, escape becomes extremely difficult and tapping early is the safest option. The defender must prioritize straightening the trapped arm before the fulcrum is fully seated, as this single action eliminates the entire mechanical basis of the submission. Understanding when to fight and when to tap is perhaps the most critical defensive skill, as the bicep slicer can cause severe, lasting damage if resistance continues past the point of no return.",
     "key_principles": [
-      "Straighten the trapped arm immediately\u2014extending the elbow removes the fulcrum and eliminates the compression mechanism entirely",
+      "Straighten the trapped arm immediately—extending the elbow removes the fulcrum and eliminates the compression mechanism entirely",
       "Fight wrist control as the first priority since the attacker cannot finish without controlling the wrist to maintain the bent arm position",
       "Recognize the setup early by monitoring for shin placement behind the elbow, which signals the bicep slicer is being established",
-      "Tap early rather than late\u2014the bicep slicer has a narrow window between pressure and injury, and heroic defense risks serious muscle or ligament damage",
+      "Tap early rather than late—the bicep slicer has a narrow window between pressure and injury, and heroic defense risks serious muscle or ligament damage",
       "Use the free arm actively to push the attacker's shin away from behind the elbow before the fulcrum is fully seated",
       "Create space through hip movement to reduce the attacker's chest pressure, which weakens the overall compression force",
-      "Address the positional disadvantage first\u2014escaping crucifix or truck control removes the bicep slicer threat entirely"
+      "Address the positional disadvantage first—escaping crucifix or truck control removes the bicep slicer threat entirely"
     ],
     "recognition_cues": [
-      "Opponent's shin begins sliding behind your elbow joint while they maintain wrist or hand control\u2014this is the primary setup indicator",
+      "Opponent's shin begins sliding behind your elbow joint while they maintain wrist or hand control—this is the primary setup indicator",
       "You feel your arm being pulled toward the opponent's chest while their leg positions across or behind your arm, creating a closing sensation around the elbow",
       "From crucifix or truck position, the opponent shifts focus from neck attacks to isolating and bending one of your arms while repositioning their legs",
       "Increasing pressure on the back of your elbow from a bony surface (shin bone) combined with wrist manipulation pulling your hand toward the opponent's body"
@@ -435,7 +435,7 @@
       {
         "error": "Waiting too long to address the bicep slicer, allowing the attacker to fully establish the three-point connection",
         "consequence": "Once shin, wrist control, and chest pressure are all locked in, escape becomes nearly impossible and the submission finishes rapidly, often before the defender can tap",
-        "correction": "React immediately to the first recognition cue\u2014shin placement behind the elbow. The defense window is measured in seconds. Address the submission threat the instant you feel the shin sliding behind your arm."
+        "correction": "React immediately to the first recognition cue—shin placement behind the elbow. The defense window is measured in seconds. Address the submission threat the instant you feel the shin sliding behind your arm."
       },
       {
         "error": "Pulling the trapped arm toward your body instead of straightening it",
@@ -445,12 +445,12 @@
       {
         "error": "Ignoring the bicep slicer to focus on escaping the dominant position instead",
         "consequence": "The submission finishes while you're working escape mechanics that don't address the immediate submission threat, resulting in a tap from a submission you never directly defended",
-        "correction": "Address the immediate submission threat first, then escape the position. The bicep slicer can finish in 2-3 seconds once established\u2014positional escapes take longer. Neutralize the submission, then work the escape."
+        "correction": "Address the immediate submission threat first, then escape the position. The bicep slicer can finish in 2-3 seconds once established—positional escapes take longer. Neutralize the submission, then work the escape."
       },
       {
         "error": "Using excessive energy in explosive escape attempts rather than technical arm straightening",
         "consequence": "Rapid fatigue without meaningful progress, as explosive movements from crucifix or truck rarely succeed and often tighten the attacker's controls",
-        "correction": "Focus energy on the specific technical action\u2014straightening the arm or displacing the shin. Targeted, efficient movements are far more effective than explosive thrashing from compromised positions."
+        "correction": "Focus energy on the specific technical action—straightening the arm or displacing the shin. Targeted, efficient movements are far more effective than explosive thrashing from compromised positions."
       },
       {
         "error": "Refusing to tap when the submission is fully locked, hoping the attacker will release or reposition",
@@ -458,20 +458,20 @@
         "correction": "Tap immediately when the three-point connection is established and you cannot create any movement toward arm extension. The bicep slicer causes damage extremely quickly once the point of no escape is reached. No roll or competition match is worth a torn bicep."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the single most important defensive action when you recognize a bicep slicer is being set up?",
-        "answer": "Straighten the trapped arm immediately by driving toward full elbow extension. This is the highest-percentage defense because it removes the fulcrum mechanism entirely\u2014the bicep slicer requires a bent arm to create compression against the shin. If you can extend the elbow before the attacker secures tight wrist control, the submission becomes mechanically impossible. Every second of delay allows the attacker to deepen wrist control and close the angle, making extension progressively more difficult.",
+        "answer": "Straighten the trapped arm immediately by driving toward full elbow extension. This is the highest-percentage defense because it removes the fulcrum mechanism entirely—the bicep slicer requires a bent arm to create compression against the shin. If you can extend the elbow before the attacker secures tight wrist control, the submission becomes mechanically impossible. Every second of delay allows the attacker to deepen wrist control and close the angle, making extension progressively more difficult.",
         "safety_critical": true
       },
       {
         "question": "Why is tapping early especially important for the bicep slicer compared to other submissions?",
-        "answer": "The bicep slicer attacks two structures simultaneously\u2014the bicep muscle through compression and the elbow joint through hyperextension\u2014creating an unusually narrow window between feeling pressure and sustaining injury. Unlike a standard armbar where you can feel progressive elbow stress and judge your safety margin, the bicep slicer's dual-threat mechanism means damage can occur to the muscle even before the elbow reaches its normal pain threshold. Additionally, the compression can damage the radial nerve, causing numbness and weakness that may not be immediately apparent during the adrenaline of sparring.",
+        "answer": "The bicep slicer attacks two structures simultaneously—the bicep muscle through compression and the elbow joint through hyperextension—creating an unusually narrow window between feeling pressure and sustaining injury. Unlike a standard armbar where you can feel progressive elbow stress and judge your safety margin, the bicep slicer's dual-threat mechanism means damage can occur to the muscle even before the elbow reaches its normal pain threshold. Additionally, the compression can damage the radial nerve, causing numbness and weakness that may not be immediately apparent during the adrenaline of sparring.",
         "safety_critical": true
       },
       {
-        "question": "Your opponent has their shin partially behind your elbow but has not secured your wrist yet\u2014what is your best defensive sequence?",
-        "answer": "Immediately straighten the arm while the wrist is still free, as this is the optimal escape window. Simultaneously, use your free hand to push the shin away from behind the elbow to displace the fulcrum. These two actions together\u2014arm extension and shin displacement\u2014create maximum defensive effect. Once the arm is straight, immediately begin working to escape the underlying dominant position through hip escapes or bridging, because the attacker will attempt to re-establish the submission setup if you remain in the same position.",
+        "question": "Your opponent has their shin partially behind your elbow but has not secured your wrist yet—what is your best defensive sequence?",
+        "answer": "Immediately straighten the arm while the wrist is still free, as this is the optimal escape window. Simultaneously, use your free hand to push the shin away from behind the elbow to displace the fulcrum. These two actions together—arm extension and shin displacement—create maximum defensive effect. Once the arm is straight, immediately begin working to escape the underlying dominant position through hip escapes or bridging, because the attacker will attempt to re-establish the submission setup if you remain in the same position.",
         "safety_critical": false
       },
       {
@@ -481,7 +481,7 @@
       },
       {
         "question": "What makes rolling escapes risky when defending the bicep slicer, and when should you attempt them?",
-        "answer": "Rolling escapes are risky because the rolling motion can actually tighten the bicep slicer if the attacker maintains shin-elbow-wrist connection throughout the movement. The rotation may increase compression on the bicep or change the angle to make the hyperextension worse. Rolling should only be attempted when the attacker's base is compromised\u2014specifically when they commit weight to the finishing pressure and reduce their stabilizing controls. The roll must be explosive and committed, aiming to disrupt the entire positional structure rather than just changing the angle of the submission.",
+        "answer": "Rolling escapes are risky because the rolling motion can actually tighten the bicep slicer if the attacker maintains shin-elbow-wrist connection throughout the movement. The rotation may increase compression on the bicep or change the angle to make the hyperextension worse. Rolling should only be attempted when the attacker's base is compromised—specifically when they commit weight to the finishing pressure and reduce their stabilizing controls. The roll must be explosive and committed, aiming to disrupt the entire positional structure rather than just changing the angle of the submission.",
         "safety_critical": false
       }
     ],

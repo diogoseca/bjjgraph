@@ -159,8 +159,8 @@
       {
         "step_number": 1,
         "action": "Secure ushiro entanglement",
-        "description": "As the opponent inverts from standard ashi-garami, follow their rotation by adapting your figure-four leg configuration. Keep your outside leg crossing over their knee line and your inside leg deeply controlling their thigh. Do not fight the inversion\u2014follow it while maintaining entanglement integrity throughout their movement.",
-        "timing": "Immediate\u2014react within 1-2 seconds of opponent beginning inversion"
+        "description": "As the opponent inverts from standard ashi-garami, follow their rotation by adapting your figure-four leg configuration. Keep your outside leg crossing over their knee line and your inside leg deeply controlling their thigh. Do not fight the inversion—follow it while maintaining entanglement integrity throughout their movement.",
+        "timing": "Immediate—react within 1-2 seconds of opponent beginning inversion"
       },
       {
         "step_number": 2,
@@ -172,31 +172,31 @@
         "step_number": 3,
         "action": "Establish heel grip from reversed angle",
         "description": "Reach for the opponent's heel with both hands, cupping it from the reversed angle. Your primary hand wraps around the heel bone while your secondary hand reinforces the grip by clasping over the wrist or locking a figure-four on the foot. The grip position differs from standard ashi-garami because the heel faces a different direction relative to your torso.",
-        "timing": "2-4 seconds\u2014do not rush grip establishment at expense of leg control"
+        "timing": "2-4 seconds—do not rush grip establishment at expense of leg control"
       },
       {
         "step_number": 4,
         "action": "Position hips for optimal leverage",
         "description": "Angle your hips toward the opponent's trapped leg so that your hip extension drives rotational force through the heel. Your chest should face their shin rather than their torso. This hip positioning creates the mechanical advantage needed to generate breaking pressure on the medial knee ligaments without relying on arm strength alone.",
-        "timing": "1-2 seconds\u2014subtle adjustment made while maintaining grip"
+        "timing": "1-2 seconds—subtle adjustment made while maintaining grip"
       },
       {
         "step_number": 5,
         "action": "Create rotational alignment",
         "description": "Pull the opponent's toes toward your chest while positioning the heel to rotate toward their buttock. This alignment ensures that the rotational force attacks the ACL and MCL at the correct angle from the reversed position. Clamp your elbows tight to your ribs to prevent the opponent from stripping your grip through arm extension defense.",
-        "timing": "1-2 seconds\u2014final mechanical alignment before applying pressure"
+        "timing": "1-2 seconds—final mechanical alignment before applying pressure"
       },
       {
         "step_number": 6,
         "action": "Apply controlled rotational pressure",
         "description": "Extend your hips slowly while maintaining the heel grip, rotating the heel toward the opponent's buttock line. The force comes from hip extension and back arching, not from twisting with the arms. Apply pressure gradually over 5-7 seconds in training, allowing the opponent time to recognize the danger and tap before ligament damage occurs.",
-        "timing": "5-7 seconds in training\u2014NEVER explosive application"
+        "timing": "5-7 seconds in training—NEVER explosive application"
       },
       {
         "step_number": 7,
         "action": "Complete the finish or transition",
         "description": "If the opponent taps, immediately release all rotational pressure and open your hands completely before unwinding the leg entanglement. If they defend successfully, maintain leg control and transition to alternative attacks such as toe hold, ankle lock, or positional advancement to saddle. Do not repeatedly attempt the same heel hook angle if the initial attempt was defended.",
-        "timing": "Ongoing\u2014read the opponent's response and adapt accordingly"
+        "timing": "Ongoing—read the opponent's response and adapt accordingly"
       }
     ],
     "common_counters": [
@@ -244,7 +244,7 @@
       {
         "error": "Neglecting inside leg control while focusing exclusively on heel grip",
         "consequence": "Opponent escapes the entanglement entirely because the structural control that prevents leg extraction has been abandoned for the submission attempt",
-        "correction": "Maintain inside leg control on opponent's thigh throughout the entire finishing sequence. The inside leg is your primary retention mechanism\u2014it must stay active even during heel hook application"
+        "correction": "Maintain inside leg control on opponent's thigh throughout the entire finishing sequence. The inside leg is your primary retention mechanism—it must stay active even during heel hook application"
       },
       {
         "error": "Attempting to finish from too far away without proper hip positioning",
@@ -261,7 +261,7 @@
       {
         "phase": "Phase 1: Static grip and position mechanics",
         "focus": "Heel grip placement and hip positioning from ushiro",
-        "description": "Begin with a compliant partner already in ushiro ashi-garami. Practice establishing the correct heel grip from the reversed angle and positioning your hips for optimal rotational leverage. No finishing pressure\u2014focus exclusively on grip placement accuracy and body positioning. Drill 20-30 repetitions per side."
+        "description": "Begin with a compliant partner already in ushiro ashi-garami. Practice establishing the correct heel grip from the reversed angle and positioning your hips for optimal rotational leverage. No finishing pressure—focus exclusively on grip placement accuracy and body positioning. Drill 20-30 repetitions per side."
       },
       {
         "phase": "Phase 2: Inversion following with control",
@@ -279,7 +279,7 @@
         "description": "Begin rounds in established ushiro ashi-garami with both practitioners working at full intensity. Practice selecting between immediate heel hook attempt, positional advancement to saddle, or following to back control based on the opponent's defensive reactions. Develop timing and sensitivity for the optimal attack window."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What anatomical structures does the inside heel hook from ushiro ashi-garami primarily attack?",
         "answer": "The inside heel hook primarily attacks the medial knee ligaments, specifically the ACL (anterior cruciate ligament) and MCL (medial collateral ligament), through rotational force applied to the heel that creates torsional stress on the knee joint. Secondary damage can occur to the meniscus and surrounding connective tissue. The rotational vector from the ushiro angle attacks these structures from a slightly different direction than standard positions.",
@@ -302,22 +302,22 @@
       },
       {
         "question": "At what point during the heel hook application can the opponent no longer safely defend?",
-        "answer": "The point of no escape occurs when the heel grip is fully established with elbows clamped tight, hips are positioned for extension, and initial rotational force has taken the slack out of the ligaments. Once the knee ligaments are under tension with the heel locked, defensive movements like rotation or straightening can accelerate injury. This is why training partners must tap early\u2014before full tension is achieved\u2014and attackers must apply force gradually enough to allow recognition and tap time.",
+        "answer": "The point of no escape occurs when the heel grip is fully established with elbows clamped tight, hips are positioned for extension, and initial rotational force has taken the slack out of the ligaments. Once the knee ligaments are under tension with the heel locked, defensive movements like rotation or straightening can accelerate injury. This is why training partners must tap early—before full tension is achieved—and attackers must apply force gradually enough to allow recognition and tap time.",
         "safety_critical": true
       },
       {
-        "question": "Your opponent establishes a strong boot defense from ushiro\u2014what grip adjustment should you make?",
+        "question": "Your opponent establishes a strong boot defense from ushiro—what grip adjustment should you make?",
         "answer": "Against a strong boot defense, switch from attacking the heel directly to attacking the foot itself with a toe hold grip. Alternatively, use the boot defense reaction to transition to saddle position by stepping your inside leg through while they focus on foot positioning rather than leg clearing. A third option is to peel the boot by controlling the toes with one hand while your other hand slides behind the heel as it becomes exposed.",
         "safety_critical": false
       },
       {
         "question": "How should you release the inside heel hook from ushiro after a tap to prevent injury?",
-        "answer": "Upon receiving any tap signal: (1) immediately stop all rotational pressure and hip extension, (2) open both hands completely to release the heel, (3) straighten your legs and move your hips away to release the figure-four entanglement, (4) do not apply any residual pressure during the release sequence, and (5) verbally check with your partner before resuming. The release must be immediate and complete\u2014never maintain grip to demonstrate the position after a tap.",
+        "answer": "Upon receiving any tap signal: (1) immediately stop all rotational pressure and hip extension, (2) open both hands completely to release the heel, (3) straighten your legs and move your hips away to release the figure-four entanglement, (4) do not apply any residual pressure during the release sequence, and (5) verbally check with your partner before resuming. The release must be immediate and complete—never maintain grip to demonstrate the position after a tap.",
         "safety_critical": true
       },
       {
         "question": "What competition strategy adjustments are needed when finishing from ushiro versus standard positions?",
-        "answer": "In competition, the ushiro heel hook often catches opponents during their escape attempt when their defensive attention is split between completing the inversion and protecting the heel. The finishing window is shorter because the opponent is actively moving. Commit to the finish quickly once grip is established, or immediately transition to saddle for a more controlled finishing platform. Do not hold ushiro for extended periods in competition\u2014either attack decisively or advance position.",
+        "answer": "In competition, the ushiro heel hook often catches opponents during their escape attempt when their defensive attention is split between completing the inversion and protecting the heel. The finishing window is shorter because the opponent is actively moving. Commit to the finish quickly once grip is established, or immediately transition to saddle for a more controlled finishing platform. Do not hold ushiro for extended periods in competition—either attack decisively or advance position.",
         "safety_critical": false
       },
       {
@@ -327,7 +327,7 @@
       },
       {
         "question": "How do you maintain offensive pressure if the opponent partially clears the outside leg?",
-        "answer": "If the opponent clears your outside leg but your inside leg retains deep thigh control, immediately transition to saddle by stepping your outside leg through to the far side of their hip. This converts partial escape into a higher-control entanglement. The inside leg control is the critical retention point\u2014as long as it stays deep on their thigh, you can rebuild the entanglement or transition to saddle rather than losing position entirely.",
+        "answer": "If the opponent clears your outside leg but your inside leg retains deep thigh control, immediately transition to saddle by stepping your outside leg through to the far side of their hip. This converts partial escape into a higher-control entanglement. The inside leg control is the critical retention point—as long as it stays deep on their thigh, you can rebuild the entanglement or transition to saddle rather than losing position entirely.",
         "safety_critical": false
       }
     ]
@@ -340,7 +340,7 @@
       "Maintain dorsiflexion (foot flexed toward shin) throughout the entire defensive sequence to hide the heel from the attacker's grip",
       "Prioritize completing the escape rotation to turtle rather than stopping in the reversed entanglement where you are most vulnerable",
       "Use both hands to control the attacker's inside knee to prevent them from deepening entanglement or transitioning to saddle",
-      "Tap early and without hesitation when you feel rotational pressure on the knee\u2014ligament damage occurs before pain fully registers",
+      "Tap early and without hesitation when you feel rotational pressure on the knee—ligament damage occurs before pain fully registers",
       "Control the pace of your escape by moving deliberately rather than explosively to avoid creating heel exposure through uncontrolled movement",
       "Monitor the attacker's hand position to anticipate whether they are attacking the heel hook or transitioning to an alternative submission"
     ],
@@ -418,11 +418,11 @@
       },
       {
         "error": "Refusing to tap when rotational pressure is felt on the knee joint",
-        "consequence": "Heel hook damage occurs extremely fast once ligaments reach their limit and there is no gradual pain warning like with arm locks\u2014by the time you feel significant pain, structural damage has already occurred",
+        "consequence": "Heel hook damage occurs extremely fast once ligaments reach their limit and there is no gradual pain warning like with arm locks—by the time you feel significant pain, structural damage has already occurred",
         "correction": "Tap immediately when you feel any rotational pressure on the knee that you cannot stop through defensive technique. There is no ego worth a torn ACL and 12 months of rehabilitation"
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "How do you recognize that the inside heel hook from ushiro is being set up?",
         "answer": "Key recognition cues include: the attacker has followed your inversion and maintained figure-four control around your trapped leg, their hands are working toward your heel or foot from the reversed angle, their inside leg is controlling your thigh deeply preventing escape completion, and your hip mobility is restricted despite having inverted. Early recognition when you feel the entanglement maintained post-inversion is critical for timely defense.",
@@ -430,7 +430,7 @@
       },
       {
         "question": "When should you tap to the inside heel hook from ushiro ashi-garami?",
-        "answer": "Tap immediately when you feel rotational pressure on your knee that your defensive techniques cannot stop. Unlike arm locks where there is a gradual pain curve, heel hooks damage knee ligaments rapidly once the breaking threshold is reached. Tap before feeling significant pain\u2014if you wait for pain, structural damage has likely already begun. Use verbal tap, hand tap, or foot tap. Any delay in tapping can result in 6-12 months of rehabilitation from ACL surgery.",
+        "answer": "Tap immediately when you feel rotational pressure on your knee that your defensive techniques cannot stop. Unlike arm locks where there is a gradual pain curve, heel hooks damage knee ligaments rapidly once the breaking threshold is reached. Tap before feeling significant pain—if you wait for pain, structural damage has likely already begun. Use verbal tap, hand tap, or foot tap. Any delay in tapping can result in 6-12 months of rehabilitation from ACL surgery.",
         "safety_critical": true
       },
       {
@@ -468,7 +468,7 @@
       {
         "phase": "Phase 4: Live positional defense rounds",
         "focus": "Full-speed defense with tap discipline and escape selection",
-        "description": "Begin rounds in established ushiro ashi-garami bottom with both practitioners at full intensity. Practice selecting between escape, defense, and counter-attack based on real-time conditions. Emphasize tap discipline\u2014tap early and without hesitation when rotational pressure is felt. Review each round to identify decision points."
+        "description": "Begin rounds in established ushiro ashi-garami bottom with both practitioners at full intensity. Practice selecting between escape, defense, and counter-attack based on real-time conditions. Emphasize tap discipline—tap early and without hesitation when rotational pressure is felt. Review each round to identify decision points."
       }
     ]
   }

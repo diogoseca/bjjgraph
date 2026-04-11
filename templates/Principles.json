@@ -321,6 +321,32 @@
           }
         }
       }
+    },
+    "flashcards": {
+      "type": "array",
+      "description": "Q&A flashcards for self-assessment and SRS training (optional, 6-12 recommended)",
+      "minItems": 0,
+      "maxItems": 20,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "question",
+          "answer"
+        ],
+        "properties": {
+          "question": {
+            "type": "string",
+            "pattern": ".*\\?$",
+            "description": "Question about the principle, its application, or recognition"
+          },
+          "answer": {
+            "type": "string",
+            "minLength": 50,
+            "description": "Detailed answer (50+ characters)"
+          }
+        }
+      }
     }
   }
 }

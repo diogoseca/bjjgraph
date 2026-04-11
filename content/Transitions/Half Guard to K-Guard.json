@@ -246,7 +246,7 @@
         "description": "Use K-Guard entry during positional sparring and live rolling from half guard bottom. Track success rate against different body types and passing styles. Identify which half guard starting configurations give you the highest K-Guard entry success rate. Develop automatic recognition of the entry window based on opponent's weight commitment and pressure patterns."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the optimal timing window for initiating the K-Guard hook switch from half guard bottom?",
         "answer": "The optimal timing is when the top player commits their weight forward onto the trapped leg, typically during a passing attempt like a knee slice or when driving forward pressure to flatten you. Their forward weight commitment serves two purposes: it loads the trapped leg making it difficult to extract during the hook switch, and it provides the forward momentum that your new K-Guard hooks can redirect laterally. Attempting the entry when the opponent is sitting back makes extraction too easy and the transition too risky."
@@ -363,7 +363,7 @@
         "correction": "Always maintain crossface or shoulder pressure during leg extraction. The upper body control pins the bottom player in place while your leg extracts, preventing them from following your movement with their hooks."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that your opponent is attempting to transition from half guard to K-Guard?",
         "answer": "The earliest cue is the deliberate shrimp creating hip angle combined with increased inside arm frame pressure against your shoulder. These precursor movements happen before any hook change and are the bottom player creating the prerequisites for the hook rotation. The shrimp provides the hip clearance needed for the inversion while the frame increase creates distance protection. Recognizing these movements gives you the maximum defensive window before the hook switch begins."

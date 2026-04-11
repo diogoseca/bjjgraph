@@ -18,7 +18,7 @@
   "starting_position": "Half Guard",
   "from_position": "Half Guard/Bottom",
   "success_rate": 52,
-  "overview": "The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup\u2014opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.",
+  "overview": "The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.",
   "safety_considerations": {
     "injury_risks": [
       {
@@ -134,7 +134,7 @@
   "attacker": {
     "name": "Buggy Choke Attacker",
     "description": "How to execute Buggy Choke in BJJ. Attacking perspective with setup, execution, and finishing mechanics.",
-    "overview": "The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup\u2014opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.",
+    "overview": "The Buggy Choke is a devastating compression choke originating from half guard bottom positions, particularly effective when the opponent attempts to flatten you out or consolidate side control. This submission creates a unique angle of attack by combining upper body pressure with leg positioning to trap the opponent's head and arm, cutting off blood flow to the carotid arteries. The technique gained prominence in modern BJJ as a highly effective counter-attack from defensive positions, allowing smaller practitioners to finish larger opponents through precise mechanics rather than brute strength. What makes the Buggy Choke particularly dangerous is its deceptive setup—opponents often don't recognize the threat until the choke is deeply locked, making escape extremely difficult. The submission can be finished from various half guard configurations and transitions seamlessly into other attacks when defended properly.",
     "key_principles": [
       "Create a tight angle between your body and opponent's neck using leg positioning",
       "Trap the opponent's arm to prevent defensive hand fighting and neck protection",
@@ -263,7 +263,7 @@
       {
         "phase": "Phase 1: Mechanics Drilling",
         "focus": "Grip configuration, angle creation, and body positioning",
-        "description": "Practice the full setup sequence on a compliant partner with zero resistance. Focus on threading the arm behind the head, establishing the correct body angle, and locking the grip configuration. Drill each step independently before linking them together. No choking pressure applied during this phase\u2014only positional placement and grip familiarity."
+        "description": "Practice the full setup sequence on a compliant partner with zero resistance. Focus on threading the arm behind the head, establishing the correct body angle, and locking the grip configuration. Drill each step independently before linking them together. No choking pressure applied during this phase—only positional placement and grip familiarity."
       },
       {
         "phase": "Phase 2: Progressive Resistance",
@@ -281,7 +281,7 @@
         "description": "Incorporate the Buggy Choke into regular sparring rounds at full intensity. Track success rates and identify which defensive reactions you encounter most frequently. Refine your finishing mechanics under real resistance and develop your personal grip preferences based on body type. Practice the complete attack chain: entry, choke attempt, transition if defended, secondary attack."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the primary target of the Buggy Choke and why is proper angle so critical?",
         "answer": "The primary target is the carotid arteries on the sides of the neck, not the windpipe. Proper angle is critical because you need to create compression from the side to effectively cut off blood flow to the brain. If your angle is wrong and you compress the windpipe instead, you create a painful but less effective submission that's also more dangerous to your partner's throat structure.",
@@ -314,7 +314,7 @@
       },
       {
         "question": "Why is the Buggy Choke particularly effective from bottom half guard compared to other submission options?",
-        "answer": "The Buggy Choke is effective from bottom half guard because it uses the opponent's forward pressure against them\u2014when they try to flatten you or consolidate position, they unknowingly move into the optimal angle for the choke. It allows a smaller, defensive player to finish a larger opponent using mechanics rather than strength. Additionally, the setup is deceptive; opponents often don't recognize the threat until it's deeply locked, unlike more obvious submissions like armbars where the threat is apparent earlier.",
+        "answer": "The Buggy Choke is effective from bottom half guard because it uses the opponent's forward pressure against them—when they try to flatten you or consolidate position, they unknowingly move into the optimal angle for the choke. It allows a smaller, defensive player to finish a larger opponent using mechanics rather than strength. Additionally, the setup is deceptive; opponents often don't recognize the threat until it's deeply locked, unlike more obvious submissions like armbars where the threat is apparent earlier.",
         "safety_critical": false
       },
       {
@@ -324,7 +324,7 @@
       },
       {
         "question": "What grip adjustments should you make during the finish if opponent begins defending with their free hand?",
-        "answer": "If opponent's free hand begins fighting your grip, tighten your choking arm's connection to your body or leg anchor, making it harder to pry loose. You can also use your own free hand to control their defending wrist, pinning it to your body or trapping it between you. The critical adjustment is ensuring your primary choking mechanism\u2014the shoulder and arm pressure\u2014remains intact even if you need to sacrifice some grip configuration. Never release your core choking structure to hand fight.",
+        "answer": "If opponent's free hand begins fighting your grip, tighten your choking arm's connection to your body or leg anchor, making it harder to pry loose. You can also use your own free hand to control their defending wrist, pinning it to your body or trapping it between you. The critical adjustment is ensuring your primary choking mechanism—the shoulder and arm pressure—remains intact even if you need to sacrifice some grip configuration. Never release your core choking structure to hand fight.",
         "safety_critical": false
       },
       {
@@ -334,12 +334,12 @@
       },
       {
         "question": "In competition, what finishing strategies maximize success rate while maintaining safety awareness?",
-        "answer": "In competition, commit fully to the position before attempting the finish\u2014ensure the arm trap is secure and your angle is correct before applying significant pressure. Once committed, apply steady progressive pressure rather than explosive cranking. Watch for opponent's defense patterns and be prepared to transition if they successfully address one element of your control. Even in competition, maintain awareness that opponents may pass out rather than tap, so be prepared to release immediately if they go limp. Winning by submission is not worth causing serious injury.",
+        "answer": "In competition, commit fully to the position before attempting the finish—ensure the arm trap is secure and your angle is correct before applying significant pressure. Once committed, apply steady progressive pressure rather than explosive cranking. Watch for opponent's defense patterns and be prepared to transition if they successfully address one element of your control. Even in competition, maintain awareness that opponents may pass out rather than tap, so be prepared to release immediately if they go limp. Winning by submission is not worth causing serious injury.",
         "safety_critical": true
       },
       {
         "question": "What physical sensations indicate you have reached the point of no escape for your opponent?",
-        "answer": "The point of no escape occurs when your shoulder is fully wedged into the side of their neck, their trapped arm cannot be extracted, and your legs prevent any posture change or roll. You will feel their body become increasingly tense as they recognize the threat, followed by either immediate tap or brief defensive struggle. Their head will be trapped in a fixed position unable to turn away from pressure. At this point, even small increases in pressure will cause the tap\u2014there is no need for explosive finishing force.",
+        "answer": "The point of no escape occurs when your shoulder is fully wedged into the side of their neck, their trapped arm cannot be extracted, and your legs prevent any posture change or roll. You will feel their body become increasingly tense as they recognize the threat, followed by either immediate tap or brief defensive struggle. Their head will be trapped in a fixed position unable to turn away from pressure. At this point, even small increases in pressure will cause the tap—there is no need for explosive finishing force.",
         "safety_critical": false
       }
     ]
@@ -347,13 +347,13 @@
   "defender": {
     "name": "Buggy Choke Defender",
     "description": "How to defend against Buggy Choke in BJJ. Recognition, escape paths, and defensive strategies.",
-    "overview": "Defending the Buggy Choke requires early recognition and immediate action, because once the choke is fully locked with the arm trapped and the angle established, escape becomes extremely difficult. As the top player in half guard, your primary vulnerability to the Buggy Choke occurs when you commit your weight forward and allow the bottom player to create an angle against your neck. The defense centers on three phases: preventing the initial setup by maintaining proper posture and denying the arm trap, disrupting the choke mid-setup by extracting your trapped arm and creating distance, and emergency escapes when the choke is already locked by posturing aggressively or completing the guard pass to change the angle. Understanding the attacker's mechanics is essential\u2014the choke requires your arm to be trapped, a specific body angle, and shoulder-to-neck compression. Removing any one of these three elements neutralizes the threat. The most common defensive failure is ignoring the setup because the bottom half guard position appears non-threatening, allowing the attacker to lock the configuration before you recognize the danger.",
+    "overview": "Defending the Buggy Choke requires early recognition and immediate action, because once the choke is fully locked with the arm trapped and the angle established, escape becomes extremely difficult. As the top player in half guard, your primary vulnerability to the Buggy Choke occurs when you commit your weight forward and allow the bottom player to create an angle against your neck. The defense centers on three phases: preventing the initial setup by maintaining proper posture and denying the arm trap, disrupting the choke mid-setup by extracting your trapped arm and creating distance, and emergency escapes when the choke is already locked by posturing aggressively or completing the guard pass to change the angle. Understanding the attacker's mechanics is essential—the choke requires your arm to be trapped, a specific body angle, and shoulder-to-neck compression. Removing any one of these three elements neutralizes the threat. The most common defensive failure is ignoring the setup because the bottom half guard position appears non-threatening, allowing the attacker to lock the configuration before you recognize the danger.",
     "key_principles": [
       "Recognize the threat early by monitoring opponent's arm threading and body angle changes from bottom half guard",
       "Never allow your arm to be trapped across your own neck or behind opponent's head without immediate extraction",
       "Maintain strong posture and avoid collapsing your weight forward into opponent's half guard, which feeds the choke angle",
       "Keep at least one hand free to defend your neck at all times when in top half guard",
-      "Address the arm trap first before worrying about the choking pressure\u2014free the arm and the choke dissolves",
+      "Address the arm trap first before worrying about the choking pressure—free the arm and the choke dissolves",
       "Use posture changes and hip movement to destroy the angle the attacker needs for carotid compression"
     ],
     "recognition_cues": [
@@ -366,28 +366,28 @@
     "defensive_options": [
       {
         "action": "Extract trapped arm by swimming it back toward your hip and turning your elbow down",
-        "when_to_use": "As soon as you feel your arm being controlled or threaded across your neck\u2014this is the highest-priority defense",
+        "when_to_use": "As soon as you feel your arm being controlled or threaded across your neck—this is the highest-priority defense",
         "targets_outcome": "Half Guard/Top",
         "if_successful": "Removes the primary choking mechanism and returns you to standard half guard top where you can resume passing",
         "risk": "If extraction fails, opponent may lock the grip tighter; combine with posture to avoid feeding deeper into the choke"
       },
       {
         "action": "Posture up explosively by driving your hips back and extending your spine to break the compression angle",
-        "when_to_use": "When the choke setup is in progress but not yet fully locked\u2014creating distance removes the shoulder-to-neck pressure",
+        "when_to_use": "When the choke setup is in progress but not yet fully locked—creating distance removes the shoulder-to-neck pressure",
         "targets_outcome": "Half Guard/Top",
         "if_successful": "Breaks the compression angle and creates enough space to extract arm and reset to dominant half guard top",
         "risk": "Posturing too aggressively may allow opponent to transition to sweeps if you lose base; maintain half guard control while posturing"
       },
       {
         "action": "Complete the guard pass by driving through to side control, changing the angle and removing the choke mechanics",
-        "when_to_use": "When the choke is partially locked but you still have mobility\u2014passing eliminates the half guard structure the choke depends on",
+        "when_to_use": "When the choke is partially locked but you still have mobility—passing eliminates the half guard structure the choke depends on",
         "targets_outcome": "Side Control/Top",
         "if_successful": "Removes half guard control entirely, which destroys the positional foundation of the Buggy Choke",
         "risk": "Driving forward to pass may temporarily increase choking pressure before angle changes; must commit fully and move quickly"
       },
       {
         "action": "Turn your chin toward the choking pressure and tuck to protect your carotid arteries",
-        "when_to_use": "Emergency defense when the choke is deeply locked and other options have failed\u2014buys time but does not escape",
+        "when_to_use": "Emergency defense when the choke is deeply locked and other options have failed—buys time but does not escape",
         "targets_outcome": "Half Guard/Top",
         "if_successful": "Reduces carotid compression temporarily, allowing you to work on arm extraction or posture recovery",
         "risk": "This is a stalling defense only; opponent will maintain position and wait for your chin defense to fatigue"
@@ -413,7 +413,7 @@
       {
         "error": "Ignoring the arm trap and continuing to focus on passing without addressing the choke threat",
         "consequence": "Opponent fully locks the Buggy Choke configuration while you attempt to pass, resulting in a deeply secured choke that becomes nearly impossible to escape",
-        "correction": "The moment you feel your arm being controlled or threaded behind opponent's head, stop your passing attempt and immediately prioritize arm extraction. The pass can wait\u2014the choke cannot."
+        "correction": "The moment you feel your arm being controlled or threaded behind opponent's head, stop your passing attempt and immediately prioritize arm extraction. The pass can wait—the choke cannot."
       },
       {
         "error": "Pulling away from the choke by moving backward instead of posturing up or driving through",
@@ -423,7 +423,7 @@
       {
         "error": "Attempting to muscle out of the choke with arm strength alone rather than using body positioning",
         "consequence": "Rapid arm fatigue without escaping the choke; opponent's full-body compression easily overpowers isolated arm pulling",
-        "correction": "Combine arm extraction with full-body posture changes\u2014turn your elbow down while simultaneously extending your spine and shifting your hips. Use your entire body to create the angle change needed for escape."
+        "correction": "Combine arm extraction with full-body posture changes—turn your elbow down while simultaneously extending your spine and shifting your hips. Use your entire body to create the angle change needed for escape."
       },
       {
         "error": "Collapsing weight forward into half guard when opponent begins turning into you",
@@ -431,7 +431,7 @@
         "correction": "When you feel the bottom player turning sharply into you, maintain an upright posture and use crossface pressure to flatten them back down rather than driving your weight into their angle."
       }
     ],
-    "knowledge_assessment": [
+    "flashcards": [
       {
         "question": "What is the earliest recognition cue that a Buggy Choke is being set up from bottom half guard?",
         "answer": "The earliest cue is the opponent threading their inside arm around or behind your head while simultaneously turning their body sharply into you from bottom half guard. This arm threading is the precursor to the arm trap that makes the choke possible. If you also notice them shifting from standard half guard retention to active posture control with their legs, the setup is already in progress and requires immediate defensive action.",
@@ -439,7 +439,7 @@
       },
       {
         "question": "Why is extracting the trapped arm the highest-priority defensive action against the Buggy Choke?",
-        "answer": "The Buggy Choke requires three elements to function: the arm trap, the body angle, and the shoulder compression. Removing the trapped arm eliminates the primary mechanism that creates the choke\u2014without your arm positioned across your own neck, the opponent cannot generate sufficient compression on your carotid arteries regardless of their angle or grip. Arm extraction is faster and more reliable than trying to change the body angle or break the grip.",
+        "answer": "The Buggy Choke requires three elements to function: the arm trap, the body angle, and the shoulder compression. Removing the trapped arm eliminates the primary mechanism that creates the choke—without your arm positioned across your own neck, the opponent cannot generate sufficient compression on your carotid arteries regardless of their angle or grip. Arm extraction is faster and more reliable than trying to change the body angle or break the grip.",
         "safety_critical": false
       },
       {
@@ -462,7 +462,7 @@
       {
         "phase": "Phase 1: Recognition Drilling",
         "focus": "Identifying Buggy Choke setup cues before the choke is established",
-        "description": "Partner slowly demonstrates the Buggy Choke setup sequence while you practice identifying each recognition cue: arm threading, body angle change, grip establishment. Call out each cue verbally as you notice it. No resistance from either partner\u2014focus purely on developing the pattern recognition needed to detect the threat early."
+        "description": "Partner slowly demonstrates the Buggy Choke setup sequence while you practice identifying each recognition cue: arm threading, body angle change, grip establishment. Call out each cue verbally as you notice it. No resistance from either partner—focus purely on developing the pattern recognition needed to detect the threat early."
       },
       {
         "phase": "Phase 2: Arm Extraction Practice",
