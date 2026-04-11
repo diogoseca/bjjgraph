@@ -334,6 +334,7 @@ All commands run from the repo root (`bjjgraph/`):
 | `npm run build` | Build static site (~10 min, 4287 files) |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
 | `npm run dev` | Build then serve locally on port 8080 |
+| `npm run proofread` | Recurring LLM audit of graph edges + probabilities via Claude CLI. Intermittent use only — one Claude call per file, ~25 hours for full corpus at default 60s interval. Not part of `regenerate`. Use `--file`, `--category`, `--max-files` to scope, or `--batch` to skip the delay. |
 
 ### Quartz Scripts (source/package.json)
 
