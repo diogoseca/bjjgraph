@@ -1,16 +1,14 @@
 @use "../../styles/variables.scss" as *;
 
 .search {
-  min-width: fit-content;
-  max-width: 14rem;
+  width: 100%;
   @media all and ($mobile) {
-    min-width: unset;
-    max-width: unset;
+    width: auto;
   }
 
   & > .search-button {
-    background-color: var(--lightgray);
-    border: none;
+    background-color: transparent;
+    border: 1px solid color-mix(in srgb, var(--lightgray) 50%, transparent);
     border-radius: 4px;
     font-family: inherit;
     font-size: inherit;
@@ -27,6 +25,7 @@
     & > p {
       display: inline;
       padding: 0 1rem;
+      opacity: 0.5;
 
       @media all and ($mobile) {
         display: none;
@@ -43,6 +42,7 @@
       width: 18px;
       min-width: 18px;
       margin: 0 0.5rem;
+      opacity: 0.5;
 
       .search-path {
         stroke: var(--darkgray);
