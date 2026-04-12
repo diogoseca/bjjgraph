@@ -22,15 +22,15 @@ description: "Master armbar control in BJJ from both offensive and defensive per
 
 <section id="overview" class="content-section">
 
-Armbar Control represents one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From the top position, the practitioner uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom position, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.
+**Armbar Control** is one of Brazilian Jiu-Jitsu's most fundamental submission control positions, accessible from both offensive (top) and defensive (bottom) perspectives. The position centers on isolating and controlling a single arm through a combination of leg control, hip positioning, and grip management. From [[Positions/Mount]], [[Positions/Closed Guard]], [[Positions/Side Control]], and [[Positions/Back Control]], the top player uses their entire body to attack a single joint, creating overwhelming mechanical advantage. From the bottom, the defender must employ systematic defensive principles to prevent hyperextension and create escape opportunities.
 
-The armbar's effectiveness stems from its ability to control multiple points simultaneously while concentrating force on the vulnerable elbow joint. The top player controls the opponent's head and torso with their legs while both hands isolate the arm, creating a multi-point control system that severely limits defensive options. The bottom player, conversely, must understand the same mechanics in reverse - identifying and systematically removing the conditions necessary for the finish.
+The armbar's effectiveness stems from its ability to control multiple points simultaneously while concentrating force on the vulnerable elbow joint. The top player controls the opponent's head and torso with their legs while both hands isolate the arm, creating a multi-point control system that severely limits defensive options. When the armbar is defended, the top player can chain to [[Positions/Triangle Control]], [[Positions/Omoplata Control]], or [[Positions/Kimura Trap]] — this submission chain is what makes armbar control exceptionally high-percentage.
 
 This position appears across all levels of competition and training, making proficiency from both perspectives essential for complete grappling development. The top perspective requires understanding leverage mechanics, hip positioning, and submission chains. The bottom perspective demands calm decision-making under pressure, technical precision in defensive movements, and recognition of escape timing windows.
 
 From the top, the practitioner's body functions as a unified machine where the legs act as clamps controlling the opponent's torso and head, the hips serve as a fulcrum positioned against the shoulder, and the hands direct the finishing vector by pulling the wrist toward the chest. Every component must work in concert: if the legs lose control, the opponent sits up; if the hips drift from the shoulder, leverage disappears; if the hands lose the wrist, the arm retracts. This interconnected control system is what makes the armbar both powerful when executed correctly and vulnerable to systematic defense when any single element is compromised.
 
-From the bottom, survival depends on understanding the same five-point control system and methodically removing each element. The defender who bends the arm, rotates the thumb upward, controls the leg across the face, stacks the hips, and creates angles has addressed every finishing requirement simultaneously. This is not a position where a single defensive action suffices - the defender must layer multiple defensive principles to create genuine escape opportunities. The urgency of escape is real: armbar control is inherently time-limited for the bottom player because the top player can make incremental adjustments that progressively close escape windows.
+From the bottom, survival depends on understanding the same five-point control system and methodically removing each element. The defender who bends the arm, rotates the thumb upward, controls the leg across the face, stacks the hips, and creates angles has addressed every finishing requirement simultaneously. This is not a position where a single defensive action suffices — the defender must layer multiple defensive principles to create genuine escape opportunities. The urgency of escape is real: armbar control is inherently time-limited for the bottom player because the top player can make incremental adjustments that progressively close escape windows.
 
 </section>
 
@@ -41,17 +41,17 @@ From the bottom, survival depends on understanding the same five-point control s
 
 - Armbar control is fundamentally about limb isolation through multi-point body control
 
-- Hip positioning relative to shoulder determines leverage efficiency for both attack and defense
+- Hip positioning relative to shoulder determines leverage efficiency — hips must stay glued to the shoulder with zero gap
 
-- Top player must establish control before committing to finish - rushing creates escape opportunities
+- Top player must establish control before committing to finish — rushing creates escape opportunities via hitchhiker or stack
 
-- Bottom player must prevent full arm extension as primary survival mechanism
+- Bottom player must prevent full arm extension as primary survival mechanism — bend the elbow and rotate thumb up immediately
 
-- Submission chains from armbar (triangle, omoplata, kimura) create defensive dilemmas
+- Submission chains from armbar (triangle, omoplata, kimura) create defensive dilemmas — every defense opens another attack
 
-- Thumb-up arm orientation strengthens defensive structure and ensures safe offensive application
+- Thumb-up arm orientation aligns the elbow joint for hyperextension and reduces injury risk when finishing
 
-- Position sustainability depends on leg control preventing opponent's postural recovery
+- Position sustainability depends on leg control preventing opponent's postural recovery through sitting up or stacking
 
 
 </section>

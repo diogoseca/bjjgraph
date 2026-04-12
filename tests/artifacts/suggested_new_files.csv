@@ -1,2 +1,7 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+ai_seo_v1,Transitions,Armbar from Mount,Highest-volume armbar entry query per PAA; referenced in Armbar Control related_content but no dedicated Transition page exists; target: all levels; sections: setup from mount, arm isolation, pivot mechanics, finish; gap: most-searched armbar entry point lacks its own page
+ai_seo_v1,Transitions,Armbar from Guard,Second-highest armbar entry query; referenced in Armbar Control related_content; target: beginners–intermediate; sections: closed guard setup, sleeve grip, hip escape entry, finish; gap: classic guard armbar needs standalone article
+ai_seo_v1,Transitions,Belly Down Armbar Transition,Referenced in Armbar Control Top related_content and decision tree; follow-on technique when opponent rolls during armbar; PAA data confirms content gap; sections: when to follow the roll, grip maintenance, belly-down finish mechanics
+ai_seo_v1,Positions,Buggy Choke,Hub page exists but needs wikilink audit; PAA data shows 'What is the buggy choke?' as high-priority zero-click query; definition callout should be front-loaded
+

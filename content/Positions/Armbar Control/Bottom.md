@@ -157,11 +157,11 @@ description: "Master defensive armbar control from bottom position in BJJ. Learn
 
 <section id="overview" class="content-section">
 
-Armbar Control Bottom represents the defensive position where a practitioner is caught in an armbar attempt and must focus on survival, defense, and escape. This is a critical submission defense position requiring immediate technical response to prevent joint damage. The bottom player's primary objectives are protecting the elbow joint, creating defensive frames, and systematically working toward escape or position recovery.
+**Armbar Control Bottom** is the defensive position where a practitioner is caught in an armbar attempt and must focus on survival, defense, and escape. This is a critical submission defense position requiring immediate technical response to prevent joint damage. The bottom player's primary objectives are: (1) keep the elbow bent — this is non-negotiable; (2) rotate the thumb toward the ceiling; (3) connect the free hand to the trapped wrist; (4) control the opponent's leg across the face; (5) stack or create angles to escape.
 
-From this position, the defender must balance multiple priorities: preventing the finish through proper arm positioning, maintaining connection to prevent isolation of the attacked limb, and creating opportunities for escape. Success requires understanding the mechanics of the armbar, recognizing the opponent's control points, and executing precise defensive movements. The position demands calm decision-making under pressure, as panic often leads to injury or submission.
+From this position, the defender must balance multiple priorities: preventing the finish through proper arm positioning, maintaining connection to prevent isolation of the attacked limb, and creating opportunities for escape to [[Positions/Closed Guard]], [[Positions/Half Guard]], or [[Positions/Mount]] reversal. The position demands calm decision-making under pressure, as panic leads to injury or submission.
 
-Mastery of armbar defense is essential for all practitioners, as the armbar is one of BJJ's most common and effective submissions. Proper defensive technique can transform a dangerous situation into an opportunity for escape and position recovery, making this knowledge crucial for competitive success and training safety.
+The two highest-percentage escapes are the **hitchhiker escape** (rotate thumb toward head, slide elbow across body to [[Positions/Half Guard]]) and the **stack defense** (drive hips forward and upward toward opponent's body, compromising their finishing angle). Tap before you feel a pop — training longevity is more important than any single exchange. There is no shame in tapping to a well-executed armbar.
 
 </section>
 
@@ -328,11 +328,11 @@ Partner attempts armbar from guard. As they extend for finish, defender stacks t
 **Q5**: How do you prevent energy depletion while defending an armbar?
 **A**: Focus on skeletal alignment rather than muscular effort. Keep your arm bent using bone structure rather than bicep strength by positioning your hand against your chest or shoulder. Use your free hand to assist rather than relying solely on the trapped arm. Make deliberate, technical movements rather than explosive attempts to rip free. Controlled breathing prevents panic-induced energy waste.
 
-**Q6**: What escape should you prioritize when the opponent has very tight leg control?
-**A**: When leg control is tight, the stack defense becomes your best option. Drive your hips forward and upward while walking your feet toward their head. This creates immense pressure on their lower back, forcing them to either release leg control or accept a compromised finishing position. As their legs loosen, immediately transition to hip escape or standing pass.
+**Q6**: What is the stack defense for armbar and when does it work?
+**A**: The stack defense involves explosively driving your hips forward and upward toward the opponent's body while walking your feet toward their head. This creates immense pressure on their lower back, flattening them and disrupting their hip-to-shoulder connection — the leverage source of the armbar. It works best when the opponent's legs are not fully locked across your face. As their leg control loosens, immediately transition to a hip escape to [[Positions/Closed Guard]] or a guard pass to top position.
 
-**Q7**: How do you recognize when it is too late to continue defending and you should tap?
-**A**: Tap when your arm reaches full extension against your resistance and you feel pressure on the elbow joint itself. If your arm is straightening despite your defensive efforts and their hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Tap before you feel a pop or sharp pain - the goal is to train another day. There is no shame in tapping to a well-executed submission.
+**Q7**: When should you tap to an armbar?
+**A**: Tap when your arm reaches full extension against your resistance and you feel pressure on the elbow joint itself. If your arm is straightening despite defensive efforts and their hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Tap before you feel a pop or sharp pain — training longevity is more important than any single roll. There is no shame in tapping to a well-executed armbar. The goal is to train again tomorrow.
 
 **Q8**: What body position should you avoid when defending the armbar?
 **A**: Avoid staying flat on your back with your spine parallel to the mat. This position gives the opponent a stable platform and maximum leverage for the finish. Instead, bridge onto one shoulder and turn toward the trapped arm side. This angled position disrupts their base, creates defensive space, and facilitates escape movements like the hitchhiker or stack defense.
