@@ -229,10 +229,28 @@ function setupExplorer() {
         }
       }
 
-      // Delay scroll to after folder expand animation (0.3s CSS transition)
+      // Scroll the active link into the center of the sidebar over 1s total.
+      // 300ms wait (folder expand CSS transition) + 700ms eased animation.
       setTimeout(() => {
-        activeLink.scrollIntoView({ block: "center", behavior: "smooth" })
-      }, 350)
+        const container = activeLink.closest(".sidebar") as HTMLElement | null
+        if (!container) return
+        const linkRect = activeLink.getBoundingClientRect()
+        const containerRect = container.getBoundingClientRect()
+        const target =
+          container.scrollTop + linkRect.top - containerRect.top - container.clientHeight / 2
+        const start = container.scrollTop
+        const distance = target - start
+        if (Math.abs(distance) < 1) return
+        const duration = 700
+        const t0 = performance.now()
+        const step = (now: number) => {
+          const elapsed = Math.min((now - t0) / duration, 1)
+          const ease = elapsed < 0.5 ? 2 * elapsed * elapsed : -1 + (4 - 2 * elapsed) * elapsed
+          container.scrollTop = start + distance * ease
+          if (elapsed < 1) requestAnimationFrame(step)
+        }
+        requestAnimationFrame(step)
+      }, 300)
     }
   }
 

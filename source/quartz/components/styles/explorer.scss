@@ -3,9 +3,7 @@
 .explorer {
   display: flex;
   flex-direction: column;
-  padding-top: 1rem;
-  // The .sidebar is the scroll container — the explorer just lays out its
-  // file tree and lets the sidebar handle overflow.
+  // No top padding — the sidebar's own padding-top handles spacing.
   &.desktop-only {
     @media all and not ($mobile) {
       display: flex;

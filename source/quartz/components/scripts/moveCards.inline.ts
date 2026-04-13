@@ -113,6 +113,14 @@ function nudgeRate(current: number, direction: "up" | "down"): number {
   return Math.max(current - 1, 0)
 }
 
+// Strip redundant "from [Position]" suffix for display (e.g., "Armbar from Armbar Control" → "Armbar")
+let _positionName = ""
+function displayName(technique: string): string {
+  if (!_positionName) return technique
+  const suffix = ` from ${_positionName}`
+  return technique.endsWith(suffix) ? technique.slice(0, -suffix.length) : technique
+}
+
 function getPageData(): PositionPageData | null {
   const el = document.getElementById("page-graph-data")
   if (!el?.textContent) return null
@@ -163,6 +171,8 @@ document.addEventListener("nav", () => {
   const rarityLabels = computeMoveRarity(positionData.transitions)
 
   removeAllChildren(container)
+
+  _positionName = positionData.name
 
   let gameMode = loadSettings().gameMode
 
@@ -284,7 +294,7 @@ document.addEventListener("nav", () => {
 
     card.innerHTML = `
       <div class="move-card-header">
-        <a href="${techniqueUrl}" class="move-card-technique internal" data-no-navigate="true">${transition.technique}</a>
+        <a href="${techniqueUrl}" class="move-card-technique internal" data-no-navigate="true">${displayName(transition.technique)}</a>
         ${rarityBadge}${masteryBadge}
       </div>
       <div class="move-card-probability">${successRate}% success${nudge !== 0 ? ` <span class="vote-nudge ${nudge > 0 ? "positive" : "negative"}">(${nudge > 0 ? "+" : ""}${nudge}%)</span>` : ""}${modifierHtml}</div>
@@ -429,7 +439,7 @@ function showOpponentOverlay(
   panel.className = "opponent-panel"
   panel.innerHTML = `
     <div class="opponent-title">Opponent's Turn</div>
-    <div class="opponent-action">Opponent attempts <strong>${move.technique}</strong>...</div>
+    <div class="opponent-action">Opponent attempts <strong>${displayName(move.technique)}</strong>...</div>
     <div class="opponent-result" style="display: none"></div>
     <div class="opponent-progress"><div class="opponent-progress-fill"></div></div>
   `
@@ -444,8 +454,8 @@ function showOpponentOverlay(
     if (success) {
       resultEl.textContent =
         move.isSubmission || move.successOutcome === "game-over"
-          ? `${move.technique} locked in!`
-          : `${move.technique} succeeds!`
+          ? `${displayName(move.technique)} locked in!`
+          : `${displayName(move.technique)} succeeds!`
       resultEl.classList.add("opponent-success")
     } else {
       resultEl.textContent = "You defended!"

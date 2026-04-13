@@ -7,7 +7,7 @@
   }
 
   & > h3 {
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin: 0 0 0.75rem 0;
     color: var(--dark);
   }
@@ -34,6 +34,7 @@
     & > li > a {
       color: var(--dark);
       opacity: 0.35;
+      font-size: 0.82rem;
       transition: 0.3s ease color;
       // Opacity is now set dynamically via JS based on viewport coverage
       display: block;
