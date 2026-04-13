@@ -3,8 +3,11 @@
 
 
 ---
-title: "Honey Hole Top | BJJ Position Guide | BJJ Graph"
-description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control with direct heel hook access, kneebar chains, and systematic submission progressions."
+title: "How to Attack from Honey Hole Top | BJJ Leg Lock Guide | BJJ Graph"
+description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control with direct heel hook access, kneebar chains, and systematic submission progressions. Success rate: 42% submission probability."
+bot_metadata:
+  last_improved: "2026-04-13"
+  optimization_pass: "ai_seo_v1"
 ---
 
 
@@ -157,7 +160,9 @@ description: "Master Honey Hole Top in BJJ. Advanced leg entanglement control wi
 
 <section id="overview" class="content-section">
 
-Honey Hole Position Top, also known as Inside Sankaku or 411 position, is an advanced leg entanglement where the top player traps one of opponent's legs between their own legs while facing their opponent. This position is highly offensive, providing direct access to heel hooks, kneebars, and toe holds while limiting opponent's escape options. The position creates a powerful control system through hip pressure and leg configuration, making it one of the most dangerous positions in modern no-gi BJJ.
+**Honey Hole Top** (also called Inside Sankaku, Saddle Top, or 411) is an advanced leg entanglement where the attacking player traps one of the opponent's legs between their own, creating direct access to heel hooks, kneebars, and toe holds. Submission probability: 42%. Difficulty: Advanced. Prerequisites: ashi garami progressions, heel hook mechanics.
+
+Honey Hole Position Top is an advanced leg entanglement where the top player traps one of opponent's legs between their own legs while facing their opponent. This position is highly offensive, providing direct access to heel hooks, kneebars, and toe holds while limiting opponent's escape options. The position creates a powerful control system through hip pressure and leg configuration, making it one of the most dangerous positions in modern no-gi BJJ.
 
 The Honey Hole represents the culmination of modern leg lock development, refined through systematic study of leg entanglement mechanics. From this position, the top player maintains significant control advantages while threatening multiple submission paths. The position is characterized by the specific leg entanglement where one leg triangles around opponent's trapped leg while the other leg crosses over their hip, creating a figure-four configuration that isolates the leg for attack.
 
@@ -167,7 +172,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <section id="state-invariants" class="content-section">
 
-## Position Definition
+## What Defines Honey Hole Top Position?
 
 - One opponent leg trapped in figure-four configuration between your legs, with your inside leg triangling around their thigh just above the knee while your ankle hooks behind their leg, creating an inescapable entanglement that prevents leg extraction
 - Your outside leg crosses over opponent's hip at approximately mid-thigh level with your shin driving downward across their hip flexor, creating constant pressure that pins their hip to the mat and prevents rotational escapes
@@ -178,7 +183,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <section id="prerequisites" class="content-section">
 
-## Prerequisites
+## What Must You Know Before Using Honey Hole Top?
 
 - Understanding of leg entanglement hierarchy and progressions from ashi garami through saddle variations
 - Heel hook mechanics and safety protocols including proper finish mechanics and tap recognition
@@ -192,7 +197,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <section id="key-principles" class="content-section">
 
-## Key Offensive Principles
+## What Are the Key Offensive Principles of Honey Hole Top?
 
 - Leg Configuration Control: Maintain proper figure-four entanglement with inside leg triangling and outside leg crossing hip
 - Hip Pressure: Apply constant downward hip pressure to pin opponent and prevent rotation
@@ -207,30 +212,30 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <section id="decision-tree" class="content-section">
 
-## Decision Making from This Position
+## What Should You Do from Honey Hole Top?
 
 **If opponent attempts hip rotation to escape entanglement:**
-- Execute **[[Principles/Hip Pressure/Attacker|Hip Pressure]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 70%)
-- Execute **[[Transitions/Turtle to Back Take/Attacker|Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 75%)
+- Execute **[[Principles/Hip Pressure]]** → [[Positions/Ashi Garami/Honey Hole]] (Probability: 70%)
+- Execute **[[Transitions/Turtle to Back Take]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 75%)
 
 
 **If opponent tries to extract trapped leg by pulling knee to chest:**
-- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
-- Execute **[[Transitions/Heel Hook/Attacker|Heel Hook]]** → [[Positions/Game Over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 80%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 65%)
+- Execute **[[Transitions/Heel Hook]]** → [[game-over]] (Probability: 60%)
 
 
 **If opponent attempts to establish inside position for reversal:**
-- Execute **[[Transitions/Inside Ashi Entry/Attacker|Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
-- Execute **[[Transitions/Outside Heel Hook/Attacker|Outside Heel Hook]]** → [[Positions/Game Over]] (Probability: 70%)
-- Execute **[[Transitions/50-50 Entry from Standing/Attacker|50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
+- Execute **[[Transitions/Inside Ashi Entry]]** → [[Positions/Ashi Garami/Inside Ashi-Garami]] (Probability: 65%)
+- Execute **[[Transitions/Outside Heel Hook]]** → [[game-over]] (Probability: 70%)
+- Execute **[[Transitions/50-50 Entry from Standing]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 50%)
 
 
 **If opponent defends heel by hiding foot deep in armpit:**
-- Execute **[[Transitions/Kneebar Finish/Attacker|Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 75%)
-- Execute **[[Transitions/Toe Hold/Attacker|Toe Hold]]** → [[Positions/Game Over]] (Probability: 60%)
-- Execute **[[Transitions/Saddle Entry from Top/Attacker|Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
+- Execute **[[Transitions/Kneebar Finish]]** → [[Positions/Kneebar Control]] (Probability: 75%)
+- Execute **[[Transitions/Toe Hold]]** → [[game-over]] (Probability: 60%)
+- Execute **[[Transitions/Saddle Entry from Top]]** → [[Positions/Ashi Garami/Saddle]] (Probability: 70%)
 
 
 
@@ -239,7 +244,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Offensive Mistakes
+## What Are the Most Common Mistakes from Honey Hole Top?
 
 ### 1. Insufficient hip control allowing opponent to create space
 
@@ -277,7 +282,7 @@ This position excels in no-gi grappling and submission-only rulesets where leg a
 
 <section id="training-drills" class="content-section hide-minimal">
 
-## Training Drills for Attacks
+## How Should You Train Honey Hole Top Attacks?
 
 ### Entanglement Retention Drill
 
@@ -314,7 +319,7 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 
 <section id="knowledge-assessment" class="content-section">
 
-## Test Your Knowledge
+## Honey Hole Top Knowledge Test
 
 **Q1**: What hip adjustment should you make when your opponent begins rotating their body toward you?
 **A**: Follow their rotation by driving your hips forward and down, maintaining perpendicular alignment while increasing pressure through your outside leg across their hip. Your hips must move with them to prevent them from creating the angle needed to extract their leg. Simultaneously tighten your inside leg triangle to prevent any slack that rotation could exploit.
@@ -347,7 +352,7 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 
 <section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+## How Effective Is Honey Hole Top? (Success Rates)
 
 | Metric | Rate |
 |--------|------|
@@ -357,6 +362,33 @@ Partner in bottom position attempts one specific escape technique at 75% intensi
 
 **Average Time in Position**: 30-90 seconds in competition, 1-3 minutes in training
 
+
+</section>
+
+<section id="faq" class="content-section hide-minimal">
+
+## Frequently Asked Questions About Honey Hole Top
+
+### What is Honey Hole position in BJJ?
+**Honey Hole** (also called Inside Sankaku, Saddle, or 411) is an advanced leg entanglement where the attacker traps one of the opponent's legs between their own using an inside leg triangle configuration. This creates direct access to heel hooks, kneebars, and toe holds while severely limiting the defender's escape options. It is one of the most dangerous offensive positions in modern no-gi BJJ.
+
+### What submissions can you attack from Honey Hole Top?
+From Honey Hole Top, the primary submissions are: **[[Transitions/Heel Hook]]** (42% attempt rate, highest percentage), **[[Transitions/Outside Heel Hook]]** (12%), **[[Transitions/Kneebar Finish]]** (14%), **[[Transitions/Toe Hold]]** (8%), and **[[Transitions/Back Take from Ashi]]** (14%). The heel hook is the highest-percentage finish; kneebar is the key alternative when the heel is defended.
+
+### Is Honey Hole legal in BJJ competition?
+Honey Hole is legal in IBJJF no-gi competition at brown and black belt levels, where inside heel hooks are permitted. It is widely legal in submission-only events and most no-gi open divisions. Always verify the specific ruleset before competing, as legality varies by federation and belt level.
+
+### How do you maintain control in Honey Hole Top?
+Maintain Honey Hole Top by: (1) keeping your inside leg triangle tight around the opponent's thigh, (2) driving your outside leg across their hip with constant shin pressure, (3) maintaining perpendicular T-shape body alignment, and (4) securing upper body grips to prevent them sitting up. Hip pressure combined with positional patience creates dominant control.
+
+### What is the difference between Honey Hole and Saddle?
+Honey Hole and Saddle are two names for the same position — an inside leg entanglement (Inside Sankaku/411) where the attacker controls the opponent's leg with an inside leg triangle. Different systems and instructors use different terminology, but the mechanical configuration, control, and submission access are identical.
+
+### How do you enter Honey Hole from other positions?
+Common entries include: from **[[Positions/Ashi Garami/Inside Ashi-Garami]]** by rotating to inside control, from **[[Positions/X-Guard/Single Leg X-Guard]]** through leg entanglement transitions, and from **[[Positions/X-Guard]]** via systematic leg attack progressions. Entry typically requires securing inside position during a leg entanglement exchange.
+
+### What is the submission success rate from Honey Hole Top?
+Honey Hole Top has a 42% submission probability, 60% retention rate, and 60% advancement probability. Average time in position is 30–90 seconds in competition. The high submission rate reflects direct heel hook and kneebar access the position provides.
 
 </section>
 
