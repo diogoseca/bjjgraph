@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Modified Scarf Hold. Compl
 
 <div class="role-links">
 
-[[Americana from Modified Scarf Hold/Attacker|Play as Attacker]]
-[[Americana from Modified Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Americana/from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Modified Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Defensive awareness centers on early recognition and immediate preventive action
 
 ## Playing as Attacker
 
-[[Americana from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Defensive awareness centers on early recognition and immediate preventive action
 
 ## Playing as Defender
 
-[[Americana from Modified Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Modified Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

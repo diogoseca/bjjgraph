@@ -17,8 +17,8 @@ description: "Master the Peruvian Necktie from front headlock. Learn leg-over-he
 
 <div class="role-links">
 
-[[Peruvian Necktie from Front Headlock/Attacker|Play as Attacker]]
-[[Peruvian Necktie from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Peruvian Necktie/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Peruvian Necktie/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 ## Playing as Attacker
 
-[[Peruvian Necktie from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Peruvian Necktie/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the Peruvian Necktie works best as part of a comprehensive front 
 
 ## Playing as Defender
 
-[[Peruvian Necktie from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Peruvian Necktie/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

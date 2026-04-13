@@ -17,8 +17,8 @@ description: "Master the cross collar choke from closed guard with detailed grip
 
 <div class="role-links">
 
-[[Cross Collar Choke from Closed Guard/Attacker|Play as Attacker]]
-[[Cross Collar Choke from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, the cross collar choke threat from closed guard functions as an o
 
 ## Playing as Defender
 
-[[Cross Collar Choke from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

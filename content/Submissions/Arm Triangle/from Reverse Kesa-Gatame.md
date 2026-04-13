@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Reverse Kesa-Gatame in BJJ. Convert t
 
 <div class="role-links">
 
-[[Arm Triangle from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
-[[Arm Triangle from Reverse Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this submission punishes opponents who remain passive under the R
 
 ## Playing as Attacker
 
-[[Arm Triangle from Reverse Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission punishes opponents who remain passive under the R
 
 ## Playing as Defender
 
-[[Arm Triangle from Reverse Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Reverse Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

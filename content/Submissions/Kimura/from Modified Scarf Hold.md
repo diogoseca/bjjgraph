@@ -17,8 +17,8 @@ description: "Master the Kimura from Modified Scarf Hold in BJJ. Complete guide 
 
 <div class="role-links">
 
-[[Kimura from Modified Scarf Hold/Attacker|Play as Attacker]]
-[[Kimura from Modified Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Kimura/from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Modified Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 ## Playing as Attacker
 
-[[Kimura from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Kimura from Modified Scarf Hold appears frequently in both gi and no-gi comp
 
 ## Playing as Defender
 
-[[Kimura from Modified Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Modified Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

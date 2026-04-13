@@ -17,8 +17,8 @@ description: "Master Monoplata from Mount in BJJ. Complete safety guide covering
 
 <div class="role-links">
 
-[[Monoplata from Mount/Attacker|Play as Attacker]]
-[[Monoplata from Mount/Defender|Play as Defender]]
+[[Submissions/Monoplata/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Monoplata/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## Playing as Attacker
 
-[[Monoplata from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Monoplata/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Monoplata from Mount is an advanced shoulder lock submission that combines e
 
 ## Playing as Defender
 
-[[Monoplata from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Monoplata/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

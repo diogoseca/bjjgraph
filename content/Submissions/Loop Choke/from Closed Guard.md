@@ -17,8 +17,8 @@ description: "Master the Loop Choke from Closed Guard in BJJ. Step-by-step guide
 
 <div class="role-links">
 
-[[Loop Choke from Closed Guard/Attacker|Play as Attacker]]
-[[Loop Choke from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Loop Choke/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Loop Choke/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 
 ## Playing as Attacker
 
-[[Loop Choke from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Loop Choke/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From a strategic standpoint, the Loop Choke pairs naturally with other closed gu
 
 ## Playing as Defender
 
-[[Loop Choke from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Loop Choke/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

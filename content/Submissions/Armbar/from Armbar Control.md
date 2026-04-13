@@ -17,8 +17,8 @@ description: "Learn the Armbar Finish from Armbar Control in BJJ. Step-by-step e
 
 <div class="role-links">
 
-[[Armbar from Armbar Control/Attacker|Play as Attacker]]
-[[Armbar from Armbar Control/Defender|Play as Defender]]
+[[Submissions/Armbar/from Armbar Control/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Armbar Control/Defender|Play as Defender]]
 
 </div>
 
@@ -103,7 +103,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 ## Playing as Attacker
 
-[[Armbar from Armbar Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Armbar Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ The finish itself requires coordinated opposing vectors: hips drive toward the c
 
 ## Playing as Defender
 
-[[Armbar from Armbar Control/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Armbar Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

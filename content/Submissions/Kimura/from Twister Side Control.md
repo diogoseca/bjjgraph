@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Twister Side Control. Complet
 
 <div class="role-links">
 
-[[Kimura from Twister Side Control/Attacker|Play as Attacker]]
-[[Kimura from Twister Side Control/Defender|Play as Defender]]
+[[Submissions/Kimura/from Twister Side Control/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Twister Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This variant integrates naturally into the broader Twister Side Control submissi
 
 ## Playing as Attacker
 
-[[Kimura from Twister Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Twister Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ This variant integrates naturally into the broader Twister Side Control submissi
 
 ## Playing as Defender
 
-[[Kimura from Twister Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Twister Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

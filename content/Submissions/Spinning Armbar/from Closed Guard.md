@@ -17,8 +17,8 @@ description: "Master the Spinning Armbar from Closed Guard in BJJ. Complete guid
 
 <div class="role-links">
 
-[[Spinning Armbar from Closed Guard/Attacker|Play as Attacker]]
-[[Spinning Armbar from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Spinning Armbar/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Spinning Armbar/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ## Playing as Attacker
 
-[[Spinning Armbar from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Spinning Armbar/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ From a biomechanical standpoint, the spinning armbar exploits the principle that
 
 ## Playing as Defender
 
-[[Spinning Armbar from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Spinning Armbar/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

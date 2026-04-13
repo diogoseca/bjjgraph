@@ -17,8 +17,8 @@ description: "Complete guide to the straight ankle lock finish from ankle lock c
 
 <div class="role-links">
 
-[[Straight Ankle Lock from Straight Ankle Lock Control/Attacker|Play as Attacker]]
-[[Straight Ankle Lock from Straight Ankle Lock Control/Defender|Play as Defender]]
+[[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|Play as Attacker]]
+[[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 ## Playing as Attacker
 
-[[Straight Ankle Lock from Straight Ankle Lock Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Strategically, the straight ankle lock from established control serves dual purp
 
 ## Playing as Defender
 
-[[Straight Ankle Lock from Straight Ankle Lock Control/Defender|→ Full Defender Guide]]
+[[Submissions/Straight Ankle Lock/from Straight Ankle Lock Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

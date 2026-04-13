@@ -17,8 +17,8 @@ description: "Complete guide to the North-South Choke from Kesa Gatame in BJJ. D
 
 <div class="role-links">
 
-[[North-South Choke from Kesa Gatame/Attacker|Play as Attacker]]
-[[North-South Choke from Kesa Gatame/Defender|Play as Defender]]
+[[Submissions/North-South Choke/from Kesa Gatame/Attacker|Play as Attacker]]
+[[Submissions/North-South Choke/from Kesa Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 ## Playing as Attacker
 
-[[North-South Choke from Kesa Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/North-South Choke/from Kesa Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Strategically, this technique functions as a high-percentage chain from Kesa Gat
 
 ## Playing as Defender
 
-[[North-South Choke from Kesa Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/North-South Choke/from Kesa Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

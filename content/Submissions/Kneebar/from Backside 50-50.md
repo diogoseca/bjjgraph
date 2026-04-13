@@ -17,8 +17,8 @@ description: "Master the kneebar from Backside 50-50 in BJJ. Complete guide to l
 
 <div class="role-links">
 
-[[Kneebar from Backside 50-50/Attacker|Play as Attacker]]
-[[Kneebar from Backside 50-50/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Backside 50-50/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Backside 50-50/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 
 ## Playing as Attacker
 
-[[Kneebar from Backside 50-50/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Backside 50-50/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ This technique functions as a critical secondary attack within the Backside 50-5
 
 ## Playing as Defender
 
-[[Kneebar from Backside 50-50/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Backside 50-50/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

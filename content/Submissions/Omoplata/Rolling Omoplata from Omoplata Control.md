@@ -17,8 +17,8 @@ description: "Master the Rolling Omoplata in BJJ. Dynamic shoulder lock from fai
 
 <div class="role-links">
 
-[[Rolling Omoplata from Omoplata Control/Attacker|Play as Attacker]]
-[[Rolling Omoplata from Omoplata Control/Defender|Play as Defender]]
+[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## Playing as Attacker
 
-[[Rolling Omoplata from Omoplata Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The technique requires excellent timing, spatial awareness, and flexibility, as 
 
 ## Playing as Defender
 
-[[Rolling Omoplata from Omoplata Control/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/Rolling Omoplata from Omoplata Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

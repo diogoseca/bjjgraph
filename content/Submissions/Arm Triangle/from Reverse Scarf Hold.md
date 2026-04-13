@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Reverse Scarf Hold. Complete guide co
 
 <div class="role-links">
 
-[[Arm Triangle from Reverse Scarf Hold/Attacker|Play as Attacker]]
-[[Arm Triangle from Reverse Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Reverse Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Reverse Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ This submission is particularly effective in competition when opponents focus on
 
 ## Playing as Attacker
 
-[[Arm Triangle from Reverse Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Reverse Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ This submission is particularly effective in competition when opponents focus on
 
 ## Playing as Defender
 
-[[Arm Triangle from Reverse Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Reverse Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

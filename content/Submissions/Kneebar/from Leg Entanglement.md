@@ -17,8 +17,8 @@ description: "Master the kneebar from leg entanglement in BJJ. Learn setup from 
 
 <div class="role-links">
 
-[[Kneebar from Leg Entanglement/Attacker|Play as Attacker]]
-[[Kneebar from Leg Entanglement/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Leg Entanglement/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Leg Entanglement/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 ## Playing as Attacker
 
-[[Kneebar from Leg Entanglement/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Leg Entanglement/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ This technique demands precise understanding of perpendicular hip alignment, tig
 
 ## Playing as Defender
 
-[[Kneebar from Leg Entanglement/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Leg Entanglement/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

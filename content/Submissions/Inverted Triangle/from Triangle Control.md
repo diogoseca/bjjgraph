@@ -17,8 +17,8 @@ description: "Master the Inverted Triangle from Triangle Control. Learn setup me
 
 <div class="role-links">
 
-[[Inverted Triangle from Triangle Control/Attacker|Play as Attacker]]
-[[Inverted Triangle from Triangle Control/Defender|Play as Defender]]
+[[Submissions/Inverted Triangle/from Triangle Control/Attacker|Play as Attacker]]
+[[Submissions/Inverted Triangle/from Triangle Control/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 ## Playing as Attacker
 
-[[Inverted Triangle from Triangle Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Inverted Triangle/from Triangle Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ Strategically, the inverted triangle adds a critical dimension to the triangle s
 
 ## Playing as Defender
 
-[[Inverted Triangle from Triangle Control/Defender|→ Full Defender Guide]]
+[[Submissions/Inverted Triangle/from Triangle Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

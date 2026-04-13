@@ -17,8 +17,8 @@ description: "Master the Darce Choke finish from Darce Control position. Learn g
 
 <div class="role-links">
 
-[[Darce Choke from Darce Control/Attacker|Play as Attacker]]
-[[Darce Choke from Darce Control/Defender|Play as Defender]]
+[[Submissions/Darce Choke/from Darce Control/Attacker|Play as Attacker]]
+[[Submissions/Darce Choke/from Darce Control/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ From a strategic standpoint, the Darce finish from established control carries a
 
 ## Playing as Attacker
 
-[[Darce Choke from Darce Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Darce Choke/from Darce Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ From a strategic standpoint, the Darce finish from established control carries a
 
 ## Playing as Defender
 
-[[Darce Choke from Darce Control/Defender|→ Full Defender Guide]]
+[[Submissions/Darce Choke/from Darce Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

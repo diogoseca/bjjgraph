@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Quarter Guard top. Expert gui
 
 <div class="role-links">
 
-[[Kimura from Quarter Guard/Attacker|Play as Attacker]]
-[[Kimura from Quarter Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Quarter Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Quarter Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 ## Playing as Attacker
 
-[[Kimura from Quarter Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Quarter Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The Kimura from Quarter Guard is particularly effective because it punishes the 
 
 ## Playing as Defender
 
-[[Kimura from Quarter Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Quarter Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

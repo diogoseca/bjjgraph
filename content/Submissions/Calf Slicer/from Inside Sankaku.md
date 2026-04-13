@@ -17,8 +17,8 @@ description: "Master the calf slicer from inside sankaku. Complete guide coverin
 
 <div class="role-links">
 
-[[Calf Slicer from Inside Sankaku/Attacker|Play as Attacker]]
-[[Calf Slicer from Inside Sankaku/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Inside Sankaku/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Inside Sankaku/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The technique carries particular strategic value in competition because opponent
 
 ## Playing as Attacker
 
-[[Calf Slicer from Inside Sankaku/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Inside Sankaku/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The technique carries particular strategic value in competition because opponent
 
 ## Playing as Defender
 
-[[Calf Slicer from Inside Sankaku/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Inside Sankaku/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

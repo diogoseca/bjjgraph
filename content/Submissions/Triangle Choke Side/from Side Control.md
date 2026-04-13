@@ -17,8 +17,8 @@ description: "Master Triangle Choke Side from top position in BJJ. Complete safe
 
 <div class="role-links">
 
-[[Triangle Choke Side from Side Control/Attacker|Play as Attacker]]
-[[Triangle Choke Side from Side Control/Defender|Play as Defender]]
+[[Submissions/Triangle Choke Side/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke Side/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Playing as Attacker
 
-[[Triangle Choke Side from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke Side/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -173,7 +173,7 @@ The side triangle is particularly valuable in no-gi grappling and MMA contexts w
 
 ## Playing as Defender
 
-[[Triangle Choke Side from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke Side/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

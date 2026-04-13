@@ -17,8 +17,8 @@ description: "Master the short choke from body triangle in BJJ. Learn lapel feed
 
 <div class="role-links">
 
-[[Short Choke from Body Triangle/Attacker|Play as Attacker]]
-[[Short Choke from Body Triangle/Defender|Play as Defender]]
+[[Submissions/Short Choke/from Body Triangle/Attacker|Play as Attacker]]
+[[Submissions/Short Choke/from Body Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ What distinguishes this variant from other short choke entries is the stability 
 
 ## Playing as Attacker
 
-[[Short Choke from Body Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Short Choke/from Body Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ What distinguishes this variant from other short choke entries is the stability 
 
 ## Playing as Defender
 
-[[Short Choke from Body Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Short Choke/from Body Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

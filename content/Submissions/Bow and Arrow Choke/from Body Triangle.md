@@ -17,8 +17,8 @@ description: "Master the bow and arrow choke from body triangle in BJJ. Learn de
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Body Triangle/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Body Triangle/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Body Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ At the competition level, this combination represents one of the most dominant f
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Body Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Body Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ At the competition level, this combination represents one of the most dominant f
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Body Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Body Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from modified scarf hold. Expe
 
 <div class="role-links">
 
-[[Belly Down Armbar from Modified Scarf Hold/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Modified Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Modified Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, this submission excels when opponents defend the standard supine 
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ Strategically, this submission excels when opponents defend the standard supine 
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Modified Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Modified Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

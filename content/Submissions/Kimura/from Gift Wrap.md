@@ -17,8 +17,8 @@ description: "Master the Kimura from Gift Wrap in BJJ. Complete guide to transit
 
 <div class="role-links">
 
-[[Kimura from Gift Wrap/Attacker|Play as Attacker]]
-[[Kimura from Gift Wrap/Defender|Play as Defender]]
+[[Submissions/Kimura/from Gift Wrap/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Gift Wrap/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 
 ## Playing as Attacker
 
-[[Kimura from Gift Wrap/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Gift Wrap/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Strategically, this submission fits within a larger Gift Wrap attack system wher
 
 ## Playing as Defender
 
-[[Kimura from Gift Wrap/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Gift Wrap/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

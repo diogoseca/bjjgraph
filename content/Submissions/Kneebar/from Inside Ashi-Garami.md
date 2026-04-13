@@ -17,8 +17,8 @@ description: "Master the kneebar from inside ashi-garami. Learn hip positioning,
 
 <div class="role-links">
 
-[[Kneebar from Inside Ashi-Garami/Attacker|Play as Attacker]]
-[[Kneebar from Inside Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Inside Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 
 ## Playing as Attacker
 
-[[Kneebar from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Competition data shows the kneebar from inside ashi-garami succeeds at approxima
 
 ## Playing as Defender
 
-[[Kneebar from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

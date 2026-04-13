@@ -17,8 +17,8 @@ description: "Master the outside heel hook from outside ashi-garami with complet
 
 <div class="role-links">
 
-[[Outside Heel Hook from Outside Ashi-Garami/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Outside Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Outside Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -175,7 +175,7 @@ Unlike finishing from saddle or inside ashi where both legs are controlled, outs
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Outside Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Outside Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

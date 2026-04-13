@@ -17,8 +17,8 @@ description: "Master the inside heel hook from ushiro ashi-garami with detailed 
 
 <div class="role-links">
 
-[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
-[[Inside Heel Hook from Ushiro Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 ## Playing as Attacker
 
-[[Inside Heel Hook from Ushiro Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this submission serves as a high-percentage finishing option that
 
 ## Playing as Defender
 
-[[Inside Heel Hook from Ushiro Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Inside Heel Hook/from Ushiro Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

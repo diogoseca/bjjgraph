@@ -17,8 +17,8 @@ description: "Master the Short Choke from Seat Belt Control Back position in BJJ
 
 <div class="role-links">
 
-[[Short Choke from Seat Belt Control Back/Attacker|Play as Attacker]]
-[[Short Choke from Seat Belt Control Back/Defender|Play as Defender]]
+[[Submissions/Short Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
+[[Submissions/Short Choke/from Seat Belt Control Back/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 ## Playing as Attacker
 
-[[Short Choke from Seat Belt Control Back/Attacker|→ Full Attacker Guide]]
+[[Submissions/Short Choke/from Seat Belt Control Back/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ From the Seat Belt Control Back position, the diagonal over-under grip provides 
 
 ## Playing as Defender
 
-[[Short Choke from Seat Belt Control Back/Defender|→ Full Defender Guide]]
+[[Submissions/Short Choke/from Seat Belt Control Back/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Kneebar from Half Guard in BJJ. Complete guide covering
 
 <div class="role-links">
 
-[[Kneebar from Half Guard/Attacker|Play as Attacker]]
-[[Kneebar from Half Guard/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -104,7 +104,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## Playing as Attacker
 
-[[Kneebar from Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ The Kneebar from Half Guard represents a powerful offensive submission option th
 
 ## Playing as Defender
 
-[[Kneebar from Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

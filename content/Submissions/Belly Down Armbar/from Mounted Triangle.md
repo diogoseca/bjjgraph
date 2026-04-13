@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from mounted triangle. Learn r
 
 <div class="role-links">
 
-[[Belly Down Armbar from Mounted Triangle/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Mounted Triangle/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Mounted Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, this finish represents a high-percentage option when the defender
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Mounted Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Mounted Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, this finish represents a high-percentage option when the defender
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Mounted Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Mounted Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

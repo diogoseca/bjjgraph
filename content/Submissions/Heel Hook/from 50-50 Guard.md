@@ -17,8 +17,8 @@ description: "Master the heel hook from 50-50 Guard in BJJ. Learn setup, grip me
 
 <div class="role-links">
 
-[[Heel Hook from 50-50 Guard/Attacker|Play as Attacker]]
-[[Heel Hook from 50-50 Guard/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from 50-50 Guard/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from 50-50 Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -116,7 +116,7 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 
 ## Playing as Attacker
 
-[[Heel Hook from 50-50 Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from 50-50 Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -174,7 +174,7 @@ This submission carries extreme injury risk because knee ligaments can rupture b
 
 ## Playing as Defender
 
-[[Heel Hook from 50-50 Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from 50-50 Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

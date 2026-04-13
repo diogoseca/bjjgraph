@@ -17,8 +17,8 @@ description: "Master the Bicep Slicer in BJJ. Complete guide with safety protoco
 
 <div class="role-links">
 
-[[Bicep Slicer from Crucifix/Attacker|Play as Attacker]]
-[[Bicep Slicer from Crucifix/Defender|Play as Defender]]
+[[Submissions/Bicep Slicer/from Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Bicep Slicer/from Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## Playing as Attacker
 
-[[Bicep Slicer from Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bicep Slicer/from Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Bicep Slicer is a devastating compression lock that applies crushing pressur
 
 ## Playing as Defender
 
-[[Bicep Slicer from Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Bicep Slicer/from Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

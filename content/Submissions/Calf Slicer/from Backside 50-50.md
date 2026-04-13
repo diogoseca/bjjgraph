@@ -17,8 +17,8 @@ description: "Master the calf slicer from backside 50-50 with expert finishing m
 
 <div class="role-links">
 
-[[Calf Slicer from Backside 50-50/Attacker|Play as Attacker]]
-[[Calf Slicer from Backside 50-50/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Backside 50-50/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Backside 50-50/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 ## Playing as Attacker
 
-[[Calf Slicer from Backside 50-50/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Backside 50-50/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This submission serves as a critical secondary threat within the backside 50-50 
 
 ## Playing as Defender
 
-[[Calf Slicer from Backside 50-50/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Backside 50-50/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

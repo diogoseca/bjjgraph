@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from overhook control. Complete gu
 
 <div class="role-links">
 
-[[Kimura from Overhook Control/Attacker|Play as Attacker]]
-[[Kimura from Overhook Control/Defender|Play as Defender]]
+[[Submissions/Kimura/from Overhook Control/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Overhook Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 ## Playing as Attacker
 
-[[Kimura from Overhook Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Overhook Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Finishing the Kimura from overhook control often requires different body mechani
 
 ## Playing as Defender
 
-[[Kimura from Overhook Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Overhook Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

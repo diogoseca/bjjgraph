@@ -17,8 +17,8 @@ description: "Complete guide to the triangle choke from Crackhead Control. Maste
 
 <div class="role-links">
 
-[[Triangle Choke from Crackhead Control/Attacker|Play as Attacker]]
-[[Triangle Choke from Crackhead Control/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from Crackhead Control/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from Crackhead Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 ## Playing as Attacker
 
-[[Triangle Choke from Crackhead Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from Crackhead Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, the triangle from Crackhead Control functions as a primary threat
 
 ## Playing as Defender
 
-[[Triangle Choke from Crackhead Control/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from Crackhead Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

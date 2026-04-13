@@ -17,8 +17,8 @@ description: "Master the Estima Lock finish from Estima Lock control. Complete g
 
 <div class="role-links">
 
-[[Estima Lock from Estima Lock Control/Attacker|Play as Attacker]]
-[[Estima Lock from Estima Lock Control/Defender|Play as Defender]]
+[[Submissions/Estima Lock/from Estima Lock Control/Attacker|Play as Attacker]]
+[[Submissions/Estima Lock/from Estima Lock Control/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ This position-specific finish demands particular attention to safety due to the 
 
 ## Playing as Attacker
 
-[[Estima Lock from Estima Lock Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Estima Lock/from Estima Lock Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ This position-specific finish demands particular attention to safety due to the 
 
 ## Playing as Defender
 
-[[Estima Lock from Estima Lock Control/Defender|→ Full Defender Guide]]
+[[Submissions/Estima Lock/from Estima Lock Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

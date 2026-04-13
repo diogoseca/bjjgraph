@@ -17,8 +17,8 @@ description: "Master the High Elbow Guillotine from Front Headlock with elevated
 
 <div class="role-links">
 
-[[High Elbow Guillotine from Front Headlock/Attacker|Play as Attacker]]
-[[High Elbow Guillotine from Front Headlock/Defender|Play as Defender]]
+[[Submissions/High Elbow Guillotine/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/High Elbow Guillotine/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 ## Playing as Attacker
 
-[[High Elbow Guillotine from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/High Elbow Guillotine/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The submission's effectiveness at high levels stems from its two-phase attack st
 
 ## Playing as Defender
 
-[[High Elbow Guillotine from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/High Elbow Guillotine/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

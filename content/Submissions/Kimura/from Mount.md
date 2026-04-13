@@ -17,8 +17,8 @@ description: "Master the Kimura from Mount in BJJ. Complete guide with safety pr
 
 <div class="role-links">
 
-[[Kimura from Mount/Attacker|Play as Attacker]]
-[[Kimura from Mount/Defender|Play as Defender]]
+[[Submissions/Kimura/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 ## Playing as Attacker
 
-[[Kimura from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Kimura from Mount represents one of the highest-percentage shoulder lock att
 
 ## Playing as Defender
 
-[[Kimura from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

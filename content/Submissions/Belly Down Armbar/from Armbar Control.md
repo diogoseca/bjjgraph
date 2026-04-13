@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from armbar control in BJJ. Le
 
 <div class="role-links">
 
-[[Belly Down Armbar from Armbar Control/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Armbar Control/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Armbar Control/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Armbar Control/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From armbar control specifically, this finish is particularly accessible because
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Armbar Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Armbar Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From armbar control specifically, this finish is particularly accessible because
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Armbar Control/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Armbar Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

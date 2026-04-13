@@ -17,8 +17,8 @@ description: "Master the North-South Choke from North-South in BJJ. Expert guide
 
 <div class="role-links">
 
-[[North-South Choke from North-South/Attacker|Play as Attacker]]
-[[North-South Choke from North-South/Defender|Play as Defender]]
+[[Submissions/North-South Choke/from North-South/Attacker|Play as Attacker]]
+[[Submissions/North-South Choke/from North-South/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 ## Playing as Attacker
 
-[[North-South Choke from North-South/Attacker|→ Full Attacker Guide]]
+[[Submissions/North-South Choke/from North-South/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ Strategically, the North-South Choke creates a powerful dilemma when combined wi
 
 ## Playing as Defender
 
-[[North-South Choke from North-South/Defender|→ Full Defender Guide]]
+[[Submissions/North-South Choke/from North-South/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Learn to execute and defend the belly down armbar from turtle in B
 
 <div class="role-links">
 
-[[Belly Down Armbar from Turtle/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Turtle/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Turtle/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Turtle/Defender|Play as Defender]]
 
 </div>
 
@@ -104,7 +104,7 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Turtle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Turtle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ The belly down armbar from turtle exploits arm exposure that naturally occurs wh
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Turtle/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Turtle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

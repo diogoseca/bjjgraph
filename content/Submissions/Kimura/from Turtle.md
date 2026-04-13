@@ -17,8 +17,8 @@ description: "Master Kimura from Turtle in BJJ. Complete guide with safety proto
 
 <div class="role-links">
 
-[[Kimura from Turtle/Attacker|Play as Attacker]]
-[[Kimura from Turtle/Defender|Play as Defender]]
+[[Submissions/Kimura/from Turtle/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Turtle/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 ## Playing as Attacker
 
-[[Kimura from Turtle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Turtle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ The Kimura from Turtle is a powerful shoulder lock submission that capitalizes o
 
 ## Playing as Defender
 
-[[Kimura from Turtle/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Turtle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

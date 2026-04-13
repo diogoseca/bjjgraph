@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Modified Mount. Learn grip
 
 <div class="role-links">
 
-[[Americana from Modified Mount/Attacker|Play as Attacker]]
-[[Americana from Modified Mount/Defender|Play as Defender]]
+[[Submissions/Americana/from Modified Mount/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Modified Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 ## Playing as Attacker
 
-[[Americana from Modified Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Modified Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Competition data consistently shows the Americana from Modified Mount as a high-
 
 ## Playing as Defender
 
-[[Americana from Modified Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Modified Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

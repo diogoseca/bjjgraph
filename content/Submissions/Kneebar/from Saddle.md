@@ -17,8 +17,8 @@ description: "Master the kneebar from Saddle position in BJJ. Expert guide cover
 
 <div class="role-links">
 
-[[Kneebar from Saddle/Attacker|Play as Attacker]]
-[[Kneebar from Saddle/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Saddle/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Saddle/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Safety awareness is paramount when training this technique. The combination of t
 
 ## Playing as Attacker
 
-[[Kneebar from Saddle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Saddle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ Safety awareness is paramount when training this technique. The combination of t
 
 ## Playing as Defender
 
-[[Kneebar from Saddle/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Saddle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

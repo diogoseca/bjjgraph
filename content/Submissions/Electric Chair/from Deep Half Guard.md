@@ -17,8 +17,8 @@ description: "Master the Electric Chair from lockdown. Complete guide with compr
 
 <div class="role-links">
 
-[[Electric Chair from Deep Half Guard/Attacker|Play as Attacker]]
-[[Electric Chair from Deep Half Guard/Defender|Play as Defender]]
+[[Submissions/Electric Chair/from Deep Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Electric Chair/from Deep Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -116,7 +116,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ## Playing as Attacker
 
-[[Electric Chair from Deep Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Electric Chair/from Deep Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -176,7 +176,7 @@ Historically developed and refined within the 10th Planet system, the Electric C
 
 ## Playing as Defender
 
-[[Electric Chair from Deep Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Electric Chair/from Deep Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

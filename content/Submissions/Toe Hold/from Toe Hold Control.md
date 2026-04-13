@@ -17,8 +17,8 @@ description: "Master the toe hold finish from Toe Hold Control. Complete guide t
 
 <div class="role-links">
 
-[[Toe Hold from Toe Hold Control/Attacker|Play as Attacker]]
-[[Toe Hold from Toe Hold Control/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Toe Hold Control/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Toe Hold Control/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 
 ## Playing as Attacker
 
-[[Toe Hold from Toe Hold Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Toe Hold Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Within the modern leg lock hierarchy, the toe hold from Toe Hold Control functio
 
 ## Playing as Defender
 
-[[Toe Hold from Toe Hold Control/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Toe Hold Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

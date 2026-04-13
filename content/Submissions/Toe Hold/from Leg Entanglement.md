@@ -17,8 +17,8 @@ description: "Master the toe hold from leg entanglement positions in BJJ. Expert
 
 <div class="role-links">
 
-[[Toe Hold from Leg Entanglement/Attacker|Play as Attacker]]
-[[Toe Hold from Leg Entanglement/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Leg Entanglement/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Leg Entanglement/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 ## Playing as Attacker
 
-[[Toe Hold from Leg Entanglement/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Leg Entanglement/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ What makes the toe hold particularly effective from leg entanglement is the inhe
 
 ## Playing as Defender
 
-[[Toe Hold from Leg Entanglement/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Leg Entanglement/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

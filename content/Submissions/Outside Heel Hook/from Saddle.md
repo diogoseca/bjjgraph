@@ -17,8 +17,8 @@ description: "Master the outside heel hook from saddle position with proper grip
 
 <div class="role-links">
 
-[[Outside Heel Hook from Saddle/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Saddle/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Saddle/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Saddle/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Saddle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Saddle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -175,7 +175,7 @@ The combination of inside and outside heel hook threats from the Saddle creates 
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Saddle/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Saddle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

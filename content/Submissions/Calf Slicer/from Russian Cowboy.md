@@ -17,8 +17,8 @@ description: "Master the calf slicer from Russian Cowboy in BJJ. Complete guide 
 
 <div class="role-links">
 
-[[Calf Slicer from Russian Cowboy/Attacker|Play as Attacker]]
-[[Calf Slicer from Russian Cowboy/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Russian Cowboy/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Russian Cowboy/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 ## Playing as Attacker
 
-[[Calf Slicer from Russian Cowboy/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Russian Cowboy/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, the calf slicer serves as a powerful secondary attack from Russia
 
 ## Playing as Defender
 
-[[Calf Slicer from Russian Cowboy/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Russian Cowboy/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

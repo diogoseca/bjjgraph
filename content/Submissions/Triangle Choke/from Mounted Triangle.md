@@ -17,8 +17,8 @@ description: "Master the triangle choke from mounted triangle position. Learn fi
 
 <div class="role-links">
 
-[[Triangle Choke from Mounted Triangle/Attacker|Play as Attacker]]
-[[Triangle Choke from Mounted Triangle/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from Mounted Triangle/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from Mounted Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this submission represents the culmination of a mount attack sequ
 
 ## Playing as Attacker
 
-[[Triangle Choke from Mounted Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from Mounted Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission represents the culmination of a mount attack sequ
 
 ## Playing as Defender
 
-[[Triangle Choke from Mounted Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from Mounted Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

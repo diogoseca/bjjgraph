@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from Harness position in BJJ. Learn
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Harness/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Harness/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Harness/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Harness/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this submission capitalizes on common defensive reactions to back
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Harness/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Harness/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, this submission capitalizes on common defensive reactions to back
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Harness/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Harness/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

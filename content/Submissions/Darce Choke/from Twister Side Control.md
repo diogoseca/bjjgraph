@@ -17,8 +17,8 @@ description: "Master the Darce Choke from Twister Side Control with detailed fin
 
 <div class="role-links">
 
-[[Darce Choke from Twister Side Control/Attacker|Play as Attacker]]
-[[Darce Choke from Twister Side Control/Defender|Play as Defender]]
+[[Submissions/Darce Choke/from Twister Side Control/Attacker|Play as Attacker]]
+[[Submissions/Darce Choke/from Twister Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ In competition, this variant carries a higher finishing rate than standard Darce
 
 ## Playing as Attacker
 
-[[Darce Choke from Twister Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Darce Choke/from Twister Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ In competition, this variant carries a higher finishing rate than standard Darce
 
 ## Playing as Defender
 
-[[Darce Choke from Twister Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Darce Choke/from Twister Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

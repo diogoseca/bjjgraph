@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from High Mount. Complete finishin
 
 <div class="role-links">
 
-[[Kimura from High Mount/Attacker|Play as Attacker]]
-[[Kimura from High Mount/Defender|Play as Defender]]
+[[Submissions/Kimura/from High Mount/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from High Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 
 ## Playing as Attacker
 
-[[Kimura from High Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from High Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ In competition, the Kimura from High Mount frequently appears as part of submiss
 
 ## Playing as Defender
 
-[[Kimura from High Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from High Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

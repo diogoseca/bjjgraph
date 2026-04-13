@@ -17,8 +17,8 @@ description: "Master the toe hold from Estima Lock in BJJ. Expert guide covering
 
 <div class="role-links">
 
-[[Toe Hold from Estima Lock/Attacker|Play as Attacker]]
-[[Toe Hold from Estima Lock/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Estima Lock/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Estima Lock/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ This submission is particularly effective in no-gi grappling where the smooth su
 
 ## Playing as Attacker
 
-[[Toe Hold from Estima Lock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Estima Lock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This submission is particularly effective in no-gi grappling where the smooth su
 
 ## Playing as Defender
 
-[[Toe Hold from Estima Lock/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Estima Lock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

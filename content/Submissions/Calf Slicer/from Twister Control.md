@@ -17,8 +17,8 @@ description: "Master the calf slicer from twister control in BJJ. Learn setup me
 
 <div class="role-links">
 
-[[Calf Slicer from Twister Control/Attacker|Play as Attacker]]
-[[Calf Slicer from Twister Control/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Twister Control/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Twister Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 ## Playing as Attacker
 
-[[Calf Slicer from Twister Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Twister Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The finishing mechanics require threading your shin behind the opponent's knee c
 
 ## Playing as Defender
 
-[[Calf Slicer from Twister Control/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Twister Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

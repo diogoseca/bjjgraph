@@ -17,8 +17,8 @@ description: "Master the Williams Shoulder Lock from Williams Guard. Learn finis
 
 <div class="role-links">
 
-[[Williams Shoulder Lock from Williams Guard/Attacker|Play as Attacker]]
-[[Williams Shoulder Lock from Williams Guard/Defender|Play as Defender]]
+[[Submissions/Williams Shoulder Lock/from Williams Guard/Attacker|Play as Attacker]]
+[[Submissions/Williams Shoulder Lock/from Williams Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 ## Playing as Attacker
 
-[[Williams Shoulder Lock from Williams Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Williams Shoulder Lock/from Williams Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ At the competition level, the Williams Shoulder Lock from Williams Guard functio
 
 ## Playing as Defender
 
-[[Williams Shoulder Lock from Williams Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Williams Shoulder Lock/from Williams Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

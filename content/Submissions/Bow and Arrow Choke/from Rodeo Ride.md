@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from Rodeo Ride. Learn gi lapel cho
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Rodeo Ride/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Rodeo Ride/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ This variant is particularly effective in competition because it chains naturall
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Rodeo Ride/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ This variant is particularly effective in competition because it chains naturall
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Rodeo Ride/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Rodeo Ride/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

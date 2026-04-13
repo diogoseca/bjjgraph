@@ -17,8 +17,8 @@ description: "Master the Omoplata from Butterfly Guard. Learn hook elevation ent
 
 <div class="role-links">
 
-[[Omoplata from Butterfly Guard/Attacker|Play as Attacker]]
-[[Omoplata from Butterfly Guard/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Butterfly Guard/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Butterfly Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 ## Playing as Attacker
 
-[[Omoplata from Butterfly Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Butterfly Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, the Omoplata from Butterfly Guard occupies a high-value position 
 
 ## Playing as Defender
 
-[[Omoplata from Butterfly Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Butterfly Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

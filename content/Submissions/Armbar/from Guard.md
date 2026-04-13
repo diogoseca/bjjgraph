@@ -17,8 +17,8 @@ description: "Master the armbar from guard with systematic technique breakdown, 
 
 <div class="role-links">
 
-[[Armbar from Guard/Attacker|Play as Attacker]]
-[[Armbar from Guard/Defender|Play as Defender]]
+[[Submissions/Armbar/from Guard/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 ## Playing as Attacker
 
-[[Armbar from Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The armbar from guard is one of the most fundamental and highest-percentage subm
 
 ## Playing as Defender
 
-[[Armbar from Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

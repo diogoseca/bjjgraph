@@ -17,8 +17,8 @@ description: "Master the North-South Choke from Shoulder of Justice with detaile
 
 <div class="role-links">
 
-[[North-South Choke from Shoulder of Justice/Attacker|Play as Attacker]]
-[[North-South Choke from Shoulder of Justice/Defender|Play as Defender]]
+[[Submissions/North-South Choke/from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Submissions/North-South Choke/from Shoulder of Justice/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 ## Playing as Attacker
 
-[[North-South Choke from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
+[[Submissions/North-South Choke/from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission chain is particularly effective because the Shoulder of Justice 
 
 ## Playing as Defender
 
-[[North-South Choke from Shoulder of Justice/Defender|→ Full Defender Guide]]
+[[Submissions/North-South Choke/from Shoulder of Justice/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

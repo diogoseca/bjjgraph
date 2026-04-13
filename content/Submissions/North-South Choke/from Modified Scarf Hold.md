@@ -17,8 +17,8 @@ description: "Master the North-South Choke from Modified Scarf Hold with step-by
 
 <div class="role-links">
 
-[[North-South Choke from Modified Scarf Hold/Attacker|Play as Attacker]]
-[[North-South Choke from Modified Scarf Hold/Defender|Play as Defender]]
+[[Submissions/North-South Choke/from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/North-South Choke/from Modified Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 
 ## Playing as Attacker
 
-[[North-South Choke from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/North-South Choke/from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Finishing the choke requires precise shoulder placement deep into the pocket bet
 
 ## Playing as Defender
 
-[[North-South Choke from Modified Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/North-South Choke/from Modified Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

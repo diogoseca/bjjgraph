@@ -17,8 +17,8 @@ description: "Master the cross collar choke from body triangle in BJJ. Learn gri
 
 <div class="role-links">
 
-[[Cross Collar Choke from Body Triangle/Attacker|Play as Attacker]]
-[[Cross Collar Choke from Body Triangle/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from Body Triangle/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from Body Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ This submission is particularly effective as a complement to the rear naked chok
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from Body Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from Body Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ This submission is particularly effective as a complement to the rear naked chok
 
 ## Playing as Defender
 
-[[Cross Collar Choke from Body Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from Body Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

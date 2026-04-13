@@ -17,8 +17,8 @@ description: "Master the Loop Choke from Side Control in BJJ. Complete guide to 
 
 <div class="role-links">
 
-[[Loop Choke from Side Control/Attacker|Play as Attacker]]
-[[Loop Choke from Side Control/Defender|Play as Defender]]
+[[Submissions/Loop Choke/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Loop Choke/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Practitioners who develop this technique gain a powerful addition to their side 
 
 ## Playing as Attacker
 
-[[Loop Choke from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Loop Choke/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Practitioners who develop this technique gain a powerful addition to their side 
 
 ## Playing as Defender
 
-[[Loop Choke from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Loop Choke/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

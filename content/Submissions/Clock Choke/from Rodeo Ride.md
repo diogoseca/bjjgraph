@@ -17,8 +17,8 @@ description: "Master the Clock Choke from Rodeo Ride in BJJ. Learn gi-based bloo
 
 <div class="role-links">
 
-[[Clock Choke from Rodeo Ride/Attacker|Play as Attacker]]
-[[Clock Choke from Rodeo Ride/Defender|Play as Defender]]
+[[Submissions/Clock Choke/from Rodeo Ride/Attacker|Play as Attacker]]
+[[Submissions/Clock Choke/from Rodeo Ride/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 ## Playing as Attacker
 
-[[Clock Choke from Rodeo Ride/Attacker|→ Full Attacker Guide]]
+[[Submissions/Clock Choke/from Rodeo Ride/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ This submission is most effective when chained with other Rodeo Ride attacks—t
 
 ## Playing as Defender
 
-[[Clock Choke from Rodeo Ride/Defender|→ Full Defender Guide]]
+[[Submissions/Clock Choke/from Rodeo Ride/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

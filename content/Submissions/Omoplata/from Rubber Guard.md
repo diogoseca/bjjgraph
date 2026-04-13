@@ -17,8 +17,8 @@ description: "Master the omoplata from Rubber Guard with entries from Mission Co
 
 <div class="role-links">
 
-[[Omoplata from Rubber Guard/Attacker|Play as Attacker]]
-[[Omoplata from Rubber Guard/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Rubber Guard/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Rubber Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 
 ## Playing as Attacker
 
-[[Omoplata from Rubber Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Rubber Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, the omoplata from Rubber Guard serves dual purposes: it functions
 
 ## Playing as Defender
 
-[[Omoplata from Rubber Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Rubber Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

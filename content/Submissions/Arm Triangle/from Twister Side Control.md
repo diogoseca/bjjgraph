@@ -17,8 +17,8 @@ description: "Learn the Arm Triangle from Twister Side Control in BJJ. Complete 
 
 <div class="role-links">
 
-[[Arm Triangle from Twister Side Control/Attacker|Play as Attacker]]
-[[Arm Triangle from Twister Side Control/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Twister Side Control/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Twister Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 ## Playing as Attacker
 
-[[Arm Triangle from Twister Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Twister Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The position integrates naturally into the Twister Side Control attack chain alo
 
 ## Playing as Defender
 
-[[Arm Triangle from Twister Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Twister Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

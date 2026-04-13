@@ -17,8 +17,8 @@ description: "Master the Heel Hook from Ushiro Ashi-Garami. Complete guide cover
 
 <div class="role-links">
 
-[[Heel Hook from Ushiro Ashi/Attacker|Play as Attacker]]
-[[Heel Hook from Ushiro Ashi/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Ushiro Ashi/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Ushiro Ashi/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 ## Playing as Attacker
 
-[[Heel Hook from Ushiro Ashi/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Ushiro Ashi/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The heel hook from ushiro ashi-garami attacks the knee joint through rotational 
 
 ## Playing as Defender
 
-[[Heel Hook from Ushiro Ashi/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Ushiro Ashi/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

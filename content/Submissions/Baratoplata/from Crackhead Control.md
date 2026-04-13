@@ -17,8 +17,8 @@ description: "Master the Baratoplata from Crackhead Control. Complete guide to t
 
 <div class="role-links">
 
-[[Baratoplata from Crackhead Control/Attacker|Play as Attacker]]
-[[Baratoplata from Crackhead Control/Defender|Play as Defender]]
+[[Submissions/Baratoplata/from Crackhead Control/Attacker|Play as Attacker]]
+[[Submissions/Baratoplata/from Crackhead Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ What makes this variation particularly dangerous at the competitive level is the
 
 ## Playing as Attacker
 
-[[Baratoplata from Crackhead Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Baratoplata/from Crackhead Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ What makes this variation particularly dangerous at the competitive level is the
 
 ## Playing as Defender
 
-[[Baratoplata from Crackhead Control/Defender|→ Full Defender Guide]]
+[[Submissions/Baratoplata/from Crackhead Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

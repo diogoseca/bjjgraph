@@ -17,8 +17,8 @@ description: "Master the outside heel hook from leg entanglement positions. Expe
 
 <div class="role-links">
 
-[[Outside Heel Hook from Leg Entanglement/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Leg Entanglement/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Leg Entanglement/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Leg Entanglement/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ This technique carries extreme injury risk because knee ligaments provide minima
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Leg Entanglement/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Leg Entanglement/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -175,7 +175,7 @@ This technique carries extreme injury risk because knee ligaments provide minima
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Leg Entanglement/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Leg Entanglement/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

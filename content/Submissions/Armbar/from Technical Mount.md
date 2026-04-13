@@ -17,8 +17,8 @@ description: "Master the Armbar from Technical Mount in BJJ. Complete guide to s
 
 <div class="role-links">
 
-[[Armbar from Technical Mount/Attacker|Play as Attacker]]
-[[Armbar from Technical Mount/Defender|Play as Defender]]
+[[Submissions/Armbar/from Technical Mount/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Technical Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 ## Playing as Attacker
 
-[[Armbar from Technical Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Technical Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Strategic deployment of this armbar centers on reading the defender's reactions 
 
 ## Playing as Defender
 
-[[Armbar from Technical Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Technical Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

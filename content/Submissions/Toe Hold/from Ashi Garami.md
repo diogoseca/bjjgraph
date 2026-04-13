@@ -17,8 +17,8 @@ description: "Master the toe hold from Ashi Garami leg entanglement. Complete gu
 
 <div class="role-links">
 
-[[Toe Hold from Ashi Garami/Attacker|Play as Attacker]]
-[[Toe Hold from Ashi Garami/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Ashi Garami/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Ashi Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 ## Playing as Attacker
 
-[[Toe Hold from Ashi Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Ashi Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Competition-level application demands patience and precise timing. The toe hold 
 
 ## Playing as Defender
 
-[[Toe Hold from Ashi Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Ashi Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

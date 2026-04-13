@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Rear Triangle position. Learn how
 
 <div class="role-links">
 
-[[Rear Naked Choke from Rear Triangle/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Rear Triangle/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Rear Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Rear Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Rear Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Strategically, this submission creates a cascading dilemma: defending the triang
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Rear Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Rear Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

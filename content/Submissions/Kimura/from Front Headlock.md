@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from front headlock in BJJ. Learn 
 
 <div class="role-links">
 
-[[Kimura from Front Headlock/Attacker|Play as Attacker]]
-[[Kimura from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Kimura/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 ## Playing as Attacker
 
-[[Kimura from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission integrates naturally into front headlock attack systems. When yo
 
 ## Playing as Defender
 
-[[Kimura from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

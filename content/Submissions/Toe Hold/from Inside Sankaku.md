@@ -17,8 +17,8 @@ description: "Master the toe hold from Inside Sankaku. Learn grip mechanics, rot
 
 <div class="role-links">
 
-[[Toe Hold from Inside Sankaku/Attacker|Play as Attacker]]
-[[Toe Hold from Inside Sankaku/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Inside Sankaku/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Inside Sankaku/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 
 ## Playing as Attacker
 
-[[Toe Hold from Inside Sankaku/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Inside Sankaku/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the toe hold from Inside Sankaku functions as part of a dilemma s
 
 ## Playing as Defender
 
-[[Toe Hold from Inside Sankaku/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Inside Sankaku/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Short Choke from Back Control in BJJ. Learn cross-colla
 
 <div class="role-links">
 
-[[Short Choke from Back Control/Attacker|Play as Attacker]]
-[[Short Choke from Back Control/Defender|Play as Defender]]
+[[Submissions/Short Choke/from Back Control/Attacker|Play as Attacker]]
+[[Submissions/Short Choke/from Back Control/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 ## Playing as Attacker
 
-[[Short Choke from Back Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Short Choke/from Back Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Strategically, the Short Choke serves as a high-percentage complement to the Rea
 
 ## Playing as Defender
 
-[[Short Choke from Back Control/Defender|→ Full Defender Guide]]
+[[Submissions/Short Choke/from Back Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Triangle Choke from Open Guard in BJJ. Expert guide cov
 
 <div class="role-links">
 
-[[Triangle Choke from Open Guard/Attacker|Play as Attacker]]
-[[Triangle Choke from Open Guard/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from Open Guard/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from Open Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 ## Playing as Attacker
 
-[[Triangle Choke from Open Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from Open Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ The critical finishing mechanics rely on three elements working in concert: perp
 
 ## Playing as Defender
 
-[[Triangle Choke from Open Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from Open Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

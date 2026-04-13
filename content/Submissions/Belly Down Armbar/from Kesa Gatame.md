@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from Kesa Gatame. Learn the st
 
 <div class="role-links">
 
-[[Belly Down Armbar from Kesa Gatame/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Kesa Gatame/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Kesa Gatame/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Kesa Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ This technique is particularly effective against opponents who defend the tradit
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Kesa Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Kesa Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ This technique is particularly effective against opponents who defend the tradit
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Kesa Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Kesa Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

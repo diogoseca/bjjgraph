@@ -17,8 +17,8 @@ description: "Master the outside heel hook from Honey Hole position. Learn grip 
 
 <div class="role-links">
 
-[[Outside Heel Hook from Honey Hole/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Honey Hole/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Honey Hole/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Honey Hole/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ The strategic value of this technique lies in its complementary relationship wit
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Honey Hole/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Honey Hole/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -175,7 +175,7 @@ The strategic value of this technique lies in its complementary relationship wit
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Honey Hole/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Honey Hole/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

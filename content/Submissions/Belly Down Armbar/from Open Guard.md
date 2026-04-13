@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from open guard in BJJ. Learn 
 
 <div class="role-links">
 
-[[Belly Down Armbar from Open Guard/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Open Guard/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Open Guard/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Open Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ This submission demands precise timing during the transition from guard retentio
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Open Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Open Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ This submission demands precise timing during the transition from guard retentio
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Open Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Open Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

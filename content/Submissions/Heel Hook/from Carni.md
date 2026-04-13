@@ -17,8 +17,8 @@ description: "Master the heel hook from Carni position in BJJ. Expert finishing 
 
 <div class="role-links">
 
-[[Heel Hook from Carni/Attacker|Play as Attacker]]
-[[Heel Hook from Carni/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Carni/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Carni/Defender|Play as Defender]]
 
 </div>
 
@@ -116,7 +116,7 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 
 ## Playing as Attacker
 
-[[Heel Hook from Carni/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Carni/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -174,7 +174,7 @@ Competition results demonstrate the heel hook from Carni as one of the highest-p
 
 ## Playing as Defender
 
-[[Heel Hook from Carni/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Carni/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

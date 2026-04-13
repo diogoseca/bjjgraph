@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Kesa Gatame. Complete guide c
 
 <div class="role-links">
 
-[[Kimura from Kesa Gatame/Attacker|Play as Attacker]]
-[[Kimura from Kesa Gatame/Defender|Play as Defender]]
+[[Submissions/Kimura/from Kesa Gatame/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Kesa Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 
 ## Playing as Attacker
 
-[[Kimura from Kesa Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Kesa Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ From a strategic standpoint, the Kimura from Kesa Gatame creates a powerful subm
 
 ## Playing as Defender
 
-[[Kimura from Kesa Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Kesa Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

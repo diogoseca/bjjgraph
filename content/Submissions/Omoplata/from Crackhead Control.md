@@ -17,8 +17,8 @@ description: "Master the omoplata from Crackhead Control. Complete guide to this
 
 <div class="role-links">
 
-[[Omoplata from Crackhead Control/Attacker|Play as Attacker]]
-[[Omoplata from Crackhead Control/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Crackhead Control/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Crackhead Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 ## Playing as Attacker
 
-[[Omoplata from Crackhead Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Crackhead Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The finishing mechanics follow established omoplata principles once the perpendi
 
 ## Playing as Defender
 
-[[Omoplata from Crackhead Control/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Crackhead Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

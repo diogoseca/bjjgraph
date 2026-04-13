@@ -17,8 +17,8 @@ description: "Master the Buggy Choke in BJJ. Powerful half guard compression cho
 
 <div class="role-links">
 
-[[Buggy Choke from Half Guard/Attacker|Play as Attacker]]
-[[Buggy Choke from Half Guard/Defender|Play as Defender]]
+[[Submissions/Buggy Choke/from Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Buggy Choke/from Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Playing as Attacker
 
-[[Buggy Choke from Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Buggy Choke/from Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Buggy Choke is a devastating compression choke originating from half guard b
 
 ## Playing as Defender
 
-[[Buggy Choke from Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Buggy Choke/from Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

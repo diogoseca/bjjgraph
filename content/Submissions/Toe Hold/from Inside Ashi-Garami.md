@@ -17,8 +17,8 @@ description: "Master the toe hold from Inside Ashi-Garami. Complete guide to gri
 
 <div class="role-links">
 
-[[Toe Hold from Inside Ashi-Garami/Attacker|Play as Attacker]]
-[[Toe Hold from Inside Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Inside Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 ## Playing as Attacker
 
-[[Toe Hold from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Inside Ashi-Garami provides a tactically valuable platform for the toe hold beca
 
 ## Playing as Defender
 
-[[Toe Hold from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

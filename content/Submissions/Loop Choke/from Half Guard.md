@@ -17,8 +17,8 @@ description: "Master the Loop Choke from Half Guard Top in BJJ. Learn deep colla
 
 <div class="role-links">
 
-[[Loop Choke from Half Guard/Attacker|Play as Attacker]]
-[[Loop Choke from Half Guard/Defender|Play as Defender]]
+[[Submissions/Loop Choke/from Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Loop Choke/from Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 ## Playing as Attacker
 
-[[Loop Choke from Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Loop Choke/from Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The attacker must balance commitment to the choke against maintaining top positi
 
 ## Playing as Defender
 
-[[Loop Choke from Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Loop Choke/from Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

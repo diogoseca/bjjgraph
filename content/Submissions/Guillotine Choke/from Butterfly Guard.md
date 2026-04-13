@@ -17,8 +17,8 @@ description: "Master the Guillotine Choke from Butterfly Guard. Learn hook eleva
 
 <div class="role-links">
 
-[[Guillotine Choke from Butterfly Guard/Attacker|Play as Attacker]]
-[[Guillotine Choke from Butterfly Guard/Defender|Play as Defender]]
+[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|Play as Attacker]]
+[[Submissions/Guillotine Choke/from Butterfly Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 ## Playing as Attacker
 
-[[Guillotine Choke from Butterfly Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Guillotine Choke/from Butterfly Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, the butterfly guillotine serves as a critical deterrent against a
 
 ## Playing as Defender
 
-[[Guillotine Choke from Butterfly Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Guillotine Choke/from Butterfly Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

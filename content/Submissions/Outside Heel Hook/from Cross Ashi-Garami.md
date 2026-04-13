@@ -17,8 +17,8 @@ description: "Master the outside heel hook from cross ashi-garami. Learn grip me
 
 <div class="role-links">
 
-[[Outside Heel Hook from Cross Ashi-Garami/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Cross Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Cross Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -173,7 +173,7 @@ From a defensive standpoint, the cross ashi heel hook demands immediate recognit
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Cross Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Cross Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

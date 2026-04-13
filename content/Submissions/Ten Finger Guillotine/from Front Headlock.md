@@ -17,8 +17,8 @@ description: "Master the Ten Finger Guillotine from Front Headlock position. Com
 
 <div class="role-links">
 
-[[Ten Finger Guillotine from Front Headlock/Attacker|Play as Attacker]]
-[[Ten Finger Guillotine from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Ten Finger Guillotine/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 ## Playing as Attacker
 
-[[Ten Finger Guillotine from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Ten Finger Guillotine/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission sits at the intersection of front headlock contro
 
 ## Playing as Defender
 
-[[Ten Finger Guillotine from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Ten Finger Guillotine/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

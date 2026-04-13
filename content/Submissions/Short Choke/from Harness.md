@@ -17,8 +17,8 @@ description: "Learn the Short Choke from Harness in BJJ. Master gi lapel choke m
 
 <div class="role-links">
 
-[[Short Choke from Harness/Attacker|Play as Attacker]]
-[[Short Choke from Harness/Defender|Play as Defender]]
+[[Submissions/Short Choke/from Harness/Attacker|Play as Attacker]]
+[[Submissions/Short Choke/from Harness/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 ## Playing as Attacker
 
-[[Short Choke from Harness/Attacker|→ Full Attacker Guide]]
+[[Submissions/Short Choke/from Harness/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ From the Harness position specifically, the seatbelt grip provides the ideal sta
 
 ## Playing as Defender
 
-[[Short Choke from Harness/Defender|→ Full Defender Guide]]
+[[Submissions/Short Choke/from Harness/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the kneebar finish from kneebar control in BJJ. Step-by-ste
 
 <div class="role-links">
 
-[[Kneebar from Kneebar Control/Attacker|Play as Attacker]]
-[[Kneebar from Kneebar Control/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Kneebar Control/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Kneebar Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 ## Playing as Attacker
 
-[[Kneebar from Kneebar Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Kneebar Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, the kneebar from kneebar control functions as the terminal submis
 
 ## Playing as Defender
 
-[[Kneebar from Kneebar Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Kneebar Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

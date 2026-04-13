@@ -17,8 +17,8 @@ description: "Master the omoplata shoulder lock from double sleeve guard. Learn 
 
 <div class="role-links">
 
-[[Omoplata from Double Sleeve Guard/Attacker|Play as Attacker]]
-[[Omoplata from Double Sleeve Guard/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Double Sleeve Guard/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Double Sleeve Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this submission sits at the intersection of the triangle and armb
 
 ## Playing as Attacker
 
-[[Omoplata from Double Sleeve Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Double Sleeve Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission sits at the intersection of the triangle and armb
 
 ## Playing as Defender
 
-[[Omoplata from Double Sleeve Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Double Sleeve Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

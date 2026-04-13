@@ -17,8 +17,8 @@ description: "Master the Short Choke from Cross Body Ride in BJJ. Complete guide
 
 <div class="role-links">
 
-[[Short Choke from Cross Body/Attacker|Play as Attacker]]
-[[Short Choke from Cross Body/Defender|Play as Defender]]
+[[Submissions/Short Choke/from Cross Body/Attacker|Play as Attacker]]
+[[Submissions/Short Choke/from Cross Body/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 ## Playing as Attacker
 
-[[Short Choke from Cross Body/Attacker|→ Full Attacker Guide]]
+[[Submissions/Short Choke/from Cross Body/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The choke operates on blood restriction principles, compressing the carotid arte
 
 ## Playing as Defender
 
-[[Short Choke from Cross Body/Defender|→ Full Defender Guide]]
+[[Submissions/Short Choke/from Cross Body/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Reverse Kesa-Gatame. Compl
 
 <div class="role-links">
 
-[[Americana from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
-[[Americana from Reverse Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Americana/from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Reverse Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, this Americana integrates into a powerful submission chain from r
 
 ## Playing as Attacker
 
-[[Americana from Reverse Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Reverse Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, this Americana integrates into a powerful submission chain from r
 
 ## Playing as Defender
 
-[[Americana from Reverse Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Reverse Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

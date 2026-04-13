@@ -17,8 +17,8 @@ description: "Master Kimura from North-South in BJJ. Complete safety guide with 
 
 <div class="role-links">
 
-[[Kimura from North-South/Attacker|Play as Attacker]]
-[[Kimura from North-South/Defender|Play as Defender]]
+[[Submissions/Kimura/from North-South/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from North-South/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 ## Playing as Attacker
 
-[[Kimura from North-South/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from North-South/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The Kimura from North-South is a powerful shoulder lock that exploits the vulner
 
 ## Playing as Defender
 
-[[Kimura from North-South/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from North-South/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

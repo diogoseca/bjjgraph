@@ -17,8 +17,8 @@ description: "Master the paper cutter choke from kuzure kesa-gatame. Complete gu
 
 <div class="role-links">
 
-[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
-[[Paper Cutter Choke from Kuzure Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 
 ## Playing as Attacker
 
-[[Paper Cutter Choke from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, this choke pairs exceptionally well with the americana and armbar
 
 ## Playing as Defender
 
-[[Paper Cutter Choke from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Paper Cutter Choke/from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

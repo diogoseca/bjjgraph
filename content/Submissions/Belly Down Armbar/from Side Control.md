@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from side control in BJJ. Lear
 
 <div class="role-links">
 
-[[Belly Down Armbar from Side Control/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Side Control/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ This technique is particularly effective in competition because opponents defend
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ This technique is particularly effective in competition because opponents defend
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

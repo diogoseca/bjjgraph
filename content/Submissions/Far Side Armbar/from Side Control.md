@@ -17,8 +17,8 @@ description: "Master Far Side Armbar from top positions. Complete guide with saf
 
 <div class="role-links">
 
-[[Far Side Armbar from Side Control/Attacker|Play as Attacker]]
-[[Far Side Armbar from Side Control/Defender|Play as Defender]]
+[[Submissions/Far Side Armbar/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Far Side Armbar/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ## Playing as Attacker
 
-[[Far Side Armbar from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Far Side Armbar/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This submission appears frequently in both gi and no-gi competition at all level
 
 ## Playing as Defender
 
-[[Far Side Armbar from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Far Side Armbar/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

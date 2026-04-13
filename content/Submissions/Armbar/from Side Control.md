@@ -17,8 +17,8 @@ description: "Master the Armbar from Side Control in BJJ. Complete guide coverin
 
 <div class="role-links">
 
-[[Armbar from Side Control/Attacker|Play as Attacker]]
-[[Armbar from Side Control/Defender|Play as Defender]]
+[[Submissions/Armbar/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The submission can be entered from various side control variations including sta
 
 ## Playing as Attacker
 
-[[Armbar from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The submission can be entered from various side control variations including sta
 
 ## Playing as Defender
 
-[[Armbar from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

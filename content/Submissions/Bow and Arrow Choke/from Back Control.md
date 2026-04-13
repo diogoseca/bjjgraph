@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from back control. Learn collar gri
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Back Control/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Back Control/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Back Control/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Back Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Back Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Back Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the bow and arrow choke serves as the premier gi-specific attack 
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Back Control/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Back Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Inside Heel Hook from Inside Ashi-Garami. Complete guid
 
 <div class="role-links">
 
-[[Inside Heel Hook from Inside Ashi-Garami/Attacker|Play as Attacker]]
-[[Inside Heel Hook from Inside Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Inside Heel Hook/from Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Inside Heel Hook/from Inside Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves
 
 ## Playing as Attacker
 
-[[Inside Heel Hook from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Inside Heel Hook/from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ In modern no-gi competition, the Inside Heel Hook from Inside Ashi-Garami serves
 
 ## Playing as Defender
 
-[[Inside Heel Hook from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Inside Heel Hook/from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Rolling Armbar in BJJ. Dynamic submission from guard an
 
 <div class="role-links">
 
-[[Rolling Armbar from Closed Guard/Attacker|Play as Attacker]]
-[[Rolling Armbar from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Armbar/Rolling Armbar from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 ## Playing as Attacker
 
-[[Rolling Armbar from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/Rolling Armbar from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Rolling Armbar represents one of the most dynamic and technically sophistica
 
 ## Playing as Defender
 
-[[Rolling Armbar from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/Rolling Armbar from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

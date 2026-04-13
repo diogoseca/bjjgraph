@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Side Control in BJJ. Complete finishi
 
 <div class="role-links">
 
-[[Arm Triangle from Side Control/Attacker|Play as Attacker]]
-[[Arm Triangle from Side Control/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ At the highest levels of competition, the arm triangle from side control remains
 
 ## Playing as Attacker
 
-[[Arm Triangle from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ At the highest levels of competition, the arm triangle from side control remains
 
 ## Playing as Defender
 
-[[Arm Triangle from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

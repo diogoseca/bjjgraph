@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Technical Mount in BJJ. Co
 
 <div class="role-links">
 
-[[Americana from Technical Mount/Attacker|Play as Attacker]]
-[[Americana from Technical Mount/Defender|Play as Defender]]
+[[Submissions/Americana/from Technical Mount/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Technical Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 ## Playing as Attacker
 
-[[Americana from Technical Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Technical Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The finishing mechanics require a slow, paint-brush rotation of the opponent's e
 
 ## Playing as Defender
 
-[[Americana from Technical Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Technical Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Armbar from High Mount in BJJ. Complete guide to setup 
 
 <div class="role-links">
 
-[[Armbar from High Mount/Attacker|Play as Attacker]]
-[[Armbar from High Mount/Defender|Play as Defender]]
+[[Submissions/Armbar/from High Mount/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from High Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 ## Playing as Attacker
 
-[[Armbar from High Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from High Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, the Armbar from High Mount functions as the centerpiece of mount 
 
 ## Playing as Defender
 
-[[Armbar from High Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from High Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

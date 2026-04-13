@@ -17,8 +17,8 @@ description: "Master the Kesa Gatame Arm Crush in BJJ. Complete guide covering e
 
 <div class="role-links">
 
-[[Kesa Gatame Arm Crush from Kesa Gatame/Attacker|Play as Attacker]]
-[[Kesa Gatame Arm Crush from Kesa Gatame/Defender|Play as Defender]]
+[[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|Play as Attacker]]
+[[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -104,7 +104,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ## Playing as Attacker
 
-[[Kesa Gatame Arm Crush from Kesa Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ The technique is especially valuable in no-gi contexts where maintaining traditi
 
 ## Playing as Defender
 
-[[Kesa Gatame Arm Crush from Kesa Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Kesa Gatame Arm Crush/from Kesa Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Twister spinal lock from Cross Body Ride. Complete guid
 
 <div class="role-links">
 
-[[Twister from Cross Body Ride/Attacker|Play as Attacker]]
-[[Twister from Cross Body Ride/Defender|Play as Defender]]
+[[Submissions/Twister/from Cross Body Ride/Attacker|Play as Attacker]]
+[[Submissions/Twister/from Cross Body Ride/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ This submission demands extreme caution due to the direct spinal torque it gener
 
 ## Playing as Attacker
 
-[[Twister from Cross Body Ride/Attacker|→ Full Attacker Guide]]
+[[Submissions/Twister/from Cross Body Ride/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ This submission demands extreme caution due to the direct spinal torque it gener
 
 ## Playing as Defender
 
-[[Twister from Cross Body Ride/Defender|→ Full Defender Guide]]
+[[Submissions/Twister/from Cross Body Ride/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

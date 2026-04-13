@@ -17,8 +17,8 @@ description: "Learn the calf slicer from twister side control with expert finish
 
 <div class="role-links">
 
-[[Calf Slicer from Twister Side Control/Attacker|Play as Attacker]]
-[[Calf Slicer from Twister Side Control/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Twister Side Control/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Twister Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ This submission functions as a potent secondary threat within the twister side c
 
 ## Playing as Attacker
 
-[[Calf Slicer from Twister Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Twister Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This submission functions as a potent secondary threat within the twister side c
 
 ## Playing as Defender
 
-[[Calf Slicer from Twister Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Twister Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

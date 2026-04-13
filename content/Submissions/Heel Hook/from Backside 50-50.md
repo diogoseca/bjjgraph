@@ -17,8 +17,8 @@ description: "Master the heel hook from Backside 50-50 in BJJ. Complete guide to
 
 <div class="role-links">
 
-[[Heel Hook from Backside 50-50/Attacker|Play as Attacker]]
-[[Heel Hook from Backside 50-50/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Backside 50-50/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Backside 50-50/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 ## Playing as Attacker
 
-[[Heel Hook from Backside 50-50/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Backside 50-50/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Competition analysis reveals that this attack succeeds most often as a counter-a
 
 ## Playing as Defender
 
-[[Heel Hook from Backside 50-50/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Backside 50-50/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Kimura from Knee on Belly in BJJ. Learn how KOB pressur
 
 <div class="role-links">
 
-[[Kimura from Knee on Belly/Attacker|Play as Attacker]]
-[[Kimura from Knee on Belly/Defender|Play as Defender]]
+[[Submissions/Kimura/from Knee on Belly/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Knee on Belly/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The finishing mechanics differ from other positions because the top player can c
 
 ## Playing as Attacker
 
-[[Kimura from Knee on Belly/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Knee on Belly/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ The finishing mechanics differ from other positions because the top player can c
 
 ## Playing as Defender
 
-[[Kimura from Knee on Belly/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Knee on Belly/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

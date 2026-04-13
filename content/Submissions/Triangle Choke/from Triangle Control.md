@@ -17,8 +17,8 @@ description: "Master the triangle choke finish from triangle control. Learn prec
 
 <div class="role-links">
 
-[[Triangle Choke from Triangle Control/Attacker|Play as Attacker]]
-[[Triangle Choke from Triangle Control/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from Triangle Control/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from Triangle Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 
 ## Playing as Attacker
 
-[[Triangle Choke from Triangle Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from Triangle Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The finish timeline is surprisingly short once mechanics are correct. A properly
 
 ## Playing as Defender
 
-[[Triangle Choke from Triangle Control/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from Triangle Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

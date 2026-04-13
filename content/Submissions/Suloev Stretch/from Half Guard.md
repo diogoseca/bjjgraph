@@ -17,8 +17,8 @@ description: "Master the Suloev Stretch in BJJ. Devastating knee compression sub
 
 <div class="role-links">
 
-[[Suloev Stretch from Half Guard/Attacker|Play as Attacker]]
-[[Suloev Stretch from Half Guard/Defender|Play as Defender]]
+[[Submissions/Suloev Stretch/from Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Suloev Stretch/from Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## Playing as Attacker
 
-[[Suloev Stretch from Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Suloev Stretch/from Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ The Suloev Stretch is a sophisticated knee compression submission that combines 
 
 ## Playing as Defender
 
-[[Suloev Stretch from Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Suloev Stretch/from Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

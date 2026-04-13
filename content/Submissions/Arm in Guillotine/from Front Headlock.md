@@ -17,8 +17,8 @@ description: "Master the arm-in guillotine from front headlock with expert grip 
 
 <div class="role-links">
 
-[[Arm in Guillotine from Front Headlock/Attacker|Play as Attacker]]
-[[Arm in Guillotine from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Arm in Guillotine/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Arm in Guillotine/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 ## Playing as Attacker
 
-[[Arm in Guillotine from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm in Guillotine/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the arm-in guillotine from front headlock serves as a powerful de
 
 ## Playing as Defender
 
-[[Arm in Guillotine from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Arm in Guillotine/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

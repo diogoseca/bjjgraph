@@ -17,8 +17,8 @@ description: "Master the calf slicer from Carni position in BJJ. Learn compressi
 
 <div class="role-links">
 
-[[Calf Slicer from Carni/Attacker|Play as Attacker]]
-[[Calf Slicer from Carni/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Carni/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Carni/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The finishing mechanics require precise shin placement directly behind the oppon
 
 ## Playing as Attacker
 
-[[Calf Slicer from Carni/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Carni/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The finishing mechanics require precise shin placement directly behind the oppon
 
 ## Playing as Defender
 
-[[Calf Slicer from Carni/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Carni/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

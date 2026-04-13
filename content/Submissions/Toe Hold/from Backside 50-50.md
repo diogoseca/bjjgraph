@@ -17,8 +17,8 @@ description: "Master the toe hold from Backside 50-50 in BJJ. Complete guide cov
 
 <div class="role-links">
 
-[[Toe Hold from Backside 50-50/Attacker|Play as Attacker]]
-[[Toe Hold from Backside 50-50/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Backside 50-50/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Backside 50-50/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 
 ## Playing as Attacker
 
-[[Toe Hold from Backside 50-50/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Backside 50-50/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ In competition, the toe hold from Backside 50-50 serves as both a primary finish
 
 ## Playing as Defender
 
-[[Toe Hold from Backside 50-50/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Backside 50-50/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

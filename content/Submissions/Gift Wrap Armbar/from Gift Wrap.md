@@ -17,8 +17,8 @@ description: "Master the Gift Wrap Armbar in BJJ. Complete guide to attacking th
 
 <div class="role-links">
 
-[[Gift Wrap Armbar from Gift Wrap/Attacker|Play as Attacker]]
-[[Gift Wrap Armbar from Gift Wrap/Defender|Play as Defender]]
+[[Submissions/Gift Wrap Armbar/from Gift Wrap/Attacker|Play as Attacker]]
+[[Submissions/Gift Wrap Armbar/from Gift Wrap/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ## Playing as Attacker
 
-[[Gift Wrap Armbar from Gift Wrap/Attacker|→ Full Attacker Guide]]
+[[Submissions/Gift Wrap Armbar/from Gift Wrap/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ Strategically, the Gift Wrap Armbar functions as part of a broader submission ch
 
 ## Playing as Defender
 
-[[Gift Wrap Armbar from Gift Wrap/Defender|→ Full Defender Guide]]
+[[Submissions/Gift Wrap Armbar/from Gift Wrap/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

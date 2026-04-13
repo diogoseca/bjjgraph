@@ -17,8 +17,8 @@ description: "Learn the belly down armbar finish from Mission Control in BJJ. Ma
 
 <div class="role-links">
 
-[[Belly Down Armbar from Mission Control/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Mission Control/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Mission Control/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Mission Control/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Mission Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Mission Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From a strategic standpoint, this submission creates a powerful dilemma within t
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Mission Control/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Mission Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

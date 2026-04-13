@@ -17,8 +17,8 @@ description: "Master Triangle from Spider Guard. Setup from spider hooks, angle 
 
 <div class="role-links">
 
-[[Triangle Choke from Spider Guard/Attacker|Play as Attacker]]
-[[Triangle Choke from Spider Guard/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from Spider Guard/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from Spider Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ## Playing as Attacker
 
-[[Triangle Choke from Spider Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from Spider Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Triangle from Spider Guard is a high-percentage finishing sequence that capi
 
 ## Playing as Defender
 
-[[Triangle Choke from Spider Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from Spider Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Body Triangle with expert finishi
 
 <div class="role-links">
 
-[[Rear Naked Choke from Body Triangle/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Body Triangle/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Body Triangle/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Body Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Body Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Body Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ The finishing mechanics remain identical to the standard RNC — the choking arm
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Body Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Body Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

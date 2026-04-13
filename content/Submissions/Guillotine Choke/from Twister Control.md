@@ -17,8 +17,8 @@ description: "Master the guillotine choke from Twister Control. Learn setup mech
 
 <div class="role-links">
 
-[[Guillotine Choke from Twister Control/Attacker|Play as Attacker]]
-[[Guillotine Choke from Twister Control/Defender|Play as Defender]]
+[[Submissions/Guillotine Choke/from Twister Control/Attacker|Play as Attacker]]
+[[Submissions/Guillotine Choke/from Twister Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 ## Playing as Attacker
 
-[[Guillotine Choke from Twister Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Guillotine Choke/from Twister Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission functions as a trap within the broader Twister sy
 
 ## Playing as Defender
 
-[[Guillotine Choke from Twister Control/Defender|→ Full Defender Guide]]
+[[Submissions/Guillotine Choke/from Twister Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

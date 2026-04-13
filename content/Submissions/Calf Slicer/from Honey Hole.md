@@ -17,8 +17,8 @@ description: "Master the calf slicer from Honey Hole position in BJJ. Complete g
 
 <div class="role-links">
 
-[[Calf Slicer from Honey Hole/Attacker|Play as Attacker]]
-[[Calf Slicer from Honey Hole/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Honey Hole/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Honey Hole/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 ## Playing as Attacker
 
-[[Calf Slicer from Honey Hole/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Honey Hole/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, the calf slicer adds a compression dimension to the rotational at
 
 ## Playing as Defender
 
-[[Calf Slicer from Honey Hole/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Honey Hole/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

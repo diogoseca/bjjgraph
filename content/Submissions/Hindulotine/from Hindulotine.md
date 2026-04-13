@@ -17,8 +17,8 @@ description: "Master the Hindulotine choke finish from Hindulotine control. Comp
 
 <div class="role-links">
 
-[[Hindulotine from Hindulotine/Attacker|Play as Attacker]]
-[[Hindulotine from Hindulotine/Defender|Play as Defender]]
+[[Submissions/Hindulotine/from Hindulotine/Attacker|Play as Attacker]]
+[[Submissions/Hindulotine/from Hindulotine/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ Strategically, this finish serves as the terminal threat within the Hindulotine 
 
 ## Playing as Attacker
 
-[[Hindulotine from Hindulotine/Attacker|→ Full Attacker Guide]]
+[[Submissions/Hindulotine/from Hindulotine/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ Strategically, this finish serves as the terminal threat within the Hindulotine 
 
 ## Playing as Defender
 
-[[Hindulotine from Hindulotine/Defender|→ Full Defender Guide]]
+[[Submissions/Hindulotine/from Hindulotine/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

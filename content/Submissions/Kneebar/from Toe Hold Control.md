@@ -17,8 +17,8 @@ description: "Master the kneebar from toe hold control in BJJ. Complete guide to
 
 <div class="role-links">
 
-[[Kneebar from Toe Hold Control/Attacker|Play as Attacker]]
-[[Kneebar from Toe Hold Control/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Toe Hold Control/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Toe Hold Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The positional advantage is substantial because the leg is already isolated with
 
 ## Playing as Attacker
 
-[[Kneebar from Toe Hold Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Toe Hold Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The positional advantage is substantial because the leg is already isolated with
 
 ## Playing as Defender
 
-[[Kneebar from Toe Hold Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Toe Hold Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

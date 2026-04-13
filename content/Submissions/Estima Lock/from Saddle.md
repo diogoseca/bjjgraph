@@ -17,8 +17,8 @@ description: "Learn the Estima Lock from Saddle position with expert finishing m
 
 <div class="role-links">
 
-[[Estima Lock from Saddle/Attacker|Play as Attacker]]
-[[Estima Lock from Saddle/Defender|Play as Defender]]
+[[Submissions/Estima Lock/from Saddle/Attacker|Play as Attacker]]
+[[Submissions/Estima Lock/from Saddle/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 ## Playing as Attacker
 
-[[Estima Lock from Saddle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Estima Lock/from Saddle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ Strategically, the Estima Lock from Saddle occupies a critical role in modern le
 
 ## Playing as Defender
 
-[[Estima Lock from Saddle/Defender|→ Full Defender Guide]]
+[[Submissions/Estima Lock/from Saddle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

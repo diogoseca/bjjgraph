@@ -17,8 +17,8 @@ description: "Master Toe Hold from Top in BJJ. Complete guide with safety protoc
 
 <div class="role-links">
 
-[[Toe Hold from Top/Attacker|Play as Attacker]]
-[[Toe Hold from Top/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Top/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Top/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 ## Playing as Attacker
 
-[[Toe Hold from Top/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Top/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -173,7 +173,7 @@ The toe hold's effectiveness comes from its ability to be applied from dominant 
 
 ## Playing as Defender
 
-[[Toe Hold from Top/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Top/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

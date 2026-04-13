@@ -17,8 +17,8 @@ description: "Master the arm triangle from Kuzure Kesa-Gatame with setup mechani
 
 <div class="role-links">
 
-[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
-[[Arm Triangle from Kuzure Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 ## Playing as Attacker
 
-[[Arm Triangle from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The finish demands patience and precise body mechanics rather than raw squeezing
 
 ## Playing as Defender
 
-[[Arm Triangle from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

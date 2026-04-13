@@ -17,8 +17,8 @@ description: "Master the Neck Crank from Mounted Crucifix in BJJ. Learn the cerv
 
 <div class="role-links">
 
-[[Neck Crank from Mounted Crucifix/Attacker|Play as Attacker]]
-[[Neck Crank from Mounted Crucifix/Defender|Play as Defender]]
+[[Submissions/Neck Crank/from Mounted Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Neck Crank/from Mounted Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -103,7 +103,7 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 ## Playing as Attacker
 
-[[Neck Crank from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Neck Crank/from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -159,7 +159,7 @@ Strategically, the neck crank serves dual purpose from this position. As a prima
 
 ## Playing as Defender
 
-[[Neck Crank from Mounted Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Neck Crank/from Mounted Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

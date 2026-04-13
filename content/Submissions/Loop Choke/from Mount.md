@@ -17,8 +17,8 @@ description: "Master the Loop Choke from Mount in BJJ. Complete guide with safet
 
 <div class="role-links">
 
-[[Loop Choke from Mount/Attacker|Play as Attacker]]
-[[Loop Choke from Mount/Defender|Play as Defender]]
+[[Submissions/Loop Choke/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Loop Choke/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -103,7 +103,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 ## Playing as Attacker
 
-[[Loop Choke from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Loop Choke/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -161,7 +161,7 @@ The Loop Choke from Mount is a devastating gi-based blood choke that leverages t
 
 ## Playing as Defender
 
-[[Loop Choke from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Loop Choke/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

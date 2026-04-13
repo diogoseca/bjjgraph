@@ -17,8 +17,8 @@ description: "Master the heel hook from Inside Sankaku position. Complete guide 
 
 <div class="role-links">
 
-[[Heel Hook from Inside Sankaku/Attacker|Play as Attacker]]
-[[Heel Hook from Inside Sankaku/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Inside Sankaku/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Inside Sankaku/Defender|Play as Defender]]
 
 </div>
 
@@ -116,7 +116,7 @@ The critical distinction from other leg lock positions is the degree of rotation
 
 ## Playing as Attacker
 
-[[Heel Hook from Inside Sankaku/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Inside Sankaku/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -176,7 +176,7 @@ The critical distinction from other leg lock positions is the degree of rotation
 
 ## Playing as Defender
 
-[[Heel Hook from Inside Sankaku/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Inside Sankaku/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Harness in BJJ. Complete guide to
 
 <div class="role-links">
 
-[[Rear Naked Choke from Harness/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Harness/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Harness/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Harness/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Harness/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Harness/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ Strategically, this creates a cascading dilemma system. The opponent must commit
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Harness/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Harness/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

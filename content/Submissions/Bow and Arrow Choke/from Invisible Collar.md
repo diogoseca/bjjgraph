@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from Invisible Collar. Learn concea
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Invisible Collar/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Invisible Collar/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Invisible Collar/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this variant serves as a high-percentage finishing option within 
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Invisible Collar/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Invisible Collar/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this variant serves as a high-percentage finishing option within 
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Invisible Collar/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Invisible Collar/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

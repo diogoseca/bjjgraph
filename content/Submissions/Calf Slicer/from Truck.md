@@ -17,8 +17,8 @@ description: "Master the Calf Slicer from Truck in BJJ. Complete guide with safe
 
 <div class="role-links">
 
-[[Calf Slicer from Truck/Attacker|Play as Attacker]]
-[[Calf Slicer from Truck/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Truck/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Truck/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 ## Playing as Attacker
 
-[[Calf Slicer from Truck/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Truck/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The Calf Slicer from Truck is a high-level compression submission that targets t
 
 ## Playing as Defender
 
-[[Calf Slicer from Truck/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Truck/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

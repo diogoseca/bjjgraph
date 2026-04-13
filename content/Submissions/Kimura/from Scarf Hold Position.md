@@ -17,8 +17,8 @@ description: "Master the Kimura from Scarf Hold in BJJ. High-percentage shoulder
 
 <div class="role-links">
 
-[[Kimura from Scarf Hold Position/Attacker|Play as Attacker]]
-[[Kimura from Scarf Hold Position/Defender|Play as Defender]]
+[[Submissions/Kimura/from Scarf Hold Position/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Scarf Hold Position/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The grip transition from positional control to figure-four submission is minimal
 
 ## Playing as Attacker
 
-[[Kimura from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The grip transition from positional control to figure-four submission is minimal
 
 ## Playing as Defender
 
-[[Kimura from Scarf Hold Position/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Scarf Hold Position/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

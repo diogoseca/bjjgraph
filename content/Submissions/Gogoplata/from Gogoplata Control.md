@@ -17,8 +17,8 @@ description: "Master the Gogoplata shin choke in BJJ. Complete guide with safety
 
 <div class="role-links">
 
-[[Gogoplata from Gogoplata Control/Attacker|Play as Attacker]]
-[[Gogoplata from Gogoplata Control/Defender|Play as Defender]]
+[[Submissions/Gogoplata/from Gogoplata Control/Attacker|Play as Attacker]]
+[[Submissions/Gogoplata/from Gogoplata Control/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ## Playing as Attacker
 
-[[Gogoplata from Gogoplata Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Gogoplata/from Gogoplata Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -173,7 +173,7 @@ While the Gogoplata has a reputation as a low-percentage submission due to its t
 
 ## Playing as Defender
 
-[[Gogoplata from Gogoplata Control/Defender|→ Full Defender Guide]]
+[[Submissions/Gogoplata/from Gogoplata Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

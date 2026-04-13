@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from flattened half guard top. Exp
 
 <div class="role-links">
 
-[[Kimura from Flattened Half Guard/Attacker|Play as Attacker]]
-[[Kimura from Flattened Half Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Flattened Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Flattened Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 ## Playing as Attacker
 
-[[Kimura from Flattened Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Flattened Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The finishing mechanics differ from standard Kimura applications because the fla
 
 ## Playing as Defender
 
-[[Kimura from Flattened Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Flattened Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

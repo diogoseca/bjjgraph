@@ -17,8 +17,8 @@ description: "Master the rear naked choke from back control. Complete guide to h
 
 <div class="role-links">
 
-[[Rear Naked Choke from Back Control/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Back Control/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Back Control/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Back Control/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Back Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Back Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ The finishing mechanics rely on chest expansion and shoulder rotation rather tha
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Back Control/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Back Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

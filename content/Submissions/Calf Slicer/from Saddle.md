@@ -17,8 +17,8 @@ description: "Learn the calf slicer from saddle position with step-by-step finis
 
 <div class="role-links">
 
-[[Calf Slicer from Saddle/Attacker|Play as Attacker]]
-[[Calf Slicer from Saddle/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Saddle/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Saddle/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ At competition level, this submission serves as a critical complement to heel ho
 
 ## Playing as Attacker
 
-[[Calf Slicer from Saddle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Saddle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ At competition level, this submission serves as a critical complement to heel ho
 
 ## Playing as Defender
 
-[[Calf Slicer from Saddle/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Saddle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

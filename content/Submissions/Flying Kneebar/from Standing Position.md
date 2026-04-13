@@ -17,8 +17,8 @@ description: "Master the Flying Kneebar in BJJ. Complete guide with safety proto
 
 <div class="role-links">
 
-[[Flying Kneebar from Standing Position/Attacker|Play as Attacker]]
-[[Flying Kneebar from Standing Position/Defender|Play as Defender]]
+[[Submissions/Flying Kneebar/from Standing Position/Attacker|Play as Attacker]]
+[[Submissions/Flying Kneebar/from Standing Position/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 ## Playing as Attacker
 
-[[Flying Kneebar from Standing Position/Attacker|→ Full Attacker Guide]]
+[[Submissions/Flying Kneebar/from Standing Position/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ The Flying Kneebar is an advanced, dynamic leg lock submission that involves jum
 
 ## Playing as Defender
 
-[[Flying Kneebar from Standing Position/Defender|→ Full Defender Guide]]
+[[Submissions/Flying Kneebar/from Standing Position/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

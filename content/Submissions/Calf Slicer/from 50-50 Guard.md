@@ -17,8 +17,8 @@ description: "Master the calf slicer from 50-50 Guard. Complete guide covering s
 
 <div class="role-links">
 
-[[Calf Slicer from 50-50 Guard/Attacker|Play as Attacker]]
-[[Calf Slicer from 50-50 Guard/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from 50-50 Guard/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from 50-50 Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The technique carries significant injury risk due to simultaneous compression of
 
 ## Playing as Attacker
 
-[[Calf Slicer from 50-50 Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from 50-50 Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The technique carries significant injury risk due to simultaneous compression of
 
 ## Playing as Defender
 
-[[Calf Slicer from 50-50 Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from 50-50 Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

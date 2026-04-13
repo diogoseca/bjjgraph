@@ -17,8 +17,8 @@ description: "Master Armbar from Crucifix in BJJ. Complete guide with safety pro
 
 <div class="role-links">
 
-[[Armbar from Crucifix/Attacker|Play as Attacker]]
-[[Armbar from Crucifix/Defender|Play as Defender]]
+[[Submissions/Armbar/from Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ## Playing as Attacker
 
-[[Armbar from Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ The Armbar from Crucifix represents one of the most dominant finishing positions
 
 ## Playing as Defender
 
-[[Armbar from Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

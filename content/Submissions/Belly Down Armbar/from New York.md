@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from New York rubber guard. Le
 
 <div class="role-links">
 
-[[Belly Down Armbar from New York/Attacker|Play as Attacker]]
-[[Belly Down Armbar from New York/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from New York/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from New York/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Biomechanically, the belly down finish multiplies the attacker's leverage by con
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from New York/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from New York/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Biomechanically, the belly down finish multiplies the attacker's leverage by con
 
 ## Playing as Defender
 
-[[Belly Down Armbar from New York/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from New York/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

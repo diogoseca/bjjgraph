@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Seat Belt Control Back. Complete 
 
 <div class="role-links">
 
-[[Rear Naked Choke from Seat Belt Control Back/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Seat Belt Control Back/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Seat Belt Control Back/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ Finishing mechanics require precise bilateral compression of both carotid arteri
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Seat Belt Control Back/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Seat Belt Control Back/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

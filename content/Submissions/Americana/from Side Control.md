@@ -17,8 +17,8 @@ description: "Master the Americana from Side Control in BJJ. Complete guide to s
 
 <div class="role-links">
 
-[[Americana from Side Control/Attacker|Play as Attacker]]
-[[Americana from Side Control/Defender|Play as Defender]]
+[[Submissions/Americana/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -115,7 +115,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 ## Playing as Attacker
 
-[[Americana from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -173,7 +173,7 @@ The Americana from Side Control exemplifies the principle of positional dominanc
 
 ## Playing as Defender
 
-[[Americana from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

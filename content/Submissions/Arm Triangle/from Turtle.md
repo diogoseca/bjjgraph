@@ -17,8 +17,8 @@ description: "Master the arm triangle choke from turtle position in BJJ. Learn s
 
 <div class="role-links">
 
-[[Arm Triangle from Turtle/Attacker|Play as Attacker]]
-[[Arm Triangle from Turtle/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Turtle/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Turtle/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ At the competition level, this submission serves as a powerful secondary attack 
 
 ## Playing as Attacker
 
-[[Arm Triangle from Turtle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Turtle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ At the competition level, this submission serves as a powerful secondary attack 
 
 ## Playing as Defender
 
-[[Arm Triangle from Turtle/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Turtle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Arm Crush submission in BJJ. Learn shoulder lock mechan
 
 <div class="role-links">
 
-[[Arm Crush from Side Control/Attacker|Play as Attacker]]
-[[Arm Crush from Side Control/Defender|Play as Defender]]
+[[Submissions/Arm Crush/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Arm Crush/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## Playing as Attacker
 
-[[Arm Crush from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Crush/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ The Arm Crush is a powerful shoulder lock submission that combines crushing pres
 
 ## Playing as Defender
 
-[[Arm Crush from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Crush/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

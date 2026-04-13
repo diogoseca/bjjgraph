@@ -17,8 +17,8 @@ description: "Master the Americana from Shoulder of Justice in BJJ. Step-by-step
 
 <div class="role-links">
 
-[[Americana from Shoulder of Justice/Attacker|Play as Attacker]]
-[[Americana from Shoulder of Justice/Defender|Play as Defender]]
+[[Submissions/Americana/from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Shoulder of Justice/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 
 ## Playing as Attacker
 
-[[Americana from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, this submission functions as the centerpiece of the Shoulder of J
 
 ## Playing as Defender
 
-[[Americana from Shoulder of Justice/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Shoulder of Justice/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

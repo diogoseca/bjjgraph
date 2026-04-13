@@ -17,8 +17,8 @@ description: "Master the toe hold from 50-50 guard in BJJ. Learn figure-four gri
 
 <div class="role-links">
 
-[[Toe Hold from 50-50 Guard/Attacker|Play as Attacker]]
-[[Toe Hold from 50-50 Guard/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from 50-50 Guard/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from 50-50 Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ In competition, the toe hold from 50-50 has gained prominence as athletes develo
 
 ## Playing as Attacker
 
-[[Toe Hold from 50-50 Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from 50-50 Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ In competition, the toe hold from 50-50 has gained prominence as athletes develo
 
 ## Playing as Defender
 
-[[Toe Hold from 50-50 Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from 50-50 Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

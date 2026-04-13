@@ -17,8 +17,8 @@ description: "Master the Cross Collar Choke Finish from Invisible Collar in BJJ.
 
 <div class="role-links">
 
-[[Cross Collar Choke from Invisible Collar/Attacker|Play as Attacker]]
-[[Cross Collar Choke from Invisible Collar/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from Invisible Collar/Defender|Play as Defender]]
 
 </div>
 
@@ -104,7 +104,7 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from Invisible Collar/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from Invisible Collar/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ Strategically, this finish serves as the primary payoff for invisible collar pos
 
 ## Playing as Defender
 
-[[Cross Collar Choke from Invisible Collar/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from Invisible Collar/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

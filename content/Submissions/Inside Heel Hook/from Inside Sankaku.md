@@ -17,8 +17,8 @@ description: "Master the Inside Sankaku heel hook finish with detailed grip mech
 
 <div class="role-links">
 
-[[Inside Heel Hook from Inside Sankaku/Attacker|Play as Attacker]]
-[[Inside Heel Hook from Inside Sankaku/Defender|Play as Defender]]
+[[Submissions/Inside Heel Hook/from Inside Sankaku/Attacker|Play as Attacker]]
+[[Submissions/Inside Heel Hook/from Inside Sankaku/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Success depends on patience and systematic control breakdown rather than explosi
 
 ## Playing as Attacker
 
-[[Inside Heel Hook from Inside Sankaku/Attacker|→ Full Attacker Guide]]
+[[Submissions/Inside Heel Hook/from Inside Sankaku/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Success depends on patience and systematic control breakdown rather than explosi
 
 ## Playing as Defender
 
-[[Inside Heel Hook from Inside Sankaku/Defender|→ Full Defender Guide]]
+[[Submissions/Inside Heel Hook/from Inside Sankaku/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

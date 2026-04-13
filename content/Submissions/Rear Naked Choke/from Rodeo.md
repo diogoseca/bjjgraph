@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Rodeo Ride in BJJ. Complete guide
 
 <div class="role-links">
 
-[[Rear Naked Choke from Rodeo/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Rodeo/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Rodeo/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Rodeo/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ This submission represents a high-level integration of positional control and fi
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Rodeo/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Rodeo/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission represents a high-level integration of positional control and fi
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Rodeo/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Rodeo/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

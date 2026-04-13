@@ -17,8 +17,8 @@ description: "Master the kneebar from Honey Hole in BJJ. Complete guide to hip e
 
 <div class="role-links">
 
-[[Kneebar from Honey Hole/Attacker|Play as Attacker]]
-[[Kneebar from Honey Hole/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Honey Hole/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Honey Hole/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 
 ## Playing as Attacker
 
-[[Kneebar from Honey Hole/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Honey Hole/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ In competition, this attack chain is a hallmark of systematic leg lock play. Eli
 
 ## Playing as Defender
 
-[[Kneebar from Honey Hole/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Honey Hole/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

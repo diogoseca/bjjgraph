@@ -17,8 +17,8 @@ description: "Master the toe hold from kneebar control in BJJ. Learn grip transi
 
 <div class="role-links">
 
-[[Toe Hold from Kneebar Control/Attacker|Play as Attacker]]
-[[Toe Hold from Kneebar Control/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Kneebar Control/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Kneebar Control/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ What makes this combination particularly effective is the dilemma it creates for
 
 ## Playing as Attacker
 
-[[Toe Hold from Kneebar Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Kneebar Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ What makes this combination particularly effective is the dilemma it creates for
 
 ## Playing as Defender
 
-[[Toe Hold from Kneebar Control/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Kneebar Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

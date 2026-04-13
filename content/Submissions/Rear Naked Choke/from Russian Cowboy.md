@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Russian Cowboy. Learn setup mecha
 
 <div class="role-links">
 
-[[Rear Naked Choke from Russian Cowboy/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Russian Cowboy/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Russian Cowboy/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Russian Cowboy/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Russian Cowboy/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ Strategically, the RNC threat serves as the primary fork in the Russian Cowboy a
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Russian Cowboy/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Russian Cowboy/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

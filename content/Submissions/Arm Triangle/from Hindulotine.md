@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Hindulotine in BJJ. Learn how guillot
 
 <div class="role-links">
 
-[[Arm Triangle from Hindulotine/Attacker|Play as Attacker]]
-[[Arm Triangle from Hindulotine/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Hindulotine/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Hindulotine/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The strategic value lies in the dilemma this creates within the Hindulotine atta
 
 ## Playing as Attacker
 
-[[Arm Triangle from Hindulotine/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Hindulotine/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The strategic value lies in the dilemma this creates within the Hindulotine atta
 
 ## Playing as Defender
 
-[[Arm Triangle from Hindulotine/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Hindulotine/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

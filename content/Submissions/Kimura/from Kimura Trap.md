@@ -17,8 +17,8 @@ description: "Master the Kimura from Kimura Trap in BJJ. Complete guide to finis
 
 <div class="role-links">
 
-[[Kimura from Kimura Trap/Attacker|Play as Attacker]]
-[[Kimura from Kimura Trap/Defender|Play as Defender]]
+[[Submissions/Kimura/from Kimura Trap/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Kimura Trap/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 ## Playing as Attacker
 
-[[Kimura from Kimura Trap/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Kimura Trap/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ Strategically, the Kimura from Kimura Trap creates compounding dilemmas: defendi
 
 ## Playing as Defender
 
-[[Kimura from Kimura Trap/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Kimura Trap/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

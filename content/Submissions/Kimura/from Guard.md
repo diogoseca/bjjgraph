@@ -17,8 +17,8 @@ description: "Master the Kimura from Guard in BJJ. Complete guide covering setup
 
 <div class="role-links">
 
-[[Kimura from Guard/Attacker|Play as Attacker]]
-[[Kimura from Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 ## Playing as Attacker
 
-[[Kimura from Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The position operates on the principle that the figure-four grip isolates the sh
 
 ## Playing as Defender
 
-[[Kimura from Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

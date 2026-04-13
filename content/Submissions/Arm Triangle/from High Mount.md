@@ -17,8 +17,8 @@ description: "Master the arm triangle choke from high mount in BJJ. Step-by-step
 
 <div class="role-links">
 
-[[Arm Triangle from High Mount/Attacker|Play as Attacker]]
-[[Arm Triangle from High Mount/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from High Mount/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from High Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 
 ## Playing as Attacker
 
-[[Arm Triangle from High Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from High Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, the arm triangle from high mount integrates seamlessly into syste
 
 ## Playing as Defender
 
-[[Arm Triangle from High Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from High Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Ezekiel Choke from Mount in BJJ. Learn sleeve grip mech
 
 <div class="role-links">
 
-[[Ezekiel Choke from Mount/Attacker|Play as Attacker]]
-[[Ezekiel Choke from Mount/Defender|Play as Defender]]
+[[Submissions/Ezekiel Choke/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Ezekiel Choke/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 
 ## Playing as Attacker
 
-[[Ezekiel Choke from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Ezekiel Choke/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ From a strategic perspective, the Ezekiel Choke from Mount fills a critical role
 
 ## Playing as Defender
 
-[[Ezekiel Choke from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Ezekiel Choke/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

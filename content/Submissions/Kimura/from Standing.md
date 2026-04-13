@@ -17,8 +17,8 @@ description: "Master the Kimura from Standing in BJJ. Complete safety guide with
 
 <div class="role-links">
 
-[[Kimura from Standing/Attacker|Play as Attacker]]
-[[Kimura from Standing/Defender|Play as Defender]]
+[[Submissions/Kimura/from Standing/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Standing/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Playing as Attacker
 
-[[Kimura from Standing/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Standing/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ The Kimura from Standing represents one of the most versatile shoulder lock appl
 
 ## Playing as Defender
 
-[[Kimura from Standing/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Standing/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

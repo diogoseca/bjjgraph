@@ -17,8 +17,8 @@ description: "Master the Flying Armbar technique in BJJ. High-risk aerial submis
 
 <div class="role-links">
 
-[[Flying Armbar from Closed Guard/Attacker|Play as Attacker]]
-[[Flying Armbar from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Flying Armbar/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Flying Armbar/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ## Playing as Attacker
 
-[[Flying Armbar from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Flying Armbar/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ While spectacular when successful, the Flying Armbar carries significant risks i
 
 ## Playing as Defender
 
-[[Flying Armbar from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Flying Armbar/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

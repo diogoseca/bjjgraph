@@ -17,8 +17,8 @@ description: "Master the Mounted Crucifix Armbar in BJJ. Complete guide to arm i
 
 <div class="role-links">
 
-[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|Play as Attacker]]
-[[Mounted Crucifix Armbar from Mounted Crucifix/Defender|Play as Defender]]
+[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ## Playing as Attacker
 
-[[Mounted Crucifix Armbar from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ Mechanically, the armbar requires the attacker to pivot their hips toward the ta
 
 ## Playing as Defender
 
-[[Mounted Crucifix Armbar from Mounted Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Mounted Crucifix Armbar/from Mounted Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

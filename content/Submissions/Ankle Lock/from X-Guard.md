@@ -17,8 +17,8 @@ description: "Master the ankle lock from X-Guard in BJJ. Complete guide to setup
 
 <div class="role-links">
 
-[[Ankle Lock from X-Guard/Attacker|Play as Attacker]]
-[[Ankle Lock from X-Guard/Defender|Play as Defender]]
+[[Submissions/Ankle Lock/from X-Guard/Attacker|Play as Attacker]]
+[[Submissions/Ankle Lock/from X-Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 ## Playing as Attacker
 
-[[Ankle Lock from X-Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Ankle Lock/from X-Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The mechanical advantage stems from controlling the opponent's hip rotation with
 
 ## Playing as Defender
 
-[[Ankle Lock from X-Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Ankle Lock/from X-Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

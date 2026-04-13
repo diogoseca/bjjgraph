@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Kesa Gatame in BJJ. Comple
 
 <div class="role-links">
 
-[[Americana from Kesa Gatame/Attacker|Play as Attacker]]
-[[Americana from Kesa Gatame/Defender|Play as Defender]]
+[[Submissions/Americana/from Kesa Gatame/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Kesa Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 ## Playing as Attacker
 
-[[Americana from Kesa Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Kesa Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ From a competitive standpoint, the Americana from Kesa Gatame is particularly ef
 
 ## Playing as Defender
 
-[[Americana from Kesa Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Kesa Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

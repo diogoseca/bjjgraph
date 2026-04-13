@@ -17,8 +17,8 @@ description: "Understand Can Opener neck crank in BJJ: safety risks, legal statu
 
 <div class="role-links">
 
-[[Can Opener from Closed Guard/Attacker|Play as Attacker]]
-[[Can Opener from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Can Opener/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Can Opener/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ## Playing as Attacker
 
-[[Can Opener from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Can Opener/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The Can Opener is a neck crank technique applied from within an opponent's close
 
 ## Playing as Defender
 
-[[Can Opener from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Can Opener/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Estima Lock from Honey Hole in BJJ. Complete guide to f
 
 <div class="role-links">
 
-[[Estima Lock from Honey Hole/Attacker|Play as Attacker]]
-[[Estima Lock from Honey Hole/Defender|Play as Defender]]
+[[Submissions/Estima Lock/from Honey Hole/Attacker|Play as Attacker]]
+[[Submissions/Estima Lock/from Honey Hole/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 
 ## Playing as Attacker
 
-[[Estima Lock from Honey Hole/Attacker|→ Full Attacker Guide]]
+[[Submissions/Estima Lock/from Honey Hole/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ From a competition standpoint, the Estima Lock from Honey Hole functions as a se
 
 ## Playing as Defender
 
-[[Estima Lock from Honey Hole/Defender|→ Full Defender Guide]]
+[[Submissions/Estima Lock/from Honey Hole/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Reverse Scarf Hold with exper
 
 <div class="role-links">
 
-[[Kimura from Reverse Scarf Hold/Attacker|Play as Attacker]]
-[[Kimura from Reverse Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Kimura/from Reverse Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Reverse Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission integrates into a broader attack system from reverse scarf hold 
 
 ## Playing as Attacker
 
-[[Kimura from Reverse Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Reverse Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission integrates into a broader attack system from reverse scarf hold 
 
 ## Playing as Defender
 
-[[Kimura from Reverse Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Reverse Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

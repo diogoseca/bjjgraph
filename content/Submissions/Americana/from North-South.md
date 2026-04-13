@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from North-South position. Comp
 
 <div class="role-links">
 
-[[Americana from North-South/Attacker|Play as Attacker]]
-[[Americana from North-South/Defender|Play as Defender]]
+[[Submissions/Americana/from North-South/Attacker|Play as Attacker]]
+[[Submissions/Americana/from North-South/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 ## Playing as Attacker
 
-[[Americana from North-South/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from North-South/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, this submission functions as a natural chain attack from North-So
 
 ## Playing as Defender
 
-[[Americana from North-South/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from North-South/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

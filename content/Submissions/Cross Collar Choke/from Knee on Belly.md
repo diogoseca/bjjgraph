@@ -17,8 +17,8 @@ description: "Master the cross collar choke from knee on belly. Learn grip seque
 
 <div class="role-links">
 
-[[Cross Collar Choke from Knee on Belly/Attacker|Play as Attacker]]
-[[Cross Collar Choke from Knee on Belly/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from Knee on Belly/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from Knee on Belly/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from Knee on Belly/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ The key strategic consideration is grip sequencing. The first grip must be deep 
 
 ## Playing as Defender
 
-[[Cross Collar Choke from Knee on Belly/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from Knee on Belly/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

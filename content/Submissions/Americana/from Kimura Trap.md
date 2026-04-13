@@ -17,8 +17,8 @@ description: "Master the Americana from Kimura Trap in BJJ. Convert your Kimura 
 
 <div class="role-links">
 
-[[Americana from Kimura Trap/Attacker|Play as Attacker]]
-[[Americana from Kimura Trap/Defender|Play as Defender]]
+[[Submissions/Americana/from Kimura Trap/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Kimura Trap/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 ## Playing as Attacker
 
-[[Americana from Kimura Trap/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Kimura Trap/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ At the purple and brown belt level, this technique punishes opponents who have d
 
 ## Playing as Defender
 
-[[Americana from Kimura Trap/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Kimura Trap/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

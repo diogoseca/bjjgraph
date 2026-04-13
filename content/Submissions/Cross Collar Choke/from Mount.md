@@ -17,8 +17,8 @@ description: "Master the Cross Collar Choke from Mount in BJJ. Learn deep collar
 
 <div class="role-links">
 
-[[Cross Collar Choke from Mount/Attacker|Play as Attacker]]
-[[Cross Collar Choke from Mount/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From a strategic standpoint, the Cross Collar Choke creates a powerful dilemma t
 
 ## Playing as Defender
 
-[[Cross Collar Choke from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

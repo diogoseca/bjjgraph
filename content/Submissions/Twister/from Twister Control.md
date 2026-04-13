@@ -17,8 +17,8 @@ description: "Master the Twister submission from Twister Control. Complete guide
 
 <div class="role-links">
 
-[[Twister from Twister Control/Attacker|Play as Attacker]]
-[[Twister from Twister Control/Defender|Play as Defender]]
+[[Submissions/Twister/from Twister Control/Attacker|Play as Attacker]]
+[[Submissions/Twister/from Twister Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 ## Playing as Attacker
 
-[[Twister from Twister Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Twister/from Twister Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the Twister requires patience and precise sequencing rather than 
 
 ## Playing as Defender
 
-[[Twister from Twister Control/Defender|→ Full Defender Guide]]
+[[Submissions/Twister/from Twister Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

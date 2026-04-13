@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Modified Mount. Learn grip me
 
 <div class="role-links">
 
-[[Kimura from Modified Mount/Attacker|Play as Attacker]]
-[[Kimura from Modified Mount/Defender|Play as Defender]]
+[[Submissions/Kimura/from Modified Mount/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Modified Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, this submission chains effectively with armbars and americanas fr
 
 ## Playing as Attacker
 
-[[Kimura from Modified Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Modified Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Strategically, this submission chains effectively with armbars and americanas fr
 
 ## Playing as Defender
 
-[[Kimura from Modified Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Modified Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

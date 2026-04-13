@@ -17,8 +17,8 @@ description: "Master the Breadcutter Choke from Kuzure Kesa-Gatame with expert c
 
 <div class="role-links">
 
-[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
-[[Breadcutter Choke from Kuzure Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 
 ## Playing as Attacker
 
-[[Breadcutter Choke from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this choke functions as the apex of a multi-threat attack chain f
 
 ## Playing as Defender
 
-[[Breadcutter Choke from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Breadcutter Choke/from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

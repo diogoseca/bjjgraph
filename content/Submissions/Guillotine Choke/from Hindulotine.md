@@ -17,8 +17,8 @@ description: "Master the guillotine choke finish from Hindulotine position. Lear
 
 <div class="role-links">
 
-[[Guillotine Choke from Hindulotine/Attacker|Play as Attacker]]
-[[Guillotine Choke from Hindulotine/Defender|Play as Defender]]
+[[Submissions/Guillotine Choke/from Hindulotine/Attacker|Play as Attacker]]
+[[Submissions/Guillotine Choke/from Hindulotine/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 
 ## Playing as Attacker
 
-[[Guillotine Choke from Hindulotine/Attacker|→ Full Attacker Guide]]
+[[Submissions/Guillotine Choke/from Hindulotine/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ In competition, the Hindulotine guillotine finish is particularly effective in n
 
 ## Playing as Defender
 
-[[Guillotine Choke from Hindulotine/Defender|→ Full Defender Guide]]
+[[Submissions/Guillotine Choke/from Hindulotine/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

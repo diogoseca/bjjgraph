@@ -17,8 +17,8 @@ description: "Master the armbar from knee on belly in BJJ. Complete guide to set
 
 <div class="role-links">
 
-[[Armbar from Knee on Belly/Attacker|Play as Attacker]]
-[[Armbar from Knee on Belly/Defender|Play as Defender]]
+[[Submissions/Armbar/from Knee on Belly/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Knee on Belly/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 ## Playing as Attacker
 
-[[Armbar from Knee on Belly/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Knee on Belly/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ Strategically, the armbar from knee on belly functions as part of a broader atta
 
 ## Playing as Defender
 
-[[Armbar from Knee on Belly/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Knee on Belly/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the omoplata finish from omoplata control position. Complet
 
 <div class="role-links">
 
-[[Omoplata from Omoplata Control/Attacker|Play as Attacker]]
-[[Omoplata from Omoplata Control/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Omoplata Control/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Omoplata Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ In competition, the omoplata from established control carries a significantly hi
 
 ## Playing as Attacker
 
-[[Omoplata from Omoplata Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Omoplata Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ In competition, the omoplata from established control carries a significantly hi
 
 ## Playing as Defender
 
-[[Omoplata from Omoplata Control/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Omoplata Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Achilles Lock leg submission in BJJ. Complete guide cov
 
 <div class="role-links">
 
-[[Achilles Lock from Inside Ashi-Garami/Attacker|Play as Attacker]]
-[[Achilles Lock from Inside Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Achilles Lock/from Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Achilles Lock/from Inside Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Playing as Attacker
 
-[[Achilles Lock from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Achilles Lock/from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Achilles Lock is a fundamental leg lock submission that targets the Achilles
 
 ## Playing as Defender
 
-[[Achilles Lock from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Achilles Lock/from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

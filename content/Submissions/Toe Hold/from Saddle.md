@@ -17,8 +17,8 @@ description: "Master the toe hold from saddle with expert grip mechanics, finish
 
 <div class="role-links">
 
-[[Toe Hold from Saddle/Attacker|Play as Attacker]]
-[[Toe Hold from Saddle/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Saddle/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Saddle/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 
 ## Playing as Attacker
 
-[[Toe Hold from Saddle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Saddle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Technically, the saddle amplifies the toe hold's effectiveness compared to other
 
 ## Playing as Defender
 
-[[Toe Hold from Saddle/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Saddle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

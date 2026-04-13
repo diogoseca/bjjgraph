@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Gift Wrap in BJJ. Learn how the a
 
 <div class="role-links">
 
-[[Rear Naked Choke from Gift Wrap/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Gift Wrap/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Gift Wrap/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Gift Wrap/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Gift Wrap/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ From a systems perspective, the Gift Wrap RNC sits at the apex of the back attac
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Gift Wrap/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Gift Wrap/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

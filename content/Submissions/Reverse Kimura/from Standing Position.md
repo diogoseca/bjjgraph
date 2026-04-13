@@ -17,8 +17,8 @@ description: "Master Reverse Kimura in BJJ. Complete guide with safety protocols
 
 <div class="role-links">
 
-[[Reverse Kimura from Standing Position/Attacker|Play as Attacker]]
-[[Reverse Kimura from Standing Position/Defender|Play as Defender]]
+[[Submissions/Reverse Kimura/from Standing Position/Attacker|Play as Attacker]]
+[[Submissions/Reverse Kimura/from Standing Position/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## Playing as Attacker
 
-[[Reverse Kimura from Standing Position/Attacker|→ Full Attacker Guide]]
+[[Submissions/Reverse Kimura/from Standing Position/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Reverse Kimura is a shoulder lock variation that applies the same rotational
 
 ## Playing as Defender
 
-[[Reverse Kimura from Standing Position/Defender|→ Full Defender Guide]]
+[[Submissions/Reverse Kimura/from Standing Position/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

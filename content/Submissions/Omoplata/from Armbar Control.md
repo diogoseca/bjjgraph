@@ -17,8 +17,8 @@ description: "Master the omoplata from armbar control in BJJ. Complete guide cov
 
 <div class="role-links">
 
-[[Omoplata from Armbar Control/Attacker|Play as Attacker]]
-[[Omoplata from Armbar Control/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Armbar Control/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Armbar Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 
 ## Playing as Attacker
 
-[[Omoplata from Armbar Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Armbar Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ What makes this chain particularly dangerous in competition is the binary dilemm
 
 ## Playing as Defender
 
-[[Omoplata from Armbar Control/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Armbar Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Scarf Hold Position. Learn grip trans
 
 <div class="role-links">
 
-[[Arm Triangle from Scarf Hold Position/Attacker|Play as Attacker]]
-[[Arm Triangle from Scarf Hold Position/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Scarf Hold Position/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Scarf Hold Position/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ This submission chain rewards patient practitioners who understand how to read d
 
 ## Playing as Attacker
 
-[[Arm Triangle from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ This submission chain rewards patient practitioners who understand how to read d
 
 ## Playing as Defender
 
-[[Arm Triangle from Scarf Hold Position/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Scarf Hold Position/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Kimura from Half Guard in BJJ. Complete guide with safe
 
 <div class="role-links">
 
-[[Kimura from Half Guard/Attacker|Play as Attacker]]
-[[Kimura from Half Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ## Playing as Attacker
 
-[[Kimura from Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ The **Kimura from Half Guard** is one of the most versatile shoulder locks in Br
 
 ## Playing as Defender
 
-[[Kimura from Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

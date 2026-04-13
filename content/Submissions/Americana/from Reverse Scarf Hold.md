@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Reverse Scarf Hold. Comple
 
 <div class="role-links">
 
-[[Americana from Reverse Scarf Hold/Attacker|Play as Attacker]]
-[[Americana from Reverse Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Americana/from Reverse Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Reverse Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the Americana from Reverse Scarf Hold functions as both a primary
 
 ## Playing as Attacker
 
-[[Americana from Reverse Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Reverse Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the Americana from Reverse Scarf Hold functions as both a primary
 
 ## Playing as Defender
 
-[[Americana from Reverse Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Reverse Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

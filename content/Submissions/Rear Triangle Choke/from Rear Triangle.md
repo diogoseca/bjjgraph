@@ -17,8 +17,8 @@ description: "Master the rear triangle choke finish from rear triangle position.
 
 <div class="role-links">
 
-[[Rear Triangle Choke from Rear Triangle/Attacker|Play as Attacker]]
-[[Rear Triangle Choke from Rear Triangle/Defender|Play as Defender]]
+[[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|Play as Attacker]]
+[[Submissions/Rear Triangle Choke/from Rear Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 
 ## Playing as Attacker
 
-[[Rear Triangle Choke from Rear Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Triangle Choke/from Rear Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Strategically, this finish sits at the apex of a submission chain from rear tria
 
 ## Playing as Defender
 
-[[Rear Triangle Choke from Rear Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Triangle Choke/from Rear Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

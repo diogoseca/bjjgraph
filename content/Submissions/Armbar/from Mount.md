@@ -17,8 +17,8 @@ description: "Master Armbar from Mount in BJJ. Complete safety protocols, setup,
 
 <div class="role-links">
 
-[[Armbar from Mount/Attacker|Play as Attacker]]
-[[Armbar from Mount/Defender|Play as Defender]]
+[[Submissions/Armbar/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ## Playing as Attacker
 
-[[Armbar from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The armbar from mount serves as a gateway submission that opens pathways to mult
 
 ## Playing as Defender
 
-[[Armbar from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

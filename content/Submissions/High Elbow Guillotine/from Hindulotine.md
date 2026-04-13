@@ -17,8 +17,8 @@ description: "Master the High Elbow Guillotine from Hindulotine. Learn elevated 
 
 <div class="role-links">
 
-[[High Elbow Guillotine from Hindulotine/Attacker|Play as Attacker]]
-[[High Elbow Guillotine from Hindulotine/Defender|Play as Defender]]
+[[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|Play as Attacker]]
+[[Submissions/High Elbow Guillotine/from Hindulotine/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 
 ## Playing as Attacker
 
-[[High Elbow Guillotine from Hindulotine/Attacker|→ Full Attacker Guide]]
+[[Submissions/High Elbow Guillotine/from Hindulotine/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this submission thrives when the opponent attempts to defend the 
 
 ## Playing as Defender
 
-[[High Elbow Guillotine from Hindulotine/Defender|→ Full Defender Guide]]
+[[Submissions/High Elbow Guillotine/from Hindulotine/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Scarf Hold Position. Learn
 
 <div class="role-links">
 
-[[Americana from Scarf Hold Position/Attacker|Play as Attacker]]
-[[Americana from Scarf Hold Position/Defender|Play as Defender]]
+[[Submissions/Americana/from Scarf Hold Position/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Scarf Hold Position/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Defensively, the bottom player must recognize the grip transition early and figh
 
 ## Playing as Attacker
 
-[[Americana from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Defensively, the bottom player must recognize the grip transition early and figh
 
 ## Playing as Defender
 
-[[Americana from Scarf Hold Position/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Scarf Hold Position/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

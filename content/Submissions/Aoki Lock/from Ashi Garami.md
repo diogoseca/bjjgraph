@@ -17,8 +17,8 @@ description: "Master the Aoki Lock leg compression in BJJ. Safety guide with set
 
 <div class="role-links">
 
-[[Aoki Lock from Ashi Garami/Attacker|Play as Attacker]]
-[[Aoki Lock from Ashi Garami/Defender|Play as Defender]]
+[[Submissions/Aoki Lock/from Ashi Garami/Attacker|Play as Attacker]]
+[[Submissions/Aoki Lock/from Ashi Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 ## Playing as Attacker
 
-[[Aoki Lock from Ashi Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Aoki Lock/from Ashi Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The Aoki Lock, named after Japanese MMA fighter Shinya Aoki, is a sophisticated 
 
 ## Playing as Defender
 
-[[Aoki Lock from Ashi Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Aoki Lock/from Ashi Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

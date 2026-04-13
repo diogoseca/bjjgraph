@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from Spider Guard. Learn grip 
 
 <div class="role-links">
 
-[[Belly Down Armbar from Spider Guard/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Spider Guard/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Spider Guard/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Spider Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Spider Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Spider Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ Once the initial armbar position is secured, the attacker rotates to belly-down 
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Spider Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Spider Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

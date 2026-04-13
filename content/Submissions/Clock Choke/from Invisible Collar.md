@@ -17,8 +17,8 @@ description: "Master the Clock Choke from Invisible Collar with concealed collar
 
 <div class="role-links">
 
-[[Clock Choke from Invisible Collar/Attacker|Play as Attacker]]
-[[Clock Choke from Invisible Collar/Defender|Play as Defender]]
+[[Submissions/Clock Choke/from Invisible Collar/Attacker|Play as Attacker]]
+[[Submissions/Clock Choke/from Invisible Collar/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 
 ## Playing as Attacker
 
-[[Clock Choke from Invisible Collar/Attacker|→ Full Attacker Guide]]
+[[Submissions/Clock Choke/from Invisible Collar/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -164,7 +164,7 @@ In competition, this technique punishes opponents who prioritize hook defense ov
 
 ## Playing as Defender
 
-[[Clock Choke from Invisible Collar/Defender|→ Full Defender Guide]]
+[[Submissions/Clock Choke/from Invisible Collar/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

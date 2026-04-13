@@ -17,8 +17,8 @@ description: "Master the Americana from 3-4 Mount in BJJ. Step-by-step shoulder 
 
 <div class="role-links">
 
-[[Americana from 3-4 Mount/Attacker|Play as Attacker]]
-[[Americana from 3-4 Mount/Defender|Play as Defender]]
+[[Submissions/Americana/from 3-4 Mount/Attacker|Play as Attacker]]
+[[Submissions/Americana/from 3-4 Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 ## Playing as Attacker
 
-[[Americana from 3-4 Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from 3-4 Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the Americana from 3-4 Mount functions as the centerpiece of a su
 
 ## Playing as Defender
 
-[[Americana from 3-4 Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from 3-4 Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

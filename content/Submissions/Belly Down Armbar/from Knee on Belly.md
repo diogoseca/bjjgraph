@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from knee on belly in BJJ. Com
 
 <div class="role-links">
 
-[[Belly Down Armbar from Knee on Belly/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Knee on Belly/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Knee on Belly/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Knee on Belly/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Knee on Belly/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From a defensive perspective, the speed of the transition from knee on belly pre
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Knee on Belly/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Knee on Belly/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

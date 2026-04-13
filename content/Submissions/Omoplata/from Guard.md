@@ -17,8 +17,8 @@ description: "Master Omoplata from Guard in BJJ. Complete shoulder lock guide wi
 
 <div class="role-links">
 
-[[Omoplata from Guard/Attacker|Play as Attacker]]
-[[Omoplata from Guard/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Guard/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ## Playing as Attacker
 
-[[Omoplata from Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Omoplata from Guard is a versatile shoulder lock that attacks the opponent's
 
 ## Playing as Defender
 
-[[Omoplata from Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

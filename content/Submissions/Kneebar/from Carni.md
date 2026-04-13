@@ -17,8 +17,8 @@ description: "Master the kneebar from Carni position in BJJ. Complete guide to s
 
 <div class="role-links">
 
-[[Kneebar from Carni/Attacker|Play as Attacker]]
-[[Kneebar from Carni/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Carni/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Carni/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ This submission chains directly with heel hook threats from Carni, establishing 
 
 ## Playing as Attacker
 
-[[Kneebar from Carni/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Carni/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This submission chains directly with heel hook threats from Carni, establishing 
 
 ## Playing as Defender
 
-[[Kneebar from Carni/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Carni/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

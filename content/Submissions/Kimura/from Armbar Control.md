@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Armbar Control in BJJ. Learn 
 
 <div class="role-links">
 
-[[Kimura from Armbar Control/Attacker|Play as Attacker]]
-[[Kimura from Armbar Control/Defender|Play as Defender]]
+[[Submissions/Kimura/from Armbar Control/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Armbar Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ What makes this attack devastatingly effective is the positional advantage alrea
 
 ## Playing as Attacker
 
-[[Kimura from Armbar Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Armbar Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ What makes this attack devastatingly effective is the positional advantage alrea
 
 ## Playing as Defender
 
-[[Kimura from Armbar Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Armbar Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

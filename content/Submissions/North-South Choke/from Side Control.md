@@ -17,8 +17,8 @@ description: "Master the North-South Choke from Side Control in BJJ. Learn the t
 
 <div class="role-links">
 
-[[North-South Choke from Side Control/Attacker|Play as Attacker]]
-[[North-South Choke from Side Control/Defender|Play as Defender]]
+[[Submissions/North-South Choke/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/North-South Choke/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission is particularly effective against opponents who defend side cont
 
 ## Playing as Attacker
 
-[[North-South Choke from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/North-South Choke/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission is particularly effective against opponents who defend side cont
 
 ## Playing as Defender
 
-[[North-South Choke from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/North-South Choke/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

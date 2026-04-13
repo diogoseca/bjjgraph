@@ -17,8 +17,8 @@ description: "Master the Ten Finger Guillotine from Guillotine Control in BJJ. S
 
 <div class="role-links">
 
-[[Ten Finger Guillotine from Guillotine Control/Attacker|Play as Attacker]]
-[[Ten Finger Guillotine from Guillotine Control/Defender|Play as Defender]]
+[[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
+[[Submissions/Ten Finger Guillotine/from Guillotine Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 ## Playing as Attacker
 
-[[Ten Finger Guillotine from Guillotine Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Ten Finger Guillotine/from Guillotine Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission chains naturally with the broader guillotine cont
 
 ## Playing as Defender
 
-[[Ten Finger Guillotine from Guillotine Control/Defender|→ Full Defender Guide]]
+[[Submissions/Ten Finger Guillotine/from Guillotine Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

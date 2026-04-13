@@ -17,8 +17,8 @@ description: "Master the Brabo Choke in BJJ. Complete guide with safety protocol
 
 <div class="role-links">
 
-[[Brabo Choke from Front Headlock/Attacker|Play as Attacker]]
-[[Brabo Choke from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Brabo Choke/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Brabo Choke/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## Playing as Attacker
 
-[[Brabo Choke from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Brabo Choke/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Brabo Choke is a powerful blood choke from the front headlock position, clos
 
 ## Playing as Defender
 
-[[Brabo Choke from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Brabo Choke/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

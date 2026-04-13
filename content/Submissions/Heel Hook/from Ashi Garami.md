@@ -17,8 +17,8 @@ description: "Master the heel hook from Ashi Garami with systematic grip mechani
 
 <div class="role-links">
 
-[[Heel Hook from Ashi Garami/Attacker|Play as Attacker]]
-[[Heel Hook from Ashi Garami/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Ashi Garami/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Ashi Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -116,7 +116,7 @@ Strategically, the heel hook from outside Ashi serves dual purpose. As a direct 
 
 ## Playing as Attacker
 
-[[Heel Hook from Ashi Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Ashi Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -174,7 +174,7 @@ Strategically, the heel hook from outside Ashi serves dual purpose. As a direct 
 
 ## Playing as Defender
 
-[[Heel Hook from Ashi Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Ashi Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

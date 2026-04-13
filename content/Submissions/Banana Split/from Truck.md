@@ -17,8 +17,8 @@ description: "Master the Banana Split compression submission in BJJ. Complete gu
 
 <div class="role-links">
 
-[[Banana Split from Truck/Attacker|Play as Attacker]]
-[[Banana Split from Truck/Defender|Play as Defender]]
+[[Submissions/Banana Split/from Truck/Attacker|Play as Attacker]]
+[[Submissions/Banana Split/from Truck/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## Playing as Attacker
 
-[[Banana Split from Truck/Attacker|→ Full Attacker Guide]]
+[[Submissions/Banana Split/from Truck/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The Banana Split often works in combination with other attacks from half guard a
 
 ## Playing as Defender
 
-[[Banana Split from Truck/Defender|→ Full Defender Guide]]
+[[Submissions/Banana Split/from Truck/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

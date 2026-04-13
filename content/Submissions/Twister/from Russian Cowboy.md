@@ -17,8 +17,8 @@ description: "Learn the Twister Finish from Russian Cowboy in BJJ. Spinal lock s
 
 <div class="role-links">
 
-[[Twister from Russian Cowboy/Attacker|Play as Attacker]]
-[[Twister from Russian Cowboy/Defender|Play as Defender]]
+[[Submissions/Twister/from Russian Cowboy/Attacker|Play as Attacker]]
+[[Submissions/Twister/from Russian Cowboy/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 ## Playing as Attacker
 
-[[Twister from Russian Cowboy/Attacker|→ Full Attacker Guide]]
+[[Submissions/Twister/from Russian Cowboy/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The submission's danger profile demands extreme caution in training. The spinal 
 
 ## Playing as Defender
 
-[[Twister from Russian Cowboy/Defender|→ Full Defender Guide]]
+[[Submissions/Twister/from Russian Cowboy/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

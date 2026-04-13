@@ -17,8 +17,8 @@ description: "Master the Kimura from Reverse Kesa-Gatame with expert finishing m
 
 <div class="role-links">
 
-[[Kimura from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
-[[Kimura from Reverse Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Kimura/from Reverse Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Reverse Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 
 ## Playing as Attacker
 
-[[Kimura from Reverse Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Reverse Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Strategically, this Kimura variant functions as both a direct finishing tool and
 
 ## Playing as Defender
 
-[[Kimura from Reverse Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Reverse Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

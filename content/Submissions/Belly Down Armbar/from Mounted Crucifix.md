@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from mounted crucifix. Learn p
 
 <div class="role-links">
 
-[[Belly Down Armbar from Mounted Crucifix/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Mounted Crucifix/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Mounted Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Mounted Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, this submission chains naturally with other mounted crucifix atta
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Mounted Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Mounted Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the toe hold from Honey Hole in BJJ. Complete finishing gui
 
 <div class="role-links">
 
-[[Toe Hold from Honey Hole/Attacker|Play as Attacker]]
-[[Toe Hold from Honey Hole/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Honey Hole/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Honey Hole/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ In competition, this technique forces opponents to choose between defending the 
 
 ## Playing as Attacker
 
-[[Toe Hold from Honey Hole/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Honey Hole/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ In competition, this technique forces opponents to choose between defending the 
 
 ## Playing as Defender
 
-[[Toe Hold from Honey Hole/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Honey Hole/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Kimura from Side Control in BJJ. Comprehensive guide co
 
 <div class="role-links">
 
-[[Kimura from Side Control/Attacker|Play as Attacker]]
-[[Kimura from Side Control/Defender|Play as Defender]]
+[[Submissions/Kimura/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## Playing as Attacker
 
-[[Kimura from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Kimura from Side Control is one of the most fundamental and high-percentage 
 
 ## Playing as Defender
 
-[[Kimura from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

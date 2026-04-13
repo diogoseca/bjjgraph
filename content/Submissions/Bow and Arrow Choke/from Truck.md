@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from Truck. Learn collar grip setup
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Truck/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Truck/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Truck/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Truck/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The mechanical advantage of this variation comes from the existing leg entanglem
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Truck/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Truck/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The mechanical advantage of this variation comes from the existing leg entanglem
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Truck/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Truck/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

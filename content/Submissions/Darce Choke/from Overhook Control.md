@@ -17,8 +17,8 @@ description: "Master the Darce Choke from Overhook Control with expert finishing
 
 <div class="role-links">
 
-[[Darce Choke from Overhook Control/Attacker|Play as Attacker]]
-[[Darce Choke from Overhook Control/Defender|Play as Defender]]
+[[Submissions/Darce Choke/from Overhook Control/Attacker|Play as Attacker]]
+[[Submissions/Darce Choke/from Overhook Control/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Finishing from overhook control requires attention to body angle and hip positio
 
 ## Playing as Attacker
 
-[[Darce Choke from Overhook Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Darce Choke/from Overhook Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Finishing from overhook control requires attention to body angle and hip positio
 
 ## Playing as Defender
 
-[[Darce Choke from Overhook Control/Defender|→ Full Defender Guide]]
+[[Submissions/Darce Choke/from Overhook Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

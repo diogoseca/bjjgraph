@@ -17,8 +17,8 @@ description: "Master triangle choke from closed guard in BJJ. Complete guide cov
 
 <div class="role-links">
 
-[[Triangle Choke from Closed Guard/Attacker|Play as Attacker]]
-[[Triangle Choke from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 ## Playing as Attacker
 
-[[Triangle Choke from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ The technical execution of the triangle from closed guard requires precise angle
 
 ## Playing as Defender
 
-[[Triangle Choke from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

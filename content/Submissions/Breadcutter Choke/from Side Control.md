@@ -17,8 +17,8 @@ description: "Master the Breadcutter Choke from Side Control. Learn gi collar gr
 
 <div class="role-links">
 
-[[Breadcutter Choke from Side Control/Attacker|Play as Attacker]]
-[[Breadcutter Choke from Side Control/Defender|Play as Defender]]
+[[Submissions/Breadcutter Choke/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Breadcutter Choke/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ This choke is particularly effective because opponents under side control typica
 
 ## Playing as Attacker
 
-[[Breadcutter Choke from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Breadcutter Choke/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This choke is particularly effective because opponents under side control typica
 
 ## Playing as Defender
 
-[[Breadcutter Choke from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Breadcutter Choke/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

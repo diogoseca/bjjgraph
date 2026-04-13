@@ -17,8 +17,8 @@ description: "Master the Guillotine Choke from Clinch in BJJ. Complete guide to 
 
 <div class="role-links">
 
-[[Guillotine Choke from Clinch/Attacker|Play as Attacker]]
-[[Guillotine Choke from Clinch/Defender|Play as Defender]]
+[[Submissions/Guillotine Choke/from Clinch/Attacker|Play as Attacker]]
+[[Submissions/Guillotine Choke/from Clinch/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 ## Playing as Attacker
 
-[[Guillotine Choke from Clinch/Attacker|→ Full Attacker Guide]]
+[[Submissions/Guillotine Choke/from Clinch/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ In competition, the standing guillotine creates a compelling strategic dilemma. 
 
 ## Playing as Defender
 
-[[Guillotine Choke from Clinch/Defender|→ Full Defender Guide]]
+[[Submissions/Guillotine Choke/from Clinch/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

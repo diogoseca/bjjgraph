@@ -17,8 +17,8 @@ description: "Master the Buggy Choke finish from turtle top. Complete guide to c
 
 <div class="role-links">
 
-[[Buggy Choke from Buggy Choke/Attacker|Play as Attacker]]
-[[Buggy Choke from Buggy Choke/Defender|Play as Defender]]
+[[Submissions/Buggy Choke/from Buggy Choke/Attacker|Play as Attacker]]
+[[Submissions/Buggy Choke/from Buggy Choke/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ The primary strategic consideration when attempting this finish is timing the tr
 
 ## Playing as Attacker
 
-[[Buggy Choke from Buggy Choke/Attacker|→ Full Attacker Guide]]
+[[Submissions/Buggy Choke/from Buggy Choke/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ The primary strategic consideration when attempting this finish is timing the tr
 
 ## Playing as Defender
 
-[[Buggy Choke from Buggy Choke/Defender|→ Full Defender Guide]]
+[[Submissions/Buggy Choke/from Buggy Choke/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

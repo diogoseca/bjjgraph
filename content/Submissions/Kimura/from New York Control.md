@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from New York Control rubber guard
 
 <div class="role-links">
 
-[[Kimura from New York Control/Attacker|Play as Attacker]]
-[[Kimura from New York Control/Defender|Play as Defender]]
+[[Submissions/Kimura/from New York Control/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from New York Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 ## Playing as Attacker
 
-[[Kimura from New York Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from New York Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The finishing mechanics require precise hip escape movement to create the rotati
 
 ## Playing as Defender
 
-[[Kimura from New York Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from New York Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

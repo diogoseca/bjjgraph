@@ -17,8 +17,8 @@ description: "Master the outside heel hook from ushiro ashi-garami. Expert guide
 
 <div class="role-links">
 
-[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Ushiro Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Ushiro Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -175,7 +175,7 @@ The strategic value lies in converting escape attempts into finishing opportunit
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Ushiro Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Ushiro Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

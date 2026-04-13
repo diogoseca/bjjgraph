@@ -17,8 +17,8 @@ description: "Master the Kimura from Butterfly Guard in BJJ. Learn grip setup, h
 
 <div class="role-links">
 
-[[Kimura from Butterfly Guard/Attacker|Play as Attacker]]
-[[Kimura from Butterfly Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Butterfly Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Butterfly Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 ## Playing as Attacker
 
-[[Kimura from Butterfly Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Butterfly Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ Advanced practitioners chain the Kimura attempt directly off failed or feinted b
 
 ## Playing as Defender
 
-[[Kimura from Butterfly Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Butterfly Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

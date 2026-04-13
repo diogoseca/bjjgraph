@@ -17,8 +17,8 @@ description: "Master the Kimura from Shoulder of Justice in BJJ. Complete guide 
 
 <div class="role-links">
 
-[[Kimura from Shoulder of Justice/Attacker|Play as Attacker]]
-[[Kimura from Shoulder of Justice/Defender|Play as Defender]]
+[[Submissions/Kimura/from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Shoulder of Justice/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ## Playing as Attacker
 
-[[Kimura from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, this submission creates a powerful dilemma: the opponent must cho
 
 ## Playing as Defender
 
-[[Kimura from Shoulder of Justice/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Shoulder of Justice/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

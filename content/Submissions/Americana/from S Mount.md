@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from S Mount. Step-by-step guid
 
 <div class="role-links">
 
-[[Americana from S Mount/Attacker|Play as Attacker]]
-[[Americana from S Mount/Defender|Play as Defender]]
+[[Submissions/Americana/from S Mount/Attacker|Play as Attacker]]
+[[Submissions/Americana/from S Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 ## Playing as Attacker
 
-[[Americana from S Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from S Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the Americana from S Mount serves as a powerful secondary attack 
 
 ## Playing as Defender
 
-[[Americana from S Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from S Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

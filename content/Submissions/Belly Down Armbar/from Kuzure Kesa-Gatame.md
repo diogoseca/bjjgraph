@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from Kuzure Kesa-Gatame. Exper
 
 <div class="role-links">
 
-[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Kuzure Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From a strategic perspective, this finish serves as a high-percentage completion
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From a strategic perspective, this finish serves as a high-percentage completion
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

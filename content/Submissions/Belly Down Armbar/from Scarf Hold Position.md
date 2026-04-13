@@ -17,8 +17,8 @@ description: "Master the belly down armbar finish from scarf hold position. Lear
 
 <div class="role-links">
 
-[[Belly Down Armbar from Scarf Hold Position/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Scarf Hold Position/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Scarf Hold Position/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Scarf Hold Position/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The transition from scarf hold to belly down armbar represents a critical commit
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Scarf Hold Position/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The transition from scarf hold to belly down armbar represents a critical commit
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Scarf Hold Position/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Scarf Hold Position/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master Triangle from De La Riva in BJJ. Complete guide with setup 
 
 <div class="role-links">
 
-[[Triangle Choke from De La Riva/Attacker|Play as Attacker]]
-[[Triangle Choke from De La Riva/Defender|Play as Defender]]
+[[Submissions/Triangle Choke/from De La Riva/Attacker|Play as Attacker]]
+[[Submissions/Triangle Choke/from De La Riva/Defender|Play as Defender]]
 
 </div>
 
@@ -102,7 +102,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ## Playing as Attacker
 
-[[Triangle Choke from De La Riva/Attacker|→ Full Attacker Guide]]
+[[Submissions/Triangle Choke/from De La Riva/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -160,7 +160,7 @@ The Triangle from De La Riva is a sophisticated blood choke that capitalizes on 
 
 ## Playing as Defender
 
-[[Triangle Choke from De La Riva/Defender|→ Full Defender Guide]]
+[[Submissions/Triangle Choke/from De La Riva/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

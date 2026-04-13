@@ -17,8 +17,8 @@ description: "Master the kneebar from straight ankle lock control in BJJ. Comple
 
 <div class="role-links">
 
-[[Kneebar from Straight Ankle Lock Control/Attacker|Play as Attacker]]
-[[Kneebar from Straight Ankle Lock Control/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Straight Ankle Lock Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 ## Playing as Attacker
 
-[[Kneebar from Straight Ankle Lock Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Straight Ankle Lock Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ From a strategic perspective, the kneebar from straight ankle lock control trans
 
 ## Playing as Defender
 
-[[Kneebar from Straight Ankle Lock Control/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Straight Ankle Lock Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

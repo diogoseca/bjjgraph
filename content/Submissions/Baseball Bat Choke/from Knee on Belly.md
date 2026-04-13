@@ -17,8 +17,8 @@ description: "Master the Baseball Bat Choke from Knee on Belly in BJJ. Learn gi 
 
 <div class="role-links">
 
-[[Baseball Bat Choke from Knee on Belly/Attacker|Play as Attacker]]
-[[Baseball Bat Choke from Knee on Belly/Defender|Play as Defender]]
+[[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|Play as Attacker]]
+[[Submissions/Baseball Bat Choke/from Knee on Belly/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 
 ## Playing as Attacker
 
-[[Baseball Bat Choke from Knee on Belly/Attacker|→ Full Attacker Guide]]
+[[Submissions/Baseball Bat Choke/from Knee on Belly/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The finishing mechanic involves a controlled spin away from the opponent after s
 
 ## Playing as Defender
 
-[[Baseball Bat Choke from Knee on Belly/Defender|→ Full Defender Guide]]
+[[Submissions/Baseball Bat Choke/from Knee on Belly/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

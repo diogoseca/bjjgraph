@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from Seat Belt back control. Learn 
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Seat Belt Control Back/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Seat Belt Control Back/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Seat Belt Control Back/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the bow and arrow creates a devastating dilemma when combined wit
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Seat Belt Control Back/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Seat Belt Control Back/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Mir Lock shoulder submission in BJJ. Complete guide wit
 
 <div class="role-links">
 
-[[Mir Lock from Side Control/Attacker|Play as Attacker]]
-[[Mir Lock from Side Control/Defender|Play as Defender]]
+[[Submissions/Mir Lock/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Mir Lock/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## Playing as Attacker
 
-[[Mir Lock from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Mir Lock/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The Mir Lock is a powerful shoulder lock submission that targets the glenohumera
 
 ## Playing as Defender
 
-[[Mir Lock from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Mir Lock/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

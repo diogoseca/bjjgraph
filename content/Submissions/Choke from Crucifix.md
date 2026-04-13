@@ -17,8 +17,8 @@ description: "Master the Choke from Crucifix in BJJ. Complete guide covering blo
 
 <div class="role-links">
 
-[[Choke from Crucifix/Attacker|Play as Attacker]]
-[[Choke from Crucifix/Defender|Play as Defender]]
+[[Submissions/Choke from Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Choke from Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ## Playing as Attacker
 
-[[Choke from Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Choke from Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ This technique is commonly seen in high-level competition and represents excelle
 
 ## Playing as Defender
 
-[[Choke from Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Choke from Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

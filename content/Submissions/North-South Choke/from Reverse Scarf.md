@@ -17,8 +17,8 @@ description: "Master the North-South Choke from Reverse Scarf Hold. Complete fin
 
 <div class="role-links">
 
-[[North-South Choke from Reverse Scarf/Attacker|Play as Attacker]]
-[[North-South Choke from Reverse Scarf/Defender|Play as Defender]]
+[[Submissions/North-South Choke/from Reverse Scarf/Attacker|Play as Attacker]]
+[[Submissions/North-South Choke/from Reverse Scarf/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 ## Playing as Attacker
 
-[[North-South Choke from Reverse Scarf/Attacker|→ Full Attacker Guide]]
+[[Submissions/North-South Choke/from Reverse Scarf/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this submission serves as the primary threat from reverse scarf h
 
 ## Playing as Defender
 
-[[North-South Choke from Reverse Scarf/Defender|→ Full Defender Guide]]
+[[Submissions/North-South Choke/from Reverse Scarf/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

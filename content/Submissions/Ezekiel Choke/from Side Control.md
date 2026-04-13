@@ -17,8 +17,8 @@ description: "Master the Ezekiel Choke from Side Control with this complete BJJ 
 
 <div class="role-links">
 
-[[Ezekiel Choke from Side Control/Attacker|Play as Attacker]]
-[[Ezekiel Choke from Side Control/Defender|Play as Defender]]
+[[Submissions/Ezekiel Choke/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Ezekiel Choke/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 
 ## Playing as Attacker
 
-[[Ezekiel Choke from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Ezekiel Choke/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ At the advanced level, the side control Ezekiel becomes a powerful chain-attack 
 
 ## Playing as Defender
 
-[[Ezekiel Choke from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Ezekiel Choke/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

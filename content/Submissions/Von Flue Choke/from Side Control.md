@@ -17,8 +17,8 @@ description: "Master the Von Flue Choke counter in BJJ. Complete safety guide wi
 
 <div class="role-links">
 
-[[Von Flue Choke from Side Control/Attacker|Play as Attacker]]
-[[Von Flue Choke from Side Control/Defender|Play as Defender]]
+[[Submissions/Von Flue Choke/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Von Flue Choke/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -106,7 +106,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ## Playing as Attacker
 
-[[Von Flue Choke from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Von Flue Choke/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Von Flue Choke is a devastating counter-submission that punishes opponents w
 
 ## Playing as Defender
 
-[[Von Flue Choke from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Von Flue Choke/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

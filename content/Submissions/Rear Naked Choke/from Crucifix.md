@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Crucifix position in BJJ. High-pe
 
 <div class="role-links">
 
-[[Rear Naked Choke from Crucifix/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Crucifix/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Unlike the standard RNC from back control, the crucifix variant benefits from th
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

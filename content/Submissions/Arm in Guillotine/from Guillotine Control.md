@@ -17,8 +17,8 @@ description: "Master the arm-in guillotine from guillotine control. Learn grip m
 
 <div class="role-links">
 
-[[Arm in Guillotine from Guillotine Control/Attacker|Play as Attacker]]
-[[Arm in Guillotine from Guillotine Control/Defender|Play as Defender]]
+[[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
+[[Submissions/Arm in Guillotine/from Guillotine Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 
 ## Playing as Attacker
 
-[[Arm in Guillotine from Guillotine Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm in Guillotine/from Guillotine Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this submission creates a particularly difficult defensive puzzle
 
 ## Playing as Defender
 
-[[Arm in Guillotine from Guillotine Control/Defender|→ Full Defender Guide]]
+[[Submissions/Arm in Guillotine/from Guillotine Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

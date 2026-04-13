@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from S Mount in BJJ. Complete fini
 
 <div class="role-links">
 
-[[Kimura from S Mount/Attacker|Play as Attacker]]
-[[Kimura from S Mount/Defender|Play as Defender]]
+[[Submissions/Kimura/from S Mount/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from S Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 ## Playing as Attacker
 
-[[Kimura from S Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from S Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission chains naturally with the armbar from S Mount, creating a powerf
 
 ## Playing as Defender
 
-[[Kimura from S Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from S Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

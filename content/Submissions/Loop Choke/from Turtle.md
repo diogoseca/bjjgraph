@@ -17,8 +17,8 @@ description: "Master the loop choke from turtle in BJJ. Learn cross-collar grip 
 
 <div class="role-links">
 
-[[Loop Choke from Turtle/Attacker|Play as Attacker]]
-[[Loop Choke from Turtle/Defender|Play as Defender]]
+[[Submissions/Loop Choke/from Turtle/Attacker|Play as Attacker]]
+[[Submissions/Loop Choke/from Turtle/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ This submission chains naturally with other turtle attacks like the clock choke,
 
 ## Playing as Attacker
 
-[[Loop Choke from Turtle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Loop Choke/from Turtle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission chains naturally with other turtle attacks like the clock choke,
 
 ## Playing as Defender
 
-[[Loop Choke from Turtle/Defender|→ Full Defender Guide]]
+[[Submissions/Loop Choke/from Turtle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

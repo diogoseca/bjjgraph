@@ -17,8 +17,8 @@ description: "Master the Kimura from Lockdown in BJJ. Learn how the lockdown hal
 
 <div class="role-links">
 
-[[Kimura from Lockdown/Attacker|Play as Attacker]]
-[[Kimura from Lockdown/Defender|Play as Defender]]
+[[Submissions/Kimura/from Lockdown/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Lockdown/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This technique fits naturally into the lockdown attacking system as a complement
 
 ## Playing as Attacker
 
-[[Kimura from Lockdown/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Lockdown/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This technique fits naturally into the lockdown attacking system as a complement
 
 ## Playing as Defender
 
-[[Kimura from Lockdown/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Lockdown/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

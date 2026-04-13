@@ -17,8 +17,8 @@ description: "Master the Chin Strap Guillotine in BJJ. High-control choke target
 
 <div class="role-links">
 
-[[Chin Strap Guillotine from Front Headlock/Attacker|Play as Attacker]]
-[[Chin Strap Guillotine from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Chin Strap Guillotine/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Chin Strap Guillotine/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 ## Playing as Attacker
 
-[[Chin Strap Guillotine from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Chin Strap Guillotine/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The submission works exceptionally well in no-gi situations where collar grips a
 
 ## Playing as Defender
 
-[[Chin Strap Guillotine from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Chin Strap Guillotine/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

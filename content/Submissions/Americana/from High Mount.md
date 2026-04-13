@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from High Mount. Finishing guid
 
 <div class="role-links">
 
-[[Americana from High Mount/Attacker|Play as Attacker]]
-[[Americana from High Mount/Defender|Play as Defender]]
+[[Submissions/Americana/from High Mount/Attacker|Play as Attacker]]
+[[Submissions/Americana/from High Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the Americana from high mount functions as both a primary finishe
 
 ## Playing as Attacker
 
-[[Americana from High Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from High Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the Americana from high mount functions as both a primary finishe
 
 ## Playing as Defender
 
-[[Americana from High Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from High Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

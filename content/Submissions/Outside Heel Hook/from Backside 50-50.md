@@ -17,8 +17,8 @@ description: "Master the Outside Heel Hook from Backside 50-50. Complete guide t
 
 <div class="role-links">
 
-[[Outside Heel Hook from Backside 50-50/Attacker|Play as Attacker]]
-[[Outside Heel Hook from Backside 50-50/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from Backside 50-50/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from Backside 50-50/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from Backside 50-50/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ This submission demands absolute respect for its injury potential. Rotational fo
 
 ## Playing as Defender
 
-[[Outside Heel Hook from Backside 50-50/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from Backside 50-50/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

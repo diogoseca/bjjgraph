@@ -17,8 +17,8 @@ description: "Master the omoplata from Russian Leg Lasso. Complete guide coverin
 
 <div class="role-links">
 
-[[Omoplata from Russian Leg Lasso/Attacker|Play as Attacker]]
-[[Omoplata from Russian Leg Lasso/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Russian Leg Lasso/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Russian Leg Lasso/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 ## Playing as Attacker
 
-[[Omoplata from Russian Leg Lasso/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Russian Leg Lasso/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Elite practitioners chain this omoplata threat with triangle and sweep entries f
 
 ## Playing as Defender
 
-[[Omoplata from Russian Leg Lasso/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Russian Leg Lasso/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

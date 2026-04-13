@@ -377,9 +377,12 @@ def process_json_file(json_path, dry_run=False, resolve_fn=None):
             generated_files = []
             technique_name = data.get('name', json_path.stem)
 
+            # Compute content-relative path for role wikilinks
+            content_path = str(json_path.relative_to(Path('content')).with_suffix(''))
+
             # Render hub page
             hub_template = load_template(category, "TEMPLATE-DUAL.md.jinja2")
-            hub_content = hub_template.render(**data, resolve=resolve_fn)
+            hub_content = hub_template.render(**data, resolve=resolve_fn, content_path=content_path)
             hub_path = json_path.with_suffix('.md')
             write_markdown_file(hub_path, hub_content, dry_run)
             generated_files.append(hub_path)

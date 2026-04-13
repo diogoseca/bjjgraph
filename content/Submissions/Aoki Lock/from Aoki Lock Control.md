@@ -17,8 +17,8 @@ description: "Complete guide to finishing the Aoki Lock submission from Aoki Loc
 
 <div class="role-links">
 
-[[Aoki Lock from Aoki Lock Control/Attacker|Play as Attacker]]
-[[Aoki Lock from Aoki Lock Control/Defender|Play as Defender]]
+[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|Play as Attacker]]
+[[Submissions/Aoki Lock/from Aoki Lock Control/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 
 ## Playing as Attacker
 
-[[Aoki Lock from Aoki Lock Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Aoki Lock/from Aoki Lock Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ Strategically, this finish carries a 50% overall success rate reflecting the str
 
 ## Playing as Defender
 
-[[Aoki Lock from Aoki Lock Control/Defender|→ Full Defender Guide]]
+[[Submissions/Aoki Lock/from Aoki Lock Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

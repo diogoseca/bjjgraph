@@ -17,8 +17,8 @@ description: "Master the Cross Collar Choke from High Mount in BJJ. Complete gui
 
 <div class="role-links">
 
-[[Cross Collar Choke from High Mount/Attacker|Play as Attacker]]
-[[Cross Collar Choke from High Mount/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from High Mount/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from High Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from High Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from High Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The finishing mechanics rely on proper wrist alignment against the carotid arter
 
 ## Playing as Defender
 
-[[Cross Collar Choke from High Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from High Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

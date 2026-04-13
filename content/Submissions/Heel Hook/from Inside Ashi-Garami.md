@@ -17,8 +17,8 @@ description: "Master the heel hook from Inside Ashi-Garami with expert finishing
 
 <div class="role-links">
 
-[[Heel Hook from Inside Ashi-Garami/Attacker|Play as Attacker]]
-[[Heel Hook from Inside Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Inside Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -116,7 +116,7 @@ This submission carries extreme injury risk due to the knee's limited rotational
 
 ## Playing as Attacker
 
-[[Heel Hook from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Inside Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ This submission carries extreme injury risk due to the knee's limited rotational
 
 ## Playing as Defender
 
-[[Heel Hook from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Inside Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

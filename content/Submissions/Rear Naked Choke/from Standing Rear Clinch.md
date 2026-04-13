@@ -17,8 +17,8 @@ description: "Master the Standing RNC from Rear Clinch in BJJ. Expert guide to f
 
 <div class="role-links">
 
-[[Rear Naked Choke from Standing Rear Clinch/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Standing Rear Clinch/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Standing Rear Clinch/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Standing Rear Clinch/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Standing Rear Clinch/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ From a competition perspective, the standing RNC appears most frequently in no-g
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Standing Rear Clinch/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Standing Rear Clinch/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

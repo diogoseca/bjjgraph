@@ -17,8 +17,8 @@ description: "Master the omoplata from inverted guard in BJJ. Complete guide to 
 
 <div class="role-links">
 
-[[Omoplata from Inverted Guard/Attacker|Play as Attacker]]
-[[Omoplata from Inverted Guard/Defender|Play as Defender]]
+[[Submissions/Omoplata/from Inverted Guard/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from Inverted Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 ## Playing as Attacker
 
-[[Omoplata from Inverted Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from Inverted Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this technique adds a submission threat to the inverted guard pos
 
 ## Playing as Defender
 
-[[Omoplata from Inverted Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from Inverted Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

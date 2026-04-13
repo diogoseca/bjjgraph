@@ -17,8 +17,8 @@ description: "Master Kneebar from Guard in BJJ. Complete guide with safety proto
 
 <div class="role-links">
 
-[[Kneebar from Guard/Attacker|Play as Attacker]]
-[[Kneebar from Guard/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Guard/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ## Playing as Attacker
 
-[[Kneebar from Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Kneebar from Guard represents a powerful attacking option from bottom positi
 
 ## Playing as Defender
 
-[[Kneebar from Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Shoulder of Justice. Learn how intens
 
 <div class="role-links">
 
-[[Arm Triangle from Shoulder of Justice/Attacker|Play as Attacker]]
-[[Arm Triangle from Shoulder of Justice/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Shoulder of Justice/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 ## Playing as Attacker
 
-[[Arm Triangle from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Shoulder of Justice/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The finishing sequence involves locking the head-and-arm grip, walking to a perp
 
 ## Playing as Defender
 
-[[Arm Triangle from Shoulder of Justice/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Shoulder of Justice/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

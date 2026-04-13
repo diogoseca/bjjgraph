@@ -17,8 +17,8 @@ description: "Master the Anaconda Choke in BJJ. Complete guide covering setup fr
 
 <div class="role-links">
 
-[[Anaconda Choke from Anaconda Control/Attacker|Play as Attacker]]
-[[Anaconda Choke from Anaconda Control/Defender|Play as Defender]]
+[[Submissions/Anaconda Choke/from Anaconda Control/Attacker|Play as Attacker]]
+[[Submissions/Anaconda Choke/from Anaconda Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ## Playing as Attacker
 
-[[Anaconda Choke from Anaconda Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Anaconda Choke/from Anaconda Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ The technique has become a staple in modern BJJ competition, with the Anaconda-t
 
 ## Playing as Defender
 
-[[Anaconda Choke from Anaconda Control/Defender|→ Full Defender Guide]]
+[[Submissions/Anaconda Choke/from Anaconda Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

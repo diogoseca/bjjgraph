@@ -17,8 +17,8 @@ description: "Master the cross collar choke from 3-4 mount in BJJ. Complete guid
 
 <div class="role-links">
 
-[[Cross Collar Choke from 3-4 Mount/Attacker|Play as Attacker]]
-[[Cross Collar Choke from 3-4 Mount/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from 3-4 Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from 3-4 Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The 3-4 mount also allows the attacker to use their posted leg to drive forward 
 
 ## Playing as Defender
 
-[[Cross Collar Choke from 3-4 Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from 3-4 Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master Japanese Necktie in BJJ. Complete guide with safety protoco
 
 <div class="role-links">
 
-[[Japanese Necktie from Front Headlock/Attacker|Play as Attacker]]
-[[Japanese Necktie from Front Headlock/Defender|Play as Defender]]
+[[Submissions/Japanese Necktie/from Front Headlock/Attacker|Play as Attacker]]
+[[Submissions/Japanese Necktie/from Front Headlock/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## Playing as Attacker
 
-[[Japanese Necktie from Front Headlock/Attacker|→ Full Attacker Guide]]
+[[Submissions/Japanese Necktie/from Front Headlock/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The Japanese Necktie is a sophisticated blood choke that attacks from front head
 
 ## Playing as Defender
 
-[[Japanese Necktie from Front Headlock/Defender|→ Full Defender Guide]]
+[[Submissions/Japanese Necktie/from Front Headlock/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

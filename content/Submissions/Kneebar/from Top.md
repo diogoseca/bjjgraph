@@ -17,8 +17,8 @@ description: "Master the Kneebar from Top positions in BJJ. Complete safety guid
 
 <div class="role-links">
 
-[[Kneebar from Top/Attacker|Play as Attacker]]
-[[Kneebar from Top/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Top/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Top/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 ## Playing as Attacker
 
-[[Kneebar from Top/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Top/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ The top kneebar serves dual purposes: as a finishing submission and as a positio
 
 ## Playing as Defender
 
-[[Kneebar from Top/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Top/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Marce Choke in BJJ - powerful lapel choke from top posi
 
 <div class="role-links">
 
-[[Marce Choke from Side Control/Attacker|Play as Attacker]]
-[[Marce Choke from Side Control/Defender|Play as Defender]]
+[[Submissions/Marce Choke/from Side Control/Attacker|Play as Attacker]]
+[[Submissions/Marce Choke/from Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 ## Playing as Attacker
 
-[[Marce Choke from Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Marce Choke/from Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The choke works on a fundamental principle: using the lapel as a ligature around
 
 ## Playing as Defender
 
-[[Marce Choke from Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Marce Choke/from Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

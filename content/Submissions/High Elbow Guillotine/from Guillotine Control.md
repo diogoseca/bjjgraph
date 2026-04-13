@@ -17,8 +17,8 @@ description: "Master the High Elbow Guillotine from Guillotine Control. Complete
 
 <div class="role-links">
 
-[[High Elbow Guillotine from Guillotine Control/Attacker|Play as Attacker]]
-[[High Elbow Guillotine from Guillotine Control/Defender|Play as Defender]]
+[[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|Play as Attacker]]
+[[Submissions/High Elbow Guillotine/from Guillotine Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 ## Playing as Attacker
 
-[[High Elbow Guillotine from Guillotine Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/High Elbow Guillotine/from Guillotine Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the high elbow variation is the primary answer to the chin tuck d
 
 ## Playing as Defender
 
-[[High Elbow Guillotine from Guillotine Control/Defender|→ Full Defender Guide]]
+[[Submissions/High Elbow Guillotine/from Guillotine Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

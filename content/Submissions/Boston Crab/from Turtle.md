@@ -17,8 +17,8 @@ description: "Master Boston Crab submission in BJJ. Complete guide covering setu
 
 <div class="role-links">
 
-[[Boston Crab from Turtle/Attacker|Play as Attacker]]
-[[Boston Crab from Turtle/Defender|Play as Defender]]
+[[Submissions/Boston Crab/from Turtle/Attacker|Play as Attacker]]
+[[Submissions/Boston Crab/from Turtle/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 ## Playing as Attacker
 
-[[Boston Crab from Turtle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Boston Crab/from Turtle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The Boston Crab is a compression submission that targets the opponent's lumbar s
 
 ## Playing as Defender
 
-[[Boston Crab from Turtle/Defender|→ Full Defender Guide]]
+[[Submissions/Boston Crab/from Turtle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

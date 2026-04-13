@@ -17,8 +17,8 @@ description: "Master the Bow and Arrow Choke from Rear Triangle in BJJ. Learn co
 
 <div class="role-links">
 
-[[Bow and Arrow Choke from Rear Triangle/Attacker|Play as Attacker]]
-[[Bow and Arrow Choke from Rear Triangle/Defender|Play as Defender]]
+[[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|Play as Attacker]]
+[[Submissions/Bow and Arrow Choke/from Rear Triangle/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 ## Playing as Attacker
 
-[[Bow and Arrow Choke from Rear Triangle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Bow and Arrow Choke/from Rear Triangle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, this submission sits at the intersection of two high-control syst
 
 ## Playing as Defender
 
-[[Bow and Arrow Choke from Rear Triangle/Defender|→ Full Defender Guide]]
+[[Submissions/Bow and Arrow Choke/from Rear Triangle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

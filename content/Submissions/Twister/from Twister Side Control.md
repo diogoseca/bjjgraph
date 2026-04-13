@@ -17,8 +17,8 @@ description: "Master the Twister spinal lock from Twister Side Control with step
 
 <div class="role-links">
 
-[[Twister from Twister Side Control/Attacker|Play as Attacker]]
-[[Twister from Twister Side Control/Defender|Play as Defender]]
+[[Submissions/Twister/from Twister Side Control/Attacker|Play as Attacker]]
+[[Submissions/Twister/from Twister Side Control/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 
 ## Playing as Attacker
 
-[[Twister from Twister Side Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Twister/from Twister Side Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The twister carries extreme injury risk to the spine and neck, demanding excepti
 
 ## Playing as Defender
 
-[[Twister from Twister Side Control/Defender|→ Full Defender Guide]]
+[[Submissions/Twister/from Twister Side Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

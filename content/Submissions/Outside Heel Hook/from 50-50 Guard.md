@@ -17,8 +17,8 @@ description: "Master the outside heel hook from 50-50 guard. Learn grip mechanic
 
 <div class="role-links">
 
-[[Outside Heel Hook from 50-50 Guard/Attacker|Play as Attacker]]
-[[Outside Heel Hook from 50-50 Guard/Defender|Play as Defender]]
+[[Submissions/Outside Heel Hook/from 50-50 Guard/Attacker|Play as Attacker]]
+[[Submissions/Outside Heel Hook/from 50-50 Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -117,7 +117,7 @@ This submission carries extreme injury risk due to the nature of rotational heel
 
 ## Playing as Attacker
 
-[[Outside Heel Hook from 50-50 Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Outside Heel Hook/from 50-50 Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -175,7 +175,7 @@ This submission carries extreme injury risk due to the nature of rotational heel
 
 ## Playing as Defender
 
-[[Outside Heel Hook from 50-50 Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Outside Heel Hook/from 50-50 Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

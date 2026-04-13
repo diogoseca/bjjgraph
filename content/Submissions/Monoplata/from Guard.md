@@ -17,8 +17,8 @@ description: "Master the Monoplata from Guard in BJJ. Complete guide with safety
 
 <div class="role-links">
 
-[[Monoplata from Guard/Attacker|Play as Attacker]]
-[[Monoplata from Guard/Defender|Play as Defender]]
+[[Submissions/Monoplata/from Guard/Attacker|Play as Attacker]]
+[[Submissions/Monoplata/from Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ## Playing as Attacker
 
-[[Monoplata from Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Monoplata/from Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Monoplata from Guard is an advanced shoulder lock that combines elements of 
 
 ## Playing as Defender
 
-[[Monoplata from Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Monoplata/from Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

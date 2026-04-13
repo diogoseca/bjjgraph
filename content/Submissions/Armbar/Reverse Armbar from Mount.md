@@ -17,8 +17,8 @@ description: "Master the Reverse Armbar in BJJ. Complete guide with safety proto
 
 <div class="role-links">
 
-[[Reverse Armbar from Mount/Attacker|Play as Attacker]]
-[[Reverse Armbar from Mount/Defender|Play as Defender]]
+[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|Play as Attacker]]
+[[Submissions/Armbar/Reverse Armbar from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ## Playing as Attacker
 
-[[Reverse Armbar from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/Reverse Armbar from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -163,7 +163,7 @@ The Reverse Armbar is an advanced elbow hyperextension technique distinguished b
 
 ## Playing as Defender
 
-[[Reverse Armbar from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/Reverse Armbar from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the neck crank from Twister Control in BJJ. Learn cervical 
 
 <div class="role-links">
 
-[[Neck Crank from Twister Control/Attacker|Play as Attacker]]
-[[Neck Crank from Twister Control/Defender|Play as Defender]]
+[[Submissions/Neck Crank/from Twister Control/Attacker|Play as Attacker]]
+[[Submissions/Neck Crank/from Twister Control/Defender|Play as Defender]]
 
 </div>
 
@@ -103,7 +103,7 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 ## Playing as Attacker
 
-[[Neck Crank from Twister Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Neck Crank/from Twister Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -161,7 +161,7 @@ From a strategic perspective, the neck crank serves as a high-percentage finishi
 
 ## Playing as Defender
 
-[[Neck Crank from Twister Control/Defender|→ Full Defender Guide]]
+[[Submissions/Neck Crank/from Twister Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

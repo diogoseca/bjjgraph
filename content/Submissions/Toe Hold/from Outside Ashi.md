@@ -17,8 +17,8 @@ description: "Master the toe hold from Outside Ashi-Garami in BJJ. Complete guid
 
 <div class="role-links">
 
-[[Toe Hold from Outside Ashi/Attacker|Play as Attacker]]
-[[Toe Hold from Outside Ashi/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Outside Ashi/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Outside Ashi/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 ## Playing as Attacker
 
-[[Toe Hold from Outside Ashi/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Outside Ashi/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the toe hold from Outside Ashi creates a powerful dilemma for the
 
 ## Playing as Defender
 
-[[Toe Hold from Outside Ashi/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Outside Ashi/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master Triangle Choke from Back Control in BJJ. Complete guide wit
 
 <div class="role-links">
 
-[[Rear Triangle Choke from Back Control/Attacker|Play as Attacker]]
-[[Rear Triangle Choke from Back Control/Defender|Play as Defender]]
+[[Submissions/Rear Triangle Choke/from Back Control/Attacker|Play as Attacker]]
+[[Submissions/Rear Triangle Choke/from Back Control/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ## Playing as Attacker
 
-[[Rear Triangle Choke from Back Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Triangle Choke/from Back Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ The Triangle Choke from Back Control requires precise leg positioning, hip mobil
 
 ## Playing as Defender
 
-[[Rear Triangle Choke from Back Control/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Triangle Choke/from Back Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

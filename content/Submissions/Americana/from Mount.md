@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from mount with safety protocol
 
 <div class="role-links">
 
-[[Americana from Mount/Attacker|Play as Attacker]]
-[[Americana from Mount/Defender|Play as Defender]]
+[[Submissions/Americana/from Mount/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 ## Playing as Attacker
 
-[[Americana from Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ The Americana from Mount serves as a cornerstone technique in any top game arsen
 
 ## Playing as Defender
 
-[[Americana from Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

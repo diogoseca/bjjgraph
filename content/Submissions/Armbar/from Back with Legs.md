@@ -17,8 +17,8 @@ description: "Master Armbar from Back with Legs in BJJ. Complete guide with safe
 
 <div class="role-links">
 
-[[Armbar from Back with Legs/Attacker|Play as Attacker]]
-[[Armbar from Back with Legs/Defender|Play as Defender]]
+[[Submissions/Armbar/from Back with Legs/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Back with Legs/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ## Playing as Attacker
 
-[[Armbar from Back with Legs/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Back with Legs/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The Armbar from Back with Legs is an advanced finishing technique that leverages
 
 ## Playing as Defender
 
-[[Armbar from Back with Legs/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Back with Legs/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

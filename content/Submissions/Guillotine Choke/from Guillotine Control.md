@@ -17,8 +17,8 @@ description: "Master the guillotine choke finish from guillotine control. Comple
 
 <div class="role-links">
 
-[[Guillotine Choke from Guillotine Control/Attacker|Play as Attacker]]
-[[Guillotine Choke from Guillotine Control/Defender|Play as Defender]]
+[[Submissions/Guillotine Choke/from Guillotine Control/Attacker|Play as Attacker]]
+[[Submissions/Guillotine Choke/from Guillotine Control/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 ## Playing as Attacker
 
-[[Guillotine Choke from Guillotine Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Guillotine Choke/from Guillotine Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the guillotine finish from control forces a binary defensive dile
 
 ## Playing as Defender
 
-[[Guillotine Choke from Guillotine Control/Defender|→ Full Defender Guide]]
+[[Submissions/Guillotine Choke/from Guillotine Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

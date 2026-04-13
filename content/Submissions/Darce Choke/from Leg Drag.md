@@ -17,8 +17,8 @@ description: "Master the Darce choke from leg drag control in BJJ. Complete guid
 
 <div class="role-links">
 
-[[Darce Choke from Leg Drag/Attacker|Play as Attacker]]
-[[Darce Choke from Leg Drag/Defender|Play as Defender]]
+[[Submissions/Darce Choke/from Leg Drag/Attacker|Play as Attacker]]
+[[Submissions/Darce Choke/from Leg Drag/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ## Playing as Attacker
 
-[[Darce Choke from Leg Drag/Attacker|→ Full Attacker Guide]]
+[[Submissions/Darce Choke/from Leg Drag/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ This submission represents a high-percentage finishing option within the leg dra
 
 ## Playing as Defender
 
-[[Darce Choke from Leg Drag/Defender|→ Full Defender Guide]]
+[[Submissions/Darce Choke/from Leg Drag/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

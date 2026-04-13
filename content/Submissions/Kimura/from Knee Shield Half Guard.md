@@ -17,8 +17,8 @@ description: "Master the Kimura from Knee Shield Half Guard. Complete guide to s
 
 <div class="role-links">
 
-[[Kimura from Knee Shield Half Guard/Attacker|Play as Attacker]]
-[[Kimura from Knee Shield Half Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Knee Shield Half Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission integrates naturally into the Kimura Trap system used extensivel
 
 ## Playing as Attacker
 
-[[Kimura from Knee Shield Half Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Knee Shield Half Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ This submission integrates naturally into the Kimura Trap system used extensivel
 
 ## Playing as Defender
 
-[[Kimura from Knee Shield Half Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Knee Shield Half Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

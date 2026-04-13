@@ -17,8 +17,8 @@ description: "Master the Spine Lock submission in BJJ. Advanced spinal compressi
 
 <div class="role-links">
 
-[[Spine Lock from Truck/Attacker|Play as Attacker]]
-[[Spine Lock from Truck/Defender|Play as Defender]]
+[[Submissions/Spine Lock/from Truck/Attacker|Play as Attacker]]
+[[Submissions/Spine Lock/from Truck/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 ## Playing as Attacker
 
-[[Spine Lock from Truck/Attacker|→ Full Attacker Guide]]
+[[Submissions/Spine Lock/from Truck/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The effectiveness of the Spine Lock comes from the combination of hip pressure d
 
 ## Playing as Defender
 
-[[Spine Lock from Truck/Defender|→ Full Defender Guide]]
+[[Submissions/Spine Lock/from Truck/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

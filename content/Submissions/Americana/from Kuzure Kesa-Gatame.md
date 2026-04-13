@@ -17,8 +17,8 @@ description: "Master the Americana shoulder lock from Kuzure Kesa-Gatame. Comple
 
 <div class="role-links">
 
-[[Americana from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
-[[Americana from Kuzure Kesa-Gatame/Defender|Play as Defender]]
+[[Submissions/Americana/from Kuzure Kesa-Gatame/Attacker|Play as Attacker]]
+[[Submissions/Americana/from Kuzure Kesa-Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the Americana from Kuzure Kesa-Gatame anchors a submission chain 
 
 ## Playing as Attacker
 
-[[Americana from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Americana/from Kuzure Kesa-Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the Americana from Kuzure Kesa-Gatame anchors a submission chain 
 
 ## Playing as Defender
 
-[[Americana from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Americana/from Kuzure Kesa-Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

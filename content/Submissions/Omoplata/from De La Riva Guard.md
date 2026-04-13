@@ -17,8 +17,8 @@ description: "Master the omoplata from De La Riva Guard. Leverage DLR hooks and 
 
 <div class="role-links">
 
-[[Omoplata from De La Riva Guard/Attacker|Play as Attacker]]
-[[Omoplata from De La Riva Guard/Defender|Play as Defender]]
+[[Submissions/Omoplata/from De La Riva Guard/Attacker|Play as Attacker]]
+[[Submissions/Omoplata/from De La Riva Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -111,7 +111,7 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 ## Playing as Attacker
 
-[[Omoplata from De La Riva Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Omoplata/from De La Riva Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ The finishing sequence follows standard omoplata mechanics once the leg clears t
 
 ## Playing as Defender
 
-[[Omoplata from De La Riva Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Omoplata/from De La Riva Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

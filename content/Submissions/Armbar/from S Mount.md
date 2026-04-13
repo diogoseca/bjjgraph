@@ -17,8 +17,8 @@ description: "Master the Armbar from S Mount in BJJ. Step-by-step guide covering
 
 <div class="role-links">
 
-[[Armbar from S Mount/Attacker|Play as Attacker]]
-[[Armbar from S Mount/Defender|Play as Defender]]
+[[Submissions/Armbar/from S Mount/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from S Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 ## Playing as Attacker
 
-[[Armbar from S Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from S Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Defensively, the armbar from S Mount presents an extremely challenging scenario.
 
 ## Playing as Defender
 
-[[Armbar from S Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from S Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

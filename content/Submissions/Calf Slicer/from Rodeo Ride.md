@@ -17,8 +17,8 @@ description: "Master the Calf Slicer from Rodeo Ride in BJJ. Complete guide to c
 
 <div class="role-links">
 
-[[Calf Slicer from Rodeo Ride/Attacker|Play as Attacker]]
-[[Calf Slicer from Rodeo Ride/Defender|Play as Defender]]
+[[Submissions/Calf Slicer/from Rodeo Ride/Attacker|Play as Attacker]]
+[[Submissions/Calf Slicer/from Rodeo Ride/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ## Playing as Attacker
 
-[[Calf Slicer from Rodeo Ride/Attacker|→ Full Attacker Guide]]
+[[Submissions/Calf Slicer/from Rodeo Ride/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The calf slicer from this position requires precise leg threading mechanics and 
 
 ## Playing as Defender
 
-[[Calf Slicer from Rodeo Ride/Defender|→ Full Defender Guide]]
+[[Submissions/Calf Slicer/from Rodeo Ride/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

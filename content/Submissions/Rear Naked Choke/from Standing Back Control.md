@@ -17,8 +17,8 @@ description: "Master the rear naked choke from standing back control in BJJ. Com
 
 <div class="role-links">
 
-[[Rear Naked Choke from Standing Back Control/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Standing Back Control/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Standing Back Control/Defender|Play as Defender]]
 
 </div>
 
@@ -114,7 +114,7 @@ At the competition level, standing back control finishes appear frequently in bo
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Standing Back Control/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Standing Back Control/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ At the competition level, standing back control finishes appear frequently in bo
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Standing Back Control/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Standing Back Control/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

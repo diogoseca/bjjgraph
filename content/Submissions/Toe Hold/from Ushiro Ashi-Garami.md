@@ -17,8 +17,8 @@ description: "Master the toe hold finish from ushiro ashi-garami with complete g
 
 <div class="role-links">
 
-[[Toe Hold from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
-[[Toe Hold from Ushiro Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Ushiro Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 
 ## Playing as Attacker
 
-[[Toe Hold from Ushiro Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Ushiro Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -171,7 +171,7 @@ Strategically, the toe hold from ushiro serves as a critical secondary attack wh
 
 ## Playing as Defender
 
-[[Toe Hold from Ushiro Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Ushiro Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

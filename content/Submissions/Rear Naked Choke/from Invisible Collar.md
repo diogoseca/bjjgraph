@@ -17,8 +17,8 @@ description: "Master the Rear Naked Choke from Invisible Collar. Learn collar-to
 
 <div class="role-links">
 
-[[Rear Naked Choke from Invisible Collar/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Invisible Collar/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Invisible Collar/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ This submission functions as a critical component of back attack systems where t
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Invisible Collar/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Invisible Collar/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ This submission functions as a critical component of back attack systems where t
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Invisible Collar/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Invisible Collar/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

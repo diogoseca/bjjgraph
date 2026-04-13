@@ -17,8 +17,8 @@ description: "Master the toe hold from cross ashi-garami with grip mechanics, ro
 
 <div class="role-links">
 
-[[Toe Hold from Cross Ashi-Garami/Attacker|Play as Attacker]]
-[[Toe Hold from Cross Ashi-Garami/Defender|Play as Defender]]
+[[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|Play as Attacker]]
+[[Submissions/Toe Hold/from Cross Ashi-Garami/Defender|Play as Defender]]
 
 </div>
 
@@ -113,7 +113,7 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 ## Playing as Attacker
 
-[[Toe Hold from Cross Ashi-Garami/Attacker|→ Full Attacker Guide]]
+[[Submissions/Toe Hold/from Cross Ashi-Garami/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ From a competition perspective, the toe hold from cross ashi-garami serves as bo
 
 ## Playing as Defender
 
-[[Toe Hold from Cross Ashi-Garami/Defender|→ Full Defender Guide]]
+[[Submissions/Toe Hold/from Cross Ashi-Garami/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Cross Collar Choke from Modified Mount. Learn grip plac
 
 <div class="role-links">
 
-[[Cross Collar Choke from Modified Mount/Attacker|Play as Attacker]]
-[[Cross Collar Choke from Modified Mount/Defender|Play as Defender]]
+[[Submissions/Cross Collar Choke/from Modified Mount/Attacker|Play as Attacker]]
+[[Submissions/Cross Collar Choke/from Modified Mount/Defender|Play as Defender]]
 
 </div>
 
@@ -105,7 +105,7 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 ## Playing as Attacker
 
-[[Cross Collar Choke from Modified Mount/Attacker|→ Full Attacker Guide]]
+[[Submissions/Cross Collar Choke/from Modified Mount/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -161,7 +161,7 @@ From a strategic standpoint, this choke functions as a high-percentage finishing
 
 ## Playing as Defender
 
-[[Cross Collar Choke from Modified Mount/Defender|→ Full Defender Guide]]
+[[Submissions/Cross Collar Choke/from Modified Mount/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

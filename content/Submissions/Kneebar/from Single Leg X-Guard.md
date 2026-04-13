@@ -17,8 +17,8 @@ description: "Master the kneebar from Single Leg X-Guard. Expert guide to this B
 
 <div class="role-links">
 
-[[Kneebar from Single Leg X-Guard/Attacker|Play as Attacker]]
-[[Kneebar from Single Leg X-Guard/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Single Leg X-Guard/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Single Leg X-Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 ## Playing as Attacker
 
-[[Kneebar from Single Leg X-Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Single Leg X-Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ The kneebar from SLX has become an essential component of top-player strategy wh
 
 ## Playing as Defender
 
-[[Kneebar from Single Leg X-Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Single Leg X-Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

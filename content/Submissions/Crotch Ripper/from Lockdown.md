@@ -17,8 +17,8 @@ description: "Master the Crotch Ripper leg lock in BJJ. Groin compression submis
 
 <div class="role-links">
 
-[[Crotch Ripper from Lockdown/Attacker|Play as Attacker]]
-[[Crotch Ripper from Lockdown/Defender|Play as Defender]]
+[[Submissions/Crotch Ripper/from Lockdown/Attacker|Play as Attacker]]
+[[Submissions/Crotch Ripper/from Lockdown/Defender|Play as Defender]]
 
 </div>
 
@@ -108,7 +108,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 ## Playing as Attacker
 
-[[Crotch Ripper from Lockdown/Attacker|→ Full Attacker Guide]]
+[[Submissions/Crotch Ripper/from Lockdown/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Crotch Ripper represents the offensive potential of the lockdown system, tra
 
 ## Playing as Defender
 
-[[Crotch Ripper from Lockdown/Defender|→ Full Defender Guide]]
+[[Submissions/Crotch Ripper/from Lockdown/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Armbar from Back Control in BJJ. Complete safety guide 
 
 <div class="role-links">
 
-[[Armbar from Back/Attacker|Play as Attacker]]
-[[Armbar from Back/Defender|Play as Defender]]
+[[Submissions/Armbar/from Back/Attacker|Play as Attacker]]
+[[Submissions/Armbar/from Back/Defender|Play as Defender]]
 
 </div>
 
@@ -104,7 +104,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ## Playing as Attacker
 
-[[Armbar from Back/Attacker|→ Full Attacker Guide]]
+[[Submissions/Armbar/from Back/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -162,7 +162,7 @@ The Armbar from Back Control represents one of the most devastating finishing se
 
 ## Playing as Defender
 
-[[Armbar from Back/Defender|→ Full Defender Guide]]
+[[Submissions/Armbar/from Back/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

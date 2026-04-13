@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Modified Scarf Hold. Learn setup mech
 
 <div class="role-links">
 
-[[Arm Triangle from Modified Scarf Hold/Attacker|Play as Attacker]]
-[[Arm Triangle from Modified Scarf Hold/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Modified Scarf Hold/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Modified Scarf Hold/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 
 ## Playing as Attacker
 
-[[Arm Triangle from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Modified Scarf Hold/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ This variant is particularly effective because Modified Scarf Hold allows the at
 
 ## Playing as Defender
 
-[[Arm Triangle from Modified Scarf Hold/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Modified Scarf Hold/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Kimura from Crucifix in BJJ. Learn how bilateral arm is
 
 <div class="role-links">
 
-[[Kimura from Crucifix/Attacker|Play as Attacker]]
-[[Kimura from Crucifix/Defender|Play as Defender]]
+[[Submissions/Kimura/from Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 
 ## Playing as Attacker
 
-[[Kimura from Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ Strategically, the Kimura from Crucifix rewards patient practitioners who establ
 
 ## Playing as Defender
 
-[[Kimura from Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

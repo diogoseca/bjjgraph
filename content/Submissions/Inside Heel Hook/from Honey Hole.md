@@ -17,8 +17,8 @@ description: "Master the Inside Heel Hook from Honey Hole in BJJ. Complete guide
 
 <div class="role-links">
 
-[[Inside Heel Hook from Honey Hole/Attacker|Play as Attacker]]
-[[Inside Heel Hook from Honey Hole/Defender|Play as Defender]]
+[[Submissions/Inside Heel Hook/from Honey Hole/Attacker|Play as Attacker]]
+[[Submissions/Inside Heel Hook/from Honey Hole/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 ## Playing as Attacker
 
-[[Inside Heel Hook from Honey Hole/Attacker|→ Full Attacker Guide]]
+[[Submissions/Inside Heel Hook/from Honey Hole/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ This submission demands absolute safety awareness. The rotational force attacks 
 
 ## Playing as Defender
 
-[[Inside Heel Hook from Honey Hole/Defender|→ Full Defender Guide]]
+[[Submissions/Inside Heel Hook/from Honey Hole/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

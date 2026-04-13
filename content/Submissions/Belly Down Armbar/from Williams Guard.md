@@ -17,8 +17,8 @@ description: "Master the belly down armbar from Williams Guard. Learn prone rota
 
 <div class="role-links">
 
-[[Belly Down Armbar from Williams Guard/Attacker|Play as Attacker]]
-[[Belly Down Armbar from Williams Guard/Defender|Play as Defender]]
+[[Submissions/Belly Down Armbar/from Williams Guard/Attacker|Play as Attacker]]
+[[Submissions/Belly Down Armbar/from Williams Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ From a strategic perspective, this submission addresses the primary weakness of 
 
 ## Playing as Attacker
 
-[[Belly Down Armbar from Williams Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Belly Down Armbar/from Williams Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ From a strategic perspective, this submission addresses the primary weakness of 
 
 ## Playing as Defender
 
-[[Belly Down Armbar from Williams Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Belly Down Armbar/from Williams Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

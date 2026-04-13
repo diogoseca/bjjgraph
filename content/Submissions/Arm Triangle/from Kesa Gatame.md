@@ -17,8 +17,8 @@ description: "Master the Arm Triangle from Kesa Gatame with step-by-step grip tr
 
 <div class="role-links">
 
-[[Arm Triangle from Kesa Gatame/Attacker|Play as Attacker]]
-[[Arm Triangle from Kesa Gatame/Defender|Play as Defender]]
+[[Submissions/Arm Triangle/from Kesa Gatame/Attacker|Play as Attacker]]
+[[Submissions/Arm Triangle/from Kesa Gatame/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 
 ## Playing as Attacker
 
-[[Arm Triangle from Kesa Gatame/Attacker|→ Full Attacker Guide]]
+[[Submissions/Arm Triangle/from Kesa Gatame/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ What makes the Kesa Gatame entry particularly dangerous is the head and arm cont
 
 ## Playing as Defender
 
-[[Arm Triangle from Kesa Gatame/Defender|→ Full Defender Guide]]
+[[Submissions/Arm Triangle/from Kesa Gatame/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

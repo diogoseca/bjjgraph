@@ -17,8 +17,8 @@ description: "Master the Kimura shoulder lock from Lasso Guard top position. Lea
 
 <div class="role-links">
 
-[[Kimura from Lasso Guard/Attacker|Play as Attacker]]
-[[Kimura from Lasso Guard/Defender|Play as Defender]]
+[[Submissions/Kimura/from Lasso Guard/Attacker|Play as Attacker]]
+[[Submissions/Kimura/from Lasso Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 ## Playing as Attacker
 
-[[Kimura from Lasso Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kimura/from Lasso Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -166,7 +166,7 @@ The Kimura from Lasso Guard creates a powerful tactical dilemma. If the bottom p
 
 ## Playing as Defender
 
-[[Kimura from Lasso Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Kimura/from Lasso Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

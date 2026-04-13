@@ -17,8 +17,8 @@ description: "Learn to finish and defend the rear naked choke from mounted cruci
 
 <div class="role-links">
 
-[[Rear Naked Choke from Mounted Crucifix/Attacker|Play as Attacker]]
-[[Rear Naked Choke from Mounted Crucifix/Defender|Play as Defender]]
+[[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|Play as Attacker]]
+[[Submissions/Rear Naked Choke/from Mounted Crucifix/Defender|Play as Defender]]
 
 </div>
 
@@ -112,7 +112,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 ## Playing as Attacker
 
-[[Rear Naked Choke from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
+[[Submissions/Rear Naked Choke/from Mounted Crucifix/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -172,7 +172,7 @@ Strategically, this submission serves as the primary finishing threat from mount
 
 ## Playing as Defender
 
-[[Rear Naked Choke from Mounted Crucifix/Defender|→ Full Defender Guide]]
+[[Submissions/Rear Naked Choke/from Mounted Crucifix/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

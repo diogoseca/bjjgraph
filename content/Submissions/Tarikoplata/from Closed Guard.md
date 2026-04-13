@@ -17,8 +17,8 @@ description: "Master the Tarikoplata shoulder lock in BJJ. Advanced guard submis
 
 <div class="role-links">
 
-[[Tarikoplata from Closed Guard/Attacker|Play as Attacker]]
-[[Tarikoplata from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Tarikoplata/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Tarikoplata/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 ## Playing as Attacker
 
-[[Tarikoplata from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Tarikoplata/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The Tarikoplata is an advanced shoulder lock submission that combines the mechan
 
 ## Playing as Defender
 
-[[Tarikoplata from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Tarikoplata/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

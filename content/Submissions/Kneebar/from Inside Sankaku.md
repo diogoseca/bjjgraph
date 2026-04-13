@@ -17,8 +17,8 @@ description: "Master the kneebar from Inside Sankaku in BJJ. Complete finishing 
 
 <div class="role-links">
 
-[[Kneebar from Inside Sankaku/Attacker|Play as Attacker]]
-[[Kneebar from Inside Sankaku/Defender|Play as Defender]]
+[[Submissions/Kneebar/from Inside Sankaku/Attacker|Play as Attacker]]
+[[Submissions/Kneebar/from Inside Sankaku/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 
 ## Playing as Attacker
 
-[[Kneebar from Inside Sankaku/Attacker|→ Full Attacker Guide]]
+[[Submissions/Kneebar/from Inside Sankaku/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -165,7 +165,7 @@ The kneebar from Inside Sankaku represents an essential component of a complete 
 
 ## Playing as Defender
 
-[[Kneebar from Inside Sankaku/Defender|→ Full Defender Guide]]
+[[Submissions/Kneebar/from Inside Sankaku/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

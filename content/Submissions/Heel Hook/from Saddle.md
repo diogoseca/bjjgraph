@@ -17,8 +17,8 @@ description: "Master the heel hook from saddle position in BJJ. Complete guide t
 
 <div class="role-links">
 
-[[Heel Hook from Saddle/Attacker|Play as Attacker]]
-[[Heel Hook from Saddle/Defender|Play as Defender]]
+[[Submissions/Heel Hook/from Saddle/Attacker|Play as Attacker]]
+[[Submissions/Heel Hook/from Saddle/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 ## Playing as Attacker
 
-[[Heel Hook from Saddle/Attacker|→ Full Attacker Guide]]
+[[Submissions/Heel Hook/from Saddle/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -170,7 +170,7 @@ Strategically, the heel hook from saddle functions as the terminal threat within
 
 ## Playing as Defender
 
-[[Heel Hook from Saddle/Defender|→ Full Defender Guide]]
+[[Submissions/Heel Hook/from Saddle/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

@@ -17,8 +17,8 @@ description: "Master the Electric Chair in BJJ. Complete lockdown submission gui
 
 <div class="role-links">
 
-[[Electric Chair from Electric Chair/Attacker|Play as Attacker]]
-[[Electric Chair from Electric Chair/Defender|Play as Defender]]
+[[Submissions/Electric Chair/from Electric Chair/Attacker|Play as Attacker]]
+[[Submissions/Electric Chair/from Electric Chair/Defender|Play as Defender]]
 
 </div>
 
@@ -107,7 +107,7 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 ## Playing as Attacker
 
-[[Electric Chair from Electric Chair/Attacker|→ Full Attacker Guide]]
+[[Submissions/Electric Chair/from Electric Chair/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -169,7 +169,7 @@ Strategically, the Electric Chair creates a powerful dilemma within the lockdown
 
 ## Playing as Defender
 
-[[Electric Chair from Electric Chair/Defender|→ Full Defender Guide]]
+[[Submissions/Electric Chair/from Electric Chair/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

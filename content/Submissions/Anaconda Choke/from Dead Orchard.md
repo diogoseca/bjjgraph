@@ -17,8 +17,8 @@ description: "Master the Anaconda Choke from Dead Orchard in BJJ. Complete guide
 
 <div class="role-links">
 
-[[Anaconda Choke from Dead Orchard/Attacker|Play as Attacker]]
-[[Anaconda Choke from Dead Orchard/Defender|Play as Defender]]
+[[Submissions/Anaconda Choke/from Dead Orchard/Attacker|Play as Attacker]]
+[[Submissions/Anaconda Choke/from Dead Orchard/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 
 ## Playing as Attacker
 
-[[Anaconda Choke from Dead Orchard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Anaconda Choke/from Dead Orchard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ Strategically, this finish thrives on the dilemma it creates within the broader 
 
 ## Playing as Defender
 
-[[Anaconda Choke from Dead Orchard/Defender|→ Full Defender Guide]]
+[[Submissions/Anaconda Choke/from Dead Orchard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

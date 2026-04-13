@@ -17,8 +17,8 @@ description: "Master the Ezekiel Choke from inside closed guard top. Gi sleeve g
 
 <div class="role-links">
 
-[[Ezekiel Choke from Closed Guard/Attacker|Play as Attacker]]
-[[Ezekiel Choke from Closed Guard/Defender|Play as Defender]]
+[[Submissions/Ezekiel Choke/from Closed Guard/Attacker|Play as Attacker]]
+[[Submissions/Ezekiel Choke/from Closed Guard/Defender|Play as Defender]]
 
 </div>
 
@@ -110,7 +110,7 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 
 ## Playing as Attacker
 
-[[Ezekiel Choke from Closed Guard/Attacker|→ Full Attacker Guide]]
+[[Submissions/Ezekiel Choke/from Closed Guard/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -168,7 +168,7 @@ The trade-off is significant positional risk. Setting up the Ezekiel requires de
 
 ## Playing as Defender
 
-[[Ezekiel Choke from Closed Guard/Defender|→ Full Defender Guide]]
+[[Submissions/Ezekiel Choke/from Closed Guard/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 

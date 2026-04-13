@@ -17,8 +17,8 @@ description: "Master the Short Choke from Gift Wrap in BJJ. Complete guide to fi
 
 <div class="role-links">
 
-[[Short Choke from Gift Wrap/Attacker|Play as Attacker]]
-[[Short Choke from Gift Wrap/Defender|Play as Defender]]
+[[Submissions/Short Choke/from Gift Wrap/Attacker|Play as Attacker]]
+[[Submissions/Short Choke/from Gift Wrap/Defender|Play as Defender]]
 
 </div>
 
@@ -109,7 +109,7 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 ## Playing as Attacker
 
-[[Short Choke from Gift Wrap/Attacker|→ Full Attacker Guide]]
+[[Submissions/Short Choke/from Gift Wrap/Attacker|→ Full Attacker Guide]]
 
 ### Key Principles
 
@@ -167,7 +167,7 @@ The finishing mechanics rely on shoulder-driven pressure rather than pure arm sq
 
 ## Playing as Defender
 
-[[Short Choke from Gift Wrap/Defender|→ Full Defender Guide]]
+[[Submissions/Short Choke/from Gift Wrap/Defender|→ Full Defender Guide]]
 
 ### Key Principles
 
