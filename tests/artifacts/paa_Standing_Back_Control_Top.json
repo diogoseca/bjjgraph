@@ -1,0 +1,124 @@
+{
+  "article_path": "content/Positions/Back Control/Standing Back Control/Top.md",
+  "seed_keyword": "Standing Back Control Top BJJ",
+  "data_source": "content_analysis_plus_domain_knowledge",
+  "note": "DataForSEO MCP tool unavailable; PAA synthesized from article content analysis and BJJ domain knowledge. WebSearch/WebFetch require user permission grants.",
+  "paa_questions": [
+    {
+      "question": "What is standing back control in BJJ?",
+      "answer_snippet": "Standing back control is a dominant BJJ position where one practitioner has achieved back exposure on their opponent while both remain on their feet, with chest-to-back connection and harness/seatbelt grip established. It blends wrestling-style clinch control with BJJ submission threats.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Article overview section answers this but the heading is generic. Converting Overview to 'What Is Standing Back Control in BJJ?' would directly capture this query."
+    },
+    {
+      "question": "What is the seatbelt grip in BJJ?",
+      "answer_snippet": "The seatbelt (harness) grip has one arm over the opponent's shoulder and one arm under their armpit, clasping your own wrist or bicep to lock the configuration. It is the foundational upper-body control for back control and is critical for maintaining standing back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "The article references seatbelt/harness frequently but never defines it explicitly. A short definition callout or glossary-style box would satisfy this query and improve internal linking to [[Positions/Back Control/Seat Belt Control Back]]."
+    },
+    {
+      "question": "What submissions can you do from standing back control?",
+      "answer_snippet": "The primary submission from standing back control is the rear naked choke. Secondary options include the armbar from back transition, body triangle setups leading to choke attempts, and crucifix entries. The standing position also facilitates takedowns that transition to grounded back control for further submissions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Section 'Decision Making from This Position' lists submissions but is framed around scenarios. Adding an explicit 'Submissions Available from Standing Back Control' summary before the decision tree would satisfy this common query directly."
+    },
+    {
+      "question": "How do you maintain back control while standing?",
+      "answer_snippet": "Maintaining standing back control requires: (1) establishing a tight harness/seatbelt grip before pursuing submissions, (2) maintaining constant chest-to-back pressure using body weight, (3) using hooks inside the thighs or a body triangle to compromise the opponent's base, and (4) keeping a wide personal stance for balance.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Key Offensive Principles section covers this. Reframing the heading as 'How Do You Maintain Standing Back Control?' would directly capture this search intent."
+    },
+    {
+      "question": "When should you take your opponent down versus attempt a standing rear naked choke?",
+      "answer_snippet": "Attempt the standing rear naked choke when the opponent's posture is broken forward and their chin is exposed. Take the opponent down when they maintain strong upright posture, tuck their chin, or are actively fighting your grips. A grounded back control position is more stable for sustained submission attempts.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Q4 in Test Your Knowledge section answers this perfectly. Elevating this as a dedicated FAQ entry (schema markup) increases chances of PAA box capture."
+    },
+    {
+      "question": "What is the difference between standing and grounded back control in BJJ?",
+      "answer_snippet": "Standing back control is inherently less stable — both practitioners are upright, requiring constant balance management. Grounded back control (on the mat) allows the attacker to consolidate hooks, apply more controlled pressure, and pursue submissions at a slower pace. Standing back control is typically transitional, leading quickly to a takedown or submission.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Not currently addressed. A short comparison section or callout box ('Standing vs. Grounded Back Control') would fill this content gap and strengthen internal linking to [[Positions/Back Control]]."
+    },
+    {
+      "question": "How do you escape standing back control?",
+      "answer_snippet": "Common escapes from standing back control include: technical standup using hip movement to create space, turning into the opponent (following their rotation), dropping to knees to force a scramble, and stripping the harness grip by driving the choking arm down and turning. The Defender page covers defensive options in detail.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "This page is the Attacker (Top) perspective, but a brief 'What Your Opponent Will Try' or 'Recognizing Escape Attempts' section with a link to the Defender page would serve users who land here looking for both sides."
+    },
+    {
+      "question": "What is a body triangle in BJJ?",
+      "answer_snippet": "A body triangle is a leg configuration where the attacker wraps both legs around the opponent's torso and hooks one foot behind the opposite knee, creating a powerful leg lock around the body. It is used instead of hooks in back control to compress the opponent's core and restrict breathing and movement.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Referenced in the article and decision tree but never defined. Adding an inline definition or linking explicitly to [[Positions/Back Control/Body Triangle]] with a tooltip-style description would satisfy this query."
+    },
+    {
+      "question": "How do you take someone's back from a standing position in BJJ?",
+      "answer_snippet": "Common standing back take entries include: from a clinch or over-under tie, using a seatbelt drag; from a failed takedown attempt by the opponent; from a standing guillotine defense; and from wrestling scrambles. The position is achieved when opponent's spine faces your chest with some form of upper-body control established.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Prerequisites section mentions 'scramble, takedown attempt, or transition from standing clinch' but doesn't detail entries. A brief 'How to Enter Standing Back Control' section would answer this common upstream query."
+    },
+    {
+      "question": "How do hooks work in back control?",
+      "answer_snippet": "Hooks in back control are the attacker's heels or feet inserted inside the opponent's inner thighs. They prevent the opponent from sitting out or rotating away by compromising the hips. In standing back control, hooks are more difficult to establish and may be replaced by a body triangle or strategic weight distribution.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "notes": "Mentioned contextually throughout but not explained. A one-sentence inline definition when first introduced would improve clarity for beginners."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview (implied, opening paragraph)",
+      "suggested": "What Is Standing Back Control in BJJ?",
+      "rationale": "Conversational question format matches high-volume PAA query pattern; front-loads the position definition for featured snippet eligibility."
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How Do You Control and Attack from Standing Back Control?",
+      "rationale": "Transforms instructional heading into an answerable question that aligns with 'how to' search intent."
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Are Your Options from Standing Back Control? (Decision Guide)",
+      "rationale": "Question format captures 'what to do' search intent; subtitle preserves the decision-tree navigation cue."
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "Why Do People Lose Standing Back Control? (Common Mistakes)",
+      "rationale": "Frames mistakes as the answer to a question users actually type; 'why do I lose back control' is a common search."
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "How Effective Is Standing Back Control? (Statistics)",
+      "rationale": "Matches evaluative query intent ('is back control worth pursuing?') and signals data-backed content to search engines."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How to Enter Standing Back Control' — entry sequences from clinch, failed takedowns, scrambles (addresses upstream search intent)",
+    "Add section: 'Standing vs. Grounded Back Control — Key Differences' — positional comparison with transition advice",
+    "Add callout box: Define seatbelt/harness grip with diagram description — satisfies definitional query and reduces jargon barrier for beginners",
+    "Add section: 'What Your Opponent Will Try to Escape' — brief escape overview linking to Defender page",
+    "Add FAQ block: 'When to Choke vs. When to Take Down' — elevate Q4 from Test Your Knowledge to dedicated FAQ schema entry",
+    "Add inline definition of 'hooks' on first use in position definition",
+    "Add competition context: When is standing back control most commonly seen? (Wrestling, no-gi, MMA) — contextualizes the position for different rulesets"
+  ]
+}

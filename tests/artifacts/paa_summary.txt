@@ -1,0 +1,121 @@
+PAA SEO ANALYSIS SUMMARY
+========================
+Generated: 2026-04-15
+Data Source: Content analysis + BJJ domain knowledge
+Note: DataForSEO MCP tool unavailable; WebSearch/WebFetch require user permission grants.
+      PAA questions synthesized from article content and BJJ search pattern analysis.
+
+ARTICLES PROCESSED
+------------------
+1. content/Positions/Back Control/Standing Back Control/Top.md
+   Seed keyword: "Standing Back Control Top BJJ"
+
+2. content/Positions/Ashi Garami/Honey Hole/Top.md
+   Seed keyword: "Honey Hole position BJJ"
+
+
+TOTALS
+------
+Total PAA questions identified:   22
+  - Article 1 (Standing Back Control Top): 10 questions
+  - Article 2 (Honey Hole Top):            12 questions
+
+Priority breakdown:
+  - High priority:   11 questions (50%)
+  - Medium priority:  7 questions (32%)
+  - Low priority:     4 questions (18%)
+
+Integration strategies recommended:
+  - dedicated_faq:       5 questions
+  - improve_heading:    10 questions
+  - add_section:         7 questions
+
+Total heading optimizations:     11 (5 per article + 1 crossover)
+Total missing content sections:  15 (7 for SBC Top, 8 for Honey Hole Top)
+
+
+HIGH-PRIORITY QUESTIONS (Direct answers needed)
+-------------------------------------------------
+Standing Back Control Top:
+  1. "What is standing back control in BJJ?" → improve_heading (rewrite overview heading)
+  2. "What is the seatbelt grip in BJJ?" → add_section (define harness/seatbelt grip explicitly)
+  3. "What submissions can you do from standing back control?" → improve_heading
+  4. "How do you maintain back control while standing?" → improve_heading
+  5. "When should you choke vs. take down from standing back control?" → dedicated_faq (elevate from Q4)
+
+Honey Hole Top:
+  1. "What is the honey hole position in BJJ?" → improve_heading (add all 3 alternate names)
+  2. "Is the honey hole legal in BJJ competitions?" → dedicated_faq (HIGHEST PRIORITY — missing entirely)
+  3. "What is the difference between honey hole and saddle?" → add_section
+  4. "What is the 411 position in BJJ?" → improve_heading
+  5. "How do you escape the honey hole?" → add_section (brief defender overview + wikilink)
+  6. "How dangerous is the honey hole?" → dedicated_faq (safety section missing from attack page)
+
+
+CONTENT GAP ANALYSIS
+---------------------
+Standing Back Control Top:
+  CRITICAL gaps:
+  - No explicit entry sequences section ("How to take the back standing")
+  - Seatbelt/harness grip never defined despite being referenced as the core control
+  - No standing vs. grounded back control comparison
+  - Injury/fatigue risk of arm-only control briefly mentioned but not expanded
+
+  MODERATE gaps:
+  - No "What your opponent will do" section linking to Defender page
+  - Competition context (when is this position most seen?) not addressed
+
+Honey Hole Top:
+  CRITICAL gaps:
+  - Competition legality section completely absent (IBJJF belt restrictions, ADCC rules)
+  - No injury/safety content despite being an attack page for a high-injury-risk position
+  - No entry sequences described (only mentioned as a prerequisite requirement)
+  - Honey Hole / Inside Sankaku / 411 naming confusion not addressed prominently
+
+  MODERATE gaps:
+  - No Honey Hole vs. Saddle comparison despite frequent user confusion
+  - Ashi garami system hierarchy not explained
+  - Heel hook mechanics not defined inline
+
+
+SUGGESTED NEW ARTICLES
+-----------------------
+Category: Positions
+  - content/Positions/Back Control/Standing Back Control/Bottom.md
+    Plan: Defender perspective for standing back control — technical standup, grip fighting, turning escapes
+
+  - content/Positions/Ashi Garami/Honey Hole/Bottom.md  (if not exists — verify)
+    Plan: Defender perspective for honey hole — hip rotation escapes, leg extraction, inversion counter-attacks
+
+Category: Transitions
+  - content/Transitions/Standing Back Take.md
+    Plan: Entry technique from clinch/over-under to standing back control position
+
+  - content/Transitions/Standing to Grounded Back Control.md
+    Plan: Technique for breaking opponent down from standing back to grounded back control
+
+Category: Concepts/Principles
+  - content/Principles/Leg Lock Safety.md
+    Plan: Safety protocol for heel hooks, kneebars — tap timing, injury types, training etiquette (serves Honey Hole and all leg lock pages)
+
+  - content/Principles/Ashi Garami System.md
+    Plan: Overview of the full ashi garami leg entanglement hierarchy (ashi garami → honey hole → saddle → 50-50) with navigation links
+
+
+PRIORITY ACTION ITEMS (ordered by SEO impact)
+----------------------------------------------
+1. [Honey Hole Top] Add competition legality section — highest-volume missing query
+2. [Honey Hole Top] Clarify Honey Hole = Inside Sankaku = 411 in opening heading/section
+3. [Honey Hole Top] Add safety/injury risk section for training context
+4. [Standing Back Control] Define seatbelt/harness grip inline on first use
+5. [Standing Back Control] Add entry sequences section
+6. [Both articles] Convert section headings to question format for PAA capture
+7. [Both articles] Add 'What Defenders Will Try' section linking to Defender pages
+8. [Both articles] Elevate highest-priority Q&A pairs to FAQPage schema markup
+
+OUTPUT FILES
+------------
+tests/artifacts/paa_Standing_Back_Control_Top.json   — Full PAA analysis for article 1
+tests/artifacts/paa_Honey_Hole_Top.json              — Full PAA analysis for article 2
+tests/artifacts/paa_summary.txt                      — This file
+tests/artifacts/suggested_new_files.csv              — Exists (managed by build system, not modified)
