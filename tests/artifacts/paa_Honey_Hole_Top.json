@@ -1,0 +1,146 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Honey Hole/Top.md",
+  "seed_keyword": "Honey Hole position BJJ",
+  "data_source": "content_analysis_plus_domain_knowledge",
+  "note": "DataForSEO MCP tool unavailable; PAA synthesized from article content analysis and BJJ domain knowledge. WebSearch/WebFetch require user permission grants.",
+  "paa_questions": [
+    {
+      "question": "What is the honey hole position in BJJ?",
+      "answer_snippet": "The honey hole (also known as Inside Sankaku or 411) is an advanced leg entanglement where the top player traps one of the opponent's legs in a figure-four configuration between their own legs while facing them. It provides direct access to heel hooks, kneebars, and toe holds and is considered one of the most dangerous positions in modern no-gi BJJ.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The opening paragraph defines this well but under a generic 'Overview' framing. Rewriting as 'What Is the Honey Hole Position in BJJ?' would directly answer the primary informational query and improve featured snippet eligibility. All three alternate names (Honey Hole, Inside Sankaku, 411) should appear in the first 100 words."
+    },
+    {
+      "question": "Is the honey hole legal in BJJ competitions?",
+      "answer_snippet": "The honey hole itself is a legal position in most BJJ rulesets. However, the inside heel hook that it enables is restricted in IBJJF competition to brown and black belt levels in no-gi divisions. In submission-only and ADCC rulesets, all heel hooks from honey hole are typically permitted regardless of belt rank.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Competition legality is a top-priority query — beginners and intermediate competitors frequently search this. The article mentions IBJJF legality only in the Prerequisites section in passing. This deserves its own dedicated FAQ section or callout box near the top of the page."
+    },
+    {
+      "question": "What is the difference between honey hole and saddle position?",
+      "answer_snippet": "Both are inside heel hook positions, but the saddle (inside sankaku variation) typically involves tighter leg configuration with the attacker's legs wrapping more completely around the opponent's hip, creating even greater control and inside heel hook leverage. The honey hole is the entry/control position while the saddle is a more refined variation with enhanced submission mechanics.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Critical differentiation question — these two terms are frequently confused. The article links to [[Positions/Ashi Garami/Saddle]] but doesn't explain the distinction. A short comparison table or paragraph would serve users who want to understand the hierarchy."
+    },
+    {
+      "question": "What is the 411 position in BJJ?",
+      "answer_snippet": "411 is an alternate name for the honey hole position (Inside Sankaku), popularized through submission grappling and leg lock competition circuits. The name refers to the positional geometry of the leg entanglement. It is the same position known as honey hole or inside sankaku.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The article mentions '411' only once in the opening line. A brief subsection clarifying all three names (Honey Hole, Inside Sankaku, 411) with their origins would capture multiple keyword variants and reduce user confusion."
+    },
+    {
+      "question": "How do you escape the honey hole position?",
+      "answer_snippet": "Primary escapes from honey hole include: hip rotation to create space and extract the trapped leg, boot scooting away to break the figure-four configuration, inverting toward the attacker's legs to attempt a counter-entanglement, and gripping the attacker's pants/legs to facilitate leg extraction. Escape is significantly harder once the attacker has secured heel hook grip.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "This is the Attacker (Top) page but 'how to escape honey hole' is a high-volume query. A brief 'What Defenders Will Try' section with a wikilink to the Defender page would capture this traffic and improve the page's usefulness."
+    },
+    {
+      "question": "How dangerous is the honey hole position?",
+      "answer_snippet": "Honey hole is considered high-risk for the defender because it provides direct access to inside heel hooks, which can cause rapid and severe injury to the knee (ACL, MCL, popliteal ligament) with little warning. The attacker can transition to finishing mechanics faster than the defender can react, especially with improper tapping habits.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Injury risk and safety is a major search intent for this topic. The article has no explicit injury/safety section despite being an attack-focused page for a dangerous position. Adding a safety callout (tap early, communicate with training partners, injury risk types) would satisfy this query and improve training responsibility messaging."
+    },
+    {
+      "question": "What submissions are available from honey hole?",
+      "answer_snippet": "From honey hole top, primary submissions are: inside heel hook (42% attempt rate), outside heel hook (12%), kneebar (14%), toe hold (8%), and Estima lock (3%). Back take is also available (14%) when the opponent rotates away. Inside heel hook is the primary threat that makes the position so dangerous.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The HowTo schema already lists these but the article body doesn't have a clear 'Submissions from Honey Hole' summary section. Adding one near the top with attempt probability data would directly answer this query and reinforce the HowTo structured data."
+    },
+    {
+      "question": "How do you enter the honey hole position?",
+      "answer_snippet": "Common honey hole entries include: from X-guard by rotating into the leg entanglement, from single leg X-guard (ashi garami) by adjusting hip position, from inside ashi garami by advancing the leg configuration, and from 50-50 guard through directional transitions. The entry requires understanding of the ashi garami system.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Prerequisites section mentions entry knowledge is required but doesn't describe entries. An 'Entry Sequences' section with the three main entries (X-guard, single leg X, ashi garami) would answer this common how-to query and strengthen internal linking."
+    },
+    {
+      "question": "What is inside sankaku in BJJ?",
+      "answer_snippet": "Inside sankaku is the Japanese BJJ/grappling term for the honey hole / 411 position. 'Sankaku' means triangle in Japanese, describing the triangular leg configuration around the opponent's leg. It is the same technique called honey hole in English-speaking no-gi circuits.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Terminology unification — users searching 'inside sankaku' should land on this page with clear confirmation they found the right place. The alternate names should be prominent early in the page."
+    },
+    {
+      "question": "What is the difference between ashi garami and honey hole?",
+      "answer_snippet": "Ashi garami is the foundational leg entanglement system in BJJ, with multiple variations (inside ashi, outside ashi, honey hole/saddle, 50-50). The honey hole is a specific, advanced variant within the ashi garami family, characterized by the figure-four leg configuration facing the opponent. It offers more control and direct inside heel hook access than basic ashi garami.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The hierarchy between ashi garami and honey hole is not explained. A brief positional hierarchy diagram description or section would help users understand where honey hole fits in the leg lock system."
+    },
+    {
+      "question": "How do heel hooks work in BJJ?",
+      "answer_snippet": "A heel hook uses leverage against the heel and ankle to rotate the knee joint beyond its natural range, threatening the ligaments (ACL, MCL, popliteal). The attacker cups the heel with one hand and controls the ankle with the other, using body rotation to apply torque. They are among the most effective and dangerous submissions in no-gi BJJ.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "notes": "Heel hooks are central to honey hole but the article doesn't explain the mechanics. A short 'How Heel Hooks Work' definition box would serve beginner users and strengthen the page's topical authority on heel hook content."
+    },
+    {
+      "question": "Can you use honey hole in IBJJF tournaments?",
+      "answer_snippet": "The honey hole position itself is legal in IBJJF competition. However, the inside heel hook available from honey hole is restricted to brown and black belt competitors in no-gi divisions only. At white, blue, and purple belt levels, inside heel hooks are prohibited across all IBJJF formats.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Specific competition ruleset question — can be rolled into the legality FAQ section recommended above."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview (implied, opening paragraph)",
+      "suggested": "What Is the Honey Hole Position in BJJ? (Inside Sankaku / 411)",
+      "rationale": "Captures three keyword variants in one heading; answers the primary definition query; subtitle covers alternate name searches."
+    },
+    {
+      "current": "Position Definition",
+      "suggested": "How Is the Honey Hole Defined? (Leg Configuration Details)",
+      "rationale": "Question format matches 'how does honey hole work' search intent; subtitle signals technical precision."
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How Do You Attack from Honey Hole? (Offensive Principles)",
+      "rationale": "Converts instructional heading to answerable question; captures 'how to attack from honey hole' queries."
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Are Your Options from Honey Hole? (Decision Guide)",
+      "rationale": "Question format captures situational query intent; decision-tree subtitle preserves navigation value."
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "Why Do People Lose the Honey Hole Position? (Common Mistakes)",
+      "rationale": "High-intent troubleshooting query format — 'why do I keep losing honey hole' is a common practitioner search."
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "How Effective Is the Honey Hole? (Submission Statistics)",
+      "rationale": "Evaluative query format; signals data authority to search engines and practitioners researching the position."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Is Honey Hole Legal in BJJ Competition?' — IBJJF, ADCC, submission-only breakdown with belt-level specifics (highest priority gap)",
+    "Add section: 'Entry Sequences into Honey Hole' — from X-guard, single leg X, and inside ashi garami with wikilinks",
+    "Add section: 'Honey Hole vs. Saddle — What's the Difference?' — positional comparison table",
+    "Add section: 'Safety and Injury Risk from Honey Hole' — knee anatomy, injury types, tap protocol, training etiquette",
+    "Add section: 'What Defenders Will Try to Escape' — brief escape overview linking to Defender page",
+    "Add callout box: Alternate Names — clarify Honey Hole = Inside Sankaku = 411 in first section",
+    "Add section: 'How Honey Hole Fits in the Ashi Garami System' — positional hierarchy diagram/description",
+    "Add inline definition of 'inside heel hook' on first use — beginner accessibility"
+  ]
+}
