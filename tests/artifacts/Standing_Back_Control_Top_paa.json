@@ -1,0 +1,135 @@
+{
+  "article_path": "content/Positions/Back Control/Standing Back Control/Top.md",
+  "seed_keyword": "Standing Back Control Top",
+  "paa_data_source": "web_search_derived",
+  "paa_questions": [
+    {
+      "question": "What is standing back control in BJJ?",
+      "answer_snippet": "Standing back control is a dominant position where one practitioner has their chest against the opponent's back while both are on their feet. The controlling player uses a seatbelt (harness) grip to prevent rotation and can attack with chokes or take the opponent down to the ground.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The article's Overview section answers this but is not structured as a direct question. Converting the section heading to 'What Is Standing Back Control in BJJ?' captures this PAA."
+    },
+    {
+      "question": "How do you maintain back control while standing in BJJ?",
+      "answer_snippet": "Maintaining standing back control requires a locked seatbelt (harness) grip with one arm over the shoulder and one under the armpit, constant chest-to-back pressure, and lower body control via hooks inside the opponent's thighs or a body triangle. Using body weight — not just arm strength — prevents grip stripping and keeps the opponent off-balance.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Key Offensive Principles section covers this but under a generic heading. Rename to 'How Do You Maintain Standing Back Control?' for PAA capture."
+    },
+    {
+      "question": "What submissions can you do from standing back control?",
+      "answer_snippet": "The primary submission from standing back control is the Rear Naked Choke. Additional options include the Body Triangle (to drain base and set up chokes), the Armbar from Back Transition, and the Crucifix Transition. The most common path is taking the opponent down to grounded back control first to increase submission success rates.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "No dedicated section lists the available submissions. A 'What Submissions Are Available from Standing Back Control?' section would capture this high-volume query."
+    },
+    {
+      "question": "How do you take someone down from standing back control?",
+      "answer_snippet": "From standing back control, take the opponent down by driving your chest into their back, breaking their posture forward, and using a mat-return technique (body lock takedown or trip). A seatbelt grip secures the upper body during the descent. Follow them to the ground and immediately establish hooks for grounded back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Decision Making section mentions takedowns contextually but never explains the mechanics. A dedicated 'How to Take an Opponent Down from Standing Back Control' subsection would answer this PAA directly."
+    },
+    {
+      "question": "What is the seatbelt grip in BJJ back control?",
+      "answer_snippet": "The seatbelt (harness) grip is the standard upper body control in back control. One arm goes over the opponent's shoulder (choking arm), the other arm threads under the opposite armpit (control arm), and the hands grip each other — typically wrist-to-bicep — across the opponent's chest, resembling a seatbelt.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Article references seatbelt grip repeatedly but never defines it for a beginner. A short 'What Is the Seatbelt Grip?' explainer section or callout box addresses this common beginner query."
+    },
+    {
+      "question": "How do you escape standing back control in BJJ?",
+      "answer_snippet": "Common escapes from standing back control include: (1) fighting the choking arm with a chin tuck and two-on-one grip fight; (2) dropping your weight and sitting down to force a transition; (3) turning into the opponent using explosive hip rotation; (4) backing into a wall or mat to remove their hooks.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "This is a Defender-perspective question. The Defender role page is the right home, but a brief 'What Defenders Will Try' callout on the Top (attacker) page helps practitioners anticipate escapes and counter them."
+    },
+    {
+      "question": "What is the difference between standing and grounded back control in BJJ?",
+      "answer_snippet": "In grounded back control both practitioners are on the mat, enabling stable hooks and slower-paced submission hunting. Standing back control is more dynamic and unstable — both players are on their feet — so submission windows are shorter and mat returns become an equally important objective. Control retention rates are lower while standing.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The Overview touches on this implicitly. A direct comparison sentence or table in the Overview would capture this PAA and improve time-on-page for users navigating between the two position pages."
+    },
+    {
+      "question": "How do you get standing back control in BJJ?",
+      "answer_snippet": "Standing back control is typically achieved from: a scramble where the opponent turns away, a sprawl-to-back sequence after a failed takedown attempt, a Granby roll or turtle position when the opponent turtles, or a standing clinch where one player manages to spin behind the other.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The Prerequisites section lists requirements but not the entry paths. Adding 'Common Ways to Achieve Standing Back Control' with 3-4 bullet-point entries captures this intent-rich query."
+    },
+    {
+      "question": "What are hooks in back control BJJ?",
+      "answer_snippet": "Hooks in BJJ back control are your feet (heels or insteps) inserted inside the opponent's thighs while they face away from you. They prevent the opponent from peeling your legs off, destabilize their base, and allow hip-switching to follow escape attempts. Having two hooks establishes the full-back position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Article mentions hooks multiple times without defining them. A one-paragraph explainer or glossary callout under Position Definition improves beginner accessibility and PAA capture."
+    },
+    {
+      "question": "How do you use a body triangle from back control?",
+      "answer_snippet": "The body triangle is an alternative to hooks: cross your legs around the opponent's waist (one leg over the other's knee), squeezing to compress their ribs and restrict breathing. It locks the position more securely than hooks alone against opponents who are skilled at defeating standard hooks, especially in standing back control.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Body triangle is referenced in the decision tree and related content but never explained mechanically. A short FAQ entry 'How Does the Body Triangle Help in Standing Back Control?' is an efficient integration."
+    },
+    {
+      "question": "What percentage of back control positions end in submission?",
+      "answer_snippet": "According to positional data, Standing Back Control Top carries a 58% submission probability — meaning over half of exchanges from this position result in a submission attempt that succeeds or advances toward a finish. The advancement probability (78%) reflects how often control transitions to an even more dominant position.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading",
+      "notes": "The Success Rates section already covers this. Renaming the heading to 'How Effective Is Standing Back Control? (Success Rates)' will pull in this data-hungry query."
+    },
+    {
+      "question": "What is the rear naked choke setup from standing back control?",
+      "answer_snippet": "From a standing seatbelt grip, slide the choking arm (the arm over the shoulder) across the opponent's throat when their chin lifts. Hook the hand behind their head or grip your own bicep to tighten the choke. The non-choking arm drives upward under the chin to assist. Maintain chest pressure throughout to prevent posture recovery.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "The Rear Naked Choke is the position's primary submission (28% attempt rate) but its mechanics are not explained on this page. A brief FAQ entry or a link to the RNC Attacker page with an anchor snippet covers this efficiently."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Standing Back Control Top (page title / Overview section)",
+      "suggested": "What Is Standing Back Control Top in BJJ?",
+      "rationale": "Conversational question format matches PAA triggers and voice search patterns for positional explanation queries."
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How Do You Maintain and Attack from Standing Back Control?",
+      "rationale": "Directly maps to high-priority PAA 'How do you maintain back control while standing in BJJ?' — pulls in both maintenance and attack intent."
+    },
+    {
+      "current": "Prerequisites",
+      "suggested": "How Do You Get Standing Back Control? (Entry Points)",
+      "rationale": "Reframes a static checklist as an answer to the medium-priority PAA query 'How do you get standing back control in BJJ?'"
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "How Effective Is Standing Back Control? (Rates & Statistics)",
+      "rationale": "Question-format headings rank better for PAA and improve click-through from featured snippet previews."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: What Submissions Are Available from Standing Back Control? — lists RNC, body triangle, armbar, crucifix with attempt percentages",
+    "Add section: How to Take an Opponent Down from Standing Back Control — step-by-step mat return mechanics (missing from current content)",
+    "Add callout: What Is the Seatbelt Grip? — one-paragraph definition, referenced 5+ times without ever being defined",
+    "Add callout: What Are Hooks? — beginner-facing definition, hooks mentioned throughout but never explained",
+    "Add subsection under Prerequisites: Common Ways to Achieve Standing Back Control — scrambles, turtle, clinch spin-behind",
+    "Add brief Defender callout: What Defenders Will Attempt — anticipate escapes (chin tuck, sit-down, turn-in) to help Top player pre-empt them",
+    "Add FAQ entry: How Does the Body Triangle Work in Standing Back Control? — mechanical explanation currently missing",
+    "Add FAQ entry: What Is the Rear Naked Choke Setup from Standing? — highest-attempt technique lacks mechanics on this page"
+  ]
+}
