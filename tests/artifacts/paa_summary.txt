@@ -1,0 +1,97 @@
+PAA SEO Analysis Summary
+========================
+Generated: 2026-04-17
+Article: content/Positions/Back Control/Standing Back Control/Top.md
+Seed Keyword: Standing Back Control Top
+Data Source: Domain knowledge + article content analysis (DataForSEO unavailable; WebSearch not permitted)
+
+---
+
+TOTALS
+------
+Total PAA questions identified: 12
+High-priority questions: 5
+Medium-priority questions: 5
+Low-priority questions: 2
+
+---
+
+HIGH-PRIORITY QUESTIONS (Direct Answers Needed)
+-------------------------------------------------
+1. "What is standing back control in BJJ?"
+   → Strategy: Convert Overview heading to question format; content already present.
+
+2. "How do you maintain back control while standing in BJJ?"
+   → Strategy: Rename "Key Offensive Principles" section to question format; content already present.
+
+3. "What submissions can you do from standing back control?"
+   → Strategy: ADD new section — submissions (RNC, body triangle, armbar, crucifix) with attempt %.
+
+4. "How do you take someone down from standing back control?"
+   → Strategy: ADD new subsection with mat-return mechanics; currently absent.
+
+5. "What is the seatbelt grip in BJJ back control?"
+   → Strategy: ADD one-paragraph callout or glossary entry; term used 5+ times without definition.
+
+---
+
+CONTENT GAP ANALYSIS
+---------------------
+Critical gaps (content completely absent):
+  - Seatbelt/harness grip definition
+  - Hooks definition for beginners
+  - Takedown mechanics from standing back control
+  - Entry paths / how to achieve the position (Prerequisites lists state, not method)
+  - Rear Naked Choke setup mechanics on this page
+
+Partial gaps (content implied but not structured for PAA):
+  - Submission list (scattered in schema markup and decision tree, not a scannable section)
+  - Comparison to grounded back control
+  - Body triangle mechanics
+
+Already covered well:
+  - Success rates / statistics
+  - Common mistakes (FAQ schema exists)
+  - Decision-making tree
+  - Training drills
+  - Knowledge assessment Q&A
+
+---
+
+SUGGESTED NEW ARTICLES (from content gap analysis)
+---------------------------------------------------
+These are new content files that would capture adjacent high-intent queries and link back to Standing Back Control Top:
+
+1. content/Positions/Back Control/Standing Back Control/Bottom.md (Defender role)
+   — Captures "How do you escape standing back control BJJ" PAA directly
+   — Prerequisite for full position coverage
+
+2. content/Transitions/Mat Return from Standing Back Control.md
+   — Captures "how to take someone down from standing back control" query cluster
+   — Bridges standing → grounded back control transition gap
+
+3. content/Transitions/Seatbelt Grip Setup.md (or add to existing Back Control Top page)
+   — Captures "what is seatbelt grip BJJ" — high beginner search volume
+
+---
+
+HEADING OPTIMIZATION SUMMARY
+------------------------------
+4 headings should be converted to question format:
+  - Overview/title → "What Is Standing Back Control Top in BJJ?"
+  - Key Offensive Principles → "How Do You Maintain and Attack from Standing Back Control?"
+  - Prerequisites → "How Do You Get Standing Back Control? (Entry Points)"
+  - Success Rates and Statistics → "How Effective Is Standing Back Control? (Rates & Statistics)"
+
+---
+
+PRIORITY ACTION LIST
+---------------------
+1. [HIGH] Add "What submissions can you do from standing back control?" section
+2. [HIGH] Add seatbelt grip definition callout
+3. [HIGH] Add mat-return takedown mechanics subsection
+4. [MEDIUM] Add hooks definition callout
+5. [MEDIUM] Expand Prerequisites to include entry paths
+6. [MEDIUM] Add brief Defender escape anticipation callout
+7. [LOW] Rename 4 headings to question format
+8. [LOW] Add Body Triangle FAQ entry

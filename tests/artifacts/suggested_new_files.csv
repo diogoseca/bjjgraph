@@ -1,2 +1,5 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+ai_seo_v1,Positions,"Back Control/Standing Back Control/Bottom","Defender role for Standing Back Control; captures 'how to escape standing back control BJJ' PAA directly; sections: escape hierarchy, chin tuck & grip fight, sit-down escape, turn-in escape; prerequisite for full position coverage"
+ai_seo_v1,Transitions,Mat Return from Standing Back Control,"Dedicated technique page for the 18% attempt-rate takedown from standing back control; captures 'how to take someone down from standing back control' query cluster; sections: setup, 8-step mechanics, variants, success rates; bridges standing→grounded back control gap"
+ai_seo_v1,Transitions,Seatbelt Grip Setup,"Core back control grip technique referenced across 20+ position pages without a dedicated entry; captures 'what is seatbelt grip BJJ' high beginner search volume; sections: definition, arm placement, hand grip variations, common errors"
