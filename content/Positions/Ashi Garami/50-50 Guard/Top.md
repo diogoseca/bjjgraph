@@ -4,7 +4,7 @@
 
 ---
 title: "50-50 Guard Top | BJJ Position Guide | BJJ Graph"
-description: "Master 50-50 Guard Top position in BJJ. Complete guide covering leg entanglements, heel hooks, and transitions. Advanced position with 50% submission rate."
+description: "Master 50-50 Guard Top in BJJ. Complete guide: inside control, heel hook chains, kneebar entries, and back takes. Advanced leg entanglement with 42% submission rate."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "50-50 Guard Top",
-  "description": "Master 50-50 Guard Top position in BJJ. Complete guide covering leg entanglements, heel hooks, and transitions. Advanced position with 50% submission rate.",
+  "description": "Master 50-50 Guard Top in BJJ. Complete guide: inside control, heel hook chains, kneebar entries, and back takes. Advanced leg entanglement with 42% submission rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,11 +157,21 @@ description: "Master 50-50 Guard Top position in BJJ. Complete guide covering le
 
 <section id="overview" class="content-section">
 
-50-50 Guard Top is a leg entanglement position where both practitioners have their legs entwined in a mirror configuration, with you achieving top position through superior hip pressure and inside control. Despite being scored as neutral (0 points) in most rulesets, the top position provides significant advantages for leg lock attacks and transitions to dominant positions. The position is named 50-50 because both fighters theoretically have equal access to each other's legs, though top position breaks this parity.
+**50-50 Guard Top** is a leg entanglement position where both practitioners have their legs entwined in a mirror configuration, with you achieving top position through superior hip pressure and inside control. Despite being scored as neutral (0 points) in most rulesets, the top position provides significant advantages for leg lock attacks and transitions to dominant positions. The position is named 50-50 because both fighters theoretically have equal access to each other's legs, though top position breaks this parity.
 
-From this position, you have multiple high-percentage submission opportunities, primarily the heel hook, along with alternative attacks including kneebar, ankle lock, and calf slicer. The top position also enables strong transitions to back control or passing to side control when submissions are defended. The leg entanglement creates a complex tactical situation where inside position control, grip fighting, and submission chains determine success.
+From **50-50 Guard Top**, you have multiple high-percentage submission opportunities, primarily [[Transitions/Heel Hook]] (inside and outside), along with alternative attacks including [[Transitions/Kneebar entry]], [[Transitions/Straight Ankle Lock Entry]], and [[Transitions/Calf Slicer from 50-50]]. The top position also enables strong transitions to [[Positions/Back Control]] via [[Transitions/Back Take from 50-50]], or passing to [[Positions/Side Control]] when submissions are defended. The [[Positions/Ashi Garami/Inside Ashi-Garami]] and [[Positions/Ashi Garami/Honey Hole]] are the primary upgrade targets when the opponent hides their heel.
 
-The 50-50 Guard Top is particularly effective in no-gi competition where heel hooks are legal, and against opponents with limited leg lock experience. However, it carries significant risk as the position can quickly reverse, and both practitioners are vulnerable to leg attacks. Energy management is important as maintaining grip control and hip pressure over time requires sustained effort.
+Here is the step-by-step process for attacking from 50-50 Guard Top:
+1. **Establish inside control** — press your shin or calf inside the opponent's leg structure before settling into top position.
+2. **Apply hip pressure** — drive your pelvis downward into their lower abdomen to prevent them sitting up.
+3. **Secure two-handed heel control** — one hand cups the heel, the other grips the ankle or Achilles area.
+4. **Expose the heel** — use leg pressure and hip adjustment to rotate their heel outward.
+5. **Apply heel hook rotation** — rotate their heel toward their centerline for the inside heel hook finish.
+6. **If heel is hidden**, immediately transition to [[Transitions/Kneebar entry]] by controlling above the knee.
+7. **If kneebar is defended**, backstep to [[Transitions/Back Take from 50-50]] by releasing legs and circling to their back.
+8. **If they sit up to equalize**, drive hips forward and consider [[Transitions/Saddle Entry from Top]] to [[Positions/Ashi Garami/Honey Hole]].
+
+The **50-50 Guard Top** is particularly effective in no-gi competition where heel hooks are legal, and against opponents with limited leg lock experience. However, it carries significant risk as the position can quickly reverse. Energy management is essential as maintaining grip control and hip pressure over time requires sustained effort.
 
 </section>
 
@@ -195,12 +205,12 @@ The 50-50 Guard Top is particularly effective in no-gi competition where heel ho
 
 ## Key Offensive Principles
 
-- Inside Position Dominance: Maintaining inside control with your left leg is critical for all offensive opportunities and prevents opponent from attacking your legs effectively
-- Hip Pressure Application: Constant downward hip pressure keeps opponent flat and prevents them from sitting up to equalize position or escape
-- Heel Control Priority: Controlling opponent's heel with strong grips enables heel hook finish and prevents them from extracting their leg
-- Submission Chain Mentality: Success requires chaining between heel hook, kneebar, ankle lock, and back take based on opponent's defensive reactions
-- Energy Management: Position demands sustained grip strength and hip pressure, requiring efficient energy use to maintain control over time
-- Risk Awareness: Position can reverse quickly if opponent matches inside control, requiring constant awareness of position parity
+- Inside Position Dominance: Maintaining inside control with your left leg is critical for all offensive opportunities and prevents opponent from attacking your legs effectively — without inside control, you cannot safely attack [[Transitions/Heel Hook]]
+- Hip Pressure Application: Constant downward hip pressure keeps opponent flat and prevents them from sitting up to equalize position or escape to [[Positions/X-Guard/Single Leg X-Guard]]
+- Heel Control Priority: Controlling opponent's heel with strong grips enables [[Transitions/Heel Hook]] finish and prevents them from extracting their leg to escape
+- Submission Chain Mentality: Success requires chaining between [[Transitions/Heel Hook]], [[Transitions/Kneebar entry]], [[Transitions/Straight Ankle Lock Entry]], and [[Transitions/Back Take from 50-50]] based on opponent's defensive reactions
+- Energy Management: Position demands sustained grip strength and hip pressure — use skeletal alignment rather than muscular tension for sustained control over time
+- Risk Awareness: Position can reverse quickly if opponent matches inside control, requiring constant awareness of position parity and readiness to transition to [[Positions/Ashi Garami/Honey Hole]]
 
 
 </section>
