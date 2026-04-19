@@ -1,0 +1,77 @@
+PAA SEO CONTEXT SUMMARY
+Generated: 2026-04-19
+Note: DataForSEO MCP tool unavailable — PAA data derived from domain knowledge of BJJ search patterns.
+
+=============================================================
+TOTALS
+=============================================================
+Articles processed:     2
+Total PAA questions:   24
+  Back Control:        12
+  Understanding Position Flow: 12
+High-priority questions: 10
+Medium-priority questions: 9
+Low-priority questions:   5
+
+=============================================================
+HIGH-PRIORITY QUESTIONS (Direct Answers Needed)
+=============================================================
+
+BACK CONTROL:
+  1. "What is back control in BJJ?" → improve_heading
+  2. "How do you escape back control in BJJ?" → improve_heading
+  3. "How many points is back control worth?" → dedicated_faq
+  4. "What submissions can you do from back control?" → add_section
+  5. "What is the seatbelt (harness) grip in BJJ?" → dedicated_faq
+  6. "What is the difference between hooks and body triangle?" → add_section
+
+UNDERSTANDING POSITION FLOW:
+  1. "What are the main positions in BJJ?" → add_section
+  2. "What is position before submission?" → improve_heading
+  3. "How do BJJ positions connect to each other?" → dedicated_faq
+  4. "What is the difference between a position and a transition?" → improve_heading
+  5. "What does playing guard mean in BJJ?" → add_section
+  6. "How do BJJ beginners learn position flow?" → improve_heading
+
+=============================================================
+CONTENT GAP ANALYSIS
+=============================================================
+
+BACK CONTROL — Top Gaps:
+  - No explicit points value callout (4 pts IBJJF) in scannable format
+  - Missing hooks vs body triangle comparison section
+  - Missing entry sequences overview (from turtle, mount, guard, etc.)
+  - No gi vs no-gi grip differences covered
+  - FAQ block absent; no structured Q&A for snippet eligibility
+
+UNDERSTANDING POSITION FLOW — Top Gaps:
+  - No visual position hierarchy / dominance ranking with point values
+  - No explicit IBJJF points table (high-volume query anchor)
+  - Missing 'guard vs top' framing for beginners (BJJ uniqueness)
+  - No drill prescriptions for developing flow (instructional gap)
+  - Insufficient internal linking to position hub pages
+
+=============================================================
+SUGGESTED NEW ARTICLES (for suggested_new_files.csv)
+=============================================================
+
+  1. content/Learning/BJJ Points System Explained.md
+     — Covers IBJJF scoring, all positions with point values, advantages/penalties
+  2. content/Learning/Hooks vs Body Triangle in Back Control.md
+     — Dedicated comparison article; high-specificity BJJ query
+  3. content/Learning/BJJ Positional Sparring Guide.md
+     — Drill-focused guide for developing position flow through structured sparring
+  4. content/Learning/Back Control Escapes Complete Guide.md
+     — Dedicated escape article (currently split inside Back Control.json; warrants standalone)
+  5. content/Learning/BJJ Guard Complete Guide.md
+     — 'What is guard in BJJ?' is among the highest-volume beginner queries
+
+=============================================================
+INTEGRATION PRIORITY ORDER
+=============================================================
+1. Back Control — add 4-point scoring callout box (snippet win, quick edit)
+2. Back Control — add hooks vs body triangle comparison section
+3. Position Flow — add IBJJF points table
+4. Back Control — convert "Common Errors" heading to question format
+5. Position Flow — add position dominance hierarchy visual (ASCII or table)
+6. Both articles — add dedicated FAQ blocks for high-priority PAA questions

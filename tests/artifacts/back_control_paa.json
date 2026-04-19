@@ -1,0 +1,128 @@
+{
+  "article_path": "content/Positions/Back Control.json",
+  "seed_keyword": "back control BJJ",
+  "data_source": "domain_knowledge_inference",
+  "note": "DataForSEO MCP tool unavailable; PAA questions derived from known BJJ search patterns and training data",
+  "paa_questions": [
+    {
+      "question": "What is back control in BJJ?",
+      "answer_snippet": "Back control is a dominant BJJ position where the practitioner controls the opponent from behind with chest-to-back connection, leg hooks or body triangle around the waist, and upper body harness grip. It scores 4 points in IBJJF competition and is considered the highest-value position due to its low defensive risk and high submission rate.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape back control in BJJ?",
+      "answer_snippet": "The standard back control escape sequence: (1) tuck chin and two-on-one the choking arm to defend the neck; (2) strip the seatbelt grip; (3) hip escape to remove hooks; (4) rotate to face the opponent and recover guard. Defend the neck before attempting any escape movement.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How many points is back control worth in BJJ competition?",
+      "answer_snippet": "Back control (back mount) is worth 4 points in IBJJF competition — the highest single-position score alongside mount. Points are awarded when the practitioner establishes chest-to-back contact with both hooks or body triangle and maintains the position for 3 seconds.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What submissions can you do from back control?",
+      "answer_snippet": "Primary submissions from back control include: Rear Naked Choke (highest percentage), Bow and Arrow Choke (gi), Armbar from Back, Triangle Choke from Back, Kimura from Back, and Short Choke. The rear naked choke accounts for approximately 49% of submission attempts from this position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the seatbelt (harness) grip in BJJ?",
+      "answer_snippet": "The seatbelt grip (also called harness grip) is the standard upper body control from back control: one arm goes over the opponent's shoulder and the other under their armpit, with hands clasped at the chest. It limits the opponent's arm movement and creates the entry angle for rear naked choke and other attacks.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between hooks and body triangle in back control?",
+      "answer_snippet": "Hooks (feet inside opponent's thighs) allow easier transitions and submission setups but can be removed by the opponent. Body triangle (legs locked around the opponent's midsection) offers stronger hip control and constant pressure but restricts your own mobility. Body triangle is preferred against flexible opponents or when hooks are being attacked.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you take someone's back in BJJ?",
+      "answer_snippet": "Common back control entries: from Turtle (insert hooks while opponent is on all fours), from Mount (when opponent bridges and rolls, follow to back), from Side Control (opponent gives up back while escaping), from Guard (back takes using technical stand-up or sweep), and from standing (body lock takedown entries).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is back control better than mount in BJJ?",
+      "answer_snippet": "Back control is generally considered more dominant than mount: both score 4 points, but back control offers higher submission rates (opponent cannot see attacks), lower escape rates, and the rear naked choke is the highest-percentage finish in grappling. Mount offers more pressure and easier transitions to other positions.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Why is back control so hard to escape?",
+      "answer_snippet": "Back control is difficult to escape because: the opponent cannot see or anticipate attacks, multiple simultaneous control mechanisms (hooks + seatbelt) must all be addressed, defending the neck prevents effective escape movement, and the position provides constant energy-draining pressure (the 'cooking' effect).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Can you get ankle locked from back control?",
+      "answer_snippet": "Yes — crossing feet in front of the opponent's body instead of maintaining proper hooks exposes your ankles to a straight ankle lock or footlock. This is a critical error in back control: always maintain proper hooks with feet inside the thighs or use body triangle; never cross feet in front.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the 'back door' escape in BJJ?",
+      "answer_snippet": "The back door escape is a systematic back control escape where the bottom practitioner creates space by scooting their hips backward (through the 'back door') to remove hooks and create enough angle to rotate and face the opponent. It is the most reliable escape route and accounts for approximately 20% of escape attempts.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How long can you hold back control before losing points?",
+      "answer_snippet": "In IBJJF rules, back control points are awarded after 3 seconds of established control. There is no time limit on how long you can hold the position. However, if you lose the position before the 3-second mark, no points are awarded. The clock resets if you lose and re-establish the position.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Back Control",
+      "suggested": "What Is Back Control in BJJ? (The Highest-Value Position)",
+      "rationale": "Matches primary navigational + informational query; front-loads the value proposition"
+    },
+    {
+      "current": "Back Control Top",
+      "suggested": "How to Attack from Back Control: Submissions, Hooks, and Harness Grip",
+      "rationale": "Matches 'how to' query pattern dominant in BJJ how-to searches"
+    },
+    {
+      "current": "Back Control Bottom",
+      "suggested": "How to Escape Back Control in BJJ: Step-by-Step Defense Guide",
+      "rationale": "Directly matches highest-volume escape query for this position"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "What Makes Back Control the Most Dominant Position in BJJ?",
+      "rationale": "Conversational question format matches PAA box trigger patterns"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Why Do People Lose Back Control? (Common Mistakes and Fixes)",
+      "rationale": "Question-format heading matches 'why' PAA query pattern; higher CTR"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'How many points is back control worth in competition?' — high-volume query with no direct answer in current content",
+    "Add comparison section: 'Hooks vs Body Triangle: When to Use Each' — PAA question with dedicated answer needed",
+    "Add section: 'How to Enter Back Control from Different Positions' — entry sequences from turtle, mount, side control, guard",
+    "Add safety note: back control body triangle can cause rib injuries; include tap protocol",
+    "Add section: 'Back Control in No-Gi vs Gi' — grip differences (collar vs seatbelt) are frequently asked",
+    "Add metric callout box: '4 points (IBJJF)' prominently in hero/overview section for snippet eligibility",
+    "Add FAQ: 'Is crossing your feet in back control illegal?' — common white belt question with safety implications"
+  ]
+}

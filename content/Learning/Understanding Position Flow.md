@@ -1,15 +1,51 @@
 ---
-title: "Understanding Position Flow in BJJ | Learning Guide | BJJ Graph"
-description: "Master how BJJ positions connect and flow together. Learn position transitions, decision points, and strategic flow patterns. Complete guide to understanding BJJ as a connected system with 2,200+ words."
+title: "How BJJ Positions Connect: Understanding Position Flow | BJJ Graph"
+description: "Master how BJJ positions connect and flow together. Complete guide to position transitions, IBJJF scoring, decision points, and strategic flow patterns for all skill levels."
+bot_metadata:
+  last_improved: "2026-04-19"
+  optimization_pass: "ai_seo_v1"
 ---
 
-# Understanding Position Flow in BJJ
+# How BJJ Positions Connect: Understanding Position Flow
 
-Brazilian Jiu-Jitsu can seem overwhelmingly complex to beginners, with hundreds of positions, techniques, and variations to learn. However, beneath this apparent complexity lies a simple, elegant structure: every moment in BJJ exists in one of two states - you are either in a **position** (a stable configuration) or executing a **transition** (moving between positions). Understanding how positions connect and flow together is the key to transforming BJJ from a collection of random techniques into a coherent, strategic system.
+**Every moment in BJJ is either a position (stable control) or a transition (movement between positions).** Understanding how positions connect transforms BJJ from a collection of random techniques into a coherent, strategic system. This guide covers the position-transition cycle, how competition points work, and how to build your own flow patterns.
 
-This guide will help you understand BJJ as a connected network of positions rather than isolated techniques. You'll learn how to think about position flow, recognize common patterns, make strategic decisions, and develop a systems-based approach to the art.
+## What Are the Main BJJ Positions? (Dominance Hierarchy)
 
-## The Flow Concept: Position → Transition → Position
+BJJ positions are ranked by dominance — how much control and submission access they provide:
+
+| Position | IBJJF Points | Dominance | Role |
+|----------|-------------|-----------|------|
+| [[Back Control]] | 4 pts | Highest | Attacker controls from behind |
+| [[Mount]] | 4 pts | Very High | Attacker sits on opponent's torso |
+| [[Knee on Belly]] | 2 pts | High | Knee pressing on opponent's stomach |
+| [[Side Control]] | 3 pts (guard pass) | High | Cross-body control of torso |
+| [[Turtle]] | 0 pts | Neutral/Defensive | Hands-and-knees defensive posture |
+| [[Half Guard]] | 0 pts | Neutral | One leg trapped, partial guard |
+| [[Closed Guard]] | 0 pts | Neutral (offensive from bottom) | Full leg wrap from bottom |
+| [[Open Guard]] | 0 pts | Neutral | Legs active without full wrap |
+| Standing | 2 pts (takedown/sweep) | Neutral | Both players standing |
+
+**Key insight:** Positions above your opponent's guard are generally dominant (top player). Guard positions are neutral or offensive for the bottom player — BJJ's unique contribution to grappling.
+
+## How Do BJJ Competition Points Work? (IBJJF Scoring)
+
+Understanding IBJJF points helps you understand why certain positions are strategic priorities:
+
+| Action | Points |
+|--------|--------|
+| Takedown (from standing to guard pass) | 2 pts |
+| Sweep (bottom to top reversal) | 2 pts |
+| Guard Pass (bypassing opponent's legs) | 3 pts |
+| Knee on Belly | 2 pts |
+| Mount | 4 pts |
+| Back Control | 4 pts |
+
+Points require **3 seconds** of maintained position. Advantages are awarded for near-points (almost sweeping, almost passing). The competitor with most points wins; ties go to advantages, then penalties.
+
+**Position before submission** is a fundamental principle: secure a dominant position before attempting submissions. Rushing submissions from poor positions leads to losing control entirely.
+
+## What Is the Position-Transition Cycle in BJJ?
 
 At its core, BJJ follows a simple cycle:
 
@@ -17,7 +53,7 @@ At its core, BJJ follows a simple cycle:
 
 This cycle repeats throughout every match, from the opening exchange to the final submission. Understanding this fundamental rhythm is essential for strategic thinking in BJJ.
 
-### What is a Position?
+### What Is a BJJ Position? (Definition, Examples, and Point Values)
 
 A position is a stable configuration where both practitioners have established their body positioning relative to each other. Positions have several key characteristics:
 
@@ -27,7 +63,7 @@ A position is a stable configuration where both practitioners have established t
 - **Point Value**: In competition, many positions award points (2-4 points)
 - **Risk Level**: Positions vary in danger from neutral to immediate submission threat
 
-Examples of positions include [[Closed Guard Bottom]], [[Mount]], [[Side Control Top]], [[Back Control]], and [[50-50 Guard]]. Each position represents a distinct tactical situation with its own offensive and defensive considerations.
+Examples of positions include [[Closed Guard]], [[Mount]], [[Side Control]], [[Back Control]], and [[50-50 Guard]]. Each position represents a distinct tactical situation with its own offensive and defensive considerations.
 
 ### What is a Transition?
 
@@ -39,13 +75,13 @@ A transition is the technique or movement that connects two positions. Transitio
 - **Timing Window**: The brief moment when the transition is most effective
 - **Physical Requirements**: Strength, flexibility, coordination, and speed needed
 
-Examples of transitions include [[Hip Bump Sweep]] (from closed guard to mount), [[Knee Cut Pass]] (from open guard top to side control), and [[Technical Standup]] (from seated guard to standing).
+Examples of transitions include [[Hip Bump Sweep]] (from closed guard to mount), [[Knee Cut Pass]] (from open guard top to side control), and [[Technical Stand-up]] (from seated guard to standing).
 
 ### The Cycle in Action
 
 Consider a common sequence in BJJ:
 
-1. **Position**: [[Closed Guard Bottom]] - You have opponent wrapped in your legs
+1. **Position**: [[Closed Guard]] - You have opponent wrapped in your legs
 2. **Transition**: [[Hip Bump Sweep]] - You bump opponent forward and roll them over
 3. **Position**: [[Mount]] - You land in mount with positional control
 4. **Transition**: [[Armbar from Mount]] - You transition to armbar control
@@ -64,9 +100,9 @@ Every match begins standing and typically flows to the ground through one of the
 
 **Standing → Guard Opening Sequence → Guard Position**
 
-- From [[Neutral Standing Position]], one player may execute a [[Pull Guard]] to establish [[Closed Guard Bottom]]
-- Alternatively, a takedown like [[Double Leg Entry]] leads to [[Guard Passing Principles]] situations
-- The standing player may sprawl against a takedown attempt, leading to [[Standing Guard]] or [[Top Position]]
+- From [[Standing Position]], one player may execute a [[Pull Guard from Standing]] to establish [[Closed Guard]]
+- Alternatively, a takedown like [[Double Leg Entry]] leads to [[Guard Passing]] situations
+- The standing player may sprawl against a takedown attempt, leading to [[Standing Guard]] or top position
 
 This initial flow is critical because it determines who starts in an offensive or defensive position. Guard pullers choose their preferred guard, while takedown specialists impose top position from the start.
 
@@ -77,9 +113,9 @@ The classic offensive flow from bottom guard:
 **Guard Bottom → Sweep Transition → Top Position**
 
 Common examples:
-- [[Closed Guard Bottom]] → [[Butterfly Sweep]] → [[Mount]] or [[Side Control Top]]
+- [[Closed Guard]] → [[Butterfly Sweep]] → [[Mount]] or [[Side Control]]
 - [[De La Riva Guard]] → [[De La Riva Sweep]] → [[Headquarters Position]]
-- [[X-Guard]] → [[X-Guard Sweep]] → [[Knee on Belly]] or [[Side Control Top]]
+- [[X-Guard]] → [[X-Guard Sweep]] → [[Knee on Belly]] or [[Side Control]]
 
 This flow represents the guard player's primary offensive goal: reversing position to achieve top control. Success rates for sweeps typically range from 35-55% for beginners, 45-65% for intermediates, and 55-75% for advanced practitioners.
 
@@ -90,9 +126,9 @@ The top player's offensive flow:
 **Guard Top → Guard Pass → Pin Position**
 
 Common examples:
-- [[Open Guard Top]] → [[Knee Cut Pass]] → [[Side Control Top]]
-- [[Closed Guard Top]] → [[Guard Opening Sequence]] → [[Leg Drag Position]] → [[Side Control Top]]
-- [[Half Guard Top]] → [[Half Guard Pass]] → [[Side Control Top]] or [[Mount]]
+- [[Open Guard]] → [[Knee Cut Pass]] → [[Side Control]]
+- [[Closed Guard]] → [[Guard Opening Sequence]] → [[Leg Drag Control]] → [[Side Control]]
+- [[Half Guard]] → [[Half Guard Pass]] → [[Side Control]] or [[Mount]]
 
 This flow represents the top player's goal of bypassing the guard to achieve a dominant pin. Success rates for guard passes range from 40-55% for beginners to 65-80% for advanced players, depending on the specific pass and guard type.
 
@@ -104,8 +140,8 @@ The final offensive flow:
 
 Common examples:
 - [[Mount]] → [[Mount to Armbar]] → [[Armbar Control]] → [[Armbar Finish]]
-- [[Side Control Top]] → [[Kimura from Side Control]] → [[Kimura Control]] → [[Kimura]]
-- [[Back Control]] → [[Rear Naked Choke Setup]] → [[Rear Naked Choke Control]] → Finish
+- [[Side Control]] → [[Kimura from Side Control]] → [[Kimura]] → Finish
+- [[Back Control]] → [[Rear Naked Choke Setup]] → [[Rear Naked Choke]] → Finish
 
 This flow represents the ultimate goal in BJJ: securing a submission from a dominant position. Submission success rates vary widely based on position quality, control depth, and opponent's defensive skills.
 
@@ -116,9 +152,9 @@ The defensive flow:
 **Bottom Pin → Escape Technique → Recovery Position → Guard Re-establishment**
 
 Common examples:
-- [[Mount]] (bottom) → [[Hip Escape]] → [[Half Guard Bottom]] → [[Guard Recovery System]]
-- [[Side Control]] (bottom) → [[Technical Standup]] → [[Standing Guard]] or neutral
-- [[Back Control]] (defensive) → [[Back Defense Protocol]] → [[Turtle Position Top]] → [[Guard Establishment]]
+- [[Mount]] (bottom) → [[Hip Escape Mechanics]] → [[Half Guard]] → [[Guard Recovery]]
+- [[Side Control]] (bottom) → [[Technical Stand-up]] → [[Standing Guard]] or neutral
+- [[Back Control]] (defensive) → [[Back Defense Protocol]] → [[Turtle]] → guard recovery
 
 This flow represents defensive strategy: escaping bad positions and recovering to a more favorable situation. Escape success rates typically range from 25-40% for beginners to 55-70% for advanced practitioners.
 
@@ -132,7 +168,7 @@ Understanding success rates (probabilities) for transitions is crucial for strat
 - **Intermediate (Blue/Purple Belt)**: Techniques are refined, timing improves, success rates increase (typically 45-65%)
 - **Advanced (Brown/Black Belt)**: Techniques are automatic, timing is precise, success rates are highest (typically 60-85%)
 
-For example, the [[Triangle Choke from Guard]] might have success rates of:
+For example, the [[Triangle from Guard]] might have success rates of:
 - Beginner: 30% (still learning timing and angle)
 - Intermediate: 50% (solid technique, improving setups)
 - Advanced: 70% (expert timing, multiple setups, strong finish)
@@ -163,13 +199,13 @@ Strategic players consider their opponent's strengths and weaknesses when choosi
 Expert players maximize success by chaining high-percentage moves together:
 
 **High-Percentage Flow Example:**
-1. [[Closed Guard Bottom]] → [[Hip Bump Sweep]] (55% success) → [[Mount]]
+1. [[Closed Guard]] → [[Hip Bump Sweep]] (55% success) → [[Mount]]
 2. If sweep fails, immediately chain to [[Kimura Trap]] (65% success when sweep is defended)
-3. From Kimura Trap, transition to [[Armbar from Closed Guard]] (70% success rate due to opponent's defensive commitment)
+3. From Kimura Trap, transition to [[Armbar from Guard]] (70% success rate due to opponent's defensive commitment)
 
 This approach gives you multiple opportunities to advance, even when individual techniques fail. The key is recognizing when one transition fails and immediately transitioning to the next logical option.
 
-## Decision Points in BJJ
+## How Do You Decide Which Position to Move to Next in BJJ?
 
 A decision point is a critical moment where you must choose between multiple available transitions. Recognizing and properly handling decision points separates strategic players from reactive ones.
 
@@ -190,9 +226,9 @@ The optimal choice depends on which defensive reaction your opponent makes.
 
 These occur when your initial transition fails and you must immediately choose an alternative:
 
-**Example from [[Closed Guard Bottom]]:**
-- Attempt [[Triangle Choke from Guard]] → Opponent postures up and defends
-- **Decision Point**: Switch to [[Armbar from Closed Guard]] (high probability when opponent defends triangle)
+**Example from [[Closed Guard]]:**
+- Attempt [[Triangle from Guard]] → Opponent postures up and defends
+- **Decision Point**: Switch to [[Armbar from Guard]] (high probability when opponent defends triangle)
 - Or: Return to neutral and attempt [[Hip Bump Sweep]] (reset to different attack)
 
 Recognizing failure early and transitioning to a backup plan is crucial for maintaining offensive pressure.
@@ -201,10 +237,10 @@ Recognizing failure early and transitioning to a backup plan is crucial for main
 
 These occur when multiple viable options exist and you must choose based on long-term strategy:
 
-**Example from [[Open Guard Bottom]]:**
+**Example from [[Open Guard]]:**
 - Option A: [[Butterfly Sweep]] → High percentage but leads to mount (where you may be weaker)
 - Option B: [[De La Riva Guard]] entry → Lower immediate success but leads to your preferred back attack system
-- Option C: [[Technical Standup]] → Medium percentage, returns to standing (where you may be stronger)
+- Option C: [[Technical Stand-up]] → Medium percentage, returns to standing (where you may be stronger)
 
 Strategic decision points require understanding your own game plan and long-term goals, not just immediate success probability.
 
@@ -229,14 +265,14 @@ Grouping positions into families helps you understand natural flow patterns and 
 
 The guard family includes all positions where one player controls with their legs:
 
-**Closed Guards**: [[Closed Guard Bottom]], [[Rubber Guard]], [[Williams Guard]]
-**Open Guards**: [[Open Guard Bottom]], [[De La Riva Guard]], [[Spider Guard]], [[Butterfly Guard]]
-**Half Guards**: [[Half Guard Bottom]], [[Lockdown Guard]], [[Z-Guard]]
-**Leg Entanglement Guards**: [[50-50 Guard]], [[Ashi Garami]], [[Single Leg X]]
+**Closed Guards**: [[Closed Guard]], [[Rubber Guard]], [[Williams Guard]]
+**Open Guards**: [[Open Guard]], [[De La Riva Guard]], [[Spider Guard]], [[Butterfly Guard]]
+**Half Guards**: [[Half Guard]], [[Lockdown]], [[Z-Guard]]
+**Leg Entanglement Guards**: [[50-50 Guard]], [[Ashi Garami]], [[Single Leg X-Guard]]
 
 Flow within the guard family is common - players often transition between guard types based on opponent reactions:
 
-[[Closed Guard Bottom]] → Opponent stands → [[Open Guard Bottom]] → Opponent pressures forward → [[De La Riva Guard]] → Opponent backsteps → [[X-Guard]]
+[[Closed Guard]] → Opponent stands → [[Open Guard]] → Opponent pressures forward → [[De La Riva Guard]] → Opponent backsteps → [[X-Guard]]
 
 Understanding guard family flow allows you to maintain offensive pressure even when opponent counters your initial guard.
 
@@ -244,13 +280,13 @@ Understanding guard family flow allows you to maintain offensive pressure even w
 
 The pin family includes all positions where the top player controls the bottom player's torso:
 
-**Side Pins**: [[Side Control Top]], [[Kesa Gatame]], [[North South Control]]
-**Mount Positions**: [[Mount]], [[S-Mount]], [[Technical Mount]]
+**Side Pins**: [[Side Control]], [[Kesa Gatame]], [[North-South]]
+**Mount Positions**: [[Mount]], [[S Mount]], [[Technical Mount]]
 **Transitional Pins**: [[Knee on Belly]], [[Headquarters Position]]
 
 Flow within the pin family maintains dominant control:
 
-[[Side Control Top]] → Opponent turns toward you → [[Kesa Gatame]] → Opponent escapes to half guard → [[Knee on Belly]] → Reset to [[Side Control Top]]
+[[Side Control]] → Opponent turns toward you → [[Kesa Gatame]] → Opponent escapes to half guard → [[Knee on Belly]] → Reset to [[Side Control]]
 
 Expert top players flow seamlessly between pins, never allowing bottom player to fully escape.
 
@@ -258,12 +294,12 @@ Expert top players flow seamlessly between pins, never allowing bottom player to
 
 The back control family includes all positions where one player controls the other's back:
 
-**Classic Back Control**: [[Back Control]], [[Body Triangle Position]]
-**Alternative Back Positions**: [[Turtle Position Top]], [[Truck Position Top]], [[Crucifix Control Position]]
+**Classic Back Control**: [[Back Control]], [[Body Triangle]]
+**Alternative Back Positions**: [[Turtle]], [[Truck]], [[Crucifix]]
 
 Flow within back control family focuses on maintaining back position and attacking the neck:
 
-[[Turtle Position Top]] → Opponent defends hooks → [[Truck Position Top]] → Roll opponent → [[Back Control]] → [[Rear Naked Choke]]
+[[Turtle]] → Opponent defends hooks → [[Truck]] → Roll opponent → [[Back Control]] → [[Rear Naked Choke]]
 
 Back control positions offer the highest submission rates and point values, making this family strategically critical.
 
@@ -271,7 +307,7 @@ Back control positions offer the highest submission rates and point values, maki
 
 The modern leg entanglement family includes all positions focused on attacking legs:
 
-**Single Leg Positions**: [[Ashi Garami]], [[Single Leg X]], [[Straight Footlock]] positions
+**Single Leg Positions**: [[Ashi Garami]], [[Single Leg X-Guard]], [[Straight Ankle Lock]] positions
 **Double Leg Positions**: [[50-50 Guard]], [[Saddle]]
 **Complex Entanglements**: [[Inside Sankaku]], [[Dead Orchard Control]]
 
@@ -290,12 +326,12 @@ Expert players develop strategic flow patterns - sequences of positions and tran
 Systematic flow patterns based on position hierarchy and submission chains prioritize reaching back control (the highest value position) through reliable sequences:
 
 **Back Attack Flow:**
-[[Standing Guard]] → [[Snap Down]] → [[Turtle Position Top]] → [[Back Control]] → [[Rear Naked Choke]] or [[Armbar from Back]]
+[[Standing Guard]] → [[Snap Down from Standing]] → [[Turtle]] → [[Back Control]] → [[Rear Naked Choke]] or [[Armbar from Back]]
 
 The key principle is controlling each stage of the flow and never rushing forward without securing each position first.
 
 **Guard Passing Flow:**
-[[Standing Guard]] → [[Leg Drag Position]] → [[Back Control]] or [[Side Control Top]] → [[Mount]] → [[Armbar from Mount]] or [[Triangle Choke]]
+[[Standing Guard]] → [[Leg Drag Control]] → [[Back Control]] or [[Side Control]] → [[Mount]] → [[Armbar from Mount]] or [[Triangle Choke]]
 
 This flow demonstrates systematic advancement through position hierarchy, always improving position before attacking submissions.
 
@@ -309,7 +345,7 @@ High-percentage techniques that work under competition pressure form the basis o
 This flow leverages front headlock as a central hub connecting to multiple high-percentage submissions.
 
 **Leg Lock Flow:**
-[[Closed Guard Bottom]] → [[Triangle Choke from Guard]] → Opponent defends → [[Ashi Garami]] entry → [[Inside Heel Hook]] or [[Saddle]] transition
+[[Closed Guard]] → [[Triangle from Guard]] → Opponent defends → [[Ashi Garami]] entry → [[Inside Heel Hook]] or [[Saddle]] transition
 
 This flow shows how failed submissions can set up entries to completely different attacking systems.
 
@@ -323,7 +359,7 @@ The 10th Planet system features unique flow patterns:
 This flow uses the rubber guard as a control position that connects to multiple submissions, emphasizing control over quick submissions.
 
 **Lockdown Flow:**
-[[Half Guard Bottom]] → [[Lockdown Guard]] → [[Electric Chair]] → [[Back Control]] or submission
+[[Half Guard]] → [[Lockdown]] → [[Electric Chair]] → [[Back Control]] or submission
 
 The lockdown flow immobilizes opponent's leg and creates sweeps or back takes from an otherwise defensive position.
 
@@ -344,10 +380,10 @@ Without using complex jargon, think of BJJ this way:
 
 To develop strategic understanding, map your personal position network:
 
-1. **Identify Your Strong Positions**: Which positions do you feel most comfortable in? ([[Mount]], [[Back Control]], [[Closed Guard Bottom]]?)
+1. **Identify Your Strong Positions**: Which positions do you feel most comfortable in? ([[Mount]], [[Back Control]], [[Closed Guard]]?)
 
 2. **Map Your Entry Paths**: What transitions reliably get you to your strong positions?
-   - Example: [[Closed Guard Bottom]] → [[Hip Bump Sweep]] → [[Mount]] (strong position)
+   - Example: [[Closed Guard]] → [[Hip Bump Sweep]] → [[Mount]] (strong position)
 
 3. **Map Your Submission Paths**: From your strong positions, what submissions do you finish most often?
    - Example: [[Mount]] → [[Armbar from Mount]] → [[Armbar Finish]]
@@ -363,10 +399,10 @@ To develop strategic understanding, map your personal position network:
 The shortest path isn't always the best path. Consider:
 
 **Short but Low-Percentage Path:**
-[[Closed Guard Bottom]] → [[Flying Armbar]] (30% success) → [[Armbar Finish]]
+[[Closed Guard]] → [[Flying Armbar]] (30% success) → [[Armbar Finish]]
 
 **Longer but High-Percentage Path:**
-[[Closed Guard Bottom]] → [[Hip Bump Sweep]] (55% success) → [[Mount]] (70% maintenance rate) → [[Armbar from Mount]] (65% success) → [[Armbar Finish]]
+[[Closed Guard]] → [[Hip Bump Sweep]] (55% success) → [[Mount]] (70% maintenance rate) → [[Armbar from Mount]] (65% success) → [[Armbar Finish]]
 
 The longer path has multiple steps but much higher overall success probability because each step is high-percentage.
 
@@ -386,7 +422,7 @@ The richness of your position network determines your adaptability:
 
 Building network density is the work of years, but understanding this concept helps you prioritize learning techniques that connect to your existing network.
 
-## Practical Application: Developing Your Flow
+## How to Develop BJJ Position Flow: Drills and Training Strategies
 
 ### Step 1: Map Your Current Flow
 
@@ -413,7 +449,7 @@ Your style determines which position families and flow patterns you should devel
 Choose 3-5 positions that fit your style and build a core flow connecting them:
 
 **Example Top-Focused Core Flow:**
-[[Neutral Standing Position]] → [[Double Leg Entry]] → [[Side Control Top]] → [[Mount]] → [[Armbar from Mount]] or [[Triangle Choke]]
+[[Standing Position]] → [[Double Leg Entry]] → [[Side Control]] → [[Mount]] → [[Armbar from Mount]] or [[Triangle Choke]]
 
 Learn each position deeply and master the transitions connecting them. This gives you a reliable game plan.
 
@@ -421,8 +457,8 @@ Learn each position deeply and master the transitions connecting them. This give
 
 For each transition in your core flow, add a backup option for when your first choice fails:
 
-**Primary Flow:** [[Side Control Top]] → [[Mount]]
-**Backup Flow:** [[Side Control Top]] → If opponent defends mount → [[North South Control]] → [[Kimura from Side Control]]
+**Primary Flow:** [[Side Control]] → [[Side Control to Mount]]
+**Backup Flow:** [[Side Control]] → If opponent defends mount → [[North-South]] → [[Kimura from Side Control]]
 
 This prevents you from getting stuck when opponent defends your primary technique.
 
@@ -448,6 +484,32 @@ Use specific training drills to improve your flow:
 
 **Flow Rolling:** Roll with lighter resistance, focusing on smooth flow between positions rather than fighting for every inch. This builds natural rhythm and timing.
 
+## Frequently Asked Questions About BJJ Position Flow
+
+### How do BJJ positions connect to each other?
+
+BJJ positions connect through transitions — techniques that link one position to another with probabilistic outcomes. For example: Mount → Armbar attempt → Armbar Control (success) OR Mount (failure if opponent defends) OR Closed Guard (counter). Every position has defined entry transitions and exit transitions, forming a connected graph. BJJ Graph visualizes this network so you can see how positions link together.
+
+### What is position before submission in BJJ?
+
+Position before submission is a fundamental BJJ principle: secure a dominant, stable position before attempting submissions. Attempting submissions from poor position leads to losing control entirely. The principle prioritizes positional dominance (points, stable control) over premature submission attempts that risk giving up the position. From [[Back Control]] or [[Mount]], first establish complete control — then hunt the submission.
+
+### What does playing guard mean in BJJ?
+
+Playing guard means being on the bottom with the opponent in front of you, using your legs to control distance, create sweeps, and set up submissions. Guard is BJJ's unique contribution to grappling: the bottom position can be offensive. Common guards include [[Closed Guard]], [[Open Guard]], [[Half Guard]], [[De La Riva Guard]], [[Spider Guard]], and [[Butterfly Guard]]. The guard player's goal is to sweep (reverse to top) or submit.
+
+### How do BJJ beginners learn position flow?
+
+Beginners learn position flow through: (1) drilling specific position-to-position transitions with a partner; (2) positional sparring — start from a specific position and work only from there; (3) watching match footage to identify when positions change; (4) using flow charts or the BJJ Graph to visualize position connections; (5) asking coaches to identify what position you're in during sparring. Basic positional awareness develops within 6-12 months; intentional flow at blue-purple belt level.
+
+### What is the most important position in BJJ?
+
+Back control (back mount) is generally considered the most dominant position: it scores 4 points (tied with mount), offers the highest submission conversion rate (opponent cannot see attacks), and is the hardest to escape. However, guard positions are most important to develop first since every match passes through guard phases. Master both guard and dominant positions for complete BJJ development.
+
+### What is the difference between a position and a transition in BJJ?
+
+A **position** is a stable configuration — Mount, Back Control, Closed Guard — where control is established and both players can pause and assess. A **transition** is the movement between positions — Armbar from Mount, Guard Pass, Hip Bump Sweep — a technique in motion. BJJ alternates between positions and transitions: Position → Transition → Position. Recognizing which state you are in tells you whether to stabilize (position) or commit to movement (transition).
+
 ## Conclusion
 
 Understanding position flow transforms BJJ from a collection of random techniques into a coherent strategic system. By recognizing the Position → Transition → Position cycle, learning common flow patterns, thinking in probabilities, mastering decision points, and developing your personal flow network, you can approach BJJ with clarity and purpose.
@@ -472,18 +534,16 @@ This understanding of position flow is what separates beginners (who know indivi
 
 ## Related Resources
 
-- [[BJJ Positions]] - Complete guide to all BJJ positions
-- [[BJJ Transitions]] - Complete guide to all BJJ transitions
-- [[BJJ Submissions]] - Complete guide to all BJJ submissions
-- [[Guard Retention Concepts]] - How to maintain guard positions
-- [[Guard Passing Principles]] - How to pass guard systematically
+- [[Positions]] - Complete guide to all BJJ positions
+- [[Transitions]] - Complete guide to all BJJ transitions
+- [[Submissions]] - Complete guide to all BJJ submissions
+- [[Guard Retention]] - How to maintain guard positions
+- [[Guard Passing]] - How to pass guard systematically
 - [[Positional Hierarchy]] - Understanding position value and strategy
-- [[Position Change]] - The mechanics of changing positions
 - [[Base Maintenance]] - Maintaining stability during transitions
-- [[Decision Tree Fundamentals]] - Making optimal decisions in BJJ
 - [[Submission Chains]] - Linking submissions together
 - [[Competition Strategy]] - Applying position flow in competition
 - [[Risk Assessment]] - Evaluating position risk and reward
 - [[Escape Fundamentals]] - Escaping bad positions systematically
 - [[Control Maintenance]] - Maintaining dominant positions
-- [[Strategic Planning]] - Long-term BJJ strategy development
+- [[Match Strategy]] - Long-term BJJ strategic planning
