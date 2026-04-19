@@ -3,7 +3,7 @@
   "slug": "back-control",
   "description": "Master back control in BJJ. Complete guide to hooks, harness grip, body triangle, submissions, and escapes from this dominant 4-point scoring position.",
   "variant_uniqueness": "Highest submission rate, lowest risk",
-  "overview": "Back Control is widely considered the most dominant position in Brazilian Jiu-Jitsu. The practitioner controls the opponent from behind, with their chest against the opponent's back, legs wrapped around their waist (hooks), and arms controlling the upper body. This position offers exceptional attacking opportunities with minimal defensive risks, as the opponent cannot directly see or easily counter the attacks. The position scores 4 points in IBJJF competition and provides the highest percentage submission opportunities in grappling.\n\nFrom back control, the top practitioner maintains a significant positional advantage through multiple control mechanisms: leg hooks or body triangle for hip control, harness grip or seatbelt for upper body control, and constant chest-to-back connection for weight distribution. The opponent's inability to face their attacker creates a psychological and tactical disadvantage, making back control the premier position for finishing matches via submission. This position represents the culmination of positional dominance in BJJ, where control and submission threat reach their maximum potential.\n\nThe position can be established from numerous positions including turtle, mount, side control, and various guard positions, making it a central focus of positional progression in competition and training. The control hierarchy operates on three levels: leg hooks or body triangle provide the foundation by controlling the opponent's hips and preventing rotation, the harness grip or seatbelt dominates the upper body by limiting arm movement, and the chest-to-back connection distributes weight and creates the cooking effect that drains the opponent's energy faster than your own. Understanding these three layers and how they reinforce each other is what separates effective back controllers from practitioners who take the back but cannot maintain or finish from the position.\n\nBack control variations include the standard hooks configuration, body triangle for enhanced hip control and pressure, seatbelt-specific grips for systematic upper body management, and standing back control for takedown sequences. Each variation offers different strategic trade-offs between control stability, submission accessibility, and energy expenditure. The position integrates tightly with the broader submission system through rear naked choke as the primary finishing threat, bow and arrow choke as the premier gi-based attack, armbar transitions when opponents over-defend the neck, and crucifix entries when both arms can be trapped. This interconnected attack web forces opponents into defensive dilemmas where protecting against one threat exposes vulnerability to another.",
+  "overview": "**Back Control** (also called back mount) is the most dominant position in Brazilian Jiu-Jitsu, awarded **4 points** in IBJJF competition — the highest single-position score alongside [[Mount]]. The practitioner controls the opponent from behind with chest pressed against their back, legs wrapped around their waist using hooks or [[Body Triangle]], and upper body controlled through the seatbelt (harness) grip. Because the opponent cannot see incoming attacks, back control delivers the highest submission conversion rate of any position in grappling.\n\nFrom back control, the top practitioner maintains a significant positional advantage through multiple control mechanisms: leg hooks or body triangle for hip control, harness grip or seatbelt for upper body control, and constant chest-to-back connection for weight distribution. The opponent's inability to face their attacker creates a psychological and tactical disadvantage, making back control the premier position for finishing matches via submission. This position represents the culmination of positional dominance in BJJ, where control and submission threat reach their maximum potential.\n\nThe position can be established from numerous positions including turtle, mount, side control, and various guard positions, making it a central focus of positional progression in competition and training. The control hierarchy operates on three levels: leg hooks or body triangle provide the foundation by controlling the opponent's hips and preventing rotation, the harness grip or seatbelt dominates the upper body by limiting arm movement, and the chest-to-back connection distributes weight and creates the cooking effect that drains the opponent's energy faster than your own. Understanding these three layers and how they reinforce each other is what separates effective back controllers from practitioners who take the back but cannot maintain or finish from the position.\n\n**Hooks vs Body Triangle: When to Use Each**\n\nThe two leg control configurations trade different attributes. **Hooks** (feet inside the opponent's thighs) allow faster transitions, better submission entry angles, and easier positional adjustments — but can be removed by a skilled opponent fighting your feet. The **[[Body Triangle]]** (legs locked around the opponent's midsection) provides superior hip control, constant squeezing pressure that accelerates fatigue, and cannot be removed by hook-fighting. Switch to body triangle when your hooks are under active attack or when maximum sustained pressure is your goal. Switch back to hooks when you need angle creation for [[Bow and Arrow Choke Setup]] or transitions to [[Crucifix]].\n\n**How to Enter Back Control**\n\nBack control can be established from multiple positions. From [[Turtle]]: insert one hook while maintaining chest-to-back connection, add the second hook before the opponent recovers. From [[Mount]]: follow the opponent's bridge-and-roll escape by rotating to maintain back contact. From [[Side Control]]: capitalize when the opponent gives up their back during escape attempts. From standing: body lock takedown entries that land directly in back control. Understanding these entry paths is essential for building a complete back attack system.\n\n**Back Control in Gi vs No-Gi**\n\nGrip configurations differ between rulesets. In gi, collar grips create powerful choke setups including [[Bow and Arrow Choke Setup]] and short choke variations. In no-gi, the [[Seat Belt Control Back]] becomes the primary upper body control, with [[Rear Naked Choke]] as the dominant finishing threat. Leg control options (hooks vs [[Body Triangle]]) and positional maintenance principles are identical across formats.\n\nThe position integrates with the broader submission system through [[Rear Naked Choke]] as the primary finishing threat (approximately 49% of submission attempts), [[Bow and Arrow Choke]] as the premier gi-based attack, [[Armbar from Back]] transitions when opponents over-defend the neck, and [[Back Control to Crucifix]] entries when both arms can be trapped. This interconnected attack web forces opponents into defensive dilemmas where protecting one threat exposes vulnerability to another.",
   "key_principles": [
     "Chest-to-back connection with constant forward pressure prevents opponent from creating escape distance or turning to face you",
     "Hook control or body triangle dominates hip movement and prevents rotational escapes while maintaining lower body connection",
@@ -370,7 +370,33 @@
         "description": "Success rate of finishing submission from back control position"
       },
       "average_time": "45-90 seconds before submission attempt or position change"
-    }
+    },
+    "knowledge_assessment": [
+      {
+        "question": "How many points is back control worth in IBJJF competition?",
+        "answer": "Back control is worth 4 points in IBJJF competition — the highest single-position score alongside mount. Points are awarded after maintaining established back control for 3 seconds with both hooks or body triangle plus chest-to-back contact. If you lose the position before 3 seconds, no points are awarded. The clock resets if you lose and re-establish the position."
+      },
+      {
+        "question": "What is the seatbelt (harness) grip and why is it essential from back control?",
+        "answer": "The seatbelt grip (also called harness grip) is the standard upper body control: one arm over the opponent's shoulder and the other under their armpit, hands clasped at the opponent's chest. It limits arm movement, creates the optimal entry angle for rear naked choke and bow and arrow choke, and prevents the opponent from pulling your arms away. Maintain this grip before attempting any submission attack."
+      },
+      {
+        "question": "What submissions can you do from back control?",
+        "answer": "Primary submissions from back control: Rear Naked Choke (49% of attempts — highest-percentage finish in grappling), Bow and Arrow Choke (premier gi attack using collar and leg leverage), Armbar from Back (when opponent over-commits to neck defense), Triangle Choke from Back, Kimura from Back (against over-extended arm), and Short Choke. The rear naked choke is the preferred first attack due to its high conversion rate."
+      },
+      {
+        "question": "What is the difference between hooks and body triangle in back control?",
+        "answer": "Hooks (feet inside the opponent's thighs) allow easier transitions, better submission entry angles, and faster adjustments — but can be removed by hook-fighting. Body triangle (legs locked around the midsection) provides superior hip control, constant squeezing pressure, and cannot be removed. Use hooks for mobility and angle creation; switch to body triangle when hooks are under attack or when sustained pressure is your goal."
+      },
+      {
+        "question": "Can you get ankle locked from back control?",
+        "answer": "Yes — crossing your feet in front of the opponent's body instead of maintaining proper hooks exposes your ankles to a straight ankle lock or footlock. This is one of the most dangerous errors in back control. Always maintain proper hooks with feet inside the thighs, or secure body triangle if crossing your legs. An opponent attacking your feet also signals a window to immediately attack the exposed neck."
+      },
+      {
+        "question": "What do you do when your opponent defends the rear naked choke from back control?",
+        "answer": "When the opponent defends with both hands, transition to crucifix to trap both arms for an undefended attack, or attack the armbar from back using your legs over their defending arm. If they turn into you, follow to gift wrap position or maintain back control while attacking the choke during the turn. If they drive forward and flatten out, use bow and arrow choke with collar access or transition to truck position."
+      }
+    ]
   },
   "bottom": {
     "name": "Back Control Bottom",
@@ -643,6 +669,32 @@
         "description": "Risk of being submitted from back control bottom position by opponent"
       },
       "average_time": "30-60 seconds before submission or escape attempt"
-    }
+    },
+    "knowledge_assessment": [
+      {
+        "question": "What is the most important priority when you are in back control bottom?",
+        "answer": "Immediate neck protection is the absolute first priority — tuck your chin and establish a two-on-one grip on the opponent's choking arm before attempting any escape movement. Attempting explosive escapes before securing neck defense creates openings for rear naked choke while wasting the energy needed for systematic escape. Defend the neck first, then systematically address the seatbelt grip, then the hooks."
+      },
+      {
+        "question": "How do you escape back control in BJJ step by step?",
+        "answer": "The standard escape sequence: (1) Tuck chin and establish two-on-one grip on the choking arm to defend the neck. (2) Strip the seatbelt grip by peeling the bottom arm away while maintaining neck defense. (3) Hip escape to create angle toward the underhook side. (4) Remove hooks through knee wedge, foot trap, or hip rotation. (5) Rotate to face your opponent and establish guard. Address each step in sequence — skipping steps leads to submission."
+      },
+      {
+        "question": "What is the back door escape from back control?",
+        "answer": "The back door escape is the primary escape route: scoot your hips backward (through the 'back door') to remove hooks and create the angle needed to rotate and face your opponent. It accounts for approximately 20% of escape attempts. Execute it by defending the neck first, then driving your hips back and down while working hook removal — this disrupts the opponent's chest-to-back alignment and creates rotation opportunities."
+      },
+      {
+        "question": "Why is back control so hard to escape in BJJ?",
+        "answer": "Back control is difficult to escape because multiple simultaneous control mechanisms must all be addressed: hooks or body triangle eliminate hip rotation, the seatbelt grip limits arm movement, and defending the neck prevents effective escape movement. The position creates a psychological disadvantage — you cannot see attacks. The 'cooking effect' from constant chest-to-back pressure drains your energy faster than the top player's, making delayed escape progressively harder."
+      },
+      {
+        "question": "How do you escape a body triangle in BJJ back control?",
+        "answer": "Turn toward the triangle leg side (toward the foot crossing behind the hip) to reduce the squeeze pressure while maintaining chin tuck and neck defense. Turning away from the triangle leg increases the squeeze. Once facing the triangle leg, use hand fighting to strip the seatbelt grip, then work to slide your hip free from the triangle lock and transition to turtle or half guard. Energy management is critical — do not panic or thrash, as this accelerates fatigue."
+      },
+      {
+        "question": "What position should you aim to escape to from back control bottom?",
+        "answer": "The escape hierarchy targets progressively better positions: Turtle is the common first escape target, offering better defensive options than back control. Half Guard (achieved through partial escape and rotation) provides better offensive options. Closed Guard or Open Guard represents full escape — a neutral or offensive position. Accept each incremental improvement as progress rather than chasing full guard recovery in one movement, which often leads to re-giving up the back."
+      }
+    ]
   }
 }

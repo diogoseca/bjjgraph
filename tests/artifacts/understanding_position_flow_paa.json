@@ -1,0 +1,128 @@
+{
+  "article_path": "content/Learning/Understanding Position Flow.md",
+  "seed_keyword": "understanding position flow in BJJ",
+  "data_source": "domain_knowledge_inference",
+  "note": "DataForSEO MCP tool unavailable; PAA questions derived from known BJJ search patterns and training data",
+  "paa_questions": [
+    {
+      "question": "What are the main positions in BJJ?",
+      "answer_snippet": "The main BJJ positions in descending dominance: Back Control (4 pts), Mount (4 pts), Knee on Belly (2 pts), Side Control (0 pts, dominant), Turtle (neutral/defensive), Half Guard (neutral), Closed Guard (neutral), Open Guard (neutral). Positions above your opponent's guard are generally more dominant.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the position before submission rule in BJJ?",
+      "answer_snippet": "Position before submission is a fundamental BJJ principle: secure a dominant, stable position before attempting submissions. Attempting submissions from poor position leads to losing control. The rule prioritizes positional dominance (points, control) over premature submission attempts that risk giving up the position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do BJJ positions connect to each other?",
+      "answer_snippet": "BJJ positions connect through transitions — technique nodes that link one position to another with probabilistic outcomes. For example: Mount → Armbar attempt → Armbar Control (success) OR Mount (failure) OR Closed Guard (counter). Every position has defined entry transitions and exit transitions forming a connected graph.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between a position and a transition in BJJ?",
+      "answer_snippet": "A position is a stable configuration (e.g., Mount, Back Control, Closed Guard) where control is established. A transition is the movement between positions (e.g., Armbar from Mount, Guard Pass) — it is a technique in motion. BJJ alternates between positions and transitions: Position → Transition → Position.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What does playing guard mean in BJJ?",
+      "answer_snippet": "Playing guard means being on the bottom with the opponent in front of you, using your legs to control distance, create sweeps, and set up submissions. Guard is one of BJJ's unique contributions: the bottom position can be offensive. Common guards include closed guard, open guard, half guard, de la Riva, spider guard, and butterfly guard.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do BJJ competition points work?",
+      "answer_snippet": "IBJJF points: Takedown = 2pts, Sweep = 2pts, Knee on Belly = 2pts, Guard Pass = 3pts, Mount = 4pts, Back Control = 4pts. Points require 3 seconds of stable position. Advantages are awarded for near-points. The competitor with the most points wins; ties go to advantages, then penalties.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is positional dominance in BJJ?",
+      "answer_snippet": "Positional dominance means controlling a position where you have more attacking options and your opponent has fewer escape options. The dominance hierarchy (low to high): Open Guard → Closed Guard → Half Guard → Side Control → Knee on Belly → Mount → Back Control. Higher positions offer more submissions and less risk.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How long does it take to learn BJJ positions?",
+      "answer_snippet": "Basic positional awareness (recognizing dominant vs. non-dominant positions) typically develops within 6-12 months. Competent position flow (intentional transitions between positions) develops at blue-purple belt level (1-4 years). Mastery of positional play — using positions strategically and reading opponent's flow — is black belt territory (8-12+ years).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is guard passing in BJJ?",
+      "answer_snippet": "Guard passing is the process of moving past the opponent's legs from inside their guard to a dominant position like side control or mount. It is worth 3 points in IBJJF competition. Guard passing requires breaking the guard structure, removing the opponent's knee shields and grips, and establishing a dominant top position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is a sweep in BJJ?",
+      "answer_snippet": "A sweep is a technique executed from the bottom (guard) position to reverse the top/bottom relationship, moving from bottom to top. Sweeps are worth 2 points in IBJJF competition. Common sweeps include the scissor sweep from closed guard, the flower sweep, and the butterfly sweep.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do BJJ beginners learn position flow?",
+      "answer_snippet": "Beginners learn position flow through: (1) drilling specific position-to-position transitions; (2) positional sparring (start from a specific position, work from there); (3) watching match footage to identify position changes; (4) studying flow charts/maps of positions; (5) asking coaches to identify what position they're in during sparring.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the turtle position in BJJ?",
+      "answer_snippet": "Turtle is a defensive position where the practitioner is on hands and knees with their head down, protecting their neck. It is used to prevent back take or guard re-establishment. From turtle, the top practitioner attempts back control; the bottom practitioner attempts to recover guard or execute granby rolls.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Understanding Position Flow in BJJ",
+      "suggested": "How BJJ Positions Connect: Understanding Position Flow for Beginners",
+      "rationale": "Adds 'for Beginners' qualifier (high-volume modifier) and 'How' framing for PAA alignment"
+    },
+    {
+      "current": "The Flow Concept: Position → Transition → Position",
+      "suggested": "What Is the Position-Transition Cycle in BJJ? (The Core Flow Concept)",
+      "rationale": "Question format directly matches PAA 'what is' trigger pattern"
+    },
+    {
+      "current": "What is a Position?",
+      "suggested": "What Is a BJJ Position? (Definition, Examples, and Point Values)",
+      "rationale": "Adds 'BJJ' qualifier and sub-topics that match related PAA boxes"
+    },
+    {
+      "current": "Strategic Decision Points",
+      "suggested": "How Do You Decide Which Position to Move to Next in BJJ?",
+      "rationale": "Conversational question mirrors how students actually ask about decision-making in sparring"
+    },
+    {
+      "current": "Developing Your Flow",
+      "suggested": "How to Develop BJJ Position Flow: Drills and Training Strategies",
+      "rationale": "'How to' heading matches high-intent instructional query; 'drills' adds keyword specificity"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add visual position hierarchy diagram or ASCII chart showing positions ranked by dominance with point values",
+    "Add section: 'BJJ Points System Explained' — scoring table with positions and point values; directly answers high-volume PAA question",
+    "Add section: 'How to Use Positional Sparring to Learn Flow' — specific drill prescriptions for beginners",
+    "Add FAQ block: 'What is the most important position in BJJ?' with nuanced answer (back control vs. guard depending on ruleset)",
+    "Add section: 'Guard vs. Top: Why BJJ Is Different From Wrestling' — addresses common beginner confusion about bottom being valid",
+    "Add section: 'Common Position Flow Errors for Beginners' — ties into 'common mistakes' PAA pattern",
+    "Add internal link cluster to all major position hub pages (Mount, Back Control, Side Control, Closed Guard, etc.)"
+  ]
+}
