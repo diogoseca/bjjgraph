@@ -1,2 +1,6 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+paa_seo_optimization,Learning,BJJ Belt Progression Timeline,"High-volume query 'how long to get BJJ blue belt'; complements Beginners Roadmap; sections: white/blue/purple/brown/black timelines, what each belt means, factors affecting pace"
+paa_seo_optimization,Learning,Gi vs No-Gi BJJ for Beginners,"Perennial high-traffic beginner debate; target keyword: 'gi or no-gi BJJ beginner'; sections: key differences table, recommendation, when to add no-gi, gear requirements"
+paa_seo_optimization,Learning,Leg Lock Legality in BJJ,"Covers IBJJF/ADCC/EBI/NAGA for all leg lock positions; target keyword: 'are heel hooks legal in BJJ'; gap: no dedicated legality reference page across all positions"
+paa_seo_optimization,Learning,How to Survive Your First BJJ Class,"Specific landing page for 'first BJJ class' intent; target keyword: 'what to expect first BJJ class'; sections: what to bring, class structure, first sparring tips, common fears"
