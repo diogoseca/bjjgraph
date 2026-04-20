@@ -1,0 +1,82 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Ushiro Ashi-Garami/Bottom.md",
+  "seed_keyword": "Ushiro Ashi-Garami Bottom",
+  "data_source": "knowledge-based (DataForSEO MCP unavailable; WebSearch permission not granted)",
+  "paa_questions": [
+    {
+      "question": "What is Ushiro Ashi-Garami in BJJ?",
+      "answer_snippet": "Ushiro Ashi-Garami (rear leg entanglement) is a leg lock position where the attacker controls the outside of the opponent's leg from behind, creating mechanical leverage for heel hooks, ankle locks, and knee reaping attacks. It is a core position in modern leg lock systems.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you escape Ushiro Ashi-Garami?",
+      "answer_snippet": "Primary escapes from Ushiro Ashi-Garami Bottom: (1) Heel hook inversion — rotate toward the trapped leg to relieve pressure; (2) Inversion to Turtle — roll forward to remove the leg from entanglement; (3) Ushiro Ashi-Garami Escape — direct extraction by clearing the top leg and creating space.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between Ashi-Garami and Outside Heel Hook?",
+      "answer_snippet": "Ashi-Garami (inside) and Outside Ashi-Garami are control positions. The Outside Heel Hook is a submission applied from Outside Ashi-Garami targeting the lateral structures of the knee. Ushiro Ashi-Garami is a rear (backside) variant offering different angle control on the same leg.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is Ushiro Ashi-Garami legal in BJJ competitions?",
+      "answer_snippet": "The Ushiro Ashi-Garami position itself is generally legal at most belt levels. The submissions applied from it (heel hooks, knee reaping) vary by ruleset: heel hooks are illegal in gi BJJ (IBJJF) at most levels but legal in EBI, ADCC, and many no-gi events at purple belt and above.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you defend heel hooks from Ashi-Garami?",
+      "answer_snippet": "Heel hook defense from Ashi-Garami Bottom: tap early if the heel is seated and rotation begins — heel hooks cause ligament damage before pain signals. Prevention: don't let the attacker secure the knee line; maintain active knee alignment and initiate escape before full control is established.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions can be applied from Ushiro Ashi-Garami?",
+      "answer_snippet": "From Ushiro Ashi-Garami (attacker's perspective): Outside Heel Hook (primary), Inside Heel Hook (with adjustment), Straight Ankle Lock (lower reward, position loss risk), and Calf Slicer variations depending on leg position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you invert out of leg entanglement?",
+      "answer_snippet": "Inversion from leg entanglement: roll toward the entrapped leg (same direction the heel hook loads), bringing your knee to the mat and hips over to land in a turtle or knees position. Proper inversion removes the leverage advantage and resets the position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the probability of escaping Ushiro Ashi-Garami?",
+      "answer_snippet": "Escape success depends on the stage of entanglement. Early-stage (knee line not yet crossed): high escape rate. Mid-stage (heel hooked, rotation begun): low escape rate — submit. Defense is most effective before the position is fully established.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "How to Escape Ushiro Ashi-Garami Bottom",
+      "suggested": "How Do You Escape Ushiro Ashi-Garami? (Step-by-Step Defense)",
+      "rationale": "Second-person question format matches PAA pattern; adds 'Step-by-Step' to match HowTo schema and user intent"
+    },
+    {
+      "current": "Defensive perspective in reversed leg entanglement",
+      "suggested": "Ushiro Ashi-Garami Bottom: How to Defend and Escape Rear Leg Entanglement in BJJ",
+      "rationale": "Surfaces full keyword phrase in meta description; adds 'how to defend' to match action-intent queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Is Ushiro Ashi-Garami Legal?' — competition ruleset comparison table (IBJJF, ADCC, EBI, NAGA)",
+    "Add section: 'Heel Hook Danger: When to Tap from Ushiro Ashi-Garami Bottom' — safety-critical content increasing dwell time",
+    "Add section: 'Ushiro vs Standard Ashi-Garami: What's the Difference?' — disambiguates PAA confusion query",
+    "Add FAQ schema block covering legality, escape methods, and submission threats for Google rich results",
+    "Add explicit probability context: 'Inversion to Turtle is attempted 39% of the time — learn this escape first'"
+  ]
+}

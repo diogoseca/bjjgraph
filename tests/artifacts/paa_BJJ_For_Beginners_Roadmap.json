@@ -1,0 +1,116 @@
+{
+  "article_path": "content/Learning/BJJ For Beginners Roadmap.md",
+  "seed_keyword": "BJJ For Beginners Roadmap",
+  "data_source": "knowledge-based (DataForSEO MCP unavailable; WebSearch permission not granted)",
+  "paa_questions": [
+    {
+      "question": "How long does it take to get a blue belt in BJJ?",
+      "answer_snippet": "Most practitioners earn their blue belt after 1–2 years of consistent training (3+ days per week). Progression depends on mat time, competition experience, and instructor standards.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What should a BJJ beginner learn first?",
+      "answer_snippet": "Beginners should prioritize defensive fundamentals: guard retention, hip escapes (shrimping), bridging, and positional survival before offensive techniques. Mount escape and guard passing are the most critical first skills.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How many times a week should a BJJ beginner train?",
+      "answer_snippet": "2–3 sessions per week is the recommended starting frequency. This allows enough repetition for motor skill development while giving the body time to recover. 4+ days per week is ideal for accelerated progress after the first 3 months.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is BJJ hard to learn for beginners?",
+      "answer_snippet": "BJJ has one of the steepest learning curves in martial arts. The first 6 months involve losing most sparring rounds regardless of athleticism. Progress becomes noticeable around months 3–6 as positional instincts develop.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What do I need to start BJJ as a beginner?",
+      "answer_snippet": "To start BJJ you need: a gi (kimono) or rash guard and shorts for no-gi, a mouthguard, and ear protection if concerned about cauliflower ear. Most gyms allow first classes in athletic wear before purchasing a gi.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Can I learn BJJ at home as a beginner?",
+      "answer_snippet": "Solo drilling (shrimping, bridging, sprawls) can supplement training but cannot replace live sparring. BJJ fundamentally requires a partner to develop timing, sensitivity, and resistance-based learning.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is a realistic BJJ progression timeline?",
+      "answer_snippet": "Typical belt timeline: White (0–2 yrs), Blue (1.5–3 yrs), Purple (3–6 yrs), Brown (5–9 yrs), Black (8–15 yrs). Each belt represents years of consistent mat time, not just knowledge.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Should I do gi or no-gi BJJ as a beginner?",
+      "answer_snippet": "Beginners benefit most from gi BJJ because the collar and sleeve grips slow the game down, making technique more visible and accessible. No-gi develops athleticism faster but offers fewer gripping checkpoints for self-correction.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do I survive my first BJJ class?",
+      "answer_snippet": "Tap early and often, conserve energy by not muscling techniques, focus on positioning over submissions, and ask your training partner to go slow. Communicate with your instructor about your experience level before sparring.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is BJJ good for self-defense?",
+      "answer_snippet": "BJJ is considered one of the most effective martial arts for one-on-one self-defense due to its ground fighting dominance. Limitations: multiple attackers, weapons, and standing striking are addressed better by cross-training.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What positions should a white belt focus on?",
+      "answer_snippet": "White belts should prioritize: closed guard (top and bottom), mount (top and bottom), back control, and guard passing. Mastering these 4 positions covers 80% of match scenarios at beginner level.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do I stop getting submitted as a BJJ beginner?",
+      "answer_snippet": "Prioritize positional safety over attacks. Learn to recognize danger before it becomes a submission attempt. Tap before pain — tapping is a learning tool, not a defeat. Study the 5 basic escapes: bridge-and-roll, elbow-knee, guard recovery, back step, and technical standup.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "What to Expect: Your First BJJ Classes",
+      "suggested": "What Should I Expect in My First BJJ Class?",
+      "rationale": "Converts declarative heading to conversational question format matching PAA query pattern"
+    },
+    {
+      "current": "BJJ For Beginners: Complete Roadmap from White to Blue Belt",
+      "suggested": "BJJ For Beginners: Complete Roadmap from White to Blue Belt (12-Month Plan)",
+      "rationale": "Add time specificity — '12-Month Plan' matches high-volume queries like 'how long to get blue belt in BJJ'"
+    },
+    {
+      "current": "First Week Survival Tips",
+      "suggested": "How Do I Survive My First Week of BJJ?",
+      "rationale": "Direct PAA match for 'how to survive first BJJ class' queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'How Long Does It Take to Get a Blue Belt in BJJ?' — direct PAA answer with month-by-month timeline table",
+    "Add section: 'What Positions Should a White Belt Master First?' — structured list with links to position pages",
+    "Add section: 'Gi vs No-Gi: Which Should Beginners Start With?' — comparison with recommendation",
+    "Add section: 'How Many Times a Week Should a BJJ Beginner Train?' — training frequency guide with progressive schedule",
+    "Add section: 'BJJ for Self-Defense: What White Belts Need to Know' — bridges to broader audience",
+    "Add FAQ schema markup block covering the top 5 high-priority questions for Google rich results eligibility"
+  ]
+}

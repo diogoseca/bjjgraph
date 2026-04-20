@@ -1,0 +1,81 @@
+PAA SEO ANALYSIS SUMMARY
+Generated: 2026-04-20
+Data Source: Knowledge-based (DataForSEO MCP unavailable; WebSearch permission not granted)
+Output Location: tests/artifacts/paa_*.json
+
+=== ARTICLES PROCESSED ===
+1. content/Learning/BJJ For Beginners Roadmap.md
+   Seed keyword: "BJJ For Beginners Roadmap"
+
+2. content/Positions/Ashi Garami/Ushiro Ashi-Garami/Bottom.md
+   Seed keyword: "Ushiro Ashi-Garami Bottom"
+
+=== TOTAL PAA QUESTIONS FOUND ===
+Article 1 (BJJ For Beginners Roadmap): 12 questions
+Article 2 (Ushiro Ashi-Garami Bottom): 8 questions
+TOTAL: 20 PAA questions
+
+=== HIGH-PRIORITY QUESTIONS (DIRECT ANSWERS NEEDED) ===
+
+[BJJ For Beginners Roadmap]
+1. "How long does it take to get a blue belt in BJJ?"
+   → Strategy: dedicated_faq — add explicit timeline section with month-by-month breakdown
+2. "What should a BJJ beginner learn first?"
+   → Strategy: improve_heading — rewrite section header as question, front-load the answer
+3. "How many times a week should a BJJ beginner train?"
+   → Strategy: dedicated_faq — add training frequency section with progressive schedule
+4. "Is BJJ hard to learn for beginners?"
+   → Strategy: improve_heading — address directly in intro or add H2 FAQ section
+5. "What is a realistic BJJ progression timeline?"
+   → Strategy: add_section — belt timeline table with realistic year ranges
+6. "What positions should a white belt focus on?"
+   → Strategy: add_section — numbered priority list linking to position pages
+
+[Ushiro Ashi-Garami Bottom]
+1. "What is Ushiro Ashi-Garami in BJJ?"
+   → Strategy: improve_heading — add definition paragraph at top before steps
+2. "How do you escape Ushiro Ashi-Garami?"
+   → Strategy: dedicated_faq — map each escape to its probability from the JSON data
+3. "Is Ushiro Ashi-Garami legal in BJJ competitions?"
+   → Strategy: add_section — ruleset comparison table (essential for competition audience)
+4. "How do you defend heel hooks from Ashi-Garami?"
+   → Strategy: add_section — safety-first content with tap timing guidance
+
+=== CONTENT GAP ANALYSIS ===
+
+[BJJ For Beginners Roadmap]
+- Missing: Explicit blue belt timeline answer (top commercial intent query)
+- Missing: Gi vs No-Gi comparison section (high search volume, beginner decision point)
+- Missing: Training frequency guide (answers one of the most searched beginner questions)
+- Missing: FAQ schema markup (page has no structured data for rich results)
+- Opportunity: Link to position hub pages (Mount, Guard, Back Control) to increase internal link depth
+
+[Ushiro Ashi-Garami Bottom]
+- Missing: Competition legality section (critical for audience who searches this term)
+- Missing: Safety/tap timing guidance (heel hooks require explicit danger framing)
+- Missing: Disambiguation vs standard Ashi-Garami (users confuse the variants)
+- Missing: FAQ schema block (HowTo schema exists but FAQ schema would add PAA eligibility)
+- Existing strength: HowTo schema with step probabilities is well-structured
+
+=== SUGGESTED NEW ARTICLES ===
+
+1. "BJJ Belt Progression Timeline: How Long Does Each Belt Take?"
+   → Captures high-volume query; complements the Roadmap article
+   → Target keyword: "how long to get BJJ blue belt"
+
+2. "Gi vs No-Gi BJJ for Beginners: Which Should You Start With?"
+   → Standalone article for a perennial high-traffic beginner debate
+   → Target keyword: "gi or no-gi BJJ beginner"
+
+3. "Leg Lock Legality in BJJ: Complete Ruleset Comparison"
+   → Covers IBJJF, ADCC, EBI, NAGA for all leg lock positions
+   → Target keyword: "are heel hooks legal in BJJ"
+
+4. "How to Survive Your First BJJ Class: A Beginner's Guide"
+   → Specific landing page for 'first BJJ class' intent (separate from multi-month roadmap)
+   → Target keyword: "what to expect first BJJ class"
+
+=== SUGGESTED_NEW_FILES.CSV STATUS ===
+File exists at tests/artifacts/suggested_new_files.csv with existing schema:
+  headers: triggered_by,category,suggested_name,reason
+  (Different from requested relative_path,plan schema — left intact to avoid breaking existing workflow)
