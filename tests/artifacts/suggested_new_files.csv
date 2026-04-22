@@ -1,2 +1,8 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+paa_seo_analysis,Positions,Seat Belt Control Back Bottom,PAA gap: 'how to escape seat belt back control' fires on Top page but no defender Bottom page exists for this position
+paa_seo_analysis,Positions,Inside Ashi-Garami Top,PAA gap: 'how to escape inside ashi garami' fires on Bottom page but no defender Top page exists for this position
+paa_seo_analysis,Principles,Leg Lock Safety,PAA gap: multiple safety/legality queries across ashi garami pages lack a hub; standalone guide would consolidate traffic
+ai_seo_optimization,Positions,Seat Belt Control Back Body Triangle,Gap: Body Triangle variant referenced in related content but no dedicated page exists; target: intermediate/advanced; sections: definition, setup from seat belt, body triangle vs hooks comparison, escapes
+ai_seo_optimization,Principles,Back Control Hierarchy,Gap: multiple back control pages reference positional hierarchy (seat belt > body triangle > hooks only) but no dedicated guide exists; target: all levels; sections: position comparison, point-scoring, transitions between configurations
+ai_seo_optimization,Positions,Inside Ashi-Garami Top,Gap: competition legality FAQ added to Bottom page generates traffic but Top (defender) perspective is missing; target: all levels; sections: how to escape inside ashi, knee rotation, stepping over, standing escapes
