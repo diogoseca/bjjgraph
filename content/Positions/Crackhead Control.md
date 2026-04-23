@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control in BJJ. Complete guide to 10th Planet's innovative turtle control system covering bottom defense and top attacks with expert analysis."
+description: "What is Crackhead Control in BJJ? 10th Planet's chair-sit turtle system for back takes and choke attacks. Chair-sit mechanics isolate hips. Top retention 75%, bottom escapes to Carni and Mission Control."
 ---
 
 
@@ -22,7 +22,7 @@ description: "Master Crackhead Control in BJJ. Complete guide to 10th Planet's i
 
 <section id="overview" class="content-section">
 
-Crackhead Control is an innovative turtle position system developed within the 10th Planet Jiu-Jitsu methodology, characterized by unconventional positioning and dynamic movement patterns that challenge traditional turtle defense and attack paradigms. This position exists in two distinct perspectives: the bottom defensive position emphasizing constant movement and grip fighting to prevent back takes, and the top attacking position utilizing chair-sit mechanics to isolate the opponent's hips while threatening multiple submission and positional advancement pathways.
+Crackhead Control is a 10th Planet Jiu-Jitsu turtle system where the top player chair-sits on the opponent's lower back and hips to isolate movement and threaten back takes, truck entries, and submission attacks — while the bottom player responds with relentless hip mobility and grip fighting to prevent control from being consolidated and to access rubber guard attack chains (Carni, Mission Control, New York). This position system exists in two distinct perspectives: the top attacking position utilizing chair-sit mechanics to isolate the opponent's hips, and the bottom defensive-offensive position emphasizing constant movement to prevent grip establishment while creating entry opportunities into advanced 10th Planet systems.
 
 The system's effectiveness stems from its departure from static turtle mechanics. On bottom, practitioners maintain relentless hip mobility and aggressive hand fighting to prevent opponents from establishing the stable grips required for systematic back attacks. This transforms turtle from a passive defensive shell into an active scramble position that creates guard recovery opportunities. From top, the chair-sit position loads weight directly onto the opponent's lower back and hips, creating mechanical isolation that severely limits escape options while providing excellent platforms for back takes, truck entries, and various choke attacks.
 

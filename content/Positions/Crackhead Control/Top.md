@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control Top | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with chair-sit mechanics isolating opponent's hips. Advanced practitioners achieve 85% retention and 75% advancement rates."
+description: "How to attack from Crackhead Control Top in BJJ. Chair-sit mechanics isolate opponent's hips for back takes and truck entries. Retention rate: 75%. Advancement probability: 68%."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crackhead Control Top in BJJ. Dominant turtle attack with c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control Top",
-  "description": "Master Crackhead Control Top in BJJ. Dominant turtle attack with chair-sit mechanics isolating opponent's hips. Advanced practitioners achieve 85% retention and 75% advancement rates.",
+  "description": "How to attack from Crackhead Control Top in BJJ. Chair-sit mechanics isolate opponent's hips for back takes and truck entries. Retention rate: 75%. Advancement probability: 68%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

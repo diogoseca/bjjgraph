@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate."
+description: "How to survive Crackhead Control Bottom in BJJ. Dynamic turtle defense with constant hip movement and grip fighting. Escape routes to Carni, Mission Control, and New York rubber guard attacks."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control Bottom",
-  "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
+  "description": "How to survive Crackhead Control Bottom in BJJ. Dynamic turtle defense with constant hip movement and grip fighting. Escape routes to Carni, Mission Control, and New York rubber guard attacks.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
