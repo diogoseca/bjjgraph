@@ -43,6 +43,10 @@
       "relationship": "Alternative control if bottom player begins turning to face top player"
     }
   ],
+  "bot_metadata": {
+    "last_improved": "2026-04-24",
+    "optimization_pass": "ai_seo_v1"
+  },
   "top": {
     "name": "Standing Back Control Top",
     "description": "Master offensive strategies for standing back control top position. Learn control maintenance, submission setups, and takedown options with 55-75% control success rates.",
@@ -266,6 +270,32 @@
         "duration": "2 minutes per round, 4-5 rounds"
       }
     ],
+    "faq": [
+      {
+        "question": "What is standing back control in BJJ?",
+        "answer": "Standing back control (also called rear standing control) is a dominant grappling position where one practitioner stands behind their opponent with chest-to-back connection, typically establishing a seat belt or harness grip. It bridges standing grappling and ground fighting, combining wrestling-style back takes with traditional BJJ back control mechanics. The primary offensive threats are the rear naked choke and forceful takedowns to grounded back control."
+      },
+      {
+        "question": "What submissions are available from standing back control?",
+        "answer": "The primary submission is the rear naked choke (RNC), attempted 28% of the time from this position. Secondary options include the standing arm lock via over-rotation of the trapped arm, the body triangle squeeze if legs are wrapped around the torso, and the bow and arrow choke in gi. The RNC is by far the highest-percentage submission from standing back control."
+      },
+      {
+        "question": "How do you maintain standing back control?",
+        "answer": "Maintaining standing back control requires: (1) keeping the seat belt tight and not allowing the defender to strip the over-hook; (2) staying chest-to-back with no space between bodies; (3) staying on the balls of the feet and matching opponent's movement; (4) using body weight through chest connection rather than arm strength alone. The position is inherently transitional — the goal is to finish the choke or transition to grounded back control."
+      },
+      {
+        "question": "How do you finish a rear naked choke from standing back control?",
+        "answer": "Sink one arm across the throat with the choking arm, secure with the non-dominant hand palm-to-bicep, and apply pressure by pulling the elbow toward the chest while keeping your chin behind the opponent's head. From standing, arch your hips forward into the opponent's back to prevent them from sitting down or spinning out. Most successful standing RNCs occur when the defender's mobility is significantly limited by strong harness control."
+      },
+      {
+        "question": "Is standing back control better than ground back control?",
+        "answer": "Standing back control is less stable and harder to maintain than ground back control. The opponent can use gravity, drop to their knees, or sit out to escape. However, standing back control provides faster submission access — particularly the rear naked choke — and is the natural transitional position when moving an opponent from standing to the mat. Think of it as a launching pad to grounded back control rather than a finishing position."
+      },
+      {
+        "question": "What is the seat belt grip in BJJ back control?",
+        "answer": "The seat belt grip is the standard harness control used in BJJ back control. One arm goes over the opponent's shoulder (the 'over hook'), and the other goes under the opposite armpit (the 'under hook'). The hands connect in front of the chest — typically with the palm of the over-hook hand gripping the wrist of the under-hook arm. This configuration controls the torso and is the foundation for both the rear naked choke and back-take takedowns."
+      }
+    ],
     "related_content": [
       {
         "name": "Back Control",
@@ -321,7 +351,7 @@
         "attempt_probability": 28
       },
       {
-        "transition": "Takedown to Grounded Back Control",
+        "transition": "Body Lock Takedown",
         "attempt_probability": 18
       },
       {
@@ -577,6 +607,32 @@
         "name": "Transition Options from Standing Back Control Bottom",
         "description": "Partner has standing back control. Practice all major escape paths: hip escape to turtle, standing up in base to neutral, rolling to guard, granby roll recovery. Drill each option 10 times, focusing on proper mechanics and timing.",
         "duration": "10-15 minutes"
+      }
+    ],
+    "faq": [
+      {
+        "question": "How do you escape standing back control in BJJ?",
+        "answer": "Common escapes from standing back control: (1) the seat belt strip — peeling the top arm off the shoulder to create rotation space; (2) the hip escape/spin-to-front — dropping level and turning into the opponent; (3) controlled descent to turtle — most frequent escape at 30% attempt rate; (4) turn in and face — 15% attempt rate. The most important first priority is tucking the chin and protecting the neck before working any escape."
+      },
+      {
+        "question": "What is the first priority when caught in standing back control bottom?",
+        "answer": "Protect your neck immediately by tucking your chin tightly to your chest and bringing your hands up to create a defensive shell around the choking area. Your leading hand should control the opponent's choking arm wrist, and your chin should be buried into your chest. Nothing else matters until the neck is protected — escapes and position changes come after survival is secured."
+      },
+      {
+        "question": "When is it better to drop to turtle versus fighting to stay standing?",
+        "answer": "Drop to turtle when the opponent has consolidated strong harness control and you cannot break their grips, when they have both hooks in deep making standing escapes difficult, or when they are attempting to take you down forcefully and you want to control the descent. Turtle offers better defensive frames against chokes and is a more stable defensive position than standing back exposure. The controlled descent to turtle is the most frequently used escape at 30% attempt rate."
+      },
+      {
+        "question": "What common mistake causes practitioners to exhaust themselves in standing back control bottom?",
+        "answer": "Panicking and using wild, uncontrolled movements to escape burns energy rapidly without accomplishing anything. This frantic response also makes you easier to control because your movements become predictable and you lose your base. The correction is to stay calm, work systematic escapes by addressing grips first, and use controlled technical movements rather than explosive scrambling."
+      },
+      {
+        "question": "Is standing back control scored in BJJ competition?",
+        "answer": "In IBJJF rules, back control with both hooks in scores 4 points (maintained for 3 seconds). Standing back control without hooks does not score back control points, but a successful takedown from it scores 2 takedown points. Transitioning from standing to grounded back control with hooks in does score the 4-point back control position once hooks are established and the position is held."
+      },
+      {
+        "question": "What is the difference between back clinch and back control in BJJ?",
+        "answer": "A back clinch typically refers to a standing rear grip position used as a precursor to takedowns, while back control implies the full seat belt grip with hooks in from the ground. In BJJ standing contexts, the terms are often used interchangeably — the key distinction is whether the practitioner has inserted leg hooks. Without hooks, it is transitional standing back control; with hooks, it becomes full back control worth 4 points."
       }
     ],
     "related_content": [

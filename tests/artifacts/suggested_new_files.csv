@@ -1,2 +1,8 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+paa_seo_optimization,Transitions,Hitchhiker Escape,Standalone generic technique page targeting 'hitchhiker escape BJJ' query (23% attempt rate from armbar control bottom); currently only position-specific version exists; sections: definition mechanics step-by-step defense applications
+paa_seo_optimization,Principles,Tap Early Principle,Safety/principles article on tapping biomechanics and injury prevention; top PAA gap 'when should you tap in an armbar'; target: all levels; sections: injury timeline elbow mechanics tap signals psychological barriers
+paa_seo_optimization,Positions,Armbar Defense by Position,Hub page mapping specific escape to armbar origin (mount guard back side-control north-south); target: intermediate; sections: origin-specific escapes common threads success rates by position
+paa_seo_optimization,Transitions,Rear Naked Choke from Standing,Standing-specific RNC page targeting 'rear naked choke from standing' PAA; sections: setup mechanics finish differences from ground common mistakes success rates
+paa_seo_optimization,Positions,Back Control Entries,Hub page for all back take methods from standing and ground; target: all levels; sections: standing entries ground entries scramble entries success rates competition context
+paa_seo_optimization,Positions,Standing Back Control Survival Guide,Defender POV page for standing back control; consistently under-served on BJJ sites; target: beginners/intermediates; sections: immediate priorities grip fighting controlled descent escape sequences
