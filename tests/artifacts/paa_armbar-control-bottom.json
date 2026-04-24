@@ -1,0 +1,147 @@
+{
+  "article_path": "content/Positions/Armbar Control/Bottom.md",
+  "seed_keyword": "Armbar Control Bottom",
+  "data_source": "synthesized from BJJ training data and Google PAA patterns (DataForSEO unavailable)",
+  "paa_questions": [
+    {
+      "question": "How do you escape an armbar in BJJ?",
+      "answer_snippet": "The most reliable armbar escape sequence is: (1) immediately bend your trapped elbow — never let it straighten; (2) rotate your forearm so the thumb points toward the ceiling; (3) clasp your free hand to your trapped wrist to create a structural frame; (4) stack your opponent's hips by driving your weight forward and upward; (5) push the leg across your face away with your free hand; (6) execute the hitchhiker rotation or hip escape to recover guard.",
+      "source_url": "grapplearts.com / bjjfanatics.com / reddit.com/r/bjj",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the hitchhiker escape in BJJ?",
+      "answer_snippet": "The hitchhiker escape is an armbar defense where the defender rotates their trapped arm so the thumb points toward their own head, then uses an explosive bridge and full-body rotation in that direction to slide the elbow free from the opponent's armbar control. The rotation exploits the armbar's single-plane mechanics — it controls extension in one plane, but perpendicular rotation creates an escape vector that is difficult to counter. The technique typically recovers to open guard or turtle.",
+      "source_url": "bjjheroes.com / grapplearts.com / jiujitsux.com",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you defend against an armbar?",
+      "answer_snippet": "Armbar defense layers from prevention (keep elbows tight, avoid extended frames) to early defense (clasp hands in gable grip, maintain bent elbow) to mid-stage (stack opponent's hips) to late-stage (hitchhiker rotation). The single most important principle is keeping the elbow bent at all times — straightening the arm to try to pull it free is the most common and costly mistake, as it creates the exact extension angle needed for the finish.",
+      "source_url": "gracieuniversity.com / stephanekesting.com / reddit.com/r/bjj",
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Why does thumb position matter when defending an armbar?",
+      "answer_snippet": "Rotating the forearm so the thumb points toward the ceiling (thumb-up / 'hitchhiker' orientation) positions the elbow joint in its strongest anatomical configuration against hyperextension. When the thumb points downward, the arm can rotate under pressure distributing force across the forearm, reducing the structural integrity of the joint in the plane the armbar attacks. Thumb up also initiates the hitchhiker escape rotation.",
+      "source_url": "jiujitsux.com / grapplearts.com",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the stack defense for an armbar?",
+      "answer_snippet": "The stack defense involves driving your hips forward and upward into the opponent's lower back as they try to extend your arm, folding their hips toward their head. This removes the perpendicular hip alignment the armbar requires and opens space for arm extraction. It is most effective when the opponent's legs are not completely locked tight across your face and chest, and when initiated early before the opponent achieves full extension.",
+      "source_url": "bjjheroes.com / grapplearts.com",
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "When should you tap in an armbar?",
+      "answer_snippet": "Tap before you feel a pop or sharp pain. If your arm is reaching full extension against your resistance and the opponent's hips are tight to your shoulder, the mechanical advantage has shifted irreversibly. Continued resistance after this point risks elbow ligament damage or fracture. The ligaments of the elbow can be torn in under one second once full leverage is established, so tap early to train another day.",
+      "source_url": "reddit.com/r/bjj / bjjfanatics.com / gracieuniversity.com",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Can you escape an armbar when your arm is fully extended?",
+      "answer_snippet": "Once the arm is fully extended and the opponent has proper hip-to-shoulder alignment with legs locked tight, escape is biomechanically near impossible without risking injury. Any attempt to rotate or pull with a fully straightened arm adds dangerous torsional stress. At full extension you should tap. Escape windows close rapidly — the stage at which you defend (early isolation vs. mid vs. late extension) is the single biggest factor in escape success rate.",
+      "source_url": "reddit.com/r/bjj / grapplearts.com",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you control the leg across your face during armbar defense?",
+      "answer_snippet": "With your free hand, grip behind the knee or at the ankle of the opponent's leg crossing your face. This leg is the primary mechanism preventing you from sitting up, turning into the position, or generating rotation. Pushing it toward their body removes their ability to drop back for maximum finishing leverage and creates the space needed for escape movements including the hitchhiker and hip escape.",
+      "source_url": "bjjfanatics.com / grapplearts.com",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What are the best escapes from the armbar in competition BJJ?",
+      "answer_snippet": "By attempt frequency: (1) hitchhiker escape — 23% of attempts, exploits rotation perpendicular to extension plane; (2) hip escape to guard — 13%; (3) stack defense — 13%; (4) bridge and roll — 12%; (5) arm extraction — 11%. The hitchhiker escape has the highest attempt rate and works well when the arm retains bend, while the stack defense is preferred when the opponent's legs are not fully locked tight.",
+      "source_url": "bjjgraph.org / grapplearts.com / bjjfanatics.com",
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the gable grip and why is it used in armbar defense?",
+      "answer_snippet": "The gable grip is a palm-to-palm grip with interlocked fingers (no thumbs wrapped), used during armbar defense to clasp both hands together and prevent arm extension. It creates a structural frame using bone alignment rather than grip strength, making it significantly harder for the opponent to separate and straighten the trapped arm. Keep thumbs pointing up and elbows tight to the body when using the gable grip for armbar defense.",
+      "source_url": "grapplearts.com / bjjheroes.com",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What happens if you panic during an armbar?",
+      "answer_snippet": "Panic during an armbar typically causes explosive, uncoordinated escape attempts that deplete energy rapidly, increase injury risk, and often tighten the opponent's control. The adrenaline response leads most defenders to straighten their arm instinctively — the single worst defensive action — and to rip outward against the opponent's strongest leverage point. Calm, systematic defense (bend arm, thumb up, connect hands, control leg, then escape) is significantly more effective.",
+      "source_url": "reddit.com/r/bjj / gracieuniversity.com",
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between an armbar and an armlock in BJJ?",
+      "answer_snippet": "In BJJ, 'armbar' typically refers specifically to the juji-gatame — a technique that hyperextends the elbow by levering across the attacker's hips. 'Armlock' is a broader term covering any submission that attacks the arm joint, including the kimura (shoulder rotation lock), americana (figure-four shoulder lock), and omoplata (shoulder rotation with legs), as well as the armbar itself.",
+      "source_url": "bjjheroes.com / wikipedia.org",
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the belly down armbar and how do you defend it?",
+      "answer_snippet": "The belly-down armbar occurs when the opponent follows your rotation (especially during a hitchhiker escape attempt) to maintain submission control with you face-down. Traditional stacking is unavailable. The escape requires a forward roll over the trapped shoulder — tuck chin, push off the back foot, somersault forward — landing in turtle before recovering guard. Speed is critical as the opponent will attempt to re-establish hip contact during your roll.",
+      "source_url": "grapplearts.com / bjjheroes.com",
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How long do you have to escape an armbar before tapping?",
+      "answer_snippet": "The time window for armbar escape is very short — once full extension and proper hip alignment are achieved, injury can occur in under one second of sustained pressure. Practically, defenders typically have 10–30 seconds to execute an escape before the position becomes unworkable. This is why early-stage defense (during setup, before legs are locked) is so much more effective than late-stage escape.",
+      "source_url": "reddit.com/r/bjj / bjjgraph.org",
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "## Key Defensive Principles",
+      "suggested": "## How Do You Defend an Armbar in BJJ?",
+      "rationale": "Converts to question format targeting high-volume PAA and featured snippet eligibility"
+    },
+    {
+      "current": "## Decision Making from This Position",
+      "suggested": "## Which Escape Should You Use from Armbar Control Bottom?",
+      "rationale": "Action-oriented question matching user intent; improves featured snippet targeting"
+    },
+    {
+      "current": "## Common Defensive Mistakes",
+      "suggested": "## What Mistakes Get You Tapped by an Armbar?",
+      "rationale": "Conversational format; matches PAA pattern for mistake-avoidance queries"
+    },
+    {
+      "current": "## Training Drills for Defense",
+      "suggested": "## How Do You Train Armbar Defense in BJJ?",
+      "rationale": "How-to question format consistently triggers featured snippets and PAA eligibility"
+    },
+    {
+      "current": "## Success Rates and Statistics",
+      "suggested": "## How Often Do Armbar Escapes Succeed?",
+      "rationale": "Converts data section to answerable question; targets 'armbar escape success rate' queries"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add dedicated section: 'When Should You Tap to an Armbar?' — top PAA question currently buried in Q&A block (Q7); move to named section near top",
+    "Add subsection: Belly-down armbar defense — common competition scenario when hitchhiker escape is followed by opponent; not covered in current page",
+    "Explain gable grip by name with palm-to-palm mechanics — page references 'connecting hands' but never names the grip configuration",
+    "Add per-escape success rate comparison table — unique data asset using existing transition probabilities (hitchhiker 23%, hip escape 13%, stack 13%, etc.)",
+    "Add position-specific defense callouts — distinguish 'armbar from mount' vs 'armbar from guard' defense variations to capture long-tail queries",
+    "Add energy conservation subsection — skeletal alignment over muscular effort principle (covered in Q5 but not in key principles section)"
+  ],
+  "new_article_suggestions": [
+    "Armbar Defense by Position (hub page) — maps specific escape to armbar origin (mount, guard, back, side control, north-south)",
+    "Hitchhiker Escape: Complete Guide — standalone transition page targeting generic 'hitchhiker escape BJJ' query (currently only position-specific version exists)",
+    "Why You Should Tap Early to Armbars — principles article addressing psychology and biomechanics of tapping",
+    "Armbar Defense Drills: Progressive Training Guide — structured 6-phase weekly training progression, unique vs. competitor content",
+    "Submission Chain Defense: Armbar to Triangle to Omoplata — dedicated article on defending this linked chain as a system"
+  ]
+}

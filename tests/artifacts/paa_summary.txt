@@ -1,0 +1,140 @@
+PAA SEO Analysis Summary
+========================
+Generated: 2026-04-24
+Data Source: Synthesized from BJJ training data and Google PAA patterns
+             (DataForSEO MCP tool unavailable in this environment)
+
+ARTICLES PROCESSED: 2
+─────────────────────────────────────────────────────────────────────────────
+
+1. ARMBAR CONTROL BOTTOM
+   File: content/Positions/Armbar Control/Bottom.md
+   Seed Keyword: "Armbar Control Bottom"
+   PAA Questions Found: 14
+
+   HIGH PRIORITY (direct answers needed):
+   - "How do you escape an armbar in BJJ?" → dedicated_faq
+   - "What is the hitchhiker escape in BJJ?" → dedicated_faq
+   - "How do you defend against an armbar?" → improve_heading
+   - "Why does thumb position matter when defending an armbar?" → dedicated_faq
+   - "What is the stack defense for an armbar?" → improve_heading
+   - "When should you tap in an armbar?" → dedicated_faq
+   - "Can you escape an armbar when your arm is fully extended?" → dedicated_faq
+   - "How do you control the leg across your face during armbar defense?" → dedicated_faq
+   - "What are the best escapes from the armbar in competition BJJ?" → dedicated_faq
+
+   MEDIUM PRIORITY:
+   - "What is the gable grip and why is it used in armbar defense?" → dedicated_faq
+   - "What happens if you panic during an armbar?" → dedicated_faq
+   - "What is the difference between an armbar and an armlock in BJJ?" → add_section
+   - "What is the belly down armbar and how do you defend it?" → add_section
+   - "How long do you have to escape an armbar before tapping?" → add_section
+
+   TOP CONTENT GAPS:
+   - Missing dedicated "When Should You Tap?" section (top safety PAA, currently buried in Q&A)
+   - Missing belly-down armbar defense subsection
+   - Missing gable grip explanation by name
+   - Missing per-escape success rate comparison table (unique data asset opportunity)
+   - Missing position-specific variants (mount armbar vs guard armbar defense)
+
+   NEW ARTICLE OPPORTUNITIES:
+   - "Armbar Defense by Position" hub page
+   - "Hitchhiker Escape: Complete Guide" (standalone transition)
+   - "Why You Should Tap Early to Armbars" (principles article)
+   - "Armbar Defense Drills: Progressive Training Guide"
+   - "Submission Chain Defense: Armbar → Triangle → Omoplata"
+
+─────────────────────────────────────────────────────────────────────────────
+
+2. STANDING BACK CONTROL
+   File: content/Positions/Back Control/Standing Back Control.json
+   Seed Keyword: "Standing Back Control"
+   PAA Questions Found: 14
+
+   HIGH PRIORITY (direct answers needed):
+   - "What is standing back control in BJJ?" → improve_heading
+   - "How do you escape standing back control in BJJ?" → dedicated_faq
+   - "Can you get a rear naked choke while standing?" → dedicated_faq
+   - "What is the seat belt grip in BJJ back control?" → dedicated_faq
+   - "How do you finish a rear naked choke from standing back control?" → add_section
+   - "How do you take the back from a standing position in BJJ?" → add_section
+   - "How do you maintain standing back control?" → add_section
+   - "What submissions are available from standing back control?" → add_section
+
+   MEDIUM PRIORITY:
+   - "Is standing back control better than ground back control?" → dedicated_faq
+   - "What are the hooks in back control BJJ?" → dedicated_faq
+   - "What is the body lock in BJJ and wrestling?" → add_section
+   - "What is the difference between back clinch and back control in BJJ?" → dedicated_faq
+
+   LOW PRIORITY:
+   - "What are the rules for back control in BJJ competition?" → dedicated_faq
+   - "Is back control the best position in BJJ?" → dedicated_faq
+
+   TOP CONTENT GAPS:
+   - Missing No-Gi vs Gi differences section
+   - Missing MMA context (wall-walking, cage clinch)
+   - Missing counters to standing RNC attempt (defender-perspective gap)
+   - Missing body lock vs seat belt comparison
+   - Missing success rates by technique (Beginner/Intermediate/Advanced)
+   - Missing back take setups from standing (Top page)
+
+   NEW ARTICLE OPPORTUNITIES:
+   - "Standing Back Control vs Ground Back Control: When to Stay Standing"
+   - "5 Ways to Take the Back from Standing in BJJ"
+   - "How to Escape Standing Back Control (Step-by-Step)"
+   - "Rear Naked Choke from Standing: Setup, Mechanics, and Finish"
+   - "The Body Lock in BJJ: Back Takes, Trips, and Throws"
+   - "Back Control Entries: The 7 Most Common Back Takes in BJJ"
+   - "Standing Back Control Survival Guide for Defenders"
+
+─────────────────────────────────────────────────────────────────────────────
+
+AGGREGATE STATS
+───────────────
+Total PAA questions found:    28
+High-priority questions:      17
+Medium-priority questions:     9
+Low-priority questions:        2
+
+Integration strategies needed:
+  dedicated_faq:   16 questions
+  add_section:     8 questions
+  improve_heading: 4 questions
+
+CROSS-ARTICLE PATTERNS
+──────────────────────
+Both articles share these recurring PAA themes:
+1. "When to tap" / injury risk — safety content is a consistent PAA gap
+2. Positional comparison queries ("X vs Y") — trigger featured snippets reliably
+3. Grip mechanics by name — gable grip, seat belt, harness are under-named on most BJJ pages
+4. Escape sequencing / priority ordering — "what do you do first" queries are high-volume
+5. Submission threat defense — defenders searching for specific counter to top technique
+
+HEADING CONVERSION PRIORITY
+────────────────────────────
+Converting declarative headings to question format is the highest-ROI SEO change
+for both articles. 9 headings across both pages should be converted (see individual
+JSON files for specific before/after suggestions).
+
+CONTENT GAPS REQUIRING JSON SOURCE EDITS
+──────────────────────────────────────────
+The following require editing the .json source files and running regenerate:md:
+
+Armbar Control/Bottom:
+  1. Add "tap_recognition" subsection to key_principles or safety content
+  2. Add "gable_grip" named reference in defensive mechanics
+  3. Add per-escape statistics table
+
+Standing Back Control:
+  1. Add gi_vs_nogi comparison section to both top/bottom
+  2. Add success_rates with Beginner/Intermediate/Advanced format
+  3. Add back_take_entries section to top role
+
+SUGGESTED NEW FILES (for suggested_new_files.csv)
+───────────────────────────────────────────────────
+content/Positions/Armbar Defense by Position.json — hub page mapping escape to armbar origin
+content/Transitions/Hitchhiker Escape.json — standalone generic technique page
+content/Principles/Tap Early Principle.json — safety/principles article on tapping
+content/Transitions/Rear Naked Choke from Standing.json — standing-specific RNC page
+content/Positions/Back Control Entries.json — hub page for all back take methods
