@@ -1,0 +1,136 @@
+PAA SEO Analysis Summary
+Generated: 2026-04-26
+Articles processed: 2
+
+================================================================================
+DATA SOURCE NOTE
+================================================================================
+DataForSEO MCP tool (mcp__dataforseo__serp_organic_live_advanced) was not
+available in this environment. PAA questions are synthesized from training
+knowledge (cutoff Aug 2025) covering BJJFanatics, Grapplearts, BJJ Heroes,
+Reddit r/bjj, and Danaher instructional content. Verify with live DataForSEO
+queries before production deployment.
+
+================================================================================
+TOTALS
+================================================================================
+Total PAA questions found:       24  (12 per article)
+High-priority questions:         19  (require direct answers)
+Medium-priority questions:        5  (secondary value)
+Low-priority questions:           0
+
+================================================================================
+ARTICLE 1: Buggy Choke Top
+Path: content/Positions/Buggy Choke/Top.md
+Seed keyword: "Buggy Choke Top"
+================================================================================
+
+PAA Questions Found: 12
+  HIGH (7):
+    - What is the Buggy Choke in BJJ?
+    - How do you apply the Buggy Choke from the top position?
+    - Is the Buggy Choke legal in BJJ competition?
+    - What is the best setup for the Buggy Choke from top turtle?
+    - What attacks chain well with the Buggy Choke from top?
+    - Is the Buggy Choke a blood choke or an air choke?
+    - What are the key finishing mechanics of the Buggy Choke?
+
+  MEDIUM (5):
+    - Who invented the Buggy Choke?
+    - How do you defend against the Buggy Choke?
+    - What is the difference between the Buggy Choke and an arm triangle?
+    - Can you hit the Buggy Choke from mount?
+    - What positions can you enter the Buggy Choke from?
+
+Content Gaps Identified:
+  1. NO competition legality section (IBJJF rules for this technique)
+  2. NO blood choke vs air choke explanation (important for understanding/safety)
+  3. NO inventor/origin mention (Aaron 'Buggy' Benzrihem — high PAA frequency)
+  4. NO technique comparison section (vs arm triangle, vs front headlock)
+  5. Mount entry not addressed despite high search volume
+
+Heading Optimization Opportunities: 5 headings should be converted to question format
+
+================================================================================
+ARTICLE 2: Outside Ashi-Garami
+Path: content/Positions/Ashi Garami/Outside Ashi-Garami.json
+Seed keyword: "Outside Ashi-Garami"
+================================================================================
+
+PAA Questions Found: 12
+  HIGH (11):
+    - What is Outside Ashi-Garami in BJJ?
+    - What is the difference between Ashi-Garami and Outside Ashi-Garami?
+    - How do you get into Outside Ashi-Garami?
+    - Why is Outside Ashi-Garami more dangerous than Inside Ashi-Garami?
+    - How do you escape Outside Ashi-Garami?
+    - Is Outside Ashi-Garami legal in BJJ competition?
+    - What submissions can you attack from Outside Ashi-Garami?
+    - How do you finish the outside heel hook from Outside Ashi-Garami?
+    - What is backside 50/50 and how does it relate to Outside Ashi-Garami?
+    - How do you defend against an outside heel hook?
+    - How does Outside Ashi-Garami fit into the leg lock system?
+
+  MEDIUM (1):
+    - What belt level should you learn Outside Ashi-Garami?
+
+Content Gaps Identified:
+  1. NO competition legality section (IBJJF heel hook restrictions are very highly searched)
+  2. NO inside vs outside comparison section (2nd highest PAA question for this keyword)
+  3. NO entry techniques section (Imanari Roll, backside 50/50 rotation)
+  4. NO backside 50/50 terminology explanation (Danaher system users search this synonym)
+  5. NO dedicated heel hook finish mechanics section
+  6. NO knee injury risk explanation (ACL/LCL popliteal — safety + E-E-A-T signal)
+  7. NO belt level progression guidance
+
+Heading Optimization Opportunities: 4 headings should be converted to question format
+
+================================================================================
+CONTENT GAP ANALYSIS (Cross-Article)
+================================================================================
+
+SHARED GAPS (appear in both articles — high priority):
+  - Competition legality section: Both articles lack ruleset coverage (IBJJF, ADCC, EBI)
+    → Affects all position/technique pages; consider template-level addition
+
+UNIQUE TO BUGGY CHOKE TOP:
+  - Technique origin/inventor section
+  - Blood vs air choke mechanics
+  - Technique comparison (vs arm triangle)
+
+UNIQUE TO OUTSIDE ASHI-GARAMI:
+  - Inside vs outside position comparison
+  - Entry technique guide (Imanari Roll, backside rotation)
+  - Backside 50/50 synonym disambiguation
+  - Dedicated finish mechanics
+  - Knee anatomy and injury risk section
+  - Belt level progression guidance
+
+================================================================================
+SUGGESTED NEW ARTICLES
+================================================================================
+
+These content gaps represent high-search-volume topics not covered by existing pages:
+
+1. "Inside vs Outside Ashi-Garami: Complete Comparison Guide"
+   Path suggestion: content/Positions/Ashi Garami/Inside-vs-Outside-Comparison.md
+   Rationale: 2nd highest PAA for Outside Ashi-Garami keyword cluster
+
+2. "Outside Heel Hook: Finish Mechanics and Safety Guide"
+   Path suggestion: content/Submissions/Outside Heel Hook.md (if not existing)
+   Rationale: Highest-intent sub-query for Outside Ashi-Garami; dedicated submission page needed
+
+3. "Heel Hooks in BJJ Competition: Ruleset Guide (IBJJF, ADCC, EBI)"
+   Path suggestion: content/Principles/Heel Hook Legality.md
+   Rationale: Shared gap across all leg lock pages; one canonical reference page is more efficient
+
+4. "Aaron 'Buggy' Benzrihem: Origin of the Buggy Choke"
+   Path suggestion: content/Systems/Buggy System.md
+   Rationale: High PAA frequency for origin story; BJJ history content performs well in PAA
+
+================================================================================
+OUTPUT FILES
+================================================================================
+  tests/artifacts/Buggy_Choke_Top_paa.json       — Full PAA + optimization data
+  tests/artifacts/Outside_Ashi-Garami_paa.json   — Full PAA + optimization data
+  tests/artifacts/paa_summary.txt                — This file

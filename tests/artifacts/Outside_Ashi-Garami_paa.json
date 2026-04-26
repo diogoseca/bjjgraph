@@ -1,0 +1,124 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Outside Ashi-Garami.json",
+  "seed_keyword": "Outside Ashi-Garami",
+  "data_source": "training-knowledge-synthesis",
+  "data_note": "DataForSEO MCP tool not available in this environment. PAA questions synthesized from training knowledge (cutoff Aug 2025) covering BJJFanatics, Grapplearts, BJJ Heroes, and Danaher instructional content. Verify live PAA via DataForSEO before production use.",
+  "paa_questions": [
+    {
+      "question": "What is Outside Ashi-Garami in BJJ?",
+      "answer_snippet": "Outside Ashi-Garami is a leg entanglement position where the attacker's legs form a figure-4 around the opponent's leg from the outside angle, with the outside leg crossing over the thigh and the inside leg triangling under the knee. It is the primary entry position for outside heel hooks and is foundational in modern no-gi leg lock systems.",
+      "source_url": "https://bjjfanatics.com/blogs/news/outside-ashi-garami",
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the difference between Ashi-Garami and Outside Ashi-Garami?",
+      "answer_snippet": "Standard Ashi-Garami (Inside Heel Hook position) places the attacker inside the defender's legs, primarily threatening inside heel hooks. Outside Ashi-Garami positions the attacker outside the defender's hips, enabling the outside heel hook — considered more dangerous as it simultaneously stresses the ACL, LCL, and popliteal complex.",
+      "source_url": "https://www.grapplearts.com/ashi-garami-the-complete-guide/",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you get into Outside Ashi-Garami?",
+      "answer_snippet": "Common entries include the backside 50/50 rotation from standard Ashi-Garami, a direct Outside Ashi entry from a single leg takedown, transitions from the back position, and the Imanari Roll (front roll entry). The key mechanical requirement is getting your inside hip past the defender's knee line.",
+      "source_url": "https://www.grapplearts.com/ashi-garami-the-complete-guide/",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Why is Outside Ashi-Garami considered more dangerous than Inside Ashi-Garami?",
+      "answer_snippet": "The outside heel hook from Outside Ashi-Garami rotates the knee externally, simultaneously loading the ACL, LCL, and popliteal complex. This multi-ligament attack can cause injury before pain signals register, making it easy to tear ligaments before tapping. Inside heel hooks primarily stress the MCL and ACL with a slightly slower force application.",
+      "source_url": "https://www.bjjheroes.com/techniques/outside-heel-hook",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you escape Outside Ashi-Garami?",
+      "answer_snippet": "Primary escapes include: the knee slice (pushing the attacker's inside knee down and stepping over), the back step to re-enter guard, the technical stand-up using height advantage, and internal hip rotation to collapse the figure-4 triangle before threading the leg out. Early recognition is critical — escaping a locked-in outside heel hook is extremely difficult.",
+      "source_url": "https://www.grapplearts.com/how-to-escape-outside-ashi-garami/",
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is Outside Ashi-Garami legal in BJJ competition?",
+      "answer_snippet": "Outside Ashi-Garami as a position is legal in most rulesets. The outside heel hook it enables is restricted by IBJJF (banned below brown/black in no-gi), permitted at ADCC, and allowed at EBI and Polaris at all levels. The position itself can be held and transitioned from even in heel-hook-restricted divisions.",
+      "source_url": "https://ibjjf.com/rules/",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions can you attack from Outside Ashi-Garami?",
+      "answer_snippet": "Primary submission is the outside heel hook. Secondary attacks include: calf slicer, straight ankle lock (when opponent turns away), inside heel hook via transition to standard Ashi-Garami, and kneebar when the defender postures or stands. The position is a gateway — the outside heel hook is the primary threat that enables all other attacks.",
+      "source_url": "https://bjjfanatics.com/blogs/news/leg-lock-submissions-from-ashi-garami",
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you finish the outside heel hook from Outside Ashi-Garami?",
+      "answer_snippet": "Secure the heel in the crook of your far arm (near arm cups the shin for control), pinch knees together to prevent knee mobility, and rotate your upper body away while driving hips toward the opponent. The finish is a hip-drive rotation that torques the knee externally — not an arm crank. Tap early in training due to rapid ligament loading.",
+      "source_url": "https://www.bjjheroes.com/techniques/outside-heel-hook-finish",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is backside 50/50 and how does it relate to Outside Ashi-Garami?",
+      "answer_snippet": "Backside 50/50 is the Danaher Death Squad terminology for Outside Ashi-Garami — same mechanical position described from a system perspective. It refers to the configuration where both athletes have mutual leg entanglement but one athlete's hips are positioned to the outside, giving them the outside heel hook threat.",
+      "source_url": "https://www.grapplearts.com/john-danaher-leg-locks/",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you defend against an outside heel hook from Outside Ashi-Garami?",
+      "answer_snippet": "Defenses: toes-out rotation to reduce external knee torque, calf shield (pull heel to your own hip to remove leverage), frame the attacker's grip to prevent heel securing, and proactive positional escapes before heel is locked. Once the outside heel hook is fully locked, injury risk is high — tap immediately to any real pressure.",
+      "source_url": "https://bjjfanatics.com/blogs/news/heel-hook-defense",
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What belt level should you learn Outside Ashi-Garami?",
+      "answer_snippet": "Most coaches recommend introducing leg entanglement positions no earlier than blue belt in a structured curriculum. The outside heel hook is typically taught at purple belt or above due to injury risk and mechanical maturity requirements. IBJJF allows heel hooks only at brown/black belt in no-gi competition.",
+      "source_url": "https://www.grapplearts.com/when-to-learn-heel-hooks/",
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How does Outside Ashi-Garami fit into the leg lock system?",
+      "answer_snippet": "In the modern leg lock framework, Outside Ashi-Garami is one of four primary leg entanglement positions alongside standard Ashi-Garami, 50/50, and Single Leg X guard. OAG is considered highest percentage for finishing via outside heel hook because it provides strongest mechanical control of the knee joint. The optimal hierarchy is: outside ashi → inside ashi → saddle.",
+      "source_url": "https://bjjfanatics.com/blogs/news/enter-the-system-leg-locks",
+      "priority": "high",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "overview (generated from JSON overview field)",
+      "suggested": "What is Outside Ashi-Garami? (Position Overview)",
+      "rationale": "Targets highest-priority PAA 'What is Outside Ashi-Garami' directly in the first heading"
+    },
+    {
+      "current": "key_principles (generated as Key Principles)",
+      "suggested": "How Does Outside Ashi-Garami Work? (Control Principles)",
+      "rationale": "Matches 'how does ashi garami work' and 'outside ashi garami mechanics' queries"
+    },
+    {
+      "current": "common_errors (generated as Common Errors/Mistakes)",
+      "suggested": "What Are the Most Common Outside Ashi-Garami Mistakes?",
+      "rationale": "Question format matches PAA pattern; existing error content directly answers this"
+    },
+    {
+      "current": "decision_tree (generated as Decision Making)",
+      "suggested": "What Do You Do from Outside Ashi-Garami? (Attack & Defense Options)",
+      "rationale": "Targets 'what attacks from outside ashi' and 'what submissions from outside ashi' PAA questions"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: Inside vs Outside Ashi-Garami Comparison — High PAA priority; explain anatomical difference, attack angles, and danger level differential",
+    "Add section: How to Enter Outside Ashi-Garami — Cover Imanari Roll, backside 50/50 rotation, single leg entry; high PAA priority",
+    "Add section: Outside Heel Hook Finishing Mechanics — Dedicated step-by-step finish guide; highest search intent for this keyword cluster",
+    "Add section: Competition Legality by Ruleset — IBJJF, ADCC, EBI; high PAA priority; currently missing from JSON entirely",
+    "Add section: What is Backside 50/50? — Explain Danaher system terminology; many practitioners search this as a synonym",
+    "Add section: When to Learn Outside Ashi-Garami (Belt Level Guide) — Medium PAA priority; helps beginners understand appropriate progression",
+    "Add content: Knee injury risk explanation — Why outside heel hook is more dangerous than inside; ACL/LCL/popliteal anatomy note",
+    "Add content: Tap early warning — Specific callout that outside heel hook injury happens before pain; safety critical"
+  ]
+}

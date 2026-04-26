@@ -163,6 +163,8 @@ In this position, your opponent has their legs configured in a figure-4 around y
 
 This position represents a defensive challenge where understanding leg lock mechanics, maintaining proper posture, and executing timely escapes are critical to preventing submission and recovering advantageous position. The key to success lies in maintaining calm composure under submission threat while systematically working through escape sequences that protect the heel and create extraction opportunities.
 
+Critical safety note: the outside heel hook from Outside Ashi-Garami is more dangerous than the inside heel hook because it simultaneously stresses the ACL, LCL, and popliteal complex. Ligament damage can and does occur before pain registers — meaning you may not feel the injury before it happens. Tap immediately to any real outside heel hook pressure in training, do not wait for pain as a signal. Early recognition of this position and immediate defensive action are essential; escaping a fully locked-in outside heel hook is extremely difficult and attempting to power out risks immediate injury.
+
 </section>
 
 <section id="state-invariants" class="content-section">
@@ -195,7 +197,7 @@ This position represents a defensive challenge where understanding leg lock mech
 
 ## Key Offensive Principles
 
-- Protect your heel immediately by keeping it hidden from opponent's grip, preventing heel exposure that enables heel hook finish
+- Protect your heel immediately — outside heel hook stresses ACL, LCL, and popliteal complex simultaneously and can cause ligament injury before pain registers; tap under any real heel hook pressure rather than waiting for pain
 - Maintain standing or elevated posture with height advantage, as standing position creates best escape opportunities and limits opponent's leverage
 - Prevent hip external rotation by keeping knee pointing forward and not allowing knee to turn outward, which would expose heel to finishing position
 - Create frames on opponent's hips/chest using hands and free leg to establish distance that prevents submission leverage
