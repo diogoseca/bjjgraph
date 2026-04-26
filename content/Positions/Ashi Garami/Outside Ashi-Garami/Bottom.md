@@ -163,6 +163,8 @@ The position is characterized by your outside leg (left leg) crossing over their
 
 From this position, the practitioner has access to outside heel hooks, straight ankle locks, and transitions to more dominant leg entanglements. The position represents a neutral starting point in the leg entanglement game where both practitioners are working to improve their position or finish submissions. Understanding outside ashi is essential for modern no-gi competition, as it serves as the gateway to more advanced leg lock positions like saddle and inside ashi.
 
+Critical safety responsibility for the attacking practitioner: the outside heel hook simultaneously stresses the ACL, LCL, and popliteal complex, and ligament damage can occur before the opponent feels pain and processes the need to tap. This requires all practitioners to apply finishing pressure with controlled, progressive rotation — never with explosive force. In training, pause when the opponent's knee shows tension and respect early taps immediately. The outside heel hook is the primary submission from this position, but it must be trained with strict responsibility for your partner's joint health. Finishing mechanics: secure the heel in the crook of your far arm (near arm cups the shin), pinch knees together to restrict knee mobility, and rotate your upper body away while driving hips toward the opponent — the finish is a hip-drive rotation that torques the knee externally, not an arm crank.
+
 </section>
 
 <section id="state-invariants" class="content-section">
@@ -200,7 +202,7 @@ From this position, the practitioner has access to outside heel hooks, straight 
 - Upper body grips dictate attacks - heel control enables heel hooks, ankle control enables ankle locks, knee control prevents escapes
 - Active legs create control - squeeze figure-4 configuration constantly, adjust pressure based on opponent movement, never remain static
 - Threaten submissions to prevent escapes - constant submission pressure keeps opponent defensive and limits their ability to work escapes
-- Transition mindset - view outside ashi as entry position to more dominant entanglements rather than primary finishing position
+- Outside heel hook safety - apply finishing rotation slowly and progressively, never explosively; simultaneous ACL, LCL, and popliteal stress means injury can occur before the opponent feels pain and can tap
 
 
 </section>
@@ -266,6 +268,11 @@ From this position, the practitioner has access to outside heel hooks, straight 
 
 - ❌ **Consequence**: Opponent can post with free leg to stand or create angles for escape, reduces control effectiveness, allows opponent to pressure forward
 - ✅ **Correction**: Monitor opponent's free leg positioning, adjust body angle to prevent strong posting, use leg configuration adjustments to nullify their base attempts
+
+### 7. Applying outside heel hook finishing pressure explosively rather than with controlled progressive rotation
+
+- ❌ **Consequence**: The outside heel hook simultaneously stresses the ACL, LCL, and popliteal complex — ligament damage can occur before the opponent feels pain and processes the need to tap, causing serious injury even to experienced training partners
+- ✅ **Correction**: Apply heel hook finishing pressure with slow, controlled rotation; pause when the opponent's knee shows tension; in training always respect early taps immediately and never explode into the finish
 
 
 
@@ -333,8 +340,8 @@ Start in established outside ashi garami, bottom player works to maintain positi
 **Q7**: What determines whether you should finish from outside ashi or transition to a more dominant entanglement?
 **A**: Outside ashi is primarily a transitional position rather than a primary finishing position. Finish from outside ashi when the opponent is static and presents their heel cleanly, or when you have perfect hip angle and leg configuration. Transition to inside ashi or saddle when the opponent is actively escaping, when their heel is protected, or when they create angles that make outside ashi less effective. Advanced practitioners treat outside ashi as a gateway position.
 
-**Q8**: How do you manage energy expenditure to maintain the position over extended periods?
-**A**: Energy management centers on using skeletal structure rather than muscular effort. The figure-4 leg configuration should lock in place without requiring constant squeeze - position your legs so the triangle holds naturally. Maintain grips efficiently using finger hooks rather than death grips. Flow between submission threats rather than holding any single position. Let your opponent's escape attempts create your offensive opportunities rather than constantly attacking.
+**Q8**: How does Outside Ashi-Garami fit into the leg lock system hierarchy, and what is Backside 50/50?
+**A**: Outside Ashi-Garami is one of four primary leg entanglement positions alongside standard Ashi-Garami, 50/50, and Single Leg X Guard. In the Danaher Death Squad system (Gordon Ryan, Gary Tonon), Outside Ashi-Garami is also called Backside 50/50 — same position described from a systems perspective, emphasizing that one athlete's hips are positioned outside, giving them the outside heel hook threat. The optimal finishing hierarchy from highest to lowest percentage is: outside ashi (outside heel hook) is considered highest because it provides the strongest mechanical isolation of the knee joint and simultaneously stresses ACL, LCL, and popliteal complex. Advanced practitioners view outside ashi as a gateway position — the outside heel hook threat creates defensive reactions that enable transitions to saddle and inside ashi for even higher control.
 
 
 

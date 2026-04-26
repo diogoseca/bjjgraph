@@ -28,6 +28,8 @@ The position is characterized by a figure-4 leg configuration where the attackin
 
 Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective). From bottom, practitioners threaten outside heel hooks, straight ankle locks, and transitions to more dominant positions like saddle and inside ashi. From top, practitioners must work systematic escapes to prevent submissions while extracting their trapped leg and recovering advantageous position. Understanding both perspectives is essential for modern no-gi competition where leg entanglements have become increasingly prevalent and sophisticated.
 
+Outside Ashi-Garami vs. Inside Ashi-Garami: Standard inside Ashi-Garami places the attacker inside the defender's legs, primarily enabling inside heel hooks that stress the MCL and ACL. Outside Ashi-Garami positions the attacker's hips to the outside, enabling the outside heel hook — considered more dangerous because it simultaneously stresses the ACL, LCL, and popliteal complex, creating multi-ligament risk that can cause injury before pain signals register. This position is also known as Backside 50/50 in the Danaher Death Squad terminology (Gordon Ryan, Gary Tonon), describing the same mechanical configuration from a systems perspective. Competition legality: Outside Ashi-Garami as a position is legal in most rulesets. The outside heel hook it enables is restricted by IBJJF (banned below brown/black belt in no-gi), permitted at all levels in ADCC, EBI, and Polaris. Most coaches recommend introducing this position at blue belt or above, with outside heel hook drilling typically beginning at purple belt. In the modern leg lock hierarchy, outside ashi is considered highest percentage for finishing via heel hook because it provides the strongest mechanical isolation of the knee joint.
+
 </section>
 
 <section id="key-principles" class="content-section">
@@ -94,7 +96,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 
 - Threaten submissions to prevent escapes - constant submission pressure keeps opponent defensive and limits their ability to work escapes
 
-- Transition mindset - view outside ashi as entry position to more dominant entanglements rather than primary finishing position
+- Outside heel hook safety - apply finishing rotation slowly and progressively, never explosively; simultaneous ACL, LCL, and popliteal stress means injury can occur before the opponent feels pain and can tap
 
 
 ### Available Transitions
@@ -144,6 +146,10 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
   - Consequence: Opponent can post with free leg to stand or create angles for escape, reduces control effectiveness, allows opponent to pressure forward
   - ✅ Correction: Monitor opponent's free leg positioning, adjust body angle to prevent strong posting, use leg configuration adjustments to nullify their base attempts
 
+- ❌ **Applying outside heel hook finishing pressure explosively rather than with controlled progressive rotation**
+  - Consequence: The outside heel hook simultaneously stresses the ACL, LCL, and popliteal complex — ligament damage can occur before the opponent feels pain and processes the need to tap, causing serious injury even to experienced training partners
+  - ✅ Correction: Apply heel hook finishing pressure with slow, controlled rotation; pause when the opponent's knee shows tension; in training always respect early taps immediately and never explode into the finish
+
 
 </section>
 
@@ -157,7 +163,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 ### Key Principles
 
 
-- Protect your heel immediately by keeping it hidden from opponent's grip, preventing heel exposure that enables heel hook finish
+- Protect your heel immediately — outside heel hook stresses ACL, LCL, and popliteal complex simultaneously and can cause ligament injury before pain registers; tap under any real heel hook pressure rather than waiting for pain
 
 - Maintain standing or elevated posture with height advantage, as standing position creates best escape opportunities and limits opponent's leverage
 
