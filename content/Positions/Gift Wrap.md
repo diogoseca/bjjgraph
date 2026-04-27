@@ -36,7 +36,7 @@ Understanding the Gift Wrap requires recognizing it as part of a larger back att
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Gift Wrap control systematically removes 50% of opponent's defensive capability

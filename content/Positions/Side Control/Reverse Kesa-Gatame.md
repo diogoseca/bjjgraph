@@ -34,7 +34,7 @@ Strategically, Reverse Kesa-Gatame serves as an excellent transitional position 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Reverse orientation fundamentally changes defensive and offensive mechanics compared to traditional scarf hold variations

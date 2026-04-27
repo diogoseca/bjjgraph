@@ -32,7 +32,7 @@ Rodeo Ride is particularly effective in both gi and no-gi contexts, though the s
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant hip pressure on opponent's torso while staying mobile and ready to adjust position

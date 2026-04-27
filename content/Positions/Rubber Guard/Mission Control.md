@@ -36,7 +36,7 @@ Mission Control serves as the central hub of the rubber guard system, connecting
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Mission Control requires extreme hip flexibility and active hip elevation to maintain control

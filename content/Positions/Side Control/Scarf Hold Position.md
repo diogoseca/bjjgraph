@@ -32,7 +32,7 @@ Scarf Hold Position represents a transitional control platform rather than purel
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Perpendicular angle creates unique force vectors that negate standard parallel-position escape mechanics

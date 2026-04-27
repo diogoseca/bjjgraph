@@ -40,7 +40,7 @@ The position also demonstrates important principles about submission-based contr
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Shin-across-throat positioning creates simultaneous control and submission threat

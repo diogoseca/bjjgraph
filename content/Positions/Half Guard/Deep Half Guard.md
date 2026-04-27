@@ -32,7 +32,7 @@ From the top perspective, deep half guard presents a deceptive challenge - while
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Deep underhook control is the primary mechanism for sweeps and back takes

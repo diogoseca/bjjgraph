@@ -40,7 +40,7 @@ Competition applicability is high, particularly in gi competitions where the pos
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Chest-to-chest pressure is the foundation of control - maintain constant downward force through your sternum

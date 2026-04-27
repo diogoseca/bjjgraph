@@ -36,7 +36,7 @@ The position demands different strategic approaches based on whether you're esta
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - North-South control relies on chest-to-chest pressure distributed across opponent's upper body

@@ -32,7 +32,7 @@ Technical Mount is most commonly entered from regular mount during armbar attemp
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Arm isolation precedes position entry - never commit to technical mount without securing control of opponent's extended arm

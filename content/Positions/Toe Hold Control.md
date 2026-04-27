@@ -32,7 +32,7 @@ Toe Hold Control occupies a unique space in the leg lock ecosystem, particularly
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Ankle isolation requires complete foot control before rotational pressure begins, preventing escape and ensuring safe submission application

@@ -34,7 +34,7 @@ Reverse X-Guard has gained prominence in modern competition BJJ as athletes like
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant hip elevation to generate upward lifting pressure on opponent's base

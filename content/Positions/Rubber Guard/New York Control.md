@@ -38,7 +38,7 @@ Competition application demonstrates New York Control's effectiveness in both gi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Flexibility determines position accessibility - insufficient range of motion prevents proper execution

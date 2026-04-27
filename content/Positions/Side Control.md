@@ -28,7 +28,7 @@ Side Control (also known as side mount or cross-side) is one of the most fundame
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Distribute weight strategically across opponent's chest and hips using shoulder pressure, chest weight, and hip positioning to maximize control while maintaining mobility

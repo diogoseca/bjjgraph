@@ -40,7 +40,7 @@ Defensively, grasshopper guard can serve as an emergency response when tradition
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Inversion is temporary - always transition toward submission or sweep within seconds

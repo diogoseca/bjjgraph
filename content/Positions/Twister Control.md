@@ -38,7 +38,7 @@ The position's effectiveness scales with skill level and understanding. Beginner
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Spinal rotation must be maintained through leg and upper body control working in coordination

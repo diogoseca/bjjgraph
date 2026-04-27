@@ -30,7 +30,7 @@ In modern Brazilian Jiu-Jitsu, the clinch has evolved beyond simple takedown set
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain advantageous head position by keeping forehead pressed to opponent's shoulder or controlling their head placement to dictate engagement angles

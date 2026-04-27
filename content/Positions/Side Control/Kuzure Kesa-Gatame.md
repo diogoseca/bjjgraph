@@ -34,7 +34,7 @@ The strategic importance of Kuzure Kesa-Gatame in modern BJJ cannot be overstate
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Hip pressure toward opponent's ribs creates the foundation for all control and submissions

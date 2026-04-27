@@ -32,7 +32,7 @@ Backside 50-50 has become increasingly relevant in modern no-gi competition as l
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Asymmetric Advantage Recognition: The back-facing orientation creates inherent mechanical and visual advantages for top player that must be understood and exploited

@@ -32,7 +32,7 @@ Overhook Guard represents a fundamental control concept that appears throughout 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep overhook with hand behind opponent's shoulder, not just around the arm

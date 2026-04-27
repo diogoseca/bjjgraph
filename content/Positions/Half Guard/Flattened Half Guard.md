@@ -36,7 +36,7 @@ The position's place in the BJJ positional hierarchy reflects its defensive natu
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Frame recovery is the immediate priority - creating any space is more important than attempting sweeps

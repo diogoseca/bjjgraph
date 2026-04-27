@@ -34,7 +34,7 @@ Modern Half Guard play emphasizes constant movement, systematic position improve
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Understand that Half Guard is fundamentally an asymmetric position where the trapped leg serves as fulcrum for leverage and the free leg provides mobility or base

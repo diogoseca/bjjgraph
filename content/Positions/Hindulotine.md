@@ -34,7 +34,7 @@ The strategic value of the Hindulotine lies in its ability to force defensive re
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant grip pressure on the neck throughout all transitions and adjustments

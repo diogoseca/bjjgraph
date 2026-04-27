@@ -34,7 +34,7 @@ The effectiveness of Spider Guard relies heavily on grip strength, hip mobility,
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep sleeve grips at the cuffs to maximize lever arm length and control opponent's arm movement

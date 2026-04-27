@@ -34,7 +34,7 @@ Historically, the truck evolved from wrestling's turk ride, adapted into the 10t
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Leg entanglement controls lower body mobility and creates submission opportunities

@@ -36,7 +36,7 @@ The position's moderate risk level reflects its transitional nature - dominant e
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Reverse mount is always transitional - recognize immediately and flow to superior position

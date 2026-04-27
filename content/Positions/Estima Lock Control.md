@@ -32,7 +32,7 @@ From the top attacking perspective, the position offers significant control adva
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Inverted foot orientation distinguishes Estima Lock mechanics from traditional ankle attacks requiring different defensive responses

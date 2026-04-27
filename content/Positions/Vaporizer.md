@@ -32,7 +32,7 @@ The effectiveness of the Vaporizer lies in its ability to force reactions from o
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant lockdown pressure by extending the trapped leg away from opponent's body while keeping the lock tight

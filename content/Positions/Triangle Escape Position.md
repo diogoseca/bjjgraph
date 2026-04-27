@@ -34,7 +34,7 @@ Triangle escape training serves broader pedagogical purposes beyond the specific
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Prioritize breathing space and blood flow preservation above all other defensive objectives - unconsciousness ends all escape possibilities

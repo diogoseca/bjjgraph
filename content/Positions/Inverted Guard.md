@@ -28,7 +28,7 @@ Inverted Guard is a modern guard position where the practitioner turns upside-do
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain shoulder and upper back contact with the mat, never allowing weight to rest on the neck or cervical spine

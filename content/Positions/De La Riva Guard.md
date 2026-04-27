@@ -34,7 +34,7 @@ The strategic genius of De La Riva Guard lies in its dilemma-based attack struct
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Control opponent's lead leg with both foot hook and hand grip, creating a two-point connection that limits their mobility and establishes the foundation for all DLR attacks

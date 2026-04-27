@@ -32,7 +32,7 @@ This position appears most commonly in no-gi competition, submission-only format
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Leg entanglement provides primary control mechanism for isolating shoulder complex

@@ -32,7 +32,7 @@ Seated Guard works best when opponent is standing or on knees with distance, but
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Seated Guard is transitional not static - constant movement required

@@ -32,7 +32,7 @@ The position is favored in modern no-gi grappling and has become a cornerstone o
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant forward pressure through the underhook, driving into opponent to prevent them from establishing stable base and controlling the direction of engagement

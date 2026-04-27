@@ -34,7 +34,7 @@ The triangle choke has evolved significantly since its popularization in competi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain tight triangle lock with ankles crossed behind opponent's neck, squeezing knees together to compress carotid arteries while using full leg engagement rather than just ankle pressure

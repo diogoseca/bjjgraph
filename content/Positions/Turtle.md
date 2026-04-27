@@ -28,7 +28,7 @@ Turtle position is a transitional defensive posture in Brazilian Jiu-Jitsu where
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Turtle is never a resting position - always transitional and requires immediate action

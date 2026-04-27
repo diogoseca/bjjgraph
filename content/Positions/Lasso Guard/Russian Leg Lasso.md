@@ -28,7 +28,7 @@ Russian Leg Lasso is an advanced variation of the traditional lasso guard that i
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Russian Leg Lasso combines traditional lasso mechanics with additional grip and positional controls creating layered defensive and offensive systems

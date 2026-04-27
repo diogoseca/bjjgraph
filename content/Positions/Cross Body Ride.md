@@ -34,7 +34,7 @@ From a systematic perspective, Cross Body Ride functions as a forcing position w
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain perpendicular chest-to-back alignment to maximize pressure across opponent's spine

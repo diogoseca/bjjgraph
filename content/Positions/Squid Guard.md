@@ -32,7 +32,7 @@ While Squid Guard is primarily used in gi grappling due to its reliance on lapel
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the lapel to restrict opponent's posture and mobility

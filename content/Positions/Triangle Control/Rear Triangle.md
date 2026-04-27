@@ -32,7 +32,7 @@ The strategic significance of the rear triangle lies in its ability to create su
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Triangle leg must cross behind the neck, not in front, to create proper posterior choking angle

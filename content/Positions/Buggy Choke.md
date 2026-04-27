@@ -32,7 +32,7 @@ From the top perspective, the Buggy Choke position serves as a central hub in mo
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Thread choking arm deep under armpit with palm-up orientation before opponent can defend neck access

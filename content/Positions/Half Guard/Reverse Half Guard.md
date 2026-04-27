@@ -32,7 +32,7 @@ This position appears more frequently in advanced BJJ and no-gi grappling where 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Leg Control Priority: Maintain secure entanglement of opponent's leg to prevent immediate position loss and create offensive foundation

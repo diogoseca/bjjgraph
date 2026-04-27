@@ -34,7 +34,7 @@ The biomechanical principle underlying the Jailbreak from bottom involves conver
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Jailbreak is always transitional - never a position to hold but a moment to exploit with committed action

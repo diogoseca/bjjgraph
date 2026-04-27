@@ -40,7 +40,7 @@ Understanding the biomechanical differences between ushiro ashi-garami and stand
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Reversed orientation fundamentally changes heel hook finishing mechanics and required adjustments

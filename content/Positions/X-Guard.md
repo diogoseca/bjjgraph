@@ -28,7 +28,7 @@ X-Guard is an advanced open guard position where the bottom practitioner entangl
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Control opponent's base leg through proper X formation with top leg around outside and bottom leg hooking inside

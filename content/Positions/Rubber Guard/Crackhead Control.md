@@ -38,7 +38,7 @@ The position's integration within the broader 10th Planet system provides multip
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Deep overhook must penetrate past opponent's shoulder blade to prevent arm extraction

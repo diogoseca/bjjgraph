@@ -38,7 +38,7 @@ Understanding Lasso Guard requires appreciation for both its strengths and limit
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the trapped sleeve while extending your lasso leg to create maximum leverage against the opponent's shoulder joint

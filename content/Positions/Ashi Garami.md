@@ -36,7 +36,7 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - **Inside Space Control**: Maintaining control of the inside space between your hip and opponent's hip prevents escapes and enables position advancement through the hierarchy

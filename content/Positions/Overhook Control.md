@@ -34,7 +34,7 @@ The dual nature of overhook control makes it equally valuable as both an offensi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Armpit Seal Priority: The power of overhook control originates from the tight seal between your armpit and opponent's shoulder, not the hand grip behind their back

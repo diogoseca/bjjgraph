@@ -34,7 +34,7 @@ The strategic importance of Cross Ashi-Garami in contemporary BJJ cannot be over
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Crossed leg configuration creates mechanical advantage through wedge effect and rotational control

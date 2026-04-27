@@ -34,7 +34,7 @@ Kesa Gatame functions as a positional hub within the side control family, offeri
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Perpendicular body positioning creates unique control mechanics distinct from standard side control

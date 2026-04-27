@@ -34,7 +34,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bottom perspective emphasizes constant kinetic energy to prevent grip establishment and control consolidation

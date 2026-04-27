@@ -40,7 +40,7 @@ Understanding Meathook requires grasping its place in the larger Rubber Guard ec
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Meathook is never a resting position—always transitioning to submission or improved control

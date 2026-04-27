@@ -34,7 +34,7 @@ Both perspectives share the common principle of using leg-based controls to crea
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Explosive commitment is essential in both contexts - halfway attempts fail regardless of perspective

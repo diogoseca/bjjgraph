@@ -28,7 +28,7 @@ Knee on Belly is a dynamic control position in Brazilian Jiu-Jitsu where one pra
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Knee on Belly combines mobility with pressure, requiring dynamic weight shifts rather than static settling

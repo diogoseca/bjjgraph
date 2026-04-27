@@ -36,7 +36,7 @@ Strategically, the Kimura Trap excels at creating dilemmas where opponents must 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep Kimura grip with figure-four positioned near opponent's elbow for maximum control and leverage

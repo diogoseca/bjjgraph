@@ -32,7 +32,7 @@ Modern leg lock systems have elevated Leg Knot Position from a scramble scenario
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension in leg configuration - any slack creates escape opportunities for opponent

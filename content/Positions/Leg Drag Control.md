@@ -36,7 +36,7 @@ Modern competitive grappling has elevated leg drag control from a transitional m
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Leg drag control is always transitional—never stop moving toward consolidation

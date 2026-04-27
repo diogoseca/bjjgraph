@@ -30,7 +30,7 @@ Double Sleeve Guard is characterized by its emphasis on grip fighting dominance 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on both sleeve grips to prevent opponent from breaking grips and establishing their own control system

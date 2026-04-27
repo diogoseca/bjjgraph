@@ -38,7 +38,7 @@ Historically, the kneebar has existed in grappling arts for centuries, appearing
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Hip connection to opponent's knee joint is the primary control mechanism - distance equals escape

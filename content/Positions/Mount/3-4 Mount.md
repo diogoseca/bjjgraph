@@ -34,7 +34,7 @@ The position scores 4 points in IBJJF competition when held from top, placing it
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Recognize asymmetric weight distribution immediately—identify heavier and lighter sides to plan attacks or escapes

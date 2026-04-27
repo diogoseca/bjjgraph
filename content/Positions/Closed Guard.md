@@ -34,7 +34,7 @@ The closed guard's versatility across gi and no-gi competition, its effectivenes
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bottom player controls distance and posture through combined leg squeeze and grip pressure

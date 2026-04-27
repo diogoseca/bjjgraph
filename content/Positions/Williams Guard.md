@@ -32,7 +32,7 @@ From the top perspective, Williams Guard presents significant challenges requiri
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant shoulder lock pressure to create submission threat and control opponent movement

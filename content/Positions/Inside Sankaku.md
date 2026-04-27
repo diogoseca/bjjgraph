@@ -28,7 +28,7 @@ Inside Sankaku, also known as the 'Honey Hole' or '411', is an advanced leg enta
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain tight hip-to-hip connection to prevent opponent from creating escape space

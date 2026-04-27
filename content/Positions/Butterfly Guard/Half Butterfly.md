@@ -32,7 +32,7 @@ From the top perspective, Half Butterfly Top represents a critical transitional 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant upward pressure through butterfly hook to prevent opponent from establishing heavy top pressure

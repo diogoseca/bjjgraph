@@ -34,7 +34,7 @@ The knee shield half guard has become essential in modern competitive BJJ, with 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Knee shield creates distance management system controlling spatial relationship between bodies

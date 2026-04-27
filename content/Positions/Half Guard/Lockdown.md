@@ -28,7 +28,7 @@ Lockdown is 10th Planet's revolutionary half guard variation that transforms tra
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension in lockdown by pulling opponent's heel toward hip while flexing outside foot

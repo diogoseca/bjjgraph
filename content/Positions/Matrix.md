@@ -40,7 +40,7 @@ The position's learning curve is steep, requiring months of dedicated drilling t
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Momentum generation through hip elevation and shoulder posting creates the necessary rotational force

@@ -32,7 +32,7 @@ Understanding double unders from both perspectives is essential for developing c
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bilateral control creates asymmetric advantage - securing both underhooks fundamentally disrupts opponent's defensive structure

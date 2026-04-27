@@ -32,7 +32,7 @@ Quarter guard occurs most frequently during guard passing sequences when defende
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Quarter guard is fundamentally transitional—neither player should remain static, as the position deteriorates rapidly without active progression

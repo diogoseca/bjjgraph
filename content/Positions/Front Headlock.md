@@ -38,7 +38,7 @@ Understanding the front headlock requires recognizing its role as a transitional
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Front headlock is a dynamic control position, not a resting position - constantly threaten submissions or transitions

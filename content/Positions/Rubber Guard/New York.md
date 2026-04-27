@@ -42,7 +42,7 @@ The learning curve for New York is steep, typically requiring 6-12 months of ded
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Overhook control is the foundation - without a strong overhook, New York collapses into basic closed guard

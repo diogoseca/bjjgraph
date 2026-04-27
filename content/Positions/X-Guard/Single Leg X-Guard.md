@@ -28,7 +28,7 @@ Single Leg X-Guard (SLX) is a specialized open guard variation where the bottom 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant elevation of opponent's trapped leg to prevent them from establishing heavy pressure or stable base

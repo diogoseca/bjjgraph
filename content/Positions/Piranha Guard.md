@@ -32,7 +32,7 @@ While technically demanding and primarily applicable in gi competition, Piranha 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant tension on the lapel configuration to prevent opponent from recovering posture or extracting the collar from the leg entanglement

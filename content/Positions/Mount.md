@@ -36,7 +36,7 @@ Understanding Mount from both perspectives is essential for complete grappling d
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Weight distribution through hips while keeping upper body mobile for attacks and grip fighting

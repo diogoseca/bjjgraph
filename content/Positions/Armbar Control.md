@@ -36,7 +36,7 @@ From the bottom, survival depends on understanding the same five-point control s
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Armbar control is fundamentally about limb isolation through multi-point body control

@@ -42,7 +42,7 @@ The learning curve for Twister Side Control is significant, requiring practition
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Lateral torque control prioritizes submission proximity over traditional positional stability

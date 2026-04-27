@@ -32,7 +32,7 @@ The position's reputation is divided: traditionalists view it as a stalling posi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Break Symmetry First: Success comes from creating asymmetrical advantages through superior foot control, hip positioning, or leg elevation rather than accepting equal positioning

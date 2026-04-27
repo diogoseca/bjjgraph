@@ -32,7 +32,7 @@ The effectiveness of Darce Control lies in its ability to create multiple dilemm
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Thread the darce arm deep under the armpit reaching across the back of the neck as far as possible to maximize choking surface

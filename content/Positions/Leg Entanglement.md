@@ -28,7 +28,7 @@ Leg Entanglement represents a comprehensive positional system in modern Brazilia
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Understand positional hierarchy within leg entanglements: neutral positions (50-50) require advancement before attacking, dominant positions (saddle, inside ashi) allow immediate submission threats

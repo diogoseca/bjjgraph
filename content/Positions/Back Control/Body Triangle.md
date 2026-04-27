@@ -32,7 +32,7 @@ From this position, you maintain upper body control with your arms while your le
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Triangle Lock Security: Ensure proper figure-four configuration with foot locked deep behind knee, creating unbreakable connection that cannot be easily cleared

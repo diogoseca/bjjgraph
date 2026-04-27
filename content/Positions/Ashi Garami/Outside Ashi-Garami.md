@@ -32,7 +32,7 @@ Outside Ashi-Garami exists as both an offensive attacking position (bottom persp
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Leg triangle configuration must remain tight with no space - constant squeezing and adjustment essential

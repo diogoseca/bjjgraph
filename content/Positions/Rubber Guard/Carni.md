@@ -34,7 +34,7 @@ From the attacking perspective (bottom), the Carni offers exceptional offensive 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain inside positioning with top leg over opponent's hip to prevent escape and create saddle entry angles

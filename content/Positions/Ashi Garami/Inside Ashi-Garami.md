@@ -32,7 +32,7 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Inside leg position across opponent's hip controls rotation and prevents defensive posturing

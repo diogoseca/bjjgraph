@@ -32,7 +32,7 @@ The invisible collar serves multiple strategic functions within back attack syst
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Conceal submission setup by making grip appear passive and positional

@@ -34,7 +34,7 @@ Both perspectives require specialized drilling and positional understanding, as 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Reverse orientation disrupts standard defensive patterns and creates unique control angles

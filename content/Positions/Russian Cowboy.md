@@ -32,7 +32,7 @@ The Russian Cowboy is particularly effective because it combines elements of bac
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain chest-to-back connection to control opponent's upper body and prevent forward movement

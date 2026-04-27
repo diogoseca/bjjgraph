@@ -30,7 +30,7 @@ This position is particularly effective in both gi and no-gi contexts, as it com
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Shoulder of Justice applies biomechanically efficient pressure at temporomandibular joint weak point

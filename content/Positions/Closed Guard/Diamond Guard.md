@@ -32,7 +32,7 @@ Diamond Guard transforms standard closed guard into an aggressive submission-hun
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Overhook and head control work as an integrated system — losing either element significantly reduces the position's effectiveness

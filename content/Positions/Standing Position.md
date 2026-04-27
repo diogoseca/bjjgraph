@@ -28,7 +28,7 @@ The Standing Position represents the fundamental neutral starting state in BJJ a
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain proper athletic stance with knees slightly bent, weight on balls of feet, and balanced base

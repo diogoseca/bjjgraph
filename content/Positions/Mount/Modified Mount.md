@@ -28,7 +28,7 @@ Modified Mount represents a strategic adaptation of the traditional mount positi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Asymmetric stability - Posted leg creates base anchor while across-body knee maintains control

@@ -32,7 +32,7 @@ Modern BJJ competition has elevated the importance of Standing Guard mastery, as
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Active grip fighting prevents opponent from establishing dominant grips that control engagement

@@ -40,7 +40,7 @@ The position also serves an important pedagogical function in teaching fundament
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Ankle control must be secured before attempting submission - position before submission

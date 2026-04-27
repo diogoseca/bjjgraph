@@ -34,7 +34,7 @@ Back control variations include the standard hooks configuration, body triangle 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Chest-to-back connection with constant forward pressure prevents opponent from creating escape distance or turning to face you

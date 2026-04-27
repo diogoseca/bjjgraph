@@ -34,7 +34,7 @@ From a tactical perspective, Electric Chair serves as a cornerstone of the lockd
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain tight lockdown throughout the entire sequence - any loosening allows opponent to extract their leg and escape

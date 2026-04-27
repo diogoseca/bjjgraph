@@ -38,7 +38,7 @@ Understanding the Saddle requires knowledge of both the offensive and defensive 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Hip pressure controls opponent's ability to turn into or away from the entanglement

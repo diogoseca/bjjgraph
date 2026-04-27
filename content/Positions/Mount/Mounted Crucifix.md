@@ -40,7 +40,7 @@ The mounted crucifix also serves as an excellent teaching position for understan
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Mounted crucifix combines mount stability with crucifix arm isolation for maximum control

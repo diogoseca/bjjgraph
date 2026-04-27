@@ -32,7 +32,7 @@ Strategically, Guillotine Control exemplifies the principle of creating binary d
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain deep front headlock grip with choking arm positioned against neck structures for immediate submission threat

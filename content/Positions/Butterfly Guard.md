@@ -34,7 +34,7 @@ Modern butterfly guard has evolved significantly, particularly in no-gi grapplin
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain active elevator pressure through hooks to compromise opponent's base constantly

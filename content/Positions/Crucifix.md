@@ -34,7 +34,7 @@ Mastery of the Crucifix from both perspectives—understanding how to establish 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bilateral arm isolation creates complete defensive collapse—control both arms through different mechanisms simultaneously

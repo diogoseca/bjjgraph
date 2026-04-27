@@ -34,7 +34,7 @@ The seat belt grip itself functions as a force multiplier. The over-arm creates 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Diagonal grip dominance creates biomechanically superior control through opposing force vectors

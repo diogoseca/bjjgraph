@@ -28,7 +28,7 @@ The Rubber Guard is a specialized guard position developed and popularized withi
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish and maintain strong posture control through leg pressure on trapped arm

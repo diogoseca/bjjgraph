@@ -36,7 +36,7 @@ Success in mounted triangle requires understanding the biomechanical principles 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Mounted triangle sacrifices mount stability for immediate submission access

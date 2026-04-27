@@ -34,7 +34,7 @@ From the top perspective, Open Guard Top represents the fundamental challenge of
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Active leg management creates distance control and prevents opponent from establishing pressure or freely advancing position

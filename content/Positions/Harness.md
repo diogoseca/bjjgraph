@@ -32,7 +32,7 @@ Strategically, the harness position serves as a transitional control point and a
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - The harness grip creates a structural control system where defensive efforts can feed back into tighter control rather than weakening it

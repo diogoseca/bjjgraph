@@ -34,7 +34,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Standing back control is always transitional - neither player should remain here long, as instability benefits defensive player

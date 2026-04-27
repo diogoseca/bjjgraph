@@ -28,7 +28,7 @@ Dead Orchard Control represents an advanced positional control within Brazilian 
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Establish deep anaconda grip configuration before committing to extended control or submission finish

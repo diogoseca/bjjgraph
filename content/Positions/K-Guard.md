@@ -32,7 +32,7 @@ Strategically, K-Guard represents a transitional hub position where the bottom p
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Bottom player maintains active inverted hook tension pulling opponent's trapped leg across centerline to disrupt base

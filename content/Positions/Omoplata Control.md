@@ -28,7 +28,7 @@ Omoplata Control represents a sophisticated transitional position in Brazilian J
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Maintain constant hip connection to opponent's shoulder to control posture and prevent escape

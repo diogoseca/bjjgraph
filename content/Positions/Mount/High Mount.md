@@ -36,7 +36,7 @@ In competition contexts, High Mount represents the culmination of successful pas
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Walk knees progressively higher toward armpits to eliminate bridge leverage and compress escape space

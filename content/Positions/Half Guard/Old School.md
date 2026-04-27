@@ -32,7 +32,7 @@ From top perspective, Old School demands sophisticated pressure management and p
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - Lockdown control immobilizes opponent's base while creating sweeping leverage through leg entanglement

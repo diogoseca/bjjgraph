@@ -36,7 +36,7 @@ Historically, S Mount has been a fundamental component of Japanese judo groundwo
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+## Key Principles
 
 
 - S Mount is a transitional attacking position - move to submission immediately or return to standard mount
