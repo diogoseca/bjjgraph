@@ -14,7 +14,7 @@ body,
 section {
   margin: 0;
   box-sizing: border-box;
-  background-color: var(--light);
+  background-color: transparent;
   font-family: var(--bodyFont);
   color: var(--darkgray);
   letter-spacing: 0.01em;
@@ -203,7 +203,7 @@ a {
       // up until its top hits the viewport, then it pins.
       // 3rem aligns the first sidebar item roughly with the article title.
       margin-top: 6.75rem;
-      padding: 0 3rem 0 3rem;
+      padding: 0 3rem 4rem 3rem;
       display: flex;
       height: 100vh;
       position: sticky;
@@ -211,6 +211,10 @@ a {
       // One-way street: main-content scroll moves the sidebar (via sticky),
       // but scrolling inside the sidebar never moves the main content.
       overscroll-behavior-y: contain;
+
+      // Bottom-edge fade: explorer content dissolves before the sidebar ends
+      mask-image: linear-gradient(to bottom, black calc(100% - 1.5rem), transparent);
+      -webkit-mask-image: linear-gradient(to bottom, black calc(100% - 1.5rem), transparent);
 
       // Subtle scrollbar
       &::-webkit-scrollbar {
@@ -230,10 +234,7 @@ a {
         position: sticky;
         top: 0;
         z-index: 2;
-        background: var(--light);
-        // Top breathing room lives inside the search's box (not sidebar
-        // padding) so the opaque background covers the full area above
-        // the button — no explorer text peeks through when scrolled.
+        background: transparent;
         padding-top: 1.5rem;
 
         &::after {
@@ -243,7 +244,7 @@ a {
           right: 0;
           top: 100%;
           height: 1rem;
-          background: linear-gradient(to bottom, var(--light), transparent);
+          background: transparent;
           pointer-events: none;
         }
       }

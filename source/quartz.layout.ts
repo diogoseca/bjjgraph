@@ -13,6 +13,8 @@ export const sharedPageComponents: SharedLayout = {
     Component.TopBar(),
     Component.SidebarResizer(),
     Component.AuthUI(),
+    Component.ContentPanel(),
+    Component.BackgroundGraph(),
   ],
   // Footer with no links - may add social links later
   footer: Component.Footer({

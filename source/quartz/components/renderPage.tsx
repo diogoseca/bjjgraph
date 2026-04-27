@@ -310,6 +310,100 @@ function computePageGraphLayout(allFiles: QuartzPluginData[], slug: FullSlug): s
   return result
 }
 
+// === Global graph layout pre-computation ===
+// Pre-compute D3 force layout for ALL hub nodes once at build time.
+// Emits static/globalGraphLayout.json so the client can render the full
+// background graph instantly without running D3 at runtime.
+
+let _globalGraphLayoutWritten = false
+
+function computeGlobalGraphLayout(allFiles: QuartzPluginData[]) {
+  if (_globalGraphLayoutWritten) return
+  _globalGraphLayoutWritten = true
+  ensureGlobalGraphData(allFiles)
+
+  // 1. Filter to position/transition/submission hub nodes only
+  const allowedPrefixes = ["positions/", "transitions/", "submissions/"]
+  const hubNodes: string[] = []
+  for (const slug of _allSimpleSlugs!) {
+    const lower = slug.toLowerCase()
+    // Only include positions, transitions, submissions
+    if (!allowedPrefixes.some((p) => lower.startsWith(p))) continue
+    // Exclude role pages (Bottom/Top/Attacker/Defender)
+    if (
+      lower.endsWith("/bottom") ||
+      lower.endsWith("/top") ||
+      lower.endsWith("/attacker") ||
+      lower.endsWith("/defender")
+    )
+      continue
+    // Exclude category hub pages themselves
+    if (categoryHubSet.has(lower)) continue
+    hubNodes.push(slug)
+  }
+
+  // 2. Build deduplicated links via adjacency + hub slug redirection
+  const nodeIdSet = new Set(hubNodes)
+  const linkSet = new Set<string>()
+  type LinkDatum = { source: string; target: string }
+  const links: LinkDatum[] = []
+
+  for (const slug of _allSimpleSlugs!) {
+    const neighbours = _adjacency!.get(slug)
+    if (!neighbours) continue
+    for (const target of neighbours) {
+      const hubSource = getHubSlug(slug)
+      const hubTarget = getHubSlug(target)
+      if (!nodeIdSet.has(hubSource) || !nodeIdSet.has(hubTarget)) continue
+      if (hubSource === hubTarget) continue
+      const key = [hubSource, hubTarget].sort().join("|")
+      if (!linkSet.has(key)) {
+        linkSet.add(key)
+        links.push({ source: hubSource, target: hubTarget })
+      }
+    }
+  }
+
+  // 3. Run D3 force simulation synchronously (same pattern as computePageGraphLayout)
+  type NodeDatum = { id: string; x?: number; y?: number; index?: number }
+  const nodes: NodeDatum[] = hubNodes.map((id) => ({ id }))
+  const sim = forceSimulation(nodes)
+    .force("charge", forceManyBody().strength(-100).distanceMax(200))
+    .force("center", forceCenter())
+    .force(
+      "link",
+      forceLink(links)
+        .id((d: any) => d.id)
+        .distance(30),
+    )
+    .force("collide", forceCollide(4).iterations(1))
+    .stop()
+
+  sim.tick(300)
+  sim.stop()
+
+  // 4. Write JSON to build output
+  // Note: D3 forceLink mutates link objects (replaces source/target strings with
+  // full node references). Extract just the IDs for serialization.
+  const result = JSON.stringify({
+    nodes: nodes.map((n) => ({
+      id: n.id,
+      x: Math.round((n.x ?? 0) * 10) / 10,
+      y: Math.round((n.y ?? 0) * 10) / 10,
+      t: _titleIndex!.get(n.id) || n.id.split("/").pop() || n.id,
+      tags: _tagsIndex!.get(n.id) || [],
+    })),
+    links: links.map((l) => ({
+      source: typeof l.source === "string" ? l.source : (l.source as any).id,
+      target: typeof l.target === "string" ? l.target : (l.target as any).id,
+    })),
+  })
+
+  const staticDir = path.join(process.cwd(), "public", "static")
+  fs.mkdirSync(staticDir, { recursive: true })
+  fs.writeFileSync(path.join(staticDir, "globalGraphLayout.json"), result)
+}
+
 // Cached graph.json data and lookup index (read once at build time)
 let _graphJson: any = null
 type GraphSection = "positions" | "transitions" | "submissions" | "principles" | "systems"
@@ -591,6 +685,9 @@ export function renderPage(
   components: RenderComponents,
   pageResources: StaticResources,
 ): string {
+  // Emit global graph layout JSON (once across all pages)
+  computeGlobalGraphLayout(componentData.allFiles)
+
   // Inject roll positions data (build-time, avoids 3.5MB graph.json fetch at runtime)
   const rollData = getRollPositionsJson(componentData.allFiles)
   pageResources.js.push({
@@ -920,6 +1017,16 @@ export function renderPage(
             dangerouslySetInnerHTML={{ __html: graphAdjacencyJson }}
           />
         )}
+        <div id="background-graph" data-persist></div>
+        <div id="graph-overlay" data-persist></div>
+        <button id="panel-toggle" data-persist aria-label="Toggle graph view">
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="4 14 10 14 10 20"></polyline>
+            <polyline points="20 10 14 10 14 4"></polyline>
+            <line x1="14" y1="10" x2="21" y2="3"></line>
+            <line x1="3" y1="21" x2="10" y2="14"></line>
+          </svg>
+        </button>
         <div id="quartz-root" class="page">
           <Body {...componentData}>
             {LeftComponent}

@@ -47,4 +47,5 @@ output.txt
 # pnpm-lock.yaml
 __pycache__/
 .claude
-.playwright-mcp/index-page-current.png
+.playwright-mcp/
+scripts/list-claude-sessions.sh

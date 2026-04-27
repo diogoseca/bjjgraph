@@ -32,6 +32,8 @@ import TreeExplorer from "./TreeExplorer"
 import TopBar from "./TopBar"
 import SidebarResizer from "./SidebarResizer"
 import AuthUI from "./AuthUI"
+import ContentPanel from "./ContentPanel"
+import BackgroundGraph from "./BackgroundGraph"
 
 export {
   ArticleTitle,
@@ -68,4 +70,6 @@ export {
   TopBar,
   SidebarResizer,
   AuthUI,
+  ContentPanel,
+  BackgroundGraph,
 }

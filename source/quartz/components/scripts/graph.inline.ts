@@ -213,11 +213,16 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
 
   const neighbourhood = new Set<SimpleSlug>()
 
-  // Define the 6 main category hub pages
-  const categoryHubs = new Set<SimpleSlug>([
+  // Only these categories appear in the graph
+  const graphCategories = new Set<SimpleSlug>([
     "positions" as SimpleSlug,
     "transitions" as SimpleSlug,
     "submissions" as SimpleSlug,
+  ])
+
+  // All category hub pages (for detecting hub page context)
+  const categoryHubs = new Set<SimpleSlug>([
+    ...graphCategories,
     "systems" as SimpleSlug,
     "principles" as SimpleSlug,
     "learning" as SimpleSlug,
@@ -231,8 +236,8 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
   const isCategoryHub = categoryHubs.has(slugLower as SimpleSlug)
 
   if (isHomepage) {
-    // Homepage: Show only the 6 main category nodes
-    categoryHubs.forEach((hub) => {
+    // Homepage: Show only the graph category nodes
+    graphCategories.forEach((hub) => {
       // Find the actual slug (any case) that matches this hub
       for (const [nodeSlug] of data.entries()) {
         if (nodeSlug.toLowerCase() === hub) {
@@ -321,11 +326,19 @@ async function renderGraph(container: string, fullSlug: FullSlug) {
     categoryHubs.forEach((hub) => neighbourhood.delete(hub))
   }
 
+  const graphPrefixes = [...graphCategories].map((c) => c + "/")
+
   const nodes = [...neighbourhood]
     .filter((url) => {
-      // Filter out role pages (playing_as model) - show only hub pages
       const lowerUrl = url.toLowerCase()
+      // Only allow graph category hubs and their children
+      const isGraphNode =
+        graphCategories.has(lowerUrl as SimpleSlug) ||
+        graphPrefixes.some((p) => lowerUrl.startsWith(p)) ||
+        lowerUrl.startsWith("tags/")
+      // Filter out role pages (playing_as model) - show only hub pages
       return (
+        isGraphNode &&
         !lowerUrl.endsWith("/bottom") &&
         !lowerUrl.endsWith("/top") &&
         !lowerUrl.endsWith("/attacker") &&

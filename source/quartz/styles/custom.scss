@@ -1466,14 +1466,6 @@ article {
   order: 0; // Default fallback
 }
 
-// Fade the overview paragraph on content pages (SEO text, not useful to readers)
-#overview > p:first-of-type {
-  font-size: 0.82rem;
-  opacity: 0.6;
-  line-height: 1.5;
-  margin-bottom: 0.5rem;
-}
-
 // Question-based subtitles below section headings (SEO + readability)
 .section-subtitle {
   font-size: 0.85rem;
@@ -3162,4 +3154,81 @@ body[data-slug="training"] .explorer-faded {
 
 #toc-content li:has(> a[data-for="test-your-knowledge"]) {
   display: none;
+}
+
+// ============================================================================
+// Background Graph — full-viewport graph behind content
+// ============================================================================
+
+// Dark blur overlay between graph and content (dark-mode only, hardcoded)
+#graph-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  pointer-events: none;
+  will-change: opacity;
+  transition: opacity 0.3s ease;
+}
+
+// Content card floats above graph — 90% opaque drawer with rounded top bevel
+.page {
+  background: color-mix(in srgb, var(--light) 90%, transparent);
+  border-radius: 16px 16px 0 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 2;
+  will-change: transform;
+  transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+// Graph mode: full graph visible, title always peeks at the bottom (~50px)
+body.graph-focused {
+  .page {
+    transform: translateY(calc(100vh - 50px));
+  }
+  #background-graph {
+    pointer-events: auto;
+  }
+  #graph-overlay {
+    opacity: 0;
+  }
+}
+
+// Hide the local 250px graph on desktop — background graph replaces it
+.graph > .graph-outer {
+  display: none;
+}
+.graph > #global-graph-outer {
+  display: none;
+}
+
+// Collapse/expand toggle button
+#panel-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 10;
+  width: 36px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s, background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    opacity: 1;
+    background: var(--lightgray);
+  }
 }

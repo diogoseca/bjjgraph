@@ -7,9 +7,13 @@
   }
 
   & > h3 {
-    font-size: 0.85rem;
+    font-size: 0.6rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
     margin: 0 0 0.75rem 0;
     color: var(--dark);
+    opacity: 0.35;
   }
 }
 

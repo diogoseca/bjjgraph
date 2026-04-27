@@ -105,7 +105,7 @@
 
     & li > a {
       color: var(--dark);
-      opacity: 0.45;
+      opacity: 0.35;
       pointer-events: all;
       font-size: 0.82rem;
       line-height: 1.3rem;
@@ -113,17 +113,13 @@
     }
 
     & li > a:hover {
-      opacity: 0.75;
+      opacity: 0.65;
     }
 
     & li > a.active {
-      color: #d97706;
+      color: var(--dark);
       font-weight: 600;
       opacity: 1;
-      background: rgba(217, 119, 6, 0.1);
-      border-radius: 3px;
-      padding: 0 4px;
-      margin-left: -4px;
     }
   }
 
@@ -147,7 +143,6 @@
   }
 
   & div > a {
-    font-family: var(--headerFont);
     line-height: 1.3rem;
     display: inline-block;
     white-space: nowrap;
@@ -157,7 +152,7 @@
   }
 
   & div > a:hover {
-    color: var(--tertiary);
+    opacity: 0.65;
   }
 
   & div > button {
@@ -195,13 +190,13 @@
     & div > button span {
       color: var(--dark);
       font-weight: 600;
-      font-size: 0.85rem;
-      opacity: 0.6;
+      font-size: 0.82rem;
+      opacity: 0.35;
     }
 
     & div > a:hover,
     & div > button:hover span {
-      opacity: 0.85;
+      opacity: 0.65;
     }
   }
 
@@ -213,26 +208,22 @@
     & div > a,
     & div > button span {
       color: var(--dark);
-      font-weight: 500;
-      font-size: 0.83rem;
-      opacity: 0.5;
+      font-weight: 600;
+      font-size: 0.82rem;
+      opacity: 0.35;
     }
 
     & div > a:hover,
     & div > button:hover span {
-      opacity: 0.75;
+      opacity: 0.65;
     }
   }
 
-  // Active page styling - amber color for clear distinction
+  // Active page — white highlight, no background color
   & div > a.active {
-    color: #d97706;
+    color: var(--dark);
     font-weight: 600;
     opacity: 1;
-    background: rgba(217, 119, 6, 0.1);
-    border-radius: 3px;
-    padding: 0 4px;
-    margin-left: -4px;
   }
 }
 

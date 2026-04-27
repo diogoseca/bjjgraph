@@ -113,12 +113,17 @@ function nudgeRate(current: number, direction: "up" | "down"): number {
   return Math.max(current - 1, 0)
 }
 
-// Strip redundant "from [Position]" suffix for display (e.g., "Armbar from Armbar Control" → "Armbar")
+// Strip redundant " from ..." suffix + trailing " Transition" for display on position pages.
+// Examples: "Armbar from Armbar Control" → "Armbar", "Back Take from Armbar" → "Back Take",
+// "Belly Down Armbar Transition" → "Belly Down Armbar".
 let _positionName = ""
 function displayName(technique: string): string {
   if (!_positionName) return technique
-  const suffix = ` from ${_positionName}`
-  return technique.endsWith(suffix) ? technique.slice(0, -suffix.length) : technique
+  let name = technique
+  const fromIdx = name.lastIndexOf(" from ")
+  if (fromIdx > 0) name = name.slice(0, fromIdx)
+  if (name.endsWith(" Transition")) name = name.slice(0, -" Transition".length)
+  return name
 }
 
 function getPageData(): PositionPageData | null {
@@ -172,7 +177,7 @@ document.addEventListener("nav", () => {
 
   removeAllChildren(container)
 
-  _positionName = positionData.name
+  _positionName = positionData.name.replace(/ (?:Top|Bottom)$/, "")
 
   let gameMode = loadSettings().gameMode
 

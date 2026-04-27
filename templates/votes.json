@@ -1,5 +1,5 @@
 {
-  "last_updated_at": "2026-04-11T09:34:27.052200Z",
+  "last_updated_at": "2026-04-15T16:23:44.863589Z",
   "votes": {
     "100% Sweep": {
       "success_rate": 50.0,
@@ -786,8 +786,8 @@
       "vote_count": 30
     },
     "Closed Guard to Omoplata": {
-      "success_rate": 52.0,
-      "vote_count": 30
+      "success_rate": 52.03,
+      "vote_count": 31
     },
     "Closed Guard to Overhook Guard": {
       "success_rate": 65.0,
@@ -1110,8 +1110,8 @@
       "vote_count": 30
     },
     "Defensive Roll": {
-      "success_rate": 58.0,
-      "vote_count": 30
+      "success_rate": 57.97,
+      "vote_count": 31
     },
     "Distance Creation to Reset": {
       "success_rate": 58.0,
@@ -2867,7 +2867,7 @@
     },
     "Old School Sweep": {
       "success_rate": 46.06,
-      "vote_count": 32
+      "vote_count": 33
     },
     "Old School Sweep from Bottom": {
       "success_rate": 55.0,
@@ -3735,7 +3735,7 @@
     },
     "Sickle Sweep": {
       "success_rate": 58.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Side Control Escape": {
       "success_rate": 60.0,
@@ -4503,7 +4503,7 @@
     },
     "Tripod Sweep": {
       "success_rate": 58.0,
-      "vote_count": 30
+      "vote_count": 31
     },
     "Truck Entry": {
       "success_rate": 58.0,
