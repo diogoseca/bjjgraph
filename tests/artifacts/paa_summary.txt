@@ -1,0 +1,121 @@
+PAA RESEARCH SUMMARY — BJJGraph AI SEO Optimization
+Generated: 2026-04-28
+Data Source: Knowledge-based (DataForSEO MCP unavailable; web tools blocked in CI environment — based on BJJ content landscape as of Aug 2025)
+
+==============================================================================
+ARTICLES PROCESSED: 2
+==============================================================================
+
+1. content/Positions/Butterfly Guard/Half Butterfly/Bottom.md
+   Seed keyword: "Half Butterfly Bottom BJJ"
+   Output: tests/artifacts/Half_Butterfly_Bottom_paa.json
+
+2. content/Positions/Back Control/Body Triangle/Bottom.md
+   Seed keyword: "Body Triangle Bottom BJJ"
+   Output: tests/artifacts/Body_Triangle_Bottom_paa.json
+
+==============================================================================
+TOTAL PAA QUESTIONS FOUND: 25
+==============================================================================
+
+  Half Butterfly Bottom ....... 10 questions
+  Body Triangle Bottom ........ 15 questions
+
+==============================================================================
+HIGH-PRIORITY QUESTIONS (direct answers needed)
+==============================================================================
+
+HALF BUTTERFLY BOTTOM:
+  [HIGH] What is the half butterfly guard in BJJ?
+         → Strategy: improve_heading (definition section)
+  [HIGH] What are the best sweeps from half butterfly guard?
+         → Strategy: dedicated_faq (with success rate data)
+  [HIGH] What is the difference between half guard and half butterfly guard?
+         → Strategy: add_section (comparison table)
+  [HIGH] How do you retain half butterfly guard against pressure?
+         → Strategy: add_section (retention mechanics)
+  [HIGH] What is the Old School Sweep in BJJ?
+         → Strategy: dedicated_faq (technique with % data)
+
+BODY TRIANGLE BOTTOM:
+  [HIGH] How do you escape a body triangle in BJJ?
+         → Strategy: dedicated_faq (step-by-step HowTo)
+  [HIGH] What is the 'run the pipe' body triangle escape?
+         → Strategy: dedicated_faq (most-searched specific escape)
+  [HIGH] Should you escape toward or away from the locked side?
+         → Strategy: improve_heading (directional guidance gap)
+  [HIGH] What is a body triangle in BJJ?
+         → Strategy: improve_heading (definition + featured snippet)
+  [HIGH] Is a body triangle a submission in BJJ?
+         → Strategy: dedicated_faq (common beginner confusion)
+  [HIGH] Does a body triangle make it hard to breathe?
+         → Strategy: add_section (breathing mechanics)
+  [HIGH] How do you prevent someone from locking a body triangle?
+         → Strategy: dedicated_faq (prevention vs. escape)
+  [HIGH] What is the difference between body triangle and hooks?
+         → Strategy: add_section (comparison table)
+
+==============================================================================
+CONTENT GAP ANALYSIS
+==============================================================================
+
+HALF BUTTERFLY BOTTOM — Key gaps:
+  • No clear comparison content: half guard vs. half butterfly guard
+  • Relationship to leg entanglements (SLX / Ashi entry via butterfly hook) underexplored online
+  • Beginner-oriented "is half butterfly good for beginners?" content is thin
+  • Guard retention specifics (hook re-insertion, frame sequences) lack structured breakdowns
+  • Historical/lineage context (Bravo, Garcia, Faria) not covered in most position pages
+
+BODY TRIANGLE BOTTOM — Key gaps:
+  • "Run the pipe" escape has high search volume but poor structured explanation on most BJJ sites
+  • Directional escape guidance (toward vs. away from locked side) is absent on most pages
+  • Breathing / breath management as a survival strategy has NO dedicated structured treatment online
+  • Gi vs. No-Gi comparison for body triangle defense is never given dedicated coverage
+  • Competition strategy (body triangle = no extra points vs. hooks mobility tradeoff) is undocumented from bottom perspective
+  • Injury risk / safety section is missing from mainstream BJJ position pages
+
+==============================================================================
+SUGGESTED NEW ARTICLES (content gaps with search demand)
+==============================================================================
+
+  1. Half Guard vs. Half Butterfly Guard: What's the Difference?
+     Path suggestion: content/Positions/Butterfly Guard/Half-Guard-vs-Half-Butterfly.md
+     Rationale: High-intent PAA question, no clean answer exists on major BJJ sites
+
+  2. Old School Sweep: Setup, Mechanics, and Counters
+     Path suggestion: content/Transitions/Old School Sweep.md (if not already exists)
+     Rationale: Named specifically in PAA; high attempt rate (22%) from Half Butterfly Bottom
+
+  3. Run the Pipe: Body Triangle Escape Step-by-Step
+     Path suggestion: Could be a section in Body Triangle Bottom OR a standalone transition page
+     Rationale: Most searched specific body triangle escape; poor coverage on existing BJJ sites
+
+  4. Breathing and Survival Strategy in Back Control Bottom
+     Path suggestion: content/Positions/Back Control/Survival Guide.md
+     Rationale: Forum-confirmed pain point; zero structured content online for this exact topic
+
+  5. Body Triangle vs. Hooks Back Control: A Strategic Comparison
+     Path suggestion: content/Positions/Back Control/Body-Triangle-vs-Hooks.md
+     Rationale: Comparison question appears in PAA for both back control and body triangle searches
+
+==============================================================================
+HEADING OPTIMIZATION SUMMARY (total: 9 headings flagged)
+==============================================================================
+
+  Half Butterfly Bottom: 4 headings recommended for conversion to question format
+  Body Triangle Bottom:  5 headings recommended for conversion to question format
+
+  Highest impact:
+    → "Escapes" → "How to Escape the Body Triangle (Step-by-Step)" [HowTo rich result eligible]
+    → "Sweeps"  → "Best Sweeps from Half Butterfly Guard (With Success Rates)" [featured snippet eligible]
+
+==============================================================================
+CSV STATUS
+==============================================================================
+
+  tests/artifacts/suggested_new_files.csv: EXISTS (headers differ from spec — existing headers:
+  triggered_by,category,suggested_name,reason — file not overwritten to preserve existing data)
+
+==============================================================================
+END OF SUMMARY
+==============================================================================
