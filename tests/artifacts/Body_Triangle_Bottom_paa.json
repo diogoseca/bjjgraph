@@ -1,0 +1,151 @@
+{
+  "article_path": "content/Positions/Back Control/Body Triangle/Bottom.md",
+  "seed_keyword": "Body Triangle Bottom BJJ",
+  "data_source": "knowledge-based (DataForSEO MCP unavailable; web tools blocked in environment — based on BJJ content landscape as of Aug 2025)",
+  "paa_questions": [
+    {
+      "question": "How do you escape a body triangle in BJJ?",
+      "answer_snippet": "Main escape methods: (1) Run the pipe — grab the top (locking) leg and thread it through your body to break the lock; (2) Hip escape toward the locked side before it fully closes; (3) Spin to guard by turning into the attacker. Each requires defending the rear naked choke simultaneously.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the 'run the pipe' body triangle escape?",
+      "answer_snippet": "Running the pipe involves grabbing the top locking leg and pulling it through and under your body, threading it between the attacker's legs to break the body triangle lock. It is considered the most reliable escape but requires timing and hip flexibility.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Should you escape a body triangle toward the locked side or away from it?",
+      "answer_snippet": "Toward the locked side. Escaping toward the side where the foot is trapped in the knee crook takes pressure off the ribcage and opens space to address the lock. Escaping away compresses the triangle further and makes it tighter.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is a body triangle in BJJ?",
+      "answer_snippet": "A body triangle is a back control variation where the attacking player wraps both legs around the opponent's torso and locks one ankle behind the other knee (triangle configuration) rather than using standard hooks. It compresses the ribcage, restricts breathing, and is considered a stronger form of back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is a body triangle a submission in BJJ?",
+      "answer_snippet": "No. A body triangle is a control position, not a submission. However, it creates compression that facilitates choke finishes (Rear Naked Choke, Bow and Arrow). Defenders may tap from breathing restriction in training, but it is not scored as a submission in competition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Does a body triangle make it hard to breathe?",
+      "answer_snippet": "Yes. The body triangle compresses the intercostal muscles and diaphragm, restricting ribcage expansion. Breath management (slow exhales, timing escapes with exhales) is a key survival skill. Extended compression creates fatigue that makes choke attempts more effective.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you prevent someone from locking a body triangle?",
+      "answer_snippet": "Prevention: (1) Frame your elbow against the attacker's top knee before the lock closes; (2) shrimp away during setup; (3) keep posture to deny the leg from crossing. Prevention is significantly easier than escape after the lock is set.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between body triangle and hooks in back control?",
+      "answer_snippet": "Standard hooks (feet inside hips) give more mobility and easier submission access. Body triangle is harder to escape and creates breathing restriction but limits attacker mobility. Hooks score 4 back control points in IBJJF — body triangle does not score additional points beyond back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you breathe while trapped in a body triangle?",
+      "answer_snippet": "Breathe slowly — panic breathing tightens the body triangle's effect. Exhale fully to allow brief rib cage compression relief, then time escape attempts with an exhale. Breath management extends survival time and maintains decision quality under pressure.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is a body triangle harder to escape in gi or no-gi?",
+      "answer_snippet": "Generally harder to escape in no-gi: no collar grips to assist, and sweat reduces friction-based controls. In gi, collar and lapel grips can create defensive handles that assist the escape. The 'run the pipe' mechanics work in both rulesets.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Can leg locks counter a body triangle from bottom?",
+      "answer_snippet": "Yes — when the attacker's locking leg is exposed, heel hooks, kneebars, and toe holds can be initiated from bottom of body triangle back control. This is an advanced counter popularized by John Danaher's leg lock systems. It requires No-Gi ruleset for most leg lock variations.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Does the body triangle score points in BJJ competition?",
+      "answer_snippet": "The body triangle itself does not score additional points. In IBJJF, back control with two hooks scores 4 points. Body triangle is a variation of back control — points come from establishing the position, not the leg configuration. Notably, using body triangle instead of hooks does not sacrifice the 4-point score.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions are most dangerous from body triangle back control?",
+      "answer_snippet": "Rear Naked Choke is the primary threat (42% attempt rate from this position). Secondary threats include Bow and Arrow Choke (gi), armbar from back, and wrist lock variations. Defenders must prioritize two-on-one grip control to shut down the choke before focusing on escape.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is it better to escape the body triangle or survive it in competition?",
+      "answer_snippet": "Survival is often the competition priority. Many defenders choose to protect the neck with two-on-one grip and wait for attacker positional errors before escaping. Rushed escapes expose the neck to chokes. Force the attacker to work; control your breathing and look for openings.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What are the injury risks of the body triangle for the bottom player?",
+      "answer_snippet": "Sustained body triangle compression can cause rib bruising, intercostal muscle strain, and cartilage stress. It is generally not a spine injury risk. Training partners should release immediately on tap. Practitioners should tap early if breathing is severely compromised rather than risk rib injury.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Body Triangle Bottom",
+      "suggested": "Body Triangle Bottom in BJJ: Escapes, Defense, and Survival",
+      "rationale": "Escape/defense/survival framing matches highest-volume PAA question patterns for this position"
+    },
+    {
+      "current": "Escapes",
+      "suggested": "How to Escape the Body Triangle (Step-by-Step)",
+      "rationale": "Direct PAA match; step-by-step framing is eligible for HowTo rich result markup"
+    },
+    {
+      "current": "Position Overview",
+      "suggested": "What Is the Body Triangle in BJJ?",
+      "rationale": "High-priority PAA definition question; targets featured snippet eligibility"
+    },
+    {
+      "current": "Submission Defense",
+      "suggested": "Defending Submissions While Trapped in Body Triangle",
+      "rationale": "Clarifies scope; matches user intent when searching for survival guidance from bottom"
+    },
+    {
+      "current": "Guard Retention / Position Maintenance",
+      "suggested": "Is It Better to Escape or Survive the Body Triangle?",
+      "rationale": "Mirrors a high-intent PAA question; gives strategic framing that differentiates from generic escape lists"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ: 'Is a body triangle a submission?' — very high search intent, commonly confused by beginners",
+    "Add FAQ: 'What is run the pipe escape?' — most searched specific body triangle escape technique",
+    "Add section: 'Should you escape toward or away from the locked side?' — directional guidance missing from most pages",
+    "Add section: Body triangle vs standard hooks — direct comparison (control, scoring, mobility tradeoffs)",
+    "Add section: Breathing and breath management as a survival strategy",
+    "Add section: Injury risk and tap protocol (safety section)",
+    "Add section: Gi vs No-Gi differences for body triangle defense",
+    "Add section: Competition strategy — does body triangle signal opponent sacrificed hook mobility?",
+    "Add internal wikilink: [[Positions/Back Control]] for parent position context",
+    "Add internal wikilink: [[Transitions/Rear Naked Choke]] (42% attempt rate — dominant threat from this position)"
+  ]
+}

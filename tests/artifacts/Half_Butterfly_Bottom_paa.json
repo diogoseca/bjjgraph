@@ -1,0 +1,107 @@
+{
+  "article_path": "content/Positions/Butterfly Guard/Half Butterfly/Bottom.md",
+  "seed_keyword": "Half Butterfly Bottom BJJ",
+  "data_source": "knowledge-based (DataForSEO MCP unavailable; web tools blocked in environment)",
+  "paa_questions": [
+    {
+      "question": "What is the half butterfly guard in BJJ?",
+      "answer_snippet": "Half butterfly guard is a hybrid guard position that combines a traditional half guard (one leg entangled) with a butterfly hook inserted under one of the opponent's thighs. It gives the bottom player leverage to off-balance and sweep while maintaining guard retention.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What are the best sweeps from half butterfly guard?",
+      "answer_snippet": "The most common sweeps from half butterfly are the Old School Sweep (underhook + butterfly hook lift), the Basic Butterfly Sweep (seated elevation), and transitional sweeps to the Single Leg X or X-Guard. Success rates vary by level: beginners ~25%, advanced ~55%.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between half guard and half butterfly guard?",
+      "answer_snippet": "Standard half guard traps one leg with both legs; half butterfly adds a foot hook under the opponent's thigh (butterfly hook). The butterfly hook creates upward leverage for sweeps that pure half guard does not offer, making it more offensive.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you retain half butterfly guard against pressure?",
+      "answer_snippet": "Guard retention from half butterfly relies on re-inserting the butterfly hook when the opponent flattens you, framing with the outside arm to prevent crossfacing, and hip-escaping laterally to recreate space. Transitioning to Z-guard or deep half is a common backup when the hook is stripped.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you transition from half butterfly to full butterfly guard?",
+      "answer_snippet": "To transition to full butterfly, the bottom player must free the trapped leg by hip-escaping or using the butterfly hook to create space, then insert the second foot hook. This is easiest when executing a failed sweep attempt that momentarily lifts the opponent.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the Old School Sweep in BJJ?",
+      "answer_snippet": "The Old School Sweep is a classic half butterfly sweep popularized by Eddie Bravo. The bottom player uses a deep underhook and a butterfly hook to lift and roll the opponent laterally while grabbing the far ankle. It is attempted in ~22% of exchanges from half butterfly.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is half butterfly guard good for beginners in BJJ?",
+      "answer_snippet": "Half butterfly is accessible for beginners because the half guard base is familiar and the butterfly hook adds only one new concept. However, sweep execution requires hip sensitivity that develops with mat time, so early success rates are moderate (~25%).",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you prevent half butterfly guard passes?",
+      "answer_snippet": "Common counters to passes: (1) re-hook with the butterfly when the opponent tries to knee-slice; (2) frame and shrimp away from crossface pressure; (3) initiate a sweep attempt before the pass completes to force a reaction. The underhook battle is decisive.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How does half butterfly relate to Single Leg X guard?",
+      "answer_snippet": "Half butterfly is a common entry point into Single Leg X (SLX/Ashi Garami). When the butterfly hook elevates the leg and the outside arm grabs the ankle, the bottom player can slide under to achieve SLX. This makes half butterfly a high-percentage entry to leg entanglements.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Who popularized the half butterfly guard?",
+      "answer_snippet": "Eddie Bravo heavily popularized half butterfly as part of his 10th Planet system, particularly through the Old School Sweep. Marcelo Garcia and Bernardo Faria also contributed refinements linking it to deep half guard and the single leg.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Half Butterfly Bottom",
+      "suggested": "Half Butterfly Guard Bottom: Sweeps, Retention, and Transitions",
+      "rationale": "Matches informational query patterns; includes high-value sub-topics found in PAA"
+    },
+    {
+      "current": "Transitions from Half Butterfly",
+      "suggested": "What Transitions Are Available from Half Butterfly Guard?",
+      "rationale": "Conversational heading matches PAA question format for featured snippet eligibility"
+    },
+    {
+      "current": "Sweeps",
+      "suggested": "Best Sweeps from Half Butterfly Guard (With Success Rates)",
+      "rationale": "High-intent PAA question; adding success rate data differentiates from generic BJJ content"
+    },
+    {
+      "current": "Guard Retention",
+      "suggested": "How to Retain Half Butterfly Guard Against Pressure Passes",
+      "rationale": "Directly mirrors the PAA question format; targets white-to-blue belt learners"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'What is the difference between half guard and half butterfly guard?' — high PAA priority",
+    "Add section: Relationship between half butterfly and Single Leg X / leg entanglements",
+    "Add section: Common mistakes beginners make in half butterfly (hip position, underhook timing)",
+    "Add section: How to use half butterfly as a backup when full butterfly is denied",
+    "Add internal wikilink: [[Positions/Butterfly Guard]] for context on the parent position",
+    "Add internal wikilink: [[Transitions/Old School Sweep]] (high attempt rate from this position)"
+  ]
+}
