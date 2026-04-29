@@ -1,2 +1,4 @@
 triggered_by,category,suggested_name,reason
+ai_seo_v1,Positions,Aoki Lock/Bottom.md,"Defender perspective: how to recognize, survive, and escape the Aoki Lock — targeting 'how to escape Aoki Lock' PAA queries; gap: no defender page exists"
+ai_seo_v1,Transitions,Aoki Lock to Truck/Attacker.md,"Detailed attacker walkthrough for the Aoki Lock → Truck Entry transition — targeting 'truck system entries from aoki lock' search queries; gap: transition exists but no attacker role page"
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)

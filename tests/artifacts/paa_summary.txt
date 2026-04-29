@@ -1,0 +1,50 @@
+PAA SEO Analysis Summary
+Generated: 2026-04-29
+Source: Knowledge-base inference (DataForSEO MCP unavailable)
+==============================================================
+
+ARTICLES PROCESSED: 1
+- content/Positions/Aoki Lock/Top.md (seed keyword: "Aoki Lock Top BJJ")
+
+TOTAL PAA QUESTIONS FOUND: 10
+
+PRIORITY BREAKDOWN:
+  High (direct answers needed):  6
+  Medium (supporting content):   3
+  Low (supplementary):           1
+
+HIGH-PRIORITY QUESTIONS (answer immediately in content):
+1. "What is the Aoki Lock in BJJ?" → Add to overview / FAQ section
+2. "Who invented the Aoki Lock?" → Add origin section with Shinya Aoki entity
+3. "How do you set up the Aoki Lock from the turtle position?" → Add entry mechanics section
+4. "What is the difference between the Aoki Lock and the Omoplata?" → Add comparison section
+5. "How do you escape the Aoki Lock?" → Add defender awareness note (or link to Bottom.md)
+6. "Is the Aoki Lock legal in BJJ competitions?" → Add competition legality callout
+
+HEADING OPTIMIZATIONS RECOMMENDED: 5
+- Convert 5 existing section headings to question format for featured snippet targeting
+- Most impactful: "Position Definition" → "What Is the Aoki Lock Top Position in BJJ?"
+
+CONTENT GAPS (missing sections):
+1. Origin/history — Shinya Aoki entity not mentioned in article body
+2. Entry mechanics — article covers maintenance, not entry from turtle
+3. Aoki Lock vs. Omoplata comparison
+4. Competition legality table (IBJJF / ADCC / submission-only)
+5. Dedicated FAQ block reinforcing existing FAQPage schema markup
+
+NEW ARTICLE CANDIDATES:
+1. content/Positions/Aoki Lock/Bottom.md
+   — Defender perspective targeting "how to escape Aoki Lock" queries
+2. content/Transitions/Aoki Lock to Truck/Attacker.md
+   — Truck Entry attacker guide targeting truck system entry queries
+
+INTEGRATION STRATEGIES USED:
+  dedicated_faq    4 questions (structured Q&A blocks for schema)
+  add_section      3 questions (new content sections needed)
+  improve_heading  3 questions (convert headings to PAA question format)
+
+NEXT STEPS:
+1. Update content/Positions/Aoki Lock/Top.json source with origin section and entry mechanics
+2. Run: npm run regenerate:md
+3. Create Bottom.md defender page for Aoki Lock position
+4. Verify wikilinks after any new section additions
