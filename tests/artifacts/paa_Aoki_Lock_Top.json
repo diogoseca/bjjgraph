@@ -1,0 +1,123 @@
+{
+  "article_path": "content/Positions/Aoki Lock/Top.md",
+  "seed_keyword": "Aoki Lock Top BJJ",
+  "paa_source": "knowledge-base (DataForSEO MCP unavailable)",
+  "generated_date": "2026-04-29",
+  "paa_questions": [
+    {
+      "question": "What is the Aoki Lock in BJJ?",
+      "answer_snippet": "The Aoki Lock is a leg-entangled shoulder lock named after Japanese submission grappler Shinya Aoki. The attacker traps the opponent's arm between their legs and drives their hips into the shoulder joint, creating rotational stress that can force a tap or dislocate the shoulder. It commonly arises from the turtle position and front headlock in no-gi grappling.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Who invented the Aoki Lock?",
+      "answer_snippet": "The technique is named after Shinya Aoki, a Japanese professional mixed martial artist and submission grappler known for his unorthodox leg-entanglement attacks and flexibility-based shoulder locks. He popularized the position in MMA and submission wrestling during the mid-2000s.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you set up the Aoki Lock from the turtle position?",
+      "answer_snippet": "From the turtle position, the attacker circles to the side, isolates one of the turtled opponent's arms, and threads their legs around the arm and shoulder complex. The attacker then posts their free leg on the mat, drives hip pressure down into the shoulder, and extends the trapped arm to create the shoulder lock. Hip pressure and leg entanglement tightness are the two critical mechanical factors.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is the difference between the Aoki Lock and the Omoplata?",
+      "answer_snippet": "Both are leg-entangled shoulder locks, but differ in position and mechanics. The Omoplata is typically applied from guard (attacker on bottom), rotating the shoulder internally. The Aoki Lock is applied from top position with the opponent turtled or prone, driving the shoulder into external rotation through hip pressure. The Aoki Lock also allows direct transitions to back control and the Truck/Twister system.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape the Aoki Lock?",
+      "answer_snippet": "Primary escapes include: (1) rolling forward through the lock to force the attacker to follow into back control — this removes the shoulder pressure; (2) tucking the elbow back to the body before the lock is fully secured, reducing the lever arm; (3) creating hip distance to relieve shoulder pressure and recompose guard. Escaping after the lock is tight is very difficult — early recognition is essential.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is the Aoki Lock legal in BJJ competitions?",
+      "answer_snippet": "Legality depends on the ruleset and belt level. In no-gi submission wrestling and advanced adult competition (ADCC, EBI rules) it is generally legal. In IBJJF gi competition it is restricted at lower belt levels due to shoulder lock classification rules. Always verify with your specific competition ruleset before attempting.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What positions can you transition to from the Aoki Lock?",
+      "answer_snippet": "Key transitions include: Back Control (most common, when the opponent rolls forward), the Truck/Twister system (when the opponent turns away), Crucifix (when the far arm is exposed), and Kimura Trap (when a kimura grip becomes available during defense). The Aoki Lock is a hub for multiple offensive paths rather than a pure finishing position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "What is the Truck position in BJJ and how does it relate to the Aoki Lock?",
+      "answer_snippet": "The Truck (also called Twister Control) is a leg-entanglement position popularized by Eddie Bravo where the attacker hooks both legs into the opponent's hip-leg junction from behind. It is a common transition from the Aoki Lock when the opponent turns away from the shoulder pressure — the attacker follows their rotation and inserts the truck hooks.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you apply the Aoki Lock safely in training?",
+      "answer_snippet": "Apply shoulder pressure gradually over 3-5 seconds minimum rather than with explosive force. Keep visual contact with your partner at all times for tap signals. Accept verbal, hand, or body-language taps and release immediately. The shoulder joint is vulnerable — treat this like any other shoulder lock and err on the side of caution with unfamiliar training partners.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the Aoki Lock finish rate in competition?",
+      "answer_snippet": "The Aoki Lock has a relatively high finish rate among dedicated submission grappling practitioners due to its mechanical efficiency. The position on BJJGraph shows a 68% submission probability and 78% retention rate, reflecting that practitioners who reach full Aoki Lock control frequently secure a finish or a dominant transition.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "improve_heading"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is the Aoki Lock Top Position in BJJ?",
+      "rationale": "Matches the #1 high-priority PAA query pattern and front-loads the definition for featured snippet capture."
+    },
+    {
+      "current": "Key Offensive Principles",
+      "suggested": "How Do You Control the Aoki Lock from the Top?",
+      "rationale": "Conversational heading targets 'how to apply Aoki Lock' search intent and aligns with HowTo schema already present."
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What Are Your Options from the Aoki Lock Top Position?",
+      "rationale": "PAA-style question heading; targets users searching for transitions and decision-making from this position."
+    },
+    {
+      "current": "Common Offensive Mistakes",
+      "suggested": "Why Does the Aoki Lock Fail? (Common Mistakes and Corrections)",
+      "rationale": "Targets 'why Aoki Lock fails' and 'common mistakes' search queries; also matches FAQ schema data already in the page."
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "What Is the Aoki Lock Finish Rate? (BJJ Graph Statistics)",
+      "rationale": "Targets data-driven queries about submission percentages; differentiates this page with unique graph data."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add section: 'Who Invented the Aoki Lock? — Origin and History' to answer the high-priority PAA question about Shinya Aoki and capture branded search.",
+    "Add section: 'Aoki Lock vs. Omoplata — Key Differences' to capture comparison queries that are likely PAA results.",
+    "Add section: 'Is the Aoki Lock Legal in BJJ Competition?' with a ruleset breakdown (IBJJF vs. ADCC vs. submission-only).",
+    "Add dedicated FAQ section with 4-5 Q&A blocks covering: what is it, how to set up, how to escape, legality, and safety — to reinforce existing FAQPage schema.",
+    "Add 'How to Enter the Aoki Lock from Turtle' step-by-step section to capture setup/entry search queries (currently the article focuses on maintaining the position, not entry).",
+    "Add a brief 'Shinya Aoki' entity mention in the overview to establish the name origin and capture branded knowledge panel signals."
+  ],
+  "new_article_candidates": [
+    {
+      "suggested_path": "content/Positions/Aoki Lock/Bottom.md",
+      "plan": "Defender perspective: how to recognize, survive, and escape the Aoki Lock — targeting 'how to escape Aoki Lock' PAA queries."
+    },
+    {
+      "suggested_path": "content/Transitions/Aoki Lock to Truck/Attacker.md",
+      "plan": "Detailed attacker walkthrough for the Aoki Lock → Truck Entry transition, targeting users searching for truck system entries."
+    }
+  ]
+}
