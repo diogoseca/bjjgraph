@@ -105,7 +105,7 @@ description: "{{ bottom.description }}"
 
 <section id="state-invariants" class="content-section">
 
-## Position Definition
+## What Is {{ bottom.name }} in BJJ?
 
 {% for invariant in bottom.state_invariants -%}
 - {{ invariant }}
@@ -125,7 +125,7 @@ description: "{{ bottom.description }}"
 
 <section id="key-principles" class="content-section">
 
-## Key Defensive Principles
+## How Do You Defend from {{ bottom.name }} in BJJ?
 
 {% for principle in bottom.key_principles -%}
 - {{ principle }}
@@ -135,7 +135,7 @@ description: "{{ bottom.description }}"
 
 <section id="decision-tree" class="content-section">
 
-## Decision Making from This Position
+## How Do You Escape {{ bottom.name }}?
 
 {% for node in bottom.decision_tree -%}
 **{{ node.condition }}:**
@@ -149,7 +149,7 @@ description: "{{ bottom.description }}"
 
 <section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Defensive Mistakes
+## What Are Common Mistakes in {{ bottom.name }}?
 
 {% for error in bottom.common_errors -%}
 ### {{ loop.index }}. {{ error.error }}
@@ -192,9 +192,43 @@ description: "{{ bottom.description }}"
 </section>
 {% endif %}
 
+{% if bottom.faq %}
+<section id="faq" class="content-section">
+
+## Frequently Asked Questions About {{ bottom.name }}
+
+<!-- Schema Markup - Additional FAQ for PAA targeting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in bottom.faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer }}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+{% for item in bottom.faq -%}
+### {{ item.question }}
+
+{{ item.answer }}
+
+{% endfor %}
+</section>
+{% endif %}
+
 <section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+## How Effective Is {{ bottom.name }}? (Key Statistics)
 
 | Metric | Rate |
 |--------|------|
