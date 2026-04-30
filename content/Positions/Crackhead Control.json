@@ -13,6 +13,32 @@
     "System integrates seamlessly with modern back attack chains and truck position entries",
     "Unconventional positioning exploits gaps in traditional defensive training and pattern recognition"
   ],
+  "faq": [
+    {
+      "question": "What is Crackhead Control in BJJ?",
+      "answer": "Crackhead Control is a 10th Planet Jiu-Jitsu position built on a turtle base. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips and attack back control, truck entries, and submissions. From the bottom, it emphasizes constant frantic movement and grip fighting to prevent back takes. The name reflects the frenetic energy both practitioners must sustain."
+    },
+    {
+      "question": "Why is it called Crackhead Control in BJJ?",
+      "answer": "The name Crackhead Control comes from the frenetic, unpredictable energy both practitioners must sustain. The bottom player moves with relentless intensity to deny grips, while the top player sits in an awkward chair-like position requiring constant threat variation. The name was coined within the 10th Planet Jiu-Jitsu system to describe the manic quality of the position's dynamic exchanges."
+    },
+    {
+      "question": "What is the chair sit position in BJJ?",
+      "answer": "The chair sit position is when the top practitioner sits their hips and glutes directly onto the opponent's lower back and sacrum during turtle control. This loads bodyweight through the glutes onto the opponent's lumbar spine, creating a fulcrum that severely limits the bottom player's mobility and escape options. It is the defining mechanical feature of Crackhead Control Top and achieves approximately 75% retention rate at the intermediate level."
+    },
+    {
+      "question": "What is the difference between turtle and Crackhead Control in BJJ?",
+      "answer": "Traditional turtle is a passive defensive shell with static hip positioning that relies on compact structure. Crackhead Control adds chair-sit mechanics for the top player (more effective hip isolation than traditional turtle top) and constant frantic movement for the bottom player (more active and scramble-oriented than traditional turtle bottom). Crackhead Control is particularly optimized for no-gi contexts where traditional gi grips are unavailable."
+    },
+    {
+      "question": "What submissions are available from Crackhead Control?",
+      "answer": "From Crackhead Control Top, available submissions include the darce choke when the opponent turns in (50% success rate), anaconda choke from front headlock transitions (45%), guillotine from turtle (6% attempt rate), and crucifix setups when the opponent extends an arm to post (60% success). The overall submission probability from top position is 48%."
+    },
+    {
+      "question": "What is the truck position in BJJ?",
+      "answer": "The truck is a 10th Planet leg entanglement position where the top player controls one of the opponent's legs between their own legs from behind, creating a platform for the twister spine lock and back takes. From Crackhead Control Top, the truck is entered when the opponent rolls forward during a granby escape attempt, succeeding approximately 70% of the time. It connects directly to the twister and back control systems."
+    }
+  ],
   "related_positions": [
     {
       "name": "Turtle",
@@ -339,7 +365,7 @@
   },
   "bottom": {
     "name": "Crackhead Control Bottom",
-    "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
+    "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's active turtle defense with constant hip movement and grip fighting. 48% escape rate. Learn the Granby roll, sit-through, and Peterson roll.",
     "tags": [
       "bjj",
       "position",
@@ -580,6 +606,40 @@
       {
         "transition": "Posture Recovery to Closed Guard",
         "attempt_probability": 6
+      }
+    ],
+    "faq": [
+      {
+        "question": "What is Crackhead Control in BJJ?",
+        "answer": "Crackhead Control is a 10th Planet Jiu-Jitsu turtle position system. From the bottom, it features constant frantic hip movement and aggressive grip fighting to prevent back takes. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips. The name reflects the frenetic energy both players must sustain throughout positional exchanges."
+      },
+      {
+        "question": "What is the Granby Roll in BJJ?",
+        "answer": "The Granby Roll is a defensive rolling escape from turtle bottom where the practitioner bridges onto one shoulder and rolls through to recover guard. It is the primary escape from Crackhead Control Bottom, succeeding roughly 50% of the time when timed to the opponent over-committing to seatbelt grips. It exploits the opponent's forward weight commitment to create a rotation to closed guard or half guard."
+      },
+      {
+        "question": "What is the sit-through escape in BJJ?",
+        "answer": "The sit-through escape is the most-attempted escape from Crackhead Control Bottom at 26% of exchanges. The bottom player creates a lateral angle and shoots their hips through to the Dogfight Position, catching the opponent mid-transition. It works best when the opponent commits weight laterally rather than directly downward, creating a window for hip insertion."
+      },
+      {
+        "question": "How do you recover guard from turtle position in BJJ?",
+        "answer": "Guard recovery from turtle requires timing movement to moments when the opponent's weight shifts off-center: when they lift to transition positions (technical standup timing), when they release a grip to reach for another (sit-out timing), or when their base narrows chasing your hip movement (half guard insertion timing). The instant their weight lightens, insert a knee for half guard, execute a Granby roll for closed guard, or shoot a deep half entry."
+      },
+      {
+        "question": "When should you use Crackhead Control Bottom instead of static turtle?",
+        "answer": "Use Crackhead Control Bottom when you have the conditioning to sustain constant movement for 30-90 seconds. Static turtle is more energy-efficient but allows opponents to methodically break down defense. Crackhead Control Bottom forces opponents into scramble situations before they can consolidate control, making it superior for practitioners with good hip mobility and cardiovascular fitness. Against larger, heavier opponents with excellent pressure, static turtle with immediate reversal attempts may be preferable."
+      },
+      {
+        "question": "Does Crackhead Control Bottom work in the gi?",
+        "answer": "Crackhead Control Bottom is primarily a no-gi position but adapts to the gi with adjustments. In no-gi, constant hip movement disrupts body-based control. In the gi, opponents have lapel and collar grips that slow hip movement, making Granby roll timing windows shorter. Prioritize stripping lapel grips before executing escapes. The Peterson Roll and sit-through escape work equally well in both gi and no-gi formats."
+      },
+      {
+        "question": "What is the Peterson Roll in BJJ?",
+        "answer": "The Peterson Roll is a wrestling-derived reversal from turtle or referee's position attempted in 12% of exchanges from Crackhead Control Bottom. The bottom player controls the opponent's near wrist, drives into them laterally, and rolls through to end on top. It requires timing the opponent's lateral pressure commitment. When successful it results in a top position reversal or clear guard recovery opportunity."
+      },
+      {
+        "question": "What is the 10th Planet sequence from Crackhead Control Bottom?",
+        "answer": "From Crackhead Control Bottom, 10th Planet practitioners transition to Carni (12% attempt rate), Mission Control (10%), and New York (8%). The Carni-Mission Control-New York chain is the 10th Planet leg lock entry system, allowing the bottom player to convert from defensive turtle into offensive leg entanglement. Each position threatens different leg attacks while building positional pressure on the opponent."
       }
     ],
     "knowledge_assessment": [

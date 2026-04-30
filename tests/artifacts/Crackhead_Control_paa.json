@@ -1,0 +1,123 @@
+{
+  "article_path": "content/Positions/Crackhead Control.json",
+  "seed_keyword": "Crackhead Control",
+  "data_source": "content_analysis + training_knowledge (DataForSEO MCP unavailable; WebSearch permission denied)",
+  "generated_at": "2026-04-30",
+  "paa_questions": [
+    {
+      "question": "What is Crackhead Control in BJJ?",
+      "answer_snippet": "Crackhead Control is a 10th Planet Jiu-Jitsu position built on a turtle base. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips and attack back control, truck, and submissions. From the bottom, it emphasizes constant frantic movement and grip fighting to prevent back takes.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The most important definitional query for the hub page. The overview section answers it thoroughly but is not structured as a question heading. Converting the first section heading targets this PAA slot directly."
+    },
+    {
+      "question": "Why is it called Crackhead Control in BJJ?",
+      "answer_snippet": "It is named for the frenetic, unpredictable energy both practitioners must sustain — the bottom player moves with relentless intensity to deny grips, while the top player sits in an awkward chair-like position requiring constant threat variation. The name was coined within the 10th Planet Jiu-Jitsu system.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "This is almost certainly a top Google autocomplete query for 'crackhead control BJJ'. The hub page overview explains the etymology but doesn't call it out as a named FAQ entry. An inline FAQ block would directly answer and rank for this."
+    },
+    {
+      "question": "How do you attack from turtle control in BJJ?",
+      "answer_snippet": "From turtle top, use chair-sit mechanics to load your hips onto the opponent's lower back, establish an inside leg hook to prevent sit-through escapes, and threaten back takes, truck entries, and submissions (darce, anaconda, crucifix) simultaneously. Constant positional threats force defensive reactions that open the path to back control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The top-perspective decision tree on the hub page answers this perfectly. Surfacing it under a question heading improves PAA eligibility."
+    },
+    {
+      "question": "What is chair sit position in BJJ?",
+      "answer_snippet": "The chair sit position is when the top practitioner sits their hips and glutes directly onto the opponent's lower back and sacrum while in turtle control. This loads bodyweight through the glutes onto the opponent's lumbar spine, creating a fulcrum that severely limits the bottom player's mobility. It is the defining feature of Crackhead Control Top.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Key mechanical concept referenced throughout but not defined in its own FAQ entry. A concise FAQ block targeting 'chair sit BJJ' captures users searching this specific term."
+    },
+    {
+      "question": "How do you get back control from turtle in BJJ?",
+      "answer_snippet": "From crackhead control top (chair sit on opponent's lower back), take the back when the opponent remains static (60% success), when they attempt to sit through (65%), or when they roll forward via a truck entry (70%). The inside leg hook is the critical checkpoint — once it is established, every escape attempt becomes a back-take opportunity.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "This is the primary goal of crackhead control top. The decision tree covers all scenarios. Question-formatting the relevant section heading targets this high-intent query."
+    },
+    {
+      "question": "What is the difference between turtle and crackhead control in BJJ?",
+      "answer_snippet": "Traditional turtle is a passive defensive shell with static hip position. Crackhead Control adds chair-sit mechanics for the top player (more effective hip isolation than traditional turtle top) and constant frantic movement for the bottom player (more active and scramble-oriented than traditional turtle bottom). Crackhead Control is particularly optimized for no-gi contexts.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Classic comparison query that practitioners who know turtle but not crackhead control will search. Adding an explicit comparison sub-section or FAQ entry captures this segment."
+    },
+    {
+      "question": "What is the truck position in BJJ?",
+      "answer_snippet": "The truck is a 10th Planet leg entanglement position where the top player controls one of the opponent's legs between their own legs from behind, creating a platform for the twister spine lock and back takes. It is a primary advancement target from crackhead control when the opponent rolls forward during a granby escape attempt.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "The truck is listed as a related position and decision tree outcome but is never defined on the hub page. A short FAQ definition improves page depth and captures this query."
+    },
+    {
+      "question": "What is the Crab Ride in BJJ?",
+      "answer_snippet": "The Crab Ride is a back control entry position similar to crackhead control, where the top player uses inside leg hooks and hip control to threaten back takes. It shares chair-sit mechanics with crackhead control but uses different grip configurations. It is one of the alternative advancement paths from crackhead control top.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Mentioned in the related positions and decision tree. Defining it briefly on the hub page captures practitioners searching for related positions in the 10th Planet system."
+    },
+    {
+      "question": "What submissions are available from crackhead control?",
+      "answer_snippet": "From crackhead control top, available submissions include the darce choke (when opponent turns in), anaconda choke (from front headlock transitions), guillotine from turtle, and crucifix setups (when opponent extends an arm to post). The submission probability from top is 48%.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "High-intent query for practitioners actively using this position. The hub page's decision tree implies submissions but a dedicated subsection with explicit submission paths would improve click-through and dwell time."
+    },
+    {
+      "question": "What is 10th Planet Jiu-Jitsu?",
+      "answer_snippet": "10th Planet Jiu-Jitsu is a no-gi grappling system founded by Eddie Bravo, characterized by rubber guard, leg locks, and unconventional positions including crackhead control, mission control, electric chair, and the twister. It prioritizes no-gi techniques and submission-based offense over points-driven BJJ.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Contextual query. Useful as a very brief FAQ entry to establish system authority without diverting the page from its core topic."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview (implied — first section)",
+      "suggested": "What Is Crackhead Control in BJJ?",
+      "rationale": "The overview content directly answers the most-searched definitional query. Adding an explicit H2 question heading makes the section PAA-eligible."
+    },
+    {
+      "current": "Key Principles (from JSON key_principles array)",
+      "suggested": "What Are the Key Principles of Crackhead Control?",
+      "rationale": "Question-format heading targets 'how does X work in BJJ' PAA queries."
+    },
+    {
+      "current": "Top Position / Attacking Perspective (hub page section)",
+      "suggested": "How Do You Attack with Crackhead Control Top in BJJ?",
+      "rationale": "Directly targets 'how to attack from turtle' queries with the specific position name."
+    },
+    {
+      "current": "Bottom Position / Defensive Perspective (hub page section)",
+      "suggested": "How Do You Defend Crackhead Control Bottom in BJJ?",
+      "rationale": "Targets the defensive perspective query and links searchers toward the detailed Bottom.md page."
+    },
+    {
+      "current": "Related Positions",
+      "suggested": "What Positions Are Related to Crackhead Control?",
+      "rationale": "Minor conversion. Low impact but consistent with question-format heading strategy across the site."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ entry: 'Why is it called Crackhead Control?' — very likely Google autocomplete query, currently only answered in prose",
+    "Add FAQ entry: 'What is the difference between Crackhead Control and regular turtle?' — key comparison query for practitioners familiar with turtle",
+    "Add subsection: 'Crackhead Control in Gi vs. No-Gi' — position is no-gi native; brief comparison captures modifier queries",
+    "Add subsection: 'How Does Crackhead Control Fit Into the 10th Planet System?' — connects to Mission Control, Carni, Truck, Twister chain for system-level searchers",
+    "Add explicit 'Submissions Available' subsection listing darce, anaconda, guillotine, crucifix with success probabilities",
+    "Add 'Frequently Asked Questions' H2 block with at minimum: What is it? Why the name? Top vs. Bottom? Gi or No-Gi?"
+  ]
+}

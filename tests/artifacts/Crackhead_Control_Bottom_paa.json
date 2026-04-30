@@ -1,0 +1,123 @@
+{
+  "article_path": "content/Positions/Crackhead Control/Bottom.md",
+  "seed_keyword": "Crackhead Control Bottom",
+  "data_source": "content_analysis + training_knowledge (DataForSEO MCP unavailable; WebSearch permission denied)",
+  "generated_at": "2026-04-30",
+  "paa_questions": [
+    {
+      "question": "How do you escape from turtle position in BJJ?",
+      "answer_snippet": "From turtle bottom, the most effective escapes are the Granby roll to guard, the sit-through escape to dogfight, and the hip escape to half guard. Timing each escape to a moment when the opponent shifts weight or reaches for a new grip is critical.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "This is the broadest query capturing the article's core topic. Currently no heading matches this conversational pattern. Suggests rewriting the 'Decision Making from This Position' heading."
+    },
+    {
+      "question": "What is the Granby roll in BJJ?",
+      "answer_snippet": "The Granby roll is a defensive rolling technique from turtle bottom where the practitioner bridges onto one shoulder and rolls through to recover guard. It is the primary escape from turtle and crackhead control bottom, succeeding roughly 50% of the time when the opponent over-commits to seatbelt grips.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "High-search-volume technique question. Article references Granby Roll repeatedly but never defines it. A short FAQ entry would capture this traffic and improve internal linking to the Granby Roll to Guard transition page."
+    },
+    {
+      "question": "How do you defend against back takes from turtle?",
+      "answer_snippet": "Defending back takes from turtle requires constant hip movement to deny grip consolidation, fighting the far-side underhook, keeping elbows tight to prevent hook insertion, and protecting the neck with a tucked chin. Active hip circles disrupt the opponent's ability to settle into seatbelt control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Maps directly to 'Key Defensive Principles' section. Renaming that heading to a question format would improve PAA eligibility."
+    },
+    {
+      "question": "What is Crackhead Control in BJJ?",
+      "answer_snippet": "Crackhead Control is a 10th Planet Jiu-Jitsu turtle position system characterized by frenetic hip movement, aggressive grip fighting, and constant positional pressure. Bottom perspective uses relentless motion to prevent back takes; top perspective uses a chair-sit on the opponent's lower back to isolate the hips.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Many searchers reaching the Bottom page won't know the parent system. A brief FAQ answer at the top of the page or in an overview sidebar captures high-intent definitional traffic."
+    },
+    {
+      "question": "How do you fight grips from turtle bottom in BJJ?",
+      "answer_snippet": "From turtle bottom, prioritize stripping the far-side underhook first, then the cross-face, then collar ties. Use the opposite hand to aggressively strip grips before they consolidate. Never let the opponent establish both the overhook and underhook simultaneously, as this creates seatbelt control leading directly to back takes.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "Closely matches the 'Common Defensive Mistakes' section item #2. Converting that subheading to a question format ('How do you fight grips from turtle bottom?') improves PAA eligibility."
+    },
+    {
+      "question": "What is the sit-through escape in BJJ?",
+      "answer_snippet": "The sit-through escape is a turtle escape where the bottom player creates a lateral angle and sits their hips through to the dogfight position, often catching the opponent mid-transition. It has the highest attempt frequency from crackhead control bottom at 26% of exchanges.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "The sit-through is the most-attempted escape (26%) but is never described in detail. A dedicated subsection covering its setup would improve depth and capture this specific query."
+    },
+    {
+      "question": "How do you recover guard from turtle position in BJJ?",
+      "answer_snippet": "Guard recovery from turtle requires timing movement to when the opponent shifts weight off-center, narrows their base, releases a grip, or lifts to transition. The moment their weight lightens, insert a knee between you and them (half guard), execute a Granby roll (closed guard), or shoot a deep half entry.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "'Decision Making from This Position' section fully answers this but under a non-question heading. Renaming it would directly target this PAA slot."
+    },
+    {
+      "question": "What is the Peterson Roll in BJJ?",
+      "answer_snippet": "The Peterson Roll is a wrestling-derived reversal from turtle or referee's position where the bottom player controls the opponent's near wrist, drives into them, and rolls through to end on top. It is attempted in 12% of exchanges from crackhead control bottom.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Mentioned in the HowTo schema and transitions list but never defined. Short FAQ entry adds depth and creates an internal link opportunity."
+    },
+    {
+      "question": "What is Mission Control in 10th Planet BJJ?",
+      "answer_snippet": "Mission Control is a 10th Planet Jiu-Jitsu leg entanglement position accessed from crackhead control bottom. It is part of the Carni, Mission Control, and New York sequence that forms the 10th Planet leg lock system. It is attempted in 10% of exchanges from crackhead control bottom.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Niche 10th Planet query but highly specific — adds value for the target audience. The transition is listed in the HowTo schema but never explained on the page."
+    },
+    {
+      "question": "What is 10th Planet Jiu-Jitsu?",
+      "answer_snippet": "10th Planet Jiu-Jitsu is a no-gi grappling system founded by Eddie Bravo, emphasizing rubber guard, unconventional positions like crackhead control and mission control, and a leg lock-centric game. It departs significantly from traditional gi-based BJJ.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Contextual background query. Useful for page breadth but low commercial intent for this specific article."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is the Crackhead Control Bottom Position in BJJ?",
+      "rationale": "Converts a label into a conversational PAA-eligible question. Captures 'what is crackhead control' queries at the definition level."
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How Do You Defend Crackhead Control Bottom in BJJ?",
+      "rationale": "Matches the high-intent query 'how do you defend from turtle bottom'. The existing content fully answers this question."
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "How Do You Escape Crackhead Control Bottom in BJJ?",
+      "rationale": "Direct match to the top search intent for this page. 'Escape from turtle' queries dominate search volume for this topic."
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "What Are the Most Common Mistakes in Crackhead Control Bottom?",
+      "rationale": "Question format increases PAA eligibility. 'Common mistakes' queries are high-engagement informational searches."
+    },
+    {
+      "current": "Success Rates and Statistics",
+      "suggested": "How Effective Is Crackhead Control Bottom? (Success Rates)",
+      "rationale": "Targets the 'how effective is X in BJJ' PAA pattern, which is common for position-specific pages."
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add short definition of the Granby Roll with a link to [[Transitions/Granby Roll to Guard]] — most-referenced escape with no inline definition",
+    "Add short definition of the Sit-Through Escape — highest-frequency escape (26%) with no explanation on page",
+    "Add subsection: 'When Should You Use Crackhead Control Bottom vs. Static Turtle?' — addresses a clear user comparison query",
+    "Add subsection: 'How Does Crackhead Control Bottom Work in Gi vs. No-Gi?' — the position is no-gi native; addressing gi applicability covers a common modifier query",
+    "Add subsection: 'What Is the 10th Planet Sequence from Crackhead Control Bottom?' — Carni → Mission Control → New York chain is listed in transitions but never explained",
+    "Add 'Frequently Asked Questions' H2 section with 3-4 inline Q&As to directly populate Google's PAA box"
+  ]
+}

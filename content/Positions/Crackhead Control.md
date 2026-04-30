@@ -34,7 +34,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+### What Are the Key Principles of Crackhead Control?
 
 
 - Bottom perspective emphasizes constant kinetic energy to prevent grip establishment and control consolidation
@@ -56,7 +56,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 <section class="content-section">
 
-## Top vs Bottom
+## Crackhead Control: Top vs Bottom Compared
 
 
 
@@ -77,7 +77,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 <section id="bottom-summary" class="content-section">
 
 
-## Playing as Bottom
+## How Do You Defend from Crackhead Control? (Playing as Bottom)
 
 [[Crackhead Control/Bottom|→ Full Bottom Guide]]
 
@@ -152,7 +152,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 <section id="top-summary" class="content-section">
 
 
-## Playing as Top
+## How Do You Attack with Crackhead Control? (Playing as Top)
 
 [[Crackhead Control/Top|→ Full Top Guide]]
 
@@ -231,7 +231,7 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 <section id="related-positions" class="content-section">
 
-## Related Positions
+## What Positions Are Related to Crackhead Control?
 
 
 - **[[Positions/Turtle]]** - Parent position that crackhead control evolved from with enhanced mechanics
@@ -254,5 +254,95 @@ The name itself reflects the frenetic, unpredictable energy characteristic of th
 
 
 </section>
+
+
+<section id="faq" class="content-section">
+
+## Frequently Asked Questions About Crackhead Control
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Crackhead Control in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crackhead Control is a 10th Planet Jiu-Jitsu position built on a turtle base. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips and attack back control, truck entries, and submissions. From the bottom, it emphasizes constant frantic movement and grip fighting to prevent back takes. The name reflects the frenetic energy both practitioners must sustain."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why is it called Crackhead Control in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The name Crackhead Control comes from the frenetic, unpredictable energy both practitioners must sustain. The bottom player moves with relentless intensity to deny grips, while the top player sits in an awkward chair-like position requiring constant threat variation. The name was coined within the 10th Planet Jiu-Jitsu system to describe the manic quality of the position's dynamic exchanges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the chair sit position in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The chair sit position is when the top practitioner sits their hips and glutes directly onto the opponent's lower back and sacrum during turtle control. This loads bodyweight through the glutes onto the opponent's lumbar spine, creating a fulcrum that severely limits the bottom player's mobility and escape options. It is the defining mechanical feature of Crackhead Control Top and achieves approximately 75% retention rate at the intermediate level."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between turtle and Crackhead Control in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Traditional turtle is a passive defensive shell with static hip positioning that relies on compact structure. Crackhead Control adds chair-sit mechanics for the top player (more effective hip isolation than traditional turtle top) and constant frantic movement for the bottom player (more active and scramble-oriented than traditional turtle bottom). Crackhead Control is particularly optimized for no-gi contexts where traditional gi grips are unavailable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What submissions are available from Crackhead Control?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "From Crackhead Control Top, available submissions include the darce choke when the opponent turns in (50% success rate), anaconda choke from front headlock transitions (45%), guillotine from turtle (6% attempt rate), and crucifix setups when the opponent extends an arm to post (60% success). The overall submission probability from top position is 48%."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the truck position in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The truck is a 10th Planet leg entanglement position where the top player controls one of the opponent's legs between their own legs from behind, creating a platform for the twister spine lock and back takes. From Crackhead Control Top, the truck is entered when the opponent rolls forward during a granby escape attempt, succeeding approximately 70% of the time. It connects directly to the twister and back control systems."
+      }
+    }
+  ]
+}
+</script>
+
+### What is Crackhead Control in BJJ?
+
+Crackhead Control is a 10th Planet Jiu-Jitsu position built on a turtle base. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips and attack back control, truck entries, and submissions. From the bottom, it emphasizes constant frantic movement and grip fighting to prevent back takes. The name reflects the frenetic energy both practitioners must sustain.
+
+### Why is it called Crackhead Control in BJJ?
+
+The name Crackhead Control comes from the frenetic, unpredictable energy both practitioners must sustain. The bottom player moves with relentless intensity to deny grips, while the top player sits in an awkward chair-like position requiring constant threat variation. The name was coined within the 10th Planet Jiu-Jitsu system to describe the manic quality of the position's dynamic exchanges.
+
+### What is the chair sit position in BJJ?
+
+The chair sit position is when the top practitioner sits their hips and glutes directly onto the opponent's lower back and sacrum during turtle control. This loads bodyweight through the glutes onto the opponent's lumbar spine, creating a fulcrum that severely limits the bottom player's mobility and escape options. It is the defining mechanical feature of Crackhead Control Top and achieves approximately 75% retention rate at the intermediate level.
+
+### What is the difference between turtle and Crackhead Control in BJJ?
+
+Traditional turtle is a passive defensive shell with static hip positioning that relies on compact structure. Crackhead Control adds chair-sit mechanics for the top player (more effective hip isolation than traditional turtle top) and constant frantic movement for the bottom player (more active and scramble-oriented than traditional turtle bottom). Crackhead Control is particularly optimized for no-gi contexts where traditional gi grips are unavailable.
+
+### What submissions are available from Crackhead Control?
+
+From Crackhead Control Top, available submissions include the darce choke when the opponent turns in (50% success rate), anaconda choke from front headlock transitions (45%), guillotine from turtle (6% attempt rate), and crucifix setups when the opponent extends an arm to post (60% success). The overall submission probability from top position is 48%.
+
+### What is the truck position in BJJ?
+
+The truck is a 10th Planet leg entanglement position where the top player controls one of the opponent's legs between their own legs from behind, creating a platform for the twister spine lock and back takes. From Crackhead Control Top, the truck is entered when the opponent rolls forward during a granby escape attempt, succeeding approximately 70% of the time. It connects directly to the twister and back control systems.
+
+
+</section>
+
 
 </main>

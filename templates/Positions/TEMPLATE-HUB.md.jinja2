@@ -28,7 +28,7 @@ description: "{{ description }}"
 
 <section id="key-principles" class="content-section">
 
-### Key Principles
+### What Are the Key Principles of {{ name }}?
 
 {% for principle in key_principles %}
 - {{ principle }}
@@ -38,7 +38,7 @@ description: "{{ description }}"
 
 <section class="content-section">
 
-## Top vs Bottom
+## {{ name }}: Top vs Bottom Compared
 
 {% if variations %}
 {# FAMILY: Combined multi-variant table #}
@@ -69,7 +69,7 @@ description: "{{ description }}"
 <section id="bottom-summary" class="content-section">
 
 {# Playing as bottom role #}
-## Playing as Bottom
+## How Do You Defend from {{ name }}? (Playing as Bottom)
 
 [[{{ name }}/Bottom|→ Full Bottom Guide]]
 
@@ -98,7 +98,7 @@ description: "{{ description }}"
 <section id="top-summary" class="content-section">
 
 {# Playing as top role #}
-## Playing as Top
+## How Do You Attack with {{ name }}? (Playing as Top)
 
 [[{{ name }}/Top|→ Full Top Guide]]
 
@@ -127,12 +127,45 @@ description: "{{ description }}"
 
 <section id="related-positions" class="content-section">
 
-## Related Positions
+## What Positions Are Related to {{ name }}?
 
 {% for related in related_positions %}
 - **[[{{ resolve(related.name) }}]]** - {{ related.relationship }}
 {% endfor %}
 
 </section>
+
+{% if faq %}
+<section id="faq" class="content-section">
+
+## Frequently Asked Questions About {{ name }}
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {%- for item in faq %}
+    {
+      "@type": "Question",
+      "name": "{{ item.question }}",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "{{ item.answer }}"
+      }
+    }{{ "," if not loop.last else "" }}
+    {%- endfor %}
+  ]
+}
+</script>
+
+{% for item in faq -%}
+### {{ item.question }}
+
+{{ item.answer }}
+
+{% endfor %}
+</section>
+{% endif %}
 
 </main>

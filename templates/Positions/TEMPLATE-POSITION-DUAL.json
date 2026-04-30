@@ -74,6 +74,27 @@
         ]
       ]
     },
+    "faq": {
+      "type": "array",
+      "description": "Hub-level FAQ entries for AI search optimization targeting PAA (People Also Ask) queries about the position",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["question", "answer"],
+        "properties": {
+          "question": {
+            "type": "string",
+            "description": "Natural-language PAA-style question",
+            "minLength": 10
+          },
+          "answer": {
+            "type": "string",
+            "description": "Direct 2-5 sentence answer optimized for AI search snippets",
+            "minLength": 50
+          }
+        }
+      }
+    },
     "related_positions": {
       "type": "array",
       "description": "Related positions/states/techniques for hub (3-15 items)",
@@ -176,6 +197,27 @@
           "items": {
             "type": "string"
           }
+        },
+        "faq": {
+          "type": "array",
+          "description": "FAQ entries for AI search optimization targeting PAA (People Also Ask) queries",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["question", "answer"],
+            "properties": {
+              "question": {
+                "type": "string",
+                "description": "Natural-language PAA-style question",
+                "minLength": 10
+              },
+              "answer": {
+                "type": "string",
+                "description": "Direct 2-5 sentence answer optimized for AI search snippets",
+                "minLength": 50
+              }
+            }
+          }
         }
       }
     },
@@ -254,6 +296,27 @@
           "minItems": 3,
           "items": {
             "type": "string"
+          }
+        },
+        "faq": {
+          "type": "array",
+          "description": "FAQ entries for AI search optimization targeting PAA (People Also Ask) queries",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["question", "answer"],
+            "properties": {
+              "question": {
+                "type": "string",
+                "description": "Natural-language PAA-style question",
+                "minLength": 10
+              },
+              "answer": {
+                "type": "string",
+                "description": "Direct 2-5 sentence answer optimized for AI search snippets",
+                "minLength": 50
+              }
+            }
           }
         }
       }

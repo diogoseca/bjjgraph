@@ -4,7 +4,7 @@
 
 ---
 title: "Crackhead Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate."
+description: "Master Crackhead Control Bottom in BJJ. 10th Planet's active turtle defense with constant hip movement and grip fighting. 48% escape rate. Learn the Granby roll, sit-through, and Peterson roll."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative t
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Crackhead Control Bottom",
-  "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's innovative turtle defense system with dynamic movement, aggressive grip fighting, and 65% advanced escape rate.",
+  "description": "Master Crackhead Control Bottom in BJJ. 10th Planet's active turtle defense with constant hip movement and grip fighting. 48% escape rate. Learn the Granby roll, sit-through, and Peterson roll.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -169,7 +169,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="state-invariants" class="content-section">
 
-## Position Definition
+## What Is Crackhead Control Bottom in BJJ?
 
 - Practitioner on hands and knees with head protected between shoulders, elbows tight to body creating compact defensive frame that denies opponent easy access to neck and back while maintaining awareness through peripheral vision
 - Hips remain highly mobile and active, constantly shifting weight between knees in circular and rotational patterns to prevent opponent from establishing heavy pressure or securing hooks for back control
@@ -195,7 +195,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="key-principles" class="content-section">
 
-## Key Defensive Principles
+## How Do You Defend from Crackhead Control Bottom in BJJ?
 
 - Maintain constant hip movement to prevent opponent from establishing heavy pressure or securing controlling grips
 - Fight hands aggressively to prevent seat belt control, prioritizing defending the far side underhook and preventing cross-face control
@@ -210,7 +210,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="decision-tree" class="content-section">
 
-## Decision Making from This Position
+## How Do You Escape Crackhead Control Bottom?
 
 **If opponent attempts to secure seat belt control with both underhooks or cross-face:**
 - Execute **[[Transitions/Granby Roll to Guard/Attacker|Granby Roll to Guard]]** → [[Positions/Closed Guard]] (Probability: 50%)
@@ -238,7 +238,7 @@ Successful execution requires exceptional cardiovascular conditioning and techni
 
 <section id="common-mistakes" class="content-section hide-minimal">
 
-## Common Defensive Mistakes
+## What Are Common Mistakes in Crackhead Control Bottom?
 
 ### 1. Remaining static in turtle position instead of maintaining constant movement
 
@@ -344,9 +344,124 @@ Continuous flow drill alternating between turtle bottom and various guard positi
 </section>
 
 
+
+<section id="faq" class="content-section">
+
+## Frequently Asked Questions About Crackhead Control Bottom
+
+<!-- Schema Markup - Additional FAQ for PAA targeting -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Crackhead Control in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crackhead Control is a 10th Planet Jiu-Jitsu turtle position system. From the bottom, it features constant frantic hip movement and aggressive grip fighting to prevent back takes. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips. The name reflects the frenetic energy both players must sustain throughout positional exchanges."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Granby Roll in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Granby Roll is a defensive rolling escape from turtle bottom where the practitioner bridges onto one shoulder and rolls through to recover guard. It is the primary escape from Crackhead Control Bottom, succeeding roughly 50% of the time when timed to the opponent over-committing to seatbelt grips. It exploits the opponent's forward weight commitment to create a rotation to closed guard or half guard."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the sit-through escape in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The sit-through escape is the most-attempted escape from Crackhead Control Bottom at 26% of exchanges. The bottom player creates a lateral angle and shoots their hips through to the Dogfight Position, catching the opponent mid-transition. It works best when the opponent commits weight laterally rather than directly downward, creating a window for hip insertion."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you recover guard from turtle position in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Guard recovery from turtle requires timing movement to moments when the opponent's weight shifts off-center: when they lift to transition positions (technical standup timing), when they release a grip to reach for another (sit-out timing), or when their base narrows chasing your hip movement (half guard insertion timing). The instant their weight lightens, insert a knee for half guard, execute a Granby roll for closed guard, or shoot a deep half entry."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When should you use Crackhead Control Bottom instead of static turtle?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Use Crackhead Control Bottom when you have the conditioning to sustain constant movement for 30-90 seconds. Static turtle is more energy-efficient but allows opponents to methodically break down defense. Crackhead Control Bottom forces opponents into scramble situations before they can consolidate control, making it superior for practitioners with good hip mobility and cardiovascular fitness. Against larger, heavier opponents with excellent pressure, static turtle with immediate reversal attempts may be preferable."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does Crackhead Control Bottom work in the gi?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Crackhead Control Bottom is primarily a no-gi position but adapts to the gi with adjustments. In no-gi, constant hip movement disrupts body-based control. In the gi, opponents have lapel and collar grips that slow hip movement, making Granby roll timing windows shorter. Prioritize stripping lapel grips before executing escapes. The Peterson Roll and sit-through escape work equally well in both gi and no-gi formats."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the Peterson Roll in BJJ?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The Peterson Roll is a wrestling-derived reversal from turtle or referee's position attempted in 12% of exchanges from Crackhead Control Bottom. The bottom player controls the opponent's near wrist, drives into them laterally, and rolls through to end on top. It requires timing the opponent's lateral pressure commitment. When successful it results in a top position reversal or clear guard recovery opportunity."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the 10th Planet sequence from Crackhead Control Bottom?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "From Crackhead Control Bottom, 10th Planet practitioners transition to Carni (12% attempt rate), Mission Control (10%), and New York (8%). The Carni-Mission Control-New York chain is the 10th Planet leg lock entry system, allowing the bottom player to convert from defensive turtle into offensive leg entanglement. Each position threatens different leg attacks while building positional pressure on the opponent."
+      }
+    }
+  ]
+}
+</script>
+
+### What is Crackhead Control in BJJ?
+
+Crackhead Control is a 10th Planet Jiu-Jitsu turtle position system. From the bottom, it features constant frantic hip movement and aggressive grip fighting to prevent back takes. From the top, the practitioner uses a chair-sit on the opponent's lower back to isolate the hips. The name reflects the frenetic energy both players must sustain throughout positional exchanges.
+
+### What is the Granby Roll in BJJ?
+
+The Granby Roll is a defensive rolling escape from turtle bottom where the practitioner bridges onto one shoulder and rolls through to recover guard. It is the primary escape from Crackhead Control Bottom, succeeding roughly 50% of the time when timed to the opponent over-committing to seatbelt grips. It exploits the opponent's forward weight commitment to create a rotation to closed guard or half guard.
+
+### What is the sit-through escape in BJJ?
+
+The sit-through escape is the most-attempted escape from Crackhead Control Bottom at 26% of exchanges. The bottom player creates a lateral angle and shoots their hips through to the Dogfight Position, catching the opponent mid-transition. It works best when the opponent commits weight laterally rather than directly downward, creating a window for hip insertion.
+
+### How do you recover guard from turtle position in BJJ?
+
+Guard recovery from turtle requires timing movement to moments when the opponent's weight shifts off-center: when they lift to transition positions (technical standup timing), when they release a grip to reach for another (sit-out timing), or when their base narrows chasing your hip movement (half guard insertion timing). The instant their weight lightens, insert a knee for half guard, execute a Granby roll for closed guard, or shoot a deep half entry.
+
+### When should you use Crackhead Control Bottom instead of static turtle?
+
+Use Crackhead Control Bottom when you have the conditioning to sustain constant movement for 30-90 seconds. Static turtle is more energy-efficient but allows opponents to methodically break down defense. Crackhead Control Bottom forces opponents into scramble situations before they can consolidate control, making it superior for practitioners with good hip mobility and cardiovascular fitness. Against larger, heavier opponents with excellent pressure, static turtle with immediate reversal attempts may be preferable.
+
+### Does Crackhead Control Bottom work in the gi?
+
+Crackhead Control Bottom is primarily a no-gi position but adapts to the gi with adjustments. In no-gi, constant hip movement disrupts body-based control. In the gi, opponents have lapel and collar grips that slow hip movement, making Granby roll timing windows shorter. Prioritize stripping lapel grips before executing escapes. The Peterson Roll and sit-through escape work equally well in both gi and no-gi formats.
+
+### What is the Peterson Roll in BJJ?
+
+The Peterson Roll is a wrestling-derived reversal from turtle or referee's position attempted in 12% of exchanges from Crackhead Control Bottom. The bottom player controls the opponent's near wrist, drives into them laterally, and rolls through to end on top. It requires timing the opponent's lateral pressure commitment. When successful it results in a top position reversal or clear guard recovery opportunity.
+
+### What is the 10th Planet sequence from Crackhead Control Bottom?
+
+From Crackhead Control Bottom, 10th Planet practitioners transition to Carni (12% attempt rate), Mission Control (10%), and New York (8%). The Carni-Mission Control-New York chain is the 10th Planet leg lock entry system, allowing the bottom player to convert from defensive turtle into offensive leg entanglement. Each position threatens different leg attacks while building positional pressure on the opponent.
+
+
+</section>
+
+
 <section id="position-metrics" class="content-section">
 
-## Success Rates and Statistics
+## How Effective Is Crackhead Control Bottom? (Key Statistics)
 
 | Metric | Rate |
 |--------|------|

@@ -1,0 +1,122 @@
+PAA SEO ANALYSIS SUMMARY
+Generated: 2026-04-30
+Data Source: content_analysis + training_knowledge
+Note: DataForSEO MCP was unavailable; WebSearch permission was not granted.
+      PAA questions derived from article content analysis, knowledge assessment Q&As,
+      and training knowledge of BJJ search behavior patterns.
+
+=============================================================================
+ARTICLES PROCESSED: 2
+=============================================================================
+
+1. content/Positions/Crackhead Control/Bottom.md
+   Seed keyword: "Crackhead Control Bottom"
+   PAA output:   tests/artifacts/Crackhead_Control_Bottom_paa.json
+
+2. content/Positions/Crackhead Control.json
+   Seed keyword: "Crackhead Control"
+   PAA output:   tests/artifacts/Crackhead_Control_paa.json
+
+=============================================================================
+TOTAL PAA QUESTIONS FOUND: 20
+=============================================================================
+
+  Crackhead Control Bottom:  10 questions (4 high, 4 medium, 2 low)
+  Crackhead Control (hub):   10 questions (4 high, 4 medium, 2 low)
+
+=============================================================================
+HIGH-PRIORITY QUESTIONS (direct answers needed)
+=============================================================================
+
+CRACKHEAD CONTROL BOTTOM:
+  1. How do you escape from turtle position in BJJ?
+     → Strategy: Rename 'Decision Making from This Position' heading to question format
+  2. What is the Granby roll in BJJ?
+     → Strategy: Add dedicated FAQ entry defining the technique with internal link
+  3. How do you defend against back takes from turtle?
+     → Strategy: Rename 'Key Defensive Principles' heading to question format
+  4. What is Crackhead Control in BJJ?
+     → Strategy: Add dedicated FAQ entry at top of page / in overview
+
+CRACKHEAD CONTROL (HUB):
+  1. What is Crackhead Control in BJJ?
+     → Strategy: Convert first section to explicit H2 question heading
+  2. Why is it called Crackhead Control in BJJ?
+     → Strategy: Add dedicated FAQ entry (very likely Google autocomplete query)
+  3. How do you attack from turtle control in BJJ?
+     → Strategy: Rename top-perspective section heading to question format
+  4. What is chair sit position in BJJ?
+     → Strategy: Add dedicated FAQ entry defining the key mechanical concept
+
+=============================================================================
+CONTENT GAP ANALYSIS
+=============================================================================
+
+BOTH ARTICLES MISSING:
+  - Explicit FAQ H2 section (most direct path to PAA box placement)
+  - Gi vs. No-Gi comparison subsection (common query modifier)
+  - 10th Planet system context sidebar/section
+
+BOTTOM.MD SPECIFIC GAPS:
+  - No inline definition of the Granby Roll (most-referenced technique)
+  - No inline definition of the Sit-Through Escape (highest attempt rate: 26%)
+  - No explanation of the Carni → Mission Control → New York sequence
+  - No comparison to static turtle defense
+
+HUB PAGE (JSON) SPECIFIC GAPS:
+  - Etymology FAQ for the position name (very searchable)
+  - Turtle vs. Crackhead Control comparison section
+  - Explicit submissions listing with probabilities
+  - 10th Planet system integration context
+
+=============================================================================
+HEADING OPTIMIZATIONS SUMMARY
+=============================================================================
+
+BOTTOM.MD (5 headings to convert to question format):
+  "Position Definition"            → "What Is the Crackhead Control Bottom Position in BJJ?"
+  "Key Defensive Principles"       → "How Do You Defend Crackhead Control Bottom in BJJ?"
+  "Decision Making from Position"  → "How Do You Escape Crackhead Control Bottom in BJJ?"
+  "Common Defensive Mistakes"      → "What Are the Most Common Mistakes in Crackhead Control Bottom?"
+  "Success Rates and Statistics"   → "How Effective Is Crackhead Control Bottom? (Success Rates)"
+
+HUB PAGE (5 headings to convert to question format):
+  Overview (first section)         → "What Is Crackhead Control in BJJ?"
+  Key Principles section           → "What Are the Key Principles of Crackhead Control?"
+  Top perspective section          → "How Do You Attack with Crackhead Control Top in BJJ?"
+  Bottom perspective section       → "How Do You Defend Crackhead Control Bottom in BJJ?"
+  Related Positions                → "What Positions Are Related to Crackhead Control?"
+
+=============================================================================
+SUGGESTED NEW ARTICLES
+=============================================================================
+
+These content gaps represent standalone article opportunities:
+
+  1. "Granby Roll to Guard" (if not already a full page)
+     → Justification: Primary escape from turtle bottom; referenced 4+ times without definition
+     → Target query: "What is the Granby roll in BJJ?"
+
+  2. "10th Planet Position Sequence: Crackhead Control to Mission Control"
+     → Justification: The Carni → Mission Control → New York chain is referenced in
+       transitions but no page connects the full sequence
+     → Target query: "10th Planet leg lock system positions"
+
+  3. "Turtle Defense: Crackhead Control vs. Static Turtle"
+     → Justification: Clear comparison query gap; neither existing page addresses it
+     → Target query: "crackhead control vs turtle BJJ"
+
+  4. "Chair Sit Mechanics in BJJ" (or as a section on Crackhead Control Top)
+     → Justification: Unique mechanical concept central to the position with no dedicated content
+     → Target query: "chair sit BJJ grappling"
+
+=============================================================================
+NOTES ON suggested_new_files.csv
+=============================================================================
+
+File exists at: tests/artifacts/suggested_new_files.csv
+Existing schema: triggered_by, category, suggested_name, reason
+Note: Schema differs from requested (relative_path, plan).
+      Existing schema preserved — see above article suggestions for reference.
+
+=============================================================================
