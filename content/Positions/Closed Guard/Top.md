@@ -157,11 +157,13 @@ description: "Master closed guard top with defensive posture strategies, systema
 
 <section id="overview" class="content-section">
 
-Closed Guard Top Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where you find yourself trapped inside your opponent's closed guard with their legs wrapped around your waist and ankles locked behind your back. Despite being the top player, this position places you at a significant strategic disadvantage, as your opponent possesses numerous sweep and submission options while your primary objective must be maintaining defensive posture, avoiding attacks, and working systematically toward guard opening and passing.
+**Closed Guard Top** is the defensive position where your opponent's legs are locked around your waist in **[[Positions/Closed Guard|Closed Guard]]**, trapping you and threatening sweeps and submissions. Pass completion rate: Beginner 40%, Intermediate 60%, Advanced 70%. Mandatory sequence: establish posture → fight grips → open guard → pass.
 
-Success in closed guard top requires understanding that this is fundamentally a defensive position that must be escaped through systematic progression rather than a passing position offering immediate offensive opportunity. Your ability to maintain proper posture prevents your opponent from breaking you down for attacks, while strategic grip fighting denies them the control necessary to execute sweeps and submissions. The position tests your patience, technical precision, and defensive awareness as you navigate constant threats while working toward the guard opening that enables actual passing attempts.
+Closed Guard Top Position represents one of the most challenging defensive scenarios in Brazilian Jiu-Jitsu, where you find yourself trapped inside your opponent's **[[Positions/Closed Guard|closed guard]]** with their legs wrapped around your waist and ankles locked behind your back. Despite being the top player, this position places you at a significant strategic disadvantage, as your opponent possesses numerous sweep and submission options — including the **[[Transitions/Triangle Choke|Triangle Choke]]**, **[[Transitions/Armbar from Guard|Armbar from Guard]]**, and **[[Transitions/Hip Bump Sweep|Hip Bump Sweep]]** — while your primary objective must be maintaining defensive posture, avoiding attacks, and working systematically toward guard opening and passing.
 
-The closed guard top position exemplifies the strategic complexity of Brazilian Jiu-Jitsu, where being on top does not automatically confer advantage. Understanding the systematic approach to guard opening - establishing posture, controlling grips, creating space, and opening the guard before attempting passes - separates effective guard passers from those who become trapped in defensive cycles or caught in submissions. Your success depends on balancing defensive awareness with offensive progression, creating a complex positional dynamic that requires both technical skill and strategic understanding to navigate effectively toward dominant position.
+Success in **[[Positions/Closed Guard|closed guard]] top** requires understanding that this is fundamentally a defensive position that must be escaped through systematic progression. Your ability to maintain proper posture prevents your opponent from breaking you down for **[[Transitions/Triangle Choke|Triangle Choke]]** or **[[Transitions/Armbar from Guard|Armbar from Guard]]** attacks, while strategic grip fighting denies them control for sweeps like the **[[Transitions/Hip Bump Sweep|Hip Bump Sweep]]**, **[[Transitions/Scissor Sweep|Scissor Sweep]]**, or **[[Transitions/Pendulum Sweep|Pendulum Sweep]]**. The position tests your patience, technical precision, and defensive awareness as you navigate constant threats while working toward the guard opening that enables actual passing attempts.
+
+The closed guard top position exemplifies the strategic complexity of Brazilian Jiu-Jitsu, where being on top does not automatically confer advantage. Understanding the systematic approach to guard opening — establishing posture, controlling grips, creating space, and opening the guard before attempting passes like the **[[Transitions/Toreando Pass|Toreando Pass]]** or **[[Transitions/Knee Slice Pass|Knee Slice Pass]]** — separates effective guard passers from those who become trapped in defensive cycles or caught in submissions. Your success depends on balancing defensive awareness with offensive progression, creating a complex positional dynamic that requires both technical skill and strategic understanding to navigate effectively toward dominant **[[Positions/Side Control|Side Control]]**.
 
 </section>
 
@@ -196,12 +198,12 @@ The closed guard top position exemplifies the strategic complexity of Brazilian 
 
 ## Key Offensive Principles
 
-- Posture Maintenance Priority: Keep spine straight and head over hips to prevent opponent from breaking you down for attacks - this is your primary defensive concern that enables all other technical work
-- Distance Management: Control distance with proper hand placement on hips, biceps, or collar to prevent opponent from closing space for submissions while maintaining enough connection to initiate passes
-- Base and Balance: Maintain wide base with knees spread to defend against sweeps while staying mobile for passing attempts, distributing weight through lower body rather than hands
-- Grip Fighting: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions
-- Patient Progression: Work methodically toward guard opening without rushing into vulnerable passing attempts that expose you to counters, following systematic progression from posture to grips to opening to passing
-- Defensive Awareness: Constantly monitor threats including triangle, armbar, omoplata, and sweep attempts while working toward pass, recognizing setup patterns before they develop into full attacks
+- **Posture Maintenance Priority**: Keep spine straight and head over hips to prevent opponent from breaking you down for **[[Transitions/Triangle Choke|Triangle Choke]]** or **[[Transitions/Armbar from Guard|Armbar from Guard]]** — this is your primary defensive concern
+- **Distance Management**: Control distance with proper hand placement on hips, biceps, or collar to prevent opponent from closing space for submissions while maintaining enough connection to initiate passes
+- **Base and Balance**: Maintain wide base with knees spread to defend against the **[[Transitions/Hip Bump Sweep|Hip Bump Sweep]]** and **[[Transitions/Scissor Sweep|Scissor Sweep]]** while staying mobile for passing attempts
+- **Grip Fighting**: Control opponent's grips to prevent them from establishing dominant control for attacks, breaking strong grips before they develop into attacking positions
+- **Patient Progression**: Work methodically through **[[Transitions/Guard Opening Sequence|Guard Opening Sequence]]** — posture → grips → guard open → **[[Transitions/Toreando Pass|Toreando Pass]]** or **[[Transitions/Knee Slice Pass|Knee Slice Pass]]** — without rushing into vulnerable passing attempts
+- **Defensive Awareness**: Constantly monitor threats including **[[Transitions/Triangle Choke|triangle]]**, **[[Transitions/Armbar from Guard|armbar]]**, **[[Transitions/Omoplata from Guard|omoplata]]**, and sweep attempts while working toward pass, recognizing setup patterns before they develop into full attacks
 
 
 </section>
@@ -340,6 +342,37 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 
 
 
+<section id="knowledge-assessment" class="content-section">
+
+## Frequently Asked Questions
+
+**Q1**: How do I safely open closed guard without getting submitted?
+**A**: Follow the posture-first sequence: establish upright posture with head over hips and spine straight, place hands on your opponent's hips, then open the guard using knee pressure or **[[Transitions/Stand Up in Closed Guard|standing up]]**. Never attempt to open the guard with your posture broken — this is when **[[Transitions/Triangle Choke|Triangle Choke]]** and **[[Transitions/Armbar from Guard|Armbar from Guard]]** are most available. Standing up is the safest method because it removes their ability to pull your upper body down and control your head.
+
+**Q2**: What posture do I need to maintain inside closed guard?
+**A**: Keep your spine strictly straight with your head above your hips at all times — "head over hips" is your constant cue. Your hands belong on their hips or biceps, not on the mat. Maintain a knee base wider than shoulder-width for stability against the **[[Transitions/Hip Bump Sweep|Hip Bump Sweep]]** and **[[Transitions/Scissor Sweep|Scissor Sweep]]**. When your head drops below hip level, you are in immediate danger from triangle and armbar attacks.
+
+**Q3**: How do I defend the triangle choke from closed guard top?
+**A**: Prevent it by maintaining proper upright posture — the **[[Transitions/Triangle Choke|Triangle Choke]]** requires your posture to be broken first to isolate one arm. If they pull your head down, immediately push your hips back and drive your chest forward to recover. If caught in the early triangle setup, posture up instantly and turn to face away from the locked leg. Your posture recovery must be reflexive rather than a delayed reaction to their setup.
+
+**Q4**: How do I pass closed guard efficiently?
+**A**: Follow the mandatory sequence: (1) establish posture, (2) break their grips, (3) open the guard using **[[Transitions/Guard Opening Sequence|Guard Opening Sequence]]** or **[[Transitions/Standing up in Base|Standing up in Base]]**, (4) execute your pass with **[[Transitions/Toreando Pass|Toreando Pass]]**, **[[Transitions/Knee Slice Pass|Knee Slice Pass]]**, or **[[Transitions/Stack Pass|Stack Pass]]**. Never skip steps. Attempting to pass before fully opening the guard wastes energy and creates immediate counter opportunities.
+
+**Q5**: What are the highest percentage passes from closed guard?
+**A**: After opening the guard, the **[[Transitions/Toreando Pass|Toreando Pass]]** has high success rates due to speed and immediate disconnection from their guard structure. The **[[Transitions/Knee Slice Pass|Knee Slice Pass]]** works reliably when one leg is isolated. **[[Transitions/Standing up in Base|Standing up in Base]]** followed by controlling their legs gives mechanical advantage from above. The **[[Transitions/Stack Pass|Stack Pass]]** becomes effective when their submission attacks overextend their own structure.
+
+**Q6**: How do I defend the hip bump sweep from closed guard top?
+**A**: Keep your knees wide and your hips below their hip level — this makes the angle for the **[[Transitions/Hip Bump Sweep|Hip Bump Sweep]]** geometrically difficult. When you feel the bump initiate, post your hand on the mat and immediately drop your weight down. Prevention beats reaction: maintaining wide base and forward hip pressure makes it impossible for them to generate the elevation needed to flip you.
+
+**Q7**: How long does it take to pass closed guard at different skill levels?
+**A**: Beginners typically spend 2-4 minutes in closed guard top before successfully opening and passing. Intermediate practitioners open the guard in 30-60 seconds using the standing break. Advanced practitioners combine guard opening with immediate passing sequences, completing the full process within 30-60 seconds. The decisive variable is posture maintenance — consistent posture controls the timeline, while repeatedly broken posture resets the positional fight.
+
+**Q8**: What grips should I establish from closed guard top?
+**A**: Priority one is breaking their collar and sleeve grips, which pull your posture down and enable attacks. Fight these grips continuously. Establish your own grips on their hips to control distance. For guard opening, a same-side collar grip combined with opposite-side hip push is reliable. Never allow cross-collar grips to develop — these create **[[Transitions/Cross Collar Choke|Cross Collar Choke]]** threats and progressively compromise your structural posture.
+
+</section>
+
+
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -359,18 +392,20 @@ Practice standing up from closed guard, breaking the guard with proper mechanics
 
 ## Related Positions and Techniques
 
-- **[[Positions/Closed Guard]]** - Inverse position - opponent's perspective from bottom
+- **[[Positions/Closed Guard]]** - Inverse position — opponent's perspective from bottom
 - **[[Positions/Open Guard]]** - Target position after successfully opening closed guard
 - **[[Positions/Side Control]]** - Primary target position after successful guard pass
-- **[[Transitions/Guard Opening Sequence]]** - Critical transition technique for escaping closed guard top
 - **[[Positions/Combat Base]]** - Defensive posture used during guard opening attempts
+- **[[Transitions/Guard Opening Sequence]]** - Critical transition technique for escaping closed guard top
+- **[[Transitions/Standing up in Base]]** - Key transition for standing guard break approach
+- **[[Transitions/Posture Recovery]]** - Essential defensive transition for restoring structural posture
 - **[[Transitions/Stack Pass]]** - Common passing option after opening guard
 - **[[Transitions/Toreando Pass]]** - High-percentage pass after guard opening
-- **[[Positions/Triangle Control]]** - Primary submission threat from opponent in this position
-- **[[Transitions/Hip Bump Sweep]]** - Common sweep threat from opponent in this position
 - **[[Transitions/Knee Slice Pass]]** - Fundamental pass used after guard is opened
-- **[[Transitions/Standing up in Base]]** - Key transition for standing guard break approach
-- **[[Transitions/Posture Recovery]]** - Essential defensive transition maintaining top position
+- **[[Transitions/Triangle Choke]]** - Primary submission threat you must prevent with posture
+- **[[Transitions/Armbar from Guard]]** - Second-highest submission threat from broken posture
+- **[[Transitions/Hip Bump Sweep]]** - Primary sweep threat requiring wide base defense
+- **[[Transitions/Scissor Sweep]]** - Common sweep threat from closed guard bottom
 
 
 </section>
