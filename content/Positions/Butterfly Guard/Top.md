@@ -157,13 +157,15 @@ description: "Navigate Butterfly Guard Top in BJJ. Passing strategies against ho
 
 <section id="overview" class="content-section">
 
-Butterfly Guard Top represents a challenging defensive scenario where the top player must navigate constant sweeping threats while attempting to advance position and pass the guard. From the top perspective, facing butterfly guard requires excellent balance, base management, and understanding of passing mechanics to neutralize the bottom player's hooks and elevation capabilities. The top player faces an opponent with inside position via hooks, superior angles for off-balancing, and constant threat of explosive sweeps that can immediately reverse position.
+**Butterfly Guard Top** is the scenario where you attempt to pass an opponent playing **[[Positions/Butterfly Guard|Butterfly Guard]]** — a seated guard with hooks inserted under your thighs creating explosive sweep threats. Pass completion rate: Beginner 35%, Intermediate 50%, Advanced 65%. Key requirements: base mechanics, grip fighting, and hook-neutralization strategy.
+
+Butterfly Guard Top represents a challenging defensive scenario where the top player must navigate constant sweeping threats while attempting to advance position and pass the guard. From the top perspective, facing **[[Positions/Butterfly Guard|butterfly guard]]** requires excellent balance, **[[Positions/Combat Base|combat base]]** management, and understanding of passing mechanics to neutralize the bottom player's hooks and elevation capabilities. The top player faces an opponent with inside hook position, superior angles for off-balancing, and constant threat of the **[[Transitions/Butterfly Sweep|Butterfly Sweep]]** that can immediately reverse position.
 
 The fundamental challenge of butterfly guard top lies in managing the dual threat of the hooks providing elevator pressure from below while dealing with the bottom player's upper body control through grips. The hooks create a mechanical disadvantage by positioning leverage points directly under your center of mass, making traditional pressure passing more difficult and risky. Simultaneously, the seated bottom player can establish strong grips on collar, sleeves, or underhooks that break your posture and control your movement. This combination forces the top player to be methodical and strategic rather than relying purely on pressure and athleticism.
 
-From a tactical perspective, passing butterfly guard requires specific technical approaches that differ from passing other guards. The primary strategies involve clearing or neutralizing the hooks through distance management, establishing over-under configurations, or transitioning to standing passes. Successful top players use grip fighting to prevent the bottom player from establishing dominant upper body control, maintain proper posture to avoid being pulled off-balance, and time passing movements with moments when the bottom player's hooks are less effective. The position rewards patience and technical precision over aggressive, forceful passing attempts.
+From a tactical perspective, passing **[[Positions/Butterfly Guard|butterfly guard]]** requires specific technical approaches that differ from passing other guards. The primary strategies involve clearing or neutralizing the hooks through distance management, establishing over-under configurations for the **[[Transitions/Over-Under Pass|Over-Under Pass]]**, or transitioning to standing passes like the **[[Transitions/Toreando Pass|Toreando Pass]]** or **[[Transitions/Long Step Pass|Long Step Pass]]**. Successful top players use grip fighting to prevent the bottom player from establishing dominant upper body control, maintain proper posture to avoid being pulled off-balance, and time passing movements with moments when the bottom player's hooks are less effective. The position rewards patience and technical precision over aggressive, forceful passing attempts.
 
-Elite competitors approach butterfly guard top by viewing it as an opportunity to bait reactions and capitalize on the bottom player's offensive attempts. When the bottom player commits to sweeps or transitions, brief moments of vulnerability emerge where quick passing opportunities present themselves. Understanding the timing and mechanics of butterfly guard attacks allows the top player to anticipate and counter these attempts, turning defensive situations into offensive opportunities. Success from top requires reading the bottom player's intentions, managing distance and grips strategically, and executing precise passing sequences when windows of opportunity appear.
+Elite competitors approach butterfly guard top by viewing it as an opportunity to bait reactions and capitalize on the bottom player's offensive attempts. When the bottom player commits to sweeps or transitions to **[[Positions/X-Guard|X-Guard]]**, brief moments of vulnerability emerge where quick passing opportunities present themselves. Understanding the timing and mechanics of butterfly guard attacks — including the **[[Transitions/Butterfly Sweep|Butterfly Sweep]]** and guard transitions — allows the top player to anticipate and counter these attempts, turning defensive situations into offensive opportunities. Success from top requires reading the bottom player's intentions, managing distance and grips strategically, and executing precise passing sequences when windows of opportunity appear.
 
 </section>
 
@@ -196,13 +198,13 @@ Elite competitors approach butterfly guard top by viewing it as an opportunity t
 
 ## Key Offensive Principles
 
-- Maintain strong base with wide stance and low center of gravity to resist elevation attempts from hooks
-- Control grips strategically to prevent opponent from establishing dominant upper body control that enables sweeps
+- Maintain strong base with wide stance and low center of gravity to resist elevation attempts from hooks — **[[Positions/Combat Base|Combat Base]]** is your primary defensive posture
+- Control grips strategically to prevent opponent from establishing dominant upper body control that enables the **[[Transitions/Butterfly Sweep|Butterfly Sweep]]**
 - Keep proper posture with chest up and hips back to avoid being pulled forward into optimal sweeping range
-- Clear or neutralize hooks through distance management, over-under control, or transition to standing passes
-- Time passing movements with opponent's offensive attempts when their structure is temporarily compromised
-- Avoid committing weight forward excessively which makes you vulnerable to explosive elevation sweeps
-- Transition fluidly between combat base, standing, and passing configurations based on opponent's reactions
+- Clear or neutralize hooks through distance management, over-under control for the **[[Transitions/Over-Under Pass|Over-Under Pass]]**, or transition to standing passes
+- Time passing movements with opponent's offensive attempts — the **[[Transitions/Butterfly Pass|Butterfly Pass]]** and **[[Transitions/Knee Slice Pass|Knee Slice Pass]]** are highest percentage when structure is momentarily compromised
+- Avoid committing weight forward excessively, which makes you vulnerable to explosive elevation sweeps and guard transitions to **[[Positions/X-Guard|X-Guard]]**
+- Transition fluidly between **[[Positions/Combat Base|combat base]]**, standing, and passing configurations based on opponent's reactions
 
 
 </section>
@@ -328,6 +330,34 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 
 
+<section id="knowledge-assessment" class="content-section">
+
+## Frequently Asked Questions
+
+**Q1**: How do I stop butterfly sweeps when I am on top?
+**A**: Maintain a wide, low base with weight distributed through your knees rather than leaning forward. Keep your hips back and chest upright — leaning into your opponent's hooks provides the elevation momentum needed for the **[[Transitions/Butterfly Sweep|Butterfly Sweep]]**. Fight for your own grips on their hips or sleeves to neutralize their upper body control. When you feel a sweep initiate, post your outside hand, lower your hips, and use their committed movement to time a passing counter.
+
+**Q2**: What is the best way to pass butterfly guard in BJJ?
+**A**: The most reliable approach uses the over-under control system: secure an underhook on one side and an overhook on the other, then drive with your underhook side to flatten your opponent. The **[[Transitions/Butterfly Pass|Butterfly Pass]]** works by circling your head outside while establishing over-under grips. The **[[Transitions/Knee Slice Pass|Knee Slice Pass]]** targets moments when one hook is shallow or removed. The **[[Transitions/Double Under Pass|Double Under Pass]]** requires first neutralizing both hooks by controlling your opponent's legs before driving forward.
+
+**Q3**: How do I break my opponent's butterfly hooks?
+**A**: Rather than pulling hooks outward (which strengthens them), push your knees together and forward toward your opponent's centerline to compromise the hook angle. Creating distance by stepping back removes the hooks entirely and sets up standing passes like the **[[Transitions/Toreando Pass|Toreando Pass]]** or **[[Transitions/Long Step Pass|Long Step Pass]]**. The **[[Transitions/Over-Under Pass|Over-Under Pass]]** bypasses hooks entirely by controlling your opponent's body structure rather than fighting the hooks directly.
+
+**Q4**: Should I stand up or stay kneeling against butterfly guard?
+**A**: Stand up when your opponent has strong hooks and dominant grips preventing kneeling passes — standing removes the hooks' effectiveness because the elevation angle is lost from above. From standing, the **[[Transitions/Toreando Pass|Toreando Pass]]** and **[[Transitions/Long Step Pass|Long Step Pass]]** are high-percentage. Stay kneeling when your opponent's structure is compromised, during their sweep attempts when they momentarily lose position, or when you've achieved over-under control and can flatten them directly.
+
+**Q5**: What grips should I fight for from butterfly guard top?
+**A**: Prioritize breaking your opponent's collar and sleeve grips first — these control your posture and enable their sweeps. Then establish your own underhook on one side to block sweeps, and wrist or bicep control on the other side. Work toward the over-under passing configuration. Avoid gripping low on their body (pants, ankles) as this pulls you forward into the hooks' effective elevation range.
+
+**Q6**: What happens when my opponent transitions from butterfly guard to X-Guard?
+**A**: Recognize the transition early by watching for them to insert a second hook or rotate their hips underneath you. When you detect butterfly-to-**[[Positions/X-Guard|X-Guard]]** movement, step back immediately to create distance before the second hook establishes. If caught in **[[Positions/X-Guard|X-Guard]]**, priority switches to a standing escape. Prevention is better than reaction: consistent base and distance management stops their guard transitions before they develop.
+
+**Q7**: What is the biggest mistake people make from butterfly guard top?
+**A**: Committing too much weight forward is the most common and costly error. When you lean into your opponent's hooks and upper body grips, you provide the forward momentum they need for the **[[Transitions/Butterfly Sweep|Butterfly Sweep]]**. Treat butterfly guard top as a balance challenge: keep your hips back, weight evenly distributed, and chest upright. Every time your posture breaks forward, you create a sweeping opportunity. Patience and technical precision beat athletic pressure from this position.
+
+</section>
+
+
 <section id="position-metrics" class="content-section">
 
 ## Success Rates and Statistics
@@ -349,9 +379,15 @@ Partner initiates common butterfly sweeps while you practice recognizing the ini
 
 - **[[Positions/Side Control]]** - Primary target position after successfully passing butterfly guard
 - **[[Positions/Half Guard]]** - Common intermediate position when butterfly pass is partially successful
-- **[[Positions/Combat Base]]** - Fundamental position for maintaining base and stability against butterfly guard attacks
+- **[[Positions/Combat Base]]** - Fundamental defensive posture for maintaining base and stability against butterfly hooks
 - **[[Positions/Headquarters Position]]** - Alternative controlling position when disengaging from butterfly guard hooks
 - **[[Positions/Open Guard]]** - Tactical option for clearing hooks and transitioning to standing passes
+- **[[Positions/X-Guard]]** - Guard transition to defend against when bottom player starts rotating hips
+- **[[Transitions/Butterfly Pass]]** - Primary passing technique targeting over-under hook control
+- **[[Transitions/Over-Under Pass]]** - High-percentage pass that bypasses hooks through body control
+- **[[Transitions/Knee Slice Pass]]** - Effective when one hook is shallow or opponent transitions to single hook
+- **[[Transitions/Toreando Pass]]** - Standing pass option after stepping back to clear both hooks
+- **[[Transitions/Butterfly Sweep]]** - Primary sweep threat you must defend from this position
 
 
 </section>
