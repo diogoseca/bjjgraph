@@ -4,7 +4,7 @@
 
 ---
 title: "Collar Sleeve Guard Bottom | BJJ Position Guide | BJJ Graph"
-description: "Control opponent with cross-collar and sleeve grips. Learn sweep mechanics, triangle entries, and off-balancing principles from collar sleeve guard bottom position."
+description: "How to play collar sleeve guard in BJJ. Learn sweep mechanics, triangle entries, and off-balancing principles using cross-collar and sleeve grips from the bottom position."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Collar Sleeve Guard Bottom",
-  "description": "Control opponent with cross-collar and sleeve grips. Learn sweep mechanics, triangle entries, and off-balancing principles from collar sleeve guard bottom position.",
+  "description": "How to play collar sleeve guard in BJJ. Learn sweep mechanics, triangle entries, and off-balancing principles using cross-collar and sleeve grips from the bottom position.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -156,6 +156,8 @@ description: "Control opponent with cross-collar and sleeve grips. Learn sweep m
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+**Collar sleeve guard bottom** is one of the most effective open guard positions in gi BJJ, using a cross-collar grip plus a same-side sleeve grip to create off-balancing forces, sweeps, and triangle entries. Stats: 72% guard retention, 62% sweep or advancement success, 48% direct submission probability. Available to all belt levels; requires grip strength, active hip movement, and understanding of attack chains.
 
 From the bottom perspective, collar sleeve guard represents an active offensive position where you control the engagement through strategic grip placement and systematic attack sequencing. Your primary objective is to break the opponent's posture using the collar grip while the sleeve grip prevents them from establishing base or advancing their position.
 

@@ -4,7 +4,7 @@
 
 ---
 title: "Collar Sleeve Guard Top | BJJ Position Guide | BJJ Graph"
-description: "Defend and pass collar sleeve guard from top position. Learn grip breaking, posture maintenance, and systematic passing strategies against collar sleeve attacks."
+description: "How to pass collar sleeve guard in BJJ. Learn grip breaking, posture maintenance, and systematic passing strategies to advance from top position to side control."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Collar Sleeve Guard Top",
-  "description": "Defend and pass collar sleeve guard from top position. Learn grip breaking, posture maintenance, and systematic passing strategies against collar sleeve attacks.",
+  "description": "How to pass collar sleeve guard in BJJ. Learn grip breaking, posture maintenance, and systematic passing strategies to advance from top position to side control.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -156,6 +156,8 @@ description: "Defend and pass collar sleeve guard from top position. Learn grip 
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+**Collar sleeve guard top** is the passing position in gi BJJ where you must break cross-collar and sleeve grips while maintaining upright posture to advance past the guard. Stats: 68% retention rate (avoiding sweeps), 62% guard pass success to side control, 30% direct submission probability. A medium-difficulty challenge requiring posture maintenance, proactive grip fighting, and recognition of sweep and triangle threats.
 
 From the top perspective, facing collar sleeve guard requires systematic grip fighting, posture maintenance, and strategic passing that neutralizes the bottom player's grip-based control. Your primary challenges are preventing the opponent from establishing their preferred grip structure and maintaining base while initiating passing sequences that don't expose you to sweeps or submissions.
 

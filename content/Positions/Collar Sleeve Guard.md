@@ -4,7 +4,7 @@
 
 ---
 title: "Collar Sleeve Guard | BJJ Position Guide | BJJ Graph"
-description: "Master collar sleeve guard in BJJ. Comprehensive guide covering grip control, off-balancing mechanics, sweeps, and triangle setups with strategic analysis for competition."
+description: "What is collar sleeve guard in BJJ? Master cross-collar and sleeve grip attacks including sweeps, triangles, and omoplatas. Complete guide for both guard and passing perspectives."
 ---
 
 
@@ -21,6 +21,8 @@ description: "Master collar sleeve guard in BJJ. Comprehensive guide covering gr
 </div>
 
 <section id="overview" class="content-section">
+
+**Collar sleeve guard** is a gi BJJ open guard that combines a cross-collar grip with a same-side sleeve grip to create powerful off-balancing, sweeps, and triangle entries. Guard retention: 72%; sweep or advancement: 62%; direct submission: 48%. Available at all belt levels and suitable for all body types, making it one of the most accessible and effective systematic open guards in competition.
 
 Collar sleeve guard is a fundamental open guard variation that combines a collar grip (typically cross-collar) with a same-side sleeve grip to create powerful off-balancing and sweeping opportunities. This guard is characterized by its asymmetric grip structure, which generates rotational forces that disrupt the opponent's base while maintaining distance control through the extended sleeve grip.
 
