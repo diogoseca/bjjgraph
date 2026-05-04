@@ -4,7 +4,7 @@
 
 ---
 title: "Inside Ashi-Garami Bottom | BJJ Position Guide | BJJ Graph"
-description: "Foundational leg entanglement attacking position with heel control mechanics and systematic progression to advanced submissions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%."
+description: "Inside Ashi-Garami bottom: systematic leg entanglement for ankle locks, heel hooks, and Saddle advancement. Beginner 35%, Intermediate 50%, Advanced 70%."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Foundational leg entanglement attacking position with heel control
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Inside Ashi-Garami Bottom",
-  "description": "Foundational leg entanglement attacking position with heel control mechanics and systematic progression to advanced submissions. Success rates: Beginner 35%, Intermediate 50%, Advanced 70%.",
+  "description": "Inside Ashi-Garami bottom: systematic leg entanglement for ankle locks, heel hooks, and Saddle advancement. Beginner 35%, Intermediate 50%, Advanced 70%.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,11 +157,7 @@ description: "Foundational leg entanglement attacking position with heel control
 
 <section id="overview" class="content-section">
 
-Inside Ashi-Garami Bottom is the foundational leg entanglement position where the attacker controls one of the opponent's legs between their own legs while positioned on their back or side. The position is characterized by the outside leg hooking around the opponent's trapped leg with control of the heel, while the inside leg is positioned across the opponent's hip to control distance and prevent escape.
-
-Inside Ashi-Garami serves as the foundational position for modern leg lock attacks and is the entry point for more advanced leg entanglements. The position requires technical precision and safety awareness, particularly when applying heel hooks. Proper training progression emphasizes mastering straight ankle locks before advancing to heel hook attacks.
-
-This position has become increasingly prominent in modern no-gi competition, serving as both an attacking platform and a transitional hub to more dominant leg entanglement configurations. Understanding Inside Ashi-Garami is essential for any practitioner seeking to develop a comprehensive leg lock game while maintaining safety and control throughout the engagement.
+Inside Ashi-Garami Bottom is the foundational attacking leg entanglement position where the practitioner controls one of the opponent's legs between their own while positioned on their back or side. The position is characterized by the outside leg hooking around the opponent's trapped leg with control of the heel, while the inside leg is positioned across the opponent's hip to control distance and prevent escape. This configuration provides direct access to straight ankle locks, heel hooks (where permitted), kneebars, and toe holds while serving as a transitional hub to [[Positions/Ashi Garami/Saddle]], [[Positions/Ashi Garami/Honey Hole]], and [[Positions/Ashi Garami/Cross Ashi-Garami]]. Common entries to Inside Ashi-Garami Bottom include: from [[Positions/Ashi Garami/Outside Ashi-Garami]] by threading the inside leg across the hip, from [[Positions/X-Guard]] by lowering the hook and securing heel control, from [[Positions/K-Guard]] inversion directly to inside entanglement, and from standing by shooting inside on an opponent's leg and sitting to the entanglement. The primary grip sequence: first secure the C-grip on opponent's heel (four fingers on heel bone, thumb on Achilles), establish inside leg across their hip, then hook outside leg behind their knee. This three-point control structure prevents rotation, extraction, and defensive posturing simultaneously. When opponent rotates their knee outward, flow to [[Positions/Ashi Garami/Outside Ashi-Garami]] or capitalize on straight ankle lock opportunities. When opponent rotates knee inward, advance to [[Positions/Ashi Garami/Honey Hole]] or [[Positions/Ashi Garami/Saddle]] using the figure-four grip. The position requires technical precision and safety awareness—mastering straight ankle locks before advancing to heel hook attacks is essential for both safety and technical development. Success rates reflect the technical demands: Beginner 35%, Intermediate 50%, Advanced 70%. Inside Ashi-Garami Bottom has become increasingly prominent in modern no-gi competition as both an attacking platform and transitional hub to more dominant leg entanglement configurations.
 
 </section>
 
@@ -196,13 +192,12 @@ This position has become increasingly prominent in modern no-gi competition, ser
 
 ## Key Defensive Principles
 
-- Secure heel control with proper gripping - C-grip or figure-four depending on submission target
-- Use inside leg to control distance and hip positioning - this is your defensive frame
-- Maintain mobile hips for angle creation and attacks - static hips lead to escapes
-- Control opponent's knee line with outside leg - prevent knee rotation
-- Transition fluidly between submissions and positions - leg locks are a system, not isolated techniques
-- Keep chest connection to opponent's leg - breaking this connection loses control
-- SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication
+- Secure heel control with C-grip (four fingers on heel, thumb on Achilles) or figure-four grip depending on submission target—heel control is the foundation of all attacks from this position
+- Use inside leg across opponent's hip to control distance and prevent escape—this defensive frame is the key distinction from [[Positions/Ashi Garami/Outside Ashi-Garami]] and must be maintained actively
+- Maintain mobile hips for angle creation and attacks—static hips lead to easy escapes and prevent advancement to [[Positions/Ashi Garami/Saddle]] or [[Positions/Ashi Garami/Honey Hole]]
+- Control opponent's knee line with outside leg—prevent knee rotation that allows escape or defeats submission mechanics
+- Transition fluidly between submissions and positions—flow to [[Positions/Ashi Garami/Honey Hole]] when opponent defends ankle lock, to [[Positions/Ashi Garami/Outside Ashi-Garami]] when hip frame is cleared
+- Safety first: always apply leg locks slowly and progressively—master ankle locks before attempting heel hooks to prevent MCL and ACL injuries
 
 
 </section>
@@ -367,15 +362,15 @@ Partner attempts common escapes (heel extraction, knee rotation, hip escape, bac
 
 ## Related Positions and Techniques
 
-- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target - more dominant leg entanglement
-- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Common transition when inside heel is defended
-- **[[Positions/Ashi Garami/50-50 Guard]]** - Mirror entanglement that can develop from Inside Ashi
-- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Alternative leg entanglement configuration
-- **[[Positions/Kneebar Control]]** - Submission position when opponent extends leg
-- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg control position with different strategic purpose
-- **[[Submissions/Straight Ankle Lock]]** - Foundational submission from this position
-- **[[Submissions/Inside Heel Hook]]** - Advanced submission requiring proper training progression
-- **[[Positions/Leg Entanglement]]** - Core conceptual framework for understanding position
+- **[[Positions/Ashi Garami/Saddle]]** - Primary advancement target - more dominant leg entanglement with superior heel control
+- **[[Positions/Ashi Garami/Outside Ashi-Garami]]** - Common transition when inside heel is defended or hip frame is cleared
+- **[[Positions/Ashi Garami/50-50 Guard]]** - Mirror entanglement that can develop from Inside Ashi when opponent counter-entangles
+- **[[Positions/Ashi Garami/Cross Ashi-Garami]]** - Alternative leg entanglement configuration with different heel attack angles
+- **[[Positions/Kneebar Control]]** - Submission position when opponent extends leg to create distance
+- **[[Positions/X-Guard/Single Leg X-Guard]]** - Related leg control position with different strategic purpose—sweeps over submissions
+- **[[Submissions/Straight Ankle Lock]]** - Foundational submission from this position—master before progressing to heel hooks
+- **[[Submissions/Inside Heel Hook]]** - Advanced submission requiring proper training progression—ankle locks first
+- **[[Positions/Leg Entanglement]]** - Core conceptual framework for understanding position within the broader system
 - **[[Positions/Ashi Garami]]** - Parent position family for all ashi variations
 
 
