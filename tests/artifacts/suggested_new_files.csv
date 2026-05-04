@@ -1,2 +1,7 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+paa_optimization,Positions,content/Positions/Ashi Garami/Outside Ashi-Garami.json,"Hub + Top/Bottom. Captures 'outside ashi garami BJJ' queries. Missing baseline entry point for hierarchy; referenced throughout Ashi Garami family but no dedicated hub page yet."
+paa_optimization,Positions,content/Positions/Ashi Garami/Cross Ashi-Garami.json,"Hub + Top/Bottom. Fills hierarchy gap between Inside Ashi and Saddle. High-value for 'cross ashi garami heel hook' queries."
+paa_optimization,Transitions,content/Transitions/Ashi Garami Escape.json,"Transition node for backstep and hip-rotation escape sequence. Captures 'how to escape leg entanglement BJJ' queries. Referenced in Ashi Garami top transitions."
+paa_optimization,Positions,content/Positions/Ashi Garami/Backside 50-50.json,"Hub + Top/Bottom. Captures 'backside 50-50 BJJ' emerging queries. Completes the Ashi Garami family hierarchy."
+paa_optimization,Positions,content/Positions/Ashi Garami/Ushiro Ashi-Garami.json,"Hub + Top/Bottom. Niche but strong entity completeness for the graph. Completes the Ashi Garami family."

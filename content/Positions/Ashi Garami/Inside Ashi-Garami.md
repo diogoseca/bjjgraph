@@ -22,11 +22,7 @@ description: "Master Inside Ashi-Garami in BJJ. Foundational leg entanglement fo
 
 <section id="overview" class="content-section">
 
-Inside Ashi-Garami is the foundational leg entanglement position in modern no-gi Brazilian Jiu-Jitsu, serving as the entry point for systematic leg attack systems. The position is characterized by controlling one of the opponent's legs between your own legs while maintaining inside leg position across their hip. This configuration provides direct access to straight ankle locks, heel hooks, and kneebars while serving as a transitional hub to more advanced leg entanglements like saddle and honey hole.
-
-The "inside" designation refers to the positioning of the controlling leg closest to the opponent's body being placed across their near hip rather than their far hip, which distinguishes it from outside ashi-garami. This inside positioning provides superior control over the opponent's hip movement and creates direct pathways to more dominant positions. The position excels in creating offensive opportunities while maintaining relatively safe positioning for the attacker.
-
-Inside Ashi-Garami has become essential in modern competition grappling, particularly in submission-only and ADCC rule sets where leg attacks are unrestricted. The position requires technical precision and systematic training progression, with practitioners typically mastering straight ankle locks before advancing to heel hook attacks. Understanding Inside Ashi-Garami from both bottom and top perspectives is crucial for developing a comprehensive leg lock game while maintaining safety and control throughout all engagements.
+**Inside Ashi-Garami** is the foundational leg entanglement position in modern no-gi BJJ, serving as the primary entry point for systematic leg attack systems. The position controls one of the opponent's legs between your own, with the inside leg placed across their near hip—providing direct access to straight ankle locks, heel hooks (where permitted), and kneebars while serving as a transitional hub to [[Positions/Ashi Garami/Saddle]] and [[Positions/Ashi Garami/Honey Hole]]. The "inside" designation distinguishes it from [[Positions/Ashi Garami/Outside Ashi-Garami]]: in Inside Ashi-Garami, the controlling leg is placed across the opponent's near (inside) hip, giving superior rotational control and direct advancement paths toward [[Positions/Ashi Garami/Cross Ashi-Garami]] and [[Positions/Ashi Garami/Saddle]]. In [[Positions/Ashi Garami/Outside Ashi-Garami]], the leg crosses the far hip—a more basic entry with less control and fewer submission pathways. Inside Ashi-Garami offers better hip rotation control through its inside leg positioning, making it harder for the opponent to escape and providing more direct routes to dominant finishing positions. Inside Ashi-Garami is also distinct from Single Leg X-Guard: they share leg-hook mechanics, but Inside Ashi-Garami prioritizes horizontal leg control for submissions with the inside leg across the hip to prevent rotation, while Single Leg X-Guard prioritizes elevation for sweeps with hooks designed to lift and off-balance the opponent. Common entries include: threading the inside leg from [[Positions/Ashi Garami/Outside Ashi-Garami]] across the hip, lowering the hook from [[Positions/X-Guard]] to secure heel control, [[Positions/K-Guard]] inversion directly to inside entanglement, and standing shots to Inside Ashi from clinch or failed takedown defense. From Inside Ashi-Garami, the primary submissions are the straight ankle lock (most accessible, legal at IBJJF blue belt and above), inside heel hook (advanced, prohibited in standard IBJJF events), toe hold, and kneebar. The position also serves as a launching pad to advance to [[Positions/Ashi Garami/Saddle]] or [[Positions/Ashi Garami/Honey Hole]] for inside heel hook finishes when the opponent rotates their knee inward to defend. Safety notice—heel hook progression: Straight ankle locks must be mastered before attempting heel hooks from this position. The inside heel hook targets the medial knee ligaments (MCL and ACL) and can cause serious injury without proper training progression—progress gradually under qualified instruction, mastering ankle locks for a minimum of 6-12 months before attempting heel hooks. Competition legality: Inside Ashi-Garami as a control position is universally legal. IBJJF permits straight ankle locks for adult blue belts and above but prohibits heel hooks in all standard events. ADCC and submission-only formats typically permit all leg attacks from Inside Ashi-Garami. The position was systematized in modern BJJ by John Danaher and the Danaher Death Squad including Gordon Ryan, Garry Tonon, and Eddie Cummings. Understanding Inside Ashi-Garami from both offensive and defensive perspectives is essential for any complete no-gi game.
 
 </section>
 
@@ -35,17 +31,17 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Key Principles
 
 
-- Inside leg position across opponent's hip controls rotation and prevents defensive posturing
+- Inside leg position across opponent's near hip controls rotation and prevents defensive posturing, providing the superior control that distinguishes Inside Ashi-Garami from [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
-- Outside leg hooks behind opponent's knee to secure leg and prevent extraction
+- Outside leg hooks behind opponent's knee to secure leg position and prevent extraction throughout all transitions and submission attempts
 
-- Perpendicular body alignment maximizes mechanical advantage for submissions
+- Perpendicular body alignment at 90 degrees maximizes mechanical advantage for submissions and positional advancement toward [[Positions/Ashi Garami/Saddle]]
 
-- Heel control with proper gripping (C-grip or figure-four) is fundamental to all attacks
+- Heel control with proper gripping (C-grip or figure-four) is fundamental to all attacks—establish heel control before attempting any submission
 
-- Position serves as transitional hub to more advanced entanglements based on opponent reactions
+- Position serves as transitional hub to [[Positions/Ashi Garami/Honey Hole]], [[Positions/Ashi Garami/Saddle]], and [[Positions/Ashi Garami/Cross Ashi-Garami]] based on opponent defensive reactions
 
-- Safety-first progression: master ankle locks before attempting heel hooks under qualified instruction
+- Safety-first progression: master straight ankle locks for 6-12 months before attempting heel hooks under qualified instruction to prevent MCL and ACL injuries
 
 
 </section>
@@ -80,19 +76,17 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Key Principles
 
 
-- Secure heel control with proper gripping - C-grip or figure-four depending on submission target
+- Secure heel control with C-grip (four fingers on heel, thumb on Achilles) or figure-four grip depending on submission target—heel control is the foundation of all attacks from this position
 
-- Use inside leg to control distance and hip positioning - this is your defensive frame
+- Use inside leg across opponent's hip to control distance and prevent escape—this defensive frame is the key distinction from [[Positions/Ashi Garami/Outside Ashi-Garami]] and must be maintained actively
 
-- Maintain mobile hips for angle creation and attacks - static hips lead to escapes
+- Maintain mobile hips for angle creation and attacks—static hips lead to easy escapes and prevent advancement to [[Positions/Ashi Garami/Saddle]] or [[Positions/Ashi Garami/Honey Hole]]
 
-- Control opponent's knee line with outside leg - prevent knee rotation
+- Control opponent's knee line with outside leg—prevent knee rotation that allows escape or defeats submission mechanics
 
-- Transition fluidly between submissions and positions - leg locks are a system, not isolated techniques
+- Transition fluidly between submissions and positions—flow to [[Positions/Ashi Garami/Honey Hole]] when opponent defends ankle lock, to [[Positions/Ashi Garami/Outside Ashi-Garami]] when hip frame is cleared
 
-- Keep chest connection to opponent's leg - breaking this connection loses control
-
-- SAFETY FIRST: Always apply leg locks slowly and progressively with constant communication
+- Safety first: always apply leg locks slowly and progressively—master ankle locks before attempting heel hooks to prevent MCL and ACL injuries
 
 
 ### Available Transitions
@@ -173,17 +167,17 @@ Inside Ashi-Garami has become essential in modern competition grappling, particu
 ### Key Principles
 
 
-- Inside Leg Control: Maintain inside leg across opponent's hip to prevent rotation and maintain inside position, blocking their ability to face you and create defensive frames
+- Inside Leg Control: Maintain inside leg across opponent's near hip to prevent rotation and maintain inside position, providing the superior control that distinguishes Inside Ashi-Garami from [[Positions/Ashi Garami/Outside Ashi-Garami]]
 
 - Outside Leg Hook: Keep outside leg hooked behind opponent's knee to prevent leg extraction and control knee flexion, ensuring trapped leg cannot straighten
 
-- Hip Elevation: Elevate hips to create pressure and improve submission leverage while maintaining connection to opponent's leg through both your legs
+- Hip Elevation: Elevate hips to create pressure and improve submission leverage while maintaining connection—use structural pressure from position rather than constant muscular effort
 
-- Distance Management: Control distance between bodies to facilitate attacks while preventing counters and maintaining safe positioning away from opponent's hands
+- Distance Management: Control distance between bodies to facilitate attacks while preventing counters, maintaining safe positioning away from opponent's hands
 
-- Progressive Control: Build from basic control to advanced entanglements systematically, advancing only when control is secure and opponent's defensive options are limited
+- Progressive Control: Advance systematically to [[Positions/Ashi Garami/Honey Hole]], [[Positions/Ashi Garami/Saddle]], or [[Positions/Ashi Garami/Cross Ashi-Garami]] when control is secure and opponent's defensive options are limited
 
-- Perpendicular Alignment: Maintain approximately 90-degree body angle to opponent to maximize mechanical advantage for submissions and position advancement
+- Perpendicular Alignment: Maintain approximately 90-degree body angle to opponent to maximize mechanical advantage for submissions and make opponent's defensive knee rotation into an advancement trigger
 
 
 ### Available Transitions

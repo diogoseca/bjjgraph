@@ -1,0 +1,123 @@
+{
+  "article_path": "content/Positions/Ashi Garami.json",
+  "seed_keyword": "Ashi Garami",
+  "data_source": "domain_knowledge_synthesis",
+  "data_source_note": "WebSearch/DataForSEO unavailable (permissions not granted). PAA questions synthesized from BJJ domain knowledge and common search patterns. Replace with live DataForSEO output when available.",
+  "paa_questions": [
+    {
+      "question": "What does Ashi Garami mean?",
+      "answer_snippet": "Ashi Garami (足絡み) is a Japanese term meaning 'leg entanglement.' In BJJ and submission grappling, it refers to a family of positions where one or both practitioners control the opponent's legs in a hooking configuration designed to expose the heel for ankle locks and heel hooks. The term originates from Judo's newaza (ground work) tradition.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is Ashi Garami in BJJ?",
+      "answer_snippet": "In BJJ, Ashi Garami refers to a family of leg entanglement positions that form the foundation of modern leg lock systems. These positions control the opponent's leg horizontally, neutralizing size advantages, and provide access to ankle locks, heel hooks, kneebars, and toe holds. The family includes Outside Ashi, Inside Ashi, Cross Ashi, Saddle (Honey Hole), 50-50 Guard, and others.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the hierarchy of Ashi Garami positions?",
+      "answer_snippet": "The Ashi Garami positional hierarchy from least to most dominant is: Outside Ashi-Garami (entry level) → Inside Ashi-Garami (intermediate control) → Cross Ashi-Garami (superior heel isolation) → Saddle/Honey Hole (apex, maximum heel exposure). Each level offers greater submission probability and fewer defensive options for the opponent.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Is Ashi Garami legal in IBJJF competitions?",
+      "answer_snippet": "The Ashi Garami position itself is legal, but the submissions from it vary by rule set. In IBJJF, straight ankle locks are legal from blue belt adult divisions; heel hooks and reaping are banned at all belt levels in standard competition. In ADCC and No-Gi Worlds (sub-only brackets), heel hooks from Ashi Garami are typically permitted. Always verify the specific rule set for your event.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape Ashi Garami?",
+      "answer_snippet": "The key Ashi Garami escapes are: (1) the backstep — stepping your free leg behind the attacker to clear their control, (2) hip rotation to clear the inside leg while protecting the heel, (3) standing base recovery — using posture to limit the attacker's angle creation. Always maintain a straight leg with a hidden heel throughout. Never forcefully rip the leg out, as this exposes the heel.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What are the different types of Ashi Garami?",
+      "answer_snippet": "The main Ashi Garami variations are: Outside Ashi-Garami (standard entry), Inside Ashi-Garami (inside hip control), Cross Ashi-Garami (cross-body control), Saddle/Honey Hole (dominant finishing position), 50-50 Guard (bilateral mutual entanglement), Backside 50-50 (reverse bilateral), and Ushiro Ashi-Garami (reverse entanglement). Each has distinct biomechanical advantages and submission chains.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Who popularized Ashi Garami in BJJ?",
+      "answer_snippet": "Modern Ashi Garami systems were popularized by John Danaher and his students (the Danaher Death Squad) including Gordon Ryan, Garry Tonon, Eddie Cummings, and Nicky Ryan. Dean Lister and Masakazu Imanari were earlier leg lock pioneers. The systematic positional hierarchy approach was formalized by Danaher in the mid-2010s, transforming leg locks from isolated attacks into a complete positional system.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What is inside space control in Ashi Garami?",
+      "answer_snippet": "Inside space control in Ashi Garami refers to controlling the space between your hip and the opponent's hip. The practitioner who controls this inside space can advance up the positional hierarchy toward more dominant entanglements and prevent opponent escapes. Losing inside space allows the opponent to improve their position or escape entirely.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the best submission from Ashi Garami?",
+      "answer_snippet": "The most effective submission varies by position level: straight ankle lock from Outside Ashi, inside heel hook from Inside Ashi or Cross Ashi (where rules allow), and inside or outside heel hook from Saddle. At the highest competition levels, the inside heel hook from Saddle has the highest submission percentage. For beginners, the straight ankle lock is the safest and most recommended starting point.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is 50-50 guard the same as Ashi Garami?",
+      "answer_snippet": "50-50 Guard is a specific variation within the Ashi Garami family, not synonymous with it. In 50-50, both practitioners simultaneously control each other's legs in a bilateral entanglement with symmetrical heel exposure. Generic Ashi Garami refers to the broader position family where one practitioner typically has a control advantage. 50-50 is one of the most complex and contested Ashi Garami variations.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you enter Ashi Garami from guard?",
+      "answer_snippet": "Common Ashi Garami entries from guard include: Single Leg X-Guard conversion (lower the elevation hook to leg control), De La Riva Guard leg drag to Outside Ashi, K-Guard inversion directly to Inside Ashi, and X-Guard transitions. Standing entries include sitting to Outside Ashi after a failed takedown defense or clinch leg grab.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Why is Ashi Garami effective against bigger opponents?",
+      "answer_snippet": "Ashi Garami is effective against larger opponents because the horizontal body alignment negates vertical strength and weight advantages. The leg joints (knee, ankle) are equally vulnerable regardless of size, and mechanical leverage — not strength — drives submissions. The bilateral nature of many variations means a smaller practitioner with better technique can control and submit a larger, stronger opponent.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What Is Ashi Garami? The Complete BJJ Leg Entanglement Guide",
+      "rationale": "Captures the highest-volume definitional query and sets up the hub page as the authoritative resource"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does the Ashi Garami System Work? Core Principles",
+      "rationale": "Aligns with 'how does X work' PAA pattern, signals systemic depth to search engines"
+    },
+    {
+      "current": "Variations",
+      "suggested": "What Are the Different Types of Ashi Garami?",
+      "rationale": "Directly matches the 'what are the types of X' PAA format — high SERP feature capture potential"
+    },
+    {
+      "current": "Top Position Overview (defense section)",
+      "suggested": "How Do You Defend and Escape Ashi Garami?",
+      "rationale": "Captures high-intent defensive queries; adds dual attacker/defender coverage to the page"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'What does Ashi Garami mean in English?' — top definitional query currently buried in overview",
+    "Add section: 'Ashi Garami Legality — What's Allowed in IBJJF, ADCC, and EBI?' with a clear rules table",
+    "Add section: 'Ashi Garami Positional Hierarchy Explained' with visual description of Outside→Inside→Cross→Saddle",
+    "Add section: 'How to Enter Ashi Garami — Guard Entries and Standing Entries'",
+    "Add section: 'Ashi Garami Defense and Escapes — Protecting Your Heel'",
+    "Add section: 'Who Popularized Ashi Garami? History and Key Figures'",
+    "Add FAQ: 'Is 50-50 Guard the same as Ashi Garami?' — common point of confusion"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "article_path": "content/Positions/Ashi Garami/Inside Ashi-Garami.json",
+  "seed_keyword": "Inside Ashi-Garami",
+  "data_source": "domain_knowledge_synthesis",
+  "data_source_note": "WebSearch/DataForSEO unavailable (permissions not granted). PAA questions synthesized from BJJ domain knowledge and common search patterns. Replace with live DataForSEO output when available.",
+  "paa_questions": [
+    {
+      "question": "What is Inside Ashi-Garami in BJJ?",
+      "answer_snippet": "Inside Ashi-Garami is a foundational leg entanglement position in no-gi BJJ where the attacker controls one of the opponent's legs between their own legs, with the inside leg placed across the opponent's near hip. It is the primary entry point for modern leg lock systems including ankle locks, heel hooks, and kneebars.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the difference between Inside and Outside Ashi-Garami?",
+      "answer_snippet": "In Inside Ashi-Garami, the controlling leg is placed across the opponent's near (inside) hip, giving superior rotational control and direct paths to advanced positions like Saddle. In Outside Ashi-Garami, the leg is positioned across the far hip, which is a more basic entry but offers less control and fewer submission pathways.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Is Inside Ashi-Garami the same as Single Leg X-Guard?",
+      "answer_snippet": "They are related but different. Inside Ashi-Garami prioritizes horizontal leg control for submissions, with the inside leg across the hip to prevent rotation. Single Leg X-Guard prioritizes elevation for sweeps, with hooks designed to lift and off-balance the opponent. They share leg-hook mechanics but serve different strategic purposes.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "How do you escape Inside Ashi-Garami?",
+      "answer_snippet": "The primary escapes from Inside Ashi-Garami are: (1) the backstep — circling your free leg behind the attacker to clear their inside leg, (2) hip clearing — bridging explosively to dislodge the inside leg from your hip, and (3) the toehold counter — attacking the attacker's exposed foot. All require maintaining a straight leg and hidden heel throughout.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "What submissions can you do from Inside Ashi-Garami?",
+      "answer_snippet": "From Inside Ashi-Garami you can attack the straight ankle lock (most common), inside heel hook (advanced), toe hold, and kneebar. The position also serves as a launching pad to advance to Saddle or Honey Hole for inside heel hook finishes. Beginners should master ankle locks before attempting heel hooks.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "How do you enter Inside Ashi-Garami?",
+      "answer_snippet": "Common entries include: from Outside Ashi-Garami by threading your inside leg across their hip, from Single Leg X-Guard by lowering your hook and securing heel control, from a failed guard pass when your leg gets caught, and from standing by shooting inside on an opponent's leg and sitting to the entanglement.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "Is Inside Ashi-Garami legal in IBJJF competition?",
+      "answer_snippet": "Inside Ashi-Garami as a control position is generally legal, but the submissions available from it vary by rule set. Straight ankle locks are legal for adult blue belts and above in IBJJF. Heel hooks are illegal in IBJJF gi and no-gi (except some specific events). In ADCC and submission-only formats, all leg attacks from Inside Ashi are typically legal.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "What is the heel hook from Inside Ashi-Garami?",
+      "answer_snippet": "The inside heel hook from Inside Ashi-Garami is an advanced submission targeting the medial knee ligaments (MCL/ACL). It requires proper heel exposure with a figure-four grip, wrist behind the Achilles tendon, and rotational hip drive. Due to its injury potential, it should only be attempted with proper progression — ankle locks first, then heel hooks under qualified instruction.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section"
+    },
+    {
+      "question": "How do you advance from Inside Ashi-Garami to Saddle?",
+      "answer_snippet": "When the opponent defends by rotating their knee inward, this exposes the heel for transition to Saddle (Honey Hole). Thread your outside leg deeper under their thigh while simultaneously repositioning your inside leg to cross their body. Maintain heel control throughout the transition with a figure-four grip to secure the finishing position.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading"
+    },
+    {
+      "question": "Why is Inside Ashi-Garami better than Outside Ashi-Garami?",
+      "answer_snippet": "Inside Ashi-Garami offers superior hip rotation control through the inside leg positioning across the near hip, making it harder for the opponent to escape. It also provides more direct pathways to dominant positions like Saddle and Cross Ashi, and offers higher-percentage submission access compared to the more basic Outside Ashi configuration.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq"
+    },
+    {
+      "question": "Who invented Inside Ashi-Garami?",
+      "answer_snippet": "Inside Ashi-Garami was systematized and popularized in modern BJJ competition by leg lock specialists like Dean Lister, Masakazu Imanari, and later John Danaher's DDS (Danaher Death Squad). Gordon Ryan, Garry Tonon, and Eddie Cummings brought it to mainstream attention through high-level competition performances from the mid-2010s onward.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section"
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Overview",
+      "suggested": "What Is Inside Ashi-Garami? (The Foundational Leg Entanglement)",
+      "rationale": "Matches high-volume definitional query pattern and front-loads the most common search intent"
+    },
+    {
+      "current": "Key Principles",
+      "suggested": "How Does Inside Ashi-Garami Work? Key Control Principles",
+      "rationale": "Conversational query format captures 'how does X work' PAA pattern"
+    },
+    {
+      "current": "Common Errors",
+      "suggested": "Why Does Inside Ashi-Garami Fail? Common Mistakes to Avoid",
+      "rationale": "Matches 'why does X not work' search intent, increases PAA capture"
+    },
+    {
+      "current": "Training Drills",
+      "suggested": "How to Train Inside Ashi-Garami: Essential Drills",
+      "rationale": "Aligns with 'how to practice X' search pattern"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add FAQ section: 'What is the difference between Inside Ashi-Garami and Single Leg X?' — high confusion query",
+    "Add section: 'How to Escape Inside Ashi-Garami' — defensive perspective currently absent from hub page",
+    "Add section: 'Inside Ashi-Garami in Competition — IBJJF, ADCC, and Submission-Only Rule Sets'",
+    "Add section: 'Inside Ashi-Garami Entry Methods' — organized by common guard entries",
+    "Add safety notice callout: heel hook progression warning prominently in the hub page overview",
+    "Add section: 'Inside Ashi-Garami vs Outside Ashi-Garami — Which Is Better and When?'"
+  ]
+}

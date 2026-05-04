@@ -22,15 +22,7 @@ description: "Master Ashi Garami leg entanglements in BJJ. Complete guide to sys
 
 <section id="overview" class="content-section">
 
-**Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions that form the foundation of modern leg lock systems. Unlike traditional top-bottom positional hierarchies, Ashi Garami positions exist in a horizontal plane where both practitioners compete for leg control and finishing opportunities. This position family has revolutionized competitive Brazilian Jiu-Jitsu and submission grappling, particularly in no-gi formats where the absence of grips makes leg attacks more accessible and effective.
-
-The Ashi Garami system encompasses multiple variations, each offering distinct tactical advantages and submission pathways. From the fundamental **Outside Ashi-Garami** (standard outside leg entanglement) to the advanced **Saddle** position (the apex of the leg entanglement hierarchy), these positions create a strategic landscape where control, attack, and counter-attack occur simultaneously. The position family includes **50-50 Guard** (bilateral leg entanglement), **Inside Ashi-Garami** (inside leg control), **Cross Ashi-Garami** (cross-body leg control), **Backside 50-50** (reverse bilateral entanglement), **Honey Hole** (legacy name for Saddle), and **Ushiro Ashi-Garami** (reverse leg entanglement), each with specific biomechanical advantages and submission chains.
-
-Modern Ashi Garami systems emphasize hierarchical position progression, systematic entry sequences, and mechanical understanding of heel exposure. Unlike older leg lock approaches that relied on explosive attacks from isolated positions, contemporary Ashi Garami methodology treats leg entanglements as positions requiring control maintenance, gradual advancement, and strategic positioning before submission attempts. This systematic approach has proven devastatingly effective at the highest levels of competition in both gi and no-gi formats, with the position hierarchy concept transforming how practitioners approach the leg lock game.
-
-The strategic value of Ashi Garami positions extends beyond submission threats. These positions offer unique tactical advantages including neutralization of size and strength differentials through horizontal body alignment, creation of scoring opportunities through sweeps and reversals, and forcing opponents into defensive postures that limit their offensive capabilities. The bilateral nature of many Ashi Garami variations creates dilemma situations where defensive actions against one threat expose vulnerabilities to alternative attacks, embodying the modern competition principle of forcing opponents to choose between multiple negative outcomes. This makes Ashi Garami particularly effective for smaller practitioners who can negate physical advantages through technical leg control.
-
-Understanding Ashi Garami requires recognizing the position as a complete system rather than isolated techniques. Success in these positions demands mastery of fundamental principles including hip positioning, inside space control, heel exposure mechanics, and transitional pathways between variations. The position family's effectiveness has fundamentally altered competitive grappling strategy, making leg lock defense and Ashi Garami understanding essential components of any complete grappling game. Training progression should follow the positional hierarchy—mastering Outside Ashi control before advancing to Inside Ashi, then Cross Ashi, and finally Saddle—building mechanical understanding at each level before progressing to the next.
+**Ashi Garami** (足絡み, Japanese for "leg entanglement") represents a comprehensive family of leg control positions forming the foundation of modern leg lock systems. In BJJ and submission grappling, it refers to positions where practitioners control the opponent's leg in a hooking configuration designed to expose the heel for ankle locks, heel hooks, and kneebars. Unlike traditional top-bottom positional hierarchies, Ashi Garami exists in a horizontal plane where both practitioners compete for leg control and finishing opportunities simultaneously. The positional hierarchy flows from least to most dominant: [[Positions/Ashi Garami/Outside Ashi-Garami]] (entry level, standard outside entanglement) → [[Positions/Ashi Garami/Inside Ashi-Garami]] (intermediate, superior hip control) → [[Positions/Ashi Garami/Cross Ashi-Garami]] (advanced, superior heel isolation) → [[Positions/Ashi Garami/Saddle]] (apex, maximum heel exposure and highest submission percentage). Understanding this hierarchy is essential—forcing submissions from inferior positions wastes energy and exposes counter-attacks, while systematic progression maximizes finishing percentage. The Ashi Garami system encompasses multiple variations: [[Positions/Ashi Garami/50-50 Guard]] (bilateral leg entanglement with symmetrical heel exposure), [[Positions/Ashi Garami/Inside Ashi-Garami]] (inside leg control with superior advancement pathways), [[Positions/Ashi Garami/Cross Ashi-Garami]] (cross-body leg control with superior heel isolation), [[Positions/Ashi Garami/Backside 50-50]] (reverse bilateral entanglement), [[Positions/Ashi Garami/Honey Hole]] (legacy name for Saddle position), and [[Positions/Ashi Garami/Ushiro Ashi-Garami]] (reverse leg entanglement with unique back-exposure angles). Importantly, [[Positions/Ashi Garami/50-50 Guard]] is one specific variation within the family—not synonymous with Ashi Garami overall—describing bilateral symmetrical entanglement where both practitioners have mutual heel exposure and submission access. Modern Ashi Garami methodology treats leg entanglements as complete positions requiring control maintenance, gradual advancement, and strategic positioning before submission attempts—transforming leg locks from isolated explosive attacks into a systematic positional game. Common entries include transitions from [[Positions/De La Riva Guard]] (leg drag to Outside Ashi), [[Positions/X-Guard]] (lower elevation hook for leg control), and [[Positions/K-Guard]] (direct inversion to Inside Ashi-Garami). Competition legality varies significantly by rule set: IBJJF permits straight ankle locks for adult blue belts and above while prohibiting heel hooks and reaping at all belt levels in standard competition. ADCC and submission-only formats typically permit all Ashi Garami attacks including heel hooks—always verify the specific rule set before competing. Modern Ashi Garami systems were systematized by John Danaher and his Danaher Death Squad students—Gordon Ryan, Garry Tonon, Eddie Cummings, and Nicky Ryan—who brought the positional hierarchy concept to mainstream competition from the mid-2010s. Earlier pioneers Dean Lister and Masakazu Imanari established the viability of systematic leg attacks before this systematization. Horizontal body alignment neutralizes size and strength advantages, making Ashi Garami particularly effective for smaller practitioners who can negate physical advantages through technical leg control. The bilateral nature of many variations creates dilemma situations where defensive actions against one threat expose vulnerabilities to alternative attacks—forcing opponents to choose between multiple negative outcomes. Training progression should follow the positional hierarchy: mastering [[Positions/Ashi Garami/Outside Ashi-Garami]] before advancing to [[Positions/Ashi Garami/Inside Ashi-Garami]], then [[Positions/Ashi Garami/Cross Ashi-Garami]], and finally [[Positions/Ashi Garami/Saddle]].
 
 </section>
 
@@ -39,15 +31,15 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Key Principles
 
 
-- **Inside Space Control**: Maintaining control of the inside space between your hip and opponent's hip prevents escapes and enables position advancement through the hierarchy
+- **Inside Space Control**: Maintaining control of the inside space between your hip and opponent's hip prevents escapes and enables advancement from [[Positions/Ashi Garami/Outside Ashi-Garami]] up through the full hierarchy toward [[Positions/Ashi Garami/Saddle]]
 
-- **Heel Exposure Management**: Understanding which leg configurations expose the heel and which protect it determines offensive and defensive priorities in every exchange
+- **Heel Exposure Management**: Understanding which leg configurations expose the heel determines offensive and defensive priorities—the practitioner who exposes the opponent's heel first while protecting their own reaches dominant finishing position
 
-- **Hierarchical Position Progression**: Moving systematically through position hierarchy (Outside Ashi → Inside Ashi → Cross Ashi → Saddle) maximizes control before submission attempts
+- **Hierarchical Position Progression**: Moving systematically from [[Positions/Ashi Garami/Outside Ashi-Garami]] → [[Positions/Ashi Garami/Inside Ashi-Garami]] → [[Positions/Ashi Garami/Cross Ashi-Garami]] → [[Positions/Ashi Garami/Saddle]] maximizes control before submission attempts and minimizes counter-attack exposure
 
-- **Bilateral Threat Awareness**: Recognizing that both practitioners can attack simultaneously in leg entanglements demands constant offensive-defensive balance and position quality assessment
+- **Bilateral Threat Awareness**: Recognizing that both practitioners can attack simultaneously in leg entanglements demands constant offensive-defensive balance—neglecting heel defense while attacking leads to counter-submissions
 
-- **Connection Point Maintenance**: Preserving critical contact points (inside leg hook, hip pressure, upper body grips) prevents opponent from improving position or escaping the entanglement system
+- **Connection Point Maintenance**: Preserving critical contact points including inside leg hook, hip pressure, and upper body grips prevents opponent from improving position or escaping the entanglement system
 
 
 </section>
@@ -85,15 +77,15 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Key Principles
 
 
-- **Inside Space Dominance**: Control the inside space between your hip and opponent's hip to prevent escapes and enable systematic advancement
+- **Inside Space Dominance**: Control the inside space between your hip and opponent's hip to prevent escapes and enable systematic advancement toward [[Positions/Ashi Garami/Saddle]]
 
-- **Hierarchical Progression**: Advance systematically through Outside Ashi → Inside Ashi → Cross Ashi → Saddle rather than forcing submissions from inferior positions
+- **Hierarchical Progression**: Advance systematically from [[Positions/Ashi Garami/Outside Ashi-Garami]] → [[Positions/Ashi Garami/Inside Ashi-Garami]] → [[Positions/Ashi Garami/Cross Ashi-Garami]] → [[Positions/Ashi Garami/Saddle]] rather than forcing submissions from inferior positions
 
-- **Heel Protection Awareness**: Understand heel exposure mechanics and maintain defensive leg positioning to protect your own heel while attacking opponent's
+- **Heel Protection Awareness**: Maintain defensive leg positioning to protect your own heel while attacking opponent's—the bilateral nature of leg entanglements means neglecting this leads to counter-submissions
 
-- **Connection Maintenance**: Preserve critical connection points including inside leg hook, hip pressure, and upper body grips that prevent opponent position improvement
+- **Connection Maintenance**: Preserve inside leg hook, hip pressure, and upper body grips that prevent opponent position improvement or escape throughout all positional transitions
 
-- **Bilateral Awareness**: Recognize reciprocal nature of leg entanglements where both practitioners can attack and prioritize superior position before submission attempts
+- **Bilateral Awareness**: Recognize the reciprocal nature of leg entanglements—both practitioners can attack—and prioritize superior position before submission attempts to avoid simultaneous counter-attacks
 
 
 ### Available Transitions
@@ -168,15 +160,15 @@ Understanding Ashi Garami requires recognizing the position as a complete system
 ### Key Principles
 
 
-- **Inside Space Denial**: Prevent opponent from establishing inside space control that enables their positional advancement up the hierarchy
+- **Inside Space Denial**: Prevent opponent from establishing inside space control that enables advancement up the hierarchy from [[Positions/Ashi Garami/Outside Ashi-Garami]] toward [[Positions/Ashi Garami/Saddle]]
 
-- **Heel Protection Priority**: Maintain straight leg alignment or hidden heel position to prevent opponent heel exposure and finishing mechanics
+- **Heel Protection Priority**: Maintain straight leg alignment or hidden heel position at all times—heel exposure in [[Positions/Ashi Garami/Saddle]] or [[Positions/Ashi Garami/Cross Ashi-Garami]] means immediate submission threat
 
-- **Base Maintenance**: Preserve standing or kneeling base to prevent flat positions that enhance opponent's control and finishing opportunities
+- **Base Maintenance**: Preserve standing or kneeling base to prevent flat positions that enhance opponent control and make systematic extraction sequences impossible
 
-- **Systematic Extraction**: Clear leg entanglement through mechanical sequences rather than explosive ripping that exposes heel to finishing mechanics
+- **Systematic Extraction**: Clear leg entanglement through mechanical backstep and hip rotation sequences rather than explosive ripping that exposes heel to finishing mechanics
 
-- **Counter-Attack Recognition**: Identify offensive opportunities when opponent overcommits to advancement or submission attempts, transforming defense into offense
+- **Counter-Attack Recognition**: Identify offensive opportunities when opponent overcommits—guillotines when they sit up, [[Positions/Ashi Garami/50-50 Guard]] counter-entries, or guard passes during failed advancement attempts
 
 
 ### Available Transitions

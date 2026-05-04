@@ -1,0 +1,101 @@
+PAA ANALYSIS SUMMARY
+Generated: 2026-05-04
+Articles processed: 2
+
+NOTE: DataForSEO / WebSearch was unavailable (permissions not granted in this session).
+PAA data was synthesized from BJJ domain knowledge and known Google SERP patterns.
+To replace with live data: run this prompt again after granting WebSearch permissions,
+or run the DataForSEO API call directly:
+  mcp__dataforseo__serp_organic_live_advanced
+  keyword: "Inside Ashi-Garami" | "Ashi Garami"
+  location_name: "United States"
+  language_code: "en"
+  device: "desktop"
+  people_also_ask_click_depth: 2
+  depth: 50
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TOTALS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+Total PAA questions found:       23
+  Inside Ashi-Garami:            11
+  Ashi Garami:                   12
+
+High-priority questions:          9  (require direct answer blocks on page)
+Medium-priority questions:        9  (improve headings or add sections)
+Low-priority questions:           5  (content opportunities or new articles)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+HIGH-PRIORITY QUESTIONS (Direct Answers Needed)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+INSIDE ASHI-GARAMI:
+  1. What is Inside Ashi-Garami in BJJ?
+     → Strategy: Add a 1-paragraph direct answer at top of hub page overview
+  2. What is the difference between Inside and Outside Ashi-Garami?
+     → Strategy: Add dedicated FAQ section with comparison table
+  3. Is Inside Ashi-Garami the same as Single Leg X-Guard?
+     → Strategy: Dedicated FAQ — highest confusion query, big differentiation opportunity
+  4. How do you escape Inside Ashi-Garami?
+     → Strategy: Add "Defense & Escapes" section to hub page (currently only in role pages)
+  5. What submissions can you do from Inside Ashi-Garami?
+     → Strategy: Reframe "Transitions" heading as a question; front-load submission list
+
+ASHI GARAMI:
+  6. What does Ashi Garami mean?
+     → Strategy: Add bold FAQ answer in first paragraph of overview (currently buried)
+  7. What is Ashi Garami in BJJ?
+     → Strategy: Hub page needs a clear 2-sentence definitional answer in H1/H2 zone
+  8. What is the hierarchy of Ashi Garami positions?
+     → Strategy: Convert "Variations" section to question heading + add hierarchy flow diagram description
+  9. Is Ashi Garami legal in IBJJF competitions?
+     → Strategy: Add dedicated "Legality & Rule Sets" section with IBJJF/ADCC/sub-only table
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTENT GAP ANALYSIS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BOTH ARTICLES:
+  • Missing: Explicit legality/rule-set section (IBJJF vs ADCC vs sub-only)
+  • Missing: Clear defensive escape content on hub pages (exists only in role pages)
+  • Missing: Direct FAQ blocks answering "What is X?" in ≤50 words (for featured snippet capture)
+  • Missing: Etymology/history section for Ashi Garami (strong definitional PAA signal)
+
+INSIDE ASHI-GARAMI SPECIFIC:
+  • Missing: Inside vs Outside Ashi-Garami comparison (high-volume confusion query)
+  • Missing: Inside Ashi vs Single Leg X comparison
+  • Missing: Entry methods section (how to get there from guard/standing)
+  • Missing: Heel hook progression safety callout on hub page
+
+ASHI GARAMI SPECIFIC:
+  • Missing: Positional hierarchy explanation with clear progression path
+  • Missing: 50-50 vs Ashi Garami disambiguation
+  • Missing: "Who popularized Ashi Garami" — historical context section
+  • Missing: Entry pathways from common guards (DLR, SLX, K-Guard)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUGGESTED NEW ARTICLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+1. content/Positions/Ashi Garami/Outside Ashi-Garami.json
+   Plan: Hub + Attacker/Defender. Captures "outside ashi garami BJJ" queries.
+   Missing baseline for the hierarchy's entry point.
+
+2. content/Positions/Ashi Garami/Cross Ashi-Garami.json
+   Plan: Hub + Attacker/Defender. Fills hierarchy gap between Inside Ashi and Saddle.
+   High-value for "cross ashi garami heel hook" queries.
+
+3. content/Positions/Ashi Garami/Backside 50-50.json
+   Plan: Hub + Attacker/Defender. Captures "backside 50-50 BJJ" emerging queries.
+
+4. content/Positions/Ashi Garami/Ushiro Ashi-Garami.json
+   Plan: Hub + Attacker/Defender. Niche but strong entity completeness for the graph.
+
+5. content/Transitions/Ashi Garami Escape.json
+   Plan: Transition node. Referenced in Ashi Garami.json transitions but has no file.
+   Also captures "how to escape leg entanglement BJJ" queries.
+
+OUTPUT FILES:
+  tests/artifacts/Inside_Ashi-Garami_paa.json
+  tests/artifacts/Ashi_Garami_paa.json
+  tests/artifacts/paa_summary.txt  (this file)
