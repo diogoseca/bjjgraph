@@ -1,0 +1,131 @@
+PAA SEO Analysis Summary
+Generated: 2026-05-05
+Data source: Knowledge-based (WebSearch access pending — re-run with live SERP data when available)
+
+===================================================================
+ARTICLES PROCESSED: 2
+===================================================================
+
+1. content/Positions/Closed Guard/Bottom.md
+   Seed keyword: "Closed Guard Bottom BJJ"
+   PAA questions identified: 12
+   High-priority: 4 | Medium: 3 | Low: 3
+   Output: tests/artifacts/closed_guard_bottom_paa.json
+
+2. content/Positions/Aoki Lock/Bottom.md
+   Seed keyword: "Aoki Lock BJJ"
+   PAA questions identified: 11
+   High-priority: 5 | Medium: 3 | Low: 3
+   Output: tests/artifacts/aoki_lock_bottom_paa.json
+
+===================================================================
+TOTAL PAA QUESTIONS FOUND: 23
+HIGH-PRIORITY QUESTIONS: 9
+===================================================================
+
+-------------------------------------------------------------------
+HIGH-PRIORITY QUESTIONS REQUIRING DIRECT ANSWERS
+-------------------------------------------------------------------
+
+CLOSED GUARD BOTTOM (4 high-priority):
+  1. "What is closed guard in BJJ?"
+     → Add H2 heading "What Is Closed Guard Bottom?" above overview paragraph
+     → Overview text already answers — needs to be surfaced as scannable heading
+
+  2. "What attacks can you do from closed guard?"
+     → Rename "Decision Making from This Position" →
+       "What to Do From Closed Guard Bottom (Decision Guide)"
+
+  3. "How do you sweep from closed guard in BJJ?"
+     → Add dedicated sweep summary section before the full decision tree
+
+  4. "How do you break posture in closed guard?"
+     → Extract from Common Mistakes #3 into a standalone FAQ block
+
+AOKI LOCK BOTTOM (5 high-priority):
+  1. "What is the Aoki Lock in BJJ?"
+     → Add H2 heading "What Is the Aoki Lock?" above overview paragraph
+     → Overview answers it but not in featured-snippet-eligible format
+
+  2. "Who invented the Aoki Lock?"
+     → Add "About the Aoki Lock" subsection with Shinya Aoki context
+
+  3. "How do you escape an Aoki Lock?"
+     → Rename "Decision Making from This Position" →
+       "Aoki Lock Escape Options: Which to Choose"
+
+  4. "What is the difference between an Aoki Lock and an omoplata?"
+     → Add "Aoki Lock vs Omoplata vs Kimura" comparison section
+
+  5. "Is the Aoki Lock dangerous?"
+     → Add dedicated safety/danger FAQ block near top of page
+
+-------------------------------------------------------------------
+CONTENT GAP ANALYSIS
+-------------------------------------------------------------------
+
+CLOSED GUARD BOTTOM — Gaps:
+  - No gi vs no-gi comparison (article says position works in both, never explains how)
+  - No beginner context ("Is closed guard good for beginners?")
+  - Grip strategy buried in Common Mistakes rather than its own section
+  - "Defensive" language in headings is misleading — closed guard bottom is the
+    OFFENSIVE role; headings should reflect that
+  - Statistics table lacks belt-level breakdown
+
+AOKI LOCK BOTTOM — Gaps:
+  - No historical context (who is Shinya Aoki, how was this lock developed)
+  - No comparison to related shoulder locks (omoplata, kimura)
+  - Safety notice not consolidated — injury warnings scattered across 3 sections
+  - No ruleset context (legal in IBJJF? common in submission grappling? MMA?)
+  - No belt-level success rates
+
+-------------------------------------------------------------------
+SUGGESTED NEW ARTICLES (content/Positions/ and content/Transitions/)
+-------------------------------------------------------------------
+
+  1. "Closed Guard for Beginners" (Positions)
+     Rationale: High search volume, beginner-intent queries not served by current
+     BJJ Graph content. Would link to Closed Guard Bottom as the core position.
+
+  2. "Closed Guard vs Open Guard" (Positions)
+     Rationale: Consistent PAA alongside closed guard queries. Comparison article
+     would capture users evaluating which guard system to develop.
+
+  3. "Closed Guard in MMA" (Positions or Systems)
+     Rationale: MMA-specific application of closed guard is distinct enough in
+     strategy (striking defense, clinch entries) to warrant a dedicated page.
+
+  4. "Aoki Lock History and Mechanics" (Systems or Submissions)
+     Rationale: "Who invented the Aoki Lock" and "how does it work mechanically"
+     are consistent PAA questions. A dedicated technique-history page would rank
+     for informational Aoki Lock queries.
+
+  5. "Shoulder Locks Comparison: Kimura vs Omoplata vs Aoki Lock" (Systems)
+     Rationale: The three techniques share mechanical similarities and appear
+     together in PAA panels. A comparison article captures all three search terms.
+
+-------------------------------------------------------------------
+HEADING OPTIMIZATIONS SUMMARY (across both articles)
+-------------------------------------------------------------------
+
+  Closed Guard Bottom (5 headings to update):
+    "Position Definition"          → "What Is Closed Guard Bottom in BJJ?"
+    "Key Defensive Principles"     → "How to Play Closed Guard Bottom Effectively"
+    "Decision Making..."           → "What to Do From Closed Guard Bottom"
+    "Common Defensive Mistakes"    → "Common Closed Guard Mistakes to Avoid"
+    "Training Drills for Defense"  → "Closed Guard Drills and Training Exercises"
+
+  Aoki Lock Bottom (5 headings to update):
+    "Position Definition"          → "What Is the Aoki Lock Bottom Position?"
+    "Key Defensive Principles"     → "How to Survive and Escape the Aoki Lock"
+    "Decision Making..."           → "Aoki Lock Escape Options: Which to Choose"
+    "Common Defensive Mistakes"    → "Aoki Lock Defense Mistakes That Cause Injury"
+    "Test Your Knowledge"          → "Aoki Lock Defense Q&A"
+
+===================================================================
+NOTE: Re-run with live DataForSEO SERP data when available to:
+  - Confirm PAA questions from actual Google SERP
+  - Validate priority assignments against real search volume
+  - Capture depth-2 PAA questions (follow-up PAA from click expansion)
+  - Add source URLs from featured snippet winners for each question
+===================================================================

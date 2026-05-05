@@ -1,0 +1,131 @@
+{
+  "article_path": "content/Positions/Aoki Lock/Bottom.md",
+  "seed_keyword": "Aoki Lock BJJ",
+  "data_source": "knowledge-based (WebSearch pending approval)",
+  "generated_date": "2026-05-05",
+  "paa_questions": [
+    {
+      "question": "What is the Aoki Lock in BJJ?",
+      "answer_snippet": "The Aoki Lock is a leg-entangled shoulder lock submission named after Japanese MMA fighter Shinya Aoki. The attacker traps the opponent's arm using their legs — with one thigh over the shoulder and shin controlling the upper arm — while driving hip pressure into the shoulder joint to create rotational stress. It combines omoplata-style mechanics with leg trapping for a uniquely dangerous shoulder lock.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Overview paragraph explains this well but there is no scannable H2 asking 'What is the Aoki Lock?' This is the #1 PAA for this keyword — the page must have a direct-answer heading to compete."
+    },
+    {
+      "question": "Who invented the Aoki Lock?",
+      "answer_snippet": "The Aoki Lock is named after Shinya Aoki, a Japanese submission grappler and MMA fighter who popularized this leg-entangled shoulder lock in competition. Aoki is known for his unorthodox, flexible guard game and his use of unusual submission entries from scramble positions.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Page mentions 'legendary Japanese fighter Shinya Aoki' once but does not answer 'who invented it' in any scannable way. Add an 'About the Aoki Lock' historical subsection to capture this consistently-asked PAA."
+    },
+    {
+      "question": "How do you escape an Aoki Lock?",
+      "answer_snippet": "Escape the Aoki Lock by rolling toward your trapped arm (never away), following the path of least resistance. Use your free hand to attack the opponent's posted leg to destabilize their base. Address the leg entanglement before attempting to pull your arm free — muscling the arm out without removing the leg control exhausts energy and increases shoulder stress.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Escape instructions are in Decision Making and Common Mistakes but the heading 'Decision Making from This Position' does not match 'how to escape' search intent. Rename or add a dedicated escape summary section."
+    },
+    {
+      "question": "What is the difference between an Aoki Lock and an omoplata?",
+      "answer_snippet": "Both use leg entanglement to attack the shoulder, but they differ in control and execution. The omoplata traps the arm with legs in a figure-four configuration from guard. The Aoki Lock uses leg entanglement from side control, turtle, or scrambles — with the thigh over the shoulder and shin controlling the upper arm — creating rotational pressure that is harder to roll out of than traditional omoplata defense.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Page links to 'Omoplata Control' as related but never explains the key mechanical differences. This PAA appears frequently alongside 'Aoki Lock' searches and is a major content gap."
+    },
+    {
+      "question": "Is the Aoki Lock dangerous?",
+      "answer_snippet": "Yes. The Aoki Lock is highly dangerous because it targets the shoulder capsule with rotational stress that can cause rotator cuff tears, labrum damage, or shoulder dislocation if held past the tap point. The leg entanglement limits natural defensive rolling, making pressure build rapidly. Practitioners are strongly advised to tap early.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Injury risks are mentioned in Common Mistakes but not consolidated in a scannable safety section. A 'Is the Aoki Lock Dangerous?' FAQ block or dedicated warning section would capture this safety-intent PAA and satisfy search intent."
+    },
+    {
+      "question": "What is the difference between an Aoki Lock and a kimura?",
+      "answer_snippet": "A kimura attacks the shoulder through a figure-four grip on the wrist and elbow, rotating the arm behind the back. The Aoki Lock uses leg entanglement instead of an arm grip to control the shoulder, applying rotational pressure through hip positioning rather than a hand-based lever. This makes the Aoki Lock harder to grip-fight out of.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Page links to Kimura Trap as related but provides no comparison. This frequently appears as a secondary PAA after 'difference between Aoki Lock and omoplata.'"
+    },
+    {
+      "question": "How do you defend against an Aoki Lock?",
+      "answer_snippet": "Keep your trapped shoulder internally rotated to resist external rotation pressure. Roll toward — not away from — your trapped arm. Engage your free hand to attack the opponent's base or hip. Move continuously rather than sitting static. Tap early when shoulder pressure reaches a dangerous threshold to prevent injury.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "improve_heading",
+      "notes": "The 'Key Defensive Principles' section answers this fully but the heading won't match search queries. Add 'How to Defend the Aoki Lock' as an H2 or rephrase the existing heading."
+    },
+    {
+      "question": "When should you tap in BJJ?",
+      "answer_snippet": "Tap when you feel sharp joint pain, when you cannot prevent a submission from being completed, or when you have no escape path before injury occurs. For shoulder locks like the Aoki Lock, tap at the onset of rotational pressure — shoulder injuries (rotator cuff tears, labrum damage, dislocation) can end training for months. In training, tap early and often.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Tap threshold is mentioned in Common Mistakes and Knowledge Assessment. This broader question benefits from a standalone answer since it appears in searches for shoulder lock content generally."
+    },
+    {
+      "question": "How does the Aoki Lock work mechanically?",
+      "answer_snippet": "The Aoki Lock works by trapping the opponent's arm with a leg entanglement — thigh over the shoulder, shin over the upper arm — then driving the hips toward the opponent's back to create internal-to-external rotational stress on the shoulder capsule. The leg trap prevents the arm from rolling to neutralize pressure, unlike traditional omoplata defense.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Position Definition describes the attacker's control points but does not explain the mechanical principle. A mechanics paragraph increases educational value and PAA coverage."
+    },
+    {
+      "question": "What BJJ positions lead to an Aoki Lock?",
+      "answer_snippet": "The Aoki Lock typically arises from turtle position, guard passing scrambles, or arm isolation during transitions. Attackers most commonly enter from side control by threading a leg over the shoulder during transitions, or from the turtle when the bottom player's arm is isolated.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Mentioned briefly in the third overview paragraph but not developed. Adding 'How You End Up in Aoki Lock Bottom' as a subsection answers a common 'how do people get put in this position' query."
+    },
+    {
+      "question": "How do you roll escape from a shoulder lock?",
+      "answer_snippet": "For the Aoki Lock rolling escape, roll toward your trapped arm — using your opponent's control momentum rather than fighting it. Initiate the roll by attacking the opponent's posted leg base with your free hand, then follow through with a smooth rolling motion toward guard. This is the primary escape with a 55% success rate from Aoki Lock Bottom.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Rolling Escape to Guard is the top technique in the HowTo schema but the mechanics of the roll are not explained inline in a scannable way."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is the Aoki Lock Bottom Position?",
+      "rationale": "Direct question heading captures 'what is Aoki Lock' PAA pattern and creates featured snippet eligibility"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How to Survive and Escape the Aoki Lock",
+      "rationale": "Action-oriented question heading matches the dominant search intent (defense/escape) for this position"
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "Aoki Lock Escape Options: Which to Choose",
+      "rationale": "Directly matches 'how to escape Aoki Lock' queries and signals the decision-tree content is about escape selection"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "Aoki Lock Defense Mistakes That Cause Injury",
+      "rationale": "Injury-framed heading matches safety-intent searches and increases click-through from PAA panels"
+    },
+    {
+      "current": "Test Your Knowledge",
+      "suggested": "Aoki Lock Defense Q&A",
+      "rationale": "FAQ-style heading makes the Knowledge Assessment section eligible for FAQPage-style SERP features"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'About the Aoki Lock' subsection: who is Shinya Aoki, when/how he developed this lock, notable competition finishes",
+    "Add 'Aoki Lock vs Omoplata vs Kimura' comparison table or paragraph — the three shoulder lock types are frequently confused",
+    "Add explicit 'Safety Warning' section near the top of the page (before mechanics) for injury prevention — currently scattered across Mistakes and KA sections",
+    "Add 'How Attackers Apply the Aoki Lock' brief paragraph — defenders who understand attacker mechanics escape better, and this captures attacker-intent searches",
+    "Add 'Success Rate by Belt Level' to the statistics table — article lacks belt-level context that other position pages include",
+    "Add 'Aoki Lock in Competition' section noting its usage in submission grappling vs BJJ vs MMA rulesets (is it legal? when is it used?)"
+  ]
+}
