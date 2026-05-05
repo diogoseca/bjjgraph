@@ -1,0 +1,139 @@
+{
+  "article_path": "content/Positions/Closed Guard/Bottom.md",
+  "seed_keyword": "Closed Guard Bottom BJJ",
+  "data_source": "knowledge-based (WebSearch pending approval)",
+  "generated_date": "2026-05-05",
+  "paa_questions": [
+    {
+      "question": "What is closed guard in BJJ?",
+      "answer_snippet": "Closed guard is a ground position where the bottom player wraps their legs around the opponent's waist with ankles crossed, controlling them from underneath. It is one of the most fundamental positions in Brazilian Jiu-Jitsu, used for sweeps, submissions, and defensive control.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "Page lacks a direct 'What is closed guard?' H2. Overview paragraph answers this but not scannable for featured snippet."
+    },
+    {
+      "question": "What attacks can you do from closed guard?",
+      "answer_snippet": "From closed guard bottom you can attempt sweeps (Hip Bump, Scissor, Pendulum, Flower), submissions (Triangle, Armbar, Cross Collar Choke, Omoplata, Kimura), and back takes. Hip Bump Sweep is the highest-probability option at 21% attempt rate.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "improve_heading",
+      "notes": "The Decision Making section answers this but the heading is non-conversational. Rename to 'What to Do From Closed Guard Bottom?' to capture this PAA."
+    },
+    {
+      "question": "How do you sweep from closed guard in BJJ?",
+      "answer_snippet": "Common closed guard sweeps include the Hip Bump Sweep (60% success rate when opponent postures up), Scissor Sweep (55% when opponent posts hands), Pendulum Sweep (55% when opponent drives forward), and Flower Sweep. Each requires breaking posture and creating a 30-45° angle with your hips first.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "No dedicated sweeps overview section. Add a 'How to Sweep from Closed Guard' section that groups sweep decision-making before the full decision tree."
+    },
+    {
+      "question": "How do you break posture in closed guard?",
+      "answer_snippet": "Break posture by pulling your opponent's collar down while simultaneously driving your heels into their lower back. Use combined arm and leg pressure before they can establish a solid base. The collar grip pulls their head forward while heel pressure prevents them from sitting up.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Covered in Common Mistakes #3 but not surfaced as a direct answer. This is a top PAA query for closed guard content."
+    },
+    {
+      "question": "What is the difference between closed guard and open guard?",
+      "answer_snippet": "Closed guard has the bottom player's ankles crossed behind the opponent's back creating a locked control circuit. Open guard keeps the legs uncrossed and uses hooks, grips, or frames for control. Closed guard offers more defensive security; open guard offers more mobility and space to operate.",
+      "source_url": null,
+      "priority": "high",
+      "integration_strategy": "add_section",
+      "notes": "Related Positions links to Open Guard but no comparison content. A brief comparison paragraph would capture this common PAA."
+    },
+    {
+      "question": "Is closed guard good for beginners in BJJ?",
+      "answer_snippet": "Yes. Closed guard is the recommended starting guard for beginners because it provides defensive security (preventing guard pass) while offering a structured offense of sweeps and submissions. Its locked leg position forgives errors that would cause guard loss in open guard systems.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Nowhere addressed on page. Add a short FAQ block or a sentence in the overview. High search volume from white belts."
+    },
+    {
+      "question": "How do you keep your closed guard from being opened?",
+      "answer_snippet": "Keep your ankles crossed at the opponent's lower back (not too high, not too low), break their posture immediately when they try to create distance, and stay active with hip movement and grips. A passive closed guard is the easiest to open — constant threat of sweeps and submissions prevents the top player from setting up systematic guard breaks.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Guard retention is mentioned in the description but no section specifically answers 'how to keep guard closed.' High-intent for beginners and intermediates."
+    },
+    {
+      "question": "What grips should you use in closed guard?",
+      "answer_snippet": "Collar grips break posture by pulling the opponent's head forward. Sleeve grips control the arms for sweeps like the Scissor and Hip Bump. Wrist grips set up submissions. Every grip should serve an offensive purpose — avoid passive grips that stall without creating threats.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Grips covered in Common Mistakes #5 but buried. A 'Grip Strategy from Closed Guard' section would directly capture this PAA and improve scannability."
+    },
+    {
+      "question": "Can you use closed guard in no-gi BJJ?",
+      "answer_snippet": "Yes. Closed guard works in no-gi, though grip targets shift from collar and sleeves to head control, underhooks, and wrist grips. Submissions like the triangle, armbar, guillotine, and rear naked choke remain highly effective. The hip movement and posture-breaking principles are identical.",
+      "source_url": null,
+      "priority": "medium",
+      "integration_strategy": "add_section",
+      "notes": "Page mentions no-gi once in the overview but never develops it. A brief gi vs. no-gi subsection would target this growing search segment."
+    },
+    {
+      "question": "How do you use closed guard in MMA?",
+      "answer_snippet": "In MMA, closed guard bottom priorities shift toward preventing strikes, clinching to negate punching power, and securing high-percentage submissions like the armbar, triangle, and rear naked choke. Hip positioning and posture control remain critical. Closed guard is one of the most common ground positions in MMA.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "add_section",
+      "notes": "Mentioned once in overview. Dedicated MMA application paragraph would target MMA-intent searches."
+    },
+    {
+      "question": "What is the hip bump sweep in BJJ?",
+      "answer_snippet": "The hip bump sweep is a foundational closed guard sweep where the bottom player explosively bridges their hips forward while pulling the opponent's arm to off-balance them. It works when the opponent is upright with weak base and has a 60% success rate from closed guard bottom.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Wikilinked to Transition page but no inline explanation. A short description would help this page rank for 'hip bump sweep' queries."
+    },
+    {
+      "question": "What is the triangle choke from guard?",
+      "answer_snippet": "The triangle choke is a submission from closed guard where the bottom player traps the opponent's head and one arm between their legs, applying blood choke pressure. It is set up via Triangle Setup (8% attempt rate from closed guard) and leads to Triangle Control position.",
+      "source_url": null,
+      "priority": "low",
+      "integration_strategy": "dedicated_faq",
+      "notes": "Triangle Setup is in the decision tree but triangle choke mechanics are not explained inline."
+    }
+  ],
+  "heading_optimizations": [
+    {
+      "current": "Position Definition",
+      "suggested": "What Is Closed Guard Bottom in BJJ?",
+      "rationale": "Conversational heading directly matches 'What is closed guard' PAA pattern and improves featured snippet eligibility"
+    },
+    {
+      "current": "Key Defensive Principles",
+      "suggested": "How to Play Closed Guard Bottom Effectively",
+      "rationale": "The word 'Defensive' is misleading — closed guard bottom is an offensive role. This heading mismatch confuses intent. Reformatting as action-oriented matches search intent."
+    },
+    {
+      "current": "Decision Making from This Position",
+      "suggested": "What to Do From Closed Guard Bottom (Decision Guide)",
+      "rationale": "Conversational format captures 'what to do from closed guard' PAA while keeping the decision-tree context"
+    },
+    {
+      "current": "Common Defensive Mistakes",
+      "suggested": "Common Closed Guard Mistakes to Avoid",
+      "rationale": "Removes confusing 'Defensive' label and makes the section findable for 'closed guard mistakes' queries"
+    },
+    {
+      "current": "Training Drills for Defense",
+      "suggested": "Closed Guard Drills and Training Exercises",
+      "rationale": "'For Defense' is misleading — these drills develop offensive guard play"
+    }
+  ],
+  "missing_content_opportunities": [
+    "Add 'What Is Closed Guard?' one-sentence definition at top of overview formatted for featured snippet extraction",
+    "Add 'Gi vs. No-Gi Closed Guard' subsection in Key Principles (2-3 sentences each)",
+    "Add 'Closed Guard for Beginners' FAQ block answering: Is it good for beginners? How long to develop it?",
+    "Add 'Grip Strategy' subsection grouping the grip types (collar, sleeve, wrist) with their specific offensive purposes",
+    "Add 'Closed Guard vs Open Guard' comparison paragraph in Related Positions section",
+    "Consider a 'Success Rate by Belt Level' row in the statistics table (Beginner/Intermediate/Advanced format used elsewhere on site)"
+  ]
+}
