@@ -4,7 +4,7 @@
 
 ---
 title: "Saddle | BJJ Position Guide | BJJ Graph"
-description: "Master saddle position mechanics with systematic entries, control optimization, and finishing sequences for heel hooks and leg attacks in modern BJJ."
+description: "Master the Saddle (Honey Hole) position in BJJ: dominant leg entanglement for inside heel hooks, outside heel hooks, and toe holds. Entries, control, finishes."
 ---
 
 
