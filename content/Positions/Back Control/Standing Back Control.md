@@ -102,7 +102,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 ### Available Transitions
 
 
-- **[[Transitions/Hip Escape to Turtle/Attacker|Hip Escape to Turtle]]** (10% of attempts)
+- **[[Transitions/Hip Escape from Back Control/Attacker|Hip Escape from Back Control]]** (10% of attempts)
 
 - **[[Transitions/Rolling to Guard/Attacker|Rolling to Guard]]** (6% of attempts)
 
@@ -181,7 +181,7 @@ The position frequently occurs during scrambles, failed takedown attempts, succe
 
 - **[[Transitions/Rear Naked Choke/Attacker|Rear Naked Choke]]** (28% of attempts)
 
-- **[[Transitions/Takedown to Grounded Back Control/Attacker|Takedown to Grounded Back Control]]** (18% of attempts)
+- **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** (18% of attempts)
 
 - **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** (7% of attempts)
 

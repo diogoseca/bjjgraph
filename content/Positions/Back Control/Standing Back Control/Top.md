@@ -26,8 +26,8 @@ description: "Master offensive strategies for standing back control top position
     },
     {
       "@type": "HowToStep",
-      "name": "Execute Takedown to Grounded Back Control",
-      "text": "From this position, attempt Takedown to Grounded Back Control. This technique is attempted in 18% of exchanges from this position.",
+      "name": "Execute Mat Return from Standing Rear Clinch",
+      "text": "From this position, attempt Mat Return from Standing Rear Clinch. This technique is attempted in 18% of exchanges from this position.",
       "position": 2
     },
     {
@@ -210,31 +210,31 @@ Success from Standing Back Control Top requires understanding several key mechan
 ## Decision Making from This Position
 
 **If opponent's posture is broken forward and neck is exposed:**
-- Execute **[[Rear Naked Choke attack/Attacker|Rear Naked Choke attack]]** → [[Positions/Game Over]] (Probability: 55%)
-- Execute **[[Maintain control and break down to ground/Attacker|Maintain control and break down to ground]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** → [[Positions/Game Over]] (Probability: 55%)
+- Execute **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent maintains strong upright posture and wide base:**
-- Execute **[[Take opponent down to grounded back control/Attacker|Take opponent down to grounded back control]]** → [[Positions/Back Control]] (Probability: 65%)
-- Execute **[[Establish body triangle to compromise base/Attacker|Establish body triangle to compromise base]]** → [[Positions/Back Control/Body Triangle]] (Probability: 50%)
-- Execute **[[Use hooks to break their base then attack/Attacker|Use hooks to break their base then attack]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
+- Execute **[[Transitions/Mat Return from Standing Rear Clinch/Attacker|Mat Return from Standing Rear Clinch]]** → [[Positions/Back Control]] (Probability: 65%)
+- Execute **[[Transitions/Body Triangle Lock/Attacker|Body Triangle Lock]]** → [[Positions/Back Control/Body Triangle]] (Probability: 50%)
+- Execute **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 55%)
 
 
 **If opponent is fighting your harness grip aggressively:**
 - Execute **[[Transition to crucifix capturing arm/Attacker|Transition to crucifix capturing arm]]** → [[Positions/Crucifix]] (Probability: 40%)
-- Execute **[[Immediately take down before losing control/Attacker|Immediately take down before losing control]]** → [[Positions/Back Control]] (Probability: 60%)
+- Execute **[[Transitions/Follow to Back Control/Attacker|Follow to Back Control]]** → [[Positions/Back Control]] (Probability: 60%)
 
 
 **If opponent attempts to turn into you:**
-- Execute **[[Follow the turn to front headlock/Attacker|Follow the turn to front headlock]]** → [[Positions/Front Headlock]] (Probability: 50%)
-- Execute **[[Force them down to side control/Attacker|Force them down to side control]]** → [[Positions/Side Control]] (Probability: 45%)
-- Execute **[[Maintain back and reset control/Attacker|Maintain back and reset control]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 40%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Leg Hook to Side Control/Attacker|Leg Hook to Side Control]]** → [[Positions/Side Control]] (Probability: 45%)
+- Execute **[[Transitions/Back Control Maintenance/Attacker|Back Control Maintenance]]** → [[Positions/Back Control/Standing Back Control]] (Probability: 40%)
 
 
 **If opponent drops to their knees defensively:**
 - Execute **[[Follow to grounded back control/Attacker|Follow to grounded back control]]** → [[Positions/Back Control]] (Probability: 70%)
 - Execute **[[Transition to truck position/Attacker|Transition to truck position]]** → [[Positions/Twister Control/Truck]] (Probability: 45%)
-- Execute **[[Attack choke during transition/Attacker|Attack choke during transition]]** → [[Positions/Game Over]] (Probability: 50%)
+- Execute **[[Transitions/Rear Naked Choke Setup/Attacker|Rear Naked Choke Setup]]** → [[Positions/Game Over]] (Probability: 50%)
 
 
 

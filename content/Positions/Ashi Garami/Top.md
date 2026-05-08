@@ -173,8 +173,9 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 
 ## Position Definition
 
-- Opponent controls at least one of your legs with their leg entanglement configuration
-- You maintain base through standing, kneeling, or seated posture rather than flat positioning
+- Opponent controls at least one of your legs with their legs wrapped in hooking or pinching configuration, creating mechanical leverage against your knee and heel that must be systematically cleared rather than forcefully ripped
+- You maintain base through standing, kneeling, or seated posture rather than flat positioning, as lying flat dramatically increases opponent's control leverage and reduces escape options from leg entanglements
+- Your heel is not yet mechanically exposed in a dangerous finishing angle—this critical threshold distinguishes manageable Ashi positions from immediate submission danger requiring either systematic escape or tap
 
 
 </section>
@@ -221,17 +222,17 @@ Top Ashi Garami defense requires extensive drilling of mechanical extraction seq
 **If opponent achieves Saddle with heel exposure threatening immediate submission finish:**
 - Execute **[[Transitions/Ashi Garami Escape/Attacker|Ashi Garami Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 40%)
 - Execute **[[Transitions/Counter Ashi Entry/Attacker|Counter Ashi Entry]]** → [[Positions/Ashi Garami/50-50 Guard]] (Probability: 25%)
-- Execute **[[Tap recognition/Attacker|Tap recognition]]** → [[Positions/Game Over]] (Probability: 35%)
+- Execute **[[Transitions/Heel Hook Defense Escape/Attacker|Heel Hook Defense Escape]]** → [[Positions/Ashi Garami/Outside Ashi-Garami]] (Probability: 25%)
 
 
 **If opponent loses connection points during advancement attempt or transitional movement:**
 - Execute **[[Transitions/Pass to Side Control/Attacker|Pass to Side Control]]** → [[Positions/Side Control]] (Probability: 55%)
-- Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 45%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 45%)
 
 
 **If opponent sits up exposing neck while adjusting leg control angle or grip configuration:**
 - Execute **[[Transitions/Guillotine Setup/Attacker|Guillotine Setup]]** → [[Positions/Guillotine Control]] (Probability: 50%)
-- Execute **[[Front Headlock Series/Attacker|Front Headlock Series]]** → [[Positions/Front Headlock]] (Probability: 50%)
+- Execute **[[Transitions/Snap Down to Front Headlock/Attacker|Snap Down to Front Headlock]]** → [[Positions/Front Headlock]] (Probability: 50%)
 
 
 **If opponent extends trapped leg straight while attempting heel hook from Outside Ashi:**
@@ -321,6 +322,30 @@ Partner cycles through hierarchy advancement attempts (Outside to Inside, Inside
 
 
 
+
+</section>
+
+<section id="knowledge-assessment" class="content-section">
+
+## Test Your Knowledge
+
+**Q1**: What is the top player's absolute highest priority when caught in any Ashi Garami entanglement?
+**A**: Heel protection is the highest priority. The top player must maintain straight leg alignment or a hidden heel position at all times, because heel exposure to the opponent's finishing hook grip is the key mechanical requirement for heel hook submissions. Before attempting any escape, pass, or counter-attack, verify your heel is protected. Heel protection takes precedence over all other positional goals including escape attempts.
+
+**Q2**: How do you identify which level of the Ashi Garami hierarchy you are in, and why does it matter for your defensive urgency?
+**A**: Identify your position by checking inside space and heel exposure. Outside Ashi (opponent hooks outside your leg, you retain inside space) is manageable with time for systematic escape. Inside Ashi (opponent controls inside space, their knee is inside yours) requires more urgent response. Cross Ashi (cross-body control with superior heel isolation) is high danger. Saddle (maximum heel exposure, the Honey Hole) is emergency level requiring immediate escape. Misidentifying your position leads to either wasted energy panicking in manageable positions or fatally relaxing in dangerous ones.
+
+**Q3**: Why is explosive leg ripping the wrong escape approach from Ashi Garami top position?
+**A**: Forceful leg extraction rotates the knee and exposes the heel to the opponent's finishing hook grip—the exact mechanical sequence used to finish heel hooks. The violent rotation that accompanies an explosive rip is counterproductive because it creates the finishing opportunity you are trying to prevent. Modern leg lock defense uses systematic mechanical clearing sequences that maintain straight leg alignment throughout, addressing each connection point methodically rather than attempting to overpower the entanglement through strength or panic.
+
+**Q4**: What counter-attack opportunities exist for the top player during Ashi Garami exchanges?
+**A**: Counter-attacks open during three main windows: (1) Opponent sits up to adjust angle or grip, exposing the neck for a Guillotine Setup or Snap Down to Front Headlock. (2) Opponent loses connection points during hierarchy transitions, allowing a direct pass to Side Control. (3) Opponent extends your captured leg straight attempting an Outside Ashi heel hook, creating a Straight Ankle Lock Entry on the extended leg. Advanced practitioners deliberately enter these exchanges confident in their counter-attack capabilities, treating them as bilateral offensive opportunities rather than crises.
+
+**Q5**: What does inside space denial mean and how do you execute it from Ashi Garami top?
+**A**: Inside space is the area between your hip and the opponent's hip within the entanglement. Controlling it prevents opponent from advancing up the positional hierarchy from Outside to Inside to Cross to Saddle. Execute inside space denial by driving your inside knee toward the mat beside their hip to block their inside hook establishment, rotating your hips to keep your inside surface facing away from their entanglement, and maintaining downward hip pressure to eliminate the space they need for inside control. Active denial must be continuous—any relaxation allows immediate hierarchy advancement.
+
+**Q6**: When should you attempt an immediate escape versus maintaining patient defensive positioning in Ashi Garami top?
+**A**: Choose based on opponent's control quality and connection point security. Attempt immediate escape when connection points are loose, inside space is not yet controlled, and the opponent has not established hooks—this is your highest-percentage escape window. Use patient defense when control is tight and escape attempts would expose the heel; let the opponent exhaust themselves attempting advancement rather than creating finishing opportunities through failed explosive escapes. High-level players read control quality to make this decision rather than defaulting to one approach.
 
 </section>
 
