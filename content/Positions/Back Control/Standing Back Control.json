@@ -125,12 +125,12 @@
         "condition": "If opponent's posture is broken forward and neck is exposed",
         "actions": [
           {
-            "technique": "Rear Naked Choke attack",
+            "technique": "Rear Naked Choke Setup",
             "target": "Game Over",
             "probability": 55
           },
           {
-            "technique": "Maintain control and break down to ground",
+            "technique": "Mat Return from Standing Rear Clinch",
             "target": "Back Control",
             "probability": 60
           }
@@ -140,17 +140,17 @@
         "condition": "If opponent maintains strong upright posture and wide base",
         "actions": [
           {
-            "technique": "Take opponent down to grounded back control",
+            "technique": "Mat Return from Standing Rear Clinch",
             "target": "Back Control",
             "probability": 65
           },
           {
-            "technique": "Establish body triangle to compromise base",
+            "technique": "Body Triangle Lock",
             "target": "Body Triangle",
             "probability": 50
           },
           {
-            "technique": "Use hooks to break their base then attack",
+            "technique": "Back Control Maintenance",
             "target": "Standing Back Control",
             "probability": 55
           }
@@ -165,7 +165,7 @@
             "probability": 40
           },
           {
-            "technique": "Immediately take down before losing control",
+            "technique": "Follow to Back Control",
             "target": "Back Control",
             "probability": 60
           }
@@ -175,17 +175,17 @@
         "condition": "If opponent attempts to turn into you",
         "actions": [
           {
-            "technique": "Follow the turn to front headlock",
+            "technique": "Snap Down to Front Headlock",
             "target": "Front Headlock",
             "probability": 50
           },
           {
-            "technique": "Force them down to side control",
+            "technique": "Leg Hook to Side Control",
             "target": "Side Control",
             "probability": 45
           },
           {
-            "technique": "Maintain back and reset control",
+            "technique": "Back Control Maintenance",
             "target": "Standing Back Control",
             "probability": 40
           }
@@ -205,7 +205,7 @@
             "probability": 45
           },
           {
-            "technique": "Attack choke during transition",
+            "technique": "Rear Naked Choke Setup",
             "target": "Game Over",
             "probability": 50
           }
@@ -321,7 +321,7 @@
         "attempt_probability": 28
       },
       {
-        "transition": "Takedown to Grounded Back Control",
+        "transition": "Mat Return from Standing Rear Clinch",
         "attempt_probability": 18
       },
       {
@@ -448,12 +448,12 @@
         "condition": "If opponent has locked rear naked choke grip (hand on bicep, choking arm under chin)",
         "actions": [
           {
-            "technique": "Chin tuck and two-on-one grip break",
+            "technique": "RNC Defense",
             "target": "Standing Back Control",
             "probability": 55
           },
           {
-            "technique": "Drop to Turtle immediately",
+            "technique": "Controlled Descent",
             "target": "Turtle",
             "probability": 40
           }
@@ -463,17 +463,17 @@
         "condition": "If opponent has harness control but no immediate choke threat",
         "actions": [
           {
-            "technique": "Hip Escape to create angle",
+            "technique": "Hip Escape from Back Control",
             "target": "Turtle",
             "probability": 50
           },
           {
-            "technique": "Standing up in Base with grip breaks",
+            "technique": "Standing up in Base",
             "target": "Standing Position",
             "probability": 40
           },
           {
-            "technique": "Rolling to Guard with hip turn",
+            "technique": "Rolling to Guard",
             "target": "Closed Guard",
             "probability": 45
           }
@@ -483,12 +483,12 @@
         "condition": "If opponent has body triangle locked or both hooks in deep",
         "actions": [
           {
-            "technique": "Controlled descent to ground position",
+            "technique": "Controlled Descent",
             "target": "Back Control",
             "probability": 65
           },
           {
-            "technique": "Granby Roll to invert position",
+            "technique": "Granby Roll to Guard",
             "target": "Open Guard",
             "probability": 35
           }
@@ -498,12 +498,12 @@
         "condition": "If opponent has one hook or no hooks secured yet",
         "actions": [
           {
-            "technique": "Immediate hip turn and face opponent",
+            "technique": "Turn In and Face",
             "target": "Clinch",
             "probability": 55
           },
           {
-            "technique": "Standing up in Base with hand fighting",
+            "technique": "Standing up in Base",
             "target": "Standing Position",
             "probability": 45
           }
@@ -513,12 +513,12 @@
         "condition": "If opponent is attempting to drag you backward or off-balance",
         "actions": [
           {
-            "technique": "Drop weight and transition to Turtle",
+            "technique": "Controlled Descent",
             "target": "Turtle",
             "probability": 60
           },
           {
-            "technique": "Explosive forward roll to Guard",
+            "technique": "Explosive Forward Roll",
             "target": "Half Guard",
             "probability": 35
           }
@@ -630,7 +630,7 @@
     },
     "transitions": [
       {
-        "transition": "Hip Escape to Turtle",
+        "transition": "Hip Escape from Back Control",
         "attempt_probability": 10
       },
       {
