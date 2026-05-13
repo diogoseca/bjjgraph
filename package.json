@@ -1,6 +1,6 @@
 {
   "name": "bjjgraph",
-  "version": "1.19.1",
+  "version": "1.20.0",
   "description": "BJJ knowledge graph and state machine",
   "scripts": {
     "postinstall": "cd source && npm install",
@@ -16,9 +16,10 @@
     "regenerate:md": "python3 scripts/regenerate_md_from_json.py --all",
     "regenerate:hubs": "python3 scripts/regenerate_category_hub_pages.py",
     "regenerate:graph": "python3 scripts/regenerate_graph.py",
+    "regenerate:graph-layout": "python3 scripts/regenerate_graph_layout.py",
     "regenerate:votes": "python3 scripts/regenerate_votes.py",
     "regenerate:explorer": "python3 scripts/regenerate_explorer_tree.py",
-    "regenerate": "npm run regenerate:issues && npm run regenerate:json && npm run regenerate:explode && npm run regenerate:md && npm run regenerate:hubs && npm run regenerate:votes && npm run regenerate:graph && npm run regenerate:explorer",
+    "regenerate": "npm run regenerate:issues && npm run regenerate:json && npm run regenerate:explode && npm run regenerate:md && npm run regenerate:hubs && npm run regenerate:votes && npm run regenerate:graph && npm run regenerate:graph-layout && npm run regenerate:explorer",
     "proofread": "python3 scripts/proofread_all_transitions.py",
     "build": "cd source && npx quartz build --concurrency 4 -d ../content",
     "regenerate:build": "npm run regenerate && npm run build"

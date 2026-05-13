@@ -6,10 +6,13 @@
 const GRAPH_PEEK_PX = 50
 // Content mode: card offset slightly so graph peeks above
 const INITIAL_PEEK_PX = 60
+// Overscroll threshold (in deltaY units) before dismissing drawer when at min zoom
+const OVERSCROLL_THRESHOLD = 240
 
 type PanelState = "content" | "dragging" | "graph"
 let state: PanelState = "content"
 let dragProgress = 0 // 0 = content, 1 = graph
+let overscrollAccum = 0 // accumulated wheel deltaY when overscrolling at min zoom
 
 // Exposed for backgroundGraph.inline.ts via (window as any).__snapToContent / __snapToGraph
 
@@ -22,6 +25,7 @@ document.addEventListener("nav", () => {
   state = "content"
   const initProg = INITIAL_PEEK_PX / window.innerHeight
   dragProgress = initProg
+  overscrollAccum = 0
 
   const page = document.getElementById("quartz-root") as HTMLElement
   const overlay = document.getElementById("graph-overlay") as HTMLElement
@@ -100,6 +104,20 @@ document.addEventListener("nav", () => {
       page.style.transition = "none"
       dragProgress = Math.max(0, dragProgress - e.deltaY / window.innerHeight)
       applyTransform(dragProgress)
+      overscrollAccum = 0 // user changed direction, reset overscroll intent
+    } else if (state === "graph" && e.deltaY < 0) {
+      // Overscroll detection: if user tries to zoom out further but graph is
+      // already at minimum zoom (fit-all), reinterpret as scroll-down to dismiss
+      const isAtMinZoom = (window as any).__isGraphAtMinZoom
+      if (isAtMinZoom && isAtMinZoom()) {
+        e.preventDefault()
+        // Accumulate overscroll intent — don't dismiss instantly on a single tick
+        overscrollAccum += Math.abs(e.deltaY)
+        if (overscrollAccum > OVERSCROLL_THRESHOLD) {
+          overscrollAccum = 0
+          snapToContent()
+        }
+      }
     }
 
     if (state === "dragging") {
@@ -142,10 +160,23 @@ document.addEventListener("nav", () => {
       page.style.transition = "none"
       dragProgress = Math.max(0, dragProgress - deltaY / window.innerHeight)
       applyTransform(dragProgress)
+      overscrollAccum = 0
+    } else if (state === "graph" && deltaY < 0) {
+      // Touch overscroll: finger swipe down at min zoom → dismiss drawer
+      const isAtMinZoom = (window as any).__isGraphAtMinZoom
+      if (isAtMinZoom && isAtMinZoom()) {
+        // Don't preventDefault — let D3 still handle pan; we just track intent
+        overscrollAccum += Math.abs(deltaY)
+        if (overscrollAccum > OVERSCROLL_THRESHOLD) {
+          overscrollAccum = 0
+          snapToContent()
+        }
+      }
     }
   }
 
   function onTouchEnd() {
+    overscrollAccum = 0
     onRelease()
   }
 

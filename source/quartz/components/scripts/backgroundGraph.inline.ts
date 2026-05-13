@@ -269,26 +269,57 @@ function getCameraState(): [number, number, number] {
   return [cx, cy, w / scale]
 }
 
-// --- Calculate zoom scale that fits the entire graph in the viewport ---
-function calculateFitScale(): { scale: number; cx: number; cy: number } {
-  if (!bgApp || !layoutData) return { scale: 1, cx: 0, cy: 0 }
-  const w = bgApp.canvas.width / (window.devicePixelRatio || 1)
-  const h = bgApp.canvas.height / (window.devicePixelRatio || 1)
-
-  let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity
+// --- Calculate the padded bounding box of all graph nodes ---
+// Returns the bbox + 20% margin on each side. Used to clamp zoom-out and pan.
+function calculateBounds(): {
+  minX: number
+  maxX: number
+  minY: number
+  maxY: number
+  cx: number
+  cy: number
+  graphW: number
+  graphH: number
+} | null {
+  if (!layoutData) return null
+  let minX = Infinity,
+    maxX = -Infinity,
+    minY = Infinity,
+    maxY = -Infinity
   for (const n of layoutData.nodes) {
     if (n.x < minX) minX = n.x
     if (n.x > maxX) maxX = n.x
     if (n.y < minY) minY = n.y
     if (n.y > maxY) maxY = n.y
   }
+  const rawW = maxX - minX || 1
+  const rawH = maxY - minY || 1
+  // Asymmetric padding: generous horizontally so users can pan left/right freely,
+  // tighter vertically so overscroll-up cleanly triggers the dismiss-to-content behavior.
+  const padX = rawW * 0.5 // 50% on each side → 2x graph width pan room
+  const padY = rawH * 0.2 // 20% on each side → tight vertical (preserves dismiss UX)
+  return {
+    minX: minX - padX,
+    maxX: maxX + padX,
+    minY: minY - padY,
+    maxY: maxY + padY,
+    cx: (minX + maxX) / 2,
+    cy: (minY + maxY) / 2,
+    graphW: rawW + 2 * padX,
+    graphH: rawH + 2 * padY,
+  }
+}
 
-  const graphW = maxX - minX || 1
-  const graphH = maxY - minY || 1
-  const cx = (minX + maxX) / 2
-  const cy = (minY + maxY) / 2
-  const scale = Math.min(w / graphW, h / graphH) * 0.85 // 85% fill
-  return { scale, cx, cy }
+// --- Calculate zoom scale that fits the entire (padded) graph in the viewport ---
+function calculateFitScale(): { scale: number; cx: number; cy: number } {
+  if (!bgApp) return { scale: 1, cx: 0, cy: 0 }
+  const bounds = calculateBounds()
+  if (!bounds) return { scale: 1, cx: 0, cy: 0 }
+  const w = bgApp.canvas.width / (window.devicePixelRatio || 1)
+  const h = bgApp.canvas.height / (window.devicePixelRatio || 1)
+  // Scale that exactly fits the padded bbox; this is also our minimum zoom-out
+  const scale = Math.min(w / bounds.graphW, h / bounds.graphH)
+  return { scale, cx: bounds.cx, cy: bounds.cy }
 }
 
 // --- First-reveal zoom-out: from 10x (tight on current node) to fit-all ---
@@ -306,6 +337,28 @@ function zoomOutReveal(): Promise<void> {
   const targetCam: [number, number, number] = [fit.cx, fit.cy, targetViewportWidth]
 
   return animateVanWijk(currentCam, targetCam, 1200)
+}
+
+// --- Fit-all (sibling of zoomOutReveal, but no once-only guard) ---
+// Animates the camera to the fit-all view. Used by the #fit-all-btn click handler.
+function fitAll(durationMs = 800): Promise<void> {
+  if (!bgApp || !stage) return Promise.resolve()
+  const fit = calculateFitScale()
+  const currentCam = getCameraState()
+  const w = bgApp.canvas.width / (window.devicePixelRatio || 1)
+  const targetViewportWidth = w / fit.scale
+  const targetCam: [number, number, number] = [fit.cx, fit.cy, targetViewportWidth]
+  return animateVanWijk(currentCam, targetCam, durationMs)
+}
+
+// --- Toggle #fit-all-btn visibility based on graph-mode + zoom level ---
+function updateFitAllBtnVisibility() {
+  const btn = document.getElementById("fit-all-btn")
+  if (!btn) return
+  const inGraphMode = document.body.classList.contains("graph-focused")
+  // Show only when in graph mode AND user is zoomed past the fit-all level
+  const shouldShow = inGraphMode && !isAtMinZoom()
+  btn.classList.toggle("visible", shouldShow)
 }
 
 // --- Initialization (first nav event only) ---
@@ -450,6 +503,24 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
 
   // Expose zoom-out reveal for contentPanel to trigger on first scroll-up
   ;(window as any).__zoomOutReveal = zoomOutReveal
+  // Expose for overscroll detection in contentPanel
+  ;(window as any).__isGraphAtMinZoom = isAtMinZoom
+  // Expose fit-all (also used by #fit-all-btn click handler below)
+  ;(window as any).__fitAll = fitAll
+
+  // Wire up fit-all button click + observe body class changes for visibility
+  const fitBtn = document.getElementById("fit-all-btn")
+  if (fitBtn) {
+    fitBtn.addEventListener("click", () => fitAll(800))
+  }
+  // Observe body.graph-focused toggling so we update visibility when entering/leaving graph mode
+  const bodyObserver = new MutationObserver(() => updateFitAllBtnVisibility())
+  bodyObserver.observe(document.body, {
+    attributes: true,
+    attributeFilter: ["class"],
+  })
+  // Initial state
+  updateFitAllBtnVisibility()
 
   // Theme change listener
   document.addEventListener("themechange", () => {
@@ -468,14 +539,38 @@ async function initializeBackgroundGraph(container: HTMLElement, slug: string) {
   })
 }
 
+// --- Check if camera is at the minimum zoom-out (fit-all) within tolerance ---
+function isAtMinZoom(): boolean {
+  const fit = calculateFitScale()
+  // 5% tolerance — wheel events can produce sub-pixel rounding
+  return currentTransform.k <= fit.scale * 1.05
+}
+
 // --- D3 zoom/pan attached to canvas ---
 function setupZoomPan() {
   if (!bgApp || !stage) return
 
   const bgContainer = document.getElementById("background-graph")
 
+  // Calculate dynamic zoom/pan bounds from the padded bbox
+  const fit = calculateFitScale()
+  const bounds = calculateBounds()
+  const minScale = fit.scale // can't zoom out further than fit-all
+  const maxScale = 6 // user can zoom in 6x past fit-all
+
   d3ZoomBehavior = zoom<HTMLCanvasElement, unknown>()
-    .scaleExtent([0.05, 4])
+    .scaleExtent([minScale, maxScale])
+    .translateExtent(
+      bounds
+        ? [
+            [bounds.minX, bounds.minY],
+            [bounds.maxX, bounds.maxY],
+          ]
+        : [
+            [-Infinity, -Infinity],
+            [Infinity, Infinity],
+          ],
+    )
     .on("zoom", ({ transform, sourceEvent }) => {
       // Mark user interaction to skip the first-reveal zoom-out animation
       if (sourceEvent) userHasInteractedWithZoom = true
@@ -491,6 +586,9 @@ function setupZoomPan() {
         bgContainer.style.backgroundSize = `${gridSize}px ${gridSize}px`
         bgContainer.style.backgroundPosition = `${transform.x}px ${transform.y}px`
       }
+
+      // Show/hide fit-all button based on whether we're zoomed past fit-all
+      updateFitAllBtnVisibility()
     })
 
   select(bgApp.canvas as HTMLCanvasElement).call(d3ZoomBehavior)
@@ -560,6 +658,19 @@ document.addEventListener("nav", async (e: CustomEventMap["nav"]) => {
   if (!bgApp) {
     await initializeBackgroundGraph(container, slug)
   } else {
+    // Micromorph replaces the #background-graph div on each navigation,
+    // orphaning our canvas. Re-attach it to the new container if needed.
+    if (bgApp.canvas.parentElement !== container) {
+      container.appendChild(bgApp.canvas)
+      bgApp.renderer.render(bgApp.stage)
+    }
+    // Re-attach the fit-all button click handler (button is replaced on each nav)
+    const fitBtn = document.getElementById("fit-all-btn")
+    if (fitBtn && !(fitBtn as any).__fitAllBound) {
+      fitBtn.addEventListener("click", () => fitAll(800))
+      ;(fitBtn as any).__fitAllBound = true
+    }
+    updateFitAllBtnVisibility()
     highlightCurrentNode(slug)
   }
 })

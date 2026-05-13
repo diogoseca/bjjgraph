@@ -1554,6 +1554,12 @@ article {
 
 .training-dashboard {
   margin: 1.5rem 0;
+
+  // Mobile thumb-safe gutter: keeps rows from extending edge-to-edge so the
+  // user always has a scroll-grab zone outside the cards.
+  @media (max-width: 768px) {
+    padding: 0 0.75rem;
+  }
 }
 
 // Streak display (inline with progress bar)
@@ -1568,66 +1574,39 @@ article {
 .training-section {
   margin-bottom: 2rem;
 
+  // Sticky section headers — user always sees which section they're in
+  // while scrolling through long Known/Discover lists. The subtle backdrop
+  // keeps row content readable as it scrolls under.
   h3 {
+    position: sticky;
+    top: 0;
+    z-index: 2;
     font-size: 1rem;
     color: var(--gray);
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    margin-bottom: 0.75rem;
+    margin: 0 0 0.75rem 0;
+    padding: 0.5rem 0;
+    background: var(--light);
     border-bottom: 1px solid var(--lightgray);
-    padding-bottom: 0.5rem;
+
+    // Soft fade so rows don't have a hard cut as they scroll under the header
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: -0.5rem;
+      height: 0.5rem;
+      background: linear-gradient(to bottom, var(--light), transparent);
+      pointer-events: none;
+    }
   }
 }
 
-// Scrollable training lists with fade edges (10+ items)
-.training-scroll-list {
-  max-height: 50vh;
-  overflow-y: auto;
-  overflow-x: hidden;
-  -webkit-overflow-scrolling: touch;
-
-  mask-image: linear-gradient(
-    to bottom,
-    transparent,
-    black 1.2rem,
-    black calc(100% - 1.2rem),
-    transparent
-  );
-  -webkit-mask-image: linear-gradient(
-    to bottom,
-    transparent,
-    black 1.2rem,
-    black calc(100% - 1.2rem),
-    transparent
-  );
-
-  &.scroll-top {
-    mask-image: linear-gradient(to bottom, black, black calc(100% - 1.2rem), transparent);
-    -webkit-mask-image: linear-gradient(to bottom, black, black calc(100% - 1.2rem), transparent);
-  }
-
-  &.scroll-bottom {
-    mask-image: linear-gradient(to bottom, transparent, black 1.2rem, black);
-    -webkit-mask-image: linear-gradient(to bottom, transparent, black 1.2rem, black);
-  }
-
-  &.scroll-top.scroll-bottom {
-    mask-image: none;
-    -webkit-mask-image: none;
-  }
-
-  &::-webkit-scrollbar {
-    width: 3px;
-  }
-  &::-webkit-scrollbar-thumb {
-    background: var(--lightgray);
-    border-radius: 3px;
-  }
-
-  @media (max-width: 600px) {
-    max-height: 40vh;
-  }
-}
+// (Removed `.training-scroll-list` — the inner overflow container caused a
+// scroll trap on mobile and trackpad. Lists now flow into the page's natural
+// scroll. Pagination via "Show more" keeps total length manageable.)
 
 .training-cards-list {
   display: flex;
@@ -3208,8 +3187,63 @@ body.graph-focused {
   display: none;
 }
 
-// Collapse/expand toggle button
+// Collapse/expand toggle button — wide chevron showing gesture direction
+// Content mode: top-right. Graph mode: bottom-center (above the 50px title peek).
 #panel-toggle {
+  position: fixed;
+  z-index: 10;
+  width: 44px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  // Default (content mode): top-right
+  top: 1rem;
+  right: 1rem;
+  bottom: auto;
+  left: auto;
+  transform: none;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s,
+    top 0.3s ease,
+    bottom 0.3s ease,
+    left 0.3s ease,
+    right 0.3s ease,
+    transform 0.3s ease;
+
+  &:hover {
+    opacity: 1;
+    background: var(--lightgray);
+  }
+
+  // Default (content mode): show "up" chevron — gesture: scroll up to reveal graph
+  .toggle-icon-up { display: block; }
+  .toggle-icon-down { display: none; }
+}
+
+// Graph mode: button moves to bottom-center, shows "down" chevron
+// — gesture: scroll/click down to bring back content
+body.graph-focused #panel-toggle {
+  top: auto;
+  right: auto;
+  bottom: calc(50px + 0.5rem); // sits just above the 50px title-peek strip
+  left: 50%;
+  transform: translateX(-50%);
+
+  .toggle-icon-up { display: none; }
+  .toggle-icon-down { display: block; }
+}
+
+// Fit-all button — subtle, only visible in graph mode + when zoomed past fit-all
+#fit-all-btn {
   position: fixed;
   top: 1rem;
   right: 1rem;
@@ -3217,18 +3251,163 @@ body.graph-focused {
   width: 36px;
   height: 36px;
   border-radius: 8px;
-  border: 1px solid var(--lightgray);
-  background: var(--light);
-  color: var(--dark);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.35);
+  color: rgba(255, 255, 255, 0.55);
   cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.2s, background-color 0.2s;
+  opacity: 0;
+  pointer-events: none;
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 0;
+  transition:
+    opacity 0.25s ease,
+    color 0.2s,
+    background-color 0.2s;
 
+  // Only show when graph is focused AND not at fit-all (JS adds .visible class)
+  &.visible {
+    opacity: 0.7;
+    pointer-events: auto;
+  }
   &:hover {
     opacity: 1;
-    background: var(--lightgray);
+    color: rgba(255, 255, 255, 0.9);
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+// === Sidebar overlay — search + explorer floating on graph background ===
+#sidebar-overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: var(--sidebar-width, 320px);
+  height: 100vh;
+  z-index: 3; // above #background-graph (0), #graph-overlay (1), .page (2)
+  pointer-events: none;
+  // Dark gradient for readability over the busy graph — smooth multi-stop fade
+  // Dark band only at the very left edge, gradual transition, fully transparent
+  // by 40% so it doesn't cover the graph too much.
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 0.6) 0%,
+    rgba(0, 0, 0, 0.45) 10%,
+    rgba(0, 0, 0, 0.25) 20%,
+    rgba(0, 0, 0, 0.1) 30%,
+    transparent 40%
+  );
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+
+  & > .sidebar.left {
+    pointer-events: auto;
+    position: static;
+    grid-area: auto;
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 6.75rem 2rem 0 2rem;
+    margin-top: 0;
+  }
+
+  & > .sidebar-resizer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 6px;
+    cursor: col-resize;
+    pointer-events: auto;
+    z-index: 4;
+  }
+
+  @media (max-width: 800px) {
+    // Mobile: no overlay background, just position the sidebar (which is now
+    // a 44px-wide stack of buttons) in the top-right corner per base.scss override
+    width: auto;
+    height: auto;
+    background: none;
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    left: auto;
+    top: 1rem;
+    right: 1rem;
+
+    & > .sidebar.left {
+      padding: 0;
+      height: auto;
+    }
+    & > .sidebar-resizer {
+      display: none;
+    }
+  }
+}
+
+// Now that the sidebar is hoisted out of #quartz-body, remove the left grid column
+@media (min-width: 801px) {
+  #quartz-body {
+    // Account for the now-external left sidebar
+    padding-left: var(--sidebar-width, 320px);
+    grid-template-columns: auto 320px !important;
+    grid-template-areas:
+      "grid-header grid-sidebar-right"
+      "grid-center grid-sidebar-right"
+      "grid-footer grid-sidebar-right" !important;
+  }
+}
+@media (min-width: 801px) and (max-width: 1200px) {
+  #quartz-body {
+    grid-template-columns: auto !important;
+    grid-template-areas:
+      "grid-header"
+      "grid-center"
+      "grid-sidebar-right"
+      "grid-footer" !important;
+  }
+}
+
+// === Mobile: stack the search button below the panel toggle ===
+// Match the toggle's dimensions and sit 5px below it
+@media (max-width: 800px) {
+  .sidebar.left {
+    // Collapse to button width so search button doesn't sprawl
+    width: 44px !important;
+
+    & > .search {
+      padding-top: 0;
+      width: 44px;
+
+      & > #search-button {
+        width: 44px;
+        height: 36px;
+        padding: 0;
+        border-radius: 8px;
+        border: 1px solid var(--lightgray);
+        background: var(--light);
+        color: var(--dark);
+        opacity: 0.85;
+        // Position right below the panel-toggle: toggle is at top:1rem, height:36px,
+        // so search lands at calc(1rem + 36px + 5px) from sidebar's top:1rem anchor.
+        margin-top: 41px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition:
+          opacity 0.2s,
+          background-color 0.2s;
+
+        &:hover {
+          opacity: 1;
+          background: var(--lightgray);
+        }
+
+        // Hide the "Search" text label, show only the icon
+        & > p {
+          display: none;
+        }
+      }
+    }
   }
 }

@@ -14,15 +14,15 @@ function clampWidth(w: number): number {
 }
 
 document.addEventListener("nav", () => {
-  const body = document.getElementById("quartz-body")
+  const root = document.documentElement // :root — propagates to all descendants
   const resizer = document.querySelector<HTMLElement>(".sidebar-resizer")
-  if (!body || !resizer) return
+  if (!resizer) return
 
   // Restore saved width
   const saved = localStorage.getItem(STORAGE_KEY)
   if (saved) {
     const w = clampWidth(parseInt(saved, 10))
-    body.style.setProperty("--sidebar-width", w + "px")
+    root.style.setProperty("--sidebar-width", w + "px")
   }
 
   let dragging = false
@@ -30,7 +30,7 @@ document.addEventListener("nav", () => {
   let startWidth = 0
 
   function getCurrentWidth(): number {
-    const val = body!.style.getPropertyValue("--sidebar-width")
+    const val = root.style.getPropertyValue("--sidebar-width")
     return val ? parseInt(val, 10) : DEFAULT_WIDTH
   }
 
@@ -49,7 +49,7 @@ document.addEventListener("nav", () => {
     if (!dragging) return
     const delta = e.clientX - startX
     const newWidth = clampWidth(startWidth + delta)
-    body!.style.setProperty("--sidebar-width", newWidth + "px")
+    root.style.setProperty("--sidebar-width", newWidth + "px")
   }
 
   function onPointerUp(e: PointerEvent) {
@@ -59,13 +59,12 @@ document.addEventListener("nav", () => {
     document.body.style.cursor = ""
     document.body.style.userSelect = ""
     resizer!.releasePointerCapture(e.pointerId)
-    // Save final width
     const finalWidth = getCurrentWidth()
     localStorage.setItem(STORAGE_KEY, String(finalWidth))
   }
 
   function onDblClick() {
-    body!.style.setProperty("--sidebar-width", DEFAULT_WIDTH + "px")
+    root.style.setProperty("--sidebar-width", DEFAULT_WIDTH + "px")
     localStorage.removeItem(STORAGE_KEY)
   }
 
