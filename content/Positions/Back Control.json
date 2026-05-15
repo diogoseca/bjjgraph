@@ -374,13 +374,13 @@
   },
   "bottom": {
     "name": "Back Control Bottom",
-    "description": "Master escaping back control in BJJ. Learn defensive frames, hand fighting, hip escapes, survival tactics, and systematic escape sequences from this position.",
+    "description": "Escaping back control in BJJ: protect your neck first, then hand fight, remove hooks, and rotate to face your opponent. The hardest defensive position to survive.",
     "tags": [
       "bjj position defensive escape back control",
       "back control bottom defensive strategy escapes",
       "brazilian jiu-jitsu back escape hand fighting techniques"
     ],
-    "overview": "Back control bottom represents one of the most challenging defensive positions in Brazilian Jiu-Jitsu, where you are being controlled from behind by an opponent who has established chest-to-back connection, hooks or body triangle, and upper body control through harness or similar grips. This position carries significant disadvantage as you cannot see your opponent's attacks, have limited mobility, and face immediate submission threats including rear naked choke, arm attacks, and various choke variations. In IBJJF competition, your opponent scores 4 points for achieving this position, and you face the additional pressure of defending against high-percentage submission attempts.\n\nYour primary objectives from back control bottom are survival, hand fighting to prevent choking attacks, systematic escape to less disadvantageous positions, and ultimately recovery to neutral or advantageous positions. Defensive priorities include protecting your neck through chin position and grip fighting, preventing opponent from improving their control, creating space through hip movement and framing, and executing escape sequences that address both leg control and upper body control. The position requires exceptional composure under pressure, systematic defensive methodology, and patience to execute multi-step escape sequences without panicking into defensive errors.\n\nSuccessful defense from back control requires understanding the hierarchy of control points your opponent maintains and systematically addressing each control mechanism. You must first protect against immediate submission threats through chin protection and hand fighting, then address leg control by removing hooks or escaping body triangle, and finally create angles and space that allow you to turn and face your opponent or transition to less disadvantageous positions like turtle or half guard. Energy management is critical as panic and explosive movements typically accelerate position loss rather than facilitate escape.\n\nThe escape hierarchy follows a strict sequence: neck defense first through chin tuck and two-on-one grip control on the choking arm, then seatbelt grip stripping to free your upper body, then hook removal through hip escape and leg manipulation, and finally rotation to face your opponent and establish guard. Each phase must be addressed before progressing to the next. Attempting to skip steps, such as fighting hooks before securing neck defense, consistently results in submission. Advanced practitioners develop the ability to chain multiple escape attempts together, using the opponent's defensive adjustments as windows for secondary escape directions.",
+    "overview": "Back control bottom is BJJ's hardest defensive position to escape. Your opponent holds a 4-point advantage and has four simultaneous control points — hooks or body triangle on your hips, harness on your upper body, and chest-to-back pressure — while you cannot see their attacks. Immediate submission threats exist from the moment the position is established, and escaping requires a strict systematic sequence: protect your neck first, hand fight the choking arm, remove hooks, then rotate to face your opponent.\n\nBack control bottom places you in a position where your opponent controls from behind with chest-to-back connection, hooks or body triangle, and harness grip. This position carries significant disadvantage as you cannot see your opponent's attacks, have limited mobility, and face immediate submission threats including rear naked choke, arm attacks, and various choke variations. In IBJJF competition, your opponent scores 4 points for achieving this position, and you face the additional pressure of defending against high-percentage submission attempts.\n\nYour primary objectives from back control bottom are survival, hand fighting to prevent choking attacks, systematic escape to less disadvantageous positions, and ultimately recovery to neutral or advantageous positions. Defensive priorities include protecting your neck through chin position and grip fighting, preventing opponent from improving their control, creating space through hip movement and framing, and executing escape sequences that address both leg control and upper body control. The position requires exceptional composure under pressure, systematic defensive methodology, and patience to execute multi-step escape sequences without panicking into defensive errors.\n\nSuccessful defense from back control requires understanding the hierarchy of control points your opponent maintains and systematically addressing each control mechanism. You must first protect against immediate submission threats through chin protection and hand fighting, then address leg control by removing hooks or escaping body triangle, and finally create angles and space that allow you to turn and face your opponent or transition to less disadvantageous positions like turtle or half guard. Energy management is critical as panic and explosive movements typically accelerate position loss rather than facilitate escape.\n\nThe escape hierarchy follows a strict sequence: neck defense first through chin tuck and two-on-one grip control on the choking arm, then seatbelt grip stripping to free your upper body, then hook removal through hip escape and leg manipulation, and finally rotation to face your opponent and establish guard. Each phase must be addressed before progressing to the next. Attempting to skip steps, such as fighting hooks before securing neck defense, consistently results in submission. Advanced practitioners develop the ability to chain multiple escape attempts together, using the opponent's defensive adjustments as windows for secondary escape directions.",
     "state_properties": {
       "point_value": -4,
       "position_type": "Defensive",
@@ -473,12 +473,12 @@
         "condition": "If opponent has both hooks in and harness grip with arm attacking your neck",
         "actions": [
           {
-            "technique": "Immediate chin tuck and two-on-one hand fighting on choking arm",
+            "technique": "Hand Fighting from Back",
             "target": "Back Control",
             "probability": 70
           },
           {
-            "technique": "Strip seatbelt grip with bottom hand while maintaining neck defense",
+            "technique": "Back Door Escape",
             "target": "Back Control",
             "probability": 65
           }
@@ -488,12 +488,12 @@
         "condition": "If you successfully defend neck and opponent maintains hooks without immediate submission threat",
         "actions": [
           {
-            "technique": "Systematic hook removal starting with weaker underhook side",
+            "technique": "Elbow Escape to Remove Hooks",
             "target": "Turtle",
             "probability": 45
           },
           {
-            "technique": "Hip escape creating angle toward underhook side for turn",
+            "technique": "Hip Escape to Turtle",
             "target": "Half Guard",
             "probability": 40
           }
@@ -503,12 +503,12 @@
         "condition": "If opponent has body triangle locked and attacking neck simultaneously",
         "actions": [
           {
-            "technique": "Turn toward triangle leg side to reduce squeeze while defending neck",
+            "technique": "Turn In and Face",
             "target": "Back Control",
             "probability": 35
           },
           {
-            "technique": "Accept defensive holding position while managing energy and breathing",
+            "technique": "Hand Fighting from Back",
             "target": "Back Control",
             "probability": 50
           }
@@ -518,12 +518,12 @@
         "condition": "If you create space and remove one hook successfully",
         "actions": [
           {
-            "technique": "Hip escape to turtle position before opponent re-establishes hook",
+            "technique": "Hip Escape to Turtle",
             "target": "Turtle",
             "probability": 55
           },
           {
-            "technique": "Turn into half guard using frames on shoulder and hip",
+            "technique": "Turn In and Face",
             "target": "Half Guard",
             "probability": 50
           }
@@ -533,16 +533,42 @@
         "condition": "If opponent overcommits to choke attempt and loosens hook or seatbelt control",
         "actions": [
           {
-            "technique": "Exploit loosened control with immediate hip escape sequence",
+            "technique": "Hip Escape from Back Control",
             "target": "Open Guard",
             "probability": 45
           },
           {
-            "technique": "Strip loosened hook and begin rotation to face opponent",
+            "technique": "Back Door Escape",
             "target": "Closed Guard",
             "probability": 40
           }
         ]
+      }
+    ],
+    "knowledge_assessment": [
+      {
+        "question": "What should you do first when an opponent takes your back?",
+        "answer": "Immediately tuck your chin and use both hands to fight the choking arm — a two-on-one grip on the opponent's wrist and elbow. Neck defense is the highest priority because a rear naked choke can be locked before you have time to attempt any escape."
+      },
+      {
+        "question": "What is the correct escape hierarchy from back control?",
+        "answer": "The sequence is: (1) protect your neck with chin tuck and hand fighting, (2) strip the seatbelt/harness grip to free your upper body, (3) remove hooks through hip escape and leg manipulation, (4) rotate to face your opponent and establish guard. Skipping steps — especially fighting hooks before securing neck defense — consistently leads to submission."
+      },
+      {
+        "question": "Why shouldn't you grab your opponent's legs or feet when defending back control?",
+        "answer": "Grabbing the opponent's legs pulls both hands away from your neck, leaving it completely undefended. The opponent can immediately sink a rear naked choke or other choke variation. Your hands must prioritize neck defense at all times; address hooks with hip movement and body mechanics, not your hands."
+      },
+      {
+        "question": "How do you deal with a body triangle from back control?",
+        "answer": "Turn toward the triangle leg side to reduce the squeeze pressure while continuing to defend your neck. The body triangle restricts hip escape more than standard hooks, so energy management matters — stay calm, breathe, and look for the moment when the opponent overcommits to a choke to create your escape window."
+      },
+      {
+        "question": "What is the back door escape?",
+        "answer": "The back door escape is a systematic escape that moves your body downward and underneath the opponent's leg control rather than trying to turn into them. By sliding hips out from between the opponent's hooks toward the back of their legs, you can emerge below their control and transition to turtle or half guard."
+      },
+      {
+        "question": "How do you avoid the rear naked choke from back control?",
+        "answer": "Tuck your chin tight to your chest immediately and use a two-on-one grip to control the opponent's choking arm at the wrist and elbow. Keep your elbows in close to your body to prevent the arm from sliding under your chin. Strip the harness grip with your bottom hand while maintaining chin protection — never let the choking arm get deeper than your jaw line."
       }
     ],
     "common_errors": [
