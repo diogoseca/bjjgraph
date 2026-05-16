@@ -48,6 +48,102 @@ function getContentStatsJson(): string {
   return _contentStatsJson
 }
 
+// Cached training question bank + adjacency. Built once at first page render,
+// injected into every page so the FlashcardsHeader strip + DecksModal + chevron
+// nav + Flashcard runtime can read it anywhere the user is.
+let _questionBankJson: string | null = null
+let _graphAdjacencyJson: string | null = null
+
+function getTrainingDataJson(allFiles: QuartzPluginData[]): {
+  questionBankJson: string | null
+  graphAdjacencyJson: string | null
+} {
+  if (_questionBankJson !== null && _graphAdjacencyJson !== null) {
+    return { questionBankJson: _questionBankJson, graphAdjacencyJson: _graphAdjacencyJson }
+  }
+
+  const graph = loadGraphData()
+  if (!graph) return { questionBankJson: null, graphAdjacencyJson: null }
+
+  type BankSection = "transitions" | "submissions" | "positions" | "principles" | "systems"
+  const bank: Array<{
+    name: string
+    type: string
+    slug: string
+    flashcards: Array<{ question: string; answer: string }>
+  }> = []
+  const bankGraphKeys: Array<{ key: string; section: BankSection }> = []
+
+  // Build a lookup from technique name → file slug
+  const slugLookup: Record<string, string> = {}
+  for (const f of allFiles) {
+    const fSlug = f.slug ?? ""
+    const title = (f.frontmatter?.title as string) ?? ""
+    const name = title.split(" | ")[0].trim()
+    if (name) slugLookup[name.toLowerCase()] = fSlug
+  }
+
+  const addEntries = (
+    section: Record<string, any>,
+    type: string,
+    prefix: string,
+    sectionName: BankSection,
+  ) => {
+    for (const [key, data] of Object.entries(section || {})) {
+      // Skip family hubs — their aggregated flashcards already live on variants.
+      if (data.isFamily) continue
+      // Positions: only role entries (skip hub-level aggregations).
+      if (sectionName === "positions" && data.role === "hub") continue
+      const cards = data.flashcards || []
+      if (cards.length === 0) continue
+      const fileSlug = slugLookup[data.name?.toLowerCase()] || `${prefix}/${data.name || key}`
+      bank.push({ name: data.name || key, type, slug: fileSlug, flashcards: cards })
+      bankGraphKeys.push({ key, section: sectionName })
+    }
+  }
+
+  addEntries(graph.transitions, "transition", "Transitions", "transitions")
+  addEntries(graph.submissions, "submission", "Submissions", "submissions")
+  addEntries(graph.positions, "position", "Positions", "positions")
+  addEntries(graph.principles, "principle", "Principles", "principles")
+  addEntries(graph.systems, "system", "Systems", "systems")
+
+  _questionBankJson = JSON.stringify(bank)
+
+  // Adjacency: positions = positionHub → [bank indices]; outcomes = bank[idx] → [position hubs]
+  const positions: Record<string, number[]> = {}
+  const outcomes: string[][] = []
+  for (let i = 0; i < bank.length; i++) {
+    const { key, section } = bankGraphKeys[i]
+    const data = graph[section]?.[key]
+    if (!data) {
+      outcomes.push([])
+      continue
+    }
+    const startPositions: string[] = []
+    if (data.startingPosition) startPositions.push(data.startingPosition)
+    if (data.fromPositions) {
+      for (const fp of data.fromPositions) {
+        if (!startPositions.includes(fp)) startPositions.push(fp)
+      }
+    }
+    for (const pos of startPositions) {
+      if (!positions[pos]) positions[pos] = []
+      if (!positions[pos].includes(i)) positions[pos].push(i)
+    }
+    const outPos: string[] = []
+    for (const o of data.outcomes || []) {
+      if (!o.to || o.to === "game-over") continue
+      const hub = o.to.includes("/") ? o.to.split("/")[0] : o.to
+      if (!outPos.includes(hub)) outPos.push(hub)
+    }
+    outcomes.push(outPos)
+  }
+  _graphAdjacencyJson = JSON.stringify({ positions, outcomes })
+
+  return { questionBankJson: _questionBankJson, graphAdjacencyJson: _graphAdjacencyJson }
+}
+
 // Cached roll positions JSON (computed once across all pages at build time)
 let _rollPositionsJson: string | null = null
 
@@ -790,107 +886,10 @@ export function renderPage(
   // Build-time pre-computed graph layout (avoids D3 simulation at runtime)
   const graphPositionsJson = computePageGraphLayout(componentData.allFiles, slug)
 
-  // Build-time question bank + graph adjacency for /training page
-  let questionBankJson: string | null = null
-  let graphAdjacencyJson: string | null = null
-  if (slug.toLowerCase() === ("training" as FullSlug)) {
-    const graph = loadGraphData()
-    if (graph) {
-      type BankSection = "transitions" | "submissions" | "positions" | "principles" | "systems"
-      const bank: Array<{
-        name: string
-        type: string
-        slug: string
-        flashcards: Array<{ question: string; answer: string }>
-      }> = []
-
-      // Track graph keys for adjacency building
-      const bankGraphKeys: Array<{ key: string; section: BankSection }> = []
-
-      // Build a lookup from technique name → file slug
-      const slugLookup: Record<string, string> = {}
-      for (const f of componentData.allFiles) {
-        const fSlug = f.slug ?? ""
-        const title = (f.frontmatter?.title as string) ?? ""
-        const name = title.split(" | ")[0].trim()
-        if (name) slugLookup[name.toLowerCase()] = fSlug
-      }
-
-      const addEntries = (
-        section: Record<string, any>,
-        type: string,
-        prefix: string,
-        sectionName: BankSection,
-      ) => {
-        for (const [key, data] of Object.entries(section || {})) {
-          // Skip family hubs from the training bank — their aggregated flashcards
-          // are already present via the variant entries.
-          if (data.isFamily) continue
-          // For positions, only include role entries (not hub-level aggregations)
-          // to avoid duplicate cards for the same position.
-          if (sectionName === "positions" && data.role === "hub") continue
-          const cards = data.flashcards || []
-          if (cards.length === 0) continue
-          const fileSlug = slugLookup[data.name?.toLowerCase()] || `${prefix}/${data.name || key}`
-          bank.push({
-            name: data.name || key,
-            type,
-            slug: fileSlug,
-            flashcards: cards,
-          })
-          bankGraphKeys.push({ key, section: sectionName })
-        }
-      }
-
-      addEntries(graph.transitions, "transition", "Transitions", "transitions")
-      addEntries(graph.submissions, "submission", "Submissions", "submissions")
-      addEntries(graph.positions, "position", "Positions", "positions")
-      addEntries(graph.principles, "principle", "Principles", "principles")
-      addEntries(graph.systems, "system", "Systems", "systems")
-
-      questionBankJson = JSON.stringify(bank)
-
-      // Build adjacency data for smart technique suggestions
-      // positions: positionHub → array of bank indices (techniques from that position)
-      // outcomes: bank index → array of position hubs this technique leads to
-      const positions: Record<string, number[]> = {}
-      const outcomes: string[][] = []
-
-      for (let i = 0; i < bank.length; i++) {
-        const { key, section } = bankGraphKeys[i]
-        const data = graph[section]?.[key]
-        if (!data) {
-          outcomes.push([])
-          continue
-        }
-
-        // Starting positions → technique index
-        const startPositions: string[] = []
-        if (data.startingPosition) startPositions.push(data.startingPosition)
-        if (data.fromPositions) {
-          for (const fp of data.fromPositions) {
-            if (!startPositions.includes(fp)) startPositions.push(fp)
-          }
-        }
-
-        for (const pos of startPositions) {
-          if (!positions[pos]) positions[pos] = []
-          if (!positions[pos].includes(i)) positions[pos].push(i)
-        }
-
-        // Outcome positions (extract hub, skip game-over)
-        const outPos: string[] = []
-        for (const o of data.outcomes || []) {
-          if (!o.to || o.to === "game-over") continue
-          const hub = o.to.includes("/") ? o.to.split("/")[0] : o.to
-          if (!outPos.includes(hub)) outPos.push(hub)
-        }
-        outcomes.push(outPos)
-      }
-
-      graphAdjacencyJson = JSON.stringify({ positions, outcomes })
-    }
-  }
+  // Build-time question bank + graph adjacency — injected on every page so
+  // the FlashcardsHeader strip, DecksModal, and chevron carousel can read them
+  // anywhere. Built once at first page render and cached at module scope.
+  const { questionBankJson, graphAdjacencyJson } = getTrainingDataJson(componentData.allFiles)
 
   const lang = componentData.fileData.frontmatter?.lang ?? cfg.locale?.split("-")[0] ?? "en"
   const doc = (

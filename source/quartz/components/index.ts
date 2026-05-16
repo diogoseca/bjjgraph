@@ -27,7 +27,6 @@ import OutcomeCards from "./OutcomeCards"
 import Snackbar from "./Snackbar"
 import Flashcard from "./Flashcard"
 import VictoryDisplay from "./VictoryDisplay"
-import TrainingDashboard from "./TrainingDashboard"
 import TreeExplorer from "./TreeExplorer"
 import TopBar from "./TopBar"
 import SidebarResizer from "./SidebarResizer"
@@ -35,6 +34,11 @@ import AuthUI from "./AuthUI"
 import ContentPanel from "./ContentPanel"
 import BackgroundGraph from "./BackgroundGraph"
 import TreeDrawer from "./TreeDrawer"
+import FlashcardsHeader from "./FlashcardsHeader"
+import DecksModal from "./DecksModal"
+import SettingsModal from "./SettingsModal"
+import SessionChevrons from "./SessionChevrons"
+import FirstLoadHint from "./FirstLoadHint"
 
 export {
   ArticleTitle,
@@ -66,7 +70,6 @@ export {
   Snackbar,
   Flashcard,
   VictoryDisplay,
-  TrainingDashboard,
   TreeExplorer,
   TopBar,
   SidebarResizer,
@@ -74,4 +77,9 @@ export {
   ContentPanel,
   BackgroundGraph,
   TreeDrawer,
+  FlashcardsHeader,
+  DecksModal,
+  SettingsModal,
+  SessionChevrons,
+  FirstLoadHint,
 }

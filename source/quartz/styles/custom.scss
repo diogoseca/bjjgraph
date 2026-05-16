@@ -3471,3 +3471,819 @@ body.drawer-open #tree-toggle {
     }
   }
 }
+
+// ============================================================================
+// FlashcardsHeader strip — persistent fixed strip near top of viewport
+// Sits below the existing top-of-page chrome. ~36-40px tall, full width,
+// content centered. Z-index 30: above article + graph, below modals (~9990+).
+// ============================================================================
+
+#flashcards-header.flashcards-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 30;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.65rem;
+  padding: 0.4rem 0.75rem;
+  min-height: 36px;
+  background: color-mix(in srgb, var(--light) 88%, transparent);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
+  font-size: 0.85rem;
+  color: var(--darkgray);
+  pointer-events: auto;
+}
+
+.flashcards-header-label {
+  background: none;
+  border: none;
+  padding: 0.25rem 0.6rem;
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--darkgray);
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    background: color-mix(in srgb, var(--lightgray) 50%, transparent);
+    color: var(--dark);
+    outline: none;
+  }
+}
+
+.flashcards-header-play {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  height: 28px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--secondary) 50%, transparent);
+  border-radius: 50%;
+  background: var(--secondary);
+  color: var(--light);
+  cursor: pointer;
+  transition:
+    transform 0.12s ease,
+    background 0.15s,
+    border-color 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    transform: scale(1.06);
+    outline: none;
+  }
+
+  // Show play glyph by default, swap to stop glyph during session
+  .flashcards-header-icon-stop {
+    display: none;
+  }
+}
+
+.flashcards-header.flashcards-header--session .flashcards-header-play {
+  background: var(--dark);
+  border-color: var(--dark);
+
+  .flashcards-header-icon-play {
+    display: none;
+  }
+  .flashcards-header-icon-stop {
+    display: inline-block;
+  }
+}
+
+// Push everything that the page-shell positions at top:0 down by the strip
+// height so we don't overlap the graph-toggle button, breadcrumbs, etc.
+// Most chrome already sits at top:0; nudging via padding on body is cleanest.
+body {
+  --flashcards-header-height: 36px;
+}
+
+@media (max-width: 600px) {
+  #flashcards-header.flashcards-header {
+    min-height: 32px;
+    padding: 0.3rem 0.5rem;
+    font-size: 0.8rem;
+  }
+}
+
+// ============================================================================
+// DecksModal — overlay that opens when user clicks the FlashcardsHeader label
+// Scrim lightly dims the background graph; panel rises from center.
+// Sticky bottom CTA bar always visible while body scrolls.
+// ============================================================================
+
+.decks-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9990;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: decks-modal-fade-in 0.18s ease-out;
+}
+
+@keyframes decks-modal-fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.decks-modal-panel {
+  width: 100%;
+  max-width: 460px;
+  max-height: 80vh;
+  background: var(--light);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: decks-modal-rise 0.22s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+@keyframes decks-modal-rise {
+  from {
+    transform: translateY(16px);
+    opacity: 0.5;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.decks-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem 0.75rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
+}
+
+.decks-modal-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--dark);
+}
+
+.decks-modal-header-actions {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+}
+
+.decks-modal-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--gray);
+  font-size: 1.4rem;
+  line-height: 1;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    color 0.15s,
+    background 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--dark);
+    background: color-mix(in srgb, var(--lightgray) 60%, transparent);
+    outline: none;
+  }
+}
+
+.decks-modal-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 0.5rem 0.5rem;
+}
+
+.decks-modal-row {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.85rem 1rem;
+  margin: 0.25rem 0;
+  background: none;
+  border: 1px solid transparent;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 0.95rem;
+  color: var(--dark);
+  text-align: left;
+  transition:
+    background 0.15s,
+    border-color 0.15s;
+
+  &:hover:not(.decks-modal-row--disabled),
+  &:focus-visible:not(.decks-modal-row--disabled) {
+    background: color-mix(in srgb, var(--lightgray) 50%, transparent);
+    border-color: color-mix(in srgb, var(--lightgray) 80%, transparent);
+    outline: none;
+  }
+
+  &.decks-modal-row--disabled {
+    opacity: 0.45;
+    cursor: default;
+  }
+}
+
+.decks-modal-row-label {
+  flex: 1 1 auto;
+  font-weight: 500;
+}
+
+.decks-modal-row-count {
+  font-variant-numeric: tabular-nums;
+  color: var(--gray);
+  font-size: 0.9rem;
+}
+
+.decks-modal-row-chev {
+  color: var(--gray);
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.decks-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+  padding: 0.85rem 1.1rem;
+  border-top: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
+  background: color-mix(in srgb, var(--light) 94%, transparent);
+  // Sticky to the modal body — stays visible while user scrolls the deck rows
+  position: sticky;
+  bottom: 0;
+}
+
+.decks-modal-footer-stats {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.15rem;
+  font-size: 0.78rem;
+  color: var(--gray);
+}
+
+.decks-modal-streak {
+  font-weight: 500;
+  color: var(--darkgray);
+}
+
+.decks-modal-progress {
+  font-variant-numeric: tabular-nums;
+}
+
+.decks-modal-cta {
+  flex: 0 0 auto;
+  padding: 0.6rem 1rem;
+  background: var(--secondary);
+  color: var(--light);
+  border: 1px solid var(--secondary);
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition:
+    transform 0.12s ease,
+    background 0.15s,
+    border-color 0.15s;
+
+  &:hover:not(:disabled),
+  &:focus-visible:not(:disabled) {
+    transform: translateY(-1px);
+    outline: none;
+  }
+
+  &:disabled {
+    opacity: 0.55;
+    cursor: default;
+  }
+}
+
+@media (max-width: 600px) {
+  .decks-modal-panel {
+    max-width: 100%;
+    max-height: 88vh;
+  }
+}
+
+// ============================================================================
+// SettingsModal — tabbed overlay stacked above DecksModal
+// z-index 9991 > 9990 (DecksModal). Same scrim, same panel shape, different
+// internal layout: tabs + form rows.
+// ============================================================================
+
+.settings-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 9991;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  animation: decks-modal-fade-in 0.18s ease-out;
+}
+
+.settings-modal-panel {
+  width: 100%;
+  max-width: 460px;
+  max-height: 80vh;
+  background: var(--light);
+  border-radius: 12px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  animation: decks-modal-rise 0.22s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+.settings-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.25rem 0.5rem;
+}
+
+.settings-modal-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  margin: 0;
+  color: var(--dark);
+}
+
+.settings-modal-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background: none;
+  color: var(--gray);
+  font-size: 1.4rem;
+  line-height: 1;
+  border-radius: 6px;
+  cursor: pointer;
+  transition:
+    color 0.15s,
+    background 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--dark);
+    background: color-mix(in srgb, var(--lightgray) 60%, transparent);
+    outline: none;
+  }
+}
+
+.settings-modal-tabs {
+  display: flex;
+  padding: 0 1.25rem;
+  border-bottom: 1px solid color-mix(in srgb, var(--lightgray) 60%, transparent);
+}
+
+.settings-modal-tab {
+  background: none;
+  border: none;
+  padding: 0.6rem 1rem;
+  margin-bottom: -1px;
+  font-size: 0.9rem;
+  color: var(--gray);
+  font-weight: 500;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition:
+    color 0.15s,
+    border-color 0.15s;
+
+  &:hover,
+  &:focus-visible {
+    color: var(--dark);
+    outline: none;
+  }
+
+  &.settings-modal-tab--active {
+    color: var(--secondary);
+    border-bottom-color: var(--secondary);
+  }
+}
+
+.settings-modal-body {
+  flex: 1 1 auto;
+  overflow-y: auto;
+  padding: 1.1rem 1.25rem;
+}
+
+.settings-modal-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.65rem 0;
+
+  & + & {
+    border-top: 1px solid color-mix(in srgb, var(--lightgray) 40%, transparent);
+  }
+
+  &.settings-modal-row--column {
+    flex-direction: column;
+    align-items: stretch;
+  }
+}
+
+.settings-modal-label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  font-size: 0.92rem;
+  font-weight: 500;
+  color: var(--dark);
+}
+
+.settings-modal-hint {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: var(--gray);
+}
+
+.settings-modal-input {
+  width: 80px;
+  padding: 0.4rem 0.6rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 6px;
+  font-size: 0.95rem;
+  background: var(--light);
+  color: var(--dark);
+
+  &:focus-visible {
+    outline: none;
+    border-color: var(--secondary);
+  }
+}
+
+.settings-modal-toggle {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+.settings-modal-pill-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-top: 0.5rem;
+}
+
+.settings-modal-pill {
+  padding: 0.4rem 0.75rem;
+  border: 1px solid var(--lightgray);
+  border-radius: 999px;
+  background: var(--light);
+  color: var(--darkgray);
+  font-size: 0.85rem;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    color 0.15s,
+    border-color 0.15s;
+
+  &:hover:not(:disabled):not(.settings-modal-pill--active),
+  &:focus-visible:not(:disabled):not(.settings-modal-pill--active) {
+    border-color: var(--secondary);
+    color: var(--secondary);
+    outline: none;
+  }
+
+  &.settings-modal-pill--active {
+    background: var(--secondary);
+    color: var(--light);
+    border-color: var(--secondary);
+  }
+
+  &.settings-modal-pill--locked,
+  &:disabled {
+    opacity: 0.5;
+    cursor: default;
+  }
+}
+
+// ============================================================================
+// SessionChevrons — prev/next carousel-nav chevrons visible during sessions
+// Hidden by default; revealed by body[data-training-active] OR by the
+// .session-chevrons--visible class set by the runtime.
+// Anchored near viewport edges with a thumb-safe gutter (and chevrons sit at
+// the article gutters on desktop where there's more space). Translucent until
+// hover/focus, then 1.0 opacity.
+// ============================================================================
+
+.session-chevrons {
+  // Container is presentational only; each chevron is fixed-positioned.
+  display: contents;
+}
+
+body:not([data-training-active]) .session-chevron {
+  display: none;
+}
+
+.session-chevron {
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 25;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--lightgray) 70%, transparent);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--light) 92%, transparent);
+  color: var(--dark);
+  cursor: pointer;
+  opacity: 0.4;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  transition:
+    opacity 0.18s ease,
+    transform 0.12s ease,
+    background 0.18s,
+    border-color 0.18s;
+
+  &:hover,
+  &:focus-visible {
+    opacity: 1;
+    transform: translateY(-50%) scale(1.06);
+    background: var(--light);
+    border-color: var(--secondary);
+    outline: none;
+  }
+
+  &.session-chevron--hidden {
+    display: none;
+  }
+}
+
+.session-chevron--prev {
+  left: 0.75rem;
+}
+
+.session-chevron--next {
+  right: 0.75rem;
+
+  // Default: chevron-right icon; swap to checkmark when at last card
+  .session-chevron-icon-finish {
+    display: none;
+  }
+
+  &.session-chevron--finish {
+    background: var(--secondary);
+    color: var(--light);
+    border-color: var(--secondary);
+    opacity: 0.85;
+
+    .session-chevron-icon-next {
+      display: none;
+    }
+    .session-chevron-icon-finish {
+      display: inline-block;
+    }
+  }
+}
+
+// Larger gutters on desktop — push chevrons into the empty sidebar zones
+@media (min-width: 1100px) {
+  .session-chevron--prev {
+    left: 2rem;
+  }
+  .session-chevron--next {
+    right: 2rem;
+  }
+}
+
+// Mobile: slightly higher opacity at rest since there's no hover
+@media (max-width: 600px) {
+  .session-chevron {
+    opacity: 0.55;
+    width: 40px;
+    height: 40px;
+  }
+}
+
+// ============================================================================
+// SPA carousel slide animation (CSS View Transitions API)
+// Wraps spaNavigate() in document.startViewTransition() — direction set on
+// document.documentElement via data-spa-transition="forward" or "backward".
+// Browsers without View Transitions API just get instant page swap.
+// ============================================================================
+
+@keyframes spa-slide-out-left {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+}
+
+@keyframes spa-slide-in-right {
+  from {
+    transform: translateX(30%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes spa-slide-out-right {
+  from {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateX(30%);
+    opacity: 0;
+  }
+}
+
+@keyframes spa-slide-in-left {
+  from {
+    transform: translateX(-30%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+html[data-spa-transition="forward"]::view-transition-old(root) {
+  animation: spa-slide-out-left 0.36s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+html[data-spa-transition="forward"]::view-transition-new(root) {
+  animation: spa-slide-in-right 0.4s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+html[data-spa-transition="backward"]::view-transition-old(root) {
+  animation: spa-slide-out-right 0.36s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+html[data-spa-transition="backward"]::view-transition-new(root) {
+  animation: spa-slide-in-left 0.4s cubic-bezier(0.4, 0, 0.2, 1) both;
+}
+
+// Respect reduced motion — skip the slide, browsers still cross-fade by default
+@media (prefers-reduced-motion: reduce) {
+  html[data-spa-transition]::view-transition-old(root),
+  html[data-spa-transition]::view-transition-new(root) {
+    animation: none;
+  }
+}
+
+// ============================================================================
+// FirstLoadHint — one-time tooltip pointing at the strip ▶ button
+// Positioned in JS (top/left set inline based on play button rect).
+// Auto-dismisses after 5s, on Esc, or any click.
+// ============================================================================
+
+.first-load-hint {
+  position: fixed;
+  z-index: 9988;
+  transform: translateX(-50%);
+  pointer-events: none;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 0.85rem;
+  background: var(--dark);
+  color: var(--light);
+  border-radius: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+  animation: first-load-hint-enter 0.25s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+
+.first-load-hint.first-load-hint--leaving {
+  opacity: 0;
+  transform: translateX(-50%) translateY(-4px);
+  transition:
+    opacity 0.18s,
+    transform 0.18s;
+}
+
+.first-load-hint-arrow {
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 10px;
+  height: 10px;
+  background: var(--dark);
+}
+
+.first-load-hint-text {
+  position: relative;
+}
+
+@keyframes first-load-hint-enter {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(-6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+// ============================================================================
+// Active-session focus mode
+// While body[data-training-active], dim non-flashcard article content so the
+// user's attention lands on the flashcard area. Subtle highlight ring + slight
+// scale around the flashcard container reinforces "this is what to look at".
+// ============================================================================
+
+body[data-training-active] {
+  // Dim siblings of #flashcard-container inside the article. Targets the
+  // generic Quartz article wrapper (.popover-hint) AND falls back to common
+  // BJJ content containers if the wrapper class changes upstream.
+  .popover-hint > *:not(#flashcard-container):not(.flashcard-container),
+  article > *:not(#flashcard-container):not(.flashcard-container) {
+    opacity: 0.55;
+    filter: saturate(0.85);
+    transition:
+      opacity 0.3s ease,
+      filter 0.3s ease;
+  }
+
+  // Flashcard area gets a subtle attention ring + lifts slightly
+  #flashcard-container {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      inset: -6px;
+      border-radius: 14px;
+      border: 1px solid color-mix(in srgb, var(--secondary) 50%, transparent);
+      box-shadow: 0 4px 16px color-mix(in srgb, var(--secondary) 18%, transparent);
+      pointer-events: none;
+      animation: training-focus-pulse 2.4s ease-in-out infinite;
+    }
+  }
+}
+
+@keyframes training-focus-pulse {
+  0%,
+  100% {
+    box-shadow: 0 4px 16px color-mix(in srgb, var(--secondary) 12%, transparent);
+  }
+  50% {
+    box-shadow: 0 4px 22px color-mix(in srgb, var(--secondary) 28%, transparent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body[data-training-active] #flashcard-container::before {
+    animation: none;
+  }
+}

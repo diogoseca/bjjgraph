@@ -16,6 +16,11 @@ export const sharedPageComponents: SharedLayout = {
     Component.ContentPanel(),
     Component.BackgroundGraph(),
     Component.TreeDrawer(),
+    Component.FlashcardsHeader(),
+    Component.DecksModal(),
+    Component.SettingsModal(),
+    Component.SessionChevrons(),
+    Component.FirstLoadHint(),
   ],
   // Footer with no links - may add social links later
   footer: Component.Footer({
@@ -29,7 +34,6 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.VictoryDisplay(),
-    Component.TrainingDashboard(),
     Component.TreeExplorer(),
     Component.MoveCards(),
     Component.OutcomeCards(),

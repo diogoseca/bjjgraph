@@ -2,6 +2,7 @@
 // Reads per-page graph data injected at build time (no runtime fetch).
 import { findCard, addCard, reviewCard, masterFlashcard } from "./srs"
 import { incrementLearned, incrementReviewed, updateStreak } from "./settings"
+import { isInSession, advanceSession, getSession } from "./trainingSession"
 
 type FlashcardPageType = "transition" | "submission" | "position" | "principle" | "system"
 
@@ -418,57 +419,7 @@ document.addEventListener("nav", () => {
     navigateAfterSuccess()
   }
 
-  // Training session navigation
-  interface SessionQueue {
-    pages: Array<{ slug: string; name: string; type: string }>
-    currentIndex: number
-    completed: number
-  }
-
-  function getSession(): SessionQueue | null {
-    try {
-      const raw = sessionStorage.getItem("training-session")
-      if (raw) return JSON.parse(raw) as SessionQueue
-    } catch {
-      // corrupt
-    }
-    return null
-  }
-
-  function saveSession(session: SessionQueue) {
-    sessionStorage.setItem("training-session", JSON.stringify(session))
-  }
-
-  function isInSession(): boolean {
-    const session = getSession()
-    return session !== null && session.pages.length > 0
-  }
-
-  function advanceSession() {
-    const session = getSession()
-    if (!session) return
-
-    const showSnackbar = (window as any).showSnackbar
-    session.completed = session.currentIndex + 1
-
-    if (session.currentIndex < session.pages.length - 1) {
-      session.currentIndex++
-      saveSession(session)
-      const next = session.pages[session.currentIndex]
-      if (showSnackbar) {
-        showSnackbar({
-          type: "info",
-          message: `Technique ${session.currentIndex + 1}/${session.pages.length}`,
-        })
-      }
-      window.spaNavigate(new URL(next.slug, window.location.toString()), false)
-    } else {
-      // Session complete — go to dashboard
-      sessionStorage.setItem("training-session-complete", "true")
-      sessionStorage.removeItem("training-session")
-      window.spaNavigate(new URL("/Training", window.location.toString()), false)
-    }
-  }
+  // Training session navigation lives in ./trainingSession — imported above.
 
   function navigateAfterSuccess() {
     // Stationary pages (positions, principles, systems) keep the user in place
@@ -700,7 +651,16 @@ document.addEventListener("nav", () => {
     container!.appendChild(prompt)
   }
 
-  // Prime the minimized view (populates #flashcard-min-question + pre-fills
-  // the full UI so expanding reveals answer instantly).
-  primeMinimizedView()
+  // Decide initial state. Normally we prime the minimized view (question only,
+  // user clicks Show Answer to expand). But if the user landed here via a
+  // training session with autoExpand:true (i.e. clicked ▶ on the strip), skip
+  // the minimized step and open straight into the expanded UI with the answer
+  // revealed and Again/Hard/Easy/Skip ready.
+  const sessionForAutoExpand = getSession()
+  if (sessionForAutoExpand?.autoExpand) {
+    primeMinimizedView()
+    expandFromMinimized()
+  } else {
+    primeMinimizedView()
+  }
 })

@@ -175,7 +175,8 @@ export async function signInWithGoogle(): Promise<{ error: string | null }> {
   const client = await getClient()
   const { error } = await client.auth.signInWithOAuth({
     provider: "google",
-    options: { redirectTo: window.location.origin + "/Training" },
+    // /Training was removed when the embedded training UX shipped; route to home.
+    options: { redirectTo: window.location.origin + "/" },
   })
   return { error: error?.message ?? null }
 }
@@ -214,7 +215,7 @@ export async function getSession(): Promise<{ user: AuthUser | null; accessToken
 export async function resetPassword(email: string): Promise<{ error: string | null }> {
   const client = await getClient()
   const { error } = await client.auth.resetPasswordForEmail(email, {
-    redirectTo: window.location.origin + "/Training",
+    redirectTo: window.location.origin + "/",
   })
   return { error: error?.message ?? null }
 }

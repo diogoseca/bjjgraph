@@ -49,6 +49,10 @@ Follow **C-UD pattern** after completing work:
 - **Update** existing docs with new learnings
 - **Delete** outdated information immediately
 
+### Plan Format
+
+**Plans must end with a TL;DR paragraph** — a single self-contained summary that captures the plan's intent, scope, and key decisions. It's the lazy-review path: if the user only reads the TL;DR, they should have enough to greenlight or redirect the plan without reading the rest.
+
 ---
 
 ## 2. FORBIDDEN ACTIONS
@@ -267,35 +271,59 @@ Submission Control Position → Submission Finish Transition → game-over
 
 The `game-over` page (`content/game-over.md`) is a sink node - once reached, the match ends. This replaces the previous `Won by Submission` / `Lost by Submission` split.
 
-### Training System (SRS)
+### Training System (SRS) — embedded UX (v1.20.0+)
 
-Client-side spaced repetition system using SM-2 algorithm. All data stored in localStorage (no backend).
+Client-side spaced repetition (SM-2) layered onto the always-on background graph. There is **no `/Training` page** — training lives as a persistent strip + two stacked modals + carousel chevrons on every page. All state stays in localStorage (Supabase sync optional).
+
+**Surface (registered in `sharedPageComponents.afterBody`):**
+1. **FlashcardsHeader strip** — fixed top, ~36px tall. Context-aware label + ▶ play button.
+   - Idle, due > 0: `Flashcards (N due)`
+   - Active session: `Session X/Y` (▶ swaps to ◾ stop)
+   - Idle, 0 due, has SRS: `All caught up · train more`
+   - No SRS cards yet: `Start training`
+2. **DecksModal** — opens when user clicks the strip label. Lean: 5 deck rows (Due / Reviewing / Mastered / Suggested / Recently Explored) + sticky bottom CTA `Train Due (N) ▶` (label adapts) + ⚙ in modal header.
+3. **SettingsModal** — opens from the ⚙ inside DecksModal, defaults to Flashcards tab. Two tabs: Flashcards (Daily Goal, Show Flashcards on pages) / Game (Game Mode pills, Hard/Ultra locked). Stacks above DecksModal.
+4. **SessionChevrons** — fixed prev/next overlays on left/right viewport edges. Visible only when `body[data-training-active]`. Left hidden at index 0; right shows ✓ at last card (click finishes session). ArrowLeft/ArrowRight global keyboard, gated by `isTypingTarget`.
+5. **FirstLoadHint** — one-time tooltip pointing at ▶ on first visit. Auto-dismisses after 5s / Esc / any click. `localStorage["bjj-onboarded"]=true` after dismiss.
+
+**Carousel slide:** SPA navigation between cards in a session uses the CSS View Transitions API via `slideNavigate(url, 'forward'|'backward')` in `trainingSession.ts`. CSS keyframes drive a horizontal slide; non-supporting browsers fall back to instant swap. Graph's existing 400ms pan-to-current-node fires in parallel on every nav.
+
+**Active-session focus mode:** While `body[data-training-active]`, non-flashcard article content dims to 0.55 opacity and the `#flashcard-container` gets a subtle pulsing highlight ring. Flashcard reads `session.autoExpand:true` and skips the minimized step, opening directly to the expanded UI with answer revealed.
 
 **Terminology — Cards vs Techniques:**
-- A **technique** = one transition or submission (e.g., "Armbar from Mount"). Each technique has multiple flashcards (Q&A pairs) in its `flashcards` array.
-- An **SRS card** = one technique. There is exactly one card per technique name. The SM-2 algorithm tracks the technique as a unit, not individual flashcards.
-- When reviewing a technique, the user sees random flashcards from its pool. After rating (Again/Hard/Easy), the entire technique's SRS metrics update.
+- A **technique** = one transition or submission (e.g., "Armbar from Mount"). Each has a `flashcards` array of Q&A pairs.
+- An **SRS card** = one technique. The SM-2 algorithm tracks the technique as a unit; individual flashcards within it have per-question mastery tracking.
 
 **Field name:** Source JSON uses `flashcards` across all content types. Role-nested where roles exist (`top.flashcards`, `bottom.flashcards`, `attacker.flashcards`, `defender.flashcards`). Principles and Systems have a single top-level `flashcards` array.
 
-**Daily Goal:** Single capacity number (default 30). Due reviews fill first, remaining slots are new technique suggestions selected by graph connectivity scoring.
+**Daily Goal:** Single capacity number (default 30). The default `mixed` session source fills with due reviews first, then graph-derived suggestions to reach the goal.
 
-**"Memorized"** = techniques NOT due today (`allCards.length - dueCards.length`). Includes both upcoming and mastered cards.
+**Per-flashcard mastery:** Each SRS card has a `flashcardsMastered: number[]` field tracking which flashcard indices were answered correctly. Mastery % = `flashcardsMastered.length / flashcards.length`.
 
-**Per-flashcard mastery:** Each SRS card has a `flashcardsMastered: number[]` field tracking which flashcard indices were answered correctly (Hard/Easy). Mastery % = `flashcardsMastered.length / flashcards.length`. One correct answer = mastered for that flashcard.
+**Session sources (`SessionSource` in `trainingSession.ts`):** `mixed` (default — due + suggestions to dailyGoal), `due`, `reviewing`, `mastered`, `suggested`, `explored` (ad-hoc, does NOT auto-add to SRS).
 
-**Dashboard layout (4 sections):**
-1. **Hero** — Completion banner + Start/Continue session button + progress bar + streak
-2. **Known Techniques** — Unified grouped list (Due Today / Reviewing / Mastered) with per-question mastery %, replaces old Coverage + Due + Upcoming + Mastered + Journey sections
-3. **Discover** — Smart suggestions + search to add new techniques
-4. **Settings** — Collapsible (opponent attacks, daily goal)
+**Storage keys (unchanged across the v1.20 redesign):**
+- localStorage: `bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, `bjj-streak`, `bjj-explored`, `bjj-banned-flashcards`, `bjj-journey`, `bjj-onboarded`
+- sessionStorage: `training-session` (now with optional `autoExpand` + `source` fields), `training-session-complete`, `snackbar`, `victory-data`
+
+**Keyboard shortcuts (active during session unless typing in an input):**
+- `Space` — Show Answer / Reveal Answer (in Flashcard component)
+- `1` `2` `3` `4` — Again / Hard / Easy / Skip
+- `←` `→` — prev / next flashcard (SessionChevrons)
+- `Esc` — close any open modal
 
 **Key files:**
-- `source/quartz/components/scripts/srs.ts` — SRS card storage, SM-2 algorithm, localStorage `bjj-srs-cards`
-- `source/quartz/components/scripts/settings.ts` — Settings (`bjj-settings`), daily progress (`bjj-daily-progress`), streaks (`bjj-streak`)
-- `source/quartz/components/scripts/trainingDashboard.inline.ts` — Dashboard UI, session queue, graph-based suggestions
-- `source/quartz/components/TrainingDashboard.tsx` — Dashboard HTML structure
-- `source/quartz/components/scripts/topBar.inline.ts` — Homepage summary bar + desktop TopBar due count
+- `source/quartz/components/scripts/trainingSession.ts` — shared session lifecycle (buildSessionQueue, startOrResumeSession, advanceSession, reverseSession, stopSession, completeSession, slideNavigate)
+- `source/quartz/components/scripts/srs.ts` — SRS card storage, SM-2 algorithm, `bjj-srs-cards`
+- `source/quartz/components/scripts/settings.ts` — `bjj-settings`, `bjj-daily-progress`, `bjj-streak`
+- `source/quartz/components/FlashcardsHeader.tsx` + `scripts/flashcardsHeader.inline.ts` — strip UI + label state machine
+- `source/quartz/components/DecksModal.tsx` + `scripts/decksModal.inline.ts` — deck overview modal + sticky CTA
+- `source/quartz/components/SettingsModal.tsx` + `scripts/settingsModal.inline.ts` — two-tab settings modal
+- `source/quartz/components/SessionChevrons.tsx` + `scripts/sessionChevrons.inline.ts` — carousel prev/next + keyboard nav
+- `source/quartz/components/FirstLoadHint.tsx` + `scripts/firstLoadHint.inline.ts` — one-time onboarding tooltip
+- `source/quartz/components/Flashcard.tsx` + `scripts/flashcard.inline.ts` — per-page Q&A UI (also drives session advancement on Hard/Easy)
+
+**Cloudflare redirect:** `source/quartz/static/_redirects` has `/Training/* / 301` so old inbound links land on home.
 
 ### Graph Component
 
