@@ -25,6 +25,7 @@ Why this beats the previous D3 force layout:
 from __future__ import annotations
 
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -76,6 +77,51 @@ def hub_slug(slug: str) -> str:
     if any(lower.endswith(s) for s in ROLE_SUFFIXES):
         return "/".join(slug.split("/")[:-1])
     return slug
+
+
+def _slugify_name(name: str) -> str:
+    """Mirror scripts/regenerate_graph.py's slugify() so lookup keys match graph.json keys."""
+    slug = name.lower().strip()
+    slug = slug.replace('%', ' percent ')
+    slug = slug.replace('&', ' and ')
+    slug = slug.replace("'", '')
+    slug = slug.replace('"', '')
+    slug = re.sub(r'[^\w\s-]', '', slug)
+    slug = re.sub(r'[\s_]+', '-', slug)
+    slug = re.sub(r'-+', '-', slug)
+    return slug.strip('-')
+
+
+def build_canonical_map() -> dict[str, str]:
+    """Walk content/ to map lowercase-slug → mixed-case-canonical URL slug.
+
+    graph.json's node ids look like 'submissions/loop-choke-from-mount' (slugified
+    from the entry's name field). Quartz emits the page at the case-preserving
+    path derived from the file path on disk (e.g. content/Submissions/Loop Choke/
+    from Mount.md → /Submissions/Loop-Choke/from-Mount). We reconstruct the
+    slug-style key by joining nested directory segments with spaces and slugifying,
+    then map it to the canonical URL form.
+    """
+    canonical: dict[str, str] = {}
+    content_dir = PROJECT_ROOT / "content"
+    for category in ("Positions", "Transitions", "Submissions"):
+        cat_dir = content_dir / category
+        if not cat_dir.exists():
+            continue
+        for md_file in cat_dir.rglob("*.md"):
+            rel = md_file.relative_to(content_dir).with_suffix("")
+            parts = str(rel).split("/")
+            # Skip role pages (Top/Bottom/Attacker/Defender) — those aren't hubs.
+            if len(parts) > 1 and parts[-1] in ("Top", "Bottom", "Attacker", "Defender"):
+                continue
+            # Canonical Quartz URL slug: preserve case, spaces → hyphens per segment.
+            canonical_slug = "/".join(p.replace(" ", "-") for p in parts)
+            # Reconstruct the implicit "name" the JSON would carry (joined with spaces),
+            # then slugify it the same way regenerate_graph.py does.
+            implicit_name = " ".join(parts[1:])
+            lookup_key = f"{category.lower()}/{_slugify_name(implicit_name)}"
+            canonical[lookup_key] = canonical_slug
+    return canonical
 
 
 def main() -> None:
@@ -240,13 +286,27 @@ def main() -> None:
     max_extent = max(abs(coords).max(), 1e-6)
     coords = coords * (COORD_SCALE / max_extent)
 
+    # Translate lowercase slugs → canonical mixed-case URL paths so graph clicks
+    # land on real Quartz pages (Linux + npx serve are case-sensitive).
+    canonical_map = build_canonical_map()
+    missing = sorted(n for n in nodes if n not in canonical_map)
+    if missing:
+        print(
+            f"[regenerate_graph_layout] WARNING: {len(missing)} nodes lack a canonical URL "
+            f"mapping and will keep their lowercase id (may 404). First few: {missing[:5]}",
+            file=sys.stderr,
+        )
+
+    def to_canonical(slug: str) -> str:
+        return canonical_map.get(slug, slug)
+
     # Emit JSON with same shape as backgroundGraph.inline.ts expects
     out_nodes = []
     for i, n in enumerate(nodes):
         title = titles.get(n) or n.split("/")[-1].replace("-", " ").title()
         out_nodes.append(
             {
-                "id": n,
+                "id": to_canonical(n),
                 "x": round(float(coords[i, 0]), 1),
                 "y": round(float(coords[i, 1]), 1),
                 "t": title,
@@ -254,7 +314,7 @@ def main() -> None:
             }
         )
 
-    out_links = [{"source": a, "target": b} for a, b in edges]
+    out_links = [{"source": to_canonical(a), "target": to_canonical(b)} for a, b in edges]
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
     with OUTPUT_FILE.open("w") as f:

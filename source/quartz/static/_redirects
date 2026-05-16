@@ -1,0 +1,7 @@
+# Cloudflare Pages redirects.
+# /Training was removed when the embedded training UX shipped (v1.20.0):
+# strip + DecksModal + SessionChevrons replace the standalone page so the
+# user trains in-context on every page. Old inbound links and bookmarks
+# land on home with no 404.
+/Training/* / 301
+/Training / 301
