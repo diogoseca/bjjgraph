@@ -4,7 +4,7 @@
 
 ---
 title: "Outside Ashi-Garami | BJJ Position Guide | BJJ Graph"
-description: "Master Outside Ashi-Garami position in BJJ. Strategic guide covering leg entanglement control, heel hooks, transitions, and systematic escapes with complete perspective analysis."
+description: "Outside Ashi-Garami BJJ position: outside leg entanglement for heel hooks and ankle locks. Guide to control mechanics, escape strategy, and attacker vs defender perspectives."
 ---
 
 
@@ -22,11 +22,13 @@ description: "Master Outside Ashi-Garami position in BJJ. Strategic guide coveri
 
 <section id="overview" class="content-section">
 
-Outside Ashi-Garami is a foundational leg entanglement position in modern Brazilian Jiu-Jitsu where the practitioner controls their opponent's leg from the outside angle, creating opportunities for heel hooks, ankle locks, and transitions to more dominant leg entanglements. This position serves as the gateway to advanced leg lock systems and represents a critical skill set for no-gi and submission-only competition.
+**Outside Ashi-Garami** is a leg entanglement position in Brazilian Jiu-Jitsu where you control your opponent's leg from the outside angle, creating direct access to outside heel hooks, ankle locks, and transitions to more dominant positions like [[Inside Ashi-Garami]] and [[Saddle]]. This position serves as the gateway to advanced leg lock systems in no-gi and submission-only competition, with a 42% submission probability for advanced practitioners and 60% position retention rate.
 
-The position is characterized by a figure-4 leg configuration where the attacking practitioner's outside leg crosses over the opponent's thigh while their inside leg triangles underneath the opponent's knee, creating a locked clamp that isolates and controls the limb. The attacking practitioner maintains a perpendicular or diagonal body angle (45-90 degrees) to maximize leverage for submissions and control.
+The position is characterized by a figure-4 leg configuration: your outside leg crosses over the opponent's thigh while your inside leg triangles underneath their knee, creating a locked clamp that isolates and controls the limb. You maintain a perpendicular or diagonal body angle (45-90 degrees) to maximize leverage for submissions and control. This distinguishes Outside Ashi-Garami from [[Inside Ashi-Garami]] (where the inside leg crosses the hip for superior heel control) and [[Cross Ashi-Garami]] (which uses a perpendicular angle for different submission angles).
 
-Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective). From bottom, practitioners threaten outside heel hooks, straight ankle locks, and transitions to more dominant positions like saddle and inside ashi. From top, practitioners must work systematic escapes to prevent submissions while extracting their trapped leg and recovering advantageous position. Understanding both perspectives is essential for modern no-gi competition where leg entanglements have become increasingly prevalent and sophisticated.
+Outside Ashi-Garami exists as both an offensive attacking position (bottom perspective) and a defensive survival position (top perspective). From bottom, practitioners threaten outside heel hooks, straight ankle locks, and transitions to dominant positions like [[Saddle]] and [[50-50 Guard]]. From top, practitioners must execute systematic escapes to extract their trapped leg before heel hook or ankle lock submissions are completed. Understanding both perspectives is essential for modern no-gi competition where leg entanglements appear in approximately 30-40% of all competitive exchanges.
+
+**Etymology & Legality:** The name comes from Japanese: ashi (足, "leg/foot") + garami (絡み, "entanglement"). Outside Ashi-Garami is legal in most no-gi and submission-only rulesets including ADCC and EBI. Under IBJJF rules, the outside heel hook—the primary submission from this position—is restricted to brown and black belts in no-gi competition only and banned entirely in gi competition at all levels. Always verify current ruleset restrictions before competing.
 
 </section>
 
