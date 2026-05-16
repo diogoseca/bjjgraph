@@ -3225,8 +3225,12 @@ body.graph-focused {
   }
 
   // Default (content mode): show "up" chevron — gesture: scroll up to reveal graph
-  .toggle-icon-up { display: block; }
-  .toggle-icon-down { display: none; }
+  .toggle-icon-up {
+    display: block;
+  }
+  .toggle-icon-down {
+    display: none;
+  }
 }
 
 // Graph mode: button moves to bottom-center, shows "down" chevron
@@ -3238,8 +3242,12 @@ body.graph-focused #panel-toggle {
   left: 50%;
   transform: translateX(-50%);
 
-  .toggle-icon-up { display: none; }
-  .toggle-icon-down { display: block; }
+  .toggle-icon-up {
+    display: none;
+  }
+  .toggle-icon-down {
+    display: block;
+  }
 }
 
 // Fit-all button — subtle, only visible in graph mode + when zoomed past fit-all
@@ -3278,18 +3286,21 @@ body.graph-focused #panel-toggle {
   }
 }
 
-// === Sidebar overlay — search + explorer floating on graph background ===
+// === Tree drawer — togglable left sidebar (ChatGPT/Claude pattern) ===
+// Auto-opens on desktop when entering graph mode; auto-closes when returning to content.
+// On mobile, stays closed by default; user must explicitly tap the tree button to open.
 #sidebar-overlay {
   position: fixed;
   left: 0;
   top: 0;
-  width: var(--sidebar-width, 320px);
+  width: 320px;
   height: 100vh;
-  z-index: 3; // above #background-graph (0), #graph-overlay (1), .page (2)
+  z-index: 3;
+  // Hidden by default — slides in when body.drawer-open is set
+  transform: translateX(-100%);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   pointer-events: none;
-  // Dark gradient for readability over the busy graph — smooth multi-stop fade
-  // Dark band only at the very left edge, gradual transition, fully transparent
-  // by 40% so it doesn't cover the graph too much.
+  // Dark gradient for readability over the busy graph
   background: linear-gradient(
     90deg,
     rgba(0, 0, 0, 0.6) 0%,
@@ -3308,7 +3319,7 @@ body.graph-focused #panel-toggle {
     width: 100%;
     height: 100vh;
     box-sizing: border-box;
-    padding: 6.75rem 2rem 0 2rem;
+    padding: 4rem 2rem 0 2rem;
     margin-top: 0;
   }
 
@@ -3321,40 +3332,95 @@ body.graph-focused #panel-toggle {
     cursor: col-resize;
     pointer-events: auto;
     z-index: 4;
-  }
 
-  @media (max-width: 800px) {
-    // Mobile: no overlay background, just position the sidebar (which is now
-    // a 44px-wide stack of buttons) in the top-right corner per base.scss override
-    width: auto;
-    height: auto;
-    background: none;
-    backdrop-filter: none;
-    -webkit-backdrop-filter: none;
-    left: auto;
-    top: 1rem;
-    right: 1rem;
-
-    & > .sidebar.left {
-      padding: 0;
-      height: auto;
-    }
-    & > .sidebar-resizer {
+    @media (max-width: 800px) {
       display: none;
     }
   }
 }
 
-// Now that the sidebar is hoisted out of #quartz-body, remove the left grid column
+// Slide drawer in when open
+body.drawer-open #sidebar-overlay {
+  transform: translateX(0);
+  pointer-events: auto;
+}
+
+// Drawer close button (X) — top-right corner inside the drawer
+#drawer-close {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  z-index: 4;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  background: rgba(0, 0, 0, 0.3);
+  color: rgba(255, 255, 255, 0.7);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  opacity: 0.7;
+  transition:
+    opacity 0.2s,
+    background-color 0.2s;
+  &:hover {
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.5);
+  }
+}
+
+// Tree toggle button — top-left, mirrors the search button on top-right
+#tree-toggle {
+  position: fixed;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  width: 44px;
+  height: 36px;
+  border-radius: 8px;
+  border: 1px solid var(--lightgray);
+  background: var(--light);
+  color: var(--dark);
+  cursor: pointer;
+  opacity: 0.85;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  transition:
+    opacity 0.25s ease,
+    background-color 0.2s,
+    transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover {
+    opacity: 1;
+    background: var(--lightgray);
+  }
+}
+
+// Hide tree button when drawer is open (slides off-screen left)
+body.drawer-open #tree-toggle {
+  transform: translateX(calc(-100% - 2rem));
+  pointer-events: none;
+  opacity: 0;
+}
+
+// Content card layout: full-width by default; offset right when drawer is open (desktop only)
 @media (min-width: 801px) {
   #quartz-body {
-    // Account for the now-external left sidebar
-    padding-left: var(--sidebar-width, 320px);
+    padding-left: 0;
+    transition: padding-left 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     grid-template-columns: auto 320px !important;
     grid-template-areas:
       "grid-header grid-sidebar-right"
       "grid-center grid-sidebar-right"
       "grid-footer grid-sidebar-right" !important;
+  }
+  body.drawer-open:not(.graph-focused) #quartz-body {
+    padding-left: 320px;
   }
 }
 @media (min-width: 801px) and (max-width: 1200px) {
@@ -3368,45 +3434,39 @@ body.graph-focused #panel-toggle {
   }
 }
 
-// === Mobile: stack the search button below the panel toggle ===
-// Match the toggle's dimensions and sit 5px below it
-@media (max-width: 800px) {
-  .sidebar.left {
-    // Collapse to button width so search button doesn't sprawl
-    width: 44px !important;
-
-    & > .search {
-      padding-top: 0;
+// === Search button — floating square at top-right, consistent across breakpoints ===
+// Lifted out of mobile-only media query so it appears at top-right on every screen size.
+.sidebar.left {
+  & > .search {
+    & > #search-button {
+      position: fixed;
+      top: calc(1rem + 36px + 5px); // 5px below the panel-toggle slot
+      right: 1rem;
+      z-index: 10;
       width: 44px;
+      height: 36px;
+      padding: 0;
+      border-radius: 8px;
+      border: 1px solid var(--lightgray);
+      background: var(--light);
+      color: var(--dark);
+      opacity: 0.85;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      pointer-events: auto;
+      transition:
+        opacity 0.2s,
+        background-color 0.2s;
 
-      & > #search-button {
-        width: 44px;
-        height: 36px;
-        padding: 0;
-        border-radius: 8px;
-        border: 1px solid var(--lightgray);
-        background: var(--light);
-        color: var(--dark);
-        opacity: 0.85;
-        // Position right below the panel-toggle: toggle is at top:1rem, height:36px,
-        // so search lands at calc(1rem + 36px + 5px) from sidebar's top:1rem anchor.
-        margin-top: 41px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        transition:
-          opacity 0.2s,
-          background-color 0.2s;
+      &:hover {
+        opacity: 1;
+        background: var(--lightgray);
+      }
 
-        &:hover {
-          opacity: 1;
-          background: var(--lightgray);
-        }
-
-        // Hide the "Search" text label, show only the icon
-        & > p {
-          display: none;
-        }
+      // Hide the "Search" text label, show only the magnifying-glass icon
+      & > p {
+        display: none;
       }
     }
   }

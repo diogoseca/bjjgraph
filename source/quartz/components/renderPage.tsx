@@ -929,23 +929,89 @@ export function renderPage(
         <div id="graph-overlay" data-persist></div>
         <button id="panel-toggle" data-persist aria-label="Reveal graph">
           {/* Content mode: wide chevron up — "swipe/scroll up to reveal graph" */}
-          <svg class="toggle-icon-up" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <svg
+            class="toggle-icon-up"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
             <polyline points="3 16 12 7 21 16"></polyline>
           </svg>
           {/* Graph mode: wide chevron down — "swipe/scroll down to bring back content" */}
-          <svg class="toggle-icon-down" xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <svg
+            class="toggle-icon-down"
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2.5"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
             <polyline points="3 8 12 17 21 8"></polyline>
           </svg>
         </button>
         <button id="fit-all-btn" data-persist aria-label="Fit entire graph in view">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
             <polyline points="4 14 4 20 10 20"></polyline>
             <polyline points="20 10 20 4 14 4"></polyline>
             <line x1="14" y1="10" x2="21" y2="3"></line>
             <line x1="3" y1="21" x2="10" y2="14"></line>
           </svg>
         </button>
+        <button id="tree-toggle" data-persist aria-label="Toggle explorer">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="22"
+            height="22"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M3 3h6l2 2h10v4"></path>
+            <path d="M3 7v12h18v-8"></path>
+            <line x1="9" y1="13" x2="17" y2="13"></line>
+            <line x1="9" y1="17" x2="13" y2="17"></line>
+          </svg>
+        </button>
         <div id="sidebar-overlay" data-persist>
+          <button id="drawer-close" aria-label="Close explorer">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="20"
+              height="20"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <line x1="18" y1="6" x2="6" y2="18"></line>
+              <line x1="6" y1="6" x2="18" y2="18"></line>
+            </svg>
+          </button>
           {LeftComponent}
           <div class="sidebar-resizer" />
         </div>
