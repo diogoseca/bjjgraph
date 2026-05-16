@@ -1,35 +1,37 @@
 ---
 title: "BJJ Positions Complete Guide | Master Every Position | BJJ Graph"
-description: "Complete educational guide to Brazilian Jiu-Jitsu positions. Learn the hierarchy, transitions, and strategy behind every position from beginner to advanced. Master the positional chess game of BJJ."
+description: "Complete guide to Brazilian Jiu-Jitsu positions. Learn positional hierarchy, strategy, success rates, and game plans from white belt to black belt."
+bot_metadata:
+  last_improved: "2026-05-16"
+  optimization_pass: "ai_seo_v1"
 ---
 
-# BJJ Positions: The Complete Educational Guide
+# How Do BJJ Positions Work? Complete Guide to Position Strategy
 
-Brazilian Jiu-Jitsu is fundamentally a game of positions. Unlike striking martial arts that emphasize single devastating techniques, BJJ succeeds through systematic positional advancement—gradually improving your position while degrading your opponent's until submission becomes inevitable.
-
-This complete guide teaches you the strategic framework behind all BJJ positions, how they connect, and how to build a cohesive game plan based on positional understanding. Whether you're a white belt learning your first positions or an advanced practitioner refining your strategy, this guide provides the conceptual foundation for mastering BJJ's positional chess game.
+**Brazilian Jiu-Jitsu positions** form a strategic hierarchy where each position provides measurable control advantages over your opponent. Dominant positions like [[Mount]] (75% retention at advanced level) and [[Back Control]] (80% retention) offer highest submission access. Guard positions score 0 points but provide sweeps and submission opportunities that create scoring chances. Understanding this positional system—hierarchy, retention rates, and strategic transitions—is the foundation of effective BJJ at every level.
 
 ## Table of Contents
 
-1. [Understanding Positional Hierarchy](#understanding-positional-hierarchy)
-2. [The Point Value System](#the-point-value-system)
-3. [Dominant Positions: 4-Point Control](#dominant-positions-4-point-control)
-4. [Controlling Positions: 3-Point Control](#controlling-positions-3-point-control)
-5. [Guard Systems: The Bottom Game](#guard-systems-the-bottom-game)
-6. [Transitional and Scramble Positions](#transitional-and-scramble-positions)
-7. [Leg Entanglement Systems](#leg-entanglement-systems)
-8. [Learning Progression by Belt Level](#learning-progression-by-belt-level)
-9. [Position Retention and Success Rates](#position-retention-and-success-rates)
-10. [Strategic Frameworks and Game Plans](#strategic-frameworks-and-game-plans)
-11. [Training Methodology](#training-methodology)
+1. [What Is the BJJ Positional Hierarchy?](#what-is-the-bjj-positional-hierarchy)
+2. [How Does the BJJ Point Value System Work?](#how-does-the-bjj-point-value-system-work)
+3. [What Are the Dominant 4-Point Positions in BJJ?](#what-are-the-dominant-4-point-positions-in-bjj)
+4. [What Are the Controlling 3-Point Positions in BJJ?](#what-are-the-controlling-3-point-positions-in-bjj)
+5. [What Are the BJJ Guard Systems?](#what-are-the-bjj-guard-systems)
+6. [What Are Transitional and Scramble Positions in BJJ?](#what-are-transitional-and-scramble-positions-in-bjj)
+7. [What Are Leg Entanglement Positions in BJJ?](#what-are-leg-entanglement-positions-in-bjj)
+8. [What BJJ Positions Should You Learn First?](#what-bjj-positions-should-you-learn-first)
+9. [What Are BJJ Position Success Rates and Retention Rates?](#what-are-bjj-position-success-rates-and-retention-rates)
+10. [What Are the Best BJJ Strategic Frameworks and Game Plans?](#what-are-the-best-bjj-strategic-frameworks-and-game-plans)
+11. [How Should I Train BJJ Positions Effectively?](#how-should-i-train-bjj-positions-effectively)
+12. [Frequently Asked Questions About BJJ Positions](#frequently-asked-questions-about-bjj-positions)
 
 ---
 
-## Understanding Positional Hierarchy
+## What Is the BJJ Positional Hierarchy?
 
 The positional hierarchy in BJJ creates a measurable advantage system. Each position exists on a spectrum from severely disadvantaged (opponent on your back) to maximally advantageous (you on opponent's back with control).
 
-### The Hierarchy Pyramid
+### How Are BJJ Positions Ranked by Dominance?
 
 **Level 4: Maximum Dominance (4 Points)**
 - [[Mount]] - Superior position with weight control and submission access
@@ -54,7 +56,7 @@ The positional hierarchy in BJJ creates a measurable advantage system. Each posi
 
 This hierarchy determines strategic objectives: always seek to move up the hierarchy (improvement) while preventing opponent advancement. Every position battle becomes a fight for hierarchical advantage.
 
-### What Makes a Position "Dominant"?
+### What Makes a Position "Dominant" in BJJ?
 
 A position's dominance is determined by five factors:
 
@@ -70,11 +72,11 @@ A position's dominance is determined by five factors:
 
 ---
 
-## The Point Value System
+## How Does the BJJ Point Value System Work?
 
 Understanding the IBJJF (International Brazilian Jiu-Jitsu Federation) point system is crucial for competition strategy and conceptual understanding of position value.
 
-### IBJJF Point Breakdown
+### What Does Each Point Value Mean in BJJ Competition?
 
 **4 Points: Maximum Dominance Positions**
 - [[Mount]] (established for 3 seconds)
@@ -101,7 +103,7 @@ Understanding the IBJJF (International Brazilian Jiu-Jitsu Federation) point sys
 - Near sweep/pass (almost completing position change)
 - Strategic positioning without full positional control
 
-### Point Strategy Implications
+### How Do Points Shape BJJ Match Strategy?
 
 The point system shapes strategic decision-making:
 
@@ -125,11 +127,11 @@ This creates decision dilemmas: opponent's defensive choices open different offe
 
 ---
 
-## Dominant Positions: 4-Point Control
+## What Are the Dominant 4-Point Positions in BJJ?
 
 The 4-point positions represent maximum dominance in BJJ. From these positions, submission probability increases dramatically (50-60% for advanced practitioners) while escape probability drops significantly (25-35% for opponents).
 
-### Mount: The Premier Top Position
+### Why Is Mount the Best Top Position in BJJ?
 
 [[Mount]] places you on opponent's torso with legs straddling their body, creating overwhelming pressure on their breathing and movement. The position scores 4 points because it provides:
 
@@ -159,7 +161,7 @@ The 4-point positions represent maximum dominance in BJJ. From these positions, 
 - [[Americana]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Triangle Control]] setup from mount (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 
-### Back Control: Ultimate Dominance
+### Why Is Back Control the Most Dominant BJJ Position?
 
 [[Back Control]] is considered the most dominant position in BJJ. Opponent cannot see you, has no defensive frames, and must defend blind while you control their back with both hooks and upper body control.
 
@@ -188,7 +190,7 @@ The 4-point positions represent maximum dominance in BJJ. From these positions, 
 - [[Armbar from Back Control]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - Back triangle variations (advanced techniques)
 
-### Mount Variations: Specialized Control
+### What Are the Mount Variations in BJJ?
 
 **[[High Mount]]**: Advancing chest-to-chest for maximum submission pressure
 - Restricts arm movement completely
@@ -207,11 +209,11 @@ The 4-point positions represent maximum dominance in BJJ. From these positions, 
 
 ---
 
-## Controlling Positions: 3-Point Control
+## What Are the Controlling 3-Point Positions in BJJ?
 
 The 3-point positions provide strong control with lower submission rates but excellent position retention and advancement options.
 
-### Side Control: Fundamental Pinning Position
+### What Is Side Control and How Do I Use It?
 
 [[Side Control]] (also called side mount or cross-side) places you perpendicular across opponent's torso, using body weight and pressure to pin them flat while maintaining stable base.
 
@@ -242,7 +244,7 @@ The 3-point positions provide strong control with lower submission rates but exc
 - [[Americana]] (Success Rate: Beginner 25%, Intermediate 40%, Advanced 55%)
 - [[Paper Cutter Choke]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 
-### Knee on Belly: Dynamic Pressure Position
+### What Is Knee on Belly and When Should I Use It?
 
 [[Knee on Belly]] is a dynamic 3-point position where your knee presses into opponent's diaphragm/sternum while maintaining mobile base. Less stable than [[Side Control]] but offers faster transitions and submissions.
 
@@ -267,7 +269,7 @@ The 3-point positions provide strong control with lower submission rates but exc
 
 **Risk Factor:** More vulnerable to guard recovery than [[Side Control]] due to reduced stability. Requires constant pressure and grip control.
 
-### North-South: Head-to-Head Control
+### What Is North-South Position in BJJ?
 
 [[North-South]] positions you head-to-head with opponent while maintaining top pressure. Less common than [[Side Control]] but offers unique submission opportunities.
 
@@ -284,11 +286,11 @@ The 3-point positions provide strong control with lower submission rates but exc
 
 ---
 
-## Guard Systems: The Bottom Game
+## What Are the BJJ Guard Systems?
 
-Guard positions place you on bottom but give you control through leg positioning and grip strategies. While scoring 0 points, guards provide the foundation for sweeps and submissions that create point-scoring opportunities.
+Guard positions place you on bottom but give you control through leg positioning and grip strategies. While scoring 0 points, guards provide the foundation for sweeps and submissions that create point-scoring opportunities. There is no single "best" guard—[[Closed Guard Bottom]] offers maximum control for beginners while open guards provide more versatile attacking options at advanced levels.
 
-### Closed Guard: The Foundation
+### What Is Closed Guard and Why Is It the Foundation?
 
 [[Closed Guard Bottom]] wraps your legs around opponent's waist with ankles crossed, creating a secure defensive position with offensive potential.
 
@@ -318,7 +320,11 @@ Guard positions place you on bottom but give you control through leg positioning
 - [[Cross Collar Choke]] (Success Rate: Beginner 30%, Intermediate 45%, Advanced 60%)
 - [[Omoplata]] (Success Rate: Beginner 20%, Intermediate 35%, Advanced 50%)
 
-### Open Guard Systems: Dynamic Control
+### What Is the Difference Between Guard and Half Guard in BJJ?
+
+In [[Closed Guard Bottom]] your legs fully wrap the opponent's waist with ankles locked behind their back—maximum control, secure position. In [[Half Guard Bottom]] only one of the opponent's legs is trapped between yours after they have partially passed—more mobility but less control. Closed guard is the foundation; half guard is often reached as a defensive last line, though many practitioners develop it as a primary attacking platform through systems like [[Deep Half Guard]] and [[Knee Shield Half Guard]].
+
+### What Are the Open Guard Systems in BJJ?
 
 When opponent stands or creates distance, [[Closed Guard Bottom]] opens to [[Open Guard Bottom]] - a diverse family of positions using hooks, grips, and frames to control opponent while maintaining attacking options.
 
@@ -360,7 +366,7 @@ When opponent stands or creates distance, [[Closed Guard Bottom]] opens to [[Ope
 - Opens shoulder lock and sweep opportunities
 - Position Retention: Beginner 55%, Intermediate 70%, Advanced 85%
 
-### Half Guard: The Transitional System
+### What Is Half Guard in BJJ?
 
 [[Half Guard Bottom]] controls one opponent's leg with your legs while opponent has passed halfway. Considered inferior to full guard but provides specialized opportunities.
 
@@ -392,7 +398,7 @@ When opponent stands or creates distance, [[Closed Guard Bottom]] opens to [[Ope
 - Signature 10th Planet position
 - Control Success: Beginner 35%, Intermediate 50%, Advanced 65%
 
-### Specialty Guard Systems
+### What Are the Specialty Guard Systems in BJJ?
 
 **[[Rubber Guard]]**: High guard with overhook (10th Planet system)
 - Extreme posture control
@@ -412,11 +418,11 @@ When opponent stands or creates distance, [[Closed Guard Bottom]] opens to [[Ope
 
 ---
 
-## Transitional and Scramble Positions
+## What Are Transitional and Scramble Positions in BJJ?
 
 Not all positions are stable control states. Many positions exist briefly during transitions between stable positions. Understanding transitional states is crucial for capitalizing on opportunities.
 
-### Turtle Position: Defensive Shell
+### What Is Turtle Position in BJJ?
 
 [[Bottom Turtle]] (also [[Turtle Position]]) is a defensive position where you're on hands and knees protecting your back and preventing guard recovery.
 
@@ -442,7 +448,7 @@ Not all positions are stable control states. Many positions exist briefly during
 - [[Front Headlock]] position
 - [[Crucifix Position]] advanced control
 
-### Scramble Positions: Chaos Control
+### How Do I Handle Scrambles in BJJ?
 
 Scrambles occur when both practitioners are in transitional states simultaneously, creating dynamic, fast-paced position changes.
 
@@ -464,7 +470,7 @@ Scrambles occur when both practitioners are in transitional states simultaneousl
 - One player achieves [[Side Control]] or [[Mount]]
 - Both players reset to guard position
 
-### Standing Positions
+### What Are the Standing Positions in BJJ?
 
 **[[Standing Position]]**: Neutral standing where both players are upright
 - Takedown opportunities
@@ -479,11 +485,11 @@ Scrambles occur when both practitioners are in transitional states simultaneousl
 
 ---
 
-## Leg Entanglement Systems
+## What Are Leg Entanglement Positions in BJJ?
 
 Leg entanglement positions represent modern BJJ evolution, focusing on lower body control and leg attacks. This system has gained prominence in modern no-gi competition due to its systematic approach and high submission success rates.
 
-### Understanding Leg Entanglement Strategy
+### What Is the Leg Entanglement Strategy in BJJ?
 
 **Philosophy:**
 - Legs are submission targets equal to arms
@@ -499,7 +505,7 @@ Leg entanglement positions represent modern BJJ evolution, focusing on lower bod
 5. **Inside Sankaku** ([[Inside Sankaku]]): Dominant leg entanglement position
 6. **Saddle/Honey Hole** ([[Saddle Position]]): Maximum control for leg attacks
 
-### Primary Leg Entanglement Positions
+### What Are the Primary Leg Entanglement Positions?
 
 **[[Ashi Garami]]** (Standard): Controlling one opponent's leg
 - Foundation position for leg attack system
@@ -525,7 +531,7 @@ Leg entanglement positions represent modern BJJ evolution, focusing on lower bod
 - Requires advanced technical knowledge
 - Submission Success: Advanced 60-80%
 
-### Safety Considerations
+### What Are the Safety Requirements for Leg Entanglements?
 
 **CRITICAL WARNING**: Leg entanglements, especially heel hooks, can cause severe knee and ankle injuries. Training requires:
 - Qualified instruction
@@ -536,11 +542,11 @@ Leg entanglement positions represent modern BJJ evolution, focusing on lower bod
 
 ---
 
-## Learning Progression by Belt Level
+## What BJJ Positions Should You Learn First?
 
 BJJ positions should be learned systematically, building from fundamental to advanced. This progression ensures solid foundation before adding complexity.
 
-### White Belt (0-2 Years): Foundation Building
+### What Should White Belts Focus on? (0-2 Years)
 
 **Priority Positions to Master:**
 1. **[[Closed Guard Bottom]]** - Your defensive home base
@@ -570,7 +576,7 @@ BJJ positions should be learned systematically, building from fundamental to adv
 - Understanding positional hierarchy conceptually
 - Drilling fundamental movements
 
-### Blue Belt (2-4 Years): System Development
+### What Should Blue Belts Focus on? (2-4 Years)
 
 **Expanding Position Knowledge:**
 1. **[[Open Guard Bottom]]** variations
@@ -600,7 +606,7 @@ BJJ positions should be learned systematically, building from fundamental to adv
 - Basic competition strategy
 - Movement quality improvement
 
-### Purple Belt (4-6 Years): Specialization
+### What Should Purple Belts Focus on? (4-6 Years)
 
 **Advanced Position Mastery:**
 1. **[[X-Guard]]** and [[Single Leg X Guard]]
@@ -629,7 +635,7 @@ BJJ positions should be learned systematically, building from fundamental to adv
 - Teaching lower belts
 - Competition strategy refinement
 
-### Brown/Black Belt (6+ Years): Mastery
+### What Should Brown and Black Belts Focus on? (6+ Years)
 
 **Complete Positional Understanding:**
 1. **All Position Variations** mastered
@@ -651,11 +657,11 @@ BJJ positions should be learned systematically, building from fundamental to adv
 
 ---
 
-## Position Retention and Success Rates
+## What Are BJJ Position Success Rates and Retention Rates?
 
 Understanding success rates helps set realistic expectations and identify training priorities. Rates vary significantly by skill level.
 
-### Position Retention Rates
+### How Well Do Practitioners Retain Dominant Positions?
 
 **Dominant Positions (Maintaining Control):**
 - [[Mount]]: Beginner 55%, Intermediate 70%, Advanced 75%
@@ -669,7 +675,7 @@ Understanding success rates helps set realistic expectations and identify traini
 - [[Half Guard Bottom]]: Beginner 50%, Intermediate 65%, Advanced 80%
 - [[Butterfly Guard]]: Beginner 40%, Intermediate 55%, Advanced 70%
 
-### Offensive Success Rates
+### What Are the Offensive Success Rates in BJJ?
 
 **Sweeps from Guard:**
 - [[Hip Bump Sweep]]: Beginner 40%, Intermediate 55%, Advanced 70%
@@ -688,14 +694,14 @@ Understanding success rates helps set realistic expectations and identify traini
 - [[Leg Drag Position]]: Beginner 30%, Intermediate 45%, Advanced 60%
 - Pressure passing: Beginner 40%, Intermediate 55%, Advanced 70%
 
-### Escape Success Rates
+### What Are the Escape Success Rates in BJJ?
 
 **Escaping Dominant Positions:**
 - Mount escape: Beginner 25%, Intermediate 40%, Advanced 55%
 - Side control escape: Beginner 30%, Intermediate 45%, Advanced 60%
 - Back control escape: Beginner 20%, Intermediate 35%, Advanced 50%
 
-### Interpreting Success Rates
+### How Do I Interpret BJJ Success Rate Data?
 
 **Key Insights:**
 1. **Position retention is easier than advancement**: Maintaining [[Side Control]] (85%) is easier than escaping it (60%)
@@ -710,11 +716,11 @@ Understanding success rates helps set realistic expectations and identify traini
 
 ---
 
-## Strategic Frameworks and Game Plans
+## What Are the Best BJJ Strategic Frameworks and Game Plans?
 
 Every successful BJJ practitioner needs a position-based game plan that creates strategic coherence between positions.
 
-### The Guard Player Framework
+### What Is the Guard Player Framework?
 
 **Strategic Philosophy:** Start on bottom, sweep to top, advance to dominant positions, finish
 
@@ -739,7 +745,7 @@ Every successful BJJ practitioner needs a position-based game plan that creates 
 - Learn to maintain top positions once swept
 - Competition strategy: Pull guard early, build point lead
 
-### The Top Game Framework
+### What Is the Top Game Framework?
 
 **Strategic Philosophy:** Pass guard immediately, establish control, advance methodically, finish
 
@@ -764,7 +770,7 @@ Every successful BJJ practitioner needs a position-based game plan that creates 
 - Study submission chains from dominant positions
 - Competition strategy: Pass early, accumulate points, maintain pressure
 
-### The Leg Lock Framework
+### What Is the Leg Lock Framework?
 
 **Strategic Philosophy:** Engage legs immediately, enter entanglement system, submit or sweep
 
@@ -789,7 +795,7 @@ Every successful BJJ practitioner needs a position-based game plan that creates 
 - Learn to finish straight ankle locks
 - Competition strategy: Immediate leg engagement, constant submission threat
 
-### Position Hybridization
+### How Do I Build a Complete BJJ Game?
 
 **Complete Game:** Elite players combine frameworks:
 - Elite no-gi: Top pressure + leg locks + back attacks
@@ -805,11 +811,11 @@ Every successful BJJ practitioner needs a position-based game plan that creates 
 
 ---
 
-## Training Methodology
+## How Should I Train BJJ Positions Effectively?
 
 Effective position training requires structured progression from technique learning to competitive application.
 
-### Progressive Resistance Training
+### How Do I Use Progressive Resistance Training?
 
 **Level 1: Static Drilling (0% Resistance)**
 - Partner provides zero resistance
@@ -846,7 +852,7 @@ Effective position training requires structured progression from technique learn
 - Develop mental game
 - Volume: Tournament experience
 
-### Position-Specific Training Plans
+### What Is a Good BJJ Position Training Plan?
 
 **Beginner Position Focus (Months 1-12):**
 - Monday: [[Closed Guard Bottom]] retention and sweeps
@@ -869,7 +875,7 @@ Effective position training requires structured progression from technique learn
 - Thursday: Submission control positions
 - Friday: Competition strategy and tactics
 
-### Position Drilling Methods
+### What Are the Best BJJ Position Drilling Methods?
 
 **Shark Tank Drilling:**
 - One person in position (e.g., [[Side Control]])
@@ -893,7 +899,7 @@ Effective position training requires structured progression from technique learn
 
 ---
 
-## Conclusion: The Positional Chess Game
+## How Do I Master BJJ's Positional Chess Game?
 
 BJJ positions form an interconnected strategic system where every movement creates advantages and disadvantages. Mastering positions requires:
 
@@ -913,7 +919,51 @@ Positions are the language of BJJ. Master the language, and you master the art.
 
 ---
 
-## Related Resources
+## Frequently Asked Questions About BJJ Positions
+
+### What is the best position in BJJ?
+
+[[Back Control]] is considered the most dominant position in BJJ because your opponent cannot see your attacks, gravity assists your control, and the [[Rear Naked Choke]] is the highest-percentage submission in the sport. Advanced practitioners retain back control 80%+ of the time with a 60%+ submission rate. However, [[Mount]] is the most versatile dominant position for beginners to develop first.
+
+### What position should beginners learn first in BJJ?
+
+Start with [[Closed Guard Bottom]] (your defensive foundation) and [[Mount]] (your offensive home base). White belts should aim for 60% guard retention and 65% mount retention before advancing to more complex positions. These two positions teach the fundamental BJJ concepts of control, escape, and submission while providing the most strategic return on investment.
+
+### How do I improve my guard retention in BJJ?
+
+Guard retention improves through three steps: (1) break your opponent's posture before they establish passing grips using collar and sleeve control, (2) develop 3-5 high-percentage sweeps that force them to defend rather than pass, and (3) use progressive resistance drilling from 25% resistance up to full competition intensity. Target 80% guard retention as an intermediate-level goal.
+
+### What is the positional hierarchy in BJJ?
+
+From most to least dominant: [[Back Control]] (4 pts, 80% retention) → [[Mount]] (4 pts, 75% retention) → [[Side Control]] (3 pts, 85% retention) → [[Knee on Belly]] (3 pts, 70% retention) → guard positions (0 pts, control varies) → defensive positions. Points reflect scoring value in IBJJF competition; dominance reflects submission access and control quality.
+
+### What is the difference between closed guard and open guard in BJJ?
+
+[[Closed Guard Bottom]] wraps your legs around the opponent's waist with crossed ankles—secure and controlled, ideal for posture breaking and submission attacks. [[Open Guard Bottom]] uses feet, hooks, and frames to manage distance when the opponent stands—dynamic and varied, ideal for sweeps and modern competition. Beginners master closed guard first; intermediate players develop multiple open guard systems.
+
+### When should I start learning leg locks and heel hooks?
+
+Introduction to straight ankle locks typically begins at purple belt (4+ years). Heel hooks require qualified instruction, training partners who understand the risks, and immediate tap awareness—generally introduced at advanced levels. White belts should focus on fundamental positions first. The progression follows: basic ankle locks → [[Ashi Garami]] control → inside heel hooks → advanced positions like [[Saddle Position]].
+
+### How do I escape mount in BJJ?
+
+Mount escapes succeed 25-55% depending on skill level. The two primary escapes are: (1) **Elbow-Knee Escape**—bridge and shrimp to create space, swim your elbow inside and bring your knee through, recover to [[Half Guard Bottom]] then full guard; (2) **Bridge and Roll**—time your opponent's weight shift, explosive hip bridge with simultaneous roll, reach top position. Drilling these escapes to 70%+ success rate is a white belt priority.
+
+### How do I develop a BJJ game plan based on positions?
+
+Choose one primary framework: guard player, top game, or leg lock. Master 5-7 core positions within that framework to 80%+ competency. Add complementary backup positions from other frameworks. Drill transitions between your positions at 70%+ success rate. Test your game plan in competition and identify what fails under pressure. Refine iteratively—your game plan evolves as your skills develop.
+
+### What are the most important BJJ positions for competition?
+
+For gi competition: [[Closed Guard Bottom]], [[Side Control]], [[Mount]], [[Back Control]], and [[Half Guard Bottom]]. For no-gi competition: the same five plus [[Butterfly Guard]], [[Single Leg X Guard]], [[Ashi Garami]], and [[De La Riva Guard]]. The scoring positions ([[Mount]] and [[Back Control]] for 4 points, [[Side Control]] for 3 points) are the most critical for match strategy.
+
+### How long does it take to master BJJ positions?
+
+White belt (0-2 years): Master 4 fundamental positions at 60%+ retention. Blue belt (2-4 years): Develop 8-12 positions with a personal style. Purple belt (4-6 years): Specialize in 15-20 positions with 70%+ competency across your game. Brown/Black belt (6+ years): Complete position mastery with 30+ positions, smooth transitions, and systematic game planning adapted to any opponent.
+
+---
+
+## Related BJJ Resources
 
 **Position Reference Pages:**
 - [[BJJ Positions]] - Complete position hub and index
