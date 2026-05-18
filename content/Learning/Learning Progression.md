@@ -1,234 +1,304 @@
-# Learning Progression
-#bjj #learning #system #progression
+---
+title: "How to Progress in BJJ: Complete Learning Roadmap | BJJ Graph"
+description: "Structured BJJ learning roadmap from white belt to expert. Master core positions, fundamental systems, and advanced techniques through a 12-phase progression built on the BJJ state machine model."
+tags:
+  - Learning
+  - Progression
+  - System
+  - Training-Guide
+  - Development
+  - Fundamentals
+bot_metadata:
+  last_improved: "2026-05-18"
+  optimization_pass: "ai_seo_v1"
+---
 
-This document outlines a structured learning path for mastering the BJJ State Machine system, organized by progression levels and designed to build skills systematically through connected knowledge.
+# How to Progress in BJJ: Complete Learning Roadmap
 
-## Foundation Level 1: Core Positions
+This guide provides a structured learning path for mastering BJJ through the state machine model — a 12-phase progression organized by skill level, built on connected positions and transitions rather than isolated techniques.
 
-Start by understanding the fundamental positions that form the backbone of the BJJ positional hierarchy.
+**Key principle**: Learn positions in connected sequences, not isolation. Each technique you learn should link to at least two others.
 
-### Phase 1: Neutral Positions
-1. [[Standing up|Standing Position]] (S001)
-2. [[Closed Guard Bottom]] (S002)
+## What Is the BJJ State Machine Approach to Learning?
 
-#### Skills to Develop:
+Brazilian Jiu-Jitsu is a positional state machine where each position offers specific attack, defense, and transition options. This roadmap maps your progression through four levels — Foundation, Intermediate, Advanced, and Expert — with clear phase objectives and system flows at each stage.
+
+**Progression Summary**:
+- **Foundation (Phases 1–3)**: 7 core positions and their essential connections
+- **Intermediate (Phases 4–6)**: Basic offensive and defensive systems
+- **Advanced (Phases 7–9)**: Specialized systems and submission chains
+- **Expert (Phases 10–12)**: Integration, strategy, and personalization
+
+---
+
+## Foundation Level 1: What Core Positions Should You Learn First?
+
+Before developing technique, understand the fundamental positions that form the backbone of BJJ [[Positional Hierarchy]]. These 7 positions connect to every technique in the system.
+
+### Phase 1: What Are the Essential Neutral Positions?
+
+Start with the two positions that bracket every match:
+
+1. **[[Standing Position]]** — Where every match begins. Master stance, grip fighting, and the decision to shoot or pull guard.
+2. **[[Closed Guard]]** — Your primary defensive hub from bottom position. Control distance, break posture, and threaten attacks.
+
+**Skills to develop:**
 - Proper posture and stance in standing position
 - Basic grip fighting principles
-- Closed guard maintenance and posture control
+- [[Closed Guard]] maintenance and posture control
 - Defensive framing from closed guard
 
-#### Connections to Establish:
-- Standing ↔ Closed Guard via [[Pull Guard]] and basic stand-up
+**Connection to establish**: [[Standing Position]] ↔ [[Closed Guard]] via [[Pull guard]] and basic stand-up sequences
 
-### Phase 2: Dominant Positions  
-3. [[Side Control]] (S003)
-4. [[Mount]] (S004)
-5. [[Back Control]] (S005)
+---
 
-#### Skills to Develop:
+### Phase 2: What Are the Three Dominant Positions?
+
+Once you can navigate neutral positions, master these three dominant control positions:
+
+3. **[[Side Control]]** — Most common landing spot after passing guard. Learn to hold pressure and threaten submissions.
+4. **[[Mount]]** — Maximum positional dominance with gravity assistance. The highest-value 4-point position.
+5. **[[Back Control]]** — Highest submission probability position in BJJ. The other 4-point position.
+
+**Skills to develop:**
 - Pressure distribution in top positions
 - Weight shifting to maintain control
 - Transitional flows between dominant positions
 - Defense prevention principles
 
-#### Connections to Establish:
-- Closed Guard → Side Control → Mount → Back Control pathway
-- Basic transition mechanics between these positions
+**Connection pathway**: [[Closed Guard]] → [[Side Control]] → [[Mount]] → [[Back Control]]
 
-### Phase 3: Intermediate Guards
-6. [[Half Guard Bottom]] (S006)
-7. [[Open Guard Bottom]] (S007)
+---
 
-#### Skills to Develop:
+### Phase 3: What Are the Essential Guard Variations?
+
+Complete your foundation with the two key guard variations that bridge defense and offense:
+
+6. **[[Half Guard]]** — Partial defensive control between [[Closed Guard]] and [[Side Control]]. High-percentage sweeps and back take opportunities.
+7. **[[Open Guard]]** — Dynamic control with multiple grip options. Gateway to advanced guard systems.
+
+**Skills to develop:**
 - Guard retention fundamentals
 - Transitioning between guard variations
 - Defensive recovery to better positions
 - Frame creation and maintenance
 
-#### Connections to Establish:
-- Half Guard ↔ Closed Guard transitions
-- Open Guard ↔ Half Guard transitions
+**Connections to establish**:
+- [[Half Guard]] ↔ [[Closed Guard]] transitions
+- [[Open Guard]] ↔ [[Half Guard]] transitions
 - Recovery pathways from inferior positions
 
-## Intermediate Level 2: Basic Systems
+---
 
-After mastering core positions, develop these fundamental technical systems.
+## Intermediate Level 2: What Basic Systems Should You Learn?
 
-### Phase 4: Basic Top Game System
-- [[Double leg takedown]] (T002)
-- Basic guard passing sequences
-- [[Side Control to Mount]]
-- [[Arm Triangle Setup]]
+After mastering core positions, develop these fundamental technical systems. Each system is a connected sequence from entry to submission finish.
 
-#### Skills to Develop:
+### Phase 4: How Do You Build a Basic Top Game System?
+
+- **[[Double Leg Setup]]** — Primary takedown for establishing top position
+- Guard passing sequences — [[Knee Slice Pass]], [[Smash Pass]]
+- **[[Side Control to Mount]]** — Critical transition for advancing position
+- **[[Arm Triangle Setup]]** — High-percentage submission from top position
+
+**Skills to develop:**
 - Takedown setups and execution
 - Systematic guard passing approaches
 - Submission setups from dominant positions
 - Control maintenance during transitions
 
-#### System Flow:
-Standing → Double Leg → Side Control → Mount → Submission
+**System flow**: [[Standing Position]] → Double Leg → [[Side Control]] → [[Mount]] → Submission
 
-### Phase 5: Basic Bottom Game System
-- [[Pull guard]] (T001)
-- Fundamental sweeps from guards
-- [[Triangle Setup]] (fundamental submission from guard)
-- [[Triangle Finish]] (T101)
+---
 
-#### Skills to Develop:
-- Strategic guard pulling
+### Phase 5: How Do You Build a Basic Bottom Game System?
+
+- **[[Pull guard]]** — Strategic guard establishment from standing
+- Fundamental sweeps: [[Hip Bump Sweep]], [[Scissor Sweep]]
+- **[[Triangle Setup]]** — Core submission setup from [[Closed Guard]]
+- **[[Triangle Choke]]** — Finishing mechanics for the triangle family
+
+**Skills to develop:**
+- Strategic guard pulling and position establishment
 - Creating and using leverage for sweeps
 - Setting up and finishing submissions from bottom
-- Managing defensive responses
+- Managing defensive responses to your attacks
 
-#### System Flow:
-Standing → Pull Guard → Closed Guard → Triangle → Submission
+**System flow**: [[Standing Position]] → [[Pull guard]] → [[Closed Guard]] → [[Triangle Choke]] → Submission
 
-### Phase 6: Back Attack System
-- Taking the back from various positions
-- Back control maintenance
-- [[Rear Naked Choke]] (T201)
-- Back control recovery
+---
 
-#### Skills to Develop:
+### Phase 6: How Do You Build a Back Attack System?
+
+- Taking the back from various positions (guard, scrambles, turtle)
+- [[Back Control]] maintenance and hook management
+- **[[Rear Naked Choke]]** — Primary back control submission
+- Back control recovery when hooks are cleared
+
+**Skills to develop:**
 - Recognizing back exposure opportunities
 - Maintaining back control against escapes
 - Controlling opponent through body triangle or hooks
 - Setting up and finishing the rear naked choke
 
-#### System Flow:
-Any Position → Back Exposure → Back Control → RNC → Submission
+**System flow**: Any Position → Back Exposure → [[Back Control]] → [[Rear Naked Choke]] → Submission
 
-## Advanced Level 3: Specialized Systems
+---
 
-With fundamentals established, expand into more specialized technical domains.
+## Advanced Level 3: What Specialized Systems Should You Learn?
 
-### Phase 7: Leg Lock System
-- [[Single Leg X Guard]] (S008)
-- [[Ashi Garami]] (S009)
-- [[Inside Sankaku]] (S010)
-- [[Inside Heel Hook]] (T301)
+With fundamentals established, expand into specialized technical domains. These systems require solid positional understanding and defensive awareness before you can apply them safely and effectively.
 
-#### Skills to Develop:
+### Phase 7: How Do You Learn the Leg Lock System?
+
+- **[[Single Leg X-Guard]]** — Primary entry position for leg entanglements
+- **[[Ashi Garami]]** — Foundational leg entanglement control position
+- **[[Inside Sankaku]]** — Advanced leg entanglement with high finishing rates
+- **[[Inside Heel Hook]]** — Highest-percentage submission from leg entanglements (advanced practitioners only)
+
+**Skills to develop:**
 - Entry mechanics to leg entanglements
 - Rotational control principles
-- Defensive awareness in leg entanglements
-- Rule-specific application knowledge
+- Defensive awareness in leg entanglements (tap early — heel hooks cause serious injury)
+- Rule-specific application knowledge (heel hooks are illegal in many gi competitions)
 
-#### System Flow:
-Open Guard → SLX → Inside Sankaku → Inside Heel Hook → Submission
+**System flow**: [[Open Guard]] → [[Single Leg X-Guard]] → [[Inside Sankaku]] → [[Inside Heel Hook]] → Submission
 
-### Phase 8: Advanced Guard Systems
-- Butterfly Guard system
-- De La Riva Guard system
-- Z-Guard system
-- Berimbolo sequence
+---
 
-#### Skills to Develop:
-- Specialized gripping strategies
+### Phase 8: What Advanced Guard Systems Should You Master?
+
+- **[[Butterfly Guard]]** — Active sweeping position with elevation mechanics
+- **[[De La Riva Guard]]** — Off-balancing control with leg entanglement threats
+- **[[Z-Guard]]** — Knee shield variation with back take opportunities
+- **[[Berimbolo]]** — Inversion-based back take sequence from De La Riva
+
+**Skills to develop:**
+- Specialized gripping strategies for each guard
 - Dynamic guard recovery and retention
 - Creating and exploiting angles
 - Off-balancing mechanics
 
-#### System Connections:
+**System connections**:
 - Creating bridges between different guard systems
 - Transitional triggers based on opponent reactions
+- Defensive responses to each guard's weaknesses
 
-### Phase 9: Submission Chain Systems
-- Upper body submission chains
-- Lower body submission chains
-- Mixed chain sequences
-- Defensive submission counters
+---
 
-#### Skills to Develop:
+### Phase 9: How Do Submission Chain Systems Work?
+
+Submission chains are connected sequences where each attack forces a defensive response that creates the next attack opportunity. You are not planning one submission — you are planning a decision tree.
+
+**Upper body submission chains**:
+- [[Armbar from Guard]] → [[Triangle Choke]] → [[Omoplata]] sequence
+- [[Kimura]] → back take → [[Rear Naked Choke]] sequence
+
+**Lower body submission chains**:
+- [[Single Leg X-Guard]] → [[Ashi Garami]] → [[Inside Heel Hook]] sequence
+- [[Toe Hold]] → [[Straight Ankle Lock]] chains from various positions
+
+**Skills to develop:**
 - Prediction of defensive responses
 - Timing-based submission entries
 - Chaining mechanics between submission families
 - Recognizing commitment points in sequences
 
-#### System Connections:
-- Creating decision trees for submission progression
-- Understanding defensive hierarchy and exploitation
+---
 
-## Expert Level 4: Integration
+## Expert Level 4: How Do You Integrate Everything?
 
-At this level, focus on integrating systems and understanding meta-concepts.
+At this level, focus on integrating systems and understanding the meta-concepts that govern high-level BJJ. Technical knowledge is assumed — the focus is strategic application.
 
-### Phase 10: Positional Integration
-- Connection points between major positions
-- Transitional decision making
-- Recovery systems from inferior positions
-- Position maintenance against resistance
+### Phase 10: What Is Positional Integration?
 
-#### Skills to Develop:
+- Connection points between all major positions in the graph
+- Transitional decision making under real-time pressure
+- Recovery systems from inferior positions at full resistance
+- Position maintenance against elite opposition
+
+**Skills to develop:**
 - Real-time decision making
 - Pattern recognition across positions
 - Strategic pathway selection
-- Energy management between positions
+- Energy management across the entire match
 
-### Phase 11: Strategic Application
-- [[Competition Strategy]] implementation
-- Rule-specific tactical adjustments
+---
+
+### Phase 11: How Do You Apply Strategic Thinking?
+
+- **[[Competition Strategy]]** implementation and pre-match planning
+- Rule-specific tactical adjustments (gi vs. no-gi, points vs. submission-only)
 - Match scenario planning
 - Energy and timing management
 
-#### Skills to Develop:
-- Match strategy formulation
+**Skills to develop:**
+- Match strategy formulation based on opponent and ruleset
 - Tactical adjustment during competition
 - Recognizing and exploiting opponent tendencies
 - Mental performance under pressure
 
-### Phase 12: Personalization
-- Identifying personal attribute alignment
-- Specialization development
-- Game optimization
-- Creating novel connections
+---
 
-#### Skills to Develop:
+### Phase 12: How Do You Build Your Own Game?
+
+- Identifying your personal attribute alignment (strength, flexibility, speed, endurance)
+- Specialization development around your natural strengths
+- Game optimization for your weight class and ruleset
+- Creating novel connections between techniques that reflect your style
+
+**Skills to develop:**
 - Self-analysis and attribute assessment
-- Creative problem-solving
+- Creative problem-solving in novel positions
 - System adaptation to physical attributes
 - Development of signature techniques
 
-## Learning Methodology
+---
 
-### Study-Drill Integration
-For each technique or position:
-1. **Study the state/transition** in the knowledge base
-2. **Visualize the mechanics** and connection points
-3. **Drill the technique** with progressive resistance
-4. **Integrate into sparring** with specific focus
-5. **Review and refine** based on performance
+## How Should You Train Each Phase? (Study-Drill Integration)
 
-### Position Rotation Schedule
-Week 1-2: Focus on Standing and Takedown/Guard Pull
-Week 3-4: Focus on Guard Positions
-Week 5-6: Focus on Passing and Top Positions
-Week 7-8: Focus on Back Control and Submissions
-*Repeat cycle with increasing complexity*
+For each technique or position, follow this 5-step cycle:
 
-### Connection-Based Practice
-Rather than practicing isolated techniques, always practice techniques in their connected context:
-- Drill techniques in 3-step sequences minimum
+1. **Study the state/transition** in the BJJ Graph knowledge base
+2. **Visualize the mechanics** and connection points before drilling
+3. **Drill the technique** with progressive resistance (50% → 70% → 90%)
+4. **Integrate into sparring** with specific focus (start from the position)
+5. **Review and refine** based on live performance
+
+**Position rotation schedule:**
+- Week 1–2: [[Standing Position]] and Takedown/[[Pull guard|Guard Pull]]
+- Week 3–4: Guard Positions and [[Guard Retention]]
+- Week 5–6: Passing and Top Positions
+- Week 7–8: [[Back Control]] and Submissions
+- *Repeat cycle with increasing complexity*
+
+---
+
+## How Do You Practice Techniques in Connected Context?
+
+Rather than drilling isolated techniques, always practice in their natural context:
+
+- Drill techniques in **3-step sequences minimum** (entry → execution → transition)
 - Practice transitions between related positions
-- Focus on decision points between branching options
-- Train responses to common defensive reactions
+- Focus on **decision points** between branching options
+- Train responses to the 2–3 most common defensive reactions
 
-### Graph-Based Learning Review
-Regularly review your progress through the lens of the BJJ state machine:
-1. Identify which nodes (positions) you're comfortable with
-2. Assess which edges (transitions) are high-percentage for you
-3. Find "dead ends" in your game where transitions fail
-4. Look for disconnected subgraphs that need connecting
-5. Identify highest-value paths to focus on next
+**Example sequence (Phase 5)**:
+1. [[Pull guard]] → establish [[Closed Guard]]
+2. Break posture → set up [[Triangle Setup]]
+3. If opponent defends → switch to [[Omoplata]] or [[Armbar from Guard]]
+4. Complete the chain → back control or submission
 
-## Learning Progression Tracking
+---
 
-Use this template to track your progression through the system:
+## How Do You Track Your BJJ Learning Progress?
+
+Use this template to assess each position in your game:
 
 ```
-Position: [Name] (ID)
+Position: [Name]
 Comfort Level: [1-5]
+
 Key Transitions In:
 - [Transition 1] - Proficiency [1-5]
 - [Transition 2] - Proficiency [1-5]
@@ -237,11 +307,61 @@ Key Transitions Out:
 - [Transition 1] - Proficiency [1-5]
 - [Transition 2] - Proficiency [1-5]
 
-Current Focus:
-- [Specific aspect to improve]
-
-Next Connection Point:
-- [Position/Transition to connect with]
+Current Focus: [Specific aspect to improve]
+Next Connection Point: [Position/Transition to connect with]
 ```
 
-This structured approach turns the abstract BJJ state machine into a concrete learning pathway that builds skills systematically and emphasizes connections between positions and techniques rather than isolated moves.
+**Graph-Based Learning Review** — Regularly assess through the BJJ state machine:
+1. Identify which positions (nodes) you're comfortable with
+2. Assess which transitions (edges) are high-percentage for you
+3. Find "dead ends" where your transitions consistently fail
+4. Look for disconnected subgraphs that need connecting
+5. Identify the highest-value paths to prioritize next
+
+---
+
+## Frequently Asked Questions About BJJ Learning Progression
+
+### How long does it take to complete each progression level?
+
+Foundation Level typically takes 3–6 months of consistent training (3+ sessions per week). Intermediate Level takes 6–18 months. Advanced Level takes 2–5 years. Expert Level is an ongoing process with no fixed endpoint — even black belts continue developing at this level.
+
+### Should beginners learn leg locks?
+
+No. Leg locks — especially heel hooks — require strong positional awareness and defensive knowledge to use safely. Begin Phase 7 (Leg Lock System) only after you have a solid foundation in Phases 1–6. Learning heel hooks without proper positional understanding creates dangerous training situations and builds bad defensive habits that lead to injury.
+
+### What is the most important skill to develop first in BJJ?
+
+Escapes and defensive positioning. Most beginners focus on submissions and sweeps, but developing reliable escape mechanics from [[Mount]], [[Side Control]], and [[Back Control]] will improve your overall game faster than any offensive technique. You need to survive consistently before you can attack effectively.
+
+### How do I know when I'm ready to move to the next progression phase?
+
+Progress to the next phase when you can reliably apply the current phase's techniques against resisting training partners at 70% intensity. You don't need perfection — you need functional proficiency. If a technique fails consistently against white belts, spend more time in the current phase before advancing.
+
+### What is connection-based training and why does it matter?
+
+Connection-based training means practicing techniques in their natural context rather than isolation. For example, drilling [[Side Control to Mount]] after a guard pass — not as a standalone move. This builds the muscle memory for when to use each technique and how movements flow together, which is the foundation of advanced BJJ. Three techniques practiced in sequence is worth more than six techniques drilled in isolation.
+
+### What is the difference between the Foundation and Intermediate levels?
+
+Foundation Level builds position recognition and survival — you learn what positions look like, how to hold them from top, and how to escape from bottom. Intermediate Level builds technical systems — you learn how positions connect into offensive and defensive sequences that you can apply consistently against resistance.
+
+---
+
+## Related Content
+
+- [[Positional Hierarchy]] — The fundamental framework underlying this learning progression
+- [[Understanding Position Flow]] — How positions connect in the BJJ state machine
+- [[Learning Psychology]] — Mental aspects of skill development in martial arts
+- [[Competition Strategy]] — Applying learned skills in competition
+- [[Guard Retention]] — Critical defensive skill for all guard systems
+- [[Escape Fundamentals]] — Foundation defensive techniques for all levels
+
+**By Level:**
+- *Foundation*: [[Mount]], [[Side Control]], [[Back Control]], [[Closed Guard]], [[Half Guard]]
+- *Intermediate*: [[Triangle Choke]], [[Rear Naked Choke]], [[Arm Triangle Setup]], [[Pull guard]]
+- *Advanced*: [[Ashi Garami]], [[Single Leg X-Guard]], [[Inside Sankaku]], [[Butterfly Guard]], [[De La Riva Guard]]
+
+---
+
+*This structured approach turns the abstract BJJ state machine into a concrete learning pathway that builds skills systematically and emphasizes connections between positions and techniques rather than isolated moves.*
