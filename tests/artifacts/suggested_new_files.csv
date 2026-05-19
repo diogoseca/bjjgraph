@@ -1,2 +1,4 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+ai_seo_optimization,Positions,Closed Guard Top,"Guard passing article needed top-role page but only [[Closed Guard]] hub exists; target: intermediate passers; sections: passing setup, posture control, grip fighting, sequences to side control; gap: no dedicated passing perspective page for closed guard"
+ai_seo_optimization,Positions,Open Guard Top,"Guard passing article needed top-role page but only [[Open Guard]] hub exists; target: intermediate passers; sections: distance management, guard-specific passes, chain building; gap: no dedicated passing perspective page for open guard"
