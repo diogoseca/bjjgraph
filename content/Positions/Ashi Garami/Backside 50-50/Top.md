@@ -4,7 +4,7 @@
 
 ---
 title: "Backside 50-50 Top | BJJ Position Guide | BJJ Graph"
-description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant leg entanglement control, back attacks, and leg locks with superior positional leverage."
+description: "Backside 50-50 Top gives you chest pressure on opponent's back, clear leg visibility, and dual threats: heel hooks (50% finish) or back control advancement (65% probability)."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Backside 50-50 Top in BJJ. Complete guide covering dominant
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Backside 50-50 Top",
-  "description": "Master Backside 50-50 Top in BJJ. Complete guide covering dominant leg entanglement control, back attacks, and leg locks with superior positional leverage.",
+  "description": "Backside 50-50 Top gives you chest pressure on opponent's back, clear leg visibility, and dual threats: heel hooks (50% finish) or back control advancement (65% probability).",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",

@@ -4,7 +4,7 @@
 
 ---
 title: "Backside 50-50 Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defensive leg entanglement, escape mechanics, and reversal opportunities. Success rates vary by skill level."
+description: "Backside 50-50 Bottom requires defending both back control and leg attacks simultaneously. Learn escape mechanics, hip mobility maintenance, and opportunistic counter-attacks."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Backside 50-50 Bottom in BJJ. Complete guide covering defen
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Backside 50-50 Bottom",
-  "description": "Master Backside 50-50 Bottom in BJJ. Complete guide covering defensive leg entanglement, escape mechanics, and reversal opportunities. Success rates vary by skill level.",
+  "description": "Backside 50-50 Bottom requires defending both back control and leg attacks simultaneously. Learn escape mechanics, hip mobility maintenance, and opportunistic counter-attacks.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
