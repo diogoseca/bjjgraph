@@ -1,42 +1,36 @@
 ---
-title: "BJJ Guard Types Explained - Complete Guide | BJJ Graph"
+title: "What Are the Different Types of BJJ Guards? | Complete Guide | BJJ Graph"
 description: "Master all BJJ guard types and positions. Complete guide to closed guard, open guard, half guard, and modern leg entanglement guards. Learn guard selection, sweeps, and submissions from every position."
+tags:
+  - Learning
+  - Guard
+  - Fundamentals
+  - Positions
+  - Strategy
+bot_metadata:
+  last_improved: "2026-05-20"
+  optimization_pass: "ai_seo_v1"
 ---
 
-# BJJ Guard Types Explained: Complete Guide to All Guards
+# What Are the Different Types of BJJ Guards?
 
-The guard is the defining position of Brazilian Jiu-Jitsu - the art of fighting effectively from your back. Unlike most martial arts that consider the bottom position disadvantageous, BJJ has developed dozens of sophisticated guard positions where the bottom player can control, sweep, and submit their opponent.
-
-This comprehensive guide explains every major guard type, when to use each position, and how guards fit into your overall BJJ game.
-
-## Quick Navigation
-
-- [What is Guard in BJJ?](#what-is-guard-in-bjj)
-- [Guard Classification System](#guard-classification-system)
-- [Closed Guard Family](#closed-guard-family)
-- [Open Guard Family](#open-guard-family)
-- [Half Guard Family](#half-guard-family)
-- [Modern Leg Entanglement Guards](#modern-leg-entanglement-guards)
-- [Specialized & Lapel Guards](#specialized--lapel-guards)
-- [Guard Comparison Table](#guard-comparison-table)
-- [Learning Progression](#learning-progression-by-belt-level)
-- [Guard Selection Strategy](#guard-selection-strategy)
+**Guard** is the defining position of Brazilian Jiu-Jitsu — the art of fighting effectively from your back. Unlike most martial arts that treat the bottom position as a disadvantage, BJJ has developed dozens of sophisticated guard types where the bottom player can control, sweep, and submit their opponent. The four main guard families are **Closed Guards**, **Open Guards**, **Half Guards**, and **Leg Entanglement Guards**. Guard selection depends on your body type, skill level, and opponent's passing style.
 
 ---
 
-## What is Guard in BJJ?
+## What Is Guard in BJJ?
 
-**Guard** is any bottom position in BJJ where you use your legs to control your opponent, preventing them from establishing a dominant top position while creating opportunities for sweeps (reversals) and submissions.
+**Guard** is any bottom position where you use your legs to control your opponent, preventing them from establishing a dominant top position while creating opportunities for sweeps (reversals) and submissions.
 
-### Core Guard Principles
+### What Are the Core Guard Principles?
 
-1. **Hip Mobility** - Active hip movement prevents opponent's passing
-2. **Distance Management** - Control space between you and opponent
-3. **Off-balancing** - Disrupt opponent's balance and posture
-4. **Frame Creation** - Use legs and arms to create defensive structure
-5. **Grip Fighting** - Control opponent's grips and establish your own
+1. **Hip Mobility** — Active hip movement prevents opponent's passing
+2. **Distance Management** — Control space between you and opponent
+3. **Off-Balancing** — Disrupt opponent's balance and posture
+4. **Frame Creation** — Use legs and arms to create defensive structure
+5. **Grip Fighting** — Control opponent's grips and establish your own
 
-### Guard vs. Bad Positions
+### What Is the Difference Between Guard and a Bad Bottom Position?
 
 **Guard positions** (you have control):
 - Your legs actively control opponent
@@ -46,74 +40,53 @@ This comprehensive guide explains every major guard type, when to use each posit
 **Bad bottom positions** (opponent controls you):
 - Opponent has passed your legs
 - Side control, mount, back control
-- Points: Opponent scores 3-4 points
+- Points: Opponent scores 3–4 points
 
 **The goal**: Maintain guard to prevent the pass, then sweep to top position or submit from bottom.
 
 ---
 
-## Guard Classification System
+## How Are BJJ Guards Classified?
 
 Guards are organized into four main families based on leg connection and control mechanisms:
 
 ### Family 1: Closed Guards
 **Definition**: Legs wrapped around opponent (ankles locked or connected)
 
-**Characteristics**:
-- Maximum hip control
-- Simplified distance management
-- Best for beginners
-- Limited mobility
+**Characteristics**: Maximum hip control, simplified distance management, best for beginners, limited mobility
 
-**Examples**: [[Closed Guard Bottom]], [[Rubber Guard]], [[Williams Guard]]
+**Examples**: [[Closed Guard]], [[Rubber Guard]], [[Williams Guard]]
 
 ### Family 2: Open Guards
 **Definition**: Legs not connected, using hooks and frames for distance control
 
-**Characteristics**:
-- Dynamic movement
-- Multiple connection points (hooks, grips, frames)
-- Distance-based control
-- Requires better timing
+**Characteristics**: Dynamic movement, multiple connection points (hooks, grips, frames), distance-based control, requires better timing
 
 **Examples**: [[Spider Guard]], [[De La Riva Guard]], [[Butterfly Guard]], [[Lasso Guard]]
 
 ### Family 3: Half Guards
 **Definition**: One of opponent's legs trapped between yours
 
-**Characteristics**:
-- Defensive recovery position
-- Most common in competition (65% of matches)
-- Strong sweeping potential
-- Limited submission options (compared to full guard)
+**Characteristics**: Defensive recovery position, most common in competition (65% of matches), strong sweeping potential, limited submissions compared to full guard
 
-**Examples**: [[Half Guard Bottom]], [[Knee Shield Half Guard]], [[Lockdown Guard]], [[Deep Half Guard]]
+**Examples**: [[Half Guard]], [[Knee Shield Half Guard]], [[Lockdown]], [[Deep Half Guard]]
 
 ### Family 4: Leg Entanglement Guards
 **Definition**: Focus on controlling opponent's legs for sweeps and leg attacks
 
-**Characteristics**:
-- Modern competition meta
-- No-gi dominance
-- Leg lock offense/defense
-- Requires systematic understanding
+**Characteristics**: Modern competition meta, no-gi dominance, leg lock offense and defense, requires systematic understanding
 
-**Examples**: [[X-Guard]], [[Single Leg X Guard]], [[50-50 Guard]], [[Ashi Garami]]
+**Examples**: [[X-Guard]], [[Single Leg X-Guard]], [[50-50 Guard]], [[Ashi Garami]]
 
 ---
 
-## Closed Guard Family
+## What Is Closed Guard in BJJ?
 
-### Closed Guard Bottom
-**[[Closed Guard Bottom]]** - The fundamental guard
+### What Makes Closed Guard the Most Important Guard for Beginners?
 
-**Mechanics**: Legs wrapped around opponent's waist, ankles locked behind their back
+**[[Closed Guard]]** is the fundamental guard — legs wrapped around opponent's waist with ankles locked behind their back.
 
-**When to Use**:
-- Beginning BJJ training
-- Against larger/stronger opponents
-- When you need maximum control
-- In self-defense scenarios
+**When to Use**: Beginning BJJ training, against larger/stronger opponents, when you need maximum control, in self-defense scenarios
 
 **Success Rates**:
 - Position Retention: Beginner 60%, Intermediate 70%, Advanced 80%
@@ -121,310 +94,155 @@ Guards are organized into four main families based on leg connection and control
 - Submission Success: Beginner 30%, Intermediate 45%, Advanced 60%
 
 **Primary Attacks**:
-- [[Triangle Choke Front]] - Legs around neck and arm (Success: Beginner 35%, Intermediate 50%, Advanced 70%)
-- [[Armbar Control]] - Classic arm hyperextension (Success: Beginner 40%, Intermediate 55%, Advanced 75%)
-- [[Omoplata]] - Leg-based shoulder lock (Success: Beginner 25%, Intermediate 45%, Advanced 65%)
-- [[Kimura]] - Figure-four shoulder lock (Success: Beginner 35%, Intermediate 50%, Advanced 70%)
-- [[Cross Collar Choke]] - Gi choke using collars (Success: Beginner 40%, Intermediate 55%, Advanced 70%)
+- [[Triangle Choke Front]] — Legs around neck and arm (Beginner 35%, Advanced 70%)
+- [[Armbar from Guard]] — Classic arm hyperextension (Beginner 40%, Advanced 75%)
+- [[Omoplata]] — Leg-based shoulder lock (Beginner 25%, Advanced 65%)
+- [[Kimura]] — Figure-four shoulder lock (Beginner 35%, Advanced 70%)
+- [[Cross Collar Choke]] — Gi choke using collars (Beginner 40%, Advanced 70%)
 
 **Primary Sweeps**:
-- Hip Bump Sweep - Off-balance forward (Success: Beginner 50%, Intermediate 70%, Advanced 85%)
-- Scissor Sweep - Cut across base (Success: Beginner 45%, Intermediate 65%, Advanced 80%)
-- Pendulum Sweep - Circular sweeping motion (Success: Beginner 40%, Intermediate 60%, Advanced 75%)
+- [[Hip Bump Sweep]] — Off-balance forward (Beginner 50%, Advanced 85%)
+- [[Scissor Sweep]] — Cut across base (Beginner 45%, Advanced 80%)
+- [[Pendulum Sweep]] — Circular sweeping motion (Beginner 40%, Advanced 75%)
 
-**Strengths**:
-- Maximum hip control
-- Simple to learn and maintain
-- Multiple submission options
-- Works well for self-defense
+**Strengths**: Maximum hip control, simple to learn, multiple submissions, works for self-defense
 
-**Weaknesses**:
-- Static position (limited movement)
-- Difficult against good posture
-- Energy-intensive to maintain
-- Opponent can stack and pressure
+**Weaknesses**: Static position, difficult against good posture, energy-intensive, opponent can stack
 
-Closed guard is the foundation of all guard work. The ability to control someone's posture while they're trapped between your legs develops the fundamental understanding of distance management, hip mobility, and timing that applies to every other guard position. While modern guard passing has evolved to counter it, every sweep and submission from open guard is based on principles learned in closed guard first. Closed guard is only limited if you keep your legs at your opponent's waist - when you start breaking them down and getting angles, it becomes an offensive powerhouse.
+Closed guard is the foundation of all guard work. The ability to control someone's posture while they're trapped between your legs develops the fundamental understanding of distance management, hip mobility, and timing that applies to every other guard position.
 
 ---
 
-### Rubber Guard System
-**[[Rubber Guard]]** - Innovative closed guard variation from the 10th Planet system
+### What Is Rubber Guard in BJJ?
 
-**Mechanics**: Closed guard with one leg hooked over opponent's shoulder and behind their head, using flexibility to break posture and control
+**[[Rubber Guard]]** is an innovative closed guard variation from the 10th Planet system. One leg hooks over the opponent's shoulder and behind their head, using flexibility to break posture and control.
 
-**When to Use**:
-- Flexible practitioners
-- No-gi competition
-- Against opponents with strong posture
-- MMA applications (ground and pound defense)
+**When to Use**: Flexible practitioners, no-gi competition, against strong posture, MMA ground-and-pound defense
 
 **Success Rates**:
 - Position Control: Beginner 30%, Intermediate 50%, Advanced 70%
 - Submission Success: Beginner 20%, Intermediate 40%, Advanced 60%
 
-**Primary Attacks**:
-- [[Gogoplata Control]] - Shin across throat
-- [[Omoplata]] - Enhanced setup from rubber guard
-- [[Triangle Choke Front]] - From rubber guard position
-- [[Williams Shoulder Lock]] - Rubber guard specialty
+**Primary Attacks**: [[Gogoplata Control]], [[Omoplata]], [[Triangle Choke Front]], [[Williams Shoulder Lock]]
 
-**Physical Requirements**:
-- High flexibility (especially hip flexibility)
-- Strong leg control
-- Good grip endurance
-- Understanding of 10th Planet system
-
-Rubber guard changed the game because it gave flexible practitioners a way to break posture that strong opponents couldn't defend with strength alone. It's not about being a contortionist - it's about using flexibility strategically.
+**Physical Requirements**: High hip flexibility, strong leg control, good grip endurance, understanding of the 10th Planet system
 
 ---
 
-### Williams Guard
-**[[Williams Guard]]** - Deep closed guard variation
+### What Is Williams Guard?
 
-**Mechanics**: Ultra-high closed guard with legs wrapped around opponent's shoulders/upper back instead of waist
+**[[Williams Guard]]** is an ultra-high closed guard variation with legs wrapped around the opponent's shoulders and upper back instead of the waist.
 
-**When to Use**:
-- When opponent stands in closed guard
-- Against very tall opponents
-- Advanced position recovery
+**When to Use**: When opponent stands in closed guard, against very tall opponents, advanced position recovery
 
-**Success Rates**:
-- Position Maintenance: Beginner 25%, Intermediate 45%, Advanced 65%
-- Williams Shoulder Lock: Beginner 20%, Intermediate 40%, Advanced 60%
-
-**Primary Attacks**:
-- [[Williams Shoulder Lock]] - Signature submission
-- [[Triangle Choke Front]] - From high position
-- Back take opportunities
+**Primary Attacks**: [[Williams Shoulder Lock]] (signature submission), [[Triangle Choke Front]], back takes
 
 ---
 
-## Open Guard Family
+## What Is Open Guard in BJJ?
 
-Open guards are where BJJ becomes truly dynamic. Instead of locking your legs, you use hooks (feet behind opponent's legs/arms), grips (on gi, wrists, or limbs), and frames (arms/legs creating distance) to control space and create attacking opportunities.
+Open guards are where BJJ becomes truly dynamic. Instead of locking your legs, you use hooks (feet behind opponent's legs or arms), grips (on gi, wrists, or limbs), and frames (arms/legs creating distance) to control space and create attacking opportunities.
 
-### Spider Guard
-**[[Spider Guard]]** - Gi-based distance control guard
+### What Is Spider Guard?
 
-**Mechanics**: Both feet on opponent's biceps, controlling sleeves, extending legs to create distance
+**[[Spider Guard]]** is a gi-based distance control guard with both feet on opponent's biceps and sleeve grips, extending legs to create distance.
 
-**When to Use**:
-- Gi competition
-- Long legs (leverage advantage)
-- Against pressure passers
-- When opponent has strong base
+**When to Use**: Gi competition, long legs (leverage advantage), against pressure passers, when opponent has strong base
 
 **Success Rates**:
 - Position Retention: Beginner 45%, Intermediate 65%, Advanced 80%
 - Sweep Success: Beginner 35%, Intermediate 50%, Advanced 70%
 - Submission Success: Beginner 20%, Intermediate 35%, Advanced 55%
 
-**Primary Attacks**:
-- [[Triangle Choke Front]] - From spider control
-- [[Omoplata]] - Extended arm setup
-- Spider sweep variations
-- [[Armbar Control]] - Extension armbars
+**Primary Attacks**: [[Triangle Choke Front]], [[Omoplata]], [[Spider Sweep]], [[Armbar from Guard]]
 
-**Strengths**:
-- Excellent distance control
-- Difficult to pass (extended legs)
-- Multiple sweep options
-- Strong against pressure
+**Strengths**: Excellent distance control, difficult to pass, multiple sweeps, strong against pressure
 
-**Weaknesses**:
-- Requires strong grips (grip intensive)
-- Leg flexibility needed
-- Can be stacked/compressed
-- No-gi ineffective
-
-Spider guard revolutionized guard passing defense by making it impossible for the passer to get close to your hips without first breaking your grip control. It's a perfect example of using geometry - extending your legs creates angles that make passing mechanically inefficient.
+**Weaknesses**: Grip-intensive, requires leg flexibility, can be stacked, ineffective no-gi
 
 ---
 
-### De La Riva Guard
-**[[De La Riva Guard]]** - Hook-based open guard
+### What Is De La Riva Guard?
 
-**Mechanics**: Outside leg hooks around opponent's leg (de la riva hook), inside foot on hip, controlling opponent's far sleeve
+**[[De La Riva Guard]]** is a hook-based open guard with an outside leg hooked around opponent's leg (DLR hook), inside foot on hip, controlling the far sleeve.
 
-**When to Use**:
-- Gi and no-gi (modified)
-- When opponent is standing or in combat base
-- Against knee cut passes
-- Setting up leg attacks (no-gi)
+**When to Use**: Gi and no-gi (modified), when opponent is standing or in combat base, against knee cut passes, setting up leg attacks no-gi
 
 **Success Rates**:
 - Position Retention: Beginner 40%, Intermediate 60%, Advanced 75%
 - Sweep Success: Beginner 45%, Intermediate 60%, Advanced 80%
 
 **Primary Attacks**:
-- De La Riva sweep - Off-balance to side (Success: Beginner 50%, Intermediate 65%, Advanced 85%)
-- Back take - From DLR to back (Success: Beginner 35%, Intermediate 55%, Advanced 75%)
-- [[Omoplata]] - From DLR extension
-- Berimbolo - Inverting to back (Advanced)
+- [[De La Riva Sweep]] — Off-balance to side (Beginner 50%, Advanced 85%)
+- [[Back Take]] — From DLR to back (Beginner 35%, Advanced 75%)
+- [[Omoplata]] — From DLR extension
+- [[Berimbolo]] — Inverting to back (Advanced)
 
-**Variations**:
-- [[Reverse De La Riva Guard]] - Inside position
-- Single sleeve DLR - One grip variation
-- Combination DLR - Mixed with other guards
-
-De La Riva remains one of the most effective guards in modern competition because it directly attacks the opponent's base and posture. Every high-level competitor has a DLR game because it's so effective at creating off-balancing opportunities.
+**Variations**: [[Reverse De La Riva Guard]] (inside position), combination DLR with other guards
 
 ---
 
-### Butterfly Guard
-**[[Butterfly Guard]]** - Hook-based sweeping guard
+### What Is Butterfly Guard?
 
-**Mechanics**: Sitting up, both feet hooked inside opponent's thighs (butterfly hooks), controlling upper body with underhooks or overhooks
+**[[Butterfly Guard]]** is a hook-based sweeping guard — sitting up with both feet hooked inside opponent's thighs, controlling upper body with underhooks or overhooks.
 
-**When to Use**:
-- Gi and no-gi (equally effective)
-- When opponent is on knees or low
-- Transition guard (connects to many positions)
-- Against most passing styles
+**When to Use**: Gi and no-gi (equally effective), when opponent is on knees or low, transition guard connecting to many positions, against most passing styles
 
 **Success Rates**:
 - Position Retention: Beginner 50%, Intermediate 65%, Advanced 80%
 - Sweep Success: Beginner 55%, Intermediate 70%, Advanced 85%
 
 **Primary Attacks**:
-- Butterfly sweep - Hook and lift (Success: Beginner 60%, Intermediate 75%, Advanced 90%)
-- Arm drag - To back or side (Success: Beginner 50%, Intermediate 70%, Advanced 85%)
-- [[Triangle Choke Front]] - From butterfly
-- [[Guillotine Control]] - Front headlock entries
+- [[Butterfly Sweep]] — Hook and lift (Beginner 60%, Advanced 90%)
+- [[Arm Drag]] — To back or side (Beginner 50%, Advanced 85%)
+- [[Triangle Choke Front]] — From butterfly
+- [[Guillotine Control]] — Front headlock entries
 
-**Transitions**:
-- [[X-Guard]] - Drop under for X
-- [[Single Leg X Guard]] - Single leg control
-- [[Half Guard Bottom]] - Recovery position
-- [[Ashi Garami]] - Leg entanglement entry
+**Transitions**: [[X-Guard]], [[Single Leg X-Guard]], [[Half Guard]], [[Ashi Garami]]
 
-**Strengths**:
-- Extremely versatile
-- Works gi and no-gi equally
-- Strong sweeping potential
-- Connects to many positions
+**Strengths**: Extremely versatile, works gi and no-gi equally, strong sweeping potential, connects to many positions
 
-**Weaknesses**:
-- Requires good posture
-- Vulnerable to stack passes
-- Active/dynamic position (not passive)
-
-Butterfly guard is the most versatile guard in jiu-jitsu because it naturally connects to nearly every other guard position. Master butterfly guard and you have access to the entire bottom game.
+**Weaknesses**: Requires good posture, vulnerable to stack passes, active and dynamic position
 
 ---
 
-### Lasso Guard
-**[[Lasso Guard]]** - Gi-based control using lasso grip
+### What Is Lasso Guard?
 
-**Mechanics**: One leg threaded through opponent's arm (lasso), controlling sleeve and threading leg over shoulder
+**[[Lasso Guard]]** is a gi-based control guard with one leg threaded through the opponent's arm (lasso), controlling sleeve and threading leg over shoulder.
 
-**When to Use**:
-- Gi-only position
-- Against strong pressure
-- Tall/flexible practitioners
-- Combined with spider or DLR
+**When to Use**: Gi-only, against strong pressure, tall/flexible practitioners, combined with spider or DLR
 
 **Success Rates**:
 - Position Control: Beginner 35%, Intermediate 55%, Advanced 75%
 - Sweep Success: Beginner 40%, Intermediate 55%, Advanced 70%
 
-**Primary Attacks**:
-- Lasso sweep - Using threaded leg
-- [[Triangle Choke Front]] - From lasso control
-- [[Omoplata]] - Shoulder attack
-- Back takes from lasso
-
-Lasso is one of those guards that's incredibly effective but also challenging to play against. When done right, it makes it almost impossible for the passer to do anything without first dealing with that lasso control.
+**Primary Attacks**: [[Lasso Sweep]], [[Triangle Choke Front]], [[Omoplata]], back takes from lasso
 
 ---
 
-### Collar Sleeve Guard
-**[[Collar Sleeve Guard Bottom]]** - Classic gi guard
+### What Are Other Open Guard Variations?
 
-**Mechanics**: One hand controlling opponent's collar, other hand controlling sleeve, feet on hips/biceps for distance
+**[[Collar Sleeve Guard]]** — Classic gi guard using collar and sleeve grips with feet on hips or biceps. Beginner-friendly distance guard. (Position Control: Beginner 50%, Advanced 75%)
 
-**When to Use**:
-- Gi fundamentals
-- Beginner to intermediate
-- Setting up sweeps and submissions
-- Distance management
+**[[Shin-to-Shin Guard]]** — Technical standing guard with your shin connected to opponent's shin. Best when opponent stands, transitioning to other guards.
 
-**Success Rates**:
-- Position Control: Beginner 50%, Intermediate 65%, Advanced 75%
-- Attack Success: Beginner 35%, Intermediate 50%, Advanced 65%
+**[[Inverted Guard]]** — Upside-down guard (head down, hips up) using legs overhead. Used for [[Berimbolo]] entries, recovery from bad positions, advanced sport BJJ.
+
+**[[Squid Guard]]** — Hybrid seated open guard for creative off-balancing in modern sport BJJ.
+
+**[[Seated Guard]]** — Basic sitting posture using frames and grips to prevent opponent's advance. Foundational transition position.
 
 ---
 
-### Shin-to-Shin Guard
-**[[Shin-to-Shin Guard]]** - Technical standing guard
+## What Is Half Guard in BJJ?
 
-**Mechanics**: Your shin connected to opponent's shin, controlling their standing posture
+Half guard is the most common position in BJJ competition — appearing in over 65% of matches. It's the ultimate recovery position when you're losing full guard, but also a powerful offensive guard with numerous sweeps and submissions.
 
-**When to Use**:
-- When opponent stands
-- Technical off-balancing
-- Transitioning to other guards
+### What Is Standard Half Guard?
 
----
+**[[Half Guard]]** is the core half guard position — one of opponent's legs trapped between yours.
 
-### Inverted Guard
-**[[Inverted Guard]]** - Upside-down guard position
-
-**Mechanics**: Inverted (head down, hips up), using legs overhead to control opponent
-
-**When to Use**:
-- Advanced competition
-- Berimbolo entries
-- Recovery from bad positions
-- Modern sport BJJ
-
-**Physical Requirements**:
-- High flexibility
-- Core strength
-- Spatial awareness
-- Advanced technique
-
----
-
-### Squid Guard
-**[[Squid Guard]]** - Hybrid open guard
-
-**Mechanics**: Seated position with one leg extended, creative off-balancing
-
-**When to Use**:
-- Modern sport BJJ
-- Creative guard players
-- Against specific passing styles
-
----
-
-### Seated Guard
-**[[Seated Guard Bottom]]** - Basic seated posture
-
-**Mechanics**: Sitting up, using frames and grips to prevent opponent's advance
-
-**When to Use**:
-- Foundational position
-- Transitioning between guards
-- Conservative guard retention
-
----
-
-## Half Guard Family
-
-Half guard is the most common position in BJJ competition - appearing in over 65% of matches. It's the ultimate recovery position when you're losing full guard, but it's also a powerful offensive guard with numerous sweeps and submission opportunities.
-
-### Half Guard Bottom (Standard)
-**[[Half Guard Bottom]]** - Core half guard position
-
-**Mechanics**: Bottom position with one of opponent's legs trapped between yours
-
-**When to Use**:
-- Guard recovery (when opponent is passing)
-- Against all skill levels
-- Gi and no-gi (equally effective)
-- Most common competition position
+**When to Use**: Guard recovery (when opponent is passing), against all skill levels, gi and no-gi equally, most common competition position
 
 **Success Rates**:
 - Position Retention: Beginner 55%, Intermediate 70%, Advanced 85%
@@ -432,677 +250,349 @@ Half guard is the most common position in BJJ competition - appearing in over 65
 - Submission Success: Beginner 20%, Intermediate 35%, Advanced 50%
 
 **Primary Attacks**:
-- Sweep to top position (Success: Beginner 45%, Intermediate 60%, Advanced 80%)
-- [[Kimura]] - Figure-four from bottom (Success: Beginner 35%, Intermediate 50%, Advanced 70%)
-- Back take - Transition to back control (Success: Beginner 30%, Intermediate 50%, Advanced 70%)
-- [[Guillotine Control]] - Front choke opportunities
+- Sweep to top (Beginner 45%, Advanced 80%)
+- [[Kimura]] — Figure-four from bottom (Beginner 35%, Advanced 70%)
+- [[Half Guard to Back Take]] — (Beginner 30%, Advanced 70%)
+- [[Guillotine Control]] — Front choke opportunities
 
-**Variations**:
-- [[Knee Shield Half Guard]] - Frame with knee shield
-- [[Lockdown Guard]] - 10th Planet lockdown system
-- [[Deep Half Guard]] - Get deep under opponent
-- [[Reverse Half Guard Bottom]] - Opposite leg trapped
-- [[Z-Guard Bottom]] - Knee shield variation
+**Variations**: [[Knee Shield Half Guard]], [[Lockdown]], [[Deep Half Guard]], [[Reverse Half Guard]], [[Z-Guard]]
 
-**Strengths**:
-- Extremely common (must know this position)
-- Strong recovery position
-- Good sweeping potential
-- Works against all body types
+**Strengths**: Extremely common (must know), strong recovery position, good sweeping potential, works against all body types
 
-**Weaknesses**:
-- Can be pressure-heavy (opponent smash)
-- Limited submission options (compared to full guard)
-- Requires good framing
-- Opponent can consolidate pass
-
-Half guard is not a goal position - it's a transitional position. Your objective should always be to either recover full guard or immediately sweep to top position. Staying in half guard too long allows your opponent to consolidate and pass. However, it's where everyone ends up when defending passes, so if you master half guard, you essentially become un-passable.
+**Weaknesses**: Can be pressure-heavy, limited submissions vs full guard, requires good framing
 
 ---
 
-### Knee Shield Half Guard
-**[[Knee Shield Half Guard]]** - Defensive half guard with frame
+### What Is Knee Shield Half Guard?
 
-**Mechanics**: Half guard with top leg framing across opponent's chest (knee shield)
-
-**When to Use**:
-- Against heavy pressure
-- Creating distance in half guard
-- Preventing opponent's crossface
-- Transitioning to other guards
+**[[Knee Shield Half Guard]]** is a defensive half guard with the top leg framing across opponent's chest (knee shield), preventing crossface and creating distance.
 
 **Success Rates**:
 - Defense Effectiveness: Beginner 60%, Intermediate 75%, Advanced 85%
 - Sweep Opportunities: Beginner 45%, Intermediate 60%, Advanced 75%
 
-**Primary Attacks**:
-- Knee shield sweep - Push and off-balance
-- [[Kimura]] - From knee shield frame
-- Back take - Using knee shield distance
-- Transition to butterfly hooks
-
-Knee shield is a primary defensive frame in half guard. It prevents the opponent from getting close enough to consolidate side control while giving you the distance needed to set up sweeps and back takes.
+**Primary Attacks**: Knee shield sweep, [[Kimura]], back takes using knee shield distance, transition to butterfly hooks
 
 ---
 
-### Lockdown Guard
-**[[Lockdown Guard]]** - 10th Planet half guard system
+### What Is Lockdown in BJJ?
 
-**Mechanics**: Half guard with legs figure-foured around trapped leg (lockdown), controlling opponent's mobility
-
-**When to Use**:
-- No-gi competition
-- Against strong opponents (neutralizes strength)
-- Setting up electric chair submission
-- Preventing opponent's pass
+**[[Lockdown]]** is the 10th Planet half guard control system — legs figure-foured around trapped leg to control opponent's mobility and neutralize strength advantages.
 
 **Success Rates**:
 - Position Control: Beginner 50%, Intermediate 65%, Advanced 80%
 - Electric Chair Success: Beginner 25%, Intermediate 45%, Advanced 65%
 
-**Primary Attacks**:
-- [[Electric Chair Submission]] - Lockdown leg attack
-- Old school sweep - Roll over shoulder
-- [[Twister Setup]] - To truck position
-- Vaporizer sweep
-
-The lockdown revolutionized half guard by giving smaller practitioners a way to control bigger, stronger opponents. When you lockdown their leg, all their pressure and strength becomes irrelevant because they can't move.
+**Primary Attacks**: [[Electric Chair Submission]], [[Old School]] sweep, [[Twister Entry]] to truck position, vaporizer sweep
 
 ---
 
-### Deep Half Guard
-**[[Deep Half Guard]]** - Advanced half guard variation
+### What Is Deep Half Guard?
 
-**Mechanics**: Getting deep under opponent, controlling their near leg, with your head on backside
-
-**When to Use**:
-- Advanced sweep setups
-- Against skilled opponents
-- Competition scenarios
-- When standard half guard is shut down
+**[[Deep Half Guard]]** is an advanced half guard variation — getting deep under opponent, controlling their near leg with your head on the backside.
 
 **Success Rates**:
 - Entry Success: Beginner 30%, Intermediate 50%, Advanced 70%
 - Sweep Success: Beginner 45%, Intermediate 65%, Advanced 85%
 
-**Primary Attacks**:
-- Deep half sweep - Homer Simpson sweep (Success: Beginner 50%, Intermediate 70%, Advanced 90%)
-- Waiter sweep - Technical sweep
-- Back take - From deep position
-
-Deep half guard is one of the most effective sweeping positions in all of jiu-jitsu when done correctly. You're attacking your opponent's base from underneath where they have minimal defensive options.
+**Primary Attacks**: [[Deep Half Sweep]] (Beginner 50%, Advanced 90%), [[Waiter Sweep]], back take from deep position
 
 ---
 
-### Z-Guard
-**[[Z-Guard Bottom]]** - Modified knee shield position
+### What Are Other Half Guard Variations?
 
-**Mechanics**: Knee shield with specific shin positioning and grips
+**[[Z-Guard]]** — Modified knee shield with specific shin positioning and grips. Used in modern sport BJJ against leg drag passes. Transitions well to [[Z-Guard Pass]] counters.
 
-**When to Use**:
-- Modern sport BJJ
-- Technical half guard play
-- Against leg drag passes
+**[[Reverse Half Guard]]** — Opposite leg trapped compared to standard half guard. Used for specific passing counters and advanced guard retention.
+
+**[[Quarter Guard]]** — Minimal control with only ankle or foot trapping. Last-ditch guard recovery to prevent the final pass and attempt re-guard.
 
 ---
 
-### Reverse Half Guard
-**[[Reverse Half Guard Bottom]]** - Inverted half guard position
+## What Are Leg Entanglement Guards in BJJ?
 
-**Mechanics**: Opposite leg trapped (compared to standard half guard)
+Leg entanglement guards focus on controlling opponent's legs, creating sweeps and leg lock attacks. They dominate modern no-gi BJJ and are increasingly important in gi competition.
 
-**When to Use**:
-- Specific passing counters
-- Transition position
-- Advanced guard retention
+### What Is X-Guard?
 
----
-
-### Quarter Guard
-**[[Quarter Guard Bottom]]** - Minimal half guard control
-
-**Mechanics**: Barely trapping opponent's leg (ankle/foot control only)
-
-**When to Use**:
-- Last-ditch guard recovery
-- Preventing final pass
-- Quick re-guard attempts
-
----
-
-## Modern Leg Entanglement Guards
-
-These guards focus on controlling opponent's legs, creating sweeps and leg lock attacks. They dominate modern no-gi BJJ and are increasingly important in gi competition.
-
-### X-Guard
-**[[X-Guard]]** - Crossed legs under opponent
-
-**Mechanics**: Both legs crossed in "X" formation under opponent, controlling both their legs
-
-**When to Use**:
-- When opponent is standing or high posture
-- Setting up powerful sweeps
-- Both gi and no-gi
-- Against larger opponents
+**[[X-Guard]]** uses both legs crossed in an "X" formation under opponent, controlling both their legs simultaneously.
 
 **Success Rates**:
 - Entry Success: Beginner 35%, Intermediate 55%, Advanced 75%
 - Sweep Success: Beginner 60%, Intermediate 75%, Advanced 90%
 
 **Primary Attacks**:
-- X-Guard sweep - Direct forward sweep (Success: Beginner 65%, Intermediate 80%, Advanced 95%)
-- Technical stand-up - Stand while controlling
-- [[Single Leg X Guard]] - Transition to SLX
-- Back take - From X-Guard control
+- [[X-Guard Sweep]] — Direct forward sweep (Beginner 65%, Advanced 95%)
+- [[X-Guard Technical Stand Up]] — Stand while controlling
+- [[Single Leg X-Guard]] — Transition to SLX
+- Back take from X-Guard control
 
-**Strengths**:
-- Extremely powerful sweeps
-- Off-balances opponent dramatically
-- Works against larger opponents
-- Natural leg attack entry (no-gi)
+**Strengths**: Extremely powerful sweeps, off-balances opponent dramatically, works against larger opponents, natural leg attack entry
 
-**Weaknesses**:
-- Requires timing and precision
-- Opponent can step out
-- Commitment required
-- Less submission options (primarily sweep-focused)
-
-X-Guard is still one of the highest percentage sweeps in no-gi because you're attacking both of the opponent's legs simultaneously. They literally have nothing to base on when X-Guard is locked in properly.
+**Weaknesses**: Requires timing and precision, commitment required, fewer submission options
 
 ---
 
-### Single Leg X Guard
-**[[Single Leg X Guard]]** - Single leg control variant
+### What Is Single Leg X-Guard?
 
-**Mechanics**: Controlling one of opponent's legs with your legs, other leg free for balance
-
-**When to Use**:
-- No-gi competition
-- Leg lock entries
-- Technical standing guard
-- Against pressure passers
+**[[Single Leg X-Guard]]** controls one of opponent's legs with your legs, other leg free for balance — the foundation of modern no-gi leg lock offense.
 
 **Success Rates**:
 - Position Control: Beginner 40%, Intermediate 60%, Advanced 80%
 - Sweep Success: Beginner 50%, Intermediate 70%, Advanced 85%
 - Leg Attack Entry: Beginner 30%, Intermediate 55%, Advanced 80%
 
-**Primary Attacks**:
-- Technical stand-up sweep
-- [[Ashi Garami]] - Leg entanglement entry
-- [[Kneebar Control]] - Knee attack
-- Back take opportunities
+**Primary Attacks**: [[Single Leg X Sweep]], [[Ashi Garami]] entry, [[Kneebar Control]], back takes
 
-Single Leg X is the foundation of the entire modern leg lock game. From this position, you have simultaneous threats of sweeps, back takes, and leg attacks, creating true dilemmas for your opponent.
+Single Leg X is the foundation of the entire modern leg lock game — simultaneous threats of sweeps, back takes, and leg attacks create true dilemmas for your opponent.
 
 ---
 
-### 50-50 Guard
-**[[50-50 Guard Bottom]]** - Symmetrical leg entanglement
+### What Is 50-50 Guard?
 
-**Mechanics**: Both you and opponent's legs entangled symmetrically, equal control
-
-**When to Use**:
-- No-gi competition (primarily)
-- Defensive position in leg entanglements
-- Leg lock warfare
-- Stalling/defensive scenarios
+**[[50-50 Guard]]** is a symmetrical leg entanglement where both players' legs are entangled with equal control — the primary vehicle for modern leg lock exchanges.
 
 **Success Rates**:
 - Position Maintenance: Beginner 45%, Intermediate 65%, Advanced 80%
 - Leg Lock Success: Beginner 25%, Intermediate 50%, Advanced 75%
 
-**Primary Attacks**:
-- [[Inside Heel Hook]] - Primary leg attack
-- [[Straight Ankle Lock]] - Secondary attack
-- Sweep opportunities from 50-50
-- Technical standup
-
-**Controversy**: Often criticized for stalling in competition
-
-50-50 is often misunderstood. People think it's a stalling position, but if you actually understand leg locks, 50-50 is a constant battle where both people are attacking and defending simultaneously. It's like a chess match with your legs.
+**Primary Attacks**: [[Inside Heel Hook]] (primary), [[Straight Ankle Lock]] (secondary), sweeps and technical standup
 
 ---
 
-### Ashi Garami
-**[[Ashi Garami]]** - Standard leg entanglement
+### What Is Ashi Garami?
 
-**Mechanics**: Entangling one of opponent's legs, control for leg attacks
-
-**When to Use**:
-- No-gi leg lock attacks
-- Modern grappling competition
-- Defensive leg lock scenarios
-- Submission-focused game
+**[[Ashi Garami]]** is the standard leg entanglement — controlling one of opponent's legs with both of yours to create leg attack angles.
 
 **Success Rates**:
 - Position Entry: Beginner 35%, Intermediate 60%, Advanced 80%
 - Leg Lock Finish: Beginner 30%, Intermediate 55%, Advanced 75%
 
-**Primary Attacks**:
-- [[Straight Ankle Lock]] - Fundamental leg lock
-- [[Inside Heel Hook]] - Advanced attack
-- Transitions to other leg entanglements
+**Primary Attacks**: [[Straight Ankle Lock]], [[Inside Heel Hook]], transitions to other leg entanglements
 
-**Variations**:
-- [[Ushiro Ashi Garami]] - Reverse position
-- Inside Sankaku - Inside control position
-- [[Saddle Variations Bottom]] - Honey hole positions
+**Variations**: [[Ushiro Ashi-Garami]] (reverse position), [[Inside Sankaku]], [[Saddle]]
 
 ---
 
-## Specialized & Lapel Guards
+## What Are Specialized and Lapel Guards?
 
-Advanced guards that use unique mechanics or gi-specific techniques.
+Advanced guards using unique mechanics or gi-specific techniques for experienced competitors.
 
-### Worm Guard
-**[[Worm Guard Bottom]]** - Keenan Cornelius lapel guard
+### What Is Worm Guard?
 
-**Mechanics**: Using opponent's gi lapel wrapped around their leg, creating unique control
-
-**When to Use**:
-- Gi competition only
-- Technical guard players
-- Against specific passing styles
+**[[Worm Guard]]** (created by Keenan Cornelius) uses the opponent's gi lapel wrapped around their leg to create a unique off-balancing control unavailable in other guard positions.
 
 **Success Rates**:
 - Setup Success: Beginner 20%, Intermediate 45%, Advanced 70%
-- Sweep/Attack Success: Beginner 35%, Intermediate 60%, Advanced 80%
+- Attack Success: Beginner 35%, Intermediate 60%, Advanced 80%
 
 ---
 
-### Lapel Guard Variations
-**[[Lapel Guard Bottom]]** - Various lapel-based guards
+### What Are Lapel Guard Variations?
 
-**Mechanics**: Using gi lapels for creative controls and attacks
+**[[Lapel Guard]]** encompasses various gi lapel-based controls — **[[Worm Guard]]**, **[[Squid Guard]]**, **[[Ringworm Guard]]**, and **[[Matrix]]** — using the gi fabric for creative off-balancing that cannot be replicated no-gi.
 
-**Examples**:
-- Worm guard
-- Squid guard
-- Ring worm
-- Matrix guard
-
-**When to Use**:
-- Gi-only
-- Modern sport BJJ
-- Creative guard players
+**When to Use**: Gi-only, modern sport BJJ, creative guard players who want positional variety unavailable to opponents unfamiliar with lapel systems
 
 ---
 
-## Guard Comparison Table
+## Which BJJ Guard Should I Use? (Comparison Table)
 
-| Guard Type | Difficulty | Best For | Sweep Success | Submission Success | Guard Retention | Gi/No-Gi |
-|-----------|-----------|----------|---------------|-------------------|-----------------|----------|
-| **[[Closed Guard Bottom]]** | Beginner | Control, Learning | Medium (55%) | Medium (45%) | High (70%) | Both |
-| **[[Spider Guard]]** | Intermediate | Distance Control | High (60%) | Low (35%) | High (75%) | Gi Only |
-| **[[De La Riva Guard]]** | Intermediate | Off-balancing | Very High (70%) | Low (30%) | High (70%) | Both |
-| **[[Butterfly Guard]]** | Intermediate | Versatility | Very High (75%) | Medium (40%) | High (70%) | Both |
-| **[[Half Guard Bottom]]** | Beginner | Recovery | Medium (55%) | Low (35%) | High (75%) | Both |
-| **[[Knee Shield Half Guard]]** | Beginner | Defense | Medium (55%) | Low (30%) | Very High (80%) | Both |
-| **[[Lockdown Guard]]** | Intermediate | Control | Medium (50%) | Medium (45%) | High (70%) | No-Gi |
-| **[[Deep Half Guard]]** | Advanced | Sweeping | Very High (75%) | Very Low (20%) | Medium (60%) | Both |
-| **[[X-Guard]]** | Advanced | Sweeping | Very High (80%) | Low (25%) | Medium (65%) | Both |
-| **[[Single Leg X Guard]]** | Advanced | Leg Attacks | High (65%) | Medium (50%) | High (70%) | No-Gi |
-| **[[50-50 Guard Bottom]]** | Advanced | Leg Attacks | Low (35%) | High (60%) | High (75%) | No-Gi |
-| **[[Rubber Guard]]** | Advanced | Submission | Low (35%) | High (55%) | Medium (60%) | No-Gi |
-| **[[Lasso Guard Bottom]]** | Intermediate | Control | Medium (55%) | Medium (45%) | High (75%) | Gi Only |
-| **[[Worm Guard Bottom]]** | Advanced | Technical | High (65%) | Low (30%) | Very High (80%) | Gi Only |
-
-**Success rates** are averages across all skill levels (Beginner, Intermediate, Advanced).
+| Guard | Difficulty | Best For | Sweep % | Sub % | Gi/No-Gi |
+|-------|-----------|----------|---------|-------|----------|
+| **[[Closed Guard]]** | Beginner | Control, Learning | Medium (55%) | Medium (45%) | Both |
+| **[[Spider Guard]]** | Intermediate | Distance Control | High (60%) | Low (35%) | Gi Only |
+| **[[De La Riva Guard]]** | Intermediate | Off-balancing | Very High (70%) | Low (30%) | Both |
+| **[[Butterfly Guard]]** | Intermediate | Versatility | Very High (75%) | Medium (40%) | Both |
+| **[[Half Guard]]** | Beginner | Recovery | Medium (55%) | Low (35%) | Both |
+| **[[Knee Shield Half Guard]]** | Beginner | Defense | Medium (55%) | Low (30%) | Both |
+| **[[Lockdown]]** | Intermediate | Control | Medium (50%) | Medium (45%) | No-Gi |
+| **[[Deep Half Guard]]** | Advanced | Sweeping | Very High (75%) | Very Low (20%) | Both |
+| **[[X-Guard]]** | Advanced | Sweeping | Very High (80%) | Low (25%) | Both |
+| **[[Single Leg X-Guard]]** | Advanced | Leg Attacks | High (65%) | Medium (50%) | No-Gi |
+| **[[50-50 Guard]]** | Advanced | Leg Attacks | Low (35%) | High (60%) | No-Gi |
+| **[[Rubber Guard]]** | Advanced | Submission | Low (35%) | High (55%) | No-Gi |
+| **[[Lasso Guard]]** | Intermediate | Control | Medium (55%) | Medium (45%) | Gi Only |
+| **[[Worm Guard]]** | Advanced | Technical | High (65%) | Low (30%) | Gi Only |
 
 ---
 
-## Learning Progression by Belt Level
+## How Do I Choose a Guard Based on My Opponent?
 
-### White Belt (First 1-2 Years)
-
-**Focus**: Master fundamental closed and half guards
-
-**Priority Guards**:
-1. **[[Closed Guard Bottom]]** - Start here
-   - Learn basic control
-   - Practice posture breaking
-   - Develop hip movement
-   - Simple sweeps: hip bump, scissor, pendulum
-   - Simple submissions: armbar, triangle, kimura
-
-2. **[[Half Guard Bottom]]** - Second position
-   - Understand defensive recovery
-   - Learn basic frames
-   - Practice guard retention
-   - Simple sweeps to top position
-
-3. **[[Open Guard Bottom]]** - Introduction
-   - Basic open guard concepts
-   - Foot on hips
-   - Simple distance management
-
-**Training Split**:
-- 50% Closed guard
-- 30% Half guard
-- 20% Basic open guard concepts
-
-**Goals**:
-- Maintain closed guard for 2+ minutes
-- Execute 3 different sweeps from closed guard
-- Defend basic guard passes
-- Understand when to use which guard
-
----
-
-### Blue Belt (Years 2-4)
-
-**Focus**: Develop open guard variety and half guard systems
-
-**Priority Guards**:
-1. **[[Butterfly Guard]]** - Core open guard
-   - Develop active guard play
-   - Learn butterfly sweeps
-   - Connect to other positions
-   - Transitions: X-Guard, SLX, Half Guard
-
-2. **[[Spider Guard]]** (Gi) / **Distance Guards** (No-Gi)
-   - Distance management principles
-   - Grip fighting
-   - Active leg frames
-   - Sweep and submission setups
-
-3. **[[De La Riva Guard]]** - Technical guard
-   - Hook-based control
-   - Off-balancing mechanics
-   - Back take opportunities
-   - DLR sweeps
-
-4. **[[Knee Shield Half Guard]]** - Advanced half guard
-   - Defensive frames
-   - Distance creation
-   - Sweep setups from knee shield
-
-**Training Split**:
-- 40% Open guard variations
-- 35% Half guard systems
-- 25% Closed guard (refinement)
-
-**Goals**:
-- Play 3+ different open guards
-- Chain guards together (butterfly → X → half)
-- Understand guard selection by situation
-- Develop personal guard style
-
----
-
-### Purple Belt (Years 4-6)
-
-**Focus**: Specialize and develop systematic guard approach
-
-**Priority Guards**:
-1. **Personal Specialty Guard** - Choose 1-2 guards to master
-   - Deep technical knowledge
-   - Competition-tested approaches
-   - Multiple setups and variations
-
-2. **[[X-Guard]]** & **[[Single Leg X Guard]]** - Leg control systems
-   - Technical sweeping
-   - Modern competition guards
-   - Leg attack entries (no-gi)
-
-3. **[[Deep Half Guard]]** - Advanced half guard
-   - Technical sweeping system
-   - Competition scenarios
-   - Defensive recovery
-
-4. **[[Lapel Guard Variations Bottom]]** (Gi) - Technical creativity
-   - Worm guard, squid guard
-   - Modern sport BJJ
-
-5. **Leg Entanglement Guards** (No-Gi)
-   - [[Ashi Garami]] and variations
-   - [[50-50 Guard Bottom]]
-   - Leg lock offense and defense
-
-**Training Split**:
-- 50% Specialty guards (depth)
-- 30% Complementary guards (breadth)
-- 20% Weak areas (fill gaps)
-
-**Goals**:
-- Master 2-3 guards completely
-- Compete effectively using guard game
-- Understand advanced guard transitions
-- Teach guards to lower belts
-
----
-
-### Brown/Black Belt (Years 6+)
-
-**Focus**: Complete guard system with situational mastery
-
-**Complete System**:
-1. **Primary Guard** - Go-to position (mastery level)
-2. **Secondary Guards** - 2-3 supporting positions
-3. **Recovery Guards** - Half guard and variations
-4. **Specialty Guards** - Situation-specific guards
-5. **Counter Guards** - Anti-passing systems
-
-**Advanced Concepts**:
-- Guard combinations (seamless transitions)
-- Reading opponent's passing style
-- Situational guard selection
-- Competition strategy
-- Teaching systematic approach
-
-**Training Focus**:
-- Competition preparation
-- Technical refinement
-- Developing personal style
-- Teaching others
-
----
-
-## Guard Selection Strategy
-
-Choosing the right guard depends on multiple factors:
-
-### By Opponent's Style
-
-**Against Pressure Passers** (heavy, smash passing):
-- **Best Guards**: [[Knee Shield Half Guard]], [[Spider Guard]], [[Lasso Guard Bottom]]
+### Against Pressure Passers (heavy, smash passing)
+- **Best Guards**: [[Knee Shield Half Guard]], [[Spider Guard]], [[Lasso Guard]]
 - **Why**: These guards create distance and frames that neutralize pressure
-- **Avoid**: Tight guards where they can consolidate (closed guard can be pressured)
 
-**Against Speed Passers** (fast, standing passes):
-- **Best Guards**: [[De La Riva Guard]], [[X-Guard]], [[Single Leg X Guard]]
+### Against Speed Passers (fast, standing passes)
+- **Best Guards**: [[De La Riva Guard]], [[X-Guard]], [[Single Leg X-Guard]]
 - **Why**: Hook-based guards off-balance mobile opponents
-- **Avoid**: Static guards (closed guard) where they can create distance
 
-**Against Leg Drag Specialists**:
+### Against Leg Drag Specialists
 - **Best Guards**: [[De La Riva Guard]], [[Reverse De La Riva Guard]], [[Shin-to-Shin Guard]]
 - **Why**: These guards specifically counter leg drag mechanics
-- **Avoid**: Positions that expose your back
 
-**Against Knee Cut Passers**:
-- **Best Guards**: [[De La Riva Guard]], [[Butterfly Guard]], [[Half Guard Bottom]]
+### Against Knee Cut Passers
+- **Best Guards**: [[De La Riva Guard]], [[Butterfly Guard]], [[Half Guard]]
 - **Why**: Direct counters to knee cut mechanics
-- **Avoid**: Positions without leg connection
 
 ---
 
-### By Your Body Type
+## How Do I Choose a Guard Based on My Body Type?
 
-**Long Legs (Tall/Lanky Build)**:
-- **Best Guards**: [[Spider Guard]], [[De La Riva Guard]], [[Lasso Guard Bottom]]
-- **Why**: Length creates maximum distance and control
-- **Focus**: Distance management, extension-based attacks
+**Long Legs (Tall/Lanky)**: [[Spider Guard]], [[De La Riva Guard]], [[Lasso Guard]] — Length creates maximum distance and control
 
-**Short Legs (Stocky Build)**:
-- **Best Guards**: [[Butterfly Guard]], [[Half Guard Bottom]], [[Deep Half Guard]]
-- **Why**: Compact guards use leverage over length
-- **Focus**: Close-range control, technical sweeps
+**Short Legs (Stocky)**: [[Butterfly Guard]], [[Half Guard]], [[Deep Half Guard]] — Compact guards use leverage over length
 
-**Flexible (High Hip Mobility)**:
-- **Best Guards**: [[Rubber Guard]], [[Inverted Guard]], [[Z-Guard Bottom]]
-- **Why**: Take advantage of unique flexibility
-- **Focus**: Positions others can't achieve
+**High Flexibility**: [[Rubber Guard]], [[Inverted Guard]], [[Z-Guard]] — Take advantage of unique hip mobility
 
-**Strong Grip (Powerful Hands)**:
-- **Best Guards**: [[Spider Guard]], [[Lasso Guard Bottom]], [[Collar Sleeve Guard Bottom]]
-- **Why**: Grip-intensive guards maximize advantage
-- **Focus**: Gi-based controls
+**Strong Grip**: [[Spider Guard]], [[Lasso Guard]], [[Collar Sleeve Guard]] — Grip-intensive guards maximize your advantage
 
 ---
 
-### By Competition Format
+## How Do I Choose a Guard Based on Competition Format?
 
-**IBJJF Gi Competition**:
-- Focus: [[Spider Guard]], [[De La Riva Guard]], [[Lasso Guard Bottom]]
-- Strategy: Control grips, prevent passing, score sweep points
-- Leg locks: Limited (only straight ankle lock at lower belts)
+**IBJJF Gi**: [[Spider Guard]], [[De La Riva Guard]], [[Lasso Guard]] — Grip control, sweep points, limited leg locks at lower belts
 
-**IBJJF No-Gi Competition**:
-- Focus: [[Butterfly Guard]], [[Half Guard Bottom]], [[Single Leg X Guard]]
-- Strategy: Dynamic guards, back take opportunities
-- Leg locks: Moderate restrictions
+**IBJJF No-Gi**: [[Butterfly Guard]], [[Half Guard]], [[Single Leg X-Guard]] — Dynamic guards, back take opportunities, moderate leg lock rules
 
-**ADCC / EBI No-Gi**:
-- Focus: [[Single Leg X Guard]], [[Ashi Garami]], [[50-50 Guard Bottom]], [[X-Guard]]
-- Strategy: Leg lock threats, back takes, dynamic movement
-- Leg locks: Full leg attack game
+**ADCC / EBI No-Gi**: [[Single Leg X-Guard]], [[Ashi Garami]], [[50-50 Guard]], [[X-Guard]] — Full leg attack game
 
-**MMA / Self-Defense**:
-- Focus: [[Closed Guard Bottom]], [[Rubber Guard]], [[Half Guard Bottom]]
-- Strategy: Control posture, prevent strikes, stand up or sweep
-- Avoid: Extended guards (vulnerable to strikes)
+**MMA / Self-Defense**: [[Closed Guard]], [[Rubber Guard]], [[Half Guard]] — Control posture, prevent strikes, prioritize standing
 
 ---
 
-### By Match Situation
+## How Should I Learn BJJ Guards by Belt Level?
 
-**Ahead on Points (Defensive)**:
-- Use: [[Closed Guard Bottom]], [[Knee Shield Half Guard]]
-- Strategy: Maintain control, don't take risks, run out clock
+### White Belt: Which Guards Should Beginners Learn First?
 
-**Behind on Points (Offensive)**:
-- Use: [[Butterfly Guard]], [[De La Riva Guard]], [[X-Guard]]
-- Strategy: Create sweep opportunities, take calculated risks
+**Focus**: Master fundamental closed and half guards before adding complexity
 
-**Overtime / Submission Only**:
-- Use: [[Single Leg X Guard]], [[Ashi Garami]], [[50-50 Guard Bottom]]
-- Strategy: Leg locks, back takes, high-risk/high-reward
+1. **[[Closed Guard]]** — Start here. Basic control, posture breaking, hip movement, [[Hip Bump Sweep]], [[Scissor Sweep]], [[Armbar from Guard]], [[Triangle Choke Front]]
+2. **[[Half Guard]]** — Second position. Defensive recovery, basic frames, guard retention, simple sweeps
+3. **[[Open Guard]]** — Introduction to foot-on-hips and simple distance management
 
-**Early in Match (Feeling Out)**:
-- Use: [[Butterfly Guard]], [[Open Guard Bottom]]
-- Strategy: Assess opponent's style, adjust guards accordingly
+**Training Split**: 50% Closed guard | 30% Half guard | 20% Basic open guard concepts
+
+**Goals**: Maintain closed guard 2+ minutes, execute 3 different sweeps, defend basic passes, understand when to use which guard
 
 ---
 
-## Guard Retention Fundamentals
+### Blue Belt: Which Guards Should Intermediate Players Develop?
 
-Regardless of which guard you choose, these principles maintain any guard:
+**Focus**: Open guard variety and half guard systems
 
-### Core Retention Concepts
+1. **[[Butterfly Guard]]** — Core open guard, butterfly sweeps, connections to [[X-Guard]] and [[Single Leg X-Guard]]
+2. **[[Spider Guard]]** (Gi) / Distance Guards (No-Gi) — Distance management, grip fighting, sweep setups
+3. **[[De La Riva Guard]]** — Hook-based control, off-balancing, back takes, DLR sweeps
+4. **[[Knee Shield Half Guard]]** — Defensive frames, distance creation, sweep setups
 
-1. **Hip Movement** - Shrimp, invert, technical standup
-2. **Active Legs** - Always moving, creating frames
-3. **Connection Points** - Maintain at least 2 points of contact
-4. **Distance Management** - Too close or appropriate distance, never middle
-5. **Grip Fighting** - Deny opponent's grips, establish yours
-
-### Common Mistakes
-
-1. **Static Guard** - Not moving hips and legs actively
-   - Fix: Constant micro-adjustments, never fully settled
-
-2. **Grabbing Own Legs** - Defensive pulling knees to chest
-   - Fix: Extend legs into opponent, create frames
-
-3. **Single Connection** - Only one point of contact
-   - Fix: Minimum 2 connection points always
-
-4. **Wrong Distance** - Stuck in middle range
-   - Fix: Fully extended or tight control, avoid middle
-
-5. **Passive Grips** - Letting opponent control grips
-   - Fix: Active grip fighting, establish controls first
+**Training Split**: 40% Open guard | 35% Half guard systems | 25% Closed guard refinement
 
 ---
 
-## Guard Training Methodology
+### Purple Belt: Which Guards Should Advanced Players Specialize In?
+
+**Focus**: Specialization and systematic guard approach
+
+1. **Personal Specialty Guard** — Choose 1–2 guards to master deeply with competition testing
+2. **[[X-Guard]]** and **[[Single Leg X-Guard]]** — Technical sweeping, leg attack entries (no-gi)
+3. **[[Deep Half Guard]]** — Advanced half guard sweeping system
+4. **[[Lapel Guard]]** variations (Gi) — Worm, squid, and ringworm guards for modern sport BJJ
+5. **Leg Entanglement Guards** (No-Gi) — [[Ashi Garami]] and [[50-50 Guard]] offense and defense
+
+---
+
+### Brown and Black Belt: How Do Advanced Practitioners Build a Complete Guard System?
+
+**Complete System**:
+1. **Primary Guard** — Go-to position (mastery level)
+2. **Secondary Guards** — 2–3 supporting positions
+3. **Recovery Guards** — Half guard and variations
+4. **Specialty Guards** — Situation-specific guards
+5. **Counter Guards** — Anti-passing systems
+
+**Advanced Concepts**: Guard combinations (seamless transitions), reading opponent's passing style, situational guard selection, competition strategy
+
+---
+
+## How Do I Retain My Guard?
+
+Regardless of which guard you play, these principles apply universally:
+
+### What Are the Core Guard Retention Principles?
+
+1. **Hip Movement** — Shrimp, invert, technical standup constantly
+2. **Active Legs** — Always moving, never fully settled
+3. **Connection Points** — Maintain at least 2 points of contact
+4. **Distance Management** — Fully extended or tight control, avoid the middle range
+5. **Grip Fighting** — Deny opponent's grips, establish yours first
+
+### What Are the Most Common Guard Retention Mistakes?
+
+1. **Static Guard** — Not moving hips and legs actively → Fix: Constant micro-adjustments
+2. **Grabbing Own Legs** — Pulling knees to chest defensively → Fix: Extend legs into opponent
+3. **Single Connection Point** — Only one point of contact → Fix: Always maintain minimum 2
+4. **Wrong Distance** — Stuck in middle range → Fix: Fully extended or tight control
+5. **Passive Grips** — Letting opponent establish grips first → Fix: Active grip fighting from the start
+
+---
+
+## How Should I Train BJJ Guards?
 
 ### Positional Sparring Drills
 
-**Closed Guard Rounds** (5 minutes):
-- Bottom player: Maintain guard, attempt sweeps/submissions
-- Top player: Maintain posture, attempt passes
-- Reset if guard is passed or sweep is successful
+**Closed Guard Rounds** (5 minutes): Bottom player attempts sweeps/submissions; top player attempts passes. Reset when guard is passed or sweep succeeds.
 
-**Open Guard Rounds** (5 minutes):
-- Bottom player: Play specific open guard (spider, DLR, butterfly)
-- Top player: Attempt passes
-- Focus on guard retention and attacks
+**Open Guard Rounds** (5 minutes): Play one specific guard (spider, DLR, butterfly); top player attempts passes. Focus on guard retention and attacks.
 
-**Half Guard Rounds** (5 minutes):
-- Start in half guard bottom
-- Bottom player: Sweep or maintain
-- Top player: Pass or consolidate
+**Half Guard Rounds** (5 minutes): Start in half guard bottom; work sweep or maintain vs pass or consolidate.
 
 ### Progressive Resistance Training
 
-**Stage 1: Technical Drilling** (No resistance)
-- Learn movements and positions
-- Develop muscle memory
-- Focus on form
-
-**Stage 2: Light Resistance** (30% resistance)
-- Partner provides predictable defense
-- Practice against realistic feedback
-- Develop timing
-
-**Stage 3: Progressive Resistance** (50-70% resistance)
-- Partner defends realistically
-- Problem-solve under pressure
-- Develop adaptability
-
-**Stage 4: Full Resistance** (100% competition level)
-- Test guards under maximum pressure
-- Identify weaknesses
-- Competition preparation
+1. **Technical Drilling** (no resistance) — Learn movements, develop muscle memory, focus on form
+2. **Light Resistance** (30%) — Partner provides predictable defense, practice timing
+3. **Progressive Resistance** (50–70%) — Partner defends realistically, develop adaptability
+4. **Full Resistance** (100%) — Competition level, identify weaknesses, competition prep
 
 ---
 
-## Conclusion: Building Your Guard Game
+## Frequently Asked Questions About BJJ Guards
 
-Guard work is the soul of Brazilian Jiu-Jitsu. While other martial arts avoid the bottom position, BJJ practitioners have developed sophisticated systems that make fighting from your back not just viable, but highly effective.
+### What is the best guard for beginners in BJJ?
+**[[Closed Guard]]** is the best guard for beginners because it provides maximum control with minimum complexity. Both feet lock behind your opponent's back, simplifying distance management and giving you a stable base to learn posture breaking, hip mobility, and basic sweeps ([[Hip Bump Sweep]], [[Scissor Sweep]]). After 3–6 months, add [[Half Guard]] as your primary recovery position.
 
-### Your Guard Journey
+### What is the difference between closed guard and open guard in BJJ?
+**[[Closed Guard]]** locks your ankles behind the opponent's back — maximum control, limited mobility. **[[Open Guard]]** (including [[De La Riva Guard]], [[Spider Guard]], [[Butterfly Guard]]) uses hooks, grips, and frames to control space without locking legs. Open guards offer more dynamic movement and attack variety but require better timing and technique to maintain.
 
-1. **Start Simple** - Master [[Closed Guard Bottom]] and [[Half Guard Bottom]]
-2. **Add Variety** - Develop 2-3 open guards ([[Butterfly Guard]], [[Spider Guard]], [[De La Riva Guard]])
-3. **Specialize** - Choose personal guards based on body type and style
-4. **Connect Systems** - Learn transitions between guards
-5. **Compete** - Test your guards under pressure
-6. **Innovate** - Develop personal variations and approaches
+### Which BJJ guard is best for no-gi?
+**[[Butterfly Guard]]** is the most versatile starting point for no-gi because it works equally with or without a gi. At the advanced level, [[Single Leg X-Guard]], [[Ashi Garami]], and [[50-50 Guard]] dominate modern no-gi competition by combining sweep threats with leg lock entries ([[Inside Heel Hook]], [[Straight Ankle Lock]]).
 
-### Remember
+### How do I maintain guard when someone tries to pass?
+Guard retention requires active hip movement (shrimping and inverting), constant micro-adjustments, maintaining at least two connection points, and active grip fighting. The biggest mistake is staying static — guard retention demands continuous movement even when nothing active is happening. Connect your defense: as your hips move, your hands fight grips simultaneously.
 
-- Every guard requires hip movement and active legs
-- No single guard works against everything
-- Guard retention is more important than guard attacks
-- The best guard is the one you've practiced most
-- Guards should connect into systems, not exist in isolation
+### What is the most common guard position in BJJ competition?
+**[[Half Guard]]** appears in over 65% of BJJ matches, making it the most common guard in competition. Players naturally end up in half guard when defending passes. Despite being considered a recovery position, half guard offers strong sweeps including the [[Deep Half Sweep]] and back takes via [[Half Guard to Back Take]].
 
-Master your guards, and you'll never fear the bottom position again.
+### What is a leg entanglement guard in BJJ?
+Leg entanglement guards ([[Ashi Garami]], [[Single Leg X-Guard]], [[50-50 Guard]], [[X-Guard]]) control your opponent's legs rather than their upper body. They create simultaneous threats of sweeps and leg submissions ([[Inside Heel Hook]], [[Straight Ankle Lock]]) and dominate modern no-gi competition. They require systematic understanding of leg lock mechanics to use safely and effectively.
 
----
+### How many guards should I learn in BJJ?
+Beginners should master 2–3 guards deeply ([[Closed Guard]] and [[Half Guard]]) before adding variety. Blue belts benefit from 4–5 complementary guards that chain together. Purple belts and above typically specialize in 1–2 primary guards while maintaining competency across supporting positions. Depth always beats breadth — one guard you can use under pressure beats five guards you only drill cooperatively.
 
-## Related Resources
-
-- [[BJJ Positions]] - Complete position hierarchy
-- [[BJJ Guard Passing]] - Guard passing strategies and techniques
-- [[BJJ Submissions]] - Submissions from guard positions
-- [[BJJ Escapes]] - Escape techniques and defensive concepts
-- [[Guard Retention]] - Advanced guard retention concepts
-- [[Guard Recovery System]] - Recovering guard from bad positions
+### What is the difference between spider guard and lasso guard?
+Both [[Spider Guard]] and [[Lasso Guard]] are gi-based open guards using your legs for distance control. Spider guard puts both feet on the opponent's biceps while gripping both sleeves — maximum distance, preventing both arms from passing. Lasso guard threads one leg through the opponent's arm, providing stronger unilateral control that is harder to break but sacrifices some overall mobility.
 
 ---
 
-*This comprehensive guide covers 30+ guard types with detailed mechanics, success rates, and strategic applications. Click any guard name to access in-depth technical guides with step-by-step instructions, common errors, and expert insights.*
+## Related Content
+
+- [[Guard Passing]] — Guard passing strategies and techniques
+- [[Guard Recovery]] — Recovering guard from bad positions
+- [[Positions]] — Complete BJJ position hierarchy
+- [[Submissions]] — Submissions from every guard position
+- [[Escape Fundamentals]] — Systematic approach to escaping bad positions
+- [[Base Maintenance]] — Foundation of balance and structure in BJJ
+
+---
+
+*This guide covers 30+ guard types with mechanics, success rates, and strategic applications. Click any guard name to access in-depth technical guides with step-by-step instructions and expert analysis.*

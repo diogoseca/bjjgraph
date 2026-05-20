@@ -4,7 +4,7 @@
 
 ---
 title: "Anaconda Control Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master defensive strategies for surviving Anaconda Control from bottom position. Learn escape routes, survival techniques, and systematic defense with 30% escape success rate for advanced practitioners."
+description: "Survive Anaconda Control bottom in BJJ. Master escape routes, grip breaks, hand fighting, and systematic defense. Advanced practitioners achieve 30% escape success."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master defensive strategies for surviving Anaconda Control from bo
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Anaconda Control Bottom",
-  "description": "Master defensive strategies for surviving Anaconda Control from bottom position. Learn escape routes, survival techniques, and systematic defense with 30% escape success rate for advanced practitioners.",
+  "description": "Survive Anaconda Control bottom in BJJ. Master escape routes, grip breaks, hand fighting, and systematic defense. Advanced practitioners achieve 30% escape success.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
