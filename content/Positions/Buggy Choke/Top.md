@@ -4,7 +4,7 @@
 
 ---
 title: "Buggy Choke Top | BJJ Position Guide | BJJ Graph"
-description: "Attack from Buggy Choke position. Complete offensive guide covering grip establishment, pressure application, and transition pathways to submission or positional advancement."
+description: "How to attack from Buggy Choke top position. Master arm threading mechanics, body pressure application, and reactive transitions to submission finish, back control, crucifix, or truck."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Buggy Choke Top",
-  "description": "Attack from Buggy Choke position. Complete offensive guide covering grip establishment, pressure application, and transition pathways to submission or positional advancement.",
+  "description": "How to attack from Buggy Choke top position. Master arm threading mechanics, body pressure application, and reactive transitions to submission finish, back control, crucifix, or truck.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -156,6 +156,8 @@ description: "Attack from Buggy Choke position. Complete offensive guide coverin
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+**How do you attack with the Buggy Choke?** Thread your near arm deep under the opponent's armpit with palm facing up, secure the far collar with that hand, connect your second hand to complete the choking structure, then apply chest-down body pressure. Every defensive reaction — staying static, sitting to guard, turning in, or extending an arm — opens a different high-percentage path: finish the choke, take the back, attack the crucifix, or roll to truck.
 
 The Buggy Choke from top position represents one of the most versatile and high-percentage turtle attack systems in modern Brazilian Jiu-Jitsu. Unlike many turtle attacks that offer binary outcomes (submission or return to neutral), the buggy choke creates a branching decision tree where every defensive response opens different offensive opportunities. This positional versatility makes it exceptionally valuable in competition where opponents are well-versed in defending single-path attacks but struggle against multi-threat systems.
 
