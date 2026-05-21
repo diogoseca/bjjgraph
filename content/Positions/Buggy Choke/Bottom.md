@@ -4,7 +4,7 @@
 
 ---
 title: "Buggy Choke Bottom | BJJ Position Guide | BJJ Graph"
-description: "Defend and escape Buggy Choke attacks from turtle. Complete defensive guide covering grip prevention, posture maintenance, and escape pathways to guard recovery."
+description: "How to escape the Buggy Choke from turtle bottom. Recognize arm threading attempts early, clamp your elbow, strip grips before pressure consolidates, and recover to half guard, open guard, or standing."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Buggy Choke Bottom",
-  "description": "Defend and escape Buggy Choke attacks from turtle. Complete defensive guide covering grip prevention, posture maintenance, and escape pathways to guard recovery.",
+  "description": "How to escape the Buggy Choke from turtle bottom. Recognize arm threading attempts early, clamp your elbow, strip grips before pressure consolidates, and recover to half guard, open guard, or standing.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -156,6 +156,8 @@ description: "Defend and escape Buggy Choke attacks from turtle. Complete defens
 <main class="content-wrapper" style="display: flex; flex-direction: column;">
 
 <section id="overview" class="content-section">
+
+**How do you escape the Buggy Choke?** Act during the threading phase — before the second grip is secured. Clamp your near elbow tight to your ribs to block arm depth, drive your head and shoulders up to maintain posture, and immediately work toward guard recovery or a controlled stand-up. Once both grips are locked with body pressure applied, your escape window narrows dramatically and accepting back control becomes the best option over being choked.
 
 Defending the Buggy Choke from the bottom represents one of the most challenging defensive scenarios in turtle position because the attack simultaneously threatens submission while breaking down defensive posture. Unlike many turtle attacks that require multiple steps to finish, the buggy choke can materialize rapidly once the initial threading occurs, leaving limited time for defensive intervention. Bottom players must understand that this position punishes the passive defensive turtle strategy that works against less sophisticated attacks.
 
