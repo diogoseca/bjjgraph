@@ -1,2 +1,4 @@
 triggered_by,category,suggested_name,reason
 validate_graph_integrity,Transitions,Guard Recovery,Missing transition: 'Guard Recovery' (referenced but no file)
+paa_seo_analysis,Positions,Backside 50-50 vs Saddle Comparison,PAA gap: users confuse Backside 50-50 Bottom and Saddle (bottom) - comparison guide needed
+paa_seo_analysis,Positions,50-50 Ruleset Guide,PAA gap: no page covering when heel hooks from 50-50 variations are legal across IBJJF/ADCC/submission-only rulesets
