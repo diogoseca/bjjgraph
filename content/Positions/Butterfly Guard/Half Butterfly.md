@@ -4,7 +4,7 @@
 
 ---
 title: "Half Butterfly | BJJ Position Guide | BJJ Graph"
-description: "Master Half Butterfly guard in BJJ. Hybrid position combining butterfly hooks with half guard control. Learn sweeps, transitions, and retention strategies with expert analysis."
+description: "Half Butterfly guard in BJJ: hybrid half guard with butterfly hook sweep mechanics. Covers sweeps, deep half transitions, back takes, and passing counters from both top and bottom."
 ---
 
 
