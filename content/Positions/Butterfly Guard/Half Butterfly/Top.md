@@ -4,7 +4,7 @@
 
 ---
 title: "Half Butterfly Top | BJJ Position Guide | BJJ Graph"
-description: "Master Half Butterfly Top position in BJJ. Top player control against bottom's butterfly hook with passing options. Key position for guard passing with 60-70% pass success rate."
+description: "How to pass Half Butterfly Top in BJJ: neutralize butterfly hook, establish crossface, and complete knee slice or smash pass with 60-70% success rate using chest pressure mechanics."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Half Butterfly Top",
-  "description": "Master Half Butterfly Top position in BJJ. Top player control against bottom's butterfly hook with passing options. Key position for guard passing with 60-70% pass success rate.",
+  "description": "How to pass Half Butterfly Top in BJJ: neutralize butterfly hook, establish crossface, and complete knee slice or smash pass with 60-70% success rate using chest pressure mechanics.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,11 +157,13 @@ description: "Master Half Butterfly Top position in BJJ. Top player control agai
 
 <section id="overview" class="content-section">
 
-Half Butterfly Top is a transitional position where the top player has passed one side of the butterfly guard but the bottom player retains one butterfly hook. This creates a dynamic half guard variant where the top player aims to complete the pass while the bottom player attempts to recover full butterfly guard or sweep. The position requires careful weight distribution from the top player to prevent the butterfly hook from generating lifting power while simultaneously advancing the pass.
+**Half Butterfly Top** is a critical transitional passing position in BJJ where you have cleared one side of the opponent's [[Positions/Butterfly Guard|Butterfly Guard]] but they retain one butterfly hook under your thigh. Your goal is to complete the pass to [[Positions/Side Control|Side Control]] by neutralizing the remaining hook's lifting power while the bottom player attempts to recover full butterfly guard or sweep. Pass completion rate from this position: 60–70% for practitioners who maintain proper chest pressure and base. The single most important adjustment is driving your chest forward and hips toward the mat to remove the hook's mechanical advantage.
 
-This is a critical juncture in modern guard passing, as many high-level players use butterfly-based guards and the top player must understand how to neutralize the remaining hook while maintaining forward pressure. The position often arises during knee slice attempts, smash passes, or when passing aggressive butterfly guard players who fight to retain at least one hook. Success in this position requires understanding both pressure passing principles and the biomechanics of how the butterfly hook generates leverage.
+This position arises during [[Transitions/Knee Slice Pass|Knee Slice]] attempts, [[Transitions/Smash Pass|Smash Passes]], and when passing aggressive [[Positions/Butterfly Guard|Butterfly Guard]] players who fight to retain at least one hook. Success requires understanding the biomechanics of how the butterfly hook generates elevation: the hook's lifting power is maximized when the top player's hips are high and their weight is back — so the antidote is chest-forward, hips-low pressure that shifts load away from the hook's optimal leverage point near the thigh.
 
-The top player must establish upper body control first through crossface or underhook, then systematically neutralize the butterfly hook's effectiveness through strategic weight distribution and hip positioning. The position demands constant forward pressure while maintaining a wide base to prevent sweeps, creating a technical challenge that separates effective passers from those who get swept or stalled in guard.
+The top player must establish upper body control first through crossface or underhook before attempting to complete the pass. Crossface control is paramount — it limits the bottom player's ability to turn into you, prevents them from creating sweeping angles, and reduces their mobility for guard recovery. Without crossface, the bottom player can create the angle necessary for [[Transitions/Basic Butterfly Sweep|Butterfly Sweep]] elevation or dive under for [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] entry.
+
+The position demands constant forward pressure while maintaining a wide knee base. Narrow knees create an unstable platform easily tipped by hook elevation; wide knees distribute weight and resist sweep mechanics. The passing chain flows: neutralize hook with weight distribution → establish crossface or underhook → choose passing lane (knee slice, smash, leg weave, or underhook pass) based on bottom player's reaction. Use weight shifts as feints — bait their reactions before committing to a specific passing direction.
 
 </section>
 

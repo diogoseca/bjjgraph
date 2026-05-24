@@ -4,7 +4,7 @@
 
 ---
 title: "Half Butterfly Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combining half guard and butterfly hooks. Learn sweeps, transitions, and retention with 55% sweep success rate."
+description: "How to attack from Half Butterfly Bottom in BJJ: sweep with butterfly hook, transition to deep half under pressure, back take with underhook, and retain guard with 55-65% sweep success rate."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Half Butterfly Bottom",
-  "description": "Master Half Butterfly Bottom position in BJJ. Hybrid guard combining half guard and butterfly hooks. Learn sweeps, transitions, and retention with 55% sweep success rate.",
+  "description": "How to attack from Half Butterfly Bottom in BJJ: sweep with butterfly hook, transition to deep half under pressure, back take with underhook, and retain guard with 55-65% sweep success rate.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,11 +157,13 @@ description: "Master Half Butterfly Bottom position in BJJ. Hybrid guard combini
 
 <section id="overview" class="content-section">
 
-Half Butterfly Bottom is a dynamic hybrid guard position that combines elements of half guard and butterfly guard. The bottom practitioner controls one of the opponent's legs between their own legs (half guard component) while maintaining a butterfly hook on the free leg side. This position offers excellent sweeping opportunities and creates offensive dilemmas for the top player who must defend both the half guard escape and butterfly hook threats simultaneously.
+**Half Butterfly Bottom** is a hybrid guard in BJJ that combines [[Positions/Half Guard|Half Guard]] leg control with a [[Positions/Butterfly Guard|Butterfly Guard]] hook on the free-leg side. The bottom player traps one opponent leg between their own legs while inserting a butterfly hook under the opponent's free thigh — creating simultaneous threats the top player must defend from two different angles. Sweep success rate: 55–65% for practitioners with solid underhook control. Requires: active hip mobility, butterfly hook mechanics, and at least one upper body connection (underhook or overhook).
 
-The position is particularly effective in no-gi grappling and modern competitive BJJ, where practitioners use the butterfly hook to elevate and off-balance opponents while the half guard component prevents easy passing. The unique structure allows for multiple sweep variations, back-take opportunities, and transitions to other guard positions. Unlike traditional half guard which can be more defensive, Half Butterfly Bottom maintains constant attacking pressure through the butterfly hook's lifting power combined with half guard control.
+Half Butterfly Bottom is particularly effective in no-gi grappling and modern competitive BJJ, where practitioners like Marcelo Garcia and Lucas Leite demonstrated that adding the butterfly hook to traditional [[Positions/Half Guard|Half Guard]] creates additional vectors of control that pure half guard lacks. The asymmetric structure generates powerful sweep elevation, enables seamless transitions to [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] under pressure, [[Positions/X-Guard|X-Guard]] when the opponent stands, and [[Positions/Butterfly Guard|full Butterfly Guard]] when both hooks insert. Unlike static defensive half guard, Half Butterfly maintains constant attacking pressure through the butterfly hook's lifting mechanics combined with the half guard anchor — forcing the top player into constant defensive choices.
 
-This position represents an evolution in half guard theory, popularized by practitioners like Marcelo Garcia and Lucas Leite, who recognized that adding the butterfly hook creates additional vectors of control and sweep mechanics that pure half guard lacks. The position excels in creating scrambles and forcing opponents into defensive postures, making it ideal for practitioners who favor dynamic, movement-based guard play.
+The [[Positions/Dogfight Position|Dogfight Position]] is the key scramble output when both players engage with the underhook: if you get the underhook on the butterfly hook side and use it to come up onto your knees, a dogfight results. From there, the underhook sweep or back take becomes available. Alternatively, [[Positions/Half Guard/Deep Half Guard|Deep Half Guard]] is the primary pressure relief valve — when the top player drives heavy chest pressure, diving under their hips and inverting into deep half neutralizes their weight while creating sweep and back take opportunities.
+
+The position's offensive dilemma principle — forcing opponents to choose between defending the half guard escape and the butterfly hook sweep — makes it a cornerstone of modern no-gi guard strategy. The practitioner who maintains active butterfly hook pressure while establishing the underhook creates situations where every defensive response the top player makes opens a different attack.
 
 </section>
 
