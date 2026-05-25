@@ -343,7 +343,7 @@
   },
   "bottom": {
     "name": "Body Lock Bottom",
-    "description": "Defensive strategies and escape techniques when opponent has established body lock control. Learn to defend mat returns, break grips, and recover neutral position.",
+    "description": "How to escape body lock in BJJ: defensive guide for opponent's torso grip. Covers grip break timing (39% attempt rate), controlled guard pull, and base maintenance against throws and lifts.",
     "tags": [
       "bjj",
       "position",
@@ -354,7 +354,7 @@
       "standing",
       "clinch"
     ],
-    "overview": "Body Lock Bottom is a highly disadvantageous defensive position where your opponent has wrapped both arms around your torso with hands locked together, controlling your movement and setting up immediate threats of back takes, throws, or mat returns. This position requires urgent defensive action as it represents one of the most dominant forms of standing control in grappling. Your opponent has eliminated your ability to create distance, established connection to your center of mass, and can execute multiple high-percentage attacks within seconds.\n\nFrom bottom, your primary objectives are breaking your opponent's locked grip, creating space to establish defensive frames, preventing your posture from breaking backward, and escaping to neutral standing position or guard. The longer you remain in this position, the more your opponent can tire you out, break your posture, and execute their preferred takedown or back take. Understanding hand fighting principles, hip positioning for creating space, and recognizing when to sit to guard versus when to fight for standing position becomes critical for effective defense.\n\nThe body lock bottom position appears frequently in no-gi competition when opponents establish dominant clinch control or when you're caught during scrambles and transitions. Developing competent defenses prevents opponents from consistently taking your back or scoring takedowns, which is essential for competitive success at all levels.",
+    "overview": "Body Lock Bottom is the defensive situation when your opponent has wrapped both arms around your torso with hands locked, threatening immediate back takes, throws, or mat returns. Escape requires acting within 2-3 seconds: grip break before hip pressure builds (39% of attempts), controlled guard pull to prevent being thrown (19% of attempts), or whizzer to create separation (7% of attempts). Your opponent has eliminated your ability to create distance and can execute multiple attacks within seconds.\n\nFrom bottom, your primary objectives are breaking your opponent's locked grip, creating space to establish defensive frames, preventing your posture from breaking backward, and escaping to neutral standing position or guard. The longer you remain in this position, the more your opponent can tire you out, break your posture, and execute their preferred takedown or back take. Understanding hand fighting principles, hip positioning for creating space, and recognizing when to sit to guard versus when to fight for standing position becomes critical for effective defense.\n\nThe body lock bottom position appears frequently in no-gi competition when opponents establish dominant clinch control or when you're caught during scrambles and transitions. Developing competent defenses prevents opponents from consistently taking your back or scoring takedowns, which is essential for competitive success at all levels.",
     "state_properties": {
       "point_value": 0,
       "position_type": "Defensive",
@@ -390,7 +390,7 @@
         "condition": "If opponent has locked grip but hasn't yet driven hip pressure",
         "actions": [
           {
-            "technique": "Post on hips and create distance",
+            "technique": "Escape Body Lock",
             "target": "Clinch",
             "probability": 45
           },
@@ -410,7 +410,7 @@
             "probability": 55
           },
           {
-            "technique": "Whizzer and sprawl to widen base",
+            "technique": "Whizzer",
             "target": "Front Headlock",
             "probability": 35
           }
@@ -425,7 +425,7 @@
             "probability": 50
           },
           {
-            "technique": "Hook opponent's leg and block throw",
+            "technique": "Sprawl Defense",
             "target": "Clinch",
             "probability": 30
           }

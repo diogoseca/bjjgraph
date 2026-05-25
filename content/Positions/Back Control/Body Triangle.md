@@ -4,7 +4,7 @@
 
 ---
 title: "Body Triangle | BJJ Position Guide | BJJ Graph"
-description: "Master body triangle position in BJJ. Powerful leg control from back control creating breathing restriction and submission setups with comprehensive perspective analysis."
+description: "Body triangle in BJJ: dominant back control variant using figure-four leg lock for breathing restriction, 78% control retention, and high-percentage RNC, bow-and-arrow, and armbar setups."
 ---
 
 
@@ -22,7 +22,7 @@ description: "Master body triangle position in BJJ. Powerful leg control from ba
 
 <section id="overview" class="content-section">
 
-Body Triangle Position is a highly dominant variation of back control where instead of using leg hooks, you've locked your legs around your opponent's torso in a triangle configuration. This provides exceptional control with minimal energy expenditure while creating tremendous pressure and submission opportunities. The body triangle creates a mechanical advantage that restricts breathing, limits hip movement, and prevents common back escape strategies.
+Body Triangle is a dominant back control variation where you lock your legs in a figure-four configuration around your opponent's torso instead of using standard hooks. This position achieves 78% retention rate for the attacker while creating breathing restriction that forces opponents into defensive mistakes. The body triangle creates a mechanical advantage that restricts breathing, limits hip movement, and prevents common back escape strategies.
 
 The position is achieved by crossing one leg over the other and tucking it behind your own knee, creating a locked configuration around the opponent's midsection. This figure-four lock creates constant squeezing pressure on the ribcage and diaphragm, making it extremely uncomfortable for the opponent and forcing them to work urgently for escape. Unlike traditional hooks, the body triangle cannot be cleared with simple hip movement, making it one of the most secure forms of back control.
 
