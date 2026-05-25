@@ -4,7 +4,7 @@
 
 ---
 title: "Body Triangle Bottom | BJJ Position Guide | BJJ Graph"
-description: "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates."
+description: "Body triangle attacker guide: apply figure-four back control for breathing restriction, 78% control retention rate, and high-percentage RNC (42%), bow-and-arrow (11%), and armbar finishes."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Body Triangle Bottom",
-  "description": "Master body triangle from bottom perspective. Powerful leg control creating breathing restriction and submission setups with high retention and finishing rates.",
+  "description": "Body triangle attacker guide: apply figure-four back control for breathing restriction, 78% control retention rate, and high-percentage RNC (42%), bow-and-arrow (11%), and armbar finishes.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,7 +157,7 @@ description: "Master body triangle from bottom perspective. Powerful leg control
 
 <section id="overview" class="content-section">
 
-From the bottom perspective in Body Triangle Position, you are the attacker who has secured back control and locked your legs in a triangle configuration around your opponent's torso. This is one of the most dominant positions in Brazilian Jiu-Jitsu, offering exceptional control with minimal energy expenditure while creating tremendous pressure and multiple submission pathways. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.
+From the bottom (attacker) perspective in Body Triangle, you have secured back control and locked your legs in a figure-four configuration around your opponent's torso. This is one of the most dominant positions in BJJ: 78% retention rate, low energy cost, and multiple finishing options including rear naked choke (42% of transitions), bow-and-arrow choke (11%), and short choke (8%). Your legs create a mechanical lock that grows tighter as the opponent resists. Your legs create a figure-four lock that cannot be cleared through standard escape techniques, while your upper body is free to hunt for finishing attacks.
 
 The mechanical advantage of the body triangle is substantial - by crossing one leg over the other and tucking the foot behind your own knee, you create a locked structure that restricts your opponent's breathing and prevents hip rotation. Unlike standard back control with hooks, which requires constant adjustment and can be cleared through systematic hip movement, the body triangle represents a static mechanical lock that grows tighter as the opponent attempts to escape. The breathing restriction is not merely uncomfortable but creates genuine physiological stress that compounds over time, forcing your opponent to work urgently and often make defensive mistakes.
 

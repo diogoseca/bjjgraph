@@ -4,7 +4,7 @@
 
 ---
 title: "Body Triangle Top | BJJ Position Guide | BJJ Graph"
-description: "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences."
+description: "How to escape body triangle in BJJ: systematic defense guide for breathing management under figure-four restriction, clearing the lock, and escaping to turtle or half guard."
 ---
 
 
@@ -115,7 +115,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
   "@context": "https://schema.org",
   "@type": "WebPage",
   "name": "Body Triangle Top",
-  "description": "Defend and escape body triangle position in BJJ. Strategic guide covering breathing management, triangle clearing, and systematic escape sequences.",
+  "description": "How to escape body triangle in BJJ: systematic defense guide for breathing management under figure-four restriction, clearing the lock, and escaping to turtle or half guard.",
   "isPartOf": {
     "@type": "WebSite",
     "name": "BJJ Graph",
@@ -157,7 +157,7 @@ description: "Defend and escape body triangle position in BJJ. Strategic guide c
 
 <section id="overview" class="content-section">
 
-From the top perspective in Body Triangle Position, you are the defender who is being controlled from the back with your opponent's legs locked in a triangle configuration around your torso. This is one of the most challenging defensive positions in Brazilian Jiu-Jitsu, as the body triangle provides your opponent exceptional control while restricting your breathing and limiting your escape options. Unlike standard back control with hooks, the triangle lock cannot be cleared through simple hip movement, requiring systematic approach and mental composure under significant physical and psychological pressure.
+From the top perspective in Body Triangle, you are the defender being controlled from the back with your opponent's legs locked in a figure-four configuration around your torso. This is one of the most challenging defensive positions in BJJ: breathing is restricted, hip rotation is prevented, and your opponent's hands are free to hunt submissions. Unlike standard back control with hooks, the triangle lock cannot be cleared through simple hip movement, requiring a systematic technical approach and mental composure under pressure. Escape probability reaches approximately 48% at intermediate level with proper technique.
 
 The primary challenge of this position is the breathing restriction created by the triangle squeezing your ribcage and diaphragm. This creates genuine physiological stress that compounds over time, forcing you to work urgently while potentially causing panic. Your opponent's legs create a locked structure that prevents hip rotation and limits your ability to turn into them or create escape angles. Meanwhile, their upper body is free to attack your neck and arms without concern for maintaining leg positioning, creating a multi-layered defensive challenge.
 
