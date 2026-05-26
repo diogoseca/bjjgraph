@@ -12,20 +12,31 @@ Brazilian Jiu-Jitsu knowledge graph and state machine as a static site. The proj
 
 ## What's Inside
 
-- **85+ Positions** - BJJ positions as state machine nodes
+### Knowledge base
+
+- **137+ Positions** - BJJ positions as state-machine nodes (top/bottom role pages)
 - **1000+ Transitions** - Techniques as probabilistic edges between states
-- **150+ Submissions** - Terminal states and finishing techniques
-- **Expert Systems** - Systematic approaches from Danaher, Gordon Ryan, Eddie Bravo
-- **Learning Articles** - Strategy, training methods, and competition tactics
-- **Interactive Graph** - Visual exploration of position relationships
-- **Graph Data** - [Download graph.json](https://github.com/diogoseca/bjjgraph/releases/latest) — the full knowledge graph as structured data (also available as .gz)
+- **350+ Submissions** - Terminal states and finishing techniques (with attacker/defender role pages)
+- **47 Expert Systems** - Systematic approaches (Danaher, Gordon Ryan, Eddie Bravo, etc.)
+- **59 Principles** - Fundamental BJJ principles (base, posture, framing, …)
+- **22 Learning Articles** - Strategy, training methods, and competition tactics
+- **Graph Data** - [Download graph.json](https://github.com/diogoseca/bjjgraph/releases/latest) — the full knowledge graph as structured data (also available as `.gz`)
+
+### Interactive UX
+
+- **Background graph** - The entire knowledge graph sits behind every page as a swipeable drawer. Scroll up (or tap the top stripe) to expand it; click a node to crossfade to that page.
+- **Training mode** - Spaced-repetition flashcards (SM-2 algorithm) drawn from per-technique Q&A. Daily-goal driven, with deck filters: due / reviewing / mastered / suggested / recently explored.
+- **Roll mode** - Simulate a journey through positions: pick a starting position, then roll dice against transition probabilities. Tracks your journey for a post-roll victory display + lifetime stats.
+- **Optional Supabase sync** - Sign in with Google to sync flashcard progress and roll history across devices. Anonymous use is fully supported (everything lives in `localStorage`).
 
 ## Quick Start
 
 ```bash
-cd source && npm install   # Install dependencies (Node 20+)
-cd .. && npm run dev       # Development server at localhost:8080
+npm install                # Installs root + source/ deps via postinstall (Node 20+)
+npm run dev                # Build + serve at http://localhost:8080 (~10 min cold build)
 ```
+
+For iterative work, edit JSON sources in `content/`, run a targeted regenerate step (`npm run regenerate:md` for markdown only, or `npm run regenerate` for the full pipeline), then `npm run build`. The serve step alone is `npm run serve`.
 
 ## Contributing
 
@@ -33,16 +44,21 @@ cd .. && npm run dev       # Development server at localhost:8080
 
 | Command | Description |
 |---------|-------------|
-| `npm run validate:json` | Validate JSON schemas |
-| `npm run validate:graph` | Validate graph integrity |
-| `npm run regenerate:json` | Fix/enrich JSON content with Claude AI |
-| `npm run regenerate:md` | Regenerate markdown from JSON |
-| `npm run regenerate:hubs` | Generate category hub pages |
-| `npm run regenerate:graph` | Generate graph.json |
-| `npm run regenerate` | Run all regeneration steps |
-| `npm run build` | Build static site |
+| `npm run validate:json` | Validate JSON sources against `templates/` schemas |
+| `npm run validate:graph` | Validate graph integrity (referential consistency, probability sums) |
+| `npm run regenerate:issues` | List content files that need fixes |
+| `npm run regenerate:json` | Fill TODOs / fix validation errors in JSON via Claude API |
+| `npm run regenerate:explode` | Expand graph connections (derive opponent transitions, etc.) |
+| `npm run regenerate:md` | Regenerate markdown from JSON via Jinja2 templates |
+| `npm run regenerate:hubs` | Generate category hub pages (`Positions.md`, `Transitions.md`, …) |
+| `npm run regenerate:votes` | Generate community voting data |
+| `npm run regenerate:graph` | Generate `graph.json` (the runtime data feed) |
+| `npm run regenerate` | All 7 regenerate steps in order |
+| `npm run build` | Build the static site (~10 min, ~5700 files) |
 | `npm run regenerate:build` | Regenerate + build (full workflow) |
-| `npm run dev` | Development server with live reload |
+| `npm run serve` | Serve `source/public` on port 8080 (no rebuild) |
+| `npm run dev` | `build` then `serve` |
+| `npm run proofread` | Recurring LLM audit of graph edges + probabilities (intermittent use; not part of `regenerate`) |
 
 ### Pre-Flight Checklist
 
@@ -74,29 +90,36 @@ Never edit `.md` files in `content/` directly — they are generated from the `.
 
 Built on [Quartz 4.0](https://quartz.jzhao.xyz/) with:
 
-- Interactive graph visualization (D3.js)
-- Full-text search (Flexsearch)
-- PostHog analytics
-- Mobile-responsive design
-- Schema markup for SEO (HowTo, FAQ)
+- **Graph rendering**: PixiJS (WebGL) for the full-viewport background graph + D3-force for layout. node2vec + UMAP precompute global node positions at build time for instant first paint.
+- **Search**: Flexsearch full-text index, lazily fetched (gzipped) on first open.
+- **Training (SRS)**: Client-side SM-2 spaced repetition. State lives in `localStorage` (`bjj-srs-cards`, `bjj-settings`, `bjj-daily-progress`, …); optional Supabase sync for signed-in users.
+- **Auth**: Optional Supabase Auth (email/password + Google OAuth). Anonymous use is fully supported.
+- **SPA navigation**: Micromorph-style page swaps + the CSS View Transitions API for crossfades and training-session carousel slides.
+- **Analytics**: PostHog (skipped-flashcard events, navigation patterns, feature flags).
+- **SEO**: Schema markup on every page (HowTo, FAQ, etc.) — generated by Jinja2 templates.
+- **Mobile**: Touch gestures (swipe-up reveals graph, pinch-zoom + drag pan the graph).
 
 ## Project Structure
 
 ```
 bjjgraph/
 ├── content/               # *.json = SOURCE data, *.md = GENERATED output
-│   ├── Positions/         # 85+ positions
-│   ├── Transitions/       # 1000+ transitions
-│   ├── Submissions/       # 150+ submissions
+│   ├── Positions/         # 137+ positions (hub + Top/Bottom role pages)
+│   ├── Transitions/       # 1000+ transitions (hub + Attacker/Defender role pages)
+│   ├── Submissions/       # 350+ submissions (hub + Attacker/Defender role pages)
 │   ├── Systems/           # Expert systems
 │   ├── Principles/        # Fundamental principles
 │   └── Learning/          # Strategy & training articles
 ├── templates/             # JSON schemas + Jinja2 templates (NOT source data)
-├── source/                # Quartz static site generator (MIT)
-│   └── quartz/
-├── scripts/               # Validation and automation
+├── graph.json             # Generated graph data feed (committed for releases)
+├── source/                # Quartz static site generator
+│   └── quartz/            # Components, plugins, styles
+├── scripts/               # Validation, regeneration, content-bot tooling
 ├── docs/                  # Project documentation
-└── tests/                 # Test artifacts
+├── branding/              # Logo + favicon assets
+├── tests/                 # Test artifacts and validation reports
+└── .github/workflows/     # CI: deploy (main/dev), content-improvement-bot,
+                           #     analytics-content-improvement, keepalives
 ```
 
 ## Partnership & Sponsorship
